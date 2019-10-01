@@ -15,7 +15,8 @@
         "Pages/global/_header.scss",
         "Pages/subject-page/_subject_page--import.scss",
         "Pages/subject-page/_subject.scss",
-        "Pages/rainbow/_rainbow.scss"
+        "Pages/games/_rainbow.scss",
+        "Pages/games/_color-game-1.scss"
     ],
     "names": [],
     "file": "style.css"
