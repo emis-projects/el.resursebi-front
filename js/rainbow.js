@@ -12,6 +12,11 @@ function rainbow(){
 		this.index = 0;
 		
 		rainbowBtns.forEach(b => {
+			var photoSrc = "../img/gakvetilebi/xelovneba/color-game/";
+			var photoName = b.getAttribute('data-name');
+			
+			b.setAttribute('src', `${photoSrc}${photoName}.svg`);
+
 			if(b.getAttribute('data-index') == 0){
 				b.parentElement.className += " cursor-pointer"
 			}
@@ -22,8 +27,7 @@ function rainbow(){
 	this.paint = function(color) {
 		this.color = color;
 		this.index++;
-
-		
+	
 		
 		let first = document.querySelector('.rainbow--line--first'),
 			second = document.querySelector('.rainbow--line--second'),
@@ -54,15 +58,15 @@ function rainbow(){
 		} else if(seventh.getAttribute('fill') == '#fff'){
 			seventh.setAttribute('fill', this.color)
 		}
-
-		if(this.index > 7){
-			this.index++
-		}
 	}
 
 
 	this.calculateNextIndex = (e) => {
 		var nextIndex = this.index + 1;
+
+		if(this.index == 6){
+			nextIndex = 6;
+		}
 
 		let btnsArray = [];
 
@@ -72,8 +76,22 @@ function rainbow(){
 
 		var newElement = btnsArray.filter(w => nextIndex == w.getAttribute('data-index'))
 	
-		newElement[0].parentElement.className += " cursor-pointer"
+		newElement[0].parentElement.className += " cursor-pointer";
+
+		if(this.index == 6){
+			newElement[0].parentElement.classList.remove('cursor-pointer');
+		}
 	}
+
+
+	this.generatePhotoSrc = b => {
+		var photoSrc = "../img/gakvetilebi/xelovneba/color-game/";
+		var photoName = b.getAttribute('data-name');
+		var showImage = "-show";
+
+		b.setAttribute('src', `${photoSrc}${photoName}${showImage}.svg`);
+	}
+
 	
 
 	var rainbowBtns = document.querySelectorAll('.color__btn');
@@ -81,7 +99,8 @@ function rainbow(){
 	rainbowBtns.forEach(b => {
 		b.addEventListener('click', e => {
 			e.target.parentElement.classList.remove('cursor-pointer');
-			colorsRainbow.calculateNextIndex();	
+			colorsRainbow.calculateNextIndex();
+			colorsRainbow.generatePhotoSrc(b);
 			colorsRainbow.paint(e.target.dataset.color);
 		})
 	})

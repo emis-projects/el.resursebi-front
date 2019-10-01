@@ -1,0 +1,30 @@
+.game__section.color-game-1 {
+    .choose__color {
+        width: 47px;
+        cursor: pointer;
+    }
+
+    .yellow-blue, .red-blue {
+        .choose__color:nth-child(1){
+            margin-right: 35px;
+        }
+    }
+
+    .yellow-blue {
+        margin-bottom: 45px;
+    }
+}
+
+
+#otherbtn {
+    padding-right: 15%;
+
+    .img1, .img2 {
+        width: 77px;
+        cursor: pointer;
+    } 
+
+    .img1 {
+        margin-right: 15px;
+    }
+}
