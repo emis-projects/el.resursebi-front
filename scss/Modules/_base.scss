@@ -14,6 +14,10 @@ body {
   justify-content: space-between;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
 .justify-around {
   justify-content: space-around;
 }
@@ -52,6 +56,10 @@ body {
 
 .d-block {
   display: block;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
 
 .w-100 {
@@ -98,4 +106,38 @@ body {
   margin-right: 10%;
   margin-left: 10%;
   height: 100%;
+}
+
+@media(min-width: 1000px){
+  .container {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+
+.page-main-icon {
+  width: 42px;
+  margin-right: 15px;
+}
+
+.text-container{
+  display: flex;
+  align-items: center;
+}
+
+.center-title {
+  margin-top: 37px;
+  display: flex;
+  align-items: center;
+
+  p {
+    color: #262626;
+    font-family: $alk-sanet;
+  }
+}
+
+.center-title img {
+  width: 33px;
+  margin-right: 15px;
 }

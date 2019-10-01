@@ -14,12 +14,11 @@
 @import 'Modules/functions';
 
 // libraries
-// @import 'libraries/_aos.scss';
+@import './libraries/slick';
 
 
 // components
 // @import 'Components/components-import';
 
-//Pages
-@import 'Pages/main-page/main_page--import';
-@import 'Pages/subject-page/subject_page--import';
+
+@import './Pages/pages--import'

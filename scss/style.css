@@ -106,6 +106,12 @@ body {
           justify-content: space-between;
 }
 
+.justify-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .justify-around {
   -ms-flex-pack: distribute;
       justify-content: space-around;
@@ -156,6 +162,10 @@ body {
   display: block;
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
 .w-100 {
   width: 100%;
 }
@@ -202,6 +212,157 @@ body {
   margin-right: 10%;
   margin-left: 10%;
   height: 100%;
+}
+
+@media (min-width: 1000px) {
+  .container {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+.page-main-icon {
+  width: 42px;
+  margin-right: 15px;
+}
+
+.text-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.center-title {
+  margin-top: 37px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.center-title p {
+  color: #262626;
+  font-family: "ALK Sanet";
+}
+
+.center-title img {
+  width: 33px;
+  margin-right: 15px;
+}
+
+@font-face {
+  font-family: 'ALK Sanet';
+  src: url("../../fonts/alk-sanet/ALKSanet.eot");
+  src: url("../../fonts/alk-sanet/ALKSanet.eot?#iefix") format("embedded-opentype"), url("../../fonts/alk-sanet/ALKSanet.woff2") format("woff2"), url("../../fonts/alk-sanet/ALKSanet.woff") format("woff"), url("../../fonts/alk-sanet/ALKSanet.ttf") format("truetype"), url("../../fonts/alk-sanet/ALKSanet.svg#ALKSanet") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Slider */
+.slick-slider {
+  position: relative;
+  display: block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.slick-list:focus {
+  outline: none;
+}
+
+.slick-list.dragging {
+  cursor: pointer;
+  cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.slick-track {
+  position: relative;
+  left: 0;
+  top: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.slick-track:before, .slick-track:after {
+  content: "";
+  display: table;
+}
+
+.slick-track:after {
+  clear: both;
+}
+
+.slick-loading .slick-track {
+  visibility: hidden;
+}
+
+.slick-slide {
+  float: left;
+  height: 100%;
+  min-height: 1px;
+  display: none;
+}
+
+[dir="rtl"] .slick-slide {
+  float: right;
+}
+
+.slick-slide img {
+  display: block;
+}
+
+.slick-slide.slick-loading img {
+  display: none;
+}
+
+.slick-slide.dragging img {
+  pointer-events: none;
+}
+
+.slick-initialized .slick-slide {
+  display: block;
+}
+
+.slick-loading .slick-slide {
+  visibility: hidden;
+}
+
+.slick-vertical .slick-slide {
+  display: block;
+  height: auto;
+  border: 1px solid transparent;
+}
+
+.slick-arrow.slick-hidden {
+  display: none;
 }
 
 header {
@@ -269,7 +430,6 @@ header nav .header-sound .header-sound_sound-off {
   background: transparent;
   -webkit-box-shadow: 0px 4px 6px #00000029;
           box-shadow: 0px 4px 6px #00000029;
-  margin-right: 50px;
   max-width: 36px;
   max-height: 36px;
   border-radius: 50%;
@@ -452,5 +612,52 @@ header nav .header-sound .header-sound_sound-off img {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   width: 100%;
+}
+
+.rainbow__main__img {
+  width: 51%;
+}
+
+.game__desc {
+  margin-top: 50px;
+  margin-bottom: 25px;
+  color: #0B2228;
+  font-size: 22px;
+  line-height: 30px;
+}
+
+.rainbow-img {
+  width: 35%;
+  height: 200px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  position: relative;
+}
+
+.rainbow-img div {
+  margin-right: 40px;
+  position: relative;
+}
+
+.rainbow-img div::after {
+  content: '';
+  background: transparent;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 55px;
+  height: 87px;
+  z-index: 1000;
+  opacity: 1;
+  visibility: visible;
+}
+
+.rainbow-img div.cursor-pointer::after {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.rainbow-img .color__btn {
+  position: relative;
 }
 /*# sourceMappingURL=style.css.map */
