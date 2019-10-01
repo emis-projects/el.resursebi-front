@@ -1,4 +1,4 @@
-$('#single-item').slick({
+$('#slider').slick({
     dots: true,
     arrows: false,
     speed: 400,
