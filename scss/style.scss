@@ -1,24 +1,19 @@
-@import 'Modules/variable';
-@import 'Partials/reset';
+@import "Modules/variable";
+@import "Partials/reset";
 
 // modules
-@import 'Modules/base';
-@import 'Modules/mixins';
-
+@import "Modules/base";
+@import "Modules/mixins";
 
 // partials
-@import 'Partials/fonts';
-
+@import "Partials/fonts";
 
 // functions
-@import 'Modules/functions';
+@import "Modules/functions";
 
 // libraries
-@import './libraries/slick';
-
 
 // components
 // @import 'Components/components-import';
 
-
-@import './Pages/pages--import'
+@import "./Pages/pages--import";

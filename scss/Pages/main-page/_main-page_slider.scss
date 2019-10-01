@@ -1,5 +1,7 @@
-/* wow slider CSS section */
-
+@import "../global/sectionPointer";
+/* 
+*wow slider CSS section 
+*/
 .owl-carousel {
   .owl-item {
     display: block;
@@ -14,7 +16,7 @@
       height: 100% !important;
       display: block;
     }
-    .slider-item {
+    .item {
       height: inherit !important;
       display: flex;
       align-items: center;
@@ -41,7 +43,9 @@
   }
 }
 
-/* slider content section */
+/* 
+! slider content section 
+*/
 
 .slider {
   margin-top: 16vh;
@@ -73,6 +77,8 @@
     height: inherit !important;
     .text-wrapper {
       font-family: "ALK Sanet";
+      padding-left: 8.6vw;
+      height: inherit;
       .button-red {
         background-image: url("../img/slider/start-buttons/red-button.svg");
       }
@@ -87,7 +93,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: left center;
-        margin-top: 5vh;
+        margin-top: 4vh;
         height: 8.7vh;
         width: 26vh;
         font-family: inherit;

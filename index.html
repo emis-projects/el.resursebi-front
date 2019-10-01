@@ -9,7 +9,7 @@
       rel="stylesheet"
       href="//cdn.web-fonts.ge/fonts/alk-sanet/css/alk-sanet.min.css"
     />
-    <link rel="stylesheet" href="scss/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="./scss/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="scss/style.css" />
     <title>ხელოვნება</title>
   </head>
@@ -37,25 +37,22 @@
       </header>
       <section class="main-box">
         <div class="text-container">
-          <h1>აირჩიე კლასი</h1>
+          <div>აირჩიე კლასი</div>
           <img src="img/icons/chevron-down.svg" alt="down-arrow" />
         </div>
-        <div class="slider owl-carousel owl-theme row">
-          <div class="item col-12">
-            <div class="row slide_content-box">
-              <div class="img-warpper col-5">
+        <div class="slider owl-carousel owl-theme row no-gutters">
+          <div class="item col-12 slide_content-box">
+              <div class="img-warpper button-red col-5">
                 <img src="img/slider/slide-1.svg" alt="" />
               </div>
               <div class="text-wrapper col-7">
                 <a href="#" class="button-red">დაწყება</a>
                 <h1>გააციფრულე სწავლის პროცესი</h1>
                 <p>ხელოვნური ინტელექტის გამოყენებით</p>
-              </div>
             </div>
           </div>
-          <div class="slide-item item col-12">
-            <div class="row slide-item_content-box">
-              <div class="img-warpper col-5">
+          <div class="item col-12 slide_content-box">
+              <div class="img-warpper button-blue col-5">
                 <img src="img/slider/slide-2.svg" alt="" />
               </div>
               <div class="text-wrapper col-7">
@@ -63,18 +60,15 @@
                 <h1>გააციფრულე სწავლის პროცესი</h1>
                 <p>ხელოვნური ინტელექტის გამოყენებით</p>
               </div>
-            </div>
           </div>
-          <div class="slide-item item col-12">
-            <div class="row slide-item_content-box">
-              <div class="img-warpper col-5">
+          <div class="item col-12 slide_content-box">
+              <div class="img-warpper button-yellow  col-5">
                 <img src="img/slider/slide-3.svg" alt="" />
               </div>
               <div class="text-wrapper col-7">
                 <a href="#" class="button-yellow">დაწყება</a>
                 <h1>გააციფრულე სწავლის პროცესი</h1>
                 <p>ხელოვნური ინტელექტის გამოყენებით</p>
-              </div>
             </div>
           </div>
         </div>
@@ -91,7 +85,7 @@
         nav: false,
         margin: 10,
         items: 1,
-        autoplay: true,
+        autoplay: false,
         autoHeight: true,
         autoplayTimeout: 4000,
         autoplayHoverPause: true
