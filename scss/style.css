@@ -286,7 +286,6 @@ header nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 100%;
   height: inherit;
 }
 
@@ -312,36 +311,23 @@ header nav .header-sound {
   height: inherit;
 }
 
-header nav .header-sound .header-sound_sound-on {
+header nav .header-sound .header-sound_switch {
   height: inherit;
   background: transparent;
   -webkit-box-shadow: 0px 4px 6px #00000029;
           box-shadow: 0px 4px 6px #00000029;
+  max-width: 36px;
+  max-height: 36px;
+  border-radius: 50%;
+}
+
+header nav .header-sound .header-sound_switch img {
+  max-height: 36px;
+  height: 100%;
+}
+
+header nav .header-sound .sound-on {
   margin-right: 50px;
-  max-width: 36px;
-  max-height: 36px;
-  border-radius: 50%;
-}
-
-header nav .header-sound .header-sound_sound-on img {
-  max-height: 36px;
-  height: 100%;
-}
-
-header nav .header-sound .header-sound_sound-off {
-  height: inherit;
-  background: transparent;
-  -webkit-box-shadow: 0px 4px 6px #00000029;
-          box-shadow: 0px 4px 6px #00000029;
-  max-width: 36px;
-  max-height: 36px;
-  border-radius: 50%;
-  overflow: hidden;
-}
-
-header nav .header-sound .header-sound_sound-off img {
-  max-height: 36px;
-  height: 100%;
 }
 
 .main-box {
@@ -446,27 +432,27 @@ header nav .header-sound .header-sound_sound-off img {
   color: #262626;
 }
 
-.slider .slide-item_content-box {
+.slider .slide_content-box {
   height: inherit !important;
 }
 
-.slider .slide-item_content-box .text-wrapper {
+.slider .slide_content-box .text-wrapper {
   font-family: "ALK Sanet";
 }
 
-.slider .slide-item_content-box .text-wrapper .button-red {
+.slider .slide_content-box .text-wrapper .button-red {
   background-image: url("../img/slider/start-buttons/red-button.svg");
 }
 
-.slider .slide-item_content-box .text-wrapper .button-blue {
+.slider .slide_content-box .text-wrapper .button-blue {
   background-image: url("../img/slider/start-buttons/blue-button.svg");
 }
 
-.slider .slide-item_content-box .text-wrapper .button-yellow {
+.slider .slide_content-box .text-wrapper .button-yellow {
   background-image: url("../img/slider/start-buttons/yellow-button.svg");
 }
 
-.slider .slide-item_content-box .text-wrapper a {
+.slider .slide_content-box .text-wrapper a {
   display: block;
   background-repeat: no-repeat;
   background-size: cover;
@@ -483,7 +469,7 @@ header nav .header-sound .header-sound_sound-off img {
   border-radius: 27px;
 }
 
-.slider .slide-item_content-box .text-wrapper h1 {
+.slider .slide_content-box .text-wrapper h1 {
   text-align: left;
   font-size: 4.2vh;
   font-family: inherit;
@@ -492,32 +478,24 @@ header nav .header-sound .header-sound_sound-off img {
   padding: 10.4vh 0 3vh 0;
 }
 
-.slider .slide-item_content-box .text-wrapper p {
+.slider .slide_content-box .text-wrapper p {
   text-align: left;
   font-family: inherit;
   font-size: 2.08vh;
   color: #c5cbcd;
 }
 
+/*
 .slider-animation {
   stroke-dasharray: 100;
-  -webkit-animation: dash 5s linear infinite;
-          animation: dash 5s linear infinite;
+  animation: dash 5s linear infinite;
 }
-
-@-webkit-keyframes dash {
-  to {
-    stroke-dashoffset: 1000;
-  }
-}
-
 @keyframes dash {
   to {
     stroke-dashoffset: 1000;
   }
 }
-
-/* .bee-animation {
+.bee-animation {
     animation: circle 5s linear infinite;
 }
 @keyframes circle{

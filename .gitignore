@@ -1,6 +1,10 @@
+
 # Logs
 logs
 *.log
+*.json
+*.css.map
+*.map
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
