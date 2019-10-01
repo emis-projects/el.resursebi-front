@@ -196,6 +196,14 @@ body {
   display: table;
 }
 
+@font-face {
+  font-family: 'ALK Sanet';
+  src: url("../../fonts/alk-sanet/ALKSanet.eot");
+  src: url("../../fonts/alk-sanet/ALKSanet.eot?#iefix") format("embedded-opentype"), url("../../fonts/alk-sanet/ALKSanet.woff2") format("woff2"), url("../../fonts/alk-sanet/ALKSanet.woff") format("woff"), url("../../fonts/alk-sanet/ALKSanet.ttf") format("truetype"), url("../../fonts/alk-sanet/ALKSanet.svg#ALKSanet") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
 .navigation {
   display: -webkit-box;
   display: -ms-flexbox;
