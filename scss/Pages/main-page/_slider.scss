@@ -66,7 +66,6 @@
 .slick-dots {
     display: flex;
     justify-content: center;
-    // margin-bottom: 39px;
     li {
         width: 16px;
         height: 16px;
@@ -94,38 +93,5 @@
         stroke-dashoffset: 1000;
     }
 }
-// .bee-animation {
-//     animation: circle 5s linear infinite;
-// }
-// @keyframes circle{
-//     0%{
-//       transform:rotate(0deg)
-//                 translate(-15px)
-//                 rotate(0deg);
-    
-//     }
-//     100%{
-//       transform:rotate(360deg)
-//                 translate(-15px)
-//                 rotate(-360deg);
-//     }
-//   }
-// @keyframes circle{
-//     0%{
-//         transform: translate(25px, 25px);
-//     }
-//     25%{
-//       transform: translate(-25px, -25px);
-//     }
-//     50% {
-//       transform: translate(-25px, 25px);
-//     }
-//     75% {
-//       transform: translate(25px, -25px);
-//     }
-//     100%{
-//         transform: translate(25px, 25px);
-//     }
-//   }
-  
+
   
