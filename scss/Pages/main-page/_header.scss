@@ -1,0 +1,24 @@
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 111px;
+    max-width: 1070px;
+    margin: 0 auto;
+
+    .sound {
+        .sound-on {
+            margin-right: 54px;
+            background: none;
+            img{
+                width: 36px;
+            }
+        }
+        .sound-off {
+            background: none;
+            img{
+                width: 36px;
+            }
+        }
+    }
+}

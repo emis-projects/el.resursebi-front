@@ -1,0 +1,131 @@
+.start-button {
+    // margin-top: 25px;
+    margin-bottom: 81px;
+    button {
+        width: 203px;
+        height: 68px;
+        border: none;
+        font-family: "ALK Sanet", sans-serif;
+        font-size: 16px;
+        color: #fff;
+        background: none;
+        position: relative;
+        a{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #262626;
+            
+        }
+    }
+}
+.container {
+    max-width: 1070px;
+    margin: 0 auto;
+    height: calc(100% - 111px);
+    .text-container {
+        display: flex;
+        h1{
+            font-family: "ALK Sanet", sans-serif;
+            font-size: 24px;
+            color: #0B2228;
+            margin-right: 25px;
+        }
+    }
+}
+.slider {
+    .slide-1 {
+        display: flex;
+        align-items: center;
+    }
+    .slide-2 {
+        display: flex;
+        align-items: center;
+    }
+    .slide-3 {
+        display: flex;
+        align-items: center;
+    }
+    .slider-text-container {
+        margin-left: 130px;
+        h1 {
+            font-family: "ALK Sanet", sans-serif;
+            font-size: 32px;
+            color: #0B2228;
+            margin-bottom: 21px;
+            line-height: 1;
+        }
+        p {
+            color: #C5CBCD;
+            font-size: 16px;
+            font-style: italic;
+        }
+    }
+}
+.slick-dots {
+    display: flex;
+    justify-content: center;
+    // margin-bottom: 39px;
+    li {
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        border: 1px solid #707070;
+        margin-right: 14px;
+        &:last-child() {
+            margin-right: 0;
+        }
+    }
+    button {
+        opacity: 0;
+    }
+    .slick-active {
+        border: none;
+        background-color: #7FD1D8;
+    }
+}
+.slider-animation {
+    stroke-dasharray: 100;
+    animation: dash 5s linear infinite;
+}
+@keyframes dash {
+    to {
+        stroke-dashoffset: 1000;
+    }
+}
+// .bee-animation {
+//     animation: circle 5s linear infinite;
+// }
+// @keyframes circle{
+//     0%{
+//       transform:rotate(0deg)
+//                 translate(-15px)
+//                 rotate(0deg);
+    
+//     }
+//     100%{
+//       transform:rotate(360deg)
+//                 translate(-15px)
+//                 rotate(-360deg);
+//     }
+//   }
+// @keyframes circle{
+//     0%{
+//         transform: translate(25px, 25px);
+//     }
+//     25%{
+//       transform: translate(-25px, -25px);
+//     }
+//     50% {
+//       transform: translate(-25px, 25px);
+//     }
+//     75% {
+//       transform: translate(25px, -25px);
+//     }
+//     100%{
+//         transform: translate(25px, 25px);
+//     }
+//   }
+  
+  

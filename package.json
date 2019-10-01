@@ -1,0 +1,19 @@
+{
+  "name": "electronic-educational-resources",
+  "version": "1.0.0",
+  "description": "Electronic Educational Resources",
+  "main": "index.js",
+  "scripts": {
+    "watch": "gulp watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/front-end-jeko/Electronic-Educational-Resources.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/front-end-jeko/Electronic-Educational-Resources/issues"
+  },
+  "homepage": "https://github.com/front-end-jeko/Electronic-Educational-Resources#readme",
+}

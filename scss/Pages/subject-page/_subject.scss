@@ -1,0 +1,29 @@
+.subject-text-container {
+    display: flex;
+    vertical-align: middle;
+    h1 {
+        font-family: "ALK Sanet", sans-serif;
+        font-size: 24px;
+        color: #000000;
+        margin-right: 13px;
+    }
+}
+.subjects {
+    padding-top: 94px;
+    .subject-buttons {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        margin-bottom: 53px;
+        a {
+            font-family: "ALK Sanet", sans-serif;
+            font-size: 15px;
+            color: #000;
+        }
+    }
+    .subject-items {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+}

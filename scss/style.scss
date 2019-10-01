@@ -1,0 +1,25 @@
+@import 'Modules/variable';
+@import 'Partials/reset';
+
+// modules
+@import 'Modules/base';
+@import 'Modules/mixins';
+
+
+// partials
+@import 'Partials/fonts';
+
+
+// functions
+@import 'Modules/functions';
+
+// libraries
+// @import 'libraries/_aos.scss';
+
+
+// components
+// @import 'Components/components-import';
+
+//Pages
+@import 'Pages/main-page/main_page--import';
+@import 'Pages/subject-page/subject_page--import';
