@@ -99,28 +99,12 @@ body {
   display: table;
 }
 
-.container {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: 10%;
-  margin-left: 10%;
-  height: 100%;
-}
-
-@media(min-width: 1000px){
-  .container {
-    padding-right: 0;
-    padding-left: 0;
-  }
-}
-
-
 .page-main-icon {
   width: 42px;
   margin-right: 15px;
 }
 
-.text-container{
+.text-container {
   display: flex;
   align-items: center;
 }

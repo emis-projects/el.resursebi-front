@@ -69,7 +69,7 @@
     }
   }
 
-  .slide-item_content-box {
+  .slide_content-box {
     height: inherit !important;
     .text-wrapper {
       font-family: "ALK Sanet";
@@ -115,6 +115,7 @@
     }
   }
 }
+/*
 .slider-animation {
   stroke-dasharray: 100;
   animation: dash 5s linear infinite;
@@ -124,7 +125,7 @@
     stroke-dashoffset: 1000;
   }
 }
-/* .bee-animation {
+.bee-animation {
     animation: circle 5s linear infinite;
 }
 @keyframes circle{
