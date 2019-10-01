@@ -1,2 +1,15 @@
-@import '_header.scss';
-@import '_slider.scss';
+@import "_header.scss";
+.main-box {
+  height: 82.28vh;
+  .text-container {
+    display: flex;
+    height: 5vh;
+    h1 {
+      font-family: "ALK Sanet", sans-serif;
+      font-size: 24px;
+      color: #0b2228;
+      margin-right: 25px;
+    }
+  }
+}
+@import "_slider.scss";

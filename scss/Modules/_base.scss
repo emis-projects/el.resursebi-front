@@ -2,7 +2,6 @@ body {
   color: #eee;
   font-size: 14px;
   line-height: 21px;
-  height: 100vh;
 }
 
 // base class
@@ -90,12 +89,4 @@ body {
   content: "";
   clear: both;
   display: table;
-}
-
-.container {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: 10%;
-  margin-left: 10%;
-  height: 100%;
 }
