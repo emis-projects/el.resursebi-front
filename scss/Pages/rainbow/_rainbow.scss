@@ -1,0 +1,49 @@
+.rainbow__main__img {
+    width: 51%;
+}
+
+.game__desc {
+    margin-top: 50px;
+    margin-bottom: 25px;
+    color: #0B2228;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.rainbow-img {
+    width: 35%;
+    height: 200px;
+    flex-wrap: wrap;
+    position: relative;
+
+    div {
+        margin-right: 40px;
+        position: relative;
+
+        &::after {
+            content: '';
+            background: transparent;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 55px;
+            height: 87px;
+            z-index: 1000;
+            opacity: 1;
+            visibility: visible;
+        }
+
+            &.cursor-pointer {
+                &::after {
+                    opacity: 0;
+                    visibility: hidden;
+                }
+            }
+        
+    }
+
+    .color__btn {
+        position: relative;
+    }
+
+}
