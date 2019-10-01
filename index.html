@@ -3,40 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="//cdn.web-fonts.ge/fonts/alk-sanet/css/alk-sanet.min.css">
     <link rel="stylesheet" href="scss/style.css">
     <title>ხელოვნება</title>
 </head>
 <body>
     <header>
-        <nav class="navigation">
-            <div class="header-logo">
-                <a href="index.html">
-                    <img src="img/header/header-logo.svg" alt="Logo">
-                </a>
-            </div>
-            <div class="header-menu">
-                <img src="img/header/header-menu.svg" alt="Menu">
-            </div>
-            <div class="sound">
-                <button class="sound-on">
-                    <img src="img/header/sound-on.svg" alt="Sound-on">
-                </button>
-                <button class="sound-off">
-                    <img src="img/header/sound-off.svg" alt="Sound-off">
-                </button>
-            </div>
-        </nav>
+        <div class="container">
+          <nav>
+              <div class="header-logo">
+                  <a href="index.html">
+                      <img src="img/header/header-logo.svg" alt="Logo">
+                  </a>
+              </div>
+              <div class="header-menu">
+                  <img src="img/header/header-menu.svg" alt="Menu">
+              </div>
+              <div class="header-sound">
+                  <button class="header-sound_sound-on">
+                      <img src="img/header/sound-on.svg" alt="Sound-on">
+                  </button>
+                  <button class="header-sound_sound-off">
+                      <img src="img/header/sound-off.svg" alt="Sound-off">
+                  </button>
+              </div>
+          </nav>
+        </div>
     </header>
-
     <div class="container">
       <div class="text-container">
         <h1>აირჩიე კლასი</h1>
         <img src="img/icons/chevron-down.svg" alt="">
       </div>
-
-
-        <div class="slider" id="slider">
-
+        <div class="slider" id="single-item">
             <div class="slide-1 d-flex">
                 <svg xmlns="http://www.w3.org/2000/svg" width="404" height="454.798" viewBox="0 0 404 454.798">
                     <g id="Group_10" data-name="Group 10" transform="translate(-117.718 -117.67)">
@@ -203,7 +203,6 @@
                     <p>ხელოვნური ინტელექტის გამოყენებით</p>
                 </div>
             </div>
-            
             <div class="slide-2 d-flex">
                 <svg xmlns="http://www.w3.org/2000/svg" width="405.99" height="455.189" viewBox="0 0 405.99 455.189">
                     <g id="Group_4817" data-name="Group 4817" transform="translate(-134.742 -91.444)">
@@ -361,7 +360,6 @@
                     <p>ხელოვნური ინტელექტის გამოყენებით</p>
                 </div>
             </div> 
-            
             <div class="slide-3 d-flex">
                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="365.355" height="455.953" viewBox="0 0 365.355 455.953">
                     <defs>
@@ -565,11 +563,21 @@
                     <p>ხელოვნური ინტელექტის გამოყენებით</p>
                 </div>
             </div>
-
         </div>
     </div>
-  <script src="./js/libraries/jquery-3.4.1.min.js"></script>
-  <script type="text/javascript" src="./js/libraries/slick.min.js"></script>
-  <script type="text/javascript" src="./js/slider.js"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+  integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        $('#single-item').slick({
+            dots: true,
+            arrows: false,
+            speed: 400,
+            autoplay: true,
+            fade: true
+        });
+    </script>
 </body>
 </html>
