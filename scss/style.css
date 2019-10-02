@@ -357,6 +357,9 @@ header nav .header-logo img {
 
 header nav .header-menu {
   height: inherit;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 header nav .header-menu img {
@@ -694,6 +697,34 @@ header nav .header-sound .sound-on {
 .rainbow-img .color__btn {
   position: relative;
   width: 52px;
+}
+
+.game__section.color-game-1 .choose__color {
+  width: 47px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.game__section.color-game-1 .yellow-blue .choose__color:nth-child(1), .game__section.color-game-1 .red-blue .choose__color:nth-child(1) {
+  margin-right: 35px;
+}
+
+.game__section.color-game-1 .yellow-blue {
+  margin-bottom: 45px;
+}
+
+#otherbtn {
+  padding-right: 15%;
+}
+
+#otherbtn .img1, #otherbtn .img2 {
+  width: 77px;
+  cursor: pointer;
+}
+
+#otherbtn .img1 {
+  margin-right: 15px;
 }
 
 .art_main-title {
