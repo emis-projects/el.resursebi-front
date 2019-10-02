@@ -690,15 +690,36 @@ header nav .header-sound .sound-on {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  color: black;
+  color: #262626;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   font-family: 'ALK Sanet';
   font-size: 1.8vh;
+  padding-bottom: 10.4vh;
 }
 
 .art_main-title img {
   height: 4.4vh;
   padding-right: 1.1vh;
+}
+
+.art_questions-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #0B2228;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 2.8vh;
+  line-height: 2.9vh;
+  padding-bottom: 5.2vh;
+}
+
+.art_questions-item img {
+  height: 2.2vh;
 }
