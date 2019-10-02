@@ -130,6 +130,12 @@ body {
           justify-content: flex-end;
 }
 
+.align-items-end {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
 .align-items {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -210,6 +216,8 @@ body {
 
 .opacity-5 {
   opacity: 0.5;
+  -webkit-transition: sll 0.5s;
+  transition: sll 0.5s;
 }
 
 .opacity-0 {
@@ -218,6 +226,8 @@ body {
 
 .opacity-1 {
   opacity: 1;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .transparent {
@@ -307,6 +317,56 @@ body {
   /* IE9 Compat Modes */
   src: url("../fonts/alkSanet/alk-sanet-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/alkSanet/alk-sanet-webfont.woff2") format("woff2"), url("../fonts/alkSanet/alk-sanet-webfont.woff") format("woff"), url("../fonts/alkSanet/alk-sanet-webfont.ttf") format("truetype"), url("../fonts/alkSanet/alk-sanet-webfont.svg#alk_sanetregular") format("svg");
   /* Legacy iOS */
+}
+
+.completed__btn {
+  background: #F8D24B;
+  border-radius: 27px;
+  height: 39px;
+  width: 167px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+  font-family: "ALK Sanet";
+}
+
+.completed__btn:focus {
+  outline: none;
+}
+
+.reset__btn {
+  background: #7FD1D8;
+  border-radius: 27px;
+  height: 39px;
+  width: 167px;
+  text-align: center;
+  color: #FFFFFF;
+  font-family: "ALK Sanet";
+}
+
+.reset__btn:focus {
+  outline: none;
+}
+
+.color-game-paint {
+  width: 52px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.color-game-paint-big {
+  width: 77px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+#Path_3994 {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.finalyColorSingle {
+  display: none;
 }
 
 header {
@@ -642,11 +702,6 @@ header nav .header-sound .sound-on {
   line-height: 30px;
 }
 
-.color__btn {
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-}
-
 .rainbow-img {
   width: 35%;
   height: 200px;
@@ -678,18 +733,6 @@ header nav .header-sound .sound-on {
   visibility: hidden;
 }
 
-.rainbow-img .color__btn {
-  position: relative;
-  width: 52px;
-}
-
-.game__section.color-game-1 .choose__color {
-  width: 47px;
-  cursor: pointer;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-}
-
 .game__section.color-game-1 .yellow-blue .choose__color:nth-child(1), .game__section.color-game-1 .red-blue .choose__color:nth-child(1) {
   margin-right: 35px;
 }
@@ -699,12 +742,7 @@ header nav .header-sound .sound-on {
 }
 
 #otherbtn {
-  padding-right: 15%;
-}
-
-#otherbtn .img1, #otherbtn .img2 {
-  width: 77px;
-  cursor: pointer;
+  margin-bottom: 30px;
 }
 
 #otherbtn .img1 {
