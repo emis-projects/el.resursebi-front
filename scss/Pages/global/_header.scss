@@ -11,9 +11,12 @@ header {
     height: inherit;
     .header-logo {
       height: inherit;
-      img {
-        max-height: 21px;
-        height: 100%;
+      a {
+        height: inherit;
+        img {
+          max-height: 21px;
+          height: 100%;
+        }
       }
     }
     .header-menu {
