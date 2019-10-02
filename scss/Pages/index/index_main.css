@@ -1,0 +1,79 @@
+header {
+  height: 8vh;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 5.3vh;
+  margin-bottom: 4.42vh;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: inherit;
+}
+
+header nav .header-logo {
+  height: inherit;
+}
+
+header nav .header-logo img {
+  max-height: 21px;
+  height: 100%;
+}
+
+header nav .header-menu {
+  height: inherit;
+}
+
+header nav .header-menu img {
+  max-height: 22px;
+  height: 100%;
+}
+
+header nav .header-sound {
+  height: inherit;
+}
+
+header nav .header-sound .header-sound_switch {
+  height: inherit;
+  background: transparent;
+  -webkit-box-shadow: 0px 4px 6px #00000029;
+          box-shadow: 0px 4px 6px #00000029;
+  max-width: 36px;
+  max-height: 36px;
+  border-radius: 50%;
+}
+
+header nav .header-sound .header-sound_switch img {
+  max-height: 36px;
+  height: 100%;
+}
+
+header nav .header-sound .sound-on {
+  margin-right: 50px;
+}
+
+.main-box {
+  height: 82.28vh;
+}
+
+.main-box .text-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 5vh;
+}
+
+.main-box .text-container div {
+  font-family: "ALK Sanet", sans-serif;
+  font-size: 24px;
+  color: #0b2228;
+  margin-right: 25px;
+}
