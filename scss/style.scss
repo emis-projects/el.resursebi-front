@@ -1,6 +1,6 @@
+@import "Partials/fonts";
 @import "Modules/variable";
 @import "Partials/reset";
-
 // modules
 @import "Modules/base";
 @import "Modules/mixins";
@@ -11,9 +11,6 @@
 // functions
 @import "Modules/functions";
 
-// libraries
-
-// components
 // @import 'Components/components-import';
 
 @import "./Pages/pages--import";
