@@ -16,14 +16,14 @@
 
 @font-face {
   font-family: "BPG Arial";
-  src: url("../arial/fonts/bpg-arial-webfont.eot"); /* IE9 Compat Modes */
-  src: url("../arial/fonts/bpg-arial-webfont.eot?#iefix")
+  src: url("../fonts/arial/bpg-arial-webfont.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/arial/bpg-arial-webfont.eot?#iefix")
       format("embedded-opentype"),
-    /* IE6-IE8 */ url("../arial/fonts/bpg-arial-webfont.woff2") format("woff2"),
-    /* Super Modern Browsers */ url("../arial/fonts/bpg-arial-webfont.woff")
+    /* IE6-IE8 */ url("../fonts/arial/bpg-arial-webfont.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/arial/bpg-arial-webfont.woff")
       format("woff"),
-    /* Pretty Modern Browsers */ url("../arial/fonts/bpg-arial-webfont.ttf")
+    /* Pretty Modern Browsers */ url("../fonts/arial/bpg-arial-webfont.ttf")
       format("truetype"),
     /* Safari, Android, iOS */
-      url("../arial/fonts/bpg-arial-webfont.svg#bpg_arialregular") format("svg"); /* Legacy iOS */
+      url("../fonts/arial/bpg-arial-webfont.svg#bpg_arialregular") format("svg"); /* Legacy iOS */
 }
