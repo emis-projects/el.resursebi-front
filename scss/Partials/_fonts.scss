@@ -1,9 +1,44 @@
 @font-face {
-    font-family: 'ALK Sanet';
-    src: url('../fonts/alkSanet/alk-sanet-webfont.eot'); /* IE9 Compat Modes */
-    src: url('../fonts/alkSanet/alk-sanet-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../fonts/alkSanet/alk-sanet-webfont.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../fonts/alkSanet/alk-sanet-webfont.woff') format('woff'), /* Pretty Modern Browsers */
-         url('../fonts/alkSanet/alk-sanet-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../fonts/alkSanet/alk-sanet-webfont.svg#alk_sanetregular') format('svg'); /* Legacy iOS */
+  font-family: "ALK Sanet";
+  src: url("../fonts/alkSanet/alk-sanet-webfont.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/alkSanet/alk-sanet-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/alkSanet/alk-sanet-webfont.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/alkSanet/alk-sanet-webfont.woff")
+      format("woff"),
+    /* Pretty Modern Browsers */ url("../fonts/alkSanet/alk-sanet-webfont.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/alkSanet/alk-sanet-webfont.svg#alk_sanetregular")
+      format("svg"); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: "BPG Arial";
+  src: url("../fonts/arial/bpg-arial-webfont.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/arial/bpg-arial-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/arial/bpg-arial-webfont.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/arial/bpg-arial-webfont.woff")
+      format("woff"),
+    /* Pretty Modern Browsers */ url("../fonts/arial/bpg-arial-webfont.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/arial/bpg-arial-webfont.svg#bpg_arialregular") format("svg"); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("../fonts/helvetica/HelveticaNeue-Italic.eot");
+  src: local("Helvetica Neue Italic"), local("HelveticaNeue-Italic"),
+    url("../fonts/helvetica/HelveticaNeue-Italic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/helvetica/HelveticaNeue-Italic.woff2") format("woff2"),
+    url("../fonts/helvetica/HelveticaNeue-Italic.woff") format("woff"),
+    url("../fonts/helvetica/HelveticaNeue-Italic.ttf") format("truetype"),
+    url("../fonts/helvetica/HelveticaNeue-Italic.svg#HelveticaNeue-Italic")
+      format("svg");
+  font-weight: normal;
+  font-style: italic;
 }
