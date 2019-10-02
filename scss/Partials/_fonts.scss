@@ -27,3 +27,18 @@
     /* Safari, Android, iOS */
       url("../fonts/arial/bpg-arial-webfont.svg#bpg_arialregular") format("svg"); /* Legacy iOS */
 }
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("../fonts/helvetica/HelveticaNeue-Italic.eot");
+  src: local("Helvetica Neue Italic"), local("HelveticaNeue-Italic"),
+    url("../fonts/helvetica/HelveticaNeue-Italic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/helvetica/HelveticaNeue-Italic.woff2") format("woff2"),
+    url("../fonts/helvetica/HelveticaNeue-Italic.woff") format("woff"),
+    url("../fonts/helvetica/HelveticaNeue-Italic.ttf") format("truetype"),
+    url("../fonts/helvetica/HelveticaNeue-Italic.svg#HelveticaNeue-Italic")
+      format("svg");
+  font-weight: normal;
+  font-style: italic;
+}

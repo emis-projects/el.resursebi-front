@@ -14,6 +14,14 @@
   /* Legacy iOS */
 }
 
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("../fonts/helvetica/HelveticaNeue-Italic.eot");
+  src: local("Helvetica Neue Italic"), local("HelveticaNeue-Italic"), url("../fonts/helvetica/HelveticaNeue-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/helvetica/HelveticaNeue-Italic.woff2") format("woff2"), url("../fonts/helvetica/HelveticaNeue-Italic.woff") format("woff"), url("../fonts/helvetica/HelveticaNeue-Italic.ttf") format("truetype"), url("../fonts/helvetica/HelveticaNeue-Italic.svg#HelveticaNeue-Italic") format("svg");
+  font-weight: normal;
+  font-style: italic;
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -309,6 +317,95 @@ body {
   margin-right: 15px;
 }
 
+header {
+  height: 8vh;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 5.3vh;
+  margin-bottom: 4.42vh;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: inherit;
+}
+
+header nav .header-logo {
+  height: inherit;
+}
+
+header nav .header-logo a {
+  height: 100%;
+  display: block;
+}
+
+header nav .header-logo a img {
+  max-height: 21px;
+  height: 100%;
+}
+
+header nav .header-menu {
+  height: inherit;
+}
+
+header nav .header-menu img {
+  max-height: 22px;
+  height: 100%;
+}
+
+header nav .header-sound {
+  height: inherit;
+}
+
+header nav .header-sound .header-sound_switch {
+  height: inherit;
+  background: transparent;
+  -webkit-box-shadow: 0px 4px 6px #00000029;
+          box-shadow: 0px 4px 6px #00000029;
+  max-width: 36px;
+  max-height: 36px;
+  border-radius: 50%;
+}
+
+header nav .header-sound .header-sound_switch img {
+  max-height: 36px;
+  height: 100%;
+}
+
+header nav .header-sound .sound-on {
+  margin-right: 50px;
+}
+
+.main-box {
+  height: 82.28vh;
+}
+
+.main-box .text-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 5vh;
+}
+
+.main-box .text-container div {
+  font-family: "ALK Sanet", sans-serif;
+  font-size: 3.1vh;
+  color: #0b2228;
+  margin-right: 3.3vh;
+}
+
+.main-box .text-container img {
+  height: 100%;
+}
+
 /* 
 *wow slider CSS section 
 */
@@ -547,34 +644,59 @@ body {
   width: 100%;
 }
 
-.fix-header {
+.main-box_absolute {
   position: absolute;
+  height: 100vh;
+  z-index: -555;
+  top: 0;
   left: 0;
   right: 0;
-  z-index: 99;
 }
 
-.color-story-text {
+.main-box_absolute .main-box_relative {
+  position: relative;
+  height: 100%;
+}
+
+.main-box_absolute .main-box_relative .owl-carousel {
+  height: inherit;
+}
+
+.main-box_absolute .main-box_relative .owl-carousel .item {
+  width: 100%;
+  height: inherit;
+  -o-object-fit: none;
+     object-fit: none;
+}
+
+.main-box_absolute .main-box_relative .text-wrapper {
   position: absolute;
-  z-index: 999;
-  top: 82.2vh;
-  left: 23vw;
+  bottom: 0;
+  height: 35vh;
+  left: 0;
+  right: 0;
+  z-index: 5555;
+  background: transparent -webkit-gradient(linear, left top, left bottom, color-stop(20%, #00000000), to(#000000)) 0% 0%;
+  background: transparent linear-gradient(180deg, #00000000 20%, #000000 100%) 0% 0%;
 }
 
-.color-story-text h1 {
-  font-size: 42px;
-  color: #ffffff;
-  text-align: center;
-  font-style: italic;
-  margin-left: 78px;
+.main-box_absolute .main-box_relative .text-wrapper p {
+  font-family: "Helvetica Neue";
+  font-size: 5.5vh;
+  margin-left: 2.6vh;
+  line-height: 1vh;
 }
 
-.color-story-text .color-story-chevron {
-  margin-top: 40px;
+.main-box_absolute .main-box_relative .text-wrapper .icon-box {
+  margin-top: 7.8vh;
+  height: 4.7vh;
+  width: 4.7vh;
+  background-color: #fff;
+  border-radius: 50%;
 }
 
-.color-story-text .color-story-chevron img {
-  margin: 0 auto;
+.main-box_absolute .main-box_relative .text-wrapper .icon-box img {
+  height: 50%;
 }
 
 .rainbow__main__img {
@@ -733,12 +855,39 @@ body {
   margin-right: 15px;
 }
 
-.main-box_links {
-  margin-top: 10.4vh;
+.art_main-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #262626;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'ALK Sanet';
+  font-size: 1.8vh;
+  padding-bottom: 10.4vh;
 }
 
-.main-box_links .music {
-  background-image: url("../img/gakvetilebi/musika/musika-logo.svg");
+.art_main-title img {
+  height: 4.4vh;
+  padding-right: 1.1vh;
+}
+
+.art_questions-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #0B2228;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  font-size: 2.8vh;
+  line-height: 2.9vh;
+  padding-bottom: 5.2vh;
+  font-family: "BPG Arial";
 }
 
 .art_questions-item img {
@@ -780,4 +929,47 @@ body {
   -webkit-transform: matrix(0, 1, -1, 0, 0, 0);
           transform: matrix(0, 1, -1, 0, 0, 0);
 }
-/*# sourceMappingURL=style.css.map */
+
+.main-box_links {
+  margin-top: 10.4vh;
+}
+
+.main-box_links .music {
+  background-image: url("../img/gakvetilebi/musika/musika-logo.svg");
+}
+
+.main-box_links .art {
+  background-image: url("../img/gakvetilebi/xelovneba/xelovneba-logo.svg");
+}
+
+.main-box_links .nature {
+  background-image: url("../img/gakvetilebi/buneba/buneba-logo.svg");
+}
+
+.main-box_links a {
+  background-repeat: no-repeat;
+  background-position: left center;
+  text-align: center;
+  line-height: 3.5vh;
+  padding: 1.6vh 0;
+  width: 24.3vh;
+  -webkit-box-shadow: 0px 3px 6px #00000029;
+          box-shadow: 0px 3px 6px #00000029;
+  border-radius: 40px;
+  font-size: 1.9vh;
+  font-family: "ALK Sanet", sans-serif;
+  color: #262626;
+}
+
+.main-box_img-wrapper {
+  margin-top: 7vh;
+  height: 51vh;
+}
+
+.main-box_img-wrapper div {
+  height: inherit;
+}
+
+.main-box_img-wrapper div img {
+  height: inherit;
+}
