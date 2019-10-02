@@ -341,6 +341,9 @@ header nav .header-logo img {
 
 header nav .header-menu {
   height: inherit;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 header nav .header-menu img {
@@ -706,4 +709,24 @@ header nav .header-sound .sound-on {
 
 #otherbtn .img1 {
   margin-right: 15px;
+}
+
+.art_main-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: black;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'ALK Sanet';
+  font-size: 1.8vh;
+}
+
+.art_main-title img {
+  height: 4.4vh;
+  padding-right: 1.1vh;
 }
