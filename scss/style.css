@@ -350,7 +350,11 @@ header nav .header-logo {
   height: inherit;
 }
 
-header nav .header-logo img {
+header nav .header-logo a {
+  height: inherit;
+}
+
+header nav .header-logo a img {
   max-height: 21px;
   height: 100%;
 }
@@ -403,9 +407,13 @@ header nav .header-sound .sound-on {
 
 .main-box .text-container div {
   font-family: "ALK Sanet", sans-serif;
-  font-size: 24px;
+  font-size: 3.1vh;
   color: #0b2228;
-  margin-right: 25px;
+  margin-right: 3.3vh;
+}
+
+.main-box .text-container img {
+  height: 100%;
 }
 
 /* 
@@ -671,7 +679,11 @@ header nav .header-logo {
   height: inherit;
 }
 
-header nav .header-logo img {
+header nav .header-logo a {
+  height: inherit;
+}
+
+header nav .header-logo a img {
   max-height: 21px;
   height: 100%;
 }
@@ -724,9 +736,13 @@ header nav .header-sound .sound-on {
 
 .main-box .text-container div {
   font-family: "ALK Sanet", sans-serif;
-  font-size: 24px;
+  font-size: 3.1vh;
   color: #0b2228;
-  margin-right: 25px;
+  margin-right: 3.3vh;
+}
+
+.main-box .text-container img {
+  height: 100%;
 }
 
 .fix-header {
@@ -924,7 +940,11 @@ header nav .header-logo {
   height: inherit;
 }
 
-header nav .header-logo img {
+header nav .header-logo a {
+  height: inherit;
+}
+
+header nav .header-logo a img {
   max-height: 21px;
   height: 100%;
 }
@@ -977,11 +997,55 @@ header nav .header-sound .sound-on {
 
 .main-box .text-container div {
   font-family: "ALK Sanet", sans-serif;
-  font-size: 24px;
+  font-size: 3.1vh;
   color: #0b2228;
-  margin-right: 25px;
+  margin-right: 3.3vh;
+}
+
+.main-box .text-container img {
+  height: 100%;
 }
 
 .main-box_links {
-  margin-top: 12.4vh;
+  margin-top: 10.4vh;
+}
+
+.main-box_links .music {
+  background-image: url("../img/gakvetilebi/musika/musika-logo.svg");
+}
+
+.main-box_links .art {
+  background-image: url("../img/gakvetilebi/xelovneba/xelovneba-logo.svg");
+}
+
+.main-box_links .nature {
+  background-image: url("../img/gakvetilebi/buneba/buneba-logo.svg");
+}
+
+.main-box_links a {
+  background-repeat: no-repeat;
+  background-position: left center;
+  text-align: center;
+  line-height: 3.5vh;
+  padding: 1.6vh 0;
+  width: 24.3vh;
+  -webkit-box-shadow: 0px 3px 6px #00000029;
+          box-shadow: 0px 3px 6px #00000029;
+  border-radius: 40px;
+  font-size: 1.9vh;
+  font-family: "ALK Sanet", sans-serif;
+  color: #262626;
+}
+
+.main-box_img-wrapper {
+  margin-top: 7vh;
+  height: 51vh;
+}
+
+.main-box_img-wrapper div {
+  height: inherit;
+}
+
+.main-box_img-wrapper div img {
+  height: inherit;
 }
