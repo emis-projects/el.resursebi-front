@@ -775,15 +775,123 @@ header nav .header-sound .sound-on {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  color: black;
+  color: #262626;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   font-family: 'ALK Sanet';
   font-size: 1.8vh;
+  padding-bottom: 10.4vh;
 }
 
 .art_main-title img {
   height: 4.4vh;
   padding-right: 1.1vh;
+}
+
+.art_questions-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #0B2228;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 2.8vh;
+  line-height: 2.9vh;
+  padding-bottom: 5.2vh;
+}
+
+.art_questions-item img {
+  height: 2.2vh;
+}
+
+header {
+  height: 8vh;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 5.3vh;
+  margin-bottom: 4.42vh;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: inherit;
+}
+
+header nav .header-logo {
+  height: inherit;
+}
+
+header nav .header-logo img {
+  max-height: 21px;
+  height: 100%;
+}
+
+header nav .header-menu {
+  height: inherit;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header nav .header-menu img {
+  max-height: 22px;
+  height: 100%;
+}
+
+header nav .header-sound {
+  height: inherit;
+}
+
+header nav .header-sound .header-sound_switch {
+  height: inherit;
+  background: transparent;
+  -webkit-box-shadow: 0px 4px 6px #00000029;
+          box-shadow: 0px 4px 6px #00000029;
+  max-width: 36px;
+  max-height: 36px;
+  border-radius: 50%;
+}
+
+header nav .header-sound .header-sound_switch img {
+  max-height: 36px;
+  height: 100%;
+}
+
+header nav .header-sound .sound-on {
+  margin-right: 50px;
+}
+
+.main-box {
+  height: 82.28vh;
+}
+
+.main-box .text-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 5vh;
+}
+
+.main-box .text-container div {
+  font-family: "ALK Sanet", sans-serif;
+  font-size: 24px;
+  color: #0b2228;
+  margin-right: 25px;
+}
+
+.main-box_links {
+  margin-top: 12.4vh;
 }
