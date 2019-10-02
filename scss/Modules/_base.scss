@@ -93,6 +93,45 @@ body {
   font-weight: bold;
   color: black !important;
 }
+
+.opacity-5 {
+  opacity: 0.5;
+}
+
+.opacity-0 {
+  opacity: 0;
+}
+
+.opacity-1 {
+  opacity: 1;
+}
+
+.transparent {
+  fill: transparent;
+}
+
+.rainbow--line {
+  transition: all 0.5s;
+}
+
+.fadeIn {
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+
+@keyframes fadeIn{
+  0% {
+    opacity:0;
+  }
+
+  100% {
+    opacity:1;
+  }
+}
+
+
 * {
   box-sizing: border-box;
 }
