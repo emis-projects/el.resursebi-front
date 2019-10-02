@@ -394,6 +394,7 @@ header nav .header-sound .sound-on {
 
 .owl-theme .owl-dots .owl-dot.active span {
   background: #7fd1d8;
+  border: none;
 }
 
 /* 
