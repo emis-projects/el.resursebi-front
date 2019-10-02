@@ -1,8 +1,16 @@
 @font-face {
-  font-family: 'ALK Sanet';
+  font-family: "ALK Sanet";
   src: url("../fonts/alkSanet/alk-sanet-webfont.eot");
   /* IE9 Compat Modes */
   src: url("../fonts/alkSanet/alk-sanet-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/alkSanet/alk-sanet-webfont.woff2") format("woff2"), url("../fonts/alkSanet/alk-sanet-webfont.woff") format("woff"), url("../fonts/alkSanet/alk-sanet-webfont.ttf") format("truetype"), url("../fonts/alkSanet/alk-sanet-webfont.svg#alk_sanetregular") format("svg");
+  /* Legacy iOS */
+}
+
+@font-face {
+  font-family: "BPG Arial";
+  src: url("../arial/fonts/bpg-arial-webfont.eot");
+  /* IE9 Compat Modes */
+  src: url("../arial/fonts/bpg-arial-webfont.eot?#iefix") format("embedded-opentype"), url("../arial/fonts/bpg-arial-webfont.woff2") format("woff2"), url("../arial/fonts/bpg-arial-webfont.woff") format("woff"), url("../arial/fonts/bpg-arial-webfont.ttf") format("truetype"), url("../arial/fonts/bpg-arial-webfont.svg#bpg_arialregular") format("svg");
   /* Legacy iOS */
 }
 
@@ -302,10 +310,18 @@ body {
 }
 
 @font-face {
-  font-family: 'ALK Sanet';
+  font-family: "ALK Sanet";
   src: url("../fonts/alkSanet/alk-sanet-webfont.eot");
   /* IE9 Compat Modes */
   src: url("../fonts/alkSanet/alk-sanet-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/alkSanet/alk-sanet-webfont.woff2") format("woff2"), url("../fonts/alkSanet/alk-sanet-webfont.woff") format("woff"), url("../fonts/alkSanet/alk-sanet-webfont.ttf") format("truetype"), url("../fonts/alkSanet/alk-sanet-webfont.svg#alk_sanetregular") format("svg");
+  /* Legacy iOS */
+}
+
+@font-face {
+  font-family: "BPG Arial";
+  src: url("../arial/fonts/bpg-arial-webfont.eot");
+  /* IE9 Compat Modes */
+  src: url("../arial/fonts/bpg-arial-webfont.eot?#iefix") format("embedded-opentype"), url("../arial/fonts/bpg-arial-webfont.woff2") format("woff2"), url("../arial/fonts/bpg-arial-webfont.woff") format("woff"), url("../arial/fonts/bpg-arial-webfont.ttf") format("truetype"), url("../arial/fonts/bpg-arial-webfont.svg#bpg_arialregular") format("svg");
   /* Legacy iOS */
 }
 
@@ -698,4 +714,88 @@ header nav .header-sound .sound-on {
 .art_main-title img {
   height: 4.4vh;
   padding-right: 1.1vh;
+}
+
+header {
+  height: 8vh;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 5.3vh;
+  margin-bottom: 4.42vh;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: inherit;
+}
+
+header nav .header-logo {
+  height: inherit;
+}
+
+header nav .header-logo img {
+  max-height: 21px;
+  height: 100%;
+}
+
+header nav .header-menu {
+  height: inherit;
+}
+
+header nav .header-menu img {
+  max-height: 22px;
+  height: 100%;
+}
+
+header nav .header-sound {
+  height: inherit;
+}
+
+header nav .header-sound .header-sound_switch {
+  height: inherit;
+  background: transparent;
+  -webkit-box-shadow: 0px 4px 6px #00000029;
+          box-shadow: 0px 4px 6px #00000029;
+  max-width: 36px;
+  max-height: 36px;
+  border-radius: 50%;
+}
+
+header nav .header-sound .header-sound_switch img {
+  max-height: 36px;
+  height: 100%;
+}
+
+header nav .header-sound .sound-on {
+  margin-right: 50px;
+}
+
+.main-box {
+  height: 82.28vh;
+}
+
+.main-box .text-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 5vh;
+}
+
+.main-box .text-container div {
+  font-family: "ALK Sanet", sans-serif;
+  font-size: 24px;
+  color: #0b2228;
+  margin-right: 25px;
+}
+
+.main-box_links {
+  margin-top: 12.4vh;
 }
