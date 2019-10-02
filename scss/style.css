@@ -554,6 +554,29 @@ body {
   z-index: 99;
 }
 
+.color-story-text {
+  position: absolute;
+  z-index: 999;
+  top: 82.2vh;
+  left: 23vw;
+}
+
+.color-story-text h1 {
+  font-size: 42px;
+  color: #ffffff;
+  text-align: center;
+  font-style: italic;
+  margin-left: 78px;
+}
+
+.color-story-text .color-story-chevron {
+  margin-top: 40px;
+}
+
+.color-story-text .color-story-chevron img {
+  margin: 0 auto;
+}
+
 .rainbow__main__img {
   width: 51%;
 }
@@ -718,38 +741,43 @@ body {
   background-image: url("../img/gakvetilebi/musika/musika-logo.svg");
 }
 
-.main-box_links .art {
-  background-image: url("../img/gakvetilebi/xelovneba/xelovneba-logo.svg");
+.art_questions-item img {
+  height: 2.2vh;
+  padding-right: 1.9vh;
 }
 
-.main-box_links .nature {
-  background-image: url("../img/gakvetilebi/buneba/buneba-logo.svg");
+.paging_buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-top: 24.3vh;
 }
 
-.main-box_links a {
-  background-repeat: no-repeat;
-  background-position: left center;
-  text-align: center;
-  line-height: 3.5vh;
-  padding: 1.6vh 0;
-  width: 24.3vh;
+.paging_buttons a {
   -webkit-box-shadow: 0px 3px 6px #00000029;
           box-shadow: 0px 3px 6px #00000029;
-  border-radius: 40px;
-  font-size: 1.9vh;
-  font-family: "ALK Sanet", sans-serif;
-  color: #262626;
+  border-radius: 50%;
+  margin-left: 2.9vh;
 }
 
-.main-box_img-wrapper {
-  margin-top: 7vh;
-  height: 51vh;
+.paging_buttons a img {
+  width: 4.6vh;
+  height: 4.6vh;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  opacity: 1;
+  border-radius: 50%;
 }
 
-.main-box_img-wrapper div {
-  height: inherit;
+.paging_buttons-right {
+  -webkit-transform: matrix(0, -1, 1, 0, 0, 0);
+          transform: matrix(0, -1, 1, 0, 0, 0);
 }
 
-.main-box_img-wrapper div img {
-  height: inherit;
+.paging_buttons-left {
+  -webkit-transform: matrix(0, 1, -1, 0, 0, 0);
+          transform: matrix(0, 1, -1, 0, 0, 0);
 }
+/*# sourceMappingURL=style.css.map */
