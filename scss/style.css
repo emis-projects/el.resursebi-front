@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'ALK Sanet';
+  src: url("../fonts/alkSanet/alk-sanet-webfont.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/alkSanet/alk-sanet-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/alkSanet/alk-sanet-webfont.woff2") format("woff2"), url("../fonts/alkSanet/alk-sanet-webfont.woff") format("woff"), url("../fonts/alkSanet/alk-sanet-webfont.ttf") format("truetype"), url("../fonts/alkSanet/alk-sanet-webfont.svg#alk_sanetregular") format("svg");
+  /* Legacy iOS */
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -295,9 +303,9 @@ body {
 
 @font-face {
   font-family: 'ALK Sanet';
-  src: url("../fonts/alk-sanet/alk-sanet-webfont.eot");
+  src: url("../fonts/alkSanet/alk-sanet-webfont.eot");
   /* IE9 Compat Modes */
-  src: url("../fonts/alk-sanet/alk-sanet-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/alk-sanet/alk-sanet-webfont.woff2") format("woff2"), url("../fonts/alk-sanet/alk-sanet-webfont.woff") format("woff"), url("../fonts/alk-sanet/alk-sanet-webfont.ttf") format("truetype"), url("../fonts/alk-sanet/alk-sanet-webfont.svg#alk_sanetregular") format("svg");
+  src: url("../fonts/alkSanet/alk-sanet-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/alkSanet/alk-sanet-webfont.woff2") format("woff2"), url("../fonts/alkSanet/alk-sanet-webfont.woff") format("woff"), url("../fonts/alkSanet/alk-sanet-webfont.ttf") format("truetype"), url("../fonts/alkSanet/alk-sanet-webfont.svg#alk_sanetregular") format("svg");
   /* Legacy iOS */
 }
 
@@ -434,10 +442,11 @@ header nav .header-sound .sound-on {
 
 .owl-theme .owl-dots .owl-dot.active span {
   background: #7fd1d8;
+  border: none;
 }
 
 /* 
-! slider content section 
+! slider content sectio
 */
 .slider {
   margin-top: 16vh;
@@ -474,7 +483,7 @@ header nav .header-sound .sound-on {
 }
 
 .slider .slide_content-box .text-wrapper {
-  font-family: "ALK Sanet";
+  font-family: "ALK Sanet", sans-serif;
   padding-left: 8.6vw;
   height: inherit;
 }
@@ -492,7 +501,6 @@ header nav .header-sound .sound-on {
 }
 
 .slider .slide_content-box .text-wrapper a {
-  display: block;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left center;
@@ -506,6 +514,15 @@ header nav .header-sound .sound-on {
   text-align: center;
   padding: 10px 20px;
   border-radius: 27px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .slider .slide_content-box .text-wrapper h1 {
