@@ -5,3 +5,22 @@
     right: 0;
     z-index: 99;
 }
+.color-story-text {
+    position: absolute;
+    z-index: 999;
+    top: 82.2vh;
+    left: 23vw;
+    h1 {
+        font-size: 42px;
+        color: #ffffff;
+        text-align: center;
+        font-style: italic;
+        margin-left: 78px;
+    }
+    .color-story-chevron {
+        margin-top: 40px;
+        img {
+            margin: 0 auto;
+        }
+    }
+}

@@ -646,59 +646,6 @@ header nav .header-sound .sound-on {
   width: 100%;
 }
 
-.rainbow__main__img {
-  width: 51%;
-}
-
-.game__desc {
-  margin-top: 50px;
-  margin-bottom: 25px;
-  color: #0B2228;
-  font-size: 22px;
-  line-height: 30px;
-}
-
-.color__btn {
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-}
-
-.rainbow-img {
-  width: 35%;
-  height: 200px;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  position: relative;
-}
-
-.rainbow-img div {
-  margin-right: 40px;
-  position: relative;
-}
-
-.rainbow-img div::after {
-  content: '';
-  background: transparent;
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 55px;
-  height: 87px;
-  z-index: 1000;
-  opacity: 1;
-  visibility: visible;
-}
-
-.rainbow-img div.cursor-pointer::after {
-  opacity: 0;
-  visibility: hidden;
-}
-
-.rainbow-img .color__btn {
-  position: relative;
-  width: 52px;
-}
-
 header {
   height: 8vh;
   width: 100%;
@@ -731,6 +678,9 @@ header nav .header-logo img {
 
 header nav .header-menu {
   height: inherit;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 header nav .header-menu img {
@@ -784,5 +734,191 @@ header nav .header-sound .sound-on {
   left: 0;
   right: 0;
   z-index: 99;
+}
+
+.color-story-text {
+  position: absolute;
+  z-index: 999;
+  top: 82.2vh;
+  left: 23vw;
+}
+
+.color-story-text h1 {
+  font-size: 42px;
+  color: #ffffff;
+  text-align: center;
+  font-style: italic;
+  margin-left: 78px;
+}
+
+.color-story-text .color-story-chevron {
+  margin-top: 40px;
+}
+
+.color-story-text .color-story-chevron img {
+  margin: 0 auto;
+}
+
+.rainbow__main__img {
+  width: 51%;
+}
+
+.game__desc {
+  margin-top: 50px;
+  margin-bottom: 25px;
+  color: #0B2228;
+  font-size: 22px;
+  line-height: 30px;
+}
+
+.color__btn {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.rainbow-img {
+  width: 35%;
+  height: 200px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  position: relative;
+}
+
+.rainbow-img div {
+  margin-right: 40px;
+  position: relative;
+}
+
+.rainbow-img div::after {
+  content: '';
+  background: transparent;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 55px;
+  height: 87px;
+  z-index: 1000;
+  opacity: 1;
+  visibility: visible;
+}
+
+.rainbow-img div.cursor-pointer::after {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.rainbow-img .color__btn {
+  position: relative;
+  width: 52px;
+}
+
+.art_main-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #262626;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'ALK Sanet';
+  font-size: 1.8vh;
+  padding-bottom: 10.4vh;
+}
+
+.art_main-title img {
+  height: 4.4vh;
+  padding-right: 1.1vh;
+}
+
+.art_questions-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #0B2228;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 2.8vh;
+  line-height: 2.9vh;
+  padding-bottom: 5.2vh;
+}
+
+.art_questions-item img {
+  height: 2.2vh;
+}
+
+.game__section.color-game-1 .choose__color {
+  width: 47px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.game__section.color-game-1 .yellow-blue .choose__color:nth-child(1), .game__section.color-game-1 .red-blue .choose__color:nth-child(1) {
+  margin-right: 35px;
+}
+
+.game__section.color-game-1 .yellow-blue {
+  margin-bottom: 45px;
+}
+
+#otherbtn {
+  padding-right: 15%;
+}
+
+#otherbtn .img1, #otherbtn .img2 {
+  width: 77px;
+  cursor: pointer;
+}
+
+#otherbtn .img1 {
+  margin-right: 15px;
+}
+
+.art_main-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #262626;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'ALK Sanet';
+  font-size: 1.8vh;
+  padding-bottom: 10.4vh;
+}
+
+.art_main-title img {
+  height: 4.4vh;
+  padding-right: 1.1vh;
+}
+
+.art_questions-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #0B2228;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 2.8vh;
+  line-height: 2.9vh;
+  padding-bottom: 5.2vh;
+}
+
+.art_questions-item img {
+  height: 2.2vh;
 }
 /*# sourceMappingURL=style.css.map */
