@@ -27,22 +27,14 @@ function chooseColor(){
 
 	top.addEventListener('click', () => {
 		this.colors = [];
-
-		document.getElementById('blue-color-bottom').setAttribute('src', '../img/gakvetilebi/xelovneba/color-game/blue-color.svg');
-		document.getElementById('red-color-bottom2').setAttribute('src', '../img/gakvetilebi/xelovneba/color-game/red-color.svg');
-		
-
 		this.color = '#008445';
 		changedColor.setAttribute('fill', '#008445');
-
 
 		top.querySelectorAll('img').forEach(w => {
 			var attr = w.getAttribute('data-color');
 
 			this.colors.push(attr);
 
-			document.getElementById('yellow-color-top').setAttribute('src', '../img/gakvetilebi/xelovneba/color-game/blue-color-show.svg');
-			document.getElementById('blue-color-top2').setAttribute('src', '../img/gakvetilebi/xelovneba/color-game/yellow-color-show.svg')
 
 		});
 

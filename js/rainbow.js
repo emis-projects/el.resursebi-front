@@ -12,10 +12,7 @@ function rainbow(){
 		this.index = 0;
 		
 		rainbowBtns.forEach(b => {
-			var photoSrc = "../img/gakvetilebi/xelovneba/color-game/";
-			var photoName = b.getAttribute('data-name');
-			
-			b.setAttribute('src', `${photoSrc}${photoName}.svg`);
+			b.classList.add('opacity-5');
 
 			if(b.getAttribute('data-index') == 0){
 				b.parentElement.className += " cursor-pointer"
@@ -41,22 +38,22 @@ function rainbow(){
 			first.setAttribute('fill', this.color);
 			
 		} else if(second.getAttribute('fill') == '#fff'){
-			second.setAttribute('fill', this.color)
+			second.setAttribute('fill', this.color);
 
 		} else if(third.getAttribute('fill') == '#fff'){
-			third.setAttribute('fill', this.color)
+			third.setAttribute('fill', this.color);
 			
 		} else if(fourth.getAttribute('fill') == '#fff'){
 			fourth.setAttribute('fill', this.color)
 			
 		} else if(fifth.getAttribute('fill') == '#fff'){
-			fifth.setAttribute('fill', this.color)
+			fifth.setAttribute('fill', this.color);
 			
 		} else if(sixth.getAttribute('fill') == '#fff'){
-			sixth.setAttribute('fill', this.color)
+			sixth.setAttribute('fill', this.color);
 			
 		} else if(seventh.getAttribute('fill') == '#fff'){
-			seventh.setAttribute('fill', this.color)
+			seventh.setAttribute('fill', this.color);
 		}
 	}
 
@@ -83,15 +80,6 @@ function rainbow(){
 		}
 	}
 
-
-	this.generatePhotoSrc = b => {
-		var photoSrc = "../img/gakvetilebi/xelovneba/color-game/";
-		var photoName = b.getAttribute('data-name');
-		var showImage = "-show";
-
-		b.setAttribute('src', `${photoSrc}${photoName}${showImage}.svg`);
-	}
-
 	
 
 	var rainbowBtns = document.querySelectorAll('.color__btn');
@@ -99,8 +87,9 @@ function rainbow(){
 	rainbowBtns.forEach(b => {
 		b.addEventListener('click', e => {
 			e.target.parentElement.classList.remove('cursor-pointer');
+			e.target.classList.remove('opacity-5');
+			e.target.classList.add('opacity-1');
 			colorsRainbow.calculateNextIndex();
-			colorsRainbow.generatePhotoSrc(b);
 			colorsRainbow.paint(e.target.dataset.color);
 		})
 	})
