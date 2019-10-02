@@ -1,8 +1,16 @@
 @font-face {
-  font-family: 'ALK Sanet';
+  font-family: "ALK Sanet";
   src: url("../fonts/alkSanet/alk-sanet-webfont.eot");
   /* IE9 Compat Modes */
   src: url("../fonts/alkSanet/alk-sanet-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/alkSanet/alk-sanet-webfont.woff2") format("woff2"), url("../fonts/alkSanet/alk-sanet-webfont.woff") format("woff"), url("../fonts/alkSanet/alk-sanet-webfont.ttf") format("truetype"), url("../fonts/alkSanet/alk-sanet-webfont.svg#alk_sanetregular") format("svg");
+  /* Legacy iOS */
+}
+
+@font-face {
+  font-family: "BPG Arial";
+  src: url("../arial/fonts/bpg-arial-webfont.eot");
+  /* IE9 Compat Modes */
+  src: url("../arial/fonts/bpg-arial-webfont.eot?#iefix") format("embedded-opentype"), url("../arial/fonts/bpg-arial-webfont.woff2") format("woff2"), url("../arial/fonts/bpg-arial-webfont.woff") format("woff"), url("../arial/fonts/bpg-arial-webfont.ttf") format("truetype"), url("../arial/fonts/bpg-arial-webfont.svg#bpg_arialregular") format("svg");
   /* Legacy iOS */
 }
 
@@ -302,10 +310,18 @@ body {
 }
 
 @font-face {
-  font-family: 'ALK Sanet';
+  font-family: "ALK Sanet";
   src: url("../fonts/alkSanet/alk-sanet-webfont.eot");
   /* IE9 Compat Modes */
   src: url("../fonts/alkSanet/alk-sanet-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/alkSanet/alk-sanet-webfont.woff2") format("woff2"), url("../fonts/alkSanet/alk-sanet-webfont.woff") format("woff"), url("../fonts/alkSanet/alk-sanet-webfont.ttf") format("truetype"), url("../fonts/alkSanet/alk-sanet-webfont.svg#alk_sanetregular") format("svg");
+  /* Legacy iOS */
+}
+
+@font-face {
+  font-family: "BPG Arial";
+  src: url("../arial/fonts/bpg-arial-webfont.eot");
+  /* IE9 Compat Modes */
+  src: url("../arial/fonts/bpg-arial-webfont.eot?#iefix") format("embedded-opentype"), url("../arial/fonts/bpg-arial-webfont.woff2") format("woff2"), url("../arial/fonts/bpg-arial-webfont.woff") format("woff"), url("../arial/fonts/bpg-arial-webfont.ttf") format("truetype"), url("../arial/fonts/bpg-arial-webfont.svg#bpg_arialregular") format("svg");
   /* Legacy iOS */
 }
 
@@ -341,6 +357,9 @@ header nav .header-logo img {
 
 header nav .header-menu {
   height: inherit;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 header nav .header-menu img {
