@@ -897,7 +897,7 @@ header nav .header-sound .active {
 }
 
 .main-box_absolute .main-box_relative .text-wrapper p {
-  font-family: "Helvetica Neue";
+  font-family: "Helvetica Neue", sans-serif;
   font-size: 5.5vh;
   margin-left: 2.6vh;
   line-height: 1vh;
