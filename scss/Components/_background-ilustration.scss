@@ -1,0 +1,42 @@
+.subject_component_botton_illustration {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 73vh;
+  width: 42vw;
+  overflow: hidden;
+}
+.illustration_bg {
+  position: absolute;
+  bottom: -30vh;
+  right: -28vh;
+  height: inherit;
+  width: inherit;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.bg_red {
+  background-image: url("../img/backgrounds/botton_illustration_red.svg");
+}
+.bg_blue {
+  background-image: url("../img/backgrounds/botton_illustration_red.svg");
+}
+.subject_component_botton_icon {
+  position: absolute;
+  background: green;
+  height: 8.5vh;
+  width: 7vh;
+  bottom: 8.7vh;
+  right: 4.5vh;
+}
+
+.subject_component_top_illustration {
+  position: absolute;
+  background: red;
+  top: 0;
+  left: 0;
+  height: 73vh;
+  width: 42vw;
+  overflow: hidden;
+}
