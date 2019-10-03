@@ -928,45 +928,7 @@ header nav .header-sound .active {
   height: inherit;
 }
 
-.art-lesson-content {
-  margin-bottom: 2.61vh;
-}
-
-.art-lesson-content_links {
-  margin-top: 5.31vh;
-}
-
-.art-lesson-content_links .music {
-  background-image: url("../img/gakvetilebi/musika/musika-logo.svg");
-}
-
-.art-lesson-content_links .art {
-  background-image: url("../img/gakvetilebi/xelovneba/xelovneba-logo.svg");
-}
-
-.art-lesson-content_links .nature {
-  background-image: url("../img/gakvetilebi/buneba/buneba-logo.svg");
-}
-
-.art-lesson-content_links a {
-  background-repeat: no-repeat;
-  background-position: left center;
-  text-align: center;
-  line-height: 3.5vh;
-  padding: 1.6vh 0;
-  width: 100%;
-  -webkit-box-shadow: 0px 3px 6px #00000029;
-          box-shadow: 0px 3px 6px #00000029;
-  border-radius: 40px;
-  font-size: 1.9vh;
-  font-family: "ALK Sanet", sans-serif;
-  color: #262626;
-}
-
-.subject_bottom_illustration-art {
-  position: absolute;
-  height: 23.69vh;
-  bottom: 2.35vh;
-  right: 7.60vh;
+.padding-top-28vh {
+  padding-top: 28vh;
 }
 /*# sourceMappingURL=style.css.map */
