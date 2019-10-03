@@ -858,6 +858,29 @@ header nav .header-sound .active {
   padding-top: 3.4vh;
 }
 
+.art-lesson-content {
+  margin-bottom: 2.61vh;
+}
+
+.art-lesson-content_links {
+  margin-top: 5.31vh;
+}
+
+.art-lesson-content_links a {
+  width: 100%;
+}
+
+.subject_bottom_illustration-art {
+  position: absolute;
+  height: 23.69vh;
+  width: 14.71vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  bottom: 2.35vh;
+  right: 7.60vh;
+  background-image: url("../img/gakvetilebi/xelovneba/subject_bottom_illustration-art-1.svg");
+}
+
 .padding-top-18vh {
   padding-top: 18vh;
 }
@@ -933,3 +956,4 @@ header nav .header-sound .active {
 .padding-top-28vh {
   padding-top: 28vh;
 }
+/*# sourceMappingURL=style.css.map */
