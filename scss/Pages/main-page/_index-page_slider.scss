@@ -36,12 +36,13 @@
   .owl-dot span {
     background: transparent;
     border: 1px solid #707070;
+    width: 16px;
+    height: 16px;
   }
   .owl-dot.active span {
     background: #7fd1d8;
     border: none;
-    width: 16px;
-    height: 16px;
+    
   }
 }
 

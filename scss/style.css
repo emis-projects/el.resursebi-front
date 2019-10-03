@@ -515,13 +515,13 @@ header nav .header-sound .sound-on {
 .owl-theme .owl-dots .owl-dot span {
   background: transparent;
   border: 1px solid #707070;
+  width: 16px;
+  height: 16px;
 }
 
 .owl-theme .owl-dots .owl-dot.active span {
   background: #7fd1d8;
   border: none;
-  width: 16px;
-  height: 16px;
 }
 
 /* 
