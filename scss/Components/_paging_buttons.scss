@@ -1,0 +1,30 @@
+.paging_buttons {
+    display: flex;
+    &_position {
+      position: absolute;
+      bottom: 2.6vh;
+      right: 10.2vw;
+      z-index: 10;
+    }
+    a {
+      box-shadow: 0px 3px 6px #00000029;
+      border-radius: 50%;
+      img {
+        width: 4.6vh;
+        height: 4.6vh;
+        background: #ffffff 0% 0% no-repeat padding-box;
+        opacity: 1;
+        border-radius: 50%;
+      }
+    }
+    &_right {
+      transform: matrix(0, -1, 1, 0, 0, 0);
+    }
+    &_left {
+      transform: matrix(0, 1, -1, 0, 0, 0);
+    }
+    &_margin-left{
+      margin-left: 3.9vw;
+    }
+  }
+  
