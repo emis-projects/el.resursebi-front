@@ -573,6 +573,10 @@ header nav .header-sound .active {
   margin-left: 3.9vw;
 }
 
+.bg-pink {
+  background-color: #FFF5F7;
+}
+
 /* 
 *wow slider CSS section 
 */
@@ -852,8 +856,8 @@ header nav .header-sound .active {
   padding-top: 3.4vh;
 }
 
-.bg-pink {
-  background-color: #FFF5F7;
+.padding-top-18vh {
+  padding-top: 18vh;
 }
 
 .main-box_absolute {
