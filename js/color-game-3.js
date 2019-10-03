@@ -27,11 +27,11 @@ function chooseColor(){
 		this.mixinColorCount = 0;
 
 		document.querySelectorAll('.choose__color').forEach(w => {
-			w.classList.add('opacity-5')
-			w.classList.remove('opacity-1')
+			w.classList.add('opacity-5');
+			w.classList.add('cursor-pointer');
+			w.classList.remove('opacity-1');
 		});
 	}
-	
 
 	document.addEventListener('DOMContentLoaded', this.init);
 
@@ -44,6 +44,7 @@ function chooseColor(){
 		top.querySelectorAll('img').forEach(w => {
 			w.classList.remove('opacity-5');
 			w.classList.add('opacity-1');
+			w.classList.remove('cursor-pointer');
 			var attr = w.getAttribute('data-color');
 			this.colors.push(attr);
 		});
@@ -73,6 +74,7 @@ function chooseColor(){
 		bottom.querySelectorAll('img').forEach(w => {
 			w.classList.remove('opacity-5');
 			w.classList.add('opacity-1');
+			w.classList.remove('cursor-pointer');
 			var attr = w.getAttribute('data-color');			
 			this.colors.push(attr)
 		});
@@ -84,12 +86,15 @@ function chooseColor(){
 	});
 
 
+
 	this.getExtraColor = () => {
 		if(this.colors[0] === 'yellow' && this.colors[1] === 'blue'){
 			img1.src = "../../img/gakvetilebi/xelovneba/color-game/yellow-color-show.svg";
 			img2.src = "../../img/gakvetilebi/xelovneba/color-game/blue-color-show.svg";
 			img1.classList.add('opacity-5');
 			img2.classList.add('opacity-5');
+			img1.classList.add('cursor-pointer');
+			img2.classList.add('cursor-pointer');
 			img1.classList.remove('opacity-1');
 			img2.classList.remove('opacity-1');
 			img1.setAttribute('data-color', 'mixin-yellow');
@@ -101,6 +106,8 @@ function chooseColor(){
 			img2.src = "../../img/gakvetilebi/xelovneba/color-game/blue-color-show.svg";
 			img1.classList.add('opacity-5');
 			img2.classList.add('opacity-5');
+			img1.classList.add('cursor-pointer');
+			img2.classList.add('cursor-pointer');
 			img1.classList.remove('opacity-1');
 			img2.classList.remove('opacity-1');
 			img1.setAttribute('data-color', 'mixin-red');
@@ -127,17 +134,21 @@ function chooseColor(){
 			changedColor.setAttribute('fill', '#7FDD11');
 			img1.classList.add('opacity-1');
 			img1.classList.remove('opacity-5');
-
+			img1.classList.add('cursor-pointer');
+			
 			img2.classList.remove('opacity-1');
 			img2.classList.add('opacity-5');
-
+			img2.classList.add('cursor-pointer');
+			
 		} else if (this.mixinColor === "mixin-yellow" && this.mixinColorCount === 2){
 			changedColor.setAttribute('fill', '#ACF425');
+			img1.classList.remove('cursor-pointer');
 
 		} else if(this.color === "#008445" && this.mixinColor === "mixin-blue" && this.mixinColorCount === 1){
 			changedColor.setAttribute('fill', '#008470');
 			img1.classList.add('opacity-5');
 			img1.classList.remove('opacity-1');
+			img1.classList.add('cursor-pointer');
 			img2.classList.add('opacity-1');
 			img2.classList.remove('opacity-5');
 
@@ -147,6 +158,7 @@ function chooseColor(){
 			img1.classList.remove('opacity-1');
 			img2.classList.add('opacity-1');
 			img2.classList.remove('opacity-5');
+			img2.classList.remove('cursor-pointer');
 
 		} else if(this.mixinColor === "mixin-red" && this.mixinColorCount === 1){
 			changedColor.setAttribute('fill', '#A30D8C');

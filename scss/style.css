@@ -442,10 +442,6 @@ header nav .header-sound .active {
   transition: all 0.5s;
 }
 
-.finalyColorSingle {
-  display: none;
-}
-
 .container_choose_arrowDown {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -839,6 +835,12 @@ header nav .header-sound .active {
   width: 100%;
 }
 
+.game-1 .desktop-paint-colors,
+.game-1 .desktop-green-color--light {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
 .rainbow__main__img {
   width: 51%;
 }
@@ -901,6 +903,29 @@ header nav .header-sound .active {
 .container_main_title_art-paddings {
   padding-bottom: 10.4vh;
   padding-top: 3.4vh;
+}
+
+.art-lesson-content {
+  margin-bottom: 2.61vh;
+}
+
+.art-lesson-content_links {
+  margin-top: 5.31vh;
+}
+
+.art-lesson-content_links a {
+  width: 100%;
+}
+
+.subject_bottom_illustration-art {
+  position: absolute;
+  height: 23.69vh;
+  width: 14.71vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  bottom: 2.35vh;
+  right: 7.60vh;
+  background-image: url("../img/gakvetilebi/xelovneba/subject_bottom_illustration-art-1.svg");
 }
 
 .padding-top-18vh {
