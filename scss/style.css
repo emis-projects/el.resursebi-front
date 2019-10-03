@@ -835,6 +835,10 @@ header nav .header-sound .sound-on {
           transform: matrix(0, 1, -1, 0, 0, 0);
 }
 
+.bg-pink {
+  background-color: #FFF5F7;
+}
+
 .main-box_absolute {
   position: absolute;
   height: 100vh;
@@ -933,3 +937,4 @@ header nav .header-sound .sound-on {
 .main-box_img-wrapper div img {
   height: inherit;
 }
+/*# sourceMappingURL=style.css.map */
