@@ -765,7 +765,7 @@ header nav .header-sound .sound-on {
   margin-right: 15px;
 }
 
-.art_main-title {
+.container_main_title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -776,31 +776,38 @@ header nav .header-sound .sound-on {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-family: 'ALK Sanet';
-  font-size: 1.8vh;
-  padding-bottom: 10.4vh;
+  font-family: "ALK Sanet";
+  font-size: 1.9vh;
 }
 
-.art_main-title img {
+.container_main_title img {
   height: 4.4vh;
   padding-right: 1.1vh;
 }
 
-.art_questions-item {
+.container_main_title_art-paddings {
+  padding-bottom: 10.4vh;
+  padding-top: 3.4vh;
+}
+
+.subject_question_item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  color: #0B2228;
+  color: #0b2228;
   -webkit-box-pack: left;
       -ms-flex-pack: left;
           justify-content: left;
   font-size: 2.8vh;
-  line-height: 2.9vh;
+  line-height: 3.9vh;
   padding-bottom: 5.2vh;
   font-family: "BPG Arial";
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
 }
 
-.art_questions-item img {
+.subject_question_item img {
   height: 2.2vh;
   padding-right: 1.9vh;
 }
@@ -809,35 +816,41 @@ header nav .header-sound .sound-on {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  margin-top: 24.3vh;
+}
+
+.paging_buttons_position {
+  position: absolute;
+  bottom: 2.6vh;
+  right: 10.2vw;
+  z-index: 10;
 }
 
 .paging_buttons a {
   -webkit-box-shadow: 0px 3px 6px #00000029;
           box-shadow: 0px 3px 6px #00000029;
   border-radius: 50%;
-  margin-left: 2.9vh;
 }
 
 .paging_buttons a img {
   width: 4.6vh;
   height: 4.6vh;
-  background: #FFFFFF 0% 0% no-repeat padding-box;
+  background: #ffffff 0% 0% no-repeat padding-box;
   opacity: 1;
   border-radius: 50%;
 }
 
-.paging_buttons-right {
+.paging_buttons_right {
   -webkit-transform: matrix(0, -1, 1, 0, 0, 0);
           transform: matrix(0, -1, 1, 0, 0, 0);
 }
 
-.paging_buttons-left {
+.paging_buttons_left {
   -webkit-transform: matrix(0, 1, -1, 0, 0, 0);
           transform: matrix(0, 1, -1, 0, 0, 0);
+}
+
+.paging_buttons_margin-left {
+  margin-left: 3.9vw;
 }
 
 .main-box_absolute {
@@ -938,4 +951,3 @@ header nav .header-sound .sound-on {
 .main-box_img-wrapper div img {
   height: inherit;
 }
-/*# sourceMappingURL=style.css.map */
