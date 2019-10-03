@@ -520,6 +520,8 @@ header nav .header-sound .sound-on {
 .owl-theme .owl-dots .owl-dot.active span {
   background: #7fd1d8;
   border: none;
+  width: 16px;
+  height: 16px;
 }
 
 /* 
@@ -936,3 +938,4 @@ header nav .header-sound .sound-on {
 .main-box_img-wrapper div img {
   height: inherit;
 }
+/*# sourceMappingURL=style.css.map */
