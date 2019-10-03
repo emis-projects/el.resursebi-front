@@ -282,11 +282,6 @@ body {
   }
 }
 
-* {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
 .clearfix {
   content: "";
   clear: both;
@@ -938,4 +933,3 @@ header nav .header-sound .sound-on {
 .main-box_img-wrapper div img {
   height: inherit;
 }
-/*# sourceMappingURL=style.css.map */
