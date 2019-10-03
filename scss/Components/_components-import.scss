@@ -1,3 +1,24 @@
-@import './game-completed-btn';
-@import './game-reset-btn';
-@import './_color-games-paint.scss';
+// header component
+@import "./header";
+
+@import "./game-completed-btn";
+@import "./game-reset-btn";
+@import "./_color-games-paint.scss";
+
+//  choose_arrowDown component
+@import "./choose_arrowDown";
+
+// links components ( with half-flower)
+@import "./links";
+
+// Subject question items
+@import "./subject_question";
+
+// container main title without paddings
+@import "./main_title";
+
+// Paging buttons - left and right button
+@import "./paging_buttons";
+
+// Background colors
+@import "./background_colors";

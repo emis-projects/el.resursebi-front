@@ -28,28 +28,40 @@
     }
   }
 }
+
 .owl-theme .owl-dots {
   position: absolute;
   left: 0;
   right: 0;
   bottom: 4.9vh;
-  .owl-dot span {
-    background: transparent;
-    border: 1px solid #707070;
-    width: 16px;
-    height: 16px;
+  .owl-dot {
+    &:hover {
+      outline: none;
+    }
+    span {
+      background: transparent;
+      border: 1px solid #707070;
+      width: 16px;
+      height: 16px;
+    }
   }
-  .owl-dot.active span {
-    background: #7fd1d8;
-    border: none;
-    
+  .owl-dot.active {
+    &:hover {
+      outline: none;
+    }
+    span {
+      background: #7fd1d8;
+      border: none;
+    }
   }
 }
 
 /* 
 ! slider content sectio
 */
-
+.main_box_links {
+  margin-top: 10.4vh;
+}
 .slider {
   margin-top: 16vh;
   height: 57.3vh;
@@ -82,33 +94,6 @@
       font-family: "ALK Sanet", sans-serif;
       padding-left: 8.6vw;
       height: inherit;
-      .button-red {
-        background-image: url("../img/slider/start-buttons/red-button.svg");
-      }
-      .button-blue {
-        background-image: url("../img/slider/start-buttons/blue-button.svg");
-      }
-      .button-yellow {
-        background-image: url("../img/slider/start-buttons/yellow-button.svg");
-      }
-      a {
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: left center;
-        margin-top: 4vh;
-        height: 8.7vh;
-        width: 26vh;
-        font-family: inherit;
-        font-size: 2.5vh;
-        line-height: 4vh;
-        color: #262626;
-        text-align: center;
-        padding: 10px 20px;
-        border-radius: 27px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
       h1 {
         text-align: left;
         font-size: 4.2vh;
