@@ -322,56 +322,6 @@ body {
   margin-right: 15px;
 }
 
-.completed__btn {
-  background: #F8D24B;
-  border-radius: 27px;
-  height: 39px;
-  width: 167px;
-  text-align: center;
-  color: #FFFFFF;
-  margin-bottom: 10px;
-  font-family: "ALK Sanet";
-}
-
-.completed__btn:focus {
-  outline: none;
-}
-
-.reset__btn {
-  background: #7FD1D8;
-  border-radius: 27px;
-  height: 39px;
-  width: 167px;
-  text-align: center;
-  color: #FFFFFF;
-  font-family: "ALK Sanet";
-}
-
-.reset__btn:focus {
-  outline: none;
-}
-
-.color-game-paint {
-  width: 52px;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-}
-
-.color-game-paint-big {
-  width: 77px;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-}
-
-#Path_3994 {
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-}
-
-.finalyColorSingle {
-  display: none;
-}
-
 header {
   height: 8vh;
   width: 100%;
@@ -439,26 +389,99 @@ header nav .header-sound .sound-on {
   margin-right: 50px;
 }
 
-.main-box {
-  height: 82.28vh;
+.completed__btn {
+  background: #F8D24B;
+  border-radius: 27px;
+  height: 39px;
+  width: 167px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+  font-family: "ALK Sanet";
 }
 
-.main-box .text-container {
+.completed__btn:focus {
+  outline: none;
+}
+
+.reset__btn {
+  background: #7FD1D8;
+  border-radius: 27px;
+  height: 39px;
+  width: 167px;
+  text-align: center;
+  color: #FFFFFF;
+  font-family: "ALK Sanet";
+}
+
+.reset__btn:focus {
+  outline: none;
+}
+
+.color-game-paint {
+  width: 52px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.color-game-paint-big {
+  width: 77px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+#Path_3994 {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.finalyColorSingle {
+  display: none;
+}
+
+.container_choose_arrowDown {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 5vh;
+  height: 3vh;
 }
 
-.main-box .text-container div {
+.container_choose_arrowDown div {
   font-family: "ALK Sanet", sans-serif;
   font-size: 3.1vh;
   color: #0b2228;
   margin-right: 3.3vh;
 }
 
-.main-box .text-container img {
+.container_choose_arrowDown img {
   height: 100%;
+}
+
+.main_box_links .music {
+  background-image: url("../img/gakvetilebi/musika/musika-logo.svg");
+}
+
+.main_box_links .art {
+  background-image: url("../img/gakvetilebi/xelovneba/xelovneba-logo.svg");
+}
+
+.main_box_links .nature {
+  background-image: url("../img/gakvetilebi/buneba/buneba-logo.svg");
+}
+
+.main_box_links a {
+  background-repeat: no-repeat;
+  background-position: left center;
+  text-align: center;
+  line-height: 3.5vh;
+  padding: 1.6vh 0;
+  width: 24.3vh;
+  -webkit-box-shadow: 0px 3px 6px #00000029;
+          box-shadow: 0px 3px 6px #00000029;
+  border-radius: 40px;
+  font-size: 1.9vh;
+  font-family: "ALK Sanet", sans-serif;
+  color: #262626;
 }
 
 /* 
@@ -522,6 +545,10 @@ header nav .header-sound .sound-on {
 /* 
 ! slider content sectio
 */
+.main_box_links {
+  margin-top: 10.4vh;
+}
+
 .slider {
   margin-top: 16vh;
   height: 57.3vh;
@@ -888,37 +915,6 @@ header nav .header-sound .sound-on {
 
 .main-box_absolute .main-box_relative .text-wrapper .icon-box img {
   height: 50%;
-}
-
-.main-box_links {
-  margin-top: 10.4vh;
-}
-
-.main-box_links .music {
-  background-image: url("../img/gakvetilebi/musika/musika-logo.svg");
-}
-
-.main-box_links .art {
-  background-image: url("../img/gakvetilebi/xelovneba/xelovneba-logo.svg");
-}
-
-.main-box_links .nature {
-  background-image: url("../img/gakvetilebi/buneba/buneba-logo.svg");
-}
-
-.main-box_links a {
-  background-repeat: no-repeat;
-  background-position: left center;
-  text-align: center;
-  line-height: 3.5vh;
-  padding: 1.6vh 0;
-  width: 24.3vh;
-  -webkit-box-shadow: 0px 3px 6px #00000029;
-          box-shadow: 0px 3px 6px #00000029;
-  border-radius: 40px;
-  font-size: 1.9vh;
-  font-family: "ALK Sanet", sans-serif;
-  color: #262626;
 }
 
 .main-box_img-wrapper {

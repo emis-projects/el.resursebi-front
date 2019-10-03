@@ -1,3 +1,12 @@
-@import './game-completed-btn';
-@import './game-reset-btn';
-@import './_color-games-paint.scss';
+// header component
+@import "./header";
+
+@import "./game-completed-btn";
+@import "./game-reset-btn";
+@import "./_color-games-paint.scss";
+
+//  choose_arrowDown component
+@import "./choose_arrowDown";
+
+// links components ( with half-flower)
+@import "./links";
