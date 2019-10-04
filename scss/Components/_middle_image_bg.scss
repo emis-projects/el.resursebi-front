@@ -1,0 +1,11 @@
+.bottom_middle_bg_box {
+  height: 45.6vh;
+  overflow: hidden;
+  .middle_bg_box_image {
+    height: 45vh;
+    width: auto;
+    background-position: bottom right;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}

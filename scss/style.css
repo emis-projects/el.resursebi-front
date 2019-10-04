@@ -714,6 +714,19 @@ header nav .header-sound .active {
   background-image: url("../../img/backgrounds/bg-ilustrations/bouble_blue.svg");
 }
 
+.bottom_middle_bg_box {
+  height: 45.6vh;
+  overflow: hidden;
+}
+
+.bottom_middle_bg_box .middle_bg_box_image {
+  height: 45vh;
+  width: auto;
+  background-position: bottom right;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 /* 
 *wow slider CSS section 
 */
@@ -1267,19 +1280,6 @@ header nav .header-sound .active {
   margin-bottom: 5vh;
 }
 
-.bottom_middle_bg_box {
-  height: 45.6vh;
-  overflow: hidden;
-}
-
-.bottom_middle_bg_box .middle_bg_box_hand {
-  height: 45vh;
-  width: auto;
-  background-position: bottom right;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.bottom_middle_bg_box .bg_hand {
+.middle_bg_hand {
   background-image: url("../../img/backgrounds/bg-ilustrations/hand-middle.svg");
 }
