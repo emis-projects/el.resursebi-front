@@ -624,6 +624,7 @@ header nav .header-sound .active {
   height: 35vh;
   width: 35vh;
   overflow: hidden;
+  z-index: -1;
 }
 
 .subject_component_top_illustration {
@@ -1074,7 +1075,7 @@ header nav .header-sound .active {
 
 .portfolio-item-container {
   position: relative;
-  height: 55.2vh;
+  height: 57.2vh;
   width: 100%;
 }
 
@@ -1122,7 +1123,7 @@ header nav .header-sound .active {
 .fullScreen_modal-img-lg-hor {
   width: 54vw;
   height: 80vh;
-  margin-left: 10.1vw;
+  margin-left: 6.1vw;
 }
 
 .fullScreen_modal-img-lg-hor img {
@@ -1173,6 +1174,18 @@ header nav .header-sound .active {
   display: none;
 }
 
+.portfolio-slider-second-page.owl-theme .owl-dots .owl-dot:first-child span {
+  background-image: url("../../../img/gakvetilebi/xelovneba/cnobili-namushevrebi/4.jpg");
+}
+
+.portfolio-slider-second-page.owl-theme .owl-dots .owl-dot:nth-child(2) span {
+  background-image: url("../../../img/gakvetilebi/xelovneba/cnobili-namushevrebi/5.jpg");
+}
+
+.portfolio-slider-second-page.owl-theme .owl-dots .owl-dot:nth-child(3) span {
+  background-image: url("../../../img/gakvetilebi/xelovneba/cnobili-namushevrebi/6.jpg");
+}
+
 .main-box_img-wrapper {
   margin-top: 7vh;
   height: 51vh;
@@ -1190,11 +1203,11 @@ header nav .header-sound .active {
   padding-top: 14vh;
 }
 
-.container_main_title {
+.main_title_padding_bottom {
   margin-bottom: 5vh;
 }
 
-.container_main_title h1 {
+.main_title_padding_bottom h1 {
   font-family: "ALK Sanet", sans-serif;
   font-size: 1.8vh;
   color: #262626;
