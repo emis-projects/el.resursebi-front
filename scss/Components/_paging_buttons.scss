@@ -26,5 +26,20 @@
     &_margin-left{
       margin-left: 1.9vw;
     }
+    &_fullScreen-link{
+      width: 4.4vh;
+      height: 4.4vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #ffffff 0% 0% no-repeat padding-box;
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+    }
+    &_fullScreen-img{
+      width: 2.3vh!important;
+      height: 2.3vh!important;
+    }
   }
   
