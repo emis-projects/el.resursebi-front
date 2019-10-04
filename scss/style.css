@@ -558,7 +558,7 @@ header nav .header-sound .active {
 .paging_buttons_position {
   position: absolute;
   bottom: 2.6vh;
-  right: 10.2vw;
+  right: 18vh;
   z-index: 10;
 }
 
@@ -587,11 +587,107 @@ header nav .header-sound .active {
 }
 
 .paging_buttons_margin-left {
-  margin-left: 3.9vw;
+  margin-left: 1.9vw;
 }
 
 .bg-pink {
   background-color: #FFF5F7;
+}
+
+.subject_component_botton_illustration {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 35vh;
+  width: 35vh;
+  overflow: hidden;
+}
+
+.subject_component_top_illustration {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 34vh;
+  width: 20.7vw;
+  overflow: hidden;
+  z-index: -5;
+}
+
+.illustration_bg {
+  height: inherit;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.bg_pink_up {
+  background-image: url("../img/backgrounds/bg-ilustrations/pink-up-cut.svg");
+  background-position: left top;
+}
+
+.bg_pink_Down {
+  background-image: url("../img/backgrounds/bg-ilustrations/pink-down-cut.svg");
+  background-position: bottom right;
+}
+
+.bg_blue_up {
+  background-image: url("../img/backgrounds/bg-ilustrations/blue-up-cut.svg");
+  background-position: left top;
+}
+
+.bg_blue_Down {
+  background-image: url("../img/backgrounds/bg-ilustrations/blue-down-cut.svg");
+  background-position: bottom right;
+}
+
+.subject_component_botton_icon {
+  position: absolute;
+  height: 8.5vh;
+  width: 7vh;
+  bottom: 8.7vh;
+  right: 4.5vh;
+}
+
+.subject_component {
+  margin-left: 16.8vh;
+  margin-bottom: 5vh;
+}
+
+.subject_component .item_flex {
+  height: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.subject_component .item_flex .subject_component_itle_icon {
+  height: 5.7vh;
+  width: 5.7vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.subject_component .item_flex .subject_component_itle_icon img {
+  height: 100%;
+  max-height: 2.2vh;
+}
+
+.subject_component .item_flex .subject_component_title {
+  font-family: "ALK Sanet", sans-serif;
+  color: #c5cbcd;
+  font-size: 2.3vh;
+  margin-left: 2vh;
+}
+
+.subject_component .bg_bouble_pink {
+  background-image: url("../../img/backgrounds/bg-ilustrations/bouble_pink.svg");
+}
+
+.subject_component .bg_bouble_blue {
+  background-image: url("../../img/backgrounds/bg-ilustrations/bouble_blue.svg");
 }
 
 /* 
@@ -866,11 +962,6 @@ header nav .header-sound .active {
   margin-right: 15px;
 }
 
-.container_main_title_art-paddings {
-  padding-bottom: 10.4vh;
-  padding-top: 3.4vh;
-}
-
 .art-lesson-content {
   margin-bottom: 2.61vh;
 }
@@ -894,8 +985,9 @@ header nav .header-sound .active {
   background-image: url("../img/gakvetilebi/xelovneba/subject_bottom_illustration-art-1.svg");
 }
 
-.padding-top-18vh {
-  padding-top: 18vh;
+.container_main_title_art-paddings {
+  padding-bottom: 10.4vh;
+  padding-top: 3.4vh;
 }
 
 .main-box_absolute {
@@ -966,6 +1058,75 @@ header nav .header-sound .active {
   height: inherit;
 }
 
-.padding-top-28vh {
-  padding-top: 28vh;
+.padding-top-14vh {
+  padding-top: 14vh;
+}
+
+.container_main_title {
+  margin-bottom: 5vh;
+}
+
+.container_main_title h1 {
+  font-family: "ALK Sanet", sans-serif;
+  font-size: 1.8vh;
+  color: #262626;
+}
+
+.bottom_components .item_flex {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.bottom_components .item_flex .subject_component_title {
+  margin-left: 0;
+  margin-top: 3vh;
+  font-size: 1.8vh;
+}
+
+.paint_atributes_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  position: absolute;
+  bottom: 7.29vh;
+  left: 23.22vw;
+}
+
+.paint_atributes_color_box {
+  height: 28.77vh;
+  width: 32.16vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  bottom: 2.35vh;
+  right: 7.60vh;
+  background-image: url("../img/gakvetilebi/xelovneba/paint-boxo.svg");
+}
+
+.paint_atributes_color_brush {
+  height: 58.59vh;
+  width: 79.42vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  bottom: 2.35vh;
+  right: 7.60vh;
+  background-image: url("../img/gakvetilebi/xelovneba/red_brush.svg");
+}
+
+.padding-top-5vh {
+  padding-top: 5vh;
+}
+
+.margin-botton-5vh {
+  margin-bottom: 5vh;
 }

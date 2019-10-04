@@ -1,19 +1,27 @@
-
-/* .art-lesson-content{
-    margin-bottom:2.61vh;
+.paint_atributes_container{
+  display: flex;
+  align-items: flex-end;
+  position: absolute;
+  bottom: 7.29vh;
+  left: 23.22vw;   
 }
-.art-lesson-content_links {
-    margin-top:5.31vh;
-    a {
-      width: 100%;     
-    } 
-  }
-  
- .subject_bottom_illustration-art{  
-        position: absolute;
-        height: 23.69vh; 
+
+.paint_atributes_color_box{
+        height: 28.77vh;
+        width: 32.16vh;
+        background-size: cover;
+        background-repeat: no-repeat;
         bottom:2.35vh; 
         right: 7.60vh;
-     }
- 
-  */
+        background-image: url("../img/gakvetilebi/xelovneba/paint-boxo.svg");   
+}
+
+.paint_atributes_color_brush{
+  height: 58.59vh;
+  width: 79.42vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  bottom:2.35vh; 
+  right: 7.60vh;  
+  background-image: url("../img/gakvetilebi/xelovneba/red_brush.svg"); 
+}
