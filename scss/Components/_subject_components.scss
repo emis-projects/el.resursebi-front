@@ -1,9 +1,7 @@
 // subject title wrapper box
 .subject_component {
-  height: 5.7vh;
-  width: auto;
   margin-left: 16.8vh;
-  margin-bottom: 9vh;
+  margin-bottom: 5vh;
 
   // flex box for icon and title
   .item_flex {
@@ -13,7 +11,7 @@
 
     // subcejt title bg icon
     .subject_component_itle_icon {
-      height: inherit;
+      height: 5.7vh;
       width: 5.7vh;
       background-position: center;
       background-repeat: no-repeat;
