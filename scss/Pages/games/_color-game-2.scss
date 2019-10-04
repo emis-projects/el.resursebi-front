@@ -16,29 +16,15 @@
     flex-wrap: wrap;
     position: relative;
 
-    div {
+    .color-game-paint-parent--child {
         margin-right: 40px;
         position: relative;
 
-        &::after {
-            content: '';
-            background: transparent;
-            position: absolute;
-            left: 0;
-            top: 0;
-            width: 55px;
-            height: 87px;
-            z-index: 1000;
-            opacity: 1;
-            visibility: visible;
-        }
-
-            &.cursor-pointer {
-                &::after {
-                    opacity: 0;
-                    visibility: hidden;
-                }
+        &.cursor-pointer {
+            &::after {
+                opacity: 0;
+                visibility: hidden;
             }
-        
+        }
     }
 }
