@@ -28,20 +28,31 @@
     }
   }
 }
+
 .owl-theme .owl-dots {
   position: absolute;
   left: 0;
   right: 0;
   bottom: 4.9vh;
-  .owl-dot span {
-    background: transparent;
-    border: 1px solid #707070;
-    width: 16px;
-    height: 16px;
+  .owl-dot {
+    &:hover {
+      outline: none;
+    }
+    span {
+      background: transparent;
+      border: 1px solid #707070;
+      width: 16px;
+      height: 16px;
+    }
   }
-  .owl-dot.active span {
-    background: #7fd1d8;
-    border: none;
+  .owl-dot.active {
+    &:hover {
+      outline: none;
+    }
+    span {
+      background: #7fd1d8;
+      border: none;
+    }
   }
 }
 

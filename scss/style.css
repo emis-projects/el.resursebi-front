@@ -372,12 +372,15 @@ header nav .header-sound {
 
 header nav .header-sound .header-sound_switch {
   height: inherit;
-  background: transparent;
   -webkit-box-shadow: 0px 4px 6px #00000029;
           box-shadow: 0px 4px 6px #00000029;
   max-width: 36px;
   max-height: 36px;
+  height: 4.6vh;
+  width: 4.6vh;
   border-radius: 50%;
+  outline: none;
+  background: #fff;
 }
 
 header nav .header-sound .header-sound_switch img {
@@ -387,6 +390,31 @@ header nav .header-sound .header-sound_switch img {
 
 header nav .header-sound .sound-on {
   margin-right: 50px;
+}
+
+header nav .header-sound .active {
+  background: #7fd1d8;
+}
+
+.color-game-paint-parent {
+  position: relative;
+}
+
+.color-game-paint-parent--child {
+  position: relative;
+}
+
+.color-game-paint-parent--child::after {
+  content: '';
+  background: transparent;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 55px;
+  height: 87px;
+  z-index: 1000;
+  opacity: 1;
+  visibility: visible;
 }
 
 .completed__btn {
@@ -433,10 +461,6 @@ header nav .header-sound .sound-on {
 #Path_3994 {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
-}
-
-.finalyColorSingle {
-  display: none;
 }
 
 .container_choose_arrowDown {
@@ -534,7 +558,7 @@ header nav .header-sound .sound-on {
 .paging_buttons_position {
   position: absolute;
   bottom: 2.6vh;
-  right: 10.2vw;
+  right: 18vh;
   z-index: 10;
 }
 
@@ -563,7 +587,7 @@ header nav .header-sound .sound-on {
 }
 
 .paging_buttons_margin-left {
-  margin-left: 3.9vw;
+  margin-left: 1.9vw;
 }
 
 .paging_buttons_fullScreen-link {
@@ -591,6 +615,102 @@ header nav .header-sound .sound-on {
 
 .bg-pink {
   background-color: #FFF5F7;
+}
+
+.subject_component_botton_illustration {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 35vh;
+  width: 35vh;
+  overflow: hidden;
+}
+
+.subject_component_top_illustration {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 34vh;
+  width: 20.7vw;
+  overflow: hidden;
+  z-index: -5;
+}
+
+.illustration_bg {
+  height: inherit;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.bg_pink_up {
+  background-image: url("../img/backgrounds/bg-ilustrations/pink-up-cut.svg");
+  background-position: left top;
+}
+
+.bg_pink_Down {
+  background-image: url("../img/backgrounds/bg-ilustrations/pink-down-cut.svg");
+  background-position: bottom right;
+}
+
+.bg_blue_up {
+  background-image: url("../img/backgrounds/bg-ilustrations/blue-up-cut.svg");
+  background-position: left top;
+}
+
+.bg_blue_Down {
+  background-image: url("../img/backgrounds/bg-ilustrations/blue-down-cut.svg");
+  background-position: bottom right;
+}
+
+.subject_component_botton_icon {
+  position: absolute;
+  height: 8.5vh;
+  width: 7vh;
+  bottom: 8.7vh;
+  right: 4.5vh;
+}
+
+.subject_component {
+  margin-left: 16.8vh;
+  margin-bottom: 5vh;
+}
+
+.subject_component .item_flex {
+  height: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.subject_component .item_flex .subject_component_itle_icon {
+  height: 5.7vh;
+  width: 5.7vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.subject_component .item_flex .subject_component_itle_icon img {
+  height: 100%;
+  max-height: 2.2vh;
+}
+
+.subject_component .item_flex .subject_component_title {
+  font-family: "ALK Sanet", sans-serif;
+  color: #c5cbcd;
+  font-size: 2.3vh;
+  margin-left: 2vh;
+}
+
+.subject_component .bg_bouble_pink {
+  background-image: url("../../img/backgrounds/bg-ilustrations/bouble_pink.svg");
+}
+
+.subject_component .bg_bouble_blue {
+  background-image: url("../../img/backgrounds/bg-ilustrations/bouble_blue.svg");
 }
 
 /* 
@@ -639,11 +759,19 @@ header nav .header-sound .sound-on {
   bottom: 4.9vh;
 }
 
+.owl-theme .owl-dots .owl-dot:hover {
+  outline: none;
+}
+
 .owl-theme .owl-dots .owl-dot span {
   background: transparent;
   border: 1px solid #707070;
   width: 16px;
   height: 16px;
+}
+
+.owl-theme .owl-dots .owl-dot.active:hover {
+  outline: none;
 }
 
 .owl-theme .owl-dots .owl-dot.active span {
@@ -800,6 +928,17 @@ header nav .header-sound .sound-on {
   width: 100%;
 }
 
+.game-1 .desktop-paint-colors,
+.game-1 .desktop-green-color--light {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.game-208 .color-game-paint-parent--child.cursor-pointer::after {
+  opacity: 0;
+  visibility: hidden;
+}
+
 .rainbow__main__img {
   width: 51%;
 }
@@ -820,25 +959,12 @@ header nav .header-sound .sound-on {
   position: relative;
 }
 
-.rainbow-img div {
+.rainbow-img .color-game-paint-parent--child {
   margin-right: 40px;
   position: relative;
 }
 
-.rainbow-img div::after {
-  content: '';
-  background: transparent;
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 55px;
-  height: 87px;
-  z-index: 1000;
-  opacity: 1;
-  visibility: visible;
-}
-
-.rainbow-img div.cursor-pointer::after {
+.rainbow-img .color-game-paint-parent--child.cursor-pointer::after {
   opacity: 0;
   visibility: hidden;
 }
@@ -859,13 +985,32 @@ header nav .header-sound .sound-on {
   margin-right: 15px;
 }
 
+.art-lesson-content {
+  margin-bottom: 2.61vh;
+}
+
+.art-lesson-content_links {
+  margin-top: 5.31vh;
+}
+
+.art-lesson-content_links a {
+  width: 100%;
+}
+
+.subject_bottom_illustration-art {
+  position: absolute;
+  height: 23.69vh;
+  width: 8.27vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+  bottom: 2.35vh;
+  right: 4.27vw;
+  background-image: url("../img/gakvetilebi/xelovneba/subject_bottom_illustration-art-1.svg");
+}
+
 .container_main_title_art-paddings {
   padding-bottom: 10.4vh;
   padding-top: 3.4vh;
-}
-
-.padding-top-18vh {
-  padding-top: 18vh;
 }
 
 .main-box_absolute {
@@ -905,7 +1050,7 @@ header nav .header-sound .sound-on {
 }
 
 .main-box_absolute .main-box_relative .text-wrapper p {
-  font-family: "Helvetica Neue";
+  font-family: "Helvetica Neue", sans-serif;
   font-size: 5.5vh;
   margin-left: 2.6vh;
   line-height: 1vh;
@@ -1027,3 +1172,73 @@ header nav .header-sound .sound-on {
 .portfolio-slider.owl-theme .owl-dots .owl-dot.active span {
   display: none;
 }
+
+.padding-top-14vh {
+  padding-top: 14vh;
+}
+
+.container_main_title {
+  margin-bottom: 5vh;
+}
+
+.container_main_title h1 {
+  font-family: "ALK Sanet", sans-serif;
+  font-size: 1.8vh;
+  color: #262626;
+}
+
+.bottom_components .item_flex {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.bottom_components .item_flex .subject_component_title {
+  margin-left: 0;
+  margin-top: 3vh;
+  font-size: 1.8vh;
+}
+
+.paint_atributes_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  position: absolute;
+  bottom: 7.29vh;
+  left: 21.85vw;
+}
+
+.paint_atributes_color_box {
+  height: 28.77vh;
+  width: 18.08vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../img/gakvetilebi/xelovneba/paint-boxo.svg");
+}
+
+.paint_atributes_color_brush {
+  height: 58.59vh;
+  width: 44.65vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../img/gakvetilebi/xelovneba/red_brush.svg");
+}
+
+.padding-top-5vh {
+  padding-top: 5vh;
+}
+
+.margin-botton-5vh {
+  margin-bottom: 5vh;
+}
+/*# sourceMappingURL=style.css.map */

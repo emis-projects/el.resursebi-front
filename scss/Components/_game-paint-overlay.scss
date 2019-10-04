@@ -1,0 +1,21 @@
+.color-game-paint-parent {
+    position: relative;
+
+    &--child {
+        position: relative;
+
+        &::after {
+            content: '';
+            background: transparent;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 55px;
+            height: 87px;
+            z-index: 1000;
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+
+}

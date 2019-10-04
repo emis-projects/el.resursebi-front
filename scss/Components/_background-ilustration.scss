@@ -1,0 +1,58 @@
+// Bottom ilustration wrapper box
+.subject_component_botton_illustration {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 35vh;
+  width: 35vh;
+  overflow: hidden;
+}
+
+// Top ilustration wrapper box
+.subject_component_top_illustration {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 34vh;
+  width: 20.7vw;
+  overflow: hidden;
+  z-index: -5;
+}
+
+// Ilustration background properties
+.illustration_bg {
+  height: inherit;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+// pink top ilustration
+.bg_pink_up {
+  background-image: url("../img/backgrounds/bg-ilustrations/pink-up-cut.svg");
+  background-position: left top;
+}
+// pink bottom ilustration
+.bg_pink_Down {
+  background-image: url("../img/backgrounds/bg-ilustrations/pink-down-cut.svg");
+  background-position: bottom right;
+}
+
+// Blue top ilustration
+.bg_blue_up {
+  background-image: url("../img/backgrounds/bg-ilustrations/blue-up-cut.svg");
+  background-position: left top;
+}
+// Blue bottom ilustration
+.bg_blue_Down {
+  background-image: url("../img/backgrounds/bg-ilustrations/blue-down-cut.svg");
+  background-position: bottom right;
+}
+
+//icon inside down ilustration
+.subject_component_botton_icon {
+  position: absolute;
+  height: 8.5vh;
+  width: 7vh;
+  bottom: 8.7vh;
+  right: 4.5vh;
+}

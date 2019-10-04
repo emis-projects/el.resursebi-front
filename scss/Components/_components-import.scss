@@ -1,9 +1,16 @@
 // header component
 @import "./header";
 
+
+// თამაშების ფუნჯების verlay
+@import './_game-paint-overlay.scss';
+
+// თამაშების button ები რომლებსაც მარტო თამაშების გვერდზე ვიყენებთ
 @import "./game-completed-btn";
 @import "./game-reset-btn";
 @import "./_color-games-paint.scss";
+
+
 
 //  choose_arrowDown component
 @import "./choose_arrowDown";
@@ -22,3 +29,9 @@
 
 // Background colors
 @import "./background_colors";
+
+// top and bottom ilustration backgrounds
+@import "./background-ilustration";
+
+// subject_components icon and title
+@import "./subject_components";
