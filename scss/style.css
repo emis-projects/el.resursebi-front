@@ -1173,6 +1173,19 @@ header nav .header-sound .active {
   display: none;
 }
 
+.main-box_img-wrapper {
+  margin-top: 7vh;
+  height: 51vh;
+}
+
+.main-box_img-wrapper div {
+  height: inherit;
+}
+
+.main-box_img-wrapper div img {
+  height: inherit;
+}
+
 .padding-top-14vh {
   padding-top: 14vh;
 }
@@ -1241,4 +1254,3 @@ header nav .header-sound .active {
 .margin-botton-5vh {
   margin-bottom: 5vh;
 }
-/*# sourceMappingURL=style.css.map */
