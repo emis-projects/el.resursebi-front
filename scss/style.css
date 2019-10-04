@@ -1049,11 +1049,11 @@ header nav .header-sound .active {
   padding-top: 14vh;
 }
 
-.container_main_title {
+.main_title_padding_bottom {
   margin-bottom: 5vh;
 }
 
-.container_main_title h1 {
+.main_title_padding_bottom h1 {
   font-family: "ALK Sanet", sans-serif;
   font-size: 1.8vh;
   color: #262626;
