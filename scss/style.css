@@ -627,10 +627,8 @@ header nav .header-sound .active {
 }
 
 .subject_component {
-  height: 5.7vh;
-  width: auto;
   margin-left: 16.8vh;
-  margin-bottom: 9vh;
+  margin-bottom: 5vh;
 }
 
 .subject_component .item_flex {
@@ -644,7 +642,7 @@ header nav .header-sound .active {
 }
 
 .subject_component .item_flex .subject_component_itle_icon {
-  height: inherit;
+  height: 5.7vh;
   width: 5.7vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -974,6 +972,11 @@ header nav .header-sound .active {
   background-image: url("../img/gakvetilebi/xelovneba/subject_bottom_illustration-art-1.svg");
 }
 
+.container_main_title_art-paddings {
+  padding-bottom: 10.4vh;
+  padding-top: 3.4vh;
+}
+
 .main-box_absolute {
   position: absolute;
   height: 100vh;
@@ -1046,6 +1049,35 @@ header nav .header-sound .active {
   padding-top: 14vh;
 }
 
+.container_main_title {
+  margin-bottom: 5vh;
+}
+
+.container_main_title h1 {
+  font-family: "ALK Sanet", sans-serif;
+  font-size: 1.8vh;
+  color: #262626;
+}
+
+.bottom_components .item_flex {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.bottom_components .item_flex .subject_component_title {
+  margin-left: 0;
+  margin-top: 3vh;
+  font-size: 1.8vh;
+}
+
 .paint_atributes_container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1077,4 +1109,3 @@ header nav .header-sound .active {
   right: 7.60vh;
   background-image: url("../img/gakvetilebi/xelovneba/red_brush.svg");
 }
-/*# sourceMappingURL=style.css.map */
