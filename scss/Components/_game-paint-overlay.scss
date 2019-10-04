@@ -3,6 +3,7 @@
 
     &--child {
         position: relative;
+        margin-left: 40px;
 
         &::after {
             content: '';

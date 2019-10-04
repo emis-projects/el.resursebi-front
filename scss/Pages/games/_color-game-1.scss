@@ -1,6 +1,7 @@
-.game-1 {
+.game-208-mainsvg {
     .desktop-paint-colors,
-    .desktop-green-color--light {
+    .desktop-green-color--light,
+    .desktop-paint-colors {
         transition: all 0.3s;
     }
 }
@@ -14,4 +15,14 @@
             }
         }
     }
+}
+
+
+
+.game-208-mainsvg {
+    width: 54.6875vh;
+}
+
+.game-208-left {
+    width: 58.59375vh
 }

@@ -1,5 +1,8 @@
 const colorGame = new colorGame3();
 
+window.addEventListener('DOMContentLoaded', colorGame.init());
+
+
 function colorGame3() {
 	this.colors = [];
 	this.finalyColor = '';
@@ -17,7 +20,8 @@ function colorGame3() {
 			w.setAttribute('fill', '#e8e8e8')
 		});
 
-		singleColorSvg.classList.add('opacity-0');
+		document.querySelector('.finalyColorSingle').classList.add('opacity-0');
+		document.querySelector('.game2--big--color').setAttribute('fill', '#e8e8e8');
 		
 		document.querySelectorAll('.color-game-208').forEach(w => {
 			w.classList.add('opacity-5');
@@ -110,8 +114,9 @@ function colorGame3() {
 	var btns = document.querySelectorAll('.color-game-208');
 	var resetBtn = document.getElementById('resetBtn');
 
-	resetBtn.addEventListener('click', this.init());
+	resetBtn.addEventListener('click', () => this.init());
 
+	
 	btns.forEach(w => {
 		w.addEventListener('click', (e) => this.addColorInArray(e))
 	});

@@ -8,11 +8,17 @@ function rainbow(){
 	this.color = null;
 	this.index = 0;
 
-	this.init = function() {
+	this.init = () => {
 		this.index = 0;
+		this.color = null;
 		
+		document.querySelectorAll('.rainbow--line').forEach(w => {
+			w.setAttribute('fill', '#fff')
+		})
+
 		rainbowBtns.forEach(b => {
 			b.classList.add('opacity-5');
+			b.classList.remove('opacity-1');
 
 			if(b.getAttribute('data-index') == 0){
 				b.parentElement.className += " cursor-pointer"
@@ -81,8 +87,11 @@ function rainbow(){
 	}
 
 	
-
+	
 	var rainbowBtns = document.querySelectorAll('.color__btn');
+	var resetBtn = document.getElementById('resetBtn');
+	
+	resetBtn.addEventListener('click', () => this.init());
 	
 	rainbowBtns.forEach(b => {
 		b.addEventListener('click', e => {
@@ -93,7 +102,6 @@ function rainbow(){
 			colorsRainbow.paint(e.target.dataset.color);
 		})
 	})
-
 }
 
 

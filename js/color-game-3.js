@@ -1,3 +1,7 @@
+var colorChanger = new chooseColor();
+
+window.addEventListener('DOMContentLoaded', colorChanger.init());
+
 // generate color by three color 
 function chooseColor(){
 	this.topBtnIs = false;
@@ -25,6 +29,8 @@ function chooseColor(){
 		this.color = "";
 		this.mixinColor = '';
 		this.mixinColorCount = 0;
+
+		document.querySelector('.colors-desk').setAttribute('fill', '#e8e8e8');
 
 		document.querySelectorAll('.choose__color').forEach(w => {
 			w.classList.add('opacity-5');
@@ -188,7 +194,3 @@ function chooseColor(){
 	img2.addEventListener('click', () => this.getMixinColor(img2));
 	resetBtn.addEventListener('click', () => this.init());
 }
-
-
-
-var colorChanger = new chooseColor();
