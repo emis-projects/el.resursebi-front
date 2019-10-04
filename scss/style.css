@@ -966,11 +966,11 @@ header nav .header-sound .active {
 .subject_bottom_illustration-art {
   position: absolute;
   height: 23.69vh;
-  width: 14.71vh;
-  background-size: cover;
+  width: 8.27vw;
+  background-size: contain;
   background-repeat: no-repeat;
   bottom: 2.35vh;
-  right: 7.60vh;
+  right: 4.27vw;
   background-image: url("../img/gakvetilebi/xelovneba/subject_bottom_illustration-art-1.svg");
 }
 
@@ -1060,26 +1060,22 @@ header nav .header-sound .active {
           align-items: flex-end;
   position: absolute;
   bottom: 7.29vh;
-  left: 23.22vw;
+  left: 21.85vw;
 }
 
 .paint_atributes_color_box {
   height: 28.77vh;
-  width: 32.16vh;
-  background-size: cover;
+  width: 18.08vw;
+  background-size: contain;
   background-repeat: no-repeat;
-  bottom: 2.35vh;
-  right: 7.60vh;
   background-image: url("../img/gakvetilebi/xelovneba/paint-boxo.svg");
 }
 
 .paint_atributes_color_brush {
   height: 58.59vh;
-  width: 79.42vh;
-  background-size: cover;
+  width: 44.65vw;
+  background-size: contain;
   background-repeat: no-repeat;
-  bottom: 2.35vh;
-  right: 7.60vh;
   background-image: url("../img/gakvetilebi/xelovneba/red_brush.svg");
 }
 /*# sourceMappingURL=style.css.map */
