@@ -537,7 +537,7 @@ header nav .header-sound .active {
 .paging_buttons_position {
   position: absolute;
   bottom: 2.6vh;
-  right: 10.2vw;
+  right: 18vh;
   z-index: 10;
 }
 
@@ -577,28 +577,45 @@ header nav .header-sound .active {
   position: absolute;
   bottom: 0;
   right: 0;
-  height: 73vh;
-  width: 42vw;
+  height: 35vh;
+  width: 35vh;
   overflow: hidden;
 }
 
-.illustration_bg {
+.subject_component_top_illustration {
   position: absolute;
-  bottom: -30vh;
-  right: -28vh;
+  top: 0;
+  left: 0;
+  height: 34vh;
+  width: 20.7vw;
+  overflow: hidden;
+  z-index: -5;
+}
+
+.illustration_bg {
   height: inherit;
-  width: inherit;
-  background-position: bottom right;
   background-repeat: no-repeat;
   background-size: contain;
 }
 
-.bg_red {
-  background-image: url("../img/backgrounds/botton_illustration_red.svg");
+.bg_pink_up {
+  background-image: url("../../img/backgrounds/bg-ilustrations/pink-up-cut.svg");
+  background-position: left top;
 }
 
-.bg_blue {
-  background-image: url("../img/backgrounds/botton_illustration_blue.svg");
+.bg_pink-Down {
+  background-image: url("../../img/backgrounds/bg-ilustrations/pink-down-cut.svg");
+  background-position: bottom right;
+}
+
+.bg_blue_up {
+  background-image: url("../../img/backgrounds/bg-ilustrations/blue-up-cut.svg");
+  background-position: left top;
+}
+
+.bg_blue_Down {
+  background-image: url("../../img/backgrounds/bg-ilustrations/blue-down-cut.svg");
+  background-position: bottom right;
 }
 
 .subject_component_botton_icon {
@@ -609,14 +626,49 @@ header nav .header-sound .active {
   right: 4.5vh;
 }
 
-.subject_component_top_illustration {
-  position: absolute;
-  background: red;
-  top: 0;
-  left: 0;
-  height: 73vh;
-  width: 42vw;
-  overflow: hidden;
+.subject_component {
+  height: 5.7vh;
+  width: auto;
+  margin-left: 16.8vh;
+  margin-bottom: 9vh;
+}
+
+.subject_component .item_flex {
+  height: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.subject_component .item_flex .subject_component_itle_icon {
+  height: inherit;
+  width: 5.7vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.subject_component .item_flex .subject_component_itle_icon img {
+  height: 100%;
+  max-height: 2.2vh;
+}
+
+.subject_component .item_flex .subject_component_title {
+  font-family: "ALK Sanet", sans-serif;
+  color: #c5cbcd;
+  font-size: 2.3vh;
+  margin-left: 2vh;
+}
+
+.subject_component .bg_bouble_pink {
+  background-image: url("../../img/backgrounds/bg-ilustrations/bouble_pink.svg");
+}
+
+.subject_component .bg_bouble_blue {
+  background-image: url("../../img/backgrounds/bg-ilustrations/bouble_blue.svg");
 }
 
 /* 
@@ -925,10 +977,6 @@ header nav .header-sound .active {
   bottom: 2.35vh;
   right: 7.60vh;
   background-image: url("../img/gakvetilebi/xelovneba/subject_bottom_illustration-art-1.svg");
-}
-
-.padding-top-18vh {
-  padding-top: 18vh;
 }
 
 .main-box_absolute {
