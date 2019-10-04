@@ -1,6 +1,7 @@
 // header component
 @import "./header";
 
+// თამაშების button ები რომლებსაც მარტო თამაშების გვერდზე ვიყენებთ
 @import "./game-completed-btn";
 @import "./game-reset-btn";
 @import "./_color-games-paint.scss";
@@ -22,3 +23,9 @@
 
 // Background colors
 @import "./background_colors";
+
+// top and bottom ilustration backgrounds
+@import "./background-ilustration";
+
+// subject_components icon and title
+@import "./subject_components";
