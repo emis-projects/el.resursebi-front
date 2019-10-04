@@ -598,12 +598,11 @@ header nav .header-sound .active {
 }
 
 .bg_blue {
-  background-image: url("../img/backgrounds/botton_illustration_red.svg");
+  background-image: url("../img/backgrounds/botton_illustration_blue.svg");
 }
 
 .subject_component_botton_icon {
   position: absolute;
-  background: green;
   height: 8.5vh;
   width: 7vh;
   bottom: 8.7vh;
@@ -1003,3 +1002,4 @@ header nav .header-sound .active {
 .padding-top-28vh {
   padding-top: 28vh;
 }
+/*# sourceMappingURL=style.css.map */
