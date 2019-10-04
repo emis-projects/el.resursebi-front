@@ -396,6 +396,27 @@ header nav .header-sound .active {
   background: #7fd1d8;
 }
 
+.color-game-paint-parent {
+  position: relative;
+}
+
+.color-game-paint-parent--child {
+  position: relative;
+}
+
+.color-game-paint-parent--child::after {
+  content: '';
+  background: transparent;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 55px;
+  height: 87px;
+  z-index: 1000;
+  opacity: 1;
+  visibility: visible;
+}
+
 .completed__btn {
   background: #F8D24B;
   border-radius: 27px;
@@ -794,6 +815,11 @@ header nav .header-sound .active {
   transition: all 0.3s;
 }
 
+.game-208 .color-game-paint-parent--child.cursor-pointer::after {
+  opacity: 0;
+  visibility: hidden;
+}
+
 .rainbow__main__img {
   width: 51%;
 }
@@ -814,25 +840,12 @@ header nav .header-sound .active {
   position: relative;
 }
 
-.rainbow-img div {
+.rainbow-img .color-game-paint-parent--child {
   margin-right: 40px;
   position: relative;
 }
 
-.rainbow-img div::after {
-  content: '';
-  background: transparent;
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 55px;
-  height: 87px;
-  z-index: 1000;
-  opacity: 1;
-  visibility: visible;
-}
-
-.rainbow-img div.cursor-pointer::after {
+.rainbow-img .color-game-paint-parent--child.cursor-pointer::after {
   opacity: 0;
   visibility: hidden;
 }
@@ -956,4 +969,3 @@ header nav .header-sound .active {
 .padding-top-28vh {
   padding-top: 28vh;
 }
-/*# sourceMappingURL=style.css.map */

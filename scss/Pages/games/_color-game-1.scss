@@ -4,3 +4,14 @@
         transition: all 0.3s;
     }
 }
+
+.game-208 {
+    .color-game-paint-parent--child {
+        &.cursor-pointer {
+            &::after {
+                opacity: 0;
+                visibility: hidden;
+            }
+        }
+    }
+}
