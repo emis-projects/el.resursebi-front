@@ -599,22 +599,22 @@ header nav .header-sound .active {
 }
 
 .bg_pink_up {
-  background-image: url("../../img/backgrounds/bg-ilustrations/pink-up-cut.svg");
+  background-image: url("../img/backgrounds/bg-ilustrations/pink-up-cut.svg");
   background-position: left top;
 }
 
-.bg_pink-Down {
-  background-image: url("../../img/backgrounds/bg-ilustrations/pink-down-cut.svg");
+.bg_pink_Down {
+  background-image: url("../img/backgrounds/bg-ilustrations/pink-down-cut.svg");
   background-position: bottom right;
 }
 
 .bg_blue_up {
-  background-image: url("../../img/backgrounds/bg-ilustrations/blue-up-cut.svg");
+  background-image: url("../img/backgrounds/bg-ilustrations/blue-up-cut.svg");
   background-position: left top;
 }
 
 .bg_blue_Down {
-  background-image: url("../../img/backgrounds/bg-ilustrations/blue-down-cut.svg");
+  background-image: url("../img/backgrounds/bg-ilustrations/blue-down-cut.svg");
   background-position: bottom right;
 }
 
@@ -951,11 +951,6 @@ header nav .header-sound .active {
   margin-right: 15px;
 }
 
-.container_main_title_art-paddings {
-  padding-bottom: 10.4vh;
-  padding-top: 3.4vh;
-}
-
 .art-lesson-content {
   margin-bottom: 2.61vh;
 }
@@ -1047,6 +1042,39 @@ header nav .header-sound .active {
   height: inherit;
 }
 
-.padding-top-28vh {
-  padding-top: 28vh;
+.padding-top-14vh {
+  padding-top: 14vh;
 }
+
+.paint_atributes_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  position: absolute;
+  bottom: 7.29vh;
+  left: 23.22vw;
+}
+
+.paint_atributes_color_box {
+  height: 28.77vh;
+  width: 32.16vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  bottom: 2.35vh;
+  right: 7.60vh;
+  background-image: url("../img/gakvetilebi/xelovneba/paint-boxo.svg");
+}
+
+.paint_atributes_color_brush {
+  height: 58.59vh;
+  width: 79.42vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  bottom: 2.35vh;
+  right: 7.60vh;
+  background-image: url("../img/gakvetilebi/xelovneba/red_brush.svg");
+}
+/*# sourceMappingURL=style.css.map */
