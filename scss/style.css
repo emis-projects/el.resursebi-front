@@ -624,6 +624,7 @@ header nav .header-sound .active {
   height: 35vh;
   width: 35vh;
   overflow: hidden;
+  z-index: -1;
 }
 
 .subject_component_top_illustration {
@@ -1010,7 +1011,6 @@ header nav .header-sound .active {
 
 .container_main_title_art-paddings {
   padding-bottom: 10.4vh;
-  padding-top: 3.4vh;
 }
 
 .main-box_absolute {
@@ -1074,7 +1074,7 @@ header nav .header-sound .active {
 
 .portfolio-item-container {
   position: relative;
-  height: 55.2vh;
+  height: 57.2vh;
   width: 100%;
 }
 
@@ -1122,7 +1122,7 @@ header nav .header-sound .active {
 .fullScreen_modal-img-lg-hor {
   width: 54vw;
   height: 80vh;
-  margin-left: 10.1vw;
+  margin-left: 6.1vw;
 }
 
 .fullScreen_modal-img-lg-hor img {
@@ -1171,6 +1171,18 @@ header nav .header-sound .active {
 
 .portfolio-slider.owl-theme .owl-dots .owl-dot.active span {
   display: none;
+}
+
+.portfolio-slider-second-page.owl-theme .owl-dots .owl-dot:first-child span {
+  background-image: url("../../../img/gakvetilebi/xelovneba/cnobili-namushevrebi/4.jpg");
+}
+
+.portfolio-slider-second-page.owl-theme .owl-dots .owl-dot:nth-child(2) span {
+  background-image: url("../../../img/gakvetilebi/xelovneba/cnobili-namushevrebi/5.jpg");
+}
+
+.portfolio-slider-second-page.owl-theme .owl-dots .owl-dot:nth-child(3) span {
+  background-image: url("../../../img/gakvetilebi/xelovneba/cnobili-namushevrebi/6.jpg");
 }
 
 .main-box_img-wrapper {
@@ -1228,20 +1240,20 @@ header nav .header-sound .active {
           align-items: flex-end;
   position: absolute;
   bottom: 7.29vh;
-  left: 21.85vw;
+  left: 23.8vw;
 }
 
 .paint_atributes_color_box {
-  height: 28.77vh;
-  width: 18.08vw;
+  height: 26.77vh;
+  width: 16.08vw;
   background-size: contain;
   background-repeat: no-repeat;
   background-image: url("../img/gakvetilebi/xelovneba/paint-boxo.svg");
 }
 
 .paint_atributes_color_brush {
-  height: 58.59vh;
-  width: 44.65vw;
+  height: 53.59vh;
+  width: 39.65vw;
   background-size: contain;
   background-repeat: no-repeat;
   background-image: url("../img/gakvetilebi/xelovneba/red_brush.svg");
