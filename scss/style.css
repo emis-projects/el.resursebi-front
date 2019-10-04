@@ -1109,3 +1109,11 @@ header nav .header-sound .active {
   right: 7.60vh;
   background-image: url("../img/gakvetilebi/xelovneba/red_brush.svg");
 }
+
+.padding-top-5vh {
+  padding-top: 5vh;
+}
+
+.margin-botton-5vh {
+  margin-bottom: 5vh;
+}
