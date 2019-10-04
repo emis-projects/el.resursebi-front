@@ -974,6 +974,11 @@ header nav .header-sound .active {
   background-image: url("../img/gakvetilebi/xelovneba/subject_bottom_illustration-art-1.svg");
 }
 
+.container_main_title_art-paddings {
+  padding-bottom: 10.4vh;
+  padding-top: 3.4vh;
+}
+
 .main-box_absolute {
   position: absolute;
   height: 100vh;
