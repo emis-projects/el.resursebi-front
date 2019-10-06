@@ -429,13 +429,12 @@ header nav .header-sound .active {
 }
 
 .completed__btn {
-  background: #F8D24B;
+  background: #7FD1D8;
   border-radius: 27px;
   height: 39px;
   width: 167px;
   text-align: center;
   color: #FFFFFF;
-  margin-bottom: 10px;
   font-family: "ALK Sanet";
 }
 
@@ -444,12 +443,13 @@ header nav .header-sound .active {
 }
 
 .reset__btn {
-  background: #7FD1D8;
+  background: #F8D24B;
   border-radius: 27px;
   height: 39px;
   width: 167px;
   text-align: center;
   color: #FFFFFF;
+  margin-bottom: 10px;
   font-family: "ALK Sanet";
 }
 
@@ -967,24 +967,26 @@ header nav .header-sound .active {
   visibility: hidden;
 }
 
-.game-208-mainsvg {
-  width: 54.6875vh;
+.game-208-container {
+  height: 60vh;
 }
 
-.game-208-left {
-  width: 58.59375vh;
+.game-208-container .game-208-mainsvg {
+  height: 55.083333vh;
+}
+
+.game-208-container .game-208-left {
+  padding-right: 50px;
+}
+
+.game-208-container .finalyColorSingle {
+  height: 124px;
+  width: 76px;
+  margin-bottom: 50px;
 }
 
 .rainbow__main__img {
   height: 56.510416666666664vh;
-}
-
-.game__desc {
-  margin-top: 50px;
-  margin-bottom: 25px;
-  color: #0B2228;
-  font-size: 22px;
-  line-height: 30px;
 }
 
 .game-44-right {
@@ -1007,20 +1009,40 @@ header nav .header-sound .active {
   visibility: hidden;
 }
 
-.game__section.color-game-1 .yellow-blue .choose__color:nth-child(1), .game__section.color-game-1 .red-blue .choose__color:nth-child(1) {
+.game__section.color-game-3 .yellow-blue .choose__color:nth-child(1), .game__section.color-game-3 .red-blue .choose__color:nth-child(1) {
   margin-right: 35px;
 }
 
-.game__section.color-game-1 .yellow-blue {
-  margin-bottom: 45px;
+.game__section.color-game-3 .yellow-blue {
+  margin-bottom: 60px;
+}
+
+.game__section.color-game-3 {
+  padding-right: 50px;
+}
+
+.game__section.color-game-3 .color-game-paint {
+  height: 77px;
+}
+
+.game__section.color-game-3 svg {
+  width: auto;
+  height: 52.083333333333336vh;
 }
 
 #otherbtn {
   margin-bottom: 30px;
+  margin-top: 53px;
 }
 
 #otherbtn .img1 {
   margin-right: 15px;
+}
+
+.success-game {
+  margin: 0 auto;
+  margin-top: 10.416vh;
+  height: 47.9167vh;
 }
 
 .art-lesson-content {

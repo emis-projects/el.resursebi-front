@@ -19,10 +19,21 @@
 
 
 
-.game-208-mainsvg {
-    width: 54.6875vh;
+.game-208-container {
+    height: 60vh;
+
+    .game-208-mainsvg {
+        height: 55.083333vh;
+    }
+
+    .game-208-left {
+        padding-right: 50px;
+    }
+
+    .finalyColorSingle {
+        height: 124px;
+        width: 76px;
+        margin-bottom: 50px;
+    }
 }
 
-.game-208-left {
-    width: 58.59375vh
-}
