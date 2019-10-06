@@ -17,7 +17,8 @@ function rainbow(){
 		this.correctAnswer = [];
 		
 		document.querySelectorAll('.rainbow--line').forEach(w => {
-			w.setAttribute('fill', '#fff')
+			w.setAttribute('fill', '#fff');
+			w.setAttribute('stroke', '#000');
 		})
 
 		rainbowBtns.forEach(b => {
@@ -45,24 +46,31 @@ function rainbow(){
 		
 		if(first.getAttribute('fill') == '#fff'){
 			first.setAttribute('fill', this.color);
+			first.setAttribute('stroke', this.color);
 			
 		} else if(second.getAttribute('fill') == '#fff'){
 			second.setAttribute('fill', this.color);
+			second.setAttribute('stroke', this.color);
 
 		} else if(third.getAttribute('fill') == '#fff'){
 			third.setAttribute('fill', this.color);
+			third.setAttribute('stroke', this.color);
 			
 		} else if(fourth.getAttribute('fill') == '#fff'){
-			fourth.setAttribute('fill', this.color)
+			fourth.setAttribute('fill', this.color);
+			fourth.setAttribute('stroke', this.color);
 			
 		} else if(fifth.getAttribute('fill') == '#fff'){
 			fifth.setAttribute('fill', this.color);
+			fifth.setAttribute('stroke', this.color);
 			
 		} else if(sixth.getAttribute('fill') == '#fff'){
 			sixth.setAttribute('fill', this.color);
+			sixth.setAttribute('stroke', this.color);
 			
 		} else if(seventh.getAttribute('fill') == '#fff'){
 			seventh.setAttribute('fill', this.color);
+			seventh.setAttribute('stroke', this.color);
 		}
 
 
