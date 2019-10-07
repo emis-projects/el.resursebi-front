@@ -1376,6 +1376,24 @@ header nav .header-sound .active {
   background-image: url("../../img/backgrounds/bg-ilustrations/hand-middle.svg");
 }
 
+.container_main_title_exercise-paddings {
+  padding-bottom: 5.4vh;
+}
+
+.pt-8vh {
+  padding-top: 8vh;
+}
+
+.art_tools {
+  margin-top: 3.6vh;
+}
+
+.art_tools img {
+  height: 100%;
+  max-height: 26vh;
+  width: 100%;
+}
+
 .title-59 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1400,18 +1418,6 @@ header nav .header-sound .active {
   padding-bottom: 5.4vh;
 }
 
-.pt-8vh {
-  padding-top: 8vh;
-}
-
-.art_tools {
-  margin-top: 3.6vh;
-}
-
-.art_tools img {
-  height: 100%;
-  max-height: 26vh;
-  width: 100%;
 .paint_img {
   display: block;
   margin: auto;
