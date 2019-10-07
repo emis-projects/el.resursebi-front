@@ -678,6 +678,13 @@ header nav .header-sound .active {
   background-position: bottom right;
 }
 
+.background-59 {
+  background-image: url(../../img/backgrounds/1366-59_background.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .subject_component_botton_icon {
   position: absolute;
   height: 8.5vh;
@@ -742,6 +749,14 @@ header nav .header-sound .active {
   background-position: bottom right;
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+.a-blue {
+  color: #7FD1D8;
+}
+
+.a-pink {
+  color: #D85471;
 }
 
 /* 
@@ -1345,3 +1360,4 @@ header nav .header-sound .active {
 .middle_bg_hand {
   background-image: url("../../img/backgrounds/bg-ilustrations/hand-middle.svg");
 }
+/*# sourceMappingURL=style.css.map */
