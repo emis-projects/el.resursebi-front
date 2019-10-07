@@ -528,7 +528,7 @@ header nav .header-sound .active {
           justify-content: left;
   font-size: 2.8vh;
   line-height: 3.9vh;
-  padding-bottom: 5.2vh;
+  padding-bottom: 4.2vh;
   font-family: "BPG Arial";
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
@@ -1360,4 +1360,7 @@ header nav .header-sound .active {
 .middle_bg_hand {
   background-image: url("../../img/backgrounds/bg-ilustrations/hand-middle.svg");
 }
-/*# sourceMappingURL=style.css.map */
+
+.container_main_title_exercise-paddings {
+  padding-bottom: 5.4vh;
+}
