@@ -1424,4 +1424,9 @@ header nav .header-sound .active {
   height: 48.9vh;
   margin-top: -6vh;
 }
-/*# sourceMappingURL=style.css.map */
+
+.container_color-img {
+  height: 20.7vh;
+  display: block;
+  margin: auto;
+}
