@@ -1,11 +1,11 @@
-.bottom_middle_bg_box {
-  height: 45.6vh;
-  overflow: hidden;
+
   .middle_bg_box_image {
-    height: 45vh;
-    width: auto;
-    background-position: bottom right;
-    background-size: contain;
-    background-repeat: no-repeat;
+  background-image: url("../img/backgrounds/bg-ilustrations/hand-middle.svg");
+ 
+  background-size: contain;
+  background-repeat: no-repeat; 
+  position: absolute;
+  bottom: 0; 
+  background-position: bottom;
+  right: 19.38vw;
   }
-}
