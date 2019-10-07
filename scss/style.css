@@ -681,6 +681,20 @@ header nav .header-sound .active {
   background-repeat: no-repeat;
 }
 
+.background-60 {
+  background-image: url(../../img/backgrounds/1366-60_background.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-61 {
+  background-image: url(../../img/backgrounds/1366-61_background.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .subject_component_botton_icon {
   position: absolute;
   height: 8.5vh;
@@ -1355,5 +1369,25 @@ header nav .header-sound .active {
 
 .middle_bg_hand {
   background-image: url("../../img/backgrounds/bg-ilustrations/hand-middle.svg");
+}
+
+.title-59 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 1;
+  padding-top: 10vh;
+}
+
+.title-59 h1 {
+  font-size: 28px;
+  font-style: italic;
+  font-family: "Helvetica Neue";
 }
 /*# sourceMappingURL=style.css.map */
