@@ -1,6 +1,12 @@
 .a-blue {
-    color: #7FD1D8;
+  color: #7fd1d8;
+  &:hover {
+    color: #7fd1d8;
+  }
 }
 .a-pink {
-    color: #D85471;
+  color: #d85471;
+  &:hover {
+    color: #d85471;
+  }
 }
