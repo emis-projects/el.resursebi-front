@@ -1,6 +1,6 @@
 // subject title wrapper box
 .subject_component {
-  margin-left: 16.8vh;
+  margin-left: 5.3vw;
   margin-bottom: 5vh;
 
   // flex box for icon and title
@@ -33,10 +33,12 @@
 
   // Blue bouble image for subject title
   .bg_bouble_pink {
-    background-image: url("../../img/backgrounds/bg-ilustrations/bouble_pink.svg");
+    background-image: url("../img/backgrounds/bg-ilustrations/bouble_pink.svg");
+    background-repeat: no-repeat;
   }
   // pink bouble image for subject title
   .bg_bouble_blue {
-    background-image: url("../../img/backgrounds/bg-ilustrations/bouble_blue.svg");
+    background-image: url("../img/backgrounds/bg-ilustrations/bouble_blue.svg");
+    background-repeat: no-repeat;
   }
 }

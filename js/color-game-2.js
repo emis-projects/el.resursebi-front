@@ -1,27 +1,35 @@
 var colorsRainbow = new rainbow();
 
-window.addEventListener('DOMContentLoaded', colorsRainbow.init());
-
 
 // rainbow game 
 function rainbow(){
 	this.color = null;
 	this.index = 0;
+	this.error = false;
+	this.correctAnswer = []
 
-	this.init = function() {
+
+
+	this.init = () => {
 		this.index = 0;
+		this.color = null;
+		this.error = false;
+		this.correctAnswer = [];
 		
+		document.querySelectorAll('.rainbow--line').forEach(w => {
+			w.setAttribute('fill', '#fff');
+			w.setAttribute('stroke', '#000');
+		})
+
 		rainbowBtns.forEach(b => {
 			b.classList.add('opacity-5');
-
-			if(b.getAttribute('data-index') == 0){
-				b.parentElement.className += " cursor-pointer"
-			}
+			b.classList.remove('opacity-1');
+			b.parentElement.classList.add('cursor-pointer');
 		})
 	}
 
 
-	this.paint = function(color) {
+	this.paint = function(color, e) {
 		this.color = color;
 		this.index++;
 	
@@ -34,66 +42,93 @@ function rainbow(){
 			sixth = document.querySelector('.rainbow--line--sixth'),
 			seventh = document.querySelector('.rainbow--line--seventh');
 			
+
+		
 		if(first.getAttribute('fill') == '#fff'){
 			first.setAttribute('fill', this.color);
+			first.setAttribute('stroke', this.color);
 			
 		} else if(second.getAttribute('fill') == '#fff'){
 			second.setAttribute('fill', this.color);
+			second.setAttribute('stroke', this.color);
 
 		} else if(third.getAttribute('fill') == '#fff'){
 			third.setAttribute('fill', this.color);
+			third.setAttribute('stroke', this.color);
 			
 		} else if(fourth.getAttribute('fill') == '#fff'){
-			fourth.setAttribute('fill', this.color)
+			fourth.setAttribute('fill', this.color);
+			fourth.setAttribute('stroke', this.color);
 			
 		} else if(fifth.getAttribute('fill') == '#fff'){
 			fifth.setAttribute('fill', this.color);
+			fifth.setAttribute('stroke', this.color);
 			
 		} else if(sixth.getAttribute('fill') == '#fff'){
 			sixth.setAttribute('fill', this.color);
+			sixth.setAttribute('stroke', this.color);
 			
 		} else if(seventh.getAttribute('fill') == '#fff'){
 			seventh.setAttribute('fill', this.color);
+			seventh.setAttribute('stroke', this.color);
 		}
+
+
+
+
+		this.correctAnswer.push(parseInt(e.getAttribute('data-index')));
+
+		if(this.correctAnswer.length !== 0){
+			let lastElement = this.correctAnswer.slice(-1)[0]
+			let lastlastElement = this.correctAnswer.length - 1;
+			
+			if(lastElement - lastlastElement !== 1){
+				this.error = true;
+			} 
+		}
+
 	}
 
 
-	this.calculateNextIndex = (e) => {
-		var nextIndex = this.index + 1;
+	// error page 
+	this.errorPage = () => {
+		console.log('error page here');
+	}
 
-		if(this.index == 6){
-			nextIndex = 6;
-		}
 
-		let btnsArray = [];
+	// success page 
+	this.successPage = () => {
+		location.href = '1366-240.html'
+	}
 
-		rainbowBtns.forEach(w => {
-			btnsArray.push(w)
-		});
 
-		var newElement = btnsArray.filter(w => nextIndex == w.getAttribute('data-index'))
-	
-		newElement[0].parentElement.className += " cursor-pointer";
 
-		if(this.index == 6){
-			newElement[0].parentElement.classList.remove('cursor-pointer');
+	this.completGame = () => {
+		if(this.error === true){
+			this.errorPage()
+
+		} else {
+			this.successPage()
 		}
 	}
 
 	
-
 	var rainbowBtns = document.querySelectorAll('.color__btn');
-	
+	var resetBtn = document.getElementById('resetBtn');
+	var completedGame = document.getElementById('completedGame');
+
+	resetBtn.addEventListener('click', () => this.init());
+	completedGame.addEventListener('click', () => this.completGame());
+
+
 	rainbowBtns.forEach(b => {
 		b.addEventListener('click', e => {
 			e.target.parentElement.classList.remove('cursor-pointer');
 			e.target.classList.remove('opacity-5');
 			e.target.classList.add('opacity-1');
-			colorsRainbow.calculateNextIndex();
-			colorsRainbow.paint(e.target.dataset.color);
+			colorsRainbow.paint(e.target.dataset.color, e.target);
 		})
 	})
-
 }
 
 

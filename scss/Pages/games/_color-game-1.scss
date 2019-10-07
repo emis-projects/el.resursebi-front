@@ -1,6 +1,7 @@
-.game-1 {
+.game-208-mainsvg {
     .desktop-paint-colors,
-    .desktop-green-color--light {
+    .desktop-green-color--light,
+    .desktop-paint-colors {
         transition: all 0.3s;
     }
 }
@@ -15,3 +16,24 @@
         }
     }
 }
+
+
+
+.game-208-container {
+    height: 60vh;
+
+    .game-208-mainsvg {
+        height: 55.083333vh;
+    }
+
+    .game-208-left {
+        padding-right: 50px;
+    }
+
+    .finalyColorSingle {
+        height: 124px;
+        width: 76px;
+        margin-bottom: 50px;
+    }
+}
+

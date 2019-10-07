@@ -1,23 +1,17 @@
 .rainbow__main__img {
-    width: 51%;
+    height: 56.510416666666664vh;
 }
 
-.game__desc {
-    margin-top: 50px;
-    margin-bottom: 25px;
-    color: #0B2228;
-    font-size: 22px;
-    line-height: 30px;
+.game-44-right {
+    height: 53.510416666666664vh;
 }
 
 .rainbow-img {
-    width: 35%;
+    width: 390px;
     height: 200px;
     flex-wrap: wrap;
-    position: relative;
 
     .color-game-paint-parent--child {
-        margin-right: 40px;
         position: relative;
 
         &.cursor-pointer {

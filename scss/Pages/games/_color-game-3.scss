@@ -1,4 +1,4 @@
-.game__section.color-game-1 {
+.game__section.color-game-3 {
     .yellow-blue, .red-blue {
         .choose__color:nth-child(1){
             margin-right: 35px;
@@ -6,12 +6,29 @@
     }
 
     .yellow-blue {
-        margin-bottom: 45px;
+        margin-bottom: 60px;
     }
 }
 
+
+.game__section.color-game-3 {
+    padding-right: 50px;
+    
+    .color-game-paint {
+        height: 77px;
+    }
+
+    svg {
+        width: auto;
+        height: 52.083333333333336vh;
+    }
+}
+
+
 #otherbtn {
     margin-bottom: 30px;
+    margin-top: 53px;
+
     .img1 {
         margin-right: 15px;
     }
