@@ -1457,4 +1457,10 @@ header nav .header-sound .active {
   left: 0;
   right: 0;
 }
+
+.container_color-img {
+  height: 20.7vh;
+  display: block;
+  margin: auto;
+}
 /*# sourceMappingURL=style.css.map */
