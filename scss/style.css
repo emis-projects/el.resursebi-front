@@ -1228,15 +1228,15 @@ header nav .header-sound .active {
 }
 
 .portfolio-slider.owl-theme .owl-dots .owl-dot:first-child span {
-  background-image: url("../../../img/gakvetilebi/xelovneba/cnobili-namushevrebi/1.jpg");
+  background-image: url("../img/gakvetilebi/xelovneba/cnobili-namushevrebi/1.jpg");
 }
 
 .portfolio-slider.owl-theme .owl-dots .owl-dot:nth-child(2) span {
-  background-image: url("../../../img/gakvetilebi/xelovneba/cnobili-namushevrebi/2.jpg");
+  background-image: url("../img/gakvetilebi/xelovneba/cnobili-namushevrebi/2.jpg");
 }
 
 .portfolio-slider.owl-theme .owl-dots .owl-dot:nth-child(3) span {
-  background-image: url("../../../img/gakvetilebi/xelovneba/cnobili-namushevrebi/3.jpg");
+  background-image: url("../img/gakvetilebi/xelovneba/cnobili-namushevrebi/3.jpg");
 }
 
 .portfolio-slider.owl-theme .owl-dots .owl-dot {
@@ -1248,15 +1248,15 @@ header nav .header-sound .active {
 }
 
 .portfolio-slider-second-page.owl-theme .owl-dots .owl-dot:first-child span {
-  background-image: url("../../../img/gakvetilebi/xelovneba/cnobili-namushevrebi/4.jpg");
+  background-image: url("../img/gakvetilebi/xelovneba/cnobili-namushevrebi/4.jpg");
 }
 
 .portfolio-slider-second-page.owl-theme .owl-dots .owl-dot:nth-child(2) span {
-  background-image: url("../../../img/gakvetilebi/xelovneba/cnobili-namushevrebi/5.jpg");
+  background-image: url("../img/gakvetilebi/xelovneba/cnobili-namushevrebi/5.jpg");
 }
 
 .portfolio-slider-second-page.owl-theme .owl-dots .owl-dot:nth-child(3) span {
-  background-image: url("../../../img/gakvetilebi/xelovneba/cnobili-namushevrebi/6.jpg");
+  background-image: url("../img/gakvetilebi/xelovneba/cnobili-namushevrebi/6.jpg");
 }
 
 .main-box_img-wrapper {
@@ -1322,11 +1322,15 @@ header nav .header-sound .active {
           align-items: flex-end;
   position: absolute;
   bottom: 7.29vh;
-  left: 23.8vw;
+  right: 19.85vw;
+  /* left: 18.22vw;  */
+  /*  width: 63.15vw;
+  height: 58.59vh;
+  display: inline-flex; */
 }
 
 .paint_atributes_color_box {
-  height: 26.77vh;
+  height: 18.08vh;
   width: 16.08vw;
   background-size: contain;
   background-repeat: no-repeat;
@@ -1334,7 +1338,7 @@ header nav .header-sound .active {
 }
 
 .paint_atributes_color_brush {
-  height: 53.59vh;
+  height: 44.65vh;
   width: 39.65vw;
   background-size: contain;
   background-repeat: no-repeat;
