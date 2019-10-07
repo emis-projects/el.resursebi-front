@@ -429,13 +429,12 @@ header nav .header-sound .active {
 }
 
 .completed__btn {
-  background: #F8D24B;
+  background: #7FD1D8;
   border-radius: 27px;
   height: 39px;
   width: 167px;
   text-align: center;
   color: #FFFFFF;
-  margin-bottom: 10px;
   font-family: "ALK Sanet";
 }
 
@@ -444,12 +443,13 @@ header nav .header-sound .active {
 }
 
 .reset__btn {
-  background: #7FD1D8;
+  background: #F8D24B;
   border-radius: 27px;
   height: 39px;
   width: 167px;
   text-align: center;
   color: #FFFFFF;
+  margin-bottom: 10px;
   font-family: "ALK Sanet";
 }
 
@@ -528,7 +528,7 @@ header nav .header-sound .active {
           justify-content: left;
   font-size: 2.8vh;
   line-height: 3.9vh;
-  padding-bottom: 5.2vh;
+  padding-bottom: 4.2vh;
   font-family: "BPG Arial";
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
@@ -628,6 +628,10 @@ header nav .header-sound .active {
   background-color: #FFF5F7;
 }
 
+.bg-blue {
+  background-color: #EAFDFF;
+}
+
 .subject_component_botton_illustration {
   position: absolute;
   bottom: 0;
@@ -672,6 +676,13 @@ header nav .header-sound .active {
 .bg_blue_Down {
   background-image: url("../img/backgrounds/bg-ilustrations/blue-down-cut.svg");
   background-position: bottom right;
+}
+
+.background-59 {
+  background-image: url(../../img/backgrounds/1366-59_background.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .subject_component_botton_icon {
@@ -738,6 +749,14 @@ header nav .header-sound .active {
   background-position: bottom right;
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+.a-blue {
+  color: #7FD1D8;
+}
+
+.a-pink {
+  color: #D85471;
 }
 
 /* 
@@ -944,24 +963,26 @@ header nav .header-sound .active {
   visibility: hidden;
 }
 
-.game-208-mainsvg {
-  width: 54.6875vh;
+.game-208-container {
+  height: 60vh;
 }
 
-.game-208-left {
-  width: 58.59375vh;
+.game-208-container .game-208-mainsvg {
+  height: 55.083333vh;
+}
+
+.game-208-container .game-208-left {
+  padding-right: 50px;
+}
+
+.game-208-container .finalyColorSingle {
+  height: 124px;
+  width: 76px;
+  margin-bottom: 50px;
 }
 
 .rainbow__main__img {
   height: 56.510416666666664vh;
-}
-
-.game__desc {
-  margin-top: 50px;
-  margin-bottom: 25px;
-  color: #0B2228;
-  font-size: 22px;
-  line-height: 30px;
 }
 
 .game-44-right {
@@ -984,20 +1005,40 @@ header nav .header-sound .active {
   visibility: hidden;
 }
 
-.game__section.color-game-1 .yellow-blue .choose__color:nth-child(1), .game__section.color-game-1 .red-blue .choose__color:nth-child(1) {
+.game__section.color-game-3 .yellow-blue .choose__color:nth-child(1), .game__section.color-game-3 .red-blue .choose__color:nth-child(1) {
   margin-right: 35px;
 }
 
-.game__section.color-game-1 .yellow-blue {
-  margin-bottom: 45px;
+.game__section.color-game-3 .yellow-blue {
+  margin-bottom: 60px;
+}
+
+.game__section.color-game-3 {
+  padding-right: 50px;
+}
+
+.game__section.color-game-3 .color-game-paint {
+  height: 77px;
+}
+
+.game__section.color-game-3 svg {
+  width: auto;
+  height: 52.083333333333336vh;
 }
 
 #otherbtn {
   margin-bottom: 30px;
+  margin-top: 53px;
 }
 
 #otherbtn .img1 {
   margin-right: 15px;
+}
+
+.success-game {
+  margin: 0 auto;
+  margin-top: 10.416vh;
+  height: 47.9167vh;
 }
 
 .art-lesson-content {
@@ -1168,15 +1209,15 @@ header nav .header-sound .active {
 }
 
 .portfolio-slider.owl-theme .owl-dots .owl-dot:first-child span {
-  background-image: url("../../../img/gakvetilebi/xelovneba/cnobili-namushevrebi/1.jpg");
+  background-image: url("../img/gakvetilebi/xelovneba/cnobili-namushevrebi/1.jpg");
 }
 
 .portfolio-slider.owl-theme .owl-dots .owl-dot:nth-child(2) span {
-  background-image: url("../../../img/gakvetilebi/xelovneba/cnobili-namushevrebi/2.jpg");
+  background-image: url("../img/gakvetilebi/xelovneba/cnobili-namushevrebi/2.jpg");
 }
 
 .portfolio-slider.owl-theme .owl-dots .owl-dot:nth-child(3) span {
-  background-image: url("../../../img/gakvetilebi/xelovneba/cnobili-namushevrebi/3.jpg");
+  background-image: url("../img/gakvetilebi/xelovneba/cnobili-namushevrebi/3.jpg");
 }
 
 .portfolio-slider.owl-theme .owl-dots .owl-dot {
@@ -1188,15 +1229,15 @@ header nav .header-sound .active {
 }
 
 .portfolio-slider-second-page.owl-theme .owl-dots .owl-dot:first-child span {
-  background-image: url("../../../img/gakvetilebi/xelovneba/cnobili-namushevrebi/4.jpg");
+  background-image: url("../img/gakvetilebi/xelovneba/cnobili-namushevrebi/4.jpg");
 }
 
 .portfolio-slider-second-page.owl-theme .owl-dots .owl-dot:nth-child(2) span {
-  background-image: url("../../../img/gakvetilebi/xelovneba/cnobili-namushevrebi/5.jpg");
+  background-image: url("../img/gakvetilebi/xelovneba/cnobili-namushevrebi/5.jpg");
 }
 
 .portfolio-slider-second-page.owl-theme .owl-dots .owl-dot:nth-child(3) span {
-  background-image: url("../../../img/gakvetilebi/xelovneba/cnobili-namushevrebi/6.jpg");
+  background-image: url("../img/gakvetilebi/xelovneba/cnobili-namushevrebi/6.jpg");
 }
 
 .main-box_img-wrapper {
@@ -1262,20 +1303,21 @@ header nav .header-sound .active {
           align-items: flex-end;
   position: absolute;
   bottom: 7.29vh;
-  left: 23.8vw;
+  right: 19.85vw;
+  top: 34.11vh;
 }
 
 .paint_atributes_color_box {
-  height: 26.77vh;
-  width: 16.08vw;
+  height: 28.77vh;
+  width: 17.34vw;
   background-size: contain;
   background-repeat: no-repeat;
   background-image: url("../img/gakvetilebi/xelovneba/paint-boxo.svg");
 }
 
 .paint_atributes_color_brush {
-  height: 53.59vh;
-  width: 39.65vw;
+  height: 58.59vh;
+  width: 43.92vw;
   background-size: contain;
   background-repeat: no-repeat;
   background-image: url("../img/gakvetilebi/xelovneba/red_brush.svg");
@@ -1292,4 +1334,7 @@ header nav .header-sound .active {
 .middle_bg_hand {
   background-image: url("../../img/backgrounds/bg-ilustrations/hand-middle.svg");
 }
-/*# sourceMappingURL=style.css.map */
+
+.container_main_title_exercise-paddings {
+  padding-bottom: 5.4vh;
+}

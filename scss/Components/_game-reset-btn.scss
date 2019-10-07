@@ -1,10 +1,11 @@
 .reset__btn {
-    background: $reset-game-btn;
+    background: $completed-game-btn;
     border-radius: 27px;
     height: 39px;
     width: 167px;
     text-align: center;
     color: #FFFFFF;
+    margin-bottom: 10px;
     font-family: $alk-sanet;
 
     &:focus {
