@@ -1327,23 +1327,20 @@ header nav .header-sound .active {
   position: absolute;
   bottom: 7.29vh;
   right: 19.85vw;
-  /* left: 18.22vw;  */
-  /*  width: 63.15vw;
-  height: 58.59vh;
-  display: inline-flex; */
+  top: 34.11vh;
 }
 
 .paint_atributes_color_box {
-  height: 18.08vh;
-  width: 16.08vw;
+  height: 28.77vh;
+  width: 17.34vw;
   background-size: contain;
   background-repeat: no-repeat;
   background-image: url("../img/gakvetilebi/xelovneba/paint-boxo.svg");
 }
 
 .paint_atributes_color_brush {
-  height: 44.65vh;
-  width: 39.65vw;
+  height: 58.59vh;
+  width: 43.92vw;
   background-size: contain;
   background-repeat: no-repeat;
   background-image: url("../img/gakvetilebi/xelovneba/red_brush.svg");
