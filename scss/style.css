@@ -1241,11 +1241,15 @@ header nav .header-sound .active {
           align-items: flex-end;
   position: absolute;
   bottom: 7.29vh;
-  left: 23.8vw;
+  right: 19.85vw;
+  /* left: 18.22vw;  */
+  /*  width: 63.15vw;
+  height: 58.59vh;
+  display: inline-flex; */
 }
 
 .paint_atributes_color_box {
-  height: 26.77vh;
+  height: 18.08vh;
   width: 16.08vw;
   background-size: contain;
   background-repeat: no-repeat;
@@ -1253,7 +1257,7 @@ header nav .header-sound .active {
 }
 
 .paint_atributes_color_brush {
-  height: 53.59vh;
+  height: 44.65vh;
   width: 39.65vw;
   background-size: contain;
   background-repeat: no-repeat;
