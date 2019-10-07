@@ -752,17 +752,14 @@ header nav .header-sound .active {
   background-repeat: no-repeat;
 }
 
-.bottom_middle_bg_box {
-  height: 45.6vh;
-  overflow: hidden;
-}
-
-.bottom_middle_bg_box .middle_bg_box_image {
-  height: 45vh;
-  width: auto;
-  background-position: bottom right;
+.middle_bg_box_image {
+  background-image: url("../img/backgrounds/bg-ilustrations/hand-middle.svg");
   background-size: contain;
   background-repeat: no-repeat;
+  position: absolute;
+  bottom: 0;
+  background-position: bottom;
+  right: 19.38vw;
 }
 
 .a-blue {
@@ -779,6 +776,32 @@ header nav .header-sound .active {
 
 .a-pink:hover {
   color: #d85471;
+}
+
+.paint_atributes_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  float: right;
+  padding-top: 5.89vh;
+  padding-right: 7.4vw;
+}
+
+.paint_atributes_color_box {
+  height: 28.77vh;
+  width: 17.34vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.paint_atributes_color_brush {
+  height: 58.59vh;
+  width: 43.92vw;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 /* 
@@ -1343,32 +1366,11 @@ header nav .header-sound .active {
   font-size: 1.8vh;
 }
 
-.paint_atributes_container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  position: absolute;
-  bottom: 7.29vh;
-  right: 19.85vw;
-  top: 34.11vh;
-}
-
 .paint_atributes_color_box {
-  height: 28.77vh;
-  width: 17.34vw;
-  background-size: contain;
-  background-repeat: no-repeat;
   background-image: url("../img/gakvetilebi/xelovneba/paint-boxo.svg");
 }
 
 .paint_atributes_color_brush {
-  height: 58.59vh;
-  width: 43.92vw;
-  background-size: contain;
-  background-repeat: no-repeat;
   background-image: url("../img/gakvetilebi/xelovneba/red_brush.svg");
 }
 
@@ -1381,7 +1383,12 @@ header nav .header-sound .active {
 }
 
 .middle_bg_hand {
-  background-image: url("../img/backgrounds/bg-ilustrations/hand-middle.svg");
+  background-image: url("../../img/backgrounds/bg-ilustrations/hand-middle.svg");
+}
+
+.middle_bg_hand_big {
+  width: 44.65vw;
+  height: 59.85vh;
 }
 
 .container_main_title_exercise-paddings {
@@ -1433,6 +1440,39 @@ header nav .header-sound .active {
   margin-top: -6vh;
 }
 
+.container_color-img {
+  height: 20.7vh;
+  display: block;
+  margin: auto;
+}
+
+.compiled_colors_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #0b2228;
+  font-size: 2.8vh;
+  line-height: 3.9vh;
+  font-family: "BPG Arial";
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.compiled_colors_img {
+  height: 10vh;
+  margin-right: 20px;
+}
+
+.question_suggestion_item_image_hidden img {
+  visibility: hidden;
+}
+
+.middle_bg_hand_big {
+  width: 30vw;
+  height: 43.85vh;
+}
+
 .rainbow_color .subject_question_item {
   font-family: "BPG Arial";
   font-size: 2.1vh;
@@ -1457,10 +1497,3 @@ header nav .header-sound .active {
   left: 0;
   right: 0;
 }
-
-.container_color-img {
-  height: 20.7vh;
-  display: block;
-  margin: auto;
-}
-/*# sourceMappingURL=style.css.map */
