@@ -28,12 +28,16 @@
     }
   }
 }
-
+.owl-theme .owl-nav.disabled + .owl-dots {
+  margin-top: -6vh;
+}
 .owl-theme .owl-dots {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 4.9vh;
+  flex: 0 0 58.333333%;
+  max-width: 58.333333%;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  text-align: left;
   .owl-dot {
     &:hover {
       outline: none;
@@ -41,8 +45,8 @@
     span {
       background: transparent;
       border: 1px solid #707070;
-      width: 16px;
-      height: 16px;
+      height: 3vh;
+      width: 3vh;
     }
   }
   .owl-dot.active {
@@ -64,35 +68,13 @@
 }
 .slider {
   margin-top: 16vh;
-  height: 57.3vh;
+  height: 63.3vh;
   position: relative;
-  .start-button {
-    // margin-top: 25px;
-    margin-bottom: 81px;
-    button {
-      width: 203px;
-      height: 68px;
-      border: none;
-      font-family: "ALK Sanet", sans-serif;
-      font-size: 16px;
-      color: #fff;
-      background: none;
-      position: relative;
-      a {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: #262626;
-      }
-    }
-  }
 
   .slide_content-box {
     height: inherit !important;
     .text-wrapper {
       font-family: "ALK Sanet", sans-serif;
-      padding-left: 8.6vw;
       height: inherit;
       h1 {
         text-align: left;
@@ -111,8 +93,8 @@
     }
   }
 }
-/*
-.slider-animation {
+
+/* .slider-animation {
   stroke-dasharray: 100;
   animation: dash 5s linear infinite;
 }
@@ -122,35 +104,30 @@
   }
 }
 .bee-animation {
-    animation: circle 5s linear infinite;
+  animation: circle 5s linear infinite;
 }
-@keyframes circle{
-    0%{
-      transform:rotate(0deg)
-                translate(-15px)
-                rotate(0deg);
-
-    }
-    100%{
-      transform:rotate(360deg)
-                translate(-15px)
-                rotate(-360deg);
-    }
+@keyframes circle {
+  0% {
+    transform: rotate(0deg) translate(-15px) rotate(0deg);
   }
-@keyframes circle{
-    0%{
-        transform: translate(25px, 25px);
-    }
-    25%{
-      transform: translate(-25px, -25px);
-    }
-    50% {
-      transform: translate(-25px, 25px);
-    }
-    75% {
-      transform: translate(25px, -25px);
-    }
-    100%{
-        transform: translate(25px, 25px);
-    }
-  } */
+  100% {
+    transform: rotate(360deg) translate(-15px) rotate(-360deg);
+  }
+}
+@keyframes circle {
+  0% {
+    transform: translate(25px, 25px);
+  }
+  25% {
+    transform: translate(-25px, -25px);
+  }
+  50% {
+    transform: translate(-25px, 25px);
+  }
+  75% {
+    transform: translate(25px, -25px);
+  }
+  100% {
+    transform: translate(25px, 25px);
+  }
+} */
