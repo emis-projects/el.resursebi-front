@@ -526,7 +526,7 @@ header nav .header-sound .active {
   -webkit-box-pack: left;
       -ms-flex-pack: left;
           justify-content: left;
-  font-size: 2.8vh;
+  font-size: 2.6vh;
   line-height: 3.9vh;
   padding-bottom: 5.2vh;
   font-family: "BPG Arial";
@@ -1037,6 +1037,57 @@ header nav .header-sound .active {
 
 #otherbtn .img1 {
   margin-right: 15px;
+}
+
+.questions__images {
+  width: 49.67008046817849vw;
+  margin: 0 auto;
+}
+
+.questions__images-item {
+  height: 38.1510416vh;
+}
+
+.questions__images-item:nth-child(1) {
+  margin-right: 16px;
+}
+
+.questions__images .question__dot {
+  border: 1px solid #707070;
+  border-radius: 50%;
+  width: 27px;
+  height: 27px;
+  margin-top: 22px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.questions__images .question__dot .draggable__answer__btns {
+  width: 21px;
+  height: 21px;
+}
+
+.questions__images .draggable__answer__btns {
+  width: 27px;
+  height: 27px;
+  -webkit-box-shadow: 0px 3px 6px #00000029;
+          box-shadow: 0px 3px 6px #00000029;
+  border-radius: 50%;
+}
+
+.questions__images .draggable__answer__btns.cold__btn {
+  background: #1855CC;
+}
+
+.questions__images .draggable__answer__btns.hot__btn {
+  background: #EA7515;
 }
 
 .success-game {
