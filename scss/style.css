@@ -1338,3 +1338,10 @@ header nav .header-sound .active {
 .container_main_title_exercise-paddings {
   padding-bottom: 5.4vh;
 }
+
+.paint_img {
+  display: block;
+  margin: auto;
+  height: 48.9vh;
+  margin-top: -6vh;
+}
