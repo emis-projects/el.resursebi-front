@@ -1,16 +1,16 @@
 header {
-  height: 8vh;
+  height: 6vh;
   width: 100%;
   margin: 0 auto;
-  margin-top: 5.3vh;
-  margin-bottom: 4.42vh;
+  margin-top: 3.5vh;
+  margin-bottom: 3.5vh;
   nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: inherit;
     .header-logo {
-      height: inherit;
+      height: 5.2vh;
       a {
         height: 100%;
         display: block;
@@ -21,7 +21,7 @@ header {
       }
     }
     .header-menu {
-      height: inherit;
+      height: 5.2vh;
       img {
         max-height: 22px;
         height: 100%;
@@ -32,10 +32,10 @@ header {
       .header-sound_switch {
         height: inherit;
         box-shadow: 0px 4px 6px #00000029;
-        max-width: 36px;
-        max-height: 36px;
-        height: 4.6vh;
-        width: 4.6vh;
+        max-width: 40px;
+        max-height: 40px;
+        height: 5.2vh;
+        width: 5.2vh;
         border-radius: 50%;
         outline: none;
         background: #fff;
