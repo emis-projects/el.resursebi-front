@@ -1,0 +1,14 @@
+.compiled_colors {
+  &_item {
+    display: flex;
+    color: #0b2228;
+    font-size: 2.8vh;
+    line-height: 3.9vh;
+    font-family: "BPG Arial";
+    align-items: center;
+  }
+  &_img {
+    height: 10vh;
+    margin-right: 20px;
+  }
+}

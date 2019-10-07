@@ -1430,3 +1430,21 @@ header nav .header-sound .active {
   display: block;
   margin: auto;
 }
+
+.compiled_colors_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #0b2228;
+  font-size: 2.8vh;
+  line-height: 3.9vh;
+  font-family: "BPG Arial";
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.compiled_colors_img {
+  height: 10vh;
+  margin-right: 20px;
+}
