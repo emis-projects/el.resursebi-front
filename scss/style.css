@@ -699,6 +699,20 @@ header nav .header-sound .active {
   background-repeat: no-repeat;
 }
 
+.background-62 {
+  background-image: url(../../img/backgrounds/1366-62_background.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-63 {
+  background-image: url(../../img/backgrounds/1366-63_background.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .subject_component_botton_icon {
   position: absolute;
   height: 8.5vh;
