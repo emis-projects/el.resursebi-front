@@ -73,26 +73,30 @@ function rainbow(){
 			seventh.setAttribute('stroke', this.color);
 		}
 
-
-
-
 		this.correctAnswer.push(parseInt(e.getAttribute('data-index')));
 
 		if(this.correctAnswer.length !== 0){
-			let lastElement = this.correctAnswer.slice(-1)[0]
+			let lastElement = this.correctAnswer.slice(-1)[0];
 			let lastlastElement = this.correctAnswer.length - 1;
 			
-			if(lastElement - lastlastElement !== 1){
+			if(lastElement - lastlastElement !== 1 ){
 				this.error = true;
-			} 
+			}
 		}
-
 	}
 
 
 	// error page 
-	this.errorPage = () => {
-		console.log('error page here');
+	this.errorPage = (e) => {
+		let line = document.querySelectorAll('.rainbow--line');
+		
+		line.forEach(l => {
+			if( l.getAttribute('fill') !== l.getAttribute('data-color') && this.error === true ) {
+				l.setAttribute('stroke', 'red');
+				l.setAttribute('fill', l.getAttribute('data-color'))
+				// console.log(l);
+			}
+		})
 	}
 
 
