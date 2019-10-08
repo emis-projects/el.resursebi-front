@@ -1448,12 +1448,9 @@ header nav .header-sound .active {
 }
 
 .middle_bg_hand {
-  background-image: url("../../img/backgrounds/bg-ilustrations/hand-middle.svg");
-}
-
-.middle_bg_hand_big {
-  width: 44.65vw;
-  height: 59.85vh;
+  width: 30vw;
+  height: 43.85vh;
+  background-image: url("../img/backgrounds/bg-ilustrations/hand-middle.svg");
 }
 
 .container_main_title_exercise-paddings {
@@ -1559,8 +1556,9 @@ header nav .header-sound .active {
 }
 
 .middle_bg_hand_big {
-  width: 30vw;
-  height: 43.85vh;
+  width: 32vw;
+  height: 45.85vh;
+  background-image: url("../img/backgrounds/bg-ilustrations/hand-middle.svg");
 }
 
 .rainbow_color .subject_question_item {
