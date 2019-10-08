@@ -1587,4 +1587,14 @@ header nav .header-sound .active {
   left: 0;
   right: 0;
 }
+
+.margin-top-13vh {
+  margin-top: 13vh;
+}
+
+.middle_bg_box_image-2 {
+  background-image: url(../../../img/backgrounds/bg-ilustrations/hand-middle-paint.svg);
+  width: 47vw;
+  height: 81vh;
+}
 /*# sourceMappingURL=style.css.map */
