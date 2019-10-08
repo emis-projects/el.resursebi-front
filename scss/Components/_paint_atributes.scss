@@ -1,10 +1,13 @@
 
 .paint_atributes_container{
   display: flex;
-  align-items: flex-end;
-  float:right;
-  padding-top:5.89vh;
-  padding-right:7.4vw;
+  align-items: flex-end;        
+  position: absolute;
+ /*  float:right; */
+ /*  padding-top:5.89vh;
+  padding-right:7.4vw; */
+  right:19.85vw; 
+  bottom: 7.29vh;
 }
 
 .paint_atributes_color_box{
