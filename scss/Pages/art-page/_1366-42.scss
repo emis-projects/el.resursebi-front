@@ -1,0 +1,23 @@
+.rainbow_color {
+  .subject_question_item {
+    font-family: "BPG Arial";
+    font-size: 2.1vh;
+  }
+  &_imgBox {
+    margin-top: 4vh;
+    height: 38.5vh;
+    position: relative;
+    img {
+      margin: 0 auto;
+      height: 100%;
+    }
+    span {
+      position: absolute;
+      bottom: -2.6vh;
+      text-align: center;
+      color: #000;
+      left: 0;
+      right: 0;
+    }
+  }
+}
