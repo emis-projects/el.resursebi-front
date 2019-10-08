@@ -725,6 +725,14 @@ header nav .header-sound .active {
   right: 4.5vh;
 }
 
+.subject_component_botton_bg_icon {
+  position: absolute;
+  height: 12.41vh;
+  width: 6.46vw;
+  bottom: 5.2vh;
+  right: 1.17vw;
+}
+
 .subject_component {
   margin-left: 5.3vw;
   margin-bottom: 4.8vh;
@@ -803,9 +811,12 @@ header nav .header-sound .active {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  float: right;
-  padding-top: 5.89vh;
-  padding-right: 7.4vw;
+  position: absolute;
+  /*  float:right; */
+  /*  padding-top:5.89vh;
+  padding-right:7.4vw; */
+  right: 19.85vw;
+  bottom: 7.29vh;
 }
 
 .paint_atributes_color_box {
@@ -1171,7 +1182,7 @@ header nav .header-sound .active {
 }
 
 .art-lesson-content_links {
-  margin-top: 5.31vh;
+  margin-top: 6.08vh;
 }
 
 .art-lesson-content_links a {
@@ -1187,6 +1198,10 @@ header nav .header-sound .active {
   bottom: 2.35vh;
   right: 4.27vw;
   background-image: url("../img/gakvetilebi/xelovneba/subject_bottom_illustration-art-1.svg");
+}
+
+.art-lesson-content_links a {
+  padding: 2.63vh;
 }
 
 .container_main_title_art-paddings {
@@ -1576,6 +1591,25 @@ header nav .header-sound .active {
   width: 32vw;
   height: 45.85vh;
   background-image: url("../img/backgrounds/bg-ilustrations/hand-middle.svg");
+}
+
+.paint_color_atributes {
+  background-image: url("../img/gakvetilebi/xelovneba/colors_brush.svg");
+}
+
+.container_main_title {
+  height: 5.07vh;
+}
+
+.container_main_title img {
+  padding-right: 1.12vw;
+}
+
+.paint_color_atributes {
+  height: 59.37vh;
+  width: 61.42vw;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .list-group-item {
