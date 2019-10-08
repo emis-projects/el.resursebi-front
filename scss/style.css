@@ -907,10 +907,9 @@ header nav .header-sound .active {
   margin-top: 16vh;
   height: 63.3vh;
   position: relative;
-}
-
-.slider .owl-theme .owl-nav.disabled + .owl-dots {
-  margin-top: -6vh;
+  /* .owl-theme .owl-nav.disabled + .owl-dots {
+    margin-top: -6vh;
+  } */
 }
 
 .slider .slide_content-box {
@@ -1266,7 +1265,7 @@ header nav .header-sound .active {
      object-fit: cover;
 }
 
-.owl-theme .owl-dots {
+.modal-body .owl-theme .owl-dots {
   position: absolute;
   bottom: 6.4vh;
 }
@@ -1579,31 +1578,6 @@ header nav .header-sound .active {
   background-image: url("../img/backgrounds/bg-ilustrations/hand-middle.svg");
 }
 
-.rainbow_color .subject_question_item {
-  font-family: "BPG Arial";
-  font-size: 2.1vh;
-}
-
-.rainbow_color_imgBox {
-  margin-top: 4vh;
-  height: 38.5vh;
-  position: relative;
-}
-
-.rainbow_color_imgBox img {
-  margin: 0 auto;
-  height: 100%;
-}
-
-.rainbow_color_imgBox span {
-  position: absolute;
-  bottom: -2.6vh;
-  text-align: center;
-  color: #000;
-  left: 0;
-  right: 0;
-}
-
 .list-group-item {
   border: none;
   padding: 0.75rem 0rem;
@@ -1638,4 +1612,7 @@ header nav .header-sound .active {
 .cool_warm-colors-img {
   height: 35.9vh;
 }
-/*# sourceMappingURL=style.css.map */
+
+.pt-5vh {
+  padding-top: 5.07vh;
+}
