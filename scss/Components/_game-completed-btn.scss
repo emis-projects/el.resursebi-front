@@ -1,13 +1,15 @@
 .completed__btn {
-    background: $reset-game-btn;
-    border-radius: 27px;
-    height: 39px;
-    width: 167px;
-    text-align: center;
-    color: #FFFFFF;
-    font-family: $alk-sanet;
+  background: $reset-game-btn;
+  border-radius: 27px;
+  height: 6.07vh;
+  width: 12.29vw;
+  text-align: center;
+  color: #ffffff;
+  font-family: $alk-sanet;
+  font-size: 11px;
+  letter-spacing: 1.1px;
 
-    &:focus {
-        outline: none;
-    }
+  &:focus {
+    outline: none;
+  }
 }

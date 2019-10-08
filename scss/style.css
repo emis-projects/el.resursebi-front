@@ -431,11 +431,13 @@ header nav .header-sound .active {
 .completed__btn {
   background: #7FD1D8;
   border-radius: 27px;
-  height: 39px;
-  width: 167px;
+  height: 6.07vh;
+  width: 12.29vw;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: "ALK Sanet";
+  font-size: 11px;
+  letter-spacing: 1.1px;
 }
 
 .completed__btn:focus {
@@ -445,12 +447,14 @@ header nav .header-sound .active {
 .reset__btn {
   background: #F8D24B;
   border-radius: 27px;
-  height: 39px;
-  width: 167px;
+  height: 6.07vh;
+  width: 12.29vw;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-bottom: 10px;
   font-family: "ALK Sanet";
+  font-size: 11px;
+  letter-spacing: 1.1px;
 }
 
 .reset__btn:focus {
@@ -721,6 +725,14 @@ header nav .header-sound .active {
   right: 4.5vh;
 }
 
+.subject_component_botton_bg_icon {
+  position: absolute;
+  height: 12.41vh;
+  width: 6.46vw;
+  bottom: 5.2vh;
+  right: 1.17vw;
+}
+
 .subject_component {
   margin-left: 5.3vw;
   margin-bottom: 4.8vh;
@@ -799,9 +811,12 @@ header nav .header-sound .active {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  float: right;
-  padding-top: 5.89vh;
-  padding-right: 7.4vw;
+  position: absolute;
+  /*  float:right; */
+  /*  padding-top:5.89vh;
+  padding-right:7.4vw; */
+  right: 19.85vw;
+  bottom: 7.29vh;
 }
 
 .paint_atributes_color_box {
@@ -903,10 +918,9 @@ header nav .header-sound .active {
   margin-top: 16vh;
   height: 63.3vh;
   position: relative;
-}
-
-.slider .owl-theme .owl-nav.disabled + .owl-dots {
-  margin-top: -6vh;
+  /* .owl-theme .owl-nav.disabled + .owl-dots {
+    margin-top: -6vh;
+  } */
 }
 
 .slider .slide_content-box {
@@ -1068,55 +1082,44 @@ header nav .header-sound .active {
   visibility: hidden;
 }
 
-.game__section.color-game-3 .yellow-blue .choose__color:nth-child(1), .game__section.color-game-3 .red-blue .choose__color:nth-child(1) {
-  margin-right: 35px;
+.dot_wrapper {
+  position: absolute;
+  left: 5.1vw;
+  top: 51vh;
 }
 
-.game__section.color-game-3 .yellow-blue {
-  margin-bottom: 60px;
+.dot_wrapper .draggable__answer__btns {
+  width: 3.5vh;
+  height: 3.5vh;
+  -webkit-box-shadow: 0px 3px 6px #00000029;
+          box-shadow: 0px 3px 6px #00000029;
+  border-radius: 50%;
+  cursor: pointer;
 }
 
-.game__section.color-game-3 {
-  padding-right: 50px;
+.dot_wrapper .draggable__answer__btns.cold__btn {
+  background: #1855cc;
+  margin-bottom: 8.7vh;
 }
 
-.game__section.color-game-3 .color-game-paint {
-  height: 77px;
+.dot_wrapper .draggable__answer__btns.hot__btn {
+  background: #ea7515;
 }
 
-.game__section.color-game-3 svg {
-  width: auto;
-  height: 52.083333333333336vh;
+.questions__images_wrapper_box {
+  max-height: 38.15vh;
 }
 
-#otherbtn {
-  margin-bottom: 30px;
-  margin-top: 53px;
+.questions__images_wrapper_box img {
+  height: 100%;
 }
 
-#otherbtn .img1 {
-  margin-right: 15px;
-}
-
-.questions__images {
-  width: 49.67008046817849vw;
-  margin: 0 auto;
-}
-
-.questions__images-item {
-  height: 38.1510416vh;
-}
-
-.questions__images-item:nth-child(1) {
-  margin-right: 16px;
-}
-
-.questions__images .question__dot {
+.questions__images_wrapper_box .question__dot {
   border: 1px solid #707070;
   border-radius: 50%;
-  width: 27px;
-  height: 27px;
-  margin-top: 22px;
+  width: 3.5vh;
+  height: 3.5vh;
+  margin-top: 2.8vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1126,27 +1129,46 @@ header nav .header-sound .active {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  cursor: pointer;
 }
 
-.questions__images .question__dot .draggable__answer__btns {
-  width: 21px;
-  height: 21px;
+.reload_game_wrapper {
+  position: absolute;
+  bottom: 11vh;
+  right: 11.5vw;
 }
 
-.questions__images .draggable__answer__btns {
-  width: 27px;
-  height: 27px;
-  -webkit-box-shadow: 0px 3px 6px #00000029;
-          box-shadow: 0px 3px 6px #00000029;
+.questions__image_wrapper_box {
+  max-height: 38.15vh;
+}
+
+.questions__image_wrapper_box-item {
+  max-height: 38.15vh;
+}
+
+.questions__image_wrapper_box-item img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.questions__image_wrapper_box .question__dot {
+  border: 1px solid #707070;
   border-radius: 50%;
-}
-
-.questions__images .draggable__answer__btns.cold__btn {
-  background: #1855CC;
-}
-
-.questions__images .draggable__answer__btns.hot__btn {
-  background: #EA7515;
+  width: 3.5vh;
+  height: 3.5vh;
+  margin-top: 2.8vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
 }
 
 .success-game {
@@ -1160,7 +1182,7 @@ header nav .header-sound .active {
 }
 
 .art-lesson-content_links {
-  margin-top: 5.31vh;
+  margin-top: 6.08vh;
 }
 
 .art-lesson-content_links a {
@@ -1176,6 +1198,10 @@ header nav .header-sound .active {
   bottom: 2.35vh;
   right: 4.27vw;
   background-image: url("../img/gakvetilebi/xelovneba/subject_bottom_illustration-art-1.svg");
+}
+
+.art-lesson-content_links a {
+  padding: 2.63vh;
 }
 
 .container_main_title_art-paddings {
@@ -1254,7 +1280,7 @@ header nav .header-sound .active {
      object-fit: cover;
 }
 
-.owl-theme .owl-dots {
+.modal-body .owl-theme .owl-dots {
   position: absolute;
   bottom: 6.4vh;
 }
@@ -1567,29 +1593,23 @@ header nav .header-sound .active {
   background-image: url("../img/backgrounds/bg-ilustrations/hand-middle.svg");
 }
 
-.rainbow_color .subject_question_item {
-  font-family: "BPG Arial";
-  font-size: 2.1vh;
+.paint_color_atributes {
+  background-image: url("../img/gakvetilebi/xelovneba/colors_brush.svg");
 }
 
-.rainbow_color_imgBox {
-  margin-top: 4vh;
-  height: 38.5vh;
-  position: relative;
+.container_main_title {
+  height: 5.07vh;
 }
 
-.rainbow_color_imgBox img {
-  margin: 0 auto;
-  height: 100%;
+.container_main_title img {
+  padding-right: 1.12vw;
 }
 
-.rainbow_color_imgBox span {
-  position: absolute;
-  bottom: -2.6vh;
-  text-align: center;
-  color: #000;
-  left: 0;
-  right: 0;
+.paint_color_atributes {
+  height: 59.37vh;
+  width: 61.42vw;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .list-group-item {
@@ -1607,4 +1627,26 @@ header nav .header-sound .active {
   width: 47vw;
   height: 81vh;
 }
-/*# sourceMappingURL=style.css.map */
+
+.cool_warm-colors {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #0b2228;
+  font-size: 2.6vh;
+  line-height: 3.9vh;
+  font-family: "BPG Arial";
+}
+
+.cool_warm-colors-img {
+  height: 35.9vh;
+}
+
+.pt-5vh {
+  padding-top: 5.07vh;
+}
