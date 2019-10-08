@@ -1550,17 +1550,23 @@ header nav .header-sound .active {
   display: -ms-flexbox;
   display: flex;
   color: #0b2228;
-  font-size: 2.8vh;
+  font-size: 2.6vh;
   line-height: 3.9vh;
   font-family: "BPG Arial";
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-bottom: 4.6vh;
 }
 
 .compiled_colors_img {
   height: 10vh;
-  margin-right: 20px;
+  margin-right: 3.2vw;
+}
+
+.compiled_colors_img-right {
+  height: 10vh;
+  margin-right: 10px;
 }
 
 .question_suggestion_item_image_hidden img {
@@ -1613,3 +1619,23 @@ header nav .header-sound .active {
   width: 47vw;
   height: 81vh;
 }
+
+.cool_warm-colors {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #0b2228;
+  font-size: 2.6vh;
+  line-height: 3.9vh;
+  font-family: "BPG Arial";
+}
+
+.cool_warm-colors-img {
+  height: 35.9vh;
+}
+/*# sourceMappingURL=style.css.map */
