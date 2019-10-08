@@ -1595,6 +1595,31 @@ header nav .header-sound .active {
   background-repeat: no-repeat;
 }
 
+.rainbow_color .subject_question_item {
+  font-family: "BPG Arial";
+  font-size: 2.1vh;
+}
+
+.rainbow_color_imgBox {
+  margin-top: 4vh;
+  height: 38.5vh;
+  position: relative;
+}
+
+.rainbow_color_imgBox img {
+  margin: 0 auto;
+  height: 100%;
+}
+
+.rainbow_color_imgBox span {
+  position: absolute;
+  bottom: -2.6vh;
+  text-align: center;
+  color: #000;
+  left: 0;
+  right: 0;
+}
+
 .list-group-item {
   border: none;
   padding: 0.75rem 0rem;
@@ -1610,3 +1635,4 @@ header nav .header-sound .active {
   width: 47vw;
   height: 81vh;
 }
+/*# sourceMappingURL=style.css.map */
