@@ -431,8 +431,8 @@ header nav .header-sound .active {
 .completed__btn {
   background: #7FD1D8;
   border-radius: 27px;
-  height: 6.07vh;
-  width: 12.29vw;
+  height: 38px;
+  width: 167px;
   text-align: center;
   color: #ffffff;
   font-family: "ALK Sanet";
@@ -447,8 +447,8 @@ header nav .header-sound .active {
 .reset__btn {
   background: #F8D24B;
   border-radius: 27px;
-  height: 6.07vh;
-  width: 12.29vw;
+  height: 38px;
+  width: 167px;
   text-align: center;
   color: #ffffff;
   margin-bottom: 10px;
@@ -1088,21 +1088,21 @@ header nav .header-sound .active {
   top: 51vh;
 }
 
-.dot_wrapper .draggable__answer__btns {
-  width: 3.5vh;
-  height: 3.5vh;
+.draggable__answer__btns {
+  width: 27px;
+  height: 27px;
   -webkit-box-shadow: 0px 3px 6px #00000029;
           box-shadow: 0px 3px 6px #00000029;
   border-radius: 50%;
   cursor: pointer;
 }
 
-.dot_wrapper .draggable__answer__btns.cold__btn {
+.draggable__answer__btns.cold__btn {
   background: #1855cc;
   margin-bottom: 8.7vh;
 }
 
-.dot_wrapper .draggable__answer__btns.hot__btn {
+.draggable__answer__btns.hot__btn {
   background: #ea7515;
 }
 
@@ -1117,8 +1117,8 @@ header nav .header-sound .active {
 .questions__images_wrapper_box .question__dot {
   border: 1px solid #707070;
   border-radius: 50%;
-  width: 3.5vh;
-  height: 3.5vh;
+  width: 27px;
+  height: 27px;
   margin-top: 2.8vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1130,6 +1130,12 @@ header nav .header-sound .active {
       -ms-flex-align: center;
           align-items: center;
   cursor: pointer;
+}
+
+.questions__images_wrapper_box .question__dot .draggable__answer__btns {
+  margin: 0;
+  width: 23px;
+  height: 23px;
 }
 
 .reload_game_wrapper {
