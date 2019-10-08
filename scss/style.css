@@ -1591,3 +1591,13 @@ header nav .header-sound .active {
   padding: 0.75rem 0rem;
   background: transparent;
 }
+
+.margin-top-13vh {
+  margin-top: 13vh;
+}
+
+.middle_bg_box_image-2 {
+  background-image: url(../../../img/backgrounds/bg-ilustrations/hand-middle-paint.svg);
+  width: 47vw;
+  height: 81vh;
+}
