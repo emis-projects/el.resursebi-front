@@ -1585,4 +1585,9 @@ header nav .header-sound .active {
   left: 0;
   right: 0;
 }
-/*# sourceMappingURL=style.css.map */
+
+.list-group-item {
+  border: none;
+  padding: 0.75rem 0rem;
+  background: transparent;
+}
