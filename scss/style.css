@@ -332,6 +332,11 @@ body {
   margin-right: 15px;
 }
 
+#rainbowGame {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
 header {
   height: 6vh;
   width: 100%;
@@ -1097,6 +1102,13 @@ header nav .header-sound .active {
   visibility: hidden;
 }
 
+.x-icon {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  left: 50%;
+}
+
 .dot_wrapper {
   position: absolute;
   left: 5.1vw;
@@ -1671,4 +1683,3 @@ header nav .header-sound .active {
 .pt-5vh {
   padding-top: 5.07vh;
 }
-/*# sourceMappingURL=style.css.map */

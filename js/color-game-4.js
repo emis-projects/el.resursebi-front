@@ -52,13 +52,8 @@ function dragQuizGame(){
       setTimeout(() => {
         this.checkifIsTrue(e)
       }, 0)
-
     }
  
-
-    this.completedGame = () => {
-      console.log('completed');
-    }
 
 
 
@@ -82,8 +77,6 @@ function dragQuizGame(){
     drag1.addEventListener('dragend', (e) => this.dragEnd(e));
     drag2.addEventListener('dragstart', (e) => this.dragStart(e));
     drag2.addEventListener('dragend', (e) => this.dragEnd(e));
-
-    document.getElementById('completedGame').addEventListener('click', () => this.completedGame());
 }
 
 let QuizGame = new dragQuizGame();
