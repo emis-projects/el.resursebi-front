@@ -836,10 +836,6 @@ header nav .header-sound .active {
 /* 
 *wow slider CSS section 
 */
-.container {
-  position: relative;
-}
-
 .owl-carousel {
   position: relative;
 }
