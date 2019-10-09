@@ -67,11 +67,9 @@ function dragQuizGame(){
 
     if(parent.querySelector('img').getAttribute('data-weather') == e.target.firstElementChild.getAttribute('data-weather')){
       this.firstAnswer = true;
-      this.secondAnswer = true;
 
     } else {
       this.firstAnswer = false;
-      this.secondAnswer = false;
     }
   }
 
