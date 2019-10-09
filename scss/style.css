@@ -15,7 +15,7 @@
 }
 
 @font-face {
-  font-family: 'Helvetica Neue';
+  font-family: "Helvetica Neue";
   src: url("../fonts/helvetica/HelveticaNeue-Italic.eot");
   /* IE9 Compat Modes */
   src: url("../fonts/helvetica/HelveticaNeue-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/helvetica/HelveticaNeue-Italic.woff2") format("woff2"), url("../fonts/arial/bpg-arial-webfont.woff") format("woff"), url("../fonts/helvetica/HelveticaNeue-Italic.woff") format("truetype"), url("../fonts/helvetica/HelveticaNeue-Italic.svg#HelveticaNeue-Italic") format("svg");
@@ -1303,7 +1303,7 @@ header nav .header-sound .active {
 
 .modal-body .owl-theme .owl-dots {
   position: absolute;
-  bottom: 6.4vh;
+  bottom: 8.4vh;
 }
 
 .fullScreen_modal-dialog {
@@ -1349,7 +1349,7 @@ header nav .header-sound .active {
 
 .fullScreen_modal-img-lg-vert {
   width: 59.1vh;
-  height: 74vh;
+  height: 80vh;
   margin-left: 28.6vw;
 }
 
@@ -1671,3 +1671,4 @@ header nav .header-sound .active {
 .pt-5vh {
   padding-top: 5.07vh;
 }
+/*# sourceMappingURL=style.css.map */
