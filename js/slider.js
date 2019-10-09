@@ -4,8 +4,11 @@ owl.owlCarousel({
   nav: false,
   margin: 10,
   items: 1,
+  touchDrag: true,
+  slideTransition: "linear",
   autoplay: false,
   autoHeight: true,
-  autoplayTimeout: 4000,
-  autoplayHoverPause: true
+  autoplayTimeout: 3000,
+  autoplaySpeed: 500,
+  lazyLoad: true
 });
