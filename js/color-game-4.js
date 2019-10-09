@@ -7,6 +7,12 @@ function dragQuizGame(){
   const drag1 = document.getElementById('drag1');
   const drag2 = document.getElementById('drag2');
   const empties = document.querySelectorAll('.question__dot');
+  const completeBtn = document.getElementById('completedGame');
+  const resetBtn = document.getElementById('resetBtn');
+
+  this.init = () => {
+    completeBtn.setAttribute('disabled', '');
+  }
 
 
     // drag end 
@@ -56,17 +62,59 @@ function dragQuizGame(){
  
 
 
+  this.errorMessage = () => {
+    document.querySelectorAll('.questions__images-item').forEach(w => {
+
+      if(w.className == "questions__images-item" || this.firstAnswer !== true && this.secondAnswer !== true){
+        // fail 
+        
+        let img = document.createElement('img');
+
+        img.classList.add('errorImg');
+
+        img.setAttribute('src', '../../img/gakvetilebi/xelovneba/color-game/x.svg');
+
+        w.querySelector('.question__dot').appendChild(img);
+
+        completeBtn.setAttribute('disabled', 'true')
+
+      } else if(w.classList.contains('correct')) {
+        // success
+        location.href = "1366-240.html"
+      }
+    })
+  }
+ 
+    
+    
+
+
+
 
   this.checkifIsTrue = (e) => {
     let parent = e.target.parentElement;
+    console.log(e.target);
 
-    if(parent.querySelector('img').getAttribute('data-weather') == e.target.firstElementChild.getAttribute('data-weather')){
+    
+
+    let img = parent.querySelector('.mainImage');
+    let circle = parent.querySelector('.draggable__answer__btns');
+ 
+
+    if(img.getAttribute('data-weather') == circle.getAttribute('data-weather')){
       this.firstAnswer = true;
 
+      if(this.firstAnswer = true){
+        this.secondAnswer = true;
+        parent.classList.add('correct')
+      }
     } else {
+      this.secondAnswer = false;
       this.firstAnswer = false;
+      this.error = true;
     }
   }
+
 
 
 
@@ -77,6 +125,9 @@ function dragQuizGame(){
     drag1.addEventListener('dragend', (e) => this.dragEnd(e));
     drag2.addEventListener('dragstart', (e) => this.dragStart(e));
     drag2.addEventListener('dragend', (e) => this.dragEnd(e));
+
+    completeBtn.addEventListener('click', () => this.errorMessage());
+    resetBtn.addEventListener('click', () => this.init());
 }
 
 let QuizGame = new dragQuizGame();
