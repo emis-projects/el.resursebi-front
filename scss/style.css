@@ -836,6 +836,14 @@ header nav .header-sound .active {
 /* 
 *wow slider CSS section 
 */
+.container {
+  position: relative;
+}
+
+.owl-carousel {
+  position: relative;
+}
+
 .owl-carousel .owl-item {
   display: block;
   height: inherit !important;
@@ -847,6 +855,7 @@ header nav .header-sound .active {
 
 .owl-carousel .owl-stage-outer {
   height: 100% !important;
+  z-index: -1;
 }
 
 .owl-carousel .owl-stage-outer .owl-stage {
@@ -869,7 +878,12 @@ header nav .header-sound .active {
 }
 
 .owl-carousel .owl-stage-outer .img-warpper img {
-  height: 100% !important;
+  height: 100%;
+  padding-right: 5vw;
+}
+
+#index {
+  position: relative;
 }
 
 #index .owl-theme .owl-nav.disabled + .owl-dots {
@@ -885,6 +899,11 @@ header nav .header-sound .active {
   padding-right: 15px;
   padding-left: 15px;
   text-align: left;
+  z-index: 5;
+}
+
+#index .owl-theme .owl-dots .owl-dot {
+  z-index: 5;
 }
 
 #index .owl-theme .owl-dots .owl-dot:hover {
@@ -1364,7 +1383,7 @@ header nav .header-sound .active {
 
 .portfolio-slider.owl-theme .owl-dots {
   left: auto;
-  right: 9.1vw;
+  right: 5.1vw;
 }
 
 .portfolio-slider.owl-theme .owl-dots .owl-dot span {
