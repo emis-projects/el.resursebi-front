@@ -199,12 +199,14 @@
             <div
               id="drag1"
               class="draggable__answer__btns cold__btn"
+              data-weather="cold"
               data-class="draggable__answer__btns cold__btn"
               draggable="true"
             ></div>
             <div
               id="drag2"
               class="draggable__answer__btns hot__btn"
+              data-weather="hot"
               data-class="draggable__answer__btns hot__btn"
               draggable="true"
             ></div>
@@ -223,10 +225,12 @@
 
               <div class="questions__images-item">
                 <img
+                  id="questionImage2"
+                  data-weather="hot"
                   src="../../img/gakvetilebi/xelovneba/game-4-img1.png"
                   alt=""
                 />
-                <div class="question__dot"></div>
+                <div id="questionDot2" class="question__dot"></div>
               </div>
             </div>
           </div>
@@ -244,6 +248,7 @@
                 class="paging_buttons_left"
               />
             </a>
+
             <a href="./1366-48.html" class="paging_buttons_margin-left">
               <img
                 src="../../img/icons/chevron-down-logo.svg"
