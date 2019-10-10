@@ -32,6 +32,7 @@
   background-image: url("../img/backgrounds/bg-ilustrations/pink-up-cut.svg");
   background-position: left top;
 }
+
 // pink bottom ilustration
 .bg_pink_Down {
   background-image: url("../img/backgrounds/bg-ilustrations/pink-down-cut.svg");
@@ -43,6 +44,7 @@
   background-image: url("../img/backgrounds/bg-ilustrations/blue-up-cut.svg");
   background-position: left top;
 }
+
 // Blue bottom ilustration
 .bg_blue_Down {
   background-image: url("../img/backgrounds/bg-ilustrations/blue-down-cut.svg");
@@ -56,30 +58,35 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .background-60 {
   background-image: url("../img/backgrounds/1366-60_background.svg");
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .background-61 {
   background-image: url("../img/backgrounds/1366-61_background.svg");
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .background-62 {
   background-image: url("../img/backgrounds/1366-62_background.svg");
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .background-63 {
   background-image: url("../img/backgrounds/1366-63_backgrounds.svg");
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 //icon inside down ilustration
 .subject_component_botton_icon {
   position: absolute;
@@ -95,7 +102,8 @@
   width: 6.46vw;
   bottom: 5.2vh;
   right: 1.17vw;
+
   img {
-    height: 100%;
+    width: 100%;
   }
 }

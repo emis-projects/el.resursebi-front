@@ -849,7 +849,7 @@ header nav .header-sound .active {
 }
 
 .subject_component_botton_bg_icon img {
-  height: 100%;
+  width: 100%;
 }
 
 .subject_component {
@@ -1498,6 +1498,10 @@ header nav .header-sound .active {
 
 .fullScreen_modal {
   max-height: 90vh;
+}
+
+.fullScreen_modal-fade {
+  padding-right: 0 !important;
 }
 
 .fullScreen_modal-fade {
