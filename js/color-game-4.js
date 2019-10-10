@@ -28,6 +28,9 @@ function dragQuizGame(){
       }
     });
 
+
+    document.querySelectorAll('.questions__images-item').forEach(w => w.classList.remove('correct'));
+
     let wrapper = document.querySelector('.dot_wrapper');
     
     if(wrapper.querySelector('.cold__btn') == undefined && wrapper.querySelector('.hot__btn') == undefined){
@@ -70,16 +73,36 @@ function dragQuizGame(){
   
   this.dragEnter = (e) => {
     e.preventDefault();
-    e.target.className += ' hovered';
+    
+    if(this.error === true) {
+      e.target.parentElement.className += ' hovered';
+      
+    } else {
+      e.target.className += ' hovered';
+    }
   }
   
   this.dragLeave = (e) => {
-    e.target.className = 'question__dot';
+    if(this.error === true) {
+      e.target.parentElement.className = 'question__dot';
+      
+    } else {
+      e.target.className = 'question__dot';
+    }
+
   }
   
   this.dragDrop = (e) => {
-    e.target.className = 'question__dot';
-    e.target.append(document.querySelector('div.draggedElement'));
+    if(this.error === true) {
+      e.target.parentElement.append(document.querySelector('div.draggedElement'));
+      e.target.parentElement.className = 'question__dot';
+    } else {
+      e.target.className = 'question__dot';
+      e.target.append(document.querySelector('div.draggedElement'));
+    }
+
+
+    console.log(e.target);
 
     setTimeout(() => {
       this.checkifIsTrue(e)
@@ -120,7 +143,7 @@ function dragQuizGame(){
 
   this.checkifIsTrue = (e) => {
     let parent = e.target.parentElement;
-    console.log(e.target.parentElement);
+    // console.log(e.target.parentElement);
 
 
     let img = parent.querySelector('.mainImage');
