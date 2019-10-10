@@ -1184,6 +1184,10 @@ header nav .header-sound .active {
   right: 11.5vw;
 }
 
+.questions__images-item {
+  margin-right: 16px;
+}
+
 .questions__images-item .errorImg {
   position: absolute;
   left: 50%;
@@ -1710,3 +1714,4 @@ header nav .header-sound .active {
 .text-wrapper_content-box {
   margin-top: 14.7vh;
 }
+/*# sourceMappingURL=style.css.map */
