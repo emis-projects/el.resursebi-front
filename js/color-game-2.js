@@ -20,6 +20,7 @@ function rainbow(){
 			w.setAttribute('fill', '#fff');
 			w.setAttribute('stroke', '#000');
 			w.setAttribute('stroke-width', '1px');
+			w.setAttribute('style', 'opacity: 1');
 		})
 
 		rainbowBtns.forEach(b => {

@@ -545,6 +545,8 @@ header nav .header-sound .active {
   font-family: "ALK Sanet";
   font-size: 11px;
   letter-spacing: 1.1px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .completed__btn:focus {
@@ -553,6 +555,8 @@ header nav .header-sound .active {
 
 .completed__btn:disabled {
   background: rgba(127, 209, 216, 0.5);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .reset__btn {
@@ -1253,12 +1257,13 @@ header nav .header-sound .active {
   position: absolute;
   left: 5.1vw;
   top: 51vh;
-  height: 15vh;
+  height: 18vh;
+  width: 40px;
 }
 
 .draggable__answer__btns {
-  width: 27px;
-  height: 27px;
+  width: 28px;
+  height: 28px;
   -webkit-box-shadow: 0px 3px 6px #00000029;
           box-shadow: 0px 3px 6px #00000029;
   border-radius: 50%;
@@ -1293,8 +1298,8 @@ header nav .header-sound .active {
 .questions__images_wrapper_box .question__dot {
   border: 1px solid #707070;
   border-radius: 50%;
-  width: 27px;
-  height: 27px;
+  width: 28px;
+  height: 28px;
   margin-top: 2.8vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1313,6 +1318,11 @@ header nav .header-sound .active {
   margin: 0;
   width: 23px;
   height: 23px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 .reload_game_wrapper {
@@ -1327,12 +1337,12 @@ header nav .header-sound .active {
 
 .questions__images-item .errorImg {
   position: absolute;
-  left: 50%;
-  top: 50%;
+  left: 60%;
+  top: 60%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
 }
 
 .questions__image_wrapper_box {

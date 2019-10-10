@@ -19,67 +19,72 @@ function dragQuizGame(){
     completeBtn.setAttribute('style', 'cursor: pointer');
 
     document.querySelectorAll('.question__dot').forEach(w => {
-      try {
+      if(w.querySelector('.errorImg')){
         w.querySelector('.errorImg').remove();
-        w.querySelector('.draggable__answer__btns').remove();
+      }
 
-      } catch {
-        console.log('erorrrrr');
+      if(w.querySelector('.draggable__answer__btns')){
+        w.querySelector('.draggable__answer__btns').remove();
       }
     });
 
     let wrapper = document.querySelector('.dot_wrapper');
     
-    if(wrapper.querySelector('cold__btn') == undefined){
+    if(wrapper.querySelector('.cold__btn') == undefined && wrapper.querySelector('.hot__btn') == undefined){
+      wrapper.innerHTML += '<div id="drag1" class="draggable__answer__btns cold__btn" data-weather="cold" data-class="draggable__answer__btns cold__btn" draggable="true"></div>'
+      wrapper.innerHTML += '<div id="drag2" class="draggable__answer__btns hot__btn" data-weather="hot" data-class="draggable__answer__btns hot__btn" draggable="true"></div>'
+    } else if (wrapper.querySelector('.cold__btn') == undefined){
+      wrapper.innerHTML += '<div id="drag1" class="draggable__answer__btns cold__btn" data-weather="cold" data-class="draggable__answer__btns cold__btn" draggable="true"></div>'
+    } else if (wrapper.querySelector('.hot__btn') == undefined){
       wrapper.innerHTML += '<div id="drag1" class="draggable__answer__btns cold__btn" data-weather="cold" data-class="draggable__answer__btns cold__btn" draggable="true"></div>'
     }
   }
 
 
-    // drag end 
-    this.dragStart = (e) => {
-      e.target.className += ' hold';
-      setTimeout(() => (e.target.className = "draggedElement"), 0);
-    }
-      
-    // drag start
-    this.dragEnd = e => {
-      e.target.className = e.srcElement.dataset.class;
-    }
-
-
-    // Loop through empty boxes and add listeners
-    for (const empty of empties) {
-      empty.addEventListener('dragover', (e) => this.dragOver(e));
-      empty.addEventListener('dragenter', (e) => this.dragEnter(e));
-      empty.addEventListener('dragleave', (e) => this.dragLeave(e));
-      empty.addEventListener('drop', (e) => this.dragDrop(e));
-    }
-
-
-
-    // Drag Functions    
-    this.dragOver = (e) => {
-      e.preventDefault();
-    }
+  // drag end 
+  this.dragStart = (e) => {
+    e.target.className += ' hold';
+    setTimeout(() => (e.target.className = "draggedElement"), 0);
+  }
     
-    this.dragEnter = (e) => {
-      e.preventDefault();
-      e.target.className += ' hovered';
-    }
-    
-    this.dragLeave = (e) => {
-      e.target.className = 'question__dot';
-    }
-    
-    this.dragDrop = (e) => {
-      e.target.className = 'question__dot';
-      e.target.append(document.querySelector('div.draggedElement'));
+  // drag start
+  this.dragEnd = e => {
+    e.target.className = e.srcElement.dataset.class;
+  }
 
-      setTimeout(() => {
-        this.checkifIsTrue(e)
-      }, 0)
-    }
+
+  // Loop through empty boxes and add listeners
+  for (const empty of empties) {
+    empty.addEventListener('dragover', (e) => this.dragOver(e));
+    empty.addEventListener('dragenter', (e) => this.dragEnter(e));
+    empty.addEventListener('dragleave', (e) => this.dragLeave(e));
+    empty.addEventListener('drop', (e) => this.dragDrop(e));
+  }
+
+
+
+  // Drag Functions    
+  this.dragOver = (e) => {
+    e.preventDefault();
+  }
+  
+  this.dragEnter = (e) => {
+    e.preventDefault();
+    e.target.className += ' hovered';
+  }
+  
+  this.dragLeave = (e) => {
+    e.target.className = 'question__dot';
+  }
+  
+  this.dragDrop = (e) => {
+    e.target.className = 'question__dot';
+    e.target.append(document.querySelector('div.draggedElement'));
+
+    setTimeout(() => {
+      this.checkifIsTrue(e)
+    }, 0)
+  }
  
 
 
@@ -111,10 +116,7 @@ function dragQuizGame(){
   }
  
     
-    
-
-
-
+  
 
   this.checkifIsTrue = (e) => {
     let parent = e.target.parentElement;
