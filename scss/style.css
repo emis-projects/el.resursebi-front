@@ -430,6 +430,15 @@ section {
   padding-top: 6vh;
 }
 
+#rainbowGame {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.owl-dot:focus {
+  outline: none;
+}
+
 header {
   height: 6vh;
   width: 100%;
@@ -540,6 +549,10 @@ header nav .header-sound .active {
 
 .completed__btn:focus {
   outline: none;
+}
+
+.completed__btn:disabled {
+  background: rgba(127, 209, 216, 0.5);
 }
 
 .reset__btn {
@@ -1199,10 +1212,48 @@ header nav .header-sound .active {
   visibility: hidden;
 }
 
+.x-icon {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  left: 50%;
+}
+
+.game__section.color-game-3 .yellow-blue .choose__color:nth-child(1), .game__section.color-game-3 .red-blue .choose__color:nth-child(1) {
+  margin-right: 35px;
+}
+
+.game__section.color-game-3 .yellow-blue {
+  margin-bottom: 60px;
+}
+
+.game__section.color-game-3 {
+  padding-right: 50px;
+}
+
+.game__section.color-game-3 .color-game-paint {
+  height: 77px;
+}
+
+.game__section.color-game-3 svg {
+  width: auto;
+  height: 52.083333333333336vh;
+}
+
+#otherbtn {
+  margin-bottom: 30px;
+  margin-top: 53px;
+}
+
+#otherbtn .img1 {
+  margin-right: 15px;
+}
+
 .dot_wrapper {
   position: absolute;
   left: 5.1vw;
   top: 51vh;
+  height: 15vh;
 }
 
 .draggable__answer__btns {
@@ -1216,11 +1267,16 @@ header nav .header-sound .active {
 
 .draggable__answer__btns.cold__btn {
   background: #1855cc;
-  margin-bottom: 8.7vh;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .draggable__answer__btns.hot__btn {
   background: #ea7515;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 .questions__images_wrapper_box {
@@ -1249,6 +1305,7 @@ header nav .header-sound .active {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  position: relative;
   cursor: pointer;
 }
 
@@ -1262,6 +1319,20 @@ header nav .header-sound .active {
   position: absolute;
   bottom: 11vh;
   right: 11.5vw;
+}
+
+.questions__images-item {
+  margin-right: 16px;
+}
+
+.questions__images-item .errorImg {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 50px;
+  height: 50px;
 }
 
 .questions__image_wrapper_box {

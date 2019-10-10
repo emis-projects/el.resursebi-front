@@ -178,3 +178,11 @@ body {
 section {
   padding-top: 6vh;
 }
+
+#rainbowGame {
+  transition: all 0.3s;
+}
+
+.owl-dot:focus {
+  outline: none;
+}
