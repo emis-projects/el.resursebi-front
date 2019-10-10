@@ -20,8 +20,12 @@
 .fullScreen_modal-dialog {
   height: 100%;
 }
+
 .fullScreen_modal {
   max-height: 90vh;
+  &-fade{
+    padding-right: 0!important;
+  }
   &-dialog {
     width: 100%;
     max-width: 100%;

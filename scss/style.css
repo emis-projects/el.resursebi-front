@@ -1500,6 +1500,10 @@ header nav .header-sound .active {
   max-height: 90vh;
 }
 
+.fullScreen_modal-fade {
+  padding-right: 0 !important;
+}
+
 .fullScreen_modal-dialog {
   width: 100%;
   max-width: 100%;
