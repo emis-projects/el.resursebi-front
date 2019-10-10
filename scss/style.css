@@ -1121,6 +1121,36 @@ header nav .header-sound .active {
   left: 50%;
 }
 
+.game__section.color-game-3 .yellow-blue .choose__color:nth-child(1), .game__section.color-game-3 .red-blue .choose__color:nth-child(1) {
+  margin-right: 35px;
+}
+
+.game__section.color-game-3 .yellow-blue {
+  margin-bottom: 60px;
+}
+
+.game__section.color-game-3 {
+  padding-right: 50px;
+}
+
+.game__section.color-game-3 .color-game-paint {
+  height: 77px;
+}
+
+.game__section.color-game-3 svg {
+  width: auto;
+  height: 52.083333333333336vh;
+}
+
+#otherbtn {
+  margin-bottom: 30px;
+  margin-top: 53px;
+}
+
+#otherbtn .img1 {
+  margin-right: 15px;
+}
+
 .dot_wrapper {
   position: absolute;
   left: 5.1vw;
