@@ -438,6 +438,18 @@ section {
   outline: none;
 }
 
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1800px;
+  }
+}
+
+@media (min-width: 2000px) {
+  .container {
+    max-width: 2000px;
+  }
+}
+
 header {
   height: 6vh;
   width: 100%;
