@@ -1312,6 +1312,7 @@ header nav .header-sound .active {
           align-items: center;
   position: relative;
   cursor: pointer;
+  color: red;
 }
 
 .questions__images_wrapper_box .question__dot .draggable__answer__btns {
@@ -1343,6 +1344,7 @@ header nav .header-sound .active {
           transform: translate(-50%, -50%);
   width: 40px;
   height: 40px;
+  z-index: 10000;
 }
 
 .questions__image_wrapper_box {

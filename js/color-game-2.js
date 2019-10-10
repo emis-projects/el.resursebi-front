@@ -91,7 +91,8 @@ function rainbow(){
 	// error page 
 	this.errorPage = (e) => {
 		document.querySelectorAll('.cls-2, .cls-3, .cls-1').forEach(w => {
-			w.setAttribute('style', 'opacity: 0.5');
+			w.setAttribute('style', `background-color: ${this.color}, 1 `);
+			w.setAttribute('stroke', 'rgba(255, 0, 0, 0.1)');
 		})
 
 		line.forEach(l => {

@@ -46,6 +46,7 @@
       align-items: center;
       position: relative;
       cursor: pointer;
+      color: red;
 
       .draggable__answer__btns {
         margin: 0;
@@ -77,5 +78,6 @@
     transform: translate(-50%, -50%);
     width: 40px;
     height: 40px;
+    z-index: 10000;
   }
 }
