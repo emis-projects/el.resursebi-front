@@ -26,7 +26,87 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -36,25 +116,37 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block;
 }
 
-ol, ul {
+ol,
+ul {
   list-style: none;
 }
 
-blockquote, q {
+blockquote,
+q {
   quotes: none;
 }
 
 blockquote:before, blockquote:after {
-  content: '';
+  content: "";
   content: none;
 }
 
 q:before, q:after {
-  content: '';
+  content: "";
   content: none;
 }
 
@@ -79,7 +171,10 @@ strong {
   font-weight: bold;
 }
 
-input, textarea, select, button {
+input,
+textarea,
+select,
+button {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
@@ -100,7 +195,6 @@ textarea {
 }
 
 img {
-  max-width: 100%;
   display: block;
 }
 
@@ -332,6 +426,10 @@ body {
   margin-right: 15px;
 }
 
+section {
+  padding-top: 6vh;
+}
+
 #rainbowGame {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -345,8 +443,8 @@ header {
   height: 6vh;
   width: 100%;
   margin: 0 auto;
-  margin-top: 3.5vh;
-  margin-bottom: 3.5vh;
+  padding-top: 3.5vh;
+  padding-bottom: 3.5vh;
 }
 
 header nav {
@@ -391,8 +489,8 @@ header nav .header-sound {
 
 header nav .header-sound .header-sound_switch {
   height: inherit;
-  -webkit-box-shadow: 0px 4px 6px #00000029;
-          box-shadow: 0px 4px 6px #00000029;
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
+          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
   max-width: 40px;
   max-height: 40px;
   height: 5.2vh;
@@ -527,8 +625,8 @@ header nav .header-sound .active {
   background-size: contain;
   text-align: center;
   padding: 2vh 9vh;
-  -webkit-box-shadow: 0px 3px 6px #00000029;
-          box-shadow: 0px 3px 6px #00000029;
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
+          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
   border-radius: 40px;
   font-size: 18px;
   font-family: "ALK Sanet", sans-serif;
@@ -1121,10 +1219,41 @@ header nav .header-sound .active {
   left: 50%;
 }
 
+.game__section.color-game-3 .yellow-blue .choose__color:nth-child(1), .game__section.color-game-3 .red-blue .choose__color:nth-child(1) {
+  margin-right: 35px;
+}
+
+.game__section.color-game-3 .yellow-blue {
+  margin-bottom: 60px;
+}
+
+.game__section.color-game-3 {
+  padding-right: 50px;
+}
+
+.game__section.color-game-3 .color-game-paint {
+  height: 77px;
+}
+
+.game__section.color-game-3 svg {
+  width: auto;
+  height: 52.083333333333336vh;
+}
+
+#otherbtn {
+  margin-bottom: 30px;
+  margin-top: 53px;
+}
+
+#otherbtn .img1 {
+  margin-right: 15px;
+}
+
 .dot_wrapper {
   position: absolute;
   left: 5.1vw;
   top: 51vh;
+  height: 15vh;
 }
 
 .draggable__answer__btns {
@@ -1138,11 +1267,16 @@ header nav .header-sound .active {
 
 .draggable__answer__btns.cold__btn {
   background: #1855cc;
-  margin-bottom: 8.7vh;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .draggable__answer__btns.hot__btn {
   background: #ea7515;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 .questions__images_wrapper_box {
@@ -1151,6 +1285,9 @@ header nav .header-sound .active {
 
 .questions__images_wrapper_box img {
   height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .questions__images_wrapper_box .question__dot {
@@ -1182,6 +1319,10 @@ header nav .header-sound .active {
   position: absolute;
   bottom: 11vh;
   right: 11.5vw;
+}
+
+.questions__images-item {
+  margin-right: 16px;
 }
 
 .questions__images-item .errorImg {
@@ -1598,11 +1739,12 @@ header nav .header-sound .active {
 .rainbow_color_imgBox img {
   margin: 0 auto;
   height: 100%;
+  max-height: 35.5vh;
 }
 
 .rainbow_color_imgBox span {
   position: absolute;
-  bottom: -2.6vh;
+  bottom: -1vh;
   text-align: center;
   color: #000;
   left: 0;
@@ -1709,4 +1851,8 @@ header nav .header-sound .active {
 
 .text-wrapper_content-box {
   margin-top: 14.7vh;
+}
+
+.main-box_relative .owl-carousel .owl-item img {
+  width: 100%;
 }
