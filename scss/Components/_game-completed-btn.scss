@@ -8,6 +8,7 @@
   font-family: $alk-sanet;
   font-size: 11px;
   letter-spacing: 1.1px;
+  transition: all 0.3s;
 
   &:focus {
     outline: none;
@@ -15,5 +16,6 @@
 
   &:disabled {
     background: rgba(127, 209, 216, 0.5);
+    transition: all 0.3s;
   }
 }

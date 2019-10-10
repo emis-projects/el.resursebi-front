@@ -11,7 +11,28 @@ function dragQuizGame(){
   const resetBtn = document.getElementById('resetBtn');
 
   this.init = () => {
-    completeBtn.setAttribute('disabled', '');
+    this.error = false;
+    this.firstAnswer = false;
+    this.secondAnswer = false;
+    
+    completeBtn.removeAttribute('disabled');
+    completeBtn.setAttribute('style', 'cursor: pointer');
+
+    document.querySelectorAll('.question__dot').forEach(w => {
+      try {
+        w.querySelector('.errorImg').remove();
+        w.querySelector('.draggable__answer__btns').remove();
+
+      } catch {
+        console.log('erorrrrr');
+      }
+    });
+
+    let wrapper = document.querySelector('.dot_wrapper');
+    
+    if(wrapper.querySelector('cold__btn') == undefined){
+      wrapper.innerHTML += '<div id="drag1" class="draggable__answer__btns cold__btn" data-weather="cold" data-class="draggable__answer__btns cold__btn" draggable="true"></div>'
+    }
   }
 
 
@@ -65,9 +86,9 @@ function dragQuizGame(){
   this.errorMessage = () => {
     document.querySelectorAll('.questions__images-item').forEach(w => {
 
-      if(w.className == "questions__images-item" || this.firstAnswer !== true && this.secondAnswer !== true){
+      if(w.className == "questions__images-item"){
         // fail 
-        
+
         let img = document.createElement('img');
 
         img.classList.add('errorImg');
@@ -76,10 +97,14 @@ function dragQuizGame(){
 
         w.querySelector('.question__dot').appendChild(img);
 
-        completeBtn.setAttribute('disabled', 'true')
+        completeBtn.setAttribute('disabled', 'true');
+        completeBtn.setAttribute('style', 'cursor: default');
+
+        this.error = true;
 
       } else if(w.classList.contains('correct')) {
         // success
+
         location.href = "1366-240.html"
       }
     })
@@ -93,25 +118,30 @@ function dragQuizGame(){
 
   this.checkifIsTrue = (e) => {
     let parent = e.target.parentElement;
-    console.log(e.target);
+    console.log(e.target.parentElement);
 
-    
 
     let img = parent.querySelector('.mainImage');
     let circle = parent.querySelector('.draggable__answer__btns');
  
 
     if(img.getAttribute('data-weather') == circle.getAttribute('data-weather')){
-      this.firstAnswer = true;
+        this.firstAnswer = true;
 
-      if(this.firstAnswer = true){
-        this.secondAnswer = true;
-        parent.classList.add('correct')
-      }
+        if(this.firstAnswer === true){
+          this.secondAnswer = true;
+          this.error = false;
+          parent.classList.add('correct')
+        }
+
     } else {
       this.secondAnswer = false;
       this.firstAnswer = false;
       this.error = true;
+
+      document.querySelectorAll('.questions__images-item').forEach(w => {
+        w.classList.remove('correct');
+      })
     }
   }
 
