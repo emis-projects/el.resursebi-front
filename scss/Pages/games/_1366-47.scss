@@ -2,6 +2,7 @@
   position: absolute;
   left: 5.1vw;
   top: 51vh;
+  height: 15vh;
 }
 
 .draggable__answer__btns {
@@ -13,10 +14,15 @@
 
   &.cold__btn {
     background: #1855cc;
-    margin-bottom: 8.7vh;
+    position: absolute;
+    top: 0;
+    left: 0;
   }
   &.hot__btn {
     background: #ea7515;
+    position: absolute;
+    bottom: 0;
+    left: 0;
   }
 }
 
