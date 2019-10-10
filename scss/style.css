@@ -1,24 +1,24 @@
 @font-face {
-  font-family: "ALK Sanet";
-  src: url("../fonts/alkSanet/alk-sanet-webfont.eot");
+  font-family: 'ALK Sanet';
+  src: url("../fonts/alk-sanet/alk-sanet-webfont.eot");
   /* IE9 Compat Modes */
-  src: url("../fonts/alkSanet/alk-sanet-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/alkSanet/alk-sanet-webfont.woff2") format("woff2"), url("../fonts/alkSanet/alk-sanet-webfont.woff") format("woff"), url("../fonts/alkSanet/alk-sanet-webfont.ttf") format("truetype"), url("../fonts/alkSanet/alk-sanet-webfont.svg#alk_sanetregular") format("svg");
+  src: url("../fonts/alk-sanet/alk-sanet-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/alk-sanet/alk-sanet-webfont.woff2") format("woff2"), url("../fonts/alk-sanet/alk-sanet-webfont.woff") format("woff"), url("../fonts/alk-sanet/alk-sanet-webfont.ttf") format("truetype"), url("../fonts/alk-sanet/alk-sanet-webfont.svg#alk_sanetregular") format("svg");
   /* Legacy iOS */
 }
 
 @font-face {
-  font-family: "BPG Arial";
-  src: url("../fonts/arial/bpg-arial-webfont.eot");
+  font-family: 'BPG Arial';
+  src: url("../../fonts/bpg-arial/");
   /* IE9 Compat Modes */
-  src: url("../fonts/arial/bpg-arial-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/arial/bpg-arial-webfont.woff2") format("woff2"), url("../fonts/arial/bpg-arial-webfont.woff") format("woff"), url("../fonts/arial/bpg-arial-webfont.ttf") format("truetype"), url("../fonts/arial/bpg-arial-webfont.svg#bpg_arialregular") format("svg");
+  src: url("../fonts/bpg-arial/bpg-arial-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/bpg-arial/bpg-arial-webfont.woff2") format("woff2"), url("../fonts/bpg-arial/bpg-arial-webfont.woff") format("woff"), url("../fonts/bpg-arial/bpg-arial-webfont.ttf") format("truetype"), url("../fonts/bpg-arial/bpg-arial-webfont.svg#bpg_arialregular") format("svg");
   /* Legacy iOS */
 }
 
 @font-face {
-  font-family: "Helvetica Neue";
-  src: url("../fonts/helvetica/HelveticaNeue-Italic.eot");
+  font-family: 'DejaVu Sans Oblique';
+  src: url("../fonts/dejavu-sans-oblique/dejavu-sans-oblique-webfont.eot");
   /* IE9 Compat Modes */
-  src: url("../fonts/helvetica/HelveticaNeue-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/helvetica/HelveticaNeue-Italic.woff2") format("woff2"), url("../fonts/arial/bpg-arial-webfont.woff") format("woff"), url("../fonts/helvetica/HelveticaNeue-Italic.woff") format("truetype"), url("../fonts/helvetica/HelveticaNeue-Italic.svg#HelveticaNeue-Italic") format("svg");
+  src: url("../fonts/dejavu-sans-oblique/dejavu-sans-oblique-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/dejavu-sans-oblique/dejavu-sans-oblique-webfont.woff2") format("woff2"), url("../fonts/dejavu-sans-oblique/dejavu-sans-oblique-webfont.woff") format("woff"), url("../fonts/dejavu-sans-oblique/dejavu-sans-oblique-webfont.ttf") format("truetype"), url("../fonts/dejavu-sans-oblique/dejavu-sans-oblique-webfont.svg#dejavu_sans_obliqueregular") format("svg");
   /* Legacy iOS */
 }
 
@@ -111,7 +111,6 @@ video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
   vertical-align: baseline;
 }
 
@@ -850,6 +849,7 @@ header nav .header-sound .active {
 
 .subject_component_botton_bg_icon img {
   width: 100%;
+  height: 100%;
 }
 
 .subject_component {
@@ -1504,10 +1504,6 @@ header nav .header-sound .active {
   padding-right: 0 !important;
 }
 
-.fullScreen_modal-fade {
-  padding-right: 0 !important;
-}
-
 .fullScreen_modal-dialog {
   width: 100%;
   max-width: 100%;
@@ -1729,7 +1725,7 @@ header nav .header-sound .active {
 .title-59 h1 {
   font-size: 28px;
   font-style: italic;
-  font-family: 'Helvetica Neue';
+  font-family: 'DejaVu Sans Oblique';
 }
 
 .container_main_title_exercise-paddings {
@@ -1873,4 +1869,8 @@ header nav .header-sound .active {
 
 .main-box_relative .owl-carousel .owl-item img {
   width: 100%;
+}
+
+.padding-top-14vh {
+  padding-top: 14vh;
 }
