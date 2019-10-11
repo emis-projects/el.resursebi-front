@@ -6,6 +6,7 @@ function rainbow(){
 	this.color = null;
 	this.index = 0;
 	this.error = false;
+	this.thirdColor = null;
 	this.correctAnswer = []
 
 	var line = document.querySelectorAll('.rainbow--line');
@@ -49,6 +50,8 @@ function rainbow(){
 		if(first.getAttribute('fill') == '#fff'){
 			first.setAttribute('fill', this.color);
 			first.setAttribute('stroke', this.color);
+
+
 			
 		} else if(second.getAttribute('fill') == '#fff'){
 			second.setAttribute('fill', this.color);
@@ -90,40 +93,12 @@ function rainbow(){
 
 	// error page 
 	this.errorPage = (e) => {
-		document.querySelectorAll('.cls-2, .cls-3, .cls-1').forEach(w => {
-			w.setAttribute('style', `background-color: ${this.color}, 1 `);
-			w.setAttribute('stroke', 'rgba(255, 0, 0, 0.1)');
-		})
-
 		line.forEach(l => {
-			var svg = document.querySelectorAll('g.error'); //Get svg element
-
-			var newElement = document.createElement("svg"); //Create a path in SVG's namespace
-			newElement.setAttribute('aria-hidden', 'true');
-			newElement.setAttribute('focusable', 'false');
-			newElement.setAttribute('data-prefix', 'fas');
-			newElement.setAttribute('data-icon', 'times');
-			newElement.setAttribute('class', 'svg-inline--fa fa-times fa-w-11');
-			newElement.setAttribute('role', 'img');
-			newElement.setAttribute('xmlns', 'http://www.w3.org/2000/svg');
-			newElement.setAttribute('viewBox', '0 0 352 512');
-
-			let d = document.createElement('path');
-			d.setAttribute("d", "M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z")
-			
-			
-			newElement.appendChild(d)
-			
-			svg.forEach(w => {
-				w.append(newElement);
-			})
-			
-
 			if(l.getAttribute('data-color') !== l.getAttribute('fill')){
 				l.parentElement.classList.add('error');
 				l.setAttribute('stroke', 'red');
 				l.setAttribute('stroke-width', '3px');
-				l.setAttribute('order', '3');
+				l.setAttribute('order', '30');
 				l.setAttribute('fill-rule', 'evenodd');
 			}
 		})
