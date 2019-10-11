@@ -95,6 +95,7 @@ function rainbow(){
 	this.errorPage = (e) => {
 		line.forEach(l => {
 			if(l.getAttribute('data-color') !== l.getAttribute('fill')){
+				l.parentElement.classList.add('haveToError');
 				l.parentElement.classList.add('error');
 				l.setAttribute('stroke', 'red');
 				l.setAttribute('stroke-width', '3px');
