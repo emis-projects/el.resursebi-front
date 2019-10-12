@@ -196,6 +196,4 @@ function chooseColor(){
 }
 
 
-
-
-var colorChanger = new chooseColor();
+const colorChanger = new chooseColor();

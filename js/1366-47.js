@@ -2,6 +2,7 @@ function dragQuizGame(){
   this.firstAnswer = false;
   this.secondAnswer = false;
   this.error = false;
+  this.submitError = false;
 
 
   const drag1 = document.getElementById('drag1');
@@ -74,33 +75,16 @@ function dragQuizGame(){
   this.dragEnter = (e) => {
     e.preventDefault();
     
-    if(this.error === true) {
-      e.target.parentElement.className += ' hovered';
-      
-    } else {
-      e.target.className += ' hovered';
-    }
+    e.target.className += ' hovered';
   }
   
   this.dragLeave = (e) => {
-    if(this.error === true) {
-      e.target.parentElement.className = 'question__dot';
-      
-    } else {
-      e.target.className = 'question__dot';
-    }
-
+    e.target.className = 'question__dot';
   }
   
   this.dragDrop = (e) => {
-    if(this.error === true) {
-      e.target.parentElement.append(document.querySelector('div.draggedElement'));
-      e.target.parentElement.className = 'question__dot';
-    } else {
-      e.target.className = 'question__dot';
-      e.target.append(document.querySelector('div.draggedElement'));
-    }
-
+    e.target.className = 'question__dot';
+    e.target.append(document.querySelector('div.draggedElement'));
 
     console.log(e.target);
 
@@ -171,8 +155,20 @@ function dragQuizGame(){
   }
 
 
+  // success page
+	this.successPage  = () => {
+    // this.error = false;
+    // this.submitError = false;
+		location.href = '1366-240.html';
+	}
 
 
+
+  this.completGame = (e) => {
+		if(this.submitError === false && this.error === false){
+      this.successPage();
+    }
+	}
 
 
     // Fill listeners
@@ -181,10 +177,10 @@ function dragQuizGame(){
     drag2.addEventListener('dragstart', (e) => this.dragStart(e));
     drag2.addEventListener('dragend', (e) => this.dragEnd(e));
 
-    completeBtn.addEventListener('click', () => this.errorMessage());
+    completeBtn.addEventListener('click', () => this.completGame());
     resetBtn.addEventListener('click', () => this.init());
 }
 
-let QuizGame = new dragQuizGame();
+const QuizGame = new dragQuizGame();
 
 

@@ -1,10 +1,10 @@
-function colorGame3() {
+function colorGame1() {
 	this.colors = [];
 	this.finalyColor = '';
 
 
-	var singleColorSvg = document.querySelector('.finalyColorSingle');
-
+	let singleColorSvg = document.querySelector('.finalyColorSingle');
+	let btns = document.querySelectorAll('.color-game-208');
 
 	this.init = () => {
 		document.querySelectorAll('.desktop-colors--light').forEach(w => {
@@ -104,9 +104,6 @@ function colorGame3() {
 		elem1.setAttribute('fill', color);
 		elem2.setAttribute('fill', color);
 	}
-
-
-	var btns = document.querySelectorAll('.color-game-208');
 	
 	btns.forEach(w => {
 		w.addEventListener('click', (e) => this.addColorInArray(e))
@@ -114,5 +111,5 @@ function colorGame3() {
 }
 
 
-const colorGame = new colorGame3();
+const colorGame = new colorGame1();
 
