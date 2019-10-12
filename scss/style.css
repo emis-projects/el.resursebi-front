@@ -1228,13 +1228,6 @@ header nav .header-sound .active {
   visibility: hidden;
 }
 
-.x-icon {
-  width: 10px;
-  height: 10px;
-  position: absolute;
-  left: 50%;
-}
-
 .game__section.color-game-3 .yellow-blue .choose__color:nth-child(1), .game__section.color-game-3 .red-blue .choose__color:nth-child(1) {
   margin-right: 35px;
 }

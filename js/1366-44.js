@@ -6,11 +6,17 @@ function rainbow(){
 	this.color = null;
 	this.index = 0;
 	this.error = false;
-	this.thirdColor = null;
-	this.correctAnswer = []
+	this.correctAnswer = [];
 
-	var line = document.querySelectorAll('.rainbow--line');
 
+	// variables 
+	let line = document.querySelectorAll('.rainbow--line');
+	let rainbowBtns = document.querySelectorAll('.color__btn');
+	let resetBtn = document.getElementById('resetBtn');
+	let completedGame = document.getElementById('completedGame');
+
+
+	// init 
 	this.init = () => {
 		this.index = 0;
 		this.color = null;
@@ -21,8 +27,9 @@ function rainbow(){
 			w.setAttribute('fill', '#fff');
 			w.setAttribute('stroke', '#000');
 			w.setAttribute('stroke-width', '1px');
-			w.setAttribute('style', 'opacity: 1');
 		})
+
+		document.querySelectorAll('.svg-icon-content').forEach(w => w.classList.remove('error'));
 
 		rainbowBtns.forEach(b => {
 			b.classList.add('opacity-5');
@@ -32,6 +39,7 @@ function rainbow(){
 	}
 
 
+	// paint lines 
 	this.paint = function(color, e) {
 		this.color = color;
 		this.index++;
@@ -51,8 +59,6 @@ function rainbow(){
 			first.setAttribute('fill', this.color);
 			first.setAttribute('stroke', this.color);
 
-
-			
 		} else if(second.getAttribute('fill') == '#fff'){
 			second.setAttribute('fill', this.color);
 			second.setAttribute('stroke', this.color);
@@ -91,11 +97,27 @@ function rainbow(){
 	}
 
 
+	// success page
+	this.successPage  = () => {
+		this.error = false;
+		location.href = '1366-240.html';
+	}
+
+
+	// success part
+	this.successPart = () => {
+		line.forEach(w => {
+			let dataColor = w.getAttribute('data-color');
+			w.setAttribute('fill', dataColor);
+			w.setAttribute('stroke', dataColor);
+		})
+	}
+
+
 	// error page 
-	this.errorPage = (e) => {
+	this.errorPage = () => {
 		line.forEach(l => {
-			if(l.getAttribute('data-color') !== l.getAttribute('fill')){
-				l.parentElement.classList.add('haveToError');
+			if(l.getAttribute('fill') !== l.getAttribute('data-color')){
 				l.parentElement.classList.add('error');
 				l.setAttribute('stroke', 'red');
 				l.setAttribute('stroke-width', '3px');
@@ -104,39 +126,27 @@ function rainbow(){
 			}
 		})
 	}
+	
 
+	this.completGame = (e) => {
 
-	// success 
-	this.successPage = () => {
-		if(this.index !== 7){
-			line.forEach(w => {
-				w.setAttribute('fill', w.getAttribute('data-color'));
-				w.setAttribute('stroke', w.getAttribute('data-color'));
-			})
-		} else {
-			location.href = '1366-240.html'
-		}
-	}
+		line.forEach(w => {
+			if(this.index == 7 && this.error === false && w.getAttribute('data-color') == w.getAttribute('fill')){
+				this.successPage();
 
+			} else if (this.error === false && this.index !== 7 && this.index !== 0) {
+				this.successPart();
 
-
-	this.completGame = () => {
-		if(this.error === true){
-			this.errorPage()
-
-		} else {
-			this.successPage()
-		}
+			} else {
+				this.errorPage();
+			}
+		})
 	}
 
 	
-	var rainbowBtns = document.querySelectorAll('.color__btn');
-	var resetBtn = document.getElementById('resetBtn');
-	var completedGame = document.getElementById('completedGame');
 
 	resetBtn.addEventListener('click', () => this.init());
 	completedGame.addEventListener('click', () => this.completGame());
-
 
 	rainbowBtns.forEach(b => {
 		b.addEventListener('click', e => {
