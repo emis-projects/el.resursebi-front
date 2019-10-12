@@ -1,6 +1,3 @@
-var colorsRainbow = new rainbow();
-
-
 // rainbow game 
 function rainbow(){
 	this.color = null;
@@ -129,7 +126,6 @@ function rainbow(){
 	
 
 	this.completGame = (e) => {
-
 		line.forEach(w => {
 			if(this.index == 7 && this.error === false && w.getAttribute('data-color') == w.getAttribute('fill')){
 				this.successPage();
@@ -160,4 +156,4 @@ function rainbow(){
 
 
 
-
+var colorsRainbow = new rainbow();
