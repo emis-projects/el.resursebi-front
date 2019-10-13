@@ -4,6 +4,32 @@
   top: 51vh;
   height: 18vh;
   width: 40px;
+
+  &.error {
+    &::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      width: 40px;
+      height: 40px;
+      background: transparent;
+      z-index: 10000;
+    }
+
+    &::before {
+      content: '';
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      background: transparent;
+      bottom: 0;
+      z-index: 10000;
+    }
+
+    .draggable__answer__btns {
+      opacity: 0.5;
+    }
+  }
 }
 
 .draggable__answer__btns {
@@ -36,6 +62,7 @@
       object-fit: cover;
     }
     .question__dot {
+      position: relative;
       border: 1px solid #707070;
       border-radius: 50%;
       width: 28px;
@@ -47,6 +74,18 @@
       position: relative;
       cursor: pointer;
       color: red;
+
+      &.error {
+        &::after {
+          position: absolute;
+          content: '';
+          width: 60px;
+          height: 60px;
+          background: transparent;
+          cursor: default;
+          z-index: 1000000000;
+        }
+      }
 
       .draggable__answer__btns {
         margin: 0;

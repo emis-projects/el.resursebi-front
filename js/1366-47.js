@@ -9,6 +9,7 @@ function dragQuizGame(){
   const drag2 = document.getElementById('drag2');
   const empties = document.querySelectorAll('.question__dot');
   const completeBtn = document.getElementById('completedGame');
+  let items = document.querySelectorAll('.questions__images-item');
   const resetBtn = document.getElementById('resetBtn');
 
   this.init = () => {
@@ -20,6 +21,8 @@ function dragQuizGame(){
     completeBtn.setAttribute('style', 'cursor: pointer');
 
     document.querySelectorAll('.question__dot').forEach(w => {
+      w.classList.remove('error');
+
       if(w.querySelector('.errorImg')){
         w.querySelector('.errorImg').remove();
       }
@@ -30,9 +33,15 @@ function dragQuizGame(){
     });
 
 
-    document.querySelectorAll('.questions__images-item').forEach(w => w.classList.remove('correct'));
+    items.forEach(w => {
+      w.classList.remove('correct')
+      w.classList.remove('incorrect')
+    });
+
 
     let wrapper = document.querySelector('.dot_wrapper');
+
+    wrapper.classList.remove('error');
     
     if(wrapper.querySelector('.cold__btn') == undefined && wrapper.querySelector('.hot__btn') == undefined){
       wrapper.innerHTML += '<div id="drag1" class="draggable__answer__btns cold__btn" data-weather="cold" data-class="draggable__answer__btns cold__btn" draggable="true"></div>'
@@ -77,10 +86,13 @@ function dragQuizGame(){
     
     e.target.className += ' hovered';
   }
+
   
   this.dragLeave = (e) => {
     e.target.className = 'question__dot';
   }
+
+
   
   this.dragDrop = (e) => {
     e.target.className = 'question__dot';
@@ -95,15 +107,54 @@ function dragQuizGame(){
  
 
 
-  this.errorMessage = () => {
-    document.querySelectorAll('.questions__images-item').forEach(w => {
+  
+  
+  
+  this.checkifIsTrue = (e) => {
+    let parent = e.target.parentElement;
+    
+    let img = parent.querySelector('.mainImage');
+    let circle = parent.querySelector('.draggable__answer__btns');
+    
+    if(img.getAttribute('data-weather') == circle.getAttribute('data-weather')){
+      this.firstAnswer = true;
+      
+      if(this.firstAnswer === true){
+        this.secondAnswer = true;
+        parent.classList.add('correct')
+      }
+      
+    } else {
+      this.secondAnswer = false;
+      this.firstAnswer = false;
+      this.error = true;
+      
+      parent.classList.add('incorrect')
+      
+      document.querySelectorAll('.questions__images-item').forEach(w => {
+        w.classList.remove('correct');
+      })
+    }
+  }
+  
+  
 
-      if(w.className == "questions__images-item"){
-        // fail 
+
+
+
+  // error 
+  this.errorMessage = () => {
+    items.forEach(w => {
+      
+      // debugger
+
+      if(w.className = "questions__images-item"){
 
         let img = document.createElement('img');
 
         img.classList.add('errorImg');
+
+        w.querySelector('.question__dot').classList.add('error');
 
         img.setAttribute('src', '../../img/gakvetilebi/xelovneba/color-game/x.svg');
 
@@ -113,61 +164,30 @@ function dragQuizGame(){
         completeBtn.setAttribute('style', 'cursor: default');
 
         this.error = true;
+        this.submitError = true;
 
-      } else if(w.classList.contains('correct')) {
-        // success
-
-        location.href = "1366-240.html"
-      }
+        document.querySelector('.dot_wrapper').classList.add('error');
+      } 
     })
   }
+
  
-    
-  
-
-  this.checkifIsTrue = (e) => {
-    let parent = e.target.parentElement;
-    // console.log(e.target.parentElement);
-
-
-    let img = parent.querySelector('.mainImage');
-    let circle = parent.querySelector('.draggable__answer__btns');
- 
-
-    if(img.getAttribute('data-weather') == circle.getAttribute('data-weather')){
-        this.firstAnswer = true;
-
-        if(this.firstAnswer === true){
-          this.secondAnswer = true;
-          this.error = false;
-          parent.classList.add('correct')
-        }
-
-    } else {
-      this.secondAnswer = false;
-      this.firstAnswer = false;
-      this.error = true;
-
-      document.querySelectorAll('.questions__images-item').forEach(w => {
-        w.classList.remove('correct');
-      })
-    }
-  }
-
-
   // success page
 	this.successPage  = () => {
-    // this.error = false;
-    // this.submitError = false;
-		location.href = '1366-240.html';
+    location.href = '1366-240.html';
 	}
 
 
-
-  this.completGame = (e) => {
-		if(this.submitError === false && this.error === false){
-      this.successPage();
-    }
+  // after submit 
+  this.completGame = () => {
+    items.forEach(w => {
+      if(this.submitError === false && this.error === false && w.classList.contains('correct')){
+        this.successPage();
+  
+      } else if(this.error === false || this.submitError == false || w.classList.contains("incorrect") || w.className == "questions__images-item") {
+        this.errorMessage()
+      }
+    })
 	}
 
 
