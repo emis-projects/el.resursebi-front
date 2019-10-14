@@ -1266,30 +1266,6 @@ header nav .header-sound .active {
   width: 40px;
 }
 
-.dot_wrapper.error::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  width: 40px;
-  height: 40px;
-  background: transparent;
-  z-index: 10000;
-}
-
-.dot_wrapper.error::before {
-  content: '';
-  position: absolute;
-  width: 40px;
-  height: 40px;
-  background: transparent;
-  bottom: 0;
-  z-index: 10000;
-}
-
-.dot_wrapper.error .draggable__answer__btns {
-  opacity: 0.5;
-}
-
 .draggable__answer__btns {
   width: 28px;
   height: 28px;
@@ -1297,6 +1273,18 @@ header nav .header-sound .active {
           box-shadow: 0px 3px 6px #00000029;
   border-radius: 50%;
   cursor: pointer;
+  -ms-touch-action: none;
+      touch-action: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.draggable__answer__btns:disabled {
+  opacity: 0.5;
 }
 
 .draggable__answer__btns.cold__btn {
@@ -1364,6 +1352,10 @@ header nav .header-sound .active {
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+}
+
+.draggable__answer__btns:focus {
+  outline: none;
 }
 
 .reload_game_wrapper {

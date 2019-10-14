@@ -14,6 +14,7 @@ function dragQuizGame(){
 
   this.init = () => {
     this.error = false;
+    this.submitError = false;
     this.firstAnswer = false;
     this.secondAnswer = false;
     
@@ -42,14 +43,20 @@ function dragQuizGame(){
     let wrapper = document.querySelector('.dot_wrapper');
 
     wrapper.classList.remove('error');
+
+    wrapper.querySelectorAll('.draggable__answer__btns').forEach(w => {
+      w.removeAttribute('disabled')
+    })
     
     if(wrapper.querySelector('.cold__btn') == undefined && wrapper.querySelector('.hot__btn') == undefined){
-      wrapper.innerHTML += '<div id="drag1" class="draggable__answer__btns cold__btn" data-weather="cold" data-class="draggable__answer__btns cold__btn" draggable="true"></div>'
-      wrapper.innerHTML += '<div id="drag2" class="draggable__answer__btns hot__btn" data-weather="hot" data-class="draggable__answer__btns hot__btn" draggable="true"></div>'
+      wrapper.innerHTML += '<button id="drag1" class="draggable__answer__btns cold__btn" data-weather="cold" data-class="draggable__answer__btns cold__btn" draggable="true"></div>'
+      wrapper.innerHTML += '<button id="drag2" class="draggable__answer__btns hot__btn" data-weather="hot" data-class="draggable__answer__btns hot__btn" draggable="true"></div>'
+    
     } else if (wrapper.querySelector('.cold__btn') == undefined){
-      wrapper.innerHTML += '<div id="drag1" class="draggable__answer__btns cold__btn" data-weather="cold" data-class="draggable__answer__btns cold__btn" draggable="true"></div>'
+      wrapper.innerHTML += '<button id="drag1" class="draggable__answer__btns cold__btn" data-weather="cold" data-class="draggable__answer__btns cold__btn" draggable="true"></button>'
+    
     } else if (wrapper.querySelector('.hot__btn') == undefined){
-      wrapper.innerHTML += '<div id="drag1" class="draggable__answer__btns cold__btn" data-weather="cold" data-class="draggable__answer__btns cold__btn" draggable="true"></div>'
+      wrapper.innerHTML += '<button id="drag1" class="draggable__answer__btns cold__btn" data-weather="cold" data-class="draggable__answer__btns cold__btn" draggable="true"></button>'
     }
   }
 
@@ -96,9 +103,7 @@ function dragQuizGame(){
   
   this.dragDrop = (e) => {
     e.target.className = 'question__dot';
-    e.target.append(document.querySelector('div.draggedElement'));
-
-    console.log(e.target);
+    e.target.append(document.querySelector('button.draggedElement'));
 
     setTimeout(() => {
       this.checkifIsTrue(e)
@@ -115,7 +120,8 @@ function dragQuizGame(){
     
     let img = parent.querySelector('.mainImage');
     let circle = parent.querySelector('.draggable__answer__btns');
-    
+
+
     if(img.getAttribute('data-weather') == circle.getAttribute('data-weather')){
       this.firstAnswer = true;
       
@@ -145,9 +151,6 @@ function dragQuizGame(){
   // error 
   this.errorMessage = () => {
     items.forEach(w => {
-      
-      // debugger
-
       if(w.className = "questions__images-item"){
 
         let img = document.createElement('img');
@@ -158,7 +161,9 @@ function dragQuizGame(){
 
         img.setAttribute('src', '../../img/gakvetilebi/xelovneba/color-game/x.svg');
 
-        w.querySelector('.question__dot').appendChild(img);
+        if(!w.querySelector('.errorImg')){
+          w.querySelector('.question__dot').appendChild(img);
+        }
 
         completeBtn.setAttribute('disabled', 'true');
         completeBtn.setAttribute('style', 'cursor: default');
@@ -167,6 +172,12 @@ function dragQuizGame(){
         this.submitError = true;
 
         document.querySelector('.dot_wrapper').classList.add('error');
+
+        if(document.querySelector('.dot_wrapper').classList.contains('error')){
+          document.querySelector('.dot_wrapper').querySelectorAll('.draggable__answer__btns').forEach(w => {
+            w.setAttribute('disabled', 'true')
+          })
+        }
       } 
     })
   }

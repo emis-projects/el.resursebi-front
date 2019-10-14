@@ -4,32 +4,6 @@
   top: 51vh;
   height: 18vh;
   width: 40px;
-
-  &.error {
-    &::after {
-      content: '';
-      position: absolute;
-      top: 0;
-      width: 40px;
-      height: 40px;
-      background: transparent;
-      z-index: 10000;
-    }
-
-    &::before {
-      content: '';
-      position: absolute;
-      width: 40px;
-      height: 40px;
-      background: transparent;
-      bottom: 0;
-      z-index: 10000;
-    }
-
-    .draggable__answer__btns {
-      opacity: 0.5;
-    }
-  }
 }
 
 .draggable__answer__btns {
@@ -38,6 +12,13 @@
   box-shadow: 0px 3px 6px #00000029;
   border-radius: 50%;
   cursor: pointer;
+  touch-action: none;
+  user-select: none;
+  transition: all 0.3s;
+
+  &:disabled {
+    opacity: 0.5;
+  }
 
   &.cold__btn {
     background: #1855cc;
@@ -97,6 +78,13 @@
         transform: translate(-50%, -50%);
       }
     }
+  }
+}
+
+
+.draggable__answer__btns {
+  &:focus {
+    outline: none;
   }
 }
 
