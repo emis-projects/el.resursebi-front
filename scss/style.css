@@ -1917,23 +1917,6 @@ header nav .header-sound .active {
   font-family: "ALK Sanet", sans-serif;
 }
 
-.middle_bg_nature_couple {
-  width: 20.86vw;
-  height: 41.40vh;
-  background-image: url("../img/backgrounds/bg-ilustrations/art-couple-middle.svg");
-  right: 21.3vw;
-  bottom: 1.42vh;
-}
-
-.nature_subject_question_item {
-  font-size: 2.08vh;
-  padding-bottom: 0;
-}
-
-.nature_subject_question_item:first-child {
-  padding-bottom: 6.3vh;
-}
-
 .container_main_title_n12-paddings {
   padding-top: 12vh;
   padding-bottom: 10vh;
@@ -1991,5 +1974,22 @@ header nav .header-sound .active {
 
 .n-dang-toys-img {
   height: 28vh;
+}
+
+.middle_bg_nature_couple {
+  width: 20.86vw;
+  height: 41.40vh;
+  background-image: url("../img/backgrounds/bg-ilustrations/art-couple-middle.svg");
+  right: 21.3vw;
+  bottom: 1.42vh;
+}
+
+.nature_subject_question_item {
+  font-size: 2.08vh;
+  padding-bottom: 0;
+}
+
+.nature_subject_question_item:first-child {
+  padding-bottom: 6.3vh;
 }
 /*# sourceMappingURL=style.css.map */
