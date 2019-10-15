@@ -1945,3 +1945,33 @@ header nav .header-sound .active {
 .nature_objects-img {
   height: 43vh;
 }
+
+.n-dang-toys-text-container {
+  color: #0B2228;
+}
+
+.n-dang-toys-title {
+  font-size: 2.7vh;
+  font-family: 'BPG Arial';
+  padding-bottom: 4vh;
+}
+
+.n-dang-toys-question {
+  font-size: 2.4vh;
+  font-family: 'DejaVu Sans Oblique';
+  line-height: 4.6vh;
+}
+
+.n-dang-toys-img-alignment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-top: 6vh;
+}
+
+.n-dang-toys-img {
+  height: 28vh;
+}
