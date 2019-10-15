@@ -964,6 +964,23 @@ header nav .header-sound .active {
   background-repeat: no-repeat;
 }
 
+.nature_content_box {
+  padding-top: 14.7vh;
+}
+
+.nature_content_box_image img {
+  width: 100%;
+}
+
+.nature_content_box_text {
+  font-family: 'BPG Arial', sans-serif;
+  text-align: left;
+  font-size: 2.08vh;
+  letter-spacing: 0;
+  color: #0B2228;
+  opacity: 1;
+}
+
 /* 
 *wow slider CSS section 
 */
@@ -1962,9 +1979,13 @@ header nav .header-sound .active {
   margin-left: -1vw;
 }
 
+.nature_content_box_text:last-child {
+  margin-top: 5.4vh;
+}
+
 .middle_bg_nature_couple {
   width: 20.86vw;
-  height: 41.40vh;
+  height: 41.4vh;
   background-image: url("../img/backgrounds/bg-ilustrations/art-couple-middle.svg");
   right: 21.3vw;
   bottom: 1.42vh;
@@ -1987,7 +2008,7 @@ header nav .header-sound .active {
 .nature_objects {
   color: #0b2228;
   font-size: 2.7vh;
-  font-family: 'BPG Arial';
+  font-family: "BPG Arial";
 }
 
 .nature_objects-link {
