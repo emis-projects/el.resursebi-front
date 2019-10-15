@@ -979,6 +979,7 @@ header nav .header-sound .active {
   letter-spacing: 0;
   color: #0B2228;
   opacity: 1;
+  line-height: 3.9vh;
 }
 
 /* 
@@ -1979,7 +1980,7 @@ header nav .header-sound .active {
   margin-left: -1vw;
 }
 
-.nature_content_box_text:last-child {
+.nature_content_box_multi p:last-child {
   margin-top: 5.4vh;
 }
 
