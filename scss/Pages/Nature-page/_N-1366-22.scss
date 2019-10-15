@@ -1,0 +1,38 @@
+#N-1366-22 {
+    .nature_content_box_image {
+        height: 26.6vh;
+
+        img {
+            height: 100%;
+        }
+
+        .pt-5vh {
+            padding-top: 5.4vh;
+        }
+    }
+
+    .images_links_box {
+        margin-top: 5.3vh;
+
+        &_img {
+            height: 11vh;
+            width: 100%;
+
+            a {
+                display: block;
+                height: inherit;
+
+                img {
+                    height: 100%;
+                }
+            }
+        }
+
+        &_text {
+            font-family: 'BPG Arial', sans-serif;
+            font-size: 19vh;
+            color: #DC6C85;
+        }
+
+    }
+}

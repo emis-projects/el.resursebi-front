@@ -2073,4 +2073,39 @@ header nav .header-sound .active {
   margin: auto;
   margin-top: 10px;
 }
-/*# sourceMappingURL=style.css.map */
+
+#N-1366-22 .nature_content_box_image {
+  height: 26.6vh;
+}
+
+#N-1366-22 .nature_content_box_image img {
+  height: 100%;
+}
+
+#N-1366-22 .nature_content_box_image .pt-5vh {
+  padding-top: 5.4vh;
+}
+
+#N-1366-22 .images_links_box {
+  margin-top: 5.3vh;
+}
+
+#N-1366-22 .images_links_box_img {
+  height: 11vh;
+  width: 100%;
+}
+
+#N-1366-22 .images_links_box_img a {
+  display: block;
+  height: inherit;
+}
+
+#N-1366-22 .images_links_box_img a img {
+  height: 100%;
+}
+
+#N-1366-22 .images_links_box_text {
+  font-family: 'BPG Arial', sans-serif;
+  font-size: 19vh;
+  color: #DC6C85;
+}
