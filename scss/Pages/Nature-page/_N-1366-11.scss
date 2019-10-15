@@ -1,0 +1,47 @@
+#N-1366-9_bg {
+  background-image: url('../img/backgrounds/N-1366-11_bg.svg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+
+  .link-wrapper {
+    position: relative;
+
+    a {
+      font-family: "ALK Sanet", sans-serif;
+      background: #fffd;
+      font-size: 2vh;
+      color: $color-black-primary;
+      border-radius: 50px;
+    }
+
+    .nature_world {
+      padding: 1vh 2.5vw;
+      margin-top: 8vh;
+      line-height: 2.6vh;
+
+
+    }
+
+    .objects {
+      padding: 1vh 2.5vw;
+      margin-top: 3vh;
+      margin-left: 8vw;
+      line-height: 2.6vh;
+    }
+
+    .link_up_right_bg {
+      background-image: url('../img/gakvetilebi/buneba/link_up_right_bg.svg');
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      height: auto;
+      width: 9vw;
+      margin-top: -7vh;
+      margin-left: -1vw;
+    }
+  }
+}
+
