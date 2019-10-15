@@ -1,0 +1,20 @@
+.container_main_title_n12-paddings {
+  padding-top: 12vh;
+  padding-bottom: 10vh;
+}
+.nature_objects {
+  color: #0b2228;
+  font-size: 2.7vh;
+  font-family: 'BPG Arial';
+  &-link {
+    display: flex;
+    justify-content: center;
+  }
+  &-title {
+    text-align: center;
+    padding-top: 5.2vh;
+  }
+  &-img {
+    height: 43vh;
+  }
+}
