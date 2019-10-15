@@ -1,0 +1,16 @@
+.nature_content_box {
+    padding-top: 14.7vh;
+
+    &_image img {
+        width: 100%;
+    }
+
+    &_text {
+        font-family: 'BPG Arial', sans-serif;
+        text-align: left;
+        font-size: 2.08vh;
+        letter-spacing: 0;
+        color: #0B2228;
+        opacity: 1;
+    }
+}

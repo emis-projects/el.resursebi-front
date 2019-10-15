@@ -1,5 +1,5 @@
 #N-1366-9_bg {
-  background-image: url('../img/backgrounds/N-1366-11_bg.svg');
+  background-image: url("../img/backgrounds/N-1366-11_bg.svg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -21,8 +21,6 @@
       padding: 1vh 2.5vw;
       margin-top: 8vh;
       line-height: 2.6vh;
-
-
     }
 
     .objects {
@@ -33,7 +31,7 @@
     }
 
     .link_up_right_bg {
-      background-image: url('../img/gakvetilebi/buneba/link_up_right_bg.svg');
+      background-image: url("../img/gakvetilebi/buneba/link_up_right_bg.svg");
       background-position: center center;
       background-repeat: no-repeat;
       background-size: contain;
@@ -44,4 +42,3 @@
     }
   }
 }
-
