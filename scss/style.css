@@ -2060,8 +2060,18 @@ header nav .header-sound .active {
   height: 28vh;
 }
 
+.nature-pl-6vw-pt-5vh {
+  padding-left: 6.32vw;
+  padding-top: 10.45vh;
+}
+
+.nature_question_item_no_bottom_pad {
+  padding-bottom: 0;
+}
+
 .ask-question-img {
   height: 67.7vh;
   margin: auto;
   margin-top: 10px;
 }
+/*# sourceMappingURL=style.css.map */
