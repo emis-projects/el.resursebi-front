@@ -1667,4 +1667,74 @@ header nav .header-sound .active {
   margin-left: -1vw;
 }
 
+.nature .main_box_links a {
+  width: 100%;
+  display: block;
+  font-size: 1.8vh;
+  padding: 2vh 0;
+  font-family: "ALK Sanet", sans-serif;
+}
+
+/*# sourceMappingURL=1366-9.css.map */
+.middle_bg_nature_couple {
+  width: 20.86vw;
+  height: 41.4vh;
+  background-image: url("../img/backgrounds/bg-ilustrations/art-couple-middle.svg");
+  right: 21.3vw;
+  bottom: 1.42vh;
+}
+
+.nature_subject_question_item {
+  font-size: 2.08vh;
+  padding-bottom: 0;
+}
+
+.nature_subject_question_item:first-child {
+  padding-bottom: 6.3vh;
+}
+
+.container_main_title_n12-paddings {
+  padding-top: 12vh;
+  padding-bottom: 10vh;
+}
+
+.nature_objects {
+  color: #0b2228;
+  font-size: 2.7vh;
+  font-family: "BPG Arial";
+}
+.nature_objects-link {
+  display: flex;
+  justify-content: center;
+}
+.nature_objects-title {
+  text-align: center;
+  padding-top: 5.2vh;
+}
+.nature_objects-img {
+  height: 43vh;
+}
+
+.n-dang-toys-text-container {
+  color: #0B2228;
+}
+.n-dang-toys-title {
+  font-size: 2.7vh;
+  font-family: "BPG Arial";
+  padding-bottom: 4vh;
+}
+.n-dang-toys-question {
+  font-size: 2.4vh;
+  font-family: "DejaVu Sans Oblique";
+  line-height: 4.6vh;
+}
+.n-dang-toys-img-alignment {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 6vh;
+}
+.n-dang-toys-img {
+  height: 28vh;
+}
+
 /*# sourceMappingURL=style.css.map */
