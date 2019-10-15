@@ -1979,6 +1979,10 @@ header nav .header-sound .active {
   margin-left: -1vw;
 }
 
+.nature_content_box_text:last-child {
+  margin-top: 5.4vh;
+}
+
 .middle_bg_nature_couple {
   width: 20.86vw;
   height: 41.4vh;
@@ -2055,6 +2059,8 @@ header nav .header-sound .active {
   height: 28vh;
 }
 
-.nature_content_box_text:last-child {
-  margin-top: 5.4vh;
+.ask-question-img {
+  height: 67.7vh;
+  margin: auto;
+  margin-top: 10px;
 }
