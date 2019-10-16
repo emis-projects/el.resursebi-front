@@ -2334,3 +2334,18 @@ section .arrow_up_down_downArrow img {
 .N-1366-43 {
   background-image: url("../img/gakvetilebi/buneba/N-1366-43.png");
 }
+
+.symbols_description {
+  margin-top: 1vh;
+}
+
+.symbols_description-container {
+  color: #0B2228;
+  margin-top: 1.8vh;
+  font-size: 2.08vh;
+  font-family: 'BPG Arial';
+}
+
+.symbols_description-img {
+  height: 5.6vh;
+}
