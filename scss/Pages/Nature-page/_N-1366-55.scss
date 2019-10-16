@@ -1,0 +1,12 @@
+.ask-question-blue-container {
+  color: #0b2228;
+  font-size: 2.34vh;
+  font-family: "BPG Arial";
+  margin-top: 10px;
+  position: relative;
+  &-text {
+    position: absolute;
+    left: 6.5vw;
+    line-height: 3.9vh;
+  }
+}
