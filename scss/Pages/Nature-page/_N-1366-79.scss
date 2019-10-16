@@ -1,13 +1,16 @@
 .N-1366-79 {
-    &_first_line {
-        margin-top: 10vh;
-    }
+    position: absolute;
+    top: 10vh;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
 
-    &_second_line {
-        margin-top: 10vh;
-    }
-
-    &_third_line {
-        margin-top: 6vh;
+    img {
+        height: 100%;
+        max-width: 100%;
+        object-fit: contain;
     }
 }
