@@ -1679,6 +1679,7 @@ section .arrow_up_down_downArrow img {
   border-bottom: none;
   padding-bottom: 0;
   height: 6vh;
+  padding-top: 5.5vh;
 }
 
 .fullScreen_modal-img-lg-vert {
@@ -2099,7 +2100,7 @@ section .arrow_up_down_downArrow img {
 
 .nature_objects {
   color: #0b2228;
-  font-size: 2.7vh;
+  font-size: 2.34vh;
   font-family: "BPG Arial";
 }
 
@@ -2126,13 +2127,13 @@ section .arrow_up_down_downArrow img {
 }
 
 .n-dang-toys-title {
-  font-size: 2.7vh;
+  font-size: 2.34vh;
   font-family: 'BPG Arial';
   padding-bottom: 4vh;
 }
 
 .n-dang-toys-question {
-  font-size: 2.4vh;
+  font-size: 2.08vh;
   font-family: 'DejaVu Sans Oblique';
   line-height: 4.6vh;
 }
@@ -2206,6 +2207,57 @@ section .arrow_up_down_downArrow img {
   color: #DC6C85;
 }
 
+.nature-laptop-couple {
+  width: 19.03vw;
+  height: 20.31vh;
+  position: absolute;
+  top: 18.22vh;
+  right: 10.17vw;
+}
+
+.nature-material-row {
+  margin-top: 14.26vh;
+}
+
+.nature-material-col {
+  margin-bottom: 5.18vh;
+}
+
+.nature-material-col img {
+  height: 19.53vh;
+}
+
+.nature-material-col p {
+  color: #0B2228;
+  font-family: 'BPG Arial', sans-serif;
+  font-size: 2.08vh;
+  margin-top: 1.3vh;
+}
+
+.nature-material-row-full-container {
+  margin-left: 13.17vw;
+  margin-top: 3.55vh;
+}
+
+.nature-material-row-full {
+  margin-bottom: 1.27vh;
+}
+
+.nature-material-row-full img {
+  height: 8.27vh;
+}
+
+.nature-material-row-full p {
+  color: #0B2228;
+  font-family: 'BPG Arial', sans-serif;
+  font-size: 2.08vh;
+  /*   margin-top: 0.6vh; */
+}
+
+.nature-material-row-full .col-2 {
+  padding-left: 0px;
+}
+
 .N-1366-79 {
   background-image: url("../img/gakvetilebi/buneba/1366-79.png");
 }
@@ -2221,7 +2273,7 @@ section .arrow_up_down_downArrow img {
 
 .ask-question-blue-container {
   color: #0b2228;
-  font-size: 2.7vh;
+  font-size: 2.34vh;
   font-family: "BPG Arial";
   margin-top: 10px;
   position: relative;
@@ -2364,4 +2416,30 @@ section .arrow_up_down_downArrow img {
 
 #N-1366-34 .nature-text-wrapper {
   height: 13vh;
+}
+
+.research_container {
+  color: #0b2228;
+  font-size: 2.34vh;
+  font-family: "BPG Arial";
+  line-height: 3.9vh;
+}
+
+.research_container-text {
+  padding-top: 5.2vh;
+}
+
+.research_circle-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.research_circle-img {
+  height: 45.66vh;
+  position: absolute;
+  bottom: 13.28vh;
 }

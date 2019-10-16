@@ -1,0 +1,20 @@
+.research_container {
+  color: #0b2228;
+  font-size: 2.34vh;
+  font-family: "BPG Arial";
+  line-height: 3.9vh;
+  &-text {
+    padding-top: 5.2vh;
+  }
+}
+.research_circle {
+  &-container {
+    display: flex;
+    justify-content: flex-end;
+  }
+  &-img {
+    height: 45.66vh;
+    position: absolute;
+    bottom: 13.28vh;
+  }
+}
