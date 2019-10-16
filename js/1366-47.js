@@ -5,10 +5,11 @@ function dragQuizGame(){
   this.submitError = false;
 
 
-  const drag1 = document.getElementById('drag1');
-  const drag2 = document.getElementById('drag2');
+  const drag1 = document.querySelector('.dot_wrapper #drag1');
+  const drag2 = document.querySelector('.dot_wrapper #drag2');
   const empties = document.querySelectorAll('.question__dot');
   const completeBtn = document.getElementById('completedGame');
+  const wrapper = document.querySelector('.dot_wrapper');
   let items = document.querySelectorAll('.questions__images-item');
   const resetBtn = document.getElementById('resetBtn');
 
@@ -61,13 +62,44 @@ function dragQuizGame(){
   }
 
 
-  // drag end 
+  // drag start 
   this.dragStart = (e) => {
-    e.target.className += ' hold';
-    setTimeout(() => (e.target.className = "draggedElement"), 0);
+    e.preventDefault();
+    let div = document.createElement('div');
+
+    div.className = e.target.className;
+    let dataWeather = e.target.getAttribute('data-weather');
+    let dataClass = e.target.getAttribute('data-class');
+    let draggeble = e.target.getAttribute('draggable');
+    let id = e.target.getAttribute('id');
+
+    div.setAttribute('id', id);
+    div.setAttribute('data-weather', dataWeather);
+    div.setAttribute('data-class', dataClass);
+    div.setAttribute('draggable', draggeble);
+
+    div.classList.add('cloned');
+
+    // var cloned = e.target.cloneNode(true);
+
+    // cloned.classList.add('cloned');
+
+    wrapper.insertBefore(div, e.target);
+
+    document.querySelectorAll('.dot_wrapper .draggable__answer__btns').forEach(w => {
+      if(w.classList.contains('cloned')){
+        e.target = w      
+      }
+    })
+
+
+    setTimeout(() => {
+      e.target.className = "draggedElement"
+    }, 0);
   }
     
-  // drag start
+  
+  // drag end
   this.dragEnd = e => {
     e.target.className = e.srcElement.dataset.class;
   }
@@ -76,8 +108,8 @@ function dragQuizGame(){
   // Loop through empty boxes and add listeners
   for (const empty of empties) {
     empty.addEventListener('dragover', (e) => this.dragOver(e));
-    empty.addEventListener('dragenter', (e) => this.dragEnter(e));
-    empty.addEventListener('dragleave', (e) => this.dragLeave(e));
+    // empty.addEventListener('dragenter', (e) => this.dragEnter(e));
+    // empty.addEventListener('dragleave', (e) => this.dragLeave(e));
     empty.addEventListener('drop', (e) => this.dragDrop(e));
   }
 
@@ -91,19 +123,30 @@ function dragQuizGame(){
   this.dragEnter = (e) => {
     e.preventDefault();
     
-    e.target.className += ' hovered';
+
+    
   }
 
   
-  this.dragLeave = (e) => {
-    e.target.className = 'question__dot';
+  // this.dragLeave = (e) => {
+  //   e.target.className = 'question__dot';
+  // }
+  
+  
+  
+  var myArray = [];
+
+  for(var i = 0; i < empties.length; i++ ){
+    myArray.push(empties[i])
   }
-
-
+  
   
   this.dragDrop = (e) => {
-    e.target.className = 'question__dot';
-    e.target.append(document.querySelector('button.draggedElement'));
+    e.target.appendChild(document.querySelector('button.draggedElement'))
+    
+    if(e.target.childNodes[1]){
+      e.target.firstChild.remove();
+    }
 
     setTimeout(() => {
       this.checkifIsTrue(e)
@@ -112,10 +155,7 @@ function dragQuizGame(){
  
 
 
-  
-  
-  
-  this.checkifIsTrue = (e) => {
+ this.checkifIsTrue = (e) => {
     let parent = e.target.parentElement;
     
     let img = parent.querySelector('.mainImage');
@@ -128,6 +168,7 @@ function dragQuizGame(){
       if(this.firstAnswer === true){
         this.secondAnswer = true;
         parent.classList.add('correct')
+        parent.classList.remove('incorrect')
       }
       
     } else {
@@ -136,6 +177,7 @@ function dragQuizGame(){
       this.error = true;
       
       parent.classList.add('incorrect')
+      parent.classList.remove('correct')
       
       document.querySelectorAll('.questions__images-item').forEach(w => {
         w.classList.remove('correct');
@@ -144,10 +186,6 @@ function dragQuizGame(){
   }
   
   
-
-
-
-
   // error 
   this.errorMessage = () => {
     items.forEach(w => {
@@ -171,10 +209,10 @@ function dragQuizGame(){
         this.error = true;
         this.submitError = true;
 
-        document.querySelector('.dot_wrapper').classList.add('error');
+        wrapper.classList.add('error');
 
-        if(document.querySelector('.dot_wrapper').classList.contains('error')){
-          document.querySelector('.dot_wrapper').querySelectorAll('.draggable__answer__btns').forEach(w => {
+        if(wrapper.classList.contains('error')){
+          wrapper.querySelectorAll('.draggable__answer__btns').forEach(w => {
             w.setAttribute('disabled', 'true')
           })
         }
@@ -204,9 +242,18 @@ function dragQuizGame(){
 
     // Fill listeners
     drag1.addEventListener('dragstart', (e) => this.dragStart(e));
+
     drag1.addEventListener('dragend', (e) => this.dragEnd(e));
     drag2.addEventListener('dragstart', (e) => this.dragStart(e));
     drag2.addEventListener('dragend', (e) => this.dragEnd(e));
+
+
+    document.body.addEventListener( 'click', function ( event ) {
+      if( event.srcElement.id == 'drag1' ) {
+        this.dragStart(e)
+      };
+    } );
+
 
     completeBtn.addEventListener('click', () => this.completGame());
     resetBtn.addEventListener('click', () => this.init());

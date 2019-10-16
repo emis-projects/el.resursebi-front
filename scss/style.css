@@ -1351,6 +1351,15 @@ header nav .header-sound .active {
   color: red;
 }
 
+.questions__images_wrapper_box .question__dot::after {
+  content: '';
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background: transparent;
+  z-index: 1000000000000000;
+}
+
 .questions__images_wrapper_box .question__dot.error::after {
   position: absolute;
   content: '';
