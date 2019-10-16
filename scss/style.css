@@ -982,6 +982,51 @@ header nav .header-sound .active {
   line-height: 3.9vh;
 }
 
+section .arrow_up_down {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section .arrow_up_down_upArrow {
+  -webkit-transform: matrix(-1, 0, 0, -1, 0, 0);
+          transform: matrix(-1, 0, 0, -1, 0, 0);
+  background: #7FD1D8;
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section .arrow_up_down_downArrow {
+  -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+          transform: matrix(1, 0, 0, 1, 0, 0);
+  background: #7FD1D8;
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 /* 
 *wow slider CSS section 
 */
@@ -2108,4 +2153,16 @@ header nav .header-sound .active {
   font-family: 'BPG Arial', sans-serif;
   font-size: 19vh;
   color: #DC6C85;
+}
+
+.N-1366-79_first_line {
+  margin-top: 10vh;
+}
+
+.N-1366-79_second_line {
+  margin-top: 10vh;
+}
+
+.N-1366-79_third_line {
+  margin-top: 6vh;
 }
