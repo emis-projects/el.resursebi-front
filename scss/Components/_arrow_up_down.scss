@@ -1,18 +1,20 @@
 section .arrow_up_down {
     display: flex;
     justify-content: center;
+    z-index: 9999;
 
     &_upArrow {
         transform: matrix(-1, 0, 0, -1, 0, 0);
         background: $color-sky;
         max-height: 36px;
         max-width: 36px;
-        height: 6vh;
-        width: 6vh;
+        height: 4.6vh;
+        width: 4.6vh;
         border-radius: 50%;
         display: flex;
         justify-content: center;
         align-items: center;
+        padding: 1vh;
 
         img {
             height: 90%;
@@ -30,6 +32,7 @@ section .arrow_up_down {
         display: flex;
         justify-content: center;
         align-items: center;
+        padding: 1vh;
 
         img {
             height: 90%;

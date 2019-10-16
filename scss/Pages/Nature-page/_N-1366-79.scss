@@ -1,16 +1,11 @@
 .N-1366-79 {
-    position: absolute;
-    top: 10vh;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    height: 90vh;
-    display: flex;
-    justify-content: center;
+    background-image: url("../img/gakvetilebi/buneba/1366-79.png");
+}
 
-    img {
-        height: 100%;
-        max-width: 100%;
-        object-fit: contain;
-    }
+.bottom_nav_icons {
+    position: absolute;
+    bottom: 2.7vh;
+    height: 4.6vh;
+    left: 50%;
+    transform: translate(-50%);
 }
