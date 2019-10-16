@@ -982,6 +982,51 @@ header nav .header-sound .active {
   line-height: 3.9vh;
 }
 
+section .arrow_up_down {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section .arrow_up_down_upArrow {
+  -webkit-transform: matrix(-1, 0, 0, -1, 0, 0);
+          transform: matrix(-1, 0, 0, -1, 0, 0);
+  background: #7FD1D8;
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section .arrow_up_down_downArrow {
+  -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+          transform: matrix(1, 0, 0, 1, 0, 0);
+  background: #7FD1D8;
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 /* 
 *wow slider CSS section 
 */
@@ -2135,5 +2180,116 @@ header nav .header-sound .active {
   font-family: 'BPG Arial', sans-serif;
   font-size: 2.08vh;
   margin-top: 1.3vh;
+}
+
+.N-1366-79_first_line {
+  margin-top: 10vh;
+}
+
+.N-1366-79_second_line {
+  margin-top: 10vh;
+}
+
+.N-1366-79_third_line {
+  margin-top: 6vh;
+}
+
+.ask-question-blue-container {
+  color: #0b2228;
+  font-size: 2.7vh;
+  font-family: "BPG Arial";
+  margin-top: 10px;
+  position: relative;
+}
+
+.ask-question-blue-container-text {
+  position: absolute;
+  left: 6.5vw;
+  line-height: 3.9vh;
+}
+
+#N-1366-17_bg {
+  height: 100vh;
+  background-image: url(../../../img/gakvetilebi/buneba/1366-17.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+.nature-text-wrapper {
+  position: absolute;
+  bottom: 0;
+  height: 15vh;
+  left: 0;
+  right: 0;
+  background: #fff;
+  -webkit-box-shadow: 0px -20px 20px 9px white;
+          box-shadow: 0px -20px 20px 9px white;
+}
+
+.nature-text-wrapper h1 {
+  color: #000;
+  font-size: 18px;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.chevron-container {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.chevron-container a {
+  margin-right: 20px;
+}
+
+.chevron-container a:last-child {
+  margin-right: 0;
+}
+
+#N-1366-18_bg {
+  height: 100vh;
+  background-image: url(../../../img/gakvetilebi/buneba/1366-18.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+#N-1366-19_bg {
+  height: 100vh;
+  background-image: url(../../../img/gakvetilebi/buneba/1366-19.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+#N-1366-20_bg {
+  height: 100vh;
+  background-image: url(../../../img/gakvetilebi/buneba/1366-20.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+#N-1366-21_bg {
+  height: 100vh;
+  background-image: url(../../../img/gakvetilebi/buneba/1366-21.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+#N-1366-42_bg {
+  height: 100vh;
+  background-image: url(../../../img/gakvetilebi/buneba/1366-42.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
 }
 /*# sourceMappingURL=style.css.map */

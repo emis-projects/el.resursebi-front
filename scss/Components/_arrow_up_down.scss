@@ -1,0 +1,28 @@
+section .arrow_up_down {
+    display: flex;
+    justify-content: center;
+
+    &_upArrow {
+        transform: matrix(-1, 0, 0, -1, 0, 0);
+        background: $color-sky;
+        height: 36px;
+        width: 36px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &_downArrow {
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        background: $color-sky;
+        height: 36px;
+        width: 36px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+
+}
