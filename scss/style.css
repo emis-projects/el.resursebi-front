@@ -993,8 +993,8 @@ section .arrow_up_down {
 }
 
 section .arrow_up_down_upArrow {
-  -webkit-transform: matrix(-1, 0, 0, -1, 0, 0);
-          transform: matrix(-1, 0, 0, -1, 0, 0);
+  -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+          transform: matrix(1, 0, 0, 1, 0, 0);
   background: #7FD1D8;
   max-height: 36px;
   max-width: 36px;
@@ -1018,8 +1018,8 @@ section .arrow_up_down_upArrow img {
 }
 
 section .arrow_up_down_downArrow {
-  -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
-          transform: matrix(1, 0, 0, 1, 0, 0);
+  -webkit-transform: matrix(-1, 0, 0, -1, 0, 0);
+          transform: matrix(-1, 0, 0, -1, 0, 0);
   background: #7FD1D8;
   max-height: 36px;
   max-width: 36px;
@@ -1062,24 +1062,13 @@ section .arrow_up_down_downArrow img {
   border-radius: 50%;
 }
 
-.close a {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  height: inherit;
-  width: inherit;
-}
-
 .nature_full_image-box {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  height: 100vh;
+  height: 95vh;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -2252,22 +2241,23 @@ section .arrow_up_down_downArrow img {
 .nature-text-wrapper {
   position: absolute;
   bottom: 0;
-  height: 15vh;
+  height: 37vh;
   left: 0;
   right: 0;
   background: #fff;
-  -webkit-box-shadow: 0px -20px 20px 9px white;
-          box-shadow: 0px -20px 20px 9px white;
+  background: transparent -webkit-gradient(linear, left top, left bottom, from(#00000000), color-stop(25%, #FFFFFF00), color-stop(58%, #FFFFFFF2), to(#FFFFFF));
+  background: transparent linear-gradient(180deg, #00000000 0%, #FFFFFF00 25%, #FFFFFFF2 58%, #FFFFFF 100%);
 }
 
 .nature-text-wrapper h1 {
+  font-family: 'DejaVu Sans Oblique';
   color: #000;
-  font-size: 18px;
+  font-size: 2.3vh;
   text-align: center;
   position: absolute;
-  top: 0;
   left: 0;
   right: 0;
+  bottom: 10vh;
 }
 
 .chevron-container {
@@ -2286,53 +2276,70 @@ section .arrow_up_down_downArrow img {
   margin-right: 0;
 }
 
-.N-1366-18 {
+#N-1366-18 .N-1366-18 {
   background-image: url("../img/gakvetilebi/buneba/1366-18.png");
   background-position: center bottom;
 }
 
-#N-1366-19_bg {
-  height: 100vh;
-  background-image: url(../../../img/gakvetilebi/buneba/1366-19.png);
+.N-1366-19 {
+  background-image: url("../img/gakvetilebi/buneba/1366-19.png");
   background-size: cover;
-  background-repeat: no-repeat;
   background-position: center bottom;
 }
 
-#N-1366-20_bg {
-  height: 100vh;
-  background-image: url(../../../img/gakvetilebi/buneba/1366-20.png);
+#N-1366-20 .N-1366-20 {
+  background-image: url("../img/gakvetilebi/buneba/1366-20.png");
   background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center bottom;
+  background-position: center;
 }
 
-#N-1366-21_bg {
-  height: 100vh;
-  background-image: url(../../../img/gakvetilebi/buneba/1366-21.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center bottom;
+#N-1366-20 .nature-text-wrapper {
+  height: 37vh;
 }
 
-#N-1366-42_bg {
-  height: 100vh;
-  background-image: url(../img/gakvetilebi/buneba/1366-42.png);
+#N-1366-20 .nature-text-wrapper h1 {
+  bottom: 10vh;
+}
+
+.N-1366-21 img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
+#N-1366-21 .nature-text-wrapper {
+  height: 16vh;
+}
+
+.N-1366-42 {
+  background-image: url("../img/gakvetilebi/buneba/1366-42.png");
   background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center bottom;
 }
 
 .N-1366-29 {
   background-image: url("../img/gakvetilebi/buneba/N-1366-29.png");
 }
 
-.N-1366-41 {
+#N-1366-29 .nature-text-wrapper {
+  height: 13vh;
+}
+
+#N-1366-41 .N-1366-41 {
   background-image: url("../img/gakvetilebi/buneba/N-1366-41.png");
+  background-position: center;
+}
+
+#N-1366-41 .nature-text-wrapper {
+  height: 13vh;
 }
 
 .N-1366-43 {
   background-image: url("../img/gakvetilebi/buneba/N-1366-43.png");
+}
+
+#N-1366-43 .nature-text-wrapper {
+  height: 13vh;
 }
 
 .symbols_description {
@@ -2348,4 +2355,13 @@ section .arrow_up_down_downArrow img {
 
 .symbols_description-img {
   height: 5.6vh;
+}
+
+#N-1366-34 .N-1366-34 {
+  background-image: url("../img/gakvetilebi/buneba/N-1366-34.png");
+  background-position: center;
+}
+
+#N-1366-34 .nature-text-wrapper {
+  height: 13vh;
 }

@@ -1,3 +1,10 @@
-.N-1366-41 {
-    background-image: url("../img/gakvetilebi/buneba/N-1366-41.png");
+#N-1366-41 {
+    .N-1366-41 {
+        background-image: url("../img/gakvetilebi/buneba/N-1366-41.png");
+        background-position: center;
+    }
+
+    .nature-text-wrapper {
+        height: 13vh;
+    }
 }
