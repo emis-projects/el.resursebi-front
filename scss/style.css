@@ -2348,3 +2348,29 @@ section .arrow_up_down_downArrow img {
 .symbols_description-img {
   height: 5.6vh;
 }
+
+.research_container {
+  color: #0b2228;
+  font-size: 2.34vh;
+  font-family: "BPG Arial";
+  line-height: 3.9vh;
+}
+
+.research_container-text {
+  padding-top: 5.2vh;
+}
+
+.research_circle-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.research_circle-img {
+  height: 45.66vh;
+  position: absolute;
+  bottom: 13.28vh;
+}
