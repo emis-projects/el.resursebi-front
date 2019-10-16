@@ -2109,7 +2109,7 @@ section .arrow_up_down_downArrow img {
 
 .nature_objects {
   color: #0b2228;
-  font-size: 2.7vh;
+  font-size: 2.34vh;
   font-family: "BPG Arial";
 }
 
@@ -2136,13 +2136,13 @@ section .arrow_up_down_downArrow img {
 }
 
 .n-dang-toys-title {
-  font-size: 2.7vh;
+  font-size: 2.34vh;
   font-family: 'BPG Arial';
   padding-bottom: 4vh;
 }
 
 .n-dang-toys-question {
-  font-size: 2.4vh;
+  font-size: 2.08vh;
   font-family: 'DejaVu Sans Oblique';
   line-height: 4.6vh;
 }
