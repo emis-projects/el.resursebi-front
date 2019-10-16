@@ -5,24 +5,36 @@ section .arrow_up_down {
     &_upArrow {
         transform: matrix(-1, 0, 0, -1, 0, 0);
         background: $color-sky;
-        height: 36px;
-        width: 36px;
+        max-height: 36px;
+        max-width: 36px;
+        height: 6vh;
+        width: 6vh;
         border-radius: 50%;
         display: flex;
         justify-content: center;
         align-items: center;
+
+        img {
+            height: 90%;
+        }
     }
 
     &_downArrow {
         transform: matrix(1, 0, 0, 1, 0, 0);
         background: $color-sky;
-        height: 36px;
-        width: 36px;
+        max-height: 36px;
+        max-width: 36px;
+        height: 4.6vh;
+        width: 4.6vh;
         border-radius: 50%;
         display: flex;
         justify-content: center;
         align-items: center;
+
+        img {
+            height: 90%;
+        }
     }
-    
+
 
 }

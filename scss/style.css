@@ -995,8 +995,10 @@ section .arrow_up_down_upArrow {
   -webkit-transform: matrix(-1, 0, 0, -1, 0, 0);
           transform: matrix(-1, 0, 0, -1, 0, 0);
   background: #7FD1D8;
-  height: 36px;
-  width: 36px;
+  max-height: 36px;
+  max-width: 36px;
+  height: 6vh;
+  width: 6vh;
   border-radius: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1009,12 +1011,18 @@ section .arrow_up_down_upArrow {
           align-items: center;
 }
 
+section .arrow_up_down_upArrow img {
+  height: 90%;
+}
+
 section .arrow_up_down_downArrow {
   -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
           transform: matrix(1, 0, 0, 1, 0, 0);
   background: #7FD1D8;
-  height: 36px;
-  width: 36px;
+  max-height: 36px;
+  max-width: 36px;
+  height: 4.6vh;
+  width: 4.6vh;
   border-radius: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1025,6 +1033,43 @@ section .arrow_up_down_downArrow {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+section .arrow_up_down_downArrow img {
+  height: 90%;
+}
+
+header {
+  position: relative;
+}
+
+header .close {
+  height: 6vh;
+  width: 6vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #fff;
+  -webkit-box-shadow: 0px 3px 6px #00000029;
+          box-shadow: 0px 3px 6px #00000029;
+  border-radius: 50%;
+}
+
+header .close a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: inherit;
+  width: inherit;
 }
 
 /* 
@@ -2119,6 +2164,10 @@ section .arrow_up_down_downArrow {
   margin-top: 10px;
 }
 
+#N-1366-22 .nature_content_box {
+  padding-top: 4vh;
+}
+
 #N-1366-22 .nature_content_box_image {
   height: 26.6vh;
 }
@@ -2155,16 +2204,26 @@ section .arrow_up_down_downArrow {
   color: #DC6C85;
 }
 
-.N-1366-79_first_line {
-  margin-top: 10vh;
+.N-1366-79 {
+  position: absolute;
+  top: 10vh;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-.N-1366-79_second_line {
-  margin-top: 10vh;
-}
-
-.N-1366-79_third_line {
-  margin-top: 6vh;
+.N-1366-79 img {
+  height: 100%;
+  max-width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .ask-question-blue-container {
@@ -2260,7 +2319,7 @@ section .arrow_up_down_downArrow {
 
 #N-1366-42_bg {
   height: 100vh;
-  background-image: url(../../../img/gakvetilebi/buneba/1366-42.png);
+  background-image: url(../img/gakvetilebi/buneba/1366-42.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center bottom;
