@@ -2263,16 +2263,6 @@ section .arrow_up_down_downArrow img {
   /*   margin-top: 0.6vh; */
 }
 
-.nature-material-row-full .col-2 {
-  padding-left: 0px;
-}
-
-.N-1366-79_first_line {
-  margin-top: 10vh;
-}
-
-.N-1366-79_second_line {
-  margin-top: 10vh;
 .N-1366-79 {
   background-image: url("../img/gakvetilebi/buneba/1366-79.png");
 }
@@ -2378,7 +2368,6 @@ section .arrow_up_down_downArrow img {
   background-repeat: no-repeat;
   background-position: center bottom;
 }
-/*# sourceMappingURL=style.css.map */
 
 .N-1366-29 {
   background-image: url("../img/gakvetilebi/buneba/N-1366-29.png");
@@ -2432,3 +2421,4 @@ section .arrow_up_down_downArrow img {
   position: absolute;
   bottom: 13.28vh;
 }
+/*# sourceMappingURL=style.css.map */
