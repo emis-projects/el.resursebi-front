@@ -2217,7 +2217,6 @@ section .arrow_up_down_downArrow img {
 }
 
 .nature-laptop-couple {
-  width: 19.03vw;
   height: 20.31vh;
   position: absolute;
   top: 18.22vh;
@@ -2252,7 +2251,7 @@ section .arrow_up_down_downArrow img {
   margin-bottom: 1.27vh;
 }
 
-.nature-material-row-full img {
+.nature-material-row-full .nature-material-row-pic {
   height: 8.27vh;
 }
 
@@ -2262,7 +2261,7 @@ section .arrow_up_down_downArrow img {
   font-size: 2.08vh;
 }
 
-.nature-material-full-col-7 {
+.nature-material-full-col-9 {
   margin-left: 2.21vw;
 }
 
@@ -2450,5 +2449,45 @@ section .arrow_up_down_downArrow img {
   height: 45.66vh;
   position: absolute;
   bottom: 13.28vh;
+}
+
+.nature-action-material-row-full-container {
+  margin-left: 13.06vw;
+  margin-top: 1.59vh;
+}
+
+.nature-action-material-row-full {
+  margin-bottom: 1.23vh;
+}
+
+.nature-action-material-row-full p {
+  color: #0B2228;
+  font-family: 'BPG Arial', sans-serif;
+  font-size: 2.08vh;
+  float: right;
+  text-align: left;
+}
+
+.nature-action-material-full-col-5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nature-action-material-full-col-5 img {
+  height: 12.63vh;
+}
+
+.nature_material_content_box_text-col-5 img {
+  height: 2.21vh;
+  width: 2.48vw;
+  padding-right: 0;
+}
+
+.nature_material_content_box_text-col-5 span {
+  color: #0B2228;
+  font-family: 'BPG Arial', sans-serif;
+  font-size: 2.34vh;
+  margin-left: 1.11vw;
 }
 /*# sourceMappingURL=style.css.map */
