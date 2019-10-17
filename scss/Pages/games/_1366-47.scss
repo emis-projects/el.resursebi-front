@@ -56,6 +56,15 @@
       cursor: pointer;
       color: red;
 
+      &::after {
+        content: '';
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        background: transparent;
+        z-index: 1000000000000000;
+      }
+
       &.error {
         &::after {
           position: absolute;

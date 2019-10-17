@@ -4,7 +4,7 @@ section .arrow_up_down {
     z-index: 9999;
 
     &_upArrow {
-        transform: matrix(-1, 0, 0, -1, 0, 0);
+        transform: matrix(1, 0, 0, 1, 0, 0);
         background: $color-sky;
         max-height: 36px;
         max-width: 36px;
@@ -22,7 +22,7 @@ section .arrow_up_down {
     }
 
     &_downArrow {
-        transform: matrix(1, 0, 0, 1, 0, 0);
+        transform: matrix(-1, 0, 0, -1, 0, 0);
         background: $color-sky;
         max-height: 36px;
         max-width: 36px;

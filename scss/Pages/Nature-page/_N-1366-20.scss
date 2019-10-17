@@ -1,7 +1,14 @@
-#N-1366-20_bg {
-    height: 100vh;
-    background-image: url(../../../img/gakvetilebi/buneba/1366-20.png);
+#N-1366-20 {
+  .N-1366-20 {
+    background-image: url("../img/gakvetilebi/buneba/1366-20.png");
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center bottom;
+    background-position: center;
   }
+
+  .nature-text-wrapper {
+    height: 37vh;
+    h1{
+      bottom: 10vh;
+    }
+  }
+}
