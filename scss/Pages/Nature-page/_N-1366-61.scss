@@ -1,0 +1,19 @@
+.plastmas {
+  &_row {
+    margin-top: 10.41vh;
+  }
+  &_toy-img {
+    &-up {
+      height: 22.65vh;
+      width: 100%;
+      margin-bottom: 15px;
+    }
+    &-down {
+      width: 100%;
+      height: 21.74vh;
+    }
+  }
+  &_subject_question_item {
+    font-size: 2.34vh;
+  }
+}
