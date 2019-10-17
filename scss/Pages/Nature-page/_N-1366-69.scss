@@ -1,0 +1,38 @@
+.material_page{
+    &_full-left-container{
+        margin-top: -20px;
+    }
+    &_full-right-container{
+        font-size: 2.08vh;
+        .research_container-text {
+            padding-top: 4.2vh;
+        }
+    }
+    &_text_container{
+        p{
+            line-height: 3.9vh;
+        }
+    }
+    &_img{
+        &-computer{
+            height: 19.4vh;
+        }
+    }
+    &_material{
+        &-img{
+            height: 8.33vh;
+        }
+        &-title{
+            color: #0B2228;
+            font-size: 2.08vh;
+        }
+        &-right{
+            display: flex;
+            justify-content: flex-end;
+        }
+        &-left{
+            display: flex;
+            justify-content: flex-start;
+        }
+    }
+}

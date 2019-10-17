@@ -2648,6 +2648,7 @@ section .arrow_up_down_downArrow img {
 #N-1366-86 .nature-text-wrapper {
   height: 20vh;
 }
+
 .nature-action-material-row-full-container {
   margin-left: 13.06vw;
   margin-top: 1.59vh;
@@ -2706,4 +2707,50 @@ section .arrow_up_down_downArrow img {
 .plastmas_subject_question_item {
   font-size: 2.34vh;
 }
-/*# sourceMappingURL=style.css.map */
+
+.material_page_full-left-container {
+  margin-top: -20px;
+}
+
+.material_page_full-right-container {
+  font-size: 2.08vh;
+}
+
+.material_page_full-right-container .research_container-text {
+  padding-top: 4.2vh;
+}
+
+.material_page_text_container p {
+  line-height: 3.9vh;
+}
+
+.material_page_img-computer {
+  height: 19.4vh;
+}
+
+.material_page_material-img {
+  height: 8.33vh;
+}
+
+.material_page_material-title {
+  color: #0B2228;
+  font-size: 2.08vh;
+}
+
+.material_page_material-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.material_page_material-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
