@@ -2648,6 +2648,7 @@ section .arrow_up_down_downArrow img {
 #N-1366-86 .nature-text-wrapper {
   height: 20vh;
 }
+
 .nature-action-material-row-full-container {
   margin-left: 13.06vw;
   margin-top: 1.59vh;
@@ -2705,5 +2706,25 @@ section .arrow_up_down_downArrow img {
 
 .plastmas_subject_question_item {
   font-size: 2.34vh;
+}
+
+.ask-question-game-container img {
+  height: 80vh;
+  margin-right: 5.3vw;
+  margin-top: -10vh;
+}
+
+.ask-question-game-container .choose-question {
+  margin-left: 5.3vw;
+}
+
+.ask-question-game-container .choose-question img {
+  margin-bottom: 20px;
+  margin-top: 0;
+  height: 21vh;
+}
+
+.ask-question-game-container .choose-question img:last-child {
+  margin-bottom: 0;
 }
 /*# sourceMappingURL=style.css.map */
