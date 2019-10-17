@@ -2243,29 +2243,6 @@ section .arrow_up_down_downArrow img {
   margin-top: 1.3vh;
 }
 
-.nature-material-row-full-container {
-  margin-left: 13.17vw;
-  margin-top: 3.55vh;
-}
-
-.nature-material-row-full {
-  margin-bottom: 1.27vh;
-}
-
-.nature-material-row-full img {
-  height: 8.27vh;
-}
-
-.nature-material-row-full p {
-  color: #0B2228;
-  font-family: 'BPG Arial', sans-serif;
-  font-size: 2.08vh;
-}
-
-.nature-material-full-col-7 {
-  margin-left: 2.21vw;
-}
-
 .N-1366-79 {
   background-image: url("../img/gakvetilebi/buneba/1366-79.png");
 }
@@ -2451,4 +2428,22 @@ section .arrow_up_down_downArrow img {
   position: absolute;
   bottom: 13.28vh;
 }
-/*# sourceMappingURL=style.css.map */
+
+.plastmas_row {
+  margin-top: 10.41vh;
+}
+
+.plastmas_toy-img-up {
+  height: 22.65vh;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.plastmas_toy-img-down {
+  width: 100%;
+  height: 21.74vh;
+}
+
+.plastmas_subject_question_item {
+  font-size: 2.34vh;
+}
