@@ -1,58 +1,54 @@
-function dragQuizGame(){
-  this.answer = false;
-  this.error = false;
-  this.submitError = false;
-
-
-  // variables
-  const drags = document.querySelectorAll('.dot_wrapper .draggable__answer__btns');
-  const empties = document.querySelectorAll('.question__dot');
-  const completeBtn = document.getElementById('completedGame');
-  const wrapper = document.querySelector('.dot_wrapper');
-  let items = document.querySelectorAll('.questions__images-item');
-  const resetBtn = document.getElementById('resetBtn');
-
-
-  var myArray = [];
-
-  for(var i = 0; i < empties.length; i++ ){
-    myArray.push(empties[i])
-  }
+function dragQuizGame2(){
+    this.answer = false;
+    this.error = false;
+    this.submitError = false;
+  
+    const drags = document.querySelectorAll('.dot_wrapper .draggable__answer__btns');
+    const empties = document.querySelectorAll('.question__dot');
+    const completeBtn = document.getElementById('completedGame');
+    const wrapper = document.querySelector('.dot_wrapper');
+    let items = document.querySelectorAll('.questions__images-item');
+    const resetBtn = document.getElementById('resetBtn');
   
 
-  $(document).on("dragstart", "button.cloned", (e) => { 
-    this.dragStart(e);
-  });
-
-  $(document).on("dragend", "button.cloned", (e) => { 
-    this.dragEnd(e);
-  });
+    var myArray = [];
+  
+    for(var i = 0; i < empties.length; i++ ){
+      myArray.push(empties[i])
+    }
 
 
-  // Fill listeners
-  drags.forEach(w => {
-    w.addEventListener('dragstart', (e) => this.dragStart(e));
-    w.addEventListener('dragend', (e) => this.dragEnd(e));
-  })
+    $(document).on("dragstart", "button.cloned", (e) => { 
+      this.dragStart(e);
+    });
+  
+    $(document).on("dragend", "button.cloned", (e) => { 
+      this.dragEnd(e);
+    });
 
-      
 
-  // Loop through empty boxes and add listeners
-  for (const empty of empties) {
-    empty.addEventListener('dragover', (e) => this.dragOver(e));
-    empty.addEventListener('dragover', (e) => this.dragEnter(e));
-    empty.addEventListener('drop', (e) => this.dragDrop(e));
-  }
+  
+    // Loop through empty boxes and add listeners
+    for (const empty of empties) {
+      empty.addEventListener('dragover', (e) => this.dragOver(e));
+      empty.addEventListener('drop', (e) => this.dragDrop(e));
+    }
+  
+    // Fill listeners
+    drags.forEach(w => {
+      w.addEventListener('dragstart', (e) => this.dragStart(e));
+      w.addEventListener('dragstart', (e) => this.dragEnd(e));
+    })
 
 
 
   // init 
   this.init = () => {
-      this.answer = false;
-      this.error = false;
-      this.submitError = false;
+    this.answer = false;
+    this.error = false;
+    this.submitError = false;
 
-    
+  
     completeBtn.removeAttribute('disabled');
     completeBtn.setAttribute('style', 'cursor: pointer');
 
@@ -79,13 +75,12 @@ function dragQuizGame(){
   }
 
 
-
-  
-  // Drag Functions    
+  // Drag over    
   this.dragOver = (e) => {
     e.preventDefault();
   }
   
+  // Drag enter    
   this.dragEnter = (e) => {
     e.preventDefault();
   }
@@ -93,7 +88,6 @@ function dragQuizGame(){
 
   // drag start 
   this.dragStart = (e) => {
-    
     var cloned = e.target.cloneNode(true);
     
     cloned.classList.add('cloned');
@@ -107,7 +101,7 @@ function dragQuizGame(){
     }, 0);
   }
 
-
+  
   // drag end
   this.dragEnd = e => {
     let elClassName = e.target.getAttribute('data-class');
@@ -122,11 +116,12 @@ function dragQuizGame(){
 
     console.log('drag end');
   }
-
   
-  this.dragDrop = e => {
+
+  // drag drop 
+  this.dragDrop = (e) => {
     e.target.appendChild(document.querySelector('button.draggedElement'))
-    
+  
     if(e.target.childNodes[0].className == "draggedElement"){
       var myButton = e.target.childNodes[0];
 
@@ -148,41 +143,40 @@ function dragQuizGame(){
       this.checkifIsTrue(e)
     }, 0)
   }
+   
+
+  this.checkifIsTrue = e => {
+    let parent = e.target.parentElement;
  
-
- this.checkifIsTrue = e => {
-   let parent = e.target.parentElement;
-
-    let myArray = [];
-
-    for(let i = 0; i < items.length; i++ ){
-      myArray.push(items[i])
-    }
-
-    let img = parent.querySelector('.mainImage');
-    let circle = parent.querySelector('.draggable__answer__btns');
-
-
-    if(img.getAttribute('data-weather') == circle.getAttribute('data-weather')){
-      parent.classList.add('correct');
-      
-    } else {
-      this.error = true;
-      parent.classList.remove('correct')
-    }
-
-
-    if(myArray[0].classList.contains('correct') && myArray[1].classList.contains('correct')){
-      this.answer = true;
-      this.error = false;
-    } else {
-      this.error = true;
-      this.answer = false;
-    }
+     let myArray = [];
+ 
+     for(let i = 0; i < items.length; i++ ){
+       myArray.push(items[i])
+     }
+ 
+     let img = parent.querySelector('.mainImage');
+     let circle = parent.querySelector('.draggable__answer__btns');
+ 
+ 
+     if(img.getAttribute('data-weather') == circle.getAttribute('data-weather')){
+       parent.classList.add('correct');
+       
+     } else {
+       this.error = true;
+       parent.classList.remove('correct')
+     }
+ 
+ 
+     if(myArray[0].classList.contains('correct') && myArray[1].classList.contains('correct') && myArray[2].classList.contains('correct')){
+       this.answer = true;
+       this.error = false;
+     } else {
+       this.error = true;
+       this.answer = false;
+     }
   }
-  
 
-  
+
   // error 
   this.errorMessage = () => {
     var myArray = [];
@@ -199,7 +193,7 @@ function dragQuizGame(){
 
         img.classList.add('errorImg');
 
-        if(w.className == "questions__images-item"){
+        if(w.className == "questions__images-item questions__image_wrapper_box-item col-4"){
           w.querySelector('.question__dot').classList.add('error');
         }
 
@@ -209,7 +203,7 @@ function dragQuizGame(){
           w.querySelector('.question__dot').appendChild(img);
         }
 
-        completeBtn.setAttribute('disabled', 'true');
+        completeBtn.setAttribute('disabled', 't-rue');
         completeBtn.setAttribute('style', 'cursor: default');
 
         this.error = true;
@@ -225,14 +219,15 @@ function dragQuizGame(){
       } 
     })
   }
-
- 
+    
+   
   // success page
-	this.successPage  = () => {
+  this.successPage  = () => {
     location.href = '1366-240.html';
-	}
-
-
+  }
+  
+  
+  
   // after submit 
   this.completGame = () => {
     items.forEach(w => {
@@ -243,13 +238,16 @@ function dragQuizGame(){
         this.errorMessage();
       }
     })
-	}
+  }
 
-
-  completeBtn.addEventListener('click', () => this.completGame());
-  resetBtn.addEventListener('click', () => this.init());
-}
-
-const QuizGame = new dragQuizGame();
-
-
+  
+  
+  
+      completeBtn.addEventListener('click', () => this.completGame());
+      resetBtn.addEventListener('click', () => this.init());
+  }
+  
+  const QuizGame2 = new dragQuizGame2();
+  
+  
+  

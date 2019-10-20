@@ -196,36 +196,46 @@
             </div>
           </div>
           <div class="dot_wrapper">
-            <div
+            <button
               id="drag1"
               class="draggable__answer__btns cold__btn"
+              data-weather="cold"
+              data-class="draggable__answer__btns cold__btn"
               draggable="true"
-            ></div>
-            <div
+            ></button>
+            <button
               id="drag2"
               class="draggable__answer__btns hot__btn"
+              data-weather="hot"
+              data-class="draggable__answer__btns hot__btn"
               draggable="true"
-            ></div>
+            ></button>
           </div>
           <div class="col-12 questions__images">
             <div class="row questions__image_wrapper_box">
-              <div class="questions__image_wrapper_box-item col-4">
+              <div class="questions__images-item questions__image_wrapper_box-item col-4" style="margin-right: 0">
                 <img
-                  src="../../img/gakvetilebi/xelovneba/game-4-img-2.png"
+                  class="mainImage"
+                  src="../../img/gakvetilebi/xelovneba/game-4-img3.png"
+                  data-weather="cold"
                   alt=""
                 />
                 <div class="question__dot"></div>
               </div>
-              <div class="questions__image_wrapper_box-item col-4">
+              <div class="questions__images-item questions__image_wrapper_box-item col-4" style="margin-right: 0">
                 <img
-                  src="../../img/gakvetilebi/xelovneba/game-4-img-2.png"
+                  class="mainImage"
+                  src="../../img/gakvetilebi/xelovneba/game-4-img4.png"
+                  data-weather="hot"
                   alt=""
                 />
                 <div class="question__dot"></div>
               </div>
-              <div class="questions__image_wrapper_box-item col-4">
+              <div class="questions__images-item questions__image_wrapper_box-item col-4" style="margin-right: 0">
                 <img
-                  src="../../img/gakvetilebi/xelovneba/game-4-img1.png"
+                  class="mainImage"
+                  src="../../img/gakvetilebi/xelovneba/game-4-img5.png"
+                  data-weather="hot"
                   alt=""
                 />
                 <div class="question__dot"></div>
@@ -265,7 +275,9 @@
       </div>
     </div>
 
+
+    <script src="../../js/libraries/jquery-3.4.1.min.js"></script>
     <script src="../../js/soundSwitch.js"></script>
-    <script src="../../js/color-game-4.js"></script>
+    <script src="../../js/1366-48.js"></script>
   </body>
 </html>
