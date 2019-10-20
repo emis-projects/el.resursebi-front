@@ -1472,6 +1472,11 @@ section .arrow_up_down_downArrow img {
      object-fit: cover;
 }
 
+.draggable__answer__btns {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
 .draggable__answer__btns:focus {
   outline: none;
 }
@@ -1510,6 +1515,17 @@ section .arrow_up_down_downArrow img {
   z-index: 10000;
   opacity: 1;
   visibility: visible;
+}
+
+.noShadow {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.Shadow {
+  border: 1px solid #707070;
+  -webkit-box-shadow: 0px 0px 4px #DC6C85;
+          box-shadow: 0px 0px 4px #DC6C85;
 }
 
 .questions__image_wrapper_box {
@@ -2807,4 +2823,3 @@ section .arrow_up_down_downArrow img {
 #N-1366-83 .nature-text-wrapper {
   height: 16vh;
 }
-/*# sourceMappingURL=style.css.map */

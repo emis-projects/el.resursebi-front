@@ -1,6 +1,6 @@
 function dragQuizGame(){
   this.answer = false;
-  this.error = false;
+  this.error = true;
   this.submitError = false;
 
 
@@ -13,13 +13,6 @@ function dragQuizGame(){
   const resetBtn = document.getElementById('resetBtn');
 
 
-  var myArray = [];
-
-  for(var i = 0; i < empties.length; i++ ){
-    myArray.push(empties[i])
-  }
-  
-
   $(document).on("dragstart", "button.cloned", (e) => { 
     this.dragStart(e);
   });
@@ -29,13 +22,24 @@ function dragQuizGame(){
   });
 
 
+
+  var myArray = [];
+
+  for(var i = 0; i < items.length; i++ ){
+    myArray.push(items[i])
+  }
+  
+
+
+
   // Fill listeners
   drags.forEach(w => {
     w.addEventListener('dragstart', (e) => this.dragStart(e));
     w.addEventListener('dragend', (e) => this.dragEnd(e));
   })
 
-      
+    
+
 
   // Loop through empty boxes and add listeners
   for (const empty of empties) {
@@ -49,7 +53,7 @@ function dragQuizGame(){
   // init 
   this.init = () => {
       this.answer = false;
-      this.error = false;
+      this.error = true;
       this.submitError = false;
 
     
@@ -79,8 +83,6 @@ function dragQuizGame(){
   }
 
 
-
-  
   // Drag Functions    
   this.dragOver = (e) => {
     e.preventDefault();
@@ -98,13 +100,17 @@ function dragQuizGame(){
     
     cloned.classList.add('cloned');
     
-    $(empties).attr('style', 'border: 1px solid #707070; box-shadow: 0px 0px 4px #DC6C85');
+
+    $(empties).addClass('Shadow');
+    $(empties).removeClass('noShadow');
 
     wrapper.insertBefore(cloned, e.target);
 
     setTimeout(() => {
       e.target.className = "draggedElement"
     }, 0);
+
+    console.log('drag start');
   }
 
 
@@ -114,7 +120,9 @@ function dragQuizGame(){
 
     e.target.className = elClassName;
 
-    $(empties).removeAttr('style');
+    $(empties).addClass('noShadow');
+    $(empties).removeClass('Shadow');
+
 
     if(wrapper.querySelector('.draggedElement')){
       wrapper.querySelector('.draggedElement').remove();
@@ -142,7 +150,8 @@ function dragQuizGame(){
       e.target.firstChild.remove();
     }
 
-    $(empties).removeAttr('style');
+    $(empties).addClass('noShadow');
+    $(empties).removeClass('Shadow');
 
     setTimeout(() => {
       this.checkifIsTrue(e)
@@ -153,53 +162,45 @@ function dragQuizGame(){
  this.checkifIsTrue = e => {
    let parent = e.target.parentElement;
 
-    let myArray = [];
-
-    for(let i = 0; i < items.length; i++ ){
-      myArray.push(items[i])
-    }
-
     let img = parent.querySelector('.mainImage');
     let circle = parent.querySelector('.draggable__answer__btns');
 
 
     if(img.getAttribute('data-weather') == circle.getAttribute('data-weather')){
-      parent.classList.add('correct');
+      parent.setAttribute('data-answer', 'correct');
       
     } else {
       this.error = true;
-      parent.classList.remove('correct')
+      parent.setAttribute('data-answer', 'incorrect');
     }
 
+    let el = myArray.every(this.checkEveryElement)
 
-    if(myArray[0].classList.contains('correct') && myArray[1].classList.contains('correct')){
+    if(el == true){
       this.answer = true;
       this.error = false;
     } else {
       this.error = true;
       this.answer = false;
-    }
+    } 
   }
   
+
+  this.checkEveryElement = (element) => {
+    return element.getAttribute('data-answer') == "correct";
+  }
 
   
   // error 
   this.errorMessage = () => {
-    var myArray = [];
-
-    for(var i = 0; i < items.length; i++ ){
-      myArray.push(items[i])
-    }
-
-
     myArray.forEach(w => {
-      if(this.error == true){
+      if(this.error == true && w.getAttribute('data-answer') !== 'correct'){
 
         let img = document.createElement('img');
 
         img.classList.add('errorImg');
 
-        if(w.className == "questions__images-item"){
+        if(w.className == "questions__images-item" || "questions__images-item questions__image_wrapper_box-item col-4"){
           w.querySelector('.question__dot').classList.add('error');
         }
 
@@ -244,7 +245,7 @@ function dragQuizGame(){
       }
     })
 	}
-
+0
 
   completeBtn.addEventListener('click', () => this.completGame());
   resetBtn.addEventListener('click', () => this.init());
