@@ -2033,49 +2033,28 @@ section .arrow_up_down_downArrow img {
   font-family: "ALK Sanet", sans-serif;
 }
 
-#N-1366-9_bg {
-  background-image: url("../img/backgrounds/N-1366-11_bg.svg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
+#N-1366-11 .nature_full_image-box {
   height: 100vh;
+  width: 100vw;
 }
 
-#N-1366-9_bg .link-wrapper {
-  position: relative;
+#N-1366-11 .nature_full_image-box svg {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
-#N-1366-9_bg .link-wrapper a {
-  font-family: "ALK Sanet", sans-serif;
-  background: #fffd;
-  font-size: 2vh;
-  color: #262626;
-  border-radius: 50px;
+#N-1366-11 .nature_full_image-box #objects_link {
+  cursor: pointer;
 }
 
-#N-1366-9_bg .link-wrapper .nature_world {
-  padding: 1vh 2.5vw;
-  margin-top: 8vh;
-  line-height: 2.6vh;
+#N-1366-11 .nature_full_image-box #alive_world {
+  cursor: pointer;
 }
 
-#N-1366-9_bg .link-wrapper .objects {
-  padding: 1vh 2.5vw;
-  margin-top: 3vh;
-  margin-left: 8vw;
-  line-height: 2.6vh;
-}
-
-#N-1366-9_bg .link-wrapper .link_up_right_bg {
-  background-image: url("../img/gakvetilebi/buneba/link_up_right_bg.svg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: auto;
-  width: 9vw;
-  margin-top: -7vh;
-  margin-left: -1vw;
+#N-1366-11 .nature_full_image-box #earth_world {
+  cursor: pointer;
 }
 
 .nature_content_box_multi p:last-child {
@@ -2704,6 +2683,84 @@ section .arrow_up_down_downArrow img {
   font-size: 2.34vh;
 }
 
+.nature_question_with_paddings {
+  margin-top: 5.15vh;
+}
+
+.nature_task_reseach_container .research_container-text {
+  padding-top: 0;
+}
+
+.nature_question_research_container {
+  padding-top: 0;
+}
+
+.nature_question_research_container_pads {
+  margin-top: 2.08vh;
+}
+
+.research_container-text {
+  padding-bottom: 8.56vh;
+}
+
+.research_container-text span {
+  color: #0b2228;
+  font-size: 2.34vh;
+  font-family: "BPG Arial";
+  line-height: 3.9vh;
+}
+
+.nature_task_question_reseach_container {
+  padding-top: 4.26vh;
+}
+
+.material_page_full-left-container {
+  margin-top: -20px;
+}
+
+.material_page_full-right-container {
+  font-size: 2.08vh;
+}
+
+.material_page_full-right-container .research_container-text {
+  padding-top: 4.2vh;
+}
+
+.material_page_text_container p {
+  line-height: 3.9vh;
+}
+
+.material_page_img-computer {
+  height: 19.4vh;
+}
+
+.material_page_material-img {
+  height: 8.33vh;
+}
+
+.material_page_material-title {
+  color: #0B2228;
+  font-size: 2.08vh;
+}
+
+.material_page_material-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.material_page_material-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
 .ask-question-game-container img {
   height: 80vh;
   margin-right: 5.3vw;
@@ -2750,3 +2807,4 @@ section .arrow_up_down_downArrow img {
 #N-1366-83 .nature-text-wrapper {
   height: 16vh;
 }
+/*# sourceMappingURL=style.css.map */
