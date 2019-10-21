@@ -1549,6 +1549,19 @@ section .arrow_up_down_downArrow img {
   height: 47.9167vh;
 }
 
+.main-box_img-wrapper {
+  margin-top: 6vh;
+  height: 55vh;
+}
+
+.main-box_img-wrapper div {
+  height: inherit;
+}
+
+.main-box_img-wrapper div img {
+  height: inherit;
+}
+
 .art-lesson-content {
   margin-bottom: 2.61vh;
 }
@@ -1584,59 +1597,12 @@ section .arrow_up_down_downArrow img {
   padding-top: 10vh;
 }
 
-.main-box_absolute {
-  position: absolute;
-  height: 100vh;
-  z-index: -555;
-  top: 0;
-  left: 0;
-  right: 0;
+.text-wrapper_content-box {
+  margin-top: 14.7vh;
 }
 
-.main-box_absolute .main-box_relative {
-  position: relative;
-  height: 100%;
-}
-
-.main-box_absolute .main-box_relative .owl-carousel {
-  height: inherit;
-}
-
-.main-box_absolute .main-box_relative .owl-carousel .item {
+.main-box_relative .owl-carousel .owl-item img {
   width: 100%;
-  height: inherit;
-  -o-object-fit: none;
-     object-fit: none;
-}
-
-.main-box_absolute .main-box_relative .text-wrapper {
-  position: absolute;
-  bottom: 0;
-  height: 35vh;
-  left: 0;
-  right: 0;
-  z-index: 5555;
-  background: transparent -webkit-gradient(linear, left top, left bottom, color-stop(20%, #00000000), to(#000000)) 0% 0%;
-  background: transparent linear-gradient(180deg, #00000000 20%, #000000 100%) 0% 0%;
-}
-
-.main-box_absolute .main-box_relative .text-wrapper p {
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 5.5vh;
-  margin-left: 2.6vh;
-  line-height: 1vh;
-}
-
-.main-box_absolute .main-box_relative .text-wrapper .icon-box {
-  margin-top: 7.8vh;
-  height: 4.7vh;
-  width: 4.7vh;
-  background-color: #fff;
-  border-radius: 50%;
-}
-
-.main-box_absolute .main-box_relative .text-wrapper .icon-box img {
-  height: 50%;
 }
 
 .container_main_title_portfolio-paddings {
@@ -1782,19 +1748,6 @@ section .arrow_up_down_downArrow img {
 
 .portfolio-slider-second-page.owl-theme .owl-dots .owl-dot:nth-child(3) span {
   background-image: url("../img/gakvetilebi/xelovneba/cnobili-namushevrebi/6.jpg");
-}
-
-.main-box_img-wrapper {
-  margin-top: 6vh;
-  height: 55vh;
-}
-
-.main-box_img-wrapper div {
-  height: inherit;
-}
-
-.main-box_img-wrapper div img {
-  height: inherit;
 }
 
 .padding-top-14vh {
