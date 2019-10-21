@@ -2783,3 +2783,31 @@ section .arrow_up_down_downArrow img {
   background-image: url("../img/gakvetilebi/buneba/1366-83.png");
   background-position: center;
 }
+
+.buildings_type_container {
+  margin-left: 2.82vw;
+}
+
+.buildings_type_atributes {
+  background-image: url("../img/gakvetilebi/musika/mv_1366_9_house_buildings_middle.svg");
+  height: 54.03vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.music_questions_row {
+  margin-top: 2.18vh;
+}
+
+.voices_musical_instruments_container {
+  margin-left: 33.01vw;
+  margin-top: 8.41vh;
+}
+
+.voices_musical_instruments_atributes {
+  background-image: url("../img/backgrounds/music_instruments_backgrounds.svg");
+  height: 54.55vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+/*# sourceMappingURL=style.css.map */
