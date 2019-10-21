@@ -1,0 +1,24 @@
+.music_task {
+    .subject_component {
+        margin-left: -15px;
+
+        p {
+            line-height: 3.9vh;
+            font-family: 'BPG Arial', sans-serif;
+            font-size: 2.3vh;
+        }
+    }
+
+    .middle_bg_music-1366-11 {
+        background: url('../img/gakvetilebi/musika/MV-1366-11.svg') bottom no-repeat;
+        background-size: contain;
+        height: 67vh;
+        width: 22vw;
+        max-width: 310px;
+        max-height: 521px;
+    }
+
+    .bottom_components {
+        margin-top: 30vh;
+    }
+}

@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-
+    <link rel="stylesheet" type="text/css" href="../../scss/libraries/owl.carousel.min.css" />
+    <link rel="stylesheet" type="text/css" href="../../scss/libraries/owl.theme.default.css" />
     <link rel="stylesheet" href="../../scss/libraries/bootstrap.min.css" />
     <link rel="stylesheet" href="../../scss/style.css" />
     <title>ბუნება</title>
@@ -20,12 +21,13 @@
                     </a>
                 </div>
                 <div class="header-menu col-4 d-flex justify-content-center align-items-center">
-                    <a href=""><img src="../../img/header/header-menu.svg" alt="Menu" /></a>
+                    <a href="#"><img src="../../img/header/header-menu.svg" alt="Menu" /></a>
                 </div>
                 <div class="header-sound col-4 d-flex justify-content-end align-items-center">
                     <button class="header-sound_switch sound-on">
                         <svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"
-                            xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                            xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg"
                             xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
                             xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" id="Layer_1"
                             data-name="Layer 1" viewBox="0 0 36 36" version="1.1" sodipodi:docname="sound01.svg"
@@ -57,7 +59,8 @@
                     </button>
                     <button class="header-sound_switch sound-off">
                         <svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"
-                            xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                            xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg"
                             xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
                             xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" id="Layer_1"
                             data-name="Layer 1" viewBox="0 0 36 36" version="1.1" sodipodi:docname="sound02.svg"
@@ -91,31 +94,75 @@
                 </div>
             </nav>
         </header>
-
-        <section class="nature">
-            <div class="container_choose_arrowDown">
-                <div>აირჩიე</div>
-                <img src="../../img/icons/chevron-down.svg" alt="down-arrow" />
+        <section class="music_task">
+            <div class="subject_component row">
+                <div class="col-10 item_flex m-auto">
+                    <div
+                        class="subject_component_itle_icon bg_bouble_blue d-flex justify-content-center align-items-center">
+                        <img src="../../img/backgrounds/bg-ilustrations/ruler-blue.svg" alt="write art" />
+                    </div>
+                    <h3 class="subject_component_title">კომპლექსური დავალება</h3>
+                </div>
             </div>
-            <div class="row main_box_links">
-                <div class="col-8 m-auto">
-                    <div class="row d-flex justify-content-around align-items-center">
-                        <div class="col-6 col-md-4">
-                            <a class="art" href="./M-1366-9.html">ხმები</a>
+            <div class="subject_component row">
+                <div class="col-10 m-auto">
+                    <div class="subject_question_item nature_subject_question_item nature_content_box_text">
+                        <p>სანამ მთავარ დავალებაზე გადახვალ, რამდენიმე სახალისო აქტივობის შესრულება<br> გვინდა
+                            შემოგთავაზოთ.
+                        </p>
+                    </div>
+                    <div class="row bottom_components">
+                        <div class="col-2 item_flex subject-class">
+                            <a href="#">
+                                <div
+                                    class="subject_component_itle_icon bg_bouble_pink d-flex justify-content-center align-items-center">
+                                    <img src="../../img/backgrounds/bg-ilustrations/foots.svg" alt="flag" />
+                                </div>
+                                <h4 class="subject_component_title">ნაბიჯი 01</h4>
+                            </a>
                         </div>
-                        <div class="col-6 col-md-4">
-                            <a class="music" href="./M-1366-17.html">მუსიკალური კომპოზიცია</a>
+                        <div class="col-2 item_flex subject-class">
+                            <a href="#">
+                                <div
+                                    class="subject_component_itle_icon bg_bouble_pink d-flex justify-content-center align-items-center">
+                                    <img src="../../img/backgrounds/bg-ilustrations/foots.svg" alt="flag" />
+                                </div>
+                                <h4 class="subject_component_title">ნაბიჯი 02</h4>
+                            </a>
+                        </div>
+                        <div class="col-2 item_flex subject-class">
+                            <a href="#">
+                                <div
+                                    class="subject_component_itle_icon bg_bouble_pink d-flex justify-content-center align-items-center">
+                                    <img src="../../img/backgrounds/bg-ilustrations/foots.svg" alt="flag" />
+                                </div>
+                                <h4 class="subject_component_title">ნაბიჯი 03</h4>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="row main-box_img-wrapper">
-                <div class="col-12 d-flex justify-content-center">
-                    <img src="../../img/gakvetilebi/musika/musika-artwork.svg" alt="nature" />
-                </div>
+            <div class="middle_bg_box_image middle_bg_music-1366-11"></div>
+
+            <div class="paging_buttons paging_buttons_position">
+                <a href="./M-1366-10.html"><img src="../../img/icons/chevron-down-logo.svg" alt=""
+                        class="paging_buttons_left" /></a>
+                <a href="./M-1366-12.html" class="paging_buttons_margin-left"><img
+                        src="../../img/icons/chevron-down-logo.svg" alt="" class="paging_buttons_right" /></a>
             </div>
         </section>
     </div>
+    <div class="subject_component_botton_illustration">
+        <div class="illustration_bg bg_blue_Down"></div>
+        <div class="subject_component_botton_bg_icon">
+            <img src="../../img/backgrounds/bg-ilustrations/ruler-blue.svg" alt="flag art" />
+        </div>
+    </div>
+
+    <script src="../../js/libraries/jquery-3.4.1.min.js"></script>
+    <script src="../../js/libraries/
+  owl.carousel.min.js"></script>
+    <script src="../../js/slider.js"></script>
     <script src="../../js/soundSwitch.js"></script>
 </body>
 
