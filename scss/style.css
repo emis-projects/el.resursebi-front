@@ -1389,8 +1389,6 @@ section .arrow_up_down_downArrow img {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
 }
 
 .draggable__answer__btns:disabled {
@@ -1411,18 +1409,7 @@ section .arrow_up_down_downArrow img {
   left: 0;
 }
 
-.questions__images_wrapper_box {
-  max-height: 38.15vh;
-}
-
-.questions__images_wrapper_box img {
-  height: 100%;
-  width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-.questions__images_wrapper_box .question__dot {
+.question__dot {
   position: relative;
   border: 1px solid #707070;
   border-radius: 50%;
@@ -1438,12 +1425,13 @@ section .arrow_up_down_downArrow img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  position: relative;
   cursor: pointer;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
   color: red;
 }
 
-.questions__images_wrapper_box .question__dot::after {
+.question__dot::after {
   content: '';
   position: absolute;
   width: 30px;
@@ -1452,7 +1440,7 @@ section .arrow_up_down_downArrow img {
   z-index: 1000000000000000;
 }
 
-.questions__images_wrapper_box .question__dot.error::after {
+.question__dot.error::after {
   position: absolute;
   content: '';
   width: 60px;
@@ -1462,7 +1450,7 @@ section .arrow_up_down_downArrow img {
   z-index: 1000000000;
 }
 
-.questions__images_wrapper_box .question__dot .draggable__answer__btns {
+.question__dot .draggable__answer__btns {
   margin: 0;
   width: 23px;
   height: 23px;
@@ -1471,6 +1459,22 @@ section .arrow_up_down_downArrow img {
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+}
+
+.questions__images_wrapper_box {
+  max-height: 38.15vh;
+}
+
+.questions__images_wrapper_box img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.draggable__answer__btns {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .draggable__answer__btns:focus {
@@ -1483,11 +1487,7 @@ section .arrow_up_down_downArrow img {
   right: 11.5vw;
 }
 
-.questions__images-item {
-  margin-right: 16px;
-}
-
-.questions__images-item .errorImg {
+.errorImg {
   position: absolute;
   left: 60%;
   top: 60%;
@@ -1496,6 +1496,36 @@ section .arrow_up_down_downArrow img {
   width: 40px;
   height: 40px;
   z-index: 10000;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.questions__images-item {
+  margin-right: 16px;
+}
+
+.questions__images-item .question__dot.error .errorImg {
+  position: absolute;
+  left: 60%;
+  top: 60%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 40px;
+  height: 40px;
+  z-index: 10000;
+  opacity: 1;
+  visibility: visible;
+}
+
+.noShadow {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.Shadow {
+  border: 1px solid #707070;
+  -webkit-box-shadow: 0px 0px 4px #DC6C85;
+          box-shadow: 0px 0px 4px #DC6C85;
 }
 
 .questions__image_wrapper_box {
@@ -1511,24 +1541,6 @@ section .arrow_up_down_downArrow img {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-}
-
-.questions__image_wrapper_box .question__dot {
-  border: 1px solid #707070;
-  border-radius: 50%;
-  width: 3.5vh;
-  height: 3.5vh;
-  margin-top: 2.8vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  cursor: pointer;
 }
 
 .success-game {
@@ -2042,49 +2054,28 @@ section .arrow_up_down_downArrow img {
   font-family: "ALK Sanet", sans-serif;
 }
 
-#N-1366-9_bg {
-  background-image: url("../img/backgrounds/N-1366-11_bg.svg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
+#N-1366-11 .nature_full_image-box {
   height: 100vh;
+  width: 100vw;
 }
 
-#N-1366-9_bg .link-wrapper {
-  position: relative;
+#N-1366-11 .nature_full_image-box svg {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
-#N-1366-9_bg .link-wrapper a {
-  font-family: "ALK Sanet", sans-serif;
-  background: #fffd;
-  font-size: 2vh;
-  color: #262626;
-  border-radius: 50px;
+#N-1366-11 .nature_full_image-box #objects_link {
+  cursor: pointer;
 }
 
-#N-1366-9_bg .link-wrapper .nature_world {
-  padding: 1vh 2.5vw;
-  margin-top: 8vh;
-  line-height: 2.6vh;
+#N-1366-11 .nature_full_image-box #alive_world {
+  cursor: pointer;
 }
 
-#N-1366-9_bg .link-wrapper .objects {
-  padding: 1vh 2.5vw;
-  margin-top: 3vh;
-  margin-left: 8vw;
-  line-height: 2.6vh;
-}
-
-#N-1366-9_bg .link-wrapper .link_up_right_bg {
-  background-image: url("../img/gakvetilebi/buneba/link_up_right_bg.svg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: auto;
-  width: 9vw;
-  margin-top: -7vh;
-  margin-left: -1vw;
+#N-1366-11 .nature_full_image-box #earth_world {
+  cursor: pointer;
 }
 
 .nature_content_box_multi p:last-child {
@@ -2711,6 +2702,84 @@ section .arrow_up_down_downArrow img {
 
 .plastmas_subject_question_item {
   font-size: 2.34vh;
+}
+
+.nature_question_with_paddings {
+  margin-top: 5.15vh;
+}
+
+.nature_task_reseach_container .research_container-text {
+  padding-top: 0;
+}
+
+.nature_question_research_container {
+  padding-top: 0;
+}
+
+.nature_question_research_container_pads {
+  margin-top: 2.08vh;
+}
+
+.research_container-text {
+  padding-bottom: 8.56vh;
+}
+
+.research_container-text span {
+  color: #0b2228;
+  font-size: 2.34vh;
+  font-family: "BPG Arial";
+  line-height: 3.9vh;
+}
+
+.nature_task_question_reseach_container {
+  padding-top: 4.26vh;
+}
+
+.material_page_full-left-container {
+  margin-top: -20px;
+}
+
+.material_page_full-right-container {
+  font-size: 2.08vh;
+}
+
+.material_page_full-right-container .research_container-text {
+  padding-top: 4.2vh;
+}
+
+.material_page_text_container p {
+  line-height: 3.9vh;
+}
+
+.material_page_img-computer {
+  height: 19.4vh;
+}
+
+.material_page_material-img {
+  height: 8.33vh;
+}
+
+.material_page_material-title {
+  color: #0B2228;
+  font-size: 2.08vh;
+}
+
+.material_page_material-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.material_page_material-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
 .ask-question-game-container img {
