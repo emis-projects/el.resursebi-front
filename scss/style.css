@@ -2811,3 +2811,13 @@ section .arrow_up_down_downArrow img {
   max-width: 440px;
   max-height: 401px;
 }
+
+#M-1366-54 .subject_question_item {
+  margin-top: 10.5vh;
+  font-family: 'DejaVu Sans Oblique', sans-serif;
+  font-size: 2.3;
+}
+
+#M-1366-54 .subject_question_item a {
+  color: #7FD1D8;
+}
