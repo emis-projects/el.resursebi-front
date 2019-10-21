@@ -1568,6 +1568,10 @@ section .arrow_up_down_downArrow img {
   padding-bottom: 10.4vh;
 }
 
+.padding-top-10vh {
+  padding-top: 10vh;
+}
+
 .main-box_absolute {
   position: absolute;
   height: 100vh;
@@ -1880,6 +1884,7 @@ section .arrow_up_down_downArrow img {
   font-size: 28px;
   font-style: italic;
   font-family: 'DejaVu Sans Oblique';
+  color: #fff;
 }
 
 .container_main_title_exercise-paddings {
@@ -2727,7 +2732,7 @@ section .arrow_up_down_downArrow img {
 .ask-question-game-container .choose-question img:last-child {
   margin-bottom: 0;
 }
-/*# sourceMappingURL=style.css.map */
+
 .N-1366-81 {
   background-image: url("../img/gakvetilebi/buneba/1366-81.png");
   background-position: bottom center;
@@ -2754,3 +2759,4 @@ section .arrow_up_down_downArrow img {
 #N-1366-83 .nature-text-wrapper {
   height: 16vh;
 }
+/*# sourceMappingURL=style.css.map */
