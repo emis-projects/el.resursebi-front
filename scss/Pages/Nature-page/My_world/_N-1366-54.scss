@@ -1,0 +1,17 @@
+.ask_question_game {
+  height: 93vh;
+
+  &_box {
+    height: 23vh;
+    width: 23vh;
+    margin-bottom: 2.5vh;
+
+    &:first-of-type {
+      margin-top: 3.3vh;
+    }
+
+    img {
+      height: 100%;
+    }
+  }
+}

@@ -1,0 +1,38 @@
+.main_title_padding_bottom {
+  margin-bottom: 5vh;
+
+  h1 {
+    font-family: "ALK Sanet", sans-serif;
+    font-size: 1.8vh;
+    color: #262626;
+  }
+}
+
+.pl-7vw {
+  padding-left: 7.3vw;
+}
+
+.bottom_components {
+  margin-top: 4.5vh;
+
+  .item_flex {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    .subject_component_title {
+      margin-left: 0;
+      margin-top: 3vh;
+      font-size: 1.8vh;
+    }
+  }
+}
+
+.subject_component .subject-class .subject_component_itle_icon {
+  height: 7.8vh;
+  width: 7.8vh;
+
+  img {
+    max-height: 4vh;
+  }
+}
