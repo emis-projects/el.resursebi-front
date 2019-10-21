@@ -1822,6 +1822,15 @@ section .arrow_up_down_downArrow img {
   font-size: 1.8vh;
 }
 
+.subject_component .subject-class .subject_component_itle_icon {
+  height: 7.8vh;
+  width: 7.8vh;
+}
+
+.subject_component .subject-class .subject_component_itle_icon img {
+  max-height: 4vh;
+}
+
 .paint_atributes_color_box {
   background-image: url("../img/gakvetilebi/xelovneba/paint-boxo.svg");
 }
@@ -2765,24 +2774,36 @@ section .arrow_up_down_downArrow img {
           justify-content: flex-start;
 }
 
-.ask-question-game-container img {
-  height: 80vh;
-  margin-right: 5.3vw;
-  margin-top: -10vh;
+.ask_question_game {
+  height: 93vh;
 }
 
-.ask-question-game-container .choose-question {
-  margin-left: 5.3vw;
+.ask_question_game_box {
+  height: 23vh;
+  width: 23vh;
+  margin-bottom: 2.5vh;
 }
 
-.ask-question-game-container .choose-question img {
-  margin-bottom: 20px;
-  margin-top: 0;
-  height: 21vh;
+.ask_question_game_box:first-of-type {
+  margin-top: 3.3vh;
 }
 
-.ask-question-game-container .choose-question img:last-child {
-  margin-bottom: 0;
+.ask_question_game_box img {
+  height: 100%;
+}
+
+.N-1366-80 {
+  background-image: url("../img/gakvetilebi/buneba/1366-80.png");
+  background-position: right center;
+}
+
+.bottom_nav_icons {
+  position: absolute;
+  bottom: 2.7vh;
+  height: 4.6vh;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
 }
 
 .N-1366-81 {
@@ -2795,20 +2816,11 @@ section .arrow_up_down_downArrow img {
 }
 
 .N-1366-82 {
-  background-image: url("../img/gakvetilebi/buneba/1366-75.png");
+  background-image: url("../img/gakvetilebi/buneba/1366-82.png");
   background-position: center;
-}
-
-#N-1366-82 .nature-text-wrapper {
-  height: 16vh;
 }
 
 .N-1366-83 {
   background-image: url("../img/gakvetilebi/buneba/1366-83.png");
   background-position: center;
 }
-
-#N-1366-83 .nature-text-wrapper {
-  height: 16vh;
-}
-/*# sourceMappingURL=style.css.map */
