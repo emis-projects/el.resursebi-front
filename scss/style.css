@@ -2968,6 +2968,22 @@ section .arrow_up_down_downArrow img {
   background-image: url(../img/gakvetilebi/musika/MV-1366-48.svg);
 }
 
+.background-mv-65 {
+  background-image: url(../img/gakvetilebi/musika/MV-1366-65.svg);
+}
+
+.background-mv-66 {
+  background-image: url(../img/gakvetilebi/musika/MV-1366-66.svg);
+}
+
+.background-mv-67 {
+  background-image: url(../img/gakvetilebi/musika/MV-1366-67.svg);
+}
+
+.background-mv-69 {
+  background-image: url(../img/gakvetilebi/musika/MV-1366-69.svg);
+}
+
 .background-mv-full {
   background-position: top center;
   background-size: cover;
