@@ -2848,3 +2848,58 @@ section .arrow_up_down_downArrow img {
 #M-1366-54 .subject_question_item a {
   color: #7FD1D8;
 }
+
+.music-download-button button {
+  color: #fff;
+  font-family: "ALK Sanet";
+  font-size: 15px;
+  background-color: #dc6c85;
+  width: 168px;
+  height: 46px;
+  border-radius: 23px;
+}
+
+.m-1366-23-img-container {
+  position: absolute;
+  bottom: 0;
+  left: 20vw;
+}
+
+.m-1366-23-img-container img {
+  height: 60vh;
+}
+
+.m-1366-24-img-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.m-1366-24-img-container img {
+  height: 70vh;
+}
+
+.voices_exercise-task {
+  color: #0B2228;
+  font-size: 2.34vh;
+  font-family: 'BPG Arial';
+  margin-top: 3.20vh;
+}
+
+.voices_exercise-task-main {
+  line-height: 3.9vh;
+}
+
+.voices_exercise-task-italic {
+  font-family: 'DejaVu Sans Oblique';
+  line-height: 3.9vh;
+}
+
+.voices_exercise_musical_instruments_container {
+  margin-top: 5px;
+}
+
+.padding-top-5-vh {
+  padding-top: 5vh;
+}
+/*# sourceMappingURL=style.css.map */
