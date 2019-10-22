@@ -3203,3 +3203,15 @@ section .arrow_up_down_downArrow img {
 .m-1366-51-img-container img {
   height: 56vh;
 }
+
+.m-1366-42_question_item {
+  font-size: 2.34vh;
+  font-family: 'BPG Arial';
+  color: #0B2228;
+}
+
+.m-1366-42_question_item_link {
+  font-family: 'DejaVu Sans Oblique', sans-serif;
+  font-size: 2.3vh;
+  color: #0B2228;
+}
