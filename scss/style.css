@@ -2871,6 +2871,7 @@ section .arrow_up_down_downArrow img {
   font-size: 1.82vh;
   font-family: 'BPG Arial';
   color: #0B2228;
+  padding-bottom: 2.5vh;
 }
 
 .voices_tasks_smallfont_with_images {
@@ -2878,6 +2879,14 @@ section .arrow_up_down_downArrow img {
   font-family: "italic Helvetica Neue";
   color: #0B2228;
   padding-bottom: 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-align-items: flex-end;
+  margin-left: 3.82vw;
 }
 
 .voices_tasks_smallfont_image {
