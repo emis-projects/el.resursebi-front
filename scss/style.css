@@ -3096,6 +3096,57 @@ section .arrow_up_down_downArrow img {
   padding-top: 5vh;
 }
 
+.music_mood-title {
+  font-family: 'DejaVu Sans Oblique';
+  font-size: 2.34vh;
+  color: #0B2228;
+  line-height: 3.90vh;
+}
+
+.music_mood-button {
+  cursor: pointer;
+  height: 14.32vh;
+}
+
+.music_mood-button-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 10px 0;
+}
+
+.M-1366-63-content {
+  margin-top: 5.44vh;
+}
+
+.M-1366-63-wrapper {
+  margin-bottom: 5.2vh;
+}
+
+.m-1366-63-img-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.m-1366-63-img-container img {
+  height: 47.78vh;
+}
+
+.m-1366-63_text_component {
+  margin-top: 8.1vh;
+}
+
+.m-1366-63_text_question_item {
+  padding-bottom: 0;
+  color: #0B2228;
+  font-size: 2.34vh;
+  font-family: 'BPG Arial';
+}
+
 #M-1366-34 .subject_question_item p {
   line-height: 3.9vh;
   font-size: 2.3vh;
@@ -3133,3 +3184,4 @@ section .arrow_up_down_downArrow img {
           justify-content: space-between;
   margin: 10px 0;
 }
+/*# sourceMappingURL=style.css.map */
