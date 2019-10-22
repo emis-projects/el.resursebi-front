@@ -3066,4 +3066,25 @@ section .arrow_up_down_downArrow img {
 .padding-top-5-vh {
   padding-top: 5vh;
 }
-/*# sourceMappingURL=style.css.map */
+
+.music_mood-title {
+  font-family: 'DejaVu Sans Oblique';
+  font-size: 2.34vh;
+  color: #0B2228;
+  line-height: 3.90vh;
+}
+
+.music_mood-button {
+  cursor: pointer;
+  height: 14.32vh;
+}
+
+.music_mood-button-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 10px 0;
+}
