@@ -2839,16 +2839,14 @@ section .arrow_up_down_downArrow img {
   max-height: 401px;
 }
 
-/* .voices_man_trumpet_container{ 
-          
-} */
 .voices_man_trumpet_atributes {
   position: absolute;
   left: 0;
   bottom: 0;
   background-image: url("../img/backgrounds/music_man_trumpet.png");
-  height: 73.935vh;
+  height: 70vh;
   width: 47.84vw;
+  background-position: left bottom;
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -2871,13 +2869,22 @@ section .arrow_up_down_downArrow img {
   font-size: 1.82vh;
   font-family: 'BPG Arial';
   color: #0B2228;
+  padding-bottom: 2.5vh;
 }
 
 .voices_tasks_smallfont_with_images {
   font-size: 1.82vh;
-  font-family: "italic Helvetica Neue";
+  font-family: 'DejaVu Sans Oblique', sans-serif;
   color: #0B2228;
   padding-bottom: 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-align-items: flex-end;
+  margin-left: 3.82vw;
 }
 
 .voices_tasks_smallfont_image {
@@ -2896,6 +2903,65 @@ section .arrow_up_down_downArrow img {
 
 #M-1366-54 .subject_question_item a {
   color: #7FD1D8;
+}
+
+.instruction_box {
+  font-family: 'DejaVu Sans Oblique', sans-serif;
+  font-size: 2.3vh;
+}
+
+.instruction_box h4 {
+  margin-top: 10.5vh;
+  font-family: 'BPG Arial', sans-serif;
+  color: #0B2228;
+  margin-bottom: 4.6vh;
+}
+
+.instruction_box a {
+  color: #7FD1D8;
+}
+
+.content-box_text-wrapper {
+  margin-bottom: 4.6vh;
+}
+
+.content-box_text-wrapper .bg_flower {
+  background: url("../img/gakvetilebi/xelovneba/btn-yellow.svg") center left no-repeat;
+  background-size: contain;
+  height: 3vh;
+  width: 2.5vw;
+  max-width: 34px;
+  max-height: 17px;
+  margin-right: 1vw;
+}
+
+.content-box_text-wrapper p {
+  font-family: 'BPG Arial', sans-serif;
+  font-size: 1.8vh;
+  color: #0B2228;
+  width: 98%;
+}
+
+.content-box_text-wrapper a {
+  color: #7FD1D8;
+}
+
+.content-box .left_box {
+  margin-bottom: 2vh;
+  /* &:last-child {
+                margin-top: 13vh;
+            } */
+}
+
+.content-box span {
+  padding-right: 1.5vw;
+  color: #7FD1D8;
+  font-size: 1.8vh;
+  padding-top: 0;
+}
+
+#M-1366-64 .instruction_box h4 {
+  margin-top: 2.4vh;
 }
 
 .music-download-button button {
@@ -3000,3 +3066,4 @@ section .arrow_up_down_downArrow img {
 .padding-top-5-vh {
   padding-top: 5vh;
 }
+/*# sourceMappingURL=style.css.map */
