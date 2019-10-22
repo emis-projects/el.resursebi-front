@@ -2898,4 +2898,36 @@ section .arrow_up_down_downArrow img {
 .voices_exercise_musical_instruments_container {
   margin-top: 5px;
 }
-/*# sourceMappingURL=style.css.map */
+
+.background-mv-44 {
+  background-image: url(../img/gakvetilebi/musika/MV-1366-44.svg);
+}
+
+.background-mv-45 {
+  background-image: url(../img/gakvetilebi/musika/MV-1366-45.svg);
+}
+
+.background-mv-46 {
+  background-image: url(../img/gakvetilebi/musika/MV-1366-46.svg);
+}
+
+.background-mv-47 {
+  background-image: url(../img/gakvetilebi/musika/MV-1366-47.svg);
+}
+
+.background-mv-48 {
+  background-image: url(../img/gakvetilebi/musika/MV-1366-48.svg);
+}
+
+.background-mv-full {
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-mv-full-title {
+  color: #243E41;
+  font-size: 3.64vh;
+  font-family: 'DejaVu Sans Oblique';
+  margin-top: 12.75vh;
+}

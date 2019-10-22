@@ -1,0 +1,28 @@
+.background-mv {
+  &-44 {
+    background-image: url(../img/gakvetilebi/musika/MV-1366-44.svg);
+  }
+  &-45 {
+    background-image: url(../img/gakvetilebi/musika/MV-1366-45.svg);
+  }
+  &-46 {
+    background-image: url(../img/gakvetilebi/musika/MV-1366-46.svg);
+  }
+  &-47 {
+    background-image: url(../img/gakvetilebi/musika/MV-1366-47.svg);
+  }
+  &-48 {
+    background-image: url(../img/gakvetilebi/musika/MV-1366-48.svg);
+  }
+  &-full {
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    &-title{
+        color: #243E41;
+        font-size: 3.64vh;
+        font-family: 'DejaVu Sans Oblique';
+        margin-top: 12.75vh;
+    }
+  }
+}
