@@ -1,0 +1,17 @@
+.music_mood{
+    &-title{
+        font-family: 'DejaVu Sans Oblique';
+        font-size: 2.34vh;
+        color: #0B2228;
+        line-height: 3.90vh;
+    }
+    &-button{
+        cursor: pointer;
+        height: 14.32vh;
+        &-container{
+            display: flex;
+            justify-content: space-between;
+            margin: 10px 0;
+        }
+    }
+}
