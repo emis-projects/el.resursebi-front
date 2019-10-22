@@ -2886,13 +2886,18 @@ section .arrow_up_down_downArrow img {
   background-repeat: no-repeat;
 }
 
-#M-1366-54 .subject_question_item {
+.music_subject_question_item {
   margin-top: 10.5vh;
   font-family: 'DejaVu Sans Oblique', sans-serif;
   font-size: 2.3;
 }
 
-#M-1366-54 .subject_question_item a {
+.music_subject_question_item p {
+  line-height: 3.9vh;
+  color: #0B2228;
+}
+
+.music_subject_question_item a {
   color: #7FD1D8;
 }
 
@@ -2905,18 +2910,25 @@ section .arrow_up_down_downArrow img {
   margin-top: 10.5vh;
   font-family: 'BPG Arial', sans-serif;
   color: #0B2228;
-  margin-bottom: 4.6vh;
 }
 
 .instruction_box a {
   color: #7FD1D8;
 }
 
-.content-box_text-wrapper {
-  margin-bottom: 4.6vh;
+.music_content-box {
+  margin-top: 3vh;
 }
 
-.content-box_text-wrapper .bg_flower {
+.music_content-box_text-wrapper {
+  margin-bottom: 3vh;
+}
+
+.music_content-box_text-wrapper:last-child {
+  margin-bottom: 0;
+}
+
+.music_content-box_text-wrapper .bg_flower {
   background: url("../img/gakvetilebi/xelovneba/btn-yellow.svg") center left no-repeat;
   background-size: contain;
   height: 3vh;
@@ -2926,29 +2938,46 @@ section .arrow_up_down_downArrow img {
   margin-right: 1vw;
 }
 
-.content-box_text-wrapper p {
+.music_content-box_text-wrapper p {
   font-family: 'BPG Arial', sans-serif;
   font-size: 1.8vh;
   color: #0B2228;
   width: 98%;
+  line-height: 2.9vh;
 }
 
-.content-box_text-wrapper a {
+.music_content-box_text-wrapper a {
   color: #7FD1D8;
 }
 
-.content-box .left_box {
+.music_content-box .left_box {
   margin-bottom: 2vh;
   /* &:last-child {
                 margin-top: 13vh;
             } */
 }
 
-.content-box span {
+.music_content-box span {
   padding-right: 1.5vw;
   color: #7FD1D8;
   font-size: 1.8vh;
   padding-top: 0;
+}
+
+/* @media screen and (min-width: 1200px) {
+    .music_content-box_text-wrapper p {
+        font-size: 14px;
+    }
+
+} */
+@media screen and (max-width: 992px) {
+  .music_content-box .left_box {
+    margin-bottom: 1vh;
+  }
+}
+
+#M-1366-64 .subject_component {
+  margin-bottom: 0;
 }
 
 #M-1366-64 .instruction_box h4 {
@@ -3040,4 +3069,20 @@ section .arrow_up_down_downArrow img {
 
 .padding-top-5-vh {
   padding-top: 5vh;
+}
+
+#M-1366-34 .subject_question_item p {
+  line-height: 3.9vh;
+  font-size: 2.3vh;
+  font-family: 'DejaVu Sans Oblique', s;
+}
+
+#M-1366-34 .subject_question_item p {
+  line-height: 3.9vh;
+  font-size: 2.3vh;
+  font-family: 'DejaVu Sans Oblique', sans-serif;
+}
+
+#M-1366-34 .pt {
+  margin-top: 2vh;
 }

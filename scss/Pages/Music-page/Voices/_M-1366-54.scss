@@ -1,11 +1,14 @@
-#M-1366-54 {
-    .subject_question_item {
-        margin-top: 10.5vh;
-        font-family: 'DejaVu Sans Oblique', sans-serif;
-        font-size: 2.3;
+.music_subject_question_item {
+    margin-top: 10.5vh;
+    font-family: 'DejaVu Sans Oblique', sans-serif;
+    font-size: 2.3;
 
-        a {
-            color: #7FD1D8;
-        }
+    p {
+        line-height: 3.9vh;
+        color: #0B2228;
+    }
+
+    a {
+        color: #7FD1D8;
     }
 }
