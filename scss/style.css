@@ -2874,7 +2874,7 @@ section .arrow_up_down_downArrow img {
 
 .voices_tasks_smallfont_with_images {
   font-size: 1.82vh;
-  font-family: "italic Helvetica Neue";
+  font-family: 'DejaVu Sans Oblique', sans-serif;
   color: #0B2228;
   padding-bottom: 0;
   -webkit-box-pack: justify;
@@ -3050,3 +3050,4 @@ section .arrow_up_down_downArrow img {
 .padding-top-5-vh {
   padding-top: 5vh;
 }
+/*# sourceMappingURL=style.css.map */
