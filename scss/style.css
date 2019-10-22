@@ -2838,4 +2838,16 @@ section .arrow_up_down_downArrow img {
   max-width: 440px;
   max-height: 401px;
 }
+
+.voices_musical_instruments_container {
+  margin-left: 33.01vw;
+  margin-top: 8.41vh;
+}
+
+.voices_musical_instruments_atributes {
+  background-image: url("../img/backgrounds/music_instruments_backgrounds.svg");
+  height: 54.55vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 /*# sourceMappingURL=style.css.map */
