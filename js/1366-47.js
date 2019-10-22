@@ -14,7 +14,12 @@ function dragQuizGame(){
 
 
 
+  $(() => {
+    $(document).on("dragstart", "button.cloned", (e) => this.dragStart(e));
+    $(document).on("live", "button.cloned", (e) => this.dragEnd(e));
+  });
 
+  
 
   var myArray = [];
 
@@ -41,10 +46,7 @@ function dragQuizGame(){
   }
 
 
-  $(document).on("dragstart", "button.cloned", (e) => this.dragStart(e));
-  $(document).on("dragend", "button.cloned", (e) => this.dragEnd(e));
 
-  
 
   // init 
   this.init = () => {
@@ -115,6 +117,7 @@ function dragQuizGame(){
   this.dragEnd = e => {
     $(empties).addClass('noShadow');
     $(empties).removeClass('Shadow');
+    console.log('drag end');
 
     let elClassName = e.target.getAttribute('data-class');
 
@@ -123,6 +126,7 @@ function dragQuizGame(){
     if(wrapper.querySelector('.draggedElement')){
       wrapper.querySelector('.draggedElement').remove();
     }
+
   }
 
   
@@ -198,7 +202,7 @@ function dragQuizGame(){
           w.querySelector('.question__dot').classList.add('error');
         }
 
-        img.setAttribute('src', '../../img/gakvetilebi/xelovneba/color-game/x.svg');
+        img.setAttribute('src', '../../../img/gakvetilebi/xelovneba/color-game/x.svg');
 
         if(!w.querySelector('.errorImg')){
           w.querySelector('.question__dot').appendChild(img);
