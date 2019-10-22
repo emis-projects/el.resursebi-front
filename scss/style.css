@@ -2898,4 +2898,8 @@ section .arrow_up_down_downArrow img {
 .voices_exercise_musical_instruments_container {
   margin-top: 5px;
 }
+
+.padding-top-5-vh {
+  padding-top: 5vh;
+}
 /*# sourceMappingURL=style.css.map */
