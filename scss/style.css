@@ -2839,6 +2839,55 @@ section .arrow_up_down_downArrow img {
   max-height: 401px;
 }
 
+/* .voices_man_trumpet_container{ 
+          
+} */
+.voices_man_trumpet_atributes {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-image: url("../img/backgrounds/music_man_trumpet.png");
+  height: 73.935vh;
+  width: 47.84vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.voices_tasks_with_points {
+  margin-top: 5.24vh;
+}
+
+.points_question_item {
+  margin-bottom: 0.52vh;
+}
+
+.points_question_item span {
+  font-size: 2.34vh;
+  font-family: 'BPG Arial';
+  color: #0B2228;
+}
+
+.voices_tasks_smallfont {
+  font-size: 1.82vh;
+  font-family: 'BPG Arial';
+  color: #0B2228;
+}
+
+.voices_tasks_smallfont_with_images {
+  font-size: 1.82vh;
+  font-family: "italic Helvetica Neue";
+  color: #0B2228;
+  padding-bottom: 0;
+}
+
+.voices_tasks_smallfont_image {
+  background-image: url("../img/gakvetilebi/musika/MV-1366-26-street -music-round.png");
+  height: 23.17vh;
+  width: 13.03vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 #M-1366-54 .subject_question_item {
   margin-top: 10.5vh;
   font-family: 'DejaVu Sans Oblique', sans-serif;
@@ -2930,4 +2979,8 @@ section .arrow_up_down_downArrow img {
   font-size: 3.64vh;
   font-family: 'DejaVu Sans Oblique';
   margin-top: 12.75vh;
+}
+
+.padding-top-5-vh {
+  padding-top: 5vh;
 }
