@@ -2878,4 +2878,24 @@ section .arrow_up_down_downArrow img {
 .m-1366-24-img-container img {
   height: 70vh;
 }
+
+.voices_exercise-task {
+  color: #0B2228;
+  font-size: 2.34vh;
+  font-family: 'BPG Arial';
+  margin-top: 3.20vh;
+}
+
+.voices_exercise-task-main {
+  line-height: 3.9vh;
+}
+
+.voices_exercise-task-italic {
+  font-family: 'DejaVu Sans Oblique';
+  line-height: 3.9vh;
+}
+
+.voices_exercise_musical_instruments_container {
+  margin-top: 5px;
+}
 /*# sourceMappingURL=style.css.map */
