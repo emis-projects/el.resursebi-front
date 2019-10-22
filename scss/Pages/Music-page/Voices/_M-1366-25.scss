@@ -1,0 +1,18 @@
+.voices_exercise{
+    &-task{
+        color: #0B2228;
+        font-size: 2.34vh;
+        font-family: 'BPG Arial';
+        margin-top: 3.20vh;
+        &-main{
+            line-height: 3.9vh;
+        }
+        &-italic{
+            font-family: 'DejaVu Sans Oblique';
+            line-height: 3.9vh;
+        }
+    }
+    &_musical_instruments_container{
+        margin-top: 5px;
+    }
+}

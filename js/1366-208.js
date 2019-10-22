@@ -90,8 +90,8 @@ function chooseColor(){
 
 	this.getExtraColor = () => {
 		if(this.colors[0] === 'yellow' && this.colors[1] === 'blue'){
-			img1.src = "../../img/gakvetilebi/xelovneba/color-game/yellow-color-show.svg";
-			img2.src = "../../img/gakvetilebi/xelovneba/color-game/blue-color-show.svg";
+			img1.src = "../../../img/gakvetilebi/xelovneba/color-game/yellow-color-show.svg";
+			img2.src = "../../../img/gakvetilebi/xelovneba/color-game/blue-color-show.svg";
 			img1.classList.remove('opacity-0');
 			img1.classList.add('opacity-5');
 			img2.classList.remove('opacity-0');
@@ -105,8 +105,8 @@ function chooseColor(){
 		}
 
 		if(this.colors[0] === 'blue' && this.colors[1] === 'red'){
-			img1.src = "../../img/gakvetilebi/xelovneba/color-game/red-color-show.svg";
-			img2.src = "../../img/gakvetilebi/xelovneba/color-game/blue-color-show.svg";
+			img1.src = "../../../img/gakvetilebi/xelovneba/color-game/red-color-show.svg";
+			img2.src = "../../../img/gakvetilebi/xelovneba/color-game/blue-color-show.svg";
 			img1.classList.remove('opacity-0');
 			img1.classList.add('opacity-5');
 			img1.classList.add('cursor-pointer');

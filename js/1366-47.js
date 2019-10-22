@@ -13,15 +13,13 @@ function dragQuizGame(){
   const resetBtn = document.getElementById('resetBtn');
 
 
-  $(document).on("dragstart", "button.cloned", (e) => { 
-    this.dragStart(e);
+
+  $(() => {
+    $(document).on("dragstart", "button.cloned", (e) => this.dragStart(e));
+    $(document).on("live", "button.cloned", (e) => this.dragEnd(e));
   });
 
-  $(document).on("dragend", "button.cloned", (e) => { 
-    this.dragEnd(e);
-  });
-
-
+  
 
   var myArray = [];
 
@@ -29,7 +27,6 @@ function dragQuizGame(){
     myArray.push(items[i])
   }
   
-
 
 
   // Fill listeners
@@ -47,6 +44,7 @@ function dragQuizGame(){
     empty.addEventListener('dragover', (e) => this.dragEnter(e));
     empty.addEventListener('drop', (e) => this.dragDrop(e));
   }
+
 
 
 
@@ -79,7 +77,10 @@ function dragQuizGame(){
 
     wrapper.querySelectorAll('.draggable__answer__btns').forEach(w => {
       w.removeAttribute('disabled')
-    })
+    });
+
+    $(items).removeAttr('data-answer');
+
   }
 
 
@@ -109,26 +110,23 @@ function dragQuizGame(){
     setTimeout(() => {
       e.target.className = "draggedElement"
     }, 0);
-
-    console.log('drag start');
   }
 
 
   // drag end
   this.dragEnd = e => {
+    $(empties).addClass('noShadow');
+    $(empties).removeClass('Shadow');
+    console.log('drag end');
+
     let elClassName = e.target.getAttribute('data-class');
 
     e.target.className = elClassName;
-
-    $(empties).addClass('noShadow');
-    $(empties).removeClass('Shadow');
-
 
     if(wrapper.querySelector('.draggedElement')){
       wrapper.querySelector('.draggedElement').remove();
     }
 
-    console.log('drag end');
   }
 
   
@@ -204,7 +202,7 @@ function dragQuizGame(){
           w.querySelector('.question__dot').classList.add('error');
         }
 
-        img.setAttribute('src', '../../img/gakvetilebi/xelovneba/color-game/x.svg');
+        img.setAttribute('src', '../../../img/gakvetilebi/xelovneba/color-game/x.svg');
 
         if(!w.querySelector('.errorImg')){
           w.querySelector('.question__dot').appendChild(img);
@@ -244,8 +242,8 @@ function dragQuizGame(){
         this.errorMessage();
       }
     })
-	}
-0
+  }
+  
 
   completeBtn.addEventListener('click', () => this.completGame());
   resetBtn.addEventListener('click', () => this.init());
