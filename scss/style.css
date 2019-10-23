@@ -1074,6 +1074,20 @@ section .arrow_up_down_downArrow img {
   background-repeat: no-repeat;
 }
 
+.listen_btn {
+  background-color: #7FD1D8;
+  color: #fff;
+  padding: 0 3.39vw;
+  height: 5.98vh;
+  border-radius: 27px;
+  font-family: 'ALK Sanet';
+  font-size: 1.82vh;
+}
+
+.listen_btn:focus {
+  outline: none;
+}
+
 /* 
 *wow slider CSS section 
 */
@@ -3263,6 +3277,32 @@ section .arrow_up_down_downArrow img {
   padding-top: 6.51vh;
 }
 
+.game-number-container {
+  background-color: #fff;
+  height: 58px;
+  width: 58px;
+  border-radius: 50%;
+  position: absolute;
+  top: 80%;
+  left: 30%;
+}
+
+.game-number-container img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.margin-left-20px {
+  margin-left: 20px;
+}
+
+.music_M-1366-49_content {
+  padding-top: 6.51vh;
+}
+
 #M-1366-57 .music_content_wrapper {
   margin-left: 5.3vw;
   font-size: 2.3vh;
@@ -3279,4 +3319,19 @@ section .arrow_up_down_downArrow img {
 
 #M-1366-57 .music_content_wrapper .music_code_box img {
   height: 100%;
+}
+
+.m_game_text-container {
+  margin-top: 0;
+}
+
+.listen_text-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 2vh;
+}
+
+.listen_text-container-txt-margin {
+  margin-left: 1.36vw;
 }
