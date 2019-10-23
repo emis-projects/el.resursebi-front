@@ -1074,6 +1074,19 @@ section .arrow_up_down_downArrow img {
   background-repeat: no-repeat;
 }
 
+.listen_btn {
+  background-color: #7FD1D8;
+  color: #fff;
+  padding: 1.41vh 3.39vw 1.61vh;
+  border-radius: 27px;
+  font-family: 'ALK Sanet';
+  font-size: 1.82vh;
+}
+
+.listen_btn:focus {
+  outline: none;
+}
+
 /* 
 *wow slider CSS section 
 */
@@ -3258,4 +3271,7 @@ section .arrow_up_down_downArrow img {
 .music_M-1366-49_content {
   padding-top: 6.51vh;
 }
-/*# sourceMappingURL=style.css.map */
+
+.m_game_text-container {
+  margin-top: 0;
+}
