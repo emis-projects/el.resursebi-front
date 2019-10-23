@@ -1615,7 +1615,7 @@ section .arrow_up_down_downArrow img {
   width: 100%;
 }
 
-.portfolio-item-container img {
+.portfolio-item-container .main-box_absolute img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
@@ -3196,4 +3196,3 @@ section .arrow_up_down_downArrow img {
   font-size: 2.3vh;
   color: #0B2228;
 }
-/*# sourceMappingURL=style.css.map */
