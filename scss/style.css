@@ -3409,10 +3409,64 @@ section .arrow_up_down_downArrow img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 2vh;
+  margin-top: 2.5vh;
 }
 
 .listen_text-container-txt-margin {
   margin-left: 1.36vw;
 }
 /*# sourceMappingURL=style.css.map */
+
+.car_game_container_full {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 2.5vh !important;
+}
+
+.car_game_container {
+  position: relative;
+  height: 21.87vh;
+}
+
+.car_game_img img {
+  height: 21.87vh;
+}
+
+.car_game_white_circle {
+  width: 7.55vh;
+  height: 7.55vh;
+  -webkit-transform: matrix(0, -1, 1, 0, 0, 0);
+          transform: matrix(0, -1, 1, 0, 0, 0);
+  background: #ffffff 0% 0% no-repeat padding-box;
+  -webkit-box-shadow: 0px 3px 6px #00000029;
+          box-shadow: 0px 3px 6px #00000029;
+  opacity: 1;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -2.6vh;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.car_game_white_circle img {
+  height: 4.03vh;
+}
+
+.game_btns_position {
+  position: absolute;
+  right: 18vh;
+  bottom: 15vh;
+}
