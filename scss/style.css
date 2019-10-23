@@ -1077,7 +1077,8 @@ section .arrow_up_down_downArrow img {
 .listen_btn {
   background-color: #7FD1D8;
   color: #fff;
-  padding: 1.41vh 3.39vw 1.61vh;
+  padding: 0 3.39vw;
+  height: 5.98vh;
   border-radius: 27px;
   font-family: 'ALK Sanet';
   font-size: 1.82vh;
@@ -3274,4 +3275,15 @@ section .arrow_up_down_downArrow img {
 
 .m_game_text-container {
   margin-top: 0;
+}
+
+.listen_text-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 2vh;
+}
+
+.listen_text-container-txt-margin {
+  margin-left: 1.36vw;
 }
