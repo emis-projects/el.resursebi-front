@@ -3323,6 +3323,12 @@ section .arrow_up_down_downArrow img {
   margin-top: 2.5vh !important;
 }
 
+.car_game_container_full-between {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .car_game_container {
   position: relative;
   height: 21.87vh;
@@ -3366,4 +3372,83 @@ section .arrow_up_down_downArrow img {
   position: absolute;
   right: 18vh;
   bottom: 15vh;
+}
+
+.car_game_img_numbers-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.car_game_img_number {
+  height: 4.02vh;
+}
+
+/* The custom_radioButton_container */
+.custom_radiobutton_full_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 2vh 0 4vh;
+}
+
+.custom_radioButton_container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.custom_radioButton_container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 3.51vh;
+  width: 3.51vh;
+  border-radius: 50%;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c5cbcd;
+}
+
+/* On mouse-over, add a grey background color */
+.custom_radioButton_container:hover input ~ .checkmark {
+  background-color: #7fd1d8;
+}
+
+/* When the radio button is checked, add a blue background */
+.custom_radioButton_container input:checked ~ .checkmark {
+  background-color: #7fd1d8;
+  border: 1px solid #7fd1d8;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.custom_radioButton_container input:checked ~ .checkmark:after {
+  display: block;
 }
