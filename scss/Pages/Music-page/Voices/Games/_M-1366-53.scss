@@ -13,6 +13,9 @@
     display: flex;
     justify-content: space-around;
     margin-top: 2.5vh !important;
+    &-between {
+      justify-content: space-between;
+    }
   }
   &_container {
     position: relative;
