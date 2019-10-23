@@ -102,21 +102,46 @@
                     <h3 class="subject_component_title">სავარჯიშო</h3>
                 </div>
                 <div class="col-3 d-flex flex-column">
-                    <div class="ask_question_game_box">
-                        <img src="../../img/gakvetilebi/buneba/ask-question-game-1.svg" alt="">
+                    <div class="ask_question_game_box ask_question_game_box--first" data-class="ask_question_game_box ask_question_game_box--first">
+                        <h5 class="draggeble_h5" data-index="2">შეიძლება ის საშიში ნივთიერებისგან იყოს გაკეთებული</h5>
                     </div>
-                    <div class="ask_question_game_box">
-                        <img src="../../img/gakvetilebi/buneba/ask-question-game-2.svg" alt="">
+                    <div class="ask_question_game_box ask_question_game_box--second" data-class="ask_question_game_box ask_question_game_box--second">
+                        <h5 class="draggeble_h5" data-index="4">მოვიფიქროთ სიმბოლოები, რომლებიც ნივთიერებათა  საშიშ თვისებების შესახებ აწვდის გაფრთხილებას ადამიანებს</h5>
                     </div>
-                    <div class="ask_question_game_box">
-                        <img src="../../img/gakvetilebi/buneba/ask-question-game-3.svg" alt="">
+                    <div class="ask_question_game_box ask_question_game_box--third" data-class="ask_question_game_box ask_question_game_box--third">
+                        <h5 class="draggeble_h5" data-index="6">დავადგინოთ ის  ნივთიერებები, რომლებიც საშიშია ადამიანისა და გარემოსათვის</h5>
                     </div>
                 </div>
-                <div class="col-9">
-
+                <div class="col-9 flex">
+                    <div class="circle__container relative w-100">
+                        <div class="ask_question_game_box--sm" data-index="1">
+                            <h5>რატომ შეიცავს ზოგიერთი სათამაშო საფრთხეს?</h5>
+                        </div>
+    
+                        <div class="ask_question_game_box--sm dropDiv" data-index="2"></div>
+    
+                        <div class="ask_question_game_box--sm" data-index="3">
+                            <h5>ნივთიერებები დავაჯგუფოთ თვისებების მიხედვით</h5>
+                        </div>
+    
+                        <div class="ask_question_game_box--sm dropDiv" data-index="4"></div>
+    
+                        <div class="ask_question_game_box--sm" data-index="5">
+                            <h5>დავადგინოთ, რა ნივთიერებებისგან აკეთებენ სათამაშოებს</h5>
+                        </div>
+    
+                        <div class="ask_question_game_box--sm dropDiv" data-index="6"></div>
+                    </div>
                 </div>
             </div>
         </section>
+
+        <div class="flex flex-end column align-items-end z-index reload_game_wrapper">
+            <button id="resetBtn" class="reset__btn">თავიდან სცადე</button>
+            <button id="completedGame" class="completed__btn">დასრულება</button>
+        </div>
+
+
         <div class="paging_buttons paging_buttons_position">
             <a href="./N-1366-53.html">
                 <img src="../../img/icons/chevron-down-logo.svg" alt="down arrow" class="paging_buttons_left" />
@@ -132,8 +157,11 @@
             </div>
         </div>
     </div>
+
+
+    <script src="../../js/libraries/jquery-3.4.1.min.js"></script>
+    <script src="../../js/nature-1-games.js"></script>
     <script src="../../js/soundSwitch.js"></script>
 
 </body>
-
 </html>
