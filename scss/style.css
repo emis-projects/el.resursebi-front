@@ -3228,6 +3228,18 @@ section .arrow_up_down_downArrow img {
   margin: 10px 0;
 }
 
+.m-1366-42_question_item {
+  font-size: 2.34vh;
+  font-family: 'BPG Arial';
+  color: #0B2228;
+}
+
+.m-1366-42_question_item_link {
+  font-family: 'DejaVu Sans Oblique', sans-serif;
+  font-size: 2.3vh;
+  color: #0B2228;
+}
+
 .m_exercise_text-container {
   color: #0B2228;
   font-size: 2.34vh;
@@ -3247,14 +3259,7 @@ section .arrow_up_down_downArrow img {
   height: 56vh;
 }
 
-.m-1366-42_question_item {
-  font-size: 2.34vh;
-  font-family: 'BPG Arial';
-  color: #0B2228;
+.music_M-1366-49_content {
+  padding-top: 6.51vh;
 }
-
-.m-1366-42_question_item_link {
-  font-family: 'DejaVu Sans Oblique', sans-serif;
-  font-size: 2.3vh;
-  color: #0B2228;
-}
+/*# sourceMappingURL=style.css.map */
