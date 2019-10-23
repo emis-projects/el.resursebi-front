@@ -1,3 +1,10 @@
 .m_game_text-container{
     margin-top: 0;
 }
+.listen_text-container{
+    display: flex;
+    margin-top: 2vh;
+    &-txt-margin{
+        margin-left: 1.36vw;
+    }
+}
