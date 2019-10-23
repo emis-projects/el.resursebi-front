@@ -1,10 +1,53 @@
-.m_game_text-container{
-    margin-top: 0;
+.m_game_text-container {
+  margin-top: 0;
 }
-.listen_text-container{
+.listen_text-container {
+  display: flex;
+  margin-top: 2.5vh;
+  &-txt-margin {
+    margin-left: 1.36vw;
+  }
+}
+.car_game {
+  &_container_full {
     display: flex;
-    margin-top: 2vh;
-    &-txt-margin{
-        margin-left: 1.36vw;
+    justify-content: space-around;
+    margin-top: 2.5vh !important;
+    &-between {
+      justify-content: space-between;
     }
+  }
+  &_container {
+    position: relative;
+    height: 21.87vh;
+  }
+  &_img {
+    img {
+      height: 21.87vh;
+    }
+  }
+  &_white_circle {
+    width: 7.55vh;
+    height: 7.55vh;
+    transform: matrix(0, -1, 1, 0, 0, 0);
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -2.6vh;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+        height: 4.03vh;
+    }
+  }
+}
+.game_btns_position {
+  position: absolute;
+  right: 18vh;
+  bottom: 15vh;
 }
