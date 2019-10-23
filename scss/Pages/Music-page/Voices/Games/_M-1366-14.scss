@@ -1,0 +1,18 @@
+.game-number-container {
+    background-color: #fff;
+    height: 58px;
+    width: 58px;
+    border-radius: 50%;
+    position: absolute;
+    top: 80%;
+    left: 30%;
+    img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+.margin-left-20px {
+    margin-left: 20px;
+}
