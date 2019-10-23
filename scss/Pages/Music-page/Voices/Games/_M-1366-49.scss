@@ -31,22 +31,23 @@ padding-bottom:2.97vh;
   padding-bottom:1.97vh;
 }
 
-.trumpet_game_content_trumpets{
-height: 24.05vh;
+/* .trumpet_game_content_trumpets{
+
 }
+ */
 
-
-.trumpet_game_container{
- 
+.music_m-1366-49_trumpet_game_container{
+  height: 24.05vh;
   position :relative;
-  .trumpet_game__round_left .trumpet_game__round_right{
+  .trumpet_game__round_left,.trumpet_game__round_right{
     position: absolute;
   }
   .trumpet_game__round_left{
   top:6.09vh;
-  left:10.09vw;
+  left:9.41vw; 
   }
   .trumpet_game__round_right{ 
-    left:6.09vw;
+ 
+    left:23.61vw;
     }
 }
