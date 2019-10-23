@@ -1,0 +1,56 @@
+#M-1366-58 {
+    .music_content_wrapper {
+        margin-left: 5.3vw;
+        font-size: 2.3vh;
+        color: #0B2228;
+        font-family: 'BPG Arial', sans-serif;
+
+        .music_code_box {
+            margin-top: 4.6vh;
+            max-width: 537px;
+            width: 39vw;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+
+//! dots vith active class
+.dots {
+    margin-top: 4.6vh;
+
+    span {
+        height: 3vh;
+        width: 3vh;
+        max-width: 24px;
+        max-height: 24px;
+        border: 1px solid #C5CBCD;
+        transform: scale(2%);
+        display: inline-block;
+        border-radius: 100%;
+        background-color: transparent;
+        cursor: pointer;
+        position: relative;
+    }
+
+    .active {
+        &::after {
+            content: "";
+            position: absolute;
+            display: block;
+            height: 2vh;
+            width: 2vh;
+            max-width: 22px;
+            max-height: 22px;
+            background: #7FD1D8;
+            border-radius: 100%;
+            top: 50%;
+            left: 50%;
+            margin-top: -1vh;
+            margin-left: -1vh;
+        }
+    }
+}

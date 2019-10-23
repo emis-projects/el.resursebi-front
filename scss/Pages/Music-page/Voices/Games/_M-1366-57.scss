@@ -1,0 +1,38 @@
+#M-1366-57 {
+    .music_content_wrapper {
+        margin-left: 5.3vw;
+        font-size: 2.3vh;
+        color: #0B2228;
+        font-family: 'BPG Arial', sans-serif;
+
+        .mt-2 {
+            margin-top: 2.8vh;
+        }
+
+        .music_code_box {
+            margin: 2.8vh 0;
+            height: 24.7vh;
+            width: 100%;
+            max-height: 190px;
+
+            img {
+                height: 100%;
+            }
+        }
+    }
+
+    .listen_text-container {
+        max-width: 168px;
+    }
+}
+
+.game_buuton_wrapper {
+    position: absolute;
+    bottom: 12.5vh;
+    right: 10vw;
+}
+
+.btn-restart {
+    background: #F8D24B;
+    padding: 0 2.79vw;
+}

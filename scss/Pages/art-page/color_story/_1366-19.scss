@@ -7,7 +7,7 @@
   height: 57.2vh;
   width: 100%;
 
-  img {
+  .main-box_absolute img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -25,9 +25,11 @@
 
 .fullScreen_modal {
   max-height: 90vh;
-  &-fade{
-    padding-right: 0!important;
+
+  &-fade {
+    padding-right: 0 !important;
   }
+
   &-dialog {
     width: 100%;
     max-width: 100%;
