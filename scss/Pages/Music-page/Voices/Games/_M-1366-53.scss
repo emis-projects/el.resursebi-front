@@ -3,7 +3,7 @@
 }
 .listen_text-container {
   display: flex;
-  margin-top: 2.2vh;
+  margin-top: 2.5vh;
   &-txt-margin {
     margin-left: 1.36vw;
   }
@@ -11,8 +11,8 @@
 .car_game {
   &_container_full {
     display: flex;
-    justify-content: space-evenly;
-    margin-top: 2.2vh !important;
+    justify-content: space-around;
+    margin-top: 2.5vh !important;
   }
   &_container {
     position: relative;

@@ -3307,7 +3307,7 @@ section .arrow_up_down_downArrow img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 2.2vh;
+  margin-top: 2.5vh;
 }
 
 .listen_text-container-txt-margin {
@@ -3318,10 +3318,9 @@ section .arrow_up_down_downArrow img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  margin-top: 2.2vh !important;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 2.5vh !important;
 }
 
 .car_game_container {
