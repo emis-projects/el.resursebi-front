@@ -1625,7 +1625,7 @@ section .arrow_up_down_downArrow img {
 .main-box_absolute .main-box_relative .text-wrapper {
   position: absolute;
   bottom: 0;
-  height: 35vh;
+  height: 25vh;
   left: 0;
   right: 0;
   z-index: 5555;
@@ -2865,7 +2865,7 @@ section .arrow_up_down_downArrow img {
   max-height: 521px;
 }
 
-.bottom_components {
+#M-1366-11 .bottom_components {
   margin-top: 30vh;
 }
 
@@ -2876,6 +2876,10 @@ section .arrow_up_down_downArrow img {
   width: 32vw;
   max-width: 440px;
   max-height: 401px;
+}
+
+#M-1366-13 .bottom_components {
+  margin-top: 30vh;
 }
 
 .voices_man_trumpet_atributes {
