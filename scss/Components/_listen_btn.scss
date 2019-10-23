@@ -1,0 +1,11 @@
+.listen_btn{
+    background-color: #7FD1D8;
+    color: #fff;
+    padding: 1.41vh 3.39vw 1.61vh;
+    border-radius: 27px;
+    font-family: 'ALK Sanet';
+    font-size: 1.82vh;
+    &:focus{
+        outline: none;
+    }
+}
