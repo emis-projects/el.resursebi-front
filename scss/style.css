@@ -1597,12 +1597,59 @@ section .arrow_up_down_downArrow img {
   padding-top: 10vh;
 }
 
-.text-wrapper_content-box {
-  margin-top: 14.7vh;
+.main-box_absolute {
+  position: absolute;
+  height: 100vh;
+  z-index: -555;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
-.main-box_relative .owl-carousel .owl-item img {
+.main-box_absolute .main-box_relative {
+  position: relative;
+  height: 100%;
+}
+
+.main-box_absolute .main-box_relative .owl-carousel {
+  height: inherit;
+}
+
+.main-box_absolute .main-box_relative .owl-carousel .item {
   width: 100%;
+  height: inherit;
+  -o-object-fit: none;
+     object-fit: none;
+}
+
+.main-box_absolute .main-box_relative .text-wrapper {
+  position: absolute;
+  bottom: 0;
+  height: 35vh;
+  left: 0;
+  right: 0;
+  z-index: 5555;
+  background: transparent -webkit-gradient(linear, left top, left bottom, color-stop(20%, #00000000), to(#000000)) 0% 0%;
+  background: transparent linear-gradient(180deg, #00000000 20%, #000000 100%) 0% 0%;
+}
+
+.main-box_absolute .main-box_relative .text-wrapper p {
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 5.5vh;
+  margin-left: 2.6vh;
+  line-height: 1vh;
+}
+
+.main-box_absolute .main-box_relative .text-wrapper .icon-box {
+  margin-top: 7.8vh;
+  height: 4.7vh;
+  width: 4.7vh;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.main-box_absolute .main-box_relative .text-wrapper .icon-box img {
+  height: 50%;
 }
 
 .container_main_title_portfolio-paddings {
@@ -1994,14 +2041,6 @@ section .arrow_up_down_downArrow img {
 
 .pt-5vh {
   padding-top: 5.07vh;
-}
-
-.text-wrapper_content-box {
-  margin-top: 14.7vh;
-}
-
-.main-box_relative .owl-carousel .owl-item img {
-  width: 100%;
 }
 
 .padding-top-14vh {
@@ -3195,6 +3234,25 @@ section .arrow_up_down_downArrow img {
   font-family: 'DejaVu Sans Oblique', sans-serif;
   font-size: 2.3vh;
   color: #0B2228;
+}
+
+.m_exercise_text-container {
+  color: #0B2228;
+  font-size: 2.34vh;
+  font-family: 'BPG Arial';
+  margin-top: 8.54vh;
+}
+
+.m_exercise_text-container p {
+  line-height: 3.9vh;
+}
+
+.m-1366-51-img-container {
+  left: 40vw;
+}
+
+.m-1366-51-img-container img {
+  height: 56vh;
 }
 
 .music_M-1366-49_content {
