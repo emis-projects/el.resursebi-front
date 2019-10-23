@@ -3348,6 +3348,19 @@ section .arrow_up_down_downArrow img {
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.car_game_white_circle img {
+  height: 4.03vh;
 }
 
 .game_btns_position {

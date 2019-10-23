@@ -35,6 +35,12 @@
     bottom: -2.6vh;
     left: 50%;
     transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+        height: 4.03vh;
+    }
   }
 }
 .game_btns_position {
