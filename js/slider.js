@@ -8,7 +8,7 @@ owl.owlCarousel({
   slideTransition: "linear",
   autoplay: true,
   autoHeight: true,
-  autoplayTimeout: 3000,
+  autoplayTimeout: 4500,
   autoplaySpeed: 500,
   lazyLoad: true
 });

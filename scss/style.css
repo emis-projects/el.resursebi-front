@@ -1676,6 +1676,13 @@ section .arrow_up_down_downArrow img {
   width: 100%;
 }
 
+.portfolio-item-container_img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .portfolio-item-container .main-box_absolute img {
   width: 100%;
   height: 100%;
@@ -2029,7 +2036,7 @@ section .arrow_up_down_downArrow img {
 }
 
 .middle_bg_box_image-2 {
-  background-image: url(../../../img/backgrounds/bg-ilustrations/hand-middle-paint.svg);
+  background-image: url("../img/backgrounds/bg-ilustrations/hand-middle-paint.svg");
   width: 47vw;
   height: 81vh;
 }
@@ -3874,12 +3881,12 @@ section .arrow_up_down_downArrow img {
 }
 
 .music_m-1366-50_trumpet_game_container .music_m-1366-50_trumpet_game_round_middle {
-  bottom: -5.25vh;
+  bottom: -4.75vh;
   left: 13.1vw;
 }
 
 .music_m-1366-50_trumpet_game_container .music_m-1366-50_trumpet_game_round_right {
-  bottom: -9.25vh;
+  bottom: -8.75vh;
   left: 26.2vw;
 }
 
@@ -4036,3 +4043,4 @@ section .arrow_up_down_downArrow img {
 .custom_radioButton_container input:checked ~ .checkmark:after {
   display: block;
 }
+/*# sourceMappingURL=style.css.map */
