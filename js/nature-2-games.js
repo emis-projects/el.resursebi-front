@@ -5,27 +5,30 @@ function natureGames(){
     
     // variables
     var draggedElement = document.querySelectorAll('.draggeble_element');
+    var draggedImgElement = document.querySelectorAll('.symbols_description-img');
     var parent = document.querySelectorAll('.draggeble_el_parent');
+    var mydrag = document.querySelectorAll('.draggeble_element');
     var completedBtn = document.querySelector('#completedGame');
     var resetBtn = document.getElementById('resetBtn');
 
 
-    $(draggedElement).on('dragstart', (e) => this.dragStart(e));
-    $(draggedElement).on('dragend', (e) => this.dragEnd(e));
+    $(draggedImgElement).on('dragstart', (e) => this.dragStart(e));
+    $(draggedImgElement).on('dragend', (e) => this.dragEnd(e));
 
 
     // Loop through empty boxes and add listeners
-    for (const empty of parent) {
-        empty.addEventListener('dragover', (e) => this.dragOver(e));
-        empty.addEventListener('dragover', (e) => this.dragEnter(e));
-        empty.addEventListener('drop', (e) => this.dragDrop(e));
+    for (const drag of mydrag) {
+        drag.addEventListener('dragover', (e) => this.dragOver(e));
+        // drag.addEventListener('dragenter', (e) => this.dragEnter(e));
+        // drag.addEventListener('dragleave', (e) => this.dragleave(e));
+        drag.addEventListener('drop', (e) => this.dragDrop(e));
     }
 
 
     var myArray = [];
 
-    for(var i = 0; i < parent.length; i++ ){
-      myArray.push(parent[i])
+    for(var i = 0; i < mydrag.length; i++ ){
+      myArray.push(mydrag [i])
     }
 
 
@@ -39,45 +42,52 @@ function natureGames(){
     this.dragOver = (e) => {
         e.preventDefault();
     }
+
+    // this.dragleave = (e) => {
+    //     if(e.target.classList.contains('symbols_description-img')){
+    //         e.target.classList.remove('hovered')
+    //     }
+    // }
   
-    this.dragEnter = (e) => {
-        e.preventDefault();
-    }
+    // this.dragEnter = (e) => {
+    //     e.preventDefault();
+    
+    // }
+
 
     // drag start 
     this.dragStart = (e) => {
         setTimeout(() => {
-            e.target.parentElement.className = "draggedElement"
-            e.target.parentElement.parentElement.classList.remove('dragEl');
+            e.target.className = "draggedElement"
+            e.target.parentElement.setAttribute('data-drag', true);
         }, 0);
     }
 
 
     // drag end
     this.dragEnd = e => {
-        let elClassName = e.target.parentElement.getAttribute('data-class');
-
-        e.target.parentElement.className = elClassName;
+        let elClassName = e.target.getAttribute('data-class');
+        e.target.parentElement.setAttribute('data-drag', false);
+        e.target.className = elClassName;
     }
 
 
     // drop 
     this.dragDrop = e => {
-        // debugger
-
+        debugger
+        
         let drag = document.querySelector('.draggedElement');
 
         let list = e.target.parentElement.parentElement;
 
-        list.insertBefore(drag, list.lastElementChild);
+        list.querySelector('.draggeble_element').appendChild(drag)
         
-        var firstElement = list.firstElement;
+        var firstElement = list.children[0].children[0];
 
         myArray.forEach(w => {
-            if(w.classList.contains('dragEl') == false){
-
-                w.childNodes[0] = 'test'
-
+            if(w.getAttribute('data-drag') == true){
+                // w.appendChild(firstElement)
+                console.log(w);
             }
         })
     }
