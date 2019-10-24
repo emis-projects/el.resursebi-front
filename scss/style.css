@@ -2430,8 +2430,14 @@ section .arrow_up_down_downArrow img {
   font-family: 'BPG Arial';
 }
 
-.symbols_description-img {
+.symbols_description img {
   height: 5.6vh;
+}
+
+.draggeble_element {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  position: relative;
 }
 
 #N-1366-34 .N-1366-34 {
