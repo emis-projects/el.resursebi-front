@@ -16,7 +16,7 @@ function dragQuizGame(){
 
   $(() => {
     $(document).on("dragstart", "button.cloned", (e) => this.dragStart(e));
-    $(document).on("live", "button.cloned", (e) => this.dragEnd(e));
+    $(document).on("dragend", "button.cloned", (e) => this.dragEnd(e));
   });
 
   
