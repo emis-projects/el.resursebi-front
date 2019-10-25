@@ -1088,6 +1088,12 @@ section .arrow_up_down_downArrow img {
   outline: none;
 }
 
+.big-font-size-32px {
+  color: #0B2228;
+  font-family: "BPG Arial";
+  font-size: 2.86vh;
+}
+
 /* 
 *wow slider CSS section 
 */
@@ -4045,12 +4051,7 @@ section .arrow_up_down_downArrow img {
 }
 
 /* @import "./art-page/calm_and_stormy/A-1366-75"; */
-.big-font-size-32px {
-  color: #0B2228;
-  font-family: "BPG Arial";
-  font-size: 2.86vh;
-}
-/*# sourceMappingURL=style.css.map */
+/* @import "./art-page/calm_and_stormy/A-1366-75"; */
 .art_modal_page-images-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4071,3 +4072,9 @@ section .arrow_up_down_downArrow img {
 .portfolio-slider-81.owl-theme .owl-dots .owl-dot:nth-child(2) span {
   background-image: url("../img/gakvetilebi/xelovneba/calm-and-stormy/A-81-slider-2.png");
 }
+
+.a-1366-158-subject-question-item img {
+  visibility: hidden;
+  padding-right: 1.12vw;
+}
+/*# sourceMappingURL=style.css.map */
