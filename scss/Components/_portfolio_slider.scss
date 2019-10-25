@@ -64,4 +64,15 @@
       background-image: url("../img/gakvetilebi/xelovneba/calm-and-stormy/A-87-slider-2.png");
     }
   }
+  &-101.owl-theme .owl-dots {
+    .owl-dot:nth-child(1) span {
+      background-image: url("../img/gakvetilebi/xelovneba/calm-and-stormy/A-101-slider-1.png");
+    }
+    .owl-dot:nth-child(2) span {
+      background-image: url("../img/gakvetilebi/xelovneba/calm-and-stormy/A-101-slider-2.png");
+    }
+    .owl-dot:nth-child(3) span {
+        background-image: url("../img/gakvetilebi/xelovneba/calm-and-stormy/A-101-slider-3.png");
+      }
+  }
 }
