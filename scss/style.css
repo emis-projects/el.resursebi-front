@@ -4051,3 +4051,23 @@ section .arrow_up_down_downArrow img {
   font-size: 2.86vh;
 }
 /*# sourceMappingURL=style.css.map */
+.art_modal_page-images-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 3vh auto;
+}
+
+.art_modal_page-circle-img {
+  height: 33.85vh;
+}
+
+.portfolio-slider-81.owl-theme .owl-dots .owl-dot:nth-child(1) span {
+  background-image: url("../img/gakvetilebi/xelovneba/calm-and-stormy/A-81-slider-1.png");
+}
+
+.portfolio-slider-81.owl-theme .owl-dots .owl-dot:nth-child(2) span {
+  background-image: url("../img/gakvetilebi/xelovneba/calm-and-stormy/A-81-slider-2.png");
+}
