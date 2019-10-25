@@ -1,0 +1,31 @@
+#A-1366-220 {
+    .subject_question_item {
+        margin-bottom: 9.3vh;
+        padding-bottom: 0;
+
+        &_img_box {
+            height: 8vh;
+            max-height: 64px;
+            padding-left: 3.8vw;
+
+            &_wave {
+                height: 2.7vh;
+                max-width: 260px;
+                width: 16.8vw;
+                margin-left: -2.7vw;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            img {
+                height: 100%;
+            }
+        }
+    }
+
+    .mt-5vh {
+        margin-top: 2vh;
+    }
+}

@@ -1,0 +1,25 @@
+#A-1366-29 {
+    .container_main_title_exercise-paddings {
+        height: 4.2vh;
+        display: flex;
+        align-items: center;
+        margin-bottom: 5.4vh;
+
+        div {
+            height: inherit;
+            padding-left: 1.7vw;
+
+            img {
+                height: 100%;
+                padding-right: 1.12vw;
+            }
+
+            h3 {
+                color: #262626;
+                font-family: "ALK Sanet";
+                font-size: 1.9vh;
+                line-height: 21px;
+            }
+        }
+    }
+}
