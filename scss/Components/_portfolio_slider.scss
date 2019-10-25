@@ -1,0 +1,67 @@
+.portfolio-slider.owl-theme .owl-dots {
+  left: auto;
+  right: 5.1vw;
+
+  .owl-dot span {
+    width: 16.9vh;
+    height: 16.9vh;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 4.3vw;
+  }
+
+  .owl-dot:first-child span {
+    background-image: url("../img/gakvetilebi/xelovneba/cnobili-namushevrebi/1.jpg");
+  }
+
+  .owl-dot:nth-child(2) span {
+    background-image: url("../img/gakvetilebi/xelovneba/cnobili-namushevrebi/2.jpg");
+  }
+
+  .owl-dot:nth-child(3) span {
+    background-image: url("../img/gakvetilebi/xelovneba/cnobili-namushevrebi/3.jpg");
+  }
+
+  .owl-dot {
+    outline: none;
+
+    &.active span {
+      display: none;
+    }
+  }
+}
+
+.portfolio-slider-second-page.owl-theme .owl-dots {
+  .owl-dot:first-child span {
+    background-image: url("../img/gakvetilebi/xelovneba/cnobili-namushevrebi/4.jpg");
+  }
+
+  .owl-dot:nth-child(2) span {
+    background-image: url("../img/gakvetilebi/xelovneba/cnobili-namushevrebi/5.jpg");
+  }
+
+  .owl-dot:nth-child(3) span {
+    background-image: url("../img/gakvetilebi/xelovneba/cnobili-namushevrebi/6.jpg");
+  }
+}
+
+.portfolio-slider {
+  &-81.owl-theme .owl-dots {
+    .owl-dot:nth-child(1) span {
+      background-image: url("../img/gakvetilebi/xelovneba/calm-and-stormy/A-81-slider-1.png");
+    }
+    .owl-dot:nth-child(2) span {
+      background-image: url("../img/gakvetilebi/xelovneba/calm-and-stormy/A-81-slider-2.png");
+    }
+  }
+  &-87.owl-theme .owl-dots {
+    .owl-dot:nth-child(1) span {
+      background-image: url("../img/gakvetilebi/xelovneba/calm-and-stormy/A-87-slider-1.png");
+    }
+    .owl-dot:nth-child(2) span {
+      background-image: url("../img/gakvetilebi/xelovneba/calm-and-stormy/A-87-slider-2.png");
+    }
+  }
+}
