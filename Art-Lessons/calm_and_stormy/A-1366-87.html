@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" type="text/css" href="../../scss/libraries/owl.carousel.min.css" />
+  <link rel="stylesheet" type="text/css" href="../../scss/libraries/owl.theme.default.css" />
+  <link rel="stylesheet" href="../../scss/libraries/bootstrap.min.css" />
+  <link rel="stylesheet" href="../../scss/style.css" />
+  <title>ხელოვნება</title>
+</head>
+
+<body class="bg-blue">
+  <div class="container">
+    <header>
+        <a class="close" href="./A-1366-84.html">
+          <img src="../../img/icons/close.svg" alt="close" />
+        </a>
+      </header>
+    <div class="subject_component_top_illustration">
+      <div class="bg_blue_up illustration_bg"></div>
+    </div>
+    <section>
+        <div class="subject_component row">
+            <div class="col-12 item_flex">
+              <div class="subject_component_itle_icon bg_bouble_blue d-flex justify-content-center align-items-center">
+                <img src="../../img/backgrounds/bg-ilustrations/bulb.svg" alt="flag" />
+              </div>
+              <h3 class="subject_component_title">მინიშნება</h3>
+            </div>
+          </div>
+          <div class="container_main_title container_main_title_exercise-paddings">
+            <img src="../../img/gakvetilebi/xelovneba/btn-blue.svg" alt="" />
+            <span>ცნობილი მხატვრების ნამუშევრები</span>
+          </div>
+      <div class="row">
+        <div class="col-8 m-auto">
+            <div class="row">
+                <div class="col-6">
+                    <div class="portfolio-item-container">
+                      <img src="../../img/gakvetilebi/xelovneba/calm-and-stormy/A-87-1.png" alt="" class="portfolio-item-container_img">
+                      <div class="paging_buttons">
+                        <a href="" id="slide1" class="paging_buttons_fullScreen-link" data-toggle="modal"
+                          data-target="#exampleModal"><img src="../../img/icons/arrows_blue.svg" alt=""
+                            class="paging_buttons_fullScreen-img" /></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="portfolio-item-container">
+                      <img src="../../img/gakvetilebi/xelovneba/calm-and-stormy/A-87-2.png" alt="" class="portfolio-item-container_img">
+                      <div class="paging_buttons">
+                        <a href="" id="slide2" class="paging_buttons_fullScreen-link" data-toggle="modal"
+                          data-target="#exampleModal"><img src="../../img/icons/arrows_blue.svg" alt=""
+                            class="paging_buttons_fullScreen-img" /></a>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+      </div>
+
+      <!-- Modal -->
+      <div class="modal fade fullScreen_modal-fade" id="exampleModal" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog fullScreen_modal-dialog" role="document">
+          <div class="modal-content fullScreen_modal-content">
+            <div class="container modal-header fullScreen_modal-header">
+              <a href="./1366–87.html" class="close" data-dismiss="modal" aria-label="Close">
+                <img src="../../img/icons/close.svg" alt="close" />
+              </a>
+            </div>
+            <div class="modal-body fullScreen_modal-body">
+              <div class="container-fluid">
+                <div class="owl-carousel owl-theme row no-gutters portfolio-slider portfolio-slider-87">
+                  <div class="item col-12 slide_content-box">
+                    <div>
+                      <div class="fullScreen_modal-img-lg-hor">
+                        <img src="../../img/gakvetilebi/xelovneba/calm-and-stormy/A-87-slider-1.png" alt="">
+                      </div>
+                      <h2 class="fullScreen_modal-title">Nafea Faa Ipoipo</h2>
+                    </div>
+                  </div>
+                  <div class="item col-12 slide_content-box">
+                    <div>
+                      <div class="fullScreen_modal-img-lg-hor">
+                        <img src="../../img/gakvetilebi/xelovneba/calm-and-stormy/A-87-slider-2.png" alt="">
+                      </div>
+                      <h2 class="fullScreen_modal-title">open window henri matisse</h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="paging_buttons paging_buttons_position">
+        <a href="./A-1366-101.html" class="paging_buttons_margin-left"><img src="../../img/icons/chevron-down-logo.svg" alt=""
+            class="paging_buttons_right" /></a>
+      </div>
+    </section>
+  </div>
+  <div class="subject_component_botton_illustration">
+    <div class="illustration_bg bg_blue_Down"></div>
+    <div class="subject_component_botton_icon">
+      <img src="../../img/backgrounds/bg-ilustrations/bulb.svg" alt="ruler art" />
+    </div>
+  </div>
+
+
+  <script src="../../js/libraries/jquery-3.4.1.min.js"></script>
+  <script src="../../js/libraries/owl.carousel.min.js"></script>
+  <script src="../../js/libraries/bootstrap.min.js"></script>
+  <script src="../../js/soundSwitch.js"></script>
+  <!-- <script src="../../js/slider.js"></script> -->
+  <script>
+    var owl = $(".owl-carousel");
+    owl.owlCarousel({
+      loop: true,
+      nav: false,
+      dots: true,
+      margin: 10,
+      items: 1,
+      autoplay: false,
+      autoHeight: true,
+      autoplayTimeout: 4000,
+      autoplayHoverPause: true
+    });
+    $(document).on('click', '#slide1', function () {
+      owl.trigger('to.owl.carousel', 0);
+    });
+    $(document).on('click', '#slide2', function () {
+      owl.trigger('to.owl.carousel', 1);
+    });
+  </script>
+</body>
+
+</html>
