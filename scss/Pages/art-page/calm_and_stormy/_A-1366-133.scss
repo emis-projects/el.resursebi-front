@@ -1,0 +1,20 @@
+#A-1366-133 {
+    .subject_question_item {
+        margin-top: 3vh;
+        padding-bottom: 0;
+
+        &_img_box {
+            margin-top: 5vh;
+            padding-bottom: 0;
+            display: flex;
+            justify-content: center;
+            height: 46vh;
+            max-height: 305px;
+
+            img {
+                height: 100%;
+                width: 100%;
+            }
+        }
+    }
+}
