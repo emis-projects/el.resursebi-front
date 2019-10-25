@@ -1,0 +1,10 @@
+.art_modal_page {
+    &-images-container{
+        display: flex;
+        justify-content: space-around;
+        margin: 3vh auto;
+    }
+  &-circle-img {
+      height: 33.85vh;
+  }
+}

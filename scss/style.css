@@ -1088,6 +1088,81 @@ section .arrow_up_down_downArrow img {
   outline: none;
 }
 
+.portfolio-slider.owl-theme .owl-dots {
+  left: auto;
+  right: 5.1vw;
+}
+
+.portfolio-slider.owl-theme .owl-dots .owl-dot span {
+  width: 16.9vh;
+  height: 16.9vh;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 4.3vw;
+}
+
+.portfolio-slider.owl-theme .owl-dots .owl-dot:first-child span {
+  background-image: url("../img/gakvetilebi/xelovneba/cnobili-namushevrebi/1.jpg");
+}
+
+.portfolio-slider.owl-theme .owl-dots .owl-dot:nth-child(2) span {
+  background-image: url("../img/gakvetilebi/xelovneba/cnobili-namushevrebi/2.jpg");
+}
+
+.portfolio-slider.owl-theme .owl-dots .owl-dot:nth-child(3) span {
+  background-image: url("../img/gakvetilebi/xelovneba/cnobili-namushevrebi/3.jpg");
+}
+
+.portfolio-slider.owl-theme .owl-dots .owl-dot {
+  outline: none;
+}
+
+.portfolio-slider.owl-theme .owl-dots .owl-dot.active span {
+  display: none;
+}
+
+.portfolio-slider-second-page.owl-theme .owl-dots .owl-dot:first-child span {
+  background-image: url("../img/gakvetilebi/xelovneba/cnobili-namushevrebi/4.jpg");
+}
+
+.portfolio-slider-second-page.owl-theme .owl-dots .owl-dot:nth-child(2) span {
+  background-image: url("../img/gakvetilebi/xelovneba/cnobili-namushevrebi/5.jpg");
+}
+
+.portfolio-slider-second-page.owl-theme .owl-dots .owl-dot:nth-child(3) span {
+  background-image: url("../img/gakvetilebi/xelovneba/cnobili-namushevrebi/6.jpg");
+}
+
+.portfolio-slider-81.owl-theme .owl-dots .owl-dot:nth-child(1) span {
+  background-image: url("../img/gakvetilebi/xelovneba/calm-and-stormy/A-81-slider-1.png");
+}
+
+.portfolio-slider-81.owl-theme .owl-dots .owl-dot:nth-child(2) span {
+  background-image: url("../img/gakvetilebi/xelovneba/calm-and-stormy/A-81-slider-2.png");
+}
+
+.portfolio-slider-87.owl-theme .owl-dots .owl-dot:nth-child(1) span {
+  background-image: url("../img/gakvetilebi/xelovneba/calm-and-stormy/A-87-slider-1.png");
+}
+
+.portfolio-slider-87.owl-theme .owl-dots .owl-dot:nth-child(2) span {
+  background-image: url("../img/gakvetilebi/xelovneba/calm-and-stormy/A-87-slider-2.png");
+}
+
+.portfolio-slider-101.owl-theme .owl-dots .owl-dot:nth-child(1) span {
+  background-image: url("../img/gakvetilebi/xelovneba/calm-and-stormy/A-101-slider-1.png");
+}
+
+.portfolio-slider-101.owl-theme .owl-dots .owl-dot:nth-child(2) span {
+  background-image: url("../img/gakvetilebi/xelovneba/calm-and-stormy/A-101-slider-2.png");
+}
+
+.portfolio-slider-101.owl-theme .owl-dots .owl-dot:nth-child(3) span {
+  background-image: url("../img/gakvetilebi/xelovneba/calm-and-stormy/A-101-slider-3.png");
+}
+
 /* 
 *wow slider CSS section 
 */
@@ -1690,6 +1765,10 @@ section .arrow_up_down_downArrow img {
      object-fit: cover;
 }
 
+.modal {
+  z-index: 99999;
+}
+
 .modal-body .owl-theme .owl-dots {
   position: absolute;
   bottom: 8.4vh;
@@ -1769,53 +1848,6 @@ section .arrow_up_down_downArrow img {
   font-family: "Helvetica Neue";
   margin: 15px 0;
   font-style: italic;
-}
-
-.portfolio-slider.owl-theme .owl-dots {
-  left: auto;
-  right: 5.1vw;
-}
-
-.portfolio-slider.owl-theme .owl-dots .owl-dot span {
-  width: 16.9vh;
-  height: 16.9vh;
-  border-radius: 50%;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin-left: 4.3vw;
-}
-
-.portfolio-slider.owl-theme .owl-dots .owl-dot:first-child span {
-  background-image: url("../img/gakvetilebi/xelovneba/cnobili-namushevrebi/1.jpg");
-}
-
-.portfolio-slider.owl-theme .owl-dots .owl-dot:nth-child(2) span {
-  background-image: url("../img/gakvetilebi/xelovneba/cnobili-namushevrebi/2.jpg");
-}
-
-.portfolio-slider.owl-theme .owl-dots .owl-dot:nth-child(3) span {
-  background-image: url("../img/gakvetilebi/xelovneba/cnobili-namushevrebi/3.jpg");
-}
-
-.portfolio-slider.owl-theme .owl-dots .owl-dot {
-  outline: none;
-}
-
-.portfolio-slider.owl-theme .owl-dots .owl-dot.active span {
-  display: none;
-}
-
-.portfolio-slider-second-page.owl-theme .owl-dots .owl-dot:first-child span {
-  background-image: url("../img/gakvetilebi/xelovneba/cnobili-namushevrebi/4.jpg");
-}
-
-.portfolio-slider-second-page.owl-theme .owl-dots .owl-dot:nth-child(2) span {
-  background-image: url("../img/gakvetilebi/xelovneba/cnobili-namushevrebi/5.jpg");
-}
-
-.portfolio-slider-second-page.owl-theme .owl-dots .owl-dot:nth-child(3) span {
-  background-image: url("../img/gakvetilebi/xelovneba/cnobili-namushevrebi/6.jpg");
 }
 
 .padding-top-14vh {
@@ -4044,6 +4076,7 @@ section .arrow_up_down_downArrow img {
   display: block;
 }
 
+<<<<<<< HEAD
 #A-1366-75 a {
   color: #7FD1D8;
 }
@@ -4074,4 +4107,68 @@ section .arrow_up_down_downArrow img {
   font-family: "ALK Sanet";
   font-size: 1.9vh;
   line-height: 21px;
+}
+
+.calm_stormy .subject_question_item {
+  font-size: 2.8vh;
+  font-family: 'DejaVu Sans Oblique';
+}
+
+#A-1366-186 .subject_question_item {
+  margin-top: 20.5vh;
+  font-size: 1.6vw;
+}
+
+#A-1366-191 .subject_question_item {
+  margin-top: 21vh;
+}
+
+#A-1366-220 .subject_question_item {
+  margin-bottom: 9.3vh;
+  padding-bottom: 0;
+}
+
+#A-1366-220 .subject_question_item_img_box {
+  height: 8vh;
+  max-height: 64px;
+  padding-left: 3.8vw;
+}
+
+#A-1366-220 .subject_question_item_img_box_wave {
+  height: 2.7vh;
+  max-width: 260px;
+  width: 16.8vw;
+  margin-left: -2.7vw;
+}
+
+#A-1366-220 .subject_question_item_img_box_wave img {
+  width: 100%;
+}
+
+#A-1366-220 .subject_question_item_img_box img {
+  height: 100%;
+}
+
+#A-1366-220 .mt-5vh {
+  margin-top: 2vh;
+=======
+/* @import "./art-page/calm_and_stormy/A-1366-75"; */
+.big-font-size-32px {
+  color: #0B2228;
+  font-family: "BPG Arial";
+  font-size: 2.86vh;
+}
+
+.art_modal_page-images-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 3vh auto;
+}
+
+.art_modal_page-circle-img {
+  height: 33.85vh;
+>>>>>>> 370aad72bcee096917715d3bc7360f6523bb2c07
 }
