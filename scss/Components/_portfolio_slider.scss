@@ -72,7 +72,23 @@
       background-image: url("../img/gakvetilebi/xelovneba/calm-and-stormy/A-101-slider-2.png");
     }
     .owl-dot:nth-child(3) span {
-        background-image: url("../img/gakvetilebi/xelovneba/calm-and-stormy/A-101-slider-3.png");
-      }
+      background-image: url("../img/gakvetilebi/xelovneba/calm-and-stormy/A-101-slider-3.png");
+    }
+  }
+  &-105.owl-theme .owl-dots {
+    .owl-dot:nth-child(1) span {
+      background-image: url("../img/gakvetilebi/xelovneba/calm-and-stormy/A-105-slider-1.png");
+    }
+    .owl-dot:nth-child(2) span {
+      background-image: url("../img/gakvetilebi/xelovneba/calm-and-stormy/A-105-slider-2.png");
+    }
+  }
+  &-110.owl-theme .owl-dots {
+    .owl-dot:nth-child(1) span {
+      background-image: url("../img/gakvetilebi/xelovneba/calm-and-stormy/A-110-slider-1.png");
+    }
+    .owl-dot:nth-child(2) span {
+      background-image: url("../img/gakvetilebi/xelovneba/calm-and-stormy/A-110-slider-2.png");
+    }
   }
 }
