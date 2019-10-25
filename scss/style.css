@@ -4288,3 +4288,7 @@ section .arrow_up_down_downArrow img {
   visibility: hidden;
   padding-right: 1.12vw;
 }
+
+#A-1366-158 .pl-1vw {
+  padding-left: 2vw;
+}
