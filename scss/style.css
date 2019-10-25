@@ -1163,6 +1163,87 @@ section .arrow_up_down_downArrow img {
   background-image: url("../img/gakvetilebi/xelovneba/calm-and-stormy/A-101-slider-3.png");
 }
 
+.big-font-size-32px {
+  color: #0B2228;
+  font-family: "BPG Arial";
+  font-size: 2.86vh;
+}
+
+.portfolio-slider.owl-theme .owl-dots {
+  left: auto;
+  right: 5.1vw;
+}
+
+.portfolio-slider.owl-theme .owl-dots .owl-dot span {
+  width: 16.9vh;
+  height: 16.9vh;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 4.3vw;
+}
+
+.portfolio-slider.owl-theme .owl-dots .owl-dot:first-child span {
+  background-image: url("../img/gakvetilebi/xelovneba/cnobili-namushevrebi/1.jpg");
+}
+
+.portfolio-slider.owl-theme .owl-dots .owl-dot:nth-child(2) span {
+  background-image: url("../img/gakvetilebi/xelovneba/cnobili-namushevrebi/2.jpg");
+}
+
+.portfolio-slider.owl-theme .owl-dots .owl-dot:nth-child(3) span {
+  background-image: url("../img/gakvetilebi/xelovneba/cnobili-namushevrebi/3.jpg");
+}
+
+.portfolio-slider.owl-theme .owl-dots .owl-dot {
+  outline: none;
+}
+
+.portfolio-slider.owl-theme .owl-dots .owl-dot.active span {
+  display: none;
+}
+
+.portfolio-slider-second-page.owl-theme .owl-dots .owl-dot:first-child span {
+  background-image: url("../img/gakvetilebi/xelovneba/cnobili-namushevrebi/4.jpg");
+}
+
+.portfolio-slider-second-page.owl-theme .owl-dots .owl-dot:nth-child(2) span {
+  background-image: url("../img/gakvetilebi/xelovneba/cnobili-namushevrebi/5.jpg");
+}
+
+.portfolio-slider-second-page.owl-theme .owl-dots .owl-dot:nth-child(3) span {
+  background-image: url("../img/gakvetilebi/xelovneba/cnobili-namushevrebi/6.jpg");
+}
+
+.portfolio-slider-81.owl-theme .owl-dots .owl-dot:nth-child(1) span {
+  background-image: url("../img/gakvetilebi/xelovneba/calm-and-stormy/A-81-slider-1.png");
+}
+
+.portfolio-slider-81.owl-theme .owl-dots .owl-dot:nth-child(2) span {
+  background-image: url("../img/gakvetilebi/xelovneba/calm-and-stormy/A-81-slider-2.png");
+}
+
+.portfolio-slider-87.owl-theme .owl-dots .owl-dot:nth-child(1) span {
+  background-image: url("../img/gakvetilebi/xelovneba/calm-and-stormy/A-87-slider-1.png");
+}
+
+.portfolio-slider-87.owl-theme .owl-dots .owl-dot:nth-child(2) span {
+  background-image: url("../img/gakvetilebi/xelovneba/calm-and-stormy/A-87-slider-2.png");
+}
+
+.portfolio-slider-101.owl-theme .owl-dots .owl-dot:nth-child(1) span {
+  background-image: url("../img/gakvetilebi/xelovneba/calm-and-stormy/A-101-slider-1.png");
+}
+
+.portfolio-slider-101.owl-theme .owl-dots .owl-dot:nth-child(2) span {
+  background-image: url("../img/gakvetilebi/xelovneba/calm-and-stormy/A-101-slider-2.png");
+}
+
+.portfolio-slider-101.owl-theme .owl-dots .owl-dot:nth-child(3) span {
+  background-image: url("../img/gakvetilebi/xelovneba/calm-and-stormy/A-101-slider-3.png");
+}
+
 /* 
 *wow slider CSS section 
 */
@@ -4076,7 +4157,6 @@ section .arrow_up_down_downArrow img {
   display: block;
 }
 
-<<<<<<< HEAD
 #A-1366-75 a {
   color: #7FD1D8;
 }
@@ -4107,6 +4187,19 @@ section .arrow_up_down_downArrow img {
   font-family: "ALK Sanet";
   font-size: 1.9vh;
   line-height: 21px;
+}
+
+.art_modal_page-images-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 3vh auto;
+}
+
+.art_modal_page-circle-img {
+  height: 33.85vh;
 }
 
 .calm_stormy .subject_question_item {
@@ -4151,8 +4244,8 @@ section .arrow_up_down_downArrow img {
 
 #A-1366-220 .mt-5vh {
   margin-top: 2vh;
-=======
-/* @import "./art-page/calm_and_stormy/A-1366-75"; */
+}
+
 .big-font-size-32px {
   color: #0B2228;
   font-family: "BPG Arial";
@@ -4170,5 +4263,28 @@ section .arrow_up_down_downArrow img {
 
 .art_modal_page-circle-img {
   height: 33.85vh;
->>>>>>> 370aad72bcee096917715d3bc7360f6523bb2c07
+}
+
+.big-font-size-32px {
+  color: #0B2228;
+  font-family: "BPG Arial";
+  font-size: 2.86vh;
+}
+
+.art_modal_page-images-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 3vh auto;
+}
+
+.art_modal_page-circle-img {
+  height: 33.85vh;
+}
+
+.a-1366-158-subject-question-item img {
+  visibility: hidden;
+  padding-right: 1.12vw;
 }
