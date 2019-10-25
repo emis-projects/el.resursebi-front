@@ -1163,6 +1163,22 @@ section .arrow_up_down_downArrow img {
   background-image: url("../img/gakvetilebi/xelovneba/calm-and-stormy/A-101-slider-3.png");
 }
 
+.portfolio-slider-105.owl-theme .owl-dots .owl-dot:nth-child(1) span {
+  background-image: url("../img/gakvetilebi/xelovneba/calm-and-stormy/A-105-slider-1.png");
+}
+
+.portfolio-slider-105.owl-theme .owl-dots .owl-dot:nth-child(2) span {
+  background-image: url("../img/gakvetilebi/xelovneba/calm-and-stormy/A-105-slider-2.png");
+}
+
+.portfolio-slider-110.owl-theme .owl-dots .owl-dot:nth-child(1) span {
+  background-image: url("../img/gakvetilebi/xelovneba/calm-and-stormy/A-110-slider-1.png");
+}
+
+.portfolio-slider-110.owl-theme .owl-dots .owl-dot:nth-child(2) span {
+  background-image: url("../img/gakvetilebi/xelovneba/calm-and-stormy/A-110-slider-2.png");
+}
+
 .big-font-size-32px {
   color: #0B2228;
   font-family: "BPG Arial";
@@ -4279,6 +4295,29 @@ section .arrow_up_down_downArrow img {
 
 .art_modal_page-circle-img {
   height: 33.85vh;
+}
+
+#A-1366-133 .subject_question_item {
+  margin-top: 3vh;
+  padding-bottom: 0;
+}
+
+#A-1366-133 .subject_question_item_img_box {
+  margin-top: 5vh;
+  padding-bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 46vh;
+  max-height: 305px;
+}
+
+#A-1366-133 .subject_question_item_img_box img {
+  height: 100%;
+  width: 100%;
 }
 
 .big-font-size-32px {
