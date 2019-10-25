@@ -4043,4 +4043,35 @@ section .arrow_up_down_downArrow img {
 .custom_radioButton_container input:checked ~ .checkmark:after {
   display: block;
 }
-/*# sourceMappingURL=style.css.map */
+
+#A-1366-75 a {
+  color: #7FD1D8;
+}
+
+#A-1366-29 .container_main_title_exercise-paddings {
+  height: 4.2vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 5.4vh;
+}
+
+#A-1366-29 .container_main_title_exercise-paddings div {
+  height: inherit;
+  padding-left: 1.7vw;
+}
+
+#A-1366-29 .container_main_title_exercise-paddings div img {
+  height: 100%;
+  padding-right: 1.12vw;
+}
+
+#A-1366-29 .container_main_title_exercise-paddings div h3 {
+  color: #262626;
+  font-family: "ALK Sanet";
+  font-size: 1.9vh;
+  line-height: 21px;
+}
