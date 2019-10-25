@@ -1093,6 +1093,7 @@ section .arrow_up_down_downArrow img {
   font-family: "BPG Arial";
   font-size: 2.86vh;
 }
+
 .portfolio-slider.owl-theme .owl-dots {
   left: auto;
   right: 5.1vw;
@@ -1182,6 +1183,18 @@ section .arrow_up_down_downArrow img {
 
 .portfolio-slider-110.owl-theme .owl-dots .owl-dot:nth-child(2) span {
   background-image: url("../img/gakvetilebi/xelovneba/calm-and-stormy/A-110-slider-2.png");
+}
+
+.portfolio-slider-147.owl-theme .owl-dots .owl-dot:nth-child(1) span {
+  background-image: url("../img/gakvetilebi/xelovneba/calm-and-stormy/A-147-slider-1.png");
+}
+
+.portfolio-slider-147.owl-theme .owl-dots .owl-dot:nth-child(2) span {
+  background-image: url("../img/gakvetilebi/xelovneba/calm-and-stormy/A-147-slider-2.png");
+}
+
+.portfolio-slider-147.owl-theme .owl-dots .owl-dot:nth-child(3) span {
+  background-image: url("../img/gakvetilebi/xelovneba/calm-and-stormy/A-147-slider-3.png");
 }
 
 /* 
@@ -4099,12 +4112,6 @@ section .arrow_up_down_downArrow img {
 
 /* @import "./art-page/calm_and_stormy/A-1366-75"; */
 /* @import "./art-page/calm_and_stormy/A-1366-75"; */
-.big-font-size-32px {
-  color: #0B2228;
-  font-family: "BPG Arial";
-  font-size: 2.86vh;
-}
-
 .art_modal_page-images-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4118,16 +4125,7 @@ section .arrow_up_down_downArrow img {
   height: 33.85vh;
 }
 
-.portfolio-slider-81.owl-theme .owl-dots .owl-dot:nth-child(1) span {
-  background-image: url("../img/gakvetilebi/xelovneba/calm-and-stormy/A-81-slider-1.png");
-}
-
-.portfolio-slider-81.owl-theme .owl-dots .owl-dot:nth-child(2) span {
-  background-image: url("../img/gakvetilebi/xelovneba/calm-and-stormy/A-81-slider-2.png");
-}
-
 .a-1366-158-subject-question-item img {
   visibility: hidden;
   padding-right: 1.12vw;
 }
-/*# sourceMappingURL=style.css.map */
