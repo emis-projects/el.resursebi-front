@@ -1163,6 +1163,22 @@ section .arrow_up_down_downArrow img {
   background-image: url("../img/gakvetilebi/xelovneba/calm-and-stormy/A-101-slider-3.png");
 }
 
+.portfolio-slider-105.owl-theme .owl-dots .owl-dot:nth-child(1) span {
+  background-image: url("../img/gakvetilebi/xelovneba/calm-and-stormy/A-105-slider-1.png");
+}
+
+.portfolio-slider-105.owl-theme .owl-dots .owl-dot:nth-child(2) span {
+  background-image: url("../img/gakvetilebi/xelovneba/calm-and-stormy/A-105-slider-2.png");
+}
+
+.portfolio-slider-110.owl-theme .owl-dots .owl-dot:nth-child(1) span {
+  background-image: url("../img/gakvetilebi/xelovneba/calm-and-stormy/A-110-slider-1.png");
+}
+
+.portfolio-slider-110.owl-theme .owl-dots .owl-dot:nth-child(2) span {
+  background-image: url("../img/gakvetilebi/xelovneba/calm-and-stormy/A-110-slider-2.png");
+}
+
 .big-font-size-32px {
   color: #0B2228;
   font-family: "BPG Arial";
@@ -2737,6 +2753,13 @@ section .arrow_up_down_downArrow img {
 
 #N-1366-70 .nature-text-wrapper {
   height: 16vh;
+}
+
+.nature-1-game-3-draggeble {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 61px;
 }
 
 .N-1366-73 {
