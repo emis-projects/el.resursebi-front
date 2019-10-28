@@ -228,10 +228,15 @@ function dragQuizGame(){
  
   // success page
 	this.successPage  = () => {
-    if(location.pathname == "/Art-Lessons/color_story/games/1366-47.html" || location.pathname == "/Art-Lessons/color_story/games/1366-48.html"){
+    if(location.pathname == "/Art-Lessons/color_story/games/1366-47.html"){
       location.href = '1366-47-success.html';
 
-    } else if(location.pathname == "/el.resursebi-front/Art-Lessons/color_story/games/1366-47.html" || location.pathname == "/el.resursebi-front/Art-Lessons/color_story/games/1366-48.html") {
+    } else if(location.pathname == "/Art-Lessons/color_story/games/1366-48.html"){
+      location.href = '1366-48-success.html';
+
+    } else if(location.pathname == "/el.resursebi-front/Art-Lessons/color_story/games/1366-47.html") {
+      location.href = '1366-47-success.html';
+    } else if(location.pathname == "/el.resursebi-front/Art-Lessons/color_story/games/1366-48.html"){
       location.href = '1366-48-success.html';
 
     }
