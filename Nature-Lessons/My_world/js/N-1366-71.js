@@ -47,74 +47,78 @@ function natureGames3(){
     // drag start 
     this.dragStart = (e) => {
         setTimeout(() => {
-            e.target.className = "draggedElement"
+            e.target.parentElement.className = "draggedElement"
         }, 0);
-
-        console.log(e.target);
-        
     }
 
 
     // drag end
     this.dragEnd = e => {
-        let elClassName = e.target.getAttribute('data-class');
-        e.target.className = elClassName;
+        let elClassName = e.target.parentElement.getAttribute('data-class');
+        e.target.parentElement.className = elClassName;
     }
 
 
     // drop 
     this.dragDrop = e => {        
+
         let drag = document.querySelector('.draggedElement');
 
-        let list = e.target.parentElement.parentElement;
+        let list = e.target.parentElement;
 
-        list.querySelector('.nature-1-game-element').appendChild(drag);
+        // console.log(list);
         
-        var firstElement = list.children[0].children[0];
+        if(list.classList.contains('nature-1-game-3-draggeble')){
+            list.parentElement.insertBefore(drag, list.parentElement.childNodes[])
+            var firstElement = list.children[0].parentElement;
+            console.log(list.parentElement);
+        }
+        
 
         myArray.forEach(w => {
-            if(w.querySelector('img') == undefined){
-                w.appendChild(firstElement)
+            if(w.querySelector('.nature-1-game-3-draggeble') == undefined || w.querySelector('.nature-1-game-3-draggeble') == null){
+                w.querySelector('.b-1-draggeble_Element_parent').appendChild(firstElement)
+                // console.log(w);
             }
         })
     }
  
 
 	// error page 
-	this.errorPage = () => {
-		myArray.forEach(w => {
-			if(w.getAttribute('data-title') !== w.querySelector('.nature-1-game-img').getAttribute('data-title')){
-                this.error = true;
-                w.querySelector('img').setAttribute('style', 'border: 2px solid red; border-radius: 50%')
-			} else {
-                this.error = false
-            }
-		})
-    }
+	// this.errorPage = () => {
+	// 	myArray.forEach(w => {
+	// 		if(w.getAttribute('data-title') !== w.querySelector('.nature-1-game-img').getAttribute('data-title')){
+    //             this.error = true;
+    //             w.querySelector('img').setAttribute('style', 'border: 2px solid red; border-radius: 50%')
+	// 		} else {
+    //             this.error = false
+    //         }
+	// 	})
+    // }
 
 
-    this.checkEveryElement = (element) => {
-        return element.getAttribute('data-title') == element.querySelector('.nature-1-game-img').getAttribute('data-title')
-      }
+    // this.checkEveryElement = (element) => {
+    //     return element.querySelector('data-title') == element.querySelector('.nature-1-game-img').getAttribute('data-title')
+    //   }
     
 
     // // success page 
-	this.successPage  = () => {
-        location.href = 'nature-1-success.html';
-	}
+	// this.successPage  = () => {
+    //     location.href = 'nature-1-success.html';
+	// }
     
 
     // completed 
-	this.completGame = (e) => {
-        let el = myArray.every(this.checkEveryElement);
+	// this.completGame = (e) => {
+    //     let el = myArray.every(this.checkEveryElement);
         
-		if(el == false){
-            this.errorPage();
+	// 	if(el == false){
+    //         this.errorPage();
             
-        } else if(el == true) {
-            this.successPage();
-        }
-	}
+    //     } else if(el == true) {
+    //         this.successPage();
+    //     }
+	// }
 
 
     // events 
