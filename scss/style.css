@@ -2660,20 +2660,69 @@ section .arrow_up_down_downArrow img {
 }
 
 .symbols_description-container {
+  position: relative;
   color: #0B2228;
   margin-top: 1.8vh;
   font-size: 2.08vh;
   font-family: 'BPG Arial';
 }
 
+.symbols_description-container .after_parent {
+  display: inline-block;
+  position: relative;
+}
+
+.symbols_description-container .after_parent::after {
+  content: '';
+  position: absolute;
+  width: 3vh;
+  height: 3px;
+  background: red;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-45%, -50%) rotate(-45deg);
+          transform: translate(-45%, -50%) rotate(-45deg);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  z-index: 100;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.symbols_description-container .after_parent::before {
+  content: '';
+  position: absolute;
+  width: 3vh;
+  height: 3px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-45%, -50%) rotate(45deg);
+          transform: translate(-45%, -50%) rotate(45deg);
+  background: red;
+  z-index: 100;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.symbols_description-container .after_parent .after_parent.error::after, .symbols_description-container .after_parent .after_parent.error::before {
+  opacity: 1;
+  visibility: visible;
+}
+
+.symbols_description-container.error img {
+  border: 2px solid red;
+}
+
 .symbols_description img {
   height: 5.6vh;
+  position: relative;
 }
 
 .draggeble_element {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  position: relative;
 }
 
 #N-1366-34 .N-1366-34 {

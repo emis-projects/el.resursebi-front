@@ -1,0 +1,40 @@
+// .nature-material-full-col-2 {
+//     background-position: center;
+//     background-size: cover;
+//     background-repeat: no-repeat;
+//     height: 63px;
+//     width: 110px;
+// }
+
+// .b-1-draggeble_Element_parent {
+//     padding: 0 !important;
+
+//     .col-12 {
+//         padding: 0 !important;
+//     }
+// }
+
+// .nature-material-full-col-2 {
+//     p {
+//         position: absolute;
+//         bottom: -23px;
+//         left: 0;
+//         z-index: 0;
+//     }
+// }
+
+// .nature-material-full-col-2 {
+//     position: relative;
+
+//     &::after {
+//         content: '';
+//         position: absolute;
+//         left: 0;
+//         top: 0;
+//         width: 100%;
+//         height: 100%;
+//         cursor: pointer;
+//         background: transparent;
+//         z-index: 100000;
+//     }
+// }

@@ -3,11 +3,9 @@ function natureGames(){
     
     
     // variables
-    var draggedElement = document.querySelectorAll('.draggeble_element');
     var draggedImgElement = document.querySelectorAll('.symbols_description-img');
-    var parent = document.querySelectorAll('.draggeble_el_parent');
     var mydrag = document.querySelectorAll('.draggeble_element');
-    var completedBtn = document.querySelector('#completedGame');
+    var completedBtn = document.getElementById('completedGame');
     var resetBtn = document.getElementById('resetBtn');
 
 
@@ -44,7 +42,6 @@ function natureGames(){
     this.dragStart = (e) => {
         setTimeout(() => {
             e.target.className = "draggedElement"
-            e.target.parentElement.setAttribute('data-drag', true);
         }, 0);
         
     }
@@ -53,7 +50,6 @@ function natureGames(){
     // drag end
     this.dragEnd = e => {
         let elClassName = e.target.getAttribute('data-class');
-        e.target.parentElement.setAttribute('data-drag', false);
         e.target.className = elClassName;
     }
 
@@ -62,11 +58,15 @@ function natureGames(){
     this.dragDrop = e => {        
         let drag = document.querySelector('.draggedElement');
 
-        let list = e.target.parentElement.parentElement;
+        let list = e.target.parentElement.parentElement.parentElement;
+
+        console.log(list);
 
         list.querySelector('.draggeble_element').appendChild(drag);
         
         var firstElement = list.children[0].children[0];
+
+        console.log(firstElement);
 
         myArray.forEach(w => {
             if(w.querySelector('img') == undefined){
@@ -81,7 +81,8 @@ function natureGames(){
 		myArray.forEach(w => {
 			if(w.getAttribute('data-title') !== w.querySelector('.symbols_description-img').getAttribute('data-title')){
                 this.error = true;
-                w.querySelector('img').setAttribute('style', 'border: 2px solid red; border-radius: 50%')
+                w.querySelector('img').parentElement.classList.add('error');
+                w.querySelector('img').classList.add('opacity-5')
 			} else {
                 this.error = false
             }
@@ -102,10 +103,7 @@ function natureGames(){
 
     // completed 
 	this.completGame = (e) => {
-
         let el = myArray.every(this.checkEveryElement);
-
-        console.log(el);
 
 		if(el == false){
             this.errorPage();
@@ -118,7 +116,7 @@ function natureGames(){
 
     // events 
     resetBtn.addEventListener('click', () => this.init());
-	completedGame.addEventListener('click', () => this.completGame());
+	completedBtn.addEventListener('click', () => this.completGame());
 }
 
 const naturegame = new natureGames();
