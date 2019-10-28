@@ -2328,6 +2328,7 @@ section .arrow_up_down_downArrow img {
   background-image: url("../img/backgrounds/bg-ilustrations/hand-middle-paint.svg");
   width: 47vw;
   height: 81vh;
+  background-position: bottom;
 }
 
 .cool_warm-colors {
@@ -2357,12 +2358,15 @@ section .arrow_up_down_downArrow img {
   padding-top: 14vh;
 }
 
-.nature .main_box_links a {
-  width: 100%;
-  display: block;
-  font-size: 1.8vh;
-  padding: 2vh 0;
-  font-family: "ALK Sanet", sans-serif;
+.subject_bottom_illustration-nature {
+  position: absolute;
+  height: 23.69vh;
+  width: 8.27vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+  bottom: 2.35vh;
+  right: 4.27vw;
+  background-image: url("../img/gakvetilebi/buneba/buneba-artwork.svg");
 }
 
 #N-1366-11 .nature_full_image-box {
@@ -2393,19 +2397,42 @@ section .arrow_up_down_downArrow img {
   margin-top: 5vh;
 }
 
-.middle_bg_nature_couple {
-  width: 20.86vw;
-  height: 41.4vh;
-  background-image: url("../img/backgrounds/bg-ilustrations/nature-couple-middle.svg");
-  right: 21.3vw;
-  bottom: 1.42vh;
+#N-1366-15 .couple-img-box {
+  position: relative;
 }
 
-.nature_subject_question_item {
+#N-1366-15 .couple-img-box .middle_nature_couple {
+  width: 20.9vh;
+  height: 20.9vh;
+  background-image: url("../img/backgrounds/bg-ilustrations/nature-couple-middle.svg");
+  position: absolute;
+  background-position: center;
+  right: 0vw;
+  bottom: 0vh;
+}
+
+#N-1366-15 a {
+  color: #C5CBCD;
+}
+
+#N-1366-15 a .subject_component_itle_icon {
+  background-position: center;
+}
+
+#N-1366-15 a .subject_component_itle_icon img {
+  height: 100%;
+  max-height: 3.2vh;
+}
+
+#N-1366-15 .mt-13vh {
+  margin-top: 13.5vh;
+}
+
+#N-1366-15 .nature_subject_question_item {
   padding-bottom: 0;
 }
 
-.nature_subject_question_item:first-child {
+#N-1366-15 .nature_subject_question_item:first-child {
   padding-bottom: 6.3vh;
 }
 
@@ -2713,20 +2740,69 @@ section .arrow_up_down_downArrow img {
 }
 
 .symbols_description-container {
+  position: relative;
   color: #0B2228;
   margin-top: 1.8vh;
   font-size: 2.08vh;
   font-family: 'BPG Arial';
 }
 
+.symbols_description-container .after_parent {
+  display: inline-block;
+  position: relative;
+}
+
+.symbols_description-container .after_parent::after {
+  content: '';
+  position: absolute;
+  width: 3vh;
+  height: 3px;
+  background: red;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-45%, -50%) rotate(-45deg);
+          transform: translate(-45%, -50%) rotate(-45deg);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  z-index: 100;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.symbols_description-container .after_parent::before {
+  content: '';
+  position: absolute;
+  width: 3vh;
+  height: 3px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-45%, -50%) rotate(45deg);
+          transform: translate(-45%, -50%) rotate(45deg);
+  background: red;
+  z-index: 100;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.symbols_description-container .after_parent .after_parent.error::after, .symbols_description-container .after_parent .after_parent.error::before {
+  opacity: 1;
+  visibility: visible;
+}
+
+.symbols_description-container.error img {
+  border: 2px solid red;
+}
+
 .symbols_description img {
   height: 5.6vh;
+  position: relative;
 }
 
 .draggeble_element {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  position: relative;
 }
 
 #N-1366-34 .N-1366-34 {
@@ -2897,13 +2973,6 @@ section .arrow_up_down_downArrow img {
 
 #N-1366-70 .nature-text-wrapper {
   height: 16vh;
-}
-
-.nature-1-game-3-draggeble {
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 61px;
 }
 
 .N-1366-73 {

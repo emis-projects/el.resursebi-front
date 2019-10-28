@@ -1,16 +1,42 @@
-.middle_bg_nature_couple {
-  width: 20.86vw;
-  height: 41.4vh;
-  background-image: url("../img/backgrounds/bg-ilustrations/nature-couple-middle.svg");
-  right: 21.3vw;
-  bottom: 1.42vh;
-}
+#N-1366-15 {
+  .couple-img-box {
+    position: relative;
 
-.nature_subject_question_item {
-  padding-bottom: 0;
-}
+    .middle_nature_couple {
+      width: 20.9vh;
+      height: 20.9vh;
+      background-image: url("../img/backgrounds/bg-ilustrations/nature-couple-middle.svg");
+      position: absolute;
+      background-position: center;
+      right: 0vw;
+      bottom: 0vh;
+    }
+  }
 
-.nature_subject_question_item:first-child {
-  padding-bottom: 6.3vh;
+  a {
+    color: #C5CBCD;
+
+    .subject_component_itle_icon {
+      background-position: center;
+
+      // fill subject bg with different icons
+      img {
+        height: 100%;
+        max-height: 3.2vh;
+      }
+    }
+  }
+
+
+  .mt-13vh {
+    margin-top: 13.5vh;
+  }
+
+  .nature_subject_question_item {
+    padding-bottom: 0;
+  }
+
+  .nature_subject_question_item:first-child {
+    padding-bottom: 6.3vh;
+  }
 }
- 
