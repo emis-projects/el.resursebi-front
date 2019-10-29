@@ -1,0 +1,77 @@
+#A-1366-157 {
+    .mt-20vh {
+        margin-top: 20vh;
+    }
+
+    .pancil_img_box {
+        height: 46vh;
+        max-height: 358px;
+
+        .img_box {
+            cursor: pointer;
+            width: 24.5vw;
+            max-width: 336;
+        }
+
+        img {
+            height: 100%;
+            width: 100%;
+        }
+    }
+
+    .lines_img_box {
+        height: 46vh;
+        max-height: 358px;
+
+        .img_box-line {
+            height: 2.7vh;
+            max-height: 21px;
+            width: 24.5vw;
+            max-width: 336;
+
+            &-bg {
+                height: 5.9vh;
+                max-height: 46;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            &-blur {
+                height: 2vh;
+                max-height: 16;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            img {
+                width: 100%;
+                opacity: 0;
+            }
+        }
+
+        .img_box {
+            height: 2.7vh;
+            max-width: 21px;
+        }
+    }
+
+
+    .fade-in {
+        animation: fadeIn ease 0.5s;
+    }
+
+
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+}
