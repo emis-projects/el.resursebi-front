@@ -1,33 +1,44 @@
-.swiper-container {
-    width: 100%;
-    height: 100%;
+.swiper-slide-art {
+  margin: auto;
+  &-text {
+    color: #0b2228;
+    font-size: 1.82vh;
+    font-family: "BPG Arial";
   }
-  
-  .swiper-slide {
-    width: 80%;
+  img {
+    height: 2.21vh;
+    margin-bottom: 2vh;
   }
-  .swiper-slide:nth-child(2n) {
-      width: 60%;
-    }
-  .swiper-slide-art {
-    &-text {
-      color: #0b2228;
-      font-size: 1.82vh;
-      font-family: "BPG Arial";
-      img {
-        height: 2.21vh;
-        margin-bottom: 2vh;
-      }
-    }
+}
+
+.flickity-viewport {
+  height: 70vh !important;
+}
+
+
+.carousel-cell {
+  height: 100%;
+  max-width: 63vw;
+  width: 63vw;
+  align-items: center;
+}
+
+
+.carousel-cell .slide-image {
+  width: 65%;
+  text-align: center;
+  margin: 0 80px;
+  img {
+    width: 60.93vh;
+    height: 60.93vh;
+    border-radius: 60%;
+    transition: .3s;
+    width: 50.93vh;
+    height: 50.93vh;
   }
-  .swiper-slide-art-img {
-    border-radius: 50%;
-    width: 60vh;
-    height: 60vh;
-  }
-  .swiper-slide-active .swiper-slide-art-img {
-    border-radius: 20px;
-  }
-  .swiper-slide-next .swiper-slide-art-img {
-      border-radius: 20px;
-    }
+}
+.carousel-cell.is-selected .slide-image img {
+  border-radius: 50px;
+  width: 60.93vh;
+  height: 60.93vh;
+}

@@ -1,9 +1,14 @@
-.symbols_description{
-    margin-top: 1vh;
-    &-container{
+.symbols_description {
+    margin-top: 4.8vh;
+    height: 58vh;
+
+    div {
+        height: inherit;
+    }
+
+    &-container {
         position: relative;
         color: #0B2228;
-        margin-top: 1.8vh;
         font-size: 2.08vh;
         font-family: 'BPG Arial';
 
@@ -38,6 +43,7 @@
                 opacity: 0;
                 visibility: hidden;
             }
+
             &::before {
                 content: '';
                 position: absolute;
@@ -51,6 +57,15 @@
                 transition: all 0.3s;
                 opacity: 0;
                 visibility: hidden;
+            }
+
+            .after_parent.error {
+
+                &::after,
+                &::before {
+                    opacity: 1;
+                    visibility: visible;
+                }
             }
         }
 
@@ -86,5 +101,3 @@
 .draggeble_element {
     transition: all 0.3s;
 }
-
-
