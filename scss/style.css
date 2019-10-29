@@ -2736,13 +2736,17 @@ section .arrow_up_down_downArrow img {
 }
 
 .symbols_description {
-  margin-top: 1vh;
+  margin-top: 4.8vh;
+  height: 58vh;
+}
+
+.symbols_description div {
+  height: inherit;
 }
 
 .symbols_description-container {
   position: relative;
   color: #0B2228;
-  margin-top: 1.8vh;
   font-size: 2.08vh;
   font-family: 'BPG Arial';
 }
@@ -2750,6 +2754,19 @@ section .arrow_up_down_downArrow img {
 .symbols_description-container .after_parent {
   display: inline-block;
   position: relative;
+}
+
+.symbols_description-container .after_parent.error::after, .symbols_description-container .after_parent.error::before {
+  opacity: 1;
+  visibility: visible;
+}
+
+.symbols_description-container .after_parent.error {
+  border: 2px solid red;
+}
+
+.symbols_description-container .after_parent.error .symbols_description-img {
+  opacity: 0.5;
 }
 
 .symbols_description-container .after_parent::after {
@@ -2786,11 +2803,6 @@ section .arrow_up_down_downArrow img {
   visibility: hidden;
 }
 
-.symbols_description-container .after_parent .after_parent.error::after, .symbols_description-container .after_parent .after_parent.error::before {
-  opacity: 1;
-  visibility: visible;
-}
-
 .symbols_description-container.error img {
   border: 2px solid red;
 }
@@ -2798,6 +2810,20 @@ section .arrow_up_down_downArrow img {
 .symbols_description img {
   height: 5.6vh;
   position: relative;
+}
+
+.symbols_description .symbols_description-container.errorParent {
+  position: relative;
+}
+
+.symbols_description .symbols_description-container.errorParent::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 80000000;
 }
 
 .draggeble_element {

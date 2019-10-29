@@ -1,15 +1,33 @@
-.symbols_description{
-    margin-top: 1vh;
-    &-container{
+.symbols_description {
+    margin-top: 4.8vh;
+    height: 58vh;
+
+    div {
+        height: inherit;
+    }
+
+    &-container {
         position: relative;
         color: #0B2228;
-        margin-top: 1.8vh;
         font-size: 2.08vh;
         font-family: 'BPG Arial';
 
         .after_parent {
             display: inline-block;
             position: relative;
+
+            &.error::after, &.error::before {
+                opacity: 1;
+                visibility: visible;
+            }
+
+            &.error {
+                border: 2px solid red
+            }
+
+            &.error .symbols_description-img{
+                opacity: 0.5;
+            }
 
             &::after {
                 content: '';
@@ -25,6 +43,7 @@
                 opacity: 0;
                 visibility: hidden;
             }
+
             &::before {
                 content: '';
                 position: absolute;
@@ -41,6 +60,7 @@
             }
 
             .after_parent.error {
+
                 &::after,
                 &::before {
                     opacity: 1;
@@ -61,11 +81,23 @@
         position: relative;
 
     }
+    
+    .symbols_description-container.errorParent {
+        position: relative;
+
+        &::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 80000000;
+        }
+    }
 
 }
 
 .draggeble_element {
     transition: all 0.3s;
 }
-
-
