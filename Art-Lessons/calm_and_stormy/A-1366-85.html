@@ -9,54 +9,6 @@
   <link rel="stylesheet" href="../../scss/style.css" />
   <title>ხელოვნება</title>
 
-  <style>
-    .flickity-slider {
-      height: 52vh;
-    }
-
-    .carousel-cell {
-      height: 100%;
-      max-width: 63vw;
-    }
-
-    .carousel-cell img {
-      border-radius: 60%;
-      margin-left: 80px;
-    }
-
-    .carousel-cell img:nth-child(2) {
-      border-radius: 60%;
-      margin-left: 0;
-    }
-
-    .carousel-cell .text {
-      width: 30%;
-      padding: 0 10px;
-      color: #0B2228;
-      font-family: 'BPG Arial', sans-serif;
-    }
-
-    .is-selected .slide-image img {
-      border-radius: 50px;
-    }
-
-    .carousel-cell .slide-image {
-      width: 65%;
-    }
-
-    .carousel-cell .slide-image span {
-      width: 100%;
-      display: inline-block;
-      text-align: center;
-      color: #0B2228;
-      font-family: 'BPG Arial', sans-serif;
-      font-size: 1.8vh;
-    }
-
-    .carousel-cell .slide-image img {
-      height: 94%;
-    }
-  </style>
 </head>
 
 <body class="bg-pink">
@@ -150,75 +102,38 @@
         </div>
       </div>
 
-      <!-- Swiper -->
-
       <div class="main-carousel">
         <div class="carousel-cell d-flex">
-          <div class="text d-flex align-items-center">
-            <p>პირველი ნახატი მშვიდ განწყობას გიქმნის, რომელიც ძირითადად და პატარა, თანაბარი მონასმებით არის
+          <div class="swiper-slide-art">
+            <img src="../../img/gakvetilebi/xelovneba/btn-yellow.svg" alt="" />
+            <p class="swiper-slide-art-text">პირველი ნახატი მშვიდ განწყობას გიქმნის, რომელიც ძირითადად <a href=""
+                class="a-blue">ნახევარტონებით</a> და პატარა, თანაბარი მონასმებით არის
               გადმოცემული.</p>
           </div>
           <div class="slide-image">
-            <img src="../../img/gakvetilebi/xelovneba/calm-and-stormy/A-81-slider-1.png" alt="">
-            <span>ანდრე დერენი, ჩარინგ კროსის ხიდი Andre Derain, Charing Cross Bridge</span>
+            <img src="../../img/gakvetilebi/xelovneba/calm-and-stormy/A-81-slider-1.png" alt=""
+              class="carousel-cell-img">
+            <span class="swiper-slide-art-text">კლოდ მონე, პეიზაჟი Claude Monet, Vétheuil</span>
           </div>
         </div>
         <div class="carousel-cell d-flex">
-          <div class="slide-image">
-            <img src="../../img/gakvetilebi/xelovneba/calm-and-stormy/A-81-slider-2.png" alt="">
-            <span>ანდრე დერენი, ჩარინგ კროსის ხიდი Andre Derain, Charing Cross Bridge</span>
+          <div class="slide-image slide-image-two">
+            <img src="../../img/gakvetilebi/xelovneba/calm-and-stormy/A-81-slider-2.png" alt=""
+              class="carousel-cell-img">
+            <span class="swiper-slide-art-text">ანდრე დერენი, ჩარინგ კროსის ხიდი Andre Derain, Charing Cross Bridge</span>
           </div>
-          <div class="text d-flex align-items-center">
-            <p>მეორე ნახატი კი, თითქოს გაფორიაქებს. შეიძლება, მხატვარს ქალაქის დაძაბულობის გადმოცემა სურდა, რისთვისაც
-              დიდი ლაქები გამოიყენა.</p>
+          <div class="swiper-slide-art">
+            <img src="../../img/gakvetilebi/xelovneba/btn-yellow.svg" alt="" />
+            <p class="swiper-slide-art-text">მეორე ნახატი კი, თითქოს გაფორიაქებს. შეიძლება, მხატვარს ქალაქის დაძაბულობის
+              გადმოცემა სურდა, რისთვისაც <a href="" class="a-blue">კონტრასტული ფერების</a> დიდი ლაქები გამოიყენა.</p>
           </div>
         </div>
       </div>
-
-
-      <!--
-      <div class="swiper-container">
-        <div id="sliderContainer" class="main-carousel">
-          <div class="carousel-cell swiper-slide-art" id="carousel-cell1">
-            <div class="art_questions row">
-              <div class="col-3">
-                <div class="swiper-slide-art-text">
-                  <img src="../../img/gakvetilebi/xelovneba/btn-yellow.svg" alt="" />
-                  <span>პირველი ნახატი მშვიდ განწყობას გიქმნის, რომელიც ძირითადად <a href=""
-                      class="a-blue">ნახევარტონებით</a> და პატარა, თანაბარი მონასმებით არის გადმოცემული.</span>
-                </div>
-              </div>
-              <div class="col-9">
-                <img src="../../img/gakvetilebi/xelovneba/calm-and-stormy/A-81-slider-2.png" alt=""
-                  class="swiper-slide-art-img">
-              </div>
-            </div>
-          </div>
-          <div class="carousel-cell swiper-slide-art" id="carousel-cell2">
-            <div class="art_questions row">
-              <div class="col-9">
-                <img src="../../img/gakvetilebi/xelovneba/calm-and-stormy/A-81-slider-2.png" alt=""
-                  class="swiper-slide-art-img">
-              </div>
-              <div class="col-3">
-                <div class="swiper-slide-art-text">
-                  <img src="../../img/gakvetilebi/xelovneba/btn-yellow.svg" alt="" />
-                  <span>პირველი ნახატი მშვიდ განწყობას გიქმნის, რომელიც ძირითადად <a href=""
-                      class="a-blue">ნახევარტონებით</a> და პატარა, თანაბარი მონასმებით არის გადმოცემული.</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="swiper-pagination"></div>
-      </div>
-
-    -->
       <div class="paging_buttons paging_buttons_position">
-        <a href="./A-1366-158.html">
+        <a href="./A-1366-81.html">
           <img src="../../img/icons/chevron-down-logo.svg" alt="down arrow" class="paging_buttons_left" />
         </a>
-        <a href="./A-1366-164.html" class="paging_buttons_margin-left">
+        <a href="./A-1366-84.html" class="paging_buttons_margin-left">
           <img src="../../img/icons/chevron-down-logo.svg" alt="down arrow" class="paging_buttons_right" />
         </a>
       </div>
@@ -246,39 +161,7 @@
       prevNextButtons: false
     });
 
-    // var owl = $(".owl-carousel");
-    // owl.owlCarousel({
-    //   // loop: true,
-    //   // nav: false,
-    //   // dots: true,
-    //   // margin: 10,
-    //   // items: 1,
-    //   // autoplay: false,
-    //   // autoHeight: true,
-    //   // autoplayTimeout: 4000,
-    //   // autoplayHoverPause: true,
-
-    //   // items: 4,
-    //   // loop: false,
-    //   // margin: 10,
-    //   // URLhashListener: true,
-    //   // autoplayHoverPause: true,
-    //   // startPosition: 'URLHash'
-
-    //   items: 1,
-    //   // stagePadding: 50,
-    //   loop: true,
-    //   nav: true,
-    //   dots: false,
-    //   margin: 50  
-    // });
   </script>
-
-
-
-
-
-
 </body>
 
 </html>
