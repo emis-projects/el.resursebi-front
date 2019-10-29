@@ -2736,13 +2736,17 @@ section .arrow_up_down_downArrow img {
 }
 
 .symbols_description {
-  margin-top: 1vh;
+  margin-top: 4.8vh;
+  height: 58vh;
+}
+
+.symbols_description div {
+  height: inherit;
 }
 
 .symbols_description-container {
   position: relative;
   color: #0B2228;
-  margin-top: 1.8vh;
   font-size: 2.08vh;
   font-family: 'BPG Arial';
 }
