@@ -1,7 +1,7 @@
 function natureGames(){
     this.error = false;
-    
-    
+    this.photos = [];
+
     // variables
     var draggedImgElement = document.querySelectorAll('.symbols_description-img');
     var mydrag = document.querySelectorAll('.draggeble_element');
@@ -26,10 +26,27 @@ function natureGames(){
       myArray.push(mydrag [i])
     }
 
+    var myArray2 = [];
+
+    for(var i = 0; i < draggedImgElement.length; i++ ){
+      myArray2.push(draggedImgElement [i])
+    }
+
 
     this.init = () => {
-        console.log('truee');
+        $(mydrag).removeClass('errorParent');
+     
+        completedBtn.removeAttribute('disabled');
+        completedBtn.setAttribute('style', 'cursor: pointer');
+
+        var parent = $(".doll");
+        var divs = parent.children();
+
+        while (divs.length) {
+            parent.append(divs.splice(Math.floor(Math.random() * divs.length), 1));
+        }
     }
+
 
 
 
@@ -43,36 +60,30 @@ function natureGames(){
         setTimeout(() => {
             e.target.className = "draggedElement"
         }, 0);
-        
     }
-
-
+    
+    
     // drag end
     this.dragEnd = e => {
         let elClassName = e.target.getAttribute('data-class');
         e.target.className = elClassName;
     }
-
-
+    
+    
     // drop 
-    this.dragDrop = e => {        
+    this.dragDrop = e => {    
         let drag = document.querySelector('.draggedElement');
 
-        let list = e.target.parentElement.parentElement.parentElement;
+        e.target.parentElement.appendChild(drag);
 
-        console.log(list);
+        let firstElement = e.target.parentElement.firstElementChild;
 
-        list.querySelector('.draggeble_element').appendChild(drag);
-        
-        var firstElement = list.children[0].children[0];
-
-        console.log(firstElement);
-
-        myArray.forEach(w => {
-            if(w.querySelector('img') == undefined){
-                w.appendChild(firstElement)
+        myArray.filter(w => {
+            if(w.firstElementChild.firstElementChild == undefined || w.firstElementChild.firstElementChild == null){
+                w.firstElementChild.appendChild(firstElement)
             }
         })
+
     }
  
 
@@ -80,19 +91,15 @@ function natureGames(){
 	this.errorPage = () => {
 		myArray.forEach(w => {
 			if(w.getAttribute('data-title') !== w.querySelector('.symbols_description-img').getAttribute('data-title')){
-                this.error = true;
                 w.querySelector('img').parentElement.classList.add('error');
-                w.querySelector('img').classList.add('opacity-5')
-			} else {
-                this.error = false
-            }
+			}
 		})
     }
 
 
     this.checkEveryElement = (element) => {
         return element.getAttribute('data-title') == element.querySelector('.symbols_description-img').getAttribute('data-title')
-      }
+    }
     
 
     // // success page 
@@ -106,6 +113,11 @@ function natureGames(){
         let el = myArray.every(this.checkEveryElement);
 
 		if(el == false){
+            $('.symbols_description-container').addClass('errorParent');
+
+            completedBtn.setAttribute('disabled', 'true');
+            completedBtn.setAttribute('style', 'cursor: default');
+
             this.errorPage();
             
         } else if(el == true) {
@@ -119,4 +131,4 @@ function natureGames(){
 	completedBtn.addEventListener('click', () => this.completGame());
 }
 
-const naturegame = new natureGames();
+    const naturegame = new natureGames(); 
