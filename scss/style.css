@@ -3286,7 +3286,7 @@ section .arrow_up_down_downArrow img {
 }
 
 .ask_question_game {
-  height: 93vh;
+  overflow-x: hidden;
 }
 
 .ask_question_game_box {
@@ -3326,7 +3326,7 @@ section .arrow_up_down_downArrow img {
 }
 
 .ask_question_game .circle__container {
-  height: 80vh;
+  height: 75vh;
 }
 
 .ask_question_game .ask_question_game_box {

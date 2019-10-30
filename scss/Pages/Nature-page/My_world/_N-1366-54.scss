@@ -1,6 +1,5 @@
 .ask_question_game {
-  height: 93vh;
-
+  overflow-x: hidden;
   &_box {
     height: 18vh;
     width: 18vh;
@@ -32,7 +31,7 @@
     }
   }
   .circle__container {
-    height: 80vh;
+    height: 75vh;
   }
 
   .ask_question_game_box {
