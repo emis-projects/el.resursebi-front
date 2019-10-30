@@ -2,10 +2,6 @@
     margin-top: 4.8vh;
     height: 58vh;
 
-    div {
-        height: inherit;
-    }
-
     &-container {
         position: relative;
         color: #0B2228;
@@ -77,14 +73,17 @@
     }
 
     img {
-        height: 5.6vh;
+        width: 110px;
         position: relative;
-
     }
     
     .symbols_description-container.errorParent {
         position: relative;
 
+        .symbols_description-img {
+            opacity: 0.5;
+        }
+        
         &::after {
             content: '';
             position: absolute;
@@ -100,4 +99,13 @@
 
 .draggeble_element {
     transition: all 0.3s;
+}
+
+.draggeble_el_parent {
+    margin-bottom: 10px;
+}
+
+.symbols_description-title {
+    line-height: 1.6;
+    font-size: 17px;
 }
