@@ -2424,6 +2424,10 @@ section .arrow_up_down_downArrow img {
   max-height: 3.2vh;
 }
 
+#N-1366-15 a .subject_component_title {
+  font-family: 'ALK Sanet', sans-serif;
+}
+
 #N-1366-15 .mt-13vh {
   margin-top: 13.5vh;
 }
@@ -3425,6 +3429,10 @@ section .arrow_up_down_downArrow img {
 .N-1366-83 {
   background-image: url("../img/gakvetilebi/buneba/1366-83.png");
   background-position: center;
+}
+
+#M-1366-8 .subject_bottom_illustration-art {
+  background-image: url("../img/gakvetilebi/musika/musika-artwork.svg");
 }
 
 .buildings_type_container {
