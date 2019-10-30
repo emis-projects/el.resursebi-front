@@ -2,8 +2,10 @@
   height: 93vh;
 
   &_box {
-    height: 23vh;
-    width: 23vh;
+    height: 18vh;
+    width: 18vh;
+    max-width: 150px;
+    max-height: 150px;
     margin-bottom: 2.5vh;
     border: 6px solid #44bbbd;
     border-radius: 50%;
@@ -26,11 +28,10 @@
       height: 100%;
     }
     h5 {
-      font-size: 1.7vh;
+      font-size: 1.4vh;
     }
   }
   .circle__container {
-    width: 40vw !important;
     height: 80vh;
   }
 
@@ -47,8 +48,10 @@
   }
 
   .ask_question_game_box--sm {
-    width: 150px;
-    height: 150px;
+    width: 18vh;
+    height: 18vh;
+    max-width: 150px;
+    max-height: 150px;
     border: 6px solid #44bbbd;
     border-radius: 50%;
     font-size: 14px;
@@ -80,7 +83,7 @@
       img {
         position: absolute;
         bottom: 19vh;
-        right: 8vw;
+        right: 4vw;
       }
     }
 
@@ -90,8 +93,8 @@
       top: 45vh;
       img {
         position: absolute;
-        top: -8vh;
-        right: 0vw;
+        top: -9vh;
+        right: -1vw;
       }
     }
 
