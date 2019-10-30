@@ -110,8 +110,6 @@ var loc = window.location
 
         sendMessageFromUser(btnText)
 
-        formData[0].reset()
-
         $(getTag).scrollTop($(getTag)[0].scrollHeight)
     });
 
@@ -138,7 +136,7 @@ var loc = window.location
             contentType: 'application/json'
         })
 
-        formData[0].reset()
+        $(msgInput).val("");
 
         $(getTag).scrollTop($(getTag)[0].scrollHeight)
     }
