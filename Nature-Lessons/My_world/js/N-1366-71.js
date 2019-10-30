@@ -1,10 +1,9 @@
-function natureGames3(){
+function natureGames(){
     this.error = false;
-    
-    
+
     // variables
-    var draggedImgElement = document.querySelectorAll('.nature-1-game-3-draggeble');
-    var mydrag = document.querySelectorAll('.nature-1-game-3-parent');
+    var draggedImgElement = document.querySelectorAll('.N-games-child');
+    var mydrag = document.querySelectorAll('.N-1-draggeble_element');
     var completedBtn = document.getElementById('completedGame');
     var resetBtn = document.getElementById('resetBtn');
 
@@ -14,27 +13,37 @@ function natureGames3(){
 
 
     // Loop through empty boxes and add listeners
-    for (const drag of mydrag) {
+    for (const drag of draggedImgElement) {
         drag.addEventListener('dragover', (e) => this.dragOver(e));
         drag.addEventListener('drop', (e) => this.dragDrop(e));
     }
 
+
     document.addEventListener('DOMContentLoaded', () => {
-        draggedImgElement.forEach(w => {
-            w.setAttribute('data-class', w.className)
+        mydrag.forEach(w => {
+            w.setAttribute('data-class', w.getAttribute('class'))
         })
-    });
+
+        draggedImgElement.forEach(w => {
+            w.setAttribute('data-class', w.getAttribute('class'))
+        })
+    })
 
 
     var myArray = [];
 
     for(var i = 0; i < mydrag.length; i++ ){
-      myArray.push(mydrag [i])
+      myArray.push(mydrag[i])
     }
 
 
     this.init = () => {
-        console.log('truee');
+        $(mydrag).removeClass('errorParent');
+
+        $(draggedImgElement).removeClass('error')
+     
+        completedBtn.removeAttribute('disabled');
+        completedBtn.setAttribute('style', 'cursor: pointer');
     }
 
 
@@ -50,80 +59,74 @@ function natureGames3(){
             e.target.parentElement.className = "draggedElement"
         }, 0);
     }
-
-
+    
+    
     // drag end
     this.dragEnd = e => {
         let elClassName = e.target.parentElement.getAttribute('data-class');
         e.target.parentElement.className = elClassName;
     }
-
-
+    
+    
     // drop 
-    this.dragDrop = e => {        
-
+    this.dragDrop = e => {    
         let drag = document.querySelector('.draggedElement');
 
-        let list = e.target.parentElement;
+        e.target.parentElement.parentElement.appendChild(drag);
 
-        // console.log(list);
-        
-        if(list.classList.contains('nature-1-game-3-draggeble')){
-            list.parentElement.insertBefore(drag, list.parentElement.childNodes[])
-            var firstElement = list.children[0].parentElement;
-            console.log(list.parentElement);
-        }
-        
+        let firstElement = e.target.parentElement.parentElement.firstElementChild;
 
-        myArray.forEach(w => {
-            if(w.querySelector('.nature-1-game-3-draggeble') == undefined || w.querySelector('.nature-1-game-3-draggeble') == null){
-                w.querySelector('.b-1-draggeble_Element_parent').appendChild(firstElement)
-                // console.log(w);
+        myArray.filter(w => {
+           if(w.firstElementChild == null || w.firstElementChild == undefined){
+                w.appendChild(firstElement)
             }
         })
     }
  
 
 	// error page 
-	// this.errorPage = () => {
-	// 	myArray.forEach(w => {
-	// 		if(w.getAttribute('data-title') !== w.querySelector('.nature-1-game-img').getAttribute('data-title')){
-    //             this.error = true;
-    //             w.querySelector('img').setAttribute('style', 'border: 2px solid red; border-radius: 50%')
-	// 		} else {
-    //             this.error = false
-    //         }
-	// 	})
-    // }
+	this.errorPage = () => {
+		myArray.forEach(w => {
+			if(w.getAttribute('data-title') !== w.querySelector('.N-games-child').getAttribute('data-title')){
+                w.querySelector('.N-games-child').classList.add('error');
+			}
+		})
+    }
 
 
-    // this.checkEveryElement = (element) => {
-    //     return element.querySelector('data-title') == element.querySelector('.nature-1-game-img').getAttribute('data-title')
-    //   }
+    this.checkEveryElement = (element) => {
+        return element.getAttribute('data-title') == element.querySelector('.N-games-child').getAttribute('data-title')
+    }
     
 
     // // success page 
-	// this.successPage  = () => {
-    //     location.href = 'nature-1-success.html';
-	// }
+	this.successPage  = () => {
+        location.href = 'nature-1-success.html';
+	}
     
 
     // completed 
-	// this.completGame = (e) => {
-    //     let el = myArray.every(this.checkEveryElement);
-        
-	// 	if(el == false){
-    //         this.errorPage();
+	this.completGame = (e) => {
+        let el = myArray.every(this.checkEveryElement);
+
+		if(el == false){
+            $('.N-1-draggeble_element').addClass('errorParent');
+
+            completedBtn.setAttribute('disabled', 'true');
+            completedBtn.setAttribute('style', 'cursor: default');
             
-    //     } else if(el == true) {
-    //         this.successPage();
-    //     }
-	// }
+            this.errorPage();
+            
+        } else if(el == true) {
+            this.successPage();
+
+        }
+	}
 
 
     // events 
-    // resetBtn.addEventListener('click', () => this.init());
-	// completedBtn.addEventListener('click', () => this.completGame());
+    resetBtn.addEventListener('click', () => this.init());
+	completedBtn.addEventListener('click', () => this.completGame());
 }
 
-const naturegame3 = new natureGames3();
+    const naturegame = new natureGames(); 
