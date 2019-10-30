@@ -227,7 +227,14 @@
   margin-bottom: 4px;
   transition: .3s;
   margin-left: 10px;
+  outline: none;
 }
+
+.chat_msg_item-buttons button:focus{
+  outline: none;
+}
+
+
 .chat_msg_item-buttons button:hover{
   filter: brightness(.9);
 }
