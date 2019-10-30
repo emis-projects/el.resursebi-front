@@ -2,14 +2,14 @@ var loc = window.location
     var formData = $("#formData");
     var msgInput = $("#chatSend");
     let getTag = document.getElementById("chat_fullscreen");
-    var wsStart = 'ws://'
+    // var wsStart = 'ws://'
 
-    if (loc.protocol == 'https:'){
-      wsStart = 'wss://'
-    }
+    // if (loc.protocol == 'https:'){
+    //   wsStart = 'wss://'
+    // }
     
-    var endpoint = wsStart + loc.host + loc.pathname;
-    var socket = new WebSocket(endpoint);
+    // var endpoint = wsStart + loc.host + loc.pathname;
+    // var socket = new WebSocket(endpoint);
   
     
     // bot message UI
