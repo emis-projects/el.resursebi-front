@@ -5399,3 +5399,15 @@ section .arrow_up_down_downArrow img {
   top: -20vh;
 }
 /*# sourceMappingURL=style.css.map */
+
+.nature-118-container {
+  font-family: 'BPG Arial';
+  font-size: 2.08vh;
+  color: #0B2228;
+  margin-top: 8vh;
+}
+
+.nature-118-container img {
+  height: 26.43vh;
+  margin-bottom: 2vh;
+}
