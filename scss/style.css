@@ -5395,10 +5395,8 @@ section .arrow_up_down_downArrow img {
 
 .n-compass-img {
   height: 51.04vh;
-  position: relative;
-  top: -20vh;
+  margin-top: -20vh;
 }
-/*# sourceMappingURL=style.css.map */
 
 .nature-118-container {
   font-family: 'BPG Arial';
@@ -5410,4 +5408,38 @@ section .arrow_up_down_downArrow img {
 .nature-118-container img {
   height: 26.43vh;
   margin-bottom: 2vh;
+}
+
+.invisible_forces_text-container {
+  font-size: 2.34vh;
+  font-family: "BPG Arial";
+  color: #0b2228;
+}
+
+.invisible_forces_image-container {
+  margin-top: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.invisible_forces_image-container-116 {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: -8vh;
+}
+
+.invisible_forces_image-couple {
+  height: 41.4vh;
+}
+
+.invisible_forces_image-compass {
+  height: 25.78vh;
+}
+
+.invisible_forces_video-link {
+  color: #0b2228;
 }
