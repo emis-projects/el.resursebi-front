@@ -1,5 +1,4 @@
 @import url(https://zavoloklom.github.io/material-design-iconic-font/css/docs.md-iconic-font.min.css);
-
 @font-face {
   font-family: 'ALK Sanet';
   src: url("../fonts/alk-sanet/alk-sanet-webfont.eot");
@@ -5213,6 +5212,11 @@ section .arrow_up_down_downArrow img {
   -webkit-transition: .3s;
   transition: .3s;
   margin-left: 10px;
+  outline: none;
+}
+
+.chat_msg_item-buttons button:focus {
+  outline: none;
 }
 
 .chat_msg_item-buttons button:hover {
@@ -5387,4 +5391,10 @@ section .arrow_up_down_downArrow img {
 
 :-moz-placeholder {
   color: #bbb;
+}
+
+.n-compass-img {
+  height: 51.04vh;
+  position: relative;
+  top: -20vh;
 }
