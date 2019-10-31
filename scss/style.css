@@ -1,5 +1,3 @@
-@import url(https://zavoloklom.github.io/material-design-iconic-font/css/docs.md-iconic-font.min.css);
-
 @font-face {
   font-family: 'ALK Sanet';
   src: url("../fonts/alk-sanet/alk-sanet-webfont.eot");
@@ -4974,417 +4972,203 @@ section .arrow_up_down_downArrow img {
           justify-content: flex-end;
 }
 
-.fabs {
-  bottom: 50%;
-  position: fixed;
-  margin: 1em;
+.N-1366-40 {
+  background-image: url("../img/gakvetilebi/buneba/invisible_forces/N2-366-40.png");
+  background-position: center bottom;
+}
+
+.N-1366-94 {
+  background-image: url("../img/gakvetilebi/buneba/invisible_forces/N2-366-94.png");
+  background-position: center bottom;
+}
+
+.N-1366-95 {
+  background-image: url("../img/gakvetilebi/buneba/invisible_forces/N2-366-95.png");
+  background-position: center;
+}
+
+.nature-text-wrapper-N2 {
+  position: absolute;
+  bottom: 0;
+  height: 20vh;
+  left: 0;
   right: 0;
-  z-index: 998;
-}
-
-.fab {
-  display: block;
-  width: 56px;
-  height: 56px;
-  border-radius: 50%;
-  text-align: center;
-  color: #f0f0f0;
-  margin: 25px auto 0;
-  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
-          box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
-  cursor: pointer;
-  -webkit-transition: all 0.1s ease-out;
-  transition: all 0.1s ease-out;
-  position: relative;
-  z-index: 998;
-  overflow: hidden;
-  background: #7fd1d8;
-}
-
-.fab > i {
-  font-size: 2em;
-  line-height: 55px;
-  -webkit-transition: all 0.2s ease-out;
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-}
-
-.chat {
-  position: fixed;
-  right: 85px;
-  bottom: 20px;
-  width: 400px;
-  font-size: 12px;
-  line-height: 22px;
-  font-family: "Roboto";
-  font-weight: 500;
-  opacity: 0;
-  -webkit-box-shadow: 1px 1px 100px 2px rgba(0, 0, 0, 0.22);
-          box-shadow: 1px 1px 100px 2px rgba(0, 0, 0, 0.22);
-  border-radius: 10px;
-  -webkit-transition: all 0.2s ease-out;
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-}
-
-.chat_fullscreen {
-  position: fixed;
-  right: 0px;
-  bottom: 0px;
-  top: 0px;
-}
-
-.chat_header {
-  font-size: 13px;
-  font-weight: 500;
-  color: #f3f3f3;
-  background: #7fd1d8;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  padding: 16px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.chat.is-visible {
-  opacity: 1;
-  -webkit-animation: zoomIn 0.2s cubic-bezier(0.42, 0, 0.58, 1);
-  animation: zoomIn 0.2s cubic-bezier(0.42, 0, 0.58, 1);
-}
-
-.is-hide {
-  opacity: 0;
-}
-
-.chat_field {
-  position: relative;
-  margin: 8px 0 5px 0;
-  width: 50%;
-  font-size: 12px;
-  font-weight: 500;
-  color: #4b4b4b;
-  border: none;
-  outline: none;
-  display: inline-block;
-}
-
-.chat_field.chat_message {
-  padding-left: 10px;
-  resize: none;
-  font-size: 13px;
-  font-weight: 400;
-}
-
-.fab_field {
-  width: 100%;
-  display: inline-block;
   background: #fff;
-  border-top: 1px solid #eee;
-  border-bottom-right-radius: 10px;
-  border-bottom-left-radius: 10px;
+  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
+  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
 }
 
-#fab_send {
-  position: absolute;
-  right: 0;
-  display: inline-block;
-  background: rgba(0, 0, 0, 0);
+.N-1366-96 {
+  background-image: url("../img/gakvetilebi/buneba/invisible_forces/N2-366-96.png");
+  background-position: center;
 }
 
-.fab_field .fab {
-  width: 35px;
-  height: 35px;
-  -webkit-box-shadow: none;
-          box-shadow: none;
-  margin: 5px;
+.N-1366-97 {
+  background-image: url("../img/gakvetilebi/buneba/invisible_forces/N2-366-97.png");
+  background-position: right bottom;
 }
 
-.fab_field .fab > i {
-  font-size: 1.6em;
-  line-height: 35px;
-  color: #bbb;
+.N-1366-99 {
+  background-image: url("../img/gakvetilebi/buneba/invisible_forces/N2-366-99.png");
+  background-position: left center;
 }
 
-.fab_field .fab > i:hover {
-  color: #7fd1d8;
+.N-1366-100 {
+  background-image: url("../img/gakvetilebi/buneba/invisible_forces/N2-366-100.png");
+  background-position: center;
 }
 
-.chat_converse {
-  position: relative;
-  background: #fff;
-  height: 300px;
-  min-height: 0;
-  line-height: 18px;
-  overflow-y: auto;
-  width: 100%;
+.N-1366-101 {
+  background-image: url("../img/gakvetilebi/buneba/invisible_forces/N2-366-101.png");
+  background-position: center bottom;
 }
 
-.chat .chat_converse .chat_msg_item {
-  position: relative;
-  margin: 8px 0 8px 0;
-  padding: 0 10px;
-  max-width: 60%;
-  display: block;
-  word-wrap: break-word;
-  border-radius: 3px;
-  -webkit-animation: zoomIn 0.5s cubic-bezier(0.42, 0, 0.58, 1);
-  animation: zoomIn 0.5s cubic-bezier(0.42, 0, 0.58, 1);
-  clear: both;
-  z-index: 999;
+.N-1366-102 {
+  background-image: url("../img/gakvetilebi/buneba/invisible_forces/N2-366-102.png");
+  background-position: right top;
 }
 
-.chat .chat_converse .chat_msg_item .chat_avatar {
-  position: absolute;
-  top: 0;
+.N-1366-104 {
+  background-image: url("../img/gakvetilebi/buneba/invisible_forces/N2-366-104.png");
+  background-position: center;
 }
 
-.chat .chat_converse .chat_msg_item.chat_msg_item_admin .chat_avatar {
-  left: -52px;
-  background: rgba(0, 0, 0, 0.03);
+.N-1366-105 {
+  background-image: url("../img/gakvetilebi/buneba/invisible_forces/N2-366-105.png");
+  background-position: center;
 }
 
-.chat .chat_converse .chat_msg_item.chat_msg_item_user .chat_avatar {
-  right: -52px;
-  background: rgba(0, 0, 0, 0.6);
+.N-1366-106 {
+  background-image: url("../img/gakvetilebi/buneba/invisible_forces/N2-366-106.png");
+  background-position: center;
 }
 
-.chat .chat_converse .chat_msg_item .chat_avatar,
-.chat_avatar img {
-  width: 40px;
-  height: 40px;
-  text-align: center;
-  border-radius: 50%;
+.N-1366-111 {
+  background-image: url("../img/gakvetilebi/buneba/invisible_forces/N2-366-111.png");
+  background-position: center;
 }
 
-.chat .chat_converse .chat_msg_item.chat_msg_item_admin {
-  margin-left: 60px;
-  float: left;
-  color: #666;
+.N-1366-112 {
+  background-image: url("../img/gakvetilebi/buneba/invisible_forces/N2-366-112.png");
+  background-position: center;
 }
 
-.chat .chat_converse .chat_msg_item.chat_msg_item_admin .chat_msg_item-text {
-  display: block;
-  background: rgba(0, 0, 0, 0.03);
-  border-radius: 8px 8px 8px 0;
-  padding: 10px 15px;
-  margin-bottom: 5px;
+.N-1366-113 {
+  background-image: url("../img/gakvetilebi/buneba/invisible_forces/N2-366-113.png");
+  background-position: center;
 }
 
-.chat .chat_converse .chat_msg_item.chat_msg_item_user {
-  margin-right: 20px;
-  float: right;
-  color: #fff;
+.N-1366-114 {
+  background-image: url("../img/gakvetilebi/buneba/invisible_forces/N2-366-114.png");
+  background-position: center bottom;
 }
 
-.chat .chat_converse .chat_msg_item.chat_msg_item_user .chat_msg_item-text {
-  display: block;
-  background: #7fd1d8;
-  border-radius: 8px 8px 0 8px;
-  padding: 10px 15px;
-  margin-bottom: 5px;
+.N-1366-122 {
+  background-image: url("../img/gakvetilebi/buneba/invisible_forces/N2-366-122.png");
+  background-position: center;
 }
 
-.chat .chat_converse .chat_msg_item.chat_msg_item_admin:before {
-  content: "";
-  position: absolute;
-  top: 15px;
-  left: -12px;
-  z-index: 998;
-  border: 6px solid transparent;
-  border-right-color: rgba(255, 255, 255, 0.4);
+.N-1366-123 {
+  background-image: url("../img/gakvetilebi/buneba/invisible_forces/N2-366-123.png");
+  background-position: center;
 }
 
-.chat_msg_item-buttons {
-  text-align: center;
+.N-1366-124 {
+  background-image: url("../img/gakvetilebi/buneba/invisible_forces/N2-366-124.png");
+  background-position: center;
 }
 
-.chat_msg_item-buttons button {
-  color: #fff;
-  background: #D85471;
-  border: none;
-  border-radius: 10px;
-  padding: 10px 20px;
-  cursor: pointer;
-  margin-bottom: 4px;
-  -webkit-transition: .3s;
-  transition: .3s;
-  margin-left: 10px;
+.N-1366-126 {
+  background-image: url("../img/gakvetilebi/buneba/invisible_forces/N2-366-126.png");
+  background-position: center;
 }
 
-.chat_msg_item-buttons button:hover {
-  -webkit-filter: brightness(0.9);
-          filter: brightness(0.9);
+.N-1366-127 {
+  background-image: url("../img/gakvetilebi/buneba/invisible_forces/N2-366-127.png");
+  background-position: center;
 }
 
-.chat_msg_item_img-container {
-  width: 150px;
-  height: 150px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin-bottom: 5px;
+.N-1366-128 {
+  background-image: url("../img/gakvetilebi/buneba/invisible_forces/N2-366-128.png");
+  background-position: center;
 }
 
-::-webkit-scrollbar {
-  width: 8px;
+.N-1366-130 {
+  background-image: url("../img/gakvetilebi/buneba/invisible_forces/N2-366-130.png");
+  background-position: center;
 }
 
-::-webkit-scrollbar-track {
-  border-radius: 0;
+.N-1366-131 {
+  background-image: url("../img/gakvetilebi/buneba/invisible_forces/N2-366-131.png");
+  background-position: center;
 }
 
-::-webkit-scrollbar-thumb {
-  margin: 2px;
-  border-radius: 10px;
-  background: #7fd1d8;
+.N-1366-132 {
+  background-image: url("../img/gakvetilebi/buneba/invisible_forces/N2-366-132.png");
+  background-position: center;
 }
 
-.is-active {
-  -webkit-transform: rotate(180deg);
-  transform: rotate(180deg);
-  -webkit-transition: all 1s ease-in-out;
-  transition: all 1s ease-in-out;
+.N-1366-133 {
+  background-image: url("../img/gakvetilebi/buneba/invisible_forces/N2-366-133.png");
+  background-position: center;
 }
 
-.is-float {
-  -webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.16), 0 6px 12px rgba(0, 0, 0, 0.32);
-          box-shadow: 0 0 6px rgba(0, 0, 0, 0.16), 0 6px 12px rgba(0, 0, 0, 0.32);
+.N-1366-134 {
+  background-image: url("../img/gakvetilebi/buneba/invisible_forces/N2-366-134.png");
+  background-position: center;
 }
 
-.is-loading {
-  display: block;
-  -webkit-animation: load 1s cubic-bezier(0, 0.99, 1, 0.6) infinite;
-  animation: load 1s cubic-bezier(0, 0.99, 1, 0.6) infinite;
+.N-1366-135 {
+  background-image: url("../img/gakvetilebi/buneba/invisible_forces/N2-366-135.png");
+  background-position: center;
 }
 
-@-webkit-keyframes zoomIn {
-  0% {
-    -webkit-transform: scale(0);
-    transform: scale(0);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    opacity: 1;
-  }
+.N-1366-137 {
+  background-image: url("../img/gakvetilebi/buneba/invisible_forces/N2-366-137.png");
+  background-position: center;
 }
 
-@keyframes zoomIn {
-  0% {
-    -webkit-transform: scale(0);
-    transform: scale(0);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    opacity: 1;
-  }
+.N-1366-138 {
+  background-image: url("../img/gakvetilebi/buneba/invisible_forces/N2-366-138.png");
+  background-position: center;
 }
 
-@-webkit-keyframes load {
-  0% {
-    -webkit-transform: scale(0);
-    transform: scale(0);
-    opacity: 0;
-  }
-  50% {
-    -webkit-transform: scale(1.5);
-    transform: scale(1.5);
-    opacity: 1;
-  }
-  100% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    opacity: 0;
-  }
+.N-1366-139 {
+  background-image: url("../img/gakvetilebi/buneba/invisible_forces/N2-366-139.png");
+  background-position: center;
 }
 
-@keyframes load {
-  0% {
-    -webkit-transform: scale(0);
-    transform: scale(0);
-    opacity: 0;
-  }
-  50% {
-    -webkit-transform: scale(1.5);
-    transform: scale(1.5);
-    opacity: 1;
-  }
-  100% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    opacity: 0;
-  }
+.N-1366-140 {
+  background-image: url("../img/gakvetilebi/buneba/invisible_forces/N2-366-140.png");
+  background-position: center;
 }
 
-@media only screen and (min-width: 300px) {
-  .chat {
-    width: 250px;
-  }
+.N-1366-141 {
+  background-image: url("../img/gakvetilebi/buneba/invisible_forces/N2-366-141.png");
+  background-position: center;
 }
 
-@media only screen and (min-width: 480px) {
-  .chat {
-    width: 300px;
-  }
-  .chat_field {
-    width: 85%;
-  }
+.N-1366-142 {
+  background-image: url("../img/gakvetilebi/buneba/invisible_forces/N2-366-142.png");
+  background-position: center;
 }
 
-.ink {
-  display: block;
-  position: absolute;
-  background: rgba(38, 50, 56, 0.4);
-  border-radius: 100%;
-  -webkit-transform: scale(0);
-  transform: scale(0);
+.N-1366-144 {
+  background-image: url("../img/gakvetilebi/buneba/invisible_forces/N2-366-144.png");
+  background-position: center;
 }
 
-.ink.animate {
-  -webkit-animation: ripple 0.5s ease-in-out;
-  animation: ripple 0.5s ease-in-out;
+.N-1366-145 {
+  background-image: url("../img/gakvetilebi/buneba/invisible_forces/N2-366-145.png");
+  background-position: center;
 }
 
-@-webkit-keyframes ripple {
-  100% {
-    opacity: 0;
-    -moz-transform: scale(5);
-    -ms-transform: scale(5);
-    webkit-transform: scale(5);
-    -webkit-transform: scale(5);
-    transform: scale(5);
-  }
+.N-1366-147 {
+  background-image: url("../img/gakvetilebi/buneba/invisible_forces/N2-366-147.png");
+  background-position: center;
 }
 
-@keyframes ripple {
-  100% {
-    opacity: 0;
-    -moz-transform: scale(5);
-    -ms-transform: scale(5);
-    webkit-transform: scale(5);
-    -webkit-transform: scale(5);
-    transform: scale(5);
-  }
-}
-
-::-webkit-input-placeholder {
-  color: #bbb;
-}
-
-:-ms-input-placeholder {
-  color: #bbb;
-}
-
-::-moz-placeholder {
-  color: #bbb;
-}
-
-:-moz-placeholder {
-  color: #bbb;
+.N-1366-148 {
+  background-image: url("../img/gakvetilebi/buneba/invisible_forces/N2-366-148.png");
+  background-position: center;
 }
