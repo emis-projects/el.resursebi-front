@@ -3607,7 +3607,8 @@ section .arrow_up_down_downArrow img {
 }
 
 .nature-action-material-row-full .nature-action-material-pic {
-  width: 185px;
+  width: 90px;
+  height: 76px;
 }
 
 .nature-action-material-full-col-5 {
@@ -3619,6 +3620,10 @@ section .arrow_up_down_downArrow img {
 
 .nature-action-material-full-col-5 img {
   height: 12.63vh;
+}
+
+.nature-action-material-full-col-5 p {
+  margin-left: 20px;
 }
 
 .nature_material_content_box_text-col-5 img {
@@ -3638,6 +3643,18 @@ section .arrow_up_down_downArrow img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.nature-action-material-full-col-5 .N-games-child::after {
+  left: 45px;
+}
+
+.nature-action-material-full-col-5 .N-games-child::before {
+  left: 45px;
+}
+
+.nature-action-material-full-col-5.errorParent .nature-action-material-pic {
+  opacity: 0.5;
 }
 
 .plastmas_row {

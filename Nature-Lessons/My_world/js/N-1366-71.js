@@ -34,6 +34,8 @@ function natureGames(){
 
     for(var i = 0; i < mydrag.length; i++ ){
       myArray.push(mydrag[i])
+
+      console.log(mydrag[i]);
     }
 
 

@@ -14,7 +14,8 @@ margin-bottom: 1.23vh;
   }
 
   .nature-action-material-pic {
-    width: 185px;
+    width: 90px;
+    height: 76px;
   }
 }
 
@@ -24,6 +25,10 @@ margin-bottom: 1.23vh;
 
   img{
     height:12.63vh;
+  }
+
+  p {
+    margin-left: 20px;
   }
 }
 
@@ -48,4 +53,31 @@ margin-bottom: 1.23vh;
   .draggedElement {
     display: flex;
   }
+}
+
+// .nature-action-material-pic {
+//   position: relative;
+
+//   &::after {
+//     background:url(''); 
+//     width: 10px;
+//     height: 5px;
+//     background: red;
+//     content: '';
+//     position: absolute;
+//     left: 0;
+//     z-index: 100000000;
+//   }
+// }
+
+.nature-action-material-full-col-5 .N-games-child::after {
+  left: 45px;
+}
+
+.nature-action-material-full-col-5 .N-games-child::before {
+  left: 45px;
+}
+
+.nature-action-material-full-col-5.errorParent .nature-action-material-pic {
+  opacity: 0.5;
 }
