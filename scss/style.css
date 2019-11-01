@@ -5029,6 +5029,27 @@ section .arrow_up_down_downArrow img {
   background-position: right top;
 }
 
+#N-1366-103 {
+  font-family: 'BPG Arial', sans-serif;
+  color: #0B2228;
+}
+
+#N-1366-103 .text p {
+  font-family: inherit;
+  color: inherit;
+  font-size: 2.3vh;
+  margin-bottom: 5vh;
+}
+
+#N-1366-103 .text-bottom {
+  position: absolute;
+  bottom: 16.4vh;
+  font-family: inherit;
+  color: inherit;
+  font-size: 2.3vh;
+  margin-bottom: 5vh;
+}
+
 .N-1366-104 {
   background-image: url("../img/gakvetilebi/buneba/invisible_forces/N2-366-104.png");
   background-position: center;
