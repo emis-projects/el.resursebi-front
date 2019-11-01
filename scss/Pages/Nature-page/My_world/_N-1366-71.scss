@@ -14,6 +14,15 @@
 //     }
 // }
 
+.soBig {
+    .nature-material-full-col-2.error::after {
+        top: 30% !important;
+    }
+    .nature-material-full-col-2.error::before {
+        top: 30% !important;
+    }
+}
+
 
 .N-games-child {
     position: relative;

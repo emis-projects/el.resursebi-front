@@ -4,19 +4,19 @@
 }
 
 .nature-action-material-row-full{
-margin-bottom: 1.23vh;
-  p {
-    color: #0B2228;
-    font-family: 'BPG Arial', sans-serif;
-    font-size: 14px;
-    float: right;
-    text-align: left;
-  }
+    margin-bottom: 1.23vh;
+    p {
+      color: #0B2228;
+      font-family: 'BPG Arial', sans-serif;
+      font-size: 14px;
+      float: right;
+      text-align: left;
+    }
 
-  .nature-action-material-pic {
-    width: 90px;
-    height: 76px;
-  }
+    .nature-action-material-pic {
+      width: 90px;
+      height: 76px;
+    }
 }
 
 .nature-action-material-full-col-5{
@@ -24,7 +24,7 @@ margin-bottom: 1.23vh;
   margin-left: 11.666667%;
 
   img{
-    height:12.63vh;
+    height: 12.63vh;
   }
 
   p {
@@ -56,11 +56,13 @@ margin-bottom: 1.23vh;
 }
 
 .nature-action-material-full-col-5 .N-games-child::after {
-  left: 45px;
+  left: 43px;
+  top: 46%;
 }
 
 .nature-action-material-full-col-5 .N-games-child::before {
-  left: 45px;
+  left: 43px;
+  top: 46%;
 }
 
 .nature-action-material-full-col-5.errorParent .nature-action-material-pic {

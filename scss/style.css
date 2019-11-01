@@ -3452,6 +3452,14 @@ section .arrow_up_down_downArrow img {
   width: 100%;
 }
 
+.soBig .nature-material-full-col-2.error::after {
+  top: 30% !important;
+}
+
+.soBig .nature-material-full-col-2.error::before {
+  top: 30% !important;
+}
+
 .N-games-child {
   position: relative;
 }
@@ -3633,11 +3641,13 @@ section .arrow_up_down_downArrow img {
 }
 
 .nature-action-material-full-col-5 .N-games-child::after {
-  left: 45px;
+  left: 43px;
+  top: 46%;
 }
 
 .nature-action-material-full-col-5 .N-games-child::before {
-  left: 45px;
+  left: 43px;
+  top: 46%;
 }
 
 .nature-action-material-full-col-5.errorParent .nature-action-material-pic {
