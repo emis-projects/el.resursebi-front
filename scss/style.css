@@ -3769,6 +3769,7 @@ section .arrow_up_down_downArrow img {
   text-align: center;
   color: #0b2228;
   cursor: pointer;
+  font-family: 'BPG Arial';
 }
 
 .ask_question_game_box:first-of-type {
@@ -3781,6 +3782,7 @@ section .arrow_up_down_downArrow img {
 
 .ask_question_game_box h5 {
   font-size: 1.4vh;
+  line-height: 1.2;
 }
 
 .ask_question_game .circle__container {
@@ -3821,6 +3823,12 @@ section .arrow_up_down_downArrow img {
   color: #0b2228;
   position: relative;
   font-size: 1.7vh;
+  font-family: 'BPG Arial';
+}
+
+.ask_question_game .ask_question_game_box--sm h5 {
+  line-height: 1.2;
+  font-size: 1.4vh;
 }
 
 .ask_question_game .ask_question_game_box--sm:nth-child(1) {
@@ -5499,6 +5507,27 @@ section .arrow_up_down_downArrow img {
 .N-1366-102 {
   background-image: url("../img/gakvetilebi/buneba/invisible_forces/N2-366-102.png");
   background-position: right top;
+}
+
+#N-1366-103 {
+  font-family: 'BPG Arial', sans-serif;
+  color: #0B2228;
+}
+
+#N-1366-103 .text p {
+  font-family: inherit;
+  color: inherit;
+  font-size: 2.3vh;
+  margin-bottom: 5vh;
+}
+
+#N-1366-103 .text-bottom {
+  position: absolute;
+  bottom: 16.4vh;
+  font-family: inherit;
+  color: inherit;
+  font-size: 2.3vh;
+  margin-bottom: 5vh;
 }
 
 .N-1366-104 {
