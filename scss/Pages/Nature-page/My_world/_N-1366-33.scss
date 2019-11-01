@@ -76,6 +76,16 @@
         width: 110px;
         position: relative;
     }
+
+    .after_parent {
+        img {
+            width: 42px;
+        }
+    }
+
+    .symbols_description-img {
+        width: 42px;
+    }
     
     .symbols_description-container.errorParent {
         position: relative;
