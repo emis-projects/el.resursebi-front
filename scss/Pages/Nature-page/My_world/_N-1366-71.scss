@@ -14,11 +14,11 @@
 //     }
 // }
 
-.soBig {
-    .nature-material-full-col-2.error::after {
+.soBig.error {
+    &::after {
         top: 30% !important;
     }
-    .nature-material-full-col-2.error::before {
+    &::before {
         top: 30% !important;
     }
 }
