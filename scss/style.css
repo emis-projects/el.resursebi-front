@@ -3238,13 +3238,8 @@ section .arrow_up_down_downArrow img {
   border: 2px solid red;
 }
 
-.symbols_description img {
-  width: 110px;
-  position: relative;
-}
-
 .symbols_description .after_parent img {
-  width: 42px;
+  height: 5.46875vh;
 }
 
 .symbols_description .symbols_description-img {
@@ -3275,12 +3270,12 @@ section .arrow_up_down_downArrow img {
 }
 
 .draggeble_el_parent {
-  margin-bottom: 10px;
+  margin-bottom: 1vh;
 }
 
 .symbols_description-title {
   line-height: 1.6;
-  font-size: 17px;
+  font-size: 2.21vh;
 }
 
 #N-1366-34 .N-1366-34 {

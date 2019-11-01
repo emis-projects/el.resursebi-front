@@ -34,8 +34,6 @@ function natureGames(){
 
     for(var i = 0; i < mydrag.length; i++ ){
       myArray.push(mydrag[i])
-
-      console.log(mydrag[i]);
     }
 
 
@@ -74,6 +72,7 @@ function natureGames(){
     this.dragDrop = e => {    
         let drag = document.querySelector('.draggedElement');
 
+        console.log(e.target);
         e.target.parentElement.parentElement.appendChild(drag);
 
         let firstElement = e.target.parentElement.parentElement.firstElementChild;

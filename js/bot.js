@@ -133,7 +133,7 @@ var loc = window.location
             sendMessageFromBot(res)
             },
             dataType: 'json',
-            contentType: 'application/json'
+            contentType: 'application/json; charset=UTF-8'
         })
 
         $(msgInput).val("");
