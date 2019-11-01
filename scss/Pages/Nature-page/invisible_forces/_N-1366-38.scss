@@ -1,0 +1,27 @@
+.invisible_forces {
+  &_text-container {
+    font-size: 2.34vh;
+    font-family: "BPG Arial";
+    color: #0b2228;
+  }
+  &_image {
+    &-container {
+      margin-top: 10vh;
+      display: flex;
+      justify-content: space-around;
+      &-116{
+          align-items: center;
+          margin-top: -8vh;
+      }
+    }
+    &-couple {
+      height: 41.4vh;
+    }
+    &-compass {
+      height: 25.78vh;
+    }
+  }
+  &_video-link{
+    color: #0b2228;
+  }
+}
