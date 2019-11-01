@@ -8,11 +8,13 @@
 
 
 
-// .N-1-draggeble_element {
-//     img {
-//         width: 100%;
-//     }
-// }
+.nature-material-row-full {
+    .N-1-draggeble_element.errorParent {
+        img {
+            opacity: 0.5;
+        }
+    }
+}
 
 .soBig.error {
     &::after {
