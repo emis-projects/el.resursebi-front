@@ -28,6 +28,10 @@ function rainbow(){
 
 		document.querySelectorAll('.svg-icon-content').forEach(w => w.classList.remove('error'));
 
+		
+		completedGame.removeAttribute('disabled');
+		completedGame.setAttribute('style', 'cursor: pointer')
+
 		rainbowBtns.forEach(b => {
 			b.classList.add('opacity-5');
 			b.classList.remove('opacity-1');
@@ -135,6 +139,9 @@ function rainbow(){
 
 			} else {
 				this.errorPage();
+				completedGame.setAttribute('disabled', 'true')
+				completedGame.setAttribute('style', 'cursor: default')
+
 			}
 		})
 	}
