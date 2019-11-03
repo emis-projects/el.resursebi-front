@@ -3015,14 +3015,10 @@ section .arrow_up_down_downArrow img {
   height: 8.27vh;
 }
 
-.nature-material-row-full .N-games-child p {
-  font-size: 13px;
-}
-
 .nature-material-row-full p {
   color: #0B2228;
   font-family: 'BPG Arial', sans-serif;
-  font-size: 2vh;
+  font-size: 1.8vh;
 }
 
 .nature-material-full-col-9 {
@@ -3468,16 +3464,21 @@ section .arrow_up_down_downArrow img {
   position: relative;
 }
 
-.N-games-child.error::after {
+.N-games-child.error .myimg {
+  border: 2px solid red;
+  position: relative;
+}
+
+.N-games-child.error .myimg::after {
   content: '';
   position: absolute;
   width: 3vh;
   height: 3px;
   background: red;
-  top: 40%;
+  top: 50%;
   left: 50%;
-  -webkit-transform: translate(-45%, -50%) rotate(-45deg);
-          transform: translate(-45%, -50%) rotate(-45deg);
+  -webkit-transform: translate(-50%, -50%) rotate(-45deg);
+          transform: translate(-50%, -50%) rotate(-45deg);
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   z-index: 100;
@@ -3485,15 +3486,15 @@ section .arrow_up_down_downArrow img {
   visibility: hidden;
 }
 
-.N-games-child.error::before {
+.N-games-child.error .myimg::before {
   content: '';
   position: absolute;
   width: 3vh;
   height: 3px;
-  top: 40%;
+  top: 50%;
   left: 50%;
-  -webkit-transform: translate(-45%, -50%) rotate(45deg);
-          transform: translate(-45%, -50%) rotate(45deg);
+  -webkit-transform: translate(-50%, -50%) rotate(45deg);
+          transform: translate(-50%, -50%) rotate(45deg);
   background: red;
   z-index: 100;
   -webkit-transition: all 0.3s;
@@ -3502,13 +3503,9 @@ section .arrow_up_down_downArrow img {
   visibility: hidden;
 }
 
-.N-games-child.error:after, .N-games-child.error:before {
+.N-games-child.error .myimg:after, .N-games-child.error .myimg:before {
   opacity: 1 !important;
   visibility: visible !important;
-}
-
-.N-games-child.error img {
-  border: 2px solid red;
 }
 
 .N-1-draggeble_element.errorParent {
