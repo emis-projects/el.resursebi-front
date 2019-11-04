@@ -5475,12 +5475,13 @@ section .arrow_up_down_downArrow img {
 }
 
 .a-2-i-1 {
-  width: 75px;
+  height: 16.27vh;
   margin-right: 34px;
 }
 
 .a-2-i-2 {
-  width: 133px;
+  height: 26.77vh;
+  width: initial;
 }
 
 #otherbtn {
@@ -6185,4 +6186,3 @@ section .arrow_up_down_downArrow img {
 .invisible_forces_video-link {
   color: #0b2228;
 }
-/*# sourceMappingURL=style.css.map */
