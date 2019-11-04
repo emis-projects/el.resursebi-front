@@ -6133,6 +6133,10 @@ section .arrow_up_down_downArrow img {
   margin-top: -20vh;
 }
 
+.font-arial {
+  font-family: 'BPG Arial';
+}
+
 .nature-118-container {
   font-family: 'BPG Arial';
   font-size: 2.08vh;
@@ -6178,3 +6182,4 @@ section .arrow_up_down_downArrow img {
 .invisible_forces_video-link {
   color: #0b2228;
 }
+/*# sourceMappingURL=style.css.map */
