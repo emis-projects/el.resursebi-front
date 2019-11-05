@@ -34,6 +34,12 @@
                 margin-bottom: 1.5vh;
                 box-shadow: 0px 3px 6px #00000029;
                 cursor: pointer;
+                .img {
+                    max-width: 30px;
+                    max-height: 30px;
+                    height: 100%;
+                    width: 100%;
+                }
 
                 &_icon {
                     height: 6vh;
@@ -44,14 +50,10 @@
                     background-repeat: no-repeat;
                     background-size: contain;
 
-                    .play {
-                        width: 7px;
-                        height: 11px;
-                    }
-
                     &:last-child {
                         margin-bottom: 0;
                     }
+                    
                 }
 
                 .bg_bouble_blue {
@@ -115,3 +117,10 @@
         }
     }
 }
+/* #M-1366-22 .music_content_wrapper .music_play_wrapper .music_play_box
+.music_play_box_icon .img {
+    max-width: 7px;
+    max-height: 11px;
+    height: 50%;
+    width: 50%;
+} */

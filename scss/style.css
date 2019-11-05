@@ -4804,6 +4804,13 @@ section .arrow_up_down_downArrow img {
   cursor: pointer;
 }
 
+#M-1366-22 .music_content_wrapper .music_play_wrapper .music_play_box .img {
+  max-width: 30px;
+  max-height: 30px;
+  height: 100%;
+  width: 100%;
+}
+
 #M-1366-22 .music_content_wrapper .music_play_wrapper .music_play_box_icon {
   height: 6vh;
   width: 6vh;
@@ -4812,11 +4819,6 @@ section .arrow_up_down_downArrow img {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-}
-
-#M-1366-22 .music_content_wrapper .music_play_wrapper .music_play_box_icon .play {
-  width: 7px;
-  height: 11px;
 }
 
 #M-1366-22 .music_content_wrapper .music_play_wrapper .music_play_box_icon:last-child {
@@ -4880,6 +4882,13 @@ section .arrow_up_down_downArrow img {
   margin-left: -1vh;
 }
 
+/* #M-1366-22 .music_content_wrapper .music_play_wrapper .music_play_box
+.music_play_box_icon .img {
+    max-width: 7px;
+    max-height: 11px;
+    height: 50%;
+    width: 50%;
+} */
 .music_m-1366-50_item_text {
   color: #0B2228;
   font-size: 2.34vh;
