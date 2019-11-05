@@ -8,9 +8,20 @@
 
 
 
-.N-1-draggeble_element {
-    img {
-        width: 100%;
+.nature-material-row-full {
+    .N-1-draggeble_element.errorParent {
+        img {
+            opacity: 0.5;
+        }
+    }
+}
+
+.soBig.error {
+    &::after {
+        top: 30% !important;
+    }
+    &::before {
+        top: 30% !important;
     }
 }
 
@@ -20,44 +31,45 @@
 
     &.error {
 
-        &::after {
-            content: '';
-            position: absolute;
-            width: 3vh;
-            height: 3px;
-            background: red;
-            top: 50%;
-            left: 50%;
-            transform: translate(-45%, -50%) rotate(-45deg);
-            transition: all 0.3s;
-            z-index: 100;
-            opacity: 0;
-            visibility: hidden;
-        }
-    
-        &::before {
-            content: '';
-            position: absolute;
-            width: 3vh;
-            height: 3px;
-            top: 50%;
-            left: 50%;
-            transform: translate(-45%, -50%) rotate(45deg);
-            background: red;
-            z-index: 100;
-            transition: all 0.3s;
-            opacity: 0;
-            visibility: hidden;
-        }
-
-        &:after,
-        &:before {
-            opacity: 1 !important;
-            visibility: visible !important;
-        }
-
-        & img {
+        .myimg {
             border: 2px solid red;
+            position: relative;
+
+            &::after {
+                content: '';
+                position: absolute;
+                width: 3vh;
+                height: 3px;
+                background: red;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%) rotate(-45deg);
+                transition: all 0.3s;
+                z-index: 100;
+                opacity: 0;
+                visibility: hidden;
+            }
+        
+            &::before {
+                content: '';
+                position: absolute;
+                width: 3vh;
+                height: 3px;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%) rotate(45deg);
+                background: red;
+                z-index: 100;
+                transition: all 0.3s;
+                opacity: 0;
+                visibility: hidden;
+            }
+
+            &:after,
+            &:before {
+                opacity: 1 !important;
+                visibility: visible !important;
+            }
         }
     }
 }

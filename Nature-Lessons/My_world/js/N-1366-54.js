@@ -102,12 +102,14 @@ function natureGames(){
 
     // drop 
     this.dragDrop = e => {
+        console.log(e.target);
         let draggedEl = document.querySelector('.draggedElement').querySelector('h5');
         let draggedElIndex = parseInt(draggedEl.getAttribute('data-index'));
 
-        e.target.setAttribute('dinamicaly-index', draggedElIndex);
-
-        e.target.append(draggedEl);
+        if(e.target.classList.contains('dropDiv')){
+            e.target.setAttribute('dinamicaly-index', draggedElIndex);
+            e.target.append(draggedEl);
+        }
 
         let el = myArray.every(this.checkEveryElement)
 

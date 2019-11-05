@@ -56,15 +56,15 @@ function natureGames(){
     // drag start 
     this.dragStart = (e) => {
         setTimeout(() => {
-            e.target.parentElement.className = "draggedElement"
+            e.target.parentElement.parentElement.className = "draggedElement"
         }, 0);
     }
     
     
     // drag end
     this.dragEnd = e => {
-        let elClassName = e.target.parentElement.getAttribute('data-class');
-        e.target.parentElement.className = elClassName;
+        let elClassName = e.target.parentElement.parentElement.getAttribute('data-class');
+        e.target.parentElement.parentElement.className = elClassName;
     }
     
     
@@ -72,12 +72,15 @@ function natureGames(){
     this.dragDrop = e => {    
         let drag = document.querySelector('.draggedElement');
 
-        e.target.parentElement.parentElement.appendChild(drag);
+        if(e.target.classList.contains('nature-action-material-pic') || e.target.classList.contains('nature-material-row-pic')){
+            e.target.parentElement.parentElement.parentElement.appendChild(drag);
+        }
 
-        let firstElement = e.target.parentElement.parentElement.firstElementChild;
+
+        let firstElement = e.target.parentElement.parentElement;
 
         myArray.filter(w => {
-           if(w.firstElementChild == null || w.firstElementChild == undefined){
+            if(w.firstElementChild == null || w.firstElementChild == undefined){
                 w.appendChild(firstElement)
             }
         })

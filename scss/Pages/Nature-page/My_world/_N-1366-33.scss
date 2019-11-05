@@ -72,21 +72,13 @@
         }
     }
 
-    img {
-        width: 110px;
-        position: relative;
-    }
 
     .after_parent {
         img {
-            width: 42px;
+            height: 5.46875vh;
         }
     }
 
-    .symbols_description-img {
-        width: 42px;
-    }
-    
     .symbols_description-container.errorParent {
         position: relative;
 
@@ -112,10 +104,10 @@
 }
 
 .draggeble_el_parent {
-    margin-bottom: 10px;
+    margin-bottom: 1vh;
 }
 
 .symbols_description-title {
     line-height: 1.6;
-    font-size: 17px;
+    font-size: 2.10vh;
 }

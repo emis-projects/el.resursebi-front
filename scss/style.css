@@ -2446,6 +2446,8 @@ section .arrow_up_down_downArrow img {
 
 .modal {
   z-index: 99999;
+  bottom: 0;
+  right: 0;
 }
 
 .modal-body .owl-theme .owl-dots {
@@ -2488,7 +2490,8 @@ section .arrow_up_down_downArrow img {
 }
 
 .fullScreen_modal-content {
-  height: 100%;
+  height: 100% !important;
+  max-height: 100%;
   border-radius: 0;
 }
 
@@ -2524,7 +2527,7 @@ section .arrow_up_down_downArrow img {
 .fullScreen_modal-title {
   color: #000;
   font-size: 3.4vh;
-  font-family: "Helvetica Neue";
+  font-family: 'Helvetica Neue';
   margin: 15px 0;
   font-style: italic;
 }
@@ -3015,14 +3018,10 @@ section .arrow_up_down_downArrow img {
   height: 8.27vh;
 }
 
-.nature-material-row-full .N-games-child p {
-  font-size: 13px;
-}
-
 .nature-material-row-full p {
   color: #0B2228;
   font-family: 'BPG Arial', sans-serif;
-  font-size: 2vh;
+  font-size: 1.8vh;
 }
 
 .nature-material-full-col-9 {
@@ -3238,17 +3237,8 @@ section .arrow_up_down_downArrow img {
   border: 2px solid red;
 }
 
-.symbols_description img {
-  width: 110px;
-  position: relative;
-}
-
 .symbols_description .after_parent img {
-  width: 42px;
-}
-
-.symbols_description .symbols_description-img {
-  width: 42px;
+  height: 5.46875vh;
 }
 
 .symbols_description .symbols_description-container.errorParent {
@@ -3275,12 +3265,12 @@ section .arrow_up_down_downArrow img {
 }
 
 .draggeble_el_parent {
-  margin-bottom: 10px;
+  margin-bottom: 1vh;
 }
 
 .symbols_description-title {
   line-height: 1.6;
-  font-size: 17px;
+  font-size: 2.10vh;
 }
 
 #N-1366-34 .N-1366-34 {
@@ -3461,15 +3451,28 @@ section .arrow_up_down_downArrow img {
   width: 100%;
 }
 
-.N-1-draggeble_element img {
-  width: 100%;
+.nature-material-row-full .N-1-draggeble_element.errorParent img {
+  opacity: 0.5;
+}
+
+.soBig.error::after {
+  top: 30% !important;
+}
+
+.soBig.error::before {
+  top: 30% !important;
 }
 
 .N-games-child {
   position: relative;
 }
 
-.N-games-child.error::after {
+.N-games-child.error .myimg {
+  border: 2px solid red;
+  position: relative;
+}
+
+.N-games-child.error .myimg::after {
   content: '';
   position: absolute;
   width: 3vh;
@@ -3477,8 +3480,8 @@ section .arrow_up_down_downArrow img {
   background: red;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-45%, -50%) rotate(-45deg);
-          transform: translate(-45%, -50%) rotate(-45deg);
+  -webkit-transform: translate(-50%, -50%) rotate(-45deg);
+          transform: translate(-50%, -50%) rotate(-45deg);
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   z-index: 100;
@@ -3486,15 +3489,15 @@ section .arrow_up_down_downArrow img {
   visibility: hidden;
 }
 
-.N-games-child.error::before {
+.N-games-child.error .myimg::before {
   content: '';
   position: absolute;
   width: 3vh;
   height: 3px;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-45%, -50%) rotate(45deg);
-          transform: translate(-45%, -50%) rotate(45deg);
+  -webkit-transform: translate(-50%, -50%) rotate(45deg);
+          transform: translate(-50%, -50%) rotate(45deg);
   background: red;
   z-index: 100;
   -webkit-transition: all 0.3s;
@@ -3503,13 +3506,9 @@ section .arrow_up_down_downArrow img {
   visibility: hidden;
 }
 
-.N-games-child.error:after, .N-games-child.error:before {
+.N-games-child.error .myimg:after, .N-games-child.error .myimg:before {
   opacity: 1 !important;
   visibility: visible !important;
-}
-
-.N-games-child.error img {
-  border: 2px solid red;
 }
 
 .N-1-draggeble_element.errorParent {
@@ -3607,7 +3606,8 @@ section .arrow_up_down_downArrow img {
 }
 
 .nature-action-material-row-full .nature-action-material-pic {
-  width: 185px;
+  width: 90px;
+  height: 76px;
 }
 
 .nature-action-material-full-col-5 {
@@ -3619,6 +3619,10 @@ section .arrow_up_down_downArrow img {
 
 .nature-action-material-full-col-5 img {
   height: 12.63vh;
+}
+
+.nature-action-material-full-col-5 p {
+  margin-left: 20px;
 }
 
 .nature_material_content_box_text-col-5 img {
@@ -3638,6 +3642,20 @@ section .arrow_up_down_downArrow img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.nature-action-material-full-col-5 .N-games-child::after {
+  left: 43px;
+  top: 46%;
+}
+
+.nature-action-material-full-col-5 .N-games-child::before {
+  left: 43px;
+  top: 46%;
+}
+
+.nature-action-material-full-col-5.errorParent .nature-action-material-pic {
+  opacity: 0.5;
 }
 
 .plastmas_row {
@@ -3735,7 +3753,7 @@ section .arrow_up_down_downArrow img {
   width: 18vh;
   max-width: 150px;
   max-height: 150px;
-  margin-bottom: 2.5vh;
+  margin-top: 2.5vh;
   border: 6px solid #44bbbd;
   border-radius: 50%;
   display: -webkit-box;
@@ -3755,16 +3773,41 @@ section .arrow_up_down_downArrow img {
   font-family: 'BPG Arial';
 }
 
-.ask_question_game_box:first-of-type {
-  margin-top: 3.3vh;
-}
-
 .ask_question_game_box img {
   height: 100%;
 }
 
 .ask_question_game_box h5 {
   font-size: 1.4vh;
+  line-height: 1.2;
+}
+
+.ask_question_game .draggedElement {
+  height: 18vh;
+  width: 18vh;
+  max-width: 150px;
+  max-height: 150px;
+  margin-top: 2.5vh;
+  border: 6px solid #44bbbd;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 11px;
+  text-align: center;
+  color: #0b2228;
+  cursor: pointer;
+  font-family: 'BPG Arial';
+  font-size: 1.4vh;
+}
+
+.ask_question_game .draggedElement h5 {
   line-height: 1.2;
 }
 
@@ -3791,7 +3834,6 @@ section .arrow_up_down_downArrow img {
   max-height: 150px;
   border: 6px solid #44bbbd;
   border-radius: 50%;
-  font-size: 14px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3892,6 +3934,17 @@ section .arrow_up_down_downArrow img {
   position: absolute;
   top: 21vh;
   right: 4vw;
+}
+
+.ask_question_game_box.error::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  z-index: 100000;
 }
 
 .N-1366-80 {
@@ -5422,12 +5475,13 @@ section .arrow_up_down_downArrow img {
 }
 
 .a-2-i-1 {
-  width: 75px;
+  height: 16.27vh;
   margin-right: 34px;
 }
 
 .a-2-i-2 {
-  width: 133px;
+  height: 26.77vh;
+  width: initial;
 }
 
 #otherbtn {
@@ -6081,6 +6135,10 @@ section .arrow_up_down_downArrow img {
 .n-compass-img {
   height: 51.04vh;
   margin-top: -20vh;
+}
+
+.font-arial {
+  font-family: 'BPG Arial';
 }
 
 .nature-118-container {

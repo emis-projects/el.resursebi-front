@@ -17,12 +17,3 @@ for (var i = 0; i < penciles.length; i++) {
         };
     })(i));
 }
-
-
-
-
-/// opacity-5
-
-/// opacity-1
-
-/// opacity-0
