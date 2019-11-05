@@ -104,7 +104,19 @@ function natureGames(){
 
     // // success page 
 	this.successPage  = () => {
-        location.href = 'nature-3-success.html';
+        if(location.pathname == "/el.resursebi-front/Nature-Lessons/My_world/games/N-1366-89.html"){
+            location.href = 'nature-4-success.html';
+      
+          } else if(location.pathname == "/el.resursebi-front/Nature-Lessons/My_world/games/N-1366-71.html"){
+            location.href = 'nature-3-success.html';
+      
+          } else if(location.pathname == "/Nature-Lessons/My_world/games/N-1366-71.html") {
+            location.href = 'nature-3-success.html';
+
+          } else if(location.pathname == "/Nature-Lessons/My_world/games/N-1366-89.html"){
+            location.href = 'nature-4-success.html';
+      
+          }
 	}
     
 
