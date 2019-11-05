@@ -135,7 +135,7 @@ function natureGames(){
     // success page
 	this.successPage  = () => {
 		if(this.error === false){
-		    location.href = '1366-240.html';
+		    location.href = 'nature-2-success.html';
         }
 	}
     

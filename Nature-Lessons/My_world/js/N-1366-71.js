@@ -104,7 +104,7 @@ function natureGames(){
 
     // // success page 
 	this.successPage  = () => {
-        location.href = 'nature-1-success.html';
+        location.href = 'nature-3-success.html';
 	}
     
 
