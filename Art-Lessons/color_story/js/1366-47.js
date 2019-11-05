@@ -11,14 +11,6 @@ function dragQuizGame(){
   const wrapper = document.querySelector('.dot_wrapper');
   let items = document.querySelectorAll('.questions__images-item');
   const resetBtn = document.getElementById('resetBtn');
-
-
-
-  $(() => {
-    $(document).on("dragstart", "button.cloned", (e) => this.dragStart(e));
-    $(document).on("dragend", "button.cloned", (e) => this.dragEnd(e));
-  });
-
   
 
   var myArray = [];
@@ -28,6 +20,14 @@ function dragQuizGame(){
   }
   
 
+  $(() => {
+    // $(document).on("dragstart", "button.cloned", (e) => this.dragStart(e));
+    // $(document).on("dragend", "button.cloned", (e) => this.dragEnd(e));
+    $(document).bind("dragstart", "button.cloned", (e) => this.dragStart(e));
+    $(document).bind("dragend", "button.cloned", (e) => this.dragEnd(e));
+  });
+
+
 
   // Fill listeners
   drags.forEach(w => {
@@ -35,7 +35,7 @@ function dragQuizGame(){
     w.addEventListener('dragend', (e) => this.dragEnd(e));
   })
 
-    
+
 
 
   // Loop through empty boxes and add listeners
@@ -96,28 +96,29 @@ function dragQuizGame(){
 
   // drag start 
   this.dragStart = (e) => {
-    
+
     var cloned = e.target.cloneNode(true);
     
     cloned.classList.add('cloned');
     
-
-    $(empties).addClass('Shadow');
     $(empties).removeClass('noShadow');
+    $(empties).addClass('Shadow');
 
     wrapper.insertBefore(cloned, e.target);
 
     setTimeout(() => {
       e.target.className = "draggedElement"
     }, 0);
+
+
   }
-
-
+  
+  
+  
   // drag end
   this.dragEnd = e => {
     $(empties).addClass('noShadow');
     $(empties).removeClass('Shadow');
-    console.log('drag end');
 
     let elClassName = e.target.getAttribute('data-class');
 
@@ -126,7 +127,6 @@ function dragQuizGame(){
     if(wrapper.querySelector('.draggedElement')){
       wrapper.querySelector('.draggedElement').remove();
     }
-
   }
 
   
