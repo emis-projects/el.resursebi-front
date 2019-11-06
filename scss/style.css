@@ -5018,6 +5018,21 @@ section .arrow_up_down_downArrow img {
   height: 100%;
 }
 
+.circle__g {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.circle--1 {
+  -webkit-transform: translate(72%, 14%);
+          transform: translate(72%, 14%);
+}
+
+.circle--1:hover {
+  -webkit-transform: scale(1.2) translate(56%, 12%);
+          transform: scale(1.2) translate(56%, 12%);
+}
+
 #A-1366-92 .mix_color_box {
   height: 24.6vh;
   max-height: 189px;
