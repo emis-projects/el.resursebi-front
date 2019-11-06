@@ -6124,6 +6124,10 @@ section .arrow_up_down_downArrow img {
   margin-top: 7.1vh;
 }
 
+#A-1366-03-8 .subject_question_item p {
+  font-family: 'BPG Arial', sans-serif;
+}
+
 #A-1366-03-8 .bg_image {
   max-height: 280px;
 }
@@ -6133,4 +6137,8 @@ section .arrow_up_down_downArrow img {
   height: 100%;
   -o-object-fit: contain;
      object-fit: contain;
+}
+
+.full-link {
+  cursor: pointer;
 }

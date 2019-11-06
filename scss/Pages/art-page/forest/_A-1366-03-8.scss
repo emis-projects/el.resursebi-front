@@ -3,6 +3,10 @@
         margin-top: 7.1vh;
     }
 
+    .subject_question_item p {
+        font-family: 'BPG Arial', sans-serif;
+    }
+
     .bg_image {
         max-height: 280px;
 
@@ -12,4 +16,8 @@
             object-fit: contain;
         }
     }
+}
+
+.full-link {
+    cursor: pointer;
 }
