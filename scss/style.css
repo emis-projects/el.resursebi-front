@@ -5024,13 +5024,23 @@ section .arrow_up_down_downArrow img {
 }
 
 .circle--1 {
-  -webkit-transform: translate(72%, 14%);
-          transform: translate(72%, 14%);
+  -webkit-transform: translate(72%, 17%);
+          transform: translate(72%, 17%);
+}
+
+.circle--2 {
+  -webkit-transform: translate(43%, 36%);
+          transform: translate(43%, 36%);
 }
 
 .circle--1:hover {
   -webkit-transform: scale(1.2) translate(56%, 12%);
           transform: scale(1.2) translate(56%, 12%);
+}
+
+.circle--2:hover {
+  -webkit-transform: scale(1.2) translate(34%, 29%);
+          transform: scale(1.2) translate(34%, 29%);
 }
 
 #A-1366-92 .mix_color_box {
