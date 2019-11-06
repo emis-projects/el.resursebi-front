@@ -6135,6 +6135,29 @@ section .arrow_up_down_downArrow img {
   margin-top: 12.8vh;
 }
 
+#A-1366-03-6 .subject_question_item {
+  font-size: 1.8vh;
+}
+
+#A-1366-03-6 .padding-top-13vh {
+  padding-top: 13vh;
+}
+
+#A-1366-03-6 .image-box {
+  width: 70%;
+}
+
+#A-1366-03-6 .image-box img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.full-link {
+  cursor: pointer;
+}
+
 #A-1366-03-8 .mt-7vh {
   margin-top: 7.1vh;
 }
@@ -6156,4 +6179,32 @@ section .arrow_up_down_downArrow img {
 
 .full-link {
   cursor: pointer;
+}
+
+.forms {
+  z-index: 9999999999999;
+  color: #7FD1D8;
+  padding: 10px 0;
+  position: relative;
+  cursor: pointer;
+}
+
+.forms:hover {
+  color: #7FD1D8;
+}
+
+canvas {
+  border: 2px solid black;
+  width: 100% !important;
+}
+
+.canvas-container {
+  width: 100% !important;
+}
+
+.mycanvas {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
 }

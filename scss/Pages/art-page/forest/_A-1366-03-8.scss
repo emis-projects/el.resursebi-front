@@ -21,3 +21,15 @@
 .full-link {
     cursor: pointer;
 }
+
+.forms {
+    z-index: 9999999999999;
+    color: #7FD1D8;
+    padding: 10px 0;
+    position: relative;
+    cursor: pointer;
+
+    &:hover {
+        color: #7FD1D8;
+    }
+}
