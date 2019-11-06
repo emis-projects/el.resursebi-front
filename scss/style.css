@@ -1227,6 +1227,11 @@ header nav .header-sound .lang {
   background-position: left top;
 }
 
+.bg_blue-blur_up {
+  background-image: url("../img/backgrounds/bg-ilustrations/blue-top-blur.svg");
+  background-position: left top;
+}
+
 .bg_blue_Down {
   background-image: url("../img/backgrounds/bg-ilustrations/blue-down-cut.svg");
   background-position: bottom right;
@@ -6044,4 +6049,19 @@ section .arrow_up_down_downArrow img {
 
 #A-1366-03-1 .icon-box {
   margin-top: 12.8vh;
+}
+
+#A-1366-03-8 .mt-7vh {
+  margin-top: 7.1vh;
+}
+
+#A-1366-03-8 .bg_image {
+  max-height: 280px;
+}
+
+#A-1366-03-8 .bg_image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
