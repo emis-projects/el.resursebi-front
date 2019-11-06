@@ -6032,3 +6032,44 @@ section .arrow_up_down_downArrow img {
 .invisible_forces_video-link {
   color: #0b2228;
 }
+
+.a-1366-03-36-font-dejavu {
+  font-size: 2.08h;
+  font-family: 'DejaVu Sans Oblique';
+}
+
+.a-1366-03-36-padding-bottom {
+  padding-bottom: 2.86vh;
+}
+
+.a-1366-03-21-letter-spacing {
+  letter-spacing: 1px;
+}
+
+.art-man-creating-statue {
+  height: 59.89vh;
+  position: absolute;
+  bottom: 0px;
+  left: 31.25vw;
+}
+
+.art-man-creating-statue img {
+  height: 59.89vh;
+}
+
+.a-1366-03-21-letter-spacing-paddingtop {
+  letter-spacing: 1px;
+  padding-top: 5.24vh;
+}
+
+.house-sketch-fullcolor {
+  height: 39.37vh;
+  position: absolute;
+  left: 23.42vw;
+  bottom: 14vh;
+}
+
+.house-sketch-fullcolor img {
+  height: 39.37vh;
+}
+/*# sourceMappingURL=style.css.map */
