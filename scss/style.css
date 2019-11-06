@@ -5137,6 +5137,21 @@ section .arrow_up_down_downArrow img {
   height: 100%;
 }
 
+.circle__g {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.circle--1 {
+  -webkit-transform: translate(72%, 14%);
+          transform: translate(72%, 14%);
+}
+
+.circle--1:hover {
+  -webkit-transform: scale(1.2) translate(56%, 12%);
+          transform: scale(1.2) translate(56%, 12%);
+}
+
 #A-1366-92 .mix_color_box {
   height: 24.6vh;
   max-height: 189px;
@@ -6185,4 +6200,26 @@ section .arrow_up_down_downArrow img {
 
 .invisible_forces_video-link {
   color: #0b2228;
+}
+
+canvas {
+  border: 2px solid black;
+  width: 100% !important;
+}
+
+.canvas-container {
+  width: 100% !important;
+}
+
+#colourInput {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.mycanvas {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
 }
