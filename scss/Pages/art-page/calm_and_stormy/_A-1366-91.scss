@@ -9,3 +9,15 @@
         }
     }
 }
+
+.circle__g {
+    transition: all 0.3s;
+}
+
+.circle--1 {
+    transform: translate(72%, 14%);
+}
+
+.circle--1:hover {
+    transform: scale(1.2) translate(56%, 12%);
+}
