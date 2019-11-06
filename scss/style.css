@@ -6093,6 +6093,46 @@ section .arrow_up_down_downArrow img {
   color: #0b2228;
 }
 
+.a-1366-03-36-font-dejavu {
+  font-size: 2.08h;
+  font-family: 'DejaVu Sans Oblique';
+}
+
+.a-1366-03-36-padding-bottom {
+  padding-bottom: 2.86vh;
+}
+
+.a-1366-03-21-letter-spacing {
+  letter-spacing: 1px;
+}
+
+.art-man-creating-statue {
+  height: 59.89vh;
+  position: absolute;
+  bottom: 0px;
+  left: 31.25vw;
+}
+
+.art-man-creating-statue img {
+  height: 59.89vh;
+}
+
+.a-1366-03-21-letter-spacing-paddingtop {
+  letter-spacing: 1px;
+  padding-top: 5.24vh;
+}
+
+.house-sketch-fullcolor {
+  height: 39.37vh;
+  position: absolute;
+  left: 23.42vw;
+  bottom: 14vh;
+}
+
+.house-sketch-fullcolor img {
+  height: 39.37vh;
+}
+
 .A-1366-03-5-img {
   width: 100%;
   display: -webkit-box;
@@ -6145,8 +6185,35 @@ section .arrow_up_down_downArrow img {
   margin-top: 12.8vh;
 }
 
+#A-1366-03-6 .subject_question_item {
+  font-size: 1.8vh;
+}
+
+#A-1366-03-6 .padding-top-13vh {
+  padding-top: 13vh;
+}
+
+#A-1366-03-6 .image-box {
+  width: 70%;
+}
+
+#A-1366-03-6 .image-box img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.full-link {
+  cursor: pointer;
+}
+
 #A-1366-03-8 .mt-7vh {
   margin-top: 7.1vh;
+}
+
+#A-1366-03-8 .subject_question_item p {
+  font-family: 'BPG Arial', sans-serif;
 }
 
 #A-1366-03-8 .bg_image {
@@ -6158,6 +6225,22 @@ section .arrow_up_down_downArrow img {
   height: 100%;
   -o-object-fit: contain;
      object-fit: contain;
+}
+
+.full-link {
+  cursor: pointer;
+}
+
+.forms {
+  z-index: 9999999999999;
+  color: #7FD1D8;
+  padding: 10px 0;
+  position: relative;
+  cursor: pointer;
+}
+
+.forms:hover {
+  color: #7FD1D8;
 }
 
 canvas {
@@ -6175,3 +6258,4 @@ canvas {
   top: 0;
   width: 100%;
 }
+/*# sourceMappingURL=style.css.map */
