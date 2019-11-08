@@ -5024,13 +5024,23 @@ section .arrow_up_down_downArrow img {
 }
 
 .circle--1 {
-  -webkit-transform: translate(72%, 14%);
-          transform: translate(72%, 14%);
+  -webkit-transform: translate(72%, 17%);
+          transform: translate(72%, 17%);
+}
+
+.circle--2 {
+  -webkit-transform: translate(43%, 36%);
+          transform: translate(43%, 36%);
 }
 
 .circle--1:hover {
   -webkit-transform: scale(1.2) translate(56%, 12%);
           transform: scale(1.2) translate(56%, 12%);
+}
+
+.circle--2:hover {
+  -webkit-transform: scale(1.2) translate(34%, 29%);
+          transform: scale(1.2) translate(34%, 29%);
 }
 
 #A-1366-92 .mix_color_box {
@@ -6286,6 +6296,41 @@ section .arrow_up_down_downArrow img {
 
 .forms:hover {
   color: #7FD1D8;
+}
+
+.M3-background-65 {
+  background-image: url(../img/gakvetilebi/musika/lesson3/M3-1366-65.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.M3-background-66 {
+  background-image: url(../img/gakvetilebi/musika/lesson3/M3-1366-66.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.M3-background-67 {
+  background-image: url(../img/gakvetilebi/musika/lesson3/M3-1366-67.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.M3-background-68 {
+  background-image: url(../img/gakvetilebi/musika/lesson3/M3-1366-68.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.M3-background-69 {
+  background-image: url(../img/gakvetilebi/musika/lesson3/M3-1366-69.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 canvas {
