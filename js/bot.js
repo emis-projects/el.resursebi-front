@@ -136,6 +136,8 @@ var loc = window.location
             contentType: 'application/json; charset=UTF-8'
         })
 
+           
+
         $(msgInput).val("");
 
         $(getTag).scrollTop($(getTag)[0].scrollHeight)
