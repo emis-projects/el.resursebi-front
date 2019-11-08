@@ -1,0 +1,89 @@
+#A-1366-03-8 {
+    .mt-7vh {
+        margin-top: 7.1vh;
+
+        img {
+            float: right;
+            height: 100%;
+        }
+    }
+
+    .subject_question_item p {
+        font-family: 'BPG Arial', sans-serif;
+    }
+
+    .bg_image {
+        max-height: 280px;
+        height: 44vh;
+
+        .img-box_wrappers {
+            width: 100%;
+            height: 30%;
+
+            &:nth-child(2) {
+                height: 40%;
+
+                img {
+                    padding-right: 30px;
+                }
+            }
+
+            img {
+                height: 70%;
+                padding-right: 20px;
+            }
+        }
+    }
+
+    .bg_image_art {
+        max-height: 315px;
+        height: 44vh;
+
+        .mid-image-wrapper {
+            top: 34%;
+            transform: translateY(-34%);
+            left: 48%;
+            transform: translateX(-48%);
+            height: 10vh;
+
+            img {
+                height: 100%;
+
+                &:first-child {
+                    margin-right: 8vw;
+                }
+            }
+        }
+
+        .img-box_wrappers {
+            width: 100%;
+            height: 46%;
+            max-height: 200px;
+
+            img {
+                height: 100%;
+                max-width: 200px;
+
+                &:nth-child(2) {
+                    height: 70%;
+                }
+            }
+        }
+    }
+}
+
+.full-link {
+    cursor: pointer;
+}
+
+.forms {
+    z-index: 9999999999999;
+    color: #7FD1D8;
+    padding: 10px 0;
+    position: relative;
+    cursor: pointer;
+
+    &:hover {
+        color: #7FD1D8;
+    }
+}
