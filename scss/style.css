@@ -1820,10 +1820,16 @@ section .arrow_up_down_downArrow img {
   background-position: right;
 }
 
-.big-font-size-32px {
+.big-font-size-22px {
   color: #0b2228;
   font-family: "BPG Arial";
   font-size: 2.86vh;
+}
+
+.big-font-size-18px {
+  font-size: 2.34vh;
+  font-family: "BPG Arial";
+  color: #0b2228;
 }
 
 /* 
@@ -5164,7 +5170,7 @@ section .arrow_up_down_downArrow img {
   margin-top: 5vh;
 }
 
-.big-font-size-32px {
+.big-font-size-22px {
   color: #0B2228;
   font-family: "BPG Arial";
   font-size: 2.86vh;
@@ -5280,7 +5286,7 @@ section .arrow_up_down_downArrow img {
   width: 100%;
 }
 
-.big-font-size-32px {
+.big-font-size-22px {
   color: #0B2228;
   font-family: "BPG Arial";
   font-size: 2.86vh;
@@ -5308,7 +5314,7 @@ section .arrow_up_down_downArrow img {
   padding-left: 2vw;
 }
 
-.big-font-size-32px {
+.big-font-size-22px {
   color: #0B2228;
   font-family: "BPG Arial";
   font-size: 2.86vh;
@@ -6252,19 +6258,74 @@ section .arrow_up_down_downArrow img {
   margin-top: 7.1vh;
 }
 
+#A-1366-03-8 .mt-7vh img {
+  float: right;
+  height: 100%;
+}
+
 #A-1366-03-8 .subject_question_item p {
   font-family: 'BPG Arial', sans-serif;
 }
 
 #A-1366-03-8 .bg_image {
   max-height: 280px;
+  height: 44vh;
 }
 
-#A-1366-03-8 .bg_image img {
+#A-1366-03-8 .bg_image .img-box_wrappers {
   width: 100%;
+  height: 30%;
+}
+
+#A-1366-03-8 .bg_image .img-box_wrappers:nth-child(2) {
+  height: 40%;
+}
+
+#A-1366-03-8 .bg_image .img-box_wrappers:nth-child(2) img {
+  padding-right: 30px;
+}
+
+#A-1366-03-8 .bg_image .img-box_wrappers img {
+  height: 70%;
+  padding-right: 20px;
+}
+
+#A-1366-03-8 .bg_image_art {
+  max-height: 315px;
+  height: 44vh;
+}
+
+#A-1366-03-8 .bg_image_art .mid-image-wrapper {
+  top: 34%;
+  -webkit-transform: translateY(-34%);
+          transform: translateY(-34%);
+  left: 48%;
+  -webkit-transform: translateX(-48%);
+          transform: translateX(-48%);
+  height: 10vh;
+}
+
+#A-1366-03-8 .bg_image_art .mid-image-wrapper img {
   height: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
+}
+
+#A-1366-03-8 .bg_image_art .mid-image-wrapper img:first-child {
+  margin-right: 8vw;
+}
+
+#A-1366-03-8 .bg_image_art .img-box_wrappers {
+  width: 100%;
+  height: 46%;
+  max-height: 200px;
+}
+
+#A-1366-03-8 .bg_image_art .img-box_wrappers img {
+  height: 100%;
+  max-width: 200px;
+}
+
+#A-1366-03-8 .bg_image_art .img-box_wrappers img:nth-child(2) {
+  height: 70%;
 }
 
 .full-link {
@@ -6281,6 +6342,153 @@ section .arrow_up_down_downArrow img {
 
 .forms:hover {
   color: #7FD1D8;
+}
+
+.a-1366-03-padding {
+  padding-top: 7.81vh;
+}
+
+#M-1366-03-2 .subject_question_item p {
+  line-height: 4vh;
+}
+
+#M-1366-03-2 .image-box_center {
+  max-height: 308px;
+  height: 40vh;
+}
+
+#M-1366-03-2 .image-box_center img {
+  height: 100%;
+}
+
+#M-1366-03-2 .bottom_components {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.subject_component_title {
+  text-align: center;
+}
+
+.person_game_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  height: 100%;
+}
+
+.person_game_img-girl {
+  height: 35.93vh;
+  margin-bottom: 8vh;
+}
+
+.person_game_img-child {
+  height: 17.70vh;
+  margin-bottom: 8vh;
+}
+
+.person_game_img-boy {
+  height: 39.71vh;
+  margin-bottom: 8vh;
+}
+
+.a-1366-03-padding {
+  padding-top: 7.81vh;
+}
+
+.m-1366-03-3-img-container {
+  position: absolute;
+  height: 57.29vh;
+  bottom: 0;
+  left: 34.62vw;
+}
+
+.m-1366-03-3-img-container img {
+  height: 57.29vh;
+}
+
+.m-1366-03-12-padding {
+  padding-top: 3.25vh;
+}
+
+.m-1366-03-12-padding p {
+  line-height: 25px;
+}
+
+.m-1366-03-15-row {
+  padding-top: 10.4vh;
+}
+
+.m-1366-03-63-font {
+  font-size: 2.34vh;
+  font-family: 'DejaVu Sans Oblique';
+  color: #0B2228;
+}
+
+.m-1366-03-63-font p {
+  line-height: 25px;
+}
+
+.m-1366-03-15-row {
+  padding-top: 10.4vh;
+}
+
+.m-1366-03-121-img {
+  height: 43.88vh;
+  padding-top: 8.9vh;
+  padding-left: 6.22vw;
+}
+
+.m-1366-03-14-img-container {
+  position: absolute;
+  height: 57.16vh;
+  bottom: 0;
+  left: 33.01vw;
+}
+
+.m-1366-03-14-img-container img {
+  height: 57.16vh;
+}
+
+.M3-background-65 {
+  background-image: url(../img/gakvetilebi/musika/lesson3/M3-1366-65.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.M3-background-66 {
+  background-image: url(../img/gakvetilebi/musika/lesson3/M3-1366-66.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.M3-background-67 {
+  background-image: url(../img/gakvetilebi/musika/lesson3/M3-1366-67.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.M3-background-68 {
+  background-image: url(../img/gakvetilebi/musika/lesson3/M3-1366-68.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.M3-background-69 {
+  background-image: url(../img/gakvetilebi/musika/lesson3/M3-1366-69.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 canvas {
