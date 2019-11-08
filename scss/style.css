@@ -6298,6 +6298,28 @@ section .arrow_up_down_downArrow img {
   color: #7FD1D8;
 }
 
+#M-1366-03-2 .subject_question_item p {
+  line-height: 4vh;
+}
+
+#M-1366-03-2 .image-box_center {
+  max-height: 308px;
+  height: 40vh;
+}
+
+#M-1366-03-2 .image-box_center img {
+  height: 100%;
+}
+
+#M-1366-03-2 .bottom_components {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.subject_component_title {
+  text-align: center;
+}
+
 .M3-background-65 {
   background-image: url(../img/gakvetilebi/musika/lesson3/M3-1366-65.svg);
   background-position: top center;
