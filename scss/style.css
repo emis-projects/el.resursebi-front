@@ -6243,6 +6243,34 @@ section .arrow_up_down_downArrow img {
   color: #7FD1D8;
 }
 
+.person_game_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  height: 100%;
+}
+
+.person_game_img-girl {
+  height: 35.93vh;
+  margin-bottom: 8vh;
+}
+
+.person_game_img-child {
+  height: 17.70vh;
+  margin-bottom: 8vh;
+}
+
+.person_game_img-boy {
+  height: 39.71vh;
+  margin-bottom: 8vh;
+}
+
 canvas {
   border: 2px solid black;
   width: 100% !important;

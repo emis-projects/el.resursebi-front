@@ -1,0 +1,43 @@
+// .person_game {
+//   &_container {
+//     &_full {
+//       position: relative;
+//       display: flex;
+//       justify-content: space-between;
+//       align-items: flex-end;
+//     }
+//   }
+//   &_img {
+//     &-girl {
+//       height: 35.93vh;
+//     }
+//     &-child {
+//       height: 35.93vh;
+//     }
+//     &-boy {
+//       height: 35.93vh;
+//     }
+//   }
+// }
+.person_game{
+    &_container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+}
+&_img {
+        &-girl {
+          height: 35.93vh;
+          margin-bottom: 8vh;
+        }
+        &-child {
+          height: 17.70vh;
+          margin-bottom: 8vh;
+        }
+        &-boy {
+          height: 39.71vh;
+          margin-bottom: 8vh;
+        }
+}
+}
