@@ -6243,6 +6243,41 @@ section .arrow_up_down_downArrow img {
   color: #7FD1D8;
 }
 
+.M3-background-65 {
+  background-image: url(../img/gakvetilebi/musika/lesson3/M3-1366-65.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.M3-background-66 {
+  background-image: url(../img/gakvetilebi/musika/lesson3/M3-1366-66.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.M3-background-67 {
+  background-image: url(../img/gakvetilebi/musika/lesson3/M3-1366-67.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.M3-background-68 {
+  background-image: url(../img/gakvetilebi/musika/lesson3/M3-1366-68.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.M3-background-69 {
+  background-image: url(../img/gakvetilebi/musika/lesson3/M3-1366-69.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 canvas {
   border: 2px solid black;
   width: 100% !important;
@@ -6258,3 +6293,4 @@ canvas {
   top: 0;
   width: 100%;
 }
+/*# sourceMappingURL=style.css.map */
