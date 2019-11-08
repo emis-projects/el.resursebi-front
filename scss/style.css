@@ -1820,10 +1820,16 @@ section .arrow_up_down_downArrow img {
   background-position: right;
 }
 
-.big-font-size-32px {
+.big-font-size-22px {
   color: #0b2228;
   font-family: "BPG Arial";
   font-size: 2.86vh;
+}
+
+.big-font-size-18px {
+  font-size: 2.34vh;
+  font-family: "BPG Arial";
+  color: #0b2228;
 }
 
 /* 
@@ -5124,7 +5130,7 @@ section .arrow_up_down_downArrow img {
   margin-top: 5vh;
 }
 
-.big-font-size-32px {
+.big-font-size-22px {
   color: #0B2228;
   font-family: "BPG Arial";
   font-size: 2.86vh;
@@ -5240,7 +5246,7 @@ section .arrow_up_down_downArrow img {
   width: 100%;
 }
 
-.big-font-size-32px {
+.big-font-size-22px {
   color: #0B2228;
   font-family: "BPG Arial";
   font-size: 2.86vh;
@@ -5268,7 +5274,7 @@ section .arrow_up_down_downArrow img {
   padding-left: 2vw;
 }
 
-.big-font-size-32px {
+.big-font-size-22px {
   color: #0B2228;
   font-family: "BPG Arial";
   font-size: 2.86vh;
@@ -6298,6 +6304,10 @@ section .arrow_up_down_downArrow img {
   color: #7FD1D8;
 }
 
+.a-1366-03-padding {
+  padding-top: 7.81vh;
+}
+
 #M-1366-03-2 .subject_question_item p {
   line-height: 4vh;
 }
@@ -6318,6 +6328,92 @@ section .arrow_up_down_downArrow img {
 
 .subject_component_title {
   text-align: center;
+}
+
+.person_game_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  height: 100%;
+}
+
+.person_game_img-girl {
+  height: 35.93vh;
+  margin-bottom: 8vh;
+}
+
+.person_game_img-child {
+  height: 17.70vh;
+  margin-bottom: 8vh;
+}
+
+.person_game_img-boy {
+  height: 39.71vh;
+  margin-bottom: 8vh;
+}
+
+.a-1366-03-padding {
+  padding-top: 7.81vh;
+}
+
+.m-1366-03-3-img-container {
+  position: absolute;
+  height: 57.29vh;
+  bottom: 0;
+  left: 34.62vw;
+}
+
+.m-1366-03-3-img-container img {
+  height: 57.29vh;
+}
+
+.m-1366-03-12-padding {
+  padding-top: 3.25vh;
+}
+
+.m-1366-03-12-padding p {
+  line-height: 25px;
+}
+
+.m-1366-03-15-row {
+  padding-top: 10.4vh;
+}
+
+.m-1366-03-63-font {
+  font-size: 2.34vh;
+  font-family: 'DejaVu Sans Oblique';
+  color: #0B2228;
+}
+
+.m-1366-03-63-font p {
+  line-height: 25px;
+}
+
+.m-1366-03-15-row {
+  padding-top: 10.4vh;
+}
+
+.m-1366-03-121-img {
+  height: 43.88vh;
+  padding-top: 8.9vh;
+  padding-left: 6.22vw;
+}
+
+.m-1366-03-14-img-container {
+  position: absolute;
+  height: 57.16vh;
+  bottom: 0;
+  left: 33.01vw;
+}
+
+.m-1366-03-14-img-container img {
+  height: 57.16vh;
 }
 
 .M3-background-65 {

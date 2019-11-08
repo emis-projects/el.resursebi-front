@@ -210,8 +210,8 @@
     </section>
   </div>
  <div class="paging_buttons paging_buttons_position">
-        <a href="./index2.html" class="paging_buttons_margin-left"><img
-                src="../../img/icons/chevron-down-logo.svg" alt="" class="paging_buttons_right" /></a>
+        <a href="./index.html"><img src="../../img/icons/chevron-down-logo.svg" alt=""
+                class="paging_buttons_left" /></a>
     </div>
 
   <div class="fabs">
@@ -231,35 +231,31 @@
     <a id="prime" class="fab"><i class="prime zmdi zmdi-comment-outline"></i></a>
   </div>
 
- 
 
   <script src="../js/libraries/jquery-3.4.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.js" ></script>
-  
+
   <script src="../js/libraries/bootstrap.min.js"></script>
   <script src="../js/libraries/owl.carousel.min.js"></script>
   <script src="../js/soundSwitch.js"></script>
   <script src="../js/slider.js"></script>
   <script src="../js/script.js"></script>
   <script src="../js/bot.js"></script>
-
   <script>
-   /*  $.cookie("basket-data", JSON.stringify($(".chat").data())); */
- /*   $(function() {
-  localStorage["myKey"] = JSON.stringify($("chat_fullscreen").html());
+  /* $(".chat").data(JSON.parse($.cookie("basket-data"))); */
+
+/* $(function() {
+   if (localStorage["myKey"] != null) {
+      var contentsOfOldDiv = JSON.parse(localStorage["myKey"]);    
+      $("chat_fullscreen").html(contentsOfOldDiv);
+     } 
 }); */
+// get
+var content = $.cookie("rented_car");
+var $rentContainer = $('<div class="">' + content + '</div>');
 
-/* var  tabelaContent; 
-tabelaContent = document.getElementById("chat_fullscreen").innerText;
-
-localStorage.setItem("chat_fullscreen", JSON.stringify(tabelaContent)); */
-
- // set
- $.cookie("rented_car", $('#chat_fullscreen').html())
-
-
-
-    </script>
+$('.chat').append($rentContainer);
+</script>
 </body>
 
 
