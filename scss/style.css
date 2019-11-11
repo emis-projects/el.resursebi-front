@@ -5030,23 +5030,63 @@ section .arrow_up_down_downArrow img {
 }
 
 .circle--1 {
-  -webkit-transform: translate(72%, 17%);
-          transform: translate(72%, 17%);
-}
-
-.circle--2 {
-  -webkit-transform: translate(43%, 36%);
-          transform: translate(43%, 36%);
+  -webkit-transform: translate(57%, 17%);
+          transform: translate(57%, 17%);
 }
 
 .circle--1:hover {
-  -webkit-transform: scale(1.2) translate(56%, 12%);
-          transform: scale(1.2) translate(56%, 12%);
+  -webkit-transform: scale(1.2) translate(46%, 12%);
+          transform: scale(1.2) translate(46%, 12%);
+}
+
+.circle--2 {
+  -webkit-transform: translate(36%, 37%);
+          transform: translate(36%, 37%);
 }
 
 .circle--2:hover {
-  -webkit-transform: scale(1.2) translate(34%, 29%);
-          transform: scale(1.2) translate(34%, 29%);
+  -webkit-transform: scale(1.2) translate(28%, 29%);
+          transform: scale(1.2) translate(28%, 29%);
+}
+
+.circle--3 {
+  -webkit-transform: translate(89%, 38%);
+          transform: translate(89%, 38%);
+}
+
+.circle--3:hover {
+  -webkit-transform: scale(1.2) translate(73%, 30%);
+          transform: scale(1.2) translate(73%, 30%);
+}
+
+.circle--4 {
+  -webkit-transform: translate(87%, 65%);
+          transform: translate(87%, 65%);
+}
+
+.circle--4:hover {
+  -webkit-transform: scale(1.2) translate(70%, 52%);
+          transform: scale(1.2) translate(70%, 52%);
+}
+
+.circle--5 {
+  -webkit-transform: translate(32%, 67%);
+          transform: translate(32%, 67%);
+}
+
+.circle--5:hover {
+  -webkit-transform: scale(1.2) translate(25%, 53%);
+          transform: scale(1.2) translate(25%, 53%);
+}
+
+.circle--6 {
+  -webkit-transform: translate(63%, 90%);
+          transform: translate(63%, 90%);
+}
+
+.circle--6:hover {
+  -webkit-transform: scale(1.2) translate(51%, 73%);
+          transform: scale(1.2) translate(51%, 73%);
 }
 
 #A-1366-92 .mix_color_box {
@@ -6190,28 +6230,28 @@ section .arrow_up_down_downArrow img {
 }
 
 .background-38 {
-  background-image: url(../../../../img/gakvetilebi/xelovneba/forest/1366-03-38.svg);
+  background-image: url(../img/gakvetilebi/xelovneba/forest/1366-03-38.svg);
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .background-39 {
-  background-image: url(../../../../img/gakvetilebi/xelovneba/forest/1366-03-39.svg);
+  background-image: url(../img/gakvetilebi/xelovneba/forest/1366-03-39.svg);
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .background-40 {
-  background-image: url(../../../../img/gakvetilebi/xelovneba/forest/1366-03-40.svg);
+  background-image: url(../img/gakvetilebi/xelovneba/forest/1366-03-40.svg);
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .background-41 {
-  background-image: url(../../../../img/gakvetilebi/xelovneba/forest/1366-03-41.svg);
+  background-image: url(../img/gakvetilebi/xelovneba/forest/1366-03-41.svg);
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -6503,3 +6543,4 @@ canvas {
   top: 0;
   width: 100%;
 }
+/*# sourceMappingURL=style.css.map */
