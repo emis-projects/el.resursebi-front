@@ -4708,19 +4708,23 @@ section .arrow_up_down_downArrow img {
   background-repeat: no-repeat;
 }
 
-#M-1366-22 .music_content_wrapper .dots {
+.dots {
   margin-top: 4.6vh;
 }
 
-#M-1366-22 .music_content_wrapper .dots .dot-select {
+.dots-box {
+  padding-left: 0;
+}
+
+.dots .dot-select {
   margin-bottom: 3vh;
 }
 
-#M-1366-22 .music_content_wrapper .dots .dot-select:last-child {
+.dots .dot-select:last-child {
   margin-bottom: 0;
 }
 
-#M-1366-22 .music_content_wrapper .dots span {
+.dots span {
   height: 3.5vh;
   width: 3.5vh;
   max-width: 24px;
@@ -4736,15 +4740,17 @@ section .arrow_up_down_downArrow img {
   margin-right: 1.3vw;
 }
 
-#M-1366-22 .music_content_wrapper .dots p {
+.dots p {
   font-size: 2vh;
+  color: #0b2228;
+  font-family: 'BPG Arial', sans-serif;
 }
 
-#M-1366-22 .music_content_wrapper .dots p:last-child {
+.dots p:last-child {
   margin-bottom: 0;
 }
 
-#M-1366-22 .music_content_wrapper .dots .active::after {
+.dots .active::after {
   content: "";
   position: absolute;
   display: block;
@@ -4760,13 +4766,6 @@ section .arrow_up_down_downArrow img {
   margin-left: -1vh;
 }
 
-/* #M-1366-22 .music_content_wrapper .music_play_wrapper .music_play_box
-.music_play_box_icon .img {
-    max-width: 7px;
-    max-height: 11px;
-    height: 50%;
-    width: 50%;
-} */
 .music_m-1366-50_item_text {
   color: #0B2228;
   font-size: 2.34vh;
@@ -6142,6 +6141,51 @@ section .arrow_up_down_downArrow img {
   color: #0b2228;
 }
 
+#N-1366-38 .compass-img-box {
+  position: relative;
+  width: 20.9vh;
+  height: 20.9vh;
+}
+
+#N-1366-38 .compass-img-box .compass {
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/gakvetilebi/buneba/invisible_forces/N2-36.svg");
+  position: absolute;
+  background-position: center;
+  right: 0vw;
+  bottom: 0vh;
+}
+
+#N-1366-38 .nature_content_box_text {
+  margin-top: 2.6vh;
+}
+
+#N-1366-38 .nature_content_box_text p {
+  line-height: 3.9vh;
+}
+
+#N-1366-38 .subject_component_itle_icon {
+  background-position: center;
+}
+
+#N-1366-38 .subject_component_itle_icon img {
+  height: 100%;
+  max-height: 3.2vh;
+}
+
+#N-1366-38 .bottom_components {
+  margin-top: 7.8vh;
+}
+
+.subject_question_item_title_box {
+  font-family: 'ALK Sanet', sans-serif;
+}
+
+.subject_question_item_title_box p {
+  font-family: inherit;
+}
+
 .a-1366-03-36-font-dejavu {
   font-size: 2.08h;
   font-family: 'DejaVu Sans Oblique';
@@ -6426,6 +6470,124 @@ section .arrow_up_down_downArrow img {
 
 .m-1366-03-15-row {
   padding-top: 10.4vh;
+}
+
+#M-1366-22 .music_content-box {
+  font-family: 'DejaVu Sans Oblique', sans-serif;
+  color: #0b2228;
+}
+
+#M-1366-22 .music_content-box p {
+  margin-top: 3.9vh;
+}
+
+#M-1366-22 .music_content-box p:first-child {
+  margin-top: 5.2vh;
+}
+
+#M-1366-22 .correct::after {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 2vh;
+  width: 2vh;
+  max-width: 22px;
+  max-height: 22px;
+  background: #A1DD6F;
+  border-radius: 100%;
+  top: 50%;
+  left: 50%;
+  margin-top: -1vh;
+  margin-left: -1vh;
+}
+
+#M-1366-22 .false::after {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 2vh;
+  width: 2vh;
+  max-width: 22px;
+  max-height: 22px;
+  background: #DC6C85;
+  border-radius: 100%;
+  top: 50%;
+  left: 50%;
+  margin-top: -1vh;
+  margin-left: -1vh;
+}
+
+.music_image_boxes {
+  width: 12.6vw;
+  max-width: 172px;
+  height: 13.8vh;
+  max-height: 106px;
+}
+
+.music_image_boxes_wrapper {
+  margin-top: 7.8vh;
+  margin-bottom: 2.3vh;
+}
+
+.music_image_boxes img {
+  width: 100%;
+}
+
+#M-1366-26 .music_content-box {
+  font-family: 'DejaVu Sans Oblique', sans-serif;
+  color: #0b2228;
+}
+
+#M-1366-26 .music_content-box p {
+  margin-top: 3.9vh;
+}
+
+#M-1366-26 .music_content-box p:first-child {
+  margin-top: 5.2vh;
+}
+
+#M-1366-26 .music_image_boxes {
+  width: 12.6vw;
+  max-width: 172px;
+  height: 13.8vh;
+  max-height: 106px;
+}
+
+#M-1366-26 .music_image_boxes_wrapper {
+  margin-top: 17.8vh;
+  margin-bottom: 2.3vh;
+}
+
+#M-1366-26 .correct::after {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 2vh;
+  width: 2vh;
+  max-width: 22px;
+  max-height: 22px;
+  background: #A1DD6F;
+  border-radius: 100%;
+  top: 50%;
+  left: 50%;
+  margin-top: -1vh;
+  margin-left: -1vh;
+}
+
+#M-1366-26 .false::after {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 2vh;
+  width: 2vh;
+  max-width: 22px;
+  max-height: 22px;
+  background: #DC6C85;
+  border-radius: 100%;
+  top: 50%;
+  left: 50%;
+  margin-top: -1vh;
+  margin-left: -1vh;
 }
 
 .m-1366-03-63-font {
