@@ -34,6 +34,7 @@
                 margin-bottom: 1.5vh;
                 box-shadow: 0px 3px 6px #00000029;
                 cursor: pointer;
+
                 .img {
                     max-width: 30px;
                     max-height: 30px;
@@ -53,74 +54,73 @@
                     &:last-child {
                         margin-bottom: 0;
                     }
-                    
-                }
 
-                .bg_bouble_blue {
-                    background-image: url("../img/backgrounds/bg-ilustrations/bouble_blue.svg");
-                    background-repeat: no-repeat;
-                }
-            }
-        }
-
-        .dots {
-            margin-top: 4.6vh;
-
-            .dot-select {
-                margin-bottom: 3vh;
-
-                &:last-child {
-                    margin-bottom: 0;
-                }
-            }
-
-            span {
-                height: 3.5vh;
-                width: 3.5vh;
-                max-width: 24px;
-                max-height: 24px;
-                border: 1px solid #C5CBCD;
-                transform: scale(2%);
-                display: inline-block;
-                border-radius: 100%;
-                background-color: transparent;
-                cursor: pointer;
-                position: relative;
-                margin-right: 1.3vw;
-            }
-
-            p {
-                font-size: 2vh;
-
-                &:last-child {
-                    margin-bottom: 0;
-                }
-            }
-
-            .active {
-                &::after {
-                    content: "";
-                    position: absolute;
-                    display: block;
-                    height: 2vh;
-                    width: 2vh;
-                    max-width: 22px;
-                    max-height: 22px;
-                    background: #7FD1D8;
-                    border-radius: 100%;
-                    top: 50%;
-                    left: 50%;
-                    margin-top: -1vh;
-                    margin-left: -1vh;
                 }
             }
         }
     }
 }
-/* #M-1366-22 .music_content_wrapper .music_play_wrapper .music_play_box
-.music_play_box_icon .img {
-    max-width: 7px;
-    max-height: 11px;
-    height: 50%;
-    width: 50%;
-} */
+
+.bg_bouble_blue {
+    background-image: url("../img/backgrounds/bg-ilustrations/bouble_blue.svg");
+    background-repeat: no-repeat;
+}
+
+.dots {
+    margin-top: 4.6vh;
+
+    &-box {
+        padding-left: 0;
+    }
+
+    .dot-select {
+        margin-bottom: 3vh;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    span {
+        height: 3.5vh;
+        width: 3.5vh;
+        max-width: 24px;
+        max-height: 24px;
+        border: 1px solid #C5CBCD;
+        transform: scale(2%);
+        display: inline-block;
+        border-radius: 100%;
+        background-color: transparent;
+        cursor: pointer;
+        position: relative;
+        margin-right: 1.3vw;
+    }
+
+    p {
+        font-size: 2vh;
+        color: rgb(11, 34, 40);
+        font-family: 'BPG Arial', sans-serif;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    .active {
+        &::after {
+            content: "";
+            position: absolute;
+            display: block;
+            height: 2vh;
+            width: 2vh;
+            max-width: 22px;
+            max-height: 22px;
+            background: #7FD1D8;
+            border-radius: 100%;
+            top: 50%;
+            left: 50%;
+            margin-top: -1vh;
+            margin-left: -1vh;
+        }
+    }
+}

@@ -1,17 +1,21 @@
 .car_game {
   &_img_numbers-container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
   }
   &_img_number {
     height: 4.02vh;
   }
 }
+.btn_play-music{
+  height: 5.77vh;
+  cursor: pointer;
+}
 /* The custom_radioButton_container */
 .custom_radiobutton {
   &_full_container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 2vh 0 4vh;
   }
 }
