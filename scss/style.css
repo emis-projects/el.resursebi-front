@@ -6176,6 +6176,14 @@ section .arrow_up_down_downArrow img {
   margin-top: 7.8vh;
 }
 
+.subject_question_item_title_box {
+  font-family: 'ALK Sanet', sans-serif;
+}
+
+.subject_question_item_title_box p {
+  font-family: inherit;
+}
+
 .a-1366-03-36-font-dejavu {
   font-size: 2.08h;
   font-family: 'DejaVu Sans Oblique';
@@ -6543,4 +6551,3 @@ canvas {
   top: 0;
   width: 100%;
 }
-/*# sourceMappingURL=style.css.map */
