@@ -4894,13 +4894,17 @@ section .arrow_up_down_downArrow img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .car_game_img_number {
   height: 4.02vh;
+}
+
+.btn_play-music {
+  height: 5.77vh;
+  cursor: pointer;
 }
 
 /* The custom_radioButton_container */
@@ -4908,9 +4912,8 @@ section .arrow_up_down_downArrow img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   margin: 2vh 0 4vh;
 }
 
