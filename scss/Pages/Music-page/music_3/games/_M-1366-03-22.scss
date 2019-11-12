@@ -17,7 +17,11 @@
         bottom: 10vh;
     }
 
+    .dots .dot-select {
+        margin-bottom: 3vh;
+    }
 }
+
 // correct ფერი მონიშვნისას
 .correct {
     &::after {
