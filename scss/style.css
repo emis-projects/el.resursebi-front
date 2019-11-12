@@ -6600,8 +6600,6 @@ section .arrow_up_down_downArrow img {
   height: 57.16vh;
 }
 
-.music_content-box_text-wrapper_big {
-  margin-bottom: 5.2vh;
 #M-1366-30 .music_content-box {
   font-family: 'DejaVu Sans Oblique', sans-serif;
   color: #0b2228;
@@ -6686,6 +6684,10 @@ section .arrow_up_down_downArrow img {
   margin-top: 0;
 }
 
+.music_content-box_text-wrapper_big {
+  margin-bottom: 5.2vh;
+}
+
 .M3-background-65 {
   background-image: url(../img/gakvetilebi/musika/lesson3/M3-1366-65.svg);
   background-position: top center;
@@ -6741,4 +6743,3 @@ canvas {
   top: 0;
   width: 100%;
 }
-/*# sourceMappingURL=style.css.map */
