@@ -93,6 +93,7 @@
                 </div>
             </nav>
         </header>
+        
         <div class="subject_component_top_illustration">
             <div class="bg_pink_up illustration_bg"></div>
         </div>
@@ -120,9 +121,9 @@
             <div class="art_questions row">
                 <div class="col-10 m-auto">
                     <div class="subject_question_item align-items-center">
-                        <button class="listen_btn">მოუსმინე</button>
-                        <span class="margin-left-20px">პარკის ხმების პირველ ჩანაწერს. </br>ახლა კი დააწკაპე ხმის შესაბამის პარკის სურათის
-                            ღილაკს.</span>
+                        <button class="listen_btn" data-voice="../game-voices/M-1366-14.wav">მოუსმინე</button>
+
+                        <span class="margin-left-20px">პარკის ხმების პირველ ჩანაწერს. </br>ახლა კი დააწკაპე ხმის შესაბამის პარკის სურათის ღილაკს.</span>
                     </div>
                 </div>
             </div>
@@ -162,8 +163,10 @@
             </div>
         </div>
     </div>
-    <script src="../../../js/soundSwitch.js"></script>
 
+
+
+    <script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
+    <script src="../js/playvoice.js"></script>
 </body>
-
 </html>
