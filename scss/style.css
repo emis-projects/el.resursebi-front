@@ -6729,6 +6729,10 @@ section .arrow_up_down_downArrow img {
   height: 11.84vh;
 }
 
+.music-option-menu-container img {
+  height: 3.9vh;
+}
+
 canvas {
   border: 2px solid black;
   width: 100% !important;
