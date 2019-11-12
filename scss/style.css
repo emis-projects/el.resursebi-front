@@ -6718,6 +6718,11 @@ section .arrow_up_down_downArrow img {
   background-repeat: no-repeat;
 }
 
+.M-1366-03-51-img {
+  margin-top: 3vh;
+  height: 55vh;
+}
+
 canvas {
   border: 2px solid black;
   width: 100% !important;
@@ -6733,3 +6738,4 @@ canvas {
   top: 0;
   width: 100%;
 }
+/*# sourceMappingURL=style.css.map */
