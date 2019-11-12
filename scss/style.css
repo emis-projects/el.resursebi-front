@@ -6728,6 +6728,11 @@ section .arrow_up_down_downArrow img {
   height: 55vh;
 }
 
+.music_game-way-img {
+  height: 32.68vh;
+  margin: 4vh 0;
+}
+
 canvas {
   border: 2px solid black;
   width: 100% !important;
