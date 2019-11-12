@@ -6611,6 +6611,8 @@ section .arrow_up_down_downArrow img {
 
 .music_content-box_text-wrapper_big {
   margin-bottom: 5.2vh;
+}
+
 #M-1366-30 .music_content-box {
   font-family: 'DejaVu Sans Oblique', sans-serif;
   color: #0b2228;
@@ -6712,9 +6714,19 @@ section .arrow_up_down_downArrow img {
   background-repeat: no-repeat;
 }
 
-.M-1366-03-51-img {
-  margin-top: 3vh;
-  height: 55vh;
+.m_exercise_text-container_16px {
+  color: #0B2228;
+  font-size: 2.08h;
+  font-family: 'BPG Arial';
+}
+
+.music-andantino-lyrics {
+  height: 11.84vh;
+  margin-top: 1.53vh;
+}
+
+.music-andantino-lyrics img {
+  height: 11.84vh;
 }
 
 canvas {
