@@ -1,0 +1,28 @@
+#M-1366-26 {
+    .music_content-box {
+        font-family: 'DejaVu Sans Oblique', sans-serif;
+        color: rgb(11, 34, 40);
+
+        p {
+            margin-top: 3.9vh;
+
+            &:first-child {
+                margin-top: 5.2vh;
+            }
+        }
+    }
+
+    .music_image_boxes {
+        width: 12.6vw;
+        max-width: 172px;
+        height: 13.8vh;
+        max-height: 106px;
+
+    }
+
+    .game_btns_position {
+        right: 21vh;
+        bottom: 10vh;
+    }
+
+}

@@ -4,11 +4,7 @@
         color: rgb(11, 34, 40);
 
         p {
-            margin-top: 3.9vh;
-
-            &:first-child {
-                margin-top: 5.2vh;
-            }
+            margin-top: 2vh;
         }
     }
 
@@ -36,9 +32,11 @@
             max-width: 30px;
             border-radius: 50%;
             background-size: contain;
-            img{
+
+            img {
                 height: 100%;
             }
+
             &_wrapper {
                 height: 9.2vh;
                 max-width: 71px;
@@ -50,8 +48,17 @@
         }
 
         &_wrapper {
-            margin-top: 7.8vh;
-            margin-bottom: 2.3vh;
+            margin-top: 4.8vh;
+            margin-bottom: 1vh;
         }
+    }
+
+    .dots {
+        margin-top: 0;
+    }
+
+    .game_btns_position {
+        right: 21vh;
+        bottom: 10vh;
     }
 }
