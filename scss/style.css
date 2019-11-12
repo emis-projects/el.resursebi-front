@@ -6723,6 +6723,49 @@ section .arrow_up_down_downArrow img {
   background-repeat: no-repeat;
 }
 
+.m_exercise_text-container_16px {
+  color: #0B2228;
+  font-size: 2.08h;
+  font-family: 'BPG Arial';
+}
+
+.music-andantino-lyrics-div {
+  height: 9.84vh;
+  margin-top: 1.93vh;
+  margin-bottom: 1.3vh;
+}
+
+.music-andantino-lyrics-div img {
+  height: 11.84vh;
+}
+
+.music-pesante-lyrics-div {
+  margin-top: 0.9vh;
+  width: 11.54vh;
+}
+
+.music-allegro-lyrics-div {
+  margin-top: 0.9vh;
+  width: 11.02vh;
+}
+
+.music-options-menu-container {
+  margin-top: 2.32vh;
+  width: 100%;
+}
+
+.music-options-menu-container img {
+  height: 3.9vh;
+}
+
+.music-options-menu-container .dot-select {
+  margin-bottom: 0px;
+}
+
+.subject-component-1366-03-48 {
+  margin-bottom: 0px;
+}
+
 .M-1366-03-51-img {
   margin-top: 3vh;
   height: 55vh;
@@ -6748,3 +6791,4 @@ canvas {
   top: 0;
   width: 100%;
 }
+/*# sourceMappingURL=style.css.map */
