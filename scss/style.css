@@ -4917,6 +4917,10 @@ section .arrow_up_down_downArrow img {
   margin: 2vh 0 4vh;
 }
 
+.custom_radiobutton_full_container-margins {
+  margin: 4vh 0 6vh;
+}
+
 .custom_radioButton_container {
   display: block;
   position: relative;
@@ -4950,14 +4954,20 @@ section .arrow_up_down_downArrow img {
 }
 
 /* On mouse-over, add a grey background color */
-.custom_radioButton_container:hover input ~ .checkmark {
-  background-color: #7fd1d8;
-}
-
 /* When the radio button is checked, add a blue background */
 .custom_radioButton_container input:checked ~ .checkmark {
   background-color: #7fd1d8;
   border: 1px solid #7fd1d8;
+}
+
+.custom_radioButton_container.error input:checked ~ .checkmark {
+  background-color: #DC6C85;
+  border: 1px solid #DC6C85;
+}
+
+.custom_radioButton_container.success input:checked ~ .checkmark {
+  background-color: #A1DD6F;
+  border: 1px solid #A1DD6F;
 }
 
 /* Create the indicator (the dot/circle - hidden when not checked) */
