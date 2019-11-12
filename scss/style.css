@@ -4921,6 +4921,10 @@ section .arrow_up_down_downArrow img {
   margin: 2vh 0 4vh;
 }
 
+.custom_radiobutton_full_container-margins {
+  margin: 4vh 0 6vh;
+}
+
 .custom_radioButton_container {
   display: block;
   position: relative;
@@ -4954,14 +4958,20 @@ section .arrow_up_down_downArrow img {
 }
 
 /* On mouse-over, add a grey background color */
-.custom_radioButton_container:hover input ~ .checkmark {
-  background-color: #7fd1d8;
-}
-
 /* When the radio button is checked, add a blue background */
 .custom_radioButton_container input:checked ~ .checkmark {
   background-color: #7fd1d8;
   border: 1px solid #7fd1d8;
+}
+
+.custom_radioButton_container.error input:checked ~ .checkmark {
+  background-color: #DC6C85;
+  border: 1px solid #DC6C85;
+}
+
+.custom_radioButton_container.success input:checked ~ .checkmark {
+  background-color: #A1DD6F;
+  border: 1px solid #A1DD6F;
 }
 
 /* Create the indicator (the dot/circle - hidden when not checked) */
@@ -6395,10 +6405,6 @@ section .arrow_up_down_downArrow img {
   color: #7FD1D8;
 }
 
-.a-1366-03-padding {
-  padding-top: 7.81vh;
-}
-
 #M-1366-03-2 .subject_question_item p {
   line-height: 4vh;
 }
@@ -6447,10 +6453,6 @@ section .arrow_up_down_downArrow img {
 .person_game_img-boy {
   height: 39.71vh;
   margin-bottom: 8vh;
-}
-
-.a-1366-03-padding {
-  padding-top: 7.81vh;
 }
 
 .m-1366-03-3-img-container {
@@ -6598,6 +6600,8 @@ section .arrow_up_down_downArrow img {
   height: 57.16vh;
 }
 
+.music_content-box_text-wrapper_big {
+  margin-bottom: 5.2vh;
 #M-1366-30 .music_content-box {
   font-family: 'DejaVu Sans Oblique', sans-serif;
   color: #0b2228;
@@ -6717,6 +6721,11 @@ section .arrow_up_down_downArrow img {
   background-repeat: no-repeat;
 }
 
+.M-1366-03-51-img {
+  margin-top: 3vh;
+  height: 55vh;
+}
+
 canvas {
   border: 2px solid black;
   width: 100% !important;
@@ -6732,3 +6741,4 @@ canvas {
   top: 0;
   width: 100%;
 }
+/*# sourceMappingURL=style.css.map */
