@@ -7,7 +7,7 @@
       color: #0B2228;
       font-family: 'BPG Arial';
       font-size: 2.34vh;
-      margin: 0 3vh;
+      margin: 0 5vh;
       &:hover{
         color: #0B2228;
       }
@@ -31,4 +31,9 @@
         margin-top: -8vh;
     }
   }
+}
+
+.n-269-img-container{
+  margin-top: -10vh;
+  justify-content: flex-end;
 }
