@@ -6827,6 +6827,75 @@ section .arrow_up_down_downArrow img {
   margin: 4vh 0;
 }
 
+.n-hint-img-group {
+  height: 58.52vh;
+  width: 100%;
+}
+
+.n-hint-sm-text {
+  font-family: "BPG Arial";
+  font-size: 2.08vh;
+  color: #0b2228;
+}
+
+.n-hint-sm-text-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.n-283-full-img {
+  height: 36.45vh;
+}
+
+.n-283-imgWithText {
+  text-align: center;
+  color: #0B2228;
+  font-family: 'BPG Arial';
+  font-size: 2.34vh;
+  margin: 0 3vh;
+}
+
+.n-283-imgWithText:hover {
+  color: #0B2228;
+}
+
+.n-283-img {
+  margin: auto;
+  margin-bottom: 5vh;
+}
+
+.n-283-img-1 {
+  height: 22.04vh;
+}
+
+.n-283-img-2 {
+  height: 10.88vh;
+}
+
+.n-283-img-3 {
+  height: 12.64vh;
+}
+
+.n-283-img-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  margin-top: -8vh;
+}
+
 canvas {
   border: 2px solid black;
   width: 100% !important;
@@ -6842,4 +6911,3 @@ canvas {
   top: 0;
   width: 100%;
 }
-/*# sourceMappingURL=style.css.map */

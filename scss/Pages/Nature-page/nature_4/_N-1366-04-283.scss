@@ -1,0 +1,34 @@
+.n-283 {
+  &-full-img {
+    height: 36.45vh;
+  }
+  &-imgWithText{
+      text-align: center;
+      color: #0B2228;
+      font-family: 'BPG Arial';
+      font-size: 2.34vh;
+      margin: 0 3vh;
+      &:hover{
+        color: #0B2228;
+      }
+  }
+  &-img {
+    margin: auto;
+    margin-bottom: 5vh;
+    &-1{
+      height: 22.04vh;
+    }
+    &-2{
+      height: 10.88vh;
+    }
+    &-3{
+      height: 12.64vh;
+    }
+    &-container {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        margin-top: -8vh;
+    }
+  }
+}
