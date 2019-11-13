@@ -734,6 +734,10 @@ body {
   height: 100%;
 }
 
+.h-initial {
+  height: initial !important;
+}
+
 .text-center {
   text-align: center;
 }
@@ -4642,71 +4646,6 @@ section .arrow_up_down_downArrow img {
   bottom: 15vh;
 }
 
-#M-1366-22 .music_content_wrapper {
-  margin-left: 5.3vw;
-  font-size: 2.3vh;
-  color: #0B2228;
-  font-family: 'BPG Arial', sans-serif;
-}
-
-#M-1366-22 .music_content_wrapper p {
-  margin-bottom: 4vh;
-}
-
-#M-1366-22 .music_content_wrapper .music_code_box {
-  margin-top: 4.6vh;
-  max-width: 446px;
-  max-height: 320px;
-}
-
-#M-1366-22 .music_content_wrapper .music_code_box img {
-  width: 100%;
-  height: 100%;
-}
-
-#M-1366-22 .music_content_wrapper .music_play_wrapper {
-  width: 100%;
-}
-
-#M-1366-22 .music_content_wrapper .music_play_wrapper .music_play_box {
-  margin-left: 0.8vw;
-  height: 14vh;
-  width: 14vh;
-  max-width: 110px;
-  max-height: 110px;
-  background: #fff;
-  border-radius: 100%;
-  margin-bottom: 1.5vh;
-  -webkit-box-shadow: 0px 3px 6px #00000029;
-          box-shadow: 0px 3px 6px #00000029;
-  cursor: pointer;
-}
-
-#M-1366-22 .music_content_wrapper .music_play_wrapper .music_play_box .img {
-  max-width: 30px;
-  max-height: 30px;
-  height: 100%;
-  width: 100%;
-}
-
-#M-1366-22 .music_content_wrapper .music_play_wrapper .music_play_box_icon {
-  height: 6vh;
-  width: 6vh;
-  max-width: 42px;
-  max-height: 42px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-#M-1366-22 .music_content_wrapper .music_play_wrapper .music_play_box_icon:last-child {
-  margin-bottom: 0;
-}
-
-#M-1366-22 .dots .dot-select {
-  margin-bottom: 0;
-}
-
 .bg_bouble_blue {
   background-image: url("../img/backgrounds/bg-ilustrations/bouble_blue.svg");
   background-repeat: no-repeat;
@@ -4768,6 +4707,71 @@ section .arrow_up_down_downArrow img {
   left: 50%;
   margin-top: -1vh;
   margin-left: -1vh;
+}
+
+#M-1366-22 .dots .dot-select {
+  margin-bottom: 0;
+}
+
+#M-1366-22 .music_content_wrapper {
+  margin-left: 5.3vw;
+  font-size: 2.3vh;
+  color: #0B2228;
+  font-family: 'BPG Arial', sans-serif;
+}
+
+#M-1366-22 .music_content_wrapper p {
+  margin-bottom: 4vh;
+}
+
+#M-1366-22 .music_content_wrapper .music_code_box {
+  margin-top: 4.6vh;
+  max-width: 446px;
+  max-height: 320px;
+}
+
+#M-1366-22 .music_content_wrapper .music_code_box img {
+  width: 100%;
+  height: 100%;
+}
+
+#M-1366-22 .music_content_wrapper .music_play_wrapper {
+  width: 100%;
+}
+
+#M-1366-22 .music_content_wrapper .music_play_wrapper .music_play_box {
+  margin-left: 0.8vw;
+  height: 14vh;
+  width: 14vh;
+  max-width: 110px;
+  max-height: 110px;
+  background: #fff;
+  border-radius: 100%;
+  margin-bottom: 1.5vh;
+  -webkit-box-shadow: 0px 3px 6px #00000029;
+          box-shadow: 0px 3px 6px #00000029;
+  cursor: pointer;
+}
+
+#M-1366-22 .music_content_wrapper .music_play_wrapper .music_play_box .img {
+  max-width: 30px;
+  max-height: 30px;
+  height: 100%;
+  width: 100%;
+}
+
+#M-1366-22 .music_content_wrapper .music_play_wrapper .music_play_box_icon {
+  height: 6vh;
+  width: 6vh;
+  max-width: 42px;
+  max-height: 42px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#M-1366-22 .music_content_wrapper .music_play_wrapper .music_play_box_icon:last-child {
+  margin-bottom: 0;
 }
 
 .music_m-1366-50_item_text {
@@ -6478,25 +6482,25 @@ section .arrow_up_down_downArrow img {
   padding-top: 10.4vh;
 }
 
-#M-1366-22 .music_content-box {
+#M-1366-03-22 .music_content-box {
   font-family: 'DejaVu Sans Oblique', sans-serif;
   color: #0b2228;
 }
 
-#M-1366-22 .music_content-box p {
+#M-1366-03-22 .music_content-box p {
   margin-top: 3.9vh;
 }
 
-#M-1366-22 .music_content-box p:first-child {
+#M-1366-03-22 .music_content-box p:first-child {
   margin-top: 0;
 }
 
-#M-1366-22 .game_btns_position {
+#M-1366-03-22 .game_btns_position {
   right: 21vh;
   bottom: 10vh;
 }
 
-#M-1366-22 .dots .dot-select {
+#M-1366-03-22 .dots .dot-select {
   margin-bottom: 3vh;
 }
 
@@ -6894,6 +6898,185 @@ section .arrow_up_down_downArrow img {
       -ms-flex-align: baseline;
           align-items: baseline;
   margin-top: -8vh;
+}
+
+.N-1366-04-238 {
+  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-238.svg");
+  background-position: center bottom;
+}
+
+.N-1366-04-239 {
+  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-239.svg");
+  background-position: top center;
+}
+
+.N-1366-04-240 {
+  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-240.svg");
+  background-position: top center;
+}
+
+.N-1366-04-241 {
+  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-241.svg");
+  background-position: top center;
+}
+
+.N-1366-04-242 {
+  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-242.svg");
+  background-position: top center;
+}
+
+.N-1366-04-243 {
+  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-243.svg");
+  background-position: center bottom;
+}
+
+.N-1366-04-247 {
+  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-247.svg");
+  background-position: center;
+}
+
+.N-1366-04-248 {
+  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-248.svg");
+  background-position: left center;
+}
+
+.N-1366-04-249 {
+  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-249.svg");
+  background-position: center bottom;
+}
+
+.N-1366-04-250 {
+  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-250.svg");
+  background-position: left center;
+}
+
+.N-1366-04-251 {
+  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-251.svg");
+  background-position: center;
+}
+
+.N-1366-04-255 {
+  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-255.svg");
+  background-position: center;
+}
+
+.N-1366-04-266 {
+  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-266.svg");
+  background-position: center;
+}
+
+.N-1366-04-267 {
+  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-267.svg");
+  background-position: center;
+}
+
+.N-1366-04-284 {
+  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-284.svg");
+  background-position: center;
+}
+
+.N-1366-04-285 {
+  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-285.svg");
+  background-position: center;
+}
+
+.game-circle-box {
+  height: 23.4vh;
+  width: 23.4vh;
+  max-width: 184px;
+  max-height: 184px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.game-circle-box img {
+  height: 70%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.game-circle-box:nth-child(1) {
+  left: 1vw;
+  bottom: 29vh;
+}
+
+.game-circle-box:nth-child(2) {
+  left: 40%;
+  -webkit-transform: translateX(-40%);
+          transform: translateX(-40%);
+  bottom: 15vh;
+}
+
+.game-circle-box:nth-child(3) {
+  top: 21vh;
+  right: 30%;
+}
+
+.bg_wtite {
+  background: white;
+}
+
+.bg_correct {
+  background: #a1dd6f;
+}
+
+.bg_incorrect {
+  background: #dc6c85;
+}
+
+.answer-1 {
+  margin-top: 55px;
+}
+
+.answer-1, .answer-2 {
+  margin-bottom: 52px;
+}
+
+.answer-1 span, .answer-2 span, .answer-3 span {
+  font-family: 'BPG Arial';
+  font-size: 16px;
+  color: #0B2228;
+  padding-left: 20px;
+}
+
+.checkmark-green {
+  background: #A1DD6F 0% 0% no-repeat padding-box;
+  border: 1px solid #C5CBCD;
+}
+
+.n-1366-04-188-container_main_title {
+  padding-bottom: 4.68vh;
+}
+
+.n-1366-04-188-subject_question_item {
+  padding-bottom: 3.34vh;
+}
+
+.nature-stages-flower-div {
+  height: 55.59vh;
+}
+
+.nature-stages-flower-div img {
+  height: 55.59vh;
+}
+
+.nature-stages-flower-div--text-container {
+  margin-top: 5.72vh;
+}
+
+.nature-n-1366-04-286-leptop-task-div {
+  height: 31.77vh;
+}
+
+.nature-n-1366-04-286-leptop-task-div img {
+  height: 31.77vh;
+}
+
+.n-1366-04-286-art_questions {
+  margin-left: 23.35vh;
 }
 
 canvas {
