@@ -734,6 +734,10 @@ body {
   height: 100%;
 }
 
+.h-initial {
+  height: initial !important;
+}
+
 .text-center {
   text-align: center;
 }
@@ -6961,3 +6965,4 @@ canvas {
   top: 0;
   width: 100%;
 }
+/*# sourceMappingURL=style.css.map */
