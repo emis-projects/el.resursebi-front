@@ -6183,6 +6183,10 @@ section .arrow_up_down_downArrow img {
   line-height: 3.9vh;
 }
 
+#N-1366-38 .subject_component_title {
+  font-family: 'ALK Sanet', sans-serif;
+}
+
 #N-1366-38 .subject_component_itle_icon {
   background-position: center;
 }
@@ -6205,7 +6209,7 @@ section .arrow_up_down_downArrow img {
 }
 
 .a-1366-03-36-font-dejavu {
-  font-size: 2.08h;
+  font-size: 2.08vh;
   font-family: 'DejaVu Sans Oblique';
 }
 
@@ -6906,6 +6910,67 @@ section .arrow_up_down_downArrow img {
   background-position: center;
 }
 
+#N-1366-04-270 .text-box p {
+  font-family: 'BPG Arial', sans-serif;
+  font-size: 2.3vh;
+  line-height: 3.5vh;
+}
+
+#N-1366-04-270 .pt-5vh {
+  padding-top: 5.2vh;
+}
+
+#N-1366-04-270 .windows-box {
+  height: 16.9vh;
+  max-height: 130px;
+}
+
+#N-1366-04-270 .windows-box img {
+  height: 100%;
+}
+
+#N-1366-04-270 .windows-box_wrapper {
+  height: 55.6vh;
+  max-height: 404px;
+}
+
+#N-1366-04-270 .text {
+  font-family: 'BPG Arial', sans-serif;
+  font-size: 2vh;
+}
+
+#N-1366-04-270 .image-box img {
+  height: 9vh;
+  width: 6vh;
+  max-width: 37px;
+  max-height: 54px;
+  margin-top: 5vh;
+}
+
+#N-1366-04-270 .circle-box {
+  height: 19vh;
+}
+
+#N-1366-04-270 .circle-box img {
+  width: 100%;
+}
+
+#N-1366-04-270 .circle-box_wrapper {
+  height: 13vh;
+  max-height: 100px;
+}
+
+#N-1366-04-270 .circle-box_wrapper .circles {
+  height: 13vh;
+  width: 13vw;
+  max-width: 90px;
+  max-height: 90px;
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
+          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
+  border-radius: 50%;
+  margin-right: 12vh;
+}
+
 .N-1366-04-285 {
   background-image: url("../img/gakvetilebi/buneba/lesson4/1366-285.svg");
   background-position: center;
@@ -6946,8 +7011,68 @@ section .arrow_up_down_downArrow img {
   right: 30%;
 }
 
-.bg_wtite {
+.bg_white {
   background: white;
+}
+
+.bg_correct {
+  background: #a1dd6f;
+}
+
+.bg_incorrect {
+  background: #dc6c85;
+}
+
+.answer-1 {
+  margin-top: 55px;
+}
+
+.answer-1, .answer-2 {
+  margin-bottom: 52px;
+}
+
+.answer-1 span, .answer-2 span, .answer-3 span {
+  font-family: 'BPG Arial';
+  font-size: 16px;
+  color: #0B2228;
+  padding-left: 20px;
+}
+
+.checkmark-green {
+  background: #A1DD6F 0% 0% no-repeat padding-box;
+  border: 1px solid #C5CBCD;
+}
+
+.n-1366-04-188-container_main_title {
+  padding-bottom: 4.68vh;
+}
+
+.n-1366-04-188-subject_question_item {
+  padding-bottom: 3.34vh;
+}
+
+.nature-stages-flower-div {
+  height: 55.59vh;
+}
+
+.nature-stages-flower-div img {
+  height: 55.59vh;
+}
+
+.nature-stages-flower-div--text-container {
+  margin-top: 5.72vh;
+}
+
+.nature-n-1366-04-286-leptop-task-div {
+  height: 31.77vh;
+}
+
+.nature-n-1366-04-286-leptop-task-div img {
+  height: 31.77vh;
+}
+
+.n-1366-04-286-art_questions {
+  margin-left: 23.35vh;
 }
 
 canvas {
@@ -6965,4 +7090,3 @@ canvas {
   top: 0;
   width: 100%;
 }
-/*# sourceMappingURL=style.css.map */
