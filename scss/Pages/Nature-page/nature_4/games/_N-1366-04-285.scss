@@ -1,0 +1,52 @@
+.N-1366-04-285 {
+    background-image: url("../img/gakvetilebi/buneba/lesson4/1366-285.svg");
+    background-position: center;
+}
+
+.game-circle-box {
+    height: 23.4vh;
+    width: 23.4vh;
+    max-width: 184px;
+    max-height: 184px;
+    border-radius: 50%;
+    position: absolute;
+
+    img {
+        height: 70%;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    &:nth-child(1) {
+        left: 1vw;
+        bottom: 29vh;
+    }
+
+    &:nth-child(2) {
+        left: 40%;
+        transform: translateX(-40%);
+        bottom: 15vh;
+    }
+
+
+    &:nth-child(3) {
+        top: 21vh;
+        right: 30%;
+    }
+}
+
+.bg_wtite {
+    background: rgb(255, 255, 255);
+}
+
+// სწორი პასუხის ფერი
+.bg_correct {
+    background: rgb(161, 221, 111);
+}
+
+//არასწორი პასუხის ფერი
+.bg_incorrect {
+    background: rgb(220, 108, 133);
+}
