@@ -6835,29 +6835,6 @@ section .arrow_up_down_downArrow img {
   margin: 4vh 0;
 }
 
-.n-hint-img-group {
-  height: 58.52vh;
-  width: 100%;
-}
-
-.n-hint-sm-text {
-  font-family: "BPG Arial";
-  font-size: 2.08vh;
-  color: #0b2228;
-}
-
-.n-hint-sm-text-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-}
-
 .n-283-full-img {
   height: 36.45vh;
 }
@@ -7137,6 +7114,24 @@ section .arrow_up_down_downArrow img {
 
 .nature-stages-flower-div--text-container {
   margin-top: 5.72vh;
+}
+
+.nature-n-1366-04-286-leptop-task-div {
+  height: 31.77vh;
+}
+
+.nature-n-1366-04-286-leptop-task-div img {
+  height: 31.77vh;
+}
+
+.n-1366-04-286-art_questions {
+  margin-left: 23.35vh;
+}
+
+.n-1366-04-286-_content_box_text {
+  font-size: 2.08vh;
+  font-family: 'DejaVu Sans Oblique';
+  color: #707070;
 }
 
 .nature-n-1366-04-286-leptop-task-div {
