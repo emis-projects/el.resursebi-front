@@ -6827,6 +6827,38 @@ section .arrow_up_down_downArrow img {
   margin: 4vh 0;
 }
 
+.n-1366-04-188-container_main_title {
+  padding-bottom: 4.68vh;
+}
+
+.n-1366-04-188-subject_question_item {
+  padding-bottom: 3.34vh;
+}
+
+.nature-stages-flower-div {
+  height: 55.59vh;
+}
+
+.nature-stages-flower-div img {
+  height: 55.59vh;
+}
+
+.nature-stages-flower-div--text-container {
+  margin-top: 5.72vh;
+}
+
+.nature-n-1366-04-286-leptop-task-div {
+  height: 31.77vh;
+}
+
+.nature-n-1366-04-286-leptop-task-div img {
+  height: 31.77vh;
+}
+
+.n-1366-04-286-art_questions {
+  margin-left: 23.35vh;
+}
+
 canvas {
   border: 2px solid black;
   width: 100% !important;
