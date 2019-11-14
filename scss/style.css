@@ -4421,6 +4421,10 @@ section .arrow_up_down_downArrow img {
   padding: 0 2.79vw;
 }
 
+.music_img-button {
+  margin: 3vh 0;
+}
+
 #M-1366-58 .music_content_wrapper {
   margin-left: 5.3vw;
   font-size: 2.3vh;
