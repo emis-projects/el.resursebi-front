@@ -4313,7 +4313,9 @@ section .arrow_up_down_downArrow img {
   border-radius: 50%;
   position: absolute;
   top: 80%;
-  left: 30%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 
 .game-number-container img {
@@ -4326,6 +4328,21 @@ section .arrow_up_down_downArrow img {
 
 .margin-left-20px {
   margin-left: 20px;
+}
+
+.voice__question__element {
+  position: relative;
+}
+
+.voice__question__element::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: calc(100% + 35px);
+  left: 0;
+  top: 0;
+  background: transparent;
+  z-index: 10000;
 }
 
 .music_m-1366-49_content_cols {
@@ -4419,6 +4436,10 @@ section .arrow_up_down_downArrow img {
 .btn-restart {
   background: #F8D24B;
   padding: 0 2.79vw;
+}
+
+.music_img-button {
+  margin: 3vh 0;
 }
 
 #M-1366-58 .music_content_wrapper {
@@ -7015,13 +7036,111 @@ section .arrow_up_down_downArrow img {
 
 #N-1366-04-270 .circle-box_wrapper .circles {
   height: 13vh;
-  width: 13vw;
+  width: 13vh;
   max-width: 90px;
   max-height: 90px;
   -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
           box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
   border-radius: 50%;
   margin-right: 12vh;
+}
+
+#N-1366-04-273 P {
+  font-family: 'BPG Arial', sans-serif;
+  font-size: 2.3vh;
+}
+
+#N-1366-04-273 .timline_box {
+  height: 20.8vh;
+  max-height: 154px;
+}
+
+#N-1366-04-273 .timline_box img {
+  height: 19.5vh;
+  max-height: 150px;
+}
+
+#N-1366-04-273 .timline_box p {
+  font-size: 1.8vh;
+}
+
+#N-1366-04-273 .circle-box img {
+  width: 100%;
+}
+
+#N-1366-04-273 .circle-box_wrapper {
+  height: 13vh;
+  max-height: 100px;
+}
+
+#N-1366-04-273 .circle-box_wrapper .circles {
+  height: 12vh;
+  width: 12vh;
+  max-width: 90px;
+  max-height: 90px;
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
+          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
+  border-radius: 50%;
+}
+
+#N-1366-04-273 .new_start {
+  height: 50.8vh;
+}
+
+#N-1366-04-273 .new_start .img_box img {
+  height: 7.8vh;
+  max-height: 60px;
+  width: 2.9vw;
+  max-width: 40px;
+}
+
+#N-1366-04-278 P {
+  font-family: 'BPG Arial', sans-serif;
+  font-size: 2vh;
+}
+
+#N-1366-04-278 .timline_box {
+  height: 20.8vh;
+  max-height: 154px;
+}
+
+#N-1366-04-278 .timline_box img {
+  height: 12.5vh;
+  max-height: 96px;
+}
+
+#N-1366-04-278 .timline_box p {
+  font-size: 1.8vh;
+}
+
+#N-1366-04-278 .circle-box img {
+  width: 100%;
+}
+
+#N-1366-04-278 .circle-box_wrapper {
+  height: 13vh;
+  max-height: 100px;
+}
+
+#N-1366-04-278 .circle-box_wrapper .circles {
+  height: 12vh;
+  width: 12vh;
+  max-width: 90px;
+  max-height: 90px;
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
+          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
+  border-radius: 50%;
+}
+
+#N-1366-04-278 .new_start {
+  height: 50.8vh;
+}
+
+#N-1366-04-278 .new_start .img_box img {
+  height: 7.8vh;
+  max-height: 60px;
+  width: 2.9vw;
+  max-width: 40px;
 }
 
 .N-1366-04-285 {
