@@ -1,0 +1,52 @@
+#N-1366-04-278 {
+    P {
+        font-family: 'BPG Arial', sans-serif;
+        font-size: 2vh;
+    }
+
+    .timline_box {
+        height: 20.8vh;
+        max-height: 154px;
+
+        img {
+            height: 12.5vh;
+            max-height: 96px;
+        }
+
+        p {
+            font-size: 1.8vh;
+        }
+    }
+
+    .circle-box {
+        img {
+            width: 100%;
+        }
+
+        &_wrapper {
+            height: 13vh;
+            max-height: 100px;
+
+            .circles {
+                height: 12vh;
+                width: 12vh;
+                max-width: 90px;
+                max-height: 90px;
+                box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
+                border-radius: 50%;
+            }
+        }
+
+    }
+
+    .new_start {
+        height: 50.8vh;
+
+        .img_box img {
+            height: 7.8vh;
+            max-height: 60px;
+            width: 2.9vw;
+            max-width: 40px;
+        }
+    }
+}
