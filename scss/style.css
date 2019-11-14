@@ -4313,7 +4313,9 @@ section .arrow_up_down_downArrow img {
   border-radius: 50%;
   position: absolute;
   top: 80%;
-  left: 30%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 
 .game-number-container img {
@@ -4326,6 +4328,21 @@ section .arrow_up_down_downArrow img {
 
 .margin-left-20px {
   margin-left: 20px;
+}
+
+.voice__question__element {
+  position: relative;
+}
+
+.voice__question__element::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: calc(100% + 35px);
+  left: 0;
+  top: 0;
+  background: transparent;
+  z-index: 10000;
 }
 
 .music_m-1366-49_content_cols {
