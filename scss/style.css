@@ -4438,6 +4438,10 @@ section .arrow_up_down_downArrow img {
   padding: 0 2.79vw;
 }
 
+.music_img-button {
+  margin: 3vh 0;
+}
+
 #M-1366-58 .music_content_wrapper {
   margin-left: 5.3vw;
   font-size: 2.3vh;
@@ -6200,6 +6204,10 @@ section .arrow_up_down_downArrow img {
   line-height: 3.9vh;
 }
 
+#N-1366-38 .subject_component_title {
+  font-family: 'ALK Sanet', sans-serif;
+}
+
 #N-1366-38 .subject_component_itle_icon {
   background-position: center;
 }
@@ -6222,7 +6230,7 @@ section .arrow_up_down_downArrow img {
 }
 
 .a-1366-03-36-font-dejavu {
-  font-size: 2.08h;
+  font-size: 2.08vh;
   font-family: 'DejaVu Sans Oblique';
 }
 
@@ -6846,6 +6854,381 @@ section .arrow_up_down_downArrow img {
 .music_game-way-img {
   height: 32.68vh;
   margin: 4vh 0;
+}
+
+.n-283-full-img {
+  height: 36.45vh;
+}
+
+.n-283-imgWithText {
+  text-align: center;
+  color: #0B2228;
+  font-family: 'BPG Arial';
+  font-size: 2.34vh;
+  margin: 0 5vh;
+}
+
+.n-283-imgWithText:hover {
+  color: #0B2228;
+}
+
+.n-283-img {
+  margin: auto;
+  margin-bottom: 5vh;
+}
+
+.n-283-img-1 {
+  height: 22.04vh;
+}
+
+.n-283-img-2 {
+  height: 10.88vh;
+}
+
+.n-283-img-3 {
+  height: 12.64vh;
+}
+
+.n-283-img-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  margin-top: -8vh;
+}
+
+.n-269-img-container {
+  margin-top: -10vh;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.N-1366-04-238 {
+  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-238.svg");
+  background-position: center bottom;
+}
+
+.N-1366-04-239 {
+  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-239.svg");
+  background-position: top center;
+}
+
+.N-1366-04-240 {
+  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-240.svg");
+  background-position: top center;
+}
+
+.N-1366-04-241 {
+  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-241.svg");
+  background-position: top center;
+}
+
+.N-1366-04-242 {
+  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-242.svg");
+  background-position: top center;
+}
+
+.N-1366-04-243 {
+  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-243.svg");
+  background-position: center bottom;
+}
+
+.N-1366-04-247 {
+  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-247.svg");
+  background-position: center;
+}
+
+.N-1366-04-248 {
+  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-248.svg");
+  background-position: left center;
+}
+
+.N-1366-04-249 {
+  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-249.svg");
+  background-position: center bottom;
+}
+
+.N-1366-04-250 {
+  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-250.svg");
+  background-position: left center;
+}
+
+.N-1366-04-251 {
+  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-251.svg");
+  background-position: center;
+}
+
+.N-1366-04-255 {
+  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-255.svg");
+  background-position: center;
+}
+
+.N-1366-04-266 {
+  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-266.svg");
+  background-position: center;
+}
+
+.N-1366-04-267 {
+  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-267.svg");
+  background-position: center;
+}
+
+.N-1366-04-284 {
+  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-284.svg");
+  background-position: center;
+}
+
+#N-1366-04-270 .text-box p {
+  font-family: 'BPG Arial', sans-serif;
+  font-size: 2.3vh;
+  line-height: 3.5vh;
+}
+
+#N-1366-04-270 .pt-5vh {
+  padding-top: 5.2vh;
+}
+
+#N-1366-04-270 .windows-box {
+  height: 16.9vh;
+  max-height: 130px;
+}
+
+#N-1366-04-270 .windows-box img {
+  height: 100%;
+}
+
+#N-1366-04-270 .windows-box_wrapper {
+  height: 55.6vh;
+  max-height: 404px;
+}
+
+#N-1366-04-270 .text {
+  font-family: 'BPG Arial', sans-serif;
+  font-size: 2vh;
+}
+
+#N-1366-04-270 .image-box img {
+  height: 9vh;
+  width: 6vh;
+  max-width: 37px;
+  max-height: 54px;
+  margin-top: 5vh;
+}
+
+#N-1366-04-270 .circle-box {
+  height: 19vh;
+}
+
+#N-1366-04-270 .circle-box img {
+  width: 100%;
+}
+
+#N-1366-04-270 .circle-box_wrapper {
+  height: 13vh;
+  max-height: 100px;
+}
+
+#N-1366-04-270 .circle-box_wrapper .circles {
+  height: 13vh;
+  width: 13vw;
+  max-width: 90px;
+  max-height: 90px;
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
+          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
+  border-radius: 50%;
+  margin-right: 12vh;
+}
+
+#N-1366-04-273 P {
+  font-family: 'BPG Arial', sans-serif;
+}
+
+#N-1366-04-273 .timline_box {
+  height: 20.8vh;
+  max-height: 154px;
+}
+
+#N-1366-04-273 .timline_box img {
+  height: 19.5vh;
+  max-height: 150px;
+}
+
+#N-1366-04-273 .timline_box p {
+  font-size: 2.08vh;
+}
+
+.N-1366-04-285 {
+  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-285.svg");
+  background-position: center;
+}
+
+.game-circle-box {
+  height: 23.4vh;
+  width: 23.4vh;
+  max-width: 184px;
+  max-height: 184px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.game-circle-box img {
+  height: 70%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.game-circle-box:nth-child(1) {
+  left: 1vw;
+  bottom: 29vh;
+}
+
+.game-circle-box:nth-child(2) {
+  left: 40%;
+  -webkit-transform: translateX(-40%);
+          transform: translateX(-40%);
+  bottom: 15vh;
+}
+
+.game-circle-box:nth-child(3) {
+  top: 21vh;
+  right: 30%;
+}
+
+.bg_white {
+  background: white;
+}
+
+.bg_correct {
+  background: #a1dd6f;
+}
+
+.bg_incorrect {
+  background: #dc6c85;
+}
+
+.answer-1 {
+  margin-top: 55px;
+}
+
+.answer-1, .answer-2 {
+  margin-bottom: 52px;
+}
+
+.answer-1 span, .answer-2 span, .answer-3 span {
+  font-family: 'BPG Arial';
+  font-size: 16px;
+  color: #0B2228;
+  padding-left: 20px;
+}
+
+.checkmark-green {
+  background: #A1DD6F 0% 0% no-repeat padding-box;
+  border: 1px solid #C5CBCD;
+}
+
+.n-1366-04-188-container_main_title {
+  padding-bottom: 4.68vh;
+}
+
+.n-1366-04-188-subject_question_item {
+  padding-bottom: 3.34vh;
+}
+
+.nature-stages-flower-div {
+  height: 55.59vh;
+}
+
+.nature-stages-flower-div img {
+  height: 55.59vh;
+}
+
+.nature-stages-flower-div--text-container {
+  margin-top: 5.72vh;
+}
+
+.nature-n-1366-04-286-leptop-task-div {
+  height: 31.77vh;
+}
+
+.nature-n-1366-04-286-leptop-task-div img {
+  height: 31.77vh;
+}
+
+.n-1366-04-286-art_questions {
+  margin-left: 23.35vh;
+}
+
+.n-1366-04-286-_content_box_text {
+  font-size: 2.08vh;
+  font-family: 'DejaVu Sans Oblique';
+  color: #707070;
+}
+
+.nature-n-1366-04-286-leptop-task-div {
+  height: 31.77vh;
+}
+
+.nature-n-1366-04-286-leptop-task-div img {
+  height: 31.77vh;
+}
+
+.n-1366-04-286-art_questions {
+  margin-left: 23.35vh;
+}
+
+.n-1366-04-286-_content_box_text {
+  font-size: 2.08vh;
+  font-family: 'DejaVu Sans Oblique';
+  color: #707070;
+}
+
+.n-1366-04-252-laptop-div {
+  height: 10.17vh;
+  padding-right: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-bottom: 2.34vh;
+}
+
+.n-1366-04-252-laptop-div img {
+  height: 10.17vh;
+}
+
+.n-1366-04-252-col-5 h3 {
+  font: 2.08vh;
+  left: 1.5vw;
+}
+
+.n-1366-04-25-text p {
+  line-height: 25px;
+}
+
+.water-tree-portrate-div {
+  height: 52.73vh;
+  margin-top: 2.6vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.water-tree-portrate-div img {
+  height: 52.73vh;
 }
 
 canvas {
