@@ -1,0 +1,73 @@
+body {
+    background: green;
+}
+
+header {
+    height: 6vh;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 3.5vh;
+    padding-bottom: 3.5vh;
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: inherit;
+
+        .header-logo {
+            height: 5.2vh;
+
+            a {
+                height: 100%;
+                display: block;
+
+                img {
+                    max-height: 21px;
+                    height: 100%;
+                }
+            }
+        }
+
+        .header-menu {
+            height: 5.2vh;
+
+            img {
+                max-height: 22px;
+                height: 100%;
+            }
+        }
+
+        .header-sound {
+            height: inherit;
+
+            .header-sound_switch {
+                height: inherit;
+                box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
+                max-width: 40px;
+                max-height: 40px;
+                height: 5.2vh;
+                width: 5.2vh;
+                border-radius: 50%;
+                outline: none;
+                background: rgb(255, 255, 255);
+                font-family: 'ALK Sanet', sans-serif;
+
+                img {
+                    max-height: 36px;
+                    height: 100%;
+                }
+            }
+
+            .sound-on {
+                margin-right: 50px;
+            }
+
+            .lang {
+                background: rgb(127, 209, 216);
+                color: rgb(255, 255, 255);
+            }
+
+        }
+    }
+}
