@@ -7311,6 +7311,39 @@ section .arrow_up_down_downArrow img {
   height: 52.73vh;
 }
 
+.n-1366-04-245-container {
+  margin-top: 7.81vh;
+}
+
+.n-1366-04-245-row {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.n-1366-04-245-leptop-div {
+  height: 38.17vh;
+  position: absolute;
+  left: -120px;
+}
+
+.n-1366-04-245-leptop-div img {
+  height: 38.17vh;
+}
+
+.n-1366-04-245-leptop-div {
+  margin-top: 30.98vh;
+}
+
+.n-1366-04-245-wrapper {
+  background: none;
+}
+
 canvas {
   border: 2px solid black;
   width: 100% !important;
@@ -7326,3 +7359,4 @@ canvas {
   top: 0;
   width: 100%;
 }
+/*# sourceMappingURL=style.css.map */
