@@ -7311,6 +7311,10 @@ section .arrow_up_down_downArrow img {
   height: 52.73vh;
 }
 
+.n-living-world-img {
+  height: 25vh;
+}
+
 canvas {
   border: 2px solid black;
   width: 100% !important;
