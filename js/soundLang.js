@@ -4,7 +4,7 @@ const lang = document.querySelector(".lang");
 
 // Sound icon bg
 const onCircle = soundOn.querySelector("circle");
-const onIcon = soundOn.querySelector("#Path_1226");
+const onIcon = document.getElementById('Path_1226');
 
 
 soundOn.addEventListener("click", () => {
