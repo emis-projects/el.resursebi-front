@@ -13,5 +13,4 @@ for (let i = 0; i < dots.length; i++) {
             target.classList.add('active')
         }
     })
-
 }
