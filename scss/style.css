@@ -6872,6 +6872,29 @@ section .arrow_up_down_downArrow img {
   margin: 4vh 0;
 }
 
+.n-hint-img-group {
+  height: 58.52vh;
+  width: 100%;
+}
+
+.n-hint-sm-text {
+  font-family: "BPG Arial";
+  font-size: 2.08vh;
+  color: #0b2228;
+}
+
+.n-hint-sm-text-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
 .n-283-full-img {
   height: 36.45vh;
 }
@@ -7439,6 +7462,90 @@ section .arrow_up_down_downArrow img {
 .nature-plants-green-cube-4 {
   bottom: 20vh;
   right: 3.8vw;
+}
+
+.circles_game-question-img {
+  height: 10.5vh;
+  width: 6.5vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.circles_game-img-computer {
+  height: 26.04vh;
+  width: 100%;
+}
+
+.circles_game-bordered-circle {
+  padding: 10px 6px !important;
+  width: 19vh !important;
+  height: 19vh !important;
+}
+
+.circles_game-bordered-circle:nth-child(2) img {
+  right: 6vw !important;
+}
+
+.circles_game-bordered-circle:nth-child(4) img {
+  top: 4vh !important;
+  right: -5vw !important;
+}
+
+.circles_game-blue-container {
+  position: relative;
+}
+
+.circles_game-blue-circle {
+  background: #44bbbd;
+  color: #fff;
+  position: absolute;
+  height: 18vh;
+  width: 18vh;
+  max-width: 150px;
+  max-height: 150px;
+  margin-top: 2.5vh;
+  border: 6px solid #44bbbd;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 11px;
+  font-size: 14px;
+  text-align: center;
+  color: #0b2228;
+  cursor: pointer;
+  font-family: "BPG Arial";
+}
+
+.circles_game-blue-circle h5 {
+  font-size: 1.4vh;
+  line-height: 1.2;
+  color: #fff;
+}
+
+.circles_game-blue-circle--first {
+  right: 15%;
+  top: 0;
+}
+
+.circles_game-blue-circle--second {
+  right: 55%;
+  top: 5vh;
+}
+
+.circles_game-blue-circle--third {
+  right: 30%;
+  top: 20vh;
+}
+
+.n-living-world-img {
+  height: 25vh;
 }
 
 canvas {
