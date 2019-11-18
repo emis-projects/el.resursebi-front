@@ -2,69 +2,82 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8"/>
-    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <!--  ვუე გაშვებისას
+    <script src="./js/vue.min.js"></script>
+     -->
     <link rel="stylesheet" href="./scss/libraries/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="./scss/libraries/owl.carousel.min.css"/>
-    <link rel="stylesheet" type="text/css" href="./scss/libraries/owl.theme.default.css"/>
-    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
-    <link rel="stylesheet" href="./scss/style.css"/>
+    <link rel="stylesheet" type="text/css" href="./scss/libraries/owl.carousel.min.css" />
+    <link rel="stylesheet" type="text/css" href="./scss/libraries/owl.theme.default.css" />
+    <link rel="stylesheet" href="./scss/style.css" />
     <title>ელექტრონული საგანმანათლებლო რესურსი</title>
 </head>
 
 <body>
-<div class="container" id="app">
-    <header>
-        <nav class="row">
-            <app-logo v-logo="'./'"></app-logo>
-            <app-menu v-menu:dark="'./'"></app-menu>
-            <sound-lang></sound-lang>
-        </nav>
-    </header>
-    <section id="index">
-        <div class="container_choose_arrowDown">
-            <div>აირჩიე კლასი</div>
-            <img src="./img/icons/chevron-down.svg" alt="down-arrow"/>
-        </div>
-        <div class="slider owl-carousel owl-theme row no-gutters">
-            <div class="item slide_content-box">
-                <div class="img-warpper button-red col-5 ">
-                    <img src="./img/slider/slide-1.svg" alt="nature"/>
+    <div class="container" id="app">
+        <header>
+            <nav class="row">
+                <app-logo v-logo="'./'"></app-logo>
+                <app-menu v-menu:dark="'./'"></app-menu>
+                <sound-lang></sound-lang>
+            </nav>
+        </header>
+        <section id="index">
+            <div class="container_choose_arrowDown">
+                <div>აირჩიე კლასი</div>
+                <img src="./img/icons/chevron-down.svg" alt="down-arrow" />
+            </div>
+            <div class="slider owl-carousel owl-theme row no-gutters">
+                <div class="item slide_content-box">
+                    <div class="img-warpper button-red col-5 ">
+                        <img src="./img/slider/slide-1.svg" alt="nature" />
+                    </div>
+                    <div class="text-wrapper main_box_links col-7">
+                        <a href="./main-page/13366-7.html" class="nature">დაწყება</a>
+                        <h1>გააციფრულე სწავლის პროცესი</h1>
+                        <p>ხელოვნური ინტელექტის გამოყენებით</p>
+                    </div>
                 </div>
-                <div class="text-wrapper main_box_links col-7">
-                    <a href="./main-page/13366-7.html" class="nature">დაწყება</a>
-                    <h1>გააციფრულე სწავლის პროცესი</h1>
-                    <p>ხელოვნური ინტელექტის გამოყენებით</p>
+                <div class="item col-12 slide_content-box">
+                    <div class="img-warpper button-blue col-5">
+                        <img src="./img/slider/slide-2.svg" alt="music" />
+                    </div>
+                    <div class="text-wrapper main_box_links col-7">
+                        <a href="./main-page/13366-7.html" class="music">დაწყება</a>
+                        <h1>გააციფრულე სწავლის პროცესი</h1>
+                        <p>ხელოვნური ინტელექტის გამოყენებით</p>
+                    </div>
+                </div>
+                <div class="item col-12 slide_content-box">
+                    <div class="img-warpper button-yellow  col-5">
+                        <img src="./img/slider/slide-3.svg" alt="art" />
+                    </div>
+                    <div class="text-wrapper main_box_links col-7">
+                        <a href="./main-page/13366-7.html" class="art">დაწყება</a>
+                        <h1>გააციფრულე სწავლის პროცესი</h1>
+                        <p>ხელოვნური ინტელექტის გამოყენებით</p>
+                    </div>
                 </div>
             </div>
-            <div class="item col-12 slide_content-box">
-                <div class="img-warpper button-blue col-5">
-                    <img src="./img/slider/slide-2.svg" alt="music"/>
-                </div>
-                <div class="text-wrapper main_box_links col-7">
-                    <a href="./main-page/13366-7.html" class="music">დაწყება</a>
-                    <h1>გააციფრულე სწავლის პროცესი</h1>
-                    <p>ხელოვნური ინტელექტის გამოყენებით</p>
-                </div>
-            </div>
-            <div class="item col-12 slide_content-box">
-                <div class="img-warpper button-yellow  col-5">
-                    <img src="./img/slider/slide-3.svg" alt="art"/>
-                </div>
-                <div class="text-wrapper main_box_links col-7">
-                    <a href="./main-page/13366-7.html" class="art">დაწყება</a>
-                    <h1>გააციფრულე სწავლის პროცესი</h1>
-                    <p>ხელოვნური ინტელექტის გამოყენებით</p>
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
+    </div>
 
+    <div id="chatBot">
+        <app-bot v-if="show"></app-bot>
+    </div>
     <script src="./js/libraries/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.js"></script>
     <script src="./js/libraries/bootstrap.min.js"></script>
     <script src="./js/libraries/owl.carousel.min.js"></script>
     <script src="./js/slider.js"></script>
+    <script src="./js/bot.js"></script>
+
+
     <script src="./Vue-Header/app.js"></script>
+    <script src="./Vue-chatBot/botApp.js"></script>
+
 </body>
 
 </html>

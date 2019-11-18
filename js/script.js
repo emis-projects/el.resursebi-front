@@ -15,7 +15,6 @@ function toggleFab() {
   $('.chat').toggleClass('is-visible');
   $('.fab').toggleClass('is-visible');
   showchat();
-  
 }
 
 
