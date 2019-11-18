@@ -7444,6 +7444,10 @@ section .arrow_up_down_downArrow img {
   top: 20vh;
 }
 
+.n-living-world-img {
+  height: 25vh;
+}
+
 canvas {
   border: 2px solid black;
   width: 100% !important;
@@ -7459,3 +7463,4 @@ canvas {
   top: 0;
   width: 100%;
 }
+/*# sourceMappingURL=style.css.map */
