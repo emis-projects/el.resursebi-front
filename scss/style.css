@@ -6769,6 +6769,21 @@ section .arrow_up_down_downArrow img {
   margin-bottom: 5.2vh;
 }
 
+#M-1366-16 h4 {
+  font-family: 'ALK Sanet', sans-serif;
+  margin-bottom: 5vh;
+  font-size: 1.8vh;
+}
+
+#M-1366-16 p {
+  font-family: 'DejaVu Sans Oblique', sans-serif;
+  font-size: 2.3vh;
+}
+
+#M-1366-16 .listen_btn-container {
+  margin: 1.5vh auto;
+}
+
 .M3-background-65 {
   background-image: url(../img/gakvetilebi/musika/lesson3/M3-1366-65.svg);
   background-position: top center;
@@ -6916,72 +6931,72 @@ section .arrow_up_down_downArrow img {
 }
 
 .N-1366-04-239 {
-  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-239.svg");
+  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-239.png");
   background-position: top center;
 }
 
 .N-1366-04-240 {
-  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-240.svg");
+  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-240.png");
   background-position: top center;
 }
 
 .N-1366-04-241 {
-  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-241.svg");
+  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-241.png");
   background-position: top center;
 }
 
 .N-1366-04-242 {
-  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-242.svg");
+  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-242.png");
   background-position: top center;
 }
 
 .N-1366-04-243 {
-  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-243.svg");
+  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-243.png");
   background-position: center bottom;
 }
 
 .N-1366-04-247 {
-  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-247.svg");
+  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-247.png");
   background-position: center;
 }
 
 .N-1366-04-248 {
-  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-248.svg");
+  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-248.png");
   background-position: left center;
 }
 
 .N-1366-04-249 {
-  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-249.svg");
+  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-249.png");
   background-position: center bottom;
 }
 
 .N-1366-04-250 {
-  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-250.svg");
+  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-250.png");
   background-position: left center;
 }
 
 .N-1366-04-251 {
-  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-251.svg");
+  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-251.png");
   background-position: center;
 }
 
 .N-1366-04-255 {
-  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-255.svg");
+  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-255.png");
   background-position: center;
 }
 
 .N-1366-04-266 {
-  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-266.svg");
+  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-266.png");
   background-position: center;
 }
 
 .N-1366-04-267 {
-  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-267.svg");
+  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-267.png");
   background-position: center;
 }
 
 .N-1366-04-284 {
-  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-284.svg");
+  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-284.png");
   background-position: center;
 }
 
@@ -7444,4 +7459,3 @@ canvas {
   top: 0;
   width: 100%;
 }
-/*# sourceMappingURL=style.css.map */
