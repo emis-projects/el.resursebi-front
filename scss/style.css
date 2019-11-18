@@ -7421,6 +7421,198 @@ section .arrow_up_down_downArrow img {
   font-size: 2vh;
 }
 
+.nature-plants-cubes-div {
+  height: 52.21vh;
+}
+
+.nature-plants-cubes-div-container {
+  height: 52.21vh;
+}
+
+.n-1366-04-244-container_main_title_text {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.n-1366-04-244-container_main_title {
+  margin-left: 5.3vw;
+}
+
+.n-1366-04-244-checkbox-container {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin-bottom: 4.4vh;
+}
+
+.n-1366-04-244-checkbox-container img {
+  height: 9vh;
+}
+
+.n-1366-04-244-checkbox-text {
+  line-height: 30px;
+}
+
+.n-1366-04-244-checkbox-container-row {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.n-1366-04-244-checkbox-container-row-no-justify {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+.n-1366-04-244-checkbox-subject_component {
+  margin-bottom: 1.8vh;
+}
+
+.nature-plants-green-cube-1, .nature-plants-green-cube-2, .nature-plants-green-cube-3, .nature-plants-green-cube-4 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+}
+
+.nature-plants-green-cube-1 {
+  top: 8vh;
+  left: 3vw;
+}
+
+.nature-plants-green-cube-2 {
+  top: 4.2vh;
+  right: 3.8vw;
+}
+
+.nature-plants-green-cube-3 {
+  bottom: 12vh;
+  left: 2.5vw;
+}
+
+.nature-plants-green-cube-4 {
+  bottom: 20vh;
+  right: 3.8vw;
+}
+
+.circles_game-question-img {
+  height: 10.5vh;
+  width: 6.5vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.circles_game-img-computer {
+  height: 26.04vh;
+  width: 100%;
+}
+
+.circles_game-bordered-circle {
+  padding: 10px 6px !important;
+  width: 19vh !important;
+  height: 19vh !important;
+}
+
+.circles_game-bordered-circle:nth-child(2) img {
+  right: 6vw !important;
+}
+
+.circles_game-bordered-circle:nth-child(4) img {
+  top: 4vh !important;
+  right: -5vw !important;
+}
+
+.circles_game-blue-container {
+  position: relative;
+}
+
+.circles_game-blue-circle {
+  background: #44bbbd;
+  color: #fff;
+  position: absolute;
+  height: 18vh;
+  width: 18vh;
+  max-width: 150px;
+  max-height: 150px;
+  margin-top: 2.5vh;
+  border: 6px solid #44bbbd;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 11px;
+  font-size: 14px;
+  text-align: center;
+  color: #0b2228;
+  cursor: pointer;
+  font-family: "BPG Arial";
+}
+
+.circles_game-blue-circle h5 {
+  font-size: 1.4vh;
+  line-height: 1.2;
+  color: #fff;
+}
+
+.circles_game-blue-circle--first {
+  right: 15%;
+  top: 0;
+}
+
+.circles_game-blue-circle--second {
+  right: 55%;
+  top: 5vh;
+}
+
+.circles_game-blue-circle--third {
+  right: 30%;
+  top: 20vh;
+}
+
+.n-living-world-img {
+  height: 25vh;
+}
+
+#N-1366-04-177 .tilte-margin {
+  margin-top: 7.2vh;
+  margin-bottom: 10vh;
+}
+
+#N-1366-04-177 .nature_objects-link {
+  height: 18vh;
+  max-height: 145px;
+}
+
+#N-1366-04-177 .nature_objects-link img {
+  height: 100%;
+}
+
+#N-1366-04-177 .nature_objects:nth-child(1) {
+  margin-bottom: 9.5vh;
+}
+
+#N-1366-04-177 .nature_objects:nth-child(2) {
+  margin-bottom: 9.5vh;
+}
+
+#N-1366-04-177 .nature_objects-title {
+  padding-top: 0.5vh;
+}
+
+#N-1366-04-177 h3 {
+  font-family: 'BPG Arial', sans-serif;
+  font-size: 2vh;
+}
+
 canvas {
   border: 2px solid black;
   width: 100% !important;
@@ -7436,4 +7628,3 @@ canvas {
   top: 0;
   width: 100%;
 }
-/*# sourceMappingURL=style.css.map */
