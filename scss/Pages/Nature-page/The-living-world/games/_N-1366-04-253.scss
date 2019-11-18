@@ -1,0 +1,75 @@
+.circles_game {
+  &-question-img {
+    height: 10.5vh;
+    width: 6.5vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  &-img-computer {
+    height: 26.04vh;
+    width: 100%;
+  }
+  &-bordered-circle {
+    padding: 10px 6px !important;
+    width: 19vh !important;
+    height: 19vh !important;
+    &:nth-child(2) img {
+      right: 6vw !important;
+    }
+    &:nth-child(4) img {
+      top: 4vh !important;
+      right: -5vw !important;
+    }
+  }
+  &-blue {
+    &-container {
+      position: relative;
+      //   margin-top: 15vh;
+    }
+    &-circle {
+      background: #44bbbd;
+      color: #fff;
+      position: absolute;
+      height: 18vh;
+      width: 18vh;
+      max-width: 150px;
+      max-height: 150px;
+      margin-top: 2.5vh;
+      border: 6px solid #44bbbd;
+      border-radius: 50%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      padding: 11px;
+      font-size: 14px;
+      text-align: center;
+      color: #0b2228;
+      cursor: pointer;
+      font-family: "BPG Arial";
+
+      h5 {
+        font-size: 1.4vh;
+        line-height: 1.2;
+        color: #fff;
+      }
+      &--first {
+        right: 15%;
+        top: 0;
+      }
+      &--second {
+        right: 55%;
+        top: 5vh;
+      }
+      &--third {
+        right: 30%;
+        top: 20vh;
+      }
+    }
+  }
+}
