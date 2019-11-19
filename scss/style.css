@@ -7637,6 +7637,19 @@ section .arrow_up_down_downArrow img {
   padding-left: 0px;
 }
 
+.n-03-222-img {
+  margin-top: 10vh !important;
+  height: 50vh;
+}
+
+.n-03-227-img {
+  height: 35vh;
+}
+
+.mt-15vh {
+  margin-top: 15vh !important;
+}
+
 canvas {
   border: 2px solid black;
   width: 100% !important;
