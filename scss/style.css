@@ -7633,7 +7633,7 @@ section .arrow_up_down_downArrow img {
   left: 28.08vw;
 }
 
-.n-1366-05-206-cols-container {
+.n-1366-03-206-cols-container {
   padding-left: 0px;
 }
 
@@ -7648,6 +7648,43 @@ section .arrow_up_down_downArrow img {
 
 .mt-15vh {
   margin-top: 15vh !important;
+}
+
+.n-1366-03-191-text-container p {
+  line-height: 30px;
+}
+
+.nature-research-stages {
+  height: 26.04vh;
+  margin-top: 7.45vh;
+}
+
+.nature-research-stages img {
+  height: 26.04vh;
+  margin-top: 7.45vh;
+}
+
+.n-1366-03-193-laptop-div {
+  height: 19.14vh;
+}
+
+.n-1366-03-193-laptop-div img {
+  height: 19.14vh;
+}
+
+.n-1366-03-193-laptop-text {
+  margin-top: 4.81vh;
+}
+
+.narute-research-stages-empty-div {
+  height: 45.7vh;
+  position: absolute;
+  top: 18.88vh;
+  right: 3.82vw;
+}
+
+.narute-research-stages-empty-div img {
+  height: 45.7vh;
 }
 
 canvas {
