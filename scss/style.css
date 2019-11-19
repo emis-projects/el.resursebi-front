@@ -7613,6 +7613,30 @@ section .arrow_up_down_downArrow img {
   font-size: 2vh;
 }
 
+.n-1366-03-78-text {
+  margin-top: 14.48vh;
+}
+
+.n-1366-03-190-leptop {
+  height: 36.06vh;
+  margin-left: 1.46vh;
+}
+
+.n-1366-03-190-leptop-task-comment {
+  height: 15.62vh;
+  margin-left: 24.45vw;
+}
+
+.n-1366-03-190-leptop-task-text {
+  position: absolute;
+  top: 4.42vh;
+  left: 28.08vw;
+}
+
+.n-1366-05-206-cols-container {
+  padding-left: 0px;
+}
+
 canvas {
   border: 2px solid black;
   width: 100% !important;
@@ -7628,3 +7652,4 @@ canvas {
   top: 0;
   width: 100%;
 }
+/*# sourceMappingURL=style.css.map */
