@@ -7613,6 +7613,74 @@ section .arrow_up_down_downArrow img {
   font-size: 2vh;
 }
 
+.nature_img-forest {
+  width: 100%;
+  height: 27.69vh;
+  margin-bottom: 2.5vh;
+}
+
+.nature_hint_image-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nature_hint_image-hor {
+  height: 39.66vh;
+  max-width: 29.99vw;
+}
+
+.nature_hint_image-vert {
+  height: 49.61vh;
+}
+
+.nature_hint_image-mid {
+  height: 47.09vh;
+}
+
+.nature_hint_image-sm {
+  height: 34.42vh;
+}
+
+.createForest_game-img {
+  max-height: 14.97vh;
+  margin: .7vh 0;
+}
+
+.createForest_game-img-bg {
+  margin: auto;
+  height: 56.29vh;
+}
+
+.createForest_game-img-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.createForest_game-img-container-rg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  height: 100%;
+}
+
 canvas {
   border: 2px solid black;
   width: 100% !important;

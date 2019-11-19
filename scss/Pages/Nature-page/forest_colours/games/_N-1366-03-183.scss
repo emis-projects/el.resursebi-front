@@ -1,0 +1,20 @@
+.createForest_game {
+  &-img {
+    max-height: 14.97vh;
+    margin: .7vh 0;
+    &-bg{
+        margin: auto;
+        height: 56.29vh;
+    }
+    &-container {
+      display: flex;
+      align-items: baseline;
+      &-rg{
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+          height: 100%;
+      }
+    }
+  }
+}
