@@ -60,13 +60,57 @@
             margin-left: -1vh;
         }
     }
+
 }
+
+
 
 
 #M-1366-22 {
     .dots .dot-select {
         margin-bottom: 0;
     }
+
+    .dot-select {
+        .voices__question__dot {
+            &.correct {
+                &::after {
+                    content: "";
+                    position: absolute;
+                    display: block;
+                    height: 2vh;
+                    width: 2vh;
+                    max-width: 22px;
+                    max-height: 22px;
+                    background: #7FD1D8;
+                    border-radius: 100%;
+                    top: 50%;
+                    left: 50%;
+                    margin-top: -1vh;
+                    margin-left: -1vh;
+                }
+            }
+
+
+            &.error {
+                &::after {
+                    content: "";
+                    position: absolute;
+                    display: block;
+                    height: 2vh;
+                    width: 2vh;
+                    max-width: 22px;
+                    max-height: 22px;
+                    background: red;
+                    border-radius: 100%;
+                    top: 50%;
+                    left: 50%;
+                    margin-top: -1vh;
+                    margin-left: -1vh;
+                }
+            }
+        }
+    }    
 
     .music_content_wrapper {
         margin-left: 5.3vw;
@@ -103,6 +147,17 @@
                 margin-bottom: 1.5vh;
                 box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
                 cursor: pointer;
+                position: relative;
+
+                &::after {
+                    content: '';
+                    background: transparent;
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                }
 
                 .img {
                     max-width: 30px;
