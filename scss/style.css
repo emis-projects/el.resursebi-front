@@ -7876,9 +7876,17 @@ section .arrow_up_down_downArrow img {
   height: 34.42vh;
 }
 
+.createForest_game-text {
+  color: #0B2228;
+  font-family: 'BPG Arial';
+  font-size: 1.82vh;
+  text-align: center;
+  margin-bottom: 1vh;
+}
+
 .createForest_game-img {
   max-height: 14.97vh;
-  margin: .7vh 0;
+  margin: 1vh auto;
 }
 
 .createForest_game-img-bg {
