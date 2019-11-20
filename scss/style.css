@@ -1134,8 +1134,8 @@ header nav .header-sound .lang {
 }
 
 .paging_buttons a {
-  -webkit-box-shadow: 0px 3px 6px #00000029;
-          box-shadow: 0px 3px 6px #00000029;
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
+          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
   border-radius: 50%;
 }
 
@@ -1317,14 +1317,21 @@ header nav .header-sound .lang {
 .subject_component .item_flex .subject_component_itle_icon {
   height: 5.7vh;
   width: 5.7vh;
+  max-width: 43px;
+  max-height: 43px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+  position: relative;
 }
 
 .subject_component .item_flex .subject_component_itle_icon img {
-  height: 100%;
-  max-height: 2.2vh;
+  height: 60%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 .subject_component .item_flex .subject_component_title {
@@ -2145,8 +2152,8 @@ section .arrow_up_down_downArrow img {
 .draggable__answer__btns {
   width: 28px;
   height: 28px;
-  -webkit-box-shadow: 0px 3px 6px #00000029;
-          box-shadow: 0px 3px 6px #00000029;
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
+          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
   border-radius: 50%;
   cursor: pointer;
   -ms-touch-action: none;
@@ -2290,8 +2297,8 @@ section .arrow_up_down_downArrow img {
 
 .Shadow {
   border: 1px solid #707070;
-  -webkit-box-shadow: 0px 0px 4px #DC6C85;
-          box-shadow: 0px 0px 4px #DC6C85;
+  -webkit-box-shadow: 0px 0px 4px #dc6c85;
+          box-shadow: 0px 0px 4px #dc6c85;
 }
 
 .questions__image_wrapper_box {
@@ -4532,8 +4539,8 @@ section .arrow_up_down_downArrow img {
   background: #fff;
   border-radius: 100%;
   margin-bottom: 1.5vh;
-  -webkit-box-shadow: 0px 3px 6px #00000029;
-          box-shadow: 0px 3px 6px #00000029;
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
+          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
   cursor: pointer;
 }
 
@@ -4641,8 +4648,8 @@ section .arrow_up_down_downArrow img {
   -webkit-transform: matrix(0, -1, 1, 0, 0, 0);
           transform: matrix(0, -1, 1, 0, 0, 0);
   background: #ffffff 0% 0% no-repeat padding-box;
-  -webkit-box-shadow: 0px 3px 6px #00000029;
-          box-shadow: 0px 3px 6px #00000029;
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
+          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
   opacity: 1;
   border-radius: 50%;
   position: absolute;
@@ -4773,8 +4780,8 @@ section .arrow_up_down_downArrow img {
   background: #fff;
   border-radius: 100%;
   margin-bottom: 1.5vh;
-  -webkit-box-shadow: 0px 3px 6px #00000029;
-          box-shadow: 0px 3px 6px #00000029;
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
+          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
   cursor: pointer;
 }
 
@@ -4893,8 +4900,8 @@ section .arrow_up_down_downArrow img {
   -webkit-transform: matrix(0, -1, 1, 0, 0, 0);
           transform: matrix(0, -1, 1, 0, 0, 0);
   background: #ffffff 0% 0% no-repeat padding-box;
-  -webkit-box-shadow: 0px 3px 6px #00000029;
-          box-shadow: 0px 3px 6px #00000029;
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
+          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
   opacity: 1;
   border-radius: 50%;
   position: absolute;
@@ -7799,6 +7806,22 @@ section .arrow_up_down_downArrow img {
 .N-1366-03-181 {
   background-image: url("../img/gakvetilebi/buneba/forest_colours/N-181.png");
   background-position: center;
+}
+
+#N-1366-03-196 p {
+  font-family: 'BPG Arial', sans-serif;
+  font-size: 2.3vh;
+  line-height: 3.9vh;
+}
+
+#N-1366-03-196 .tree_box {
+  margin-top: 13vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .N-1366-03-203 {

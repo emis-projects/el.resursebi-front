@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <script src="../../js/vue.js"></script>
+  <link rel="stylesheet" type="text/css" href="../../scss/libraries/owl.carousel.min.css" />
+  <link rel="stylesheet" type="text/css" href="../../scss/libraries/owl.theme.default.css" />
+  <link rel="stylesheet" href="../../scss/libraries/bootstrap.min.css" />
+  <link rel="stylesheet" href="../../scss/style.css" />
+  <title>ელექტრონული საგანმანათლებლო რესურსი</title>
+</head>
+
+<body>
+  <div class="container" id="app">
+    <header>
+      <nav class="row">
+        <app-logo v-logo="'../../'"></app-logo>
+        <app-menu v-menu:dark="'../../'"></app-menu>
+        <sound-lang></sound-lang>
+      </nav>
+    </header>
+    <section id="N-1366-03-196">
+      <div class="subject_component row">
+        <div class="col-12 item_flex">
+          <div class="subject_component_itle_icon bg_bouble_pink d-flex justify-content-center align-items-center">
+            <img src="../../img/backgrounds/bg-ilustrations/hand.svg" alt="hand" />
+          </div>
+          <h3 class="subject_component_title">სავარჯიშო</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-7 offset-1">
+          <p>დააკვირდი ხის აგებულებას, მიიტანე ისარი მის ნაწილზე და დააწკაპუნე. გაიგებ მცენარის თითოეული ნაწილის
+            დასახელებას.</p>
+        </div>
+        <div class="col-12 tree_box">
+          <app-tree v-if="show" :page-fn="infoPage"></app-tree>
+          <app-tree-comp v-else :post-title="imgUrl"></app-tree-comp>
+          <!-- <app-flower v-if="questions.flower"></app-flower>
+          <app-timber v-if="questions.timber"></app-timber>
+          <app-roots v-if="questions.roots"></app-roots>
+          <app-arcon v-if="questions.arcon"></app-arcon> -->
+        </div>
+      </div>
+      <page-arrow v-if="arrShow"></page-arrow>
+      <page-back v-else :back-fn="backFn"></page-back>
+    </section>
+  </div>
+  <div class="subject_component_botton_illustration">
+    <div class="illustration_bg bg_pink_Down"></div>
+    <div class="subject_component_botton_bg_icon">
+      <img src="../../img/backgrounds/bg-ilustrations/hand.svg" alt="hand" />
+    </div>
+  </div>
+
+  <script src="../../js/libraries/jquery-3.4.1.min.js"></script>
+  <script src="../../js/libraries/owl.carousel.min.js"></script>
+  <script src="../../Vue-Header/app.js"></script>
+</body>
+
+</html>
