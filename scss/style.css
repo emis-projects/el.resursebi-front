@@ -7991,6 +7991,47 @@ section .arrow_up_down_downArrow img {
   height: 45.7vh;
 }
 
+.forest_colors_game-container {
+  width: 100%;
+  min-height: 9vh;
+  padding: 0 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.forest_colors_game-container-text {
+  color: #fff;
+  font-family: 'BPG Arial';
+  font-size: 1.82vh;
+  text-align: center;
+  line-height: inherit;
+}
+
+.forest_colors_game-container-yellow {
+  background: #fcc14f;
+}
+
+.forest_colors_game-container-green {
+  background: #82cf8a;
+}
+
+.forest_colors_game-container-large {
+  min-height: 60vh;
+}
+
+.forest_colors_game-container-dropped-img {
+  margin: 0 auto;
+  padding: 1vh 0;
+  max-height: 10vh;
+}
+
 canvas {
   border: 2px solid black;
   width: 100% !important;
