@@ -112,18 +112,18 @@
 
     &:nth-child(2) {
       position: absolute;
-      right: 0;
+      right: -2.8vw;
       top: 13vh;
       img {
         position: absolute;
         bottom: 19vh;
-        right: 4vw;
+        right: 6vw;
       }
     }
 
     &:nth-child(3) {
       position: absolute;
-      right: 0;
+      right: -2.8vw;
       top: 45vh;
       img {
         position: absolute;
@@ -139,10 +139,12 @@
       transform: translateX(-50vw);
       img {
         position: absolute;
-        top: 0vh;
-        right: -4vw;
+        top: 2vh;
+        right: -5.5vw;
       }
     }
+  
+ 
 
     &:nth-child(5) {
       position: absolute;
@@ -151,10 +153,11 @@
       transform: translateX(-30%);
       img {
         position: absolute;
-        top: 17vh;
+        top: 16vh;
         right: -5vw;
-      }
     }
+  }
+
 
     &:nth-child(6) {
       position: absolute;
