@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="../../../scss/libraries/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../../../scss/libraries/owl.carousel.min.css" />
+    <link rel="stylesheet" type="text/css" href="../../../scss/libraries/owl.theme.default.css" />
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <link rel="stylesheet" href="../../../scss/style.css" />
+    <title>ელექტრონული საგანმანათლებლო რესურსი</title>
+</head>
+
+<body>
+    <div class="container" id="app">
+        <header>
+            <nav class="row">
+                <app-logo v-logo="'../../../'"></app-logo>
+                <app-menu v-menu:dark="'../../../'"></app-menu>
+                <sound-lang></sound-lang>
+            </nav>
+        </header>
+        <section class="ask_question_game">
+            <div class="subject_component row" style="margin-bottom: 0;">
+                <div class="col-12 item_flex">
+                    <div
+                        class="subject_component_itle_icon bg_bouble_pink d-flex justify-content-center align-items-center">
+                        <img src="../../../img/backgrounds/bg-ilustrations/hand.svg" alt="hand write" />
+                    </div>
+                    <h3 class="subject_component_title">სავარჯიშო</h3>
+                </div>
+            </div>
+             <div class="row">
+                 <div class="col-5 circles_game-container-04">
+                    <img src="../../../img/gakvetilebi/buneba/lesson4/N-253-04.svg" alt="" class="circles_game-img-computer">
+                    <div class="circles_game-blue-container">
+                        <div class="circles_game-blue-circle circles_game-blue-circle--first"
+                        data-class="ask_question_game_box ask_question_game_box--first">
+                        <h5 class="draggeble_h5" data-index="2">ოთახის მცენარის შერჩევისას, უნდა გავითვალისწინოთ მისი თვისებები</h5>
+                    </div>
+                    <div class="circles_game-blue-circle circles_game-blue-circle--second"
+                        data-class="ask_question_game_box ask_question_game_box--first">
+                        <h5 class="draggeble_h5" data-index="2">საარსებო პირობები განსაზღვრავენ მცენარის კეთილდღეობას</h5>
+                    </div>
+                    <div class="circles_game-blue-circle circles_game-blue-circle--third"
+                        data-class="ask_question_game_box ask_question_game_box--first">
+                        <h5 class="draggeble_h5" data-index="2">სინათლე, წყალი და ტემპერატურა სხვადასხვაგვარად მოქმედებენ სხვადასხვა მცენარეზე</h5>
+                    </div>
+                    </div>
+                    
+                </div>
+                <div class="col-6 flex">
+                    <div class="circle__container relative w-100">
+                        <div class="ask_question_game_box--sm circles_game-bordered-circle" data-index="1">
+                            <h5>რატომ გაუყვითლდა ოთახის მცენარეს ფოთლები?</h5>
+                            <div class="ask_question_game_box_number-img">
+                                <img src="../../../img/gakvetilebi/buneba/n-1-i-1.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="ask_question_game_box--sm circles_game-bordered-circle dropDiv" data-index="2">
+                            <div class="circles_game-question-img" style="background-image: url('../../../img/gakvetilebi/buneba/lesson4/question.svg');"></div>
+                            <div class="ask_question_game_box_number-img">
+                                <img src="../../../img/gakvetilebi/buneba/n-1-i-2.svg" alt="">
+                            </div>
+                        </div>
+
+                        <div class="ask_question_game_box--sm circles_game-bordered-circle" data-index="3">
+                                <h5>ვიკვლევთ 4 ძირითადი საჭიროების ზეგავლენას მცენარეზე/ ვიკვლევთ მცენარის არსებობისთვის აუცილებელ პირობებს</h5>
+                            <div class="ask_question_game_box_number-img">
+                                <img src="../../../img/gakvetilebi/buneba/n-1-i-3.svg" alt="">
+                            </div>
+                        </div>
+
+                        <div class="ask_question_game_box--sm circles_game-bordered-circle dropDiv" data-index="4">
+                                <div class="circles_game-question-img" style="background-image: url('../../../img/gakvetilebi/buneba/lesson4/question.svg');"></div>
+                            <div class="ask_question_game_box_number-img">
+                                <img src="../../../img/gakvetilebi/buneba/n-1-i-4.svg" alt="">
+                            </div>
+                        </div>
+
+                        <div class="ask_question_game_box--sm circles_game-bordered-circle" data-index="5">
+                                <h5>შევურჩიოთ სწორი ადგილი და სწორად მოვუაროთ</h5>
+                            <div class="ask_question_game_box_number-img">
+                                <img src="../../../img/gakvetilebi/buneba/n-1-i-5.svg" alt="">
+                            </div>
+                        </div>
+
+                        <div class="ask_question_game_box--sm circles_game-bordered-circle dropDiv" data-index="6">
+                                <div class="circles_game-question-img" style="background-image: url('../../../img/gakvetilebi/buneba/lesson4/question.svg');"></div>
+                            <div class="ask_question_game_box_number-img">
+                                <img src="../../../img/gakvetilebi/buneba/n-1-i-6.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             </div>
+          
+           
+        </section>
+
+        <!-- <div class="flex flex-end column align-items-end z-index reload_game_wrapper">
+            <button id="resetBtn" class="reset__btn">თავიდან სცადე</button>
+            <button id="completedGame" class="completed__btn">დასრულება</button>
+        </div> -->
+
+
+        <div class="paging_buttons paging_buttons_position">
+            <a href="../N-1366-04-252.html">
+                <img src="../../../img/icons/chevron-down-logo.svg" alt="down arrow" class="paging_buttons_left" />
+            </a>
+            <a href="../N-1366-04-254.html" class="paging_buttons_margin-left">
+                <img src="../../../img/icons/chevron-down-logo.svg" alt="down arrow" class="paging_buttons_right" />
+            </a>
+        </div>
+        <div class="subject_component_botton_illustration">
+            <div class="illustration_bg bg_pink_Down"></div>
+            <div class="subject_component_botton_icon">
+                <img src="../../../img/backgrounds/bg-ilustrations/hand.svg" alt="hand write" />
+            </div>
+        </div>
+    </div>
+
+
+    <script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
+    <script src="../../../js/libraries/bootstrap.min.js"></script>
+    <script src="../../../js/libraries/owl.carousel.min.js"></script>
+    <script src="../../../js/slider.js"></script>
+    <script src="../../../Vue-Header/app.js"></script>
+    <script src="../../../Nature-Lessons/My_world/js/N-1366-54.js"></script>
+
+</body>
+
+</html>

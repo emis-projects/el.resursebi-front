@@ -114,6 +114,7 @@ Vue.component('soundLang', {
     `
 })
 
-new Vue({
+
+var app = new Vue({
     el: '#app'
 })

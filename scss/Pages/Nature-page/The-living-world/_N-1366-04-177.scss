@@ -1,3 +1,36 @@
-.n-living-world-img{
+.n-living-world-img {
     height: 25vh;
+}
+
+#N-1366-04-177 {
+    .tilte-margin {
+        margin-top: 7.2vh;
+        margin-bottom: 10vh;
+    }
+
+    .nature_objects-link {
+        height: 18vh;
+        max-height: 145px;
+
+        img {
+            height: 100%;
+        }
+    }
+
+    .nature_objects:nth-child(1) {
+        margin-bottom: 9.5vh;
+    }
+
+    .nature_objects:nth-child(2) {
+        margin-bottom: 9.5vh;
+    }
+
+    .nature_objects-title {
+        padding-top: 0.5vh;
+    }
+
+    h3 {
+        font-family: 'BPG Arial', sans-serif;
+        font-size: 2vh;
+    }
 }

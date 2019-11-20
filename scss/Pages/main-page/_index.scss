@@ -3,27 +3,34 @@
 */
 .owl-carousel {
   position: relative;
+
   .owl-item {
     display: block;
     height: inherit !important;
+
     .slide-item {
       height: inherit !important;
     }
   }
+
   .owl-stage-outer {
     height: 100% !important;
     z-index: -1;
+
     .owl-stage {
       height: 100% !important;
       display: block;
     }
+
     .item {
       height: inherit !important;
       display: flex;
       align-items: center;
     }
+
     .img-warpper {
       height: inherit !important;
+
       img {
         height: 100%;
         padding-right: 5vw;
@@ -34,9 +41,13 @@
 
 #index {
   position: relative;
-  .owl-theme .owl-nav.disabled + .owl-dots {
+  margin-top: 6vh;
+  padding-top: 0;
+
+  .owl-theme .owl-nav.disabled+.owl-dots {
     margin-top: -10vh;
   }
+
   .owl-theme .owl-dots {
     flex: 0 0 58.333333%;
     max-width: 58.333333%;
@@ -45,11 +56,14 @@
     padding-left: 15px;
     text-align: left;
     z-index: 5;
+
     .owl-dot {
       z-index: 5;
+
       &:hover {
         outline: none;
       }
+
       span {
         background: transparent;
         border: 1px solid #707070;
@@ -57,10 +71,12 @@
         width: 3vh;
       }
     }
+
     .owl-dot.active {
       &:hover {
         outline: none;
       }
+
       span {
         background: #7fd1d8;
         border: none;
@@ -75,18 +91,22 @@
 .main_box_links {
   margin-top: 10.4vh;
 }
+
 .slider {
   margin-top: 16vh;
   height: 63.3vh;
   position: relative;
+
   /* .owl-theme .owl-nav.disabled + .owl-dots {
     margin-top: -6vh;
   } */
   .slide_content-box {
     height: inherit !important;
+
     .text-wrapper {
       font-family: "ALK Sanet", sans-serif;
       height: inherit;
+
       h1 {
         text-align: left;
         font-size: 4.2vh;
@@ -95,6 +115,7 @@
         color: #0b2228;
         padding: 10.4vh 0 3vh 0;
       }
+
       p {
         text-align: left;
         font-family: inherit;

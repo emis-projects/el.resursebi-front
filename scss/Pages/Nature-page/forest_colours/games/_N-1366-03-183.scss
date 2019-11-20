@@ -1,0 +1,27 @@
+.createForest_game {
+  &-text{
+    color: #0B2228;
+    font-family: 'BPG Arial';
+    font-size: 1.82vh;
+    text-align: center;
+    margin-bottom: 1vh;
+  }
+  &-img {
+    max-height: 14.97vh;
+    margin: 1vh auto;
+    &-bg{
+        margin: auto;
+        height: 56.29vh;
+    }
+    &-container {
+      display: flex;
+      align-items: baseline;
+      &-rg{
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+          height: 100%;
+      }
+    }
+  }
+}
