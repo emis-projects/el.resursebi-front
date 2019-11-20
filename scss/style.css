@@ -8023,6 +8023,17 @@ section .arrow_up_down_downArrow img {
   height: 45.7vh;
 }
 
+.plant-parts p {
+  font-family: 'BPG Arial';
+  font-size: 2.34vh;
+  padding-top: 2vh;
+}
+
+.n-03-264-radio {
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
 .forest_colors_game-container {
   width: 100%;
   min-height: 9vh;
@@ -8161,3 +8172,4 @@ canvas {
   top: 0;
   width: 100%;
 }
+/*# sourceMappingURL=style.css.map */
