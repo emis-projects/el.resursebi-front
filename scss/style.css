@@ -2877,7 +2877,7 @@ section .arrow_up_down_downArrow img {
 }
 
 .nature-material-col {
-  margin-bottom: 5.18vh;
+  margin-bottom: 5vh;
 }
 
 .nature-material-col img {
@@ -4316,6 +4316,8 @@ section .arrow_up_down_downArrow img {
   width: 58px;
   border-radius: 50%;
   position: absolute;
+  -webkit-box-shadow: 0px 3px 6px #00000029;
+          box-shadow: 0px 3px 6px #00000029;
   top: 80%;
   left: 50%;
   -webkit-transform: translateX(-50%);
@@ -4738,6 +4740,38 @@ section .arrow_up_down_downArrow img {
   margin-bottom: 0;
 }
 
+#M-1366-22 .dot-select .voices__question__dot.correct::after {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 2vh;
+  width: 2vh;
+  max-width: 22px;
+  max-height: 22px;
+  background: #7FD1D8;
+  border-radius: 100%;
+  top: 50%;
+  left: 50%;
+  margin-top: -1vh;
+  margin-left: -1vh;
+}
+
+#M-1366-22 .dot-select .voices__question__dot.error::after {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 2vh;
+  width: 2vh;
+  max-width: 22px;
+  max-height: 22px;
+  background: red;
+  border-radius: 100%;
+  top: 50%;
+  left: 50%;
+  margin-top: -1vh;
+  margin-left: -1vh;
+}
+
 #M-1366-22 .music_content_wrapper {
   margin-left: 5.3vw;
   font-size: 2.3vh;
@@ -4776,6 +4810,17 @@ section .arrow_up_down_downArrow img {
   -webkit-box-shadow: 0px 3px 6px #00000029;
           box-shadow: 0px 3px 6px #00000029;
   cursor: pointer;
+  position: relative;
+}
+
+#M-1366-22 .music_content_wrapper .music_play_wrapper .music_play_box::after {
+  content: '';
+  background: transparent;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 
 #M-1366-22 .music_content_wrapper .music_play_wrapper .music_play_box .img {
@@ -4967,6 +5012,22 @@ section .arrow_up_down_downArrow img {
   user-select: none;
 }
 
+.custom_radioButton_container.active .checkmark {
+  background: #7FD1D8;
+}
+
+.custom_radioButton_container.error .checkmark {
+  background: red;
+}
+
+.custom_radioButton_container.correct::after {
+  display: none;
+}
+
+.correct::after {
+  display: none;
+}
+
 /* Hide the browser's default radio button */
 .custom_radioButton_container input {
   position: absolute;
@@ -4984,35 +5045,6 @@ section .arrow_up_down_downArrow img {
   border-radius: 50%;
   background: #ffffff 0% 0% no-repeat padding-box;
   border: 1px solid #c5cbcd;
-}
-
-/* On mouse-over, add a grey background color */
-/* When the radio button is checked, add a blue background */
-.custom_radioButton_container input:checked ~ .checkmark {
-  background-color: #7fd1d8;
-  border: 1px solid #7fd1d8;
-}
-
-.custom_radioButton_container.error input:checked ~ .checkmark {
-  background-color: #DC6C85;
-  border: 1px solid #DC6C85;
-}
-
-.custom_radioButton_container.success input:checked ~ .checkmark {
-  background-color: #A1DD6F;
-  border: 1px solid #A1DD6F;
-}
-
-/* Create the indicator (the dot/circle - hidden when not checked) */
-.checkmark:after {
-  content: "";
-  position: absolute;
-  display: none;
-}
-
-/* Show the indicator (dot/circle) when checked */
-.custom_radioButton_container input:checked ~ .checkmark:after {
-  display: block;
 }
 
 #A-1366-75 a {
@@ -7613,6 +7645,310 @@ section .arrow_up_down_downArrow img {
   font-size: 2vh;
 }
 
+#N-1366-03-151 .N-1366-03-151 {
+  background-image: url("../img/gakvetilebi/buneba/forest_colours/N-151.png");
+  background-position: bottom center;
+}
+
+#N-1366-03-151 h1 {
+  line-height: 3.9vh;
+  bottom: 8vh;
+}
+
+#N-1366-03-151 .nature-text-wrapper {
+  height: 35vh;
+  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
+  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
+}
+
+#N-1366-03-152 .N-1366-03-152 {
+  background-image: url("../img/gakvetilebi/buneba/forest_colours/N-152.png");
+  background-position: bottom center;
+}
+
+#N-1366-03-152 h1 {
+  line-height: 3.9vh;
+  bottom: 8vh;
+}
+
+#N-1366-03-152 .nature-text-wrapper {
+  height: 28vh;
+  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
+  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
+}
+
+#N-1366-03-153 .N-1366-03-153 {
+  background-image: url("../img/gakvetilebi/buneba/forest_colours/N-153.png");
+  background-position: bottom center;
+}
+
+.nature-text-wrapper_16 {
+  position: absolute;
+  bottom: 0;
+  height: 16vh;
+  left: 0;
+  right: 0;
+  background: #fff;
+  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
+  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
+}
+
+.N-1366-03-154 {
+  background-image: url("../img/gakvetilebi/buneba/forest_colours/N-154.png");
+  background-position: bottom center;
+}
+
+.N-1366-03-155 {
+  background-image: url("../img/gakvetilebi/buneba/forest_colours/N-155.png");
+  background-position: bottom center;
+}
+
+.N-1366-03-156 {
+  background-image: url("../img/gakvetilebi/buneba/forest_colours/N-156.png");
+  background-position: center;
+}
+
+.N-1366-03-157 {
+  background-image: url("../img/gakvetilebi/buneba/forest_colours/N-157.png");
+  background-position: center;
+}
+
+.N-1366-03-158 {
+  background-image: url("../img/gakvetilebi/buneba/forest_colours/N-158.png");
+  background-position: center;
+}
+
+.N-1366-03-160 {
+  background-image: url("../img/gakvetilebi/buneba/forest_colours/N-160.png");
+  background-position: center;
+}
+
+.N-1366-03-161 {
+  background-image: url("../img/gakvetilebi/buneba/forest_colours/N-161.png");
+  background-position: center;
+}
+
+.N-1366-03-162 {
+  background-image: url("../img/gakvetilebi/buneba/forest_colours/N-162.png");
+  background-position: center;
+}
+
+.N-1366-03-163 {
+  background-image: url("../img/gakvetilebi/buneba/forest_colours/N-163.png");
+  background-position: center;
+}
+
+.N-1366-03-164 {
+  background-image: url("../img/gakvetilebi/buneba/forest_colours/N-164.png");
+  background-position: center;
+}
+
+.N-1366-03-165 {
+  background-image: url("../img/gakvetilebi/buneba/forest_colours/N-165.png");
+  background-position: center;
+}
+
+.N-1366-03-166 {
+  background-image: url("../img/gakvetilebi/buneba/forest_colours/N-166.png");
+  background-position: center;
+}
+
+.N-1366-03-167 {
+  background-image: url("../img/gakvetilebi/buneba/forest_colours/N-167.png");
+  background-position: center;
+}
+
+.N-1366-03-168 {
+  background-image: url("../img/gakvetilebi/buneba/forest_colours/N-168.png");
+  background-position: center;
+}
+
+.N-1366-03-169 {
+  background-image: url("../img/gakvetilebi/buneba/forest_colours/N-169.png");
+  background-position: center;
+}
+
+.N-1366-03-170 {
+  background-image: url("../img/gakvetilebi/buneba/forest_colours/N-170.png");
+  background-position: center;
+}
+
+.N-1366-03-171 {
+  background-image: url("../img/gakvetilebi/buneba/forest_colours/N-171.png");
+  background-position: center;
+}
+
+.N-1366-03-173 {
+  background-image: url("../img/gakvetilebi/buneba/forest_colours/N-173.png");
+  background-position: center top;
+}
+
+.N-1366-03-174 {
+  background-image: url("../img/gakvetilebi/buneba/forest_colours/N-174.png");
+  background-position: center;
+}
+
+.N-1366-03-175 {
+  background-image: url("../img/gakvetilebi/buneba/forest_colours/N-175.png");
+  background-position: center;
+}
+
+.N-1366-03-176 {
+  background-image: url("../img/gakvetilebi/buneba/forest_colours/N-176.png");
+  background-position: center;
+}
+
+.N-1366-03-178 {
+  background-image: url("../img/gakvetilebi/buneba/forest_colours/N-178.png");
+  background-position: center;
+}
+
+.N-1366-03-179 {
+  background-image: url("../img/gakvetilebi/buneba/forest_colours/N-179.png");
+  background-position: center;
+}
+
+.N-1366-03-180 {
+  background-image: url("../img/gakvetilebi/buneba/forest_colours/N-180.png");
+  background-position: center;
+}
+
+.N-1366-03-187 {
+  background-image: url("../img/gakvetilebi/buneba/forest_colours/N-187.png");
+  background-position: center;
+  background-size: contain;
+  width: 54vw;
+  max-width: 907px;
+  height: 54vh;
+  max-height: 420px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.N-1366-03-181 {
+  background-image: url("../img/gakvetilebi/buneba/forest_colours/N-181.png");
+  background-position: center;
+}
+
+.N-1366-03-203 {
+  background-image: url("../img/gakvetilebi/buneba/forest_colours/N-203.png");
+  background-position: center;
+}
+
+.nature_img-forest {
+  width: 100%;
+  height: 27.69vh;
+  margin-bottom: 2.5vh;
+}
+
+.nature_hint_image-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nature_hint_image-hor {
+  height: 39.66vh;
+  max-width: 29.99vw;
+}
+
+.nature_hint_image-vert {
+  height: 49.61vh;
+}
+
+.nature_hint_image-mid {
+  height: 47.09vh;
+}
+
+.nature_hint_image-sm {
+  height: 34.42vh;
+}
+
+.nature_img-forest {
+  width: 100%;
+  height: 27.69vh;
+  margin-bottom: 2.5vh;
+}
+
+.nature_hint_image-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nature_hint_image-hor {
+  height: 39.66vh;
+  max-width: 29.99vw;
+}
+
+.nature_hint_image-vert {
+  height: 49.61vh;
+}
+
+.nature_hint_image-mid {
+  height: 47.09vh;
+}
+
+.nature_hint_image-sm {
+  height: 34.42vh;
+}
+
+.createForest_game-text {
+  color: #0B2228;
+  font-family: 'BPG Arial';
+  font-size: 1.82vh;
+  text-align: center;
+  margin-bottom: 1vh;
+}
+
+.createForest_game-img {
+  max-height: 14.97vh;
+  margin: 1vh auto;
+}
+
+.createForest_game-img-bg {
+  margin: auto;
+  height: 56.29vh;
+}
+
+.createForest_game-img-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.createForest_game-img-container-rg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  height: 100%;
+}
+
 .n-1366-03-78-text {
   margin-top: 14.48vh;
 }
@@ -7702,4 +8038,3 @@ canvas {
   top: 0;
   width: 100%;
 }
-/*# sourceMappingURL=style.css.map */

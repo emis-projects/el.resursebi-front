@@ -1,12 +1,25 @@
+
 function voiceGames(){
     this.error = true;
     this.audio = null;
     this.imgSrc = '';
     this.defaultanswer = true;
 
+
+    // variables
     const elements = document.querySelectorAll('.voice__question__element');
     const completeBtn = document.getElementById('completedGame');''
     const resetBtn = document.getElementById('resetBtn');
+
+
+    // listners
+    document.addEventListener('DOMContentLoaded', () => {
+        document.getElementById('correctAnswer').setAttribute('data-voice', this.audio)
+    });
+
+    completeBtn.addEventListener('click', () => this.completGame());
+    resetBtn.addEventListener('click', () => this.init());
+
 
     var audioUrls = [
         '../game-voices/M-1366-14.wav',
@@ -23,15 +36,34 @@ function voiceGames(){
       myArray.push(elements[i])
     }
 
-    let audio = document.querySelector('.listen_btn').getAttribute('data-voice');
 
-    this.audio = audio;
-    
-    let voice = audioUrls.filter(w => w == audio)
-    
-    var myaudio = new Audio(voice);
-    
-    $('.listen_btn').click( () => myaudio.play());
+
+    createjs.Sound.on("fileload", handleLoadComplete);
+    createjs.Sound.alternateExtensions = ["wav"];
+    function handleLoadComplete(event) {
+        createjs.Sound.play("sound");
+    }
+   
+    function handleLoadstop(event) {
+       createjs.Sound.stop("sound");
+   }
+
+
+   document.querySelectorAll('.listen_btn').forEach(w => {
+    w.addEventListener('click', (e) => {
+        handleLoadstop()
+        createjs.Sound.registerSound({src:`${e.target.getAttribute('data-voice')}`, id:"sound"});
+        handleLoadComplete()
+    })
+})
+
+
+
+    // document.querySelector('.listen_btn').addEventListener('click', e => {
+    //     handleLoadstop()
+    //     createjs.Sound.registerSound({src:`${e.target.getAttribute('data-voice')}`, id:"sound"});
+    //     handleLoadComplete()
+    // })
 
 
     if(location.pathname == "/Music-Lessons/Voices/Games/M-1366-14.html"){
@@ -113,11 +145,31 @@ function voiceGames(){
         })
     }
 
+    this.checkWhichGameIsShow = () => {
+        if(location.pathname == '/Music-Lessons/Voices/Games/M-1366-14.html' || location.pathname == '/el.resursebi-front/Music-Lessons/Voices/Games/M-1366-14.html'){
+            location.href = "M-1366-14-success.html"
+
+        } else if(location.pathname == '/Music-Lessons/Voices/Games/M-1366-15.html' || location.pathname == '/el.resursebi-front/Music-Lessons/Voices/Games/M-1366-15.html'){
+            location.href = "M-1366-15-success.html"
+
+        }  else if(location.pathname == '/Music-Lessons/Voices/Games/M-1366-16.html' || location.pathname == '/el.resursebi-front/Music-Lessons/Voices/Games/M-1366-16.html'){
+            location.href = "M-1366-16-success.html"
+
+        } else if(location.pathname == '/Music-Lessons/Voices/Games/M-1366-19.html' || location.pathname == '/el.resursebi-front/Music-Lessons/Voices/Games/M-1366-19.html'){
+            location.href = "M-1366-19-success.html"
+
+        }  else if(location.pathname == '/Music-Lessons/Voices/Games/M-1366-20.html' || location.pathname == '/el.resursebi-front/Music-Lessons/Voices/Games/M-1366-20.html'){
+            location.href = "M-1366-20-success.html"
+            
+        } else if(location.pathname == '/Music-Lessons/Voices/Games/M-1366-21.html' || location.pathname == '/el.resursebi-front/Music-Lessons/Voices/Games/M-1366-21.html'){
+            location.href = "M-1366-21-success.html"
+        }
+    }
 
     // after submit 
     this.completGame = () => {
         if(this.error == false){
-            location.href = "musika-success.html"
+            this.checkWhichGameIsShow()
 
         } else if(this.defaultanswer){
             $('.game-number-container').attr('style', 'background: red')
@@ -132,15 +184,6 @@ function voiceGames(){
             })
         }
     }
-
-
-
-    document.addEventListener('DOMContentLoaded', () => {
-        document.getElementById('correctAnswer').setAttribute('data-voice', this.audio)
-    });
-
-    completeBtn.addEventListener('click', () => this.completGame());
-    resetBtn.addEventListener('click', () => this.init());
 }
 
 
