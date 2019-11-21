@@ -1134,8 +1134,8 @@ header nav .header-sound .lang {
 }
 
 .paging_buttons a {
-  -webkit-box-shadow: 0px 3px 6px #00000029;
-          box-shadow: 0px 3px 6px #00000029;
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
+          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
   border-radius: 50%;
 }
 
@@ -1317,14 +1317,21 @@ header nav .header-sound .lang {
 .subject_component .item_flex .subject_component_itle_icon {
   height: 5.7vh;
   width: 5.7vh;
+  max-width: 43px;
+  max-height: 43px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+  position: relative;
 }
 
 .subject_component .item_flex .subject_component_itle_icon img {
-  height: 100%;
-  max-height: 2.2vh;
+  height: 60%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 .subject_component .item_flex .subject_component_title {
@@ -2145,8 +2152,8 @@ section .arrow_up_down_downArrow img {
 .draggable__answer__btns {
   width: 28px;
   height: 28px;
-  -webkit-box-shadow: 0px 3px 6px #00000029;
-          box-shadow: 0px 3px 6px #00000029;
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
+          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
   border-radius: 50%;
   cursor: pointer;
   -ms-touch-action: none;
@@ -2290,8 +2297,8 @@ section .arrow_up_down_downArrow img {
 
 .Shadow {
   border: 1px solid #707070;
-  -webkit-box-shadow: 0px 0px 4px #DC6C85;
-          box-shadow: 0px 0px 4px #DC6C85;
+  -webkit-box-shadow: 0px 0px 4px #dc6c85;
+          box-shadow: 0px 0px 4px #dc6c85;
 }
 
 .questions__image_wrapper_box {
@@ -3758,19 +3765,19 @@ section .arrow_up_down_downArrow img {
 
 .ask_question_game .ask_question_game_box--sm:nth-child(2) {
   position: absolute;
-  right: 0;
+  right: -2.8vw;
   top: 13vh;
 }
 
 .ask_question_game .ask_question_game_box--sm:nth-child(2) img {
   position: absolute;
   bottom: 19vh;
-  right: 4vw;
+  right: 6vw;
 }
 
 .ask_question_game .ask_question_game_box--sm:nth-child(3) {
   position: absolute;
-  right: 0;
+  right: -2.8vw;
   top: 45vh;
 }
 
@@ -3790,8 +3797,8 @@ section .arrow_up_down_downArrow img {
 
 .ask_question_game .ask_question_game_box--sm:nth-child(4) img {
   position: absolute;
-  top: 0vh;
-  right: -4vw;
+  top: 2vh;
+  right: -5.5vw;
 }
 
 .ask_question_game .ask_question_game_box--sm:nth-child(5) {
@@ -3804,7 +3811,7 @@ section .arrow_up_down_downArrow img {
 
 .ask_question_game .ask_question_game_box--sm:nth-child(5) img {
   position: absolute;
-  top: 17vh;
+  top: 16vh;
   right: -5vw;
 }
 
@@ -4534,8 +4541,8 @@ section .arrow_up_down_downArrow img {
   background: #fff;
   border-radius: 100%;
   margin-bottom: 1.5vh;
-  -webkit-box-shadow: 0px 3px 6px #00000029;
-          box-shadow: 0px 3px 6px #00000029;
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
+          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
   cursor: pointer;
 }
 
@@ -4657,8 +4664,8 @@ section .arrow_up_down_downArrow img {
   -webkit-transform: matrix(0, -1, 1, 0, 0, 0);
           transform: matrix(0, -1, 1, 0, 0, 0);
   background: #ffffff 0% 0% no-repeat padding-box;
-  -webkit-box-shadow: 0px 3px 6px #00000029;
-          box-shadow: 0px 3px 6px #00000029;
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
+          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
   opacity: 1;
   border-radius: 50%;
   position: absolute;
@@ -4821,8 +4828,8 @@ section .arrow_up_down_downArrow img {
   background: #fff;
   border-radius: 100%;
   margin-bottom: 1.5vh;
-  -webkit-box-shadow: 0px 3px 6px #00000029;
-          box-shadow: 0px 3px 6px #00000029;
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
+          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
   cursor: pointer;
   position: relative;
 }
@@ -4966,8 +4973,8 @@ section .arrow_up_down_downArrow img {
   -webkit-transform: matrix(0, -1, 1, 0, 0, 0);
           transform: matrix(0, -1, 1, 0, 0, 0);
   background: #ffffff 0% 0% no-repeat padding-box;
-  -webkit-box-shadow: 0px 3px 6px #00000029;
-          box-shadow: 0px 3px 6px #00000029;
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
+          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
   opacity: 1;
   border-radius: 50%;
   position: absolute;
@@ -7861,6 +7868,22 @@ section .arrow_up_down_downArrow img {
   background-position: center;
 }
 
+#N-1366-03-196 p {
+  font-family: 'BPG Arial', sans-serif;
+  font-size: 2.3vh;
+  line-height: 3.9vh;
+}
+
+#N-1366-03-196 .tree_box {
+  margin-top: 13vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .N-1366-03-203 {
   background-image: url("../img/gakvetilebi/buneba/forest_colours/N-203.png");
   background-position: center;
@@ -8051,6 +8074,211 @@ section .arrow_up_down_downArrow img {
   height: 45.7vh;
 }
 
+.n-1366-03-20-header-text-col {
+  padding-left: 6.32vw;
+  padding-top: 2vh;
+}
+
+.nature-game-season-changer-div {
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 36.71vh;
+  width: 100%;
+  margin-top: 11.71vh;
+}
+
+.nature-game-season-changer-div > img {
+  height: 36.71vh;
+}
+
+.nature-game-season-circles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  /* top:25%; */
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  -webkit-box-shadow: 1px 1px 1px 1px  grey;
+          box-shadow: 1px 1px 1px 1px  grey;
+  position: absolute;
+}
+
+.nature-game-season-circles img {
+  width: 20px;
+  height: initial;
+}
+
+.nature-game-season-circle-1 {
+  top: -11vh;
+}
+
+.nature-game-season-circle-2 {
+  right: 11vw;
+}
+
+.n-1366-03-193-laptop-div {
+  height: 19.14vh;
+}
+
+.n-1366-03-193-laptop-div img {
+  height: 19.14vh;
+}
+
+.n-1366-03-193-laptop-text {
+  margin-top: 4.81vh;
+}
+
+.narute-research-stages-empty-div {
+  height: 45.7vh;
+  position: absolute;
+  top: 18.88vh;
+  right: 3.82vw;
+}
+
+.narute-research-stages-empty-div img {
+  height: 45.7vh;
+}
+
+.forest_colors_game-container {
+  width: 100%;
+  min-height: 9vh;
+  padding: 0 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.forest_colors_game-container-text {
+  color: #fff;
+  font-family: 'BPG Arial';
+  font-size: 1.82vh;
+  text-align: center;
+  line-height: inherit;
+}
+
+.forest_colors_game-container-yellow {
+  background: #fcc14f;
+}
+
+.forest_colors_game-container-green {
+  background: #82cf8a;
+}
+
+.forest_colors_game-container-large {
+  min-height: 60vh;
+}
+
+.forest_colors_game-container-dropped-img {
+  margin: 0 auto;
+  padding: 1vh 0;
+  max-height: 10vh;
+}
+
+.nature_plant-game-text {
+  color: #0b2228;
+  font-size: 2.34vh;
+  font-family: "BPG Arial";
+  line-height: inherit;
+}
+
+.nature_plant-game-text-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100%;
+}
+
+.nature_plant-game-text-container-white {
+  background: #fff;
+  -webkit-box-shadow: 0px 3px 6px #00000029;
+          box-shadow: 0px 3px 6px #00000029;
+  border-radius: 27px;
+  height: 5.07vh;
+  width: 12.29vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+}
+
+.nature_plant-game-text-container-white-1 {
+  top: 6.7vh;
+  left: -9.7vw;
+}
+
+.nature_plant-game-text-container-white-2 {
+  top: 3.5vh;
+  right: -11.4vw;
+}
+
+.nature_plant-game-text-container-white-3 {
+  top: 26vh;
+  left: -8.9vw;
+}
+
+.nature_plant-game-text-container-white-4 {
+  top: 29.5vh;
+  right: -1.9vw;
+}
+
+.nature_plant-game-text-container-white-5 {
+  bottom: 0.5vh;
+  left: -8.9vw;
+}
+
+.nature_plant-game-text-container-white.error {
+  background: #dc6c85;
+}
+
+.nature_plant-game-text-container-white.success {
+  background: #a1dd6f;
+}
+
+.nature_plant-game-img {
+  height: 100%;
+}
+
+.nature_plant-game-img-container {
+  height: 48.82vh;
+  position: relative;
+}
+
+.plant-parts p {
+  font-family: 'BPG Arial';
+  font-size: 2.34vh;
+  padding-top: 2vh;
+}
+
+.n-03-264-radio {
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
 canvas {
   border: 2px solid black;
   width: 100% !important;
@@ -8066,3 +8294,4 @@ canvas {
   top: 0;
   width: 100%;
 }
+/*# sourceMappingURL=style.css.map */
