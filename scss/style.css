@@ -2411,6 +2411,7 @@ section .arrow_up_down_downArrow img {
   font-size: 5.5vh;
   margin-left: 2.6vh;
   line-height: 1vh;
+  color: #fff;
 }
 
 .main-box_absolute .main-box_relative .text-wrapper .icon-box {
@@ -8084,13 +8085,12 @@ section .arrow_up_down_downArrow img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 36.71vh;
-  width: 100%;
-  margin-top: 11.71vh;
+  /*  height:36.71vh; */
+  height: 67.96vh;
 }
 
-.nature-game-season-changer-div > img {
-  height: 36.71vh;
+.nature-game-season-changer-changer > img {
+  height: 282px;
 }
 
 .nature-game-season-circles {
@@ -8100,7 +8100,6 @@ section .arrow_up_down_downArrow img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  /* top:25%; */
   width: 75px;
   height: 75px;
   border-radius: 50%;
@@ -8114,14 +8113,14 @@ section .arrow_up_down_downArrow img {
   height: initial;
 }
 
-.nature-game-season-circle-1 {
-  top: -11vh;
+/* .nature-game-season-circle-1{
+  top:-85px
 }
 
-.nature-game-season-circle-2 {
-  right: 11vw;
+.nature-game-season-circle-2{
+top:285px;
 }
-
+ */
 .n-1366-03-193-laptop-div {
   height: 19.14vh;
 }
@@ -8294,3 +8293,4 @@ canvas {
   top: 0;
   width: 100%;
 }
+/*# sourceMappingURL=style.css.map */

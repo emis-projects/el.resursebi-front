@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="./js/vue.js"></script>
     <!--  ვუე გაშვებისას
     <script src="./js/vue.min.js"></script>
      -->
@@ -16,8 +16,8 @@
 </head>
 
 <body>
-    <div class="container" id="app">
-        <header>
+    <div class="container">
+        <header id="app">
             <nav class="row">
                 <app-logo v-logo="'./'"></app-logo>
                 <app-menu v-menu:dark="'./'"></app-menu>
@@ -36,8 +36,7 @@
                     </div>
                     <div class="text-wrapper main_box_links col-7">
                         <a href="./main-page/13366-7.html" class="nature">დაწყება</a>
-                        <h1>გააციფრულე სწავლის პროცესი</h1>
-                        <p>ხელოვნური ინტელექტის გამოყენებით</p>
+                        <h1>გააციფრულე სწავლის პროცესი, <br>დაიხმარე ხელოვნური ინტელექტი!</h1>
                     </div>
                 </div>
                 <div class="item col-12 slide_content-box">
@@ -46,8 +45,7 @@
                     </div>
                     <div class="text-wrapper main_box_links col-7">
                         <a href="./main-page/13366-7.html" class="music">დაწყება</a>
-                        <h1>გააციფრულე სწავლის პროცესი</h1>
-                        <p>ხელოვნური ინტელექტის გამოყენებით</p>
+                        <h1>გააციფრულე სწავლის პროცესი, <br>დაიხმარე ხელოვნური ინტელექტი!</h1>
                     </div>
                 </div>
                 <div class="item col-12 slide_content-box">
@@ -56,8 +54,7 @@
                     </div>
                     <div class="text-wrapper main_box_links col-7">
                         <a href="./main-page/13366-7.html" class="art">დაწყება</a>
-                        <h1>გააციფრულე სწავლის პროცესი</h1>
-                        <p>ხელოვნური ინტელექტის გამოყენებით</p>
+                        <h1>გააციფრულე სწავლის პროცესი, <br>დაიხმარე ხელოვნური ინტელექტი!</h1>
                     </div>
                 </div>
             </div>
@@ -67,16 +64,16 @@
     <div id="chatBot">
         <app-bot v-if="show"></app-bot>
     </div>
+
     <script src="./js/libraries/jquery-3.4.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.js"></script>
     <script src="./js/libraries/bootstrap.min.js"></script>
     <script src="./js/libraries/owl.carousel.min.js"></script>
     <script src="./js/slider.js"></script>
-    <script src="./js/bot.js"></script>
 
-
+    <!-- header and bot vue -->
     <script src="./Vue-Header/app.js"></script>
     <script src="./Vue-chatBot/botApp.js"></script>
+    <script src="./js/bot.js"></script>
 
 </body>
 

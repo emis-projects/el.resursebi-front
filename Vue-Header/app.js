@@ -1747,10 +1747,6 @@ Vue.component('appTreeComp', {
   props: {
     postTitle: String
   },
-  mounted() {
-    console.log(this.postTitle);
-
-  },
   template: `
     <div>
         <img :src="this.postTitle" alt="leaf">
@@ -1909,7 +1905,6 @@ var app = new Vue({
       this.arrShow = false;
     },
     backFn() {
-      this.querySelector = false
       this.arrShow = true;
       this.show = true;
     }
