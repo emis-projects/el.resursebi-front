@@ -1555,7 +1555,7 @@ section .arrow_up_down_downArrow img {
 }
 
 .modal {
-  z-index: 99999;
+  z-index: 9999999999;
   bottom: 0;
   right: 0;
 }
