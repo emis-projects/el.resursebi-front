@@ -1069,11 +1069,11 @@ header nav .header-sound .lang {
   background-position: left center;
   background-size: contain;
   text-align: center;
-  padding: 2vh 9vh;
+  padding: 2.4vh 9vh;
   -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
           box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
   border-radius: 40px;
-  font-size: 2.74vh;
+  font-size: 2.54vh;
   font-family: "ALK Sanet", sans-serif;
   color: #262626;
 }
@@ -1118,6 +1118,10 @@ header nav .header-sound .lang {
 .container_main_title img {
   height: 4.4vh;
   padding-right: 1.1vh;
+}
+
+.container_main_title h1 {
+  color: #262626;
 }
 
 .paging_buttons {
@@ -2411,6 +2415,7 @@ section .arrow_up_down_downArrow img {
   font-size: 5.5vh;
   margin-left: 2.6vh;
   line-height: 1vh;
+  color: #fff;
 }
 
 .main-box_absolute .main-box_relative .text-wrapper .icon-box {
@@ -3798,7 +3803,7 @@ section .arrow_up_down_downArrow img {
 .ask_question_game .ask_question_game_box--sm:nth-child(4) img {
   position: absolute;
   top: 3vh;
-  right: -43%;
+  right: -55%;
 }
 
 .ask_question_game .ask_question_game_box--sm:nth-child(5) {
@@ -4785,7 +4790,7 @@ section .arrow_up_down_downArrow img {
   width: 2vh;
   max-width: 22px;
   max-height: 22px;
-  background: red;
+  background: #dc6c85;
   border-radius: 100%;
   top: 50%;
   left: 50%;
@@ -5052,7 +5057,7 @@ section .arrow_up_down_downArrow img {
 }
 
 .custom_radioButton_container.error .checkmark {
-  background: red;
+  background: #dc6c85;
 }
 
 .custom_radioButton_container.correct::after {
@@ -8098,13 +8103,12 @@ section .arrow_up_down_downArrow img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 36.71vh;
-  width: 100%;
-  margin-top: 11.71vh;
+  /*  height:36.71vh; */
+  height: 67.96vh;
 }
 
-.nature-game-season-changer-div > img {
-  height: 36.71vh;
+.nature-game-season-changer-changer > img {
+  height: 282px;
 }
 
 .nature-game-season-circles {
@@ -8114,7 +8118,6 @@ section .arrow_up_down_downArrow img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  /* top:25%; */
   width: 75px;
   height: 75px;
   border-radius: 50%;
@@ -8128,14 +8131,15 @@ section .arrow_up_down_downArrow img {
   height: initial;
 }
 
-.nature-game-season-circle-1 {
-  top: -11vh;
+/* .nature-game-season-circle-1{
+  top:-85px
 }
 
-.nature-game-season-circle-2 {
-  right: 11vw;
+.nature-game-season-circle-2{
+top:285px;
 }
 
+ */
 .n-1366-03-193-laptop-div {
   height: 19.14vh;
 }

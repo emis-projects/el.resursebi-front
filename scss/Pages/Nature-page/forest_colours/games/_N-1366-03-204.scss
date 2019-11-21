@@ -6,19 +6,22 @@
 
  .nature-game-season-changer-div{
    position: relative; 
-   align-items: center;
-   height:36.71vh;
-   width:100%;
-   margin-top:11.71vh;
-   >img{
-     height:36.71vh;
-   }
+    align-items: center;
+    /*  height:36.71vh; */
+    height:67.96vh; 
+
+  
+   
  } 
+ .nature-game-season-changer-changer{
+>img{
+     height:282px;
+   }
+ }
 
 .nature-game-season-circles{
-   display: flex;
+  display: flex;
   justify-content: center; 
-  /* top:25%; */ 
   width: 75px;
   height: 75px;
   border-radius:50%;
@@ -27,15 +30,15 @@
  
   img{
     width: 20px;
-   height: initial;
+    height: initial;
   }
 }
 
-.nature-game-season-circle-1{
-top:-11vh;
+ /* .nature-game-season-circle-1{
+  top:-85px
 }
 
 .nature-game-season-circle-2{
- right:11vw;
+top:285px;
 }
-
+ */
