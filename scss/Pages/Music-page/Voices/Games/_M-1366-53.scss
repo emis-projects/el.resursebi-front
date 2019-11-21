@@ -20,6 +20,22 @@
   &_container {
     position: relative;
     height: 21.87vh;
+
+    &::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 100%;
+      height: calc(100% + 17px);
+      background: transparent;
+    }
+
+    &.error {
+      .car_game_white_circle {
+        background: red;
+      }
+    }
   }
   &_img {
     img {

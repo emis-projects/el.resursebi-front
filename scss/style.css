@@ -4633,6 +4633,20 @@ section .arrow_up_down_downArrow img {
   height: 21.87vh;
 }
 
+.car_game_container::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: calc(100% + 17px);
+  background: transparent;
+}
+
+.car_game_container.error .car_game_white_circle {
+  background: red;
+}
+
 .car_game_img img {
   height: 21.87vh;
 }
@@ -4926,6 +4940,20 @@ section .arrow_up_down_downArrow img {
 .car_game_container {
   position: relative;
   height: 21.87vh;
+}
+
+.car_game_container::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: calc(100% + 17px);
+  background: transparent;
+}
+
+.car_game_container.error .car_game_white_circle {
+  background: red;
 }
 
 .car_game_img img {
