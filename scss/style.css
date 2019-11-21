@@ -1120,6 +1120,10 @@ header nav .header-sound .lang {
   padding-right: 1.1vh;
 }
 
+.container_main_title h1 {
+  color: #262626;
+}
+
 .paging_buttons {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4786,7 +4790,7 @@ section .arrow_up_down_downArrow img {
   width: 2vh;
   max-width: 22px;
   max-height: 22px;
-  background: red;
+  background: #dc6c85;
   border-radius: 100%;
   top: 50%;
   left: 50%;
@@ -5053,7 +5057,7 @@ section .arrow_up_down_downArrow img {
 }
 
 .custom_radioButton_container.error .checkmark {
-  background: red;
+  background: #dc6c85;
 }
 
 .custom_radioButton_container.correct::after {
