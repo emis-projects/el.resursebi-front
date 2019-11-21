@@ -93,6 +93,7 @@
                 </div>
             </nav>
         </header>
+        
         <div class="subject_component_top_illustration">
             <div class="bg_pink_up illustration_bg"></div>
         </div>
@@ -119,7 +120,7 @@
                 </div>
                 <div class="col-9 offset-1 mt-4 mb-3">
                     <div class="listen_text-container">
-                        <button class="listen_btn">მოუსმინე</button>
+                        <button class="listen_btn" data-voice="../game-voices/M-1366-35-1-2-3-a.wav">მოუსმინე</button>
                         <div class="m_exercise_text-container m_game_text-container listen_text-container-txt-margin">
                             <p>სხვადასხვა სიგნალის თანმიმდევრობას </p>
                             <p> ახლა კი იმავე თანმიმდევრობით დააჭირე სათანადო სატრანსპორტო საშუალებების ღილაკებს:</p>
@@ -129,20 +130,17 @@
             </div>
             <div class="row">
                 <div class="col-7 m-auto car_game_container_full">
-                    <div class="car_game_container">
+                    <div class="car_game_container" data-index="1">
                         <div class="car_game_img"><img src="../../../img/gakvetilebi/musika/MG_car3.png" alt=""></div>
-                        <div class="car_game_white_circle"><img src="../../../img/gakvetilebi/musika/MV-1366-14-1.svg"
-                                alt=""></div>
+                        <div class="car_game_white_circle"></div>
                     </div>
-                    <div class="car_game_container">
+                    <div class="car_game_container" data-index="3">
                         <div class="car_game_img"><img src="../../../img/gakvetilebi/musika/MG_car1.png" alt=""></div>
-                        <div class="car_game_white_circle"><img src="../../../img/gakvetilebi/musika/MV-1366-14-3.svg"
-                                alt=""></div>
+                        <div class="car_game_white_circle"></div>
                     </div>
-                    <div class="car_game_container">
+                    <div class="car_game_container" data-index="2">
                         <div class="car_game_img"><img src="../../../img/gakvetilebi/musika/MG_car2.png" alt=""></div>
-                        <div class="car_game_white_circle"><img src="../../../img/gakvetilebi/musika/MV-1366-14-2.svg"
-                                alt=""></div>
+                        <div class="car_game_white_circle"></div>
                     </div>
                 </div>
             </div>
@@ -169,7 +167,8 @@
         </div>
     </div>
 
-    <script src="../../../js/soundSwitch.js"></script>
+    <script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
+    <script src="../../../js/libraries/sound.js"></script>
+    <script src="../js/M-1366-35.js"></script>
 </body>
-
 </html>
