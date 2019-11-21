@@ -8023,6 +8023,42 @@ section .arrow_up_down_downArrow img {
   height: 45.7vh;
 }
 
+.nature-game-season-circles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  -webkit-box-shadow: 1px 1px 1px 1px  grey;
+          box-shadow: 1px 1px 1px 1px  grey;
+  position: absolute;
+  top: 0px;
+}
+
+.nature-game-season-circles img {
+  width: 20px;
+  height: initial;
+}
+
+.nature-game-season-changer-div {
+  position: relative;
+  height: 36.71vh;
+  margin-top: 11.71vh;
+}
+
+.nature-game-season-changer-div > img {
+  height: 36.71vh;
+}
+
+.n-1366-03-20-header-text-col {
+  padding-left: 6.32vw;
+  padding-top: 2vh;
+}
+
 canvas {
   border: 2px solid black;
   width: 100% !important;
@@ -8038,3 +8074,4 @@ canvas {
   top: 0;
   width: 100%;
 }
+/*# sourceMappingURL=style.css.map */
