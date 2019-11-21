@@ -13,14 +13,20 @@
     .subject_component_itle_icon {
       height: 5.7vh;
       width: 5.7vh;
+      max-width: 43px;
+      max-height: 43px;
       background-position: center;
       background-repeat: no-repeat;
       background-size: contain;
+      position: relative;
 
       // fill subject bg with different icons
       img {
-        height: 100%;
-        max-height: 2.2vh;
+        height: 60%;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
       }
     }
 

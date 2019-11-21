@@ -1,0 +1,31 @@
+.forest_colors_game {
+  &-container {
+    width: 100%;
+    min-height: 9vh;
+    padding: 0 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &-text{
+        color: #fff;
+        font-family: 'BPG Arial';
+        font-size: 1.82vh;
+        text-align: center;
+        line-height: inherit;
+      }
+    &-yellow {
+      background: #fcc14f;
+    }
+    &-green {
+      background: #82cf8a;
+    }
+    &-large{
+        min-height: 60vh;
+    }
+    &-dropped-img{
+        margin: 0 auto;
+        padding: 1vh 0;
+        max-height: 10vh;
+    }
+  }
+}
