@@ -1555,7 +1555,7 @@ section .arrow_up_down_downArrow img {
 }
 
 .modal {
-  z-index: 99999;
+  z-index: 9999999999;
   bottom: 0;
   right: 0;
 }
@@ -8021,6 +8021,29 @@ section .arrow_up_down_downArrow img {
 .nature-research-stages img {
   height: 26.04vh;
   margin-top: 7.45vh;
+}
+
+.n-1366-03-193-laptop-div {
+  height: 19.14vh;
+}
+
+.n-1366-03-193-laptop-div img {
+  height: 19.14vh;
+}
+
+.n-1366-03-193-laptop-text {
+  margin-top: 4.81vh;
+}
+
+.narute-research-stages-empty-div {
+  height: 45.7vh;
+  position: absolute;
+  top: 18.88vh;
+  right: 3.82vw;
+}
+
+.narute-research-stages-empty-div img {
+  height: 45.7vh;
 }
 
 .n-1366-03-193-laptop-div {
