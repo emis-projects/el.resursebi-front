@@ -7805,6 +7805,57 @@ section .arrow_up_down_downArrow img {
   background-position: center;
 }
 
+#N-1366-03-196 p {
+  font-family: 'BPG Arial', sans-serif;
+  font-size: 2.3vh;
+  line-height: 3.9vh;
+}
+
+#N-1366-03-196 .tree_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  height: 41vh;
+  max-height: 318px;
+}
+
+#N-1366-03-196 .tree_box .main_img {
+  margin-top: 13vh;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 32vw;
+  height: 41vh;
+  max-height: 318px;
+  max-width: 433px;
+}
+
+#N-1366-03-196 .tree_box .main_img img {
+  height: 100%;
+}
+
+#N-1366-03-196 .question {
+  position: absolute;
+  height: 10.6vh;
+  width: 10.6vw;
+  max-height: 82px;
+  max-width: 82px;
+}
+
+#N-1366-03-196 .question img {
+  height: 100%;
+}
+
+#N-1366-03-196 .img-1 {
+  top: 22%;
+  left: 30%;
+}
+
 .N-1366-03-178 {
   background-image: url("../img/gakvetilebi/buneba/forest_colours/N-178.png");
   background-position: center;
@@ -8021,6 +8072,29 @@ section .arrow_up_down_downArrow img {
 .nature-research-stages img {
   height: 26.04vh;
   margin-top: 7.45vh;
+}
+
+.n-1366-03-193-laptop-div {
+  height: 19.14vh;
+}
+
+.n-1366-03-193-laptop-div img {
+  height: 19.14vh;
+}
+
+.n-1366-03-193-laptop-text {
+  margin-top: 4.81vh;
+}
+
+.narute-research-stages-empty-div {
+  height: 45.7vh;
+  position: absolute;
+  top: 18.88vh;
+  right: 3.82vw;
+}
+
+.narute-research-stages-empty-div img {
+  height: 45.7vh;
 }
 
 .n-1366-03-193-laptop-div {
