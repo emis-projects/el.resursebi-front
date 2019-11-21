@@ -8023,30 +8023,18 @@ section .arrow_up_down_downArrow img {
   height: 45.7vh;
 }
 
-.nature-game-season-circles {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 75px;
-  height: 75px;
-  border-radius: 50%;
-  -webkit-box-shadow: 1px 1px 1px 1px  grey;
-          box-shadow: 1px 1px 1px 1px  grey;
-  position: absolute;
-  top: 0px;
-}
-
-.nature-game-season-circles img {
-  width: 20px;
-  height: initial;
+.n-1366-03-20-header-text-col {
+  padding-left: 6.32vw;
+  padding-top: 2vh;
 }
 
 .nature-game-season-changer-div {
   position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 36.71vh;
+  width: 100%;
   margin-top: 11.71vh;
 }
 
@@ -8054,9 +8042,33 @@ section .arrow_up_down_downArrow img {
   height: 36.71vh;
 }
 
-.n-1366-03-20-header-text-col {
-  padding-left: 6.32vw;
-  padding-top: 2vh;
+.nature-game-season-circles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  /* top:25%; */
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  -webkit-box-shadow: 1px 1px 1px 1px  grey;
+          box-shadow: 1px 1px 1px 1px  grey;
+  position: absolute;
+}
+
+.nature-game-season-circles img {
+  width: 20px;
+  height: initial;
+}
+
+.nature-game-season-circle-1 {
+  top: -11vh;
+}
+
+.nature-game-season-circle-2 {
+  right: 11vw;
 }
 
 canvas {
