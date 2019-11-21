@@ -3797,8 +3797,8 @@ section .arrow_up_down_downArrow img {
 
 .ask_question_game .ask_question_game_box--sm:nth-child(4) img {
   position: absolute;
-  top: 2vh;
-  right: -5.5vw;
+  top: 3vh;
+  right: -4.5vw;
 }
 
 .ask_question_game .ask_question_game_box--sm:nth-child(5) {
@@ -3812,7 +3812,7 @@ section .arrow_up_down_downArrow img {
 .ask_question_game .ask_question_game_box--sm:nth-child(5) img {
   position: absolute;
   top: 16vh;
-  right: -5vw;
+  right: -4vw;
 }
 
 .ask_question_game .ask_question_game_box--sm:nth-child(6) {
