@@ -3798,7 +3798,7 @@ section .arrow_up_down_downArrow img {
 .ask_question_game .ask_question_game_box--sm:nth-child(4) img {
   position: absolute;
   top: 3vh;
-  right: -43%;
+  right: -55%;
 }
 
 .ask_question_game .ask_question_game_box--sm:nth-child(5) {
