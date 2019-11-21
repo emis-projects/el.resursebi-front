@@ -2411,6 +2411,7 @@ section .arrow_up_down_downArrow img {
   font-size: 5.5vh;
   margin-left: 2.6vh;
   line-height: 1vh;
+  color: #fff;
 }
 
 .main-box_absolute .main-box_relative .text-wrapper .icon-box {
@@ -7833,57 +7834,6 @@ section .arrow_up_down_downArrow img {
   background-position: center;
 }
 
-#N-1366-03-196 p {
-  font-family: 'BPG Arial', sans-serif;
-  font-size: 2.3vh;
-  line-height: 3.9vh;
-}
-
-#N-1366-03-196 .tree_box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  position: relative;
-  height: 41vh;
-  max-height: 318px;
-}
-
-#N-1366-03-196 .tree_box .main_img {
-  margin-top: 13vh;
-  position: absolute;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-  width: 32vw;
-  height: 41vh;
-  max-height: 318px;
-  max-width: 433px;
-}
-
-#N-1366-03-196 .tree_box .main_img img {
-  height: 100%;
-}
-
-#N-1366-03-196 .question {
-  position: absolute;
-  height: 10.6vh;
-  width: 10.6vw;
-  max-height: 82px;
-  max-width: 82px;
-}
-
-#N-1366-03-196 .question img {
-  height: 100%;
-}
-
-#N-1366-03-196 .img-1 {
-  top: 22%;
-  left: 30%;
-}
-
 .N-1366-03-178 {
   background-image: url("../img/gakvetilebi/buneba/forest_colours/N-178.png");
   background-position: center;
@@ -8125,8 +8075,6 @@ section .arrow_up_down_downArrow img {
   height: 45.7vh;
 }
 
-<<<<<<< HEAD
-=======
 .n-1366-03-20-header-text-col {
   padding-left: 6.32vw;
   padding-top: 2vh;
@@ -8175,7 +8123,6 @@ section .arrow_up_down_downArrow img {
   right: 11vw;
 }
 
->>>>>>> a19599c7b36b0558ec5bedeb0a20e6c99724a9aa
 .n-1366-03-193-laptop-div {
   height: 19.14vh;
 }
