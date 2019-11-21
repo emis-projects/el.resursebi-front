@@ -1,8 +1,8 @@
 .ask_question_game {
   overflow-x: hidden;
   &_box {
-    height: 18vh;
-    width: 18vh;
+    height: 19vh;
+    width: 19vh;
     max-width: 150px;
     max-height: 150px;
     margin-top: 2.5vh;
@@ -18,10 +18,6 @@
     cursor: pointer;
     font-family: 'BPG Arial';
 
-    // &:first-of-type {
-    //   margin-top: 3.3vh;
-    // }
-
     img {
       height: 100%;
     }
@@ -32,8 +28,8 @@
   }
 
   .draggedElement {
-    height: 18vh;
-    width: 18vh;
+    height: 19vh;
+    width: 19vh;
     max-width: 150px;
     max-height: 150px;
     margin-top: 2.5vh;
@@ -77,8 +73,8 @@
   }
 
   .ask_question_game_box--sm {
-    width: 18vh;
-    height: 18vh;
+    width: 19vh;
+    height: 19vh;
     max-width: 150px;
     max-height: 150px;
     border: 6px solid #44bbbd;
@@ -100,9 +96,10 @@
 
     &:nth-child(1) {
       position: absolute;
-      left: 63.5vw;
+      left: 50%;
       top: 0;
-      transform: translateX(-50vw);
+      transform: translateX(-50%);
+
       img {
         position: absolute;
         top: 0vh;
@@ -112,8 +109,9 @@
 
     &:nth-child(2) {
       position: absolute;
-      right: -2.8vw;
-      top: 13vh;
+      right: -2vw;
+      top: 20%;
+
       img {
         position: absolute;
         bottom: 19vh;
@@ -123,8 +121,8 @@
 
     &:nth-child(3) {
       position: absolute;
-      right: -2.8vw;
-      top: 45vh;
+      right: -2vw;
+      top: 60%;
       img {
         position: absolute;
         top: -9vh;
@@ -135,8 +133,9 @@
     &:nth-child(4) {
       position: absolute;
       bottom: 0;
-      left: 63.5vw;
-      transform: translateX(-50vw);
+      left: 50%;
+      transform: translateX(-50%);
+
       img {
         position: absolute;
         top: 2vh;
@@ -148,9 +147,10 @@
 
     &:nth-child(5) {
       position: absolute;
-      left: 0;
-      top: 45vh;
+      left: 2vh;
+      top: 60%;
       transform: translateX(-30%);
+
       img {
         position: absolute;
         top: 16vh;
@@ -161,8 +161,8 @@
 
     &:nth-child(6) {
       position: absolute;
-      left: 0;
-      top: 13vh;
+      left: 2vh;
+      top: 20%;
       transform: translateX(-30%);
       img {
         position: absolute;
