@@ -8353,6 +8353,18 @@ section .arrow_up_down_downArrow img {
   margin-top: 4.75vh;
 }
 
+.m4-03-img-container {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.m4-03-img-container img {
+  height: 60vh;
+}
+
 canvas {
   border: 2px solid black;
   width: 100% !important;
