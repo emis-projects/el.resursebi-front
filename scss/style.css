@@ -1069,11 +1069,11 @@ header nav .header-sound .lang {
   background-position: left center;
   background-size: contain;
   text-align: center;
-  padding: 2vh 9vh;
+  padding: 2.4vh 9vh;
   -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
           box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
   border-radius: 40px;
-  font-size: 2.74vh;
+  font-size: 2.54vh;
   font-family: "ALK Sanet", sans-serif;
   color: #262626;
 }
@@ -1118,6 +1118,10 @@ header nav .header-sound .lang {
 .container_main_title img {
   height: 4.4vh;
   padding-right: 1.1vh;
+}
+
+.container_main_title h1 {
+  color: #262626;
 }
 
 .paging_buttons {
@@ -3799,7 +3803,7 @@ section .arrow_up_down_downArrow img {
 .ask_question_game .ask_question_game_box--sm:nth-child(4) img {
   position: absolute;
   top: 3vh;
-  right: -43%;
+  right: -55%;
 }
 
 .ask_question_game .ask_question_game_box--sm:nth-child(5) {
@@ -4786,7 +4790,7 @@ section .arrow_up_down_downArrow img {
   width: 2vh;
   max-width: 22px;
   max-height: 22px;
-  background: red;
+  background: #dc6c85;
   border-radius: 100%;
   top: 50%;
   left: 50%;
@@ -5053,7 +5057,7 @@ section .arrow_up_down_downArrow img {
 }
 
 .custom_radioButton_container.error .checkmark {
-  background: red;
+  background: #dc6c85;
 }
 
 .custom_radioButton_container.correct::after {
@@ -7883,6 +7887,20 @@ section .arrow_up_down_downArrow img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  height: 49vh;
+  max-height: 363.305px;
+}
+
+#N-1366-03-196 .tree_box div {
+  height: inherit;
+}
+
+#N-1366-03-196 .tree_box div svg {
+  height: 100%;
+}
+
+#N-1366-03-196 .tree_box div svg #Group_33573 {
+  height: 100%;
 }
 
 .N-1366-03-203 {
@@ -8308,4 +8326,3 @@ canvas {
   top: 0;
   width: 100%;
 }
-/*# sourceMappingURL=style.css.map */

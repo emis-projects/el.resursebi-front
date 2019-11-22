@@ -9,6 +9,17 @@
         margin-top: 13vh;
         display: flex;
         justify-content: center;
+        height: 49vh;
+        max-height: 363.305px;
+        div{
+            height: inherit;
+            svg{
+                height: 100%;
+                #Group_33573{
+                    height: 100%;
+                }
+            }
+        }
     }
 
 }
