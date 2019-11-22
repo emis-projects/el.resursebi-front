@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="../../../scss/libraries/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../../../scss/libraries/owl.carousel.min.css" />
+    <link rel="stylesheet" type="text/css" href="../../../scss/libraries/owl.theme.default.css" />
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <link rel="stylesheet" href="../../../scss/style.css" />
+    <title>ელექტრონული საგანმანათლებლო რესურსი</title>
+</head>
+
+<body>
+    <div class="container" id="app">
+        <header>
+            <nav class="row">
+                <app-logo v-logo="'../../../'"></app-logo>
+                <app-menu v-menu:dark="'../../../'"></app-menu>
+                <sound-lang></sound-lang>
+            </nav>
+        </header>
+        <section class="ask_question_game">
+            <div class="subject_component row">
+                <div class="col-12 item_flex">
+                    <div
+                        class="subject_component_itle_icon bg_bouble_pink d-flex justify-content-center align-items-center">
+                        <img src="../../../img/backgrounds/bg-ilustrations/hand.svg" alt="hand write" />
+                    </div>
+                    <h3 class="subject_component_title">სავარჯიშო</h3>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-11">
+                    <div class="plant-parts plant-parts-229 d-flex align-items-top justify-content-between">
+                        <div class="plant-1">
+                            <img class="m-auto" src="../../../img/gakvetilebi/buneba/forest_colours/N-03-229-1.svg"
+                                alt="">
+                            <p>ფოთოლი</p>
+                        </div>
+                        <div class="plant-2">
+                            <img class="m-auto" src="../../../img/gakvetilebi/buneba/forest_colours/N-03-229-2.svg"
+                                alt="">
+                            <p>ნაყოფი-რკო</p>
+                        </div>
+                        <div class="plant-3">
+                            <img class="m-auto" src="../../../img/gakvetilebi/buneba/forest_colours/N-03-229-3.svg"
+                                alt="">
+                            <p>ყვავილი</p>
+                        </div>
+                        <div class="plant-5">
+                            <img class="m-auto" src="../../../img/gakvetilebi/buneba/forest_colours/N-03-229-5.svg"
+                                alt="">
+                            <p>ღერო</p>
+                        </div>
+                        <div class="plant-4">
+                            <img class="m-auto" src="../../../img/gakvetilebi/buneba/forest_colours/N-03-229-4.svg"
+                                alt="">
+                            <p>ფესვები</p>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between mt-5 mb-5">
+                        <div class="nature_plant-game-text-container-white success position-static">
+                            <p class="nature_plant-game-text">ღერო</p>
+                        </div>
+                        <div class="nature_plant-game-text-container-white position-static">
+                        </div>
+                        <div class="nature_plant-game-text-container-white error position-static">
+                            <p class="nature_plant-game-text">ფესვები</p>
+                        </div>
+                        <div class="nature_plant-game-text-container-white position-static">
+                        </div>
+                        <div class="nature_plant-game-text-container-white position-static">
+                        </div>
+                    </div>
+                    <!-- <p class="nature_plant-game-text">გამოსცადე თავი, გაუკეთე წარწერები ამ მცენარის ნაწილებს:</p>
+              <div class="row mt-5 mb-5 d-flex justify-content-between">
+                  <div>
+                      <div class="nature_plant-game-text-container">
+                          <p class="nature_plant-game-text">ღერო</p>
+                          <p class="nature_plant-game-text">ფოთოლი</p>
+                          <p class="nature_plant-game-text">ნაყოფი</p>
+                          <p class="nature_plant-game-text">ყვავილი</p>
+                          <p class="nature_plant-game-text">ფესვები</p>
+                      </div>
+                  </div>
+                  <div>
+                      <div class="nature_plant-game-img-container">
+                          <img src="../../../img/gakvetilebi/buneba/forest_colours/N-197-03-1.svg" alt="" class="nature_plant-game-img">
+                          <div class="nature_plant-game-text-container-white nature_plant-game-text-container-white-1 success">
+                                <p class="nature_plant-game-text">ყვავილი</p>
+                          </div>
+                          <div class="nature_plant-game-text-container-white nature_plant-game-text-container-white-2"></div>
+                          <div class="nature_plant-game-text-container-white nature_plant-game-text-container-white-3 error">
+                                <p class="nature_plant-game-text">ღერო</p>
+                          </div>
+                          <div class="nature_plant-game-text-container-white nature_plant-game-text-container-white-4"></div>
+                          <div class="nature_plant-game-text-container-white nature_plant-game-text-container-white-5"></div>
+                      </div>
+                  </div>
+              </div> -->
+                    <div class="plant-parts d-flex align-items-top justify-content-between">
+                        <div class="plant-1">
+                            <img class="m-auto" src="../../../img/gakvetilebi/buneba/forest_colours/N-03-264-1.svg"
+                                alt="">
+                            <p>წყალი გადააქვს <br>
+                                ქვემოდან ზემოთ</p>
+                        </div>
+                        <div class="plant-2">
+                            <img class="m-auto" src="../../../img/gakvetilebi/buneba/forest_colours/N-03-264-2.svg"
+                                alt="">
+                            <p>საკვების შექმნა <br> მწვანე <br> ქლოროპლასტის <br> დახმარებით </p>
+                        </div>
+                        <div class="plant-3">
+                            <img class="m-auto" src="../../../img/gakvetilebi/buneba/forest_colours/N-03-264-3.svg"
+                                alt="">
+                            <p>იცავს და <br> გამრავლებისთვის <br> ამზადებს ხის <br> თესლს</p>
+                        </div>
+                        <div class="plant-5">
+                            <img class="m-auto" src="../../../img/gakvetilebi/buneba/forest_colours/N-03-264-5.svg"
+                                alt="">
+                            <p>ხის ნაყოფის <br> შექმნა <br> გამრავლებისთვის </p>
+                        </div>
+                        <div class="plant-4">
+                            <img class="m-auto" src="../../../img/gakvetilebi/buneba/forest_colours/N-03-264-4.svg"
+                                alt="">
+                            <p>ნიადაგიდან <br> იწოვს წყალს</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <div class="flex flex-end column align-items-end z-index reload_game_wrapper">
+            <button id="resetBtn" class="reset__btn">თავიდან სცადე</button>
+            <button id="completedGame" class="completed__btn">დასრულება</button>
+        </div>
+
+
+        <div class="paging_buttons paging_buttons_position">
+            <a href="../N-1366-03-196.html">
+                <img src="../../../img/icons/chevron-down-logo.svg" alt="down arrow" class="paging_buttons_left" />
+            </a>
+            <a href="../N-1366-03-175.html" class="paging_buttons_margin-left">
+                <img src="../../../img/icons/chevron-down-logo.svg" alt="down arrow" class="paging_buttons_right" />
+            </a>
+        </div>
+        <div class="subject_component_botton_illustration">
+            <div class="illustration_bg bg_pink_Down"></div>
+            <div class="subject_component_botton_icon">
+                <img src="../../../img/backgrounds/bg-ilustrations/hand.svg" alt="hand write" />
+            </div>
+        </div>
+    </div>
+
+
+    <script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
+    <script src="../../../js/libraries/bootstrap.min.js"></script>
+    <script src="../../../js/libraries/owl.carousel.min.js"></script>
+    <script src="../../../js/slider.js"></script>
+    <script src="../../../Vue-Header/app.js"></script>
+    <script src="../../../Nature-Lessons/My_world/js/N-1366-54.js"></script>
+
+</body>
+
+</html>
