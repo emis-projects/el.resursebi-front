@@ -8325,6 +8325,18 @@ section .arrow_up_down_downArrow img {
   margin-bottom: 10vh;
 }
 
+.m4-03-img-container {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.m4-03-img-container img {
+  height: 60vh;
+}
+
 canvas {
   border: 2px solid black;
   width: 100% !important;
@@ -8340,3 +8352,4 @@ canvas {
   top: 0;
   width: 100%;
 }
+/*# sourceMappingURL=style.css.map */
