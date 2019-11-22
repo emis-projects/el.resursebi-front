@@ -8325,6 +8325,34 @@ section .arrow_up_down_downArrow img {
   margin-bottom: 10vh;
 }
 
+.background-mv-52 {
+  background-image: url("../../../../img/gakvetilebi/musika/musical_city/M-04-52.svg");
+}
+
+.background-mv-52-1 {
+  background-image: url("../../../../img/gakvetilebi/musika/musical_city/M-04-52-1.svg");
+}
+
+.background-mv-52-2 {
+  background-image: url("../../../../img/gakvetilebi/musika/musical_city/M-04-52-2.svg");
+}
+
+.background-mv-52-3 {
+  background-image: url("../../../../img/gakvetilebi/musika/musical_city/M-04-52-3.svg");
+}
+
+.background-mv-52-4 {
+  background-image: url("../../../../img/gakvetilebi/musika/musical_city/M-04-52-4.svg");
+}
+
+.background-mv-79 {
+  background-image: url("../../../../img/gakvetilebi/musika/musical_city/M-04-79.svg");
+}
+
+.background-mv-full-title--mt {
+  margin-top: 4.75vh;
+}
+
 canvas {
   border: 2px solid black;
   width: 100% !important;
