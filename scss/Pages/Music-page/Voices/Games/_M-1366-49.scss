@@ -10,6 +10,34 @@
 
 .trumpet_game__round_col{
   height: 16.27vh;
+
+  &::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+  }
+
+  .car_game_white_circle {
+    width: 43px;
+    height: 43px;
+
+    &.selected {
+      background: #f7d24b;
+
+      &::after {
+        display: none;
+      }
+    }
+
+    &.error {
+      background: red;
+    }
+  }
+
   img{
     height: 16.27vh;
   }

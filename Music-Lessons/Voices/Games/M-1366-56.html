@@ -115,46 +115,28 @@
                     </div>
                 </div>
                 <div class="col-9 offset-1">
-                    <div class="listen_text-container">
-                        <button class="listen_btn">მოუსმინე</button>
+                    <div class="listen_text-container listen_text-container--m">
+                        <button class="listen_btn" data-voice="../game-voices/M-1366-56-1.wav">მოუსმინე</button>
                         <div class="m_exercise_text-container m_game_text-container listen_text-container-txt-margin">
                             <p>რომელი მანქანის ძრავის ხმა არის ყველაზე მოკლე. </p>
                             <p>დააწკაპე მანქანის სურათს.</p>
-                        </div>
-                    </div>
-                    <div class="listen_text-container">
-                        <button class="listen_btn">მოუსმინე</button>
-                        <div class="m_exercise_text-container m_game_text-container listen_text-container-txt-margin">
-                            <p>რომელი მანქანის ძრავის ხმა არის ყველაზე ხანგრძლივი. </p>
-                            <p>დააწკაპე სურათს.</p>
-                        </div>
-                    </div>
-                    <div class="listen_text-container">
-                        <button class="listen_btn">მოუსმინე</button>
-                        <div class="m_exercise_text-container m_game_text-container listen_text-container-txt-margin">
-                            <p>სხვადასხვა გრძლიობის ძრავის ხმების თანმიმდევრობას. </p>
-                            <p>აბა, გაიმეორე და შეეცადე, დაამთხვიო. </p>
-
                         </div>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-7 m-auto car_game_container_full">
-                    <div class="car_game_container">
+                    <div class="car_game_container" data-correct="incorrect">
                         <div class="car_game_img"><img src="../../../img/gakvetilebi/musika/MG_car3.png" alt=""></div>
-                        <div class="car_game_white_circle"><img src="../../../img/gakvetilebi/musika/MV-1366-14-1.svg"
-                                alt=""></div>
+                        <div class="car_game_white_circle"></div>
                     </div>
-                    <div class="car_game_container">
+                    <div class="car_game_container correct--answer" data-correct="incorrect">
                         <div class="car_game_img"><img src="../../../img/gakvetilebi/musika/MG_car1.png" alt=""></div>
-                        <div class="car_game_white_circle"><img src="../../../img/gakvetilebi/musika/MV-1366-14-3.svg"
-                                alt=""></div>
+                        <div class="car_game_white_circle"></div>
                     </div>
-                    <div class="car_game_container">
+                    <div class="car_game_container" data-correct="incorrect">
                         <div class="car_game_img"><img src="../../../img/gakvetilebi/musika/MG_car2.png" alt=""></div>
-                        <div class="car_game_white_circle"><img src="../../../img/gakvetilebi/musika/MV-1366-14-2.svg"
-                                alt=""></div>
+                        <div class="car_game_white_circle"></div>
                     </div>
                 </div>
             </div>
@@ -165,7 +147,7 @@
                 </button>
             </div>
             <div class="paging_buttons paging_buttons_position">
-                <a href="./M-1366-55.html">
+                <a href="./M-1366-55-3.html">
                     <img src="../../../img/icons/chevron-down-logo.svg" alt="down arrow" class="paging_buttons_left" />
                 </a>
                 <a href="./M-1366-57.html" class="paging_buttons_margin-left">
@@ -181,7 +163,9 @@
         </div>
     </div>
 
-    <script src="../../../js/soundSwitch.js"></script>
+    <script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
+    <script src="../../../js/libraries/sound.js"></script>
+    <script src="../js/M-1366-56.js"></script>
 </body>
 
 </html>

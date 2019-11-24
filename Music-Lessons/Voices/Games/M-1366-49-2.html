@@ -126,13 +126,18 @@
 
                 <div class="row art_questions trumpet_game_content_trumpets row music_m-1366-49_content_game">
                     <div class="col-6 m-auto  music_m-1366-49_trumpet_game_container">
-                        <div class="trumpet_game_container_row row">
-                            <div class="col-4 trumpet_game__round_col trumpet_game__round_left">
-                                <img src="../../../img/gakvetilebi/musika/music_games_trumpet_round.svg" alt="">
+                        <div class="trumpet_game_container_row row" id="trumpetQuestion" data-correct="121">
+
+                            <div class="trumpet_game__round_col trumpet_game__round_left" data-voice="../game-voices/M-1366-49-1.wav" data-index="1">
+                                <img src="../../../img/gakvetilebi/musika/music_games_round.svg" alt="">
+                                <div class="car_game_white_circle"></div>
                             </div>
-                            <div class="col-4 trumpet_game__round_col  trumpet_game__round_right">
-                                <img src="../../../img/gakvetilebi/musika/music_games_trumpet_round.svg" alt="">
+
+                            <div class="trumpet_game__round_col  trumpet_game__round_right" data-voice="../game-voices/M-1366-49-2.wav" data-index="2">
+                                <img src="../../../img/gakvetilebi/musika/music_games_round.svg" alt="">
+                                <div class="car_game_white_circle"></div>
                             </div>
+
                         </div>
                     </div>
                 </div>
@@ -146,6 +151,16 @@
                 </a>
             </div>
         </section>
+
+        <div class="flex column z-index game_btns_position">
+                <button id="resetBtn" class="reset__btn">თავიდან სცადე</button>
+                <button id="completedGame" class="completed__btn">
+                    დასრულება
+                </button>
+            </div>
+    
+
+            
         <div class="subject_component_botton_illustration">
             <div class="illustration_bg bg_pink_Down"></div>
             <div class="subject_component_botton_bg_icon">
@@ -154,7 +169,9 @@
         </div>
     </div>
 
-    <script src="../../../js/soundSwitch.js"></script>
+    <script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
+    <script src="../../../js/libraries/sound.js"></script>
+    <script src="../js/M-1366-49.js"></script>
 </body>
 
 </html>

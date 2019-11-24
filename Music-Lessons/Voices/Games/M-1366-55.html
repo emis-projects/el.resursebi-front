@@ -115,44 +115,33 @@
                     </div>
                 </div>
                 <div class="col-9 offset-1">
-                    <div class="listen_text-container">
-                        <button class="listen_btn">მოუსმინე</button>
+                    <div class="listen_text-container listen_text-container--m">
+                        <button class="listen_btn" data-voice="../game-voices/M-1366-55-1.wav">მოუსმინე</button>
                         <div class="m_exercise_text-container m_game_text-container listen_text-container-txt-margin">
                             <p>სამი სხვადასხვა ძრავის ხმების თანმიმდევრობას: </p>
                             <p>აბა, დააწკაპე სურათებს იმავე თანმიმდევრობით.</p>
                         </div>
                     </div>
-                    <div class="listen_text-container">
-                        <button class="listen_btn">მოუსმინე</button>
-                        <div class="m_exercise_text-container m_game_text-container listen_text-container-txt-margin">
-                            <p> კიდევ ერთ თანმიმდევრობას: </p>
-                            <p>აბა, გაიმეორე! მგონი, რაღაც მუსიკა გამოდის, არა?</p>
-                        </div>
-                    </div>
-                    <div class="listen_text-container">
-                        <button class="listen_btn">მოუსმინე</button>
-                        <div class="m_exercise_text-container m_game_text-container listen_text-container-txt-margin">
-                            <p> აბა, კიდევ ერთს </p>
-                            <p>მოდი, ესეც გაიმეორე. დიახ, ნამდვილად ჰგავს რაღაც უცნაურ მუსიკას. </p>
-
-                        </div>
-                    </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-7 m-auto car_game_container_full">
-                    <div class="car_game_container">
+                <div class="col-7 m-auto car_game_container_full" id="trumpetQuestion" data-correct="3213">
+
+                    <div class="car_game_container" data-index="1">
                         <div class="car_game_img"><img src="../../../img/gakvetilebi/musika/MG_car3.png" alt=""></div>
-                        <div class="car_game_white_circle"><img src="../../../img/gakvetilebi/musika/MV-1366-14-1.svg" alt=""></div>
+                        <div class="car_game_white_circle"></div>
                     </div>
-                    <div class="car_game_container">
+
+                    <div class="car_game_container" data-index="2">
                         <div class="car_game_img"><img src="../../../img/gakvetilebi/musika/MG_car1.png" alt=""></div>
-                        <div class="car_game_white_circle"><img src="../../../img/gakvetilebi/musika/MV-1366-14-3.svg" alt=""></div>
+                        <div class="car_game_white_circle"></div>
                     </div>
-                    <div class="car_game_container">
+
+                    <div class="car_game_container" data-index="3">
                         <div class="car_game_img"><img src="../../../img/gakvetilebi/musika/MG_car2.png" alt=""></div>
-                        <div class="car_game_white_circle"><img src="../../../img/gakvetilebi/musika/MV-1366-14-2.svg" alt=""></div>
+                        <div class="car_game_white_circle"></div>
                     </div>
+
                 </div>
             </div>
             <div class="flex column z-index game_btns_position">
@@ -162,10 +151,10 @@
                 </button>
             </div>
             <div class="paging_buttons paging_buttons_position">
-                <a href="./M-1366-53.html">
+                <a href="./M-1366-53-3.html">
                     <img src="../../../img/icons/chevron-down-logo.svg" alt="down arrow" class="paging_buttons_left" />
                 </a>
-                <a href="./M-1366-56.html" class="paging_buttons_margin-left">
+                <a href="./M-1366-55-2.html" class="paging_buttons_margin-left">
                     <img src="../../../img/icons/chevron-down-logo.svg" alt="down arrow" class="paging_buttons_right" />
                 </a>
             </div>
@@ -178,7 +167,9 @@
         </div>
     </div>
 
-    <script src="../../../js/soundSwitch.js"></script>
+    <script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
+    <script src="../../../js/libraries/sound.js"></script>
+    <script src="../js/M-1366-55.js"></script>
 </body>
 
 </html>
