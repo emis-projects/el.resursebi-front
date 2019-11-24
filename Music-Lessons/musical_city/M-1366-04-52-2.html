@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="../../js/vue.js"></script>
+    <!--  ვუე გაშვებისას
+    <script src="./js/vue.min.js"></script>
+     -->
+    <link rel="stylesheet" href="../../scss/libraries/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../../scss/libraries/owl.carousel.min.css" />
+    <link rel="stylesheet" type="text/css" href="../../scss/libraries/owl.theme.default.css" />
+    <link rel="stylesheet" href="../../scss/style.css" />
+    <title>ელექტრონული საგანმანათლებლო რესურსი</title>
+</head>
+
+<body class="background-mv-52-2 background-mv-full">
+    <div class="container">
+        <header id="app">
+            <nav class="row">
+                <app-logo v-logo="'../../'"></app-logo>
+                <app-menu v-menu:dark="'../../'"></app-menu>
+                <sound-lang></sound-lang>
+            </nav>
+        </header>
+        <section>
+            <div class="row">
+                <div class="col-8 m-auto">
+                    <h1 class="background-mv-full-title background-mv-full-title--mt">რა გაგიჭირდა პროგრამაში მუშაობის დროს?</h1>
+                </div>
+            </div>
+        </section>
+        <div class="paging_buttons paging_buttons_position">
+            <a href="./M-1366-04-79.html">
+                <img src="../../img/icons/chevron-down-logo.svg" alt="down arrow" class="paging_buttons_left" />
+            </a>
+            <a href="./M-1366-04-52-3.html" class="paging_buttons_margin-left">
+                <img src="../../img/icons/chevron-down-logo.svg" alt="down arrow" class="paging_buttons_right" />
+            </a>
+        </div>
+    </div>
+
+    <!-- <div id="chatBot">
+        <app-bot v-if="show"></app-bot>
+    </div> -->
+
+    <script src="../../js/libraries/jquery-3.4.1.min.js"></script>
+    <script src="../../js/libraries/bootstrap.min.js"></script>
+    <script src="../../js/libraries/owl.carousel.min.js"></script>
+    <script src="../../js/slider.js"></script>
+
+    <!-- header and bot vue -->
+    <script src="../../Vue-Header/app.js"></script>
+    <script src="../../Vue-chatBot/botApp.js"></script>
+    <script src="../../js/bot.js"></script>
+
+</body>
+
+</html>

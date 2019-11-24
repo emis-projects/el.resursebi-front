@@ -1069,7 +1069,7 @@ header nav .header-sound .lang {
   background-position: left center;
   background-size: contain;
   text-align: center;
-  padding: 2vh 9vh;
+  padding: 2.4vh 9vh;
   -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
           box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
   border-radius: 40px;
@@ -7948,6 +7948,20 @@ section .arrow_up_down_downArrow img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  height: 49vh;
+  max-height: 363.305px;
+}
+
+#N-1366-03-196 .tree_box div {
+  height: inherit;
+}
+
+#N-1366-03-196 .tree_box div svg {
+  height: 100%;
+}
+
+#N-1366-03-196 .tree_box div svg #Group_33573 {
+  height: 100%;
 }
 
 .N-1366-03-203 {
@@ -8142,7 +8156,6 @@ section .arrow_up_down_downArrow img {
 
 .n-1366-03-20-header-text-col {
   padding-left: 6.32vw;
-  padding-top: 2vh;
 }
 
 .nature-game-season-changer-div {
@@ -8150,8 +8163,10 @@ section .arrow_up_down_downArrow img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  /*  height:36.71vh; */
-  height: 67.96vh;
+  /*   height:36.71vh;  */
+  height: 67.96%;
+  /*   height:67.96vh;  */
+  margin-top: 14vh;
 }
 
 .nature-game-season-changer-changer > img {
@@ -8178,14 +8193,29 @@ section .arrow_up_down_downArrow img {
   height: initial;
 }
 
-/* .nature-game-season-circle-1{
-  top:-85px
+.nature-game-season-circle-1 {
+  top: -29%;
 }
 
-.nature-game-season-circle-2{
-top:285px;
+.nature-game-season-circle-2 {
+  bottom: -29%;
 }
- */
+
+.nature-game-season-circle-3 {
+  left: 29%;
+}
+
+.nature-game-season-circle-4 {
+  right: 29%;
+}
+
+.nature-game-season-changer-tree {
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  left: 50%;
+}
+
 .n-1366-03-193-laptop-div {
   height: 19.14vh;
 }
@@ -8336,11 +8366,64 @@ top:285px;
   font-family: 'BPG Arial';
   font-size: 2.34vh;
   padding-top: 2vh;
+  color: #0B2228;
+}
+
+.plant-parts img {
+  max-height: 19.24vh;
+}
+
+.plant-parts-229 {
+  text-align: center;
+}
+
+.plant-parts-229 img {
+  max-height: 14vh;
 }
 
 .n-03-264-radio {
   margin-top: 10vh;
   margin-bottom: 10vh;
+}
+
+.background-mv-52 {
+  background-image: url("../../../../img/gakvetilebi/musika/musical_city/M-04-52.svg");
+}
+
+.background-mv-52-1 {
+  background-image: url("../../../../img/gakvetilebi/musika/musical_city/M-04-52-1.svg");
+}
+
+.background-mv-52-2 {
+  background-image: url("../../../../img/gakvetilebi/musika/musical_city/M-04-52-2.svg");
+}
+
+.background-mv-52-3 {
+  background-image: url("../../../../img/gakvetilebi/musika/musical_city/M-04-52-3.svg");
+}
+
+.background-mv-52-4 {
+  background-image: url("../../../../img/gakvetilebi/musika/musical_city/M-04-52-4.svg");
+}
+
+.background-mv-79 {
+  background-image: url("../../../../img/gakvetilebi/musika/musical_city/M-04-79.svg");
+}
+
+.background-mv-full-title--mt {
+  margin-top: 4.75vh;
+}
+
+.m4-03-img-container {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.m4-03-img-container img {
+  height: 60vh;
 }
 
 canvas {
