@@ -1073,7 +1073,7 @@ header nav .header-sound .lang {
   -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
           box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
   border-radius: 40px;
-  font-size: 2.54vh;
+  font-size: 2.34vh;
   font-family: "ALK Sanet", sans-serif;
   color: #262626;
 }
@@ -8537,4 +8537,3 @@ canvas {
   top: 0;
   width: 100%;
 }
-/*# sourceMappingURL=style.css.map */
