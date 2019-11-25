@@ -22,7 +22,7 @@ Vue.component('appBot', {
               </button>
             </form>
           </div>
-          <div id="prime" class="fab"><i class="prime zmdi zmdi-comment-outline"></i></div>
+          <div @click="botDisplay" id="prime" class="fab"><i class="prime zmdi zmdi-comment-outline"></i></div>
       </div>
     `,
 });
