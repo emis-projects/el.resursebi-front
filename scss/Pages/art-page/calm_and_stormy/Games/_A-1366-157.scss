@@ -10,7 +10,7 @@
         .img_box {
             cursor: pointer;
             width: 24.5vw;
-            max-width: 336;
+            max-width: 336px;
         }
 
         img {
@@ -27,11 +27,11 @@
             height: 2.7vh;
             max-height: 21px;
             width: 24.5vw;
-            max-width: 336;
+            max-width: 336px;
 
             &-bg {
                 height: 5.9vh;
-                max-height: 46;
+                max-height: 46px;
 
                 img {
                     width: 100%;
@@ -40,8 +40,8 @@
 
             &-blur {
                 height: 2vh;
-                max-height: 16;
-
+                max-height: 16px;
+                margin-bottom: 3vh;
                 img {
                     width: 100%;
                 }
@@ -56,6 +56,8 @@
         .img_box {
             height: 2.7vh;
             max-width: 21px;
+            &-blur {
+                margin-bottom: 7vh;}
         }
     }
 
@@ -74,4 +76,19 @@
             opacity: 1;
         }
     }
+    .canv-box{
+        top: 20vh;
+        height: 70vh;
+        position: fixed;
+        width: 100%;
+    }
+    #myCanvas{
+        border-radius: 5px;
+        position: relative;
+        height: 100%;
+        width: 100%;
+    }
 }
+
+
+
