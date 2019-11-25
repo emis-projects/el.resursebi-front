@@ -73,6 +73,9 @@ function m136630(){
         this.userAnswerArray3 = [];
         this.userAnswerArray4 = [];
 
+        // stop voice 
+        createjs.Sound.stop("sound");
+
         handleLoadstop()
 
         $('.custom_radioButton_container').removeClass('active')

@@ -48,6 +48,10 @@ function m136655(){
         this.answersArray = '';
         this.error = true;
 
+        // stop voice 
+        createjs.Sound.stop("sound");
+
+        
         $('.car_game_white_circle').removeClass('error')
         $('.car_game_container').removeClass('disabled')
         $('.carImgNumber').remove()

@@ -1,4 +1,3 @@
-
 function voiceGames(){
     this.error = true;
     this.audio = null;
@@ -21,14 +20,6 @@ function voiceGames(){
     resetBtn.addEventListener('click', () => this.init());
 
 
-    var audioUrls = [
-        '../game-voices/M-1366-14.wav',
-        '../game-voices/M-1366-15.wav',
-        '../game-voices/M-1366-16.wav',
-        '../game-voices/M-1366-19.wav',
-        '../game-voices/M-1366-20.wav',
-        '../game-voices/M-1366-21.wav'
-    ]
 
     var myArray = [];
 
@@ -58,14 +49,6 @@ function voiceGames(){
 })
 
 
-
-    // document.querySelector('.listen_btn').addEventListener('click', e => {
-    //     handleLoadstop()
-    //     createjs.Sound.registerSound({src:`${e.target.getAttribute('data-voice')}`, id:"sound"});
-    //     handleLoadComplete()
-    // })
-
-
     if(location.pathname == "/Music-Lessons/Voices/Games/M-1366-14.html"){
         this.imgSrc = "../../../img/gakvetilebi/musika/MV-1366-14-1.svg"
 
@@ -87,6 +70,9 @@ function voiceGames(){
 
 
     this.init = () => {
+        // stop voice 
+        createjs.Sound.stop("sound");
+
         $(elements).removeClass('error')
         $('.game-number-container').html('')
         $('.game-number-container').removeAttr('style');
