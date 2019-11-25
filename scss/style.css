@@ -7390,6 +7390,10 @@ section .arrow_up_down_downArrow img {
   height: 60vh;
 }
 
+.m4-10-img {
+  width: 85%;
+}
+
 .canvas-container {
   width: 100% !important;
 }
@@ -7400,3 +7404,5 @@ section .arrow_up_down_downArrow img {
   top: 0;
   width: 100%;
 }
+
+/*# sourceMappingURL=style.css.map */
