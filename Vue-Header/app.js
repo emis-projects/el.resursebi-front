@@ -43,7 +43,7 @@ Vue.component('soundLang', {
         return {
             color: '#fff',
             circleColor: '#7fd1d8',
-            lang: 'ქარ'
+            lang: 'Eng'
         }
     },
     methods: {
