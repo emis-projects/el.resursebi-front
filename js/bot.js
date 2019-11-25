@@ -15,8 +15,8 @@ var loc = window.location
     // bot message UI
     function sendMessageFromBot(res) {
       let div = document.createElement('div');
-      $(div).addClass('chat_msg_item chat_msg_item_admin')
-      $(div).append('<div class="chat_avatar"><img src="../img/icons/bot.png" alt="My image"></div>');
+      $(div).addClass('chat_msg_item chat_msg_item_admin');
+      $(div).append('<div class="chat_avatar"><img src="/img/icons/bot.png" alt="My image"></div>');
 
       let text = document.createElement('span');
       let img = document.createElement('img');

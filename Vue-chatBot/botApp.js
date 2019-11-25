@@ -22,17 +22,16 @@ Vue.component('appBot', {
               </button>
             </form>
           </div>
-          <div @click="botDisplay" id="prime" class="fab"><i class="prime zmdi zmdi-comment-outline"></i></div>
+          <div id="prime" class="fab"><i class="prime zmdi zmdi-comment-outline"></i></div>
       </div>
     `,
-})
+});
 
 var bot = new Vue({
   el: '#chatBot',
   data: {
     show: true
   }
-
 });
 
 //Toggle chat and links
