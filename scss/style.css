@@ -8439,16 +8439,47 @@ section .arrow_up_down_downArrow img {
   margin-top: 2.47vh;
 }
 
-.music-music-lyrics-game-round-button-div {
-  height: 15.62vh;
-}
-
-.music-music-lyrics-game-round-button-div img {
-  height: 15.62vh;
-}
-
 .music-lyrics-game-round-button-div {
+  height: 15.62vh;
   margin-bottom: 2.23vh;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+  background-color: transparent;
+}
+
+.music-lyrics-game-round-button-div img {
+  height: 15.62vh;
+}
+
+.music-lyrics-game-round-button-div-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  -webkit-transition: -webkit-transform 0.6s;
+  transition: -webkit-transform 0.6s;
+  transition: transform 0.6s;
+  transition: transform 0.6s, -webkit-transform 0.6s;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+
+.music-lyrics-game-round-button-div:hover .music-lyrics-game-round-button-div-inner {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.music-lyrics-game-round-button-div-front, .music-lyrics-game-round-button-div-flip {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.music-lyrics-game-round-button-div-flip {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
 }
 
 .background-mv-52 {

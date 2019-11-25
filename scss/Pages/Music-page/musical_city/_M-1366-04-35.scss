@@ -17,13 +17,39 @@ p{
     margin-top:2.47vh;
 }
 
-.music-music-lyrics-game-round-button-div{
+.music-lyrics-game-round-button-div{
     height:15.62vh;
+ margin-bottom: 2.23vh;
+    perspective: 1000px;
+    background-color: transparent;
     img{
         height:15.62vh;
     }
 }
 
-.music-lyrics-game-round-button-div{
-    margin-bottom: 2.23vh;
-}
+.music-lyrics-game-round-button-div-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    
+  }
+
+  .music-lyrics-game-round-button-div:hover .music-lyrics-game-round-button-div-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .music-lyrics-game-round-button-div-front, .music-lyrics-game-round-button-div-flip {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  
+ 
+  .music-lyrics-game-round-button-div-flip {
+
+    transform: rotateY(180deg);
+  }
