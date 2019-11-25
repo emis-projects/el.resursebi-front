@@ -8,6 +8,11 @@
     margin-left: 1.36vw;
   }
 }
+
+.listen_text-container--m {
+  margin-top: 6vh;
+}
+
 .car_game {
   &_container_full {
     display: flex;
@@ -20,6 +25,13 @@
   &_container {
     position: relative;
     height: 21.87vh;
+
+    &.trumpet_game__round_col {
+      .car_game_white_circle {
+        width: 7.55vh;
+        height: 7.55vh;
+      }
+    }
 
     &::after {
       content: '';
@@ -66,4 +78,12 @@
   position: absolute;
   right: 18vh;
   bottom: 15vh;
+}
+
+#trumpetQuestion .car_game_white_circle.error {
+  background: red;
+}
+
+.car_game_white_circle.selected {
+  background: #f7d24b;
 }

@@ -120,11 +120,11 @@ var loc = window.location
         let msgText = msgInput.val();
 
         sendMessageFromUser(msgText);
-    
+
         $.ajax({
             type: "POST",
             url: 'https://e4082a31.ngrok.io/WCAPI',
-            data: JSON.stringify({  "message" : msgText  }),
+            data: JSON.stringify({  "message" : msgText, "botid": $('html').attr('data-botid') }),
             success: function(result) {
             let res = JSON.parse(result);
 
@@ -137,9 +137,7 @@ var loc = window.location
         })
 
            
-
         $(msgInput).val("");
-
         $(getTag).scrollTop($(getTag)[0].scrollHeight)
     }
 
