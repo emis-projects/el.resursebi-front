@@ -8426,6 +8426,10 @@ section .arrow_up_down_downArrow img {
   height: 60vh;
 }
 
+.m4-10-img {
+  width: 85%;
+}
+
 canvas {
   border: 2px solid black;
   width: 100% !important;
@@ -8441,3 +8445,4 @@ canvas {
   top: 0;
   width: 100%;
 }
+/*# sourceMappingURL=style.css.map */
