@@ -8685,10 +8685,25 @@ section .arrow_up_down_downArrow img {
 }
 
 .listen_numb {
-  font-size: 3.90vh;
-  color: #0B2228;
-  font-family: 'BPG Arial';
+  font-size: 3.9vh;
+  color: #0b2228;
+  font-family: "BPG Arial";
   margin-right: 3vw;
+}
+
+.noteWithNumb-cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 5vh;
+}
+
+.noteWithNumb-cont .car_game_white_circle {
+  position: static;
+}
+
+.noteWithNumb-img {
+  height: 5.11vh;
 }
 
 .m-1366-04-23-music-note-container-div {
