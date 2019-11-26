@@ -65,6 +65,9 @@ function M136622(){
         this.userAnswerArray2 = [];
         this.userAnswerArray3 = [];
 
+        // stop voice 
+        createjs.Sound.stop("sound");
+
         handleLoadstop()
 
         $('.voices__question__dot').removeClass('active')

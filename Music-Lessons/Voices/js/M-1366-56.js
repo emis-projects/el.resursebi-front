@@ -48,6 +48,9 @@ function m136656(){
         this.answersArray = '';
         this.error = true;
 
+        // stop voice 
+        createjs.Sound.stop("sound");
+        
         $('.car_game_container').attr('data-correct', 'incorrect');
         $('.car_game_container').removeClass('error')
         $('.car_game_white_circle').removeClass('error')
