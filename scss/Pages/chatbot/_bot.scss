@@ -7,7 +7,12 @@
   right: 0;
   z-index: 998;
 }
-
+#formData{
+  padding-bottom: 4px;
+  background: rgb(255, 255, 255);
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
 .fab {
   display: block;
   width: 56px;
@@ -80,7 +85,7 @@
 
 .chat_field {
   position: relative;
-  margin: 8px 0 5px 0;
+  margin: 0;
   width: 50%;
   font-size: 12px;
   font-weight: 500;

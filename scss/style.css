@@ -8,6 +8,13 @@
   z-index: 998;
 }
 
+#formData {
+  padding-bottom: 4px;
+  background: white;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
 .fab {
   display: block;
   width: 56px;
@@ -88,7 +95,7 @@
 
 .chat_field {
   position: relative;
-  margin: 8px 0 5px 0;
+  margin: 0;
   width: 50%;
   font-size: 12px;
   font-weight: 500;
@@ -4328,8 +4335,8 @@ section .arrow_up_down_downArrow img {
   width: 58px;
   border-radius: 50%;
   position: absolute;
-  -webkit-box-shadow: 0px 3px 6px #00000029;
-          box-shadow: 0px 3px 6px #00000029;
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.160784);
+          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.160784);
   top: 80%;
   left: 50%;
   -webkit-transform: translateX(-50%);
@@ -5875,6 +5882,13 @@ section .arrow_up_down_downArrow img {
   z-index: 998;
 }
 
+#formData {
+  padding-bottom: 4px;
+  background: white;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
 .fab {
   display: block;
   width: 56px;
@@ -5955,7 +5969,7 @@ section .arrow_up_down_downArrow img {
 
 .chat_field {
   position: relative;
-  margin: 8px 0 5px 0;
+  margin: 0;
   width: 50%;
   font-size: 12px;
   font-weight: 500;
@@ -7179,6 +7193,24 @@ section .arrow_up_down_downArrow img {
   background-position: center;
 }
 
+#N-1366-04-268 .main_text {
+  font-family: 'BPG Arial', sans-serif;
+  font-size: 2.3vh;
+  line-height: 3.9vh;
+}
+
+#N-1366-04-268 .window_image_box {
+  max-height: 218px;
+  max-width: 810px;
+  height: 28.4vh;
+  width: 59vw;
+  margin: 10vh 0;
+}
+
+#N-1366-04-268 .window_image_box img {
+  height: 100%;
+}
+
 .N-1366-04-284 {
   background-image: url("../img/gakvetilebi/buneba/lesson4/1366-284.png");
   background-position: center;
@@ -7447,7 +7479,7 @@ section .arrow_up_down_downArrow img {
   margin-left: 23.35vh;
 }
 
-.n-1366-04-286-_content_box_text {
+.n-1366-04-286-_content_box_text a {
   font-size: 2.08vh;
   font-family: 'DejaVu Sans Oblique';
   color: #707070;
@@ -7465,7 +7497,7 @@ section .arrow_up_down_downArrow img {
   margin-left: 23.35vh;
 }
 
-.n-1366-04-286-_content_box_text {
+.n-1366-04-286-_content_box_text a {
   font-size: 2.08vh;
   font-family: 'DejaVu Sans Oblique';
   color: #707070;
@@ -8638,6 +8670,60 @@ section .arrow_up_down_downArrow img {
   bottom: 0.39vh;
   height: 8.33vh;
   width: 100%;
+}
+
+.musical_notes_game-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 4vh 0;
+}
+
+.musical_notes_game-img {
+  height: 12.11vh;
+}
+
+.musical_houses_game-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.musical_houses_game-img-cont:nth-child(1) .musical_houses_game-img {
+  height: 11.84vh;
+}
+
+.musical_houses_game-img-cont:nth-child(2) .musical_houses_game-img {
+  height: 16.53vh;
+}
+
+.musical_houses_game-img-cont:nth-child(3) .musical_houses_game-img {
+  height: 21.09vh;
+}
+
+.musical_houses_game-img-cont:nth-child(4) .musical_houses_game-img {
+  height: 25.65vh;
+}
+
+.musical_houses_game-img-cont:nth-child(5) .musical_houses_game-img {
+  height: 30.33vh;
+}
+
+.musical_houses_game-img-cont:nth-child(6) .musical_houses_game-img {
+  height: 35.15vh;
+}
+
+.musical_houses_game-img-cont .car_game_white_circle {
+  position: relative;
 }
 
 .canvas-container {

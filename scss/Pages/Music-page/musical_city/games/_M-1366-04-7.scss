@@ -1,0 +1,41 @@
+.musical_notes_game {
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 4vh 0;
+  }
+  &-img {
+    height: 12.11vh;
+  }
+}
+.musical_houses_game {
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  &-img-cont {
+    &:nth-child(1) .musical_houses_game-img {
+      height: 11.84vh;
+    }
+    &:nth-child(2) .musical_houses_game-img {
+      height: 16.53vh;
+    }
+    &:nth-child(3) .musical_houses_game-img {
+      height: 21.09vh;
+    }
+    &:nth-child(4) .musical_houses_game-img {
+      height: 25.65vh;
+    }
+    &:nth-child(5) .musical_houses_game-img {
+      height: 30.33vh;
+    }
+    &:nth-child(6) .musical_houses_game-img {
+      height: 35.15vh;
+    }
+
+    .car_game_white_circle {
+      position: relative;
+    }
+  }
+}
