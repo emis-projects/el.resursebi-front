@@ -8579,6 +8579,67 @@ section .arrow_up_down_downArrow img {
   width: 85%;
 }
 
+.m-1366-04-23-music-note-container-div {
+  margin-top: 15.23vh;
+}
+
+.m-1366-04-23-music-game-note-circles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 3px 6px #00000029;
+          box-shadow: 0px 3px 6px #00000029;
+}
+
+.m-1366-04-23-music-game-note-circles.error {
+  background-color: #ff5252;
+}
+
+.m-1366-04-23-music-game-note-circles.success {
+  background-color: #A1DD6F;
+}
+
+.m-1366-04-23-music-game-note-circles.selected {
+  background-color: #F8D24B;
+}
+
+.m-1366-04-23-music-note-circles-div {
+  margin-top: 5.2vh;
+}
+
+.music-game-task-notes-strings-containers-col {
+  margin-top: 1.95vh;
+  /* padding-right:6.64vh; */
+}
+
+.music-game-task-notes-strings-container {
+  position: relative;
+  height: 18.88vh;
+  width: 15vw;
+}
+
+.music-game-task-notes-string-container-img {
+  height: 100%;
+  width: 100%;
+}
+
+.music-game-task-notes-strings-text-div {
+  margin-top: 4.94vh;
+}
+
+.music-game-task-notes-strings-lyrics-img {
+  position: absolute;
+  bottom: 0.39vh;
+  height: 8.33vh;
+  width: 100%;
+}
+
 .canvas-container {
   width: 100% !important;
 }
@@ -8589,3 +8650,4 @@ section .arrow_up_down_downArrow img {
   top: 0;
   width: 100%;
 }
+/*# sourceMappingURL=style.css.map */
