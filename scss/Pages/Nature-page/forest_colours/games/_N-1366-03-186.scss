@@ -20,12 +20,23 @@
       background: #82cf8a;
     }
     &-large{
-        min-height: 60vh;
+        max-height: 504px;
+      height: 60vh;
     }
     &-dropped-img{
         margin: 0 auto;
         padding: 1vh 0;
         max-height: 10vh;
     }
+  }
+}
+.image-box_gamge{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  img{
+    flex: 0 50%;
+    margin-top: 2%;
+    margin-bottom: 2%;
   }
 }
