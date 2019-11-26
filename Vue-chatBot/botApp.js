@@ -1,6 +1,6 @@
 Vue.component('appBot', {
   methods: {
-    botDisplay() {
+    botDisplay: function () {
       toggleFab();
     }
   },
