@@ -1,31 +1,54 @@
 .nature-plants-cubes-div{
     height: 52.21vh;  
+    width: 21.37vw;
+    border: 3px solid #61A547;
 }
+
+.nature-plants-cubes-tree {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 39.97vh;
+    transform: translate(-50%, -50%);
+}
+
 .nature-plants-cubes-div-container{
-        height: 52.21vh;
+    height: 52.21vh;
     }
+
 .n-1366-04-244-container_main_title_text{
     align-self:center;
 }
+
 .n-1366-04-244-container_main_title {
-margin-left:5.3vw;
+    margin-left:5.3vw;
 }
 
 .n-1366-04-244-checkbox-container{
- align-items: center;
- align-self:flex-end;
- margin-bottom: 4.4vh;
- img{
-     height: 9vh;
- }
+    align-items: center;
+    align-self:flex-end;
+    margin-bottom: 4.4vh;
+
+    img {
+        height: 9vh;
+    }
+
+    .checkmark {
+        &.selected {
+            background: #f7d24b;
+            border: 1px solid #f7d24b;
+        }
+    }
 }
 
 .n-1366-04-244-checkbox-text{
     line-height: 30px;
 }
+
 .n-1366-04-244-checkbox-container-row{
     justify-content:center;
 }
+
 .n-1366-04-244-checkbox-container-row-no-justify{
     justify-content:start;
 }
@@ -36,25 +59,31 @@ margin-left:5.3vw;
 
 
 
-.nature-plants-green-cube-1, .nature-plants-green-cube-2, .nature-plants-green-cube-3, .nature-plants-green-cube-4 {
-        position:absolute;
-        width: 50px;
-        height:50px;         
+.nature-plants-green-cube-1, 
+.nature-plants-green-cube-2, 
+.nature-plants-green-cube-3, 
+.nature-plants-green-cube-4 {
+    position:absolute;
+    width: 50px;
+    height:50px;         
 } 
 
 .nature-plants-green-cube-1{
- top:8vh;
- left:3vw;
+ top: 58px;
+ left: 25px;
 }
+
 .nature-plants-green-cube-2{
-    top: 4.2vh;
-    right: 3.8vw;
+    top: 32px;
+    right: 29px;
 }
+
 .nature-plants-green-cube-3{
-    bottom: 12vh;
-    left: 2.5vw;
+    bottom: 22.25%;
+    left: 27px;
 }
+
 .nature-plants-green-cube-4{
-    bottom: 20vh;
-    right: 3.8vw;
+    bottom: 37.5%;
+    right: 29px;
 }

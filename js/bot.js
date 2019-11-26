@@ -1,16 +1,8 @@
-var loc = window.location
+    var loc = window.location
     var formData = $("#formData");
     var msgInput = $("#chatSend");
     let getTag = document.getElementById("chat_fullscreen");
-    // var wsStart = 'ws://'
 
-    // if (loc.protocol == 'https:'){
-    //   wsStart = 'wss://'
-    // }
-    
-    // var endpoint = wsStart + loc.host + loc.pathname;
-    // var socket = new WebSocket(endpoint);
-  
     
     // bot message UI
     function sendMessageFromBot(res) {
@@ -98,7 +90,7 @@ var loc = window.location
         $.ajax({
             type: "POST",
             url: 'https://e4082a31.ngrok.io/WCAPI',
-            data: JSON.stringify({  "message" : btnText  }),
+            data: JSON.stringify({  "message" : btnText, "botid": $('html').attr('data-botid')  }),
             success: function(result) {
             let res = JSON.parse(result);
 
@@ -140,7 +132,6 @@ var loc = window.location
         $(msgInput).val("");
         $(getTag).scrollTop($(getTag)[0].scrollHeight)
     }
-
 
 
     $("#sendMessage").click(function(e) {

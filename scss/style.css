@@ -7613,6 +7613,17 @@ section .arrow_up_down_downArrow img {
 
 .nature-plants-cubes-div {
   height: 52.21vh;
+  width: 21.37vw;
+  border: 3px solid #61A547;
+}
+
+.nature-plants-cubes-tree {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 39.97vh;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 .nature-plants-cubes-div-container {
@@ -7642,6 +7653,11 @@ section .arrow_up_down_downArrow img {
   height: 9vh;
 }
 
+.n-1366-04-244-checkbox-container .checkmark.selected {
+  background: #f7d24b;
+  border: 1px solid #f7d24b;
+}
+
 .n-1366-04-244-checkbox-text {
   line-height: 30px;
 }
@@ -7662,30 +7678,33 @@ section .arrow_up_down_downArrow img {
   margin-bottom: 1.8vh;
 }
 
-.nature-plants-green-cube-1, .nature-plants-green-cube-2, .nature-plants-green-cube-3, .nature-plants-green-cube-4 {
+.nature-plants-green-cube-1,
+.nature-plants-green-cube-2,
+.nature-plants-green-cube-3,
+.nature-plants-green-cube-4 {
   position: absolute;
   width: 50px;
   height: 50px;
 }
 
 .nature-plants-green-cube-1 {
-  top: 8vh;
-  left: 3vw;
+  top: 58px;
+  left: 25px;
 }
 
 .nature-plants-green-cube-2 {
-  top: 4.2vh;
-  right: 3.8vw;
+  top: 32px;
+  right: 29px;
 }
 
 .nature-plants-green-cube-3 {
-  bottom: 12vh;
-  left: 2.5vw;
+  bottom: 22.25%;
+  left: 27px;
 }
 
 .nature-plants-green-cube-4 {
-  bottom: 20vh;
-  right: 3.8vw;
+  bottom: 37.5%;
+  right: 29px;
 }
 
 .circles_game-question-img {
@@ -8611,67 +8630,6 @@ section .arrow_up_down_downArrow img {
   width: 85%;
 }
 
-.m-1366-04-23-music-note-container-div {
-  margin-top: 15.23vh;
-}
-
-.m-1366-04-23-music-game-note-circles {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 58px;
-  height: 58px;
-  border-radius: 50%;
-  -webkit-box-shadow: 0px 3px 6px #00000029;
-          box-shadow: 0px 3px 6px #00000029;
-}
-
-.m-1366-04-23-music-game-note-circles.error {
-  background-color: #ff5252;
-}
-
-.m-1366-04-23-music-game-note-circles.success {
-  background-color: #A1DD6F;
-}
-
-.m-1366-04-23-music-game-note-circles.selected {
-  background-color: #F8D24B;
-}
-
-.m-1366-04-23-music-note-circles-div {
-  margin-top: 5.2vh;
-}
-
-.music-game-task-notes-strings-containers-col {
-  margin-top: 1.95vh;
-  /* padding-right:6.64vh; */
-}
-
-.music-game-task-notes-strings-container {
-  position: relative;
-  height: 18.88vh;
-  width: 15vw;
-}
-
-.music-game-task-notes-string-container-img {
-  height: 100%;
-  width: 100%;
-}
-
-.music-game-task-notes-strings-text-div {
-  margin-top: 4.94vh;
-}
-
-.music-game-task-notes-strings-lyrics-img {
-  position: absolute;
-  bottom: 0.39vh;
-  height: 8.33vh;
-  width: 100%;
-}
-
 .musical_notes_game-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -8733,6 +8691,67 @@ section .arrow_up_down_downArrow img {
   margin-right: 3vw;
 }
 
+.m-1366-04-23-music-note-container-div {
+  margin-top: 15.23vh;
+}
+
+.m-1366-04-23-music-game-note-circles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 3px 6px #00000029;
+          box-shadow: 0px 3px 6px #00000029;
+}
+
+.m-1366-04-23-music-game-note-circles.error {
+  background-color: #ff5252;
+}
+
+.m-1366-04-23-music-game-note-circles.success {
+  background-color: #A1DD6F;
+}
+
+.m-1366-04-23-music-game-note-circles.selected {
+  background-color: #F8D24B;
+}
+
+.m-1366-04-23-music-note-circles-div {
+  margin-top: 5.2vh;
+}
+
+.music-game-task-notes-strings-containers-col {
+  margin-top: 1.95vh;
+  /* padding-right:6.64vh; */
+}
+
+.music-game-task-notes-strings-container {
+  position: relative;
+  height: 18.88vh;
+  width: 15vw;
+}
+
+.music-game-task-notes-string-container-img {
+  height: 100%;
+  width: 100%;
+}
+
+.music-game-task-notes-strings-text-div {
+  margin-top: 4.94vh;
+}
+
+.music-game-task-notes-strings-lyrics-img {
+  position: absolute;
+  bottom: 0.39vh;
+  height: 8.33vh;
+  width: 100%;
+}
+
 .canvas-container {
   width: 100% !important;
 }
@@ -8743,4 +8762,3 @@ section .arrow_up_down_downArrow img {
   top: 0;
   width: 100%;
 }
-/*# sourceMappingURL=style.css.map */
