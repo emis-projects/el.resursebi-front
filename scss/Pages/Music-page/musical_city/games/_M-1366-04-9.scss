@@ -1,0 +1,18 @@
+.listen_numb {
+  font-size: 3.9vh;
+  color: #0b2228;
+  font-family: "BPG Arial";
+  margin-right: 3vw;
+}
+.noteWithNumb {
+  &-cont {
+      display: flex;
+      margin-top: 5vh;
+     .car_game_white_circle{
+         position: static;
+     }
+  }
+  &-img{
+      height: 5.11vh;
+  }
+}

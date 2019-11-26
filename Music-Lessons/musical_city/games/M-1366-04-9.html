@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="../../../scss/libraries/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../../../scss/libraries/owl.carousel.min.css" />
+  <link rel="stylesheet" type="text/css" href="../../../scss/libraries/owl.theme.default.css" />
+  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+  <link rel="stylesheet" href="../../../scss/style.css" />
+  <title>ელექტრონული საგანმანათლებლო რესურსი</title>
+</head>
+
+<body class="bg-pink">
+  <div class="container">
+    <header>
+      <nav class="row">
+        <app-logo v-logo="'../../../'"></app-logo>
+        <app-menu v-menu:dark="'../../../'"></app-menu>
+        <sound-lang></sound-lang>
+      </nav>
+    </header>
+    <div class="subject_component_top_illustration">
+      <div class="bg_pink_up illustration_bg"></div>
+    </div>
+    <section class="container">
+      <div class="subject_component row">
+        <div class="col-12 item_flex">
+          <div class="subject_component_itle_icon bg_bouble_pink d-flex justify-content-center align-items-center">
+            <img src="../../../img/backgrounds/bg-ilustrations/flag.svg" alt="flag" />
+          </div>
+          <h3 class="subject_component_title">შუალედური დავალება</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-9 offset-1 mt-3">
+          <div class="m_exercise_text-container m_game_text-container">
+            <p>ვნახოთ, სახლების გარეშე თუ ამოიცნობ სანოტო ჩანაწერებს.</p>
+          </div>
+        </div>
+        <div class="col-9 offset-1">
+          <div class="listen_text-container align-items-center">
+            <div class="listen_numb">1</div>
+            <button class="listen_btn">მოუსმინე</button>
+            <div class="m_exercise_text-container m_game_text-container listen_text-container-txt-margin">
+              <p>მოუსმინე ბგერებს და დააწკაპე სათანადო სანოტო ჩანაწერს</p>
+            </div>
+          </div>
+          <div class="listen_text-container align-items-center">
+            <div class="listen_numb">2</div>
+            <button class="listen_btn">მოუსმინე</button>
+            <div class="m_exercise_text-container m_game_text-container listen_text-container-txt-margin">
+              <p>ახლა ამას მოუსმინე . ამოიცნობ ამ ბგერების სანოტო ჩანაწერს?</p>
+            </div>
+          </div>
+          <div class="listen_text-container align-items-center">
+            <div class="listen_numb">3</div>
+            <button class="listen_btn">მოუსმინე</button>
+            <div class="m_exercise_text-container m_game_text-container listen_text-container-txt-margin">
+              <p>კიდევ ერთს მოუსმინე და ამოიცანი.</p>
+            </div>
+          </div>
+          <div class="listen_text-container align-items-center">
+            <div class="listen_numb">4</div>
+            <button class="listen_btn">მოუსმინე</button>
+            <div class="m_exercise_text-container m_game_text-container listen_text-container-txt-margin">
+              <p>და ბოლოს, ამასაც მოუსმინე და იპოვე შესაბამისი სანოტო ჩანაწერი.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-10 m-auto">
+          <div class="row">
+            <div class="col-6">
+              <div class="noteWithNumb-cont">
+                <div class="car_game_white_circle"><img src="../../../img/gakvetilebi/musika/MV-1366-14-1.svg" alt=""></div>
+                <img class="noteWithNumb-img" src="../../../img/gakvetilebi/musika/musical_city/M-04-9-1.svg" alt="">
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="noteWithNumb-cont">
+                <div class="car_game_white_circle"><img src="../../../img/gakvetilebi/musika/MV-1366-14-4.svg" alt="">
+                </div>
+                <img class="noteWithNumb-img" src="../../../img/gakvetilebi/musika/musical_city/M-04-9-2.svg" alt="">
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="noteWithNumb-cont">
+                <div class="car_game_white_circle"><img src="../../../img/gakvetilebi/musika/MV-1366-14-3.svg" alt=""></div>
+                <img class="noteWithNumb-img" src="../../../img/gakvetilebi/musika/musical_city/M-04-9-3.svg" alt="">
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="noteWithNumb-cont">
+                <div class="car_game_white_circle"><img src="../../../img/gakvetilebi/musika/MV-1366-14-2.svg" alt="">
+                </div>
+                <img class="noteWithNumb-img" src="../../../img/gakvetilebi/musika/musical_city/M-04-9-4.svg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex column z-index game_btns_position">
+        <button id="resetBtn" class="reset__btn">თავიდან სცადე</button>
+        <button id="completedGame" class="completed__btn">
+          დასრულება
+        </button>
+      </div>
+      <div class="paging_buttons paging_buttons_position">
+        <a href="../M-1366-04-8.html">
+          <img src="../../../img/icons/chevron-down-logo.svg" alt="down arrow" class="paging_buttons_left" />
+        </a>
+        <a href="./M-1366-04-10.html" class="paging_buttons_margin-left">
+          <img src="../../../img/icons/chevron-down-logo.svg" alt="down arrow" class="paging_buttons_right" />
+        </a>
+      </div>
+    </section>
+    <div class="subject_component_botton_illustration">
+      <div class="illustration_bg bg_pink_Down"></div>
+      <div class="subject_component_botton_bg_icon">
+        <img src="../../../img/backgrounds/bg-ilustrations/flag.svg" alt="flag art" />
+      </div>
+    </div>
+  </div>
+
+  <script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
+  <script src="../../../js/libraries/bootstrap.min.js"></script>
+  <script src="../../../js/libraries/owl.carousel.min.js"></script>
+  <script src="../../../js/slider.js"></script>
+  <script src="../../../Vue-Header/app.js"></script>
+  <script src="../../../Nature-Lessons/My_world/js/N-1366-54.js"></script>
+
+</body>
+
+</html>
