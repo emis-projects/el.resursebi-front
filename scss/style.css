@@ -8,6 +8,13 @@
   z-index: 998;
 }
 
+#formData {
+  padding-bottom: 4px;
+  background: white;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
 .fab {
   display: block;
   width: 56px;
@@ -88,7 +95,7 @@
 
 .chat_field {
   position: relative;
-  margin: 8px 0 5px 0;
+  margin: 0;
   width: 50%;
   font-size: 12px;
   font-weight: 500;
@@ -5875,6 +5882,13 @@ section .arrow_up_down_downArrow img {
   z-index: 998;
 }
 
+#formData {
+  padding-bottom: 4px;
+  background: white;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
 .fab {
   display: block;
   width: 56px;
@@ -5955,7 +5969,7 @@ section .arrow_up_down_downArrow img {
 
 .chat_field {
   position: relative;
-  margin: 8px 0 5px 0;
+  margin: 0;
   width: 50%;
   font-size: 12px;
   font-weight: 500;
@@ -7177,6 +7191,22 @@ section .arrow_up_down_downArrow img {
 .N-1366-04-267 {
   background-image: url("../img/gakvetilebi/buneba/lesson4/1366-267.png");
   background-position: center;
+}
+
+#N-1366-04-268 .main_text {
+  font-family: "BPG Arial", sans-serif;
+  font-size: 2.3vh;
+  line-height: 3.9vh;
+}
+#N-1366-04-268 .window_image_box {
+  max-height: 218px;
+  max-width: 810px;
+  height: 28.4vh;
+  width: 59vw;
+  margin: 10vh 0;
+}
+#N-1366-04-268 .window_image_box img {
+  height: 100%;
 }
 
 .N-1366-04-284 {
