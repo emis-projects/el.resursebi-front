@@ -7194,10 +7194,11 @@ section .arrow_up_down_downArrow img {
 }
 
 #N-1366-04-268 .main_text {
-  font-family: "BPG Arial", sans-serif;
+  font-family: 'BPG Arial', sans-serif;
   font-size: 2.3vh;
   line-height: 3.9vh;
 }
+
 #N-1366-04-268 .window_image_box {
   max-height: 218px;
   max-width: 810px;
@@ -7205,6 +7206,7 @@ section .arrow_up_down_downArrow img {
   width: 59vw;
   margin: 10vh 0;
 }
+
 #N-1366-04-268 .window_image_box img {
   height: 100%;
 }
@@ -8607,6 +8609,60 @@ section .arrow_up_down_downArrow img {
 
 .m4-10-img {
   width: 85%;
+}
+
+.musical_notes_game-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 4vh 0;
+}
+
+.musical_notes_game-img {
+  height: 12.11vh;
+}
+
+.musical_houses_game-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.musical_houses_game-img-cont:nth-child(1) .musical_houses_game-img {
+  height: 11.84vh;
+}
+
+.musical_houses_game-img-cont:nth-child(2) .musical_houses_game-img {
+  height: 16.53vh;
+}
+
+.musical_houses_game-img-cont:nth-child(3) .musical_houses_game-img {
+  height: 21.09vh;
+}
+
+.musical_houses_game-img-cont:nth-child(4) .musical_houses_game-img {
+  height: 25.65vh;
+}
+
+.musical_houses_game-img-cont:nth-child(5) .musical_houses_game-img {
+  height: 30.33vh;
+}
+
+.musical_houses_game-img-cont:nth-child(6) .musical_houses_game-img {
+  height: 35.15vh;
+}
+
+.musical_houses_game-img-cont .car_game_white_circle {
+  position: relative;
 }
 
 .canvas-container {
