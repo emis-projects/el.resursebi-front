@@ -41,8 +41,6 @@ check.addEventListener('click', () => {
    yellowBox.forEach(evt=>{
       yellowTree.push($(evt).attr('alt'))
    });
-   console.log(greenTrees);
-   console.log(yellowTree)
    // მასივი if პირობა შემოწმებისთვის
    if (greenTrees.includes('nadzvi', 'fichvi') && yellowTree.includes('muxa', 'tela', 'kedari', 'txili', 'kuneli', 'shqeri', 'cxratyava')){
       location.href = './N-1366-03-186-success.html';
