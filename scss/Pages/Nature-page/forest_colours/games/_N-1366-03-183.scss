@@ -25,3 +25,11 @@
     }
   }
 }
+#uiDraggable{
+    border-radius: 50%;
+    img{
+      position: relative;
+      z-index: -1;
+      width: 100%;
+    }
+  }
