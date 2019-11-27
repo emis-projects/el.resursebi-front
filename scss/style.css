@@ -1859,15 +1859,28 @@ section .arrow_up_down_downArrow img {
 .m-1366-04-20-notes-button {
   background-color: #FFFFFF;
   color: #fff;
-  padding: 0 4.39vw;
+  width: 12.26vw;
   height: 7.68vh;
   border-radius: 27px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   color: #0b2228;
   font-family: "BPG Arial";
   font-size: 2.08vh;
   -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.160784);
           box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.160784);
   position: relative;
+}
+
+.musical_notes_game-press-button-extra-small {
+  position: absolute;
+  height: 5.68vh;
+  bottom: -2.8vh;
+  right: 0;
 }
 
 /* 
@@ -8809,13 +8822,6 @@ section .arrow_up_down_downArrow img {
   height: 4.83vh;
 }
 
-.musical_notes_game-press-button-extra-small {
-  position: absolute;
-  height: 4.68vh;
-  bottom: -15px;
-  right: 0;
-}
-
 .w-85 {
   width: 85%;
 }
@@ -8855,4 +8861,3 @@ section .arrow_up_down_downArrow img {
   top: 0;
   width: 100%;
 }
-/*# sourceMappingURL=style.css.map */
