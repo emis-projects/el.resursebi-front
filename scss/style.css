@@ -1859,16 +1859,55 @@ section .arrow_up_down_downArrow img {
 .m-1366-04-20-notes-button {
   background-color: #FFFFFF;
   color: #fff;
-  /*   padding: 0 4.39vw; */
-  width: 12.29vw;
+  width: 12.26vw;
   height: 7.68vh;
   border-radius: 27px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   color: #0b2228;
   font-family: "BPG Arial";
   font-size: 2.08vh;
   -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.160784);
           box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.160784);
   position: relative;
+}
+
+.musical_notes_game-press-button-extra-small {
+  position: absolute;
+  height: 5.68vh;
+  bottom: -2.8vh;
+  right: 0;
+}
+
+.musical_notes_game-press-button-extra-small.margin-right {
+  right: -15px;
+}
+
+.m-1366-04-19-notes-circle-button {
+  width: 7.55vh;
+  height: 7.55vh;
+  -webkit-transform: matrix(0, -1, 1, 0, 0, 0);
+  transform: matrix(0, -1, 1, 0, 0, 0);
+  background: #ffffff 0% 0% no-repeat padding-box;
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.160784);
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.160784);
+  opacity: 1;
+  border-radius: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 /* 
@@ -8802,19 +8841,24 @@ section .arrow_up_down_downArrow img {
   width: 100%;
 }
 
-.m-1366-04-20-musical_notes_game-container-cols {
-  margin-top: 4.14vh;
+.m-1366-04-20-notes-button {
+  margin-top: 3.12vh;
+}
+
+.m-1366-04-20-notes-button.error {
+  background-color: #ff5252;
+}
+
+.m-1366-04-20-notes-button.success {
+  background-color: #A1DD6F;
+}
+
+.m-1366-04-20-notes-button.selected {
+  background-color: #F8D24B;
 }
 
 .musical_notes_game-img-blue-middle {
   height: 4.83vh;
-}
-
-.musical_notes_game-press-button-extra-small {
-  position: absolute;
-  height: 4.68vh;
-  bottom: -15px;
-  right: 0;
 }
 
 .w-85 {
@@ -8844,6 +8888,10 @@ section .arrow_up_down_downArrow img {
 
 .hint_page_img-note-3 {
   height: 13.41vh;
+}
+
+.m-1366-04-19-container-cols {
+  margin-top: 7.16vh;
 }
 
 .canvas-container {
