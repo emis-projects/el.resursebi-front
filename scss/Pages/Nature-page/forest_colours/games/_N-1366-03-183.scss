@@ -1,7 +1,7 @@
 .createForest_game {
   &-text{
     color: #0B2228;
-    font-family: 'BPG Arial';
+    font-family: 'BPG Arial', sans-serif;
     font-size: 1.82vh;
     text-align: center;
     margin-bottom: 1vh;
@@ -25,6 +25,7 @@
     }
   }
 }
+
 #uiDraggable{
     border-radius: 50%;
     img{
