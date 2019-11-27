@@ -8816,6 +8816,35 @@ section .arrow_up_down_downArrow img {
   right: 0;
 }
 
+.w-85 {
+  width: 85%;
+}
+
+.music-play-icon {
+  position: absolute;
+  top: 5vh;
+  left: 5vh;
+  height: 4vh !important;
+  width: 4vh !important;
+}
+
+.music-play-icon_child {
+  height: 2.5vh !important;
+  width: 2.5vh !important;
+}
+
+.hint_page_img-note-1 {
+  height: 9.89vh;
+}
+
+.hint_page_img-note-2 {
+  height: 7.94vh;
+}
+
+.hint_page_img-note-3 {
+  height: 13.41vh;
+}
+
 .canvas-container {
   width: 100% !important;
 }
