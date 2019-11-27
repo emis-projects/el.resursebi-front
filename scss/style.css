@@ -8851,6 +8851,17 @@ section .arrow_up_down_downArrow img {
   height: 13.41vh;
 }
 
+.justify-content-evenly {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.notes_blue_illustration-full-img {
+  height: 18.88vh;
+  margin-top: 4vh;
+}
+
 .canvas-container {
   width: 100% !important;
 }
