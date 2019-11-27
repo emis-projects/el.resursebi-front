@@ -7075,6 +7075,15 @@ section .arrow_up_down_downArrow img {
   height: 100%;
 }
 
+#uiDraggable {
+  border-radius: 50%;
+}
+#uiDraggable img {
+  position: relative;
+  z-index: -1;
+  width: 100%;
+}
+
 .n-1366-03-78-text {
   margin-top: 14.48vh;
 }
