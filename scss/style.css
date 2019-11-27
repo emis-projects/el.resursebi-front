@@ -8804,6 +8804,18 @@ section .arrow_up_down_downArrow img {
   width: 2.5vh !important;
 }
 
+.hint_page_img-note-1 {
+  height: 9.89vh;
+}
+
+.hint_page_img-note-2 {
+  height: 7.94vh;
+}
+
+.hint_page_img-note-3 {
+  height: 13.41vh;
+}
+
 .canvas-container {
   width: 100% !important;
 }
@@ -8814,4 +8826,3 @@ section .arrow_up_down_downArrow img {
   top: 0;
   width: 100%;
 }
-/*# sourceMappingURL=style.css.map */
