@@ -1,0 +1,18 @@
+
+
+.m-1366-04-20-notes-button{
+    margin-top:3.12vh;
+    &.error {
+        background-color:#ff5252;
+      }
+      &.success {
+        background-color:#A1DD6F;
+      }
+      &.selected {
+        background-color:#F8D24B;
+      }
+}
+
+.musical_notes_game-img-blue-middle{
+    height:4.83vh;
+}
