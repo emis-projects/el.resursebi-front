@@ -8208,10 +8208,22 @@ section .arrow_up_down_downArrow img {
 }
 
 #uiDraggable {
-  border-radius: 50%;
+  position: relative;
+  z-index: -2;
+  height: 60vh;
+  width: 60vh;
+  max-height: 370px;
+  max-width: 370px;
+  padding: 20px;
 }
 
-#uiDraggable img {
+#uiDraggable .filed-box {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#uiDraggable .filed-box img {
   position: relative;
   z-index: -1;
   width: 100%;
@@ -9028,4 +9040,3 @@ section .arrow_up_down_downArrow img {
   display: -ms-flexbox;
   display: flex;
 }
-/*# sourceMappingURL=style.css.map */
