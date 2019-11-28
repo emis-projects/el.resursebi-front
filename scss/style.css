@@ -1,7 +1,7 @@
 @import url(https://zavoloklom.github.io/material-design-iconic-font/css/docs.md-iconic-font.min.css);
 @import url(https://zavoloklom.github.io/material-design-iconic-font/css/docs.md-iconic-font.min.css);
 .fabs {
-  bottom: 50%;
+  bottom: 56%;
   position: fixed;
   margin: 1em;
   right: 0;
@@ -36,25 +36,21 @@
 .fab > i {
   font-size: 2em;
   line-height: 55px;
-  -webkit-transition: all 0.2s ease-out;
-  -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
 
 .chat {
-  position: fixed;
-  right: 85px;
-  bottom: 20px;
+  position: absolute;
+  right: 100%;
+  top: 78%;
+  margin-top: 25px;
   width: 400px;
   font-size: 12px;
   line-height: 22px;
   font-family: "Roboto";
   font-weight: 500;
-  opacity: 0;
   box-shadow: 1px 1px 100px 2px rgba(0, 0, 0, 0.22);
   border-radius: 10px;
-  -webkit-transition: all 0.2s ease-out;
-  -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
 
@@ -410,6 +406,67 @@
 
 :-moz-placeholder {
   color: #bbb;
+}
+
+@keyframes rotateIn {
+  from {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: rotate3d(0, 0, 1, -200deg);
+    transform: rotate3d(0, 0, 1, -200deg);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+.rotateIn {
+  -webkit-animation-name: rotateIn;
+  animation-name: rotateIn;
+}
+
+@keyframes slideInRight {
+  from {
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+.slide-enter-active {
+  -webkit-animation-name: slideInRight;
+  animation-name: slideInRight;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+@keyframes slideOutRight {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+  to {
+    visibility: hidden;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    opacity: 0;
+  }
+}
+.slide-leave-active {
+  -webkit-animation-name: slideOutRight;
+  animation-name: slideOutRight;
+  animation-duration: 1s;
+  animation-fill-mode: both;
 }
 
 @font-face {
@@ -5129,7 +5186,7 @@ section .arrow_up_down_downArrow img {
 }
 
 .fabs {
-  bottom: 50%;
+  bottom: 56%;
   position: fixed;
   margin: 1em;
   right: 0;
@@ -5164,25 +5221,21 @@ section .arrow_up_down_downArrow img {
 .fab > i {
   font-size: 2em;
   line-height: 55px;
-  -webkit-transition: all 0.2s ease-out;
-  -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
 
 .chat {
-  position: fixed;
-  right: 85px;
-  bottom: 20px;
+  position: absolute;
+  right: 100%;
+  top: 78%;
+  margin-top: 25px;
   width: 400px;
   font-size: 12px;
   line-height: 22px;
   font-family: "Roboto";
   font-weight: 500;
-  opacity: 0;
   box-shadow: 1px 1px 100px 2px rgba(0, 0, 0, 0.22);
   border-radius: 10px;
-  -webkit-transition: all 0.2s ease-out;
-  -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
 
@@ -5538,6 +5591,67 @@ section .arrow_up_down_downArrow img {
 
 :-moz-placeholder {
   color: #bbb;
+}
+
+@keyframes rotateIn {
+  from {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: rotate3d(0, 0, 1, -200deg);
+    transform: rotate3d(0, 0, 1, -200deg);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+.rotateIn {
+  -webkit-animation-name: rotateIn;
+  animation-name: rotateIn;
+}
+
+@keyframes slideInRight {
+  from {
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+.slide-enter-active {
+  -webkit-animation-name: slideInRight;
+  animation-name: slideInRight;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+@keyframes slideOutRight {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+  to {
+    visibility: hidden;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    opacity: 0;
+  }
+}
+.slide-leave-active {
+  -webkit-animation-name: slideOutRight;
+  animation-name: slideOutRight;
+  animation-duration: 1s;
+  animation-fill-mode: both;
 }
 
 .n-compass-img {

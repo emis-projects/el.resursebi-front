@@ -5,6 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <script src="./js/vue.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue-resource@1.5.1"></script>
     <!--  ვუე გაშვებისას
     <script src="./js/vue.min.js"></script>
      -->
@@ -62,7 +63,7 @@
     </div>
 
     <div id="chatBot">
-        <app-bot v-if="show"></app-bot>
+        <app-bot :bot-show="show"></app-bot>
     </div>
 
     <script src="./js/libraries/jquery-3.4.1.min.js"></script>
@@ -72,7 +73,7 @@
 
     <!-- header and bot vue -->
     <script src="./Vue-Header/app.js"></script>
-    <script src="./Vue-chatBot/botApp.js"></script>
+    <script src="./Vue-chatBot/test.js"></script>
     <script src="./js/bot.js"></script>
 
 </body>
