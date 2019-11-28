@@ -1,12 +1,19 @@
-
-$(function() {
-    let pos;
+$(function () {
     $(".draggeble").draggable({
         revert: function (event, ui) {
-            // return !(event && (pos.top > 55 && pos.top < 435) || (pos.left > 420 && pos.left < 1000));
-            return !event;
+            let leftX = pos.left;
+            let imgX = $(this).offset().left
+            return !(event && leftX < imgX && left);
+            // return !event;
+
         }
     });
 
-    $("#uiDraggable").droppable();
+    $("#uiDraggable").droppable({
+        drop: function (event, ui) {
+            let res = $(this).offset()
+        }
+    });
 });
+
+let pos = $('#uiDraggable').offset();
