@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+
+      <!-- ჰედერისთვის და ჩეთბოტისთვის -->
     <script src="../.././js/vue.js"></script>
     <link rel="stylesheet" href="../../scss/libraries/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="../../scss/libraries/owl.carousel.min.css"/>
@@ -15,6 +17,8 @@
 
 <body>
 <div class="container" id="app">
+
+  <!-- საერთო ჰედერი -->
   <header id="app">
       <nav class="row">
           <app-logo v-logo="'../.././'"></app-logo>
@@ -47,6 +51,14 @@
         </div>
     </div>
 </div>
+
+  <!-- ჩეთბოტისაა -->
+<div id="chatBot">
+    <app-bot v-if="show"></app-bot>
+</div>
+
+
+
 <script src="../../js/libraries/jquery-3.4.1.min.js"></script>
 <script src="../../js/libraries/bootstrap.min.js"></script>
 <script src="../../js/libraries/owl.carousel.min.js"></script>
@@ -64,6 +76,7 @@
     });
 </script>
 
+  <!-- ჩეთბოტისაა -->
 <script src="../.././Vue-Header/app.js"></script>
 <script src="../.././Vue-chatBot/botApp.js"></script>
 <script src="../.././js/bot.js"></script>
