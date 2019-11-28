@@ -9013,10 +9013,48 @@ section .arrow_up_down_downArrow img {
   padding-top: 6.05vh;
 }
 
-.justify-content-evenly {
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+.m-1366-04-32-img-div-tower {
+  height: 35.67vh;
+}
+
+.m-1366-04-32-img-div-tower img {
+  height: 35.67vh;
+}
+
+.m-1366-04-32-img-div-park {
+  height: 16.79vh;
+}
+
+.m-1366-04-32-img-div-park img {
+  height: 16.79vh;
+}
+
+.m-1366-04-32-img-div-shop {
+  height: 16.01vh;
+}
+
+.m-1366-04-32-img-div-shop img {
+  height: 16.01vh;
+}
+
+.m-1366-04-32-img-div-min-tower {
+  height: 20.70vh;
+}
+
+.m-1366-04-32-img-div-min-tower img {
+  height: 20.70vh;
+}
+
+.m-1366-04-32-img-div-market {
+  height: 17.44vh;
+}
+
+.m-1366-04-32-img-div-market img {
+  height: 17.44vh;
+}
+
+.m-1366-04-32-divs-container {
+  margin-top: 10.41vh;
 }
 
 .notes_blue_illustration-full-img {
@@ -9209,3 +9247,4 @@ section .arrow_up_down_downArrow img {
   display: -ms-flexbox;
   display: flex;
 }
+/*# sourceMappingURL=style.css.map */
