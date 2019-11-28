@@ -1,36 +1,54 @@
 .createForest_game {
-  &-text{
+  &-text {
     color: #0B2228;
     font-family: 'BPG Arial', sans-serif;
     font-size: 1.82vh;
     text-align: center;
     margin-bottom: 1vh;
   }
+
   &-img {
     max-height: 14.97vh;
     margin: 1vh auto;
-    &-bg{
-        margin: auto;
-        height: 56.29vh;
+
+    &-bg {
+      margin: auto;
+      height: 56.29vh;
     }
+
     &-container {
       display: flex;
       align-items: baseline;
-      &-rg{
-          display: flex;
-          flex-direction: column;
-          justify-content: space-evenly;
-          height: 100%;
+
+      &-rg {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 100%;
       }
     }
   }
 }
 
-#uiDraggable{
-    border-radius: 50%;
-    img{
+#uiDraggable {
+  position: relative;
+  z-index: -2;
+  height: 60vh;
+  width: 60vh;
+  max-height: 370px;
+  max-width: 370px;
+  padding: 20px;
+
+  .filed-box {
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    img {
       position: relative;
       z-index: -1;
       width: 100%;
     }
   }
+
+}

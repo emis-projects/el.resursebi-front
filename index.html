@@ -1,9 +1,12 @@
 <!DOCTYPE html>
+<!-- ბოტის აიდიში ვუთითებთ: ხელოვნების - 2318, ბუნების - 2320, მუსიკის - 2292 -->
 <html lang="en" data-botid="2318">
 
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- ყველა გვერდზე -->
     <script src="./js/vue.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vue-resource@1.5.1"></script>
     <!--  ვუე გაშვებისას
@@ -18,6 +21,7 @@
 
 <body>
     <div class="container">
+      <!-- ყველა გვერდზე. v-menu:light იქნება ღია ფერის მენიუ (ფონური ფოტოების დროს) -->
         <header id="app">
             <nav class="row">
                 <app-logo v-logo="'./'"></app-logo>
@@ -62,6 +66,7 @@
         </section>
     </div>
 
+    <!-- ესეც ჩეთბოტისაა -->
     <div id="chatBot">
         <app-bot :bot-show="show"></app-bot>
     </div>
@@ -71,7 +76,7 @@
     <script src="./js/libraries/owl.carousel.min.js"></script>
     <script src="./js/slider.js"></script>
 
-    <!-- header and bot vue -->
+    <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
     <script src="./Vue-Header/app.js"></script>
     <script src="./Vue-chatBot/test.js"></script>
     <script src="./js/bot.js"></script>
