@@ -8901,6 +8901,86 @@ section .arrow_up_down_downArrow img {
   margin-top: 7.16vh;
 }
 
+.m-1366-04-21-note-div-yellow-btn {
+  height: 16vh;
+  position: relative;
+}
+
+.m-1366-04-21-note-div-yellow-btn .m-1366-04-21-yellow-btn {
+  height: 16vh;
+}
+
+.m-1366-04-21-note-div-yellow-btn .m-1366-04-21-yellow-number {
+  position: absolute;
+  height: 3.77vh;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.musical_notes_game-press-button-extra-small.right-bottom {
+  right: -20px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.m-1366-04-21-note-div-lg {
+  height: 6.25vh;
+}
+
+.m-1366-04-21-note-div-lg img {
+  height: 6.25vh;
+}
+
+.m-1366-04-21-note-div {
+  height: 5.2vh;
+}
+
+.m-1366-04-21-note-div img {
+  height: 5.2vh;
+}
+
+.m-1366-04-21-note-div-blue-bg {
+  height: 12.89vh;
+  position: relative;
+}
+
+.m-1366-04-21-note-div-blue-bg img {
+  height: 12.89vh;
+}
+
+.m-1366-04-21-cols-middle-divs {
+  padding-top: 10.28vh;
+  padding-bottom: 17.31vh;
+}
+
+.m-1366-04-21-cols-top-divs {
+  padding-top: 1.5vh;
+}
+
+.m-1366-04-21-note-div-arrow {
+  height: 6.9vh;
+}
+
+.m-1366-04-21-note-div-arrow :nth-child(1) {
+  height: 6.9vh;
+}
+
+.m-1366-04-21-note-div-blue-bg-inner-note {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  height: 5.2vh;
+}
+
+.m-1366-04-21-note-div-blue-bg-inner-note img {
+  height: 5.2vh;
+}
+
 .m-1366-04-22-notes-button-circle {
   margin-right: 1.07vw;
 }
