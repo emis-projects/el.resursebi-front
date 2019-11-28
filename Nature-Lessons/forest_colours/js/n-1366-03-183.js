@@ -1,19 +1,9 @@
 $(function () {
     $(".draggeble").draggable({
         revert: function (event, ui) {
-            let leftX = pos.left;
-            let imgX = $(this).offset().left
-            return !(event && leftX < imgX && left);
-            // return !event;
-
+            return !event;
         }
     });
 
-    $("#uiDraggable").droppable({
-        drop: function (event, ui) {
-            let res = $(this).offset()
-        }
-    });
+    $("#uiDraggable").droppable();
 });
-
-let pos = $('#uiDraggable').offset();
