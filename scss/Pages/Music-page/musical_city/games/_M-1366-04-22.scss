@@ -1,0 +1,17 @@
+
+.m-1366-04-22-notes-button-circle{ 
+  margin-right:1.07vw;
+  &.error {
+      background-color:#ff5252;
+    }
+    &.success {
+      background-color:#A1DD6F;
+    }
+    &.selected {
+      background-color:#F8D24B;
+    }
+}
+
+.m-1366-04-22-notes-circles{
+  padding-top:6.05vh;
+}
