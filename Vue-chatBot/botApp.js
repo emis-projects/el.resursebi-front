@@ -1,6 +1,6 @@
 Vue.component('appBot', {
   props: {
-    botShow: Boolean,
+    botShow: Function
   },
   template: `
       <div class="fabs" :class="{'is-visible': botShow}">
@@ -22,7 +22,7 @@ Vue.component('appBot', {
                     </form>
                 </div>
           </transition>
-          <div @click="botShow = !botShow"  id="prime" class="fab" :class="{'is-float is-visible' : botShow}">
+          <div @click="botShow =!botShow"  id="prime" class="fab" :class="{'is-float is-visible' : botShow}">
                 <i class="prime zmdi" :class="[{'zmdi-close is-active is-visible' : botShow}, {'zmdi-comment-outline': !botShow}]"></i>
           </div>
       </div>
@@ -32,8 +32,13 @@ Vue.component('appBot', {
 var bot = new Vue({
   el: '#chatBot',
   data: {
-    show: false,
+    isTrue: false,
     userText: ''
+  },
+  methods: {
+    show() {
+      this.isTrue = !this.isTrue
+    }
   }
 });
 
