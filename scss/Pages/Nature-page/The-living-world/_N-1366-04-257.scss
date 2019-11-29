@@ -11,8 +11,17 @@
         color: #0B2228;
         padding-left: 20px;
     }
-}
-.checkmark-green{
-    background: #A1DD6F 0% 0% no-repeat padding-box;
-    border: 1px solid #C5CBCD;
+
+
+    .checkmark.error {
+        background: #dc6c85;
+    }
+
+    .checkmark.selected {
+        background: #f7d24b;
+    }
+
+    .checkmark.success {
+        background: #A1DD6F;
+    }
 }
