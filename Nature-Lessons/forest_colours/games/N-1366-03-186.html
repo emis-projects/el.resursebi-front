@@ -7,21 +7,24 @@
   <link rel="stylesheet" href="../../../scss/libraries/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="../../../scss/libraries/owl.carousel.min.css" />
   <link rel="stylesheet" type="text/css" href="../../../scss/libraries/owl.theme.default.css" />
-  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="../../../js/vue.js"></script>
+    <!--  ვუე გაშვებისას
+    <script src="./js/vue.min.js"></script>
+     -->
   <link rel="stylesheet" href="../../../scss/style.css" />
   <title>ელექტრონული საგანმანათლებლო რესურსი</title>
 </head>
 
 <body>
-  <div class="container" id="app">
-    <header>
+  <div class="container">
+    <header id="app">
       <nav class="row">
         <app-logo v-logo="'../../../'"></app-logo>
         <app-menu v-menu:dark="'../../../'"></app-menu>
         <sound-lang></sound-lang>
       </nav>
     </header>
-    <section class="ask_question_game">
+    <section class="ask_question_game" id="gameApp">
       <div class="subject_component row">
         <div class="col-12 item_flex">
           <div class="subject_component_itle_icon bg_bouble_pink d-flex justify-content-center align-items-center">
@@ -46,25 +49,13 @@
                   </div>
                 </div>
                 <div class="col-6 pr-0">
-                  <div class="forest_colors_game-container-large forest_colors_game-container-yellow">
-                      <img src="../../../img/gakvetilebi/buneba/forest_colours/N-183-03-18.svg" alt=""
-                      class="createForest_game-img forest_colors_game-container-dropped-img">
+                  <div class="forest_colors_game-container-large border-line forest_colors_game-container-yellow image-box_gamge yellow_box">
+
                   </div>
                 </div>
                 <div class="col-6 pl-0">
-                  <div class="forest_colors_game-container-large forest_colors_game-container-green">
-                      <img src="../../../img/gakvetilebi/buneba/forest_colours/N-183-03-10.svg" alt=""
-                      class="createForest_game-img forest_colors_game-container-dropped-img">
-                      <img src="../../../img/gakvetilebi/buneba/forest_colours/N-183-03-10.svg" alt=""
-                      class="createForest_game-img forest_colors_game-container-dropped-img">
-                      <img src="../../../img/gakvetilebi/buneba/forest_colours/N-183-03-10.svg" alt=""
-                      class="createForest_game-img forest_colors_game-container-dropped-img">
-                      <img src="../../../img/gakvetilebi/buneba/forest_colours/N-183-03-10.svg" alt=""
-                      class="createForest_game-img forest_colors_game-container-dropped-img">
-                      <img src="../../../img/gakvetilebi/buneba/forest_colours/N-183-03-10.svg" alt=""
-                      class="createForest_game-img forest_colors_game-container-dropped-img">
-                      <img src="../../../img/gakvetilebi/buneba/forest_colours/N-183-03-10.svg" alt=""
-                      class="createForest_game-img forest_colors_game-container-dropped-img">
+                  <div class="forest_colors_game-container-large border-line forest_colors_game-container-green image-box_gamge green_box" >
+
                   </div>
                 </div>
               </div>
@@ -72,79 +63,78 @@
             <div class="col-7">
               <div class="row createForest_game-img-container">
                 <div class="col-4 mb-4">
-                  <a href="../N-1366-03-214-2.html">
-                    <img src="../../../img/gakvetilebi/buneba/forest_colours/N-186-03-1.svg" alt=""
-                      class="createForest_game-img">
+                    <img class="ml-auto" src="../../../img/gakvetilebi/buneba/forest_colours/Games/kuneli-leaf.svg" alt="leaf">
+                  <a href="../N-1366-03-214-2.html"  class="d-flex justify-content-center" id="kedari">
+                      <img class="tree" src="../../../img/gakvetilebi/buneba/forest_colours/Games/kedari.svg" alt="kedari">
+                  </a>
                     <p class="createForest_game-text">კედარი</p>
-                  </a>
                 </div>
                 <div class="col-4 mb-4">
-                  <a href="../N-1366-03-216-2.html">
-                    <img src="../../../img/gakvetilebi/buneba/forest_colours/N-186-03-2.svg" alt=""
-                      class="createForest_game-img">
+                    <img class="ml-auto" src="../../../img/gakvetilebi/buneba/forest_colours/Games/tela-leaf.svg" alt="leaf">
+                  <a href="../N-1366-03-216-2.html" class="d-flex justify-content-center" id="tela">
+                      <img class="tree" src="../../../img/gakvetilebi/buneba/forest_colours/Games/tela.svg" alt="tela">
+                  </a>
                     <p class="createForest_game-text">თელა</p>
-                  </a>
                 </div>
-                <div class="col-4 mb-4">
-                  <a href="../N-1366-03-211-2.html">
-                    <img src="../../../img/gakvetilebi/buneba/forest_colours/N-186-03-3.svg" alt=""
-                      class="createForest_game-img">
-                    <p class="createForest_game-text">მუხა</p>
-                  </a>
-                </div>
-                <div class="col-4 mb-4">
-                  <a href="../N-1366-03-213-2.html">
-                    <img src="../../../img/gakvetilebi/buneba/forest_colours/N-186-03-4.svg" alt=""
-                      class="createForest_game-img">
-                    <p class="createForest_game-text">ნაძვი</p>
-                  </a>
-                </div>
-                <div class="col-4 mb-4">
-                  <a href="../N-1366-03-212-2.html">
-                    <img src="../../../img/gakvetilebi/buneba/forest_colours/N-186-03-5.svg" alt=""
-                      class="createForest_game-img">
-                    <p class="createForest_game-text">ფიჭვი</p>
-                  </a>
-                </div>
-                <div class="col-4 mb-4">
-                  <a href="../N-1366-03-220-2.html">
-                    <img src="../../../img/gakvetilebi/buneba/forest_colours/N-186-03-6.svg" alt=""
-                      class="createForest_game-img">
-                    <p class="createForest_game-text">თხილი</p>
-                  </a>
-                </div>
-                <div class="col-4 mb-4">
-                  <a href="../N-1366-03-219-2.html">
-                    <img src="../../../img/gakvetilebi/buneba/forest_colours/N-186-03-7.svg" alt=""
-                      class="createForest_game-img">
-                    <p class="createForest_game-text">კუნელი</p>
-                  </a>
-                </div>
-                <div class="col-4 mb-4">
-                  <a href="../N-1366-03-217-2.html">
-                    <img src="../../../img/gakvetilebi/buneba/forest_colours/N-186-03-8.svg" alt=""
-                      class="createForest_game-img">
-                    <p class="createForest_game-text">შქერი</p>
-                  </a>
-                </div>
-                <div class="col-4 mb-4">
-                  <a href="../N-1366-03-221-2.html">
-                    <img src="../../../img/gakvetilebi/buneba/forest_colours/N-186-03-9.svg" alt=""
-                      class="createForest_game-img">
-                    <p class="createForest_game-text">ცხრატყავა</p>
-                  </a>
-                </div>
+                  <div class="col-4 mb-4">
+                      <img class="ml-auto" src="../../../img/gakvetilebi/buneba/forest_colours/Games/muxa-leaf.svg" alt="leaf">
+                      <a href="../N-1366-03-216-2.html" class="d-flex justify-content-center" id="muxa">
+                          <img class="tree" src="../../../img/gakvetilebi/buneba/forest_colours/Games/muxa.svg" alt="muxa">
+                      </a>
+                      <p class="createForest_game-text">მუხა</p>
+                  </div>
+                  <div class="col-4 mb-4">
+                      <img class="ml-auto" src="../../../img/gakvetilebi/buneba/forest_colours/Games/nadzvi-leaf.svg" alt="leaf">
+                      <a href="../N-1366-03-216-2.html" class="d-flex justify-content-center" id="nadzvi">
+                          <img class="tree" src="../../../img/gakvetilebi/buneba/forest_colours/Games/nadzvi.svg" alt="nadzvi">
+                      </a>
+                      <p class="createForest_game-text">ნაძვი</p>
+                  </div>
+                  <div class="col-4 mb-4">
+                      <img class="ml-auto" src="../../../img/gakvetilebi/buneba/forest_colours/Games/fichvi-leaf.svg" alt="leaf">
+                      <a href="../N-1366-03-216-2.html" class="d-flex justify-content-center" id="fichvi">
+                          <img class="tree" src="../../../img/gakvetilebi/buneba/forest_colours/Games/fiwvi.svg" alt="fichvi">
+                      </a>
+                      <p class="createForest_game-text">ფიქვი</p>
+                  </div>
+                  <div class="col-4 mb-4">
+                      <img class="ml-auto tree" src="../../../img/gakvetilebi/buneba/forest_colours/Games/txili-leaf.svg" alt="leaf">
+                      <a href="../N-1366-03-216-2.html" class="d-flex justify-content-center" id="txili">
+                          <img class="tree" src="../../../img/gakvetilebi/buneba/forest_colours/Games/txili.svg" alt="txili">
+                      </a>
+                      <p class="createForest_game-text">თხილი</p>
+                  </div>
+                  <div class="col-4 mb-4">
+                      <img class="ml-auto" src="../../../img/gakvetilebi/buneba/forest_colours/Games/kuneli-leaf.svg" alt="leaf">
+                      <a href="../N-1366-03-216-2.html" class="d-flex justify-content-center" id="kuneli">
+                          <img class="tree" src="../../../img/gakvetilebi/buneba/forest_colours/Games/kuneli.svg" alt="kuneli">
+                      </a>
+                      <p class="createForest_game-text">კუნელი</p>
+                  </div>
+                  <div class="col-4 mb-4">
+                      <img class="ml-auto" src="../../../img/gakvetilebi/buneba/forest_colours/Games/txili-leaf.svg" alt="leaf">
+                      <a href="../N-1366-03-216-2.html" class="d-flex justify-content-center" id="shqeri">
+                          <img class="tree" src="../../../img/gakvetilebi/buneba/forest_colours/Games/shqeri.svg" alt="shqeri">
+                      </a>
+                      <p class="createForest_game-text">შქერი</p>
+                  </div>
+                  <div class="col-4 mb-4">
+                      <img class="ml-auto" src="../../../img/gakvetilebi/buneba/forest_colours/Games/kuneli-leaf.svg" alt="leaf">
+                      <a href="../N-1366-03-216-2.html" class="d-flex justify-content-center">
+                          <img id class="tree" src="../../../img/gakvetilebi/buneba/forest_colours/Games/cxratyava.svg" alt="cxratyava">
+                      </a>
+                      <p class="createForest_game-text">ცხრატყავა</p>
+                  </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-
     </section>
 
     <div class="flex flex-end column align-items-end z-index reload_game_wrapper">
-      <button id="resetBtn" class="reset__btn">თავიდან სცადე</button>
-      <button id="completedGame" class="completed__btn">დასრულება</button>
+      <button id="reset" class="reset__btn">თავიდან სცადე</button>
+      <button id="check" class="completed__btn">დასრულება</button>
     </div>
 
 
@@ -166,11 +156,11 @@
 
 
   <script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
-  <script src="../../../js/libraries/bootstrap.min.js"></script>
-  <script src="../../../js/libraries/owl.carousel.min.js"></script>
-  <script src="../../../js/slider.js"></script>
+  <script src="../../../js/jquery-ui.min.js"></script>
+  <script src="../js/treeTypes.js"></script>
+
+  <!-- header and bot vue -->
   <script src="../../../Vue-Header/app.js"></script>
-  <script src="../../../Nature-Lessons/My_world/js/N-1366-54.js"></script>
 
 </body>
 

@@ -1,18 +1,20 @@
 @import url(https://zavoloklom.github.io/material-design-iconic-font/css/docs.md-iconic-font.min.css);
 
 .fabs {
-  bottom: 50%;
+  bottom: calc(7.8vh + 315px);
   position: fixed;
   margin: 1em;
   right: 0;
   z-index: 998;
 }
-#formData{
+
+#formData {
   padding-bottom: 4px;
   background: rgb(255, 255, 255);
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
 }
+
 .fab {
   display: block;
   width: 56px;
@@ -31,28 +33,24 @@
   background: #7fd1d8;
 }
 
-.fab > i {
+.fab>i {
   font-size: 2em;
   line-height: 55px;
-  -webkit-transition: all 0.2s ease-out;
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .chat {
   position: fixed;
-  right: 85px;
-  bottom: 20px;
+    right: 78px;
+    bottom: 7.8vh;
+  margin-top: 25px;
   width: 400px;
   font-size: 12px;
   line-height: 22px;
   font-family: "Roboto";
   font-weight: 500;
-  opacity: 0;
   box-shadow: 1px 1px 100px 2px rgba(0, 0, 0, 0.22);
   border-radius: 10px;
-  -webkit-transition: all 0.2s ease-out;
-  -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
 
@@ -62,6 +60,7 @@
   bottom: 0px;
   top: 0px;
 }
+
 .chat_header {
   font-size: 13px;
   font-weight: 500;
@@ -77,8 +76,9 @@
 .chat.is-visible {
   opacity: 1;
   -webkit-animation: zoomIn 0.2s cubic-bezier(0.42, 0, 0.58, 1);
-  animation: zoomIn 0.2s cubic-bezier(0.42, 0, 0.58, 1);
+  animation: zoomIn 1s cubic-bezier(0.42, 0, 0.58, 1);
 }
+
 .is-hide {
   opacity: 0;
 }
@@ -125,12 +125,13 @@
   margin: 5px;
 }
 
-.fab_field .fab > i {
+.fab_field .fab>i {
   font-size: 1.6em;
   line-height: 35px;
   color: #bbb;
 }
-.fab_field .fab > i:hover {
+
+.fab_field .fab>i:hover {
   color: #7fd1d8;
 }
 
@@ -187,8 +188,9 @@
   margin-left: 60px;
   float: left;
   color: #666;
-  
+
 }
+
 .chat .chat_converse .chat_msg_item.chat_msg_item_admin .chat_msg_item-text {
   display: block;
   background: rgba(0, 0, 0, 0.03);
@@ -205,11 +207,13 @@
 
 .chat .chat_converse .chat_msg_item.chat_msg_item_user .chat_msg_item-text {
   display: block;
-  background: #7fd1d8;;
+  background: #7fd1d8;
+  ;
   border-radius: 8px 8px 0 8px;
   padding: 10px 15px;
   margin-bottom: 5px;
 }
+
 .chat .chat_converse .chat_msg_item.chat_msg_item_admin:before {
   content: "";
   position: absolute;
@@ -219,10 +223,12 @@
   border: 6px solid transparent;
   border-right-color: rgba(255, 255, 255, 0.4);
 }
-.chat_msg_item-buttons{
+
+.chat_msg_item-buttons {
   text-align: center;
 }
-.chat_msg_item-buttons button{
+
+.chat_msg_item-buttons button {
   color: #fff;
   background: #D85471;
   border: none;
@@ -235,15 +241,16 @@
   outline: none;
 }
 
-.chat_msg_item-buttons button:focus{
+.chat_msg_item-buttons button:focus {
   outline: none;
 }
 
 
-.chat_msg_item-buttons button:hover{
+.chat_msg_item-buttons button:hover {
   filter: brightness(.9);
 }
-.chat_msg_item_img-container{
+
+.chat_msg_item_img-container {
   width: 150px;
   height: 150px;
   background-size: cover;
@@ -263,7 +270,7 @@
   margin: 2px;
   border-radius: 10px;
   background: #7fd1d8;
-  
+
 }
 
 .is-active {
@@ -272,9 +279,11 @@
   -webkit-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
 }
+
 .is-float {
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.16), 0 6px 12px rgba(0, 0, 0, 0.32);
 }
+
 .is-loading {
   display: block;
   -webkit-animation: load 1s cubic-bezier(0, 0.99, 1, 0.6) infinite;
@@ -287,6 +296,7 @@
     transform: scale(0);
     opacity: 0;
   }
+
   100% {
     -webkit-transform: scale(1);
     transform: scale(1);
@@ -300,6 +310,7 @@
     transform: scale(0);
     opacity: 0;
   }
+
   100% {
     -webkit-transform: scale(1);
     transform: scale(1);
@@ -313,11 +324,13 @@
     transform: scale(0);
     opacity: 0;
   }
+
   50% {
     -webkit-transform: scale(1.5);
     transform: scale(1.5);
     opacity: 1;
   }
+
   100% {
     -webkit-transform: scale(1);
     transform: scale(1);
@@ -331,11 +344,13 @@
     transform: scale(0);
     opacity: 0;
   }
+
   50% {
     -webkit-transform: scale(1.5);
     transform: scale(1.5);
     opacity: 1;
   }
+
   100% {
     -webkit-transform: scale(1);
     transform: scale(1);
@@ -354,6 +369,7 @@
   .chat {
     width: 300px;
   }
+
   .chat_field {
     width: 85%;
   }
@@ -388,7 +404,7 @@
 }
 
 @keyframes ripple {
- 100% {
+  100% {
     opacity: 0;
     -moz-transform: scale(5);
     -ms-transform: scale(5);
@@ -397,19 +413,97 @@
     transform: scale(5);
   }
 }
+
 ::-webkit-input-placeholder {
-  
+
   color: #bbb;
 }
+
 :-ms-input-placeholder {
-  
+
   color: #bbb;
 }
+
 ::-moz-placeholder {
-  
+
   color: #bbb;
 }
+
 :-moz-placeholder {
-  
+
   color: #bbb;
+}
+
+
+
+@keyframes rotateIn {
+  from {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: rotate3d(0, 0, 1, -200deg);
+    transform: rotate3d(0, 0, 1, -200deg);
+    opacity: 0;
+  }
+
+  to {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+.rotateIn {
+  -webkit-animation-name: rotateIn;
+  animation-name: rotateIn;
+}
+
+@keyframes slideInRight {
+  from {
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+    opacity: 0;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+.slide-enter-active {
+  -webkit-animation-name: slideInRight;
+  animation-name: slideInRight;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+@keyframes slideOutRight {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+
+  to {
+    visibility: hidden;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    opacity: 0;
+  }
+}
+
+.slide-leave-active {
+  -webkit-animation-name: slideOutRight;
+  animation-name: slideOutRight;
+
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+#sendMessage{
+  background: transparent;
 }

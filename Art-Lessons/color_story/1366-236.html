@@ -1,9 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<!-- ხელოვნების ჩეთბოტის აიდი -->
+<html lang="en" data-botid="2318">
 
 <head>
     <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+
+      <!-- ჰედერისთვის და ჩეთბოტისთვის -->
+    <script src="../.././js/vue.js"></script>
     <link rel="stylesheet" href="../../scss/libraries/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="../../scss/libraries/owl.carousel.min.css"/>
     <link rel="stylesheet" type="text/css" href="../../scss/libraries/owl.theme.default.css"/>
@@ -14,13 +18,15 @@
 
 <body>
 <div class="container" id="app">
-    <header>
-        <nav class="row">
-            <app-logo v-logo="'../../'"></app-logo>
-            <app-menu v-menu:light="'../../'"></app-menu>
-            <sound-lang></sound-lang>
-        </nav>
-    </header>
+
+  <!-- საერთო ჰედერი -->
+  <header id="app">
+      <nav class="row">
+          <app-logo v-logo="'../.././'"></app-logo>
+          <app-menu v-menu:light="'../.././'"></app-menu>
+          <sound-lang></sound-lang>
+      </nav>
+  </header>
     <div class="main-box_absolute">
         <div class="main-box_relative">
             <div class="owl-carousel owl-theme">
@@ -46,6 +52,14 @@
         </div>
     </div>
 </div>
+
+  <!-- ჩეთბოტისაა -->
+<div id="chatBot">
+    <app-bot v-if="show"></app-bot>
+</div>
+
+
+
 <script src="../../js/libraries/jquery-3.4.1.min.js"></script>
 <script src="../../js/libraries/bootstrap.min.js"></script>
 <script src="../../js/libraries/owl.carousel.min.js"></script>
@@ -62,6 +76,13 @@
         lazyLoad: true
     });
 </script>
+
+  <!-- ჩეთბოტისაა -->
+<script src="../.././Vue-Header/app.js"></script>
+<script src="../.././Vue-chatBot/botApp.js"></script>
+<script src="../.././js/bot.js"></script>
+
+
 </body>
 
 </html>

@@ -1,0 +1,131 @@
+.m_musical_route_game {
+  &-cont {
+    margin: 4vh 0;
+    position: relative;
+    .car_game_white_circle {
+      position: static;
+      margin: auto;
+      transform: translateX(0);
+    }
+  }
+  &-img {
+    margin: auto;
+    height: 19.33vh;
+  }
+}
+.black_legs {
+  &_cont {
+    position: absolute;
+    &-29 {
+      bottom: -4vh;
+      right: 11vw;
+      svg{
+          width: 18vw;
+      }
+    }
+    &-30-1{
+        bottom: -6vh;
+        right: 8vw;
+        svg{
+            width: 13vw;
+        }
+    }
+    &-30-2{
+        bottom: -6vh;
+        right: 9vw;
+        svg{
+            width: 27vw;
+        }
+    }
+    &-31-2{
+        top: -2vh;
+        right: 10vw;
+        svg{
+            width: 30vw;
+        }
+    }
+    &-31-3{
+        bottom: -6vh;
+        right: 10vw;
+        svg{
+            width: 30vw;
+        }
+    }
+    &-31-4{
+        bottom: -14vh;
+        right: 10vw;
+        svg{
+            width: 49vw;
+        }
+    }
+    .black_legs-animationStart {
+      // width: 100%;
+    }
+  }
+  &-step {
+    opacity: 0;
+    //   height: 2.66vh;
+  }
+  &-animationStart {
+    .black_legs-step {
+      animation-name: stepAnimation;
+      animation-duration: 4s;
+      opacity: 0;
+      animation-fill-mode: forwards;
+      transition-timing-function: linear;
+      &:nth-child(1) {
+        animation-delay: 0.5s;
+      }
+      &:nth-child(2) {
+        animation-delay: 0.8s;
+      }
+      &:nth-child(3) {
+        animation-delay: 1.2s;
+      }
+      &:nth-child(4) {
+        animation-delay: 1.5s;
+      }
+      &:nth-child(5) {
+        animation-delay: 1.8s;
+      }
+      &:nth-child(6) {
+        animation-delay: 2.1s;
+      }
+      &:nth-child(7) {
+        animation-delay: 2.4s;
+      }
+      &:nth-child(8) {
+        animation-delay: 2.7s;
+      }
+      &:nth-child(9) {
+        animation-delay: 3s;
+      }
+      &:nth-child(10) {
+        animation-delay: 3.3s;
+      }
+      &:nth-child(11) {
+        animation-delay: 3.6s;
+      }
+      &:nth-child(12) {
+        animation-delay: 3.9s;
+      }
+    }
+    @-webkit-keyframes stepAnimation {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+    @keyframes stepAnimation {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+  }
+}
