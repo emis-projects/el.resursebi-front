@@ -1,11 +1,23 @@
 .m_musical_names_corner_game{
     &-cont{}
     &-img{
-        margin-top: 2vh;
+        margin-top: 3vh;
         height: 13.67vh;
         &-steps{
-            height: 28.64vh;
-            margin-bottom: 2vh;
+            // height: 28.64vh;
+            margin-bottom: 3vh;
+            width: 58vw;
+        }
+    }
+    &_text{
+        &-dropped{
+            color: #F8D24B;
+        }
+        &-error{
+            color: #DC6C85;
+        }
+        &-correct{
+            color: #A1DD6F;
         }
     }
 }
