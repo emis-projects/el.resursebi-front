@@ -37,6 +37,7 @@
 .fab > i {
   font-size: 2em;
   line-height: 55px;
+  -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
 
@@ -6105,6 +6106,7 @@ section .arrow_up_down_downArrow img {
 .fab > i {
   font-size: 2em;
   line-height: 55px;
+  -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
 
@@ -8779,31 +8781,78 @@ section .arrow_up_down_downArrow img {
   border: solid 2px black;
 }
 
-@keyframes bounce {
-  from, 20%, 53%, 80%, to {
-    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-    transform: translate3d(0, 0, 0);
+@-webkit-keyframes bounce {
+  from,
+  20%,
+  53%,
+  80%,
+  to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+            animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
   }
-  40%, 43% {
-    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
-    transform: translate3d(0, -30px, 0);
+  40%,
+  43% {
+    -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+            animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    -webkit-transform: translate3d(0, -30px, 0);
+            transform: translate3d(0, -30px, 0);
   }
   70% {
-    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
-    transform: translate3d(0, -15px, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+            animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    -webkit-transform: translate3d(0, -15px, 0);
+            transform: translate3d(0, -15px, 0);
   }
   90% {
-    transform: translate3d(0, -4px, 0);
+    -webkit-transform: translate3d(0, -4px, 0);
+            transform: translate3d(0, -4px, 0);
   }
 }
+
+@keyframes bounce {
+  from,
+  20%,
+  53%,
+  80%,
+  to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+            animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+  40%,
+  43% {
+    -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+            animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    -webkit-transform: translate3d(0, -30px, 0);
+            transform: translate3d(0, -30px, 0);
+  }
+  70% {
+    -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+            animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    -webkit-transform: translate3d(0, -15px, 0);
+            transform: translate3d(0, -15px, 0);
+  }
+  90% {
+    -webkit-transform: translate3d(0, -4px, 0);
+            transform: translate3d(0, -4px, 0);
+  }
+}
+
 .bounce {
-  animation-name: bounce;
-  transform-origin: center bottom;
+  -webkit-animation-name: bounce;
+          animation-name: bounce;
+  -webkit-transform-origin: center bottom;
+          transform-origin: center bottom;
 }
 
 .animated {
-  animation-duration: 1s;
-  animation-fill-mode: both;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
 }
 
 .nature_plant-game-text {
@@ -9180,13 +9229,17 @@ section .arrow_up_down_downArrow img {
   width: 15vw;
 }
 
+.music-game-task-notes-strings-container.m-1366-04-13-height {
+  width: 13vw;
+}
+
 .music-game-task-notes-string-container-img {
   height: 100%;
   width: 100%;
 }
 
 .music-game-task-notes-strings-text-div {
-  margin-top: 4.94vh;
+  margin-top: 1.94vh;
 }
 
 .music-game-task-notes-strings-lyrics-img {
@@ -9216,6 +9269,13 @@ section .arrow_up_down_downArrow img {
 
 .musical_notes_game-img-blue-middle {
   height: 4.83vh;
+}
+
+.m-1366-04-20-notes-button-extra-small {
+  position: absolute;
+  height: 5.68vh;
+  bottom: -2.8vh;
+  right: 0;
 }
 
 .w-85 {
@@ -9644,10 +9704,12 @@ section .arrow_up_down_downArrow img {
 .mt-3vh {
   margin-top: 3vh !important;
 }
+
 .m_musical_names_corner_game-img {
   margin-top: 3vh;
   height: 13.67vh;
 }
+
 .m_musical_names_corner_game-img-steps {
   margin-bottom: 3vh;
   width: 58vw;
@@ -9663,6 +9725,40 @@ section .arrow_up_down_downArrow img {
 
 .m_musical_names_corner_game_text-correct {
   color: #A1DD6F;
+}
+
+.M-1366-04-13-buttom-note-container .M-1366-04-13-strings-lyrics-img {
+  height: 3.64vh;
+}
+
+.M-1366-04-13-buttom-note-container .M-1366-04-13-button-extra-small {
+  height: 4.68vh;
+}
+
+.M-1366-04-13-button-extra-small-absolute {
+  height: 4.68vh;
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.m-1366-04-13-buttom-note-container-cols {
+  margin-top: 2.88vh;
+}
+
+.m-1366-04-13-container-divs {
+  margin-bottom: 3.97vh;
+}
+
+.M-1366-04-13-buttom-note-container {
+  margin-top: 1.25vh;
+}
+
+.M-1366-04-13-buttom-note-container-col {
+  width: 12.95vw;
+  margin-right: 3.66vw;
 }
 
 .canvas-container {

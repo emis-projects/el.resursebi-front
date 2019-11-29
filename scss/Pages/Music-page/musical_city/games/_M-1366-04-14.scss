@@ -14,13 +14,16 @@
 .music-game-task-notes-strings-container{
   position: relative;
   width:15vw;
+  &.m-1366-04-13-height{
+    width:13vw;
+  }
 }
 .music-game-task-notes-string-container-img{
  height:100%;
  width: 100%;
 }
 .music-game-task-notes-strings-text-div{
-  margin-top:4.94vh;
+  margin-top:1.94vh;
 }
 
 .music-game-task-notes-strings-lyrics-img{
