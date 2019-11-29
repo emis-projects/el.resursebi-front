@@ -36,7 +36,7 @@
 .fab > i {
   font-size: 2em;
   line-height: 55px;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .chat {
@@ -76,7 +76,7 @@
 .chat.is-visible {
   opacity: 1;
   -webkit-animation: zoomIn 0.2s cubic-bezier(0.42, 0, 0.58, 1);
-  animation: zoomIn 0.2s cubic-bezier(0.42, 0, 0.58, 1);
+  animation: zoomIn 1s cubic-bezier(0.42, 0, 0.58, 1);
 }
 
 .is-hide {
@@ -467,6 +467,10 @@
   animation-name: slideOutRight;
   animation-duration: 1s;
   animation-fill-mode: both;
+}
+
+#sendMessage {
+  background: transparent;
 }
 
 @font-face {
@@ -5218,7 +5222,7 @@ section .arrow_up_down_downArrow img {
 .fab > i {
   font-size: 2em;
   line-height: 55px;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .chat {
@@ -5258,7 +5262,7 @@ section .arrow_up_down_downArrow img {
 .chat.is-visible {
   opacity: 1;
   -webkit-animation: zoomIn 0.2s cubic-bezier(0.42, 0, 0.58, 1);
-  animation: zoomIn 0.2s cubic-bezier(0.42, 0, 0.58, 1);
+  animation: zoomIn 1s cubic-bezier(0.42, 0, 0.58, 1);
 }
 
 .is-hide {
@@ -5649,6 +5653,10 @@ section .arrow_up_down_downArrow img {
   animation-name: slideOutRight;
   animation-duration: 1s;
   animation-fill-mode: both;
+}
+
+#sendMessage {
+  background: transparent;
 }
 
 .n-compass-img {
@@ -8102,7 +8110,6 @@ section .arrow_up_down_downArrow img {
   margin-top: 2vh;
   height: 13.67vh;
 }
-
 .m_musical_names_corner_game-img-steps {
   height: 28.64vh;
   margin-bottom: 2vh;
