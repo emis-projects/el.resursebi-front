@@ -1,7 +1,7 @@
 @import url(https://zavoloklom.github.io/material-design-iconic-font/css/docs.md-iconic-font.min.css);
 @import url(https://zavoloklom.github.io/material-design-iconic-font/css/docs.md-iconic-font.min.css);
 .fabs {
-  bottom: 56%;
+  bottom: calc(7.8vh + 315px);
   position: fixed;
   margin: 1em;
   right: 0;
@@ -44,7 +44,7 @@
 .chat {
   position: fixed;
   right: 78px;
-  bottom: 52px;
+  bottom: 7.8vh;
   margin-top: 25px;
   width: 400px;
   font-size: 12px;
@@ -6037,7 +6037,7 @@ section .arrow_up_down_downArrow img {
 }
 
 .fabs {
-  bottom: 56%;
+  bottom: calc(7.8vh + 315px);
   position: fixed;
   margin: 1em;
   right: 0;
@@ -6080,7 +6080,7 @@ section .arrow_up_down_downArrow img {
 .chat {
   position: fixed;
   right: 78px;
-  bottom: 52px;
+  bottom: 7.8vh;
   margin-top: 25px;
   width: 400px;
   font-size: 12px;
