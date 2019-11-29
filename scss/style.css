@@ -9483,13 +9483,25 @@ section .arrow_up_down_downArrow img {
 }
 
 .m_musical_names_corner_game-img {
-  margin-top: 2vh;
+  margin-top: 3vh;
   height: 13.67vh;
 }
 
 .m_musical_names_corner_game-img-steps {
-  height: 28.64vh;
-  margin-bottom: 2vh;
+  margin-bottom: 3vh;
+  width: 58vw;
+}
+
+.m_musical_names_corner_game_text-dropped {
+  color: #F8D24B;
+}
+
+.m_musical_names_corner_game_text-error {
+  color: #DC6C85;
+}
+
+.m_musical_names_corner_game_text-correct {
+  color: #A1DD6F;
 }
 
 .canvas-container {
