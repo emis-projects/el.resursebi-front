@@ -1,6 +1,6 @@
 Vue.component('appBot', {
-  data(){
-    return{
+  data() {
+    return {
       botShow: false
     }
   },
@@ -34,4 +34,3 @@ Vue.component('appBot', {
 var bot = new Vue({
   el: '#chatBot'
 });
-
