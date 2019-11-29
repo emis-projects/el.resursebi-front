@@ -1,7 +1,7 @@
 @import url(https://zavoloklom.github.io/material-design-iconic-font/css/docs.md-iconic-font.min.css);
 @import url(https://zavoloklom.github.io/material-design-iconic-font/css/docs.md-iconic-font.min.css);
 .fabs {
-  bottom: 56%;
+  bottom: calc(7.8vh + 315px);
   position: fixed;
   margin: 1em;
   right: 0;
@@ -42,9 +42,9 @@
 }
 
 .chat {
-  position: absolute;
-  right: 100%;
-  top: 78%;
+  position: fixed;
+  right: 78px;
+  bottom: 7.8vh;
   margin-top: 25px;
   width: 400px;
   font-size: 12px;
@@ -6037,7 +6037,7 @@ section .arrow_up_down_downArrow img {
 }
 
 .fabs {
-  bottom: 56%;
+  bottom: calc(7.8vh + 315px);
   position: fixed;
   margin: 1em;
   right: 0;
@@ -6078,9 +6078,9 @@ section .arrow_up_down_downArrow img {
 }
 
 .chat {
-  position: absolute;
-  right: 100%;
-  top: 78%;
+  position: fixed;
+  right: 78px;
+  bottom: 7.8vh;
   margin-top: 25px;
   width: 400px;
   font-size: 12px;
@@ -8654,6 +8654,37 @@ section .arrow_up_down_downArrow img {
   margin-bottom: 2%;
 }
 
+.border-line {
+  border: solid 2px black;
+}
+
+@keyframes bounce {
+  from, 20%, 53%, 80%, to {
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    transform: translate3d(0, 0, 0);
+  }
+  40%, 43% {
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    transform: translate3d(0, -30px, 0);
+  }
+  70% {
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    transform: translate3d(0, -15px, 0);
+  }
+  90% {
+    transform: translate3d(0, -4px, 0);
+  }
+}
+.bounce {
+  animation-name: bounce;
+  transform-origin: center bottom;
+}
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
 .nature_plant-game-text {
   color: #0b2228;
   font-size: 2.34vh;
@@ -9410,6 +9441,15 @@ section .arrow_up_down_downArrow img {
 
 .mt-3vh {
   margin-top: 3vh !important;
+}
+.m_musical_names_corner_game-img {
+  margin-top: 2vh;
+  height: 13.67vh;
+}
+
+.m_musical_names_corner_game-img-steps {
+  height: 28.64vh;
+  margin-bottom: 2vh;
 }
 
 .canvas-container {
