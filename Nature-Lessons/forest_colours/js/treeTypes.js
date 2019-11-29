@@ -1,5 +1,6 @@
+// შესამოწმებელი მასივები
 const green = ['nadzvi', 'fichvi'];
-const yellow = ['muxa', 'tela', 'kedari', 'txili', 'kuneli', 'shqeri', 'cxratyava']
+const yellow = ['muxa', 'tela', 'kedari', 'txili', 'kuneli', 'shqeri', 'cxratyava'];
 
 $(function () {
    //ელემ. გადაადგილება
@@ -31,7 +32,7 @@ let greenTrees = [];
 let yellowTree = [];
 
 
-// მცენარეების შემოწმება
+// მცენარეების შემოწმება და მასივში გადაწერა
 check.addEventListener('click', () => {
    greenBox.forEach(evt => {
       greenTrees.push($(evt).attr('alt'))
@@ -40,39 +41,48 @@ check.addEventListener('click', () => {
       yellowTree.push($(evt).attr('alt'))
    });
 
-
-   greenTrees.map((el, i, arr1) => {
-      el === undefined ? arr1.shift() : arr1
+   // მასივების გაფილტვრა
+   greenTrees.filter((el, i, arr1) => {
+      el === (undefined && null) ? arr1.shift() : arr1
    });
 
    yellowTree.map((el, i, arr) => {
-      el === undefined ? arr.shift() : arr
-   })
+      el === (undefined && null) ? arr.shift() : arr
+   });
 
-   // მასივი if პირობა შემოწმებისთვის
-   if ((greenTrees === green && greenTrees.length === 2) &&
-      (yellowTree === yellow && yellowTree.length === 7)) {
-      location.href = './N-1366-03-186-success.html';
-   } else {
-      console.log(greenTrees !== green && greenTrees.length !== 2);
-      if (greenTrees !== green && greenTrees.length !== 2) {
-         $('.green_box').addClass('animated bounce');
-         $('.green_box').css('border', '1px solid red')
-      }
-      if (yellowTree !== yellow || yellowTree.length === 7) {
-         $('.yellow_box').addClass('animated bounce');
-         $('.yellow_box').css('border', '1px solid red')
-      } else {
-         $('.green_box').removeClass('animated bounce');
-         $('.green_box').css('border', 'none')
+
+   for (let i = 0; i < green.length; i++) {
+      for (let j = 0; j < yellow.length; j++) {
+         // თუ ყველა პირობა სწორია ჩაიტვირთოს ახალი გვერდი
+         if (greenTrees[i] === green[i] && yellowTree[j] === yellow[j] && greenTrees.length === 2 && yellowTree.length ===7){
+            window.location.href = './N-1366-03-186-success.html';
+         }else{
+            // თუ მარადმწვანე ჯგუფი არაა სწორად შევსებული ან ცარიელია
+            if (greenTrees[i] !== green[i] && greenTrees.length !== 2){
+               $('.green_box').addClass('animated bounce');
+               $('.green_box').css('background', '#ff3a24');
+            }else if(greenTrees[i] === green[i]){ // თუ მარადმწვანე ჯგუფი სწორადაა შევსებული სტილების მოხსნა
+               $('.green_box').removeClass('animated bounce danger');
+               $('.green_box').css('background', '#ff3a24');
+            }
+            // თუ არამარადმწვანე ჯგუფი არაა სწორად შევსებული ან ცარიელია
+            if(yellowTree[j] !== yellow[j] && yellowTree.length !== 7){
+               $('.yellow_box').addClass('animated bounce danger');
+               $('.yellow_box').css('background', '#ff3a24');
+            }else if(yellowTree[j] !== yellow[j]){  // თუ არამარადმწვანე ჯგუფი სწორადაა შევსებული სტილების მოხსნა
+               $('.yellow_box').removeClass('animated bounce danger');
+               $('.yellow_box').css('background', '#ff3a24');
+            }
+         }
       }
    }
-   //მასივის განულება შემოწმების შემდგომ
-   greenTrees = [];
+   console.log(greenTrees)
+   // მასივების გაწმენდა
    yellowTree = [];
+   greenTrees = [];
 });
 
-
+// თამაშის განულება ახლიდან დასაწყებად
 function reset() {
    $('#kedari').append($('img[alt="kedari"]'));
    $('#tela').append($('img[alt="tela"]'));
@@ -84,7 +94,7 @@ function reset() {
    $('#shqeri').append($('img[alt="shqeri"]'));
    $('#cxratyava').append($('img[alt="cxratyava"]'));
    $('.green_box').removeClass('animated bounce');
-   $('.green_box').css('border', 'none')
+   $('.green_box').css('background', '');
    $('.yellow_box').removeClass('animated bounce');
-   $('.yellow_box').css('border', 'none')
+   $('.yellow_box').css('background', '');
 }
