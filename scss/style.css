@@ -9227,6 +9227,78 @@ section .arrow_up_down_downArrow img {
   padding-top: 6.05vh;
 }
 
+.m_exercise_text-container-14px {
+  font-size: 1.82vh;
+  font-family: "BPG Arial";
+  color: #0b2228;
+}
+
+.m_exercise_text-container-14px p {
+  margin-bottom: 1.82vh;
+}
+
+.m-1366-04-25-text-min-opacity {
+  opacity: 0.05;
+}
+
+.m-1366-04-25-shop-div {
+  height: 13.02vh;
+  position: relative;
+}
+
+.m-1366-04-25-shop-div .m_musical_names_corner_game-img {
+  height: 13.02vh;
+}
+
+.m-1366-04-25-shop-div .m-1366-04-25-steps-4-img, .m-1366-04-25-shop-div .m-1366-04-25-steps-1-img, .m-1366-04-25-shop-div .m-1366-04-25-steps-3-img, .m-1366-04-25-shop-div .m-1366-04-25-steps-2-img {
+  position: absolute;
+}
+
+.m-1366-04-25-shop-div .m-1366-04-25-steps-4-img {
+  height: 12.41vh;
+  bottom: -18.78vh;
+  left: -37.7vw;
+}
+
+.m-1366-04-25-shop-div .m-1366-04-25-steps-1-img {
+  height: 14.32vh;
+  bottom: -18.78vh;
+  left: 8.3vw;
+}
+
+.m-1366-04-25-shop-div .m-1366-04-25-steps-3-img {
+  height: 14.32vh;
+  bottom: -18.78vh;
+  left: 4.3vw;
+}
+
+.m-1366-04-25-shop-div .m-1366-04-25-steps-2-img {
+  height: 14.32vh;
+  bottom: -18.78vh;
+  left: 4.3vw;
+}
+
+.musical_notes_game-press-button-extra-small {
+  right: -15px;
+  bottom: -30px;
+}
+
+.m-1366-04-25-note-div {
+  height: 5.07vh;
+}
+
+.m-1366-04-25-note-div img {
+  height: 5.07vh;
+}
+
+.m-1366-04-25-notes-cols-div {
+  margin-top: 20vh;
+}
+
+.m-1366-04-25-shop-col-div {
+  margin-top: 2.9vh;
+}
+
 .m-1366-04-32-img-div-tower {
   height: 35.67vh;
 }
