@@ -17,11 +17,45 @@
     display: flex;
     justify-content: space-around;
     margin: 2vh 0 4vh;
+
     &-margins {
       margin: 4vh 0 6vh;
     }
   }
+
+  .custom_radioButton_container {
+    display: block;
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  
+    &.active {
+      .checkmark {
+        background: #7FD1D8;
+      }
+    }
+    &.error {
+      .checkmark {
+        background: #dc6c85;
+      }
+    }
+  
+    &.correct {
+      &::after {
+        display: none;
+      }
+    }
+  }
 }
+
+
+
 .custom_radioButton_container {
   display: block;
   position: relative;
@@ -34,21 +68,16 @@
   -ms-user-select: none;
   user-select: none;
 
-  &.active {
-    .checkmark {
-      background: #7FD1D8;
-    }
-  }
-  &.error {
-    .checkmark {
-      background: #dc6c85;
-    }
+  .checkmark.error {
+    background: #dc6c85;
   }
 
-  &.correct {
-    &::after {
-      display: none;
-    }
+  .checkmark.selected {
+    background: #f7d24b;
+  }
+
+  .checkmark.success {
+    background: #dc6c85;
   }
 }
 
@@ -72,7 +101,6 @@
   height: 3.51vh;
   width: 3.51vh;
   border-radius: 50%;
-  background: #ffffff 0% 0% no-repeat padding-box;
   border: 1px solid #c5cbcd;
 }
 
