@@ -1,6 +1,4 @@
 function m136656(){
-    this.answerIndex = 0;
-    this.answersArray = '';
     this.error = true;
 
 
@@ -44,8 +42,6 @@ function m136656(){
 
 
     this.init = () => {
-        this.answerIndex = 0;
-        this.answersArray = '';
         this.error = true;
 
         // stop voice 
@@ -66,7 +62,7 @@ function m136656(){
                 $('.car_game_container').attr('data-correct', 'incorrect');
     
                 e.target.querySelector('.car_game_white_circle').classList.add('selected')
-    
+
                 if(e.target.getAttribute('data-correct') == 'incorrect' && e.target.classList.contains('correct--answer')){
                     e.target.setAttribute('data-correct', 'correct')
                     this.error = false
@@ -100,7 +96,7 @@ function m136656(){
     }
 
     
-    this.completGame() {
+    this.completGame = () => {
         this.checkGameAnswers()
     }
 }

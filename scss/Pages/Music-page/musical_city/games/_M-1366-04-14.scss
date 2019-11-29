@@ -1,26 +1,36 @@
 .music-game-task-notes-strings-containers-col{
-margin-top:1.95vh;
-/* padding-right:6.64vh; */
+  margin-top:1.95vh;
+  margin-left: 50px;
+
+  &:nth-child(1){
+    margin-left: 0;
+  }
+
+  &:nth-child(4){
+    margin-left: 0;
+  }
 }
 
 .music-game-task-notes-strings-container{
   position: relative;
-   height:18.88vh;
   width:15vw;
+  &.m-1366-04-13-height{
+    width:13vw;
+  }
 }
 .music-game-task-notes-string-container-img{
  height:100%;
- width:100%;
+ width: 100%;
 }
 .music-game-task-notes-strings-text-div{
-  margin-top:4.94vh;
+  margin-top:1.94vh;
 }
 
 .music-game-task-notes-strings-lyrics-img{
   position: absolute;
-  bottom:0.39vh;
-  height:8.33vh;
- 
- 
-  width:100%;
+  bottom: 5px;
+  left: 5px;
+  right: 5px;
+  height: auto;
+  width: calc(100% - 10px);
 }

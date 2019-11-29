@@ -17,6 +17,8 @@
         <img src="../../img/icons/close.svg" alt="close" />
       </a>
     </header>
+
+
     <div class="subject_component_top_illustration">
       <div class="bg_blue_up illustration_bg"></div>
     </div>
@@ -39,9 +41,9 @@
           <div class="row">
             <div class="col-7">
               <div class="music_mood-button-container">
-                <img class="music_mood-button" src="../../img/gakvetilebi/musika/MV-1366-36_btn1.svg" alt="">
-                <img class="music_mood-button" src="../../img/gakvetilebi/musika/MV-1366-36_btn2.svg" alt="">
-                <img class="music_mood-button" src="../../img/gakvetilebi/musika/MV-1366-36_btn3.svg" alt="">
+                <img data-voice="./game-voices/1336-36-1.wav" class="music_mood-button" src="../../img/gakvetilebi/musika/MV-1366-36_btn1.svg" alt="">
+                <img data-voice="./game-voices/1336-36-2.wav" class="music_mood-button" src="../../img/gakvetilebi/musika/MV-1366-36_btn2.svg" alt="">
+                <img data-voice="./game-voices/1336-36-3.wav" class="music_mood-button" src="../../img/gakvetilebi/musika/MV-1366-36_btn3.svg" alt="">
               </div>
             </div>
             <div class="col-7">
@@ -49,9 +51,9 @@
             </div>
             <div class="col-7">
               <div class="music_mood-button-container">
-                <img class="music_mood-button" src="../../img/gakvetilebi/musika/MV-1366-36_btn1.svg" alt="">
-                <img class="music_mood-button" src="../../img/gakvetilebi/musika/MV-1366-36_btn2.svg" alt="">
-                <img class="music_mood-button" src="../../img/gakvetilebi/musika/MV-1366-36_btn3.svg" alt="">
+                <img data-voice="./game-voices/1336-36-4.wav" class="music_mood-button" src="../../img/gakvetilebi/musika/MV-1366-36_btn1.svg" alt="">
+                <img data-voice="./game-voices/1336-36-5.wav" class="music_mood-button" src="../../img/gakvetilebi/musika/MV-1366-36_btn2.svg" alt="">
+                <img data-voice="./game-voices/1336-36-6.wav" class="music_mood-button" src="../../img/gakvetilebi/musika/MV-1366-36_btn3.svg" alt="">
               </div>
             </div>
             <div class="col-7">
@@ -59,9 +61,9 @@
             </div>
             <div class="col-7">
               <div class="music_mood-button-container">
-                <img class="music_mood-button" src="../../img/gakvetilebi/musika/MV-1366-36_btn1.svg" alt="">
-                <img class="music_mood-button" src="../../img/gakvetilebi/musika/MV-1366-36_btn2.svg" alt="">
-                <img class="music_mood-button" src="../../img/gakvetilebi/musika/MV-1366-36_btn3.svg" alt="">
+                <img data-voice="./game-voices/1336-36-7.wav" class="music_mood-button" src="../../img/gakvetilebi/musika/MV-1366-36_btn1.svg" alt="">
+                <img data-voice="./game-voices/1336-36-8.wav" class="music_mood-button" src="../../img/gakvetilebi/musika/MV-1366-36_btn2.svg" alt="">
+                <img data-voice="./game-voices/1336-36-9.wav" class="music_mood-button" src="../../img/gakvetilebi/musika/MV-1366-36_btn3.svg" alt="">
               </div>
             </div>
           </div>
@@ -75,7 +77,41 @@
       </div>
     </div>
   </div>
-  <script src="../../js/soundSwitch.js"></script>
-</body>
 
+
+<script src="../../js/libraries/sound.js"></script>
+
+<script>
+
+    let listenBtn = document.querySelectorAll('.music_mood-button');
+
+    var myArray = [];
+
+    for(var i = 0; i < listenBtn.length; i++ ){
+      myArray.push(listenBtn[i])
+    }
+
+    createjs.Sound.on("fileload", handleLoadComplete);
+    createjs.Sound.alternateExtensions = ["wav"];
+
+    function handleLoadComplete(event) {
+      createjs.Sound.play("sound");
+    }
+
+    function handleLoadstop(event) {
+      createjs.Sound.stop("sound");
+    }
+
+
+    myArray.forEach(w => {
+      w.addEventListener('click', e => {
+        handleLoadstop()
+        createjs.Sound.registerSound({src:`${e.target.getAttribute('data-voice')}`, id:"sound"});
+        handleLoadComplete()
+      })
+    })
+
+</script>
+
+</body>
 </html>
