@@ -68,6 +68,7 @@ function m136649(){
             this.answersArray = value
         })
     })
+    
 
     this.checkWchitPageIs = () => {
         let myLocation = location.pathname;
