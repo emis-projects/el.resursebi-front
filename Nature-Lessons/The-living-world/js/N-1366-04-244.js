@@ -6,7 +6,6 @@ function natureGames() {
     var completedGame = document.getElementById('completedGame');
     var answer = document.querySelectorAll('.answer');
 
-
     document.addEventListener('DOMContentLoaded', () => {
         let i = 1;
         checkmarkElements.forEach(w => {
@@ -23,30 +22,27 @@ function natureGames() {
 
     this.clickElement = (e) => {
         //debugger
-        let existSelect = e.target.classList.contains('selected');
-        let existError = e.target.classList.contains('error');
-        let existSuccess = e.target.classList.contains('success');
-       
-        if(existSelect || existError || existSuccess){
-             $(e.target).removeClass('selected');
-             $(e.target).removeClass('error');
-             $(e.target).removeClass('success');
-
-             this.count--;
-        }
-        else{
-            if (this.count >= 4){
+        if(!completedGame.disabled){
+            let existSelect = e.target.classList.contains('selected');
+            if (this.count >=4 && !existSelect){
                 return;
             }
-            e.target.classList.add("selected")
-            this.count++;
+        
+            if(existSelect){
+                $(e.target).removeClass('selected');
+                this.count--;
+            }
+            else{
+                e.target.classList.add("selected")
+                this.count++;
+            }
         }
+        
         
     }
 
     this.init = () => {
-        // $(mydrag).removeClass('errorParent');
-        // $('.after_parent').removeClass('error')
+        completedGame.disabled = false
         checkmarkElements.forEach(element => {
             $(element).removeClass('selected');
             $(element).removeClass('error');
@@ -77,11 +73,12 @@ function natureGames() {
             }
 
         });
+        completedGame.disabled = true
 
     }
 
     this.successPage = () => {
-        location.href = 'success-page.html';
+        location.href = 'N-1366-04-244-success.html';
     }
 
 
@@ -91,8 +88,3 @@ function natureGames() {
 }
 
 const naturegame = new natureGames();
-
-
-
-
-

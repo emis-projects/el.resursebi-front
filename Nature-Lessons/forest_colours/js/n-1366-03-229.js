@@ -117,7 +117,7 @@ function Game() {
 
     // success page
     this.successPage = () => {
-        location.href = "success-page.html";
+        location.href = "N-1366-03-229-success.html";
     };
 
 
