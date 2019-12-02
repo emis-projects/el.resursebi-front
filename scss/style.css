@@ -736,7 +736,11 @@ body {
 }
 
 .z-index {
-  z-index: 10000;
+  z-index: 500;
+}
+
+.fixed-bottom {
+  z-index: 998;
 }
 
 .relative {

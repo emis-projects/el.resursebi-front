@@ -91,6 +91,9 @@ function m136655(){
 
         } else if (myLocation == "/Music-Lessons/Voices/Games/M-1366-55-3.html" || myLocation == "/el.resursebi-front/Music-Lessons/Voices/Games/M-1366-55-3.html"){
             location.href = "M-1366-55-3-success.html"
+            
+        } else if (myLocation == "/Music-Lessons/Voices/Games/M-1366-56-3.html" || myLocation == "/el.resursebi-front/Music-Lessons/Voices/Games/M-1366-56-3.html"){
+            location.href = "M-1366-56-3-success.html"
         } 
     }
 

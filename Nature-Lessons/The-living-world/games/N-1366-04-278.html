@@ -59,6 +59,7 @@
                 </div>
             </nav>
         </header>
+
         <section id="N-1366-04-278">
             <div class="subject_component row">
                 <div class="col-12 item_flex">
@@ -78,10 +79,8 @@
                     </div>
                 </div>
             </div>
-            <div class="row d-flex align-items-start mt-3">
-                <!-- <div class="col-2 mt-5 ">
-                    <p>ტემპერატურა ოთახში</p>
-                </div> -->
+
+ <div class="row d-flex align-items-start mt-3">
                 <div class="col-6 offset-2">
                     <div class="timline_box_wrapper d-flex justify-content-between">
                         <div class="timline_box d-flex flex-column align-items-center">
@@ -100,36 +99,57 @@
                     <div class="circle-box">
                         <img src="../../../img/gakvetilebi/buneba/lesson4/right-arrow.svg" alt="arrow" class="mb-2">
                         <div class="circle-box_wrapper d-flex justify-content-between">
-                            <div class="circles bg_correct"></div>
-                            <div class="circles bg_white"></div>
-                            <div class="circles bg_white"></div>
+                            <div class="circles bg_incorrect">
+                              <img src="../../../img/gakvetilebi/buneba/lesson4/1366-285-flower-2-3.svg" alt="flower" id="Flower1-1">
+                            </div>
+                            <div class="circles bg_incorrect">
+                              <img src="../../../img/gakvetilebi/buneba/lesson4/1366-285-flower-2-2.svg" alt="flower" id="Flower1-2">
+                            </div>
+                            <div class="circles bg_correct">
+                              <img src="../../../img/gakvetilebi/buneba/lesson4/1366-285-flower-2-1.svg" alt="flower" id="Flower1-3">
+                            </div>
                         </div>
                         <div class="circle-box_wrapper d-flex justify-content-between">
-                            <div class="circles bg_white"></div>
-                            <div class="circles bg_white"></div>
-                            <div class="circles bg_white"></div>
+                            <div class="circles bg_incorrect">
+                              <img src="../../../img/gakvetilebi/buneba/lesson4/1366-285-flower-1-3.svg" alt="flower" id="Flower2-1">
+                            </div>
+                            <div class="circles bg_incorrect">
+                              <img src="../../../img/gakvetilebi/buneba/lesson4/1366-285-flower-1-2.svg" alt="flower" id="Flower2-2">
+                            </div>
+                            <div class="circles bg_correct">
+                              <img src="../../../img/gakvetilebi/buneba/lesson4/1366-285-flower-1-1.svg" alt="flower" id="Flower2-3">
+                            </div>
                         </div>
                         <div class="circle-box_wrapper d-flex justify-content-between">
-                            <div class="circles bg_incorrect"></div>
-                            <div class="circles bg_white"></div>
-                            <div class="circles bg_white"></div>
+                            <div class="circles bg_incorrect">
+                              <img src="../../../img/gakvetilebi/buneba/lesson4/1366-285-flower-3-3.svg" alt="flower" id="Flower3-1">
+                            </div>
+                            <div class="circles bg_incorrect">
+                              <img src="../../../img/gakvetilebi/buneba/lesson4/1366-285-flower-3-2.svg" alt="flower" id="Flower3-2">
+                            </div>
+                            <div class="circles bg_correct">
+                              <img src="../../../img/gakvetilebi/buneba/lesson4/1366-285-flower-3-1.svg" alt="flower" id="Flower3-3">
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-3 offset-1 new_start d-flex align-items-center justify-content-between">
-                    <div class="img_box d-flex flex-column justify-content-between h-100">
-                        <img src="../../../img/gakvetilebi/buneba/lesson4/1366-285-flower-1.png" alt="flower">
-                        <img src="../../../img/gakvetilebi/buneba/lesson4/1366-285-flower-3.svg" alt="flower">
-                        <img src="../../../img/gakvetilebi/buneba/lesson4/1366-285-flower-2.svg" alt="flower">
-                    </div>
-                    <div class="flex column z-index">
-                        <button id="resetBtn" class="reset__btn">თავიდან სცადე</button>
-                        <button id="completedGame" class="completed__btn">
-                            დასრულება
-                        </button>
-                    </div>
-                </div>
+                 <div class="col-3 offset-1 new_start d-flex align-items-center justify-content-between">
+                  <div class="img_box d-flex flex-column justify-content-between h-100">
+                      <img src="../../../img/gakvetilebi/buneba/lesson4/1366-285-flower-2-1.svg" alt="flower" id="Flower1">
+                      <img src="../../../img/gakvetilebi/buneba/lesson4/1366-285-flower-1-1.svg" alt="flower" id="Flower2">
+                      <img src="../../../img/gakvetilebi/buneba/lesson4/1366-285-flower-3-1.svg" alt="flower" id="Flower3">
+                  </div>
+              </div>
+
+
+          <div class="flex column z-index game_btns_position">
+                <button id="resetBtn" class="reset__btn">თავიდან სცადე</button>
+                <button id="completedGame" class="completed__btn">დასრულება</button>
+              </div>
+    
             </div>
+
+
             <div class="paging_buttons paging_buttons_position">
                 <a href="./N-1366-04-273.html">
                     <img src="../../../img/icons/chevron-down-logo.svg" alt="down arrow" class="paging_buttons_left" />
@@ -146,7 +166,10 @@
             </div>
         </div>
     </div>
-    <script src="../../../js/soundLang.js"></script>
+
+
+    <script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
+    <script src="../js/N-1366-04-270.js"></script>
 </body>
 
 </html>

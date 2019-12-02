@@ -58,8 +58,6 @@ function natureGames(){
         setTimeout(() => {
             e.target.className = "draggedElement"
         }, 0);
-
-        console.log(e.target);
     }
     
     
@@ -67,8 +65,6 @@ function natureGames(){
     this.dragEnd = e => {
         let elClassName = e.target.getAttribute('data-class');
         e.target.className = elClassName;
-
-        console.log(e.target);
     }
     
     
@@ -87,9 +83,6 @@ function natureGames(){
                 w.firstElementChild.appendChild(firstElement)
             }
         })
-
-        console.log(e.target);
-
     }
  
 
