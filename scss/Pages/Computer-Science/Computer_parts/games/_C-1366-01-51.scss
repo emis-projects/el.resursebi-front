@@ -1,0 +1,66 @@
+#C-1366-51{
+  .p{
+    font-size: 2.864vh;
+    font-family: 'BPG Arial', sans-serif;
+  }
+  .part_box p{
+    margin: 1.3vh 0 3.2vh 0;
+  }
+  .motherboard img{
+    height: 11.9vh;
+    max-height: 93px;
+  }
+  .HDD img{
+    height: 8.2vh;
+    max-height: 63px;
+  }
+  .UPS img{
+    height: 5.8vh;
+    max-height: 45px;
+  }
+  .procesor img{
+    height: 5.4vh;
+    max-height: 42px;
+  }
+  .table_box{
+    height: 63vh;
+    max-height: 505px;
+    position: relative;
+    .image-box{
+      position: absolute;
+      z-index: 5;
+      bottom: 0;
+      height: 53vh;
+      max-height: 410px;
+      img{
+        height: 100%;
+      }
+    }
+    .components_box{
+      position: absolute;
+      bottom: 0;
+      z-index: 10;
+      width: 19.5vw;
+      height: 31.9vh;
+      max-width: 326px;
+      max-height: 245px;
+      background: red;
+      left: 50%;
+      transform: translate(-50%);
+      .first-img-line{
+        img:first-child{
+          height: 14vh;
+          max-height: 109px;
+        }
+        img:last-child{
+          height: 13.6vh;
+          max-height: 105px;
+        }
+        p{
+          width: 5.2vw;
+          max-width: 55px;
+        }
+      }
+    }
+  }
+}

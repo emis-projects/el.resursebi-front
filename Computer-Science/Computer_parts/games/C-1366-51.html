@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- ყველა გვერდზე -->
+    <script src="../../../js/vue.js"></script>
+    <!--  ვუე გაშვებისას-->
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <link href="../../../scss/libraries/bootstrap.min.css" rel="stylesheet"/>
+    <link href="../../../scss/style.css" rel="stylesheet"/>
+    <title>ხელოვნება</title>
+</head>
+
+<body>
+<div class="container game-208">
+    <header id="app">
+        <nav class="row">
+            <app-logo v-logo="'../../../'"></app-logo>
+            <app-menu v-menu:dark="'../../../'"></app-menu>
+            <sound-lang></sound-lang>
+        </nav>
+    </header>
+    <section id="C-1366-51">
+        <div class="subject_component row margin-botton-5vh">
+            <div class="col-12 item_flex">
+                <div class="subject_component_itle_icon bg_bouble_blue d-flex justify-content-center align-items-center">
+                    <img alt="flag" src="../../../img/backgrounds/bg-ilustrations/ruler-blue.svg"/>
+                </div>
+                <h3 class="subject_component_title">სავარჯიშო</h3>
+            </div>
+        </div>
+        <div class="row w-100">
+            <div class="col-6 m-auto subject_question_item big-font-size-22px">
+                <img alt="" src="../../../img/gakvetilebi/xelovneba/btn-yellow.svg"/>
+                <span>როგორ და რაში იყენებენ უფროსები კომპიუტერს?</span>
+            </div>
+        </div>
+        <div class="row mt-5vh">
+            <div class="col-2 offset-1">
+                <div class="part_box">
+                    <div class="parts motherboard m-auto">
+                        <img alt="motherboard"
+                             src="../../../img/gakvetilebi/Computer-Science/Computer_parts/motherboard.png">
+                    </div>
+                    <p>დედაპლატა</p>
+                </div>
+                <div class="part_box">
+                    <div class="parts HDD m-auto">
+                        <img alt="HDD" src="../../../img/gakvetilebi/Computer-Science/Computer_parts/HDD.png">
+                    </div>
+                    <p>დედაპლატა</p>
+                </div>
+                <div class="part_box">
+                    <div class="parts UPS m-auto">
+                        <img alt="UPS" src="../../../img/gakvetilebi/Computer-Science/Computer_parts/UPS.png">
+                    </div>
+                    <p>დედაპლატა</p>
+                </div>
+                <div class="part_box">
+                    <div class="parts procesor m-auto">
+                        <img alt="procesor" src="../../../img/gakvetilebi/Computer-Science/Computer_parts/procesor.png">
+                    </div>
+                    <p>დედაპლატა</p>
+                </div>
+            </div>
+            <div class="col-8">
+                <div class="table_box">
+                    <div class="image-box">
+                        <img alt="table" src="../../../img/gakvetilebi/Computer-Science/Computer_parts/table.png">
+                        <div class="components_box">
+                            <div class="first-img-line d-flex justify-content-around">
+                                <img alt="ram"
+                                     src="../../../img/gakvetilebi/Computer-Science/Computer_parts/RAM.png">
+                                <img src="../../../img/gakvetilebi/Computer-Science/Computer_parts/speaker.png" alt="speaker">
+                            </div>
+                            <div class="first-img-line d-flex justify-content-around">
+                                <p>ოპერატიული მეხსიერება</p>
+                                <p>დინამიკი</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-end column align-items-end z-index reload_game_wrapper">
+            <button class="reset__btn" id="resetBtn">თავიდან სცადე</button>
+            <button class="completed__btn" id="completedGame">დასრულება</button>
+        </div>
+    </section>
+
+
+    <div class="subject_component_botton_illustration">
+        <div class="illustration_bg bg_blue_Down"></div>
+
+        <div class="subject_component_botton_bg_icon">
+            <img alt="" src="../../../img/backgrounds/bg-ilustrations/ruler-blue.svg">
+        </div>
+    </div>
+
+
+    <div class="paging_buttons paging_buttons_position">
+        <a href="./C-1366-46.html">
+            <img alt="" class="paging_buttons_left" src="../../../img/icons/chevron-down-logo.svg"/>
+        </a>
+        <a class="paging_buttons_margin-left" href="../1366-50.html">
+            <img alt="" class="paging_buttons_right" src="../../../img/icons/chevron-down-logo.svg"/>
+        </a>
+    </div>
+</div>
+
+<div id="chatBot">
+    <app-bot></app-bot>
+</div>
+
+<script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
+
+<script src="../../../Vue-Header/app.js"></script>
+<script src="../../../Vue-chatBot/test.js"></script>
+<script src="../../../js/bot.js"></script>
+</body>
+
+</html>
