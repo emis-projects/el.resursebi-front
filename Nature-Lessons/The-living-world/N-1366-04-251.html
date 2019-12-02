@@ -1,13 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<!-- ბოტის აიდიში ვუთითებთ: ხელოვნების - 2318, ბუნების - 2320, მუსიკის - 2292 -->
+<html lang="ka" data-botid="2320">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="../../scss/libraries/bootstrap.min.css" />
-    <link rel="stylesheet" href="../../scss/style.css" />
-    <title>ბუნება</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <!-- ყველა გვერდზე -->
+  <script src="../../js/vue.js"></script>
+  <!--  ვუე გაშვებისას
+    <script src="./js/vue.min.js"></script>
+     -->
+  <link rel="stylesheet" href="../../scss/libraries/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../../scss/libraries/owl.carousel.min.css" />
+  <link rel="stylesheet" type="text/css" href="../../scss/libraries/owl.theme.default.css" />
+  <link rel="stylesheet" href="../../scss/style.css" />
+  <title>ელექტრონული საგანმანათლებლო რესურსი</title>
 </head>
+
 
 <body>
     <div class="container">
@@ -33,6 +42,18 @@
         </div>
 
     </section>
+  <!-- ჩეთბოტი -->
+  <div id="chatBot">
+    <app-bot></app-bot>
+  </div>
+
+  <script src="../../js/libraries/jquery-3.4.1.min.js"></script>
+  <script src="../../js/libraries/bootstrap.min.js"></script>
+
+  <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
+  <script src="../../Vue-chatBot/botApp.js"></script>
+  <script src="../../js/bot.js"></script>
+
 </body>
 
 </html>
