@@ -9765,6 +9765,10 @@ section .arrow_up_down_downArrow img {
   margin-right: 3.66vw;
 }
 
+.w-15 {
+  width: 15% !important;
+}
+
 .canvas-container {
   width: 100% !important;
 }
@@ -9781,3 +9785,4 @@ section .arrow_up_down_downArrow img {
   display: -ms-flexbox;
   display: flex;
 }
+/*# sourceMappingURL=style.css.map */
