@@ -83,7 +83,18 @@ function Game() {
 
     // success page
     this.successPage = () => {
-        location.href = "success-page.html";
+        let loc = location.pathname;
+        
+        if(loc == "/Nature-Lessons/The-living-world/games/N-1366-04-270.html" || loc == "/el.resursebi-front/Nature-Lessons/The-living-world/games/N-1366-04-270.html"){
+            location.href = 'N-1366-04-270-success.html'
+
+        } else if(loc == "/Nature-Lessons/The-living-world/games/N-1366-04-273.html" || loc == "/el.resursebi-front//Nature-Lessons/The-living-world/games/N-1366-04-273.html"){
+            location.href = 'N-1366-04-273-success.html'
+            
+        } else if(loc == "/Nature-Lessons/The-living-world/games/N-1366-04-278.html" || loc == "/el.resursebi-front/Nature-Lessons/The-living-world/games/N-1366-04-278.html"){
+            location.href = 'N-1366-04-278-success.html'
+
+        }
     };
 
     // Drag and Drop functions

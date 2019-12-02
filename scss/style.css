@@ -8635,7 +8635,6 @@ section .arrow_up_down_downArrow img {
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   right: 10%;
-  opacity: 0;
 }
 
 .nature-game-season-changer-changer > img {
