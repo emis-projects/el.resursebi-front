@@ -25,6 +25,13 @@ function natureGames(){
         empty.addEventListener('drop', (e) => this.dragDrop(e));
     }
 
+    
+    document.addEventListener('DOMContentLoaded', () => {
+        document.querySelectorAll('.ask_question_game_box').forEach(w => {
+            w.setAttribute('data-class', w.getAttribute('class'))
+        })
+    })
+
 
     var myArray = [];
 
@@ -50,13 +57,13 @@ function natureGames(){
         $('.ask_question_game_box--first').append(firstH5);
 
         if(!firstH5.querySelector('.draggeble_h5')){
-            this.comeBackText('შეიძლება ის საშიში ნივთიერებისგან იყოს გაკეთებული', 2, firstH5)    
+            this.comeBackText(firstH5.getAttribute('data-title'), 2, firstH5)    
         }
         if(!secondH5.querySelector('.draggeble_h5')){
-            this.comeBackText('მოვიფიქროთ სიმბოლოები, რომლებიც ნივთიერებათა საშიშ თვისებების შესახებ აწვდის გაფრთხილებას ადამიანებს', 4, secondH5)
+            this.comeBackText(secondH5.getAttribute('data-title'), 4, secondH5)
         }
         if(!thirdH5.querySelector('.draggeble_h5')){
-            this.comeBackText('დავადგინოთ ის ნივთიერებები, რომლებიც საშიშია ადამიანისა და გარემოსათვის', 6, thirdH5)
+            this.comeBackText(thirdH5.getAttribute('data-title'), 6, thirdH5)
         }
     }
 

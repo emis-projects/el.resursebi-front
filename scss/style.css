@@ -8635,7 +8635,6 @@ section .arrow_up_down_downArrow img {
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   right: 10%;
-  opacity: 0;
 }
 
 .nature-game-season-changer-changer > img {
@@ -8857,6 +8856,43 @@ section .arrow_up_down_downArrow img {
           animation-duration: 1s;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
+}
+
+.check {
+  outline: none;
+  box-shadow: none;
+}
+.check:hover {
+  outline: none;
+  box-shadow: none;
+  color: #FFFFFF;
+}
+
+.btn {
+  color: #FFFFFF;
+  outline: none;
+}
+.btn:hover {
+  color: #FFFFFF;
+  box-shadow: none;
+  border: none;
+}
+.btn:focus {
+  outline: none;
+}
+.btn:visited {
+  outline: none;
+}
+
+.disabled {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+.btn.disabled, .btn:disabled {
+  box-shadow: none;
+  border: none;
 }
 
 .nature_plant-game-text {
