@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-botid="2292">
 
 <head>
   <meta charset="UTF-8" />
@@ -7,14 +7,18 @@
   <link rel="stylesheet" href="../../scss/libraries/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="../../scss/libraries/owl.carousel.min.css" />
   <link rel="stylesheet" type="text/css" href="../../scss/libraries/owl.theme.default.css" />
-  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+  <!-- ყველა გვერდზე -->
+  <script src="../../js/vue.js"></script>
+  <!--  ვუე გაშვებისას
+ <script src="./js/vue.min.js"></script>
+  -->
   <link rel="stylesheet" href="../../scss/style.css" />
   <title>ელექტრონული საგანმანათლებლო რესურსი</title>
 </head>
 
 <body>
   <div class="container" id="app">
-    <header>
+    <header id="app">
       <nav class="row">
         <app-logo v-logo="'../../'"></app-logo>
         <app-menu v-menu:dark="'../../'"></app-menu>
@@ -34,26 +38,32 @@
         <div class="col-11 offset-1">
           <div class="m_exercise_text-container m_game_text-container">
             <p style="margin-bottom:1.82vh">მოცემული მარშრუტის მიხედვით ფანჯარა Song-Editor-ში დაალაგე სემპლები.</p>
-            <p>ვიდრე შეუდგები დავალების შესრულებას გაეცანი<a class="a-blue" href="./M-1366-04-33.html"> ინსტრუქციას</a></p>
+            <p>ვიდრე შეუდგები დავალების შესრულებას გაეცანი<a class="a-blue" href="./M-1366-04-33.html"> ინსტრუქციას</a>
+            </p>
           </div>
         </div>
         <div class="col-10 d-flex offset-1 justify-content-between m-1366-04-32-divs-container align-items-end">
           <div class="m-1366-04-32-img-div">
-              <img src="../../img/gakvetilebi/musika/musical_city/m-1366-04-32-tower-medium.svg" alt="" class="m-1366-04-32-img-tower">
+            <img src="../../img/gakvetilebi/musika/musical_city/m-1366-04-32-tower-medium.svg" alt=""
+              class="m-1366-04-32-img-tower">
           </div>
           <div class="m-1366-04-32-img-div">
-              <img src="../../img/gakvetilebi/musika/musical_city/m-1366-04-32-park-medium.svg" alt="" class="m-1366-04-32-img-park">
+            <img src="../../img/gakvetilebi/musika/musical_city/m-1366-04-32-park-medium.svg" alt=""
+              class="m-1366-04-32-img-park">
           </div>
           <div class="m-1366-04-32-img-div">
-              <img src="../../img/gakvetilebi/musika/musical_city/m-1366-04-32-shop-medium.svg" alt="" class="m-1366-04-32-img-shop">
+            <img src="../../img/gakvetilebi/musika/musical_city/m-1366-04-32-shop-medium.svg" alt=""
+              class="m-1366-04-32-img-shop">
           </div>
           <div class="m-1366-04-32-img-div">
-              <img src="../../img/gakvetilebi/musika/musical_city/m-1366-04-32-min-tower-medium.svg" alt="" class="m-1366-04-32-img-min-tower">
+            <img src="../../img/gakvetilebi/musika/musical_city/m-1366-04-32-min-tower-medium.svg" alt=""
+              class="m-1366-04-32-img-min-tower">
           </div>
           <div class="m-1366-04-32-img-div">
-              <img src="../../img/gakvetilebi/musika/musical_city/m-1366-04-32-market-medium.svg" alt="" class="m-1366-04-32-img-market">
+            <img src="../../img/gakvetilebi/musika/musical_city/m-1366-04-32-market-medium.svg" alt=""
+              class="m-1366-04-32-img-market">
           </div>
-         </div>      
+        </div>
     </section>
 
     <div class="paging_buttons paging_buttons_position">
@@ -71,6 +81,9 @@
       </div>
     </div>
   </div>
+  <div id="chatBot">
+    <app-bot></app-bot>
+  </div>
 
 
   <script src="../../js/libraries/jquery-3.4.1.min.js"></script>
@@ -78,6 +91,8 @@
   <script src="../../js/libraries/owl.carousel.min.js"></script>
   <script src="../../js/slider.js"></script>
   <script src="../../Vue-Header/app.js"></script>
+  <script src="../../Vue-chatBot/test.js"></script>
+  <script src="../../js/bot.js"></script>
   <script src="../../Nature-Lessons/My_world/js/N-1366-54.js"></script>
 
 </body>

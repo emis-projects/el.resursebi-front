@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-botid="2292">
 
 <head>
   <meta charset="UTF-8" />
@@ -7,20 +7,23 @@
   <link rel="stylesheet" href="../../../scss/libraries/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="../../../scss/libraries/owl.carousel.min.css" />
   <link rel="stylesheet" type="text/css" href="../../../scss/libraries/owl.theme.default.css" />
-  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
-  <link rel="stylesheet" href="../../../scss/style.css" />
+<!-- ყველა გვერდზე -->
+<script src="../../../js/vue.js"></script>
+<!--  ვუე გაშვებისას
+<script src="./js/vue.min.js"></script>
+ -->  <link rel="stylesheet" href="../../../scss/style.css" />
   <title>ელექტრონული საგანმანათლებლო რესურსი</title>
 </head>
 
 <body>
   <div class="container" id="app">
-    <header>
+    <header id="app">
       <nav class="row">
-        <app-logo v-logo="'../../../'"></app-logo>
-        <app-menu v-menu:dark="'../../../'"></app-menu>
-        <sound-lang></sound-lang>
+          <app-logo v-logo="'../../../'"></app-logo>
+          <app-menu v-menu:dark="'../../../'"></app-menu>
+          <sound-lang></sound-lang>
       </nav>
-    </header>
+  </header>
     <section>
       <div class="subject_component row">
         <div class="col-12 item_flex">
@@ -33,54 +36,55 @@
       <div class="row">
         <div class="col-11 offset-1">
           <div class="m_exercise_text-container m_game_text-container">
-            <p>დააწკაპე ნომერს, მოუსმინე ბგერათა რიგიდან რამდენიმე ბგერას, დაადგინე, აღმავალი ბგერათა რიგია თუ დაღმვალი და დააწკაპე სათანადო ღილაკს</p>
+            <p>დააწკაპე ნომერს, მოუსმინე ბგერათა რიგიდან რამდენიმე ბგერას, დაადგინე, აღმავალი ბგერათა რიგია თუ დაღმვალი
+              და დააწკაპე სათანადო ღილაკს</p>
           </div>
         </div>
-   
+
 
         <div class="col-7  m-1366-04-19-container-cols offset-1">
           <div class="musical_notes_game-container flex-wrap">
             <div class="col ">
-                <button class=" m-1366-04-19-notes-circle-button m-auto">
-                    <img src="../../../img/gakvetilebi/musika/MV-1366-14-1.svg" alt="">
-                  <img src="../../../img/gakvetilebi/musika/press-button-extra-small.svg" alt=""
-                    class="musical_notes_game-press-button-extra-small margin-right">
-                </button>
-            <button class="m-1366-04-20-notes-button error">
-              ბგერათა რიგი
-            </button>
-            <button class="m-1366-04-20-notes-button">
-                ბგერათა რიგი
-              </button>
-          </div>
-          <div class="col">
               <button class=" m-1366-04-19-notes-circle-button m-auto">
-                  <img src="../../../img/gakvetilebi/musika/MV-1366-14-2.svg" alt="">
+                <img src="../../../img/gakvetilebi/musika/MV-1366-14-1.svg" alt="">
                 <img src="../../../img/gakvetilebi/musika/press-button-extra-small.svg" alt=""
                   class="musical_notes_game-press-button-extra-small margin-right">
               </button>
-            <button class="m-1366-04-20-notes-button">
-              ბგერათა რიგი
-            </button>
-            <button class="m-1366-04-20-notes-button success">
+              <button class="m-1366-04-20-notes-button error">
+                ბგერათა რიგი
+              </button>
+              <button class="m-1366-04-20-notes-button">
                 ბგერათა რიგი
               </button>
             </div>
             <div class="col">
-                <button class=" m-1366-04-19-notes-circle-button m-auto">
-                    <img src="../../../img/gakvetilebi/musika/MV-1366-14-3.svg" alt="">
-                  <img src="../../../img/gakvetilebi/musika/press-button-extra-small.svg" alt=""
-                    class="musical_notes_game-press-button-extra-small margin-right">
-                </button>
-            <button class="m-1366-04-20-notes-button selected">
-              ბგერათა რიგი
-            </button>
-            <button class="m-1366-04-20-notes-button ">
+              <button class=" m-1366-04-19-notes-circle-button m-auto">
+                <img src="../../../img/gakvetilebi/musika/MV-1366-14-2.svg" alt="">
+                <img src="../../../img/gakvetilebi/musika/press-button-extra-small.svg" alt=""
+                  class="musical_notes_game-press-button-extra-small margin-right">
+              </button>
+              <button class="m-1366-04-20-notes-button">
+                ბგერათა რიგი
+              </button>
+              <button class="m-1366-04-20-notes-button success">
+                ბგერათა რიგი
+              </button>
+            </div>
+            <div class="col">
+              <button class=" m-1366-04-19-notes-circle-button m-auto">
+                <img src="../../../img/gakvetilebi/musika/MV-1366-14-3.svg" alt="">
+                <img src="../../../img/gakvetilebi/musika/press-button-extra-small.svg" alt=""
+                  class="musical_notes_game-press-button-extra-small margin-right">
+              </button>
+              <button class="m-1366-04-20-notes-button selected">
+                ბგერათა რიგი
+              </button>
+              <button class="m-1366-04-20-notes-button ">
                 ბგერათა რიგი
               </button>
             </div>
           </div>
-        </div>     
+        </div>
 
     </section>
 
@@ -105,13 +109,20 @@
       </div>
     </div>
   </div>
+  <div id="chatBot">
+    <app-bot></app-bot>
+  </div>
 
 
   <script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
   <script src="../../../js/libraries/bootstrap.min.js"></script>
   <script src="../../../js/libraries/owl.carousel.min.js"></script>
   <script src="../../../js/slider.js"></script>
+  <script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
+  <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
   <script src="../../../Vue-Header/app.js"></script>
+  <script src="../../../Vue-chatBot/test.js"></script>
+  <script src="../../../js/bot.js"></script>
   <script src="../../../Nature-Lessons/My_world/js/N-1366-54.js"></script>
 
 </body>
