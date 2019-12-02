@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-botid="2292">
 
 <head>
   <meta charset="UTF-8" />
@@ -7,14 +7,18 @@
   <link rel="stylesheet" href="../../../scss/libraries/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="../../../scss/libraries/owl.carousel.min.css" />
   <link rel="stylesheet" type="text/css" href="../../../scss/libraries/owl.theme.default.css" />
-  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+  <!-- ყველა გვერდზე -->
+  <script src="../../../js/vue.js"></script>
+  <!--  ვუე გაშვებისას
+<script src="./js/vue.min.js"></script>
+ -->
   <link rel="stylesheet" href="../../../scss/style.css" />
   <title>ელექტრონული საგანმანათლებლო რესურსი</title>
 </head>
 
 <body>
   <div class="container" id="app">
-    <header>
+    <header id="app">
       <nav class="row">
         <app-logo v-logo="'../../../'"></app-logo>
         <app-menu v-menu:dark="'../../../'"></app-menu>
@@ -33,7 +37,7 @@
       <div class="row">
         <div class="col-11 offset-1">
           <div class="m_exercise_text-container m_game_text-container">
-            <p>დააწკაპე ღილაკს “დაღმავალი”, მოუსმინე დაღმავალი ბგერათარიგის გარკვეულ ბგერათა ჯგუფს.</br> 
+            <p>დააწკაპე ღილაკს “დაღმავალი”, მოუსმინე დაღმავალი ბგერათარიგის გარკვეულ ბგერათა ჯგუფს.</br>
               შემდეგ დააწკაპე ქვედა ღილაკებს და ამოიცანი ამ ბგერათა ჯგუფის ყველაზე დაბალი და ყველაზე მაღალი ბგერა.</p>
           </div>
         </div>
@@ -43,7 +47,7 @@
               <div class="M-1366-04-22-col-container d-flex flex-column">
                 <div class="m-1366-04-22-notes-button-div m-auto">
                   <button class="m-1366-04-20-notes-button">
-                      დაღმავალი
+                    დაღმავალი
                     <img src="../../../img/gakvetilebi/musika/press-button-extra-small.svg" alt=""
                       class="musical_notes_game-press-button-extra-small">
                   </button>
@@ -52,7 +56,7 @@
                   <button class=" m-1366-04-19-notes-circle-button m-1366-04-22-notes-button-circle error">
                     <img src="../../../img/gakvetilebi/musika/press-button-extra-small.svg" alt=""
                       class="musical_notes_game-press-button-extra-small margin-right">
-                  </button> 
+                  </button>
                   <button class=" m-1366-04-19-notes-circle-button m-1366-04-22-notes-button-circle">
                     <img src="../../../img/gakvetilebi/musika/press-button-extra-small.svg" alt=""
                       class="musical_notes_game-press-button-extra-small margin-right">
@@ -69,7 +73,7 @@
               <div class="M-1366-04-22-col-container d-flex flex-column">
                 <div class="m-1366-04-22-notes-button-div m-auto">
                   <button class="m-1366-04-20-notes-button">
-                      დაღმავალი
+                    დაღმავალი
                     <img src="../../../img/gakvetilebi/musika/press-button-extra-small.svg" alt=""
                       class="musical_notes_game-press-button-extra-small">
                   </button>
@@ -78,7 +82,7 @@
                   <button class=" m-1366-04-19-notes-circle-button m-1366-04-22-notes-button-circle success">
                     <img src="../../../img/gakvetilebi/musika/press-button-extra-small.svg" alt=""
                       class="musical_notes_game-press-button-extra-small margin-right">
-                  </button> 
+                  </button>
                   <button class=" m-1366-04-19-notes-circle-button m-1366-04-22-notes-button-circle">
                     <img src="../../../img/gakvetilebi/musika/press-button-extra-small.svg" alt=""
                       class="musical_notes_game-press-button-extra-small margin-right">
@@ -95,7 +99,7 @@
               <div class="M-1366-04-22-col-container d-flex flex-column">
                 <div class="m-1366-04-22-notes-button-div m-auto">
                   <button class="m-1366-04-20-notes-button">
-                      დაღმავალი
+                    დაღმავალი
                     <img src="../../../img/gakvetilebi/musika/press-button-extra-small.svg" alt=""
                       class="musical_notes_game-press-button-extra-small">
                   </button>
@@ -104,7 +108,7 @@
                   <button class=" m-1366-04-19-notes-circle-button m-1366-04-22-notes-button-circle selected">
                     <img src="../../../img/gakvetilebi/musika/press-button-extra-small.svg" alt=""
                       class="musical_notes_game-press-button-extra-small margin-right">
-                  </button> 
+                  </button>
                   <button class=" m-1366-04-19-notes-circle-button m-1366-04-22-notes-button-circle">
                     <img src="../../../img/gakvetilebi/musika/press-button-extra-small.svg" alt=""
                       class="musical_notes_game-press-button-extra-small margin-right">
@@ -116,7 +120,7 @@
                 </div>
               </div>
             </div>
-        
+
           </div>
         </div>
 
@@ -144,13 +148,18 @@
       </div>
     </div>
   </div>
-
+  <div id="chatBot">
+    <app-bot></app-bot>
+  </div>
 
   <script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
   <script src="../../../js/libraries/bootstrap.min.js"></script>
   <script src="../../../js/libraries/owl.carousel.min.js"></script>
   <script src="../../../js/slider.js"></script>
+  <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
   <script src="../../../Vue-Header/app.js"></script>
+  <script src="../../../Vue-chatBot/test.js"></script>
+  <script src="../../../js/bot.js"></script>
   <script src="../../../Nature-Lessons/My_world/js/N-1366-54.js"></script>
 
 </body>
