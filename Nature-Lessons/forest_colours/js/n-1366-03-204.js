@@ -20,7 +20,7 @@ function natureColor() {
         
             // rotating
             if (this.getAttribute('id') === 'question1') {
-                img.setAttribute('style', `transform: rotate(${count * 90 + 90}deg); transition-duration: 2s`)
+                img.setAttribute('style', `transform: rotate(${count * 90 + 90}deg); transition-duration: 1s`)
                 count += 1
                 insertImg(count)
             }
@@ -31,13 +31,13 @@ function natureColor() {
             }
 
             else if (this.getAttribute('id') === 'question3') {
-                img.setAttribute('style', `transform: rotate(${count * 90 + 270}deg); transition-duration: 3s`)
+                img.setAttribute('style', `transform: rotate(${count * 90 + 270}deg); transition-duration: 1s`)
                 count += 3
                 insertImg(count)
             }
             
             else if (this.getAttribute('id') === 'question4') {
-                img.setAttribute('style', `transform: rotate(${count * 90 + 180}deg); transition-duration: 2.5s`)
+                img.setAttribute('style', `transform: rotate(${count * 90 + 180}deg); transition-duration: 1s`)
                 count += 2
                 insertImg(count)
             }
@@ -45,7 +45,7 @@ function natureColor() {
 
 
     function insertImg(count) {
-        var num = count % 4
+        var num = count % 3
         document.querySelector('.offset-3').innerHTML = ''
         var svg = document.createElement('img')
 

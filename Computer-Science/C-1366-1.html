@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!-- კომ აიდი -->
+<html lang="en" data-botid="2318">
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <script src="../js/vue.js"></script>
+    <!--  ვუე გაშვებისას
+    <script src="../js/vue.min.js"></script>
+     -->
+    <link rel="stylesheet" href="../scss/libraries/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../scss/libraries/owl.carousel.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../scss/libraries/owl.theme.default.css"/>
+    <link rel="stylesheet" href="../scss/style.css"/>
+    <title>ელექტრონული საგანმანათლებლო რესურსი</title>
+</head>
+
+<body>
+<div class="container" >
+
+    <!-- საერთო ჰედერი -->
+    <header id="app">
+        <nav class="row">
+            <app-logo v-logo="'../'"></app-logo>
+            <app-menu v-menu:light="'../'"></app-menu>
+            <sound-lang></sound-lang>
+        </nav>
+    </header>
+    <div class="main-box_absolute">
+        <div class="main-box_relative">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img src="../img/gakvetilebi/Computer-Science/comp-parts-1.png" alt="computer parts"/>
+                </div>
+                <div class="item">
+                    <img src="../img/gakvetilebi/Computer-Science/comp-parts-2.png" alt="computer parts"/>
+                </div>
+            </div>
+            <div class="d-flex flex-column text-wrapper align-items-center">
+                <div class="d-flex ">
+                    <img src="../img/icons/color-story_white.svg" alt="color story"/>
+                    <p>კომპიუტერი და მისი შემადგენილი ნაწილები</p>
+                </div>
+                <a href="1366-12.html" class="icon-box d-flex align-items-center justify-content-center">
+                    <img src="../img/icons/chevron-down.svg"/>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ჩეთბოტისაა -->
+<div id="chatBot">
+    <app-bot></app-bot>
+</div>
+
+
+
+<script src="../js/libraries/jquery-3.4.1.min.js"></script>
+<script src="../js/libraries/bootstrap.min.js"></script>
+<script src="../js/libraries/owl.carousel.min.js"></script>
+<script>
+    $(".owl-carousel").owlCarousel({
+        loop: true,
+        items: 1,
+        margin: 10,
+        autoplay: true,
+        autoplayTimeout: 3500,
+        pagination: false,
+        dots: false,
+        lazyLoad: true
+    });
+</script>
+
+<!-- ჩეთბოტისაა -->
+<script src="../Vue-Header/app.js"></script>
+<script src="../Vue-chatBot/botApp.js"></script>
+<script src="../js/bot.js"></script>
+
+
+</body>
+
+</html>
