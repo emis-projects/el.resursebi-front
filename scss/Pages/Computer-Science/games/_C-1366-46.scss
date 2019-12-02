@@ -1,0 +1,16 @@
+#C-1366-40{
+  p{
+    font-size: 2.864vh;
+    font-family: 'BPG Arial', sans-serif;
+  }
+  .text_drop_box{
+    margin-bottom: 5vh;
+    position: relative;
+    &-bg{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+    }
+  }
+}
