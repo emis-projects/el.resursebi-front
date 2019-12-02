@@ -7,7 +7,7 @@ Vue.component('appBot', {
   template: `
       <div class="fabs" :class="{'is-visible': botShow}">
           <transition name="slide">
-                <div class="chat animated" :class="[{slideInRight : botShow}, {slideOutRight: !botShow}]" v-if="botShow">
+                <div class="chat animated" :class="[{slideInRight : botShow}, {slideOutRight: !botShow}]" v-show="botShow">
                   <div class="chat_header">
                     <div class="chat_head">Chat</div>
                   </div>
@@ -16,7 +16,7 @@ Vue.component('appBot', {
                         <input autocomplete="off" id="chatSend" type="text" name="chat_message" placeholder="Send a message"
                           class="chat_field chat_message">
                         <button id="sendMessage" type="submit" class="send__mail"
-                          >
+                          style="outline: none; border: 0; background: transparent; display: inline-block; vertical-align: middle; fill: #bbb; cursor: pointer">
                           <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 24 24">
                             <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z" />
                             <path d="M0 0h24v24H0z" fill="none" /></svg>
@@ -31,6 +31,6 @@ Vue.component('appBot', {
     `,
 });
 
-var bot = new Vue({
+new Vue({
   el: '#chatBot'
 });
