@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- ყველა გვერდზე -->
+    <script src="../../../js/vue.js"></script>
+    <!--  ვუე გაშვებისას-->
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <link href="../../../scss/libraries/bootstrap.min.css" rel="stylesheet"/>
+    <link href="../../../scss/style.css" rel="stylesheet"/>
+    <title>ხელოვნება</title>
+</head>
+
+<body>
+<div class="container game-208">
+    <header id="app">
+        <nav class="row">
+            <app-logo v-logo="'../../'"></app-logo>
+            <app-menu v-menu:dark="'../../'"></app-menu>
+            <sound-lang></sound-lang>
+        </nav>
+    </header>
+    <section>
+        <div class="subject_component row margin-botton-5vh">
+            <div class="col-12 item_flex">
+                <div class="subject_component_itle_icon bg_bouble_pink d-flex justify-content-center align-items-center">
+                    <img alt="flag" src="../../../img/backgrounds/bg-ilustrations/hand.svg"/>
+                </div>
+                <h3 class="subject_component_title">სავარჯიშო</h3>
+            </div>
+        </div>
+
+        <section class="game__section game-208-container flex justify-between" id="C-1366-40">
+            <div class="row w-100">
+                <div class="col-11 offset-1">
+                    <p>დაალაგე შესაბამის თაროზე.</p>
+                </div>
+                <div class="col-6">
+                    <div class="image_drop_box d-flex flex-column">
+                        <div class="text_drop_box">
+                            <div class="text_drop_box-bg">
+                                <img src="../../../img/gakvetilebi/Computer-Science/Computer_parts/shell-146.png" alt="shell">
+                                <img src="../../../img/gakvetilebi/Computer-Science/Computer_parts/146-1.png" alt="de">
+                            </div>
+                        </div>
+                        <div class="text_drop_box">
+                            <div class="text_drop_box-bg">
+                                <img src="../../../img/gakvetilebi/Computer-Science/Computer_parts/shell-146.png" alt="shell">
+                                <img src="../../../img/gakvetilebi/Computer-Science/Computer_parts/146-2.png" alt="de">
+                            </div>
+                        </div>
+                        <div class="text_drop_box">
+                            <div class="text_drop_box-bg">
+                                <img src="../../../img/gakvetilebi/Computer-Science/Computer_parts/shell-146.png" alt="shell">
+                                <img src="../../../img/gakvetilebi/Computer-Science/Computer_parts/146-3.png" alt="de">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="drag_texts d-flex flex-column justify-content-around">
+                        <p>ფლეშ მეხსიერება</p>
+                        <p>მონიტორი</p>
+                        <p>მიკროფონი</p>
+                        <p>დედაპლატა</p>
+                        <p>პროცესორი</p>
+                        <p>კლავიატურა</p>
+                        <p>თაგვი</p>
+                        <p>დინამიკი</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex flex-end column align-items-end z-index reload_game_wrapper">
+                <button id="resetBtn" class="reset__btn">თავიდან სცადე</button>
+                <button id="completedGame" class="completed__btn">დასრულება</button>
+            </div>
+        </section>
+
+
+        <div class="subject_component_botton_illustration">
+            <div class="illustration_bg bg_pink_Down"></div>
+
+            <div class="subject_component_botton_bg_icon">
+                <img alt="" src="../../../img/backgrounds/savarjisho-bg.svg">
+            </div>
+        </div>
+
+
+        <div class="paging_buttons paging_buttons_position">
+            <a href="./C-1366-46.html">
+                <img alt="" class="paging_buttons_left" src="../../../img/icons/chevron-down-logo.svg"/>
+            </a>
+            <a class="paging_buttons_margin-left" href="../1366-50.html">
+                <img alt="" class="paging_buttons_right" src="../../../img/icons/chevron-down-logo.svg"/>
+            </a>
+        </div>
+</div>
+
+<div id="chatBot">
+    <app-bot></app-bot>
+</div>
+
+<script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
+
+<script src="../../../Vue-Header/app.js"></script>
+<script src="../../../Vue-chatBot/test.js"></script>
+<script src="../../../js/bot.js"></script>
+</body>
+
+</html>
