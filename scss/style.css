@@ -9765,6 +9765,18 @@ section .arrow_up_down_downArrow img {
   margin-right: 3.66vw;
 }
 
+.M-1366-04-13-note-put-container {
+  position: absolute;
+  height: 4.99vh;
+  width: 9.36vw;
+  bottom: 1.3vh;
+  left: 1.83vw;
+}
+
+.M-1366-04-13-note-put-container img {
+  margin: 0 auto;
+}
+
 .canvas-container {
   width: 100% !important;
 }
@@ -9781,3 +9793,4 @@ section .arrow_up_down_downArrow img {
   display: -ms-flexbox;
   display: flex;
 }
+/*# sourceMappingURL=style.css.map */
