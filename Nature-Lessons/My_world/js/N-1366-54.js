@@ -143,7 +143,19 @@ function natureGames(){
     // success page
 	this.successPage  = () => {
 		if(this.error === false){
-		    location.href = 'nature-2-success.html';
+            let loc = location.pathname;
+
+            if(loc == "/Nature-Lessons/My_world/games/N-1366-54.html" || loc == "/el.resursebi-front/Nature-Lessons/My_world/games/N-1366-54.html"){
+                location.href = "nature-2-success.html"
+
+            } else if(loc == "/Nature-Lessons/invisible_forces/games/N-1366-117.html" || loc == "/el.resursebi-front/Nature-Lessons/invisible_forces/games/N-1366-117.html"){
+                location.href = "N-1366-117-success.html"
+
+            } else if(loc == "/Nature-Lessons/forest_colours/games/N-1366-03-194.html" || loc == "/el.resursebi-front/Nature-Lessons/forest_colours/games/N-1366-03-194.html"){
+                location.href = "N-1366-03-194-success.html"
+            }
+            
+
         }
 	}
     
