@@ -9827,6 +9827,11 @@ section .arrow_up_down_downArrow img {
   width: 15% !important;
 }
 
+.comp_mouse-img {
+  height: 24.50vh;
+  margin: 3vh auto 0;
+}
+
 .canvas-container {
   width: 100% !important;
 }
