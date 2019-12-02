@@ -6,6 +6,7 @@ function natureGames(){
     var secondH5 = document.querySelector('.ask_question_game_box--second');
     var thirdH5 = document.querySelector('.ask_question_game_box--third');
     
+
     // variables
     var draggedElement = $('.ask_question_game_box');
     var empties = document.querySelectorAll('.dropDiv');
@@ -29,6 +30,7 @@ function natureGames(){
     document.addEventListener('DOMContentLoaded', () => {
         document.querySelectorAll('.ask_question_game_box').forEach(w => {
             w.setAttribute('data-class', w.getAttribute('class'))
+            w.setAttribute('data-title', w.querySelector('.draggeble_h5').innerText)
         })
     })
 
@@ -109,7 +111,6 @@ function natureGames(){
 
     // drop 
     this.dragDrop = e => {
-        console.log(e.target);
         let draggedEl = document.querySelector('.draggedElement').querySelector('h5');
         let draggedElIndex = parseInt(draggedEl.getAttribute('data-index'));
 

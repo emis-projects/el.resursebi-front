@@ -3905,6 +3905,7 @@ section .arrow_up_down_downArrow img {
   width: 100%;
   height: 100%;
   background: transparent;
+  z-index: 100000000000;
 }
 
 .ask_question_game .ask_question_game_box--sm {
@@ -9830,4 +9831,3 @@ section .arrow_up_down_downArrow img {
   display: -ms-flexbox;
   display: flex;
 }
-/*# sourceMappingURL=style.css.map */
