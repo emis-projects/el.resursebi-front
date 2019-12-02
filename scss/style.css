@@ -8858,6 +8858,43 @@ section .arrow_up_down_downArrow img {
           animation-fill-mode: both;
 }
 
+.check {
+  outline: none;
+  box-shadow: none;
+}
+.check:hover {
+  outline: none;
+  box-shadow: none;
+  color: #FFFFFF;
+}
+
+.btn {
+  color: #FFFFFF;
+  outline: none;
+}
+.btn:hover {
+  color: #FFFFFF;
+  box-shadow: none;
+  border: none;
+}
+.btn:focus {
+  outline: none;
+}
+.btn:visited {
+  outline: none;
+}
+
+.disabled {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+.btn.disabled, .btn:disabled {
+  box-shadow: none;
+  border: none;
+}
+
 .nature_plant-game-text {
   color: #0b2228;
   font-size: 2.34vh;

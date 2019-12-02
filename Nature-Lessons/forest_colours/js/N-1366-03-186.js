@@ -61,17 +61,19 @@ check.addEventListener('click', () => {
             if (greenTrees[i] !== green[i] && greenTrees.length !== 2){
                $('.green_box').addClass('animated bounce');
                $('.green_box').css('background', '#ff3a24');
+               $('#check').addClass('disabled');
             }else if(greenTrees[i] === green[i]){ // თუ მარადმწვანე ჯგუფი სწორადაა შევსებული სტილების მოხსნა
                $('.green_box').removeClass('animated bounce danger');
-               $('.green_box').css('background', '#ff3a24');
+               $('.green_box').css('background', '');
             }
             // თუ არამარადმწვანე ჯგუფი არაა სწორად შევსებული ან ცარიელია
             if(yellowTree[j] !== yellow[j] && yellowTree.length !== 7){
                $('.yellow_box').addClass('animated bounce danger');
                $('.yellow_box').css('background', '#ff3a24');
+               $('#check').addClass('disabled');
             }else if(yellowTree[j] !== yellow[j]){  // თუ არამარადმწვანე ჯგუფი სწორადაა შევსებული სტილების მოხსნა
                $('.yellow_box').removeClass('animated bounce danger');
-               $('.yellow_box').css('background', '#ff3a24');
+               $('.yellow_box').css('background', '');
             }
          }
       }
@@ -97,4 +99,5 @@ function reset() {
    $('.green_box').css('background', '');
    $('.yellow_box').removeClass('animated bounce');
    $('.yellow_box').css('background', '');
+   $('#check').removeClass('disabled');
 }
