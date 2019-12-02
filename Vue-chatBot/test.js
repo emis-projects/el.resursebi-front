@@ -1,6 +1,8 @@
 Vue.component('appBot', {
-  props: {
-    botShow: Boolean,
+  data(){
+    return{
+      botShow: false
+    }
   },
   template: `
       <div class="fabs" :class="{'is-visible': botShow}">
@@ -33,7 +35,6 @@ var bot = new Vue({
   el: '#chatBot',
   data: {
     show: false,
-    userText: ''
   }
 });
 

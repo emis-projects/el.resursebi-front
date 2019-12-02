@@ -89,3 +89,37 @@
   animation-duration: 1s;
   animation-fill-mode: both;
 }
+.check{
+  outline: none;
+  box-shadow: none;
+  &:hover{
+    outline: none;
+    box-shadow: none;
+    color: #FFFFFF;
+  }
+}
+.btn{
+  color: #FFFFFF;
+  outline: none;
+  &:hover{
+    color: #FFFFFF;
+    box-shadow: none;
+    border: none;
+  }
+  &:focus {
+    outline: none;
+  }
+  &:visited {
+    outline: none;
+  }
+}
+.disabled{
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+.btn.disabled, .btn:disabled{
+  box-shadow: none;
+  border: none;
+}
+
