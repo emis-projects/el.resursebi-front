@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-botid="2292">
 
 <head>
   <meta charset="UTF-8" />
@@ -7,14 +7,14 @@
   <link rel="stylesheet" href="../../../scss/libraries/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="../../../scss/libraries/owl.carousel.min.css" />
   <link rel="stylesheet" type="text/css" href="../../../scss/libraries/owl.theme.default.css" />
-  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+  <script src="../../../js/vue.js"></script>
   <link rel="stylesheet" href="../../../scss/style.css" />
   <title>ელექტრონული საგანმანათლებლო რესურსი</title>
 </head>
 
 <body class="bg-pink">
   <div class="container" id="app">
-    <header>
+    <header id="app">
       <nav class="row">
         <app-logo v-logo="'../../../'"></app-logo>
         <app-menu v-menu:dark="'../../../'"></app-menu>
@@ -75,7 +75,8 @@
           <div class="row">
             <div class="col-6">
               <div class="noteWithNumb-cont">
-                <div class="car_game_white_circle"><img src="../../../img/gakvetilebi/musika/MV-1366-14-1.svg" alt=""></div>
+                <div class="car_game_white_circle"><img src="../../../img/gakvetilebi/musika/MV-1366-14-1.svg" alt="">
+                </div>
                 <img class="noteWithNumb-img" src="../../../img/gakvetilebi/musika/musical_city/M-04-9-1.svg" alt="">
               </div>
             </div>
@@ -88,7 +89,8 @@
             </div>
             <div class="col-6">
               <div class="noteWithNumb-cont">
-                <div class="car_game_white_circle"><img src="../../../img/gakvetilebi/musika/MV-1366-14-3.svg" alt=""></div>
+                <div class="car_game_white_circle"><img src="../../../img/gakvetilebi/musika/MV-1366-14-3.svg" alt="">
+                </div>
                 <img class="noteWithNumb-img" src="../../../img/gakvetilebi/musika/musical_city/M-04-9-3.svg" alt="">
               </div>
             </div>
@@ -124,12 +126,17 @@
       </div>
     </div>
   </div>
+  <div id="chatBot">
+    <app-bot></app-bot>
+  </div>
 
   <script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
   <script src="../../../js/libraries/bootstrap.min.js"></script>
   <script src="../../../js/libraries/owl.carousel.min.js"></script>
   <script src="../../../js/slider.js"></script>
   <script src="../../../Vue-Header/app.js"></script>
+  <script src="../../../Vue-chatBot/test.js"></script>
+  <script src="../../../js/bot.js"></script>
   <script src="../../../Nature-Lessons/My_world/js/N-1366-54.js"></script>
 
 </body>
