@@ -8860,11 +8860,14 @@ section .arrow_up_down_downArrow img {
 
 .check {
   outline: none;
-  box-shadow: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
+
 .check:hover {
   outline: none;
-  box-shadow: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
   color: #FFFFFF;
 }
 
@@ -8872,14 +8875,18 @@ section .arrow_up_down_downArrow img {
   color: #FFFFFF;
   outline: none;
 }
+
 .btn:hover {
   color: #FFFFFF;
-  box-shadow: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
   border: none;
 }
+
 .btn:focus {
   outline: none;
 }
+
 .btn:visited {
   outline: none;
 }
@@ -8887,11 +8894,13 @@ section .arrow_up_down_downArrow img {
 .disabled {
   outline: none;
   border: none;
-  box-shadow: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .btn.disabled, .btn:disabled {
-  box-shadow: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
   border: none;
 }
 
