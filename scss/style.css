@@ -8615,6 +8615,65 @@ section .arrow_up_down_downArrow img {
   height: 100%;
 }
 
+.C-1366-01-08-img-container {
+  height: 59.5vh;
+}
+.C-1366-01-08-img-container img {
+  height: 100%;
+}
+
+.C-1366-01-08-img-container-col {
+  padding-top: 7.19vh;
+}
+
+.C-1366-01-12-img-container {
+  height: 46.87vh;
+}
+.C-1366-01-12-img-container img {
+  height: 100%;
+}
+
+.C-1366-01-12-img-container-col {
+  padding-top: 3.67vh;
+}
+
+.C-1366-01-14-purple-man-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 50vh;
+}
+.C-1366-01-14-purple-man-container img {
+  height: 100%;
+}
+
+.C-1366-01-14-txt-container {
+  margin-top: 5.47vh;
+  padding-left: 0px;
+}
+.C-1366-01-14-txt-container p {
+  line-height: 30px;
+}
+
+.C-1366-01-14-computer-parts-container {
+  height: 38.41vh;
+}
+.C-1366-01-14-computer-parts-container img {
+  height: 100%;
+}
+
+.C-1366-01-14-computer-text-container p {
+  line-height: 50px;
+}
+
+.C-1366-01-15-cols-container {
+  margin-top: 4.29vh;
+}
+
+.C-1366-01-15-row-container {
+  margin-top: 1.82vh;
+}
+
 .comp_mouse-img {
   height: 24.5vh;
   margin: 3vh auto 0;
@@ -8717,6 +8776,31 @@ section .arrow_up_down_downArrow img {
 }
 #C-1366-28 .input_box .container input:checked ~ .checkmark:after {
   display: block;
+}
+
+.background-cs-53 {
+  background-image: url("../../../../img/gakvetilebi/Computer-Science/Computer_parts/CP-53.svg");
+}
+.background-cs-54 {
+  background-image: url("../../../../img/gakvetilebi/Computer-Science/Computer_parts/CP-54.svg");
+}
+.background-cs-55 {
+  background-image: url("../../../../img/gakvetilebi/Computer-Science/Computer_parts/CP-55.svg");
+}
+.background-cs-full-title {
+  color: #5F73B3;
+  font-size: 3.64vh;
+  font-family: "DejaVu Sans Oblique";
+}
+.background-cs-full-title--mt {
+  margin-top: 15vh;
+}
+
+.white_circle_mid {
+  width: 4.55vh;
+  height: 4.55vh;
+  position: static;
+  margin-right: 2vw;
 }
 
 .canvas-container {
