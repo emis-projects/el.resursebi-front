@@ -7834,6 +7834,9 @@ section .arrow_up_down_downArrow img {
 .m4-10-img {
   width: 85%;
 }
+.m4-10-img img {
+  height: 40vh;
+}
 
 .musical_notes_game-container {
   display: flex;
