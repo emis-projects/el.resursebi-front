@@ -14,7 +14,7 @@
 
 <body class="bg-pink">
   <div class="container">
-    <header>
+    <header id="app">
       <nav class="row">
         <app-logo v-logo="'../../'"></app-logo>
         <app-menu v-menu:dark="'../../'"></app-menu>
@@ -75,13 +75,16 @@
     </div>
   </div>
 
-  <script src="../../js/libraries/jquery-3.4.1.min.js"></script>
-  <script src="../../js/libraries/bootstrap.min.js"></script>
-  <script src="../../js/libraries/owl.carousel.min.js"></script>
-  <script src="../../js/slider.js"></script>
-  <script src="../../Vue-Header/app.js"></script>
-  <script src="../../Nature-Lessons/My_world/js/N-1366-54.js"></script>
+<div id="chatBot">
+  <app-bot></app-bot>
+</div>
 
+<script src="../../js/libraries/jquery-3.4.1.min.js"></script>
+<script src="../../js/libraries/bootstrap.min.js"></script>
+<!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
+<script src="../../Vue-Header/app.js"></script>
+<script src="../../Vue-chatBot/test.js"></script>
+<script src="../../js/bot.js"></script>
 </body>
 
 </html>
