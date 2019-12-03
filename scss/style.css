@@ -10072,6 +10072,10 @@ section .arrow_up_down_downArrow img {
   height: 50vh;
 }
 
+.C-1366-01-14-purple-man-container.bg {
+  height: 62.89vh;
+}
+
 .C-1366-01-14-purple-man-container img {
   height: 100%;
 }
@@ -10108,6 +10112,39 @@ section .arrow_up_down_downArrow img {
 .comp_mouse-img {
   height: 24.50vh;
   margin: 3vh auto 0;
+}
+
+.C-1366-01-18-cols-container {
+  padding-top: 5.07vh;
+}
+
+.C-1366-01-18-cols-container .subject_question_item {
+  margin-top: 2.6vh;
+}
+
+.C-1366-01-19-img-container {
+  height: 39.84vh;
+}
+
+.C-1366-01-19-img-container img {
+  height: 100%;
+}
+
+.C-1366-01-19-img-container-col {
+  padding-top: 6.54vh;
+}
+
+.C-1366-01-21-img-container {
+  height: 20.96vh;
+}
+
+.C-1366-01-21-img-container img {
+  height: 100%;
+}
+
+.C-1366-01-21-img-container-col {
+  padding-top: 12.5vh;
+  padding-bottom: 8.85vh;
 }
 
 .cs_system_block_game-cont {
