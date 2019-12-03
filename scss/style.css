@@ -9842,7 +9842,7 @@ section .arrow_up_down_downArrow img {
 }
 
 .C-1366-01-05-purple-man-txt-container {
-  margin-top: 1.3vh;
+  margin-top: 2.6vh;
 }
 
 .C-1366-01-06-texts-container-padding {
@@ -10021,11 +10021,88 @@ section .arrow_up_down_downArrow img {
 }
 
 .C-1366-01-05-purple-man-txt-container {
-  margin-top: 1.3vh;
+  margin-top: 2.6vh;
 }
 
 .C-1366-01-06-texts-container-padding {
   margin-top: 11.71vh;
+}
+
+.C-1366-01-07-txt-padding {
+  padding-top: 4.55vh;
+}
+
+.C-1366-01-07-img-container {
+  height: 41.27vh;
+  padding-top: 8.52vh;
+}
+
+.C-1366-01-07-img-container img {
+  height: 100%;
+}
+
+.C-1366-01-08-img-container {
+  height: 59.5vh;
+}
+
+.C-1366-01-08-img-container img {
+  height: 100%;
+}
+
+.C-1366-01-08-img-container-col {
+  padding-top: 7.19vh;
+}
+
+.C-1366-01-12-img-container {
+  height: 46.87vh;
+}
+
+.C-1366-01-12-img-container img {
+  height: 100%;
+}
+
+.C-1366-01-12-img-container-col {
+  padding-top: 3.67vh;
+}
+
+.C-1366-01-14-purple-man-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 50vh;
+}
+
+.C-1366-01-14-purple-man-container img {
+  height: 100%;
+}
+
+.C-1366-01-14-txt-container {
+  margin-top: 5.47vh;
+  padding-left: 0px;
+}
+
+.C-1366-01-14-txt-container p {
+  line-height: 30px;
+}
+
+.C-1366-01-14-computer-parts-container {
+  height: 38.41vh;
+}
+
+.C-1366-01-14-computer-parts-container img {
+  height: 100%;
+}
+
+.C-1366-01-14-computer-text-container p {
+  line-height: 50px;
+}
+
+.C-1366-01-15-cols-container {
+  margin-top: 4.29vh;
+}
+
+.C-1366-01-15-row-container {
+  margin-top: 1.82vh;
 }
 
 .comp_mouse-img {
