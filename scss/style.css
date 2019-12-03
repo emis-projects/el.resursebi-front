@@ -8852,30 +8852,45 @@ section .arrow_up_down_downArrow img {
   margin-right: 2vw;
 }
 
-.art-lesson-content {
-  margin-bottom: 2.61vh;
+#A-1366-04-3 .mt-20vh {
+  margin-top: 20vh;
+}
+#A-1366-04-3 .voices_tasks_smallfont {
+  padding-bottom: 3.8vh;
 }
 
-.art-lesson-content_links {
-  margin-top: 6.08vh;
+.A-1366-04-4 .voices_tasks_smallfont {
+  padding-bottom: 4vh;
 }
-.art-lesson-content_links a {
-  width: 100%;
-}
-
-.subject_bottom_illustration-art {
-  position: absolute;
-  height: 23.69vh;
-  width: 8.27vw;
-  background-size: contain;
-  background-repeat: no-repeat;
-  bottom: 2.35vh;
-  right: 4.27vw;
-  background-image: url("../img/gakvetilebi/xelovneba/subject_bottom_illustration-art-1.svg");
+.A-1366-04-4 .step_m {
+  margin-right: 9vw;
 }
 
-.art-lesson-content_links a {
-  padding: 2.63vh;
+#A-1366-04-18 .mt-20vh {
+  margin-top: 20vh;
+}
+#A-1366-04-18 .voices_tasks_smallfont {
+  padding-bottom: 3.8vh;
+}
+#A-1366-04-18 .subject_question_item a {
+  color: #7FD1D8;
+}
+#A-1366-04-18 .subject_question_item a:visited, #A-1366-04-18 .subject_question_item a:active, #A-1366-04-18 .subject_question_item a:hover {
+  color: #7FD1D8;
+}
+
+#A-1366-04-19 .container_main_title {
+  height: auto;
+}
+#A-1366-04-19 .subject_question_item a {
+  color: #7FD1D8;
+}
+#A-1366-04-19 .subject_question_item a:visited, #A-1366-04-19 .subject_question_item a:active, #A-1366-04-19 .subject_question_item a:hover {
+  color: #7FD1D8;
+}
+
+#A-1366-04-5 .container_main_title {
+  height: auto;
 }
 
 .canvas-container {
