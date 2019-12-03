@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-botid="2292">
 
 <head>
     <meta charset="UTF-8" />
@@ -8,6 +8,11 @@
     <link rel="stylesheet" type="text/css" href="../../scss/libraries/owl.theme.default.css" />
     <link rel="stylesheet" href="../../scss/libraries/bootstrap.min.css" />
     <link rel="stylesheet" href="../../scss/style.css" />
+    <!-- ყველა გვერდზე -->
+    <script src="../../js/vue.js"></script>
+    <!--  ვუე გაშვებისას
+  <script src="./js/vue.min.js"></script>
+   -->
     <title>ხელოვნება</title>
 </head>
 
@@ -21,7 +26,7 @@
         <div class="subject_component_top_illustration">
             <div class="bg_blue_up illustration_bg"></div>
         </div>
-        <section  class="container">
+        <section class="container">
             <div class="subject_component row">
                 <div class="col-12 item_flex">
                     <div
@@ -42,9 +47,9 @@
                             ყველა მუსიკალურ კომპოზიციას აქვს დასაწყისი, შუა ნაწილი და დასასრული. ეს
                             </br> მუსიკალური კომპოზიციის მნიშვნელოვანი ნაწილებია, რომლის გარეშეც ძნელი
                             </br> იქნებოდა მისი შინაარსის ამოკითხვა. ხშირ შემთხვევაში ადვილია მუსიკალური
-                            </br> კომპოზიციის დასაწყისის და დასასრულის ამოცნობა. შენც შეძლებ, თუკი მოისურვებ 
+                            </br> კომპოზიციის დასაწყისის და დასასრულის ამოცნობა. შენც შეძლებ, თუკი მოისურვებ
                             </br> მუსიკალური კომპოზიციის დასაწყისი, შუა ნაწილი და დასასრული (ფინალი) სამი
-                            </br>  ძირითადი ნაწილია, რომლებსაც მუსიკალური ფრაგმენტებიც შეგვიძლია ვუწოდოთ.         
+                            </br> ძირითადი ნაწილია, რომლებსაც მუსიკალური ფრაგმენტებიც შეგვიძლია ვუწოდოთ.
                         </p>
                     </div>
                 </div>
@@ -57,12 +62,16 @@
             <img src="../../img/backgrounds/bg-ilustrations/bulb.svg" alt="bouble" />
         </div>
     </div>
+    <div id="chatBot">
+        <app-bot></app-bot>
+    </div>
 
     <script src="../../js/libraries/jquery-3.4.1.min.js"></script>
     <script src="../../js/libraries/
   owl.carousel.min.js"></script>
     <script src="../../js/slider.js"></script>
-    <script src="../../js/soundSwitch.js"></script>
+    <script src="../../Vue-chatBot/test.js"></script>
+    <script src="../../js/bot.js"></script>
 </body>
 
 </html>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-botid="2292">
 
 <head>
     <meta charset="UTF-8" />
@@ -8,6 +8,11 @@
     <link rel="stylesheet" type="text/css" href="../../scss/libraries/owl.theme.default.css" />
     <link rel="stylesheet" href="../../scss/libraries/bootstrap.min.css" />
     <link rel="stylesheet" href="../../scss/style.css" />
+    <!-- ყველა გვერდზე -->
+    <script src="../../js/vue.js"></script>
+    <!--  ვუე გაშვებისას
+    <script src="./js/vue.min.js"></script>
+     -->
     <title>ხელოვნება</title>
 </head>
 
@@ -21,7 +26,7 @@
         <div class="subject_component_top_illustration">
             <div class="bg_blue_up illustration_bg"></div>
         </div>
-        <section  class="container">
+        <section class="container">
             <div class="subject_component row">
                 <div class="col-12 item_flex">
                     <div
@@ -39,11 +44,11 @@
                 <div class="col-10 m-auto">
                     <div class="subject_question_item m-1366-03-63-font">
                         <p>
-                                მუსიკალური ნაწარმოების ძირითადი ფრაგმენტებია დასაწყისი, შუა ნაწილი და 
-                                </br>დასასრული (ფინალი). მაგრამ ეს ფრაგმენტები შეიძლება უფრო პატარა ფრაგმენტებადაც 
-                                </br>დაიყოს. მუსიკალური ნაწარმოების ფრაგმენტი შეიძლება ერთ მუსიკალურ თემას, ერთ
-                                </br> პატარა მუსიკალურ ინტონაციას, ერთ აკორდს ან თუნდაც ერთ ნოტს შეიცავდეს.
-                                </br> თუმცა ნოტითა და აკორდით ნაწარმოების გამოცნობა ხშირ შემთხვევაში რთულია.
+                            მუსიკალური ნაწარმოების ძირითადი ფრაგმენტებია დასაწყისი, შუა ნაწილი და
+                            </br>დასასრული (ფინალი). მაგრამ ეს ფრაგმენტები შეიძლება უფრო პატარა ფრაგმენტებადაც
+                            </br>დაიყოს. მუსიკალური ნაწარმოების ფრაგმენტი შეიძლება ერთ მუსიკალურ თემას, ერთ
+                            </br> პატარა მუსიკალურ ინტონაციას, ერთ აკორდს ან თუნდაც ერთ ნოტს შეიცავდეს.
+                            </br> თუმცა ნოტითა და აკორდით ნაწარმოების გამოცნობა ხშირ შემთხვევაში რთულია.
                         </p>
                     </div>
                 </div>
@@ -56,12 +61,17 @@
             <img src="../../img/backgrounds/bg-ilustrations/bulb.svg" alt="bouble" />
         </div>
     </div>
+    <div id="chatBot">
+        <app-bot></app-bot>
+    </div>
 
     <script src="../../js/libraries/jquery-3.4.1.min.js"></script>
     <script src="../../js/libraries/
   owl.carousel.min.js"></script>
     <script src="../../js/slider.js"></script>
-    <script src="../../js/soundSwitch.js"></script>
+    <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
+    <script src="../../Vue-chatBot/test.js"></script>
+    <script src="../../js/bot.js"></script>
 </body>
 
 </html>
