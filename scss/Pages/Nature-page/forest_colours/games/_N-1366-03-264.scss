@@ -4,6 +4,7 @@
         font-size: 2.34vh;
         padding-top: 2vh;
         color: #0B2228;
+        text-align: center;
     }
     img  {
         max-height: 19.24vh;
@@ -15,7 +16,25 @@
         }
     }
 }
-.n-03-264-radio {
-    margin-top: 10vh;
-    margin-bottom: 10vh;
+
+
+.plant-parts {
+    margin-top: 9vh;
+
+    .custom_radioButton_container {
+        display: flex;
+        width: 100%;
+        height: 25px;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+
+        .checkmark {
+            position: initial;
+            height: 3.51vh;
+            width: 3.51vh;
+            border-radius: 50%;
+            border: 1px solid #c5cbcd;
+        }
+    }
 }
