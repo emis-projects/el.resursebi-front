@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<!-- ბოტის აიდიში ვუთითებთ: ხელოვნების - 2318, ბუნების - 2320, მუსიკის - 2292 -->
+<html lang="ka" data-botid="2292">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <!-- ყველა გვერდზე -->
+  <script src="../../js/vue.js"></script>
+  <!--  ვუე გაშვებისას
+    <script src="./js/vue.min.js"></script>
+     -->
+  <link rel="stylesheet" href="../../scss/libraries/bootstrap.min.css">
+  <link rel="stylesheet" href="../../scss/style.css" />
+  <title>ელექტრონული საგანმანათლებლო რესურსი</title>
+</head>
+
+<body class="bg-pink">
+  <div class="container">
+      <header id="app">
+          <nav class="row">
+            <app-logo v-logo="'../../'"></app-logo>
+            <app-menu v-menu:dark="'../../'"></app-menu>
+            <sound-lang></sound-lang>
+          </nav>
+        </header>
+
+    <div class="subject_component_top_illustration">
+      <div class="bg_pink_up illustration_bg"></div>
+    </div>
+    <section class="container">
+      <div class="subject_component row">
+        <div class="col-12 item_flex">
+          <div class="subject_component_itle_icon bg_bouble_pink d-flex justify-content-center align-items-center">
+            <img src="../../img/backgrounds/bg-ilustrations/flag.svg" alt="flag" />
+          </div>
+          <h3 class="subject_component_title">შუალედური დავალება</h3>
+        </div>
+      </div>
+      <div class="art_questions row C-1366-01-06-texts-container-padding  voices_tasks_with_points">
+        <div class="col-8 m-auto">
+          <div class="subject_question_item voices_tasks_smallfont big-font-size-22px">
+            <img src="../../img/gakvetilebi/xelovneba/btn-yellow.svg" alt="" />
+            <span>      კომპიუტერის რომელ ნაწილს ჰქვია მონიტორი და რა ფუნქციას ასრულებს? 
+              </span>
+          </div>
+          <div class="subject_question_item voices_tasks_smallfont big-font-size-22px ">
+            <img src="../../img/gakvetilebi/xelovneba/btn-yellow.svg" alt="" />
+            <span>  კომპიუტერის რომელ ნაწილს ჰქვია სისტემური ბლოკი და რა ფუნქციას ასრულებს? </a> </span>
+          </div>
+          <div class="subject_question_item voices_tasks_smallfont big-font-size-22px ">
+              <img src="../../img/gakvetilebi/xelovneba/btn-yellow.svg" alt="" />
+              <span>  კომპიუტერის რომელ ნაწილს ჰქვია კლავიატურა და რა ფუნქციას ასრულებს?  </span>
+            </div>
+            <div class="subject_question_item voices_tasks_smallfont big-font-size-22px ">
+                <img src="../../img/gakvetilebi/xelovneba/btn-yellow.svg" alt="" />
+                <span> კომპიუტერის რომელ ნაწილს ჰქვია თაგვი და რა ფუნქციას ასრულებს? </span>
+              </div>
+        </div>
+  
+        
+        
+       
+       
+       
+         
+        <div class="paging_buttons paging_buttons_position">
+          <a href="./C-1366-01-06.html">
+            <img src="../../img/icons/chevron-down-logo.svg" alt="" class="paging_buttons_left" />
+          </a>
+          <a href="./C-1366-01-14.html" class="paging_buttons_margin-left">
+            <img src="../../img/icons/chevron-down-logo.svg" alt="" class="paging_buttons_right" />
+          </a>
+        </div>
+      </div>
+    </section>
+    <div class="subject_component_botton_illustration">
+      <div class="illustration_bg bg_pink_Down"></div>
+      <div class="subject_component_botton_bg_icon">
+        <img src="../../img/backgrounds/bg-ilustrations/flag.svg" alt="flag art" />
+      </div>
+    </div>
+  </div>
+  
+  <!-- ჩეთბოტი -->
+  <div id="chatBot">
+      <app-bot></app-bot>
+  </div>
+  
+  <script src="../../js/soundSwitch.js"></script>
+
+  <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
+  <script src="../../Vue-Header/app.js"></script>
+  <script src="../../Vue-chatBot/botApp.js"></script>
+  <script src="../../js/bot.js"></script>
+    
+</body>
+
+</html>
+
+ 
+
+
