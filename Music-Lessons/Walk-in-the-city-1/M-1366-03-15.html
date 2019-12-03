@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-botid="2292">
 
 <head>
     <meta charset="UTF-8" />
@@ -8,6 +8,11 @@
     <link rel="stylesheet" type="text/css" href="../../scss/libraries/owl.theme.default.css" />
     <link rel="stylesheet" href="../../scss/libraries/bootstrap.min.css" />
     <link rel="stylesheet" href="../../scss/style.css" />
+    <!-- ყველა გვერდზე -->
+    <script src="../../js/vue.js"></script>
+    <!--  ვუე გაშვებისას
+  <script src="./js/vue.min.js"></script>
+   -->
     <title>ხელოვნება</title>
 </head>
 
@@ -40,7 +45,8 @@
                     <div class="subject_question_item m-1366-03-63-font">
                         <p>მუსიკაში მელოდია ბგერიდან ბგერაზე სხვადასხვა „ნაბიჯებით“ გადადის.</br> ამ „ნაბიჯებს“ მუსიკაში
                             ინტერვალი ჰქვია.
-                          </br></br>არსებობს <a href="./M-1366-03-16.html" class="a-blue">დიდი და პატარა ინტერვალი.</a>
+                            </br></br>არსებობს <a href="./M-1366-03-16.html" class="a-blue">დიდი და პატარა
+                                ინტერვალი.</a>
                         </p>
                     </div>
                 </div>
@@ -53,12 +59,17 @@
             <img src="../../img/backgrounds/bg-ilustrations/bulb.svg" alt="bouble" />
         </div>
     </div>
+    <div id="chatBot">
+        <app-bot></app-bot>
+    </div>
 
     <script src="../../js/libraries/jquery-3.4.1.min.js"></script>
     <script src="../../js/libraries/
   owl.carousel.min.js"></script>
     <script src="../../js/slider.js"></script>
-    <script src="../../js/soundSwitch.js"></script>
+    <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
+    <script src="../../Vue-chatBot/test.js"></script>
+    <script src="../../js/bot.js"></script>
 </body>
 
 </html>
