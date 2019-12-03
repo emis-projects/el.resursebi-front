@@ -1,5 +1,6 @@
 function index3() {
     var btns = document.querySelectorAll('.checkmark')
+    let answersParent = document.getElementById('answersParent');
 
     btns.forEach(btn => {
         btn.addEventListener('click', function(){
@@ -18,14 +19,12 @@ function index3() {
             if (selected.getAttribute('data-answer') === 'correct') {
                 selected.classList.remove("selected")
                 selected.classList.add('success') 
-                document.querySelector('.col-5').childNodes[1].setAttribute('src', '../../../img/gakvetilebi/buneba/lesson4/N-1366-04-259.svg')
+                document.querySelector('#itIsCorrectPhoto img').setAttribute('src', '../../../img/gakvetilebi/buneba/lesson4/N-1366-04-259.svg')
 
                 btns.forEach(btn => {
                     if (btn.getAttribute('data-answer') === null) {
-                        btn.parentNode.parentNode.style.visibility = 'hidden'
-                    }
-                    else {
-                        btn.parentNode.parentNode.style.marginTop = '155px'
+                        btn.parentNode.parentNode.setAttribute('style', "display: none !important")
+                        answersParent.setAttribute('style', "justify-content: center; align-items: center; display: flex")
                     }
                 })
 
@@ -41,15 +40,14 @@ function index3() {
 
     document.getElementById('resetBtn').addEventListener('click', function() {
 
-        btns.forEach(btn => {
-            btn.classList.remove('selected')
-            btn.classList.remove('error')
-            btn.classList.remove('success')
+        $('.checkmark').removeClass('error')
+        $('.checkmark').removeClass('selected')
+        $('.checkmark').removeClass('success')
+        $('.answer-1, .answer-2, .answer-3').removeAttr('style')
+        $('#answersParent').removeAttr('style')
 
-            btn.parentNode.parentNode.removeAttribute('style')
-        });
-        
-        document.querySelector('.col-5').childNodes[1].setAttribute('src', '../../../img/gakvetilebi/buneba/lesson4/N-1366-04-257.svg')
+
+        document.querySelector('#itIsCorrectPhoto img').setAttribute('src', '../../../img/gakvetilebi/buneba/lesson4/N-1366-04-257.svg')
         document.getElementById("completedGame").disabled = false
     })
 
