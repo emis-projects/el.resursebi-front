@@ -2576,13 +2576,11 @@ section .arrow_up_down_downArrow img {
   -o-object-fit: none;
      object-fit: none;
 }
-<<<<<<< HEAD
+
 .main-box_absolute .main-box_relative .owl-carousel .item img {
   width: 100%;
 }
-=======
 
->>>>>>> f5fe1812585ec4bf6776b4a90201a597a2f50f65
 .main-box_absolute .main-box_relative .text-wrapper {
   position: absolute;
   bottom: 0;
@@ -9012,7 +9010,7 @@ section .arrow_up_down_downArrow img {
 }
 
 .plant-parts {
-  margin-top: 9vh;
+  margin-top: 6vh;
 }
 
 .plant-parts .custom_radioButton_container {
@@ -10038,13 +10036,11 @@ section .arrow_up_down_downArrow img {
 #C-1366-51 .table_box .image-box img {
   height: 100%;
 }
-<<<<<<< HEAD
+
 #C-1366-51 .table_box .image-box .table {
   width: 100%;
 }
-=======
 
->>>>>>> f5fe1812585ec4bf6776b4a90201a597a2f50f65
 #C-1366-51 .table_box .components_box {
   position: absolute;
   bottom: 0;
@@ -10096,21 +10092,13 @@ section .arrow_up_down_downArrow img {
 #C-1366-51 .table_box .components_box .second-img-line p:last-child {
   margin-left: 4.5vw;
 }
-<<<<<<< HEAD
+
 #C-1366-51 .monitore img {
   height: 17vh;
   max-height: 136px;
 }
+
 #C-1366-51 .sys-block img {
-=======
-
-#C-1366-51 .table_box .components_box .monitore img {
-  height: 17vh;
-  max-height: 136px;
-}
-
-#C-1366-51 .table_box .components_box .sys-block img {
->>>>>>> f5fe1812585ec4bf6776b4a90201a597a2f50f65
   height: 17vh;
   max-height: 136px;
 }
@@ -10441,6 +10429,7 @@ section .arrow_up_down_downArrow img {
 #A-1366-04-3 .mt-20vh {
   margin-top: 20vh;
 }
+
 #A-1366-04-3 .voices_tasks_smallfont {
   padding-bottom: 3.8vh;
 }
@@ -10448,25 +10437,23 @@ section .arrow_up_down_downArrow img {
 .A-1366-04-4 .voices_tasks_smallfont {
   padding-bottom: 4vh;
 }
-<<<<<<< HEAD
+
 .A-1366-04-4 .step_m {
   margin-right: 9vw;
-=======
-
-.art-lesson-content_links a {
-  width: 100%;
->>>>>>> f5fe1812585ec4bf6776b4a90201a597a2f50f65
 }
 
 #A-1366-04-18 .mt-20vh {
   margin-top: 20vh;
 }
+
 #A-1366-04-18 .voices_tasks_smallfont {
   padding-bottom: 3.8vh;
 }
+
 #A-1366-04-18 .subject_question_item a {
   color: #7FD1D8;
 }
+
 #A-1366-04-18 .subject_question_item a:visited, #A-1366-04-18 .subject_question_item a:active, #A-1366-04-18 .subject_question_item a:hover {
   color: #7FD1D8;
 }
@@ -10474,9 +10461,11 @@ section .arrow_up_down_downArrow img {
 #A-1366-04-19 .container_main_title {
   height: auto;
 }
+
 #A-1366-04-19 .subject_question_item a {
   color: #7FD1D8;
 }
+
 #A-1366-04-19 .subject_question_item a:visited, #A-1366-04-19 .subject_question_item a:active, #A-1366-04-19 .subject_question_item a:hover {
   color: #7FD1D8;
 }

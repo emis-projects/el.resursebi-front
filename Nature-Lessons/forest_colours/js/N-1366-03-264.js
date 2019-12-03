@@ -21,9 +21,10 @@ function n136603264(){
 
     this.init = () => {
         $(elements).removeClass('error')
+        $(elements).removeClass('selected')
         this.error = true;
 
-        completeBtn.setAttribute('disabled', true)
+        completeBtn.removeAttribute('disabled')
         completeBtn.setAttribute('style', 'cursor: default')
     }
 
