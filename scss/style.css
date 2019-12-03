@@ -9856,6 +9856,10 @@ section .arrow_up_down_downArrow img {
   margin-top: 2.6vh;
 }
 
+.C-1366-01-05-purple-man-txt-container span {
+  line-height: 25px;
+}
+
 .C-1366-01-06-texts-container-padding {
   margin-top: 11.71vh;
 }
@@ -10093,6 +10097,10 @@ section .arrow_up_down_downArrow img {
 
 .C-1366-01-05-purple-man-txt-container {
   margin-top: 2.6vh;
+}
+
+.C-1366-01-05-purple-man-txt-container span {
+  line-height: 25px;
 }
 
 .C-1366-01-06-texts-container-padding {
@@ -10374,6 +10382,23 @@ section .arrow_up_down_downArrow img {
   margin-top: 15vh;
 }
 
+.C-1366-01-40-img-container {
+  height: 50vh;
+  padding-top: 5.18vh;
+}
+
+.C-1366-01-40-img-container img {
+  height: 100%;
+}
+
+.C-1366-01-40-txt-container {
+  margin-top: 3.16vh;
+}
+
+.C-1366-01-40-txt-container span {
+  line-height: 30px;
+}
+
 .white_circle_mid {
   width: 4.55vh;
   height: 4.55vh;
@@ -10397,3 +10422,4 @@ section .arrow_up_down_downArrow img {
   display: -ms-flexbox;
   display: flex;
 }
+/*# sourceMappingURL=style.css.map */
