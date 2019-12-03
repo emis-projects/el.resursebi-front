@@ -9172,6 +9172,10 @@ section .arrow_up_down_downArrow img {
   width: 85%;
 }
 
+.m4-10-img img {
+  height: 35vh;
+}
+
 .musical_notes_game-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -10372,6 +10376,10 @@ section .arrow_up_down_downArrow img {
   background-image: url("../../../../img/gakvetilebi/Computer-Science/Computer_parts/CP-55.svg");
 }
 
+.background-cs-56 {
+  background-image: url("../../../../img/gakvetilebi/Computer-Science/Computer_parts/CP-56.svg");
+}
+
 .background-cs-full-title {
   color: #5F73B3;
   font-size: 3.64vh;
@@ -10404,6 +10412,33 @@ section .arrow_up_down_downArrow img {
   height: 4.55vh;
   position: static;
   margin-right: 2vw;
+}
+
+.art-lesson-content {
+  margin-bottom: 2.61vh;
+}
+
+.art-lesson-content_links {
+  margin-top: 6.08vh;
+}
+
+.art-lesson-content_links a {
+  width: 100%;
+}
+
+.subject_bottom_illustration-art {
+  position: absolute;
+  height: 23.69vh;
+  width: 8.27vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+  bottom: 2.35vh;
+  right: 4.27vw;
+  background-image: url("../img/gakvetilebi/xelovneba/subject_bottom_illustration-art-1.svg");
+}
+
+.art-lesson-content_links a {
+  padding: 2.63vh;
 }
 
 .canvas-container {
