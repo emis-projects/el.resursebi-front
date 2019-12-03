@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<!-- ბოტის აიდიში ვუთითებთ: ხელოვნების - 2318, ბუნების - 2320, მუსიკის - 2292 -->
+<html lang="ka" data-botid="2320">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <!-- ყველა გვერდზე -->
+  <script src="../../../js/vue.js"></script>
+  <!--  ვუე გაშვებისას
+    <script src="./js/vue.min.js"></script>
+     -->
+  <link rel="stylesheet" href="../../../scss/libraries/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../../../scss/libraries/owl.carousel.min.css" />
+  <link rel="stylesheet" type="text/css" href="../../../scss/libraries/owl.theme.default.css" />
+  <link rel="stylesheet" href="../../../scss/style.css" />
+  <title>ელექტრონული საგანმანათლებლო რესურსი</title>
+</head>
+
+<body>
+  <div class="container ">
+    <header id="app">
+      <nav class="row">
+        <app-logo v-logo="'../../../'"></app-logo>
+        <app-menu v-menu:dark="'../../../'"></app-menu>
+        <sound-lang></sound-lang>
+      </nav>
+    </header>
+    <section>
+      <div class="subject_component row margin-botton-5vh">
+        <div class="col-12 item_flex">
+          <div class="subject_component_itle_icon bg_bouble_pink d-flex justify-content-center align-items-center">
+            <img alt="flag" src="../../../img/backgrounds/bg-ilustrations/hand.svg" />
+          </div>
+          <h3 class="subject_component_title">სავარჯიშო</h3>
+        </div>
+      </div>
+      <div class="container_main_title container_main_title_art-paddings">
+        <img src="../../../img/gakvetilebi/xelovneba/btn-blue.svg" alt="" />
+        <span>კომპიუტერის შემადგენელი ნაწილები</span>
+      </div>
+      <div class="row">
+        <div class="col-9 offset-1">
+          <div class="subject_question_item big-font-size-22px">
+            <span>მონიშნეთ სწორი წინადადებები:</span>
+          </div>
+          <div class="d-flex">
+            <div data-index="">
+              <div class="car_game_white_circle white_circle_mid"></div>
+            </div>
+            <div class="subject_question_item big-font-size-22px">
+              <span>პრინტერი არის მოწყობილობა, რომელიც აძლიერებს ხმას.</span>
+            </div>
+          </div>
+          <div class="d-flex">
+            <div data-index="">
+              <div class="car_game_white_circle white_circle_mid"></div>
+            </div>
+            <div class="subject_question_item big-font-size-22px">
+              <span>სკანერი არის მოწყობილობა, რომლის მეშვეობითაც შეგვიძლია დავბეჭდოთ რაიმე დოკუმენტი.</span>
+            </div>
+          </div>
+          <div class="d-flex">
+            <div data-index="">
+              <div class="car_game_white_circle white_circle_mid"></div>
+            </div>
+            <div class="subject_question_item big-font-size-22px">
+              <span>თაგვი სისტემური ბლოკის ერთ-ერთი კომპონენტია.</span>
+            </div>
+          </div>
+          <div class="d-flex">
+            <div data-index="">
+              <div class="car_game_white_circle white_circle_mid"></div>
+            </div>
+            <div class="subject_question_item big-font-size-22px">
+              <span>ოპერატიულ მეხსიერებაში ინფორმაცია ინახება დროებით, დენის წყაროდან გათიშვამდე.</span>
+            </div>
+          </div>
+          <div class="d-flex">
+            <div data-index="">
+              <div class="car_game_white_circle white_circle_mid"></div>
+            </div>
+            <div class="subject_question_item big-font-size-22px">
+              <span>დედაპლატა აკავშირებს სისტემურ ბლოკში მდებარე ყველა კომპონენტს.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-end column align-items-end z-index reload_game_wrapper">
+        <button class="reset__btn" id="resetBtn">თავიდან სცადე</button>
+        <button class="completed__btn" id="completedGame">დასრულება</button>
+      </div>
+    </section>
+
+
+    <div class="subject_component_botton_illustration">
+      <div class="illustration_bg bg_pink_Down"></div>
+
+      <div class="subject_component_botton_bg_icon">
+        <img alt="" src="../../../img/backgrounds/savarjisho-bg.svg">
+      </div>
+    </div>
+
+
+    <div class="paging_buttons paging_buttons_position">
+      <a href="./C-1366-46.html">
+        <img alt="" class="paging_buttons_left" src="../../../img/icons/chevron-down-logo.svg" />
+      </a>
+      <a class="paging_buttons_margin-left" href="../C-1366-01-50.html">
+        <img alt="" class="paging_buttons_right" src="../../../img/icons/chevron-down-logo.svg" />
+      </a>
+    </div>
+  </div>
+
+  <!-- ჩეთბოტი -->
+  <div id="chatBot">
+    <app-bot></app-bot>
+  </div>
+
+  <script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
+  <script src="../../../js/libraries/bootstrap.min.js"></script>
+  <!-- <script src="../../../Music-Lessons/Voices/js/M-1366-55.js"></script> -->
+
+  <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
+  <script src="../../../Vue-Header/app.js"></script>
+  <script src="../../../Vue-chatBot/botApp.js"></script>
+  <script src="../../../js/bot.js"></script>
+
+</body>
+
+</html>
