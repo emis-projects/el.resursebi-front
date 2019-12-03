@@ -543,7 +543,7 @@
 }
 
 @font-face {
-  font-family: 'ALK Sanet';
+  font-family: "ALK Sanet";
   src: url("../fonts/alk-sanet/alk-sanet-webfont.eot");
   /* IE9 Compat Modes */
   src: url("../fonts/alk-sanet/alk-sanet-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/alk-sanet/alk-sanet-webfont.woff2") format("woff2"), url("../fonts/alk-sanet/alk-sanet-webfont.woff") format("woff"), url("../fonts/alk-sanet/alk-sanet-webfont.ttf") format("truetype"), url("../fonts/alk-sanet/alk-sanet-webfont.svg#alk_sanetregular") format("svg");
@@ -867,10 +867,6 @@ body {
 
 .h-initial {
   height: initial !important;
-}
-
-.text-center {
-  text-align: center;
 }
 
 .text-left {
@@ -8640,14 +8636,6 @@ section .arrow_up_down_downArrow img {
   transition: all 0.3s;
 }
 
-.tree-sec {
-  position: absolute;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-  right: 10%;
-}
-
 .nature-game-season-changer-changer > img {
   height: 282px;
 }
@@ -9002,6 +8990,7 @@ section .arrow_up_down_downArrow img {
   font-size: 2.34vh;
   padding-top: 2vh;
   color: #0B2228;
+  text-align: center;
 }
 
 .plant-parts img {
@@ -9016,9 +9005,31 @@ section .arrow_up_down_downArrow img {
   max-height: 14vh;
 }
 
-.n-03-264-radio {
-  margin-top: 10vh;
-  margin-bottom: 10vh;
+.plant-parts {
+  margin-top: 9vh;
+}
+
+.plant-parts .custom_radioButton_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 25px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 50px;
+}
+
+.plant-parts .custom_radioButton_container .checkmark {
+  position: initial;
+  height: 3.51vh;
+  width: 3.51vh;
+  border-radius: 50%;
+  border: 1px solid #c5cbcd;
 }
 
 .m-1366-04-6-subject-component {
@@ -9940,13 +9951,21 @@ section .arrow_up_down_downArrow img {
   max-height: 48px;
 }
 
-#C-1366-51 .p {
-  font-size: 2.864vh;
-  font-family: 'BPG Arial', sans-serif;
+#C-1366-51 .margin-bottom-3vh {
+  margin-bottom: 3vh;
+}
+
+#C-1366-51 .mt-8vh {
+  margin-top: 8vh;
 }
 
 #C-1366-51 .part_box p {
   margin: 1.3vh 0 3.2vh 0;
+}
+
+#C-1366-51 .p {
+  font-size: 2.864vh;
+  font-family: 'BPG Arial', sans-serif;
 }
 
 #C-1366-51 .motherboard img {
@@ -9970,15 +9989,30 @@ section .arrow_up_down_downArrow img {
 }
 
 #C-1366-51 .table_box {
-  height: 63vh;
-  max-height: 505px;
-  position: relative;
+  position: absolute;
+  bottom: 0;
+  height: 70vh;
+  width: 100%;
+  max-height: 530px;
+}
+
+#C-1366-51 .table_box .dropdown_dest {
+  width: 85%;
+  background: rgba(255, 0, 0, 0.3);
+  height: 28vh;
+  margin: 0 auto;
+  position: absolute;
+  z-index: 444;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 
 #C-1366-51 .table_box .image-box {
   position: absolute;
   z-index: 5;
-  bottom: 0;
+  bottom: 3vh;
   height: 53vh;
   max-height: 410px;
 }
@@ -9995,7 +10029,6 @@ section .arrow_up_down_downArrow img {
   height: 31.9vh;
   max-width: 326px;
   max-height: 245px;
-  background: red;
   left: 50%;
   -webkit-transform: translate(-50%);
           transform: translate(-50%);
@@ -10014,6 +10047,44 @@ section .arrow_up_down_downArrow img {
 #C-1366-51 .table_box .components_box .first-img-line p {
   width: 5.2vw;
   max-width: 55px;
+  margin-left: -2.9vw;
+  margin-top: 1.3vh;
+  margin-bottom: 1.6vh;
+}
+
+#C-1366-51 .table_box .components_box .second-img-line img:first-child {
+  height: 7.5vh;
+  max-height: 58px;
+}
+
+#C-1366-51 .table_box .components_box .second-img-line img:last-child {
+  height: 5.7vh;
+  max-height: 44px;
+}
+
+#C-1366-51 .table_box .components_box .second-img-line p {
+  width: 5.2vw;
+  max-width: 55px;
+  margin-left: 2.9vw;
+  margin-top: 1vh;
+}
+
+#C-1366-51 .table_box .components_box .second-img-line p:last-child {
+  margin-left: 4.5vw;
+}
+
+#C-1366-51 .table_box .components_box .monitore img {
+  height: 17vh;
+  max-height: 136px;
+}
+
+#C-1366-51 .table_box .components_box .sys-block img {
+  height: 17vh;
+  max-height: 136px;
+}
+
+#C-1366-51 .mb-3vh {
+  margin-bottom: 3vh;
 }
 
 .C-1366-01-05-purple-man-img-container {
@@ -10202,6 +10273,114 @@ section .arrow_up_down_downArrow img {
   color: #0B2228;
 }
 
+#C-1366-28 .gess_title {
+  font-family: 'BPG Arial', sans-serif;
+  font-size: 2.8vh;
+  margin-bottom: 7.5vh;
+}
+
+#C-1366-28 .img_box {
+  height: 37vh;
+  max-height: 286px;
+}
+
+#C-1366-28 .img_box img {
+  height: 100%;
+}
+
+#C-1366-28 .input_box {
+  height: 37vh;
+  max-height: 286px;
+  /* The container */
+  /* Hide the browser's default checkbox */
+  /* Create a custom checkbox */
+  /* On mouse-over, add a grey background color */
+  /* When the checkbox is checked, add a blue background */
+  /* Create the checkmark/indicator (hidden when not checked) */
+  /* Show the checkmark when checked */
+}
+
+#C-1366-28 .input_box .container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#C-1366-28 .input_box .container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+#C-1366-28 .input_box .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+#C-1366-28 .input_box .container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+#C-1366-28 .input_box .container input:checked ~ .true {
+  background-color: #A1DD6F;
+}
+
+#C-1366-28 .input_box .container input:checked ~ .false {
+  background-color: #DC6C85;
+}
+
+#C-1366-28 .input_box .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+#C-1366-28 .input_box .container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.background-cs-53 {
+  background-image: url("../../../../img/gakvetilebi/Computer-Science/Computer_parts/CP-53.svg");
+}
+
+.background-cs-54 {
+  background-image: url("../../../../img/gakvetilebi/Computer-Science/Computer_parts/CP-54.svg");
+}
+
+.background-cs-55 {
+  background-image: url("../../../../img/gakvetilebi/Computer-Science/Computer_parts/CP-55.svg");
+}
+
+.background-cs-full-title {
+  color: #5F73B3;
+  font-size: 3.64vh;
+  font-family: 'DejaVu Sans Oblique';
+}
+
+.background-cs-full-title--mt {
+  margin-top: 15vh;
+}
+
+.white_circle_mid {
+  width: 4.55vh;
+  height: 4.55vh;
+  position: static;
+  margin-right: 2vw;
+}
+
 .canvas-container {
   width: 100% !important;
 }
@@ -10218,4 +10397,3 @@ section .arrow_up_down_downArrow img {
   display: -ms-flexbox;
   display: flex;
 }
-/*# sourceMappingURL=style.css.map */

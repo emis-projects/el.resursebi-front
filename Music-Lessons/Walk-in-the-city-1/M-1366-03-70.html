@@ -1,11 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-botid="2292">
 
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <link rel="stylesheet" href="../../scss/libraries/bootstrap.min.css" />
   <link rel="stylesheet" href="../../scss/style.css" />
+  <!-- ყველა გვერდზე -->
+  <script src="../../js/vue.js"></script>
+  <!--  ვუე გაშვებისას
+<script src="./js/vue.min.js"></script>
+ -->
   <title>მუსიკა</title>
 </head>
 
@@ -90,6 +95,14 @@
       </div>
     </div>
   </div>
+  <div id="chatBot">
+    <app-bot></app-bot>
+</div>
+
+<script src="../../js/libraries/jquery-3.4.1.min.js"></script>
+<!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
+<script src="../../Vue-chatBot/test.js"></script>
+<script src="../../js/bot.js"></script>
 </body>
 
 </html>
