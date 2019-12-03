@@ -9172,6 +9172,10 @@ section .arrow_up_down_downArrow img {
   width: 85%;
 }
 
+.m4-10-img img {
+  height: 35vh;
+}
+
 .musical_notes_game-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -9856,6 +9860,10 @@ section .arrow_up_down_downArrow img {
   margin-top: 2.6vh;
 }
 
+.C-1366-01-05-purple-man-txt-container span {
+  line-height: 25px;
+}
+
 .C-1366-01-06-texts-container-padding {
   margin-top: 11.71vh;
 }
@@ -10093,6 +10101,10 @@ section .arrow_up_down_downArrow img {
 
 .C-1366-01-05-purple-man-txt-container {
   margin-top: 2.6vh;
+}
+
+.C-1366-01-05-purple-man-txt-container span {
+  line-height: 25px;
 }
 
 .C-1366-01-06-texts-container-padding {
@@ -10378,11 +10390,55 @@ section .arrow_up_down_downArrow img {
   margin-top: 15vh;
 }
 
+.C-1366-01-40-img-container {
+  height: 50vh;
+  padding-top: 5.18vh;
+}
+
+.C-1366-01-40-img-container img {
+  height: 100%;
+}
+
+.C-1366-01-40-txt-container {
+  margin-top: 3.16vh;
+}
+
+.C-1366-01-40-txt-container span {
+  line-height: 30px;
+}
+
 .white_circle_mid {
   width: 4.55vh;
   height: 4.55vh;
   position: static;
   margin-right: 2vw;
+}
+
+.art-lesson-content {
+  margin-bottom: 2.61vh;
+}
+
+.art-lesson-content_links {
+  margin-top: 6.08vh;
+}
+
+.art-lesson-content_links a {
+  width: 100%;
+}
+
+.subject_bottom_illustration-art {
+  position: absolute;
+  height: 23.69vh;
+  width: 8.27vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+  bottom: 2.35vh;
+  right: 4.27vw;
+  background-image: url("../img/gakvetilebi/xelovneba/subject_bottom_illustration-art-1.svg");
+}
+
+.art-lesson-content_links a {
+  padding: 2.63vh;
 }
 
 .canvas-container {
@@ -10401,3 +10457,4 @@ section .arrow_up_down_downArrow img {
   display: -ms-flexbox;
   display: flex;
 }
+/*# sourceMappingURL=style.css.map */
