@@ -10703,6 +10703,17 @@ section .arrow_up_down_downArrow img {
   background-repeat: no-repeat;
 }
 
+.w-70 {
+  width: 70%;
+}
+
+.mt-10vh {
+  margin-top: 10vh !important;
+}
+
+.N-1366-05-33-img {
+  height: 50vh;
+}
 .n_sun-25-img {
   height: 71.22vh;
   position: absolute;
@@ -10742,3 +10753,4 @@ section .arrow_up_down_downArrow img {
   display: -ms-flexbox;
   display: flex;
 }
+/*# sourceMappingURL=style.css.map */
