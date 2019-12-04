@@ -9780,6 +9780,10 @@ section .arrow_up_down_downArrow img {
   margin-top: 3vh !important;
 }
 
+.m4-42-img img {
+  height: 26.8vh;
+}
+
 .m_musical_names_corner_game-img {
   margin-top: 3vh;
   height: 13.67vh;
