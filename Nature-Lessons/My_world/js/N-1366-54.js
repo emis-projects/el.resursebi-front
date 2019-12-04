@@ -153,6 +153,9 @@ function natureGames(){
 
             } else if(loc == "/Nature-Lessons/forest_colours/games/N-1366-03-194.html" || loc == "/el.resursebi-front/Nature-Lessons/forest_colours/games/N-1366-03-194.html"){
                 location.href = "N-1366-03-194-success.html"
+
+            } else if(loc == "/Nature-Lessons/The-living-world/games/N-1366-04-253.html" || loc == "/el.resursebi-front/Nature-Lessons/The-living-world/games/N-1366-04-253.html"){
+                location.href = "N-1366-04-253-success.html"
             }
             
 

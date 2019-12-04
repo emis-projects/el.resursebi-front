@@ -2577,6 +2577,10 @@ section .arrow_up_down_downArrow img {
      object-fit: none;
 }
 
+.main-box_absolute .main-box_relative .owl-carousel .item img {
+  width: 100%;
+}
+
 .main-box_absolute .main-box_relative .text-wrapper {
   position: absolute;
   bottom: 0;
@@ -9006,7 +9010,7 @@ section .arrow_up_down_downArrow img {
 }
 
 .plant-parts {
-  margin-top: 9vh;
+  margin-top: 6vh;
 }
 
 .plant-parts .custom_radioButton_container {
@@ -9537,7 +9541,7 @@ section .arrow_up_down_downArrow img {
   left: 4.3vw;
 }
 
-.musical_notes_game-press-button-extra-small {
+.musical_notes_game-press-button-extra-small-position {
   right: -15px;
   bottom: -30px;
 }
@@ -9781,7 +9785,7 @@ section .arrow_up_down_downArrow img {
 }
 
 .m4-42-img img {
-  height: 26.8vh;
+  height: 22.91vh;
 }
 
 .m_musical_names_corner_game-img {
@@ -9862,6 +9866,10 @@ section .arrow_up_down_downArrow img {
 
 .C-1366-01-05-purple-man-txt-container {
   margin-top: 2.6vh;
+}
+
+.C-1366-01-05-purple-man-txt-container span {
+  line-height: 25px;
 }
 
 .C-1366-01-06-texts-container-padding {
@@ -10029,6 +10037,10 @@ section .arrow_up_down_downArrow img {
   height: 100%;
 }
 
+#C-1366-51 .table_box .image-box .table {
+  width: 100%;
+}
+
 #C-1366-51 .table_box .components_box {
   position: absolute;
   bottom: 0;
@@ -10081,12 +10093,12 @@ section .arrow_up_down_downArrow img {
   margin-left: 4.5vw;
 }
 
-#C-1366-51 .table_box .components_box .monitore img {
+#C-1366-51 .monitore img {
   height: 17vh;
   max-height: 136px;
 }
 
-#C-1366-51 .table_box .components_box .sys-block img {
+#C-1366-51 .sys-block img {
   height: 17vh;
   max-height: 136px;
 }
@@ -10101,6 +10113,10 @@ section .arrow_up_down_downArrow img {
 
 .C-1366-01-05-purple-man-txt-container {
   margin-top: 2.6vh;
+}
+
+.C-1366-01-05-purple-man-txt-container span {
+  line-height: 25px;
 }
 
 .C-1366-01-06-texts-container-padding {
@@ -10386,11 +10402,76 @@ section .arrow_up_down_downArrow img {
   margin-top: 15vh;
 }
 
+.C-1366-01-40-img-container {
+  height: 50vh;
+  padding-top: 5.18vh;
+}
+
+.C-1366-01-40-img-container img {
+  height: 100%;
+}
+
+.C-1366-01-40-txt-container {
+  margin-top: 3.16vh;
+}
+
+.C-1366-01-40-txt-container span {
+  line-height: 30px;
+}
+
 .white_circle_mid {
   width: 4.55vh;
   height: 4.55vh;
   position: static;
   margin-right: 2vw;
+}
+
+#A-1366-04-3 .mt-20vh {
+  margin-top: 20vh;
+}
+
+#A-1366-04-3 .voices_tasks_smallfont {
+  padding-bottom: 3.8vh;
+}
+
+.A-1366-04-4 .voices_tasks_smallfont {
+  padding-bottom: 4vh;
+}
+
+.A-1366-04-4 .step_m {
+  margin-right: 9vw;
+}
+
+#A-1366-04-18 .mt-20vh {
+  margin-top: 20vh;
+}
+
+#A-1366-04-18 .voices_tasks_smallfont {
+  padding-bottom: 3.8vh;
+}
+
+#A-1366-04-18 .subject_question_item a {
+  color: #7FD1D8;
+}
+
+#A-1366-04-18 .subject_question_item a:visited, #A-1366-04-18 .subject_question_item a:active, #A-1366-04-18 .subject_question_item a:hover {
+  color: #7FD1D8;
+}
+
+#A-1366-04-19 .container_main_title {
+  height: auto;
+}
+
+#A-1366-04-19 .subject_question_item a {
+  color: #7FD1D8;
+}
+
+#A-1366-04-19 .subject_question_item a:visited, #A-1366-04-19 .subject_question_item a:active, #A-1366-04-19 .subject_question_item a:hover {
+  color: #7FD1D8;
+}
+
+#A-1366-04-5 .container_main_title {
+  height: auto;
 }
 
 .canvas-container {
@@ -10409,4 +10490,3 @@ section .arrow_up_down_downArrow img {
   display: -ms-flexbox;
   display: flex;
 }
-/*# sourceMappingURL=style.css.map */

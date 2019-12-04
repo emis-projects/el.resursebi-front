@@ -1,0 +1,14 @@
+#A-1366-04-18{
+  .mt-20vh{
+    margin-top: 20vh;
+  }
+  .voices_tasks_smallfont{
+    padding-bottom: 3.8vh;
+  }
+  .subject_question_item a{
+    color: #7FD1D8;
+    &:visited, &:active, &:hover{
+      color: #7FD1D8;
+    }
+  }
+}

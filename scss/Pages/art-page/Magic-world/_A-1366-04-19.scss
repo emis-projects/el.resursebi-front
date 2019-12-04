@@ -1,0 +1,11 @@
+#A-1366-04-19{
+  .container_main_title{
+    height: auto;
+  }
+  .subject_question_item a{
+    color: #7FD1D8;
+    &:visited, &:active, &:hover{
+      color: #7FD1D8;
+    }
+  }
+}

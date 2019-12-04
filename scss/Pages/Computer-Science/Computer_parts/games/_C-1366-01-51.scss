@@ -55,6 +55,9 @@
       img{
         height: 100%;
       }
+      .table{
+        width: 100%;
+      }
     }
     .components_box{
       position: absolute;
@@ -102,16 +105,16 @@
           }
         }
       }
-      .monitore img{
-        height: 17vh;
-        max-height: 136px;
-      }
-
-      .sys-block img{
-        height: 17vh;
-        max-height: 136px;
-      }
     }
+  }
+  .monitore img{
+    height: 17vh;
+    max-height: 136px;
+  }
+
+  .sys-block img{
+    height: 17vh;
+    max-height: 136px;
   }
   .mb-3vh{
     margin-bottom: 3vh;

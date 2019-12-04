@@ -40,53 +40,55 @@
         <img src="../../../img/gakvetilebi/xelovneba/btn-blue.svg" alt="" />
         <h2>სინათლე</h2>
       </div>
+      <p style="font-family: 'BPG Arial'; font-size: 2.1vh; margin-top:2.60vh">დავალება: დააწკაპუნე სქემაზე და მოცემულ პასუხთაგან შეარჩიე ერთი ვარიანტი. სწორი პასუხი გამოჩნდება ეკრანზე<pp>
+
       <div class="row mt-5vh">
-        <div class="col-11 offset-1">
-          <div class="row">
-            <div class="col-5">
-              <img src="../../../img/gakvetilebi/buneba/lesson4/N-1366-04-257.svg" alt="">
-            </div>
-            <div class="col-6">
-              <div class="answer-1 d-flex">
-                <label class="custom_radioButton_container success">
-                  <input type="radio" name="radio">
-                  <span class="checkmark"></span>
-                </label>
-                <span>
-                  მცენარეს სჭირდება მზის სინათლე საკვების </br>წარმოსაქმნელად, საკვები კი - ზრდისთვის.
-                </span>
+          <div class="col-11 offset-1">
+              <div class="row">
+                  <div class="col-4" id="itIsCorrectPhoto">
+                      <img src="../../../img/gakvetilebi/buneba/lesson4/N-1366-04-257.svg" alt="">
+                  </div>
+                  <div class="col-6" id="answersParent">
+                      <div class="answer-1 d-flex">
+                          <label class="custom_radioButton_container">
+                              <span class="checkmark" data-answer='correct'></span>
+                          </label>
+                          <span>
+                              მცენარეს სჭირდება მზის სინათლე საკვების </br>წარმოსაქმნელად, საკვები კი - ზრდისთვის.
+                          </span>
+                      </div>
+                      <div class="answer-2 d-flex">
+                          <label class="custom_radioButton_container">
+                            <span class="checkmark"></span>
+                          </label>
+                          <span>
+                              მცენარეს სჭირდება მზის სინათლე, რომ </br> უკეთ დაანახოს თავისი ყვავილი ფუტკრებს.
+                          </span>
+                      </div>
+                      <div class="answer-3 d-flex">
+                          <label class="custom_radioButton_container">
+                              <span class="checkmark"></span>
+                          </label>
+                          <span>
+                              მცენარეს სჭირდება მზის სინათლე ნიადაგის </br> გასათბობად, რომ ფესვებს არ შესცივდეთ.
+                          </span>
+                      </div>
+                  </div>
               </div>
-              <div class="answer-2 d-flex">
-                <label class="custom_radioButton_container error">
-                  <input type="radio" name="radio">
-                  <span class="checkmark"></span>
-                </label>
-                <span>
-                  მცენარეს სჭირდება მზის სინათლე, რომ </br> უკეთ დაანახოს თავისი ყვავილი ფუტკრებს.
-                </span>
-              </div>
-              <div class="answer-3 d-flex">
-                <label class="custom_radioButton_container error">
-                  <input type="radio" name="radio">
-                  <span class="checkmark"></span>
-                </label>
-                <span>
-                  მცენარეს სჭირდება მზის სინათლე ნიადაგის </br> გასათბობად, რომ ფესვებს არ შესცივდეთ.
-                </span>
-              </div>
-            </div>
           </div>
-        </div>
       </div>
+
+
       <div class="paging_buttons paging_buttons_position">
-        <a href="../N-1366-04-256.html">
+        <a href="../N-1366-04-255.html">
           <img src="../../../img/icons/chevron-down-logo.svg" alt="down arrow" class="paging_buttons_left" />
         </a>
-        <a href="./N-1366-04-258.html" class="paging_buttons_margin-left">
+        <a href="./N-1366-04-259.html" class="paging_buttons_margin-left">
           <img src="../../../img/icons/chevron-down-logo.svg" alt="down arrow" class="paging_buttons_right" />
         </a>
       </div>
     </section>
+
     <div class="flex flex-end column align-items-end z-index reload_game_wrapper">
       <button id="resetBtn" class="reset__btn">თავიდან სცადე</button>
       <button id="completedGame" class="completed__btn">დასრულება</button>
@@ -98,13 +100,14 @@
       </div>
     </div>
   </div>
+
   <!-- ჩეთბოტი -->
   <div id="chatBot">
     <app-bot></app-bot>
   </div>
 
   <script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
-  <script src="../../../js/libraries/bootstrap.min.js"></script>
+  <script src="../js/N-1366-04-257-1.js"></script>
 
   <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
   <script src="../../../Vue-Header/app.js"></script>

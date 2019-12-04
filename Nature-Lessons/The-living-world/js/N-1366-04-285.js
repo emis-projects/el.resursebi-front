@@ -145,7 +145,7 @@ function natureGames() {
 
     
     this.successPage  = () => {
-        location.href = 'N-1366-04-285.html';
+        location.href = 'N-1366-04-285-success.html';
 	}
 
     this.completGame = (e) => {
