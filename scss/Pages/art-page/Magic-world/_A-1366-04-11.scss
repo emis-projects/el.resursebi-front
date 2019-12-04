@@ -1,0 +1,25 @@
+#A-1366-04-11{
+  .container_main_title{
+    height: auto;
+    &_art-paddings{
+      padding-bottom: 0;
+    }
+  }
+    a{
+      color: #7FD1D8;
+      &:hover, &:focus, &:visited{
+        color: #7FD1D8;
+      }
+    }
+  .img-box{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 60vh;
+    max-height: 489px;
+    margin-top: 7vh;
+    img{
+      height: 100%;
+    }
+  }
+}
