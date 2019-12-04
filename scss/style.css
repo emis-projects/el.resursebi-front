@@ -8360,10 +8360,6 @@ section .arrow_up_down_downArrow img {
   background-image: url("../img/gakvetilebi/buneba/forest_colours/N-187.png");
   background-position: center;
   background-size: contain;
-  width: 54vw;
-  max-width: 907px;
-  height: 54vh;
-  max-height: 420px;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -8654,8 +8650,8 @@ section .arrow_up_down_downArrow img {
   width: 75px;
   height: 75px;
   border-radius: 50%;
-  -webkit-box-shadow: 0px 3px 6px #00000029;
-          box-shadow: 0px 3px 6px #00000029;
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.160784);
+          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.160784);
   position: absolute;
 }
 
@@ -9785,6 +9781,10 @@ section .arrow_up_down_downArrow img {
 }
 
 .m4-42-img img {
+  height: 26.8vh;
+}
+
+.m_img_42 {
   height: 22.91vh;
 }
 
@@ -10474,6 +10474,41 @@ section .arrow_up_down_downArrow img {
   height: auto;
 }
 
+.background-21 {
+  background-image: url(../img/gakvetilebi/xelovneba/magic-world/A-1366-04-21.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-21-1 {
+  background-image: url(../img/gakvetilebi/xelovneba/magic-world/A-1366-04-21-1.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-21-2 {
+  background-image: url(../img/gakvetilebi/xelovneba/magic-world/A-1366-04-21-2.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-21-3 {
+  background-image: url(../img/gakvetilebi/xelovneba/magic-world/A-1366-04-21-3.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-21-4 {
+  background-image: url(../img/gakvetilebi/xelovneba/magic-world/A-1366-04-21-4.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .canvas-container {
   width: 100% !important;
 }
@@ -10490,3 +10525,4 @@ section .arrow_up_down_downArrow img {
   display: -ms-flexbox;
   display: flex;
 }
+/*# sourceMappingURL=style.css.map */
