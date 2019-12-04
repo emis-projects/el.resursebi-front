@@ -3070,7 +3070,7 @@ section .arrow_up_down_downArrow img {
 }
 
 .ask-question-img {
-  height: 67.7vh;
+  height: 66.7vh;
   margin: auto;
   margin-top: 10px;
 }
@@ -10713,6 +10713,12 @@ section .arrow_up_down_downArrow img {
 
 .N-1366-05-33-img {
   height: 50vh;
+}
+.n_sun-25-img {
+  height: 71.22vh;
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }
 
 .canvas-container {
