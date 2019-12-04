@@ -11,6 +11,31 @@
     height: 100%;
     object-fit: cover;
   }
+  &-mg-world{
+    height: 32.94vh;
+    
+    &-vert{
+      height: auto;
+      width: 20vw;
+    }
+    &-6-5-1{
+      width: 12.51vw;
+      height: auto;
+    }
+    &-6-5-2{
+      // width: 16.32vw;
+      // height: auto;
+      height: 29.03vh;
+    }
+    &-6-5-3{
+      width: 13.03vw;
+      height: auto;
+    }
+    &-6-5-4{
+      width: 12.37vw;
+      height: auto;
+    }
+  }
 
   .main-box_absolute img {
     width: 100%;
@@ -79,23 +104,21 @@
   }
 
   &-img-lg-vert {
-    // width: 59.1vh;
     height: 80vh;
-    margin-left: 20.6vw;
+    // margin-left: 20.6vw;
+    margin-left: 14.6vw;
 
     img {
-      // width: 100%;
       height: 100%;
     }
   }
 
   &-img-lg-hor {
-    // width: 54vw;
     height: 80vh;
-    margin-left: 6.1vw;
+    // margin-left: 6.1vw;
+    margin-left: 1.1vw;
 
     img {
-      // width: 100%;
       height: 100%;
     }
   }
@@ -297,6 +320,31 @@
     .owl-dot:nth-child(3) span {
       background-image: url("../img/gakvetilebi/xelovneba/forest/1366-03-26-slide-3.png");
       background-position: right;
+    }
+  }
+  &-04-6-1.owl-theme .owl-dots {
+    .owl-dot:nth-child(1) span {
+      background-image: url("../img/gakvetilebi/xelovneba/magic-world/a-6-1-1.png");
+    }
+    .owl-dot:nth-child(2) span {
+      background-image: url("../img/gakvetilebi/xelovneba/magic-world/a-6-1-2.png");
+    }
+    .owl-dot:nth-child(3) span {
+      background-image: url("../img/gakvetilebi/xelovneba/magic-world/a-6-1-3.png");
+    }
+  }
+  &-04-6-5.owl-theme .owl-dots {
+    .owl-dot:nth-child(1) span {
+      background-image: url("../img/gakvetilebi/xelovneba/magic-world/a-6-5-1.png");
+    }
+    .owl-dot:nth-child(2) span {
+      background-image: url("../img/gakvetilebi/xelovneba/magic-world/a-6-5-2.png");
+    }
+    .owl-dot:nth-child(3) span {
+      background-image: url("../img/gakvetilebi/xelovneba/magic-world/a-6-5-3.png");
+    }
+    .owl-dot:nth-child(4) span {
+      background-image: url("../img/gakvetilebi/xelovneba/magic-world/a-6-5-4.png");
     }
   }
 }
