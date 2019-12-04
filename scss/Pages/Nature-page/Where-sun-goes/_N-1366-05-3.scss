@@ -1,0 +1,38 @@
+#N-1366-05-3 {
+  .eclipse-img-box {
+    width: 20.9vh;
+    height: 20.9vh;
+    right: 0;
+  }
+  .eclipse {
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/gakvetilebi/buneba/Where-sun-goes/eclipse-02.png");
+    position: absolute;
+    background-position: center;
+    right: 0vw;
+    bottom: 0vh;
+  }
+  .nature_content_box_text {
+    margin-top: 2.6vh;
+
+    p {
+      line-height: 3.9vh;
+    }
+  }
+  .subject_component_itle_icon {
+    background-position: center;
+
+    // fill subject bg with different icons
+    img {
+      height: 100%;
+      max-height: 3.2vh;
+    }
+  }
+  .container_main_title{
+    height: 0;
+  }
+  .container_main_title_art-paddings{
+    padding-bottom: 5.8vh;
+  }
+}
