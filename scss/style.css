@@ -7961,7 +7961,7 @@ section .arrow_up_down_downArrow img {
 }
 
 .n-1366-04-244-container_main_title {
-  margin-left: 5.3vw;
+  margin-left: 4.3vw;
 }
 
 .n-1366-04-244-checkbox-container {
@@ -8662,27 +8662,27 @@ section .arrow_up_down_downArrow img {
 
 .nature-game-season-circle-1 {
   left: 50%;
-  top: -100px;
+  top: -95px;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
 }
 
 .nature-game-season-circle-2 {
-  right: -100px;
+  right: -95px;
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
 }
 
 .nature-game-season-circle-3 {
-  bottom: -100px;
+  bottom: -95px;
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
 }
 
 .nature-game-season-circle-4 {
-  left: -100px;
+  left: -95px;
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
@@ -8926,8 +8926,8 @@ section .arrow_up_down_downArrow img {
 
 .nature_plant-game-text-container-white {
   background: #fff;
-  -webkit-box-shadow: 0px 3px 6px #00000029;
-          box-shadow: 0px 3px 6px #00000029;
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.160784);
+          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.160784);
   border-radius: 27px;
   height: 5.07vh;
   width: 12.29vw;
