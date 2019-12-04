@@ -1429,6 +1429,28 @@ section .arrow_up_down_downArrow img {
   height: 100%;
   object-fit: cover;
 }
+.portfolio-item-container-mg-world {
+  height: 32.94vh;
+}
+.portfolio-item-container-mg-world-vert {
+  height: auto;
+  width: 20vw;
+}
+.portfolio-item-container-mg-world-6-5-1 {
+  width: 12.51vw;
+  height: auto;
+}
+.portfolio-item-container-mg-world-6-5-2 {
+  height: 29.03vh;
+}
+.portfolio-item-container-mg-world-6-5-3 {
+  width: 13.03vw;
+  height: auto;
+}
+.portfolio-item-container-mg-world-6-5-4 {
+  width: 12.37vw;
+  height: auto;
+}
 .portfolio-item-container .main-box_absolute img {
   width: 100%;
   height: 100%;
@@ -1658,31 +1680,24 @@ section .arrow_up_down_downArrow img {
   background-image: url("../img/gakvetilebi/xelovneba/forest/1366-03-26-slide-3.png");
   background-position: right;
 }
-
 .portfolio-slider-04-6-1.owl-theme .owl-dots .owl-dot:nth-child(1) span {
   background-image: url("../img/gakvetilebi/xelovneba/magic-world/a-6-1-1.png");
 }
-
 .portfolio-slider-04-6-1.owl-theme .owl-dots .owl-dot:nth-child(2) span {
   background-image: url("../img/gakvetilebi/xelovneba/magic-world/a-6-1-2.png");
 }
-
 .portfolio-slider-04-6-1.owl-theme .owl-dots .owl-dot:nth-child(3) span {
   background-image: url("../img/gakvetilebi/xelovneba/magic-world/a-6-1-3.png");
 }
-
 .portfolio-slider-04-6-5.owl-theme .owl-dots .owl-dot:nth-child(1) span {
   background-image: url("../img/gakvetilebi/xelovneba/magic-world/a-6-5-1.png");
 }
-
 .portfolio-slider-04-6-5.owl-theme .owl-dots .owl-dot:nth-child(2) span {
   background-image: url("../img/gakvetilebi/xelovneba/magic-world/a-6-5-2.png");
 }
-
 .portfolio-slider-04-6-5.owl-theme .owl-dots .owl-dot:nth-child(3) span {
   background-image: url("../img/gakvetilebi/xelovneba/magic-world/a-6-5-3.png");
 }
-
 .portfolio-slider-04-6-5.owl-theme .owl-dots .owl-dot:nth-child(4) span {
   background-image: url("../img/gakvetilebi/xelovneba/magic-world/a-6-5-4.png");
 }
@@ -6550,9 +6565,6 @@ section .arrow_up_down_downArrow img {
   width: 40px;
 }
 
-#N-1366-04-273 .circle-box {
-  height: 19vh;
-}
 #N-1366-04-273 .circle-box img {
   width: 100%;
 }
@@ -6567,14 +6579,8 @@ section .arrow_up_down_downArrow img {
   max-height: 90px;
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
   border-radius: 50%;
-  margin-right: 12vh;
-  justify-content: center;
   margin-right: 3vh;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  justify-content: center;
   display: flex;
   align-items: center;
 }
@@ -6597,23 +6603,12 @@ section .arrow_up_down_downArrow img {
 #N-1366-04-273 .timline_box p {
   font-size: 1.8vh;
 }
-#N-1366-04-273 .circle-box img {
-  width: 100%;
-}
-#N-1366-04-273 .circle-box_wrapper {
-  height: 13vh;
-  max-height: 100px;
-}
-#N-1366-04-273 .circle-box_wrapper .circles {
-
 #N-1366-04-273 .circle-box {
   position: relative;
 }
-
 #N-1366-04-273 .circle-box img {
   width: 100%;
 }
-
 #N-1366-04-273 .circle-box .circles {
   height: 12vh;
   width: 12vh;
@@ -7503,8 +7498,7 @@ section .arrow_up_down_downArrow img {
   width: 75px;
   height: 75px;
   border-radius: 50%;
-  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.160784);
-          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.160784);
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1607843137);
   position: absolute;
 }
 .nature-game-season-circles img {
@@ -7515,8 +7509,7 @@ section .arrow_up_down_downArrow img {
 .nature-game-season-circle-1 {
   left: 50%;
   top: -95px;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
 }
 
 .nature-game-season-circle-2 {
@@ -7689,8 +7682,7 @@ section .arrow_up_down_downArrow img {
 }
 .nature_plant-game-text-container-white {
   background: #fff;
-  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.160784);
-          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.160784);
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1607843137);
   border-radius: 27px;
   height: 5.07vh;
   width: 12.29vw;
@@ -9074,11 +9066,9 @@ section .arrow_up_down_downArrow img {
   height: 26.43vh;
   margin-right: 6.14vw;
 }
-
 .A-1366-03-15-img-div p {
   margin-top: 2.6vh;
 }
-
 .A-1366-03-15-img-div img {
   height: 100%;
 }
