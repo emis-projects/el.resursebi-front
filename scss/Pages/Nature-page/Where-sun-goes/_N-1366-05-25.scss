@@ -1,6 +1,11 @@
-.n_sun-25-img{
+.n_sun-25 {
+  &-img {
     height: 71.22vh;
     position: absolute;
     left: 0;
     bottom: 0;
+  }
+  &-mt {
+    margin-top: 10vh;
+  }
 }

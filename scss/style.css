@@ -10710,6 +10710,22 @@ section .arrow_up_down_downArrow img {
   bottom: 0;
 }
 
+.n_sun-25-mt {
+  margin-top: 10vh;
+}
+
+.n_57_game-container {
+  text-align: center;
+}
+
+.n_57_game-container .m_exercise_text-container {
+  margin-top: 1.5vh;
+}
+
+.n_57_game-container-words .m_exercise_text-container {
+  margin-top: 1.5vh;
+}
+
 .canvas-container {
   width: 100% !important;
 }
