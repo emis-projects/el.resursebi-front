@@ -1,30 +1,31 @@
 <!DOCTYPE html>
-<html lang="en" data-botid="2318">
+<!-- ბოტის აიდიში ვუთითებთ: ხელოვნების - 2318, ბუნების - 2320, მუსიკის - 2292 -->
+<html lang="ka" data-botid="2318">
 
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <!-- ყველა გვერდზე -->
-    <script src="../../../js/vue.js"></script>
-    <!--  ვუე გაშვებისას
+  <!-- ყველა გვერდზე -->
+  <script src="../../js/vue.js"></script>
+  <!--  ვუე გაშვებისას
     <script src="./js/vue.min.js"></script>
      -->
-  <link rel="stylesheet" href="../../scss/libraries/bootstrap.min.css" />
+  <link rel="stylesheet" href="../../scss/libraries/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../../scss/libraries/owl.carousel.min.css" />
+  <link rel="stylesheet" type="text/css" href="../../scss/libraries/owl.theme.default.css" />
   <link rel="stylesheet" href="../../scss/style.css" />
   <title>ელექტრონული საგანმანათლებლო რესურსი</title>
 </head>
 
 <body>
   <div class="container">
-      <header id="app">
-          <nav class="row">
-              <app-logo v-logo="'../../../'"></app-logo>
-              <app-menu v-menu:dark="'../../../'"></app-menu>
-              <sound-lang></sound-lang>
-          </nav>
-      </header>
-
-
+    <header id="app">
+      <nav class="row">
+        <app-logo v-logo="'../../'"></app-logo>
+        <app-menu v-menu:dark="'../../'"></app-menu>
+        <sound-lang></sound-lang>
+      </nav>
+    </header>
     <section class="paint_atributes-content paint_atributes-content-container ">
       <div class="subject_component row">
         <div class="col-12 item_flex">
@@ -64,12 +65,19 @@
     </div>
   </div>
 
-  <script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
-
-  <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
-  <script src="../../../Vue-Header/app.js"></script>
-  <script src="../../../Vue-chatBot/test.js"></script>
-  <script src="../../../js/bot.js"></script>
-</body>
-
-</html>
+  <!-- ჩეთბოტი -->
+  <div id="chatBot">
+      <app-bot></app-bot>
+    </div>
+  
+    <script src="../../js/libraries/jquery-3.4.1.min.js"></script>
+    <script src="../../js/libraries/bootstrap.min.js"></script>
+  
+    <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
+    <script src="../../Vue-Header/app.js"></script>
+    <script src="../../Vue-chatBot/botApp.js"></script>
+    <script src="../../js/bot.js"></script>
+  
+  </body>
+  
+  </html>
