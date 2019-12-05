@@ -11139,6 +11139,32 @@ section .arrow_up_down_downArrow img {
   margin-top: 1.5vh;
 }
 
+.n_hint_shadow {
+  -webkit-box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.1);
+          box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.1);
+}
+
+.n_hint_shadow-text {
+  font-size: 2.34vh;
+  font-family: "BPG Arial";
+  margin: 5vh 3vw 3vh;
+  font-weight: bold;
+}
+
+.n_hint_shadow-img {
+  height: 53.77vh;
+}
+
+.n_hint_shadow-img-44 {
+  height: 36.97vh;
+  margin-top: 5vh;
+}
+
+.n_hint_shadow-subject_question_item {
+  margin-top: 0;
+  margin-left: 3vw;
+}
+
 .canvas-container {
   width: 100% !important;
 }
@@ -11155,4 +11181,3 @@ section .arrow_up_down_downArrow img {
   display: -ms-flexbox;
   display: flex;
 }
-/*# sourceMappingURL=style.css.map */
