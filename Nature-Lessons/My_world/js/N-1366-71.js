@@ -116,6 +116,9 @@ function natureGames(){
           } else if(location.pathname == "/Nature-Lessons/My_world/games/N-1366-89.html"){
             location.href = 'nature-4-success.html';
       
+          } else if(location.pathname == "/Computer-Science/Computer_parts/games/C-1366-01-15.html"){
+            location.href = 'C-1366-01-15-success.html';
+      
           }
 	}
     

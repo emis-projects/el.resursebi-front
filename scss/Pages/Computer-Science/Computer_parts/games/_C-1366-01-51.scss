@@ -36,15 +36,18 @@
     width: 100%;
     max-height: 530px;
     .dropdown_dest{
-      width: 85%;
+      width: 628px;
       background: rgba(255, 0, 0, 0.3);
-      height: 28vh;
-      margin: 0 auto;
+      height: 237px;
+      /* margin: 0 auto; */
       position: absolute;
       z-index: 444;
-      top: 0;
-      left: 50%;
-      transform: translateX(-50%);
+      top: -23px;
+      left: 4px;
+      /* -webkit-transform: translateX(-50%); */
+      /* transform: translateX(-50%); */
+      -webkit-clip-path: polygon(14% 50%, 86% 50%, 100% 100%, 0% 100%);
+      clip-path: polygon(14% 50%, 86% 50%, 100% 100%, 0% 100%);
     }
     .image-box{
       position: absolute;

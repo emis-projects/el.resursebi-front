@@ -1,10 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<!-- ხელოვნების ჩეთბოტის აიდი -->
+<html lang="ka" data-botid="2318">
+
 
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-
+    <!-- ჰედერისთვის და ჩეთბოტისთვის -->
+    <script src="../../js/vue.js"></script>
     <link rel="stylesheet" href="../../scss/libraries/bootstrap.min.css" />
     <link rel="stylesheet" href="../../scss/style.css" />
     <title>ხელოვნება</title>
@@ -55,7 +58,19 @@
         </div>
     </div>
 
-    <script src="../../js/soundSwitch.js"></script>
+    <!-- ჩეთბოტისაა -->
+    <div id="chatBot">
+      <app-bot></app-bot>
+    </div>
+
+    <script src="../../js/libraries/jquery-3.4.1.min.js"></script>
+    <script src="../../js/soundLang.js"></script>
+    <!-- ჩეთბოტისაა -->
+    <script src="../.././Vue-Header/app.js"></script>
+    <script src="../.././Vue-chatBot/botApp.js"></script>
+    <script src="../.././js/bot.js"></script>
+
+
 </body>
 
 </html>
