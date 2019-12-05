@@ -3886,17 +3886,13 @@ section .arrow_up_down_downArrow img {
           justify-content: flex-start;
 }
 
-.ask_question_game {
-  overflow-x: hidden;
-}
-
 .ask_question_game_box {
   height: 19vh;
   width: 19vh;
-  max-width: 130px;
-  max-height: 130px;
-  min-width: 130px;
-  min-height: 130px;
+  max-width: 150px;
+  max-height: 150px;
+  min-width: 150px;
+  min-height: 150px;
   margin-top: 2.5vh;
   border: 6px solid #44bbbd;
   border-radius: 50%;
@@ -3931,6 +3927,8 @@ section .arrow_up_down_downArrow img {
   width: 19vh;
   max-width: 150px;
   max-height: 150px;
+  min-width: 150px;
+  min-height: 150px;
   margin-top: 2.5vh;
   border: 6px solid #44bbbd;
   border-radius: 50%;
@@ -3976,10 +3974,10 @@ section .arrow_up_down_downArrow img {
 .ask_question_game .ask_question_game_box--sm {
   width: 19vh;
   height: 19vh;
-  max-width: 130px;
-  max-height: 130px;
-  min-width: 130px;
-  min-height: 130px;
+  max-width: 140px;
+  max-height: 140px;
+  min-width: 140px;
+  min-height: 140px;
   border: 6px solid #44bbbd;
   border-radius: 50%;
   display: -webkit-box;
@@ -4020,7 +4018,7 @@ section .arrow_up_down_downArrow img {
 
 .ask_question_game .ask_question_game_box--sm:nth-child(2) {
   position: absolute;
-  right: 1%;
+  right: 0%;
   top: 18%;
 }
 
@@ -4032,7 +4030,7 @@ section .arrow_up_down_downArrow img {
 
 .ask_question_game .ask_question_game_box--sm:nth-child(3) {
   position: absolute;
-  right: 1%;
+  right: 0%;
   top: 58%;
 }
 
@@ -4044,7 +4042,7 @@ section .arrow_up_down_downArrow img {
 
 .ask_question_game .ask_question_game_box--sm:nth-child(4) {
   position: absolute;
-  bottom: 0%;
+  bottom: -4%;
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
@@ -4058,7 +4056,7 @@ section .arrow_up_down_downArrow img {
 
 .ask_question_game .ask_question_game_box--sm:nth-child(5) {
   position: absolute;
-  left: 8%;
+  left: 7%;
   top: 58%;
   -webkit-transform: translateX(-30%);
   transform: translateX(-30%);
@@ -4072,7 +4070,7 @@ section .arrow_up_down_downArrow img {
 
 .ask_question_game .ask_question_game_box--sm:nth-child(6) {
   position: absolute;
-  left: 8%;
+  left: 7%;
   top: 18%;
   -webkit-transform: translateX(-30%);
           transform: translateX(-30%);
@@ -11354,4 +11352,3 @@ section .arrow_up_down_downArrow img {
   display: -ms-flexbox;
   display: flex;
 }
-/*# sourceMappingURL=style.css.map */
