@@ -1,0 +1,39 @@
+#N-1366-05-35{
+  .subject_component{
+    margin-bottom: 0;
+  }
+  .image-box{
+    height: 66vh;
+    max-height: 432px;
+    img{
+      height: 100%;
+    }
+  }
+  .time-line{
+    margin-top: 4.6vh;
+    height: 8vh;
+    max-height: 70px;
+    .time-box{
+      width: 95%;
+      .btn-time{
+        padding: 4px;
+        border-radius: 10px;
+        background: #5ECAE5;
+        font-family: 'BPG Arial', sans-serif;
+        line-height: 1;
+        height: 4vh;
+        &:hover{
+          line-height: 1;
+          border: 1px solid transparent;
+        }
+      }
+    }
+    .arrow-box{
+      height: 4vh;
+      width: 100%;
+      img{
+        height: 100%;
+      }
+    }
+  }
+}

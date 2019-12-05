@@ -10703,18 +10703,20 @@ section .arrow_up_down_downArrow img {
   background-repeat: no-repeat;
 }
 
-.N-1366-05-21-container {
-  background-image: url(../../../../img/gakvetilebi/buneba/Where-sun-goes/N-1366-05-21-container.svg);
+#N-1366-05-21 .N-1366-03-153 {
+  background-image: url("../img/gakvetilebi/buneba/Where-sun-goes/bot-21.png");
+  background-position: center;
 }
 
-.N-1366-05-21-img-container {
-  height: 75.98vh;
-}
-
-.N-1366-05-21-img-container img {
-  height: 100%;
-  margin: auto;
-  padding-top: 22.13vh;
+.nature-text-wrapper_16 {
+  position: absolute;
+  bottom: 0;
+  height: 16vh;
+  left: 0;
+  right: 0;
+  background: #fff;
+  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
+  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
 }
 
 .N-1366-05-26-laptop {
@@ -10960,6 +10962,22 @@ section .arrow_up_down_downArrow img {
   background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
 }
 
+#N-1366-05-21 .N-1366-03-153 {
+  background-image: url("../img/gakvetilebi/buneba/Where-sun-goes/bot-21.png");
+  background-position: center;
+}
+
+.nature-text-wrapper_16 {
+  position: absolute;
+  bottom: 0;
+  height: 16vh;
+  left: 0;
+  right: 0;
+  background: #fff;
+  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
+  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
+}
+
 #N-1366-05-29 .N-1366-03-153 {
   background-image: url("../img/gakvetilebi/buneba/Where-sun-goes/sun-29.png");
   background-position: center;
@@ -11006,6 +11024,64 @@ section .arrow_up_down_downArrow img {
   background: #fff;
   background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
   background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
+}
+
+#N-1366-05-32 .nature_full_image-box {
+  height: 100vh;
+  width: 100vw;
+}
+
+#N-1366-05-32 .nature_full_image-box svg {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#N-1366-05-35 .subject_component {
+  margin-bottom: 0;
+}
+
+#N-1366-05-35 .image-box {
+  height: 66vh;
+  max-height: 432px;
+}
+
+#N-1366-05-35 .image-box img {
+  height: 100%;
+}
+
+#N-1366-05-35 .time-line {
+  margin-top: 4.6vh;
+  height: 8vh;
+  max-height: 70px;
+}
+
+#N-1366-05-35 .time-line .time-box {
+  width: 95%;
+}
+
+#N-1366-05-35 .time-line .time-box .btn-time {
+  padding: 4px;
+  border-radius: 10px;
+  background: #5ECAE5;
+  font-family: 'BPG Arial', sans-serif;
+  line-height: 1;
+  height: 4vh;
+}
+
+#N-1366-05-35 .time-line .time-box .btn-time:hover {
+  line-height: 1;
+  border: 1px solid transparent;
+}
+
+#N-1366-05-35 .time-line .arrow-box {
+  height: 4vh;
+  width: 100%;
+}
+
+#N-1366-05-35 .time-line .arrow-box img {
+  height: 100%;
 }
 
 #N-1366-05-46 .N-1366-03-153 {
@@ -11113,6 +11189,10 @@ section .arrow_up_down_downArrow img {
 }
 
 .N-1366-05-33-img {
+  height: 50vh;
+}
+
+.N-1366-05-33-img img {
   height: 50vh;
 }
 
@@ -11228,6 +11308,11 @@ section .arrow_up_down_downArrow img {
 
 .N-1366-05-48-laptop-container img {
   height: 100%;
+}
+
+.n_05-59-img {
+  margin: 10vh 0;
+  height: 37.10vh;
 }
 
 .canvas-container {
