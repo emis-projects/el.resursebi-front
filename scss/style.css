@@ -11116,6 +11116,14 @@ section .arrow_up_down_downArrow img {
   height: 50vh;
 }
 
+.N-1366-05-34-text-container p {
+  line-height: 30px;
+}
+
+.N-1366-05-34-col-container {
+  margin-top: 2.6vh;
+}
+
 .n_sun-25-img {
   height: 71.22vh;
   position: absolute;
@@ -11212,6 +11220,14 @@ section .arrow_up_down_downArrow img {
 .n_hint_shadow-subject_question_item {
   margin-top: 0;
   margin-left: 3vw;
+}
+
+.N-1366-05-48-laptop-container {
+  height: 33.46vh;
+}
+
+.N-1366-05-48-laptop-container img {
+  height: 100%;
 }
 
 .canvas-container {
