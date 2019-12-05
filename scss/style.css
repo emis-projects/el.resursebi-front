@@ -11214,6 +11214,11 @@ section .arrow_up_down_downArrow img {
   margin-left: 3vw;
 }
 
+.n_05-59-img {
+  margin: 10vh 0;
+  height: 37.10vh;
+}
+
 .canvas-container {
   width: 100% !important;
 }
@@ -11230,4 +11235,3 @@ section .arrow_up_down_downArrow img {
   display: -ms-flexbox;
   display: flex;
 }
-/*# sourceMappingURL=style.css.map */
