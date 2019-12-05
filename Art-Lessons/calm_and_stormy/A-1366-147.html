@@ -1,9 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<!-- ხელოვნების ჩეთბოტის აიდი -->
+<html lang="ka" data-botid="2318">
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- ჰედერისთვის და ჩეთბოტისთვის -->
+    <script src="../../js/vue.js"></script>
   <link rel="stylesheet" type="text/css" href="../../scss/libraries/owl.carousel.min.css" />
   <link rel="stylesheet" type="text/css" href="../../scss/libraries/owl.theme.default.css" />
   <link rel="stylesheet" href="../../scss/libraries/bootstrap.min.css" />
@@ -127,6 +131,11 @@
     </div>
   </div>
 
+  <!-- ჩეთბოტისაა -->
+  <div id="chatBot">
+    <app-bot></app-bot>
+  </div>
+
 
   <script src="../../js/libraries/jquery-3.4.1.min.js"></script>
   <script src="../../js/libraries/owl.carousel.min.js"></script>
@@ -156,6 +165,11 @@
       owl.trigger('to.owl.carousel', 2);
     });
   </script>
+  <!-- ჩეთბოტისაა -->
+  <script src="../.././Vue-Header/app.js"></script>
+  <script src="../.././Vue-chatBot/botApp.js"></script>
+  <script src="../.././js/bot.js"></script>
+
 </body>
 
 </html>
