@@ -11304,10 +11304,38 @@ section .arrow_up_down_downArrow img {
 
 .N-1366-05-48-laptop-container {
   height: 33.46vh;
+  position: absolute;
+  right: 15.7vw;
+  top: 20vh;
 }
 
 .N-1366-05-48-laptop-container img {
   height: 100%;
+}
+
+.N-1366-05-48-cols-container {
+  margin-top: 28.38vh;
+}
+
+.N-1366-05-48-earth-container, .N-1366-05-48-sun-container, .N-1366-05-48-moon-container, .N-1366-05-48-moon-container {
+  height: 21.87vh;
+}
+
+.N-1366-05-48-earth-container img, .N-1366-05-48-sun-container img, .N-1366-05-48-moon-container img, .N-1366-05-48-moon-container img {
+  height: 100%;
+}
+
+.N-1366-05-48-earth-container p, .N-1366-05-48-sun-container p, .N-1366-05-48-moon-container p, .N-1366-05-48-moon-container p {
+  margin-top: 4.16vh;
+  text-align: center;
+}
+
+.N-1366-05-48-sun-container {
+  height: 34.24vh;
+}
+
+.N-1366-05-48-moon-container {
+  height: 14.45vh;
 }
 
 .n_05-59-img {
