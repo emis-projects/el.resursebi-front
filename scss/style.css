@@ -11336,6 +11336,39 @@ section .arrow_up_down_downArrow img {
   margin-top: 1.3vh;
 }
 
+.circles_game-blue-container .ask_question_game_box_white {
+  background: white;
+}
+
+.circles_game-blue-container .ask_question_game_box_white h5 {
+  color: black;
+}
+
+/* .ask_question_game .ask_question_game_box--sm {
+    width: 19vh;
+    height: 19vh;
+    max-width: 120px;
+    max-height: 120px;
+    min-width: 120px;
+    min-height: 120px;
+    border: 6px solid #44bbbd;
+    border-radius: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 13px;
+    text-align: center;
+    color: #0b2228;
+    position: relative;
+    font-size: 1.7vh;
+    font-family: 'BPG Arial';
+} */
 .canvas-container {
   width: 100% !important;
 }
@@ -11352,3 +11385,4 @@ section .arrow_up_down_downArrow img {
   display: -ms-flexbox;
   display: flex;
 }
+/*# sourceMappingURL=style.css.map */
