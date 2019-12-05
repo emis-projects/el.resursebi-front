@@ -1,17 +1,13 @@
-#N-1366-05-21 {
-  .N-1366-03-153 {
-    background-image: url("../img/gakvetilebi/buneba/Where-sun-goes/bot-21.png");
-    background-position: center;
-  }
+.N-1366-05-21-container {  
+  background-image: url(../../../../img/gakvetilebi/buneba/Where-sun-goes/N-1366-05-21-container.svg);
+  
 }
 
-.nature-text-wrapper_16 {
-  position: absolute;
-  bottom: 0;
-  height: 16vh;
-  left: 0;
-  right: 0;
-  background: #fff;
-  background:
-          transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
-}
+.N-1366-05-21-img-container{
+  height:75.98vh;
+  img{
+    height:100%;
+    margin:auto;
+    padding-top:22.13vh;
+  }
+} 
