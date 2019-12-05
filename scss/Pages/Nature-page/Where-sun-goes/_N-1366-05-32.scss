@@ -1,29 +1,11 @@
 #N-1366-05-32 {
-  map {
-    cursor: pointer;
-  }
-  .nature_full_image-box{
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    img{
-      height: 100%;
-      width: 100%;
-      object-fit: cover;
-    }
-  }
-  .nature-text-wrapper_16 {
-    position: absolute;
-    bottom: 0;
-    height: 16vh;
-    left: 0;
-    right: 0;
-    background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
-  }
+ .nature_full_image-box{
+   height: 100vh;
+   width: 100vw;
+   svg {
+     height: 100%;
+     width: 100%;
+     object-fit: cover;
+   }
+ }
 }
