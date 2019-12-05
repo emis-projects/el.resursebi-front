@@ -11139,6 +11139,55 @@ section .arrow_up_down_downArrow img {
   margin-top: 1.5vh;
 }
 
+.n-1366-05-53-sun {
+  position: absolute;
+  top: 3vh;
+  left: 0;
+  max-height: 58.3vh;
+}
+
+.n-1366-05-53-arrow-1 {
+  position: absolute;
+  top: 5vh;
+  left: 30vw;
+  max-height: 3.89vh;
+}
+
+.n-1366-05-53-arrow-2 {
+  position: absolute;
+  top: 20vh;
+  left: 30vw;
+  max-height: 3.89vh;
+}
+
+.n-1366-05-53-arrow-3 {
+  position: absolute;
+  top: 35vh;
+  left: 30vw;
+  max-height: 3.89vh;
+}
+
+.n-1366-05-53-arrow-4 {
+  position: absolute;
+  top: 50vh;
+  left: 30vw;
+  max-height: 3.89vh;
+}
+
+.n-1366-05-53-earth {
+  position: absolute;
+  top: 18vh;
+  left: 50vw;
+  max-height: 24vh;
+}
+
+.n-1366-05-53-moon {
+  position: absolute;
+  top: 10vh;
+  left: 60vw;
+  max-height: 24vh;
+}
+
 .canvas-container {
   width: 100% !important;
 }
