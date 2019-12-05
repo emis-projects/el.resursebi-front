@@ -6,14 +6,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <!-- ყველა გვერდზე -->
-    <script src="../../js/vue.js"></script>
+    <script src="../../../js/vue.js"></script>
     <!--  ვუე გაშვებისას
     <script src="./js/vue.min.js"></script>
      -->
-    <link rel="stylesheet" href="../../scss/libraries/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="../../scss/libraries/owl.carousel.min.css" />
-    <link rel="stylesheet" type="text/css" href="../../scss/libraries/owl.theme.default.css" />
-    <link rel="stylesheet" href="../../scss/style.css" />
+    <link rel="stylesheet" href="../../../scss/libraries/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../../../scss/libraries/owl.carousel.min.css" />
+    <link rel="stylesheet" type="text/css" href="../../../scss/libraries/owl.theme.default.css" />
+    <link rel="stylesheet" href="../../../scss/style.css" />
     <title>ელექტრონული საგანმანათლებლო რესურსი</title>
 </head>
 
@@ -21,8 +21,8 @@
     <div class="container">
         <header id="app">
             <nav class="row">
-                <app-logo v-logo="'../../'"></app-logo>
-                <app-menu v-menu:dark="'../../'"></app-menu>
+                <app-logo v-logo="'../../../'"></app-logo>
+                <app-menu v-menu:dark="'../../../'"></app-menu>
                 <sound-lang></sound-lang>
             </nav>
         </header>
@@ -31,43 +31,44 @@
                 <div class="col-12 item_flex">
                     <div
                         class="subject_component_itle_icon bg_bouble_pink d-flex justify-content-center align-items-center">
-                        <img src="../../img/backgrounds/bg-ilustrations/hand.svg" alt="ruler-blue" />
+                        <img src="../../../img/backgrounds/bg-ilustrations/hand.svg" alt="ruler-blue" />
                     </div>
                     <h3 class="subject_component_title">სავარჯიშო</h3>
                 </div>
             </div>
-             <div class="N-1366-05-48-laptop-container">
-                        <img src="../../img/gakvetilebi/buneba/Where-sun-goes/N-1366-05-48-laptop.svg"/>                      
-                    </div> 
-            <div class="row">     
+
+            <div class="row">
+                <div class="col-11 offset-1 big-font-size-18px">
+                    <p>სწორი თანმიმდევრობით განალაგე ნახატები.</p>
+                </div>
                 <div class="col-9 d-flex N-1366-05-48-cols-container justify-content-between offset-1 align-items-end">
-                <div class="N-1366-05-48-earth-container big-font-size-18px ">
-                    <img src="../../img/gakvetilebi/buneba/Where-sun-goes/N-1366-05-53-earth.svg"/>
-                    <p> დედამიწა</p>
-                </div>
-                <div class="N-1366-05-48-sun-container big-font-size-18px">
-                    <img src="../../img/gakvetilebi/buneba/Where-sun-goes/N-1366-05-53-sun.png"/>
-                    <p> მთვარე</p>
-                </div>
-                <div class="N-1366-05-48-moon-container big-font-size-18px">
-                    <img src="../../img/gakvetilebi/buneba/Where-sun-goes/N-1366-05-53-moon.svg"/>
-                    <p> მზე</p>
-                </div>
+                    <div class="N-1366-05-48-earth-container big-font-size-18px ">
+                        <img src="../../../img/gakvetilebi/buneba/Where-sun-goes/N-1366-05-53-earth.svg" />
+                        <p> დედამიწა</p>
+                    </div>
+                    <div class="N-1366-05-48-sun-container big-font-size-18px">
+                        <img src="../../../img/gakvetilebi/buneba/Where-sun-goes/N-1366-05-53-sun.png" />
+                        <p> მზე</p>
+                    </div>
+                    <div class="N-1366-05-48-moon-container big-font-size-18px">
+                        <img src="../../../img/gakvetilebi/buneba/Where-sun-goes/N-1366-05-53-moon.svg" />
+                        <p> მზე</p>
+                    </div>
                 </div>
             </div>
             <div class="paging_buttons paging_buttons_position">
                 <a href="./N-1366-05-47.html">
-                    <img src="../../img/icons/chevron-down-logo.svg" alt="down arrow" class="paging_buttons_left" />
+                    <img src="../../../img/icons/chevron-down-logo.svg" alt="down arrow" class="paging_buttons_left" />
                 </a>
                 <a href="./games/N-1366-05-49.html" class="paging_buttons_margin-left">
-                    <img src="../../img/icons/chevron-down-logo.svg" alt="down arrow" class="paging_buttons_right" />
+                    <img src="../../../img/icons/chevron-down-logo.svg" alt="down arrow" class="paging_buttons_right" />
                 </a>
             </div>
         </section>
         <div class="subject_component_botton_illustration">
             <div class="illustration_bg bg_pink_Down"></div>
             <div class="subject_component_botton_bg_icon">
-                <img src="../../img/backgrounds/bg-ilustrations/hand.svg" alt="ruler art" />
+                <img src="../../../img/backgrounds/bg-ilustrations/hand.svg" alt="ruler art" />
             </div>
         </div>
     </div>
@@ -77,13 +78,13 @@
         <app-bot></app-bot>
     </div>
 
-    <script src="../../js/libraries/jquery-3.4.1.min.js"></script>
-    <script src="../../js/libraries/bootstrap.min.js"></script>
+    <script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
+    <script src="../../../js/libraries/bootstrap.min.js"></script>
 
     <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
-    <script src="../../Vue-Header/app.js"></script>
-    <script src="../../Vue-chatBot/botApp.js"></script>
-    <script src="../../js/bot.js"></script>
+    <script src="../../../Vue-Header/app.js"></script>
+    <script src="../../../Vue-chatBot/botApp.js"></script>
+    <script src="../../../js/bot.js"></script>
 
 </body>
 
