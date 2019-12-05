@@ -1,11 +1,21 @@
-@import url(https://zavoloklom.github.io/material-design-iconic-font/css/docs.md-iconic-font.min.css);
-@import url(https://zavoloklom.github.io/material-design-iconic-font/css/docs.md-iconic-font.min.css);
-.fabs {
-  bottom: calc(7.8vh + 315px);
-  position: fixed;
-  margin: 1em;
-  right: 0;
-  z-index: 998;
+/* Error: expected "{".
+ *    ,
+ * 33 | >>>>>>> 8b8dcb11d6a7bc9a93b09117444dc4745c48f3f0
+ *    |                                                 ^
+ *    '
+ *   pages\nature-page\where-sun-goes\_n-1366-05-21.scss 33:49  @import
+ *   pages\_pages--import.scss 402:9                            @import
+ *   style.scss 17:9                                            root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: expected "{".\a    \2577 \a 33 \2502  >>>>>>> 8b8dcb11d6a7bc9a93b09117444dc4745c48f3f0\d\a    \2502                                                  ^\a    \2575 \a   pages\\nature-page\\where-sun-goes\\_n-1366-05-21.scss 33:49  @import\a   pages\\_pages--import.scss 402:9                            @import\a   style.scss 17:9                                            root stylesheet';
 }
 
 #formData {
