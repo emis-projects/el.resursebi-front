@@ -10930,6 +10930,20 @@ section .arrow_up_down_downArrow img {
   background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
 }
 
+.N-1366-05-21-container {
+  background-image: url(../../../../img/gakvetilebi/buneba/Where-sun-goes/N-1366-05-21-container.svg);
+}
+
+.N-1366-05-21-img-container {
+  height: 75.98vh;
+}
+
+.N-1366-05-21-img-container img {
+  height: 100%;
+  margin: auto;
+  padding-top: 22.13vh;
+}
+
 #N-1366-05-29 .N-1366-03-153 {
   background-image: url("../img/gakvetilebi/buneba/Where-sun-goes/sun-29.png");
   background-position: center;
@@ -10976,6 +10990,85 @@ section .arrow_up_down_downArrow img {
   background: #fff;
   background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
   background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
+}
+
+#N-1366-05-32 map {
+  cursor: pointer;
+}
+
+#N-1366-05-32 .nature_full_image-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#N-1366-05-32 .nature_full_image-box img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#N-1366-05-32 .nature-text-wrapper_16 {
+  position: absolute;
+  bottom: 0;
+  height: 16vh;
+  left: 0;
+  right: 0;
+  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
+  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
+}
+
+#N-1366-05-35 .subject_component {
+  margin-bottom: 0;
+}
+
+#N-1366-05-35 .image-box {
+  height: 66vh;
+  max-height: 432px;
+}
+
+#N-1366-05-35 .image-box img {
+  height: 100%;
+}
+
+#N-1366-05-35 .time-line {
+  margin-top: 4.6vh;
+  height: 8vh;
+  max-height: 70px;
+}
+
+#N-1366-05-35 .time-line .time-box {
+  width: 95%;
+}
+
+#N-1366-05-35 .time-line .time-box .btn-time {
+  padding: 4px;
+  border-radius: 10px;
+  background: #5ECAE5;
+  font-family: 'BPG Arial', sans-serif;
+  line-height: 1;
+  height: 4vh;
+}
+
+#N-1366-05-35 .time-line .time-box .btn-time:hover {
+  line-height: 1;
+  border: 1px solid transparent;
+}
+
+#N-1366-05-35 .time-line .arrow-box {
+  height: 4vh;
+  width: 100%;
+}
+
+#N-1366-05-35 .time-line .arrow-box img {
+  height: 100%;
 }
 
 #N-1366-05-46 .N-1366-03-153 {
@@ -11086,6 +11179,18 @@ section .arrow_up_down_downArrow img {
   height: 50vh;
 }
 
+.N-1366-05-33-img img {
+  height: 50vh;
+}
+
+.N-1366-05-34-text-container p {
+  line-height: 30px;
+}
+
+.N-1366-05-34-col-container {
+  margin-top: 2.6vh;
+}
+
 .n_sun-25-img {
   height: 71.22vh;
   position: absolute;
@@ -11107,6 +11212,94 @@ section .arrow_up_down_downArrow img {
 
 .n_57_game-container-words .m_exercise_text-container {
   margin-top: 1.5vh;
+}
+
+.n-1366-05-53-sun {
+  position: absolute;
+  top: 3vh;
+  left: 0;
+  max-height: 58.3vh;
+}
+
+.n-1366-05-53-arrow-1 {
+  position: absolute;
+  top: 5vh;
+  left: 30vw;
+  max-height: 3.89vh;
+}
+
+.n-1366-05-53-arrow-2 {
+  position: absolute;
+  top: 20vh;
+  left: 30vw;
+  max-height: 3.89vh;
+}
+
+.n-1366-05-53-arrow-3 {
+  position: absolute;
+  top: 35vh;
+  left: 30vw;
+  max-height: 3.89vh;
+}
+
+.n-1366-05-53-arrow-4 {
+  position: absolute;
+  top: 50vh;
+  left: 30vw;
+  max-height: 3.89vh;
+}
+
+.n-1366-05-53-earth {
+  position: absolute;
+  top: 18vh;
+  left: 50vw;
+  max-height: 24vh;
+}
+
+.n-1366-05-53-moon {
+  position: absolute;
+  top: 10vh;
+  left: 60vw;
+  max-height: 24vh;
+}
+
+.n_hint_shadow {
+  -webkit-box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.1);
+          box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.1);
+}
+
+.n_hint_shadow-text {
+  font-size: 2.34vh;
+  font-family: "BPG Arial";
+  margin: 5vh 3vw 3vh;
+  font-weight: bold;
+}
+
+.n_hint_shadow-img {
+  height: 53.77vh;
+}
+
+.n_hint_shadow-img-44 {
+  height: 36.97vh;
+  margin-top: 5vh;
+}
+
+.n_hint_shadow-subject_question_item {
+  margin-top: 0;
+  margin-left: 3vw;
+}
+
+.N-1366-05-48-laptop-container {
+  height: 33.46vh;
+}
+
+.N-1366-05-48-laptop-container img {
+  height: 100%;
+}
+
+.n_05-59-img {
+  margin: 10vh 0;
+  height: 37.10vh;
 }
 
 .canvas-container {
