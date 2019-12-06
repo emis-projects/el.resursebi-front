@@ -1,8 +1,6 @@
 Vue.component("appBot", {
   props: {
-    botId: {
-      type: Number
-    }
+    botId: String
   },
   data() {
     return {
@@ -158,8 +156,5 @@ Vue.component("appBot", {
 });
 
 var bot = new Vue({
-  el: "#chatBot",
-  data: {
-    botId: 2318
-  }
+  el: "#chatBot"
 });
