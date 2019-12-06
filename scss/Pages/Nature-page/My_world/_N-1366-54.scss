@@ -23,7 +23,7 @@
       height: 100%;
     }
     h5 {
-      font-size: 1.4vh;
+      font-size: 1.6vh;
       line-height: 1.2;
     }
   }
@@ -98,18 +98,18 @@
 
     h5{
       line-height: 1.2;
-      font-size: 1.4vh;
+      font-size: 1.6vh;
     }
 
     &:nth-child(1) {
       position: absolute;
       left: 50%;
-      top: -3%;
+      top: -5%;
       transform: translateX(-50%);
 
       .ask_question_game_box_number-img {
         position: absolute;
-        top: 6%;
+        top: 5%;
         left: -53%;
       }
     }
@@ -117,11 +117,11 @@
     &:nth-child(2) {
       position: absolute;
       right: 0%;
-      top: 18%;
+      top: 16%;
 
       .ask_question_game_box_number-img {
         position: absolute;
-        top: -54px;
+        top: -60px;
         right: 67px;
       }
     }
@@ -129,24 +129,24 @@
     &:nth-child(3) {
       position: absolute;
       right: 0%;
-      top: 58%;
+      top: 56%;
       .ask_question_game_box_number-img {
         position: absolute;
-        top: -38%;
+        top: -39%;
         right: 1%;
       }
     }
 
     &:nth-child(4) {
       position: absolute;
-      bottom: -4%;
+      bottom: -3%;
       left: 50%;
       transform: translateX(-50%);
 
       .ask_question_game_box_number-img {
         position: absolute;
-        top: 20%;
-        right: -54%;
+        top: 19%;
+        right: -43%;
       }
     }
   
@@ -155,14 +155,14 @@
     &:nth-child(5) {
       position: absolute;
       left: 7%;
-      top: 58%;
+      top: 56%;
       -webkit-transform: translateX(-30%);
       transform: translateX(-30%);
 
       .ask_question_game_box_number-img {
         position: absolute;
-        bottom: -40%;
-        right: -44%;
+        bottom: -41%;
+        right: -31%;
     }
   }
 
@@ -170,12 +170,12 @@
     &:nth-child(6) {
       position: absolute;
       left: 7%;
-      top: 18%;
+      top: 16%;
       transform: translateX(-30%);
 
       .ask_question_game_box_number-img {
         position: absolute;
-        bottom: -40%;
+        bottom: -41%;
         right: 45%;
       }
     }

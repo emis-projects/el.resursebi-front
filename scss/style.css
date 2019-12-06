@@ -3918,7 +3918,7 @@ section .arrow_up_down_downArrow img {
 }
 
 .ask_question_game_box h5 {
-  font-size: 1.4vh;
+  font-size: 1.6vh;
   line-height: 1.2;
 }
 
@@ -3999,50 +3999,50 @@ section .arrow_up_down_downArrow img {
 
 .ask_question_game .ask_question_game_box--sm h5 {
   line-height: 1.2;
-  font-size: 1.4vh;
+  font-size: 1.6vh;
 }
 
 .ask_question_game .ask_question_game_box--sm:nth-child(1) {
   position: absolute;
   left: 50%;
-  top: -3%;
+  top: -5%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
 }
 
 .ask_question_game .ask_question_game_box--sm:nth-child(1) .ask_question_game_box_number-img {
   position: absolute;
-  top: 6%;
+  top: 5%;
   left: -53%;
 }
 
 .ask_question_game .ask_question_game_box--sm:nth-child(2) {
   position: absolute;
   right: 0%;
-  top: 18%;
+  top: 16%;
 }
 
 .ask_question_game .ask_question_game_box--sm:nth-child(2) .ask_question_game_box_number-img {
   position: absolute;
-  top: -54px;
+  top: -60px;
   right: 67px;
 }
 
 .ask_question_game .ask_question_game_box--sm:nth-child(3) {
   position: absolute;
   right: 0%;
-  top: 58%;
+  top: 56%;
 }
 
 .ask_question_game .ask_question_game_box--sm:nth-child(3) .ask_question_game_box_number-img {
   position: absolute;
-  top: -38%;
+  top: -39%;
   right: 1%;
 }
 
 .ask_question_game .ask_question_game_box--sm:nth-child(4) {
   position: absolute;
-  bottom: -4%;
+  bottom: -3%;
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
@@ -4050,35 +4050,35 @@ section .arrow_up_down_downArrow img {
 
 .ask_question_game .ask_question_game_box--sm:nth-child(4) .ask_question_game_box_number-img {
   position: absolute;
-  top: 20%;
-  right: -54%;
+  top: 19%;
+  right: -43%;
 }
 
 .ask_question_game .ask_question_game_box--sm:nth-child(5) {
   position: absolute;
   left: 7%;
-  top: 58%;
+  top: 56%;
   -webkit-transform: translateX(-30%);
   transform: translateX(-30%);
 }
 
 .ask_question_game .ask_question_game_box--sm:nth-child(5) .ask_question_game_box_number-img {
   position: absolute;
-  bottom: -40%;
-  right: -44%;
+  bottom: -41%;
+  right: -31%;
 }
 
 .ask_question_game .ask_question_game_box--sm:nth-child(6) {
   position: absolute;
   left: 7%;
-  top: 18%;
+  top: 16%;
   -webkit-transform: translateX(-30%);
           transform: translateX(-30%);
 }
 
 .ask_question_game .ask_question_game_box--sm:nth-child(6) .ask_question_game_box_number-img {
   position: absolute;
-  bottom: -40%;
+  bottom: -41%;
   right: 45%;
 }
 
@@ -6821,6 +6821,21 @@ section .arrow_up_down_downArrow img {
   background-repeat: no-repeat;
 }
 
+.tile-box_header {
+  font-family: 'BPG Arial', sans-serif;
+  font-size: 2.8vh;
+  margin-top: 6.2vh;
+}
+
+.image-box-foresthouse {
+  height: 41vh;
+  max-height: 316px;
+}
+
+.image-box-foresthouse img {
+  height: 100%;
+}
+
 .A-1366-03-32-img-container {
   height: 52.21vh;
   margin-top: 8.85vh;
@@ -8140,12 +8155,15 @@ section .arrow_up_down_downArrow img {
 }
 
 .circles_game-img-computer {
-  height: 26.04vh;
+  height: 32.04vh;
   width: 100%;
 }
 
 .circles_game-blue-container {
-  position: relative;
+  position: absolute;
+  width: 85%;
+  top: 96%;
+  height: 100%;
 }
 
 .circles_game-blue-container .ask_question_game_box,
@@ -8179,39 +8197,27 @@ section .arrow_up_down_downArrow img {
 
 .circles_game-blue-container .ask_question_game_box h5,
 .circles_game-blue-container .draggedElement h5 {
-  font-size: 1.4vh;
+  font-size: 1.6vh;
   line-height: 1.2;
   color: #fff;
 }
 
-.circles_game-blue-container .ask_question_game_box--first {
-  right: 15%;
-  top: 0;
-}
-
-.circles_game-blue-container .ask_question_game_box--second {
-  right: 55%;
-  top: 5vh;
-}
-
-.circles_game-blue-container .ask_question_game_box--third {
-  right: 30%;
-  top: 20vh;
-}
-
+.circles_game-blue-container .ask_question_game_box--first,
 .circles_game-blue-container .draggedElement:nth-child(1) {
-  right: 15%;
+  right: 12%;
   top: 0;
 }
 
+.circles_game-blue-container .ask_question_game_box--second,
 .circles_game-blue-container .draggedElement:nth-child(2) {
-  right: 55%;
-  top: 5vh;
+  right: 60%;
+  top: 1vh;
 }
 
+.circles_game-blue-container .ask_question_game_box--third,
 .circles_game-blue-container .draggedElement:nth-child(3) {
-  right: 30%;
-  top: 20vh;
+  right: 34%;
+  top: 23vh;
 }
 
 .n-living-world-img {
@@ -10761,6 +10767,21 @@ section .arrow_up_down_downArrow img {
   background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
 }
 
+#N-1366-05-7 .N-1366-03-153 {
+  background-image: url("../img/gakvetilebi/buneba/Where-sun-goes/sun-7.png");
+  background-position: center;
+}
+
+.nature-text-wrapper_16 {
+  position: absolute;
+  bottom: 0;
+  height: 16vh;
+  left: 0;
+  right: 0;
+  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
+  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
+}
+
 #N-1366-05-8 .N-1366-03-153 {
   background-image: url("../img/gakvetilebi/buneba/Where-sun-goes/sun-8.png");
   background-position: center;
@@ -10999,37 +11020,16 @@ section .arrow_up_down_downArrow img {
   background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
 }
 
-#N-1366-05-32 map {
-  cursor: pointer;
-}
-
 #N-1366-05-32 .nature_full_image-box {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
   height: 100vh;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  width: 100vw;
 }
 
-#N-1366-05-32 .nature_full_image-box img {
+#N-1366-05-32 .nature_full_image-box svg {
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-}
-
-#N-1366-05-32 .nature-text-wrapper_16 {
-  position: absolute;
-  bottom: 0;
-  height: 16vh;
-  left: 0;
-  right: 0;
-  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
-  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
 }
 
 #N-1366-05-35 .subject_component {
