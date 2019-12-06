@@ -2032,6 +2032,12 @@ section .arrow_up_down_downArrow img {
   font-size: 2.86vh;
 }
 
+.big-font-size-16px {
+  font-size: 2.08vh;
+  font-family: "BPG Arial";
+  color: #0b2228;
+}
+
 .big-font-size-18px {
   font-size: 2.34vh;
   font-family: "BPG Arial";
@@ -11353,6 +11359,10 @@ section .arrow_up_down_downArrow img {
   color: black;
 }
 
+.A-1366-05-22-padding {
+  margin-bottom: 5.2vh;
+}
+
 .canvas-container {
   width: 100% !important;
 }
@@ -11369,3 +11379,4 @@ section .arrow_up_down_downArrow img {
   display: -ms-flexbox;
   display: flex;
 }
+/*# sourceMappingURL=style.css.map */
