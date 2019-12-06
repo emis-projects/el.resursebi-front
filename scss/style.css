@@ -3918,7 +3918,7 @@ section .arrow_up_down_downArrow img {
 }
 
 .ask_question_game_box h5 {
-  font-size: 1.7vh;
+  font-size: 1.6vh;
   line-height: 1.2;
 }
 
@@ -3999,50 +3999,50 @@ section .arrow_up_down_downArrow img {
 
 .ask_question_game .ask_question_game_box--sm h5 {
   line-height: 1.2;
-  font-size: 1.7vh;
+  font-size: 1.6vh;
 }
 
 .ask_question_game .ask_question_game_box--sm:nth-child(1) {
   position: absolute;
   left: 50%;
-  top: -3%;
+  top: -4%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
 }
 
 .ask_question_game .ask_question_game_box--sm:nth-child(1) .ask_question_game_box_number-img {
   position: absolute;
-  top: 6%;
+  top: 5%;
   left: -53%;
 }
 
 .ask_question_game .ask_question_game_box--sm:nth-child(2) {
   position: absolute;
   right: 0%;
-  top: 18%;
+  top: 17%;
 }
 
 .ask_question_game .ask_question_game_box--sm:nth-child(2) .ask_question_game_box_number-img {
   position: absolute;
-  top: -54px;
+  top: -60px;
   right: 67px;
 }
 
 .ask_question_game .ask_question_game_box--sm:nth-child(3) {
   position: absolute;
   right: 0%;
-  top: 58%;
+  top: 57%;
 }
 
 .ask_question_game .ask_question_game_box--sm:nth-child(3) .ask_question_game_box_number-img {
   position: absolute;
-  top: -38%;
+  top: -39%;
   right: 1%;
 }
 
 .ask_question_game .ask_question_game_box--sm:nth-child(4) {
   position: absolute;
-  bottom: -4%;
+  bottom: -5%;
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
@@ -4050,35 +4050,35 @@ section .arrow_up_down_downArrow img {
 
 .ask_question_game .ask_question_game_box--sm:nth-child(4) .ask_question_game_box_number-img {
   position: absolute;
-  top: 20%;
+  top: 19%;
   right: -43%;
 }
 
 .ask_question_game .ask_question_game_box--sm:nth-child(5) {
   position: absolute;
   left: 7%;
-  top: 58%;
+  top: 57%;
   -webkit-transform: translateX(-30%);
   transform: translateX(-30%);
 }
 
 .ask_question_game .ask_question_game_box--sm:nth-child(5) .ask_question_game_box_number-img {
   position: absolute;
-  bottom: -40%;
+  bottom: -41%;
   right: -31%;
 }
 
 .ask_question_game .ask_question_game_box--sm:nth-child(6) {
   position: absolute;
   left: 7%;
-  top: 18%;
+  top: 17%;
   -webkit-transform: translateX(-30%);
           transform: translateX(-30%);
 }
 
 .ask_question_game .ask_question_game_box--sm:nth-child(6) .ask_question_game_box_number-img {
   position: absolute;
-  bottom: -40%;
+  bottom: -41%;
   right: 45%;
 }
 
