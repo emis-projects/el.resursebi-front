@@ -3918,7 +3918,7 @@ section .arrow_up_down_downArrow img {
 }
 
 .ask_question_game_box h5 {
-  font-size: 1.4vh;
+  font-size: 1.7vh;
   line-height: 1.2;
 }
 
@@ -3999,7 +3999,7 @@ section .arrow_up_down_downArrow img {
 
 .ask_question_game .ask_question_game_box--sm h5 {
   line-height: 1.2;
-  font-size: 1.4vh;
+  font-size: 1.7vh;
 }
 
 .ask_question_game .ask_question_game_box--sm:nth-child(1) {
@@ -4051,7 +4051,7 @@ section .arrow_up_down_downArrow img {
 .ask_question_game .ask_question_game_box--sm:nth-child(4) .ask_question_game_box_number-img {
   position: absolute;
   top: 20%;
-  right: -54%;
+  right: -43%;
 }
 
 .ask_question_game .ask_question_game_box--sm:nth-child(5) {
@@ -4065,7 +4065,7 @@ section .arrow_up_down_downArrow img {
 .ask_question_game .ask_question_game_box--sm:nth-child(5) .ask_question_game_box_number-img {
   position: absolute;
   bottom: -40%;
-  right: -44%;
+  right: -31%;
 }
 
 .ask_question_game .ask_question_game_box--sm:nth-child(6) {
