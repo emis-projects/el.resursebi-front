@@ -9179,6 +9179,20 @@ section .arrow_up_down_downArrow img {
   background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
 }
 
+#N-1366-05-7 .N-1366-03-153 {
+  background-image: url("../img/gakvetilebi/buneba/Where-sun-goes/sun-7.png");
+  background-position: center;
+}
+
+.nature-text-wrapper_16 {
+  position: absolute;
+  bottom: 0;
+  height: 16vh;
+  left: 0;
+  right: 0;
+  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
+}
+
 #N-1366-05-8 .N-1366-03-153 {
   background-image: url("../img/gakvetilebi/buneba/Where-sun-goes/sun-8.png");
   background-position: center;
@@ -9402,32 +9416,14 @@ section .arrow_up_down_downArrow img {
   background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
 }
 
-#N-1366-05-32 map {
-  cursor: pointer;
-}
 #N-1366-05-32 .nature_full_image-box {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
   height: 100vh;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  width: 100vw;
 }
-#N-1366-05-32 .nature_full_image-box img {
+#N-1366-05-32 .nature_full_image-box svg {
   height: 100%;
   width: 100%;
   object-fit: cover;
-}
-#N-1366-05-32 .nature-text-wrapper_16 {
-  position: absolute;
-  bottom: 0;
-  height: 16vh;
-  left: 0;
-  right: 0;
-  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
 }
 
 #N-1366-05-35 .subject_component {
