@@ -1,13 +1,16 @@
 .circles_game {
 
   &-img-computer {
-    height: 26.04vh;
+    height: 32.04vh;
     width: 100%;
   }
 
   &-blue {
     &-container {
-      position: relative;
+      position: absolute;
+      width: 85%;
+      top: 96%;
+      height: 100%;
 
       .ask_question_game_box,
       .draggedElement {
@@ -44,31 +47,23 @@
         }
       }
 
-      .ask_question_game_box--first {
-        right: 15%;
+      .ask_question_game_box--first,
+      .draggedElement:nth-child(1) {
+        right: 12%;
         top: 0;
       }
-      .ask_question_game_box--second {
-        right: 55%;
-        top: 5vh;
+      .ask_question_game_box--second,
+      .draggedElement:nth-child(2) {
+        right: 60%;
+        top: 1vh;
       }
-      .ask_question_game_box--third {
-        right: 30%;
-        top: 20vh;
+      .ask_question_game_box--third,
+      .draggedElement:nth-child(3) {
+        right: 34%;
+        top: 23vh;
       }
 
-      .draggedElement:nth-child(1) {
-        right: 15%;
-        top: 0;
-      }
-      .draggedElement:nth-child(2) {
-        right: 55%;
-        top: 5vh;
-      }
-      .draggedElement:nth-child(3) {
-        right: 30%;
-        top: 20vh;
-      }
+
 
 
     }
