@@ -11631,6 +11631,21 @@ section .arrow_up_down_downArrow img {
   color: #fff;
 }
 
+.N-1366-05-41-arrows-img-container {
+  margin-top: 26.69vh;
+}
+
+.N-1366-05-41-laptop-img-container {
+  height: 33.91vh;
+  position: absolute;
+  top: 30.81vh;
+  right: 17.42vw;
+}
+
+.N-1366-05-41-laptop-img-container img {
+  height: 33.91vh;
+}
+
 .canvas-container {
   width: 100% !important;
 }
