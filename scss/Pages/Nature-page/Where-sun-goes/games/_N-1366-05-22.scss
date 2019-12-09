@@ -1,9 +1,53 @@
-.circles_game-blue-container{
+.circles_game-blue-container {
 .ask_question_game_box_white {
     background:white;
+
     h5{
-    color:black;
+         color:black;
      }
  }
 }
 
+
+.n-5-game {
+    .circles_game-blue-container {
+        .ask_question_game_box {
+            background: #fff !important; 
+
+            h5 {
+                color:black;
+            }
+        }
+
+        .draggedElement {
+            height: 19vh;
+            width: 19vh;
+            max-width: 150px;
+            max-height: 150px;
+            min-width: 150px;
+            min-height: 150px;
+            margin-top: 2.5vh;
+            border: 6px solid #44bbbd;
+            border-radius: 50%;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            padding: 11px;
+            text-align: center;
+            color: #0b2228;
+            cursor: pointer;
+            font-family: 'BPG Arial';
+            font-size: 1.4vh;
+        
+            h5 {
+                line-height: 1.2;
+            }
+        }
+    }
+}

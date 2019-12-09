@@ -4311,9 +4311,6 @@ section .arrow_up_down_downArrow img {
 
 .music_content-box .left_box {
   margin-bottom: 2vh;
-  /* &:last-child {
-                margin-top: 13vh;
-            } */
 }
 
 .music_content-box span {
@@ -4323,12 +4320,6 @@ section .arrow_up_down_downArrow img {
   padding-top: 0;
 }
 
-/* @media screen and (min-width: 1200px) {
-    .music_content-box_text-wrapper p {
-        font-size: 14px;
-    }
-
-} */
 @media screen and (max-width: 992px) {
   .music_content-box .left_box {
     margin-bottom: 1vh;
@@ -5354,7 +5345,7 @@ section .arrow_up_down_downArrow img {
   margin: 4vh 0 6vh;
 }
 
-.custom_radiobutton .custom_radioButton_container {
+.custom_radioButton_container {
   display: block;
   position: relative;
   padding-left: 20px;
@@ -5367,15 +5358,15 @@ section .arrow_up_down_downArrow img {
   user-select: none;
 }
 
-.custom_radiobutton .custom_radioButton_container.active .checkmark {
+.custom_radioButton_container.active .checkmark {
   background: #7FD1D8;
 }
 
-.custom_radiobutton .custom_radioButton_container.error .checkmark {
+.custom_radioButton_container.error .checkmark {
   background: #dc6c85;
 }
 
-.custom_radiobutton .custom_radioButton_container.correct::after {
+.custom_radioButton_container.correct::after {
   display: none;
 }
 
@@ -10023,6 +10014,10 @@ section .arrow_up_down_downArrow img {
   padding: 0 20px;
 }
 
+#C-1366-47 .text_drop_box-bg .dragged_text p.Error {
+  color: red;
+}
+
 #C-1366-47 .text_drop_box-bg img:nth-child(1) {
   height: 100%;
   width: 100%;
@@ -11351,6 +11346,45 @@ section .arrow_up_down_downArrow img {
 
 .circles_game-blue-container .ask_question_game_box_white h5 {
   color: black;
+}
+
+.n-5-game .circles_game-blue-container .ask_question_game_box {
+  background: #fff !important;
+}
+
+.n-5-game .circles_game-blue-container .ask_question_game_box h5 {
+  color: black;
+}
+
+.n-5-game .circles_game-blue-container .draggedElement {
+  height: 19vh;
+  width: 19vh;
+  max-width: 150px;
+  max-height: 150px;
+  min-width: 150px;
+  min-height: 150px;
+  margin-top: 2.5vh;
+  border: 6px solid #44bbbd;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 11px;
+  text-align: center;
+  color: #0b2228;
+  cursor: pointer;
+  font-family: 'BPG Arial';
+  font-size: 1.4vh;
+}
+
+.n-5-game .circles_game-blue-container .draggedElement h5 {
+  line-height: 1.2;
 }
 
 .canvas-container {
