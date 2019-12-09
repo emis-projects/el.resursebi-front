@@ -36,6 +36,53 @@
       height: auto;
     }
   }
+  &-adventure{
+    &-5-13-1{
+      width: 17.78vw;
+      height: auto;
+      // max-height: 24.47vh;
+    }
+    &-5-13-2{
+      width: 12.07vw;
+      height: auto;
+    //   max-height: 24.47vh;
+    }
+    &-5-13-3{
+      width: 16.61vw;
+      height: auto;
+      // max-height: 23.69vh;
+    }
+    &-5-13-4{
+      width: 22.54vw;
+      height: auto;
+      // max-height: 22.65vh;
+    }
+    &-5-19-1{
+      width: 13.39vw;
+      height: auto;
+      // max-height: 20.57vh;
+    }
+    &-5-19-2{
+      width: 9.15vw;
+      height: auto;
+      // max-height: 26.65vh;
+    }
+    &-5-19-3{
+      width: 9.15vw;
+      height: auto;
+      // max-height: 24.04vh;
+    }
+    &-5-19-4{
+      width: 14.71vw;
+      height: auto;
+      // max-height: 22.92vh;
+    }
+    &-5-19-5{
+      width: 14.71vw;
+      height: auto;
+      // max-height: 22.92vh;
+    }
+  }
 
   .main-box_absolute img {
     width: 100%;
@@ -115,7 +162,14 @@
 
   &-img-lg-hor {
     height: 80vh;
-    // margin-left: 6.1vw;
+    margin-left: 1.1vw;
+
+    img {
+      height: 100%;
+    }
+  }
+  &-img-sm-hor {
+    height: 60vh;
     margin-left: 1.1vw;
 
     img {
@@ -345,6 +399,37 @@
     }
     .owl-dot:nth-child(4) span {
       background-image: url("../img/gakvetilebi/xelovneba/magic-world/a-6-5-4.png");
+    }
+  }
+  &-05-6-13.owl-theme .owl-dots {
+    .owl-dot:nth-child(1) span {
+      background-image: url("../img/gakvetilebi/xelovneba/adventure/A-05-13-1.png");
+    }
+    .owl-dot:nth-child(2) span {
+      background-image: url("../img/gakvetilebi/xelovneba/adventure/A-05-13-2.png");
+    }
+    .owl-dot:nth-child(3) span {
+      background-image: url("../img/gakvetilebi/xelovneba/adventure/A-05-13-3.png");
+    }
+    .owl-dot:nth-child(4) span {
+      background-image: url("../img/gakvetilebi/xelovneba/adventure/A-05-13-4.png");
+    }
+  }
+  &-05-6-19.owl-theme .owl-dots {
+    .owl-dot:nth-child(1) span {
+      background-image: url("../img/gakvetilebi/xelovneba/adventure/A-05-19-1.png");
+    }
+    .owl-dot:nth-child(2) span {
+      background-image: url("../img/gakvetilebi/xelovneba/adventure/A-05-19-2.png");
+    }
+    .owl-dot:nth-child(3) span {
+      background-image: url("../img/gakvetilebi/xelovneba/adventure/A-05-19-3.png");
+    }
+    .owl-dot:nth-child(4) span {
+      background-image: url("../img/gakvetilebi/xelovneba/adventure/A-05-19-4.png");
+    }
+    .owl-dot:nth-child(5) span {
+      background-image: url("../img/gakvetilebi/xelovneba/adventure/A-05-19-5.png");
     }
   }
 }

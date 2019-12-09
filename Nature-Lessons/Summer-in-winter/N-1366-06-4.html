@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!-- ბოტის აიდიში ვუთითებთ: ხელოვნების - 2318, ბუნების - 2320, მუსიკის - 2292 -->
+<html lang="ka" data-botid="2320">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- ყველა გვერდზე -->
+    <script src="../../js/vue.js"></script>
+    <!--  ვუე გაშვებისას
+    <script src="./js/vue.min.js"></script>
+     -->
+    <link rel="stylesheet" href="../../scss/libraries/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../../scss/libraries/owl.carousel.min.css" />
+    <link rel="stylesheet" type="text/css" href="../../scss/libraries/owl.theme.default.css" />
+    <link rel="stylesheet" href="../../scss/style.css" />
+    <title>ელექტრონული საგანმანათლებლო რესურსი</title>
+</head>
+
+<body>
+    <div class="container">
+        <header id="app">
+            <nav class="row">
+                <app-logo v-logo="'../../'"></app-logo>
+                <app-menu v-menu:dark="'../../'"></app-menu>
+                <sound-lang></sound-lang>
+            </nav>
+        </header>
+        <section>
+            <div class="subject_component row">
+                <div class="col-12 item_flex">
+                    <div
+                        class="subject_component_itle_icon bg_bouble_blue d-flex justify-content-center align-items-center">
+                        <img src="../../img/backgrounds/bg-ilustrations/ruler-blue.svg" alt="write art" />
+                    </div>
+                    <h3 class="subject_component_title">კომპლექსური დავალება</h3>
+                </div>
+            </div>
+            <div class="container_main_title n-1366-04-188-container_main_title container_main_title_art-paddings">
+                <img src="../../img/gakvetilebi/xelovneba/btn-blue.svg" alt="" />
+                <span>დედამიწა და გარე სამყარო</span>
+            </div>
+            <div class="art_questions row">
+                <div class="col-7 m-auto">
+                    <div class="subject_question_item  n-1366-04-188-subject_question_item nature_content_box_text">
+                        <img src="../../img/gakvetilebi/xelovneba/btn-yellow.svg" alt="" />
+                        <span> კითხვის დასმა - რატომ არის ავსტრალიაში ზაფხული, ჩვენთან კი ზამთარი? </span>
+                    </div>
+                    <div class="subject_question_item  n-1366-04-188-subject_question_item nature_content_box_text">
+                        <img src="../../img/gakvetilebi/xelovneba/btn-yellow.svg" alt="" />
+                        <span>ვარაუდის გამოთქმა - მზის სითბო და დედამიწის მოძრაობა. </span>
+                    </div>
+                    <div class="subject_question_item n-1366-04-188-subject_question_item nature_content_box_text">
+                        <img src="../../img/gakvetilebi/xelovneba/btn-yellow.svg" alt="" />
+                        <span>კვლევა-ძიების ციკლი - რა ნაბიჯებისგან შედგება კვლევა.</span>
+                    </div>
+                    <div class="subject_question_item n-1366-04-188-subject_question_item nature_content_box_text">
+                        <img src="../../img/gakvetilebi/xelovneba/btn-yellow.svg" alt="" />
+                        <span>დაკვირვება და აღწერა - მზის სითბოს გავრცელებისა და დედამიწის მოძრაობის კვლევა.</span>
+                    </div>
+                    <div class="subject_question_item n-1366-04-188-subject_question_item nature_content_box_text">
+                        <img src="../../img/gakvetilebi/xelovneba/btn-yellow.svg" alt="" />
+                        <span> დასკვნის გამოტანა - საქმე დედამიწის მდგომარეობაშია.  </span>
+                    </div>
+                    <div class="subject_question_item n-1366-04-188-subject_question_item nature_content_box_text">
+                        <img src="../../img/gakvetilebi/xelovneba/btn-yellow.svg" alt="" />
+                        <span>დასკვანის შედარება ვარუდთან - წელიწადის დროების ცვლილების მოდელი.</span>
+                    </div>
+                    <div class="subject_question_item n-1366-04-188-subject_question_item nature_content_box_text">
+                        <img src="../../img/gakvetilebi/xelovneba/btn-yellow.svg" alt="" />
+                        <span> ახალი ცოდნის გაზიარება - კალენდრის შექმნა.</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="paging_buttons paging_buttons_position">
+                <a href="./N-1366-06-3.html"><img src="../../img/icons/chevron-down-logo.svg" alt=""
+                        class="paging_buttons_left" /></a>
+                <a href="./N-1366-06-5.html" class="paging_buttons_margin-left"><img
+                        src="../../img/icons/chevron-down-logo.svg" alt="" class="paging_buttons_right" /></a>
+            </div>
+        </section>
+    </div>
+    <div class="subject_component_botton_illustration">
+        <div class="illustration_bg bg_blue_Down"></div>
+        <div class="subject_component_botton_bg_icon">
+            <img src="../../img/backgrounds/bg-ilustrations/ruler-blue.svg" alt="flag art" />
+        </div>
+    </div>
+
+    <!-- ჩეთბოტი -->
+    <div id="chatBot">
+        <app-bot></app-bot>
+    </div>
+
+    <script src="../../js/libraries/jquery-3.4.1.min.js"></script>
+    <script src="../../js/libraries/bootstrap.min.js"></script>
+
+    <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
+    <script src="../../Vue-Header/app.js"></script>
+    <script src="../../Vue-chatBot/botApp.js"></script>
+    <script src="../../js/bot.js"></script>
+
+</body>
+
+</html>
