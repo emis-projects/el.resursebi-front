@@ -10345,6 +10345,60 @@ section .arrow_up_down_downArrow img {
   background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
 }
 
+.background-20 {
+  background-image: url(../img/gakvetilebi/xelovneba/adventure/A-1366-05-20.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-20-1 {
+  background-image: url(../img/gakvetilebi/xelovneba/adventure/A-1366-05-20-1.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-20-1-1 {
+  background-image: url(../img/gakvetilebi/xelovneba/adventure/A-1366-05-20-1-1.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-20-1-2 {
+  background-image: url(../img/gakvetilebi/xelovneba/adventure/A-1366-05-20-1-2.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.N-1366-06-40-img-container {
+  height: 37.63vh;
+  margin-right: 10.39vh;
+}
+.N-1366-06-40-img-container img {
+  height: 100%;
+}
+
+.N-1366-06-40-cols-container {
+  margin-top: 10.41vh;
+}
+
+.N-1366-05-41-arrows-img-container {
+  margin-top: 26.69vh;
+}
+
+.N-1366-05-41-laptop-img-container {
+  height: 33.91vh;
+  position: absolute;
+  top: 30.81vh;
+  right: 17.42vw;
+}
+.N-1366-05-41-laptop-img-container img {
+  height: 33.91vh;
+}
+
 .canvas-container {
   width: 100% !important;
 }
