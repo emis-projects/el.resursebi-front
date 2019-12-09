@@ -11601,6 +11601,36 @@ section .arrow_up_down_downArrow img {
   margin-top: 10.41vh;
 }
 
+.n_seasons_circle-img {
+  height: 55.46vh;
+  width: 100%;
+  position: relative;
+  top: -5vh;
+}
+
+.answer_btn-white {
+  background: #fff;
+  color: #0B2228;
+  -webkit-box-shadow: 0px 3px 6px #00000029;
+          box-shadow: 0px 3px 6px #00000029;
+  min-width: 10vw;
+}
+
+.answer_btn-white.selected {
+  background: #F8D24B;
+  color: #fff;
+}
+
+.answer_btn-white.error {
+  background: #ff5252;
+  color: #fff;
+}
+
+.answer_btn-white.success {
+  background: #A1DD6F;
+  color: #fff;
+}
+
 .canvas-container {
   width: 100% !important;
 }
@@ -11617,4 +11647,3 @@ section .arrow_up_down_downArrow img {
   display: -ms-flexbox;
   display: flex;
 }
-/*# sourceMappingURL=style.css.map */
