@@ -10150,49 +10150,109 @@ section .arrow_up_down_downArrow img {
   background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
 }
 
-#N-1366-06-31 .N-1366-03-153 {
-  background-image: url("../img/gakvetilebi/buneba/Summer-in-winter/comix-31.png");
-  background-position: center;
-}
-
-.nature-text-wrapper_16 {
+#N-1366-06-31 {
+  height: 100vh;
+  width: 100%;
   position: absolute;
-  bottom: 0;
-  height: 16vh;
+  top: 0;
   left: 0;
-  right: 0;
-  background: #fff;
-  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
+  padding-top: 0;
 }
-
-#N-1366-06-33 .N-1366-03-153 {
-  background-image: url("../img/gakvetilebi/buneba/Summer-in-winter/comix-33.png");
-  background-position: center;
-}
-
-.nature-text-wrapper_16 {
+#N-1366-06-31 .img-box {
   position: absolute;
-  bottom: 0;
-  height: 16vh;
-  left: 0;
-  right: 0;
-  background: #fff;
-  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 64.5vh;
+  max-height: 496px;
+  width: 44vw;
+  max-width: 604px;
+}
+#N-1366-06-31 .img-box img {
+  height: 100%;
 }
 
-#N-1366-06-34 .N-1366-03-153 {
-  background-image: url("../img/gakvetilebi/buneba/Summer-in-winter/comix-34.png");
-  background-position: center;
-}
-
-.nature-text-wrapper_16 {
+#N-1366-06-33 {
+  height: 100vh;
+  width: 100%;
   position: absolute;
-  bottom: 0;
-  height: 16vh;
+  top: 0;
   left: 0;
-  right: 0;
-  background: #fff;
-  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
+  padding-top: 0;
+}
+#N-1366-06-33 .img-box {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 67vh;
+  max-height: 515px;
+  width: 53vw;
+  max-width: 729px;
+}
+#N-1366-06-33 .img-box img {
+  height: 100%;
+}
+
+#N-1366-06-47 .text-wrapper {
+  height: 43vh;
+  max-height: 332px;
+}
+#N-1366-06-47 p {
+  font-size: 2vh;
+  font-family: "BPG Arial", sans-serif;
+}
+#N-1366-06-47 .seasons {
+  font-size: 2.3vh;
+  font-family: "BPG Arial", sans-serif;
+}
+#N-1366-06-47 .img-box {
+  height: 57.8vh;
+  max-height: 444px;
+}
+#N-1366-06-47 .img-box img {
+  height: 100%;
+}
+#N-1366-06-47 .text-boxes {
+  width: 10vw;
+  height: 5vh;
+  border-radius: 10px;
+  max-width: 120px;
+  max-height: 30px;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+}
+#N-1366-06-47 .box-1 {
+  left: 30%;
+  top: -1.3vh;
+}
+#N-1366-06-47 .box-2 {
+  left: 54%;
+  top: 14%;
+}
+#N-1366-06-47 .box-3 {
+  right: 25%;
+  top: 35%;
+}
+#N-1366-06-47 .box-4 {
+  top: 57%;
+  right: 4%;
+}
+#N-1366-06-47 .box-5 {
+  top: 96%;
+  right: 31%;
+}
+#N-1366-06-47 .box-6 {
+  left: 31%;
+  top: 76%;
+}
+#N-1366-06-47 .box-7 {
+  left: 3%;
+  top: 36%;
+}
+#N-1366-06-47 .box-8 {
+  left: 24%;
+  top: 57%;
 }
 
 #N-1366-06-33 .N-1366-03-153 {

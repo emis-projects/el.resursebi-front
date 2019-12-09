@@ -1,0 +1,21 @@
+#N-1366-06-31 {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-top: 0;
+  .img-box {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 64.5vh;
+    max-height: 496px;
+    width: 44vw;
+    max-width: 604px;
+    img{
+      height: 100%;
+    }
+  }
+}
