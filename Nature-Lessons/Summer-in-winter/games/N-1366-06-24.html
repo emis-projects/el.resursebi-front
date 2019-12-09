@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<!-- ბოტის აიდიში ვუთითებთ: ხელოვნების - 2318, ბუნების - 2320, მუსიკის - 2292 -->
+<html lang="ka" data-botid="2320">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- ყველა გვერდზე -->
+    <script src="../../../js/vue.js"></script>
+    <!--  ვუე გაშვებისას
+    <script src="./js/vue.min.js"></script>
+     -->
+    <link rel="stylesheet" href="../../../scss/libraries/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../../../scss/libraries/owl.carousel.min.css" />
+    <link rel="stylesheet" type="text/css" href="../../../scss/libraries/owl.theme.default.css" />
+    <link rel="stylesheet" href="../../../scss/style.css" />
+    <title>ელექტრონული საგანმანათლებლო რესურსი</title>
+</head>
+
+<body>
+    <div class="container">
+        <header id="app">
+            <nav class="row">
+                <app-logo v-logo="'../../../'"></app-logo>
+                <app-menu v-menu:dark="'../../../'"></app-menu>
+                <sound-lang></sound-lang>
+            </nav>
+        </header>
+        <section id="N-1366-04-268">
+            <div class="subject_component row">
+                <div class="col-12 item_flex">
+                    <div
+                        class="subject_component_itle_icon bg_bouble_pink d-flex justify-content-center align-items-center">
+                        <img src="../../../img/backgrounds/bg-ilustrations/hand.svg" alt="ruler-blue" />
+                    </div>
+                    <h3 class="subject_component_title">სავარჯიშო</h3>
+                </div>
+            </div>
+            <!--     <div class="N-1366-05-41-laptop-img-container">
+                <img src="../../../img/gakvetilebi/buneba/Summer-in-winter/games/N-1366-06-24-laptop-img.svg" />
+            </div> -->
+            <div class="row">
+                <div class="col-11 offset-1  N-1366-05-49-text-container big-font-size-18px">
+                    <p>დავალება: დათო და ანა, აბა დააკვირდით დედამიწის მოძრაობის გზებს მზის გარშემო. ნახაზებიდან რომელი
+                        შეესაბამება თქვენს ვარაუდს?</p>
+                </div>
+                <div class="col-8 offset-1 d-flex justify-content-between N-1366-06-24-cols-container">
+                    <div class="d-flex flex-column">
+                        <div class="N-1366-06-24-1-div-container">
+                            <img class="m-auto"
+                                src="../../../img/gakvetilebi/buneba/Summer-in-winter/games/N-1366-06-24-1.png" />
+                            <button class=" m-1366-04-19-notes-circle-button N-1366-06-24-btn-padding m-auto">
+                            </button>
+                        </div>
+                        <div class="N-1366-06-24-3-div-container">
+                            <img class="m-auto"
+                                src="../../../img/gakvetilebi/buneba/Summer-in-winter/games/N-1366-06-24-3.png" />
+                            <button class=" m-1366-04-19-notes-circle-button N-1366-06-24-btn-padding m-auto">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <div class="N-1366-06-24-2 -div-container">
+                            <img class="m-auto"
+                                src="../../../img/gakvetilebi/buneba/Summer-in-winter/games/N-1366-06-24-2.png" />
+                            <button class=" m-1366-04-19-notes-circle-button N-1366-06-24-btn-padding m-auto">
+                            </button>
+                        </div>
+                        <div class="N-1366-06-24-4-div-container">
+                            <img class="m-auto"
+                                src="../../../img/gakvetilebi/buneba/Summer-in-winter/games/N-1366-06-24-4.png" />
+                            <button class=" m-1366-04-19-notes-circle-button N-1366-06-24-btn-padding m-auto">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+    <div class="paging_buttons paging_buttons_position">
+        <a href="../N-1366-06-39.html">
+            <img src="../../../img/icons/chevron-down-logo.svg" alt="down arrow" class="paging_buttons_left" />
+        </a>
+        <a href="../N-1366-06-43.html" class="paging_buttons_margin-left">
+            <img src="../../../img/icons/chevron-down-logo.svg" alt="down arrow" class="paging_buttons_right" />
+        </a>
+    </div>
+    <div class="flex flex-end column align-items-end z-index reload_game_wrapper">
+        <button id="resetBtn" class="reset__btn">თავიდან სცადე</button>
+        <button id="completedGame" class="completed__btn">დასრულება</button>
+    </div>
+    </section>
+    <div class="subject_component_botton_illustration">
+        <div class="illustration_bg bg_pink_Down"></div>
+        <div class="subject_component_botton_bg_icon">
+            <img src="../../../img/backgrounds/bg-ilustrations/hand.svg" alt="ruler art" />
+        </div>
+    </div>
+    </div>
+
+    <!-- ჩეთბოტი -->
+    <div id="chatBot">
+        <app-bot></app-bot>
+    </div>
+
+    <script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
+    <script src="../../../js/libraries/bootstrap.min.js"></script>
+
+    <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
+    <script src="../../../Vue-Header/app.js"></script>
+    <script src="../../../Vue-chatBot/botApp.js"></script>
+    <script src="../../../js/bot.js"></script>
+
+</body>
+
+</html>

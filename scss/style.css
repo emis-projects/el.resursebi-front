@@ -11616,6 +11616,42 @@ section .arrow_up_down_downArrow img {
   height: 33.91vh;
 }
 
+.N-1366-06-24-cols-container {
+  margin-top: 5.33vh;
+}
+
+.N-1366-06-24-1-div-container {
+  height: 19.1vh;
+}
+
+.N-1366-06-24-1-div-container img {
+  height: 100%;
+}
+
+.N-1366-06-24-3-div-container {
+  height: 19.72vh;
+}
+
+.N-1366-06-24-3-div-container img {
+  height: 100%;
+}
+
+.N-1366-06-24-2-div-container {
+  height: 24.44vh;
+}
+
+.N-1366-06-24-2-div-container img {
+  height: 100%;
+}
+
+.N-1366-06-24-4-div-container {
+  height: 22.33vh;
+}
+
+.N-1366-06-24-4-div-container img {
+  height: 100%;
+}
+
 .n_seasons_circle-img {
   width: 43vw;
 }
@@ -11659,3 +11695,4 @@ section .arrow_up_down_downArrow img {
   display: -ms-flexbox;
   display: flex;
 }
+/*# sourceMappingURL=style.css.map */
