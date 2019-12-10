@@ -12495,6 +12495,11 @@ section .arrow_up_down_downArrow img {
   margin-top: 10.41vh;
 }
 
+.comp_algorithmes_img-03 {
+  height: 49.08vh;
+  margin: auto;
+}
+
 .background-cs-35 {
   background-image: url(../img/gakvetilebi/Computer-Science/algorithme/CS-02-35.svg);
   background-position: top center;
@@ -12549,6 +12554,10 @@ section .arrow_up_down_downArrow img {
 
 .C-1366-02-14-div-container {
   margin-right: 4vw;
+}
+
+.h-66vh {
+  height: 66vh;
 }
 
 .canvas-container {
