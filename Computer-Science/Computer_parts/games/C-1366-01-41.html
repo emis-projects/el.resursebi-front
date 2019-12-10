@@ -32,50 +32,57 @@
               </div>
               <h3 class="subject_component_title">შუალედური დავალება</h3>
             </div>
-          </div>
-        <div class="row w-100">
-            <div class="col-11 offset-1">
-                <p>შეუსაბამე სიტყვები შესაბამის ფოტოს.</p>
-            </div>
-            <div class="col-11 offset-1 d-flex justify-content-between draggable_text_box">
-                <p>ყურსასმენი</p>
-                <p>სკანერი</p>
-                <p>ჯოისტიკი</p>
-                <p>დინამიკი</p>
-                <p>პრინტერი</p>
-                <p>ფლეშ მეხსიერება</p>
-            </div>
-            <div class="col-11 offset-1">
-                <div class="row image_box">
-                    <div class="col-3 m-9">
-                        <img src="../../../img/gakvetilebi/Computer-Science/Computer_parts/141-scanner.png" alt="scanner">
-                        <p class="w-100 text-center">ტექსტსამყოფელი</p>
-                    </div>
-                    <div class="col-3 m-9">
-                        <img src="../../../img/gakvetilebi/Computer-Science/Computer_parts/141-speakers.png" alt="speakers">
-                        <p class="w-100 text-center"></p>
-                    </div>
-                    <div class="col-3 m-9">
-                        <img src="../../../img/gakvetilebi/Computer-Science/Computer_parts/141-printer.png" alt="printer">
-                        <p class="w-100 text-center"></p>
-                    </div>
-                </div>
-                <div class="row image_box">
-                    <div class="col-3">
-                        <img src="../../../img/gakvetilebi/Computer-Science/Computer_parts/141-headphones.png" alt="headphones">
-                        <p class="w-100 text-center"></p>
-                    </div>
-                    <div class="col-3">
-                        <img src="../../../img/gakvetilebi/Computer-Science/Computer_parts/141-console.png" alt="console">
-                        <p class="w-100 text-center"></p>
-                    </div>
-                    <div class="col-3">
-                        <img src="../../../img/gakvetilebi/Computer-Science/Computer_parts/141-flesh.png" alt="flash">
-                        <p class="w-100 text-center"></p>
-                    </div>
-                </div>
-            </div>
         </div>
+
+
+
+
+       <div class="row">
+        <div class="col-11 offset-1">
+            <p>შეუსაბამე სიტყვები შესაბამის ფოტოს.</p>
+        </div>
+        <div class="col-11 offset-1 d-flex justify-content-between draggable_text_box">
+            <p class="drag">ყურსასმენი</p>
+            <p class="drag">სკანერი</p>
+            <p class="drag">ჯოისტიკი</p>
+            <p class="drag">დინამიკი</p>
+            <p class="drag">პრინტერი</p>
+            <p class="drag">ფლეშ მეხსიერება</p>
+        </div>
+
+        <div class="col-11 offset-1">
+          <div class="row image_box">
+              <div class="col-3 m-9">
+                  <img src="../../../img/gakvetilebi/Computer-Science/Computer_parts/141-scanner.png" class="drop" alt="scanner">
+                  <p class="w-100 text-center" data-answer="სკანერი"></p>
+              </div>
+              <div class="col-3 m-9">
+                  <img src="../../../img/gakvetilebi/Computer-Science/Computer_parts/141-speakers.png" class="drop" alt="speakers">
+                  <p class="w-100 text-center" data-answer="დინამიკი"></p>
+              </div>
+              <div class="col-3 m-9">
+                  <img src="../../../img/gakvetilebi/Computer-Science/Computer_parts/141-printer.png" class="drop" alt="printer">
+                  <p class="w-100 text-center" data-answer="პრინტერი"></p>
+              </div>
+          </div>
+          <div class="row image_box">
+              <div class="col-3">
+                  <img src="../../../img/gakvetilebi/Computer-Science/Computer_parts/141-headphones.png" class="drop" alt="headphones">
+                  <p class="w-100 text-center" data-answer="ყურსასმენი"></p>
+              </div>
+              <div class="col-3">
+                  <img src="../../../img/gakvetilebi/Computer-Science/Computer_parts/141-console.png" class="drop" alt="console">
+                  <p class="w-100 text-center" data-answer="ჯოისტიკი"></p>
+              </div>
+              <div class="col-3">
+                  <img src="../../../img/gakvetilebi/Computer-Science/Computer_parts/141-flesh.png" class="drop" alt="flash">
+                  <p class="w-100 text-center" data-answer="ფლეშ მეხსიერება"></p>
+              </div>
+          </div>
+        </div>
+      
+      </div>
+
 
         <div class="flex flex-end column align-items-end z-index reload_game_wrapper">
             <button class="reset__btn" id="resetBtn">თავიდან სცადე</button>
@@ -107,6 +114,8 @@
 </div>
 
 <script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
+<script src="../../../js/libraries/jquery-ui.min.js"></script>
+<script src="../js/C-1366-01-41.js"></script>
 
 <script src="../../../Vue-Header/app.js"></script>
 <script src="../../../Vue-chatBot/test.js"></script>

@@ -19,12 +19,12 @@
 <body class="bg-pink">
     <div class="container">
             <header id="app">
-                    <nav class="row">
-                      <app-logo v-logo="'../../../'"></app-logo>
-                      <app-menu v-menu:dark="'../../../'"></app-menu>
-                      <sound-lang></sound-lang>
-                    </nav>
-                  </header>
+                <nav class="row">
+                    <app-logo v-logo="'../../../'"></app-logo>
+                    <app-menu v-menu:dark="'../../../'"></app-menu>
+                    <sound-lang></sound-lang>
+                </nav>
+            </header>
         <div class="subject_component_top_illustration">
             <div class="bg_pink_up illustration_bg"></div>
         </div>
@@ -54,25 +54,25 @@
                 </div>
                 <div class="col-3 d-flex justify-content-between">
                     <div class="music_play_wrapper d-flex flex-column justify-content-between">
-                        <div class="music_play_box d-flex justify-content-center align-items-center" role="button">
+                        <div class="music_play_box d-flex justify-content-center align-items-center" data-voice="../game-voices/M-1366-59-1.wav" role="button">
                             <div
                                 class="music_play_box_icon bg_bouble_blue d-flex justify-content-center align-items-center">
                                 <img src="../../../img/gakvetilebi/musika/MV-1366-59.png" alt="play" class="img">
                             </div>
                         </div>
-                        <div class="music_play_box d-flex justify-content-center align-items-center" role="button">
+                        <div class="music_play_box d-flex justify-content-center align-items-center" data-voice="../game-voices/M-1366-59-2.wav" role="button">
                             <div
                                 class="music_play_box_icon bg_bouble_blue d-flex justify-content-center align-items-center">
                                 <img src="../../../img/gakvetilebi/musika/MV-1366-59.png" alt="play" class="img">
                             </div>
                         </div>
-                        <div class="music_play_box d-flex justify-content-center align-items-center" role="button">
+                        <div class="music_play_box d-flex justify-content-center align-items-center" data-voice="../game-voices/M-1366-59-3.wav" role="button">
                             <div
                                 class="music_play_box_icon bg_bouble_blue d-flex justify-content-center align-items-center">
                                 <img src="../../../img/gakvetilebi/musika/MV-1366-59.png" alt="play" class="img">
                             </div>
                         </div>
-                        <div class="music_play_box d-flex justify-content-center align-items-center" role="button">
+                        <div class="music_play_box d-flex justify-content-center align-items-center" data-voice="../game-voices/M-1366-59-4.wav" role="button">
                             <div
                                 class="music_play_box_icon bg_bouble_blue d-flex justify-content-center align-items-center">
                                 <img src="../../../img/gakvetilebi/musika/MV-1366-59.png" alt="play" class="img">
@@ -135,7 +135,32 @@
         <app-bot></app-bot>
     </div>
     
-    <script src="../../js/soundSwitch.js"></script>
+    
+    <script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
+    <script src="../../../js/libraries/sound.js"></script>
+
+
+    <script>
+        createjs.Sound.on("fileload", handleLoadComplete);
+        createjs.Sound.alternateExtensions = ["wav"];
+        function handleLoadComplete(event) {
+            createjs.Sound.play("sound");
+        }
+
+        function handleLoadstop(event) {
+            createjs.Sound.stop("sound");
+        }
+
+
+        document.querySelectorAll('.music_play_box').forEach(w => {
+            w.addEventListener('click', (e) => {
+                handleLoadstop()
+                createjs.Sound.registerSound({src:`${e.target.getAttribute('data-voice')}`, id:"sound"});
+                handleLoadComplete()
+            })
+        })
+    </script>
+
       <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
   <script src="../../../Vue-Header/app.js"></script>
   <script src="../../../Vue-chatBot/botApp.js"></script>

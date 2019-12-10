@@ -36,6 +36,9 @@
         width: 100%;
         padding: 0 20px;
         
+        p.Error {
+          color: red;
+        }
       }
       img:nth-child(1){
         height: 100%;
