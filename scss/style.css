@@ -1196,19 +1196,24 @@ header nav .header-sound .lang {
 .main_box_links .nature {
   background-image: url("../img/gakvetilebi/buneba/buneba-logo.svg");
 }
+
 .main_box_links .computer {
   background-image: url("../img/gakvetilebi/Computer-Science/link_pink.png");
 }
+
 .main_box_links .computer_sizing {
   padding: 0.5vh 9vh;
 }
+
 .main_box_links .main_title_sizing {
   max-width: 310px;
 }
+
 .main_box_links .main_title_sizing_sm {
   max-width: 310px;
   padding: 0.5vh 9vh;
 }
+
 .main_box_links a {
   background-repeat: no-repeat;
   background-position: left center;
@@ -12461,6 +12466,10 @@ section .arrow_up_down_downArrow img {
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.h-66vh {
+  height: 66vh;
 }
 
 .canvas-container {
