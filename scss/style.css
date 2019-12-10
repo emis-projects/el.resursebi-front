@@ -1200,16 +1200,20 @@ header nav .header-sound .lang {
 .main_box_links .computer {
   background-image: url("../img/gakvetilebi/Computer-Science/link_pink.png");
 }
+
 .main_box_links .computer_sizing {
   padding: 0.5vh 9vh;
 }
+
 .main_box_links .main_title_sizing {
   max-width: 310px;
 }
+
 .main_box_links .main_title_sizing_sm {
   max-width: 310px;
   padding: 0.5vh 9vh;
 }
+
 .main_box_links a {
   background-repeat: no-repeat;
   background-position: left center;
@@ -10300,11 +10304,6 @@ section .arrow_up_down_downArrow img {
   max-height: 136px;
 }
 
-#C-1366-51 .sys-block img {
-  height: 17vh;
-  max-height: 136px;
-}
-
 #C-1366-51 .sys-block .ceise {
   position: relative;
   width: 220px;
@@ -12500,6 +12499,7 @@ section .arrow_up_down_downArrow img {
   height: 49.08vh;
   margin: auto;
 }
+
 .background-cs-35 {
   background-image: url(../img/gakvetilebi/Computer-Science/algorithme/CS-02-35.svg);
   background-position: top center;
@@ -12544,4 +12544,3 @@ section .arrow_up_down_downArrow img {
   display: -ms-flexbox;
   display: flex;
 }
-/*# sourceMappingURL=style.css.map */
