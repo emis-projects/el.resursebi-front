@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!-- ბოტის აიდიში ვუთითებთ: ხელოვნების - 2318, ბუნების - 2320, მუსიკის - 2292 -->
+<html lang="ka" data-botid="2320">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <!-- ყველა გვერდზე -->
+  <script src="../../../js/vue.js"></script>
+  <!--  ვუე გაშვებისას
+    <script src="./js/vue.min.js"></script>
+     -->
+  <link rel="stylesheet" href="../../../scss/libraries/bootstrap.min.css">
+  <link rel="stylesheet" href="../../../scss/style.css" />
+  <title>ელექტრონული საგანმანათლებლო რესურსი</title>
+</head>
+
+<body>
+  <div class="container">
+    <header id="app">
+      <nav class="row">
+        <app-logo v-logo="'../../../'"></app-logo>
+        <app-menu v-menu:dark="'../../../'"></app-menu>
+        <sound-lang></sound-lang>
+      </nav>
+    </header>
+    <section id="N-1366-06-47">
+      <div class="subject_component row">
+        <div class="col-12 item_flex">
+          <div class="subject_component_itle_icon bg_bouble_blue d-flex justify-content-center align-items-center">
+            <img src="../../../img/backgrounds/bg-ilustrations/foots.svg" alt="ruler art" />
+          </div>
+          <h3 class="subject_component_title">კომპლექსური დავალება</h3>
+        </div>
+      </div>
+      <div class="ask-question-blue-container">
+        <div class="row">
+          <div class="col-10 offset-1">
+            <p>დავალება: მოცემული ნახატებიდან ააწყე წელიწადის დროის ცვლილების სქემა,რომელიც ახსნის ბავშვების მიერ წამოჭრილ პრობლემას.
+              როგორ იცვლება სეზონები და რატომ არის ერთ დღეს ზამთარი და ზაფხული დედამიწის სხვადასხვა ადგილას.</p>
+          </div>
+          <div class="col-2 offset-1 d-flex flex-column justify-content-between mt-5 text-wrapper">
+            <div class="seasons">გაზაფხული</div>
+            <div class="seasons">ზამთარი</div>
+            <div class="seasons">ზაფხული</div>
+            <div class="seasons">შემოდგომა</div>
+            <div class="seasons">შემოდგომა</div>
+            <div class="seasons">ზამთარი</div>
+            <div class="seasons">ზაფხული</div>
+          </div>
+          <div class="col-8 mt-5 d-flex justify-content-center position-relative">
+            <div class="img-box">
+              <img src="../../../img/gakvetilebi/buneba/Summer-in-winter/sun_phises.png" alt="sun">
+            </div>
+            <div class="text-boxes box-1 position-absolute"></div>
+            <div class="text-boxes box-2 position-absolute"></div>
+            <div class="text-boxes box-3 position-absolute"></div>
+            <div class="text-boxes box-4 position-absolute"></div>
+            <div class="text-boxes box-5 position-absolute"></div>
+            <div class="text-boxes box-6 position-absolute"></div>
+            <div class="text-boxes box-7 position-absolute"></div>
+            <div class="text-boxes box-8 position-absolute"></div>
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-end column align-items-end z-index reload_game_wrapper">
+        <button id="resetBtn" class="reset__btn">თავიდან სცადე</button>
+        <button id="completedGame" class="completed__btn">დასრულება</button>
+      </div>
+      <div class="paging_buttons paging_buttons_position">
+        <a href="./N-1366-06-46.html">
+          <img src="../../../img/icons/chevron-down-logo.svg" alt="down arrow" class="paging_buttons_left" />
+        </a>
+        <a href="./games/N-1366-06-49.html" class="paging_buttons_margin-left">
+          <img src="../../../img/icons/chevron-down-logo.svg" alt="down arrow" class="paging_buttons_right" />
+        </a>
+      </div>
+    </section>
+    <div class="subject_component_botton_illustration">
+      <div class="illustration_bg bg_pink_Down"></div>
+      <div class="subject_component_botton_bg_icon">
+        <img src="../../../img/backgrounds/bg-ilustrations/bg_foots.svg" alt="flag art" />
+      </div>
+    </div>
+  </div>
+
+  <!-- ჩეთბოტი -->
+  <div id="chatBot">
+    <app-bot></app-bot>
+  </div>
+
+  <script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
+  <script src="../../../js/libraries/bootstrap.min.js"></script>
+
+  <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
+  <script src="../../../Vue-Header/app.js"></script>
+  <script src="../../../Vue-chatBot/botApp.js"></script>
+  <script src="../../../js/bot.js"></script>
+
+</body>
+
+</html>

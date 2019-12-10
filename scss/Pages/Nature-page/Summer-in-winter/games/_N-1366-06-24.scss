@@ -1,31 +1,48 @@
-.N-1366-06-24-cols-container{
-    margin-top:5.33vh;
+.N-1366-05-24-laptop-img-container {
+  height: 29.68vh;
+  position: absolute;
+  top: 14.71vh;
+  left: 18.3vw;
+  img {
+    height: 100%;
+  }
 }
 
-.N-1366-06-24-1-div-container{
-height: 19.1vh;
-img{
-    height:100%;
+.N-1366-06-24-cols-container {
+  width: 70%;
+  position: relative;
+  margin-top: 5.33vh;
 }
+
+.N-1366-06-24-1-div-container {
+  img {
+    height: 19.14vh;
+  }
 }
-.N-1366-06-24-3-div-container{
-    height: 19.72vh;
-    img{
-        height:100%;
-    }
-    }
-    .N-1366-06-24-2-div-container{
-        height: 24.44vh;
-        img{
-            height:100%;
-        }
-        }
-        .N-1366-06-24-4-div-container{
-            height:22.33vh;
-            img{
-                height:100%;
-            }
-            }
- .N-1366-06-24-btn-padding{
-     
- }
+.N-1366-06-24-3-div-container {
+  img {
+    height: 24.44vh;
+  }
+}
+.N-1366-06-24-2-div-container {
+  img {
+    height: 19.79vh;
+  }
+}
+.N-1366-06-24-4-div-container {
+  margin-top: 1.5vh;
+  img {
+    height: 22.26vh;
+  }
+}
+.N-1366-06-24-btn-padding {
+  margin: 1.56vh auto;
+  width: 5.2vh;
+  height: 5.2vh;
+  &.success {
+    background-color: #a1dd6f;
+  }
+  &.error {
+    background-color: #ff5252;
+  }
+}

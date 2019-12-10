@@ -543,7 +543,7 @@
 }
 
 @font-face {
-  font-family: "ALK Sanet";
+  font-family: 'ALK Sanet';
   src: url("../fonts/alk-sanet/alk-sanet-webfont.eot");
   /* IE9 Compat Modes */
   src: url("../fonts/alk-sanet/alk-sanet-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/alk-sanet/alk-sanet-webfont.woff2") format("woff2"), url("../fonts/alk-sanet/alk-sanet-webfont.woff") format("woff"), url("../fonts/alk-sanet/alk-sanet-webfont.ttf") format("truetype"), url("../fonts/alk-sanet/alk-sanet-webfont.svg#alk_sanetregular") format("svg");
@@ -1196,7 +1196,19 @@ header nav .header-sound .lang {
 .main_box_links .nature {
   background-image: url("../img/gakvetilebi/buneba/buneba-logo.svg");
 }
-
+.main_box_links .computer {
+  background-image: url("../img/gakvetilebi/Computer-Science/link_pink.png");
+}
+.main_box_links .computer_sizing {
+  padding: 0.5vh 9vh;
+}
+.main_box_links .main_title_sizing {
+  max-width: 310px;
+}
+.main_box_links .main_title_sizing_sm {
+  max-width: 310px;
+  padding: 0.5vh 9vh;
+}
 .main_box_links a {
   background-repeat: no-repeat;
   background-position: left center;
@@ -1206,9 +1218,10 @@ header nav .header-sound .lang {
   -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
           box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
   border-radius: 40px;
-  font-size: 2.34vh;
+  font-size: 2vh;
   font-family: "ALK Sanet", sans-serif;
   color: #262626;
+  max-width: 200px;
 }
 
 .subject_question_item {
@@ -10030,6 +10043,17 @@ section .arrow_up_down_downArrow img {
   width: 15% !important;
 }
 
+.subject_bottom_illustration-computer {
+  position: absolute;
+  height: 23.69vh;
+  width: 8.27vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+  bottom: 2.35vh;
+  right: 4.27vw;
+  background-image: url("../img/gakvetilebi/Computer-Science/main_img.png");
+}
+
 .C-1366-01-05-purple-man-img-container {
   left: 25.03vw;
 }
@@ -10889,6 +10913,12 @@ section .arrow_up_down_downArrow img {
   max-height: 3.2vh;
 }
 
+#N-1366-05-3 .subject_component_title {
+  font-family: 'ALK Sanet', sans-serif;
+  font-size: 1.8vh;
+  color: #C5CBCD;
+}
+
 #N-1366-05-3 .container_main_title {
   height: 0;
 }
@@ -11538,6 +11568,18 @@ section .arrow_up_down_downArrow img {
   line-height: 1.2;
 }
 
+.center_image {
+  position: absolute;
+  height: 20vh;
+  width: 20vw;
+  max-height: 154px;
+  max-width: 154px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
 #A-1366-05-6-7 .art_questions {
   margin-top: 9.3vh;
 }
@@ -11677,6 +11719,623 @@ section .arrow_up_down_downArrow img {
   background-repeat: no-repeat;
 }
 
+#N-1366-06-3 .eclipse-img-box {
+  width: 20.9vh;
+  height: 20.9vh;
+  right: 0;
+}
+
+#N-1366-06-3 .eclipse {
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/gakvetilebi/buneba/Summer-in-winter/summer.png");
+  position: absolute;
+  background-position: center;
+  right: 0vw;
+  bottom: 0vh;
+}
+
+#N-1366-06-3 .nature_content_box_text {
+  margin-top: 2.6vh;
+}
+
+#N-1366-06-3 .nature_content_box_text p {
+  line-height: 3.9vh;
+}
+
+#N-1366-06-3 .subject_component_itle_icon {
+  background-position: center;
+}
+
+#N-1366-06-3 .subject_component_itle_icon img {
+  height: 100%;
+  max-height: 3.2vh;
+}
+
+#N-1366-06-3 .subject_component_title {
+  font-family: 'ALK Sanet', sans-serif;
+  font-size: 1.8vh;
+  color: #C5CBCD;
+}
+
+#N-1366-06-3 .container_main_title {
+  height: 0;
+}
+
+#N-1366-06-3 .container_main_title_art-paddings {
+  padding-bottom: 5.8vh;
+}
+
+#N-1366-06-6 .N-1366-03-153 {
+  background-image: url("../img/gakvetilebi/buneba/Summer-in-winter/comix-6.png");
+  background-position: center;
+}
+
+.nature-text-wrapper_16 {
+  position: absolute;
+  bottom: 0;
+  height: 16vh;
+  left: 0;
+  right: 0;
+  background: #fff;
+  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
+  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
+}
+
+#N-1366-06-7 .N-1366-03-153 {
+  background-image: url("../img/gakvetilebi/buneba/Summer-in-winter/comix-7.png");
+  background-position: center;
+}
+
+.nature-text-wrapper_16 {
+  position: absolute;
+  bottom: 0;
+  height: 16vh;
+  left: 0;
+  right: 0;
+  background: #fff;
+  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
+  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
+}
+
+#N-1366-06-8 .N-1366-03-153 {
+  background-image: url("../img/gakvetilebi/buneba/Summer-in-winter/comix-8.png");
+  background-position: center;
+}
+
+.nature-text-wrapper_16 {
+  position: absolute;
+  bottom: 0;
+  height: 16vh;
+  left: 0;
+  right: 0;
+  background: #fff;
+  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
+  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
+}
+
+#N-1366-06-9 .N-1366-03-153 {
+  background-image: url("../img/gakvetilebi/buneba/Summer-in-winter/comix-9.png");
+  background-position: center;
+}
+
+.nature-text-wrapper_16 {
+  position: absolute;
+  bottom: 0;
+  height: 16vh;
+  left: 0;
+  right: 0;
+  background: #fff;
+  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
+  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
+}
+
+#N-1366-06-10 .N-1366-03-153 {
+  background-image: url("../img/gakvetilebi/buneba/Summer-in-winter/comix-10.png");
+  background-position: center;
+}
+
+.nature-text-wrapper_16 {
+  position: absolute;
+  bottom: 0;
+  height: 16vh;
+  left: 0;
+  right: 0;
+  background: #fff;
+  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
+  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
+}
+
+#N-1366-06-11 .N-1366-03-153 {
+  background-image: url("../img/gakvetilebi/buneba/Summer-in-winter/comix-11.png");
+  background-position: center;
+}
+
+.nature-text-wrapper_16 {
+  position: absolute;
+  bottom: 0;
+  height: 16vh;
+  left: 0;
+  right: 0;
+  background: #fff;
+  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
+  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
+}
+
+#N-1366-06-12 .N-1366-03-153 {
+  background-image: url("../img/gakvetilebi/buneba/Summer-in-winter/comix-12.png");
+  background-position: top center;
+}
+
+.nature-text-wrapper_16 {
+  position: absolute;
+  bottom: 0;
+  height: 16vh;
+  left: 0;
+  right: 0;
+  background: #fff;
+  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
+  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
+}
+
+#N-1366-06-13 .N-1366-03-153 {
+  background-image: url("../img/gakvetilebi/buneba/Summer-in-winter/comix-13.png");
+  background-position: center;
+}
+
+.nature-text-wrapper_16 {
+  position: absolute;
+  bottom: 0;
+  height: 16vh;
+  left: 0;
+  right: 0;
+  background: #fff;
+  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
+  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
+}
+
+#N-1366-06-13 .N-1366-03-153 {
+  background-image: url("../img/gakvetilebi/buneba/Summer-in-winter/comix-13.png");
+  background-position: center;
+}
+
+.nature-text-wrapper_16 {
+  position: absolute;
+  bottom: 0;
+  height: 16vh;
+  left: 0;
+  right: 0;
+  background: #fff;
+  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
+  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
+}
+
+#N-1366-06-15 .N-1366-03-153 {
+  background-image: url("../img/gakvetilebi/buneba/Summer-in-winter/comix-15.png");
+  background-position: center;
+}
+
+.nature-text-wrapper_16 {
+  position: absolute;
+  bottom: 0;
+  height: 16vh;
+  left: 0;
+  right: 0;
+  background: #fff;
+  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
+  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
+}
+
+#N-1366-06-16 .N-1366-03-153 {
+  background-image: url("../img/gakvetilebi/buneba/Summer-in-winter/comix-16.png");
+  background-position: top center;
+}
+
+.nature-text-wrapper_16 {
+  position: absolute;
+  bottom: 0;
+  height: 16vh;
+  left: 0;
+  right: 0;
+  background: #fff;
+  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
+  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
+}
+
+#N-1366-06-17 .N-1366-03-153 {
+  background-image: url("../img/gakvetilebi/buneba/Summer-in-winter/comix-17.png");
+  background-position: center;
+}
+
+.nature-text-wrapper_16 {
+  position: absolute;
+  bottom: 0;
+  height: 16vh;
+  left: 0;
+  right: 0;
+  background: #fff;
+  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
+  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
+}
+
+#N-1366-06-18 .N-1366-03-153 {
+  background-image: url("../img/gakvetilebi/buneba/Summer-in-winter/comix-18.png");
+  background-position: center;
+}
+
+.nature-text-wrapper_16 {
+  position: absolute;
+  bottom: 0;
+  height: 16vh;
+  left: 0;
+  right: 0;
+  background: #fff;
+  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
+  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
+}
+
+#N-1366-06-27 .N-1366-03-153 {
+  background-image: url("../img/gakvetilebi/buneba/Summer-in-winter/comix-27.png");
+  background-position: top center;
+}
+
+.nature-text-wrapper_16 {
+  position: absolute;
+  bottom: 0;
+  height: 16vh;
+  left: 0;
+  right: 0;
+  background: #fff;
+  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
+  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
+}
+
+#N-1366-06-28 .N-1366-03-153 {
+  background-image: url("../img/gakvetilebi/buneba/Summer-in-winter/comix-28.png");
+  background-position: center;
+}
+
+.nature-text-wrapper_16 {
+  position: absolute;
+  bottom: 0;
+  height: 16vh;
+  left: 0;
+  right: 0;
+  background: #fff;
+  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
+  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
+}
+
+#N-1366-06-31 {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-top: 0;
+}
+
+#N-1366-06-31 .img-box {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  height: 64.5vh;
+  max-height: 496px;
+  width: 44vw;
+  max-width: 604px;
+}
+
+#N-1366-06-31 .img-box img {
+  height: 100%;
+}
+
+#N-1366-06-33 {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-top: 0;
+}
+
+#N-1366-06-33 .img-box {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  height: 67vh;
+  max-height: 515px;
+  width: 53vw;
+  max-width: 729px;
+}
+
+#N-1366-06-33 .img-box img {
+  height: 100%;
+}
+
+#N-1366-06-47 .text-wrapper {
+  height: 43vh;
+  max-height: 332px;
+}
+
+#N-1366-06-47 p {
+  font-size: 2vh;
+  font-family: 'BPG Arial', sans-serif;
+}
+
+#N-1366-06-47 .seasons {
+  font-size: 2.3vh;
+  font-family: 'BPG Arial', sans-serif;
+}
+
+#N-1366-06-47 .img-box {
+  height: 57.8vh;
+  max-height: 444px;
+}
+
+#N-1366-06-47 .img-box img {
+  height: 100%;
+}
+
+#N-1366-06-47 .text-boxes {
+  width: 10vw;
+  height: 5vh;
+  border-radius: 10px;
+  max-width: 120px;
+  max-height: 30px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+#N-1366-06-47 .box-1 {
+  left: 30%;
+  top: -1.3vh;
+}
+
+#N-1366-06-47 .box-2 {
+  left: 54%;
+  top: 14%;
+}
+
+#N-1366-06-47 .box-3 {
+  right: 25%;
+  top: 35%;
+}
+
+#N-1366-06-47 .box-4 {
+  top: 57%;
+  right: 4%;
+}
+
+#N-1366-06-47 .box-5 {
+  top: 96%;
+  right: 31%;
+}
+
+#N-1366-06-47 .box-6 {
+  left: 31%;
+  top: 76%;
+}
+
+#N-1366-06-47 .box-7 {
+  left: 3%;
+  top: 36%;
+}
+
+#N-1366-06-47 .box-8 {
+  left: 24%;
+  top: 57%;
+}
+
+#N-1366-06-20 .N-1366-03-153 {
+  background-image: url("../img/gakvetilebi/buneba/Summer-in-winter/comix-20.png");
+  background-position: center;
+}
+
+.nature-text-wrapper_16 {
+  position: absolute;
+  bottom: 0;
+  height: 16vh;
+  left: 0;
+  right: 0;
+  background: #fff;
+  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
+  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
+}
+
+#N-1366-06-34 .N-1366-03-153 {
+  background-image: url("../img/gakvetilebi/buneba/Summer-in-winter/comix-34.png");
+  background-position: center;
+}
+
+.nature-text-wrapper_16 {
+  position: absolute;
+  bottom: 0;
+  height: 16vh;
+  left: 0;
+  right: 0;
+  background: #fff;
+  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
+  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
+}
+
+#N-1366-06-35 .N-1366-03-153 {
+  background-image: url("../img/gakvetilebi/buneba/Summer-in-winter/comix-35.png");
+  background-position: center;
+}
+
+.nature-text-wrapper_16 {
+  position: absolute;
+  bottom: 0;
+  height: 16vh;
+  left: 0;
+  right: 0;
+  background: #fff;
+  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
+  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
+}
+
+#N-1366-06-36 .N-1366-03-153 {
+  background-image: url("../img/gakvetilebi/buneba/Summer-in-winter/comix-36.png");
+  background-position: top center;
+}
+
+.nature-text-wrapper_16 {
+  position: absolute;
+  bottom: 0;
+  height: 16vh;
+  left: 0;
+  right: 0;
+  background: #fff;
+  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
+  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
+}
+
+#N-1366-06-37 .N-1366-03-153 {
+  background-image: url("../img/gakvetilebi/buneba/Summer-in-winter/comix-37.png");
+  background-position: center;
+}
+
+.nature-text-wrapper_16 {
+  position: absolute;
+  bottom: 0;
+  height: 16vh;
+  left: 0;
+  right: 0;
+  background: #fff;
+  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
+  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
+}
+
+#N-1366-06-38 .N-1366-03-153 {
+  background-image: url("../img/gakvetilebi/buneba/Summer-in-winter/comix-38.png");
+  background-position: center;
+}
+
+.nature-text-wrapper_16 {
+  position: absolute;
+  bottom: 0;
+  height: 16vh;
+  left: 0;
+  right: 0;
+  background: #fff;
+  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
+  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
+}
+
+#N-1366-06-39 .N-1366-03-153 {
+  background-image: url("../img/gakvetilebi/buneba/Summer-in-winter/comix-39.png");
+  background-position: center;
+}
+
+.nature-text-wrapper_16 {
+  position: absolute;
+  bottom: 0;
+  height: 16vh;
+  left: 0;
+  right: 0;
+  background: #fff;
+  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
+  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
+}
+
+#N-1366-06-44 .N-1366-03-153 {
+  background-image: url("../img/gakvetilebi/buneba/Summer-in-winter/comix-44.png");
+  background-position: center;
+}
+
+.nature-text-wrapper_16 {
+  position: absolute;
+  bottom: 0;
+  height: 16vh;
+  left: 0;
+  right: 0;
+  background: #fff;
+  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
+  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
+}
+
+#N-1366-06-45 .N-1366-03-153 {
+  background-image: url("../img/gakvetilebi/buneba/Summer-in-winter/comix-45.png");
+  background-position: center;
+}
+
+.nature-text-wrapper_16 {
+  position: absolute;
+  bottom: 0;
+  height: 16vh;
+  left: 0;
+  right: 0;
+  background: #fff;
+  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
+  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
+}
+
+#N-1366-06-50 .N-1366-03-153 {
+  background-image: url("../img/gakvetilebi/buneba/Summer-in-winter/comix-50.png");
+  background-position: center;
+}
+
+.nature-text-wrapper_16 {
+  position: absolute;
+  bottom: 0;
+  height: 16vh;
+  left: 0;
+  right: 0;
+  background: #fff;
+  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
+  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
+}
+
+#N-1366-06-51 .title-img {
+  height: 40vh;
+  max-height: 311px;
+}
+
+#N-1366-06-51 .title-img img {
+  height: 100%;
+}
+
+#N-1366-06-51 .time_line {
+  height: 28vh;
+  max-height: 216px;
+}
+
+#N-1366-06-51 .time_line .months {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+}
+
+#N-1366-06-51 .time_line .first_half {
+  position: relative;
+  height: 50%;
+}
+
+#N-1366-06-51 .time_line .first_half img {
+  height: 100%;
+  width: 100%;
+}
+
+#N-1366-06-51 .time_line .second_half {
+  height: 50%;
+}
+
+#N-1366-06-51 .time_line .second_half img {
+  height: 100%;
+  width: 100%;
+}
+
 .N-1366-06-40-img-container {
   height: 37.63vh;
   margin-right: 10.39vh;
@@ -11688,6 +12347,26 @@ section .arrow_up_down_downArrow img {
 
 .N-1366-06-40-cols-container {
   margin-top: 10.41vh;
+}
+
+.N-1366-06-26-sun-img-container {
+  height: 32.81vh;
+  margin-top: 18.50vh;
+}
+
+.N-1366-06-26-sun-img-container img {
+  height: 100%;
+}
+
+.N-1366-06-26-laptop-img-container {
+  height: 40.75vh;
+  position: absolute;
+  top: 26.04vh;
+  right: 21.01vw;
+}
+
+.N-1366-06-26-laptop-img-container img {
+  height: 100%;
 }
 
 .N-1366-05-41-arrows-img-container {
@@ -11705,40 +12384,70 @@ section .arrow_up_down_downArrow img {
   height: 33.91vh;
 }
 
+.N-1366-05-41-arrows-img-container {
+  margin-top: 26.69vh;
+}
+
+.N-1366-05-41-laptop-img-container {
+  height: 33.91vh;
+  position: absolute;
+  top: 30.81vh;
+  right: 17.42vw;
+}
+
+.N-1366-05-41-laptop-img-container img {
+  height: 33.91vh;
+}
+
+.N-1366-05-24-laptop-img-container {
+  height: 29.68vh;
+  position: absolute;
+  top: 14.71vh;
+  left: 18.3vw;
+}
+
+.N-1366-05-24-laptop-img-container img {
+  height: 100%;
+}
+
 .N-1366-06-24-cols-container {
+  width: 70%;
+  position: relative;
   margin-top: 5.33vh;
 }
 
-.N-1366-06-24-1-div-container {
-  height: 19.1vh;
-}
-
 .N-1366-06-24-1-div-container img {
-  height: 100%;
-}
-
-.N-1366-06-24-3-div-container {
-  height: 19.72vh;
+  height: 19.14vh;
 }
 
 .N-1366-06-24-3-div-container img {
-  height: 100%;
-}
-
-.N-1366-06-24-2-div-container {
   height: 24.44vh;
 }
 
 .N-1366-06-24-2-div-container img {
-  height: 100%;
+  height: 19.79vh;
 }
 
 .N-1366-06-24-4-div-container {
-  height: 22.33vh;
+  margin-top: 1.5vh;
 }
 
 .N-1366-06-24-4-div-container img {
-  height: 100%;
+  height: 22.26vh;
+}
+
+.N-1366-06-24-btn-padding {
+  margin: 1.56vh auto;
+  width: 5.2vh;
+  height: 5.2vh;
+}
+
+.N-1366-06-24-btn-padding.success {
+  background-color: #a1dd6f;
+}
+
+.N-1366-06-24-btn-padding.error {
+  background-color: #ff5252;
 }
 
 .n_seasons_circle-img {
@@ -11768,6 +12477,47 @@ section .arrow_up_down_downArrow img {
   color: #fff;
 }
 
+.N-1366-06-40-img-container {
+  height: 37.63vh;
+  margin-right: 10.39vh;
+}
+
+.N-1366-06-40-img-container img {
+  height: 100%;
+}
+
+.N-1366-06-40-cols-container {
+  margin-top: 10.41vh;
+}
+
+.background-cs-35 {
+  background-image: url(../img/gakvetilebi/Computer-Science/algorithme/CS-02-35.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-36 {
+  background-image: url(../img/gakvetilebi/Computer-Science/algorithme/CS-02-36.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-37 {
+  background-image: url(../img/gakvetilebi/Computer-Science/algorithme/CS-02-37.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-38 {
+  background-image: url(../img/gakvetilebi/Computer-Science/algorithme/CS-02-38.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .canvas-container {
   width: 100% !important;
 }
@@ -11784,3 +12534,4 @@ section .arrow_up_down_downArrow img {
   display: -ms-flexbox;
   display: flex;
 }
+/*# sourceMappingURL=style.css.map */

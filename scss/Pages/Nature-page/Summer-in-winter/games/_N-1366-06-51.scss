@@ -1,0 +1,36 @@
+#N-1366-06-51{
+  .title-img{
+    height: 40vh;
+    max-height: 311px;
+    img{
+      height: 100%;
+    }
+  }
+  .time_line{
+    height: 28vh;
+    max-height: 216px;
+    .months{
+      position: absolute;
+      left: 0;
+      top: 0;
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+    }
+    .first_half{
+      position: relative;
+      height: 50%;
+      img{
+        height: 100%;
+        width: 100%;
+      }
+    }
+    .second_half{
+      height: 50%;
+      img{
+        height: 100%;
+        width: 100%;
+      }
+    }
+  }
+}

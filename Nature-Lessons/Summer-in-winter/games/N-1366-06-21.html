@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<!-- ბოტის აიდიში ვუთითებთ: ხელოვნების - 2318, ბუნების - 2320, მუსიკის - 2292 -->
+<html lang="ka" data-botid="2320">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <!-- ყველა გვერდზე -->
+  <script src="../../../js/vue.js"></script>
+  <!--  ვუე გაშვებისას
+    <script src="./js/vue.min.js"></script>
+     -->
+  <link rel="stylesheet" href="../../../scss/libraries/bootstrap.min.css">
+  <link rel="stylesheet" href="../../../scss/style.css" />
+  <title>ელექტრონული საგანმანათლებლო რესურსი</title>
+</head>
+
+<body>
+    <div class="container">
+        <header id="app">
+          <nav class="row">
+            <app-logo v-logo="'../../../'"></app-logo>
+            <app-menu v-menu:dark="'../../../'"></app-menu>
+            <sound-lang></sound-lang>
+          </nav>
+        </header>
+
+        <section class="ask_question_game n-5-game" style="overflow-x: initial !important;">
+            <div class="subject_component row" style="margin-bottom: 0;">
+                <div class="col-12 item_flex">
+                    <div
+                        class="subject_component_itle_icon bg_bouble_pink d-flex justify-content-center align-items-center">
+                        <img src="../../../img/backgrounds/bg-ilustrations/hand.svg" alt="hand write" />
+                    </div>
+                    <h3 class="subject_component_title">სავარჯიშო</h3>
+                </div>
+
+                <div class="col-5 circles_game-container-04 relative h-100" style="left: -7%">
+                    <img src="../../../img/gakvetilebi/buneba/lesson4/N-253-04.svg" alt="" class="circles_game-img-computer">
+                    <div class="circles_game-blue-container">
+                        <div class="ask_question_game_box ask_question_game_box--first" draggable="true">
+                            <h5 class="draggeble_h5" data-index="6">საქმე დედამიწის მდგომარეობაშია</h5>
+                        </div>
+
+                        <div class="ask_question_game_box ask_question_game_box--second" draggable="true">
+                            <h5 class="draggeble_h5" data-index="4">წელიწადის დროების ცვლილების მოდელის შექმნა</h5>
+                        </div>
+
+                        <div class="ask_question_game_box ask_question_game_box--third" draggable="true">
+                            <h5 class="draggeble_h5" data-index="2">კალენდარის შექმნა</h5>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="col-6 flex position-relative" style="right: 7%">
+                    <div class="center_image">
+                        <img src="../../../img/gakvetilebi/buneba/Summer-in-winter/summer.png" alt="summer">
+                    </div>
+                    <div class="circle__container relative w-100">
+                        <div class="ask_question_game_box--sm dropDiv" data-index="1">
+                            <div class="ask_question_game_box_number-img">
+                                <img src="../../../img/gakvetilebi/buneba/n-1-i-1.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="ask_question_game_box--sm" data-index="2">
+                            <h5>შეიძლება ზაფხულში დედამიწაზე იყოს ზამთარიც</h5>
+                            <div class="ask_question_game_box_number-img">
+                                <img src="../../../img/gakvetilebi/buneba/n-1-i-2.svg" alt="">
+                            </div>
+                        </div>
+
+                        <div class="ask_question_game_box--sm" data-index="3">
+                            <div class="ask_question_game_box_number-img">
+                                <img src="../../../img/gakvetilebi/buneba/n-1-i-3.svg" alt="">
+                            </div>
+                        </div>
+
+                        <div class="ask_question_game_box--sm dropDiv" data-index="4">
+                        <div class="ask_question_game_box_number-img">
+                            <img src="../../../img/gakvetilebi/buneba/n-1-i-4.svg" alt="">
+                        </div>
+                        </div>
+
+                        <div class="ask_question_game_box--sm" data-index="5">
+                        <h5>მიზეზი მზის სითბოსი, დედამიწის მოძრაობაშია</h5>
+                        <div class="ask_question_game_box_number-img">
+                            <img src="../../../img/gakvetilebi/buneba/n-1-i-5.svg" alt="">
+                        </div>
+                        </div>
+
+                        <div class="ask_question_game_box--sm dropDiv" data-index="6">
+                            <h5>დაკვირვება მზის სითბოს გავრცელებასა და დედამიწის მოძრაობაზე</h5>
+                        <div class="ask_question_game_box_number-img">
+                            <img src="../../../img/gakvetilebi/buneba/n-1-i-6.svg" alt="">
+                        </div>
+                        </div>
+                    </div>
+                </div>
+  
+            </div>           
+        </section>
+
+        <div style="right: 9.5vw" class="flex flex-end column align-items-end z-index reload_game_wrapper">
+            <button id="resetBtn" class="reset__btn">თავიდან სცადე</button>
+            <button id="completedGame" class="completed__btn">დასრულება</button>
+        </div>
+
+
+        <div class="paging_buttons paging_buttons_position">
+            <a href="../N-1366-05-21.html">
+                <img src="../../../img/icons/chevron-down-logo.svg" alt="down arrow" class="paging_buttons_left" />
+            </a>
+            <a href="../N-1366-05-24.html" class="paging_buttons_margin-left">
+                <img src="../../../img/icons/chevron-down-logo.svg" alt="down arrow" class="paging_buttons_right" />
+            </a>
+        </div>
+        <div class="subject_component_botton_illustration">
+            <div class="illustration_bg bg_pink_Down"></div>
+            <div class="subject_component_botton_icon">
+                <img src="../../../img/backgrounds/bg-ilustrations/hand.svg" alt="hand write" />
+            </div>
+        </div>
+    </div>
+
+  <!-- ჩეთბოტი -->
+  <div id="chatBot">
+    <app-bot></app-bot>
+  </div>
+
+  <script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
+  <script src="../../../Nature-Lessons/My_world/js/N-1366-54.js"></script>
+
+  <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
+  <script src="../../../Vue-Header/app.js"></script>
+  <script src="../../../Vue-chatBot/botApp.js"></script>
+  <script src="../../../js/bot.js"></script>
+
+</body>
+
+</html>

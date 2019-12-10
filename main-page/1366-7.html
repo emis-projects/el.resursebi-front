@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta content="ie=edge" http-equiv="X-UA-Compatible" />
+    <script src="../js/vue.js"></script>
+    <!--  ვუე გაშვებისას
+    <script src="../js/vue.min.js"></script>
+     -->
+    <link href="//cdn.web-fonts.ge/fonts/alk-sanet/css/alk-sanet.min.css" rel="stylesheet" />
+    <link href="../scss/libraries/bootstrap.min.css" rel="stylesheet" />
+    <link href="../scss/style.css" rel="stylesheet" />
+    <title>ხელოვნება</title>
+</head>
+
+<body>
+    <div class="container">
+        <header id="app">
+            <nav class="row">
+                <app-logo v-logo="'../'"></app-logo>
+                <app-menu v-menu:dark="'../'"></app-menu>
+                <sound-lang></sound-lang>
+            </nav>
+        </header>
+        <section>
+            <div class="container_choose_arrowDown">
+                <div>აირჩიე</div>
+                <img alt="down-arrow" src="../img/icons/chevron-down.svg" />
+            </div>
+            <div class="row main_box_links">
+                <div class="col-3 d-flex justify-content-center align-items-center ">
+                    <a class="music" href="../Music-Lessons/M-1366-8.html">მუსიკა</a>
+                </div>
+                <div class="col-3 d-flex justify-content-center align-items-center">
+                    <a class="art" href="../Art-Lessons/1366-11.html">ხელოვნება</a>
+                </div>
+                <div class="col-3 d-flex justify-content-center align-items-center">
+                    <a class="nature" href="../Nature-Lessons/N-1366-9.html">ბუნება</a>
+                </div>
+                <div class="col-3 d-flex justify-content-center align-items-center">
+                    <a class="computer computer_sizing" href="../Nature-Lessons/N-1366-9.html">კომპიუტერული<br>მეცნიერებები</a>
+                </div>
+            </div>
+            <div class="row main-box_img-wrapper">
+                <div class="col-3 d-flex justify-content-center">
+                    <img alt="music" src="../img/gakvetilebi/musika/musika-artwork.svg" />
+                </div>
+                <div class="col-3 d-flex justify-content-center">
+                    <img alt="art" src="../img/gakvetilebi//xelovneba/xelovneba-artwork.svg" />
+                </div>
+                <div class="col-3 d-flex justify-content-center">
+                    <img alt="nature" src="../img/gakvetilebi/buneba/buneba-artwork.svg" />
+                </div>
+                <div class="col-3 d-flex justify-content-center">
+                    <img alt="computer" src="../img/gakvetilebi/Computer-Science/main_img.png" />
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div id="chatBot">
+        <app-bot></app-bot>
+    </div>
+
+    <script src="../js/libraries/jquery-3.4.1.min.js"></script>
+    <script src="../js/libraries/bootstrap.min.js"></script>
+
+    <!-- header and bot vue -->
+    <script src="../Vue-Header/app.js"></script>
+    <script src="../Vue-chatBot/botApp.js"></script>
+    <script src="../js/bot.js"></script>
+</body>
+
+</html>

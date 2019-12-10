@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" data-botid="2320">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <script src="../js/vue.js"></script>
+  <!--  ვუე გაშვებისას
+  <script src="../js/vue.min.js"></script>
+   -->
+  <link rel="stylesheet" href="../scss/libraries/bootstrap.min.css" />
+  <link rel="stylesheet" href="../scss/style.css" />
+  <title>ელექტრონული საგანმანათლებლო რესურსი</title>
+</head>
+
+<body>
+  <div class="container">
+    <header id="app">
+      <nav class="row">
+        <app-logo v-logo="'../'"></app-logo>
+        <app-menu v-menu:dark="'../'"></app-menu>
+        <sound-lang></sound-lang>
+      </nav>
+    </header>
+    <section class="art-lesson-content">
+      <div class="container_choose_arrowDown">
+        <div>თემა</div>
+        <img src="../img/icons/chevron-down.svg" alt="down-arrow" />
+      </div>
+      <div class="row main_box_links  art-lesson-content_links">
+        <div class="col-4  d-flex justify-content-center align-items-center ">
+          <a class="art main_title_sizing_sm" href="./Computer_parts/C-1366-01-01.html">კომპიუტერი და მისი<br> შემადგენელი ნაწილები</a>
+        </div>
+        <div class="col-4 d-flex justify-content-center align-items-center">
+          <a class="music main_title_sizing" href="./algorithme/C-1366-02-03.html">ალგორითმი</a>
+        </div>
+        <div class="col-4 d-flex justify-content-center align-items-center">
+          <a class="art main_title_sizing" href="./N-1366-11.html">სათაური</a>
+        </div>
+      </div>
+      <div class="row main_box_links art-lesson-content_links">
+        <div class="col-4  d-flex justify-content-center align-items-center ">
+          <a class="music main_title_sizing" href="./N-1366-11.html">სათაური</a>
+        </div>
+        <div class="col-4 d-flex justify-content-center align-items-center">
+          <a class="art main_title_sizing" href="#">სათაური</a>
+        </div>
+        <div class="col-4 d-flex justify-content-center align-items-center">
+          <a class="music main_title_sizing" href="#">სათაური</a>
+        </div>
+      </div>
+      <div class="row main_box_links  art-lesson-content_links">
+        <div class="col-4  d-flex justify-content-center align-items-center ">
+          <a class="art main_title_sizing" href="#">სათაური</a>
+        </div>
+        <div class="col-4 d-flex justify-content-center align-items-center">
+          <a class="music main_title_sizing" href="#">სათაური</a>
+        </div>
+        <div class="col-4 d-flex justify-content-center align-items-center">
+          <a class="art main_title_sizing" href="#">სათაური</a>
+        </div>
+      </div>
+      <div class="row main_box_links  art-lesson-content_links">
+        <div class="col-4  d-flex justify-content-center align-items-center ">
+          <a class="music main_title_sizing" href="#">სათაური</a>
+        </div>
+        <div class="col-4 d-flex justify-content-center align-items-center">
+          <a class="art main_title_sizing" href="#">სათაური</a>
+        </div>
+        <div class="col-4 d-flex justify-content-center align-items-center">
+          <a class="music main_title_sizing" href="#">სათაური</a>
+        </div>
+      </div>
+      <div id="chatBot">
+        <app-bot></app-bot>
+      </div>
+    </section>
+    <div class="subject_bottom_illustration-computer"></div>
+  </div>
+
+  <div id="chatBot">
+    <app-bot></app-bot>
+  </div>
+
+  <script src="../js/libraries/jquery-3.4.1.min.js"></script>
+
+
+  <script src="../Vue-Header/app.js"></script>
+  <script src="../Vue-chatBot/botApp.js"></script>
+  <script src="../js/bot.js"></script>
+</body>
+
+</html>
