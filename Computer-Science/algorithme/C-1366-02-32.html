@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!-- ბოტის აიდიში ვუთითებთ: ხელოვნების - 2318, ბუნების - 2320, მუსიკის - 2292, კომპ.მეცნიერება - 2288 -->
+<html data-botid="2288" lang="ka">
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+    <!-- ყველა გვერდზე -->
+    <script src="../../js/vue.js"></script>
+    <!--  ვუე გაშვებისას
+      <script src="./js/vue.min.js"></script>
+       -->
+    <link href="../../scss/libraries/bootstrap.min.css" rel="stylesheet">
+    <link href="../../scss/style.css" rel="stylesheet"/>
+    <title>ელექტრონული საგანმანათლებლო რესურსი</title>
+</head>
+
+<body>
+<div class="container">
+    <header id="app">
+        <nav class="row">
+            <app-logo v-logo="'../../'"></app-logo>
+            <app-menu v-menu:dark="'../../'"></app-menu>
+            <sound-lang></sound-lang>
+        </nav>
+    </header>
+
+    <section id="C-1366-02-32">
+        <div class="subject_component row">
+            <div class="col-12 item_flex">
+                <div class="subject_component_itle_icon bg_bouble_blue d-flex justify-content-center align-items-center">
+                    <img alt="write art" src="../../img/backgrounds/bg-ilustrations/ruler-blue.svg"/>
+                </div>
+                <h3 class="subject_component_title">კომპლექსური დავალება</h3>
+            </div>
+        </div>
+        <div class="container_main_title container_main_title_art-paddings">
+            <img alt="" src="../../img/gakvetilebi/xelovneba/btn-blue.svg"/>
+            <h3>ერთად ავაწყოთ ბუტერბროდი</h3>
+        </div>
+
+        <div class="row">
+            <div class="col-8 offset-1">
+                <div class="main_text">
+                    <p>შენ უკვე ბევრი რამ იცი ალგორითმების შესახებ.<br> იცი, რომ <span>ალგორითმი</span> არის ბრძანებების
+                        თანმიმდევრული<br>
+                        ერთობლიობა,რომელსაც მივყავართ მიზნამდე. გარდა ამისა, გაეცანი როგორია უკეთესი ალგორითმი.</p>
+                </div>
+            </div>
+            <div class="col-7 offset-1">
+                <div class="main_text">
+                    <p>მოდი, ახლა მოიფიქრე ალგორითმი, რომელიც ააწყობს გემრიელ სენდვიჩს. (აუცილებელია, დაიცვათ
+                        თანმიმდევრობა:
+                        პური,კარაქი,ყველი,პომიდორი,ლორი,პური) გამოიყენე ყველა მოცემული ბრძანება სწორი
+                        თანმიმდევრობით:</p>
+                </div>
+            </div>
+            <div class="col-9 offset-1">
+                <div class="secondary_text">
+                    <p>
+                        აიღე პურის ერთი ნაჭერი, გახსენი კარაქის ქილა, წაუსვი პურზე კარაქი<br>
+                        დაჭერი ყველი, პურს დაადე 1 ყველი<br>
+                        დაჭერი პომოდორი<br>
+                        დაჭერი ლორი, დაადე ლორის 1 ნაჭერი<br>
+                        დაადე პურის 1 ნაჭერი</p>
+                </div>
+            </div>
+        </div>
+        <div class="paging_buttons paging_buttons_position">
+            <a href="./C-1366-02-02.html"><img alt="" class="paging_buttons_left"
+                                               src="../../img/icons/chevron-down-logo.svg"/></a>
+            <a class="paging_buttons_margin-left" href="./C-1366-02-04.html"><img
+                    alt="" class="paging_buttons_right"
+                    src="../../img/icons/chevron-down-logo.svg"/></a>
+        </div>
+    </section>
+</div>
+<div class="subject_component_botton_illustration">
+    <div class="illustration_bg bg_blue_Down"></div>
+    <div class="subject_component_botton_bg_icon">
+        <img alt="flag art" src="../../img/backgrounds/bg-ilustrations/ruler-blue.svg"/>
+    </div>
+</div>
+
+
+<!-- ჩეთბოტი -->
+<div id="chatBot">
+    <app-bot></app-bot>
+</div>
+
+<script src="../../js/libraries/jquery-3.4.1.min.js"></script>
+
+<!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
+<script src="../../Vue-Header/app.js"></script>
+<script src="../../Vue-chatBot/botApp.js"></script>
+<script src="../../js/bot.js"></script>
+
+</body>
+
+</html>
