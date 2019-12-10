@@ -10475,6 +10475,41 @@ section .arrow_up_down_downArrow img {
   background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
 }
 
+#N-1366-06-51 .title-img {
+  height: 40vh;
+  max-height: 311px;
+}
+#N-1366-06-51 .title-img img {
+  height: 100%;
+}
+#N-1366-06-51 .time_line {
+  height: 28vh;
+  max-height: 216px;
+}
+#N-1366-06-51 .time_line .months {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+#N-1366-06-51 .time_line .first_half {
+  position: relative;
+  height: 50%;
+}
+#N-1366-06-51 .time_line .first_half img {
+  height: 100%;
+  width: 100%;
+}
+#N-1366-06-51 .time_line .second_half {
+  height: 50%;
+}
+#N-1366-06-51 .time_line .second_half img {
+  height: 100%;
+  width: 100%;
+}
+
 .N-1366-06-40-img-container {
   height: 37.63vh;
   margin-right: 10.39vh;
@@ -10487,6 +10522,24 @@ section .arrow_up_down_downArrow img {
   margin-top: 10.41vh;
 }
 
+.N-1366-06-26-sun-img-container {
+  height: 32.81vh;
+  margin-top: 18.5vh;
+}
+.N-1366-06-26-sun-img-container img {
+  height: 100%;
+}
+
+.N-1366-06-26-laptop-img-container {
+  height: 40.75vh;
+  position: absolute;
+  top: 26.04vh;
+  right: 21.01vw;
+}
+.N-1366-06-26-laptop-img-container img {
+  height: 100%;
+}
+
 .N-1366-05-41-arrows-img-container {
   margin-top: 26.69vh;
 }
@@ -10513,38 +10566,53 @@ section .arrow_up_down_downArrow img {
 }
 .N-1366-05-41-laptop-img-container img {
   height: 33.91vh;
+}
+
+.N-1366-05-24-laptop-img-container {
+  height: 29.68vh;
+  position: absolute;
+  top: 14.71vh;
+  left: 18.3vw;
+}
+.N-1366-05-24-laptop-img-container img {
+  height: 100%;
 }
 
 .N-1366-06-24-cols-container {
+  width: 70%;
+  position: relative;
   margin-top: 5.33vh;
 }
 
-.N-1366-06-24-1-div-container {
-  height: 19.1vh;
-}
 .N-1366-06-24-1-div-container img {
-  height: 100%;
+  height: 19.14vh;
 }
 
-.N-1366-06-24-3-div-container {
-  height: 19.72vh;
-}
 .N-1366-06-24-3-div-container img {
-  height: 100%;
-}
-
-.N-1366-06-24-2-div-container {
   height: 24.44vh;
 }
+
 .N-1366-06-24-2-div-container img {
-  height: 100%;
+  height: 19.79vh;
 }
 
 .N-1366-06-24-4-div-container {
-  height: 22.33vh;
+  margin-top: 1.5vh;
 }
 .N-1366-06-24-4-div-container img {
-  height: 100%;
+  height: 22.26vh;
+}
+
+.N-1366-06-24-btn-padding {
+  margin: 1.56vh auto;
+  width: 5.2vh;
+  height: 5.2vh;
+}
+.N-1366-06-24-btn-padding.success {
+  background-color: #a1dd6f;
+}
+.N-1366-06-24-btn-padding.error {
+  background-color: #ff5252;
 }
 
 .n_seasons_circle-img {
