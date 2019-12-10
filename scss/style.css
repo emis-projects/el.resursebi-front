@@ -8544,6 +8544,17 @@ section .arrow_up_down_downArrow img {
   width: 15% !important;
 }
 
+.subject_bottom_illustration-computer {
+  position: absolute;
+  height: 23.69vh;
+  width: 8.27vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+  bottom: 2.35vh;
+  right: 4.27vw;
+  background-image: url("../img/gakvetilebi/Computer-Science/main_img.png");
+}
+
 .C-1366-01-05-purple-man-img-container {
   left: 25.03vw;
 }
