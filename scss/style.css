@@ -9886,6 +9886,34 @@ section .arrow_up_down_downArrow img {
   margin-bottom: 5.2vh;
 }
 
+.background-20 {
+  background-image: url(../img/gakvetilebi/xelovneba/adventure/A-1366-05-20.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-20-1 {
+  background-image: url(../img/gakvetilebi/xelovneba/adventure/A-1366-05-20-1.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-20-1-1 {
+  background-image: url(../img/gakvetilebi/xelovneba/adventure/A-1366-05-20-1-1.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-20-1-2 {
+  background-image: url(../img/gakvetilebi/xelovneba/adventure/A-1366-05-20-1-2.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 #N-1366-06-3 .eclipse-img-box {
   width: 20.9vh;
   height: 20.9vh;
@@ -10255,9 +10283,9 @@ section .arrow_up_down_downArrow img {
   top: 57%;
 }
 
-#N-1366-06-33 .N-1366-03-153 {
-  background-image: url("../img/gakvetilebi/buneba/Summer-in-winter/comix-33.png");
-  background-position: center;
+#N-1366-06-20 .N-1366-03-153 {
+  background-image: url("../img/gakvetilebi/buneba/Summer-in-winter/comix-20.png");
+  background-position: top center;
 }
 
 .nature-text-wrapper_16 {
@@ -10405,34 +10433,6 @@ section .arrow_up_down_downArrow img {
   background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
 }
 
-.background-20 {
-  background-image: url(../img/gakvetilebi/xelovneba/adventure/A-1366-05-20.svg);
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.background-20-1 {
-  background-image: url(../img/gakvetilebi/xelovneba/adventure/A-1366-05-20-1.svg);
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.background-20-1-1 {
-  background-image: url(../img/gakvetilebi/xelovneba/adventure/A-1366-05-20-1-1.svg);
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.background-20-1-2 {
-  background-image: url(../img/gakvetilebi/xelovneba/adventure/A-1366-05-20-1-2.svg);
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
 .N-1366-06-40-img-container {
   height: 37.63vh;
   margin-right: 10.39vh;
@@ -10457,6 +10457,55 @@ section .arrow_up_down_downArrow img {
 }
 .N-1366-05-41-laptop-img-container img {
   height: 33.91vh;
+}
+
+.N-1366-05-41-arrows-img-container {
+  margin-top: 26.69vh;
+}
+
+.N-1366-05-41-laptop-img-container {
+  height: 33.91vh;
+  position: absolute;
+  top: 30.81vh;
+  right: 17.42vw;
+}
+.N-1366-05-41-laptop-img-container img {
+  height: 33.91vh;
+}
+
+.n_seasons_circle-img {
+  width: 43vw;
+}
+
+.answer_btn-white {
+  background: #fff;
+  color: #0B2228;
+  box-shadow: 0px 3px 6px #00000029;
+  min-width: 10vw;
+}
+.answer_btn-white.selected {
+  background: #F8D24B;
+  color: #fff;
+}
+.answer_btn-white.error {
+  background: #ff5252;
+  color: #fff;
+}
+.answer_btn-white.success {
+  background: #A1DD6F;
+  color: #fff;
+}
+
+.N-1366-06-40-img-container {
+  height: 37.63vh;
+  margin-right: 10.39vh;
+}
+.N-1366-06-40-img-container img {
+  height: 100%;
+}
+
+.N-1366-06-40-cols-container {
+  margin-top: 10.41vh;
 }
 
 .canvas-container {
