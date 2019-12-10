@@ -11650,40 +11650,55 @@ section .arrow_up_down_downArrow img {
   height: 33.91vh;
 }
 
+.N-1366-05-24-laptop-img-container {
+  height: 29.68vh;
+  position: absolute;
+  top: 14.71vh;
+  left: 18.3vw;
+}
+
+.N-1366-05-24-laptop-img-container img {
+  height: 100%;
+}
+
 .N-1366-06-24-cols-container {
+  width: 70%;
+  position: relative;
   margin-top: 5.33vh;
 }
 
-.N-1366-06-24-1-div-container {
-  height: 19.1vh;
-}
-
 .N-1366-06-24-1-div-container img {
-  height: 100%;
-}
-
-.N-1366-06-24-3-div-container {
-  height: 19.72vh;
+  height: 19.14vh;
 }
 
 .N-1366-06-24-3-div-container img {
-  height: 100%;
-}
-
-.N-1366-06-24-2-div-container {
   height: 24.44vh;
 }
 
 .N-1366-06-24-2-div-container img {
-  height: 100%;
+  height: 19.79vh;
 }
 
 .N-1366-06-24-4-div-container {
-  height: 22.33vh;
+  margin-top: 1.5vh;
 }
 
 .N-1366-06-24-4-div-container img {
-  height: 100%;
+  height: 22.26vh;
+}
+
+.N-1366-06-24-btn-padding {
+  margin: 1.56vh auto;
+  width: 5.2vh;
+  height: 5.2vh;
+}
+
+.N-1366-06-24-btn-padding.success {
+  background-color: #a1dd6f;
+}
+
+.N-1366-06-24-btn-padding.error {
+  background-color: #ff5252;
 }
 
 .n_seasons_circle-img {
@@ -11729,3 +11744,4 @@ section .arrow_up_down_downArrow img {
   display: -ms-flexbox;
   display: flex;
 }
+/*# sourceMappingURL=style.css.map */
