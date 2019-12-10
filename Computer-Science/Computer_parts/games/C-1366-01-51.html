@@ -45,26 +45,25 @@
             <div class="col-1 offset-1 mt-8vh">
                 <div class="part_box">
                     <div class="parts motherboard m-auto">
-                        <img alt="motherboard"
-                             src="../../../img/gakvetilebi/Computer-Science/Computer_parts/motherboard.png">
+                        <img alt="motherboard" class="motherboard" src="../../../img/gakvetilebi/Computer-Science/Computer_parts/motherboard.svg">
                     </div>
                     <p>დედაპლატა</p>
                 </div>
                 <div class="part_box">
                     <div class="parts HDD m-auto">
-                        <img alt="HDD" src="../../../img/gakvetilebi/Computer-Science/Computer_parts/HDD.png">
+                        <img alt="HDD" class="hdd" src="../../../img/gakvetilebi/Computer-Science/Computer_parts/HDD.svg">
                     </div>
                     <p>მყარი დისკი</p>
                 </div>
                 <div class="part_box">
                     <div class="parts UPS m-auto">
-                        <img alt="UPS" src="../../../img/gakvetilebi/Computer-Science/Computer_parts/UPS.png">
+                        <img alt="UPS" class="ups" src="../../../img/gakvetilebi/Computer-Science/Computer_parts/UPS.svg">
                     </div>
                     <p>კვების ბლოკი</p>
                 </div>
                 <div class="part_box">
                     <div class="parts procesor m-auto">
-                        <img alt="procesor" src="../../../img/gakvetilebi/Computer-Science/Computer_parts/procesor.png">
+                        <img alt="procesor" class="cpu" src="../../../img/gakvetilebi/Computer-Science/Computer_parts/procesor.svg">
                     </div>
                     <p>პროცესორი</p>
                 </div>
@@ -76,9 +75,8 @@
                         <img class="table" alt="table" src="../../../img/gakvetilebi/Computer-Science/Computer_parts/table.png">
                         <div class="components_box">
                             <div class="first-img-line d-flex justify-content-around">
-                                <img alt="ram"
-                                     src="../../../img/gakvetilebi/Computer-Science/Computer_parts/RAM.png">
-                                <img alt="speaker" src="../../../img/gakvetilebi/Computer-Science/Computer_parts/speaker.png">
+                                <img alt="ram" class="ram" src="../../../img/gakvetilebi/Computer-Science/Computer_parts/RAM.svg">
+                                <img alt="speaker" src="../../../img/gakvetilebi/Computer-Science/Computer_parts/speaker.svg">
                             </div>
                             <div class="first-img-line d-flex justify-content-around">
                                 <p>ოპერატიული მეხსიერება</p>
@@ -86,8 +84,8 @@
                             </div>
                             <div class="second-img-line d-flex justify-content-around">
                                 <img alt="keyboard"
-                                     src="../../../img/gakvetilebi/Computer-Science/Computer_parts/keyboard.png">
-                                <img alt="mouse" src="../../../img/gakvetilebi/Computer-Science/Computer_parts/mouse.png">
+                                     src="../../../img/gakvetilebi/Computer-Science/Computer_parts/keyboard.svg">
+                                <img alt="mouse" src="../../../img/gakvetilebi/Computer-Science/Computer_parts/mouse.svg">
                             </div>
                             <div class="second-img-line d-flex justify-content-around">
                                 <p>კლავიატურა</p>
@@ -99,19 +97,25 @@
             </div>
             <div class="col-2 mt-8vh">
                 <div class="monitore">
-                    <img alt="monitor" src="../../../img/gakvetilebi/Computer-Science/Computer_parts/monitor.png">
+                    <img alt="monitor" src="../../../img/gakvetilebi/Computer-Science/Computer_parts/monitor.svg">
                 </div>
                 <p class="text-center mt-2 mb-3vh">მონიტორი</p>
                 <div class="sys-block">
-                    <img alt="block" src="../../../img/gakvetilebi/Computer-Science/Computer_parts/block.png">
+                    <div class="ceise" style="background-image: url('../../../img/gakvetilebi/Computer-Science/Computer_parts/block.svg')">
+                        <img alt="UPS" class="ups" src="../../../img/gakvetilebi/Computer-Science/Computer_parts/UPS.svg">
+                        <img alt="HDD" class="hdd" src="../../../img/gakvetilebi/Computer-Science/Computer_parts/HDD.svg">
+                        <img alt="ram" class="ram" src="../../../img/gakvetilebi/Computer-Science/Computer_parts/RAM.svg">
+                        <img alt="motherboard" class="motherboard" src="../../../img/gakvetilebi/Computer-Science/Computer_parts/motherboard.svg">
+                        <img alt="procesor" class="cpu" src="../../../img/gakvetilebi/Computer-Science/Computer_parts/procesor.svg">
+                    </div>
                 </div>
-                <p class="text-center mt-2 ">კვების ბლოკი</p>
+                <p class="text-center mt-2 ">სისტემური ბლოკი</p>
             </div>
         </div>
-        <div class="flex flex-end column align-items-end z-index reload_game_wrapper">
+        <!-- <div class="flex flex-end column align-items-end z-index reload_game_wrapper">
             <button class="reset__btn" id="resetBtn">თავიდან სცადე</button>
             <button class="completed__btn" id="completedGame">დასრულება</button>
-        </div>
+        </div> -->
     </section>
 
 
@@ -139,6 +143,7 @@
 </div>
 
 <script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
+<script src="../js/C-1366-01-51.js"></script>
 
 <script src="../../../Vue-Header/app.js"></script>
 <script src="../../../Vue-chatBot/test.js"></script>
