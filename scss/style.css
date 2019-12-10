@@ -1197,6 +1197,19 @@ header nav .header-sound .lang {
   background-image: url("../img/gakvetilebi/buneba/buneba-logo.svg");
 }
 
+.main_box_links .computer {
+  background-image: url("../img/gakvetilebi/Computer-Science/link_pink.png");
+}
+.main_box_links .computer_sizing {
+  padding: 0.5vh 9vh;
+}
+.main_box_links .main_title_sizing {
+  max-width: 310px;
+}
+.main_box_links .main_title_sizing_sm {
+  max-width: 310px;
+  padding: 0.5vh 9vh;
+}
 .main_box_links a {
   background-repeat: no-repeat;
   background-position: left center;
@@ -1206,9 +1219,10 @@ header nav .header-sound .lang {
   -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
           box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
   border-radius: 40px;
-  font-size: 2.34vh;
+  font-size: 2vh;
   font-family: "ALK Sanet", sans-serif;
   color: #262626;
+  max-width: 200px;
 }
 
 .subject_question_item {
@@ -4867,6 +4881,22 @@ section .arrow_up_down_downArrow img {
   max-width: 22px;
   max-height: 22px;
   background: #7FD1D8;
+  border-radius: 100%;
+  top: 50%;
+  left: 50%;
+  margin-top: -1vh;
+  margin-left: -1vh;
+}
+
+.dots .error::after {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 2vh;
+  width: 2vh;
+  max-width: 22px;
+  max-height: 22px;
+  background: #dc6c85;
   border-radius: 100%;
   top: 50%;
   left: 50%;
@@ -10014,6 +10044,17 @@ section .arrow_up_down_downArrow img {
   width: 15% !important;
 }
 
+.subject_bottom_illustration-computer {
+  position: absolute;
+  height: 23.69vh;
+  width: 8.27vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+  bottom: 2.35vh;
+  right: 4.27vw;
+  background-image: url("../img/gakvetilebi/Computer-Science/main_img.png");
+}
+
 .C-1366-01-05-purple-man-img-container {
   left: 25.03vw;
 }
@@ -10262,6 +10303,50 @@ section .arrow_up_down_downArrow img {
 #C-1366-51 .sys-block img {
   height: 17vh;
   max-height: 136px;
+}
+
+#C-1366-51 .sys-block .ceise {
+  position: relative;
+  width: 220px;
+  height: 180px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#C-1366-51 .sys-block .ceise .ups {
+  height: 45px;
+  position: absolute;
+  bottom: 19px;
+  right: 37px;
+}
+
+#C-1366-51 .sys-block .ceise .hdd {
+  width: 49px;
+  position: absolute;
+  bottom: 73px;
+  right: 47px;
+}
+
+#C-1366-51 .sys-block .ceise .ram {
+  height: 109px;
+  position: absolute;
+  bottom: 19px;
+  right: 115px;
+}
+
+#C-1366-51 .sys-block .ceise .motherboard {
+  width: 76px;
+  position: absolute;
+  bottom: 19px;
+  left: 4px;
+}
+
+#C-1366-51 .sys-block .ceise .cpu {
+  width: 49px;
+  position: absolute;
+  top: 24px;
+  left: 4px;
 }
 
 #C-1366-51 .mb-3vh {
@@ -12415,6 +12500,33 @@ section .arrow_up_down_downArrow img {
   height: 49.08vh;
   margin: auto;
 }
+.background-cs-35 {
+  background-image: url(../img/gakvetilebi/Computer-Science/algorithme/CS-02-35.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-36 {
+  background-image: url(../img/gakvetilebi/Computer-Science/algorithme/CS-02-36.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-37 {
+  background-image: url(../img/gakvetilebi/Computer-Science/algorithme/CS-02-37.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-38 {
+  background-image: url(../img/gakvetilebi/Computer-Science/algorithme/CS-02-38.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
 .canvas-container {
   width: 100% !important;
@@ -12432,3 +12544,4 @@ section .arrow_up_down_downArrow img {
   display: -ms-flexbox;
   display: flex;
 }
+/*# sourceMappingURL=style.css.map */

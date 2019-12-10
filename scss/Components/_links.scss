@@ -8,6 +8,19 @@
   .nature {
     background-image: url("../img/gakvetilebi/buneba/buneba-logo.svg");
   }
+  .computer {
+    background-image: url("../img/gakvetilebi/Computer-Science/link_pink.png");
+  }
+  .computer_sizing{
+    padding: 0.5vh 9vh;
+  }
+  .main_title_sizing{
+    max-width: 310px;
+  }
+  .main_title_sizing_sm{
+    max-width: 310px;
+    padding: 0.5vh 9vh;
+  }
   a {
     background-repeat: no-repeat;
     background-position: left center;
@@ -16,8 +29,9 @@
     padding: 2.4vh 9vh;
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
     border-radius: 40px;
-    font-size: 2.34vh;
+    font-size: 2vh;
     font-family: "ALK Sanet", sans-serif;
     color: #262626;
+    max-width: 200px;
   }
 }
