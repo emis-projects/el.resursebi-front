@@ -42,7 +42,7 @@ function quiz(){
         })
 
         if (flag) {
-            location.href = 'success-page.html'
+            location.href = 'C-1366-01-41-success.html'
         }
 
         document.getElementById("completedGame").disabled = true

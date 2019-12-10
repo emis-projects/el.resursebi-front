@@ -59,7 +59,7 @@ function Game() {
 
     //Success Page
     this.SuccessPage = function() {
-        location.href = "success-page.html";
+        location.href = "C-1366-01-44-success.html";
     };
 
     this.Clear = function() {

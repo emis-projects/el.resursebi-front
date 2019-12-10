@@ -115,10 +115,53 @@
     max-height: 136px;
   }
 
-  .sys-block img{
-    height: 17vh;
-    max-height: 136px;
+
+  .sys-block {
+    .ceise {
+      position: relative;
+      width: 220px;
+      height: 180px;
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+
+      .ups {
+        height: 45px;
+        position: absolute;
+        bottom: 19px;
+        right: 37px;
+      }
+
+      .hdd {
+        width: 49px;
+        position: absolute;
+        bottom: 73px;
+        right: 47px;
+      }
+
+      .ram {
+        height: 109px;
+        position: absolute;
+        bottom: 19px;
+        right: 115px;
+      }
+
+      .motherboard {
+        width: 76px;
+        position: absolute;
+        bottom: 19px;
+        left: 4px;
+      }
+
+      .cpu {
+        width: 49px;
+        position: absolute;
+        top: 24px;
+        left: 4px;
+      }
+    }
   }
+
   .mb-3vh{
     margin-bottom: 3vh;
   }

@@ -44,7 +44,23 @@ function natureGames(){
 
     
     this.successPage = () => {
-        location.href = 'success-page.html';
+        let loc = location.pathname;
+
+        if(loc == "/Computer-Science/Computer_parts/games/C-1366-01-28.html" || loc == "/el.resursebi-front/Computer-Science/Computer_parts/games/C-1366-01-28.html") {
+            location.href = "C-1366-01-28-success.html"
+
+        } else if(loc == "/Computer-Science/Computer_parts/games/C-1366-01-31.html" || loc == "/el.resursebi-front/Computer-Science/Computer_parts/games/C-1366-01-31.html") {
+            location.href = "C-1366-01-31-success.html"
+
+        } else if(loc == "/Computer-Science/Computer_parts/games/C-1366-01-33.html" || loc == "/el.resursebi-front/Computer-Science/Computer_parts/games/C-1366-01-33.html") {
+            location.href = "C-1366-01-33-success.html"
+
+        } else if(loc == "/Computer-Science/Computer_parts/games/C-1366-01-35.html" || loc == "/el.resursebi-front/Computer-Science/Computer_parts/games/C-1366-01-35.html") {
+            location.href = "C-1366-01-35-success.html"
+
+        } else if(loc == "/Computer-Science/Computer_parts/games/C-1366-01-37.html" || loc == "/el.resursebi-front/Computer-Science/Computer_parts/games/C-1366-01-37.html") {
+            location.href = "C-1366-01-37-success.html"
+        }
     }
 
     resetBtn.addEventListener('click', () => this.init());
