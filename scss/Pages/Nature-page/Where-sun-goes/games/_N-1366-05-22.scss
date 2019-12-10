@@ -51,3 +51,13 @@
         }
     }
 }
+.center_image{
+    position: absolute;
+    height: 20vh;
+    width: 20vw;
+    max-height: 154px;
+    max-width: 154px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
