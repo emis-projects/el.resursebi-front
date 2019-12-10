@@ -11635,6 +11635,26 @@ section .arrow_up_down_downArrow img {
   margin-top: 10.41vh;
 }
 
+.N-1366-06-26-sun-img-container {
+  height: 32.81vh;
+  margin-top: 18.50vh;
+}
+
+.N-1366-06-26-sun-img-container img {
+  height: 100%;
+}
+
+.N-1366-06-26-laptop-img-container {
+  height: 40.75vh;
+  position: absolute;
+  top: 26.04vh;
+  right: 21.01vw;
+}
+
+.N-1366-06-26-laptop-img-container img {
+  height: 100%;
+}
+
 .N-1366-05-41-arrows-img-container {
   margin-top: 26.69vh;
 }
