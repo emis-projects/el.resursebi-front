@@ -4874,6 +4874,22 @@ section .arrow_up_down_downArrow img {
   margin-left: -1vh;
 }
 
+.dots .error::after {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 2vh;
+  width: 2vh;
+  max-width: 22px;
+  max-height: 22px;
+  background: #dc6c85;
+  border-radius: 100%;
+  top: 50%;
+  left: 50%;
+  margin-top: -1vh;
+  margin-left: -1vh;
+}
+
 #M-1366-59 a {
   color: #7FD1D8;
 }
@@ -10259,9 +10275,48 @@ section .arrow_up_down_downArrow img {
   max-height: 136px;
 }
 
-#C-1366-51 .sys-block img {
-  height: 17vh;
-  max-height: 136px;
+#C-1366-51 .sys-block .ceise {
+  position: relative;
+  width: 220px;
+  height: 180px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#C-1366-51 .sys-block .ceise .ups {
+  height: 45px;
+  position: absolute;
+  bottom: 19px;
+  right: 37px;
+}
+
+#C-1366-51 .sys-block .ceise .hdd {
+  width: 49px;
+  position: absolute;
+  bottom: 73px;
+  right: 47px;
+}
+
+#C-1366-51 .sys-block .ceise .ram {
+  height: 109px;
+  position: absolute;
+  bottom: 19px;
+  right: 115px;
+}
+
+#C-1366-51 .sys-block .ceise .motherboard {
+  width: 76px;
+  position: absolute;
+  bottom: 19px;
+  left: 4px;
+}
+
+#C-1366-51 .sys-block .ceise .cpu {
+  width: 49px;
+  position: absolute;
+  top: 24px;
+  left: 4px;
 }
 
 #C-1366-51 .mb-3vh {

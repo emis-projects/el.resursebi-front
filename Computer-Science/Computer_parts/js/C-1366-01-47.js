@@ -68,7 +68,7 @@ function Game() {
     };
 
     this.successPage = () => {
-        location.href = "success-page.html";
+        location.href = "C-1366-01-47-success.html";
     };
 
     //Reset
