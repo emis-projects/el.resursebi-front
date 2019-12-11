@@ -10906,8 +10906,8 @@ section .arrow_up_down_downArrow img {
   padding-bottom: 2.43vh;
 }
 
-.h-66vh {
-  height: 66vh;
+.h-60vh {
+  height: 60vh;
 }
 
 .cs_school-img-06 {
@@ -10920,6 +10920,15 @@ section .arrow_up_down_downArrow img {
   position: absolute;
   bottom: 0;
   left: 0;
+}
+
+.cs_illustration-img-27 {
+  height: 62.73vh;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 
 .C-1366-02-16-mixer-img-container {
