@@ -10797,6 +10797,17 @@ section .arrow_up_down_downArrow img {
   margin-right: 9vw;
 }
 
+#C-1366-04-28 .box-wrapper {
+  margin-top: 11.3vh;
+}
+#C-1366-04-28 .box-wrapper .img-box {
+  height: 38.8vh;
+  max-height: 298px;
+}
+#C-1366-04-28 .box-wrapper .img-box img {
+  height: 100%;
+}
+
 #C-1366-02-33 .item_box {
   max-width: 260px;
   width: 90%;
