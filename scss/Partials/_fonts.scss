@@ -45,3 +45,13 @@
     url('../fonts/dejavu-sans-oblique/dejavu-sans-oblique-webfont.svg#dejavu_sans_obliqueregular') format('svg');
   /* Legacy iOS */
 }
+
+@font-face {
+  font-family: 'BPG Nino Mtavruli Bold';
+  src: url('../fonts/nino-mtavruli-bold/bpg-nino-mtavruli-bold-webfont.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/nino-mtavruli-bold/bpg-nino-mtavruli-bold-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../fonts/nino-mtavruli-bold/bpg-nino-mtavruli-bold-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+  url('../fonts/nino-mtavruli-bold/bpg-nino-mtavruli-bold-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+  url('../fonts/nino-mtavruli-bold/bpg-nino-mtavruli-bold-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('../fonts/nino-mtavruli-bold/bpg-nino-mtavruli-bold-webfont.svg#bpg_nino_mtavrulibold') format('svg'); /* Legacy iOS */
+}
