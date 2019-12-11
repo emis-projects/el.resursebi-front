@@ -1041,24 +1041,19 @@ header nav .header-sound .lang {
 .main_box_links .nature {
   background-image: url("../img/gakvetilebi/buneba/buneba-logo.svg");
 }
-
 .main_box_links .computer {
   background-image: url("../img/gakvetilebi/Computer-Science/link_pink.png");
 }
-
 .main_box_links .computer_sizing {
   padding: 0.5vh 9vh;
 }
-
 .main_box_links .main_title_sizing {
   max-width: 310px;
 }
-
 .main_box_links .main_title_sizing_sm {
   max-width: 310px;
   padding: 0.5vh 9vh;
 }
-
 .main_box_links a {
   background-repeat: no-repeat;
   background-position: left center;
@@ -10747,7 +10742,6 @@ section .arrow_up_down_downArrow img {
   right: 11.14vw;
   height: 46.12vh;
 }
-
 .C-1366-01-13-img-container img {
   height: 100%;
 }
@@ -10904,7 +10898,6 @@ section .arrow_up_down_downArrow img {
   left: 30.38vw;
   height: 3.74vh;
 }
-
 .C-1366-02-14-head-img-div-container img {
   height: 100%;
 }
@@ -10920,16 +10913,13 @@ section .arrow_up_down_downArrow img {
 .C-1366-02-16-mixer-img-container {
   height: 49.47vh;
 }
-
 .C-1366-02-16-mixer-img-container img {
   height: 100%;
 }
 
 .C-1366-02-16-cols-container {
   padding-top: 25.26vh;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  justify-content: space-evenly;
 }
 
 .C-1366-02-16-txt-container {
@@ -10952,3 +10942,5 @@ section .arrow_up_down_downArrow img {
 .red {
   display: flex;
 }
+
+/*# sourceMappingURL=style.css.map */
