@@ -1041,24 +1041,19 @@ header nav .header-sound .lang {
 .main_box_links .nature {
   background-image: url("../img/gakvetilebi/buneba/buneba-logo.svg");
 }
-
 .main_box_links .computer {
   background-image: url("../img/gakvetilebi/Computer-Science/link_pink.png");
 }
-
 .main_box_links .computer_sizing {
   padding: 0.5vh 9vh;
 }
-
 .main_box_links .main_title_sizing {
   max-width: 310px;
 }
-
 .main_box_links .main_title_sizing_sm {
   max-width: 310px;
   padding: 0.5vh 9vh;
 }
-
 .main_box_links a {
   background-repeat: no-repeat;
   background-position: left center;
@@ -2523,10 +2518,10 @@ section .arrow_up_down_downArrow img {
   background-image: url("../img/gakvetilebi/xelovneba/colors_brush.svg");
 }
 
-.container_main_title {
+.container_main_title-46 {
   height: 5.07vh;
 }
-.container_main_title img {
+.container_main_title-46 img {
   padding-right: 1.12vw;
 }
 
@@ -10747,7 +10742,6 @@ section .arrow_up_down_downArrow img {
   right: 11.14vw;
   height: 46.12vh;
 }
-
 .C-1366-01-13-img-container img {
   height: 100%;
 }
@@ -10811,6 +10805,17 @@ section .arrow_up_down_downArrow img {
 }
 #C-1366-06-05 .step_m {
   margin-right: 9vw;
+}
+
+#C-1366-04-28 .box-wrapper {
+  margin-top: 11.3vh;
+}
+#C-1366-04-28 .box-wrapper .img-box {
+  height: 38.8vh;
+  max-height: 298px;
+}
+#C-1366-04-28 .box-wrapper .img-box img {
+  height: 100%;
 }
 
 #C-1366-02-33 .item_box {
@@ -10893,7 +10898,6 @@ section .arrow_up_down_downArrow img {
   left: 30.38vw;
   height: 3.74vh;
 }
-
 .C-1366-02-14-head-img-div-container img {
   height: 100%;
 }
@@ -10902,23 +10906,41 @@ section .arrow_up_down_downArrow img {
   padding-bottom: 2.43vh;
 }
 
-.h-66vh {
-  height: 66vh;
+.h-60vh {
+  height: 60vh;
+}
+
+.cs_school-img-06 {
+  height: 44.14vh;
+  margin: 4vh auto 0;
+}
+
+.cs_illustration-img-06 {
+  height: 50vh;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.cs_illustration-img-27 {
+  height: 62.73vh;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 
 .C-1366-02-16-mixer-img-container {
   height: 49.47vh;
 }
-
 .C-1366-02-16-mixer-img-container img {
   height: 100%;
 }
 
 .C-1366-02-16-cols-container {
   padding-top: 25.26vh;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  justify-content: space-evenly;
 }
 
 .C-1366-02-16-txt-container {
@@ -10941,3 +10963,5 @@ section .arrow_up_down_downArrow img {
 .red {
   display: flex;
 }
+
+/*# sourceMappingURL=style.css.map */
