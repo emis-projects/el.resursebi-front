@@ -12698,8 +12698,8 @@ section .arrow_up_down_downArrow img {
   padding-bottom: 2.43vh;
 }
 
-.h-66vh {
-  height: 66vh;
+.h-60vh {
+  height: 60vh;
 }
 
 .cs_school-img-06 {
@@ -12751,3 +12751,4 @@ section .arrow_up_down_downArrow img {
   display: -ms-flexbox;
   display: flex;
 }
+/*# sourceMappingURL=style.css.map */
