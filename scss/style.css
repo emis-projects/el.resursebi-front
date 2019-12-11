@@ -12508,6 +12508,17 @@ section .arrow_up_down_downArrow img {
   margin: auto;
 }
 
+.C-1366-01-13-img-container {
+  position: absolute;
+  bottom: 11.94vh;
+  right: 11.14vw;
+  height: 46.12vh;
+}
+
+.C-1366-01-13-img-container img {
+  height: 100%;
+}
+
 .background-cs-35 {
   background-image: url(../img/gakvetilebi/Computer-Science/algorithme/CS-02-35.svg);
   background-position: top center;
@@ -12573,6 +12584,19 @@ section .arrow_up_down_downArrow img {
 
 #C-1366-06-05 .step_m {
   margin-right: 9vw;
+}
+
+#C-1366-04-28 .box-wrapper {
+  margin-top: 11.3vh;
+}
+
+#C-1366-04-28 .box-wrapper .img-box {
+  height: 38.8vh;
+  max-height: 298px;
+}
+
+#C-1366-04-28 .box-wrapper .img-box img {
+  height: 100%;
 }
 
 #C-1366-02-33 .item_box {
@@ -12659,6 +12683,21 @@ section .arrow_up_down_downArrow img {
   margin-right: 4vw;
 }
 
+.C-1366-02-14-head-img-div-container {
+  position: absolute;
+  top: 48.43vh;
+  left: 30.38vw;
+  height: 3.74vh;
+}
+
+.C-1366-02-14-head-img-div-container img {
+  height: 100%;
+}
+
+.C-1366-02-25-text-div-container {
+  padding-bottom: 2.43vh;
+}
+
 .h-66vh {
   height: 66vh;
 }
@@ -12673,6 +12712,27 @@ section .arrow_up_down_downArrow img {
   position: absolute;
   bottom: 0;
   left: 0;
+}
+
+.C-1366-02-16-mixer-img-container {
+  height: 49.47vh;
+}
+
+.C-1366-02-16-mixer-img-container img {
+  height: 100%;
+}
+
+.C-1366-02-16-cols-container {
+  padding-top: 25.26vh;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.C-1366-02-16-txt-container {
+  font-size: 4.68vh;
+  font-family: "BPG Arial";
+  color: #FF0000;
 }
 
 .canvas-container {
