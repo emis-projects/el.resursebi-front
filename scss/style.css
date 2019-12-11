@@ -1041,19 +1041,24 @@ header nav .header-sound .lang {
 .main_box_links .nature {
   background-image: url("../img/gakvetilebi/buneba/buneba-logo.svg");
 }
+
 .main_box_links .computer {
   background-image: url("../img/gakvetilebi/Computer-Science/link_pink.png");
 }
+
 .main_box_links .computer_sizing {
   padding: 0.5vh 9vh;
 }
+
 .main_box_links .main_title_sizing {
   max-width: 310px;
 }
+
 .main_box_links .main_title_sizing_sm {
   max-width: 310px;
   padding: 0.5vh 9vh;
 }
+
 .main_box_links a {
   background-repeat: no-repeat;
   background-position: left center;
@@ -8678,7 +8683,7 @@ section .arrow_up_down_downArrow img {
   margin-bottom: 3vh;
 }
 #C-1366-51 .mt-8vh {
-  margin-top: 8vh;
+  margin-top: 5vh;
 }
 #C-1366-51 .part_box p {
   margin: 1.3vh 0 3.2vh 0;
@@ -10736,6 +10741,17 @@ section .arrow_up_down_downArrow img {
   margin: auto;
 }
 
+.C-1366-01-13-img-container {
+  position: absolute;
+  bottom: 11.94vh;
+  right: 11.14vw;
+  height: 46.12vh;
+}
+
+.C-1366-01-13-img-container img {
+  height: 100%;
+}
+
 .background-cs-35 {
   background-image: url(../img/gakvetilebi/Computer-Science/algorithme/CS-02-35.svg);
   background-position: top center;
@@ -10882,8 +10898,44 @@ section .arrow_up_down_downArrow img {
   margin-right: 4vw;
 }
 
+.C-1366-02-14-head-img-div-container {
+  position: absolute;
+  top: 48.43vh;
+  left: 30.38vw;
+  height: 3.74vh;
+}
+
+.C-1366-02-14-head-img-div-container img {
+  height: 100%;
+}
+
+.C-1366-02-25-text-div-container {
+  padding-bottom: 2.43vh;
+}
+
 .h-66vh {
   height: 66vh;
+}
+
+.C-1366-02-16-mixer-img-container {
+  height: 49.47vh;
+}
+
+.C-1366-02-16-mixer-img-container img {
+  height: 100%;
+}
+
+.C-1366-02-16-cols-container {
+  padding-top: 25.26vh;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.C-1366-02-16-txt-container {
+  font-size: 4.68vh;
+  font-family: "BPG Arial";
+  color: #FF0000;
 }
 
 .canvas-container {
@@ -10900,5 +10952,3 @@ section .arrow_up_down_downArrow img {
 .red {
   display: flex;
 }
-
-/*# sourceMappingURL=style.css.map */
