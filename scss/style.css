@@ -6311,6 +6311,54 @@ section .arrow_up_down_downArrow img {
   background-position: center;
 }
 
+.N-1366-136-magnit-img-container-1 {
+  height: 16.66vh;
+  margin: 5.83vh auto;
+}
+
+.N-1366-136-magnit-img-container-1 img {
+  height: 100%;
+}
+
+.N-1366-136-magnit-img-container-2 {
+  height: 14.71vh;
+  margin: 5.83vh auto;
+}
+
+.N-1366-136-magnit-img-container-2 img {
+  height: 100%;
+}
+
+.N-1366-136-magnit-img-container-3 {
+  height: 16.79vh;
+  margin: 2.7vh auto;
+}
+
+.N-1366-136-magnit-img-container-3 img {
+  height: 100%;
+}
+
+.N-1366-136-magnit-dot {
+  height: 3.5vh;
+  width: 3.5vh;
+  max-width: 24px;
+  max-height: 24px;
+  border: 1px solid #C5CBCD;
+  -webkit-transform: scale(2%);
+  transform: scale(2%);
+  display: inline-block;
+  border-radius: 100%;
+  background-color: transparent;
+  cursor: pointer;
+  position: relative;
+  margin-right: 1.3vw;
+}
+
+.N-1366-136-txt-container {
+  margin-top: 6.41vh;
+  margin-bottom: 11.56vh;
+}
+
 .fabs {
   bottom: calc(7.8vh + 315px);
   position: fixed;
@@ -12866,3 +12914,4 @@ section .arrow_up_down_downArrow img {
   display: -ms-flexbox;
   display: flex;
 }
+/*# sourceMappingURL=style.css.map */
