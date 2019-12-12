@@ -42,71 +42,72 @@
                 </div>
             </div>
 
+
             <div class="row music_content_wrapper">
                 <div class="col-9">
                     <p>ახლა კი გავართულოთ დავალება. შენ ხედავ ნიშნების თანმიმდევრობას. შეგიძლია ეს ნიშნების
                         თანმიმდევრობა ხმებით ამოიცნო?</p>
                 </div>
-
+      
                 <div class="col-9 mt-2">
                     <div class="row">
                         <div class="col-3">
                             <div class="listen_text-container">
-                                <button class="listen_btn">მოუსმინე</button>
+                                <button class="listen_btn soundcheck" data-voice="../game-voices/M-1366-58-1.wav">მოუსმინე</button>
                             </div>
                         </div>
                         <div class="col-9 d-flex align-items-center">
-                            <p>მოუსმინე ხმების თანმიმდევრობას და დააწკაპე სათანადო ნიშნების თანმიმდევრობას</p>
+                            <p>კიდევ ერთ თანმიმდევრობას მოუსმინე და დააწკაპე სათანადო ნიშნების თანმიმდევრობას</p>
                         </div>
                     </div>
                 </div>
             </div>
-
-
-
-
+      
+      
+      
+      
             <div class="col-10 d-flex justify-content-between" style="margin-top: 3.90vh;">
                 <div class="dots d-flex flex-column justify-content-between dot-select w-100">
                     <div class="col-12">
-                        <div class="col-10 flex justify-content-between align-items-center">
-                            <img src="../../../img/gakvetilebi/musika/M-1366-58-s.svg" alt="s">
-
+                        <div class="col-10 flex justify-content-between align-items-center" style="margin-top: 3.90vh">
+                            <img class="soundcheck" src="../../../img/gakvetilebi/musika/M-1366-58-s2.svg" alt="s" data-voice="../game-voices/M-1366-58-2.wav">
+      
                             <label class="d-flex">
-                                <span class="active"></span>
+                                <span class="dot dots"></span>
                             </label>
                         </div>
-                        <div class="col-10 flex justify-content-between align-items-center" style="margin-top: 3.90vh">
-                            <img src="../../../img/gakvetilebi/musika/M-1366-58-s2.svg" alt="s">
 
+                        <div class="col-10 flex justify-content-between align-items-center" style="margin-top: 3.90vh;">
+                            <img class="soundcheck" src="../../../img/gakvetilebi/musika/M-1366-58-s.svg" alt="s" data-voice="../game-voices/M-1366-58-1.wav">
+      
                             <label class="d-flex">
-                                <span class="active"></span>
+                                <span class="dot dots" data-answer="true"></span>
                             </label>
                         </div>
-                        <div class="col-10 flex justify-content-between align-items-center" style="margin-top: 3.90vh">
-                            <img src="../../../img/gakvetilebi/musika/M-1366-58-s3.svg" alt="s">
 
+                        <div class="col-10 flex justify-content-between align-items-center" style="margin-top: 3.90vh">
+                            <img class="soundcheck" src="../../../img/gakvetilebi/musika/M-1366-58-s3.svg" alt="s" data-voice="../game-voices/M-1366-58-3.wav">
+      
                             <label class="d-flex">
-                                <span class="active"></span>
+                                <span class="dot dots"></span>
                             </label>
                         </div>
                     </div>
                 </div>
             </div>
+            
 
-            <div class="game_buuton_wrapper d-flex flex-column">
-                <div class="listen_text-container">
-                    <button class="listen_btn btn-restart">თავიდან ცადე</button>
-                </div>
-                <div class="listen_text-container">
-                    <button class="listen_btn">დასრულება</button>
-                </div>
+            <div class="flex column z-index game_btns_position">
+                <button id="resetBtn" class="reset__btn">თავიდან სცადე</button>
+                <button id="completedGame" class="completed__btn">დასრულება</button>
             </div>
+
             <div class="paging_buttons paging_buttons_position">
-                <a href="./M-1366-57-4.html">
+                <a href="./M-1366-58.html">
                     <img src="../../../img/icons/chevron-down-logo.svg" alt="down arrow"
                         class="paging_buttons_left" />
                 </a>
-                <a href="./M-1366-58-2.html" class="paging_buttons_margin-left">
+                <a href="./M-1366-59.html" class="paging_buttons_margin-left">
                     <img src="../../../img/icons/chevron-down-logo.svg" alt="down arrow"
                         class="paging_buttons_right" />
                 </a>
@@ -128,10 +129,13 @@
         <app-bot></app-bot>
     </div>
     
-    <script src="../../js/soundSwitch.js"></script>
+
+    <script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
+    <script src="../../../js/libraries/sound.js"></script>
+    <script src="../js/M-1366-58.js"></script>
 
 
-      <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
+  <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
   <script src="../../../Vue-Header/app.js"></script>
   <script src="../../../Vue-chatBot/botApp.js"></script>
   <script src="../../../js/bot.js"></script>
