@@ -4848,6 +4848,16 @@ section .arrow_up_down_downArrow img {
   margin: 3vh 0;
 }
 
+.music_img-button.selected {
+  outline: 2px solid #F8D24B;
+  outline-offset: -2px;
+}
+
+.music_img-button.error {
+  outline: 2px solid #dc6c85;
+  outline-offset: -2px;
+}
+
 #M-1366-58 .music_content_wrapper {
   margin-left: 5.3vw;
   font-size: 2.3vh;
@@ -6051,14 +6061,6 @@ section .arrow_up_down_downArrow img {
   background-position: center bottom;
 }
 
-.N-1366-73-img-container {
-  height: 61.97vh;
-}
-
-.N-1366-73-img-container img {
-  height: 100%;
-}
-
 .N-1366-94 {
   background-image: url("../img/gakvetilebi/buneba/invisible_forces/N2-366-94.png");
   background-position: center bottom;
@@ -6948,6 +6950,51 @@ section .arrow_up_down_downArrow img {
 
 #N-1366-38 .bottom_components {
   margin-top: 7.8vh;
+}
+
+.n_magnet-game-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 2vh 0;
+}
+
+.n_magnet-game-check_circle {
+  height: 3.5vh;
+  width: 3.5vh;
+  max-width: 24px;
+  max-height: 24px;
+  min-width: 3.5vh;
+  min-height: 3.5vh;
+  border: 1px solid #C5CBCD;
+  display: inline-block;
+  border-radius: 100%;
+  background-color: transparent;
+  cursor: pointer;
+  margin-right: 1.3vw;
+}
+
+.n_magnet-game-check_circle.error {
+  background: #DC6C85;
+}
+
+.n_magnet-game-check_circle.success {
+  background: #a1dd6f;
+}
+
+.n_magnet-game-check_circle.select {
+  background: #f8d24b;
+}
+
+.n_magnet-game-img {
+  height: 4.77vh;
+  margin-bottom: 8vh;
 }
 
 .subject_question_item_title_box {
@@ -9551,8 +9598,8 @@ section .arrow_up_down_downArrow img {
   width: 58px;
   height: 58px;
   border-radius: 50%;
-  -webkit-box-shadow: 0px 3px 6px #00000029;
-          box-shadow: 0px 3px 6px #00000029;
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.160784);
+          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.160784);
 }
 
 .m-1366-04-23-music-game-note-circles.error {
@@ -12559,8 +12606,8 @@ section .arrow_up_down_downArrow img {
 .answer_btn-white {
   background: #fff;
   color: #0B2228;
-  -webkit-box-shadow: 0px 3px 6px #00000029;
-          box-shadow: 0px 3px 6px #00000029;
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
   min-width: 11vw;
 }
 
