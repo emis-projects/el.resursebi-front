@@ -1,79 +1,75 @@
 Vue.component("appBot", {
-  props: {
-    botId: String
-  },
-  data() {
-    return {
-      botShow: false,
-      message: "",
-      messages: []
-    };
-  },
-  methods: {
-    sendMessage(event, val) {
-      if (
-        (this.message !== undefined && this.message !== "") ||
-        val !== undefined
-      ) {
-        console.log(val);
-        let message = this.message;
-        let dataIn = {
-          message: this.message,
-          botid: this.botId
+    props: {
+        botId: String
+    },
+    data() {
+        return {
+            botShow: false,
+            message: "",
+            messages: []
         };
-        if (val) {
-          dataIn.message = val;
-          message = val;
-        }
-        const data = {
-          url: "https://e4082a31.ngrok.io/WCAPI",
-          method: "POST",
-          headers: {
-            Accept: "application/json",
-            "Content-Type": "application/json;charset=UTF-8"
-          },
-          data: dataIn
-        };
-        this.messages.push({
-          message: message,
-          author: "client",
-          imgUrl: "./img/icons/user.png",
-          alt: "user"
-        });
+    },
+    methods: {
+        sendMessage(event, val) {
+            if (
+                (this.message !== undefined && this.message !== "") ||
+                val !== undefined
+            ) {
+                let message = this.message;
+                let dataIn = {
+                    message: this.message,
+                    botid: this.botId
+                };
+                if (val) {
+                    dataIn.message = val;
+                    message = val;
+                }
+                const headerAPI = {
+                    headers: {
+                        Accept: "application/json",
+                        "Content-Type": "application/json;charset=UTF-8"
+                    }
+                };
+                this.messages.push({
+                    message: message,
+                    author: "client",
+                    imgUrl: "./img/icons/user.png",
+                    alt: "user"
+                });
 
-        this.message = "";
+                this.message = "";
 
-        axios(data).then(response => {
-          let text = "";
-          let titles;
-          const data = JSON.parse(response.data);
-          // eslint-disable-next-line no-console
-          console.log(response.data);
-          data.forEach(elem => {
-            text += elem.text + " ";
-            if (elem.replies) {
-              titles = elem.replies;
+                axios.post("https://e4082a31.ngrok.io/WCAPI", headerAPI, dataIn).then(response => {
+                    let text = "";
+                    let titles;
+                    console.log(response);
+                    const data = JSON.parse(response.data);
+                    console.log(data)
+                    data.forEach(elem => {
+                        text += elem.text + " ";
+                        if (elem.replies) {
+                            titles = elem.replies;
+                        }
+                    });
+                    this.messages.push({
+                        message: text,
+                        author: "server",
+                        imgUrl: "./img/icons/bot1.png ",
+                        alt: "bot",
+                        addItem: titles
+                    });
+                });
             }
-          });
-          this.messages.push({
-            message: text,
-            author: "server",
-            imgUrl: "./img/icons/bot1.png ",
-            alt: "bot",
-            addItem: titles
-          });
-        });
-      }
-    }
-  },
-  watch: {
-    messages() {
-      this.$nextTick(() => {
-        this.$refs.chatbox.scrollTop = this.$refs.chatbox.scrollHeight;
-      });
-    }
-  },
-  template: `
+        }
+    },
+    watch: {
+        messages() {
+            this.$nextTick(() => {
+                this.$refs.chatbox.scrollTop = this.$refs.chatbox.scrollHeight;
+            });
+        }
+    },
+    template: `
      <div :class="{'is-visible': botShow}" class="fabs">
         <transition name="slide">
             <div
@@ -156,5 +152,5 @@ Vue.component("appBot", {
 });
 
 var bot = new Vue({
-  el: "#chatBot"
+    el: "#chatBot"
 });
