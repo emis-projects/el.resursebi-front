@@ -156,6 +156,9 @@ function natureGames(){
 
             } else if(loc == "/Nature-Lessons/The-living-world/games/N-1366-04-253.html" || loc == "/el.resursebi-front/Nature-Lessons/The-living-world/games/N-1366-04-253.html"){
                 location.href = "N-1366-04-253-success.html"
+
+            } else if(loc == "/Nature-Lessons/Where-sun-goes/games/N-1366-05-22.html" || loc == "/el.resursebi-front/Nature-Lessons/Where-sun-goes/games/N-1366-05-22.html"){
+                location.href = "N-1366-05-22-success.html"
             }
             
 

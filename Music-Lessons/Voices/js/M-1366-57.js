@@ -30,8 +30,6 @@ function handleLoadstop(event) {
        }
 
        this.clickElement = (e) => {
-           // console.log(e.target.classList.contains('selected'))
-           // let existSelect = e.target.classList.contains('selected');
            soundBtn.forEach(element => {
                $(element).removeClass('selected');
                $(element).removeClass('error');
@@ -46,7 +44,6 @@ function handleLoadstop(event) {
                handleLoadstop()
                $(element).removeClass('selected');
                $(element).removeClass('error');
-               //$(element).removeClass('success');
            });
            
        }
@@ -58,7 +55,6 @@ function handleLoadstop(event) {
            completedBtn.disabled = true
            handleLoadstop()
            soundBtn.forEach(element => {
-               console.log(element.classList)
                var sel = element.className.includes('selected');
                var cor = element.className.includes('correct1');
                if(sel && cor){
@@ -72,7 +68,21 @@ function handleLoadstop(event) {
       
       
        this.successPage = () => {
-           location.href = 'success.html';
+        let loc = location.pathname;
+
+        if(loc == "/Music-Lessons/Voices/Games/M-1366-57.html" || loc == "/el.resursebi-front/Music-Lessons/Voices/Games/M-1366-57.html"){
+            location.href = "M-1366-57-success.html"
+            
+        } else if(loc == "/Music-Lessons/Voices/Games/M-1366-57-2.html" || loc == "/el.resursebi-front/Music-Lessons/Voices/Games/M-1366-57-2.html"){
+            location.href = "M-1366-57-2-success.html"
+
+        } else if(loc == "/Music-Lessons/Voices/Games/M-1366-57-3.html" || loc == "/el.resursebi-front/Music-Lessons/Voices/Games/M-1366-57-3.html"){
+            location.href = "M-1366-57-3-success.html"
+
+        } else if(loc == "/Music-Lessons/Voices/Games/M-1366-57-4.html" || loc == "/el.resursebi-front/Music-Lessons/Voices/Games/M-1366-57-4.html"){
+            location.href = "M-1366-57-4-success.html"
+
+        }
        }
       
       

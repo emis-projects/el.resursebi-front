@@ -42,19 +42,34 @@
                 <div class="col-12">
                     <p>მოდი,მანქანების სურათების მაგივრად ჩვენ გამოვიყენოთ სხვა ნიშნები. მაგალითად, ეს:</p>
                 </div>
-                <div class="col-4">
-                    <img src="../../../img/gakvetilebi/musika/music-voice-code-1.png" alt="" class="music_img-button">
-                    <img src="../../../img/gakvetilebi/musika/music-voice-code-2.png" alt="" class="music_img-button">
-                    <img src="../../../img/gakvetilebi/musika/music-voice-code-3.png" alt="" class="music_img-button">
-             </div>
+                
+
+                <div class="col-6">
+                    <div class="flex" style="margin-bottom: 25px; margin-top: 25px">
+                        <img class="firstPeace_sound music_img-button correct1" data-voice="../game-voices/m-1366-57-1.wav" style="margin-right: 60px" src="../../../img/gakvetilebi/musika/M-1366-58-1-1.svg" alt="">
+                        <img class="secondPeace_sound music_img-button" data-voice="../game-voices/m-1366-57-2.wav" src="../../../img/gakvetilebi/musika/M-1366-58-1-2.svg" alt="">
+                    </div>
+                    
+                    <div class="flex" style="margin-bottom: 25px">
+                        <img class="firstPeace_sound music_img-button" data-voice="../game-voices/m-1366-57-3.wav" style="margin-right: 60px" src="../../../img/gakvetilebi/musika/M-1366-58-2-1.svg" alt="">
+                        <img class="secondPeace_sound music_img-button" data-voice="../game-voices/m-1366-57-4.wav" src="../../../img/gakvetilebi/musika/M-1366-58-2-2.svg" alt="">
+                    </div>
+
+                    <div class="flex" style="margin-bottom: 25px">
+                        <img class="firstPeace_sound music_img-button" data-voice="../game-voices/m-1366-57-5.wav" style="margin-right: 60px" src="../../../img/gakvetilebi/musika/M-1366-58-3-1.svg" alt="">
+                        <img class="secondPeace_sound music_img-button correct1" data-voice="../game-voices/m-1366-57-6.wav" src="../../../img/gakvetilebi/musika/M-1366-58--3-2.svg" alt="">
+                    </div>
+                </div>
+
+
                 <div class="col-12">
                     <p>დააწკაპე ყველა ამ ნიშანს, მოუსმინე თითოეულს და დაიმახსოვრე.</p>
                 </div>
                 <div class="col-9 mt-2">
                     <div class="row">
                         <div class="col-3">
-                            <div class="listen_text-container">
-                                <button class="listen_btn">მოუსმინე</button>
+                            <div class="listen_text-container music_img-button">
+                                    <button class="listen_btn" data-voice="../game-voices/M-1366-57-1.wav">მოუსმინე</button>
                             </div>
                         </div>
                         <div class="col-9 d-flex align-items-center">
@@ -62,14 +77,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="game_buuton_wrapper d-flex flex-column">
-                    <div class="listen_text-container">
-                        <button class="listen_btn btn-restart">თავიდან ცადე</button>
+
+                <div class="flex column z-index game_btns_position">
+                        <button id="resetBtn" class="reset__btn">თავიდან სცადე</button>
+                        <button id="completedGame" class="completed__btn">დასრულება</button>
                     </div>
-                    <div class="listen_text-container">
-                        <button class="listen_btn">დასრულება</button>
-                    </div>
-                </div>
+
+          
                 <div class="paging_buttons paging_buttons_position">
                     <a href="./M-1366-57-2.html">
                         <img src="../../../img/icons/chevron-down-logo.svg" alt="down arrow"
@@ -95,8 +109,13 @@
         <app-bot></app-bot>
     </div>
     
-    <script src="../../js/soundSwitch.js"></script>
-      <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
+
+    <script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
+    <script src="../../../js/libraries/sound.js"></script>
+    <script src="../js/M-1366-57.js"></script>
+
+
+  <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
   <script src="../../../Vue-Header/app.js"></script>
   <script src="../../../Vue-chatBot/botApp.js"></script>
   <script src="../../../js/bot.js"></script>
