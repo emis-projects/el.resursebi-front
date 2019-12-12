@@ -12,7 +12,7 @@ function Game() {
 
     Array.from(DeskParts).forEach(element => {
         element.ondragstart = event => {            
-            element.style.zIndex = 10000;
+            element.style.zIndex = 5;
         };
     });
 
