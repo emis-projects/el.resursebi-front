@@ -19,9 +19,9 @@
   <div class="container">
     <header id="app">
       <nav class="row">
-          <app-logo v-logo="'../../../'"></app-logo>
-          <app-menu v-menu:dark="'../../../'"></app-menu>
-          <sound-lang></sound-lang>
+        <app-logo v-logo="'../../../'"></app-logo>
+        <app-menu v-menu:dark="'../../../'"></app-menu>
+        <sound-lang></sound-lang>
       </nav>
     </header>
 
@@ -37,7 +37,48 @@
 
       </div>
     </section>
+    <div class="row">
+      <div class="col-11 offset-1 big-font-size-18px  N-1366-136-txt-container">
+        <p>
+          როგორ მიიზიდავს მაგნიტი რკინის ფხვნილს? აირჩიე შენი ვარაუდი:
+        </p>
+      </div>
+        <div class="col-9 d-flex offset-1 justify-content-between">
+          <div class=" flex-column  d-flex">
+            <div class="d-flex justify-content-start dot-select" data-index="1-1">
+              <span class="N-1366-136-magnit-dot"></span>
+              <p>ფხვნილი მიეწეპება</br> მაგნიტს სიგრძეზე</p>
+            </div>
+            <div class="N-1366-136-magnit-img-container-1">
+              <img src="../../../img/gakvetilebi/buneba/invisible_forces/N-1366-136-1-img.svg" alt="hand write" />
+            </div>
+          </div>
+          <div class="flex-column d-flex">
+            <div class="d-flex justify-content-start dot-select" data-index="1-1">
+              <span class="N-1366-136-magnit-dot"></span>
+              <p>ფხვნილი მიეწეპება </br>მაგნიტის ბოლოებში</p>
+            </div>
+            <div class="N-1366-136-magnit-img-container-2">
+              <img src="../../../img/gakvetilebi/buneba/invisible_forces/N-1366-136-2-img.svg" alt="hand write" />
+            </div>
+          </div>
+          <div class="flex-column d-flex">
+            <div class="d-flex  dot-select" data-index="1-1">
+              <span class="N-1366-136-magnit-dot"></span>
+              <p>ფხვნილი განლაგდება</br> უხილავი ძალების გასწვრივ </p>
+            </div>
+            <div class="N-1366-136-magnit-img-container-3">
+              <img src="../../../img/gakvetilebi/buneba/invisible_forces/N-1366-136-3-img.svg" alt="hand write" />
+            </div>
+          </div>
+        </div>
+      </div>
 
+      <div class="flex flex-end column align-items-end z-index reload_game_wrapper">
+          <button id="resetBtn" class="reset__btn">თავიდან სცადე</button>
+          <button id="completedGame" class="completed__btn">დასრულება</button>
+      </div>
+   
 
     <div class="paging_buttons paging_buttons_position">
       <a href="../N-1366-135.html">
