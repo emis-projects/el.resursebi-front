@@ -1,0 +1,30 @@
+#N-1366-129 {
+  .games-text {
+    margin-top: 6.5vh;
+
+    p {
+      font-family: 'BPG Arial', sans-serif;
+      font-size: 2.3vh;
+      &:last-child{
+       margin-top: 3.2vh;
+        margin-bottom: 10vh;
+      }
+    }
+  }
+  .img_box{
+    height: 29vh;
+    max-height: 223px;
+    img{
+      height: 100%;
+    }
+  }
+
+  .magnet {
+    margin-top: 2.3vh;
+    height: 11.8vh;
+    max-height: 91px;
+    img{
+      height: 100%;
+    }
+  }
+}
