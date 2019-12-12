@@ -1,0 +1,40 @@
+.n_magnet-game {
+    &-text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 2vh 0;
+    }
+
+    &-check_circle {
+        height: 3.5vh;
+        width: 3.5vh;
+        max-width: 24px;
+        max-height: 24px;
+        min-width: 3.5vh;
+        min-height: 3.5vh;
+        border: 1px solid #C5CBCD;
+        display: inline-block;
+        border-radius: 100%;
+        background-color: transparent;
+        cursor: pointer;
+        margin-right: 1.3vw;
+
+        &.error {
+            background: #DC6C85;
+        }
+
+        &.success {
+            background: #a1dd6f;
+        }
+
+        &.select {
+            background: #f8d24b;
+        }
+    }
+
+    &-img {
+        height: 4.77vh;
+        margin-bottom: 8vh;
+    }
+}
