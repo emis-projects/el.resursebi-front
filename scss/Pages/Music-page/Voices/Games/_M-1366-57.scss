@@ -38,6 +38,13 @@
 }
 .music_img-button{
     margin: 3vh 0;
-    // height: 6.25vh;
-    // width: 100%;
+      
+    &.selected {
+        outline: 2px solid #F8D24B;
+        outline-offset: -2px;
+    }
+    &.error {
+        outline: 2px solid #dc6c85;
+        outline-offset: -2px;
+    }
 }
