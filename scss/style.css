@@ -8813,14 +8813,14 @@ section .arrow_up_down_downArrow img {
 }
 #C-1366-51 .sys-block .ceise {
   position: relative;
-  width: 220px;
+  width: 210px;
   height: 180px;
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 #C-1366-51 .sys-block .ceise .ups {
-  height: 45px;
+  height: 42px;
   position: absolute;
   bottom: 19px;
   right: 37px;
@@ -8832,13 +8832,13 @@ section .arrow_up_down_downArrow img {
   right: 47px;
 }
 #C-1366-51 .sys-block .ceise .ram {
-  height: 109px;
+  height: 106px;
   position: absolute;
   bottom: 19px;
-  right: 115px;
+  right: 111px;
 }
 #C-1366-51 .sys-block .ceise .motherboard {
-  width: 76px;
+  height: 88px;
   position: absolute;
   bottom: 19px;
   left: 4px;
