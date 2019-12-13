@@ -6061,6 +6061,14 @@ section .arrow_up_down_downArrow img {
   background-position: center bottom;
 }
 
+.N-1366-73-img-container {
+  height: 61.97vh;
+}
+
+.N-1366-73-img-container img {
+  height: 100%;
+}
+
 .N-1366-94 {
   background-image: url("../img/gakvetilebi/buneba/invisible_forces/N2-366-94.png");
   background-position: center bottom;
@@ -6309,6 +6317,31 @@ section .arrow_up_down_downArrow img {
 .N-1366-148 {
   background-image: url("../img/gakvetilebi/buneba/invisible_forces/N2-366-148.png");
   background-position: center;
+}
+
+.magnets_pols {
+  margin-top: 4.8vh;
+  height: 52vh;
+  max-height: 400px;
+}
+
+.magnets_pols img {
+  height: 100%;
+}
+
+.ask {
+  font-family: 'BPG Arial', sans-serif;
+  font-size: 2.3vh;
+}
+
+.ask-question_left-text {
+  margin-top: 20vh;
+}
+
+.ask-questions_left-text {
+  margin-top: 7.4vh;
+  display: block;
+  color: #0B2228;
 }
 
 .N-1366-136-magnit-img-container-1 {
@@ -6875,6 +6908,11 @@ section .arrow_up_down_downArrow img {
 .nature-118-container img {
   height: 26.43vh;
   margin-bottom: 2vh;
+}
+
+.n_hint-magnet-img {
+  height: 22.65vh;
+  width: 100%;
 }
 
 .invisible_forces_text-container {
@@ -12914,4 +12952,3 @@ section .arrow_up_down_downArrow img {
   display: -ms-flexbox;
   display: flex;
 }
-/*# sourceMappingURL=style.css.map */
