@@ -12963,6 +12963,28 @@ section .arrow_up_down_downArrow img {
   bottom: -3vh;
 }
 
+#M-1366-05-2 .bottom_components {
+  margin-top: 27vh;
+}
+
+#M-1366-05-8 p {
+  font-family: 'BPG Arial', sans-serif;
+  font-size: 1.8vh;
+}
+
+#M-1366-05-8 p span {
+  color: #7FD1D8;
+  cursor: pointer;
+}
+
+#M-1366-05-8 p span:hover {
+  color: #7FD1D8;
+}
+
+#M-1366-05-8 p span:visited {
+  color: #7FD1D8;
+}
+
 .canvas-container {
   width: 100% !important;
 }
