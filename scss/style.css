@@ -9750,21 +9750,18 @@ section .arrow_up_down_downArrow img {
 #N-1366-05-35 .time-line .time-box {
   width: 95%;
 }
-
 #N-1366-05-35 .time-line .time-box .btn {
   color: #203649;
   border: 0;
 }
-
 #N-1366-05-35 .time-line .time-box .btn-time {
   padding: 4px;
   color: #fff;
   border-radius: 10px;
   background: #5ECAE5;
-  font-family: 'BPG Arial', sans-serif;
+  font-family: "BPG Arial", sans-serif;
   height: 4vh;
 }
-
 #N-1366-05-35 .time-line .arrow-box {
   height: 4vh;
   width: 100%;
@@ -11120,6 +11117,25 @@ section .arrow_up_down_downArrow img {
   line-height: 1.8;
   padding-left: 2vh;
   padding-top: 2vh;
+}
+
+#M-1366-05-2 .bottom_components {
+  margin-top: 27vh;
+}
+
+#M-1366-05-8 p {
+  font-family: "BPG Arial", sans-serif;
+  font-size: 1.8vh;
+}
+#M-1366-05-8 p span {
+  color: #7FD1D8;
+  cursor: pointer;
+}
+#M-1366-05-8 p span:hover {
+  color: #7FD1D8;
+}
+#M-1366-05-8 p span:visited {
+  color: #7FD1D8;
 }
 
 .canvas-container {
