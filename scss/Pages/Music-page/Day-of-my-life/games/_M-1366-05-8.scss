@@ -1,0 +1,19 @@
+#M-1366-05-8 {
+  p {
+    font-family: 'BPG Arial', sans-serif;
+    font-size: 1.8vh;
+
+    span {
+      color: #7FD1D8;
+      cursor: pointer;
+      &:hover {
+        color: #7FD1D8;
+      }
+
+      &:visited {
+        color: #7FD1D8;
+      }
+    }
+  }
+
+}
