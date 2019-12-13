@@ -9,7 +9,7 @@
     width: 58px;
     height: 58px;
     border-radius:50%;
-    box-shadow: 0px 3px 6px #00000029;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1607843137254902);
 
     &.error {
         background-color:#ff5252;

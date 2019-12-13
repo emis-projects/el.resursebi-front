@@ -13,19 +13,21 @@
     margin-top: 4.6vh;
     height: 8vh;
     max-height: 70px;
-    .time-box{
+    .time-box {
       width: 95%;
+
+      .btn {
+        color: #203649;
+        border: 0;
+      }
+
       .btn-time{
         padding: 4px;
+        color: #fff;
         border-radius: 10px;
         background: #5ECAE5;
         font-family: 'BPG Arial', sans-serif;
-        line-height: 1;
         height: 4vh;
-        &:hover{
-          line-height: 1;
-          border: 1px solid transparent;
-        }
       }
     }
     .arrow-box{

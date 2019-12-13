@@ -1,11 +1,20 @@
-.N-1366-79 {
-    background-image: url("../img/gakvetilebi/buneba/1366-79.png");
-}
 
-.bottom_nav_icons {
-    position: absolute;
-    bottom: 2.7vh;
-    height: 4.6vh;
-    left: 50%;
-    transform: translate(-50%);
+#N-1366-01-79{
+    .bottom_nav_icons {
+        position: absolute;
+        bottom: 2.7vh;
+        height: 4.6vh;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    .nature_full_image-box{
+        height: 100vh;
+    }
+    .img_box{
+        width: 38%;
+        height: 100%;
+        img{
+            height: 100%;
+        }
+    }
 }
