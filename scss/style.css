@@ -11418,18 +11418,18 @@ section .arrow_up_down_downArrow img {
   width: 95%;
 }
 
+#N-1366-05-35 .time-line .time-box .btn {
+  color: #203649;
+  border: 0;
+}
+
 #N-1366-05-35 .time-line .time-box .btn-time {
   padding: 4px;
+  color: #fff;
   border-radius: 10px;
   background: #5ECAE5;
   font-family: 'BPG Arial', sans-serif;
-  line-height: 1;
   height: 4vh;
-}
-
-#N-1366-05-35 .time-line .time-box .btn-time:hover {
-  line-height: 1;
-  border: 1px solid transparent;
 }
 
 #N-1366-05-35 .time-line .arrow-box {
