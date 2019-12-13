@@ -1,0 +1,19 @@
+.white_circle-large {
+    // &-cont{
+    //     position: relative;
+    // }
+    position: relative;
+    width: 18.85vh;
+    height: 18.85vh;
+
+    &-numb-img {
+        height: 9.46vh !important;
+    }
+
+    &-listen_button {
+        position: absolute;
+        height: 5.68vh;
+        right: 3vw;
+        bottom: -3vh
+    }
+}
