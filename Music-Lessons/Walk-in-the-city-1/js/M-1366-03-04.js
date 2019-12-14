@@ -80,7 +80,7 @@ function m136635(){
                 
                 this.answerArray.push(parseInt(w.getAttribute('data-index')))
                 e.target.classList.add('disabled');
-                e.target.setAttribute('style', "box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161)")
+                // e.target.setAttribute('style', "box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161)")
             }
         })
     })

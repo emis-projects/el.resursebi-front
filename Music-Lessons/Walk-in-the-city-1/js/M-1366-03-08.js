@@ -20,7 +20,7 @@ function M136622(){
 
 
     // variables
-    const elements = document.querySelectorAll('.music_play_box');
+    const elements = document.querySelectorAll('.game_white_circle');
     const dots = document.querySelectorAll('.voices__question__dot');
     const dot1 = document.querySelector('.dots1');
     const dot2 = document.querySelector('.dots2');
@@ -39,9 +39,9 @@ function M136622(){
 
     // voices
     var audioUrls = [
-        '../game-voices/M-1366-22-1.wav',
-        '../game-voices/M-1366-22-2.wav',
-        '../game-voices/M-1366-22-3.wav',
+        '../game-voices/1366-03-8-1.wav',
+        '../game-voices/1366-03-8-2.wav',
+        '../game-voices/1366-03-8-3.wav',
     ]
 
     var myArray = [];
