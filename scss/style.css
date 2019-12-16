@@ -13031,6 +13031,14 @@ section .arrow_up_down_downArrow img {
   background-color: #A1DD6F;
 }
 
+.m_hint-music-btn-10 {
+  margin: 4vh auto;
+}
+
+.m_hint-music-btn-10-green {
+  background: #7fd1d8;
+}
+
 .canvas-container {
   width: 100% !important;
 }
