@@ -13060,6 +13060,26 @@ section .arrow_up_down_downArrow img {
   padding-bottom: 3.64vh;
 }
 
+.M-1366-05-16-img-container {
+  height: 30.33vh;
+}
+
+.M-1366-05-16-img-container img {
+  height: 100%;
+}
+
+.M-1366-05-16-container-padding {
+  padding-bottom: 18.22vh;
+}
+
+.M-1366-05-17-img-container {
+  height: 44vh;
+}
+
+.M-1366-05-17-img-container img {
+  height: 44vh;
+}
+
 .musical_children-game {
   display: -webkit-box;
   display: -ms-flexbox;
