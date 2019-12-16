@@ -12990,6 +12990,30 @@ section .arrow_up_down_downArrow img {
   margin-top: 27vh;
 }
 
+.M-1366-05-12-img-container {
+  height: 45.7vh;
+}
+
+.M-1366-05-12-img-container img {
+  height: 100%;
+}
+
+.M-1366-05-12-padding-bottom {
+  padding-bottom: 3.25vh;
+}
+
+.M-1366-05-13-instruction-padding {
+  padding-bottom: 3.64vh;
+}
+
+.M-1366-05-14-img-container {
+  height: 39.84vh;
+}
+
+.M-1366-05-14-img-container img {
+  height: 100%;
+}
+
 .M-1366-05-3-img-div-size {
   height: 52.86vh;
   position: absolute;
@@ -13032,6 +13056,10 @@ section .arrow_up_down_downArrow img {
   color: #7FD1D8;
 }
 
+.M-1366-05-13-instruction-padding {
+  padding-bottom: 3.64vh;
+}
+
 .canvas-container {
   width: 100% !important;
 }
@@ -13048,3 +13076,4 @@ section .arrow_up_down_downArrow img {
   display: -ms-flexbox;
   display: flex;
 }
+/*# sourceMappingURL=style.css.map */
