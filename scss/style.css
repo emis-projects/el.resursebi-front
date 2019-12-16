@@ -13060,6 +13060,29 @@ section .arrow_up_down_downArrow img {
   padding-bottom: 3.64vh;
 }
 
+.musical_children-game {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 6vh;
+}
+
+.musical_children-game-img {
+  height: 18.81vh;
+  margin: 2vh auto;
+}
+
+.musical_children-game-white-circle {
+  margin: 0 1.5vh;
+}
+
+.musical_children-game-white-circle.success {
+  background-color: #A1DD6F;
+}
+
 .canvas-container {
   width: 100% !important;
 }
