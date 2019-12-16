@@ -1,0 +1,15 @@
+.musical_children-game{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6vh;
+    &-img{
+        height: 18.81vh;
+        margin: 2vh auto;
+    }
+    &-white-circle{
+        margin: 0 1.5vh;
+        &.success{
+            background-color: #A1DD6F;
+        }
+    }
+}
