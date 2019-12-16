@@ -1,0 +1,42 @@
+#M-1366-05-6 {
+  p {
+    font-family: 'BPG Arial', sans-serif;
+    font-size: 1.8vh;
+
+    a {
+      color: #7FD1D8;
+      cursor: pointer;
+
+      &:hover {
+        color: #7FD1D8;
+      }
+
+      &:visited {
+        color: #7FD1D8;
+      }
+    }
+  }
+
+  .img_box {
+    margin-top: 7.9vh;
+    height: 9.7vh;
+    max-height: 75px;
+
+    img {
+      height: 100%;
+    }
+  }
+}
+
+.play_wrapper-vertical {
+  height: 100%;
+
+  .play_boxes {
+    height: 7vh;
+    margin-bottom: 1.5vh;
+
+    img {
+      height: 100%;
+    }
+  }
+}
