@@ -11123,19 +11123,148 @@ section .arrow_up_down_downArrow img {
   margin-top: 27vh;
 }
 
+#M-1366-05-6 p {
+  font-family: "BPG Arial", sans-serif;
+  font-size: 1.8vh;
+}
+#M-1366-05-6 p a {
+  color: #7FD1D8;
+  cursor: pointer;
+}
+#M-1366-05-6 p a:hover {
+  color: #7FD1D8;
+}
+#M-1366-05-6 p a:visited {
+  color: #7FD1D8;
+}
+#M-1366-05-6 .img_box {
+  margin-top: 7.9vh;
+  height: 9.7vh;
+  max-height: 75px;
+}
+#M-1366-05-6 .img_box img {
+  height: 100%;
+}
+
+.play_wrapper-vertical {
+  height: 100%;
+}
+.play_wrapper-vertical .play_boxes {
+  height: 7vh;
+  margin-bottom: 1.5vh;
+}
+.play_wrapper-vertical .play_boxes img {
+  height: 100%;
+}
+
 #M-1366-05-8 p {
   font-family: "BPG Arial", sans-serif;
   font-size: 1.8vh;
 }
-#M-1366-05-8 p span {
+#M-1366-05-8 p a {
   color: #7FD1D8;
   cursor: pointer;
 }
-#M-1366-05-8 p span:hover {
+#M-1366-05-8 p a:hover {
   color: #7FD1D8;
 }
-#M-1366-05-8 p span:visited {
+#M-1366-05-8 p a:visited {
   color: #7FD1D8;
+}
+#M-1366-05-8 .img_box {
+  margin-top: 7.9vh;
+  height: 9.7vh;
+  max-height: 75px;
+}
+#M-1366-05-8 .img_box img {
+  height: 100%;
+}
+#M-1366-05-8 .play_wrapper {
+  height: 7.8vh;
+}
+#M-1366-05-8 .play_boxes {
+  height: 80%;
+}
+#M-1366-05-8 .play_boxes img {
+  height: 100%;
+}
+
+table {
+  margin-top: 2vh;
+  border-collapse: collapse;
+  border-radius: 10px;
+  border-style: hidden;
+  /* hide standard table (collapsed) border */
+  box-shadow: 0 0 0 2px #7fd1d8;
+  /* this draws the table border  */
+}
+
+td {
+  height: 7.8vh;
+  width: 7.8vh;
+  border: 2px solid #7fd1d8;
+  position: relative;
+}
+td img {
+  height: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#M-1366-05-20 p {
+  font-family: "BPG Arial", sans-serif;
+  font-size: 2vh;
+}
+#M-1366-05-20 p a {
+  color: #7FD1D8;
+  cursor: pointer;
+}
+#M-1366-05-20 p a:hover {
+  color: #7FD1D8;
+}
+#M-1366-05-20 p a:visited {
+  color: #7FD1D8;
+}
+#M-1366-05-20 .images_boxes {
+  height: 14.7vh;
+  max-height: 115px;
+}
+#M-1366-05-20 .images_boxes img {
+  height: 100%;
+}
+#M-1366-05-20 table {
+  margin-top: 2.1vh;
+  width: 100%;
+  height: 29vh;
+  box-shadow: 0 0 0 5px #7fd1d8;
+  /* this draws the table border  */
+}
+#M-1366-05-20 table td {
+  border: 5px solid #7fd1d8;
+}
+#M-1366-05-20 table td img {
+  height: 3.8vh;
+}
+#M-1366-05-20 table td .inner_box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2.5vh;
+}
+#M-1366-05-20 table td .inner_box-img {
+  height: 100%;
+}
+#M-1366-05-20 table td .inner_box-img img {
+  height: 80%;
+}
+#M-1366-05-20 .cell-title {
+  margin-top: 0;
+}
+#M-1366-05-20 .cell-footer {
+  margin-top: 2vh;
 }
 
 .canvas-container {
