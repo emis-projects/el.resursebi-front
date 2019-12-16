@@ -3,9 +3,10 @@
     font-family: 'BPG Arial', sans-serif;
     font-size: 1.8vh;
 
-    span {
+    a {
       color: #7FD1D8;
       cursor: pointer;
+
       &:hover {
         color: #7FD1D8;
       }
@@ -16,4 +17,49 @@
     }
   }
 
+  .img_box {
+    margin-top: 7.9vh;
+    height: 9.7vh;
+    max-height: 75px;
+
+    img {
+      height: 100%;
+    }
+  }
+
+
+  .play_wrapper {
+    height: 7.8vh;
+  }
+
+  .play_boxes {
+    height: 80%;
+
+    img {
+      height: 100%;
+    }
+  }
+}
+
+table {
+  margin-top: 2vh;
+  border-collapse: collapse;
+  border-radius: 10px;
+  border-style: hidden; /* hide standard table (collapsed) border */
+  box-shadow: 0 0 0 2px rgb(127, 209, 216); /* this draws the table border  */
+}
+
+td {
+  height: 7.8vh;
+  width: 7.8vh;
+  border: 2px solid rgb(127, 209, 216);
+  position: relative;
+
+  img {
+    height: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 }

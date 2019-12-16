@@ -88,6 +88,7 @@ function m136630(){
         let items = parent.parentElement.parentElement.querySelectorAll('.custom_radioButton_container')
 
         $(items).removeClass('active')
+        $(items).children().removeAttr('style')
         $(items).removeClass('correct')
         $(items).removeClass('error')
     }
@@ -152,7 +153,6 @@ function m136630(){
     })
 
 
-
     dot4.querySelectorAll('.custom_radioButton_container').forEach(w => {
         w.addEventListener('click', e => {
             this.userAnswerArray4 = [];
@@ -161,7 +161,7 @@ function m136630(){
             w.classList.add('active');
 
             if(w.getAttribute('data-answer') == "correct"){
-                w.classList.add('correct')
+                w.classList.add('correct');
             }
 
 
@@ -195,7 +195,14 @@ function m136630(){
         })
         
         if(this.userAnswer1 == div1 && this.userAnswer2 == div2 && this.userAnswer3 == div3 && this.userAnswer4 == div4){
-            location.href = 'M-1366-30-success.html'
+            let loc = location.pathname;
+
+            if(loc == "/Music-Lessons/Walk-in-the-city-1/games/M-1366-03-57.html" || loc == "/el.resursebi-front/Music-Lessons/Walk-in-the-city-1/games/M-1366-03-57.html"){
+                location.href = "M-1366-03-57-success.html"
+                
+            } else if(loc == "/Music-Lessons/Voices/Games/M-1366-30.html" || loc == "/el.resursebi-front/Music-Lessons/Voices/Games/M-1366-30.html"){
+                location.href = "M-1366-30-success.html"
+            }
         }
     }
 }
