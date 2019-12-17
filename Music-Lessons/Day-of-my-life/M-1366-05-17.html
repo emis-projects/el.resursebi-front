@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" data-botid="2292">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" type="text/css" href="../../scss/libraries/owl.carousel.min.css" />
+  <link rel="stylesheet" type="text/css" href="../../scss/libraries/owl.theme.default.css" />
+  <link rel="stylesheet" href="../../scss/libraries/bootstrap.min.css" />
+  <link rel="stylesheet" href="../../scss/style.css" />
+  <!-- ყველა გვერდზე -->
+  <script src="../../js/vue.js"></script>
+  <!--  ვუე გაშვებისას
+  <script src="./js/vue.min.js"></script>
+   -->
+  <title>მუსიკა</title>
+</head>
+
+<body class="bg-pink">
+  <div class="container">
+    <header id="app">
+      <nav class="row">
+        <app-logo v-logo="'../../'"></app-logo>
+        <app-menu v-menu:dark="'../../'"></app-menu>
+        <sound-lang></sound-lang>
+      </nav>
+    </header>
+    <div class="subject_component_top_illustration">
+      <div class="bg_pink_up illustration_bg"></div>
+    </div>
+    <section class="container">
+      <div class="subject_component row">
+        <div class="col-12 item_flex">
+          <div class="subject_component_itle_icon bg_bouble_pink d-flex justify-content-center align-items-center">
+            <img src="../../img/backgrounds/bg-ilustrations/flag.svg" alt="flag" />
+          </div>
+          <h3 class="subject_component_title">შუალედური დავალება</h3>
+        </div>
+      </div>
+    
+      <div class="row">
+        <div class="col-11 offset-1 ">
+          <div class="big-font-size-18px  m-1366-03-12-padding">
+            <p>
+              წარმოიდგინე, რომ მთელი დღე წინ გაქვს. ეს დღე განსაკუთრებულია, რადგან შენ თავად უნდა</br> აირჩიო, რით დაკავდები. ერთი შეხედვით მარტივია, იმას გააკეთებ, რაც გახალისებს. მოდი, </br>გავარკვიოთ, რა საქმიანობა იქნებოდა შენთვის სახალისო და რა - მოსაწყენი.</p></br></br>
+            </br>
+          </div>
+        </div>
+        <div class="M-1366-05-17-img-container m-auto">
+          <img src="../../img/gakvetilebi/musika/Day-of-my-life/M-1366-05-17-img.svg" alt="">
+        </div>
+      </div>
+
+
+
+      <div class="paging_buttons paging_buttons_position">
+        <a href="./M-1366-05-16.html">
+          <img src="../../img/icons/chevron-down-logo.svg" alt="down arrow" class="paging_buttons_left" />
+        </a>
+        <a href="./games/M-1366-05-18.html" class="paging_buttons_margin-left">
+          <img src="../../img/icons/chevron-down-logo.svg" alt="down arrow" class="paging_buttons_right" />
+        </a>
+      </div>
+    </section>
+    <div class="subject_component_botton_illustration">
+      <div class="illustration_bg bg_pink_Down"></div>
+      <div class="subject_component_botton_bg_icon">
+        <img src="../../img/backgrounds/bg-ilustrations/flag.svg" alt="flag art" />
+      </div>
+    </div>
+  </div>
+  <div id="chatBot">
+    <app-bot></app-bot>
+  </div>
+
+  <script src="../../js/libraries/jquery-3.4.1.min.js"></script>
+  <script src="../../js/libraries/owl.carousel.min.js"></script>
+  <script src="../../js/libraries/bootstrap.min.js"></script>
+  <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
+  <script src="../../Vue-Header/app.js"></script>
+  <script src="../../Vue-chatBot/test.js"></script>
+  <script src="../../js/bot.js"></script>
+
+</body>
+
+</html>
