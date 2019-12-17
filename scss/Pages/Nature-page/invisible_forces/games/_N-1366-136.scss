@@ -1,42 +1,55 @@
-.N-1366-136-magnit-img-container-1{
-    height:16.66vh;
-    margin:5.83vh auto;
-    img{
-        height:100%;
-    }
+.N-1366-136-magnit-img-container-1 {
+	height: 16.66vh;
+	margin: 5.83vh auto;
+	img {
+		height: 100%;
+	}
 }
 
-.N-1366-136-magnit-img-container-2{
-    height:14.71vh;
-    margin:5.83vh auto;
-    img{
-        height:100%;
-    }
+.N-1366-136-magnit-img-container-2 {
+	height: 14.71vh;
+	margin: 5.83vh auto;
+	img {
+		height: 100%;
+	}
 }
-.N-1366-136-magnit-img-container-3{
-    height:16.79vh;
-    margin:2.7vh auto;
-    img{
-        height:100%;
-    }
+.N-1366-136-magnit-img-container-3 {
+	height: 16.79vh;
+	margin: 2.7vh auto;
+	img {
+		height: 100%;
+	}
 }
-.N-1366-136-magnit-dot{
-height: 3.5vh;
-width: 3.5vh;
-max-width: 24px;
-max-height: 24px;
-border: 1px solid #C5CBCD;
--webkit-transform: scale(2%);
-transform: scale(2%);
-display: inline-block;
-border-radius: 100%;
-background-color: transparent;
-cursor: pointer;
-position: relative;
-margin-right: 1.3vw;
+.N-1366-136-magnit-dot {
+	height: 3.5vh;
+	width: 3.5vh;
+	max-width: 24px;
+	max-height: 24px;
+	border: 1px solid #c5cbcd;
+	transform: scale(2%);
+	display: inline-block;
+	border-radius: 100%;
+	background-color: transparent;
+	cursor: pointer;
+	position: relative;
+	margin-right: 1.3vw;
 }
 
-.N-1366-136-txt-container{
-    margin-top:6.41vh;
-    margin-bottom:11.56vh;
+.N-1366-136-txt-container {
+	margin-top: 6.41vh;
+	margin-bottom: 11.56vh;
+}
+
+#N-1366-136 {
+	.dot-select {
+		.error {
+			background-color: #dc6c85;
+		}
+		.success {
+			background-color: #a1dd6f;
+		}
+		.selected {
+			background-color: #f8d24b;
+		}
+	}
 }
