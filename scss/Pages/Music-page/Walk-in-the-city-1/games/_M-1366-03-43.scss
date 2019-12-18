@@ -10,4 +10,23 @@
     .dots {
         margin-top: 0;
     }
+
+    .checkmark.selected {
+        background: #f7d24b;
+        border: 1px solid #f7d24b;
+    }
+
+    .checkmark.correct {
+        background: #a2dd6f;
+        border: 1px solid #a2dd6f;
+    }
+
+    .checkmark.error {
+        background: #dc6c85;
+        border: 1px solid #dc6c85;
+
+        &::after {
+            display: none;
+        }
+    }
 }

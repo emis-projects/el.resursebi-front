@@ -111,6 +111,8 @@ function m136630(){
 
             if(w.getAttribute('data-answer') == "correct"){
                 w.classList.add('correct')
+                w.setAttribute('style', 'background: transparent')
+                w.setAttribute('style', 'border: 0')
             }
 
             this.userAnswer1 = e.target.parentElement.getAttribute('data-index');
@@ -127,6 +129,8 @@ function m136630(){
 
             if(w.getAttribute('data-answer') == "correct"){
                 w.classList.add('correct')
+                w.setAttribute('style', 'background: transparent')
+                w.setAttribute('style', 'border: 0')
             }
 
             this.userAnswer2 = e.target.parentElement.getAttribute('data-index');
@@ -145,6 +149,8 @@ function m136630(){
 
             if(w.getAttribute('data-answer') == "correct"){
                 w.classList.add('correct')
+                w.setAttribute('style', 'background: transparent')
+                w.setAttribute('style', 'border: 0')
             }
 
             this.userAnswer3 = e.target.parentElement.getAttribute('data-index');
@@ -162,6 +168,8 @@ function m136630(){
 
             if(w.getAttribute('data-answer') == "correct"){
                 w.classList.add('correct');
+                w.setAttribute('style', 'background: transparent')
+                w.setAttribute('style', 'border: 0')
             }
 
 
@@ -193,6 +201,8 @@ function m136630(){
             w.classList.remove('active')
             w.classList.add('error')
         })
+
+        $('.custom_radioButton_container.correct .checkmark').attr('style', 'background: #a2dd6f; border: 1px solid #a2dd6f');
         
         if(this.userAnswer1 == div1 && this.userAnswer2 == div2 && this.userAnswer3 == div3 && this.userAnswer4 == div4){
             let loc = location.pathname;

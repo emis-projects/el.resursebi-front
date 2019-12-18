@@ -1,4 +1,4 @@
-function m136635(){
+function m13660304(){
     this.answerArray = [];
     this.index = 0;
     this.error = true;
@@ -51,7 +51,7 @@ function m136635(){
         createjs.Sound.stop("sound");
         
         $('.person_game_container').removeClass('itisnotcorrect')
-        $('.person_game_container').removeClass('disabled')
+        $('.car_game_white_circle').removeClass('disabled')
         $('.person_game_container').removeClass('error')
         $('.carImgNumber').remove()
 	}
@@ -80,7 +80,6 @@ function m136635(){
                 
                 this.answerArray.push(parseInt(w.getAttribute('data-index')))
                 e.target.classList.add('disabled');
-                // e.target.setAttribute('style', "box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161)")
             }
         })
     })
@@ -109,7 +108,17 @@ function m136635(){
 				this.error = true;
                 this.checkIfIsError()
             } else {
-                location.href = "M-1366-35-success.html"
+                let loc = location.pathname;
+                if(loc == "/Music-Lessons/Walk-in-the-city-1/games/M-1366-03-4.html" || loc == 'el.resursebi-front/Music-Lessons/Walk-in-the-city-1/games/M-1366-03-4.html') {
+                    location.href = 'M-1366-03-4-success.html'
+                    
+                } else if (loc == "/Music-Lessons/Walk-in-the-city-1/games/M-1366-03-17.html" || loc == 'el.resursebi-front/Music-Lessons/Walk-in-the-city-1/games/M-1366-03-17.html') {
+                    location.href = 'M-1366-03-17-success.html'
+
+                } else if (loc == "/Music-Lessons/Walk-in-the-city-1/games/M-1366-03-36.html" || loc == 'el.resursebi-front/Music-Lessons/Walk-in-the-city-1/games/M-1366-03-36.html') {
+                    location.href = 'M-1366-03-36-success.html'
+                }
+
             }
             
         } else {
@@ -119,4 +128,4 @@ function m136635(){
 }
 
 
-const m136635game = new m136635()
+const m13660304game = new m13660304()

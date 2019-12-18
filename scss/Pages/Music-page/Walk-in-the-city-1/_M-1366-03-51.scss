@@ -2,3 +2,23 @@
   margin-top: 3vh;
   height: 55vh;
 }
+
+.M-1366-03-53 {
+  .custom_radioButton_container{
+    &.correct {
+      background: #a2dd6f;
+      border: 1px solid #a2dd6f;
+    }
+
+    &.active {
+      .checkmark {
+        background: #f7d24b;
+        border: 1px solid #f7d24b;
+      }
+    }
+
+    .checkmark::after {
+      display: none;
+    }
+  }
+}

@@ -101,11 +101,13 @@ function m136630(){
        w.addEventListener('click', e => {
            this.userAnswerArray1 = [];
            this.removeDots(e.target);
-           w.classList.remove('correct');
            w.classList.add('active');
 
-           if(w.getAttribute('data-answer') == "correct"){
+           if(w.getAttribute('data-answer') == "correct" ){
                w.classList.add('correct')
+               w.setAttribute('style', 'background: transparent')
+               w.setAttribute('style', 'border: 0')
+               w.classList.add('active')
            }
 
            this.userAnswer1 = e.target.parentElement.getAttribute('data-index');
@@ -122,7 +124,10 @@ function m136630(){
            w.classList.add('active');
 
            if(w.getAttribute('data-answer') == "correct"){
-               w.classList.add('correct')
+                w.classList.add('correct')
+                w.setAttribute('style', 'background: transparent')
+                w.setAttribute('style', 'border: 0')
+                w.classList.add('active')
            }
 
            this.userAnswer2 = e.target.parentElement.getAttribute('data-index');
@@ -140,7 +145,10 @@ function m136630(){
            w.classList.add('active');
 
            if(w.getAttribute('data-answer') == "correct"){
-               w.classList.add('correct')
+                w.classList.add('correct')
+                w.setAttribute('style', 'background: transparent')
+                w.setAttribute('style', 'border: 0')
+                w.classList.add('active')
            }
 
            this.userAnswer3 = e.target.parentElement.getAttribute('data-index');
@@ -168,6 +176,8 @@ function m136630(){
            w.classList.add('error')
        })
        
+       $('.custom_radioButton_container.correct .checkmark').attr('style', 'background: #a2dd6f; border: 1px solid #a2dd6f');
+
        if(this.userAnswer1 == div1 && this.userAnswer2 == div2 && this.userAnswer3 == div3){
            location.href = 'M-1366-03-53-success.html'
        }

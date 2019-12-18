@@ -19,13 +19,21 @@
 //     }
 //   }
 // }
+
 .person_game{
     &_container{
     display: flex;
     justify-content: center;
     align-items: flex-end;
     height: 100%;
+
+    &.error {
+      .car_game_white_circle {
+        background: #dc6c85;
+      }
+    }
 }
+
 &_img {
         &-girl {
           height: 35.93vh;
