@@ -1,7 +1,9 @@
 .game-number-container {
     background-color: #fff;
-    height: 58px;
-    width: 58px;
+    max-height: 58px;
+    max-width: 58px;
+    height: 10vh;
+    width: 10vh;
     border-radius: 50%;
     position: absolute;
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1607843137254902);
@@ -14,6 +16,8 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+        height: 6vh!important;
+        max-height: 36px!important;
     }
 }
 .margin-left-20px {
@@ -22,6 +26,14 @@
 
 .voice__question__element {
     position: relative;
+
+    img{
+        max-width: 168px;
+        max-height: 168px;
+        height: 27vh;
+        width: 30vh;
+        border-radius: 50%;
+    }
 
     &::after {
         content: '';
