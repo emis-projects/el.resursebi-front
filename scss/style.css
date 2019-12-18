@@ -5155,7 +5155,7 @@ section .arrow_up_down_downArrow img {
   background: #f7d24b;
 }
 
-#M-01-30 .car_game_container::after, #M-01-38 .car_game_container::after {
+#M-01-30 .car_game_container::after, #M-01-38 .car_game_container::after, #M-03-53 .car_game_container::after, #M-03-57 .car_game_container::after {
   height: auto;
 }
 
@@ -5343,11 +5343,11 @@ section .arrow_up_down_downArrow img {
 }
 
 .trumpet_game__round_col {
-  height: 16.27vh;
+  height: 24vh;
 }
 
 .trumpet_game__round_col img {
-  height: 16.27vh;
+  height: 24vh;
 }
 
 .music_m-1366-50_item {
@@ -5494,7 +5494,7 @@ section .arrow_up_down_downArrow img {
   background: #f7d24b;
 }
 
-#M-01-30 .car_game_container::after, #M-01-38 .car_game_container::after {
+#M-01-30 .car_game_container::after, #M-01-38 .car_game_container::after, #M-03-53 .car_game_container::after, #M-03-57 .car_game_container::after {
   height: auto;
 }
 
