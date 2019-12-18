@@ -24,7 +24,7 @@
   }
   &_container {
     position: relative;
-    height: 21.87vh;
+    // height: 21.87vh;
 
     &.trumpet_game__round_col {
       .car_game_white_circle {
@@ -34,7 +34,7 @@
     }
 
     &::after {
-      content: '';
+      content: "";
       position: absolute;
       top: 0;
       right: 0;
@@ -51,7 +51,11 @@
   }
   &_img {
     img {
-      height: 21.87vh;
+      // height: 21.87vh;
+      height: 24vh;
+      border-radius: 50%;
+      width: 25vh;
+      object-fit: cover;
     }
   }
   &_white_circle {
@@ -69,8 +73,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    img{
-        height: 4.03vh;
+    img {
+      height: 4.03vh;
     }
   }
 }
@@ -86,4 +90,10 @@
 
 .car_game_white_circle.selected {
   background: #f7d24b;
+}
+
+#M-01-30, #M-01-38, #M-03-53, #M-03-57 {
+  .car_game_container::after {
+    height: auto;
+  }
 }
