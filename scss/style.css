@@ -6433,15 +6433,15 @@ section .arrow_up_down_downArrow img {
   margin-bottom: 11.56vh;
 }
 
-#N-1366-136 .dot-select .error {
+.dot-select .error {
   background-color: #dc6c85;
 }
 
-#N-1366-136 .dot-select .success {
+.dot-select .success {
   background-color: #a1dd6f;
 }
 
-#N-1366-136 .dot-select .selected {
+.dot-select .selected {
   background-color: #f8d24b;
 }
 
@@ -13012,12 +13012,29 @@ section .arrow_up_down_downArrow img {
   border-radius: 27px;
   width: 21vw;
   height: 21vh;
+  cursor: pointer;
 }
 
 .n2-146-text-container p {
   line-height: 1.8;
   padding-left: 2vh;
   padding-top: 2vh;
+}
+
+.selected {
+  background-color: rgba(248, 210, 75, 0.5);
+}
+
+.error {
+  background-color: #dc6c85;
+}
+
+.success {
+  background-color: #a1dd6f;
+}
+
+.selected {
+  background-color: #f8d24b;
 }
 
 .white_circle-large {
