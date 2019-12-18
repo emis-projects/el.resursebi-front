@@ -4695,8 +4695,10 @@ section .arrow_up_down_downArrow img {
 
 .game-number-container {
   background-color: #fff;
-  height: 58px;
-  width: 58px;
+  max-height: 58px;
+  max-width: 58px;
+  height: 10vh;
+  width: 10vh;
   border-radius: 50%;
   position: absolute;
   -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.160784);
@@ -4713,6 +4715,8 @@ section .arrow_up_down_downArrow img {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+  height: 6vh !important;
+  max-height: 36px !important;
 }
 
 .margin-left-20px {
@@ -4721,6 +4725,14 @@ section .arrow_up_down_downArrow img {
 
 .voice__question__element {
   position: relative;
+}
+
+.voice__question__element img {
+  max-width: 168px;
+  max-height: 168px;
+  height: 27vh;
+  width: 30vh;
+  border-radius: 50%;
 }
 
 .voice__question__element::after {
@@ -5070,7 +5082,6 @@ section .arrow_up_down_downArrow img {
 
 .car_game_container {
   position: relative;
-  height: 21.87vh;
 }
 
 .car_game_container.trumpet_game__round_col .car_game_white_circle {
@@ -5079,7 +5090,7 @@ section .arrow_up_down_downArrow img {
 }
 
 .car_game_container::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   right: 0;
@@ -5093,7 +5104,11 @@ section .arrow_up_down_downArrow img {
 }
 
 .car_game_img img {
-  height: 21.87vh;
+  height: 24vh;
+  border-radius: 50%;
+  width: 25vh;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .car_game_white_circle {
@@ -5138,6 +5153,10 @@ section .arrow_up_down_downArrow img {
 
 .car_game_white_circle.selected {
   background: #f7d24b;
+}
+
+#M-01-30 .car_game_container::after, #M-01-38 .car_game_container::after, #M-03-53 .car_game_container::after, #M-03-57 .car_game_container::after {
+  height: auto;
 }
 
 .bg_bouble_blue {
@@ -5324,11 +5343,11 @@ section .arrow_up_down_downArrow img {
 }
 
 .trumpet_game__round_col {
-  height: 16.27vh;
+  height: 24vh;
 }
 
 .trumpet_game__round_col img {
-  height: 16.27vh;
+  height: 24vh;
 }
 
 .music_m-1366-50_item {
@@ -5402,7 +5421,6 @@ section .arrow_up_down_downArrow img {
 
 .car_game_container {
   position: relative;
-  height: 21.87vh;
 }
 
 .car_game_container.trumpet_game__round_col .car_game_white_circle {
@@ -5411,7 +5429,7 @@ section .arrow_up_down_downArrow img {
 }
 
 .car_game_container::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   right: 0;
@@ -5425,7 +5443,11 @@ section .arrow_up_down_downArrow img {
 }
 
 .car_game_img img {
-  height: 21.87vh;
+  height: 24vh;
+  border-radius: 50%;
+  width: 25vh;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .car_game_white_circle {
@@ -5470,6 +5492,10 @@ section .arrow_up_down_downArrow img {
 
 .car_game_white_circle.selected {
   background: #f7d24b;
+}
+
+#M-01-30 .car_game_container::after, #M-01-38 .car_game_container::after, #M-03-53 .car_game_container::after, #M-03-57 .car_game_container::after {
+  height: auto;
 }
 
 .car_game_img_numbers-container {
@@ -6407,15 +6433,16 @@ section .arrow_up_down_downArrow img {
   margin-bottom: 11.56vh;
 }
 
-#N-1366-136 .dot-select .error {
+
+.dot-select .error {
   background-color: #dc6c85;
 }
 
-#N-1366-136 .dot-select .success {
+.dot-select .success {
   background-color: #a1dd6f;
 }
 
-#N-1366-136 .dot-select .selected {
+.dot-select .selected {
   background-color: #f8d24b;
 }
 
@@ -13023,12 +13050,29 @@ section .arrow_up_down_downArrow img {
   border-radius: 27px;
   width: 21vw;
   height: 21vh;
+  cursor: pointer;
 }
 
 .n2-146-text-container p {
   line-height: 1.8;
   padding-left: 2vh;
   padding-top: 2vh;
+}
+
+.selected {
+  background-color: rgba(248, 210, 75, 0.5);
+}
+
+.error {
+  background-color: #dc6c85;
+}
+
+.success {
+  background-color: #a1dd6f;
+}
+
+.selected {
+  background-color: #f8d24b;
 }
 
 .white_circle-large {

@@ -44,7 +44,7 @@ $("#completedGame").click(function() {
   drop_boxes.forEach((elm, indx) => {
     //სისწორისას გადაითეს "სწორია" გვერდზე ან ჩასვას X სურათი და გავხადოთ უმოძრაო მაუსის მოჭიდებისას.
     if (elm.classList.contains("highlight") && indx === 0) {
-      window.location.href = "./N-1366-117-success.html";
+      window.location.href = "./N-1366-129-success.html";
       return;
     } else if (elm.classList.contains("highlight") && indx !== 0) {
       let img = document.createElement("img");
