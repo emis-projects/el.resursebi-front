@@ -6433,7 +6433,6 @@ section .arrow_up_down_downArrow img {
   margin-bottom: 11.56vh;
 }
 
-
 .dot-select .error {
   background-color: #dc6c85;
 }
@@ -7433,36 +7432,14 @@ section .arrow_up_down_downArrow img {
   margin-bottom: 3vh;
 }
 
-.correct::after {
-  content: "";
-  position: absolute;
-  display: block;
-  height: 2vh;
-  width: 2vh;
-  max-width: 22px;
-  max-height: 22px;
+#M-1366-03-22 .correct {
   background: #A1DD6F;
-  border-radius: 100%;
-  top: 50%;
-  left: 50%;
-  margin-top: -1vh;
-  margin-left: -1vh;
+  border: 1px solid #A1DD6F;
 }
 
-.false::after {
-  content: "";
-  position: absolute;
-  display: block;
-  height: 2vh;
-  width: 2vh;
-  max-width: 22px;
-  max-height: 22px;
+#M-1366-03-22 .error {
   background: #DC6C85;
-  border-radius: 100%;
-  top: 50%;
-  left: 50%;
-  margin-top: -1vh;
-  margin-left: -1vh;
+  border: 1px solid #DC6C85;
 }
 
 .music_image_boxes {
@@ -7504,6 +7481,16 @@ section .arrow_up_down_downArrow img {
 #M-1366-26 .game_btns_position {
   right: 21vh;
   bottom: 10vh;
+}
+
+#M-1366-26 .correct {
+  background: #A1DD6F;
+  border: 1px solid #A1DD6F;
+}
+
+#M-1366-26 .error {
+  background: #DC6C85;
+  border: 1px solid #DC6C85;
 }
 
 .m-1366-03-63-font {
@@ -7685,6 +7672,15 @@ section .arrow_up_down_downArrow img {
 
 #M-1366-03-8 .image_content_box .game_white_circle img {
   height: 70%;
+}
+
+#M-1366-03-8 .voices__question__dot::after {
+  display: none;
+}
+
+#M-1366-03-8 .voices__question__dot.active {
+  background: #f7d24b;
+  border: 1px solid #f7d24b;
 }
 
 .music_content-box_text-wrapper_big {

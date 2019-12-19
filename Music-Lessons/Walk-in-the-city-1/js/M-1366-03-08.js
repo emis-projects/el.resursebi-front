@@ -20,7 +20,7 @@ function M136622(){
 
 
     // variables
-    const elements = document.querySelectorAll('.game_white_circle');
+    const elements = document.querySelectorAll('.music_play_box');
     const dots = document.querySelectorAll('.voices__question__dot');
     const dot1 = document.querySelector('.dots1');
     const dot2 = document.querySelector('.dots2');
@@ -36,13 +36,6 @@ function M136622(){
     completeBtn.addEventListener('click', () => this.completGame());
     resetBtn.addEventListener('click', () => this.init());
 
-
-    // voices
-    var audioUrls = [
-        '../game-voices/1366-03-8-1.wav',
-        '../game-voices/1366-03-8-2.wav',
-        '../game-voices/1366-03-8-3.wav',
-    ]
 
     var myArray = [];
 
@@ -125,8 +118,7 @@ function M136622(){
             w.classList.remove('correct');
             w.classList.add('active');
 
-            if(w.parentElement.getAttribute('data-index') == "1-4"){
-                w.classList.remove('active')
+            if(w.parentElement.getAttribute('data-index') == "1-2"){
                 w.classList.add('correct')
             }
 
@@ -143,8 +135,7 @@ function M136622(){
             w.classList.remove('correct');
             w.classList.add('active');
 
-            if(w.parentElement.getAttribute('data-index') == "2-3"){
-                w.classList.remove('active')
+            if(w.parentElement.getAttribute('data-index') == "2-1"){
                 w.classList.add('correct')
             }
 
@@ -162,7 +153,6 @@ function M136622(){
             w.classList.add('active');
 
             if(w.parentElement.getAttribute('data-index') == "3-1"){
-                w.classList.remove('active');
                 w.classList.add('correct');
             }
 
@@ -187,9 +177,12 @@ function M136622(){
             w.classList.remove('active')
             w.classList.add('error')
         })
+
+
+        $('.voices__question__dot.correct').attr('style', 'background: #a2dd6f; border: 1px solid #a2dd6f');
         
         if(this.userAnswer1 == div1 && this.userAnswer2 == div2 && this.userAnswer3 == div3){
-            location.href = 'M-1366-22-success.html'
+            location.href = 'M-1366-03-8-success.html'
         }
 
     }

@@ -47,7 +47,7 @@ function m136643() {
 
         handleLoadstop()
         $(".checkmark").off()
-        $(this).attr("disabled", true)
+        // $(this).attr("disabled", true)
     })
 
 

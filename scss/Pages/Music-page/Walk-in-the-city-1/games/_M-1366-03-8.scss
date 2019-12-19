@@ -44,4 +44,15 @@
       }
     }
   }
+
+  .voices__question__dot {
+    &::after {
+      display: none;
+    }
+    
+    &.active {
+      background: #f7d24b;
+      border: 1px solid #f7d24b;
+    }
+  }
 }
