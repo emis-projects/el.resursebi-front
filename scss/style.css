@@ -13436,6 +13436,24 @@ td img {
   height: 100%;
 }
 
+.M-1366-06-02-img-container {
+  height: 43.65vh;
+  padding-top: 8.69vh;
+}
+
+.M-1366-06-02-img-container img {
+  height: 100%;
+}
+
+.M-1366-06-29-img-container {
+  height: 54.85vh;
+  margin-top: 9.61vh;
+}
+
+.M-1366-06-29-img-container img {
+  height: 100%;
+}
+
 .canvas-container {
   width: 100% !important;
 }
@@ -13452,3 +13470,4 @@ td img {
   display: -ms-flexbox;
   display: flex;
 }
+/*# sourceMappingURL=style.css.map */
