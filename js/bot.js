@@ -2,13 +2,32 @@ var loc = window.location
 var formData = $("#formData");
 var msgInput = $("#chatSend");
 let getTag = document.getElementById("chat_fullscreen");
+let botImg = null;
+
+
+
+// bot image 
+if($('html').attr('data-botid') == '2318'){
+    botImg = '../img/icons/xelovnebabot.png'
+
+} else if($('html').attr('data-botid') == '2320'){
+    botImg = '../img/icons/bunebabot.png'
+    
+} else if($('html').attr('data-botid') == '2292'){
+    botImg = '../img/icons/musikabot.png'
+
+} else if($('html').attr('data-botid') == '2343'){
+    botImg = '../img/icons/komp-mecnierebot.png'
+}
+
 
 
 // bot message UI
 function sendMessageFromBot(res) {
     let div = document.createElement('div');
     $(div).addClass('chat_msg_item chat_msg_item_admin');
-    $(div).append('<div class="chat_avatar"><img src="/img/icons/bot.png" alt="My image"></div>');
+
+    $(div).append(`<div class="chat_avatar"><img src='${botImg}' alt="My image"></div>`);
 
     let text = document.createElement('span');
     let img = document.createElement('img');
