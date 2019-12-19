@@ -16,7 +16,7 @@ if($('html').attr('data-botid') == '2318'){
 } else if($('html').attr('data-botid') == '2292'){
     botImg = '../img/icons/musikabot.png'
 
-} else if($('html').attr('data-botid') == '2343'){
+} else if($('html').attr('data-botid') == '2288'){
     botImg = '../img/icons/komp-mecnierebot.png'
 }
 
@@ -30,14 +30,14 @@ function sendMessageFromBot(res) {
     $(div).append(`<div class="chat_avatar"><img src='${botImg}' alt="My image"></div>`);
 
     let text = document.createElement('span');
+    let a = document.createElement('a');
     let img = document.createElement('img');
-    let btn = document.createElement('button');
 
     $(text).addClass('chat_msg_item-text');
     $(text).text('')
 
 
-    res.forEach(w => {
+    res.forEach(function(w){
         console.log(w);
 
         if (w.type == 0) {
@@ -45,11 +45,12 @@ function sendMessageFromBot(res) {
             $(div).append(text)
 
         } else if (w.type == 1) {
+            $(a).addClass('image-popup-no-margins')
+            $(a).attr('href', w.url)
             $(img).attr('src', w.url);
             $(img).attr('style', 'width: 100%');
-
-            $(div).append(img)
-
+            $(a).append(img)
+            $(div).append(a)
 
         } else if (w.type == 6) {
             $(text).append(" " + w.text);
@@ -71,6 +72,7 @@ function sendMessageFromBot(res) {
         }
         $(getTag).scrollTop($(getTag)[0].scrollHeight)
     })
+
 
     $(div).appendTo(getTag)
     $(getTag).scrollTop($(getTag)[0].scrollHeight)
@@ -125,6 +127,26 @@ $(document).on("click", ".chat_msg_item-buttons button", function (e) {
     sendMessageFromUser(btnText)
 
     $(getTag).scrollTop($(getTag)[0].scrollHeight)
+});
+
+
+$(document).on("click", ".image-popup-no-margins", function (e) {
+    e.preventDefault();
+    
+    $(this).magnificPopup({
+        type: 'image',
+        closeOnContentClick: true,
+        closeBtnInside: false,
+        fixedContentPos: true,
+        mainClass: 'mfp-no-margins mfp-with-zoom', // class to remove default margin from left and right side
+        image: {
+            verticalFit: true
+        },
+        zoom: {
+            enabled: true,
+            duration: 300 // don't foget to change the duration also in CSS
+        }
+    });
 });
 
 

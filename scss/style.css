@@ -1023,7 +1023,7 @@ header {
   margin: 0 auto;
   padding-top: 3.5vh;
   position: relative;
-  z-index: 9999999999;
+  z-index: 99999999;
   padding-bottom: 3.5vh;
 }
 
@@ -2344,43 +2344,6 @@ section .arrow_up_down_downArrow img {
   color: #c5cbcd;
 }
 
-/* .slider-animation {
-  stroke-dasharray: 100;
-  animation: dash 5s linear infinite;
-}
-@keyframes dash {
-  to {
-    stroke-dashoffset: 1000;
-  }
-}
-.bee-animation {
-  animation: circle 5s linear infinite;
-}
-@keyframes circle {
-  0% {
-    transform: rotate(0deg) translate(-15px) rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg) translate(-15px) rotate(-360deg);
-  }
-}
-@keyframes circle {
-  0% {
-    transform: translate(25px, 25px);
-  }
-  25% {
-    transform: translate(-25px, -25px);
-  }
-  50% {
-    transform: translate(-25px, 25px);
-  }
-  75% {
-    transform: translate(25px, -25px);
-  }
-  100% {
-    transform: translate(25px, 25px);
-  }
-} */
 .subject-text-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -13470,4 +13433,3 @@ td img {
   display: -ms-flexbox;
   display: flex;
 }
-/*# sourceMappingURL=style.css.map */
