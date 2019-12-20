@@ -51,8 +51,9 @@ function m13660304(){
         createjs.Sound.stop("sound");
         
         $('.person_game_container').removeClass('itisnotcorrect')
-        $('.car_game_white_circle').removeClass('disabled')
         $('.person_game_container').removeClass('error')
+        $('.car_game_white_circle').removeClass('disabled')
+        $('.car_game_white_circle').removeClass('error')
         $('.carImgNumber').remove()
 	}
 
@@ -89,10 +90,10 @@ function m13660304(){
     this.checkIfIsError = () => {
         document.querySelectorAll('.person_game_container').forEach(w => {            
             if(w.classList.contains('itisnotcorrect')){
-                w.classList.add('error')
+                w.querySelector('.car_game_white_circle').classList.add('error')
 
-            } else if(w.classList.contains('itisnotcorrect') == false && w.classList.contains('disabled') == false){
-                w.classList.add('error')
+            } else if(w.classList.contains('itisnotcorrect') == false){
+                w.querySelector('.car_game_white_circle').classList.add('error')
             }
         })
     }
