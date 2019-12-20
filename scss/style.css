@@ -11592,6 +11592,109 @@ td img {
   margin-top: 2.2vh;
 }
 
+#M-1366-06-7 .main_text {
+  margin-top: 5vh;
+  margin-bottom: 6.5vh;
+  font-size: 2vh;
+  font-family: "BPG Arial", sans-serif;
+}
+#M-1366-06-7 .play {
+  height: 5.2vh;
+  width: 5.2vh;
+}
+#M-1366-06-7 .day_wrapper {
+  height: 52vh;
+  max-height: 406px;
+}
+#M-1366-06-7 .day_wrapper .img_boxes {
+  height: inherit;
+  position: relative;
+}
+#M-1366-06-7 .day_wrapper .img_boxes .selector_box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 9.5vh;
+  background: #7FD1D8;
+}
+#M-1366-06-7 .day_wrapper .img_boxes .selector_box .selector {
+  height: 8vh;
+  width: 8vh;
+  background: #ffffff;
+  border-radius: 100%;
+}
+#M-1366-06-7 .day_wrapper .img_boxes .selector_box .selector img {
+  height: 5.2vh;
+  width: 5.2vh;
+}
+#M-1366-06-7 .day_wrapper .img_boxes img {
+  height: 100%;
+}
+
+#M-1366-06-30 .main_text {
+  margin-top: 5vh;
+  margin-bottom: 6.9vh;
+  font-size: 2.3vh;
+  font-family: "BPG Arial", sans-serif;
+}
+#M-1366-06-30 .day_box {
+  max-width: 628px;
+  width: 46.9vw;
+  position: relative;
+}
+#M-1366-06-30 .day_box img {
+  width: 100%;
+}
+#M-1366-06-30 .day_box .sound_boxes {
+  height: 4.6vh;
+  width: 4.6vh;
+  position: absolute;
+  bottom: -12px;
+  left: 45px;
+  border-radius: 100%;
+  background: #ffffff;
+}
+#M-1366-06-30 .day_box .sound_boxes:nth-child(2) {
+  left: 170px;
+}
+#M-1366-06-30 .day_box .sound_boxes:nth-child(3) {
+  left: 295px;
+}
+#M-1366-06-30 .day_box .sound_boxes:nth-child(4) {
+  left: 425px;
+}
+#M-1366-06-30 .day_box .sound_boxes:nth-child(5) {
+  left: 545px;
+}
+#M-1366-06-30 .day_box .sound_boxes img {
+  left: 80%;
+}
+#M-1366-06-30 .cell_box {
+  margin-top: 9.5vh;
+  margin-bottom: 5.2vh;
+}
+#M-1366-06-30 .cell_box table {
+  margin-top: 2vh;
+  border-collapse: collapse;
+  border-style: hidden;
+  /* hide standard table (collapsed) border */
+  box-shadow: 0 0 0 2px #7fd1d8;
+  /* this draws the table border  */
+}
+#M-1366-06-30 .cell_box td {
+  height: 12.6vh;
+  width: 16vh;
+  border: 2px solid #7fd1d8;
+  position: relative;
+}
+#M-1366-06-30 .cell_box td img {
+  height: 70%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .M-1366-04-33-lyrics-img-div {
   height: 9.89vh;
 }
