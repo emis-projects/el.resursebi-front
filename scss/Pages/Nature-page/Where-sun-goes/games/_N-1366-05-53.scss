@@ -31,12 +31,40 @@
 .n-1366-05-53-earth {
   position: absolute;
   top: 18vh;
-  left: 50vw;
+  left: 55vw;
   max-height: 24vh;
 }
 .n-1366-05-53-moon {
   position: absolute;
   top: 10vh;
-  left: 60vw;
+  left: 65vw;
   max-height: 24vh;
+}
+.moon-div-1 {
+  position: absolute;
+  top: 9vh;
+  right: 43vh;
+  background-color: gray;
+  height: 11vh;
+  width: 11vh;
+  border-radius: 50%;
+}
+.moon-div-2 {
+  position: absolute;
+  top: 24vh;
+  right: 50vh;
+  background-color: gray;
+  height: 11vh;
+  width: 11vh;
+  border-radius: 50%;
+}
+
+.moon-div-3 {
+  position: absolute;
+  top: 39vh;
+  right: 43vh;
+  background-color: gray;
+  height: 11vh;
+  width: 11vh;
+  border-radius: 50%;
 }
