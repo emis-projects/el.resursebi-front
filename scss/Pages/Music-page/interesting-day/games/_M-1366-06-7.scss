@@ -1,0 +1,40 @@
+#M-1366-06-7{
+    .main_text{
+        margin-top: 5vh;
+        margin-bottom: 6.5vh;
+        font-size: 2vh;
+        font-family: 'BPG Arial', sans-serif;
+    }
+    .play{
+        height: 5.2vh;
+        width: 5.2vh;
+    }
+    .day_wrapper{
+        height: 52vh;
+        max-height: 406px;
+        .img_boxes{
+            height: inherit;
+            position: relative;
+            .selector_box{
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 9.5vh;
+                background: #7FD1D8;
+                .selector{
+                    height: 8vh;
+                    width: 8vh;
+                    background: #ffffff;
+                    border-radius: 100%;
+                    img{
+                        height: 5.2vh;
+                        width: 5.2vh;
+                    }
+                }
+            }
+            img{
+                height: 100%;
+            }
+        }
+    }
+}

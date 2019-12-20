@@ -1,0 +1,27 @@
+.musical_intonation-table{
+    margin-top: 1vh;
+    width: 30.46vh;
+    height: 52.59vh;
+    &-item{
+        border: 1px solid #7FD1D8;
+        position: relative;
+        padding: 2vh;
+        border-bottom: none;
+        &:last-child{
+            border-bottom: 1px solid #7FD1D8;
+        }
+    }
+    &-circle{
+        position: absolute;
+        right: -3.8vh;
+        margin: 0;
+        padding: 0;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    &-img{
+        height: 6vh;
+        margin: auto;
+        cursor: pointer;
+    }
+}

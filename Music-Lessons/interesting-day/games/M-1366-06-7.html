@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" data-botid="2292">
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link rel="stylesheet" type="text/css" href="../../../scss/libraries/owl.carousel.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../../../scss/libraries/owl.theme.default.css"/>
+    <link rel="stylesheet" href="../../../scss/libraries/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../../../scss/style.css"/>
+    <!-- ყველა გვერდზე -->
+    <script src="../../../js/vue.js"></script>
+    <!--  ვუე გაშვებისას
+    <script src="./js/vue.min.js"></script>
+     -->
+    <title>ელექტრონული საგანმანათლებლო რესურსი</title>
+</head>
+
+<body class="bg-pink">
+<div class="container">
+    <header id="app">
+        <nav class="row">
+            <app-logo v-logo="'../../../'"></app-logo>
+            <app-menu v-menu:dark="'../../../'"></app-menu>
+            <sound-lang></sound-lang>
+        </nav>
+    </header>
+    <div class="subject_component_top_illustration">
+        <div class="bg_pink_up illustration_bg"></div>
+    </div>
+    <section class="container" id="M-1366-06-7">
+        <div class="subject_component row">
+            <div class="col-12 item_flex">
+                <div class="subject_component_itle_icon bg_bouble_pink d-flex justify-content-center align-items-center">
+                    <img src="../../../img/backgrounds/bg-ilustrations/flag.svg" alt="flag"/>
+                </div>
+                <h3 class="subject_component_title">შუალედური დავალება</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-10 offset-1">
+                <p class="main_text">
+                    შენს წინაშეა სადაგი დღის განრიგის სამი ვარიანტი, რომელიც დღეს ხუთ მონაკვეთად ყოფს. ყოველი მონაკვეთი
+                    დასურათებულია და გვიჩვენებს, რით არის დაკავებული შენი თანატოლი დღის მანძილზე. დააწკაპე ხმის ღილაკებს.
+                    ყოველ ღილაკზე დაწკაპებისას გაიჟღერებს დღის მონაკვეთებიდან ხმების თანმიმდევრობა. დააკვირდი განრიგებში
+                    მოცემული მონაკვეთების თანმიმდევრობას და გადაანაწილე სათანადო ღილაკი ამ ცხრილის ცარიელ უჯრებში.
+                </p>
+            </div>
+            <div class="col-1 offset-1 d-flex flex-column justify-content-between align-items-lg-start">
+                <img class="play" src="../../../img/gakvetilebi/musika/interesting-day/games/play.svg" alt="play">
+                <img class="play" src="../../../img/gakvetilebi/musika/interesting-day/games/play.svg" alt="play">
+                <img class="play" src="../../../img/gakvetilebi/musika/interesting-day/games/play.svg" alt="play">
+            </div>
+            <div class="col-8">
+                <div class="day_wrapper d-flex justify-content-between">
+                    <div class="img_boxes">
+                        <div class="selector_box d-flex justify-content-center align-items-center w-100">
+                            <div class="selector"></div>
+                        </div>
+                        <img src="../../../img/gakvetilebi/musika/interesting-day/games/day-1.svg" alt="day">
+                    </div>
+                    <div class="img_boxes">
+                        <div class="selector_box d-flex justify-content-center align-items-center w-100">
+                            <div class="selector"></div>
+                        </div>
+                        <img src="../../../img/gakvetilebi/musika/interesting-day/games/day-2.svg" alt="day">
+                    </div>
+                    <div class="img_boxes">
+                        <div class="selector_box d-flex justify-content-center align-items-center w-100">
+                            <div class="selector"></div>
+                        </div>
+                        <img src="../../../img/gakvetilebi/musika/interesting-day/games/day-3.svg" alt="day">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="paging_buttons paging_buttons_position">
+            <a href="../M-1366-06-19.html">
+                <img src="../../../img/icons/chevron-down-logo.svg" alt="down arrow" class="paging_buttons_left"/>
+            </a>
+            <a href="./M-1366-06-9.html" class="paging_buttons_margin-left">
+                <img src="../../../img/icons/chevron-down-logo.svg" alt="down arrow" class="paging_buttons_right"/>
+            </a>
+        </div>
+    </section>
+    <div class="subject_component_botton_illustration">
+        <div class="illustration_bg bg_pink_Down"></div>
+        <div class="subject_component_botton_bg_icon">
+            <img src="../../../img/backgrounds/bg-ilustrations/flag.svg" alt="flag art"/>
+        </div>
+    </div>
+</div>
+<div id="chatBot">
+    <app-bot></app-bot>
+</div>
+
+<script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
+<!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
+<script src="../../../Vue-Header/app.js"></script>
+<script src="../../../Vue-chatBot/botApp.js"></script>
+<script src="../../../js/bot.js"></script>
+
+</body>
+
+</html>
