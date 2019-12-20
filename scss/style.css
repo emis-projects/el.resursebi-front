@@ -11572,6 +11572,54 @@ td img {
   height: 100%;
 }
 
+.m_listen_icon-nmb {
+  height: 3.94vh;
+  margin-bottom: 1vh;
+  cursor: pointer;
+}
+.m_listen_icon-nmb-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.m_listen_icon-nmb-cont-full {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 6vh 0;
+}
+.m_listen_icon-md {
+  height: 5.26vh;
+  cursor: pointer;
+}
+
+.musical_intonation-table {
+  margin-top: 1vh;
+  width: 30.46vh;
+  height: 52.59vh;
+}
+.musical_intonation-table-item {
+  border: 1px solid #7FD1D8;
+  position: relative;
+  padding: 2vh;
+  border-bottom: none;
+}
+.musical_intonation-table-item:last-child {
+  border-bottom: 1px solid #7FD1D8;
+}
+.musical_intonation-table-circle {
+  position: absolute;
+  right: -3.8vh;
+  margin: 0;
+  padding: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.musical_intonation-table-img {
+  height: 6vh;
+  margin: auto;
+  cursor: pointer;
+}
+
 .M-1366-06-02-img-container {
   height: 43.65vh;
   padding-top: 8.69vh;
