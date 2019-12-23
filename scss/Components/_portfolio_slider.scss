@@ -83,6 +83,37 @@
       // max-height: 22.92vh;
     }
   }
+  &-landscape{
+    &-6-7-1{
+      width: 20.19vw;
+      height: auto;
+      // max-height: 24.47vh;
+    }
+    &-6-7-2{
+      width: 24.00vw;
+      height: auto;
+    }
+    &-6-7-3{
+      width: 24.72vw;
+      height: auto;
+    }
+    &-6-10-1{
+      width: 19.03vw;
+      height: auto;
+    }
+    &-6-10-2{
+      width: 13.50vw;
+      height: auto;
+    }
+    &-6-10-3{
+      width: 20.39vw;
+      height: auto;
+    }
+    &-6-10-4{
+      width: 23.27vw;
+      height: auto;
+    }
+  }
 
   .main-box_absolute img {
     width: 100%;
@@ -152,7 +183,6 @@
 
   &-img-lg-vert {
     height: 80vh;
-    // margin-left: 20.6vw;
     margin-left: 14.6vw;
 
     img {
@@ -170,6 +200,14 @@
   }
   &-img-sm-hor {
     height: 60vh;
+    margin-left: 1.1vw;
+
+    img {
+      height: 100%;
+    }
+  }
+  &-img-sm-10{
+    height: 27.72vh;
     margin-left: 1.1vw;
 
     img {
@@ -431,6 +469,31 @@
     }
     .owl-dot:nth-child(5) span {
       background-image: url("../img/gakvetilebi/xelovneba/adventure/A-05-19-5.png");
+    }
+  }
+  &-06-7.owl-theme .owl-dots {
+    .owl-dot:nth-child(1) span {
+      background-image: url("../img/gakvetilebi/xelovneba/Landscape/A-06-7-1.jpg");
+    }
+    .owl-dot:nth-child(2) span {
+      background-image: url("../img/gakvetilebi/xelovneba/Landscape/A-06-7-2.jpg");
+    }
+    .owl-dot:nth-child(3) span {
+      background-image: url("../img/gakvetilebi/xelovneba/Landscape/A-06-7-3.jpg");
+    }
+  }
+  &-06-10.owl-theme .owl-dots {
+    .owl-dot:nth-child(1) span {
+      background-image: url("../img/gakvetilebi/xelovneba/Landscape/A-06-10-1.jpg");
+    }
+    .owl-dot:nth-child(2) span {
+      background-image: url("../img/gakvetilebi/xelovneba/Landscape/A-06-10-2.jpg");
+    }
+    .owl-dot:nth-child(3) span {
+      background-image: url("../img/gakvetilebi/xelovneba/Landscape/A-06-10-3.jpg");
+    }
+    .owl-dot:nth-child(4) span {
+      background-image: url("../img/gakvetilebi/xelovneba/Landscape/A-06-10-4.jpg");
     }
   }
 }
