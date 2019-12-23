@@ -11852,16 +11852,8 @@ td img {
   height: 58vh;
   margin-top: 5.24vh;
 }
-
 .A-1366-06-26-img-container img {
   height: 100%;
-<<<<<<< HEAD
-  width: 100%;
-  object-fit: cover;
-}
-#A-1366-03-1 .icon-box {
-  margin-top: 12.8vh;
-=======
 }
 
 .A-1366-06-27-img-container {
@@ -11869,7 +11861,6 @@ td img {
   max-height: 45.44vh !important;
   margin-top: 7.81vh;
 }
-
 .A-1366-06-27-img-container img {
   height: 100%;
 }
@@ -11881,7 +11872,6 @@ td img {
 .A-1366-06-28-img-container {
   height: 46.48vh;
 }
-
 .A-1366-06-28-img-container img {
   height: 100%;
 }
@@ -11891,14 +11881,13 @@ td img {
   color: #47A8A8;
   line-height: 7vh;
   text-align: center;
-  font-family: 'DejaVu Sans Oblique';
+  font-family: "DejaVu Sans Oblique";
 }
 
 .A-1366-06-34-img-container {
   height: 25.91vh;
   margin-top: 7.81vh;
 }
-
 .A-1366-06-34-img-container img {
   height: 100%;
 }
@@ -11907,11 +11896,61 @@ td img {
   height: 20.83vh;
   padding-bottom: 3.9vh;
 }
-
 .A-1366-06-36-img-container img {
   margin: Auto;
   height: 100%;
->>>>>>> f573b16762d2402d96967ac8cd447c092d837c72
+}
+
+#A-1366-06-29 .img_box_wrapper {
+  max-width: 444px;
+  max-height: 304px;
+  width: 32.5vw;
+  height: 39.5vh;
+  border-radius: 5%;
+  position: relative;
+}
+#A-1366-06-29 .img_box_wrapper img {
+  height: 100%;
+}
+#A-1366-06-29 .img_box_wrapper .image_arrow {
+  position: absolute;
+  top: 2.6vh;
+  right: 2.6vh;
+  height: 4.6vh;
+  max-height: 36px;
+}
+#A-1366-06-29 .img_box_wrapper .image_arrow .paging_buttons_margin-left {
+  margin-left: 1vw;
+}
+#A-1366-06-29 .img_box_wrapper .image_arrow a {
+  display: block;
+  height: 100%;
+  cursor: pointer;
+}
+#A-1366-06-29 .img_box_wrapper .image_arrow a img {
+  height: 100%;
+}
+#A-1366-06-29 p {
+  font-family: "BPG Arial", sans-serif;
+  font-size: 2.5vh;
+}
+
+#A-1366-06-15 p {
+  font-family: "BPG Arial", sans-serif;
+  font-size: 2.3vh;
+}
+#A-1366-06-15 p:first-of-type {
+  margin-bottom: 4vh;
+}
+#A-1366-06-15 .libra_box {
+  max-width: 368px;
+  max-height: 227px;
+  height: 29.5vh;
+  width: 26.9vw;
+  margin-top: 18vh;
+}
+#A-1366-06-15 .libra_box img {
+  height: 100%;
 }
 
 .canvas-container {
