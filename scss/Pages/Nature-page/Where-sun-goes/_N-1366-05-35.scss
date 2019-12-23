@@ -1,41 +1,100 @@
-#N-1366-05-35{
-  .subject_component{
+#N-1366-05-35 {
+  .subject_component {
     margin-bottom: 0;
   }
-  .image-box{
+
+  .image-box {
+    position: fixed;
+    bottom: 20vh;
     height: 66vh;
-    max-height: 432px;
-    img{
-      height: 100%;
+    max-height: 508px;
+    max-width: 1100px;
+
+    .points {
+      height: 87%;
+      position: absolute;
+      bottom: 0;
+    }
+
+    .ground {
+      position: absolute;
+      bottom: 6vh;
+      left: 50%;
+      transform: translate(-64%);
+    }
+
+    .sun {
+      position: absolute;
+      top: 28%;
+      left: 6%;
+    }
+
+    .shodow_big {
+      position: absolute;
+      top: 36%;
+      left: 31%;
+    }
+
+    .shodow_small {
+      position: absolute;
+      bottom: 28%;
+      right: 31%;
+    }
+
+    .tree_bg {
+      position: absolute;
+      top: 27%;
+      left: 26%;
+      z-index: 15;
+    }
+
+    .tree-sm {
+      position: absolute;
+      bottom: 33%;
+      right: 37%;
+      z-index: 15;
+    }
+
+    .branch {
+      position: absolute;
+      bottom: 36%;
+      left: 40%;
+      z-index: 10;
     }
   }
-  .time-line{
-    margin-top: 4.6vh;
-    height: 8vh;
-    max-height: 70px;
-    .time-box {
-      width: 95%;
+}
 
-      .btn {
-        color: #203649;
-        border: 0;
-      }
+.time-line {
+  position: fixed;
+  bottom: 10vh;
+  margin-top: 4.6vh;
+  height: 8vh;
+  max-height: 70px;
 
-      .btn-time{
-        padding: 4px;
-        color: #fff;
-        border-radius: 10px;
-        background: #5ECAE5;
-        font-family: 'BPG Arial', sans-serif;
-        height: 4vh;
-      }
+  .time-box {
+    width: 95%;
+
+    .btn {
+      color: #203649;
+      border: 0;
     }
-    .arrow-box{
+
+    .btn-time {
+      padding: 4px;
+      color: #fff;
+      border-radius: 10px;
+      background: #5ECAE5;
+      font-family: 'BPG Arial', sans-serif;
       height: 4vh;
-      width: 100%;
-      img{
-        height: 100%;
-      }
+    }
+  }
+
+  .arrow-box {
+    height: 4vh;
+    width: 100%;
+
+    img {
+      height: 100%;
     }
   }
 }

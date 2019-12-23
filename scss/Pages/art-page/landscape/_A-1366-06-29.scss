@@ -1,0 +1,39 @@
+#A-1366-06-29 {
+  .img_box_wrapper {
+    max-width: 444px;
+    max-height: 304px;
+    width: 32.5vw;
+    height: 39.5vh;
+    border-radius: 5%;
+    position: relative;
+
+    img {
+      height: 100%;
+    }
+
+    .image_arrow {
+      position: absolute;
+      top: 2.6vh;
+      right: 2.6vh;
+      height: 4.6vh;
+      max-height: 36px;
+      .paging_buttons_margin-left{
+        margin-left: 1vw;
+      }
+      a {
+        display: block;
+        height: 100%;
+        cursor: pointer;
+
+        img {
+          height: 100%;
+        }
+      }
+    }
+  }
+
+  p {
+    font-family: 'BPG Arial', sans-serif;
+    font-size: 2.5vh;
+  }
+}
