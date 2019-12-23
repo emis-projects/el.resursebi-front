@@ -34,37 +34,52 @@
   left: 55vw;
   max-height: 24vh;
 }
-.n-1366-05-53-moon {
+.moon{
+  &-div-1 {
+    position: absolute;
+    top: 9vh;
+    right: 43vh;
+    border: 2px solid rgb(27, 30, 33);
+    height: 12vh;
+    width: 12vh;
+    border-radius: 50%;
+  }
+  &-div-2 {
+    position: absolute;
+    top: 24vh;
+    right: 50vh;
+    border: 2px solid rgb(27, 30, 33);
+    height: 12vh;
+    width: 12vh;
+    border-radius: 50%;
+  }
+  &-div-3 {
+    position: absolute;
+    top: 39vh;
+    right: 43vh;
+    border: 2px solid rgb(27, 30, 33);
+    height: 12vh;
+    width: 12vh;
+    border-radius: 50%;
+  }
+}
+.moon_box{
   position: absolute;
   top: 10vh;
   left: 65vw;
   max-height: 24vh;
+  z-index: 9999;
+  cursor: pointer;
+  img{
+    height: 100%;
+  }
 }
-.moon-div-1 {
+.shadow_box{
   position: absolute;
-  top: 9vh;
-  right: 43vh;
-  background-color: gray;
-  height: 11vh;
-  width: 11vh;
-  border-radius: 50%;
-}
-.moon-div-2 {
-  position: absolute;
-  top: 24vh;
-  right: 50vh;
-  background-color: gray;
-  height: 11vh;
-  width: 11vh;
-  border-radius: 50%;
-}
-
-.moon-div-3 {
-  position: absolute;
-  top: 39vh;
-  right: 43vh;
-  background-color: gray;
-  height: 11vh;
-  width: 11vh;
-  border-radius: 50%;
+  top: 25vh;
+  right: 11vh;
+  .shadow_moon{
+    display: none;
+    width: 50%;
+  }
 }
