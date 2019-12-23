@@ -13801,15 +13801,62 @@ td img {
   height: 100%;
 }
 
-#A-1366-03-1 .item img {
-  height: 100%;
-  width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+.A-1366-06-26-img-container {
+  height: 58vh;
+  margin-top: 5.24vh;
 }
 
-#A-1366-03-1 .icon-box {
-  margin-top: 12.8vh;
+.A-1366-06-26-img-container img {
+  height: 100%;
+}
+
+.A-1366-06-27-img-container {
+  height: 45.44vh;
+  max-height: 45.44vh !important;
+  margin-top: 7.81vh;
+}
+
+.A-1366-06-27-img-container img {
+  height: 100%;
+}
+
+.A-1366-06-28-cols {
+  margin-top: 5.33vh;
+}
+
+.A-1366-06-28-img-container {
+  height: 46.48vh;
+}
+
+.A-1366-06-28-img-container img {
+  height: 100%;
+}
+
+.A-1366-06-28-txt-container {
+  margin-left: 1.24vw;
+  color: #47A8A8;
+  line-height: 7vh;
+  text-align: center;
+  font-family: 'DejaVu Sans Oblique';
+}
+
+.A-1366-06-34-img-container {
+  height: 25.91vh;
+  margin-top: 7.81vh;
+}
+
+.A-1366-06-34-img-container img {
+  height: 100%;
+}
+
+.A-1366-06-36-img-container {
+  height: 20.83vh;
+  padding-bottom: 3.9vh;
+}
+
+.A-1366-06-36-img-container img {
+  margin: Auto;
+  height: 100%;
 }
 
 .canvas-container {
