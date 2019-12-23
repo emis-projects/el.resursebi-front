@@ -11760,41 +11760,54 @@ section .arrow_up_down_downArrow img {
   max-height: 24vh;
 }
 
-.n-1366-05-53-moon {
-  position: absolute;
-  top: 10vh;
-  left: 65vw;
-  max-height: 24vh;
-}
-
 .moon-div-1 {
   position: absolute;
   top: 9vh;
   right: 43vh;
-  background-color: gray;
-  height: 11vh;
-  width: 11vh;
+  border: 2px solid #1b1e21;
+  height: 12vh;
+  width: 12vh;
   border-radius: 50%;
 }
-
 .moon-div-2 {
   position: absolute;
   top: 24vh;
   right: 50vh;
-  background-color: gray;
-  height: 11vh;
-  width: 11vh;
+  border: 2px solid #1b1e21;
+  height: 12vh;
+  width: 12vh;
   border-radius: 50%;
 }
-
 .moon-div-3 {
   position: absolute;
   top: 39vh;
   right: 43vh;
-  background-color: gray;
-  height: 11vh;
-  width: 11vh;
+  border: 2px solid #1b1e21;
+  height: 12vh;
+  width: 12vh;
   border-radius: 50%;
+}
+
+.moon_box {
+  position: absolute;
+  top: 10vh;
+  left: 65vw;
+  max-height: 24vh;
+  z-index: 9999;
+  cursor: pointer;
+}
+.moon_box img {
+  height: 100%;
+}
+
+.shadow_box {
+  position: absolute;
+  top: 25vh;
+  right: 11vh;
+}
+.shadow_box .shadow_moon {
+  display: none;
+  width: 50%;
 }
 
 .n_hint_shadow {
@@ -12806,6 +12819,11 @@ section .arrow_up_down_downArrow img {
   margin: 1.56vh auto;
   width: 5.2vh;
   height: 5.2vh;
+  outline: none;
+  cursor: pointer;
+}
+.N-1366-06-24-btn-padding:active, .N-1366-06-24-btn-padding:hover {
+  outline: none;
 }
 
 .N-1366-06-24-btn-padding.success {
@@ -12814,6 +12832,9 @@ section .arrow_up_down_downArrow img {
 
 .N-1366-06-24-btn-padding.error {
   background-color: #ff5252;
+}
+.N-1366-06-24-btn-padding.selected {
+  background: #f7d24b;
 }
 
 .n_seasons_circle-img {
@@ -13807,9 +13828,74 @@ td img {
   bottom: 0;
   left: 25.1vw;
 }
-
 .M-1366-06-19-img-container img {
   height: 100%;
+}
+
+.A-1366-06-26-img-container {
+  height: 58vh;
+  margin-top: 5.24vh;
+}
+
+.A-1366-06-26-img-container img {
+  height: 100%;
+<<<<<<< HEAD
+  width: 100%;
+  object-fit: cover;
+}
+#A-1366-03-1 .icon-box {
+  margin-top: 12.8vh;
+=======
+}
+
+.A-1366-06-27-img-container {
+  height: 45.44vh;
+  max-height: 45.44vh !important;
+  margin-top: 7.81vh;
+}
+
+.A-1366-06-27-img-container img {
+  height: 100%;
+}
+
+.A-1366-06-28-cols {
+  margin-top: 5.33vh;
+}
+
+.A-1366-06-28-img-container {
+  height: 46.48vh;
+}
+
+.A-1366-06-28-img-container img {
+  height: 100%;
+}
+
+.A-1366-06-28-txt-container {
+  margin-left: 1.24vw;
+  color: #47A8A8;
+  line-height: 7vh;
+  text-align: center;
+  font-family: 'DejaVu Sans Oblique';
+}
+
+.A-1366-06-34-img-container {
+  height: 25.91vh;
+  margin-top: 7.81vh;
+}
+
+.A-1366-06-34-img-container img {
+  height: 100%;
+}
+
+.A-1366-06-36-img-container {
+  height: 20.83vh;
+  padding-bottom: 3.9vh;
+}
+
+.A-1366-06-36-img-container img {
+  margin: Auto;
+  height: 100%;
+>>>>>>> f573b16762d2402d96967ac8cd447c092d837c72
 }
 
 .canvas-container {
