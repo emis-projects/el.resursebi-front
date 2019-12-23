@@ -12811,6 +12811,7 @@ section .arrow_up_down_downArrow img {
   outline: none;
   cursor: pointer;
 }
+
 .N-1366-06-24-btn-padding:active, .N-1366-06-24-btn-padding:hover {
   outline: none;
 }
@@ -12822,6 +12823,7 @@ section .arrow_up_down_downArrow img {
 .N-1366-06-24-btn-padding.error {
   background-color: #ff5252;
 }
+
 .N-1366-06-24-btn-padding.selected {
   background: #f7d24b;
 }
@@ -13804,6 +13806,7 @@ td img {
   bottom: 0;
   left: 25.1vw;
 }
+
 .M-1366-06-19-img-container img {
   height: 100%;
 }
