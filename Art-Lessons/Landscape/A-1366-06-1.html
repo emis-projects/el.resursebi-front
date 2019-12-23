@@ -1,54 +1,58 @@
 <!DOCTYPE html>
 <!-- ბოტის აიდიში ვუთითებთ: ხელოვნების - 2318, ბუნების - 2320, მუსიკის - 2292 -->
-<html lang="ka" data-botid="2320">
+<html data-botid="2318" lang="ka">
 
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
     <!-- ყველა გვერდზე -->
     <script src="../../js/vue.js"></script>
     <!--  ვუე გაშვებისას
     <script src="./js/vue.min.js"></script>
      -->
-    <link rel="stylesheet" href="../../scss/libraries/bootstrap.min.css">
+    <link rel="stylesheet" href="../../scss/libraries/bootstrap.min.css" />
     <link rel="stylesheet" href="../../scss/style.css" />
     <title>ელექტრონული საგანმანათლებლო რესურსი</title>
 </head>
 
 <body>
 <div class="container">
-    <header>
-        <a href="./games/N-1366-06-29.html" class="close">
-            <img src="../../img/icons/close.svg" alt="close" />
-        </a>
+    <header id="app">
+        <nav class="row">
+            <app-logo v-logo="'../../'"></app-logo>
+            <app-menu v-menu:dark="'../../'"></app-menu>
+            <sound-lang></sound-lang>
+        </nav>
     </header>
-</div>
-<section id="N-1366-06-38">
-    <div class="N-1366-03-153 nature_full_image-box"></div>
-    <div class="nature-text-wrapper_16">
-        <div class="bottom_nav_icons">
-            <div class="arrow_up_down">
-                <a class="arrow_up_down_upArrow" href="./N-1366-06-37.html">
-                    <img src="../../img/icons/nature_arrow.svg" alt="arrow" />
-                </a>
-                <a class="arrow_up_down_downArrow paging_buttons_margin-left" href="./N-1366-06-39.html">
-                    <img src="../../img/icons/nature_arrow.svg" alt="arrow" />
+    <div class="main-box_absolute" id="A-1366-03-1">
+        <div class="main-box_relative">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img src="../../img/gakvetilebi/xelovneba/Landscape/landscape.png" alt="landscape" />
+                </div>
+            </div>
+            <div class="d-flex flex-column text-wrapper align-items-center">
+                <a href="./A-1366-06-2.html" class="icon-box d-flex align-items-center justify-content-center">
+                    <img src="../../img/icons/chevron-down.svg" />
                 </a>
             </div>
         </div>
     </div>
-</section>
-
-<!-- ჩეთბოტი -->
+</div>
 <div id="chatBot">
     <app-bot></app-bot>
 </div>
 
 <script src="../../js/libraries/jquery-3.4.1.min.js"></script>
+<script src="../../js/libraries/bootstrap.min.js"></script>
 
 <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
+<script src="../../Vue-Header/app.js"></script>
 <script src="../../Vue-chatBot/botApp.js"></script>
 <script src="../../js/bot.js"></script>
+
+
 </body>
 
 </html>
