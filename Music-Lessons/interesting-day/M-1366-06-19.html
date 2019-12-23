@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" data-botid="2292">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" type="text/css" href="../../scss/libraries/owl.carousel.min.css" />
+  <link rel="stylesheet" type="text/css" href="../../scss/libraries/owl.theme.default.css" />
+  <link rel="stylesheet" href="../../scss/libraries/bootstrap.min.css" />
+  <link rel="stylesheet" href="../../scss/style.css" />
+  <!-- ყველა გვერდზე -->
+  <script src="../../js/vue.js"></script>
+  <!--  ვუე გაშვებისას
+   <script src="./js/vue.min.js"></script>
+    -->
+  <title>ელექტრონული საგანმანათლებლო რესურსი</title>
+</head>
+
+<body>
+  <div class="container">
+    <header id="app">
+      <nav class="row">
+        <app-logo v-logo="'../../'"></app-logo>
+        <app-menu v-menu:dark="'../../'"></app-menu>
+        <sound-lang></sound-lang>
+      </nav>
+    </header>
+    <section>
+      <div class="subject_component row ">
+        <div class="col-12 item_flex">
+          <div class="subject_component_itle_icon bg_bouble_pink d-flex justify-content-center align-items-center">
+            <img src="../../img/backgrounds/bg-ilustrations/foots.svg" alt="ruler art" />
+          </div>
+          <h3 class="subject_component_title">ნაბიჯი</h3>
+        </div>
+      </div>
+      <div class="container_main_title">
+        <img src="../../img/gakvetilebi/xelovneba/btn-blue.svg" alt="" />
+        <span>როგორ აღვწეროთ მუსიკით დღის დასაწყისი?</span>
+      </div>
+      <div class="M-1366-06-19-img-container">
+        <img src="../../img/gakvetilebi/musika/interesting-day/M-1366-05-19-img.svg" alt="write art" />
+      </div>
+      <div class="paging_buttons paging_buttons_position">
+        <a href="./M-1366-06-02.html">
+          <img src="../../img/icons/chevron-down-logo.svg" alt="" class="paging_buttons_left" />
+        </a>
+        <a href="./games/M-1366-06-7.html" class="paging_buttons_margin-left">
+          <img src="../../img/icons/chevron-down-logo.svg" alt="" class="paging_buttons_right" />
+        </a>
+      </div>
+    </section>
+    <div class="subject_component_botton_illustration">
+      <div class="illustration_bg bg_pink_Down"></div>
+      <div class="subject_component_botton_bg_icon">
+        <img src="../../img/backgrounds/bg-ilustrations/bg_foots.svg" alt="flag art" />
+      </div>
+    </div>
+  </div>
+  <div id="chatBot">
+    <app-bot></app-bot>
+  </div>
+
+  <script src="../../js/libraries/jquery-3.4.1.min.js"></script>
+  <script src="../../js/libraries/bootstrap.min.js"></script>
+  <script src="../../js/libraries/owl.carousel.min.js"></script>
+  <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
+  <script src="../../Vue-Header/app.js"></script>
+  <script src="../../Vue-chatBot/botApp.js"></script>
+  <script src="../../js/bot.js"></script>
+</body>
+
+</html>

@@ -11830,6 +11830,17 @@ td img {
   background-repeat: no-repeat;
 }
 
+.M-1366-06-19-img-container {
+  height: 61.19vh;
+  position: absolute;
+  bottom: 0;
+  left: 25.1vw;
+}
+
+.M-1366-06-19-img-container img {
+  height: 100%;
+}
+
 .canvas-container {
   width: 100% !important;
 }
