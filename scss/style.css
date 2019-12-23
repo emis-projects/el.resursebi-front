@@ -11769,6 +11769,7 @@ section .arrow_up_down_downArrow img {
   width: 12vh;
   border-radius: 50%;
 }
+
 .moon-div-2 {
   position: absolute;
   top: 24vh;
@@ -11778,6 +11779,7 @@ section .arrow_up_down_downArrow img {
   width: 12vh;
   border-radius: 50%;
 }
+
 .moon-div-3 {
   position: absolute;
   top: 39vh;
@@ -11796,6 +11798,7 @@ section .arrow_up_down_downArrow img {
   z-index: 9999;
   cursor: pointer;
 }
+
 .moon_box img {
   height: 100%;
 }
@@ -11805,6 +11808,7 @@ section .arrow_up_down_downArrow img {
   top: 25vh;
   right: 11vh;
 }
+
 .shadow_box .shadow_moon {
   display: none;
   width: 50%;
@@ -12822,6 +12826,7 @@ section .arrow_up_down_downArrow img {
   outline: none;
   cursor: pointer;
 }
+
 .N-1366-06-24-btn-padding:active, .N-1366-06-24-btn-padding:hover {
   outline: none;
 }
@@ -12831,10 +12836,11 @@ section .arrow_up_down_downArrow img {
 }
 
 .N-1366-06-24-btn-padding.error {
-  background-color: #ff5252;
+  background-color: #dc6c85;
 }
+
 .N-1366-06-24-btn-padding.selected {
-  background: #f7d24b;
+  background: #f8d24b;
 }
 
 .n_seasons_circle-img {
@@ -12850,12 +12856,12 @@ section .arrow_up_down_downArrow img {
 }
 
 .answer_btn-white.selected {
-  background: #F8D24B;
+  background: #f8d24b;
   color: #fff;
 }
 
 .answer_btn-white.error {
-  background: #ff5252;
+  background: #dc6c85;
   color: #fff;
 }
 
@@ -13828,6 +13834,7 @@ td img {
   bottom: 0;
   left: 25.1vw;
 }
+
 .M-1366-06-19-img-container img {
   height: 100%;
 }
@@ -13839,13 +13846,6 @@ td img {
 
 .A-1366-06-26-img-container img {
   height: 100%;
-<<<<<<< HEAD
-  width: 100%;
-  object-fit: cover;
-}
-#A-1366-03-1 .icon-box {
-  margin-top: 12.8vh;
-=======
 }
 
 .A-1366-06-27-img-container {
@@ -13895,7 +13895,6 @@ td img {
 .A-1366-06-36-img-container img {
   margin: Auto;
   height: 100%;
->>>>>>> f573b16762d2402d96967ac8cd447c092d837c72
 }
 
 .canvas-container {
