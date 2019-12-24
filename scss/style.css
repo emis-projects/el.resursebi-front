@@ -13116,7 +13116,6 @@ section .arrow_up_down_downArrow img {
 }
 
 .C-1366-02-14-mixer-img-div-container {
-  background-image: url("../../img/gakvetilebi/Computer-Science/algorithme/C-1366-02-14-mixer.svg");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -13915,106 +13914,9 @@ td img {
   height: 58vh;
   margin-top: 5.24vh;
 }
+
 .A-1366-06-26-img-container img {
   height: 100%;
-}
-
-.A-1366-06-27-img-container {
-  height: 45.44vh;
-  max-height: 45.44vh !important;
-  margin-top: 7.81vh;
-}
-.A-1366-06-27-img-container img {
-  height: 100%;
-}
-
-.A-1366-06-28-cols {
-  margin-top: 5.33vh;
-}
-
-.A-1366-06-28-img-container {
-  height: 46.48vh;
-}
-.A-1366-06-28-img-container img {
-  height: 100%;
-}
-
-.A-1366-06-28-txt-container {
-  margin-left: 1.24vw;
-  color: #47A8A8;
-  line-height: 7vh;
-  text-align: center;
-  font-family: "DejaVu Sans Oblique";
-}
-
-.A-1366-06-34-img-container {
-  height: 25.91vh;
-  margin-top: 7.81vh;
-}
-.A-1366-06-34-img-container img {
-  height: 100%;
-}
-
-.A-1366-06-36-img-container {
-  padding-bottom: 3.9vh;
-}
-.A-1366-06-36-img-container img {
-  margin: Auto;
-<<<<<<< HEAD
-  height: 100%;
-}
-
-#A-1366-06-29 .img_box_wrapper {
-  max-width: 444px;
-  max-height: 304px;
-  width: 32.5vw;
-  height: 39.5vh;
-  border-radius: 5%;
-  position: relative;
-}
-#A-1366-06-29 .img_box_wrapper img {
-  height: 100%;
-}
-#A-1366-06-29 .img_box_wrapper .image_arrow {
-  position: absolute;
-  top: 2.6vh;
-  right: 2.6vh;
-  height: 4.6vh;
-  max-height: 36px;
-}
-#A-1366-06-29 .img_box_wrapper .image_arrow .paging_buttons_margin-left {
-  margin-left: 1vw;
-}
-#A-1366-06-29 .img_box_wrapper .image_arrow a {
-  display: block;
-  height: 100%;
-  cursor: pointer;
-}
-#A-1366-06-29 .img_box_wrapper .image_arrow a img {
-  height: 100%;
-}
-#A-1366-06-29 p {
-  font-family: "BPG Arial", sans-serif;
-  font-size: 2.5vh;
-}
-
-#A-1366-06-15 p {
-  font-family: "BPG Arial", sans-serif;
-  font-size: 2.3vh;
-}
-#A-1366-06-15 p:first-of-type {
-  margin-bottom: 4vh;
-}
-#A-1366-06-15 .libra_box {
-  max-width: 368px;
-  max-height: 227px;
-  height: 29.5vh;
-  width: 26.9vw;
-  margin-top: 18vh;
-}
-#A-1366-06-15 .libra_box img {
-  height: 100%;
-=======
 }
 
 .background-38 {
@@ -14050,7 +13952,119 @@ td img {
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
->>>>>>> 799a28492a3fb69bed0a084686c4428ccc84d87c
+}
+
+.A-1366-06-27-img-container {
+  height: 45.44vh;
+  max-height: 45.44vh !important;
+  margin-top: 7.81vh;
+}
+
+.A-1366-06-27-img-container img {
+  height: 100%;
+}
+
+.A-1366-06-28-cols {
+  margin-top: 5.33vh;
+}
+
+.A-1366-06-28-img-container {
+  height: 46.48vh;
+}
+
+.A-1366-06-28-img-container img {
+  height: 100%;
+}
+
+.A-1366-06-28-txt-container {
+  margin-left: 1.24vw;
+  color: #47A8A8;
+  line-height: 7vh;
+  text-align: center;
+  font-family: 'DejaVu Sans Oblique';
+}
+
+.A-1366-06-34-img-container {
+  height: 25.91vh;
+  margin-top: 7.81vh;
+}
+
+.A-1366-06-34-img-container img {
+  height: 100%;
+}
+
+.A-1366-06-36-img-container {
+  padding-bottom: 3.9vh;
+}
+
+.A-1366-06-36-img-container img {
+  margin: Auto;
+}
+
+#A-1366-06-29 .img_box_wrapper {
+  max-width: 444px;
+  max-height: 304px;
+  width: 32.5vw;
+  height: 39.5vh;
+  border-radius: 5%;
+  position: relative;
+}
+
+#A-1366-06-29 .img_box_wrapper img {
+  height: 100%;
+}
+
+#A-1366-06-29 .img_box_wrapper .image_arrow {
+  position: absolute;
+  top: 2.6vh;
+  right: 2.6vh;
+  height: 4.6vh;
+  max-height: 36px;
+}
+
+#A-1366-06-29 .img_box_wrapper .image_arrow .paging_buttons_margin-left {
+  margin-left: 1vw;
+}
+
+#A-1366-06-29 .img_box_wrapper .image_arrow a {
+  display: block;
+  height: 100%;
+  cursor: pointer;
+}
+
+#A-1366-06-29 .img_box_wrapper .image_arrow a img {
+  height: 100%;
+}
+
+#A-1366-06-29 p {
+  font-family: 'BPG Arial', sans-serif;
+  font-size: 2.5vh;
+}
+
+.A-1366-06-20-title {
+  margin-top: 3.38vh;
+  margin-bottom: 7.16vh;
+}
+
+#A-1366-06-15 p {
+  font-family: 'BPG Arial', sans-serif;
+  font-size: 2.3vh;
+}
+
+#A-1366-06-15 p:first-of-type {
+  margin-bottom: 4vh;
+}
+
+#A-1366-06-15 .libra_box {
+  max-width: 368px;
+  max-height: 227px;
+  height: 29.5vh;
+  width: 26.9vw;
+  margin-top: 18vh;
+}
+
+#A-1366-06-15 .libra_box img {
+  height: 100%;
 }
 
 .canvas-container {
@@ -14069,3 +14083,4 @@ td img {
   display: -ms-flexbox;
   display: flex;
 }
+/*# sourceMappingURL=style.css.map */
