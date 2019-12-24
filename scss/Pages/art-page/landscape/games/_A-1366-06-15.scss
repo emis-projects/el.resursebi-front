@@ -7,13 +7,67 @@
     }
   }
   .libra_box{
+    position: relative;
     max-width: 368px;
     max-height: 227px;
     height: 29.5vh;
     width: 26.9vw;
     margin-top: 18vh;
+    margin-right: 8vw;
+    .left_side{
+      position: absolute;
+      background-color: red;
+      bottom: 80px;
+      left: 10px;
+      max-height: 100px;
+      max-width: 100px;
+      height: 11.7vh;
+      width: 11.7vh;
+    }
+    .right_side{
+      position: absolute;
+      right: 12px;
+      bottom: 80px;
+      background-color: red;
+      max-height: 100px;
+      max-width: 100px;
+      height: 11.7vh;
+      width: 11.7vh;
+    }
     img{
       height: 100%;
+    }
+  }
+  a{
+    color: #7FD1D8;
+    &:hover, &visited, &active {
+      color: #7FD1D8;
+    }
+  }
+  .form_box{
+    height: 40vh;
+    width: 15vw;
+    max-width: 205px;
+    max-height: 309px;
+    background: #B3B3B3;
+    margin-top: 8vh;
+    border-radius: 16px;
+    .mini_boxes{
+      position: relative;
+      width: 11.7vh;
+      height: 11.7vh;
+      max-width: 108px;
+      max-height: 90px;
+      background-color: rgba(255, 255, 255, 29%);
+      border-radius: 16px;
+      &_multy_tr{
+        height: 4.8vh;
+        max-height: 30px;
+      }
+      &_multy_sq{
+        max-height: 30px;
+        max-width: 30px;
+      }
     }
   }
 }
