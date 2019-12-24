@@ -3290,7 +3290,7 @@ section .arrow_up_down_downArrow img {
 }
 
 .nature-material-col {
-  margin-bottom: 5vh;
+  margin-bottom: 4.5vh;
 }
 
 .nature-material-col img {
@@ -3833,6 +3833,14 @@ section .arrow_up_down_downArrow img {
   z-index: 80000000;
 }
 
+.N-1366-71-row-margin {
+  margin-top: 1vh;
+}
+
+.N-1366-71-subject_component {
+  margin-bottom: 0.3vh;
+}
+
 .N-1366-73 {
   background-image: url("../img/gakvetilebi/buneba/1366-73.png");
   background-position: center;
@@ -3964,6 +3972,10 @@ section .arrow_up_down_downArrow img {
 
 .nature-action-material-full-col-5.errorParent .nature-action-material-pic {
   opacity: 0.5;
+}
+
+.N-1366-89-subject_component {
+  margin-bottom: 2.8vh;
 }
 
 .plastmas_row {
@@ -9197,7 +9209,7 @@ section .arrow_up_down_downArrow img {
 }
 
 .nature-game-season-circle-3 {
-  bottom: -95px;
+  bottom: -85px;
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
@@ -11790,11 +11802,15 @@ section .arrow_up_down_downArrow img {
   margin-top: 1.5vh;
 }
 
+.N-1366-05-27-game-container {
+  height: 45vh !important;
+}
+
 .n-1366-05-53-sun {
   position: absolute;
   top: 3vh;
   left: 0;
-  max-height: 58.3vh;
+  max-height: 58vh;
 }
 
 .n-1366-05-53-arrow-1 {
