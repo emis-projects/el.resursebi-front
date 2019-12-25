@@ -11,8 +11,6 @@
     <script src="./js/vue.min.js"></script>
      -->
     <link rel="stylesheet" href="../../../scss/libraries/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="../../../scss/libraries/owl.carousel.min.css" />
-    <link rel="stylesheet" type="text/css" href="../../../scss/libraries/owl.theme.default.css" />
     <link rel="stylesheet" href="../../../scss/style.css" />
     <title>ელექტრონული საგანმანათლებლო რესურსი</title>
 </head>
@@ -26,6 +24,7 @@
                 <sound-lang></sound-lang>
             </nav>
         </header>
+
         <section id="N-1366-04-268">
             <div class="subject_component row">
                 <div class="col-12 item_flex">
@@ -42,17 +41,26 @@
                     <p>სწორი თანმიმდევრობით განალაგე ნახატები.</p>
                 </div>
                 <div class="col-9 d-flex   N-1366-05-49-cols-container justify-content-between offset-1 align-items-end">
-                    <div class="N-1366-05-48-sun-container big-font-size-18px">
-                        <img src="../../../img/gakvetilebi/buneba/Where-sun-goes/N-1366-05-53-sun.png" />
-                        <p> მზე</p>
+                    
+                    <div class="drag">
+                        <div id="earth" class="N-1366-05-48-earth-container big-font-size-18px ">
+                            <img src="../../../img/gakvetilebi/buneba/Where-sun-goes/N-1366-05-53-earth.svg" />
+                            <p> დედამიწა</p>
+                        </div>
                     </div>
-                     <div class="N-1366-05-48-earth-container big-font-size-18px ">
-                        <img src="../../../img/gakvetilebi/buneba/Where-sun-goes/N-1366-05-53-earth.svg" />
-                        <p> დედამიწა</p>
+                    
+                    <div class="drag">
+                        <div id="sun" class="N-1366-05-48-sun-container big-font-size-18px">
+                            <img src="../../../img/gakvetilebi/buneba/Where-sun-goes/N-1366-05-53-sun.png" />
+                            <p> მზე</p>
+                        </div>
                     </div>
-                    <div class="N-1366-05-48-moon-container big-font-size-18px">
-                        <img src="../../../img/gakvetilebi/buneba/Where-sun-goes/N-1366-05-53-moon.svg" />
-                        <p> მთვარე</p>
+
+                    <div class="drag">
+                        <div id="moon" class="N-1366-05-48-moon-container big-font-size-18px">
+                            <img src="../../../img/gakvetilebi/buneba/Where-sun-goes/N-1366-05-53-moon.svg" />
+                            <p> მთვარე</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -84,7 +92,9 @@
     </div>
 
     <script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
-    <script src="../../../js/libraries/bootstrap.min.js"></script>
+    <script src="../../../js/libraries/jquery-ui.min.js"></script>
+    <script src="../js/N-1366-05-49.js"></script>
+
 
     <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
     <script src="../../../Vue-Header/app.js"></script>
