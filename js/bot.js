@@ -6,19 +6,31 @@ let botImg = null;
 
 
 
+// check if value is ""
+$(msgInput).keyup(function () {
+    if ($(this).val().length !== 0) {
+        $('#sendMessage').removeAttr('disabled');
+    } else {
+        $('#sendMessage').attr('disabled', 'disabled')
+    }
+})
+
+
 // bot image 
 if($('html').attr('data-botid') == '2318'){
-    botImg = '../img/icons/xelovnebabot.png'
+    botImg = '/img/icons/xelovnebabot.png'
 
 } else if($('html').attr('data-botid') == '2320'){
-    botImg = '../img/icons/bunebabot.png'
+    botImg = '/img/icons/bunebabot.png'
     
 } else if($('html').attr('data-botid') == '2292'){
-    botImg = '../img/icons/musikabot.png'
+    botImg = '/img/icons/musikabot.png'
 
 } else if($('html').attr('data-botid') == '2288'){
-    botImg = '../img/icons/komp-mecnierebot.png'
+    botImg = '/img/icons/komp-mecnierebot.png'
 }
+
+
 
 
 
@@ -82,16 +94,6 @@ function sendMessageFromBot(res) {
 
 // user message ui
 function sendMessageFromUser(text) {
-    // check if value is ""
-    $('#sendMessage').attr('disabled', true);
-    $('#chatSend').keyup(function () {
-        if ($(this).val().length !== 0) {
-            $('#sendMessage').attr('disabled', false);
-        } else {
-            $('#sendMessage').attr('disabled', true);
-        }
-    })
-
     let div = document.createElement('div');
     let span = document.createElement('span');
 

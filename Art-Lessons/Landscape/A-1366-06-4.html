@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html data-botid="2318" lang="en">
+
+<head>
+  <meta charset="UTF-8"/>
+  <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+  <!-- ყველა გვერდზე -->
+  <script src="../../js/vue.js"></script>
+  <!--  ვუე გაშვებისას-->
+  <link href="../../scss/libraries/bootstrap.min.css" rel="stylesheet"/>
+  <link href="../../scss/style.css" rel="stylesheet"/>
+  <title>ელექტრონული საგანმანათლებლო რესურსი</title>
+</head>
+
+<body>
+<div class="container">
+  <header id="app">
+    <nav class="row">
+      <app-logo v-logo="'../../'"></app-logo>
+      <app-menu v-menu:dark="'../../'"></app-menu>
+      <sound-lang></sound-lang>
+    </nav>
+  </header>
+
+  <section id="A-1366-04-11">
+    <div class="subject_component row">
+      <div class="col-12 item_flex">
+        <div class="subject_component_itle_icon bg_bouble_pink d-flex justify-content-center align-items-center">
+          <img alt="write art" src="../../img/backgrounds/bg-ilustrations/foots.svg"/>
+        </div>
+        <h3 class="subject_component_title">ნაბიჯი</h3>
+      </div>
+    </div>
+    <div class="container_main_title container_main_title_art-paddings">
+      <div class="subject_question_item  big-font-size-22px">
+        <img src="../../img/gakvetilebi/xelovneba/btn-yellow.svg" alt="" />
+        <span>იცი, თუ არა რა ჰქვია გარემოს ამსახველ სურათს? </span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <div class="img-box A-1366-06-27-img-container">
+          <img src="../../img/gakvetilebi/xelovneba/Landscape/A-1366-06-4-img.svg" alt="artist">
+        </div>
+      </div>
+    </div>
+    <div class="paging_buttons paging_buttons_position">
+      <a href="./A-1366-06-3.html">
+        <img alt="arrow" class="paging_buttons_left" src="../../img/icons/chevron-down-logo.svg" />
+      </a>
+      <a class="paging_buttons_margin-left" href="./A-1366-06-5.html">
+        <img alt="arrow" class="paging_buttons_right" src="../../img/icons/chevron-down-logo.svg" />
+      </a>
+    </div>
+  </section>
+</div>
+<div class="subject_component_botton_illustration">
+  <div class="illustration_bg bg_pink_Down"></div>
+  <div class="subject_component_botton_bg_icon">
+    <img alt="flag art" src="../../img/backgrounds/bg-ilustrations/bg_foots.svg"/>
+  </div>
+</div>
+
+
+<div id="chatBot">
+  <app-bot></app-bot>
+</div>
+
+
+<script src="../../js/libraries/jquery-3.4.1.min.js"></script>
+
+<script src="../../Vue-Header/app.js"></script>
+<script src="../../Vue-chatBot/botApp.js"></script>
+<script src="../../js/bot.js"></script>
+</body>
+
+</html>
+ 
+
+
