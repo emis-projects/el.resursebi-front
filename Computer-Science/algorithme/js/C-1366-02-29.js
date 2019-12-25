@@ -1,10 +1,11 @@
 function Game() {
     // Variables
     let Items = Array.from(
-        document.getElementsByClassName("col-4")[3].children
+        document.getElementsByClassName('button_box')
     );
 
-    let DragArea = $(".col-4")[3];
+
+    let DragArea = $("#my-col");
     // Events
 
     //Drag and Drop
@@ -66,9 +67,10 @@ function Game() {
         swapNodes(DragArea.children[a], DragArea.children[b]);
 
         Items = Array.from(
-            document.getElementsByClassName("col-4")[3].children
+            document.getElementById("my-col").children
         );
     };
+
 
     this.AllowDrop = function(event) {
         event.preventDefault();
