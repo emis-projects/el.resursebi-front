@@ -71,7 +71,7 @@ Vue.component('soundLang', {
     },
     template: `
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
+<script async src='https://www.googletagmanager.com/gtag/js?id=UA-155006442-1'></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
