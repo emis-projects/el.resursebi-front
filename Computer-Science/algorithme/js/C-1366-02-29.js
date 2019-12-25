@@ -1,11 +1,8 @@
 function Game() {
     // Variables
-    let Items = Array.from(
-        document.getElementsByClassName('button_box')
-    );
+    let Items = Array.from(document.getElementsByClassName("button_box"));
 
-
-    let DragArea = $("#my-col");
+    let DragArea = $(".button_box")[0].parentNode;
     // Events
 
     //Drag and Drop
@@ -67,10 +64,9 @@ function Game() {
         swapNodes(DragArea.children[a], DragArea.children[b]);
 
         Items = Array.from(
-            document.getElementById("my-col").children
+            document.getElementsByClassName("col-4")[3].children
         );
     };
-
 
     this.AllowDrop = function(event) {
         event.preventDefault();
@@ -90,7 +86,7 @@ function Game() {
     };
 
     this.successPage = () => {
-        location.href = "success-page.html";
+        location.href = "C-1366-02-29-success.html";
     };
 
     //Reset
