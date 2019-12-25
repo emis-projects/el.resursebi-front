@@ -70,15 +70,7 @@ Vue.component('soundLang', {
         }
     },
     template: `
-    
-<script async src='https://www.googletagmanager.com/gtag/js?id=UA-155006442-1'></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-155006442-1');
-</script>
+  
 
     <div class="header-sound col-4 d-flex justify-content-end align-items-center">
         <button class="header-sound_switch sound-on" @click="colorSwitch">
