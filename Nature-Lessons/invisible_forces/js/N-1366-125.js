@@ -12,6 +12,7 @@ let maze = [
     [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0],
 ]
 
+
 let player = [7, 0]
 let bag = 0
 
