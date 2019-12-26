@@ -3,105 +3,106 @@
 <html lang="ka" data-botid="2318">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <!-- ყველა გვერდზე -->
-    <script src="./js/vue.js"></script>
-    <!--   ვუ ბოტი
+  <!-- ყველა გვერდზე -->
+  <script src="./js/vue.js"></script>
+  <!--   ვუ ბოტი
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
      <script src="./js/vue.min.js"></script>
       -->
 
-    <link rel="stylesheet" href="./scss/libraries/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="./scss/libraries/owl.carousel.min.css" />
-    <link rel="stylesheet" type="text/css" href="./scss/libraries/owl.theme.default.css" />
-    <link rel="stylesheet" href="./scss/style.css" />
-    <link rel="stylesheet" href="./scss/Pages/chatbot/vueStyle.css"/>
-    <title>ელექტრონული საგანმანათლებლო რესურსი</title>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
+  <link rel="stylesheet" href="./scss/libraries/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="./scss/libraries/owl.carousel.min.css" />
+  <link rel="stylesheet" type="text/css" href="./scss/libraries/owl.theme.default.css" />
+  <link rel="stylesheet" href="./scss/style.css" />
+  <link rel="stylesheet" href="./scss/Pages/chatbot/vueStyle.css" />
+  <title>ელექტრონული საგანმანათლებლო რესურსი</title>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
 </head>
 
 <body>
-    <div class="container">
-      <!-- ყველა გვერდზე. v-menu:light იქნება ღია ფერის მენიუ (ფონური ფოტოების დროს) -->
-        <header id="app">
-            <nav class="row">
-                <app-logo v-logo="'./'"></app-logo>
-                <app-menu v-menu:dark="'./'"></app-menu>
-                <sound-lang></sound-lang>
-            </nav>
-        </header>
-        
-        <section id="index">
-            <div class="container_choose_arrowDown">
-                <div>აირჩიე</div>
-                <img src="./img/icons/chevron-down.svg" alt="down-arrow" />
-            </div>
-            <div class="slider owl-carousel owl-theme row no-gutters">
-                <div class="item slide_content-box">
-                    <div class="img-warpper button-red col-5 ">
-                        <img src="./img/slider/slide-1.svg" alt="nature" />
-                    </div>
-                    <div class="text-wrapper main_box_links col-7">
-                        <a href="main-page/1366-7.html" class="nature">დაწყება</a>
-                        <h1>გააციფრულე სწავლის პროცესი, <br>დაიხმარე ხელოვნური ინტელექტი!</h1>
-                    </div>
-                </div>
-                <div class="item col-12 slide_content-box">
-                    <div class="img-warpper button-blue col-5">
-                        <img src="./img/slider/slide-2.svg" alt="music" />
-                    </div>
-                    <div class="text-wrapper main_box_links col-7">
-                        <a href="main-page/1366-7.html" class="music">დაწყება</a>
-                        <h1>გააციფრულე სწავლის პროცესი, <br>დაიხმარე ხელოვნური ინტელექტი!</h1>
-                    </div>
-                </div>
-                <div class="item col-12 slide_content-box">
-                    <div class="img-warpper button-yellow  col-5">
-                        <img src="./img/slider/slide-3.svg" alt="art" />
-                    </div>
-                    <div class="text-wrapper main_box_links col-7">
-                        <a href="main-page/1366-7.html" class="art">დაწყება</a>
-                        <h1>გააციფრულე სწავლის პროცესი, <br>დაიხმარე ხელოვნური ინტელექტი!</h1>
-                    </div>
-                </div>
-                <div class="item col-12 slide_content-box">
-                    <div class="img-warpper button-yellow  col-5">
-                        <img src="./img/slider/slider-4.svg" alt="computer" />
-                    </div>
-                    <div class="text-wrapper main_box_links col-7">
-                        <a href="main-page/1366-7.html" class="computer">დაწყება</a>
-                        <h1>გააციფრულე სწავლის პროცესი, <br>დაიხმარე ხელოვნური ინტელექტი!</h1>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </div>
+  <div class="container">
+    <!-- ყველა გვერდზე. v-menu:light იქნება ღია ფერის მენიუ (ფონური ფოტოების დროს) -->
+    <header id="app">
+      <nav class="row">
+        <app-logo v-logo="'./'"></app-logo>
+        <app-menu v-menu:dark="'./'"></app-menu>
+        <sound-lang></sound-lang>
+      </nav>
+    </header>
 
-    <!-- ესეც ჩეთბოტისაა -->
-    <!--<div id="chatBot">
+    <section id="index">
+      <div class="container_choose_arrowDown">
+        <div>აირჩიე</div>
+        <img src="./img/icons/chevron-down.svg" alt="down-arrow" />
+      </div>
+      <div class="slider owl-carousel owl-theme row no-gutters">
+        <div class="item slide_content-box">
+          <div class="img-warpper button-red col-5 ">
+            <img src="./img/slider/slide-1.svg" alt="nature" />
+          </div>
+          <div class="text-wrapper main_box_links col-7">
+            <a href="main-page/1366-7.html" class="nature">დაწყება</a>
+            <h1>გააციფრულე სწავლის პროცესი, <br>დაიხმარე ხელოვნური ინტელექტი!</h1>
+          </div>
+        </div>
+        <div class="item col-12 slide_content-box">
+          <div class="img-warpper button-blue col-5">
+            <img src="./img/slider/slide-2.svg" alt="music" />
+          </div>
+          <div class="text-wrapper main_box_links col-7">
+            <a href="main-page/1366-7.html" class="music">დაწყება</a>
+            <h1>გააციფრულე სწავლის პროცესი, <br>დაიხმარე ხელოვნური ინტელექტი!</h1>
+          </div>
+        </div>
+        <div class="item col-12 slide_content-box">
+          <div class="img-warpper button-yellow  col-5">
+            <img src="./img/slider/slide-3.svg" alt="art" />
+          </div>
+          <div class="text-wrapper main_box_links col-7">
+            <a href="main-page/1366-7.html" class="art">დაწყება</a>
+            <h1>გააციფრულე სწავლის პროცესი, <br>დაიხმარე ხელოვნური ინტელექტი!</h1>
+          </div>
+        </div>
+        <div class="item col-12 slide_content-box">
+          <div class="img-warpper button-yellow  col-5">
+            <img src="./img/slider/slider-4.svg" alt="computer" />
+          </div>
+          <div class="text-wrapper main_box_links col-7">
+            <a href="main-page/1366-7.html" class="computer">დაწყება</a>
+            <h1>გააციფრულე სწავლის პროცესი, <br>დაიხმარე ხელოვნური ინტელექტი!</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- ესეც ჩეთბოტისაა -->
+  <!--<div id="chatBot">
         <app-bot bot-id="2318"></app-bot>
     </div>-->
 
-    <script src="./js/libraries/jquery-3.4.1.min.js"></script>
-    <script src="./js/libraries/bootstrap.min.js"></script>
-    <script src="./js/libraries/owl.carousel.min.js"></script>
-    <script src="./js/slider.js"></script>
+  <script src="./js/libraries/jquery-3.4.1.min.js"></script>
+  <script src="./js/libraries/bootstrap.min.js"></script>
+  <script src="./js/libraries/owl.carousel.min.js"></script>
+  <script src="./js/slider.js"></script>
 
-    <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
-    <script src="./Vue-Header/app.js"></script>
-    <!--ვუე ბოტი
+  <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
+  <script src="./Vue-Header/app.js"></script>
+  <!--ვუე ბოტი
     <script src="./Vue-chatBot/botApp.js"></script>
     ბოტი js
     <script src="./js/bot.js"></script>-->
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'UA-155006442-1');
-</script>
+    gtag('config', 'UA-155006442-1');
+  </script>
 </body>
+
 </html>
