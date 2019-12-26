@@ -1,4 +1,4 @@
-
+// libra svg selectors
 const libra = $('#libra_line');
 const libraLeft = $('#left_side');
 const libraRight = $('#right_side');
@@ -18,16 +18,19 @@ const circle = document.querySelectorAll('.sm_circle');
 const square = document.querySelectorAll('.sm_square');
 const triangle = document.querySelectorAll('.sm_triangle');
 
-
+//finish reset selectors
 const resetBtn = document.getElementById('resetBtn');
 const completeGame = document.getElementById('completedGame');
 
+//data saving
 let prevDom = [];
 let prevItem = '';
 
+//reset || finish function
 resetBtn.addEventListener('click', init);
 completeGame.addEventListener('click', gameOver);
 
+//onload fn.
 $(document).ready(function () {
     initPosition();
 
@@ -154,6 +157,7 @@ function gameOver() {
     completeGame.setAttribute('disabled', 'true')
 }
 
+// clear draggable positions
 function clearCss(ui) {
     ui.draggable.css({
         left: '',
