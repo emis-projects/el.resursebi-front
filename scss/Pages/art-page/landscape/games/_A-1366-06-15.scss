@@ -1,12 +1,14 @@
-#A-1366-06-15{
-  p{
+#A-1366-06-15 {
+  p {
     font-family: 'BPG Arial', sans-serif;
     font-size: 2.3vh;
-    &:first-of-type{
+
+    &:first-of-type {
       margin-bottom: 4vh;
     }
   }
-  .libra_box{
+
+  .libra_box {
     position: relative;
     max-width: 368px;
     max-height: 227px;
@@ -14,45 +16,54 @@
     width: 26.9vw;
     margin-top: 18vh;
     margin-right: 8vw;
-    .left_side{
+
+    .left_side-box {
       position: absolute;
-      background-color: red;
-      bottom: 80px;
-      left: 10px;
+      bottom: 72px;
+      left: 15px;
       max-height: 100px;
       max-width: 100px;
       height: 11.7vh;
       width: 11.7vh;
+
     }
-    .right_side{
+
+    .right_side-box {
       position: absolute;
-      right: 12px;
-      bottom: 80px;
-      background-color: red;
-      max-height: 100px;
-      max-width: 100px;
-      height: 11.7vh;
-      width: 11.7vh;
+      right: 0;
+      bottom: 72px;
+      max-height: 32px;
+      max-width: 115px;
+      height: 5vh;
+      width: 17vh;
+
+      img {
+        height: 100%;
+      }
     }
-    img{
-      height: 100%;
+
+    svg {
+      position: absolute;
+      bottom: 0;
     }
   }
-  a{
+
+  a {
     color: #7FD1D8;
+
     &:hover, &visited, &active {
       color: #7FD1D8;
     }
   }
-  .form_box{
+
+  .form_box {
     height: 40vh;
     width: 15vw;
-    max-width: 205px;
-    max-height: 309px;
     background: #B3B3B3;
     margin-top: 8vh;
     border-radius: 16px;
-    .mini_boxes{
+
+    .mini_boxes {
       position: relative;
       width: 11.7vh;
       height: 11.7vh;
@@ -60,11 +71,37 @@
       max-height: 90px;
       background-color: rgba(255, 255, 255, 29%);
       border-radius: 16px;
-      &_multy_tr{
+
+      .triangle_forms {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        img {
+          flex: 0 1 50%;
+          &:first-child {
+            flex: 1 0 100%;
+          }
+        }
+      }
+      .square_forms{}
+      .circle_forms{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        img {
+          flex: 0 1 50%;
+          &:first-child {
+            flex: 1 0 100%;
+          }
+        }
+      }
+
+      &_multy_tr {
         height: 4.8vh;
         max-height: 30px;
       }
-      &_multy_sq{
+
+      &_multy_sq {
         max-height: 30px;
         max-width: 30px;
       }
