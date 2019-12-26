@@ -14458,6 +14458,7 @@ td img {
   left: 1vh;
   opacity: 0.8;
   height: 1vh;
+  z-index: 99;
 }
 
 .a-1366-06-box .touch-icon-1 img {
@@ -14469,6 +14470,7 @@ td img {
   top: 28vh;
   left: 16vh;
   opacity: 0.8;
+  z-index: 99;
 }
 
 .a-1366-06-box .touch-icon-2 img {
@@ -14480,10 +14482,41 @@ td img {
   top: 10vh;
   left: 31vh;
   opacity: 0.8;
+  z-index: 99;
 }
 
 .a-1366-06-box .touch-icon-3 img {
   height: 6vh;
+}
+
+.a-1366-06-box .left-figure {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.a-1366-06-box .left-figure img {
+  height: 40vh;
+}
+
+.a-1366-06-box .middle-figure {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.a-1366-06-box .middle-figure img {
+  height: 40vh;
+}
+
+.a-1366-06-box .right-figure {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.a-1366-06-box .right-figure img {
+  height: 40vh;
 }
 
 .canvas-container {
@@ -14502,3 +14535,4 @@ td img {
   display: -ms-flexbox;
   display: flex;
 }
+/*# sourceMappingURL=style.css.map */
