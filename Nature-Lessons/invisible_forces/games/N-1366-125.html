@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="ka" data-botid="2320">
+<!DOCTYPE html> 
+<html class="h-100" lang="ka" data-botid="2320">
 
 <head>
   <meta charset="UTF-8">
@@ -12,12 +12,12 @@
   <link rel="stylesheet" href="../../../scss/libraries/bootstrap.min.css" />
   <link rel="stylesheet" href="../../../scss/style.css" />
   <title>ელექტრონული საგანმანათლებლო რესურსი</title>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
 </head>
 
-
-
-<body>
-  <div class="container">
+<body class="h-100">
+  <div class="container h-100">
     <header id="app">
       <nav class="row">
           <app-logo v-logo="'../../../'"></app-logo>
@@ -42,18 +42,10 @@
           </div>
 
           <div class="kompass w-100" style="margin-left: 5.12vw">
-            <p>კითხვა: რატომ ცანცარებს კომპასის ისარი ?</p>
+            <p style="font-size: 18px; font-family: BPG Arial">კითხვა: რატომ ცანცარებს კომპასის ისარი ?</p>
 
-        <div class="frame">
-            <div class="header">
-                <div class="help">Keys: ← → ↑ ↓</div>
-                <div class="diamond-count"></div>
-                <div class="block diamond"></div>
-            </div>
-            <div class="board"></div>
-            <div class="footer">
-                <div class="info"></div>
-            </div>
+            <img src="../../../img/gakvetilebi/buneba/invisible_forces/kompass.svg" style="height: 27.86vh; margin-top: 12.36vh;" alt="">
+          </div>
         </div>
 
 
@@ -83,13 +75,20 @@
   </div>
 
   <script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
-  <script src="../js/test.js"></script>
+  <script src="../js/N-1366-125.js"></script>
 
 
   <script src="../../../Vue-Header/app.js"></script>
   <script src="../../../Vue-chatBot/botApp.js"></script>
   <script src="../../../js/bot.js"></script>
 
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-155006442-1');
+</script>
 </body>
 
 </html>
