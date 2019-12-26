@@ -186,27 +186,21 @@
 
 
 .frame {
+    background-image: url('../../../img/gakvetilebi/buneba/invisible_forces/land.svg');
+    background-position: center;
+    background-size: cover;
     --block-size: 56.83px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    // top: 50%;
+    // left: 50%;
+    // transform: translate(-50%, -50%);
     height: calc(11 * var(--block-size));
     width: calc(11 * var(--block-size));
-    position: absolute;
+    // position: absolute;
     display: grid;
     grid-template-rows: var(--block-size) calc(11 * var(--block-size)) var(--block-size);
 }
 
 .board {
-    /* height: calc(12 * var(--block-size)); */
-    /* width: calc(11 * var(--block-size));
-    height: calc(11 * var(--block-size)); */
-    /* width: 45.754vw;
-    height: 81.38020833333334vh; */
-    background-image: url('../../../img/gakvetilebi/buneba/invisible_forces/land.svg');
-    background-position: center;
-    background-size: cover;
-    /* padding: 13px; */
     display: grid;
     grid-template-columns: repeat(11, var(--block-size));
     grid-template-rows: repeat(11, var(--block-size))
@@ -215,7 +209,6 @@
 .block {
     width: var(--block-size);
     height: var(--block-size);
-    /* border-radius: 8px; */
 }
 
 .wall {
@@ -232,7 +225,7 @@
 .player {
     background-image: url('../../../img/gakvetilebi/buneba/invisible_forces/labirint-people.svg');
     background-position: center center;
-    background-size: 35px 35px;
+    background-size: 40px 40px;
     background-repeat: no-repeat;
 }
 

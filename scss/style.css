@@ -6478,14 +6478,12 @@ section .arrow_up_down_downArrow img {
 }
 
 .frame {
+  background-image: url("../../../img/gakvetilebi/buneba/invisible_forces/land.svg");
+  background-position: center;
+  background-size: cover;
   --block-size: 56.83px;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
   height: calc(11 * var(--block-size));
   width: calc(11 * var(--block-size));
-  position: absolute;
   display: -ms-grid;
   display: grid;
   -ms-grid-rows: var(--block-size) calc(11 * var(--block-size)) var(--block-size);
@@ -6493,15 +6491,6 @@ section .arrow_up_down_downArrow img {
 }
 
 .board {
-  /* height: calc(12 * var(--block-size)); */
-  /* width: calc(11 * var(--block-size));
-    height: calc(11 * var(--block-size)); */
-  /* width: 45.754vw;
-    height: 81.38020833333334vh; */
-  background-image: url("../../../img/gakvetilebi/buneba/invisible_forces/land.svg");
-  background-position: center;
-  background-size: cover;
-  /* padding: 13px; */
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (var(--block-size))[11];
@@ -6513,7 +6502,6 @@ section .arrow_up_down_downArrow img {
 .block {
   width: var(--block-size);
   height: var(--block-size);
-  /* border-radius: 8px; */
 }
 
 .wall {
@@ -6528,7 +6516,7 @@ section .arrow_up_down_downArrow img {
 .player {
   background-image: url("../../../img/gakvetilebi/buneba/invisible_forces/labirint-people.svg");
   background-position: center center;
-  background-size: 35px 35px;
+  background-size: 40px 40px;
   background-repeat: no-repeat;
 }
 
@@ -13435,14 +13423,69 @@ section .arrow_up_down_downArrow img {
   position: relative;
 }
 
-.C-1366-02-14-mixer-btn-div {
+.C-1366-02-14-mixer-img-div-container .mixer__head {
+  top: -11.5vh;
+  height: 11.5vh;
+  left: -8px;
   position: absolute;
-  bottom: 10.5vh;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.C-1366-02-14-mixer-img-div-container .mixer__head.isNotOpen {
+  top: -5.5vh;
+  left: 49%;
+  position: absolute;
+  -webkit-transform: translateX(-50%) rotate(90deg);
+          transform: translateX(-50%) rotate(90deg);
+}
+
+.C-1366-02-14-mixer-img-div-container .vegetables {
+  position: absolute;
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  height: 3.9vh;
-  width: 3.9vh;
+}
+
+.C-1366-02-14-mixer-img-div-container .pear {
+  width: 3.22vw;
+  z-index: 100;
+}
+
+.C-1366-02-14-mixer-img-div-container .banana {
+  width: 5.19vw;
+  z-index: 100;
+}
+
+.C-1366-02-14-mixer-img-div-container .apple {
+  width: 3.58vw;
+  z-index: 100;
+}
+
+.C-1366-02-14-mixer-img-div-container .milk {
+  width: 4.71vw;
+  bottom: 29.3%;
+  z-index: 10;
+}
+
+.C-1366-02-14-mixer-img-div-container .mixer-bottom {
+  bottom: 6px;
+  z-index: 1000;
+  position: absolute;
+}
+
+.C-1366-02-14-mixer-img-div-container .veget-zindex {
+  z-index: 1000;
+}
+
+.C-1366-02-14-mixer-img-div-container .C-1366-02-14-mixer-btn-div {
+  height: 5.07vh;
+  width: 2.85vw;
+  top: 6px;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 
 .C-1366-02-14-container {
@@ -13451,6 +13494,7 @@ section .arrow_up_down_downArrow img {
 
 .C-1366-02-14-div-container {
   margin-right: 4vw;
+  margin-top: 7vh;
 }
 
 .C-1366-02-14-head-img-div-container {

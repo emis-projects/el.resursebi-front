@@ -64,14 +64,8 @@ const createBoard = () => {
 }
 
 const renderMaze = () => {
-    if (bag < DIAMOND_COUNT) {
-        document.querySelector('.info').textContent = 'collect all the gems'
-    } else {
-        maze[ROWS-1][COLS-1] = EXIT_READY
-        document.querySelector('.info').textContent = 'go to the teleport'
-    }
-
     for (let row = 0; row < ROWS; row++) {
+        
         for (let col = 0; col < COLS; col++) {
             let itemClass = ''
             switch (maze[row][col]) {
@@ -105,7 +99,16 @@ const renderMaze = () => {
     }
 
 
-    document.querySelector('.diamond-count').textContent = `${bag} / ${DIAMOND_COUNT}`
+    let finish1 = document.querySelectorAll('.block')[2];
+    let finish2 = document.querySelectorAll('.block')[7];
+    let finish3 = document.querySelectorAll('.block')[8];
+
+
+    if(finish1.classList.contains('player') || finish2.classList.contains('player') || finish3.classList.contains('player')){
+        location.href = 'N-1366-125-success.html'
+    }
+
+
 }
 
 window.onkeydown = (event) => {
