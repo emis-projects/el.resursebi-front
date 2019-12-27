@@ -1,0 +1,56 @@
+.n_continent-game {
+  margin-bottom: 1vh;
+
+  &-img {
+    height: 15.80vh;
+    margin: auto;
+  }
+
+  &-btn {
+    -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
+    padding: 1vh 2.5vh;
+    border-radius: 25px;
+    font-size: 1.8vh;
+    line-height: 2.2vh;
+    font-family: "ALK Sanet", sans-serif;
+    color: #262626;
+    max-width: 9.51vw;
+    min-height: 3.9vh;
+    cursor: pointer;
+    margin: .8vh auto;
+    display: inline-block;
+    background: #fff;
+    &.error{
+      background: #dc6c85;
+      color: #fff;
+    }
+  }
+}
+
+.seasons_continet-game-table {
+  color: #fff;
+  text-align: center;
+  padding: .8vh 0;
+  font-family: "ALK Sanet", sans-serif;
+  &-body {
+    padding: .8vh 0;
+    min-height: 9.11vh;
+  }
+
+  &-yellow {
+    background: #fbad18;
+
+    &-body {
+      background: #fff4d8;
+    }
+  }
+
+  &-blue {
+    background: #44bbbd;
+
+    &-body {
+      background: #d6ede9;
+    }
+  }
+}

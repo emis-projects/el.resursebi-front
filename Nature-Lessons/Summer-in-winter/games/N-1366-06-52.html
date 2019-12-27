@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<!-- ბოტის აიდიში ვუთითებთ: ხელოვნების - 2318, ბუნების - 2320, მუსიკის - 2292 -->
+<html data-botid="2320" lang="ka">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta content="ie=edge" http-equiv="X-UA-Compatible" />
+  <!-- ყველა გვერდზე -->
+  <script src="../../../js/vue.js"></script>
+  <!--  ვუე გაშვებისას
+    <script src="./js/vue.min.js"></script>
+     -->
+  <link href="../../../scss/libraries/bootstrap.min.css" rel="stylesheet">
+  <link href="../../../scss/style.css" rel="stylesheet" />
+  <title>ელექტრონული საგანმანათლებლო რესურსი</title>
+</head>
+
+<body>
+  <div class="container">
+    <header id="app">
+      <nav class="row">
+        <app-logo v-logo="'../../../'"></app-logo>
+        <app-menu v-menu:dark="'../../../'"></app-menu>
+        <sound-lang></sound-lang>
+      </nav>
+    </header>
+    <section>
+      <div class="subject_component row">
+        <div class="col-12 item_flex">
+          <div class="subject_component_itle_icon bg_bouble_blue d-flex justify-content-center align-items-center">
+            <img alt="ruler art" src="../../../img/backgrounds/bg-ilustrations/foots.svg" />
+          </div>
+          <h3 class="subject_component_title">კომპლექსური დავალება</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-3">
+          <div class="n_continent-game">
+            <img src="../../../img/gakvetilebi/buneba/Summer-in-winter/games/N-52-1.svg" alt="img"
+              class="n_continent-game-img">
+            <div class="d-flex">
+              <div class="n_continent-game-btn">ბრაზილია</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="n_continent-game">
+            <img src="../../../img/gakvetilebi/buneba/Summer-in-winter/games/N-52-2.svg" alt="img"
+              class="n_continent-game-img">
+            <div class="d-flex">
+              <div class="n_continent-game-btn">სამხ.აფრიკა</div>
+              <div class="n_continent-game-btn">სამხ.აფრიკა</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="n_continent-game">
+            <img src="../../../img/gakvetilebi/buneba/Summer-in-winter/games/N-52-3.svg" alt="img"
+              class="n_continent-game-img">
+            <div class="d-flex">
+              <div class="n_continent-game-btn">ინდოეთი</div>
+              <div class="n_continent-game-btn">ინდოეთი</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="n_continent-game">
+            <img src="../../../img/gakvetilebi/buneba/Summer-in-winter/games/N-52-4.svg" alt="img"
+              class="n_continent-game-img">
+            <div class="d-flex">
+              <div class="n_continent-game-btn">საქართველო</div>
+              <div class="n_continent-game-btn">საქართველო</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="n_continent-game">
+            <img src="../../../img/gakvetilebi/buneba/Summer-in-winter/games/N-52-5.svg" alt="img"
+              class="n_continent-game-img">
+            <div class="d-flex">
+              <div class="n_continent-game-btn">ამერიკის სამხ. შტატები</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="n_continent-game">
+            <img src="../../../img/gakvetilebi/buneba/Summer-in-winter/games/N-52-6.svg" alt="img"
+              class="n_continent-game-img">
+            <div class="d-flex">
+              <div class="n_continent-game-btn">საბერძნეთი</div>
+              <div class="n_continent-game-btn">საბერძნეთი</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="n_continent-game">
+            <img src="../../../img/gakvetilebi/buneba/Summer-in-winter/games/N-52-7.svg" alt="img"
+              class="n_continent-game-img">
+            <div class="d-flex">
+              <div class="n_continent-game-btn">იაპონია</div>
+              <div class="n_continent-game-btn">იაპონია</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-10">
+          <div class="seasons_continet-game-table row seasons_continet-game-table-yellow">
+            <div class="col">იანვარი</div>
+            <div class="col">თებერვალი</div>
+            <div class="col">მარტი</div>
+            <div class="col">აპრილი</div>
+            <div class="col">მაისი</div>
+            <div class="col">ივნისი</div>
+          </div>
+          <div class="seasons_continet-game-table-body row seasons_continet-game-table-yellow-body">
+            <div class="col d-flex align-items-center justify-content-center">
+              <div class="d-flex">
+                <div class="n_continent-game-btn">სამხ.აფრიკა</div>
+              </div>
+            </div>
+            <div class="col d-flex align-items-center justify-content-center">
+              <div class="d-flex">
+                <div class="n_continent-game-btn error">იაპონია</div>
+              </div>
+            </div>
+            <div class="col d-flex align-items-center justify-content-center">
+              <div class="d-flex">
+                <div class="n_continent-game-btn error">ბრაზილია</div>
+              </div>
+            </div>
+            <div class="col d-flex align-items-center justify-content-center">
+              <div class="d-flex">
+                <div class="n_continent-game-btn">იაპონია</div>
+              </div>
+            </div>
+            <div class="col d-flex align-items-center justify-content-center">
+              <div class="d-flex">
+                <div class="n_continent-game-btn">ამერიკის სამხ. შტატები</div>
+              </div>
+            </div>
+            <div class="col d-flex align-items-center justify-content-center">
+              <div class="d-flex">
+                <div class="n_continent-game-btn">საბერძნეთი</div>
+              </div>
+            </div>
+          </div>
+          <div class="seasons_continet-game-table row seasons_continet-game-table-blue">
+            <div class="col">ივლისი</div>
+            <div class="col">აგვისტო</div>
+            <div class="col">სექტემბერი</div>
+            <div class="col">ოქტომბერი</div>
+            <div class="col">ნოემბერი</div>
+            <div class="col">დეკემბერი</div>
+          </div>
+          <div class="seasons_continet-game-table-body row seasons_continet-game-table-blue-body">
+            <div class="col d-flex align-items-center justify-content-center">
+              <div class="d-flex">
+                <div class="n_continent-game-btn">საბერძნეთი</div>
+              </div>
+            </div>
+            <div class="col d-flex align-items-center justify-content-center">
+              <div class="d-flex">
+                <div class="n_continent-game-btn">საქართველო</div>
+              </div>
+            </div>
+            <div class="col d-flex align-items-center justify-content-center">
+              <div class="d-flex">
+                <div class="n_continent-game-btn">საქართველო</div>
+              </div>
+            </div>
+            <div class="col d-flex align-items-center justify-content-center">
+              <div class="d-flex">
+                <div class="n_continent-game-btn">ინდოეთი</div>
+              </div>
+            </div>
+            <div class="col d-flex align-items-center justify-content-center">
+              <div class="d-flex">
+                <div class="n_continent-game-btn">ინდოეთი</div>
+              </div>
+            </div>
+            <div class="col d-flex align-items-center justify-content-center">
+              <div class="d-flex">
+                <div class="n_continent-game-btn">სამხ. აფრიკა</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <div class="flex flex-end column align-items-end z-index reload_game_wrapper">
+      <button id="resetBtn" class="reset__btn">თავიდან სცადე</button>
+      <button id="completedGame" class="completed__btn">დასრულება</button>
+    </div>
+  </div>
+  <div class="paging_buttons paging_buttons_position">
+    <a href="./N-1366-06-51.html">
+      <img src="../../../img/icons/chevron-down-logo.svg" alt="down arrow" class="paging_buttons_left" />
+    </a>
+  </div>
+  <!-- ჩეთბოტი -->
+  <div id="chatBot">
+    <app-bot></app-bot>
+  </div>
+
+  <script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
+  <script src="../../../js/libraries/bootstrap.min.js"></script>
+
+  <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
+  <script src="../../../Vue-Header/app.js"></script>
+  <script src="../../../Vue-chatBot/botApp.js"></script>
+  <script src="../../../js/bot.js"></script>
+
+</body>
+
+</html>
