@@ -189,15 +189,10 @@
     background-image: url('../../../img/gakvetilebi/buneba/invisible_forces/land.svg');
     background-position: center;
     background-size: cover;
-    --block-size: 56.83px;
-    // top: 50%;
-    // left: 50%;
-    // transform: translate(-50%, -50%);
+    --block-size: 3.160322108345534vw;
     height: calc(11 * var(--block-size));
     width: calc(11 * var(--block-size));
-    // position: absolute;
     display: grid;
-    grid-template-rows: var(--block-size) calc(11 * var(--block-size)) var(--block-size);
 }
 
 .board {
@@ -227,32 +222,4 @@
     background-position: center center;
     background-size: 40px 40px;
     background-repeat: no-repeat;
-}
-
-.header .diamond {
-    background-color: transparent;
-    float: right;
-}
-
-.diamond-count,
-.footer {
-    color: #cbdbfc;
-    line-height: 35px;
-    padding-left: 15px;
-    font-family: Sans;
-}
-
-.diamond-count {
-    float: right;
-}
-
-.footer {
-    text-align: center
-}
-
-.help {
-    float: left;
-    font-size: 0.9em;
-    color: #cbdbfc;
-    line-height: var(--block-size)
 }

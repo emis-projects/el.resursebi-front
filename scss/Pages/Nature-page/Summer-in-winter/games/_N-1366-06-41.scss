@@ -9,4 +9,51 @@
   img{
     height: 33.91vh;
   }
+
+
+}
+
+.img_cont {
+  .earth__img {
+    margin-top: 26.69vh;
+    width: 23.96193265007321vw;
+    border: 2px solid #7FD1D8;
+    border-radius: 50%;
+    padding: 23px;
+  }
+  
+  .earth__dash {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .girl__boy {
+    position: absolute;
+    left: 50%;
+    width: 3.22108345534407vw;
+    top: 8.984375vh;
+  }
+
+  .only__girl {
+    position: absolute;
+    left: 23%;
+    width: 2.683748vw;
+    bottom: 13.020833333333334vh;
+  }
+
+  .rotate__earth {
+    width: 1.8301610541727673vw;
+    height: 3.2552083333333335vh;
+    background: #F8D24B;
+    border-radius: 50%;
+    position: absolute;
+    right: 4px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16);
+    top: 8.895833333333332vh;
+  }
+
+
+
 }
