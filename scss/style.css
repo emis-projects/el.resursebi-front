@@ -13308,6 +13308,65 @@ section .arrow_up_down_downArrow img {
   margin-top: 10.41vh;
 }
 
+.n_continent-game {
+  margin-bottom: 1vh;
+}
+
+.n_continent-game-img {
+  height: 15.80vh;
+  margin: auto;
+}
+
+.n_continent-game-btn {
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
+  padding: 1vh 2.5vh;
+  border-radius: 25px;
+  font-size: 1.8vh;
+  line-height: 2.2vh;
+  font-family: "ALK Sanet", sans-serif;
+  color: #262626;
+  max-width: 9.51vw;
+  min-height: 3.9vh;
+  cursor: pointer;
+  margin: .8vh auto;
+  display: inline-block;
+  background: #fff;
+}
+
+.n_continent-game-btn.error {
+  background: #dc6c85;
+  color: #fff;
+}
+
+.seasons_continet-game-table {
+  color: #fff;
+  text-align: center;
+  padding: .8vh 0;
+  font-family: "ALK Sanet", sans-serif;
+}
+
+.seasons_continet-game-table-body {
+  padding: .8vh 0;
+  min-height: 9.11vh;
+}
+
+.seasons_continet-game-table-yellow {
+  background: #fbad18;
+}
+
+.seasons_continet-game-table-yellow-body {
+  background: #fff4d8;
+}
+
+.seasons_continet-game-table-blue {
+  background: #44bbbd;
+}
+
+.seasons_continet-game-table-blue-body {
+  background: #d6ede9;
+}
+
 .comp_algorithmes_img-03 {
   height: 49.08vh;
   margin: auto;
