@@ -5,7 +5,7 @@ Vue.directive('logo', {
         el.querySelector('img').src = binding.value + 'Vue-Header/header/header-logo.svg'
     }
 });
-//menu directive with 
+//menu directive with
 Vue.directive('menu', {
     bind(el, binding) {
         const image = el.querySelector('img');
@@ -70,6 +70,8 @@ Vue.component('soundLang', {
         }
     },
     template: `
+  
+
     <div class="header-sound col-4 d-flex justify-content-end align-items-center">
         <button class="header-sound_switch sound-on" @click="colorSwitch">
             <svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"
@@ -117,7 +119,3 @@ var app = new Vue({
     el: '#app',
 
 });
-
-
-
-
