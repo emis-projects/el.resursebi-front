@@ -94,10 +94,10 @@ function Game() {
     this.successPage = () => {
         let loc = location.pathname;
 
-        if(loc == "/Computer-Science/algorithme/games/C-1366-02-11.html" || loc == "/Computer-Science/algorithme/games/C-1366-02-11.html") {
+        if(loc == '/Computer-Science/algorithme/games/C-1366-02-11.html' || loc == '/el.resursebi-front/Computer-Science/algorithme/games/C-1366-02-11.html'){
             location.href = 'C-1366-02-11-success.html'
 
-        } else if(loc == "/Computer-Science/algorithme/games/C-1366-02-25.html" || loc == "/Computer-Science/algorithme/games/C-1366-02-25.html"){
+        } else if(loc == '/Computer-Science/algorithme/games/C-1366-02-25.html' || loc == '/el.resursebi-front/Computer-Science/algorithme/games/C-1366-02-25.html'){
             location.href = 'C-1366-02-25-success.html'
         }
     };

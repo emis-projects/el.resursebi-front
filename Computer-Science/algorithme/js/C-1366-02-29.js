@@ -1,10 +1,8 @@
 function Game() {
     // Variables
-    let Items = Array.from(
-        document.getElementsByClassName("col-4")[3].children
-    );
+    let Items = Array.from(document.getElementsByClassName("button_box"));
 
-    let DragArea = $(".col-4")[3];
+    let DragArea = $(".button_box")[0].parentNode;
     // Events
 
     //Drag and Drop
@@ -88,7 +86,7 @@ function Game() {
     };
 
     this.successPage = () => {
-        location.href = "success-page.html";
+        location.href = "C-1366-02-29-success.html";
     };
 
     //Reset
