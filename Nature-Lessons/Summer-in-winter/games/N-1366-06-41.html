@@ -50,12 +50,12 @@
 
 
                  <div>
-                    <div class="img_cont relative">
-                        <img id="earth" class="earth__img" src="../../../img/gakvetilebi/buneba/Summer-in-winter/games/earth.svg" alt="">
+                    <div class="img_cont relative box">
+                        <img class="earth__img" src="../../../img/gakvetilebi/buneba/Summer-in-winter/games/earth.svg" alt="">
                         <!-- <img class="earth__dash" src="../../../img/gakvetilebi/buneba/Summer-in-winter/games/earth-dash.svg" alt=""> -->
                         <!-- <img class="girl__boy" src="../../../img/gakvetilebi/buneba/Summer-in-winter/games/boy-girl.svg" alt=""> -->
                         <!-- <img class="only__girl" src="../../../img/gakvetilebi/buneba/Summer-in-winter/games/inlygirl.svg" alt=""> -->
-                        <img class="rotate__earth" src="../../../img/gakvetilebi/buneba/Summer-in-winter/games/rotate.png" alt="">
+                        <!-- <img class="rotate__earth ui-rotatable-handle" src="../../../img/gakvetilebi/buneba/Summer-in-winter/games/rotate.png" alt=""> -->
                     </div>
                  </div>
                 </div>
@@ -88,13 +88,20 @@
         <app-bot></app-bot>
     </div>
 
-    <script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
+    <!-- <script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
     <script src="../../../js/libraries/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
+    <script src="../../../js/libraries/jquery.ui.rotatable.min.js"></script> -->
+
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
     <script src="../../../js/libraries/jquery.ui.rotatable.min.js"></script>
 
-
-    <script src="../js/N-1366-06-41.js"></script>
+    <script>
+        $('.box').rotatable();
+    </script>
 
     <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
     <script src="../../../Vue-Header/app.js"></script>
