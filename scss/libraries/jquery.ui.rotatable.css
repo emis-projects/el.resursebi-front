@@ -4,7 +4,6 @@
     top: 4.5vh;
     right: 2vw;
     cursor: pointer;
-    background-image: url(../../img/gakvetilebi/buneba/Summer-in-winter/games/rotate.svg);
+    background-image: url(../../img/gakvetilebi/buneba/Summer-in-winter/games/rotate.png);
     background-size: 100%;
-    z-index: 99999999999;
 }
