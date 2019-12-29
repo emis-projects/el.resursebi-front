@@ -31,30 +31,23 @@ $(document).ready(function () {
 
 document.getElementById('completedGame').addEventListener('click', finFn);
 
+
 function finFn() {
-    console.log(countryDrop, countryDrag)
+    console.log(countryDrop)
     if (arraysEqual(countryDrop, countryDrag) && countryDrag.length === 12) {
         window.location.href = 'N-1366-06-47-success.html'
     }
-    let difArr = [];
+    /*let difArr = [];
     for (let i = 0; i < countryDrop.length; i++) {
         if (countryDrop[i] !== countryDrag[i]) {
             difArr.push(countryDrag[i]);
         }
+    }*/
+    for (let i = 0; i < countryDrag.length; i++) {
+        let dataItem = $('.dropable').children().children('[data-country="' + countryDrag[i] + '"]');
+        console.log(dataItem.data('country') + '------⤵')
+        console.log(dataItem.parent().data('country'))
     }
-
-    difArr.forEach(elm => {
-        let dataElm = $('[data-country="' + elm + '"]');
-        let ar = dataElm.filter(function () {
-            return $(this).data('index')
-        });
-        if (ar.children().data('country') === elm) {
-            ar.children().css({
-                background: "#dc6c85",
-                color: '#262626'
-            })
-        }
-    })
 }
 
 function arraysEqual(arr1, arr2) {

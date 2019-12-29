@@ -15,19 +15,12 @@
 
 .img_cont {
   .earth__img {
-    margin-top: 26.69vh;
     width: 23.96193265007321vw;
     border: 2px solid #7FD1D8;
     border-radius: 50%;
     padding: 23px;
   }
-  
-  .earth__dash {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-  }
+
 
   .girl__boy {
     position: absolute;
@@ -56,4 +49,17 @@
 
 
 
+}
+
+
+.earth__dash {
+  position: absolute;
+  top: -13px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.con {
+  margin-top: 18.69vh;
+  margin-left: 25px;
 }

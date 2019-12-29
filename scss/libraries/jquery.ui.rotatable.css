@@ -1,9 +1,10 @@
 .ui-rotatable-handle {
     height: 37px;
     width: 37px;
-    top: 0;
-    right: 0;
+    top: 10.416666666666668vh;
+    right: 2vw;
     cursor: pointer;
-    background-image: url(../../img/gakvetilebi/buneba/Summer-in-winter/games/rotate.png);
+    background-image: url(../../img/gakvetilebi/buneba/Summer-in-winter/games/rotate.svg);
     background-size: 100%;
+    z-index: 99999999999;
 }
