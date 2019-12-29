@@ -46,17 +46,14 @@
     box-shadow: 0 3px 6px rgba(0,0,0,0.16);
     top: 8.895833333333332vh;
   }
-
-
-
 }
 
 
 .earth__dash {
   position: absolute;
-  top: -13px;
+  top: -35px;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-50%) rotate(25deg);
 }
 
 .con {

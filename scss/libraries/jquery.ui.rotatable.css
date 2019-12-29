@@ -1,10 +1,16 @@
 .ui-rotatable-handle {
-    height: 37px;
-    width: 37px;
-    top: 10.416666666666668vh;
-    right: 2vw;
+    height: 35px;
+    width: 35px;
+    top: 50%;
+    right: -17px;
+    transform: translateY(-50%);
     cursor: pointer;
-    background-image: url(../../img/gakvetilebi/buneba/Summer-in-winter/games/rotate.svg);
-    background-size: 100%;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.160784);
     z-index: 99999999999;
+}
+
+.ui-rotatable-handle.yellow {
+    background: #F8D24B;
 }

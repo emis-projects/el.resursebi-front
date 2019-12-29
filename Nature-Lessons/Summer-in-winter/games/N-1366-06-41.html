@@ -58,7 +58,7 @@
                             <img class="girl__boy" src="../../../img/gakvetilebi/buneba/Summer-in-winter/games/boy-girl.svg" alt="">
                             <img class="only__girl" src="../../../img/gakvetilebi/buneba/Summer-in-winter/games/inlygirl.svg" alt="">
                         </div>
-                        <img class="earth__dash" src="../../../img/gakvetilebi/buneba/Summer-in-winter/games/earth-dash.svg" alt="">
+                        <img class="earth__dash" src="../../../img/gakvetilebi/buneba/Summer-in-winter/games/line.svg" alt="">
                     </div>
                  </div>
                 </div>
@@ -97,12 +97,18 @@
     <script src="../../../js/libraries/jquery.ui.rotatable.min.js"></script>
 
     <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            document.querySelector('.ui-rotatable-handle').classList.add('yellow')
+        })
+
         $('.box').rotatable({
             rotate: function (event, ui) {
-                if (ui.angle.current <=  324.28 && ui.angle.current >= 150.58){
-                    console.log('while')
+                if (ui.angle.current <=  296.28 && ui.angle.current >= 114.58){
+                    document.querySelector('.ui-rotatable-handle').classList.remove('yellow')
                 }else{
+                    document.querySelector('.ui-rotatable-handle').classList.add('yellow')
                     console.log('yellow')
+
                 }
             }
         });
