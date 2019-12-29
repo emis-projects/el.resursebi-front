@@ -97,16 +97,15 @@
     <script src="../../../js/libraries/jquery.ui.rotatable.min.js"></script>
 
     <script>
-        $('.box').rotatable();
-        let el = document.querySelector('.box');
-
-        let value = 0;
-
-        el.style.transform = "rotate(" + (value) + "deg)";
-
-        if(value > 0){
-            console.log('trueeee');
-        }
+        $('.box').rotatable({
+            rotate: function (event, ui) {
+                if (ui.angle.current <=  324.28 && ui.angle.current >= 150.58){
+                    console.log('while')
+                }else{
+                    console.log('yellow')
+                }
+            }
+        });
 
     </script>
 

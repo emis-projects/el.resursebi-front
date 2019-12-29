@@ -1,2 +1,2 @@
 
-$('#earth').rotatable().draggable();
+$('#earth').rotatable()
