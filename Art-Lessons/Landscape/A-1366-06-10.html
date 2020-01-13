@@ -16,7 +16,14 @@
   <link rel="stylesheet" href="../../scss/style.css" />
   <title>ელექტრონული საგანმანათლებლო რესურსი</title>
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
+   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-155006442-1');
+</script>
 </head>
 
 <body class="bg-pink">
@@ -203,13 +210,7 @@
       owl.trigger('to.owl.carousel', 3);
     });
   </script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-155006442-1');
-</script>
+   
 </body>
 
 </html>
