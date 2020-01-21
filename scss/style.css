@@ -14890,6 +14890,198 @@ td img {
   text-align: center;
 }
 
+.new_slider_main {
+  margin-top: 4vh;
+}
+
+.new_slider_main-illustration {
+  height: 75.78vh;
+  width: auto;
+}
+
+.new_slider_main-title {
+  margin-top: 2vh;
+  font-size: 5.2vh;
+  font-family: "ALK Sanet", sans-serif;
+  line-height: 6.5vh;
+}
+
+.new_slider_main-title-purple {
+  color: #947dce;
+}
+
+.new_slider_main-title-pink {
+  color: #DC6C85;
+}
+
+.new_slider_main-title-yellow {
+  color: #F8D24B;
+}
+
+.new_slider_main-title-blue {
+  color: #7FD1D8;
+}
+
+.new_slider_main-title-description {
+  color: #c5cbcd;
+  font-family: "DejaVu Sans Oblique";
+  font-size: 2.6vh;
+  margin-top: 5vh;
+}
+
+.new_btn-start {
+  background: white;
+  padding: 1.7vh 6.8vh;
+  -webkit-box-shadow: 2px 2px 8px rgba(127, 209, 216, 0.4);
+          box-shadow: 2px 2px 8px rgba(127, 209, 216, 0.4);
+  border-radius: 5vh;
+  font-family: "ALK Sanet", sans-serif;
+  color: #7fd1d8;
+  font-size: 2vh;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.new_btn-start:hover {
+  color: #7fd1d8;
+  -webkit-box-shadow: 2px 2px 8px rgba(248, 210, 75, 0.4);
+          box-shadow: 2px 2px 8px rgba(248, 210, 75, 0.4);
+}
+
+.new_btn-start-cont {
+  margin-top: 12vh;
+}
+
+.owl-carousel .owl-stage-outer .new_slider_main-item {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+}
+
+#mainPage .owl-theme .owl-nav.disabled + .owl-dots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  margin-top: -15px;
+}
+
+#mainPage .owl-theme .owl-dots .owl-dot {
+  width: 8vh;
+  height: 2px;
+}
+
+#mainPage .owl-theme .owl-dots .owl-dot span {
+  width: 8vh;
+  height: 2px;
+  margin: 0;
+  display: block;
+  -webkit-backface-visibility: visible;
+  -webkit-transition: opacity 200ms ease;
+  transition: opacity 200ms ease;
+  border-radius: 0;
+  background-color: #c5cbcd;
+}
+
+#mainPage .owl-theme .owl-dots .owl-dot span:before {
+  position: relative;
+  top: -34px;
+  color: #c5cbcd;
+  font-family: "ALK Sanet", sans-serif;
+  font-size: 2.6vh;
+}
+
+#mainPage .owl-theme .owl-dots .owl-dot.active span {
+  width: 100%;
+  height: 3px;
+  background-size: cover;
+  background-color: transparent;
+}
+
+#mainPage .owl-theme .owl-dots .owl-dot.active span:before {
+  font-size: 4.6vh;
+}
+
+#mainPage .owl-theme .owl-dots .owl-dot.active:nth-child(1) span {
+  background-image: url("../../../img/slider/dots_purple.svg");
+}
+
+#mainPage .owl-theme .owl-dots .owl-dot.active:nth-child(2) span {
+  background-image: url("../../../img/slider/dots_pink.svg");
+}
+
+#mainPage .owl-theme .owl-dots .owl-dot.active:nth-child(3) span {
+  background-image: url("../../../img/slider/dots_yellow.svg");
+}
+
+#mainPage .owl-theme .owl-dots .owl-dot.active:nth-child(4) span {
+  background-image: url("../../../img/slider/dots_blue.svg");
+}
+
+#mainPage .owl-theme .owl-dots .owl-dot.active:nth-child(1) span:before {
+  color: #947dce;
+}
+
+#mainPage .owl-theme .owl-dots .owl-dot.active:nth-child(2) span:before {
+  color: #dc6c85;
+}
+
+#mainPage .owl-theme .owl-dots .owl-dot.active:nth-child(3) span:before {
+  color: #f8d24b;
+}
+
+#mainPage .owl-theme .owl-dots .owl-dot.active:nth-child(4) span:before {
+  color: #7fd1d8;
+}
+
+#mainPage .owl-theme .owl-dots .owl-dot:nth-child(1) span:before {
+  content: "01";
+}
+
+#mainPage .owl-theme .owl-dots .owl-dot:nth-child(2) span:before {
+  content: "02";
+}
+
+#mainPage .owl-theme .owl-dots .owl-dot:nth-child(3) span:before {
+  content: "03";
+}
+
+#mainPage .owl-theme .owl-dots .owl-dot:nth-child(4) span:before {
+  content: "04";
+}
+
+.svg-comp-bg {
+  -webkit-animation-name: transparentBg-animation;
+  -webkit-animation-duration: 2s;
+  animation-name: transparentBg-animation;
+  animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+
+/* Safari 4.0 - 8.0 */
+/* Standard syntax */
+@-webkit-keyframes transparentBg-animation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes transparentBg-animation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .canvas-container {
   width: 100% !important;
 }
