@@ -41,6 +41,10 @@
         }
         &.error {
           background: #dc6c85;
+
+          .nature_plant-game-text {
+            color: #fff;
+          }
         }
         &.success {
           background: #a1dd6f;

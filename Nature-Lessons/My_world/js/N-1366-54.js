@@ -6,7 +6,11 @@ function natureGames(){
     var secondH5 = document.querySelector('.ask_question_game_box--second');
     var thirdH5 = document.querySelector('.ask_question_game_box--third');
     
+    let firstIndex = firstH5.querySelector('.draggeble_h5').getAttribute('data-index');
+    let secondIndex = secondH5.querySelector('.draggeble_h5').getAttribute('data-index');
+    let thirdIndex = thirdH5.querySelector('.draggeble_h5').getAttribute('data-index');
 
+    
     // variables
     var draggedElement = $('.ask_question_game_box');
     var empties = document.querySelectorAll('.dropDiv');
@@ -26,7 +30,6 @@ function natureGames(){
         empty.addEventListener('drop', (e) => this.dragDrop(e));
     }
 
-    
     document.addEventListener('DOMContentLoaded', () => {
         document.querySelectorAll('.ask_question_game_box').forEach(w => {
             w.setAttribute('data-class', w.getAttribute('class'))
@@ -47,6 +50,7 @@ function natureGames(){
         completedBtn.removeAttribute('style', 'disabled');
         completedBtn.removeAttribute('style', 'cursor: default');
         $(empties).removeAttr('style');
+        $(empties).removeAttr('dinamicaly-index');
 
         empties.forEach(w => {
             if(w.querySelector('.draggeble_h5')){
@@ -56,16 +60,14 @@ function natureGames(){
 
         $('.ask_question_game_box').removeAttr('style');
 
-        $('.ask_question_game_box--first').append(firstH5);
-
         if(!firstH5.querySelector('.draggeble_h5')){
-            this.comeBackText(firstH5.getAttribute('data-title'), 2, firstH5)    
+            this.comeBackText(firstH5.getAttribute('data-title'), firstIndex, firstH5)    
         }
         if(!secondH5.querySelector('.draggeble_h5')){
-            this.comeBackText(secondH5.getAttribute('data-title'), 4, secondH5)
+            this.comeBackText(secondH5.getAttribute('data-title'), secondIndex, secondH5)
         }
         if(!thirdH5.querySelector('.draggeble_h5')){
-            this.comeBackText(thirdH5.getAttribute('data-title'), 6, thirdH5)
+            this.comeBackText(thirdH5.getAttribute('data-title'), thirdIndex, thirdH5)
         }
     }
 

@@ -43,7 +43,7 @@ function DragAndDrop(query, task) {
         document.getElementById("a" + i.toString()).className += " error";
       }
     }
-    if (success) location.href = "./N-1366-03-197-success.html";
+    if (success) location.href = "N-1366-03-197-success.html";
   }
   
   function Reset() {

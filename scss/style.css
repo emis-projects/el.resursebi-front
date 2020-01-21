@@ -9759,6 +9759,10 @@ section .arrow_up_down_downArrow img {
   background: #dc6c85;
 }
 
+.nature_plant-game-text-container-white.error .nature_plant-game-text {
+  color: #fff;
+}
+
 .nature_plant-game-text-container-white.success {
   background: #a1dd6f;
 }
@@ -13709,7 +13713,7 @@ section .arrow_up_down_downArrow img {
   -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.160784);
           box-shadow: 0 3px 6px rgba(0, 0, 0, 0.160784);
   border-radius: 27px;
-  width: 21vw;
+  width: 23vw;
   height: 21vh;
   cursor: pointer;
 }
