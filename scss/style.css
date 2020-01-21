@@ -14413,6 +14413,19 @@ td img {
   height: 100%;
 }
 
+.landscape-exercise-description {
+  position: absolute;
+  font-size: 2.64vh;
+  font-family: 'DejaVu Sans Oblique';
+  color: #47A8A8;
+  line-height: 3.69vh;
+  top: 60%;
+  left: 40%;
+  -webkit-transform: translate(-40%, -50%);
+          transform: translate(-40%, -50%);
+  text-align: center;
+}
+
 .background-38 {
   background-image: url(../img/gakvetilebi/xelovneba/Landscape/A-1366-06-38.svg);
   background-position: top center;
@@ -14851,3 +14864,4 @@ td img {
   display: -ms-flexbox;
   display: flex;
 }
+/*# sourceMappingURL=style.css.map */
