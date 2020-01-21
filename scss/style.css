@@ -8149,6 +8149,23 @@ section .arrow_up_down_downArrow img {
       justify-content: space-around;
 }
 
+#N-1366-04-110 .subject_component_itle_icon {
+  background-position: center;
+}
+
+#N-1366-04-110 .bottom_components a {
+  margin: 0;
+}
+
+#N-1366-04-110 .image_box {
+  height: 22.9vh;
+  max-height: 117px;
+}
+
+#N-1366-04-110 .image_box img {
+  height: 100%;
+}
+
 .n-283-full-img {
   height: 36.45vh;
 }
@@ -8989,6 +9006,14 @@ section .arrow_up_down_downArrow img {
   height: 35vh;
   background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
   background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
+}
+
+#N-1366-03-110 .bottom_components a {
+  margin: 0;
+}
+
+#N-1366-03-110 .subject_component_itle_icon {
+  background-position: center;
 }
 
 #N-1366-03-152 .N-1366-03-152 {
@@ -10678,34 +10703,34 @@ section .arrow_up_down_downArrow img {
   margin-top: 11.71vh;
 }
 
-.C-1366-4 .step_m {
+.step_m {
   margin-right: 9vw;
 }
 
-.C-1366-4 p {
+p {
   font-size: 2.864vh;
   font-family: 'BPG Arial', sans-serif;
 }
 
-#C-1366-41 p {
+#1 p {
   font-size: 2.864vh;
   font-family: 'BPG Arial', sans-serif;
 }
 
-#C-1366-41 .draggable_text_box {
+#1 .draggable_text_box {
   margin-top: 6.9vh;
 }
 
-#C-1366-41 .m-9 {
+#1 .m-9 {
   margin: 9vh 0;
 }
 
-#C-1366-41 .image_box div {
+#1 .image_box div {
   height: 16vh;
   max-height: 128px;
 }
 
-#C-1366-41 .image_box div img {
+#1 .image_box div img {
   height: 100%;
   margin: 0 auto;
 }
