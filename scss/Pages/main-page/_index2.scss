@@ -13,13 +13,13 @@
       color: #947dce;
     }
     &-pink {
-      color: #DC6C85;
+      color: #dc6c85;
     }
     &-yellow {
-      color: #F8D24B;
+      color: #f8d24b;
     }
     &-blue {
-      color: #7FD1D8;
+      color: #7fd1d8;
     }
     &-description {
       color: #c5cbcd;
@@ -65,7 +65,7 @@
     height: 2px;
     margin: 0;
     display: block;
-    -webkit-backface-visibility: visible;
+    // -webkit-backface-visibility: visible;
     transition: opacity 200ms ease;
     border-radius: 0;
     background-color: #c5cbcd;
@@ -125,26 +125,31 @@
   }
 }
 
+.svg-comp-bg {
+  -webkit-animation-name: transparentBg-animation;
+  -webkit-animation-duration: 2s;
+  animation-name: transparentBg-animation;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
 
-.svg-comp-bg{
-    -webkit-animation-name: transparentBg-animation; 
-    -webkit-animation-duration: 2s; 
-    animation-name: transparentBg-animation;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;  
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes transparentBg-animation {
+  0% {
+    opacity: 0;
   }
-  
-  /* Safari 4.0 - 8.0 */
-//   @-webkit-keyframes transparentBg-animation {
-//     0% {opacity: 0;}
-//     100% {opacity: 1;}
-//   }
-  
-  /* Standard syntax */
-  @keyframes transparentBg-animation {
-    0% {opacity: 0;}
-    100% {opacity: 1;}
+  100% {
+    opacity: 1;
   }
+}
 
-
+/* Standard syntax */
+@keyframes transparentBg-animation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

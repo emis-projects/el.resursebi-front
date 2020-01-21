@@ -14898,15 +14898,15 @@ td img {
 }
 
 .new_slider_main-title-pink {
-  color: #DC6C85;
+  color: #dc6c85;
 }
 
 .new_slider_main-title-yellow {
-  color: #F8D24B;
+  color: #f8d24b;
 }
 
 .new_slider_main-title-blue {
-  color: #7FD1D8;
+  color: #7fd1d8;
 }
 
 .new_slider_main-title-description {
@@ -14965,7 +14965,6 @@ td img {
   height: 2px;
   margin: 0;
   display: block;
-  -webkit-backface-visibility: visible;
   -webkit-transition: opacity 200ms ease;
   transition: opacity 200ms ease;
   border-radius: 0;
@@ -15051,7 +15050,6 @@ td img {
 }
 
 /* Safari 4.0 - 8.0 */
-/* Standard syntax */
 @-webkit-keyframes transparentBg-animation {
   0% {
     opacity: 0;
@@ -15060,6 +15058,8 @@ td img {
     opacity: 1;
   }
 }
+
+/* Standard syntax */
 @keyframes transparentBg-animation {
   0% {
     opacity: 0;
