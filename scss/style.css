@@ -715,7 +715,7 @@ table {
 }
 
 p {
-  line-height: 1.3;
+  line-height: 1.5;
 }
 
 strong {
@@ -10709,11 +10709,6 @@ section .arrow_up_down_downArrow img {
 
 .step_m {
   margin-right: 9vw;
-}
-
-p {
-  font-size: 2.864vh;
-  font-family: 'BPG Arial', sans-serif;
 }
 
 #1 p {
