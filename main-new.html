@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta content="ie=edge" http-equiv="X-UA-Compatible" />
+  <script src="../js/vue.js"></script>
+  <!--  ვუე გაშვებისას
+    <script src="../js/vue.min.js"></script>
+     -->
+  <link href="../scss/libraries/bootstrap.min.css" rel="stylesheet" />
+  <link href="../scss/style.css" rel="stylesheet" />
+  <title>ელექტრონული საგანმანათლებლო რესურსი</title>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-155006442-1');
+  </script>
+</head>
+
+<body>
+  <div class="container">
+    <header id="app">
+      <nav class="row">
+        <app-logo v-logo="'../'"></app-logo>
+        <app-menu v-menu:dark="'../'"></app-menu>
+        <sound-lang></sound-lang>
+      </nav>
+    </header>
+    <section>
+      <div class="container_choose_arrowDown">
+        <div>აირჩიე</div>
+        <img alt="down-arrow" src="../img/icons/chevron-down.svg" />
+      </div>
+      <div class="row">
+        <div class="col-3 main-lesson-start-cont">
+          <img alt="music" src="../img/gakvetilebi/musika/musika-artwork.svg" class="main-lesson-start-img" />
+          <div class="new_btn-start-cont ">
+            <a href="../Music-Lessons/M-1366-8.html" class="new_btn-start">მუსიკა</a>
+          </div>
+        </div>
+        <div class="col-3 main-lesson-start-cont">
+          <img alt="art" src="../img/gakvetilebi//xelovneba/xelovneba-artwork.svg" class="main-lesson-start-img" />
+          <div class="new_btn-start-cont">
+            <a href="../Art-Lessons/1366-11.html" class="new_btn-start">ხელოვნება</a>
+          </div>
+        </div>
+        <div class="col-3 main-lesson-start-cont">
+          <img alt="nature" src="../img/gakvetilebi/buneba/buneba-artwork.svg" class="main-lesson-start-img" />
+          <div class="new_btn-start-cont">
+            <a href="../Nature-Lessons/N-1366-9.html" class="new_btn-start">ბუნება</a>
+          </div>
+        </div>
+        <div class="col-3 main-lesson-start-cont">
+          <img alt="computer" src="../img/gakvetilebi/Computer-Science/main_img.png" class="main-lesson-start-img" />
+          <div class="new_btn-start-cont">
+            <a href="../Computer-Science/N-1366-2.html" class="new_btn-start">კომპიუტერული მეცნიერება</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div id="chatBot">
+    <app-bot></app-bot>
+  </div>
+
+  <script src="../js/libraries/jquery-3.4.1.min.js"></script>
+  <script src="../js/libraries/bootstrap.min.js"></script>
+
+  <!-- header and bot vue -->
+  <script src="../Vue-Header/app.js"></script>
+  <script src="../Vue-chatBot/botApp.js"></script>
+  <script src="../js/bot.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+.main-lesson-start{
+    &-cont{
+        text-align: center;
+        .new_btn-start-cont{
+            margin-top: 7vh;
+            display: flex;
+            justify-content: center;
+        }
+    }
+    &-img{
+        height: 54.16vh;
+        margin: auto;
+    }
+}
