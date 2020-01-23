@@ -31,13 +31,20 @@
 }
 .new_btn-start {
   background: white;
-  padding: 1.7vh 6.8vh;
+  // padding: 1.7vh 6.8vh;
   box-shadow: 2px 2px 8px rgba(127, 209, 216, 0.4);
   border-radius: 5vh;
   font-family: "ALK Sanet", sans-serif;
   color: #7fd1d8;
   font-size: 2vh;
   transition: 0.3s;
+  display: inline-block;
+  line-height: 2vh;
+  width: 12.3vw;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   &:hover {
     color: #7fd1d8;
     box-shadow: 2px 2px 8px rgba(248, 210, 75, 0.4);
