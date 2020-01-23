@@ -65,6 +65,7 @@ function M136622(){
 
         $('.voices__question__dot').removeClass('active')
         $('.voices__question__dot').removeClass('correct')
+        $('.voices__question__dot').removeAttr('style');
         $('.voices__question__dot').removeClass('error')
     }
 
@@ -98,6 +99,7 @@ function M136622(){
         let items = parent.parentElement.parentElement.querySelectorAll('.voices__question__dot')
 
         $(items).removeClass('active')
+        $(items).removeAttr('style')
         $(items).removeClass('correct')
         $(items).removeClass('error')
     }
@@ -152,7 +154,7 @@ function M136622(){
             w.classList.remove('correct');
             w.classList.add('active');
 
-            if(w.parentElement.getAttribute('data-index') == "3-1"){
+            if(w.parentElement.getAttribute('data-index') == "3-3"){
                 w.classList.add('correct');
             }
 
