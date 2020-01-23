@@ -1,4 +1,5 @@
 .new_slider_main {
+  margin-top: 4vh;
   &-illustration {
     height: 75.78vh;
     width: auto;
@@ -22,7 +23,7 @@
     }
     &-description {
       color: #c5cbcd;
-      font-family: "DejaVu Sans Oblique", sans-serif;
+      font-family: "DejaVu Sans Oblique";
       font-size: 2.6vh;
       margin-top: 5vh;
     }
@@ -37,9 +38,16 @@
   color: #7fd1d8;
   font-size: 2vh;
   transition: 0.3s;
+  display: inline-block;
+  line-height: 2vh;
+  width: 12.3vw;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   &:hover {
     color: #7fd1d8;
-    box-shadow: 2px 2px 8px rgba(248, 210, 75, 0.6);
+    box-shadow: 2px 2px 8px rgba(248, 210, 75, 0.4);
   }
   &-cont {
     margin-top: 12vh;
@@ -55,7 +63,7 @@
 
 #mainPage .owl-theme .owl-nav.disabled + .owl-dots {
   display: flex;
-  justify-content: start;
+  justify-content: end;
   margin-top: -15px;
 }
 
