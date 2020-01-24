@@ -2386,6 +2386,19 @@ section .arrow_up_down_downArrow img {
   height: 13.15vh;
 }
 
+.left_components_paging {
+  height: 85.88vh;
+}
+
+.left_components_paging-cont {
+  position: absolute;
+  left: 2vh;
+}
+
+.left_components_paging_bg {
+  opacity: 0;
+}
+
 /* 
 *wow slider CSS section 
 */
