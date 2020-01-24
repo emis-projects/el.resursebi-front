@@ -4,9 +4,9 @@ header {
   z-index: 99999999;
 
   .navbar {
-    max-height: 50px;
-    height: 6vh;
-    padding: 15px 0;
+    min-height: 50px;
+    height: 10vh;
+    padding: 10px 0;
 
     .header-logo {
       height: 100%;
@@ -22,8 +22,26 @@ header {
     }
   }
 
+  .sound_box {
+    background-image: url('../New-header-vue/header-img/menu_box.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 42px;
+    min-width: 42px;
+    width: 6vh;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      height: 90%;
+    }
+  }
+
   .menu_box {
-    background-image: url('../Vue-Header/header/menu_box.svg');
+    background-image: url('../New-header-vue/header-img/menu_box.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -40,8 +58,24 @@ header {
     }
   }
 
+  .burger {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -55%);
+
+    span {
+      background: #7FD1D8;
+      display: block;
+      height: 2px;
+      width: 16px;
+      margin: 4px 0;
+    }
+  }
+
+
   .lang_box {
-    background-image: url('../Vue-Header/header/lang_box.svg');
+    background-image: url('../New-header-vue/header-img/lang_box.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -59,6 +93,18 @@ header {
       padding-bottom: 4px;
       color: #7FD1D8;
     }
+  }
+
+  .navbar-nav .nav-item {
+    margin-left: 25px;
+    cursor: pointer;
+  }
+
+  .navbar-brand {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
   }
 
   .header-sound {
@@ -96,6 +142,6 @@ header {
       background: rgb(127, 209, 216);
       color: rgb(255, 255, 255);
     }
-
   }
+
 }

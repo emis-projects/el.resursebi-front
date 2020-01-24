@@ -53,26 +53,35 @@ document.getElementById('resetBtn').addEventListener('click', initFn);
 // check function
 function finFn(evt) {
     let countryBox = $('.country_box');
-    //if equal success
-    if (arraysEqual(countryDrop, countryDrag) && countryDrag.length === 12) {
-        window.location.href = 'N-1366-06-47-success.html'
-    }
+
     // change all dropped items bg #dc6c85
     countryBox.children().css({
         background: "#dc6c85",
         color: '#fff'
     });
-    // make correct items bg white
-    for (let i = 0; i < dropItem.length; i++) {
-        let dataItem = dropItem[i].data('country');
-        let parentItem = dropItem[i].parent().data('country');
-        if (dataItem === parentItem) {
+
+    //if equal success
+    if (arraysEqual(countryDrop, countryDrag) && countryDrag.length === 12) {
+        for (let i = 0; i < dropItem.length; i++) {
             dropItem[i].css({
-                background: '#fff',
+                background: '#a1dd6f',
                 color: '#262626'
             })
         }
+    } else {
+        // make correct items bg white
+        for (let i = 0; i < dropItem.length; i++) {
+            let dataItem = dropItem[i].data('country');
+            let parentItem = dropItem[i].parent().data('country');
+            if (dataItem === parentItem) {
+                dropItem[i].css({
+                    background: '#fff',
+                    color: '#262626'
+                })
+            }
+        }
     }
+
     if (countryBox.children().length > 0) {
         evt.target.setAttribute('disabled', 'disabled');
     }
