@@ -542,6 +542,41 @@
   background: transparent;
 }
 
+.voice__mail__child {
+  background-color: #f1f0f0;
+  border-radius: 12px;
+  width: 113.464px;
+  height: 28px;
+  border: 1px solid transparent;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.voice-mail-hr {
+  width: 30px;
+  height: 2px;
+  background: #4b4f56;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.voice-mail-play-pause {
+  width: 12px;
+  cursor: pointer;
+}
+
 @font-face {
   font-family: 'ALK Sanet';
   src: url("../fonts/alk-sanet/alk-sanet-webfont.eot");
@@ -2336,6 +2371,19 @@ section .arrow_up_down_downArrow img {
   font-family: "DejaVuSans";
   line-height: 3.9vh;
   margin-left: 2vh;
+}
+
+.newDesign_steps_cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.newDesign_steps_item-img {
+  height: 13.15vh;
 }
 
 /* 
@@ -7302,6 +7350,41 @@ section .arrow_up_down_downArrow img {
 
 #sendMessage {
   background: transparent;
+}
+
+.voice__mail__child {
+  background-color: #f1f0f0;
+  border-radius: 12px;
+  width: 113.464px;
+  height: 28px;
+  border: 1px solid transparent;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.voice-mail-hr {
+  width: 30px;
+  height: 2px;
+  background: #4b4f56;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.voice-mail-play-pause {
+  width: 12px;
+  cursor: pointer;
 }
 
 .n-compass-img {
@@ -15161,6 +15244,27 @@ td img {
 .main-lesson-start-img {
   height: 54.16vh;
   margin: auto;
+}
+
+.flex_direction_center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bruca_img {
+  height: 17.44vh;
+  margin: 8vh 0;
 }
 
 .canvas-container {

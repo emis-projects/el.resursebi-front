@@ -1,0 +1,12 @@
+.newDesign_steps{
+    &_cont{
+        display: flex;
+        justify-content:space-between;
+    }
+    &_item{
+        &-img{
+            height: 13.15vh;
+        }
+    }
+}
+
