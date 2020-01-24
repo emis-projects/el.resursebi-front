@@ -57,15 +57,16 @@ function sendMessageFromBot(res) {
             $(text).append(" " + w.text);
             $(div).append(text)
 
+
         } else if(w.type == 1){
             let voiceMailContent = `
-            <div class="voice__maile">
-                <div class="voice__mail__child">
-                <img class="voice-mail-play-pause" src="./img/icons/play-solid.svg" />
-                <span class="voice-mail-hr"></span>
-                <span class="voice-mail-duration">0:08</span>
+                <div class="voice__maile">
+                    <div class="voice__mail__child">
+                        <img class="voice-mail-play-pause" src="../../img/icons/play-solid.svg" />
+                        <span class="voice-mail-hr"></span>
+                        <span class="voice-mail-duration">0:08</span>
+                    </div>
                 </div>
-            </div>
             `
 
             $(div).append(voiceMailContent)
@@ -92,7 +93,6 @@ function sendMessageFromBot(res) {
                 btn.innerText = w.title;
 
                 btndiv.appendChild(btn)
-
             })
 
             $(div).append(btndiv);
@@ -167,6 +167,9 @@ $(document).on("click", ".image-popup-no-margins", function (e) {
 });
 
 
+
+
+
 function sendMessage(e) {
     e.preventDefault();
 
@@ -196,6 +199,7 @@ function sendMessage(e) {
     $(msgInput).val("");
     $(getTag).scrollTop($(getTag)[0].scrollHeight)
 }
+
 
 
 $("#sendMessage").click(function (e) {

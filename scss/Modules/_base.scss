@@ -215,7 +215,9 @@ section {
 
 
 
-.current__pagination {
+.current__pagination,
+.pagination__prev__btn, 
+.pagination__next__btn {
   width: 36px;
   height: 36px;
   box-shadow: 0 3px 6px #7FD1D8;
@@ -230,6 +232,15 @@ section {
   font-family: "alk sanet";
   cursor: pointer;
 }
+
+
+.pagination__prev__btn {
+  margin-right: 12px;
+}
+.pagination__next__btn {
+  margin-left: 12px;
+}
+
 .pagination__dot {
   width: 10px;
   height: 10px;
@@ -241,6 +252,10 @@ section {
 
 .our__pagination {
   align-items: center;
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .pagination__item {
