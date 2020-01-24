@@ -34,6 +34,7 @@ if($('html').attr('data-botid') == '2318'){
 
 
 
+
 // bot message UI
 function sendMessageFromBot(res) {
     let div = document.createElement('div');
@@ -55,6 +56,20 @@ function sendMessageFromBot(res) {
         if (w.type == 0) {
             $(text).append(" " + w.text);
             $(div).append(text)
+
+        } else if(w.type == 1){
+            let voiceMailContent = `
+            <div class="voice__maile">
+                <div class="voice__mail__child">
+                <img class="voice-mail-play-pause" src="./img/icons/play-solid.svg" />
+                <span class="voice-mail-hr"></span>
+                <span class="voice-mail-duration">0:08</span>
+                </div>
+            </div>
+            `
+
+            $(div).append(voiceMailContent)
+
 
         } else if (w.type == 1) {
             $(a).addClass('image-popup-no-margins')

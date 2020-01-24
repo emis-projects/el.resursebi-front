@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="185" height="25.075" viewBox="0 0 185 25.075">
+  <defs>
+    <filter id="Path_24855" x="0" y="0" width="185" height="25.075" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feFlood flood-color="#f8d24b" flood-opacity="0.4"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_51212" data-name="Group 51212" transform="translate(-592.5 -147.548)">
+    <g transform="matrix(1, 0, 0, 1, 592.5, 147.55)" filter="url(#Path_24855)">
+      <path id="Path_24855-2" data-name="Path 24855" d="M0,0,160,.075" transform="translate(10.5 8.5)" fill="none" stroke="#c5cbcd" stroke-linecap="round" stroke-width="1"/>
+    </g>
+    <g id="Group_8340" data-name="Group 8340" transform="translate(-11.634 -54)">
+      <circle id="Ellipse_1073" data-name="Ellipse 1073" cx="2" cy="2" r="2" transform="translate(665.133 208)" fill="#dc6c85"/>
+      <circle id="Ellipse_1074" data-name="Ellipse 1074" cx="2" cy="2" r="2" transform="translate(670.133 208)" fill="#dc6c85"/>
+      <circle id="Ellipse_1075" data-name="Ellipse 1075" cx="2" cy="2" r="2" transform="translate(675.133 208)" fill="#dc6c85"/>
+      <circle id="Ellipse_1076" data-name="Ellipse 1076" cx="2" cy="2" r="2" transform="translate(680.133 208)" fill="#dc6c85"/>
+      <circle id="Ellipse_1077" data-name="Ellipse 1077" cx="2" cy="2" r="2" transform="translate(685.133 208)" fill="#dc6c85"/>
+      <circle id="Ellipse_1078" data-name="Ellipse 1078" cx="2" cy="2" r="2" transform="translate(690.133 208)" fill="#dc6c85"/>
+      <circle id="Ellipse_1079" data-name="Ellipse 1079" cx="2" cy="2" r="2" transform="translate(695.133 208)" fill="#dc6c85"/>
+      <circle id="Ellipse_1080" data-name="Ellipse 1080" cx="2" cy="2" r="2" transform="translate(700.133 208)" fill="#dc6c85"/>
+      <circle id="Ellipse_1081" data-name="Ellipse 1081" cx="2" cy="2" r="2" transform="translate(705.133 208)" fill="#dc6c85"/>
+      <circle id="Ellipse_1082" data-name="Ellipse 1082" cx="2" cy="2" r="2" transform="translate(710.133 208)" fill="#dc6c85"/>
+      <circle id="Ellipse_1083" data-name="Ellipse 1083" cx="2" cy="2" r="2" transform="translate(715.133 208)" fill="#dc6c85"/>
+      <circle id="Ellipse_1084" data-name="Ellipse 1084" cx="2" cy="2" r="2" transform="translate(720.133 208)" fill="#dc6c85"/>
+    </g>
+  </g>
+</svg>

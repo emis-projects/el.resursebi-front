@@ -507,3 +507,30 @@
 #sendMessage{
   background: transparent;
 }
+
+
+.voice__mail__child {
+  background-color: #f1f0f0;
+  border-radius: 12px;
+  width: 113.464px;
+  height: 28px;
+  border: 1px solid transparent;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.voice-mail-hr {
+  width: 30px;
+  height: 2px;
+  background: #4b4f56;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.voice-mail-play-pause {
+  width: 12px;
+  cursor: pointer;
+}

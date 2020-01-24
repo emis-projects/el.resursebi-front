@@ -97,7 +97,7 @@ function natureGames(){
     }
 
     this.successPage = () => {
-        location.href = 'success-page.html';
+        location.href = 'C-1366-01-25-success.html';
     }
 
 
@@ -109,7 +109,7 @@ function natureGames(){
             if(!this.checkEveryElement(element)){
                 //$(element.parentElement.parentElement).addClass('error')
                 console.log("parent", element.parentElement.parentElement)
-                element.style.color = "red";
+                element.style.color = "#dc6c85";
             }
         });
 

@@ -1,0 +1,17 @@
+.newDesign_container_main_title{
+    color: #262626;
+    font-size: 2.6vh;
+    font-family: 'ALK Sanet';
+    line-height: 3.6vh;
+    &-img{
+        width: 11.71vw;
+        margin: auto;
+    }
+    &-cont{
+        text-align: center;
+        &-margin{
+            margin-bottom: 4vh;
+        }
+    }
+    
+}
