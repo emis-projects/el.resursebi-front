@@ -13192,7 +13192,7 @@ section .arrow_up_down_downArrow img {
 .N-1366-05-41-laptop-img-container {
   height: 33.91vh;
   position: absolute;
-  top: 30.81vh;
+  top: 33.81vh;
   right: 17.42vw;
 }
 
@@ -13242,7 +13242,7 @@ section .arrow_up_down_downArrow img {
 }
 
 .con {
-  margin-top: 18.69vh;
+  margin-top: 11.69vh;
   margin-left: 25px;
 }
 
@@ -13253,7 +13253,7 @@ section .arrow_up_down_downArrow img {
 .N-1366-05-41-laptop-img-container {
   height: 33.91vh;
   position: absolute;
-  top: 30.81vh;
+  top: 33.81vh;
   right: 17.42vw;
 }
 
@@ -13303,7 +13303,7 @@ section .arrow_up_down_downArrow img {
 }
 
 .con {
-  margin-top: 18.69vh;
+  margin-top: 11.69vh;
   margin-left: 25px;
 }
 
@@ -14981,7 +14981,6 @@ td img {
 
 .new_btn-start {
   background: white;
-  padding: 1.7vh 6.8vh;
   -webkit-box-shadow: 2px 2px 8px rgba(127, 209, 216, 0.4);
           box-shadow: 2px 2px 8px rgba(127, 209, 216, 0.4);
   border-radius: 5vh;
@@ -14990,6 +14989,19 @@ td img {
   font-size: 2vh;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  display: inline-block;
+  line-height: 2vh;
+  width: 12.3vw;
+  height: 5vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .new_btn-start:hover {
@@ -15130,6 +15142,25 @@ td img {
   100% {
     opacity: 1;
   }
+}
+
+.main-lesson-start-cont {
+  text-align: center;
+}
+
+.main-lesson-start-cont .new_btn-start-cont {
+  margin-top: 7vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main-lesson-start-img {
+  height: 54.16vh;
+  margin: auto;
 }
 
 .canvas-container {

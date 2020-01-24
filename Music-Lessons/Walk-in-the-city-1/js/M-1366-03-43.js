@@ -35,19 +35,23 @@ function m136643() {
                 $(this).removeClass("selected")
                 $(this).addClass("correct")
                 if ($(".correct").length == 3) {
-                    location.href = 'success-page.html'
+                    let loc = location.pathname;
+
+                    if(loc == "/Music-Lessons/Walk-in-the-city-1/games/M-1366-03-43.html"){
+                        location.href = 'M-1366-03-43-success.html'
+                    } else if(loc == "/Music-Lessons/Walk-in-the-city-1/games/M-1366-03-48.html"){
+                        location.href = 'M-1366-03-48-success.html'
+                    }
                 }
             } 
             else if ($(this).hasClass("selected") && !$(this).attr("data-answer")) {
                 $(this).removeClass("selected")
                 $(this).addClass("error")
             }
-
         })
 
         handleLoadstop()
         $(".checkmark").off()
-        // $(this).attr("disabled", true)
     })
 
 
