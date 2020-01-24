@@ -1,0 +1,39 @@
+.top-bar{
+  height: 4vh;
+  width: 342px;
+  box-shadow: 2px 2px 8px rgba(127, 209, 216, 0.4);
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  button{
+    background-color: rgba(127, 209, 216, 0.4);
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    outline: none;
+    border: none;
+    box-shadow: none;
+  }
+  .start{
+    background-color: rgb(127, 209, 216);
+  }
+  .select{
+    background-color: rgba(127, 209, 216);
+    outline: none;
+    border: none;
+    box-shadow: none;
+  }
+  .links{
+    background-color: rgba(127, 209, 216);
+    outline: none;
+    border: none;
+    box-shadow: none;
+  }
+  .sections{
+    background-color: rgba(127, 209, 216);
+    outline: none;
+    border: none;
+    box-shadow: none;
+  }
+}

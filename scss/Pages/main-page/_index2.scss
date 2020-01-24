@@ -1,5 +1,4 @@
 .new_slider_main {
-  margin-top: 4vh;
   &-illustration {
     height: 75.78vh;
     width: auto;
@@ -31,8 +30,8 @@
 }
 .new_btn-start {
   background: white;
-  // padding: 1.7vh 6.8vh;
-  box-shadow: 2px 2px 8px rgba(127, 209, 216, 0.4);
+  padding: 1.7vh 6.8vh;
+  box-shadow: 2px 2px 8px rgba(127, 209, 216, 0.6);
   border-radius: 5vh;
   font-family: "ALK Sanet", sans-serif;
   color: #7fd1d8;
@@ -53,6 +52,9 @@
     margin-top: 12vh;
   }
 }
+#mainPage{
+  padding-top: 20vh;
+}
 
 .owl-carousel .owl-stage-outer .new_slider_main-item {
   align-items: start;
@@ -60,7 +62,7 @@
 
 #mainPage .owl-theme .owl-nav.disabled + .owl-dots {
   display: flex;
-  justify-content: end;
+  justify-content: start;
   margin-top: -15px;
 }
 
@@ -95,16 +97,16 @@
     }
   }
   &.active:nth-child(1) span {
-    background-image: url("../../../img/slider/dots_purple.svg");
+    background-image: url("../img/slider/dots_purple.svg");
   }
   &.active:nth-child(2) span {
-    background-image: url("../../../img/slider/dots_pink.svg");
+    background-image: url("../img/slider/dots_pink.svg");
   }
   &.active:nth-child(3) span {
-    background-image: url("../../../img/slider/dots_yellow.svg");
+    background-image: url("../img/slider/dots_yellow.svg");
   }
   &.active:nth-child(4) span {
-    background-image: url("../../../img/slider/dots_blue.svg");
+    background-image: url("../img/slider/dots_blue.svg");
   }
   &.active:nth-child(1) span:before {
     color: #947dce;
