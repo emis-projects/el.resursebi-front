@@ -166,6 +166,10 @@ header {
   position: relative;
   height: 100vh;
 }
+body{
+  overflow: hidden;
+}
+
 #app{
   left: 0;
   right: 0;

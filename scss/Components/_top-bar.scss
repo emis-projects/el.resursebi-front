@@ -7,7 +7,7 @@
   justify-content: space-around;
   align-items: center;
   button{
-    background-color: rgb(127, 209, 216);
+    background-color: rgba(127, 209, 216, 0.4);
     width: 20px;
     height: 20px;
     border-radius: 100%;
@@ -15,8 +15,23 @@
     border: none;
     box-shadow: none;
   }
-  .disabled{
-    background-color: rgba(127, 209, 216, 0.4);
+  .start{
+    background-color: rgb(127, 209, 216);
+  }
+  .select{
+    background-color: rgba(127, 209, 216);
+    outline: none;
+    border: none;
+    box-shadow: none;
+  }
+  .links{
+    background-color: rgba(127, 209, 216);
+    outline: none;
+    border: none;
+    box-shadow: none;
+  }
+  .sections{
+    background-color: rgba(127, 209, 216);
     outline: none;
     border: none;
     box-shadow: none;

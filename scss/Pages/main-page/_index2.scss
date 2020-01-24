@@ -1,5 +1,4 @@
 .new_slider_main {
-  margin-top: 4vh;
   &-illustration {
     height: 75.78vh;
     width: auto;
@@ -63,7 +62,7 @@
 
 #mainPage .owl-theme .owl-nav.disabled + .owl-dots {
   display: flex;
-  justify-content: end;
+  justify-content: start;
   margin-top: -15px;
 }
 

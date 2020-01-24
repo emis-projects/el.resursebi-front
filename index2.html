@@ -43,8 +43,21 @@
         </header>
 
         <app-section>
-            <app-bar :is-active="isActive" :trigger="trigger" :is-disabled="isDisable"></app-bar>
-            <app-page-section :is-active="isActive"></app-page-section>
+            <app-bar
+                :is-active="isActive"
+                :trigger="trigger"
+                :dots="dots"
+                :current-tab="link"
+                v-on:link-tab="link = $event">
+
+            </app-bar>
+            <component
+                :is="currentTabComponent"
+                :is-active="isActive"
+                :trigger="trigger"
+                :active-class="activeClass"
+                :tab-class="currentTabComponent">
+            </component>
         </app-section>
     </section>
 
@@ -1586,10 +1599,7 @@
 
 <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
 <script src="./New-header-vue/app.js"></script>
-<!--ვუე ბოტი
-  <script src="./Vue-chatBot/botApp.js"></script>
-  ბოტი js
-  <script src="./js/bot.js"></script>-->
+
 
 </body>
 
