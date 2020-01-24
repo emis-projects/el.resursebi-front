@@ -567,6 +567,22 @@
 }
 
 @font-face {
+  font-family: "DejaVuSans";
+  src: url("../fonts/dejaVuSans/dejavu-sans.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/dejaVuSans/dejavu-sans.eot?#iefix") format("embedded-opentype"), url("../fonts/dejaVuSans/dejavu-sans.otf") format("opentype"), url("../fonts/dejaVuSans/dejavu-sans.svg") format("svg"), url("../fonts/dejaVuSans/dejavu-sans.ttf") format("truetype"), url("../fonts/dejaVuSans/dejavu-sans.woff") format("woff"), url("../fonts/dejaVuSans/dejavu-sans.woff2") format("woff2");
+  /* Modern Browsers */
+}
+
+@font-face {
+  font-family: "NotoSans-Regular";
+  src: url("../fonts/NotoSans-Regular/NotoSans-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/NotoSans-Regular/NotoSans-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/NotoSans-Regular/NotoSans-Regular.otf") format("opentype"), url("../fonts/NotoSans-Regular/NotoSans-Regular.svg") format("svg"), url("../fonts/NotoSans-Regular/NotoSans-Regular.ttf") format("truetype"), url("../fonts/NotoSans-Regular/NotoSans-Regular.woff") format("woff"), url("../fonts/NotoSans-Regular/NotoSans-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+}
+
+@font-face {
   font-family: 'BPG Nino Mtavruli Bold';
   src: url("../fonts/nino-mtavruli-bold/bpg-nino-mtavruli-bold-webfont.eot");
   /* IE9 Compat Modes */
@@ -757,7 +773,7 @@ a:active {
 }
 
 body {
-  color: #0b2228;
+  color: #262626;
   font-size: 14px;
   line-height: 21px;
 }
@@ -2281,6 +2297,45 @@ section .arrow_up_down_downArrow img {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+}
+
+.newDesign_container_main_title {
+  color: #262626;
+  font-size: 2.6vh;
+  font-family: 'ALK Sanet';
+  line-height: 3.6vh;
+}
+
+.newDesign_container_main_title-img {
+  width: 11.71vw;
+  margin: auto;
+}
+
+.newDesign_container_main_title-cont {
+  text-align: center;
+}
+
+.newDesign_container_main_title-cont-margin {
+  margin-bottom: 4vh;
+}
+
+.newDesign_subject_question_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 2vh;
+}
+
+.newDesign_subject_question_item-img {
+  height: 5.4vh;
+}
+
+.newDesign_subject_question_item-title {
+  color: #262626;
+  font-size: 2.6vh;
+  font-family: "DejaVuSans";
+  line-height: 3.9vh;
+  margin-left: 2vh;
 }
 
 /* 
@@ -15093,4 +15148,3 @@ td img {
   display: -ms-flexbox;
   display: flex;
 }
-/*# sourceMappingURL=style.css.map */
