@@ -2393,6 +2393,7 @@ section .arrow_up_down_downArrow img {
 .left_components_paging-cont {
   position: absolute;
   left: 2vh;
+  top: 5vh;
 }
 
 .left_components_paging_bg {
@@ -15278,6 +15279,11 @@ td img {
 .bruca_img {
   height: 17.44vh;
   margin: 8vh 0;
+}
+
+.bruca_circle-img {
+  height: 50.52vh;
+  margin-top: 4vh;
 }
 
 .canvas-container {
