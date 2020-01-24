@@ -2415,6 +2415,33 @@ section .arrow_up_down_downArrow img {
   margin-left: 2vh;
 }
 
+.newDesign_steps_cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.newDesign_steps_item-img {
+  height: 13.15vh;
+}
+
+.left_components_paging {
+  height: 85.88vh;
+}
+
+.left_components_paging-cont {
+  position: absolute;
+  left: 2vh;
+  top: 5vh;
+}
+
+.left_components_paging_bg {
+  opacity: 0;
+}
+
 /* 
 *wow slider CSS section 
 */
@@ -15273,6 +15300,32 @@ td img {
 .main-lesson-start-img {
   height: 54.16vh;
   margin: auto;
+}
+
+.flex_direction_center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bruca_img {
+  height: 17.44vh;
+  margin: 8vh 0;
+}
+
+.bruca_circle-img {
+  height: 50.52vh;
+  margin-top: 4vh;
 }
 
 .canvas-container {

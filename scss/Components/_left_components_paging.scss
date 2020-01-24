@@ -1,0 +1,11 @@
+.left_components_paging{
+    height: 85.88vh;
+    &-cont{
+        position: absolute;
+        left: 2vh;
+        top: 5vh;
+    }
+    &_bg{
+        opacity: 0;
+    }
+}
