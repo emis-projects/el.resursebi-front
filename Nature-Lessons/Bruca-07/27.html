@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- ბოტის აიდიში ვუთითებთ: ხელოვნების - 2318, ბუნების - 2320, მუსიკის - 2292 -->
-<html lang="ka" data-botid="2320" pageid="3" data-type="5">
+<html lang="ka" data-botid="2320">
 
 <head>
   <meta charset="UTF-8" />
@@ -10,13 +10,15 @@
   <!--  ვუე გაშვებისას
     <script src="./js/vue.min.js"></script>
      -->
-    <link rel="stylesheet" href="../../scss/libraries/bootstrap.min.css">
-    <link rel="stylesheet" href="../../scss/style.css" />
-    <title>ელექტრონული საგანმანათლებლო რესურსი</title>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
+  <link rel="stylesheet" href="../../scss/libraries/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../../scss/libraries/owl.carousel.min.css" />
+  <link rel="stylesheet" type="text/css" href="../../scss/libraries/owl.theme.default.css" />
+  <link rel="stylesheet" href="../../scss/style.css" />
+  <title>ელექტრონული საგანმანათლებლო რესურსი</title>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
     function gtag() {
       dataLayer.push(arguments);
@@ -29,15 +31,11 @@
 
 <body>
   <div class="container">
-    <header id="app">
-      <nav class="row">
-        <app-logo v-logo="'../../'"></app-logo>
-        <app-menu v-menu:dark="'../../'"></app-menu>
-        <sound-lang></sound-lang>
-      </nav>
+    <header>
+      <a class="close" href="./26.html">
+        <img src="../../img/icons/close.svg" alt="close" />
+      </a>
     </header>
-
-
     <section>
       <div class="left_components_paging-cont">
         <svg class="left_components_paging" xmlns="http://www.w3.org/2000/svg"
@@ -91,19 +89,19 @@
               <rect id="Rectangle_1414-2" data-name="Rectangle 1414" width="110" height="698" rx="55"
                 transform="translate(10 10)" fill="#fff" />
             </g>
-            <path class="leftSidebar_type" style="opacity: 0" data-type="2" id="Path_143714" data-name="Path 143714"
+            <path class="left_components_paging_bg" id="Path_143714" data-name="Path 143714"
               d="M-107,293.662h-25.155a28.388,28.388,0,0,0-21.1,9.686A34.87,34.87,0,0,0-162,326.736c0,18.266,13.362,33.074,29.844,33.074H-107c20.013,0,36.24,17.983,36.24,40.162V253.5C-70.762,275.679-86.988,293.662-107,293.662Z"
               transform="translate(196 -48.5)" fill="#dc6c85" />
-            <path class="leftSidebar_type" style="opacity: 0" data-type="1" id="Path_143737" data-name="Path 143737"
+            <path class="left_components_paging_bg" id="Path_143737" data-name="Path 143737"
               d="M-107,293.662h-25.155a28.388,28.388,0,0,0-21.1,9.686A34.87,34.87,0,0,0-162,326.736c0,18.266,13.362,33.074,29.844,33.074H-107c20.013,0,36.24,17.983,36.24,40.162V253.5C-70.762,275.679-86.988,293.662-107,293.662Z"
               transform="translate(196 -162.5)" fill="#dc6c85" />
-            <path class="leftSidebar_type" style="opacity: 0" data-type="4" id="Path_143736" data-name="Path 143736"
+            <path class="left_components_paging_bg" id="Path_143736" data-name="Path 143736"
               d="M-107,293.662h-25.155a28.388,28.388,0,0,0-21.1,9.686A34.87,34.87,0,0,0-162,326.736c0,18.266,13.362,33.074,29.844,33.074H-107c20.013,0,36.24,17.983,36.24,40.162V253.5C-70.762,275.679-86.988,293.662-107,293.662Z"
               transform="translate(196 164.5)" fill="#dc6c85" />
-            <path class="leftSidebar_type" style="opacity: 0" data-type="5" id="Path_24922" data-name="Path 24922"
+            <path class="left_components_paging_bg" id="Path_24922" data-name="Path 24922"
               d="M-107,293.662h-25.155a28.388,28.388,0,0,0-21.1,9.686A34.87,34.87,0,0,0-162,326.736c0,18.266,13.362,33.074,29.844,33.074H-107c20.013,0,36.24,17.983,36.24,40.162V253.5C-70.762,275.679-86.988,293.662-107,293.662Z"
               transform="translate(195.761 283.264)" fill="#7fd1d8" />
-            <path class="leftSidebar_type" style="opacity: 0" data-type="3" id="Path_143735" data-name="Path 143735"
+            <path class="left_components_paging_bg" id="Path_143735" data-name="Path 143735"
               d="M-107,293.662h-25.155a28.388,28.388,0,0,0-21.1,9.686A34.87,34.87,0,0,0-162,326.736c0,18.266,13.362,33.074,29.844,33.074H-107c20.013,0,36.24,17.983,36.24,40.162V253.5C-70.762,275.679-86.988,293.662-107,293.662Z"
               transform="translate(195.761 57.264)" fill="#7fd1d8" />
             <g id="Group_8099" data-name="Group 8099" transform="translate(-1.874 20)">
@@ -408,70 +406,38 @@
           </g>
         </svg>
       </div>
-      <div class="row">
-        <div class="col-10 m-auto">
+      <div class="row newDesign_hintPage">
+        <div class="col-8 col-md-10 m-auto newDesign_hintPage">
           <div class="newDesign_container_main_title-cont newDesign_container_main_title-cont-margin">
-            <h1 class="newDesign_container_main_title">ცოცხალი სამყარო</h1>
+            <h1 class="newDesign_container_main_title">ბირთვი</h1>
             <img src="../../img/icons/main_title-border.svg" alt="img" class="newDesign_container_main_title-img">
           </div>
-          <div class="row">
-            <div class="col-8 m-auto">
+          <div class="row align-items-center mt-5vh">
+            <div class="col-7">
+              <img src="../../img/gakvetilebi/buneba/Bruca-07/N-07-27.png" alt="img" 
+              class="cell_hint-img">
+            </div>
+            <div class="col-5">
               <div class="newDesign_subject_question_item">
-            <img src="../../img/icons/newDesign_btn-yellow.svg" alt="img" class="newDesign_subject_question_item-img">
-            <p class="newDesign_subject_question_item-title">კითხვის დასმა - რატომ არის არსება ბრმა?</p>
-          </div>
-          <div class="newDesign_subject_question_item">
-            <img src="../../img/icons/newDesign_btn-yellow.svg" alt="img" class="newDesign_subject_question_item-img">
-            <p class="newDesign_subject_question_item-title">
-              ვარაუდის გამოთქმა - შეიძლება, იცხოვრო ისე, რომ არ გჭირდებოდეს მხედველობა?
-            </p>
-          </div>
-          <div class="newDesign_subject_question_item">
-            <img src="../../img/icons/newDesign_btn-yellow.svg" alt="img" class="newDesign_subject_question_item-img">
-            <p class="newDesign_subject_question_item-title">კვლევა-ძიების ციკლი - რა ნაბიჯებისგან შედგება კვლევა?</p>
-          </div>
-          <div class="newDesign_subject_question_item">
-            <img src="../../img/icons/newDesign_btn-yellow.svg" alt="img" class="newDesign_subject_question_item-img">
-            <p class="newDesign_subject_question_item-title">
-              დაკვირვება და აღწერა - გავარკვიოთ, როგორი ცოცხალი არსებები ცხოვრობენ დედამიწაზე.
-            </p>
-          </div>
-          <div class="newDesign_subject_question_item">
-            <img src="../../img/icons/newDesign_btn-yellow.svg" alt="img" class="newDesign_subject_question_item-img">
-            <p class="newDesign_subject_question_item-title">
-              დასკვნის გამოტანა - ცხოველის აგებულება შეგუებულია საარსებო გარემოს.
-            </p>
-          </div>
-          <div class="newDesign_subject_question_item">
-            <img src="../../img/icons/newDesign_btn-yellow.svg" alt="img" class="newDesign_subject_question_item-img">
-            <p class="newDesign_subject_question_item-title">დასკვნის შედარება ვარუდთან - ბრუცას ცხოვრების ნირი.</p>
-          </div>
-          <div class="newDesign_subject_question_item">
-            <img src="../../img/icons/newDesign_btn-yellow.svg" alt="img" class="newDesign_subject_question_item-img">
-            <p class="newDesign_subject_question_item-title">ახალი ცოდნის გაზიარება - შევარჩიოთ ცხოველი ჩვენი კლასისთვის.</p>
-          </div>
+                <img src="../../img/icons/newDesign_btn-yellow.svg" alt="img"
+                  class="newDesign_subject_question_item-img">
+                <p class="newDesign_subject_question_item-title">
+                  მთავარი ნაწილი, რომელიც მართავს მთელ უჯრედს და შეიცავს ცოცხალი არსების მემკვიდრეობით ინფორმაციას.
+                </p>
+              </div>
+              <div class="newDesign_subject_question_item">
+                <img src="../../img/icons/newDesign_btn-yellow.svg" alt="img"
+                  class="newDesign_subject_question_item-img">
+                <p class="newDesign_subject_question_item-title">
+                  ბირთვი შეიძლება, შევადაროთ უჯრედის „ტვინს“.
+                </p>
+              </div>
             </div>
           </div>
         </div>
-
       </div>
     </section>
   </div>
-  
-
-
-  
-    <div class="our__pagination flex">
-        <a href="#" class="pagination__prev__btn">
-            <img style="transform: rotate(180deg)" src="../../img/icons/chevron-left-icon.svg" alt="">
-        </a>
-        
-        <div id="pagination" class="flex align-items-center"></div>
-
-        <a href="#" class="pagination__next__btn">
-            <img src="../../img/icons/chevron-left-icon.svg" alt="">
-        </a>
-    </div>
 
 
   <!-- ჩეთბოტი -->
@@ -479,14 +445,14 @@
     <app-bot></app-bot>
   </div>
 
+  <script src="../../js/libraries/jquery-3.4.1.min.js"></script>
+  <script src="../../js/libraries/bootstrap.min.js"></script>
 
-    <script src="../../js/libraries/jquery-3.4.1.min.js"></script>
-    <script src="../../js/Pagination.js"></script>
+  <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
+  <script src="../../Vue-chatBot/botApp.js"></script>
+  <script src="../../js/bot.js"></script>
 
-    
-    <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
-    <script src="../../Vue-Header/app.js"></script>
-    <script src="../../Vue-chatBot/botApp.js"></script>
-    <script src="../../js/bot.js"></script>
+
 </body>
+
 </html>

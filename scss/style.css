@@ -494,7 +494,8 @@
   margin: 0 10px;
 }
 
-.voice-mail-play-pause {
+.voice-mail-play,
+.voice-mail-pause {
   width: 12px;
   cursor: pointer;
 }
@@ -927,7 +928,9 @@ body {
     max-width: 1300px;
   }
 }
-.current__pagination {
+.current__pagination,
+.pagination__prev__btn,
+.pagination__next__btn {
   width: 36px;
   height: 36px;
   box-shadow: 0 3px 6px #7FD1D8;
@@ -943,6 +946,14 @@ body {
   cursor: pointer;
 }
 
+.pagination__prev__btn {
+  margin-right: 12px;
+}
+
+.pagination__next__btn {
+  margin-left: 12px;
+}
+
 .pagination__dot {
   width: 10px;
   height: 10px;
@@ -954,10 +965,28 @@ body {
 
 .our__pagination {
   align-items: center;
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .pagination__item {
   margin-right: 4px;
+}
+
+.voice__maile {
+  max-width: 173px;
+  background-color: #f1f0f0;
+  position: relative;
+  border-radius: 30px;
+}
+
+.voice__hr {
+  border-bottom: 2px solid #4b4f56;
+  margin-left: 28px;
+  margin-right: 44px;
+  padding-top: 13px;
 }
 
 header {
@@ -1826,14 +1855,13 @@ section .arrow_up_down_downArrow img {
 .close {
   z-index: 99999;
   position: relative;
-  height: 6vh;
-  width: 6vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: white;
-  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
-  border-radius: 50%;
+  opacity: 1;
+}
+.close img {
+  height: 7.46vh;
 }
 
 .nature_full_image-box {
@@ -2357,7 +2385,7 @@ section .arrow_up_down_downArrow img {
 
 .newDesign_subject_question_item {
   display: flex;
-  margin-bottom: 2vh;
+  margin-bottom: 1.5vh;
 }
 .newDesign_subject_question_item-img {
   height: 5.4vh;
@@ -2386,8 +2414,9 @@ section .arrow_up_down_downArrow img {
   left: 2vh;
   top: 5vh;
 }
-.left_components_paging_bg {
-  opacity: 0;
+
+.newDesign_hintPage {
+  margin-top: 5vh;
 }
 
 /* 
@@ -6776,7 +6805,8 @@ section .arrow_up_down_downArrow img {
   margin: 0 10px;
 }
 
-.voice-mail-play-pause {
+.voice-mail-play,
+.voice-mail-pause {
   width: 12px;
   cursor: pointer;
 }
@@ -13482,6 +13512,29 @@ td img {
 
 .bruca_circle-img {
   height: 50.52vh;
+  margin-top: 4vh;
+}
+
+.recomendations_link {
+  color: #0B2228;
+  display: inline-block;
+  margin-top: 2vh;
+}
+.recomendations_link-cont {
+  font-family: "NotoSans-Regular";
+  font-size: 1.82vh;
+  margin-top: 1.5vh;
+}
+
+.cell_hint-img {
+  width: 38.57vw;
+}
+.cell_hint-img-sm {
+  width: 28.84vw;
+}
+
+.animal-clasification-img {
+  height: 35vh;
   margin-top: 4vh;
 }
 

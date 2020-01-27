@@ -1,10 +1,6 @@
 document.addEventListener('DOMContentLoaded', async () => {
     var json = await $.getJSON("data.json");
-
     createDots(json)
-
-    // let htmlAttr = $('html').attr('pageId');
-    // let htmlDinamicalyAttr = $('html').attr('dinamicaly-pageId');
 })
 
 
@@ -20,8 +16,10 @@ function createCurrentDots(num, a) {
 
 function createDots(json) {
     let pages = json.pages;
-    let htmlAttr = $('html').attr('pageid')
-
+    let htmlAttr = $('html').attr('pageid');
+    let htmlAttrType = $('html').attr('data-type');
+    let nextBtn = document.querySelector('.pagination__next__btn');
+console.log(json);
     pages.map(i => {
         let div = document.createElement('div');
         $(div).addClass('pagination__item')
@@ -38,9 +36,34 @@ function createDots(json) {
         $(pagination).append(div)
 
         if(htmlAttr == i.number){
-            createCurrentDots(i.number, a)
+            createCurrentDots(i.number, a);
+            getTypes(i.type);
+            getNextAndPrevBtn(json.pages_number, pages.length, i.number - 1)
+        }
+    })
+}
+
+
+function getTypes(){
+    let types = document.querySelectorAll('.leftSidebar_type');
+
+    types.forEach(w => {
+        if(w.getAttribute('data-type') == $('html').attr('data-type')){
+            w.setAttribute('style', 'opacity: 1')
         }
     })
 
+}
 
+
+function getNextAndPrevBtn(pagesNum, next, prev) {
+    $('.pagination__prev__btn').attr('href', `${prev}.html`)
+    $('.pagination__next__btn').attr('href', `${next}.html`)
+
+    if(prev === 0){
+        document.querySelector('.pagination__prev__btn').setAttribute('href', 'javascript:void(0)')
+    }
+    if(pagesNum == next){
+        document.querySelector('.pagination__next__btn').setAttribute('href', 'javascript:void(0)')
+    }
 }

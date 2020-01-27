@@ -215,7 +215,9 @@ body {
 
 
 
-.current__pagination {
+.current__pagination,
+.pagination__prev__btn, 
+.pagination__next__btn {
   width: 36px;
   height: 36px;
   box-shadow: 0 3px 6px #7FD1D8;
@@ -230,6 +232,15 @@ body {
   font-family: "alk sanet";
   cursor: pointer;
 }
+
+
+.pagination__prev__btn {
+  margin-right: 12px;
+}
+.pagination__next__btn {
+  margin-left: 12px;
+}
+
 .pagination__dot {
   width: 10px;
   height: 10px;
@@ -241,8 +252,26 @@ body {
 
 .our__pagination {
   align-items: center;
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .pagination__item {
   margin-right: 4px;
+}
+
+.voice__maile {
+  max-width: 173px;
+  background-color: #f1f0f0;
+  position: relative;
+  border-radius: 30px;
+}
+
+.voice__hr {
+  border-bottom: 2px solid #4b4f56;
+  margin-left: 28px;
+  margin-right: 44px;
+  padding-top: 13px;
 }
