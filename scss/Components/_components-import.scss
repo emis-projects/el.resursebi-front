@@ -1,9 +1,9 @@
 // header component
-// @import "./header";
-@import "header_new";
-@import "burger";
-@import "top-bar";
-@import "pageSection";
+@import "./header";
+// @import "header_new";
+// @import "burger";
+// @import "top-bar";
+// @import "pageSection";
 
 // თამაშების ფუნჯების verlay
 @import "./_game-paint-overlay.scss";
@@ -87,3 +87,6 @@
 
 // ახალი დიზაინის paging კომპონენტი: ნაბიჯი;სავარჯიშო,მინიშნება;შუალედ.დავალება;კომპლექს.დავალება;
 @import './left_components_paging';
+
+// ახალი დიზაინის მინიშნების გვერის კონტეინერი;
+@import './newDesign_hintPage';
