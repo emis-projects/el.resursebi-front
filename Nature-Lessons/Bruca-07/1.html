@@ -9,6 +9,7 @@
     <!--  ვუე გაშვებისას
     <script src="./js/vue.min.js"></script>
      -->
+     <link rel="stylesheet" href="../../New-header-vue/animate.min.css">
     <link rel="stylesheet" href="../../scss/libraries/bootstrap.min.css">
     <link rel="stylesheet" href="../../scss/style.css" />
     <title>ელექტრონული საგანმანათლებლო რესურსი</title>
@@ -28,15 +29,32 @@
 
 <body>
     <div class="container">
-        <header id="app">
-            <nav class="row">
-                <app-logo v-logo="'../../'"></app-logo>
-                <app-menu v-menu:dark="'../../'"></app-menu>
-                <sound-lang></sound-lang>
-            </nav>
-        </header>
+        <section id="app" class="container position-absolute">
+            <header>
+                <app-menu v-logo="'../../'" :is-active="isActive" :toggle="toggle"></app-menu>
+            </header>
+    
+            <app-section v-image="'../../'">
+                <app-bar
+                        :is-active="isActive"
+                        :trigger="trigger"
+                        :dots="dots"
+                        :current-tab="link"
+                        v-on:link-tab="link = $event">
+    
+                </app-bar>
+                <component
+                        :is="currentTabComponent"
+                        :is-active="isActive"
+                        :trigger="trigger"
+                        :images="images"
+                        :active-class="activeClass"
+                        :tab-class="currentTabComponent">
+                </component>
+            </app-section>
+        </section>
 
-        <section>
+        <section id="mainPage">
             <div class="row">
                 <div class="left_components_paging-cont">
                     <svg class="left_components_paging" xmlns="http://www.w3.org/2000/svg"
@@ -423,23 +441,19 @@
         </section>
     </div>
 
-
-    <!-- ჩეთბოტი -->
-    <div id="chatBot">
-        <app-bot></app-bot>
-    </div>
-
-    
-    <script src="../../js/libraries/jquery-3.4.1.min.js"></script>
-    <script src="../../js/Pagination.js"></script>
-
-    
-    <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
-    <script src="../../Vue-Header/app.js"></script>
-    <script src="../../Vue-chatBot/botApp.js"></script>
-    <script src="../../js/bot.js"></script>
+<!-- ჩეთბოტი -->
+<div id="chatBot">
+    <app-bot></app-bot>
+</div>
 
 
+<script src="../../js/libraries/jquery-3.4.1.min.js"></script>
+<script src="../../js/Pagination.js"></script>
+
+
+<!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
+<script src="../../New-header-vue/app.js"></script>
+<script src="../../Vue-chatBot/botApp.js"></script>
+<script src="../../js/bot.js"></script>
 </body>
-
 </html>
