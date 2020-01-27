@@ -1318,6 +1318,16 @@ body {
   box-shadow: none;
 }
 
+#app header {
+  position: relative;
+  z-index: 9999999;
+}
+#app .section_box {
+  position: relative;
+  z-index: 9999999;
+  background-color: #fff;
+}
+
 .page-section {
   position: relative;
   height: 82vh;

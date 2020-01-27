@@ -37,27 +37,27 @@
 
 <body>
 <div class="container main-box_relative">
-    <section id="app" class="position-absolute left-0">
+    <section id="app" class="position-absolute">
         <header>
             <app-menu v-logo="'./'" :is-active="isActive" :toggle="toggle"></app-menu>
         </header>
 
         <app-section>
             <app-bar
-                :is-active="isActive"
-                :trigger="trigger"
-                :dots="dots"
-                :current-tab="link"
-                v-on:link-tab="link = $event">
+                    :is-active="isActive"
+                    :trigger="trigger"
+                    :dots="dots"
+                    :current-tab="link"
+                    v-on:link-tab="link = $event">
 
             </app-bar>
             <component
-                :is="currentTabComponent"
-                :is-active="isActive"
-                :trigger="trigger"
-                :images="images"
-                :active-class="activeClass"
-                :tab-class="currentTabComponent">
+                    :is="currentTabComponent"
+                    :is-active="isActive"
+                    :trigger="trigger"
+                    :images="images"
+                    :active-class="activeClass"
+                    :tab-class="currentTabComponent">
             </component>
         </app-section>
     </section>

@@ -15,6 +15,16 @@ Vue.directive('logo', {
     }
 });
 
+Vue.directive('image', {
+    bind(el, binding, vnode){
+        vnode.context.$data.images.IT = binding.value + 'New-header-vue/header-img/arts/IT-artwork.svg';
+        vnode.context.$data.images.art = binding.value + 'New-header-vue/header-img/arts/art-artwork.svg';
+        vnode.context.$data.images.nature = binding.value + 'New-header-vue/header-img/arts/nature-artwork.svg';
+        vnode.context.$data.images.music = binding.value + 'New-header-vue/header-img/arts/music-artwork.svg';
+    }
+});
+
+
 //menu component ნავბარის კომპონენტი
 Vue.component('appMenu', {
     data() {
@@ -99,7 +109,7 @@ Vue.component('appMenu', {
 //section component სექციის კომპონენტი (გენერირდება დინამიურად)
 Vue.component('appSection', {
     template: `
-       <section>
+       <section class="section_box">
             <slot></slot>
        </section>
     `,

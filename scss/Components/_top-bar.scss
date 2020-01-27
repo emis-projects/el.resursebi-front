@@ -37,3 +37,15 @@
     box-shadow: none;
   }
 }
+
+#app {
+  header{
+    position: relative;
+    z-index: 9999999;
+  }
+  .section_box{
+    position: relative;
+    z-index: 9999999;
+    background-color: #fff;
+  }
+}
