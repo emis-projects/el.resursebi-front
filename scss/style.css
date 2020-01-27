@@ -542,6 +542,41 @@
   background: transparent;
 }
 
+.voice__mail__child {
+  background-color: #f1f0f0;
+  border-radius: 12px;
+  width: 113.464px;
+  height: 28px;
+  border: 1px solid transparent;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.voice-mail-hr {
+  width: 30px;
+  height: 2px;
+  background: #4b4f56;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.voice-mail-play-pause {
+  width: 12px;
+  cursor: pointer;
+}
+
 @font-face {
   font-family: 'ALK Sanet';
   src: url("../fonts/alk-sanet/alk-sanet-webfont.eot");
@@ -773,7 +808,7 @@ a:active {
 }
 
 body {
-  color: #0b2228;
+  color: #262626;
   font-size: 14px;
   line-height: 21px;
 }
@@ -1008,10 +1043,9 @@ body {
   margin-right: 15px;
 }
 
-section {
+/*section {
   padding-top: 6vh;
-}
-
+}*/
 #rainbowGame {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -2415,6 +2449,10 @@ section .arrow_up_down_downArrow img {
   position: absolute;
   left: 2vh;
   top: 5vh;
+}
+
+.newDesign_hintPage {
+  margin-top: 5vh;
 }
 
 /* 
@@ -7383,6 +7421,41 @@ section .arrow_up_down_downArrow img {
   background: transparent;
 }
 
+.voice__mail__child {
+  background-color: #f1f0f0;
+  border-radius: 12px;
+  width: 113.464px;
+  height: 28px;
+  border: 1px solid transparent;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.voice-mail-hr {
+  width: 30px;
+  height: 2px;
+  background: #4b4f56;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.voice-mail-play-pause {
+  width: 12px;
+  cursor: pointer;
+}
+
 .n-compass-img {
   height: 51.04vh;
   margin-top: -20vh;
@@ -10845,25 +10918,25 @@ section .arrow_up_down_downArrow img {
   margin-right: 9vw;
 }
 
-#1 p {
+#C-1366-41 p {
   font-size: 2.864vh;
   font-family: 'BPG Arial', sans-serif;
 }
 
-#1 .draggable_text_box {
+#C-1366-41 .draggable_text_box {
   margin-top: 6.9vh;
 }
 
-#1 .m-9 {
+#C-1366-41 .m-9 {
   margin: 9vh 0;
 }
 
-#1 .image_box div {
+#C-1366-41 .image_box div {
   height: 16vh;
   max-height: 128px;
 }
 
-#1 .image_box div img {
+#C-1366-41 .image_box div img {
   height: 100%;
   margin: 0 auto;
 }
@@ -13123,8 +13196,12 @@ section .arrow_up_down_downArrow img {
 }
 
 #N-1366-06-39 .N-1366-03-153 {
-  background-image: url("../img/gakvetilebi/buneba/Summer-in-winter/comix-39.png");
-  background-position: center;
+  height: 100vh;
+}
+
+#N-1366-06-39 .N-1366-03-153 svg {
+  height: 100%;
+  width: 100%;
 }
 
 .nature-text-wrapper_16 {
@@ -13133,7 +13210,6 @@ section .arrow_up_down_downArrow img {
   height: 16vh;
   left: 0;
   right: 0;
-  background: #fff;
   background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
   background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
 }
@@ -13271,7 +13347,7 @@ section .arrow_up_down_downArrow img {
 .N-1366-05-41-laptop-img-container {
   height: 33.91vh;
   position: absolute;
-  top: 30.81vh;
+  top: 33.81vh;
   right: 17.42vw;
 }
 
@@ -13321,7 +13397,7 @@ section .arrow_up_down_downArrow img {
 }
 
 .con {
-  margin-top: 18.69vh;
+  margin-top: 11.69vh;
   margin-left: 25px;
 }
 
@@ -13332,7 +13408,7 @@ section .arrow_up_down_downArrow img {
 .N-1366-05-41-laptop-img-container {
   height: 33.91vh;
   position: absolute;
-  top: 30.81vh;
+  top: 33.81vh;
   right: 17.42vw;
 }
 
@@ -13382,7 +13458,7 @@ section .arrow_up_down_downArrow img {
 }
 
 .con {
-  margin-top: 18.69vh;
+  margin-top: 11.69vh;
   margin-left: 25px;
 }
 
@@ -15019,10 +15095,6 @@ td img {
   text-align: center;
 }
 
-.new_slider_main {
-  margin-top: 4vh;
-}
-
 .new_slider_main-illustration {
   height: 75.78vh;
   width: auto;
@@ -15060,8 +15132,9 @@ td img {
 
 .new_btn-start {
   background: white;
-  -webkit-box-shadow: 2px 2px 8px rgba(127, 209, 216, 0.4);
-          box-shadow: 2px 2px 8px rgba(127, 209, 216, 0.4);
+  padding: 1.7vh 6.8vh;
+  -webkit-box-shadow: 2px 2px 8px rgba(127, 209, 216, 0.6);
+          box-shadow: 2px 2px 8px rgba(127, 209, 216, 0.6);
   border-radius: 5vh;
   font-family: "ALK Sanet", sans-serif;
   color: #7fd1d8;
@@ -15093,6 +15166,10 @@ td img {
   margin-top: 12vh;
 }
 
+#mainPage {
+  padding-top: 20vh;
+}
+
 .owl-carousel .owl-stage-outer .new_slider_main-item {
   -webkit-box-align: start;
       -ms-flex-align: start;
@@ -15103,9 +15180,9 @@ td img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
   margin-top: -15px;
 }
 
@@ -15145,19 +15222,19 @@ td img {
 }
 
 #mainPage .owl-theme .owl-dots .owl-dot.active:nth-child(1) span {
-  background-image: url("../../../img/slider/dots_purple.svg");
+  background-image: url("../img/slider/dots_purple.svg");
 }
 
 #mainPage .owl-theme .owl-dots .owl-dot.active:nth-child(2) span {
-  background-image: url("../../../img/slider/dots_pink.svg");
+  background-image: url("../img/slider/dots_pink.svg");
 }
 
 #mainPage .owl-theme .owl-dots .owl-dot.active:nth-child(3) span {
-  background-image: url("../../../img/slider/dots_yellow.svg");
+  background-image: url("../img/slider/dots_yellow.svg");
 }
 
 #mainPage .owl-theme .owl-dots .owl-dot.active:nth-child(4) span {
-  background-image: url("../../../img/slider/dots_blue.svg");
+  background-image: url("../img/slider/dots_blue.svg");
 }
 
 #mainPage .owl-theme .owl-dots .owl-dot.active:nth-child(1) span:before {
@@ -15281,8 +15358,11 @@ td img {
 }
 
 .cell_hint-img {
-  height: 38.80vh;
-  width: 100%;
+  width: 38.57vw;
+}
+
+.cell_hint-img-sm {
+  width: 28.84vw;
 }
 
 .canvas-container {
@@ -15301,3 +15381,4 @@ td img {
   display: -ms-flexbox;
   display: flex;
 }
+/*# sourceMappingURL=style.css.map */
