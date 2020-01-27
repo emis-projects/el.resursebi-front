@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', async () => {
 })
 
 
-
 function createCurrentDots(num, a) {
     $(a).removeClass('pagination__dot')
     $(a).addClass('current__pagination')
@@ -15,13 +14,16 @@ function createCurrentDots(num, a) {
 
 
 function createDots(json) {
-    let pages = json.pages;
-    let htmlAttr = $('html').attr('pageid');
-    let htmlAttrType = $('html').attr('data-type');
-    let nextBtn = document.querySelector('.pagination__next__btn');
-console.log(json);
+    var pages = json.pages;
+    var htmlAttr = parseInt($('html').attr('pageid'));
+    var htmlAttrType = $('html').attr('data-type');
+    var htmlAttrAllPage = parseInt($('html').attr('pages-number'));
+
+    console.log(json);
+
     pages.map(i => {
         let div = document.createElement('div');
+
         $(div).addClass('pagination__item')
 
         let a = document.createElement('a');
@@ -36,9 +38,12 @@ console.log(json);
         $(pagination).append(div)
 
         if(htmlAttr == i.number){
+            let nextElement = parseInt(i.number);
+            let prevElement = parseInt(i.number);
+
             createCurrentDots(i.number, a);
             getTypes(i.type);
-            getNextAndPrevBtn(json.pages_number, pages.length, i.number - 1)
+            getNextAndPrevBtn(htmlAttrAllPage, nextElement, prevElement)
         }
     })
 }
@@ -56,14 +61,21 @@ function getTypes(){
 }
 
 
-function getNextAndPrevBtn(pagesNum, next, prev) {
-    $('.pagination__prev__btn').attr('href', `${prev}.html`)
-    $('.pagination__next__btn').attr('href', `${next}.html`)
-
-    if(prev === 0){
-        document.querySelector('.pagination__prev__btn').setAttribute('href', 'javascript:void(0)')
-    }
-    if(pagesNum == next){
+function getNextAndPrevBtn(pagesLength, next, prev) {
+    let htmlAttr = parseInt($('html').attr('pageid'));
+    
+    if (htmlAttr == pagesLength){
         document.querySelector('.pagination__next__btn').setAttribute('href', 'javascript:void(0)')
+    
+    } else {
+        next = next + 1;
+        $('.pagination__next__btn').attr('href', `${next}.html`)
+    }
+
+    if(prev == 1){
+        document.querySelector('.pagination__prev__btn').setAttribute('href', 'javascript:void(0)')
+    } else {
+        prev = prev - 1
+        $('.pagination__prev__btn').attr('href', `${prev}.html`)
     }
 }

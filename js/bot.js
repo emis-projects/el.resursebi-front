@@ -4,18 +4,6 @@ var msgInput = $("#chatSend");
 let getTag = document.getElementById("chat_fullscreen");
 let botImg = null;
 
-// sound js 
-createjs.Sound.on("fileload", handleLoadComplete);
-createjs.Sound.alternateExtensions = ["wav"];
-
-function handleLoadComplete(event) {
-    createjs.Sound.play("sound");
-}
-
-function handleLoadstop(event) {
-   createjs.Sound.stop("sound");
-}
-
 
 // check if value is ""
 $(msgInput).keyup(function () {
@@ -67,6 +55,17 @@ function sendMessageFromBot(res) {
 
 
         } else if(w.type == 2){
+            // sound js 
+            createjs.Sound.on("fileload", handleLoadComplete);
+            createjs.Sound.alternateExtensions = ["wav"];
+
+            function handleLoadComplete(event) {
+                createjs.Sound.play("sound");
+            }
+
+            function handleLoadstop(event) {
+            createjs.Sound.stop("sound");
+            }
 
             var div1 = document.createElement('div');
             div1.classList.add('voice__maile');
