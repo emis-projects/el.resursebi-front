@@ -147,7 +147,8 @@ Vue.component('appStart', {
             type: Function,
             required: true
         },
-        tabClass: String
+        tabClass: String,
+        images: Object
     },
     template: `
         <transition 
@@ -159,25 +160,25 @@ Vue.component('appStart', {
                 <div v-if="isActive" class="page-section" :class="'app-start'">
                     <div class="row">
                         <div class="col-3 main-lesson-start-cont">
-                          <img alt="music" src="./img/gakvetilebi/musika/musika-artwork.svg" class="main-lesson-start-img" />
+                          <img alt="music" :src="images.music" class="main-lesson-start-img" />
                           <div class="new_btn-start-cont ">
-                            <a @click="trigger('start', 'მუსიკა')" class="new_btn-start">მუსიკა</a>
+                            <a @click="trigger('select', 'მუსიკა')" class="new_btn-start">მუსიკა</a>
                           </div>
                         </div>
                         <div class="col-3 main-lesson-start-cont">
-                          <img alt="art" src="./img/gakvetilebi//xelovneba/xelovneba-artwork.svg" class="main-lesson-start-img" />
+                          <img alt="art" :src="images.art" class="main-lesson-start-img" />
                           <div class="new_btn-start-cont">
                             <a @click="trigger('select', 'ხელოვნება')" class="new_btn-start">ხელოვნება</a>
                           </div>
-                        </div>
+                        </div>  
                         <div class="col-3 main-lesson-start-cont">
-                          <img alt="nature" src="./img/gakvetilebi/buneba/buneba-artwork.svg" class="main-lesson-start-img" />
+                          <img alt="nature" :src="images.nature" class="main-lesson-start-img" />
                           <div class="new_btn-start-cont">
                             <a @click="trigger('select', 'ბუნება')" class="new_btn-start">ბუნება</a>
                           </div>
                         </div>
                         <div class="col-3 main-lesson-start-cont">
-                          <img alt="computer" src="./img/gakvetilebi/Computer-Science/main_img.png" class="main-lesson-start-img" />
+                          <img alt="computer" :src="images.IT" class="main-lesson-start-img" />
                           <div class="new_btn-start-cont">
                             <a @click="trigger('select', 'კომპიუტერული მეცნიერება')" class="new_btn-start">კომპიუტერული მეცნიერება</a>
                           </div>
@@ -194,6 +195,7 @@ Vue.component('appSelect', {
     props: {
         tabClass: String,
         activeClass: String,
+        images: Object,
         isActive: {
             type: Boolean,
             required: true
@@ -215,6 +217,17 @@ Vue.component('appSelect', {
             } else {
                 return this.class.IT
             }
+        },
+        artImage() {
+            if (this.activeClass === 'მუსიკა') {
+                return this.images.music;
+            } else if (this.activeClass === 'ხელოვნება') {
+                return this.images.art;
+            } else if (this.activeClass === 'ბუნება') {
+                return this.images.nature;
+            } else {
+                return this.images.IT
+            }
         }
     },
     template: `
@@ -230,11 +243,18 @@ Vue.component('appSelect', {
                     <div class="col-12">
                         <h5 class="app-select_title">{{ activeClass }}</h5>
                     </div>
-                    <div class="col-4 app-select_box" v-for="title in titleCheck" :key="title.id">
+                    <div v-for="title in titleCheck" :key="title.id" class="col-4 app-select_box">
                         <div class="row">
                             <div class="col-10 app-select_box-content d-flex justify-content-center align-items-center">
-                                 <a href="#">{{ title.name }}</a>
+                                 <a :href="title.link">{{ title.name }}</a>
                             </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row app-select_artwork">
+                    <div class="col-12">
+                        <div class="app-select_artwork_image-box ml-auto">
+                            <img :src="artImage" alt="art">
                         </div>
                     </div>
                 </div>
@@ -292,6 +312,12 @@ var app = new Vue({
     data: {
         isActive: false,
         link: 'start',
+        images: {
+            IT: './New-header-vue/header-img/arts/IT-artwork.svg',
+            art: './New-header-vue/header-img/arts/art-artwork.svg',
+            nature: './New-header-vue/header-img/arts/nature-artwork.svg',
+            music: './New-header-vue/header-img/arts/music-artwork.svg'
+        },
         dots: [
             {name: 'start', id: 0, disable: false, classActive: true},
             {name: 'select', id: 1, disable: true, classActive: false},
@@ -315,7 +341,9 @@ var app = new Vue({
                     dot.disable = true;
                     dot.classActive = false;
                 }
-            })
+            });
+            this.link = 'start'
+            this.activeClass = ''
         },
         trigger(val, data) {
             this.activeClass = data;
@@ -346,63 +374,76 @@ var app = new Vue({
 });
 
 
+//ვუს ცვლადების შეცვლა სლაიდერის დაწყებაზე კლიკისას
+function startPage(val) {
+    app.$data.link = 'select';
+    app.$data.isActive = true;
+    app.$data.activeClass = val;
+    console.log('fire')
+}
 
 // გაკვეთილიების სათაურები
 let title = {
     music: [
-        {id: 1, name: 'ხმები',},
-        {id: 2, name: 'მუსიკალური კომპოზიცია'},
-        {id: 3,  name: 'გასეირნება ქალაქში'},
-        {id: 4, name: 'მუსიკალური ქალაქი'},
-        {id: 5, name: 'მუსიკალური ქალაქი'},
-        {id: 6, name: 'ჩემი ცხოვრების ერთი დღე'},
-        {id: 7, name: 'საინტერესოდ გატარებული დღე'},
-        {id: 8, name: ''},
-        {id: 9, name: ''},
-        {id: 10, name: ''},
-        {id: 11, name: ''},
-        {id: 12, name: ''}
+        {id: 1, name: 'ხმები', link: './Music-Lessons/Voices/M-1366-9.html'},
+        {id: 2, name: 'მუსიკალური კომპოზიცია', link: './Music-Lessons/Voices/M-1366-17.html'},
+        {id: 3, name: 'გასეირნება ქალაქში', link: './Music-Lessons/Walk-in-the-city-1/M-1366-03-1.html'},
+        {id: 4, name: 'მუსიკალური ქალაქი', link: './Music-Lessons/musical_city/M-1366-04-1.html'},
+        {id: 5, name: 'ჩემი ცხოვრების ერთი დღე', link: './Music-Lessons/Day-of-my-life/M-1366-05-1.html'},
+        {id: 6, name: 'საინტერესოდ გატარებული დღე', link: './Music-Lessons/interesting-day/M-1366-06-1.html'},
+
+        // თუ დაემათება გაკვეთილები მუსიკას ყველა გავააქტიუროთ, link: '
+        /*{id: 7, name: '', link: '#'},
+        {id: 8, name: '', link: '#'},
+        {id: 9, name: '', link: '#'},
+        {id: 10, name: '', link: '#'},
+        {id: 11, name: '', link: '#'},
+        {id: 12, name: '', link: '#'}*/
     ],
     art: [
-        {id: 1, name: 'ფერებით მოთხრობილი ამბავი'},
-        {id: 2, name: 'მშვიდი და ბობოქარი'},
-        {id: 3, name: 'ტყე'},
-        {id: 4, name: 'ჯადოსნური ქვეყანა'},
-        {id: 5, name: 'თავგადასავალი'},
-        {id: 6, name: 'პეიზაჟი'},
-        {id: 7, name: 'ფერებით მოთხრობილი ამბავი'},
-        {id: 8, name: 'მშვიდი და ბობოქარი'},
-        {id: 9, name: 'სათაური'},
-        {id: 10, name: 'სათაური'},
-        {id: 11, name: 'სათაური'},
-        {id: 12, name: 'სათაური'},
+        {id: 1, name: 'ფერებით მოთხრობილი ამბავი', link: './Art-Lessons/color_story/1366-236.html'},
+        {id: 2, name: 'მშვიდი და ბობოქარი', link: './Art-Lessons/calm_and_stormy/A-1366-73.html'},
+        {id: 3, name: 'ტყე', link: './Art-Lessons/forest/A-1366-03-1.html'},
+        {id: 4, name: 'ჯადოსნური ქვეყანა', link: './Art-Lessons/Magic-world/A-1366-04-2.html'},
+        {id: 5, name: 'თავგადასავალი', link: './Art-Lessons/Adventure/A-1366-05-2.html'},
+        {id: 6, name: 'პეიზაჟი', link: './Art-Lessons/Landscape/A-1366-06-1.html'},
+        {id: 7, name: 'სათაური', link: '#'},
+        {id: 8, name: 'სათაური', link: '#'},
+        {id: 9, name: 'სათაური', link: '#'},
+        {id: 10, name: 'სათაური', link: '#'},
+        {id: 11, name: 'სათაური', link: '#'},
+        {id: 12, name: 'სათაური', link: '#'},
     ],
     nature: [
-        {id: 1, name: 'საშიში სათამაშოები'},
-        {id: 2, name: 'უხილავი ძალები'},
-        {id: 3, name: 'რატომ იცვალა ტყემ ფერი?'},
-        {id: 4, name: 'რატომ მოიწყინა ჩემმა ყვავილმა'},
-        {id: 5, name: 'სად დაიმალა მზე?'},
-        {id: 6, name: 'შეიძლება ზაფხული ზამთარში იყოს?'},
-        {id: 7, name: 'სათაური'},
-        {id: 8, name: 'სათაური'},
-        {id: 9, name: 'სათაური'},
-        {id: 10, name: 'სათაური'},
-        {id: 11, name: 'სათაური'},
-        {id: 12, name: 'სათაური'}
+        {id: 1, name: 'საშიში სათამაშოები', link: './Nature-Lessons/N-1366-11.html'},
+        {id: 2, name: 'უხილავი ძალები', link: './Nature-Lessons/N-1366-11.html'},
+        {id: 3, name: 'რატომ იცვალა ტყემ ფერი?', link: './Nature-Lessons/N-1366-11.html'},
+        {id: 4, name: 'რატომ მოიწყინა ჩემმა ყვავილმა', link: './Nature-Lessons/N-1366-11.html'},
+        {id: 5, name: 'სად დაიმალა მზე?', link: './Nature-Lessons/N-1366-11.html'},
+        {id: 6, name: 'შეიძლება ზაფხული ზამთარში იყოს?', link: './Nature-Lessons/N-1366-11.html'},
+        {id: 7, name: 'სათაური', link: '#'},
+        {id: 8, name: 'სათაური', link: '#'},
+        {id: 9, name: 'სათაური', link: '#'},
+        {id: 10, name: 'სათაური', link: '#'},
+        {id: 11, name: 'სათაური', link: '#'},
+        {id: 12, name: 'სათაური', link: '#'}
     ],
     IT: [
-        {id: 1, name: 'კომპიუტერი და მისი შემადგენელი ნაწილები'},
-        {id: 2, name: 'ალგორითმი'},
-        {id: 3, name: 'სათაური'},
-        {id: 4, name: 'სათაური'},
-        {id: 5, name: 'სათაური'},
-        {id: 6, name: 'სათაური'},
-        {id: 7, name: 'სათაური'},
-        {id: 8, name: 'სათაური'},
-        {id: 9, name: 'სათაური'},
-        {id: 10, name: 'სათაური'},
-        {id: 11, name: 'სათაური'},
-        {id: 12, name: 'სათაური'}
+        {
+            id: 1,
+            name: 'კომპიუტერი და მისი შემადგენელი ნაწილები',
+            link: './Computer-Science/Computer_parts/C-1366-01-01.html'
+        },
+        {id: 2, name: 'ალგორითმი', link: '#'},
+        {id: 3, name: 'სათაური', link: '#'},
+        {id: 4, name: 'სათაური', link: '#'},
+        {id: 5, name: 'სათაური', link: '#'},
+        {id: 6, name: 'სათაური', link: '#'},
+        {id: 7, name: 'სათაური', link: '#'},
+        {id: 8, name: 'სათაური', link: '#'},
+        {id: 9, name: 'სათაური', link: '#'},
+        {id: 10, name: 'სათაური', link: '#'},
+        {id: 11, name: 'სათაური', link: '#'},
+        {id: 12, name: 'სათაური', link: '#'}
     ]
 }

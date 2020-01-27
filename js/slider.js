@@ -6,5 +6,7 @@ owl.owlCarousel({
   items: 1,
   touchDrag: true,
   slideTransition: "linear",
-  autoplay: true
+  autoplay: true,
+  autoplayTimeout: 4000,
+  autoplaySpeed: 750
 });

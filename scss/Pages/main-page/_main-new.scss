@@ -3,8 +3,19 @@
         text-align: center;
         .new_btn-start-cont{
             margin-top: 7vh;
+            max-height: 40px;
+            height: 5vh;
+            padding: 0;
             display: flex;
             justify-content: center;
+            a{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100%;
+                width: 100%;
+                cursor: pointer;
+            }
         }
     }
     &-img{

@@ -4,6 +4,17 @@ var msgInput = $("#chatSend");
 let getTag = document.getElementById("chat_fullscreen");
 let botImg = null;
 
+// sound js 
+createjs.Sound.on("fileload", handleLoadComplete);
+createjs.Sound.alternateExtensions = ["wav"];
+
+function handleLoadComplete(event) {
+    createjs.Sound.play("sound");
+}
+
+function handleLoadstop(event) {
+   createjs.Sound.stop("sound");
+}
 
 
 // check if value is ""
@@ -32,9 +43,6 @@ if($('html').attr('data-botid') == '2318'){
 
 
 
-
-
-
 // bot message UI
 function sendMessageFromBot(res) {
     let div = document.createElement('div');
@@ -58,18 +66,42 @@ function sendMessageFromBot(res) {
             $(div).append(text)
 
 
-        } else if(w.type == 1){
-            let voiceMailContent = `
-                <div class="voice__maile">
-                    <div class="voice__mail__child">
-                        <img class="voice-mail-play-pause" src="../../img/icons/play-solid.svg" />
-                        <span class="voice-mail-hr"></span>
-                        <span class="voice-mail-duration">0:08</span>
-                    </div>
-                </div>
-            `
+        } else if(w.type == 2){
 
-            $(div).append(voiceMailContent)
+            var div1 = document.createElement('div');
+            div1.classList.add('voice__maile');
+            div1.setAttribute('data-voice', '');
+
+            var div2 = document.createElement('div')
+            div2.className = "voice__mail__child flex align-items-center";
+
+            var img = document.createElement('img');
+            img.setAttribute('id', 'play-pause-btn');
+            img.setAttribute('src', '/img/icons/play-solid.svg');
+            img.classList.add('voice-mail-play')
+            
+            div1.appendChild(div2);
+            div2.appendChild(img);
+
+            $(div).append(div1)
+
+            $(img).click((e) => {
+                if(e.target.getAttribute('class') == "voice-mail-play"){
+                    $(img).attr('src', '/img/icons/pause-solid.svg')
+                    $(img).removeClass('voice-mail-play')
+                    $(img).addClass('voice-mail-pause')
+                    $(div1).attr('data-voice', w.url)
+                    dynamicEvent(w.url, div1);
+                    handleLoadComplete()
+
+                } else if(e.target.getAttribute('class') == "voice-mail-pause"){
+                    handleLoadstop()
+                    $(img).removeClass('voice-mail-pause')
+                    $(img).addClass('voice-mail-play')
+                    $(img).attr('src', '/img/icons/play-solid.svg')
+                    $(div1).removeAttr('data-voice')
+                }
+            })
 
 
         } else if (w.type == 1) {
@@ -97,6 +129,7 @@ function sendMessageFromBot(res) {
 
             $(div).append(btndiv);
         }
+
         $(getTag).scrollTop($(getTag)[0].scrollHeight)
     })
 
@@ -105,6 +138,14 @@ function sendMessageFromBot(res) {
     $(getTag).scrollTop($(getTag)[0].scrollHeight)
 
 }
+
+
+function dynamicEvent(url, div1) {
+    div1.setAttribute('data-voice', url)
+    createjs.Sound.registerSound({src:`${div1.getAttribute('data-voice')}`, id:"sound"});   
+}
+
+
 
 
 // user message ui
@@ -167,9 +208,6 @@ $(document).on("click", ".image-popup-no-margins", function (e) {
 });
 
 
-
-
-
 function sendMessage(e) {
     e.preventDefault();
 
@@ -199,7 +237,6 @@ function sendMessage(e) {
     $(msgInput).val("");
     $(getTag).scrollTop($(getTag)[0].scrollHeight)
 }
-
 
 
 $("#sendMessage").click(function (e) {
