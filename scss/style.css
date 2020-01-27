@@ -2890,6 +2890,10 @@ section .arrow_up_down_downArrow img {
   top: 5vh;
 }
 
+.newDesign_hintPage {
+  margin-top: 5vh;
+}
+
 /* 
 *wow slider CSS section 
 */
@@ -15793,8 +15797,11 @@ td img {
 }
 
 .cell_hint-img {
-  height: 38.80vh;
-  width: 100%;
+  width: 38.57vw;
+}
+
+.cell_hint-img-sm {
+  width: 28.84vw;
 }
 
 .animal-clasification-img {
