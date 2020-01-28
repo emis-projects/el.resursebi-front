@@ -1,0 +1,23 @@
+{
+    "lesson_id": 7,
+    "lesson_name": "Bruca-07",
+    "subject": "nature",
+    "pages_number": 3,
+    "pages": [
+        {
+            "number": 1,
+            "url": "",
+            "type": 5
+        },
+        {
+            "number": 2,
+            "url": "",
+            "type": 3
+        },
+        {
+            "number": 3,
+            "url": "",
+            "type": 1
+        }
+    ]
+} 
