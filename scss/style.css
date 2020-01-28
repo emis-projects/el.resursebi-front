@@ -1095,16 +1095,24 @@ body {
 }
 
 .pagination__prev__btn {
-  margin-right: 12px;
+  margin-right: 2vh;
+}
+
+.pagination__prev__btn img {
+  height: 2vh;
 }
 
 .pagination__next__btn {
-  margin-left: 12px;
+  margin-left: 2vh;
+}
+
+.pagination__next__btn img {
+  height: 2vh;
 }
 
 .pagination__dot {
-  width: 10px;
-  height: 10px;
+  width: 2vh;
+  height: 2vh;
   display: inline-block;
   background-color: #00D5D5;
   border-radius: 50%;
@@ -1116,7 +1124,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   position: absolute;
-  bottom: 30px;
+  bottom: 4vh;
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
@@ -1544,6 +1552,7 @@ body {
   width: 342px;
   -webkit-box-shadow: 2px 2px 8px rgba(127, 209, 216, 0.4);
           box-shadow: 2px 2px 8px rgba(127, 209, 216, 0.4);
+  background-color: #fff;
   border-radius: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1602,7 +1611,6 @@ body {
 #app .section_box {
   position: relative;
   z-index: 9999999;
-  background-color: #fff;
 }
 
 .page-section {
@@ -1706,6 +1714,16 @@ body {
 
 .app-sections {
   background-color: magenta;
+}
+
+#app .bg_menu {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: #fff;
+  z-index: 5;
 }
 
 .color-game-paint-parent {
@@ -2839,6 +2857,11 @@ section .arrow_up_down_downArrow img {
   color: #0b2228;
 }
 
+.font-NotoSans-14 {
+  font-size: 1.9vh !important;
+  font-family: "NotoSans-Regular" !important;
+}
+
 .big-font-size-18px {
   font-size: 2.34vh;
   font-family: "BPG Arial";
@@ -2961,6 +2984,7 @@ section .arrow_up_down_downArrow img {
 
 .newDesign_hintPage {
   margin-top: 5vh;
+  padding-top: 10vh;
 }
 
 /* 
@@ -15675,7 +15699,7 @@ td img {
 }
 
 #mainPage {
-  padding-top: 20vh;
+  padding-top: 13vh;
 }
 
 .owl-carousel .owl-stage-outer .new_slider_main-item {
@@ -15891,6 +15915,10 @@ td img {
   width: 28.84vw;
 }
 
+.cell_hint-img-xs {
+  height: 52vh;
+}
+
 .nature-text-wrapper-newDesign {
   height: 17vh;
 }
@@ -15912,22 +15940,22 @@ td img {
 
 .comics_N-07-9 {
   background-image: url(../img/gakvetilebi/buneba/Bruca-07/N-07-9.png);
-  background-position: bottom center;
+  background-position: center;
 }
 
 .comics_N-07-11 {
   background-image: url(../img/gakvetilebi/buneba/Bruca-07/N-07-11.png);
-  background-position: bottom center;
+  background-position: center;
 }
 
 .comics_N-07-12 {
   background-image: url(../img/gakvetilebi/buneba/Bruca-07/N-07-12.png);
-  background-position: bottom center;
+  background-position: center;
 }
 
 .comics_N-07-14 {
   background-image: url(../img/gakvetilebi/buneba/Bruca-07/N-07-14.png);
-  background-position: bottom center;
+  background-position: center;
 }
 
 .comics_N-07-15 {
@@ -15957,7 +15985,7 @@ td img {
 
 .comics_N-07-31 {
   background-image: url(../img/gakvetilebi/buneba/Bruca-07/N-07-31.png);
-  background-position: bottom center;
+  background-position: center;
 }
 
 .comics_N-07-32 {
