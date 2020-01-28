@@ -1,8 +1,10 @@
 .cell_hint-img{
-    // height: 38.80vh;
-    // width: 100%;;
     width: 38.57vw;
     &-sm{
         width: 28.84vw;
+    }
+    &-xs{
+        // width: 23.84vw;
+        height: 52vh;
     }
 }

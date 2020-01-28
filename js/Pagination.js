@@ -1,6 +1,19 @@
 document.addEventListener('DOMContentLoaded', async () => {
     var json = await $.getJSON("data.json");
-    createDots(json)
+
+    // find page id with regex
+    let regex = location.pathname;
+    let phormula = /([^\/+]*)$/;
+    var result = regex.match(phormula);
+
+    let regex2 = result[0];
+    let phormula2 = /[0-9]/g;
+    var result2 = regex2.match(phormula2);
+    let pageId = parseInt(result2[0]);
+    $('html').attr('pageid', pageId);
+
+
+    createDots(json);
 })
 
 
@@ -15,11 +28,13 @@ function createCurrentDots(num, a) {
 
 function createDots(json) {
     var pages = json.pages;
-    var htmlAttr = parseInt($('html').attr('pageid'));
-    var htmlAttrType = $('html').attr('data-type');
-    var htmlAttrAllPage = parseInt($('html').attr('pages-number'));
+    var htmlPageIdAttr = $('html').attr('pageid')
 
     console.log(json);
+    console.log(htmlPageIdAttr);
+
+
+
 
     pages.map(i => {
         let div = document.createElement('div');
@@ -29,6 +44,7 @@ function createDots(json) {
         let a = document.createElement('a');
 
         $(a).removeClass('current__pagination')
+        
         $(a).addClass('pagination__dot')
         
         a.setAttribute('href', `${i.number}.html`);
@@ -37,7 +53,12 @@ function createDots(json) {
 
         $(pagination).append(div)
 
-        if(htmlAttr == i.number){
+        if(htmlPageIdAttr == i.number){
+            $('html').attr('data-type', i.type);
+            $('html').attr('pages-number', json.pages_number)
+            var htmlAttrAllPage = parseInt($('html').attr('pages-number'));
+
+
             let nextElement = parseInt(i.number);
             let prevElement = parseInt(i.number);
 
