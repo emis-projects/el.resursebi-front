@@ -2,7 +2,7 @@
     "lesson_id": 7,
     "lesson_name": "Bruca-07",
     "subject": "nature",
-    "pages_number": 3,
+    "pages_number": 5,
     "pages": [
         {
             "number": 1,
@@ -31,5 +31,6 @@
                 }
             ]
         }
+
     ]
 } 

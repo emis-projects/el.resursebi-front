@@ -27,7 +27,9 @@ function createCurrentDots(num, a) {
 
 function createDots(json) {
     var pages = json.pages;
-    var htmlPageIdAttr = $('html').attr('pageid')
+    var htmlAttr = parseInt($('html').attr('pageid'));
+    var htmlAttrType = $('html').attr('data-type');
+    var htmlAttrAllPage = parseInt($('html').attr('pages-number'));
 
     console.log(json);
 
@@ -39,7 +41,6 @@ function createDots(json) {
         let a = document.createElement('a');
 
         $(a).removeClass('current__pagination')
-        
         $(a).addClass('pagination__dot')
         
         a.setAttribute('href', `${i.number}.html`);

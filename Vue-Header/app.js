@@ -1,7 +1,7 @@
 // logo link directive
 Vue.directive('logo', {
     bind(el, binding, vnode) {
-        el.querySelector('a').href = binding.value + 'index.html';
+        el.querySelector('a').href = binding.value + 'index2.html';
         el.querySelector('img').src = binding.value + 'Vue-Header/header/header-logo.svg'
     }
 });

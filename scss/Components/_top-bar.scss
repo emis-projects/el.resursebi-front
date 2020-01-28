@@ -2,6 +2,7 @@
   height: 4vh;
   width: 342px;
   box-shadow: 2px 2px 8px rgba(127, 209, 216, 0.4);
+  background-color: #fff;
   border-radius: 20px;
   display: flex;
   justify-content: space-around;
@@ -46,6 +47,5 @@
   .section_box{
     position: relative;
     z-index: 9999999;
-    background-color: #fff;
   }
 }

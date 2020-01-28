@@ -10,6 +10,7 @@
   <!--  ვუე გაშვებისას
     <script src="./js/vue.min.js"></script>
      -->
+    <link rel="stylesheet" href="../../New-header-vue/animate.min.css">
   <link rel="stylesheet" href="../../scss/libraries/bootstrap.min.css">
   <link rel="stylesheet" href="../../scss/style.css" />
   <title>ელექტრონული საგანმანათლებლო რესურსი</title>
@@ -26,25 +27,50 @@
 
 <body>
   <div class="container">
-    <!-- <header></header> -->
-  </div>
-  <section>
-    <div class="comics_N-07-21 nature_full_image-box"></div>
-    <div class="nature-text-wrapper nature-text-wrapper-newDesign"></div>
+      <section id="app" class="container position-absolute">
+          <header>
+              <app-menu v-logo="'../../'" :is-active="isActive" :toggle="toggle"></app-menu>
+          </header>
 
-  </section>
+          <app-section v-image="'../../'" :is-active="isActive">
+              <app-bar
+                      :is-active="isActive"
+                      :trigger="trigger"
+                      :dots="dots"
+                      :current-tab="link"
+                      v-on:link-tab="link = $event">
+
+              </app-bar>
+              <component
+                      :is="currentTabComponent"
+                      :is-active="isActive"
+                      :trigger="trigger"
+                      :images="images"
+                      :active-class="activeClass"
+                      :tab-class="currentTabComponent">
+              </component>
+          </app-section>
+      </section>
+      <section id="mainPage">
+          <div class="comics_N-07-21 nature_full_image-box"></div>
+          <div class="nature-text-wrapper nature-text-wrapper-newDesign"></div>
+      </section>
+  </div>
    <!-- ჩეთბოტი -->
    <div id="chatBot">
       <app-bot></app-bot>
     </div>
-  
-    <script src="../../js/libraries/jquery-3.4.1.min.js"></script>
-  
-    <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
-    <script src="../../Vue-Header/app.js"></script>
-    <script src="../../Vue-chatBot/botApp.js"></script>
-    <script src="../../js/bot.js"></script>
-   
+
+  <script src="../../js/libraries/jquery-3.4.1.min.js"></script>
+  <script src="../../js/Pagination.js"></script>
+
+
+  <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
+  <script src="../../New-header-vue/app.js"></script>
+  <script src="../../Vue-chatBot/botApp.js"></script>
+  <script src="../../js/bot.js"></script>
+
+
 </body>
 
 </html>

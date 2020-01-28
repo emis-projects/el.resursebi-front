@@ -36,7 +36,7 @@
             <app-menu v-logo="'../../'" :is-active="isActive" :toggle="toggle"></app-menu>
         </header>
 
-        <app-section v-image="'../../'">
+        <app-section v-image="'../../'" :is-active="isActive">
             <app-bar
                     :is-active="isActive"
                     :trigger="trigger"
@@ -513,23 +513,21 @@
                     </div>
                 </div>
             </div>
+            <div class="our__pagination flex">
+                <a href="#" class="pagination__prev__btn">
+                    <img style="transform: rotate(180deg)" src="../../img/icons/chevron-left-icon.svg" alt="">
+                </a>
 
+                <div id="pagination" class="flex align-items-center"></div>
+
+                <a href="#" class="pagination__next__btn">
+                    <img src="../../img/icons/chevron-left-icon.svg" alt="">
+                </a>
+            </div>
         </div>
     </section>
 </div>
 
-
-<div class="our__pagination flex">
-    <a href="#" class="pagination__prev__btn">
-        <img style="transform: rotate(180deg)" src="../../img/icons/chevron-left-icon.svg" alt="">
-    </a>
-
-    <div id="pagination" class="flex align-items-center"></div>
-
-    <a href="#" class="pagination__next__btn">
-        <img src="../../img/icons/chevron-left-icon.svg" alt="">
-    </a>
-</div>
 
 
 <!-- ჩეთბოტი -->

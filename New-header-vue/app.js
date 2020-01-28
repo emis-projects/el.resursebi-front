@@ -17,6 +17,7 @@ Vue.directive('logo', {
 
 Vue.directive('image', {
     bind(el, binding, vnode){
+        vnode.context.$data.path = binding.value;
         vnode.context.$data.images.IT = binding.value + 'New-header-vue/header-img/arts/IT-artwork.svg';
         vnode.context.$data.images.art = binding.value + 'New-header-vue/header-img/arts/art-artwork.svg';
         vnode.context.$data.images.nature = binding.value + 'New-header-vue/header-img/arts/nature-artwork.svg';
@@ -108,10 +109,26 @@ Vue.component('appMenu', {
 
 //section component სექციის კომპონენტი (გენერირდება დინამიურად)
 Vue.component('appSection', {
+    props: {
+        isActive: {
+            type: Boolean,
+            required: true
+        }
+    },
     template: `
-       <section class="section_box">
-            <slot></slot>
-       </section>
+            <div>
+                <section class="section_box">
+                    <slot></slot>
+                 </section>
+                 <transition 
+                    enter-active-class="animated fadeIn"
+                    leave-active-class="animated fadeOut"
+                    :duration="750"
+                    mode="out-in">
+                    <div v-show="isActive" class="bg_menu"></div>
+                </transition>
+            </div>
+            
     `,
 });
 
@@ -206,6 +223,7 @@ Vue.component('appSelect', {
         tabClass: String,
         activeClass: String,
         images: Object,
+        path: String,
         isActive: {
             type: Boolean,
             required: true
@@ -256,7 +274,7 @@ Vue.component('appSelect', {
                     <div v-for="title in titleCheck" :key="title.id" class="col-4 app-select_box">
                         <div class="row">
                             <div class="col-10 app-select_box-content d-flex justify-content-center align-items-center">
-                                 <a :href="title.link">{{ title.name }}</a>
+                                 <a :href="path + title.link">{{ title.name }}</a>
                             </div>
                         </div>
                     </div>
@@ -322,6 +340,7 @@ var app = new Vue({
     data: {
         isActive: false,
         link: 'start',
+        path: '',
         images: {
             IT: './New-header-vue/header-img/arts/IT-artwork.svg',
             art: './New-header-vue/header-img/arts/art-artwork.svg',
@@ -389,18 +408,17 @@ function startPage(val) {
     app.$data.link = 'select';
     app.$data.isActive = true;
     app.$data.activeClass = val;
-    console.log('fire')
 }
 
 // გაკვეთილიების სათაურები
 let title = {
     music: [
-        {id: 1, name: 'ხმები', link: './Music-Lessons/Voices/M-1366-9.html'},
-        {id: 2, name: 'მუსიკალური კომპოზიცია', link: './Music-Lessons/Voices/M-1366-17.html'},
-        {id: 3, name: 'გასეირნება ქალაქში', link: './Music-Lessons/Walk-in-the-city-1/M-1366-03-1.html'},
-        {id: 4, name: 'მუსიკალური ქალაქი', link: './Music-Lessons/musical_city/M-1366-04-1.html'},
-        {id: 5, name: 'ჩემი ცხოვრების ერთი დღე', link: './Music-Lessons/Day-of-my-life/M-1366-05-1.html'},
-        {id: 6, name: 'საინტერესოდ გატარებული დღე', link: './Music-Lessons/interesting-day/M-1366-06-1.html'},
+        {id: 1, name: 'ხმები', link: 'Music-Lessons/Voices/M-1366-9.html'},
+        {id: 2, name: 'მუსიკალური კომპოზიცია', link: 'Music-Lessons/Voices/M-1366-17.html'},
+        {id: 3, name: 'გასეირნება ქალაქში', link: 'Music-Lessons/Walk-in-the-city-1/M-1366-03-1.html'},
+        {id: 4, name: 'მუსიკალური ქალაქი', link: 'Music-Lessons/musical_city/M-1366-04-1.html'},
+        {id: 5, name: 'ჩემი ცხოვრების ერთი დღე', link: 'Music-Lessons/Day-of-my-life/M-1366-05-1.html'},
+        {id: 6, name: 'საინტერესოდ გატარებული დღე', link: 'Music-Lessons/interesting-day/M-1366-06-1.html'},
 
         // თუ დაემათება გაკვეთილები მუსიკას ყველა გავააქტიუროთ, link: '
         /*{id: 7, name: '', link: '#'},
@@ -411,12 +429,12 @@ let title = {
         {id: 12, name: '', link: '#'}*/
     ],
     art: [
-        {id: 1, name: 'ფერებით მოთხრობილი ამბავი', link: './Art-Lessons/color_story/1366-236.html'},
-        {id: 2, name: 'მშვიდი და ბობოქარი', link: './Art-Lessons/calm_and_stormy/A-1366-73.html'},
-        {id: 3, name: 'ტყე', link: './Art-Lessons/forest/A-1366-03-1.html'},
-        {id: 4, name: 'ჯადოსნური ქვეყანა', link: './Art-Lessons/Magic-world/A-1366-04-2.html'},
-        {id: 5, name: 'თავგადასავალი', link: './Art-Lessons/Adventure/A-1366-05-2.html'},
-        {id: 6, name: 'პეიზაჟი', link: './Art-Lessons/Landscape/A-1366-06-1.html'},
+        {id: 1, name: 'ფერებით მოთხრობილი ამბავი', link: 'Art-Lessons/color_story/1366-236.html'},
+        {id: 2, name: 'მშვიდი და ბობოქარი', link: 'Art-Lessons/calm_and_stormy/A-1366-73.html'},
+        {id: 3, name: 'ტყე', link: 'Art-Lessons/forest/A-1366-03-1.html'},
+        {id: 4, name: 'ჯადოსნური ქვეყანა', link: 'Art-Lessons/Magic-world/A-1366-04-2.html'},
+        {id: 5, name: 'თავგადასავალი', link: 'Art-Lessons/Adventure/A-1366-05-2.html'},
+        {id: 6, name: 'პეიზაჟი', link: 'Art-Lessons/Landscape/A-1366-06-1.html'},
         {id: 7, name: 'სათაური', link: '#'},
         {id: 8, name: 'სათაური', link: '#'},
         {id: 9, name: 'სათაური', link: '#'},
@@ -425,13 +443,13 @@ let title = {
         {id: 12, name: 'სათაური', link: '#'},
     ],
     nature: [
-        {id: 1, name: 'საშიში სათამაშოები', link: './Nature-Lessons/N-1366-11.html'},
-        {id: 2, name: 'უხილავი ძალები', link: './Nature-Lessons/N-1366-11.html'},
-        {id: 3, name: 'რატომ იცვალა ტყემ ფერი?', link: './Nature-Lessons/N-1366-11.html'},
-        {id: 4, name: 'რატომ მოიწყინა ჩემმა ყვავილმა', link: './Nature-Lessons/N-1366-11.html'},
-        {id: 5, name: 'სად დაიმალა მზე?', link: './Nature-Lessons/N-1366-11.html'},
-        {id: 6, name: 'შეიძლება ზაფხული ზამთარში იყოს?', link: './Nature-Lessons/N-1366-11.html'},
-        {id: 7, name: 'სათაური', link: '#'},
+        {id: 1, name: 'საშიში სათამაშოები', link: 'Nature-Lessons/N-1366-11.html'},
+        {id: 2, name: 'უხილავი ძალები', link: 'Nature-Lessons/N-1366-11.html'},
+        {id: 3, name: 'რატომ იცვალა ტყემ ფერი?', link: 'Nature-Lessons/N-1366-11.html'},
+        {id: 4, name: 'რატომ მოიწყინა ჩემმა ყვავილმა', link: 'Nature-Lessons/N-1366-11.html'},
+        {id: 5, name: 'სად დაიმალა მზე?', link: 'Nature-Lessons/N-1366-11.html'},
+        {id: 6, name: 'შეიძლება ზაფხული ზამთარში იყოს?', link: 'Nature-Lessons/N-1366-11.html'},
+        {id: 7, name: 'ბრუცა', link: 'Nature-Lessons/Bruca-07/3.html'},
         {id: 8, name: 'სათაური', link: '#'},
         {id: 9, name: 'სათაური', link: '#'},
         {id: 10, name: 'სათაური', link: '#'},
