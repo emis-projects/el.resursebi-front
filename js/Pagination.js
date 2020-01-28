@@ -1,6 +1,18 @@
 document.addEventListener('DOMContentLoaded', async () => {
     var json = await $.getJSON("data.json");
-    createDots(json)
+
+    // find page id with regex
+    let regex = location.pathname;
+    let phormula = /([^\/+]*)$/;
+    var result = regex.match(phormula);
+
+    let regex2 = result[0];
+    let phormula2 = /[0-9]/g;
+    var result2 = regex2.match(phormula2);
+    let pageId = parseInt(result2[0]);
+    $('html').attr('pageid', pageId);
+
+    createDots(json);
 })
 
 
@@ -37,7 +49,11 @@ function createDots(json) {
 
         $(pagination).append(div)
 
-        if(htmlAttr == i.number){
+        if(htmlPageIdAttr == i.number){
+            $('html').attr('data-type', i.type);
+            $('html').attr('pages-number', json.pages_number)
+            var htmlAttrAllPage = parseInt($('html').attr('pages-number'));
+
             let nextElement = parseInt(i.number);
             let prevElement = parseInt(i.number);
 

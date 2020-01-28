@@ -1071,8 +1071,8 @@ body {
 .current__pagination,
 .pagination__prev__btn,
 .pagination__next__btn {
-  width: 36px;
-  height: 36px;
+  width: 6vh;
+  height: 6vh;
   -webkit-box-shadow: 0 3px 6px #7FD1D8;
           box-shadow: 0 3px 6px #7FD1D8;
   display: inline-block;
@@ -1086,11 +1086,12 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  font-size: 16px;
+  font-size: 2vh;
   margin: 0 2px;
   color: #DC6C85 !important;
   font-family: "alk sanet";
   cursor: pointer;
+  background-color: #fff;
 }
 
 .pagination__prev__btn {
@@ -1602,6 +1603,7 @@ body {
 #app .section_box {
   position: relative;
   z-index: 9999999;
+  background-color: #fff;
 }
 
 .page-section {
@@ -1705,16 +1707,6 @@ body {
 
 .app-sections {
   background-color: magenta;
-}
-
-#app .bg_menu {
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  background: #fff;
-  z-index: 5;
 }
 
 .color-game-paint-parent {
@@ -2959,6 +2951,7 @@ section .arrow_up_down_downArrow img {
 
 .left_components_paging {
   height: 85.88vh;
+  width: auto;
 }
 
 .left_components_paging-cont {
@@ -15684,7 +15677,7 @@ td img {
 }
 
 #mainPage {
-  padding-top: 13vh;
+  padding-top: 20vh;
 }
 
 .owl-carousel .owl-stage-outer .new_slider_main-item {
@@ -15921,22 +15914,22 @@ td img {
 
 .comics_N-07-9 {
   background-image: url(../img/gakvetilebi/buneba/Bruca-07/N-07-9.png);
-  background-position: center;
+  background-position: bottom center;
 }
 
 .comics_N-07-11 {
   background-image: url(../img/gakvetilebi/buneba/Bruca-07/N-07-11.png);
-  background-position: center;
+  background-position: bottom center;
 }
 
 .comics_N-07-12 {
   background-image: url(../img/gakvetilebi/buneba/Bruca-07/N-07-12.png);
-  background-position: center;
+  background-position: bottom center;
 }
 
 .comics_N-07-14 {
   background-image: url(../img/gakvetilebi/buneba/Bruca-07/N-07-14.png);
-  background-position: center;
+  background-position: bottom center;
 }
 
 .comics_N-07-15 {
@@ -15966,7 +15959,7 @@ td img {
 
 .comics_N-07-31 {
   background-image: url(../img/gakvetilebi/buneba/Bruca-07/N-07-31.png);
-  background-position: center;
+  background-position: bottom center;
 }
 
 .comics_N-07-32 {
