@@ -1282,6 +1282,7 @@ body {
   height: 4vh;
   width: 342px;
   box-shadow: 2px 2px 8px rgba(127, 209, 216, 0.4);
+  background-color: #fff;
   border-radius: 20px;
   display: flex;
   justify-content: space-around;
@@ -1325,7 +1326,6 @@ body {
 #app .section_box {
   position: relative;
   z-index: 9999999;
-  background-color: #fff;
 }
 
 .page-section {
@@ -1337,6 +1337,8 @@ body {
 
 .app-start {
   background-color: #fff;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
 }
 
 .app-select {
@@ -1406,6 +1408,16 @@ body {
 
 .app-sections {
   background-color: magenta;
+}
+
+#app .bg_menu {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: #fff;
+  z-index: 5;
 }
 
 .color-game-paint-parent {
@@ -13561,19 +13573,19 @@ td img {
 }
 .comics_N-07-9 {
   background-image: url(../img/gakvetilebi/buneba/Bruca-07/N-07-9.png);
-  background-position: bottom center;
+  background-position: center;
 }
 .comics_N-07-11 {
   background-image: url(../img/gakvetilebi/buneba/Bruca-07/N-07-11.png);
-  background-position: bottom center;
+  background-position: center;
 }
 .comics_N-07-12 {
   background-image: url(../img/gakvetilebi/buneba/Bruca-07/N-07-12.png);
-  background-position: bottom center;
+  background-position: center;
 }
 .comics_N-07-14 {
   background-image: url(../img/gakvetilebi/buneba/Bruca-07/N-07-14.png);
-  background-position: bottom center;
+  background-position: center;
 }
 .comics_N-07-15 {
   background-image: url(../img/gakvetilebi/buneba/Bruca-07/N-07-15.png);
@@ -13597,7 +13609,7 @@ td img {
 }
 .comics_N-07-31 {
   background-image: url(../img/gakvetilebi/buneba/Bruca-07/N-07-31.png);
-  background-position: bottom center;
+  background-position: center;
 }
 .comics_N-07-32 {
   background-image: url(../img/gakvetilebi/buneba/Bruca-07/N-07-32.png);

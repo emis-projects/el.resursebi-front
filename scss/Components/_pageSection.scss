@@ -8,6 +8,8 @@
 
 .app-start {
   background-color: #fff;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
 }
 
 .app-select {
@@ -72,10 +74,12 @@
     right: 0;
     left: 0;
     bottom: 10px;
+
     &_image-box {
       height: 30vh;
       max-width: 138px;
       max-height: 223px;
+
       img {
         height: 100%;
       }
@@ -89,4 +93,16 @@
 
 .app-sections {
   background-color: magenta;
+}
+
+#app {
+  .bg_menu{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #fff;
+    z-index: 5;
+  }
 }

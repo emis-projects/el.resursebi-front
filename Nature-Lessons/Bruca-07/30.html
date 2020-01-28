@@ -11,6 +11,7 @@
     <script src="./js/vue.min.js"></script>
      -->
   <link rel="stylesheet" href="../../scss/libraries/bootstrap.min.css">
+  <link rel="stylesheet" href="../../New-header-vue/animate.min.css">
   <link rel="stylesheet" type="text/css" href="../../scss/libraries/owl.carousel.min.css" />
   <link rel="stylesheet" type="text/css" href="../../scss/libraries/owl.theme.default.css" />
   <link rel="stylesheet" href="../../scss/style.css" />
@@ -31,12 +32,31 @@
 
 <body>
   <div class="container">
-    <header>
-      <a class="close" href="./26.html">
-        <img src="../../img/icons/close.svg" alt="close" />
-      </a>
-    </header>
-    <section>
+    <section id="app" class="container position-absolute">
+      <header>
+        <app-menu v-logo="'../../'" :is-active="isActive" :toggle="toggle"></app-menu>
+      </header>
+
+      <app-section v-image="'../../'" :is-active="isActive">
+        <app-bar
+                :is-active="isActive"
+                :trigger="trigger"
+                :dots="dots"
+                :current-tab="link"
+                v-on:link-tab="link = $event">
+
+        </app-bar>
+        <component
+                :is="currentTabComponent"
+                :is-active="isActive"
+                :trigger="trigger"
+                :images="images"
+                :active-class="activeClass"
+                :tab-class="currentTabComponent">
+        </component>
+      </app-section>
+    </section>
+    <section id="mainPage">
       <div class="left_components_paging-cont">
         <svg class="left_components_paging" xmlns="http://www.w3.org/2000/svg"
           xmlns:xlink="http://www.w3.org/1999/xlink" width="134" height="722" viewBox="0 0 134 722">
@@ -429,6 +449,17 @@
           </div>
         </div>
       </div>
+      <div class="our__pagination flex">
+        <a href="#" class="pagination__prev__btn">
+          <img style="transform: rotate(180deg)" src="../../img/icons/chevron-left-icon.svg" alt="">
+        </a>
+
+        <div id="pagination" class="flex align-items-center"></div>
+
+        <a href="#" class="pagination__next__btn">
+          <img src="../../img/icons/chevron-left-icon.svg" alt="">
+        </a>
+      </div>
     </section>
   </div>
 
@@ -439,9 +470,11 @@
   </div>
 
   <script src="../../js/libraries/jquery-3.4.1.min.js"></script>
-  <script src="../../js/libraries/bootstrap.min.js"></script>
+  <script src="../../js/Pagination.js"></script>
+
 
   <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
+  <script src="../../New-header-vue/app.js"></script>
   <script src="../../Vue-chatBot/botApp.js"></script>
   <script src="../../js/bot.js"></script>
 
