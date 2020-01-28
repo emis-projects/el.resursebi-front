@@ -12,7 +12,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     let pageId = parseInt(result2[0]);
     $('html').attr('pageid', pageId);
 
-
     createDots(json);
 })
 
@@ -31,10 +30,6 @@ function createDots(json) {
     var htmlPageIdAttr = $('html').attr('pageid')
 
     console.log(json);
-    console.log(htmlPageIdAttr);
-
-
-
 
     pages.map(i => {
         let div = document.createElement('div');
@@ -57,7 +52,6 @@ function createDots(json) {
             $('html').attr('data-type', i.type);
             $('html').attr('pages-number', json.pages_number)
             var htmlAttrAllPage = parseInt($('html').attr('pages-number'));
-
 
             let nextElement = parseInt(i.number);
             let prevElement = parseInt(i.number);
