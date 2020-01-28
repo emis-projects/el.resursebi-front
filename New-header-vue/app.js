@@ -431,7 +431,7 @@ let title = {
         {id: 4, name: 'რატომ მოიწყინა ჩემმა ყვავილმა', link: './Nature-Lessons/N-1366-11.html'},
         {id: 5, name: 'სად დაიმალა მზე?', link: './Nature-Lessons/N-1366-11.html'},
         {id: 6, name: 'შეიძლება ზაფხული ზამთარში იყოს?', link: './Nature-Lessons/N-1366-11.html'},
-        {id: 7, name: 'სათაური', link: '#'},
+        {id: 7, name: 'ბრუცა', link: './Nature-Lessons/Bruca-07/3.html'},
         {id: 8, name: 'სათაური', link: '#'},
         {id: 9, name: 'სათაური', link: '#'},
         {id: 10, name: 'სათაური', link: '#'},
