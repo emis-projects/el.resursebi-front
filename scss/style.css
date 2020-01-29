@@ -1749,12 +1749,14 @@ body {
 }
 
 .completed__btn {
-  background: #7FD1D8;
   border-radius: 27px;
   height: 38px;
   width: 167px;
   text-align: center;
-  color: #ffffff;
+  color: #7FD1D8;
+  background-color: #fff;
+  -webkit-box-shadow: 2px 2px 8px rgba(127, 209, 216, 0.4);
+          box-shadow: 2px 2px 8px rgba(127, 209, 216, 0.4);
   font-family: "ALK Sanet";
   font-size: 11px;
   letter-spacing: 1.1px;
@@ -1773,12 +1775,14 @@ body {
 }
 
 .reset__btn {
-  background: #F8D24B;
+  background: #fff;
   border-radius: 27px;
   height: 38px;
   width: 167px;
   text-align: center;
-  color: white;
+  color: #F8D24B;
+  -webkit-box-shadow: 2px 2px 8px rgba(248, 210, 73, 0.4);
+          box-shadow: 2px 2px 8px rgba(248, 210, 73, 0.4);
   margin-bottom: 10px;
   font-family: "ALK Sanet";
   font-size: 11px;
@@ -9645,7 +9649,6 @@ section .arrow_up_down_downArrow img {
 
 .circles_game-blue-container .ask_question_game_box,
 .circles_game-blue-container .draggedElement {
-  background: #44bbbd;
   color: #fff;
   position: absolute;
   height: 18vh;
@@ -16050,6 +16053,29 @@ td img {
   margin-top: 4vh;
 }
 
+.nature-07-game-card {
+  width: 13.616398vw;
+  height: 17.708333vh;
+  border-radius: 6px;
+  padding: 0.732064vw 1.464129vw;
+  -webkit-box-shadow: 2px 2px 8px rgba(127, 209, 216, 0.4);
+          box-shadow: 2px 2px 8px rgba(127, 209, 216, 0.4);
+}
+
+.nature-07-game-card--title {
+  font-size: 1.02489vw;
+  text-align: center;
+}
+
+.nature-07-game-card-child img {
+  width: 4.612006vw;
+  height: 8.203125vh;
+}
+
+.nature-07-game-card-child img:first-child {
+  margin-right: 1.464129vw;
+}
+
 .comics_N-07-43 {
   height: 100vh;
 }
@@ -16134,4 +16160,3 @@ td img {
   display: -ms-flexbox;
   display: flex;
 }
-/*# sourceMappingURL=style.css.map */

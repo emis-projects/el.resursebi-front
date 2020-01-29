@@ -15,7 +15,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     createDots(json);
 })
 
-
 function createCurrentDots(num, a) {
     $(a).removeClass('pagination__dot')
     $(a).addClass('current__pagination')
@@ -24,12 +23,9 @@ function createCurrentDots(num, a) {
     a.setAttribute('href', `${num}.html`);
 }
 
-
 function createDots(json) {
     var pages = json.pages;
-    var htmlAttr = parseInt($('html').attr('pageid'));
-    var htmlAttrType = $('html').attr('data-type');
-    var htmlAttrAllPage = parseInt($('html').attr('pages-number'));
+    var htmlPageIdAttr = $('html').attr('pageid');
 
     console.log(json);
 
@@ -43,6 +39,7 @@ function createDots(json) {
         $(a).removeClass('current__pagination')
         $(a).addClass('pagination__dot')
         
+
         a.setAttribute('href', `${i.number}.html`);
 
         $(div).append(a)
@@ -64,7 +61,6 @@ function createDots(json) {
     })
 }
 
-
 function getTypes(){
     let types = document.querySelectorAll('.leftSidebar_type');
 
@@ -75,7 +71,6 @@ function getTypes(){
     })
 
 }
-
 
 function getNextAndPrevBtn(pagesLength, next, prev) {
     let htmlAttr = parseInt($('html').attr('pageid'));
