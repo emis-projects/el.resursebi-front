@@ -3377,8 +3377,8 @@ section .arrow_up_down_downArrow img {
 
 .reload_game_wrapper {
   position: absolute;
-  bottom: 11vh;
-  right: 11.5vw;
+  bottom: 14.453125vh;
+  right: 17.057101vw;
 }
 
 .errorImg {
@@ -16067,11 +16067,12 @@ td img {
 
 .nature-07-game-card {
   width: 13.616398vw;
+  height: 18.708333vh;
   border-radius: 6px;
-  padding: 1.464129vw;
+  padding: 1.302083vh 1.464129vw 2.604167vh 1.464129vw;
   -webkit-box-shadow: 2px 2px 8px rgba(127, 209, 216, 0.4);
           box-shadow: 2px 2px 8px rgba(127, 209, 216, 0.4);
-  margin-right: 3.806735vw;
+  margin-right: 3.906735vw;
   margin-bottom: 2.604167vh;
 }
 
@@ -16081,16 +16082,35 @@ td img {
   margin-bottom: 3.255208vh;
 }
 
-.nature-07-game-card:last-child {
+.nature-07-game-card:nth-child(4) {
   margin-right: 0;
 }
 
 .nature-07-game-card--child img {
   width: 4.412006vw;
+  border-radius: 6px;
 }
 
 .nature-07-game-card--child img:nth-child(1) {
   margin-right: 1.464129vw;
+}
+
+.nature-07-game-card--child img.error {
+  border: 2px solid red;
+}
+
+.nature-07-ujredi-game .ujredi__drop {
+  position: absolute;
+  -webkit-box-shadow: 2px 2px 8px rgba(127, 209, 216, 0.4);
+          box-shadow: 2px 2px 8px rgba(127, 209, 216, 0.4);
+  border-radius: 27px;
+  width: 15.666vw;
+  height: 6.38vh;
+  background-color: #fff;
+}
+
+.nature-07-ujredi-game .ujredi__drop:nth-child(1) {
+  top: 0;
 }
 
 .comics_N-07-43 {
