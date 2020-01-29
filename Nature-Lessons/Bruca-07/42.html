@@ -8,8 +8,8 @@
   <!-- ყველა გვერდზე -->
   <script src="../../js/vue.js"></script>
   <!--  ვუე გაშვებისას
-    <script src="./js/vue.min.js"></script>
-     -->
+      <script src="./js/vue.min.js"></script>
+       -->
   <link rel="stylesheet" href="../../New-header-vue/animate.min.css">
   <link rel="stylesheet" href="../../scss/libraries/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="../../scss/libraries/owl.carousel.min.css" />
@@ -24,6 +24,7 @@
     function gtag() {
       dataLayer.push(arguments);
     }
+
     gtag('js', new Date());
 
     gtag('config', 'UA-155006442-1');
@@ -32,32 +33,12 @@
 
 <body>
   <div class="container">
-    <section id="app" class="container position-absolute">
-      <header>
-        <app-menu v-logo="'../../'" :is-active="isActive" :toggle="toggle"></app-menu>
-      </header>
-
-      <app-section v-image="'../../'" :is-active="isActive">
-        <app-bar
-                :is-active="isActive"
-                :trigger="trigger"
-                :dots="dots"
-                :current-tab="link"
-                v-on:link-tab="link = $event">
-
-        </app-bar>
-        <component
-                :is="currentTabComponent"
-                :path="path"
-                :is-active="isActive"
-                :trigger="trigger"
-                :images="images"
-                :active-class="activeClass"
-                :tab-class="currentTabComponent">
-        </component>
-      </app-section>
-    </section>
-    <section id="mainPage">
+    <header>
+      <a class="close" href="./43.html">
+        <img src="../../img/icons/close.svg" alt="close" />
+      </a>
+    </header>
+    <section>
       <div class="left_components_paging-cont">
         <svg class="left_components_paging" xmlns="http://www.w3.org/2000/svg"
           xmlns:xlink="http://www.w3.org/1999/xlink" width="134" height="722" viewBox="0 0 134 722">
@@ -110,9 +91,21 @@
               <rect id="Rectangle_1414-2" data-name="Rectangle 1414" width="110" height="698" rx="55"
                 transform="translate(10 10)" fill="#fff" />
             </g>
-            <path class="left_components_paging_bg" id="Path_143737" data-name="Path 143737"
+            <path class="leftSidebar_type" style="opacity: 0" data-type="2" id="Path_143714" data-name="Path 143714"
+              d="M-107,293.662h-25.155a28.388,28.388,0,0,0-21.1,9.686A34.87,34.87,0,0,0-162,326.736c0,18.266,13.362,33.074,29.844,33.074H-107c20.013,0,36.24,17.983,36.24,40.162V253.5C-70.762,275.679-86.988,293.662-107,293.662Z"
+              transform="translate(196 -48.5)" fill="#dc6c85" />
+            <path class="leftSidebar_type" style="opacity: 0" data-type="1" id="Path_143737" data-name="Path 143737"
               d="M-107,293.662h-25.155a28.388,28.388,0,0,0-21.1,9.686A34.87,34.87,0,0,0-162,326.736c0,18.266,13.362,33.074,29.844,33.074H-107c20.013,0,36.24,17.983,36.24,40.162V253.5C-70.762,275.679-86.988,293.662-107,293.662Z"
               transform="translate(196 -162.5)" fill="#dc6c85" />
+            <path class="leftSidebar_type" style="opacity: 0" data-type="4" id="Path_143736" data-name="Path 143736"
+              d="M-107,293.662h-25.155a28.388,28.388,0,0,0-21.1,9.686A34.87,34.87,0,0,0-162,326.736c0,18.266,13.362,33.074,29.844,33.074H-107c20.013,0,36.24,17.983,36.24,40.162V253.5C-70.762,275.679-86.988,293.662-107,293.662Z"
+              transform="translate(196 164.5)" fill="#dc6c85" />
+            <path class="leftSidebar_type" style="opacity: 0" data-type="5" id="Path_24922" data-name="Path 24922"
+              d="M-107,293.662h-25.155a28.388,28.388,0,0,0-21.1,9.686A34.87,34.87,0,0,0-162,326.736c0,18.266,13.362,33.074,29.844,33.074H-107c20.013,0,36.24,17.983,36.24,40.162V253.5C-70.762,275.679-86.988,293.662-107,293.662Z"
+              transform="translate(195.761 283.264)" fill="#7fd1d8" />
+            <path class="leftSidebar_type" style="opacity: 0" data-type="3" id="Path_143735" data-name="Path 143735"
+              d="M-107,293.662h-25.155a28.388,28.388,0,0,0-21.1,9.686A34.87,34.87,0,0,0-162,326.736c0,18.266,13.362,33.074,29.844,33.074H-107c20.013,0,36.24,17.983,36.24,40.162V253.5C-70.762,275.679-86.988,293.662-107,293.662Z"
+              transform="translate(195.761 57.264)" fill="#7fd1d8" />
             <g id="Group_8099" data-name="Group 8099" transform="translate(-1.874 20)">
               <g id="Group_8096" data-name="Group 8096" transform="translate(44.874 563)">
                 <g transform="matrix(1, 0, 0, 1, -38, -553)" filter="url(#Path_12243)">
@@ -401,13 +394,13 @@
               <tspan x="0" y="0">მინიშნება</tspan>
             </text>
             <text id="შუალედური_დავალება" data-name="შუალედური
-                  დავალება" transform="translate(70 549)" fill="#c5cbcd" font-size="12"
+                        დავალება" transform="translate(70 549)" fill="#c5cbcd" font-size="12"
               font-family="ALKSanet, ALK Sanet">
               <tspan x="-35.344" y="0">შუალედური</tspan>
               <tspan x="-30.636" y="12">დავალება</tspan>
             </text>
             <text id="კომპლექსური_დავალება" data-name="კომპლექსური
-                  დავალება" transform="translate(70 668)" fill="#c5cbcd" font-size="12"
+                        დავალება" transform="translate(70 668)" fill="#c5cbcd" font-size="12"
               font-family="ALKSanet, ALK Sanet">
               <tspan x="-42.015" y="0">კომპლექსური</tspan>
               <tspan x="-30.636" y="12">დავალება</tspan>
@@ -415,13 +408,73 @@
           </g>
         </svg>
       </div>
-      <div class="row">
-        <div class="col-8 m-auto flex_direction_center">
-          <div class="newDesign_subject_question_item mt-5vh">
-            <img src="../../img/icons/newDesign_btn-yellow.svg" alt="img" class="newDesign_subject_question_item-img">
-            <p class="newDesign_subject_question_item-title">ცხოველების კლასიფიკაცია</p>
+      <div class="row newDesign_hintPage">
+        <div class="col-8 col-md-10 m-auto">
+          <div class="newDesign_container_main_title-cont newDesign_container_main_title-cont-margin">
+            <h1 class="newDesign_container_main_title">არსება (ორგანიზმი)</h1>
+            <img src="../../img/icons/main_title-border.svg" alt="img" class="newDesign_container_main_title-img">
           </div>
-          <img src="../../img/gakvetilebi/buneba/Bruca-07/1366-07-41.svg" alt="" class="animal-clasification-img">
+          <div class="row align-items-center mt-5vh">
+            <div class="col-7">
+              <img src="../../img/gakvetilebi/buneba/Bruca-07/N-07-42.png" alt="img" class="cell_hint-img-sm">
+            </div>
+            <div class="col-5">
+              <div class="newDesign_subject_question_item">
+                <p class="newDesign_subject_question_item-title">
+                  სხეული, რომელსაც ცოცხალის ყველა თვისება აქვს:
+                </p>
+              </div>
+              <div class="newDesign_subject_question_item">
+                <img src="../../img/icons/newDesign_btn-yellow.svg" alt="img"
+                  class="newDesign_subject_question_item-img">
+                <p class="newDesign_subject_question_item-title font-NotoSans-14">
+                  მოძრაობს
+                </p>
+              </div>
+              <div class="newDesign_subject_question_item">
+                <img src="../../img/icons/newDesign_btn-yellow.svg" alt="img"
+                  class="newDesign_subject_question_item-img">
+                <p class="newDesign_subject_question_item-title font-NotoSans-14">
+                  იბადება და იზრდება
+                </p>
+              </div>
+              <div class="newDesign_subject_question_item">
+                <img src="../../img/icons/newDesign_btn-yellow.svg" alt="img"
+                  class="newDesign_subject_question_item-img">
+                <p class="newDesign_subject_question_item-title font-NotoSans-14">
+                  მრავლდება
+                </p>
+              </div>
+              <div class="newDesign_subject_question_item">
+                <img src="../../img/icons/newDesign_btn-yellow.svg" alt="img"
+                  class="newDesign_subject_question_item-img">
+                <p class="newDesign_subject_question_item-title font-NotoSans-14">
+                  სუნთქავს
+                </p>
+              </div>
+              <div class="newDesign_subject_question_item">
+                <img src="../../img/icons/newDesign_btn-yellow.svg" alt="img"
+                  class="newDesign_subject_question_item-img">
+                <p class="newDesign_subject_question_item-title font-NotoSans-14">
+                  იკვებება
+                </p>
+              </div>
+              <div class="newDesign_subject_question_item">
+                <img src="../../img/icons/newDesign_btn-yellow.svg" alt="img"
+                  class="newDesign_subject_question_item-img">
+                <p class="newDesign_subject_question_item-title font-NotoSans-14">
+                  გამოყოფს ნივთიერებებს
+                </p>
+              </div>
+              <div class="newDesign_subject_question_item">
+                <img src="../../img/icons/newDesign_btn-yellow.svg" alt="img"
+                  class="newDesign_subject_question_item-img">
+                <p class="newDesign_subject_question_item-title font-NotoSans-14">
+                  რეაგირებს გარემოზე
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -452,7 +505,6 @@
   <script src="../../New-header-vue/app.js"></script>
   <script src="../../Vue-chatBot/botApp.js"></script>
   <script src="../../js/bot.js"></script>
-
 
 </body>
 
