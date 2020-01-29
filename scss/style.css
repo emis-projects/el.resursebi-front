@@ -1768,6 +1768,11 @@ body {
   outline: none;
 }
 
+.completed__btn:hover {
+  background-color: #7FD1D8;
+  color: #fff;
+}
+
 .completed__btn:disabled {
   background: rgba(127, 209, 216, 0.5);
   -webkit-transition: all 0.3s;
@@ -1787,6 +1792,13 @@ body {
   font-family: "ALK Sanet";
   font-size: 11px;
   letter-spacing: 1.1px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.reset__btn:hover {
+  background-color: #F8D24B;
+  color: #fff;
 }
 
 .reset__btn:focus {
@@ -16055,24 +16067,29 @@ td img {
 
 .nature-07-game-card {
   width: 13.616398vw;
-  height: 17.708333vh;
   border-radius: 6px;
-  padding: 0.732064vw 1.464129vw;
+  padding: 1.464129vw;
   -webkit-box-shadow: 2px 2px 8px rgba(127, 209, 216, 0.4);
           box-shadow: 2px 2px 8px rgba(127, 209, 216, 0.4);
+  margin-right: 3.806735vw;
+  margin-bottom: 2.604167vh;
 }
 
 .nature-07-game-card--title {
   font-size: 1.02489vw;
   text-align: center;
+  margin-bottom: 3.255208vh;
 }
 
-.nature-07-game-card-child img {
-  width: 4.612006vw;
-  height: 8.203125vh;
+.nature-07-game-card:last-child {
+  margin-right: 0;
 }
 
-.nature-07-game-card-child img:first-child {
+.nature-07-game-card--child img {
+  width: 4.412006vw;
+}
+
+.nature-07-game-card--child img:nth-child(1) {
   margin-right: 1.464129vw;
 }
 

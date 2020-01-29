@@ -15,6 +15,11 @@
     outline: none;
   }
 
+  &:hover {
+    background-color: #7FD1D8;
+    color: #fff;
+  }
+
   &:disabled {
     background: rgba(127, 209, 216, 0.5);
     transition: all 0.3s;
