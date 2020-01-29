@@ -12,7 +12,8 @@
         {
             "number": 2,
             "url": "",
-            "type": 3
+            "type": 3,
+            "isGame": true
         },
         {
             "number": 3,

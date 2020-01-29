@@ -1,0 +1,23 @@
+.nature-07-game-card {
+    width: 13.616398vw;
+    height: 17.708333vh;
+    border-radius: 6px;
+    padding: 0.732064vw 1.464129vw;
+    box-shadow: 2px 2px 8px rgba(127, 209, 216, 0.4);
+
+    &--title {
+        font-size: 1.02489vw;
+        text-align: center;
+    }
+
+    &-child {
+        img {
+            width: 4.612006vw;
+            height: 8.203125vh;
+
+            &:first-child {
+                margin-right: 1.464129vw
+            }
+        }
+    }
+}
