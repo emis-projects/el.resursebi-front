@@ -60,13 +60,13 @@
   align-items: start;
 }
 
-#mainPage .owl-theme .owl-nav.disabled + .owl-dots {
+.mainPage_carousel-id .owl-theme .owl-nav.disabled + .owl-dots {
   display: flex;
   justify-content: start;
   margin-top: -15px;
 }
 
-#mainPage .owl-theme .owl-dots .owl-dot {
+.mainPage_carousel-id .owl-theme .owl-dots .owl-dot {
   width: 8vh;
   height: 2px;
   span {
