@@ -2,7 +2,7 @@
     "lesson_id": 7,
     "lesson_name": "Bruca-07",
     "subject": "nature",
-    "pages_number": 5,
+    "pages_number": 54,
     "pages": [
         {
             "number": 1,
@@ -12,8 +12,7 @@
         {
             "number": 2,
             "url": "",
-            "type": 5,
-            "isGame": true
+            "type": 5
         },
         {
             "number": 3,
@@ -294,17 +293,6 @@
             "number": 54,
             "url": "",
             "type": 1
-        },
-        {
-            "number": 55,
-            "url": "",
-            "type": null
-        },
-        {
-            "number": 56,
-            "url": "",
-            "type": 5
-        },
-
+        }
     ]
 } 
