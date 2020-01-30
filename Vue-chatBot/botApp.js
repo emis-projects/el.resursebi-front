@@ -1,36 +1,63 @@
 Vue.component('appBot', {
-  data() {
-    return {
-      botShow: false
-    }
-  },
-  template: `
-      <div class="fabs" :class="{'is-visible': botShow}">
-          <transition name="slide">
-                <div class="chat animated" :class="[{slideInRight : botShow}, {slideOutRight: !botShow}]" v-show="botShow">
+    data() {
+        return {
+            botShow: false,
+            active_el: null
+        }
+    },
+    methods: {
+      activeBg(val){
+          this.active_el = val;
+      }
+    },
+    template: `
+      <div class="chatBot-box" :class="{'is-visible': botShow}">
+          <transition 
+                enter-active-class="animated slideInRight"
+                leave-active-class="animated slideOutRight"
+                :duration="850"
+                >
+                <div class="chat chat_position position-absolute" v-show="botShow">
                   <div class="chat_header">
-                    <div class="chat_head">Chat</div>
+                    <div class="head_line"></div>
+                    <div class="chat_head"></div>
                   </div>
-                  <div id="chat_fullscreen" class="chat_conversion chat_converse"></div>
-                    <form id="formData">
-                        <input autocomplete="off" id="chatSend" type="text" name="chat_message" placeholder="Send a message"
+                  <div id="chat_fullscreen" class="chat_conversion chat_converse">
+                        <div class="bots_logo_box d-flex justify-content-around align-items-center">
+                            <div class="logo_box" @click="activeBg(1)" :class="{logo_box_active : active_el === 1}">
+                                <div class="logo_box-nature"></div>
+                            </div>
+                            <div class="logo_box" @click="activeBg(2)" :class="{logo_box_active : active_el === 2}">
+                                <div class="logo_box-It"></div>
+                            </div>
+                            <div class="logo_box" @click="activeBg(3)" :class="{logo_box_active : active_el === 3}">
+                                <div class="logo_box-music"></div>
+                            </div>
+                            <div class="logo_box" @click="activeBg(4)" :class="{logo_box_active : active_el === 4}">
+                                <div class="logo_box-art"></div>
+                            </div>
+                        </div>
+                  </div>
+                    <form id="formData" class="d-flex align-items-center">
+                        <input autocomplete="off" id="chatSend" type="text" name="chat_message" placeholder="კითხე არ მოგერიდოს"
                           class="chat_field chat_message">
-                        <button id="sendMessage" type="submit" class="send__mail" disabled="disabled"
-                          style="outline: none; border: 0; background: transparent; display: inline-block; vertical-align: middle; fill: #bbb; cursor: pointer">
-                          <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 24 24">
-                            <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z" />
-                            <path d="M0 0h24v24H0z" fill="none" /></svg>
-                        </button>
+                        <button id="sendMessage" type="submit" class="send__mail" disabled="disabled"></button>
                     </form>
                 </div>
           </transition>
-          <div @click="botShow = !botShow"  id="prime" class="fab" :class="{'is-float is-visible' : botShow}">
-                <i class="prime zmdi" :class="[{'zmdi-close is-active is-visible' : botShow}, {'zmdi-comment-outline': !botShow}]"></i>
+          <div @click="botShow = !botShow"  id="prime">
+                <transition 
+                      enter-active-class="animated flipInY"
+                     leave-active-class="animated flipOutY"
+                     :duration="550" mode="out-in">
+                    <div v-if="!botShow" class="chat_img" key="1"></div>
+                     <div v-if="botShow" class="chat-close"  key="2"></div>
+                </transition>
           </div>
       </div>
     `,
 });
 
 new Vue({
-  el: '#chatBot'
+    el: '#chatBot'
 });
