@@ -16536,6 +16536,28 @@ td img {
   margin-top: 1vh;
 }
 
+.art-7-4-text-margin {
+  margin-bottom: 4.5vh;
+}
+
+.art-7-9-text-margin {
+  margin-top: 10.8vh;
+}
+
+.art-7-9-link-margin {
+  margin-top: 9.5vh;
+}
+
+.art-7-10-image-div-container {
+  height: 56.77vh;
+  margin-left: 5.17vw;
+  margin-top: 8.17vh;
+}
+
+.art-7-10-image-div-container img {
+  height: 100%;
+}
+
 .canvas-container {
   width: 100% !important;
 }
