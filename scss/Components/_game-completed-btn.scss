@@ -1,10 +1,11 @@
 .completed__btn {
-  background: $reset-game-btn;
   border-radius: 27px;
   height: 38px;
   width: 167px;
   text-align: center;
-  color: #ffffff;
+  color: #7FD1D8;
+  background-color: #fff;;
+  box-shadow: 2px 2px 8px rgba(127,209,216,.4);
   font-family: $alk-sanet;
   font-size: 11px;
   letter-spacing: 1.1px;
@@ -12,6 +13,11 @@
 
   &:focus {
     outline: none;
+  }
+
+  &:hover {
+    background-color: #7FD1D8;
+    color: #fff;
   }
 
   &:disabled {

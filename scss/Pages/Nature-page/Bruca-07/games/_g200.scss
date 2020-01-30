@@ -1,0 +1,14 @@
+.nature-07-ujredi-game {
+    .ujredi__drop {
+        position: absolute;
+        box-shadow: 2px 2px 8px rgba(127, 209, 216, 0.4);
+        border-radius: 27px;
+        width: 15.666vw;
+        height: 6.38vh;
+        background-color: #fff;
+
+        &:nth-child(1){
+            top: 0;
+        }
+    }
+}
