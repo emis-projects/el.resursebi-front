@@ -14,16 +14,19 @@
     width: 750px;
   }
 }
+
 @media (min-width: 992px) {
   #chatBot {
     width: 970px;
   }
 }
+
 @media (min-width: 1200px) {
   #chatBot {
     width: 1170px;
   }
 }
+
 .chatBot-box {
   float: right;
 }
@@ -37,17 +40,25 @@
   max-width: 80px;
   min-height: 60px;
   min-width: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   cursor: pointer;
 }
+
 #prime .chat_img {
   background: url("../Vue-chatBot/img/chat.png") no-repeat center;
   background-size: contain;
   height: 30px;
   width: 30px;
 }
+
 #prime .chat-close {
   background: url("../Vue-chatBot/img/close.svg") no-repeat center;
   background-size: contain;
@@ -67,9 +78,10 @@
   padding-bottom: 6px;
   background: white;
 }
+
 #formData input {
   padding-left: 30px;
-  font-family: "ALK Sanet", sans-serif;
+  font-family: 'ALK Sanet', sans-serif;
   font-size: 14px;
 }
 
@@ -108,9 +120,6 @@
   line-height: 22px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
-  -webkit-box-shadow: 1px 1px 100px 2px rgba(0, 0, 0, 0.22);
-          box-shadow: 1px 1px 100px 2px rgba(0, 0, 0, 0.22);
-  border-radius: 10px;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
@@ -126,24 +135,33 @@
   height: 42px;
   width: 100%;
   background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   position: relative;
 }
+
 .chat_header .chat_head {
   background: url("../Vue-chatBot/img/chat.png") no-repeat center;
   background-size: contain;
   height: 25px;
   width: 25px;
 }
+
 .chat_header .head_line {
   position: absolute;
   bottom: 0;
   width: 90%;
   height: 3px;
   z-index: 999;
-  box-shadow: 0 3px 6px rgba(127, 209, 216, 0.4);
+  -webkit-box-shadow: 0 3px 6px rgba(127, 209, 216, 0.4);
+          box-shadow: 0 3px 6px rgba(127, 209, 216, 0.4);
   /*border: 1px solid rgba(127, 209, 216, 0.4);*/
 }
 
@@ -257,7 +275,8 @@
   margin-left: 60px;
   float: left;
   color: #666;
-  box-shadow: 2px 2px 8px #7FD1D866;
+  -webkit-box-shadow: 2px 2px 8px #7FD1D866;
+          box-shadow: 2px 2px 8px #7FD1D866;
   border-radius: 20px 20px 20px 0px;
 }
 
@@ -274,7 +293,8 @@
   margin-right: 20px;
   float: right;
   color: #fff;
-  box-shadow: 2px 2px 8px #7FD1D866;
+  -webkit-box-shadow: 2px 2px 8px #7FD1D866;
+          box-shadow: 2px 2px 8px #7FD1D866;
   border-radius: 20px 20px 0 20px;
 }
 
@@ -424,6 +444,7 @@
     opacity: 0;
   }
 }
+
 .ink {
   display: block;
   position: absolute;
@@ -595,9 +616,11 @@
   background-size: contain;
   height: 22px;
   width: 22px;
-  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
   outline: none;
-  box-shadow: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .voice__mail__child {
@@ -641,60 +664,77 @@
   bottom: 100px;
   border-radius: 30px;
   overflow: hidden;
-  box-shadow: 1px 1px 7px 3px #7FD1D866;
+  -webkit-box-shadow: 1px 1px 7px 3px #7FD1D866;
+          box-shadow: 1px 1px 7px 3px #7FD1D866;
 }
 
 .bots_logo_box {
   height: 60px;
   width: 100%;
 }
+
 .bots_logo_box .logo_box_active {
   background-size: cover;
   background: url("../Vue-chatBot/img/activeBot.svg") no-repeat top;
 }
+
 .bots_logo_box .logo_box {
   height: 55px;
   width: 55px;
   border-radius: 100%;
   cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
+
 .bots_logo_box .logo_box:nth-child(1):hover {
   background-size: cover;
   background: url("../Vue-chatBot/img/hoverBot.svg") no-repeat top;
 }
+
 .bots_logo_box .logo_box:nth-child(2):hover {
   background-size: contain;
   background: url("../Vue-chatBot/img/hoverBot.svg") no-repeat top;
 }
+
 .bots_logo_box .logo_box:nth-child(3):hover {
   background-size: contain;
   background: url("../Vue-chatBot/img/hoverBot.svg") no-repeat top;
 }
+
 .bots_logo_box .logo_box:nth-child(4):hover {
   background-size: contain;
   background: url("../Vue-chatBot/img/hoverBot.svg") no-repeat top;
 }
+
 .bots_logo_box .logo_box-nature {
   height: 35px;
   width: 35px;
   background: url("../img/icons/bunebabot.png") no-repeat center;
   background-size: contain;
 }
+
 .bots_logo_box .logo_box-It {
   height: 35px;
   width: 35px;
   background: url("../img/icons/komp-mecnierebot.png") no-repeat center;
   background-size: contain;
 }
+
 .bots_logo_box .logo_box-music {
   height: 35px;
   width: 35px;
   background: url("../img/icons/musikabot.png") no-repeat center;
   background-size: contain;
 }
+
 .bots_logo_box .logo_box-art {
   height: 35px;
   width: 35px;
@@ -7612,16 +7652,19 @@ section .arrow_up_down_downArrow img {
     width: 750px;
   }
 }
+
 @media (min-width: 992px) {
   #chatBot {
     width: 970px;
   }
 }
+
 @media (min-width: 1200px) {
   #chatBot {
     width: 1170px;
   }
 }
+
 .chatBot-box {
   float: right;
 }
@@ -7635,17 +7678,25 @@ section .arrow_up_down_downArrow img {
   max-width: 80px;
   min-height: 60px;
   min-width: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   cursor: pointer;
 }
+
 #prime .chat_img {
   background: url("../Vue-chatBot/img/chat.png") no-repeat center;
   background-size: contain;
   height: 30px;
   width: 30px;
 }
+
 #prime .chat-close {
   background: url("../Vue-chatBot/img/close.svg") no-repeat center;
   background-size: contain;
@@ -7665,9 +7716,10 @@ section .arrow_up_down_downArrow img {
   padding-bottom: 6px;
   background: white;
 }
+
 #formData input {
   padding-left: 30px;
-  font-family: "ALK Sanet", sans-serif;
+  font-family: 'ALK Sanet', sans-serif;
   font-size: 14px;
 }
 
@@ -7706,6 +7758,7 @@ section .arrow_up_down_downArrow img {
   line-height: 22px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
+  -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
 
@@ -7720,24 +7773,33 @@ section .arrow_up_down_downArrow img {
   height: 42px;
   width: 100%;
   background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   position: relative;
 }
+
 .chat_header .chat_head {
   background: url("../Vue-chatBot/img/chat.png") no-repeat center;
   background-size: contain;
   height: 25px;
   width: 25px;
 }
+
 .chat_header .head_line {
   position: absolute;
   bottom: 0;
   width: 90%;
   height: 3px;
   z-index: 999;
-  box-shadow: 0 3px 6px rgba(127, 209, 216, 0.4);
+  -webkit-box-shadow: 0 3px 6px rgba(127, 209, 216, 0.4);
+          box-shadow: 0 3px 6px rgba(127, 209, 216, 0.4);
   /*border: 1px solid rgba(127, 209, 216, 0.4);*/
 }
 
@@ -7851,7 +7913,8 @@ section .arrow_up_down_downArrow img {
   margin-left: 60px;
   float: left;
   color: #666;
-  box-shadow: 2px 2px 8px #7FD1D866;
+  -webkit-box-shadow: 2px 2px 8px #7FD1D866;
+          box-shadow: 2px 2px 8px #7FD1D866;
   border-radius: 20px 20px 20px 0px;
 }
 
@@ -7868,7 +7931,8 @@ section .arrow_up_down_downArrow img {
   margin-right: 20px;
   float: right;
   color: #fff;
-  box-shadow: 2px 2px 8px #7FD1D866;
+  -webkit-box-shadow: 2px 2px 8px #7FD1D866;
+          box-shadow: 2px 2px 8px #7FD1D866;
   border-radius: 20px 20px 0 20px;
 }
 
@@ -8018,6 +8082,7 @@ section .arrow_up_down_downArrow img {
     opacity: 0;
   }
 }
+
 .ink {
   display: block;
   position: absolute;
@@ -8144,9 +8209,11 @@ section .arrow_up_down_downArrow img {
   background-size: contain;
   height: 22px;
   width: 22px;
-  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
   outline: none;
-  box-shadow: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .voice__mail__child {
@@ -8190,60 +8257,77 @@ section .arrow_up_down_downArrow img {
   bottom: 100px;
   border-radius: 30px;
   overflow: hidden;
-  box-shadow: 1px 1px 7px 3px #7FD1D866;
+  -webkit-box-shadow: 1px 1px 7px 3px #7FD1D866;
+          box-shadow: 1px 1px 7px 3px #7FD1D866;
 }
 
 .bots_logo_box {
   height: 60px;
   width: 100%;
 }
+
 .bots_logo_box .logo_box_active {
   background-size: cover;
   background: url("../Vue-chatBot/img/activeBot.svg") no-repeat top;
 }
+
 .bots_logo_box .logo_box {
   height: 55px;
   width: 55px;
   border-radius: 100%;
   cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
+
 .bots_logo_box .logo_box:nth-child(1):hover {
   background-size: cover;
   background: url("../Vue-chatBot/img/hoverBot.svg") no-repeat top;
 }
+
 .bots_logo_box .logo_box:nth-child(2):hover {
   background-size: contain;
   background: url("../Vue-chatBot/img/hoverBot.svg") no-repeat top;
 }
+
 .bots_logo_box .logo_box:nth-child(3):hover {
   background-size: contain;
   background: url("../Vue-chatBot/img/hoverBot.svg") no-repeat top;
 }
+
 .bots_logo_box .logo_box:nth-child(4):hover {
   background-size: contain;
   background: url("../Vue-chatBot/img/hoverBot.svg") no-repeat top;
 }
+
 .bots_logo_box .logo_box-nature {
   height: 35px;
   width: 35px;
   background: url("../img/icons/bunebabot.png") no-repeat center;
   background-size: contain;
 }
+
 .bots_logo_box .logo_box-It {
   height: 35px;
   width: 35px;
   background: url("../img/icons/komp-mecnierebot.png") no-repeat center;
   background-size: contain;
 }
+
 .bots_logo_box .logo_box-music {
   height: 35px;
   width: 35px;
   background: url("../img/icons/musikabot.png") no-repeat center;
   background-size: contain;
 }
+
 .bots_logo_box .logo_box-art {
   height: 35px;
   width: 35px;
@@ -9758,11 +9842,10 @@ section .arrow_up_down_downArrow img {
 
 #N-1366-04-177 .nature_objects-title {
   padding-top: 0.5vh;
-}
-
-#N-1366-04-177 h3 {
-  font-family: 'BPG Arial', sans-serif;
-  font-size: 2vh;
+  color: #262626;
+  font-size: 2.4vh;
+  font-family: "DejaVuSans";
+  margin-top: 3vh;
 }
 
 .nature-plants-cubes-div {
@@ -9986,11 +10069,10 @@ section .arrow_up_down_downArrow img {
 
 #N-1366-04-177 .nature_objects-title {
   padding-top: 0.5vh;
-}
-
-#N-1366-04-177 h3 {
-  font-family: 'BPG Arial', sans-serif;
-  font-size: 2vh;
+  color: #262626;
+  font-size: 2.4vh;
+  font-family: "DejaVuSans";
+  margin-top: 3vh;
 }
 
 #N-1366-03-151 .N-1366-03-151 {
@@ -16443,3 +16525,4 @@ td img {
   display: -ms-flexbox;
   display: flex;
 }
+/*# sourceMappingURL=style.css.map */

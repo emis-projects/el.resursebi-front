@@ -16,9 +16,7 @@
             height: 100%;
         }
     }
-    .nature_objects a{
-
-    }
+    
 
     .nature_objects:nth-child(1) {
         margin-bottom: 9.5vh;
@@ -30,10 +28,11 @@
 
     .nature_objects-title {
         padding-top: 0.5vh;
+        color: #262626;
+        font-size: 2.4vh;
+        font-family: "DejaVuSans";
+        margin-top: 3vh;
     }
 
-    h3 {
-        font-family: 'BPG Arial', sans-serif;
-        font-size: 2vh;
-    }
+    
 }
