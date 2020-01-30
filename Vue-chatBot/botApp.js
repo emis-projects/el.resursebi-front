@@ -49,7 +49,7 @@ Vue.component('appBot', {
                 <transition 
                       enter-active-class="animated flipInY"
                      leave-active-class="animated flipOutY"
-                     :duration="550" mode="out-in">
+                     :duration="450" mode="out-in">
                     <div v-if="!botShow" class="chat_img" key="1"></div>
                      <div v-if="botShow" class="chat-close"  key="2"></div>
                 </transition>

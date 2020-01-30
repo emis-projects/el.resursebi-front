@@ -45,13 +45,14 @@
 
         </app-bar>
         <component
-                :is="currentTabComponent"
-                :is-active="isActive"
-                :trigger="trigger"
-                :images="images"
-                :active-class="activeClass"
-                :tab-class="currentTabComponent">
-        </component>
+                    :path="path"
+                    :is="currentTabComponent"
+                    :is-active="isActive"
+                    :trigger="trigger"
+                    :images="images"
+                    :active-class="activeClass"
+                    :tab-class="currentTabComponent">
+            </component>
     </app-section>
 </section>
 <section id="mainPage">

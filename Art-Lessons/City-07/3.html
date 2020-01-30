@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- ბოტის აიდიში ვუთითებთ: ხელოვნების - 2318, ბუნების - 2320, მუსიკის - 2292 -->
-<html lang="ka" data-botid="2320">
+<html lang="ka" data-botid="2318">
 
 <head>
     <meta charset="UTF-8"/>
@@ -10,8 +10,10 @@
     <!--  ვუე გაშვებისას
       <script src="./js/vue.min.js"></script>
        -->
-    <link rel="stylesheet" href="../../New-header-vue/animate.min.css">
     <link rel="stylesheet" href="../../scss/libraries/bootstrap.min.css">
+    <link rel="stylesheet" href="../../New-header-vue/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="../../scss/libraries/owl.carousel.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../../scss/libraries/owl.theme.default.css"/>
     <link rel="stylesheet" href="../../scss/style.css"/>
     <title>ელექტრონული საგანმანათლებლო რესურსი</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -57,21 +59,38 @@
         </app-section>
     </section>
     <section id="mainPage">
-        <div class="comics_N-07-7 nature_full_image-box"></div>
-        <div class="nature-text-wrapper nature-text-wrapper-newDesign"></div>
-        <div class="our__pagination flex">
-            <a href="#" class="pagination__prev__btn">
-                <img style="transform: rotate(180deg)" src="../../img/icons/chevron-left-icon.svg" alt="">
-            </a>
-
-            <div id="pagination" class="flex align-items-center"></div>
-
-            <a href="#" class="pagination__next__btn">
-                <img src="../../img/icons/chevron-left-icon.svg" alt="">
-            </a>
+        <div class="row">
+            <div class="main-box_absolute">
+                <div class="main-box_relative">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <img src="../../img/gakvetilebi/xelovneba/City-07/city_3.png" alt="city" />
+                        </div>
+                        <div class="item">
+                            <img src="../../img/gakvetilebi/xelovneba/City-07/city_3-1.png" alt="city" />
+                        </div>
+                        <div class="item">
+                            <img src="../../img/gakvetilebi/xelovneba/City-07/city_3-2.png" alt="city" />
+                        </div>
+                        <div class="item">
+                            <img src="../../img/gakvetilebi/xelovneba/City-07/city_3-3.png" alt="city" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="our__pagination flex">
+                <a href="#" class="pagination__prev__btn">
+                    <img style="transform: rotate(180deg)" src="../../img/icons/chevron-left-icon.svg" alt="">
+                </a>
+                <div id="pagination" class="flex align-items-center"></div>
+                <a href="#" class="pagination__next__btn">
+                    <img src="../../img/icons/chevron-left-icon.svg" alt="">
+                </a>
+            </div>
         </div>
     </section>
 </div>
+
 
 <!-- ჩეთბოტი -->
 <div id="chatBot">
@@ -79,13 +98,16 @@
 </div>
 
 <script src="../../js/libraries/jquery-3.4.1.min.js"></script>
+<script src="../../js/libraries/owl.carousel.min.js"></script>
 <script src="../../js/Pagination.js"></script>
+<script src="../../js/slider.js"></script>
 
 
 <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
 <script src="../../New-header-vue/app.js"></script>
 <script src="../../Vue-chatBot/botApp.js"></script>
 <script src="../../js/bot.js"></script>
+
 
 </body>
 

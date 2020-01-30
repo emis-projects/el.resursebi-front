@@ -5,26 +5,29 @@ Vue.directive('logo', {
         const sound = el.querySelectorAll('.sound img');
         sound.forEach(elm => {
             if (elm.classList.contains('on')) {
-                elm.src = binding.value + 'New-header-vue/header-img/active.svg'
+                elm.src = binding.value + 'New-header-vue/header-img/active.svg';
             } else {
-                elm.src = binding.value + 'New-header-vue/header-img/mute.png'
+                elm.src = binding.value + 'New-header-vue/header-img/mute.png';
             }
         });
         header.href = binding.value + 'index.html';
-        logo.src = binding.value + 'New-header-vue/header-img/Header-logo.svg'
+        logo.src = binding.value + 'New-header-vue/header-img/Header-logo.svg';
     }
 });
 
 Vue.directive('image', {
-    bind(el, binding, vnode){
+    bind(el, binding, vnode) {
         vnode.context.$data.path = binding.value;
-        vnode.context.$data.images.IT = binding.value + 'New-header-vue/header-img/arts/IT-artwork.svg';
-        vnode.context.$data.images.art = binding.value + 'New-header-vue/header-img/arts/art-artwork.svg';
-        vnode.context.$data.images.nature = binding.value + 'New-header-vue/header-img/arts/nature-artwork.svg';
-        vnode.context.$data.images.music = binding.value + 'New-header-vue/header-img/arts/music-artwork.svg';
+        vnode.context.$data.images.IT =
+            binding.value + 'New-header-vue/header-img/arts/IT-artwork.svg';
+        vnode.context.$data.images.art =
+            binding.value + 'New-header-vue/header-img/arts/art-artwork.svg';
+        vnode.context.$data.images.nature =
+            binding.value + 'New-header-vue/header-img/arts/nature-artwork.svg';
+        vnode.context.$data.images.music =
+            binding.value + 'New-header-vue/header-img/arts/music-artwork.svg';
     }
 });
-
 
 //menu component ნავბარის კომპონენტი
 Vue.component('appMenu', {
@@ -35,7 +38,7 @@ Vue.component('appMenu', {
             menuHover: false,
             langHover: false,
             soundHover: false
-        }
+        };
     },
     props: {
         isActive: {
@@ -129,7 +132,7 @@ Vue.component('appSection', {
                 </transition>
             </div>
             
-    `,
+    `
 });
 
 //bar component - კომპონენტების ბარი ნავიგაცია
@@ -144,7 +147,7 @@ Vue.component('appBar', {
         },
         currentTab: {
             type: String
-        },
+        }
     },
     template: `
         <transition 
@@ -216,7 +219,6 @@ Vue.component('appStart', {
     `
 });
 
-
 // appSelect component  გაკვეთილების ასარჩევი კომპონენტო
 Vue.component('appSelect', {
     props: {
@@ -227,12 +229,12 @@ Vue.component('appSelect', {
         isActive: {
             type: Boolean,
             required: true
-        },
+        }
     },
     data() {
         return {
             class: title
-        }
+        };
     },
     computed: {
         titleCheck() {
@@ -243,7 +245,7 @@ Vue.component('appSelect', {
             } else if (this.activeClass === 'ბუნება') {
                 return this.class.nature;
             } else {
-                return this.class.IT
+                return this.class.IT;
             }
         },
         artImage() {
@@ -254,7 +256,7 @@ Vue.component('appSelect', {
             } else if (this.activeClass === 'ბუნება') {
                 return this.images.nature;
             } else {
-                return this.images.IT
+                return this.images.IT;
             }
         }
     },
@@ -298,7 +300,7 @@ Vue.component('appLinks', {
         isActive: {
             type: Boolean,
             required: true
-        },
+        }
     },
 
     template: `
@@ -320,7 +322,7 @@ Vue.component('appSections', {
         isActive: {
             type: Boolean,
             required: true
-        },
+        }
     },
     template: `
         <transition 
@@ -347,14 +349,32 @@ var app = new Vue({
             nature: './New-header-vue/header-img/arts/nature-artwork.svg',
             music: './New-header-vue/header-img/arts/music-artwork.svg'
         },
-        dots: [
-            {name: 'start', id: 0, disable: false, classActive: true},
-            {name: 'select', id: 1, disable: true, classActive: false},
-            {name: 'links', id: 2, disable: true, classActive: false},
-            {name: 'sections', id: 3, disable: true, classActive: false}
+        dots: [{
+                name: 'start',
+                id: 0,
+                disable: false,
+                classActive: true
+            },
+            {
+                name: 'select',
+                id: 1,
+                disable: true,
+                classActive: false
+            },
+            {
+                name: 'links',
+                id: 2,
+                disable: true,
+                classActive: false
+            },
+            {
+                name: 'sections',
+                id: 3,
+                disable: true,
+                classActive: false
+            }
         ],
-        activeClass: '',
-
+        activeClass: ''
     },
     // trigger menu button & menu panels
     methods: {
@@ -371,8 +391,8 @@ var app = new Vue({
                     dot.classActive = false;
                 }
             });
-            this.link = 'start'
-            this.activeClass = ''
+            this.link = 'start';
+            this.activeClass = '';
         },
         trigger(val, data) {
             this.activeClass = data;
@@ -380,7 +400,7 @@ var app = new Vue({
             this.dots.forEach(dot => {
                 if (dot.name === val) {
                     dot.disable = false;
-                    dot.classActive = true
+                    dot.classActive = true;
                 } else {
                     dot.classActive = false;
                 }
@@ -391,17 +411,15 @@ var app = new Vue({
         currentTabComponent() {
             this.dots.forEach(dot => {
                 if (dot.name === this.link.toLowerCase()) {
-                    dot.classActive = true
+                    dot.classActive = true;
                 } else {
                     dot.classActive = false;
                 }
-
             });
-            return 'app-' + this.link.toLowerCase()
+            return 'app-' + this.link.toLowerCase();
         }
     }
 });
-
 
 //ვუს ცვლადების შეცვლა სლაიდერის დაწყებაზე კლიკისას
 function startPage(val) {
@@ -412,13 +430,36 @@ function startPage(val) {
 
 // გაკვეთილიების სათაურები
 let title = {
-    music: [
-        {id: 1, name: 'ხმები', link: 'Music-Lessons/Voices/M-1366-9.html'},
-        {id: 2, name: 'მუსიკალური კომპოზიცია', link: 'Music-Lessons/Voices/M-1366-17.html'},
-        {id: 3, name: 'გასეირნება ქალაქში', link: 'Music-Lessons/Walk-in-the-city-1/M-1366-03-1.html'},
-        {id: 4, name: 'მუსიკალური ქალაქი', link: 'Music-Lessons/musical_city/M-1366-04-1.html'},
-        {id: 5, name: 'ჩემი ცხოვრების ერთი დღე', link: 'Music-Lessons/Day-of-my-life/M-1366-05-1.html'},
-        {id: 6, name: 'საინტერესოდ გატარებული დღე', link: 'Music-Lessons/interesting-day/M-1366-06-1.html'},
+    music: [{
+            id: 1,
+            name: 'ხმები',
+            link: 'Music-Lessons/Voices/M-1366-9.html'
+        },
+        {
+            id: 2,
+            name: 'მუსიკალური კომპოზიცია',
+            link: 'Music-Lessons/Voices/M-1366-17.html'
+        },
+        {
+            id: 3,
+            name: 'გასეირნება ქალაქში',
+            link: 'Music-Lessons/Walk-in-the-city-1/M-1366-03-1.html'
+        },
+        {
+            id: 4,
+            name: 'მუსიკალური ქალაქი',
+            link: 'Music-Lessons/musical_city/M-1366-04-1.html'
+        },
+        {
+            id: 5,
+            name: 'ჩემი ცხოვრების ერთი დღე',
+            link: 'Music-Lessons/Day-of-my-life/M-1366-05-1.html'
+        },
+        {
+            id: 6,
+            name: 'საინტერესოდ გატარებული დღე',
+            link: 'Music-Lessons/interesting-day/M-1366-06-1.html'
+        }
 
         // თუ დაემათება გაკვეთილები მუსიკას ყველა გავააქტიუროთ, link: '
         /*{id: 7, name: '', link: '#'},
@@ -428,50 +469,187 @@ let title = {
         {id: 11, name: '', link: '#'},
         {id: 12, name: '', link: '#'}*/
     ],
-    art: [
-        {id: 1, name: 'ფერებით მოთხრობილი ამბავი', link: 'Art-Lessons/color_story/1366-236.html'},
-        {id: 2, name: 'მშვიდი და ბობოქარი', link: 'Art-Lessons/calm_and_stormy/A-1366-73.html'},
-        {id: 3, name: 'ტყე', link: 'Art-Lessons/forest/A-1366-03-1.html'},
-        {id: 4, name: 'ჯადოსნური ქვეყანა', link: 'Art-Lessons/Magic-world/A-1366-04-2.html'},
-        {id: 5, name: 'თავგადასავალი', link: 'Art-Lessons/Adventure/A-1366-05-2.html'},
-        {id: 6, name: 'პეიზაჟი', link: 'Art-Lessons/Landscape/A-1366-06-1.html'},
-        {id: 7, name: 'სათაური', link: '#'},
-        {id: 8, name: 'სათაური', link: '#'},
-        {id: 9, name: 'სათაური', link: '#'},
-        {id: 10, name: 'სათაური', link: '#'},
-        {id: 11, name: 'სათაური', link: '#'},
-        {id: 12, name: 'სათაური', link: '#'},
-    ],
-    nature: [
-        {id: 1, name: 'საშიში სათამაშოები', link: 'Nature-Lessons/N-1366-11.html'},
-        {id: 2, name: 'უხილავი ძალები', link: 'Nature-Lessons/N-1366-11.html'},
-        {id: 3, name: 'რატომ იცვალა ტყემ ფერი?', link: 'Nature-Lessons/N-1366-11.html'},
-        {id: 4, name: 'რატომ მოიწყინა ჩემმა ყვავილმა', link: 'Nature-Lessons/N-1366-11.html'},
-        {id: 5, name: 'სად დაიმალა მზე?', link: 'Nature-Lessons/N-1366-11.html'},
-        {id: 6, name: 'შეიძლება ზაფხული ზამთარში იყოს?', link: 'Nature-Lessons/N-1366-11.html'},
-        {id: 7, name: 'ბრუცა', link: 'Nature-Lessons/Bruca-07/3.html'},
-        {id: 8, name: 'სათაური', link: '#'},
-        {id: 9, name: 'სათაური', link: '#'},
-        {id: 10, name: 'სათაური', link: '#'},
-        {id: 11, name: 'სათაური', link: '#'},
-        {id: 12, name: 'სათაური', link: '#'}
-    ],
-    IT: [
+    art: [{
+            id: 1,
+            name: 'ფერებით მოთხრობილი ამბავი',
+            link: 'Art-Lessons/color_story/1366-236.html'
+        },
         {
+            id: 2,
+            name: 'მშვიდი და ბობოქარი',
+            link: 'Art-Lessons/calm_and_stormy/A-1366-73.html'
+        },
+        {
+            id: 3,
+            name: 'ტყე',
+            link: 'Art-Lessons/forest/A-1366-03-1.html'
+        },
+        {
+            id: 4,
+            name: 'ჯადოსნური ქვეყანა',
+            link: 'Art-Lessons/Magic-world/A-1366-04-2.html'
+        },
+        {
+            id: 5,
+            name: 'თავგადასავალი',
+            link: 'Art-Lessons/Adventure/A-1366-05-2.html'
+        },
+        {
+            id: 6,
+            name: 'პეიზაჟი',
+            link: 'Art-Lessons/Landscape/A-1366-06-1.html'
+        },
+        {
+            id: 7,
+            name: 'ქალაქი',
+            link: 'Art-Lessons/Art-Lessons/City-07/3.html'
+        },
+        {
+            id: 8,
+            name: 'სათაური',
+            link: '#'
+        },
+        {
+            id: 9,
+            name: 'სათაური',
+            link: '#'
+        },
+        {
+            id: 10,
+            name: 'სათაური',
+            link: '#'
+        },
+        {
+            id: 11,
+            name: 'სათაური',
+            link: '#'
+        },
+        {
+            id: 12,
+            name: 'სათაური',
+            link: '#'
+        }
+    ],
+    nature: [{
+            id: 1,
+            name: 'საშიში სათამაშოები',
+            link: 'Nature-Lessons/N-1366-11.html'
+        },
+        {
+            id: 2,
+            name: 'უხილავი ძალები',
+            link: 'Nature-Lessons/N-1366-11.html'
+        },
+        {
+            id: 3,
+            name: 'რატომ იცვალა ტყემ ფერი?',
+            link: 'Nature-Lessons/N-1366-11.html'
+        },
+        {
+            id: 4,
+            name: 'რატომ მოიწყინა ჩემმა ყვავილმა',
+            link: 'Nature-Lessons/N-1366-11.html'
+        },
+        {
+            id: 5,
+            name: 'სად დაიმალა მზე?',
+            link: 'Nature-Lessons/N-1366-11.html'
+        },
+        {
+            id: 6,
+            name: 'შეიძლება ზაფხული ზამთარში იყოს?',
+            link: 'Nature-Lessons/N-1366-11.html'
+        },
+        {
+            id: 7,
+            name: 'ბრუცა',
+            link: 'Nature-Lessons/Bruca-07/3.html'
+        },
+        {
+            id: 8,
+            name: 'სათაური',
+            link: '#'
+        },
+        {
+            id: 9,
+            name: 'სათაური',
+            link: '#'
+        },
+        {
+            id: 10,
+            name: 'სათაური',
+            link: '#'
+        },
+        {
+            id: 11,
+            name: 'სათაური',
+            link: '#'
+        },
+        {
+            id: 12,
+            name: 'სათაური',
+            link: '#'
+        }
+    ],
+    IT: [{
             id: 1,
             name: 'კომპიუტერი და მისი შემადგენელი ნაწილები',
             link: './Computer-Science/Computer_parts/C-1366-01-01.html'
         },
-        {id: 2, name: 'ალგორითმი', link: '#'},
-        {id: 3, name: 'სათაური', link: '#'},
-        {id: 4, name: 'სათაური', link: '#'},
-        {id: 5, name: 'სათაური', link: '#'},
-        {id: 6, name: 'სათაური', link: '#'},
-        {id: 7, name: 'სათაური', link: '#'},
-        {id: 8, name: 'სათაური', link: '#'},
-        {id: 9, name: 'სათაური', link: '#'},
-        {id: 10, name: 'სათაური', link: '#'},
-        {id: 11, name: 'სათაური', link: '#'},
-        {id: 12, name: 'სათაური', link: '#'}
+        {
+            id: 2,
+            name: 'ალგორითმი',
+            link: '#'
+        },
+        {
+            id: 3,
+            name: 'სათაური',
+            link: '#'
+        },
+        {
+            id: 4,
+            name: 'სათაური',
+            link: '#'
+        },
+        {
+            id: 5,
+            name: 'სათაური',
+            link: '#'
+        },
+        {
+            id: 6,
+            name: 'სათაური',
+            link: '#'
+        },
+        {
+            id: 7,
+            name: 'სათაური',
+            link: '#'
+        },
+        {
+            id: 8,
+            name: 'სათაური',
+            link: '#'
+        },
+        {
+            id: 9,
+            name: 'სათაური',
+            link: '#'
+        },
+        {
+            id: 10,
+            name: 'სათაური',
+            link: '#'
+        },
+        {
+            id: 11,
+            name: 'სათაური',
+            link: '#'
+        },
+        {
+            id: 12,
+            name: 'სათაური',
+            link: '#'
+        }
     ]
-}
+};
