@@ -4,12 +4,15 @@ document.addEventListener('DOMContentLoaded', async () => {
     // find page id with regex
     let regex = location.pathname;
     let phormula = /([^\/+]*)$/;
-    var result = regex.match(phormula);
+    var result = regex.match(phormula)[0];
 
-    let regex2 = result[0];
+    console.log('1)', result);
+
+    let regex2 = result;
     let phormula2 = /[0-9]/g;
     var result2 = regex2.match(phormula2);
-    let pageId = parseInt(result2[0]);
+    let finalyResult = result2[0] + result2[1];
+    let pageId = parseInt(finalyResult);
     $('html').attr('pageid', pageId);
 
     createDots(json);
