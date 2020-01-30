@@ -9842,11 +9842,10 @@ section .arrow_up_down_downArrow img {
 
 #N-1366-04-177 .nature_objects-title {
   padding-top: 0.5vh;
-}
-
-#N-1366-04-177 h3 {
-  font-family: 'BPG Arial', sans-serif;
-  font-size: 2vh;
+  color: #262626;
+  font-size: 2.4vh;
+  font-family: "DejaVuSans";
+  margin-top: 3vh;
 }
 
 .nature-plants-cubes-div {
@@ -10070,11 +10069,10 @@ section .arrow_up_down_downArrow img {
 
 #N-1366-04-177 .nature_objects-title {
   padding-top: 0.5vh;
-}
-
-#N-1366-04-177 h3 {
-  font-family: 'BPG Arial', sans-serif;
-  font-size: 2vh;
+  color: #262626;
+  font-size: 2.4vh;
+  font-family: "DejaVuSans";
+  margin-top: 3vh;
 }
 
 #N-1366-03-151 .N-1366-03-151 {
@@ -16549,3 +16547,4 @@ td img {
   display: -ms-flexbox;
   display: flex;
 }
+/*# sourceMappingURL=style.css.map */
