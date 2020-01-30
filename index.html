@@ -48,10 +48,11 @@
                     :trigger="trigger"
                     :dots="dots"
                     :current-tab="link"
-                    v-on:link-tab="link = $event">
+                    :link-tab="link = $event">
 
             </app-bar>
             <component
+                    :path="path"
                     :is="currentTabComponent"
                     :is-active="isActive"
                     :trigger="trigger"
