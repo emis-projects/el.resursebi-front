@@ -40,7 +40,6 @@ function sendMessageFromBot(res) {
 
     let text = document.createElement('span');
     let a = document.createElement('a');
-    let img = document.createElement('img');
 
     $(text).addClass('chat_msg_item-text');
     $(text).text('')
@@ -49,6 +48,8 @@ function sendMessageFromBot(res) {
     res.forEach(function(w){
         console.log(w);
 
+        var img = document.createElement('img');
+        
         if (w.type == 0) {
             $(text).append(" " + w.text);
             $(div).append(text)
@@ -103,13 +104,14 @@ function sendMessageFromBot(res) {
             })
 
 
+        
         } else if (w.type == 1) {
             $(a).addClass('image-popup-no-margins')
-            $(a).attr('href', w.url)
+            $(a).attr('href', w.url);
             $(img).attr('src', w.url);
             $(img).attr('style', 'width: 100%');
-            $(a).append(img)
-            $(div).append(a)
+            $(a).append(img);
+            $(div).append(a);
 
         } else if (w.type == 6) {
             $(text).append(" " + w.text);
@@ -131,7 +133,6 @@ function sendMessageFromBot(res) {
 
         $(getTag).scrollTop($(getTag)[0].scrollHeight)
     })
-
 
     $(div).appendTo(getTag)
     $(getTag).scrollTop($(getTag)[0].scrollHeight)
