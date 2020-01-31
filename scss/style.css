@@ -16598,8 +16598,8 @@ td img {
   margin-top: 10.8vh;
 }
 
-.art-7-9-link-margin {
-  margin-top: 9.5vh;
+.art-7-9-link-padding {
+  padding-top: 9.5vh;
 }
 
 .art-7-10-image-div-container {
@@ -16633,6 +16633,60 @@ td img {
 
 .art-7-18-text-container p {
   line-height: 5vh;
+}
+
+.art-7-20-image-container {
+  height: 33.59vh;
+  margin-top: 14.32vh;
+}
+
+.art-7-20-image-container img {
+  height: 100%;
+}
+
+.art-7-25-image-container {
+  height: 56.64vh;
+  margin-top: 2.73vh;
+}
+
+.art-7-25-image-container img {
+  height: 100%;
+}
+
+.art-7-30-text-container {
+  text-align: center;
+  font-family: 'DejaVu Sans Oblique';
+  font-size: 2.6vh;
+}
+
+.art-7-30-text-container p {
+  line-height: 5vh;
+}
+
+.art-7-30-img-container {
+  height: 18.97vh;
+  margin-top: 10.41vh;
+}
+
+.art-7-30-img-container img {
+  height: 100%;
+}
+
+.art-7-18-1-image-div-container {
+  height: 48.17vh;
+}
+
+.art-7-18-1-image-div-container img {
+  height: 100%;
+}
+
+.art-7-11-1-image-div-container {
+  height: 60.45vh;
+  margin-right: 2.19vw;
+}
+
+.art-7-11-1-image-div-container img {
+  height: 100%;
 }
 
 .canvas-container {
