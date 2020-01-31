@@ -2513,6 +2513,11 @@ section .arrow_up_down_downArrow img {
   width: 100%;
 }
 
+.portfolio-item-container_newDesign {
+  height: 65.2vh;
+  margin-top: 2vh;
+}
+
 .portfolio-item-container_img {
   width: 100%;
   height: 100%;
@@ -3023,6 +3028,55 @@ section .arrow_up_down_downArrow img {
 
 .portfolio-slider-06-10.owl-theme .owl-dots .owl-dot:nth-child(4) span {
   background-image: url("../img/gakvetilebi/xelovneba/Landscape/A-06-10-4.jpg");
+}
+
+.portfolio-slider-07-13.owl-theme .owl-dots .owl-dot:nth-child(1) span {
+  background-image: url("../img/gakvetilebi/xelovneba/City-07/A-07-13-1.png");
+}
+
+.portfolio-slider-07-13.owl-theme .owl-dots .owl-dot:nth-child(2) span {
+  background-image: url("../img/gakvetilebi/xelovneba/City-07/A-07-13-2.png");
+}
+
+.portfolio-slider-07-22.owl-theme .owl-dots .owl-dot:nth-child(1) span {
+  background-image: url("../img/gakvetilebi/xelovneba/City-07/A-07-22-1.png");
+}
+
+.portfolio-slider-07-22.owl-theme .owl-dots .owl-dot:nth-child(2) span {
+  background-image: url("../img/gakvetilebi/xelovneba/City-07/A-07-22-2.png");
+}
+
+.portfolio-slider-07-27.owl-theme .owl-dots .owl-dot:nth-child(1) span {
+  background-image: url("../img/gakvetilebi/xelovneba/City-07/A-07-27-1.png");
+}
+
+.portfolio-slider-07-27.owl-theme .owl-dots .owl-dot:nth-child(2) span {
+  background-image: url("../img/gakvetilebi/xelovneba/City-07/A-07-27-2.png");
+}
+
+.portfolio-slider-07-31.owl-theme .owl-dots .owl-dot:nth-child(1) span {
+  background-image: url("../img/gakvetilebi/xelovneba/City-07/A-07-31-1.png");
+}
+
+.portfolio-slider-07-31.owl-theme .owl-dots .owl-dot:nth-child(2) span {
+  background-image: url("../img/gakvetilebi/xelovneba/City-07/A-07-31-2.png");
+}
+
+.portfolio-slider-07-14.owl-theme .owl-dots .owl-dot:nth-child(1) span {
+  background-image: url("../img/gakvetilebi/xelovneba/City-07/A-07-14-1.png");
+  background-position: top;
+}
+
+.portfolio-slider-07-14.owl-theme .owl-dots .owl-dot:nth-child(2) span {
+  background-image: url("../img/gakvetilebi/xelovneba/City-07/A-07-14-2.png");
+}
+
+.portfolio-slider-07-28.owl-theme .owl-dots .owl-dot:nth-child(1) span {
+  background-image: url("../img/gakvetilebi/xelovneba/City-07/A-07-28-1.png");
+}
+
+.portfolio-slider-07-28.owl-theme .owl-dots .owl-dot:nth-child(2) span {
+  background-image: url("../img/gakvetilebi/xelovneba/City-07/A-07-28-2.png");
 }
 
 .big-font-size-22px {
@@ -16534,6 +16588,28 @@ td img {
 .n-07-31-img {
   height: 29.68vh;
   margin-top: 1vh;
+}
+
+.art-7-4-text-margin {
+  margin-bottom: 4.5vh;
+}
+
+.art-7-9-text-margin {
+  margin-top: 10.8vh;
+}
+
+.art-7-9-link-margin {
+  margin-top: 9.5vh;
+}
+
+.art-7-10-image-div-container {
+  height: 56.77vh;
+  margin-left: 5.17vw;
+  margin-top: 8.17vh;
+}
+
+.art-7-10-image-div-container img {
+  height: 100%;
 }
 
 .canvas-container {
