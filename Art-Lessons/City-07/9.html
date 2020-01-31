@@ -47,8 +47,9 @@
 
                 </app-bar>
                 <component
-                        :is="currentTabComponent"
-                        :is-active="isActive"
+                    :is="currentTabComponent"
+                    :is-active="isActive"
+                    :path="path"
                         :trigger="trigger"
                         :images="images"
                         :active-class="activeClass"

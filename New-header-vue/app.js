@@ -502,7 +502,7 @@ let title = {
         {
             id: 7,
             name: 'ქალაქი',
-            link: 'Art-Lessons/Art-Lessons/City-07/3.html'
+            link: '/Art-Lessons/City-07/3.html'
         },
         {
             id: 8,
