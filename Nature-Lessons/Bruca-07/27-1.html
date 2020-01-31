@@ -8,10 +8,12 @@
     <!-- ყველა გვერდზე -->
     <script src="../../js/vue.js"></script>
     <!--  ვუე გაშვებისას
-      <script src="./js/vue.min.js"></script>
-       -->
+        <script src="./js/vue.min.js"></script>
+         -->
     <link rel="stylesheet" href="../../New-header-vue/animate.min.css">
     <link rel="stylesheet" href="../../scss/libraries/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../../scss/libraries/owl.carousel.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../../scss/libraries/owl.theme.default.css"/>
     <link rel="stylesheet" href="../../scss/style.css"/>
     <title>ელექტრონული საგანმანათლებლო რესურსი</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -31,34 +33,12 @@
 
 <body>
 <div class="container">
-    <section id="app" class="container position-absolute">
-        <header>
-            <app-menu v-logo="'../../'" :is-active="isActive" :toggle="toggle"></app-menu>
-        </header>
-
-        <app-section v-image="'../../'" :is-active="isActive">
-            <app-bar
-                    :is-active="isActive"
-                    :trigger="trigger"
-                    :dots="dots"
-                    :current-tab="link"
-                    v-on:link-tab="link = $event">
-
-            </app-bar>
-            <component
-                    :path="path"
-                    :is="currentTabComponent"
-                    :is-active="isActive"
-                    :trigger="trigger"
-                    :images="images"
-                    :active-class="activeClass"
-                    :tab-class="currentTabComponent">
-            </component>
-        </app-section>
-    </section>
-
-
-    <section id="mainPage">
+    <header>
+        <a class="close" href="27.html">
+            <img src="../../img/icons/close.svg" alt="close"/>
+        </a>
+    </header>
+    <section>
         <div class="left_components_paging-cont">
             <svg class="left_components_paging" xmlns="http://www.w3.org/2000/svg"
                  xmlns:xlink="http://www.w3.org/1999/xlink" width="134" height="722" viewBox="0 0 134 722">
@@ -444,13 +424,13 @@
                         <tspan x="0" y="0">მინიშნება</tspan>
                     </text>
                     <text id="შუალედური_დავალება" data-name="შუალედური
-                  დავალება" transform="translate(70 549)" fill="#c5cbcd" font-size="12"
+                დავალება" transform="translate(70 549)" fill="#c5cbcd" font-size="12"
                           font-family="ALKSanet, ALK Sanet">
                         <tspan x="-35.344" y="0">შუალედური</tspan>
                         <tspan x="-30.636" y="12">დავალება</tspan>
                     </text>
                     <text id="კომპლექსური_დავალება" data-name="კომპლექსური
-                  დავალება" transform="translate(70 668)" fill="#c5cbcd" font-size="12"
+                დავალება" transform="translate(70 668)" fill="#c5cbcd" font-size="12"
                           font-family="ALKSanet, ALK Sanet">
                         <tspan x="-42.015" y="0">კომპლექსური</tspan>
                         <tspan x="-30.636" y="12">დავალება</tspan>
@@ -458,63 +438,46 @@
                 </g>
             </svg>
         </div>
-        <div class="row">
-        <div class="col-10 m-auto ">
-            <div class="newDesign_subject_question_item nature-7-45-title-margin">
-                <img src="../../img/icons/newDesign_btn-yellow.svg" alt="img"
-                     class="newDesign_subject_question_item-img">
-                <p class="newDesign_subject_question_item-title">შეარჩიე საცხოვრებელი გარემო, რომელიც ყველაზე მეტად შეესაბამება შენს</br> დაკვირვებებს არსებაზე და გაიგებ მის სახელს.</p>
-            </div>
-        </div>
-        
-            <div class="col-10 m-auto">
-                        <div class="row">
-                              <div class="col-6">
-                                     <div class="nature-7-img-div-container">
-                                          <img src="../../img/gakvetilebi/buneba/Bruca-07/nature-7-img-place.svg" alt="">
-                                     </div>  
-                                     <div class="nature-7-img-div-container">
-                                          <img src="../../img/gakvetilebi/buneba/Bruca-07/nature-7-img-place-2.svg" alt="">
-                                     </div> 
-                                     <div class="nature-7-img-div-container">
-                                          <img src="../../img/gakvetilebi/buneba/Bruca-07/nature-7-img-place-3.svg" alt="">
-                                     </div>                           
-                              </div>
-                              <div class="col-6">
-                                    <div class="nature-7-img-div-container">
-                                         <img src="../../img/gakvetilebi/buneba/Bruca-07/nature-7-img-animal.png" alt="">
-                                    </div>  
-                                    <div class="nature-7-img-div-container">
-                                         <img src="../../img/gakvetilebi/buneba/Bruca-07/nature-7-img-animal-2.png" alt="">
-                                    </div> 
-                                    <div class="nature-7-img-div-container">
-                                         <img src="../../img/gakvetilebi/buneba/Bruca-07/nature-7-img-animal-3.png" alt="">
-                                    </div>                           
-                             </div>
+        <div class="row newDesign_hintPage">
+            <div class="col-8 col-md-10 m-auto">
+                <div class="newDesign_container_main_title-cont newDesign_container_main_title-cont-margin">
+                    <h1 class="newDesign_container_main_title">ძველისძველები (არქაეები)</h1>
+                    <img src="../../img/icons/main_title-border.svg" alt="img"
+                         class="newDesign_container_main_title-img">
+                </div>
+                <div class="row align-items-center mt-5vh">
+                    <div class="col-7">
+                        <img src="../../img/gakvetilebi/buneba/Bruca-07/N-07-34.png" alt="img" class="cell_hint-img">
+                        <div class="recomendations_link-cont">
+                            <a href="https://www.youtube.com/watch?v=635UZAPkElg" target="_blank"
+                               rel="noopener noreferrer"
+                               class="recomendations_link">
+                                https://www.youtube.com/watch?v=635UZAPkElg
+                            </a>
                         </div>
-                  </div>>  
-            </div> 
-         
-            <div class="our__pagination flex">
-                <a href="#" class="pagination__prev__btn">
-                    <img style="transform: rotate(180deg)" src="../../img/icons/chevron-left-icon.svg" alt="">
-                </a>
-
-                <div id="pagination" class="flex align-items-center"></div>
-
-                <a href="#" class="pagination__next__btn">
-                    <img src="../../img/icons/chevron-left-icon.svg" alt="">
-                </a>
+                    </div>
+                    <div class="col-5">
+                        <div class="newDesign_subject_question_item">
+                            <img src="../../img/icons/newDesign_btn-yellow.svg" alt="img"
+                                 class="newDesign_subject_question_item-img">
+                            <p class="newDesign_subject_question_item-title">
+                                უძველესი უჯრედული არსებები, რომელთაც არ აქვთ არც ბირთვი და არც სხვა ორგანოები.
+                            </p>
+                        </div>
+                        <div class="newDesign_subject_question_item">
+                            <img src="../../img/icons/newDesign_btn-yellow.svg" alt="img"
+                                 class="newDesign_subject_question_item-img">
+                            <p class="newDesign_subject_question_item-title">
+                                ისინი ახერხებენ ცხოვრებას 80 °C-სა და უფრო მაღალ ტემპერატურაზე და იქ, სადაც სხვა
+                                ცოცხალი არსებები ვერ იცხოვრებენ.
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-      </div>
     </section>
-    <div class="flex flex-end column align-items-end z-index reload_game_wrapper">
-      <button id="reset" class="reset__btn">თავიდან სცადე</button>
-      <button id="check" class="completed__btn">დასრულება</button>
-    </div>
 </div>
-
 
 
 <!-- ჩეთბოტი -->
@@ -522,14 +485,15 @@
     <app-bot></app-bot>
 </div>
 
-
 <script src="../../js/libraries/jquery-3.4.1.min.js"></script>
 <script src="../../js/Pagination.js"></script>
 
 
 <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
-<script src="../../New-header-vue/app.js"></script>
 <script src="../../Vue-chatBot/botApp.js"></script>
 <script src="../../js/bot.js"></script>
+
+
 </body>
+
 </html>
