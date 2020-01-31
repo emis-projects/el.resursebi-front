@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- ბოტის აიდიში ვუთითებთ: ხელოვნების - 2318, ბუნების - 2320, მუსიკის - 2292 -->
-<html lang="ka" data-botid="2320" pageid="3" pages-number="3" data-type="5">
+<html lang="ka" data-botid="2318">
 
 <head>
     <meta charset="UTF-8"/>
@@ -8,8 +8,8 @@
     <!-- ყველა გვერდზე -->
     <script src="../../js/vue.js"></script>
     <!--  ვუე გაშვებისას
-        <script src="./js/vue.min.js"></script>
-         -->
+      <script src="./js/vue.min.js"></script>
+       -->
     <link rel="stylesheet" href="../../New-header-vue/animate.min.css">
     <link rel="stylesheet" href="../../scss/libraries/bootstrap.min.css">
     <link rel="stylesheet" href="../../scss/style.css"/>
@@ -37,20 +37,20 @@
         </header>
 
         <app-section v-image="'../../'" :is-active="isActive">
-            <app-bar 
-                    :is-active="isActive" 
-                    :trigger="trigger" 
-                    :dots="dots" 
+            <app-bar
+                    :is-active="isActive"
+                    :trigger="trigger"
+                    :dots="dots"
                     :current-tab="link"
-                     v-on:link-tab="link = $event">
+                    v-on:link-tab="link = $event">
 
             </app-bar>
-            <component 
-                    :is="currentTabComponent"  :path="path"
-                    :is-active="isActive" 
-                    :trigger="trigger" 
+            <component
+                    :is="currentTabComponent"
+                    :is-active="isActive"
+                    :trigger="trigger"
                     :images="images"
-                    :active-class="activeClass" 
+                    :active-class="activeClass"
                     :tab-class="currentTabComponent">
             </component>
         </app-section>
@@ -458,43 +458,21 @@
             </svg>
         </div>
         <div class="row">
-            <div class="col-8 offset-1">
-                <div class="newDesign_subject_question_item">
-                    <img src="../../img/icons/newDesign_btn-yellow.svg" alt="img"
-                         class="newDesign_subject_question_item-img">
-                    <p class="newDesign_subject_question_item-title font-NotoSans-14">
-                        დააწკაპე თითოეულზე და გაიგებ მეტს!
-                    </p>
-                </div>
-                <div class="d-flex justify-content-between">
-                    <a href="27-1.html">
-                        <div class="n-07-31-cont">
-                            <img src="../../img/gakvetilebi/buneba/Bruca-07/N-07-34.png" alt="img" class="n-07-31-img">
-                            <p class="newDesign_subject_question_item-title text-center">
-                                “ძველისძველები” (არქაეები)
-                            </p>
-                        </div>
-                    </a>
-                    <a href="27-2.html">
-                        <div class="n-07-31-cont">
-                            <img src="../../img/gakvetilebi/buneba/Bruca-07/N-07-31-2.png" alt="img"
-                                 class="n-07-31-img">
-                            <p class="newDesign_subject_question_item-title text-center">
-                                ბაქტერიები
-                            </p>
-                        </div>
-                    </a>
-                </div>
-                <a href="27-3.html">
-                    <div class="n-07-31-cont">
-                        <img src="../../img/gakvetilebi/buneba/Bruca-07/N-07-31-3.png" alt="img"
-                             class="n-07-31-img w-100">
-                        <p class="newDesign_subject_question_item-title text-center">
-                            ბირთვიანი უჯრედებიანები
-                        </p>
+                    <div class="col-10 m-auto art-7-11-text-padding">
+                        <div class="newDesign_subject_question_item art-7-4-text-margin">
+                            <p class="newDesign_subject_question_item-title">წარმოიდგინე, რომ ხარ <a class="a-blue" href="18-1.html">არქიტექტური</a> და უნდა შექმნა საბავშვო გასართობი ცენტრის ესკიზი.<br> გამოიყენე შემოთავაზებული ფორმები და დეტალები.</p>
+                        </div>                                
                     </div>
-                </a>
-            </div>
+                </div>
+                <div class="col-10 m-auto art-7-11-text-padding d-flex align-items-center" >
+              <div class="art-7-18-image-container">
+                  <img src="../../img/gakvetilebi/xelovneba/City-07/art-7-18-image.svg" alt="">
+              </div>
+              <div class="art-7-18-text-container ">
+                    <p class="a-blue">დავალების შესასრულებლად გადადი აპლიკაციაზე<br> "ვსწავლობთ თამაშით".</p>
+              </div>
+          </div>
+         
             <div class="our__pagination flex">
                 <a href="#" class="pagination__prev__btn">
                     <img style="transform: rotate(180deg)" src="../../img/icons/chevron-left-icon.svg" alt="">
@@ -509,6 +487,7 @@
         </div>
     </section>
 </div>
+
 
 
 <!-- ჩეთბოტი -->
@@ -526,5 +505,4 @@
 <script src="../../Vue-chatBot/botApp.js"></script>
 <script src="../../js/bot.js"></script>
 </body>
-
 </html>

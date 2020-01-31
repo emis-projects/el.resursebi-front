@@ -16647,6 +16647,29 @@ td img {
   background-repeat: no-repeat;
 }
 
+.art-7-11-text-padding {
+  padding-top: 8vh;
+}
+
+.art-7-18-image-container {
+  height: 44.66vh;
+}
+
+.art-7-18-image-container img {
+  height: 100%;
+}
+
+.art-7-18-text-container {
+  text-align: center;
+  margin-left: 11.63vw;
+  font-family: 'DejaVu Sans Oblique';
+  font-size: 2.6vh;
+}
+
+.art-7-18-text-container p {
+  line-height: 5vh;
+}
+
 .canvas-container {
   width: 100% !important;
 }
