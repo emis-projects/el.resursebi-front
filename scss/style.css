@@ -14241,7 +14241,7 @@ td img {
 
 .building_box {
   position: absolute;
-  top: -9vh;
+  top: -8vh;
   height: 69vh;
   max-height: 544px;
 }
@@ -14249,8 +14249,16 @@ td img {
   height: 100%;
 }
 
-.our__pagination flex {
-  z-index: 155;
+.our__pagination {
+  z-index: 12121212;
+}
+
+.pb-1vh {
+  padding-bottom: 1.5vh;
+}
+
+#A-32-1 p {
+  font-size: 2.6vh;
 }
 
 .canvas-container {
