@@ -32,31 +32,21 @@
 
 <body>
   <div class="container">
-    <section id="app" class="container position-absolute">
-      <header>
-        <app-menu v-logo="'../../'" :is-active="isActive" :toggle="toggle"></app-menu>
+    <header>
+        <a class="close" href="./31.html">
+          <img src="../../img/icons/close.svg" alt="close" />
+        </a>
       </header>
-
-      <app-section v-image="'../../'" :is-active="isActive">
-        <app-bar :is-active="isActive" :trigger="trigger" :dots="dots" :current-tab="link"
-          v-on:link-tab="link = $event">
-
-        </app-bar>
-        <component :is="currentTabComponent" :is-active="isActive" :trigger="trigger" :images="images"
-          :active-class="activeClass" :tab-class="currentTabComponent">
-        </component>
-      </app-section>
-    </section>
-    <section id="mainPage">
+    <section class="newDesign_hintPage">
       <div class="row">
         <div class="col-10 m-auto">
           <div class="newDesign_subject_question_item">
-            <p class="newDesign_subject_question_item-title">დაათვალიერე, როგორი ესკიზების გაკეთებაა შესაძლებელი პარკების შესაქმნელად:</p>
+            <p class="newDesign_subject_question_item-title">მაკეტის ნიმუშები</p>
           </div>
           <div class="row">
-            <div class="col-6">
-              <div class="portfolio-item-container portfolio-item-container_newDesign">
-                <img src="../../img/gakvetilebi/xelovneba/City-07/A-07-31-1.jpg" alt="color story"
+            <div class="col-12">
+              <div class="portfolio-item-container portfolio-item-container_newDesign portfolio-item-container_newDesign-sm">
+                <img src="../../img/gakvetilebi/xelovneba/City-07/A-07-34-1.jpg" alt="color story"
                   class="portfolio-item-container_img" />
                 <div class="paging_buttons">
                   <a href="" id="slide1" class="paging_buttons_fullScreen-link" data-toggle="modal"
@@ -66,8 +56,8 @@
               </div>
             </div>
             <div class="col-6">
-              <div class="portfolio-item-container portfolio-item-container_newDesign">
-                <img src="../../img/gakvetilebi/xelovneba/City-07/A-07-31-2.jpg" alt="color story"
+              <div class="portfolio-item-container portfolio-item-container_newDesign portfolio-item-container_newDesign-sm">
+                <img src="../../img/gakvetilebi/xelovneba/City-07/A-07-34-2.jpg" alt="color story"
                   class="portfolio-item-container_img" />
                 <div class="paging_buttons">
                   <a href="" id="slide2" class="paging_buttons_fullScreen-link" data-toggle="modal"
@@ -76,6 +66,17 @@
                 </div>
               </div>
             </div>
+            <div class="col-3">
+                <div class="portfolio-item-container portfolio-item-container_newDesign portfolio-item-container_newDesign-sm">
+                  <img src="../../img/gakvetilebi/xelovneba/City-07/A-07-34-3.jpg" alt="color story"
+                    class="portfolio-item-container_img" />
+                  <div class="paging_buttons">
+                    <a href="" id="slide3" class="paging_buttons_fullScreen-link" data-toggle="modal"
+                      data-target="#exampleModal"><img src="../../img/icons/arrows_blue.svg" alt="color story"
+                        class="paging_buttons_fullScreen-img" /></a>
+                  </div>
+                </div>
+              </div>
           </div>
         </div>
       </div>
@@ -86,24 +87,31 @@
         <div class="modal-dialog fullScreen_modal-dialog" role="document">
           <div class="modal-content fullScreen_modal-content">
             <div class="container modal-header fullScreen_modal-header">
-              <a href="./31.html" class="close" data-dismiss="modal" aria-label="Close">
+              <a href="./24.html" class="close" data-dismiss="modal" aria-label="Close">
                 <img src="../../img/icons/close.svg" alt="close" />
               </a>
             </div>
             <div class="modal-body fullScreen_modal-body">
               <div class="container-fluid">
-                <div class="owl-carousel owl-theme row no-gutters portfolio-slider portfolio-slider-07-31">
+                <div class="owl-carousel owl-theme row no-gutters portfolio-slider portfolio-slider-07-34">
                   <div class="item col-12 slide_content-box">
                     <div>
                       <div class="fullScreen_modal-img-lg-hor">
-                        <img src="../../img/gakvetilebi/xelovneba/City-07/A-07-31-1.jpg" alt="color story" />
+                        <img src="../../img/gakvetilebi/xelovneba/City-07/A-07-34-1.jpg" alt="color story" />
                       </div>
                     </div>
                   </div>
                   <div class="item col-12 slide_content-box">
                     <div>
                       <div class="fullScreen_modal-img-lg-hor">
-                        <img src="../../img/gakvetilebi/xelovneba/City-07/A-07-31-2.jpg" alt="color story" />
+                        <img src="../../img/gakvetilebi/xelovneba/City-07/A-07-34-2.jpg" alt="color story" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item col-12 slide_content-box">
+                    <div>
+                      <div class="fullScreen_modal-img-lg-hor">
+                        <img src="../../img/gakvetilebi/xelovneba/City-07/A-07-34-3.jpg" alt="color story" />
                       </div>
                     </div>
                   </div>
@@ -533,6 +541,9 @@
     });
     $(document).on("click", "#slide2", function () {
       owl.trigger("to.owl.carousel", 1);
+    });
+    $(document).on("click", "#slide3", function () {
+      owl.trigger("to.owl.carousel", 2);
     });
   </script>
 </body>
