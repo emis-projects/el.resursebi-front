@@ -38,11 +38,11 @@
       </header>
 
       <app-section v-image="'../../'" :is-active="isActive">
-        <app-bar :is-active="isActive" :trigger="trigger" :dots="dots" :current-tab="link"
+        <app-bar :is-active="isActive" :trigger="trigger"  :dots="dots" :current-tab="link"
           v-on:link-tab="link = $event">
 
         </app-bar>
-        <component :is="currentTabComponent" :is-active="isActive" :trigger="trigger" :images="images"
+        <component :is="currentTabComponent" :is-active="isActive" :path="path" :trigger="trigger" :images="images"
           :active-class="activeClass" :tab-class="currentTabComponent">
         </component>
       </app-section>
@@ -56,7 +56,7 @@
           <div class="row">
             <div class="col-6">
               <div class="portfolio-item-container portfolio-item-container_newDesign">
-                <img src="../../img/gakvetilebi/xelovneba/City-07/A-07-28-1.png" alt="color story"
+                <img src="../../img/gakvetilebi/xelovneba/City-07/A-07-28-1.jpg" alt="color story"
                   class="portfolio-item-container_img" />
                 <div class="paging_buttons">
                   <a href="" id="slide1" class="paging_buttons_fullScreen-link" data-toggle="modal"
@@ -67,7 +67,7 @@
             </div>
             <div class="col-6">
               <div class="portfolio-item-container portfolio-item-container_newDesign">
-                <img src="../../img/gakvetilebi/xelovneba/City-07/A-07-28-2.png" alt="color story"
+                <img src="../../img/gakvetilebi/xelovneba/City-07/A-07-28-2.jpg" alt="color story"
                   class="portfolio-item-container_img" />
                 <div class="paging_buttons">
                   <a href="" id="slide2" class="paging_buttons_fullScreen-link" data-toggle="modal"
@@ -96,14 +96,14 @@
                   <div class="item col-12 slide_content-box">
                     <div>
                       <div class="fullScreen_modal-img-lg-hor">
-                        <img src="../../img/gakvetilebi/xelovneba/City-07/A-07-28-1.png" alt="color story" />
+                        <img src="../../img/gakvetilebi/xelovneba/City-07/A-07-28-1.jpg" alt="color story" />
                       </div>
                     </div>
                   </div>
                   <div class="item col-12 slide_content-box">
                     <div>
                       <div class="fullScreen_modal-img-lg-hor">
-                        <img src="../../img/gakvetilebi/xelovneba/City-07/A-07-28-2.png" alt="color story" />
+                        <img src="../../img/gakvetilebi/xelovneba/City-07/A-07-28-2.jpg" alt="color story" />
                       </div>
                     </div>
                   </div>

@@ -47,8 +47,9 @@
 
                 </app-bar>
                 <component
-                        :is="currentTabComponent"
-                        :is-active="isActive"
+                    :is="currentTabComponent"
+                    :is-active="isActive"
+                    :path="path"
                         :trigger="trigger"
                         :images="images"
                         :active-class="activeClass"
@@ -80,15 +81,15 @@
                </div>
             </div>
 
-                <div class="col-5 m-auto art-7-9-link-margin">
+                <div class="col-5 m-auto art-7-9-link-padding">
                     <div class="newDesign_steps_cont">
-                        <a href="./5.html" class="newDesign_steps_item">
-                            <img src="../../img/icons/step_item.svg" alt="img" class="newDesign_steps_item-img">
-                        </a>
                         <a href="./10.html" class="newDesign_steps_item">
                             <img src="../../img/icons/step_item.svg" alt="img" class="newDesign_steps_item-img">
                         </a>
                         <a href="./20.html" class="newDesign_steps_item">
+                            <img src="../../img/icons/step_item.svg" alt="img" class="newDesign_steps_item-img">
+                        </a>
+                        <a href="./25.html" class="newDesign_steps_item">
                             <img src="../../img/icons/step_item.svg" alt="img" class="newDesign_steps_item-img">
                         </a>     
                     </div>
