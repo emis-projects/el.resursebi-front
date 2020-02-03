@@ -599,7 +599,7 @@ let title = {
         {
             id: 2,
             name: 'ალგორითმი',
-            link: '#'
+            link: './Computer-Science/algorithme/C-1366-02-03.html'
         },
         {
             id: 3,
