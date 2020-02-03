@@ -79,7 +79,7 @@ function getNextAndPrevBtn(pagesLength, next, prev) {
     let htmlAttr = parseInt($('html').attr('pageid'));
     
     if (htmlAttr == pagesLength){
-        document.querySelector('.pagination__next__btn').setAttribute('href', 'javascript:void(0)')
+        document.querySelector('.pagination__next__btn').setAttribute('style', 'display: none')
     
     } else {
         next = next + 1;
