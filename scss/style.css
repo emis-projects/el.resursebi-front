@@ -1,5 +1,5 @@
 #chatBot {
-  bottom: 5vh;
+  bottom: 11vh;
   position: absolute;
   right: 10%;
 }
@@ -1497,6 +1497,7 @@ body {
 .app-select_box-content a {
   color: inherit;
   display: flex;
+  text-align: center;
   justify-content: center;
   align-items: center;
   height: 100%;
@@ -6560,7 +6561,7 @@ section .arrow_up_down_downArrow img {
 }
 
 #chatBot {
-  bottom: 5vh;
+  bottom: 11vh;
   position: absolute;
   right: 10%;
 }
