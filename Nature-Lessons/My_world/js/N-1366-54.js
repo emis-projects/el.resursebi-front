@@ -165,8 +165,8 @@ function natureGames(){
             } else if(loc == "/Nature-Lessons/Summer-in-winter/games/N-1366-06-21.html" || loc == "/el.resursebi-front/Nature-Lessons/Summer-in-winter/games/N-1366-06-21.html"){
                 location.href = "N-1366-06-21-success.html"
 
-            } else if(loc == "/el.resursebi-front/Nature-Lessons/Bruca-07/18.html" || loc == "/Nature-Lessons/Bruca-07/18.html"){
-                location.href = "game-success.html"
+            } else if(loc == "/el.resursebi-front/Nature-Lessons/Bruca-07/16.html" || loc == "/Nature-Lessons/Bruca-07/16.html"){
+                location.href = "game-success-16.html"
             }
             
 
