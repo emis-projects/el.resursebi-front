@@ -1,0 +1,94 @@
+
+ @import "header_new";
+ @import "burger";
+ @import "top-bar";
+ @import "pageSection";
+
+ // თამაშების ფუნჯების verlay
+ @import "./_game-paint-overlay.scss";
+
+
+ // თამაშების button ები რომლებსაც მარტო თამაშების გვერდზე ვიყენებთ
+ @import "./game-completed-btn";
+ @import "./game-reset-btn";
+ @import "./_color-games-paint.scss";
+
+ //  choose_arrowDown component
+ @import "./choose_arrowDown";
+
+ // links components ( with half-flower)
+ @import "./links";
+
+ // Subject question items
+ @import "./subject_question";
+
+ // container main title without paddings
+ @import "./main_title";
+
+ // Paging buttons - left and right button
+ @import "./paging_buttons";
+
+ // Background colors
+ @import "./background_colors";
+
+ // top and bottom ilustration backgrounds
+ @import "./background-ilustration";
+
+ // subject_components icon and title
+ @import "./subject_components";
+
+
+ // middle bg image box
+ @import "./middle_image_bg";
+
+ // Link Colors
+ @import "./link_colors";
+
+ // paint box and paint brush
+ @import "./paint_atributes";
+
+ // narure class mainc box content
+ @import "./nature_content_box";
+
+ // up down nature buttons
+ @import "./arrow_up_down";
+
+ // close button
+ @import "./close_button";
+
+ // full image nature
+ @import "./nature_full_image";
+
+ // ღილაკი "მოუსმინე"
+ @import "./listen_btn";
+
+ // ცნობილი ნამუშევრების პოპაპ სლაიდერი
+ @import "./portfolio_slider";
+ // ფონტის ზომა 22 პიქსელი, Ariel ფონტი
+ @import "./big-font-size-22px";
+
+ // ფონტის ზომა 16 პიქსელი, Ariel ფონტი
+ @import "big-font-size-16px";
+
+ // ფონტის ზომა 18 პიქსელი, Ariel ფონტი
+ @import "./big-font-size-18px";
+
+ // მუსიკის ღილაკი პატარა ღილაკთან ერთად
+ @import "./_music_button__with_press_icon";
+
+
+
+ // ახალი დიზაინის კომპონენტების მთავარი სათაური
+@import './newDesign_main_title';
+
+// ახალი დიზაინის კომპონენტების სათაური ყვითელი აიქონით
+@import './newDesign_subject_component';
+
+// ახალი დიზაინის ნაბიჯები
+@import './newDesign_steps';
+
+// ახალი დიზაინის paging კომპონენტი: ნაბიჯი;სავარჯიშო,მინიშნება;შუალედ.დავალება;კომპლექს.დავალება;
+@import './left_components_paging';
+
+// ახალი დიზაინის მინიშნების გვერის კონტეინერი;
+@import './newDesign_hintPage';
