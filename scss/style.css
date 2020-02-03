@@ -1,29 +1,9 @@
 #chatBot {
-  bottom: 5vh;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+  bottom: 11vh;
   position: absolute;
-  left: 0;
-  right: 0;
+  right: 10%;
 }
 
-@media (min-width: 768px) {
-  #chatBot {
-    width: 750px;
-  }
-}
-@media (min-width: 992px) {
-  #chatBot {
-    width: 970px;
-  }
-}
-@media (min-width: 1200px) {
-  #chatBot {
-    width: 1170px;
-  }
-}
 .chatBot-box {
   float: right;
 }
@@ -1517,6 +1497,7 @@ body {
 .app-select_box-content a {
   color: inherit;
   display: flex;
+  text-align: center;
   justify-content: center;
   align-items: center;
   height: 100%;
@@ -6580,31 +6561,11 @@ section .arrow_up_down_downArrow img {
 }
 
 #chatBot {
-  bottom: 5vh;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+  bottom: 11vh;
   position: absolute;
-  left: 0;
-  right: 0;
+  right: 10%;
 }
 
-@media (min-width: 768px) {
-  #chatBot {
-    width: 750px;
-  }
-}
-@media (min-width: 992px) {
-  #chatBot {
-    width: 970px;
-  }
-}
-@media (min-width: 1200px) {
-  #chatBot {
-    width: 1170px;
-  }
-}
 .chatBot-box {
   float: right;
 }

@@ -1,9 +1,32 @@
 
 #chatBot {
   // bottom: 110px;
-  bottom: 11vh;
+  bottom: 5vh;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
   position: absolute;
-  right: 10%;
+  left: 0;
+  right: 0;
+}
+
+@media (min-width: 768px) {
+  #chatBot {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  #chatBot {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #chatBot {
+    width: 1170px;
+  }
 }
 
 .chatBot-box {
@@ -97,9 +120,9 @@
 
 .chat_fullscreen {
   position: fixed;
-  right: 0px;
-  bottom: 0px;
-  top: 0px;
+  right: 0;
+  bottom: 0;
+  top: 0;
 }
 
 .chat_header {
