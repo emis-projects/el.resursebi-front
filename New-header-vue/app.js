@@ -562,8 +562,8 @@ let title = {
         },
         {
             id: 7,
-            name: 'ბრუცა',
-            link: 'Nature-Lessons/Bruca-07/3.html'
+            name: 'რატომ არის ბრუცა ბრმა?',
+            link: 'Nature-Lessons/Bruca-07/1.html'
         },
         {
             id: 8,
