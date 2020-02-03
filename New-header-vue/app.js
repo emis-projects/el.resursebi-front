@@ -533,32 +533,32 @@ let title = {
     nature: [{
             id: 1,
             name: 'საშიში სათამაშოები',
-            link: 'Nature-Lessons/N-1366-11.html'
+            link: 'Nature-Lessons/My_world/N-1366-13.html'
         },
         {
             id: 2,
             name: 'უხილავი ძალები',
-            link: 'Nature-Lessons/N-1366-11.html'
+            link: 'Nature-Lessons/invisible_forces/N-1366-36.html'
         },
         {
             id: 3,
             name: 'რატომ იცვალა ტყემ ფერი?',
-            link: 'Nature-Lessons/N-1366-11.html'
+            link: 'Nature-Lessons/forest_colours/N-1366-03-109.html'
         },
         {
             id: 4,
             name: 'რატომ მოიწყინა ჩემმა ყვავილმა',
-            link: 'Nature-Lessons/N-1366-11.html'
+            link: 'Nature-Lessons/The-living-world/N-1366-04-188.html'
         },
         {
             id: 5,
             name: 'სად დაიმალა მზე?',
-            link: 'Nature-Lessons/N-1366-11.html'
+            link: 'Nature-Lessons/Where-sun-goes/N-1366-05-3.html'
         },
         {
             id: 6,
             name: 'შეიძლება ზაფხული ზამთარში იყოს?',
-            link: 'Nature-Lessons/N-1366-11.html'
+            link: 'Nature-Lessons/Summer-in-winter/N-1366-06-3.html'
         },
         {
             id: 7,
