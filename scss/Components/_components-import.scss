@@ -1,9 +1,5 @@
 // header component
-// @import "./header";
- @import "header_new";
- @import "burger";
- @import "top-bar";
- @import "pageSection";
+@import "./header";
 
 // თამაშების ფუნჯების verlay
 @import "./_game-paint-overlay.scss";
@@ -77,17 +73,3 @@
 // მუსიკის ღილაკი პატარა ღილაკთან ერთად
 @import "./_music_button__with_press_icon";
 
-// ახალი დიზაინის კომპონენტების მთავარი სათაური
-@import './newDesign_main_title';
-
-// ახალი დიზაინის კომპონენტების სათაური ყვითელი აიქონით
-@import './newDesign_subject_component';
-
-// ახალი დიზაინის ნაბიჯები
-@import './newDesign_steps';
-
-// ახალი დიზაინის paging კომპონენტი: ნაბიჯი;სავარჯიშო,მინიშნება;შუალედ.დავალება;კომპლექს.დავალება;
-@import './left_components_paging';
-
-// ახალი დიზაინის მინიშნების გვერის კონტეინერი;
-@import './newDesign_hintPage';
