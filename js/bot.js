@@ -70,12 +70,12 @@ function sendMessageFromBot(res) {
 
             var div1 = document.createElement('div');
             div1.classList.add('voice__maile');
-            div1.setAttribute('data-voice', '');
 
             var div2 = document.createElement('div')
             div2.className = "voice__mail__child flex align-items-center";
 
             var img = document.createElement('img');
+            img.setAttribute('data-voice', '');
             img.setAttribute('id', 'play-pause-btn');
             img.setAttribute('src', '/img/icons/play-solid.svg');
             img.classList.add('voice-mail-play')
@@ -90,8 +90,8 @@ function sendMessageFromBot(res) {
                     $(img).attr('src', '/img/icons/pause-solid.svg')
                     $(img).removeClass('voice-mail-play')
                     $(img).addClass('voice-mail-pause')
-                    $(div1).attr('data-voice', w.url)
-                    dynamicEvent(w.url, div1);
+                    $(img).attr('data-voice', w.url)
+                    dynamicEvent(w.url, img);
                     handleLoadComplete()
 
                 } else if(e.target.getAttribute('class') == "voice-mail-pause"){
@@ -99,7 +99,7 @@ function sendMessageFromBot(res) {
                     $(img).removeClass('voice-mail-pause')
                     $(img).addClass('voice-mail-play')
                     $(img).attr('src', '/img/icons/play-solid.svg')
-                    $(div1).removeAttr('data-voice')
+                    $(img).removeAttr('data-voice')
                 }
             })
 
@@ -140,12 +140,10 @@ function sendMessageFromBot(res) {
 }
 
 
-function dynamicEvent(url, div1) {
-    div1.setAttribute('data-voice', url)
-    createjs.Sound.registerSound({src:`${div1.getAttribute('data-voice')}`, id:"sound"});   
+function dynamicEvent(url, img) {
+    img.setAttribute('data-voice', url)
+    createjs.Sound.registerSound({src:`${img.getAttribute('data-voice')}`, id:"sound"});   
 }
-
-
 
 
 // user message ui
