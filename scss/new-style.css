@@ -17,15 +17,9 @@
   max-width: 80px;
   min-height: 60px;
   min-width: 60px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
 }
 #prime .chat_img {
@@ -14011,9 +14005,16 @@ td img {
   background-position: bottom center;
 }
 
-.animal-clasification-img {
-  height: 35vh;
-  margin-top: 4vh;
+.is_fixed {
+  height: 100vh;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.is_fixed svg {
+  height: 100%;
 }
 
 .nature-07-game-card {
@@ -14139,6 +14140,16 @@ td img {
 .n-07-31-img {
   height: 29.68vh;
   margin-top: 1vh;
+}
+
+.carousel_text {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 15.7vh;
+  font-family: "DejaVu Sans Oblique", sans-serif;
+  font-size: 3.6vh;
+  color: #fff;
 }
 
 .art-7-4-text-margin {

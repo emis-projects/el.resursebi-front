@@ -1,4 +1,11 @@
-.animal-clasification-img {
-    height: 35vh;
-    margin-top: 4vh;
+.is_fixed{
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    svg{
+        height: 100%;
+    }
 }
