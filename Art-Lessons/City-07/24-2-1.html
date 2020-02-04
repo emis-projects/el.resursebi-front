@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- ბოტის აიდიში ვუთითებთ: ხელოვნების - 2318, ბუნების - 2320, მუსიკის - 2292 -->
-<html lang="ka" data-botid="2318">
+<html lang="ka" data-botid="2320">
 
 <head>
     <meta charset="UTF-8"/>
@@ -8,8 +8,8 @@
     <!-- ყველა გვერდზე -->
     <script src="../../js/vue.js"></script>
     <!--  ვუე გაშვებისას
-      <script src="./js/vue.min.js"></script>
-       -->
+    <script src="./js/vue.min.js"></script>
+     -->
     <link rel="stylesheet" href="../../New-header-vue/animate.min.css">
     <link rel="stylesheet" href="../../scss/libraries/bootstrap.min.css">
     <link rel="stylesheet" href="../../scss/new-style.css"/>
@@ -31,34 +31,12 @@
 
 <body>
 <div class="container">
-    <section id="app" class="container position-absolute">
-        <header>
-            <app-menu v-logo="'../../'" :is-active="isActive" :toggle="toggle"></app-menu>
-        </header>
-
-        <app-section v-image="'../../'" :is-active="isActive">
-            <app-bar
-                    :is-active="isActive"
-                    :trigger="trigger"
-                    :dots="dots"
-                    :current-tab="link"
-                    v-on:link-tab="link = $event">
-
-            </app-bar>
-            <component
-                    :is="currentTabComponent"
-                    :is-active="isActive"
-                    :path="path"
-                    :trigger="trigger"
-                    :images="images"
-                    :active-class="activeClass"
-                    :tab-class="currentTabComponent">
-            </component>
-        </app-section>
-    </section>
-
-
-    <section id="mainPage">
+    <header>
+        <a class="close" href="./24.html">
+            <img src="../../img/icons/close.svg" alt="close"/>
+        </a>
+    </header>
+    <section>
         <div class="left_components_paging-cont">
             <svg class="left_components_paging" xmlns="http://www.w3.org/2000/svg"
                  xmlns:xlink="http://www.w3.org/1999/xlink" width="134" height="722" viewBox="0 0 134 722">
@@ -444,13 +422,13 @@
                         <tspan x="0" y="0">მინიშნება</tspan>
                     </text>
                     <text id="შუალედური_დავალება" data-name="შუალედური
-                  დავალება" transform="translate(70 549)" fill="#c5cbcd" font-size="12"
+                დავალება" transform="translate(70 549)" fill="#c5cbcd" font-size="12"
                           font-family="ALKSanet, ALK Sanet">
                         <tspan x="-35.344" y="0">შუალედური</tspan>
                         <tspan x="-30.636" y="12">დავალება</tspan>
                     </text>
                     <text id="კომპლექსური_დავალება" data-name="კომპლექსური
-                  დავალება" transform="translate(70 668)" fill="#c5cbcd" font-size="12"
+                დავალება" transform="translate(70 668)" fill="#c5cbcd" font-size="12"
                           font-family="ALKSanet, ALK Sanet">
                         <tspan x="-42.015" y="0">კომპლექსური</tspan>
                         <tspan x="-30.636" y="12">დავალება</tspan>
@@ -458,56 +436,44 @@
                 </g>
             </svg>
         </div>
-        <div class="row">
-            <div class="col-10 m-auto">
+        <div class="row newDesign_hintPage">
+            <div class="col-12 m-auto">
                 <div class="newDesign_container_main_title-cont newDesign_container_main_title-cont-margin">
-                    <h1 class="newDesign_container_main_title">ქალაქი</h1>
-                    <img src="../../img/icons/main_title-border.svg" alt="img"
+                    <h1 class="newDesign_container_main_title">ინსტრუქცია კომპლექსური დავალების შესასრულებლად</h1>
+                    <img src="../../img/icons/art_main_title_border.svg" alt="img"
                          class="newDesign_container_main_title-img">
                 </div>
-                <div class="row">
-                    <div class="col-8 m-auto">
-                        <div class="newDesign_subject_question_item art-7-4-text-margin">
-                            <img src="../../img/icons/newDesign_btn-yellow.svg" alt="img"
-                                 class="newDesign_subject_question_item-img">
-                            <p class="newDesign_subject_question_item-title">შენ უკვე იცი, რა არის არქიტექტურა და როგორი შენობები<br> არსებობს.</p>
-                        </div>
-                        <div class="newDesign_subject_question_item art-7-4-text-margin">
-                            <img src="../../img/icons/newDesign_btn-yellow.svg" alt="img"
-                                 class="newDesign_subject_question_item-img">
-                            <p class="newDesign_subject_question_item-title">
-                              იცი, რა მნიშვნელობა აქვს გამწვანებას ქალაქში.
-                            </p>
-                        </div>
-                        <div class="newDesign_subject_question_item art-7-4-text-margin">
-                            <img src="../../img/icons/newDesign_btn-yellow.svg" alt="img"
-                                 class="newDesign_subject_question_item-img">
-                            <p class="newDesign_subject_question_item-title">მოდი, ახლა შენთვის სასურველი მასალითა და ტექნიკით(<span class="a-pink">აპლიკაცია,<br></span><a class="a-blue" href=""> მაკეტი</a>) შექმენი ქალაქი, სადაც, შენობების გარდა, იქნება ქუჩები, პარკები,<br>განათებები და სხვ.</p>
-                        </div>
-                        <div class="newDesign_subject_question_item art-7-4-text-margin">
-                            <img src="../../img/icons/newDesign_btn-yellow.svg" alt="img"
-                                 class="newDesign_subject_question_item-img">
-                            <p class="newDesign_subject_question_item-title">
-                              დავალების შესრულებისას გაითვალისწინე ჩვენი<br> <a class="a-blue" href="">რჩევები და ინსტრუქციები.</a>
-                        </div>                   
-                    </div>
+                <div class="col-7 d-flex pb-2 m-auto pt-4 newDesign_container_main_title">
+                    <img src="../../img/icons/newDesign_btn-yellow.svg" alt="img"
+                         class="newDesign_subject_question_item-img">
+                    <p class="newDesign_subject_question_item-title">შეგიძლიათ, ბუნებისმეტყველების გაკვეთილებზე
+                        სხვადასხვა მცენარე დათესოთ და ნარგავებით თქვენი ქალაქის ქუჩები გაამწვანოთ. ქუჩებისა და სახლების
+                        გასანათებლად კი უფროსკლასელებს მიმართოთ.</p>
                 </div>
-            </div>
-            <div class="our__pagination flex">
-                <a href="#" class="pagination__prev__btn">
-                    <img style="transform: rotate(180deg)" src="../../img/icons/chevron-left-icon.svg" alt="">
-                </a>
-
-                <div id="pagination" class="flex align-items-center"></div>
-
-                <a href="#" class="pagination__next__btn">
-                    <img src="../../img/icons/chevron-left-icon.svg" alt="">
-                </a>
+                <div class="col-7 d-flex pb-2 m-auto newDesign_container_main_title">
+                    <img src="../../img/icons/newDesign_btn-yellow.svg" alt="img"
+                         class="newDesign_subject_question_item-img">
+                    <p class="newDesign_subject_question_item-title">ქუჩაში მოსიარულე ადამიანები, ცხოველები, ხეები და
+                        სხვა დეტალები შეგიძლიათ, პლასტილინისგან ან თიხისგან გამოძერწოთ;</p>
+                </div>
+                <div class="col-7 d-flex pb-2 m-auto newDesign_container_main_title">
+                    <img src="../../img/icons/newDesign_btn-yellow.svg" alt="img"
+                         class="newDesign_subject_question_item-img">
+                    <p class="newDesign_subject_question_item-title">თუ გადაწყვეტთ, რომ შექმნათ <a class="a-pink" href="#">აპლიკაცია</a>, ესკიზის მიხედვით
+                        გამოჭერით და დააწებეთ ფერადი ქაღალდები შედარებით მოზრდილ, მყარ ზედაპირზე. მოხატეთ და გააფორმეთ
+                        ჩანაფიქრის შესაბამისად. არ დაგავიწყდეთ დეტალები.</p>
+                </div>
             </div>
         </div>
     </section>
+    <div class="our__pagination flex">
+        <a href="24-2.html" class="pagination__prev__btn">
+            <img style="transform: rotate(180deg)" src="../../img/icons/chevron-left-icon.svg" alt="">
+        </a>
+        <div class="pagination__item"><a class="pagination__dot" href="24-2.html"></a></div>
+        <div class="pagination__item"><a class="current__pagination" href="#">2</a></div>
+    </div>
 </div>
-
 
 
 <!-- ჩეთბოტი -->
@@ -515,14 +481,14 @@
     <app-bot></app-bot>
 </div>
 
-
 <script src="../../js/libraries/jquery-3.4.1.min.js"></script>
-<script src="../../js/Pagination.js"></script>
 
 
 <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
-<script src="../../New-header-vue/app.js"></script>
 <script src="../../Vue-chatBot/botApp.js"></script>
 <script src="../../js/bot.js"></script>
+
+
 </body>
+
 </html>
