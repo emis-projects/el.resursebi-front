@@ -77,9 +77,10 @@ function getTypes(){
 
 function getNextAndPrevBtn(pagesLength, next, prev) {
     let htmlAttr = parseInt($('html').attr('pageid'));
+
     
     if (htmlAttr == pagesLength){
-        document.querySelector('.pagination__next__btn').setAttribute('style', 'display: none')
+        $('.pagination__next__btn').attr('style', 'display: none')
     
     } else {
         next = next + 1;
@@ -87,7 +88,7 @@ function getNextAndPrevBtn(pagesLength, next, prev) {
     }
 
     if(prev == 1){
-        document.querySelector('.pagination__prev__btn').setAttribute('href', 'javascript:void(0)')
+        $('.pagination__prev__btn').attr('style', 'display: none')
     } else {
         prev = prev - 1
         $('.pagination__prev__btn').attr('href', `${prev}.html`)
