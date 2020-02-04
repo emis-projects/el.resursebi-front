@@ -91,7 +91,7 @@ function sendMessageFromBot(res) {
                     $(img).removeClass('voice-mail-play')
                     $(img).addClass('voice-mail-pause')
                     $(img).attr('data-voice', w.url)
-                    dynamicEvent(w.url, img);
+                    dynamicEvent(`https://cors-anywhere.herokuapp.com/${w.url}`, img);
                     handleLoadComplete()
 
                 } else if(e.target.getAttribute('class') == "voice-mail-pause"){
