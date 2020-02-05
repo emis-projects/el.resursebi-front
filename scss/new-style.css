@@ -16670,7 +16670,7 @@ td img {
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  bottom: 15.7vh;
+  bottom: 12.7vh;
   font-family: 'DejaVu Sans Oblique', sans-serif;
   font-size: 3.6vh;
   color: #fff;
@@ -16859,6 +16859,12 @@ td img {
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.main_instruction {
+  font-family: "DejaVuSans", sans-serif;
+  font-size: 2.6vh;
+  margin-bottom: 5.2vh;
 }
 
 .canvas-container {
