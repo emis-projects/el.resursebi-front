@@ -502,12 +502,12 @@ let title = {
         {
             id: 7,
             name: 'ქალაქი',
-            link: '/Art-Lessons/City-07/3.html'
+            link: '/Art-Lessons/City-07/1.html'
         },
         {
             id: 8,
-            name: 'სათაური',
-            link: '#'
+            name: 'პლაკატი "გადავარჩინოთ ბუნება"',
+            link: 'Art-Lessons/rescue_nature_08/1.html'
         },
         {
             id: 9,
