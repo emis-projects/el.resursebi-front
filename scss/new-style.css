@@ -222,7 +222,6 @@
   word-wrap: break-word;
   -webkit-animation: zoomIn 0.5s cubic-bezier(0.42, 0, 0.58, 1);
   animation: zoomIn 0.5s cubic-bezier(0.42, 0, 0.58, 1);
-  clear: both;
   z-index: 999;
 }
 
@@ -250,7 +249,6 @@
 
 .chat .chat_converse .chat_msg_item.chat_msg_item_admin {
   margin-left: 60px;
-  float: left;
   color: #666;
   -webkit-box-shadow: 2px 2px 8px #7FD1D866;
           box-shadow: 2px 2px 8px #7FD1D866;
@@ -268,7 +266,12 @@
 
 .chat .chat_converse .chat_msg_item.chat_msg_item_user {
   margin-right: 20px;
-  float: right;
+  max-width: 100%;
+  margin-left: 40%;
+  display: block;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   color: #fff;
   -webkit-box-shadow: 2px 2px 8px #7FD1D866;
           box-shadow: 2px 2px 8px #7FD1D866;
@@ -7996,7 +7999,6 @@ section .arrow_up_down_downArrow img {
   word-wrap: break-word;
   -webkit-animation: zoomIn 0.5s cubic-bezier(0.42, 0, 0.58, 1);
   animation: zoomIn 0.5s cubic-bezier(0.42, 0, 0.58, 1);
-  clear: both;
   z-index: 999;
 }
 
@@ -8024,7 +8026,6 @@ section .arrow_up_down_downArrow img {
 
 .chat .chat_converse .chat_msg_item.chat_msg_item_admin {
   margin-left: 60px;
-  float: left;
   color: #666;
   -webkit-box-shadow: 2px 2px 8px #7FD1D866;
           box-shadow: 2px 2px 8px #7FD1D866;
@@ -8042,7 +8043,12 @@ section .arrow_up_down_downArrow img {
 
 .chat .chat_converse .chat_msg_item.chat_msg_item_user {
   margin-right: 20px;
-  float: right;
+  max-width: 100%;
+  margin-left: 40%;
+  display: block;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   color: #fff;
   -webkit-box-shadow: 2px 2px 8px #7FD1D866;
           box-shadow: 2px 2px 8px #7FD1D866;
