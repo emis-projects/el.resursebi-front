@@ -16973,6 +16973,14 @@ td img {
   height: 100%;
 }
 
+.art-8-18-image-div-container {
+  height: 59.5vh;
+}
+
+.art-8-18-image-div-container img {
+  height: 100%;
+}
+
 .art-8-17-1-image-div-container {
   height: 69.92vh;
 }
@@ -16983,6 +16991,21 @@ td img {
 
 .art-8-17-1-container {
   padding-top: 7.8vh;
+}
+
+.art-8-19-padding {
+  padding-top: 14.06vh;
+}
+
+.art-8-19-image-div-container {
+  position: absolute;
+  bottom: 14.47vh;
+  right: 17.05vw;
+  height: 34.09vh;
+}
+
+.art-8-19-image-div-container img {
+  height: 100%;
 }
 
 .background-08-22 {
