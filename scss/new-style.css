@@ -222,7 +222,6 @@
   word-wrap: break-word;
   -webkit-animation: zoomIn 0.5s cubic-bezier(0.42, 0, 0.58, 1);
   animation: zoomIn 0.5s cubic-bezier(0.42, 0, 0.58, 1);
-  clear: both;
   z-index: 999;
 }
 
@@ -250,7 +249,6 @@
 
 .chat .chat_converse .chat_msg_item.chat_msg_item_admin {
   margin-left: 60px;
-  float: left;
   color: #666;
   -webkit-box-shadow: 2px 2px 8px #7FD1D866;
           box-shadow: 2px 2px 8px #7FD1D866;
@@ -268,7 +266,12 @@
 
 .chat .chat_converse .chat_msg_item.chat_msg_item_user {
   margin-right: 20px;
-  float: right;
+  max-width: 100%;
+  margin-left: 40%;
+  display: block;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   color: #fff;
   -webkit-box-shadow: 2px 2px 8px #7FD1D866;
           box-shadow: 2px 2px 8px #7FD1D866;
@@ -2527,7 +2530,7 @@ section .arrow_up_down_downArrow img {
 }
 
 .portfolio-item-container_newDesign {
-  height: 65.2vh;
+  height: 60.2vh;
   margin-top: 2vh;
 }
 
@@ -2535,11 +2538,20 @@ section .arrow_up_down_downArrow img {
   height: 31.64vh;
 }
 
+.portfolio-item-container_newDesign-md {
+  height: 53.64vh;
+}
+
 .portfolio-item-container_img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.portfolio-item-container_img-top {
+  -o-object-position: top;
+     object-position: top;
 }
 
 .portfolio-item-container-mg-world {
@@ -3159,6 +3171,62 @@ section .arrow_up_down_downArrow img {
 
 .portfolio-slider-07-17.owl-theme .owl-dots .owl-dot:nth-child(2) span {
   background-image: url("../img/gakvetilebi/xelovneba/City-07/A-07-17-2.jpg");
+}
+
+.portfolio-slider-08-12.owl-theme .owl-dots .owl-dot:nth-child(1) span {
+  background-image: url("../img/gakvetilebi/xelovneba/rescue_nature_08/N-08-12-1.png");
+}
+
+.portfolio-slider-08-12.owl-theme .owl-dots .owl-dot:nth-child(2) span {
+  background-image: url("../img/gakvetilebi/xelovneba/rescue_nature_08/N-08-12-2.jpg");
+}
+
+.portfolio-slider-08-12.owl-theme .owl-dots .owl-dot:nth-child(3) span {
+  background-image: url("../img/gakvetilebi/xelovneba/rescue_nature_08/N-08-12-3.png");
+}
+
+.portfolio-slider-08-20.owl-theme .owl-dots .owl-dot:nth-child(1) span {
+  background-image: url("../img/gakvetilebi/xelovneba/rescue_nature_08/N-08-20-1.svg");
+}
+
+.portfolio-slider-08-20.owl-theme .owl-dots .owl-dot:nth-child(2) span {
+  background-image: url("../img/gakvetilebi/xelovneba/rescue_nature_08/N-08-20-2.svg");
+}
+
+.portfolio-slider-08-20.owl-theme .owl-dots .owl-dot:nth-child(3) span {
+  background-image: url("../img/gakvetilebi/xelovneba/rescue_nature_08/N-08-20-3.svg");
+}
+
+.portfolio-slider-08-13.owl-theme .owl-dots .owl-dot:nth-child(1) span {
+  background-image: url("../img/gakvetilebi/xelovneba/rescue_nature_08/N-08-13-1.jpg");
+}
+
+.portfolio-slider-08-13.owl-theme .owl-dots .owl-dot:nth-child(2) span {
+  background-image: url("../img/gakvetilebi/xelovneba/rescue_nature_08/N-08-13-2.jpg");
+}
+
+.portfolio-slider-08-13.owl-theme .owl-dots .owl-dot:nth-child(3) span {
+  background-image: url("../img/gakvetilebi/xelovneba/rescue_nature_08/N-08-13-3.jpg");
+}
+
+.portfolio-slider-08-14.owl-theme .owl-dots .owl-dot:nth-child(1) span {
+  background-image: url("../img/gakvetilebi/xelovneba/rescue_nature_08/N-08-14-1.jpg");
+}
+
+.portfolio-slider-08-14.owl-theme .owl-dots .owl-dot:nth-child(2) span {
+  background-image: url("../img/gakvetilebi/xelovneba/rescue_nature_08/N-08-14-2.jpg");
+}
+
+.portfolio-slider-08-14.owl-theme .owl-dots .owl-dot:nth-child(3) span {
+  background-image: url("../img/gakvetilebi/xelovneba/rescue_nature_08/N-08-14-3.jpg");
+}
+
+.portfolio-slider-08-15.owl-theme .owl-dots .owl-dot:nth-child(1) span {
+  background-image: url("../img/gakvetilebi/xelovneba/rescue_nature_08/N-08-15-1.jpg");
+}
+
+.portfolio-slider-08-15.owl-theme .owl-dots .owl-dot:nth-child(2) span {
+  background-image: url("../img/gakvetilebi/xelovneba/rescue_nature_08/N-08-15-2.jpg");
 }
 
 .big-font-size-22px {
@@ -7996,7 +8064,6 @@ section .arrow_up_down_downArrow img {
   word-wrap: break-word;
   -webkit-animation: zoomIn 0.5s cubic-bezier(0.42, 0, 0.58, 1);
   animation: zoomIn 0.5s cubic-bezier(0.42, 0, 0.58, 1);
-  clear: both;
   z-index: 999;
 }
 
@@ -8024,7 +8091,6 @@ section .arrow_up_down_downArrow img {
 
 .chat .chat_converse .chat_msg_item.chat_msg_item_admin {
   margin-left: 60px;
-  float: left;
   color: #666;
   -webkit-box-shadow: 2px 2px 8px #7FD1D866;
           box-shadow: 2px 2px 8px #7FD1D866;
@@ -8042,7 +8108,12 @@ section .arrow_up_down_downArrow img {
 
 .chat .chat_converse .chat_msg_item.chat_msg_item_user {
   margin-right: 20px;
-  float: right;
+  max-width: 100%;
+  margin-left: 40%;
+  display: block;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   color: #fff;
   -webkit-box-shadow: 2px 2px 8px #7FD1D866;
           box-shadow: 2px 2px 8px #7FD1D866;
@@ -16670,7 +16741,7 @@ td img {
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  bottom: 15.7vh;
+  bottom: 12.7vh;
   font-family: 'DejaVu Sans Oblique', sans-serif;
   font-size: 3.6vh;
   color: #fff;
@@ -16864,21 +16935,6 @@ td img {
   height: 100%;
 }
 
-.art-8-12-image-div-container {
-  height: 65.23vh;
-}
-
-.art-8-12-image-div-container img {
-  height: 100%;
-}
-
-.art-8-12-image-divs-container {
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin-top: 4.5vh;
-}
-
 .art-8-16-image-container {
   height: 30.85vh;
   margin-top: 8.98vh;
@@ -16929,19 +16985,38 @@ td img {
   padding-top: 7.8vh;
 }
 
-.art-8-15-image-div-container {
-  height: 65.23vh;
+.background-08-22 {
+  background-image: url(../img/gakvetilebi/xelovneba/rescue_nature_08/22.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.art-8-15-image-div-container img {
-  height: 100%;
+.background-08-23 {
+  background-image: url(../img/gakvetilebi/xelovneba/rescue_nature_08/23.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.art-8-15-image-divs-container {
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  margin-top: 4.5vh;
+.background-08-24 {
+  background-image: url(../img/gakvetilebi/xelovneba/rescue_nature_08/24.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-08-25 {
+  background-image: url(../img/gakvetilebi/xelovneba/rescue_nature_08/25.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main_instruction {
+  font-family: "DejaVuSans", sans-serif;
+  font-size: 2.6vh;
+  margin-bottom: 5.2vh;
 }
 
 .canvas-container {

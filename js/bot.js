@@ -213,6 +213,25 @@ function sendMessage(e) {
 
     sendMessageFromUser(msgText);
 
+
+    let loading = `
+        <div class="bubble-chat" id="typing__animation">
+            <div class="container-circle">
+                <div class="circle cc1" id="circle1"></div>
+                <div class="circle cc2" id="circle2"></div>
+                <div class="circle cc3" id="circle3"></div>
+            </div>
+        </div>
+    `;
+
+    setTimeout(() => {
+        $('#chat_fullscreen').append(loading)
+    }, 300)
+
+
+    $(getTag).scrollTop($(getTag)[0].scrollHeight)
+
+    
     $.ajax({
         type: "POST",
         url: 'https://e4082a31.ngrok.io/WCAPI',
@@ -220,7 +239,11 @@ function sendMessage(e) {
             "message": msgText,
             "botid": $('html').attr('data-botid')
         }),
+
+
         success: function (result) {
+            $('#typing__animation').remove()
+
             let res = JSON.parse(result);
 
             console.log(res);
@@ -230,7 +253,6 @@ function sendMessage(e) {
         dataType: 'json',
         contentType: 'application/json; charset=UTF-8'
     })
-
 
     $(msgInput).val("");
     $(getTag).scrollTop($(getTag)[0].scrollHeight)

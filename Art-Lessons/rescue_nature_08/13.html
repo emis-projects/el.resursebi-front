@@ -49,15 +49,15 @@
     </section>
     <section id="mainPage">
       <div class="row">
-        <div class="col-11 m-auto">
+        <div class="col-10 m-auto">
           <div class="newDesign_subject_question_item">
             <p class="newDesign_subject_question_item-title">ცნობილი პლაკატები და აფიშები</p>
           </div>
           <div class="row">
             <div class="col-4">
               <div class="portfolio-item-container portfolio-item-container_newDesign">
-                <img src="../../img/gakvetilebi/xelovneba/rescue_nature_08/N-08-15-1.jpg" alt="color story"
-                  class="portfolio-item-container_img" />
+                <img src="../../img/gakvetilebi/xelovneba/rescue_nature_08/N-08-13-1.jpg" alt="color story"
+                  class="portfolio-item-container_img portfolio-item-container_img-top" />
                 <div class="paging_buttons">
                   <a href="" id="slide1" class="paging_buttons_fullScreen-link" data-toggle="modal"
                     data-target="#exampleModal"><img src="../../img/icons/arrows_blue.svg" alt="color story"
@@ -65,10 +65,10 @@
                 </div>
               </div>
             </div>
-            <div class="col-8">
+            <div class="col-4">
               <div class="portfolio-item-container portfolio-item-container_newDesign">
-                <img src="../../img/gakvetilebi/xelovneba/rescue_nature_08/N-08-15-2.jpg" alt="color story"
-                  class="portfolio-item-container_img" />
+                <img src="../../img/gakvetilebi/xelovneba/rescue_nature_08/N-08-13-2.jpg" alt="color story"
+                  class="portfolio-item-container_img portfolio-item-container_img-top" />
                 <div class="paging_buttons">
                   <a href="" id="slide2" class="paging_buttons_fullScreen-link" data-toggle="modal"
                     data-target="#exampleModal"><img src="../../img/icons/arrows_blue.svg" alt="color story"
@@ -76,6 +76,17 @@
                 </div>
               </div>
             </div>
+            <div class="col-4">
+                <div class="portfolio-item-container portfolio-item-container_newDesign">
+                  <img src="../../img/gakvetilebi/xelovneba/rescue_nature_08/N-08-13-3.jpg" alt="color story"
+                    class="portfolio-item-container_img portfolio-item-container_img-top" />
+                  <div class="paging_buttons">
+                    <a href="" id="slide3" class="paging_buttons_fullScreen-link" data-toggle="modal"
+                      data-target="#exampleModal"><img src="../../img/icons/arrows_blue.svg" alt="color story"
+                        class="paging_buttons_fullScreen-img" /></a>
+                  </div>
+                </div>
+              </div>
           </div>
         </div>
       </div>
@@ -92,18 +103,25 @@
             </div>
             <div class="modal-body fullScreen_modal-body">
               <div class="container-fluid">
-                <div class="owl-carousel owl-theme row no-gutters portfolio-slider portfolio-slider-08-15">
+                <div class="owl-carousel owl-theme row no-gutters portfolio-slider portfolio-slider-08-13">
                   <div class="item col-12 slide_content-box">
                     <div>
-                      <div class="fullScreen_modal-img-lg-vert">
-                        <img src="../../img/gakvetilebi/xelovneba/rescue_nature_08/N-08-15-1.jpg" alt="color story" />
+                      <div class="fullScreen_modal-img-lg-hor">
+                        <img src="../../img/gakvetilebi/xelovneba/rescue_nature_08/N-08-13-1.jpg" alt="color story" />
                       </div>
                     </div>
                   </div>
                   <div class="item col-12 slide_content-box">
                     <div>
-                      <div class="fullScreen_modal-img-lg-hor">
-                        <img src="../../img/gakvetilebi/xelovneba/rescue_nature_08/N-08-15-2.jpg" alt="color story" />
+                      <div class="fullScreen_modal-img-lg-vert">
+                        <img src="../../img/gakvetilebi/xelovneba/rescue_nature_08/N-08-13-2.jpg" alt="color story" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item col-12 slide_content-box">
+                    <div>
+                      <div class="fullScreen_modal-img-lg-vert">
+                        <img src="../../img/gakvetilebi/xelovneba/rescue_nature_08/N-08-13-3.jpg" alt="color story" />
                       </div>
                     </div>
                   </div>
@@ -533,6 +551,9 @@
     });
     $(document).on("click", "#slide2", function () {
       owl.trigger("to.owl.carousel", 1);
+    });
+    $(document).on("click", "#slide3", function () {
+      owl.trigger("to.owl.carousel", 2);
     });
   </script>
 </body>
