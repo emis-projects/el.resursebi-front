@@ -213,6 +213,19 @@ function sendMessage(e) {
 
     sendMessageFromUser(msgText);
 
+
+    let loading = `
+        <div class="bubble-chat">
+            <div class="container-circle">
+                <div class="circle cc1" id="circle1"></div>
+                <div class="circle cc2" id="circle2"></div>
+                <div class="circle cc3" id="circle3"></div>
+            </div>
+        </div>
+    `;
+
+    $('#chat_fullscreen').append(loading)
+
     $.ajax({
         type: "POST",
         url: 'https://e4082a31.ngrok.io/WCAPI',
@@ -220,7 +233,11 @@ function sendMessage(e) {
             "message": msgText,
             "botid": $('html').attr('data-botid')
         }),
+
+
         success: function (result) {
+            // $('.bubble-chat').remove();
+
             let res = JSON.parse(result);
 
             console.log(res);

@@ -16735,7 +16735,7 @@ td img {
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  bottom: 15.7vh;
+  bottom: 12.7vh;
   font-family: 'DejaVu Sans Oblique', sans-serif;
   font-size: 3.6vh;
   color: #fff;
@@ -16896,6 +16896,40 @@ td img {
 
 #A-32-1 p {
   font-size: 2.6vh;
+}
+
+.background-08-22 {
+  background-image: url(../img/gakvetilebi/xelovneba/rescue_nature_08/22.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-08-23 {
+  background-image: url(../img/gakvetilebi/xelovneba/rescue_nature_08/23.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-08-24 {
+  background-image: url(../img/gakvetilebi/xelovneba/rescue_nature_08/24.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-08-25 {
+  background-image: url(../img/gakvetilebi/xelovneba/rescue_nature_08/25.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main_instruction {
+  font-family: "DejaVuSans", sans-serif;
+  font-size: 2.6vh;
+  margin-bottom: 5.2vh;
 }
 
 .canvas-container {
