@@ -16833,6 +16833,117 @@ td img {
   font-size: 2.6vh;
 }
 
+.art-8-9-steps {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.art-8-9-tasks-padding {
+  padding-top: 7.8vh;
+}
+
+.art-8-10-image-div-container {
+  height: 52.07vh;
+  padding-top: 7.94vh;
+}
+
+.art-8-10-image-div-container img {
+  height: 100%;
+}
+
+.art-8-11-image-div-container {
+  height: 22.48vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 5.2vh;
+}
+
+.art-8-11-image-div-container img {
+  height: 100%;
+}
+
+.art-8-12-image-div-container {
+  height: 65.23vh;
+}
+
+.art-8-12-image-div-container img {
+  height: 100%;
+}
+
+.art-8-12-image-divs-container {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 4.5vh;
+}
+
+.art-8-16-image-container {
+  height: 30.85vh;
+  margin-top: 8.98vh;
+}
+
+.art-8-16-image-container img {
+  height: 100%;
+}
+
+.art-8-16-text-container {
+  text-align: center;
+  font-family: 'DejaVu Sans Oblique';
+  font-size: 2.6vh;
+}
+
+.art-8-16-text-container p {
+  line-height: 5vh;
+}
+
+.art-8-16-container {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.art-8-16-image-container {
+  height: 29.51vh;
+  margin-top: 8.93vh;
+}
+
+.art-8-16-image-container img {
+  height: 100%;
+}
+
+.art-8-17-1-image-div-container {
+  height: 69.92vh;
+}
+
+.art-8-17-1-image-div-container img {
+  height: 100%;
+}
+
+.art-8-17-1-container {
+  padding-top: 7.8vh;
+}
+
+.art-8-15-image-div-container {
+  height: 65.23vh;
+}
+
+.art-8-15-image-div-container img {
+  height: 100%;
+}
+
+.art-8-15-image-divs-container {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top: 4.5vh;
+}
+
 .canvas-container {
   width: 100% !important;
 }

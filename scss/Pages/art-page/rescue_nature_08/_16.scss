@@ -1,0 +1,21 @@
+.art-8-16-image-container{
+    height:30.85vh;
+    margin-top:8.98vh;
+    img{
+        height:100%;
+    }
+}
+.art-8-16-text-container{
+    text-align:center;
+    font-family: 'DejaVu Sans Oblique';
+    font-size:2.6vh;
+    p{
+        line-height: 5vh;
+        }
+}
+
+
+.art-8-16-container{
+    flex-direction:column;
+    align-items: center;
+}
