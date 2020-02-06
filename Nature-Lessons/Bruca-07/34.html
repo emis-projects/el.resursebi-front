@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <!-- ბოტის აიდიში ვუთითებთ: ხელოვნების - 2318, ბუნების - 2320, მუსიკის - 2292 -->
 <html lang="ka" data-botid="2320">
+
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
     <!-- ყველა გვერდზე -->
     <script src="../../js/vue.js"></script>
     <!--  ვუე გაშვებისას
-    <script src="./js/vue.min.js"></script>
-     -->
-     <link rel="stylesheet" href="../../New-header-vue/animate.min.css">
+      <script src="./js/vue.min.js"></script>
+       -->
+    <link rel="stylesheet" href="../../New-header-vue/animate.min.css">
     <link rel="stylesheet" href="../../scss/libraries/bootstrap.min.css">
-    <link rel="stylesheet" href="../../scss/new-style.css"/>
+    <link rel="stylesheet" href="../../scss/new-style.css" />
     <title>ელექტრონული საგანმანათლებლო რესურსი</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
@@ -21,6 +22,7 @@
         function gtag() {
             dataLayer.push(arguments);
         }
+
         gtag('js', new Date());
 
         gtag('config', 'UA-155006442-1');
@@ -28,24 +30,22 @@
 </head>
 
 <body>
-    <div class="container">
-        <section id="app" class="container position-absolute">
-            <header>
-                <app-menu v-logo="'../../'" :is-active="isActive" :toggle="toggle"></app-menu>
-            </header>
-    
-            <app-section v-image="'../../'">
-                <app-bar
-                        :is-active="isActive"
-                        :trigger="trigger"
-                        :dots="dots"
-                        :current-tab="link"
-                        v-on:link-tab="link = $event">
-    
-                </app-bar>
-                <component
-                    :path="path"
+<div class="container">
+    <section id="app" class="container position-absolute">
+        <header>
+            <app-menu v-logo="'../../'" :is-active="isActive" :toggle="toggle"></app-menu>
+        </header>
+        <app-section v-image="'../../'" :is-active="isActive">
+            <app-bar
+                    :is-active="isActive"
+                    :trigger="trigger"
+                    :dots="dots"
+                    :current-tab="link"
+                    v-on:link-tab="link = $event">
+            </app-bar>
+            <component
                     :is="currentTabComponent"
+                    :path="path"
                     :is-active="isActive"
                     :trigger="trigger"
                     :images="images"
@@ -433,49 +433,69 @@
                         <p class="newDesign_subject_question_item-title">კითხვის დასმა - რატომ არის არსება ბრმა?</p>
                     </div>
 
-                <div class="flex flex-wrap">
-                    <div class="nature-07-game-card">
-                        <div class="nature-07-game-card--title">მცენარეები</div>
 
-                        <div class="nature-07-game-card--child flex">
-                            <img class="error" src="../../img/gakvetilebi/buneba/Bruca-07/games/1.jpg" alt="">
-                            <img src="../../img/gakvetilebi/buneba/Bruca-07/games/1.jpg" alt="">
+                    <div class="flex flex-wrap myDrag" >
+                        <div class="nature-07-game-card">
+                            <div class="nature-07-game-card--title">მცენარეები</div>
+                            <div class="nature-07-game-card--child flex flexcy" data-name="1"></div>
+                        </div>
+
+                        <div class="nature-07-game-card">
+                            <div class="nature-07-game-card--title">უხერხემლოები</div>
+                            <div class="nature-07-game-card--child flex flexcy" data-name="2"></div>
+                        </div>
+
+                        <div class="nature-07-game-card ">
+                            <div class="nature-07-game-card--title ">თევზები</div>
+                            <div class="nature-07-game-card--child flex flexcy" data-name="3"></div>
+                        </div>
+
+                        <div class="nature-07-game-card">
+                            <div class="nature-07-game-card--title">ამფიბიები</div>
+                            <div class="nature-07-game-card--child flex flexcy" data-name="4"></div>
+                        </div>
+
+                        <div class="nature-07-game-card">
+                            <div class="nature-07-game-card--title">ფრინველები</div>
+                            <div class="nature-07-game-card--child flex flexcy" data-name="5"></div>
+                        </div>
+
+                        <div class="nature-07-game-card">
+                            <div class="nature-07-game-card--title">ქვეწარმავლები</div>
+                            <div class="nature-07-game-card--child flex flexcy" data-name="6"></div>
+                        </div>
+
+                        <div class="nature-07-game-card">
+                            <div class="nature-07-game-card--title">ძუძუმწოვრები</div>
+                            <div class="nature-07-game-card--child flex flexcy" data-name="7"></div>
                         </div>
                     </div>
-                    <div class="nature-07-game-card">
-                        <div class="nature-07-game-card--title">უხერხემლოები</div>
 
-                        <div class="nature-07-game-card--child flex">
-                            <img src="../../img/gakvetilebi/buneba/Bruca-07/games/1.jpg" alt="">
-                            <img src="../../img/gakvetilebi/buneba/Bruca-07/games/1.jpg" alt="">
-                        </div>
-                    </div>
-                    <div class="nature-07-game-card">
-                        <div class="nature-07-game-card--title">თევზები</div>
 
-                        <div class="nature-07-game-card--child flex"></div>
-                    </div>
-                    <div class="nature-07-game-card">
-                        <div class="nature-07-game-card--title">ამფიბიები</div>
 
-                        <div class="nature-07-game-card--child flex"></div>
+                <div class="flex column">
+                    <div class="col-8 flex placeDiv1">
+                      <img class="nature-07-game-images imge" data-place = "01" data-name="4" src="../../img/gakvetilebi/buneba/Bruca-07/games/1.jpg">
+                      <img class="nature-07-game-images imge" data-place = "01" data-name="5" src="../../img/gakvetilebi/buneba/Bruca-07/games/2.jpg">
+                      <img class="nature-07-game-images imge" data-place = "01" data-name="6" src="../../img/gakvetilebi/buneba/Bruca-07/games/3.jpg">
+                      <img class="nature-07-game-images imge" data-place = "01" data-name="3" src="../../img/gakvetilebi/buneba/Bruca-07/games/4.jpg">
+                      <img class="nature-07-game-images imge" data-place = "01" data-name="7" src="../../img/gakvetilebi/buneba/Bruca-07/games/5.jpg">
+                      <img class="nature-07-game-images imge" data-place = "01" data-name="7" src="../../img/gakvetilebi/buneba/Bruca-07/games/6.jpg">
+                      <img class="nature-07-game-images imge" data-place = "01" data-name="5" src="../../img/gakvetilebi/buneba/Bruca-07/games/7.jpg">
                     </div>
-                    <div class="nature-07-game-card">
-                        <div class="nature-07-game-card--title">ფრინველები</div>
 
-                        <div class="nature-07-game-card--child flex"></div>
-                    </div>
-                    <div class="nature-07-game-card">
-                        <div class="nature-07-game-card--title">ქვეწარმავლები</div>
 
-                        <div class="nature-07-game-card--child flex"></div>
+                    <div class="col-8 flex placeDiv2" style="margin-top: 10px">
+                      <img class="nature-07-game-images imge" data-place = "02" data-name="4" src="../../img/gakvetilebi/buneba/Bruca-07/games/8.jpg">
+                      <img class="nature-07-game-images imge" data-place = "02" data-name="1" src="../../img/gakvetilebi/buneba/Bruca-07/games/9.jpg">
+                      <img class="nature-07-game-images imge" data-place = "02" data-name="1" src="../../img/gakvetilebi/buneba/Bruca-07/games/10.jpg">
+                      <img class="nature-07-game-images imge" data-place = "02" data-name="2" src="../../img/gakvetilebi/buneba/Bruca-07/games/11.jpg">
+                      <img class="nature-07-game-images imge" data-place = "02" data-name="2" src="../../img/gakvetilebi/buneba/Bruca-07/games/12.jpg">
+                      <img class="nature-07-game-images imge" data-place = "02" data-name="6" src="../../img/gakvetilebi/buneba/Bruca-07/games/13.jpg">
+                      <img class="nature-07-game-images imge" data-place = "02" data-name="3" src="../../img/gakvetilebi/buneba/Bruca-07/games/14.jpg">
                     </div>
-                    <div class="nature-07-game-card">
-                        <div class="nature-07-game-card--title">ძუძუმწოვრები</div>
+                  </div>
 
-                        <div class="nature-07-game-card--child flex"></div>
-                    </div>
-                </div>
             </div>
             
             
@@ -500,21 +520,23 @@
     </div>
 
 
-
+</div>
 <!-- ჩეთბოტი -->
 <div id="chatBot">
     <app-bot></app-bot>
 </div>
 
-
 <script src="../../js/libraries/jquery-3.4.1.min.js"></script>
   <script src="../../js/libraries/jquery.magnific-popup.min.js"></script>
 <script src="../../js/Pagination.js"></script>
+<script src="./js/36.js"></script>
 
 
 <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
 <script src="../../New-header-vue/app.js"></script>
 <script src="../../Vue-chatBot/botApp.js"></script>
 <script src="../../js/bot.js"></script>
+
 </body>
+
 </html>

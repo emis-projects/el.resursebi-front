@@ -51,11 +51,23 @@ function sendMessageFromBot(res) {
         var img = document.createElement('img');
         
         if (w.type == 0) {
+            // ტექსტები 
             $(text).append(" " + w.text);
             $(div).append(text)
 
+        } else if(w.type == 1){
+            // ფოტოების გახსნა
+
+            $(a).addClass('image-popup-no-margins')
+            $(a).attr('href', w.url);
+            $(img).attr('src', w.url);
+            $(img).attr('style', 'width: 100%');
+            $(a).append(img);
+            $(div).append(a);
 
         } else if(w.type == 2){
+            // აუდიოები
+            
             // sound js 
             createjs.Sound.on("fileload", handleLoadComplete);
             createjs.Sound.alternateExtensions = ["wav"];
@@ -105,15 +117,18 @@ function sendMessageFromBot(res) {
 
 
         
-        } else if (w.type == 1) {
-            $(a).addClass('image-popup-no-margins')
-            $(a).attr('href', w.url);
-            $(img).attr('src', w.url);
-            $(img).attr('style', 'width: 100%');
-            $(a).append(img);
-            $(div).append(a);
+        
+        } else if(w.type == 3){
+            // ლინკები 
+            let a = document.createElement('a');
+            $(a).attr('href', w.url)
+            $(a).text(w.text)
+            $(a).attr('target', '_blank')
+            $(div).append(a)   
 
         } else if (w.type == 6) {
+            // ღილაკები 
+
             $(text).append(" " + w.text);
             $(div).append(text)
             var btndiv = document.createElement('div');
@@ -164,6 +179,10 @@ function sendMessageFromUser(text) {
 $(document).on("click", ".chat_msg_item-buttons button", function (e) {
     var btnText = e.target.innerText;
 
+    messangerTyping()
+
+    $(getTag).scrollTop($(getTag)[0].scrollHeight)
+
     $.ajax({
         type: "POST",
         url: 'https://e4082a31.ngrok.io/WCAPI',
@@ -172,6 +191,8 @@ $(document).on("click", ".chat_msg_item-buttons button", function (e) {
             "botid": $('html').attr('data-botid')
         }),
         success: function (result) {
+            $('#typing__animation').remove()
+
             let res = JSON.parse(result);
 
             sendMessageFromBot(res)
@@ -181,7 +202,6 @@ $(document).on("click", ".chat_msg_item-buttons button", function (e) {
     })
 
     sendMessageFromUser(btnText)
-
     $(getTag).scrollTop($(getTag)[0].scrollHeight)
 });
 
@@ -206,6 +226,8 @@ $(document).on("click", ".image-popup-no-margins", function (e) {
 });
 
 
+
+
 function sendMessage(e) {
     e.preventDefault();
 
@@ -214,22 +236,7 @@ function sendMessage(e) {
     sendMessageFromUser(msgText);
 
 
-    let loading = `
-        <div class="bubble-chat" id="typing__animation">
-            <div class="container-circle">
-                <div class="circle cc1" id="circle1"></div>
-                <div class="circle cc2" id="circle2"></div>
-                <div class="circle cc3" id="circle3"></div>
-            </div>
-        </div>
-    `;
-
-    setTimeout(() => {
-        $('#chat_fullscreen').append(loading)
-    }, 300)
-
-
-    $(getTag).scrollTop($(getTag)[0].scrollHeight)
+    messangerTyping()
 
     
     $.ajax({
@@ -262,3 +269,21 @@ function sendMessage(e) {
 $("#sendMessage").click(function (e) {
     sendMessage(e)
 })
+
+
+function messangerTyping(){
+    let loading = `
+        <div class="bubble-chat" id="typing__animation">
+            <div class="container-circle">
+                <div class="circle cc1" id="circle1"></div>
+                <div class="circle cc2" id="circle2"></div>
+                <div class="circle cc3" id="circle3"></div>
+            </div>
+        </div>
+    `;
+
+
+    setTimeout(() => {
+        $('#chat_fullscreen').append(loading)
+    }, 300)
+}
