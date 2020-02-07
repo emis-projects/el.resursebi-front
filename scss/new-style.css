@@ -2543,6 +2543,10 @@ section .arrow_up_down_downArrow img {
   height: 53.64vh;
 }
 
+.portfolio-item-container_newDesign-smd {
+  height: 47.64vh;
+}
+
 .portfolio-item-container_img {
   width: 100%;
   height: 100%;
@@ -3228,6 +3232,113 @@ section .arrow_up_down_downArrow img {
 
 .portfolio-slider-08-15.owl-theme .owl-dots .owl-dot:nth-child(2) span {
   background-image: url("../img/gakvetilebi/xelovneba/rescue_nature_08/N-08-15-2.jpg");
+}
+
+.portfolio-slider-09-10.owl-theme .owl-dots .owl-dot:nth-child(1) span {
+  background-image: url("../img/gakvetilebi/xelovneba/friends_09/A-09-10-1.jpg");
+}
+
+.portfolio-slider-09-10.owl-theme .owl-dots .owl-dot:nth-child(2) span {
+  background-image: url("../img/gakvetilebi/xelovneba/friends_09/A-09-10-2.jpg");
+}
+
+.portfolio-slider-09-11.owl-theme .owl-dots .owl-dot:nth-child(1) span {
+  background-image: url("../img/gakvetilebi/xelovneba/friends_09/A-09-11-1.jpg");
+}
+
+.portfolio-slider-09-11.owl-theme .owl-dots .owl-dot:nth-child(2) span {
+  background-image: url("../img/gakvetilebi/xelovneba/friends_09/A-09-11-2.jpg");
+}
+
+.portfolio-slider-09-12.owl-theme .owl-dots .owl-dot:nth-child(1) span {
+  background-image: url("../img/gakvetilebi/xelovneba/friends_09/A-09-12-1.jpg");
+  background-position: top;
+}
+
+.portfolio-slider-09-12.owl-theme .owl-dots .owl-dot:nth-child(2) span {
+  background-image: url("../img/gakvetilebi/xelovneba/friends_09/A-09-12-2.jpg");
+  background-position: top;
+}
+
+.portfolio-slider-09-13.owl-theme .owl-dots .owl-dot:nth-child(1) span {
+  background-image: url("../img/gakvetilebi/xelovneba/friends_09/A-09-13-1.jpg");
+  background-position: top;
+}
+
+.portfolio-slider-09-13.owl-theme .owl-dots .owl-dot:nth-child(2) span {
+  background-image: url("../img/gakvetilebi/xelovneba/friends_09/A-09-13-2.jpg");
+  background-position: top;
+}
+
+.portfolio-slider-09-14.owl-theme .owl-dots .owl-dot:nth-child(1) span {
+  background-image: url("../img/gakvetilebi/xelovneba/friends_09/A-09-14-1.jpg");
+}
+
+.portfolio-slider-09-14.owl-theme .owl-dots .owl-dot:nth-child(2) span {
+  background-image: url("../img/gakvetilebi/xelovneba/friends_09/A-09-14-2.jpg");
+}
+
+.portfolio-slider-09-15.owl-theme .owl-dots .owl-dot:nth-child(1) span {
+  background-image: url("../img/gakvetilebi/xelovneba/friends_09/A-09-15-1.jpg");
+  background-position: top;
+}
+
+.portfolio-slider-09-15.owl-theme .owl-dots .owl-dot:nth-child(2) span {
+  background-image: url("../img/gakvetilebi/xelovneba/friends_09/A-09-15-2.jpg");
+}
+
+.portfolio-slider-09-15.owl-theme .owl-dots .owl-dot:nth-child(3) span {
+  background-image: url("../img/gakvetilebi/xelovneba/friends_09/A-09-15-3.jpg");
+}
+
+.portfolio-slider-09-16.owl-theme .owl-dots .owl-dot:nth-child(1) span {
+  background-image: url("../img/gakvetilebi/xelovneba/friends_09/A-09-16-1.jpg");
+  background-position: top;
+}
+
+.portfolio-slider-09-16.owl-theme .owl-dots .owl-dot:nth-child(2) span {
+  background-image: url("../img/gakvetilebi/xelovneba/friends_09/A-09-16-2.jpg");
+}
+
+.portfolio-slider-09-16.owl-theme .owl-dots .owl-dot:nth-child(3) span {
+  background-image: url("../img/gakvetilebi/xelovneba/friends_09/A-09-16-3.jpg");
+}
+
+.portfolio-slider-09-23-1.owl-theme .owl-dots .owl-dot:nth-child(1) span {
+  background-image: url("../img/gakvetilebi/xelovneba/friends_09/A-09-23-1-1-1.jpg");
+  background-position: top;
+}
+
+.portfolio-slider-09-23-1.owl-theme .owl-dots .owl-dot:nth-child(2) span {
+  background-image: url("../img/gakvetilebi/xelovneba/friends_09/A-09-23-1-1-2.jpg");
+}
+
+.portfolio-slider-09-23-2.owl-theme .owl-dots .owl-dot:nth-child(1) span {
+  background-image: url("../img/gakvetilebi/xelovneba/friends_09/A-09-23-1-2-1.JPG");
+  background-position: top;
+}
+
+.portfolio-slider-09-23-2.owl-theme .owl-dots .owl-dot:nth-child(2) span {
+  background-image: url("../img/gakvetilebi/xelovneba/friends_09/A-09-23-1-2-2.JPG");
+}
+
+.portfolio-slider-09-23-2.owl-theme .owl-dots .owl-dot:nth-child(3) span {
+  background-image: url("../img/gakvetilebi/xelovneba/friends_09/A-09-23-1-2-3.JPG");
+  background-position: top;
+}
+
+.portfolio-slider-09-23-3.owl-theme .owl-dots .owl-dot:nth-child(1) span {
+  background-image: url("../img/gakvetilebi/xelovneba/friends_09/A-09-23-1-3-1.JPG");
+  background-position: top;
+}
+
+.portfolio-slider-09-23-3.owl-theme .owl-dots .owl-dot:nth-child(2) span {
+  background-image: url("../img/gakvetilebi/xelovneba/friends_09/A-09-23-1-3-2.JPG");
+  background-position: top;
+}
+
+.portfolio-slider-09-23-3.owl-theme .owl-dots .owl-dot:nth-child(3) span {
+  background-image: url("../img/gakvetilebi/xelovneba/friends_09/A-09-23-1-3-3.JPG");
 }
 
 .big-font-size-22px {
@@ -17109,6 +17220,21 @@ td img {
 
 .art-9-22-image-container img {
   height: 100%;
+}
+
+.art-9-18-image-div-container {
+  width: 100%;
+  max-height: 221px;
+  height: 28vh;
+  margin-top: 14vh;
+}
+
+#A-23-1 .newDesign_container_main_title-cont-margin {
+  margin-bottom: 3vh;
+}
+
+#A-23-1 .main_instruction {
+  margin-bottom: 4vh;
 }
 
 .background-09-27 {
