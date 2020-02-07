@@ -17049,6 +17049,41 @@ td img {
   margin-bottom: 5.2vh;
 }
 
+.background-09-27 {
+  background-image: url(../img/gakvetilebi/xelovneba/friends_09/27.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-09-28 {
+  background-image: url(../img/gakvetilebi/xelovneba/friends_09/28.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-09-29 {
+  background-image: url(../img/gakvetilebi/xelovneba/friends_09/29.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-09-30 {
+  background-image: url(../img/gakvetilebi/xelovneba/friends_09/30.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-09-31 {
+  background-image: url(../img/gakvetilebi/xelovneba/friends_09/31.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .canvas-container {
   width: 100% !important;
 }
@@ -17065,3 +17100,4 @@ td img {
   display: -ms-flexbox;
   display: flex;
 }
+/*# sourceMappingURL=new-style.css.map */
