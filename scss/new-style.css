@@ -17000,18 +17000,18 @@ td img {
   padding-top: 7.8vh;
 }
 
-.art-8-19-padding {
+.art-8-13-padding {
   padding-top: 14.06vh;
 }
 
-.art-8-19-image-div-container {
+.art-8-13-image-div-container {
   position: absolute;
   bottom: 14.47vh;
   right: 17.05vw;
   height: 34.09vh;
 }
 
-.art-8-19-image-div-container img {
+.art-8-13-image-div-container img {
   height: 100%;
 }
 
@@ -17047,6 +17047,68 @@ td img {
   font-family: "DejaVuSans", sans-serif;
   font-size: 2.6vh;
   margin-bottom: 5.2vh;
+}
+
+.art-9-6-image-div-container {
+  height: 26.23vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.art-9-6-image-div-container img {
+  height: 100%;
+}
+
+.art-8-9-image-div-container {
+  position: absolute;
+  bottom: 28.25vh;
+  right: 11.93vw;
+  height: 34.09vh;
+}
+
+.art-8-9-image-div-container img {
+  height: 100%;
+}
+
+.art-9-9-1-image-div-container {
+  height: 34.09vh;
+}
+
+.art-9-9-1-image-div-container img {
+  height: 100%;
+}
+
+.art-9-1-margin-container {
+  margin-top: 4.8vh;
+}
+
+.art-9-17-image-div-container {
+  height: 33.07vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 1.8vh;
+}
+
+.art-9-17-image-div-container img {
+  height: 100%;
+}
+
+.art-9-22-text-padding {
+  padding-top: 5.02vh;
+}
+
+.art-9-22-image-container {
+  height: 43.22vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 1vh;
+}
+
+.art-9-22-image-container img {
+  height: 100%;
 }
 
 .background-09-27 {
@@ -17100,4 +17162,3 @@ td img {
   display: -ms-flexbox;
   display: flex;
 }
-/*# sourceMappingURL=new-style.css.map */

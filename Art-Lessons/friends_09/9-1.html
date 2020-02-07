@@ -8,8 +8,8 @@
     <!-- ყველა გვერდზე -->
     <script src="../../js/vue.js"></script>
     <!--  ვუე გაშვებისას
-      <script src="./js/vue.min.js"></script>
-       -->
+        <script src="./js/vue.min.js"></script>
+         -->
     <link rel="stylesheet" href="../../New-header-vue/animate.min.css">
     <link rel="stylesheet" href="../../scss/libraries/bootstrap.min.css">
     <link rel="stylesheet" href="../../scss/new-style.css"/>
@@ -31,34 +31,12 @@
 
 <body>
 <div class="container">
-    <section id="app" class="container position-absolute">
-        <header>
-            <app-menu v-logo="'../../'" :is-active="isActive" :toggle="toggle"></app-menu>
-        </header>
-
-        <app-section v-image="'../../'" :is-active="isActive">
-            <app-bar
-                    :is-active="isActive"
-                    :trigger="trigger"
-                    :dots="dots"
-                    :current-tab="link"
-                    v-on:link-tab="link = $event">
-
-            </app-bar>
-            <component
-                    :is="currentTabComponent"
-                    :is-active="isActive"
-                    :path="path"
-                    :trigger="trigger"
-                    :images="images"
-                    :active-class="activeClass"
-                    :tab-class="currentTabComponent">
-            </component>
-        </app-section>
-    </section>
-
-
-    <section id="mainPage">
+    <header>
+        <a class="close" href="25.html">
+            <img src="../../img/icons/close.svg" alt="close"/>
+        </a>
+    </header>
+    <section>
         <div class="left_components_paging-cont">
             <svg class="left_components_paging" xmlns="http://www.w3.org/2000/svg"
                  xmlns:xlink="http://www.w3.org/1999/xlink" width="134" height="722" viewBox="0 0 134 722">
@@ -127,7 +105,7 @@
                           data-name="Path 24922"
                           d="M-107,293.662h-25.155a28.388,28.388,0,0,0-21.1,9.686A34.87,34.87,0,0,0-162,326.736c0,18.266,13.362,33.074,29.844,33.074H-107c20.013,0,36.24,17.983,36.24,40.162V253.5C-70.762,275.679-86.988,293.662-107,293.662Z"
                           transform="translate(195.761 283.264)" fill="#7fd1d8"/>
-                    <path class="leftSidebar_type" style="opacity: 0" data-type="3" id="Path_143735"
+                    <path class="leftSidebar_type" style="opacity: 1" data-type="3" id="Path_143735"
                           data-name="Path 143735"
                           d="M-107,293.662h-25.155a28.388,28.388,0,0,0-21.1,9.686A34.87,34.87,0,0,0-162,326.736c0,18.266,13.362,33.074,29.844,33.074H-107c20.013,0,36.24,17.983,36.24,40.162V253.5C-70.762,275.679-86.988,293.662-107,293.662Z"
                           transform="translate(195.761 57.264)" fill="#7fd1d8"/>
@@ -444,13 +422,13 @@
                         <tspan x="0" y="0">მინიშნება</tspan>
                     </text>
                     <text id="შუალედური_დავალება" data-name="შუალედური
-                  დავალება" transform="translate(70 549)" fill="#c5cbcd" font-size="12"
+                დავალება" transform="translate(70 549)" fill="#c5cbcd" font-size="12"
                           font-family="ALKSanet, ALK Sanet">
                         <tspan x="-35.344" y="0">შუალედური</tspan>
                         <tspan x="-30.636" y="12">დავალება</tspan>
                     </text>
                     <text id="კომპლექსური_დავალება" data-name="კომპლექსური
-                  დავალება" transform="translate(70 668)" fill="#c5cbcd" font-size="12"
+                დავალება" transform="translate(70 668)" fill="#c5cbcd" font-size="12"
                           font-family="ALKSanet, ALK Sanet">
                         <tspan x="-42.015" y="0">კომპლექსური</tspan>
                         <tspan x="-30.636" y="12">დავალება</tspan>
@@ -458,47 +436,59 @@
                 </g>
             </svg>
         </div>
-        <div class="row">
-
-            <div class="col-7 m-auto art-8-13-padding">
-                <div class="newDesign_subject_question_item art-7-4-text-margin">
-                    <img src="../../img/icons/newDesign_btn-yellow.svg" alt="img"
-                         class="newDesign_subject_question_item-img">
-                    <p class="newDesign_subject_question_item-title">იმსჯელე, რა საფრთხე ემუქრება ბუნებას.</p>
+        <div class="row newDesign_hintPage">
+            <div class="col-8 col-md-10 m-auto">
+                <div class="newDesign_container_main_title-cont newDesign_container_main_title-cont-margin">
+                    <h1 class="newDesign_container_main_title">პორტრეტი</h1>
+                    <img src="../../img/icons/main_title-border.svg" alt="img"
+                         class="newDesign_container_main_title-img">
                 </div>
-                <div class="newDesign_subject_question_item art-7-4-text-margin">
-                    <img src="../../img/icons/newDesign_btn-yellow.svg" alt="img"
-                         class="newDesign_subject_question_item-img">
-                    <p class="newDesign_subject_question_item-title">
-                        რითია ეს საფრთხე გამოწვეული?
-                    </p>
+                <div class="row align-items-center mt-5vh">
+                    <div class="col-7">
+                  <div class="art-9-9-1-image-div-container">
+                        <img src="../../img/gakvetilebi//xelovneba/friends_09/art-9-9-1-img.svg" alt="img" class="cell_hint-img">
+                    </div>
+                  </div>
+                    <div class="col-5">
+                        <div class="newDesign_subject_question_item">
+                            <img src="../../img/icons/newDesign_btn-yellow.svg" alt="img"
+                                 class="newDesign_subject_question_item-img">
+                            <p class="newDesign_subject_question_item-title">
+                              პორტრეტი არის ადამიანის ან ადამიანთა ჯგუფის გამოსახულება. ავტოპორტრეტი არის საკუთარი თავის გამოსახვა. 
+                            </p>
+                        </div>
+                        <div class="newDesign_subject_question_item">
+                            <img src="../../img/icons/newDesign_btn-yellow.svg" alt="img"
+                                 class="newDesign_subject_question_item-img">
+                            <p class="newDesign_subject_question_item-title">
+                              პორტრეტი შეიძლება, იყოს ფერწერული, გრაფიკული, ქანდაკება, ფრესკა, ფოტო და სხვ.
+                            </p>
+                        </div>
+                    </div>
                 </div>
-                <div class="newDesign_subject_question_item art-7-4-text-margin">
-                    <img src="../../img/icons/newDesign_btn-yellow.svg" alt="img"
-                         class="newDesign_subject_question_item-img">
-                    <p class="newDesign_subject_question_item-title">დაასახელე პრობლემის მოგვარების გზები.</p>
-                </div>
-                <div class="newDesign_subject_question_item art-7-4-text-margin">
-                  <img src="../../img/icons/newDesign_btn-yellow.svg" alt="img"
-                       class="newDesign_subject_question_item-img">
-                  <p class="newDesign_subject_question_item-title">დაათვალიერე პლაკატების ნიმუშები. </br>იმსჯელე, რა თემაზეა და რა მოწოდება ჩანს მათში.</p>
-              </div>
             </div>
         </div>
-        <div class="art-8-13-image-div-container">
-            <img src="../../img/gakvetilebi/xelovneba/rescue_nature_08/art-8-19-image.svg" alt="">
-       </div>
-        <div class="our__pagination flex">
-            <a href="#" class="pagination__prev__btn">
-                <img style="transform: rotate(180deg)" src="../../img/icons/chevron-left-icon.svg" alt="">
-            </a>
-
-            <div id="pagination" class="flex align-items-center"></div>
-
-            <a href="#" class="pagination__next__btn">
+       
+       
+        <div class="our__pagination flex">    
+            <div id="pagination" class="flex align-items-center">
+                  <div class="pagination__item">
+                     <a class="current__pagination" href="25-1.html">1</a>
+                  </div>
+                  <div class="pagination__item">
+                     <a class="pagination__dot" href="25-2.html"></a>
+                  </div>
+                  <div class="pagination__item">
+                     <a class="pagination__dot" href="25-3.html"></a>
+                  </div>
+            </div>
+    
+            <a href="25-2.html" class="pagination__next__btn">
                 <img src="../../img/icons/chevron-left-icon.svg" alt="">
             </a>
-        </div>
+      </div>
+
+
     </section>
 </div>
 
@@ -508,14 +498,15 @@
     <app-bot></app-bot>
 </div>
 
-
 <script src="../../js/libraries/jquery-3.4.1.min.js"></script>
-<script src="../../js/Pagination.js"></script>
+  <script src="../../js/libraries/jquery.magnific-popup.min.js"></script>
 
 
 <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
-<script src="../../New-header-vue/app.js"></script>
 <script src="../../Vue-chatBot/botApp.js"></script>
 <script src="../../js/bot.js"></script>
+
+
 </body>
+
 </html>
