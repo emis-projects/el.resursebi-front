@@ -15,6 +15,9 @@
     &-md{
       height: 53.64vh;
     }
+    &-smd{
+      height: 47.64vh;
+    }
   }
   &_img {
     width: 100%;
@@ -671,6 +674,74 @@
     }
     .owl-dot:nth-child(2) span {
       background-image: url("../img/gakvetilebi/xelovneba/rescue_nature_08/N-08-15-2.jpg");
+    }
+  }
+  &-09-10.owl-theme .owl-dots {
+    .owl-dot:nth-child(1) span {
+      background-image: url("../img/gakvetilebi/xelovneba/friends_09/A-09-10-1.jpg");
+    }
+    .owl-dot:nth-child(2) span {
+      background-image: url("../img/gakvetilebi/xelovneba/friends_09/A-09-10-2.jpg");
+    }
+  }
+  &-09-11.owl-theme .owl-dots {
+    .owl-dot:nth-child(1) span {
+      background-image: url("../img/gakvetilebi/xelovneba/friends_09/A-09-11-1.jpg");
+    }
+    .owl-dot:nth-child(2) span {
+      background-image: url("../img/gakvetilebi/xelovneba/friends_09/A-09-11-2.jpg");
+    }
+  }
+  &-09-12.owl-theme .owl-dots {
+    .owl-dot:nth-child(1) span {
+      background-image: url("../img/gakvetilebi/xelovneba/friends_09/A-09-12-1.jpg");
+      background-position: top;
+    }
+    .owl-dot:nth-child(2) span {
+      background-image: url("../img/gakvetilebi/xelovneba/friends_09/A-09-12-2.jpg");
+      background-position: top;
+    }
+  }
+  &-09-13.owl-theme .owl-dots {
+    .owl-dot:nth-child(1) span {
+      background-image: url("../img/gakvetilebi/xelovneba/friends_09/A-09-13-1.jpg");
+      background-position: top;
+    }
+    .owl-dot:nth-child(2) span {
+      background-image: url("../img/gakvetilebi/xelovneba/friends_09/A-09-13-2.jpg");
+      background-position: top;
+    }
+  }
+  &-09-14.owl-theme .owl-dots {
+    .owl-dot:nth-child(1) span {
+      background-image: url("../img/gakvetilebi/xelovneba/friends_09/A-09-14-1.jpg"); 
+    }
+    .owl-dot:nth-child(2) span {
+      background-image: url("../img/gakvetilebi/xelovneba/friends_09/A-09-14-2.jpg");
+    }
+  }
+  &-09-15.owl-theme .owl-dots {
+    .owl-dot:nth-child(1) span {
+      background-image: url("../img/gakvetilebi/xelovneba/friends_09/A-09-15-1.jpg"); 
+      background-position: top;
+    }
+    .owl-dot:nth-child(2) span {
+      background-image: url("../img/gakvetilebi/xelovneba/friends_09/A-09-15-2.jpg");
+    }
+    .owl-dot:nth-child(3) span {
+      background-image: url("../img/gakvetilebi/xelovneba/friends_09/A-09-15-3.jpg");
+    }
+  }
+  &-09-16.owl-theme .owl-dots {
+    .owl-dot:nth-child(1) span {
+      background-image: url("../img/gakvetilebi/xelovneba/friends_09/A-09-16-1.jpg"); 
+      background-position: top;
+    }
+    .owl-dot:nth-child(2) span {
+      background-image: url("../img/gakvetilebi/xelovneba/friends_09/A-09-16-2.jpg");
+    }
+    .owl-dot:nth-child(3) span {
+      background-image: url("../img/gakvetilebi/xelovneba/friends_09/A-09-16-3.jpg");
     }
   }
 }
