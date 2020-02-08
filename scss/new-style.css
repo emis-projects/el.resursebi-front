@@ -16641,12 +16641,17 @@ td img {
   border-radius: 27px;
   width: 15.666vw;
   height: 6.38vh;
+  color: #7FD1D8;
+  font-size: 20px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: #fff;
 }
 
@@ -16657,17 +16662,17 @@ td img {
 
 .nature-07-ujredi-game .ujredi__drop:nth-child(3) {
   top: 3.516vh;
-  right: -12.152vw;
+  right: -13.352vw;
 }
 
 .nature-07-ujredi-game .ujredi__drop:nth-child(4) {
   top: 17.906vh;
-  right: -14.641vw;
+  right: -15.841vw;
 }
 
 .nature-07-ujredi-game .ujredi__drop:nth-child(5) {
   bottom: -2.214vh;
-  right: -10.835vw;
+  right: -11.835vw;
 }
 
 .comics_N-07-43 {
