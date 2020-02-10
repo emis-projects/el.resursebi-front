@@ -1,23 +1,18 @@
+let Mitochondria = $('.mitoqondria');
+let cytoplasm = $('.citoplazma');
+let Membrane = $('#Group_51155 > path.cls-1')[0];
+let Nucleus = $('.birtvi');
+
+
 function Game() {
-    // Variables
-    let Mitochondria = $('.mitoqondria');
-    let cytoplasm = $('.citoplazma');
-    let Membrane = $('#Group_51155 > path.cls-1')[0];
-    let Nucleus = $('.birtvi');
-
-    //Change Css
-    //Hide Arrows
-    let Arrows = $('#Group_51212')
-        .children()
-        .toArray();
+    let Arrows = $('#Group_51212').children().toArray();
     Arrows.shift();
-    $(Arrows).hide();
+    // $(Arrows).hide();
 
+    
     //Events
-
     Mitochondria.toArray().forEach(element => {
         element.onclick = () => {
-            $(Arrows[2]).show();
             $('.ujredi__drop')[3].innerText = 'მიტოქონდრია';
         };
     });
@@ -28,8 +23,7 @@ function Game() {
     };
 
     cytoplasm.toArray().forEach(element => {
-        element.onclick = () => {
-            $(Arrows[1]).show();
+        element.onclick = e => {
             $('.ujredi__drop')[1].innerText = 'ციტოპლაზმა';
         };
     });
