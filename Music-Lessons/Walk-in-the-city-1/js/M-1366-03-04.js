@@ -110,7 +110,7 @@ function m13660304(){
                 this.checkIfIsError()
             } else {
                 let loc = location.pathname;
-                if(loc == "/Music-Lessons/Walk-in-the-city-1/games/M-1366-03-4.html" || loc == 'el.resursebi-front/Music-Lessons/Walk-in-the-city-1/games/M-1366-03-4.html') {
+                if(loc == "/Music-Lessons/Walk-in-the-city-1/games/M-1366-03-_4.scss" || loc == 'el.resursebi-front/Music-Lessons/Walk-in-the-city-1/games/M-1366-03-_4.scss') {
                     location.href = 'M-1366-03-4-success.html'
                     
                 } else if (loc == "/Music-Lessons/Walk-in-the-city-1/games/M-1366-03-17.html" || loc == 'el.resursebi-front/Music-Lessons/Walk-in-the-city-1/games/M-1366-03-17.html') {
