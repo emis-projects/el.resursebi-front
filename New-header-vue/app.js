@@ -567,8 +567,8 @@ let title = {
         },
         {
             id: 8,
-            name: 'სათაური',
-            link: '#'
+            name: 'თეთრი - ვარდისფერი ფლამინგო',
+            link: 'Nature-Lessons/ფლამინგო-08/1.html'
         },
         {
             id: 9,

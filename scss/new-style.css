@@ -14695,6 +14695,10 @@ td img {
   background-repeat: no-repeat;
 }
 
+.image_box-04 {
+  background: url("../");
+}
+
 .canvas-container {
   width: 100% !important;
 }
