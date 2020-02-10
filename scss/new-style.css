@@ -14653,6 +14653,11 @@ td img {
   margin-top: 14vh;
 }
 
+.art-09-20-image-box {
+  height: 15vh;
+  max-height: 118px;
+}
+
 #A-23-1 .newDesign_container_main_title-cont-margin {
   margin-bottom: 3vh;
 }
