@@ -79,7 +79,7 @@ function handleLoadstop(event) {
         } else if(loc == "/Music-Lessons/Voices/Games/M-1366-57-3.html" || loc == "/el.resursebi-front/Music-Lessons/Voices/Games/M-1366-57-3.html"){
             location.href = "M-1366-57-3-success.html"
 
-        } else if(loc == "/Music-Lessons/Voices/Games/M-1366-57-4.html" || loc == "/el.resursebi-front/Music-Lessons/Voices/Games/M-1366-57-4.html"){
+        } else if(loc == "/Music-Lessons/Voices/Games/M-1366-57-_4.scss" || loc == "/el.resursebi-front/Music-Lessons/Voices/Games/M-1366-57-_4.scss"){
             location.href = "M-1366-57-4-success.html"
 
         }
