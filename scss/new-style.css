@@ -14290,6 +14290,14 @@ td img {
   padding-top: 8vh;
 }
 
+.image_05-box {
+  height: 23vh;
+  max-height: 180px;
+}
+.image_05-box img {
+  height: 100%;
+}
+
 .art-7-18-image-container {
   height: 44.66vh;
 }
