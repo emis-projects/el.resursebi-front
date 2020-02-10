@@ -17414,6 +17414,87 @@ td img {
   background-size: cover;
 }
 
+.nature-8-7-img-div-container {
+  height: 37.76vh;
+}
+
+.nature-8-7-img-div-container img {
+  height: 100%;
+}
+
+.nature-8-7-div-container {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.nature-8-7-div-container p {
+  text-align: center;
+  font-family: 'DejaVu Sans Oblique';
+  font-size: 2.6vh;
+  margin-top: 2.6vh;
+}
+
+.nature-8-7-container {
+  margin-top: 14.38vh;
+}
+
+.nature-8-9-img-div-container {
+  height: 56.9vh;
+}
+
+.nature-8-9-img-div-container img {
+  height: 100%;
+}
+
+.nature-8-9-div-container {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.nature-8-9-div-container p {
+  font-family: 'DejaVu Sans Oblique';
+  font-size: 1.8vh;
+  margin-top: 3.9vh;
+}
+
+.nature-8-9-container {
+  margin-top: 7.38vh;
+}
+
+.nature-8-15-game-pink-img {
+  left: 11vh;
+  position: absolute;
+}
+
+.nature-8-15-game-div-container {
+  position: relative;
+}
+
+.nature-8-15-game-div {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top: 5.2vh;
+}
+
+.nature-8-15-div {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 5.2vh;
+}
+
+.nature-8-15-div-container {
+  height: 10.15vh;
+}
+
+.nature-8-15-div-container img {
+  height: 100%;
+  margin-right: 2.6vh;
+}
+
 .canvas-container {
   width: 100% !important;
 }
