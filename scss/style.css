@@ -753,10 +753,10 @@
 
 @font-face {
   font-family: "DejaVuSans";
-  src: url("../fonts/dejaVuSans/dejavu-sans.eot");
+  src: url("../fonts/dejavu-sans-webfont.eot");
   /* IE9 Compat Modes */
-  src: url("../fonts/dejaVuSans/dejavu-sans.eot?#iefix") format("embedded-opentype"), url("../fonts/dejaVuSans/dejavu-sans.otf") format("opentype"), url("../fonts/dejaVuSans/dejavu-sans.svg") format("svg"), url("../fonts/dejaVuSans/dejavu-sans.ttf") format("truetype"), url("../fonts/dejaVuSans/dejavu-sans.woff") format("woff"), url("../fonts/dejaVuSans/dejavu-sans.woff2") format("woff2");
-  /* Modern Browsers */
+  src: url("../fonts/dejavu-sans-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/dejavu-sans-webfont.woff2") format("woff2"), url("../fonts/dejavu-sans-webfont.woff") format("woff"), url("../fonts/dejavu-sans-webfont.ttf") format("truetype"), url("../fonts/dejavu-sans-webfont.svg#dejavu_sansregular") format("svg");
+  /* Legacy iOS */
 }
 
 @font-face {
@@ -15852,4 +15852,3 @@ td img {
   display: -ms-flexbox;
   display: flex;
 }
-/*# sourceMappingURL=style.css.map */
