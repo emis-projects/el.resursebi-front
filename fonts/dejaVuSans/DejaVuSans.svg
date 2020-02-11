@@ -2,8 +2,8 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
 <metadata>
-Created by FontForge 20170924 at Sat Jul 30 09:51:12 2016
- By www-data
+Created by FontForge 20170731 at Sat Jul 30 12:51:12 2016
+ By Aleksey,,,
 Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved.
 Copyright (c) 2006 by Tavmjong Bah. All Rights Reserved.
 DejaVu changes are in public domain
@@ -17,13 +17,13 @@ DejaVu changes are in public domain
     font-stretch="normal"
     units-per-em="2048"
     panose-1="2 11 6 3 3 8 4 2 2 4"
-    ascent="1556"
-    descent="-492"
+    ascent="1638"
+    descent="-410"
     x-height="1120"
     cap-height="1493"
     bbox="-2090 -948 3673 2524"
     underline-thickness="90"
-    underline-position="-175"
+    underline-position="-265"
     unicode-range="U+0020-1F643"
   />
 <missing-glyph horiz-adv-x="1229" 
