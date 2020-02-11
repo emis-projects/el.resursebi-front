@@ -167,6 +167,9 @@ function natureGames(){
 
             } else if(loc == "/el.resursebi-front/Nature-Lessons/Bruca-07/16.html" || loc == "/Nature-Lessons/Bruca-07/16.html"){
                 location.href = "game-success-16.html"
+
+            } else if(loc == "/el.resursebi-front/Nature-Lessons/flamingo-08/22.html" || loc == "/Nature-Lessons/flamingo-08/22.html"){
+                location.href = "game-success-22.html"
             }
             
 

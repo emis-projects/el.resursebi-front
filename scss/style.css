@@ -752,11 +752,11 @@
 }
 
 @font-face {
-  font-family: "DejaVuSans";
-  src: url("../fonts/dejaVuSans/dejavu-sans.eot");
-  /* IE9 Compat Modes */
-  src: url("../fonts/dejaVuSans/dejavu-sans.eot?#iefix") format("embedded-opentype"), url("../fonts/dejaVuSans/dejavu-sans.otf") format("opentype"), url("../fonts/dejaVuSans/dejavu-sans.svg") format("svg"), url("../fonts/dejaVuSans/dejavu-sans.ttf") format("truetype"), url("../fonts/dejaVuSans/dejavu-sans.woff") format("woff"), url("../fonts/dejaVuSans/dejavu-sans.woff2") format("woff2");
-  /* Modern Browsers */
+  font-family: 'DejaVuSans';
+  src: url("../fonts/dejaVuSans/DejaVuSans.eot");
+  src: local("../fonts/dejaVuSans/DejaVu Sans"), local("DejaVuSans"), url("../fonts/dejaVuSans/DejaVuSans.eot?#iefix") format("embedded-opentype"), url("../fonts/dejaVuSans/DejaVuSans.woff2") format("woff2"), url("../fonts/dejaVuSans/DejaVuSans.woff") format("woff"), url("../fonts/dejaVuSans/DejaVuSans.ttf") format("truetype"), url("../fonts/dejaVuSans/DejaVuSans.svg#DejaVuSans") format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
@@ -15852,4 +15852,3 @@ td img {
   display: -ms-flexbox;
   display: flex;
 }
-/*# sourceMappingURL=style.css.map */
