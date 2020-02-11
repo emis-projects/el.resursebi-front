@@ -1,0 +1,71 @@
+
+.flamingo-46-bg-box {
+  max-height: 130px;
+  height: 16.9vh;
+  margin-top: 7.6vh;
+
+  .img-box {
+    max-width: 239px;
+    width: 18vw;
+    position: relative;
+    border-radius: 0 6px;
+
+    img {
+      height: 100%;
+    }
+
+    p {
+      max-width: 215px;
+      font-family: "DejaVuSans", serif;
+      font-size: 2.4vh;
+    }
+
+    .inner-box {
+      position: absolute;
+      background: #fff;
+      top: 0;
+      right: 0;
+      height: 8vh;
+      width: 6.8vw;
+      max-width: 93px;
+      border-radius: 0 6px;
+      box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.16);
+
+      img {
+        height: 100%;
+      }
+    }
+  }
+}
+
+.order-boxes {
+  margin-top: 13.4vh;
+
+  div {
+    width: 170px;
+    height: 15.6vh;
+    max-height: 120px;
+    box-shadow: 2px 2px 8px #00000029;
+    border-radius: 6px;
+    opacity: 1;
+
+    img {
+      height: 100%
+    }
+  }
+}
+
+.circle-boxes {
+  margin-top: 2.6vh;
+
+  div {
+    max-width: 58px;
+    max-height: 58px;
+    height: 7.5vh;
+    width: 7.5vh;
+    border-radius: 100%;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.16);
+    font-size: 2.6vh;
+    font-family: 'DejaVuSans';
+  }
+}
