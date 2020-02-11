@@ -753,9 +753,9 @@
 
 @font-face {
   font-family: "DejaVuSans";
-  src: url("../fonts/dejavu-sans-webfont.eot");
+  src: url("../fonts/dejaVuSans/dejavu-sans.eot");
   /* IE9 Compat Modes */
-  src: url("../fonts/dejavu-sans-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/dejavu-sans-webfont.woff2") format("woff2"), url("../fonts/dejavu-sans-webfont.woff") format("woff"), url("../fonts/dejavu-sans-webfont.ttf") format("truetype"), url("../fonts/dejavu-sans-webfont.svg#dejavu_sansregular") format("svg");
+  src: url("../fonts/dejaVuSans/dejavu-sans.eot?#iefix") format("embedded-opentype"), url("../fonts/dejaVuSans/dejavu-sans.woff2") format("woff2"), url("../fonts/dejaVuSans/dejavu-sans.woff") format("woff"), url("../fonts/dejaVuSans/dejavu-sans.ttf") format("truetype"), url("../fonts/dejaVuSans/dejavu-sans.svg#dejavu_sansregular") format("svg");
   /* Legacy iOS */
 }
 
@@ -17695,7 +17695,6 @@ td img {
   margin-top: 3.6vh;
 }
 
-
 .nature-8-26-1-img-div-container {
   height: 52.47vh;
 }
@@ -17730,6 +17729,9 @@ td img {
 
 .nature-8-29-text-div-container span, .nature-8-29-text-div-container p {
   display: inline-block;
+  font-family: 'DejaVu Sans Oblique';
+  font-size: 1.8vh;
+  margin-top: 3.9vh;
 }
 
 .nature-8-29-text-container {
@@ -17750,6 +17752,7 @@ td img {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
 }
+
 .n-08-49-comp-img {
   height: 24.86vh;
   margin-top: 5vh;
@@ -17769,7 +17772,6 @@ td img {
   height: 23.43vh;
   margin-top: 10vh;
 }
-
 
 .canvas-container {
   width: 100% !important;

@@ -753,9 +753,9 @@
 
 @font-face {
   font-family: "DejaVuSans";
-  src: url("../fonts/dejavu-sans-webfont.eot");
+  src: url("../fonts/dejaVuSans/dejavu-sans.eot");
   /* IE9 Compat Modes */
-  src: url("../fonts/dejavu-sans-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/dejavu-sans-webfont.woff2") format("woff2"), url("../fonts/dejavu-sans-webfont.woff") format("woff"), url("../fonts/dejavu-sans-webfont.ttf") format("truetype"), url("../fonts/dejavu-sans-webfont.svg#dejavu_sansregular") format("svg");
+  src: url("../fonts/dejaVuSans/dejavu-sans.eot?#iefix") format("embedded-opentype"), url("../fonts/dejaVuSans/dejavu-sans.woff2") format("woff2"), url("../fonts/dejaVuSans/dejavu-sans.woff") format("woff"), url("../fonts/dejaVuSans/dejavu-sans.ttf") format("truetype"), url("../fonts/dejaVuSans/dejavu-sans.svg#dejavu_sansregular") format("svg");
   /* Legacy iOS */
 }
 
