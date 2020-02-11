@@ -17562,6 +17562,22 @@ td img {
   margin-top: 3.6vh;
 }
 
+.n-08-49-comp-img {
+  height: 24.86vh;
+  margin-top: 5vh;
+}
+
+.n-08-49-img {
+  width: 100%;
+  height: 23.17vh;
+  border-radius: 5px;
+  margin-bottom: 2vh;
+}
+
+.n-08-49-cont {
+  margin-top: 10vh;
+}
+
 .canvas-container {
   width: 100% !important;
 }
