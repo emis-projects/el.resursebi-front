@@ -753,10 +753,10 @@
 
 @font-face {
   font-family: "DejaVuSans";
-  src: url("../fonts/dejaVuSans/dejavu-sans.eot");
+  src: url("../fonts/dejavu-sans-webfont.eot");
   /* IE9 Compat Modes */
-  src: url("../fonts/dejaVuSans/dejavu-sans.eot?#iefix") format("embedded-opentype"), url("../fonts/dejaVuSans/dejavu-sans.otf") format("opentype"), url("../fonts/dejaVuSans/dejavu-sans.svg") format("svg"), url("../fonts/dejaVuSans/dejavu-sans.ttf") format("truetype"), url("../fonts/dejaVuSans/dejavu-sans.woff") format("woff"), url("../fonts/dejaVuSans/dejavu-sans.woff2") format("woff2");
-  /* Modern Browsers */
+  src: url("../fonts/dejavu-sans-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/dejavu-sans-webfont.woff2") format("woff2"), url("../fonts/dejavu-sans-webfont.woff") format("woff"), url("../fonts/dejavu-sans-webfont.ttf") format("truetype"), url("../fonts/dejavu-sans-webfont.svg#dejavu_sansregular") format("svg");
+  /* Legacy iOS */
 }
 
 @font-face {
@@ -3448,7 +3448,7 @@ section .arrow_up_down_downArrow img {
 
 .newDesign_subject_question_item-title {
   color: #262626;
-  font-size: 2.6vh;
+  font-size: 2.3vh;
   font-family: "DejaVuSans";
   line-height: 3.9vh;
   margin-left: 2vh;
@@ -17500,6 +17500,164 @@ td img {
   margin-right: 2.6vh;
 }
 
+.flamingo-33-image_box {
+  max-height: 133px;
+  height: 17.3vh;
+}
+
+.flamingo-33-image_box img {
+  height: 100%;
+}
+
+.flamingo-33-bg-box {
+  max-height: 188px;
+  height: 24.4vh;
+  margin-top: 7.6vh;
+}
+
+.flamingo-33-bg-box .img-box {
+  max-width: 239px;
+  width: 18vw;
+  position: relative;
+  border-radius: 0 6px;
+}
+
+.flamingo-33-bg-box .img-box img {
+  width: 100%;
+}
+
+.flamingo-33-bg-box .img-box .inner-box {
+  position: absolute;
+  background: #fff;
+  top: 0;
+  right: 0;
+  height: 8vh;
+  width: 6.8vw;
+  max-width: 93px;
+  border-radius: 0 6px;
+  -webkit-box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.16);
+          box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.16);
+}
+
+.flamingo-33-bg-box .img-box .inner-box img {
+  height: 100%;
+}
+
+.animal-image-box {
+  height: 24.4vh;
+  margin-top: 7.6vh;
+  max-width: 123px;
+}
+
+.animal-image-box img {
+  height: 10.5vh;
+}
+
+.chameleon-34-bg-box {
+  max-height: 105px;
+  height: 13.5vh;
+  margin-top: 5.2vh;
+}
+
+.flamingo-46-bg-box {
+  max-height: 130px;
+  height: 16.9vh;
+  margin-top: 7.6vh;
+}
+
+.flamingo-46-bg-box .img-box {
+  max-width: 239px;
+  width: 18vw;
+  position: relative;
+  border-radius: 0 6px;
+}
+
+.flamingo-46-bg-box .img-box img {
+  height: 100%;
+}
+
+.flamingo-46-bg-box .img-box p {
+  max-width: 215px;
+  font-family: "DejaVuSans", serif;
+  font-size: 2.4vh;
+}
+
+.flamingo-46-bg-box .img-box .inner-box {
+  position: absolute;
+  background: #fff;
+  top: 0;
+  right: 0;
+  height: 8vh;
+  width: 6.8vw;
+  max-width: 93px;
+  border-radius: 0 6px;
+  -webkit-box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.16);
+          box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.16);
+}
+
+.flamingo-46-bg-box .img-box .inner-box img {
+  height: 100%;
+}
+
+.order-boxes {
+  margin-top: 13.4vh;
+}
+
+.order-boxes div {
+  width: 170px;
+  height: 15.6vh;
+  max-height: 120px;
+  -webkit-box-shadow: 2px 2px 8px #00000029;
+          box-shadow: 2px 2px 8px #00000029;
+  border-radius: 6px;
+  opacity: 1;
+}
+
+.order-boxes div img {
+  height: 100%;
+}
+
+.circle-boxes {
+  margin-top: 2.6vh;
+}
+
+.circle-boxes div {
+  max-width: 58px;
+  max-height: 58px;
+  height: 7.5vh;
+  width: 7.5vh;
+  border-radius: 100%;
+  -webkit-box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.16);
+          box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.16);
+  font-size: 2.6vh;
+  font-family: 'DejaVuSans';
+}
+
+.n-08-41-cont {
+  margin-top: 3vh;
+}
+
+.n-08-41-img {
+  margin-top: 6vh;
+  height: 40.10vh;
+}
+
+.n-08-45-comp-img {
+  height: 17.57vh;
+  margin-top: 5vh;
+}
+
+.n-08-45-img {
+  width: 100%;
+  height: 17.92vh;
+  border-radius: 10px;
+  margin-bottom: 2vh;
+}
+
+.n-08-45-cont {
+  margin-top: 10vh;
+}
+
 .nature-8-19-img-div-container {
   height: 57.03vh;
 }
@@ -17536,6 +17694,7 @@ td img {
           justify-content: space-evenly;
   margin-top: 3.6vh;
 }
+
 
 .nature-8-26-1-img-div-container {
   height: 52.47vh;
@@ -17591,6 +17750,26 @@ td img {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
 }
+.n-08-49-comp-img {
+  height: 24.86vh;
+  margin-top: 5vh;
+}
+
+.n-08-49-img {
+  height: 23.17vh;
+  border-radius: 5px;
+  margin-bottom: 2vh;
+}
+
+.n-08-49-cont {
+  margin-top: 10vh;
+}
+
+.n-08-50-img {
+  height: 23.43vh;
+  margin-top: 10vh;
+}
+
 
 .canvas-container {
   width: 100% !important;
