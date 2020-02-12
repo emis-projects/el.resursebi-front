@@ -17813,6 +17813,46 @@ td img {
   background-repeat: no-repeat;
 }
 
+.art-10-6-image-div-container {
+  height: 50.26vh;
+  margin-top: 9.11vh;
+}
+
+.art-10-6-image-div-container img {
+  height: 100%;
+}
+
+.art-10-7-image-div-container {
+  height: 58.07vh;
+  position: absolute;
+  bottom: 10.67vh;
+  right: 11.93vw;
+}
+
+.art-10-7-image-div-container img {
+  height: 100%;
+}
+
+.art-10-17-div-container {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.art-10-17-image-div-container {
+  height: 18.75vh;
+  margin-bottom: 2.6vh;
+}
+
+.art-10-17-image-div-container img {
+  height: 100%;
+}
+
+.art-10-17-image-empty-div-container {
+  border: 1px solid #707070;
+  height: 18.75vh;
+  width: 18.15vw;
+}
+
 .canvas-container {
   width: 100% !important;
 }
