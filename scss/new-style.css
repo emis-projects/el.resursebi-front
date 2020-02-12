@@ -17798,24 +17798,65 @@ td img {
   height: 100%;
 }
 
-.art-10-17-div-container {
+.art-10-14-div-container {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
 
-.art-10-17-image-div-container {
+.art-10-14-image-div-container {
   height: 18.75vh;
   margin-bottom: 2.6vh;
 }
 
-.art-10-17-image-div-container img {
+.art-10-14-image-div-container img {
   height: 100%;
 }
 
-.art-10-17-image-empty-div-container {
+.art-10-14-image-empty-div-container {
   border: 1px solid #707070;
   height: 18.75vh;
   width: 18.15vw;
+}
+
+.art-10-18-image-div-container {
+  height: 35.15vh;
+  margin-top: 12.89vh;
+}
+
+.art-10-18-image-div-container img {
+  height: 100%;
+}
+
+.art-10-28-image-div-container {
+  height: 29.55vh;
+}
+
+.art-10-28-image-div-container img {
+  height: 100%;
+}
+
+.art-10-28-div-container {
+  margin-top: 17.18vh;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.art-10-28-div-text-container {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top: 2.73vh;
+}
+
+.art-10-28-div-text-container p {
+  font-family: 'DejaVu Sans';
+  font-size: 2.6vh;
+  margin-top: 2.6vh;
+}
+
+.art-10-28-div-text-container label {
+  margin-bottom: 4.5vh;
 }
 
 .canvas-container {
