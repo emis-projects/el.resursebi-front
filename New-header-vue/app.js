@@ -511,13 +511,13 @@ let title = {
         },
         {
             id: 9,
-            name: 'სათაური',
-            link: '#'
+            name: 'მე და ჩემი მეგობრები',
+            link: 'Art-Lessons/friends-09/1.html'
         },
         {
             id: 10,
-            name: 'სათაური',
-            link: '#'
+            name: 'ჩვეულებრივი და არაჩვეულებრივი ნივთები',
+            link: 'Art-Lessons/items-10/1.html'
         },
         {
             id: 11,
