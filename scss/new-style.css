@@ -15134,6 +15134,35 @@ td img {
   margin-top: 10vh;
 }
 
+.bg-items-10 {
+  background: url("../img/gakvetilebi/xelovneba/items-10/items-slider.jpg") no-repeat center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.carousel_text {
+  z-index: 99999;
+}
+
+.img-box_items-19 {
+  height: 28vh;
+  max-height: 221px;
+  margin-top: 8vh;
+}
+.img-box_items-19 img {
+  height: 100%;
+}
+
+.art-10-32-3vh {
+  margin-bottom: 3.5vh;
+}
+
 .canvas-container {
   width: 100% !important;
 }
