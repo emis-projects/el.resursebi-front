@@ -1515,8 +1515,8 @@ body {
 .app-select_box-content {
   box-shadow: 2px 2px 8px #7FD1D866;
   border-radius: 20px;
-  height: 5vh;
-  max-height: 40px;
+  height: 6vh;
+  max-height: 45px;
   color: #7FD1D8 !important;
 }
 .app-select_box-content:hover, .app-select_box-content:active {
