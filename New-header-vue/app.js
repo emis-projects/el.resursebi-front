@@ -512,7 +512,7 @@ let title = {
         {
             id: 9,
             name: 'მე და ჩემი მეგობრები',
-            link: 'Art-Lessons/friends-09/1.html'
+            link: 'Art-Lessons/friends_09/1.html'
         },
         {
             id: 10,
@@ -568,7 +568,7 @@ let title = {
         {
             id: 8,
             name: 'თეთრი - ვარდისფერი ფლამინგო',
-            link: 'Nature-Lessons/ფლამინგო-08/1.html'
+            link: 'Nature-Lessons/flamingo-08/1.html'
         },
         {
             id: 9,
