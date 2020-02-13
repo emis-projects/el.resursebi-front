@@ -18181,6 +18181,11 @@ td img {
   width: 18vw;
 }
 
+.n-10-comp-img {
+  height: 40.88vh;
+  margin-top: 10vh;
+}
+
 .canvas-container {
   width: 100% !important;
 }
