@@ -9,7 +9,7 @@ function natureGames() {
     var resetBtn = document.getElementById('resetBtn');
 
     $(draggedImgElement).on('dragstart', (e) => this.dragStart(e));
-    $(mydrag).on('dragend', (e) => this.dragEnd(e));
+    $(draggedImgElement).on('dragend', (e) => this.dragEnd(e));
 
     for (const drag of mydrag) {
         drag.addEventListener('dragover', (e) => this.dragOver(e));
@@ -25,6 +25,7 @@ function natureGames() {
             w.setAttribute('data-class', w.getAttribute('class'))
         })
     })
+    
 
     // Drag Functions 
     this.dragOver = (e) => {
