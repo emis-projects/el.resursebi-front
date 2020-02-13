@@ -2577,9 +2577,9 @@ section .arrow_up_down_downArrow img {
   color: #0b2228;
 }
 
-.big-font-size-18px {
-  font-size: 2.34vh;
-  font-family: "BPG Arial";
+.big-font-size-20px-dejavu {
+  font-family: "DejaVu Sans";
+  font-size: 2.6vh;
   color: #0b2228;
 }
 
