@@ -9,7 +9,7 @@ function natureGames(){
 
 
     $(draggedImgElement).on('dragstart', (e) => this.dragStart(e));
-    $(mydrag).on('dragend', (e) => this.dragEnd(e));
+    $(draggedImgElement).on('dragend', (e) => this.dragEnd(e));
     
     for (const drag of mydrag) {
         drag.addEventListener('dragover', (e) => this.dragOver(e));
@@ -87,6 +87,8 @@ function natureGames(){
 
 
     this.checkEveryElement = (element) => {
+        // console.log(element.getAttribute('data-title'))
+        // console.log(element.parentElement.getAttribute('data-title'))
         firstDataElement = element.getAttribute('data-title');
         secondDataElement = element.parentElement.getAttribute('data-title');
         return firstDataElement == secondDataElement;
@@ -98,7 +100,7 @@ function natureGames(){
 	this.completGame = (e) => {
         draggedImgElement.forEach(element => {
             if((element.getAttribute('data-title') != element.parentElement.getAttribute('data-title')) && (element.getAttribute('data-red') == element.parentElement.getAttribute('data-red'))){
-                element.style.color = "#dc6c85";
+                element.style.color = "red";
             }
         });
         let el = myArray1.every(this.checkEveryElement);
@@ -130,6 +132,10 @@ function natureGames(){
         completedBtn.removeAttribute('disabled');
         completedBtn.setAttribute('style', 'cursor: pointer');
     }
+
+ 
+
+
 
 
 
