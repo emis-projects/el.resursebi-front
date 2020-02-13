@@ -7873,6 +7873,8 @@ section .arrow_up_down_downArrow img {
       grid-template-rows: repeat(11, var(--block-size));
 }
 
+
+
 .block {
   width: var(--block-size);
   height: var(--block-size);
