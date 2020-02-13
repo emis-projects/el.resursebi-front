@@ -17859,6 +17859,38 @@ td img {
   margin-bottom: 4.5vh;
 }
 
+.art-10-31-div-container {
+  padding-top: 11.71vh;
+}
+
+.art-10-31-div-img-container {
+  height: 6.51vh;
+}
+
+.art-10-31-div-img-container img {
+  height: 100%;
+}
+
+.art-10-31-text-div-container {
+  padding-top: 4.6vh;
+}
+
+.art-10-32-image-div-container {
+  height: 22.395vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 3.64vh;
+}
+
+.art-10-32-image-div-container img {
+  height: 100%;
+}
+
+.art-10-32-text-blue-margin {
+  margin-top: 2.6vh;
+}
+
 .canvas-container {
   width: 100% !important;
 }

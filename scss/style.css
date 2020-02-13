@@ -2996,6 +2996,12 @@ section .arrow_up_down_downArrow img {
   color: #0b2228;
 }
 
+.big-font-size-18px {
+  font-size: 2.34vh;
+  font-family: "BPG Arial";
+  color: #0b2228;
+}
+
 .m-1366-04-20-notes-button {
   background-color: #FFFFFF;
   color: #fff;
