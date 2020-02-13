@@ -512,7 +512,7 @@ let title = {
         {
             id: 9,
             name: 'მე და ჩემი მეგობრები',
-            link: 'Art-Lessons/friends-09/1.html'
+            link: 'Art-Lessons/friends_09/1.html'
         },
         {
             id: 10,
