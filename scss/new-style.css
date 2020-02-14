@@ -18190,6 +18190,11 @@ td img {
   right: 0;
 }
 
+.coat-image-box_image-box-04 {
+  background: url("../img/gakvetilebi/buneba/coat-10/comix-4.png") no-repeat center;
+  background-size: cover;
+}
+
 .coat-image-box_image-box-05 {
   background: url("../img/gakvetilebi/buneba/coat-10/comix-5.png") no-repeat center;
   background-size: cover;
@@ -18235,9 +18240,11 @@ td img {
   background-size: cover;
 }
 
-.coat-image-box_image-box-17 {
-  background: url("../img/gakvetilebi/buneba/coat-10/comix-17.png") no-repeat center;
-  background-size: cover;
+.coat-image-box_image-box-17 svg {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .coat-image-box_image-box-18 {
@@ -18252,6 +18259,41 @@ td img {
 
 .coat-image-box_image-box-20 {
   background: url("../img/gakvetilebi/buneba/coat-10/comix-20.png") no-repeat center;
+  background-size: cover;
+}
+
+.coat-image-box_image-box-21 {
+  background: url("../img/gakvetilebi/buneba/coat-10/comix-21.png") no-repeat center;
+  background-size: cover;
+}
+
+.coat-image-box_image-box-22 {
+  background: url("../img/gakvetilebi/buneba/coat-10/comix-22.png") no-repeat center;
+  background-size: cover;
+}
+
+.coat-image-box_image-box-30 {
+  background: url("../img/gakvetilebi/buneba/coat-10/comix-30.png") no-repeat center;
+  background-size: cover;
+}
+
+.coat-image-box_image-box-31 {
+  background: url("../img/gakvetilebi/buneba/coat-10/comix-31.png") no-repeat center;
+  background-size: cover;
+}
+
+.coat-image-box_image-box-32 {
+  background: url("../img/gakvetilebi/buneba/coat-10/comix-32.png") no-repeat center;
+  background-size: cover;
+}
+
+.coat-image-box_image-box-38 {
+  background: url("../img/gakvetilebi/buneba/coat-10/comix-38.png") no-repeat center;
+  background-size: cover;
+}
+
+.coat-image-box_image-box-39 {
+  background: url("../img/gakvetilebi/buneba/coat-10/comix-39.png") no-repeat center;
   background-size: cover;
 }
 
@@ -18310,6 +18352,86 @@ td img {
   height: 35vh;
   margin-top: 5vh;
   margin-left: 20vh;
+}
+
+.coat-image-box-40 {
+  height: 34.6vh;
+  max-height: 266px;
+}
+
+.coat-image-box-40 svg {
+  height: 100%;
+  width: 100%;
+}
+
+.coat-thermos-box-40 {
+  height: 27vh;
+  max-height: 210px;
+}
+
+.coat-thermos-box-40 img {
+  height: 100%;
+}
+
+.coat-boxes {
+  margin-top: 5.2vh;
+}
+
+.coat-boxes-title {
+  font-family: 'DejaVuSans', serif;
+  font-size: 2vh;
+  color: #00d5d5;
+  height: 4.4vh;
+  max-height: 34px;
+  width: 13.9vw;
+  max-width: 186px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1px 5px 0 rgba(0, 213, 213, 0.3);
+          box-shadow: 0 1px 5px 0 rgba(0, 213, 213, 0.3);
+}
+
+.coat-boxes_wrapper {
+  margin-top: 2.5vh;
+}
+
+.coat-boxes_content {
+  height: 8.3vh;
+  max-height: 64px;
+  border: 1px solid #00D5D5;
+  border-radius: 6px;
+  padding: 0;
+}
+
+.coat-boxes_content img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.coat-boxes_content-fill {
+  height: 10vh;
+  max-height: 77px;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 1px 7px -2px #454548;
+          box-shadow: 0 1px 7px -2px #454548;
+  padding: 0;
+  overflow: hidden;
+  margin-top: 2.5vh;
+}
+
+.coat-boxes_content-fill .bg-contain {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.coat-boxes_content-fill img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .canvas-container {
