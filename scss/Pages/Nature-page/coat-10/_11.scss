@@ -1,0 +1,53 @@
+.coat-boxes {
+  margin-top: 5.2vh;
+
+  &-title {
+    font-family: 'DejaVuSans', serif;
+    font-size: 2vh;
+    color: #00d5d5;
+    height: 4.4vh;
+    max-height: 34px;
+    width: 13.9vw;
+    max-width: 186px;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px 0 rgba(0, 213, 213, 0.3);
+  }
+
+  &_wrapper {
+    margin-top: 2.5vh;
+  }
+
+  &_content {
+    height: 8.3vh;
+    max-height: 64px;
+    border: 1px solid #00D5D5;
+    border-radius: 6px;
+    padding: 0;
+    img{
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+
+    &-fill {
+      height: 10vh;
+      max-height: 77px;
+      border-radius: 6px;
+      box-shadow: 0 1px 7px -2px rgb(69, 69, 72);
+      padding: 0;
+      overflow: hidden;
+      margin-top: 2.5vh;
+      .bg-contain{
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+      }
+
+      img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+}

@@ -7,6 +7,10 @@
     left: 0;
     right: 0;
   }
+  &_image-box-04{
+    background: url("../img/gakvetilebi/buneba/coat-10/comix-4.png") no-repeat center;
+    background-size: cover;
+  }
   &_image-box-05{
     background: url("../img/gakvetilebi/buneba/coat-10/comix-5.png") no-repeat center;
     background-size: cover;
@@ -44,8 +48,11 @@
     background-size: cover;
   }
   &_image-box-17{
-    background: url("../img/gakvetilebi/buneba/coat-10/comix-17.png") no-repeat center;
-    background-size: cover;
+    svg {
+      height: 100%;
+      width: 100%;
+      object-fit: contain ;
+    }
   }
   &_image-box-18{
     background: url("../img/gakvetilebi/buneba/coat-10/comix-18.png") no-repeat center;
@@ -57,6 +64,34 @@
   }
   &_image-box-20{
     background: url("../img/gakvetilebi/buneba/coat-10/comix-20.png") no-repeat center;
+    background-size: cover;
+  }
+  &_image-box-21{
+    background: url("../img/gakvetilebi/buneba/coat-10/comix-21.png") no-repeat center;
+    background-size: cover;
+  }
+  &_image-box-22{
+    background: url("../img/gakvetilebi/buneba/coat-10/comix-22.png") no-repeat center;
+    background-size: cover;
+  }
+  &_image-box-30{
+    background: url("../img/gakvetilebi/buneba/coat-10/comix-30.png") no-repeat center;
+    background-size: cover;
+  }
+  &_image-box-31{
+    background: url("../img/gakvetilebi/buneba/coat-10/comix-31.png") no-repeat center;
+    background-size: cover;
+  }
+  &_image-box-32{
+    background: url("../img/gakvetilebi/buneba/coat-10/comix-32.png") no-repeat center;
+    background-size: cover;
+  }
+  &_image-box-38{
+    background: url("../img/gakvetilebi/buneba/coat-10/comix-38.png") no-repeat center;
+    background-size: cover;
+  }
+  &_image-box-39{
+    background: url("../img/gakvetilebi/buneba/coat-10/comix-39.png") no-repeat center;
     background-size: cover;
   }
 }
