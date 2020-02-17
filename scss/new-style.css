@@ -251,6 +251,9 @@
   margin-left: 60px;
   padding-bottom: 5px;
   color: #666;
+}
+
+.chat .chat_converse .chat_msg_item.chat_msg_item_admin span {
   -webkit-box-shadow: 2px 2px 8px #7FD1D866;
           box-shadow: 2px 2px 8px #7FD1D866;
   border-radius: 20px 20px 20px 0px;
@@ -725,6 +728,140 @@
   width: 35px;
   background: url("../img/icons/xelovnebabot.png") no-repeat center;
   background-size: contain;
+}
+
+.bubble-chat {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 10px 0;
+}
+
+.container-circle {
+  padding-left: 20px;
+}
+
+.circle {
+  height: 10px;
+  width: 10px;
+  margin: 0 1px;
+  background-color: #B6B5BA;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  top: 0;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+#circle1 {
+  -webkit-animation-name: circle1;
+}
+
+#circle2 {
+  -webkit-animation-name: circle2;
+}
+
+#circle3 {
+  -webkit-animation-name: circle3;
+}
+
+#circle1 {
+  -webkit-animation-name: circle1;
+          animation-name: circle1;
+}
+
+#circle2 {
+  -webkit-animation-name: circle2;
+          animation-name: circle2;
+}
+
+#circle3 {
+  -webkit-animation-name: circle3;
+          animation-name: circle3;
+}
+
+.cc1 {
+  background-color: #9E9DA2;
+}
+
+@-webkit-keyframes circle1 {
+  0% {
+    top: 2px;
+  }
+  15% {
+    top: -8px;
+  }
+  25% {
+    top: 2px;
+  }
+}
+
+@keyframes circle1 {
+  0% {
+    top: 2px;
+  }
+  15% {
+    top: -8px;
+  }
+  25% {
+    top: 2px;
+  }
+}
+
+@-webkit-keyframes circle2 {
+  10% {
+    top: 2px;
+  }
+  25% {
+    top: -8px;
+  }
+  35% {
+    top: 2px;
+  }
+}
+
+@keyframes circle2 {
+  10% {
+    top: 2px;
+  }
+  25% {
+    top: -8px;
+  }
+  35% {
+    top: 2px;
+  }
+}
+
+@-webkit-keyframes circle3 {
+  15% {
+    top: 2px;
+  }
+  30% {
+    top: -8px;
+  }
+  40% {
+    top: 2px;
+  }
+}
+
+@keyframes circle3 {
+  15% {
+    top: 2px;
+  }
+  30% {
+    top: -8px;
+  }
+  40% {
+    top: 2px;
+  }
 }
 
 @font-face {
@@ -1846,8 +1983,8 @@ body {
   -webkit-box-shadow: 2px 2px 8px #7FD1D866;
           box-shadow: 2px 2px 8px #7FD1D866;
   border-radius: 20px;
-  height: 5vh;
-  max-height: 40px;
+  height: 6vh;
+  max-height: 45px;
   color: #7FD1D8 !important;
 }
 
@@ -8381,6 +8518,9 @@ section .arrow_up_down_downArrow img {
   margin-left: 60px;
   padding-bottom: 5px;
   color: #666;
+}
+
+.chat .chat_converse .chat_msg_item.chat_msg_item_admin span {
   -webkit-box-shadow: 2px 2px 8px #7FD1D866;
           box-shadow: 2px 2px 8px #7FD1D866;
   border-radius: 20px 20px 20px 0px;
@@ -8810,6 +8950,104 @@ section .arrow_up_down_downArrow img {
   width: 35px;
   background: url("../img/icons/xelovnebabot.png") no-repeat center;
   background-size: contain;
+}
+
+.bubble-chat {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 10px 0;
+}
+
+.container-circle {
+  padding-left: 20px;
+}
+
+.circle {
+  height: 10px;
+  width: 10px;
+  margin: 0 1px;
+  background-color: #B6B5BA;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  top: 0;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+#circle1 {
+  -webkit-animation-name: circle1;
+}
+
+#circle2 {
+  -webkit-animation-name: circle2;
+}
+
+#circle3 {
+  -webkit-animation-name: circle3;
+}
+
+#circle1 {
+  -webkit-animation-name: circle1;
+          animation-name: circle1;
+}
+
+#circle2 {
+  -webkit-animation-name: circle2;
+          animation-name: circle2;
+}
+
+#circle3 {
+  -webkit-animation-name: circle3;
+          animation-name: circle3;
+}
+
+.cc1 {
+  background-color: #9E9DA2;
+}
+
+@keyframes circle1 {
+  0% {
+    top: 2px;
+  }
+  15% {
+    top: -8px;
+  }
+  25% {
+    top: 2px;
+  }
+}
+
+@keyframes circle2 {
+  10% {
+    top: 2px;
+  }
+  25% {
+    top: -8px;
+  }
+  35% {
+    top: 2px;
+  }
+}
+
+@keyframes circle3 {
+  15% {
+    top: 2px;
+  }
+  30% {
+    top: -8px;
+  }
+  40% {
+    top: 2px;
+  }
 }
 
 .n-compass-img {
@@ -17924,6 +18162,15 @@ td img {
   border-radius: 6px;
   opacity: 1;
   margin-top: 1.95vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .nature-8-29-text-div-container {
@@ -18201,6 +18448,259 @@ td img {
   max-height: 430px;
   max-width: 249px;
   width: 18vw;
+}
+
+.coat-image-box_height {
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.coat-image-box_image-box-04 {
+  background: url("../img/gakvetilebi/buneba/coat-10/comix-4.png") no-repeat center;
+  background-size: cover;
+}
+
+.coat-image-box_image-box-05 {
+  background: url("../img/gakvetilebi/buneba/coat-10/comix-5.png") no-repeat center;
+  background-size: cover;
+}
+
+.coat-image-box_image-box-06 {
+  background: url("../img/gakvetilebi/buneba/coat-10/comix-6.png") no-repeat center;
+  background-size: cover;
+}
+
+.coat-image-box_image-box-07 {
+  background: url("../img/gakvetilebi/buneba/coat-10/comix-7.png") no-repeat center;
+  background-size: cover;
+}
+
+.coat-image-box_image-box-08 {
+  background: url("../img/gakvetilebi/buneba/coat-10/comix-8.png") no-repeat center;
+  background-size: cover;
+}
+
+.coat-image-box_image-box-10 {
+  background: url("../img/gakvetilebi/buneba/coat-10/comix-10.png") no-repeat center;
+  background-size: cover;
+}
+
+.coat-image-box_image-box-12 {
+  background: url("../img/gakvetilebi/buneba/coat-10/comix-12.png") no-repeat center;
+  background-size: cover;
+}
+
+.coat-image-box_image-box-14 {
+  background: url("../img/gakvetilebi/buneba/coat-10/comix-14.png") no-repeat center;
+  background-size: cover;
+}
+
+.coat-image-box_image-box-15 {
+  background: url("../img/gakvetilebi/buneba/coat-10/comix-15.png") no-repeat center;
+  background-size: cover;
+}
+
+.coat-image-box_image-box-16 {
+  background: url("../img/gakvetilebi/buneba/coat-10/comix-16.png") no-repeat center;
+  background-size: cover;
+}
+
+.coat-image-box_image-box-17 svg {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.coat-image-box_image-box-18 {
+  background: url("../img/gakvetilebi/buneba/coat-10/comix-18.png") no-repeat center;
+  background-size: cover;
+}
+
+.coat-image-box_image-box-19 {
+  background: url("../img/gakvetilebi/buneba/coat-10/comix-19.png") no-repeat center;
+  background-size: cover;
+}
+
+.coat-image-box_image-box-20 {
+  background: url("../img/gakvetilebi/buneba/coat-10/comix-20.png") no-repeat center;
+  background-size: cover;
+}
+
+.coat-image-box_image-box-21 {
+  background: url("../img/gakvetilebi/buneba/coat-10/comix-21.png") no-repeat center;
+  background-size: cover;
+}
+
+.coat-image-box_image-box-22 {
+  background: url("../img/gakvetilebi/buneba/coat-10/comix-22.png") no-repeat center;
+  background-size: cover;
+}
+
+.coat-image-box_image-box-30 {
+  background: url("../img/gakvetilebi/buneba/coat-10/comix-30.png") no-repeat center;
+  background-size: cover;
+}
+
+.coat-image-box_image-box-31 {
+  background: url("../img/gakvetilebi/buneba/coat-10/comix-31.png") no-repeat center;
+  background-size: cover;
+}
+
+.coat-image-box_image-box-32 {
+  background: url("../img/gakvetilebi/buneba/coat-10/comix-32.png") no-repeat center;
+  background-size: cover;
+}
+
+.coat-image-box_image-box-38 {
+  background: url("../img/gakvetilebi/buneba/coat-10/comix-38.png") no-repeat center;
+  background-size: cover;
+}
+
+.coat-image-box_image-box-39 {
+  background: url("../img/gakvetilebi/buneba/coat-10/comix-39.png") no-repeat center;
+  background-size: cover;
+}
+
+.n-10-comp-img {
+  height: 40.88vh;
+  margin-top: 10vh;
+}
+
+.n-10-27-image {
+  right: 25vw;
+}
+
+.n-10-27-image img {
+  height: 40vh;
+  margin-top: 10vh;
+}
+
+.n-10-28-image {
+  right: 29vw;
+  bottom: 0;
+}
+
+.n-10-28-image svg {
+  height: 40vh;
+}
+
+.n-10-28-objects {
+  height: 40vh;
+}
+
+.n-10-28-objects span {
+  margin-left: 1vw;
+}
+
+.n-10-28-obj-box {
+  background-color: #fff;
+  height: 8vh;
+  width: 8vh;
+  border-radius: 50%;
+  -webkit-box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.16);
+          box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.16);
+  position: relative;
+}
+
+.n-10-28-obj-box img {
+  height: 4vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.n-10-34-images {
+  width: 60vw;
+  height: 35vh;
+  margin-top: 5vh;
+  margin-left: 20vh;
+}
+
+.coat-image-box-40 {
+  height: 34.6vh;
+  max-height: 266px;
+}
+
+.coat-image-box-40 svg {
+  height: 100%;
+  width: 100%;
+}
+
+.coat-thermos-box-40 {
+  height: 27vh;
+  max-height: 210px;
+}
+
+.coat-thermos-box-40 img {
+  height: 100%;
+}
+
+.coat-boxes {
+  margin-top: 5.2vh;
+}
+
+.coat-boxes-title {
+  font-family: 'DejaVuSans', serif;
+  font-size: 2vh;
+  color: #00d5d5;
+  height: 4.4vh;
+  max-height: 34px;
+  width: 13.9vw;
+  max-width: 186px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1px 5px 0 rgba(0, 213, 213, 0.3);
+          box-shadow: 0 1px 5px 0 rgba(0, 213, 213, 0.3);
+}
+
+.coat-boxes_wrapper {
+  margin-top: 2.5vh;
+}
+
+.coat-boxes_content {
+  height: 8.3vh;
+  max-height: 64px;
+  border: 1px solid #00D5D5;
+  border-radius: 6px;
+  padding: 0;
+}
+
+.coat-boxes_content img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.coat-boxes_content-fill {
+  height: 10vh;
+  max-height: 77px;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 1px 7px -2px #454548;
+          box-shadow: 0 1px 7px -2px #454548;
+  padding: 0;
+  overflow: hidden;
+  margin-top: 2.5vh;
+}
+
+.coat-boxes_content-fill .bg-contain {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.coat-boxes_content-fill img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .canvas-container {

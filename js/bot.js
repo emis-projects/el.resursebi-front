@@ -30,30 +30,29 @@ if($('html').attr('data-botid') == '2318'){
 }
 
 
+function messageTextes(w, div) {
+    let text = document.createElement('span');
+    $(text).addClass('chat_msg_item-text');
+    $(text).append(w.text)
+
+    $(div).append(text)
+}
+
 
 // bot message UI
 function sendMessageFromBot(res) {
-    let div = document.createElement('div');
-    $(div).addClass('chat_msg_item chat_msg_item_admin');
-
-    $(div).append(`<div class="chat_avatar"><img src='${botImg}' alt="My image"></div>`);
-
-    let text = document.createElement('span');
+    var div = document.createElement('div');
     let a = document.createElement('a');
 
-    $(text).addClass('chat_msg_item-text');
-    $(text).text('')
-
+    $(div).addClass('chat_msg_item chat_msg_item_admin');
+    $(div).append(`<div class="chat_avatar"><img src='${botImg}' alt="My image"></div>`);
 
     res.forEach(function(w){
-        console.log(w);
-
         var img = document.createElement('img');
-        
+
+        console.log(w);
         if (w.type == 0) {
-            // ტექსტები 
-            $(text).append(" " + w.text);
-            $(div).append(text)
+            messageTextes(w, div)
 
         } else if(w.type == 1){
             // ფოტოების გახსნა
@@ -129,8 +128,8 @@ function sendMessageFromBot(res) {
         } else if (w.type == 6) {
             // ღილაკები 
 
-            $(text).append(" " + w.text);
-            $(div).append(text)
+            messageTextes(w, div)
+
             var btndiv = document.createElement('div');
 
             btndiv.classList.add('chat_msg_item-buttons')
@@ -146,13 +145,15 @@ function sendMessageFromBot(res) {
             $(div).append(btndiv);
         }
 
+        $(getTag).append(div)
         $(getTag).scrollTop($(getTag)[0].scrollHeight)
     })
 
-    $(div).appendTo(getTag)
+    // $(div).appendTo(getTag)
     $(getTag).scrollTop($(getTag)[0].scrollHeight)
 
 }
+
 
 
 function dynamicEvent(url, img) {
@@ -226,8 +227,6 @@ $(document).on("click", ".image-popup-no-margins", function (e) {
 });
 
 
-
-
 function sendMessage(e) {
     e.preventDefault();
 
@@ -253,7 +252,7 @@ function sendMessage(e) {
 
             let res = JSON.parse(result);
 
-            console.log(res);
+            // console.log(res);
 
             sendMessageFromBot(res)
         },
