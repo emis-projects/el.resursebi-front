@@ -3391,6 +3391,8 @@ section .arrow_up_down_downArrow img {
 }
 .main-box_absolute .main-box_relative .owl-carousel .item img {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .main-box_absolute .main-box_relative .text-wrapper {
   position: absolute;
@@ -3705,14 +3707,13 @@ section .arrow_up_down_downArrow img {
 }
 
 .container_main_title_n12-paddings {
-  padding-top: 12vh;
   padding-bottom: 10vh;
 }
 
 .nature_objects {
   color: #0b2228;
   font-size: 2.34vh;
-  font-family: "BPG Arial";
+  font-family: "BPG Arial", serif;
 }
 .nature_objects-link {
   display: flex;
@@ -3721,9 +3722,10 @@ section .arrow_up_down_downArrow img {
 .nature_objects-title {
   text-align: center;
   padding-top: 5.2vh;
+  padding-bottom: 5.2vh;
 }
 .nature_objects-img {
-  height: 43vh;
+  height: 21vh;
 }
 
 .n-dang-toys-text-container {
