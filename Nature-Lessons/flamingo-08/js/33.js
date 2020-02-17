@@ -18,10 +18,10 @@ function natureGames() {
 
     $('#completedGame').click(() => {
         if (Fox[0].parentNode != Nature[1]) {
-            $(Fox[0]).css('border', ' 4px solid red');
+            $(Fox[0]).css('border', ' 2px solid #dc6c85');
         }
         if (Fox[1].parentNode != Nature[0]) {
-            $(Fox[1]).css('border', ' 4px solid red');
+            $(Fox[1]).css('border', ' 2px solid #dc6c85');
         }
 
         if (Fox[0].parentNode == Nature[1] && Fox[1].parentNode == Nature[0]) {
