@@ -19,13 +19,13 @@ function natureGames() {
 
     $('#completedGame').click(() => {
         if (Fox[0].parentNode != Nature[1]) {
-            $(Fox[0]).css('border', ' 4px solid #dc6c85');
+            $(Fox[0]).css('border', ' 2px solid #dc6c85');
         }
         if (Fox[1].parentNode != Nature[0]) {
-            $(Fox[1]).css('border', ' 4px solid #dc6c85');
+            $(Fox[1]).css('border', ' 2px solid #dc6c85');
         }
         if (Fox[2].parentNode != Nature[2]) {
-            $(Fox[2]).css('border', ' 4px solid #dc6c85');
+            $(Fox[2]).css('border', ' 2px solid #dc6c85');
         }
 
         if (Fox[0].parentNode == Nature[1] && Fox[1].parentNode == Nature[0] && Fox[2].parentNode == Nature[2]) {
