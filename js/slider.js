@@ -2,7 +2,7 @@ var owl = $(".owl-carousel");
 owl.owlCarousel({
   loop: true,
   nav: false,
-  margin: 10,
+  margin: 1,
   items: 1,
   touchDrag: true,
   slideTransition: "linear",
