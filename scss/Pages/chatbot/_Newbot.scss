@@ -262,9 +262,10 @@
   margin-left: 60px;
   padding-bottom: 5px;
   color: #666;
+}
+.chat .chat_converse .chat_msg_item.chat_msg_item_admin span {
   box-shadow: 2px 2px 8px #7FD1D866;
   border-radius: 20px 20px 20px 0px;
-
 }
 
 .chat .chat_converse .chat_msg_item.chat_msg_item_admin .chat_msg_item-text {
@@ -677,3 +678,6 @@
     }
   }
 }
+
+
+
