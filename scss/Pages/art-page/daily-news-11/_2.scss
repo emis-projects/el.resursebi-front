@@ -1,0 +1,17 @@
+.right-bottom-bg{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 62vh;
+  width: 39vw;
+  max-width: 532px;
+  max-height: 478px;
+  img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+.pt-20vh {
+  padding-top: 20vh;
+}
