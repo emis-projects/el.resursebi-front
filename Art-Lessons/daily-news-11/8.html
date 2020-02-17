@@ -8,12 +8,12 @@
   <!-- ყველა გვერდზე -->
   <script src="../../js/vue.js"></script>
   <!--  ვუე გაშვებისას
-      <script src="./js/vue.min.js"></script>
-       -->
+    <script src="./js/vue.min.js"></script>
+     -->
   <link rel="stylesheet" type="text/css" href="../../scss/libraries/owl.carousel.min.css" />
   <link rel="stylesheet" type="text/css" href="../../scss/libraries/owl.theme.default.css" />
-  <link rel="stylesheet" href="../../New-header-vue/animate.min.css">
   <link rel="stylesheet" href="../../scss/libraries/bootstrap.min.css">
+  <link rel="stylesheet" href="../../New-header-vue/animate.min.css">
   <link rel="stylesheet" href="../../scss/libraries/magnific-popup.css">
   <link rel="stylesheet" href="../../scss/new-style.css" />
   <title>ელექტრონული საგანმანათლებლო რესურსი</title>
@@ -39,7 +39,7 @@
       </header>
 
       <app-section v-image="'../../'" :is-active="isActive">
-        <app-bar :is-active="isActive" :trigger="trigger" :dots="dots" :current-tab="link"
+        <app-bar :is-active="isActive" :trigger="trigger"  :dots="dots" :current-tab="link"
           v-on:link-tab="link = $event">
 
         </app-bar>
@@ -50,15 +50,15 @@
     </section>
     <section id="mainPage">
       <div class="row">
-        <div class="col-11 m-auto">
+        <div class="col-10 m-auto">
           <div class="newDesign_subject_question_item">
             <p class="newDesign_subject_question_item-title pl-5">ცნობილი მხატვრების ნამუშევრები</p>
           </div>
           <div class="row">
-            <div class="col-6">
-              <div class="portfolio-item-container portfolio-item-container_newDesign ">
-                <img src="../../img/gakvetilebi/xelovneba/daily-news-11/A-11-6-1.jpg" alt="color story"
-                  class="portfolio-item-container_img" />
+            <div class="col-4">
+              <div class="portfolio-item-container portfolio-item-container_newDesign">
+                <img src="../../img/gakvetilebi/xelovneba/daily-news-11/A-11-8-1.png" alt="color story"
+                  class="portfolio-item-container_img portfolio-item-container_img-top" />
                 <div class="paging_buttons">
                   <a href="" id="slide1" class="paging_buttons_fullScreen-link" data-toggle="modal"
                     data-target="#exampleModal"><img src="../../img/icons/arrows_blue.svg" alt="color story"
@@ -66,10 +66,10 @@
                 </div>
               </div>
             </div>
-            <div class="col-6">
-              <div class="portfolio-item-container portfolio-item-container_newDesign ">
-                <img src="../../img/gakvetilebi/xelovneba/daily-news-11/A-11-6-2.jpg" alt="color story"
-                  class="portfolio-item-container_img" />
+            <div class="col-4">
+              <div class="portfolio-item-container portfolio-item-container_newDesign">
+                <img src="../../img/gakvetilebi/xelovneba/daily-news-11/A-11-8-2.png"  alt="color story"
+                  class="portfolio-item-container_img portfolio-item-container_img-top" />
                 <div class="paging_buttons">
                   <a href="" id="slide2" class="paging_buttons_fullScreen-link" data-toggle="modal"
                     data-target="#exampleModal"><img src="../../img/icons/arrows_blue.svg" alt="color story"
@@ -77,6 +77,17 @@
                 </div>
               </div>
             </div>
+            <div class="col-4">
+                <div class="portfolio-item-container portfolio-item-container_newDesign">
+                  <img src="../../img/gakvetilebi/xelovneba/daily-news-11/A-11-8-3.jpg" alt="color story"
+                    class="portfolio-item-container_img portfolio-item-container_img-top" />
+                  <div class="paging_buttons">
+                    <a href="" id="slide3" class="paging_buttons_fullScreen-link" data-toggle="modal"
+                      data-target="#exampleModal"><img src="../../img/icons/arrows_blue.svg" alt="color story"
+                        class="paging_buttons_fullScreen-img" /></a>
+                  </div>
+                </div>
+              </div>
           </div>
         </div>
       </div>
@@ -87,24 +98,31 @@
         <div class="modal-dialog fullScreen_modal-dialog" role="document">
           <div class="modal-content fullScreen_modal-content">
             <div class="container modal-header fullScreen_modal-header">
-              <a href="./13.html" class="close" data-dismiss="modal" aria-label="Close">
+              <a href="./12.html" class="close" data-dismiss="modal" aria-label="Close">
                 <img src="../../img/icons/close.svg" alt="close" />
               </a>
             </div>
             <div class="modal-body fullScreen_modal-body">
               <div class="container-fluid">
-                <div class="owl-carousel owl-theme row no-gutters portfolio-slider portfolio-slider-11-6">
+                <div class="owl-carousel owl-theme row no-gutters portfolio-slider portfolio-slider-11-8">
                   <div class="item col-12 slide_content-box">
                     <div>
-                      <div class="fullScreen_modal-img-lg-hor">
-                        <img src="../../img/gakvetilebi/xelovneba/daily-news-11/A-11-6-1.jpg" alt="color story" />
+                      <div class="fullScreen_modal-img-lg-vert">
+                        <img src="../../img/gakvetilebi/xelovneba/daily-news-11/A-11-8-1.png" alt="color story" />
                       </div>
                     </div>
                   </div>
                   <div class="item col-12 slide_content-box">
                     <div>
-                      <div class="fullScreen_modal-img-lg-hor">
-                        <img src="../../img/gakvetilebi/xelovneba/daily-news-11/A-11-6-2.jpg" alt="color story" />
+                      <div class="fullScreen_modal-img-lg-vert">
+                        <img src="../../img/gakvetilebi/xelovneba/daily-news-11/A-11-8-2.png" alt="color story" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item col-12 slide_content-box">
+                    <div>
+                      <div class="fullScreen_modal-img-lg-vert">
+                        <img src="../../img/gakvetilebi/xelovneba/daily-news-11/A-11-8-3.jpg" alt="color story" />
                       </div>
                     </div>
                   </div>
@@ -505,7 +523,6 @@
   </div>
 
   <script src="../../js/libraries/jquery-3.4.1.min.js"></script>
-  <script src="../../js/libraries/jquery.magnific-popup.min.js"></script>
   <script src="../../js/libraries/owl.carousel.min.js"></script>
   <script src="../../js/libraries/bootstrap.min.js"></script>
   <script src="../../js/Pagination.js"></script>
@@ -535,6 +552,9 @@
     });
     $(document).on("click", "#slide2", function () {
       owl.trigger("to.owl.carousel", 1);
+    });
+    $(document).on("click", "#slide3", function () {
+      owl.trigger("to.owl.carousel", 2);
     });
   </script>
 </body>
