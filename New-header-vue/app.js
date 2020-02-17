@@ -521,8 +521,8 @@ let title = {
         },
         {
             id: 11,
-            name: 'სათაური',
-            link: '#'
+            name: 'ყოველდღიური ამბები',
+            link: 'Art-Lessons/daily-news-11/1.html'
         },
         {
             id: 12,
@@ -572,8 +572,8 @@ let title = {
         },
         {
             id: 9,
-            name: 'სათაური',
-            link: '#'
+            name: 'დედამიწის გარშემო 80 დღეზე სწრაფად',
+            link: 'Nature-Lessons/around-world-09/1.html'
         },
         {
             id: 10,

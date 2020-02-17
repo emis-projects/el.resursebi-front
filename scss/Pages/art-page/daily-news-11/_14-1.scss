@@ -1,0 +1,52 @@
+.img-box_items {
+  &-14 {
+    height: 45vh;
+    max-height: 352px;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &-15 {
+    height: 38vh;
+    max-height: 293px;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &-18 {
+    height: 62vh;
+    max-height: 477px;
+  }
+}
+
+
+/// 19 page
+.bg-wrapper {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  transform: translateY(-50%);
+
+  .right-bg-image {
+    height: 59vh;
+    max-height: 460px;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  .left-bg-image {
+    height: 52vh;
+    max-height: 406px;
+
+    img {
+      height: 100%;
+    }
+  }
+}
