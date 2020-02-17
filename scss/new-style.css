@@ -18850,6 +18850,34 @@ td img {
      object-fit: cover;
 }
 
+.background-11-41 {
+  background-image: url(../img/gakvetilebi/xelovneba/daily-news-11/a-11-41.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-11-42 {
+  background-image: url(../img/gakvetilebi/xelovneba/daily-news-11/a-11-42.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-11-43 {
+  background-image: url(../img/gakvetilebi/xelovneba/daily-news-11/a-11-43.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-11-44 {
+  background-image: url(../img/gakvetilebi/xelovneba/daily-news-11/a-11-44.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .canvas-container {
   width: 100% !important;
 }

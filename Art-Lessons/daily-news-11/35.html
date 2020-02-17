@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- ბოტის აიდიში ვუთითებთ: ხელოვნების - 2318, ბუნების - 2320, მუსიკის - 2292 -->
-<html lang="ka" data-botid="2320">
+<html lang="ka" data-botid="2318">
 
 <head>
     <meta charset="UTF-8" />
@@ -12,7 +12,6 @@
        -->
     <link rel="stylesheet" href="../../New-header-vue/animate.min.css">
     <link rel="stylesheet" href="../../scss/libraries/bootstrap.min.css">
-    <link rel="stylesheet" href="../../scss/libraries/magnific-popup.css">
     <link rel="stylesheet" href="../../scss/new-style.css" />
     <title>ელექტრონული საგანმანათლებლო რესურსი</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -42,7 +41,7 @@
                     v-on:link-tab="link = $event">
 
                 </app-bar>
-                <component :path="path" :is="currentTabComponent" :is-active="isActive" :trigger="trigger"
+                <component :is="currentTabComponent" :is-active="isActive" :path="path" :trigger="trigger"
                     :images="images" :active-class="activeClass" :tab-class="currentTabComponent">
                 </component>
             </app-section>
@@ -452,35 +451,22 @@
                     </g>
                 </svg>
             </div>
-            <div class="row mt-5vh">
-                <div class="col-8 offset-1">
-                    <div class="flamingo-33-image_box">
-                        <img src="../../img/gakvetilebi/buneba/flamingo-08/flamingo-33.png" alt="comp">
+            <div class="row">
+                <div class="col-10 m-auto flex_direction_center">
+                    <div class="newDesign_subject_question_item ">
+                        <p class="newDesign_subject_question_item-title" style="text-align: center;">ახლა დააკვირდი შენი
+                            თანატოლების ნამუშევრებს.</p>
                     </div>
-                </div>
-                <div class="col-6 offset-1">
-                    <div class="flamingo-33-bg-box d-flex w-100 justify-content-between">
-                        <div class="img-box">
-                            <div class="inner-box"></div>
-                            <img src="../../img/gakvetilebi/buneba/flamingo-08/arctic-33.svg" alt="arctic">
-                        </div>
-                        <div class="img-box">
-                            <div class="inner-box"></div>
-                            <img src="../../img/gakvetilebi/buneba/flamingo-08/step-33.svg" alt="stepp">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-2 ml-5" >
-                    <div class="d-flex flex-column justify-content-between animal-image-box">
-                        <img  src="../../img/gakvetilebi/buneba/flamingo-08/grey-fox.svg" alt="fox">
-                        <img src="../../img/gakvetilebi/buneba/flamingo-08/white-fox.svg" alt="fox">
-
+                    <div class="newDesign_subject_question_item mt-5">
+                        <img src="../../img/icons/newDesign_btn-yellow.svg" alt="img"
+                            class="newDesign_subject_question_item-img">
+                        <p class="newDesign_subject_question_item-title" style="text-align: center;">იმსჯელე, რა და რით
+                            იქცევს შენს ყურადღებას?</p>
                     </div>
                 </div>
 
-                <div style="right: 16.5vw" class="flex flex-end column align-items-end z-index reload_game_wrapper">
-                    <button id="resetBtn" class="reset__btn">თავიდან სცადე</button>
-                    <button id="completedGame" class="completed__btn">დასრულება</button>
+                <div class="col-12  art-10-18-image-div-container flex_direction_center mt-5">
+                    <img src="../../img/gakvetilebi/xelovneba/daily-news-11/a-11-35.svg" alt="">
                 </div>
 
                 <div class="our__pagination flex">
@@ -507,10 +493,7 @@
 
 
     <script src="../../js/libraries/jquery-3.4.1.min.js"></script>
-    <script src="../../js/libraries/jquery.magnific-popup.min.js"></script>
     <script src="../../js/Pagination.js"></script>
-
-    <script src="./js/33.js"></script>
 
 
     <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
