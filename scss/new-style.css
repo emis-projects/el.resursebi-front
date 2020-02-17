@@ -18088,6 +18088,28 @@ td img {
   margin-right: 2.6vh;
 }
 
+.nature-8-21-img-div-container-2 {
+  height: 34.24vh;
+  position: absolute;
+  top: 6vh;
+  left: 7.9vw;
+}
+
+.nature-8-21-img-div-container-2 img {
+  height: 100%;
+}
+
+.nature-8-21-img-div-container-1 {
+  height: 46.66vh;
+  position: absolute;
+  bottom: 16vh;
+  right: 24vw;
+}
+
+.nature-8-21-img-div-container-1 img {
+  height: 100%;
+}
+
 .flamingo-33-image_box {
   max-height: 133px;
   height: 17.3vh;
