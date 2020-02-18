@@ -1,0 +1,39 @@
+.around_world-title {
+  font-family: 'DejaVuSans', serif;
+  font-size: 1.6vh;
+  color: #00d5d5;
+  padding: 10px 15px;
+  border-radius: 5px;
+  box-shadow: 0 1px 5px 0 rgba(0, 213, 213, 0.3);
+  text-align: center;
+}
+
+.N-37-box {
+  height: 10vh;
+  max-height: 77px;
+  width: 7.6vw;
+  max-width: 105px;
+  box-shadow: 2px 2px 8px #00000029;
+  border: 1px solid #00D5D5;
+  border-radius: 6px;
+  padding: 0;
+  overflow: hidden;
+  margin-top: 2.5vh;
+}
+
+
+.N-37-box-wrapper {
+  width: 7.6vw;
+  max-width: 105px;
+  div {
+    width: 100%;
+    height: 10vh;
+    max-height: 77px;
+    img{
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+}
+
