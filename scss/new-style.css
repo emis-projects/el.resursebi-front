@@ -19039,6 +19039,82 @@ td img {
   padding-top: 20vh;
 }
 
+.n-9-map-29 {
+  height: 59.24vh;
+  margin-top: 5vh;
+}
+
+.n-9-map-26 {
+  height: 57.44vh;
+}
+
+.n-9-map-34 {
+  height: 58.98vh;
+  margin-top: 3vh;
+}
+
+.n-9-map-location-31 {
+  height: 24.21vh;
+  margin: 10vh auto 0;
+}
+
+.N-9-24-comp-img {
+  height: 15.88vh;
+  margin-bottom: 4vh;
+}
+
+.N-9-24-map {
+  height: 39.67vh;
+  width: 100%;
+}
+
+.N-9-24-flag {
+  height: 6.54vh;
+  width: 100%;
+  margin-left: -2vh;
+  margin-top: 0.5vh;
+}
+
+.select_dot {
+  margin-left: -1vh;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #c5cbcd;
+  background-color: transparent;
+  display: inline-block;
+  border-radius: 50%;
+  position: relative;
+}
+
+.select_dot-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.select_dot.active::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 8px;
+  height: 8px;
+  background: #7fd1d8;
+  border-radius: 100%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.n-circle-game-blue-text {
+  color: #44BBBD !important;
+  font-weight: bold;
+}
+
 .canvas-container {
   width: 100% !important;
 }

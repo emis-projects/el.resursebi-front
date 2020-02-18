@@ -1,0 +1,45 @@
+.N-9-24 {
+  &-comp-img {
+    height: 15.88vh;
+    margin-bottom: 4vh;
+  }
+  &-map {
+    height: 39.67vh;
+    width: 100%;
+  }
+  &-flag {
+    // height: 8.84vh;
+    height: 6.54vh;
+    width: 100%;
+    margin-left: -2vh;
+    margin-top: 0.5vh;
+  }
+}
+
+.select_dot {
+  &-container {
+    display: flex;
+    align-items: center;
+    cursor: pointer; 
+  }
+  margin-left: -1vh;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #c5cbcd;
+  background-color: transparent;
+  display: inline-block;
+  border-radius: 50%;
+  position: relative;
+  &.active::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 8px;
+    height: 8px;
+    background: #7fd1d8;
+    border-radius: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
