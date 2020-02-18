@@ -38,7 +38,6 @@ function messageTextes(w, div) {
     $(div).append(text)
 }
 
-
 // bot message UI
 function sendMessageFromBot(res) {
     var div = document.createElement('div');
@@ -49,6 +48,7 @@ function sendMessageFromBot(res) {
 
     res.forEach(function(w){
         var img = document.createElement('img');
+
 
         console.log(w);
         if (w.type == 0) {
@@ -145,16 +145,15 @@ function sendMessageFromBot(res) {
             $(div).append(btndiv);
         }
 
+
         $(getTag).append(div)
-        $(getTag).scrollTop($(getTag)[0].scrollHeight)
+        // $(getTag).scrollTop($(getTag)[0].scrollHeight)
     })
 
     // $(div).appendTo(getTag)
     $(getTag).scrollTop($(getTag)[0].scrollHeight)
 
 }
-
-
 
 function dynamicEvent(url, img) {
     img.setAttribute('data-voice', url)
@@ -178,11 +177,12 @@ function sendMessageFromUser(text) {
 
 
 $(document).on("click", ".chat_msg_item-buttons button", function (e) {
+    $(getTag).scrollTop($(getTag)[0].scrollHeight)
+
     var btnText = e.target.innerText;
 
     messangerTyping()
-
-    $(getTag).scrollTop($(getTag)[0].scrollHeight)
+    
 
     $.ajax({
         type: "POST",
@@ -227,16 +227,16 @@ $(document).on("click", ".image-popup-no-margins", function (e) {
 });
 
 
-function sendMessage(e) {
+async function sendMessage(e) {
     e.preventDefault();
 
     let msgText = msgInput.val();
 
     sendMessageFromUser(msgText);
+    
+    await messangerTyping()
 
-
-    messangerTyping()
-
+    $(getTag).scrollTop($(getTag)[0].scrollHeight)
     
     $.ajax({
         type: "POST",
@@ -245,7 +245,6 @@ function sendMessage(e) {
             "message": msgText,
             "botid": $('html').attr('data-botid')
         }),
-
 
         success: function (result) {
             $('#typing__animation').remove()
