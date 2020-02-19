@@ -16571,6 +16571,60 @@ td img {
   background-size: cover;
 }
 
+.VR_right-bottom-bg {
+  position: absolute;
+  right: 0;
+  transform: translateX(-60%);
+  height: 59.6vh;
+  max-height: 458px;
+}
+
+.pt-10vh {
+  padding-top: 10vh;
+}
+
+.VR_right-bottom-bg-12 {
+  position: absolute;
+  right: 0;
+  transform: translateX(-30%);
+  height: 50.6vh;
+  max-height: 390px;
+  bottom: 0;
+}
+
+.pt-10vh {
+  padding-top: 10vh;
+}
+
+.VR_left-bottom-bg {
+  position: absolute;
+  left: 5vh;
+  bottom: 0;
+  transform: translateY(70%);
+  height: 32.6vh;
+  max-height: 253px;
+}
+
+.VR_image-box-10 {
+  height: 35vh;
+  max-height: 271px;
+}
+.VR_image-box-10 img {
+  height: 100%;
+}
+
+.pt-15vh {
+  padding-top: 15vh;
+}
+
+.VR_image-box-11 {
+  height: 42vh;
+  max-height: 329px;
+}
+.VR_image-box-11 img {
+  height: 100%;
+}
+
 .canvas-container {
   width: 100% !important;
 }

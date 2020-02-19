@@ -526,8 +526,8 @@ let title = {
         },
         {
             id: 12,
-            name: 'სათაური',
-            link: '#'
+            name: 'ვირტუალური გამოფენა',
+            link: 'Art-Lessons/VR_exhibition/1.html'
         }
     ],
     nature: [{
