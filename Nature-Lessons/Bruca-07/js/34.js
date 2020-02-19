@@ -112,7 +112,7 @@ function natureGames(){
     }
 
     this.successPage = () => {
-        location.href = 'game-success-36.html';
+        location.href = 'game-success-34.html';
     }
     resetBtn.addEventListener('click', () => this.init());
     completedBtn.addEventListener('click', () => this.completGame());
