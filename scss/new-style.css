@@ -17326,6 +17326,8 @@ td img {
 
 .nature-07-game-images {
   margin-right: 2.709vw;
+  height: 56px;
+  border-radius: 4px;
 }
 
 .nature-07-ujredi-game .ujredi__drop {
@@ -18616,6 +18618,24 @@ td img {
   max-height: 430px;
   max-width: 249px;
   width: 18vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.items_drop-boxes .drop-boxes img {
+  width: 60%;
+  margin-top: 10px;
 }
 
 .coat-image-box_height {
@@ -19405,6 +19425,84 @@ td img {
       -ms-flex-pack: end;
           justify-content: flex-end;
   margin-top: -6vh;
+}
+
+.sport_image_height {
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.sport_image-box-04 {
+  background: url("../img/gakvetilebi/buneba/sport-11/N-11-4.png") no-repeat center;
+  background-size: cover;
+}
+
+.sport_image-box-05 {
+  background: url("../img/gakvetilebi/buneba/sport-11/N-11-5.png") no-repeat center;
+  background-size: cover;
+}
+
+.sport_image-box-07 {
+  background: url("../img/gakvetilebi/buneba/sport-11/N-11-7.png") no-repeat center;
+  background-size: cover;
+}
+
+.sport_image-box-08 {
+  background: url("../img/gakvetilebi/buneba/sport-11/N-11-8.png") no-repeat center;
+  background-size: cover;
+}
+
+.sport_image-box-10 {
+  background: url("../img/gakvetilebi/buneba/sport-11/N-11-10.png") no-repeat center;
+  background-size: cover;
+}
+
+.sport_image-box-12 svg {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.sport_image-box-15 {
+  background: url("../img/gakvetilebi/buneba/sport-11/N-11-15.png") no-repeat center;
+  background-size: cover;
+}
+
+.sport_image-box-22 {
+  background: url("../img/gakvetilebi/buneba/sport-11/N-11-22.png") no-repeat center;
+  background-size: cover;
+}
+
+.sport_image-box-23 svg {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.sport_image-box-24 {
+  background: url("../img/gakvetilebi/buneba/sport-11/N-11-24.png") no-repeat center;
+  background-size: cover;
+}
+
+.sport_image-box-25 {
+  background: url("../img/gakvetilebi/buneba/sport-11/N-11-25.png") no-repeat center;
+  background-size: cover;
+}
+
+.sport_image-box-26 {
+  background: url("../img/gakvetilebi/buneba/sport-11/N-11-26.png") no-repeat center;
+  background-size: cover;
+}
+
+.sport_image-box-29 {
+  background: url("../img/gakvetilebi/buneba/sport-11/N-11-29.png") no-repeat center;
+  background-size: cover;
 }
 
 .canvas-container {
