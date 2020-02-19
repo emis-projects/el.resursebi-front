@@ -1,0 +1,13 @@
+.n-11-img{
+    &-comp-32{
+        height: 42.18vh;
+    }
+    &-sport-32{
+        height: 35.20vh;
+        &-cont{
+            display: flex;
+            justify-content: flex-end;
+            margin-top: -6vh;
+        }
+    }
+}
