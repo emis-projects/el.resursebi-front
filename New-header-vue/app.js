@@ -469,7 +469,8 @@ let title = {
         {id: 11, name: '', link: '#'},
         {id: 12, name: '', link: '#'}*/
     ],
-    art: [{
+    art: [
+        {
             id: 1,
             name: 'ფერებით მოთხრობილი ამბავი',
             link: 'Art-Lessons/color_story/1366-236.html'
@@ -530,7 +531,8 @@ let title = {
             link: 'Art-Lessons/VR_exhibition/1.html'
         }
     ],
-    nature: [{
+    nature: [
+        {
             id: 1,
             name: 'საშიში სათამაშოები',
             link: 'Nature-Lessons/My_world/N-1366-13.html'
@@ -582,8 +584,8 @@ let title = {
         },
         {
             id: 11,
-            name: 'სათაური',
-            link: '#'
+            name: 'როგორ ვაჯობოთ ბიჭებს „შერკინებაში?”',
+            link: 'Nature-Lessons/sport/1.html'
         },
         {
             id: 12,
@@ -591,7 +593,8 @@ let title = {
             link: '#'
         }
     ],
-    IT: [{
+    IT: [
+        {
             id: 1,
             name: 'კომპიუტერი და მისი შემადგენელი ნაწილები',
             link: './Computer-Science/Computer_parts/C-1366-01-01.html'

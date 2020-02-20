@@ -1,4 +1,4 @@
-.items-image-box-1 {
+.art-11-1 {
   height: 100%;
   width: 100%;
   position: absolute;
@@ -8,8 +8,7 @@
   right: 0;
   img{
     height: 100%;
+    width: 100%;
+    object-fit: cover;
   }
-}
-.carousel_text {
-  z-index: 99999  ;
 }

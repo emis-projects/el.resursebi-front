@@ -15604,9 +15604,7 @@ td img {
   margin-top: 10vh;
 }
 
-.bg-items-10 {
-  background: url("../img/gakvetilebi/xelovneba/items-10/items-slider.jpg") no-repeat center;
-  background-size: cover;
+.items-image-box-1 {
   height: 100%;
   width: 100%;
   position: absolute;
@@ -15614,6 +15612,9 @@ td img {
   bottom: 0;
   left: 0;
   right: 0;
+}
+.items-image-box-1 img {
+  height: 100%;
 }
 
 .carousel_text {
@@ -16056,6 +16057,21 @@ td img {
 
 .cell_hint-img-30-1 {
   height: 52.38vh;
+}
+
+.art-11-1 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.art-11-1 img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 .right-bottom-bg {
@@ -16569,6 +16585,14 @@ td img {
 .sport_image-box-29 {
   background: url("../img/gakvetilebi/buneba/sport/N-11-29.png") no-repeat center;
   background-size: cover;
+}
+
+.VR-image-box-1 {
+  height: 70vh;
+  max-height: 542px;
+}
+.VR-image-box-1 img {
+  height: 100%;
 }
 
 .VR_right-bottom-bg {
