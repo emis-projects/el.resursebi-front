@@ -19661,7 +19661,8 @@ td img {
 .VR_right-bottom-bg {
   position: absolute;
   right: 0;
-  transform: translateX(-60%);
+  -webkit-transform: translateX(-60%);
+          transform: translateX(-60%);
   height: 59.6vh;
   max-height: 458px;
 }
@@ -19673,7 +19674,8 @@ td img {
 .VR_right-bottom-bg-12 {
   position: absolute;
   right: 0;
-  transform: translateX(-30%);
+  -webkit-transform: translateX(-30%);
+          transform: translateX(-30%);
   height: 50.6vh;
   max-height: 390px;
   bottom: 0;
@@ -19687,7 +19689,8 @@ td img {
   position: absolute;
   left: 5vh;
   bottom: 0;
-  transform: translateY(70%);
+  -webkit-transform: translateY(70%);
+          transform: translateY(70%);
   height: 32.6vh;
   max-height: 253px;
 }
@@ -19696,6 +19699,7 @@ td img {
   height: 35vh;
   max-height: 271px;
 }
+
 .VR_image-box-10 img {
   height: 100%;
 }
@@ -19708,8 +19712,63 @@ td img {
   height: 42vh;
   max-height: 329px;
 }
+
 .VR_image-box-11 img {
   height: 100%;
+}
+
+.a-12-20-img {
+  position: absolute;
+  bottom: -65px;
+  right: 188px;
+  height: 18vh;
+  max-height: 338px;
+}
+
+.mr-20vw {
+  margin-right: 20vw !important;
+}
+
+.background-12-32 {
+  background-image: url(../img/gakvetilebi/xelovneba/VR_exhibition/A-12-32.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-12-33 {
+  background-image: url(../img/gakvetilebi/xelovneba/VR_exhibition/A-12-33.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-12-34 {
+  background-image: url(../img/gakvetilebi/xelovneba/VR_exhibition/A-12-34.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-12-35 {
+  background-image: url(../img/gakvetilebi/xelovneba/VR_exhibition/A-12-35.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-12-36 {
+  background-image: url(../img/gakvetilebi/xelovneba/VR_exhibition/A-12-36.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-12-37 {
+  background-image: url(../img/gakvetilebi/xelovneba/VR_exhibition/A-12-37.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .canvas-container {
