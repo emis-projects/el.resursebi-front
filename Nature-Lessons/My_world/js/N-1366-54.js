@@ -14,7 +14,6 @@ function natureGames(){
     // variables
     var draggedElement = $('.ask_question_game_box');
     var empties = document.querySelectorAll('.dropDiv');
-    var draggebleH5 = document.querySelector('.draggeble_h5');
     var completedBtn = document.querySelector('#completedGame');
     var resetBtn = document.getElementById('resetBtn');
 
@@ -170,9 +169,16 @@ function natureGames(){
 
             } else if(loc == "/el.resursebi-front/Nature-Lessons/flamingo-08/22.html" || loc == "/Nature-Lessons/flamingo-08/22.html"){
                 location.href = "game-success-22.html"
-            }
-            
 
+            } else if(loc == "/el.resursebi-front/Nature-Lessons/around-world-09/20.html" || loc == "/Nature-Lessons/around-world-09/20.html"){
+                location.href = "game-success-20.html"
+
+            } else if(loc == "/el.resursebi-front/Nature-Lessons/coat-10/25.html" || loc == "/Nature-Lessons/coat-10/25.html"){
+                location.href = "game-success-25.html"
+
+            } else if(loc == "/el.resursebi-front/Nature-Lessons/sport/18.html" || loc == "/Nature-Lessons/sport/18.html"){
+                location.href = "game-success-18.html"
+            }
         }
 	}
     
