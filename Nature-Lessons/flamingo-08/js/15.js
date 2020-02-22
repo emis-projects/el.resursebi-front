@@ -93,7 +93,8 @@ function natureGames() {
         
         for(var i=0;i<myArray2.length;i++){
             myArray2[i].setAttribute('data-isEmpty', 1)
-            $(myArray2[i]).removeClass("errorImge");
+            myArray2[i].style = null;
+            console.log(myArray2[i].style = null)
             if(i%2 == 0){
                 myArray2[i].src = "../../img/gakvetilebi/buneba/flamingo-08/nature-8-15-game-grey.svg";
             }
@@ -106,22 +107,32 @@ function natureGames() {
 
     }
     this.completGame = (e) => {
+        
         var count = 0;
 
         for (var i = 0; i < myArray2.length; i++) {
             for (var j = 0; j < myArray2.length; j++) {
+                
                 if (myArray2[i].getAttribute('data-twin') == myArray2[j].getAttribute('data-twin') && myArray2[j].src != myArray2[i].src
                     && myArray2[i].getAttribute('data-twin') != null && myArray2[j].getAttribute('data-twin') != null
                     && myArray2[i].parentElement.getAttribute('data-parent') == myArray2[j].parentElement.getAttribute('data-parent')) {
                     count++;
                 }
-                else {
-                    if (myArray2[i].getAttribute('data-twin') != myArray2[j].getAttribute('data-twin') && myArray2[j].src != myArray2[i].src
-                        && myArray2[i].getAttribute('data-twin') != null && myArray2[j].getAttribute('data-twin') != null
-                        && myArray2[i].parentElement.getAttribute('data-parent') == myArray2[j].parentElement.getAttribute('data-parent')) {
-                        myArray2[i].classList.add("errorImge");
-                        myArray2[j].classList.add("errorImge");
-                    }
+                if (myArray2[i].getAttribute('data-twin') != myArray2[j].getAttribute('data-twin') && myArray2[j].src != myArray2[i].src
+                    && myArray2[i].getAttribute('data-twin') != null && myArray2[j].getAttribute('data-twin') != null
+                    && myArray2[i].parentElement.getAttribute('data-parent') == myArray2[j].parentElement.getAttribute('data-parent')
+                    && myArray2[i].getAttribute('data-isEmpty') == 0 && myArray2[j].getAttribute('data-isEmpty') == 0) {
+                    myArray2[i].style="outline: 3px solid red;outline-offset: -3px; z-index: -1;"
+                    myArray2[j].style="outline: 3px solid red;outline-offset: -3px; z-index: -1;"
+                }
+                if(myArray2[i].getAttribute('data-same') == myArray2[j].getAttribute('data-same') 
+                    && myArray2[j].src != myArray2[i].src){
+                        if(myArray2[i].getAttribute('data-isEmpty') == 0 && myArray2[j].getAttribute('data-isEmpty') == 1){
+                            myArray2[i].style="outline: 3px solid red;outline-offset: -3px; z-index: -1;"
+                        }
+                        if(myArray2[j].getAttribute('data-isEmpty') == 0 && myArray2[i].getAttribute('data-isEmpty') == 1){
+                            myArray2[j].style="outline: 3px solid red;outline-offset: -3px; z-index: -1;"
+                        }
                 }
             }
         }
