@@ -19050,6 +19050,10 @@ td img {
      object-fit: cover;
 }
 
+.n_cell_hint-img-10 {
+  height: 49.86vh;
+}
+
 .background-11-41 {
   background-image: url(../img/gakvetilebi/xelovneba/daily-news-11/a-11-41.svg);
   background-position: top center;
@@ -19637,6 +19641,10 @@ td img {
   background-size: cover;
 }
 
+.sport_image-box-11 {
+  background: url("../img/gakvetilebi/buneba/sport/N-11-11.png") no-repeat center;
+  background-size: cover;
+}
 .sport_image-box-12 svg {
   height: 100%;
   width: 100%;
@@ -19819,3 +19827,4 @@ td img {
   display: -ms-flexbox;
   display: flex;
 }
+/*# sourceMappingURL=new-style.css.map */
