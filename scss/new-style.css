@@ -19641,6 +19641,10 @@ td img {
   background-size: cover;
 }
 
+.sport_image-box-11 {
+  background: url("../img/gakvetilebi/buneba/sport/N-11-11.png") no-repeat center;
+  background-size: cover;
+}
 .sport_image-box-12 svg {
   height: 100%;
   width: 100%;
