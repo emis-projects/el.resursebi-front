@@ -4071,7 +4071,7 @@ section .arrow_up_down_downArrow img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: 1.5vh;
+  margin-bottom: 2.2vh;
 }
 
 .newDesign_subject_question_item-img {
@@ -19050,6 +19050,10 @@ td img {
      object-fit: cover;
 }
 
+.n_cell_hint-img-10 {
+  height: 49.86vh;
+}
+
 .background-11-41 {
   background-image: url(../img/gakvetilebi/xelovneba/daily-news-11/a-11-41.svg);
   background-position: top center;
@@ -19498,6 +19502,7 @@ td img {
   -webkit-box-shadow: 0 1px 5px 0 rgba(0, 213, 213, 0.3);
           box-shadow: 0 1px 5px 0 rgba(0, 213, 213, 0.3);
   text-align: center;
+  cursor: pointer;
 }
 
 .around_world-title.active {
@@ -19543,6 +19548,24 @@ td img {
   border-radius: 6px;
   height: 100%;
   max-height: 68px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.N-09-time-box span {
+  color: #00d5d5;
+  font-size: 14px;
 }
 
 .speed_text {
@@ -19559,6 +19582,12 @@ td img {
   width: 100%;
   height: 10vh;
   max-height: 77px;
+  cursor: pointer;
+}
+
+.N-32-box-wrapper div.active {
+  outline: 3px solid #06d5d6;
+  outline-offset: -2px;
 }
 
 .N-32-box-wrapper div img {
@@ -19639,6 +19668,11 @@ td img {
 
 .sport_image-box-10 {
   background: url("../img/gakvetilebi/buneba/sport/N-11-10.png") no-repeat center;
+  background-size: cover;
+}
+
+.sport_image-box-11 {
+  background: url("../img/gakvetilebi/buneba/sport/N-11-11.png") no-repeat center;
   background-size: cover;
 }
 
@@ -19806,6 +19840,199 @@ td img {
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.snow-34 .top-text {
+  font-family: 'DejaVuSans', serif;
+  font-size: 1.8vh;
+}
+
+.snow-34 .box-text {
+  font-family: 'DejaVuSans', serif;
+  font-size: 1.8vh;
+  padding: 10px 10px;
+}
+
+.snow-34 .box-height {
+  -webkit-box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.16);
+          box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.16);
+  height: 13vh;
+  max-height: 100px;
+}
+
+.snow-40 .img-box {
+  height: 56vh;
+  max-height: 435px;
+}
+
+.snow-40 .img-box img {
+  height: 100%;
+}
+
+.snow-40 p {
+  font-family: 'DejaVuSans', serif;
+  font-size: 2.6vh;
+}
+
+.snow_image_height {
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.snow_image-box-04 {
+  background: url("../img/gakvetilebi/buneba/snow-12/N-12-4.png") no-repeat center;
+  background-size: cover;
+}
+
+.snow_image-box-05 {
+  background: url("../img/gakvetilebi/buneba/snow-12/N-12-5.png") no-repeat center;
+  background-size: cover;
+}
+
+.snow_image-box-06 {
+  background: url("../img/gakvetilebi/buneba/snow-12/N-12-6.png") no-repeat center;
+  background-size: cover;
+}
+
+.snow_image-box-07 {
+  background: url("../img/gakvetilebi/buneba/snow-12/N-12-7.png") no-repeat center;
+  background-size: cover;
+}
+
+.snow_image-box-08 {
+  background: url("../img/gakvetilebi/buneba/snow-12/N-12-8.png") no-repeat center;
+  background-size: cover;
+}
+
+.snow_image-box-09 {
+  background: url("../img/gakvetilebi/buneba/snow-12/N-12-9.png") no-repeat center;
+  background-size: cover;
+}
+
+.snow_image-box-10 {
+  background: url("../img/gakvetilebi/buneba/snow-12/N-12-10.png") no-repeat center;
+  background-size: cover;
+}
+
+.snow_image-box-12 {
+  background: url("../img/gakvetilebi/buneba/snow-12/N-12-12.png") no-repeat center;
+  background-size: cover;
+}
+
+.snow_image-box-13 {
+  background: url("../img/gakvetilebi/buneba/snow-12/N-12-13.png") no-repeat center;
+  background-size: cover;
+}
+
+.snow_image-box-14 {
+  background: url("../img/gakvetilebi/buneba/snow-12/N-12-14.png") no-repeat center;
+  background-size: cover;
+}
+
+.snow_image-box-17 {
+  background: url("../img/gakvetilebi/buneba/snow-12/N-12-17.png") no-repeat center;
+  background-size: cover;
+}
+
+.snow_image-box-18 svg {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.snow_image-box-19 {
+  background: url("../img/gakvetilebi/buneba/snow-12/N-12-19.png") no-repeat center;
+  background-size: cover;
+}
+
+.snow_image-box-20 svg {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.snow_image-box-21 {
+  background: url("../img/gakvetilebi/buneba/snow-12/N-12-21.png") no-repeat center;
+  background-size: cover;
+}
+
+.snow_image-box-22 {
+  background: url("../img/gakvetilebi/buneba/snow-12/N-12-22.png") no-repeat center;
+  background-size: cover;
+}
+
+.snow_image-box-24 {
+  background: url("../img/gakvetilebi/buneba/snow-12/N-12-24.png") no-repeat center;
+  background-size: cover;
+}
+
+.snow_image-box-25 {
+  background: url("../img/gakvetilebi/buneba/snow-12/N-12-25.png") no-repeat center;
+  background-size: cover;
+}
+
+.snow_image-box-31 {
+  background: url("../img/gakvetilebi/buneba/snow-12/N-12-31.png") no-repeat center;
+  background-size: cover;
+}
+
+.snow_image-box-31 {
+  background: url("../img/gakvetilebi/buneba/snow-12/N-12-31.png") no-repeat center;
+  background-size: cover;
+}
+
+.snow_image-box-32 {
+  background: url("../img/gakvetilebi/buneba/snow-12/N-12-32.png") no-repeat center;
+  background-size: cover;
+}
+
+.snow_image-box-33 {
+  background: url("../img/gakvetilebi/buneba/snow-12/N-12-33.png") no-repeat center;
+  background-size: cover;
+}
+
+.snow_image-box-35 {
+  background: url("../img/gakvetilebi/buneba/snow-12/N-12-35.png") no-repeat center;
+  background-size: cover;
+}
+
+.snow_image-box-36 {
+  background: url("../img/gakvetilebi/buneba/snow-12/N-12-36.png") no-repeat center;
+  background-size: cover;
+}
+
+.snow_image-box-37 {
+  background: url("../img/gakvetilebi/buneba/snow-12/N-12-37.png") no-repeat center;
+  background-size: cover;
+}
+
+.snow_image-box-39 {
+  background: url("../img/gakvetilebi/buneba/snow-12/N-12-39.png") no-repeat center;
+  background-size: cover;
+}
+
+.snow_image-box-46 {
+  background: url("../img/gakvetilebi/buneba/snow-12/N-12-46.png") no-repeat center;
+  background-size: cover;
+}
+
+.snow_image-box-47 {
+  background: url("../img/gakvetilebi/buneba/snow-12/N-12-47.png") no-repeat center;
+  background-size: cover;
+}
+
+.n-12-51-img {
+  height: 37.89vh;
+}
+
+.n-12-23-img {
+  height: 40vh;
 }
 
 .canvas-container {
