@@ -4071,7 +4071,7 @@ section .arrow_up_down_downArrow img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: 1.5vh;
+  margin-bottom: 2.2vh;
 }
 
 .newDesign_subject_question_item-img {
@@ -19645,6 +19645,7 @@ td img {
   background: url("../img/gakvetilebi/buneba/sport/N-11-11.png") no-repeat center;
   background-size: cover;
 }
+
 .sport_image-box-12 svg {
   height: 100%;
   width: 100%;
@@ -19809,6 +19810,10 @@ td img {
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.n-12-51-img {
+  height: 37.89vh;
 }
 
 .canvas-container {
