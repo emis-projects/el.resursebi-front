@@ -19500,6 +19500,11 @@ td img {
   text-align: center;
 }
 
+.around_world-title.active {
+  color: #fff;
+  background-color: #00d5d5;
+}
+
 .N-37-box {
   height: 10vh;
   max-height: 77px;

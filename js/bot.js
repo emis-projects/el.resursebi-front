@@ -234,13 +234,13 @@ async function sendMessage(e) {
 
     sendMessageFromUser(msgText);
     
-    await messangerTyping()
+    messangerTyping()
 
     $(getTag).scrollTop($(getTag)[0].scrollHeight)
     
     $.ajax({
         type: "POST",
-        url: 'https://e4082a31.ngrok.io/WCAPI',
+        url: 'https://693d8048.ngrok.io/WCAPI',
         data: JSON.stringify({
             "message": msgText,
             "botid": $('html').attr('data-botid')
