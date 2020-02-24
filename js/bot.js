@@ -186,7 +186,7 @@ $(document).on("click", ".chat_msg_item-buttons button", function (e) {
 
     $.ajax({
         type: "POST",
-        url: 'https://e4082a31.ngrok.io/WCAPI',
+        url: 'https://5084eced.ngrok.io/WCAPI',
         data: JSON.stringify({
             "message": btnText,
             "botid": $('html').attr('data-botid')
@@ -240,7 +240,7 @@ async function sendMessage(e) {
     
     $.ajax({
         type: "POST",
-        url: 'https://693d8048.ngrok.io/WCAPI',
+        url: 'https://5084eced.ngrok.io/WCAPI',
         data: JSON.stringify({
             "message": msgText,
             "botid": $('html').attr('data-botid')
