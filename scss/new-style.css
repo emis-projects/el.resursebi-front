@@ -19050,6 +19050,10 @@ td img {
      object-fit: cover;
 }
 
+.n_cell_hint-img-10 {
+  height: 49.86vh;
+}
+
 .background-11-41 {
   background-image: url(../img/gakvetilebi/xelovneba/daily-news-11/a-11-41.svg);
   background-position: top center;
@@ -19819,3 +19823,4 @@ td img {
   display: -ms-flexbox;
   display: flex;
 }
+/*# sourceMappingURL=new-style.css.map */
