@@ -20035,6 +20035,59 @@ td img {
   height: 40vh;
 }
 
+.n-12-11-question-img {
+  height: 19.42vh;
+  margin: 5vh auto;
+}
+
+.n-12-11-answer-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.n-12-11-answer-img {
+  height: 21.22vh;
+}
+
+.n-12-11-answer-btn {
+  width: 8vh;
+  height: 5vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 5px;
+  -webkit-box-shadow: 2px 2px 8px rgba(197, 203, 205, 0.6);
+          box-shadow: 2px 2px 8px rgba(197, 203, 205, 0.6);
+  background-color: white;
+  color: #262626;
+  font-size: 2.3vh;
+  font-family: "DejaVuSans";
+  cursor: pointer;
+}
+
+.n-12-11-answer-btn.correct {
+  background-color: #a1dd6f;
+  color: white;
+}
+
+.n-12-11-answer-btn.error {
+  background-color: #d63e23;
+  color: white;
+}
+
 .canvas-container {
   width: 100% !important;
 }
@@ -20051,3 +20104,4 @@ td img {
   display: -ms-flexbox;
   display: flex;
 }
+/*# sourceMappingURL=new-style.css.map */
