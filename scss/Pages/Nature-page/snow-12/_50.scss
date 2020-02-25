@@ -1,0 +1,37 @@
+.snow-50 {
+  .active {
+    background: #22B573 !important;
+  }
+  .img-box {
+
+  }
+  .btn-box {
+    margin-top: 8.3vh;
+    font-family: 'FiraGO Book', serif;
+    font-weight: normal;
+    font-style: normal;
+    .btn{
+      outline: none;
+      background: #F15A24;
+      border-radius: 12px;
+      color: #FFFFFF;
+      width: 100%;
+      padding: .8rem 0;
+      border: none;
+      box-shadow: none;
+      font-size: 2vh;
+      :active {
+        background: #22B573 !important;
+      }
+    }
+  }
+}
+
+
+@media only screen and (max-width: 992px){
+  .snow-50 {
+    .btn-box .btn{
+      font-size: 1vh;
+    }
+  }
+}
