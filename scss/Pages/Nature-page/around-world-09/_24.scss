@@ -30,6 +30,7 @@
   display: inline-block;
   border-radius: 50%;
   position: relative;
+
   &.active::after {
     content: "";
     position: absolute;
@@ -37,6 +38,31 @@
     width: 8px;
     height: 8px;
     background: #7fd1d8;
+    border-radius: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  &.error::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 8px;
+    height: 8px;
+    background: rgb(220, 108, 133);
+    border-radius: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &.success::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 8px;
+    height: 8px;
+    background: #a2dd6f;
     border-radius: 100%;
     top: 50%;
     left: 50%;
