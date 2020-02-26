@@ -1,0 +1,17 @@
+.n-11-20-game {
+    background-color: #C59A5B;
+    padding: 8px 0;
+    padding-left: 4.173vw;
+    padding-right: 4.173vw;
+
+    &-child {
+        background-color: #E7E8E9;
+        border-radius: 15px;
+        width: 14.641vw;
+        height: 18.099vh;
+
+        img {
+            cursor: pointer;
+        }
+    }
+}
