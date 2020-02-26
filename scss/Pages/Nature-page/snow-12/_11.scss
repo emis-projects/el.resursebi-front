@@ -1,0 +1,36 @@
+.n-12-11 {
+  &-question-img {
+    height: 19.42vh;
+    margin: 5vh auto;
+  }
+  &-answer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-answer-img {
+    height: 21.22vh;
+  }
+  &-answer-btn {
+    width: 8vh;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px rgba(197, 203, 205, 0.6);
+    background-color: white;
+    color: #262626;
+    font-size: 2.3vh;
+    font-family: "DejaVuSans";
+    cursor: pointer;
+    &.correct{
+        background-color: #a1dd6f;
+        color: white;
+    }
+    &.error{
+        background-color: #d63e23;
+        color: white;
+    }
+  }
+}
