@@ -1,0 +1,15 @@
+.c-02-15-item_box{
+  width: 100%;
+  height: 10vh;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  border-radius: 60px;
+  margin-top: 3.9vh;
+  &-img {
+    margin-left: 2vh;
+    height: 55%;
+  }
+  &-text {
+    font-family: "BPG Arial";
+    font-size: 2.14vh;
+  }
+}
