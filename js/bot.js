@@ -49,8 +49,8 @@ function sendMessageFromBot(res) {
     res.forEach(function(w){
         var img = document.createElement('img');
 
+        // console.log(w);
 
-        console.log(w);
         if (w.type == 0) {
             messageTextes(w, div)
 
@@ -125,8 +125,24 @@ function sendMessageFromBot(res) {
             $(a).attr('target', '_blank')
             $(div).append(a)   
 
+        } else if(w.type == 4){
+            let a = document.createElement('a');
+            $(a).attr('href', w.url)
+            $(a).text(w.text)
+            $(a).attr('target', '_blank')
+            $(div).append(a)  
+
+        
+        } else if(w.type == 5){
+
+            messageTextes(w, div)
+
+            type5Functionaly(w)
+        
         } else if (w.type == 6) {
             // ღილაკები 
+
+            console.log(w);
 
             messageTextes(w, div)
 
@@ -144,7 +160,6 @@ function sendMessageFromBot(res) {
 
             $(div).append(btndiv);
         }
-
 
         $(getTag).append(div)
         // $(getTag).scrollTop($(getTag)[0].scrollHeight)
@@ -178,11 +193,11 @@ function sendMessageFromUser(text) {
 
 $(document).on("click", ".chat_msg_item-buttons button", function (e) {
     $(getTag).scrollTop($(getTag)[0].scrollHeight)
-
     var btnText = e.target.innerText;
-
-    messangerTyping()
     
+    sendMessageFromUser(btnText)
+    
+    messangerTyping()
 
     $.ajax({
         type: "POST",
@@ -202,7 +217,7 @@ $(document).on("click", ".chat_msg_item-buttons button", function (e) {
         contentType: 'application/json'
     })
 
-    sendMessageFromUser(btnText)
+
     $(getTag).scrollTop($(getTag)[0].scrollHeight)
 });
 
@@ -213,7 +228,7 @@ $(document).on("click", ".image-popup-no-margins", function (e) {
     $(this).magnificPopup({
         type: 'image',
         closeOnContentClick: true,
-        closeBtnInside: false,
+        closeBtnInside: true,
         fixedContentPos: true,
         mainClass: 'mfp-no-margins mfp-with-zoom', // class to remove default margin from left and right side
         image: {
@@ -227,7 +242,7 @@ $(document).on("click", ".image-popup-no-margins", function (e) {
 });
 
 
-async function sendMessage(e) {
+function sendMessage(e) {
     e.preventDefault();
 
     let msgText = msgInput.val();
@@ -235,8 +250,6 @@ async function sendMessage(e) {
     sendMessageFromUser(msgText);
     
     messangerTyping()
-
-    $(getTag).scrollTop($(getTag)[0].scrollHeight)
     
     $.ajax({
         type: "POST",
@@ -250,8 +263,6 @@ async function sendMessage(e) {
             $('#typing__animation').remove()
 
             let res = JSON.parse(result);
-
-            // console.log(res);
 
             sendMessageFromBot(res)
         },
@@ -281,7 +292,24 @@ function messangerTyping(){
     `;
 
 
-    setTimeout(() => {
-        $('#chat_fullscreen').append(loading)
-    }, 300)
+    $('#chat_fullscreen').append(loading)
+    // setTimeout(() => {
+    // }, 300)
+}
+
+
+function type5Functionaly(data){
+    console.log(data);
+
+    data.buttons.forEach(data => {
+        if(data.type == 0){
+            console.log(0);
+            
+        } else if(data.type == 1){
+            console.log(1);
+    
+        } else if(data.type == 2){
+            console.log(2);
+        }
+    })
 }
