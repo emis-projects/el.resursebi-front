@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- ბოტის აიდიში ვუთითებთ: ხელოვნების - 2318, ბუნების - 2320, მუსიკის - 2292 -->
-<html lang="ka" data-botid="2318">
+<html lang="ka" data-botid="2320">
 
 <head>
     <meta charset="UTF-8"/>
@@ -8,11 +8,13 @@
     <!-- ყველა გვერდზე -->
     <script src="../../js/vue.js"></script>
     <!--  ვუე გაშვებისას
-      <script src="./js/vue.min.js"></script>
-       -->
+        <script src="./js/vue.min.js"></script>
+         -->
     <link rel="stylesheet" href="../../New-header-vue/animate.min.css">
     <link rel="stylesheet" href="../../scss/libraries/bootstrap.min.css">
     <link rel="stylesheet" href="../../scss/libraries/magnific-popup.css">
+    <link rel="stylesheet" type="text/css" href="../../scss/libraries/owl.carousel.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../../scss/libraries/owl.theme.default.css"/>
     <link rel="stylesheet" href="../../scss/new-style.css"/>
     <title>ელექტრონული საგანმანათლებლო რესურსი</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -23,6 +25,7 @@
         function gtag() {
             dataLayer.push(arguments);
         }
+
         gtag('js', new Date());
 
         gtag('config', 'UA-155006442-1');
@@ -31,34 +34,12 @@
 
 <body>
 <div class="container">
-    <section id="app" class="container position-absolute">
-        <header>
-            <app-menu v-logo="'../../'" :is-active="isActive" :toggle="toggle"></app-menu>
-        </header>
-
-        <app-section v-image="'../../'" :is-active="isActive">
-            <app-bar
-                    :is-active="isActive"
-                    :trigger="trigger"
-                    :dots="dots"
-                    :current-tab="link"
-                    v-on:link-tab="link = $event">
-
-            </app-bar>
-            <component
-                    :is="currentTabComponent"
-                    :is-active="isActive"
-                    :path="path"
-                    :trigger="trigger"
-                    :images="images"
-                    :active-class="activeClass"
-                    :tab-class="currentTabComponent">
-            </component>
-        </app-section>
-    </section>
-
-
-    <section id="mainPage">
+    <header>
+        <a class="close" href="./5.html">
+            <img src="../../img/icons/close.svg" alt="close"/>
+        </a>
+    </header>
+    <section>
         <div class="left_components_paging-cont">
             <svg class="left_components_paging" xmlns="http://www.w3.org/2000/svg"
                  xmlns:xlink="http://www.w3.org/1999/xlink" width="134" height="722" viewBox="0 0 134 722">
@@ -127,7 +108,7 @@
                           data-name="Path 24922"
                           d="M-107,293.662h-25.155a28.388,28.388,0,0,0-21.1,9.686A34.87,34.87,0,0,0-162,326.736c0,18.266,13.362,33.074,29.844,33.074H-107c20.013,0,36.24,17.983,36.24,40.162V253.5C-70.762,275.679-86.988,293.662-107,293.662Z"
                           transform="translate(195.761 283.264)" fill="#7fd1d8"/>
-                    <path class="leftSidebar_type" style="opacity: 0" data-type="3" id="Path_143735"
+                    <path class="leftSidebar_type" style="opacity: 1" data-type="3" id="Path_143735"
                           data-name="Path 143735"
                           d="M-107,293.662h-25.155a28.388,28.388,0,0,0-21.1,9.686A34.87,34.87,0,0,0-162,326.736c0,18.266,13.362,33.074,29.844,33.074H-107c20.013,0,36.24,17.983,36.24,40.162V253.5C-70.762,275.679-86.988,293.662-107,293.662Z"
                           transform="translate(195.761 57.264)" fill="#7fd1d8"/>
@@ -444,13 +425,13 @@
                         <tspan x="0" y="0">მინიშნება</tspan>
                     </text>
                     <text id="შუალედური_დავალება" data-name="შუალედური
-                  დავალება" transform="translate(70 549)" fill="#c5cbcd" font-size="12"
+                დავალება" transform="translate(70 549)" fill="#c5cbcd" font-size="12"
                           font-family="ALKSanet, ALK Sanet">
                         <tspan x="-35.344" y="0">შუალედური</tspan>
                         <tspan x="-30.636" y="12">დავალება</tspan>
                     </text>
                     <text id="კომპლექსური_დავალება" data-name="კომპლექსური
-                  დავალება" transform="translate(70 668)" fill="#c5cbcd" font-size="12"
+                დავალება" transform="translate(70 668)" fill="#c5cbcd" font-size="12"
                           font-family="ALKSanet, ALK Sanet">
                         <tspan x="-42.015" y="0">კომპლექსური</tspan>
                         <tspan x="-30.636" y="12">დავალება</tspan>
@@ -458,41 +439,30 @@
                 </g>
             </svg>
         </div>
-        <div class="row mt-10vh">
-            <div class="col-9 m-auto ">
-                <div class="newDesign_subject_question_item ">
-                    <img src="../../img/icons/newDesign_btn-yellow.svg" alt="img"
-                         class="newDesign_subject_question_item-img">
-                    <p class="newDesign_subject_question_item-title" >რა იცოდი და რა იყო ახალი?</p>
-                </div>
-                <div class="newDesign_subject_question_item pt-3">
-                    <img src="../../img/icons/newDesign_btn-yellow.svg" alt="img"
-                         class="newDesign_subject_question_item-img">
-                    <p class="newDesign_subject_question_item-title" >როგორ გამოიყენებდი მიღებულ ცოდნას ყოვედღიურ ცხოვრებაში?</p>
+        <div class="row newDesign_hintPage">
+            <div class="col-8 col-md-10 m-auto">
+                <div class="newDesign_container_main_title-cont newDesign_container_main_title-cont-margin">
+                    <h1 class="newDesign_container_main_title">ალგორითმი და ალგორითმის შემუშავება</h1>
+                    <img src="../../img/icons/art_main_title_border.svg" alt="img"
+                         class="newDesign_container_main_title-img">
                 </div>
             </div>
-
-            <div class="our__pagination flex">
-                <a href="#" class="pagination__prev__btn">
-                    <img style="transform: rotate(180deg)" src="../../img/icons/chevron-left-icon.svg" alt="">
-                </a>
-
-                <div id="pagination" class="flex align-items-center"></div>
-
-                <a href="#" class="pagination__next__btn">
-                    <img src="../../img/icons/chevron-left-icon.svg" alt="">
-                </a>
-            </div>
-        </div>
-        <div class="row position-relative">
-            
-                <div class="right-bg-image c-02-22-img">
-                    <img src="../../img/gakvetilebi/Computer-Science/algorithmes-02/C-2-22.svg" alt="art">
+            <div class="col-8 d-flex m-auto align-items-center">
+                <div class="newDesign_subject_question_item art-7-4-text-margin">
+                    <img src="../../img/icons/newDesign_btn-yellow.svg" alt="img"
+                         class="newDesign_subject_question_item-img">
+                    <p class="newDesign_subject_question_item-title">ალგორითმი არის ბრძანებების ერთობლიობა, რომელთა შესრულებაც 
+                        საჭიროა ამოცანის გადასაჭრელად. თითოეულ ბრძანებას ეწოდება ბიჯი.</p>
                 </div>
+            </div>
+            <div class="col-9 m-auto pt-20vh">
+                <div class="img-box_items-14 d-flex justify-content-center">
+                    <img src="../../img/gakvetilebi/Computer-Science/algorithmes-02/C-2-5-1-1.svg" alt="art">
+                </div>
+            </div>
         </div>
     </section>
 </div>
-
 
 
 <!-- ჩეთბოტი -->
@@ -500,15 +470,15 @@
     <app-bot></app-bot>
 </div>
 
-
 <script src="../../js/libraries/jquery-3.4.1.min.js"></script>
 <script src="../../js/libraries/jquery.magnific-popup.min.js"></script>
-<script src="../../js/Pagination.js"></script>
 
 
 <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
-<script src="../../New-header-vue/app.js"></script>
 <script src="../../Vue-chatBot/botApp.js"></script>
 <script src="../../js/bot.js"></script>
+
+
 </body>
+
 </html>

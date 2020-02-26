@@ -20022,6 +20022,110 @@ td img {
   text-align: center;
 }
 
+.c-02-3-img {
+  height: 65vh;
+}
+
+.pt-15vh {
+  padding-top: 15vh;
+}
+
+.c-02-4-img {
+  right: 10vw;
+  bottom: 10vh;
+}
+
+.c-02-5-img {
+  right: -15.4vw;
+  bottom: 34vh;
+}
+
+.c-02-7-img {
+  position: absolute;
+  top: -6vh;
+  right: 0;
+}
+
+.c-02-8-img {
+  right: 0vw;
+  bottom: 0vh;
+  position: absolute;
+}
+
+.c-02-8-img img {
+  height: 50vh;
+}
+
+.answer-div {
+  width: 24vw;
+  height: 6vh;
+  background-color: #fff;
+  border-radius: 15vh;
+  -webkit-box-shadow: #947DCE66 2px 2px 8px;
+          box-shadow: #947DCE66 2px 2px 8px;
+}
+
+.answer-div p {
+  font-size: 2vh;
+  color: #947DCE;
+  font-family: 'FiraGO Book';
+}
+
+.c-02-18-img {
+  left: 32vw;
+  bottom: 10vh;
+}
+
+.c-02-22-img {
+  position: absolute;
+  top: -6vh;
+  left: 2vw;
+}
+
+.background-c-02-29 {
+  background-image: url(../img/gakvetilebi/Computer-Science/algorithmes-02/C-2-29.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-c-02-29 .title-59 h1 {
+  color: #62548a;
+}
+
+.background-c-02-30 {
+  background-image: url(../img/gakvetilebi/Computer-Science/algorithmes-02/C-2-30.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-c-02-30 .title-59 h1 {
+  color: #62548a;
+}
+
+.background-c-02-31 {
+  background-image: url(../img/gakvetilebi/Computer-Science/algorithmes-02/C-2-31.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-c-02-31 .title-59 h1 {
+  color: #62548a;
+}
+
+.background-c-02-32 {
+  background-image: url(../img/gakvetilebi/Computer-Science/algorithmes-02/C-2-32.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-c-02-32 .title-59 h1 {
+  color: #62548a;
+}
+
 .c-02-15-item_box {
   width: 100%;
   height: 10vh;
@@ -20041,6 +20145,101 @@ td img {
   font-size: 2.14vh;
 }
 
+.wardrobe-container {
+  position: relative;
+  background-color: #a67c52;
+}
+
+.wardrobe-item {
+  position: absolute;
+  height: 12vh;
+}
+
+.wardrobe-item:nth-child(1) {
+  top: 0;
+  left: 0;
+}
+
+.wardrobe-item:nth-child(2) {
+  top: 0;
+  left: 23vh;
+}
+
+.wardrobe-item:nth-child(3) {
+  top: 10.3vh;
+  left: 0;
+}
+
+.wardrobe-item:nth-child(4) {
+  top: 10.3vh;
+  left: 23vh;
+}
+
+.wardrobe-item:nth-child(5) {
+  top: 20.6vh;
+  left: 0;
+}
+
+.wardrobe-item:nth-child(6) {
+  top: 20.6vh;
+  left: 23vh;
+}
+
+.wardrobe-item:nth-child(7) {
+  top: 30.9vh;
+  left: 0;
+}
+
+.wardrobe-item:nth-child(8) {
+  top: 30.9vh;
+  left: 23vh;
+}
+
+.wardrobe-item:nth-child(9) {
+  top: 41.2vh;
+  left: 0;
+}
+
+.wardrobe-item:nth-child(10) {
+  top: 41.2vh;
+  left: 23vh;
+}
+
+.wardrobe-item.correct {
+  z-index: 2;
+  border-radius: 2vh;
+  background-color: #6af569;
+}
+
+.wardrobe-key-img {
+  height: 17.3vh;
+}
+
+.wardrobe-points-btn {
+  width: 17.22vh;
+  height: 9.27vh;
+  background-color: #a67c52;
+  border-radius: 2vh;
+  border: 4px solid #fbb03b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10vh 0 0 15vh;
+}
+
+.wardrobe-points-item {
+  color: #ffbe32;
+  font-size: 4.29vh;
+  font-family: "BPG Arial";
+  font-weight: bold;
+}
+
 .canvas-container {
   width: 100% !important;
 }
@@ -20051,3 +20250,4 @@ td img {
   top: 0;
   width: 100%;
 }
+/*# sourceMappingURL=new-style.css.map */

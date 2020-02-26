@@ -1,0 +1,77 @@
+.wardrobe {
+  &-container {
+    position: relative;
+    background-color: #a67c52;
+  }
+  &-item {
+    position: absolute;
+    height: 12vh;
+    &:nth-child(1) {
+      top: 0;
+      left: 0;
+    }
+    &:nth-child(2) {
+      top: 0;
+      left: 23vh;
+    }
+    &:nth-child(3) {
+      top: 10.3vh;
+      left: 0;
+    }
+    &:nth-child(4) {
+      top: 10.3vh;
+      left: 23vh;
+    }
+    &:nth-child(5) {
+      top: 20.6vh;
+      left: 0;
+    }
+    &:nth-child(6) {
+      top: 20.6vh;
+      left: 23vh;
+    }
+    &:nth-child(7) {
+      top: 30.9vh;
+      left: 0;
+    }
+    &:nth-child(8) {
+      top: 30.9vh;
+      left: 23vh;
+    }
+    &:nth-child(9) {
+      top: 41.2vh;
+      left: 0;
+    }
+    &:nth-child(10) {
+      top: 41.2vh;
+      left: 23vh;
+    }
+    &.correct {
+      z-index: 2;
+      border-radius: 2vh;
+      background-color: #6af569;
+    }
+  }
+  &-key-img {
+    height: 17.3vh;
+  }
+  &-points {
+    &-btn {
+      width: 17.22vh;
+      height: 9.27vh;
+      background-color: #a67c52;
+      border-radius: 2vh;
+      border: 4px solid #fbb03b;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 10vh 0 0 15vh;
+    }
+    &-item {
+      color: #ffbe32;
+      font-size: 4.29vh;
+      font-family: "BPG Arial";
+      font-weight: bold;
+    }
+  }
+}
