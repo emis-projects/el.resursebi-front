@@ -1,4 +1,3 @@
-@charset "UTF-8";
 #chatBot {
   bottom: 11vh;
   position: absolute;
@@ -18,17 +17,25 @@
   max-width: 80px;
   min-height: 60px;
   min-width: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   cursor: pointer;
 }
+
 #prime .chat_img {
   background: url("../Vue-chatBot/img/chat.png") no-repeat center;
   background-size: contain;
   height: 30px;
   width: 30px;
 }
+
 #prime .chat-close {
   background: url("../Vue-chatBot/img/close.svg") no-repeat center;
   background-size: contain;
@@ -869,7 +876,8 @@
   color: white;
 }
 
-/* http://meyerweb.com/eric/tools/css/reset/ 
+
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -1645,9 +1653,9 @@ body {
   align-items: center;
 }
 .top-bar button {
-  background-color: #7FD1D8;
-  width: 22px;
-  height: 22px;
+  background-color: rgba(127, 209, 216, 0.4);
+  width: 20px;
+  height: 20px;
   border-radius: 100%;
   outline: none;
   border: none;
@@ -1659,6 +1667,8 @@ body {
 .top-bar button:hover {
   transition: all 0.3s linear;
   transform: scale(1.5);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .top-bar .start {
   box-shadow: 0 0 1px 3px #F7CF4366;
@@ -1674,47 +1684,6 @@ body {
 #app .section_box {
   position: relative;
   z-index: 9999999;
-}
-#app .class_box .circles {
-  cursor: pointer;
-  height: 57px;
-  width: 57px;
-}
-#app .class_box .circles_number-pink {
-  background: #ffffff;
-  height: 100%;
-  width: 100%;
-  border-radius: 100%;
-  box-shadow: 2px 2px 8px rgba(247, 207, 67, 0.4);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-#app .class_box .circles_number-pink img {
-  height: 30px;
-  width: 30px;
-}
-#app .class_box .circles_number-white {
-  background: #947DCE;
-  height: 100%;
-  width: 100%;
-  border-radius: 100%;
-  box-shadow: 2px 2px 8px rgba(247, 207, 67, 0.4);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-#app .class_box .circles_number-white img {
-  height: 30px;
-  width: 30px;
-}
-#app .active {
-  /*animation-name: flipInX;
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;*/
-  background: #947DCE;
 }
 
 .page-section {

@@ -7,6 +7,8 @@
 }
 .n-10-28-objects {
   height: 40vh;
+  margin-left: 3vw;
+
   span {
       margin-left: 1vw;
   }
@@ -16,8 +18,14 @@
   height: 8vh;
   width: 8vh;
   border-radius: 50%;
+  cursor: pointer;
   box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.16);
   position: relative;
+
+  &.selected {
+    background-color: #06d5d6;
+  }
+
   img {
     height: 4vh;
     position: absolute;
