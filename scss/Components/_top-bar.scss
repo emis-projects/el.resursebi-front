@@ -1,4 +1,4 @@
-.top-bar{
+.top-bar {
   height: 4vh;
   width: 342px;
   box-shadow: 2px 2px 8px rgba(127, 209, 216, 0.4);
@@ -7,45 +7,91 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  button{
-    background-color: rgba(127, 209, 216, 0.4);
-    width: 20px;
-    height: 20px;
+
+  button {
+    background-color: #7FD1D8;
+    width: 22px;
+    height: 22px;
     border-radius: 100%;
     outline: none;
     border: none;
     box-shadow: none;
+    font-size: 18px;
+    transition: all 0.3s linear;
+    overflow: hidden;
+
+    &:hover {
+      transition: all 0.3s linear;
+      transform: scale(1.5);
+    }
   }
-  .start{
-    background-color: rgb(127, 209, 216);
+
+  .start {
+    box-shadow: 0 0 1px 3px #F7CF4366;
   }
-  .select{
-    background-color: rgb(127, 209, 216);
-    outline: none;
-    border: none;
-    box-shadow: none;
-  }
-  .links{
-    background-color: rgb(127, 209, 216);
-    outline: none;
-    border: none;
-    box-shadow: none;
-  }
-  .sections{
-    background-color: rgb(127, 209, 216);
-    outline: none;
-    border: none;
-    box-shadow: none;
+
+  .select {
+    box-shadow: 0 0 1px 3px #F7CF4366;
   }
 }
 
 #app {
-  header{
+  header {
     position: relative;
     z-index: 9999999;
   }
-  .section_box{
+
+  .section_box {
     position: relative;
     z-index: 9999999;
+  }
+
+  .class_box {
+    .circles {
+      cursor: pointer;
+      height: 57px;
+      width: 57px;
+
+      &_number-pink {
+        background: #ffffff;
+        height: 100%;
+        width: 100%;
+        border-radius: 100%;
+        box-shadow: 2px 2px 8px rgba(247, 207, 67, 0.4);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+          height: 30px;
+          width: 30px;
+        }
+      }
+
+      &_number-white {
+        background: #947DCE;
+        height: 100%;
+        width: 100%;
+        border-radius: 100%;
+        box-shadow: 2px 2px 8px rgba(247, 207, 67, 0.4);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+          height: 30px;
+          width: 30px;
+        }
+      }
+    }
+  }
+
+  .active {
+    /*animation-name: flipInX;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;*/
+    background: #947DCE;
   }
 }
