@@ -1,0 +1,22 @@
+.sign-description-btn{
+    height: 4.85vh;
+    width: 25.18vh;
+    background: white;
+    box-shadow: 2px 2px 8px rgba(148, 125, 206, 0.4);
+    border-radius: 2vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    &-title{
+        font-size: 1.8vh;
+        color: #62548A;
+        line-height:2vh;
+        padding: 3vh;
+        font-family: 'FiraGO Book';
+    }
+}
+.cs-2-1-9-forbidden-img{
+    height: 12.36vh;
+}

@@ -1,0 +1,20 @@
+.cs-weather{
+    &-game-cont{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 4vh;
+    }
+    &-img{
+        margin-bottom: 2vh;
+        &-sun{
+            height: 6.85vh;
+        }
+        &-rain{
+            height: 11.97vh;
+        }
+        &-sunAndCloud{
+            height: 9.11vh;
+        }
+    }
+}
