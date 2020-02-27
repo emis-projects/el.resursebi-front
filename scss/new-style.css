@@ -19678,6 +19678,24 @@ td img {
   margin-top: -6vh;
 }
 
+.n-11-20-game {
+  background-color: #C59A5B;
+  padding: 8px 0;
+  padding-left: 4.173vw;
+  padding-right: 4.173vw;
+}
+
+.n-11-20-game-child {
+  background-color: #E7E8E9;
+  border-radius: 15px;
+  width: 14.641vw;
+  height: 18.099vh;
+}
+
+.n-11-20-game-child img {
+  cursor: pointer;
+}
+
 .sport_image_height {
   height: 100vh;
   position: absolute;
@@ -20023,7 +20041,7 @@ td img {
 }
 
 .c-02-3-img {
-  height: 65vh;
+  height: 48vh;
 }
 
 .pt-15vh {
