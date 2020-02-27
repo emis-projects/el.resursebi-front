@@ -18937,7 +18937,7 @@ td img {
 
 .n-10-28-image {
   right: 29vw;
-  bottom: 0;
+  bottom: 5.599vh;
 }
 
 .n-10-28-image svg {
@@ -18975,6 +18975,60 @@ td img {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+}
+
+.allimageContTopRight {
+  background-color: #CC6AE5;
+  padding: 10px;
+  max-width: 9.59vw;
+  position: absolute;
+  top: 3vh;
+  right: 3vw;
+  border-radius: 5px;
+  font-family: 'BPG Nino Mtavruli Bold';
+}
+
+.startGame {
+  display: inline-block;
+  background-color: #47E67C;
+  width: 100%;
+  border-radius: 5px;
+  text-align: center;
+  color: #fff;
+}
+
+.allimageContTimeParent {
+  background-color: black;
+  padding: 10px;
+  margin-top: 11px;
+  margin-bottom: 7px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.allimageContTimeParent div {
+  color: #47E67C;
+  font-size: 20px;
+  line-height: 1;
+}
+
+.allimageCont .temperature {
+  position: absolute;
+  left: 50%;
+  top: 45px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .n-10-34-images {
@@ -20275,4 +20329,3 @@ td img {
   top: 0;
   width: 100%;
 }
-/*# sourceMappingURL=new-style.css.map */

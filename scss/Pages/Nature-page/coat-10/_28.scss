@@ -1,6 +1,6 @@
 .n-10-28-image {
   right: 29vw;
-  bottom: 0;
+  bottom: 5.599vh;
   svg {
     height: 40vh;
   }
@@ -32,5 +32,53 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+  }
+}
+
+
+.allimageContTopRight {
+  background-color: #CC6AE5;
+  padding: 10px;
+  max-width: 9.59vw;
+  position: absolute;
+  top: 3vh;
+  right: 3vw;
+  border-radius: 5px;
+  font-family: 'BPG Nino Mtavruli Bold';
+}
+
+.startGame {
+  display: inline-block;
+  background-color: #47E67C;
+  width: 100%;
+  border-radius: 5px;
+  text-align: center;
+  color: #fff;
+}
+
+.allimageContTimeParent {
+  background-color: black;
+  padding: 10px;
+  margin-top: 11px;
+  margin-bottom: 7px;
+  text-align: center;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+
+  div {
+    color: #47E67C;
+    font-size: 20px;
+    line-height: 1;
+  }
+}
+
+.allimageCont {
+  .temperature {
+    position: absolute;
+    left: 50%;
+    top: 45px;
+    transform: translateX(-50%);
+    display: flex;
   }
 }
