@@ -1,15 +1,17 @@
 .reset__btn {
   background: #fff;
-  border-radius: 27px;
-  height: 38px;
-  width: 167px;
+  border-radius: 4vh;
+  height: 6vh;
+  width: 27vh;
   text-align: center;
   color: #F8D24B;
+  -webkit-box-shadow: 2px 2px 8px rgba(248, 210, 73, 0.4);
   box-shadow: 2px 2px 8px rgba(248, 210, 73, 0.4);
-  margin-bottom: 10px;
-  font-family: $alk-sanet;
-  font-size: 11px;
+  margin-bottom: 3vh;
+  font-family: "ALK Sanet";
+  font-size: 1.7vh;
   letter-spacing: 1.1px;
+  -webkit-transition: all 0.3s;
   transition: all 0.3s;
 
   &:hover {
