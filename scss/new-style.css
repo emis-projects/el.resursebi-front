@@ -18946,6 +18946,7 @@ td img {
 
 .n-10-28-objects {
   height: 40vh;
+  margin-left: 3vw;
 }
 
 .n-10-28-objects span {
@@ -18957,9 +18958,14 @@ td img {
   height: 8vh;
   width: 8vh;
   border-radius: 50%;
+  cursor: pointer;
   -webkit-box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.16);
           box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.16);
   position: relative;
+}
+
+.n-10-28-obj-box.selected {
+  background-color: #06d5d6;
 }
 
 .n-10-28-obj-box img {
@@ -20268,4 +20274,3 @@ td img {
   top: 0;
   width: 100%;
 }
-/*# sourceMappingURL=new-style.css.map */
