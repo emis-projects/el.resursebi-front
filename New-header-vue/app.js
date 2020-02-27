@@ -1,8 +1,10 @@
+// directive გადაემა html კომპონენტში
 Vue.directive('logo', {
     bind(el, binding) {
         const header = el.querySelector('.header-logo');
         const logo = el.querySelector('.logo');
         const sound = el.querySelectorAll('.sound img');
+        // ბურგერის სვგ სურათების path
         sound.forEach(elm => {
             if (elm.classList.contains('on')) {
                 elm.src = binding.value + 'New-header-vue/header-img/active.svg';
@@ -10,11 +12,13 @@ Vue.directive('logo', {
                 elm.src = binding.value + 'New-header-vue/header-img/mute.png';
             }
         });
+        // ლოგოს path მიბმა
         header.href = binding.value + 'index.html';
         logo.src = binding.value + 'New-header-vue/header-img/Header-logo.svg';
     }
 });
 
+// directive გადაემა html კომპონენტში (ხელ, ბუნ, მუს, ქვედა მარჯვენა კუთხეში შესაბამისი სურათის src-ს path დაგენერირება)
 Vue.directive('image', {
     bind(el, binding, vnode) {
         vnode.context.$data.path = binding.value;
@@ -29,7 +33,7 @@ Vue.directive('image', {
     }
 });
 
-//menu component ნავბარის კომპონენტი
+//menu component ნავბარის კომპონენტი (ენის, ხმის და ბურგერის ცვლილებები)
 Vue.component('appMenu', {
     data() {
         return {
@@ -121,6 +125,7 @@ Vue.component('appSection', {
     template: `
             <div>
                 <section class="section_box">
+                <!--აგნენერირებს შესაბამის კომპონენტს-->
                     <slot></slot>
                  </section>
                  <transition 
@@ -156,11 +161,15 @@ Vue.component('appBar', {
             :duration="1000"
             mode="out-in">
                   <div v-show="isActive" class="top-bar">
+                  <!--todo ბარის ნავიგაცია(4 სექციით ჯერ მხოლოდ 2 მუშაობს) 
+                      იკონკები გენერირდება დინამიურად კლასით (დასრულებულია)
+                    -->
                         <button v-for="(dot, index) in dots" 
-                                :class="[dot.classActive ? dot.name : '']" 
+                                :class="['icon-'+ index, dot.classActive ? dot.name : '']"
                                 :disabled="dot.disable"
                                 :key="dot.id" 
-                                @click="$emit('link-tab', dot.name)" ></button>
+                                @click="$emit('link-tab', dot.name)" 
+                                ><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span></button>
                   </div>
         </transition>
     `
@@ -233,7 +242,10 @@ Vue.component('appSelect', {
     },
     data() {
         return {
-            class: title
+            // title is object
+            class: title,
+            classID: 2,
+            activeItem: 1
         };
     },
     computed: {
@@ -245,7 +257,7 @@ Vue.component('appSelect', {
             } else if (this.activeClass === 'ბუნება') {
                 return this.class.nature;
             } else {
-                return this.class.IT;
+                return this.class['IT_' + this.classID];
             }
         },
         artImage() {
@@ -255,9 +267,13 @@ Vue.component('appSelect', {
                 return this.images.art;
             } else if (this.activeClass === 'ბუნება') {
                 return this.images.nature;
-            } else {
-                return this.images.IT;
             }
+        }
+    },
+    methods: {
+        classChoose(val) {
+            this.classID = val;
+            this.activeItem = val - 1;
         }
     },
     template: `
@@ -273,17 +289,51 @@ Vue.component('appSelect', {
                     <div class="col-12">
                         <h5 class="app-select_title">{{ activeClass }}</h5>
                     </div>
-                    <div v-for="title in titleCheck" :key="title.id" class="col-4 app-select_box">
+                    <div v-if="activeClass === 'კომპიუტერული მეცნიერება'" class="col-12 mt-5">
+                    <div class="row">
+                            <div class="col-4">
+                                <div class="class_box d-flex justify-content-between">
+                                <!--:class="{ active: number === activeItem }"-->
+                                    <div class="circles d-flex justify-content-center align-items-center"
+                                        @click="classChoose(number+1)" 
+                                        v-for="number in 5" 
+                                        :key="number"
+                                        >
+                                         <transition 
+                                             enter-active-class="animated flipInX"
+                                             leave-active-class="animated flipOutY"
+                                             :duration="750"
+                                             mode="out-in"
+                                             tag="div"
+                                             appear
+                                             class="circle_wrapper">
+                                             <div class="circles_number-pink" v-if="number !== activeItem" key="pink">
+                                                 <img :src="path + 'New-header-vue/header-img/pink_'+ (number + 1) +'.svg'" :alt="'pink_' + (number+1)" class="img-fluid">
+                                             </div>    
+                                             <div class="circles_number-white" v-else key="white">
+                                                 <img :src="path + 'New-header-vue/header-img/white_'+ (number + 1) +'.svg'" :alt="'white_' + (number+1)" class="img-fluid">
+                                             </div>  
+                                             </transition>                             
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 mt-5">
                         <div class="row">
-                            <div class="col-10 app-select_box-content d-flex justify-content-center align-items-center">
-                                 <a :href="path + title.link">{{ title.name }}</a>
+                            <div v-for="title in titleCheck" :key="title.id" class="col-4 app-select_box">
+                                <div class="row">
+                                    <div class="col-10 app-select_box-content d-flex justify-content-center align-items-center">
+                                         <a :href="path + title.link">{{ title.name }}</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="row app-select_artwork">
                     <div class="col-12">
-                        <div class="app-select_artwork_image-box ml-auto">
+                        <div v-if="activeClass !== 'კომპიუტერული მეცნიერება'" class="app-select_artwork_image-box ml-auto">
                             <img :src="artImage" alt="art">
                         </div>
                     </div>
@@ -350,11 +400,11 @@ var app = new Vue({
             music: './New-header-vue/header-img/arts/music-artwork.svg'
         },
         dots: [{
-                name: 'start',
-                id: 0,
-                disable: false,
-                classActive: true
-            },
+            name: 'start',
+            id: 0,
+            disable: false,
+            classActive: true
+        },
             {
                 name: 'select',
                 id: 1,
@@ -394,6 +444,12 @@ var app = new Vue({
             this.link = 'start';
             this.activeClass = '';
         },
+
+        /*
+          -- გაკვეთილების სექციის ჩატვირთვა data(დაგაეცემა, თემები: ხელ. მუს. ბუნ. კომპ.)
+          -- this.link ააქტიურებს დინამიურა კომპონენტების ჩამტვირთველ კომპონენტს
+          -- გახდეს აქტიური შესაბამისი dot
+        */
         trigger(val, data) {
             this.activeClass = data;
             this.link = 'select';
@@ -421,16 +477,17 @@ var app = new Vue({
     }
 });
 
-//ვუს ცვლადების შეცვლა სლაიდერის დაწყებაზე კლიკისას
+//ვუს ცვლადების შეცვლა სლაიდერზე კლიკისას
 function startPage(val) {
-    app.$data.link = 'select';
-    app.$data.isActive = true;
-    app.$data.activeClass = val;
+    app.$data.link = 'select'; // ააქტიურებს შესაბამის კომპონენტს
+    app.$data.isActive = true; // ააქტიურებს მენიუს
+    app.$data.activeClass = val; // გადაეცემა საგნების სახელები (ბუნება, ხელოვნება, მუსიკა, კომპ.)
 }
 
 // გაკვეთილიების სათაურები
 let title = {
-    music: [{
+    music: [
+        {
             id: 1,
             name: 'ხმები',
             link: 'Music-Lessons/Voices/M-1366-9.html'
@@ -593,20 +650,268 @@ let title = {
             link: '#'
         }
     ],
-    IT: [
+    IT_2: [
         {
             id: 1,
-            name: 'კომპიუტერი და მისი შემადგენელი ნაწილები',
+            name: 'კომპიუტერი 2 კლასი 1 გაკვ',
             link: './Computer-Science/Computer_parts/C-1366-01-01.html'
         },
         {
             id: 2,
-            name: 'ალგორითმი',
+            name: 'კომპიუტერი 2 კლასი 2 გაკვ',
             link: './Computer-Science/algorithme/C-1366-02-03.html'
         },
         {
             id: 3,
+            name: 'კომპიუტერი 2 კლასი 3 გაკვ',
+            link: '#'
+        },
+        {
+            id: 4,
+            name: 'კომპიუტერი 2 კლასი 4 გაკვ',
+            link: '#'
+        },
+        {
+            id: 5,
+            name: 'კომპიუტერი 2 კლასი 5 გაკვ',
+            link: '#'
+        },
+        {
+            id: 6,
+            name: 'კომპიუტერი 2 კლასი 6 გაკვ',
+            link: '#'
+        },
+        {
+            id: 7,
             name: 'სათაური',
+            link: '#'
+        },
+        {
+            id: 8,
+            name: 'სათაური',
+            link: '#'
+        },
+        {
+            id: 9,
+            name: 'სათაური',
+            link: '#'
+        },
+        {
+            id: 10,
+            name: 'სათაური',
+            link: '#'
+        },
+        {
+            id: 11,
+            name: 'სათაური',
+            link: '#'
+        },
+        {
+            id: 12,
+            name: 'სათაური',
+            link: '#'
+        }
+    ],
+    IT_3: [
+        {
+            id: 1,
+            name: 'კომპიუტერი 3 კლასი 1 გაკვ',
+            link: './Computer-Science/Computer_parts/C-1366-01-01.html'
+        },
+        {
+            id: 2,
+            name: 'კომპიუტერი 3 კლასი 2 გაკვ',
+            link: './Computer-Science/algorithme/C-1366-02-03.html'
+        },
+        {
+            id: 3,
+            name: 'კომპიუტერი 3 კლასი 3 გაკვ',
+            link: '#'
+        },
+        {
+            id: 4,
+            name: 'ალგორითმი და ალგორითმის შემუშავება',
+            link: ''
+        },
+        {
+            id: 5,
+            name: 'სათაური',
+            link: '#'
+        },
+        {
+            id: 6,
+            name: 'სათაური',
+            link: '#'
+        },
+        {
+            id: 7,
+            name: 'სათაური',
+            link: '#'
+        },
+        {
+            id: 8,
+            name: 'სათაური',
+            link: '#'
+        },
+        {
+            id: 9,
+            name: 'სათაური',
+            link: '#'
+        },
+        {
+            id: 10,
+            name: 'სათაური',
+            link: '#'
+        },
+        {
+            id: 11,
+            name: 'სათაური',
+            link: '#'
+        },
+        {
+            id: 12,
+            name: 'სათაური',
+            link: '#'
+        }
+    ],
+    IT_4: [
+        {
+            id: 1,
+            name: 'კომპიუტერი 4 კლასი 1 გაკვ',
+            link: './Computer-Science/Computer_parts/C-1366-01-01.html'
+        },
+        {
+            id: 2,
+            name: 'კომპიუტერი 4 კლასი 2 გაკვ',
+            link: './Computer-Science/algorithme/C-1366-02-03.html'
+        },
+        {
+            id: 3,
+            name: 'კომპიუტერი 4 კლასი 3 გაკვ',
+            link: '#'
+        },
+        {
+            id: 4,
+            name: 'სათაური',
+            link: '#'
+        },
+        {
+            id: 5,
+            name: 'სათაური',
+            link: '#'
+        },
+        {
+            id: 6,
+            name: 'სათაური',
+            link: '#'
+        },
+        {
+            id: 7,
+            name: 'სათაური',
+            link: '#'
+        },
+        {
+            id: 8,
+            name: 'სათაური',
+            link: '#'
+        },
+        {
+            id: 9,
+            name: 'სათაური',
+            link: '#'
+        },
+        {
+            id: 10,
+            name: 'სათაური',
+            link: '#'
+        },
+        {
+            id: 11,
+            name: 'სათაური',
+            link: '#'
+        },
+        {
+            id: 12,
+            name: 'სათაური',
+            link: '#'
+        }
+    ],
+    IT_5: [
+        {
+            id: 1,
+            name: 'კომპიუტერი 5 კლასი 1 გაკვ',
+            link: './Computer-Science/Computer_parts/C-1366-01-01.html'
+        },
+        {
+            id: 2,
+            name: 'კომპიუტერი 5 კლასი 2 გაკვ',
+            link: './Computer-Science/algorithme/C-1366-02-03.html'
+        },
+        {
+            id: 3,
+            name: 'კომპიუტერი 5 კლასი 3 გაკვ',
+            link: '#'
+        },
+        {
+            id: 4,
+            name: 'სათაური',
+            link: '#'
+        },
+        {
+            id: 5,
+            name: 'სათაური',
+            link: '#'
+        },
+        {
+            id: 6,
+            name: 'სათაური',
+            link: '#'
+        },
+        {
+            id: 7,
+            name: 'სათაური',
+            link: '#'
+        },
+        {
+            id: 8,
+            name: 'სათაური',
+            link: '#'
+        },
+        {
+            id: 9,
+            name: 'სათაური',
+            link: '#'
+        },
+        {
+            id: 10,
+            name: 'სათაური',
+            link: '#'
+        },
+        {
+            id: 11,
+            name: 'სათაური',
+            link: '#'
+        },
+        {
+            id: 12,
+            name: 'სათაური',
+            link: '#'
+        }
+    ],
+    IT_6: [
+        {
+            id: 1,
+            name: 'კომპიუტერი 6 კლასი 1 გაკვ',
+            link: './Computer-Science/Computer_parts/C-1366-01-01.html'
+        },
+        {
+            id: 2,
+            name: 'კომპიუტერი 6 კლასი 2 გაკვ',
+            link: './Computer-Science/algorithme/C-1366-02-03.html'
+        },
+        {
+            id: 3,
+            name: 'კომპიუტერი 6 კლასი 3 გაკვ',
             link: '#'
         },
         {
@@ -655,4 +960,4 @@ let title = {
             link: '#'
         }
     ]
-};
+}
