@@ -324,7 +324,13 @@ Vue.component('appSelect', {
                             <div v-for="title in titleCheck" :key="title.id" class="col-4 app-select_box">
                                 <div class="row">
                                     <div class="col-10 app-select_box-content d-flex justify-content-center align-items-center">
-                                         <a :href="path + title.link">{{ title.name }}</a>
+                                         <transition
+                                              enter-active-class="animated fadeIn"
+                                              leave-active-class="animated fadeOut"
+                                              :duration="550"
+                                              mode="out-in">
+                                              <a :href="path + title.link" :key="title.name">{{ title.name }}</a>
+                                         </transition>
                                     </div>
                                 </div>
                             </div>
@@ -464,6 +470,7 @@ var app = new Vue({
         }
     },
     computed: {
+        // აგენერირებს პომპონენტებს დინამიურად
         currentTabComponent() {
             this.dots.forEach(dot => {
                 if (dot.name === this.link.toLowerCase()) {
@@ -653,69 +660,69 @@ let title = {
     IT_2: [
         {
             id: 1,
-            name: 'კომპიუტერი 2 კლასი 1 გაკვ',
-            link: './Computer-Science/Computer_parts/C-1366-01-01.html'
+            name: 'პირობითი ნიშნების ენა',
+            link: 'Computer-Science/Class-2/conditional-signs-1/1.html'
         },
         {
             id: 2,
-            name: 'კომპიუტერი 2 კლასი 2 გაკვ',
-            link: './Computer-Science/algorithme/C-1366-02-03.html'
+            name: 'პირობითი ნიშნები ჩვენ ირგვლივ',
+            link: 'Computer-Science/Class-2/...'
         },
         {
             id: 3,
             name: 'კომპიუტერი 2 კლასი 3 გაკვ',
-            link: '#'
+            link: 'Computer-Science/Class-2/...'
         },
         {
             id: 4,
-            name: 'კომპიუტერი 2 კლასი 4 გაკვ',
-            link: '#'
+            name: ',,ციკლები” ჩვენ ცხოვრებაში',
+            link: 'Computer-Science/Class-2/...'
         },
         {
             id: 5,
             name: 'კომპიუტერი 2 კლასი 5 გაკვ',
-            link: '#'
+            link: 'Computer-Science/Class-2/...'
         },
         {
             id: 6,
             name: 'კომპიუტერი 2 კლასი 6 გაკვ',
-            link: '#'
+            link: 'Computer-Science/Class-2/...'
         },
         {
             id: 7,
-            name: 'სათაური',
-            link: '#'
+            name: 'კომპიუტერული პროგრამებით დავალების შესრულება',
+            link: 'Computer-Science/Class-2/...'
         },
         {
             id: 8,
             name: 'სათაური',
-            link: '#'
+            link: 'Computer-Science/Class-2/...'
         },
         {
             id: 9,
             name: 'სათაური',
-            link: '#'
+            link: 'Computer-Science/Class-2/...'
         },
         {
             id: 10,
             name: 'სათაური',
-            link: '#'
+            link: 'Computer-Science/Class-2/...'
         },
         {
             id: 11,
             name: 'სათაური',
-            link: '#'
+            link: 'Computer-Science/Class-2/...'
         },
         {
             id: 12,
             name: 'სათაური',
-            link: '#'
+            link: 'Computer-Science/Class-2/...'
         }
     ],
     IT_3: [
         {
             id: 1,
-            name: 'კომპიუტერი 3 კლასი 1 გაკვ',
+            name: 'კომპიუტერის შექმნისა და განვითარების მოკლე ისტორია',
             link: './Computer-Science/Computer_parts/C-1366-01-01.html'
         },
         {
@@ -731,7 +738,7 @@ let title = {
         {
             id: 4,
             name: 'ალგორითმი და ალგორითმის შემუშავება',
-            link: ''
+            link: 'Computer-Science/algorithmes-02/1.html'
         },
         {
             id: 5,
