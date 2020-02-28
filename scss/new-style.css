@@ -18854,6 +18854,11 @@ td img {
   width: 18.15vw;
 }
 
+.art-10-14-image-empty-div-container img {
+  width: 100%;
+  height: 100%;
+}
+
 .art-10-18-image-div-container {
   height: 35.15vh;
   margin-top: 12.89vh;
@@ -20257,7 +20262,7 @@ td img {
 .c-02-7-img {
   position: absolute;
   top: -6vh;
-  right: 0;
+  left: 2vw;
 }
 
 .c-02-8-img {
@@ -20454,6 +20459,30 @@ td img {
   font-weight: bold;
 }
 
+.c-02-28-game-div {
+  width: 6.45vw;
+  height: 6.84vh;
+  background-color: #D51C29;
+  border-radius: 10px;
+  position: absolute;
+  left: 18vw;
+  bottom: 24vh;
+}
+
+.c-02-28-game-div span {
+  color: #FFBE32;
+  font-size: 3vh;
+  font-family: 'Arial';
+  font-weight: bold;
+}
+
+.c-02-28-pine {
+  height: 9.6vh;
+  width: 20vw;
+  left: 18vw;
+  bottom: 40vh;
+}
+
 .cs-2-1-1-signs-img {
   height: 17.65vh;
   margin: 20vh auto;
@@ -20642,6 +20671,17 @@ td img {
   color: #62548a;
 }
 
+.c-02-20-img {
+  position: absolute;
+  bottom: 0;
+  right: -17vh;
+  height: 51vh;
+}
+
+.c-02-20-img img {
+  height: 100%;
+}
+
 .cs-2-4-7-img-container img {
   height: 14.84vh;
   margin-bottom: 2.6vh;
@@ -20691,6 +20731,17 @@ td img {
 
 .cs-2-4-16-img-div img {
   height: 100%;
+}
+
+.cs-2-4-18-img {
+  height: 50.34vh;
+  margin-top: 1vh;
+}
+
+.cs-2-4-19-ill-img {
+  height: 50vh;
+  position: relative;
+  bottom: 5vh;
 }
 
 .canvas-container {
