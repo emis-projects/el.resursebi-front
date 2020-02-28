@@ -20320,6 +20320,85 @@ td img {
   height: 100%;
 }
 
+.game-div div {
+  width: 4vw;
+  height: 8vh;
+}
+
+.game-div .c-2-4-12-div-1 {
+  top: 1vh;
+  right: 8.6vw;
+}
+
+.game-div .c-2-4-12-div-2 {
+  top: 11.8vh;
+  right: 1vw;
+}
+
+.game-div .c-2-4-12-div-3 {
+  top: 29vh;
+  right: 1vw;
+}
+
+.game-div .c-2-4-12-div-4 {
+  bottom: 1vh;
+  right: 8.6vw;
+}
+
+.game-div .c-2-4-12-div-5 {
+  top: 29vh;
+  left: 1vw;
+}
+
+.game-div .c-2-4-12-div-6 {
+  top: 11.8vh;
+  left: 1vw;
+}
+
+.background-c-02-04-23 {
+  background-image: url(../img/gakvetilebi/Computer-Science/Class-2/cycle-4/C-2-4-23.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-c-02-04-23 .title-59 h1 {
+  color: #62548a;
+}
+
+.background-c-02-04-24 {
+  background-image: url(../img/gakvetilebi/Computer-Science/Class-2/cycle-4/C-2-4-24.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-c-02-04-24 .title-59 h1 {
+  color: #62548a;
+}
+
+.background-c-02-04-25 {
+  background-image: url(../img/gakvetilebi/Computer-Science/Class-2/cycle-4/C-2-4-25.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-c-02-04-25 .title-59 h1 {
+  color: #62548a;
+}
+
+.background-c-02-04-26 {
+  background-image: url(../img/gakvetilebi/Computer-Science/Class-2/cycle-4/C-2-4-26.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-c-02-04-26 .title-59 h1 {
+  color: #62548a;
+}
+
 .cs-2-4-7-img-container img {
   height: 14.84vh;
   margin-bottom: 2.6vh;
@@ -21007,85 +21086,6 @@ body {
 .dj-1_5vh {
   font-family: 'DejaVuSans';
   font-size: 1.5vh;
-}
-
-.game-div div {
-  width: 4vw;
-  height: 8vh;
-}
-
-.game-div .c-2-4-12-div-1 {
-  top: 1vh;
-  right: 8.6vw;
-}
-
-.game-div .c-2-4-12-div-2 {
-  top: 11.8vh;
-  right: 1vw;
-}
-
-.game-div .c-2-4-12-div-3 {
-  top: 29vh;
-  right: 1vw;
-}
-
-.game-div .c-2-4-12-div-4 {
-  bottom: 1vh;
-  right: 8.6vw;
-}
-
-.game-div .c-2-4-12-div-5 {
-  top: 29vh;
-  left: 1vw;
-}
-
-.game-div .c-2-4-12-div-6 {
-  top: 11.8vh;
-  left: 1vw;
-}
-
-.background-c-02-04-23 {
-  background-image: url(../img/gakvetilebi/Computer-Science/Class-2/cycle-4/C-2-4-23.svg);
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.background-c-02-04-23 .title-59 h1 {
-  color: #62548a;
-}
-
-.background-c-02-04-24 {
-  background-image: url(../img/gakvetilebi/Computer-Science/Class-2/cycle-4/C-2-4-24.svg);
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.background-c-02-04-24 .title-59 h1 {
-  color: #62548a;
-}
-
-.background-c-02-04-25 {
-  background-image: url(../img/gakvetilebi/Computer-Science/Class-2/cycle-4/C-2-4-25.svg);
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.background-c-02-04-25 .title-59 h1 {
-  color: #62548a;
-}
-
-.background-c-02-04-26 {
-  background-image: url(../img/gakvetilebi/Computer-Science/Class-2/cycle-4/C-2-4-26.svg);
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.background-c-02-04-26 .title-59 h1 {
-  color: #62548a;
 }
 
 .canvas-container {
