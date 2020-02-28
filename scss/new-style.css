@@ -20257,7 +20257,7 @@ td img {
 .c-02-7-img {
   position: absolute;
   top: -6vh;
-  right: 0;
+  left: 2vw;
 }
 
 .c-02-8-img {
@@ -20642,6 +20642,17 @@ td img {
   color: #62548a;
 }
 
+.c-02-20-img {
+  position: absolute;
+  bottom: 0;
+  right: -17vh;
+  height: 51vh;
+}
+
+.c-02-20-img img {
+  height: 100%;
+}
+
 .canvas-container {
   width: 100% !important;
 }
@@ -20652,3 +20663,4 @@ td img {
   top: 0;
   width: 100%;
 }
+/*# sourceMappingURL=new-style.css.map */
