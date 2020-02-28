@@ -1819,15 +1819,15 @@ body {
 }
 
 .completed__btn {
-  border-radius: 27px;
-  height: 38px;
-  width: 167px;
+  border-radius: 4vh;
+  height: 6vh;
+  width: 27vh;
   text-align: center;
   color: #7FD1D8;
   background-color: #fff;
   box-shadow: 2px 2px 8px rgba(127, 209, 216, 0.4);
   font-family: "ALK Sanet";
-  font-size: 11px;
+  font-size: 1.7vh;
   letter-spacing: 1.1px;
   transition: all 0.3s;
 }
@@ -1845,16 +1845,18 @@ body {
 
 .reset__btn {
   background: #fff;
-  border-radius: 27px;
-  height: 38px;
-  width: 167px;
+  border-radius: 4vh;
+  height: 6vh;
+  width: 27vh;
   text-align: center;
   color: #F8D24B;
+  -webkit-box-shadow: 2px 2px 8px rgba(248, 210, 73, 0.4);
   box-shadow: 2px 2px 8px rgba(248, 210, 73, 0.4);
-  margin-bottom: 10px;
+  margin-bottom: 3vh;
   font-family: "ALK Sanet";
-  font-size: 11px;
+  font-size: 1.7vh;
   letter-spacing: 1.1px;
+  -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
 .reset__btn:hover {
@@ -16194,7 +16196,7 @@ td img {
 
 .n-10-28-image {
   right: 29vw;
-  bottom: 0;
+  bottom: 5.599vh;
 }
 .n-10-28-image svg {
   height: 40vh;
@@ -16226,6 +16228,50 @@ td img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.allimageContTopRight {
+  background-color: #CC6AE5;
+  padding: 10px;
+  max-width: 9.59vw;
+  position: absolute;
+  top: 3vh;
+  right: 3vw;
+  border-radius: 5px;
+  font-family: "BPG Nino Mtavruli Bold";
+}
+
+.startGame {
+  display: inline-block;
+  background-color: #47E67C;
+  width: 100%;
+  border-radius: 5px;
+  text-align: center;
+  color: #fff;
+}
+
+.allimageContTimeParent {
+  background-color: black;
+  padding: 10px;
+  margin-top: 11px;
+  margin-bottom: 7px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.allimageContTimeParent div {
+  color: #47E67C;
+  font-size: 20px;
+  line-height: 1;
+}
+
+.allimageCont .temperature {
+  position: absolute;
+  left: 50%;
+  top: 45px;
+  transform: translateX(-50%);
+  display: flex;
 }
 
 .n-10-34-images {
@@ -17331,13 +17377,125 @@ td img {
   font-weight: bold;
 }
 
+.cs-2-1-1-signs-img {
+  height: 17.65vh;
+  margin: 20vh auto;
+}
+
+.cs-2-1-11-ill-img {
+  height: 69.92vh;
+  position: relative;
+  bottom: 5vh;
+}
+
+.cs-2-1-6-1-ill-img {
+  height: 55.85vh;
+}
+
+.cs-2-1-5-1-ill-img {
+  height: 60.28vh;
+  position: relative;
+  bottom: -4vh;
+}
+
+.cs-2-1-20-1-img {
+  height: 47.2vh;
+}
+
+.kirkita-way-cont {
+  margin-top: 3vh;
+}
+.kirkita-way-cont-row {
+  display: flex;
+}
+.kirkita-way-item {
+  width: 8.98vh;
+  height: 8.98vh;
+  background-color: #c4d3ee;
+  border-radius: 2vh;
+  margin: 0.5vh;
+  position: relative;
+}
+.kirkita-way-item-img {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.kirkita-way-item-img-fox {
+  bottom: 1vh;
+  height: 5.2vh;
+}
+.kirkita-way-item-img-elephant {
+  top: 2vh;
+  height: 4.29vh;
+}
+.kirkita-way-item-img-astronaut {
+  height: 8.64vh;
+  bottom: 0;
+}
+.kirkita-way-item-img-rabbit {
+  height: 7.2vh;
+  top: 1vh;
+}
+.kirkita-way-item-img-bear {
+  height: 4.55vh;
+  top: 2vh;
+}
+.kirkita-way-item-danger {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-2/conditional-signs-1/games/waves-bg.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.sign-description-btn {
+  height: 4.85vh;
+  width: 25.18vh;
+  background: white;
+  box-shadow: 2px 2px 8px rgba(148, 125, 206, 0.4);
+  border-radius: 2vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.sign-description-btn-title {
+  font-size: 1.8vh;
+  color: #62548A;
+  line-height: 2vh;
+  padding: 3vh;
+  font-family: "FiraGO Book";
+}
+
+.cs-2-1-9-forbidden-img {
+  height: 12.36vh;
+}
+
+.cs-weather-game-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4vh;
+}
+.cs-weather-img {
+  margin-bottom: 2vh;
+}
+.cs-weather-img-sun {
+  height: 6.85vh;
+}
+.cs-weather-img-rain {
+  height: 11.97vh;
+}
+.cs-weather-img-sunAndCloud {
+  height: 9.11vh;
+}
+
 .background-c-02-01-26 {
   background-image: url(../img/gakvetilebi/Computer-Science/Class-2/conditional-signs-1/C-2-1-26.svg);
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
 }
-
 .background-c-02-01-26 .title-59 h1 {
   color: #62548a;
 }
@@ -17348,7 +17506,6 @@ td img {
   background-size: cover;
   background-repeat: no-repeat;
 }
-
 .background-c-02-01-27 .title-59 h1 {
   color: #62548a;
 }
@@ -17359,7 +17516,6 @@ td img {
   background-size: cover;
   background-repeat: no-repeat;
 }
-
 .background-c-02-01-28 .title-59 h1 {
   color: #62548a;
 }
@@ -17370,7 +17526,6 @@ td img {
   background-size: cover;
   background-repeat: no-repeat;
 }
-
 .background-c-02-01-29 .title-59 h1 {
   color: #62548a;
 }
