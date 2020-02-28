@@ -1345,6 +1345,69 @@ body {
   padding-top: 13px;
 }
 
+.mt-1_5vh {
+  margin-top: 1.5vh;
+}
+
+.mt-2vh {
+  margin-top: 2vh;
+}
+
+.mt-2_5vh {
+  margin-top: 2.5vh;
+}
+
+.mt-3vh {
+  margin-top: 3vh;
+}
+
+.mt-3_5vh {
+  margin-top: 3.5vh;
+}
+
+.mt-4vh {
+  margin-top: 4vh;
+}
+
+.mt-4_5vh {
+  margin-top: 4.5vh;
+}
+
+.mt-5vh {
+  margin-top: 5vh;
+}
+
+.mt-5_5vh {
+  margin-top: 5.5vh;
+}
+
+.mt-10vh {
+  margin-top: 10vh;
+}
+
+.mt-15vh {
+  margin-top: 15vh;
+}
+
+.mt-20vh {
+  margin-top: 20vh;
+}
+
+.dj-3vh {
+  font-family: "DejaVuSans";
+  font-size: 3.3vh;
+}
+
+.dj-1_8vh {
+  font-family: "DejaVuSans";
+  font-size: 1.8vh;
+}
+
+.dj-1_5vh {
+  font-family: "DejaVuSans";
+  font-size: 1.5vh;
+}
+
 header {
   height: 6vh;
   width: 100%;
