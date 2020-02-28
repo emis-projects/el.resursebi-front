@@ -1,0 +1,91 @@
+.cs-weather-images {
+  &-container {
+    position: relative;
+  }
+  &-item {
+    height: 13.15vh;
+    position: absolute;
+    &:nth-child(1) {
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    &:nth-child(2) {
+      top: 16.15vh;
+      left: 0;
+    }
+    &:nth-child(3) {
+      top: 16.15vh;
+      right: 0;
+    }
+    &:nth-child(4) {
+      left: 50%;
+      top: 32.3vh;
+      transform: translateX(-50%);
+    }
+  }
+  &-dropped {
+    &-container {
+      position: relative;
+    }
+    &-box {
+      background-color: #ece9f5;
+      width: 16.38vh;
+      height: 15.86vh;
+      position: absolute;
+      border-radius: 3vh;
+      &:nth-child(1) {
+        top: 0;
+        left: 0;
+      }
+      &:nth-child(2) {
+        top: 0;
+        left: 32vh;
+      }
+      &:nth-child(3) {
+        top: 32vh;
+        left: 0;
+      }
+      &:nth-child(4) {
+        top: 32vh;
+        left: 32vh;
+      }
+      .cs-weather-images-item {
+        height: 10.86vh;
+        bottom: 2vh;
+        left: 50%;
+        transform: translateX(-50%);
+        right: auto;
+        top: auto;
+      }
+    }
+    &-line-horizontal {
+      width: 5.2vh;
+      height: 0.7vh;
+      background-color: #ece9f5;
+      position: absolute;
+      &:nth-child(1) {
+        top: 8vh;
+        left: 21.5vh;
+      }
+      &:nth-child(2) {
+        top: 40vh;
+        left: 21.5vh;
+      }
+    }
+    &-line-vertical {
+      width: 0.7vh;
+      height: 5.2vh;
+      background-color: #ece9f5;
+      position: absolute;
+      &:nth-child(1) {
+        top: 21.5vh;
+        left: 8vh;
+      }
+      &:nth-child(2) {
+        top: 21.5vh;
+        left: 40vh;
+      }
+    }
+  }
+}

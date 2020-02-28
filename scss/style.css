@@ -1637,17 +1637,17 @@ body {
 }
 
 .dj-3vh {
-  font-family: "DejaVuSans";
+  font-family: 'DejaVuSans';
   font-size: 3.3vh;
 }
 
 .dj-1_8vh {
-  font-family: "DejaVuSans";
+  font-family: 'DejaVuSans';
   font-size: 1.8vh;
 }
 
 .dj-1_5vh {
-  font-family: "DejaVuSans";
+  font-family: 'DejaVuSans';
   font-size: 1.5vh;
 }
 
@@ -16646,3 +16646,4 @@ td img {
   display: -ms-flexbox;
   display: flex;
 }
+/*# sourceMappingURL=style.css.map */
