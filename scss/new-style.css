@@ -20682,6 +20682,17 @@ td img {
   height: 100%;
 }
 
+.cs-2-4-18-img {
+  height: 50.34vh;
+  margin-top: 1vh;
+}
+
+.cs-2-4-19-ill-img {
+  height: 50vh;
+  position: relative;
+  bottom: 5vh;
+}
+
 .canvas-container {
   width: 100% !important;
 }
@@ -20692,3 +20703,4 @@ td img {
   top: 0;
   width: 100%;
 }
+/*# sourceMappingURL=new-style.css.map */
