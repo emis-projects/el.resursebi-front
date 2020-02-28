@@ -676,7 +676,7 @@ let title = {
         {
             id: 4,
             name: ',,ციკლები” ჩვენ ცხოვრებაში',
-            link: 'Computer-Science/Class-2/...'
+            link: 'Computer-Science/Class-2/cycle-4/1.html'
         },
         {
             id: 5,
