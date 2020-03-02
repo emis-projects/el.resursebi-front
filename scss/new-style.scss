@@ -7,7 +7,6 @@
 @import "Partials/reset";
 
 // modules
-@import "Modules/base";
 @import "Modules/mixins";
 
 // functions
@@ -17,6 +16,10 @@
 
 @import "./Pages/pages--import";
 @import "./Pages/new-pages--import";
+
+
+
+@import "Modules/base";
 
 
 .canvas-container {
