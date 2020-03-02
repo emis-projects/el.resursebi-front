@@ -19540,6 +19540,122 @@ td img {
   margin-top: -6vh;
 }
 
+.n-11-20-game {
+  background-color: #C59A5B;
+  padding: 15px 0;
+  padding-left: 4.173vw;
+  padding-right: 4.173vw;
+}
+
+.n-11-20-game-child {
+  background-color: #E7E8E9;
+  border-radius: 15px;
+  width: 14.641vw;
+  height: 18.099vh;
+  padding: 5px;
+}
+
+.n-11-20-game-child img {
+  cursor: pointer;
+}
+
+.n11-20-game-container {
+  max-width: 63.709vw;
+  display: block;
+  margin: 0 auto;
+}
+
+.n11-20-game-container .animated_left_right {
+  position: relative;
+  bottom: 0px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  height: 175px;
+  -webkit-transition: all 4.3s;
+  transition: all 4.3s;
+}
+
+.n11-20-game-container .left_side {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+  width: 23.108vw;
+  height: 1.042vh;
+  background-color: #DEAC41;
+}
+
+.n11-20-game-container .left_side > div {
+  background-color: #DC6C85;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.n11-20-game-container .left_side > div img {
+  position: absolute;
+  left: -20px;
+}
+
+.n11-20-game-container .left_side > div:nth-child(1) {
+  left: 1.464vw;
+}
+
+.n11-20-game-container .left_side > div:nth-child(2) {
+  left: 5.857vw;
+}
+
+.n11-20-game-container .left_side > div:nth-child(3) {
+  left: 10.249vw;
+}
+
+.n11-20-game-container .left_side > div:nth-child(4) {
+  left: 14.641vw;
+}
+
+.n11-20-game-container .right_side {
+  position: absolute;
+  right: 50%;
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+  width: 23.108vw;
+  height: 1.042vh;
+  z-index: -1;
+  background-color: #DEAC41;
+}
+
+.n11-20-game-container .right_side > div {
+  background-color: #DC6C85;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.n11-20-game-container .right_side > div:nth-child(1) {
+  right: 1.464vw;
+}
+
+.n11-20-game-container .right_side > div:nth-child(2) {
+  right: 5.857vw;
+}
+
+.n11-20-game-container .right_side > div:nth-child(3) {
+  right: 10.249vw;
+}
+
+.n11-20-game-container .right_side > div:nth-child(4) {
+  right: 14.641vw;
+}
+
 .sport_image_height {
   height: 100vh;
   position: absolute;

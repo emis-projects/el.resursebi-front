@@ -1,6 +1,6 @@
 .n-11-20-game {
     background-color: #C59A5B;
-    padding: 8px 0;
+    padding: 15px 0;
     padding-left: 4.173vw;
     padding-right: 4.173vw;
 
@@ -9,9 +9,99 @@
         border-radius: 15px;
         width: 14.641vw;
         height: 18.099vh;
+        padding: 5px;
 
         img {
             cursor: pointer;
         }
     }
 }
+
+
+.n11-20-game-container {
+    max-width: 63.709vw;
+    display: block;
+    margin: 0 auto;
+
+    .animated_left_right {
+        position: relative; 
+        bottom: 0px; 
+        left: 50%;
+        transform: translateX(-50%);
+        height: 175px;
+        transition: all 4.3s;
+    }
+
+
+    .left_side {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-100%);
+        width: 23.108vw;
+        height: 1.042vh;
+        background-color: #DEAC41;
+
+        > div {
+            background-color: #DC6C85;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+
+            img {
+                position: absolute;
+                left: -20px;
+            }
+
+            &:nth-child(1){
+                left: 1.464vw;
+            }
+            &:nth-child(2){
+                left: 5.857vw;
+            }
+            &:nth-child(3){
+                left: 10.249vw;
+            }
+            &:nth-child(4){
+                left: 14.641vw;
+            }
+        }
+    }
+    
+    .right_side {
+        position: absolute;
+        right: 50%;
+        transform: translateX(100%);
+        width: 23.108vw;
+        height: 1.042vh;
+        z-index: -1;
+        background-color: #DEAC41;
+
+
+        > div {
+            background-color: #DC6C85;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+
+            &:nth-child(1){
+                right: 1.464vw;
+            }
+            &:nth-child(2){
+                right: 5.857vw;
+            }
+            &:nth-child(3){
+                right: 10.249vw;
+            }
+            &:nth-child(4){
+                right: 14.641vw;
+            }
+        }
+    }
+}
+
