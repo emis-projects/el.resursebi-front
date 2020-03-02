@@ -1,0 +1,26 @@
+.cycle-6_bg-box {
+  height: 8vh;
+  max-height: 64px;
+  width: 24vw;
+  max-width: 340px;
+  color: #ffffff;
+  p{
+    padding: 0 24px;
+  }
+  &-blue{
+    height: inherit;
+    background: url("../img/gakvetilebi/Computer-Science/Class-2/cycle-4/cycle-bg-blue.svg") no-repeat center;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &-pink{
+    height: inherit;
+    background: url("../img/gakvetilebi/Computer-Science/Class-2/cycle-4/cycle-bg-pink.svg") no-repeat center;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

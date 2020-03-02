@@ -62,36 +62,39 @@
                     
                     <div class="allimageCont" style="position: relative; display: inline-block;height: max-content; margin-top: 7vh;">
                         <img style="height: initial" src="../../img/gakvetilebi/buneba/coat-10/Group 6229622222.svg" alt="">
+                        <!-- <img src="../../img/gakvetilebi/buneba/coat-10/Group 62298.svg" alt=""> -->
+                        <!-- <img src="../../img/gakvetilebi/buneba/coat-10/sintiponi.svg" alt=""> -->
+                        <!-- <img src="../../img/gakvetilebi/buneba/coat-10/bumbuli.svg" alt=""> -->
                         <img style="position: absolute;width: 10%;left: 50%;top: 18px;height: auto;transform: translateX(-50%);" src="../../img/gakvetilebi/buneba/coat-10/Group 61784.svg" alt="">
-                        <img style="position: absolute;width: 7vw;left: 50%;bottom: 38px;height: auto;transform: translateX(-50%);" src="../../img/gakvetilebi/buneba/coat-10/carieli.svg" alt="">
+                        <img class="carieli" data-isEmpty="0" style="position: absolute;width: 7vw;left: 50%;bottom: 38px;height: auto;transform: translateX(-50%);" src="../../img/gakvetilebi/buneba/coat-10/carieli.svg" alt="">
                         
                         
-                        <div class="temperature"><div class="temperature--num">55</div>°C</div>
+                        <div class="temperature"><div id="secondTimeDown" class="temperature--num">50</div>°C</div>
                         <div class="allimageContTopRight">
                             <p style="text-align: center; color: #fff;">დრო წუთებში</p>
                             <div class="allimageContTimeParent">
-                                <div class="allimageContTime">00:00</div>
+                                <div class="allimageContTime"><span id="second">00</span>:<span id="milliSecontd">00</span></div>
                             </div>
 
-                            <div class="startGame">დაწყება</div>
+                            <div class="startGame" id="startButton" style="cursor: context-menu;">დაწყება</div>
                         </div>
                     </div>
                     
                     <div class="n-10-28-objects d-flex flex-column justify-content-around">
                         <div class="n-10-28-obj-1 d-flex align-items-center">
-                            <div class="n-10-28-obj-box imge">
+                            <div class="n-10-28-obj-box imge" data-change="hay">
                                 <img style="pointer-events: none;" src="../../img/gakvetilebi/buneba/coat-10/hay.svg" alt="">
                             </div>
                             <span>თივა</span>
                         </div>
                         <div class="n-10-28-obj-2 d-flex align-items-center">
-                            <div class="n-10-28-obj-box imge">
+                            <div class="n-10-28-obj-box imge" data-change="syntipon">
                                 <img style="pointer-events: none;" src="../../img/gakvetilebi/buneba/coat-10/syntipon.svg" alt="">
                             </div>
                             <span>სინთიპონი</span>
                         </div>
                         <div class="n-10-28-obj-3 d-flex align-items-center">
-                            <div class="n-10-28-obj-box imge">
+                            <div class="n-10-28-obj-box imge" data-change="feather">
                                 <img style="pointer-events: none;" src="../../img/gakvetilebi/buneba/coat-10/feather.svg" alt="">
                             </div>
                             <span>ბუმბული</span>
