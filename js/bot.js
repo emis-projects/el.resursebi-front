@@ -15,13 +15,13 @@ $(msgInput).keyup(function () {
 })
 
 
-// bot image 
+// bot image
 if($('html').attr('data-botid') == '2318'){
     botImg = '/img/icons/xelovnebabot.png'
 
 } else if($('html').attr('data-botid') == '2320'){
     botImg = '/img/icons/bunebabot.png'
-    
+
 } else if($('html').attr('data-botid') == '2292'){
     botImg = '/img/icons/musikabot.png'
 
@@ -66,8 +66,8 @@ function sendMessageFromBot(res) {
 
         } else if(w.type == 2){
             // აუდიოები
-            
-            // sound js 
+
+            // sound js
             createjs.Sound.on("fileload", handleLoadComplete);
             createjs.Sound.alternateExtensions = ["wav"];
 
@@ -90,7 +90,7 @@ function sendMessageFromBot(res) {
             img.setAttribute('id', 'play-pause-btn');
             img.setAttribute('src', '/img/icons/play-solid.svg');
             img.classList.add('voice-mail-play')
-            
+
             div1.appendChild(div2);
             div2.appendChild(img);
 
@@ -115,32 +115,32 @@ function sendMessageFromBot(res) {
             })
 
 
-        
-        
+
+
         } else if(w.type == 3){
-            // ლინკები 
+            // ლინკები
             let a = document.createElement('a');
             $(a).attr('href', w.url)
             $(a).text(w.text)
             $(a).attr('target', '_blank')
-            $(div).append(a)   
+            $(div).append(a)
 
         } else if(w.type == 4){
             let a = document.createElement('a');
             $(a).attr('href', w.url)
             $(a).text(w.text)
             $(a).attr('target', '_blank')
-            $(div).append(a)  
+            $(div).append(a)
 
-        
+
         } else if(w.type == 5){
 
             messageTextes(w, div)
 
             type5Functionaly(w)
-        
+
         } else if (w.type == 6) {
-            // ღილაკები 
+            // ღილაკები
 
             console.log(w);
 
@@ -172,7 +172,7 @@ function sendMessageFromBot(res) {
 
 function dynamicEvent(url, img) {
     img.setAttribute('data-voice', url)
-    createjs.Sound.registerSound({src:`${img.getAttribute('data-voice')}`, id:"sound"});   
+    createjs.Sound.registerSound({src:`${img.getAttribute('data-voice')}`, id:"sound"});
 }
 
 
@@ -194,14 +194,14 @@ function sendMessageFromUser(text) {
 $(document).on("click", ".chat_msg_item-buttons button", function (e) {
     $(getTag).scrollTop($(getTag)[0].scrollHeight)
     var btnText = e.target.innerText;
-    
+
     sendMessageFromUser(btnText)
-    
+
     messangerTyping()
 
     $.ajax({
         type: "POST",
-        url: 'https://5084eced.ngrok.io/WCAPI',
+        url: 'https://animabot.ngrok.io/WCAPI',
         data: JSON.stringify({
             "message": btnText,
             "botid": $('html').attr('data-botid')
@@ -224,7 +224,7 @@ $(document).on("click", ".chat_msg_item-buttons button", function (e) {
 
 $(document).on("click", ".image-popup-no-margins", function (e) {
     e.preventDefault();
-    
+
     $(this).magnificPopup({
         type: 'image',
         closeOnContentClick: true,
@@ -248,12 +248,12 @@ function sendMessage(e) {
     let msgText = msgInput.val();
 
     sendMessageFromUser(msgText);
-    
+
     messangerTyping()
-    
+
     $.ajax({
         type: "POST",
-        url: 'https://5084eced.ngrok.io/WCAPI',
+        url: 'https://animabot.ngrok.io/WCAPI',
         data: JSON.stringify({
             "message": msgText,
             "botid": $('html').attr('data-botid')
@@ -304,10 +304,10 @@ function type5Functionaly(data){
     data.buttons.forEach(data => {
         if(data.type == 0){
             console.log(0);
-            
+
         } else if(data.type == 1){
             console.log(1);
-    
+
         } else if(data.type == 2){
             console.log(2);
         }

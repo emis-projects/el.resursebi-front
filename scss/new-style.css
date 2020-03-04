@@ -20737,7 +20737,8 @@ td img {
 }
 
 .cycle-6_bg-box p {
-  padding: 0 24px;
+  padding: 0 5vh;
+  line-height: 1.8vh;
 }
 
 .cycle-6_bg-box-blue {
@@ -21323,3 +21324,4 @@ body {
   top: 0;
   width: 100%;
 }
+/*# sourceMappingURL=new-style.css.map */
