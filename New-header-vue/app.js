@@ -653,8 +653,8 @@ let title = {
         },
         {
             id: 12,
-            name: 'სათაური',
-            link: '#'
+            name: 'დედამიწა და გარე სამყარო',
+            link: 'Nature-Lessons/snow-12/1.html'
         }
     ],
     IT_2: [
