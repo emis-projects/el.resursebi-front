@@ -864,6 +864,19 @@
   }
 }
 
+.chat_msg_item_admin .phoneNumber {
+  color: #fff;
+  background: #D85471;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-bottom: 4px;
+  -webkit-transition: .3s;
+  transition: .3s;
+  margin-left: 10px;
+  outline: none;
+}
+
 @font-face {
   font-family: 'ALK Sanet';
   src: url("../fonts/alk-sanet/alk-sanet-webfont.eot");
@@ -8994,6 +9007,19 @@ section .arrow_up_down_downArrow img {
   }
 }
 
+.chat_msg_item_admin .phoneNumber {
+  color: #fff;
+  background: #D85471;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-bottom: 4px;
+  -webkit-transition: .3s;
+  transition: .3s;
+  margin-left: 10px;
+  outline: none;
+}
+
 .n-compass-img {
   height: 51.04vh;
   margin-top: -20vh;
@@ -16646,4 +16672,3 @@ td img {
   display: -ms-flexbox;
   display: flex;
 }
-/*# sourceMappingURL=style.css.map */
