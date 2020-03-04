@@ -35,15 +35,16 @@
       left: 0;
       right: 0;
       z-index: 5555;
-      background: transparent
-        linear-gradient(180deg, #00000000 20%, #000000 100%) 0% 0%;
+      background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 20%, rgb(0, 0, 0) 100%) 0 0;
+
       p {
         font-family: "Helvetica Neue", sans-serif;
         font-size: 5.5vh;
         margin-left: 2.6vh;
         line-height: 1vh;
         color: #fff;
-      }
+
+    }
       .icon-box {
         margin-top: 7.8vh;
         height: 4.7vh;
