@@ -1677,8 +1677,8 @@ body {
 
 #app .class_box .circles {
   cursor: pointer;
-  height: 57px;
-  width: 57px;
+  height: 8.7vh;
+  width: 8.7vh;
 }
 
 #app .class_box .circles_number-pink {
@@ -1700,8 +1700,8 @@ body {
 }
 
 #app .class_box .circles_number-pink img {
-  height: 30px;
-  width: 30px;
+  height: 4.5vh;
+  width: 4.5vh;
 }
 
 #app .class_box .circles_number-white {
@@ -1723,8 +1723,8 @@ body {
 }
 
 #app .class_box .circles_number-white img {
-  height: 30px;
-  width: 30px;
+  height: 4.5vh;
+  width: 4.5vh;
 }
 
 #app .active {
