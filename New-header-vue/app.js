@@ -653,8 +653,8 @@ let title = {
         },
         {
             id: 12,
-            name: 'სათაური',
-            link: '#'
+            name: 'დედამიწა და გარე სამყარო',
+            link: 'Nature-Lessons/snow-12/1.html'
         }
     ],
     IT_2: [
@@ -666,7 +666,7 @@ let title = {
         {
             id: 2,
             name: 'პირობითი ნიშნები ჩვენ ირგვლივ',
-            link: 'Computer-Science/Class-2/...'
+            link: 'Computer-Science/Class-2/marks-2/1.html'
         },
         {
             id: 3,

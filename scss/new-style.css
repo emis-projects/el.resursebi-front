@@ -1690,8 +1690,8 @@ body {
 
 #app .class_box .circles {
   cursor: pointer;
-  height: 57px;
-  width: 57px;
+  height: 8.7vh;
+  width: 8.7vh;
 }
 
 #app .class_box .circles_number-pink {
@@ -1713,8 +1713,8 @@ body {
 }
 
 #app .class_box .circles_number-pink img {
-  height: 30px;
-  width: 30px;
+  height: 4.5vh;
+  width: 4.5vh;
 }
 
 #app .class_box .circles_number-white {
@@ -1736,8 +1736,8 @@ body {
 }
 
 #app .class_box .circles_number-white img {
-  height: 30px;
-  width: 30px;
+  height: 4.5vh;
+  width: 4.5vh;
 }
 
 #app .active {
@@ -4451,8 +4451,8 @@ section .arrow_up_down_downArrow img {
   left: 0;
   right: 0;
   z-index: 5555;
-  background: transparent -webkit-gradient(linear, left top, left bottom, color-stop(20%, #00000000), to(#000000)) 0% 0%;
-  background: transparent linear-gradient(180deg, #00000000 20%, #000000 100%) 0% 0%;
+  background: transparent -webkit-gradient(linear, left top, left bottom, color-stop(20%, rgba(0, 0, 0, 0)), to(black)) 0 0;
+  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 20%, black 100%) 0 0;
 }
 
 .main-box_absolute .main-box_relative .text-wrapper p {
@@ -20913,6 +20913,337 @@ td img {
 .cs-weather-images-dropped-line-vertical:nth-child(2) {
   top: 21.5vh;
   left: 40vh;
+}
+
+.marks_img-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 58vh;
+  max-height: 447px;
+}
+
+.marks_img-box img {
+  height: 100%;
+}
+
+.marks p {
+  text-align: center;
+}
+
+.cs-2-2-6-sign-description-btn-title {
+  height: 5.85vh;
+}
+
+.cs-2-2-6-img-bg {
+  height: 11.71vh;
+}
+
+.cs-2-2-6-img-sm {
+  height: 9.11vh;
+}
+
+.cs-2-2-7-img-div {
+  margin-bottom: 2.73vh;
+}
+
+.cs-2-2-7-img-div p {
+  margin-bottom: 1.56vh;
+}
+
+.cs-2-2-7-img-row {
+  margin-left: 5.85vh;
+}
+
+.cs-2-2-7-img-div img {
+  height: 8.72vh;
+}
+
+.cs-2-2-8-sign-description-btn-title {
+  height: 5.85vh;
+  width: 27.5vh;
+}
+
+.cs-2-2-8-img-bg {
+  height: 9.7vh;
+}
+
+.cs-2-2-8-img-sm {
+  height: 6.31vh;
+}
+
+.cs-2-2-8-img-md {
+  height: 8.98vh;
+}
+
+.cs-2-2-8-col-container {
+  margin-left: 4.39vw;
+}
+
+.cs-2-2-9-img-div {
+  height: 40.75vh;
+}
+
+.cs-2-2-9-img-div img {
+  height: 100%;
+}
+
+.cs-2-2-10-img-div {
+  height: 29.29vh;
+  padding-top: 2.6vh;
+}
+
+.cs-2-2-10-img-div img {
+  height: 100%;
+}
+
+.cs-2-2-11-img-1 {
+  height: 7.81vh;
+}
+
+.cs-2-2-11-img-2 {
+  height: 9.24vh;
+}
+
+.cs-2-2-11-img-3 {
+  height: 4.55vh;
+}
+
+.cs-2-2-11-img-4 {
+  height: 8.13vh;
+}
+
+.cs-2-2-11-img-5 {
+  height: 6.99vh;
+}
+
+.cs-2-2-11-img-6 {
+  height: 11.45vh;
+}
+
+.cs-2-2-11-sign-description-btn-title {
+  height: 6.51vh;
+  width: 24.5vh;
+}
+
+.marks-12_box-img {
+  height: 62vh;
+  display: block;
+  max-height: 475px;
+  top: -11vh;
+  right: 0;
+}
+
+.marks-12_box-img img {
+  height: 100%;
+}
+
+.marks-15_box-img {
+  height: 62vh;
+  display: block;
+  max-height: 475px;
+}
+
+.marks-15_box-img img {
+  height: 100%;
+}
+
+.marks-16_box-img {
+  height: 29vh;
+  display: block;
+  max-height: 224px;
+}
+
+.marks-16_box-img img {
+  height: 100%;
+}
+
+.marks-18_box-img {
+  height: 20vh;
+  max-height: 158px;
+}
+
+.marks-18_box-img img {
+  height: 100%;
+}
+
+.marks-19 .buttons-boxes {
+  -webkit-box-shadow: 2px 2px 8px rgba(148, 125, 206, 0.4);
+          box-shadow: 2px 2px 8px rgba(148, 125, 206, 0.4);
+  padding: 20px 30px;
+  border-radius: 30px;
+  color: #947DCE;
+}
+
+.marks-19 .buttons-boxes:first-child {
+  margin-top: 5.5vh;
+}
+
+.marks-19_box-img {
+  height: 15vh;
+  max-height: 118px;
+  margin-top: 5.5vh;
+}
+
+.marks-19_box-img img {
+  height: 100%;
+}
+
+.marks_14_img-box {
+  height: 74vh;
+  max-height: 711px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.marks_14_img-box img {
+  height: 100%;
+}
+
+.marks_13_img-box {
+  height: 63vh;
+  max-height: 475px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.marks_13_img-box img {
+  height: 100%;
+}
+
+.marks_22_img-box {
+  height: 38vh;
+  max-height: 295px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.marks_22_img-box img {
+  height: 100%;
+}
+
+.marks_20_img-box {
+  height: 64vh;
+  max-height: 475px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.marks_20_img-box img {
+  height: 100%;
+}
+
+.marks_subject_item-title .newDesign_subject_question_item-title {
+  font-family: 'DejaVuSans';
+  font-size: 2.6vh;
+}
+
+.cs-2-2-3-ill-img {
+  height: 71.91vh;
+  position: relative;
+  top: -4vh;
+}
+
+.cs-2-2-4-ill-img {
+  height: 51.43vh;
+  position: relative;
+  bottom: -2vh;
+}
+
+.cs-2-2-5-trafficLight-img-1 {
+  height: 22.91vh;
+  margin: auto;
+}
+
+.cs-2-2-5-trafficLight-img-2 {
+  height: 77.47vh;
+  position: relative;
+  bottom: 49vh;
+}
+
+.cs-2-3-6-1-ill-img {
+  height: 73.91vh;
+  position: relative;
+  bottom: 7vh;
+}
+
+.cs-2-2-14-img {
+  height: 50.52vh;
+  margin-top: 3vh;
+}
+
+.cs-2-2-17-img {
+  height: 14.32vh;
+  margin: 8vh auto 0;
+}
+
+.cs-2-2-21-ill-img {
+  height: 60.28vh;
+  position: relative;
+  bottom: -7vh;
+}
+
+.background-cs-2-2-23 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-2/marks-2/cs-2-2-23-bg.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-2-2-24 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-2/marks-2/cs-2-2-24-bg.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-2-2-25 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-2/marks-2/cs-2-2-25-bg.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-2-2-26 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-2/marks-2/cs-2-2-26-bg.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-title-purple {
+  color: #62548A;
+  font-family: 'DejaVu Sans Oblique';
+  font-size: 3.64vh;
+}
+
+.background-cs-title-purple-cont {
+  padding-top: 10vh;
 }
 
 body {
