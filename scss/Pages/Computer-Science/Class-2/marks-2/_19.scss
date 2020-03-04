@@ -1,0 +1,19 @@
+.marks-19 {
+  .buttons-boxes{
+    box-shadow: 2px 2px 8px rgba(148, 125, 206, 0.4);
+    padding: 20px 30px;
+    border-radius: 30px;
+    color: #947DCE;
+    &:first-child{
+      margin-top: 5.5vh;
+    }
+  }
+  &_box-img {
+    height: 15vh;
+    max-height: 118px;
+    margin-top: 5.5vh;
+    img{
+      height: 100%;
+    }
+  }
+}
