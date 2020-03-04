@@ -1,0 +1,18 @@
+.marks {
+    &_img-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 58vh;
+        max-height: 447px;
+
+        img {
+            height: 100%;
+
+        }
+    }
+
+    p {
+        text-align: center;
+    }
+}

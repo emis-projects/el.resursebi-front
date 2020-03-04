@@ -11,7 +11,6 @@
        -->
     <link rel="stylesheet" href="../../../New-header-vue/animate.min.css">
     <link rel="stylesheet" href="../../../scss/libraries/bootstrap.min.css">
-    <link rel="stylesheet" href="../../../scss/libraries/magnific-popup.css">
     <link rel="stylesheet" href="../../../scss/new-style.css" />
     <title>ელექტრონული საგანმანათლებლო რესურსი</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -31,6 +30,10 @@
 
 <body>
     <div class="container">
+        <!-- სექცია id="app" არის Vue ნაწილი რომელიც ჰედერის ფუნქც. უზრუნველყოფს
+            app-menu & app-section თეგებს vlogo & v-image არგუმენტად უნდა გადაეცეს 
+            ტექსტი დონეების მითითებით მაგ: ""'../../'" 
+      -->
         <section id="app" class="container position-absolute">
             <header>
                 <app-menu v-logo="'../../../'" :is-active="isActive" :toggle="toggle"></app-menu>
@@ -47,8 +50,8 @@
             </app-section>
         </section>
 
-
-        <section id="mainPage">
+        <section>
+            <!-- ეს არის svg თეგირომელიც ქმნის მარცხენა ვერტიკალურ "ნავ რუკას" -->
             <div class="left_components_paging-cont">
                 <svg class="left_components_paging" xmlns="http://www.w3.org/2000/svg"
                     xmlns:xlink="http://www.w3.org/1999/xlink" width="134" height="722" viewBox="0 0 134 722">
@@ -116,11 +119,11 @@
                             data-name="Path 143736"
                             d="M-107,293.662h-25.155a28.388,28.388,0,0,0-21.1,9.686A34.87,34.87,0,0,0-162,326.736c0,18.266,13.362,33.074,29.844,33.074H-107c20.013,0,36.24,17.983,36.24,40.162V253.5C-70.762,275.679-86.988,293.662-107,293.662Z"
                             transform="translate(196 164.5)" fill="#dc6c85" />
-                        <path class="leftSidebar_type" style="opacity: 1" data-type="5" id="Path_24922"
+                        <path class="leftSidebar_type" style="opacity: 0" data-type="5" id="Path_24922"
                             data-name="Path 24922"
                             d="M-107,293.662h-25.155a28.388,28.388,0,0,0-21.1,9.686A34.87,34.87,0,0,0-162,326.736c0,18.266,13.362,33.074,29.844,33.074H-107c20.013,0,36.24,17.983,36.24,40.162V253.5C-70.762,275.679-86.988,293.662-107,293.662Z"
                             transform="translate(195.761 283.264)" fill="#7fd1d8" />
-                        <path class="leftSidebar_type" style="opacity: 0" data-type="3" id="Path_143735"
+                        <path class="leftSidebar_type" style="opacity: 1" data-type="3" id="Path_143735"
                             data-name="Path 143735"
                             d="M-107,293.662h-25.155a28.388,28.388,0,0,0-21.1,9.686A34.87,34.87,0,0,0-162,326.736c0,18.266,13.362,33.074,29.844,33.074H-107c20.013,0,36.24,17.983,36.24,40.162V253.5C-70.762,275.679-86.988,293.662-107,293.662Z"
                             transform="translate(195.761 57.264)" fill="#7fd1d8" />
@@ -437,13 +440,13 @@
                             <tspan x="0" y="0">მინიშნება</tspan>
                         </text>
                         <text id="შუალედური_დავალება" data-name="შუალედური
-                  დავალება" transform="translate(70 549)" fill="#c5cbcd" font-size="12"
+                        დავალება" transform="translate(70 549)" fill="#c5cbcd" font-size="12"
                             font-family="ALKSanet, ALK Sanet">
                             <tspan x="-35.344" y="0">შუალედური</tspan>
                             <tspan x="-30.636" y="12">დავალება</tspan>
                         </text>
                         <text id="კომპლექსური_დავალება" data-name="კომპლექსური
-                  დავალება" transform="translate(70 668)" fill="#c5cbcd" font-size="12"
+                        დავალება" transform="translate(70 668)" fill="#c5cbcd" font-size="12"
                             font-family="ALKSanet, ALK Sanet">
                             <tspan x="-42.015" y="0">კომპლექსური</tspan>
                             <tspan x="-30.636" y="12">დავალება</tspan>
@@ -451,27 +454,35 @@
                     </g>
                 </svg>
             </div>
-            <div class="row">
-                =<div class="col-10 m-auto">
-                    <img src="../../../img/gakvetilebi/Computer-Science/Class-2/conditional-signs-1/cs-2-1-1.png"
-                        alt="img" class="cs-2-1-1-signs-img">
-                    <h1 class="algorithme-title-italic">პირობითი ნიშნების ენა</h1>
+
+            <div class="row newDesign_hintPage">
+                <div class="col-6 m-auto d-flex flex-column center">
+                    <div class="newDesign_subject_question_item">
+                        <img src="../../../img/icons/newDesign_btn-yellow.svg" alt="img"
+                            class="newDesign_subject_question_item-img">
+                        <p class="newDesign_subject_question_item-title">
+                            რა იცოდი და რა იყო ახალი?
+                        </p>
+                    </div>
+                    <div class="newDesign_subject_question_item ">
+                        <img src="../../../img/icons/newDesign_btn-yellow.svg" alt="img"
+                            class="newDesign_subject_question_item-img">
+                        <p class="newDesign_subject_question_item-title">
+                            რაში გამოგადგება მიღებული ცოდნა?
+                        </p>
+                    </div>
                 </div>
-                <div class="our__pagination flex">
-                    <a href="#" class="pagination__prev__btn">
-                        <img style="transform: rotate(180deg)" src="../../../img/icons/chevron-left-icon.svg" alt="">
-                    </a>
-
-                    <div id="pagination" class="flex align-items-center"></div>
-
-                    <a href="#" class="pagination__next__btn">
-                        <img src="../../../img/icons/chevron-left-icon.svg" alt="">
-                    </a>
+                <div class="col-11">
+                    <div class="marks_13_img-box">
+                        <img src="../../../img/gakvetilebi/Computer-Science/Class-2/marks-2/C-2-2-13.svg" alt="">
+                    </div>
                 </div>
             </div>
+
+            <!-- გვერდების გადანომრვა - ნავიგაცია როცა მხოლო 1 გვერდიანი მინიშნებაა სექცია არ გვჭირდება -->
+
         </section>
     </div>
-
 
 
     <!-- ჩეთბოტი -->
@@ -479,16 +490,15 @@
         <app-bot></app-bot>
     </div>
 
-
     <script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
     <script src="../../../js/libraries/jquery.magnific-popup.min.js"></script>
-    <script src="../../../js/Pagination.js"></script>
 
 
     <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
     <script src="../../../New-header-vue/app.js"></script>
     <script src="../../../Vue-chatBot/botApp.js"></script>
     <script src="../../../js/bot.js"></script>
+
 </body>
 
 </html>
