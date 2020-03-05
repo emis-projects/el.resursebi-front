@@ -4264,8 +4264,8 @@ section .arrow_up_down_downArrow img {
   left: 0;
   right: 0;
   z-index: 5555;
-  background: transparent -webkit-gradient(linear, left top, left bottom, color-stop(20%, #00000000), to(#000000)) 0% 0%;
-  background: transparent linear-gradient(180deg, #00000000 20%, #000000 100%) 0% 0%;
+  background: transparent -webkit-gradient(linear, left top, left bottom, color-stop(20%, rgba(0, 0, 0, 0)), to(black)) 0 0;
+  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 20%, black 100%) 0 0;
 }
 
 .main-box_absolute .main-box_relative .text-wrapper p {
@@ -16642,10 +16642,6 @@ td img {
 }
 
 .red {
-  display: flex; }
-
-/*# sourceMappingURL=style.css.map */
-
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
