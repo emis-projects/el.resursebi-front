@@ -864,7 +864,7 @@
   }
 }
 
-.chat_msg_item_admin .phoneNumber {
+.chat_msg_item_admin .phoneNumber--style {
   color: #fff;
   background: #D85471;
   border: none;
@@ -9190,7 +9190,7 @@ section .arrow_up_down_downArrow img {
   }
 }
 
-.chat_msg_item_admin .phoneNumber {
+.chat_msg_item_admin .phoneNumber--style {
   color: #fff;
   background: #D85471;
   border: none;
@@ -21370,6 +21370,117 @@ td img {
 
 .background-cs-title-purple-cont {
   padding-top: 10vh;
+}
+
+.cs-3-8-2-internet-img {
+  height: 22.91vh;
+  margin-top: 3vh;
+}
+
+.cs-3-8-3-ill-img {
+  height: 55.98vh;
+  margin: auto;
+  position: relative;
+  bottom: -13vh;
+}
+
+.cs-3-8-6-ill-img {
+  height: 45.83vh;
+  position: relative;
+  bottom: -8vh;
+  margin: auto;
+}
+
+.cs-3-8-9-ill-img {
+  height: 58.7vh;
+  position: relative;
+  bottom: -1vh;
+  right: -27vh;
+}
+
+.cs-3-8-10-ill-img {
+  height: 48.17vh;
+  position: relative;
+  bottom: -21vh;
+}
+
+.cs-3-8-11-ill-img {
+  height: 56.87vh;
+  position: relative;
+  bottom: -0.5vh;
+}
+
+.cs-3-8-4-ill-img {
+  height: 31.85vh;
+  margin: 5vh auto 0;
+}
+
+.cs-3-8-5-lego-img {
+  height: 29.68vh;
+}
+
+.cs-3-8-67-server-img {
+  height: 34.29vh;
+  margin: 3vh auto 0;
+}
+
+.cs-3-8-8-network-img {
+  height: 46.74vh;
+  margin-top: 5vh;
+}
+
+.cs-3-8-12-ill-img {
+  height: 45.31vh;
+  margin-top: 5vh;
+}
+
+.cs-3-8-13-worldwide-img {
+  margin-top: 5vh;
+  height: 50.91vh;
+}
+
+.background-c-02-08-19 {
+  background-image: url(../img/gakvetilebi/Computer-Science/Class-2/programing-8/C-2-8-19.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-c-02-08-19 .title-59 h1 {
+  color: #62548a;
+}
+
+.background-c-02-08-20 {
+  background-image: url(../img/gakvetilebi/Computer-Science/Class-2/programing-8/C-2-8-20.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-c-02-08-20 .title-59 h1 {
+  color: #62548a;
+}
+
+.background-c-02-08-21 {
+  background-image: url(../img/gakvetilebi/Computer-Science/Class-2/programing-8/C-2-8-21.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-c-02-08-21 .title-59 h1 {
+  color: #62548a;
+}
+
+.background-c-02-08-22 {
+  background-image: url(../img/gakvetilebi/Computer-Science/Class-2/programing-8/C-2-8-22.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-c-02-08-22 .title-59 h1 {
+  color: #62548a;
 }
 
 body {

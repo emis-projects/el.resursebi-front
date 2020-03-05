@@ -298,69 +298,86 @@ function messangerTyping(){
 }
 
 
-$(document).on("click", ".phoneNumber", function (e) {
-    e.preventDefault();
+// $(document).on("click", ".phoneNumber", function (e) {
+//     e.preventDefault();
 
-    let div = e.target;
+//      if(e.target.classList.contains('phoneNumber')){
+//         let div = e.target;
 
-    let text = $(div).text();
-
-    let textArea  = document.createElement('textarea');
-    textArea.width  = "1px"; 
-    textArea.height = "1px";
-    textArea.background =  "transparents" ;
-    textArea.value = text;
-    document.body.append(textArea);
-    textArea.select();
-    document.execCommand('copy');   //No i18n
-    document.body.removeChild(textArea);
-
-    e.target.innerText = "თექსტი დაკოპირებულია"
-
-    setTimeout(()=> {
-        console.log(e.target);
-    }, 1000)
-
-});
+//         let clonedElement = $(div).clone().text();
+    
+//         let text = $(div).text();
+    
+//         let textArea  = document.createElement('textarea');
+//         textArea.width  = "1px"; 
+//         textArea.height = "1px";
+//         textArea.background =  "transparents" ;
+//         textArea.value = text;
+//         document.body.append(textArea);
+//         textArea.select();
+//         document.execCommand('copy');   //No i18n
+//         document.body.removeChild(textArea);
+    
+//         e.target.innerText = "ტექსტი დაკოპირებულია"
+//         $(e.target).removeClass('phoneNumber');
+    
+//         setTimeout(()=> {
+//             $(e.target).text(clonedElement);
+//             $(e.target).addClass('phoneNumber');
+//         }, 1000)
+    
+//      }
+// });
 
 
 function type5Functionaly(data, maindiv){
+    // type == 2 (string)
+    // type == 1 phone
+    // type == 0 link
 
     console.log(data);
 
     data.buttons.forEach(w => {
+        if(w.type == 2){
+            let div = document.createElement('div');
+            let btn = document.createElement('button');
+            div.classList.add('chat_msg_item-buttons');
 
-        // როცა payload არის სტრინგი
-        // if(w.type == 0){
-        //     let div = document.createElement('div');
-        //     let btn = document.createElement('button');
-        //     div.classList.add('chat_msg_item-buttons');
+            btn.innerText = w.title;
 
-        //     btn.innerText = w.title;
+            if(w.payload == ""){
+                btn.setAttribute('data-text', w.title)
 
-        //     if(w.payload == ""){
-        //         btn.setAttribute('data-text', w.title)
+            } else {
+                btn.setAttribute('data-text', w.payload)
+            }
 
-        //     } else {
-        //         btn.setAttribute('data-text', w.payload)
-        //     }
+            div.appendChild(btn);
 
-        //     div.appendChild(btn);
+            $(maindiv).append(div)
 
-        //     $(maindiv).append(div)
-        // } 
         
-
-        // როცა ნომერია 
-        if(w.type == 0){
+        } else if (w.type == 1){
             let div = document.createElement('div');
             let btn = document.createElement('button');
             btn.innerText = w.title;
             btn.classList.add('phoneNumber')
+            btn.classList.add('phoneNumber--style')
             div.setAttribute('style', 'display: flex; justify-content: center');
             div.appendChild(btn);
             $(maindiv).append(div)
-        }
 
+        } else if (w.type == 0){
+            let div = document.createElement('div');
+            let btn = document.createElement('a');
+            div.classList.add('chat_msg_item-buttons');
+            btn.innerText = w.title;
+            btn.classList.add('phoneNumber--style')
+            btn.setAttribute('style', 'display: inline-block')
+            btn.setAttribute('href', w.payload);
+            btn.setAttribute('target', '_blank');
+            div.appendChild(btn);
+            $(maindiv).append(div)
+        }
     })
 }
