@@ -6649,6 +6649,129 @@ section .arrow_up_down_downArrow img {
   font-family: 'BPG Arial', sans-serif;
 }
 
+#M-1366-57 .music_content_wrapper .mt-2 {
+  margin-top: 2.8vh;
+}
+
+#M-1366-57 .music_content_wrapper .music_code_box {
+  margin: 2.8vh 0;
+  height: 24.7vh;
+  width: 100%;
+  max-height: 190px;
+}
+
+#M-1366-57 .music_content_wrapper .music_code_box img {
+  height: 100%;
+}
+
+#M-1366-57 .listen_text-container {
+  max-width: 168px;
+}
+
+.game_buuton_wrapper {
+  position: absolute;
+  bottom: 12.5vh;
+  right: 10vw;
+}
+
+.btn-restart {
+  background: #F8D24B;
+  padding: 0 2.79vw;
+}
+
+.music_img-button {
+  margin: 3vh 0;
+}
+
+.music_img-button.selected {
+  outline: 2px solid #F8D24B;
+  outline-offset: -2px;
+}
+
+.music_img-button.error {
+  outline: 2px solid #dc6c85;
+  outline-offset: -2px;
+}
+
+#M-1366-58 .music_content_wrapper {
+  margin-left: 5.3vw;
+  font-size: 2.3vh;
+  color: #0B2228;
+  font-family: 'BPG Arial', sans-serif;
+}
+
+#M-1366-58 .music_content_wrapper .music_code_box {
+  margin-top: 4.6vh;
+  max-width: 537px;
+  width: 39vw;
+}
+
+#M-1366-58 .music_content_wrapper .music_code_box img {
+  width: 100%;
+}
+
+.dots {
+  margin-top: 4.6vh;
+}
+
+.dots span {
+  height: 3vh;
+  width: 3vh;
+  max-width: 24px;
+  max-height: 24px;
+  border: 1px solid #C5CBCD;
+  -webkit-transform: scale(2%);
+          transform: scale(2%);
+  display: inline-block;
+  border-radius: 100%;
+  background-color: transparent;
+  cursor: pointer;
+  position: relative;
+}
+
+.dots .active::after {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 2vh;
+  width: 2vh;
+  max-width: 22px;
+  max-height: 22px;
+  background: #7FD1D8;
+  border-radius: 100%;
+  top: 50%;
+  left: 50%;
+  margin-top: -1vh;
+  margin-left: -1vh;
+}
+
+.dots .error::after {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 2vh;
+  width: 2vh;
+  max-width: 22px;
+  max-height: 22px;
+  background: #dc6c85;
+  border-radius: 100%;
+  top: 50%;
+  left: 50%;
+  margin-top: -1vh;
+  margin-left: -1vh;
+}
+
+#M-1366-59 a {
+  color: #7FD1D8;
+}
+
+#M-1366-59 .music_content_wrapper {
+  margin-left: 5.3vw;
+  font-size: 2.3vh;
+  color: #0B2228;
+  font-family: 'BPG Arial', sans-serif;
+}
+
 #M-1366-59 .music_content_wrapper .music_code_box {
   margin-top: 4.6vh;
   max-width: 446px;
@@ -10609,7 +10732,7 @@ section .arrow_up_down_downArrow img {
   color: #707070;
 }
 
-.n-1366-04-252-laptop-div {
+.n-1366-04-252-laptop-div img {
   height: 10.17vh;
   padding-right: 30px;
   display: -webkit-box;
@@ -16220,6 +16343,49 @@ td img {
 }
 
 #M-1366-06-7 .day_wrapper .img_boxes .selector_box .selector img {
+
+.M-1366-06-26-margin {
+  margin-top: 2.2vh;
+}
+
+#M-1366-06-7 .main_text {
+  margin-top: 5vh;
+  margin-bottom: 6.5vh;
+  font-size: 2vh;
+  font-family: 'BPG Arial', sans-serif;
+}
+
+#M-1366-06-7 .play {
+  height: 5.2vh;
+  width: 5.2vh;
+}
+
+#M-1366-06-7 .day_wrapper {
+  height: 52vh;
+  max-height: 406px;
+}
+
+#M-1366-06-7 .day_wrapper .img_boxes {
+  height: inherit;
+  position: relative;
+}
+
+#M-1366-06-7 .day_wrapper .img_boxes .selector_box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 9.5vh;
+  background: #7FD1D8;
+}
+
+#M-1366-06-7 .day_wrapper .img_boxes .selector_box .selector {
+  height: 8vh;
+  width: 8vh;
+  background: #ffffff;
+  border-radius: 100%;
+}
+
+#M-1366-06-7 .day_wrapper .img_boxes .selector_box .selector img {
   height: 5.2vh;
   width: 5.2vh;
 }
@@ -21244,6 +21410,55 @@ td img {
 
 .background-cs-title-purple-cont {
   padding-top: 10vh;
+}
+
+.background-c-02-08-19 {
+  background-image: url(../img/gakvetilebi/Computer-Science/Class-2/programing-8/C-2-8-19.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-c-02-08-19 .title-59 h1 {
+  color: #62548a;
+}
+
+.background-c-02-08-20 {
+  background-image: url(../img/gakvetilebi/Computer-Science/Class-2/programing-8/C-2-8-20.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-c-02-08-20 .title-59 h1 {
+  color: #62548a;
+}
+
+.background-c-02-08-21 {
+  background-image: url(../img/gakvetilebi/Computer-Science/Class-2/programing-8/C-2-8-21.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-c-02-08-21 .title-59 h1 {
+  color: #62548a;
+}
+
+.background-c-02-08-22 {
+  background-image: url(../img/gakvetilebi/Computer-Science/Class-2/programing-8/C-2-8-22.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-c-02-08-22 .title-59 h1 {
+  color: #62548a;
+}
+
+.cs-3-8-1-img {
+  height: 61.35vh;
+  margin: 5vh auto;
 }
 
 body {
