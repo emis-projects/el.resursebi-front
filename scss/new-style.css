@@ -21246,6 +21246,50 @@ td img {
   padding-top: 10vh;
 }
 
+.background-c-02-08-19 {
+  background-image: url(../img/gakvetilebi/Computer-Science/Class-2/programing-8/C-2-8-19.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-c-02-08-19 .title-59 h1 {
+  color: #62548a;
+}
+
+.background-c-02-08-20 {
+  background-image: url(../img/gakvetilebi/Computer-Science/Class-2/programing-8/C-2-8-20.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-c-02-08-20 .title-59 h1 {
+  color: #62548a;
+}
+
+.background-c-02-08-21 {
+  background-image: url(../img/gakvetilebi/Computer-Science/Class-2/programing-8/C-2-8-21.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-c-02-08-21 .title-59 h1 {
+  color: #62548a;
+}
+
+.background-c-02-08-22 {
+  background-image: url(../img/gakvetilebi/Computer-Science/Class-2/programing-8/C-2-8-22.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-c-02-08-22 .title-59 h1 {
+  color: #62548a;
+}
+
 .cs-3-8-1-img {
   height: 61.35vh;
   margin: 5vh auto;
@@ -21686,3 +21730,4 @@ body {
   top: 0;
   width: 100%;
 }
+/*# sourceMappingURL=new-style.css.map */
