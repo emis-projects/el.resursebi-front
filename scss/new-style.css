@@ -15,6 +15,8 @@
   max-width: 80px;
   min-height: 60px;
   min-width: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1173,9 +1175,7 @@ body {
 #app .class_box .circles {
   cursor: pointer;
   height: 8.7vh;
-  width: 8.7vh;
-  max-height: 57px;
-  max-width: 57px; }
+  width: 8.7vh; }
   #app .class_box .circles_number-pink {
     background: #ffffff;
     height: 100%;
@@ -1187,9 +1187,7 @@ body {
     align-items: center; }
     #app .class_box .circles_number-pink img {
       height: 4.5vh;
-      width: 4.5vh;
-      max-height: 30px;
-      max-width: 20px; }
+      width: 4.5vh; }
   #app .class_box .circles_number-white {
     background: #947DCE;
     height: 100%;
