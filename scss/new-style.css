@@ -15,8 +15,6 @@
   max-width: 80px;
   min-height: 60px;
   min-width: 60px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -585,7 +583,7 @@
     top: -8px; }
   40% {
     top: 2px; } }
-.chat_msg_item_admin .phoneNumber {
+.chat_msg_item_admin .phoneNumber--style {
   color: #fff;
   background: #D85471;
   border: none;
@@ -1175,7 +1173,9 @@ body {
 #app .class_box .circles {
   cursor: pointer;
   height: 8.7vh;
-  width: 8.7vh; }
+  width: 8.7vh;
+  max-height: 57px;
+  max-width: 57px; }
   #app .class_box .circles_number-pink {
     background: #ffffff;
     height: 100%;
@@ -1187,7 +1187,9 @@ body {
     align-items: center; }
     #app .class_box .circles_number-pink img {
       height: 4.5vh;
-      width: 4.5vh; }
+      width: 4.5vh;
+      max-height: 30px;
+      max-width: 20px; }
   #app .class_box .circles_number-white {
     background: #947DCE;
     height: 100%;
@@ -6231,7 +6233,7 @@ section .arrow_up_down {
     top: -8px; }
   40% {
     top: 2px; } }
-.chat_msg_item_admin .phoneNumber {
+.chat_msg_item_admin .phoneNumber--style {
   color: #fff;
   background: #D85471;
   border: none;
@@ -14489,6 +14491,186 @@ td {
   .programing-15_img-box img {
     height: 100%; }
 
+.cs-3-8-1-img {
+  height: 61.35vh;
+  margin: 5vh auto; }
+
+.cs-2-3-8-5-1-img-div {
+  height: 43.22vh; }
+  .cs-2-3-8-5-1-img-div img {
+    height: 100%; }
+
+.cs-2-3-8-7-1-img-div {
+  height: 56.25vh;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%) img;
+    transform-height: 100%; }
+
+.cs-2-3-8-13-1-img-div {
+  height: 56.9vh;
+  position: absolute;
+  bottom: 0;
+  right: 0; }
+  .cs-2-3-8-13-1-img-div img {
+    height: 100%; }
+
+.cs-2-3-8-14-1-img-div {
+  height: 67.7vh;
+  position: absolute;
+  bottom: 0;
+  right: 20.20vw; }
+  .cs-2-3-8-14-1-img-div img {
+    height: 100%; }
+
+.cs-2-3-8-14-img-div {
+  height: 53.51vh; }
+  .cs-2-3-8-14-img-div img {
+    height: 100%; }
+
+.cs-2-3-8-15-img-div {
+  height: 40.62vh; }
+  .cs-2-3-8-15-img-div img {
+    height: 100%; }
+
+.cs-2-3-8-16-img-div {
+  height: 29.55vh; }
+  .cs-2-3-8-16-img-div img {
+    height: 100%; }
+
+.cs-2-3-8-17-img-div {
+  height: 57.03vh;
+  position: absolute;
+  bottom: 0;
+  left: 15vw; }
+  .cs-2-3-8-17-img-div img {
+    height: 100%; }
+
+.cs-2-3-8-18-img-div {
+  height: 52.21vh; }
+  .cs-2-3-8-18-img-div img {
+    height: 100%; }
+
+.background-cs-3-8-20 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/internet-8/cs-2-3-8-20.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.background-cs-3-8-21 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/internet-8/cs-2-3-8-21.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.background-cs-3-8-22 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/internet-8/cs-2-3-8-22.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.background-cs-3-8-23 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/internet-8/cs-2-3-8-23.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.background-cs-title-purple {
+  color: #62548A;
+  font-family: 'DejaVu Sans Oblique';
+  font-size: 3.64vh; }
+  .background-cs-title-purple-cont {
+    padding-top: 10vh; }
+
+.cs-3-8-2-internet-img {
+  height: 22.91vh;
+  margin-top: 3vh; }
+
+.cs-3-8-3-ill-img {
+  height: 55.98vh;
+  margin: auto;
+  position: relative;
+  bottom: -13vh; }
+
+.cs-3-8-6-ill-img {
+  height: 45.83vh;
+  position: relative;
+  bottom: -8vh;
+  margin: auto; }
+
+.cs-3-8-9-ill-img {
+  height: 58.7vh;
+  position: relative;
+  bottom: -1vh;
+  right: -27vh; }
+
+.cs-3-8-10-ill-img {
+  height: 48.17vh;
+  position: relative;
+  bottom: -21vh; }
+
+.cs-3-8-11-ill-img {
+  height: 56.87vh;
+  position: relative;
+  bottom: -0.5vh; }
+
+.cs-3-8-4-ill-img {
+  height: 31.85vh;
+  margin: 5vh auto 0; }
+
+.cs-3-8-5-lego-img {
+  height: 29.68vh; }
+
+.cs-3-8-67-server-img {
+  height: 34.29vh;
+  margin: 3vh auto 0; }
+
+.cs-3-8-8-network-img {
+  height: 46.74vh;
+  margin-top: 5vh; }
+
+.cs-3-8-12-ill-img {
+  height: 45.31vh;
+  margin-top: 5vh; }
+
+.cs-3-8-13-worldwide-img {
+  margin-top: 5vh;
+  height: 50.91vh; }
+
+.background-c-02-08-19 {
+  background-image: url(../img/gakvetilebi/Computer-Science/Class-2/programing-8/C-2-8-19.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .background-c-02-08-19 .title-59 h1 {
+    color: #62548a; }
+
+.background-c-02-08-20 {
+  background-image: url(../img/gakvetilebi/Computer-Science/Class-2/programing-8/C-2-8-20.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .background-c-02-08-20 .title-59 h1 {
+    color: #62548a; }
+
+.background-c-02-08-21 {
+  background-image: url(../img/gakvetilebi/Computer-Science/Class-2/programing-8/C-2-8-21.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .background-c-02-08-21 .title-59 h1 {
+    color: #62548a; }
+
+.background-c-02-08-22 {
+  background-image: url(../img/gakvetilebi/Computer-Science/Class-2/programing-8/C-2-8-22.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .background-c-02-08-22 .title-59 h1 {
+    color: #62548a; }
+
 body {
   color: #262626;
   font-size: 14px;
@@ -14763,6 +14945,12 @@ body {
 
 .mt-20vh {
   margin-top: 20vh; }
+
+.mb-3vh {
+  margin-bottom: 3vh; }
+
+.mb-5vh {
+  margin-bottom: 5vh; }
 
 .dj-3vh {
   font-family: 'DejaVuSans';
