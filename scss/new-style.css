@@ -924,10 +924,13 @@ header {
     height: 6vh;
     display: flex;
     justify-content: center;
-    align-items: center; }
+    align-items: center;
+    transition: background-image .2s linear; }
     header .sound_box_passive {
+      transition: background-image .2s linear;
       background-image: url("../New-header-vue/header-img/menu_box.png"); }
     header .sound_box_active {
+      transition: all .2s linear;
       background-image: url("../New-header-vue/header-img/menu_box_active.png"); }
     header .sound_box img {
       height: 90%; }
@@ -941,10 +944,13 @@ header {
     height: 6vh;
     display: flex;
     justify-content: center;
-    align-items: center; }
+    align-items: center;
+    transition: background-image .2s linear; }
     header .menu_box_passive {
+      transition: background-image .2s linear;
       background-image: url("../New-header-vue/header-img/menu_box.png"); }
     header .menu_box_active {
+      transition: all .2s linear;
       background-image: url("../New-header-vue/header-img/menu_box_active.png"); }
     header .menu_box img {
       height: 70%; }
@@ -959,12 +965,12 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: background-image 2s linear; }
+    transition: background-image .2s linear; }
     header .lang-box_passive {
-      transition: background-image 2s linear;
+      transition: background-image .3s linear;
       background-image: url("../New-header-vue/header-img/lang_box.png"); }
     header .lang-box_active {
-      transition: all 2s linear;
+      transition: all .2s linear;
       background-image: url("../New-header-vue/header-img/lang_box_active.png"); }
     header .lang-box .text {
       font-family: 'DejaVu Sans Oblique', sans-serif;
