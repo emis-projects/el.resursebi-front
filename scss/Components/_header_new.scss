@@ -33,12 +33,15 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: background-image .2s linear;
 
     &_passive {
+      transition: background-image .2s linear;
       background-image: url('../New-header-vue/header-img/menu_box.png');
     }
 
     &_active {
+      transition: all .2s linear;
       background-image: url('../New-header-vue/header-img/menu_box_active.png');
     }
 
@@ -58,12 +61,15 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: background-image .2s linear;
 
     &_passive {
+      transition: background-image .2s linear;
       background-image: url('../New-header-vue/header-img/menu_box.png');
     }
 
     &_active {
+      transition: all .2s linear;
       background-image: url('../New-header-vue/header-img/menu_box_active.png');
     }
 
@@ -84,16 +90,15 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-
-    transition: background-image 2s linear;
+    transition: background-image .2s linear;
 
     &_passive {
-      transition: background-image 2s linear;
+      transition: background-image .3s linear;
       background-image: url('../New-header-vue/header-img/lang_box.png');
     }
 
     &_active {
-      transition: all 2s linear;
+      transition: all .2s linear;
       background-image: url('../New-header-vue/header-img/lang_box_active.png');
     }
 
@@ -162,15 +167,17 @@ header {
     }
   }
 }
-.main-box_relative{
+
+.main-box_relative {
   position: relative;
   height: 100vh;
 }
-body{
+
+body {
   overflow: hidden;
 }
 
-#app{
+#app {
   left: 0;
   right: 0;
   top: 0;
