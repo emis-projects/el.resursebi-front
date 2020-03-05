@@ -864,7 +864,7 @@
   }
 }
 
-.chat_msg_item_admin .phoneNumber {
+.chat_msg_item_admin .phoneNumber--style {
   color: #fff;
   background: #D85471;
   border: none;
@@ -9007,7 +9007,7 @@ section .arrow_up_down_downArrow img {
   }
 }
 
-.chat_msg_item_admin .phoneNumber {
+.chat_msg_item_admin .phoneNumber--style {
   color: #fff;
   background: #D85471;
   border: none;
@@ -16672,3 +16672,4 @@ td img {
   display: -ms-flexbox;
   display: flex;
 }
+/*# sourceMappingURL=style.css.map */

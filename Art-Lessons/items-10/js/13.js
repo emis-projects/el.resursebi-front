@@ -42,7 +42,7 @@ function natureGames() {
                 .children()
                 [i].append(DragItem[i]);
         }
-        $(DragItem).css('border', '');
+        $(DragItem).removeAttr('style', '');
     });
 
     //Drag and Drop
