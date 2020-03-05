@@ -21246,6 +21246,11 @@ td img {
   padding-top: 10vh;
 }
 
+.cs-3-8-1-img {
+  height: 61.35vh;
+  margin: 5vh auto;
+}
+
 body {
   color: #262626;
   font-size: 14px;
