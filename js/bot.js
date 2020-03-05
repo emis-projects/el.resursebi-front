@@ -128,21 +128,20 @@ function sendMessageFromBot(res) {
         } else if(w.type == 4){
             let a = document.createElement('a');
             $(a).attr('href', w.url)
-            $(a).text(w.text)
+            $(a).text('ვიდეო')
             $(a).attr('target', '_blank')
             $(div).append(a)
 
 
         } else if(w.type == 5){
-
             messageTextes(w, div)
 
-            type5Functionaly(w)
+            type5Functionaly(w, div)
 
         } else if (w.type == 6) {
             // ღილაკები
 
-            console.log(w);
+            // console.log(w);
 
             messageTextes(w, div)
 
@@ -155,6 +154,8 @@ function sendMessageFromBot(res) {
 
                 btn.innerText = w.title;
 
+                btn.setAttribute('data-text', w.title)
+
                 btndiv.appendChild(btn)
             })
 
@@ -162,7 +163,6 @@ function sendMessageFromBot(res) {
         }
 
         $(getTag).append(div)
-        // $(getTag).scrollTop($(getTag)[0].scrollHeight)
     })
 
     // $(div).appendTo(getTag)
@@ -193,7 +193,7 @@ function sendMessageFromUser(text) {
 
 $(document).on("click", ".chat_msg_item-buttons button", function (e) {
     $(getTag).scrollTop($(getTag)[0].scrollHeight)
-    var btnText = e.target.innerText;
+    var btnText = e.target.getAttribute('data-text')
 
     sendMessageFromUser(btnText)
 
@@ -298,18 +298,69 @@ function messangerTyping(){
 }
 
 
-function type5Functionaly(data){
+$(document).on("click", ".phoneNumber", function (e) {
+    e.preventDefault();
+
+    let div = e.target;
+
+    let text = $(div).text();
+
+    let textArea  = document.createElement('textarea');
+    textArea.width  = "1px"; 
+    textArea.height = "1px";
+    textArea.background =  "transparents" ;
+    textArea.value = text;
+    document.body.append(textArea);
+    textArea.select();
+    document.execCommand('copy');   //No i18n
+    document.body.removeChild(textArea);
+
+    e.target.innerText = "თექსტი დაკოპირებულია"
+
+    setTimeout(()=> {
+        console.log(e.target);
+    }, 1000)
+
+});
+
+
+function type5Functionaly(data, maindiv){
+
     console.log(data);
 
-    data.buttons.forEach(data => {
-        if(data.type == 0){
-            console.log(0);
+    data.buttons.forEach(w => {
 
-        } else if(data.type == 1){
-            console.log(1);
+        // როცა payload არის სტრინგი
+        // if(w.type == 0){
+        //     let div = document.createElement('div');
+        //     let btn = document.createElement('button');
+        //     div.classList.add('chat_msg_item-buttons');
 
-        } else if(data.type == 2){
-            console.log(2);
+        //     btn.innerText = w.title;
+
+        //     if(w.payload == ""){
+        //         btn.setAttribute('data-text', w.title)
+
+        //     } else {
+        //         btn.setAttribute('data-text', w.payload)
+        //     }
+
+        //     div.appendChild(btn);
+
+        //     $(maindiv).append(div)
+        // } 
+        
+
+        // როცა ნომერია 
+        if(w.type == 0){
+            let div = document.createElement('div');
+            let btn = document.createElement('button');
+            btn.innerText = w.title;
+            btn.classList.add('phoneNumber')
+            div.setAttribute('style', 'display: flex; justify-content: center');
+            div.appendChild(btn);
+            $(maindiv).append(div)
         }
+
     })
 }

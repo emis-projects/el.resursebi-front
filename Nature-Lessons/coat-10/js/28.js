@@ -12,20 +12,17 @@ function natureGames() {
         c--;
         document.getElementById("secondTimeDown").innerHTML = c;
         if(drag.getAttribute('data-isEmpty') == 1){
-            console.log("c", c, z)
             if(c == 18){
                 clearInterval(z);
             }
         }
         if(drag.getAttribute('data-isEmpty') == 2){
-            console.log("c4", c, z)
-            if(c == 19){
+            if(c == 18){
                 clearInterval(z);
             }
         }
         if(drag.getAttribute('data-isEmpty') == 3){
-            console.log("c5", c, z)
-            if(c == 20){
+            if(c == 18){
                 clearInterval(z);
             }
         }
@@ -63,23 +60,31 @@ function natureGames() {
 
     
     this.clickMe1 = (e) => {
+        s = 0;
         if((drag.getAttribute('data-isEmpty') == 1) || (drag.getAttribute('data-isEmpty') == 2) || (drag.getAttribute('data-isEmpty') == 3)){
-            console.log('isNull')
-            //startButton.setAttribute('disabled', 'true');
+            document.getElementById("secondTimeDown").innerHTML = 50;
+            c = 50;
             
-            z = setInterval(this.secondTimeDown, 1000)
-            
-            
+            if(drag.getAttribute('data-isEmpty') == 1){
+                z = setInterval(this.secondTimeDown, 1000)
+            }
+            if(drag.getAttribute('data-isEmpty') == 2){
+                z = setInterval(this.secondTimeDown, 700)
+            }
+            if(drag.getAttribute('data-isEmpty') == 3){
+                z = setInterval(this.secondTimeDown, 500)
+            }
             this.y = setInterval(this.secondTime, 1000);
             
             this.x = setInterval(this.milliSecontd, 50 / 3);
+            startButton.setAttribute('disabled', 'true');
         }
 
     }
 
     this.clickMe = (e) => {
+        startButton.removeAttribute('disabled');
         var drag = document.querySelector('.carieli');
-        console.log('clickMe', this.x, this.y)
         clearInterval(this.x);
         clearInterval(this.y);
         clearInterval(z);
