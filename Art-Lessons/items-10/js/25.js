@@ -51,7 +51,7 @@ function artGame(){
     }
 
     this.successPage = () => {
-        location.href = 'game-success-26.html';
+        location.href = 'game-success-25.html';
     }
 
 
