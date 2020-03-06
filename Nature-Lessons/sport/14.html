@@ -28,6 +28,124 @@
 
         gtag('config', 'UA-155006442-1');
     </script>
+
+<style>
+    input[type=range] {
+        -webkit-appearance: none;
+        margin: 10px 0;
+        width: 100%;
+    }
+    input[type=range]:focus {
+        outline: none;
+    }
+    input[type=range]::-webkit-slider-runnable-track {
+        width: 100%;
+        height: 12.8px;
+        cursor: pointer;
+        animate: 0.2s;
+        box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+        background: #D9D5D5;
+        border-radius: 25px;
+        border: 0px solid #000101;
+    }
+        input[type=range]::-webkit-slider-thumb {
+            box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+            border: 0px solid #000000;
+            height: 20px;
+            width: 39px;
+            border-radius: 7px;
+            background: #1616D3;
+            cursor: pointer;
+            -webkit-appearance: none;
+            margin-top: -3.6px;
+        }
+        input[type=range]:focus::-webkit-slider-runnable-track {
+            background: #D9D5D5;
+        }
+        input[type=range]::-moz-range-track {
+        width: 100%;
+        height: 12.8px;
+        cursor: pointer;
+        animate: 0.2s;
+        box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+        background: #D9D5D5;
+        border-radius: 25px;
+        border: 0px solid #000101;
+        }
+        input[type=range]::-moz-range-thumb {
+        box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+        border: 0px solid #000000;
+        height: 20px;
+        width: 39px;
+        border-radius: 7px;
+        background: #65001c;
+        cursor: pointer;
+        }
+        
+        
+        input[type=range]::-ms-track {
+            width: 100%;
+            height: 12.8px;
+            cursor: pointer;
+        animate: 0.2s;
+        background: transparent;
+        border-color: transparent;
+        border-width: 39px 0;
+        color: transparent;
+    }
+    input[type=range]::-ms-fill-lower {
+        background: #D9D5D5;
+        border: 0px solid #000101;
+        border-radius: 50px;
+        box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+    }
+    input[type=range]::-ms-fill-upper {
+        background: #D9D5D5;
+        border: 0px solid #000101;
+        border-radius: 50px;
+        box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+    }
+    input[type=range]::-ms-thumb {
+        box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+        border: 0px solid #000000;
+        height: 20px;
+        width: 39px;
+        border-radius: 7px;
+        background: #1616D3;
+        cursor: pointer;
+    }
+    input[type=range]:focus::-ms-fill-lower {
+        background: #ac51b5;
+    }
+    input[type=range]:focus::-ms-fill-upper {
+        background: #ac51b5;
+    }
+    
+    .range--input::after {
+        content: '';
+        width: 8px;
+        top: 1px;
+        height: 30px;
+        background-color: #00D5D5;
+        border-radius: 5px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+
+    input[type=range].second-Range-input::-webkit-slider-thumb {
+        box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+        border: 0px solid #000000;
+        height: 20px;
+        width: 39px;
+        border-radius: 7px;
+        cursor: pointer;
+        -webkit-appearance: none;
+        margin-top: -3.6px;
+        background: #F20303;
+    }
+    </style>
 </head>
 
 <body>
@@ -53,14 +171,25 @@
                 <img src="../../img/gakvetilebi/buneba/sport/Group 64470.svg" alt="">
 
 
-                <div class="n11-14-game">
+                <div class="n11-14-game" style="margin-left: 20px;">
                    <div class="relative">
                         <img src="../../img/gakvetilebi/buneba/sport/Group 64750412.svg" alt="">
 
-                        <img style="width: 19%; position: absolute;
-                        top: 22%; left: 50%; transform: translateX(-50%);" src="../../img/gakvetilebi/buneba/sport/Group 64467.svg" alt="">
-                        <img style="width: 19%; position: absolute;
-                        top: 53%; left: 50%; transform: translateX(-50%);" src="../../img/gakvetilebi/buneba/sport/Group 64468.svg" alt="">
+                        <img style="width: 19%; position: absolute; top: 22%; left: 50%; transform: translateX(-50%) scale(1);" src="../../img/gakvetilebi/buneba/sport/Group 64467.svg" alt="">
+                        <img style="width: 19%; position: absolute;top: 53%; left: 50%; transform: translateX(-50%) scale(1);" src="../../img/gakvetilebi/buneba/sport/Group 64468.svg" alt="">
+                   </div>
+
+                   <div class="flex range--input relative">
+                    <div style="width: 50%;">
+                        <input type="range">
+                    </div>
+                    <div style="width: 50%;">
+                        <input class="second-Range-input" type="range">
+                    </div>
+                   </div>
+
+                   <div style="background-color: #fff; border-radius: 6px; box-shadow: 2px 2px 8px; height: 6.771vh; width: 18.228vw; box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16); cursor: pointer; font-family: ALK Sanet; display: flex; align-items: center; justify-content: center; margin: 0 auto; margin-top: 20px;"> 
+                        დაიწყე თავიდან
                    </div>
                 </div>
 
@@ -79,7 +208,6 @@
             </div>
         </section>
     </div>
-
 
     <!-- ჩეთბოტი -->
     <div id="chatBot">

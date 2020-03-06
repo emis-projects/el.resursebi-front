@@ -864,7 +864,7 @@
   }
 }
 
-.chat_msg_item_admin .phoneNumber {
+.chat_msg_item_admin .phoneNumber--style {
   color: #fff;
   background: #D85471;
   border: none;
@@ -1637,6 +1637,10 @@ body {
   margin-top: 5.5vh;
 }
 
+.mt-6vh {
+  margin-top: 6vh;
+}
+
 .mt-10vh {
   margin-top: 10vh;
 }
@@ -1649,9 +1653,27 @@ body {
   margin-top: 20vh;
 }
 
+.mb-3vh {
+  margin-bottom: 3vh;
+}
+
+.mb-5vh {
+  margin-bottom: 5vh;
+}
+
 .dj-3vh {
   font-family: 'DejaVuSans';
   font-size: 3.3vh;
+}
+
+.dj-2_6vh {
+  font-family: 'DejaVuSans';
+  font-size: 2.6vh;
+}
+
+.dj-2vh {
+  font-family: 'DejaVuSans';
+  font-size: 2vh;
 }
 
 .dj-1_8vh {
@@ -6266,7 +6288,9 @@ section .arrow_up_down_downArrow img {
   padding-top: 6.51vh;
 }
 
-.music_m-1366-49_item_text {
+#M-1366-59 .music_content_wrapper {
+  margin-left: 5.3vw;
+  font-size: 2.3vh;
   color: #0B2228;
   font-size: 2.34vh;
   font-family: 'BPG Arial';
@@ -6323,10 +6347,23 @@ section .arrow_up_down_downArrow img {
   padding-bottom: 1.97vh;
 }
 
-/* .trumpet_game_content_trumpets{
-
+#M-1366-59 .music_content_wrapper .music_play_wrapper {
+  margin-top: 4.6vh;
 }
- */
+
+#M-1366-59 .music_content_wrapper .music_play_wrapper .music_play_box {
+  height: 9vh;
+  width: 9vh;
+  max-width: 70px;
+  max-height: 70px;
+  background: #fff;
+  border-radius: 100%;
+  margin-bottom: 1.5vh;
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
+          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
+  cursor: pointer;
+}
+ 
 .music_m-1366-49_trumpet_game_container {
   height: 24.05vh;
   position: relative;
@@ -9007,7 +9044,7 @@ section .arrow_up_down_downArrow img {
   }
 }
 
-.chat_msg_item_admin .phoneNumber {
+.chat_msg_item_admin .phoneNumber--style {
   color: #fff;
   background: #D85471;
   border: none;

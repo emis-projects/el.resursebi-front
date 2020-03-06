@@ -690,13 +690,13 @@ let title = {
         },
         {
             id: 7,
-            name: 'კომპიუტერული პროგრამებით დავალების შესრულება',
+            name: 'კომპიუტერი 2 კლასი 7 გაკვ',
             link: 'Computer-Science/Class-2/...'
         },
         {
             id: 8,
-            name: 'სათაური',
-            link: 'Computer-Science/Class-2/...'
+            name: 'კომპიუტერული პროგრამებით დავალების შესრულება',
+            link: 'Computer-Science/Class-2/programing-8/1.html'
         },
         {
             id: 9,
@@ -757,8 +757,8 @@ let title = {
         },
         {
             id: 8,
-            name: 'სათაური',
-            link: '#'
+            name: 'როგორ მუშაობს ინტერნეტი',
+            link: './Computer-Science/Class-3/internet-8/1.html'
         },
         {
             id: 9,
