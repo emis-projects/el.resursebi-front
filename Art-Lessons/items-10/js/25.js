@@ -32,7 +32,7 @@ function artGame(){
         });
         
 
-        if (count == 4) {
+        if (count == 3) {
             this.successPage();
         }
 
