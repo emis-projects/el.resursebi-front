@@ -11,6 +11,11 @@ function natureGames() {
     this.secondTimeDown = () => {
         c--;
         document.getElementById("secondTimeDown").innerHTML = c;
+        if((drag.getAttribute('data-isEmpty') != 1) && (drag.getAttribute('data-isEmpty') != 2) && (drag.getAttribute('data-isEmpty') != 3)){
+            if(c == 18){
+                clearInterval(z);
+            }
+        }
         if(drag.getAttribute('data-isEmpty') == 1){
             if(c == 18){
                 clearInterval(z);
@@ -61,9 +66,13 @@ function natureGames() {
     
     this.clickMe1 = (e) => {
         s = 0;
-        if((drag.getAttribute('data-isEmpty') == 1) || (drag.getAttribute('data-isEmpty') == 2) || (drag.getAttribute('data-isEmpty') == 3)){
+        
             document.getElementById("secondTimeDown").innerHTML = 70;
             c = 70;
+
+            if((drag.getAttribute('data-isEmpty') != 1) && (drag.getAttribute('data-isEmpty') != 2) && (drag.getAttribute('data-isEmpty') != 3)){
+                z = setInterval(this.secondTimeDown, 300)
+            }
             
             if(drag.getAttribute('data-isEmpty') == 1){
                 z = setInterval(this.secondTimeDown, 1000)
@@ -78,7 +87,6 @@ function natureGames() {
             
             this.x = setInterval(this.milliSecontd, 50 / 3);
             startButton.setAttribute('disabled', 'true');
-        }
 
     }
 
