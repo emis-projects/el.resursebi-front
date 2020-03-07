@@ -23,8 +23,8 @@ function natureGames() {
     this.init = () => {
         sliderRed.value = this.value;
         sliderBlue.value = this.value;
-        imgeBlue.style="width: 19%; position: absolute; top: 22%; left: 50%; transform: translateX(-50%) scale(1);"
-        imgeRed.style ="width: 19%; position: absolute;top: 53%; left: 50%; transform: translateX(-50%) scale(1);" 
+        imgeBlue.style="width: 19%; position: absolute; top: 15%; left: 50%; transform: translateX(-50%) scale(1);"
+        imgeRed.style ="width: 19%; position: absolute;top: 58%; left: 50%; transform: translateX(-50%) scale(1);" 
 
     }
 
