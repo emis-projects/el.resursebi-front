@@ -17,15 +17,19 @@ function natureGames() {
 
     $('#completedGame').click(() => {
         let success = true;
-        if (DragItem[0].parentNode != DropArea[1]) {
+
+        console.log(DragItem[1]);
+        console.log(DropArea[2]);
+
+        if (DragItem[0].parentNode != DropArea[0]) {
             $(DragItem[0]).css('outline', '2px solid red', 'outline-offset, -1px');
             success = false;
         }
-        if (DragItem[1].parentNode != DropArea[0]) {
+        if (DragItem[1].parentNode != DropArea[2]) {
             $(DragItem[1]).css('outline', '2px solid red', 'outline-offset, -1px');
             success = false;
         }
-        if (DragItem[2].parentNode != DropArea[2]) {
+        if (DragItem[2].parentNode != DropArea[1]) {
             $(DragItem[2]).css('outline', '2px solid red', 'outline-offset, -1px');
             success = false;
         }
