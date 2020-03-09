@@ -21908,6 +21908,31 @@ td img {
   height: 100%;
 }
 
+.cs-2-3-1-ill-bg-img {
+  height: 83.79vh;
+  position: relative;
+  bottom: -4vh;
+}
+
+.cs-2-3-1-title-italic {
+  position: relative;
+  bottom: 14vh;
+}
+
+.cs-2-3-18-boxes-img {
+  height: 26.12vh;
+  margin-top: 2vh;
+}
+
+.cs-2-3-19-animals-img {
+  height: 29.26vh;
+  width: 100%;
+}
+
+.cs-2-3-20-lego-img {
+  height: 55.46vh;
+}
+
 body {
   color: #262626;
   font-size: 14px;
