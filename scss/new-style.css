@@ -22193,15 +22193,41 @@ td img {
   margin: 13vh auto;
 }
 
+.compiuter_development-title_22 .newDesign_subject_question_item-title {
+  font-family: 'DejaVuSans';
+  font-size: 2.6vh;
+}
+
+.compiuter_development-img_22 {
+  margin-top: 13vh;
+}
+
+.compiuter_development-img_22 img {
+  height: 24.46vh;
+  max-height: 187.9px;
+}
+
+.compiuter_development-title_23 .newDesign_subject_question_item-title {
+  font-family: 'DejaVuSans';
+  font-size: 2.6vh;
+}
+
+.compiuter_development-img_23 {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.compiuter_development-img_23 img {
+  height: 45.5vh;
+  max-height: 349px;
+}
+
 .cs-3-1-3-baby-img {
   height: 42.35vh;
   margin-top: 3vh;
-}
-
-.cs-3-1-4-ill-img {
-  height: 58.19vh;
-  position: relative;
-  bottom: 4vh;
 }
 
 .cs-3-1-5-comp-img {
