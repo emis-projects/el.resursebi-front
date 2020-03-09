@@ -1,0 +1,18 @@
+.background-c-2-3-25 {
+  background-image: url(../img/gakvetilebi/Computer-Science/Class-2/part&whole-3/C-2-3-25.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+
+  .title-2-3-25 {
+    display: flex;
+    justify-content: center;
+    h1 {
+      color: #62548a;
+      font-family: 'DejaVuSans';
+      font-size: 3.6vh;
+      font-style: italic;
+    }
+  }
+}
