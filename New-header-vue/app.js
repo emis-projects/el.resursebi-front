@@ -653,7 +653,7 @@ let title = {
         },
         {
             id: 12,
-            name: 'დედამიწა და გარე სამყარო',
+            name: 'გვინდა თოვლი დაბადების დღეზე!',
             link: 'Nature-Lessons/snow-12/1.html'
         }
     ],
@@ -665,7 +665,7 @@ let title = {
         },
         {
             id: 2,
-            name: 'პირობითი ნიშნები ჩვენ ირგვლივ',
+            name: 'პირობითი ნიშნები ჩვენს ირგვლივ',
             link: 'Computer-Science/Class-2/marks-2/1.html'
         },
         {
@@ -675,7 +675,7 @@ let title = {
         },
         {
             id: 4,
-            name: ',,ციკლები” ჩვენ ცხოვრებაში',
+            name: ',,ციკლები” ჩვენს ცხოვრებაში',
             link: 'Computer-Science/Class-2/cycle-4/1.html'
         },
         {
