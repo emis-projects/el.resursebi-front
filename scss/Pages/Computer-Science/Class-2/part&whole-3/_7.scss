@@ -1,0 +1,27 @@
+.part-7_img-box {
+  &_pink {
+    height: 19.6vh;
+    max-height: 151px;
+
+    &_transf {
+      transform: rotate(180deg);
+    }
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &_yellow {
+    height: 26.8vh;
+    max-height: 206px;
+
+    &_transf {
+      transform: rotate(180deg);
+    }
+
+    img {
+      height: 100%;
+    }
+  }
+}

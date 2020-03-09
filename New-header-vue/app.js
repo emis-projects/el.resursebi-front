@@ -670,8 +670,8 @@ let title = {
         },
         {
             id: 3,
-            name: 'კომპიუტერი 2 კლასი 3 გაკვ',
-            link: 'Computer-Science/Class-2/...'
+            name: 'ნაწილი და მთელი',
+            link: 'Computer-Science/Class-2/part&whole-3/1.html'
         },
         {
             id: 4,
