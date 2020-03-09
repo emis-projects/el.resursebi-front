@@ -21860,6 +21860,49 @@ td img {
   height: 55.46vh;
 }
 
+.cs-3-1-1-comp-img {
+  height: 39.06vh;
+  margin: 13vh auto;
+}
+
+.cs-3-1-3-baby-img {
+  height: 42.35vh;
+  margin-top: 3vh;
+}
+
+.cs-3-1-4-ill-img {
+  height: 58.19vh;
+  position: relative;
+  bottom: 4vh;
+}
+
+.cs-3-1-5-comp-img {
+  height: 37.94vh;
+  margin: 5vh auto 0;
+}
+
+.cs-3-1-6-ill-img {
+  height: 60.67vh;
+  margin: auto;
+  position: relative;
+  bottom: -12vh;
+}
+
+.cs-3-1-7-img {
+  margin-top: 5vh;
+  height: 49.08vh;
+}
+
+.cs-3-1-8-comp-img {
+  height: 41.53vh;
+  margin: 10vh auto 0;
+}
+
+.cs-3-1-10-img {
+  height: 41.53vh;
+  margin: 7vh auto 0;
+}
+
 body {
   color: #262626;
   font-size: 14px;
