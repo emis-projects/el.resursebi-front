@@ -1661,6 +1661,10 @@ body {
   margin-bottom: 5vh;
 }
 
+.mb-10vh {
+  margin-bottom: 10vh;
+}
+
 .dj-3vh {
   font-family: 'DejaVuSans';
   font-size: 3.3vh;

@@ -21165,7 +21165,7 @@ td img {
   height: 8.72vh;
 }
 
-.cs-2-2-8-sign-description-btn-title {
+.cs-2-3-6-sign-description-btn-title {
   height: 5.85vh;
   width: 27.5vh;
 }
@@ -21997,6 +21997,197 @@ td img {
   font-style: italic;
 }
 
+.cs-2-3-1-ill-bg-img {
+  height: 83.79vh;
+  position: relative;
+  bottom: -4vh;
+}
+
+.cs-2-3-1-title-italic {
+  position: relative;
+  bottom: 14vh;
+}
+
+.part-5_img-box {
+  height: 36vh;
+  max-height: 280px;
+  bottom: 0;
+  -webkit-transform: translate(20%, 70%);
+          transform: translate(20%, 70%);
+}
+
+.part-5_img-box img {
+  height: 100%;
+}
+
+.part-6_img-box {
+  height: 54vh;
+  max-height: 416px;
+}
+
+.part-6_img-box img {
+  height: 100%;
+}
+
+.cs-2-3-6-sign-description-btn-title {
+  height: 5.3vh;
+  width: 25.5vh;
+}
+
+.part-7_img-box_pink {
+  height: 19.6vh;
+  max-height: 151px;
+}
+
+.part-7_img-box_pink_transf {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.part-7_img-box_pink img {
+  height: 100%;
+}
+
+.part-7_img-box_yellow {
+  height: 26.8vh;
+  max-height: 206px;
+}
+
+.part-7_img-box_yellow_transf {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.part-7_img-box_yellow img {
+  height: 100%;
+}
+
+.parts-11_box {
+  height: 51vh;
+  max-height: 398px;
+}
+
+.parts-11_box .C-2-11_img-box {
+  height: 10vh;
+  max-height: 78px;
+}
+
+.parts-11_box .C-2-11_img-box img {
+  height: 100%;
+}
+
+.parts-16_box {
+  height: 48vh;
+  max-height: 362px;
+}
+
+.parts-16_box .C-2-16_img-box {
+  height: 19vh;
+  max-height: 151px;
+}
+
+.parts-16_box .C-2-16_img-box img {
+  height: 100%;
+}
+
+.cs-2-3-8-img-div {
+  height: 38.28vh;
+  position: absolute;
+  bottom: 8.39vh;
+  right: 17.2vw;
+}
+
+.cs-2-3-8-img-div img {
+  height: 100%;
+}
+
+.cs-2-3-9-div-img {
+  height: 34.5vh;
+}
+
+.cs-2-3-9-div-img img {
+  height: 100%;
+}
+
+.cs-2-3-10-div-img {
+  height: 20.57vh;
+}
+
+.cs-2-3-10-div-img img {
+  height: 100%;
+}
+
+.cs-2-3-13-img-div {
+  height: 40.75vh;
+  position: absolute;
+  bottom: 13.41vh;
+  right: 17.19vw;
+}
+
+.cs-2-3-13-img-div img {
+  height: 100%;
+}
+
+.cs-2-3-14-img-div {
+  height: 59.76vh;
+  position: absolute;
+  bottom: 0;
+  right: 6.07vw;
+}
+
+.cs-2-3-14-img-div img {
+  height: 100%;
+}
+
+.cs-2-3-15-img-div {
+  height: 31.97vh;
+}
+
+.cs-2-3-15-img-div img {
+  height: 100%;
+}
+
+.cs-2-3-17-img-div {
+  height: 40.26vh;
+}
+
+.cs-2-3-17-img-div img {
+  height: 100%;
+}
+
+.cs-2-3-21-1-img-div {
+  height: 41.84vh;
+}
+
+.cs-2-3-21-1-img-div img {
+  height: 100%;
+}
+
+.cs-2-3-1-ill-bg-img {
+  height: 83.79vh;
+  position: relative;
+  bottom: -4vh;
+}
+
+.cs-2-3-1-title-italic {
+  position: relative;
+  bottom: 14vh;
+}
+
+.cs-2-3-18-boxes-img {
+  height: 26.12vh;
+  margin-top: 2vh;
+}
+
+.cs-2-3-19-animals-img {
+  height: 29.26vh;
+  width: 100%;
+}
+
+.cs-2-3-20-lego-img {
+  height: 55.46vh;
+}
+
 body {
   color: #262626;
   font-size: 14px;
@@ -22417,6 +22608,10 @@ body {
 
 .mb-5vh {
   margin-bottom: 5vh;
+}
+
+.mb-10vh {
+  margin-bottom: 10vh;
 }
 
 .dj-3vh {
