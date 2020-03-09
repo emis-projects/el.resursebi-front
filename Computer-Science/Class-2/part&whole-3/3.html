@@ -1,19 +1,17 @@
 <!DOCTYPE html>
-<!-- ბოტის აიდიში ვუთითებთ: ხელოვნების - 2318, ბუნების - 2320, მუსიკის - 2292 -->
-<html lang="ka" data-botid="2320">
+<html lang="ka" data-botid="2288">
 
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <!-- ყველა გვერდზე -->
-    <script src="../../js/vue.js"></script>
+    <script src="../../../js/vue.js"></script>
     <!--  ვუე გაშვებისას
-      <script src="./js/vue.min.js"></script>
-       -->
-    <link rel="stylesheet" href="../../New-header-vue/animate.min.css">
-    <link rel="stylesheet" href="../../scss/libraries/bootstrap.min.css">
-    <link rel="stylesheet" href="../../scss/libraries/magnific-popup.css">
-    <link rel="stylesheet" href="../../scss/new-style.css" />
+    <script src="./js/vue.min.js"></script>
+     -->
+    <link rel="stylesheet" href="../../../scss/libraries/bootstrap.min.css">
+    <link rel="stylesheet" href="../../../New-header-vue/animate.min.css">
+    <link rel="stylesheet" href="../../../scss/new-style.css" />
     <title>ელექტრონული საგანმანათლებლო რესურსი</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
@@ -23,7 +21,6 @@
         function gtag() {
             dataLayer.push(arguments);
         }
-
         gtag('js', new Date());
 
         gtag('config', 'UA-155006442-1');
@@ -34,10 +31,10 @@
     <div class="container">
         <section id="app" class="container position-absolute">
             <header>
-                <app-menu v-logo="'../../'" :is-active="isActive" :toggle="toggle"></app-menu>
+                <app-menu v-logo="'../../../'" :is-active="isActive" :toggle="toggle"></app-menu>
             </header>
 
-            <app-section v-image="'../../'" :is-active="isActive">
+            <app-section v-image="'../../../'" :is-active="isActive">
                 <app-bar :is-active="isActive" :trigger="trigger" :dots="dots" :current-tab="link"
                     v-on:link-tab="link = $event">
 
@@ -48,8 +45,23 @@
             </app-section>
         </section>
 
+        <section id="mainPage">
+            <div class="row">
+                <div class="col-7 m-auto">
+                    <div class="newDesign_subject_question_item part_whole-title_item mt-10vh">
+                        <img src="../../../img/icons/newDesign_btn-yellow.svg" alt="img"
+                            class="newDesign_subject_question_item-img">
+                        <p class="newDesign_subject_question_item-title">
+                            ჩვენ ირგვლივ ყველაფერი შედგება პატარა ნაწილებისგან
+                        </p>
+                    </div>
+                </div>
+                <div class="col-9 m-auto d-flex justify-content-end part_whole-img_3">
+                    <img src="../../../img/gakvetilebi/Computer-Science/Class-2/part&whole-3/C-2-3-3.svg" alt="img"
+                        class="Computer-Science-img-3">
+                </div>
+            </div>
 
-        <section id="mainPage" class="snow-50">
             <div class="left_components_paging-cont">
                 <svg class="left_components_paging" xmlns="http://www.w3.org/2000/svg"
                     xmlns:xlink="http://www.w3.org/1999/xlink" width="134" height="722" viewBox="0 0 134 722">
@@ -113,7 +125,7 @@
                             data-name="Path 143737"
                             d="M-107,293.662h-25.155a28.388,28.388,0,0,0-21.1,9.686A34.87,34.87,0,0,0-162,326.736c0,18.266,13.362,33.074,29.844,33.074H-107c20.013,0,36.24,17.983,36.24,40.162V253.5C-70.762,275.679-86.988,293.662-107,293.662Z"
                             transform="translate(196 -162.5)" fill="#dc6c85" />
-                        <path class="leftSidebar_type" style="opacity: 1" data-type="4" id="Path_143736"
+                        <path class="leftSidebar_type" style="opacity: 0" data-type="4" id="Path_143736"
                             data-name="Path 143736"
                             d="M-107,293.662h-25.155a28.388,28.388,0,0,0-21.1,9.686A34.87,34.87,0,0,0-162,326.736c0,18.266,13.362,33.074,29.844,33.074H-107c20.013,0,36.24,17.983,36.24,40.162V253.5C-70.762,275.679-86.988,293.662-107,293.662Z"
                             transform="translate(196 164.5)" fill="#dc6c85" />
@@ -438,13 +450,13 @@
                             <tspan x="0" y="0">მინიშნება</tspan>
                         </text>
                         <text id="შუალედური_დავალება" data-name="შუალედური
-                  დავალება" transform="translate(70 549)" fill="#c5cbcd" font-size="12"
+                            დავალება" transform="translate(70 549)" fill="#c5cbcd" font-size="12"
                             font-family="ALKSanet, ALK Sanet">
                             <tspan x="-35.344" y="0">შუალედური</tspan>
                             <tspan x="-30.636" y="12">დავალება</tspan>
                         </text>
                         <text id="კომპლექსური_დავალება" data-name="კომპლექსური
-                  დავალება" transform="translate(70 668)" fill="#c5cbcd" font-size="12"
+                            დავალება" transform="translate(70 668)" fill="#c5cbcd" font-size="12"
                             font-family="ALKSanet, ALK Sanet">
                             <tspan x="-42.015" y="0">კომპლექსური</tspan>
                             <tspan x="-30.636" y="12">დავალება</tspan>
@@ -452,151 +464,21 @@
                     </g>
                 </svg>
             </div>
-            <div class="row">
-                <div class="col-11 m-auto">
-                    <div class="row">
-                        <div class="col-8">
-                            <div class="img-box">
-                                <img class="img-fluid" src="../../img/gakvetilebi/buneba/snow-12/N-12-50-1.svg" alt="temp">
-                            </div>
-                        </div>
-                        <div style="overflow: hidden;">
-                        <svg style="position: absolute; top: 50px;left: 30px; z-index: 0" class="rain1" id="rain1" xmlns="http://www.w3.org/2000/svg" width="249.476" height="259.607" viewBox="0 0 249.476 259.607">
-                            <g class="rain2" transform="translate(20.775 9.904)"><path d="M161.328,345.1s-3.894,8.945-4.408,10.7a3.441,3.441,0,0,0,3.173,4.5c2.846.177,3.614-2.254,3.707-3.573S161.328,345.1,161.328,345.1Z" transform="translate(-156.777 -345.098)" fill="#e8edef"/></g>
-                            <g transform="translate(96.8 37.901)"><path d="M255.349,379.722s-3.893,8.946-4.408,10.7a3.44,3.44,0,0,0,3.174,4.5c2.845.177,3.613-2.254,3.707-3.572S255.349,379.722,255.349,379.722Z" transform="translate(-250.798 -379.722)" fill="#e8edef"/></g>
-                            <g transform="translate(59.733 83.935)"><path d="M209.508,436.653s-3.893,8.945-4.408,10.7a3.441,3.441,0,0,0,3.174,4.5c2.845.177,3.614-2.254,3.707-3.573S209.508,436.653,209.508,436.653Z" transform="translate(-204.957 -436.653)" fill="#e8edef"/></g>
-                            <g transform="translate(40.595 100.565)"><path d="M185.84,457.219s-3.894,8.945-4.408,10.7a3.441,3.441,0,0,0,3.173,4.5c2.846.177,3.614-2.254,3.707-3.573S185.84,457.219,185.84,457.219Z" transform="translate(-181.289 -457.219)" fill="#e8edef"/></g>
-                            <g transform="translate(62.638 41.774)"><path d="M213.1,384.511s-3.894,8.945-4.408,10.7a3.44,3.44,0,0,0,3.173,4.5c2.846.177,3.614-2.254,3.707-3.573S213.1,384.511,213.1,384.511Z" transform="translate(-208.55 -384.511)" fill="#e8edef"/></g>
-                            <g transform="translate(71.147 8.474)"><path d="M223.624,343.329s-3.894,8.945-4.409,10.7a3.441,3.441,0,0,0,3.174,4.5c2.846.177,3.614-2.254,3.707-3.572S223.624,343.329,223.624,343.329Z" transform="translate(-219.072 -343.329)" fill="#e8edef"/></g>
-                            <g transform="translate(128.069 10.352)"><path d="M294.02,345.651s-3.893,8.945-4.408,10.7a3.441,3.441,0,0,0,3.174,4.5c2.845.177,3.614-2.254,3.707-3.573S294.02,345.651,294.02,345.651Z" transform="translate(-289.469 -345.651)" fill="#e8edef"/></g>
-                            <g transform="translate(166.149)"><path d="M341.114,332.849s-3.894,8.945-4.408,10.7a3.44,3.44,0,0,0,3.174,4.5c2.845.177,3.613-2.254,3.707-3.572S341.114,332.849,341.114,332.849Z" transform="translate(-336.563 -332.849)" fill="#e8edef"/></g>
-                            <g transform="translate(212.304 32.473)"><path d="M398.195,373.009s-3.893,8.945-4.408,10.7a3.441,3.441,0,0,0,3.174,4.5c2.845.177,3.614-2.254,3.707-3.573S398.195,373.009,398.195,373.009Z" transform="translate(-393.644 -373.009)" fill="#e8edef"/></g>
-                            <g transform="translate(200.147 68.099)"><path d="M383.16,417.068s-3.894,8.946-4.408,10.7a3.44,3.44,0,0,0,3.173,4.5c2.846.177,3.614-2.254,3.708-3.572S383.16,417.068,383.16,417.068Z" transform="translate(-378.609 -417.068)" fill="#e8edef"/></g>
-                            <g transform="translate(158.262 54.214)"><path d="M331.36,399.9s-3.893,8.945-4.408,10.7a3.44,3.44,0,0,0,3.174,4.5c2.846.177,3.614-2.253,3.707-3.572S331.36,399.9,331.36,399.9Z" transform="translate(-326.809 -399.896)" fill="#e8edef"/></g>
-                            <g transform="translate(123.267 67.365)"><path d="M288.081,416.16s-3.894,8.945-4.408,10.7a3.44,3.44,0,0,0,3.173,4.5c2.846.177,3.614-2.254,3.707-3.572S288.081,416.16,288.081,416.16Z" transform="translate(-283.53 -416.16)" fill="#e8edef"/></g>
-                            <g transform="translate(97.11 89.494)"><path d="M255.733,443.527s-3.894,8.945-4.408,10.7a3.44,3.44,0,0,0,3.174,4.5c2.845.178,3.613-2.253,3.707-3.572S255.733,443.527,255.733,443.527Z" transform="translate(-251.182 -443.527)" fill="#e8edef"/></g>
-                            <g transform="translate(173.981 66.368)"><path d="M350.8,414.927s-3.894,8.945-4.408,10.7a3.44,3.44,0,0,0,3.173,4.5c2.846.177,3.614-2.254,3.707-3.572S350.8,414.927,350.8,414.927Z" transform="translate(-346.249 -414.927)" fill="#e8edef"/></g>
-                            <g transform="translate(173.985 17.557)"><path d="M350.8,354.562s-3.894,8.945-4.408,10.7a3.44,3.44,0,0,0,3.174,4.5c2.845.177,3.613-2.254,3.707-3.572S350.8,354.562,350.8,354.562Z" transform="translate(-346.254 -354.562)" fill="#e8edef"/></g>
-                            <g transform="translate(133.67 140.369)"><path d="M300.947,506.446s-3.893,8.945-4.408,10.7a3.441,3.441,0,0,0,3.174,4.5c2.845.177,3.613-2.253,3.707-3.573S300.947,506.446,300.947,506.446Z" transform="translate(-296.396 -506.446)" fill="#e8edef"/></g>
-                            <g transform="translate(157.716 167.774)"><path d="M330.685,540.338s-3.894,8.945-4.408,10.7a3.44,3.44,0,0,0,3.173,4.5c2.846.177,3.614-2.254,3.707-3.572S330.685,540.338,330.685,540.338Z" transform="translate(-326.134 -540.338)" fill="#e8edef"/></g>
-                            <g transform="translate(207.793 137.359)"><path d="M392.616,502.723s-3.894,8.945-4.408,10.7a3.44,3.44,0,0,0,3.173,4.5c2.846.177,3.614-2.253,3.707-3.572S392.616,502.723,392.616,502.723Z" transform="translate(-388.065 -502.723)" fill="#e8edef"/></g>
-                            <g transform="translate(207.721 108.653)"><path d="M392.527,467.222s-3.893,8.946-4.408,10.7a3.441,3.441,0,0,0,3.174,4.5c2.845.177,3.614-2.254,3.707-3.572S392.527,467.222,392.527,467.222Z" transform="translate(-387.976 -467.222)" fill="#e8edef"/></g>
-                            <g transform="translate(161.596 137.535)"><path d="M335.484,502.94s-3.893,8.945-4.408,10.7a3.441,3.441,0,0,0,3.174,4.5c2.845.177,3.613-2.254,3.707-3.573S335.484,502.94,335.484,502.94Z" transform="translate(-330.933 -502.94)" fill="#e8edef"/></g>
-                            <g transform="translate(166.512 105.966)"><path d="M341.563,463.9s-3.894,8.945-4.408,10.7a3.44,3.44,0,0,0,3.173,4.5c2.846.177,3.614-2.254,3.707-3.573S341.563,463.9,341.563,463.9Z" transform="translate(-337.012 -463.899)" fill="#e8edef"/></g>
-                            <g transform="translate(136.427 103.688)"><path d="M304.357,461.081s-3.894,8.945-4.409,10.7a3.442,3.442,0,0,0,3.174,4.5c2.846.177,3.614-2.254,3.707-3.573S304.357,461.081,304.357,461.081Z" transform="translate(-299.805 -461.081)" fill="#e8edef"/></g>
-                            <g transform="translate(105.875 126.837)"><path d="M266.573,489.71s-3.894,8.945-4.409,10.7a3.441,3.441,0,0,0,3.174,4.5c2.846.177,3.614-2.254,3.707-3.572S266.573,489.71,266.573,489.71Z" transform="translate(-262.021 -489.71)" fill="#e8edef"/></g>
-                            <g transform="translate(66.617 129.718)"><path d="M218.021,493.273s-3.893,8.945-4.408,10.7a3.441,3.441,0,0,0,3.174,4.5c2.845.177,3.614-2.253,3.707-3.573S218.021,493.273,218.021,493.273Z" transform="translate(-213.47 -493.273)" fill="#e8edef"/></g>
-                            <g transform="translate(40.819 154.871)"><path d="M186.116,524.38s-3.893,8.945-4.408,10.7a3.441,3.441,0,0,0,3.174,4.5c2.845.178,3.614-2.253,3.707-3.572S186.116,524.38,186.116,524.38Z" transform="translate(-181.565 -524.38)" fill="#e8edef"/></g>
-                            <g transform="translate(10.436 180.919)"><path d="M148.542,556.594s-3.894,8.945-4.408,10.7a3.44,3.44,0,0,0,3.173,4.5c2.846.177,3.614-2.253,3.707-3.572S148.542,556.594,148.542,556.594Z" transform="translate(-143.991 -556.594)" fill="#e8edef"/></g>
-                            <g transform="translate(12.078 145.001)"><path d="M150.573,512.174s-3.894,8.945-4.408,10.7a3.44,3.44,0,0,0,3.173,4.5c2.846.177,3.614-2.254,3.707-3.573S150.573,512.174,150.573,512.174Z" transform="translate(-146.022 -512.174)" fill="#e8edef"/></g>
-                            <g transform="translate(0 115.595)"><path d="M135.635,475.807s-3.893,8.945-4.408,10.7a3.441,3.441,0,0,0,3.174,4.5c2.845.177,3.613-2.254,3.707-3.573S135.635,475.807,135.635,475.807Z" transform="translate(-131.084 -475.807)" fill="#e8edef"/></g>
-                            <g transform="translate(8.694 71.254)"><path d="M146.387,420.97s-3.893,8.945-4.408,10.7a3.441,3.441,0,0,0,3.174,4.5c2.845.177,3.613-2.253,3.707-3.573S146.387,420.97,146.387,420.97Z" transform="translate(-141.836 -420.97)" fill="#e8edef"/></g>
-                            <g transform="translate(14.983 42.085)"><path d="M154.165,384.9s-3.894,8.946-4.408,10.7a3.44,3.44,0,0,0,3.173,4.5c2.846.177,3.614-2.254,3.707-3.572S154.165,384.9,154.165,384.9Z" transform="translate(-149.614 -384.896)" fill="#e8edef"/></g>
-                            <g transform="translate(55.883 191.308)"><path d="M204.747,569.442s-3.894,8.945-4.408,10.7a3.44,3.44,0,0,0,3.173,4.5c2.846.177,3.614-2.254,3.707-3.572S204.747,569.442,204.747,569.442Z" transform="translate(-200.196 -569.442)" fill="#e8edef"/></g>
-                            <g transform="translate(82.925 160.444)"><path d="M238.191,531.272s-3.894,8.946-4.409,10.7a3.441,3.441,0,0,0,3.174,4.5c2.846.177,3.614-2.254,3.707-3.573S238.191,531.272,238.191,531.272Z" transform="translate(-233.639 -531.272)" fill="#e8edef"/></g>
-                            <g transform="translate(91.058 194.722)"><path d="M248.248,573.664s-3.893,8.945-4.408,10.7a3.441,3.441,0,0,0,3.174,4.5c2.845.177,3.614-2.254,3.707-3.573S248.248,573.664,248.248,573.664Z" transform="translate(-243.697 -573.664)" fill="#e8edef"/></g>
-                            <g transform="translate(128.975 177.988)"><path d="M295.14,552.969s-3.893,8.945-4.408,10.7a3.44,3.44,0,0,0,3.174,4.5c2.845.178,3.614-2.253,3.707-3.572S295.14,552.969,295.14,552.969Z" transform="translate(-290.589 -552.969)" fill="#e8edef"/></g>
-                            <g transform="translate(141.992 196.808)"><path d="M311.239,576.245s-3.894,8.945-4.409,10.7a3.441,3.441,0,0,0,3.174,4.5c2.846.177,3.614-2.254,3.707-3.573S311.239,576.245,311.239,576.245Z" transform="translate(-306.687 -576.245)" fill="#e8edef"/></g>
-                            <g transform="translate(174.931 197.33)"><path d="M351.975,576.89s-3.894,8.945-4.408,10.7a3.441,3.441,0,0,0,3.173,4.5c2.846.177,3.614-2.254,3.707-3.573S351.975,576.89,351.975,576.89Z" transform="translate(-347.424 -576.89)" fill="#e8edef"/></g>
-                            <g transform="translate(189.009 168.364)"><path d="M369.385,541.067s-3.893,8.945-4.408,10.7a3.441,3.441,0,0,0,3.174,4.5c2.845.177,3.613-2.254,3.707-3.573S369.385,541.067,369.385,541.067Z" transform="translate(-364.834 -541.067)" fill="#e8edef"/></g>
-                            <g transform="translate(212.725 203.889)"><path d="M398.715,585s-3.893,8.945-4.408,10.7a3.441,3.441,0,0,0,3.174,4.5c2.845.177,3.613-2.253,3.707-3.573S398.715,585,398.715,585Z" transform="translate(-394.164 -585.002)" fill="#e8edef"/></g>
-                            <g transform="translate(242.45 200.388)"><path d="M435.477,580.672s-3.893,8.945-4.408,10.7a3.44,3.44,0,0,0,3.174,4.5c2.845.177,3.614-2.253,3.707-3.572S435.477,580.672,435.477,580.672Z" transform="translate(-430.926 -580.672)" fill="#e8edef"/></g>
-                            <g transform="translate(232.889 172.633)"><path d="M423.653,546.347s-3.894,8.945-4.408,10.7a3.44,3.44,0,0,0,3.174,4.5c2.845.177,3.613-2.254,3.707-3.573S423.653,546.347,423.653,546.347Z" transform="translate(-419.102 -546.347)" fill="#e8edef"/></g>
-                            <g transform="translate(239.436 122.823)"><path d="M431.75,484.746s-3.894,8.945-4.408,10.7a3.44,3.44,0,0,0,3.173,4.5c2.846.178,3.614-2.253,3.707-3.572S431.75,484.746,431.75,484.746Z" transform="translate(-427.199 -484.746)" fill="#e8edef"/></g>
-                            <g transform="translate(239.652 79.708)"><path d="M432.016,431.425s-3.894,8.945-4.408,10.7a3.441,3.441,0,0,0,3.173,4.5c2.846.177,3.614-2.254,3.707-3.573S432.016,431.425,432.016,431.425Z" transform="translate(-427.465 -431.425)" fill="#e8edef"/></g>
-                            <g transform="translate(237.481 9.964)"><path d="M429.332,345.172s-3.894,8.945-4.408,10.7a3.44,3.44,0,0,0,3.173,4.5c2.846.178,3.614-2.253,3.707-3.572S429.332,345.172,429.332,345.172Z" transform="translate(-424.781 -345.172)" fill="#e8edef"/></g>
-                            <g transform="translate(10.915 215.398)"><path d="M149.134,599.235s-3.894,8.945-4.408,10.7a3.441,3.441,0,0,0,3.174,4.5c2.845.177,3.613-2.254,3.707-3.573S149.134,599.235,149.134,599.235Z" transform="translate(-144.583 -599.235)" fill="#e8edef"/></g>
-                            <g transform="translate(6.405 244.4)"><path d="M143.556,635.1s-3.893,8.945-4.408,10.7a3.441,3.441,0,0,0,3.174,4.5c2.845.177,3.614-2.254,3.707-3.572S143.556,635.1,143.556,635.1Z" transform="translate(-139.005 -635.102)" fill="#e8edef"/></g>
-                            <g transform="translate(56.219 223.951)"><path d="M205.162,609.812s-3.894,8.945-4.408,10.7a3.44,3.44,0,0,0,3.173,4.5c2.846.177,3.614-2.254,3.707-3.572S205.162,609.812,205.162,609.812Z" transform="translate(-200.611 -609.812)" fill="#e8edef"/></g>
-                            <g transform="translate(91.891 235.7)"><path d="M249.278,624.343s-3.893,8.945-4.408,10.7a3.441,3.441,0,0,0,3.174,4.5c2.845.177,3.613-2.254,3.707-3.573S249.278,624.343,249.278,624.343Z" transform="translate(-244.727 -624.343)" fill="#e8edef"/></g>
-                            <g transform="translate(126.428 225.229)"><path d="M291.991,611.393s-3.894,8.945-4.409,10.7a3.441,3.441,0,0,0,3.174,4.5c2.846.177,3.614-2.254,3.707-3.572S291.991,611.393,291.991,611.393Z" transform="translate(-287.439 -611.393)" fill="#e8edef"/></g>
-                            <g transform="translate(181.699 239.22)"><path d="M360.346,628.7s-3.894,8.945-4.409,10.7a3.441,3.441,0,0,0,3.174,4.5c2.846.177,3.614-2.254,3.707-3.573S360.346,628.7,360.346,628.7Z" transform="translate(-355.794 -628.696)" fill="#e8edef"/></g>
-                            <g transform="translate(220.726 238.36)"><path d="M408.61,627.633s-3.894,8.945-4.408,10.7a3.44,3.44,0,0,0,3.173,4.5c2.846.177,3.614-2.254,3.707-3.572S408.61,627.633,408.61,627.633Z" transform="translate(-404.059 -627.633)" fill="#e8edef"/></g>
-                        </svg>
-
-
-                        <svg style="position: absolute; top: 50px;left: 30px;" class="rain2" id="rain2" xmlns="http://www.w3.org/2000/svg" width="249.476" height="259.607" viewBox="0 0 249.476 259.607">
-                            <g class="rain2" transform="translate(20.775 9.904)"><path d="M161.328,345.1s-3.894,8.945-4.408,10.7a3.441,3.441,0,0,0,3.173,4.5c2.846.177,3.614-2.254,3.707-3.573S161.328,345.1,161.328,345.1Z" transform="translate(-156.777 -345.098)" fill="#e8edef"/></g>
-                            <g transform="translate(96.8 37.901)"><path d="M255.349,379.722s-3.893,8.946-4.408,10.7a3.44,3.44,0,0,0,3.174,4.5c2.845.177,3.613-2.254,3.707-3.572S255.349,379.722,255.349,379.722Z" transform="translate(-250.798 -379.722)" fill="#e8edef"/></g>
-                            <g transform="translate(59.733 83.935)"><path d="M209.508,436.653s-3.893,8.945-4.408,10.7a3.441,3.441,0,0,0,3.174,4.5c2.845.177,3.614-2.254,3.707-3.573S209.508,436.653,209.508,436.653Z" transform="translate(-204.957 -436.653)" fill="#e8edef"/></g>
-                            <g transform="translate(40.595 100.565)"><path d="M185.84,457.219s-3.894,8.945-4.408,10.7a3.441,3.441,0,0,0,3.173,4.5c2.846.177,3.614-2.254,3.707-3.573S185.84,457.219,185.84,457.219Z" transform="translate(-181.289 -457.219)" fill="#e8edef"/></g>
-                            <g transform="translate(62.638 41.774)"><path d="M213.1,384.511s-3.894,8.945-4.408,10.7a3.44,3.44,0,0,0,3.173,4.5c2.846.177,3.614-2.254,3.707-3.573S213.1,384.511,213.1,384.511Z" transform="translate(-208.55 -384.511)" fill="#e8edef"/></g>
-                            <g transform="translate(71.147 8.474)"><path d="M223.624,343.329s-3.894,8.945-4.409,10.7a3.441,3.441,0,0,0,3.174,4.5c2.846.177,3.614-2.254,3.707-3.572S223.624,343.329,223.624,343.329Z" transform="translate(-219.072 -343.329)" fill="#e8edef"/></g>
-                            <g transform="translate(128.069 10.352)"><path d="M294.02,345.651s-3.893,8.945-4.408,10.7a3.441,3.441,0,0,0,3.174,4.5c2.845.177,3.614-2.254,3.707-3.573S294.02,345.651,294.02,345.651Z" transform="translate(-289.469 -345.651)" fill="#e8edef"/></g>
-                            <g transform="translate(166.149)"><path d="M341.114,332.849s-3.894,8.945-4.408,10.7a3.44,3.44,0,0,0,3.174,4.5c2.845.177,3.613-2.254,3.707-3.572S341.114,332.849,341.114,332.849Z" transform="translate(-336.563 -332.849)" fill="#e8edef"/></g>
-                            <g transform="translate(212.304 32.473)"><path d="M398.195,373.009s-3.893,8.945-4.408,10.7a3.441,3.441,0,0,0,3.174,4.5c2.845.177,3.614-2.254,3.707-3.573S398.195,373.009,398.195,373.009Z" transform="translate(-393.644 -373.009)" fill="#e8edef"/></g>
-                            <g transform="translate(200.147 68.099)"><path d="M383.16,417.068s-3.894,8.946-4.408,10.7a3.44,3.44,0,0,0,3.173,4.5c2.846.177,3.614-2.254,3.708-3.572S383.16,417.068,383.16,417.068Z" transform="translate(-378.609 -417.068)" fill="#e8edef"/></g>
-                            <g transform="translate(158.262 54.214)"><path d="M331.36,399.9s-3.893,8.945-4.408,10.7a3.44,3.44,0,0,0,3.174,4.5c2.846.177,3.614-2.253,3.707-3.572S331.36,399.9,331.36,399.9Z" transform="translate(-326.809 -399.896)" fill="#e8edef"/></g>
-                            <g transform="translate(123.267 67.365)"><path d="M288.081,416.16s-3.894,8.945-4.408,10.7a3.44,3.44,0,0,0,3.173,4.5c2.846.177,3.614-2.254,3.707-3.572S288.081,416.16,288.081,416.16Z" transform="translate(-283.53 -416.16)" fill="#e8edef"/></g>
-                            <g transform="translate(97.11 89.494)"><path d="M255.733,443.527s-3.894,8.945-4.408,10.7a3.44,3.44,0,0,0,3.174,4.5c2.845.178,3.613-2.253,3.707-3.572S255.733,443.527,255.733,443.527Z" transform="translate(-251.182 -443.527)" fill="#e8edef"/></g>
-                            <g transform="translate(173.981 66.368)"><path d="M350.8,414.927s-3.894,8.945-4.408,10.7a3.44,3.44,0,0,0,3.173,4.5c2.846.177,3.614-2.254,3.707-3.572S350.8,414.927,350.8,414.927Z" transform="translate(-346.249 -414.927)" fill="#e8edef"/></g>
-                            <g transform="translate(173.985 17.557)"><path d="M350.8,354.562s-3.894,8.945-4.408,10.7a3.44,3.44,0,0,0,3.174,4.5c2.845.177,3.613-2.254,3.707-3.572S350.8,354.562,350.8,354.562Z" transform="translate(-346.254 -354.562)" fill="#e8edef"/></g>
-                            <g transform="translate(133.67 140.369)"><path d="M300.947,506.446s-3.893,8.945-4.408,10.7a3.441,3.441,0,0,0,3.174,4.5c2.845.177,3.613-2.253,3.707-3.573S300.947,506.446,300.947,506.446Z" transform="translate(-296.396 -506.446)" fill="#e8edef"/></g>
-                            <g transform="translate(157.716 167.774)"><path d="M330.685,540.338s-3.894,8.945-4.408,10.7a3.44,3.44,0,0,0,3.173,4.5c2.846.177,3.614-2.254,3.707-3.572S330.685,540.338,330.685,540.338Z" transform="translate(-326.134 -540.338)" fill="#e8edef"/></g>
-                            <g transform="translate(207.793 137.359)"><path d="M392.616,502.723s-3.894,8.945-4.408,10.7a3.44,3.44,0,0,0,3.173,4.5c2.846.177,3.614-2.253,3.707-3.572S392.616,502.723,392.616,502.723Z" transform="translate(-388.065 -502.723)" fill="#e8edef"/></g>
-                            <g transform="translate(207.721 108.653)"><path d="M392.527,467.222s-3.893,8.946-4.408,10.7a3.441,3.441,0,0,0,3.174,4.5c2.845.177,3.614-2.254,3.707-3.572S392.527,467.222,392.527,467.222Z" transform="translate(-387.976 -467.222)" fill="#e8edef"/></g>
-                            <g transform="translate(161.596 137.535)"><path d="M335.484,502.94s-3.893,8.945-4.408,10.7a3.441,3.441,0,0,0,3.174,4.5c2.845.177,3.613-2.254,3.707-3.573S335.484,502.94,335.484,502.94Z" transform="translate(-330.933 -502.94)" fill="#e8edef"/></g>
-                            <g transform="translate(166.512 105.966)"><path d="M341.563,463.9s-3.894,8.945-4.408,10.7a3.44,3.44,0,0,0,3.173,4.5c2.846.177,3.614-2.254,3.707-3.573S341.563,463.9,341.563,463.9Z" transform="translate(-337.012 -463.899)" fill="#e8edef"/></g>
-                            <g transform="translate(136.427 103.688)"><path d="M304.357,461.081s-3.894,8.945-4.409,10.7a3.442,3.442,0,0,0,3.174,4.5c2.846.177,3.614-2.254,3.707-3.573S304.357,461.081,304.357,461.081Z" transform="translate(-299.805 -461.081)" fill="#e8edef"/></g>
-                            <g transform="translate(105.875 126.837)"><path d="M266.573,489.71s-3.894,8.945-4.409,10.7a3.441,3.441,0,0,0,3.174,4.5c2.846.177,3.614-2.254,3.707-3.572S266.573,489.71,266.573,489.71Z" transform="translate(-262.021 -489.71)" fill="#e8edef"/></g>
-                            <g transform="translate(66.617 129.718)"><path d="M218.021,493.273s-3.893,8.945-4.408,10.7a3.441,3.441,0,0,0,3.174,4.5c2.845.177,3.614-2.253,3.707-3.573S218.021,493.273,218.021,493.273Z" transform="translate(-213.47 -493.273)" fill="#e8edef"/></g>
-                            <g transform="translate(40.819 154.871)"><path d="M186.116,524.38s-3.893,8.945-4.408,10.7a3.441,3.441,0,0,0,3.174,4.5c2.845.178,3.614-2.253,3.707-3.572S186.116,524.38,186.116,524.38Z" transform="translate(-181.565 -524.38)" fill="#e8edef"/></g>
-                            <g transform="translate(10.436 180.919)"><path d="M148.542,556.594s-3.894,8.945-4.408,10.7a3.44,3.44,0,0,0,3.173,4.5c2.846.177,3.614-2.253,3.707-3.572S148.542,556.594,148.542,556.594Z" transform="translate(-143.991 -556.594)" fill="#e8edef"/></g>
-                            <g transform="translate(12.078 145.001)"><path d="M150.573,512.174s-3.894,8.945-4.408,10.7a3.44,3.44,0,0,0,3.173,4.5c2.846.177,3.614-2.254,3.707-3.573S150.573,512.174,150.573,512.174Z" transform="translate(-146.022 -512.174)" fill="#e8edef"/></g>
-                            <g transform="translate(0 115.595)"><path d="M135.635,475.807s-3.893,8.945-4.408,10.7a3.441,3.441,0,0,0,3.174,4.5c2.845.177,3.613-2.254,3.707-3.573S135.635,475.807,135.635,475.807Z" transform="translate(-131.084 -475.807)" fill="#e8edef"/></g>
-                            <g transform="translate(8.694 71.254)"><path d="M146.387,420.97s-3.893,8.945-4.408,10.7a3.441,3.441,0,0,0,3.174,4.5c2.845.177,3.613-2.253,3.707-3.573S146.387,420.97,146.387,420.97Z" transform="translate(-141.836 -420.97)" fill="#e8edef"/></g>
-                            <g transform="translate(14.983 42.085)"><path d="M154.165,384.9s-3.894,8.946-4.408,10.7a3.44,3.44,0,0,0,3.173,4.5c2.846.177,3.614-2.254,3.707-3.572S154.165,384.9,154.165,384.9Z" transform="translate(-149.614 -384.896)" fill="#e8edef"/></g>
-                            <g transform="translate(55.883 191.308)"><path d="M204.747,569.442s-3.894,8.945-4.408,10.7a3.44,3.44,0,0,0,3.173,4.5c2.846.177,3.614-2.254,3.707-3.572S204.747,569.442,204.747,569.442Z" transform="translate(-200.196 -569.442)" fill="#e8edef"/></g>
-                            <g transform="translate(82.925 160.444)"><path d="M238.191,531.272s-3.894,8.946-4.409,10.7a3.441,3.441,0,0,0,3.174,4.5c2.846.177,3.614-2.254,3.707-3.573S238.191,531.272,238.191,531.272Z" transform="translate(-233.639 -531.272)" fill="#e8edef"/></g>
-                            <g transform="translate(91.058 194.722)"><path d="M248.248,573.664s-3.893,8.945-4.408,10.7a3.441,3.441,0,0,0,3.174,4.5c2.845.177,3.614-2.254,3.707-3.573S248.248,573.664,248.248,573.664Z" transform="translate(-243.697 -573.664)" fill="#e8edef"/></g>
-                            <g transform="translate(128.975 177.988)"><path d="M295.14,552.969s-3.893,8.945-4.408,10.7a3.44,3.44,0,0,0,3.174,4.5c2.845.178,3.614-2.253,3.707-3.572S295.14,552.969,295.14,552.969Z" transform="translate(-290.589 -552.969)" fill="#e8edef"/></g>
-                            <g transform="translate(141.992 196.808)"><path d="M311.239,576.245s-3.894,8.945-4.409,10.7a3.441,3.441,0,0,0,3.174,4.5c2.846.177,3.614-2.254,3.707-3.573S311.239,576.245,311.239,576.245Z" transform="translate(-306.687 -576.245)" fill="#e8edef"/></g>
-                            <g transform="translate(174.931 197.33)"><path d="M351.975,576.89s-3.894,8.945-4.408,10.7a3.441,3.441,0,0,0,3.173,4.5c2.846.177,3.614-2.254,3.707-3.573S351.975,576.89,351.975,576.89Z" transform="translate(-347.424 -576.89)" fill="#e8edef"/></g>
-                            <g transform="translate(189.009 168.364)"><path d="M369.385,541.067s-3.893,8.945-4.408,10.7a3.441,3.441,0,0,0,3.174,4.5c2.845.177,3.613-2.254,3.707-3.573S369.385,541.067,369.385,541.067Z" transform="translate(-364.834 -541.067)" fill="#e8edef"/></g>
-                            <g transform="translate(212.725 203.889)"><path d="M398.715,585s-3.893,8.945-4.408,10.7a3.441,3.441,0,0,0,3.174,4.5c2.845.177,3.613-2.253,3.707-3.573S398.715,585,398.715,585Z" transform="translate(-394.164 -585.002)" fill="#e8edef"/></g>
-                            <g transform="translate(242.45 200.388)"><path d="M435.477,580.672s-3.893,8.945-4.408,10.7a3.44,3.44,0,0,0,3.174,4.5c2.845.177,3.614-2.253,3.707-3.572S435.477,580.672,435.477,580.672Z" transform="translate(-430.926 -580.672)" fill="#e8edef"/></g>
-                            <g transform="translate(232.889 172.633)"><path d="M423.653,546.347s-3.894,8.945-4.408,10.7a3.44,3.44,0,0,0,3.174,4.5c2.845.177,3.613-2.254,3.707-3.573S423.653,546.347,423.653,546.347Z" transform="translate(-419.102 -546.347)" fill="#e8edef"/></g>
-                            <g transform="translate(239.436 122.823)"><path d="M431.75,484.746s-3.894,8.945-4.408,10.7a3.44,3.44,0,0,0,3.173,4.5c2.846.178,3.614-2.253,3.707-3.572S431.75,484.746,431.75,484.746Z" transform="translate(-427.199 -484.746)" fill="#e8edef"/></g>
-                            <g transform="translate(239.652 79.708)"><path d="M432.016,431.425s-3.894,8.945-4.408,10.7a3.441,3.441,0,0,0,3.173,4.5c2.846.177,3.614-2.254,3.707-3.573S432.016,431.425,432.016,431.425Z" transform="translate(-427.465 -431.425)" fill="#e8edef"/></g>
-                            <g transform="translate(237.481 9.964)"><path d="M429.332,345.172s-3.894,8.945-4.408,10.7a3.44,3.44,0,0,0,3.173,4.5c2.846.178,3.614-2.253,3.707-3.572S429.332,345.172,429.332,345.172Z" transform="translate(-424.781 -345.172)" fill="#e8edef"/></g>
-                            <g transform="translate(10.915 215.398)"><path d="M149.134,599.235s-3.894,8.945-4.408,10.7a3.441,3.441,0,0,0,3.174,4.5c2.845.177,3.613-2.254,3.707-3.573S149.134,599.235,149.134,599.235Z" transform="translate(-144.583 -599.235)" fill="#e8edef"/></g>
-                            <g transform="translate(6.405 244.4)"><path d="M143.556,635.1s-3.893,8.945-4.408,10.7a3.441,3.441,0,0,0,3.174,4.5c2.845.177,3.614-2.254,3.707-3.572S143.556,635.1,143.556,635.1Z" transform="translate(-139.005 -635.102)" fill="#e8edef"/></g>
-                            <g transform="translate(56.219 223.951)"><path d="M205.162,609.812s-3.894,8.945-4.408,10.7a3.44,3.44,0,0,0,3.173,4.5c2.846.177,3.614-2.254,3.707-3.572S205.162,609.812,205.162,609.812Z" transform="translate(-200.611 -609.812)" fill="#e8edef"/></g>
-                            <g transform="translate(91.891 235.7)"><path d="M249.278,624.343s-3.893,8.945-4.408,10.7a3.441,3.441,0,0,0,3.174,4.5c2.845.177,3.613-2.254,3.707-3.573S249.278,624.343,249.278,624.343Z" transform="translate(-244.727 -624.343)" fill="#e8edef"/></g>
-                            <g transform="translate(126.428 225.229)"><path d="M291.991,611.393s-3.894,8.945-4.409,10.7a3.441,3.441,0,0,0,3.174,4.5c2.846.177,3.614-2.254,3.707-3.572S291.991,611.393,291.991,611.393Z" transform="translate(-287.439 -611.393)" fill="#e8edef"/></g>
-                            <g transform="translate(181.699 239.22)"><path d="M360.346,628.7s-3.894,8.945-4.409,10.7a3.441,3.441,0,0,0,3.174,4.5c2.846.177,3.614-2.254,3.707-3.573S360.346,628.7,360.346,628.7Z" transform="translate(-355.794 -628.696)" fill="#e8edef"/></g>
-                            <g transform="translate(220.726 238.36)"><path d="M408.61,627.633s-3.894,8.945-4.408,10.7a3.44,3.44,0,0,0,3.173,4.5c2.846.177,3.614-2.254,3.707-3.572S408.61,627.633,408.61,627.633Z" transform="translate(-404.059 -627.633)" fill="#e8edef"/></g>
-                        </svg>
-                        
-                
-                        <div class="col-3 offset-1">
-                            <div class="btn-box d-flex flex-column justify-content-around">
-                                <button class="btn" data-btn="1">პირველი მდგომარეობა</button>
-                                <button class="btn mt-3" data-btn="2">მეორე მდგომარეობა</button>
-                                <button class="btn mt-3" data-btn="3">მესამე მდგომარეობა</button>
-                                <button class="btn mt-3" data-btn="4">მეოთხე მდგომარეობა</button>
-                                <button class="btn mt-3" data-btn="5">მეხუთე მდგომარეობა</button>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
             <div class="our__pagination flex">
                 <a href="#" class="pagination__prev__btn">
-                    <img style="transform: rotate(180deg)" src="../../img/icons/chevron-left-icon.svg" alt="">
+                    <img style="transform: rotate(180deg)" src="../../../img/icons/chevron-left-icon.svg" alt="">
                 </a>
 
                 <div id="pagination" class="flex align-items-center"></div>
 
                 <a href="#" class="pagination__next__btn">
-                    <img src="../../img/icons/chevron-left-icon.svg" alt="">
+                    <img src="../../../img/icons/chevron-left-icon.svg" alt="">
                 </a>
             </div>
+
         </section>
     </div>
-
 
 
     <!-- ჩეთბოტი -->
@@ -604,24 +486,17 @@
         <app-bot></app-bot>
     </div>
 
+    <script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
+    <script src="../../../js/libraries/jquery.magnific-popup.min.js"></script>
+    <script src="../../../js/Pagination.js"></script>
 
-    <script src="../../js/libraries/jquery-3.4.1.min.js"></script>
-    <script src="../../js/libraries/jquery.magnific-popup.min.js"></script>
-    <script src="../../js/Pagination.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
-    <script src="./js/50.js"></script>
-
-
-    <script>
-        //TweenMax.set("#stage", {xPercent:-50, yPercent:-50});
-        TweenMax.set(".rain2", {y: 0});
-        TweenMax.to(".rain1 , .rain2", 2 , {y:"+=800", repeat:-1, ease:Linear.easeNone});
-    </script>
 
     <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
-    <script src="../../New-header-vue/app.js"></script>
-    <script src="../../Vue-chatBot/botApp.js"></script>
-    <script src="../../js/bot.js"></script>
+    <script src="../../../New-header-vue/app.js"></script>
+    <script src="../../../Vue-chatBot/botApp.js"></script>
+    <script src="../../../js/bot.js"></script>
+
+
 </body>
 
 </html>
