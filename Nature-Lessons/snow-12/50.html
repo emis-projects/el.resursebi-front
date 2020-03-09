@@ -460,6 +460,9 @@
                                 <img class="img-fluid" src="../../img/gakvetilebi/buneba/snow-12/N-12-50-1.svg" alt="temp">
                             </div>
                         </div>
+
+                        
+                
                         <div class="col-3 offset-1">
                             <div class="btn-box d-flex flex-column justify-content-around">
                                 <button class="btn">პირველი მდგომარეობა</button>
@@ -498,8 +501,16 @@
     <script src="../../js/libraries/jquery-3.4.1.min.js"></script>
     <script src="../../js/libraries/jquery.magnific-popup.min.js"></script>
     <script src="../../js/Pagination.js"></script>
-    <script src="../../Nature-Lessons/snow-12/js/test-50.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
 
+
+    <script>
+        //TweenMax.set("#stage", {xPercent:-50, yPercent:-50});
+        TweenMax.set(".rain2", {y:-800});
+        TweenMax.to(".rain1 , .rain2", 2 , {y:"+=800", repeat:-1, ease:Linear.easeNone});
+
+
+    </script>
 
     <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
     <script src="../../New-header-vue/app.js"></script>
