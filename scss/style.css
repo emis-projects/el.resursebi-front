@@ -848,7 +848,22 @@
     top: -8px;
   }
   40% {
-    top: 2px; } }
+    top: 2px;
+  }
+}
+
+@keyframes circle3 {
+  15% {
+    top: 2px;
+  }
+  30% {
+    top: -8px;
+  }
+  40% {
+    top: 2px;
+  }
+}
+
 .chat_msg_item_admin .phoneNumber--style {
   color: #fff;
   background: #D85471;
@@ -1623,7 +1638,8 @@ body {
 }
 
 .mt-6vh {
-  margin-top: 6vh; }
+  margin-top: 6vh;
+}
 
 .mt-10vh {
   margin-top: 10vh;
@@ -1638,10 +1654,12 @@ body {
 }
 
 .mb-3vh {
-  margin-bottom: 3vh; }
+  margin-bottom: 3vh;
+}
 
 .mb-5vh {
-  margin-bottom: 5vh; }
+  margin-bottom: 5vh;
+}
 
 .dj-3vh {
   font-family: 'DejaVuSans';
@@ -1650,11 +1668,13 @@ body {
 
 .dj-2_6vh {
   font-family: 'DejaVuSans';
-  font-size: 2.6vh; }
+  font-size: 2.6vh;
+}
 
 .dj-2vh {
   font-family: 'DejaVuSans';
-  font-size: 2vh; }
+  font-size: 2vh;
+}
 
 .dj-1_8vh {
   font-family: 'DejaVuSans';
@@ -9005,7 +9025,10 @@ section .arrow_up_down_downArrow img {
     top: -8px;
   }
   40% {
-    top: 2px; } }
+    top: 2px;
+  }
+}
+
 .chat_msg_item_admin .phoneNumber--style {
   color: #fff;
   background: #D85471;
@@ -16671,4 +16694,3 @@ td img {
   display: -ms-flexbox;
   display: flex;
 }
-/*# sourceMappingURL=style.css.map */

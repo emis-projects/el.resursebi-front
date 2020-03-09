@@ -102,7 +102,7 @@
                         <rect id="Rectangle_1414-2" data-name="Rectangle 1414" width="110" height="698" rx="55"
                               transform="translate(10 10)" fill="#fff"/>
                     </g>
-                    <path class="leftSidebar_type" style="opacity: 0" data-type="2" id="Path_143714"
+                    <path class="leftSidebar_type" style="opacity: 1" data-type="2" id="Path_143714"
                           data-name="Path 143714"
                           d="M-107,293.662h-25.155a28.388,28.388,0,0,0-21.1,9.686A34.87,34.87,0,0,0-162,326.736c0,18.266,13.362,33.074,29.844,33.074H-107c20.013,0,36.24,17.983,36.24,40.162V253.5C-70.762,275.679-86.988,293.662-107,293.662Z"
                           transform="translate(196 -48.5)" fill="#dc6c85"/>
@@ -476,7 +476,7 @@
                     <div class="col-5 mt-5">
                         <div class="row">
                             <div class="col-11">
-                                <div class="box-height d-flex align-items-center text-center">
+                                <div class="box-height d-flex align-items-center text-center" data-index="1">
                                     <p class="box-text">დაფიქრდით და აირჩიეთ დებულება, რომელიც ზუსტად ასახავს წყლის თვისებებს.</p>
                                 </div>
                             </div>
@@ -485,7 +485,7 @@
                     <div class="col-5 mt-5">
                         <div class="row">
                             <div class="col-11">
-                                <div class="box-height d-flex align-items-center text-center">
+                                <div class="box-height d-flex align-items-center text-center" data-index="2">
                                     <p class="box-text">რაც უფრო თბილა მოლეკულები, მით უფრო ეხუტებიან ერთმანეთს და ნაკლებად მოძრაობენ.</p>
                                 </div>
                             </div>
@@ -494,7 +494,7 @@
                     <div class="col-5 mt-5">
                         <div class="row">
                             <div class="col-11">
-                                <div class="box-height d-flex align-items-center text-center">
+                                <div class="box-height d-flex align-items-center text-center" data-index="3" data-answer="correct">
                                     <p class="box-text">წყალი გვხვდება ბუნებაში სამ მდგომარეობაში: თხევადი, მყარი (ყინული) და ორთქლის ფორმით.</p>
                                 </div>
                             </div>
@@ -503,7 +503,7 @@
                     <div class="col-5 mt-5">
                         <div class="row">
                             <div class="col-11">
-                                <div class="box-height d-flex align-items-center text-center">
+                                <div class="box-height d-flex align-items-center text-center" data-index="4">
                                     <p class="box-text">მოლეკულების მოძრაობა არ არის დამოკიდებული ტემპერატურის ცვლილებაზე.</p>
                                 </div>
                             </div>
@@ -512,7 +512,7 @@
                     <div class="col-5 mt-5">
                         <div class="row">
                             <div class="col-11">
-                                <div class="box-height d-flex align-items-center text-center">
+                                <div class="box-height d-flex align-items-center text-center" data-index="5">
                                     <p class="box-text">წყალი დაბალი ტემპერატურის დროს გადაიქცევა ყინულის ნივთიერებად, მაღალი ტემპერატურა კი წყალს აქრობს.</p>
                                 </div>
                             </div>
@@ -521,7 +521,7 @@
                     <div class="col-5 mt-5">
                         <div class="row">
                             <div class="col-11">
-                                <div class="box-height d-flex align-items-center text-center">
+                                <div class="box-height d-flex align-items-center text-center" data-index="6" data-answer="correct">
                                     <p class="box-text">რაც უფრო ცივა მოლეკულები, მით უფრო ეხუტებიან ერთმანეთს და ნაკლებად მოძრაობენ.</p>
                                 </div>
                             </div>
@@ -533,6 +533,8 @@
                 <button id="resetBtn" class="reset__btn">თავიდან სცადე</button>
                 <button id="completedGame" class="completed__btn">დასრულება</button>
             </div>
+
+
             <div class="our__pagination flex">
                 <a href="#" class="pagination__prev__btn">
                     <img style="transform: rotate(180deg)" src="../../img/icons/chevron-left-icon.svg" alt="">
@@ -559,6 +561,7 @@
 <script src="../../js/libraries/jquery.magnific-popup.min.js"></script>
 <script src="../../js/Pagination.js"></script>
 
+<script src="./js/34.js"></script>
 
 <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
 <script src="../../New-header-vue/app.js"></script>

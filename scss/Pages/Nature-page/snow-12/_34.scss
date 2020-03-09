@@ -1,4 +1,14 @@
 .snow-34 {
+  .myparent::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+  }
+  
   .top-text {
     font-family: 'DejaVuSans', serif;
     font-size: 1.8vh;
@@ -7,12 +17,30 @@
     &-text {
       font-family: 'DejaVuSans', serif;
       font-size: 1.8vh;
-      padding: 10px 10px;
     }
     &-height {
       box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.16);
       height: 13vh;
       max-height: 100px;
+      padding: 10px 10px;
+      cursor: pointer;
+      border-radius: 5px;
+      position: relative;
+
+      &::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: transparent;
+      }
+
+      &.active {
+        background-color: #00D5D5;
+        color: #fff;
+      }
     }
   }
 }

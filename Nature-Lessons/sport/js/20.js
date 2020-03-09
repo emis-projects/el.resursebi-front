@@ -102,7 +102,7 @@ function natureGames(){
                 // /document.getElementById('bastard').style = "transition: " + pixel + "%";
                 //console.log('pixel', pixel, drag.parentElement)
                 count ++;
-                if(pixel < 0 || pixel > 100){
+                if(pixel < 5 || pixel > 100){
                     clearInterval(interval);
                 }
              }, 200);

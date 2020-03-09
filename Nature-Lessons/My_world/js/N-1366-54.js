@@ -178,6 +178,9 @@ function natureGames(){
 
             } else if(loc == "/el.resursebi-front/Nature-Lessons/sport/18.html" || loc == "/Nature-Lessons/sport/18.html"){
                 location.href = "game-success-18.html"
+
+            } else if(loc == "/el.resursebi-front/Nature-Lessons/snow-12/29.html" || loc == "/Nature-Lessons/snow-12/29.html"){
+                location.href = "game-success-29.html"
             }
         }
 	}
