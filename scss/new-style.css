@@ -3833,10 +3833,8 @@ section .arrow_up_down_downArrow img {
   color: #0b2228;
   font-family: "BPG Arial";
   font-size: 2.08vh;
-  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.160784);
-          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.160784);
-  position: relative;
-}
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16078);
+  position: relative; }
 
 .musical_notes_game-press-button-extra-small {
   position: absolute;
@@ -3853,8 +3851,8 @@ section .arrow_up_down_downArrow img {
   width: 7.55vh;
   height: 7.55vh;
   background: #ffffff 0% 0% no-repeat padding-box;
-  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.160784);
-  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.160784);
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16078);
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16078);
   opacity: 1;
   border-radius: 50%;
   position: relative;
@@ -4437,62 +4435,42 @@ section .arrow_up_down_downArrow img {
   z-index: -555;
   top: 0;
   left: 0;
-  right: 0;
-}
-
-.main-box_absolute .main-box_relative {
-  position: relative;
-  height: 100%;
-}
-
-.main-box_absolute .main-box_relative .owl-carousel {
-  height: inherit;
-}
-
-.main-box_absolute .main-box_relative .owl-carousel .item {
-  width: 100%;
-  height: inherit;
-  -o-object-fit: none;
-     object-fit: none;
-}
-
-.main-box_absolute .main-box_relative .owl-carousel .item img {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-.main-box_absolute .main-box_relative .text-wrapper {
-  position: absolute;
-  bottom: 0;
-  height: 25vh;
-  left: 0;
-  right: 0;
-  z-index: 5555;
-  background: transparent -webkit-gradient(linear, left top, left bottom, color-stop(20%, rgba(0, 0, 0, 0)), to(black)) 0 0;
-  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 20%, black 100%) 0 0;
-}
-
-.main-box_absolute .main-box_relative .text-wrapper p {
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 5.5vh;
-  margin-left: 2.6vh;
-  line-height: 1vh;
-  color: #fff;
-}
-
-.main-box_absolute .main-box_relative .text-wrapper .icon-box {
-  margin-top: 7.8vh;
-  height: 4.7vh;
-  width: 4.7vh;
-  background-color: #fff;
-  border-radius: 50%;
-}
-
-.main-box_absolute .main-box_relative .text-wrapper .icon-box img {
-  height: 50%;
-}
+  right: 0; }
+  .main-box_absolute .main-box_relative {
+    position: relative;
+    height: 100%; }
+    .main-box_absolute .main-box_relative .owl-carousel {
+      height: inherit; }
+      .main-box_absolute .main-box_relative .owl-carousel .item {
+        width: 100%;
+        height: inherit;
+        object-fit: none; }
+        .main-box_absolute .main-box_relative .owl-carousel .item img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover; }
+    .main-box_absolute .main-box_relative .text-wrapper {
+      position: absolute;
+      bottom: 0;
+      height: 25vh;
+      left: 0;
+      right: 0;
+      z-index: 5555;
+      background: transparent linear-gradient(180deg, transparent 20%, black 100%) 0 0; }
+      .main-box_absolute .main-box_relative .text-wrapper p {
+        font-family: "Helvetica Neue", sans-serif;
+        font-size: 5.5vh;
+        margin-left: 2.6vh;
+        line-height: 1vh;
+        color: #fff; }
+      .main-box_absolute .main-box_relative .text-wrapper .icon-box {
+        margin-top: 7.8vh;
+        height: 4.7vh;
+        width: 4.7vh;
+        background-color: #fff;
+        border-radius: 50%; }
+        .main-box_absolute .main-box_relative .text-wrapper .icon-box img {
+          height: 50%; }
 
 .padding-top-14vh {
   padding-top: 14vh;
@@ -5038,20 +5016,16 @@ section .arrow_up_down_downArrow img {
   left: 0;
   right: 0;
   background: #fff;
-  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
-  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
-}
-
-.nature-text-wrapper h1 {
-  font-family: 'DejaVu Sans Oblique';
-  color: #000;
-  font-size: 2.3vh;
-  text-align: center;
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 10vh;
-}
+  background: transparent linear-gradient(180deg, transparent 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%); }
+  .nature-text-wrapper h1 {
+    font-family: 'DejaVu Sans Oblique';
+    color: #000;
+    font-size: 2.3vh;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10vh; }
 
 .chevron-container {
   position: absolute;
@@ -6410,8 +6384,7 @@ section .arrow_up_down_downArrow img {
   width: 10vh;
   border-radius: 50%;
   position: absolute;
-  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.160784);
-          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.160784);
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16078);
   top: 80%;
   left: 50%;
   -webkit-transform: translateX(-50%);
@@ -7832,9 +7805,8 @@ section .arrow_up_down_downArrow img {
   left: 0;
   right: 0;
   background: #fff;
-  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
-  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
-}
+  background: transparent -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
+  background: transparent linear-gradient(180deg, transparent 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%); }
 
 .N-1366-96 {
   background-image: url("../img/gakvetilebi/buneba/invisible_forces/N2-366-96.png");
@@ -8608,8 +8580,7 @@ section .arrow_up_down_downArrow img {
   position: absolute;
   right: 0;
   display: inline-block;
-  background: rgba(0, 0, 0, 0);
-}
+  background: transparent; }
 
 .fab_field .fab {
   width: 35px;
@@ -10974,9 +10945,7 @@ section .arrow_up_down_downArrow img {
 
 #N-1366-03-151 .nature-text-wrapper {
   height: 35vh;
-  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
-  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
-}
+  background: transparent linear-gradient(180deg, transparent 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%); }
 
 #N-1366-03-110 .bottom_components a {
   margin: 0;
@@ -10998,9 +10967,7 @@ section .arrow_up_down_downArrow img {
 
 #N-1366-03-152 .nature-text-wrapper {
   height: 28vh;
-  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
-  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
-}
+  background: transparent linear-gradient(180deg, transparent 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%); }
 
 #N-1366-03-153 .N-1366-03-153 {
   background-image: url("../img/gakvetilebi/buneba/forest_colours/N-153.png");
@@ -11014,9 +10981,7 @@ section .arrow_up_down_downArrow img {
   left: 0;
   right: 0;
   background: #fff;
-  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
-  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
-}
+  background: transparent linear-gradient(180deg, transparent 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%); }
 
 .N-1366-03-154 {
   background-image: url("../img/gakvetilebi/buneba/forest_colours/N-154.png");
@@ -11432,15 +11397,11 @@ section .arrow_up_down_downArrow img {
   width: 75px;
   height: 75px;
   border-radius: 50%;
-  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.160784);
-          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.160784);
-  position: absolute;
-}
-
-.nature-game-season-circles img {
-  width: 20px;
-  height: initial;
-}
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16078);
+  position: absolute; }
+  .nature-game-season-circles img {
+    width: 20px;
+    height: initial; }
 
 .nature-game-season-circle-1 {
   left: 50%;
@@ -11689,79 +11650,43 @@ section .arrow_up_down_downArrow img {
   color: #0b2228;
   font-size: 2.34vh;
   font-family: "BPG Arial";
-  line-height: inherit;
-}
-
-.nature_plant-game-text-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  height: 100%;
-}
-
-.nature_plant-game-text-container-white {
-  background: #fff;
-  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.160784);
-          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.160784);
-  border-radius: 27px;
-  height: 5.07vh;
-  width: 12.29vw;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  position: absolute;
-}
-
-.nature_plant-game-text-container-white-1 {
-  top: 6.7vh;
-  left: -9.7vw;
-}
-
-.nature_plant-game-text-container-white-2 {
-  top: 3.5vh;
-  right: -11.4vw;
-}
-
-.nature_plant-game-text-container-white-3 {
-  top: 26vh;
-  left: -8.9vw;
-}
-
-.nature_plant-game-text-container-white-4 {
-  top: 29.5vh;
-  right: -1.9vw;
-}
-
-.nature_plant-game-text-container-white-5 {
-  bottom: 0.5vh;
-  left: -8.9vw;
-}
-
-.nature_plant-game-text-container-white.error {
-  background: #dc6c85;
-}
-
-.nature_plant-game-text-container-white.error .nature_plant-game-text {
-  color: #fff;
-}
-
-.nature_plant-game-text-container-white.success {
-  background: #a1dd6f;
-}
-
+  line-height: inherit; }
+  .nature_plant-game-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; }
+    .nature_plant-game-text-container-white {
+      background: #fff;
+      box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16078);
+      border-radius: 27px;
+      height: 5.07vh;
+      width: 12.29vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute; }
+      .nature_plant-game-text-container-white-1 {
+        top: 6.7vh;
+        left: -9.7vw; }
+      .nature_plant-game-text-container-white-2 {
+        top: 3.5vh;
+        right: -11.4vw; }
+      .nature_plant-game-text-container-white-3 {
+        top: 26vh;
+        left: -8.9vw; }
+      .nature_plant-game-text-container-white-4 {
+        top: 29.5vh;
+        right: -1.9vw; }
+      .nature_plant-game-text-container-white-5 {
+        bottom: 0.5vh;
+        left: -8.9vw; }
+      .nature_plant-game-text-container-white.error {
+        background: #dc6c85; }
+        .nature_plant-game-text-container-white.error .nature_plant-game-text {
+          color: #fff; }
+      .nature_plant-game-text-container-white.success {
+        background: #a1dd6f; }
 .nature_plant-game-img {
   height: 100%;
 }
@@ -12052,21 +11977,13 @@ section .arrow_up_down_downArrow img {
   width: 58px;
   height: 58px;
   border-radius: 50%;
-  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.160784);
-          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.160784);
-}
-
-.m-1366-04-23-music-game-note-circles.error {
-  background-color: #ff5252;
-}
-
-.m-1366-04-23-music-game-note-circles.success {
-  background-color: #A1DD6F;
-}
-
-.m-1366-04-23-music-game-note-circles.selected {
-  background-color: #F8D24B;
-}
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16078); }
+  .m-1366-04-23-music-game-note-circles.error {
+    background-color: #ff5252; }
+  .m-1366-04-23-music-game-note-circles.success {
+    background-color: #A1DD6F; }
+  .m-1366-04-23-music-game-note-circles.selected {
+    background-color: #F8D24B; }
 
 .m-1366-04-23-music-note-circles-div {
   margin-top: 5.2vh;
@@ -13166,10 +13083,7 @@ section .arrow_up_down_downArrow img {
 #C-1366-28 .input_box .checkmark {
   cursor: pointer;
   border: 0;
-  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.160784);
-          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.160784);
-}
-
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16078); }
 #C-1366-28 .input_box .checkmark.selected {
   background: #f7d24b;
 }
@@ -13550,9 +13464,7 @@ section .arrow_up_down_downArrow img {
   left: 0;
   right: 0;
   background: #fff;
-  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
-  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
-}
+  background: transparent linear-gradient(180deg, transparent 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%); }
 
 #N-1366-05-7 .N-1366-03-153 {
   background-image: url("../img/gakvetilebi/buneba/Where-sun-goes/sun-7.png");
@@ -13565,9 +13477,7 @@ section .arrow_up_down_downArrow img {
   height: 16vh;
   left: 0;
   right: 0;
-  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
-  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
-}
+  background: transparent linear-gradient(180deg, transparent 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%); }
 
 #N-1366-05-8 .N-1366-03-153 {
   background-image: url("../img/gakvetilebi/buneba/Where-sun-goes/sun-8.png");
@@ -13581,9 +13491,7 @@ section .arrow_up_down_downArrow img {
   left: 0;
   right: 0;
   background: #fff;
-  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
-  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
-}
+  background: transparent linear-gradient(180deg, transparent 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%); }
 
 #N-1366-05-9 .N-1366-03-153 {
   background-image: url("../img/gakvetilebi/buneba/Where-sun-goes/sun-9.png");
@@ -13597,9 +13505,7 @@ section .arrow_up_down_downArrow img {
   left: 0;
   right: 0;
   background: #fff;
-  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
-  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
-}
+  background: transparent linear-gradient(180deg, transparent 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%); }
 
 #N-1366-05-10 .N-1366-03-153 {
   background-image: url("../img/gakvetilebi/buneba/Where-sun-goes/sun-10.png");
@@ -13613,9 +13519,7 @@ section .arrow_up_down_downArrow img {
   left: 0;
   right: 0;
   background: #fff;
-  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
-  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
-}
+  background: transparent linear-gradient(180deg, transparent 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%); }
 
 #N-1366-05-11 .N-1366-03-153 {
   background-image: url("../img/gakvetilebi/buneba/Where-sun-goes/sun-11.png");
@@ -13629,9 +13533,7 @@ section .arrow_up_down_downArrow img {
   left: 0;
   right: 0;
   background: #fff;
-  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
-  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
-}
+  background: transparent linear-gradient(180deg, transparent 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%); }
 
 #N-1366-05-12 .N-1366-03-153 {
   background-image: url("../img/gakvetilebi/buneba/Where-sun-goes/sun-12.png");
@@ -13645,9 +13547,7 @@ section .arrow_up_down_downArrow img {
   left: 0;
   right: 0;
   background: #fff;
-  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
-  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
-}
+  background: transparent linear-gradient(180deg, transparent 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%); }
 
 #N-1366-05-13 .N-1366-03-153 {
   background-image: url("../img/gakvetilebi/buneba/Where-sun-goes/sun-13.png");
@@ -13661,9 +13561,7 @@ section .arrow_up_down_downArrow img {
   left: 0;
   right: 0;
   background: #fff;
-  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
-  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
-}
+  background: transparent linear-gradient(180deg, transparent 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%); }
 
 #N-1366-05-14 .N-1366-03-153 {
   background-image: url("../img/gakvetilebi/buneba/Where-sun-goes/sun-14.png");
@@ -13677,9 +13575,7 @@ section .arrow_up_down_downArrow img {
   left: 0;
   right: 0;
   background: #fff;
-  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
-  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
-}
+  background: transparent linear-gradient(180deg, transparent 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%); }
 
 #N-1366-05-16 .N-1366-03-153 {
   background-image: url("../img/gakvetilebi/buneba/Where-sun-goes/sun-16.png");
@@ -13693,9 +13589,7 @@ section .arrow_up_down_downArrow img {
   left: 0;
   right: 0;
   background: #fff;
-  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
-  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
-}
+  background: transparent linear-gradient(180deg, transparent 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%); }
 
 #N-1366-05-17 .N-1366-03-153 {
   background-image: url("../img/gakvetilebi/buneba/Where-sun-goes/sun-17.png");
@@ -13709,9 +13603,7 @@ section .arrow_up_down_downArrow img {
   left: 0;
   right: 0;
   background: #fff;
-  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
-  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
-}
+  background: transparent linear-gradient(180deg, transparent 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%); }
 
 #N-1366-05-18 .N-1366-03-153 {
   background-image: url("../img/gakvetilebi/buneba/Where-sun-goes/sun-18.png");
@@ -13725,9 +13617,7 @@ section .arrow_up_down_downArrow img {
   left: 0;
   right: 0;
   background: #fff;
-  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
-  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
-}
+  background: transparent linear-gradient(180deg, transparent 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%); }
 
 #N-1366-05-19 .N-1366-03-153 {
   background-image: url("../img/gakvetilebi/buneba/Where-sun-goes/sun-19.png");
@@ -13741,9 +13631,7 @@ section .arrow_up_down_downArrow img {
   left: 0;
   right: 0;
   background: #fff;
-  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
-  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
-}
+  background: transparent linear-gradient(180deg, transparent 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%); }
 
 .N-1366-05-21-container {
   background-image: url(../../../../img/gakvetilebi/buneba/Where-sun-goes/N-1366-05-21-container.svg);
@@ -13771,9 +13659,7 @@ section .arrow_up_down_downArrow img {
   left: 0;
   right: 0;
   background: #fff;
-  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
-  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
-}
+  background: transparent linear-gradient(180deg, transparent 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%); }
 
 #N-1366-05-30 .N-1366-03-153 {
   background-image: url("../img/gakvetilebi/buneba/Where-sun-goes/sun-30.png");
@@ -13787,9 +13673,7 @@ section .arrow_up_down_downArrow img {
   left: 0;
   right: 0;
   background: #fff;
-  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
-  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
-}
+  background: transparent linear-gradient(180deg, transparent 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%); }
 
 #N-1366-05-31 .N-1366-03-153 {
   background-image: url("../img/gakvetilebi/buneba/Where-sun-goes/sun-31.png");
@@ -13803,9 +13687,7 @@ section .arrow_up_down_downArrow img {
   left: 0;
   right: 0;
   background: #fff;
-  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
-  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
-}
+  background: transparent linear-gradient(180deg, transparent 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%); }
 
 #N-1366-05-32 .nature_full_image-box {
   height: 100vh;
@@ -13931,9 +13813,7 @@ section .arrow_up_down_downArrow img {
   left: 0;
   right: 0;
   background: #fff;
-  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
-  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
-}
+  background: transparent linear-gradient(180deg, transparent 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%); }
 
 #N-1366-05-47 .N-1366-03-153 {
   background-image: url("../img/gakvetilebi/buneba/Where-sun-goes/sun-47.png");
@@ -13947,9 +13827,7 @@ section .arrow_up_down_downArrow img {
   left: 0;
   right: 0;
   background: #fff;
-  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
-  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
-}
+  background: transparent linear-gradient(180deg, transparent 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%); }
 
 #N-1366-05-51 .N-1366-03-153 {
   background-image: url("../img/gakvetilebi/buneba/Where-sun-goes/sun-51.png");
@@ -13963,9 +13841,7 @@ section .arrow_up_down_downArrow img {
   left: 0;
   right: 0;
   background: #fff;
-  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
-  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
-}
+  background: transparent linear-gradient(180deg, transparent 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%); }
 
 #N-1366-05-52 .N-1366-03-153 {
   background-image: url("../img/gakvetilebi/buneba/Where-sun-goes/sun-52.png");
@@ -13979,9 +13855,7 @@ section .arrow_up_down_downArrow img {
   left: 0;
   right: 0;
   background: #fff;
-  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
-  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
-}
+  background: transparent linear-gradient(180deg, transparent 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%); }
 
 #N-1366-05-55 .N-1366-03-153 {
   background-image: url("../img/gakvetilebi/buneba/Where-sun-goes/sun-55.png");
@@ -13995,9 +13869,7 @@ section .arrow_up_down_downArrow img {
   left: 0;
   right: 0;
   background: #fff;
-  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
-  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
-}
+  background: transparent linear-gradient(180deg, transparent 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%); }
 
 #N-1366-05-57 .N-1366-03-153 {
   background-image: url("../img/gakvetilebi/buneba/Where-sun-goes/sun-57.png");
@@ -14011,9 +13883,7 @@ section .arrow_up_down_downArrow img {
   left: 0;
   right: 0;
   background: #fff;
-  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
-  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
-}
+  background: transparent linear-gradient(180deg, transparent 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%); }
 
 .w-70 {
   width: 70%;
@@ -14494,9 +14364,7 @@ section .arrow_up_down_downArrow img {
   left: 0;
   right: 0;
   background: #fff;
-  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
-  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
-}
+  background: transparent linear-gradient(180deg, transparent 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%); }
 
 #N-1366-06-7 .N-1366-03-153 {
   background-image: url("../img/gakvetilebi/buneba/Summer-in-winter/comix-7.png");
@@ -14510,9 +14378,7 @@ section .arrow_up_down_downArrow img {
   left: 0;
   right: 0;
   background: #fff;
-  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
-  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
-}
+  background: transparent linear-gradient(180deg, transparent 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%); }
 
 #N-1366-06-8 .N-1366-03-153 {
   background-image: url("../img/gakvetilebi/buneba/Summer-in-winter/comix-8.png");
@@ -14526,9 +14392,7 @@ section .arrow_up_down_downArrow img {
   left: 0;
   right: 0;
   background: #fff;
-  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
-  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
-}
+  background: transparent linear-gradient(180deg, transparent 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%); }
 
 #N-1366-06-9 .N-1366-03-153 {
   background-image: url("../img/gakvetilebi/buneba/Summer-in-winter/comix-9.png");
@@ -14542,9 +14406,7 @@ section .arrow_up_down_downArrow img {
   left: 0;
   right: 0;
   background: #fff;
-  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
-  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
-}
+  background: transparent linear-gradient(180deg, transparent 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%); }
 
 #N-1366-06-10 .N-1366-03-153 {
   background-image: url("../img/gakvetilebi/buneba/Summer-in-winter/comix-10.png");
@@ -14558,9 +14420,7 @@ section .arrow_up_down_downArrow img {
   left: 0;
   right: 0;
   background: #fff;
-  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
-  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
-}
+  background: transparent linear-gradient(180deg, transparent 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%); }
 
 #N-1366-06-11 .N-1366-03-153 {
   background-image: url("../img/gakvetilebi/buneba/Summer-in-winter/comix-11.png");
@@ -14574,9 +14434,7 @@ section .arrow_up_down_downArrow img {
   left: 0;
   right: 0;
   background: #fff;
-  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
-  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
-}
+  background: transparent linear-gradient(180deg, transparent 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%); }
 
 #N-1366-06-12 .N-1366-03-153 {
   background-image: url("../img/gakvetilebi/buneba/Summer-in-winter/comix-12.png");
@@ -14590,9 +14448,7 @@ section .arrow_up_down_downArrow img {
   left: 0;
   right: 0;
   background: #fff;
-  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
-  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
-}
+  background: transparent linear-gradient(180deg, transparent 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%); }
 
 #N-1366-06-13 .N-1366-03-153 {
   background-image: url("../img/gakvetilebi/buneba/Summer-in-winter/comix-13.png");
@@ -14606,9 +14462,7 @@ section .arrow_up_down_downArrow img {
   left: 0;
   right: 0;
   background: #fff;
-  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
-  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
-}
+  background: transparent linear-gradient(180deg, transparent 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%); }
 
 #N-1366-06-13 .N-1366-03-153 {
   background-image: url("../img/gakvetilebi/buneba/Summer-in-winter/comix-13.png");
@@ -14622,9 +14476,7 @@ section .arrow_up_down_downArrow img {
   left: 0;
   right: 0;
   background: #fff;
-  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
-  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
-}
+  background: transparent linear-gradient(180deg, transparent 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%); }
 
 #N-1366-06-15 .N-1366-03-153 {
   background-image: url("../img/gakvetilebi/buneba/Summer-in-winter/comix-15.png");
@@ -14638,9 +14490,7 @@ section .arrow_up_down_downArrow img {
   left: 0;
   right: 0;
   background: #fff;
-  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
-  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
-}
+  background: transparent linear-gradient(180deg, transparent 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%); }
 
 #N-1366-06-16 .N-1366-03-153 {
   background-image: url("../img/gakvetilebi/buneba/Summer-in-winter/comix-16.png");
@@ -14654,9 +14504,7 @@ section .arrow_up_down_downArrow img {
   left: 0;
   right: 0;
   background: #fff;
-  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
-  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
-}
+  background: transparent linear-gradient(180deg, transparent 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%); }
 
 #N-1366-06-17 .N-1366-03-153 {
   background-image: url("../img/gakvetilebi/buneba/Summer-in-winter/comix-17.png");
@@ -14670,9 +14518,7 @@ section .arrow_up_down_downArrow img {
   left: 0;
   right: 0;
   background: #fff;
-  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
-  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
-}
+  background: transparent linear-gradient(180deg, transparent 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%); }
 
 #N-1366-06-18 .N-1366-03-153 {
   background-image: url("../img/gakvetilebi/buneba/Summer-in-winter/comix-18.png");
@@ -14686,9 +14532,7 @@ section .arrow_up_down_downArrow img {
   left: 0;
   right: 0;
   background: #fff;
-  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
-  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
-}
+  background: transparent linear-gradient(180deg, transparent 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%); }
 
 #N-1366-06-27 .N-1366-03-153 {
   background-image: url("../img/gakvetilebi/buneba/Summer-in-winter/comix-27.png");
@@ -14702,9 +14546,7 @@ section .arrow_up_down_downArrow img {
   left: 0;
   right: 0;
   background: #fff;
-  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
-  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
-}
+  background: transparent linear-gradient(180deg, transparent 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%); }
 
 #N-1366-06-28 .N-1366-03-153 {
   background-image: url("../img/gakvetilebi/buneba/Summer-in-winter/comix-28.png");
@@ -14718,9 +14560,7 @@ section .arrow_up_down_downArrow img {
   left: 0;
   right: 0;
   background: #fff;
-  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
-  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
-}
+  background: transparent linear-gradient(180deg, transparent 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%); }
 
 #N-1366-06-31 {
   height: 100vh;
@@ -14874,9 +14714,7 @@ section .arrow_up_down_downArrow img {
   left: 0;
   right: 0;
   background: #fff;
-  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
-  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
-}
+  background: transparent linear-gradient(180deg, transparent 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%); }
 
 #N-1366-06-34 .N-1366-03-153 {
   background-image: url("../img/gakvetilebi/buneba/Summer-in-winter/comix-34.png");
@@ -14890,9 +14728,7 @@ section .arrow_up_down_downArrow img {
   left: 0;
   right: 0;
   background: #fff;
-  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
-  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
-}
+  background: transparent linear-gradient(180deg, transparent 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%); }
 
 #N-1366-06-35 .N-1366-03-153 {
   background-image: url("../img/gakvetilebi/buneba/Summer-in-winter/comix-35.png");
@@ -14906,9 +14742,7 @@ section .arrow_up_down_downArrow img {
   left: 0;
   right: 0;
   background: #fff;
-  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
-  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
-}
+  background: transparent linear-gradient(180deg, transparent 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%); }
 
 #N-1366-06-36 .N-1366-03-153 {
   background-image: url("../img/gakvetilebi/buneba/Summer-in-winter/comix-36.png");
@@ -14922,9 +14756,7 @@ section .arrow_up_down_downArrow img {
   left: 0;
   right: 0;
   background: #fff;
-  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
-  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
-}
+  background: transparent linear-gradient(180deg, transparent 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%); }
 
 #N-1366-06-37 .N-1366-03-153 {
   background-image: url("../img/gakvetilebi/buneba/Summer-in-winter/comix-37.png");
@@ -14938,9 +14770,7 @@ section .arrow_up_down_downArrow img {
   left: 0;
   right: 0;
   background: #fff;
-  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
-  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
-}
+  background: transparent linear-gradient(180deg, transparent 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%); }
 
 #N-1366-06-38 .N-1366-03-153 {
   background-image: url("../img/gakvetilebi/buneba/Summer-in-winter/comix-38.png");
@@ -14954,9 +14784,7 @@ section .arrow_up_down_downArrow img {
   left: 0;
   right: 0;
   background: #fff;
-  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
-  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
-}
+  background: transparent linear-gradient(180deg, transparent 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%); }
 
 #N-1366-06-39 .N-1366-03-153 {
   height: 100vh;
@@ -14973,9 +14801,7 @@ section .arrow_up_down_downArrow img {
   height: 16vh;
   left: 0;
   right: 0;
-  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
-  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
-}
+  background: transparent linear-gradient(180deg, transparent 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%); }
 
 #N-1366-06-44 .N-1366-03-153 {
   background-image: url("../img/gakvetilebi/buneba/Summer-in-winter/comix-44.png");
@@ -14989,9 +14815,7 @@ section .arrow_up_down_downArrow img {
   left: 0;
   right: 0;
   background: #fff;
-  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
-  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
-}
+  background: transparent linear-gradient(180deg, transparent 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%); }
 
 #N-1366-06-45 .N-1366-03-153 {
   background-image: url("../img/gakvetilebi/buneba/Summer-in-winter/comix-45.png");
@@ -15005,9 +14829,7 @@ section .arrow_up_down_downArrow img {
   left: 0;
   right: 0;
   background: #fff;
-  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
-  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
-}
+  background: transparent linear-gradient(180deg, transparent 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%); }
 
 #N-1366-06-50 .N-1366-03-153 {
   background-image: url("../img/gakvetilebi/buneba/Summer-in-winter/comix-50.png");
@@ -15021,9 +14843,7 @@ section .arrow_up_down_downArrow img {
   left: 0;
   right: 0;
   background: #fff;
-  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
-  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
-}
+  background: transparent linear-gradient(180deg, transparent 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%); }
 
 #N-1366-06-51 .title-img {
   height: 40vh;
@@ -15716,8 +15536,7 @@ section .arrow_up_down_downArrow img {
 }
 
 .n2-146-text-container {
-  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.160784);
-          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.160784);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16078);
   border-radius: 27px;
   width: 23vw;
   height: 21vh;
@@ -16624,76 +16443,37 @@ td img {
   width: 15vw;
   background: #B3B3B3;
   margin-top: 8vh;
-  border-radius: 16px;
-}
-
-#A-1366-06-15 .form_box .mini_boxes {
-  position: relative;
-  width: 11.7vh;
-  height: 11.7vh;
-  max-width: 108px;
-  max-height: 90px;
-  background-color: white;
-  border-radius: 16px;
-}
-
-#A-1366-06-15 .form_box .mini_boxes .triangle_forms {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-#A-1366-06-15 .form_box .mini_boxes .triangle_forms img {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 1 50%;
-          flex: 0 1 50%;
-}
-
-#A-1366-06-15 .form_box .mini_boxes .triangle_forms img:first-child {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 0 100%;
-          flex: 1 0 100%;
-}
-
-#A-1366-06-15 .form_box .mini_boxes .circle_forms {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-#A-1366-06-15 .form_box .mini_boxes .circle_forms img {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 1 50%;
-          flex: 0 1 50%;
-}
-
-#A-1366-06-15 .form_box .mini_boxes .circle_forms img:first-child {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 0 100%;
-          flex: 1 0 100%;
-}
-
-#A-1366-06-15 .form_box .mini_boxes_multy_tr {
-  height: 4.8vh;
-  max-height: 30px;
-}
-
-#A-1366-06-15 .form_box .mini_boxes_multy_sq {
-  max-height: 30px;
-  max-width: 30px;
-}
+  border-radius: 16px; }
+  #A-1366-06-15 .form_box .mini_boxes {
+    position: relative;
+    width: 11.7vh;
+    height: 11.7vh;
+    max-width: 108px;
+    max-height: 90px;
+    background-color: white;
+    border-radius: 16px; }
+    #A-1366-06-15 .form_box .mini_boxes .triangle_forms {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap; }
+      #A-1366-06-15 .form_box .mini_boxes .triangle_forms img {
+        flex: 0 1 50%; }
+        #A-1366-06-15 .form_box .mini_boxes .triangle_forms img:first-child {
+          flex: 1 0 100%; }
+    #A-1366-06-15 .form_box .mini_boxes .circle_forms {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap; }
+      #A-1366-06-15 .form_box .mini_boxes .circle_forms img {
+        flex: 0 1 50%; }
+        #A-1366-06-15 .form_box .mini_boxes .circle_forms img:first-child {
+          flex: 1 0 100%; }
+    #A-1366-06-15 .form_box .mini_boxes_multy_tr {
+      height: 4.8vh;
+      max-height: 30px; }
+    #A-1366-06-15 .form_box .mini_boxes_multy_sq {
+      max-height: 30px;
+      max-width: 30px; }
 
 #A-1366-06-21 .text {
   font-family: "DejaVu Sans Oblique", sans-serif;
@@ -17301,31 +17081,20 @@ td img {
   -webkit-box-shadow: 2px 2px 8px rgba(127, 209, 216, 0.4);
           box-shadow: 2px 2px 8px rgba(127, 209, 216, 0.4);
   margin-right: 3.906735vw;
-  margin-bottom: 2.604167vh;
-}
-
-.nature-07-game-card--title {
-  font-size: 1.02489vw;
-  text-align: center;
-  margin-bottom: 3.255208vh;
-}
-
-.nature-07-game-card:nth-child(4) {
-  margin-right: 0;
-}
-
-.nature-07-game-card--child img {
-  width: 4.412006vw;
-  border-radius: 6px;
-}
-
-.nature-07-game-card--child img:nth-child(1) {
-  margin-right: 1.464129vw;
-}
-
-.nature-07-game-card--child img.error {
-  border: 2px solid red;
-}
+  margin-bottom: 2.604167vh; }
+  .nature-07-game-card--title {
+    font-size: 1.02489vw;
+    text-align: center;
+    margin-bottom: 3.255208vh; }
+  .nature-07-game-card:nth-child(4) {
+    margin-right: 0; }
+  .nature-07-game-card--child img {
+    width: 4.412006vw;
+    border-radius: 6px; }
+    .nature-07-game-card--child img:nth-child(1) {
+      margin-right: 1.46413vw; }
+    .nature-07-game-card--child img.error {
+      border: 2px solid red; }
 
 .nature-07-game-images {
   margin-right: 2.709vw;
@@ -21835,6 +21604,79 @@ td img {
   color: #62548a;
 }
 
+.cs-2-3-8-img-div {
+  height: 38.28vh;
+  position: absolute;
+  bottom: 8.39vh;
+  right: 17.2vw;
+}
+
+.cs-2-3-8-img-div img {
+  height: 100%;
+}
+
+.cs-2-3-9-div-img {
+  height: 34.5vh;
+}
+
+.cs-2-3-9-div-img img {
+  height: 100%;
+}
+
+.cs-2-3-10-div-img {
+  height: 20.57vh;
+}
+
+.cs-2-3-10-div-img img {
+  height: 100%;
+}
+
+.cs-2-3-13-img-div {
+  height: 40.75vh;
+  position: absolute;
+  bottom: 13.41vh;
+  right: 17.19vw;
+}
+
+.cs-2-3-13-img-div img {
+  height: 100%;
+}
+
+.cs-2-3-14-img-div {
+  height: 59.76vh;
+  position: absolute;
+  bottom: 0;
+  right: 6.07vw;
+}
+
+.cs-2-3-14-img-div img {
+  height: 100%;
+}
+
+.cs-2-3-15-img-div {
+  height: 31.97vh;
+}
+
+.cs-2-3-15-img-div img {
+  height: 100%;
+}
+
+.cs-2-3-17-img-div {
+  height: 40.26vh;
+}
+
+.cs-2-3-17-img-div img {
+  height: 100%;
+}
+
+.cs-2-3-21-1-img-div {
+  height: 41.84vh;
+}
+
+.cs-2-3-21-1-img-div img {
+  height: 100%;
+}
+
 .cs-2-3-1-ill-bg-img {
   height: 83.79vh;
   position: relative;
@@ -22325,6 +22167,10 @@ body {
   margin-bottom: 5vh;
 }
 
+.mb-10vh {
+  margin-bottom: 10vh;
+}
+
 .dj-3vh {
   font-family: 'DejaVuSans';
   font-size: 3.3vh;
@@ -22360,4 +22206,3 @@ body {
   top: 0;
   width: 100%;
 }
-/*# sourceMappingURL=new-style.css.map */

@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<!-- ბოტის აიდიში ვუთითებთ: ხელოვნების - 2318, ბუნების - 2320, მუსიკის - 2292 -->
-<html lang="ka" data-botid="2320">
+<html lang="ka" data-botid="2288">
 
 <head>
     <meta charset="UTF-8"/>
@@ -12,9 +11,6 @@
      -->
     <link rel="stylesheet" href="../../../scss/libraries/bootstrap.min.css">
     <link rel="stylesheet" href="../../../New-header-vue/animate.min.css">
-    <link rel="stylesheet" type="text/css" href="../../../scss/libraries/owl.carousel.min.css"/>
-    <link rel="stylesheet" type="text/css" href="../../../scss/libraries/owl.theme.default.css"/>
-    <link rel="stylesheet" href="../../../scss/libraries/magnific-popup.css">
     <link rel="stylesheet" href="../../../scss/new-style.css"/>
     <title>ელექტრონული საგანმანათლებლო რესურსი</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -40,75 +36,52 @@
         </header>
 
         <app-section v-image="'../../../'" :is-active="isActive">
-            <app-bar
-                    :is-active="isActive"
-                    :trigger="trigger"
-                    :dots="dots"
-                    :current-tab="link"
-                    v-on:link-tab="link = $event">
+            <app-bar :is-active="isActive" :trigger="trigger" :dots="dots" :current-tab="link"
+                     v-on:link-tab="link = $event">
 
             </app-bar>
-            <component
-                    :is="currentTabComponent"
-                    :is-active="isActive"
-                    :path="path"
-                    :trigger="trigger"
-                    :images="images"
-                    :active-class="activeClass"
-                    :tab-class="currentTabComponent">
+            <component :path="path" :is="currentTabComponent" :is-active="isActive" :trigger="trigger"
+                       :images="images" :active-class="activeClass" :tab-class="currentTabComponent">
             </component>
         </app-section>
     </section>
     <section id="mainPage">
         <div class="row">
-            <div class="col-9 m-auto ">
-                  <div class="newDesign_subject_question_item">
-                      <img src="../../../img/icons/newDesign_btn-yellow.svg" alt="img"
-                           class="newDesign_subject_question_item-img">
-                      <p class="newDesign_subject_question_item-title big-font-size-20px-dejavu" >შენ უკვე გაეცანი საგზაო მოძრაობის ზოგიერთ პირობით ნიშანს.</p>
-                  </div>
-                  <div class="newDesign_subject_question_item">
-                      <img src="../../../img/icons/newDesign_btn-yellow.svg" alt="img"
-                           class="newDesign_subject_question_item-img">
-                      <p class="newDesign_subject_question_item-title big-font-size-20px-dejavu" >ქუჩაში მოძრაობისას სარგებლობ თუ არა უსაფრთხოდ მოძრაობის<br> პირობითი ნიშნებით?</p>
-                  </div>
-                  <div class="newDesign_subject_question_item">
-                      <img src="../../../img/icons/newDesign_btn-yellow.svg" alt="img"
-                           class="newDesign_subject_question_item-img">
-                      <p class="newDesign_subject_question_item-title big-font-size-20px-dejavu" >ქუჩაში მოძრაობისას სცადე, წაიკითხო საგზაო მოძრაობის<br> პირობითი ნიშნებით მოცემული ინფორმაცია თუ გაფრთხილებები;</p>
-                  </div>
-                  <div class="newDesign_subject_question_item">
-                        <img src="../../../img/icons/newDesign_btn-yellow.svg" alt="img"
-                             class="newDesign_subject_question_item-img">
-                        <p class="newDesign_subject_question_item-title big-font-size-20px-dejavu" >გაუზიარე შენი ცოდნა მეგობრებს.</p>
-                    </div>
-              </div>  
-               <div class="col-12  justify-content-center d-flex cs-2-2-9-img-div">
-                  <img src="../../../img/gakvetilebi/Computer-Science/Class-2/marks-2/cs-2-2-9.svg" alt="">
-            </div>    
+            <div class="col-8 m-auto flex_direction_start">
+                <div class="d-flex mt-4_5vh">
+                    <img src="../../../img/icons/newDesign_btn-yellow.svg" alt="img"
+                         class="newDesign_subject_question_item-img">
+                    <p class="newDesign_subject_question_item-title">მონიტორი კომპიუტერის ერთ-ერთი ძირითადი ნაწილია, მისი საშუალებით ხედავ კომპიუტერში არსებულ ინფორმაციას, ამიტომ მას ინფორმაციის გამომტან მოწყობილობასაც უწოდებენ.</p>
+                </div>
+            </div>
+            <div class="col-8 m-auto">
+                <div class="cycle-4_img-box d-flex justify-content-center mt-5vh">
+                    <img class="img-fluid" src="../../../img/gakvetilebi/Computer-Science/Class-3/computer-development-1/C-3-1-16.svg" alt="cycle">
+                </div>
+            </div>
         </div>
-       
-           
-        
         <div class="left_components_paging-cont">
             <svg class="left_components_paging" xmlns="http://www.w3.org/2000/svg"
                  xmlns:xlink="http://www.w3.org/1999/xlink" width="134" height="722" viewBox="0 0 134 722">
                 <defs>
-                    <filter id="Rectangle_1414" x="0" y="0" width="134" height="722" filterUnits="userSpaceOnUse">
+                    <filter id="Rectangle_1414" x="0" y="0" width="134" height="722"
+                            filterUnits="userSpaceOnUse">
                         <feOffset dx="2" dy="2" input="SourceAlpha"/>
                         <feGaussianBlur stdDeviation="4" result="blur"/>
                         <feFlood flood-color="#badfed" flood-opacity="0.6"/>
                         <feComposite operator="in" in2="blur"/>
                         <feComposite in="SourceGraphic"/>
                     </filter>
-                    <filter id="Path_12243" x="28" y="543" width="78.354" height="78" filterUnits="userSpaceOnUse">
+                    <filter id="Path_12243" x="28" y="543" width="78.354" height="78"
+                            filterUnits="userSpaceOnUse">
                         <feOffset dx="2" dy="2" input="SourceAlpha"/>
                         <feGaussianBlur stdDeviation="4" result="blur-2"/>
                         <feFlood flood-color="#7fd1d8" flood-opacity="0.4"/>
                         <feComposite operator="in" in2="blur-2"/>
                         <feComposite in="SourceGraphic"/>
                     </filter>
-                    <filter id="Path_12243-2" x="28" y="97" width="78.354" height="78" filterUnits="userSpaceOnUse">
+                    <filter id="Path_12243-2" x="28" y="97" width="78.354" height="78"
+                            filterUnits="userSpaceOnUse">
                         <feOffset dx="2" dy="2" input="SourceAlpha"/>
                         <feGaussianBlur stdDeviation="4" result="blur-3"/>
                         <feFlood flood-color="#dc6c85" flood-opacity="0.4"/>
@@ -214,78 +187,78 @@
                             <path id="Path_8491" data-name="Path 8491"
                                   d="M398.326,34.105h15.128a.9.9,0,0,0,.149-1.8l-.06-.007c-1.965-.2-15.26,0-15.26,0s-.024,0-.068,0A.9.9,0,0,0,398.326,34.105Z"
                                   transform="translate(-396.889 -22.072)" fill="#badfed"/>
-                            <line id="Line_800" data-name="Line 800" x2="1.118" transform="translate(6.287 1.341)"
-                                  fill="none"
-                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
-                            <line id="Line_801" data-name="Line 801" x2="1.118" transform="translate(6.287 3.416)"
-                                  fill="none"
-                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
-                            <line id="Line_802" data-name="Line 802" x2="0.771" transform="translate(6.289 1.798)"
-                                  fill="none"
-                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
-                            <line id="Line_803" data-name="Line 803" x2="0.771" transform="translate(6.289 2.202)"
-                                  fill="none"
-                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
-                            <line id="Line_804" data-name="Line 804" x2="0.771" transform="translate(6.289 2.607)"
-                                  fill="none"
-                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
-                            <line id="Line_805" data-name="Line 805" x2="0.771" transform="translate(6.289 3.012)"
-                                  fill="none"
-                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
-                            <line id="Line_806" data-name="Line 806" x2="1.118" transform="translate(6.287 3.416)"
-                                  fill="none"
-                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
-                            <line id="Line_807" data-name="Line 807" x2="1.118" transform="translate(6.287 5.344)"
-                                  fill="none"
-                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
-                            <line id="Line_808" data-name="Line 808" x2="0.771" transform="translate(6.289 3.873)"
-                                  fill="none"
-                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
-                            <line id="Line_809" data-name="Line 809" x2="0.771" transform="translate(6.289 4.278)"
-                                  fill="none"
-                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
-                            <line id="Line_810" data-name="Line 810" x2="0.771" transform="translate(6.289 4.682)"
-                                  fill="none"
-                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
-                            <line id="Line_811" data-name="Line 811" x2="0.771" transform="translate(6.289 5.087)"
-                                  fill="none"
-                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
-                            <line id="Line_812" data-name="Line 812" x2="1.118" transform="translate(6.287 5.344)"
-                                  fill="none"
-                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
-                            <line id="Line_813" data-name="Line 813" x2="1.118" transform="translate(6.287 7.363)"
-                                  fill="none"
-                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
-                            <line id="Line_814" data-name="Line 814" x2="0.771" transform="translate(6.289 5.789)"
-                                  fill="none"
-                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
-                            <line id="Line_815" data-name="Line 815" x2="0.771" transform="translate(6.289 6.182)"
-                                  fill="none"
-                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
-                            <line id="Line_816" data-name="Line 816" x2="0.771" transform="translate(6.289 6.576)"
-                                  fill="none"
-                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
-                            <line id="Line_817" data-name="Line 817" x2="0.771" transform="translate(6.289 6.97)"
-                                  fill="none"
-                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
-                            <line id="Line_818" data-name="Line 818" x2="1.118" transform="translate(6.287 7.363)"
-                                  fill="none"
-                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
-                            <line id="Line_819" data-name="Line 819" x2="1.118" transform="translate(6.287 9.383)"
-                                  fill="none"
-                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
-                            <line id="Line_820" data-name="Line 820" x2="0.771" transform="translate(6.289 7.808)"
-                                  fill="none"
-                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
-                            <line id="Line_821" data-name="Line 821" x2="0.771" transform="translate(6.289 8.202)"
-                                  fill="none"
-                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
-                            <line id="Line_822" data-name="Line 822" x2="0.771" transform="translate(6.289 8.596)"
-                                  fill="none"
-                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
-                            <line id="Line_823" data-name="Line 823" x2="0.771" transform="translate(6.289 8.989)"
-                                  fill="none"
-                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+                            <line id="Line_800" data-name="Line 800" x2="1.118"
+                                  transform="translate(6.287 1.341)" fill="none" stroke="#fff"
+                                  stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+                            <line id="Line_801" data-name="Line 801" x2="1.118"
+                                  transform="translate(6.287 3.416)" fill="none" stroke="#fff"
+                                  stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+                            <line id="Line_802" data-name="Line 802" x2="0.771"
+                                  transform="translate(6.289 1.798)" fill="none" stroke="#fff"
+                                  stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+                            <line id="Line_803" data-name="Line 803" x2="0.771"
+                                  transform="translate(6.289 2.202)" fill="none" stroke="#fff"
+                                  stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+                            <line id="Line_804" data-name="Line 804" x2="0.771"
+                                  transform="translate(6.289 2.607)" fill="none" stroke="#fff"
+                                  stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+                            <line id="Line_805" data-name="Line 805" x2="0.771"
+                                  transform="translate(6.289 3.012)" fill="none" stroke="#fff"
+                                  stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+                            <line id="Line_806" data-name="Line 806" x2="1.118"
+                                  transform="translate(6.287 3.416)" fill="none" stroke="#fff"
+                                  stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+                            <line id="Line_807" data-name="Line 807" x2="1.118"
+                                  transform="translate(6.287 5.344)" fill="none" stroke="#fff"
+                                  stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+                            <line id="Line_808" data-name="Line 808" x2="0.771"
+                                  transform="translate(6.289 3.873)" fill="none" stroke="#fff"
+                                  stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+                            <line id="Line_809" data-name="Line 809" x2="0.771"
+                                  transform="translate(6.289 4.278)" fill="none" stroke="#fff"
+                                  stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+                            <line id="Line_810" data-name="Line 810" x2="0.771"
+                                  transform="translate(6.289 4.682)" fill="none" stroke="#fff"
+                                  stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+                            <line id="Line_811" data-name="Line 811" x2="0.771"
+                                  transform="translate(6.289 5.087)" fill="none" stroke="#fff"
+                                  stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+                            <line id="Line_812" data-name="Line 812" x2="1.118"
+                                  transform="translate(6.287 5.344)" fill="none" stroke="#fff"
+                                  stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+                            <line id="Line_813" data-name="Line 813" x2="1.118"
+                                  transform="translate(6.287 7.363)" fill="none" stroke="#fff"
+                                  stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+                            <line id="Line_814" data-name="Line 814" x2="0.771"
+                                  transform="translate(6.289 5.789)" fill="none" stroke="#fff"
+                                  stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+                            <line id="Line_815" data-name="Line 815" x2="0.771"
+                                  transform="translate(6.289 6.182)" fill="none" stroke="#fff"
+                                  stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+                            <line id="Line_816" data-name="Line 816" x2="0.771"
+                                  transform="translate(6.289 6.576)" fill="none" stroke="#fff"
+                                  stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+                            <line id="Line_817" data-name="Line 817" x2="0.771"
+                                  transform="translate(6.289 6.97)" fill="none" stroke="#fff"
+                                  stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+                            <line id="Line_818" data-name="Line 818" x2="1.118"
+                                  transform="translate(6.287 7.363)" fill="none" stroke="#fff"
+                                  stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+                            <line id="Line_819" data-name="Line 819" x2="1.118"
+                                  transform="translate(6.287 9.383)" fill="none" stroke="#fff"
+                                  stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+                            <line id="Line_820" data-name="Line 820" x2="0.771"
+                                  transform="translate(6.289 7.808)" fill="none" stroke="#fff"
+                                  stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+                            <line id="Line_821" data-name="Line 821" x2="0.771"
+                                  transform="translate(6.289 8.202)" fill="none" stroke="#fff"
+                                  stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+                            <line id="Line_822" data-name="Line 822" x2="0.771"
+                                  transform="translate(6.289 8.596)" fill="none" stroke="#fff"
+                                  stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+                            <line id="Line_823" data-name="Line 823" x2="0.771"
+                                  transform="translate(6.289 8.989)" fill="none" stroke="#fff"
+                                  stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
                         </g>
                     </g>
                     <g id="Group_8101" data-name="Group 8101" transform="translate(-1.874 -98)">
@@ -478,13 +451,13 @@
                         <tspan x="0" y="0">მინიშნება</tspan>
                     </text>
                     <text id="შუალედური_დავალება" data-name="შუალედური
-                        დავალება" transform="translate(70 549)" fill="#c5cbcd" font-size="12"
+                            დავალება" transform="translate(70 549)" fill="#c5cbcd" font-size="12"
                           font-family="ALKSanet, ALK Sanet">
                         <tspan x="-35.344" y="0">შუალედური</tspan>
                         <tspan x="-30.636" y="12">დავალება</tspan>
                     </text>
                     <text id="კომპლექსური_დავალება" data-name="კომპლექსური
-                        დავალება" transform="translate(70 668)" fill="#c5cbcd" font-size="12"
+                            დავალება" transform="translate(70 668)" fill="#c5cbcd" font-size="12"
                           font-family="ALKSanet, ALK Sanet">
                         <tspan x="-42.015" y="0">კომპლექსური</tspan>
                         <tspan x="-30.636" y="12">დავალება</tspan>
@@ -492,6 +465,7 @@
                 </g>
             </svg>
         </div>
+
         <div class="our__pagination flex">
             <a href="#" class="pagination__prev__btn">
                 <img style="transform: rotate(180deg)" src="../../../img/icons/chevron-left-icon.svg" alt="">
@@ -503,6 +477,7 @@
                 <img src="../../../img/icons/chevron-left-icon.svg" alt="">
             </a>
         </div>
+
     </section>
 </div>
 
