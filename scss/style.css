@@ -1601,6 +1601,13 @@ body {
   padding-top: 13px;
 }
 
+.ml-10vh {
+  margin-left: 10vh;
+}
+
+.ml-15vh {
+  margin-left: 15vh; }
+
 .mt-1_5vh {
   margin-top: 1.5vh;
 }
@@ -16698,3 +16705,4 @@ td img {
   display: -ms-flexbox;
   display: flex;
 }
+/*# sourceMappingURL=style.css.map */

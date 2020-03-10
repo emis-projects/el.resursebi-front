@@ -1,0 +1,52 @@
+.comp {
+  height: 20.5vh;
+  max-height: 158px;
+
+  img {
+    height: 100%;
+  }
+}
+
+.procesor {
+  height: 22.6vh;
+  max-height: 174px;
+
+  img {
+    height: 100%;
+  }
+}
+
+.kayboard {
+  height: 9vh;
+  max-height: 70px;
+
+  img {
+    height: 100%;
+  }
+}
+
+.mouse {
+  height: 6vh;
+  max-height: 47px;
+
+  img {
+    height: 100%;
+  }
+}
+
+.part-btn {
+  height: 42vh;
+  max-height: 324px;
+}
+
+.parts-reload_game_wrapper{
+    position: absolute;
+    bottom: 9.453vh;
+    right: 17.057101vw;
+  .reset__btn{
+    height: 5vh;
+  }
+  .completed__btn{
+    height: 5vh;
+  }
+}
