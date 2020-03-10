@@ -1,19 +1,17 @@
 <!DOCTYPE html>
-<!-- ბოტის აიდიში ვუთითებთ: ხელოვნების - 2318, ბუნების - 2320, მუსიკის - 2292 -->
-<html lang="ka" data-botid="2320">
+<html lang="ka" data-botid="2288">
 
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <!-- ყველა გვერდზე -->
-    <script src="../../js/vue.js"></script>
+    <script src="../../../js/vue.js"></script>
     <!--  ვუე გაშვებისას
-      <script src="./js/vue.min.js"></script>
-       -->
-    <link rel="stylesheet" href="../../New-header-vue/animate.min.css">
-    <link rel="stylesheet" href="../../scss/libraries/bootstrap.min.css">
-    <link rel="stylesheet" href="../../scss/libraries/magnific-popup.css">
-    <link rel="stylesheet" href="../../scss/new-style.css" />
+    <script src="./js/vue.min.js"></script>
+     -->
+    <link rel="stylesheet" href="../../../scss/libraries/bootstrap.min.css">
+    <link rel="stylesheet" href="../../../New-header-vue/animate.min.css">
+    <link rel="stylesheet" href="../../../scss/new-style.css" />
     <title>ელექტრონული საგანმანათლებლო რესურსი</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
@@ -23,7 +21,6 @@
         function gtag() {
             dataLayer.push(arguments);
         }
-
         gtag('js', new Date());
 
         gtag('config', 'UA-155006442-1');
@@ -34,10 +31,10 @@
     <div class="container">
         <section id="app" class="container position-absolute">
             <header>
-                <app-menu v-logo="'../../'" :is-active="isActive" :toggle="toggle"></app-menu>
+                <app-menu v-logo="'../../../'" :is-active="isActive" :toggle="toggle"></app-menu>
             </header>
 
-            <app-section v-image="'../../'" :is-active="isActive">
+            <app-section v-image="'../../../'" :is-active="isActive">
                 <app-bar :is-active="isActive" :trigger="trigger" :dots="dots" :current-tab="link"
                     v-on:link-tab="link = $event">
 
@@ -47,9 +44,29 @@
                 </component>
             </app-section>
         </section>
+        <section id="mainPage">
+            <div class="row mt-10vh">
+                <div class="col-7 m-auto">
+                    <div class="newDesign_subject_question_item">
+                        <img src="../../../img/icons/newDesign_btn-yellow.svg" alt="img"
+                            class="newDesign_subject_question_item-img">
+                        <p class="newDesign_subject_question_item-title">
+                            როგორ ფიქრობ, რა არის <a href="5-1.html" class="a-blue">ფუნქცია</a>
+                        </p>
+                    </div>
+                    <div class="newDesign_subject_question_item">
+                        <img src="../../../img/icons/newDesign_btn-yellow.svg" alt="img"
+                            class="newDesign_subject_question_item-img">
+                        <p class="newDesign_subject_question_item-title">
+                            შეგიძლია, დაასახელო
+                        </p>
+                    </div>
+                </div>
+                <div class="col-9 m-auto d-flex justify-content-end">
+                    <img src="../../../img/gakvetilebi/Computer-Science/Class-5/function-5/cs-5-5-5-img.svg" alt="img" class="cs-5-5-5-img">
+                </div>
+            </div>
 
-
-        <section id="mainPage" class="snow-50">
             <div class="left_components_paging-cont">
                 <svg class="left_components_paging" xmlns="http://www.w3.org/2000/svg"
                     xmlns:xlink="http://www.w3.org/1999/xlink" width="134" height="722" viewBox="0 0 134 722">
@@ -113,7 +130,7 @@
                             data-name="Path 143737"
                             d="M-107,293.662h-25.155a28.388,28.388,0,0,0-21.1,9.686A34.87,34.87,0,0,0-162,326.736c0,18.266,13.362,33.074,29.844,33.074H-107c20.013,0,36.24,17.983,36.24,40.162V253.5C-70.762,275.679-86.988,293.662-107,293.662Z"
                             transform="translate(196 -162.5)" fill="#dc6c85" />
-                        <path class="leftSidebar_type" style="opacity: 1" data-type="4" id="Path_143736"
+                        <path class="leftSidebar_type" style="opacity: 0" data-type="4" id="Path_143736"
                             data-name="Path 143736"
                             d="M-107,293.662h-25.155a28.388,28.388,0,0,0-21.1,9.686A34.87,34.87,0,0,0-162,326.736c0,18.266,13.362,33.074,29.844,33.074H-107c20.013,0,36.24,17.983,36.24,40.162V253.5C-70.762,275.679-86.988,293.662-107,293.662Z"
                             transform="translate(196 164.5)" fill="#dc6c85" />
@@ -438,13 +455,13 @@
                             <tspan x="0" y="0">მინიშნება</tspan>
                         </text>
                         <text id="შუალედური_დავალება" data-name="შუალედური
-                  დავალება" transform="translate(70 549)" fill="#c5cbcd" font-size="12"
+                            დავალება" transform="translate(70 549)" fill="#c5cbcd" font-size="12"
                             font-family="ALKSanet, ALK Sanet">
                             <tspan x="-35.344" y="0">შუალედური</tspan>
                             <tspan x="-30.636" y="12">დავალება</tspan>
                         </text>
                         <text id="კომპლექსური_დავალება" data-name="კომპლექსური
-                  დავალება" transform="translate(70 668)" fill="#c5cbcd" font-size="12"
+                            დავალება" transform="translate(70 668)" fill="#c5cbcd" font-size="12"
                             font-family="ALKSanet, ALK Sanet">
                             <tspan x="-42.015" y="0">კომპლექსური</tspan>
                             <tspan x="-30.636" y="12">დავალება</tspan>
@@ -452,230 +469,21 @@
                     </g>
                 </svg>
             </div>
-            <div class="row">
-                <div class="col-11 m-auto">
-                    <div class="row">
-                        <div class="col-8" style="overflow: hidden; position: relative;">
-                            <div class="img-box" style="overflow: hidden;">
-                                <img style="position: absolute; top: 30px; left: 50px; z-index: 10000;" src="../../img/gakvetilebi/buneba/snow-12/cloud.svg" alt="">
-                                <img class="img-fluid" src="../../img/gakvetilebi/buneba/snow-12/N-12-50-1.svg" alt="temp">
-                        
-                                <div style="position: absolute;left: 5%;top: 10%;width: 255px;height: 300px;">
-                                    <svg class="rain" width="7px" viewbox="0 0 30 42">
-                                        <path fill="#fff" stroke="#fff" stroke-width="1.5"
-                                            d="M15 3
-                                                Q16.5 6.8 25 18
-                                                A12.8 12.8 0 1 1 5 18
-                                                Q13.5 6.8 15 3z" />
-                                    </svg>
-                                    <svg class="rain" width="7px" viewbox="0 0 30 42">
-                                        <path fill="#fff" stroke="#fff" stroke-width="1.5"
-                                            d="M15 3
-                                                Q16.5 6.8 25 18
-                                                A12.8 12.8 0 1 1 5 18
-                                                Q13.5 6.8 15 3z" />
-                                    </svg>
-                                    <svg class="rain" width="7px" viewbox="0 0 30 42">
-                                        <path fill="#fff" stroke="#fff" stroke-width="1.5"
-                                            d="M15 3
-                                                Q16.5 6.8 25 18
-                                                A12.8 12.8 0 1 1 5 18
-                                                Q13.5 6.8 15 3z" />
-                                    </svg>
-                                    <svg class="rain" width="7px" viewbox="0 0 30 42">
-                                        <path fill="#fff" stroke="#fff" stroke-width="1.5"
-                                            d="M15 3
-                                                Q16.5 6.8 25 18
-                                                A12.8 12.8 0 1 1 5 18
-                                                Q13.5 6.8 15 3z" />
-                                    </svg>
-                                    <svg class="rain" width="7px" viewbox="0 0 30 42">
-                                        <path fill="#fff" stroke="#fff" stroke-width="1.5"
-                                            d="M15 3
-                                                Q16.5 6.8 25 18
-                                                A12.8 12.8 0 1 1 5 18
-                                                Q13.5 6.8 15 3z" />
-                                    </svg>
-                                    <svg class="rain" width="7px" viewbox="0 0 30 42">
-                                        <path fill="#fff" stroke="#fff" stroke-width="1.5"
-                                            d="M15 3
-                                                Q16.5 6.8 25 18
-                                                A12.8 12.8 0 1 1 5 18
-                                                Q13.5 6.8 15 3z" />
-                                    </svg>
-                                    <svg class="rain" width="7px" viewbox="0 0 30 42">
-                                        <path fill="#fff" stroke="#fff" stroke-width="1.5"
-                                            d="M15 3
-                                                Q16.5 6.8 25 18
-                                                A12.8 12.8 0 1 1 5 18
-                                                Q13.5 6.8 15 3z" />
-                                    </svg>
-                                    <svg class="rain" width="7px" viewbox="0 0 30 42">
-                                        <path fill="#fff" stroke="#fff" stroke-width="1.5"
-                                            d="M15 3
-                                                Q16.5 6.8 25 18
-                                                A12.8 12.8 0 1 1 5 18
-                                                Q13.5 6.8 15 3z" />
-                                    </svg>
-                                    <svg class="rain" width="7px" viewbox="0 0 30 42">
-                                        <path fill="#fff" stroke="#fff" stroke-width="1.5"
-                                            d="M15 3
-                                                Q16.5 6.8 25 18
-                                                A12.8 12.8 0 1 1 5 18
-                                                Q13.5 6.8 15 3z" />
-                                    </svg>
-                                    <svg class="rain" width="7px" viewbox="0 0 30 42">
-                                        <path fill="#fff" stroke="#fff" stroke-width="1.5"
-                                            d="M15 3
-                                                Q16.5 6.8 25 18
-                                                A12.8 12.8 0 1 1 5 18
-                                                Q13.5 6.8 15 3z" />
-                                    </svg>
-                                    <svg class="rain" width="7px" viewbox="0 0 30 42">
-                                        <path fill="#fff" stroke="#fff" stroke-width="1.5"
-                                            d="M15 3
-                                                Q16.5 6.8 25 18
-                                                A12.8 12.8 0 1 1 5 18
-                                                Q13.5 6.8 15 3z" />
-                                    </svg>
-                                    <svg class="rain" width="7px" viewbox="0 0 30 42">
-                                        <path fill="#fff" stroke="#fff" stroke-width="1.5"
-                                            d="M15 3
-                                                Q16.5 6.8 25 18
-                                                A12.8 12.8 0 1 1 5 18
-                                                Q13.5 6.8 15 3z" />
-                                    </svg>
-                                    <svg class="rain" width="7px" viewbox="0 0 30 42">
-                                        <path fill="#fff" stroke="#fff" stroke-width="1.5"
-                                            d="M15 3
-                                                Q16.5 6.8 25 18
-                                                A12.8 12.8 0 1 1 5 18
-                                                Q13.5 6.8 15 3z" />
-                                    </svg>
-                                    <svg class="rain" width="7px" viewbox="0 0 30 42">
-                                        <path fill="#fff" stroke="#fff" stroke-width="1.5"
-                                            d="M15 3
-                                                Q16.5 6.8 25 18
-                                                A12.8 12.8 0 1 1 5 18
-                                                Q13.5 6.8 15 3z" />
-                                    </svg>
-                                    <svg class="rain" width="7px" viewbox="0 0 30 42">
-                                        <path fill="#fff" stroke="#fff" stroke-width="1.5"
-                                            d="M15 3
-                                                Q16.5 6.8 25 18
-                                                A12.8 12.8 0 1 1 5 18
-                                                Q13.5 6.8 15 3z" />
-                                    </svg>
-                                    <svg class="rain" width="7px" viewbox="0 0 30 42">
-                                        <path fill="#fff" stroke="#fff" stroke-width="1.5"
-                                            d="M15 3
-                                                Q16.5 6.8 25 18
-                                                A12.8 12.8 0 1 1 5 18
-                                                Q13.5 6.8 15 3z" />
-                                    </svg>
-                                    <svg class="rain" width="7px" viewbox="0 0 30 42">
-                                        <path fill="#fff" stroke="#fff" stroke-width="1.5"
-                                            d="M15 3
-                                                Q16.5 6.8 25 18
-                                                A12.8 12.8 0 1 1 5 18
-                                                Q13.5 6.8 15 3z" />
-                                    </svg>
-                                    <svg class="rain" width="7px" viewbox="0 0 30 42">
-                                        <path fill="#fff" stroke="#fff" stroke-width="1.5"
-                                            d="M15 3
-                                                Q16.5 6.8 25 18
-                                                A12.8 12.8 0 1 1 5 18
-                                                Q13.5 6.8 15 3z" />
-                                    </svg>
-                                    <svg class="rain" width="7px" viewbox="0 0 30 42">
-                                        <path fill="#fff" stroke="#fff" stroke-width="1.5"
-                                            d="M15 3
-                                                Q16.5 6.8 25 18
-                                                A12.8 12.8 0 1 1 5 18
-                                                Q13.5 6.8 15 3z" />
-                                    </svg>
-                                    <svg class="rain" width="7px" viewbox="0 0 30 42">
-                                        <path fill="#fff" stroke="#fff" stroke-width="1.5"
-                                            d="M15 3
-                                                Q16.5 6.8 25 18
-                                                A12.8 12.8 0 1 1 5 18
-                                                Q13.5 6.8 15 3z" />
-                                    </svg>
-                                    <svg class="rain" width="7px" viewbox="0 0 30 42">
-                                        <path fill="#fff" stroke="#fff" stroke-width="1.5"
-                                            d="M15 3
-                                                Q16.5 6.8 25 18
-                                                A12.8 12.8 0 1 1 5 18
-                                                Q13.5 6.8 15 3z" />
-                                    </svg>
-                                    <svg class="rain" width="7px" viewbox="0 0 30 42">
-                                        <path fill="#fff" stroke="#fff" stroke-width="1.5"
-                                            d="M15 3
-                                                Q16.5 6.8 25 18
-                                                A12.8 12.8 0 1 1 5 18
-                                                Q13.5 6.8 15 3z" />
-                                    </svg>
-                                    <svg class="rain" width="7px" viewbox="0 0 30 42">
-                                        <path fill="#fff" stroke="#fff" stroke-width="1.5"
-                                            d="M15 3
-                                                Q16.5 6.8 25 18
-                                                A12.8 12.8 0 1 1 5 18
-                                                Q13.5 6.8 15 3z" />
-                                    </svg>
-                                    <svg class="rain" width="7px" viewbox="0 0 30 42">
-                                        <path fill="#fff" stroke="#fff" stroke-width="1.5"
-                                            d="M15 3
-                                                Q16.5 6.8 25 18
-                                                A12.8 12.8 0 1 1 5 18
-                                                Q13.5 6.8 15 3z" />
-                                    </svg>
-                                    <svg class="rain" width="7px" viewbox="0 0 30 42">
-                                        <path fill="#fff" stroke="#fff" stroke-width="1.5"
-                                            d="M15 3
-                                                Q16.5 6.8 25 18
-                                                A12.8 12.8 0 1 1 5 18
-                                                Q13.5 6.8 15 3z" />
-                                    </svg>
-                                    <svg class="rain" width="7px" viewbox="0 0 30 42">
-                                        <path fill="#fff" stroke="#fff" stroke-width="1.5"
-                                            d="M15 3
-                                                Q16.5 6.8 25 18
-                                                A12.8 12.8 0 1 1 5 18
-                                                Q13.5 6.8 15 3z" />
-                                    </svg>
-                                </div>
-
-                            </div>
-                        </div>
-                        
-                
-                        <div class="col-3 offset-1">
-                            <div class="btn-box d-flex flex-column justify-content-around">
-                                <button class="btn" data-btn="1">პირველი მდგომარეობა</button>
-                                <button class="btn mt-3" data-btn="2">მეორე მდგომარეობა</button>
-                                <button class="btn mt-3" data-btn="3">მესამე მდგომარეობა</button>
-                                <button class="btn mt-3" data-btn="4">მეოთხე მდგომარეობა</button>
-                                <button class="btn mt-3" data-btn="5">მეხუთე მდგომარეობა</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
             <div class="our__pagination flex">
                 <a href="#" class="pagination__prev__btn">
-                    <img style="transform: rotate(180deg)" src="../../img/icons/chevron-left-icon.svg" alt="">
+                    <img style="transform: rotate(180deg)" src="../../../img/icons/chevron-left-icon.svg" alt="">
                 </a>
 
                 <div id="pagination" class="flex align-items-center"></div>
 
                 <a href="#" class="pagination__next__btn">
-                    <img src="../../img/icons/chevron-left-icon.svg" alt="">
+                    <img src="../../../img/icons/chevron-left-icon.svg" alt="">
                 </a>
             </div>
+
         </section>
     </div>
-
 
 
     <!-- ჩეთბოტი -->
@@ -683,17 +491,17 @@
         <app-bot></app-bot>
     </div>
 
-
-    <script src="../../js/libraries/jquery-3.4.1.min.js"></script>
-    <script src="../../js/libraries/jquery.magnific-popup.min.js"></script>
-    <script src="../../js/Pagination.js"></script>
-    <script src="./js/50.js"></script>
+    <script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
+    <script src="../../../js/libraries/jquery.magnific-popup.min.js"></script>
+    <script src="../../../js/Pagination.js"></script>
 
 
     <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
-    <script src="../../New-header-vue/app.js"></script>
-    <script src="../../Vue-chatBot/botApp.js"></script>
-    <script src="../../js/bot.js"></script>
+    <script src="../../../New-header-vue/app.js"></script>
+    <script src="../../../Vue-chatBot/botApp.js"></script>
+    <script src="../../../js/bot.js"></script>
+
+
 </body>
 
 </html>
