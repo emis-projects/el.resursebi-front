@@ -22834,6 +22834,7 @@ body {
   width: 100%;
 }
 
+/*გასახსენებელი ბლოკი*/
 @media screen and (min-width: 1000px) {
   .app-select_box-content a {
     color: inherit;
