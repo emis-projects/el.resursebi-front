@@ -20932,6 +20932,10 @@ td img {
   color: #62548a;
 }
 
+.h-60vh {
+  height: 60vh;
+}
+
 .c-02-20-img {
   position: absolute;
   bottom: 0;
