@@ -15541,6 +15541,12 @@ td {
   .function_img-box-5-2 img {
     height: 100%; }
 
+.function_img-box-13 {
+  height: 21vh;
+  max-height: 163px; }
+  .function_img-box-13 img {
+    height: 100%; }
+
 .function-15-box img {
   height: 100%;
   width: 100%;
