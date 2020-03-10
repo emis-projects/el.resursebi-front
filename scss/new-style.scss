@@ -32,3 +32,19 @@
   top: 0;
   width: 100%;
 }
+
+
+
+@media screen and (min-width: 1000px) {
+  .app-select_box-content a {
+    color: inherit;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 90%;
+    font-family: 'ALK Sanet';
+    font-size: 14px;
+  }
+}
