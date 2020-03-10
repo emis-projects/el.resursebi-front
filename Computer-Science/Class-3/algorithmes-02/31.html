@@ -15,24 +15,21 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
+        function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
 
         gtag('config', 'UA-155006442-1');
     </script>
 </head>
 
-<body class="background-cs-3-8-23">
+<body class="background-c-02-31">
     <div class="container">
         <section id="app" class="container position-absolute">
             <header>
                 <app-menu v-logo="'../../../'" :is-active="isActive" :toggle="toggle"></app-menu>
             </header>
 
-            <app-section :is-active="isActive" v-image="'../../../'">
+            <app-section v-image="'../../../'" :is-active="isActive">
                 <app-bar :is-active="isActive" :trigger="trigger" :dots="dots" :current-tab="link"
                     v-on:link-tab="link = $event">
 
@@ -43,13 +40,6 @@
             </app-section>
         </section>
         <section id="mainPage">
-            <div class="row">
-                <div class="col-8 m-auto">
-                    <div class="background-cs-title-purple-cont">
-                        <h1 class="background-cs-title-purple">დაგეხმარა სავარჯიშოები და მინიშნებები?</h1>
-                    </div>
-                </div>
-            </div>
             <div class="our__pagination flex">
                 <a href="#" class="pagination__prev__btn">
                     <img style="transform: rotate(180deg)" src="../../../img/icons/chevron-left-icon.svg" alt="">
@@ -63,6 +53,11 @@
             </div>
         </section>
     </div>
+    <section>
+        <div class="title-59">
+            <h1>რა გაგიადვილდა და რა გაგიჭირდა?</h1>
+        </div>
+    </section>
     <!-- ჩეთბოტი -->
     <div id="chatBot">
         <app-bot></app-bot>
