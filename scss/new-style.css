@@ -1828,7 +1828,7 @@ body {
   width: 90%;
   font-family: 'ALK Sanet';
   font-size: 2.08vh;
-  line-height: 3vh;
+  line-height: 2.5vh;
 }
 
 .app-select_artwork {
@@ -20147,287 +20147,6 @@ td img {
   background: #22B573 !important;
 }
 
-@media only screen and (max-width: 992px) {
-  .snow-50 .btn-box .btn {
-    font-size: 1vh;
-  }
-}
-
-.cls-1 {
-  fill: #0464b2;
-}
-
-.cls-2 {
-  fill: #067cf2;
-}
-
-.cls-3 {
-  fill: #494949;
-  opacity: 0.28;
-}
-
-.cls-4 {
-  fill: #828282;
-}
-
-.cls-5 {
-  fill: #8e8e8e;
-}
-
-.cls-6 {
-  fill: #a7a7a8;
-}
-
-.cls-7 {
-  fill: #b7b7b7;
-}
-
-.cls-8 {
-  fill: #c8cccc;
-}
-
-@-webkit-keyframes rain {
-  0% {
-    -webkit-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0);
-    opacity: 1;
-  }
-  80% {
-    opacity: 0.8;
-  }
-  100% {
-    -webkit-transform: translate3d(0, 75px, 0);
-            transform: translate3d(0, 75px, 0);
-    opacity: 0;
-  }
-}
-
-@keyframes rain {
-  0% {
-    -webkit-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0);
-    opacity: 1;
-  }
-  80% {
-    opacity: 0.8;
-  }
-  100% {
-    -webkit-transform: translate3d(0, 75px, 0);
-            transform: translate3d(0, 75px, 0);
-    opacity: 0;
-  }
-}
-
-@-webkit-keyframes rain2 {
-  0% {
-    -webkit-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0);
-    opacity: 1;
-  }
-  80% {
-    opacity: 0.8;
-  }
-  100% {
-    -webkit-transform: translate3d(0, 70px, 0);
-            transform: translate3d(0, 70px, 0);
-    opacity: 0;
-  }
-}
-
-@keyframes rain2 {
-  0% {
-    -webkit-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0);
-    opacity: 1;
-  }
-  80% {
-    opacity: 0.8;
-  }
-  100% {
-    -webkit-transform: translate3d(0, 70px, 0);
-            transform: translate3d(0, 70px, 0);
-    opacity: 0;
-  }
-}
-
-@-webkit-keyframes smallCloud {
-  0% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-  }
-  50% {
-    -webkit-transform: translateX(15%);
-            transform: translateX(15%);
-  }
-  100% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-  }
-}
-
-@keyframes smallCloud {
-  0% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-  }
-  50% {
-    -webkit-transform: translateX(15%);
-            transform: translateX(15%);
-  }
-  100% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-  }
-}
-
-@-webkit-keyframes cloud {
-  0% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-  }
-  50% {
-    -webkit-transform: translateX(10%);
-            transform: translateX(10%);
-  }
-  100% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-  }
-}
-
-@keyframes cloud {
-  0% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-  }
-  50% {
-    -webkit-transform: translateX(10%);
-            transform: translateX(10%);
-  }
-  100% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-  }
-}
-
-#drop9-even,
-#drop10-even {
-  -webkit-animation-name: rain;
-          animation-name: rain;
-  -webkit-animation-duration: 2s;
-          animation-duration: 2s;
-  -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-transform-origin: top left;
-          transform-origin: top left;
-}
-
-#drop8-even,
-#drop11-even {
-  -webkit-animation-name: rain;
-          animation-name: rain;
-  -webkit-animation-duration: 2s;
-          animation-duration: 2s;
-  -webkit-animation-delay: 0.65s;
-          animation-delay: 0.65s;
-  -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-transform-origin: top left;
-          transform-origin: top left;
-}
-
-#drop7-even,
-#drop12-even {
-  -webkit-animation-name: rain;
-          animation-name: rain;
-  -webkit-animation-duration: 2s;
-          animation-duration: 2s;
-  -webkit-animation-delay: 1.3s;
-          animation-delay: 1.3s;
-  -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-transform-origin: top left;
-          transform-origin: top left;
-}
-
-#drop6-odd,
-#drop3-odd {
-  -webkit-animation-name: rain2;
-          animation-name: rain2;
-  -webkit-animation-duration: 2s;
-          animation-duration: 2s;
-  -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-transform-origin: top left;
-          transform-origin: top left;
-}
-
-#drop5-odd,
-#drop2-odd {
-  -webkit-animation-name: rain2;
-          animation-name: rain2;
-  -webkit-animation-duration: 2s;
-          animation-duration: 2s;
-  -webkit-animation-delay: 0.65s;
-          animation-delay: 0.65s;
-  -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-transform-origin: top left;
-          transform-origin: top left;
-}
-
-#drop4-odd,
-#drop1-odd {
-  -webkit-animation-name: rain2;
-          animation-name: rain2;
-  -webkit-animation-duration: 2s;
-          animation-duration: 2s;
-  -webkit-animation-delay: 1.3s;
-          animation-delay: 1.3s;
-  -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-transform-origin: top left;
-          transform-origin: top left;
-}
-
-#cloud_sm {
-  -webkit-animation-name: smallCloud;
-          animation-name: smallCloud;
-  -webkit-animation-duration: 7s;
-          animation-duration: 7s;
-  -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-transform-origin: center center;
-          transform-origin: center center;
-}
-
-#cloud {
-  -webkit-animation-name: cloud;
-          animation-name: cloud;
-  -webkit-animation-duration: 10s;
-          animation-duration: 10s;
-  -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-transform-origin: center center;
-          transform-origin: center center;
-}
-
 .n-12-51-img {
   height: 37.89vh;
 }
@@ -20932,6 +20651,10 @@ td img {
   color: #62548a;
 }
 
+.h-60vh {
+  height: 60vh;
+}
+
 .c-02-20-img {
   position: absolute;
   bottom: 0;
@@ -20941,6 +20664,11 @@ td img {
 
 .c-02-20-img img {
   height: 100%;
+}
+
+.secret-language-img {
+  height: 57.29vh;
+  margin-top: 3vh;
 }
 
 .game-div div {
@@ -23105,3 +22833,25 @@ body {
   top: 0;
   width: 100%;
 }
+
+/*გასახსენებელი ბლოკი*/
+@media screen and (min-width: 1000px) {
+  .app-select_box-content a {
+    color: inherit;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 100%;
+    width: 90%;
+    font-family: 'ALK Sanet';
+    font-size: 14px;
+  }
+}
+/*# sourceMappingURL=new-style.css.map */
