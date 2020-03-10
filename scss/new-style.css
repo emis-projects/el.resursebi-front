@@ -20651,6 +20651,10 @@ td img {
   color: #62548a;
 }
 
+.h-60vh {
+  height: 60vh;
+}
+
 .c-02-20-img {
   position: absolute;
   bottom: 0;
@@ -20660,6 +20664,11 @@ td img {
 
 .c-02-20-img img {
   height: 100%;
+}
+
+.secret-language-img {
+  height: 57.29vh;
+  margin-top: 3vh;
 }
 
 .game-div div {
@@ -21968,7 +21977,7 @@ td img {
 }
 
 .background-c-2-3-28 {
-  background-image: url(../img/gakvetilebi/Computer-Science/Class-2/part&whole-3/C-2-3-27.svg);
+  background-image: url(../img/gakvetilebi/Computer-Science/Class-2/part&whole-3/C-2-3-28.svg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

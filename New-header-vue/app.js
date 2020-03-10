@@ -723,7 +723,7 @@ let title = {
         {
             id: 1,
             name: 'კომპიუტერის შექმნისა და განვითარების მოკლე ისტორია',
-            link: './Computer-Science/Computer_parts/C-1366-01-01.html'
+            link: './Computer-Science/Class-3/computer-development-1/1.html'
         },
         {
             id: 2,
@@ -738,7 +738,7 @@ let title = {
         {
             id: 4,
             name: 'ალგორითმი და ალგორითმის შემუშავება',
-            link: 'Computer-Science/algorithmes-02/1.html'
+            link: 'Computer-Science/Class-3/algorithmes-02/1.html'
         },
         {
             id: 5,
