@@ -23252,6 +23252,44 @@ td img {
   color: #62548a;
 }
 
+.background-cs-5-5-20 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/function-5/cs-5-5-20.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-5-5-21 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/function-5/cs-5-5-21.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-5-5-22 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/function-5/cs-5-5-22.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-5-5-23 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/function-5/cs-5-5-23.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-title-purple {
+  color: #62548A;
+  font-family: 'DejaVu Sans Oblique';
+  font-size: 3.64vh;
+}
+
+.background-cs-title-purple-cont {
+  padding-top: 10vh;
+}
+
 body {
   color: #262626;
   font-size: 14px;
