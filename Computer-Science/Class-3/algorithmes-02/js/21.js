@@ -52,7 +52,7 @@ function computerGames() {
         });
         if(d == 3){
             console.log('yes');
-            //this.successPage();
+            this.successPage();
         }
         if ((count == 9 && d == 0) || count == 11 || d == 3) {
             completedBtn.setAttribute('disabled', 'true');
@@ -62,7 +62,7 @@ function computerGames() {
 
 
     this.successPage = () => {
-        location.href = 'game-success-11.html';
+        location.href = 'game-success-21.html';
     }
 
     this.init = (e) => {
