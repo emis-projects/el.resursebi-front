@@ -1870,6 +1870,12 @@ header nav .header-sound .lang {
   outline: none;
 }
 
+.reset__btn:disabled {
+  background: rgba(248, 210, 73, 0.5);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
 .color-game-paint {
   width: 52px;
   -webkit-transition: all 0.3s;
@@ -16722,4 +16728,3 @@ td img {
   display: -ms-flexbox;
   display: flex;
 }
-/*# sourceMappingURL=style.css.map */

@@ -2429,6 +2429,12 @@ body {
   outline: none;
 }
 
+.reset__btn:disabled {
+  background: rgba(248, 210, 73, 0.5);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
 .color-game-paint {
   width: 52px;
   -webkit-transition: all 0.3s;
@@ -22582,7 +22588,18 @@ td img {
   -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
           box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
   border-radius: 60px;
+  padding: 5px 1vw;
   margin-top: 3.9vh;
+  background-color: #fff;
+}
+
+.c-02-15-item_box.error {
+  background-color: #dc6c85;
+  color: #fff;
+}
+
+.c-02-15-item_box.success {
+  background-color: #a1dd6f;
 }
 
 .c-02-15-item_box-img {
@@ -22592,7 +22609,7 @@ td img {
 
 .c-02-15-item_box-text {
   font-family: "BPG Arial";
-  font-size: 2.14vh;
+  font-size: 2vh;
 }
 
 .wardrobe-container {
@@ -22603,6 +22620,14 @@ td img {
 .wardrobe-item {
   position: absolute;
   height: 12vh;
+}
+
+.wardrobe-item.error {
+  background-color: initial;
+  outline: 4px solid #dc6c85;
+  outline-offset: -9px;
+  border-radius: 2vh;
+  z-index: 1000;
 }
 
 .wardrobe-item:nth-child(1) {
@@ -24615,6 +24640,11 @@ td img {
   color: #62548a;
 }
 
+.cs-5-5-1-functions-img {
+  height: 63.93vh;
+  margin: 5vh auto 0;
+}
+
 .Class_5-title_item {
   font-family: 'DejaVuSans';
   font-size: 2.6vh;
@@ -24693,9 +24723,6 @@ td img {
 .Class_5-img_item_7_2 img {
   height: 18.36vh;
   max-height: 141px;
-.cs-5-5-1-functions-img {
-  height: 63.93vh;
-  margin: 5vh auto 0;
 }
 
 .function_img-box-5-1 {
@@ -25464,4 +25491,3 @@ body {
     font-size: 14px;
   }
 }
-/*# sourceMappingURL=new-style.css.map */
