@@ -16151,6 +16151,11 @@ td {
 .function-15-box_2 {
   height: 40vh;
   max-height: 311px; }
+  .function-15-box_2-one {
+    height: 7.5vh;
+    max-height: 58px; }
+    .function-15-box_2-one img {
+      width: auto; }
   .function-15-box_2-two {
     height: 7.8vh;
     max-height: 60px; }
