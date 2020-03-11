@@ -453,7 +453,7 @@ var app = new Vue({
 
         /*
           -- გაკვეთილების სექციის ჩატვირთვა data(დაგაეცემა, თემები: ხელ. მუს. ბუნ. კომპ.)
-          -- this.link ააქტიურებს დინამიურა კომპონენტების ჩამტვირთველ კომპონენტს
+          -- this.link ააქტიურებს დინამიური კომპონენტების ჩამტვირთველ კომპონენტს
           -- გახდეს აქტიური შესაბამისი dot
         */
         trigger(val, data) {
@@ -743,7 +743,7 @@ let title = {
         {
             id: 5,
             name: 'რა არის პროგრამული ენა',
-            link: 'Computer-Science/Class-3/.../1.html'
+            link: './Computer-Science/Class-3/programming-language-5/1.html'
         },
         {
             id: 6,
