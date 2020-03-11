@@ -8,6 +8,8 @@
 
 // modules
 @import "Modules/mixins";
+@import "Modules/base";
+
 
 // functions
 @import "Modules/functions";
@@ -16,7 +18,6 @@
 
 @import "./Pages/pages--import";
 @import "./Pages/new-pages--import";
-
 
 
 @import "Modules/base";

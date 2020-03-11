@@ -1,0 +1,83 @@
+.function-15-box {
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+
+  &_1 {
+    height: 47vh;
+    max-height: 361px;
+
+    &-one {
+      height: 8.5vh;
+      max-height: 66px;
+    }
+
+    &-two {
+      height: 12vh;
+      max-height: 94px;
+    }
+
+    &-three {
+      height: 8vh;
+      max-height: 61px;
+    }
+  }
+
+  &_2 {
+    height: 40vh;
+    max-height: 311px;
+
+    &-one {
+      height: 7.5vh;
+      max-height: 58px;
+      img{
+        width: auto;
+      }
+    }
+
+    &-two {
+      height: 7.8vh;
+      max-height: 60px;
+    }
+
+    &-three {
+      height: 8.5vh;
+      max-height: 66px;
+    }
+  }
+
+  &_3 {
+    height: 35vh;
+    max-height: 274px;
+
+    &-one {
+      height: 8.5vh;
+      max-height: 66px;
+
+      img {
+        height: 100%;
+        width: auto;
+      }
+    }
+
+    &-two {
+      height: 7.4vh;
+      max-height: 57px;
+
+      img {
+        width: auto;
+
+        &:nth-child(2) {
+          height: 80%;
+        }
+      }
+    }
+
+    &-three {
+      height: 12vh;
+      max-height: 94px;
+    }
+  }
+}

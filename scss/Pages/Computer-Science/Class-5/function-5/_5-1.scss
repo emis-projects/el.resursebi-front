@@ -1,0 +1,19 @@
+.function_img-box-5 {
+  &-1 {
+    height: 42vh;
+    max-height: 330px;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &-2 {
+    height: 33vh;
+    max-height: 250px;
+
+    img {
+      height: 100%;
+    }
+  }
+}

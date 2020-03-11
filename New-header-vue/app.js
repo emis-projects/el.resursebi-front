@@ -742,8 +742,8 @@ let title = {
         },
         {
             id: 5,
-            name: 'სათაური',
-            link: '#'
+            name: 'რა არის პროგრამული ენა',
+            link: 'Computer-Science/Class-3/.../1.html'
         },
         {
             id: 6,
@@ -866,8 +866,8 @@ let title = {
         },
         {
             id: 5,
-            name: 'სათაური',
-            link: '#'
+            name: 'ფუნქცია',
+            link: './Computer-Science/Class-5/function-5/1.html'
         },
         {
             id: 6,
