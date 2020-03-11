@@ -295,6 +295,7 @@ body {
     }
   }
 }
+
 .voice__maile {
   max-width: 125px;
   background-color: #f1f0f0;
@@ -309,12 +310,14 @@ body {
   padding-top: 13px;
 }
 
-.ml-10vh{
+.ml-10vh {
   margin-left: 10vh;
 }
-.ml-15vh{
+
+.ml-15vh {
   margin-left: 15vh;
 }
+
 .mt-1_5vh {
   margin-top: 1.5vh;
 }
@@ -350,8 +353,22 @@ body {
 .mt-5_5vh {
   margin-top: 5.5vh;
 }
+
 .mt-6vh {
   margin-top: 6vh;
+}
+.mt-7vh {
+  margin-top: 7vh;
+}
+.mt-8vh {
+  margin-top: 8vh;
+}
+.mt-9vh {
+  margin-top: 9vh;
+}
+
+.pt-7vh {
+  padding-top: 7vh;
 }
 
 .mt-10vh {
@@ -403,3 +420,4 @@ body {
   font-family: 'DejaVuSans';
   font-size: 1.5vh;
 }
+
