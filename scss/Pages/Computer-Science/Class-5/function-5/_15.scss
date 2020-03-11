@@ -30,6 +30,11 @@
     max-height: 311px;
 
     &-one {
+      height: 7.5vh;
+      max-height: 58px;
+      img{
+        width: auto;
+      }
     }
 
     &-two {
