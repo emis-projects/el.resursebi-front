@@ -1,7 +1,7 @@
 .reset__btn {
   background: #fff;
   border-radius: 4vh;
-  height: 6vh;
+  height: 5vh;
   width: 27vh;
   text-align: center;
   color: #F8D24B;
@@ -21,5 +21,10 @@
 
   &:focus {
     outline: none;
+  }
+
+  &:disabled {
+    background: rgba(248, 210, 73, 0.5);
+    transition: all 0.3s;
   }
 }

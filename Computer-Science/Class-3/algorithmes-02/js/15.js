@@ -1,7 +1,7 @@
+
 function Game() {
     // Variables
-    let Items = document.getElementsByClassName("item_box");
-
+    let Items = document.getElementsByClassName("c-02-15-item_box");
     // Events
 
     //Drag and Drop
@@ -26,7 +26,7 @@ function Game() {
                 event.dataTransfer.getData("text")
             );
 
-            if (event.target.parentNode.className.search("item_box") != -1) {
+            if (event.target.parentNode.className.search("c-02-15-item_box") != -1) {
                 this.Drop(event.target.parentNode, data);
             } else this.Drop(event.target, data);
         };
@@ -69,17 +69,21 @@ function Game() {
                 Items[i].classList.add("error");
             }
         }
+
+        $('#completedGame').attr('disabled', 'true')
         if (document.getElementsByClassName("error").length == 0) {
             this.successPage();
         }
     };
 
     this.successPage = () => {
-        location.href = "C-1366-02-33-success.html";
+        location.href = "game-success-15.html";
     };
 
     //Reset
     this.Reset = function() {
+        $('#completedGame').removeAttr('disabled')
+
         Array.from(Items).forEach(element => {
             element.classList.remove("error");
             element.classList.remove("success");

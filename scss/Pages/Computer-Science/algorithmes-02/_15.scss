@@ -3,13 +3,25 @@
   height: 10vh;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
   border-radius: 60px;
+  padding: 5px 1vw;
   margin-top: 3.9vh;
+  background-color: #fff;
+
+  &.error {
+    background-color: #dc6c85;
+    color: #fff;
+  }
+
+  &.success {
+    background-color: #a1dd6f;
+  }
+
   &-img {
     margin-left: 2vh;
     height: 55%;
   }
   &-text {
     font-family: "BPG Arial";
-    font-size: 2.14vh;
+    font-size: 2vh;
   }
 }
