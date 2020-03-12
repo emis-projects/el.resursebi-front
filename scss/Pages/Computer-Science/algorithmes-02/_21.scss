@@ -6,6 +6,16 @@
   &-item {
     position: absolute;
     height: 12vh;
+
+    &.error {
+      background-color: initial;
+      outline: 4px solid #dc6c85;
+      outline-offset: -9px;
+      border-radius: 2vh;
+      z-index: 1000;
+    }
+
+
     &:nth-child(1) {
       top: 0;
       left: 0;
