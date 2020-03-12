@@ -24615,6 +24615,11 @@ td img {
   color: #62548a;
 }
 
+.cs-5-5-1-functions-img {
+  height: 63.93vh;
+  margin: 5vh auto 0;
+}
+
 .Class_5-title_item {
   font-family: 'DejaVuSans';
   font-size: 2.6vh;
@@ -24693,9 +24698,45 @@ td img {
 .Class_5-img_item_7_2 img {
   height: 18.36vh;
   max-height: 141px;
-.cs-5-5-1-functions-img {
-  height: 63.93vh;
-  margin: 5vh auto 0;
+}
+
+.Class_5-title_item {
+  font-family: 'DejaVuSans';
+  font-size: 2.6vh;
+}
+
+.Class_5-title_item_all p {
+  margin-left: 0;
+}
+
+.Class_5-img_item_8_1 img {
+  margin-bottom: 3vh;
+  height: 14vh;
+  max-height: 108px;
+}
+
+.Class_5-img_item_8_2 img {
+  margin-bottom: 4vh;
+  height: 13vh;
+  max-height: 100px;
+}
+
+.Class_5-img_item_8_3 img {
+  margin-bottom: 4vh;
+  height: 13vh;
+  max-height: 100px;
+}
+
+.Class_5-img_item_8_4 img {
+  margin-bottom: 5.55vh;
+  height: 11.45vh;
+  max-height: 88px;
+}
+
+.Class_5-img_item_8_5 img {
+  margin-bottom: 7.63vh;
+  height: 9.37vh;
+  max-height: 72px;
 }
 
 .function_img-box-5-1 {
