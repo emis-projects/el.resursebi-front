@@ -45,17 +45,17 @@
     {
       "number": 9,
       "url": "",
-      "type": 4
+      "type": 2
     },
     {
       "number": 10,
       "url": "",
-      "type": 1
+      "type": 4
     },
     {
       "number": 11,
       "url": "",
-      "type": 4
+      "type": 1
     },
     {
       "number": 12,
@@ -65,17 +65,17 @@
     {
       "number": 13,
       "url": "",
-      "type": 4
+      "type": 2
     },
     {
       "number": 14,
       "url": "",
-      "type": 4
+      "type": 2
     },
     {
       "number": 15,
       "url": "",
-      "type": 4
+      "type": 2
     },
     {
       "number": 16,
@@ -95,7 +95,7 @@
     {
       "number": 19,
       "url": "",
-      "type": null
+      "type": 4
     },
     {
       "number": 20,

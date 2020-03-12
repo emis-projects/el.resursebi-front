@@ -16861,6 +16861,14 @@ td {
     height: 12vh;
     max-height: 94px; }
 
+.image-box-programing-17 {
+  height: 62vh;
+  max-height: 475px;
+  display: flex;
+  justify-content: flex-end; }
+  .image-box-programing-17 img {
+    height: 100%; }
+
 .cs-5-5-3-ill {
   height: 69.96vh; }
 
