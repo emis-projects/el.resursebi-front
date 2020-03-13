@@ -861,8 +861,8 @@ let title = {
         },
         {
             id: 4,
-            name: 'სათაური',
-            link: '#'
+            name: 'ობიექტის გადაადგილება ვიზუალური კოდის საშუალებით',
+            link: './Computer-Science/Class-5/objects-moving-4/1.html'
         },
         {
             id: 5,
