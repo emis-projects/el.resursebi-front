@@ -1,6 +1,6 @@
 function game(){
     this.error = true;
-
+    this.hrefElement = null;
 
     // variables
     let dragElement1 = document.querySelectorAll('.DragGame—childs1');
@@ -13,10 +13,6 @@ function game(){
     $(dragElement2).on('dragend', (e) => this.dragEnd(e));
 
 
-    let clonedElements = []
-    for(var i = 0; i < dragElement2.length; i++){
-        clonedElements.push(dragElement2[i].cloneNode(true))
-    }
 
 
     // Loop through empty boxes and add listeners
@@ -41,7 +37,13 @@ function game(){
     document.addEventListener('DOMContentLoaded', () => {
         dragElement2MyArray.forEach(w => {
             w.setAttribute('data-class', w.getAttribute('class'))
-            w.parentElement.setAttribute('data-title', w.innerText)
+
+            if(w.querySelector('a')){
+                w.setAttribute('data-href', w.querySelector('a').getAttribute('href'))
+
+            } else {
+                w.parentElement.setAttribute('data-title', w.innerText)
+            }
         })
         dragElement1MyArray.forEach((w, i) => {
             w.setAttribute('data-index', i)
@@ -95,6 +97,7 @@ function game(){
 
             if(loc == "/Computer-Science/Class-2/conditional-signs-1/9.html" || loc == "/el.resursebi-front/Computer-Science/Class-2/conditional-signs-1/9.html"){
                 location.href = "game-success-9.html"
+                
             } else if(loc == "/Computer-Science/Class-2/conditional-signs-1/10.html" || loc == "/el.resursebi-front/Computer-Science/Class-2/conditional-signs-1/10.html"){
                 location.href = "game-success-10.html"
             }
@@ -128,6 +131,8 @@ function game(){
             let title = w.getAttribute('data-title');
 
             w.querySelector('.DragGame—childs2').innerText = title;
+
+            console.log(w);
         });
 
         $(dragElement1).removeClass('error');
