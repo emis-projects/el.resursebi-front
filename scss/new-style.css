@@ -25008,6 +25008,120 @@ td img {
   height: 100%;
 }
 
+.cs-5-4-1-code-img {
+  height: 67.05vh;
+  margin: 2vh auto;
+}
+
+.cs-5-4-7-1-img-div {
+  height: 48.17vh;
+  position: absolute;
+  bottom: 6.5vh;
+  right: 24.01vw;
+}
+
+.cs-5-4-7-1-img-div img {
+  height: 100%;
+}
+
+.cs-5-4-9-1-img-div {
+  height: 22.52vh;
+}
+
+.cs-5-4-9-1-img-div img {
+  height: 100%;
+}
+
+.cs-5-4-24-1-img-div {
+  height: 53.25vh;
+}
+
+.cs-5-4-24-1-img-div img {
+  height: 100%;
+}
+
+.cs-5-4-31-img-div {
+  height: 20.57vh;
+  position: absolute;
+  bottom: 0;
+  left: 11.63vw;
+}
+
+.cs-5-4-31-img-div img {
+  height: 100%;
+}
+
+.cs-5-4-3-img {
+  height: 52.86vh;
+  margin: 5vh auto 0;
+}
+
+.cs-5-4-4-ill-img {
+  height: 56.90vh;
+  position: relative;
+  right: -15vh;
+  bottom: -3vh;
+}
+
+.cs-5-4-5-comp-img {
+  height: 37.63vh;
+  margin: 8vh auto 0;
+}
+
+.cs-5-4-6-scratch-img {
+  height: 34.89vh;
+  margin: 7vh auto 0;
+}
+
+.cs-5-4-7-ill-img {
+  height: 54.42vh;
+  position: relative;
+  bottom: -10.5vh;
+}
+
+.cs-5-4-8-scratch-img {
+  height: 22.65vh;
+  margin: 10vh auto 0;
+}
+
+.background-cs-5-4-32 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/objects-moving-4/cs-5-4-32.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-5-4-33 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/objects-moving-4/cs-5-4-33.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-5-4-34 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/objects-moving-4/cs-5-4-34.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-5-4-35 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/objects-moving-4/cs-5-4-35.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-title-purple {
+  color: #62548A;
+  font-family: 'DejaVu Sans Oblique';
+  font-size: 3.64vh;
+}
+
+.background-cs-title-purple-cont {
+  padding-top: 10vh;
+}
+
 body {
   color: #262626;
   font-size: 14px;
