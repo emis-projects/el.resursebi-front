@@ -25277,6 +25277,50 @@ td img {
   color: #62548a;
 }
 
+.background-c-05-06-21 {
+  background-image: url(../img/gakvetilebi/Computer-Science/Class-5/parallel-programming-6/C-5-6-21.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-c-05-06-21 .title-59 h1 {
+  color: #62548a;
+}
+
+.background-c-05-06-22 {
+  background-image: url(../img/gakvetilebi/Computer-Science/Class-5/parallel-programming-6/C-5-6-22.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-c-05-06-22 .title-59 h1 {
+  color: #62548a;
+}
+
+.background-c-05-06-23 {
+  background-image: url(../img/gakvetilebi/Computer-Science/Class-5/parallel-programming-6/C-5-6-23.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-c-05-06-23 .title-59 h1 {
+  color: #62548a;
+}
+
+.background-c-05-06-24 {
+  background-image: url(../img/gakvetilebi/Computer-Science/Class-5/parallel-programming-6/C-5-6-24.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-c-05-06-24 .title-59 h1 {
+  color: #62548a;
+}
+
 body {
   color: #262626;
   font-size: 14px;
@@ -25782,3 +25826,4 @@ body {
     font-size: 14px;
   }
 }
+/*# sourceMappingURL=new-style.css.map */
