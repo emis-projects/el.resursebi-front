@@ -40,8 +40,13 @@
     &-title {
         font-size: 1.8vh;
         color: #62548A;
-        line-height:2vh;
-        padding: 3vh;
+        line-height: 2vh;
+        padding: 4px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         font-family: 'FiraGO Book';
     }
 
