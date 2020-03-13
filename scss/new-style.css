@@ -24996,6 +24996,44 @@ td img {
   height: 100%;
 }
 
+.cs-5-4-1-code-img {
+  height: 67.05vh;
+  margin: 2vh auto;
+}
+
+.cs-5-4-3-img {
+  height: 52.86vh;
+  margin: 5vh auto 0;
+}
+
+.cs-5-4-4-ill-img {
+  height: 56.90vh;
+  position: relative;
+  right: -15vh;
+  bottom: -3vh;
+}
+
+.cs-5-4-5-comp-img {
+  height: 37.63vh;
+  margin: 8vh auto 0;
+}
+
+.cs-5-4-6-scratch-img {
+  height: 34.89vh;
+  margin: 7vh auto 0;
+}
+
+.cs-5-4-7-ill-img {
+  height: 54.42vh;
+  position: relative;
+  bottom: -10.5vh;
+}
+
+.cs-5-4-8-scratch-img {
+  height: 22.65vh;
+  margin: 10vh auto 0;
+}
+
 body {
   color: #262626;
   font-size: 14px;
