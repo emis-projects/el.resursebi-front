@@ -74,13 +74,25 @@ function computerGames(){
             }
         });
         console.log('count', count)
-        if(count == 4){
-            this.successPage();
+        if(count == 4 && window.location.href.includes("19.html")){
+            this.successPage19();
+        }
+        if(count == 6 && window.location.href.includes("10.html")){
+            this.successPage10();
+        }
+        if(count == 10 && window.location.href.includes("12.html")){
+            this.successPage10();
         }
     }
 
-    this.successPage = () => {
+    this.successPage19 = () => {
         location.href = 'game-success-19.html';
+    }
+    this.successPage10 = () => {
+        location.href = 'game-success-10.html';
+    }
+    this.successPage12 = () => {
+        location.href = 'game-success-10.html';
     }
 
     this.init = () => {
