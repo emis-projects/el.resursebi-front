@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1086" height="128.698" viewBox="0 0 1086 128.698">
+  <g id="Group_45482" data-name="Group 45482" transform="translate(-140 -395.865)">
+    <g id="Group_44818" data-name="Group 44818" transform="translate(140.055 455.877)">
+      <path id="Path_56119" data-name="Path 56119" d="M341.245,415.04h-146.8q-5.315,5.128-10.628,10.254H165.581l-11.39-9.875H140.848a6.766,6.766,0,0,1-1.128-.338,3.974,3.974,0,0,0-3.571,3.947v50.989a3.988,3.988,0,0,0,3.987,3.988h14.231l11.213,9.721h18.235l10.075-9.721H341.245a3.988,3.988,0,0,0,3.988-3.988V419.028A3.988,3.988,0,0,0,341.245,415.04Z" transform="translate(-136.15 -415.04)" fill="#5998f7"/>
+      <text id="move" transform="translate(27.177 34.385)" fill="#fff" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="-19.594" y="0">move</tspan></text>
+      <text id="steps" transform="translate(156.596 32.675)" fill="#fff" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="-18.387" y="0">steps</tspan></text>
+      <rect id="Rectangle_5236" data-name="Rectangle 5236" width="48.995" height="41.019" rx="18.749" transform="translate(62.383 8.356)" fill="#fff"/>
+      <text id="_10" data-name="10" transform="translate(86.035 32.675)" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="-8.625" y="0">10</tspan></text>
+    </g>
+    <g id="Group_44819" data-name="Group 44819" transform="translate(140 395.865)">
+      <path id="Path_56120" data-name="Path 56120" d="M363.074,359.266H194.394q-5.315,5.126-10.629,10.254H165.531l-11.39-9.875H140.8a6.878,6.878,0,0,1-1.128-.338,3.973,3.973,0,0,0-3.571,3.946v50.99a3.987,3.987,0,0,0,3.987,3.987h14.231l11.213,9.722h18.235l10.074-9.722H363.074a3.988,3.988,0,0,0,3.988-3.987v-50.99A3.988,3.988,0,0,0,363.074,359.266Z" transform="translate(-136.1 -359.266)" fill="#5998f7"/>
+      <text id="point_in_direction" data-name="point in direction" transform="translate(81.155 34.384)" fill="#fff" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="-60.586" y="0">point in direction</tspan></text>
+      <rect id="Rectangle_5237" data-name="Rectangle 5237" width="48.995" height="41.019" rx="18.749" transform="translate(166.215 8.355)" fill="#fff"/>
+      <text id="_180" data-name="180" transform="translate(189.492 32.675)" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="-12.938" y="0">180</tspan></text>
+    </g>
+    <g id="Group_44821" data-name="Group 44821" transform="translate(429.442 455.877)">
+      <path id="Path_56121" data-name="Path 56121" d="M614.015,415.04h-146.8q-5.315,5.128-10.629,10.254H438.35l-11.39-9.875H413.618a6.772,6.772,0,0,1-1.129-.338,3.975,3.975,0,0,0-3.571,3.947v50.989a3.988,3.988,0,0,0,3.987,3.988h14.231l11.213,9.721h18.234l10.075-9.721H614.015A3.988,3.988,0,0,0,618,470.017V419.028A3.988,3.988,0,0,0,614.015,415.04Z" transform="translate(-408.919 -415.04)" fill="#5998f7"/>
+      <text id="move-2" data-name="move" transform="translate(27.177 34.385)" fill="#fff" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="-19.594" y="0">move</tspan></text>
+      <text id="steps-2" data-name="steps" transform="translate(156.596 32.675)" fill="#fff" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="-18.387" y="0">steps</tspan></text>
+      <rect id="Rectangle_5238" data-name="Rectangle 5238" width="48.995" height="41.019" rx="18.749" transform="translate(62.383 8.356)" fill="#fff"/>
+      <text id="_10-2" data-name="10" transform="translate(86.036 32.675)" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="-8.625" y="0">10</tspan></text>
+    </g>
+    <g id="Group_44822" data-name="Group 44822" transform="translate(429.387 395.865)">
+      <path id="Path_56122" data-name="Path 56122" d="M635.844,359.266H467.163q-5.315,5.126-10.629,10.254H438.3l-11.39-9.875H413.568a6.886,6.886,0,0,1-1.129-.338,3.974,3.974,0,0,0-3.571,3.946v50.99a3.987,3.987,0,0,0,3.987,3.987h14.231l11.213,9.722h18.234l10.075-9.722H635.844a3.987,3.987,0,0,0,3.987-3.987v-50.99A3.987,3.987,0,0,0,635.844,359.266Z" transform="translate(-408.869 -359.266)" fill="#5998f7"/>
+      <text id="point_in_direction-2" data-name="point in direction" transform="translate(81.156 34.384)" fill="#fff" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="-60.586" y="0">point in direction</tspan></text>
+      <rect id="Rectangle_5239" data-name="Rectangle 5239" width="48.995" height="41.019" rx="18.749" transform="translate(166.215 8.355)" fill="#fff"/>
+      <text id="_90" data-name="90" transform="translate(189.868 32.675)" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="-8.625" y="0">90</tspan></text>
+    </g>
+    <g id="Group_44824" data-name="Group 44824" transform="translate(995.091 455.877)">
+      <path id="Path_56123" data-name="Path 56123" d="M1122.875,415.04h-146.8l-10.627,10.254H947.21l-11.391-9.875H922.477a6.767,6.767,0,0,1-1.128-.338,3.975,3.975,0,0,0-3.572,3.947v50.989a3.988,3.988,0,0,0,3.988,3.988H936l11.213,9.721h18.234l10.074-9.721h147.356a3.988,3.988,0,0,0,3.988-3.988V419.028A3.988,3.988,0,0,0,1122.875,415.04Z" transform="translate(-917.778 -415.04)" fill="#5998f7"/>
+      <text id="move-3" data-name="move" transform="translate(27.178 34.385)" fill="#fff" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="-19.594" y="0">move</tspan></text>
+      <text id="steps-3" data-name="steps" transform="translate(156.596 32.675)" fill="#fff" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="-18.387" y="0">steps</tspan></text>
+      <rect id="Rectangle_5240" data-name="Rectangle 5240" width="48.995" height="41.019" rx="18.749" transform="translate(62.384 8.356)" fill="#fff"/>
+      <text id="_10-3" data-name="10" transform="translate(86.036 32.675)" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="-8.625" y="0">10</tspan></text>
+    </g>
+    <g id="Group_44825" data-name="Group 44825" transform="translate(995.037 395.865)">
+      <path id="Path_56124" data-name="Path 56124" d="M1144.7,359.266H976.022L965.394,369.52H947.16l-11.391-9.875H922.427a6.883,6.883,0,0,1-1.128-.338,3.974,3.974,0,0,0-3.572,3.946v50.99a3.988,3.988,0,0,0,3.988,3.987h14.231l11.213,9.722h18.235l10.074-9.722H1144.7a3.988,3.988,0,0,0,3.989-3.987v-50.99A3.988,3.988,0,0,0,1144.7,359.266Z" transform="translate(-917.728 -359.266)" fill="#5998f7"/>
+      <text id="point_in_direction-3" data-name="point in direction" transform="translate(81.156 34.384)" fill="#fff" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="-60.586" y="0">point in direction</tspan></text>
+      <rect id="Rectangle_5241" data-name="Rectangle 5241" width="48.995" height="41.019" rx="18.749" transform="translate(166.216 8.355)" fill="#fff"/>
+      <text id="_-90" data-name="-90" transform="translate(189.586 32.675)" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="-11.824" y="0">-90</tspan></text>
+    </g>
+    <g id="Group_44827" data-name="Group 44827" transform="translate(708.091 455.877)">
+      <path id="Path_56125" data-name="Path 56125" d="M869.477,415.04h-146.8l-10.627,10.254H693.812l-11.391-9.875H669.08a6.768,6.768,0,0,1-1.128-.338,3.975,3.975,0,0,0-3.572,3.947v50.989a3.988,3.988,0,0,0,3.988,3.988H682.6l11.213,9.721h18.235l10.074-9.721H869.477a3.989,3.989,0,0,0,3.988-3.988V419.028A3.989,3.989,0,0,0,869.477,415.04Z" transform="translate(-664.38 -415.04)" fill="#5998f7"/>
+      <text id="move-4" data-name="move" transform="translate(27.178 34.385)" fill="#fff" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="-19.594" y="0">move</tspan></text>
+      <text id="steps-4" data-name="steps" transform="translate(156.596 32.675)" fill="#fff" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="-18.387" y="0">steps</tspan></text>
+      <rect id="Rectangle_5242" data-name="Rectangle 5242" width="48.995" height="41.019" rx="18.749" transform="translate(62.384 8.356)" fill="#fff"/>
+      <text id="_10-4" data-name="10" transform="translate(86.036 32.675)" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="-8.625" y="0">10</tspan></text>
+    </g>
+    <g id="Group_44828" data-name="Group 44828" transform="translate(708.037 395.865)">
+      <path id="Path_56126" data-name="Path 56126" d="M891.3,359.266H722.624L712,369.52H693.762l-11.391-9.875H669.029a6.847,6.847,0,0,1-1.128-.338,3.974,3.974,0,0,0-3.572,3.946v50.99a3.988,3.988,0,0,0,3.988,3.987h14.231l11.213,9.722H712l10.074-9.722H891.3a3.988,3.988,0,0,0,3.988-3.987v-50.99A3.988,3.988,0,0,0,891.3,359.266Z" transform="translate(-664.33 -359.266)" fill="#5998f7"/>
+      <text id="point_in_direction-4" data-name="point in direction" transform="translate(81.156 34.384)" fill="#fff" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="-60.586" y="0">point in direction</tspan></text>
+      <rect id="Rectangle_5243" data-name="Rectangle 5243" width="48.995" height="41.019" rx="18.749" transform="translate(166.216 8.355)" fill="#fff"/>
+      <text id="_0" data-name="0" transform="translate(190.338 32.675)" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="-4.313" y="0">0</tspan></text>
+    </g>
+  </g>
+</svg>

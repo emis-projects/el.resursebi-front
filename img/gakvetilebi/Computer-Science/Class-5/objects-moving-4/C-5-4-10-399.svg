@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="294.592" height="398.865" viewBox="0 0 294.592 398.865">
+  <g id="Group_45478" data-name="Group 45478" transform="translate(-512.704 -272)">
+    <g id="Group_44530" data-name="Group 44530" transform="translate(512.704 272)">
+      <path id="Path_56029" data-name="Path 56029" d="M804,314.333H616.752q-6.779,6.538-13.557,13.079H579.937l-14.528-12.6H548.392a8.733,8.733,0,0,1-1.44-.431,5.068,5.068,0,0,0-4.554,5.033v65.037a5.086,5.086,0,0,0,5.086,5.086h18.151l14.3,12.4H603.2l12.851-12.4H804a5.086,5.086,0,0,0,5.087-5.086V319.419A5.086,5.086,0,0,0,804,314.333Z" transform="translate(-542.398 -314.333)" fill="#5998f7"/>
+      <text id="move" transform="translate(35.154 45)" fill="#fff" font-size="21" font-family="SegoeUI, Segoe UI"><tspan x="-25.717" y="0">move</tspan></text>
+      <text id="steps" transform="translate(200.503 42.819)" fill="#fff" font-size="21" font-family="SegoeUI, Segoe UI"><tspan x="-24.133" y="0">steps</tspan></text>
+      <rect id="Rectangle_5116" data-name="Rectangle 5116" width="62.493" height="52.32" rx="18.749" transform="translate(79.569 10.657)" fill="#fff"/>
+      <text id="_10" data-name="10" transform="translate(109.258 41.819)" font-size="20" font-family="SegoeUI, Segoe UI"><tspan x="-10.781" y="0">10</tspan></text>
+    </g>
+    <g id="Group_44531" data-name="Group 44531" transform="translate(512.704 583.257)">
+      <path id="Path_56030" data-name="Path 56030" d="M804,537.41H616.752q-6.779,6.539-13.557,13.08H579.937l-14.528-12.6H548.392a8.741,8.741,0,0,1-1.44-.431A5.068,5.068,0,0,0,542.4,542.5v65.037a5.086,5.086,0,0,0,5.086,5.086h18.151l14.3,12.4H603.2l12.851-12.4H804a5.086,5.086,0,0,0,5.087-5.086V542.5A5.086,5.086,0,0,0,804,537.41Z" transform="translate(-542.398 -537.41)" fill="#5998f7"/>
+      <text id="move-2" data-name="move" transform="translate(35.154 45)" fill="#fff" font-size="21" font-family="SegoeUI, Segoe UI"><tspan x="-25.717" y="0">move</tspan></text>
+      <text id="steps-2" data-name="steps" transform="translate(200.503 42.819)" fill="#fff" font-size="21" font-family="SegoeUI, Segoe UI"><tspan x="-24.133" y="0">steps</tspan></text>
+      <rect id="Rectangle_5117" data-name="Rectangle 5117" width="62.493" height="52.32" rx="18.749" transform="translate(79.569 10.657)" fill="#fff"/>
+      <text id="_10-2" data-name="10" transform="translate(109.258 41.819)" font-size="20" font-family="SegoeUI, Segoe UI"><tspan x="-10.781" y="0">10</tspan></text>
+    </g>
+    <g id="Group_44532" data-name="Group 44532" transform="translate(512.704 349.801)">
+      <path id="Path_56031" data-name="Path 56031" d="M831.9,370.093H616.752q-6.779,6.54-13.557,13.079H579.937l-14.528-12.6H548.392a8.6,8.6,0,0,1-1.44-.431,5.069,5.069,0,0,0-4.554,5.034v65.036a5.086,5.086,0,0,0,5.086,5.087h18.151l14.3,12.4H603.2l12.851-12.4H831.9a5.087,5.087,0,0,0,5.087-5.087V375.18A5.087,5.087,0,0,0,831.9,370.093Z" transform="translate(-542.398 -370.093)" fill="#f5ad43"/>
+      <text id="wait" transform="translate(36.526 45.001)" fill="#fff" font-size="21" font-family="SegoeUI, Segoe UI"><tspan x="-19.031" y="0">wait</tspan></text>
+      <text id="seconds" transform="translate(227.061 42.82)" fill="#fff" font-size="21" font-family="SegoeUI, Segoe UI"><tspan x="-37.529" y="0">seconds</tspan></text>
+      <rect id="Rectangle_5118" data-name="Rectangle 5118" width="62.493" height="52.32" rx="18.749" transform="translate(79.569 10.658)" fill="#fff"/>
+      <text id="_1" data-name="1" transform="translate(109.235 37.82)" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="-4.313" y="0">1</tspan></text>
+    </g>
+    <g id="Group_44533" data-name="Group 44533" transform="translate(512.704 427.628)">
+      <path id="Path_56032" data-name="Path 56032" d="M804,425.871H616.752q-6.779,6.54-13.557,13.079H579.937l-14.528-12.6H548.392a8.565,8.565,0,0,1-1.44-.43,5.067,5.067,0,0,0-4.554,5.033v65.036a5.086,5.086,0,0,0,5.086,5.087h18.151l14.3,12.4H603.2l12.851-12.4H804a5.087,5.087,0,0,0,5.087-5.087V430.958A5.087,5.087,0,0,0,804,425.871Z" transform="translate(-542.398 -425.871)" fill="#5998f7"/>
+      <text id="move-3" data-name="move" transform="translate(35.154 45)" fill="#fff" font-size="21" font-family="SegoeUI, Segoe UI"><tspan x="-25.717" y="0">move</tspan></text>
+      <text id="steps-3" data-name="steps" transform="translate(200.503 42.82)" fill="#fff" font-size="21" font-family="SegoeUI, Segoe UI"><tspan x="-24.133" y="0">steps</tspan></text>
+      <rect id="Rectangle_5119" data-name="Rectangle 5119" width="62.493" height="52.32" rx="18.749" transform="translate(79.569 10.658)" fill="#fff"/>
+      <text id="_10-3" data-name="10" transform="translate(109.258 41.82)" font-size="20" font-family="SegoeUI, Segoe UI"><tspan x="-10.781" y="0">10</tspan></text>
+    </g>
+    <g id="Group_44534" data-name="Group 44534" transform="translate(512.704 505.431)">
+      <path id="Path_56033" data-name="Path 56033" d="M831.9,481.632H616.752q-6.779,6.538-13.557,13.079H579.937l-14.528-12.6H548.392a8.739,8.739,0,0,1-1.44-.431,5.068,5.068,0,0,0-4.554,5.033v65.037a5.086,5.086,0,0,0,5.086,5.086h18.151l14.3,12.4H603.2l12.851-12.4H831.9a5.086,5.086,0,0,0,5.087-5.086V486.718A5.086,5.086,0,0,0,831.9,481.632Z" transform="translate(-542.398 -481.632)" fill="#f5ad43"/>
+      <text id="wait-2" data-name="wait" transform="translate(36.526 45)" fill="#fff" font-size="21" font-family="SegoeUI, Segoe UI"><tspan x="-19.031" y="0">wait</tspan></text>
+      <text id="seconds-2" data-name="seconds" transform="translate(227.061 42.819)" fill="#fff" font-size="21" font-family="SegoeUI, Segoe UI"><tspan x="-37.529" y="0">seconds</tspan></text>
+      <rect id="Rectangle_5120" data-name="Rectangle 5120" width="62.493" height="52.32" rx="18.749" transform="translate(79.569 10.657)" fill="#fff"/>
+      <text id="_1-2" data-name="1" transform="translate(109.235 37.819)" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="-4.313" y="0">1</tspan></text>
+    </g>
+  </g>
+</svg>

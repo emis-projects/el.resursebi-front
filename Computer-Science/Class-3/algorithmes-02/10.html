@@ -473,12 +473,24 @@
         </div>
         <div class="row">
             <div class="k-03-04-10 col-7 m-auto pt-4 justify-content-center d-flex flex-column align-items-center">
-                <div class="answer-div d-flex align-items-center justify-content-center mt-4"><p>გამოიყენე ჯაგრისი კბილის გასაწმენდად</p></div>
-                <div class="answer-div d-flex align-items-center justify-content-center mt-4"><p>დადე კბილის პასტა ჯაგრისზე</p></div>
-                <div class="answer-div d-flex align-items-center justify-content-center mt-4"><p>გახეხვის შემდეგ გარეცხე ჯაგრისი</p></div>
-                <div class="answer-div d-flex align-items-center justify-content-center mt-4"><p>გაიმეორე მე-2 და მე-3 ბრძანება,<br> სანამ ყველა კბილს არ გაიხეხავ</p></div>
-                <div class="answer-div d-flex align-items-center justify-content-center mt-4"><p>გამოივლე წყალი</p></div>
-                <div class="answer-div d-flex align-items-center justify-content-center mt-4"><p>გადადი შემდეგ კბილზე</p></div>
+                  <div data-place="1" data-side="1" class="DragGame--Parent">
+                        <div data-place="2" id="1" class="answer-div d-flex align-items-center justify-content-center mt-4 DragGame--childs1" draggable="true"><p style="pointer-events: none;">გამოიყენე ჯაგრისი კბილის გასაწმენდად</p></div>
+                  </div>
+                  <div data-place="2" data-side="2" class="DragGame--Parent">
+                        <div id="2" data-place="1" class="answer-div d-flex align-items-center justify-content-center mt-4 DragGame--childs1" draggable="true"><p style="pointer-events: none;">დადე კბილის პასტა ჯაგრისზე</p></div>
+                  </div>
+                  <div data-place="3" data-side="3" class="DragGame--Parent">
+                        <div id="3" data-place="6" class="answer-div d-flex align-items-center justify-content-center mt-4 DragGame--childs1" draggable="true"><p style="pointer-events: none;">გახეხვის შემდეგ გარეცხე ჯაგრისი</p></div>
+                  </div>
+                  <div data-place="4" data-side="4" class="DragGame--Parent">
+                        <div id="4" data-place="4" class="answer-div d-flex align-items-center justify-content-center mt-4 DragGame--childs1" draggable="true"><p style="pointer-events: none;">გაიმეორე მე-2 და მე-3 ბრძანება,<br> სანამ ყველა კბილს არ გაიხეხავ</p></div>
+                  </div>
+                  <div data-place="5" data-side="5" class="DragGame--Parent">
+                        <div id="5" data-place="5" class="answer-div d-flex align-items-center justify-content-center mt-4 DragGame--childs1" draggable="true"><p style="pointer-events: none;">გამოივლე წყალი</p></div>
+                  </div>
+                  <div data-place="6" data-side="6" class="DragGame--Parent">
+                        <div id="6" data-place="3" class="answer-div d-flex align-items-center justify-content-center mt-4 DragGame--childs1" draggable="true"><p style="pointer-events: none;">გადადი შემდეგ კბილზე</p></div>
+                  </div>
             </div>
         </div>
         <div style="right: 16.5vw" class="flex flex-end column align-items-end z-index reload_game_wrapper">
@@ -508,6 +520,7 @@
 <script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
 <script src="../../../js/libraries/jquery.magnific-popup.min.js"></script>
 <script src="../../../js/Pagination.js"></script>
+<script src="./js/10-12-19.js"></script>
 
 
 
