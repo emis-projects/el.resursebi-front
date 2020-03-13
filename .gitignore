@@ -3,7 +3,6 @@
 logs
 *.sass-cache
 *.log
-*.json
 *.css.map
 *.map
 npm-debug.log*
