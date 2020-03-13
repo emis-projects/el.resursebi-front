@@ -1133,9 +1133,6 @@ body {
   margin-right: 44px;
   padding-top: 13px; }
 
-.pt-7vh {
-  padding-top: 7vh; }
-
 .ml-10vh {
   margin-left: 10vh; }
 
@@ -1180,6 +1177,10 @@ body {
 
 .mt-9vh {
   margin-top: 9vh; }
+
+.pt-7vh {
+  padding-top: 7vh;
+}
 
 .mt-10vh {
   margin-top: 10vh; }
