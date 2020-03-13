@@ -2374,7 +2374,7 @@ body {
 
 .completed__btn {
   border-radius: 4vh;
-  height: 6vh;
+  height: 5vh;
   width: 27vh;
   text-align: center;
   color: #7FD1D8;
@@ -2406,7 +2406,7 @@ body {
 .reset__btn {
   background: #fff;
   border-radius: 4vh;
-  height: 6vh;
+  height: 5vh;
   width: 27vh;
   text-align: center;
   color: #F8D24B;
@@ -22839,6 +22839,31 @@ td img {
       -ms-flex-pack: center;
           justify-content: center;
   cursor: pointer;
+  position: relative;
+}
+
+.sign-description-btn .draggedElement {
+  font-size: 1.8vh;
+  color: #62548A;
+  line-height: 2vh;
+  padding: 3vh;
+  font-family: 'FiraGO Book';
+}
+
+.sign-description-btn.error {
+  background-color: #dc6c85;
+}
+
+.sign-description-btn.error p {
+  color: #fff;
+}
+
+.sign-description-btn.success {
+  background-color: #a1dd6f;
+}
+
+.sign-description-btn.success p {
+  color: #fff;
 }
 
 .sign-description-btn-title {
@@ -24442,6 +24467,14 @@ td img {
   height: 100%;
 }
 
+.cs-2-3-21-img-div {
+  height: 20.31vh;
+}
+
+.cs-2-3-21-img-div img {
+  height: 100%;
+}
+
 .cs-2-3-1-ill-bg-img {
   height: 83.79vh;
   position: relative;
@@ -25015,6 +25048,105 @@ td img {
   margin: auto;
   position: relative;
   bottom: -9vh;
+}
+
+.img-box_programing-6 {
+  height: 45vh;
+  max-height: 351px;
+}
+
+.img-box_programing-6 img {
+  height: 100%;
+}
+
+.img-box_programing-7 {
+  height: 22vh;
+  max-height: 172px;
+}
+
+.img-box_programing-7 img {
+  height: 100%;
+}
+
+.image-box-programing-16 {
+  height: 70vh;
+  max-height: 540px;
+  position: absolute;
+  top: 5vh;
+  right: 0;
+}
+
+.image-box-programing-16 img {
+  height: 100%;
+}
+
+.image-box-programing-18 {
+  height: 53vh;
+  max-height: 409px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.image-box-programing-18 img {
+  height: 100%;
+}
+
+.arrow-wrapper {
+  height: 7.8vh;
+  max-height: 60px;
+  margin-top: 8vh;
+}
+
+.arrow-wrapper img {
+  height: 100%;
+}
+
+.example-box {
+  height: 22vh;
+  max-height: 170px;
+}
+
+.example-box img {
+  height: 100%;
+}
+
+.symbols-box {
+  -webkit-box-shadow: 0 0 0 2px #000;
+          box-shadow: 0 0 0 2px #000;
+  border-radius: unset;
+}
+
+.symbols-box td {
+  border: 2px solid #000;
+  height: 4.2vh;
+}
+
+.symbols-box td div {
+  height: 100%;
+}
+
+.symbols_wrapper-box {
+  -webkit-box-shadow: 0 0 0 2px #000;
+          box-shadow: 0 0 0 2px #000;
+  border-radius: unset;
+}
+
+.symbols_wrapper-box td {
+  border: 2px solid #000;
+  height: 8.5vh;
+}
+
+.symbols_wrapper-box td div {
+  height: 100%;
+}
+
+.symbols-box-22 td {
+  height: 4.2vh;
+}
+
+.symbols-box-22 td div {
+  height: 100%;
 }
 
 .cs-3-5-23-minecraft {
