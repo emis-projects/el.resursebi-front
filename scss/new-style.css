@@ -22870,7 +22870,18 @@ td img {
   font-size: 1.8vh;
   color: #62548A;
   line-height: 2vh;
-  padding: 3vh;
+  padding: 4px;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-family: 'FiraGO Book';
 }
 
@@ -25277,6 +25288,11 @@ td img {
   color: #62548a;
 }
 
+.cs-5-6-1-programming-img {
+  height: 55.98vh;
+  margin: 5vh auto 7vh;
+}
+
 .background-c-05-06-21 {
   background-image: url(../img/gakvetilebi/Computer-Science/Class-5/parallel-programming-6/C-5-6-21.svg);
   background-position: top center;
@@ -25319,6 +25335,89 @@ td img {
 
 .background-c-05-06-24 .title-59 h1 {
   color: #62548a;
+}
+
+.cs-5-6-3-img-div {
+  height: 50.78vh;
+}
+
+.cs-5-6-3-img-div img {
+  height: 100%;
+}
+
+.cs-5-6-4-img-div {
+  height: 46.87vh;
+  position: absolute;
+  bottom: 0;
+  right: 17.05vw;
+}
+
+.cs-5-6-4-img-div img {
+  height: 100%;
+}
+
+.cs-5-6-5-img-div {
+  height: 37.23vh;
+  position: absolute;
+  bottom: 8.72vh;
+  right: 17.05vw;
+}
+
+.cs-5-6-5-img-div img {
+  height: 100%;
+}
+
+.cs-5-6-6-img-div {
+  height: 56.25vh;
+  position: absolute;
+  bottom: 1.56vh;
+  right: 17.05vw;
+}
+
+.cs-5-6-6-img-div img {
+  height: 100%;
+}
+
+.cs-5-6-8-img-div {
+  height: 47.65vh;
+}
+
+.cs-5-6-8-img-div img {
+  height: 100%;
+}
+
+.cs-5-6-9-img-div img {
+  height: 23.43vh;
+}
+
+.cs-5-6-11-ill-img {
+  height: 46.48vh;
+  margin: 8vh auto 0;
+}
+
+.cs-5-6-12-ill-img {
+  height: 46.87vh;
+  margin-top: 7vh;
+}
+
+.cs-5-6-13-ill-img {
+  height: 47.78vh;
+  margin-top: 6vh;
+}
+
+.cs-5-6-14-ill-img {
+  height: 57.03vh;
+  margin-top: 12vh;
+}
+
+.cs-5-6-15-img-dog {
+  height: 27.11vh;
+  margin-top: 10vh;
+}
+
+.cs-5-6-15-img-cat {
+  height: 33.60vh;
+  margin-top: 10vh;
 }
 
 body {
