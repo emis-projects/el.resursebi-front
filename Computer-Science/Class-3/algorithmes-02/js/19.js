@@ -1,24 +1,23 @@
 function computerGames(){
-    var draggedImgElement = document.querySelectorAll('.DragGame--childs1');
-    //var mydrag = document.querySelectorAll('.DragGame--Parent');
-    var mydrag = document.querySelectorAll('.mydrag');
+    var DragGameChilds1 = document.querySelectorAll('.DragGame--childs1');
+    var DragGameParent = document.querySelectorAll('.DragGame--Parent');
 
     var completedBtn = document.getElementById('completedGame');
     var resetBtn = document.getElementById('resetBtn');
 
-    $(draggedImgElement).on('dragstart', (e) => this.dragStart(e));
-    $(draggedImgElement).on('dragend', (e) => this.dragEnd(e));
+    $(DragGameChilds1).on('dragstart', (e) => this.dragStart(e));
+    $(DragGameChilds1).on('dragend', (e) => this.dragEnd(e));
 
-    for (const drag of draggedImgElement) {
+    for (const drag of DragGameChilds1) {
         drag.addEventListener('dragover', (e) => this.dragOver(e));
         drag.addEventListener('drop', (e) => this.dragDrop(e));
     }
 
     document.addEventListener('DOMContentLoaded', () => {
-        mydrag.forEach(w => {
+        DragGameParent.forEach(w => {
             w.setAttribute('data-class', w.getAttribute('class'))
         })
-        draggedImgElement.forEach(w => {
+        DragGameChilds1.forEach(w => {
             w.setAttribute('data-class', w.getAttribute('class'))
         });
     })
@@ -44,7 +43,7 @@ function computerGames(){
     }
 
     var myArray = [];
-    draggedImgElement.forEach(element => {
+    DragGameChilds1.forEach(element => {
         myArray.push(element);
     });
 
@@ -52,7 +51,8 @@ function computerGames(){
         var drag = document.querySelector('.draggedElement');
         var dragParent = drag.parentElement;
        let firstElement = e.target.parentElement.firstElementChild;
-        if(e.target.parentElement.classList.contains('mydrag')){
+       console.log(firstElement)
+        if(e.target.parentElement.classList.contains('DragGame--Parent')){
             //firstElement.remove();
             e.target.parentElement.appendChild(drag);
             dragParent.appendChild(firstElement)
@@ -88,7 +88,7 @@ function computerGames(){
             $( element ).removeClass( "error" );
             $( element ).removeClass( "success" );
         });
-        mydrag.forEach(element => {
+        DragGameParent.forEach(element => {
             console.log('element', element)
             element.appendChild(document.getElementById(element.getAttribute('data-side')));
 
