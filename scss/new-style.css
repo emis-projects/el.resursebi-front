@@ -21990,6 +21990,18 @@ td img {
   color: white;
 }
 
+.DragGame--Parent .success {
+  background-color: #a1dd6f;
+}
+
+.DragGame--Parent .error {
+  background-color: #dc6c85;
+}
+
+.DragGame--Parent .textWhite {
+  color: #FFF;
+}
+
 .c-2-1-algorithme-img {
   margin: 8vh auto 10vh;
   height: 44.53vh;
@@ -25501,4 +25513,3 @@ body {
     font-size: 14px;
   }
 }
-/*# sourceMappingURL=new-style.css.map */
