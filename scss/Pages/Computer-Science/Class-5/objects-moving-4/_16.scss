@@ -1,0 +1,45 @@
+.top-pointer_images-box {
+  height: 11vh;
+  max-height: 87px;
+
+  img {
+    height: 100%;
+  }
+}
+
+.direcion-pointer_box-image {
+  height: 26vh;
+  max-height: 198px;
+
+  img {
+    height: 100%;
+  }
+}
+
+.clock-box {
+  height: 11vh;
+  max-height: 84px;
+  float: left;
+
+  img {
+    height: 100%;
+  }
+}
+
+.counter-box {
+  height: 8vh;
+  width: 11vw;
+  max-height: 64px;
+  max-width: 152px;
+  background: #5998F7;
+  float: left;
+  border-radius: 6px;
+
+  &_text {
+    color: #FFFFFF;
+  }
+
+  &_number {
+    color: #ffffff;
+  }
+}
