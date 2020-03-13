@@ -9,13 +9,48 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    &-title{
+    position: relative;
+
+
+
+    .draggedElement {
         font-size: 1.8vh;
         color: #62548A;
         line-height:2vh;
         padding: 3vh;
         font-family: 'FiraGO Book';
     }
+
+    &.error {
+        background-color: #dc6c85;
+
+        p {
+            color: #fff;
+        }
+    }
+
+    &.success {
+        background-color: #a1dd6f;
+
+        p {
+            color: #fff;
+        }
+    }
+
+    &-title {
+        font-size: 1.8vh;
+        color: #62548A;
+        line-height: 2vh;
+        padding: 4px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'FiraGO Book';
+    }
+
+
 }
 .cs-2-1-9-forbidden-img{
     height: 12.36vh;

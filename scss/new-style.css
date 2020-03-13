@@ -2374,7 +2374,7 @@ body {
 
 .completed__btn {
   border-radius: 4vh;
-  height: 6vh;
+  height: 5vh;
   width: 27vh;
   text-align: center;
   color: #7FD1D8;
@@ -2406,7 +2406,7 @@ body {
 .reset__btn {
   background: #fff;
   border-radius: 4vh;
-  height: 6vh;
+  height: 5vh;
   width: 27vh;
   text-align: center;
   color: #F8D24B;
@@ -22839,13 +22839,49 @@ td img {
       -ms-flex-pack: center;
           justify-content: center;
   cursor: pointer;
+  position: relative;
+}
+
+.sign-description-btn .draggedElement {
+  font-size: 1.8vh;
+  color: #62548A;
+  line-height: 2vh;
+  padding: 3vh;
+  font-family: 'FiraGO Book';
+}
+
+.sign-description-btn.error {
+  background-color: #dc6c85;
+}
+
+.sign-description-btn.error p {
+  color: #fff;
+}
+
+.sign-description-btn.success {
+  background-color: #a1dd6f;
+}
+
+.sign-description-btn.success p {
+  color: #fff;
 }
 
 .sign-description-btn-title {
   font-size: 1.8vh;
   color: #62548A;
   line-height: 2vh;
-  padding: 3vh;
+  padding: 4px;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-family: 'FiraGO Book';
 }
 
@@ -24442,6 +24478,14 @@ td img {
   height: 100%;
 }
 
+.cs-2-3-21-img-div {
+  height: 20.31vh;
+}
+
+.cs-2-3-21-img-div img {
+  height: 100%;
+}
+
 .cs-2-3-1-ill-bg-img {
   height: 83.79vh;
   position: relative;
@@ -24725,6 +24769,45 @@ td img {
   max-height: 141px;
 }
 
+.Class_5-title_item {
+  font-family: 'DejaVuSans';
+  font-size: 2.6vh;
+}
+
+.Class_5-title_item_all p {
+  margin-left: 0;
+}
+
+.Class_5-img_item_8_1 img {
+  margin-bottom: 3vh;
+  height: 14vh;
+  max-height: 108px;
+}
+
+.Class_5-img_item_8_2 img {
+  margin-bottom: 4vh;
+  height: 13vh;
+  max-height: 100px;
+}
+
+.Class_5-img_item_8_3 img {
+  margin-bottom: 4vh;
+  height: 13vh;
+  max-height: 100px;
+}
+
+.Class_5-img_item_8_4 img {
+  margin-bottom: 5.55vh;
+  height: 11.45vh;
+  max-height: 88px;
+}
+
+.Class_5-img_item_8_5 img {
+  margin-bottom: 7.63vh;
+  height: 9.37vh;
+  max-height: 72px;
+}
+
 .function_img-box-5-1 {
   height: 42vh;
   max-height: 330px;
@@ -24834,6 +24917,21 @@ td img {
 .function-15-box_3-three {
   height: 12vh;
   max-height: 94px;
+}
+
+.image-box-programing-17 {
+  height: 62vh;
+  max-height: 475px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.image-box-programing-17 img {
+  height: 100%;
 }
 
 .cs-5-5-3-ill {
@@ -25017,6 +25115,105 @@ td img {
   bottom: -9vh;
 }
 
+.img-box_programing-6 {
+  height: 45vh;
+  max-height: 351px;
+}
+
+.img-box_programing-6 img {
+  height: 100%;
+}
+
+.img-box_programing-7 {
+  height: 22vh;
+  max-height: 172px;
+}
+
+.img-box_programing-7 img {
+  height: 100%;
+}
+
+.image-box-programing-16 {
+  height: 70vh;
+  max-height: 540px;
+  position: absolute;
+  top: 5vh;
+  right: 0;
+}
+
+.image-box-programing-16 img {
+  height: 100%;
+}
+
+.image-box-programing-18 {
+  height: 53vh;
+  max-height: 409px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.image-box-programing-18 img {
+  height: 100%;
+}
+
+.arrow-wrapper {
+  height: 7.8vh;
+  max-height: 60px;
+  margin-top: 8vh;
+}
+
+.arrow-wrapper img {
+  height: 100%;
+}
+
+.example-box {
+  height: 22vh;
+  max-height: 170px;
+}
+
+.example-box img {
+  height: 100%;
+}
+
+.symbols-box {
+  -webkit-box-shadow: 0 0 0 2px #000;
+          box-shadow: 0 0 0 2px #000;
+  border-radius: unset;
+}
+
+.symbols-box td {
+  border: 2px solid #000;
+  height: 4.2vh;
+}
+
+.symbols-box td div {
+  height: 100%;
+}
+
+.symbols_wrapper-box {
+  -webkit-box-shadow: 0 0 0 2px #000;
+          box-shadow: 0 0 0 2px #000;
+  border-radius: unset;
+}
+
+.symbols_wrapper-box td {
+  border: 2px solid #000;
+  height: 8.5vh;
+}
+
+.symbols_wrapper-box td div {
+  height: 100%;
+}
+
+.symbols-box-22 td {
+  height: 4.2vh;
+}
+
+.symbols-box-22 td div {
+  height: 100%;
+}
+
 .cs-3-5-23-minecraft {
   height: 27.21vh;
   margin: 10vh auto 0;
@@ -25089,6 +25286,41 @@ td img {
 
 .background-c-05-32 .title-59 h1 {
   color: #62548a;
+}
+
+.cs-5-6-1-programming-img {
+  height: 55.98vh;
+  margin: 5vh auto 7vh;
+}
+
+.cs-5-6-11-ill-img {
+  height: 46.48vh;
+  margin: 8vh auto 0;
+}
+
+.cs-5-6-12-ill-img {
+  height: 46.87vh;
+  margin-top: 7vh;
+}
+
+.cs-5-6-13-ill-img {
+  height: 47.78vh;
+  margin-top: 6vh;
+}
+
+.cs-5-6-14-ill-img {
+  height: 57.03vh;
+  margin-top: 12vh;
+}
+
+.cs-5-6-15-img-dog {
+  height: 27.11vh;
+  margin-top: 10vh;
+}
+
+.cs-5-6-15-img-cat {
+  height: 33.60vh;
+  margin-top: 10vh;
 }
 
 body {
@@ -25627,3 +25859,4 @@ body {
   font-family: "BPG Arial";
   font-size: 2vh;
 }
+/*# sourceMappingURL=new-style.css.map */
