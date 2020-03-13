@@ -24830,6 +24830,108 @@ td img {
   margin: 5vh auto 7vh;
 }
 
+.Class_5-title_item {
+  font-family: 'DejaVuSans';
+  font-size: 2.6vh;
+}
+
+.Class_5-img_item_5_6_5_1 {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.Class_5-img_item_5_6_5_1 img {
+  height: 52.9vh;
+  max-height: 406px;
+}
+
+.Class_5-title_item {
+  font-family: "DejaVuSans";
+}
+
+.Class_5-img_item_5_6_8_1 {
+  position: fixed;
+  bottom: 0;
+}
+
+.Class_5-img_item_5_6_8_1 img {
+  height: 62.3vh;
+  max-height: 494px;
+}
+
+.Class_5-title_item {
+  font-family: "DejaVuSans";
+}
+
+.Class_5-img_item_5_6_9_1 img {
+  height: 41.66vh;
+  max-height: 320px;
+}
+
+.Class_5-img_item_5_6_9_2 {
+  position: fixed;
+  bottom: 0;
+}
+
+.Class_5-img_item_5_6_9_2 img {
+  height: 45.3vh;
+  max-height: 348px;
+}
+
+.Class_5-title_item {
+  font-family: "DejaVuSans";
+}
+
+.Class_5-img_item_5_6_14_1 {
+  position: fixed;
+  bottom: 0;
+}
+
+.Class_5-img_item_5_6_14_1 img {
+  height: 51.43vh;
+  max-height: 395px;
+}
+
+.Class_5-img_item_5_6_14_2 img {
+  height: 34.77vh;
+  max-height: 267px;
+}
+
+.Class_5-title_item {
+  font-family: "DejaVuSans";
+}
+
+.Class_5-img_item_5_6_15_2 img {
+  height: 39.58vh;
+  max-height: 304px;
+}
+
+.Class_5-img_item_5_6_15_4 img {
+  height: 39.58vh;
+  max-height: 304px;
+}
+
+.Class_5-img_item_5_6_15_1 img {
+  height: 13.41vh;
+  max-height: 104px;
+}
+
+.Class_5-img_item_5_6_15_3 img {
+  height: 13.41vh;
+  max-height: 104px;
+}
+
+.Class_5-title_item {
+  font-family: "DejaVuSans";
+}
+
+.Class_5-img_item_5_6_16 img {
+  height: 51.43vh;
+  max-height: 395px;
+}
+
 .background-c-05-06-21 {
   background-image: url(../img/gakvetilebi/Computer-Science/Class-5/parallel-programming-6/C-5-6-21.svg);
   background-position: top center;
@@ -24882,6 +24984,14 @@ td img {
   height: 100%;
 }
 
+.cs-5-6-3-img-div {
+  height: 50.78vh;
+}
+
+.cs-5-6-3-img-div img {
+  height: 100%;
+}
+
 .cs-5-6-4-img-div {
   height: 46.87vh;
   position: absolute;
@@ -24890,6 +25000,28 @@ td img {
 }
 
 .cs-5-6-4-img-div img {
+  height: 100%;
+}
+
+.cs-5-6-4-img-div {
+  height: 46.87vh;
+  position: absolute;
+  bottom: 0;
+  right: 17.05vw;
+}
+
+.cs-5-6-4-img-div img {
+  height: 100%;
+}
+
+.cs-5-6-5-img-div {
+  height: 37.23vh;
+  position: absolute;
+  bottom: 8.72vh;
+  right: 17.05vw;
+}
+
+.cs-5-6-5-img-div img {
   height: 100%;
 }
 
@@ -25013,6 +25145,110 @@ td img {
   margin: 2vh auto;
 }
 
+.Class_5-img_item_object_moving img {
+  height: 11.4vh;
+  max-height: 87.6px;
+}
+
+.top-pointer_images-box {
+  height: 11vh;
+  max-height: 87px;
+}
+
+.top-pointer_images-box img {
+  height: 100%;
+}
+
+.direcion-pointer_box-image {
+  height: 26vh;
+  max-height: 198px;
+}
+
+.direcion-pointer_box-image img {
+  height: 100%;
+}
+
+.clock-box {
+  height: 11vh;
+  max-height: 84px;
+  float: left;
+}
+
+.clock-box img {
+  height: 100%;
+}
+
+.counter-box {
+  height: 8vh;
+  width: 11vw;
+  max-height: 64px;
+  max-width: 152px;
+  background: #5998F7;
+  float: left;
+  border-radius: 6px;
+}
+
+.counter-box_text {
+  color: #FFFFFF;
+}
+
+.counter-box_number {
+  color: #ffffff;
+}
+
+.image-box-object_9 {
+  height: 39vh;
+  max-height: 303px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.image-box-object_10 {
+  height: 52vh;
+  max-height: 399px;
+}
+
+.image-box-object_11 {
+  height: 52vh;
+  max-height: 306px;
+}
+
+.image-box-object_12 {
+  height: 56vh;
+  max-height: 420px;
+}
+
+.image-box-object_13 {
+  height: 41vh;
+  max-height: 313px;
+}
+
+.image-box-object_14 {
+  height: 41vh;
+  max-height: 313px;
+}
+
+.image-box-object_15 {
+  height: 17vh;
+  max-height: 128px;
+}
+
+.image-box-object img {
+  height: 100%;
+}
+
+.cs-5-4-7-1-img-div {
+  height: 48.17vh;
+  position: absolute;
+  bottom: 6.5vh;
+  right: 24.01vw;
+}
+
+.cs-5-4-7-1-img-div img {
+  height: 100%;
+}
+
 .cs-5-4-7-1-img-div {
   height: 48.17vh;
   position: absolute;
@@ -25032,11 +25268,38 @@ td img {
   height: 100%;
 }
 
+.cs-5-4-9-1-img-div {
+  height: 22.52vh;
+}
+
+.cs-5-4-9-1-img-div img {
+  height: 100%;
+}
+
 .cs-5-4-24-1-img-div {
   height: 53.25vh;
 }
 
 .cs-5-4-24-1-img-div img {
+  height: 100%;
+}
+
+.cs-5-4-24-1-img-div {
+  height: 53.25vh;
+}
+
+.cs-5-4-24-1-img-div img {
+  height: 100%;
+}
+
+.cs-5-4-31-img-div {
+  height: 20.57vh;
+  position: absolute;
+  bottom: 0;
+  left: 11.63vw;
+}
+
+.cs-5-4-31-img-div img {
   height: 100%;
 }
 

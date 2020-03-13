@@ -1,7 +1,5 @@
-
 @import "./main-page/index2";
 @import "./main-page/main-new";
-
 @import "./Nature-page/Bruca-07/3";
 @import "./Nature-page/Bruca-07/5";
 @import "./Nature-page/Bruca-07/60";
@@ -16,7 +14,6 @@
 @import "./Nature-page/Bruca-07/51";
 @import "./Nature-page/Bruca-07/games/52";
 @import "./Nature-page/Bruca-07/31";
-
 @import "./art-page/City-07/13";
 @import "art-page/City-07/1";
 @import "./art-page/City-07/4";
@@ -31,12 +28,9 @@
 @import "./art-page/City-07/18-1";
 @import "./art-page/City-07/11-1";
 @import "./art-page/City-07/32-1";
-
-
 @import "./art-page/rescue_nature_08/9";
 @import "./art-page/rescue_nature_08/10";
 @import "./art-page/rescue_nature_08/11";
-
 @import "./art-page/rescue_nature_08/16";
 @import "./art-page/rescue_nature_08/17";
 @import "./art-page/rescue_nature_08/18";
@@ -44,8 +38,6 @@
 @import "./art-page/rescue_nature_08/13";
 @import "./art-page/rescue_nature_08/22";
 @import "./art-page/rescue_nature_08/21-1";
-
-
 @import "./art-page/friends_09/6";
 @import "./art-page/friends_09/9";
 @import "./art-page/friends_09/9-1";
@@ -57,8 +49,6 @@
 @import "./art-page/friends_09/20";
 @import "./art-page/friends_09/23-1";
 @import "./art-page/friends_09/27";
-
-
 @import "Nature-page/flamingo-08/comixes";
 @import "Nature-page/flamingo-08/7";
 @import "Nature-page/flamingo-08/9";
@@ -74,7 +64,6 @@
 @import "Nature-page/flamingo-08/26-1";
 @import "Nature-page/flamingo-08/49";
 @import "Nature-page/flamingo-08/50";
-
 @import "art-page/items-10/1";
 @import "art-page/items-10/19-1";
 @import "art-page/items-10/32-2-2";
@@ -88,7 +77,6 @@
 @import "./art-page/items-10/31";
 @import "./art-page/items-10/32";
 @import "./art-page/items-10/20";
-
 @import "./Nature-page/coat-10/comices";
 @import "./Nature-page/coat-10/36";
 @import "./Nature-page/coat-10/27";
@@ -97,7 +85,6 @@
 @import "./Nature-page/coat-10/40";
 @import "./Nature-page/coat-10/11";
 @import "./Nature-page/coat-10/17-1";
-
 @import './art-page/daily-news-11/41';
 @import "./art-page/daily-news-11/30-1";
 @import "art-page/daily-news-11/1";
@@ -107,7 +94,6 @@
 @import "art-page/daily-news-11/13";
 @import "art-page/daily-news-11/14-1";
 @import "art-page/daily-news-11/23";
-
 @import "./Nature-page/around-world-09/23";
 @import "./Nature-page/around-world-09/24";
 @import "./Nature-page/around-world-09/20";
@@ -115,13 +101,11 @@
 @import "Nature-page/around-world-09/10";
 @import "Nature-page/around-world-09/37";
 @import "Nature-page/around-world-09/32";
-
 @import "./Nature-page/sport/6";
 @import "./Nature-page/sport/27";
 @import "./Nature-page/sport/32";
 @import "./Nature-page/sport/20";
 @import "Nature-page/sport/comices";
-
 @import "art-page/VR_exhibition/1";
 @import "art-page/VR_exhibition/2";
 @import "art-page/VR_exhibition/9";
@@ -130,7 +114,6 @@
 @import "art-page/VR_exhibition/20";
 @import "art-page/VR_exhibition/21";
 @import "art-page/VR_exhibition/32";
-
 @import "./Nature-page/snow-12/34";
 @import "./Nature-page/snow-12/comices";
 @import "./Nature-page/snow-12/40";
@@ -138,6 +121,17 @@
 @import "./Nature-page/snow-12/51";
 @import "./Nature-page/snow-12/23";
 @import "./Nature-page/snow-12/11";
+.DragGame--Parent .success {
+    background-color: #a1dd6f;
+}
+
+.DragGame--Parent .error {
+    background-color: #dc6c85;
+}
+
+.DragGame--Parent .textWhite {
+    color: #FFF;
+}
 
 @import "./Computer-Science/algorithmes-02/1";
 @import "./Computer-Science/algorithmes-02/3";
@@ -152,7 +146,6 @@
 @import "./Computer-Science/algorithmes-02/15";
 @import "./Computer-Science/algorithmes-02/21";
 @import "./Computer-Science/algorithmes-02/28";
-
 @import "./Computer-Science/Class-2/conditional-signs-1/1";
 @import "./Computer-Science/Class-2/conditional-signs-1/11";
 @import "./Computer-Science/Class-2/conditional-signs-1/18";
@@ -160,7 +153,6 @@
 @import "./Computer-Science/Class-2/conditional-signs-1/10";
 @import "./Computer-Science/Class-2/conditional-signs-1/26";
 @import "./Computer-Science/Class-2/conditional-signs-1/20";
-
 @import "./Computer-Science/Class-2/cycle-4/games/12";
 @import "./Computer-Science/Class-2/cycle-4/23";
 @import "./Computer-Science/Class-2/cycle-4/7";
@@ -180,8 +172,6 @@
 @import "./Computer-Science/Class-2/cycle-4/6";
 @import "./Computer-Science/Class-2/cycle-4/20";
 @import "./Computer-Science/Class-2/cycle-4/13";
-
-
 @import "./Computer-Science/Class-2/marks-2/1";
 @import "./Computer-Science/Class-2/marks-2/6";
 @import "./Computer-Science/Class-2/marks-2/7";
@@ -205,8 +195,6 @@
 @import "./Computer-Science/Class-2/marks-2/17";
 @import "./Computer-Science/Class-2/marks-2/21";
 @import "./Computer-Science/Class-2/marks-2/cs-bg-illustrations-2-2";
-
-
 @import "./Computer-Science/Class-2/programing-8/2";
 @import "./Computer-Science/Class-2/programing-8/6";
 @import "./Computer-Science/Class-2/programing-8/12";
@@ -220,7 +208,6 @@
 @import "Computer-Science/Class-2/programing-8/9";
 @import "Computer-Science/Class-2/programing-8/11";
 @import "Computer-Science/Class-2/programing-8/15";
-
 @import "./Computer-Science/Class-3/internet-8/1";
 @import "./Computer-Science/Class-3/internet-8/5-1";
 @import "./Computer-Science/Class-3/internet-8/7-1";
@@ -230,15 +217,12 @@
 @import "./Computer-Science/Class-3/internet-8/17";
 @import "./Computer-Science/Class-3/internet-8/18";
 @import "./Computer-Science/Class-3/internet-8/cs-bg-illustrations-3-8";
-
 @import "./Computer-Science/Class-3/internet-8/2";
 @import "./Computer-Science/Class-3/internet-8/3";
 @import "./Computer-Science/Class-3/internet-8/4";
 @import "./Computer-Science/Class-3/internet-8/5";
 @import "./Computer-Science/Class-3/internet-8/7";
 @import'./Computer-Science/Class-2/programing-8/19';
-
-
 @import'./Computer-Science/Class-2/part&whole-3/3';
 @import'./Computer-Science/Class-2/part&whole-3/4';
 @import'./Computer-Science/Class-2/part&whole-3/12';
@@ -269,7 +253,6 @@
 @import "./Computer-Science/Class-2/part&whole-3/19";
 @import "./Computer-Science/Class-2/part&whole-3/20";
 @import "./Computer-Science/Class-2/part&whole-3/19-1";
-
 @import "./Computer-Science/Class-3/computer-development-1/1";
 @import "./Computer-Science/Class-3/computer-development-1/22";
 @import "./Computer-Science/Class-3/computer-development-1/23";
@@ -281,7 +264,6 @@
 @import "./Computer-Science/Class-3/computer-development-1/10";
 @import "./Computer-Science/Class-3/computer-development-1/19";
 @import "./Computer-Science/Class-3/computer-development-1/24";
-
 @import "./Computer-Science/Class-5/function-5/1";
 @import "./Computer-Science/Class-5/function-5/8";
 @import "./Computer-Science/Class-5/function-5/9";
@@ -294,7 +276,6 @@
 @import "./Computer-Science/Class-5/function-5/3";
 @import "./Computer-Science/Class-5/function-5/5";
 @import "./Computer-Science/Class-5/function-5/cs-bg-illustrations-5-5";
-
 @import "./Computer-Science/Class-3/programming-language-5/1";
 @import "./Computer-Science/Class-3/programming-language-5/6";
 @import "./Computer-Science/Class-3/programming-language-5/7";
@@ -321,8 +302,15 @@
 @import "./Computer-Science/Class-3/programming-language-5/27";
 @import "./Computer-Science/Class-3/programming-language-5/28";
 @import "./Computer-Science/Class-3/programming-language-5/29";
-
 @import "./Computer-Science/Class-5/parallel-programming-6/1";
+@import "./Computer-Science/Class-5/parallel-programming-6/5-1";
+@import "./Computer-Science/Class-5/parallel-programming-6/8-1";
+@import "./Computer-Science/Class-5/parallel-programming-6/9-1";
+@import "./Computer-Science/Class-5/parallel-programming-6/14-1";
+@import "./Computer-Science/Class-5/parallel-programming-6/15-1";
+@import "./Computer-Science/Class-5/parallel-programming-6/16";
+
+
 @import "./Computer-Science/Class-5/parallel-programming-6/21";
 @import "./Computer-Science/Class-5/parallel-programming-6/3";
 @import "./Computer-Science/Class-5/parallel-programming-6/4";
