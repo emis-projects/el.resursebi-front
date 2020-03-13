@@ -25277,6 +25277,41 @@ td img {
   color: #62548a;
 }
 
+.cs-5-6-1-programming-img {
+  height: 55.98vh;
+  margin: 5vh auto 7vh;
+}
+
+.cs-5-6-11-ill-img {
+  height: 46.48vh;
+  margin: 8vh auto 0;
+}
+
+.cs-5-6-12-ill-img {
+  height: 46.87vh;
+  margin-top: 7vh;
+}
+
+.cs-5-6-13-ill-img {
+  height: 47.78vh;
+  margin-top: 6vh;
+}
+
+.cs-5-6-14-ill-img {
+  height: 57.03vh;
+  margin-top: 12vh;
+}
+
+.cs-5-6-15-img-dog {
+  height: 27.11vh;
+  margin-top: 10vh;
+}
+
+.cs-5-6-15-img-cat {
+  height: 33.60vh;
+  margin-top: 10vh;
+}
+
 body {
   color: #262626;
   font-size: 14px;
@@ -25782,3 +25817,4 @@ body {
     font-size: 14px;
   }
 }
+/*# sourceMappingURL=new-style.css.map */
