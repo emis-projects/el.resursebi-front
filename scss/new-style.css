@@ -25293,6 +25293,59 @@ td img {
   margin: 5vh auto 7vh;
 }
 
+.cs-5-6-3-img-div {
+  height: 50.78vh;
+}
+
+.cs-5-6-3-img-div img {
+  height: 100%;
+}
+
+.cs-5-6-4-img-div {
+  height: 46.87vh;
+  position: absolute;
+  bottom: 0;
+  right: 17.05vw;
+}
+
+.cs-5-6-4-img-div img {
+  height: 100%;
+}
+
+.cs-5-6-5-img-div {
+  height: 37.23vh;
+  position: absolute;
+  bottom: 8.72vh;
+  right: 17.05vw;
+}
+
+.cs-5-6-5-img-div img {
+  height: 100%;
+}
+
+.cs-5-6-6-img-div {
+  height: 56.25vh;
+  position: absolute;
+  bottom: 1.56vh;
+  right: 17.05vw;
+}
+
+.cs-5-6-6-img-div img {
+  height: 100%;
+}
+
+.cs-5-6-8-img-div {
+  height: 47.65vh;
+}
+
+.cs-5-6-8-img-div img {
+  height: 100%;
+}
+
+.cs-5-6-9-img-div img {
+  height: 23.43vh;
+}
+
 .cs-5-6-11-ill-img {
   height: 46.48vh;
   margin: 8vh auto 0;
@@ -25859,4 +25912,5 @@ body {
   font-family: "BPG Arial";
   font-size: 2vh;
 }
+/*# sourceMappingURL=new-style.css.map */
 /*# sourceMappingURL=new-style.css.map */
