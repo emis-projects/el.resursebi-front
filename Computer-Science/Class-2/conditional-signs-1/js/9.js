@@ -1,6 +1,6 @@
 function game(){
     this.error = true;
-
+    this.hrefElement = null;
 
     // variables
     let dragElement1 = document.querySelectorAll('.DragGame—childs1');
@@ -13,6 +13,8 @@ function game(){
     $(dragElement2).on('dragend', (e) => this.dragEnd(e));
 
 
+
+
     // Loop through empty boxes and add listeners
     for (const drag of dragElement2) {
         drag.addEventListener('dragover', (e) => this.dragOver(e));
@@ -20,14 +22,12 @@ function game(){
     }
 
     var dragElement2MyArray = [];
-
     for(var i = 0; i < dragElement2.length; i++ ){
         dragElement2MyArray.push(dragElement2[i])
     }
 
 
     var dragElement1MyArray = [];
-
     for(var i = 0; i < dragElement1.length; i++ ){
         dragElement1MyArray.push(dragElement1[i])
     }
@@ -37,12 +37,19 @@ function game(){
     document.addEventListener('DOMContentLoaded', () => {
         dragElement2MyArray.forEach(w => {
             w.setAttribute('data-class', w.getAttribute('class'))
-            w.setAttribute('data-title', w.innerText)
+
+            if(w.querySelector('a')){
+                w.setAttribute('data-href', w.querySelector('a').getAttribute('href'))
+
+            } else {
+                w.parentElement.setAttribute('data-title', w.innerText)
+            }
         })
         dragElement1MyArray.forEach((w, i) => {
             w.setAttribute('data-index', i)
         })
     })
+    
 
 
     // Drag Functions    
@@ -75,66 +82,61 @@ function game(){
                 w.appendChild(previusElement)
             } 
         })
-
     }
 
 
     this.checkEveryElement = (element) => element.getAttribute('data-index') == element.parentElement.getAttribute('data-index');
 
 
-    this.errorPage = () => {
-        this.checkEveryElement()
-        let el = dragElement2.every(this.checkEveryElement)
 
-		dragElement2MyArray.forEach(l => {
-			if(l.getAttribute('data-index') !== l.parentElement.getAttribute('data-index')){
-                l.parentElement.classList.add('error');
+    this.successPage  = () => {
+        let el = dragElement2MyArray.every(this.checkEveryElement)
 
-                if(el == true){
-                  this.error = false;
+		if(el == true){
+            let loc = location.pathname;
 
-                } else {
-                  this.error = true;
-                } 
-            } else if(l.getAttribute('data-index') == l.parentElement.getAttribute('data-index')){
-                l.parentElement.classList.add('success');
-                if(el == true){
-                    this.error = false;
-  
-                  } else {
-                    this.error = true;
-                  } 
+            if(loc == "/Computer-Science/Class-2/conditional-signs-1/9.html" || loc == "/el.resursebi-front/Computer-Science/Class-2/conditional-signs-1/9.html"){
+                location.href = "game-success-9.html"
+                
+            } else if(loc == "/Computer-Science/Class-2/conditional-signs-1/10.html" || loc == "/el.resursebi-front/Computer-Science/Class-2/conditional-signs-1/10.html"){
+                location.href = "game-success-10.html"
             }
-		})
-    }
 
-
-    // this.successPage  = () => {
-	// 	if(this.error == false){
-    //         let loc = location.pathname;
-
-    //         if(loc == "/Computer-Science/Class-2/conditional-signs-1/9.html" || loc == "/el.resursebi-front/Computer-Science/Class-2/conditional-signs-1/9.html"){
-    //             location.href = "nature-2-success.html"
-    //         }
-    //     }
-    // }
-    
-
-    
-    
-    this.completedGame = () => {
-        if(this.error){
-            this.errorPage();
-            
         } else {
-            this.successPage();
+            this.errorPage()
         }
     }
+
+
+    this.errorPage = () => {
+        dragElement2MyArray.forEach(w => {
+            if(w.getAttribute('data-index') !== w.parentElement.getAttribute('data-index')){
+                w.parentElement.classList.add('error')
+
+            } else if(w.getAttribute('data-index') == w.parentElement.getAttribute('data-index')) {
+                w.parentElement.classList.add('success')
+            }
+        })
+    }
     
+ 
+    this.completedGame = () => {
+        this.successPage()
+    }
     
+
+
     this.resetGame = () => {
-        let text = $(dragElementsData).attr('data-title');
-        $(dragElement2).text(text)
+        dragElement1MyArray.forEach(w => {
+            let title = w.getAttribute('data-title');
+
+            w.querySelector('.DragGame—childs2').innerText = title;
+
+            console.log(w);
+        });
+
+        $(dragElement1).removeClass('error');
+        $(dragElement1).removeClass('success');
     }
 
     resetBtn.addEventListener('click', this.resetGame);

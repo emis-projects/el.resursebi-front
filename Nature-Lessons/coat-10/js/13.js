@@ -60,8 +60,8 @@ function natureGames(){
                 count++;
             }
             if(element.getAttribute('data-side') != element.parentElement.getAttribute('data-side') && element.parentElement.classList.contains(('myDrag'))){
-                element.style.outline = '2px solid #dc6c85';
-                element.style.outlineOffset = '-1px';
+                element.style.outline = '3px solid #dc6c85';
+                element.style.outlineOffset = '-2px';
             }
         });
         if (count == 10) {

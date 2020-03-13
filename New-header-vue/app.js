@@ -871,8 +871,8 @@ let title = {
         },
         {
             id: 6,
-            name: 'სათაური',
-            link: '#'
+            name: 'პარალელური პროგრამირება',
+            link: './Computer-Science/Class-5/parallel-programming-6/1.html'
         },
         {
             id: 7,
