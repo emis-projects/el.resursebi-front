@@ -130,7 +130,16 @@ function game(){
         dragElement1MyArray.forEach(w => {
             let title = w.getAttribute('data-title');
 
+            w.querySelector('a, p').classList.remove('a-blue');
+            w.querySelector('a, p').removeAttribute('href')
+            w.querySelector('a, p').removeAttribute('style')
+
             w.querySelector('.DragGame—childs2').innerText = title;
+
+            $( "#differentGameDiv p" ).replaceWith( '<a class="sign-description-btn-title DragGame—childs2" draggable="true" data-index="2">ქვეითთა გადასასვლელი</a>');
+            $( "#differentGameDiv a").attr('href', "./6-1.html");
+            $( "#differentGameDiv a").attr('style', "color: #7fd1d8");
+            $( "#differentGameDiv a").attr('target', "_blank");
 
             console.log(w);
         });

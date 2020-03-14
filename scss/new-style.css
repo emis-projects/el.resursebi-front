@@ -22392,7 +22392,7 @@ td img {
 }
 
 .sign-description-btn.error p {
-  color: #fff;
+  color: #fff !important;
 }
 
 .sign-description-btn.success {
