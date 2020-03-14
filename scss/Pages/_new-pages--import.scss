@@ -123,10 +123,16 @@
 @import "./Nature-page/snow-12/11";
 .DragGame--Parent .success {
     background-color: #a1dd6f;
+    p, a {
+        color: #fff;
+    }
 }
 
 .DragGame--Parent .error {
     background-color: #dc6c85;
+    p, a {
+        color: #fff;
+    }
 }
 
 .DragGame--Parent .textWhite {

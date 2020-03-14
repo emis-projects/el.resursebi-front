@@ -21994,8 +21994,16 @@ td img {
   background-color: #a1dd6f;
 }
 
+.DragGame--Parent .success p, .DragGame--Parent .success a {
+  color: #fff;
+}
+
 .DragGame--Parent .error {
   background-color: #dc6c85;
+}
+
+.DragGame--Parent .error p, .DragGame--Parent .error a {
+  color: #fff;
 }
 
 .DragGame--Parent .textWhite {
