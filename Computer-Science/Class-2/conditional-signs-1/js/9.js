@@ -100,6 +100,15 @@ function game(){
                 
             } else if(loc == "/Computer-Science/Class-2/conditional-signs-1/10.html" || loc == "/el.resursebi-front/Computer-Science/Class-2/conditional-signs-1/10.html"){
                 location.href = "game-success-10.html"
+                
+            } else if(loc == "/Computer-Science/Class-2/marks-2/6.html" || loc == "/el.resursebi-front/Computer-Science/Class-2/marks-2/6.html"){
+                location.href = "game-success-6.html"
+
+            } else if(loc == "/Computer-Science/Class-2/marks-2/8.html" || loc == "/el.resursebi-front/Computer-Science/Class-2/marks-2/8.html"){
+                location.href = "game-success-8.html"
+            
+            } else if(loc == "/Computer-Science/Class-2/marks-2/11.html" || loc == "/el.resursebi-front/Computer-Science/Class-2/marks-2/11.html"){
+                location.href = "game-success-11.html"
             }
 
         } else {
