@@ -772,8 +772,8 @@ let title = {
         },
         {
             id: 11,
-            name: 'სათაური',
-            link: '#'
+            name: 'პრეზენტაციის შექმნა (Ms PowerPoint)',
+            link: './Computer-Science/Class-3/Presentation-11/1.html'
         },
         {
             id: 12,
@@ -789,8 +789,8 @@ let title = {
         },
         {
             id: 2,
-            name: 'კომპიუტერი 4 კლასი 2 გაკვ',
-            link: './Computer-Science/algorithme/C-1366-02-03.html'
+            name: 'შეცდომები პროგრამირებაში',
+            link: './Computer-Science/Class-4/programing-mistakes-2/1.html'
         },
         {
             id: 3,
