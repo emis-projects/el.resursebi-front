@@ -26262,6 +26262,48 @@ td img {
   margin: auto;
 }
 
+.cs-4-2-1-bags-img {
+  height: 51.69vh;
+  margin: 8vh auto;
+}
+
+.cs-4-2-11-error {
+  height: 32.03vh;
+  margin: 12vh auto 0;
+}
+
+.cs-4-2-12-ill-img {
+  height: 58.16vh;
+  position: relative;
+  bottom: -5vh;
+  right: -23vh;
+}
+
+.cs-4-2-13-ill-img {
+  height: 50vh;
+  margin-top: 13.5vh;
+}
+
+.cs-4-2-17-answers-img {
+  height: 38.54vh;
+  margin: 5vh auto 0;
+}
+
+.cs-4-2-18-ill-img {
+  height: 53vh;
+  margin-top: 3vh;
+}
+
+.cs-4-2-13-1-img {
+  height: 26.56vh;
+  margin: 5vh auto 0;
+}
+
+.cs-4-2-13-2-img {
+  height: 26.52vh;
+  margin-top: 5vh;
+}
+
 body {
   color: #262626;
   font-size: 14px;
