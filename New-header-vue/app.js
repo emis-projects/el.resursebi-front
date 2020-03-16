@@ -198,28 +198,28 @@ Vue.component('appStart', {
             appear>
                 <div v-if="isActive" class="page-section" :class="'app-start'">
                     <div class="row">
+                        <!--  
+                         -----  მუსუკა დამალულია (სავარაუდოდ დროებით -_- )
+                         -----
                         <div class="col-4 main-lesson-start-cont">
                           <img alt="music" :src="images.music" class="main-lesson-start-img" />
                           <div class="new_btn-start-cont ">
                             <a @click="trigger('select', 'მუსიკა')" class="new_btn-start">მუსიკა</a>
                           </div>
                         </div>
+                        -->
                         <div class="col-4 main-lesson-start-cont">
                           <img alt="art" :src="images.art" class="main-lesson-start-img" />
                           <div class="new_btn-start-cont">
                             <a @click="trigger('select', 'ხელოვნება')" class="new_btn-start">ხელოვნება</a>
                           </div>
-                        </div>  
-                        <!--  
-                         -----  მუსუკა დამალულია (სავარაუდოდ დროებით -_- )
-                         -----
+                        </div> 
                         <div class="col-3 main-lesson-start-cont">
                           <img alt="nature" :src="images.nature" class="main-lesson-start-img" />
                           <div class="new_btn-start-cont">
                             <a @click="trigger('select', 'ბუნება')" class="new_btn-start">ბუნება</a>
                           </div>
                         </div>
-                        -->
                         <div class="col-4 main-lesson-start-cont">
                           <img alt="computer" :src="images.IT" class="main-lesson-start-img" />
                           <div class="new_btn-start-cont">
