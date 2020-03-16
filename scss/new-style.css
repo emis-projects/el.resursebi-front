@@ -1,3 +1,4 @@
+@charset "UTF-8";
 #chatBot {
   bottom: 11vh;
   position: absolute;
@@ -11565,7 +11566,8 @@ td {
       justify-content: center;
       align-items: center;
       height: 100%;
-      width: 100%;
+      /*todo  მუსიკის დაბ */
+      width: 70%;
       cursor: pointer; }
 .main-lesson-start-img {
   height: 54.16vh;
