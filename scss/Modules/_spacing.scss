@@ -1,0 +1,25 @@
+@import "variable";
+
+// margin &  padding from 0 to 20 vh
+@each $space in $sizes {
+  @each $side in $positions {
+    .m#{str_slice($side, 0, 1)}-#{$space}vh {
+      margin-#{$side}: #{$space}vh;
+    }
+    .p#{str_slice($side, 0, 1)}-#{$space}vh {
+      padding-#{$side}: #{$space}vh;
+    }
+  }
+}
+
+// margin &  padding from 0.5 to 20.5 vh
+@each $space in $sizes {
+  @each $side in $positions {
+    .m#{str_slice($side, 0, 1)}-#{$space}_5vh {
+      margin-#{$side}: #{$space}#{'.5'}vh;
+    }
+    .p#{str_slice($side, 0, 1)}-#{$space}_5vh {
+      padding-#{$side}: #{$space}#{'.5'}vh;
+    }
+  }
+}
