@@ -17795,6 +17795,72 @@ td {
   .background-cs-title-purple-cont {
     padding-top: 10vh; }
 
+.cs-4-2_wrapper-box img {
+  height: 100%; }
+.cs-4-2_wrapper-box_14 {
+  margin-top: 6.25vh; }
+  .cs-4-2_wrapper-box_14 .image-box {
+    height: 19vh;
+    max-height: 145px; }
+  .cs-4-2_wrapper-box_14 .table-box table {
+    margin: 0;
+    box-shadow: 0 0 0 2px #000;
+    border-radius: unset;
+    width: 100%; }
+    .cs-4-2_wrapper-box_14 .table-box table td {
+      height: 6.3vh;
+      max-height: 49px;
+      width: 7.2vh;
+      max-width: 99px;
+      border: 2px solid #000;
+      vertical-align: middle; }
+      .cs-4-2_wrapper-box_14 .table-box table td img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 4vh;
+        width: 4vh;
+        max-height: 30px; }
+
+.cs-4-2_wrapper-box img {
+  height: 100%; }
+.cs-4-2_wrapper-box table {
+  margin: 0;
+  box-shadow: 0 0 0 2px #000;
+  border-radius: unset; }
+  .cs-4-2_wrapper-box table td {
+    border: 2px solid #000;
+    vertical-align: middle; }
+.cs-4-2_wrapper-box .arrow-key-box {
+  max-height: 71px; }
+  .cs-4-2_wrapper-box .arrow-key-box td {
+    height: 9.2vh;
+    width: 9.2vh;
+    max-height: 71px;
+    max-width: 71px; }
+.cs-4-2_wrapper-box_19 .image-box {
+  height: 5.2vh;
+  max-height: 40px; }
+.cs-4-2_wrapper-box_19 .table-box table {
+  margin: 0;
+  box-shadow: 0 0 0 2px #000;
+  border-radius: unset;
+  width: 100%; }
+  .cs-4-2_wrapper-box_19 .table-box table td {
+    height: 7.9vh;
+    max-height: 61px;
+    width: 7.2vh;
+    max-width: 99px; }
+    .cs-4-2_wrapper-box_19 .table-box table td img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      height: 4vh;
+      width: 4vh;
+      max-height: 30px; }
+
 .cs-3-11-1-powerpoint-img {
   height: 62.57vh;
   margin: 2vh auto 5vh; }
