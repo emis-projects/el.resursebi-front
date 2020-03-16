@@ -198,25 +198,29 @@ Vue.component('appStart', {
             appear>
                 <div v-if="isActive" class="page-section" :class="'app-start'">
                     <div class="row">
-                        <div class="col-3 main-lesson-start-cont">
+                        <div class="col-4 main-lesson-start-cont">
                           <img alt="music" :src="images.music" class="main-lesson-start-img" />
                           <div class="new_btn-start-cont ">
                             <a @click="trigger('select', 'მუსიკა')" class="new_btn-start">მუსიკა</a>
                           </div>
                         </div>
-                        <div class="col-3 main-lesson-start-cont">
+                        <div class="col-4 main-lesson-start-cont">
                           <img alt="art" :src="images.art" class="main-lesson-start-img" />
                           <div class="new_btn-start-cont">
                             <a @click="trigger('select', 'ხელოვნება')" class="new_btn-start">ხელოვნება</a>
                           </div>
                         </div>  
+                        <!--  
+                         -----  მუსუკა დამალულია (სავარაუდოდ დროებით -_- )
+                         -----
                         <div class="col-3 main-lesson-start-cont">
                           <img alt="nature" :src="images.nature" class="main-lesson-start-img" />
                           <div class="new_btn-start-cont">
                             <a @click="trigger('select', 'ბუნება')" class="new_btn-start">ბუნება</a>
                           </div>
                         </div>
-                        <div class="col-3 main-lesson-start-cont">
+                        -->
+                        <div class="col-4 main-lesson-start-cont">
                           <img alt="computer" :src="images.IT" class="main-lesson-start-img" />
                           <div class="new_btn-start-cont">
                             <a @click="trigger('select', 'კომპიუტერული მეცნიერება')" class="new_btn-start">კომპიუტერული მეცნიერება</a>
@@ -772,8 +776,8 @@ let title = {
         },
         {
             id: 11,
-            name: 'სათაური',
-            link: '#'
+            name: 'პრეზენტაციის შექმნა (Ms PowerPoint)',
+            link: './Computer-Science/Class-3/Presentation-11/1.html'
         },
         {
             id: 12,
@@ -789,8 +793,8 @@ let title = {
         },
         {
             id: 2,
-            name: 'კომპიუტერი 4 კლასი 2 გაკვ',
-            link: './Computer-Science/algorithme/C-1366-02-03.html'
+            name: 'შეცდომები პროგრამირებაში',
+            link: './Computer-Science/Class-4/programing-mistakes-2/1.html'
         },
         {
             id: 3,

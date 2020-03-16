@@ -1,12 +1,32 @@
 .marks-19 {
   .buttons-boxes{
-    box-shadow: 2px 2px 8px rgba(148, 125, 206, 0.4);
-    padding: 20px 30px;
     border-radius: 30px;
-    color: #947DCE;
+
     &:first-child{
       margin-top: 5.5vh;
     }
+
+    &.error,
+    &.success {
+      p {
+        color: #fff;
+      }
+    }
+
+    p {
+      box-shadow: 2px 2px 8px rgba(148, 125, 206, 0.4);
+      padding: 20px 30px;
+      border-radius: 30px;
+      color: #947DCE;
+    }
+    
+    .draggedElement {
+      box-shadow: 2px 2px 8px rgba(148, 125, 206, 0.4);
+      padding: 20px 30px;
+      border-radius: 30px;
+      color: #947DCE;
+    }
+
   }
   &_box-img {
     height: 15vh;

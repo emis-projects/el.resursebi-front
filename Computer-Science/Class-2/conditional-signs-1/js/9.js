@@ -38,6 +38,11 @@ function game(){
         dragElement2MyArray.forEach(w => {
             w.setAttribute('data-class', w.getAttribute('class'))
 
+            let childIndex = w.getAttribute('data-index');
+
+            w.parentElement.setAttribute('data-childIndex', childIndex)
+            
+
             if(w.querySelector('a')){
                 w.setAttribute('data-href', w.querySelector('a').getAttribute('href'))
 
@@ -109,6 +114,21 @@ function game(){
             
             } else if(loc == "/Computer-Science/Class-2/marks-2/11.html" || loc == "/el.resursebi-front/Computer-Science/Class-2/marks-2/11.html"){
                 location.href = "game-success-11.html"
+
+            } else if(loc == "/Computer-Science/Class-2/marks-2/18.html" || loc == "/el.resursebi-front/Computer-Science/Class-2/marks-2/18.html") {
+                location.href = "game-success-18.html"
+
+            } else if(loc == "/Computer-Science/Class-2/marks-2/19.html" || loc == "/el.resursebi-front/Computer-Science/Class-2/marks-2/19.html"){
+                location.href = "game-success-19.html"
+
+            } else if(loc == "/Computer-Science/Class-2/part&whole-3/6.html" || loc == "/el.resursebi-front/Computer-Science/Class-2/part&whole-3/6.html"){
+                location.href = "game-success-6.html"
+
+            } else if(loc == "/Computer-Science/Class-2/part&whole-3/11.html" || loc == "/el.resursebi-front/Computer-Science/Class-2/part&whole-3/11.html"){
+                location.href = "game-success-11.html"
+            
+            } else if(loc == "/Computer-Science/Class-2/part&whole-3/16.html" || loc == "/el.resursebi-front/Computer-Science/Class-2/part&whole-3/16.html"){
+                location.href = "game-success-16.html"
             }
 
         } else {
@@ -138,19 +158,19 @@ function game(){
     this.resetGame = () => {
         dragElement1MyArray.forEach(w => {
             let title = w.getAttribute('data-title');
+            let index = w.getAttribute('data-childIndex');
 
             w.querySelector('a, p').classList.remove('a-blue');
             w.querySelector('a, p').removeAttribute('href')
             w.querySelector('a, p').removeAttribute('style')
 
             w.querySelector('.DragGame—childs2').innerText = title;
+            w.querySelector('.DragGame—childs2').setAttribute('data-index', index);
 
             $( "#differentGameDiv p" ).replaceWith( '<a class="sign-description-btn-title DragGame—childs2" draggable="true" data-index="2">ქვეითთა გადასასვლელი</a>');
             $( "#differentGameDiv a").attr('href', "./6-1.html");
             $( "#differentGameDiv a").attr('style', "color: #7fd1d8");
             $( "#differentGameDiv a").attr('target', "_blank");
-
-            console.log(w);
         });
 
         $(dragElement1).removeClass('error');
