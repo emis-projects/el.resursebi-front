@@ -26716,10 +26716,6 @@ td img {
   height: 100vh;
 }
 
-.background-cs-title-purple-cont .C-3-11-22 {
-  padding-top: 4vh;
-}
-
 .cs-4-2-1-bags-img {
   height: 51.69vh;
   margin: 8vh auto;
@@ -26885,6 +26881,94 @@ td img {
 .cs-4-2-13-2-img {
   height: 26.52vh;
   margin-top: 5vh;
+}
+
+.Class_4-programing_2_title {
+  font-size: 2.6vh;
+  font-family: 'DejaVuSans';
+}
+
+.Class_4-programing_2_25 {
+  position: fixed;
+  bottom: 0;
+}
+
+.Class_4-programing_2_25 img {
+  height: 59.5vh;
+  max-height: 456.8px;
+}
+
+.Class_4-programing_2_title {
+  font-size: 2.6vh;
+  font-family: 'DejaVuSans';
+}
+
+.Class_4-programing_2_26_1 img {
+  height: 20.1vh;
+  max-height: 154.5px;
+}
+
+.Class_4-programing_2_26_2 img {
+  height: 20.3vh;
+  max-height: 156px;
+}
+
+.Class_4-programing_2_26_3 img {
+  height: 19.24vh;
+  max-height: 147.8px;
+}
+
+.Class_4-programing_2_title {
+  font-size: 2.6vh;
+  font-family: 'DejaVuSans';
+}
+
+.Class_4-programing_2_26_1 img {
+  height: 20.1vh;
+  max-height: 154.5px;
+}
+
+.Class_4-programing_2_26_3 img {
+  height: 19.24vh;
+  max-height: 147.8px;
+}
+
+.Class_4-title_item_28 {
+  color: #62548A;
+  font-family: 'DejaVu Sans Oblique';
+  font-size: 3.64vh;
+}
+
+.Class_4-C_4_2_28 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/programing-mistakes-2/C-4-2-28.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.Class_4-C_4_2_29 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/programing-mistakes-2/C-4-2-29.png");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.Class_4-C_4_2_30 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/programing-mistakes-2/C-4-2-30.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.Class_4-C_4_2_31 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/programing-mistakes-2/C-4-2-31.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
 body {
