@@ -1,4 +1,4 @@
-function computerGames(){
+function computerGames() {
     var DragGameChilds1 = document.querySelectorAll('.DragGame--childs1');
     var DragGameParent = document.querySelectorAll('.DragGame--Parent');
 
@@ -23,14 +23,14 @@ function computerGames(){
     })
 
     this.dragOver = (e) => {
-        
+
         e.preventDefault();
     }
 
     this.dragStart = (e) => {
         myArray.forEach(element => {
-            $( element ).removeClass( "error" );
-            $( element ).removeClass( "success" );
+            $(element).removeClass("error");
+            $(element).removeClass("success");
         });
         setTimeout(() => {
             e.target.className += " draggedElement"
@@ -47,58 +47,58 @@ function computerGames(){
         myArray.push(element);
     });
 
-    this.dragDrop = (e) =>{
+    this.dragDrop = (e) => {
         var drag = document.querySelector('.draggedElement');
         var dragParent = drag.parentElement;
-       let firstElement = e.target.parentElement.firstElementChild;
-       console.log(firstElement)
-        if(e.target.parentElement.classList.contains('DragGame--Parent')){
+        let firstElement = e.target.parentElement.firstElementChild;
+        console.log(firstElement)
+        if (e.target.parentElement.classList.contains('DragGame--Parent')) {
             //firstElement.remove();
             e.target.parentElement.appendChild(drag);
             dragParent.appendChild(firstElement)
         }
     }
+    this.checkEveryElement = (element) => element.getAttribute('data-place') == element.parentElement.getAttribute('data-place');
 
-    this.completGame = () => {
-        console.log('complate')
-        var count = 0;
+    this.successPage = () => {
+        let el = myArray.every(this.checkEveryElement);
+        if (el == true) {
+            if (window.location.href.includes("19.html")) {
+                location.href = 'game-success-19.html';
+            }
+            if (window.location.href.includes("10.html")) {
+                location.href = 'game-success-10.html';
+            }
+            if (window.location.href.includes("12.html")) {
+                location.href = 'game-success-12.html';
+            }
+        }
+        else {
+            this.errorPage();
+        }
+    }
+
+
+    this.errorPage = () => {
         myArray.forEach(element => {
             console.log(element.getAttribute('data-place'), element.parentElement.getAttribute('data-place'))
-            if(element.getAttribute('data-place') == element.parentElement.getAttribute('data-place')){
-                console.log('yes')
-                count++
-                $(element).addClass( "success" );
+            if (element.getAttribute('data-place') == element.parentElement.getAttribute('data-place')) {
+                $(element).addClass("success");
             }
-            else{
-                $(element).addClass( "error" );
+            else {
+                $(element).addClass("error");
             }
         });
-        console.log('count', count)
-        if(count == 4 && window.location.href.includes("19.html")){
-            this.successPage19();
-        }
-        if(count == 6 && window.location.href.includes("10.html")){
-            this.successPage10();
-        }
-        if(count == 10 && window.location.href.includes("12.html")){
-            this.successPage10();
-        }
     }
 
-    this.successPage19 = () => {
-        location.href = 'game-success-19.html';
-    }
-    this.successPage10 = () => {
-        location.href = 'game-success-10.html';
-    }
-    this.successPage12 = () => {
-        location.href = 'game-success-10.html';
+    this.completGame = () => {
+        this.successPage();
     }
 
     this.init = () => {
         myArray.forEach(element => {
-            $( element ).removeClass( "error" );
-            $( element ).removeClass( "success" );
+            $(element).removeClass("error");
+            $(element).removeClass("success");
         });
         DragGameParent.forEach(element => {
             console.log('element', element)
@@ -109,7 +109,7 @@ function computerGames(){
 
 
     resetBtn.addEventListener('click', () => this.init());
-	completedBtn.addEventListener('click', () => this.completGame());
+    completedBtn.addEventListener('click', () => this.completGame());
 
 }
 
