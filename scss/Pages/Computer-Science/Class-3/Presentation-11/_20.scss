@@ -1,0 +1,22 @@
+.Presentation_11 {
+    &-img_box_20 {
+        position: fixed;
+        bottom: 0;
+        img {
+            height: 51vh;
+            max-height: 392px;
+        }
+    }
+    &-img_box_21{
+        position: fixed;
+        bottom: 0;
+        img {
+            height: 51.9vh;
+            max-height: 399px;
+        }
+    }
+    &-title_item {
+        font-family: 'DejaVuSans';
+        font-size: 2.6vh;
+    }
+}
