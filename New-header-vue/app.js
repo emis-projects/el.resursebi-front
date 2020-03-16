@@ -773,7 +773,7 @@ let title = {
         {
             id: 11,
             name: 'პრეზენტაციის შექმნა (Ms PowerPoint)',
-            link: '#'
+            link: './Computer-Science/Class-3/Presentation-11/1.html'
         },
         {
             id: 12,
