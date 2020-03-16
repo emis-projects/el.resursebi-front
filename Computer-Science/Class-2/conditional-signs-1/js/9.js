@@ -100,6 +100,15 @@ function game(){
                 
             } else if(loc == "/Computer-Science/Class-2/conditional-signs-1/10.html" || loc == "/el.resursebi-front/Computer-Science/Class-2/conditional-signs-1/10.html"){
                 location.href = "game-success-10.html"
+                
+            } else if(loc == "/Computer-Science/Class-2/marks-2/6.html" || loc == "/el.resursebi-front/Computer-Science/Class-2/marks-2/6.html"){
+                location.href = "game-success-6.html"
+
+            } else if(loc == "/Computer-Science/Class-2/marks-2/8.html" || loc == "/el.resursebi-front/Computer-Science/Class-2/marks-2/8.html"){
+                location.href = "game-success-8.html"
+            
+            } else if(loc == "/Computer-Science/Class-2/marks-2/11.html" || loc == "/el.resursebi-front/Computer-Science/Class-2/marks-2/11.html"){
+                location.href = "game-success-11.html"
             }
 
         } else {
@@ -130,7 +139,16 @@ function game(){
         dragElement1MyArray.forEach(w => {
             let title = w.getAttribute('data-title');
 
+            w.querySelector('a, p').classList.remove('a-blue');
+            w.querySelector('a, p').removeAttribute('href')
+            w.querySelector('a, p').removeAttribute('style')
+
             w.querySelector('.DragGame—childs2').innerText = title;
+
+            $( "#differentGameDiv p" ).replaceWith( '<a class="sign-description-btn-title DragGame—childs2" draggable="true" data-index="2">ქვეითთა გადასასვლელი</a>');
+            $( "#differentGameDiv a").attr('href', "./6-1.html");
+            $( "#differentGameDiv a").attr('style', "color: #7fd1d8");
+            $( "#differentGameDiv a").attr('target', "_blank");
 
             console.log(w);
         });

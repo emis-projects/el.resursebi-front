@@ -28,6 +28,8 @@ function natureGames() {
         return result;
     }
 
+
+
     this.clickMe = (e) => {
         btn.forEach(element => {
             element.classList.remove('active')
@@ -40,26 +42,22 @@ function natureGames() {
                 document.querySelector('#weatherParent').innerHTML = "";
                 this.getWeather("rain");
                 imge.src = '../../img/gakvetilebi/buneba/snow-12/1-mdgomareoba.svg';
-                $('#weatherParent img').css("animation-duration", "4s")
 
             }
             if(e.target.getAttribute('data-btn') == 2){
                 document.querySelector('#weatherParent').innerHTML = "";
                 imge.src = '../../img/gakvetilebi/buneba/snow-12/2-mdgomareoba.svg';
                 this.getWeather("rain");
-                $('#weatherParent img').css("animation-duration", "3s")
             }
             if(e.target.getAttribute('data-btn') == 3){
                 imge.src = '../../img/gakvetilebi/buneba/snow-12/3-mdgomareoba.svg';
                 document.querySelector('#weatherParent').innerHTML = "";
-                this.getWeather("rain")
-                $('#weatherParent img').css("animation-duration", "2.2s")
+                this.getWeather("rain2")
             }
             if(e.target.getAttribute('data-btn') == 4){
                 imge.src = '../../img/gakvetilebi/buneba/snow-12/4-mdgomareoba.svg';
                 document.querySelector('#weatherParent').innerHTML = "";
                 this.getWeather("rain")
-                $('#weatherParent img').css("animation-duration", "2.2s")
 
                 let items = $('#weatherParent img');
 
@@ -71,7 +69,6 @@ function natureGames() {
                 document.querySelector('#weatherParent').innerHTML = "";
 
                 this.getWeather("rain")
-                $('#weatherParent img').css("animation-duration", "1.6s")
 
                 let items = $('#weatherParent img');
 
