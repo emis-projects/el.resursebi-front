@@ -1,0 +1,36 @@
+.cs-4-2-9-div-img
+{
+    height:10.8vh;
+    img{
+        height:100%;
+    }
+}
+
+.cs-4-2-9-time-div-img{
+    position: absolute;
+    bottom:13.15vh;
+    left: 10.24vw;
+    .cs-4-2-9-img-clock{
+        height:10.93vh;
+    }
+    .cs-4-2-9-img-timer{
+        height:8.33vh;
+        margin-left:2.41vw;
+    }
+}
+
+.cs-4-2-9-1-btn-div{
+    box-shadow: 2px 2px 8px #947DCE66;
+    border-radius: 36px;
+    height: 8.3vh;
+    width: 31.5vh;
+    .cs-4-2-9-1-btn-red{
+        color: #C95656;
+    }
+    .cs-4-2-9-1-btn-green{
+        color: #56C96C;  
+    }
+    p{
+        font-size: 2.34vh;
+    }
+}
