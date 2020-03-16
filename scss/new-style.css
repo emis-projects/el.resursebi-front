@@ -15,8 +15,6 @@
   max-width: 80px;
   min-height: 60px;
   min-width: 60px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -17797,9 +17795,115 @@ td {
   .background-cs-title-purple-cont {
     padding-top: 10vh; }
 
+.cs-4-2_wrapper-box img {
+  height: 100%; }
+.cs-4-2_wrapper-box_14 {
+  margin-top: 6.25vh; }
+  .cs-4-2_wrapper-box_14 .image-box {
+    height: 19vh;
+    max-height: 145px; }
+  .cs-4-2_wrapper-box_14 .table-box table {
+    margin: 0;
+    box-shadow: 0 0 0 2px #000;
+    border-radius: unset;
+    width: 100%; }
+    .cs-4-2_wrapper-box_14 .table-box table td {
+      height: 6.3vh;
+      max-height: 49px;
+      width: 7.2vh;
+      max-width: 99px;
+      border: 2px solid #000;
+      vertical-align: middle; }
+      .cs-4-2_wrapper-box_14 .table-box table td img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 4vh;
+        width: 4vh;
+        max-height: 30px; }
+
+.cs-4-2_wrapper-box img {
+  height: 100%; }
+.cs-4-2_wrapper-box table {
+  margin: 0;
+  box-shadow: 0 0 0 2px #000;
+  border-radius: unset; }
+  .cs-4-2_wrapper-box table td {
+    border: 2px solid #000;
+    vertical-align: middle; }
+.cs-4-2_wrapper-box .arrow-key-box {
+  max-height: 71px; }
+  .cs-4-2_wrapper-box .arrow-key-box td {
+    height: 9.2vh;
+    width: 9.2vh;
+    max-height: 71px;
+    max-width: 71px; }
+.cs-4-2_wrapper-box_19 .image-box {
+  height: 5.2vh;
+  max-height: 40px; }
+.cs-4-2_wrapper-box_19 .table-box table {
+  margin: 0;
+  box-shadow: 0 0 0 2px #000;
+  border-radius: unset;
+  width: 100%; }
+  .cs-4-2_wrapper-box_19 .table-box table td {
+    height: 7.9vh;
+    max-height: 61px;
+    width: 7.2vh;
+    max-width: 99px; }
+    .cs-4-2_wrapper-box_19 .table-box table td img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      height: 4vh;
+      width: 4vh;
+      max-height: 30px; }
+
 .cs-3-11-1-powerpoint-img {
   height: 62.57vh;
   margin: 2vh auto 5vh; }
+
+.cs-3-11-8-div-img {
+  height: 50.39vh; }
+  .cs-3-11-8-div-img img {
+    height: 100%; }
+
+.cs-3-11-9-img-div {
+  height: 59.24vh;
+  position: absolute;
+  bottom: 0;
+  right: 17.27vw; }
+  .cs-3-11-9-img-div img {
+    height: 100%; }
+
+.cs-3-11-10-div-img {
+  height: 55.98vh;
+  position: absolute;
+  bottom: 0;
+  left: 16.25vw; }
+  .cs-3-11-10-div-img img {
+    height: 100%; }
+
+.cs-3-11-11-div-img {
+  height: 43.75vh;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0); }
+  .cs-3-11-11-div-img img {
+    height: 100%; }
+
+.cs-3-11-12-div-img {
+  height: 49.86vh; }
+  .cs-3-11-12-div-img img {
+    height: 100%; }
+
+.cs-3-11-13-div-img {
+  height: 33.72vh; }
+  .cs-3-11-13-div-img img {
+    height: 100%; }
 
 .image-box-presentation img {
   height: 100%; }
@@ -17848,6 +17952,40 @@ td {
 .cs-11-6-office-365-img {
   height: 70.05vh;
   margin: auto; }
+
+.cs-4-2-1-bags-img {
+  height: 51.69vh;
+  margin: 8vh auto; }
+
+.cs-4-2-11-error {
+  height: 32.03vh;
+  margin: 12vh auto 0; }
+
+.cs-4-2-12-ill-img {
+  height: 58.16vh;
+  position: relative;
+  bottom: -5vh;
+  right: -23vh; }
+
+.cs-4-2-13-ill-img {
+  height: 50vh;
+  margin-top: 13.5vh; }
+
+.cs-4-2-17-answers-img {
+  height: 38.54vh;
+  margin: 5vh auto 0; }
+
+.cs-4-2-18-ill-img {
+  height: 53vh;
+  margin-top: 3vh; }
+
+.cs-4-2-13-1-img {
+  height: 26.56vh;
+  margin: 5vh auto 0; }
+
+.cs-4-2-13-2-img {
+  height: 26.52vh;
+  margin-top: 5vh; }
 
 body {
   color: #262626;
