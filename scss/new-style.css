@@ -23978,6 +23978,18 @@ td img {
 }
 
 .marks-19 .buttons-boxes {
+  border-radius: 30px;
+}
+
+.marks-19 .buttons-boxes:first-child {
+  margin-top: 5.5vh;
+}
+
+.marks-19 .buttons-boxes.error p, .marks-19 .buttons-boxes.success p {
+  color: #fff;
+}
+
+.marks-19 .buttons-boxes p {
   -webkit-box-shadow: 2px 2px 8px rgba(148, 125, 206, 0.4);
           box-shadow: 2px 2px 8px rgba(148, 125, 206, 0.4);
   padding: 20px 30px;
@@ -23985,8 +23997,12 @@ td img {
   color: #947DCE;
 }
 
-.marks-19 .buttons-boxes:first-child {
-  margin-top: 5.5vh;
+.marks-19 .buttons-boxes .draggedElement {
+  -webkit-box-shadow: 2px 2px 8px rgba(148, 125, 206, 0.4);
+          box-shadow: 2px 2px 8px rgba(148, 125, 206, 0.4);
+  padding: 20px 30px;
+  border-radius: 30px;
+  color: #947DCE;
 }
 
 .marks-19_box-img {
