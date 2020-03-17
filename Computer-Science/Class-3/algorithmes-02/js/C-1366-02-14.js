@@ -4,6 +4,8 @@ function natureGames() {
     var mydrag = document.querySelectorAll('.mixerDrag');
     var onOff = document.querySelector('.onOff');
     var finish = document.querySelector('.finish');
+    var bigFruit = document.querySelectorAll('.imgElement');
+
 
     
 
@@ -36,6 +38,9 @@ function natureGames() {
         })
 
         litle.forEach(w => {
+            w.setAttribute('data-class', w.getAttribute('class'))
+        })
+        bigFruit.forEach(w => {
             w.setAttribute('data-class', w.getAttribute('class'))
         })
     })
@@ -138,9 +143,9 @@ function natureGames() {
         document.querySelector('.banana').style = "display: none"
         document.querySelector('.milk').style = "display: none"
 
-        var bigFruit = document.querySelectorAll('.imgElement');
-
+        
         bigFruit.forEach(element => {
+            console.log(element)
             element.style = "display: block"
         });
 
