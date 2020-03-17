@@ -9,33 +9,61 @@
 <!--  ვუე გაშვებისას
 <script src="./js/vue.min.js"></script>
     -->
-  <link rel="stylesheet" href="../../../scss/libraries/bootstrap.min.css">
-    <link rel="stylesheet" href="../../../scss/libraries/magnific-popup.css" />
-<link rel="stylesheet" href="../../../scss/style.css" />
-  <title>ელექტრონული საგანმანათლებლო რესურსი</title>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'UA-155006442-1');
-</script>
+    
+
+    <link rel="stylesheet" href="../../../scss/libraries/bootstrap.min.css">
+    <link rel="stylesheet" href="../../../New-header-vue/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="../../../scss/libraries/owl.carousel.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../../../scss/libraries/owl.theme.default.css"/>
+
+    <link rel="stylesheet" href="../../../scss/new-style.css"/>
+  <title>ელექტრონული საგანმანათლებლო რესურსი</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'UA-155006442-1');
+    </script>
 </head>
 
 <body>
     <div class="container">
-        <header id="app">
-            <nav class="row">
-                <app-logo v-logo="'../../../'"></app-logo>
-                <app-menu v-menu:dark="'../../../'"></app-menu>
-                <sound-lang></sound-lang>
-            </nav>
-        </header>
+        <section id="app" class="container position-absolute">
+            <header>
+                <app-menu v-logo="'../../../'" :is-active="isActive" :toggle="toggle"></app-menu>
+            </header>
+    
+            <app-section v-image="'../../../'" :is-active="isActive">
+                <app-bar
+                        :is-active="isActive"
+                        :trigger="trigger"
+                        :dots="dots"
+                        :current-tab="link"
+                        v-on:link-tab="link = $event">
+    
+                </app-bar>
+                <component
+                        :is="currentTabComponent"
+                        :is-active="isActive"
+                        :path="path"
+                        :trigger="trigger"
+                        :images="images"
+                        :active-class="activeClass"
+                        :tab-class="currentTabComponent">
+                </component>
+            </app-section>
+        </section>
 
 
-        <div class="game__section flex justify-between" style="padding-top: 10vh; margin-top: 10vh;">
+        <div class="game__section flex justify-between" style="padding-top: 10vh; margin-top: 15vh;">
 			<img src="../../../img/gakvetilebi/Computer-Science/algorithme/Group34469.svg" style="width: 80%" height="100%" alt="">
         </div>
 
@@ -56,7 +84,7 @@
         </div>
     </div>
 
-    <script src="../../../Vue-Header/app.js"></script>
+    <script src="../../../New-header-vue/app.js"></script>
     
 </body>
 </html>
