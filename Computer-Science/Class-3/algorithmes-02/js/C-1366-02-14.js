@@ -5,21 +5,39 @@ function natureGames() {
     var onOff = document.querySelector('.onOff');
     var finish = document.querySelector('.finish');
 
+    
+
     var resetBtn = document.getElementById('resetBtn');
 
     var pear1 = false;
-    var banana1 = false;
+    var banana1 =false;
     var apple1 = false;
     var milk1 = false;
 
+    
+
+
     $(draggedImgElement).on('dragstart', (e) => this.dragStart(e));
+    $(draggedImgElement).on('dragend', (e) => this.dragEnd(e));
 
     for (const drag of mydrag) {
         drag.addEventListener('dragover', (e) => this.dragOver(e));
         drag.addEventListener('drop', (e) => this.dragDrop(e));
     }
 
+    document.addEventListener('DOMContentLoaded', () => {
+        mydrag.forEach(w => {
+            w.setAttribute('data-class', w.getAttribute('class'))
+        })
 
+        draggedImgElement.forEach(w => {
+            w.setAttribute('data-class', w.getAttribute('class'))
+        })
+
+        litle.forEach(w => {
+            w.setAttribute('data-class', w.getAttribute('class'))
+        })
+    })
 
     // Drag Functions 
     this.dragOver = (e) => {
@@ -34,6 +52,11 @@ function natureGames() {
         }, 0);
     }
 
+     // drag end
+     this.dragEnd = e => {
+        let elClassName = e.target.getAttribute('data-class');
+        e.target.className = elClassName;
+    }
 
     // drop 
     var count = 0;
@@ -53,6 +76,7 @@ function natureGames() {
         
         
         // /naturalHeight
+        let elClassName = drag.getAttribute('data-class');
         let currentFruit = littleFruitArray.filter(r => r.classList.contains(drag.getAttribute('data-name')))
         if(count == 0 && currentFruit.length){
             pixel = 5;
@@ -98,7 +122,7 @@ function natureGames() {
             milk1 = true;
             let milk = document.querySelector('.milk')
             e.target.parentElement.appendChild(milk);
-            milk.style = "display:block; bottom:0px;"
+            milk.style = "display:block; bottom:5px;"
             drag.style = "display:none"
             $(drag).removeClass('draggedElement');
         }
@@ -108,13 +132,12 @@ function natureGames() {
     this.init = () => {
         count = 0;
         pixel = 0;
-        document.querySelector('.apple').style = "display: none";
-        document.querySelector('.pear').style = "display: none";
-        document.querySelector('.banana').style = "display: none";
-        document.querySelector('.milk').style = "display: none";
-        document.querySelector('.mixer__head').classList.add('isNotOpen')
+        document.querySelector('.apple').style = "display: none"
+        document.querySelector('.pear').style = "display: none"
+        document.querySelector('.banana').style = "display: none"
+        document.querySelector('.milk').style = "display: none"
+
         var bigFruit = document.querySelectorAll('.imgElement');
-        isOpen = false;
 
         bigFruit.forEach(element => {
             element.style = "display: block"
@@ -136,17 +159,16 @@ function natureGames() {
             
         }
     }
-
     this.complate = () =>{
         if(isOpen){
-            location.href = "errorpage2.html";
-            return
+            //location.href = "errorpage2.html";
+            return;
         }
         if(apple1 && pear1 && banana1 && milk1){
-            location.href = "C-1366-02-14-success.html"
+            location.href = "game-success-11.html"
             return
         }
-        
+        //debugger
         if(!apple1 && !pear1 && !banana1 && !milk1){
             location.href = "errorpage2.html"
             return
