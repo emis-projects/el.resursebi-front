@@ -1,0 +1,118 @@
+.C-2-4-12{
+  &_img-box{
+    height: 10.4vh;
+    max-height: 79px;
+    img{
+      height: 100%;
+      width: auto;
+    }
+  }
+  &_wrapper-box{
+    height: 52vh;
+    max-height: 404px;
+    width: 22vw;
+    max-width: 304px;
+    position: relative;
+    z-index: 999999999;
+  }
+  &_box{
+    height: 10.4vh;
+    max-height: 79px;
+    width: 6vw;
+    max-width: 82px;
+    border-radius: 6px;
+    background: #ECE9F4;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+      height: 85%;
+    }
+    &-1{
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    &-2{
+      right: 0;
+      top: 28%;
+      transform: translateY(-28%);
+    }
+    &-3{
+      right: 0;
+      bottom: 19%;
+      transform: translateY(-19%);
+    }
+    &-4{
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    &-5{
+      left: 0;
+      bottom: 19%;
+      transform: translateY(-19%);
+    }
+    &-6{
+      left: 0;
+      top: 28%;
+      transform: translateY(-28%);
+    }
+  }
+
+  &_line-box{
+    height: 52vh;
+    max-height: 404px;
+    width: 22vw;
+    max-width: 304px;
+    position: absolute;
+    z-index: 33333;
+    .container-wrapper{
+      position: relative;
+      height: 100%;
+      width: 100%;
+      .wrapper-box{
+        width: 3vw;
+        max-width: 35px;
+        height: 2.9vh;
+        max-height: 22px;
+        position: absolute;
+        &-1{
+          left: 21%;
+          top: 13%;
+          transform: rotate(-4deg);
+        }
+        &-2{
+          right: 22%;
+          top: 13%;
+          transform: rotate(70deg);
+        }
+        &-3{
+          right: 9%;
+          top: 50%;
+          transform: translateY(-50%) rotate(124deg);
+        }
+        &-4{
+          bottom: 13%;
+          right: 19%;
+        }
+        &-5{
+          bottom: 13%;
+          left: 21%;
+          transform: rotate(70deg);
+        }
+        &-6{
+          top: 50%;
+          left: 8%;
+          transform: translateY(-50%) rotate(124deg);
+        }
+        img{
+          height: 100%;
+          width: 100%;
+          object-fit: contain;
+        }
+      }
+    }
+  }
+}
