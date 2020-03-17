@@ -184,7 +184,7 @@ function natureGames() {
             return
         }
         if(!apple1 && !pear1 && !banana1 && milk1){
-            location.href = "errorpage2.html"
+            location.href = "errorpage4.html"
             return
         }
         if((apple1 || pear1 || banana1) && milk1 ){
