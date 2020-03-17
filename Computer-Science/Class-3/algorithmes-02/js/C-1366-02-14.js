@@ -19,6 +19,7 @@ function natureGames() {
 
     $(draggedImgElement).on('dragstart', (e) => this.dragStart(e));
     $(draggedImgElement).on('dragend', (e) => this.dragEnd(e));
+    
 
     for (const drag of mydrag) {
         drag.addEventListener('dragover', (e) => this.dragOver(e));
