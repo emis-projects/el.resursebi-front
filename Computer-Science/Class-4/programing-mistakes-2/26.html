@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<!-- ბოტის აიდიში ვუთითებთ: ხელოვნების - 2318, ბუნების - 2320, მუსიკის - 2292 -->
-<html lang="ka" data-botid="2318">
+<html lang="ka" data-botid="2288">
 
 <head>
     <meta charset="UTF-8" />
@@ -8,11 +7,10 @@
     <!-- ყველა გვერდზე -->
     <script src="../../../js/vue.js"></script>
     <!--  ვუე გაშვებისას
-      <script src="./js/vue.min.js"></script>
-       -->
-    <link rel="stylesheet" href="../../../New-header-vue/animate.min.css">
+    <script src="./js/vue.min.js"></script>
+     -->
     <link rel="stylesheet" href="../../../scss/libraries/bootstrap.min.css">
-    <link rel="stylesheet" href="../../../scss/libraries/magnific-popup.css">
+    <link rel="stylesheet" href="../../../New-header-vue/animate.min.css">
     <link rel="stylesheet" href="../../../scss/new-style.css" />
     <title>ელექტრონული საგანმანათლებლო რესურსი</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -23,7 +21,6 @@
         function gtag() {
             dataLayer.push(arguments);
         }
-
         gtag('js', new Date());
 
         gtag('config', 'UA-155006442-1');
@@ -42,14 +39,35 @@
                     v-on:link-tab="link = $event">
 
                 </app-bar>
-                <component :is="currentTabComponent" :is-active="isActive" :path="path" :trigger="trigger"
+                <component :path="path" :is="currentTabComponent" :is-active="isActive" :trigger="trigger"
                     :images="images" :active-class="activeClass" :tab-class="currentTabComponent">
                 </component>
             </app-section>
         </section>
-
-
         <section id="mainPage">
+            <div class="row">
+                <div class="col-10 m-auto">
+                    <div class="newDesign_subject_question_item mt-5vh">
+                        <img src="../../../img/icons/newDesign_btn-yellow.svg" alt="img"
+                            class="newDesign_subject_question_item-img">
+                        <p class="newDesign_subject_question_item-title Class_4-programing_2_title">
+                            შენ უკვე წარმატებით გაიარე ნაბიჯები, გაიგე ბევრი ახალი რამ, ახლა დროა, დაიწყო მთავარი დავალების შესრულება.
+                        </p>
+                    </div>
+                    <div class="col-8 d-flex justify-content-between m-auto mt-15vh">
+                        <div class="Class_4-programing_2_26_1">
+                            <img src="../../../img/gakvetilebi/Computer-Science/Class-4/programing-mistakes-2/C-4-2-26-1.svg" alt="img">
+                        </div>
+                        <div class="Class_4-programing_2_26_2">
+                            <img src="../../../img/gakvetilebi/Computer-Science/Class-4/programing-mistakes-2/C-4-2-26-2.svg" alt="img">
+                        </div>
+                        <div class="Class_4-programing_2_26_3">
+                            <img src="../../../img/gakvetilebi/Computer-Science/Class-4/programing-mistakes-2/C-4-2-26-3.png" alt="img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div class="left_components_paging-cont">
                 <svg class="left_components_paging" xmlns="http://www.w3.org/2000/svg"
                     xmlns:xlink="http://www.w3.org/1999/xlink" width="134" height="722" viewBox="0 0 134 722">
@@ -438,13 +456,13 @@
                             <tspan x="0" y="0">მინიშნება</tspan>
                         </text>
                         <text id="შუალედური_დავალება" data-name="შუალედური
-                  დავალება" transform="translate(70 549)" fill="#c5cbcd" font-size="12"
+                            დავალება" transform="translate(70 549)" fill="#c5cbcd" font-size="12"
                             font-family="ALKSanet, ALK Sanet">
                             <tspan x="-35.344" y="0">შუალედური</tspan>
                             <tspan x="-30.636" y="12">დავალება</tspan>
                         </text>
                         <text id="კომპლექსური_დავალება" data-name="კომპლექსური
-                  დავალება" transform="translate(70 668)" fill="#c5cbcd" font-size="12"
+                            დავალება" transform="translate(70 668)" fill="#c5cbcd" font-size="12"
                             font-family="ALKSanet, ALK Sanet">
                             <tspan x="-42.015" y="0">კომპლექსური</tspan>
                             <tspan x="-30.636" y="12">დავალება</tspan>
@@ -452,106 +470,21 @@
                     </g>
                 </svg>
             </div>
-            <div class="row">
-                <div class="col-8 m-auto">
-                    <div class="newDesign_container_main_title-cont newDesign_container_main_title-cont-margin">
-                        <h1 class="newDesign_container_main_title">ალგორითმი და ალგორითმის შემუშავება</h1>
-                        <img src="../../../img/icons/comp_main_title_border.svg" alt="img"
-                            class="newDesign_container_main_title-img">
-                    </div>
-                </div>
-                <div class="col-8 offset-4 presents-div w-75">
-                    <div class="col-12 presents-row d-flex justify-content-between">
-                        <div class="present parent" data-side="1"><img id="1" class="imge" src="../../../img/gakvetilebi/Computer-Science/algorithmes-02/C-2-28.svg" alt=""></div>
-                        <div class="present parent" data-side="2"><img id="2" class="imge" src="../../../img/gakvetilebi/Computer-Science/algorithmes-02/C-2-28.svg" alt=""></div>
-                        <div class="present parent" data-side="3"><img id="3" class="imge" src="../../../img/gakvetilebi/Computer-Science/algorithmes-02/C-2-28.svg" alt=""></div>
-                        <div class="present parent" data-side="4"><img id="4" class="imge" src="../../../img/gakvetilebi/Computer-Science/algorithmes-02/C-2-28.svg" alt=""></div>
-                        <div class="present parent" data-side="5"><img id="5" class="imge" src="../../../img/gakvetilebi/Computer-Science/algorithmes-02/C-2-28.svg" alt=""></div>
-                        <div class="present parent" data-side="6"><img id="6" class="imge" src="../../../img/gakvetilebi/Computer-Science/algorithmes-02/C-2-28.svg" alt=""></div>
-                        <div class="present parent" data-side="7"><img id="7" class="imge" src="../../../img/gakvetilebi/Computer-Science/algorithmes-02/C-2-28.svg" alt=""></div>
-                        <div class="present parent" data-side="8"><img id="8" class="imge" src="../../../img/gakvetilebi/Computer-Science/algorithmes-02/C-2-28.svg" alt=""></div>
-                        <div class="present parent" data-side="9"><img id="9" class="imge" src="../../../img/gakvetilebi/Computer-Science/algorithmes-02/C-2-28.svg" alt=""></div>
-                        <div class="present parent" data-side="10"><img id="10" class="imge" src="../../../img/gakvetilebi/Computer-Science/algorithmes-02/C-2-28.svg" alt=""></div>
-                    </div>
-                    <div class="col-12 presents-row d-flex justify-content-between pt-4">
-                        <div class="present parent" data-side="11"><img id="11" class="imge" src="../../../img/gakvetilebi/Computer-Science/algorithmes-02/C-2-28.svg" alt=""></div>
-                        <div class="present parent" data-side="12"><img id="12" class="imge" src="../../../img/gakvetilebi/Computer-Science/algorithmes-02/C-2-28.svg" alt=""></div>
-                        <div class="present parent" data-side="13"><img id="13" class="imge" src="../../../img/gakvetilebi/Computer-Science/algorithmes-02/C-2-28.svg" alt=""></div>
-                        <div class="present parent" data-side="14"><img id="14" class="imge" src="../../../img/gakvetilebi/Computer-Science/algorithmes-02/C-2-28.svg" alt=""></div>
-                        <div class="present parent" data-side="15"><img id="15" class="imge" src="../../../img/gakvetilebi/Computer-Science/algorithmes-02/C-2-28.svg" alt=""></div>
-                        <div class="present parent" data-side="16"><img id="16" class="imge" src="../../../img/gakvetilebi/Computer-Science/algorithmes-02/C-2-28.svg" alt=""></div>
-                        <div class="present parent" data-side="17"><img id="17" class="imge" src="../../../img/gakvetilebi/Computer-Science/algorithmes-02/C-2-28.svg" alt=""></div>
-                        <div class="present parent" data-side="18"><img id="18" class="imge" src="../../../img/gakvetilebi/Computer-Science/algorithmes-02/C-2-28.svg" alt=""></div>
-                        <div class="present parent" data-side="19"><img id="19" class="imge" src="../../../img/gakvetilebi/Computer-Science/algorithmes-02/C-2-28.svg" alt=""></div>
-                        <div class="present parent" data-side="20"><img id="20" class="imge" src="../../../img/gakvetilebi/Computer-Science/algorithmes-02/C-2-28.svg" alt=""></div>
-                    </div>
-                    <!-- <div class="col-12 presents-row d-flex justify-content-between pt-4">
-                        <div class="present"><img src="../../../img/gakvetilebi/Computer-Science/algorithmes-02/C-2-28.svg" alt=""></div>
-                        <div class="present"><img src="../../../img/gakvetilebi/Computer-Science/algorithmes-02/C-2-28.svg" alt=""></div>
-                        <div class="present"><img src="../../../img/gakvetilebi/Computer-Science/algorithmes-02/C-2-28.svg" alt=""></div>
-                        <div class="present"><img src="../../../img/gakvetilebi/Computer-Science/algorithmes-02/C-2-28.svg" alt=""></div>
-                        <div class="present"><img src="../../../img/gakvetilebi/Computer-Science/algorithmes-02/C-2-28.svg" alt=""></div>
-                        <div class="present"><img src="../../../img/gakvetilebi/Computer-Science/algorithmes-02/C-2-28.svg" alt=""></div>
-                        <div class="present"><img src="../../../img/gakvetilebi/Computer-Science/algorithmes-02/C-2-28.svg" alt=""></div>
-                        <div class="present"><img src="../../../img/gakvetilebi/Computer-Science/algorithmes-02/C-2-28.svg" alt=""></div>
-                        <div class="present"><img src="../../../img/gakvetilebi/Computer-Science/algorithmes-02/C-2-28.svg" alt=""></div>
-                        <div class="present"><img src="../../../img/gakvetilebi/Computer-Science/algorithmes-02/C-2-28.svg" alt=""></div>
-                    </div>
-                    <div class="col-12 presents-row d-flex justify-content-between pt-4">
-                        <div class="present"><img src="../../../img/gakvetilebi/Computer-Science/algorithmes-02/C-2-28.svg" alt=""></div>
-                        <div class="present"><img src="../../../img/gakvetilebi/Computer-Science/algorithmes-02/C-2-28.svg" alt=""></div>
-                        <div class="present"><img src="../../../img/gakvetilebi/Computer-Science/algorithmes-02/C-2-28.svg" alt=""></div>
-                        <div class="present"><img src="../../../img/gakvetilebi/Computer-Science/algorithmes-02/C-2-28.svg" alt=""></div>
-                        <div class="present"><img src="../../../img/gakvetilebi/Computer-Science/algorithmes-02/C-2-28.svg" alt=""></div>
-                        <div class="present"><img src="../../../img/gakvetilebi/Computer-Science/algorithmes-02/C-2-28.svg" alt=""></div>
-                        <div class="present"><img src="../../../img/gakvetilebi/Computer-Science/algorithmes-02/C-2-28.svg" alt=""></div>
-                        <div class="present"><img src="../../../img/gakvetilebi/Computer-Science/algorithmes-02/C-2-28.svg" alt=""></div>
-                        <div class="present"><img src="../../../img/gakvetilebi/Computer-Science/algorithmes-02/C-2-28.svg" alt=""></div>
-                        <div class="present"><img src="../../../img/gakvetilebi/Computer-Science/algorithmes-02/C-2-28.svg" alt=""></div>
-                    </div>
-                    <div class="col-12 presents-row d-flex justify-content-between pt-4">
-                        <div class="present"><img src="../../../img/gakvetilebi/Computer-Science/algorithmes-02/C-2-28.svg" alt=""></div>
-                        <div class="present"><img src="../../../img/gakvetilebi/Computer-Science/algorithmes-02/C-2-28.svg" alt=""></div>
-                        <div class="present"><img src="../../../img/gakvetilebi/Computer-Science/algorithmes-02/C-2-28.svg" alt=""></div>
-                        <div class="present"><img src="../../../img/gakvetilebi/Computer-Science/algorithmes-02/C-2-28.svg" alt=""></div>
-                        <div class="present"><img src="../../../img/gakvetilebi/Computer-Science/algorithmes-02/C-2-28.svg" alt=""></div>
-                        <div class="present"><img src="../../../img/gakvetilebi/Computer-Science/algorithmes-02/C-2-28.svg" alt=""></div>
-                        <div class="present"><img src="../../../img/gakvetilebi/Computer-Science/algorithmes-02/C-2-28.svg" alt=""></div>
-                        <div class="present"><img src="../../../img/gakvetilebi/Computer-Science/algorithmes-02/C-2-28.svg" alt=""></div>
-                        <div class="present"><img src="../../../img/gakvetilebi/Computer-Science/algorithmes-02/C-2-28.svg" alt=""></div>
-                        <div class="present"><img src="../../../img/gakvetilebi/Computer-Science/algorithmes-02/C-2-28.svg" alt=""></div>
-                    </div> -->
-                </div>
-                <div style="right: 16.5vw" class="flex flex-end column align-items-end z-index reload_game_wrapper">
-                    <button id="resetBtn" class="reset__btn">თავიდან სცადე</button>
-                    <button id="completedGame" class="completed__btn">დასრულება</button>
-                  </div>
-                <div class="VR_right-bottom-bg-12 c-02-28-pine">
-                    <div class="myDrag" data-place="1" id="21" 
-                    style="float:left;background-color: #CCC;height: 50px;width: 50px;"></div>
-                    <div class="myDrag" data-place="2" id="22" 
-                    style="float:left;background-color: #eee;height: 50px;width: 50px;margin-left: 13vh;"></div>
-                    <img class="imgSrc" src="../../../img/gakvetilebi/Computer-Science/algorithmes-02/C-2-28-1.svg" alt="art">
-                </div>
-                <div class="d-flex align-items-center justify-content-center c-02-28-game-div">
-                    <span id="count1">0</span>
-                    <span>/20</span>
-                </div>
-                <div class="our__pagination flex">
-                    <a href="#" class="pagination__prev__btn">
-                        <img style="transform: rotate(180deg)" src="../../../img/icons/chevron-left-icon.svg" alt="">
-                    </a>
 
-                    <div id="pagination" class="flex align-items-center"></div>
+            <div class="our__pagination flex">
+                <a href="#" class="pagination__prev__btn">
+                    <img style="transform: rotate(180deg)" src="../../../img/icons/chevron-left-icon.svg" alt="">
+                </a>
 
-                    <a href="#" class="pagination__next__btn">
-                        <img src="../../../img/icons/chevron-left-icon.svg" alt="">
-                    </a>
-                </div>
+                <div id="pagination" class="flex align-items-center"></div>
+
+                <a href="#" class="pagination__next__btn">
+                    <img src="../../../img/icons/chevron-left-icon.svg" alt="">
+                </a>
             </div>
+
         </section>
     </div>
-
 
 
     <!-- ჩეთბოტი -->
@@ -559,17 +492,17 @@
         <app-bot></app-bot>
     </div>
 
-
     <script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
     <script src="../../../js/libraries/jquery.magnific-popup.min.js"></script>
     <script src="../../../js/Pagination.js"></script>
-    <script src="./js/28.js"></script>
 
 
     <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
     <script src="../../../New-header-vue/app.js"></script>
     <script src="../../../Vue-chatBot/botApp.js"></script>
     <script src="../../../js/bot.js"></script>
+
+
 </body>
 
 </html>

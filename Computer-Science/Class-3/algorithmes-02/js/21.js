@@ -13,6 +13,36 @@ function computerGames() {
     var count1 = document.getElementById('count1');
     resetBtn.setAttribute('disabled', 'true');
 
+    this.randomize = () => {
+
+        var uniqueArray = [];
+        for (let i = 0; i < 100; i++) {
+            let random1 = Math.floor(Math.random() * 10) + 1;
+            let s = uniqueArray.filter(u => u == random1).length;
+            if (s == 0) {
+                uniqueArray.push(random1);
+            }
+            console.log('uniqueArray', uniqueArray)
+            if (uniqueArray.length == 3) {
+                break;
+            }
+            
+        }
+
+
+        imge.forEach(w => {
+            uniqueArray.forEach(element => {
+                if (element == w.getAttribute('id')) {
+                    w.classList.add('keys1')
+                }
+            });
+        });
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+        this.randomize();
+    })
+
 
     this.clickMe = (e) => {
 
@@ -28,7 +58,7 @@ function computerGames() {
             if (element.classList.contains('correct')) {
                 count1.textContent = count;
                 count++;
-                if (!(element.classList.contains('keys1')) && !(element.classList.contains('keys2')) && !(element.classList.contains('keys3'))) {
+                if (!(element.classList.contains('keys1'))) {
                     element.classList.remove('correct')
                     element.classList.add('error')
                 }
@@ -38,19 +68,19 @@ function computerGames() {
                     x1.style.display = 'block';
                     element.classList.remove('keys1')
                 }
-                if (element.classList.contains('keys2')) {
+                if(d == 1){
+                    x1.style.display = 'block';
+                }
+                if(d == 2){
                     x2.style.display = 'block';
-                    d++;
-                    element.classList.remove('keys2')
                 }
-                if (element.classList.contains('keys3')) {
+                if(d == 3){
                     x3.style.display = 'block';
-                    d++;
-                    element.classList.remove('keys3')
                 }
+
             }
         });
-        if(d == 3){
+        if (d == 3) {
             console.log('yes');
             this.successPage();
         }
@@ -67,16 +97,11 @@ function computerGames() {
 
     this.init = (e) => {
         imge.forEach(element => {
-            if (element.classList.contains('keys11') && !element.classList.contains('keys1')) {
-                element.classList.add('keys1')
-            }
-            if (element.classList.contains('keys22') && !element.classList.contains('keys2')) {
-                element.classList.add('keys2')
-            }
-            if (element.classList.contains('keys33') && !element.classList.contains('keys3')) {
-                element.classList.add('keys3')
-            }
+            $(element).removeClass( "keys1" )
+            console.log('element', element)
+            resetBtn.setAttribute('disabled', 'true');
         });
+        this.randomize();
         x1.style.display = 'none';
         x2.style.display = 'none';
         x3.style.display = 'none';
