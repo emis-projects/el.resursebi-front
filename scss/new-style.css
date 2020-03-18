@@ -27488,6 +27488,26 @@ td img {
   height: 100%;
 }
 
+.cs-2-6-9-div-img {
+  margin-right: 7.08vw;
+  height: 18.48vh;
+}
+
+.cs-2-6-9-div-img img {
+  height: 100%;
+}
+
+.cs-2-6-9-div-img-4 {
+  margin-right: 10.46vw;
+}
+
+.cs-2-6-9-div-container {
+  margin-bottom: 6.51vh;
+}
+
+.cs-2-6-9-img {
+  margin-left: 1.46vw;
+}
 .cs-2-6-15-ill-img {
   height: 63.15vh;
   margin-top: 5vh;
@@ -27584,6 +27604,71 @@ td img {
 
 .UI-tbn-wrapper .sign-description-btn {
   max-width: 156px;
+}
+
+.Class_2-user_interface_17 {
+  height: 40.75vh;
+  max-height: 313px;
+}
+
+.Class_2-user_interface_17 img {
+  height: 100%;
+}
+
+.Class_2-user_interface_18 {
+  height: 14.58vh;
+  max-height: 112px;
+}
+
+.Class_2-user_interface_18 img {
+  height: 100%;
+}
+
+.Class_2-title_item_19 {
+  font-style: italic;
+  color: #62548A;
+  font-family: 'DejaVu Sans Oblique';
+  font-size: 3.64vh;
+}
+
+.Class_2-user_interface_19 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-2/user-interface-6/C-2-6-19.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.Class_2-user_interface_20 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-2/user-interface-6/C-2-6-20.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.Class_2-user_interface_21 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-2/user-interface-6/C-2-6-21.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.Class_2-user_interface_22 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-2/user-interface-6/C-2-6-22.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.Class_2-user_interface_23 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-2/user-interface-6/C-2-6-23.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
 .UI-wrapper-box {
@@ -29488,3 +29573,4 @@ body {
     font-size: 14px;
   }
 }
+/*# sourceMappingURL=new-style.css.map */
