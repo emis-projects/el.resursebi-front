@@ -2,6 +2,7 @@ function game(){
     this.error = true;
     this.hrefElement = null;
 
+    
     // variables
     let dragElement1 = document.querySelectorAll('.DragGame—childs1');
     let dragElement2 = document.querySelectorAll('.DragGame—childs2');
