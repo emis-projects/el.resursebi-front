@@ -27641,6 +27641,46 @@ td img {
   max-width: 156px;
 }
 
+.cs-2-6-7-div-img {
+  height: 63.8vh;
+  position: absolute;
+  bottom: -8vh;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+}
+
+.cs-2-6-7-div-img img {
+  height: 100%;
+}
+
+.cs-2-6-8-div-img {
+  height: 46.35vh;
+}
+
+.cs-2-6-8-div-img img {
+  height: 100%;
+}
+
+.cs-2-6-11-div-img {
+  height: 52.99vh;
+}
+
+.cs-2-6-11-div-img img {
+  height: 100%;
+}
+
+.cs-2-6-12-div-img {
+  height: 56.9vh;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.cs-2-6-12-div-img img {
+  height: 100%;
+}
+
 .Class_2-user_interface_17 {
   height: 40.75vh;
   max-height: 313px;
