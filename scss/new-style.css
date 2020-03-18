@@ -18716,6 +18716,63 @@ td {
 .UI-wrapper-btn .cs-2-3-6-sign-description-btn-title {
   height: 7.3vh; }
 
+.correct_img-box-1 {
+  height: 58vh;
+  max-height: 449px; }
+  .correct_img-box-1 img {
+    height: 100%; }
+.correct_img-box-3 {
+  height: 58vh;
+  max-height: 449px;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%); }
+  .correct_img-box-3 img {
+    height: 100%; }
+.correct_img-box-4 {
+  height: 41vh;
+  max-height: 315px;
+  position: fixed;
+  bottom: 0;
+  right: 15%;
+  transform: translateX(-15%); }
+  .correct_img-box-4 img {
+    height: 100%; }
+
+.correct_text-5 .text-rose {
+  color: #DC6C85; }
+.correct_text-5 .text-yellow {
+  color: #F7CF43; }
+.correct_text-5 .text-blue {
+  color: #658AD0; }
+.correct_text-5 .text-green {
+  color: #82D1A1; }
+
+.correct_img-box-5 {
+  height: 36vh;
+  max-height: 277px; }
+  .correct_img-box-5 img {
+    height: 100%; }
+
+.correct_img-box-6 {
+  height: 47vh;
+  max-height: 365px; }
+  .correct_img-box-6 img {
+    height: 100%; }
+
+.correct_img-box-7 {
+  height: 37.5vh;
+  max-height: 288px; }
+  .correct_img-box-7 img {
+    height: 100%; }
+
+.correct_img-box-8 {
+  height: 53vh;
+  max-height: 408px; }
+  .correct_img-box-8 img {
+    height: 100%; }
+
 body {
   color: #262626;
   font-size: 14px;
