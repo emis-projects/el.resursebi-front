@@ -12414,6 +12414,11 @@ td {
   width: 100%; }
 
 .red {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=style.css.map */
   display: flex; }
 
 /*# sourceMappingURL=style.css.map */
