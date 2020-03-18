@@ -51,6 +51,9 @@ function computerGames(){
     this.dragDrop = (e) =>{
         var drag = document.querySelector('.draggedElement')
         if(e.target.classList.contains('myDrag')){
+            if(window.location.href.includes("15.html")){
+                drag.style += "height: 100%; height: 100%; top: initial; left: initial; right: initial; bottom: initial; width: 100%;"
+            }
             e.target.appendChild(drag);
         }
     }
@@ -68,6 +71,9 @@ function computerGames(){
             }
             if (window.location.href.includes("14.html")) {
                 location.href = 'game-success-14.html';
+            }
+            if (window.location.href.includes("15.html")) {
+                location.href = 'game-success-15.html';
             }
         }
         else{
@@ -96,6 +102,7 @@ function computerGames(){
         myArray.forEach(element => {
             $(element).removeClass("error");
             $(element).removeClass("success");
+            element.style = '';
         });
         myArray.forEach(element => {
           if(element.getAttribute("data-end") == "1"){
