@@ -751,8 +751,8 @@ let title = {
         },
         {
             id: 6,
-            name: 'სათაური',
-            link: '#'
+            name: 'ვიზუალური კომუნიკაციის ენა',
+            link: './Computer-Science/Class-3/'
         },
         {
             id: 7,
