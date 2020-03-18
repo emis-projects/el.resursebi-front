@@ -27508,6 +27508,41 @@ td img {
 .cs-2-6-9-img {
   margin-left: 1.46vw;
 }
+
+.cs-2-6-10-img-1-div {
+  height: 35.41vh;
+}
+
+.cs-2-6-10-img-1-div img {
+  height: 100%;
+}
+
+.cs-2-6-10-btn-div {
+  height: 8.51vh;
+  margin-top: 0.5vh;
+}
+
+.cs-2-6-10-btn-div img {
+  height: 100%;
+}
+
+.cs-2-6-10-btn-container {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 1.46vw;
+}
+
+.cs-2-6-10-2-div-img {
+  height: 37.1vh;
+  margin-left: 9vw;
+}
+
+.cs-2-6-10-2-div-img img {
+  height: 100%;
+}
+
 .cs-2-6-15-ill-img {
   height: 63.15vh;
   margin-top: 5vh;
