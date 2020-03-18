@@ -27342,6 +27342,27 @@ td img {
   height: 100%;
 }
 
+.cs-2-6-9-div-img {
+  margin-right: 7.08vw;
+  height: 18.48vh;
+}
+
+.cs-2-6-9-div-img img {
+  height: 100%;
+}
+
+.cs-2-6-9-div-img-4 {
+  margin-right: 10.46vw;
+}
+
+.cs-2-6-9-div-container {
+  margin-bottom: 6.51vh;
+}
+
+.cs-2-6-9-img {
+  margin-left: 1.46vw;
+}
+
 body {
   color: #262626;
   font-size: 14px;
