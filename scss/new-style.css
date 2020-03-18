@@ -27424,79 +27424,175 @@ td img {
 
 .cs-3-6-1-visual-img {
   height: 45.57vh;
-  margin: 10vh auto; }
+  margin: 10vh auto;
+}
 
 .cs-3-6-3-communication-img {
   height: 42.05vh;
-  margin: 5vh auto 0; }
+  margin: 5vh auto 0;
+}
 
 .cs-3-6-3-1-img {
   height: 53.5vh;
-  margin: auto; }
+  margin: auto;
+}
 
 .cs-3-6-4-ill-img {
   height: 44.14vh;
-  margin: 1vh auto 0; }
+  margin: 1vh auto 0;
+}
 
 .cs-3-6-5-img {
   height: 60.2vh;
   margin-left: 1vh;
-  margin-top: 19vh; }
+  margin-top: 19vh;
+}
 
 .cs-3-6-6-img {
   height: 35.33vh;
-  margin: 5vh auto 0; }
+  margin: 5vh auto 0;
+}
 
 .visual-21_box-img {
   height: 53vh;
-  max-height: 410px; }
-  .visual-21_box-img img {
-    height: 100%; }
+  max-height: 410px;
+}
+
+.visual-21_box-img img {
+  height: 100%;
+}
 
 .visual-22_box-img {
   height: 50vh;
   max-height: 385px;
   position: fixed;
   right: 0;
-  bottom: -6vh; }
-  .visual-22_box-img img {
-    height: 100%; }
+  bottom: -6vh;
+}
+
+.visual-22_box-img img {
+  height: 100%;
+}
 
 .UI_img-box-3 {
   height: 56vh;
-  max-height: 444px; }
-  .UI_img-box-3 img {
-    height: 100%; }
+  max-height: 444px;
+}
+
+.UI_img-box-3 img {
+  height: 100%;
+}
+
 .UI_img-box-3 {
   height: 56vh;
-  max-height: 444px; }
-  .UI_img-box-3 img {
-    height: 100%; }
+  max-height: 444px;
+}
+
+.UI_img-box-3 img {
+  height: 100%;
+}
+
 .UI_img-box-4 {
   height: 56vh;
-  max-height: 444px; }
-  .UI_img-box-4 img {
-    height: 100%; }
+  max-height: 444px;
+}
+
+.UI_img-box-4 img {
+  height: 100%;
+}
+
 .UI_img-box-5 {
   height: 64vh;
   max-height: 490px;
   position: absolute;
   top: 0;
-  right: 0; }
-  .UI_img-box-5 img {
-    height: 100%; }
+  right: 0;
+}
+
+.UI_img-box-5 img {
+  height: 100%;
+}
 
 .UI_img-box_6 {
   height: 13.7vh;
   max-height: 105px;
   width: 7.6vw;
-  max-width: 102px; }
-  .UI_img-box_6 img {
-    width: 100%;
-    height: auto; }
+  max-width: 102px;
+}
+
+.UI_img-box_6 img {
+  width: 100%;
+  height: auto;
+}
 
 .UI-tbn-wrapper .sign-description-btn {
-  max-width: 156px; }
+  max-width: 156px;
+}
+
+.Class_2-user_interface_17 {
+  height: 40.75vh;
+  max-height: 313px;
+}
+
+.Class_2-user_interface_17 img {
+  height: 100%;
+}
+
+.Class_2-user_interface_18 {
+  height: 14.58vh;
+  max-height: 112px;
+}
+
+.Class_2-user_interface_18 img {
+  height: 100%;
+}
+
+.Class_2-title_item_19 {
+  font-style: italic;
+  color: #62548A;
+  font-family: 'DejaVu Sans Oblique';
+  font-size: 3.64vh;
+}
+
+.Class_2-user_interface_19 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-2/user-interface-6/C-2-6-19.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.Class_2-user_interface_20 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-2/user-interface-6/C-2-6-20.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.Class_2-user_interface_21 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-2/user-interface-6/C-2-6-21.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.Class_2-user_interface_22 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-2/user-interface-6/C-2-6-22.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.Class_2-user_interface_23 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-2/user-interface-6/C-2-6-23.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
 
 body {
   color: #262626;
@@ -28533,52 +28629,68 @@ body {
 }
 
 .mt-21vh {
-  margin-top: 21vh; }
+  margin-top: 21vh;
+}
 
 .pt-21vh {
-  padding-top: 21vh; }
+  padding-top: 21vh;
+}
 
 .mb-21vh {
-  margin-bottom: 21vh; }
+  margin-bottom: 21vh;
+}
 
 .pb-21vh {
-  padding-bottom: 21vh; }
+  padding-bottom: 21vh;
+}
 
 .ml-21vh {
-  margin-left: 21vh; }
+  margin-left: 21vh;
+}
 
 .pl-21vh {
-  padding-left: 21vh; }
+  padding-left: 21vh;
+}
 
 .mr-21vh {
-  margin-right: 21vh; }
+  margin-right: 21vh;
+}
 
 .pr-21vh {
-  padding-right: 21vh; }
+  padding-right: 21vh;
+}
 
 .mt-22vh {
-  margin-top: 22vh; }
+  margin-top: 22vh;
+}
 
 .pt-22vh {
-  padding-top: 22vh; }
+  padding-top: 22vh;
+}
 
 .mb-22vh {
-  margin-bottom: 22vh; }
+  margin-bottom: 22vh;
+}
 
 .pb-22vh {
-  padding-bottom: 22vh; }
+  padding-bottom: 22vh;
+}
 
 .ml-22vh {
-  margin-left: 22vh; }
+  margin-left: 22vh;
+}
 
 .pl-22vh {
-  padding-left: 22vh; }
+  padding-left: 22vh;
+}
 
 .mr-22vh {
-  margin-right: 22vh; }
+  margin-right: 22vh;
+}
 
 .pr-22vh {
-  padding-right: 22vh; }
+  padding-right: 22vh;
+}
 
 .mt-0_5vh {
   margin-top: 0.5vh;
@@ -29253,52 +29365,68 @@ body {
 }
 
 .mt-21_5vh {
-  margin-top: 21.5vh; }
+  margin-top: 21.5vh;
+}
 
 .pt-21_5vh {
-  padding-top: 21.5vh; }
+  padding-top: 21.5vh;
+}
 
 .mb-21_5vh {
-  margin-bottom: 21.5vh; }
+  margin-bottom: 21.5vh;
+}
 
 .pb-21_5vh {
-  padding-bottom: 21.5vh; }
+  padding-bottom: 21.5vh;
+}
 
 .ml-21_5vh {
-  margin-left: 21.5vh; }
+  margin-left: 21.5vh;
+}
 
 .pl-21_5vh {
-  padding-left: 21.5vh; }
+  padding-left: 21.5vh;
+}
 
 .mr-21_5vh {
-  margin-right: 21.5vh; }
+  margin-right: 21.5vh;
+}
 
 .pr-21_5vh {
-  padding-right: 21.5vh; }
+  padding-right: 21.5vh;
+}
 
 .mt-22_5vh {
-  margin-top: 22.5vh; }
+  margin-top: 22.5vh;
+}
 
 .pt-22_5vh {
-  padding-top: 22.5vh; }
+  padding-top: 22.5vh;
+}
 
 .mb-22_5vh {
-  margin-bottom: 22.5vh; }
+  margin-bottom: 22.5vh;
+}
 
 .pb-22_5vh {
-  padding-bottom: 22.5vh; }
+  padding-bottom: 22.5vh;
+}
 
 .ml-22_5vh {
-  margin-left: 22.5vh; }
+  margin-left: 22.5vh;
+}
 
 .pl-22_5vh {
-  padding-left: 22.5vh; }
+  padding-left: 22.5vh;
+}
 
 .mr-22_5vh {
-  margin-right: 22.5vh; }
+  margin-right: 22.5vh;
+}
 
 .pr-22_5vh {
-  padding-right: 22.5vh; }
+  padding-right: 22.5vh;
+}
 
 .dj-3vh {
   font-family: 'DejaVuSans';
