@@ -25163,6 +25163,7 @@ td img {
 .comp {
   height: 20.5vh;
   max-height: 158px;
+  margin-bottom: 3vh;
 }
 
 .comp img {
@@ -25172,6 +25173,7 @@ td img {
 .procesor {
   height: 22.6vh;
   max-height: 174px;
+  margin-bottom: 3vh;
 }
 
 .procesor img {
@@ -29810,4 +29812,3 @@ body {
     font-size: 14px;
   }
 }
-/*# sourceMappingURL=new-style.css.map */
