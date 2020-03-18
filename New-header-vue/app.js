@@ -753,6 +753,7 @@ let title = {
             id: 6,
             name: 'ვიზუალური კომუნიკაციის ენა',
             link: './Computer-Science/Class-3/Visual-Communication-6/1.html'
+        },
         {
             id: 7,
             name: 'სათაური',
