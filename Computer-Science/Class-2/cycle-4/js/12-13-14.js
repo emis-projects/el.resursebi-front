@@ -1,5 +1,5 @@
 function computerGames(){
-    var draggedImgElement = document.querySelectorAll('.imge');
+    var DragGameChilds1 = document.querySelectorAll('.DragGame--childs1');
     var mydrag = document.querySelectorAll('.myDrag');
 
     var parent1 = document.querySelector('.parent1');
@@ -9,8 +9,8 @@ function computerGames(){
     var completedBtn = document.getElementById('completedGame');
     var resetBtn = document.getElementById('resetBtn');
 
-    $(draggedImgElement).on('dragstart', (e) => this.dragStart(e));
-    $(draggedImgElement).on('dragend', (e) => this.dragEnd(e));
+    $(DragGameChilds1).on('dragstart', (e) => this.dragStart(e));
+    $(DragGameChilds1).on('dragend', (e) => this.dragEnd(e));
 
 
     for(const drag of mydrag){
@@ -22,7 +22,7 @@ function computerGames(){
         mydrag.forEach(w => {
             w.setAttribute('data-class', w.getAttribute('class'))
         })
-        draggedImgElement.forEach(w => {
+        DragGameChilds1.forEach(w => {
             w.setAttribute('data-class', w.getAttribute('class'))
         });
     })
@@ -44,7 +44,7 @@ function computerGames(){
     }
 
     var myArray = [];
-    draggedImgElement.forEach(element => {
+    DragGameChilds1.forEach(element => {
         myArray.push(element);
     });
 
@@ -65,6 +65,9 @@ function computerGames(){
             }
             if (window.location.href.includes("13.html")) {
                 location.href = 'game-success-13.html';
+            }
+            if (window.location.href.includes("14.html")) {
+                location.href = 'game-success-14.html';
             }
         }
         else{
