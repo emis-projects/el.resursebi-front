@@ -8,11 +8,10 @@ function game(){
 
 
 
-    let dragElement = document.querySelectorAll('.direction--img');
+    let dragElement = document.querySelectorAll('.direction-img');
 
     $(dragElement).on('dragstart', (e) => this.dragStart(e));
     $(dragElement).on('dragend', (e) => this.dragEnd(e));
-
 
 
     // Loop through empty boxes and add listeners
@@ -29,15 +28,8 @@ function game(){
 
 
     document.addEventListener('DOMContentLoaded', () => {
-        dragElement2MyArray.forEach(w => {
+        dragElementArray.forEach(w => {
             w.setAttribute('data-class', w.getAttribute('class'))
-
-            if(w.querySelector('a')){
-                w.setAttribute('data-href', w.querySelector('a').getAttribute('href'))
-
-            } else {
-                w.parentElement.setAttribute('data-title', w.innerText)
-            }
         })
     })
 
@@ -62,6 +54,16 @@ function game(){
         e.target.className = elClassName;
     }
     
+
+
+    this.dragDrop = e => {
+        debugger
+        console.log(e);
+        // if(e.target.className = "kirkita-way-item"){
+        //     e.target.appendChild(document.querySelector('.draggedElement'));
+        // }
+    }
+
 
      
     this.completedGame = () => {
