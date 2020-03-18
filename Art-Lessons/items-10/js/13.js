@@ -18,10 +18,10 @@ function natureGames() {
     $('#completedGame').click(() => {
         let success = true;
 
-        console.log(DragItem[1]);
-        console.log(DropArea[2]);
+        console.log(DragItem[2]);
+        console.log(DropArea[0]);
 
-        if (DragItem[0].parentNode != DropArea[0]) {
+        if (DragItem[0].parentNode != DropArea[1]) {
             $(DragItem[0]).css('outline', '2px solid red', 'outline-offset, -1px');
             success = false;
         }
@@ -29,7 +29,7 @@ function natureGames() {
             $(DragItem[1]).css('outline', '2px solid red', 'outline-offset, -1px');
             success = false;
         }
-        if (DragItem[2].parentNode != DropArea[1]) {
+        if (DragItem[2].parentNode != DropArea[0]) {
             $(DragItem[2]).css('outline', '2px solid red', 'outline-offset, -1px');
             success = false;
         }
