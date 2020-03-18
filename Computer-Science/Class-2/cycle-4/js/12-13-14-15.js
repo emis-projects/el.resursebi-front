@@ -85,10 +85,10 @@ function computerGames(){
     this.errorPage = () => {
         myArray.forEach(element => {
             if (element.getAttribute('data-place') == element.parentElement.getAttribute('data-place')) {
-                $(element).addClass("success");
+                element.parentElement.style = "background: #a1dd6f"
             }
-            else {
-                $(element).addClass("error");
+            else if(element.parentElement.getAttribute('data-place') != null){
+                element.parentElement.style = "background:#dc6c85   "
             }
         });
     }
@@ -100,8 +100,7 @@ function computerGames(){
 
     this.init = () => {
         myArray.forEach(element => {
-            $(element).removeClass("error");
-            $(element).removeClass("success");
+            element.parentElement.style = '';
             element.style = '';
         });
         myArray.forEach(element => {

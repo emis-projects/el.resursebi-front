@@ -29,6 +29,7 @@ function computerGames() {
 
     this.dragStart = (e) => {
         myArray.forEach(element => {
+            element.style.border = '';
             $(element).removeClass("error");
             $(element).removeClass("success");
         });
@@ -74,9 +75,11 @@ function computerGames() {
         myArray.forEach(element => {
             if (element.getAttribute('data-place') == element.parentElement.getAttribute('data-place')) {
                 $(element).addClass("success");
+                element.style.border = "2px solid #a1dd6f"
             }
             else {
                 $(element).addClass("error");
+                element.style.border = "2px solid #dc6c85"
             }
         });
     }
@@ -88,6 +91,7 @@ function computerGames() {
     this.init = () => {
         myArray.forEach(element => {
             $(element).removeClass("error");
+            element.style.border = '';
             $(element).removeClass("success");
         });
         DragGameParent.forEach(element => {
