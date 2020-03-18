@@ -689,8 +689,8 @@ let title = {
         },
         {
             id: 6,
-            name: 'კომპიუტერი 2 კლასი 6 გაკვ',
-            link: 'Computer-Science/Class-2/...'
+            name: 'მომხმარებლის გრაფიკული ინტერფეისი',
+            link: 'Computer-Science/Class-2/user-interface-6/1.html'
         },
         {
             id: 7,

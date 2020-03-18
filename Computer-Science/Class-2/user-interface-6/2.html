@@ -7,11 +7,10 @@
     <!-- ყველა გვერდზე -->
     <script src="../../../js/vue.js"></script>
     <!--  ვუე გაშვებისას
-      <script src="./js/vue.min.js"></script>
-       -->
-    <link href="../../../New-header-vue/animate.min.css" rel="stylesheet">
+    <script src="./js/vue.min.js"></script>
+     -->
     <link href="../../../scss/libraries/bootstrap.min.css" rel="stylesheet">
-    <link href="../../../scss/libraries/magnific-popup.css" rel="stylesheet">
+    <link href="../../../New-header-vue/animate.min.css" rel="stylesheet">
     <link href="../../../scss/new-style.css" rel="stylesheet"/>
     <title>ელექტრონული საგანმანათლებლო რესურსი</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -23,6 +22,7 @@
             dataLayer.push(arguments);
         }
 
+        2
         gtag('js', new Date());
 
         gtag('config', 'UA-155006442-1');
@@ -31,10 +31,6 @@
 
 <body>
 <div class="container">
-      <!-- სექცია id="app" არის Vue ნაწილი რომელიც ჰედერის ფუნქც. უზრუნველყოფს
-            app-menu & app-section თეგებს v-logo & v-image არგუმენტად უნდა გადაეცეს
-            ტექსტი დონეების მითითებით მაგ: ""'../../'" 
-      -->
     <section class="container position-absolute" id="app">
         <header>
             <app-menu :is-active="isActive" :toggle="toggle" v-logo="'../../../'"></app-menu>
@@ -50,26 +46,39 @@
             </component>
         </app-section>
     </section>
-
-
     <section id="mainPage">
         <div class="row">
-            <div class="col-8 m-auto">
-                <div class="newDesign_subject_question_item mt-2vh mb-6vh">
+            <div class="col-8 m-auto flex_direction_left">
+                <div class="newDesign_container_main_title-cont newDesign_container_main_title-cont-margin">
+                    <h1 class="newDesign_container_main_title">მომხმარებლის გრაფიკული ინტერფეისი</h1>
+                    <img alt="img" class="newDesign_container_main_title-img"
+                         src="../../../img/icons/comp_main_title_border.svg">
+                </div>
+                <div class="newDesign_subject_question_item mt-5vh">
                     <img alt="img" class="newDesign_subject_question_item-img"
                          src="../../../img/icons/newDesign_btn-yellow.svg">
-                    <p class="newDesign_subject_question_item-title big-font-size-20px-dejavu" >შენ უკვე წარმატებით გაიარე ნაბიჯები, გაიგე ბევრი ახალი რამ, ახლა დროა, დაიწყო მთავარი დავალების შესრულება.</p>
+                    <p class="newDesign_subject_question_item-title">შენ უნდა შეასრულო დავალება, შექმნა ინტერფეისის შენეული ვარიანტი.</p>
+                </div>
+                <div class="newDesign_subject_question_item mt-5vh">
+                    <img alt="img" class="newDesign_subject_question_item-img"
+                         src="../../../img/icons/newDesign_btn-yellow.svg">
+                    <p class="newDesign_subject_question_item-title">მანამდე უნდა გაიარო ორი ნაბიჯი, რომ გაიგო მეტი და მთავარი დავალების შესრულება ადვილად შეძლო.</p>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-12">
-                <div class="visual-21_box-img d-flex justify-content-center mt-20vh">
-                    <img alt="marks art" src="../../../img/gakvetilebi/Computer-Science/Class-3/Visual-Communication-6/C-3-6-21.svg">
+        <div class="row mt-22_5vh">
+            <div class="col-3 m-auto">
+                <div class="newDesign_steps_cont mt-5vh">
+                    <a class="newDesign_steps_item" href="3.html">
+                        <img alt="img" class="newDesign_steps_item-img" src="../../../img/icons/step_item.svg">
+                    </a>
+                    <a class="newDesign_steps_item" href="12.html">
+                        <img alt="img" class="newDesign_steps_item-img" src="../../../img/icons/step_item.svg">
+                    </a>
                 </div>
             </div>
         </div>
-      <!-- ეს არის svg თეგირომელიც ქმნის მარცხენა ვერტიკალურ "ნავ რუკას" -->
+
         <div class="left_components_paging-cont">
             <svg class="left_components_paging" height="722"
                  viewBox="0 0 134 722" width="134" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -458,13 +467,13 @@
                         <tspan x="0" y="0">მინიშნება</tspan>
                     </text>
                     <text data-name="შუალედური
-                  დავალება" fill="#c5cbcd" font-family="ALKSanet, ALK Sanet" font-size="12" id="შუალედური_დავალება"
+                            დავალება" fill="#c5cbcd" font-family="ALKSanet, ALK Sanet" font-size="12" id="შუალედური_დავალება"
                           transform="translate(70 549)">
                         <tspan x="-35.344" y="0">შუალედური</tspan>
                         <tspan x="-30.636" y="12">დავალება</tspan>
                     </text>
                     <text data-name="კომპლექსური
-                  დავალება" fill="#c5cbcd" font-family="ALKSanet, ALK Sanet" font-size="12" id="კომპლექსური_დავალება"
+                            დავალება" fill="#c5cbcd" font-family="ALKSanet, ALK Sanet" font-size="12" id="კომპლექსური_დავალება"
                           transform="translate(70 668)">
                         <tspan x="-42.015" y="0">კომპლექსური</tspan>
                         <tspan x="-30.636" y="12">დავალება</tspan>
@@ -472,7 +481,7 @@
                 </g>
             </svg>
         </div>
-        <!-- გვერდების გადანომრვა - ნავიგაცია -->
+
         <div class="our__pagination flex">
             <a class="pagination__prev__btn" href="#">
                 <img alt="" src="../../../img/icons/chevron-left-icon.svg" style="transform: rotate(180deg)">
@@ -484,6 +493,7 @@
                 <img alt="" src="../../../img/icons/chevron-left-icon.svg">
             </a>
         </div>
+
     </section>
 </div>
 
@@ -492,7 +502,6 @@
 <div id="chatBot">
     <app-bot></app-bot>
 </div>
-
 
 <script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
 <script src="../../../js/libraries/jquery.magnific-popup.min.js"></script>
@@ -503,6 +512,8 @@
 <script src="../../../New-header-vue/app.js"></script>
 <script src="../../../Vue-chatBot/botApp.js"></script>
 <script src="../../../js/bot.js"></script>
+
+
 </body>
 
 </html>
