@@ -18427,6 +18427,21 @@ td {
   background-repeat: no-repeat;
   height: 100vh; }
 
+.visual-21_box-img {
+  height: 53vh;
+  max-height: 410px; }
+  .visual-21_box-img img {
+    height: 100%; }
+
+.visual-22_box-img {
+  height: 50vh;
+  max-height: 385px;
+  position: fixed;
+  right: 0;
+  bottom: -6vh; }
+  .visual-22_box-img img {
+    height: 100%; }
+
 body {
   color: #262626;
   font-size: 14px;
