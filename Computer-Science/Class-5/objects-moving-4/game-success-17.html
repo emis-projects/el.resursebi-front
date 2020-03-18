@@ -26,12 +26,12 @@
 </head>
 <body>
     <div class="container">
-        
+
         <section id="app" class="container position-absolute">
             <header>
                 <app-menu v-logo="'../../../'" :is-active="isActive" :toggle="toggle"></app-menu>
             </header>
-    
+
             <app-section v-image="'../../../'" :is-active="isActive">
                 <app-bar
                         :is-active="isActive"
@@ -39,7 +39,7 @@
                         :dots="dots"
                         :current-tab="link"
                         v-on:link-tab="link = $event">
-    
+
                 </app-bar>
                 <component
                         :path="path"
@@ -55,7 +55,7 @@
 
 
         <div class="game__section flex justify-between" style="height: 70vh; margin-top: 10%">
-            <img style="width:100%" src="../../../../img/gakvetilebi/Computer-Science/game-success-page.svg" alt="">
+            <img style="width:100%" src="../../../img/gakvetilebi/Computer-Science/game-success-page.svg" alt="">
         </div>
 
 
@@ -81,9 +81,9 @@
     <!-- header and bot vue -->
     <script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
 
-    
+
     <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
     <script src="../../../New-header-vue/app.js"></script>
-   
+
 </body>
 </html>
