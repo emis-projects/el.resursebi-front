@@ -823,7 +823,7 @@ let title = {
         },
         {
             id: 8,
-            name: 'სათაური',
+            name: 'ტექსტის სწორება (Ms Word)',
             link: '#'
         },
         {

@@ -1,5 +1,5 @@
 .UI_img-box{
-  &-3{
+  &-1{
     height: 56vh;
     max-height: 444px;
     img{
@@ -26,6 +26,14 @@
     position: absolute;
     top: 0;
     right: 0;
+    img{
+      height: 100%;
+    }
+  }
+  &-13{
+    height: 51vh;
+    max-height: 489px;
+
     img{
       height: 100%;
     }

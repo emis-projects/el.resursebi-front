@@ -23171,7 +23171,20 @@ td img {
   background-color: #c4d3ee;
   border-radius: 2vh;
   margin: 0.5vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   position: relative;
+}
+
+.kirkita-way-item img {
+  width: 100%;
 }
 
 .kirkita-way-item-img {
@@ -23510,6 +23523,7 @@ td img {
 
 .cs-2-4-15-filling-images-div {
   margin-bottom: 1.3vh;
+  position: relative;
 }
 
 .cs-2-4-15-filling-images-text {
@@ -27474,12 +27488,46 @@ td img {
   height: 100%;
 }
 
-.UI_img-box-3 {
+.cs-2-6-15-ill-img {
+  height: 63.15vh;
+  margin-top: 5vh;
+  margin-right: 2vh;
+}
+
+.cs-2-6-16-ill-img {
+  height: 42.18vh;
+  margin-top: 5vh;
+}
+
+.cs-2-6-3-1-ill-img {
+  margin-top: 11vh;
+  height: 53.65vh;
+}
+
+.cs-2-6-13-1-1-img {
+  height: 29.03vh;
+}
+
+.cs-2-6-13-1-2-img {
+  height: 16.66vh;
+  margin-left: 2vh;
+}
+
+.cs-2-6-10-1-img {
+  height: 58.33vh;
+}
+
+.cs-2-6-8-1-img {
+  margin-left: 2vh;
+  height: 35.54vh;
+}
+
+.UI_img-box-1 {
   height: 56vh;
   max-height: 444px;
 }
 
-.UI_img-box-3 img {
+.UI_img-box-1 img {
   height: 100%;
 }
 
@@ -27510,6 +27558,15 @@ td img {
 }
 
 .UI_img-box-5 img {
+  height: 100%;
+}
+
+.UI_img-box-13 {
+  height: 51vh;
+  max-height: 489px;
+}
+
+.UI_img-box-13 img {
   height: 100%;
 }
 
@@ -27592,6 +27649,19 @@ td img {
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
+}
+
+.UI-wrapper-box {
+  height: 15vh;
+  max-height: 115px;
+}
+
+.UI-wrapper-box img {
+  height: 100%;
+}
+
+.UI-wrapper-btn .cs-2-3-6-sign-description-btn-title {
+  height: 7.3vh;
 }
 
 body {
