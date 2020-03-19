@@ -23184,7 +23184,8 @@ td img {
 }
 
 .kirkita-way-item img {
-  width: 100%;
+  width: 80%;
+  height: 80%;
 }
 
 .kirkita-way-item-img {
@@ -30138,4 +30139,3 @@ body {
     font-size: 14px;
   }
 }
-/*# sourceMappingURL=new-style.css.map */
