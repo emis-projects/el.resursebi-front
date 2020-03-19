@@ -1,0 +1,36 @@
+.create_image-box{
+  &-15{
+    height: 64.5vh;
+    max-height: 498px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    img{
+      height: 100%;
+    }
+  }
+  &-16{
+    height: 43.7vh;
+    max-height: 366px;
+    img{
+      height: 100%;
+    }
+  }
+  &-17{
+    height: 46vh;
+    max-height: 354px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    img{
+      height: 100%;
+    }
+  }
+  &-18{
+    height: 41vh;
+    max-height: 315px;
+    img{
+      height: 100%;
+    }
+  }
+}

@@ -684,8 +684,8 @@ let title = {
         },
         {
             id: 5,
-            name: 'კომპიუტერი 2 კლასი 5 გაკვ',
-            link: 'Computer-Science/Class-2/...'
+            name: 'ციკლების შექმნა ',
+            link: './Computer-Science/Class-2/Creating-cycles-5/1.html'
         },
         {
             id: 6,
