@@ -40,7 +40,6 @@ function computerGames(){
     }
 
     this.dragEnd = (e) => {
-        
         var elClassName = e.target.getAttribute('data-class')
         e.target.className = elClassName;
     }
@@ -51,12 +50,15 @@ function computerGames(){
     });
 
     this.dragDrop = (e) =>{
-        console.log('start')
+        
         var drag = document.querySelector('.draggedElement')
-        console.log(e.target.firstElementChild)
-        if(e.target.classList.contains('myDrag')){
-            e.target.appendChild(drag);
+        if(!e.target.parentElement.children[1]){
+            e.target.parentElement.appendChild(drag)
         }
+        //console.log(e.target.firstElementChild)
+        // if(e.target.parentElement.classList.contains('myDrag')){
+        //     e.target.parentElement.appendChild(drag);
+        // }
     }
 
     this.checkEveryElement = (element) => element.getAttribute('data-place') == element.parentElement.getAttribute('data-place');

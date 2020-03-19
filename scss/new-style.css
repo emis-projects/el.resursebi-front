@@ -23184,7 +23184,8 @@ td img {
 }
 
 .kirkita-way-item img {
-  width: 100%;
+  width: 80%;
+  height: 80%;
 }
 
 .kirkita-way-item-img {
@@ -28619,6 +28620,33 @@ td img {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-3/search-engine-9/cs-3-9-24-bg.png");
 }
 
+.search_image-box {
+  height: 52vh;
+  max-height: 396px;
+}
+
+.search_image-box img {
+  height: 100%;
+}
+
+.search_image-box-6_1 {
+  height: 24vh;
+  max-height: 185px;
+}
+
+.search_image-box-6_1 img {
+  height: 100%;
+}
+
+.search_image-box-15_1 {
+  height: 59.5vh;
+  max-height: 457px;
+}
+
+.search_image-box-15_1 img {
+  height: 100%;
+}
+
 body {
   color: #262626;
   font-size: 14px;
@@ -30508,4 +30536,3 @@ body {
     font-size: 14px;
   }
 }
-/*# sourceMappingURL=new-style.css.map */
