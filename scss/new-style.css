@@ -28249,6 +28249,45 @@ td img {
   margin: 5vh auto 0;
 }
 
+.cs-3-9-18-ill-img {
+  height: 59.07vh;
+  margin: 5vh auto 0;
+}
+
+.cs-3-9-19-ill-img {
+  height: 62.36vh;
+  margin-top: 4vh;
+}
+
+.cs-3-9-20-img {
+  height: 57.03vh;
+  position: relative;
+  right: -17.2vh;
+  margin-top: 5.5vh;
+}
+
+.background-cs-3-9 {
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-3-9-21 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/search-engine-9/cs-3-9-21-bg.svg");
+}
+
+.background-cs-3-9-22 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/search-engine-9/cs-3-9-22-bg.svg");
+}
+
+.background-cs-3-9-23 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/search-engine-9/cs-3-9-23-bg.png");
+}
+
+.background-cs-3-9-24 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/search-engine-9/cs-3-9-24-bg.png");
+}
+
 body {
   color: #262626;
   font-size: 14px;
