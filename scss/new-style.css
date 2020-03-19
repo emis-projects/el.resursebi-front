@@ -28049,6 +28049,39 @@ td img {
   margin: 5vh auto 0;
 }
 
+.cs-2-5-7-ill-img {
+  height: 52.52vh;
+  margin-top: 11.5vh;
+}
+
+.cs-2-5-8-img {
+  height: 26.73vh;
+  margin: 5vh auto 0;
+}
+
+.cs-2-5-9-ill-img {
+  height: 60.15vh;
+  margin-top: 3vh;
+  position: relative;
+  right: -41vh;
+}
+
+.cs-2-5-10-img {
+  height: 47.69vh;
+  position: relative;
+  top: -1vh;
+}
+
+.cs-2-5-11-img {
+  height: 43.22vh;
+  margin: 5vh auto 0;
+}
+
+.cs-2-5-12-img {
+  height: 41.01vh;
+  margin: 3vh auto 0;
+}
+
 body {
   color: #262626;
   font-size: 14px;
