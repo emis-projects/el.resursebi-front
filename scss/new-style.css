@@ -18835,175 +18835,122 @@ td {
   height: 7.3vh; }
 
 .create_check-box {
-  margin-top: 4vh;
-}
-
-.create_check-box .check-box .active {
-  background: #947DCE;
-  border: 1px;
-}
-
-.create_check-box .check-box div {
-  border: 2px solid #696969;
-  border-radius: 8px;
-  height: 3.2vh;
-  width: 3.2vh;
-  max-width: 25px;
-  max-height: 25px;
-  cursor: pointer;
-}
-
-.create_check-box .check-box span {
-  color: #947DCE;
-  max-width: 136px;
-  font-family: 'DejaVuSans';
-  font-size: 12px;
-  text-align: center;
-}
-
+  margin-top: 4vh; }
+  .create_check-box .check-box .active {
+    background: #947DCE;
+    border: 1px; }
+  .create_check-box .check-box div {
+    border: 2px solid #696969;
+    border-radius: 8px;
+    height: 3.2vh;
+    width: 3.2vh;
+    max-width: 25px;
+    max-height: 25px;
+    cursor: pointer; }
+  .create_check-box .check-box span {
+    color: #947DCE;
+    max-width: 136px;
+    font-family: 'DejaVuSans';
+    font-size: 12px;
+    text-align: center; }
 .create_image-box-13 {
   max-height: 367px;
-  max-width: 542px;
-}
-
-.create_image-box-13 img {
-  height: auto;
-  width: 100%;
-}
-
+  max-width: 542px; }
+  .create_image-box-13 img {
+    height: auto;
+    width: 100%; }
 .create_game_btns_position {
   position: fixed;
   right: 17%;
-  bottom: 9%;
-}
+  bottom: 9%; }
 
 .create_table_box {
   border-radius: unset;
-  -webkit-box-shadow: 0 0 0 2px #000;
-          box-shadow: 0 0 0 2px #000;
-  width: 100%;
-}
-
-.create_table_box td {
-  height: 6.3vh;
-  max-height: 95px;
-  border: 2px solid #000;
-}
-
-.create_table_box td img {
-  width: 90%;
-  max-height: 90px;
-}
-
+  box-shadow: 0 0 0 2px #000;
+  width: 100%; }
+  .create_table_box td {
+    height: 6.3vh;
+    max-height: 95px;
+    border: 2px solid #000; }
+    .create_table_box td img {
+      width: 90%;
+      max-height: 90px; }
 .create_marks-box {
-  width: 100%;
-}
-
-.create_marks-box img {
-  height: 5.8vh;
-  max-height: 45px;
-}
-
+  width: 100%; }
+  .create_marks-box img {
+    height: 5.8vh;
+    max-height: 45px; }
 .create_circle-box {
   height: 4.7vh;
   width: 4.7vh;
   max-height: 36px;
   max-width: 36px;
-  -webkit-box-shadow: 2px 2px 8px rgba(148, 125, 206, 0.4);
-          box-shadow: 2px 2px 8px rgba(148, 125, 206, 0.4);
+  box-shadow: 2px 2px 8px rgba(148, 125, 206, 0.4);
   color: rgba(148, 125, 206, 0.4);
-  border-radius: 100%;
-}
+  border-radius: 100%; }
 
 .create_image-box-15 {
   height: 64.5vh;
   max-height: 498px;
   position: fixed;
   right: 0;
-  bottom: 0;
-}
-
-.create_image-box-15 img {
-  height: 100%;
-}
-
+  bottom: 0; }
+  .create_image-box-15 img {
+    height: 100%; }
 .create_image-box-16 {
   height: 43.7vh;
-  max-height: 366px;
-}
-
-.create_image-box-16 img {
-  height: 100%;
-}
-
+  max-height: 366px; }
+  .create_image-box-16 img {
+    height: 100%; }
 .create_image-box-17 {
   height: 46vh;
   max-height: 354px;
   position: fixed;
   right: 0;
-  bottom: 0;
-}
-
-.create_image-box-17 img {
-  height: 100%;
-}
-
+  bottom: 0; }
+  .create_image-box-17 img {
+    height: 100%; }
 .create_image-box-18 {
   height: 41vh;
-  max-height: 315px;
-}
-
-.create_image-box-18 img {
-  height: 100%;
-}
+  max-height: 315px; }
+  .create_image-box-18 img {
+    height: 100%; }
 
 .Class_2-Creating_5_3_1 {
-  padding-top: 6vh;
-}
-
-.Class_2-Creating_5_3_1 img {
-  height: 25.52vh;
-  max-height: 196px;
-}
+  padding-top: 6vh; }
+  .Class_2-Creating_5_3_1 img {
+    height: 25.52vh;
+    max-height: 196px; }
 
 .Class_2-title_item_5_19 {
   font-style: italic;
   color: #62548A;
   font-family: 'DejaVu Sans Oblique';
-  font-size: 3.64vh;
-}
-
+  font-size: 3.64vh; }
 .Class_2-Creating_cycles_19 {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-2/Creating-cycles-5/C-2-5-19.svg");
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
-}
-
+  height: 100vh; }
 .Class_2-Creating_cycles_20 {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-2/Creating-cycles-5/C-2-5-20.svg");
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
-}
-
+  height: 100vh; }
 .Class_2-Creating_cycles_21 {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-2/Creating-cycles-5/C-2-5-21.svg");
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
-}
-
+  height: 100vh; }
 .Class_2-Creating_cycles_22 {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-2/Creating-cycles-5/C-2-5-22.svg");
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
-}
+  height: 100vh; }
 
 .Class_4-correcting_8_9 {
   height: 18.33vh;
@@ -19313,12 +19260,10 @@ td {
   height: 100vh; }
 
 .Class_2-Creating_5_3_1 {
-  padding-top: 6vh;
-}
-
-.Class_2-Creating_5_3_1 img {
-  height: 25.52vh;
-  max-height: 196px; }
+  padding-top: 6vh; }
+  .Class_2-Creating_5_3_1 img {
+    height: 25.52vh;
+    max-height: 196px; }
 
 .cs-2-5-7-ill-img {
   height: 52.52vh;
