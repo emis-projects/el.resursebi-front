@@ -25163,6 +25163,7 @@ td img {
 .comp {
   height: 20.5vh;
   max-height: 158px;
+  margin-bottom: 3vh;
 }
 
 .comp img {
@@ -25172,6 +25173,7 @@ td img {
 .procesor {
   height: 22.6vh;
   max-height: 174px;
+  margin-bottom: 3vh;
 }
 
 .procesor img {
@@ -27488,6 +27490,61 @@ td img {
   height: 100%;
 }
 
+.cs-2-6-9-div-img {
+  margin-right: 7.08vw;
+  height: 18.48vh;
+}
+
+.cs-2-6-9-div-img img {
+  height: 100%;
+}
+
+.cs-2-6-9-div-img-4 {
+  margin-right: 10.46vw;
+}
+
+.cs-2-6-9-div-container {
+  margin-bottom: 6.51vh;
+}
+
+.cs-2-6-9-img {
+  margin-left: 1.46vw;
+}
+
+.cs-2-6-10-img-1-div {
+  height: 35.41vh;
+}
+
+.cs-2-6-10-img-1-div img {
+  height: 100%;
+}
+
+.cs-2-6-10-btn-div {
+  height: 8.51vh;
+  margin-top: 0.5vh;
+}
+
+.cs-2-6-10-btn-div img {
+  height: 100%;
+}
+
+.cs-2-6-10-btn-container {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 1.46vw;
+}
+
+.cs-2-6-10-2-div-img {
+  height: 37.1vh;
+  margin-left: 9vw;
+}
+
+.cs-2-6-10-2-div-img img {
+  height: 100%;
+}
+
 .cs-2-6-15-ill-img {
   height: 63.15vh;
   margin-top: 5vh;
@@ -27586,6 +27643,46 @@ td img {
   max-width: 156px;
 }
 
+.cs-2-6-7-div-img {
+  height: 63.8vh;
+  position: absolute;
+  bottom: -8vh;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+}
+
+.cs-2-6-7-div-img img {
+  height: 100%;
+}
+
+.cs-2-6-8-div-img {
+  height: 46.35vh;
+}
+
+.cs-2-6-8-div-img img {
+  height: 100%;
+}
+
+.cs-2-6-11-div-img {
+  height: 52.99vh;
+}
+
+.cs-2-6-11-div-img img {
+  height: 100%;
+}
+
+.cs-2-6-12-div-img {
+  height: 56.9vh;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.cs-2-6-12-div-img img {
+  height: 100%;
+}
+
 .Class_2-user_interface_17 {
   height: 40.75vh;
   max-height: 313px;
@@ -27662,6 +27759,129 @@ td img {
 
 .UI-wrapper-btn .cs-2-3-6-sign-description-btn-title {
   height: 7.3vh;
+}
+
+.create_check-box {
+  margin-top: 4vh;
+}
+
+.create_check-box .check-box .active {
+  background: #947DCE;
+  border: 1px;
+}
+
+.create_check-box .check-box div {
+  border: 2px solid #696969;
+  border-radius: 8px;
+  height: 3.2vh;
+  width: 3.2vh;
+  max-width: 25px;
+  max-height: 25px;
+  cursor: pointer;
+}
+
+.create_check-box .check-box span {
+  color: #947DCE;
+  max-width: 136px;
+  font-family: 'DejaVuSans';
+  font-size: 12px;
+  text-align: center;
+}
+
+.create_image-box-13 {
+  max-height: 367px;
+  max-width: 542px;
+}
+
+.create_image-box-13 img {
+  height: auto;
+  width: 100%;
+}
+
+.create_game_btns_position {
+  position: fixed;
+  right: 17%;
+  bottom: 9%;
+}
+
+.create_table_box {
+  border-radius: unset;
+  -webkit-box-shadow: 0 0 0 2px #000;
+          box-shadow: 0 0 0 2px #000;
+  width: 100%;
+}
+
+.create_table_box td {
+  height: 6.3vh;
+  max-height: 95px;
+  border: 2px solid #000;
+}
+
+.create_table_box td img {
+  width: 90%;
+  max-height: 90px;
+}
+
+.create_marks-box {
+  width: 100%;
+}
+
+.create_marks-box img {
+  height: 5.8vh;
+  max-height: 45px;
+}
+
+.create_circle-box {
+  height: 4.7vh;
+  width: 4.7vh;
+  max-height: 36px;
+  max-width: 36px;
+  -webkit-box-shadow: 2px 2px 8px rgba(148, 125, 206, 0.4);
+          box-shadow: 2px 2px 8px rgba(148, 125, 206, 0.4);
+  color: rgba(148, 125, 206, 0.4);
+  border-radius: 100%;
+}
+
+.create_image-box-15 {
+  height: 64.5vh;
+  max-height: 498px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+
+.create_image-box-15 img {
+  height: 100%;
+}
+
+.create_image-box-16 {
+  height: 43.7vh;
+  max-height: 366px;
+}
+
+.create_image-box-16 img {
+  height: 100%;
+}
+
+.create_image-box-17 {
+  height: 46vh;
+  max-height: 354px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+
+.create_image-box-17 img {
+  height: 100%;
+}
+
+.create_image-box-18 {
+  height: 41vh;
+  max-height: 315px;
+}
+
+.create_image-box-18 img {
+  height: 100%;
 }
 
 .Class_4-correcting_8_9 {
@@ -27753,6 +27973,212 @@ td img {
 .Class_4-programing_4_21_1-2 img {
   height: 57.68vh;
   max-height: 443px;
+}
+
+.Class_2-title_item_5_19 {
+  font-style: italic;
+  color: #62548A;
+  font-family: 'DejaVu Sans Oblique';
+  font-size: 3.64vh;
+}
+
+.Class_2-Creating_cycles_19 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-2/user-interface-6/C-2-6-19.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.Class_2-Creating_cycles_20 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-2/user-interface-6/C-2-6-20.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.Class_2-Creating_cycles_21 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-2/user-interface-6/C-2-6-21.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.Class_2-Creating_cycles_22 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-2/user-interface-6/C-2-6-22.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.Class_2-Creating_5_3_1 {
+  height: 25.52vh;
+  max-height: 196px;
+}
+
+.correct_img-box-1 {
+  height: 58vh;
+  max-height: 449px;
+}
+
+.correct_img-box-1 img {
+  height: 100%;
+}
+
+.correct_img-box-3 {
+  height: 58vh;
+  max-height: 449px;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.correct_img-box-3 img {
+  height: 100%;
+}
+
+.correct_img-box-4 {
+  height: 41vh;
+  max-height: 315px;
+  position: fixed;
+  bottom: 0;
+  right: 15%;
+  -webkit-transform: translateX(-15%);
+          transform: translateX(-15%);
+}
+
+.correct_img-box-4 img {
+  height: 100%;
+}
+
+.correct_text-5 .text-rose {
+  color: #DC6C85;
+}
+
+.correct_text-5 .text-yellow {
+  color: #F7CF43;
+}
+
+.correct_text-5 .text-blue {
+  color: #658AD0;
+}
+
+.correct_text-5 .text-green {
+  color: #82D1A1;
+}
+
+.correct_img-box-5 {
+  height: 36vh;
+  max-height: 277px;
+}
+
+.correct_img-box-5 img {
+  height: 100%;
+}
+
+.correct_img-box-6 {
+  height: 47vh;
+  max-height: 365px;
+}
+
+.correct_img-box-6 img {
+  height: 100%;
+}
+
+.correct_img-box-7 {
+  height: 37.5vh;
+  max-height: 288px;
+}
+
+.correct_img-box-7 img {
+  height: 100%;
+}
+
+.correct_img-box-8 {
+  height: 53vh;
+  max-height: 408px;
+}
+
+.correct_img-box-8 img {
+  height: 100%;
+}
+
+.cs-2-6-19-div-img {
+  height: 64.06vh;
+}
+
+.cs-2-6-19-div-img img {
+  height: 100%;
+}
+
+.cs-2-6-20-div-img {
+  height: 46.48vh;
+}
+
+.cs-2-6-20-div-img img {
+  height: 100%;
+}
+
+.cs-2-6-21-div-img {
+  height: 58.59vh;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.cs-2-6-21-div-img img {
+  height: 100%;
+}
+
+.cs-2-6-22-div-img {
+  height: 27.34vh;
+}
+
+.cs-2-6-22-div-img img {
+  height: 100%;
+}
+
+.background-cs-4-8-23 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/correcting-text-8/cs-4-8-23-img.png");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-4-8-24 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/correcting-text-8/cs-4-8-24-img.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-4-8-25 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/correcting-text-8/cs-4-8-25-img.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-4-8-26 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/correcting-text-8/cs-4-8-26-img.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-title-purple {
+  color: #62548A;
+  font-family: 'DejaVu Sans Oblique';
+  font-size: 3.64vh;
+}
+
+.background-cs-title-purple-cont {
+  padding-top: 10vh;
 }
 
 body {
