@@ -1,0 +1,40 @@
+.create{
+  &_check-box{
+    margin-top: 4vh;
+    .check-box{
+      .active{
+        background: #947DCE;
+        border: 1px;
+      }
+      div{
+        border: 2px solid #696969;
+        border-radius: 8px;
+        height: 3.2vh;
+        width: 3.2vh;
+        max-width: 25px;
+        max-height: 25px;
+        cursor: pointer;
+      }
+      span{
+        color: #947DCE;
+        max-width: 136px;
+        font-family: 'DejaVuSans';
+        font-size: 12px;
+        text-align: center;
+      }
+    }
+  }
+  &_image-box-13{
+    max-height: 367px;
+    max-width: 542px;
+    img{
+      height: auto;
+      width: 100%;
+    }
+  }
+  &_game_btns_position{
+    position: fixed;
+    right: 17%;
+    bottom: 9%;
+  }
+}
