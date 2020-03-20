@@ -26536,30 +26536,22 @@ td img {
   font-size: 2.34vh;
 }
 
-.object_moving-img_box_19_1 .object_moving-img_box_19_2 .object_moving-img_box_19_4 .object_moving-img_box_19_6 {
-  height: 30vh;
-  max-height: 230px;
+.object_moving-img_box_19_1,
+.object_moving-img_box_19_2,
+.object_moving-img_box_19_3,
+.object_moving-img_box_19_4,
+.object_moving-img_box_19_5,
+.object_moving-img_box_19_6 {
+  width: 11vw;
 }
 
-.object_moving-img_box_19_1 .object_moving-img_box_19_2 .object_moving-img_box_19_4 .object_moving-img_box_19_6 img {
-  height: 100%;
-}
-
-.object_moving-img_box_19_3 {
-  height: 30vh;
-  max-height: 230px;
-}
-
-.object_moving-img_box_19_3 img {
-  height: 100%;
-}
-
-.object_moving-img_box_19_5 {
-  height: 30vh;
-  max-height: 230px;
-}
-
-.object_moving-img_box_19_5 img {
+.object_moving-img_box_19_1 img,
+.object_moving-img_box_19_2 img,
+.object_moving-img_box_19_3 img,
+.object_moving-img_box_19_4 img,
+.object_moving-img_box_19_5 img,
+.object_moving-img_box_19_6 img {
+  width: 100%;
   height: 100%;
 }
 
@@ -30536,4 +30528,3 @@ body {
     font-size: 14px;
   }
 }
-/*# sourceMappingURL=new-style.css.map */
