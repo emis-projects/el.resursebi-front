@@ -23271,6 +23271,17 @@ td img {
   color: #fff;
 }
 
+.sign-description-btn-long {
+  width: 100%;
+  height: 7.8vh;
+  border-radius: 5vh;
+}
+
+.sign-description-btn-light-purple {
+  height: 6.9vh;
+  border-radius: 4vh;
+}
+
 .sign-description-btn-title {
   font-size: 1.8vh;
   color: #62548A;
@@ -23288,6 +23299,17 @@ td img {
       -ms-flex-align: center;
           align-items: center;
   font-family: 'FiraGO Book';
+}
+
+.sign-description-btn-title-long {
+  font-size: 2.6vh;
+  line-height: 2.7vh;
+}
+
+.sign-description-btn-title-light-purple {
+  color: #947DCE;
+  font-family: 'DejaVuSans';
+  line-height: 2.5vh;
 }
 
 .cs-2-1-9-forbidden-img {
@@ -28647,41 +28669,6 @@ td img {
   height: 100%;
 }
 
-.cs-6-23-14-img {
-  height: 41.01vh;
-  margin: 2vh auto 0;
-}
-
-.cs-6-23-14-1-img {
-  height: 47.78vh;
-  margin: 7vh auto 0;
-}
-
-.cs-6-23-15-img {
-  height: 51.04vh;
-  position: relative;
-  top: -13vh;
-}
-
-.cs-6-23-15-1-img {
-  height: 45.70vh;
-  margin: 8vh auto 0;
-}
-
-.cs-6-23-16-img {
-  height: 41.40vh;
-  margin: 3vh auto 0;
-}
-
-.cs-6-23-8-1-img {
-  height: 48.95vh;
-  margin: 10vh auto 0;
-}
-
-.cs-6-23-17-ill-img {
-  height: 39.06vh;
-  margin: 8vh auto 0;
-}
 .cs-3-9-9-div-grey-div {
   height: 15.62vh;
   width: 16.54vw;
@@ -28808,6 +28795,84 @@ td img {
 
 .cs-3-9-16-div img {
   height: 100%;
+}
+
+.cs-6-23-14-img {
+  height: 41.01vh;
+  margin: 2vh auto 0;
+}
+
+.cs-6-23-14-1-img {
+  height: 47.78vh;
+  margin: 7vh auto 0;
+}
+
+.cs-6-23-15-img {
+  height: 51.04vh;
+  position: relative;
+  top: -13vh;
+}
+
+.cs-6-23-15-1-img {
+  height: 45.70vh;
+  margin: 8vh auto 0;
+}
+
+.cs-6-23-16-img {
+  height: 41.40vh;
+  margin: 3vh auto 0;
+}
+
+.cs-6-23-8-1-img {
+  height: 48.95vh;
+  margin: 10vh auto 0;
+}
+
+.cs-6-23-17-ill-img {
+  height: 39.06vh;
+  margin: 8vh auto 0;
+}
+
+.rules-game-box-cont {
+  width: 100%;
+  background-color: #947DCE;
+  padding: 0 5vh 5vh;
+}
+
+.rules-game-box-header {
+  min-height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.rules-game-box-title {
+  color: #fff;
+  font-family: 'BPG Arial';
+  font-size: 2.3vh;
+}
+
+.rules-game-box-answers {
+  width: 100%;
+  min-height: 40.36vh;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 4vh 1vh 0;
+  border-radius: 2vh;
+}
+
+.rules-game-box-answers .sign-description-btn-title {
+  color: #000000;
+  font-size: 2.3vh;
+  font-family: 'BPG Arial';
+  text-align: center;
+  margin-bottom: 3vh;
 }
 
 body {
