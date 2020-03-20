@@ -1345,11 +1345,19 @@ body {
   position: relative;
   z-index: 444444; }
   #app .class-pagination .dot p {
-    font-size: 8px;
     color: #DC6C85;
     display: none; }
   #app .class-pagination .dot:hover {
-    transform: scale(3.3);
+    box-shadow: 0 3px 6px #7fd1d8;
+    height: 36px;
+    width: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    color: #DC6C85;
+    background: #fff;
+    cursor: pointer;
     margin: 0 20px;
     transition: all .3s ease; }
     #app .class-pagination .dot:hover p {
