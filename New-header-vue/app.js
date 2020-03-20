@@ -766,8 +766,8 @@ let title = {
         },
         {
             id: 9,
-            name: 'სათაური',
-            link: '#'
+            name: 'რა არის საძიებო სისტემა და  როგორ გამოვიყენოთ იგი',
+            link: './Computer-Science/Class-3/search-engine-9/1.html'
         },
         {
             id: 10,

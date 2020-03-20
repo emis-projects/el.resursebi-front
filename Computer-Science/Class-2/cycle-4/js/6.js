@@ -55,7 +55,7 @@ function computerGames() {
         }
         myArray.forEach(element => {
             if (element.getAttribute('data-place') == element.parentElement.getAttribute('data-place')) {
-                element.style.width = "431px";
+                element.style.width = "29.82vw";
             }
             else{
                 element.style.width = null;
