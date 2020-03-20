@@ -669,7 +669,7 @@ let title = {
         },
         {
             id: 2,
-            name: 'პირობითი ნიშნები ჩვენს ირგვლივ',
+            name: 'პირობითი ნიშნები ჩვენ ირგვლივ',
             link: 'Computer-Science/Class-2/marks-2/1.html'
         },
         {
