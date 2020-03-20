@@ -15826,6 +15826,13 @@ td {
     background-color: #a1dd6f; }
     .sign-description-btn.success p {
       color: #fff; }
+  .sign-description-btn-long {
+    width: 100%;
+    height: 7.8vh;
+    border-radius: 5vh; }
+  .sign-description-btn-light-purple {
+    height: 6.9vh;
+    border-radius: 4vh; }
   .sign-description-btn-title {
     font-size: 1.8vh;
     color: #62548A;
@@ -15837,6 +15844,13 @@ td {
     justify-content: center;
     align-items: center;
     font-family: 'FiraGO Book'; }
+    .sign-description-btn-title-long {
+      font-size: 2.6vh;
+      line-height: 2.7vh; }
+    .sign-description-btn-title-light-purple {
+      color: #947DCE;
+      font-family: 'DejaVuSans';
+      line-height: 2.5vh; }
 
 .cs-2-1-9-forbidden-img {
   height: 12.36vh; }
@@ -19592,6 +19606,56 @@ td {
   height: 47.78vh;
   margin: 7vh auto 0; }
 
+.Class_6-title_item_18 {
+  font-size: 2.6vh;
+  font-family: 'DejaVuSans'; }
+.Class_6-digital_world_img_18 {
+  height: 40.6vh;
+  max-height: 311.9px; }
+  .Class_6-digital_world_img_18 img {
+    height: 100%; }
+.Class_6-digital_world_img_18_1 {
+  position: fixed;
+  bottom: 0; }
+  .Class_6-digital_world_img_18_1 img {
+    height: 42.57vh;
+    max-height: 327px; }
+.Class_6-digital_world_img_19 {
+  height: 37.85vh;
+  max-height: 290.7px; }
+  .Class_6-digital_world_img_19 img {
+    height: 100%; }
+
+.Class_6-title_item_23_20 {
+  font-style: italic;
+  color: #62548A;
+  font-family: 'DejaVu Sans Oblique';
+  font-size: 3.64vh; }
+.Class_6-digital_digital_20 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/rights-in-digital-world-23/C-6-23-20.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh; }
+.Class_6-digital_digital_21 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/rights-in-digital-world-23/C-6-23-21.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh; }
+.Class_6-digital_digital_22 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/rights-in-digital-world-23/C-6-23-22.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh; }
+.Class_6-digital_digital_23 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/rights-in-digital-world-23/C-6-23-23.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh; }
+
 .cs-6-23-div-img-1 {
   height: 50.26vh; }
 .cs-6-23-div-img-3 {
@@ -19657,6 +19721,33 @@ td {
 .cs-6-23-17-ill-img {
   height: 39.06vh;
   margin: 8vh auto 0; }
+
+.rules-game-box-cont {
+  width: 100%;
+  background-color: #947DCE;
+  padding: 0 5vh 5vh; }
+.rules-game-box-header {
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+.rules-game-box-title {
+  color: #fff;
+  font-family: 'BPG Arial';
+  font-size: 2.3vh; }
+.rules-game-box-answers {
+  width: 100%;
+  min-height: 40.36vh;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 4vh 1vh 0;
+  border-radius: 2vh; }
+  .rules-game-box-answers .sign-description-btn-title {
+    color: #000000;
+    font-size: 2.3vh;
+    font-family: 'BPG Arial';
+    text-align: center;
+    margin-bottom: 3vh; }
 
 body {
   color: #262626;
