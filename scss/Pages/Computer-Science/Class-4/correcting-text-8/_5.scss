@@ -1,0 +1,23 @@
+.correct_text-5 {
+  .text{
+    &-rose{
+      color: #DC6C85;
+    }
+    &-yellow{
+      color: #F7CF43;
+    }
+    &-blue{
+      color: #658AD0;
+    }
+    &-green {
+      color: #82D1A1;
+    }
+  }
+}
+.correct_img-box-5{
+  height: 36vh;
+  max-height: 277px;
+  img{
+    height: 100%;
+  }
+}

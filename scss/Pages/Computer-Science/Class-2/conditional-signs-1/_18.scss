@@ -11,7 +11,15 @@
     background-color: #c4d3ee;
     border-radius: 2vh;
     margin: 0.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
+
+    img {
+      width: 80%;
+      height: 80%;
+    }
     &-img {
       position: absolute;
       left: 50%;

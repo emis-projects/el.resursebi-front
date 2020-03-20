@@ -1,0 +1,32 @@
+.correct_img-box{
+  &-1{
+    height: 58vh;
+    max-height: 449px;
+    img{
+      height: 100%;
+    }
+  }
+  &-3{
+    height: 58vh;
+    max-height: 449px;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    img{
+      height: 100%;
+    }
+  }
+  &-4{
+    height: 41vh;
+    max-height: 315px;
+    position: fixed;
+    bottom: 0;
+    right: 15%;
+    transform: translateX(-15%);
+    img{
+      height: 100%;
+    }
+  }
+
+}

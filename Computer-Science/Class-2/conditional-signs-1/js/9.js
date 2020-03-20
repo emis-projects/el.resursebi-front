@@ -2,6 +2,7 @@ function game(){
     this.error = true;
     this.hrefElement = null;
 
+    
     // variables
     let dragElement1 = document.querySelectorAll('.DragGame—childs1');
     let dragElement2 = document.querySelectorAll('.DragGame—childs2');
@@ -129,6 +130,9 @@ function game(){
             
             } else if(loc == "/Computer-Science/Class-2/part&whole-3/16.html" || loc == "/el.resursebi-front/Computer-Science/Class-2/part&whole-3/16.html"){
                 location.href = "game-success-16.html"
+
+            } else if(loc == "/Computer-Science/Class-5/objects-moving-4/17.html" || loc == "/el.resursebi-front/Computer-Science/Class-5/objects-moving-4/17.html"){
+                location.href = "game-success-17.html"
             }
 
         } else {
