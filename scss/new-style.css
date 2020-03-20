@@ -28705,6 +28705,78 @@ td img {
   height: 100%;
 }
 
+.Class_6-title_item_18 {
+  font-size: 2.6vh;
+  font-family: 'DejaVuSans';
+}
+
+.Class_6-digital_world_img_18 {
+  height: 40.6vh;
+  max-height: 311.9px;
+}
+
+.Class_6-digital_world_img_18 img {
+  height: 100%;
+}
+
+.Class_6-digital_world_img_18_1 {
+  position: fixed;
+  bottom: 0;
+}
+
+.Class_6-digital_world_img_18_1 img {
+  height: 42.57vh;
+  max-height: 327px;
+}
+
+.Class_6-digital_world_img_19 {
+  height: 37.85vh;
+  max-height: 290.7px;
+}
+
+.Class_6-digital_world_img_19 img {
+  height: 100%;
+}
+
+.Class_6-title_item_23_20 {
+  font-style: italic;
+  color: #62548A;
+  font-family: 'DejaVu Sans Oblique';
+  font-size: 3.64vh;
+}
+
+.Class_6-digital_digital_20 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/rights-in-digital-world-23/C-6-23-20.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.Class_6-digital_digital_21 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/rights-in-digital-world-23/C-6-23-21.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.Class_6-digital_digital_22 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/rights-in-digital-world-23/C-6-23-22.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.Class_6-digital_digital_23 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/rights-in-digital-world-23/C-6-23-23.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
 body {
   color: #262626;
   font-size: 14px;
