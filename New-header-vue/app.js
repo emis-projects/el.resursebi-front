@@ -249,7 +249,9 @@ Vue.component('appSelect', {
             // title is object
             class: title,
             classID: 2,
-            activeItem: 1
+            activeItem: 1,
+            pagination: true,
+            titlesPages: 1
         };
     },
     computed: {
@@ -261,7 +263,18 @@ Vue.component('appSelect', {
             } else if (this.activeClass === 'ბუნება') {
                 return this.class.nature;
             } else {
-                return this.class['IT_' + this.classID];
+                // თუ კლასი ტოლია 5 ან 6 და titlesPages არ უქდრის 1 მაშინ პირველი 12 სათაური დარენდერდეს
+                if ((this.classID === 5 && this.titlesPages !== 1) || (this.classID === 6 && this.titlesPages !== 1)) {
+                    return this.class['IT_' + this.classID].slice(0, 12);
+                }
+                // თუ კლასი ტოლია 5 ან 6 და titlesPages არ უქდრის 2 მაშინ პირველი 24 სათაური დარენდერდეს
+                else if ((this.classID === 5 && this.titlesPages !== 2) || (this.classID === 6 && this.titlesPages !== 2)) {
+                    return this.class['IT_' + this.classID].slice(12, 24);
+                }
+                // 5-6 კლასების გარდა დაბრუნდეს ჩვეულებრივად სრული სიგრძის მასივი
+                else {
+                    return this.class['IT_' + this.classID];
+                }
             }
         },
         artImage() {
@@ -272,12 +285,23 @@ Vue.component('appSelect', {
             } else if (this.activeClass === 'ბუნება') {
                 return this.images.nature;
             }
+        },
+        // 1-12 გაკვეთილი <---> 12-24 გაკვეთილის და გადასაცვლელი ლურჯი ღილაკის გვერდის რენტერინგი
+        switchPage() {
+            if (this.pagination) {
+                return this.titlesPages = 2;
+            } else {
+                return this.titlesPages = 1;
+            }
         }
     },
     methods: {
         classChoose(val) {
             this.classID = val;
             this.activeItem = val - 1;
+            // პირველი 12 სათაური კლასების შეცვლა თუ კლასი შეიცვალა
+            this.titlesPages = 2;
+            this.pagination = true
         }
     },
     template: `
@@ -339,6 +363,20 @@ Vue.component('appSelect', {
                                 </div>
                             </div>
                         </div>
+                    </div>
+                    <div class="col-12">
+                        <transition  enter-active-class="animated fadeIn"
+                                     leave-active-class="animated fadeOut"
+                                     :duration="550"
+                                     mode="out-in">
+                            <div v-if="classID === 5 || classID === 6" class="class-pagination d-flex justify-content-center align-items-center">
+                                <div v-if="!pagination" @click="pagination = !pagination" class="prev arrow-left-open"></div>
+                                <div v-if="pagination" class="current">1</div>
+                                <div @click="pagination = !pagination" class="dot"><p>{{ switchPage }}</p></div>
+                                <div v-if="!pagination" class="current">2</div>
+                                <div v-if="pagination" @click="pagination = !pagination" class="next arrow-right-open"></div>
+                            </div>
+                        </transition>
                     </div>
                 </div>
                 <div class="row app-select_artwork">
@@ -907,6 +945,66 @@ let title = {
             id: 12,
             name: 'სათაური',
             link: '#'
+        },
+        {
+            id: 13,
+            name: 'კომპიუტერი 6 კლასი 13 გაკვ',
+            link: '#'
+        },
+        {
+            id: 14,
+            name: 'კომპიუტერი 6 კლასი 14 გაკვ',
+            link: '#'
+        },
+        {
+            id: 15,
+            name: 'სათაური',
+            link: '#'
+        },
+        {
+            id: 16,
+            name: 'სათაური',
+            link: '#'
+        },
+        {
+            id: 17,
+            name: 'სათაური',
+            link: '#'
+        },
+        {
+            id: 18,
+            name: 'სათაური',
+            link: '#'
+        },
+        {
+            id: 19,
+            name: 'სათაური',
+            link: '#'
+        },
+        {
+            id: 20,
+            name: 'სათაური',
+            link: '#'
+        },
+        {
+            id: 21,
+            name: 'სათაური',
+            link: '#'
+        },
+        {
+            id: 22,
+            name: 'სათაური',
+            link: '#'
+        },
+        {
+            id: 23,
+            name: 'სათაური',
+            link: '#'
+        },
+        {
+            id: 24,
+            name: 'სათაური',
+            link: '#'
         }
     ],
     IT_6: [
@@ -967,6 +1065,66 @@ let title = {
         },
         {
             id: 12,
+            name: 'სათაური',
+            link: '#'
+        },
+        {
+            id: 13,
+            name: 'კომპიუტერი 6 კლასი 13 გაკვ',
+            link: '#'
+        },
+        {
+            id: 14,
+            name: 'კომპიუტერი 6 კლასი 14 გაკვ',
+            link: '#'
+        },
+        {
+            id: 15,
+            name: 'სათაური',
+            link: '#'
+        },
+        {
+            id: 16,
+            name: 'სათაური',
+            link: '#'
+        },
+        {
+            id: 17,
+            name: 'სათაური',
+            link: '#'
+        },
+        {
+            id: 18,
+            name: 'სათაური',
+            link: '#'
+        },
+        {
+            id: 19,
+            name: 'სათაური',
+            link: '#'
+        },
+        {
+            id: 20,
+            name: 'სათაური',
+            link: '#'
+        },
+        {
+            id: 21,
+            name: 'სათაური',
+            link: '#'
+        },
+        {
+            id: 22,
+            name: 'სათაური',
+            link: '#'
+        },
+        {
+            id: 23,
+            name: 'სათაური',
+            link: '#'
+        },
+        {
+            id: 24,
             name: 'სათაური',
             link: '#'
         }
