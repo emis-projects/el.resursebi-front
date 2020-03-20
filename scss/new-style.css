@@ -23184,7 +23184,8 @@ td img {
 }
 
 .kirkita-way-item img {
-  width: 100%;
+  width: 80%;
+  height: 80%;
 }
 
 .kirkita-way-item-img {
@@ -28511,6 +28512,75 @@ td img {
   height: 13.8vh;
 }
 
+.Class_2-title_item_2 {
+  font-size: 2.6vh;
+  font-family: 'DejaVuSans';
+}
+
+.Class_2-search_engine_9_2 {
+  position: fixed;
+  right: 24.2vh;
+  top: 39vh;
+}
+
+.Class_2-search_engine_9_2 img {
+  height: 10.9vh;
+  max-height: 84px;
+}
+
+.Class_2-search_engine_9_3 {
+  height: 39.96vh;
+  max-height: 306.9px;
+}
+
+.Class_2-search_engine_9_3 img {
+  height: 100%;
+}
+
+.Class_2-search_engine_9_4 {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+
+.Class_2-search_engine_9_4 img {
+  height: 49.99vh;
+  max-height: 383.96px;
+}
+
+.Class_2-search_engine_9-5 img {
+  height: 26.04vh;
+  max-height: 200px;
+}
+
+.Class_2-search_engine_9_6 {
+  height: 40.75vh;
+  max-height: 313px;
+}
+
+.Class_2-search_engine_9_6 img {
+  height: 100%;
+}
+
+.Class_2-search_engine_9_7 {
+  height: 40.36vh;
+  max-height: 310px;
+}
+
+.Class_2-search_engine_9_7 img {
+  height: 100%;
+}
+
+.Class_2-search_engine_9_8 {
+  margin-top: 5vh;
+  height: 28.76vh;
+  max-height: 220.9px;
+}
+
+.Class_2-search_engine_9_8 img {
+  height: 100%;
+}
+
 .cs-3-9-18-ill-img {
   height: 59.07vh;
   margin: 5vh auto 0;
@@ -28548,6 +28618,33 @@ td img {
 
 .background-cs-3-9-24 {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-3/search-engine-9/cs-3-9-24-bg.png");
+}
+
+.search_image-box {
+  height: 52vh;
+  max-height: 396px;
+}
+
+.search_image-box img {
+  height: 100%;
+}
+
+.search_image-box-6_1 {
+  height: 24vh;
+  max-height: 185px;
+}
+
+.search_image-box-6_1 img {
+  height: 100%;
+}
+
+.search_image-box-15_1 {
+  height: 59.5vh;
+  max-height: 457px;
+}
+
+.search_image-box-15_1 img {
+  height: 100%;
 }
 
 body {
@@ -30439,4 +30536,3 @@ body {
     font-size: 14px;
   }
 }
-/*# sourceMappingURL=new-style.css.map */
