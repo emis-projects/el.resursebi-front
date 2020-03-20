@@ -122,31 +122,29 @@ function computerGames(){
         // let el = myArrayResult.every(this.checkEveryElement);
         // console.log('el', el, 'data-black', element.getAttribute('data-black'))
         myArrayResult.forEach(element => {
-            console.log('elementArray', element.getAttribute('data-correct'), element.getAttribute('data-black'))
-            // if(element.getAttribute('data-correct') == element.getAttribute('data-black') && element.getAttribute('data-correct') != null){
-            //     count++;
-            // }
-            if(element.getAttribute('data-correct') == element.getAttribute('data-black') && element.getAttribute('data-correct') == null){
-                count--;
+            if(element.getAttribute('data-correct') == element.getAttribute('data-black') && element.getAttribute('data-correct') != null){
+                count++;
+            }
+            if(element.getAttribute('data-correct') == null && element.getAttribute('data-black') == 1111){
+                count -= 1;
             }
         });
         console.log(count)
-        // if(el){
-        //         location.href = 'game-success-19.html';
-        //         console.log('yes')
-        // }
-        // else{
-        //     this.errorPage();
-        // }
+        if(count == 4){
+                location.href = 'game-success-21.html';
+                console.log('yes')
+        }
+        else{
+            this.errorPage();
+        }
     }
 
 
     this.errorPage = () => {
 
         myArrayResult.forEach(element => {
-            console.log('result', element.getAttribute('data-black'))
-            if(element.getAttribute('data-black') != element.getAttribute('data-correct') 
-                && (element.getAttribute('data-black') == null)){
+            console.log('result', element.getAttribute('data-correct'), element.getAttribute('data-black'))
+            if((element.getAttribute('data-correct') != 1111) && (element.getAttribute('data-black') == 1111)){
                 //console.log('yes')
                 element.style.backgroundColor = 'red'
             }
