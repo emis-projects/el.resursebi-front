@@ -159,9 +159,9 @@ function computerGames() {
             if (element.getAttribute('data-zig') == 1111) {
                 element.style.backgroundColor = 'black'
             }
-            if (element.getAttribute('data-previousState') == 2222 && element.getAttribute('data-zig') != 1111) {
-                element.innerHTML = '&#9679;'
-            }
+            // if (element.getAttribute('data-previousState') == 2222 && element.getAttribute('data-zig') != 1111) {
+            //     element.innerHTML = '&#9679;'
+            // }
         });
         this.successPage();
         completedBtn.setAttribute('disabled', 'true');
