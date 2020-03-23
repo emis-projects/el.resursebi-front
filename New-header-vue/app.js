@@ -589,7 +589,7 @@ let title = {
         {
             id: 3,
             name: 'ტყე',
-            link: 'Art-Class/forest/1.html'
+            link: 'Art-Class/Forest/1.html'
         },
         {
             id: 4,
