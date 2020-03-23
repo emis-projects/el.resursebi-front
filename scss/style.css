@@ -10692,13 +10692,10 @@ section .arrow_up_down_downArrow img {
 
 .house-sketch-fullcolor {
   height: 39.37vh;
-  position: absolute;
-  left: 23.42vw;
-  bottom: 14vh;
 }
 
 .house-sketch-fullcolor img {
-  height: 39.37vh;
+  height: 100%;
 }
 
 .A-1366-03-5-img {
