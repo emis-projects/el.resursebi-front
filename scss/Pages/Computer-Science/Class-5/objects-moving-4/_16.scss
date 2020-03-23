@@ -12,6 +12,7 @@
   max-height: 198px;
 
   img {
+    cursor: pointer;
     height: 100%;
   }
 }
@@ -23,6 +24,14 @@
 
   img {
     height: 100%;
+  }
+
+  #time {
+    position: absolute;
+    top: 63%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 0.9vw; 
   }
 }
 
@@ -40,6 +49,22 @@
   }
 
   &_number {
+    font-size: 2vh;
     color: #ffffff;
   }
+}
+
+
+@keyframes fadeInUp {
+  0% {
+      transform: translate3d(0, 200%, 0)
+  }
+  to {
+      transform: translateZ(-50px)
+  }
+}
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp
 }
