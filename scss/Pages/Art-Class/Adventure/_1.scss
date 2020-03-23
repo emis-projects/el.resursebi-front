@@ -1,0 +1,23 @@
+.adventure{
+  color: red;
+  &-1_image-box{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    img{
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+  &-4_image-box{
+    margin-top: 12vh;
+    height: 29vh;
+    max-height: 224px;
+    img{
+      height: 100%;
+    }
+  }
+}
