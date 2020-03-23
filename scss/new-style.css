@@ -24759,9 +24759,6 @@ td img {
   margin-bottom: 3vh;
 }
 
-.adventure {
-  color: red;
-}
 .adventure-1_image-box {
   position: fixed;
   top: 0;
@@ -24781,6 +24778,125 @@ td img {
 }
 .adventure-4_image-box img {
   height: 100%;
+}
+.adventure-5-1_image-box {
+  height: 34vh;
+  max-height: 266px;
+}
+.adventure-5-1_image-box img {
+  height: 100%;
+}
+.adventure-5-2_image-box {
+  height: 47vh;
+  max-height: 366px;
+}
+.adventure-5-2_image-box img {
+  height: 100%;
+}
+.adventure-8-1_image-box {
+  height: auto;
+}
+.adventure-8-1_image-box img {
+  height: 100%;
+}
+.adventure-8-1-2_print_button {
+  height: 4.2vh;
+  width: 4.2vh;
+  max-height: 33px;
+  max-width: 33px;
+  bottom: 2.6vh;
+  right: 2.6vh;
+  background: white;
+  border-radius: 100%;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.adventure-8-1-2_print_button img {
+  max-height: 16px;
+  height: 80%;
+}
+.adventure-8-1-2_box-wrapper {
+  height: 43vh;
+  width: 17vw;
+  max-width: 232px;
+  max-height: 332px;
+}
+.adventure-8-1-2_box-wrapper img {
+  height: 100%;
+}
+.adventure-9_main-box {
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: url("../img/gakvetilebi/xelovneba/adventure/A-1366-05-20.svg") no-repeat center;
+  background-size: cover;
+}
+.adventure-9_title {
+  color: #ffffff;
+  font-family: "DejaVu Sans Oblique", serif;
+  font-size: 3.6vh;
+}
+.adventure-10_main-box {
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: url("../img/gakvetilebi/xelovneba/adventure/A-1366-05-20-1.svg") no-repeat center;
+  background-size: cover;
+}
+.adventure-10_title {
+  color: #ffffff;
+  font-family: "DejaVu Sans Oblique", serif;
+  font-size: 3.6vh;
+}
+.adventure-11_main-box {
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: url("../img/gakvetilebi/xelovneba/adventure/A-1366-05-20-1-1.svg") no-repeat center;
+  background-size: cover;
+}
+.adventure-11_title {
+  color: #ffffff;
+  font-family: "DejaVu Sans Oblique", serif;
+  font-size: 3.6vh;
+}
+.adventure-12_main-box {
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: url("../img/gakvetilebi/xelovneba/adventure/A-1366-05-20-1-2.svg") no-repeat center;
+  background-size: cover;
+}
+.adventure-12_title {
+  color: #ffffff;
+  font-family: "DejaVu Sans Oblique", serif;
+  font-size: 3.6vh;
+}
+.adventure .portfolio-slider.owl-theme .owl-dots .owl-dot span {
+  width: 13.9vh;
+  height: 13.9vh;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 1.3vw;
 }
 
 body {
