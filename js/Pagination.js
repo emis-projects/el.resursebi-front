@@ -43,7 +43,7 @@ function createDots(json) {
     var pages = json.pages;
     var htmlPageIdAttr = $('html').attr('pageid');
 
-    console.log(json);
+    // console.log(json);
 
     pages.map(i => {
         let div = document.createElement('div');

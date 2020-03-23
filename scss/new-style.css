@@ -3243,7 +3243,7 @@ section .arrow_up_down_downArrow img {
 }
 .newDesign_subject_question_item-title {
   color: #262626;
-  font-size: 2.3vh;
+  font-size: 2.6vh;
   font-family: "DejaVuSans";
   line-height: 3.9vh;
   margin-left: 2vh;
@@ -22326,6 +22326,7 @@ td img {
   max-height: 198px;
 }
 .direcion-pointer_box-image img {
+  cursor: pointer;
   height: 100%;
 }
 
@@ -22336,6 +22337,15 @@ td img {
 }
 .clock-box img {
   height: 100%;
+}
+
+.clock-box #time {
+  position: absolute;
+  top: 63%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 0.9vw;
 }
 
 .counter-box {
@@ -22351,7 +22361,35 @@ td img {
   color: #FFFFFF;
 }
 .counter-box_number {
+  font-size: 2vh;
   color: #ffffff;
+}
+
+@-webkit-keyframes fadeInUp {
+  0% {
+    -webkit-transform: translate3d(0, 200%, 0);
+            transform: translate3d(0, 200%, 0);
+  }
+  to {
+    -webkit-transform: translateZ(-50px);
+            transform: translateZ(-50px);
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    -webkit-transform: translate3d(0, 200%, 0);
+            transform: translate3d(0, 200%, 0);
+  }
+  to {
+    -webkit-transform: translateZ(-50px);
+            transform: translateZ(-50px);
+  }
+}
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
 }
 
 .object_moving-img_box_17 {
@@ -22557,6 +22595,7 @@ td img {
   max-height: 198px;
 }
 .direcion-pointer_box-image img {
+  cursor: pointer;
   height: 100%;
 }
 
@@ -22567,6 +22606,15 @@ td img {
 }
 .clock-box img {
   height: 100%;
+}
+
+.clock-box #time {
+  position: absolute;
+  top: 63%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 0.9vw;
 }
 
 .counter-box {
@@ -22582,7 +22630,24 @@ td img {
   color: #FFFFFF;
 }
 .counter-box_number {
+  font-size: 2vh;
   color: #ffffff;
+}
+
+@keyframes fadeInUp {
+  0% {
+    -webkit-transform: translate3d(0, 200%, 0);
+            transform: translate3d(0, 200%, 0);
+  }
+  to {
+    -webkit-transform: translateZ(-50px);
+            transform: translateZ(-50px);
+  }
+}
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
 }
 
 .object_moving-img_box_17 {
