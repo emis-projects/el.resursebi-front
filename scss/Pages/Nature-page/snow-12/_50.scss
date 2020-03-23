@@ -18,7 +18,7 @@
       border: none;
       box-shadow: none;
       font-size: 2vh;
-      :active {
+      &:active {
         background: #22B573 !important;
       }
     }
@@ -50,8 +50,10 @@
   top: 30%;
 }
 
-@Keyframes rain-1 {
-  0% {
+
+
+@keyframes rain-1 {
+  0%{
     left: 52%;
     opacity: 1;
     top: 30%;
@@ -61,6 +63,7 @@
     top: 142%;
   }
 }
+
 .rain:nth-of-type(2) {
   animation-name: rain-2;
   animation-delay: 1s;
@@ -71,7 +74,8 @@
   top: 30%;
 }
 
-@Keyframes rain-2 {
+
+@keyframes rain-2 {
   0% {
     left: 54%;
     opacity: 1;
@@ -82,6 +86,7 @@
     top: 130%;
   }
 }
+
 .rain:nth-of-type(3) {
   animation-name: rain-3;
   animation-delay: 7s;
@@ -92,7 +97,7 @@
   top: 30%;
 }
 
-@Keyframes rain-3 {
+@keyframes rain-3 {
   0% {
     left: 53%;
     opacity: 1;
@@ -103,6 +108,7 @@
     top: 138%;
   }
 }
+
 .rain:nth-of-type(4) {
   animation-name: rain-4;
   animation-delay: 0s;
@@ -113,7 +119,7 @@
   top: 30%;
 }
 
-@Keyframes rain-4 {
+@keyframes rain-4 {
   0% {
     left: 66%;
     opacity: 1;
@@ -124,6 +130,7 @@
     top: 143%;
   }
 }
+
 .rain:nth-of-type(5) {
   animation-name: rain-5;
   animation-delay: 5s;
@@ -134,7 +141,7 @@
   top: 30%;
 }
 
-@Keyframes rain-5 {
+@keyframes rain-5 {
   0% {
     left: 39%;
     opacity: 1;
@@ -145,6 +152,7 @@
     top: 138%;
   }
 }
+
 .rain:nth-of-type(6) {
   animation-name: rain-6;
   animation-delay: 0s;
@@ -155,7 +163,7 @@
   top: 30%;
 }
 
-@Keyframes rain-6 {
+@keyframes rain-6 {
   0% {
     left: 90%;
     opacity: 1;
@@ -166,6 +174,7 @@
     top: 137%;
   }
 }
+
 .rain:nth-of-type(7) {
   animation-name: rain-7;
   animation-delay: 7s;
@@ -176,7 +185,7 @@
   top: 30%;
 }
 
-@Keyframes rain-7 {
+@keyframes rain-7 {
   0% {
     left: 50%;
     opacity: 1;
@@ -187,6 +196,7 @@
     top: 131%;
   }
 }
+
 .rain:nth-of-type(8) {
   animation-name: rain-8;
   animation-delay: 4s;
@@ -197,7 +207,7 @@
   top: 30%;
 }
 
-@Keyframes rain-8 {
+@keyframes rain-8 {
   0% {
     left: 76%;
     opacity: 1;
@@ -208,6 +218,7 @@
     top: 136%;
   }
 }
+
 .rain:nth-of-type(9) {
   animation-name: rain-9;
   animation-delay: 5s;
@@ -218,7 +229,7 @@
   top: 30%;
 }
 
-@Keyframes rain-9 {
+@keyframes rain-9 {
   0% {
     left: 80%;
     opacity: 1;
@@ -229,6 +240,7 @@
     top: 147%;
   }
 }
+
 .rain:nth-of-type(10) {
   animation-name: rain-10;
   animation-delay: 9s;
@@ -239,7 +251,7 @@
   top: 30%;
 }
 
-@Keyframes rain-10 {
+@keyframes rain-10 {
   0% {
     left: 27%;
     opacity: 1;
@@ -260,7 +272,7 @@
   top: 30%;
 }
 
-@Keyframes rain-11 {
+@keyframes rain-11 {
   0% {
     left: 29%;
     opacity: 1;
@@ -281,7 +293,7 @@
   top: 30%;
 }
 
-@Keyframes rain-12 {
+@keyframes rain-12 {
   0% {
     left: 73%;
     opacity: 1;
@@ -302,7 +314,7 @@
   top: 30%;
 }
 
-@Keyframes rain-13 {
+@keyframes rain-13 {
   0% {
     left: 64%;
     opacity: 1;
@@ -323,7 +335,7 @@
   top: 30%;
 }
 
-@Keyframes rain-14 {
+@keyframes rain-14 {
   0% {
     left: 70%;
     opacity: 1;
@@ -344,7 +356,7 @@
   top: 30%;
 }
 
-@Keyframes rain-15 {
+@keyframes rain-15 {
   0% {
     left: 23%;
     opacity: 1;
@@ -365,7 +377,7 @@
   top: 30%;
 }
 
-@Keyframes rain-16 {
+@keyframes rain-16 {
   0% {
     left: 9%;
     opacity: 1;
@@ -386,7 +398,7 @@
   top: 30%;
 }
 
-@Keyframes rain-17 {
+@keyframes rain-17 {
   0% {
     left: 45%;
     opacity: 1;
@@ -407,7 +419,7 @@
   top: 30%;
 }
 
-@Keyframes rain-18 {
+@keyframes rain-18 {
   0% {
     left: 17%;
     opacity: 1;
@@ -418,6 +430,7 @@
     top: 134%;
   }
 }
+
 .rain:nth-of-type(19) {
   animation-name: rain-19;
   animation-delay: 6s;
@@ -428,7 +441,7 @@
   top: 30%;
 }
 
-@Keyframes rain-19 {
+@keyframes rain-19 {
   0% {
     left: 47%;
     opacity: 1;
@@ -449,7 +462,7 @@
   top: 30%;
 }
 
-@Keyframes rain-20 {
+@keyframes rain-20 {
   0% {
     left: 53%;
     opacity: 1;
@@ -470,7 +483,7 @@
   top: 30%;
 }
 
-@Keyframes rain-21 {
+@keyframes rain-21 {
   0% {
     left: 10%;
     opacity: 1;
@@ -491,7 +504,7 @@
   top: 30%;
 }
 
-@Keyframes rain-22 {
+@keyframes rain-22 {
   0% {
     left: 22%;
     opacity: 1;
@@ -512,7 +525,7 @@
   top: 30%;
 }
 
-@Keyframes rain-23 {
+@keyframes rain-23 {
   0% {
     left: 36%;
     opacity: 1;
@@ -533,7 +546,7 @@
   top: 30%;
 }
 
-@Keyframes rain-24 {
+@keyframes rain-24 {
   0% {
     left: 15%;
     opacity: 1;
@@ -554,7 +567,7 @@
   top: 30%;
 }
 
-@Keyframes rain-25 {
+@keyframes rain-25 {
   0% {
     left: 51%;
     opacity: 1;
@@ -575,7 +588,7 @@
   top: 30%;
 }
 
-@Keyframes rain-26 {
+@keyframes rain-26 {
   0% {
     left: 74%;
     opacity: 1;
@@ -596,7 +609,7 @@
   top: 30%;
 }
 
-@Keyframes rain-27 {
+@keyframes rain-27 {
   0% {
     left: 41%;
     opacity: 1;
@@ -617,7 +630,7 @@
   top: 30%;
 }
 
-@Keyframes rain-28 {
+@keyframes rain-28 {
   0% {
     left: 23%;
     opacity: 1;
@@ -638,7 +651,7 @@
   top: 30%;
 }
 
-@Keyframes rain-29 {
+@keyframes rain-29 {
   0% {
     left: 39%;
     opacity: 1;
@@ -659,7 +672,7 @@
   top: 30%;
 }
 
-@Keyframes rain-30 {
+@keyframes rain-30 {
   0% {
     left: 28%;
     opacity: 1;
@@ -680,7 +693,7 @@
   top: 30%;
 }
 
-@Keyframes rain-30 {
+@keyframes rain-30 {
   0% {
     left: 28%;
     opacity: 1;
@@ -701,7 +714,7 @@
   top: 30%;
 }
 
-@Keyframes rain-30 {
+@keyframes rain-30 {
   0% {
     left: 28%;
     opacity: 1;
@@ -722,7 +735,7 @@
   top: 30%;
 }
 
-@Keyframes rain-30 {
+@keyframes rain-30 {
   0% {
     left: 28%;
     opacity: 1;
@@ -743,7 +756,7 @@
   top: 30%;
 }
 
-@Keyframes rain-30 {
+@keyframes rain-30 {
   0% {
     left: 28%;
     opacity: 1;
@@ -766,7 +779,7 @@
   top: 30%;
 }
 
-@Keyframes rain-1 {
+@keyframes rain-1 {
   0% {
     left: 52%;
     opacity: 1;
@@ -787,7 +800,7 @@
   top: 30%;
 }
 
-@Keyframes rain-2 {
+@keyframes rain-2 {
   0% {
     left: 54%;
     opacity: 1;
@@ -808,7 +821,7 @@
   top: 30%;
 }
 
-@Keyframes rain-3 {
+@keyframes rain-3 {
   0% {
     left: 53%;
     opacity: 1;
@@ -829,7 +842,7 @@
   top: 30%;
 }
 
-@Keyframes rain-4 {
+@keyframes rain-4 {
   0% {
     left: 66%;
     opacity: 1;
@@ -850,7 +863,7 @@
   top: 30%;
 }
 
-@Keyframes rain-5 {
+@keyframes rain-5 {
   0% {
     left: 39%;
     opacity: 1;
@@ -871,7 +884,7 @@
   top: 30%;
 }
 
-@Keyframes rain-6 {
+@keyframes rain-6 {
   0% {
     left: 90%;
     opacity: 1;
@@ -892,7 +905,7 @@
   top: 30%;
 }
 
-@Keyframes rain-7 {
+@keyframes rain-7 {
   0% {
     left: 50%;
     opacity: 1;
@@ -913,7 +926,7 @@
   top: 30%;
 }
 
-@Keyframes rain-8 {
+@keyframes rain-8 {
   0% {
     left: 76%;
     opacity: 1;
@@ -934,7 +947,7 @@
   top: 30%;
 }
 
-@Keyframes rain-9 {
+@keyframes rain-9 {
   0% {
     left: 80%;
     opacity: 1;
@@ -955,7 +968,7 @@
   top: 30%;
 }
 
-@Keyframes rain-10 {
+@keyframes rain-10 {
   0% {
     left: 27%;
     opacity: 1;
@@ -976,7 +989,7 @@
   top: 30%;
 }
 
-@Keyframes rain-11 {
+@keyframes rain-11 {
   0% {
     left: 29%;
     opacity: 1;
@@ -997,7 +1010,7 @@
   top: 30%;
 }
 
-@Keyframes rain-12 {
+@keyframes rain-12 {
   0% {
     left: 73%;
     opacity: 1;
@@ -1018,7 +1031,7 @@
   top: 30%;
 }
 
-@Keyframes rain-13 {
+@keyframes rain-13 {
   0% {
     left: 64%;
     opacity: 1;
@@ -1039,7 +1052,7 @@
   top: 30%;
 }
 
-@Keyframes rain-14 {
+@keyframes rain-14 {
   0% {
     left: 70%;
     opacity: 1;
@@ -1060,7 +1073,7 @@
   top: 30%;
 }
 
-@Keyframes rain-15 {
+@keyframes rain-15 {
   0% {
     left: 23%;
     opacity: 1;
@@ -1081,7 +1094,7 @@
   top: 30%;
 }
 
-@Keyframes rain-16 {
+@keyframes rain-16 {
   0% {
     left: 9%;
     opacity: 1;
@@ -1102,7 +1115,7 @@
   top: 30%;
 }
 
-@Keyframes rain-17 {
+@keyframes rain-17 {
   0% {
     left: 45%;
     opacity: 1;
@@ -1123,7 +1136,7 @@
   top: 30%;
 }
 
-@Keyframes rain-18 {
+@keyframes rain-18 {
   0% {
     left: 17%;
     opacity: 1;
@@ -1144,7 +1157,7 @@
   top: 30%;
 }
 
-@Keyframes rain-19 {
+@keyframes rain-19 {
   0% {
     left: 47%;
     opacity: 1;
@@ -1165,7 +1178,7 @@
   top: 30%;
 }
 
-@Keyframes rain-20 {
+@keyframes rain-20 {
   0% {
     left: 53%;
     opacity: 1;
@@ -1186,7 +1199,7 @@
   top: 30%;
 }
 
-@Keyframes rain-21 {
+@keyframes rain-21 {
   0% {
     left: 10%;
     opacity: 1;
@@ -1207,7 +1220,7 @@
   top: 30%;
 }
 
-@Keyframes rain-22 {
+@keyframes rain-22 {
   0% {
     left: 22%;
     opacity: 1;
@@ -1228,7 +1241,7 @@
   top: 30%;
 }
 
-@Keyframes rain-23 {
+@keyframes rain-23 {
   0% {
     left: 36%;
     opacity: 1;
@@ -1249,7 +1262,7 @@
   top: 30%;
 }
 
-@Keyframes rain-24 {
+@keyframes rain-24 {
   0% {
     left: 15%;
     opacity: 1;
@@ -1270,7 +1283,7 @@
   top: 30%;
 }
 
-@Keyframes rain-25 {
+@keyframes rain-25 {
   0% {
     left: 51%;
     opacity: 1;
@@ -1291,7 +1304,7 @@
   top: 30%;
 }
 
-@Keyframes rain-26 {
+@keyframes rain-26 {
   0% {
     left: 74%;
     opacity: 1;
@@ -1312,7 +1325,7 @@
   top: 30%;
 }
 
-@Keyframes rain-27 {
+@keyframes rain-27 {
   0% {
     left: 41%;
     opacity: 1;
@@ -1333,7 +1346,7 @@
   top: 30%;
 }
 
-@Keyframes rain-28 {
+@keyframes rain-28 {
   0% {
     left: 23%;
     opacity: 1;
@@ -1354,7 +1367,7 @@
   top: 30%;
 }
 
-@Keyframes rain-29 {
+@keyframes rain-29 {
   0% {
     left: 39%;
     opacity: 1;
@@ -1375,7 +1388,7 @@
   top: 30%;
 }
 
-@Keyframes rain-30 {
+@keyframes rain-30 {
   0% {
     left: 28%;
     opacity: 1;
@@ -1396,7 +1409,7 @@
   top: 30%;
 }
 
-@Keyframes rain-30 {
+@keyframes rain-30 {
   0% {
     left: 28%;
     opacity: 1;
@@ -1417,7 +1430,7 @@
   top: 30%;
 }
 
-@Keyframes rain-30 {
+@keyframes rain-30 {
   0% {
     left: 28%;
     opacity: 1;
@@ -1438,7 +1451,7 @@
   top: 30%;
 }
 
-@Keyframes rain-30 {
+@keyframes rain-30 {
   0% {
     left: 28%;
     opacity: 1;
@@ -1459,7 +1472,7 @@
   top: 30%;
 }
 
-@Keyframes rain-30 {
+@keyframes rain-30 {
   0% {
     left: 28%;
     opacity: 1;
@@ -1489,7 +1502,7 @@
   top: 30%;
 }
 
-@Keyframes rain-2-1 {
+@keyframes rain-2-1 {
   0% {
     width: 7px;
     left: 52%;
@@ -1497,7 +1510,7 @@
     top: 30%;
   }
   100% {
-  width: 4px;
+    width: 4px;
     opacity: 0;
     top: 142%;
   }
@@ -1512,7 +1525,7 @@
   top: 30%;
 }
 
-@Keyframes rain-2-2 {
+@keyframes rain-2-2 {
   0% {
     width: 7px;
     left: 54%;
@@ -1520,7 +1533,7 @@
     top: 30%;
   }
   100% {
-  width: 4px;
+    width: 4px;
     opacity: 0;
     top: 130%;
   }
@@ -1535,7 +1548,7 @@
   top: 30%;
 }
 
-@Keyframes rain-2-3 {
+@keyframes rain-2-3 {
   0% {
     width: 7px;
     left: 53%;
@@ -1543,7 +1556,7 @@
     top: 30%;
   }
   100% {
-  width: 4px;
+    width: 4px;
     opacity: 0;
     top: 138%;
   }
@@ -1558,7 +1571,7 @@
   top: 30%;
 }
 
-@Keyframes rain-2-4 {
+@keyframes rain-2-4 {
   0% {
     width: 7px;
     left: 66%;
@@ -1566,7 +1579,7 @@
     top: 30%;
   }
   100% {
-  width: 4px;
+    width: 4px;
     opacity: 0;
     top: 143%;
   }
@@ -1581,7 +1594,7 @@
   top: 30%;
 }
 
-@Keyframes rain-2-5 {
+@keyframes rain-2-5 {
   0% {
     width: 7px;
     left: 39%;
@@ -1589,7 +1602,7 @@
     top: 30%;
   }
   100% {
-  width: 4px;
+    width: 4px;
     opacity: 0;
     top: 138%;
   }
@@ -1604,7 +1617,7 @@
   top: 30%;
 }
 
-@Keyframes rain-2-6 {
+@keyframes rain-2-6 {
   0% {
     width: 7px;
     left: 90%;
@@ -1612,7 +1625,7 @@
     top: 30%;
   }
   100% {
-  width: 4px;
+    width: 4px;
     opacity: 0;
     top: 137%;
   }
@@ -1627,7 +1640,7 @@
   top: 30%;
 }
 
-@Keyframes rain-2-7 {
+@keyframes rain-2-7 {
   0% {
     width: 7px;
     left: 50%;
@@ -1635,7 +1648,7 @@
     top: 30%;
   }
   100% {
-  width: 4px;
+    width: 4px;
     opacity: 0;
     top: 131%;
   }
@@ -1650,7 +1663,7 @@
   top: 30%;
 }
 
-@Keyframes rain-2-8 {
+@keyframes rain-2-8 {
   0% {
     width: 7px;
     left: 76%;
@@ -1658,7 +1671,7 @@
     top: 30%;
   }
   100% {
-  width: 4px;
+    width: 4px;
     opacity: 0;
     top: 136%;
   }
@@ -1673,7 +1686,7 @@
   top: 30%;
 }
 
-@Keyframes rain-2-9 {
+@keyframes rain-2-9 {
   0% {
     width: 7px;
     left: 80%;
@@ -1681,7 +1694,7 @@
     top: 30%;
   }
   100% {
-  width: 4px;
+    width: 4px;
     opacity: 0;
     top: 147%;
   }
@@ -1696,7 +1709,7 @@
   top: 30%;
 }
 
-@Keyframes rain-2-10 {
+@keyframes rain-2-10 {
   0% {
     width: 7px;
     left: 27%;
@@ -1704,7 +1717,7 @@
     top: 30%;
   }
   100% {
-  width: 4px;
+    width: 4px;
     opacity: 0;
     top: 134%;
   }
@@ -1719,7 +1732,7 @@
   top: 30%;
 }
 
-@Keyframes rain-2-11 {
+@keyframes rain-2-11 {
   0% {
     width: 7px;
     left: 29%;
@@ -1727,7 +1740,7 @@
     top: 30%;
   }
   100% {
-  width: 4px;
+    width: 4px;
     opacity: 0;
     top: 143%;
   }
@@ -1742,7 +1755,7 @@
   top: 30%;
 }
 
-@Keyframes rain-2-12 {
+@keyframes rain-2-12 {
   0% {
     width: 7px;
     left: 73%;
@@ -1750,7 +1763,7 @@
     top: 30%;
   }
   100% {
-  width: 4px;
+    width: 4px;
     opacity: 0;
     top: 140%;
   }
@@ -1765,7 +1778,7 @@
   top: 30%;
 }
 
-@Keyframes rain-2-13 {
+@keyframes rain-2-13 {
   0% {
     width: 7px;
     left: 64%;
@@ -1773,7 +1786,7 @@
     top: 30%;
   }
   100% {
-  width: 4px;
+    width: 4px;
     opacity: 0;
     top: 143%;
   }
@@ -1788,7 +1801,7 @@
   top: 30%;
 }
 
-@Keyframes rain-2-14 {
+@keyframes rain-2-14 {
   0% {
     width: 7px;
     left: 70%;
@@ -1796,7 +1809,7 @@
     top: 30%;
   }
   100% {
-  width: 4px;
+    width: 4px;
     opacity: 0;
     top: 129%;
   }
@@ -1811,7 +1824,7 @@
   top: 30%;
 }
 
-@Keyframes rain-2-15 {
+@keyframes rain-2-15 {
   0% {
     width: 7px;
     left: 23%;
@@ -1819,7 +1832,7 @@
     top: 30%;
   }
   100% {
-  width: 4px;
+    width: 4px;
     opacity: 0;
     top: 143%;
   }
@@ -1834,7 +1847,7 @@
   top: 30%;
 }
 
-@Keyframes rain-2-16 {
+@keyframes rain-2-16 {
   0% {
     width: 7px;
     left: 9%;
@@ -1842,7 +1855,7 @@
     top: 30%;
   }
   100% {
-  width: 4px;
+    width: 4px;
     opacity: 0;
     top: 136%;
   }
@@ -1857,7 +1870,7 @@
   top: 30%;
 }
 
-@Keyframes rain-2-17 {
+@keyframes rain-2-17 {
   0% {
     width: 7px;
     left: 45%;
@@ -1865,7 +1878,7 @@
     top: 30%;
   }
   100% {
-  width: 4px;
+    width: 4px;
     opacity: 0;
     top: 143%;
   }
@@ -1880,7 +1893,7 @@
   top: 30%;
 }
 
-@Keyframes rain-2-18 {
+@keyframes rain-2-18 {
   0% {
     width: 7px;
     left: 17%;
@@ -1888,7 +1901,7 @@
     top: 30%;
   }
   100% {
-  width: 4px;
+    width: 4px;
     opacity: 0;
     top: 134%;
   }
@@ -1903,7 +1916,7 @@
   top: 30%;
 }
 
-@Keyframes rain-2-19 {
+@keyframes rain-2-19 {
   0% {
     width: 7px;
     left: 47%;
@@ -1911,7 +1924,7 @@
     top: 30%;
   }
   100% {
-  width: 4px;
+    width: 4px;
     opacity: 0;
     top: 139%;
   }
@@ -1926,7 +1939,7 @@
   top: 30%;
 }
 
-@Keyframes rain-2-20 {
+@keyframes rain-2-20 {
   0% {
     width: 7px;
     left: 53%;
@@ -1934,7 +1947,7 @@
     top: 30%;
   }
   100% {
-  width: 4px;
+    width: 4px;
     opacity: 0;
     top: 137%;
   }
@@ -1949,7 +1962,7 @@
   top: 30%;
 }
 
-@Keyframes rain-2-21 {
+@keyframes rain-2-21 {
   0% {
     width: 7px;
     left: 10%;
@@ -1957,7 +1970,7 @@
     top: 30%;
   }
   100% {
-  width: 4px;
+    width: 4px;
     opacity: 0;
     top: 130%;
   }
@@ -1972,7 +1985,7 @@
   top: 30%;
 }
 
-@Keyframes rain-2-22 {
+@keyframes rain-2-22 {
   0% {
     width: 7px;
     left: 22%;
@@ -1980,7 +1993,7 @@
     top: 30%;
   }
   100% {
-  width: 4px;
+    width: 4px;
     opacity: 0;
     top: 137%;
   }
@@ -1995,7 +2008,7 @@
   top: 30%;
 }
 
-@Keyframes rain-2-23 {
+@keyframes rain-2-23 {
   0% {
     width: 7px;
     left: 36%;
@@ -2003,7 +2016,7 @@
     top: 30%;
   }
   100% {
-  width: 4px;
+    width: 4px;
     opacity: 0;
     top: 131%;
   }
@@ -2018,7 +2031,7 @@
   top: 30%;
 }
 
-@Keyframes rain-2-24 {
+@keyframes rain-2-24 {
   0% {
     width: 7px;
     left: 15%;
@@ -2026,7 +2039,7 @@
     top: 30%;
   }
   100% {
-  width: 4px;
+    width: 4px;
     opacity: 0;
     top: 131%;
   }
@@ -2041,7 +2054,7 @@
   top: 30%;
 }
 
-@Keyframes rain-2-25 {
+@keyframes rain-2-25 {
   0% {
     width: 7px;
     left: 51%;
@@ -2049,7 +2062,7 @@
     top: 30%;
   }
   100% {
-  width: 4px;
+    width: 4px;
     opacity: 0;
     top: 142%;
   }
@@ -2064,7 +2077,7 @@
   top: 30%;
 }
 
-@Keyframes rain-2-26 {
+@keyframes rain-2-26 {
   0% {
     width: 7px;
     left: 74%;
@@ -2072,7 +2085,7 @@
     top: 30%;
   }
   100% {
-  width: 4px;
+    width: 4px;
     opacity: 0;
     top: 139%;
   }
@@ -2087,7 +2100,7 @@
   top: 30%;
 }
 
-@Keyframes rain-2-27 {
+@keyframes rain-2-27 {
   0% {
     width: 7px;
     left: 41%;
@@ -2095,7 +2108,7 @@
     top: 30%;
   }
   100% {
-  width: 4px;
+    width: 4px;
     opacity: 0;
     top: 132%;
   }
@@ -2110,7 +2123,7 @@
   top: 30%;
 }
 
-@Keyframes rain-2-28 {
+@keyframes rain-2-28 {
   0% {
     width: 7px;
     left: 23%;
@@ -2118,7 +2131,7 @@
     top: 30%;
   }
   100% {
-  width: 4px;
+    width: 4px;
     opacity: 0;
     top: 135%;
   }
@@ -2133,7 +2146,7 @@
   top: 30%;
 }
 
-@Keyframes rain-2-29 {
+@keyframes rain-2-29 {
   0% {
     width: 7px;
     left: 39%;
@@ -2141,7 +2154,7 @@
     top: 30%;
   }
   100% {
-  width: 4px;
+    width: 4px;
     opacity: 0;
     top: 135%;
   }
@@ -2156,7 +2169,7 @@
   top: 30%;
 }
 
-@Keyframes rain-2-30 {
+@keyframes rain-2-30 {
   0% {
     width: 7px;
     left: 28%;
@@ -2164,7 +2177,7 @@
     top: 30%;
   }
   100% {
-  width: 4px;
+    width: 4px;
     opacity: 0;
     top: 133%;
   }
