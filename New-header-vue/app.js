@@ -579,7 +579,7 @@ let title = {
         {
             id: 1,
             name: 'ფერებით მოთხრობილი ამბავი',
-            link: 'Art-Lessons/color_story/1366-236.html'
+            link: 'Art-Class/color_story/1.html'
         },
         {
             id: 2,
@@ -599,7 +599,7 @@ let title = {
         {
             id: 5,
             name: 'თავგადასავალი',
-            link: 'Art-Lessons/Adventure/A-1366-05-2.html'
+            link: 'Art-Class/Adventure/1.html'
         },
         {
             id: 6,
