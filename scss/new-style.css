@@ -26335,6 +26335,7 @@ td img {
 }
 
 .direcion-pointer_box-image img {
+  cursor: pointer;
   height: 100%;
 }
 
@@ -26346,6 +26347,15 @@ td img {
 
 .clock-box img {
   height: 100%;
+}
+
+.clock-box #time {
+  position: absolute;
+  top: 63%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 0.9vw;
 }
 
 .counter-box {
@@ -26363,7 +26373,35 @@ td img {
 }
 
 .counter-box_number {
+  font-size: 2vh;
   color: #ffffff;
+}
+
+@-webkit-keyframes fadeInUp {
+  0% {
+    -webkit-transform: translate3d(0, 200%, 0);
+            transform: translate3d(0, 200%, 0);
+  }
+  to {
+    -webkit-transform: translateZ(-50px);
+            transform: translateZ(-50px);
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    -webkit-transform: translate3d(0, 200%, 0);
+            transform: translate3d(0, 200%, 0);
+  }
+  to {
+    -webkit-transform: translateZ(-50px);
+            transform: translateZ(-50px);
+  }
+}
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
 }
 
 .object_moving-img_box_17 {
@@ -26589,6 +26627,7 @@ td img {
 }
 
 .direcion-pointer_box-image img {
+  cursor: pointer;
   height: 100%;
 }
 
@@ -26600,6 +26639,15 @@ td img {
 
 .clock-box img {
   height: 100%;
+}
+
+.clock-box #time {
+  position: absolute;
+  top: 63%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 0.9vw;
 }
 
 .counter-box {
@@ -26617,7 +26665,24 @@ td img {
 }
 
 .counter-box_number {
+  font-size: 2vh;
   color: #ffffff;
+}
+
+@keyframes fadeInUp {
+  0% {
+    -webkit-transform: translate3d(0, 200%, 0);
+            transform: translate3d(0, 200%, 0);
+  }
+  to {
+    -webkit-transform: translateZ(-50px);
+            transform: translateZ(-50px);
+  }
+}
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
 }
 
 .object_moving-img_box_17 {
