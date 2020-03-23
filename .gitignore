@@ -2,13 +2,14 @@
 # Logs
 logs
 *.sass-cache
+*.DS_Store
+*.vscode
 *.log
 *.css.map
 *.map
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-*.DS_Store
 
 # Runtime data
 pids

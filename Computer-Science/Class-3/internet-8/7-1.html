@@ -33,50 +33,34 @@
 </head>
 
 <body>
-<div class="container">
-    <section id="app" class="container position-absolute">
-        <header>
-            <app-menu v-logo="'../../../'" :is-active="isActive" :toggle="toggle"></app-menu>
+<div class="container mt-5vh">
+      <header>
+            <a class="close" href="./7.html">
+                <img alt="close" src="../../../img/icons/close.svg"/>
+            </a>
         </header>
-
-        <app-section v-image="'../../../'" :is-active="isActive">
-            <app-bar
-                    :is-active="isActive"
-                    :trigger="trigger"
-                    :dots="dots"
-                    :current-tab="link"
-                    v-on:link-tab="link = $event">
-
-            </app-bar>
-            <component
-                    :is="currentTabComponent"
-                    :is-active="isActive"
-                    :path="path"
-                    :trigger="trigger"
-                    :images="images"
-                    :active-class="activeClass"
-                    :tab-class="currentTabComponent">
-            </component>
-        </app-section>
-    </section>
     <section id="mainPage">
         <div class="row">
             <div class="col-9 m-auto ">
+                  <div class="newDesign_container_main_title-cont newDesign_container_main_title-cont-margin">
+                        <h1 class="newDesign_container_main_title">როგორ მუშაობს ინტერნეტი</h1>
+                        <img alt="img" class="newDesign_container_main_title-img" src="../../../img/icons/comp_main_title_border.svg">
+                    </div>
                   <div class="newDesign_subject_question_item mt-5vh">
                       <img src="../../../img/icons/newDesign_btn-yellow.svg" alt="img"
                            class="newDesign_subject_question_item-img">
                       <p class="newDesign_subject_question_item-title big-font-size-20px-dejavu" >
                         სერვერი არის ვეებერთელა კომპიუტერი, რომელშიც უზარმაზარი ინფორმაცია<br>
                          ინახება (მუსიკა, სურათები, ვიდეოები და ა.შ.) ამ ინფორმაციას მოიხმარს<br>
-                          მილიონობით კომპიუტერი.      
-                  </div>  
-                   
+                          მილიონობით კომპიუტერი.
+                  </div>
+
         </div>
-        <div class="cs-2-3-8-7-1-img-div">
+        <div class="col-11 m-auto justify-content-center d-flex cs-2-3-8-5-1-img-div">
             <img src="../../../img/gakvetilebi/Computer-Science/Class-3/internet-8/cs-2-3-8-7-1.svg" alt="">
-       </div>  
-           
-        
+       </div>
+
+
         <div class="left_components_paging-cont">
             <svg class="left_components_paging" xmlns="http://www.w3.org/2000/svg"
                  xmlns:xlink="http://www.w3.org/1999/xlink" width="134" height="722" viewBox="0 0 134 722">
@@ -148,7 +132,7 @@
                           data-name="Path 24922"
                           d="M-107,293.662h-25.155a28.388,28.388,0,0,0-21.1,9.686A34.87,34.87,0,0,0-162,326.736c0,18.266,13.362,33.074,29.844,33.074H-107c20.013,0,36.24,17.983,36.24,40.162V253.5C-70.762,275.679-86.988,293.662-107,293.662Z"
                           transform="translate(195.761 283.264)" fill="#7fd1d8"/>
-                    <path class="leftSidebar_type" style="opacity: 0" data-type="3" id="Path_143735"
+                    <path class="leftSidebar_type" style="opacity: 1" data-type="3" id="Path_143735"
                           data-name="Path 143735"
                           d="M-107,293.662h-25.155a28.388,28.388,0,0,0-21.1,9.686A34.87,34.87,0,0,0-162,326.736c0,18.266,13.362,33.074,29.844,33.074H-107c20.013,0,36.24,17.983,36.24,40.162V253.5C-70.762,275.679-86.988,293.662-107,293.662Z"
                           transform="translate(195.761 57.264)" fill="#7fd1d8"/>
@@ -478,17 +462,6 @@
                     </text>
                 </g>
             </svg>
-        </div>
-        <div class="our__pagination flex">
-            <a href="#" class="pagination__prev__btn">
-                <img style="transform: rotate(180deg)" src="../../../img/icons/chevron-left-icon.svg" alt="">
-            </a>
-
-            <div id="pagination" class="flex align-items-center"></div>
-
-            <a href="#" class="pagination__next__btn">
-                <img src="../../../img/icons/chevron-left-icon.svg" alt="">
-            </a>
         </div>
     </section>
 </div>
