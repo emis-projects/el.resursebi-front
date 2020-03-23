@@ -22338,13 +22338,11 @@ td img {
 .clock-box img {
   height: 100%;
 }
-
 .clock-box #time {
   position: absolute;
   top: 63%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   font-size: 0.9vw;
 }
 
@@ -22365,28 +22363,14 @@ td img {
   color: #ffffff;
 }
 
-@-webkit-keyframes fadeInUp {
-  0% {
-    -webkit-transform: translate3d(0, 200%, 0);
-            transform: translate3d(0, 200%, 0);
-  }
-  to {
-    -webkit-transform: translateZ(-50px);
-            transform: translateZ(-50px);
-  }
-}
-
 @keyframes fadeInUp {
   0% {
-    -webkit-transform: translate3d(0, 200%, 0);
-            transform: translate3d(0, 200%, 0);
+    transform: translate3d(0, 200%, 0);
   }
   to {
-    -webkit-transform: translateZ(-50px);
-            transform: translateZ(-50px);
+    transform: translateZ(-50px);
   }
 }
-
 .fadeInUp {
   -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp;
@@ -22607,13 +22591,11 @@ td img {
 .clock-box img {
   height: 100%;
 }
-
 .clock-box #time {
   position: absolute;
   top: 63%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   font-size: 0.9vw;
 }
 
@@ -22636,15 +22618,12 @@ td img {
 
 @keyframes fadeInUp {
   0% {
-    -webkit-transform: translate3d(0, 200%, 0);
-            transform: translate3d(0, 200%, 0);
+    transform: translate3d(0, 200%, 0);
   }
   to {
-    -webkit-transform: translateZ(-50px);
-            transform: translateZ(-50px);
+    transform: translateZ(-50px);
   }
 }
-
 .fadeInUp {
   -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp;
