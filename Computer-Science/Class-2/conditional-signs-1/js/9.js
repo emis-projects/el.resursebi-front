@@ -148,6 +148,12 @@ function game(){
 
             } else if(loc == "/Computer-Science/Class-3/Visual-Communication-6/11.html" || loc == "/el.resursebi-front/Computer-Science/Class-3/Visual-Communication-6/11.html"){
                 location.href = "game-success-11.html"
+
+            } else if(loc == "/Computer-Science/Class-2/user-interface-6/6.html" || loc == "/el.resursebi-front/Computer-Science/Class-2/user-interface-6/6.html"){
+                location.href = "game-success-6.html"
+
+            } else if(loc == "/Computer-Science/Class-2/user-interface-6/14.html" || loc == "/el.resursebi-front/Computer-Science/Class-2/user-interface-6/14.html"){
+                location.href = "game-success-14.html"
             }
 
         } else {
