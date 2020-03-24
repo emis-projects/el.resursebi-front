@@ -4021,7 +4021,7 @@ section .arrow_up_down_downArrow img {
 
 .newDesign_subject_question_item-title {
   color: #262626;
-  font-size: 2.3vh;
+  font-size: 2.6vh;
   font-family: "DejaVuSans";
   line-height: 3.9vh;
   margin-left: 2vh;
@@ -9526,13 +9526,10 @@ section .arrow_up_down_downArrow img {
 
 .house-sketch-fullcolor {
   height: 39.37vh;
-  position: absolute;
-  left: 23.42vw;
-  bottom: 14vh;
 }
 
 .house-sketch-fullcolor img {
-  height: 39.37vh;
+  height: 100%;
 }
 
 .A-1366-03-5-img {
@@ -27115,6 +27112,7 @@ td img {
 }
 
 .direcion-pointer_box-image img {
+  cursor: pointer;
   height: 100%;
 }
 
@@ -27126,6 +27124,15 @@ td img {
 
 .clock-box img {
   height: 100%;
+}
+
+.clock-box #time {
+  position: absolute;
+  top: 63%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 0.9vw;
 }
 
 .counter-box {
@@ -27143,7 +27150,51 @@ td img {
 }
 
 .counter-box_number {
+  font-size: 2vh;
   color: #ffffff;
+}
+
+@-webkit-keyframes fadeInUp {
+  0% {
+    -webkit-transform: translate3d(0, 200%, 0);
+            transform: translate3d(0, 200%, 0);
+    opacity: 1;
+    visibility: visible;
+  }
+  99% {
+    -webkit-transform: translateZ(-50px);
+            transform: translateZ(-50px);
+    opacity: 1;
+    visibility: visible;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    -webkit-transform: translate3d(0, 200%, 0);
+            transform: translate3d(0, 200%, 0);
+    opacity: 1;
+    visibility: visible;
+  }
+  99% {
+    -webkit-transform: translateZ(-50px);
+            transform: translateZ(-50px);
+    opacity: 1;
+    visibility: visible;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
 }
 
 .object_moving-img_box_17 {
@@ -27369,6 +27420,7 @@ td img {
 }
 
 .direcion-pointer_box-image img {
+  cursor: pointer;
   height: 100%;
 }
 
@@ -27380,6 +27432,15 @@ td img {
 
 .clock-box img {
   height: 100%;
+}
+
+.clock-box #time {
+  position: absolute;
+  top: 63%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 0.9vw;
 }
 
 .counter-box {
@@ -27397,7 +27458,32 @@ td img {
 }
 
 .counter-box_number {
+  font-size: 2vh;
   color: #ffffff;
+}
+
+@keyframes fadeInUp {
+  0% {
+    -webkit-transform: translate3d(0, 200%, 0);
+            transform: translate3d(0, 200%, 0);
+    opacity: 1;
+    visibility: visible;
+  }
+  99% {
+    -webkit-transform: translateZ(-50px);
+            transform: translateZ(-50px);
+    opacity: 1;
+    visibility: visible;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
 }
 
 .object_moving-img_box_17 {
@@ -29903,10 +29989,6 @@ td img {
   margin-bottom: 3vh;
 }
 
-.adventure {
-  color: red;
-}
-
 .adventure-1_image-box {
   position: fixed;
   top: 0;
@@ -29930,6 +30012,144 @@ td img {
 
 .adventure-4_image-box img {
   height: 100%;
+}
+
+.adventure-5-1_image-box {
+  height: 34vh;
+  max-height: 266px;
+}
+
+.adventure-5-1_image-box img {
+  height: 100%;
+}
+
+.adventure-5-2_image-box {
+  height: 47vh;
+  max-height: 366px;
+}
+
+.adventure-5-2_image-box img {
+  height: 100%;
+}
+
+.adventure-8-1_image-box {
+  height: auto;
+}
+
+.adventure-8-1_image-box img {
+  height: 100%;
+}
+
+.adventure-8-1-2_print_button {
+  height: 4.2vh;
+  width: 4.2vh;
+  max-height: 33px;
+  max-width: 33px;
+  bottom: 2.6vh;
+  right: 2.6vh;
+  background: white;
+  border-radius: 100%;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.adventure-8-1-2_print_button img {
+  max-height: 16px;
+  height: 80%;
+}
+
+.adventure-8-1-2_box-wrapper {
+  height: 43vh;
+  width: 17vw;
+  max-width: 232px;
+  max-height: 332px;
+}
+
+.adventure-8-1-2_box-wrapper img {
+  height: 100%;
+}
+
+.adventure-9_main-box {
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: url("../img/gakvetilebi/xelovneba/adventure/A-1366-05-20.svg") no-repeat center;
+  background-size: cover;
+}
+
+.adventure-9_title {
+  color: #ffffff;
+  font-family: 'DejaVu Sans Oblique', serif;
+  font-size: 3.6vh;
+}
+
+.adventure-10_main-box {
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: url("../img/gakvetilebi/xelovneba/adventure/A-1366-05-20-1.svg") no-repeat center;
+  background-size: cover;
+}
+
+.adventure-10_title {
+  color: #ffffff;
+  font-family: 'DejaVu Sans Oblique', serif;
+  font-size: 3.6vh;
+}
+
+.adventure-11_main-box {
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: url("../img/gakvetilebi/xelovneba/adventure/A-1366-05-20-1-1.svg") no-repeat center;
+  background-size: cover;
+}
+
+.adventure-11_title {
+  color: #ffffff;
+  font-family: 'DejaVu Sans Oblique', serif;
+  font-size: 3.6vh;
+}
+
+.adventure-12_main-box {
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: url("../img/gakvetilebi/xelovneba/adventure/A-1366-05-20-1-2.svg") no-repeat center;
+  background-size: cover;
+}
+
+.adventure-12_title {
+  color: #ffffff;
+  font-family: 'DejaVu Sans Oblique', serif;
+  font-size: 3.6vh;
+}
+
+.adventure .portfolio-slider.owl-theme .owl-dots .owl-dot span {
+  width: 13.9vh;
+  height: 13.9vh;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 1.3vw;
 }
 
 .Landscape_6-title_item {
@@ -29959,6 +30179,139 @@ td img {
 
 .Landscape_6-img_box_4 img {
   height: 100%;
+}
+
+.calm_and_stormy-1_image-box {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+}
+
+.calm_and_stormy-1_image-box img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.art-3-div-img-4-1 {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: 37.85vh;
+}
+
+.art-3-div-img-4-1 img {
+  height: 100%;
+}
+
+.Forest-5 img {
+  float: right;
+  height: 100%;
+}
+
+.subject_question_item p {
+  font-family: 'BPG Arial', sans-serif;
+}
+
+.bg_image {
+  max-height: 280px;
+  height: 44vh;
+}
+
+.bg_image .img-box_wrappers {
+  width: 100%;
+  height: 30%;
+}
+
+.bg_image .img-box_wrappers:nth-child(2) {
+  height: 40%;
+}
+
+.bg_image .img-box_wrappers:nth-child(2) img {
+  padding-right: 30px;
+}
+
+.bg_image .img-box_wrappers img {
+  height: 70%;
+  padding-right: 20px;
+}
+
+.bg_image_art {
+  max-height: 315px;
+  height: 44vh;
+}
+
+.bg_image_art .mid-image-wrapper {
+  top: 34%;
+  -webkit-transform: translateY(-34%);
+          transform: translateY(-34%);
+  left: 48%;
+  -webkit-transform: translateX(-48%);
+          transform: translateX(-48%);
+  height: 10vh;
+}
+
+.bg_image_art .mid-image-wrapper img {
+  height: 100%;
+}
+
+.bg_image_art .mid-image-wrapper img:first-child {
+  margin-right: 8vw;
+}
+
+.bg_image_art .img-box_wrappers {
+  width: 100%;
+  height: 46%;
+  max-height: 200px;
+}
+
+.bg_image_art .img-box_wrappers img {
+  height: 100%;
+  max-width: 200px;
+}
+
+.bg_image_art .img-box_wrappers img:nth-child(2) {
+  height: 70%;
+}
+
+.background-art-3-16 {
+  background-image: url(../img/gakvetilebi/xelovneba/forest/1366-03-38.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-art-3-17 {
+  background-image: url(../img/gakvetilebi/xelovneba/forest/1366-03-39.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-art-3-18 {
+  background-image: url(../img/gakvetilebi/xelovneba/forest/1366-03-40.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-art-3-19 {
+  background-image: url(../img/gakvetilebi/xelovneba/forest/1366-03-41.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-art-3-title {
+  color: white;
+  font-family: 'DejaVu Sans Oblique';
+  font-size: 3.64vh;
+}
+
+.background-art-3-title-cont {
+  padding-top: 10vh;
 }
 
 body {

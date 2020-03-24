@@ -49,56 +49,45 @@
         <div class="row">
             <div class="col-11 m-auto">
                 <div class="row">
-                    <div class="col-3 d-flex flex-column">
+                    <div class="col-3 d-flex flex-column align-items-center">
                         <div class="top-pointer_images-box d-flex justify-content-center">
-                            <img alt="pointers"
-                                 src="../../../img/gakvetilebi/Computer-Science/Class-5/objects-moving-4/C-5-4-16-180.svg">
+                            <img alt="pointers" src="../../../img/gakvetilebi/Computer-Science/Class-5/objects-moving-4/C-5-4-16-180.svg">
                         </div>
-                        <div class="direcion-pointer_box-image d-flex justify-content-center mt-8vh">
-                            <img alt="directions"
-                                 src="../../../img/gakvetilebi/Computer-Science/Class-5/objects-moving-4/C-5-4-right.svg">
-                        </div>
+                        <div class="direcion-pointer_box-image d-flex justify-content-center mt-8vh" data-answer="bottom"></div>
                     </div>
-                    <div class="col-3 d-flex flex-column">
+
+                    <div class="col-3 d-flex flex-column align-items-center">
                         <div class="top-pointer_images-box d-flex justify-content-center">
-                            <img alt="pointers"
-                                 src="../../../img/gakvetilebi/Computer-Science/Class-5/objects-moving-4/C-5-4-16-90.svg">
+                            <img alt="pointers" src="../../../img/gakvetilebi/Computer-Science/Class-5/objects-moving-4/C-5-4-16-90.svg">
                         </div>
-                        <div class="direcion-pointer_box-image d-flex justify-content-center mt-8vh">
-                            <img alt="directions"
-                                 src="../../../img/gakvetilebi/Computer-Science/Class-5/objects-moving-4/C-5-4-left.svg">
-                        </div>
+                        <div class="direcion-pointer_box-image d-flex justify-content-center mt-8vh" data-answer="right"></div>
                     </div>
-                    <div class="col-3 d-flex flex-column">
+
+                    <div class="col-3 d-flex flex-column align-items-center">
                         <div class="top-pointer_images-box d-flex justify-content-center">
-                            <img alt="pointers"
-                                 src="../../../img/gakvetilebi/Computer-Science/Class-5/objects-moving-4/C-5-4-16-0.svg">
+                            <img alt="pointers" src="../../../img/gakvetilebi/Computer-Science/Class-5/objects-moving-4/C-5-4-16-0.svg">
                         </div>
-                        <div class="direcion-pointer_box-image d-flex justify-content-center mt-8vh">
-                            <img alt="directions"
-                                 src="../../../img/gakvetilebi/Computer-Science/Class-5/objects-moving-4/C-5-4-up.svg">
-                        </div>
+                        <div class="direcion-pointer_box-image d-flex justify-content-center mt-8vh" data-answer="top"></div>
                     </div>
-                    <div class="col-3 d-flex flex-column">
+
+                    <div class="col-3 d-flex flex-column align-items-center">
                         <div class="top-pointer_images-box d-flex justify-content-center">
-                            <img alt="pointers"
-                                 src="../../../img/gakvetilebi/Computer-Science/Class-5/objects-moving-4/C-5-4-16-90-.svg">
+                            <img alt="pointers" src="../../../img/gakvetilebi/Computer-Science/Class-5/objects-moving-4/C-5-4-16-90-.svg">
                         </div>
-                        <div class="direcion-pointer_box-image d-flex justify-content-center mt-8vh">
-                            <img alt="directions"
-                                 src="../../../img/gakvetilebi/Computer-Science/Class-5/objects-moving-4/C-5-4-down.svg">
-                        </div>
+                        <div class="direcion-pointer_box-image d-flex justify-content-center mt-8vh" data-answer="left"></div>
                     </div>
+
                 </div>
             </div>
+            
             <div class="col-11 mt-15vh ml-3 d-flex align-items-end">
-                <div class="clock-box">
-                    <img alt="clock"
-                         src="../../../img/gakvetilebi/Computer-Science/Class-5/objects-moving-4/C-5-4-Clock.svg">
+                <div class="clock-box relative">
+                    <img alt="clock" id="clock" src="../../../img/gakvetilebi/Computer-Science/Class-5/objects-moving-4/C-5-4-Clock.svg" />
+                    <span id="time">30 წ</span>
                 </div>
                 <div class="counter-box ml-4 d-flex justify-content-around align-items-center">
                     <p class="counter-box_text dj-2_6vh">ქულა</p>
-                    <div class="counter-box_number">0</div>
+                    <div class="counter-box_number" id="numberOfScore"></div>
                 </div>
             </div>
         </div>
@@ -107,6 +96,8 @@
             <button class="reset__btn" id="resetBtn">თავიდან სცადე</button>
             <button class="completed__btn" id="completedGame">დასრულება</button>
         </div>
+
+
         <div class="left_components_paging-cont">
             <svg class="left_components_paging" height="722"
                  viewBox="0 0 134 722" width="134" xmlns="http://www.w3.org/2000/svg"
@@ -604,6 +595,7 @@
             </svg>
         </div>
 
+
         <div class="our__pagination flex">
             <a class="pagination__prev__btn" href="#">
                 <img alt="" src="../../../img/icons/chevron-left-icon.svg" style="transform: rotate(180deg)">
@@ -615,7 +607,6 @@
                 <img alt="" src="../../../img/icons/chevron-left-icon.svg">
             </a>
         </div>
-
     </section>
 </div>
 
@@ -630,6 +621,7 @@
 <script src="../../../js/libraries/jquery.magnific-popup.min.js"></script>
 <script src="../../../js/Pagination.js"></script>
 
+<script src="./js/16.js"></script>
 
 <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
 <script src="../../../New-header-vue/app.js"></script>
@@ -638,5 +630,4 @@
 
 
 </body>
-
 </html>
