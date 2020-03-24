@@ -30180,6 +30180,50 @@ td img {
   margin-left: 1.3vw;
 }
 
+.Landscape_6-title_item {
+  font-family: 'DejaVuSans';
+  font-size: 2.6vh;
+}
+
+.Landscape_6-img_box_1 {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.Landscape_6-img_box_1 img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.Landscape_6-img_box_4 {
+  height: 45.44vh;
+  max-height: 45.44vh !important;
+}
+
+.Landscape_6-img_box_4 img {
+  height: 100%;
+}
+
+.calm_and_stormy-1_image-box {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+}
+
+.calm_and_stormy-1_image-box img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .art-3-div-img-4-1 {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
@@ -32187,3 +32231,4 @@ body {
     font-size: 14px;
   }
 }
+/*# sourceMappingURL=new-style.css.map */
