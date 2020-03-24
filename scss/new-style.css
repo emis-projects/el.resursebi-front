@@ -27113,7 +27113,15 @@ td img {
 
 .direcion-pointer_box-image img {
   cursor: pointer;
-  height: 100%;
+  width: 40%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  z-index: 10000;
 }
 
 .clock-box {
@@ -27156,18 +27164,18 @@ td img {
 
 @-webkit-keyframes fadeInUp {
   0% {
-    -webkit-transform: translate3d(0, 200%, 0);
-            transform: translate3d(0, 200%, 0);
+    bottom: -100%;
     opacity: 1;
     visibility: visible;
   }
   99% {
-    -webkit-transform: translateZ(-50px);
-            transform: translateZ(-50px);
+    bottom: 99%;
     opacity: 1;
     visibility: visible;
   }
   100% {
+    bottom: 100%;
+    display: none;
     opacity: 0;
     visibility: hidden;
   }
@@ -27175,18 +27183,18 @@ td img {
 
 @keyframes fadeInUp {
   0% {
-    -webkit-transform: translate3d(0, 200%, 0);
-            transform: translate3d(0, 200%, 0);
+    bottom: -100%;
     opacity: 1;
     visibility: visible;
   }
   99% {
-    -webkit-transform: translateZ(-50px);
-            transform: translateZ(-50px);
+    bottom: 99%;
     opacity: 1;
     visibility: visible;
   }
   100% {
+    bottom: 100%;
+    display: none;
     opacity: 0;
     visibility: hidden;
   }
@@ -27195,6 +27203,12 @@ td img {
 .fadeInUp {
   -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-duration: 15s;
+          animation-duration: 15s;
 }
 
 .object_moving-img_box_17 {
@@ -27421,7 +27435,15 @@ td img {
 
 .direcion-pointer_box-image img {
   cursor: pointer;
-  height: 100%;
+  width: 40%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  z-index: 10000;
 }
 
 .clock-box {
@@ -27464,18 +27486,18 @@ td img {
 
 @keyframes fadeInUp {
   0% {
-    -webkit-transform: translate3d(0, 200%, 0);
-            transform: translate3d(0, 200%, 0);
+    bottom: -100%;
     opacity: 1;
     visibility: visible;
   }
   99% {
-    -webkit-transform: translateZ(-50px);
-            transform: translateZ(-50px);
+    bottom: 99%;
     opacity: 1;
     visibility: visible;
   }
   100% {
+    bottom: 100%;
+    display: none;
     opacity: 0;
     visibility: hidden;
   }
@@ -27484,6 +27506,12 @@ td img {
 .fadeInUp {
   -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-duration: 15s;
+          animation-duration: 15s;
 }
 
 .object_moving-img_box_17 {
