@@ -20614,6 +20614,44 @@ td img {
 
 @keyframes rain-9 {
   0% {
+    left: 76%;
+    opacity: 1;
+    top: 30%;
+  }
+  100% {
+    opacity: 0;
+    top: 136%;
+  }
+}
+
+.rain:nth-of-type(10) {
+  -webkit-animation-name: rain-10;
+          animation-name: rain-10;
+  -webkit-animation-delay: 9s;
+          animation-delay: 9s;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  left: 27%;
+  opacity: 1;
+  top: 30%;
+}
+
+@-webkit-keyframes rain-10 {
+  0% {
+    left: 80%;
+    opacity: 1;
+    top: 30%;
+  }
+  100% {
+    opacity: 0;
+    top: 147%;
+  }
+}
+
+@keyframes rain-9 {
+  0% {
     left: 80%;
     opacity: 1;
     top: 30%;
@@ -20639,6 +20677,18 @@ td img {
 }
 
 @-webkit-keyframes rain-10 {
+  0% {
+    left: 27%;
+    opacity: 1;
+    top: 30%;
+  }
+  100% {
+    opacity: 0;
+    top: 134%;
+  }
+}
+
+@keyframes rain-10 {
   0% {
     left: 27%;
     opacity: 1;
@@ -21260,13 +21310,13 @@ td img {
 
 @keyframes rain-26 {
   0% {
-    left: 74%;
+    left: 51%;
     opacity: 1;
     top: 30%;
   }
   100% {
     opacity: 0;
-    top: 139%;
+    top: 142%;
   }
 }
 
@@ -22553,14 +22603,14 @@ td img {
 @-webkit-keyframes rain-2-4 {
   0% {
     width: 7px;
-    left: 66%;
+    left: 53%;
     opacity: 1;
     top: 30%;
   }
   100% {
     width: 4px;
     opacity: 0;
-    top: 143%;
+    top: 138%;
   }
 }
 
@@ -23488,17 +23538,17 @@ td img {
   }
 }
 
-@keyframes rain-2-26 {
+@-webkit-keyframes rain-2-27 {
   0% {
     width: 7px;
-    left: 74%;
+    left: 41%;
     opacity: 1;
     top: 30%;
   }
   100% {
     width: 4px;
     opacity: 0;
-    top: 139%;
+    top: 132%;
   }
 }
 
@@ -27119,7 +27169,15 @@ td img {
 
 .direcion-pointer_box-image img {
   cursor: pointer;
-  height: 100%;
+  width: 40%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  z-index: 10000;
 }
 
 .clock-box {
@@ -27162,18 +27220,18 @@ td img {
 
 @-webkit-keyframes fadeInUp {
   0% {
-    -webkit-transform: translate3d(0, 200%, 0);
-            transform: translate3d(0, 200%, 0);
+    bottom: -100%;
     opacity: 1;
     visibility: visible;
   }
   99% {
-    -webkit-transform: translateZ(-50px);
-            transform: translateZ(-50px);
+    bottom: 99%;
     opacity: 1;
     visibility: visible;
   }
   100% {
+    bottom: 100%;
+    display: none;
     opacity: 0;
     visibility: hidden;
   }
@@ -27181,18 +27239,18 @@ td img {
 
 @keyframes fadeInUp {
   0% {
-    -webkit-transform: translate3d(0, 200%, 0);
-            transform: translate3d(0, 200%, 0);
+    bottom: -100%;
     opacity: 1;
     visibility: visible;
   }
   99% {
-    -webkit-transform: translateZ(-50px);
-            transform: translateZ(-50px);
+    bottom: 99%;
     opacity: 1;
     visibility: visible;
   }
   100% {
+    bottom: 100%;
+    display: none;
     opacity: 0;
     visibility: hidden;
   }
@@ -27201,6 +27259,12 @@ td img {
 .fadeInUp {
   -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-duration: 15s;
+          animation-duration: 15s;
 }
 
 .object_moving-img_box_17 {
@@ -27427,7 +27491,15 @@ td img {
 
 .direcion-pointer_box-image img {
   cursor: pointer;
-  height: 100%;
+  width: 40%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  z-index: 10000;
 }
 
 .clock-box {
@@ -27470,18 +27542,18 @@ td img {
 
 @keyframes fadeInUp {
   0% {
-    -webkit-transform: translate3d(0, 200%, 0);
-            transform: translate3d(0, 200%, 0);
+    bottom: -100%;
     opacity: 1;
     visibility: visible;
   }
   99% {
-    -webkit-transform: translateZ(-50px);
-            transform: translateZ(-50px);
+    bottom: 99%;
     opacity: 1;
     visibility: visible;
   }
   100% {
+    bottom: 100%;
+    display: none;
     opacity: 0;
     visibility: hidden;
   }
@@ -27490,6 +27562,12 @@ td img {
 .fadeInUp {
   -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-duration: 15s;
+          animation-duration: 15s;
 }
 
 .object_moving-img_box_17 {
@@ -30156,6 +30234,35 @@ td img {
   background-size: cover;
   background-repeat: no-repeat;
   margin-left: 1.3vw;
+}
+
+.Landscape_6-title_item {
+  font-family: 'DejaVuSans';
+  font-size: 2.6vh;
+}
+
+.Landscape_6-img_box_1 {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.Landscape_6-img_box_1 img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.Landscape_6-img_box_4 {
+  height: 45.44vh;
+  max-height: 45.44vh !important;
+}
+
+.Landscape_6-img_box_4 img {
+  height: 100%;
 }
 
 .calm_and_stormy-1_image-box {
