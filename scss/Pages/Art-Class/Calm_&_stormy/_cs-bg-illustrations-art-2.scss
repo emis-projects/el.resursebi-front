@@ -1,0 +1,29 @@
+.background-art-2-img{  
+    &-44{
+        background-image:url(../img/backgrounds/1366-59_background.svg);
+    }
+    &-45{
+        background-image:url(../img/backgrounds/1366-61_background.svg);
+    }
+    &-46{
+        background-image:url(../img/backgrounds/1366-61_background.svg);
+    }
+    &-47{
+        background-image:url(../img/backgrounds/1366-62_background.svg);
+    }
+    &-48{
+        background-image:url(../img/backgrounds/1366-63_backgrounds.svg);
+    }
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.background-art-3-title{
+    &-cont{
+        padding-top: 10vh;
+    }
+    color: white;
+    font-family: 'DejaVu Sans Oblique';
+    font-size: 3.64vh;
+}

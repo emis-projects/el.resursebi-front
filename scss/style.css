@@ -4240,7 +4240,7 @@ section .arrow_up_down_downArrow img {
 }
 
 .portfolio-slider-165.owl-theme .owl-dots .owl-dot:nth-child(1) span {
-  background-image: url("../img/gakvetilebi/xelovneba/calm-and-stormy/A-165-slider-1.jpg");
+  background-image: url("../img/gakvetilebi/xelovneba/calm-and-stormy/A-165-slider-1.png");
   background-position: top;
 }
 
@@ -5182,6 +5182,12 @@ section .arrow_up_down_downArrow img {
 
 .big-font-size-20px-dejavu {
   font-family: "DejaVuSans";
+  font-size: 2.6vh;
+  color: #0b2228;
+}
+
+.big-font-size-20px-dejavu-oblique {
+  font-family: "DejaVu Sans Oblique";
   font-size: 2.6vh;
   color: #0b2228;
 }
@@ -18156,3 +18162,4 @@ td img {
   display: -ms-flexbox;
   display: flex;
 }
+/*# sourceMappingURL=style.css.map */
