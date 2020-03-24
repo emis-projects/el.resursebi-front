@@ -84,6 +84,7 @@ function game(){
         $('.bubble__img').remove()
     }
     
+    
     this.startGame = () => {
         this.startTimer();
         this.getRandomBubblesLink(this.imgSide, 4);
