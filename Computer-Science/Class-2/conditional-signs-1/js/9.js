@@ -133,6 +133,21 @@ function game(){
 
             } else if(loc == "/Computer-Science/Class-5/objects-moving-4/17.html" || loc == "/el.resursebi-front/Computer-Science/Class-5/objects-moving-4/17.html"){
                 location.href = "game-success-17.html"
+
+            } else if(loc == "/Computer-Science/Class-2/Creating-cycles-5/6.html" || loc == "/el.resursebi-front/Computer-Science/Class-2/Creating-cycles-5/6.html"){
+                location.href = "game-success-6.html"
+
+            } else if(loc == "/Computer-Science/Class-2/Creating-cycles-5/5.html" || loc == "/el.resursebi-front/Computer-Science/Class-2/Creating-cycles-5/5.html"){
+                location.href = "game-success-5.html"
+
+            } else if(loc == "/Computer-Science/Class-4/correcting-text-8/9.html" || loc == "/el.resursebi-front/Computer-Science/Class-4/correcting-text-8/9.html"){
+                location.href = "game-success-9.html"
+
+            } else if(loc == "/Computer-Science/Class-4/correcting-text-8/18.html" || loc == "/el.resursebi-front/Computer-Science/Class-4/correcting-text-8/18.html"){
+                location.href = "game-success-18.html"
+
+            } else if(loc == "/Computer-Science/Class-3/Visual-Communication-6/11.html" || loc == "/el.resursebi-front/Computer-Science/Class-3/Visual-Communication-6/11.html"){
+                location.href = "game-success-11.html"
             }
 
         } else {
