@@ -584,7 +584,7 @@ let title = {
         {
             id: 2,
             name: 'მშვიდი და ბობოქარი',
-            link: 'Art-Lessons/calm_and_stormy/A-1366-73.html'
+            link: 'Art-Class/calm_and_stormy/1.html'
         },
         {
             id: 3,
@@ -594,7 +594,7 @@ let title = {
         {
             id: 4,
             name: 'ჯადოსნური ქვეყანა',
-            link: 'Art-Lessons/Magic-world/A-1366-04-2.html'
+            link: 'Art-Class/Magic-world/1.html'
         },
         {
             id: 5,
@@ -604,37 +604,37 @@ let title = {
         {
             id: 6,
             name: 'პეიზაჟი',
-            link: 'Art-Lessons/Landscape/A-1366-06-1.html'
+            link: 'Art-Class/Landscape/1.html'
         },
         {
             id: 7,
             name: 'ქალაქი',
-            link: '/Art-Lessons/City-07/1.html'
+            link: './Art-Class/City-07/1.html'
         },
         {
             id: 8,
             name: 'პლაკატი "გადავარჩინოთ ბუნება"',
-            link: 'Art-Lessons/rescue_nature_08/1.html'
+            link: 'Art-Class/rescue_nature_08/1.html'
         },
         {
             id: 9,
             name: 'მე და ჩემი მეგობრები',
-            link: 'Art-Lessons/friends_09/1.html'
+            link: 'Art-Class/friends_09/1.html'
         },
         {
             id: 10,
             name: 'ჩვეულებრივი და არაჩვეულებრივი ნივთები',
-            link: 'Art-Lessons/items-10/1.html'
+            link: 'Art-Class/items-10/1.html'
         },
         {
             id: 11,
             name: 'ყოველდღიური ამბები',
-            link: 'Art-Lessons/daily-news-11/1.html'
+            link: 'Art-Class/daily-news-11/1.html'
         },
         {
             id: 12,
             name: 'ვირტუალური გამოფენა',
-            link: 'Art-Lessons/VR_exhibition/1.html'
+            link: 'Art-Class/VR_exhibition/1.html'
         }
     ],
     nature: [
