@@ -57,10 +57,14 @@
 
 @keyframes fadeInUp {
   0% {
-      transform: translate3d(0, 200%, 0)
+    transform: translate3d(0, 200%, 0)
   }
-  to {
-      transform: translateZ(-50px)
+  99% {
+    transform: translateZ(-50px)
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
   }
 }
 
