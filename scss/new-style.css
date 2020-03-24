@@ -2997,7 +2997,7 @@ section .arrow_up_down_downArrow img {
 }
 
 .portfolio-slider-165.owl-theme .owl-dots .owl-dot:nth-child(1) span {
-  background-image: url("../img/gakvetilebi/xelovneba/calm-and-stormy/A-165-slider-1.jpg");
+  background-image: url("../img/gakvetilebi/xelovneba/calm-and-stormy/A-165-slider-1.png");
   background-position: top;
 }
 
@@ -4058,6 +4058,12 @@ section .arrow_up_down_downArrow img {
 
 .big-font-size-20px-dejavu {
   font-family: "DejaVuSans";
+  font-size: 2.6vh;
+  color: #0b2228;
+}
+
+.big-font-size-20px-dejavu-oblique {
+  font-family: "DejaVu Sans Oblique";
   font-size: 2.6vh;
   color: #0b2228;
 }
@@ -20608,6 +20614,44 @@ td img {
 
 @keyframes rain-9 {
   0% {
+    left: 76%;
+    opacity: 1;
+    top: 30%;
+  }
+  100% {
+    opacity: 0;
+    top: 136%;
+  }
+}
+
+.rain:nth-of-type(10) {
+  -webkit-animation-name: rain-10;
+          animation-name: rain-10;
+  -webkit-animation-delay: 9s;
+          animation-delay: 9s;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  left: 27%;
+  opacity: 1;
+  top: 30%;
+}
+
+@-webkit-keyframes rain-10 {
+  0% {
+    left: 80%;
+    opacity: 1;
+    top: 30%;
+  }
+  100% {
+    opacity: 0;
+    top: 147%;
+  }
+}
+
+@keyframes rain-9 {
+  0% {
     left: 80%;
     opacity: 1;
     top: 30%;
@@ -20633,6 +20677,18 @@ td img {
 }
 
 @-webkit-keyframes rain-10 {
+  0% {
+    left: 27%;
+    opacity: 1;
+    top: 30%;
+  }
+  100% {
+    opacity: 0;
+    top: 134%;
+  }
+}
+
+@keyframes rain-10 {
   0% {
     left: 27%;
     opacity: 1;
@@ -21254,13 +21310,13 @@ td img {
 
 @keyframes rain-26 {
   0% {
-    left: 74%;
+    left: 51%;
     opacity: 1;
     top: 30%;
   }
   100% {
     opacity: 0;
-    top: 139%;
+    top: 142%;
   }
 }
 
@@ -22547,14 +22603,14 @@ td img {
 @-webkit-keyframes rain-2-4 {
   0% {
     width: 7px;
-    left: 66%;
+    left: 53%;
     opacity: 1;
     top: 30%;
   }
   100% {
     width: 4px;
     opacity: 0;
-    top: 143%;
+    top: 138%;
   }
 }
 
@@ -23482,17 +23538,17 @@ td img {
   }
 }
 
-@keyframes rain-2-26 {
+@-webkit-keyframes rain-2-27 {
   0% {
     width: 7px;
-    left: 74%;
+    left: 41%;
     opacity: 1;
     top: 30%;
   }
   100% {
     width: 4px;
     opacity: 0;
-    top: 139%;
+    top: 132%;
   }
 }
 
@@ -30224,6 +30280,46 @@ td img {
      object-fit: cover;
 }
 
+.art-2-slider-text-28-margin {
+  margin-left: 3.1vw;
+}
+
+.background-art-2-img {
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-art-2-img-44 {
+  background-image: url(../img/backgrounds/1366-59_background.svg);
+}
+
+.background-art-2-img-45 {
+  background-image: url(../img/backgrounds/1366-61_background.svg);
+}
+
+.background-art-2-img-46 {
+  background-image: url(../img/backgrounds/1366-61_background.svg);
+}
+
+.background-art-2-img-47 {
+  background-image: url(../img/backgrounds/1366-62_background.svg);
+}
+
+.background-art-2-img-48 {
+  background-image: url(../img/backgrounds/1366-63_backgrounds.svg);
+}
+
+.background-art-3-title {
+  color: white;
+  font-family: 'DejaVu Sans Oblique';
+  font-size: 3.64vh;
+}
+
+.background-art-3-title-cont {
+  padding-top: 10vh;
+}
+
 .art-3-div-img-4-1 {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
@@ -30304,32 +30400,26 @@ td img {
   height: 70%;
 }
 
-.background-art-3-16 {
-  background-image: url(../img/gakvetilebi/xelovneba/forest/1366-03-38.svg);
+.background-art-3 {
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.background-art-3-16 {
+  background-image: url(../img/gakvetilebi/xelovneba/forest/1366-03-38.svg);
 }
 
 .background-art-3-17 {
   background-image: url(../img/gakvetilebi/xelovneba/forest/1366-03-39.svg);
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .background-art-3-18 {
   background-image: url(../img/gakvetilebi/xelovneba/forest/1366-03-40.svg);
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .background-art-3-19 {
   background-image: url(../img/gakvetilebi/xelovneba/forest/1366-03-41.svg);
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .background-art-3-title {
