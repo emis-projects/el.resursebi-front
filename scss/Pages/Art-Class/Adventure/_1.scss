@@ -1,0 +1,152 @@
+.adventure{
+  &-1_image-box{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    img{
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+  &-4_image-box{
+    margin-top: 12vh;
+    height: 29vh;
+    max-height: 224px;
+    img{
+      height: 100%;
+    }
+  }
+  &-5-1_image-box{
+    height: 34vh;
+    max-height: 266px;
+    img{
+      height: 100%;
+    }
+  }
+  &-5-2_image-box{
+    height: 47vh;
+    max-height: 366px;
+    img{
+      height: 100%;
+    }
+  }
+  &-8-1_image-box{
+    height: auto;
+    img{
+      height: 100%;
+    }
+  }
+  &-8-1-2_print_button{
+    height: 4.2vh;
+    width: 4.2vh;
+    max-height: 33px;
+    max-width: 33px;
+    bottom: 2.6vh;
+    right: 2.6vh;
+    background: white;
+    border-radius: 100%;
+    -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    img{
+      max-height: 16px;
+      height: 80%;
+    }
+  }
+  &-8-1-2_box-wrapper{
+    height: 43vh;
+    width: 17vw;
+    max-width: 232px;
+    max-height: 332px;
+    img{
+      height: 100%;
+    }
+  }
+  &-9{
+    &_main-box{
+      position: fixed;
+      height: 100vh;
+      width: 100%;
+      top: 0;
+      left: 0;
+      background: url("../img/gakvetilebi/xelovneba/adventure/A-1366-05-20.svg") no-repeat center;
+      background-size: cover;
+    }
+    &_title{
+      color: #ffffff;
+      font-family: 'DejaVu Sans Oblique', serif;
+      font-size: 3.6vh;
+    }
+  }
+  &-10{
+    &_main-box{
+      position: fixed;
+      height: 100vh;
+      width: 100%;
+      top: 0;
+      left: 0;
+      background: url("../img/gakvetilebi/xelovneba/adventure/A-1366-05-20-1.svg") no-repeat center;
+      background-size: cover;
+    }
+    &_title{
+      color: #ffffff;
+      font-family: 'DejaVu Sans Oblique', serif;
+      font-size: 3.6vh;
+    }
+  }
+  &-11{
+    &_main-box{
+      position: fixed;
+      height: 100vh;
+      width: 100%;
+      top: 0;
+      left: 0;
+      background: url("../img/gakvetilebi/xelovneba/adventure/A-1366-05-20-1-1.svg") no-repeat center;
+      background-size: cover;
+    }
+    &_title{
+      color: #ffffff;
+      font-family: 'DejaVu Sans Oblique', serif;
+      font-size: 3.6vh;
+    }
+  }
+  &-12{
+    &_main-box{
+      position: fixed;
+      height: 100vh;
+      width: 100%;
+      top: 0;
+      left: 0;
+      background: url("../img/gakvetilebi/xelovneba/adventure/A-1366-05-20-1-2.svg") no-repeat center;
+      background-size: cover;
+    }
+    &_title{
+      color: #ffffff;
+      font-family: 'DejaVu Sans Oblique', serif;
+      font-size: 3.6vh;
+    }
+  }
+
+
+  /// modal
+  .portfolio-slider.owl-theme .owl-dots .owl-dot span{
+    width: 13.9vh;
+    height: 13.9vh;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 1.3vw;
+  }
+}
