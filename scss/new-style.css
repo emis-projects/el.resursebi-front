@@ -24968,6 +24968,39 @@ td img {
   width: 100%;
   object-fit: cover;
 }
+.calm_and_stormy-3_image-box {
+  height: 58.59vh;
+  max-height: 450px;
+}
+.calm_and_stormy-3_image-box div {
+  height: 100%;
+  width: 43.92vw;
+  max-width: 600px;
+  background: url("../img/gakvetilebi/xelovneba/red_brush.svg") no-repeat center;
+  background-size: contain;
+}
+.calm_and_stormy-3_image-box div:first-child {
+  height: 28.77vh;
+  max-height: 221px;
+  width: 17.34vw;
+  max-width: 2368px;
+  background: url("../img/gakvetilebi/xelovneba/paint-boxo.svg") no-repeat center;
+}
+.calm_and_stormy-10_image-box {
+  height: 24.6vh;
+  max-height: 189px;
+}
+.calm_and_stormy-10_image-box img {
+  height: 100%;
+}
+.calm_and_stormy-12_image-box {
+  height: 59.37vh;
+  max-height: 810px;
+  width: 61.42vw;
+  max-width: 838px;
+  background: url("../img/gakvetilebi/xelovneba/colors_brush.svg") no-repeat center;
+  background-size: contain;
+}
 
 .art-3-div-img-4-1 {
   flex-wrap: wrap;
