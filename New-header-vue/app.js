@@ -584,7 +584,7 @@ let title = {
         {
             id: 2,
             name: 'მშვიდი და ბობოქარი',
-            link: 'Art-Class/calm_&_stormy/1.html'
+            link: 'Art-Class/Calm_&_stormy/1.html'
         },
         {
             id: 3,
