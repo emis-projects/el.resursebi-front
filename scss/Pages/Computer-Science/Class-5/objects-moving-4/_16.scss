@@ -13,7 +13,12 @@
 
   img {
     cursor: pointer;
-    height: 100%;
+    width: 40%;
+    height: max-content;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10000;
   }
 }
 
@@ -57,16 +62,18 @@
 
 @keyframes fadeInUp {
   0% {
-    transform: translate3d(0, 200%, 0);
+    bottom: -100%;
     opacity: 1;
     visibility: visible;
   }
   99% {
-    transform: translateZ(-50px);
+    bottom: 99%;
     opacity: 1;
     visibility: visible;
   }
   100% {
+    bottom: 100%;
+    display: none;
     opacity: 0;
     visibility: hidden;
   }
@@ -74,5 +81,8 @@
 
 .fadeInUp {
   -webkit-animation-name: fadeInUp;
-  animation-name: fadeInUp
+  animation-name: fadeInUp;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+  animation-duration: 15s;
 }

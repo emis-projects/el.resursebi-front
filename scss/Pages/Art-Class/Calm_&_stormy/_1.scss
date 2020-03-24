@@ -11,4 +11,37 @@
       object-fit: cover;
     }
   }
+  &-3_image-box{
+    height: 58.59vh;
+    max-height: 450px;
+    div{
+      height: 100%;
+      width: 43.92vw;
+      max-width: 600px;
+      background: url("../img/gakvetilebi/xelovneba/red_brush.svg") no-repeat center;
+      background-size: contain;
+      &:first-child{
+        height: 28.77vh;
+        max-height: 221px;
+        width: 17.34vw;
+        max-width: 2368px;
+        background: url("../img/gakvetilebi/xelovneba/paint-boxo.svg") no-repeat center;
+      }
+    }
+  }
+  &-10_image-box{
+    height: 24.6vh;
+    max-height: 189px;
+    img{
+      height: 100%;
+    }
+  }
+  &-12_image-box{
+    height: 59.37vh;
+    max-height: 810px;
+    width: 61.42vw;
+    max-width: 838px;
+    background: url("../img/gakvetilebi/xelovneba/colors_brush.svg") no-repeat center;
+    background-size: contain;
+  }
 }

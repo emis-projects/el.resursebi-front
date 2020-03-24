@@ -2997,7 +2997,7 @@ section .arrow_up_down_downArrow img {
 }
 
 .portfolio-slider-165.owl-theme .owl-dots .owl-dot:nth-child(1) span {
-  background-image: url("../img/gakvetilebi/xelovneba/calm-and-stormy/A-165-slider-1.jpg");
+  background-image: url("../img/gakvetilebi/xelovneba/calm-and-stormy/A-165-slider-1.png");
   background-position: top;
 }
 
@@ -4058,6 +4058,18 @@ section .arrow_up_down_downArrow img {
 
 .big-font-size-20px-dejavu {
   font-family: "DejaVuSans";
+  font-size: 2.6vh;
+  color: #0b2228;
+}
+
+.big-font-size-20px-dejavu-div p {
+  font-family: "DejaVuSans";
+  font-size: 2.6vh;
+  color: #0b2228;
+}
+
+.big-font-size-20px-dejavu-oblique {
+  font-family: "DejaVu Sans Oblique";
   font-size: 2.6vh;
   color: #0b2228;
 }
@@ -23743,6 +23755,10 @@ td img {
   color: #fff;
 }
 
+.DragGame--Parent .selectedPurple {
+  background-color: #947DCE;
+}
+
 .DragGame--Parent .textWhite {
   color: #FFF;
 }
@@ -27115,7 +27131,15 @@ td img {
 
 .direcion-pointer_box-image img {
   cursor: pointer;
-  height: 100%;
+  width: 40%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  z-index: 10000;
 }
 
 .clock-box {
@@ -27158,18 +27182,18 @@ td img {
 
 @-webkit-keyframes fadeInUp {
   0% {
-    -webkit-transform: translate3d(0, 200%, 0);
-            transform: translate3d(0, 200%, 0);
+    bottom: -100%;
     opacity: 1;
     visibility: visible;
   }
   99% {
-    -webkit-transform: translateZ(-50px);
-            transform: translateZ(-50px);
+    bottom: 99%;
     opacity: 1;
     visibility: visible;
   }
   100% {
+    bottom: 100%;
+    display: none;
     opacity: 0;
     visibility: hidden;
   }
@@ -27177,18 +27201,18 @@ td img {
 
 @keyframes fadeInUp {
   0% {
-    -webkit-transform: translate3d(0, 200%, 0);
-            transform: translate3d(0, 200%, 0);
+    bottom: -100%;
     opacity: 1;
     visibility: visible;
   }
   99% {
-    -webkit-transform: translateZ(-50px);
-            transform: translateZ(-50px);
+    bottom: 99%;
     opacity: 1;
     visibility: visible;
   }
   100% {
+    bottom: 100%;
+    display: none;
     opacity: 0;
     visibility: hidden;
   }
@@ -27197,6 +27221,12 @@ td img {
 .fadeInUp {
   -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-duration: 15s;
+          animation-duration: 15s;
 }
 
 .object_moving-img_box_17 {
@@ -27423,7 +27453,15 @@ td img {
 
 .direcion-pointer_box-image img {
   cursor: pointer;
-  height: 100%;
+  width: 40%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  z-index: 10000;
 }
 
 .clock-box {
@@ -27466,18 +27504,18 @@ td img {
 
 @keyframes fadeInUp {
   0% {
-    -webkit-transform: translate3d(0, 200%, 0);
-            transform: translate3d(0, 200%, 0);
+    bottom: -100%;
     opacity: 1;
     visibility: visible;
   }
   99% {
-    -webkit-transform: translateZ(-50px);
-            transform: translateZ(-50px);
+    bottom: 99%;
     opacity: 1;
     visibility: visible;
   }
   100% {
+    bottom: 100%;
+    display: none;
     opacity: 0;
     visibility: hidden;
   }
@@ -27486,6 +27524,12 @@ td img {
 .fadeInUp {
   -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-duration: 15s;
+          animation-duration: 15s;
 }
 
 .object_moving-img_box_17 {
@@ -30289,6 +30333,85 @@ td img {
      object-fit: cover;
 }
 
+.calm_and_stormy-3_image-box {
+  height: 58.59vh;
+  max-height: 450px;
+}
+
+.calm_and_stormy-3_image-box div {
+  height: 100%;
+  width: 43.92vw;
+  max-width: 600px;
+  background: url("../img/gakvetilebi/xelovneba/red_brush.svg") no-repeat center;
+  background-size: contain;
+}
+
+.calm_and_stormy-3_image-box div:first-child {
+  height: 28.77vh;
+  max-height: 221px;
+  width: 17.34vw;
+  max-width: 2368px;
+  background: url("../img/gakvetilebi/xelovneba/paint-boxo.svg") no-repeat center;
+}
+
+.calm_and_stormy-10_image-box {
+  height: 24.6vh;
+  max-height: 189px;
+}
+
+.calm_and_stormy-10_image-box img {
+  height: 100%;
+}
+
+.calm_and_stormy-12_image-box {
+  height: 59.37vh;
+  max-height: 810px;
+  width: 61.42vw;
+  max-width: 838px;
+  background: url("../img/gakvetilebi/xelovneba/colors_brush.svg") no-repeat center;
+  background-size: contain;
+}
+
+.art-2-slider-text-28-margin {
+  margin-left: 3.1vw;
+}
+
+.background-art-2-img {
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-art-2-img-44 {
+  background-image: url(../img/backgrounds/1366-59_background.svg);
+}
+
+.background-art-2-img-45 {
+  background-image: url(../img/backgrounds/1366-61_background.svg);
+}
+
+.background-art-2-img-46 {
+  background-image: url(../img/backgrounds/1366-61_background.svg);
+}
+
+.background-art-2-img-47 {
+  background-image: url(../img/backgrounds/1366-62_background.svg);
+}
+
+.background-art-2-img-48 {
+  background-image: url(../img/backgrounds/1366-63_backgrounds.svg);
+}
+
+.background-art-3-title {
+  color: white;
+  font-family: 'DejaVu Sans Oblique';
+  font-size: 3.64vh;
+}
+
+.background-art-3-title-cont {
+  padding-top: 10vh;
+}
+
 .art-3-div-img-4-1 {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
@@ -30369,32 +30492,26 @@ td img {
   height: 70%;
 }
 
-.background-art-3-16 {
-  background-image: url(../img/gakvetilebi/xelovneba/forest/1366-03-38.svg);
+.background-art-3 {
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.background-art-3-16 {
+  background-image: url(../img/gakvetilebi/xelovneba/forest/1366-03-38.svg);
 }
 
 .background-art-3-17 {
   background-image: url(../img/gakvetilebi/xelovneba/forest/1366-03-39.svg);
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .background-art-3-18 {
   background-image: url(../img/gakvetilebi/xelovneba/forest/1366-03-40.svg);
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .background-art-3-19 {
   background-image: url(../img/gakvetilebi/xelovneba/forest/1366-03-41.svg);
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .background-art-3-title {
@@ -32296,4 +32413,3 @@ body {
     font-size: 14px;
   }
 }
-/*# sourceMappingURL=new-style.css.map */
