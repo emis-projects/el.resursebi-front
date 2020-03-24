@@ -1,5 +1,4 @@
 function computerGames(){
-    console.log('game')
     var checkmark = document.querySelectorAll('.checkmark');
 
     var completedBtn = document.getElementById('completedGame');
@@ -10,30 +9,26 @@ function computerGames(){
     this.clickMe = (e) => {
         checkmark.forEach(element => {
             $(element).removeClass( "error")
-            $(element).removeClass( "active")
+            $(element).removeClass( "selectedPurple")
             element.style = '';
         });
-        e.target.classList.add('active');
-        if(e.target.classList.contains('active')){
-            e.target.style = "background: #7fd1d8";
-
-        }
+        e.target.classList.add('selectedPurple');
     }
 
     this.completGame = () => {
         var count = 0;
         checkmark.forEach(element => {
-            if(element.classList.contains('active')){
-                console.log('active', element.classList.contains('correct'))
+            if(element.classList.contains('selectedPurple')){
+                console.log('selectedPurple', element.classList.contains('correct'))
                 if(element.classList.contains('correct')){
                     count++;
                 }
             }
-            if((element.classList.contains('active'))){
+            if((element.classList.contains('selectedPurple'))){
                 if((element.classList.contains('noCorrect'))){
-                    //console.log(element.parentElement)
                     count = 0;
-                    element.style = "background:#dc6c85";
+                    $(element).removeClass( "selectedPurple")
+                    element.classList.add('error');
                 }
             }
         });
@@ -52,7 +47,7 @@ function computerGames(){
     this.init = (e) =>{
         checkmark.forEach(element => {
             $(element).removeClass( "error")
-            $(element).removeClass( "active")
+            $(element).removeClass( "selectedPurple")
             element.style = '';
         });
         completedBtn.removeAttribute('disabled');
