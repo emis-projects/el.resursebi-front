@@ -4062,6 +4062,12 @@ section .arrow_up_down_downArrow img {
   color: #0b2228;
 }
 
+.big-font-size-20px-dejavu-div p {
+  font-family: "DejaVuSans";
+  font-size: 2.6vh;
+  color: #0b2228;
+}
+
 .big-font-size-20px-dejavu-oblique {
   font-family: "DejaVu Sans Oblique";
   font-size: 2.6vh;
@@ -20614,44 +20620,6 @@ td img {
 
 @keyframes rain-9 {
   0% {
-    left: 76%;
-    opacity: 1;
-    top: 30%;
-  }
-  100% {
-    opacity: 0;
-    top: 136%;
-  }
-}
-
-.rain:nth-of-type(10) {
-  -webkit-animation-name: rain-10;
-          animation-name: rain-10;
-  -webkit-animation-delay: 9s;
-          animation-delay: 9s;
-  -webkit-animation-duration: 4s;
-          animation-duration: 4s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  left: 27%;
-  opacity: 1;
-  top: 30%;
-}
-
-@-webkit-keyframes rain-10 {
-  0% {
-    left: 80%;
-    opacity: 1;
-    top: 30%;
-  }
-  100% {
-    opacity: 0;
-    top: 147%;
-  }
-}
-
-@keyframes rain-9 {
-  0% {
     left: 80%;
     opacity: 1;
     top: 30%;
@@ -20677,18 +20645,6 @@ td img {
 }
 
 @-webkit-keyframes rain-10 {
-  0% {
-    left: 27%;
-    opacity: 1;
-    top: 30%;
-  }
-  100% {
-    opacity: 0;
-    top: 134%;
-  }
-}
-
-@keyframes rain-10 {
   0% {
     left: 27%;
     opacity: 1;
@@ -21310,13 +21266,13 @@ td img {
 
 @keyframes rain-26 {
   0% {
-    left: 51%;
+    left: 74%;
     opacity: 1;
     top: 30%;
   }
   100% {
     opacity: 0;
-    top: 142%;
+    top: 139%;
   }
 }
 
@@ -22603,14 +22559,14 @@ td img {
 @-webkit-keyframes rain-2-4 {
   0% {
     width: 7px;
-    left: 53%;
+    left: 66%;
     opacity: 1;
     top: 30%;
   }
   100% {
     width: 4px;
     opacity: 0;
-    top: 138%;
+    top: 143%;
   }
 }
 
@@ -23538,17 +23494,17 @@ td img {
   }
 }
 
-@-webkit-keyframes rain-2-27 {
+@keyframes rain-2-26 {
   0% {
     width: 7px;
-    left: 41%;
+    left: 74%;
     opacity: 1;
     top: 30%;
   }
   100% {
     width: 4px;
     opacity: 0;
-    top: 132%;
+    top: 139%;
   }
 }
 

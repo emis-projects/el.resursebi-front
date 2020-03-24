@@ -5186,6 +5186,12 @@ section .arrow_up_down_downArrow img {
   color: #0b2228;
 }
 
+.big-font-size-20px-dejavu-div p {
+  font-family: "DejaVuSans";
+  font-size: 2.6vh;
+  color: #0b2228;
+}
+
 .big-font-size-20px-dejavu-oblique {
   font-family: "DejaVu Sans Oblique";
   font-size: 2.6vh;
