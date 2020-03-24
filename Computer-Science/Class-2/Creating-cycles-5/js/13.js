@@ -13,15 +13,14 @@ function computerGames(){
 
     this.completGame = () => {
         var count = 0;
+        var isError = false;
         checkmar.forEach(element => {
             if(element.classList.contains('selectedPurple')){
                 if(element.classList.contains('correct')){
                     count++;
                 }
-            }
-            if((element.classList.contains('selectedPurple'))){
                 if((element.classList.contains('noCorrect'))){
-                    count = 0;
+                    isError = true;
                     $(element).removeClass( "selectedPurple")
                     element.classList.add('error');
                 }
@@ -29,7 +28,7 @@ function computerGames(){
         });
         
 
-        if (count == 2) {
+        if (count == 2 && !isError) {
             this.successPage();
         }
 
