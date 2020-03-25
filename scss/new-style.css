@@ -28540,12 +28540,70 @@ td img {
   height: 8.93vh;
 }
 
-.cs-3-6-19-div-crossword {
-  height: 65.75vh;
+#puzzel {
+  border: 0;
+  -webkit-box-shadow: initial;
+          box-shadow: initial;
 }
 
-.cs-3-6-19-div-crossword img {
+.cs-3-6-19-div-crossword {
+  height: 62.75vh;
+  display: inline-block;
+}
+
+.cs-3-6-19-div-crossword tbody {
+  width: 100%;
   height: 100%;
+  display: block;
+}
+
+.cs-3-6-19-div-crossword tbody tr {
+  width: 100%;
+  height: calc(100% / 14);
+  display: block;
+  position: relative;
+}
+
+.cs-3-6-19-div-crossword tbody tr td {
+  width: 2.562vw;
+  height: 4.557vh;
+  border: 2px solid #000000;
+}
+
+.cs-3-6-19-div-crossword tbody tr td input {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  font-family: 'FiraGO Book';
+}
+
+.cs-3-6-19-div-crossword tbody tr td input.placeholder::-webkit-input-placeholder {
+  color: #00A5EF;
+}
+
+.cs-3-6-19-div-crossword tbody tr td input.placeholder:-ms-input-placeholder {
+  color: #00A5EF;
+}
+
+.cs-3-6-19-div-crossword tbody tr td input.placeholder::-ms-input-placeholder {
+  color: #00A5EF;
+}
+
+.cs-3-6-19-div-crossword tbody tr td input.placeholder::placeholder {
+  color: #00A5EF;
+}
+
+.cs-3-6-19-div-crossword tbody tr td span {
+  position: absolute;
+  left: 2px;
+  top: 0px;
+  color: #00A5EF;
 }
 
 .cs-3-6-1-visual-img {
