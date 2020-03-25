@@ -38,7 +38,7 @@
         {
             "number": 7,
             "url": "",
-            "type": 1
+            "type": null
         },
         {
             "number": 8,
@@ -48,7 +48,7 @@
         {
             "number": 9,
             "url": "",
-            "type": 1
+            "type": null
         },
         {
             "number": 10,
@@ -58,12 +58,12 @@
         {
             "number": 11,
             "url": "",
-            "type": null
+            "type": 3
         },
         {
             "number": 12,
             "url": "",
-            "type": 1
+            "type": null
         },
         {
             "number": 13,
@@ -83,7 +83,7 @@
         {
             "number": 16,
             "url": "",
-            "type": null
+            "type": 2
         },
         {
             "number": 17,
@@ -99,7 +99,7 @@
         {
             "number": 19,
             "url": "",
-            "type": 1
+            "type": null
         },
         {
             "number": 20,
@@ -109,12 +109,12 @@
         {
             "number": 21,
             "url": "",
-            "type": 1
+            "type": null
         },        
         {
             "number": 22,
             "url": "",
-            "type": 2
+            "type": null
         },
 
         {
@@ -125,12 +125,12 @@
         {
             "number": 24,
             "url": "",
-            "type": null
+            "type": 2
         },
         {
             "number": 25,
             "url": "",
-            "type": null
+            "type": 1
         },
         {
             "number": 26,
@@ -140,20 +140,18 @@
         {
             "number": 27,
             "url": "",
-            "type": 1
+            "type": null
         },
         {
             "number": 28,
             "url": "",
-            "type": null
+            "type": 1
         },
         {
             "number": 29,
             "url": "",
-            "type": 2
+            "type": null
         },
-
-
         {
             "number": 30,
             "url": "",
@@ -170,21 +168,16 @@
             "type": 2
         },
 
-
-
         {
             "number": 33,
             "url": "",
-            "type": 2
+            "type": null
         },
         {
             "number": 34,
             "url": "",
-            "type": 2
+            "type": null
         },
-
-
-
         {
             "number": 35,
             "url": "",
@@ -198,12 +191,12 @@
         {
             "number": 37,
             "url": "",
-            "type": 1
+            "type": null
         },
         {
             "number": 38,
             "url": "",
-            "type": 1
+            "type": null
         },
         {
             "number": 39,
@@ -213,12 +206,12 @@
         {
             "number": 40,
             "url": "",
-            "type": null
+            "type": 1
         },
         {
             "number": 41,
             "url": "",
-            "type": 2
+            "type": null
         },
         {
             "number": 42,
