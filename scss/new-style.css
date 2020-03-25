@@ -23748,6 +23748,21 @@ td img {
 
 .DragGame--Parent .error {
   background-color: #dc6c85;
+  background-color: #a1dd6f;
+}
+
+.DragGame--Parent .error p,
+.DragGame--Parent .error a {
+  color: #fff;
+}
+
+.DragGame--Parent .error p,
+.DragGame--Parent .error a {
+  color: #fff;
+}
+
+.DragGame--Parent .error {
+  background-color: #dc6c85;
 }
 
 .DragGame--Parent .error p,
@@ -30274,15 +30289,6 @@ td img {
   height: 100%;
 }
 
-.Landscape_6-img_box_12-1 {
-  height: 25.91vh;
-  margin-top: 7.81vh;
-}
-
-.Landscape_6-img_box_12-1 img {
-  height: 100%;
-}
-
 .Landscape_6 .img_box_wrapper {
   max-width: 444px;
   max-height: 304px;
@@ -30316,6 +30322,61 @@ td img {
 
 .Landscape_6 .img_box_wrapper .image_arrow a img {
   height: 100%;
+}
+
+.Landscape_6-img_box_12-1 {
+  height: 25.91vh;
+}
+
+.Landscape_6-img_box_12-1 img {
+  height: 100%;
+}
+
+.Landscape_6-title_item_13 {
+  font-style: italic;
+  color: #fff;
+  font-family: 'DejaVu Sans Oblique';
+  font-size: 3.8vh;
+}
+
+.Landscape_6-background_13 {
+  background-image: url("../img/gakvetilebi/xelovneba/Landscape/A-1366-06-38.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.Landscape_6-background_14 {
+  background-image: url("../img/gakvetilebi/xelovneba/Landscape/A-1366-06-39.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.Landscape_6-background_15 {
+  background-image: url("../img/gakvetilebi/xelovneba/Landscape/A-1366-06-40.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.Landscape_6-background_16 {
+  background-image: url("../img/gakvetilebi/xelovneba/Landscape/A-1366-06-41.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.Landscape_6-background_17 {
+  background-image: url("../img/gakvetilebi/xelovneba/Landscape/A-1366-06-42.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
 .calm_and_stormy-1_image-box {
@@ -32413,3 +32474,4 @@ body {
     font-size: 14px;
   }
 }
+/*# sourceMappingURL=new-style.css.map */
