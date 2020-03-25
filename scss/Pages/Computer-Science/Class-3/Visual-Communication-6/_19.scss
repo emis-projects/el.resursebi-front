@@ -95,9 +95,21 @@
                     text-align: center;
                     font-family: 'FiraGO Book';
 
-                    &.placeholder::placeholder {
-                        color: #00A5EF;
+                    &.error {
+                        color: #fff;
                     }
+                    
+                    &.error::placeholder {
+                        color: #fff;
+                    }
+
+                    &.error:-ms-input-placeholder { /* Internet Explorer 10-11 */
+                        color: #fff;
+                      }
+                      
+                      &.error::-ms-input-placeholder { /* Microsoft Edge */
+                        color: #fff;
+                      }
                 }
 
                 span {
