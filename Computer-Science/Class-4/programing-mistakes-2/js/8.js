@@ -17,6 +17,7 @@ function computerGames(){
         checkmark.forEach(element => {
             if(element.classList.contains('selectedPurple')){
                 if(element.classList.contains('correct')){
+                    element.style = "background: #a1dd6f";
                     count++;
                 }
                 if((element.classList.contains('noCorrect'))){
