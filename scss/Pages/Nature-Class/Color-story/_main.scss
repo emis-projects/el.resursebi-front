@@ -14,37 +14,119 @@
     &-5 {
       background: url("../img/gakvetilebi/buneba/forest_colours/N-153.png") no-repeat bottom;
     }
+
     &-6 {
       background: url("../img/gakvetilebi/buneba/forest_colours/N-154.png") no-repeat center;
     }
+
     &-7 {
       background: url("../img/gakvetilebi/buneba/forest_colours/N-155.png") no-repeat center;
     }
+
     &-8 {
       background: url("../img/gakvetilebi/buneba/forest_colours/N-152.png") no-repeat center;
     }
+
     &-9 {
       background: url("../img/gakvetilebi/buneba/forest_colours/N-156.png") no-repeat center;
     }
+
     &-10 {
       background: url("../img/gakvetilebi/buneba/forest_colours/N-158.png") no-repeat center;
     }
-    &-11{
+
+    &-11 {
       background: url("../img/gakvetilebi/buneba/forest_colours/N-157.png") no-repeat center;
     }
+
     &-12 {
       background: url("../img/gakvetilebi/buneba/forest_colours/N-181.png") no-repeat center;
     }
+
+    &-17 {
+      background: url("../img/gakvetilebi/buneba/forest_colours/N-160.png") no-repeat center;
+    }
+
+    &-18 {
+      background: url("../img/gakvetilebi/buneba/forest_colours/N-161.png") no-repeat center;
+    }
+
+    &-19 {
+      background: url("../img/gakvetilebi/buneba/forest_colours/N-162.png") no-repeat center;
+    }
+
+    &-20 {
+      background: url("../img/gakvetilebi/buneba/forest_colours/N-203.png") no-repeat center;
+    }
+
+    &-21 {
+      background: url("../img/gakvetilebi/buneba/forest_colours/N-163.png") no-repeat center;
+    }
+
+    &-22 {
+      background: url("../img/gakvetilebi/buneba/forest_colours/N-164.png") no-repeat center;
+    }
+    &-23 {
+      background: url("../img/gakvetilebi/buneba/forest_colours/N-165.png") no-repeat center;
+    }
+    &-26 {
+      background: url("../img/gakvetilebi/buneba/forest_colours/N-166.png") no-repeat center;
+    }
+    &-27 {
+      background: url("../img/gakvetilebi/buneba/forest_colours/N-167.png") no-repeat center;
+    }
+    &-28 {
+      background: url("../img/gakvetilebi/buneba/forest_colours/N-168.png") no-repeat center;
+    }
+    &-29{
+      background: url("../img/gakvetilebi/buneba/forest_colours/N-169.png") no-repeat center;
+    }
+    &-30 {
+      background: url("../img/gakvetilebi/buneba/forest_colours/N-170.png") no-repeat center;
+    }
+    &-31 {
+      background: url("../img/gakvetilebi/buneba/forest_colours/N-171.png") no-repeat center;
+    }
+    &-35 {
+      background: url("../img/gakvetilebi/buneba/forest_colours/N-173.png") no-repeat center;
+    }
+    &-38 {
+      background: url("../img/gakvetilebi/buneba/forest_colours/N-174.png") no-repeat center;
+    }
   }
 }
-.comics_bottom-box{
+
+.forest-colors_games-box {
+  max-height: 130px;
+  height: 17vh;
+  &-img{
+    max-height: 38px;
+    height: 5vh;
+  }
+  a{
+    height: 62px;
+    max-height: 8vh;
+    img{
+      height: 100%;
+    }
+  }
+}
+
+.narute-research-stages-empty-div{
+  position: relative;
+  top: 0;
+  right: 0;
+}
+
+.comics_bottom-box {
   height: 30vh;
   width: 100%;
   background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 78%, white 100%);
   position: fixed;
   top: 100%;
   transform: translateY(-100%);
-  h1{
+
+  h1 {
     margin-top: 13.6vh;
     font-family: "DejaVu Sans Oblique";
     color: #000;

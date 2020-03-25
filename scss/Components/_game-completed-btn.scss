@@ -3,8 +3,8 @@
   height: 5vh;
   width: 27vh;
   text-align: center;
-  color: #7FD1D8;
-  background-color: #fff;;
+  color: #7FD1D8 !important;
+  background-color: #fff;
   box-shadow: 2px 2px 8px rgba(127,209,216,.4);
   font-family: $alk-sanet;
   font-size: 1.7vh;
@@ -17,7 +17,7 @@
 
   &:hover {
     background-color: #7FD1D8;
-    color: #fff;
+    color: #FFFFFF !important;
   }
 
   &:disabled {
