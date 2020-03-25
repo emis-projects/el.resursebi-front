@@ -21342,13 +21342,13 @@ td img {
 
 @keyframes rain-28 {
   0% {
-    left: 23%;
+    left: 41%;
     opacity: 1;
     top: 30%;
   }
   100% {
     opacity: 0;
-    top: 135%;
+    top: 132%;
   }
 }
 
@@ -22615,14 +22615,14 @@ td img {
 @keyframes rain-2-5 {
   0% {
     width: 7px;
-    left: 39%;
+    left: 66%;
     opacity: 1;
     top: 30%;
   }
   100% {
     width: 4px;
     opacity: 0;
-    top: 138%;
+    top: 143%;
   }
 }
 
@@ -22655,6 +22655,48 @@ td img {
 }
 
 @keyframes rain-2-6 {
+  0% {
+    width: 7px;
+    left: 39%;
+    opacity: 1;
+    top: 30%;
+  }
+  100% {
+    width: 4px;
+    opacity: 0;
+    top: 138%;
+  }
+}
+
+@keyframes rain-2-5 {
+  0% {
+    width: 7px;
+    left: 39%;
+    opacity: 1;
+    top: 30%;
+  }
+  100% {
+    width: 4px;
+    opacity: 0;
+    top: 138%;
+  }
+}
+
+.rain2:nth-of-type(6) {
+  -webkit-animation-name: rain-2-6;
+          animation-name: rain-2-6;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-duration: 6s;
+          animation-duration: 6s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  left: 90%;
+  opacity: 1;
+  top: 30%;
+}
+
+@-webkit-keyframes rain-2-6 {
   0% {
     width: 7px;
     left: 90%;
@@ -23016,6 +23058,20 @@ td img {
   left: 23%;
   opacity: 1;
   top: 30%;
+}
+
+@-webkit-keyframes rain-2-15 {
+  0% {
+    width: 7px;
+    left: 23%;
+    opacity: 1;
+    top: 30%;
+  }
+  100% {
+    width: 4px;
+    opacity: 0;
+    top: 143%;
+  }
 }
 
 @-webkit-keyframes rain-2-15 {
@@ -23497,14 +23553,14 @@ td img {
 @keyframes rain-2-26 {
   0% {
     width: 7px;
-    left: 74%;
+    left: 41%;
     opacity: 1;
     top: 30%;
   }
   100% {
     width: 4px;
     opacity: 0;
-    top: 139%;
+    top: 132%;
   }
 }
 
@@ -30390,6 +30446,54 @@ td img {
   height: 100%;
 }
 
+
+.Landscape_6-title_item_13 {
+  font-style: italic;
+  color: #fff;
+  font-family: 'DejaVu Sans Oblique';
+  font-size: 3.8vh;
+}
+
+.Landscape_6-background_13 {
+  background-image: url("../img/gakvetilebi/xelovneba/Landscape/A-1366-06-38.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.Landscape_6-background_14 {
+  background-image: url("../img/gakvetilebi/xelovneba/Landscape/A-1366-06-39.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.Landscape_6-background_15 {
+  background-image: url("../img/gakvetilebi/xelovneba/Landscape/A-1366-06-40.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.Landscape_6-background_16 {
+  background-image: url("../img/gakvetilebi/xelovneba/Landscape/A-1366-06-41.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.Landscape_6-background_17 {
+  background-image: url("../img/gakvetilebi/xelovneba/Landscape/A-1366-06-42.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
 .calm_and_stormy-1_image-box {
   position: fixed;
   top: 0;
@@ -30442,6 +30546,24 @@ td img {
   max-width: 838px;
   background: url("../img/gakvetilebi/xelovneba/colors_brush.svg") no-repeat center;
   background-size: contain;
+}
+
+.calm_and_stormy-3-4_1_image-box {
+  height: 26vh;
+  max-height: 206px;
+}
+
+.calm_and_stormy-16-1_image-box {
+  height: 46vh;
+  max-height: 305px;
+}
+
+.calm_and_stormy-16-1_image-box img {
+  height: 100%;
+}
+
+#A-1366-220 .subject_question_item img {
+  height: auto;
 }
 
 .art-2-slider-text-28-margin {
@@ -30594,6 +30716,58 @@ td img {
 
 .background-art-3-title-cont {
   padding-top: 10vh;
+}
+
+.forest-colors_comics {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.forest-colors_comics-4 {
+  background: url("../img/gakvetilebi/buneba/forest_colours/N-151.png") no-repeat center;
+}
+.forest-colors_comics-5 {
+  background: url("../img/gakvetilebi/buneba/forest_colours/N-153.png") no-repeat bottom;
+}
+.forest-colors_comics-6 {
+  background: url("../img/gakvetilebi/buneba/forest_colours/N-154.png") no-repeat center;
+}
+.forest-colors_comics-7 {
+  background: url("../img/gakvetilebi/buneba/forest_colours/N-155.png") no-repeat center;
+}
+.forest-colors_comics-8 {
+  background: url("../img/gakvetilebi/buneba/forest_colours/N-152.png") no-repeat center;
+}
+.forest-colors_comics-9 {
+  background: url("../img/gakvetilebi/buneba/forest_colours/N-156.png") no-repeat center;
+}
+.forest-colors_comics-10 {
+  background: url("../img/gakvetilebi/buneba/forest_colours/N-158.png") no-repeat center;
+}
+.forest-colors_comics-11 {
+  background: url("../img/gakvetilebi/buneba/forest_colours/N-157.png") no-repeat center;
+}
+.forest-colors_comics-12 {
+  background: url("../img/gakvetilebi/buneba/forest_colours/N-181.png") no-repeat center;
+}
+
+.comics_bottom-box {
+  height: 30vh;
+  width: 100%;
+  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 78%, white 100%);
+  position: fixed;
+  top: 100%;
+  transform: translateY(-100%);
+}
+.comics_bottom-box h1 {
+  margin-top: 13.6vh;
+  font-family: "DejaVu Sans Oblique";
+  color: #000;
+  font-size: 2.3vh;
+  text-align: center;
 }
 
 body {
@@ -32485,3 +32659,4 @@ body {
     font-size: 14px;
   }
 }
+/*# sourceMappingURL=new-style.css.map */

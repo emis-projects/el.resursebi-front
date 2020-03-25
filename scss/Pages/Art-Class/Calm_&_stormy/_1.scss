@@ -44,4 +44,15 @@
     background: url("../img/gakvetilebi/xelovneba/colors_brush.svg") no-repeat center;
     background-size: contain;
   }
+  &-3-4_1_image-box{
+    height: 26vh;
+    max-height: 206px;
+  }
+  &-16-1_image-box{
+    height: 46vh;
+    max-height: 305px;
+    img{
+      height: 100%;
+    }
+  }
 }
