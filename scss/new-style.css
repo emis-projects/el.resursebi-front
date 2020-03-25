@@ -30332,6 +30332,7 @@ td img {
   height: 100%;
 }
 
+<<<<<<< HEAD
 .Landscape_6-title_item_13 {
   font-style: italic;
   color: #fff;
@@ -30379,6 +30380,8 @@ td img {
   height: 100vh;
 }
 
+=======
+>>>>>>> 66c40c839bdb6ab7c310b45025e2b8ddf0151df1
 .calm_and_stormy-1_image-box {
   position: fixed;
   top: 0;
@@ -30431,6 +30434,24 @@ td img {
   max-width: 838px;
   background: url("../img/gakvetilebi/xelovneba/colors_brush.svg") no-repeat center;
   background-size: contain;
+}
+
+.calm_and_stormy-3-4_1_image-box {
+  height: 26vh;
+  max-height: 206px;
+}
+
+.calm_and_stormy-16-1_image-box {
+  height: 46vh;
+  max-height: 305px;
+}
+
+.calm_and_stormy-16-1_image-box img {
+  height: 100%;
+}
+
+#A-1366-220 .subject_question_item img {
+  height: auto;
 }
 
 .art-2-slider-text-28-margin {
