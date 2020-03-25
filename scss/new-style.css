@@ -30279,6 +30279,10 @@ td img {
   background-size: contain;
 }
 
+#A-1366-220 .subject_question_item img {
+  height: auto;
+}
+
 .art-2-slider-text-28-margin {
   margin-left: 3.1vw;
 }
@@ -32320,3 +32324,4 @@ body {
     font-size: 14px;
   }
 }
+/*# sourceMappingURL=new-style.css.map */
