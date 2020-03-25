@@ -60,9 +60,55 @@
 }
 
 
+#puzzel {
+    border: 0;
+    box-shadow: initial;
+}
+
 .cs-3-6-19-div-crossword{
-    height:65.75vh;
-    img{
-        height:100%;
+    height:62.75vh;
+    display: inline-block;
+
+    tbody {
+        width: 100%;
+        height: 100%;
+        display: block;
+
+        tr {
+            width: 100%;
+            height: calc(100% / 14);
+            display: block;
+            position: relative;
+            
+
+            td {
+                width: 2.562vw;
+                height: 4.557vh;
+                border: 2px solid #000000;
+
+
+                input {
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    text-align: center;
+                    font-family: 'FiraGO Book';
+
+                    &.placeholder::placeholder {
+                        color: #00A5EF;
+                    }
+                }
+
+                span {
+                    position: absolute;
+                    left: 2px;
+                    top: 0px;
+                    color: #00A5EF;
+                }
+            }
+        }
     }
+
+
 }
