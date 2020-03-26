@@ -25519,6 +25519,16 @@ td img {
   height: auto;
 }
 
+.nature-1-58-text-container .nature_content_box_text {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nature-1-58-text-container .nature_content_box_text img {
+  height: auto;
+}
+
 body {
   color: #262626;
   font-size: 14px;
