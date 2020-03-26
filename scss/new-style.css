@@ -25334,82 +25334,132 @@ td img {
 .forest-colors_comics {
   height: 100vh;
   width: 100%;
-  background-size: cover;
   position: fixed;
   top: 0;
   left: 0;
 }
 .forest-colors_comics-4 {
   background: url("../img/gakvetilebi/buneba/forest_colours/N-151.png") no-repeat center;
+  background-size: cover;
 }
 .forest-colors_comics-5 {
   background: url("../img/gakvetilebi/buneba/forest_colours/N-153.png") no-repeat bottom;
+  background-size: cover;
 }
 .forest-colors_comics-6 {
   background: url("../img/gakvetilebi/buneba/forest_colours/N-154.png") no-repeat center;
+  background-size: cover;
 }
 .forest-colors_comics-7 {
   background: url("../img/gakvetilebi/buneba/forest_colours/N-155.png") no-repeat center;
+  background-size: cover;
 }
 .forest-colors_comics-8 {
   background: url("../img/gakvetilebi/buneba/forest_colours/N-152.png") no-repeat center;
+  background-size: cover;
 }
 .forest-colors_comics-9 {
   background: url("../img/gakvetilebi/buneba/forest_colours/N-156.png") no-repeat center;
+  background-size: cover;
 }
 .forest-colors_comics-10 {
   background: url("../img/gakvetilebi/buneba/forest_colours/N-158.png") no-repeat center;
+  background-size: cover;
 }
 .forest-colors_comics-11 {
   background: url("../img/gakvetilebi/buneba/forest_colours/N-157.png") no-repeat center;
+  background-size: cover;
 }
 .forest-colors_comics-12 {
   background: url("../img/gakvetilebi/buneba/forest_colours/N-181.png") no-repeat center;
+  background-size: cover;
 }
 .forest-colors_comics-17 {
   background: url("../img/gakvetilebi/buneba/forest_colours/N-160.png") no-repeat center;
+  background-size: cover;
 }
 .forest-colors_comics-18 {
   background: url("../img/gakvetilebi/buneba/forest_colours/N-161.png") no-repeat center;
+  background-size: cover;
 }
 .forest-colors_comics-19 {
   background: url("../img/gakvetilebi/buneba/forest_colours/N-162.png") no-repeat center;
+  background-size: cover;
 }
 .forest-colors_comics-20 {
   background: url("../img/gakvetilebi/buneba/forest_colours/N-203.png") no-repeat center;
+  background-size: cover;
 }
 .forest-colors_comics-21 {
   background: url("../img/gakvetilebi/buneba/forest_colours/N-163.png") no-repeat center;
+  background-size: cover;
 }
 .forest-colors_comics-22 {
   background: url("../img/gakvetilebi/buneba/forest_colours/N-164.png") no-repeat center;
+  background-size: cover;
 }
 .forest-colors_comics-23 {
   background: url("../img/gakvetilebi/buneba/forest_colours/N-165.png") no-repeat center;
+  background-size: cover;
 }
 .forest-colors_comics-26 {
   background: url("../img/gakvetilebi/buneba/forest_colours/N-166.png") no-repeat center;
+  background-size: cover;
 }
 .forest-colors_comics-27 {
   background: url("../img/gakvetilebi/buneba/forest_colours/N-167.png") no-repeat center;
+  background-size: cover;
 }
 .forest-colors_comics-28 {
   background: url("../img/gakvetilebi/buneba/forest_colours/N-168.png") no-repeat center;
+  background-size: cover;
 }
 .forest-colors_comics-29 {
   background: url("../img/gakvetilebi/buneba/forest_colours/N-169.png") no-repeat center;
+  background-size: cover;
 }
 .forest-colors_comics-30 {
   background: url("../img/gakvetilebi/buneba/forest_colours/N-170.png") no-repeat center;
+  background-size: cover;
 }
 .forest-colors_comics-31 {
   background: url("../img/gakvetilebi/buneba/forest_colours/N-171.png") no-repeat center;
+  background-size: cover;
 }
 .forest-colors_comics-35 {
   background: url("../img/gakvetilebi/buneba/forest_colours/N-173.png") no-repeat center;
+  background-size: cover;
 }
 .forest-colors_comics-38 {
   background: url("../img/gakvetilebi/buneba/forest_colours/N-174.png") no-repeat center;
+  background-size: cover;
+}
+.forest-colors_comics-41 {
+  background: url("../img/gakvetilebi/buneba/forest_colours/N-175.png") no-repeat center;
+  background-size: cover;
+}
+.forest-colors_comics-42 {
+  background: url("../img/gakvetilebi/buneba/forest_colours/N-176.png") no-repeat center;
+  background-size: cover;
+}
+.forest-colors_comics-43 {
+  background: url("../img/gakvetilebi/buneba/forest_colours/N-187.png") no-repeat center;
+  background-size: contain;
+  width: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.forest-colors_comics-49 {
+  background: url("../img/gakvetilebi/buneba/forest_colours/N-178.png") no-repeat center;
+  background-size: cover;
+}
+.forest-colors_comics-50 {
+  background: url("../img/gakvetilebi/buneba/forest_colours/N-179.png") no-repeat center;
+  background-size: cover;
+}
+.forest-colors_comics-53 {
+  background: url("../img/gakvetilebi/buneba/forest_colours/N-180.png") no-repeat center;
+  background-size: cover;
 }
 
 .forest-colors_games-box {
@@ -25701,7 +25751,7 @@ body {
 
 .our__pagination {
   align-items: center;
-  position: absolute;
+  position: fixed;
   bottom: 4vh;
   left: 50%;
   transform: translateX(-50%);
