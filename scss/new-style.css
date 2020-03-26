@@ -25526,6 +25526,14 @@ td img {
   height: auto;
 }
 
+.summer-in-winter-1 {
+  height: 20vh;
+  max-height: 154px;
+}
+.summer-in-winter-1 img {
+  height: 100%;
+}
+
 body {
   color: #262626;
   font-size: 14px;
