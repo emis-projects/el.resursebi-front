@@ -157,6 +157,7 @@ function game(){
             }
 
         } else {
+
             this.errorPage()
         }
     }
@@ -175,6 +176,7 @@ function game(){
     
  
     this.completedGame = () => {
+        completedGame.setAttribute('disabled', 'true')
         this.successPage()
     }
     
@@ -200,6 +202,7 @@ function game(){
 
         $(dragElement1).removeClass('error');
         $(dragElement1).removeClass('success');
+        completedGame.removeAttribute('disabled')
     }
 
     resetBtn.addEventListener('click', this.resetGame);
