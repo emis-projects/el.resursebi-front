@@ -55,7 +55,6 @@ check.addEventListener('click', () => {
       for (let j = 0; j < yellow.length; j++) {
          // თუ ყველა პირობა სწორია ჩაიტვირთოს ახალი გვერდი
          if (greenTrees[i] === green[i] && yellowTree[j] === yellow[j] && greenTrees.length === 2 && yellowTree.length ===7){
-            debugger 
             window.location.href = './success-25.html';
          }else{
             // თუ მარადმწვანე ჯგუფი არაა სწორად შევსებული ან ცარიელია
