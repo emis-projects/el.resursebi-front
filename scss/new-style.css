@@ -25520,11 +25520,8 @@ td img {
 }
 
 .nature-1-58-text-container .nature_content_box_text {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
-
 .nature-1-58-text-container .nature_content_box_text img {
   height: auto;
 }
