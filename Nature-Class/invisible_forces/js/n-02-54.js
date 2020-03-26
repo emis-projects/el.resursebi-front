@@ -17,7 +17,7 @@ check.addEventListener('click', (evt) => {
 		if (textBox[i].classList.contains('selected') && textBox[i].dataset.check === 'true') {
 			textBox[i].classList.remove('selected');
 			textBox[i].classList.add('success');
-			window.location.href = './N-1366-146-success.html';
+			window.location.href = './game-success-54.html';
 		} else if (textBox[i].classList.contains('selected')) {
 			textBox[i].classList.remove('selected');
 			textBox[i].classList.add('error');
