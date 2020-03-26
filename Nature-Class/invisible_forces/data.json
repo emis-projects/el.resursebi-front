@@ -2,7 +2,7 @@
     "lesson_id": 2,
     "lesson_name": "invisible_forces",
     "subject": "nature",
-    "pages_number": 50,
+    "pages_number": 60,
     "pages": [
         {
             "number": 1,
@@ -221,40 +221,90 @@
         {
             "number": 43,
             "url": "",
-            "type": null
+            "type": 2
         },
         {
             "number": 44,
             "url": "",
-            "type": 1
+            "type": null
         },
         {
             "number": 45,
             "url": "",
-            "type": 5
+            "type": null
         },
         {
             "number": 46,
             "url": "",
-            "type": 5
+            "type": null
         },
         {
             "number": 47,
             "url": "",
-            "type": 1
+            "type": null
         },
         {
             "number": 48,
             "url": "",
-            "type": null
+            "type": 1
         },
         {
             "number": 49,
             "url": "",
-            "type": 5
+            "type": null
         },
         {
             "number": 50,
+            "url": "",
+            "type": null
+        },
+        {
+            "number": 51,
+            "url": "",
+            "type": 2
+        },
+        {
+            "number": 52,
+            "url": "",
+            "type": null
+        },
+        {
+            "number": 53,
+            "url": "",
+            "type": null
+        },
+        {
+            "number": 54,
+            "url": "",
+            "type": 2
+        },
+        {
+            "number": 55,
+            "url": "",
+            "type": null
+        },
+        {
+            "number": 56,
+            "url": "",
+            "type": null
+        },
+        {
+            "number": 57,
+            "url": "",
+            "type": 1
+        },
+        {
+            "number": 58,
+            "url": "",
+            "type": 1
+        },
+        {
+            "number": 59,
+            "url": "",
+            "type": 1
+        },
+        {
+            "number": 60,
             "url": "",
             "type": 5
         }
