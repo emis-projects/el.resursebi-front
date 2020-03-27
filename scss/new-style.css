@@ -30332,54 +30332,6 @@ td img {
   height: 100%;
 }
 
-
-.Landscape_6-title_item_13 {
-  font-style: italic;
-  color: #fff;
-  font-family: 'DejaVu Sans Oblique';
-  font-size: 3.8vh;
-}
-
-.Landscape_6-background_13 {
-  background-image: url("../img/gakvetilebi/xelovneba/Landscape/A-1366-06-38.svg");
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
-}
-
-.Landscape_6-background_14 {
-  background-image: url("../img/gakvetilebi/xelovneba/Landscape/A-1366-06-39.svg");
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
-}
-
-.Landscape_6-background_15 {
-  background-image: url("../img/gakvetilebi/xelovneba/Landscape/A-1366-06-40.svg");
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
-}
-
-.Landscape_6-background_16 {
-  background-image: url("../img/gakvetilebi/xelovneba/Landscape/A-1366-06-41.svg");
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
-}
-
-.Landscape_6-background_17 {
-  background-image: url("../img/gakvetilebi/xelovneba/Landscape/A-1366-06-42.svg");
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
-}
-
 .calm_and_stormy-1_image-box {
   position: fixed;
   top: 0;
@@ -30612,30 +30564,39 @@ td img {
   top: 0;
   left: 0;
 }
+
 .forest-colors_comics-4 {
   background: url("../img/gakvetilebi/buneba/forest_colours/N-151.png") no-repeat center;
 }
+
 .forest-colors_comics-5 {
   background: url("../img/gakvetilebi/buneba/forest_colours/N-153.png") no-repeat bottom;
 }
+
 .forest-colors_comics-6 {
   background: url("../img/gakvetilebi/buneba/forest_colours/N-154.png") no-repeat center;
 }
+
 .forest-colors_comics-7 {
   background: url("../img/gakvetilebi/buneba/forest_colours/N-155.png") no-repeat center;
 }
+
 .forest-colors_comics-8 {
   background: url("../img/gakvetilebi/buneba/forest_colours/N-152.png") no-repeat center;
 }
+
 .forest-colors_comics-9 {
   background: url("../img/gakvetilebi/buneba/forest_colours/N-156.png") no-repeat center;
 }
+
 .forest-colors_comics-10 {
   background: url("../img/gakvetilebi/buneba/forest_colours/N-158.png") no-repeat center;
 }
+
 .forest-colors_comics-11 {
   background: url("../img/gakvetilebi/buneba/forest_colours/N-157.png") no-repeat center;
 }
+
 .forest-colors_comics-12 {
   background: url("../img/gakvetilebi/buneba/forest_colours/N-181.png") no-repeat center;
 }
@@ -30643,17 +30604,245 @@ td img {
 .comics_bottom-box {
   height: 30vh;
   width: 100%;
+  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(78%, rgba(255, 255, 255, 0.949)), to(white));
   background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 78%, white 100%);
   position: fixed;
   top: 100%;
-  transform: translateY(-100%);
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
 }
+
 .comics_bottom-box h1 {
   margin-top: 13.6vh;
   font-family: "DejaVu Sans Oblique";
   color: #000;
   font-size: 2.3vh;
   text-align: center;
+}
+
+.The_living_world-img_box_2 {
+  height: 22.9vh;
+  max-height: 117px;
+}
+
+.The_living_world-img_box_2 img {
+  height: 100%;
+}
+
+.The_living_world-img_box_3 {
+  height: 55.59vh;
+  max-height: 365px;
+}
+
+.The_living_world-img_box_3 img {
+  height: 100%;
+}
+
+.The_living_world-text_item {
+  position: absolute;
+  bottom: 0;
+  height: 37vh;
+  left: 0;
+  right: 0;
+  background: #fff;
+  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(58%, rgba(255, 255, 255, 0.949)), to(white));
+  background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.949) 58%, white 100%);
+}
+
+.The_living_world-text_item_5 {
+  height: 16vh;
+}
+
+.The_living_world-text_item h1 {
+  font-family: 'DejaVu Sans Oblique';
+  color: #000;
+  font-size: 2.3vh;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 12vh;
+}
+
+.The_living_world-full_img_box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 95vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.The_living_world-img_box_4 {
+  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-238.svg");
+  background-position: center bottom;
+}
+
+.The_living_world-img_box_5 {
+  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-239.png");
+  background-position: top center;
+}
+
+.The_living_world-img_box_6 {
+  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-240.png");
+  background-position: top center;
+}
+
+.The_living_world-img_box_7 {
+  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-241.png");
+  background-position: top center;
+}
+
+.The_living_world-img_box_8 {
+  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-242.png");
+  background-position: top center;
+}
+
+.The_living_world-img_box_9 {
+  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-243.png");
+  background-position: center bottom;
+}
+
+.The_living_world-img_box_11_1 {
+  position: fixed;
+  left: -15vh;
+  bottom: 19vh;
+}
+
+.The_living_world-img_box_11_1 img {
+  height: 38.17vh;
+  max-height: 293px;
+}
+
+.The_living_world-img_box_11_2 {
+  height: 48.3vh;
+  max-height: 371px;
+}
+
+.The_living_world-img_box_11_2 img {
+  height: 100%;
+}
+
+.The_living_world-img_box_11_3 {
+  height: 53.2vh;
+  max-height: 408px;
+}
+
+.The_living_world-img_box_11_3 img {
+  height: 100%;
+}
+
+.The_living_world-img_box_13 {
+  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-247.png");
+  background-position: center;
+}
+
+.The_living_world-img_box_14 {
+  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-248.png");
+  background-position: left center;
+}
+
+.The_living_world-img_box_15 {
+  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-249.png");
+  background-position: center bottom;
+}
+
+.The_living_world-img_box_16 {
+  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-250.png");
+  background-position: left center;
+}
+
+.The_living_world-img_box_17 {
+  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-251.png");
+  background-position: center;
+}
+
+.The_living_world-img_box_22 {
+  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-255.png");
+  background-position: center;
+}
+
+.The_living_world-img_box_28 {
+  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-266.png");
+  background-position: center;
+}
+
+.The_living_world-img_box_29 {
+  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-267.png");
+  background-position: center;
+}
+
+.The_living_world-img_box_37 {
+  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-284.png");
+  background-position: center;
+}
+
+.The_living_world-img_box_38 {
+  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-285.svg");
+  background-position: center;
+}
+
+.The_living_world .game-circle-box:nth-child(3) {
+  top: -63vh;
+  right: 30%;
+}
+
+.The_living_world .answer-1, .The_living_world .answer-2, .The_living_world .answer-3 {
+  margin: 5vh 0;
+}
+
+.The_living_world-img_box_31 {
+  height: 36.45vh;
+  max-height: 239px;
+}
+
+.The_living_world-img_box_31 img {
+  height: 100%;
+}
+
+.The_living_world-img_1 {
+  height: 22.04vh;
+  max-height: 144.7px;
+}
+
+.The_living_world-img_1 img {
+  height: 100%;
+}
+
+.The_living_world-img_2 {
+  height: 10.88vh;
+  max-height: 71.4px;
+}
+
+.The_living_world-img_2 img {
+  height: 100%;
+}
+
+.The_living_world-img_3 {
+  height: 12.64vh;
+  max-height: 83px;
+}
+
+.The_living_world-img_3 img {
+  height: 100%;
+}
+
+.The_living_world-success_box {
+  position: fixed;
+  right: 18vh;
+  bottom: 25vh;
+}
+
+.The_living_world-img_box_40 {
+  height: 31.77vh;
+  max-width: 208.7px;
+}
+
+.The_living_world-img_box_40 img {
+  height: 100%;
 }
 
 body {
