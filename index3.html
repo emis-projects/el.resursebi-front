@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./scss/new-style.css">
+</head>
+<body>
+
+    <div class="chat" style="width: 97%; margin: 5px; height: 97%;top: 0; right: 0; left: 0; bottom: 0; box-shadow: 1px 1px 7px 3px #7FD1D866;border-radius: 30px; overflow: hidden;">
+      <div class="chat_header">
+        <div class="head_line"></div>
+        <div class="chat_head"></div>
+      </div>
+      <div id="chat_fullscreen" class="chat_conversion chat_converse">
+        <div class="bots_logo_box flex justify-around align-items">
+            <div class="logo_box">
+                <div class="logo_box-nature"></div>
+            </div>
+            <div class="logo_box">
+                <div class="logo_box-It"></div>
+            </div>
+            <div class="logo_box">
+                <div class="logo_box-music"></div>
+            </div>
+            <div class="logo_box">
+                <div class="logo_box-art"></div>
+            </div>
+        </div>
+      </div>
+        <form id="formData" class="d-flex align-items-center">
+            <input autocomplete="off" id="chatSend" type="text" name="chat_message" placeholder="კითხე არ მოგერიდოს"
+              class="chat_field chat_message">
+            <button id="sendMessage" type="submit" class="send__mail" disabled="disabled"></button>
+        </form>
+    </div>
+
+<script src="./js/libraries/jquery-3.4.1.min.js"></script>
+<script src="./js/bot.js"></script>
+</body>
+</html>
