@@ -1,17 +1,19 @@
 <!DOCTYPE html>
-<html lang="ka" data-botid="2288">
+<!-- ბოტის აიდიში ვუთითებთ: ხელოვნების - 2318, ბუნების - 2320, მუსიკის - 2292 -->
+<html lang="ka" data-botid="2320">
 
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <!-- ყველა გვერდზე -->
-    <script src="../../../js/vue.js"></script>
+    <script src="../../js/vue.js"></script>
     <!--  ვუე გაშვებისას
-    <script src="./js/vue.min.js"></script>
-     -->
-    <link rel="stylesheet" href="../../../scss/libraries/bootstrap.min.css">
-    <link rel="stylesheet" href="../../../New-header-vue/animate.min.css">
-    <link rel="stylesheet" href="../../../scss/new-style.css" />
+      <script src="./js/vue.min.js"></script>
+       -->
+    <link rel="stylesheet" href="../../New-header-vue/animate.min.css">
+    <link rel="stylesheet" href="../../scss/libraries/bootstrap.min.css">
+    <link rel="stylesheet" href="../../scss/libraries/magnific-popup.css">
+    <link rel="stylesheet" href="../../scss/new-style.css" />
     <title>ელექტრონული საგანმანათლებლო რესურსი</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
@@ -21,6 +23,7 @@
         function gtag() {
             dataLayer.push(arguments);
         }
+
         gtag('js', new Date());
 
         gtag('config', 'UA-155006442-1');
@@ -31,10 +34,10 @@
     <div class="container">
         <section id="app" class="container position-absolute">
             <header>
-                <app-menu v-logo="'../../../'" :is-active="isActive" :toggle="toggle"></app-menu>
+                <app-menu v-logo="'../../'" :is-active="isActive" :toggle="toggle"></app-menu>
             </header>
 
-            <app-section v-image="'../../../'" :is-active="isActive">
+            <app-section v-image="'../../'" :is-active="isActive">
                 <app-bar :is-active="isActive" :trigger="trigger" :dots="dots" :current-tab="link"
                     v-on:link-tab="link = $event">
 
@@ -45,68 +48,37 @@
             </app-section>
         </section>
 
+
         <section id="mainPage">
-            <div class="row">
-                <div class="col-7 m-auto mt-6vh">
-                    <div class="newDesign_subject_question_item programing-8">
-                        <img src="../../../img/icons/newDesign_btn-yellow.svg" alt="img"
+            <img src="../../img/gakvetilebi/buneba/Where-sun-goes/N-05-25.png" alt="" class="n_sun-25-img">
+            <div class="row art_questions n_sun-25-mt">
+                <div class="col-6 offset-6">
+                    <div class="newDesign_subject_question_item">
+                        <img src="../../img/icons/newDesign_btn-yellow.svg" alt="img"
                             class="newDesign_subject_question_item-img">
                         <p class="newDesign_subject_question_item-title">
-                            სწორად დაალაგე ბლოკები ისე, რომ მივიღოთ სახელის შესაბამისი ფუნქცია. გამოიყენე ყველა ბლოკი,
-                            რაც ეკრანზეა
+                            ვარსკვლავი უზარმაზარი, ბურთის ფორმის სხეულია, რომელიც სულ გავარვარებული აირებისგან შედგება.
+                            ღამის ცაზე თქვენ უამრავ ვარსკვლავს ხედავთ. მზე ერთ-ერთი მათგანია.
+                        </p>
+                    </div>
+                    <div class="newDesign_subject_question_item mt-3vh">
+                        <img src="../../img/icons/newDesign_btn-yellow.svg" alt="img"
+                            class="newDesign_subject_question_item-img">
+                        <p class="newDesign_subject_question_item-title">
+                            მზე ჩვენი ვარსკვლავია. ჩვენ ვცხოვრობთ პლანეტა დედამიწაზე, რომელიც მზის გარშემო ბრუნავს. ჩვენ
+                            მზესთან ერთად ვცხოვრობთ, ის გვაძლევს სინათლესა და სითბოს. მზის გარშემო კიდევ 7 პლანეტა
+                            ბრუნავს.
+                        </p>
+                    </div>
+                    <div class="newDesign_subject_question_item mt-3vh">
+                        <img src="../../img/icons/newDesign_btn-yellow.svg" alt="img"
+                            class="newDesign_subject_question_item-img">
+                        <p class="newDesign_subject_question_item-title">
+                            მთვარე კი უფრო პატარა ციური სხეულია. მთვარე ბრუნავს დედამიწის გარშემო და მისი თანამგზავრია.
                         </p>
                     </div>
                 </div>
-                <div class="col-8 m-auto d-flex justify-content-end Class_5-img_item_9">
-                    <img src="../../../img/gakvetilebi/Computer-Science/Class-5/function-5/C-5-5-9.svg" alt="img">
-                </div>
             </div>
-            <div class="row m-auto">
-                <div class="col-9 m-auto mt-3vh">
-                    <div class="row mt-2vh d-flex">
-                        <div class="col-4 Class_5-img_item_9-1">
-                            <img src="../../../img/gakvetilebi/Computer-Science/Class-5/function-5/C-5-5-9-1.svg"
-                                alt="img-5-5-9-1">
-                        </div>
-                        <div class="col-4 Class_5-img_item_9-2">
-                            <img src="../../../img/gakvetilebi/Computer-Science/Class-5/function-5/C-5-5-9-22.svg"
-                                alt="img-5-5-9-2">
-                        </div>
-                        <div class="col-4 Class_5-img_item_9-3">
-                            <img src="../../../img/gakvetilebi/Computer-Science/Class-5/function-5/C-5-5-9-3.svg"
-                                alt="img-5-5-9-3">
-                        </div>
-                    </div>
-                    <div class="row mt-2vh d-flex">
-                        <div class="col-4 Class_5-img_item_9-4">
-                            <img src="../../../img/gakvetilebi/Computer-Science/Class-5/function-5/C-5-5-9-4.svg"
-                                alt="img-5-5-9-1">
-                        </div>
-                        <div class="col-4 Class_5-img_item_9-5">
-                            <img src="../../../img/gakvetilebi/Computer-Science/Class-5/function-5/C-5-5-9-5.svg"
-                                alt="img-5-5-9-2">
-                        </div>
-                        <div class="col-4 Class_5-img_item_9-6">
-                            <img src="../../../img/gakvetilebi/Computer-Science/Class-5/function-5/C-5-5-9-6.svg"
-                                alt="img-5-5-9-3">
-                        </div>
-                    </div>
-                    <div class="row mt-2vh d-flex">
-                        <div class="col-4 Class_5-img_item_9-7">
-                            <img src="../../../img/gakvetilebi/Computer-Science/Class-5/function-5/C-5-5-9-7.svg"
-                                alt="img-5-5-9-1">
-                        </div>
-                        <div class="col-4 Class_5-img_item_9-8">
-                            <img src="../../../img/gakvetilebi/Computer-Science/Class-5/function-5/C-5-5-9-8.svg"
-                                alt="img-5-5-9-2">
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-
-
 
             <div class="left_components_paging-cont">
                 <svg class="left_components_paging" xmlns="http://www.w3.org/2000/svg"
@@ -496,13 +468,13 @@
                             <tspan x="0" y="0">მინიშნება</tspan>
                         </text>
                         <text id="შუალედური_დავალება" data-name="შუალედური
-                            დავალება" transform="translate(70 549)" fill="#c5cbcd" font-size="12"
+                      დავალება" transform="translate(70 549)" fill="#c5cbcd" font-size="12"
                             font-family="ALKSanet, ALK Sanet">
                             <tspan x="-35.344" y="0">შუალედური</tspan>
                             <tspan x="-30.636" y="12">დავალება</tspan>
                         </text>
                         <text id="კომპლექსური_დავალება" data-name="კომპლექსური
-                            დავალება" transform="translate(70 668)" fill="#c5cbcd" font-size="12"
+                      დავალება" transform="translate(70 668)" fill="#c5cbcd" font-size="12"
                             font-family="ALKSanet, ALK Sanet">
                             <tspan x="-42.015" y="0">კომპლექსური</tspan>
                             <tspan x="-30.636" y="12">დავალება</tspan>
@@ -510,16 +482,15 @@
                     </g>
                 </svg>
             </div>
-
             <div class="our__pagination flex">
                 <a href="#" class="pagination__prev__btn">
-                    <img style="transform: rotate(180deg)" src="../../../img/icons/chevron-left-icon.svg" alt="">
+                    <img style="transform: rotate(180deg)" src="../../img/icons/chevron-left-icon.svg" alt="">
                 </a>
 
                 <div id="pagination" class="flex align-items-center"></div>
 
                 <a href="#" class="pagination__next__btn">
-                    <img src="../../../img/icons/chevron-left-icon.svg" alt="">
+                    <img src="../../img/icons/chevron-left-icon.svg" alt="">
                 </a>
             </div>
 
@@ -527,22 +498,22 @@
     </div>
 
 
+
     <!-- ჩეთბოტი -->
     <div id="chatBot">
         <app-bot></app-bot>
     </div>
 
-    <script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
-    <script src="../../../js/libraries/jquery.magnific-popup.min.js"></script>
-    <script src="../../../js/Pagination.js"></script>
+
+    <script src="../../js/libraries/jquery-3.4.1.min.js"></script>
+    <script src="../../js/libraries/jquery.magnific-popup.min.js"></script>
+    <script src="../../js/Pagination.js"></script>
 
 
     <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
-    <script src="../../../New-header-vue/app.js"></script>
-    <script src="../../../Vue-chatBot/botApp.js"></script>
-    <script src="../../../js/bot.js"></script>
-
-
+    <script src="../../New-header-vue/app.js"></script>
+    <script src="../../Vue-chatBot/botApp.js"></script>
+    <script src="../../js/bot.js"></script>
 </body>
 
 </html>
