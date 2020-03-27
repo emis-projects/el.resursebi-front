@@ -656,7 +656,7 @@ let title = {
         {
             id: 4,
             name: 'რატომ მოიწყინა ჩემმა ყვავილმა',
-            link: 'Nature-Lessons/The-living-world/N-1366-04-188.html'
+            link: 'Nature-Class/The-living-world-4/1.html'
         },
         {
             id: 5,
