@@ -2,7 +2,7 @@
     "lesson_id": 5,
     "lesson_name": "Forest-color",
     "subject": "Nature-Class",
-    "pages_number": 40,
+    "pages_number": 46,
     "pages": [
         {
             "number": 1,
@@ -196,6 +196,76 @@
         },
         {
             "number": 39,
+            "url": "",
+            "type": 1
+        },
+        {
+            "number": 40,
+            "url": "",
+            "type": 2
+        },
+        {
+            "number": 41,
+            "url": "",
+            "type": null
+        },
+        {
+            "number": 42,
+            "url": "",
+            "type": null
+        },
+        {
+            "number": 43,
+            "url": "",
+            "type": null
+        },
+        {
+            "number": 44,
+            "url": "",
+            "type": 1
+        },
+        {
+            "number": 45,
+            "url": "",
+            "type": 2
+        },
+        {
+            "number": 46,
+            "url": "",
+            "type": 1
+        },
+        {
+            "number": 47,
+            "url": "",
+            "type": 2
+        },
+        {
+            "number": 48,
+            "url": "",
+            "type": 1
+        },
+        {
+            "number": 49,
+            "url": "",
+            "type": null
+        },
+        {
+            "number": 50,
+            "url": "",
+            "type": null
+        },
+        {
+            "number": 51,
+            "url": "",
+            "type": 2
+        },
+        {
+            "number": 52,
+            "url": "",
+            "type": 5
+        },
+        {
+            "number": 53,
             "url": "",
             "type": null
         }

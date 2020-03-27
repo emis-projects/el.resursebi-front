@@ -46,16 +46,15 @@
         </section>
         <section id="mainPage">
             <div class="row">             
-                <div class="col-12  d-flex justify-content-center cs-4-2-9-div-img mt-10vh mb-10vh">
-                    <img src="../../../img/gakvetilebi/Computer-Science/Class-4/programing-mistakes-2/cs-4-2-8-1-img.svg "alt="img"
-                        class="cs-4-2-9-img">
+                <div class="col-12  d-flex justify-content-center cs-4-2-9-div-img mt-10vh mb-10vh" id="gameimgSection">
+
                 </div>
                 <div class="col-6  m-auto d-flex justify-content-around cs-4-2-9-div-img ">
-                    <div class="sign-description-btn cs-2-3-6-sign-description-btn-title cs-4-2-9-1-btn-div">
-                        <p class="sign-description-btn-title  cs-4-2-9-1-btn-red">სინტაქსური შეცდომა</p>
+                    <div class="completGame sign-description-btn cs-2-3-6-sign-description-btn-title cs-4-2-9-1-btn-div">
+                        <p data-answer="incorrect" class="sign-description-btn-title  cs-4-2-9-1-btn-red">სინტაქსური შეცდომა</p>
                     </div>
-                    <div class="sign-description-btn cs-2-3-6-sign-description-btn-title cs-4-2-9-1-btn-div">
-                        <p class="sign-description-btn-title  cs-4-2-9-1-btn-green">არ არის შეცდომა</p>
+                    <div class="completGame sign-description-btn cs-2-3-6-sign-description-btn-title cs-4-2-9-1-btn-div">
+                        <p data-answer="correct" class="sign-description-btn-title  cs-4-2-9-1-btn-green">არ არის შეცდომა</p>
                     </div>
                 </div>
             </div>
@@ -67,9 +66,13 @@
 
                     <div class="counter-box ml-4 d-flex justify-content-around align-items-center" style="background-color: #937dce;">
                         <p class="counter-box_text dj-2_6vh">ქულა</p>
-                        <div class="counter-box_number" id="numberOfScore">1</div>
+                        <div class="counter-box_number" id="numberOfScore"></div>
                     </div>
                 </div>
+
+                <div class="flex flex-end column align-items-end z-index reload_game_wrapper">
+                    <button id="resetBtn" class="reset__btn">თავიდან სცადე</button>
+              </div>
 
 
             <div class="left_components_paging-cont">
@@ -488,10 +491,6 @@
             </div>
 
         </section>
-        <div class="flex flex-end column align-items-end z-index reload_game_wrapper">
-            <button id="resetBtn" class="reset__btn">თავიდან სცადე</button>
-            <button id="completedGame" class="completed__btn">დასრულება</button>
-      </div>
     </div>
 
 
