@@ -641,62 +641,62 @@ let title = {
         {
             id: 1,
             name: 'საშიში სათამაშოები',
-            link: 'Nature-Class/dangerous-toys/1.html'
+            link: './Nature-Class/dangerous-toys/1.html'
         },
         {
             id: 2,
             name: 'უხილავი ძალები',
-            link: 'Nature-Class/invisible_forces/1.html'
+            link: './Nature-Class/invisible_forces/1.html'
         },
         {
             id: 3,
             name: 'რატომ იცვალა ტყემ ფერი?',
-            link: 'Nature-Class/Forest-colors/1.html'
+            link: './Nature-Class/Forest-colors/1.html'
         },
         {
             id: 4,
             name: 'რატომ მოიწყინა ჩემმა ყვავილმა',
-            link: 'Nature-Class/The-living-world-4/1.html'
+            link: './Nature-Class/The-living-world-4/1.html'
         },
         {
             id: 5,
             name: 'სად დაიმალა მზე?',
-            link: 'Nature-Class/Where-sun-goes/1.html'
+            link: './Nature-Class/Where-sun-goes/1.html'
         },
         {
             id: 6,
             name: 'შეიძლება ზაფხული ზამთარში იყოს?',
-            link: 'Nature-Class/Summer-in-winter/1.html'
+            link: './Nature-Class/Summer-in-winter/1.htmll'
         },
         {
             id: 7,
             name: 'რატომ არის ბრუცა ბრმა?',
-            link: 'Nature-Class/Bruca-07/1.html'
+            link: './Nature-Class/Bruca-07/1.html'
         },
         {
             id: 8,
             name: 'თეთრი - ვარდისფერი ფლამინგო',
-            link: 'Nature-Class/flamingo-08/1.html'
+            link: './Nature-Class/flamingo-08/1.html'
         },
         {
             id: 9,
             name: 'დედამიწის გარშემო 80 დღეზე სწრაფად',
-            link: 'Nature-Class/around-world-09/1.html'
+            link: './Nature-Class/around-world-09/1.html'
         },
         {
             id: 10,
             name: 'რატომ არის ანას ქურთუკი ძალიან თბილი?',
-            link: 'Nature-Class/coat-10/1.html'
+            link: './Nature-Class/coat-10/1.html'
         },
         {
             id: 11,
             name: 'როგორ ვაჯობოთ ბიჭებს „შერკინებაში?”',
-            link: 'Nature-Class/sport/1.html'
+            link: './Nature-Class/sport/1.html'
         },
         {
             id: 12,
             name: 'გვინდა თოვლი დაბადების დღეზე!',
-            link: 'Nature-Class/snow-12/1.html'
+            link: './Nature-Class/snow-12/1.html'
         }
     ],
     IT_2: [
