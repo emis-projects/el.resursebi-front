@@ -589,22 +589,22 @@ let title = {
         {
             id: 3,
             name: 'ტყე',
-            link: 'Art-Class/Forest/1.html'
+            link: './Art-Class/Forest/1.html'
         },
         {
             id: 4,
             name: 'ჯადოსნური ქვეყანა',
-            link: 'Art-Class/Magic-world/1.html'
+            link: './Art-Class/Magic-world/1.html'
         },
         {
             id: 5,
             name: 'თავგადასავალი',
-            link: 'Art-Class/Adventure/1.html'
+            link: './Art-Class/Adventure/1.html'
         },
         {
             id: 6,
             name: 'პეიზაჟი',
-            link: 'Art-Class/Landscape/1.html'
+            link: './Art-Class/Landscape/1.html'
         },
         {
             id: 7,
@@ -614,44 +614,44 @@ let title = {
         {
             id: 8,
             name: 'პლაკატი "გადავარჩინოთ ბუნება"',
-            link: 'Art-Class/rescue_nature_08/1.html'
+            link: './Art-Class/rescue_nature_08/1.html'
         },
         {
             id: 9,
             name: 'მე და ჩემი მეგობრები',
-            link: 'Art-Class/friends_09/1.html'
+            link: './Art-Class/friends_09/1.html'
         },
         {
             id: 10,
             name: 'ჩვეულებრივი და არაჩვეულებრივი ნივთები',
-            link: 'Art-Class/items-10/1.html'
+            link: './Art-Class/items-10/1.html'
         },
         {
             id: 11,
             name: 'ყოველდღიური ამბები',
-            link: 'Art-Class/daily-news-11/1.html'
+            link: './Art-Class/daily-news-11/1.html'
         },
         {
             id: 12,
             name: 'ვირტუალური გამოფენა',
-            link: 'Art-Class/VR_exhibition/1.html'
+            link: './Art-Class/VR_exhibition/1.html'
         }
     ],
     nature: [
         {
             id: 1,
             name: 'საშიში სათამაშოები',
-            link: 'Nature-Lessons/My_world/N-1366-13.html'
+            link: './Nature-Class/dangerous-toys/1.html'
         },
         {
             id: 2,
             name: 'უხილავი ძალები',
-            link: 'Nature-Lessons/invisible_forces/N-1366-36.html'
+            link: './Nature-Class/invisible_forces/1.html'
         },
         {
             id: 3,
             name: 'რატომ იცვალა ტყემ ფერი?',
-            link: 'Nature-Lessons/forest_colours/N-1366-03-109.html'
+            link: './Nature-Class/Forest-colors/1.html'
         },
         {
             id: 4,
@@ -666,37 +666,37 @@ let title = {
         {
             id: 6,
             name: 'შეიძლება ზაფხული ზამთარში იყოს?',
-            link: 'Nature-Lessons/Summer-in-winter/N-1366-06-3.html'
+            link: './Nature-Class/Summer-in-winter/1.htmll'
         },
         {
             id: 7,
             name: 'რატომ არის ბრუცა ბრმა?',
-            link: 'Nature-Lessons/Bruca-07/1.html'
+            link: './Nature-Class/Bruca-07/1.html'
         },
         {
             id: 8,
             name: 'თეთრი - ვარდისფერი ფლამინგო',
-            link: 'Nature-Lessons/flamingo-08/1.html'
+            link: './Nature-Class/flamingo-08/1.html'
         },
         {
             id: 9,
             name: 'დედამიწის გარშემო 80 დღეზე სწრაფად',
-            link: 'Nature-Lessons/around-world-09/1.html'
+            link: './Nature-Class/around-world-09/1.html'
         },
         {
             id: 10,
             name: 'რატომ არის ანას ქურთუკი ძალიან თბილი?',
-            link: 'Nature-Lessons/coat-10/1.html'
+            link: './Nature-Class/coat-10/1.html'
         },
         {
             id: 11,
             name: 'როგორ ვაჯობოთ ბიჭებს „შერკინებაში?”',
-            link: 'Nature-Lessons/sport/1.html'
+            link: './Nature-Class/sport/1.html'
         },
         {
             id: 12,
             name: 'გვინდა თოვლი დაბადების დღეზე!',
-            link: 'Nature-Lessons/snow-12/1.html'
+            link: './Nature-Class/snow-12/1.html'
         }
     ],
     IT_2: [
