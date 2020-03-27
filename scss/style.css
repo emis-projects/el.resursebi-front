@@ -1592,7 +1592,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  position: absolute;
+  position: fixed;
   bottom: 4vh;
   left: 50%;
   -webkit-transform: translateX(-50%);
@@ -3249,7 +3249,7 @@ header nav .header-sound .lang {
   height: 5vh;
   width: 27vh;
   text-align: center;
-  color: #7FD1D8;
+  color: #7FD1D8 !important;
   background-color: #fff;
   -webkit-box-shadow: 2px 2px 8px rgba(127, 209, 216, 0.4);
           box-shadow: 2px 2px 8px rgba(127, 209, 216, 0.4);
@@ -3266,7 +3266,7 @@ header nav .header-sound .lang {
 
 .completed__btn:hover {
   background-color: #7FD1D8;
-  color: #fff;
+  color: #FFFFFF !important;
 }
 
 .completed__btn:disabled {
@@ -12827,7 +12827,7 @@ section .arrow_up_down_downArrow img {
 
 .forest_colors_game-container-large {
   max-height: 504px;
-  height: 60vh;
+  height: 55vh;
 }
 
 .forest_colors_game-container-dropped-img {

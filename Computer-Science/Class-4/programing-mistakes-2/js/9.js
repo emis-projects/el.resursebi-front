@@ -1,15 +1,161 @@
 function game () {
+    this.startGameIs = true;
+    this.score = 0;
     this.TIME_LIMIT = 30;
     this.timePassed = 0;
     this.timeLeft = this.TIME_LIMIT;
     this.timerInterval = null;
+    this.randomedImages = null;
+    this.answer = null;
 
 
+    let gameImgSection = document.querySelector('#gameimgSection img');
+    // let completedBtn = document.querySelectorAll('.completGame');
+    let resetBtn = document.getElementById('resetBtn');
+
+    resetBtn.addEventListener('click', () => this.init());
+    $('.completGame').click((e) => {
+       if(this.startGameIs){
+        this.completGame(e)
+       }
+    })
 
     document.addEventListener('DOMContentLoaded', () => {
         this.startTimer();
+        document.getElementById('numberOfScore').innerHTML = this.score;
+        this.randomNewImage(images, 1);
+        let img = document.createElement('img');
+        img.setAttribute('src', this.randomedImages)
+
+        document.querySelector('#gameimgSection').appendChild(img)
     })
     
+
+    let images = [
+        "../../../img/gakvetilebi/Computer-Science/Class-4/programing-mistakes-2/games/1.svg",
+        "../../../img/gakvetilebi/Computer-Science/Class-4/programing-mistakes-2/games/3.svg",
+        "../../../img/gakvetilebi/Computer-Science/Class-4/programing-mistakes-2/games/5.svg",
+        "../../../img/gakvetilebi/Computer-Science/Class-4/programing-mistakes-2/games/7.svg",
+        "../../../img/gakvetilebi/Computer-Science/Class-4/programing-mistakes-2/games/9.svg",
+        "../../../img/gakvetilebi/Computer-Science/Class-4/programing-mistakes-2/games/11.svg",
+        "../../../img/gakvetilebi/Computer-Science/Class-4/programing-mistakes-2/games/2.svg",
+        "../../../img/gakvetilebi/Computer-Science/Class-4/programing-mistakes-2/games/13.svg",
+        "../../../img/gakvetilebi/Computer-Science/Class-4/programing-mistakes-2/games/4.svg",
+        "../../../img/gakvetilebi/Computer-Science/Class-4/programing-mistakes-2/games/15.svg",
+        "../../../img/gakvetilebi/Computer-Science/Class-4/programing-mistakes-2/games/6.svg",
+        "../../../img/gakvetilebi/Computer-Science/Class-4/programing-mistakes-2/games/8.svg",
+        "../../../img/gakvetilebi/Computer-Science/Class-4/programing-mistakes-2/games/10.svg",
+        "../../../img/gakvetilebi/Computer-Science/Class-4/programing-mistakes-2/games/12.svg",
+        "../../../img/gakvetilebi/Computer-Science/Class-4/programing-mistakes-2/games/14.svg"
+    ]
+
+    this.init = (e) =>{
+        this.startGameIs = true;
+        this.score = 0;
+        this.TIME_LIMIT = 30;
+        this.timePassed = 0;
+        this.timeLeft = this.TIME_LIMIT;
+        this.timerInterval = null;
+        this.randomedImages = null;
+        this.answer = null;
+        this.startTimer();
+        document.querySelector('#gameimgSection').innerHTML = "";
+        document.getElementById('numberOfScore').innerHTML = this.score;
+        this.randomNewImage(images, 1);
+        let img = document.createElement('img');
+        img.setAttribute('src', this.randomedImages)
+
+        document.querySelector('#gameimgSection').appendChild(img)
+    }
+
+
+
+    this.completGame = (e) => {
+        
+            if(e.target.getAttribute('data-answer') == this.answer){
+                document.querySelector('#gameimgSection').innerHTML = "";
+                this.score++
+                document.getElementById('numberOfScore').innerHTML = this.score;
+                this.randomNewImage(images, 1)
+                let img = document.createElement('img');
+                img.setAttribute('src', this.randomedImages)
+        
+                document.querySelector('#gameimgSection').appendChild(img)
+
+            } else if(e.target.getAttribute('data-answer') !== this.answer) {
+                this.randomNewImage(images, 1)
+            }
+    }
+
+
+
+    this.randomNewImage = (arr, n) => {
+        var result = new Array(n),
+            len = arr.length,
+            taken = new Array(len);
+
+        if (n > len)
+            throw new RangeError("getRandom: more elements taken than available");
+
+        while (n--) {
+            var x = Math.floor(Math.random() * len);
+            result[n] = arr[x in taken ? taken[x] : x];
+            taken[x] = --len in taken ? taken[len] : len;
+        }
+
+        this.randomedImages = result[0];
+
+        if(this.randomedImages == "../../../img/gakvetilebi/Computer-Science/Class-4/programing-mistakes-2/games/1.svg"){
+            this.answer = "incorrect"
+
+        } else if(this.randomedImages == "../../../img/gakvetilebi/Computer-Science/Class-4/programing-mistakes-2/games/2.svg"){
+            this.answer = "incorrect"
+
+        } else if(this.randomedImages == "../../../img/gakvetilebi/Computer-Science/Class-4/programing-mistakes-2/games/3.svg"){
+            this.answer = "incorrect"
+
+        } else if(this.randomedImages == "../../../img/gakvetilebi/Computer-Science/Class-4/programing-mistakes-2/games/4.svg"){
+            this.answer = "incorrect"
+
+        } else if(this.randomedImages == "../../../img/gakvetilebi/Computer-Science/Class-4/programing-mistakes-2/games/5.svg"){
+            this.answer = "incorrect"
+
+        } else if(this.randomedImages == "../../../img/gakvetilebi/Computer-Science/Class-4/programing-mistakes-2/games/6.svg"){
+            this.answer = "incorrect"
+
+        } else if(this.randomedImages == "../../../img/gakvetilebi/Computer-Science/Class-4/programing-mistakes-2/games/7.svg"){
+            this.answer = "incorrect"
+
+        } else if(this.randomedImages == "../../../img/gakvetilebi/Computer-Science/Class-4/programing-mistakes-2/games/15.svg"){
+            this.answer = "incorrect"
+
+        } else if(this.randomedImages == "../../../img/gakvetilebi/Computer-Science/Class-4/programing-mistakes-2/games/8.svg"){
+            this.answer = "correct"
+
+        } else if(this.randomedImages == "../../../img/gakvetilebi/Computer-Science/Class-4/programing-mistakes-2/games/9.svg"){
+            this.answer = "correct"
+
+        } else if(this.randomedImages == "../../../img/gakvetilebi/Computer-Science/Class-4/programing-mistakes-2/games/10.svg"){
+            this.answer = "correct"
+
+        } else if(this.randomedImages == "../../../img/gakvetilebi/Computer-Science/Class-4/programing-mistakes-2/games/11.svg"){
+            this.answer = "correct"
+
+        } else if(this.randomedImages == "../../../img/gakvetilebi/Computer-Science/Class-4/programing-mistakes-2/games/12.svg"){
+            this.answer = "correct"
+
+        } else if(this.randomedImages == "../../../img/gakvetilebi/Computer-Science/Class-4/programing-mistakes-2/games/13.svg"){
+            this.answer = "correct"
+
+        } else if(this.randomedImages == "../../../img/gakvetilebi/Computer-Science/Class-4/programing-mistakes-2/games/14.svg"){
+            this.answer = "correct"
+        }
+
+        return result;
+    }
+
+
+
 
     this.onTimesUp = () => {
         clearInterval(timerInterval);
