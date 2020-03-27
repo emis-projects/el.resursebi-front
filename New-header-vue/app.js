@@ -862,7 +862,7 @@ let title = {
         {
             id: 8,
             name: 'ტექსტის სწორება (Ms Word)',
-            link: '#'
+            link: './Computer-Science/Class-4/correcting-text-8/1.html'
         },
         {
             id: 9,

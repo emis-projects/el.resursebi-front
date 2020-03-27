@@ -1,4 +1,4 @@
-// rainbow game 
+// rainbow game
 function rainbow(){
 	this.color = null;
 	this.index = 0;
@@ -6,20 +6,20 @@ function rainbow(){
 	this.correctAnswer = [];
 
 
-	// variables 
+	// variables
 	let line = document.querySelectorAll('.rainbow--line');
 	let rainbowBtns = document.querySelectorAll('.color__btn');
 	let resetBtn = document.getElementById('resetBtn');
 	let completedGame = document.getElementById('completedGame');
 
 
-	// init 
+	// init
 	this.init = () => {
 		this.index = 0;
 		this.color = null;
 		this.error = false;
 		this.correctAnswer = [];
-		
+
 		document.querySelectorAll('.rainbow--line').forEach(w => {
 			w.setAttribute('fill', '#fff');
 			w.setAttribute('stroke', '#000');
@@ -28,7 +28,7 @@ function rainbow(){
 
 		document.querySelectorAll('.svg-icon-content').forEach(w => w.classList.remove('error'));
 
-		
+
 		completedGame.removeAttribute('disabled');
 		completedGame.setAttribute('style', 'cursor: pointer')
 
@@ -40,12 +40,12 @@ function rainbow(){
 	}
 
 
-	// paint lines 
+	// paint lines
 	this.paint = function(color, e) {
 		this.color = color;
 		this.index++;
-	
-		
+
+
 		let first = document.querySelector('.rainbow--line--first'),
 			second = document.querySelector('.rainbow--line--second'),
 			third = document.querySelector('.rainbow--line--third'),
@@ -53,9 +53,9 @@ function rainbow(){
 			fifth = document.querySelector('.rainbow--line--fifth'),
 			sixth = document.querySelector('.rainbow--line--sixth'),
 			seventh = document.querySelector('.rainbow--line--seventh');
-			
 
-		
+
+
 		if(first.getAttribute('fill') == '#fff'){
 			first.setAttribute('fill', this.color);
 			first.setAttribute('stroke', this.color);
@@ -67,19 +67,19 @@ function rainbow(){
 		} else if(third.getAttribute('fill') == '#fff'){
 			third.setAttribute('fill', this.color);
 			third.setAttribute('stroke', this.color);
-			
+
 		} else if(fourth.getAttribute('fill') == '#fff'){
 			fourth.setAttribute('fill', this.color);
 			fourth.setAttribute('stroke', this.color);
-			
+
 		} else if(fifth.getAttribute('fill') == '#fff'){
 			fifth.setAttribute('fill', this.color);
 			fifth.setAttribute('stroke', this.color);
-			
+
 		} else if(sixth.getAttribute('fill') == '#fff'){
 			sixth.setAttribute('fill', this.color);
 			sixth.setAttribute('stroke', this.color);
-			
+
 		} else if(seventh.getAttribute('fill') == '#fff'){
 			seventh.setAttribute('fill', this.color);
 			seventh.setAttribute('stroke', this.color);
@@ -90,7 +90,7 @@ function rainbow(){
 		if(this.correctAnswer.length !== 0){
 			let lastElement = this.correctAnswer.slice(-1)[0];
 			let lastlastElement = this.correctAnswer.length - 1;
-			
+
 			if(lastElement - lastlastElement !== 1 ){
 				this.error = true;
 			}
@@ -101,7 +101,7 @@ function rainbow(){
 	// success page
 	this.successPage  = () => {
 		this.error = false;
-		location.href = '1366-240.html';
+		location.href = 'game-success-17.html';
 	}
 
 
@@ -115,7 +115,7 @@ function rainbow(){
 	}
 
 
-	// error page 
+	// error page
 	this.errorPage = () => {
 		line.forEach(l => {
 			if(l.getAttribute('fill') !== l.getAttribute('data-color')){
@@ -127,7 +127,7 @@ function rainbow(){
 			}
 		})
 	}
-	
+
 
 	this.completGame = (e) => {
 		line.forEach(w => {
@@ -146,7 +146,7 @@ function rainbow(){
 		})
 	}
 
-	
+
 
 	resetBtn.addEventListener('click', () => this.init());
 	completedGame.addEventListener('click', () => this.completGame());

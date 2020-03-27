@@ -151,16 +151,18 @@ function natureGames(){
 
             } else if(loc == "/el.resursebi-front/Nature-Class/invisible_forces/24.html" || loc == "/Nature-Class/invisible_forces/24.html" ||loc == "/Nature-Lessons/invisible_forces/games/N-1366-117.html" || loc == "/el.resursebi-front/Nature-Lessons/invisible_forces/games/N-1366-117.html"){
                 //location.href = "N-1366-117-success.html"
-                location.href = "../../../Nature-Class/invisible_forces/game-success-24.html"
+                location.href = "game-success-24.html"
 
             } else if(loc == "/Nature-Lessons/forest_colours/games/N-1366-03-194.html" || loc == "/el.resursebi-front/Nature-Lessons/forest_colours/games/N-1366-03-194.html"){
                 location.href = "N-1366-03-194-success.html"
 
-            } else if(loc == "/Nature-Lessons/The-living-world/games/N-1366-04-253.html" || loc == "/el.resursebi-front/Nature-Lessons/The-living-world/games/N-1366-04-253.html"){
-                location.href = "N-1366-04-253-success.html"
+            } else if(loc=="/el.resursebi-front/Nature-Class/The-living-world-4/20.html" || loc == "/Nature-Class/The-living-world-4/20.html" || loc == "/Nature-Lessons/The-living-world/games/N-1366-04-253.html" || loc == "/el.resursebi-front/Nature-Lessons/The-living-world/games/N-1366-04-253.html"){
+                //location.href = "N-1366-04-253-success.html"
+                location.href = "game-success-20.html"
 
-            } else if(loc == "/Nature-Lessons/Where-sun-goes/games/N-1366-05-22.html" || loc == "/el.resursebi-front/Nature-Lessons/Where-sun-goes/games/N-1366-05-22.html"){
-                location.href = "N-1366-05-22-success.html"
+            } else if(loc == "/Nature-Class/Where-sun-goes/20.html" || loc == "/el.resursebi-front/Nature-Class/Where-sun-goes/20.html"  ||  loc == "/Nature-Lessons/Where-sun-goes/games/N-1366-05-22.html" || loc == "/el.resursebi-front/Nature-Lessons/Where-sun-goes/games/N-1366-05-22.html"){
+                //location.href = "N-1366-05-22-success.html"
+                location.href = "game-success-20.html"
 
             } else if(loc == "/Nature-Lessons/Summer-in-winter/games/N-1366-06-21.html" || loc == "/el.resursebi-front/Nature-Lessons/Summer-in-winter/games/N-1366-06-21.html"){
                 location.href = "N-1366-06-21-success.html"

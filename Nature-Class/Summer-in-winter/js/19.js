@@ -5,12 +5,12 @@ function natureGames(){
     var firstH5 = document.querySelector('.ask_question_game-first');
     var secondH5 = document.querySelector('.ask_question_game-second');
     var thirdH5 = document.querySelector('.ask_question_game-third');
-    
+
     let firstIndex = firstH5.querySelector('.draggeble_h5').getAttribute('data-index');
     let secondIndex = secondH5.querySelector('.draggeble_h5').getAttribute('data-index');
     let thirdIndex = thirdH5.querySelector('.draggeble_h5').getAttribute('data-index');
 
-    
+
     // variables
     var draggedElement = $('.ask_question_game_box');
     var empties = document.querySelectorAll('.dropDiv');
@@ -60,7 +60,7 @@ function natureGames(){
         $('.ask_question_game_box').removeAttr('style');
 
         if(!firstH5.querySelector('.draggeble_h5')){
-            this.comeBackText(firstH5.getAttribute('data-title'), firstIndex, firstH5)    
+            this.comeBackText(firstH5.getAttribute('data-title'), firstIndex, firstH5)
         }
         if(!secondH5.querySelector('.draggeble_h5')){
             this.comeBackText(secondH5.getAttribute('data-title'), secondIndex, secondH5)
@@ -85,16 +85,16 @@ function natureGames(){
     }
 
 
-    // Drag Functions    
+    // Drag Functions
     this.dragOver = (e) => {
         e.preventDefault();
     }
-  
+
     this.dragEnter = (e) => {
         e.preventDefault();
     }
 
-    // drag start 
+    // drag start
     this.dragStart = (e) => {
         setTimeout(() => {
             e.target.className = "draggedElement"
@@ -110,7 +110,7 @@ function natureGames(){
     }
 
 
-    // drop 
+    // drop
     this.dragDrop = e => {
         let draggedEl = document.querySelector('.draggedElement').querySelector('h5');
         let draggedElIndex = parseInt(draggedEl.getAttribute('data-index'));
@@ -126,11 +126,11 @@ function natureGames(){
           this.error = false;
         } else {
           this.error = true;
-        } 
+        }
     }
- 
 
-	// error page 
+
+	// error page
 	this.errorPage = () => {
 		myArray.forEach(l => {
 			if(l.getAttribute('data-index') !== l.getAttribute('dinamicaly-index')){
@@ -161,8 +161,9 @@ function natureGames(){
             } else if(loc == "/Nature-Lessons/Where-sun-goes/games/N-1366-05-22.html" || loc == "/el.resursebi-front/Nature-Lessons/Where-sun-goes/games/N-1366-05-22.html"){
                 location.href = "N-1366-05-22-success.html"
 
-            } else if(loc == "/Nature-Lessons/Summer-in-winter/games/N-1366-06-21.html" || loc == "/el.resursebi-front/Nature-Lessons/Summer-in-winter/games/N-1366-06-21.html"){
-                location.href = "N-1366-06-21-success.html"
+            } else if( loc == "/Nature-Class/Summer-in-winter/19.html" || loc == "/el.resursebi-front/Nature-Class/Summer-in-winter/19.html"  || loc == "/Nature-Lessons/Summer-in-winter/games/N-1366-06-21.html" || loc == "/el.resursebi-front/Nature-Lessons/Summer-in-winter/games/N-1366-06-21.html"){
+                //location.href = "N-1366-06-21-success.html"
+                location.href = "N-1366-06-19-success.html"
 
             } else if(loc == "/el.resursebi-front/Nature-Lessons/Bruca-07/16.html" || loc == "/Nature-Lessons/Bruca-07/16.html"){
                 location.href = "game-success-16.html"
@@ -184,14 +185,14 @@ function natureGames(){
             }
         }
 	}
-    
+
 
     this.checkEveryElement = (element) => {
         return element.getAttribute('data-index') == element.getAttribute('dinamicaly-index');
     }
 
 
-    // completed 
+    // completed
 	this.completGame = (e) => {
 		if(this.error){
             this.errorPage();
@@ -199,7 +200,7 @@ function natureGames(){
             completedBtn.classList.add('opacity-5')
             completedBtn.setAttribute('style', 'disabled')
             completedBtn.setAttribute('style', 'cursor: default')
-            
+
         } else {
             this.error = false;
             this.successPage();
@@ -207,7 +208,7 @@ function natureGames(){
 	}
 
 
-    // events 
+    // events
     resetBtn.addEventListener('click', () => this.init());
 	completedGame.addEventListener('click', () => this.completGame());
 }
