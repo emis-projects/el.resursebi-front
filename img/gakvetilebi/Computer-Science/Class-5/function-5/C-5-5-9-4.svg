@@ -1,1 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="202.275" height="72.03" viewBox="0 0 202.275 72.03"><defs><style>.a{fill:#5998f7;}.b,.c{fill:#fff;}.c{font-size:17px;}.c,.d{font-family:BPGArial, BPG Arial;}.d{font-size:19px;}</style></defs><g transform="translate(-56.368 -617.871)"><path class="a" d="M254.462,617.871H117.5q-5.573,5.378-11.145,10.754H87.232q-5.973-5.177-11.945-10.356H61.3a7.028,7.028,0,0,1-1.183-.354,4.168,4.168,0,0,0-3.745,4.139v53.471a4.182,4.182,0,0,0,4.182,4.182H75.473L87.232,689.9h19.122l10.566-10.193H254.462a4.182,4.182,0,0,0,4.182-4.182V622.054A4.183,4.183,0,0,0,254.462,617.871Z"/><rect class="b" width="51.381" height="43.016" rx="15.07" transform="translate(196.169 626.833)"/><text class="c" transform="translate(125.769 657.35)"><tspan x="-61.795" y="0">point in direction</tspan></text><text class="d" transform="translate(221.151 654.737)"><tspan x="-5.283" y="0">0</tspan></text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="202.275" height="72.03" viewBox="0 0 202.275 72.03">
+  <g id="Group_40115" data-name="Group 40115" transform="translate(-246 -352.219)">
+    <g id="Group_39933" data-name="Group 39933" transform="translate(189.632 -265.652)">
+      <path id="Path_44481" data-name="Path 44481" d="M254.462,617.871H117.5q-5.573,5.378-11.145,10.754H87.232q-5.973-5.177-11.945-10.356H61.3a7.028,7.028,0,0,1-1.183-.354,4.168,4.168,0,0,0-3.745,4.139v53.471a4.182,4.182,0,0,0,4.182,4.182H75.473L87.232,689.9h19.122l10.566-10.193H254.462a4.182,4.182,0,0,0,4.182-4.182V622.054A4.183,4.183,0,0,0,254.462,617.871Z" fill="#5998f7"/>
+      <rect id="Rectangle_5887" data-name="Rectangle 5887" width="51.381" height="43.016" rx="15.07" transform="translate(196.169 626.833)" fill="#fff"/>
+      <text id="point_in_direction" data-name="point in direction" transform="translate(125.769 657.35)" fill="#fff" font-size="17" font-family="BPGArial, BPG Arial"><tspan x="-61.795" y="0">point in direction</tspan></text>
+      <text id="_0" data-name="0" transform="translate(221.151 654.737)" font-size="19" font-family="BPGArial, BPG Arial"><tspan x="-5.283" y="0">0</tspan></text>
+    </g>
+  </g>
+</svg>

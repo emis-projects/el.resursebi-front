@@ -60,13 +60,13 @@ Vue.component('appMenu', {
             <img class="logo" src="" alt="logo">
         </a>
         <ul class="navbar-nav ml-auto">
-          <li 
-            @click="isShow = !isShow" 
+          <li
+            @click="isShow = !isShow"
             class="nav-item"
             @mouseover="soundHover = true"
             @mouseleave="soundHover = false"
           >
-            <div 
+            <div
                 class="sound_box sound"
                 :class="[soundHover ? 'sound_box_active' : 'sound_box_passive']"
             >
@@ -74,8 +74,8 @@ Vue.component('appMenu', {
                 <img v-show="!isShow" class="off animated.fast" :class="{flipInX: isShow, flipInX: !isShow}" alt="sound">
             </div>
           </li>
-          <li 
-            @click="show = !show" 
+          <li
+            @click="show = !show"
             class="nav-item"
             @mouseover="langHover = true"
             @mouseleave="langHover = false"
@@ -89,8 +89,8 @@ Vue.component('appMenu', {
             </transition>
             </div>
           </li>
-          <li 
-              class="nav-item dropdown" 
+          <li
+              class="nav-item dropdown"
               @mouseover="menuHover = true"
               @mouseleave="menuHover = false"
           >
@@ -128,7 +128,7 @@ Vue.component('appSection', {
                 <!--აგნენერირებს შესაბამის კომპონენტს-->
                     <slot></slot>
                  </section>
-                 <transition 
+                 <transition
                     enter-active-class="animated fadeIn"
                     leave-active-class="animated fadeOut"
                     :duration="750"
@@ -136,7 +136,7 @@ Vue.component('appSection', {
                     <div v-show="isActive" class="bg_menu"></div>
                 </transition>
             </div>
-            
+
     `
 });
 
@@ -155,20 +155,20 @@ Vue.component('appBar', {
         }
     },
     template: `
-        <transition 
+        <transition
             enter-active-class="animated fadeInDown"
             leave-active-class="animated fadeOutUp"
             :duration="1000"
             mode="out-in">
                   <div v-show="isActive" class="top-bar">
-                  <!--todo ბარის ნავიგაცია(4 სექციით ჯერ მხოლოდ 2 მუშაობს) 
+                  <!--todo ბარის ნავიგაცია(4 სექციით ჯერ მხოლოდ 2 მუშაობს)
                       იკონკები გენერირდება დინამიურად კლასით (დასრულებულია)
                     -->
-                        <button v-for="(dot, index) in dots" 
+                        <button v-for="(dot, index) in dots"
                                 :class="['icon-'+ index, dot.classActive ? dot.name : '']"
                                 :disabled="dot.disable"
-                                :key="dot.id" 
-                                @click="$emit('link-tab', dot.name)" 
+                                :key="dot.id"
+                                @click="$emit('link-tab', dot.name)"
                                 ><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span></button>
                   </div>
         </transition>
@@ -190,7 +190,7 @@ Vue.component('appStart', {
         images: Object
     },
     template: `
-        <transition 
+        <transition
             enter-active-class="animated slideInUp"
             leave-active-class="animated slideOutDown"
             :duration="1000"
@@ -198,7 +198,7 @@ Vue.component('appStart', {
             appear>
                 <div v-if="isActive" class="page-section" :class="'app-start'">
                     <div class="row">
-                        <!--  
+                        <!--
                          -----  მუსუკა დამალულია (სავარაუდოდ დროებით -_- )
                          -----
                         <div class="col-4 main-lesson-start-cont">
@@ -213,7 +213,7 @@ Vue.component('appStart', {
                           <div class="new_btn-start-cont">
                             <a @click="trigger('select', 'ხელოვნება')" class="new_btn-start">ხელოვნება</a>
                           </div>
-                        </div> 
+                        </div>
                         <div class="col-3 main-lesson-start-cont">
                           <img alt="nature" :src="images.nature" class="main-lesson-start-img" />
                           <div class="new_btn-start-cont">
@@ -305,7 +305,7 @@ Vue.component('appSelect', {
         }
     },
     template: `
-        <transition 
+        <transition
             enter-active-class="animated slideInUp"
             leave-active-class="animated slideOutDown"
             :duration="1000"
@@ -323,11 +323,11 @@ Vue.component('appSelect', {
                                 <div class="class_box d-flex justify-content-between">
                                 <!--:class="{ active: number === activeItem }"-->
                                     <div class="circles d-flex justify-content-center align-items-center"
-                                        @click="classChoose(number+1)" 
-                                        v-for="number in 5" 
+                                        @click="classChoose(number+1)"
+                                        v-for="number in 5"
                                         :key="number"
                                         >
-                                         <transition 
+                                         <transition
                                              enter-active-class="animated flipInX"
                                              leave-active-class="animated flipOutY"
                                              :duration="750"
@@ -337,11 +337,11 @@ Vue.component('appSelect', {
                                              class="circle_wrapper">
                                              <div class="circles_number-pink" v-if="number !== activeItem" key="pink">
                                                  <img :src="path + 'New-header-vue/header-img/pink_'+ (number + 1) +'.svg'" :alt="'pink_' + (number+1)" class="img-fluid">
-                                             </div>    
+                                             </div>
                                              <div class="circles_number-white" v-else key="white">
                                                  <img :src="path + 'New-header-vue/header-img/white_'+ (number + 1) +'.svg'" :alt="'white_' + (number+1)" class="img-fluid">
-                                             </div>  
-                                             </transition>                             
+                                             </div>
+                                             </transition>
                                     </div>
                                 </div>
                             </div>
@@ -402,7 +402,7 @@ Vue.component('appLinks', {
     },
 
     template: `
-        <transition 
+        <transition
             enter-active-class="animated slideInUp"
             leave-active-class="animated slideOutDown"
             :duration="1000"
@@ -423,7 +423,7 @@ Vue.component('appSections', {
         }
     },
     template: `
-        <transition 
+        <transition
             enter-active-class="animated slideInUp"
             leave-active-class="animated slideOutDown"
             :duration="1000"
@@ -604,7 +604,7 @@ let title = {
         {
             id: 6,
             name: 'პეიზაჟი',
-            link: 'Art-Class/Landscape/1.html'
+            link: 'Art-Class/Landscape-6/1.html'
         },
         {
             id: 7,
@@ -641,62 +641,62 @@ let title = {
         {
             id: 1,
             name: 'საშიში სათამაშოები',
-            link: 'Nature-Lessons/My_world/N-1366-13.html'
+            link: './Nature-Class/dangerous-toys/1.html'
         },
         {
             id: 2,
             name: 'უხილავი ძალები',
-            link: 'Nature-Lessons/invisible_forces/N-1366-36.html'
+            link: './Nature-Class/invisible_forces/1.html'
         },
         {
             id: 3,
             name: 'რატომ იცვალა ტყემ ფერი?',
-            link: 'Nature-Lessons/forest_colours/N-1366-03-109.html'
+            link: './Nature-Class/Forest-colors/1.html'
         },
         {
             id: 4,
             name: 'რატომ მოიწყინა ჩემმა ყვავილმა',
-            link: 'Nature-Lessons/The-living-world/N-1366-04-188.html'
+            link: './Nature-Class/The-living-world-4/1.html'
         },
         {
             id: 5,
             name: 'სად დაიმალა მზე?',
-            link: 'Nature-Lessons/Where-sun-goes/N-1366-05-3.html'
+            link: './Nature-Class/Where-sun-goes/1.html'
         },
         {
             id: 6,
             name: 'შეიძლება ზაფხული ზამთარში იყოს?',
-            link: 'Nature-Lessons/Summer-in-winter/N-1366-06-3.html'
+            link: './Nature-Class/Summer-in-winter/1.htmll'
         },
         {
             id: 7,
             name: 'რატომ არის ბრუცა ბრმა?',
-            link: 'Nature-Lessons/Bruca-07/1.html'
+            link: './Nature-Class/Bruca-07/1.html'
         },
         {
             id: 8,
             name: 'თეთრი - ვარდისფერი ფლამინგო',
-            link: 'Nature-Lessons/flamingo-08/1.html'
+            link: './Nature-Class/flamingo-08/1.html'
         },
         {
             id: 9,
             name: 'დედამიწის გარშემო 80 დღეზე სწრაფად',
-            link: 'Nature-Lessons/around-world-09/1.html'
+            link: './Nature-Class/around-world-09/1.html'
         },
         {
             id: 10,
             name: 'რატომ არის ანას ქურთუკი ძალიან თბილი?',
-            link: 'Nature-Lessons/coat-10/1.html'
+            link: './Nature-Class/coat-10/1.html'
         },
         {
             id: 11,
             name: 'როგორ ვაჯობოთ ბიჭებს „შერკინებაში?”',
-            link: 'Nature-Lessons/sport/1.html'
+            link: './Nature-Class/sport/1.html'
         },
         {
             id: 12,
             name: 'გვინდა თოვლი დაბადების დღეზე!',
-            link: 'Nature-Lessons/snow-12/1.html'
+            link: './Nature-Class/snow-12/1.html'
         }
     ],
     IT_2: [
