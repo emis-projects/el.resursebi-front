@@ -24,7 +24,7 @@ $(document).ready(function() {
       const leftSide = drop_el.left + $(this).width() / 2 - (drag_el.left + ui.draggable.width() / 2);
       const topSide = drop_el.top + $(this).height() / 2 - (drag_el.top + ui.draggable.height() / 2);
 
-      // დივიჟენს დავამათოთ კლასი highlight 
+      // დივიჟენს დავამათოთ კლასი highlight
       $(this)
         .addClass("highlight")
         .find("div");
@@ -51,7 +51,7 @@ $("#completedGame").click(function() {
       img.setAttribute('id', 'wrong');
       img.setAttribute('draggable', false)
       img.src =
-        "../../../img/gakvetilebi/buneba/invisible_forces/games/wrong.svg";
+        "../../img/gakvetilebi/buneba/invisible_forces/games/wrong.svg";
       elm.appendChild(img);
     }
   });

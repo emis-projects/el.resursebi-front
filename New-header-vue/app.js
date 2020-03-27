@@ -666,7 +666,7 @@ let title = {
         {
             id: 6,
             name: 'შეიძლება ზაფხული ზამთარში იყოს?',
-            link: './Nature-Class/Summer-in-winter/1.htmll'
+            link: './Nature-Class/Summer-in-winter/1.html'
         },
         {
             id: 7,
