@@ -589,22 +589,22 @@ let title = {
         {
             id: 3,
             name: 'ტყე',
-            link: './Art-Class/Forest/1.html'
+            link: 'Art-Class/Forest/1.html'
         },
         {
             id: 4,
             name: 'ჯადოსნური ქვეყანა',
-            link: './Art-Class/Magic-world/1.html'
+            link: 'Art-Class/Magic-world/1.html'
         },
         {
             id: 5,
             name: 'თავგადასავალი',
-            link: './Art-Class/Adventure/1.html'
+            link: 'Art-Class/Adventure/1.html'
         },
         {
             id: 6,
             name: 'პეიზაჟი',
-            link: './Art-Class/Landscape/1.html'
+            link: 'Art-Class/Landscape/1.html'
         },
         {
             id: 7,
@@ -614,27 +614,27 @@ let title = {
         {
             id: 8,
             name: 'პლაკატი "გადავარჩინოთ ბუნება"',
-            link: './Art-Class/rescue_nature_08/1.html'
+            link: 'Art-Class/rescue_nature_08/1.html'
         },
         {
             id: 9,
             name: 'მე და ჩემი მეგობრები',
-            link: './Art-Class/friends_09/1.html'
+            link: 'Art-Class/friends_09/1.html'
         },
         {
             id: 10,
             name: 'ჩვეულებრივი და არაჩვეულებრივი ნივთები',
-            link: './Art-Class/items-10/1.html'
+            link: 'Art-Class/items-10/1.html'
         },
         {
             id: 11,
             name: 'ყოველდღიური ამბები',
-            link: './Art-Class/daily-news-11/1.html'
+            link: 'Art-Class/daily-news-11/1.html'
         },
         {
             id: 12,
             name: 'ვირტუალური გამოფენა',
-            link: './Art-Class/VR_exhibition/1.html'
+            link: 'Art-Class/VR_exhibition/1.html'
         }
     ],
     nature: [
@@ -656,12 +656,12 @@ let title = {
         {
             id: 4,
             name: 'რატომ მოიწყინა ჩემმა ყვავილმა',
-            link: 'Nature-Lessons/The-living-world/N-1366-04-188.html'
+            link: './Nature-Class/The-living-world-4/1.html'
         },
         {
             id: 5,
             name: 'სად დაიმალა მზე?',
-            link: 'Nature-Lessons/Where-sun-goes/N-1366-05-3.html'
+            link: './Nature-Class/Where-sun-goes/1.html'
         },
         {
             id: 6,
