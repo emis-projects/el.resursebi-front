@@ -46,8 +46,9 @@ function natureGames() {
             e.target.appendChild(drag);
         }
         console.log(drag)
-        drag.style += style="height: 100%; height: 100%; top: 10px; left: initial; right: initial; bottom: 10px; width: 100%;pointer-events: none;";
-
+        //drag.style += "height: 10%; top: 10px; left: initial; right: initial; bottom: 10px; width: 100%;pointer-events: none;";
+        drag.firstElementChild.className = 'sign-description-btn-title-light-purple';
+        drag.style = "height:40px;margin-top:10px;"
     }
 
     myArray = [];
@@ -61,11 +62,11 @@ function natureGames() {
         myArray.forEach(element => {
             if (element.getAttribute('data-place') == element.parentElement.getAttribute('data-place')) {
                 count++;
-                element.style = "background:#a1dd6f";
+                element.style = "height: 40px; margin-top: 10px;background:#a1dd6f";
             }
             if (element.getAttribute('data-place') != element.parentElement.getAttribute('data-place')
                 && element.parentElement.classList.contains('myDrag')) {
-                element.style = "background:#dc6c85";
+                element.style = "height: 40px; margin-top: 10px;background:#dc6c85";
             }
         });
         if (count == 8) {
