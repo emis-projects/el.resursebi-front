@@ -927,7 +927,7 @@
 }
 
 /* '' */
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -3290,8 +3290,8 @@ section .arrow_up_down_downArrow img {
   color: #0b2228;
 }
 
-/* 
-*wow slider CSS section 
+/*
+*wow slider CSS section
 */
 .owl-carousel {
   position: relative;
@@ -3361,7 +3361,7 @@ section .arrow_up_down_downArrow img {
   border: none;
 }
 
-/* 
+/*
 ! slider content sectio
 */
 .main_box_links {
@@ -6932,7 +6932,7 @@ section .arrow_up_down_downArrow img {
 }
 
 .frame {
-  background-image: url("../../../img/gakvetilebi/buneba/invisible_forces/land.svg");
+  background-image: url("../img/gakvetilebi/buneba/invisible_forces/land.svg");
   background-position: center;
   background-size: cover;
   --block-size: 3.160322108345534vw;
@@ -6962,7 +6962,7 @@ section .arrow_up_down_downArrow img {
 }
 
 .player {
-  background-image: url("../../../img/gakvetilebi/buneba/invisible_forces/labirint-people.svg");
+  background-image: url("../img/gakvetilebi/buneba/invisible_forces/labirint-people.svg");
   background-position: center center;
   background-size: 40px 40px;
   background-repeat: no-repeat;

@@ -42,12 +42,12 @@ function natureGames() {
     }
 
 
-    // Drag Functions    
+    // Drag Functions
     this.dragOver = (e) => {
         e.preventDefault();
     }
 
-    // drag start 
+    // drag start
     this.dragStart = (e) => {
         setTimeout(() => {
             e.target.className = "draggedElement"
@@ -64,9 +64,9 @@ function natureGames() {
         });
         $('.after_parent').removeClass('dragDrop')
 
-        document.getElementById("img1").firstElementChild.src = "../../../img/gakvetilebi/buneba/lesson4/1366-285-flower-2-3.svg";
-        document.getElementById("img2").firstElementChild.src = "../../../img/gakvetilebi/buneba/lesson4/1366-285-flower-3-3.svg";
-        document.getElementById("img3").firstElementChild.src = "../../../img/gakvetilebi/buneba/lesson4/1366-285-flower-3.svg";
+        document.getElementById("img1").firstElementChild.src = "../../img/gakvetilebi/buneba/lesson4/1366-285-flower-2-3.svg";
+        document.getElementById("img2").firstElementChild.src = "../../img/gakvetilebi/buneba/lesson4/1366-285-flower-3-3.svg";
+        document.getElementById("img3").firstElementChild.src = "../../img/gakvetilebi/buneba/lesson4/1366-285-flower-3.svg";
     }
 
 
@@ -78,15 +78,15 @@ function natureGames() {
     }
 
 
-    // drop 
+    // drop
     this.dragDrop = e => {
         let drag = document.querySelector('.draggedElement');
 
         if (e.target.parentElement.classList.contains('after_parent')) {
             this.getDragableElement(drag, e.target.parentElement)
             e.target.parentElement.appendChild(drag);
-            
-            
+
+
         }
 
         let firstElement = e.target.parentElement.firstElementChild;
@@ -102,50 +102,51 @@ function natureGames() {
     this.getDragableElement = (draggable, droppable) => {
         if(draggable.getAttribute('data-title') == "2"){
                 if(droppable.id == "img3"){
-                    draggable.src = "../../../img/gakvetilebi/buneba/lesson4/1366-285-flower-2-1.svg";
+                    draggable.src = "../../img/gakvetilebi/buneba/lesson4/1366-285-flower-2-1.svg";
                 }
                 if(droppable.id == "img2"){
-                    draggable.src = "../../../img/gakvetilebi/buneba/lesson4/1366-285-flower-2-2.svg";
+                    draggable.src = "../../img/gakvetilebi/buneba/lesson4/1366-285-flower-2-2.svg";
                 }
                 if(droppable.id == "img1"){
-                    draggable.src = "../../../img/gakvetilebi/buneba/lesson4/1366-285-flower-2-3.svg";
+                    draggable.src = "../../img/gakvetilebi/buneba/lesson4/1366-285-flower-2-3.svg";
                 }
 
             }
             if(draggable.getAttribute('data-title') == "3"){
                 if(droppable.id == "img1"){
-                    draggable.src = "../../../img/gakvetilebi/buneba/lesson4/1366-285-flower-3-1.svg";
+                    draggable.src = "../../img/gakvetilebi/buneba/lesson4/1366-285-flower-3-1.svg";
                 }
                 if(droppable.id == "img3"){
-                    draggable.src = "../../../img/gakvetilebi/buneba/lesson4/1366-285-flower-3-2.svg";
+                    draggable.src = "../../img/gakvetilebi/buneba/lesson4/1366-285-flower-3-2.svg";
                 }
                 if(droppable.id == "img2"){
-                    draggable.src = "../../../img/gakvetilebi/buneba/lesson4/1366-285-flower-3-3.svg";
+                    draggable.src = "../../img/gakvetilebi/buneba/lesson4/1366-285-flower-3-3.svg";
                 }
 
             }
             if(draggable.getAttribute('data-title') == "1"){
                 if(droppable.id == "img2"){
-                    draggable.src = "../../../img/gakvetilebi/buneba/lesson4/1366-285-flower-1-1.svg";
+                    draggable.src = "../../img/gakvetilebi/buneba/lesson4/1366-285-flower-1-1.svg";
                 }
                 if(droppable.id == "img1"){
-                    draggable.src = "../../../img/gakvetilebi/buneba/lesson4/1366-285-flower-1-2.svg";
+                    draggable.src = "../../img/gakvetilebi/buneba/lesson4/1366-285-flower-1-2.svg";
                 }
                 if(droppable.id == "img3"){
-                    draggable.src = "../../../img/gakvetilebi/buneba/lesson4/1366-285-flower-1-3.svg";
+                    draggable.src = "../../img/gakvetilebi/buneba/lesson4/1366-285-flower-1-3.svg";
                 }
 
             }
     }
-    
+
 
     this.checkEveryElement = (element) => {
         return element.getAttribute('data-title') === element.querySelector('.symbols_description-img').getAttribute('data-title')
     }
 
-    
+
     this.successPage  = () => {
-        location.href = 'N-1366-04-285-success.html';
+        // location.href = 'N-1366-04-285-success.html';
+          location.href = 'game-success-38.html';
 	}
 
     this.completGame = (e) => {
@@ -165,8 +166,8 @@ function natureGames() {
         if(count==3){
             this.successPage();
         }
-    }    
+    }
 }
 
 
-const naturegame = new natureGames(); 
+const naturegame = new natureGames();

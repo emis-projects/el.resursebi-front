@@ -55,13 +55,13 @@ function chooseColor(){
 			w.classList.remove('opacity-1');
 		})
 
-		// extra btns 
+		// extra btns
 		this.getExtraColor()
 
 		this.mixinColorCount = 0;
 	});
-	
-	
+
+
 	bottom.addEventListener('click', () => {
 		this.colors = [];
 		this.color = '#894689';
@@ -76,11 +76,11 @@ function chooseColor(){
 			w.classList.remove('opacity-5');
 			w.classList.add('opacity-1');
 			w.classList.remove('cursor-pointer');
-			var attr = w.getAttribute('data-color');			
+			var attr = w.getAttribute('data-color');
 			this.colors.push(attr)
 		});
 
-		// extra btns 
+		// extra btns
 		this.getExtraColor()
 
 		this.mixinColorCount = 0;
@@ -90,8 +90,8 @@ function chooseColor(){
 
 	this.getExtraColor = () => {
 		if(this.colors[0] === 'yellow' && this.colors[1] === 'blue'){
-			img1.src = "../../../img/gakvetilebi/xelovneba/color-game/yellow-color-show.svg";
-			img2.src = "../../../img/gakvetilebi/xelovneba/color-game/blue-color-show.svg";
+			img1.src = "../../img/gakvetilebi/xelovneba/color-game/yellow-color-show.svg";
+			img2.src = "../../img/gakvetilebi/xelovneba/color-game/blue-color-show.svg";
 			img1.classList.remove('opacity-0');
 			img1.classList.add('opacity-5');
 			img2.classList.remove('opacity-0');
@@ -105,8 +105,8 @@ function chooseColor(){
 		}
 
 		if(this.colors[0] === 'blue' && this.colors[1] === 'red'){
-			img1.src = "../../../img/gakvetilebi/xelovneba/color-game/red-color-show.svg";
-			img2.src = "../../../img/gakvetilebi/xelovneba/color-game/blue-color-show.svg";
+			img1.src = "../../img/gakvetilebi/xelovneba/color-game/red-color-show.svg";
+			img2.src = "../../img/gakvetilebi/xelovneba/color-game/blue-color-show.svg";
 			img1.classList.remove('opacity-0');
 			img1.classList.add('opacity-5');
 			img1.classList.add('cursor-pointer');
@@ -120,11 +120,11 @@ function chooseColor(){
 		}
 	}
 
-	this.getMixinColor = (img) => {		
+	this.getMixinColor = (img) => {
 		if(img.getAttribute('data-color') !== this.mixinColor){
 			this.mixinColorCount = 0
 		}
-		
+
 		let imgAttr = img.getAttribute('data-color');
 		this.mixinColor = imgAttr;
 
@@ -140,11 +140,11 @@ function chooseColor(){
 			img1.classList.add('opacity-1');
 			img1.classList.remove('opacity-5');
 			img1.classList.add('cursor-pointer');
-			
+
 			img2.classList.remove('opacity-1');
 			img2.classList.add('opacity-5');
 			img2.classList.add('cursor-pointer');
-			
+
 		} else if (this.mixinColor === "mixin-yellow" && this.mixinColorCount === 2){
 			changedColor.setAttribute('fill', '#ACF425');
 			img1.classList.remove('cursor-pointer');
@@ -171,7 +171,7 @@ function chooseColor(){
 			img1.classList.add('opacity-1');
 			img2.classList.remove('opacity-1');
 			img2.classList.add('opacity-5');
-		
+
 		} else if(this.mixinColor === "mixin-red" && this.mixinColorCount === 2){
 			changedColor.setAttribute('fill', '#B916A0');
 			img1.classList.remove('cursor-pointer');
@@ -189,7 +189,7 @@ function chooseColor(){
 			img2.classList.remove('cursor-pointer');
 		}
 	}
-	
+
 
 	img1.addEventListener('click', () => this.getMixinColor(img1));
 	img2.addEventListener('click', () => this.getMixinColor(img2));

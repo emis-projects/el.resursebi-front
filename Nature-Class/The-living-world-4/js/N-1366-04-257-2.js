@@ -11,15 +11,15 @@ function index2() {
         })
     })
 
-    
+
     document.querySelector('.completed__btn').addEventListener('click', function() {
-        var selected =  document.querySelector('.checkmark.selected') 
+        var selected =  document.querySelector('.checkmark.selected')
         if (selected) {
 
             if (selected.getAttribute('data-answer') === 'correct') {
                 selected.classList.remove("selected")
-                selected.classList.add('success') 
-                document.querySelector('#itIsCorrectPhoto img').setAttribute('src', '../../../img/gakvetilebi/buneba/lesson4/N-1366-04-260.svg')
+                selected.classList.add('success')
+                document.querySelector('#itIsCorrectPhoto img').setAttribute('src', '../../img/gakvetilebi/buneba/lesson4/N-1366-04-260.svg')
 
                 btns.forEach(btn => {
                     if (btn.getAttribute('data-answer') === null) {
@@ -47,12 +47,10 @@ function index2() {
         $('#answersParent').removeAttr('style')
 
 
-        document.querySelector('#itIsCorrectPhoto img').setAttribute('src', '../../../img/gakvetilebi/buneba/lesson4/N-1366-04-257.svg')
+        document.querySelector('#itIsCorrectPhoto img').setAttribute('src', '../../img/gakvetilebi/buneba/lesson4/N-1366-04-257.svg')
         document.getElementById("completedGame").disabled = false
     })
 
 }
 
 index2()
-
-
