@@ -9,7 +9,7 @@ document.getElementById('completedGame').addEventListener('click', () => {
 	checkClicked()
 
 	var input = document.querySelectorAll('.inputBox');
-	
+
 	var dragElement2MyArray = [];
 	for(var i = 0; i < input.length; i++ ){
 		dragElement2MyArray.push(input[i])
@@ -17,13 +17,13 @@ document.getElementById('completedGame').addEventListener('click', () => {
 
 	checkEveryElement = function(element){
 		return element.classList.contains('correct') == true;
-	} 
+	}
 
 	let el = dragElement2MyArray.every(checkEveryElement)
 
 	if(el == true){
 		location.href = 'game-success-19.html'
-	} 
+	}
 })
 
 document.getElementById('resetBtn').addEventListener('click', () => clearAllClicked())
@@ -72,30 +72,30 @@ function preparePuzzelArray(){
 var items = [	[0, 0, 0, 0, 0, 'პ', 0, 0, 0, 0, 0, 0, 0, 0],
 
                 [0, 0, 0, 0, 0, 'ი', 0, 0, 0, 0, 0, 0, 0, 0 ],
-                
+
                 [0, 0, 0, 0, 0, 'ქ', 'ა', 'ნ', 'დ', 'ა', 'კ', 'ე', 'ბ', 'ა'],
-                
+
                 [0, 0, 0, 0, 0, 'ტ', 0, 0, 0, 0, 0, 0, 0, 0],
-                
+
                 [0, 0, 0, 0, 0, 'ო', 0, 0, 0, 0, 0, 0, 0, 0],
-                
+
                 [0, 0, 0, 'ლ', 'ო', 'გ', 'ო', 0, 0, 0, 0, 0, 'ფ', 0],
-                
+
                 [0, 0, 'ს', 0, 0, 'რ', 0, 0, 0, 0, 0, 0, 'ი', 0],
-                
+
                 [0, 0, 'უ', 0, 0, 'ა', 0, 'გ', 0, 0, 0, 0, 'ლ', 0],
-                
+
                 [0, 0, 'რ', 0, 0, 'მ', 0, 'რ', 'ე', 'კ', 'ლ', 'ა', 'მ', 'ა'],
-                
+
                 ['დ', 'ი', 'ა', 'გ', 'რ', 'ა', 'მ', 'ა', 0, 0, 0, 0, 'ი', 0],
-                
+
                 [0, 0, 'თ', 0, 0, 0, 0, 'ფ', 0, 0, 0, 0, 0, 0],
-                
+
                 [0, 0, 'ი', 0, 'ც', 'ხ', 'რ', 'ი', 'ლ', 'ი', 0, 0, 0, 0],
-                
+
                 [0, 0, 0, 0, 0, 0, 0, 'ტ', 0, 0, 0, 0, 0, 0],
-                
-				[0, 0, 0, 0, 0, 0, 0, 'ი', 0, 0, 0, 0, 0, 0]
+
+			        	[0, 0, 0, 0, 0, 0, 0, 'ი', 0, 0, 0, 0, 0, 0]
 			];
 		return items;
 }
@@ -119,7 +119,7 @@ function checkClicked(){
 				if(selectedInputTextElement.value != puzzelArrayData[i][j]){
 					selectedInputTextElement.classList.remove('correct')
 					selectedInputTextElement.classList.add('error')
-					
+
 				}else{
 					selectedInputTextElement.classList.remove('error')
 					selectedInputTextElement.classList.add('correct')

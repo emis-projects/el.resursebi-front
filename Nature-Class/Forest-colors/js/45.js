@@ -4,10 +4,10 @@ function Game() {
     let dragElement = $(".nature_plant-game-text");
     let dropElement = $(".nature_plant-game-text-container-white");
 
-    
-    
-    
-    
+
+
+
+
     //Set Events
 
     // Set drag and drop
@@ -60,11 +60,11 @@ function Game() {
         this.Reset();
     };
 
-    
-    
-    
-    
-    
+
+
+
+
+
     //Functions
 
     //Submit
@@ -117,7 +117,8 @@ function Game() {
 
     // success page
     this.successPage = () => {
-        location.href = "N-1366-03-229-success.html";
+        // location.href = "N-1366-03-229-success.html";
+        location.href = "success-45.html";
     };
 
 

@@ -32,7 +32,7 @@ function n136603264(){
     elements.forEach(w => {
         w.addEventListener('click', (e) => {
             this.clearOtherElements()
-    
+
             e.target.classList.add('selected')
 
             if(e.target.parentElement.getAttribute('data-answer') == "correct"){
@@ -43,8 +43,8 @@ function n136603264(){
             }
         })
     });
-    
-    
+
+
     this.clearOtherElements = function() {
         $(elements).removeClass('error')
         $(elements).removeClass('selected')
@@ -52,17 +52,18 @@ function n136603264(){
 
 
 
-    // after submit 
+    // after submit
     this.completGame = () => {
         if(this.error == true) {
             document.querySelector('.custom_radioButton_container .checkmark.selected').classList.add('error')
             document.querySelector('.custom_radioButton_container .checkmark.selected').classList.remove('selected')
-            
+
             completeBtn.setAttribute('disabled', true)
             completeBtn.setAttribute('style', 'cursor: default')
 
         } else {
-            location.href = 'N-1366-03-264-success.html'
+            //location.href = 'N-1366-03-264-success.html'
+            location.href = 'success-47.html'
         }
     }
 }

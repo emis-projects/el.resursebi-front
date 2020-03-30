@@ -84,16 +84,18 @@ function Game() {
     // success page
     this.successPage = () => {
         let loc = location.pathname;
-        
-        if(loc == "/Nature-Lessons/The-living-world/games/N-1366-04-270.html" || loc == "/el.resursebi-front/Nature-Lessons/The-living-world/games/N-1366-04-270.html"){
-            location.href = 'N-1366-04-270-success.html'
 
-        } else if(loc == "/Nature-Lessons/The-living-world/games/N-1366-04-273.html" || loc == "/el.resursebi-front//Nature-Lessons/The-living-world/games/N-1366-04-273.html"){
-            location.href = 'N-1366-04-273-success.html'
-            
-        } else if(loc == "/Nature-Lessons/The-living-world/games/N-1366-04-278.html" || loc == "/el.resursebi-front/Nature-Lessons/The-living-world/games/N-1366-04-278.html"){
-            location.href = 'N-1366-04-278-success.html'
+        if(loc == "/el.resursebi-front/Nature-Class/The-living-world-4/32.html" || loc== "/Nature-Class/The-living-world-4/32.html" || loc == "/Nature-Lessons/The-living-world/games/N-1366-04-270.html" || loc == "/el.resursebi-front/Nature-Lessons/The-living-world/games/N-1366-04-270.html"){
+          //  location.href = 'N-1366-04-270-success.html'
+            location.href = 'game-success-32.html'
 
+        } else if( loc == "/el.resursebi-front/Nature-Class/The-living-world-4/33.html" || loc == "/Nature-Class/The-living-world-4/33.html" || loc == "/Nature-Lessons/The-living-world/games/N-1366-04-273.html" || loc == "/el.resursebi-front//Nature-Lessons/The-living-world/games/N-1366-04-273.html"){
+            //location.href = 'N-1366-04-273-success.html'
+            location.href = 'game-success-33.html'
+
+        } else if(loc=="/Nature-Class/The-living-world-4/34.html" || loc=="/el.resursebi-front/Nature-Class/The-living-world-4/34.html" || loc == "/Nature-Lessons/The-living-world/games/N-1366-04-278.html" || loc == "/el.resursebi-front/Nature-Lessons/The-living-world/games/N-1366-04-278.html"){
+            //location.href = 'N-1366-04-278-success.html'
+          location.href = 'game-success-34.html'
         }
     };
 
@@ -105,7 +107,7 @@ function Game() {
     this.Drop = function(event) {
         var data = document.getElementById(event.dataTransfer.getData("text"));
         data.style.display = "none";
-        event.target.children[0].style = "block";        
+        event.target.children[0].style = "block";
     };
 
     this.AllowDrop = function(event) {

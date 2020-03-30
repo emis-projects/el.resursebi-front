@@ -11,14 +11,14 @@ function dragQuizGame(){
   const wrapper = document.querySelector('.dot_wrapper');
   let items = document.querySelectorAll('.questions__images-item');
   const resetBtn = document.getElementById('resetBtn');
-  
+
 
   var myArray = [];
 
   for(var i = 0; i < items.length; i++ ){
     myArray.push(items[i])
   }
-  
+
 
   $(() => {
     // $(document).on("dragstart", "button.cloned", (e) => this.dragStart(e));
@@ -48,13 +48,13 @@ function dragQuizGame(){
 
 
 
-  // init 
+  // init
   this.init = () => {
       this.answer = false;
       this.error = true;
       this.submitError = false;
 
-    
+
     completeBtn.removeAttribute('disabled');
     completeBtn.setAttribute('style', 'cursor: pointer');
 
@@ -84,23 +84,23 @@ function dragQuizGame(){
   }
 
 
-  // Drag Functions    
+  // Drag Functions
   this.dragOver = (e) => {
     e.preventDefault();
   }
-  
+
   this.dragEnter = (e) => {
     e.preventDefault();
   }
 
 
-  // drag start 
+  // drag start
   this.dragStart = (e) => {
 
     var cloned = e.target.cloneNode(true);
-    
+
     cloned.classList.add('cloned');
-    
+
     $(empties).removeClass('noShadow');
     $(empties).addClass('Shadow');
 
@@ -112,9 +112,9 @@ function dragQuizGame(){
 
 
   }
-  
-  
-  
+
+
+
   // drag end
   this.dragEnd = e => {
     $(empties).addClass('noShadow');
@@ -129,19 +129,19 @@ function dragQuizGame(){
     }
   }
 
-  
+
   this.dragDrop = e => {
     e.target.appendChild(document.querySelector('button.draggedElement'))
-    
+
     if(e.target.childNodes[0].className == "draggedElement"){
       var myButton = e.target.childNodes[0];
 
     } else if(e.target.childNodes[1].className == "draggedElement"){
       var myButton = e.target.childNodes[1];
     }
-    
+
     let myClass = myButton.dataset.class;
-  
+
     myButton.className = myClass;
 
     if(e.target.childNodes[1]){
@@ -155,7 +155,7 @@ function dragQuizGame(){
       this.checkifIsTrue(e)
     }, 0)
   }
- 
+
 
  this.checkifIsTrue = e => {
    let parent = e.target.parentElement;
@@ -166,7 +166,7 @@ function dragQuizGame(){
 
     if(img.getAttribute('data-weather') == circle.getAttribute('data-weather')){
       parent.setAttribute('data-answer', 'correct');
-      
+
     } else {
       this.error = true;
       parent.setAttribute('data-answer', 'incorrect');
@@ -180,16 +180,16 @@ function dragQuizGame(){
     } else {
       this.error = true;
       this.answer = false;
-    } 
+    }
   }
-  
+
 
   this.checkEveryElement = (element) => {
     return element.getAttribute('data-answer') == "correct";
   }
 
-  
-  // error 
+
+  // error
   this.errorMessage = () => {
     myArray.forEach(w => {
       if(this.error == true && w.getAttribute('data-answer') !== 'correct'){
@@ -202,7 +202,7 @@ function dragQuizGame(){
           w.querySelector('.question__dot').classList.add('error');
         }
 
-        img.setAttribute('src', '../../../img/gakvetilebi/xelovneba/color-game/x.svg');
+        img.setAttribute('src', '../../img/gakvetilebi/xelovneba/color-game/x.svg');
 
         if(!w.querySelector('.errorImg')){
           w.querySelector('.question__dot').appendChild(img);
@@ -221,21 +221,24 @@ function dragQuizGame(){
             w.setAttribute('disabled', 'true')
           })
         }
-      } 
+      }
     })
   }
 
- 
+
   // success page
 	this.successPage  = () => {
-    if(location.pathname == "/Art-Lessons/color_story/games/1366-47.html"){
-      location.href = '1366-47-success.html';
+    if(location.pathname == "/Art-Lessons/color_story/games/1366-47.html" || location.pathname == "/Art-Class/color_story/22.html" || location.pathname == "/el.resursebi-front/Art-Class/color_story/22.html" ){
+      //location.href = '1366-47-success.html';
+        location.href = 'game-success-22.html';
 
-    } else if(location.pathname == "/Art-Lessons/color_story/games/1366-48.html"){
-      location.href = '1366-48-success.html';
+    } else if(location.pathname == "/Art-Lessons/color_story/games/1366-48.html"  || location.pathname == "/Art-Class/color_story/23.html" || location.pathname == "/el.resursebi-front/Art-Class/color_story/23.html"){
+      //location.href = '1366-48-success.html';
+        location.href = 'game-success-23.html';
 
     } else if(location.pathname == "/el.resursebi-front/Art-Lessons/color_story/games/1366-47.html") {
       location.href = '1366-47-success.html';
+
     } else if(location.pathname == "/el.resursebi-front/Art-Lessons/color_story/games/1366-48.html"){
       location.href = '1366-48-success.html';
 
@@ -243,23 +246,21 @@ function dragQuizGame(){
 	}
 
 
-  // after submit 
+  // after submit
   this.completGame = () => {
     items.forEach(w => {
       if(this.submitError === false && this.error === false && this.answer == true){
         this.successPage();
-  
+
       } else if(this.submitError == true || this.error == true) {
         this.errorMessage();
       }
     })
   }
-  
+
 
   completeBtn.addEventListener('click', () => this.completGame());
   resetBtn.addEventListener('click', () => this.init());
 }
 
 const QuizGame = new dragQuizGame();
-
-

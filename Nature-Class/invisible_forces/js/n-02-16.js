@@ -43,7 +43,7 @@ const generateDiamond = () => {
     do {
         let row = Math.floor(Math.random() * ROWS)
         let col = Math.floor(Math.random() * COLS)
-        if (maze[row][col] === EMPTY && 
+        if (maze[row][col] === EMPTY &&
             row !== 0 && col !==0 &&
             row !== ROWS -1 && col !== COLS -1) {
             maze[row][col] = DIAMOND
@@ -55,7 +55,7 @@ const generateDiamond = () => {
 
 const createBoard = () => {
     for (let row = 0; row < ROWS; row++) {
-        for (let col = 0; col < COLS; col++) { 
+        for (let col = 0; col < COLS; col++) {
             const block = document.createElement('div')
             block.id = `id-${col}-${row}`
             document.querySelector(".board").appendChild(block);
@@ -65,7 +65,7 @@ const createBoard = () => {
 
 const renderMaze = () => {
     for (let row = 0; row < ROWS; row++) {
-        
+
         for (let col = 0; col < COLS; col++) {
             let itemClass = ''
             switch (maze[row][col]) {
@@ -156,8 +156,8 @@ const changePlayerPos = (direction) => {
                 maze[y][x] = EMPTY
                 bag++
             }
-            
+
             renderMaze()
-        } 
+        }
 
 }

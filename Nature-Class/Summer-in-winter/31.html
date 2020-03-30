@@ -12,6 +12,7 @@
        -->
     <link rel="stylesheet" href="../../New-header-vue/animate.min.css">
     <link rel="stylesheet" href="../../scss/libraries/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="../../scss/libraries/jquery.ui.rotatable.css" />
     <link rel="stylesheet" href="../../scss/new-style.css"/>
     <title>ელექტრონული საგანმანათლებლო რესურსი</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -477,6 +478,7 @@
                     <img class="earth__img" src="../../img/gakvetilebi/buneba/Summer-in-winter/games/earth.svg" alt="">
                     <img class="girl__boy" src="../../img/gakvetilebi/buneba/Summer-in-winter/games/boy-girl.svg" alt="">
                     <img class="only__girl" src="../../img/gakvetilebi/buneba/Summer-in-winter/games/inlygirl.svg" alt="">
+<div class="ui-rotatable-handle yellow" unselectable="on" style="user-select: none; position: absolute;"></div>
                 </div>
                 <img class="earth__dash" src="../../img/gakvetilebi/buneba/Summer-in-winter/games/line.svg" alt="">
             </div>
@@ -485,12 +487,8 @@
 
 
     </div>
-    
-    
-          <div class="flex flex-end column align-items-end z-index reload_game_wrapper">
-              <button id="resetBtn" class="reset__btn">თავიდან სცადე</button>
-              <button id="completedGame" class="completed__btn">დასრულება</button>
-          </div>
+
+
 
             <div class="our__pagination flex">
                 <a href="#" class="pagination__prev__btn">
@@ -503,7 +501,7 @@
                     <img src="../../img/icons/chevron-left-icon.svg" alt="">
                 </a>
             </div>
-     
+
     </section>
 </div>
 
@@ -516,7 +514,33 @@
 
 
 <script src="../../js/libraries/jquery-3.4.1.min.js"></script>
+ <script src="../../js/libraries/jquery-ui.min.js"></script>
   <script src="../../js/libraries/jquery.magnific-popup.min.js"></script>
+
+  <script src="../../js/libraries/jquery.ui.touch-punch.min.js"></script>
+   <script src="../../js/libraries/jquery.ui.rotatable.min.js"></script>
+
+   <script>
+       document.addEventListener('DOMContentLoaded', () => {
+           document.querySelector('.ui-rotatable-handle').classList.add('yellow')
+       })
+
+       $('.box').rotatable({
+           rotate: function (event, ui) {
+               if (ui.angle.current <=  296.28 && ui.angle.current >= 114.58){
+                   document.querySelector('.ui-rotatable-handle').classList.remove('yellow')
+               }else{
+                   document.querySelector('.ui-rotatable-handle').classList.add('yellow')
+                   console.log('yellow')
+
+               }
+           }
+       });
+
+   </script>
+
+
+
 <script src="../../js/Pagination.js"></script>
 
 

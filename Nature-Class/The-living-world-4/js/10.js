@@ -27,7 +27,7 @@ function natureGames() {
             if (this.count >=4 && !existSelect){
                 return;
             }
-        
+
             if(existSelect){
                 $(e.target).removeClass('selected');
                 this.count--;
@@ -37,8 +37,8 @@ function natureGames() {
                 this.count++;
             }
         }
-        
-        
+
+
     }
 
     this.init = () => {
@@ -78,7 +78,8 @@ function natureGames() {
     }
 
     this.successPage = () => {
-        location.href = 'N-1366-04-244-success.html';
+        //location.href = 'N-1366-04-244-success.html';
+        location.href = 'game-success-10.html';
     }
 
 
