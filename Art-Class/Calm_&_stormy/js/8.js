@@ -112,4 +112,3 @@ function colorGame1() {
 
 
 const colorGame = new colorGame1();
-

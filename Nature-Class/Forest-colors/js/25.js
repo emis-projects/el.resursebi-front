@@ -78,11 +78,12 @@ check.addEventListener('click', () => {
          }
       }
    }
-   console.log(greenTrees)
+
    // მასივების გაწმენდა
    yellowTree = [];
    greenTrees = [];
 });
+
 
 // თამაშის განულება ახლიდან დასაწყებად
 function reset() {
