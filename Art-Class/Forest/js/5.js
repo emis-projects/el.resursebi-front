@@ -20,7 +20,7 @@ function natureGames(){
         empty.addEventListener('drop', (e) => this.dragDrop(e));
     }
 
-
+    
 
     document.addEventListener('DOMContentLoaded', () => {
         document.querySelectorAll('.drag_el').forEach(w => {
@@ -44,16 +44,16 @@ function natureGames(){
 
 
 
-    // Drag Functions
+    // Drag Functions    
     this.dragOver = (e) => {
         e.preventDefault();
     }
-
+  
     this.dragEnter = (e) => {
         e.preventDefault();
     }
 
-    // drag start
+    // drag start 
     this.dragStart = (e) => {
         setTimeout(() => {
             e.target.className = "draggedElement"
@@ -69,7 +69,7 @@ function natureGames(){
     }
 
 
-    // drop
+    // drop 
     this.dragDrop = e => {
         let draggedEl = document.querySelector('.draggedElement');
 
@@ -77,10 +77,9 @@ function natureGames(){
         if(e.target.getAttribute('data-form') == draggedEl.getAttribute('data-form')){
             e.target.setAttribute('src', e.target.getAttribute('data-correctAnswer'))
         }
-    }
+ 
 
-
-	// error page
+	// error page 
 	this.errorPage = () => {
 		myArray.forEach(l => {
 			if(l.getAttribute('data-index') !== l.getAttribute('dinamicaly-index')){
@@ -94,19 +93,13 @@ function natureGames(){
     // success page
 	this.successPage  = () => {
 		if(this.error === false){
-            let loc = location.pathname;
-
-            if(loc == "/Nature-Lessons/My_world/games/N-1366-54.html" || loc == "/el.resursebi-front/Nature-Lessons/My_world/games/N-1366-54.html"
-					|| loc == "/el.resursebi-front/Art-Class/Forest/5.html" || loc == "/Art-Class/Forest/5.html"){
-                //location.href = "nature-2-success.html"
-                location.href = "game-success-5.html"
-            }
+            location.href = "nature-2-success.html"
         }
 	}
+  
 
 
-
-    // completed
+    // completed 
 	this.completGame = (e) => {
 		if(this.error){
             this.errorPage();
@@ -114,7 +107,7 @@ function natureGames(){
             completedBtn.classList.add('opacity-5')
             completedBtn.setAttribute('style', 'disabled')
             completedBtn.setAttribute('style', 'cursor: default')
-
+            
         } else {
             this.error = false;
             this.successPage();
@@ -122,7 +115,7 @@ function natureGames(){
 	}
 
 
-    // events
+    // events 
     resetBtn.addEventListener('click', () => this.init());
 	completedGame.addEventListener('click', () => this.completGame());
 }
