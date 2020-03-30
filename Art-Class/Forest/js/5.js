@@ -119,5 +119,6 @@ function natureGames(){
     resetBtn.addEventListener('click', () => this.init());
 	completedGame.addEventListener('click', () => this.completGame());
 }
+}
 
-const naturegame = new natureGames();
+const naturegame = new natureGames()
