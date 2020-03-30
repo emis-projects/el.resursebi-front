@@ -1,0 +1,46 @@
+.Digital_world_24 {
+    &-img_box_3 {
+        position: fixed;
+        bottom:0;
+        left: 22vh;
+        img {
+           height: 47vh;
+           max-height: 361px; 
+        }
+    }
+    &-img_box_4 {
+        position: fixed;
+        bottom:0;
+        right: 33vh;
+        img {
+           height: 55.95vh;
+           max-height: 429.73px; 
+        }
+    }
+    &-img_box_5 {
+           height: 46.48vh;
+           max-height: 357px;
+        img {
+            height: 100%;
+        }
+    }
+    &-img_box_6 {
+        position: fixed;
+        bottom: 0;
+        right: 8vh;
+        img {
+            height: 48.44vh;
+            max-height: 372px; 
+        }
+    }
+    &-img_box_7 {
+        height: 48.83vh;
+        max-height: 375px;
+        img {
+           height: 100%;  
+        }
+    }
+    &-title_text_7 {
+        color:#7FD1D8;
+    }
+}
