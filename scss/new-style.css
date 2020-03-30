@@ -21362,13 +21362,13 @@ td img {
 
 @keyframes rain-28 {
   0% {
-    left: 41%;
+    left: 23%;
     opacity: 1;
     top: 30%;
   }
   100% {
     opacity: 0;
-    top: 132%;
+    top: 135%;
   }
 }
 
@@ -22674,20 +22674,6 @@ td img {
   }
 }
 
-@-webkit-keyframes rain-2-6 {
-  0% {
-    width: 7px;
-    left: 90%;
-    opacity: 1;
-    top: 30%;
-  }
-  100% {
-    width: 4px;
-    opacity: 0;
-    top: 137%;
-  }
-}
-
 @keyframes rain-2-6 {
   0% {
     width: 7px;
@@ -23218,48 +23204,6 @@ td img {
   left: 47%;
   opacity: 1;
   top: 30%;
-}
-
-@-webkit-keyframes rain-2-19 {
-  0% {
-    width: 7px;
-    left: 47%;
-    opacity: 1;
-    top: 30%;
-  }
-  100% {
-    width: 4px;
-    opacity: 0;
-    top: 139%;
-  }
-}
-
-.rain2:nth-of-type(19) {
-  -webkit-animation-name: rain-2-19;
-          animation-name: rain-2-19;
-  -webkit-animation-delay: 6s;
-          animation-delay: 6s;
-  -webkit-animation-duration: 3s;
-          animation-duration: 3s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  left: 47%;
-  opacity: 1;
-  top: 30%;
-}
-
-@-webkit-keyframes rain-2-19 {
-  0% {
-    width: 7px;
-    left: 47%;
-    opacity: 1;
-    top: 30%;
-  }
-  100% {
-    width: 4px;
-    opacity: 0;
-    top: 139%;
-  }
 }
 
 @-webkit-keyframes rain-2-19 {
@@ -28705,6 +28649,10 @@ td img {
 .cs-3-6-6-img {
   height: 35.33vh;
   margin: 5vh auto 0;
+}
+
+img.mfp-img[alt*="cs-3-6-6-img"] {
+  height: 70vh !important;
 }
 
 .visual-21_box-img {
