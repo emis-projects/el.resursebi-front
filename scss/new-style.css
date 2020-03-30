@@ -30189,6 +30189,75 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   margin-bottom: 3vh;
 }
 
+.Digital_world_24-title_text_1 {
+  font-style: italic;
+  font-family: DejaVu Sans;
+}
+
+.Digital_world_24-img_box_1 {
+  height: 57.42vh;
+  max-height: 441px;
+}
+
+.Digital_world_24-img_box_1 img {
+  height: 100%;
+}
+
+.Digital_world_24-img_box_3 {
+  position: fixed;
+  bottom: 0;
+  left: 22vh;
+}
+
+.Digital_world_24-img_box_3 img {
+  height: 47vh;
+  max-height: 361px;
+}
+
+.Digital_world_24-img_box_4 {
+  position: fixed;
+  bottom: 0;
+  right: 33vh;
+}
+
+.Digital_world_24-img_box_4 img {
+  height: 55.95vh;
+  max-height: 429.73px;
+}
+
+.Digital_world_24-img_box_5 {
+  height: 46.48vh;
+  max-height: 357px;
+}
+
+.Digital_world_24-img_box_5 img {
+  height: 100%;
+}
+
+.Digital_world_24-img_box_6 {
+  position: fixed;
+  bottom: 0;
+  right: 8vh;
+}
+
+.Digital_world_24-img_box_6 img {
+  height: 48.44vh;
+  max-height: 372px;
+}
+
+.Digital_world_24-img_box_7 {
+  height: 48.83vh;
+  max-height: 375px;
+}
+
+.Digital_world_24-img_box_7 img {
+  height: 100%;
+}
+
+.Digital_world_24-title_text_7 {
+  color: #7FD1D8;
+}
+
 .cs-6-24-div-img-14 {
   height: 52.6vh;
 }
@@ -30206,28 +30275,28 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .background-cs-6-24-23 {
-  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Real-&virtual-world-balance-24/cs-6-24-23-img.svg");
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Digital-world-rights-24/cs-6-24-23-img.svg");
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .background-cs-6-24-24 {
-  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Real-&virtual-world-balance-24/cs-6-24-24-img.svg");
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Digital-world-rights-24/cs-6-24-24-img.svg");
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .background-cs-6-24-25 {
-  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Real-&virtual-world-balance-24/cs-6-24-25-img.svg");
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Digital-world-rights-24/cs-6-24-25-img.svg");
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .background-cs-6-24-26 {
-  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Real-&virtual-world-balance-24/cs-6-24-26-img.svg");
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Digital-world-rights-24/cs-6-24-26-img.svg");
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -31426,43 +31495,6 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .n-6-32-img-div .ask-question-img {
   margin-top: auto;
-}
-
-.cs-4-9-1-img {
-  height: 63.71vh;
-  margin: 2vh auto 3vh;
-}
-
-.cs-4-9-2-img {
-  display: inline-block;
-  height: 4vh;
-  vertical-align: bottom;
-}
-
-.cs-4-9-3-img {
-  height: 47.26vh;
-  margin: 2vh auto 0;
-}
-
-.cs-4-9-4-img {
-  height: 52.08vh;
-  margin: 2vh auto 0;
-}
-
-.cs-4-9-5-img {
-  height: 59.29vh;
-  margin: 2vh auto 0;
-}
-
-.cs-4-9-6-img {
-  height: 45.96vh;
-  margin: 2vh auto 0;
-}
-
-.cs-4-9-7-search-icon {
-  display: inline-block;
-  height: 4vh;
-  vertical-align: bottom;
 }
 
 body {
