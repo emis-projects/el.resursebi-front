@@ -25005,6 +25005,13 @@ img.mfp-img[alt*=cs-3-6-6-img] {
 .world-balance-box-12 img {
   height: 100%;
 }
+.world-balance-box-13 {
+  height: 56vh;
+  max-height: 431px;
+}
+.world-balance-box-13 img {
+  height: 100%;
+}
 .world-balance-frame-box {
   height: 36.9vh;
   max-height: 284px;
