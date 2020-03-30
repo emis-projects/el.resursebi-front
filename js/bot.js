@@ -2,6 +2,7 @@ var loc = window.location
 var formData = $("#formData");
 var msgInput = $("#chatSend");
 let getTag = document.getElementById("chat_fullscreen");
+let botImgs = document.querySelectorAll('.logo_box');
 let botImg = null;
 
 
@@ -15,19 +16,20 @@ $(msgInput).keyup(function () {
 })
 
 
-// bot image
-if($('html').attr('data-botid') == '2318'){
-    botImg = '/img/icons/xelovnebabot.png'
-
-} else if($('html').attr('data-botid') == '2320'){
-    botImg = '/img/icons/bunebabot.png'
-
-} else if($('html').attr('data-botid') == '2292'){
-    botImg = '/img/icons/musikabot.png'
-
-} else if($('html').attr('data-botid') == '2288'){
-    botImg = '/img/icons/komp-mecnierebot.png'
+var botImgsArray = [];
+for(var i = 0; i < botImgs.length; i++ ){
+    botImgsArray.push(botImgs[i])
 }
+
+let htmlAttr = $('html').attr("data-botid");
+
+botImgsArray.filter(w => {
+    if(w.getAttribute('data-botid') == htmlAttr){
+        w.classList.add('logo_box_active')
+    }
+})
+
+
 
 
 function messageTextes(w, div) {
@@ -40,6 +42,21 @@ function messageTextes(w, div) {
 
 // bot message UI
 function sendMessageFromBot(res) {
+
+    // bot image
+    if($('html').attr('data-botid') == '2318'){
+        botImg = '/img/icons/xelovnebabot.png'
+
+    } else if($('html').attr('data-botid') == '2320'){
+        botImg = '/img/icons/bunebabot.png'
+
+    } else if($('html').attr('data-botid') == '2292'){
+        botImg = '/img/icons/musikabot.png'
+
+    } else if($('html').attr('data-botid') == '2288'){
+        botImg = '/img/icons/komp-mecnierebot.png'
+    }
+
     var div = document.createElement('div');
     let a = document.createElement('a');
 
@@ -381,3 +398,11 @@ function type5Functionaly(data, maindiv){
         }
     })
 }
+
+
+$('.logo_box').click(function(e){
+    $('html').attr("data-botid", $(e.target).attr('data-botId'));
+    $('#chat_fullscreen').children('.chat_msg_item').remove()
+})
+
+
