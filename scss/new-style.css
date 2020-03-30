@@ -25016,6 +25016,75 @@ img.mfp-img[alt*=cs-3-6-6-img] {
   width: 100%;
 }
 
+.Digital_world_24-title_text_1 {
+  font-style: italic;
+  font-family: DejaVu Sans;
+}
+
+.Digital_world_24-img_box_1 {
+  height: 57.42vh;
+  max-height: 441px;
+}
+
+.Digital_world_24-img_box_1 img {
+  height: 100%;
+}
+
+.Digital_world_24-img_box_3 {
+  position: fixed;
+  bottom: 0;
+  left: 22vh;
+}
+
+.Digital_world_24-img_box_3 img {
+  height: 47vh;
+  max-height: 361px;
+}
+
+.Digital_world_24-img_box_4 {
+  position: fixed;
+  bottom: 0;
+  right: 33vh;
+}
+
+.Digital_world_24-img_box_4 img {
+  height: 55.95vh;
+  max-height: 429.73px;
+}
+
+.Digital_world_24-img_box_5 {
+  height: 46.48vh;
+  max-height: 357px;
+}
+
+.Digital_world_24-img_box_5 img {
+  height: 100%;
+}
+
+.Digital_world_24-img_box_6 {
+  position: fixed;
+  bottom: 0;
+  right: 8vh;
+}
+
+.Digital_world_24-img_box_6 img {
+  height: 48.44vh;
+  max-height: 372px;
+}
+
+.Digital_world_24-img_box_7 {
+  height: 48.83vh;
+  max-height: 375px;
+}
+
+.Digital_world_24-img_box_7 img {
+  height: 100%;
+}
+
+.Digital_world_24-title_text_7 {
+  color: #7FD1D8;
+}
+
 .cs-6-24-div-img-14 {
   height: 52.6vh;
 }
