@@ -134,9 +134,9 @@ function gameOver() {
     const rightBox = document.querySelectorAll('.droppable_sm img');
     if (leftBox !== null || rightBox.length !== 0) {
         if (rightBox.length === 3 && !rightBox[0].classList.contains('sm_square')) {
-            window.location.href = './1366-06-15-success.html'
+            window.location.href = './game-success-9.html'
         } else if (rightBox.length === 4 && rightBox[0].classList.contains('sm_square')) {
-            window.location.href = './1366-06-15-success.html'
+            window.location.href = './game-success-9.html'
         } else {
             if (leftBox) {
                 rightPaths.forEach(elm => {

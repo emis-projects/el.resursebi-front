@@ -43,6 +43,7 @@ function natureGames() {
         var drag = document.querySelector('.draggedElement')
         if (e.target.classList.contains('myDrag')) {
             e.target.appendChild(drag);
+            drag.style = "height: 40px"
         }
     }
 
@@ -57,20 +58,20 @@ function natureGames() {
         myArray.forEach(element => {
             if (element.getAttribute('data-place') == element.parentElement.getAttribute('data-place')) {
                 count++;
-                element.style.color = "#a1dd6f";
+                element.style.border = "3px solid #a1dd6f";
             }
             if (element.getAttribute('data-place') != element.parentElement.getAttribute('data-place')
                 && element.parentElement.classList.contains('myDrag')) {
-                element.style.color = "#dc6c85"
+                element.style.border = "3px solid #dc6c85";
             }
         });
-        if (count == 8) {
+        if (count == 7) {
             this.successPage();
         }
         completedBtn.setAttribute('disabled', 'true');
     }
     this.successPage = () => {
-        location.href = 'game-success-10.html';
+        location.href = 'game-success-9.html';
     }
 
     this.init = (e) => {
