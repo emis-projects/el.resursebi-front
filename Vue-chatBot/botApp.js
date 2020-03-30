@@ -24,16 +24,16 @@ Vue.component('appBot', {
                   </div>
                   <div id="chat_fullscreen" class="chat_conversion chat_converse">
                         <div class="bots_logo_box d-flex justify-content-around align-items-center">
-                            <div class="logo_box" @click="activeBg(1)" :class="{logo_box_active : active_el === 1}">
+                            <div data-botId="2320" class="logo_box" @click="activeBg(1)" :class="{logo_box_active : active_el === 1}">
                                 <div class="logo_box-nature"></div>
                             </div>
-                            <div class="logo_box" @click="activeBg(2)" :class="{logo_box_active : active_el === 2}">
+                            <div data-botId="2288" class="logo_box" @click="activeBg(2)" :class="{logo_box_active : active_el === 2}">
                                 <div class="logo_box-It"></div>
                             </div>
-                            <div class="logo_box" @click="activeBg(3)" :class="{logo_box_active : active_el === 3}">
+                            <div data-botId="2292" class="logo_box" @click="activeBg(3)" :class="{logo_box_active : active_el === 3}">
                                 <div class="logo_box-music"></div>
                             </div>
-                            <div class="logo_box" @click="activeBg(4)" :class="{logo_box_active : active_el === 4}">
+                            <div data-botId="2318" class="logo_box" @click="activeBg(4)" :class="{logo_box_active : active_el === 4}">
                                 <div class="logo_box-art"></div>
                             </div>
                         </div>
