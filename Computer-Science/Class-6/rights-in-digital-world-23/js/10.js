@@ -2,8 +2,7 @@ function natureGames() {
     var DragGameChilds1 = document.querySelectorAll('.DragGame--childs1');
     var mydrag = document.querySelectorAll('.myDrag');
 
-    var parent1 = document.querySelector('.parent1');
-    var parent2 = document.querySelector('.parent2');
+    var DragGameParent = document.querySelectorAll('.DragGame--Parent');
 
     var completedBtn = document.getElementById('completedGame');
     var resetBtn = document.getElementById('resetBtn');
@@ -45,10 +44,6 @@ function natureGames() {
         if (e.target.classList.contains('myDrag')) {
             e.target.appendChild(drag);
         }
-        console.log(drag)
-        //drag.style += "height: 10%; top: 10px; left: initial; right: initial; bottom: 10px; width: 100%;pointer-events: none;";
-        drag.firstElementChild.className = 'sign-description-btn-title-light-purple';
-        drag.style = "height:40px;margin-top:10px;"
     }
 
     myArray = [];
@@ -62,11 +57,11 @@ function natureGames() {
         myArray.forEach(element => {
             if (element.getAttribute('data-place') == element.parentElement.getAttribute('data-place')) {
                 count++;
-                element.style = "height: 40px; margin-top: 10px;background:#a1dd6f";
+                element.style.color = "#a1dd6f";
             }
             if (element.getAttribute('data-place') != element.parentElement.getAttribute('data-place')
                 && element.parentElement.classList.contains('myDrag')) {
-                element.style = "height: 40px; margin-top: 10px;background:#dc6c85";
+                element.style.color = "#dc6c85"
             }
         });
         if (count == 8) {
@@ -79,15 +74,12 @@ function natureGames() {
     }
 
     this.init = (e) => {
-        myArray.forEach(element => {
-            element.style = '';
-            if (element.getAttribute("data-end") == "1") {
-                parent1.appendChild(element)
-            }
-            if (element.getAttribute("data-end") == "2") {
-                parent2.appendChild(element)
-            }
+        DragGameParent.forEach(element => {
+            
+            element.appendChild(document.getElementById(element.getAttribute('data-side')));
+            element.firstElementChild.style = '';
         });
+
         completedBtn.removeAttribute('disabled');
     }
 
