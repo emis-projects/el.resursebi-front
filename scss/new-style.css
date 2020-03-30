@@ -28651,6 +28651,10 @@ td img {
   margin: 5vh auto 0;
 }
 
+img.mfp-img[alt*="cs-3-6-6-img"] {
+  height: 70vh !important;
+}
+
 .visual-21_box-img {
   height: 53vh;
   max-height: 410px;
