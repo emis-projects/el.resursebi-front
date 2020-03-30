@@ -43,12 +43,10 @@ document.body.onload = () => {
                 image.src = "../../img/gakvetilebi/xelovneba/Landscape/art_06_30.svg";
                 break;
             case 30:
-                console.log('fire')
                 arrowBox.dataset.page = '31';
                 image.src = "../../img/gakvetilebi/xelovneba/Landscape/art_06_31.svg";
                 break;
             case 31:
-                console.log('fire')
                 arrowBox.dataset.page = '32';
                 rightArrow.style.display = 'none';
                 image.src = "../../img/gakvetilebi/xelovneba/Landscape/art_06_32.svg";
