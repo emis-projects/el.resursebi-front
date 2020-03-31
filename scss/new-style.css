@@ -26243,7 +26243,7 @@ td img {
 }
 
 .Class_5-img_item_9 img {
-  height: 14.45vh;
+  height: 12.45vh;
   max-height: 111px;
 }
 
@@ -26280,6 +26280,10 @@ td img {
 .Class_5-img_item_9-8 img {
   height: 9.08vh;
   max-height: 69.8px;
+}
+
+.Class_5-img_items img {
+  width: 100%;
 }
 
 .Class_5-title_item {
@@ -27788,9 +27792,13 @@ td img {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  height: 4vh;
-  width: 4vh;
+  height: 28px;
+  width: 28px;
   max-height: 30px;
+}
+
+.nature-4-2-game-table tbody tr td img {
+  width: 30px;
 }
 
 .cs-3-11-1-powerpoint-img {
@@ -31623,6 +31631,30 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   margin-top: auto;
 }
 
+.summer-in-winter_circles .draggedElement:nth-child(2) {
+  position: absolute;
+  right: 5vw;
+  top: 0;
+}
+
+.summer-in-winter_circles .draggedElement:nth-child(3) {
+  position: absolute;
+  right: 42%;
+  bottom: -5%;
+}
+
+.summer-in-winter_circles .ask_question_game_box:nth-child(2) {
+  position: absolute;
+  right: 5vw;
+  top: 0;
+}
+
+.summer-in-winter_circles .ask_question_game_box:nth-child(3) {
+  position: absolute;
+  right: 42%;
+  bottom: -5%;
+}
+
 .cs-4-9-1-img {
   height: 63.71vh;
   margin: 2vh auto 3vh;
@@ -31958,6 +31990,64 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   right: 33.91vw;
 }
 
+.Class_2_10-title_item_1 {
+  font-family: DejaVu Sans;
+  font-style: italic;
+}
+
+.Class_2_10-img_1 {
+  height: 59.76vh;
+  max-height: 459px;
+}
+
+.Class_2_10-img_1 img {
+  height: 100%;
+}
+
+.Class_2_10-img_3 {
+  position: fixed;
+  bottom: 0;
+  left: 46vh;
+}
+
+.Class_2_10-img_3 img {
+  height: 49.6vh;
+  max-height: 381px;
+}
+
+.Class_2_10-img_4 {
+  height: 38.93vh;
+  max-height: 299px;
+}
+
+.Class_2_10-img_4 img {
+  height: 100%;
+}
+
+.Class_2_10-img_5 {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.Class_2_10-img_5 img {
+  height: 60.41vh;
+  max-height: 464px;
+}
+
+.Class_2_10-img_6 {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.Class_2_10-img_6 img {
+  height: 52.6vh;
+  max-height: 404px;
+}
+
 .cs-network-box-19 {
   height: 55vh;
   max-height: 423px;
@@ -32053,6 +32143,36 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .cs-2-10-img-div img {
   height: 100%;
+}
+
+.cs-2-10-7-img {
+  height: 48.17vh;
+  margin: 2vh auto 0;
+}
+
+.cs-2-10-8-img {
+  height: 60.85vh;
+  margin: 6vh auto 0;
+}
+
+.cs-2-10-9-img {
+  height: 47.78vh;
+  margin: 7vh auto 0;
+}
+
+.cs-2-10-10-img {
+  height: 38.93vh;
+  margin: 7vh auto 0;
+}
+
+.cs-2-10-11-img {
+  height: 65.23vh;
+  margin: 1.8vh auto 0;
+}
+
+.cs-2-10-12-img {
+  height: 45.70vh;
+  margin: 4vh auto 0;
 }
 
 body {

@@ -1,19 +1,17 @@
 <!DOCTYPE html>
-<!-- ბოტის აიდიში ვუთითებთ: ხელოვნების - 2318, ბუნების - 2320, მუსიკის - 2292 -->
-<html data-botid="2318" lang="ka">
+<html data-botid="2288" lang="ka">
 
 <head>
     <meta charset="UTF-8"/>
     <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
     <!-- ყველა გვერდზე -->
-    <script src="../../js/vue.js"></script>
+    <script src="../../../js/vue.js"></script>
     <!--  ვუე გაშვებისას
-      <script src="./js/vue.min.js"></script>
-       -->
-    <link href="../../New-header-vue/animate.min.css" rel="stylesheet">
-    <link href="../../scss/libraries/bootstrap.min.css" rel="stylesheet">
-    <link href="../../scss/libraries/magnific-popup.css" rel="stylesheet">
-    <link href="../../scss/new-style.css" rel="stylesheet"/>
+    <script src="./js/vue.min.js"></script>
+     -->
+    <link href="../../../scss/libraries/bootstrap.min.css" rel="stylesheet">
+    <link href="../../../New-header-vue/animate.min.css" rel="stylesheet">
+    <link href="../../../scss/new-style.css" rel="stylesheet"/>
     <title>ელექტრონული საგანმანათლებლო რესურსი</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
@@ -24,6 +22,7 @@
             dataLayer.push(arguments);
         }
 
+        2
         gtag('js', new Date());
 
         gtag('config', 'UA-155006442-1');
@@ -34,32 +33,35 @@
 <div class="container">
     <section class="container position-absolute" id="app">
         <header>
-            <app-menu :is-active="isActive" :toggle="toggle" v-logo="'../../'"></app-menu>
+            <app-menu :is-active="isActive" :toggle="toggle" v-logo="'../../../'"></app-menu>
         </header>
 
-        <app-section :is-active="isActive" v-image="'../../'">
-            <app-bar
-                    :current-tab="link"
-                    :dots="dots"
-                    :is-active="isActive"
-                    :trigger="trigger"
-                    v-on:link-tab="link = $event">
+        <app-section :is-active="isActive" v-image="'../../../'">
+            <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger"
+                     v-on:link-tab="link = $event">
 
             </app-bar>
-            <component
-                    :active-class="activeClass"
-                    :images="images"
-                    :is="currentTabComponent"
-                    :is-active="isActive"
-                    :path="path"
-                    :tab-class="currentTabComponent"
-                    :trigger="trigger">
+            <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive"
+                       :path="path" :tab-class="currentTabComponent" :trigger="trigger">
             </component>
         </app-section>
     </section>
+    <section id="mainPage">
+        <div class="row">
+            <div class="col-9 m-auto">
+                <div class="newDesign_subject_question_item mt-12vh">
+                    <img alt="img" class="newDesign_subject_question_item-img"
+                         src="../../../img/icons/newDesign_btn-yellow.svg">
+                    <p class="newDesign_subject_question_item-title">
+                        შენ უკვე გაქვს გარკვეული ცოდნა იმის შესახებ, თუ როგორ გამოიყენო კომპიუტერი შენს საქმიანობაში. ახლა გაეცნობი, რა არის ქსელი (ინტერნეტი) და როგორ ვართ ჩვენ მასში გაერთიანებული.
+                    </p>
+                </div>
+            </div>
+            <div class="col-7 m-auto Class_2_10-img_3">
+                <img src="../../../img/gakvetilebi/Computer-Science/Class-2/network-10/C-2-10-3.svg" alt="img" class="img">
+            </div>
+        </div>
 
-
-    <section class="adventure-2 ask_question_game">
         <div class="left_components_paging-cont">
             <svg class="left_components_paging" height="722"
                  viewBox="0 0 134 722" width="134" xmlns="http://www.w3.org/2000/svg"
@@ -86,21 +88,24 @@
                         <feComposite in2="blur-3" operator="in"/>
                         <feComposite in="SourceGraphic"/>
                     </filter>
-                    <filter filterUnits="userSpaceOnUse" height="78" id="Path_12243-3" width="78.354" x="28" y="424">
+                    <filter filterUnits="userSpaceOnUse" height="78" id="Path_12243-3" width="78.354" x="28"
+                            y="424">
                         <feOffset dx="2" dy="2" input="SourceAlpha"/>
                         <feGaussianBlur result="blur-4" stdDeviation="4"/>
                         <feFlood flood-color="#dc6c85" flood-opacity="0.4"/>
                         <feComposite in2="blur-4" operator="in"/>
                         <feComposite in="SourceGraphic"/>
                     </filter>
-                    <filter filterUnits="userSpaceOnUse" height="78" id="Path_12243-4" width="78.354" x="28" y="211">
+                    <filter filterUnits="userSpaceOnUse" height="78" id="Path_12243-4" width="78.354" x="28"
+                            y="211">
                         <feOffset dx="2" dy="2" input="SourceAlpha"/>
                         <feGaussianBlur result="blur-5" stdDeviation="4"/>
                         <feFlood flood-color="#dc6c85" flood-opacity="0.4"/>
                         <feComposite in2="blur-5" operator="in"/>
                         <feComposite in="SourceGraphic"/>
                     </filter>
-                    <filter filterUnits="userSpaceOnUse" height="78" id="Path_12243-5" width="78.354" x="28" y="317">
+                    <filter filterUnits="userSpaceOnUse" height="78" id="Path_12243-5" width="78.354" x="28"
+                            y="317">
                         <feOffset dx="2" dy="2" input="SourceAlpha"/>
                         <feGaussianBlur result="blur-6" stdDeviation="4"/>
                         <feFlood flood-color="#7fd1d8" flood-opacity="0.4"/>
@@ -206,100 +211,100 @@
                                   fill="#badfed"
                                   id="Path_8491" transform="translate(-396.889 -22.072)"/>
                             <line data-name="Line 800" fill="none" id="Line_800" stroke="#fff"
-                                  stroke-linecap="round"
-                                  stroke-miterlimit="10" stroke-width="0.25" transform="translate(6.287 1.341)"
+                                  stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"
+                                  transform="translate(6.287 1.341)"
                                   x2="1.118"/>
                             <line data-name="Line 801" fill="none" id="Line_801" stroke="#fff"
-                                  stroke-linecap="round"
-                                  stroke-miterlimit="10" stroke-width="0.25" transform="translate(6.287 3.416)"
+                                  stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"
+                                  transform="translate(6.287 3.416)"
                                   x2="1.118"/>
                             <line data-name="Line 802" fill="none" id="Line_802" stroke="#fff"
-                                  stroke-linecap="round"
-                                  stroke-miterlimit="10" stroke-width="0.25" transform="translate(6.289 1.798)"
+                                  stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"
+                                  transform="translate(6.289 1.798)"
                                   x2="0.771"/>
                             <line data-name="Line 803" fill="none" id="Line_803" stroke="#fff"
-                                  stroke-linecap="round"
-                                  stroke-miterlimit="10" stroke-width="0.25" transform="translate(6.289 2.202)"
+                                  stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"
+                                  transform="translate(6.289 2.202)"
                                   x2="0.771"/>
                             <line data-name="Line 804" fill="none" id="Line_804" stroke="#fff"
-                                  stroke-linecap="round"
-                                  stroke-miterlimit="10" stroke-width="0.25" transform="translate(6.289 2.607)"
+                                  stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"
+                                  transform="translate(6.289 2.607)"
                                   x2="0.771"/>
                             <line data-name="Line 805" fill="none" id="Line_805" stroke="#fff"
-                                  stroke-linecap="round"
-                                  stroke-miterlimit="10" stroke-width="0.25" transform="translate(6.289 3.012)"
+                                  stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"
+                                  transform="translate(6.289 3.012)"
                                   x2="0.771"/>
                             <line data-name="Line 806" fill="none" id="Line_806" stroke="#fff"
-                                  stroke-linecap="round"
-                                  stroke-miterlimit="10" stroke-width="0.25" transform="translate(6.287 3.416)"
+                                  stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"
+                                  transform="translate(6.287 3.416)"
                                   x2="1.118"/>
                             <line data-name="Line 807" fill="none" id="Line_807" stroke="#fff"
-                                  stroke-linecap="round"
-                                  stroke-miterlimit="10" stroke-width="0.25" transform="translate(6.287 5.344)"
+                                  stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"
+                                  transform="translate(6.287 5.344)"
                                   x2="1.118"/>
                             <line data-name="Line 808" fill="none" id="Line_808" stroke="#fff"
-                                  stroke-linecap="round"
-                                  stroke-miterlimit="10" stroke-width="0.25" transform="translate(6.289 3.873)"
+                                  stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"
+                                  transform="translate(6.289 3.873)"
                                   x2="0.771"/>
                             <line data-name="Line 809" fill="none" id="Line_809" stroke="#fff"
-                                  stroke-linecap="round"
-                                  stroke-miterlimit="10" stroke-width="0.25" transform="translate(6.289 4.278)"
+                                  stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"
+                                  transform="translate(6.289 4.278)"
                                   x2="0.771"/>
                             <line data-name="Line 810" fill="none" id="Line_810" stroke="#fff"
-                                  stroke-linecap="round"
-                                  stroke-miterlimit="10" stroke-width="0.25" transform="translate(6.289 4.682)"
+                                  stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"
+                                  transform="translate(6.289 4.682)"
                                   x2="0.771"/>
                             <line data-name="Line 811" fill="none" id="Line_811" stroke="#fff"
-                                  stroke-linecap="round"
-                                  stroke-miterlimit="10" stroke-width="0.25" transform="translate(6.289 5.087)"
+                                  stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"
+                                  transform="translate(6.289 5.087)"
                                   x2="0.771"/>
                             <line data-name="Line 812" fill="none" id="Line_812" stroke="#fff"
-                                  stroke-linecap="round"
-                                  stroke-miterlimit="10" stroke-width="0.25" transform="translate(6.287 5.344)"
+                                  stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"
+                                  transform="translate(6.287 5.344)"
                                   x2="1.118"/>
                             <line data-name="Line 813" fill="none" id="Line_813" stroke="#fff"
-                                  stroke-linecap="round"
-                                  stroke-miterlimit="10" stroke-width="0.25" transform="translate(6.287 7.363)"
+                                  stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"
+                                  transform="translate(6.287 7.363)"
                                   x2="1.118"/>
                             <line data-name="Line 814" fill="none" id="Line_814" stroke="#fff"
-                                  stroke-linecap="round"
-                                  stroke-miterlimit="10" stroke-width="0.25" transform="translate(6.289 5.789)"
+                                  stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"
+                                  transform="translate(6.289 5.789)"
                                   x2="0.771"/>
                             <line data-name="Line 815" fill="none" id="Line_815" stroke="#fff"
-                                  stroke-linecap="round"
-                                  stroke-miterlimit="10" stroke-width="0.25" transform="translate(6.289 6.182)"
+                                  stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"
+                                  transform="translate(6.289 6.182)"
                                   x2="0.771"/>
                             <line data-name="Line 816" fill="none" id="Line_816" stroke="#fff"
-                                  stroke-linecap="round"
-                                  stroke-miterlimit="10" stroke-width="0.25" transform="translate(6.289 6.576)"
+                                  stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"
+                                  transform="translate(6.289 6.576)"
                                   x2="0.771"/>
                             <line data-name="Line 817" fill="none" id="Line_817" stroke="#fff"
-                                  stroke-linecap="round"
-                                  stroke-miterlimit="10" stroke-width="0.25" transform="translate(6.289 6.97)"
+                                  stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"
+                                  transform="translate(6.289 6.97)"
                                   x2="0.771"/>
                             <line data-name="Line 818" fill="none" id="Line_818" stroke="#fff"
-                                  stroke-linecap="round"
-                                  stroke-miterlimit="10" stroke-width="0.25" transform="translate(6.287 7.363)"
+                                  stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"
+                                  transform="translate(6.287 7.363)"
                                   x2="1.118"/>
                             <line data-name="Line 819" fill="none" id="Line_819" stroke="#fff"
-                                  stroke-linecap="round"
-                                  stroke-miterlimit="10" stroke-width="0.25" transform="translate(6.287 9.383)"
+                                  stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"
+                                  transform="translate(6.287 9.383)"
                                   x2="1.118"/>
                             <line data-name="Line 820" fill="none" id="Line_820" stroke="#fff"
-                                  stroke-linecap="round"
-                                  stroke-miterlimit="10" stroke-width="0.25" transform="translate(6.289 7.808)"
+                                  stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"
+                                  transform="translate(6.289 7.808)"
                                   x2="0.771"/>
                             <line data-name="Line 821" fill="none" id="Line_821" stroke="#fff"
-                                  stroke-linecap="round"
-                                  stroke-miterlimit="10" stroke-width="0.25" transform="translate(6.289 8.202)"
+                                  stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"
+                                  transform="translate(6.289 8.202)"
                                   x2="0.771"/>
                             <line data-name="Line 822" fill="none" id="Line_822" stroke="#fff"
-                                  stroke-linecap="round"
-                                  stroke-miterlimit="10" stroke-width="0.25" transform="translate(6.289 8.596)"
+                                  stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"
+                                  transform="translate(6.289 8.596)"
                                   x2="0.771"/>
                             <line data-name="Line 823" fill="none" id="Line_823" stroke="#fff"
-                                  stroke-linecap="round"
-                                  stroke-miterlimit="10" stroke-width="0.25" transform="translate(6.289 8.989)"
+                                  stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"
+                                  transform="translate(6.289 8.989)"
                                   x2="0.771"/>
                         </g>
                     </g>
@@ -537,13 +542,15 @@
                         <tspan x="0" y="0">მინიშნება</tspan>
                     </text>
                     <text data-name="შუალედური
-                  დავალება" fill="#c5cbcd" font-family="ALKSanet, ALK Sanet" font-size="12" id="შუალედური_დავალება"
+                            დავალება" fill="#c5cbcd" font-family="ALKSanet, ALK Sanet" font-size="12"
+                          id="შუალედური_დავალება"
                           transform="translate(70 549)">
                         <tspan x="-35.344" y="0">შუალედური</tspan>
                         <tspan x="-30.636" y="12">დავალება</tspan>
                     </text>
                     <text data-name="კომპლექსური
-                  დავალება" fill="#c5cbcd" font-family="ALKSanet, ALK Sanet" font-size="12" id="კომპლექსური_დავალება"
+                            დავალება" fill="#c5cbcd" font-family="ALKSanet, ALK Sanet" font-size="12"
+                          id="კომპლექსური_დავალება"
                           transform="translate(70 668)">
                         <tspan x="-42.015" y="0">კომპლექსური</tspan>
                         <tspan x="-30.636" y="12">დავალება</tspan>
@@ -551,89 +558,20 @@
                 </g>
             </svg>
         </div>
-        <div class="row mt-15vh">
-            <div class="col-11 m-auto">
-                <div class="row">
-                    <div class="col-3 d-flex flex-column">
-                        <div class="ask_question_game_box ask_question_game_box--first" data-class="ask_question_game_box ask_question_game_box--first" data-title="მცენარეებს აქვთ ორგანოები, რომლებიც მათ მწვანე ფერს აძლევენ" draggable="true">
-                            <h5 class="draggeble_h5" data-index="2">მცენარეებს აქვთ ორგანოები, რომლებიც მათ მწვანე ფერს აძლევენ</h5>
-                        </div>
 
-                        <div class="ask_question_game_box ask_question_game_box--second" data-class="ask_question_game_box ask_question_game_box--second" data-title="რა კავშირი აქვს მწვანე ქლოროპლასტებს ფერად ფოთლებთან?" draggable="true">
-                            <h5 class="draggeble_h5" data-index="5">რა კავშირი აქვს მწვანე ქლოროპლასტებს ფერად ფოთლებთან?</h5>
-                        </div>
+        <div class="our__pagination flex">
+            <a class="pagination__prev__btn" href="#">
+                <img alt="" src="../../../img/icons/chevron-left-icon.svg" style="transform: rotate(180deg)">
+            </a>
 
-                        <div class="ask_question_game_box ask_question_game_box--third" data-class="ask_question_game_box ask_question_game_box--third" data-title="ვიკვლევთ მცენარის ორგანოებს და მათ დანიშნულებას" draggable="true">
-                            <h5 class="draggeble_h5" data-index="3">ვიკვლევთ მცენარის ორგანოებს და მათ დანიშნულებას</h5>
-                        </div>
+            <div class="flex align-items-center" id="pagination"></div>
 
-                    </div>
-                    <div class="col-6 flex">
-                        <div class="circle__container relative w-100">
-                            <div class="ask_question_game_box--sm" data-index="1">
-                                <h5>რატომ იცვალა ფერიმ ტყემ</h5>
-                                <div class="ask_question_game_box_number-img">
-                                    <img alt="" src="../../img/gakvetilebi/buneba/n-1-i-1.svg">
-                                </div>
-                            </div>
-                            <div class="ask_question_game_box--sm dropDiv" data-index="2">
-                                <div class="ask_question_game_box_number-img">
-                                    <img alt="" src="../../img/gakvetilebi/buneba/n-1-i-2.svg">
-                                </div>
-                            </div>
+            <a class="pagination__next__btn" href="#">
+                <img alt="" src="../../../img/icons/chevron-left-icon.svg">
+            </a>
+        </div>
 
-                            <div class="ask_question_game_box--sm dropDiv" data-index="3">
-                                <div class="ask_question_game_box_number-img">
-                                    <img alt="" src="../../img/gakvetilebi/buneba/n-1-i-3.svg">
-                                </div>
-                            </div>
-
-                            <div class="ask_question_game_box--sm" data-index="4">
-                                <h5>ქლოროპლასტი მცენარის მწვანე „ქარხანა“ არის</h5>
-                                <div class="ask_question_game_box_number-img">
-                                    <img alt="" src="../../img/gakvetilebi/buneba/n-1-i-4.svg">
-                                </div>
-                            </div>
-
-                            <div class="ask_question_game_box--sm dropDiv" data-index="5">
-                                <div class="ask_question_game_box_number-img">
-                                    <img alt="" src="../../img/gakvetilebi/buneba/n-1-i-5.svg">
-                                </div>
-                            </div>
-
-                            <div class="ask_question_game_box--sm" data-index="6">
-                                <h5>მოდი, ვიპოვოთ ქლოროპლასტებში, მწვანე ნივთიერება</h5>
-                                <div class="ask_question_game_box_number-img">
-                                    <img alt="" src="../../img/gakvetilebi/buneba/n-1-i-6.svg">
-                                </div>
-                            </div>
-                            <img alt="" src="../../img/gakvetilebi/buneba/forest_colours/boy&amp;girl.svg" style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 120px;">
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-            </div>
-
-            <div class="our__pagination flex">
-                <a class="pagination__prev__btn" href="#">
-                    <img alt="" src="../../img/icons/chevron-left-icon.svg" style="transform: rotate(180deg)">
-                </a>
-
-                <div class="flex align-items-center" id="pagination"></div>
-
-                <a class="pagination__next__btn" href="#">
-                    <img alt="" src="../../img/icons/chevron-left-icon.svg">
-                </a>
-            </div>
     </section>
-
-    <div class="flex flex-end column align-items-end z-index reload_game_wrapper">
-      <button id="resetBtn" class="reset__btn">თავიდან სცადე</button>
-      <button id="completedGame" class="completed__btn">დასრულება</button>
-    </div>
-
-    
 </div>
 
 
@@ -642,16 +580,17 @@
     <app-bot></app-bot>
 </div>
 
-
-<script src="../../js/libraries/jquery-3.4.1.min.js"></script>
-<script src="../../js/libraries/jquery.magnific-popup.min.js"></script>
-<script src="../../js/Pagination.js"></script>
-<script src="../dangerous-toys/js/N-1366-54.js"></script>
+<script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
+<script src="../../../js/libraries/jquery.magnific-popup.min.js"></script>
+<script src="../../../js/Pagination.js"></script>
 
 
 <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
-<script src="../../New-header-vue/app.js"></script>
-<script src="../../Vue-chatBot/botApp.js"></script>
-<script src="../../js/bot.js"></script>
+<script src="../../../New-header-vue/app.js"></script>
+<script src="../../../Vue-chatBot/botApp.js"></script>
+<script src="../../../js/bot.js"></script>
+
+
 </body>
+
 </html>
