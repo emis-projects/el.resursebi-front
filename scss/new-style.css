@@ -26215,6 +26215,54 @@ img.mfp-img[alt*=cs-3-6-6-img] {
   vertical-align: bottom;
 }
 
+.cs-template-box-16 {
+  height: 51vh;
+  max-height: 393px;
+}
+.cs-template-box-16 img {
+  height: 100%;
+}
+.cs-template-box-16-1 {
+  height: 38vh;
+  max-height: 292px;
+}
+.cs-template-box-16-1 img {
+  height: 100%;
+}
+.cs-template-box-18 {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 65vh;
+  max-height: 498px;
+}
+.cs-template-box-18 img {
+  height: 100%;
+}
+
+.cs-template .box-1 {
+  width: 45vw;
+  max-width: 620px;
+  height: 7.3vh;
+  max-height: 58px;
+}
+.cs-template .box-1 .cycle-6_bg-box-blue {
+  background: url("../img/gakvetilebi/Computer-Science/Class-4/template-and-table-9/blue-box.svg");
+}
+.cs-template .box-2 {
+  width: 44vw;
+  max-width: 336px;
+  height: 7.3vh;
+  max-height: 58px;
+}
+.cs-template .box-2 .cycle-6_bg-box-blue {
+  background: url("../img/gakvetilebi/Computer-Science/Class-4/template-and-table-9/pink-box.svg");
+}
+.cs-template .reload_game_wrapper {
+  bottom: 11vh;
+}
+
 body {
   color: #262626;
   font-size: 14px;
