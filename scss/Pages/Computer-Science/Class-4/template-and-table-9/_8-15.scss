@@ -17,11 +17,10 @@
     }
     &-11-2{
         height:8.46vh;
-        display:inline-block;
+      
     }
     &-13-1{
         height:3.9vh;
-        display:inline-block;
         align-items:center;
     }
     &-13{
@@ -36,11 +35,11 @@
     }
     &-15-1{
         height:5.46vh;
-          display:inline-block;
+         
     }
     &-15-2{
         height:3.77vh;
-        display:inline-block;
+        
     }
     &-15{
         height:45.44vh;
@@ -64,7 +63,69 @@
 
 .cs-4-9-div-img-11-question{
     align-items:center;
-    
-    vertical-align:middle;
+}
 
+.cs-4-9-15-1-question-div{
+   flex-wrap:wrap;
+   margin-left: 2vh;
+   p{
+    margin-left: 0vh;
+   }
+}
+.cs-4-9-div-img-9{ 
+    .cs-4-9-9-img{
+        height:100%;
+        position:absolute;
+        &-1{
+            height:17.83vh;
+            bottom:27.34vh;
+            left:12vw;
+        }
+        &-2{
+            height:18.48vh;
+            bottom:23.56vh;
+            left:14vw;
+        }
+        &-3{
+            height:14.06vh;
+            bottom:17.21vh;
+            left:15vw;
+        }
+        &-4{
+            height:10.74vh;
+            bottom:10.8vh;
+            left:14vw;
+        }
+      
+        &-5{
+            height:32.03vh;
+            bottom:24.85vh;
+            left:22vw;
+        }
+        &-6{
+            height:24.15vh;
+            bottom:14.66vh;
+            left:35.87vw;
+        }
+        &-7{
+            height:4.29vh;
+            bottom:44.49vh;
+             right:40.2vw;
+        }
+        &-8{
+            height:12.63vh;
+            bottom:32.92vh;
+           right:33.67vw;
+        }
+        &-9{
+            height:14.02vh;
+            bottom:24.51vh;
+            right:35.41vw;
+        }
+        &-10{
+            height:12.04vh;
+            bottom:15.41vh;
+            right:33.91vw;
+        }
+    }
 }
