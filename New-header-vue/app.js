@@ -442,10 +442,10 @@ var app = new Vue({
         link: 'start',
         path: '',
         images: {
-            IT: './New-header-vue/header-img/arts/IT-artwork.svg',
-            art: './New-header-vue/header-img/arts/art-artwork.svg',
-            nature: './New-header-vue/header-img/arts/nature-artwork.svg',
-            music: './New-header-vue/header-img/arts/music-artwork.svg'
+            IT: 'New-header-vue/header-img/arts/IT-artwork.svg',
+            art: 'New-header-vue/header-img/arts/art-artwork.svg',
+            nature: 'New-header-vue/header-img/arts/nature-artwork.svg',
+            music: 'New-header-vue/header-img/arts/music-artwork.svg'
         },
         dots: [{
             name: 'start',
@@ -609,7 +609,7 @@ let title = {
         {
             id: 7,
             name: 'ქალაქი',
-            link: './Art-Class/City-07/1.html'
+            link: 'Art-Class/City-07/1.html'
         },
         {
             id: 8,
@@ -641,62 +641,62 @@ let title = {
         {
             id: 1,
             name: 'საშიში სათამაშოები',
-            link: './Nature-Class/dangerous-toys/1.html'
+            link: 'Nature-Class/dangerous-toys/1.html'
         },
         {
             id: 2,
             name: 'უხილავი ძალები',
-            link: './Nature-Class/invisible_forces/1.html'
+            link: 'Nature-Class/invisible_forces/1.html'
         },
         {
             id: 3,
             name: 'რატომ იცვალა ტყემ ფერი?',
-            link: './Nature-Class/Forest-colors/1.html'
+            link: 'Nature-Class/Forest-colors/1.html'
         },
         {
             id: 4,
             name: 'რატომ მოიწყინა ჩემმა ყვავილმა',
-            link: './Nature-Class/The-living-world-4/1.html'
+            link: 'Nature-Class/The-living-world-4/1.html'
         },
         {
             id: 5,
             name: 'სად დაიმალა მზე?',
-            link: './Nature-Class/Where-sun-goes/1.html'
+            link: 'Nature-Class/Where-sun-goes/1.html'
         },
         {
             id: 6,
             name: 'შეიძლება ზაფხული ზამთარში იყოს?',
-            link: './Nature-Class/Summer-in-winter/1.html'
+            link: 'Nature-Class/Summer-in-winter/1.html'
         },
         {
             id: 7,
             name: 'რატომ არის ბრუცა ბრმა?',
-            link: './Nature-Class/Bruca-07/1.html'
+            link: 'Nature-Class/Bruca-07/1.html'
         },
         {
             id: 8,
             name: 'თეთრი - ვარდისფერი ფლამინგო',
-            link: './Nature-Class/flamingo-08/1.html'
+            link: 'Nature-Class/flamingo-08/1.html'
         },
         {
             id: 9,
             name: 'დედამიწის გარშემო 80 დღეზე სწრაფად',
-            link: './Nature-Class/around-world-09/1.html'
+            link: 'Nature-Class/around-world-09/1.html'
         },
         {
             id: 10,
             name: 'რატომ არის ანას ქურთუკი ძალიან თბილი?',
-            link: './Nature-Class/coat-10/1.html'
+            link: 'Nature-Class/coat-10/1.html'
         },
         {
             id: 11,
             name: 'როგორ ვაჯობოთ ბიჭებს „შერკინებაში?”',
-            link: './Nature-Class/sport/1.html'
+            link: 'Nature-Class/sport/1.html'
         },
         {
             id: 12,
             name: 'გვინდა თოვლი დაბადების დღეზე!',
-            link: './Nature-Class/snow-12/1.html'
+            link: 'Nature-Class/snow-12/1.html'
         }
     ],
     IT_2: [
@@ -723,7 +723,7 @@ let title = {
         {
             id: 5,
             name: 'ციკლების შექმნა ',
-            link: './Computer-Science/Class-2/Creating-cycles-5/1.html'
+            link: 'Computer-Science/Class-2/Creating-cycles-5/1.html'
         },
         {
             id: 6,
@@ -747,8 +747,8 @@ let title = {
         },
         {
             id: 10,
-            name: 'სათაური',
-            link: 'Computer-Science/Class-2/...'
+            name: 'რა არის ქსელი და როგორ ვერთიანდებით ჩვენ მასში',
+            link: 'Computer-Science/Class-2/network-10/1.html'
         },
         {
             id: 11,
@@ -765,12 +765,12 @@ let title = {
         {
             id: 1,
             name: 'კომპიუტერის შექმნისა და განვითარების მოკლე ისტორია',
-            link: './Computer-Science/Class-3/computer-development-1/1.html'
+            link: 'Computer-Science/Class-3/computer-development-1/1.html'
         },
         {
             id: 2,
             name: 'კომპიუტერი 3 კლასი 2 გაკვ',
-            link: './Computer-Science/algorithme/C-1366-02-03.html'
+            link: 'Computer-Science/algorithme/C-1366-02-03.html'
         },
         {
             id: 3,
@@ -785,12 +785,12 @@ let title = {
         {
             id: 5,
             name: 'რა არის პროგრამული ენა',
-            link: './Computer-Science/Class-3/programming-language-5/1.html'
+            link: 'Computer-Science/Class-3/programming-language-5/1.html'
         },
         {
             id: 6,
             name: 'ვიზუალური კომუნიკაციის ენა',
-            link: './Computer-Science/Class-3/Visual-Communication-6/1.html'
+            link: 'Computer-Science/Class-3/Visual-Communication-6/1.html'
         },
         {
             id: 7,
@@ -800,12 +800,12 @@ let title = {
         {
             id: 8,
             name: 'როგორ მუშაობს ინტერნეტი',
-            link: './Computer-Science/Class-3/internet-8/1.html'
+            link: 'Computer-Science/Class-3/internet-8/1.html'
         },
         {
             id: 9,
             name: 'რა არის საძიებო სისტემა და  როგორ გამოვიყენოთ იგი',
-            link: './Computer-Science/Class-3/search-engine-9/1.html'
+            link: 'Computer-Science/Class-3/search-engine-9/1.html'
         },
         {
             id: 10,
@@ -815,7 +815,7 @@ let title = {
         {
             id: 11,
             name: 'პრეზენტაციის შექმნა (Ms PowerPoint)',
-            link: './Computer-Science/Class-3/Presentation-11/1.html'
+            link: 'Computer-Science/Class-3/Presentation-11/1.html'
         },
         {
             id: 12,
@@ -827,12 +827,12 @@ let title = {
         {
             id: 1,
             name: 'კომპიუტერი 4 კლასი 1 გაკვ',
-            link: './Computer-Science/Computer_parts/C-1366-01-01.html'
+            link: 'Computer-Science/Computer_parts/C-1366-01-01.html'
         },
         {
             id: 2,
             name: 'შეცდომები პროგრამირებაში',
-            link: './Computer-Science/Class-4/programing-mistakes-2/1.html'
+            link: 'Computer-Science/Class-4/programing-mistakes-2/1.html'
         },
         {
             id: 3,
@@ -862,7 +862,7 @@ let title = {
         {
             id: 8,
             name: 'ტექსტის სწორება (Ms Word)',
-            link: './Computer-Science/Class-4/correcting-text-8/1.html'
+            link: 'Computer-Science/Class-4/correcting-text-8/1.html'
         },
         {
             id: 9,
@@ -889,12 +889,12 @@ let title = {
         {
             id: 1,
             name: 'კომპიუტერი 5 კლასი 1 გაკვ',
-            link: './Computer-Science/Computer_parts/C-1366-01-01.html'
+            link: 'Computer-Science/Computer_parts/C-1366-01-01.html'
         },
         {
             id: 2,
             name: 'კომპიუტერი 5 კლასი 2 გაკვ',
-            link: './Computer-Science/algorithme/C-1366-02-03.html'
+            link: 'Computer-Science/algorithme/C-1366-02-03.html'
         },
         {
             id: 3,
@@ -904,17 +904,17 @@ let title = {
         {
             id: 4,
             name: 'ობიექტის გადაადგილება ვიზუალური კოდის საშუალებით',
-            link: './Computer-Science/Class-5/objects-moving-4/1.html'
+            link: 'Computer-Science/Class-5/objects-moving-4/1.html'
         },
         {
             id: 5,
             name: 'ფუნქცია',
-            link: './Computer-Science/Class-5/function-5/1.html'
+            link: 'Computer-Science/Class-5/function-5/1.html'
         },
         {
             id: 6,
             name: 'პარალელური პროგრამირება',
-            link: './Computer-Science/Class-5/parallel-programming-6/1.html'
+            link: 'Computer-Science/Class-5/parallel-programming-6/1.html'
         },
         {
             id: 7,
@@ -1011,12 +1011,12 @@ let title = {
         {
             id: 1,
             name: 'კომპიუტერი 6 კლასი 1 გაკვ',
-            link: './Computer-Science/Computer_parts/C-1366-01-01.html'
+            link: 'Computer-Science/Computer_parts/C-1366-01-01.html'
         },
         {
             id: 2,
             name: 'კომპიუტერი 6 კლასი 2 გაკვ',
-            link: './Computer-Science/algorithme/C-1366-02-03.html'
+            link: 'Computer-Science/algorithme/C-1366-02-03.html'
         },
         {
             id: 3,
