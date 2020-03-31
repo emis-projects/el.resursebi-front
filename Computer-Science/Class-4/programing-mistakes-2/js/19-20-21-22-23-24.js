@@ -2,7 +2,6 @@ function computerGames() {
     var DragGameChilds1 = document.querySelectorAll('.DragGame--childs1');
     var mydrag = document.querySelectorAll('.myDrag');
     var result = document.querySelectorAll('.result');
-    var parent1 = document.querySelector('.parent1');
 
     var completedBtn = document.getElementById('completedGame');
     var resetBtn = document.getElementById('resetBtn');
@@ -45,6 +44,12 @@ function computerGames() {
         myArray.push(element);
     });
 
+    var myDragArray = [];
+
+    mydrag.forEach(element => {
+        myDragArray.push(element);
+    });
+
     var myArrayResult = [];
 
     result.forEach(element => {
@@ -58,10 +63,10 @@ function computerGames() {
     this.dragDrop = (e) => {
         if (e.target.getAttribute('data-mydrag') == idCount) {
             var drag = document.querySelector('.draggedElement')
-            //clone = drag.cloneNode(true);
-            e.target.appendChild(drag)
-
-            var dest = drag.getAttribute('data-way');
+            clone = drag.cloneNode(true);
+            e.target.appendChild(clone)
+            //$(clone).removeClass('draggedElement')
+            var dest = clone.getAttribute('data-way');
             if (previousState == null) {
                 if (window.location.href.includes("19.html")) {
                     previousState = 14;
@@ -73,6 +78,12 @@ function computerGames() {
                     previousState = 13;
                 }
                 if (window.location.href.includes("22.html")) {
+                    previousState = 44;
+                }
+                if (window.location.href.includes("23.html")) {
+                    previousState = 44;
+                }
+                if (window.location.href.includes("24.html")) {
                     previousState = 44;
                 }
             }
@@ -92,8 +103,6 @@ function computerGames() {
                 previousState -= 10;
                 count++;
             }
-
-
             idCount++;
         }
 
@@ -108,13 +117,9 @@ function computerGames() {
 
 
 
+    var redBall;
     this.errorPage = () => {
-        console.log(document.getElementById(previousState), previousState)
-        if(document.getElementById(previousState).getAttribute('data-matrix') != 32){
-            document.getElementById(previousState).style = "background:#dc6c85";
-        }
         if(document.getElementById(previousState).getAttribute('data-matrix') == 32){
-            console.log(count)
             if (window.location.href.includes("19.html")) {
                 location.href = 'game-success-19.html';
             }
@@ -124,6 +129,10 @@ function computerGames() {
                 }
                 else{
                     document.getElementById(previousState).style = "background:#dc6c85";
+                    var img = document.createElement("IMG");
+                    img.src = '../../../img/gakvetilebi/Computer-Science/Class-4/programing-mistakes-2/C-4-2-circle.png';
+                    document.getElementById(previousState).appendChild(img);
+                    redBall = previousState;
                 }
             }
             if (window.location.href.includes("21.html")) {
@@ -132,11 +141,46 @@ function computerGames() {
             if (window.location.href.includes("22.html")) {
                 location.href = 'game-success-22.html';
             }
+            return
+        }
+        
+        if(document.getElementById(previousState).getAttribute('data-matrix') == 15){
+            if (window.location.href.includes("23.html")) {
+                location.href = 'game-success-23.html';
+            }
+            return
+        }
+        if(document.getElementById(previousState).getAttribute('data-matrix') == 13){
+            if (window.location.href.includes("24.html")) {
+                location.href = 'game-success-24.html';
+            }
+            return
+        }
 
+        if(window.location.href.includes("19.html")){
+            $(document.getElementById('14')).empty();
         }
-        else{
-            document.getElementById(previousState).style = "background:#dc6c85";
+        if(window.location.href.includes("20.html")){
+            $(document.getElementById('34')).empty();
         }
+        if(window.location.href.includes("21.html")){
+            $(document.getElementById('13')).empty();
+        }
+        if(window.location.href.includes("22.html")){
+            $(document.getElementById('44')).empty();
+        }
+        if(window.location.href.includes("23.html")){
+            $(document.getElementById('44')).empty();
+        }
+        if(window.location.href.includes("24.html")){
+            $(document.getElementById('44')).empty();
+        }
+        
+        document.getElementById(previousState).style = "background:#dc6c85";
+        var img = document.createElement("IMG");
+        img.src = '../../../img/gakvetilebi/Computer-Science/Class-4/programing-mistakes-2/C-4-2-circle.png';
+        document.getElementById(previousState).appendChild(img);
+        redBall = previousState;
 
         
     }
@@ -146,7 +190,6 @@ function computerGames() {
     this.completGame = () => {
         completedBtn.setAttribute('disabled', 'true');
         this.successPage();
-        
     }
 
     this.init = () => {
@@ -154,6 +197,42 @@ function computerGames() {
         idCount = 1;
         previousState = null;
 
+        var star = document.createElement("IMG");
+        star.src = '../../../img/gakvetilebi/Computer-Science/Class-4/programing-mistakes-2/C-4-2-star.png';
+
+        var img = document.createElement("IMG");
+        img.src = '../../../img/gakvetilebi/Computer-Science/Class-4/programing-mistakes-2/C-4-2-circle.png';
+        
+        if (window.location.href.includes("19.html")) {
+            $(document.getElementById(redBall)).empty();
+            document.getElementById('14').appendChild(img);
+        }
+        if (window.location.href.includes("20.html")) {
+            $(document.getElementById(redBall)).empty();
+            document.getElementById('34').appendChild(img);
+            document.getElementById('32').appendChild(star);
+        }
+        if (window.location.href.includes("21.html")) {
+            $(document.getElementById(redBall)).empty();
+            document.getElementById('13').appendChild(img);
+        }
+        if (window.location.href.includes("22.html")) {
+            $(document.getElementById(redBall)).empty();
+            document.getElementById('44').appendChild(img);
+        }
+        if (window.location.href.includes("23.html")) {
+            $(document.getElementById(redBall)).empty();
+            document.getElementById('44').appendChild(img);
+        }
+        if (window.location.href.includes("24.html")) {
+            $(document.getElementById(redBall)).empty();
+            document.getElementById('44').appendChild(img);
+        }
+
+
+        document.getElementById('14').style = '';
+        document.getElementById('34').style = '';
+        document.getElementById('13').style = '';
         document.getElementById('32').style = '';
         document.getElementById('44').style = '';
 
@@ -162,10 +241,9 @@ function computerGames() {
             element.style = '';
         });
 
-        myArray.forEach(element => {
-            if (element.getAttribute("data-end") == "1") {
-                parent1.appendChild(element)
-            }
+        myDragArray.forEach(element => {
+            element.style = '';
+            $(element).empty();
         });
 
 
