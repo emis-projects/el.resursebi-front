@@ -29967,14 +29967,12 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
-.cs-6-23-14-img {
-  height: 41.01vh;
-  margin: 2vh auto 0;
+.cs-6-24-div-img-14 {
+  height: 52.6vh;
 }
 
-.cs-6-23-14-1-img {
-  height: 47.78vh;
-  margin: 7vh auto 0;
+.cs-6-24-div-img img {
+  height: 100%;
 }
 
 .Class_6-title_item_18 {
@@ -30189,18 +30187,142 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   margin-bottom: 3vh;
 }
 
-.Digital_world_24-title_text_1 {
-  font-style: italic;
-  font-family: DejaVu Sans;
+.world-balance-box-8 {
+  height: 60vh;
+  max-height: 459px;
 }
 
-.Digital_world_24-img_box_1 {
-  height: 57.42vh;
-  max-height: 441px;
-}
-
-.Digital_world_24-img_box_1 img {
+.world-balance-box-8 img {
   height: 100%;
+}
+
+.world-balance-box-9 {
+  height: 56vh;
+  max-height: 428px;
+  position: absolute;
+  bottom: 0;
+}
+
+.world-balance-box-9 img {
+  height: 100%;
+}
+
+.world-balance-box-10 {
+  height: 47vh;
+  max-height: 360px;
+}
+
+.world-balance-box-10 img {
+  height: 100%;
+}
+
+.world-balance-box-11 {
+  height: 47vh;
+  max-height: 360px;
+}
+
+.world-balance-box-11 img {
+  height: 100%;
+}
+
+.world-balance-box-12 {
+  height: 63vh;
+  max-height: 487px;
+}
+
+.world-balance-box-12 img {
+  height: 100%;
+}
+
+.world-balance-frame-box {
+  height: 36.9vh;
+  max-height: 284px;
+  width: 36.6vw;
+  max-width: 500px;
+}
+
+.world-balance-frame-box iframe {
+  height: 100%;
+  width: 100%;
+}
+
+.cs-6-24-div-img-14 {
+  height: 52.6vh;
+}
+
+.cs-6-24-div-img img {
+  height: 100%;
+}
+
+.cs-6-24-div-img-21 {
+  height: 57.81vh;
+}
+
+.cs-6-24-div-img-22 {
+  height: 63.15vh;
+}
+
+.background-cs-6-24-23 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Digital-world-rights-24/cs-6-24-23-img.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-6-24-24 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Digital-world-rights-24/cs-6-24-24-img.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-6-24-25 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Digital-world-rights-24/cs-6-24-25-img.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-6-24-26 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Digital-world-rights-24/cs-6-24-26-img.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-title-purple {
+  color: #62548A;
+  font-family: 'DejaVu Sans Oblique';
+  font-size: 3.64vh;
+}
+
+.background-cs-title-purple-cont {
+  padding-top: 10vh;
+}
+
+.cs-6-24-15-img {
+  height: 55.25vh;
+  margin: 4vh auto 0;
+}
+
+.cs-6-24-16-img {
+  height: 39.97vh;
+  margin-top: 1vh;
+}
+
+.cs-6-24-17-img {
+  height: 57.25vh;
+  margin: 3.5vh auto 0;
+}
+
+.cs-6-24-18-img {
+  height: 54.56vh;
+  margin-top: 4.5vh;
+}
+
+.cs-6-24-19-img {
+  height: 48.86vh;
+  margin: 2.5vh auto 0;
 }
 
 .Digital_world_24-img_box_3 {
@@ -31266,6 +31388,10 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   right: 30%;
 }
 
+.circleGameFontColor .draggeble_h5 {
+  color: #44bbbd !important;
+}
+
 .The_living_world .answer-1, .The_living_world .answer-2, .The_living_world .answer-3 {
   margin: 5vh 0;
 }
@@ -31495,6 +31621,127 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .n-6-32-img-div .ask-question-img {
   margin-top: auto;
+}
+
+.cs-4-9-1-img {
+  height: 63.71vh;
+  margin: 2vh auto 3vh;
+}
+
+.cs-4-9-2-img {
+  display: inline-block;
+  height: 4vh;
+  vertical-align: bottom;
+}
+
+.cs-4-9-3-img {
+  height: 47.26vh;
+  margin: 2vh auto 0;
+}
+
+.cs-4-9-4-img {
+  height: 52.08vh;
+  margin: 2vh auto 0;
+}
+
+.cs-4-9-5-img {
+  height: 59.29vh;
+  margin: 2vh auto 0;
+}
+
+.cs-4-9-6-img {
+  height: 45.96vh;
+  margin: 2vh auto 0;
+}
+
+.cs-4-9-7-search-icon {
+  display: inline-block;
+  height: 4vh;
+  vertical-align: bottom;
+}
+
+.cs-4-9-div-img-8 {
+  height: 30.33vh;
+}
+
+.cs-4-9-div-img-10 {
+  height: 58.72vh;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+}
+
+.cs-4-9-div-img-11 {
+  height: 37.1vh;
+}
+
+.cs-4-9-div-img-11-1 {
+  height: 4.15vh;
+  display: inline-block;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cs-4-9-div-img-11-2 {
+  height: 8.46vh;
+  display: inline-block;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cs-4-9-div-img-13-1 {
+  height: 3.9vh;
+  display: inline-block;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cs-4-9-div-img-13 {
+  height: 47.52vh;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+}
+
+.cs-4-9-div-img-14 {
+  height: 37.76vh;
+}
+
+.cs-4-9-div-img-15-1 {
+  height: 5.46vh;
+  display: inline-block;
+}
+
+.cs-4-9-div-img-15-2 {
+  height: 3.77vh;
+  display: inline-block;
+}
+
+.cs-4-9-div-img-15 {
+  height: 45.44vh;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+}
+
+.cs-4-9-div-img img {
+  height: 100%;
+}
+
+.cs-4-9-div-img-11-question {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  vertical-align: middle;
 }
 
 body {

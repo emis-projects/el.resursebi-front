@@ -1,0 +1,49 @@
+.world-balance{
+  &-box-8{
+    height: 60vh;
+    max-height: 459px;
+    img{
+      height: 100%;
+    }
+  }
+  &-box-9{
+    height: 56vh;
+    max-height: 428px;
+    position: absolute;
+    bottom: 0;
+    img{
+      height: 100%;
+    }
+  }
+  &-box-10{
+    height: 47vh;
+    max-height: 360px;
+    img{
+      height: 100%;
+    }
+  }
+  &-box-11{
+    height: 47vh;
+    max-height: 360px;
+    img{
+      height: 100%;
+    }
+  }
+  &-box-12{
+    height: 63vh;
+    max-height: 487px;
+    img{
+      height: 100%;
+    }
+  }
+  &-frame-box{
+    height: 36.9vh;
+    max-height: 284px;
+    width: 36.6vw;
+    max-width: 500px;
+    iframe{
+      height: 100%;
+      width: 100%;
+    }
+  }
+}
