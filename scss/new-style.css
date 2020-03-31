@@ -26243,7 +26243,7 @@ td img {
 }
 
 .Class_5-img_item_9 img {
-  height: 14.45vh;
+  height: 12.45vh;
   max-height: 111px;
 }
 
@@ -26280,6 +26280,10 @@ td img {
 .Class_5-img_item_9-8 img {
   height: 9.08vh;
   max-height: 69.8px;
+}
+
+.Class_5-img_items img {
+  width: 100%;
 }
 
 .Class_5-title_item {
@@ -27788,9 +27792,13 @@ td img {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  height: 4vh;
-  width: 4vh;
+  height: 28px;
+  width: 28px;
   max-height: 30px;
+}
+
+.nature-4-2-game-table tbody tr td img {
+  width: 30px;
 }
 
 .cs-3-11-1-powerpoint-img {
@@ -31623,6 +31631,30 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   margin-top: auto;
 }
 
+.summer-in-winter_circles .draggedElement:nth-child(2) {
+  position: absolute;
+  right: 5vw;
+  top: 0;
+}
+
+.summer-in-winter_circles .draggedElement:nth-child(3) {
+  position: absolute;
+  right: 42%;
+  bottom: -5%;
+}
+
+.summer-in-winter_circles .ask_question_game_box:nth-child(2) {
+  position: absolute;
+  right: 5vw;
+  top: 0;
+}
+
+.summer-in-winter_circles .ask_question_game_box:nth-child(3) {
+  position: absolute;
+  right: 42%;
+  bottom: -5%;
+}
+
 .cs-4-9-1-img {
   height: 63.71vh;
   margin: 2vh auto 3vh;
@@ -31658,6 +31690,34 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   display: inline-block;
   height: 4vh;
   vertical-align: bottom;
+}
+
+.Class_4_9-img_box_19 {
+  position: fixed;
+  bottom: 0;
+}
+
+.Class_4_9-img_box_19 img {
+  height: 59.11vh;
+  max-height: 454px;
+}
+
+.Class_4_9-img_box_20_1 {
+  height: 4.53vh;
+  max-height: 34.8px;
+}
+
+.Class_4_9-img_box_20_1 img {
+  height: 100%;
+}
+
+.Class_4_9-img_box_20_2 {
+  height: 54.56vh;
+  max-height: 419px;
+}
+
+.Class_4_9-img_box_20_2 img {
+  height: 100%;
 }
 
 .cs-4-9-div-img-8 {
@@ -33633,4 +33693,3 @@ body {
     font-size: 14px;
   }
 }
-/*# sourceMappingURL=new-style.css.map */
