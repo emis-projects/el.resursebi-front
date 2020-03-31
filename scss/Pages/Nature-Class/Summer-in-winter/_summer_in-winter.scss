@@ -137,3 +137,31 @@
         margin-top:auto;
       }
     }
+
+.summer-in-winter_circles {
+  .draggedElement:nth-child(2){
+    position: absolute;
+      right: 5vw;
+      top: 0;
+  }
+
+  .draggedElement:nth-child(3){
+    position: absolute;
+    right: 42%;
+    bottom: -5%;
+  }
+
+  .ask_question_game_box {
+    &:nth-child(2){
+      position: absolute;
+      right: 5vw;
+      top: 0;
+    }
+
+    &:nth-child(3){
+      position: absolute;
+      right: 42%;
+      bottom: -5%;
+    }
+  }
+}

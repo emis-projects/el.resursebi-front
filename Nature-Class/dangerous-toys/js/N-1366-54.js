@@ -111,7 +111,7 @@ function natureGames(){
 
 
     // drop
-    this.dragDrop = e => {
+    this.dragDrop = (e) => {
         let draggedEl = document.querySelector('.draggedElement').querySelector('h5');
         let draggedElIndex = parseInt(draggedEl.getAttribute('data-index'));
 
@@ -135,7 +135,7 @@ function natureGames(){
 		myArray.forEach(l => {
 			if(l.getAttribute('data-index') !== l.getAttribute('dinamicaly-index')){
                 this.error = true
-                l.setAttribute('style', 'border: 6px solid red');
+                l.setAttribute('style', 'border: 6px solid #dc6c84;');
 			}
 		})
     }
@@ -146,40 +146,40 @@ function natureGames(){
 		if(this.error === false){
             let loc = location.pathname;
 
-            if(loc = "/Nature-Class/dangerous-toys/30.html" || loc = "/el.resursebi-front/Nature-Class/dangerous-toys/30.html" || loc == "/Nature-Lessons/My_world/games/N-1366-54.html" || loc == "/el.resursebi-front/Nature-Lessons/My_world/games/N-1366-54.html"){
-                location.href = "nature-2-success.html"
+            if(loc == "/Nature-Class/dangerous-toys/30.html" || loc == "/el.resursebi-front/Nature-Class/dangerous-toys/30.html"){
+                location.href = "game-success-30.html"
 
-            } else if(loc == "/Nature-Lessons/invisible_forces/games/N-1366-117.html" || loc == "/el.resursebi-front/Nature-Lessons/invisible_forces/games/N-1366-117.html"){
-                location.href = "N-1366-117-success.html"
+            } else if(loc == "/Nature-Class/invisible_forces/24.html" || loc == "/el.resursebi-front/Nature-Class/invisible_forces/24.html"){
+                location.href = "game-success-24.html"
 
-            } else if(loc == "/Nature-Lessons/forest_colours/games/N-1366-03-194.html" || loc == "/el.resursebi-front/Nature-Lessons/forest_colours/games/N-1366-03-194.html"){
-                location.href = "N-1366-03-194-success.html"
+            } else if(loc == "/Nature-Class/Forest-colors/36.html" || loc == "/el.resursebi-front/Nature-Class/Forest-colors/36.html"){
+                location.href = "game-success-36.html"
 
-            } else if(loc == "/Nature-Lessons/The-living-world/games/N-1366-04-253.html" || loc == "/el.resursebi-front/Nature-Lessons/The-living-world/games/N-1366-04-253.html"){
-                location.href = "N-1366-04-253-success.html"
-
-            } else if(loc == "/Nature-Lessons/Where-sun-goes/games/N-1366-05-22.html" || loc == "/el.resursebi-front/Nature-Lessons/Where-sun-goes/games/N-1366-05-22.html"){
-                location.href = "N-1366-05-22-success.html"
-
-            } else if(loc == "/Nature-Lessons/Summer-in-winter/games/N-1366-06-21.html" || loc == "/el.resursebi-front/Nature-Lessons/Summer-in-winter/games/N-1366-06-21.html"){
-                location.href = "N-1366-06-21-success.html"
-
-            } else if(loc == "/el.resursebi-front/Nature-Lessons/Bruca-07/16.html" || loc == "/Nature-Lessons/Bruca-07/16.html"){
-                location.href = "game-success-16.html"
-
-            } else if(loc == "/el.resursebi-front/Nature-Lessons/flamingo-08/22.html" || loc == "/Nature-Lessons/flamingo-08/22.html"){
-                location.href = "game-success-22.html"
-
-            } else if(loc == "/el.resursebi-front/Nature-Lessons/around-world-09/20.html" || loc == "/Nature-Lessons/around-world-09/20.html"){
+            } else if(loc == "/Nature-Class/The-living-world-4/20.html" || loc == "/el.resursebi-front/Nature-Class/The-living-world-4/20.html"){
                 location.href = "game-success-20.html"
 
-            } else if(loc == "/el.resursebi-front/Nature-Lessons/coat-10/25.html" || loc == "/Nature-Lessons/coat-10/25.html"){
+            } else if(loc == "/Nature-Class/Where-sun-goes/20.html" || loc == "/el.resursebi-front/Nature-Class/Where-sun-goes/20.html"){
+                location.href = "game-success-20.html"
+
+            } else if(loc == "/Nature-Class/Summer-in-winter/19.html" || loc == "/el.resursebi-front/Nature-Class/Summer-in-winter/19.html"){
+                location.href = "game-success-19.html"
+
+            } else if(loc == "/Nature-Class/Bruca-07/16.html" || loc == "/el.resursebi-front/Nature-Class/Bruca-07/16.html"){
+                location.href = "game-success-16.html"
+
+            } else if(loc == "/Nature-Class/flamingo-08/22.html" || loc == "/el.resursebi-front/Nature-Class/flamingo-08/22.html"){
+                location.href = "game-success-22.html"
+
+            } else if(loc == "/el.resursebi-front/Nature-Class/around-world-09/20.html" || loc == "/Nature-Class/around-world-09/20.html"){
+                location.href = "game-success-20.html"
+
+            } else if(loc == "/el.resursebi-front/Nature-Class/coat-10/25.html" || loc == "/Nature-Class/coat-10/25.html"){
                 location.href = "game-success-25.html"
 
-            } else if(loc == "/el.resursebi-front/Nature-Lessons/sport/18.html" || loc == "/Nature-Lessons/sport/18.html"){
+            } else if(loc == "/el.resursebi-front/Nature-Class/sport/18.html" || loc == "/Nature-Class/sport/18.html"){
                 location.href = "game-success-18.html"
 
-            } else if(loc == "/el.resursebi-front/Nature-Lessons/snow-12/29.html" || loc == "/Nature-Lessons/snow-12/29.html"){
+            } else if(loc == "/el.resursebi-front/Nature-Class/snow-12/29.html" || loc == "/Nature-Class/snow-12/29.html"){
                 location.href = "game-success-29.html"
             }
         }

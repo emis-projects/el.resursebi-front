@@ -1,0 +1,49 @@
+.Class_2_10 {
+    &-title_item_1 {
+        font-family: DejaVu Sans;
+        font-style: italic;
+    }
+    &-img_1 {
+        height: 59.76vh;
+        max-height: 459px;
+        img {
+            height: 100%;
+        }
+    }
+    &-img_3 {
+        position: fixed;
+        bottom: 0;
+        left: 46vh;
+        img {
+            height: 49.6vh;
+            max-height: 381px;
+        }
+    }
+    &-img_4 {
+        height: 38.93vh;
+        max-height: 299px;
+        img {
+            height: 100%;
+        }
+    }
+    &-img_5 {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        img {
+            height: 60.41vh;
+            max-height: 464px;
+        }
+    }
+    &-img_6 {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        img {
+            height: 52.6vh;
+            max-height: 404px;
+        }
+    }
+} 
