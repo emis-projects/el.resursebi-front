@@ -8,6 +8,8 @@
         }
     }
     &-img_box_20_1 {
+        display: inline;
+        vertical-align: middle;
         height: 4.53vh;
         max-height: 34.8px;
         img {
@@ -15,8 +17,8 @@
         }
     }
     &-img_box_20_2 {
-        height: 54.56vh;
-        max-height: 419px;
+        height: 39.06vh;
+        max-height: 300px;
         img {
             height: 100%;
         }
