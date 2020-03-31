@@ -34,6 +34,9 @@ let yellowTree = [];
 
 // მცენარეების შემოწმება და მასივში გადაწერა
 check.addEventListener('click', () => {
+   console.log(greenBox);
+   console.log(yellowBox);
+
    greenBox.forEach(evt => {
       greenTrees.push($(evt).attr('alt'))
    });
@@ -55,7 +58,7 @@ check.addEventListener('click', () => {
       for (let j = 0; j < yellow.length; j++) {
          // თუ ყველა პირობა სწორია ჩაიტვირთოს ახალი გვერდი
          if (greenTrees[i] === green[i] && yellowTree[j] === yellow[j] && greenTrees.length === 2 && yellowTree.length ===7){
-            window.location.href = './success-25.html';
+            window.location.href = './game-success-25.html';
          }else{
             // თუ მარადმწვანე ჯგუფი არაა სწორად შევსებული ან ცარიელია
             if (greenTrees[i] !== green[i] && greenTrees.length !== 2){
@@ -78,11 +81,12 @@ check.addEventListener('click', () => {
          }
       }
    }
-   console.log(greenTrees)
+
    // მასივების გაწმენდა
    yellowTree = [];
    greenTrees = [];
 });
+
 
 // თამაშის განულება ახლიდან დასაწყებად
 function reset() {
