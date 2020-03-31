@@ -26277,6 +26277,193 @@ img.mfp-img[alt*=cs-3-6-6-img] {
   bottom: 11vh;
 }
 
+.cs-template-box-16 {
+  height: 51vh;
+  max-height: 393px;
+}
+.cs-template-box-16 img {
+  height: 100%;
+}
+.cs-template-box-16-1 {
+  height: 38vh;
+  max-height: 292px;
+}
+.cs-template-box-16-1 img {
+  height: 100%;
+}
+.cs-template-box-9-1 {
+  height: 57vh;
+  max-height: 443px;
+}
+.cs-template-box-9-1 img {
+  height: 100%;
+}
+.cs-template-box-13-1 {
+  height: 60vh;
+  max-height: 460px;
+}
+.cs-template-box-13-1 img {
+  height: 100%;
+}
+.cs-template-box-18 {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 65vh;
+  max-height: 498px;
+}
+.cs-template-box-18 img {
+  height: 100%;
+}
+
+.cs-template .box-1 {
+  width: 45vw;
+  max-width: 620px;
+  height: 7.3vh;
+  max-height: 58px;
+}
+.cs-template .box-1 .cycle-6_bg-box-blue {
+  background: url("../img/gakvetilebi/Computer-Science/Class-4/template-and-table-9/blue-box.svg") no-repeat center;
+}
+.cs-template .box-2 {
+  width: 44vw;
+  max-width: 336px;
+  height: 7.3vh;
+  max-height: 58px;
+}
+.cs-template .box-2 .cycle-6_bg-box-blue {
+  background: url("../img/gakvetilebi/Computer-Science/Class-4/template-and-table-9/pink-box.svg") no-repeat center;
+}
+.cs-template .reload_game_wrapper {
+  bottom: 11vh;
+}
+
+.Class_4_9-img_box_19 {
+  position: fixed;
+  bottom: 0;
+}
+.Class_4_9-img_box_19 img {
+  height: 59.11vh;
+  max-height: 454px;
+}
+.Class_4_9-img_box_20_1 {
+  display: inline;
+  vertical-align: middle;
+  height: 4.53vh;
+  max-height: 34.8px;
+}
+.Class_4_9-img_box_20_1 img {
+  height: 100%;
+}
+.Class_4_9-img_box_20_2 {
+  height: 39.06vh;
+  max-height: 300px;
+}
+.Class_4_9-img_box_20_2 img {
+  height: 100%;
+}
+
+.Class_4_9-title_item_21 {
+  font-size: 3.64vh;
+  font-style: italic;
+  color: #62548A;
+  font-family: "DejaVu Sans Oblique";
+}
+.Class_4_9-img_21 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/template-and-table-9/C-4-9-21.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.Class_4_9-img_22 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/template-and-table-9/C-4-9-22.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.Class_4_9-img_23 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/template-and-table-9/C-4-9-23.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.Class_4_9-img_24 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/template-and-table-9/C-4-9-24.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.cs-4-9-div-img-8 {
+  height: 30.33vh;
+}
+.cs-4-9-div-img-10 {
+  height: 58.72vh;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.cs-4-9-div-img-11 {
+  height: 37.1vh;
+}
+.cs-4-9-div-img-11-1 {
+  height: 4.15vh;
+}
+.cs-4-9-div-img-11-2 {
+  height: 8.46vh;
+  display: inline-block;
+}
+.cs-4-9-div-img-13-1 {
+  height: 3.9vh;
+  display: inline-block;
+  align-items: center;
+}
+.cs-4-9-div-img-13 {
+  height: 47.52vh;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.cs-4-9-div-img-14 {
+  height: 37.76vh;
+}
+.cs-4-9-div-img-15-1 {
+  height: 5.46vh;
+  display: inline-block;
+}
+.cs-4-9-div-img-15-2 {
+  height: 3.77vh;
+  display: inline-block;
+}
+.cs-4-9-div-img-15 {
+  height: 45.44vh;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.cs-4-9-div-img img {
+  height: 100%;
+}
+
+.cs-4-9-text-imgs p {
+  line-height: 3.9vh;
+  margin-left: 2vh;
+  font-size: 2.6vh;
+  font-family: "DejaVuSans";
+}
+
+.cs-4-9-div-img-11-question {
+  align-items: center;
+  vertical-align: middle;
+}
+
 body {
   color: #262626;
   font-size: 14px;
