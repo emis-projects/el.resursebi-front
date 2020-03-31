@@ -1,0 +1,27 @@
+.cs-2-10-img-div{
+    &-13{
+       height:57.68vh;
+        position:absolute;
+        bottom:0;
+        right:10.32vw;
+    }
+    &-14{
+        height:46.35vh;
+     }
+     &-16{
+        height:57.16vh;
+        position: absolute;
+        bottom:0;
+        left: 50%;
+        transform: translate(-50%, 0);
+     }
+     &-17{
+        height:45.96vh;
+     }
+     &-18{
+        height:45.18vh;
+     }
+    img{
+        height:100%;
+    }
+}

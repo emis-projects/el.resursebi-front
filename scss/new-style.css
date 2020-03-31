@@ -31857,10 +31857,10 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 3.77vh;
 }
 
-.cs-4-9-div-img-15 {
+.cs-4-9-div-img-16 {
   height: 45.44vh;
   position: absolute;
-  bottom: 0;
+  bottom: 0vh;
   left: 50%;
   -webkit-transform: translate(-50%, 0);
           transform: translate(-50%, 0);
@@ -32021,6 +32021,38 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 .cs-network_bg-24 {
   background: url("../img/gakvetilebi/Computer-Science/Class-2/network-10/cs-2-10-24.svg") no-repeat center;
   background-size: cover;
+}
+
+.cs-2-10-img-div-13 {
+  height: 57.68vh;
+  position: absolute;
+  bottom: 0;
+  right: 10.32vw;
+}
+
+.cs-2-10-img-div-14 {
+  height: 46.35vh;
+}
+
+.cs-2-10-img-div-16 {
+  height: 57.16vh;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+}
+
+.cs-2-10-img-div-17 {
+  height: 45.96vh;
+}
+
+.cs-2-10-img-div-18 {
+  height: 45.18vh;
+}
+
+.cs-2-10-img-div img {
+  height: 100%;
 }
 
 body {
