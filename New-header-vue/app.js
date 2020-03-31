@@ -769,8 +769,8 @@ let title = {
         },
         {
             id: 2,
-            name: 'კომპიუტერი 3 კლასი 2 გაკვ',
-            link: 'Computer-Science/algorithme/C-1366-02-03.html'
+            name: 'ალგორითმი და ალგორითმის შემუშავება',
+            link: 'Computer-Science/Class-3/algorithmes-02/1.html'
         },
         {
             id: 3,
@@ -779,8 +779,8 @@ let title = {
         },
         {
             id: 4,
-            name: 'ალგორითმი და ალგორითმის შემუშავება',
-            link: 'Computer-Science/Class-3/algorithmes-02/1.html'
+            name: 'კომპიუტერი 3 კლასი 4 გაკვ',
+            link: '#'
         },
         {
             id: 5,
@@ -866,8 +866,8 @@ let title = {
         },
         {
             id: 9,
-            name: 'სათაური',
-            link: '#'
+            name: 'შაბლონი და ცხრილი',
+            link: 'Computer-Science/Class-4/template-and-table-9/1.html'
         },
         {
             id: 10,
@@ -1016,7 +1016,7 @@ let title = {
         {
             id: 2,
             name: 'კომპიუტერი 6 კლასი 2 გაკვ',
-            link: 'Computer-Science/algorithme/C-1366-02-03.html'
+            link: '#'
         },
         {
             id: 3,
@@ -1120,13 +1120,13 @@ let title = {
         },
         {
             id: 23,
-            name: 'სათაური',
-            link: '#'
+            name: 'საკუთარი და სხვისი უფლებები ციფრულ სამყაროში',
+            link: 'Computer-Science/Class-6/rights-in-digital-world-23/1.html'
         },
         {
             id: 24,
-            name: 'სათაური',
-            link: '#'
+            name: 'ბალანსი ვირტუალურსა და რეალურ ცხოვრებას შორის',
+            link: 'Computer-Science/Class-6/Real-&-virtual-world-balance-24/1.html'
         }
     ]
 }
