@@ -94,20 +94,11 @@ function natureGames(){
 
     // // success page 
 	this.successPage  = () => {
-        if(location.pathname == "/el.resursebi-front/Nature-Lessons/My_world/games/N-1366-89.html"){
-            location.href = 'nature-4-success.html';
+        if(location.pathname == "/el.resursebi-front/Nature-Class/dangerous-toys/42.html" || location.pathname == "/Nature-Class/dangerous-toys/42.html"){
+            location.href = 'game-success-42.html';
       
-          } else if(location.pathname == "/el.resursebi-front/Nature-Lessons/My_world/games/N-1366-71.html"){
-            location.href = 'nature-3-success.html';
-      
-          } else if(location.pathname == "/Nature-Lessons/My_world/games/N-1366-71.html") {
-            location.href = 'nature-3-success.html';
-
-          } else if(location.pathname == "/Nature-Lessons/My_world/games/N-1366-89.html"){
-            location.href = 'nature-4-success.html';
-      
-          } else if(location.pathname == "/Computer-Science/Computer_parts/games/C-1366-01-15.html"){
-            location.href = 'C-1366-01-15-success.html';
+          } else if(location.pathname == "/el.resursebi-front/Nature-Class/dangerous-toys/41.html" || location.pathname == "/Nature-Class/dangerous-toys/41.html"){
+            location.href = 'game-success-41.html';
       
           }
 	}
@@ -118,7 +109,6 @@ function natureGames(){
         let el = myArray.every(this.checkEveryElement);
 
 		if(el == false){
-            $('.N-1-draggeble_element').addClass('errorParent');
 
             completedBtn.setAttribute('disabled', 'true');
             completedBtn.setAttribute('style', 'cursor: default');
@@ -134,8 +124,6 @@ function natureGames(){
 
     // events 
     document.getElementById('resetBtn').addEventListener('click', function() {
-        alert('dwefwe')
-        $(mydrag).removeClass('errorParent');
 
         $(draggedImgElement).removeClass('error')
      
