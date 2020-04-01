@@ -3155,6 +3155,10 @@ body {
   font-size: 1.5vh;
 }
 
+.height-75 {
+  height: 75%;
+}
+
 header {
   height: 6vh;
   width: 100%;
@@ -16097,7 +16101,7 @@ section .arrow_up_down_downArrow img {
 }
 
 #N-1366-06-47 .seasons {
-  font-size: 2.3vh;
+  font-size: 2.0vh;
   font-family: 'BPG Arial', sans-serif;
 }
 
@@ -16116,7 +16120,7 @@ section .arrow_up_down_downArrow img {
   border-radius: 10px;
   max-width: 120px;
   max-height: 30px;
-  line-height: 5vh;
+  line-height: 30px;
   background: #FFFFFF;
   -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);

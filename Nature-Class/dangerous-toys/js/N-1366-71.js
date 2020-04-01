@@ -4,8 +4,8 @@ function natureGames(){
     // variables
     var draggedImgElement = document.querySelectorAll('.N-games-child');
     var mydrag = document.querySelectorAll('.N-1-draggeble_element');
-    var completedBtn = document.getElementById('completedGame');
-    var resetBtn = document.getElementById('resetBtn');
+    let completedBtn = document.getElementById('completedGame');
+    let resetBtn = document.getElementById('resetBtn');
 
 
     $(draggedImgElement).on('dragstart', (e) => this.dragStart(e));
@@ -37,39 +37,29 @@ function natureGames(){
     }
 
 
-    this.init = () => {
-        $(mydrag).removeClass('errorParent');
 
-        $(draggedImgElement).removeClass('error')
-
-        completedBtn.removeAttribute('disabled');
-        completedBtn.setAttribute('style', 'cursor: pointer');
-    }
-
-
-
-    // Drag Functions
+    // Drag Functions    
     this.dragOver = (e) => {
         e.preventDefault();
     }
 
-    // drag start
+    // drag start 
     this.dragStart = (e) => {
         setTimeout(() => {
             e.target.parentElement.parentElement.className = "draggedElement"
         }, 0);
     }
-
-
+    
+    
     // drag end
     this.dragEnd = e => {
         let elClassName = e.target.parentElement.parentElement.getAttribute('data-class');
         e.target.parentElement.parentElement.className = elClassName;
     }
-
-
-    // drop
-    this.dragDrop = e => {
+    
+    
+    // drop 
+    this.dragDrop = e => {    
         let drag = document.querySelector('.draggedElement');
 
         if(e.target.classList.contains('nature-action-material-pic') || e.target.classList.contains('nature-material-row-pic')){
@@ -85,9 +75,9 @@ function natureGames(){
             }
         })
     }
+ 
 
-
-	// error page
+	// error page 
 	this.errorPage = () => {
 		myArray.forEach(w => {
 			if(w.getAttribute('data-title') !== w.querySelector('.N-games-child').getAttribute('data-title')){
@@ -100,21 +90,30 @@ function natureGames(){
     this.checkEveryElement = (element) => {
         return element.getAttribute('data-title') == element.querySelector('.N-games-child').getAttribute('data-title')
     }
+    
 
-
-    // // success page
+    // // success page 
 	this.successPage  = () => {
-        if(location.pathname == "/Nature-Class/dangerous-toys/41.html" || location.pathname == "/el.resursebi-front/Nature-Class/dangerous-toys/41.html"){
-            location.href = 'game-success-41.html';
+        if(location.pathname == "/el.resursebi-front/Nature-Lessons/My_world/games/N-1366-89.html"){
+            location.href = 'nature-4-success.html';
+      
+          } else if(location.pathname == "/el.resursebi-front/Nature-Lessons/My_world/games/N-1366-71.html"){
+            location.href = 'nature-3-success.html';
+      
+          } else if(location.pathname == "/Nature-Lessons/My_world/games/N-1366-71.html") {
+            location.href = 'nature-3-success.html';
 
-          } else if(location.pathname == "/Nature-Class/dangerous-toys/42.html" || location.pathname == "/el.resursebi-front/Nature-Class/dangerous-toys/42.html"){
-            location.href = 'game-success-42.html';
-
-          } 
+          } else if(location.pathname == "/Nature-Lessons/My_world/games/N-1366-89.html"){
+            location.href = 'nature-4-success.html';
+      
+          } else if(location.pathname == "/Computer-Science/Computer_parts/games/C-1366-01-15.html"){
+            location.href = 'C-1366-01-15-success.html';
+      
+          }
 	}
+    
 
-
-    // completed
+    // completed 
 	this.completGame = (e) => {
         let el = myArray.every(this.checkEveryElement);
 
@@ -123,9 +122,9 @@ function natureGames(){
 
             completedBtn.setAttribute('disabled', 'true');
             completedBtn.setAttribute('style', 'cursor: default');
-
+            
             this.errorPage();
-
+            
         } else if(el == true) {
             this.successPage();
 
@@ -133,9 +132,18 @@ function natureGames(){
 	}
 
 
-    // events
-    resetBtn.addEventListener('click', () => this.init());
-	completedBtn.addEventListener('click', () => this.completGame());
+    // events 
+    document.getElementById('resetBtn').addEventListener('click', function() {
+        alert('dwefwe')
+        $(mydrag).removeClass('errorParent');
+
+        $(draggedImgElement).removeClass('error')
+     
+        completedBtn.removeAttribute('disabled');
+        completedBtn.setAttribute('style', 'cursor: pointer');
+    });
+
+	completedBtn.addEventListener('click', this.completGame);
 }
 
-    const naturegame = new natureGames();
+    const naturegame = new natureGames(); 

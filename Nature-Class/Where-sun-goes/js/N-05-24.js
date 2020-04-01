@@ -100,7 +100,7 @@ function natureGames(){
 	this.completGame = (e) => {
         draggedImgElement.forEach(element => {
             if((element.getAttribute('data-title') != element.parentElement.getAttribute('data-title')) && (element.getAttribute('data-red') == element.parentElement.getAttribute('data-red'))){
-                element.style.color = "red";
+                element.style.color = "#dc6c84";
             }
         });
         let el = myArray1.every(this.checkEveryElement);
