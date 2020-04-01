@@ -77,7 +77,15 @@
             child.className = "chat_img"
             document.querySelector('.chat').setAttribute('style', 'display: none')
         }
-    })
+    });
+
+    var loc = window.location.toString();
+    let params = loc.split('?')[1];
+
+    var res = params.replace(/\D/g, "");
+    
+    $('html').attr('data-botid', res)
+
 </script>
 </body>
 </html>
