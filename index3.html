@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-botid="2288">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -77,7 +77,15 @@
             child.className = "chat_img"
             document.querySelector('.chat').setAttribute('style', 'display: none')
         }
-    })
+    });
+
+    var loc = window.location.toString();
+    let params = loc.split('?')[1];
+
+    var res = params.replace(/\D/g, "");
+    
+    $('html').attr('data-botid', res)
+
 </script>
 </body>
 </html>

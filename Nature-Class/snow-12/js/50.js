@@ -28,8 +28,6 @@ function natureGames() {
         return result;
     }
 
-
-
     this.clickMe = (e) => {
         btn.forEach(element => {
             element.classList.remove('active')

@@ -1,82 +1,99 @@
 <!DOCTYPE html>
 <!-- ბოტის აიდიში ვუთითებთ: ხელოვნების - 2318, ბუნების - 2320, მუსიკის - 2292 -->
-<html lang="ka" data-botid="2320">
+<html data-botid="2318" lang="ka">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta charset="UTF-8"/>
+    <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
     <!-- ყველა გვერდზე -->
     <script src="../../js/vue.js"></script>
     <!--  ვუე გაშვებისას
-    <script src="./js/vue.min.js"></script>
-     -->
-    <link rel="stylesheet" href="../../scss/libraries/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="../../scss/libraries/owl.carousel.min.css" />
-    <link rel="stylesheet" type="text/css" href="../../scss/libraries/owl.theme.default.css" />
-      <link rel="stylesheet" href="../../scss/libraries/magnific-popup.css" />
-<link rel="stylesheet" href="../../scss/style.css" />
+      <script src="./js/vue.min.js"></script>
+       -->
+    <link href="../../New-header-vue/animate.min.css" rel="stylesheet">
+    <link href="../../scss/libraries/bootstrap.min.css" rel="stylesheet">
+    <link href="../../scss/libraries/magnific-popup.css" rel="stylesheet">
+    <link href="../../scss/new-style.css" rel="stylesheet"/>
     <title>ელექტრონული საგანმანათლებლო რესურსი</title>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-155006442-1');
-</script>
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'UA-155006442-1');
+    </script>
 </head>
+
 <body>
-    <div class="container">
-        <header id="app">
-            <nav class="row">
-                <app-logo v-logo="'../../'"></app-logo>
-                <app-menu v-menu:dark="'../../'"></app-menu>
-                <sound-lang></sound-lang>
-            </nav>
+<div class="container">
+    <section class="container position-absolute" id="app">
+        <header>
+            <app-menu :is-active="isActive" :toggle="toggle" v-logo="'../../'"></app-menu>
         </header>
 
+        <app-section :is-active="isActive" v-image="'../../'">
+            <app-bar
+                    :current-tab="link"
+                    :dots="dots"
+                    :is-active="isActive"
+                    :trigger="trigger"
+                    v-on:link-tab="link = $event">
 
-        <div class="subject_component row margin-botton-5vh">
-            <div class="col-12 item_flex">
-                <div
-                    class="subject_component_itle_icon bg_bouble_pink d-flex justify-content-center align-items-center">
-                    <img src="../../img/backgrounds/bg-ilustrations/hand.svg" alt="flag" />
-                </div>
-                <h3 class="subject_component_title">სავარჯიშო</h3>
-            </div>
-        </div>
+            </app-bar>
+            <component
+                    :active-class="activeClass"
+                    :images="images"
+                    :is="currentTabComponent"
+                    :is-active="isActive"
+                    :path="path"
+                    :tab-class="currentTabComponent"
+                    :trigger="trigger">
+            </component>
+        </app-section>
+    </section>
 
 
-        <div class="game__section flex justify-between" style="height: 80vh">
-            <img style="width:100%" src="../../img/gakvetilebi/buneba/nature-1-success.svg" alt="">
-        </div>
+    <section class="forest-colors">
+        <div class="row mt-15vh">
+           <div class="col-11 m-auto">
+               <div class="game__section flex justify-between" style="height: 80vh">
+                   <img alt="" src="../../img/gakvetilebi/buneba/nature-1-success.svg" style="width:100%">
+               </div>
+           </div>
 
-
-        <div class="subject_component_botton_illustration">
+           <div class="subject_component_botton_illustration">
             <div class="illustration_bg bg_pink_Down"></div>
 
             <div class="subject_component_botton_icon">
-                <img src="../../img/backgrounds/savarjisho-bg.svg" alt="">
+                <img src="../../../../img/backgrounds/savarjisho-bg.svg" alt="">
             </div>
         </div>
-
-        <div class="paging_buttons paging_buttons_position">
+           <div class="paging_buttons paging_buttons_position">
             <a href="./34.html">
-                <img src="../../img/icons/chevron-down-logo.svg" alt="down arrow" class="paging_buttons_left" />
+                <img src="../../../img/icons/chevron-down-logo.svg" alt="down arrow" class="paging_buttons_left" />
             </a>
             <a href="./35.html" class="paging_buttons_margin-left">
-                <img src="../../img/icons/chevron-down-logo.svg" alt="down arrow" class="paging_buttons_right" />
+                <img src="../../../img/icons/chevron-down-logo.svg" alt="down arrow" class="paging_buttons_right" />
             </a>
         </div>
-    </div>
+        </div>
+    </section>
+</div>
 
 
-    <!-- header and bot vue -->
-    <script src="../../js/libraries/jquery-3.4.1.min.js"></script>
 
-    <script src="../../Vue-Header/app.js"></script>
 
+<script src="../../js/libraries/jquery-3.4.1.min.js"></script>
+<script src="../../js/libraries/jquery.magnific-popup.min.js"></script>
+
+
+<!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
+<script src="../../New-header-vue/app.js"></script>
 </body>
-
 </html>
