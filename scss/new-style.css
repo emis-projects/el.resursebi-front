@@ -32208,6 +32208,36 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   margin: 4vh auto 0;
 }
 
+.cs-2-7-1-img {
+  height: 48.56vh;
+  margin: 12vh auto 7vh;
+}
+
+.cs-2-7-3-img {
+  height: 34.5vh;
+  margin: 3vh auto 0;
+}
+
+.cs-2-7-4-ill-img {
+  height: 48.13vh;
+  margin-top: 5.5vh;
+}
+
+.cs-2-7-5-comp-img {
+  height: 45.7vh;
+  margin-top: 8vh;
+}
+
+.cs-2-7-6-img {
+  height: 53.51vh;
+  margin: 4vh auto 0;
+}
+
+.cs-2-7-7-img {
+  height: 61.06vh;
+  margin: 4vh auto 0;
+}
+
 body {
   color: #262626;
   font-size: 14px;
@@ -34101,3 +34131,4 @@ body {
     font-size: 14px;
   }
 }
+/*# sourceMappingURL=new-style.css.map */
