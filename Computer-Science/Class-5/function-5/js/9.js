@@ -56,7 +56,15 @@ function computerGames() {
       clone = drag.cloneNode(true);
       e.target.appendChild(clone)
       $(clone).removeClass('draggedElement')
-      clone.style = "margin-left: 5%; margin-top: -5.8%;"
+      
+      // clone.style = "margin-left: 4.5%; margin-top: -6.3%;";
+      // if(clone.getAttribute('data-child') == 4){
+      //   clone.style = "margin-left: 2.1%; margin-top: -6.4%;"
+      // }
+      // if(clone.getAttribute('data-child') == 1){
+      //   clone.style = "margin-left: 2%; margin-top: -6.4%;"
+      // }
+      
     }
   }
 
@@ -130,16 +138,6 @@ function computerGames() {
             else {
               count--
               element.children[5].style.border = "3px solid #dc6c85";
-            }
-          }
-          if(element.children[6]){
-            if (element.children[6].getAttribute('data-child') == 5) {
-              count++
-              element.children[6].style.border = "3px solid #a1dd6f";
-            }
-            else {
-              count--
-              element.children[6].style.border = "3px solid #dc6c85";
             }
           }
         }
