@@ -14931,7 +14931,7 @@ section .arrow_up_down_downArrow img {
 }
 
 #N-1366-06-47 .seasons {
-  font-size: 2.3vh;
+  font-size: 2.0vh;
   font-family: 'BPG Arial', sans-serif;
 }
 
@@ -14950,7 +14950,7 @@ section .arrow_up_down_downArrow img {
   border-radius: 10px;
   max-width: 120px;
   max-height: 30px;
-  line-height: 5vh;
+  line-height: 30px;
   background: #FFFFFF;
   -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
@@ -26286,6 +26286,39 @@ td img {
   width: 100%;
 }
 
+.nature-5-5-puzzle-game div img {
+  width: 96%;
+}
+
+.computer-sciense-game-5-5 .style1 {
+  margin-top: -10px;
+}
+
+.computer-sciense-game-5-5 .style2 {
+  width: 238px;
+  margin-top: -9px;
+}
+
+.computer-sciense-game-5-5 .style3 {
+  margin-top: -9px;
+  width: 240px;
+}
+
+.computer-sciense-game-5-5 .style4 {
+  margin-top: -10px;
+  width: 203px;
+}
+
+.computer-sciense-game-5-5 .style5 {
+  margin-top: -10px;
+  width: 203px;
+}
+
+.computer-sciense-game-5-5 .style6 {
+  margin-top: -9px;
+  width: 190px;
+}
+
 .Class_5-title_item {
   font-family: 'DejaVuSans';
   font-size: 2.6vh;
@@ -30271,28 +30304,28 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .background-cs-6-24-23 {
-  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Digital-world-rights-24/cs-6-24-23-img.svg");
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Real-&-virtual-world-balance-24/cs-6-24-23-img.svg");
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .background-cs-6-24-24 {
-  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Digital-world-rights-24/cs-6-24-24-img.svg");
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Real-&-virtual-world-balance-24/cs-6-24-24-img.svg");
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .background-cs-6-24-25 {
-  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Digital-world-rights-24/cs-6-24-25-img.svg");
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Real-&-virtual-world-balance-24/cs-6-24-25-img.svg");
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .background-cs-6-24-26 {
-  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Digital-world-rights-24/cs-6-24-26-img.svg");
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Real-&-virtual-world-balance-24/cs-6-24-26-img.svg");
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -30405,28 +30438,28 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .background-cs-6-24-23 {
-  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Digital-world-rights-24/cs-6-24-23-img.svg");
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Real-&-virtual-world-balance-24/cs-6-24-23-img.svg");
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .background-cs-6-24-24 {
-  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Digital-world-rights-24/cs-6-24-24-img.svg");
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Real-&-virtual-world-balance-24/cs-6-24-24-img.svg");
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .background-cs-6-24-25 {
-  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Digital-world-rights-24/cs-6-24-25-img.svg");
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Real-&-virtual-world-balance-24/cs-6-24-25-img.svg");
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .background-cs-6-24-26 {
-  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Digital-world-rights-24/cs-6-24-26-img.svg");
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Real-&-virtual-world-balance-24/cs-6-24-26-img.svg");
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -34034,6 +34067,10 @@ body {
   font-size: 1.5vh;
 }
 
+.height-75 {
+  height: 75%;
+}
+
 .canvas-container {
   width: 100% !important;
 }
@@ -34064,4 +34101,3 @@ body {
     font-size: 14px;
   }
 }
-/*# sourceMappingURL=new-style.css.map */

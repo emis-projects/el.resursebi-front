@@ -401,6 +401,8 @@ function type5Functionaly(data, maindiv){
 
 
 $('.logo_box').click(function(e){
+    $('.logo_box').removeClass('logo_box_active');
+    $(this).addClass('logo_box_active')
     $('html').attr("data-botid", $(e.target).attr('data-botId'));
     $('#chat_fullscreen').children('.chat_msg_item').remove()
 })

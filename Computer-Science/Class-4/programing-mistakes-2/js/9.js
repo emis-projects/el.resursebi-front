@@ -9,8 +9,6 @@ function game () {
     this.answer = null;
 
 
-    let gameImgSection = document.querySelector('#gameimgSection img');
-    // let completedBtn = document.querySelectorAll('.completGame');
     let resetBtn = document.getElementById('resetBtn');
 
     resetBtn.addEventListener('click', () => this.init());
@@ -24,6 +22,7 @@ function game () {
         this.startTimer();
         document.getElementById('numberOfScore').innerHTML = this.score;
         this.randomNewImage(images, 1);
+        this.correctAndIncorrect();
         let img = document.createElement('img');
         img.setAttribute('src', this.randomedImages)
 
@@ -49,6 +48,7 @@ function game () {
         "../../../img/gakvetilebi/Computer-Science/Class-4/programing-mistakes-2/games/14.svg"
     ]
 
+
     this.init = (e) =>{
         this.startGameIs = true;
         this.score = 0;
@@ -62,6 +62,7 @@ function game () {
         document.querySelector('#gameimgSection').innerHTML = "";
         document.getElementById('numberOfScore').innerHTML = this.score;
         this.randomNewImage(images, 1);
+        this.correctAndIncorrect();
         let img = document.createElement('img');
         img.setAttribute('src', this.randomedImages)
 
@@ -71,40 +72,32 @@ function game () {
 
 
     this.completGame = (e) => {
-        
-            if(e.target.getAttribute('data-answer') == this.answer){
-                document.querySelector('#gameimgSection').innerHTML = "";
-                this.score++
-                document.getElementById('numberOfScore').innerHTML = this.score;
-                this.randomNewImage(images, 1)
-                let img = document.createElement('img');
-                img.setAttribute('src', this.randomedImages)
-        
-                document.querySelector('#gameimgSection').appendChild(img)
+        if(e.target.getAttribute('data-answer') == this.answer){
+            document.querySelector('#gameimgSection').innerHTML = "";
+            this.score++
+            document.getElementById('numberOfScore').innerHTML = this.score;
+            this.randomNewImage(images, 1)
+            this.correctAndIncorrect();
+            let img = document.createElement('img');
+            img.setAttribute('src', this.randomedImages)
+    
+            document.querySelector('#gameimgSection').appendChild(img)
 
-            } else if(e.target.getAttribute('data-answer') !== this.answer) {
-                this.randomNewImage(images, 1)
-            }
+        } else {
+            document.querySelector('#gameimgSection').innerHTML = "";
+            this.randomNewImage(images, 1);
+            this.correctAndIncorrect();
+
+            this.correctAndIncorrect();
+            let img = document.createElement('img');
+            img.setAttribute('src', this.randomedImages)
+
+            document.querySelector('#gameimgSection').appendChild(img)
+        }
     }
 
 
-
-    this.randomNewImage = (arr, n) => {
-        var result = new Array(n),
-            len = arr.length,
-            taken = new Array(len);
-
-        if (n > len)
-            throw new RangeError("getRandom: more elements taken than available");
-
-        while (n--) {
-            var x = Math.floor(Math.random() * len);
-            result[n] = arr[x in taken ? taken[x] : x];
-            taken[x] = --len in taken ? taken[len] : len;
-        }
-
-        this.randomedImages = result[0];
-
+    this.correctAndIncorrect = () => {
         if(this.randomedImages == "../../../img/gakvetilebi/Computer-Science/Class-4/programing-mistakes-2/games/1.svg"){
             this.answer = "incorrect"
 
@@ -151,10 +144,28 @@ function game () {
             this.answer = "correct"
         }
 
-        return result;
+        return this.answer
     }
 
 
+    this.randomNewImage = (arr, n) => {
+        var result = new Array(n),
+            len = arr.length,
+            taken = new Array(len);
+
+        if (n > len)
+            throw new RangeError("getRandom: more elements taken than available");
+
+        while (n--) {
+            var x = Math.floor(Math.random() * len);
+            result[n] = arr[x in taken ? taken[x] : x];
+            taken[x] = --len in taken ? taken[len] : len;
+        }
+
+        this.randomedImages = result[0];
+
+        return result;
+    }
 
 
     this.onTimesUp = () => {

@@ -22,7 +22,7 @@ function game () {
         this.getRandomBubblesLink(this.imgSide, 4);
         this.generateNewBubbles();
 
-        console.log(this.randomedImages);
+        // console.log(this.randomedImages);
     })
     
 
@@ -52,6 +52,8 @@ function game () {
 
     $(document).ready(() => {
         $('.bubble__img').click(e => {
+            e.stopPropagation();
+
             if(this.startGameIs){
                 this.afterClickBubble(e.target)
             }
@@ -79,7 +81,7 @@ function game () {
                     img.classList.add('fadeInUp');
                     
                     img.setAttribute('src', `${this.imgHref}${this.randomedImages[i]}`)
-                    
+
                     if(this.randomedImages[i] == "C-5-4-right.svg"){
                         img.setAttribute('data-side', 'right')
                         
@@ -101,6 +103,25 @@ function game () {
             return false
         }
     }
+
+
+
+    this.getRandomBubblesLink = (arr, n) => {
+        var result = new Array(n),
+            len = arr.length,
+            taken = new Array(len);
+        if (n > len)
+            throw new RangeError("getRandom: more elements taken than available");
+        while (n--) {
+            var x = Math.floor(Math.random() * len);
+            result[n] = arr[x in taken ? taken[x] : x];
+            taken[x] = --len in taken ? taken[len] : len;
+        }
+
+        this.randomedImages = result;
+
+        return result;
+    }
     
 
     this.removeAllBubble = () => {
@@ -110,6 +131,7 @@ function game () {
     this.afterClickBubble = (bubble) => {
         let bubbleAttr = bubble.getAttribute('data-side');
         let bubbleParentAttr = bubble.parentElement.getAttribute('data-answer');
+
 
         if(bubbleAttr == bubbleParentAttr){
             this.score++
@@ -128,24 +150,6 @@ function game () {
         
             }, this.bubbleCreatedinterval)
         }
-    }
-
-
-    this.getRandomBubblesLink = (arr, n) => {
-        var result = new Array(n),
-            len = arr.length,
-            taken = new Array(len);
-        if (n > len)
-            throw new RangeError("getRandom: more elements taken than available");
-        while (n--) {
-            var x = Math.floor(Math.random() * len);
-            result[n] = arr[x in taken ? taken[x] : x];
-            taken[x] = --len in taken ? taken[len] : len;
-        }
-
-        this.randomedImages = result;
-
-        return result;
     }
 
 
