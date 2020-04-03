@@ -44,6 +44,11 @@ function computerGames() {
     e.target.className = elClassName;
   }
 
+  var myArray = [];
+    DragGameChilds1.forEach(element => {
+        myArray.push(element);
+    });
+
   var myDragArray = [];
 
   mydrag.forEach(element => {
@@ -68,16 +73,23 @@ function computerGames() {
     }
   }
 
-  this.checkEveryElement = (element) => element.getAttribute('data-place') == element.parentElement.getAttribute('data-place');
-
   var count = 0;
 
   this.successPage = () => {
     
-    
     this.errorPage();
-    console.log('count', count)
-    if(count == 70){
+    myDragArray.forEach(element => {
+      for(let i=1; i<element.children.length; i++){
+        if(element.children[i].getAttribute('data-previousState') == 2222){
+          count++;
+        }
+        else{
+          count--;
+        }
+      }
+        
+    });
+    if(count == 13){
       location.href = 'game-success-9.html';
     }
     
@@ -92,107 +104,110 @@ function computerGames() {
         for (let i = 1; i < myDragArray[0].children.length; i++) {
           if(element.children[1]){
             if (element.children[1].getAttribute('data-child') == 6) {
-              count++
               element.children[1].style.border = "3px solid #a1dd6f";
+              element.children[1].setAttribute('data-previousState', 2222)
             }
             else {
-              count--
               element.children[1].style.border = "3px solid #dc6c85";
             }
           }
           if(element.children[2]){
             if (element.children[2].getAttribute('data-child') == 4) {
-              count++
               element.children[2].style.border = "3px solid #a1dd6f";
+              element.children[2].setAttribute('data-previousState', 2222)
             }
             else {
-              count--
               element.children[2].style.border = "3px solid #dc6c85";
             }
           }
           if(element.children[3]){
             if (element.children[3].getAttribute('data-child') == 5) {
-              count++
               element.children[3].style.border = "3px solid #a1dd6f";
+              element.children[3].setAttribute('data-previousState', 2222)
             }
             else {
-              count--
               element.children[3].style.border = "3px solid #dc6c85";
             }
           }
           if(element.children[4]){
             if (element.children[4].getAttribute('data-child') == 1) {
-              count++
               element.children[4].style.border = "3px solid #a1dd6f";
+              element.children[4].setAttribute('data-previousState', 2222)
             }
             else {
-              count--
               element.children[4].style.border = "3px solid #dc6c85";
             }
           }
           if(element.children[5]){
             if (element.children[5].getAttribute('data-child') == 4) {
-              count++
               element.children[5].style.border = "3px solid #a1dd6f";
+              element.children[5].setAttribute('data-previousState', 2222)
             }
             else {
-              count--
               element.children[5].style.border = "3px solid #dc6c85";
             }
           }
+          if(element.children[6]){
+              element.children[6].style.border = "3px solid #dc6c85";
+          }
+          if(element.children[7]){
+              element.children[7].style.border = "3px solid #dc6c85";
+          }
+
         }
       }
       if (element.getAttribute('data-drag') == 2) {
         for (let i = 1; i < myDragArray[1].children.length; i++) {
           if (element.children[1]) {
             if (element.children[1].getAttribute('data-child') == 3) {
-              count++
               element.children[1].style.border = "3px solid #a1dd6f";
+              element.children[1].setAttribute('data-previousState', 2222)
             }
             else {
-              count--
               element.children[1].style.border = "3px solid #dc6c85";
             }
           }
           if (element.children[2]) {
             if (element.children[2].getAttribute('data-child') == 5) {
-              count++
               element.children[2].style.border = "3px solid #a1dd6f";
+              element.children[2].setAttribute('data-previousState', 2222)
             }
             else {
-              count--
               element.children[2].style.border = "3px solid #dc6c85";
             }
           }
           if (element.children[3]) {
             if (element.children[3].getAttribute('data-child') == 3) {
-              count++
               element.children[3].style.border = "3px solid #a1dd6f";
+              element.children[3].setAttribute('data-previousState', 2222)
             }
             else {
-              count--
               element.children[3].style.border = "3px solid #dc6c85";
             }
           }
           if (element.children[4]) {
             if (element.children[4].getAttribute('data-child') == 5) {
-              count++
               element.children[4].style.border = "3px solid #a1dd6f";
+              element.children[4].setAttribute('data-previousState', 2222)
             }
             else {
-              count--
               element.children[4].style.border = "3px solid #dc6c85";
             }
           }
           if (element.children[5]) {
             if (element.children[5].getAttribute('data-child') == 3) {
-              count++
               element.children[5].style.border = "3px solid #a1dd6f";
+              element.children[5].setAttribute('data-previousState', 2222)
             }
             else {
-              count--
               element.children[5].style.border = "3px solid #dc6c85";
             }
+          }
+          if(element.children[6]){
+              element.children[6].style.border = "3px solid #dc6c85";
+          }
+          if(element.children[7]){
+              element.children[7].style.border = "3px solid #dc6c85";
           }
         }
       }
@@ -200,33 +215,42 @@ function computerGames() {
         for (let i = 1; i < myDragArray[2].children.length; i++) {
           if (element.children[1]) {
             if (element.children[1].getAttribute('data-child') == 2) {
-              count++
               element.children[1].style.border = "3px solid #a1dd6f";
+              element.children[1].setAttribute('data-previousState', 2222)
             }
             else {
-              count--
               element.children[1].style.border = "3px solid #dc6c85";
             }
           }
           if (element.children[2]) {
             if (element.children[2].getAttribute('data-child') == 5) {
-              count++
               element.children[2].style.border = "3px solid #a1dd6f";
+              element.children[2].setAttribute('data-previousState', 2222)
             }
             else {
-              count--
               element.children[2].style.border = "3px solid #dc6c85";
             }
           }
           if (element.children[3]) {
             if (element.children[3].getAttribute('data-child') == 2) {
-              count++
               element.children[3].style.border = "3px solid #a1dd6f";
+              element.children[3].setAttribute('data-previousState', 2222)
             }
             else {
-              count--
               element.children[3].style.border = "3px solid #dc6c85";
             }
+          }
+          if(element.children[4]){
+              element.children[4].style.border = "3px solid #dc6c85";
+          }
+          if(element.children[5]){
+              element.children[5].style.border = "3px solid #dc6c85";
+          }
+          if(element.children[6]){
+              element.children[6].style.border = "3px solid #dc6c85";
+          }
+          if(element.children[7]){
+              element.children[7].style.border = "3px solid #dc6c85";
           }
         }
       }
@@ -236,6 +260,7 @@ function computerGames() {
 
   this.completGame = () => {
     completedBtn.setAttribute('disabled', 'true');
+    
     this.successPage();
   }
 
@@ -248,6 +273,7 @@ function computerGames() {
         $(element.children[1]).remove();
       }
     });
+
     completedBtn.removeAttribute('disabled');
 }
 
@@ -260,8 +286,3 @@ function computerGames() {
 
 
 const computergame = new computerGames();
-
-
-// $(function () {
-//   $(".draggeble").draggable();
-// });
