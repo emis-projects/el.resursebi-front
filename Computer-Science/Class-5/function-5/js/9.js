@@ -56,7 +56,6 @@ function computerGames() {
       clone = drag.cloneNode(true);
       e.target.appendChild(clone)
       $(clone).removeClass('draggedElement')
-      clone.style = "margin-left: 5%; margin-top: -5.8%;"
     }
   }
 
