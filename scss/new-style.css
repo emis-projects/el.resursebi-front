@@ -32208,6 +32208,50 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   margin: 4vh auto 0;
 }
 
+.cs-2-7-9-div-img {
+  height: 59.11vh;
+}
+
+.cs-2-7-9-div-img img {
+  height: 100%;
+}
+
+.cs-2-7-8-btns-div {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.cs-2-7-8-btn {
+  height: 6.9vh;
+  width: 19.47vw;
+  -webkit-box-shadow: 2px 2px 8px #947DCE66;
+          box-shadow: 2px 2px 8px #947DCE66;
+  border-radius: 5vh;
+}
+
+.cs-2-7-8-btn .cs-2-7-8-btn-txt {
+  color: #947DCE;
+  font-size: 2.3vh;
+  line-height: 3vh;
+}
+
+.cs-2-7-8-img {
+  height: 7.03vh;
+}
+
+.cs-2-7-8-img-bg {
+  height: 9.89vh;
+}
+
+.cs-2-7-5-1-img-div {
+  height: 51.56vh;
+}
+
+.cs-2-7-5-1-img-div img {
+  height: 100%;
+}
+
 body {
   color: #262626;
   font-size: 14px;
@@ -34101,3 +34145,4 @@ body {
     font-size: 14px;
   }
 }
+/*# sourceMappingURL=new-style.css.map */
