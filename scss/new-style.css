@@ -21598,7 +21598,36 @@ td img {
 }
 
 .nature-5-5-puzzle-game div img {
-  width: 100%;
+  width: 96%;
+}
+
+.computer-sciense-game-5-5 .style1 {
+  margin-top: -10px;
+}
+
+.computer-sciense-game-5-5 .style2 {
+  width: 238px;
+  margin-top: -9px;
+}
+
+.computer-sciense-game-5-5 .style3 {
+  margin-top: -9px;
+  width: 240px;
+}
+
+.computer-sciense-game-5-5 .style4 {
+  margin-top: -10px;
+  width: 203px;
+}
+
+.computer-sciense-game-5-5 .style5 {
+  margin-top: -10px;
+  width: 203px;
+}
+
+.computer-sciense-game-5-5 .style6 {
+  margin-top: -9px;
+  width: 190px;
 }
 
 .Class_5-title_item {
