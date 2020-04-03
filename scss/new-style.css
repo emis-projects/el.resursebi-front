@@ -21604,27 +21604,22 @@ td img {
 .computer-sciense-game-5-5 .style1 {
   margin-top: -10px;
 }
-
 .computer-sciense-game-5-5 .style2 {
   width: 238px;
   margin-top: -9px;
 }
-
 .computer-sciense-game-5-5 .style3 {
   margin-top: -9px;
   width: 240px;
 }
-
 .computer-sciense-game-5-5 .style4 {
   margin-top: -10px;
   width: 203px;
 }
-
 .computer-sciense-game-5-5 .style5 {
   margin-top: -10px;
   width: 203px;
 }
-
 .computer-sciense-game-5-5 .style6 {
   margin-top: -9px;
   width: 190px;
@@ -26672,6 +26667,46 @@ img.mfp-img[alt*=cs-3-6-6-img] {
 .cs-2-10-12-img {
   height: 45.7vh;
   margin: 4vh auto 0;
+}
+
+.programs_image {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+.programs_image-box-15 {
+  height: 68vh;
+  max-height: 624px;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.programs_image-box-15 img {
+  height: 100%;
+}
+.programs_image p {
+  color: #62548A;
+  font-size: 3.6vh;
+  font-family: "DejaVu Sans";
+}
+.programs_image-box-16 {
+  background: url("../img/gakvetilebi/Computer-Science/Class-2/programs-management-7/cs-2-7-16.svg") no-repeat center;
+  background-size: cover;
+}
+.programs_image-box-17 {
+  background: url("../img/gakvetilebi/Computer-Science/Class-2/programs-management-7/cs-2-7-17.svg") no-repeat center;
+  background-size: cover;
+}
+.programs_image-box-18 {
+  background: url("../img/gakvetilebi/Computer-Science/Class-2/programs-management-7/cs-2-7-18.svg") no-repeat center;
+  background-size: cover;
+}
+.programs_image-box-19 {
+  background: url("../img/gakvetilebi/Computer-Science/Class-2/programs-management-7/cs-2-7-19.svg") no-repeat center;
+  background-size: cover;
 }
 
 body {
