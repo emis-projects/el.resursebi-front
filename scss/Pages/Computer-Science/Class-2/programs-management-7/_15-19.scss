@@ -1,0 +1,39 @@
+.programs_image{
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  &-box-15{
+    height: 68vh;
+    max-height: 624px;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    img{
+      height: 100%;
+    }
+  }
+  p{
+    color: #62548A;
+    font-size: 3.6vh;
+    font-family: "DejaVu Sans";
+  }
+  &-box-16{
+    background: url("../img/gakvetilebi/Computer-Science/Class-2/programs-management-7/cs-2-7-16.svg") no-repeat center;
+    background-size: cover;
+  }
+  &-box-17{
+    background: url("../img/gakvetilebi/Computer-Science/Class-2/programs-management-7/cs-2-7-17.svg") no-repeat center;
+    background-size: cover;
+  }
+  &-box-18{
+    background: url("../img/gakvetilebi/Computer-Science/Class-2/programs-management-7/cs-2-7-18.svg") no-repeat center;
+    background-size: cover;
+  }
+  &-box-19{
+    background: url("../img/gakvetilebi/Computer-Science/Class-2/programs-management-7/cs-2-7-19.svg") no-repeat center;
+    background-size: cover;
+  }
+}
