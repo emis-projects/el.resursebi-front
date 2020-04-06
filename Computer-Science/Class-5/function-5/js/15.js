@@ -78,14 +78,6 @@ function computerGames() {
                 }
             }
             $(clone).removeClass('draggedElement')
-            //clone.style = "margin-left: 4.5%; margin-top: -6.3%;";
-            //clone.style="pointer-events: none;"
-            //clone.style="height: 50px;margin-left: -28%;margin-top: -3%; margin-bottom: 40%"
-            //clone.style="heght: 94px;pointer-events: none;margin-left: -18%; margin-top: -3%;"
-
-            
-         
-
         }
     }
 
