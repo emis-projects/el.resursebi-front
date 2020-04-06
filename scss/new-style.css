@@ -26462,8 +26462,27 @@ td img {
 }
 
 .function-15-box_3-one img {
-  height: 100%;
-  width: auto;
+  height: initial;
+}
+
+.function-15-box_3-one .purple___puzzle {
+  margin-top: -7px;
+  width: 16.5vw;
+}
+
+.function-15-box_3-one .blue___puzzle {
+  width: 12vw;
+  margin-top: -8px;
+}
+
+.function-15-box_3-one .yellow___puzzle {
+  margin-top: -8px;
+  width: 13vw;
+}
+
+.function-15-box_3-one .red___puzzle {
+  width: 14vw;
+  margin-top: -8px;
 }
 
 .function-15-box_3-two {
@@ -26482,6 +26501,30 @@ td img {
 .function-15-box_3-three {
   height: 12vh;
   max-height: 94px;
+}
+
+.function-15-box_3-three img {
+  height: initial;
+}
+
+.function-15-box_3-three .purple___puzzle {
+  margin-top: -7px;
+  width: 17.5vw;
+}
+
+.function-15-box_3-three .blue___puzzle {
+  width: 12vw;
+  margin-top: -8px;
+}
+
+.function-15-box_3-three .yellow___puzzle {
+  margin-top: -8px;
+  width: 13vw;
+}
+
+.function-15-box_3-three .red___puzzle {
+  width: 14vw;
+  margin-top: -8px;
 }
 
 .image-box-programing-17 {
@@ -34372,4 +34415,3 @@ body {
     font-size: 14px;
   }
 }
-/*# sourceMappingURL=new-style.css.map */

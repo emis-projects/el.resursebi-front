@@ -84,28 +84,7 @@ function computerGames() {
             //clone.style="heght: 94px;pointer-events: none;margin-left: -18%; margin-top: -3%;"
 
             
-            if(clone.parentElement && clone.parentElement.parentElement){
-                if(clone.parentElement.parentElement.getAttribute('data-drag') == 1){
-                    if(clone.getAttribute('data-child') == 4){
-                        clone.style = "height: 45px;margin-left: -29%; margin-top: -1%;"
-                    }
-                    if(clone.getAttribute('data-child') == 1){
-                        clone.style = "height: 45px;margin-left: -25%; margin-top: -1%;"
-                    }
-                    if(clone.getAttribute('data-child') == 3){
-                        clone.style = "height: 45px;margin-left: -19.5%; margin-top: -1%;"
-                    }
-                    if(clone.getAttribute('data-child') == 5){
-                        clone.style = "height: 45px;margin-left: -27.5%; margin-top: -1%;"
-                    }
-                    if(clone.getAttribute('data-child') == 7){
-                        clone.style = "height: 45px;margin-left: -25%; margin-top: -1%;"
-                    }
-                }
-                if(clone.parentElement.parentElement.getAttribute('data-drag') == 2){
-                    clone.style = "height: 33px;margin-top: -1%;margin-left: 6.5%;"
-                }
-            }
+         
 
         }
     }

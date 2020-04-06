@@ -57,8 +57,27 @@
       max-height: 66px;
 
       img {
-        height: 100%;
-        width: auto;
+        height: initial;
+      }
+
+      .purple___puzzle {
+        margin-top: -7px;
+        width: 16.5vw;
+      }
+
+      .blue___puzzle {
+        width: 12vw;
+        margin-top: -8px;
+      }
+
+      .yellow___puzzle {
+        margin-top: -8px;
+        width: 13vw;
+      }
+
+      .red___puzzle {
+        width: 14vw;
+        margin-top: -8px;
       }
     }
 
@@ -78,6 +97,30 @@
     &-three {
       height: 12vh;
       max-height: 94px;
+
+      img {
+        height: initial;
+      }
+
+      .purple___puzzle {
+        margin-top: -7px;
+        width: 17.5vw;
+      }
+
+      .blue___puzzle {
+        width: 12vw;
+        margin-top: -8px;
+      }
+
+      .yellow___puzzle {
+        margin-top: -8px;
+        width: 13vw;
+      }
+
+      .red___puzzle {
+        width: 14vw;
+        margin-top: -8px;
+      }
     }
   }
 }
