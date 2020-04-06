@@ -100,7 +100,7 @@ function computerGames() {
                 }
             }
             if(clone.parentElement.getAttribute('data-drag') == 2){
-                clone.style = "height: 33px;margin-top: -2%;margin-left: 6%;"
+                //clone.style = "height: 33px;margin-top: -2%;margin-left: 6%;"
             }
 
         }
