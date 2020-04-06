@@ -54,15 +54,16 @@ function computerGames() {
         if (e.target.classList.contains('myDrag')) {
             clone = drag.cloneNode(true);
             if(clone.getAttribute('data-child') != 2 && clone.getAttribute('data-child') != 6){
-                e.target.appendChild(clone)
+                e.target.firstElementChild.appendChild(clone)
             }
             for(let i =0; i<10; i++){
-                if(e.target.children[i]){
-                    if(e.target.children[i].getAttribute('data-child') == 7){
-                        e.target.children[i].classList.add("myDrag");
+                
+                if(e.target.firstElementChild && e.target.firstElementChild.children[i]){
+                    if(e.target.firstElementChild.children[i].getAttribute('data-child') == 7){
+                        e.target.firstElementChild.children[i].classList.add("myDrag");
                     }
-                    if(e.target.children[i].getAttribute('data-child') == 3){
-                        e.target.children[i].classList.add("myDrag");
+                    if(e.target.firstElementChild.children[i].getAttribute('data-child') == 3){
+                        e.target.firstElementChild.children[i].classList.add("myDrag");
                     }
                 }
                 if(e.target.getAttribute('data-child') == 7 && clone.getAttribute('data-child') == 6){
@@ -81,26 +82,29 @@ function computerGames() {
             //clone.style="pointer-events: none;"
             //clone.style="height: 50px;margin-left: -28%;margin-top: -3%; margin-bottom: 40%"
             //clone.style="heght: 94px;pointer-events: none;margin-left: -18%; margin-top: -3%;"
-            console.log(clone.parentElement.getAttribute('data-drag'))
-            if(clone.parentElement.getAttribute('data-drag') == 1){
-                if(clone.getAttribute('data-child') == 4){
-                    clone.style = "height: 55px;margin-left: -27%; margin-top: -2%;"
+
+            
+            if(clone.parentElement && clone.parentElement.parentElement){
+                if(clone.parentElement.parentElement.getAttribute('data-drag') == 1){
+                    if(clone.getAttribute('data-child') == 4){
+                        clone.style = "height: 45px;margin-left: -29%; margin-top: -1%;"
+                    }
+                    if(clone.getAttribute('data-child') == 1){
+                        clone.style = "height: 45px;margin-left: -25%; margin-top: -1%;"
+                    }
+                    if(clone.getAttribute('data-child') == 3){
+                        clone.style = "height: 45px;margin-left: -19.5%; margin-top: -1%;"
+                    }
+                    if(clone.getAttribute('data-child') == 5){
+                        clone.style = "height: 45px;margin-left: -27.5%; margin-top: -1%;"
+                    }
+                    if(clone.getAttribute('data-child') == 7){
+                        clone.style = "height: 45px;margin-left: -25%; margin-top: -1%;"
+                    }
                 }
-                if(clone.getAttribute('data-child') == 1){
-                    clone.style = "height: 55px;margin-left: -22.5%; margin-top: -2%;"
+                if(clone.parentElement.parentElement.getAttribute('data-drag') == 2){
+                    clone.style = "height: 33px;margin-top: -1%;margin-left: 6.5%;"
                 }
-                if(clone.getAttribute('data-child') == 3){
-                    clone.style = "height: 55px;margin-left: -15.5%; margin-top: -2%;"
-                }
-                if(clone.getAttribute('data-child') == 5){
-                    clone.style = "height: 55px;margin-left: -25.5%; margin-top: -2%;"
-                }
-                if(clone.getAttribute('data-child') == 7){
-                    clone.style = "height: 55px;margin-left: -22%; margin-top: -2%;"
-                }
-            }
-            if(clone.parentElement.getAttribute('data-drag') == 2){
-                clone.style = "height: 33px;margin-top: -2%;margin-left: 6%;"
             }
 
         }
@@ -115,8 +119,8 @@ function computerGames() {
 
         this.errorPage();
         myDragArray.forEach(element => {
-            for(let i=1; i<element.children.length; i++){
-              if(element.children[i].getAttribute('data-previousState') == 2222){
+            for(let i=1; i<element.firstElementChild.children.length; i++){
+              if(element.firstElementChild.children[i].getAttribute('data-previousState') == 2222){
                 count++;
               }
               else{
@@ -137,91 +141,92 @@ function computerGames() {
     this.errorPage = () => {
         myDragArray.forEach(element => {
             if (element.getAttribute('data-drag') == 1) {
-                for (let i = 1; i < myDragArray[0].children.length; i++) {
-                    if (element.children[1]) {
-                        if (element.children[1].getAttribute('data-child') == 7 && element.children[1].getAttribute('data-previous') == 1111) {
-                            element.children[1].style.border = "3px solid #a1dd6f";
-                            element.children[1].setAttribute('data-previousState', 2222)
+                for (let i = 1; i < myDragArray[0].firstElementChild.children.length; i++) {
+                    
+                    if (element.firstElementChild.children[1]) {
+                        if (element.firstElementChild.children[1].getAttribute('data-child') == 7 && element.firstElementChild.children[1].getAttribute('data-previous') == 1111) {
+                            element.firstElementChild.children[1].style.border = "3px solid #a1dd6f";
+                            element.firstElementChild.children[1].setAttribute('data-previousState', 2222)
                         }
                         else {
-                            element.children[1].style.border = "3px solid #dc6c85";
+                            element.firstElementChild.children[1].style.border = "3px solid #dc6c85";
                         }
                     }
-                    if (element.children[2]) {
-                        if (element.children[2].getAttribute('data-child') == 5) {
-                            element.children[2].style.border = "3px solid #a1dd6f";
-                            element.children[2].setAttribute('data-previousState', 2222)
+                    if (element.firstElementChild.children[2]) {
+                        if (element.firstElementChild.children[2].getAttribute('data-child') == 5) {
+                            element.firstElementChild.children[2].style.border = "3px solid #a1dd6f";
+                            element.firstElementChild.children[2].setAttribute('data-previousState', 2222)
                         }
                         else {
-                            element.children[2].style.border = "3px solid #dc6c85";
+                            element.firstElementChild.children[2].style.border = "3px solid #dc6c85";
                         }
                     }
-                    if (element.children[3]) {
-                        if (element.children[3].getAttribute('data-child') == 7 && element.children[3].getAttribute('data-previous') == 1111) {
-                            element.children[3].style.border = "3px solid #a1dd6f";
-                            element.children[3].setAttribute('data-previousState', 2222)
+                    if (element.firstElementChild.children[3]) {
+                        if (element.firstElementChild.children[3].getAttribute('data-child') == 7 && element.firstElementChild.children[3].getAttribute('data-previous') == 1111) {
+                            element.firstElementChild.children[3].style.border = "3px solid #a1dd6f";
+                            element.firstElementChild.children[3].setAttribute('data-previousState', 2222)
                         }
                         else {
-                            element.children[3].style.border = "3px solid #dc6c85";
+                            element.firstElementChild.children[3].style.border = "3px solid #dc6c85";
                         }
                     }
-                    if (element.children[4]) {
-                        if (element.children[4].getAttribute('data-child') == 5) {
-                            element.children[4].style.border = "3px solid #a1dd6f";
-                            element.children[4].setAttribute('data-previousState', 2222)
+                    if (element.firstElementChild.children[4]) {
+                        if (element.firstElementChild.children[4].getAttribute('data-child') == 5) {
+                            element.firstElementChild.children[4].style.border = "3px solid #a1dd6f";
+                            element.firstElementChild.children[4].setAttribute('data-previousState', 2222)
                         }
                         else {
-                            element.children[4].style.border = "3px solid #dc6c85";
+                            element.firstElementChild.children[4].style.border = "3px solid #dc6c85";
                         }
                     }
-                    if (element.children[5]) {
-                        if (element.children[5].getAttribute('data-child') == 3 && element.children[5].getAttribute('data-previous') == 1111) {
-                            element.children[5].style.border = "3px solid #a1dd6f";
-                            element.children[5].setAttribute('data-previousState', 2222)
+                    if (element.firstElementChild.children[5]) {
+                        if (element.firstElementChild.children[5].getAttribute('data-child') == 3 && element.firstElementChild.children[5].getAttribute('data-previous') == 1111) {
+                            element.firstElementChild.children[5].style.border = "3px solid #a1dd6f";
+                            element.firstElementChild.children[5].setAttribute('data-previousState', 2222)
                         }
                         else {
-                            element.children[5].style.border = "3px solid #dc6c85";
+                            element.firstElementChild.children[5].style.border = "3px solid #dc6c85";
                         }
                     }
-                    if(element.children[6]){
-                        element.children[6].style.border = "3px solid #dc6c85";
+                    if(element.firstElementChild.children[6]){
+                        element.firstElementChild.children[6].style.border = "3px solid #dc6c85";
                     }
-                    if(element.children[7]){
-                        element.children[7].style.border = "3px solid #dc6c85";
+                    if(element.firstElementChild.children[7]){
+                        element.firstElementChild.children[7].style.border = "3px solid #dc6c85";
                     }
                 }
             }
             if (element.getAttribute('data-drag') == 2) {
-                for (let i = 1; i < myDragArray[1].children.length; i++) {
-                    if (element.children[1]) {
-                        if (element.children[1].getAttribute('data-child') == 1) {
-                            element.children[1].style.border = "3px solid #a1dd6f";
-                            element.children[1].setAttribute('data-previousState', 2222)
+                for (let i = 1; i < myDragArray[1].firstElementChild.children.length; i++) {
+                    if (element.firstElementChild.children[1]) {
+                        if (element.firstElementChild.children[1].getAttribute('data-child') == 1) {
+                            element.firstElementChild.children[1].style.border = "3px solid #a1dd6f";
+                            element.firstElementChild.children[1].setAttribute('data-previousState', 2222)
                         }
                         else {
-                            element.children[1].style.border = "3px solid #dc6c85";
+                            element.firstElementChild.children[1].style.border = "3px solid #dc6c85";
                         }
                     }
-                    if(element.children[2]){
-                        element.children[2].style.border = "3px solid #dc6c85";
+                    if(element.firstElementChild.children[2]){
+                        element.firstElementChild.children[2].style.border = "3px solid #dc6c85";
                     }
-                    if(element.children[6]){
-                        element.children[6].style.border = "3px solid #dc6c85";
+                    if(element.firstElementChild.children[6]){
+                        element.firstElementChild.children[6].style.border = "3px solid #dc6c85";
                     }
-                    if(element.children[3]){
-                        element.children[3].style.border = "3px solid #dc6c85";
+                    if(element.firstElementChild.children[3]){
+                        element.firstElementChild.children[3].style.border = "3px solid #dc6c85";
                     }
-                    if(element.children[4]){
-                        element.children[4].style.border = "3px solid #dc6c85";
+                    if(element.firstElementChild.children[4]){
+                        element.firstElementChild.children[4].style.border = "3px solid #dc6c85";
                     }
-                    if(element.children[5]){
-                        element.children[5].style.border = "3px solid #dc6c85";
+                    if(element.firstElementChild.children[5]){
+                        element.firstElementChild.children[5].style.border = "3px solid #dc6c85";
                     }
-                    if(element.children[6]){
-                        element.children[6].style.border = "3px solid #dc6c85";
+                    if(element.firstElementChild.children[6]){
+                        element.firstElementChild.children[6].style.border = "3px solid #dc6c85";
                     }
-                    if(element.children[7]){
-                        element.children[7].style.border = "3px solid #dc6c85";
+                    if(element.firstElementChild.children[7]){
+                        element.firstElementChild.children[7].style.border = "3px solid #dc6c85";
                     }
                 }
             }
@@ -241,7 +246,7 @@ function computerGames() {
         count = 0;
         myDragArray.forEach(element => {
             for (let i = 1; i < 10; i++) {
-                $(element.children[1]).remove();
+                $(element.firstElementChild.children[1]).remove();
             }
         });
         completedBtn.removeAttribute('disabled');
