@@ -32706,6 +32706,36 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
+.cs-4-10-1-img {
+  height: 60.80vh;
+  margin: 3vh auto;
+}
+
+.hint-4-10-16-1-img {
+  height: 67.70vh;
+  margin: auto;
+}
+
+.hint-4-10-17-1-img {
+  height: 70.05vh;
+  margin: 8vh auto 0;
+}
+
+.hint-4-10-21-1-img {
+  height: 63.80vh;
+  margin: 1vh auto;
+}
+
+.hint-4-10-5-1-img {
+  height: 64.32vh;
+  margin: 1vh auto;
+}
+
+.hint-4-10-6-1-img {
+  height: 43.75vh;
+  margin: 9vh auto 0;
+}
+
 body {
   color: #262626;
   font-size: 14px;
