@@ -1,0 +1,61 @@
+.Class_4_10 {
+    &-img_box_3_1 { 
+        display: inline;
+        vertical-align: middle;
+        height: 4.53vh;
+        max-height: 34.8px;
+        img {
+            height: 100%;
+        }
+    }
+    &-img_box_3 {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        img {
+            height: 48.83vh;
+            max-height: 375px;
+        }
+    }
+    &-img_box_4 {
+        position: fixed;
+        bottom: 0;
+        img {
+            height: 43.09vh;
+            max-height: 331px;
+        }
+    }
+    &-title_item {
+        margin-bottom: 1.2vh!important;
+    }
+    &-img_box_5 {   
+        img {
+            height: 39vh;
+            max-height: 300px;
+        }
+    }
+    &-img_box_6 { 
+        position: fixed;
+        bottom: 0;  
+        img {
+            height: 35.95vh;
+            max-height: 276.11px;
+        }
+    }
+
+    &-img_box_8 { 
+        position: fixed;
+        bottom: 0;  
+        img {
+            height: 57vh;
+            max-height: 438px;
+        }
+    }
+    &-img_box_9 { 
+        height: 31.25vh;
+        max-height: 240px;  
+        img {
+            height: 100%;
+        }
+    }
+}
