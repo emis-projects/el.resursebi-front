@@ -1,0 +1,51 @@
+.cs-editor-image {
+  &-box_10 {
+    height: 50vh;
+    max-height: 390px;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &-box_11 {
+    height: 39vh;
+    max-height: 300px;
+
+    img {
+      height: 100%;
+    }
+  }
+  &-box_16 {
+    height: 43vh;
+    max-height: 336px;
+
+    img {
+      height: 100%;
+    }
+  }
+}
+
+.cs-editor {
+  &-11 span {
+    display: inline-block;
+    max-height: 25px;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &-14 span {
+    display: inline-block;
+    max-height: 25px;
+
+    &:nth-child(2) {
+      max-height: 35px;
+    }
+
+    img {
+      height: 100%;
+    }
+  }
+}

@@ -23768,12 +23768,6 @@ td img {
 
 .DragGame--Parent .error {
   background-color: #dc6c85;
-  background-color: #a1dd6f;
-}
-
-.DragGame--Parent .error p,
-.DragGame--Parent .error a {
-  color: #fff;
 }
 
 .DragGame--Parent .error p,
@@ -32543,7 +32537,7 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .cs-2-7-8-img-bg {
-  height: 9.89vh;
+  height: 7.03vh;
 }
 
 .cs-2-7-9-div-img {
@@ -32560,18 +32554,47 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
           justify-content: space-evenly;
 }
 
+.cs-2-7-8-imgs-div img.error {
+  background-color: initial;
+}
+
+.cs-2-7-8-imgs-div img.draggedElement {
+  height: 7.03vh;
+}
+
 .cs-2-7-8-btn {
-  height: 6.9vh;
   width: 19.47vw;
-  -webkit-box-shadow: 2px 2px 8px #947DCE66;
-          box-shadow: 2px 2px 8px #947DCE66;
-  border-radius: 5vh;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  -webkit-box-shadow: initial;
+          box-shadow: initial;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .cs-2-7-8-btn .cs-2-7-8-btn-txt {
+  height: 6.9vh;
+  padding: 5px;
+  border-radius: 5vh;
+  -webkit-box-shadow: 2px 2px 8px #947DCE66;
+          box-shadow: 2px 2px 8px #947DCE66;
   color: #947DCE;
   font-size: 2.3vh;
   line-height: 3vh;
+}
+
+.cs-2-7-8-btn img {
+  margin-top: 10px;
+}
+
+.cs-2-7-8-btn img.error, .cs-2-7-8-btn img.success {
+  border-radius: 8px;
 }
 
 .cs-2-7-8-img {
@@ -32579,7 +32602,7 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .cs-2-7-8-img-bg {
-  height: 9.89vh;
+  height: 7.03vh;
 }
 
 .cs-2-7-5-1-img-div {
@@ -32595,6 +32618,349 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .cs-2-7-5-1-img-div img {
+  height: 100%;
+}
+
+.cs-5-3-1-img {
+  height: 50.78vh;
+  margin: 8vh auto 7vh;
+}
+
+.cs-5-3-3-img {
+  height: 42.44vh;
+  margin: 15vh auto 0;
+}
+
+.cs-5-3-6-img {
+  height: 17.7vh;
+  margin: 8vh 2vh 10vh;
+}
+
+.cs-5-3-6-img-sm {
+  height: 12.76vh;
+  margin: 0 2vh;
+}
+
+.cs-5-3-6-1-img {
+  height: 35.93vh;
+  margin: 12vh auto 0;
+}
+
+.cs-5-3-6-2-img {
+  height: 60.67vh;
+  margin-top: 8vh;
+}
+
+.cs-5-3-6-3-img {
+  height: 59.76vh;
+  margin: 2vh auto 0;
+}
+
+.cs-5-3-6-4-img {
+  height: 27.86vh;
+  margin: 17vh auto 0;
+}
+
+.cs-5-3-6-5-img {
+  height: 36.06vh;
+  margin: 15vh auto 0;
+}
+
+.cs-programing-image-box_4 {
+  height: 41vh;
+  max-height: 321px;
+}
+
+.cs-programing-image-box_4 img {
+  height: 100%;
+}
+
+.cs-programing-image-box_5 {
+  height: 44vh;
+  max-height: 341px;
+}
+
+.cs-programing-image-box_5 img {
+  height: 100%;
+}
+
+.cs-programing-image-box_13 {
+  height: 33.7vh;
+  max-height: 259px;
+}
+
+.cs-programing-image-box_13_btn {
+  height: 10vh;
+  max-height: 65px;
+}
+
+.cs-programing-image-box_13_btn img {
+  height: 100%;
+}
+
+.cs-programing-image-box_13 img {
+  height: 100%;
+}
+
+.cs-programing-image-box_12 {
+  height: 36.7vh;
+  max-height: 280px;
+}
+
+.cs-programing-image-box_12_btn {
+  height: 10vh;
+  max-height: 65px;
+}
+
+.cs-programing-image-box_12_btn img {
+  height: 100%;
+}
+
+.cs-programing-image-box_12 img {
+  height: 100%;
+}
+
+.cs-programing-image-box_14 {
+  height: 40vh;
+  max-height: 340px;
+}
+
+.cs-programing-image-box_14 img {
+  height: 100%;
+}
+
+.cs-programing-image-box_4 {
+  height: 41vh;
+  max-height: 321px;
+}
+
+.cs-programing-image-box_4 img {
+  height: 100%;
+}
+
+.cs-programing-image-box_5 {
+  height: 44vh;
+  max-height: 341px;
+}
+
+.cs-programing-image-box_5 img {
+  height: 100%;
+}
+
+.cs-programing-image-box_13 {
+  height: 33.7vh;
+  max-height: 259px;
+}
+
+.cs-programing-image-box_13_btn {
+  height: 10vh;
+  max-height: 65px;
+}
+
+.cs-programing-image-box_13_btn img {
+  height: 100%;
+}
+
+.cs-programing-image-box_13 img {
+  height: 100%;
+}
+
+.cs-programing-image-box_12 {
+  height: 36.7vh;
+  max-height: 280px;
+}
+
+.cs-programing-image-box_12_btn {
+  height: 10vh;
+  max-height: 65px;
+}
+
+.cs-programing-image-box_12_btn img {
+  height: 100%;
+}
+
+.cs-programing-image-box_12 img {
+  height: 100%;
+}
+
+.cs-programing-image-box_14 {
+  height: 40vh;
+  max-height: 340px;
+}
+
+.cs-programing-image-box_14 img {
+  height: 100%;
+}
+
+.Class_5_3-img_box_1 {
+  height: 6.5vh;
+  max-height: 50px;
+}
+
+.Class_5_3-img_box_1 img {
+  height: 100%;
+}
+
+.Class_5_3-img_box {
+  height: 5.759vh;
+  max-height: 44.23px;
+}
+
+.Class_5_3-img_box img {
+  height: 100%;
+}
+
+.cs-4-10-1-img {
+  height: 60.80vh;
+  margin: 3vh auto;
+}
+
+.hint-4-10-16-1-img {
+  height: 67.70vh;
+  margin: auto;
+}
+
+.hint-4-10-17-1-img {
+  height: 70.05vh;
+  margin: 8vh auto 0;
+}
+
+.hint-4-10-21-1-img {
+  height: 63.80vh;
+  margin: 1vh auto;
+}
+
+.hint-4-10-5-1-img {
+  height: 64.32vh;
+  margin: 1vh auto;
+}
+
+.hint-4-10-6-1-img {
+  height: 43.75vh;
+  margin: 9vh auto 0;
+}
+
+.cs-editor-image-box_10 {
+  height: 50vh;
+  max-height: 390px;
+}
+
+.cs-editor-image-box_10 img {
+  height: 100%;
+}
+
+.cs-editor-image-box_11 {
+  height: 39vh;
+  max-height: 300px;
+}
+
+.cs-editor-image-box_11 img {
+  height: 100%;
+}
+
+.cs-editor-image-box_16 {
+  height: 43vh;
+  max-height: 336px;
+}
+
+.cs-editor-image-box_16 img {
+  height: 100%;
+}
+
+.cs-editor-11 span {
+  display: inline-block;
+  max-height: 25px;
+}
+
+.cs-editor-11 span img {
+  height: 100%;
+}
+
+.cs-editor-14 span {
+  display: inline-block;
+  max-height: 25px;
+}
+
+.cs-editor-14 span:nth-child(2) {
+  max-height: 35px;
+}
+
+.cs-editor-14 span img {
+  height: 100%;
+}
+
+.cs-5-7-1-img {
+  height: 59.5vh;
+  margin: 5vh auto 3vh;
+}
+
+.cs-5-7-3-img {
+  height: 34.76vh;
+  margin: 10vh auto;
+}
+
+.cs-5-7-4-img {
+  height: 50.73vh;
+  margin-top: 1vh;
+}
+
+.cs-5-7-5-img {
+  height: 61.71vh;
+  position: relative;
+  top: -10vh;
+}
+
+.cs-5-7-6-img {
+  height: 50.65vh;
+  margin-top: 5.5vh;
+}
+
+.cs-5-7-7-img {
+  height: 37.10vh;
+  margin: 12vh auto;
+}
+
+.cs-5-7-8-img {
+  height: 56.90vh;
+  margin-top: 7.2vh;
+}
+
+.cs-cycles-image-box_11 {
+  height: 59vh;
+  max-height: 454px;
+}
+
+.cs-cycles-image-box_11 img {
+  height: 100%;
+}
+
+.cs-cycles-image-box_10 {
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  height: 59vh;
+  max-height: 454px;
+}
+
+.cs-cycles-image-box_10 img {
+  height: 100%;
+}
+
+.cs-cycles-image-box_11 {
+  height: 41vh;
+  max-height: 321px;
+}
+
+.cs-cycles-image-box_11 img {
+  height: 100%;
+}
+
+.cs-cycles-image-box_12 {
+  height: 51vh;
+  max-height: 397px;
+}
+
+.cs-cycles-image-box_12 img {
   height: 100%;
 }
 
