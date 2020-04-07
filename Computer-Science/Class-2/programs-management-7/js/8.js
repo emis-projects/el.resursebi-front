@@ -11,13 +11,11 @@ function game(){
 
 
     $(dragElement2).on('dragstart', (e) => this.dragStart(e));
-    $(dragElement1).on('dragend', (e) => this.dragEnd(e));
-
-
+    $(dragElement2).on('dragend', (e) => this.dragEnd(e));
 
 
     // Loop through empty boxes and add listeners
-    for (const drag of dragElement2) {
+    for (const drag of dragElement1) {
         drag.addEventListener('dragover', (e) => this.dragOver(e));
         drag.addEventListener('drop', (e) => this.dragDrop(e));
     }
@@ -67,8 +65,6 @@ function game(){
     
 
     this.dragDrop = e => {
-        console.log(e.target)
-        
         e.target.parentElement.appendChild(document.querySelector('.draggedElement'));
     }
 
@@ -81,11 +77,7 @@ function game(){
         let el = dragElement2MyArray.every(this.checkEveryElement)
 
 		if(el == true){
-            let loc = location.pathname;
-
-            if(loc == "/Computer-Science/Class-2/conditional-signs-1/9.html" || loc == "/el.resursebi-front/Computer-Science/Class-2/conditional-signs-1/9.html"){
-                location.href = "game-success-9.html"
-            }
+            location.href = "game-success-8.html"
 
         } else {
 
@@ -97,10 +89,10 @@ function game(){
     this.errorPage = () => {
         dragElement2MyArray.forEach(w => {
             if(w.getAttribute('data-index') !== w.parentElement.getAttribute('data-index')){
-                w.parentElement.classList.add('error')
+                w.classList.add('error')
 
             } else if(w.getAttribute('data-index') == w.parentElement.getAttribute('data-index')) {
-                w.parentElement.classList.add('success')
+                w.classList.add('success')
             }
         })
     }
