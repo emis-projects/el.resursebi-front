@@ -1,9 +1,11 @@
 function computerGames() {
     var DragGameChilds1 = document.querySelectorAll('.DragGame--childs1');
     var mydrag = document.querySelectorAll('.myDrag');
+    var parent1 = document.querySelector('.parent1');
 
     var completedBtn = document.getElementById('completedGame');
     var resetBtn = document.getElementById('resetBtn');
+
 
     $(DragGameChilds1).on('dragstart', (e) => this.dragStart(e));
     $(DragGameChilds1).on('dragend', (e) => this.dragEnd(e));
@@ -13,7 +15,6 @@ function computerGames() {
         drag.addEventListener('dragover', (e) => this.dragOver(e));
         drag.addEventListener('drop', (e) => this.dragDrop(e));
     }
-
 
     document.addEventListener('DOMContentLoaded', () => {
         mydrag.forEach(w => {
@@ -25,20 +26,21 @@ function computerGames() {
     })
 
     this.dragOver = (e) => {
-
         e.preventDefault();
     }
+
     this.dragStart = (e) => {
+
         setTimeout(() => {
             e.target.className += " draggedElement"
         }, 0);
     }
 
-
     this.dragEnd = (e) => {
         var elClassName = e.target.getAttribute('data-class')
         e.target.className = elClassName;
     }
+
 
     var myArray = [];
     DragGameChilds1.forEach(element => {
@@ -51,186 +53,40 @@ function computerGames() {
         myDragArray.push(element);
     });
 
-    var clone1;
 
     this.dragDrop = (e) => {
         var drag = document.querySelector('.draggedElement')
-        if(e.target.children[0] && e.target.children[0].getAttribute('data-same') == drag.getAttribute('data-same')){
-            return;
+        if (e.target.classList.contains('myDrag')) {
+            e.target.appendChild(drag)
         }
-        if(e.target.children[1] && ((e.target.children[1].getAttribute('data-same') == drag.getAttribute('data-same'))
-            || (e.target.children[0].getAttribute('data-same') == drag.getAttribute('data-same')))){
-            return;
-        }
-
-        var clone = drag.cloneNode(true);
-        $(clone).removeClass('draggedElement')
-        e.target.appendChild(clone);
-        clone1 = e.target.appendChild(clone);
-        if (clone1.getAttribute('data-same') == 1) {
-            clone1.style = "pointer-events: none;  top: 59%; left: 55%;";//z-index: -1;
-        }
-        if(clone1.getAttribute('data-same') == 2){
-            clone1.style = "pointer-events: none;";
-            clone1.innerHTML = "<span style='color: blue;'>"+ clone1.innerHTML+"</span>";
-        }
-
     }
 
 
+    this.checkEveryElement = (element) => element.getAttribute('data-place') == element.parentElement.getAttribute('data-place');
 
     this.successPage = () => {
-        this.errorPage();
-        if(count == 11){
-            location.href = 'game-success-14.html';
+        let el = myArray.every(this.checkEveryElement);
+        if (el) {
+            location.href = 'game-success-12.html'
+        }
+        else {
+            this.errorPage();
         }
 
     }
 
-    var count = 0;
+
     this.errorPage = () => {
-        //////td12
-        document.getElementById('12').style = "background: #a1dd6f";
-        //////td1
-        if (document.getElementById('1').children[0] && document.getElementById('1').children[1]) {
-            if ((document.getElementById('1').getAttribute('data-place') == document.getElementById('1').children[0].getAttribute('data-place'))
-                &&  (document.getElementById('1').getAttribute('data-place') == document.getElementById('1').children[1].getAttribute('data-place'))) {
-                document.getElementById('1').style = "background: #a1dd6f";
-                count++;
+        myArray.forEach(element => {
+            if (element.getAttribute('data-place') == element.parentElement.getAttribute('data-place')) {
+                element.parentElement.style.backgroundColor = "#a1dd6f";
             }
-            else {
-                document.getElementById('1').style = "background: #dc6c85";
+            else if (element.parentElement.classList.contains('myDrag')) {
+                element.parentElement.style.backgroundColor = "#dc6c85";
             }
-        }
-        else {
-            document.getElementById('1').style = "background: #dc6c85";
-        }
-        // /////td3
-        if (document.getElementById('3').children[0] && document.getElementById('3').children[1]) {
-            if ((document.getElementById('3').getAttribute('data-place') == document.getElementById('3').children[0].getAttribute('data-place'))
-                && (document.getElementById('3').getAttribute('data-place') == document.getElementById('3').children[1].getAttribute('data-place'))) {
-                document.getElementById('3').style = "background: #a1dd6f";
-                count++;
-            }
-            else {
-                document.getElementById('3').style = "background: #dc6c85";
-            }
-        }
-        else {
-            document.getElementById('3').style = "background: #dc6c85";
-        }
-        //////td6
-        if (document.getElementById('6').children[0] && document.getElementById('6').children[1]) {
-            if ((document.getElementById('6').getAttribute('data-place') == document.getElementById('6').children[0].getAttribute('data-place1'))
-                && (document.getElementById('6').getAttribute('data-place') == document.getElementById('6').children[1].getAttribute('data-place1'))) {
-                document.getElementById('6').style = "background: #a1dd6f";
-                count++;
-            }
-            else {
-                document.getElementById('6').style = "background: #dc6c85";
-            }
-        }
-        else {
-            document.getElementById('6').style = "background: #dc6c85";
-        }
-        ////td2 
-        if (document.getElementById('2').children[1]) {
-            document.getElementById('2').style = "background: #dc6c85";
-        }
-        else {
-            if (document.getElementById('2').children[0]) {
-                if (document.getElementById('2').children[0].getAttribute('data-same') == 2) {
-                    document.getElementById('2').style = "background: #dc6c85";
-                }
-                if (document.getElementById('2').children[0].getAttribute('data-same') == 1) {
-                    if (document.getElementById('2').children[0].getAttribute('data-place') == 2) {
-                        document.getElementById('2').style = "background: #a1dd6f";
-                        count++;
-                    }
-                    else{
-                        document.getElementById('2').style = "background: #dc6c85";
-                    }
-                }
-            }
-            else {
-                document.getElementById('2').style = "background: #dc6c85";
-            }
-        }
-        ////td8
-        if (document.getElementById('8').children[1]) {
-            document.getElementById('8').style = "background: #dc6c85";
-        }
-        else {
-            if (document.getElementById('8').children[0]) {
-                if (document.getElementById('8').children[0].getAttribute('data-same') == 2) {
-                    document.getElementById('8').style = "background: #dc6c85";
-                }
-                if (document.getElementById('8').children[0].getAttribute('data-same') == 1) {
-                    if (document.getElementById('8').children[0].getAttribute('data-place1') == 8) {
-                        document.getElementById('8').style = "background: #a1dd6f";
-                        count++;
-                    }
-                    else{
-                        document.getElementById('8').style = "background: #dc6c85";
-                    }
-                }
-            }
-            else {
-                document.getElementById('8').style = "background: #dc6c85";
-            }
-        }
-        ////td9
-        if (document.getElementById('9').children[1]) {
-            document.getElementById('9').style = "background: #dc6c85";
-        }
-        else {
-            if (document.getElementById('9').children[0]) {
-                if (document.getElementById('9').children[0].getAttribute('data-same') == 2) {
-                    document.getElementById('9').style = "background: #dc6c85";
-                }
-                if (document.getElementById('9').children[0].getAttribute('data-same') == 1) {
-                    if (document.getElementById('9').children[0].getAttribute('data-place1') == 9) {
-                        document.getElementById('9').style = "background: #a1dd6f";
-                        count++;
-                    }
-                    else{
-                        document.getElementById('9').style = "background: #dc6c85";
-                    }
-                }
-            }
-            else {
-                document.getElementById('9').style = "background: #dc6c85";
-            }
-        }
-        ////td4-td5-td7-td10-td11
-        myDragArray.forEach(element => {
-            if (element.getAttribute('data-placeFive') != null) {
-                if (element.children[1]) {
-                    element.style = "background: #dc6c85";
-                }
-                else
-                    if (element.children[0]) {
-                        if (element.children[0].getAttribute('data-same') == 2) {
-                            element.style = "background: #dc6c85";
-                        }
-                        if (element.children[0].getAttribute('data-same') == 1) {
-                            if (element.children[0].getAttribute('data-placeFive') == element.getAttribute('data-placeFive')) {
-                                element.style = "background: #a1dd6f";
-                                count++;
-                            }
-                            else {
-                                element.style = "background: #dc6c85";
-                            }
-                        }
-                    }
-                    else {
-                        element.style = "background: #dc6c85";
-                    }
-            }
+
+
         });
-
-
-
     }
 
     this.completGame = () => {
@@ -238,17 +94,21 @@ function computerGames() {
         completedBtn.setAttribute('disabled', 'true');
     }
 
-    this.init = () => {
-        count = 0;
-        document.getElementById('12').style = '';
+
+    this.init = (e) => {
+        myArray.forEach(element => {
+          //   document.getElementById(element.getAttribute("data-place"))
+          //     .insertBefore(element, document.getElementById(element.getAttribute("data-place")).firstChild);
+          if(element.getAttribute("data-end") == "1"){
+              parent1.appendChild(element)
+          }
+        });
         myDragArray.forEach(element => {
             element.style = '';
-            $(element).empty()
         });
 
-
-
         completedBtn.removeAttribute('disabled');
+
     }
 
 
@@ -257,7 +117,5 @@ function computerGames() {
 
 
 }
-
-
 
 const computergame = new computerGames();
