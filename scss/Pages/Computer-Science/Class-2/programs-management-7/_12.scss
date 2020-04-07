@@ -42,17 +42,73 @@
         }
     }
     &-img_12_8 {
+        position: relative;
+        height: 32.9vh;
+
+        .class_2_7_game__dropArea {
+            background-color: #fff;
+            border-radius: 8px;
+            width: 6.003vw;
+            height: 10.477vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                width: 95%;
+                height: max-content;
+                margin: 0;
+            }
+
+            &:nth-child(2){
+                position: absolute;
+                left: 0.532vw;
+                top: 50%;
+                transform: translateY(-50%);
+            }   
+
+            &:nth-child(3){
+                position: absolute;
+                left: 7.657vw;
+                top: 50%;
+                transform: translateY(-50%);
+            }   
+            &:nth-child(4){
+                position: absolute;
+                left: 14.781vw;
+                top: 50%;
+                transform: translateY(-50%);
+            }   
+            &:nth-child(5){
+                position: absolute;
+                left: 21.905vw;
+                top: 50%;
+                transform: translateY(-50%);
+            }   
+            &:nth-child(6){
+                position: absolute;
+                left: 29.03vw;
+                top: 50%;
+                transform: translateY(-50%);
+            }   
+            &:nth-child(7){
+                position: absolute;
+                left: 36.154vw;
+                top: 50%;
+                transform: translateY(-50%);
+            }   
+            &:nth-child(8){
+                position: absolute;
+                left: 43.011vw;
+                top: 50%;
+                transform: translateY(-50%);
+            }   
+        }
+
         img {
             height: 32.9vh;
             max-height: 253px; 
-        }
-    }
-    &-img_12_9 {
-        position: fixed;
-        bottom: 27vh;
-        img {
-            height: 10.62vh;
-            max-height: 81.6px;
+            width: initial;
         }
     }
 }
