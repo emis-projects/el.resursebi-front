@@ -32925,6 +32925,45 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   margin-top: 7.2vh;
 }
 
+.cs-cycles-image-box_11 {
+  height: 59vh;
+  max-height: 454px;
+}
+
+.cs-cycles-image-box_11 img {
+  height: 100%;
+}
+
+.cs-cycles-image-box_10 {
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  height: 59vh;
+  max-height: 454px;
+}
+
+.cs-cycles-image-box_10 img {
+  height: 100%;
+}
+
+.cs-cycles-image-box_11 {
+  height: 41vh;
+  max-height: 321px;
+}
+
+.cs-cycles-image-box_11 img {
+  height: 100%;
+}
+
+.cs-cycles-image-box_12 {
+  height: 51vh;
+  max-height: 397px;
+}
+
+.cs-cycles-image-box_12 img {
+  height: 100%;
+}
+
 body {
   color: #262626;
   font-size: 14px;
@@ -34818,3 +34857,4 @@ body {
     font-size: 14px;
   }
 }
+/*# sourceMappingURL=new-style.css.map */
