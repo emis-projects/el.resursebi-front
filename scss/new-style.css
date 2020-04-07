@@ -32543,7 +32543,7 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .cs-2-7-8-img-bg {
-  height: 9.89vh;
+  height: 7.03vh;
 }
 
 .cs-2-7-9-div-img {
@@ -32560,18 +32560,47 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
           justify-content: space-evenly;
 }
 
+.cs-2-7-8-imgs-div img.error {
+  background-color: initial;
+}
+
+.cs-2-7-8-imgs-div img.draggedElement {
+  height: 7.03vh;
+}
+
 .cs-2-7-8-btn {
-  height: 6.9vh;
   width: 19.47vw;
-  -webkit-box-shadow: 2px 2px 8px #947DCE66;
-          box-shadow: 2px 2px 8px #947DCE66;
-  border-radius: 5vh;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  -webkit-box-shadow: initial;
+          box-shadow: initial;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .cs-2-7-8-btn .cs-2-7-8-btn-txt {
+  height: 6.9vh;
+  padding: 5px;
+  border-radius: 5vh;
+  -webkit-box-shadow: 2px 2px 8px #947DCE66;
+          box-shadow: 2px 2px 8px #947DCE66;
   color: #947DCE;
   font-size: 2.3vh;
   line-height: 3vh;
+}
+
+.cs-2-7-8-btn img {
+  margin-top: 10px;
+}
+
+.cs-2-7-8-btn img.error, .cs-2-7-8-btn img.success {
+  border-radius: 8px;
 }
 
 .cs-2-7-8-img {
@@ -32579,7 +32608,7 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .cs-2-7-8-img-bg {
-  height: 9.89vh;
+  height: 7.03vh;
 }
 
 .cs-2-7-5-1-img-div {
@@ -32602,48 +32631,61 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 41vh;
   max-height: 321px;
 }
+
 .cs-programing-image-box_4 img {
   height: 100%;
 }
+
 .cs-programing-image-box_5 {
   height: 44vh;
   max-height: 341px;
 }
+
 .cs-programing-image-box_5 img {
   height: 100%;
 }
+
 .cs-programing-image-box_13 {
   height: 33.7vh;
   max-height: 259px;
 }
+
 .cs-programing-image-box_13_btn {
   height: 10vh;
   max-height: 65px;
 }
+
 .cs-programing-image-box_13_btn img {
   height: 100%;
 }
+
 .cs-programing-image-box_13 img {
   height: 100%;
 }
+
 .cs-programing-image-box_12 {
   height: 36.7vh;
   max-height: 280px;
 }
+
 .cs-programing-image-box_12_btn {
   height: 10vh;
   max-height: 65px;
 }
+
 .cs-programing-image-box_12_btn img {
   height: 100%;
 }
+
 .cs-programing-image-box_12 img {
   height: 100%;
 }
+
 .cs-programing-image-box_14 {
   height: 40vh;
   max-height: 340px;
 }
+
 .cs-programing-image-box_14 img {
   height: 100%;
 }
