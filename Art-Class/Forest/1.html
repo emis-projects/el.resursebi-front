@@ -1,24 +1,21 @@
 <!DOCTYPE html>
-<html data-botid="2318" lang="ka">
+<!-- ბოტის აიდიში ვუთითებთ: ხელოვნების - 2318, ბუნების - 2320, მუსიკის - 2292 -->
+<html lang="ka" data-botid="2318">
 
 <head>
-    <meta charset="UTF-8"/>
-    <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <!-- ყველა გვერდზე -->
     <script src="../../js/vue.js"></script>
     <!--  ვუე გაშვებისას
-      <script src="./js/vue.min.js"></script>
-       -->
-  
-    <link href="../../New-header-vue/animate.min.css" rel="stylesheet">
-    <link href="../../scss/libraries/bootstrap.min.css" rel="stylesheet">
-    <link href="../../scss/libraries/magnific-popup.css" rel="stylesheet">
-
+    <script src="./js/vue.min.js"></script>
+     -->
+    <link rel="stylesheet" href="../../scss/libraries/bootstrap.min.css">
+    <link rel="stylesheet" href="../../New-header-vue/animate.min.css">
+    <link rel="stylesheet" href="../../scss/libraries/magnific-popup.css">
     <link rel="stylesheet" type="text/css" href="../../scss/libraries/owl.carousel.min.css" />
     <link rel="stylesheet" type="text/css" href="../../scss/libraries/owl.theme.default.css" />
-    <link rel="stylesheet" href="../../scss/libraries/magnific-popup.css" />
-
-    <link href="../../scss/new-style.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="../../scss/new-style.css" />
     <title>ელექტრონული საგანმანათლებლო რესურსი</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
@@ -36,78 +33,69 @@
 </head>
 
 <body>
-<div class="container">
-    <section class="container position-absolute" id="app">
-        <header>
-            <app-menu :is-active="isActive" :toggle="toggle" v-logo="'../../'"></app-menu>
-        </header>
+    <div class="container">
+        <section id="app" class="container position-absolute">
+            <header>
+                <app-menu v-logo="'../../'" :is-active="isActive" :toggle="toggle"></app-menu>
+            </header>
 
-        <app-section :is-active="isActive" v-image="'../../'">
-            <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger"
-                     v-on:link-tab="link = $event">
+            <app-section v-image="'../../'" :is-active="isActive">
+                <app-bar :is-active="isActive" :trigger="trigger" :dots="dots" :current-tab="link"
+                    v-on:link-tab="link = $event">
 
-            </app-bar>
-            <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive"
-                       :path="path" :tab-class="currentTabComponent" :trigger="trigger">
-            </component>
-        </app-section>
-    </section>
-
-
-    <section class="Forest-1">
-            <div class="adventure-1_image-box">
-                  <div class="owl-carousel owl-theme">
-                      <div class="item">
-                          <img src="../../img/gakvetilebi/xelovneba/forest/1366-03-1.jpg" alt="calm & stormy" />
-                      </div>
-                      <div class="item">
-                          <img src="../../img/gakvetilebi/xelovneba/forest/1366-03-2.jpg" alt="calm & stormy" />
-                      </div>
-                  </div>
+                </app-bar>
+                <component :path="path" :is="currentTabComponent" :is-active="isActive" :trigger="trigger"
+                    :images="images" :active-class="activeClass" :tab-class="currentTabComponent">
+                </component>
+            </app-section>
+        </section>
+        <section id="mainPage">
+            <div class="row">
+                <div class="main-box_absolute">
+                    <div class="main-box_relative">
+                        <div class="owl-carousel owl-theme">
+                            <div class="item">
+                                <p class="carousel_text text-center">ტყე</p>
+                                <img src="../../img/gakvetilebi/xelovneba/forest/1366-03-1.jpg" alt="calm & stormy" />
+                            </div>
+                            <div class="item">
+                                <p class="carousel_text text-center">ტყე</p>
+                                <img src="../../img/gakvetilebi/xelovneba/forest/1366-03-2.jpg" alt="calm & stormy" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="our__pagination flex">
+                    <a href="#" class="pagination__prev__btn">
+                        <img style="transform: rotate(180deg)" src="../../img/icons/chevron-left-icon.svg" alt="">
+                    </a>
+                    <div id="pagination" class="flex align-items-center"></div>
+                    <a href="#" class="pagination__next__btn">
+                        <img src="../../img/icons/chevron-left-icon.svg" alt="">
+                    </a>
+                </div>
             </div>
-     
-        <div class="our__pagination flex">
-            <a class="pagination__prev__btn" href="#">
-                <img alt="" src="../../img/icons/chevron-left-icon.svg" style="transform: rotate(180deg)">
-            </a>
-
-            <div class="flex align-items-center" id="pagination"></div>
-
-            <a class="pagination__next__btn" href="#">
-                <img alt="" src="../../img/icons/chevron-left-icon.svg">
-            </a>
-        </div>
-    </section>
-</div>
+        </section>
+    </div>
 
 
-<!-- ჩეთბოტი -->
-<div id="chatBot">
-    <app-bot></app-bot>
-</div>
+    <!-- ჩეთბოტი -->
+    <div id="chatBot">
+        <app-bot></app-bot>
+    </div>
+
+    <script src="../../js/libraries/jquery-3.4.1.min.js"></script>
+    <script src="../../js/libraries/owl.carousel.min.js"></script>
+    <script src="../../js/Pagination.js"></script>
+    <script src="../../js/slider.js"></script>
 
 
-<script src="../../js/libraries/jquery-3.4.1.min.js"></script>
-<script src="../../js/libraries/jquery.magnific-popup.min.js"></script>
-<script src="../../js/Pagination.js"></script>
-<script src="../../js/libraries/owl.carousel.min.js"></script>
+    <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
+    <script src="../../New-header-vue/app.js"></script>
+    <script src="../../Vue-chatBot/botApp.js"></script>
+    <script src="../../js/bot.js"></script>
 
-<!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
-<script src="../../New-header-vue/app.js"></script>
-<script src="../../Vue-chatBot/botApp.js"></script>
-<script src="../../js/bot.js"></script>
-<script>
-      $(".owl-carousel").owlCarousel({
-          loop: true,
-          items: 1,
-          margin: 10,
-          autoplay: true,
-          autoplayTimeout: 3500,
-          pagination: false,
-          dots: false,
-          lazyLoad: true
-      });
-  </script>
+
 </body>
 
 </html>
