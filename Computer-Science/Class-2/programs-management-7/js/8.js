@@ -106,26 +106,13 @@ function game(){
 
 
     this.resetGame = () => {
-        dragElement1MyArray.forEach(w => {
-            let title = w.getAttribute('data-title');
-            let index = w.getAttribute('data-childIndex');
-
-            w.querySelector('a, p').classList.remove('a-blue');
-            w.querySelector('a, p').removeAttribute('href')
-            w.querySelector('a, p').removeAttribute('style')
-
-            w.querySelector('.DragGame—childs2').innerText = title;
-            w.querySelector('.DragGame—childs2').setAttribute('data-index', index);
-
-            $( "#differentGameDiv p" ).replaceWith( '<a class="sign-description-btn-title DragGame—childs2" draggable="true" data-index="2">ქვეითთა გადასასვლელი</a>');
-            $( "#differentGameDiv a").attr('href', "./6-1.html");
-            $( "#differentGameDiv a").attr('style', "color: #7fd1d8");
-            $( "#differentGameDiv a").attr('target', "_blank");
-        });
-
-        $(dragElement1).removeClass('error');
-        $(dragElement1).removeClass('success');
+        $(dragElement2).removeClass('error');
+        $(dragElement2).removeClass('success');
         completedGame.removeAttribute('disabled')
+
+        dragElement2MyArray.forEach(w => {
+            document.querySelector('.cs-2-7-8-imgs-div').append(w)
+        })
     }
 
     resetBtn.addEventListener('click', this.resetGame);

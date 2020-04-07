@@ -23768,12 +23768,6 @@ td img {
 
 .DragGame--Parent .error {
   background-color: #dc6c85;
-  background-color: #a1dd6f;
-}
-
-.DragGame--Parent .error p,
-.DragGame--Parent .error a {
-  color: #fff;
 }
 
 .DragGame--Parent .error p,
@@ -34824,4 +34818,3 @@ body {
     font-size: 14px;
   }
 }
-/*# sourceMappingURL=new-style.css.map */
