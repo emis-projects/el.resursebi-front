@@ -8,9 +8,6 @@ function computerGames() {
   var completedBtn = document.getElementById('completedGame');
   var resetBtn = document.getElementById('resetBtn');
 
-  var completedBtn = document.getElementById('completedGame');
-  var resetBtn = document.getElementById('resetBtn');
-
   $(DragGameChilds1).on('dragstart', (e) => this.dragStart(e));
   $(DragGameChilds1).on('dragend', (e) => this.dragEnd(e));
 
