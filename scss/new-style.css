@@ -32602,50 +32602,145 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 41vh;
   max-height: 321px;
 }
+
 .cs-programing-image-box_4 img {
   height: 100%;
 }
+
 .cs-programing-image-box_5 {
   height: 44vh;
   max-height: 341px;
 }
+
 .cs-programing-image-box_5 img {
   height: 100%;
 }
+
 .cs-programing-image-box_13 {
   height: 33.7vh;
   max-height: 259px;
 }
+
 .cs-programing-image-box_13_btn {
   height: 10vh;
   max-height: 65px;
 }
+
 .cs-programing-image-box_13_btn img {
   height: 100%;
 }
+
 .cs-programing-image-box_13 img {
   height: 100%;
 }
+
 .cs-programing-image-box_12 {
   height: 36.7vh;
   max-height: 280px;
 }
+
 .cs-programing-image-box_12_btn {
   height: 10vh;
   max-height: 65px;
 }
+
 .cs-programing-image-box_12_btn img {
   height: 100%;
 }
+
 .cs-programing-image-box_12 img {
   height: 100%;
 }
+
 .cs-programing-image-box_14 {
   height: 40vh;
   max-height: 340px;
 }
+
 .cs-programing-image-box_14 img {
   height: 100%;
+}
+
+.cs-5-3-5-div-img-1 {
+  height: 55.2vh;
+}
+
+.cs-5-3-5-div-img-2 {
+  height: 47.65vh;
+}
+
+.cs-5-3-15-img {
+  height: 48.82vh;
+}
+
+.cs-5-3 img {
+  height: 100%;
+}
+
+.cs-5-3-16-div-img-1 {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.cs-5-3-16-div-img-1 img {
+  height: 7.07vh;
+}
+
+.cs-5-3-16-div-img-2 {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.cs-5-3-16-div-img-2 img {
+  height: 19.1vh;
+}
+
+.cs-5-3-18-img {
+  height: 50vh;
+}
+
+.cs-5-3-19-img {
+  height: 45.31vh;
+}
+
+.background-cs-5-3-21 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/What-is-program-3/cs-5-3-21-img.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-5-3-22 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/What-is-program-3/cs-5-3-22-img.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-5-3-23 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/What-is-program-3/cs-5-3-23-img.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-5-3-24 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/What-is-program-3/cs-5-3-24-img.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-title-purple {
+  color: #62548A;
+  font-family: 'DejaVu Sans Oblique';
+  font-size: 3.64vh;
+}
+
+.background-cs-title-purple-cont {
+  padding-top: 10vh;
 }
 
 body {
@@ -34541,3 +34636,4 @@ body {
     font-size: 14px;
   }
 }
+/*# sourceMappingURL=new-style.css.map */
