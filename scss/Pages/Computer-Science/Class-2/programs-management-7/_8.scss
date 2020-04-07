@@ -23,7 +23,7 @@
         height:7.03vh
     }
     .cs-2-7-8-img-bg{
-        height:9.89vh;
+        height:7.03vh;
      }
 .cs-2-7-9-div-img{
     height:59.11vh;
@@ -35,20 +35,45 @@
     justify-content:space-evenly;
 }
 
+.cs-2-7-8-imgs-div {
+    img.error {
+        background-color: initial;
+    }
+
+    img.draggedElement {
+        height: 7.03vh;
+    }
+}
+
 .cs-2-7-8-btn{
-    height:6.9vh;
     width:19.47vw;
-    box-shadow: 2px 2px 8px #947DCE66;
-    border-radius: 5vh;
+    height: max-content;
+    box-shadow: initial;
+    display: flex;
+    flex-direction: column;
+
     .cs-2-7-8-btn-txt{
+        height:6.9vh;
+        padding: 5px;
+        border-radius: 5vh;
+        box-shadow: 2px 2px 8px #947DCE66;
         color:#947DCE;
         font-size:2.3vh;
         line-height: 3vh;
+    }
+
+    img {
+        margin-top: 10px;
+
+        &.error,
+        &.success {
+            border-radius: 8px;
+        }
     }
 }
     .cs-2-7-8-img{
         height:7.03vh
     }
     .cs-2-7-8-img-bg{
-        height:9.89vh;
+        height:7.03vh;
      }
