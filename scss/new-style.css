@@ -32983,68 +32983,30 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
-.cs-5-7-13-img {
+.cs-5-7-div-13-img {
   height: 45.31vh;
 }
 
-.cs-5-7-14-img {
+.cs-5-7-div-14-img {
   height: 56.64vh;
   position: absolute;
   bottom: 0;
   right: 4.41vw;
 }
 
-.cs-5-7-15-img {
+.cs-5-7-div-15-img {
   height: 53.25vh;
 }
 
-.cs-5-7-16-img {
+.cs-5-7-div-16-img {
   height: 20.57vh;
   position: absolute;
   top: 23.95vh;
   right: 17.2vw;
 }
 
-.cs-5-7 img {
+.cs-5-7-div img {
   height: 100%;
-}
-
-.background-cs-5-7-17 {
-  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/Infinite-cycles-7/cs-5-7-17-img.svg");
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.background-cs-5-7-18 {
-  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/Infinite-cycles-7/cs-5-7-18-img.svg");
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.background-cs-5-7-19 {
-  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/Infinite-cycles-7/cs-5-7-19-img.svg");
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.background-cs-5-7-20 {
-  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/Infinite-cycles-7/cs-5-7-20-img.svg");
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.background-cs-title-purple {
-  color: #62548A;
-  font-family: 'DejaVu Sans Oblique';
-  font-size: 3.64vh;
-}
-
-.background-cs-title-purple-cont {
-  padding-top: 10vh;
 }
 
 .Cycles {
@@ -33141,6 +33103,72 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 .cs-5-8-12-img {
   height: 28.38vh;
   margin: 10vh auto 0;
+}
+
+.cs-5-8-div-3-img {
+  height: 57vh;
+}
+
+.cs-5-8-div-4-img {
+  height: 41.53vh;
+}
+
+.cs-5-8-div-5-img {
+  height: 41.79vh;
+}
+
+.cs-5-8-div-6-img {
+  height: 15.88vh;
+}
+
+.cs-5-8-div-6-1-img {
+  height: 44.66vh;
+}
+
+.cs-5-8-div-6-2-img {
+  height: 46.48vh;
+}
+
+.cs-5-8-div img {
+  height: 100%;
+}
+
+.background-cs-5-7-17 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/Infinite-cycles-7/cs-5-7-17-img.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-5-7-18 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/Infinite-cycles-7/cs-5-7-18-img.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-5-7-19 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/Infinite-cycles-7/cs-5-7-19-img.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-5-7-20 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/Infinite-cycles-7/cs-5-7-20-img.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-title-purple {
+  color: #62548A;
+  font-family: 'DejaVu Sans Oblique';
+  font-size: 3.64vh;
+}
+
+.background-cs-title-purple-cont {
+  padding-top: 10vh;
 }
 
 body {
