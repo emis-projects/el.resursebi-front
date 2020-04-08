@@ -871,8 +871,8 @@ let title = {
         },
         {
             id: 10,
-            name: 'სათაური',
-            link: '#'
+            name: 'ტექსტური რედაქტორის გამოყენება ყოველდღიურ ცხოვრებაში',
+            link: 'Computer-Science/Class-4/text-editor-10/1.html'
         },
         {
             id: 11,
@@ -888,8 +888,8 @@ let title = {
     IT_5: [
         {
             id: 1,
-            name: 'კომპიუტერი 5 კლასი 1 გაკვ',
-            link: 'Computer-Science/Computer_parts/C-1366-01-01.html'
+            name: 'ობიექტები',
+            link: 'Computer-Science/Class-5/objects-1/1.html'
         },
         {
             id: 2,
@@ -898,8 +898,8 @@ let title = {
         },
         {
             id: 3,
-            name: 'კომპიუტერი 5 კლასი 3 გაკვ',
-            link: '#'
+            name: 'რა არის კომპიუტერული პროგრამა',
+            link: 'Computer-Science/Class-5/What-is-program-3/1.html'
         },
         {
             id: 4,
@@ -918,13 +918,13 @@ let title = {
         },
         {
             id: 7,
-            name: 'სათაური',
-            link: '#'
+            name: 'უსასრულო ციკლები',
+            link: 'Computer-Science/Class-5/Infinite-cycles-7/1.html'
         },
         {
             id: 8,
-            name: 'სათაური',
-            link: '#'
+            name: 'სასრულო ციკლები',
+            link: 'Computer-Science/Class-5/Cycles-8/1.html'
         },
         {
             id: 9,
