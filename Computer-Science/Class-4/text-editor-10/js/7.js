@@ -65,7 +65,7 @@ function game(){
     
 
     this.dragDrop = e => {
-        e.target.parentElement.appendChild(document.querySelector('.draggedElement'));
+        e.target.appendChild(document.querySelector('.draggedElement'));
     }
 
 
@@ -77,7 +77,7 @@ function game(){
         let el = dragElement2MyArray.every(this.checkEveryElement)
 
 		if(el == true){
-            location.href = "game-success-8.html"
+            location.href = "game-success-7.html"
 
         } else {
 
