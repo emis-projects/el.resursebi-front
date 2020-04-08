@@ -42,7 +42,40 @@
             max-height: 276.11px;
         }
     }
-
+    &-img_box_7 {
+        p{
+            font-size: 2.34vh;
+            color: #FFFFFF;
+            margin-top: 0.8vh;
+        }
+        img{
+            height: 9.11vh;
+            max-height: 70px;
+        }
+    }
+    &-title_item_1 {    
+        margin-left: 13vh;
+    }
+    &-title_item_2 {    
+        margin-left: 6vh;
+    }
+    &-title_item_3 {    
+        margin-left: 8vh;
+    }
+    &-title_item_4 {    
+        margin-left: 11vh;
+    }
+    &-title_item_5 {    
+        margin-left: 9vh;
+    }
+    &-title_item_6 {    
+        margin-left: 3vh;
+    }
+    &-sign-description-btn-title {
+        height: 4.69vh;
+        width: 4.69vh;
+        border-radius: 3vh;
+    }
     &-img_box_8 { 
         position: fixed;
         bottom: 0;  
