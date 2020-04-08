@@ -27695,6 +27695,59 @@ img.mfp-img[alt*=cs-3-6-6-img] {
   padding-top: 10vh;
 }
 
+.objects_box-image-15 {
+  height: 44vh;
+  max-height: 340px;
+}
+.objects_box-image-15 img {
+  height: 100%;
+}
+.objects_box-image-16 {
+  height: 62vh;
+  max-height: 478px;
+}
+.objects_box-image-16 img {
+  height: 100%;
+}
+.objects_box-image-17 {
+  height: 50vh;
+  max-height: 387px;
+}
+.objects_box-image-17 img {
+  height: 100%;
+}
+.objects_box-image-18 {
+  height: 55vh;
+  max-height: 424px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+.objects_box-image-18 img {
+  height: 100%;
+}
+.objects_box-image-19 {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  background: url("../img/gakvetilebi/Computer-Science/Class-5/objects-1/cs-5-1-19.svg") no-repeat center;
+  background-size: cover;
+}
+.objects_box-image-20 {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  background: url("../img/gakvetilebi/Computer-Science/Class-5/objects-1/cs-5-1-20.svg") no-repeat center;
+  background-size: cover;
+}
+.objects_box-image-20 {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  background: url("../img/gakvetilebi/Computer-Science/Class-5/objects-1/cs-5-1-21.svg") no-repeat center;
+  background-size: cover;
+}
+
 body {
   color: #262626;
   font-size: 14px;
