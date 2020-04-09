@@ -50,8 +50,23 @@ function computerGames() {
         let firstElement = e.target.parentElement.firstElementChild;
         if (e.target.parentElement.classList.contains('DragGame--Parent')) {
             //firstElement.remove();
+           
+
+            // var Eclass = e.target.parentElement.classList.value;
+            
+            // console.log(Eclass)
+            
+            // e.target.parentElement.classList = dragParent.classList;
+            // console.log(Eclass)
             e.target.parentElement.appendChild(drag);
+            
+
             dragParent.appendChild(firstElement)
+
+            //dragParent.classList.value = Eclass;
+            
+           
+            
         }
     }
 
@@ -105,6 +120,7 @@ function computerGames() {
             $(element).removeClass("success");
         });
         DragGameParent.forEach(element => {
+            console.log(element)
             element.appendChild(document.getElementById(element.getAttribute('data-place')));
 
         });
