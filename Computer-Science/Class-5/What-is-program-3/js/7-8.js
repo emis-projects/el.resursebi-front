@@ -108,6 +108,7 @@ function computerGames() {
 
 
     this.completGame = () => {
+        completedBtn.setAttribute('disabled', 'true');
         this.successPage();
     }
     
@@ -124,6 +125,7 @@ function computerGames() {
             element.appendChild(document.getElementById(element.getAttribute('data-place')));
 
         });
+        completedBtn.removeAttribute('disabled');
     }
 
     resetBtn.addEventListener('click', () => this.init());
