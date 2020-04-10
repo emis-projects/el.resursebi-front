@@ -33586,6 +33586,21 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
+.Class_5_8-title_item_18 {
+  font-style: italic;
+  color: #62548A;
+  font-family: 'DejaVu Sans Oblique';
+  font-size: 3.64vh;
+}
+
+.Class_5_8-image_18 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/Cycles-8/C-5-8-18.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
 .background-cs-5-7-17 {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-5/Infinite-cycles-7/cs-5-7-17-img.svg");
   background-position: top center;
@@ -35668,3 +35683,4 @@ body {
     font-size: 14px;
   }
 }
+/*# sourceMappingURL=new-style.css.map */
