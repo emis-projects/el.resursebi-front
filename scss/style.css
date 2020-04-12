@@ -651,6 +651,7 @@
 .chat_position {
   right: 15px;
   bottom: 100px;
+  z-index: 520;
   border-radius: 30px;
   overflow: hidden;
   -webkit-box-shadow: 1px 1px 7px 3px #7FD1D866;
@@ -10342,6 +10343,7 @@ section .arrow_up_down_downArrow img {
 .chat_position {
   right: 15px;
   bottom: 100px;
+  z-index: 520;
   border-radius: 30px;
   overflow: hidden;
   -webkit-box-shadow: 1px 1px 7px 3px #7FD1D866;
