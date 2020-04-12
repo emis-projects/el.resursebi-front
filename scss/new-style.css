@@ -26448,7 +26448,7 @@ td img {
 }
 
 .function-15-box_3 {
-  height: 35vh;
+  height: 37vh;
   max-height: 274px;
 }
 
@@ -26464,21 +26464,30 @@ td img {
 .function-15-box_3-one .purple___puzzle {
   margin-top: -7px;
   width: 16.5vw;
+  margin-left: 0.7vw;
 }
 
 .function-15-box_3-one .blue___puzzle {
   width: 12vw;
   margin-top: -8px;
+  margin-left: 0.3vw;
+}
+.function-15-box_3-one .blue___puzzle1 {
+  width: 12vw;
+  margin-top: -8px;
+  margin-left: 0.7vw;
 }
 
 .function-15-box_3-one .yellow___puzzle {
   margin-top: -8px;
   width: 13vw;
+  margin-left: 0.4vw;
 }
 
 .function-15-box_3-one .red___puzzle {
   width: 14vw;
-  margin-top: -8px;
+  margin-top: -7px;
+  margin-left: 0.4vw;
 }
 
 .function-15-box_3-two {
@@ -26505,22 +26514,37 @@ td img {
 
 .function-15-box_3-three .purple___puzzle {
   margin-top: -7px;
-  width: 17.5vw;
+  width: 12vw;
+  height: 3.1vw; /* add */
+  margin-left: 0.794vw;
 }
 
 .function-15-box_3-three .blue___puzzle {
-  width: 12vw;
-  margin-top: -8px;
+  width: 8vw;
+  margin-top: -7px;
+  height: 3.1vw; /* add */
+  margin-left: 0.84vw;
+}
+.function-15-box_3-three .blue___puzzle1 {
+  width: 9.5vw;
+  margin-top: -7px;
+  height: 3.1vw; /* add */
+  margin-left: 0.85vw;
 }
 
 .function-15-box_3-three .yellow___puzzle {
-  margin-top: -8px;
-  width: 13vw;
+  margin-top: -7px;
+  width: 8.5vw;
+  height: 3.1vw; /* add */
+  margin-left: 0.84vw;
 }
 
 .function-15-box_3-three .red___puzzle {
-  width: 14vw;
-  margin-top: -8px;
+  width: 9.5vw;
+  margin-top: -7px;
+  height: 3.1vw; /* add */
+  margin-left: 0.9vw;
+
 }
 
 .image-box-programing-17 {
