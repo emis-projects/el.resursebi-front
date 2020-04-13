@@ -24578,6 +24578,10 @@ td img {
   margin-top: 1vh;
 }
 
+img.mfp-img[alt*="cs-2-4-18-img"] {
+  height: 85vh !important;
+}
+
 .cs-2-4-19-ill-img {
   height: 50vh;
   position: relative;
@@ -26448,7 +26452,7 @@ td img {
 }
 
 .function-15-box_3 {
-  height: 37vh;
+  height: 35vh;
   max-height: 274px;
 }
 
@@ -26464,30 +26468,21 @@ td img {
 .function-15-box_3-one .purple___puzzle {
   margin-top: -7px;
   width: 16.5vw;
-  margin-left: 0.7vw;
 }
 
 .function-15-box_3-one .blue___puzzle {
   width: 12vw;
   margin-top: -8px;
-  margin-left: 0.3vw;
-}
-.function-15-box_3-one .blue___puzzle1 {
-  width: 12vw;
-  margin-top: -8px;
-  margin-left: 0.7vw;
 }
 
 .function-15-box_3-one .yellow___puzzle {
   margin-top: -8px;
   width: 13vw;
-  margin-left: 0.4vw;
 }
 
 .function-15-box_3-one .red___puzzle {
   width: 14vw;
-  margin-top: -7px;
-  margin-left: 0.4vw;
+  margin-top: -8px;
 }
 
 .function-15-box_3-two {
@@ -26514,37 +26509,22 @@ td img {
 
 .function-15-box_3-three .purple___puzzle {
   margin-top: -7px;
-  width: 12vw;
-  height: 3.1vw; /* add */
-  margin-left: 0.794vw;
+  width: 17.5vw;
 }
 
 .function-15-box_3-three .blue___puzzle {
-  width: 8vw;
-  margin-top: -7px;
-  height: 3.1vw; /* add */
-  margin-left: 0.84vw;
-}
-.function-15-box_3-three .blue___puzzle1 {
-  width: 9.5vw;
-  margin-top: -7px;
-  height: 3.1vw; /* add */
-  margin-left: 0.85vw;
+  width: 12vw;
+  margin-top: -8px;
 }
 
 .function-15-box_3-three .yellow___puzzle {
-  margin-top: -7px;
-  width: 8.5vw;
-  height: 3.1vw; /* add */
-  margin-left: 0.84vw;
+  margin-top: -8px;
+  width: 13vw;
 }
 
 .function-15-box_3-three .red___puzzle {
-  width: 9.5vw;
-  margin-top: -7px;
-  height: 3.1vw; /* add */
-  margin-left: 0.9vw;
-
+  width: 14vw;
+  margin-top: -8px;
 }
 
 .image-box-programing-17 {
@@ -32179,6 +32159,13 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .cs-network-box-5-1 img {
   height: 100%;
+}
+
+.cs-network .title-59 h1 {
+  font-size: 28px;
+  font-style: italic;
+  font-family: 'DejaVu Sans Oblique';
+  color: #62548a;
 }
 
 .cs-network .title {
