@@ -779,8 +779,8 @@ let title = {
         },
         {
             id: 4,
-            name: 'კომპიუტერი 3 კლასი 4 გაკვ',
-            link: '#'
+            name: 'ალგორითმი და ალგორითმის შემუშავება',
+            link: 'Computer-Science/Class-3/algorithmes-4/1.html'
         },
         {
             id: 5,
