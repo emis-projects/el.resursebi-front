@@ -223,7 +223,7 @@ Vue.component('appStart', {
                         <div class="col-4 main-lesson-start-cont">
                           <img alt="computer" :src="images.IT" class="main-lesson-start-img" />
                           <div class="new_btn-start-cont">
-                            <a @click="trigger('select', 'კომპიუტერული მეცნიერება')" class="new_btn-start">კომპიუტერული მეცნიერება</a>
+                            <a @click="trigger('select', 'კომპიუტერული ტექნოლოგიები')" class="new_btn-start">კომპიუტერული ტექნოლოგიები</a>
                           </div>
                         </div>
                      </div>
@@ -317,7 +317,7 @@ Vue.component('appSelect', {
                     <div class="col-12">
                         <h5 class="app-select_title">{{ activeClass }}</h5>
                     </div>
-                    <div v-if="activeClass === 'კომპიუტერული მეცნიერება'" class="col-12 mt-5">
+                    <div v-if="activeClass === 'კომპიუტერული ტექნოლოგიები'" class="col-12 mt-5">
                     <div class="row">
                             <div class="col-4">
                                 <div class="class_box d-flex justify-content-between">
@@ -381,7 +381,7 @@ Vue.component('appSelect', {
                 </div>
                 <div class="row app-select_artwork">
                     <div class="col-12">
-                        <div v-if="activeClass !== 'კომპიუტერული მეცნიერება'" class="app-select_artwork_image-box ml-auto">
+                        <div v-if="activeClass !== 'კომპიუტერული ტექნოლოგიები'" class="app-select_artwork_image-box ml-auto">
                             <img :src="artImage" alt="art">
                         </div>
                     </div>

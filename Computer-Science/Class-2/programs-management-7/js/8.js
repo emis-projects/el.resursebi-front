@@ -111,7 +111,7 @@ function game(){
         completedGame.removeAttribute('disabled')
 
         dragElement2MyArray.forEach(w => {
-            document.querySelector('.cs-2-7-8-imgs-div').append(w)
+            document.querySelector('.DragGame—reset--parent').append(w)
         })
     }
 
