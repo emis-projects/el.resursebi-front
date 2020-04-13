@@ -769,8 +769,8 @@ let title = {
         },
         {
             id: 2,
-            name: 'ალგორითმი და ალგორითმის შემუშავება',
-            link: 'Computer-Science/Class-3/algorithmes-02/1.html'
+            name: 'კომპიუტერის დამატებითი და ძირითადი მოწყობილობები',
+            link: 'Computer-Science/Class-3/computer-equipment-2/1.html'
         },
         {
             id: 3,
