@@ -888,8 +888,8 @@ let title = {
     IT_5: [
         {
             id: 1,
-            name: 'ობიექტები',
-            link: 'Computer-Science/Class-5/objects-1/1.html'
+            name: 'პირობითი ნიშნები კომპიუტერულ პროგრამებში',
+            link: 'Computer-Science/Class-5/conditional-marks-1/1.html'
         },
         {
             id: 2,

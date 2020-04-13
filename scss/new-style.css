@@ -28102,6 +28102,18 @@ img.mfp-img[alt*=cs-3-6-6-img] {
   margin-top: 16vh;
 }
 
+.conditional_page-7 {
+  height: 56vh;
+  max-height: 430px;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.conditional_page-7 img {
+  height: 100%;
+}
+
 body {
   color: #262626;
   font-size: 14px;
