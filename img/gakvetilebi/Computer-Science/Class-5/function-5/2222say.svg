@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="262.702" height="61.532" viewBox="0 0 262.702 61.532">
+  <g id="Group_40114" data-name="Group 40114" transform="translate(-300.382 -604.468)">
+    <g id="Group_39975" data-name="Group 39975" transform="translate(-324.176 -87.778)">
+      <path id="Path_44577" data-name="Path 44577" d="M883.688,692.246H676.781l-9.522,9.186H650.924l-10.2-8.846H628.768a6.185,6.185,0,0,1-1.011-.3,3.561,3.561,0,0,0-3.2,3.536V741.5a3.573,3.573,0,0,0,3.572,3.572h12.75l10.044,8.709h16.335l9.026-8.709h207.4a3.573,3.573,0,0,0,3.572-3.572V695.818A3.572,3.572,0,0,0,883.688,692.246Z" fill="#8f6ef6"/>
+      <text id="say" transform="translate(650.395 724.577)" fill="#fff" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="-11.336" y="0">say</tspan></text>
+      <text id="for" transform="translate(739.405 724.577)" fill="#fff" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="-9.973" y="0">for</tspan></text>
+      <text id="seconds" transform="translate(839.356 723.045)" fill="#fff" font-size="15" font-family="SegoeUI, Segoe UI"><tspan x="-26.807" y="0">seconds</tspan></text>
+      <rect id="Rectangle_5912" data-name="Rectangle 5912" width="52.114" height="23.747" rx="11.874" transform="translate(670.436 705.731)" fill="#fff"/>
+      <rect id="Rectangle_5913" data-name="Rectangle 5913" width="43.892" height="36.747" rx="15.07" transform="translate(758.702 699.731)" fill="#fff"/>
+      <text id="hello_" data-name="hello!" transform="matrix(0.998, 0.07, -0.07, 0.998, 695.862, 719.767)" font-size="11" font-family="SegoeUI, Segoe UI"><tspan x="-13.438" y="0">hello!</tspan></text>
+      <text id="_2" data-name="2" transform="translate(781.588 723.045)" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="-4.313" y="0">2</tspan></text>
+    </g>
+    <g id="Group_39971" data-name="Group 39971" transform="translate(-70.828 -25.304)">
+      <rect id="Rectangle_5907" data-name="Rectangle 5907" width="57.87" height="34.265" rx="15.07" transform="translate(414.828 637.065)" fill="#ee7082"/>
+      <text id="for_say" data-name="for say" transform="translate(443.828 659.304)" fill="#fff" font-size="13" font-family="SegoeUI, Segoe UI"><tspan x="-19.094" y="0">for say</tspan></text>
+    </g>
+  </g>
+</svg>

@@ -67,12 +67,12 @@ function computerGames() {
                     }
                 }
                 if(e.target.getAttribute('data-child') == 7 && clone.getAttribute('data-child') == 6){
-                    e.target.src = "../../../img/gakvetilebi/Computer-Science/Class-5/function-5/1111111.svg";
+                    e.target.src = "../../../img/gakvetilebi/Computer-Science/Class-5/function-5/1111spin.svg";
                     e.target.setAttribute('data-previous', 1111)
                     $(e.target).removeClass("myDrag");
                 }
                 if(e.target.getAttribute('data-child') == 3 && clone.getAttribute('data-child') == 2){
-                    e.target.src = "../../../img/gakvetilebi/Computer-Science/Class-5/function-5/2222222222.svg";
+                    e.target.src = "../../../img/gakvetilebi/Computer-Science/Class-5/function-5/2222say.svg";
                     e.target.setAttribute('data-previous', 1111)
                     $(e.target).removeClass("myDrag");
                 }
