@@ -28113,6 +28113,64 @@ img.mfp-img[alt*=cs-3-6-6-img] {
 .conditional_page-7 img {
   height: 100%;
 }
+.conditional_page-8_text-box {
+  color: #947DCE;
+  font-size: 13px;
+  font-family: "DejaVu Sans";
+  box-shadow: 2px 2px 8px #947DCE66;
+  border-radius: 25px;
+  height: 50px;
+  width: 162px;
+  max-height: 6.5vh;
+  max-width: 13vw;
+  text-align: center;
+  padding: 0 15px;
+}
+.conditional_page-8 .flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.conditional_page-8 .flex .box {
+  max-height: 51px;
+  flex: 1 0 21%;
+  height: 6.6vh;
+  max-width: 51px;
+  width: 6.6vh;
+}
+.conditional_page-8 .flex .box img {
+  height: 100%;
+}
+.conditional_page-9 {
+  height: 55vh;
+  max-height: 420px;
+  position: fixed;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+}
+.conditional_page-9 img {
+  height: 100%;
+}
+.conditional_page-10 {
+  height: 40vh;
+  max-height: 307px;
+}
+.conditional_page-10 img {
+  height: 100%;
+}
+.conditional_page-12 {
+  height: 50vh;
+  max-height: 382px;
+}
+.conditional_page-12 .small-box {
+  max-height: 156px;
+}
+.conditional_page-12 .small-box img {
+  height: 100%;
+}
+.conditional_page-12 img {
+  height: 100%;
+}
 
 body {
   color: #262626;
