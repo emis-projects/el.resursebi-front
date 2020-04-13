@@ -1,0 +1,172 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="460.762" viewBox="0 0 720 460.762">
+    <defs>
+        <style>
+            .a{fill:#eadff1;}.b{fill:#b3b3b3;}.c{fill:#949494;}.d,.q{fill:none;stroke-miterlimit:10;}.d{stroke:#000;stroke-width:2.818px;}.e{fill:#6a676b;}.f{fill:#d0d1d6;}.g{fill:#36475a;}.h{fill:#25303d;}.i{fill:#d4dce2;}.j{fill:#c5ced3;}.k{fill:#1b3c54;}.l{fill:#1f4873;}.m{fill:#f2f2f2;}.n{fill:#2f3237;}.o{fill:#fff;}.p{fill:#5b6468;}.q{stroke:#5b6468;stroke-width:0.559px;}.r{fill:#302f30;}.s{fill:red;}.t{fill:lime;}
+        </style>
+    </defs>
+    <g transform="translate(-335.538 -167.279)">
+        <path class="a"
+              d="M946.355,539.534c33.5-29.2,115.765-100.91,108.763-189.138-8.123-102.345-133.268-187.97-237.465-182.9-83.961,4.083-109.146,64.858-261.029,141.335-38.6,19.437-82.712,17.222-121.127,34.616-36.11,16.35-68.526,43.1-86.366,79.023-27.465,55.3-13.392,125.412,42.955,154.858,49.468,25.85,108.233,31.8,162.726,39.111C662.538,630.9,817.656,651.718,946.355,539.534Z"
+              transform="translate(0 0)"/>
+        <g transform="translate(405.26 400.557)">
+            <path class="b" d="M409.3,537.221H954.715L902.965,414.07h-418.9Z" transform="translate(-409.299 -414.07)"/>
+            <rect class="c" width="545.416" height="19.302" transform="translate(0 123.151)"/>
+        </g>
+        <g transform="translate(444.915 430.999)">
+            <path d="M495.081,450.256c-13.319,1-28.129,2.691-32.03,3.956a3.659,3.659,0,0,0-.76.32c-1.731,1.052-3.4,4.675-4.715,8.71l-5.367,8.843-.958-.173c.519-2.876,3.409-17.407,8.95-20.79a20.4,20.4,0,0,1,5.714-1.612c8.989-1.678,24.957-2.943,28.86-3.236Z"
+                  transform="translate(-451.251 -446.275)"/>
+        </g>
+        <path class="d"
+              d="M884.153,449.2s-107.784-42.762-130.828-21.427-98.121-7.423-110.015-3.451-76.864-3.962-76.864-3.962"
+              transform="translate(-12.643 -13.858)"/>
+        <path class="d"
+              d="M566.447,424.555c14.522,14.114,29.2,28.165,50.78,27.7,15.754-.339,31.085-4.261,46.692-5.862,9.112-.934,24.98-4.244,32.355,3.04"
+              transform="translate(-12.643 -14.087)"/>
+        <g transform="translate(576.493 290.422)">
+            <rect class="e" width="19.831" height="23.03" transform="translate(97.538 127.944)"/>
+            <rect class="f" width="209.909" height="128.812" rx="5.414"/>
+            <g transform="translate(59.733 148.239)">
+                <path class="g" d="M653.643,462.29v-3.948c0-2.19,20.253-3.96,45.221-3.96s45.219,1.77,45.219,3.96v3.948Z"
+                      transform="translate(-653.643 -454.382)"/>
+            </g>
+            <g transform="translate(88.031 120.046)">
+                <rect class="h" width="37.699" height="4.686"/>
+            </g>
+            <rect class="h" width="209.828" height="115.149" rx="6.453"/>
+        </g>
+        <g transform="translate(794.767 356.83)">
+            <path class="i"
+                  d="M911.389,484.182l-5.3-10.609-75.3-38.238v28.071s-1.618,3.536,5.676,8.177,61.887,34.259,61.887,34.259,5.746,3.315,9.283,1.769Z"
+                  transform="translate(-821.876 -371.508)"/>
+            <path class="j"
+                  d="M954.16,457.081v27.186a8.21,8.21,0,0,1-2.726,5.084C949,491.339,920.6,507.916,920.6,507.916s-6.078,2.874-8.509.885v-30.06Z"
+                  transform="translate(-826.336 -372.697)"/>
+            <path class="k"
+                  d="M949.7,448.206V455.5a20.56,20.56,0,0,1-6.778,5.377c-4.494,2.285-24.975,14.588-27.48,15.767s-10.388,2.5-17.167-.736-62.421-35.549-63.25-36.157-4-1.989-4.239-4.808a56.5,56.5,0,0,1,.013-6.739Z"
+                  transform="translate(-821.879 -371.117)"/>
+            <path class="k" d="M941.712,438.108s9.428-27.9,9.208-28.56-51.057-29.4-51.057-29.4l-9.283,29.175Z"
+                  transform="translate(-825.158 -368.486)"/>
+            <path class="l"
+                  d="M932.471,433.323l14.29,8.611s6.631,4.421,0,10.388-32.049,17.24-32.049,17.24-7.072,4.42-21.219-3.316-60.782-35.585-60.782-35.585-5.746-5.3,2.652-10.167,29.4-16.8,29.4-16.8,11.244-3.548,18.345,1.325S932.471,433.323,932.471,433.323Z"
+                  transform="translate(-821.885 -369.707)"/>
+            <path class="m" d="M950.818,390.049l-15.51,47.144-42.647-23.549,16.418-45.834Z"
+                  transform="translate(-825.272 -367.81)"/>
+            <path class="n"
+                  d="M887.674,495.928V498.8l-13.262,7.344a21.676,21.676,0,0,1-18.124,0c-9.726-4.47-32.491-19.058-32.491-19.058s-3.7-2.569-1.968-6.292S887.674,495.928,887.674,495.928Z"
+                  transform="translate(-821.369 -373.97)"/>
+            <path class="o" d="M946.337,398.672l-12.908,39.237-35.494-19.6L911.6,380.163Z"
+                  transform="translate(-825.561 -368.487)"/>
+            <path class="p"
+                  d="M887.7,495.156c-.221-.664-15.252,9.062-15.252,9.062s-8.177,3.536-17.682-1.769-30.722-17.9-30.722-17.9-5.968-4.558,1.768-10.236A109.465,109.465,0,0,1,838.19,466.2Z"
+                  transform="translate(-821.395 -373.198)"/>
+            <path class="n" d="M879.142,489.456v-2.238l-30.468-18v2.412Z" transform="translate(-822.864 -373.363)"/>
+            <path class="o" d="M849.832,472.018l-15.251,9.18,27.628,16.68,15.251-9.946Z"
+                  transform="translate(-822.092 -373.516)"/>
+            <line class="q" x2="12.967" y2="7.368" transform="translate(19.341 107.195)"/>
+            <path class="q" d="M845.922,478.682c.332.111,17.351,10.72,17.351,10.72"
+                  transform="translate(-822.713 -373.881)"/>
+        </g>
+        <g transform="translate(479.302 310.348)">
+            <path class="l"
+                  d="M560.435,476.514H494.156a6.525,6.525,0,0,1-6.526-6.519V325.161a6.529,6.529,0,0,1,6.526-6.525h66.279a6.526,6.526,0,0,1,6.524,6.525V469.994A6.522,6.522,0,0,1,560.435,476.514Z"
+                  transform="translate(-487.63 -318.636)"/>
+            <g transform="translate(0 74.969)">
+                <path class="i"
+                      d="M566.959,472.57V397.948H487.63V472.57c0,4.577,2.926,8.286,6.526,8.286h66.279C564.037,480.856,566.959,477.147,566.959,472.57Z"
+                      transform="translate(-487.63 -397.948)"/>
+            </g>
+            <g transform="translate(54.324 55.453)">
+                <path class="r" d="M549.087,379.294a1.993,1.993,0,1,1-1.994-1.993A1.991,1.991,0,0,1,549.087,379.294Z"
+                      transform="translate(-545.101 -377.301)"/>
+                <g transform="translate(0.436 0.432)">
+                    <path class="s" d="M547.119,380.878a1.56,1.56,0,1,1,1.561-1.56A1.561,1.561,0,0,1,547.119,380.878Z"
+                          transform="translate(-545.562 -377.758)"/>
+                </g>
+                <g transform="translate(9.518 0.432)">
+                    <path class="t" d="M558.286,379.319a1.558,1.558,0,1,1-1.56-1.561A1.559,1.559,0,0,1,558.286,379.319Z"
+                          transform="translate(-555.17 -377.758)"/>
+                </g>
+            </g>
+            <g transform="translate(4.827 10.383)">
+                <rect class="i" width="69.675" height="18.112" rx="3.451"/>
+                <g transform="translate(0 20.899)">
+                    <rect class="i" width="69.675" height="18.115" rx="3.451"/>
+                </g>
+                <g transform="translate(60.571 23.999)">
+                    <rect width="6.443" height="2.989"/>
+                </g>
+                <g transform="translate(60.571 2.924)">
+                    <rect width="6.443" height="2.994"/>
+                </g>
+            </g>
+            <g transform="translate(0 149.313)">
+                <path class="l"
+                      d="M487.63,476.6v2.045a6.525,6.525,0,0,0,6.526,6.519h66.279a6.522,6.522,0,0,0,6.524-6.519V476.6Z"
+                      transform="translate(-487.63 -476.598)"/>
+            </g>
+            <g transform="translate(6.935 84.975)">
+                <circle cx="2.354" cy="2.354" r="2.354"/>
+                <circle cx="2.354" cy="2.354" r="2.354" transform="translate(10.006)"/>
+                <circle cx="2.354" cy="2.354" r="2.354" transform="translate(20.011)"/>
+                <circle cx="2.354" cy="2.354" r="2.354" transform="translate(30.017)"/>
+                <circle cx="2.354" cy="2.354" r="2.354" transform="translate(40.022)"/>
+                <circle cx="2.354" cy="2.354" r="2.354" transform="translate(50.028)"/>
+                <circle cx="2.354" cy="2.354" r="2.354" transform="translate(60.034)"/>
+                <g transform="translate(0 8.828)">
+                    <circle cx="2.354" cy="2.354" r="2.354"/>
+                    <circle cx="2.354" cy="2.354" r="2.354" transform="translate(10.006)"/>
+                    <circle cx="2.354" cy="2.354" r="2.354" transform="translate(20.011)"/>
+                    <circle cx="2.354" cy="2.354" r="2.354" transform="translate(30.017)"/>
+                    <circle cx="2.354" cy="2.354" r="2.354" transform="translate(40.022)"/>
+                    <circle cx="2.354" cy="2.354" r="2.354" transform="translate(50.028)"/>
+                    <circle cx="2.354" cy="2.354" r="2.354" transform="translate(60.034)"/>
+                </g>
+                <g transform="translate(0 17.657)">
+                    <circle cx="2.354" cy="2.354" r="2.354"/>
+                    <circle cx="2.354" cy="2.354" r="2.354" transform="translate(10.006)"/>
+                    <circle cx="2.354" cy="2.354" r="2.354" transform="translate(20.011)"/>
+                    <circle cx="2.354" cy="2.354" r="2.354" transform="translate(30.017)"/>
+                    <circle cx="2.354" cy="2.354" r="2.354" transform="translate(40.022)"/>
+                    <circle cx="2.354" cy="2.354" r="2.354" transform="translate(50.028)"/>
+                    <circle cx="2.354" cy="2.354" r="2.354" transform="translate(60.034)"/>
+                </g>
+                <g transform="translate(0 26.485)">
+                    <circle cx="2.354" cy="2.354" r="2.354"/>
+                    <circle cx="2.354" cy="2.354" r="2.354" transform="translate(10.006)"/>
+                    <circle cx="2.354" cy="2.354" r="2.354" transform="translate(20.011)"/>
+                    <circle cx="2.354" cy="2.354" r="2.354" transform="translate(30.017)"/>
+                    <circle cx="2.354" cy="2.354" r="2.354" transform="translate(40.022)"/>
+                    <circle cx="2.354" cy="2.354" r="2.354" transform="translate(50.028)"/>
+                    <circle cx="2.354" cy="2.354" r="2.354" transform="translate(60.034)"/>
+                </g>
+                <g transform="translate(0 35.314)">
+                    <circle cx="2.354" cy="2.354" r="2.354"/>
+                    <circle cx="2.354" cy="2.354" r="2.354" transform="translate(10.006)"/>
+                    <circle cx="2.354" cy="2.354" r="2.354" transform="translate(20.011)"/>
+                    <circle cx="2.354" cy="2.354" r="2.354" transform="translate(30.017)"/>
+                    <circle cx="2.354" cy="2.354" r="2.354" transform="translate(40.022)"/>
+                    <circle cx="2.354" cy="2.354" r="2.354" transform="translate(50.028)"/>
+                    <circle cx="2.354" cy="2.354" r="2.354" transform="translate(60.034)"/>
+                </g>
+                <g transform="translate(0 44.142)">
+                    <circle cx="2.354" cy="2.354" r="2.354"/>
+                    <circle cx="2.354" cy="2.354" r="2.354" transform="translate(10.006)"/>
+                    <circle cx="2.354" cy="2.354" r="2.354" transform="translate(20.011)"/>
+                    <circle cx="2.354" cy="2.354" r="2.354" transform="translate(30.017)"/>
+                    <circle cx="2.354" cy="2.354" r="2.354" transform="translate(40.022)"/>
+                    <circle cx="2.354" cy="2.354" r="2.354" transform="translate(50.028)"/>
+                    <circle cx="2.354" cy="2.354" r="2.354" transform="translate(60.034)"/>
+                </g>
+                <g transform="translate(0 52.971)">
+                    <circle cx="2.354" cy="2.354" r="2.354"/>
+                    <circle cx="2.354" cy="2.354" r="2.354" transform="translate(10.006)"/>
+                    <circle cx="2.354" cy="2.354" r="2.354" transform="translate(20.011)"/>
+                    <circle cx="2.354" cy="2.354" r="2.354" transform="translate(30.017)"/>
+                    <circle cx="2.354" cy="2.354" r="2.354" transform="translate(40.022)"/>
+                    <circle cx="2.354" cy="2.354" r="2.354" transform="translate(50.028)"/>
+                    <circle cx="2.354" cy="2.354" r="2.354" transform="translate(60.034)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
