@@ -63,7 +63,7 @@ function n136603264(){
 
         } else {
             //location.href = 'N-1366-03-264-success.html'
-            location.href = 'success-47.html'
+            location.href = 'game-success-47.html'
         }
     }
 }

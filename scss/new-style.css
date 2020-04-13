@@ -10757,7 +10757,6 @@ section .arrow_up_down_downArrow img {
 .n-1366-04-286-_content_box_text a {
   font-size: 2.08vh;
   font-family: 'DejaVu Sans Oblique';
-  color: #707070;
 }
 
 .nature-n-1366-04-286-leptop-task-div {
@@ -10775,7 +10774,6 @@ section .arrow_up_down_downArrow img {
 .n-1366-04-286-_content_box_text a {
   font-size: 2.08vh;
   font-family: 'DejaVu Sans Oblique';
-  color: #707070;
 }
 
 .n-1366-04-252-laptop-div {
@@ -18924,6 +18922,13 @@ td img {
   margin-top: 10vh;
 }
 
+.newDesign_subject_question_item-title-link {
+  font-size: 2.6vh;
+  font-family: "DejaVuSans";
+  line-height: 3.9vh;
+  margin-left: 2vh;
+}
+
 .n-10-27-image {
   right: 25vw;
 }
@@ -20630,13 +20635,13 @@ td img {
 
 @-webkit-keyframes rain-9 {
   0% {
-    left: 80%;
+    left: 76%;
     opacity: 1;
     top: 30%;
   }
   100% {
     opacity: 0;
-    top: 147%;
+    top: 136%;
   }
 }
 
@@ -20679,6 +20684,44 @@ td img {
 }
 
 @keyframes rain-10 {
+  0% {
+    left: 80%;
+    opacity: 1;
+    top: 30%;
+  }
+  100% {
+    opacity: 0;
+    top: 147%;
+  }
+}
+
+@keyframes rain-9 {
+  0% {
+    left: 80%;
+    opacity: 1;
+    top: 30%;
+  }
+  100% {
+    opacity: 0;
+    top: 147%;
+  }
+}
+
+.rain:nth-of-type(10) {
+  -webkit-animation-name: rain-10;
+          animation-name: rain-10;
+  -webkit-animation-delay: 9s;
+          animation-delay: 9s;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  left: 27%;
+  opacity: 1;
+  top: 30%;
+}
+
+@-webkit-keyframes rain-10 {
   0% {
     left: 27%;
     opacity: 1;
@@ -22466,6 +22509,34 @@ td img {
   }
 }
 
+.rain2:nth-of-type(1) {
+  -webkit-animation-name: rain-2-1;
+          animation-name: rain-2-1;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  left: 52%;
+  opacity: 1;
+  top: 30%;
+}
+
+@-webkit-keyframes rain-2-1 {
+  0% {
+    width: 7px;
+    left: 52%;
+    opacity: 1;
+    top: 30%;
+  }
+  100% {
+    width: 4px;
+    opacity: 0;
+    top: 142%;
+  }
+}
+
 @keyframes rain-2-1 {
   0% {
     width: 7px;
@@ -23057,14 +23128,14 @@ td img {
 @keyframes rain-2-15 {
   0% {
     width: 7px;
-    left: 23%;
+    left: 9%;
     opacity: 1;
     top: 30%;
   }
   100% {
     width: 4px;
     opacity: 0;
-    top: 143%;
+    top: 136%;
   }
 }
 
@@ -23290,6 +23361,20 @@ td img {
   left: 10%;
   opacity: 1;
   top: 30%;
+}
+
+@-webkit-keyframes rain-2-21 {
+  0% {
+    width: 7px;
+    left: 10%;
+    opacity: 1;
+    top: 30%;
+  }
+  100% {
+    width: 4px;
+    opacity: 0;
+    top: 130%;
+  }
 }
 
 @-webkit-keyframes rain-2-21 {
@@ -23702,8 +23787,21 @@ td img {
   height: 37.89vh;
 }
 
+.nature-12-52-link {
+  font-size: 2.6vh;
+  font-family: "DejaVuSans";
+  line-height: 3.9vh;
+  margin-left: 2vh;
+}
+
 .n-12-23-img {
   height: 40vh;
+}
+
+.motion-link-blue {
+  font-size: 2.5vh;
+  font-family: "DejaVuSans";
+  line-height: 3.9vh;
 }
 
 .n-12-11-question-img {
@@ -33798,12 +33896,51 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   background-size: cover;
 }
 
-.objects_box-image-20 {
+.objects_box-image-21 {
   height: 100vh;
   width: 100%;
   position: fixed;
   background: url("../img/gakvetilebi/Computer-Science/Class-5/objects-1/cs-5-1-21.svg") no-repeat center;
   background-size: cover;
+}
+
+.objects_box-image-22 {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  background: url("../img/gakvetilebi/Computer-Science/Class-5/objects-1/cs-5-1-22.svg") no-repeat center;
+  background-size: cover;
+}
+
+.cs-5-10-img-div-extras-5-1 {
+  height: 50.39vh;
+}
+
+.cs-5-10-img-div-extras-6-1 {
+  height: 53.51vh;
+}
+
+.cs-5-10-img-div-extras-7-1 {
+  height: 69.79vh;
+}
+
+.cs-5-10-img-div-extras-12-1 {
+  position: absolute;
+  left: 10.24vw;
+  top: 22.13vh;
+  height: 50.91vh;
+}
+
+.cs-5-10-img-div-extras-13-1 {
+  height: 54.68vh;
+}
+
+.cs-5-10-img-div-extras-14-1 {
+  height: 68.09vh;
+}
+
+.cs-5-10-img-div-extras img {
+  height: 100%;
 }
 
 .identify_page-1 {
@@ -33981,6 +34118,82 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 .cs-new-5-1-6-img {
   height: 50.82vh;
   margin: 16vh auto 0;
+}
+.conditional_page-8_text-box {
+  color: #947DCE;
+  font-size: 13px;
+  font-family: "DejaVu Sans";
+  -webkit-box-shadow: 2px 2px 8px #947DCE66;
+          box-shadow: 2px 2px 8px #947DCE66;
+  border-radius: 25px;
+  height: 50px;
+  width: 162px;
+  max-height: 6.5vh;
+  max-width: 13vw;
+  text-align: center;
+  padding: 0 15px;
+}
+
+.conditional_page-8 .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.conditional_page-8 .flex .box {
+  max-height: 51px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 21%;
+          flex: 1 0 21%;
+  height: 6.6vh;
+  max-width: 51px;
+  width: 6.6vh;
+}
+
+.conditional_page-8 .flex .box img {
+  height: 100%;
+}
+
+.conditional_page-9 {
+  height: 55vh;
+  max-height: 420px;
+  position: fixed;
+  left: 50%;
+  bottom: 0;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.conditional_page-9 img {
+  height: 100%;
+}
+
+.conditional_page-10 {
+  height: 40vh;
+  max-height: 307px;
+}
+
+.conditional_page-10 img {
+  height: 100%;
+}
+
+.conditional_page-12 {
+  height: 50vh;
+  max-height: 382px;
+}
+
+.conditional_page-12 .small-box {
+  max-height: 156px;
+}
+
+.conditional_page-12 .small-box img {
+  height: 100%;
+}
+
+.conditional_page-12 img {
+  height: 100%;
 }
 
 body {

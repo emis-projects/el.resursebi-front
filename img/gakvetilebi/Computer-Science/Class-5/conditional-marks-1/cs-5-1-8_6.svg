@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="75.55" height="75.55"
+     viewBox="0 0 75.55 75.55">
+    <defs>
+        <style>.a{fill:#fff;}.b{fill:#62548a;}.c{fill:#947dce;}.d{filter:url(#a);}</style>
+        <filter id="a" x="0" y="0" width="75.55" height="75.55" filterUnits="userSpaceOnUse">
+            <feOffset dx="2" dy="2" input="SourceAlpha"/>
+            <feGaussianBlur stdDeviation="4" result="b"/>
+            <feFlood flood-color="#62548a" flood-opacity="0.161"/>
+            <feComposite operator="in" in2="b"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g transform="translate(-1047.439 -293.27)">
+        <g class="d" transform="matrix(1, 0, 0, 1, 1047.44, 293.27)">
+            <rect class="a" width="51.55" height="51.55" rx="3" transform="translate(10 10)"/>
+        </g>
+        <g transform="translate(1063.542 309.603)">
+            <path class="b" d="M1021.355,419.4H982.009V452.9h14.6l5.379,5.379,5.379-5.379h13.986Z"
+                  transform="translate(-982.009 -419.397)"/>
+        </g>
+        <g transform="translate(1071.636 317.902)">
+            <rect class="c" width="23.156" height="1.844" transform="translate(0 0)"/>
+        </g>
+        <g transform="translate(1071.636 325.279)">
+            <rect class="c" width="23.156" height="1.844"/>
+        </g>
+        <g transform="translate(1071.636 332.657)">
+            <rect class="c" width="23.156" height="1.844" transform="translate(0 0)"/>
+        </g>
+    </g>
+</svg>

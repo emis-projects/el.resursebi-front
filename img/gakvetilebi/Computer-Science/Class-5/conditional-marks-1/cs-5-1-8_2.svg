@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="75.55" height="75.55"
+     viewBox="0 0 75.55 75.55">
+    <defs>
+        <style>
+            .a{fill:#fff;}.b{fill:rgba(0,0,0,0.1);}.c{fill:url(#c);}.d{fill:url(#d);}.e{fill:url(#e);}.f{fill:url(#f);}.g{fill:url(#g);}.h{fill:url(#h);}.i{fill:url(#i);}.j{filter:url(#a);}
+        </style>
+        <filter id="a" x="0" y="0" width="75.55" height="75.55" filterUnits="userSpaceOnUse">
+            <feOffset dx="2" dy="2" input="SourceAlpha"/>
+            <feGaussianBlur stdDeviation="4" result="b"/>
+            <feFlood flood-color="#62548a" flood-opacity="0.161"/>
+            <feComposite operator="in" in2="b"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <linearGradient id="c" x1="84.471" y1="8.255" x2="84.471" y2="8.252" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#81b4e0"/>
+            <stop offset="1" stop-color="#0c5a94"/>
+        </linearGradient>
+        <linearGradient id="d" x1="24.473" y1="-30.772" x2="24.473" y2="-30.956" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#f06b59"/>
+            <stop offset="1" stop-color="#df2227"/>
+        </linearGradient>
+        <linearGradient id="e" x1="31.468" y1="-23.057" x2="31.547" y2="-22.945" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#388b41"/>
+            <stop offset="1" stop-color="#4cb749"/>
+        </linearGradient>
+        <linearGradient id="f" x1="38.66" y1="-24.962" x2="38.555" y2="-24.774" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#e4b022"/>
+            <stop offset="0.3" stop-color="#fcd209"/>
+        </linearGradient>
+        <linearGradient id="g" x1="100.099" y1="-49.277" x2="100.099" y2="-49.023" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-opacity="0.149"/>
+            <stop offset="0.3" stop-opacity="0.059"/>
+            <stop offset="1" stop-opacity="0.031"/>
+        </linearGradient>
+        <linearGradient id="h" x1="94.919" y1="-51.189" x2="94.63" y2="-51.369" xlink:href="#g"/>
+        <linearGradient id="i" x1="45.056" y1="-211.472" x2="45.076" y2="-210.402" xlink:href="#g"/>
+    </defs>
+    <g transform="translate(-968.439 -223.27)">
+        <g class="j" transform="matrix(1, 0, 0, 1, 968.44, 223.27)">
+            <rect class="a" width="51.55" height="51.55" rx="3" transform="translate(10 10)"/>
+        </g>
+        <g transform="translate(987.397 240.257)">
+            <ellipse class="a" cx="17.589" cy="17.589" rx="17.589" ry="17.589" transform="translate(0.317 0.348)"/>
+            <path class="b" d="M925.807,363.352a11.193,11.193,0,1,0-22.385,0h3.2a8,8,0,0,1,15.991,0"
+                  transform="translate(-896.709 -342.217)"/>
+            <ellipse class="b" cx="6.076" cy="6.076" rx="6.076" ry="6.076" transform="translate(12.629 14.099)"/>
+            <ellipse class="c" cx="6.556" cy="6.556" rx="6.556" ry="6.556" transform="translate(11.35 11.381)"/>
+            <path class="d"
+                  d="M930.12,350.848a17.909,17.909,0,0,0-30.861-2.079l7.2,12.472a7.994,7.994,0,0,1,7.515-10.394"
+                  transform="translate(-896.224 -340.906)"/>
+            <path class="e"
+                  d="M898.859,349.807a17.908,17.908,0,0,0,13.432,27.822l7.515-12.792a7.994,7.994,0,0,1-13.751-2.558"
+                  transform="translate(-895.824 -341.943)"/>
+            <path class="f" d="M914.462,377.9a17.91,17.91,0,0,0,17.429-25.744h-16.15a8,8,0,0,1,6.236,12.952"
+                  transform="translate(-897.995 -342.217)"/>
+            <path class="g" d="M899.259,349.744l7.2,12.472a7.99,7.99,0,0,1,.319-5.436l-7.2-7.516"
+                  transform="translate(-896.224 -341.88)"/>
+            <path class="h" d="M914.42,379.611l7.515-12.792a7.992,7.992,0,0,1-4.637,2.719l-3.2,10.074"
+                  transform="translate(-897.953 -343.925)"/>
+            <path class="i" d="M932.06,352.159H915.91a7.994,7.994,0,0,1,6.236,3.038l10.234-2.559"
+                  transform="translate(-898.164 -342.217)"/>
+        </g>
+    </g>
+</svg>
