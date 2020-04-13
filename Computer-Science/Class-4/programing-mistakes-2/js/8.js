@@ -29,7 +29,7 @@ function computerGames(){
         });
         
 
-        if (count == 2 && !isError) {
+        if (count == 3 && !isError) {
             this.successPage();
         }
 
