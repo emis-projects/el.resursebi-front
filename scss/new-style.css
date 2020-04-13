@@ -34216,6 +34216,107 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   margin: 16vh auto 0;
 }
 
+.cs-3-2-18-img {
+  height: 34.89vh;
+  margin: 1vh auto;
+}
+
+.background-cs-3-2 {
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-3-2-19 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/computer-equipment-2/cs-3-2-19.svg");
+}
+
+.background-cs-3-2-20 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/computer-equipment-2/cs-3-2-20.svg");
+}
+
+.background-cs-3-2-21 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/computer-equipment-2/cs-3-2-21.svg");
+}
+
+.background-cs-3-2-22 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/computer-equipment-2/cs-3-2-22.svg");
+}
+
+.conditional-marks_page-3 {
+  height: 44vh;
+  max-height: 341px;
+}
+
+.conditional-marks_page-3 img {
+  height: 100%;
+}
+
+.conditional-marks_page-4 {
+  height: 47vh;
+  max-height: 361px;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.conditional-marks_page-4 img {
+  height: 100%;
+}
+
+.conditional-marks_page-5 {
+  height: 35vh;
+  max-height: 271px;
+}
+
+.conditional-marks_page-5 img {
+  width: 100%;
+  height: auto;
+}
+
+.conditional-marks_page-5 .drop-box {
+  border-radius: 54px;
+  height: 11vh;
+  max-height: 80px;
+  width: 14vw;
+  max-width: 186px;
+  position: absolute;
+}
+
+.conditional-marks_page-5 .drop-box-top {
+  border: 2px solid #49C980;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, -105%);
+          transform: translate(-50%, -105%);
+}
+
+.conditional-marks_page-5 .drop-box-bottom {
+  border: 2px solid #DDD75E;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, 105%);
+          transform: translate(-50%, 105%);
+}
+
+.conditional-marks_page-5 .drop-box-left {
+  border: 2px solid #F4AD67;
+  bottom: 5%;
+  -webkit-transform: translateY(10%);
+          transform: translateY(10%);
+  left: 0;
+}
+
+.conditional-marks_page-5 .drop-box-right {
+  border: 2px solid #52B5CC;
+  right: 0;
+  bottom: 5%;
+  -webkit-transform: translateY(10%);
+          transform: translateY(10%);
+}
+
 body {
   color: #262626;
   font-size: 14px;
