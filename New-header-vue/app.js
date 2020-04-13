@@ -223,7 +223,7 @@ Vue.component('appStart', {
                         <div class="col-4 main-lesson-start-cont">
                           <img alt="computer" :src="images.IT" class="main-lesson-start-img" />
                           <div class="new_btn-start-cont">
-                            <a @click="trigger('select', 'კომპიუტერული მეცნიერება')" class="new_btn-start">კომპიუტერული მეცნიერება</a>
+                            <a @click="trigger('select', 'კომპიუტერული ტექნოლოგიები')" class="new_btn-start">კომპიუტერული ტექნოლოგიები</a>
                           </div>
                         </div>
                      </div>
@@ -317,7 +317,7 @@ Vue.component('appSelect', {
                     <div class="col-12">
                         <h5 class="app-select_title">{{ activeClass }}</h5>
                     </div>
-                    <div v-if="activeClass === 'კომპიუტერული მეცნიერება'" class="col-12 mt-5">
+                    <div v-if="activeClass === 'კომპიუტერული ტექნოლოგიები'" class="col-12 mt-5">
                     <div class="row">
                             <div class="col-4">
                                 <div class="class_box d-flex justify-content-between">
@@ -381,7 +381,7 @@ Vue.component('appSelect', {
                 </div>
                 <div class="row app-select_artwork">
                     <div class="col-12">
-                        <div v-if="activeClass !== 'კომპიუტერული მეცნიერება'" class="app-select_artwork_image-box ml-auto">
+                        <div v-if="activeClass !== 'კომპიუტერული ტექნოლოგიები'" class="app-select_artwork_image-box ml-auto">
                             <img :src="artImage" alt="art">
                         </div>
                     </div>
@@ -742,8 +742,8 @@ let title = {
         },
         {
             id: 9,
-            name: 'სათაური',
-            link: 'Computer-Science/Class-2/...'
+            name: 'კომპიუტერული ტექნოლოგიების გამოყენების იდენტიფიცირება',
+            link: 'Computer-Science/Class-2/Identify-with-computer-9/1.html'
         },
         {
             id: 10,
@@ -871,8 +871,8 @@ let title = {
         },
         {
             id: 10,
-            name: 'სათაური',
-            link: '#'
+            name: 'ტექსტური რედაქტორის გამოყენება ყოველდღიურ ცხოვრებაში',
+            link: 'Computer-Science/Class-4/text-editor-10/1.html'
         },
         {
             id: 11,
@@ -888,8 +888,8 @@ let title = {
     IT_5: [
         {
             id: 1,
-            name: 'კომპიუტერი 5 კლასი 1 გაკვ',
-            link: 'Computer-Science/Computer_parts/C-1366-01-01.html'
+            name: 'პირობითი ნიშნები კომპიუტერულ პროგრამებში',
+            link: 'Computer-Science/Class-5/conditional-marks-1/1.html'
         },
         {
             id: 2,
@@ -898,8 +898,8 @@ let title = {
         },
         {
             id: 3,
-            name: 'კომპიუტერი 5 კლასი 3 გაკვ',
-            link: '#'
+            name: 'რა არის კომპიუტერული პროგრამა',
+            link: 'Computer-Science/Class-5/What-is-program-3/1.html'
         },
         {
             id: 4,
@@ -918,13 +918,13 @@ let title = {
         },
         {
             id: 7,
-            name: 'სათაური',
-            link: '#'
+            name: 'უსასრულო ციკლები',
+            link: 'Computer-Science/Class-5/Infinite-cycles-7/1.html'
         },
         {
             id: 8,
-            name: 'სათაური',
-            link: '#'
+            name: 'სასრულო ციკლები',
+            link: 'Computer-Science/Class-5/Cycles-8/1.html'
         },
         {
             id: 9,
@@ -933,8 +933,8 @@ let title = {
         },
         {
             id: 10,
-            name: 'სათაური',
-            link: '#'
+            name: 'ობიექტები',
+            link: 'Computer-Science/Class-5/objects-1/1.html'
         },
         {
             id: 11,
@@ -1130,3 +1130,5 @@ let title = {
         }
     ]
 }
+
+

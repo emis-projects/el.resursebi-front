@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html data-botid="2288" lang="ka">
-
 <head>
     <meta charset="UTF-8"/>
     <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
@@ -27,6 +26,12 @@
         gtag('config', 'UA-155006442-1');
     </script>
 </head>
+<style>
+    .tetris__element {
+        width: 17.936vw !important;
+        height: 19.01vh !important;
+    }
+</style>
 
 <body>
 <div class="container">
@@ -56,37 +61,47 @@
                     </p>
                 </div> 
             </div>
-            <div class="col-12 cs-5-3-16-div-img-1 d-flex">              
-                    <img src="../../../img/gakvetilebi/Computer-Science/Class-5/What-is-program-3/cs-5-3-16-img-1.svg" >
-                    <img src="../../../img/gakvetilebi/Computer-Science/Class-5/What-is-program-3/cs-5-3-16-img-2.svg" >
-                    <img src="../../../img/gakvetilebi/Computer-Science/Class-5/What-is-program-3/cs-5-3-16-img-3.svg" > 
-                </div> 
-                <div class="col-12  cs-5-3-16-div-img-2 d-flex mt-2vh">              
-                    <img src="../../../img/gakvetilebi/Computer-Science/Class-5/What-is-program-3/cs-5-3-16-img-4.svg" >
-                    <img src="../../../img/gakvetilebi/Computer-Science/Class-5/What-is-program-3/cs-5-3-16-img-5.svg">
-                    <img src="../../../img/gakvetilebi/Computer-Science/Class-5/What-is-program-3/cs-5-3-16-img-6.svg"> 
+
+            <div style="display: flex; flex-direction: column; justify-content: space-between; align-items: flex-start; width: 100%; height: 56vh;">
+                <div class="col-12 d-flex justify-around">
+                    <div class="col-3 cs-5-3-16-div-img-1 d-flex class-5--3-16-Drop">              
+                        <img src="../../../img/gakvetilebi/Computer-Science/Class-5/What-is-program-3/cs-5-3-16-img-1.svg" >
+                        <div class="direcion-pointer_box-image d-flex justify-content-center mt-8vh" data-answer="event"></div>
+                    </div> 
+
+                    <div class="col-3 cs-5-3-16-div-img-1 d-flex class-5--3-16-Drop">              
+                        <img src="../../../img/gakvetilebi/Computer-Science/Class-5/What-is-program-3/cs-5-3-16-img-2.svg" > 
+                        <div class="direcion-pointer_box-image d-flex justify-content-center mt-8vh" data-answer="motion"></div>
+                    </div> 
+
+                    <div class="col-3 cs-5-3-16-div-img-1 d-flex class-5--3-16-Drop">              
+                        <img src="../../../img/gakvetilebi/Computer-Science/Class-5/What-is-program-3/cs-5-3-16-img-3.svg" >
+                        <div class="direcion-pointer_box-image d-flex justify-content-center mt-8vh" data-answer="sound"></div> 
+                    </div> 
                 </div>
-                <div class="col-12  cs-5-3-16-div-img-2 d-flex mt-3vh">              
-                    <img src="../../../img/gakvetilebi/Computer-Science/Class-5/What-is-program-3/cs-5-3-16-img-7.svg">
-                    <img src="../../../img/gakvetilebi/Computer-Science/Class-5/What-is-program-3/cs-5-3-16-img-8.svg">
-                    <img src="../../../img/gakvetilebi/Computer-Science/Class-5/What-is-program-3/cs-5-3-16-img-9.svg"> 
-                </div>
-                
-                <div class="col-11 mt-5vh ml-3 d-flex align-items-end">
+
+                <div class="d-flex align-items-center" style="margin-left: 70px;">
+                    <div class="clock-box relative">
+                        <img alt="clock" id="clock" src="../../../img/gakvetilebi/Computer-Science/Class-5/objects-moving-4/C-5-4-Clock.svg" />
+                        <span id="time"></span>
+                    </div>
                     <div class="counter-box ml-4 d-flex justify-content-around align-items-center">
                         <p class="counter-box_text dj-2_6vh">ქულა</p>
                         <div class="counter-box_number" id="numberOfScore"></div>
                     </div>
                 </div>
+            </div>
+
+                
             </div> 
          </div>
     </div>
     <div class="col-3 flex flex-end column align-items-end z-index reload_game_wrapper">
         <div class="d-flex flex-column">
               <button id="resetBtn" class="reset__btn">თავიდან სცადე</button>
-              <button id="completedGame" class="completed__btn">დასრულება</button>
           </div>
-  </div>
+    </div>
+
         <!-- ეს არის svg თეგირომელიც ქმნის მარცხენა ვერტიკალურ "ნავ რუკას" -->
         <div class="left_components_paging-cont" id="leftNav">
             <left-nav-item></left-nav-item>
@@ -117,6 +132,7 @@
 <script src="../../../js/libraries/jquery.magnific-popup.min.js"></script>
 <script src="../../../js/Pagination.js"></script>
 
+<script src="./js/16.js"></script>
 
 <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
 <script src="../../../New-header-vue/app.js"></script>
