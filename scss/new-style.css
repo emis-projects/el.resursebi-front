@@ -27978,6 +27978,89 @@ img.mfp-img[alt*=cs-3-6-6-img] {
   background-size: cover;
 }
 
+.identify_page-1 {
+  height: 46vh;
+  max-height: 349px;
+}
+.identify_page-1 img {
+  height: 100%;
+}
+.identify_page-3 {
+  height: 46vh;
+  max-height: 349px;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.identify_page-3 img {
+  height: 100%;
+}
+.identify_page-4 {
+  height: 46vh;
+  max-height: 349px;
+}
+.identify_page-4 img {
+  height: 100%;
+}
+.identify_page-5 .arrow-box {
+  width: 60px;
+}
+.identify_page-5 .arrow-box img {
+  width: 100%;
+  height: auto;
+}
+.identify_page-5 .button-box {
+  color: #947DCE;
+  font-size: 13px;
+  font-family: "DejaVu Sans";
+  box-shadow: 2px 2px 8px #947DCE66;
+  border-radius: 25px;
+  height: 50px;
+  width: 250px;
+  max-height: 6.5vh;
+  max-width: 22vw;
+  text-align: center;
+}
+.identify_page-5_box {
+  height: 8.5vh;
+  max-height: 60px;
+  width: 13vh;
+  max-width: 80px;
+}
+.identify_page-5_box img {
+  width: 100%;
+  height: auto;
+}
+.identify_page-5_text {
+  color: #000000;
+  font-size: 13px;
+  text-align: right;
+  padding-right: 20px;
+  font-family: "DejaVu Sans";
+}
+.identify_page-7 {
+  height: 46vh;
+  max-height: 349px;
+}
+.identify_page-7 img {
+  height: 100%;
+  transform: scaleX(-1);
+}
+.identify_page-8 .button-box {
+  color: #947DCE;
+  font-size: 13px;
+  font-family: "DejaVu Sans";
+  box-shadow: 2px 2px 8px #947DCE66;
+  border-radius: 25px;
+  height: 50px;
+  width: 250px;
+  max-height: 6.5vh;
+  max-width: 22vw;
+  text-align: center;
+  padding: 0 15px;
+}
+
 body {
   color: #262626;
   font-size: 14px;
