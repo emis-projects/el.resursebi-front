@@ -4,7 +4,7 @@ function natureGames() {
 
     $(btn).on('click', (e) => this.clickMe(e));
 
-
+    document.querySelector('.cloud').classList.add('opacity-0')
 
     this.getWeather = (imgClass) => {
         for(var i = 0; i < 30; i++){
@@ -38,22 +38,25 @@ function natureGames() {
         if(e.target.classList.contains('active')){
             if(e.target.getAttribute('data-btn') == 1){
                 document.querySelector('#weatherParent').innerHTML = "";
-                this.getWeather("rain");
+                document.querySelector('.cloud').classList.add('opacity-0')
                 imge.src = '../../img/gakvetilebi/buneba/snow-12/1-mdgomareoba.svg';
 
             }
             if(e.target.getAttribute('data-btn') == 2){
                 document.querySelector('#weatherParent').innerHTML = "";
+                document.querySelector('.cloud').classList.add('opacity-1')
                 imge.src = '../../img/gakvetilebi/buneba/snow-12/2-mdgomareoba.svg';
                 this.getWeather("rain");
             }
             if(e.target.getAttribute('data-btn') == 3){
                 imge.src = '../../img/gakvetilebi/buneba/snow-12/3-mdgomareoba.svg';
+                document.querySelector('.cloud').classList.add('opacity-1')
                 document.querySelector('#weatherParent').innerHTML = "";
                 this.getWeather("rain2")
             }
             if(e.target.getAttribute('data-btn') == 4){
                 imge.src = '../../img/gakvetilebi/buneba/snow-12/4-mdgomareoba.svg';
+                document.querySelector('.cloud').classList.add('opacity-1')
                 document.querySelector('#weatherParent').innerHTML = "";
                 this.getWeather("rain")
 
@@ -64,6 +67,7 @@ function natureGames() {
             }
             if(e.target.getAttribute('data-btn') == 5){
                 imge.src = '../../img/gakvetilebi/buneba/snow-12/5-mdgomareoba.svg';
+                document.querySelector('.cloud').classList.add('opacity-1')
                 document.querySelector('#weatherParent').innerHTML = "";
 
                 this.getWeather("rain")
