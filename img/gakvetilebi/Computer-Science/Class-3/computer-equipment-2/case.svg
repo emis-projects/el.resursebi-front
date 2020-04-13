@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="76.985" height="153.214" viewBox="0 0 76.985 153.214">
+    <defs>
+        <style>.a{fill:gray;}.b{fill:#333;}.c{fill:#302f30;}.d{fill:red;}.e{fill:lime;}</style>
+    </defs>
+    <g transform="translate(0 0)">
+        <path class="a"
+              d="M387.811,585.716h-64.32a6.331,6.331,0,0,1-6.333-6.327V438.835a6.336,6.336,0,0,1,6.333-6.333h64.32a6.333,6.333,0,0,1,6.332,6.333V579.389A6.329,6.329,0,0,1,387.811,585.716Z"
+              transform="translate(-317.158 -432.502)"/>
+    </g>
+    <g transform="translate(0 72.754)">
+        <path class="b"
+              d="M394.143,575.128V502.709H317.158v72.419c0,4.441,2.838,8.04,6.333,8.04h64.32C391.307,583.168,394.143,579.569,394.143,575.128Z"
+              transform="translate(-317.158 -502.709)"/>
+    </g>
+    <g transform="translate(52.719 53.815)">
+        <path class="c" d="M371.9,486.367a1.934,1.934,0,1,1-1.935-1.934A1.933,1.933,0,0,1,371.9,486.367Z"
+              transform="translate(-368.031 -484.433)"/>
+        <g transform="translate(0.423 0.42)">
+            <path class="d" d="M369.95,487.866a1.514,1.514,0,1,1,1.515-1.514A1.515,1.515,0,0,1,369.95,487.866Z"
+                  transform="translate(-368.439 -484.838)"/>
+        </g>
+        <g transform="translate(9.235 0.42)">
+            <path class="e" d="M379.968,486.352a1.512,1.512,0,1,1-1.514-1.514A1.515,1.515,0,0,1,379.968,486.352Z"
+                  transform="translate(-376.943 -484.838)"/>
+        </g>
+    </g>
+    <g transform="translate(4.684 10.077)">
+        <rect class="b" width="67.617" height="17.577" rx="3.055"/>
+        <g transform="translate(0 20.281)">
+            <rect class="b" width="67.617" height="17.579" rx="3.055"/>
+        </g>
+        <g transform="translate(58.782 23.29)">
+            <rect width="6.253" height="2.901"/>
+        </g>
+        <g transform="translate(58.782 2.838)">
+            <rect width="6.253" height="2.905"/>
+        </g>
+    </g>
+    <g transform="translate(0 144.903)">
+        <path d="M317.158,572.331v1.984a6.331,6.331,0,0,0,6.333,6.327h64.32a6.329,6.329,0,0,0,6.332-6.327v-1.984Z"
+              transform="translate(-317.158 -572.331)"/>
+    </g>
+    <g transform="translate(6.729 82.465)">
+        <ellipse cx="2.285" cy="2.285" rx="2.285" ry="2.285"/>
+        <ellipse cx="2.285" cy="2.285" rx="2.285" ry="2.285" transform="translate(9.71)"/>
+        <ellipse cx="2.285" cy="2.285" rx="2.285" ry="2.285" transform="translate(19.42)"/>
+        <ellipse cx="2.285" cy="2.285" rx="2.285" ry="2.285" transform="translate(29.13)"/>
+        <ellipse cx="2.285" cy="2.285" rx="2.285" ry="2.285" transform="translate(38.84)"/>
+        <ellipse cx="2.285" cy="2.285" rx="2.285" ry="2.285" transform="translate(48.55)"/>
+        <ellipse cx="2.285" cy="2.285" rx="2.285" ry="2.285" transform="translate(58.26)"/>
+        <g transform="translate(0 8.568)">
+            <ellipse cx="2.285" cy="2.285" rx="2.285" ry="2.285"/>
+            <ellipse cx="2.285" cy="2.285" rx="2.285" ry="2.285" transform="translate(9.71)"/>
+            <ellipse cx="2.285" cy="2.285" rx="2.285" ry="2.285" transform="translate(19.42)"/>
+            <ellipse cx="2.285" cy="2.285" rx="2.285" ry="2.285" transform="translate(29.13)"/>
+            <ellipse cx="2.285" cy="2.285" rx="2.285" ry="2.285" transform="translate(38.84)"/>
+            <ellipse cx="2.285" cy="2.285" rx="2.285" ry="2.285" transform="translate(48.55)"/>
+            <ellipse cx="2.285" cy="2.285" rx="2.285" ry="2.285" transform="translate(58.26)"/>
+        </g>
+        <g transform="translate(0 17.135)">
+            <ellipse cx="2.285" cy="2.285" rx="2.285" ry="2.285"/>
+            <ellipse cx="2.285" cy="2.285" rx="2.285" ry="2.285" transform="translate(9.71)"/>
+            <ellipse cx="2.285" cy="2.285" rx="2.285" ry="2.285" transform="translate(19.42)"/>
+            <ellipse cx="2.285" cy="2.285" rx="2.285" ry="2.285" transform="translate(29.13)"/>
+            <ellipse cx="2.285" cy="2.285" rx="2.285" ry="2.285" transform="translate(38.84)"/>
+            <ellipse cx="2.285" cy="2.285" rx="2.285" ry="2.285" transform="translate(48.55)"/>
+            <ellipse cx="2.285" cy="2.285" rx="2.285" ry="2.285" transform="translate(58.26)"/>
+        </g>
+        <g transform="translate(0 25.703)">
+            <ellipse cx="2.285" cy="2.285" rx="2.285" ry="2.285"/>
+            <ellipse cx="2.285" cy="2.285" rx="2.285" ry="2.285" transform="translate(9.71)"/>
+            <ellipse cx="2.285" cy="2.285" rx="2.285" ry="2.285" transform="translate(19.42)"/>
+            <ellipse cx="2.285" cy="2.285" rx="2.285" ry="2.285" transform="translate(29.13)"/>
+            <ellipse cx="2.285" cy="2.285" rx="2.285" ry="2.285" transform="translate(38.84)"/>
+            <ellipse cx="2.285" cy="2.285" rx="2.285" ry="2.285" transform="translate(48.55)"/>
+            <ellipse cx="2.285" cy="2.285" rx="2.285" ry="2.285" transform="translate(58.26)"/>
+        </g>
+        <g transform="translate(0 34.271)">
+            <ellipse cx="2.285" cy="2.285" rx="2.285" ry="2.285"/>
+            <ellipse cx="2.285" cy="2.285" rx="2.285" ry="2.285" transform="translate(9.71)"/>
+            <ellipse cx="2.285" cy="2.285" rx="2.285" ry="2.285" transform="translate(19.42)"/>
+            <ellipse cx="2.285" cy="2.285" rx="2.285" ry="2.285" transform="translate(29.13)"/>
+            <ellipse cx="2.285" cy="2.285" rx="2.285" ry="2.285" transform="translate(38.84)"/>
+            <ellipse cx="2.285" cy="2.285" rx="2.285" ry="2.285" transform="translate(48.55)"/>
+            <ellipse cx="2.285" cy="2.285" rx="2.285" ry="2.285" transform="translate(58.26)"/>
+        </g>
+        <g transform="translate(0 42.838)">
+            <ellipse cx="2.285" cy="2.285" rx="2.285" ry="2.285"/>
+            <ellipse cx="2.285" cy="2.285" rx="2.285" ry="2.285" transform="translate(9.71)"/>
+            <ellipse cx="2.285" cy="2.285" rx="2.285" ry="2.285" transform="translate(19.42)"/>
+            <ellipse cx="2.285" cy="2.285" rx="2.285" ry="2.285" transform="translate(29.13)"/>
+            <ellipse cx="2.285" cy="2.285" rx="2.285" ry="2.285" transform="translate(38.84)"/>
+            <ellipse cx="2.285" cy="2.285" rx="2.285" ry="2.285" transform="translate(48.55)"/>
+            <ellipse cx="2.285" cy="2.285" rx="2.285" ry="2.285" transform="translate(58.26)"/>
+        </g>
+        <g transform="translate(0 51.406)">
+            <ellipse cx="2.285" cy="2.285" rx="2.285" ry="2.285"/>
+            <ellipse cx="2.285" cy="2.285" rx="2.285" ry="2.285" transform="translate(9.71)"/>
+            <ellipse cx="2.285" cy="2.285" rx="2.285" ry="2.285" transform="translate(19.42)"/>
+            <ellipse cx="2.285" cy="2.285" rx="2.285" ry="2.285" transform="translate(29.13)"/>
+            <ellipse cx="2.285" cy="2.285" rx="2.285" ry="2.285" transform="translate(38.84)"/>
+            <ellipse cx="2.285" cy="2.285" rx="2.285" ry="2.285" transform="translate(48.55)"/>
+            <ellipse cx="2.285" cy="2.285" rx="2.285" ry="2.285" transform="translate(58.26)"/>
+        </g>
+    </g>
+</svg>

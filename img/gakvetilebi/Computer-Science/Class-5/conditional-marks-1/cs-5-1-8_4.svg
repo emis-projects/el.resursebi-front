@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="75.55" height="75.55"
+     viewBox="0 0 75.55 75.55">
+    <defs>
+        <style>
+            .a{fill:#fff;}.b{fill:#21a366;}.c{fill:#107c41;}.d{fill:#33c481;}.e{fill:#185c37;}.f{fill:rgba(0,0,0,0.09);}.g{fill:rgba(0,0,0,0.2);}.h{fill:none;}.i{filter:url(#a);}
+        </style>
+        <filter id="a" x="0" y="0" width="75.55" height="75.55" filterUnits="userSpaceOnUse">
+            <feOffset dx="2" dy="2" input="SourceAlpha"/>
+            <feGaussianBlur stdDeviation="4" result="b"/>
+            <feFlood flood-color="#62548a" flood-opacity="0.161"/>
+            <feComposite operator="in" in2="b"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g transform="translate(-888 -292)">
+        <g class="i" transform="matrix(1, 0, 0, 1, 888, 292)">
+            <rect class="a" width="51.55" height="51.55" rx="3" transform="translate(10 10)"/>
+        </g>
+        <g transform="translate(0.517 -1.214)">
+            <path class="b"
+                  d="M825.864,423.667H814.337a1.447,1.447,0,0,0-1.441,1.44v6.124l12.968,7.565,6.484,2.736,6.485-2.736v-7.565Z"
+                  transform="translate(101.234 -110.291)"/>
+            <path class="c" d="M812.9,432.229h12.968v7.565H812.9Z" transform="translate(101.234 -111.289)"/>
+            <path class="d" d="M839.1,423.667H827.574v7.565h12.969v-6.124a1.448,1.448,0,0,0-1.441-1.44Z"
+                  transform="translate(99.524 -110.291)"/>
+            <path class="e"
+                  d="M825.864,440.791H812.9V454.48a1.448,1.448,0,0,0,1.441,1.441h23.055a1.449,1.449,0,0,0,1.441-1.441v-6.124Z"
+                  transform="translate(101.234 -112.286)"/>
+            <path class="c" d="M827.574,440.791h12.969v7.565H827.574Z" transform="translate(99.524 -112.286)"/>
+            <g transform="translate(905.484 318.778)">
+                <path class="f"
+                      d="M822.262,429.782H812.9v20.534h9.366a1.452,1.452,0,0,0,1.441-1.441V431.223a1.453,1.453,0,0,0-1.441-1.441Z"
+                      transform="translate(-804.25 -429.782)"/>
+                <g transform="translate(8.646 1.081)">
+                    <path class="g"
+                          d="M821.181,431.006H812.9v20.533h8.285a1.452,1.452,0,0,0,1.441-1.441V432.446a1.452,1.452,0,0,0-1.441-1.44Z"
+                          transform="translate(-812.896 -431.006)"/>
+                    <path class="g"
+                          d="M821.181,431.006H812.9v18.372h8.285a1.453,1.453,0,0,0,1.441-1.441v-15.49a1.452,1.452,0,0,0-1.441-1.44Z"
+                          transform="translate(-812.896 -431.006)"/>
+                    <path class="g"
+                          d="M820.1,431.006h-7.2v18.372h7.2a1.453,1.453,0,0,0,1.441-1.441v-15.49a1.452,1.452,0,0,0-1.441-1.44Z"
+                          transform="translate(-812.896 -431.006)"/>
+                </g>
+                <path class="c"
+                      d="M804.551,431.006h14.41a1.448,1.448,0,0,1,1.441,1.44v14.41a1.449,1.449,0,0,1-1.441,1.441h-14.41a1.449,1.449,0,0,1-1.441-1.441v-14.41a1.448,1.448,0,0,1,1.441-1.44Z"
+                      transform="translate(-803.11 -429.925)"/>
+                <path class="a"
+                      d="M807.432,445.482l3.5-5.419-3.2-5.388H810.3l1.748,3.444q.24.49.331.732h.022q.174-.392.362-.762l1.869-3.414H817l-3.286,5.358,3.369,5.449h-2.518l-2.02-3.783a3.22,3.22,0,0,1-.241-.5h-.03a2.391,2.391,0,0,1-.233.489l-2.08,3.8Z"
+                      transform="translate(-803.613 -430.352)"/>
+            </g>
+            <path class="h" d="M803.11,421.22h34.583V455.8H803.11Z" transform="translate(102.374 -110.006)"/>
+        </g>
+    </g>
+</svg>
