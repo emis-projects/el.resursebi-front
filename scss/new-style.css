@@ -10755,7 +10755,6 @@ section .arrow_up_down_downArrow img {
 .n-1366-04-286-_content_box_text a {
   font-size: 2.08vh;
   font-family: 'DejaVu Sans Oblique';
-  color: #707070;
 }
 
 .nature-n-1366-04-286-leptop-task-div {
@@ -10773,7 +10772,6 @@ section .arrow_up_down_downArrow img {
 .n-1366-04-286-_content_box_text a {
   font-size: 2.08vh;
   font-family: 'DejaVu Sans Oblique';
-  color: #707070;
 }
 
 .n-1366-04-252-laptop-div {
@@ -18922,6 +18920,13 @@ td img {
   margin-top: 10vh;
 }
 
+.newDesign_subject_question_item-title-link {
+  font-size: 2.6vh;
+  font-family: "DejaVuSans";
+  line-height: 3.9vh;
+  margin-left: 2vh;
+}
+
 .n-10-27-image {
   right: 25vw;
 }
@@ -23700,8 +23705,21 @@ td img {
   height: 37.89vh;
 }
 
+.nature-12-52-link {
+  font-size: 2.6vh;
+  font-family: "DejaVuSans";
+  line-height: 3.9vh;
+  margin-left: 2vh;
+}
+
 .n-12-23-img {
   height: 40vh;
+}
+
+.motion-link-blue {
+  font-size: 2.5vh;
+  font-family: "DejaVuSans";
+  line-height: 3.9vh;
 }
 
 .n-12-11-question-img {
