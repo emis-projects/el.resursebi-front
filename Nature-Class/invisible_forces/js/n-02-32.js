@@ -14,57 +14,36 @@ $(document).ready(function() {
   });
 
 
-  $(".img_box").droppable({
-    tolerance: "intersect",
-    drop: function(event, ui) {
-      const drop_el = $(this).offset();
-      const drag_el = ui.draggable.offset();
 
-      //img_box-ს offset ცენტრის დადგენა (ზემოდან და მარცხნიდან)
-      const leftSide = drop_el.left + $(this).width() / 2 - (drag_el.left + ui.draggable.width() / 2);
-      const topSide = drop_el.top + $(this).height() / 2 - (drag_el.top + ui.draggable.height() / 2);
+    $(".img_box").droppable({
+      tolerance: "intersect",
 
-      // დივიჟენს დავამათოთ კლასი highlight
-      $(this)
-        .addClass("highlight")
-        .find("div");
+      drop: function(event, ui) {
 
-      // draggable ელემენტი მოვათავსოთ დივიჟენის ცენტრში
-      ui.draggable.animate({
-        top: "+=" + topSide,
-        left: "+=" + leftSide
-      });
-    }
-  });
-});
+        // console.log(event.target.attr('data-answer'))
 
+        if($(event.target).attr('data-answer') == 'true'){
+          const drop_el = $(this).offset();
+          const drag_el = ui.draggable.offset();
+    
+          //img_box-ს offset ცენტრის დადგენა (ზემოდან და მარცხნიდან)
+          const leftSide = drop_el.left + $(this).width() / 2 - (drag_el.left + ui.draggable.width() / 2);
+          const topSide = drop_el.top + $(this).height() / 2 - (drag_el.top + ui.draggable.height() / 2);
+    
+          // დივიჟენს დავამათოთ კლასი highlight
+          $(this)
+            .addClass("highlight")
+            .find("div");
+    
+          // draggable ელემენტი მოვათავსოთ დივიჟენის ცენტრში
+          ui.draggable.animate({
+            top: "+=" + topSide,
+            left: "+=" + leftSide
+          });
 
-//სისწორის შემოწმება
-$("#completedGame").click(function() {
-  drop_boxes.forEach((elm, indx) => {
-    //სისწორისას გადაითეს "სწორია" გვერდზე ან ჩასვას X სურათი და გავხადოთ უმოძრაო მაუსის მოჭიდებისას.
-    if (elm.classList.contains("highlight") && indx === 0) {
-      window.location.href = "./game-success-32.html";
-      return;
-    } else if (elm.classList.contains("highlight") && indx !== 0) {
-      let img = document.createElement("img");
-      img.setAttribute('id', 'wrong');
-      img.setAttribute('draggable', false)
-      img.src =
-        "../../img/gakvetilebi/buneba/invisible_forces/games/wrong.svg";
-      elm.appendChild(img);
-    }
-  });
-});
-
-
-$("#resetBtn").click(function() {
-  drop_boxes.forEach(elm => {
-    elm.classList.remove('"ui-droppable","highlight"');
-  });
-  if (document.getElementById('wrong')) {
-    document.getElementById('wrong').remove();
-  }
-  magnet.style.left = 0;
-  magnet.style.top = 0;
+        } else {
+          $('#draggable').removeAttr('style')
+        }
+      }
+    });
 });
