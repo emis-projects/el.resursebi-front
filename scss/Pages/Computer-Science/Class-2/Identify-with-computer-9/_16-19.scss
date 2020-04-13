@@ -39,3 +39,21 @@
    color:#947DCE;
   }
 }
+
+.cs-2-9-img-div{
+  &-18 {
+    height:58.59vh;
+    position:absolute;
+    bottom:0;
+    left:10.83vw;
+  }
+  &-19 {
+    height:39.19vh;
+    position:absolute;
+    bottom:13.54vh;
+    right:10.83vw;
+  }
+  img{
+    height:100%;
+  }
+} 
