@@ -20121,6 +20121,10 @@ td img {
   margin-top: 1vh;
 }
 
+img.mfp-img[alt*="cs-2-4-18-img"] {
+  height: 85vh !important;
+}
+
 .cs-2-4-19-ill-img {
   height: 50vh;
   position: relative;
@@ -26626,6 +26630,14 @@ img.mfp-img[alt*=cs-3-6-6-img] {
 .cs-network-box-5-1 img {
   height: 100%;
 }
+
+.cs-network .title-59 h1 {
+  font-size: 28px;
+  font-style: italic;
+  font-family: 'DejaVu Sans Oblique';
+  color: #62548a;
+}
+
 .cs-network .title {
   color: #62548A;
   font-size: 3.6vh;
