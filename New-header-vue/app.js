@@ -742,8 +742,8 @@ let title = {
         },
         {
             id: 9,
-            name: 'სათაური',
-            link: 'Computer-Science/Class-2/...'
+            name: 'კომპიუტერული ტექნოლოგიების გამოყენების იდენტიფიცირება',
+            link: 'Computer-Science/Class-2/Identify-with-computer-9/1.html'
         },
         {
             id: 10,
