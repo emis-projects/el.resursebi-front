@@ -933,8 +933,8 @@ let title = {
         },
         {
             id: 10,
-            name: 'სათაური',
-            link: '#'
+            name: 'ობიექტები',
+            link: 'Computer-Science/Class-5/objects-1/1.html'
         },
         {
             id: 11,
