@@ -1,18 +1,17 @@
 <!DOCTYPE html>
-<!-- ბოტის აიდიში ვუთითებთ: ხელოვნების - 2318, ბუნების - 2320, მუსიკის - 2292 -->
-<html lang="ka" data-botid="2320">
+<html lang="ka" data-botid="2288">
 
 <head>
     <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
     <!-- ყველა გვერდზე -->
-    <script src="../../js/vue.js"></script>
+    <script src="../../../js/vue.js"></script>
     <!--  ვუე გაშვებისას
       <script src="./js/vue.min.js"></script>
        -->
-    <link rel="stylesheet" href="../../New-header-vue/animate.min.css">
-    <link rel="stylesheet" href="../../scss/libraries/bootstrap.min.css">
-    <link rel="stylesheet" href="../../scss/new-style.css"/>
+    <link rel="stylesheet" href="../../../New-header-vue/animate.min.css">
+    <link rel="stylesheet" href="../../../scss/libraries/bootstrap.min.css">
+    <link rel="stylesheet" href="../../../scss/new-style.css"/>
     <title>ელექტრონული საგანმანათლებლო რესურსი</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
@@ -31,34 +30,19 @@
 
 <body>
 <div class="container">
-    <section id="app" class="container position-absolute">
-        <header>
-            <app-menu v-logo="'../../'" :is-active="isActive" :toggle="toggle"></app-menu>
-        </header>
+    <header>
+        <a class="close" href="7.html">
+            <img src="../../../img/icons/close.svg" alt="close"/>
+        </a>
+    </header>
+    <section>
+        <div class="row newDesign_hintPage">
 
-        <app-section v-image="'../../'" :is-active="isActive">
-            <app-bar
-                    :is-active="isActive"
-                    :trigger="trigger"
-                    :dots="dots"
-                    :current-tab="link"
-                    v-on:link-tab="link = $event">
+            <div class="col-12 cs-5-10-img-div-extras cs-5-10-img-div-extras-7-1 d-flex justify-content-center">
+                <img src="../../../img/gakvetilebi/Computer-Science/Class-5/objects-1/cs-5-10-7-1-img.svg" alt="img">
+            </div>
+        </div>
 
-            </app-bar>
-            <component
-                    :path="path"
-                    :is="currentTabComponent"
-                    :is-active="isActive"
-                    :trigger="trigger"
-                    :images="images"
-                    :active-class="activeClass"
-                    :tab-class="currentTabComponent">
-            </component>
-        </app-section>
-    </section>
-
-
-    <section id="mainPage">
         <div class="left_components_paging-cont">
             <svg class="left_components_paging" xmlns="http://www.w3.org/2000/svg"
                  xmlns:xlink="http://www.w3.org/1999/xlink" width="134" height="722" viewBox="0 0 134 722">
@@ -84,21 +68,24 @@
                         <feComposite operator="in" in2="blur-3"/>
                         <feComposite in="SourceGraphic"/>
                     </filter>
-                    <filter id="Path_12243-3" x="28" y="424" width="78.354" height="78" filterUnits="userSpaceOnUse">
+                    <filter id="Path_12243-3" x="28" y="424" width="78.354" height="78"
+                            filterUnits="userSpaceOnUse">
                         <feOffset dx="2" dy="2" input="SourceAlpha"/>
                         <feGaussianBlur stdDeviation="4" result="blur-4"/>
                         <feFlood flood-color="#dc6c85" flood-opacity="0.4"/>
                         <feComposite operator="in" in2="blur-4"/>
                         <feComposite in="SourceGraphic"/>
                     </filter>
-                    <filter id="Path_12243-4" x="28" y="211" width="78.354" height="78" filterUnits="userSpaceOnUse">
+                    <filter id="Path_12243-4" x="28" y="211" width="78.354" height="78"
+                            filterUnits="userSpaceOnUse">
                         <feOffset dx="2" dy="2" input="SourceAlpha"/>
                         <feGaussianBlur stdDeviation="4" result="blur-5"/>
                         <feFlood flood-color="#dc6c85" flood-opacity="0.4"/>
                         <feComposite operator="in" in2="blur-5"/>
                         <feComposite in="SourceGraphic"/>
                     </filter>
-                    <filter id="Path_12243-5" x="28" y="317" width="78.354" height="78" filterUnits="userSpaceOnUse">
+                    <filter id="Path_12243-5" x="28" y="317" width="78.354" height="78"
+                            filterUnits="userSpaceOnUse">
                         <feOffset dx="2" dy="2" input="SourceAlpha"/>
                         <feGaussianBlur stdDeviation="4" result="blur-6"/>
                         <feFlood flood-color="#7fd1d8" flood-opacity="0.4"/>
@@ -127,7 +114,7 @@
                           data-name="Path 24922"
                           d="M-107,293.662h-25.155a28.388,28.388,0,0,0-21.1,9.686A34.87,34.87,0,0,0-162,326.736c0,18.266,13.362,33.074,29.844,33.074H-107c20.013,0,36.24,17.983,36.24,40.162V253.5C-70.762,275.679-86.988,293.662-107,293.662Z"
                           transform="translate(195.761 283.264)" fill="#7fd1d8"/>
-                    <path class="leftSidebar_type" style="opacity: 0" data-type="3" id="Path_143735"
+                    <path class="leftSidebar_type" style="opacity: 1" data-type="3" id="Path_143735"
                           data-name="Path 143735"
                           d="M-107,293.662h-25.155a28.388,28.388,0,0,0-21.1,9.686A34.87,34.87,0,0,0-162,326.736c0,18.266,13.362,33.074,29.844,33.074H-107c20.013,0,36.24,17.983,36.24,40.162V253.5C-70.762,275.679-86.988,293.662-107,293.662Z"
                           transform="translate(195.761 57.264)" fill="#7fd1d8"/>
@@ -181,77 +168,77 @@
                                   d="M398.326,34.105h15.128a.9.9,0,0,0,.149-1.8l-.06-.007c-1.965-.2-15.26,0-15.26,0s-.024,0-.068,0A.9.9,0,0,0,398.326,34.105Z"
                                   transform="translate(-396.889 -22.072)" fill="#badfed"/>
                             <line id="Line_800" data-name="Line 800" x2="1.118" transform="translate(6.287 1.341)"
-                                  fill="none"
-                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+                                  fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"
+                                  stroke-width="0.25"/>
                             <line id="Line_801" data-name="Line 801" x2="1.118" transform="translate(6.287 3.416)"
-                                  fill="none"
-                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+                                  fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"
+                                  stroke-width="0.25"/>
                             <line id="Line_802" data-name="Line 802" x2="0.771" transform="translate(6.289 1.798)"
-                                  fill="none"
-                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+                                  fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"
+                                  stroke-width="0.25"/>
                             <line id="Line_803" data-name="Line 803" x2="0.771" transform="translate(6.289 2.202)"
-                                  fill="none"
-                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+                                  fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"
+                                  stroke-width="0.25"/>
                             <line id="Line_804" data-name="Line 804" x2="0.771" transform="translate(6.289 2.607)"
-                                  fill="none"
-                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+                                  fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"
+                                  stroke-width="0.25"/>
                             <line id="Line_805" data-name="Line 805" x2="0.771" transform="translate(6.289 3.012)"
-                                  fill="none"
-                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+                                  fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"
+                                  stroke-width="0.25"/>
                             <line id="Line_806" data-name="Line 806" x2="1.118" transform="translate(6.287 3.416)"
-                                  fill="none"
-                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+                                  fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"
+                                  stroke-width="0.25"/>
                             <line id="Line_807" data-name="Line 807" x2="1.118" transform="translate(6.287 5.344)"
-                                  fill="none"
-                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+                                  fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"
+                                  stroke-width="0.25"/>
                             <line id="Line_808" data-name="Line 808" x2="0.771" transform="translate(6.289 3.873)"
-                                  fill="none"
-                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+                                  fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"
+                                  stroke-width="0.25"/>
                             <line id="Line_809" data-name="Line 809" x2="0.771" transform="translate(6.289 4.278)"
-                                  fill="none"
-                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+                                  fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"
+                                  stroke-width="0.25"/>
                             <line id="Line_810" data-name="Line 810" x2="0.771" transform="translate(6.289 4.682)"
-                                  fill="none"
-                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+                                  fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"
+                                  stroke-width="0.25"/>
                             <line id="Line_811" data-name="Line 811" x2="0.771" transform="translate(6.289 5.087)"
-                                  fill="none"
-                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+                                  fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"
+                                  stroke-width="0.25"/>
                             <line id="Line_812" data-name="Line 812" x2="1.118" transform="translate(6.287 5.344)"
-                                  fill="none"
-                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+                                  fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"
+                                  stroke-width="0.25"/>
                             <line id="Line_813" data-name="Line 813" x2="1.118" transform="translate(6.287 7.363)"
-                                  fill="none"
-                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+                                  fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"
+                                  stroke-width="0.25"/>
                             <line id="Line_814" data-name="Line 814" x2="0.771" transform="translate(6.289 5.789)"
-                                  fill="none"
-                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+                                  fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"
+                                  stroke-width="0.25"/>
                             <line id="Line_815" data-name="Line 815" x2="0.771" transform="translate(6.289 6.182)"
-                                  fill="none"
-                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+                                  fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"
+                                  stroke-width="0.25"/>
                             <line id="Line_816" data-name="Line 816" x2="0.771" transform="translate(6.289 6.576)"
-                                  fill="none"
-                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+                                  fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"
+                                  stroke-width="0.25"/>
                             <line id="Line_817" data-name="Line 817" x2="0.771" transform="translate(6.289 6.97)"
-                                  fill="none"
-                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+                                  fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"
+                                  stroke-width="0.25"/>
                             <line id="Line_818" data-name="Line 818" x2="1.118" transform="translate(6.287 7.363)"
-                                  fill="none"
-                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+                                  fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"
+                                  stroke-width="0.25"/>
                             <line id="Line_819" data-name="Line 819" x2="1.118" transform="translate(6.287 9.383)"
-                                  fill="none"
-                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+                                  fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"
+                                  stroke-width="0.25"/>
                             <line id="Line_820" data-name="Line 820" x2="0.771" transform="translate(6.289 7.808)"
-                                  fill="none"
-                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+                                  fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"
+                                  stroke-width="0.25"/>
                             <line id="Line_821" data-name="Line 821" x2="0.771" transform="translate(6.289 8.202)"
-                                  fill="none"
-                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+                                  fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"
+                                  stroke-width="0.25"/>
                             <line id="Line_822" data-name="Line 822" x2="0.771" transform="translate(6.289 8.596)"
-                                  fill="none"
-                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+                                  fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"
+                                  stroke-width="0.25"/>
                             <line id="Line_823" data-name="Line 823" x2="0.771" transform="translate(6.289 8.989)"
-                                  fill="none"
-                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+                                  fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"
+                                  stroke-width="0.25"/>
                         </g>
                     </g>
                     <g id="Group_8101" data-name="Group 8101" transform="translate(-1.874 -98)">
@@ -444,13 +431,13 @@
                         <tspan x="0" y="0">მინიშნება</tspan>
                     </text>
                     <text id="შუალედური_დავალება" data-name="შუალედური
-                  დავალება" transform="translate(70 549)" fill="#c5cbcd" font-size="12"
+                        დავალება" transform="translate(70 549)" fill="#c5cbcd" font-size="12"
                           font-family="ALKSanet, ALK Sanet">
                         <tspan x="-35.344" y="0">შუალედური</tspan>
                         <tspan x="-30.636" y="12">დავალება</tspan>
                     </text>
                     <text id="კომპლექსური_დავალება" data-name="კომპლექსური
-                  დავალება" transform="translate(70 668)" fill="#c5cbcd" font-size="12"
+                        დავალება" transform="translate(70 668)" fill="#c5cbcd" font-size="12"
                           font-family="ALKSanet, ALK Sanet">
                         <tspan x="-42.015" y="0">კომპლექსური</tspan>
                         <tspan x="-30.636" y="12">დავალება</tspan>
@@ -458,161 +445,16 @@
                 </g>
             </svg>
         </div>
-        <section id="N-1366-06-52">
-            <div class="row">
-              <div class="col-3">
-                <div class="n_continent-game">
-                  <img src="../../img/gakvetilebi/buneba/Summer-in-winter/games/N-52-1.svg" alt="img"
-                    class="n_continent-game-img">
-                  <div class="d-flex drag_box">
-                    <div class="n_continent-game-btn draggable" data-country="brazil">ბრაზილია</div>
-                  </div>
+
+        <div class="our__pagination flex">
+            <div class="flex align-items-center" id="pagination">
+                <div class="pagination__item">
+                    <a class="current__pagination" href="5-2.html">1</a>
                 </div>
-              </div>
-              <div class="col-3">
-                <div class="n_continent-game">
-                  <img src="../../img/gakvetilebi/buneba/Summer-in-winter/games/N-52-2.svg" alt="img"
-                    class="n_continent-game-img">
-                  <div class="d-flex drag_box">
-                    <div class="n_continent-game-btn draggable" data-country="africa">სამხ.აფრიკა</div>
-                    <div class="n_continent-game-btn draggable" data-country="africa">სამხ.აფრიკა</div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-3">
-                <div class="n_continent-game">
-                  <img src="../../img/gakvetilebi/buneba/Summer-in-winter/games/N-52-3.svg" alt="img"
-                    class="n_continent-game-img">
-                  <div class="d-flex drag_box">
-                    <div class="n_continent-game-btn draggable" data-country="india">ინდოეთი</div>
-                    <div class="n_continent-game-btn draggable" data-country="india">ინდოეთი</div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-3">
-                <div class="n_continent-game">
-                  <img src="../../img/gakvetilebi/buneba/Summer-in-winter/games/N-52-4.svg" alt="img"
-                    class="n_continent-game-img">
-                  <div class="d-flex drag_box">
-                    <div class="n_continent-game-btn draggable" data-country="georgia">საქართველო</div>
-                    <div class="n_continent-game-btn draggable" data-country="georgia">საქართველო</div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-3">
-                <div class="n_continent-game">
-                  <img src="../../img/gakvetilebi/buneba/Summer-in-winter/games/N-52-5.svg" alt="img"
-                    class="n_continent-game-img">
-                  <div class="d-flex drag_box">
-                    <div class="n_continent-game-btn draggable" data-country="america">ამერიკის სამხ. შტატები</div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-3">
-                <div class="n_continent-game">
-                  <img src="../../img/gakvetilebi/buneba/Summer-in-winter/games/N-52-6.svg" alt="img"
-                    class="n_continent-game-img">
-                  <div class="d-flex drag_box">
-                    <div class="n_continent-game-btn draggable" data-country="greek">საბერძნეთი</div>
-                    <div class="n_continent-game-btn draggable" data-country="greek">საბერძნეთი</div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-3">
-                <div class="n_continent-game">
-                  <img src="../../img/gakvetilebi/buneba/Summer-in-winter/games/N-52-7.svg" alt="img"
-                    class="n_continent-game-img">
-                  <div class="d-flex drag_box">
-                    <div class="n_continent-game-btn draggable" data-country="japan">იაპონია</div>
-                    <div class="n_continent-game-btn draggable" data-country="japan">იაპონია</div>
-                  </div>
-                </div>
-              </div>
             </div>
-            <div class="row">
-              <div class="col-10" style="margin-left: 3vw;">
-                <div class="seasons_continet-game-table row seasons_continet-game-table-yellow">
-                  <div class="col">იანვარი</div>
-                  <div class="col">თებერვალი</div>
-                  <div class="col">მარტი</div>
-                  <div class="col">აპრილი</div>
-                  <div class="col">მაისი</div>
-                  <div class="col">ივნისი</div>
-                </div>
-                <div class="seasons_continet-game-table-body row seasons_continet-game-table-yellow-body">
-                  <div class="col d-flex align-items-center justify-content-center dropable">
-                    <div class="d-fle country_box" data-country="africa" > </div>
-                  </div>
-                  <div class="col d-flex align-items-center justify-content-center dropable">
-                    <div class="d-flex country_box" data-country="brazil"></div>
-                  </div>
-                  <div class="col d-flex align-items-center justify-content-center dropable">
-                    <div class="d-flex country_box" data-country="japan" ></div>
-                  </div>
-                  <div class="col d-flex align-items-center justify-content-center dropable">
-                    <div class="d-flex country_box" data-country="japan" ></div>
-                  </div>
-                  <div class="col d-flex align-items-center justify-content-center dropable">
-                    <div class="d-flex country_box" data-country="america"></div>
-                  </div>
-                  <div class="col d-flex align-items-center justify-content-center dropable">
-                    <div class="d-flex country_box" data-country="greek" ></div>
-                  </div>
-                </div>
-                <div class="seasons_continet-game-table row seasons_continet-game-table-blue">
-                  <div class="col">ივლისი</div>
-                  <div class="col">აგვისტო</div>
-                  <div class="col">სექტემბერი</div>
-                  <div class="col">ოქტომბერი</div>
-                  <div class="col">ნოემბერი</div>
-                  <div class="col">დეკემბერი</div>
-                </div>
-                <div class="seasons_continet-game-table-body row seasons_continet-game-table-blue-body">
-                  <div class="col d-flex align-items-center justify-content-center dropable">
-                    <div class="d-flex country_box" data-country="greek" ></div>
-                  </div>
-                  <div class="col d-flex align-items-center justify-content-center dropable">
-                    <div class="d-flex country_box" data-country="georgia" ></div>
-                  </div>
-                  <div class="col d-flex align-items-center justify-content-center dropable">
-                    <div class="d-flex country_box" data-country="georgia" ></div>
-                  </div>
-                  <div class="col d-flex align-items-center justify-content-center dropable">
-                    <div class="d-flex country_box" data-country="india" ></div>
-                  </div>
-                  <div class="col d-flex align-items-center justify-content-center dropable">
-                    <div class="d-flex country_box" data-country="india" ></div>
-                  </div>
-                  <div class="col d-flex align-items-center justify-content-center dropable">
-                    <div class="d-flex country_box" data-country="africa" ></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-          </section>
-
-
-          <div class="flex flex-end column align-items-end z-index reload_game_wrapper" style="bottom: 25.453125vh; right: 3.057101vw;">
-              <button id="resetBtn" class="reset__btn">თავიდან სცადე</button>
-              <button id="completedGame" class="completed__btn">დასრულება</button>
-          </div>
-
-            <div class="our__pagination flex">
-                <a href="#" class="pagination__prev__btn">
-                    <img style="transform: rotate(180deg)" src="../../img/icons/chevron-left-icon.svg" alt="">
-                </a>
-
-                <div id="pagination" class="flex align-items-center"></div>
-
-                <a href="#" class="pagination__next__btn">
-                    <img src="../../img/icons/chevron-left-icon.svg" alt="">
-                </a>
-            </div>
-
+        </div>
     </section>
 </div>
-
 
 
 <!-- ჩეთბოტი -->
@@ -620,22 +462,15 @@
     <app-bot></app-bot>
 </div>
 
-
-<script src="../../js/libraries/jquery-3.4.1.min.js"></script>
-  <script src="../../js/libraries/jquery-ui.min.js"></script>
-  <script src="../../js/libraries/jquery.magnific-popup.min.js"></script>
-<script src="../../js/Pagination.js"></script>
+<script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
+<script src="../../../js/libraries/jquery.magnific-popup.min.js"></script>
 
 
 <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
-<script src="../../New-header-vue/app.js"></script>
-<script src="../../Vue-chatBot/botApp.js"></script>
-<script src="../../js/bot.js"></script>
-
-
-<script src="js/N-1366-06-52.js"></script>
-
-
+<script src="../../../New-header-vue/app.js"></script>
+<script src="../../../Vue-chatBot/botApp.js"></script>
+<script src="../../../js/bot.js"></script>
 
 </body>
+
 </html>
