@@ -34317,6 +34317,52 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
           transform: translateY(10%);
 }
 
+.cs-3-2-img-div-12 {
+  height: 40.49vh;
+}
+
+.cs-3-2-img-div-13 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 54.81vh;
+}
+
+.cs-3-2-img-div-14 {
+  height: 43.22vh;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.cs-3-2-img-div-16 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 61.84vh;
+}
+
+.cs-3-2-img-div-17 {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  height: 54.42vh;
+}
+
+.cs-3-2-img-div img {
+  height: 100%;
+}
+
+.cs-3-2-img-1 {
+  height: 10.41vh;
+}
+
+.cs-3-2-img-2 {
+  height: 20.31vh;
+}
+
 body {
   color: #262626;
   font-size: 14px;
