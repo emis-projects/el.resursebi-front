@@ -1,8 +1,8 @@
 {
-    "lesson_id": 3,
-    "lesson_name": "What-is-program-3",
+    "lesson_id": 9,
+    "lesson_name": "conditional-operators-9",
     "subject": "computer-science",
-    "pages_number": 23,
+    "pages_number": 22,
     "pages": [
         {
             "number": 1,
@@ -32,12 +32,12 @@
         {
             "number": 6,
             "url": "",
-            "type": 4
+            "type": 2
         },
         {
             "number": 7,
             "url": "",
-            "type": 2
+            "type": 4
         },
         {
             "number": 8,
@@ -67,27 +67,27 @@
         {
             "number": 13,
             "url": "",
-            "type": 4
+            "type": 2
         },
         {
             "number": 14,
             "url": "",
-            "type": 4
+            "type": 2
         },
         {
             "number": 15,
             "url": "",
-            "type": 4
+            "type": 2
         },
         {
             "number": 16,
             "url": "",
-            "type": 2
+            "type": 4
         },
         {
             "number": 17,
             "url": "",
-            "type": 4
+            "type": 5
         },
         {
             "number": 18,
@@ -97,7 +97,7 @@
         {
             "number": 19,
             "url": "",
-            "type": 5
+            "type": null
         },
         {
             "number": 20,
@@ -111,11 +111,6 @@
         },
         {
             "number": 22,
-            "url": "",
-            "type": null
-        },
-        {
-            "number": 23,
             "url": "",
             "type": null
         }

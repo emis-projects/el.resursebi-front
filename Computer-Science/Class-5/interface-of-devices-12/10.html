@@ -45,34 +45,36 @@
             </app-section>
         </section>
         <section id="mainPage">
-            <div class="row">             
-                <div class="col-12  d-flex justify-content-center cs-4-2-9-div-img mt-10vh mb-10vh" id="gameimgSection"></div>
-                
-                <div class="col-6  m-auto d-flex justify-content-around cs-4-2-9-div-img ">
-                    <div class="sign-description-btn cs-2-3-6-sign-description-btn-title cs-4-2-9-1-btn-div">
-                        <p data-answer="incorrect" class="completGame sign-description-btn-title  cs-4-2-9-1-btn-red">სინტაქსური შეცდომა</p>
+            <div class="row">
+                <div class="col-9 m-auto">
+                    <div class="newDesign_subject_question_item mt-2vh">
+                        <img src="../../../img/icons/newDesign_btn-yellow.svg" alt="img"
+                            class="newDesign_subject_question_item-img">
+                        <p class="newDesign_subject_question_item-title">
+                            გრაფიკულ ინტერფეისს აქვს 2 ძირითადი ელემენტი, სამუშაო დაფა და მენიუ. სამუშაო დაფაზე
+                            განთავსებულია სხვადასხვა ობიექტი: საქაღალდეები, ფაილები და პროგრამათა აიქონები. მენიუ არის
+                            მთავარი საშუალება იმისათვის, რომ დავუკავშირდეთ პროგრამებს, საქაღალდეებსა და კომპიუტერის
+                            პარამეტრებს.
+                        </p>
                     </div>
-                    <div class="sign-description-btn cs-2-3-6-sign-description-btn-title cs-4-2-9-1-btn-div">
-                        <p data-answer="correct" class="completGame sign-description-btn-title  cs-4-2-9-1-btn-green">არ არის შეცდომა</p>
+                    <div class="newDesign_subject_question_item">
+                        <img src="../../../img/icons/newDesign_btn-yellow.svg" alt="img"
+                            class="newDesign_subject_question_item-img">
+                        <p class="newDesign_subject_question_item-title">
+                            გისარგებლია თუ არა სამუშაო დაფაზე განთავსებული აიქონებით?
+                        </p>
                     </div>
+                    <div class="newDesign_subject_question_item">
+                        <img src="../../../img/icons/newDesign_btn-yellow.svg" alt="img"
+                            class="newDesign_subject_question_item-img">
+                        <p class="newDesign_subject_question_item-title">
+                            გამოგიყენებია კომპიუტერული მოწყობილობის მენიუ?
+                        </p>
+                    </div>
+                    <img src="../../../img/gakvetilebi/Computer-Science/Class-5/interface-of-devices-12/cs-5-12-10.png"
+                        alt="img" class="cs-5-12-10-img">
                 </div>
             </div>
-                <div class="d-flex align-items-center  cs-4-2-9-time-div-img">
-                    <div class="clock-box relative">
-                        <img alt="clock" id="clock" src="../../../img/gakvetilebi/Computer-Science/Class-5/objects-moving-4/C-5-4-Clock.svg" />
-                        <span style="color: #937dce;" id="time">30 წ</span>
-                    </div>
-
-                    <div class="counter-box ml-4 d-flex justify-content-around align-items-center" style="background-color: #937dce;">
-                        <p class="counter-box_text dj-2_6vh">ქულა</p>
-                        <div class="counter-box_number" id="numberOfScore"></div>
-                    </div>
-                </div>
-
-                <div class="flex flex-end column align-items-end z-index reload_game_wrapper">
-                    <button id="resetBtn" class="reset__btn">თავიდან სცადე</button>
-              </div>
-
 
             <div class="left_components_paging-cont" id="leftNav">
                 <left-nav-item></left-nav-item>
@@ -103,7 +105,6 @@
     <script src="../../../js/libraries/jquery.magnific-popup.min.js"></script>
     <script src="../../../js/Pagination.js"></script>
 
-    <script src="./js/9.js"></script>
 
     <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
     <script src="../../../New-header-vue/app.js"></script>
