@@ -34565,6 +34565,14 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   right: 16.17vw;
 }
 
+.cs-5-1-img-div-18 {
+  height: 56.38vh;
+}
+
+.cs-5-1-img-div-19 {
+  height: 42.83vh;
+}
+
 .cs-5-1-img-div img {
   height: 100%;
 }
@@ -34589,6 +34597,56 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .cs-5-1-img-div-16 img {
   height: 100%;
+}
+
+.cs-5-12-img-div-15 {
+  height: 47.52vh;
+}
+
+.cs-5-12-img-div-17 {
+  height: 45.05vh;
+}
+
+.cs-5-12-img-div-18 {
+  height: 20.83vh;
+}
+
+.cs-5-12-img-div-19 {
+  height: 40.75vh;
+  position: absolute;
+  bottom: 0;
+  left: 10.24vw;
+}
+
+.cs-5-12-img-div-21 {
+  height: 56.25vh;
+}
+
+.cs-5-12-img-div-22 {
+  height: 27.47vh;
+}
+
+.cs-5-12-img-div-20-1 {
+  height: 47.52vh;
+}
+
+.cs-5-12-img-div img {
+  height: 100%;
+}
+
+.cs-5-12-img-div-20-2-circle {
+  border: 1px solid #947DCE;
+  height: 5.46vh;
+  width: 5.46vh;
+  border-radius: 50%;
+}
+
+.cs-5-12-img-div-20-2-btn {
+  height: 8.51vh;
+}
+
+.cs-5-12-img-div-20-3 img {
+  height: 5.46vh;
 }
 
 body {
