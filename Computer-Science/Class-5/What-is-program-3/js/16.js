@@ -3,12 +3,25 @@ function game () {
     this.startGameIs = true;
     this.TIME_LIMIT = 30;
     this.timePassed = 0;
-    this.bubbleCreatedinterval = 12000;
+    this.bubbleCreatedinterval = 10000;
     this.timeLeft = this.TIME_LIMIT;
     this.timerInterval = null;
     this.imgHref = "../../../img/gakvetilebi/Computer-Science/Class-5/What-is-program-3/";
-    this.imgSide = ["cs-5-3-16-img-4.svg", "cs-5-3-16-img-5.svg", "cs-5-3-16-img-8.svg"];
     this.randomedImages = [];
+    this.questions = [
+        ["cs-5-3-16-img-4.svg", "cs-5-3-16-img-8.svg", "cs-5-3-16-img-5.svg"],
+        ["cs-5-3-16-img-5.svg", "cs-5-3-16-img-5.svg", "cs-5-3-16-img-8.svg"],
+        ["cs-5-3-16-img-8.svg", "cs-5-3-16-img-5.svg", "cs-5-3-16-img-4.svg"],
+        ["cs-5-3-16-img-4.svg", "cs-5-3-16-img-8.svg", "cs-5-3-16-img-5.svg"],
+        ["cs-5-3-16-img-5.svg", "cs-5-3-16-img-8.svg", "cs-5-3-16-img-8.svg"],
+        ["cs-5-3-16-img-8.svg", "cs-5-3-16-img-4.svg", "cs-5-3-16-img-8.svg"],
+        ["cs-5-3-16-img-8.svg", "cs-5-3-16-img-5.svg", "cs-5-3-16-img-4.svg"],
+        ["cs-5-3-16-img-5.svg", "cs-5-3-16-img-5.svg", "cs-5-3-16-img-4.svg"],
+        ["cs-5-3-16-img-5.svg", "cs-5-3-16-img-5.svg", "cs-5-3-16-img-4.svg"],
+        ["cs-5-3-16-img-4.svg", "cs-5-3-16-img-8.svg", "cs-5-3-16-img-5.svg"],
+        ["cs-5-3-16-img-8.svg", "cs-5-3-16-img-5.svg", "cs-5-3-16-img-4.svg"],
+        ["cs-5-3-16-img-5.svg", "cs-5-3-16-img-4.svg", "cs-5-3-16-img-8.svg"]
+    ]
 
 
     var resetBtn = document.getElementById('resetBtn');
@@ -19,7 +32,7 @@ function game () {
     resetBtn.addEventListener('click', () => this.init());
     document.addEventListener('DOMContentLoaded', () => {
         this.startTimer();
-        this.getRandomBubblesLink(this.imgSide, 3);
+        this.getRandomBubblesLink(this.questions, 1);
         this.generateNewBubbles();
     })
     
@@ -38,11 +51,11 @@ function game () {
         this.TIME_LIMIT = 30;
         this.timePassed = 0;
         this.timerInterval = null;
-        this.bubbleCreatedinterval = 12000;
+        this.bubbleCreatedinterval = 10000;
         this.startGameIs = true;
         this.removeAllBubble();
         this.startTimer();
-        this.getRandomBubblesLink(this.imgSide, 3);
+        this.getRandomBubblesLink(this.questions, 1);
         this.generateNewBubbles();
         document.getElementById('clock').setAttribute('src', '../../../img/gakvetilebi/Computer-Science/Class-5/objects-moving-4/C-5-4-Clock.svg');
         document.getElementById('time').setAttribute('style', 'color: #937dce');
@@ -62,7 +75,7 @@ function game () {
 
 
     var interval = setInterval(() => {
-        this.getRandomBubblesLink(this.imgSide, 3);
+        this.getRandomBubblesLink(this.questions, 1);
         this.generateNewBubbles();
 
     }, this.bubbleCreatedinterval)
@@ -114,7 +127,7 @@ function game () {
             taken[x] = --len in taken ? taken[len] : len;
         }
 
-        this.randomedImages = result;
+        this.randomedImages = result[0];
 
         return result;
     }
@@ -135,13 +148,13 @@ function game () {
 
             clearInterval(interval);
 
-            this.getRandomBubblesLink(this.imgSide, 3);
+            this.getRandomBubblesLink(this.questions, 1);
             this.removeAllBubble();
             this.generateNewBubbles();
 
 
             interval = setInterval(() => {
-                this.getRandomBubblesLink(this.imgSide, 3);
+                this.getRandomBubblesLink(this.questions, 1);
                 this.generateNewBubbles();
         
             }, this.bubbleCreatedinterval)
