@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ka" data-botid="2288">
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <!-- ყველა გვერდზე -->
+    <script src="../../../js/vue.js"></script>
+    <!--  ვუე გაშვებისას
+    <script src="./js/vue.min.js"></script>
+     -->
+    <link rel="stylesheet" href="../../../scss/libraries/bootstrap.min.css">
+    <link rel="stylesheet" href="../../../New-header-vue/animate.min.css">
+    <link rel="stylesheet" href="../../../scss/new-style.css"/>
+    <title>ელექტრონული საგანმანათლებლო რესურსი</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'UA-155006442-1');
+    </script>
+</head>
+
+<body>
+<div class="container">
+    <section id="app" class="container position-absolute">
+        <header>
+            <app-menu v-logo="'../../../'" :is-active="isActive" :toggle="toggle"></app-menu>
+        </header>
+
+        <app-section v-image="'../../../'" :is-active="isActive">
+            <app-bar :is-active="isActive" :trigger="trigger" :dots="dots" :current-tab="link"
+                     v-on:link-tab="link = $event">
+
+            </app-bar>
+            <component :path="path" :is="currentTabComponent" :is-active="isActive" :trigger="trigger"
+                       :images="images" :active-class="activeClass" :tab-class="currentTabComponent">
+            </component>
+        </app-section>
+    </section>
+    <section id="mainPage">
+        <div class="row">
+            <div class="col-9 m-auto d-flex flex-column ">
+                <div class="newDesign_subject_question_item">
+                    <img src="../../../img/icons/newDesign_btn-yellow.svg" alt="img"
+                         class="newDesign_subject_question_item-img">
+                    <p class="newDesign_subject_question_item-title">
+                        შენ წინაშეა სისტემურ ბლოკზე განლაგებული შესაერთებელი ადგილები. დაფიქრდი</br>
+                         და მიუსადაგე, რომელი ტიპის სადენი სად უნდა შეაერთო.
+                    </p>
+                </div>
+            </div>
+           <div class="col-11 offset-1 d-flex cs-3-2-15-img-div justify-content-between mt-5vh">
+            <img src="../../../img/gakvetilebi/Computer-Science/Class-3/computer-equipment-2/cs-3-2-15-img-1.svg"
+            alt="img" class="cs-3-2-img-1">           
+           <img src="../../../img/gakvetilebi/Computer-Science/Class-3/computer-equipment-2/cs-3-2-15-img-2.svg"
+           alt="img" class="cs-3-2-img-1">      
+          <img src="../../../img/gakvetilebi/Computer-Science/Class-3/computer-equipment-2/cs-3-2-15-img-3.svg"
+          alt="img" class="cs-3-2-img-1">
+          <img src="../../../img/gakvetilebi/Computer-Science/Class-3/computer-equipment-2/cs-3-2-15-img-4.svg"
+          alt="img" class="cs-3-2-img-1">
+          <img src="../../../img/gakvetilebi/Computer-Science/Class-3/computer-equipment-2/cs-3-2-15-img-5.svg"
+          alt="img" class="cs-3-2-img-1">
+          <img src="../../../img/gakvetilebi/Computer-Science/Class-3/computer-equipment-2/cs-3-2-15-img-6.svg"
+          alt="img" class="cs-3-2-img-1">
+              </div>
+        <div class="col-11  offset-1 d-flex cs-3-2-15-img-div justify-content-between mt-5vh">
+                <img src="../../../img/gakvetilebi/Computer-Science/Class-3/computer-equipment-2/cs-3-2-15-img-7.png"
+                alt="img" class="cs-3-2-img-2">           
+               <img src="../../../img/gakvetilebi/Computer-Science/Class-3/computer-equipment-2/cs-3-2-15-img-8.png"
+               alt="img" class="cs-3-2-img-2">      
+              <img src="../../../img/gakvetilebi/Computer-Science/Class-3/computer-equipment-2/cs-3-2-15-img-9.png"
+              alt="img" class="cs-3-2-img-2">
+              <img src="../../../img/gakvetilebi/Computer-Science/Class-3/computer-equipment-2/cs-3-2-15-img-10.png"
+              alt="img" class="cs-3-2-img-2">
+              <img src="../../../img/gakvetilebi/Computer-Science/Class-3/computer-equipment-2/cs-3-2-15-img-11.png"
+              alt="img" class="cs-3-2-img-2">
+              <img src="../../../img/gakvetilebi/Computer-Science/Class-3/computer-equipment-2/cs-3-2-15-img-12.png"
+              alt="img" class="cs-3-2-img-2">
+          </div>
+        </div>
+        <div class="flex flex-end column align-items-end z-index parts-reload_game_wrapper">
+            <button class="reset__btn" id="resetBtn">თავიდან სცადე</button>
+            <button class="completed__btn" id="completedGame">დასრულება</button>
+        </div>
+        <!-- ეს არის svg თეგირომელიც ქმნის მარცხენა ვერტიკალურ "ნავ რუკას" -->
+        <div class="left_components_paging-cont" id="leftNav">
+            <left-nav-item></left-nav-item>
+        </div>
+
+        <div class="our__pagination flex">
+            <a href="#" class="pagination__prev__btn">
+                <img style="transform: rotate(180deg)" src="../../../img/icons/chevron-left-icon.svg" alt="">
+            </a>
+
+            <div id="pagination" class="flex align-items-center"></div>
+
+            <a href="#" class="pagination__next__btn">
+                <img src="../../../img/icons/chevron-left-icon.svg" alt="">
+            </a>
+        </div>
+
+    </section>
+</div>
+
+
+<!-- ჩეთბოტი -->
+<div id="chatBot">
+    <app-bot></app-bot>
+</div>
+
+<script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
+<script src="../../../js/libraries/jquery.magnific-popup.min.js"></script>
+<script src="../../../js/Pagination.js"></script>
+
+
+<!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
+<script src="../../../New-header-vue/app.js"></script>
+<script src="../../../Vue-chatBot/botApp.js"></script>
+<script src="../../../js/bot.js"></script>
+
+
+</body>
+
+</html>
