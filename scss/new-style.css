@@ -786,6 +786,7 @@
   font-style: normal;
   font-display: block;
 }
+
 [class^=icon-], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: "icomoon" !important;
@@ -899,6 +900,7 @@
   font-weight: normal;
   font-style: normal;
 }
+
 [class^=arrow-]:before, [class*=" arrow-"]:before {
   font-family: "fontello";
   font-style: normal;
@@ -8581,7 +8583,7 @@ section .arrow_up_down_downArrow img {
 
 .m_exercise_text-container_16px {
   color: #0B2228;
-  font-size: 2.08h;
+  font-size: 2.08 h;
   font-family: "BPG Arial";
 }
 
@@ -28318,6 +28320,7 @@ img.mfp-img[alt*=cs-3-6-6-img] {
   transform: translateY(10%);
   left: 0;
 }
+
 .conditional-marks_page-5 .drop-box-right {
   border: 2px solid #52B5CC;
   right: 0;
@@ -28329,31 +28332,15 @@ img.mfp-img[alt*=cs-3-6-6-img] {
   height: 36vh;
   max-height: 273px;
 }
+
 .interface_page-3 img {
-  height: 100%;
-}
-.interface_page-4 {
-  height: 39vh;
-  max-height: 297px;
-}
-.interface_page-4 img {
-  height: 100%;
-}
-.interface_page-5 {
-  height: 46vh;
-  max-height: 356px;
-  position: fixed;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-}
-.interface_page-5 img {
   height: 100%;
 }
 
 .cs-3-2-img-div-12 {
   height: 40.49vh;
 }
+
 .cs-3-2-img-div-13 {
   position: absolute;
   bottom: 0;
