@@ -59,11 +59,12 @@
     border: 1px solid #947DCE;
     height: 2.5vh;
     width: 2.5vh;
-    margin: .7vh 0.13vh;
+    margin: 2.7vh 0.13vh;
     background-color: #b6b5ba00;
-    margin-top: 3vh;
-    
 }
 .check_box .circle-fill {
     background-color: #947DCE!important;
+}
+.check_box .error {
+    background-color: #DC6C85;
 }
