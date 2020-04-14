@@ -34083,64 +34083,6 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   background-color: #DC6C85;
 }
 
-.cs-2-9-img-div-16 {
-  height: 31.25vh;
-}
-
-.cs-2-9-img-div-16 img {
-  height: 100%;
-}
-
-/* .cs-2-9-img-game-div
-{
-  &-1{
-    height:8.2vh;
-    margin-right: 1.69vh;
-    margin-left: 1.69vh; 
-  }
-  &-2{
-    height:9.76vh;
-    margin-right: 1.69vh;
-    margin-left: 1.69vh; 
-  }
-  &-3{
-    height:7.03vh;
-    margin-right: 1.69vh;
-    margin-left: 1.69vh; 
-  }
-  img{
-    height:100%;
-    margin-right: 1.69vh;
-    margin-left: 1.69vh; 
-    }
-  span{
-    height:2.6vh;
-    width:2.6vh;   
-    border-radius: 8px;
-  }
-  p{
-   font-size:2.34vh;
-   color:#947DCE;
-  }
-} */
-.cs-2-9-img-div-18 {
-  height: 58.59vh;
-  position: absolute;
-  bottom: 0;
-  left: 10.83vw;
-}
-
-.cs-2-9-img-div-19 {
-  height: 39.19vh;
-  position: absolute;
-  bottom: 13.54vh;
-  right: 10.83vw;
-}
-
-.cs-2-9-img-div img {
-  height: 100%;
-}
-
 .conditional_page-7 {
   height: 56vh;
   max-height: 430px;
@@ -34463,6 +34405,108 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .operators_page-5 img {
+  height: 100%;
+}
+
+.cs-2-9-img-div-16 {
+  height: 31.25vh;
+}
+
+.cs-2-9-img-div-16 img {
+  height: 100%;
+}
+
+/* .cs-2-9-img-game-div
+{
+  &-1{
+    height:8.2vh;
+    margin-right: 1.69vh;
+    margin-left: 1.69vh; 
+  }
+  &-2{
+    height:9.76vh;
+    margin-right: 1.69vh;
+    margin-left: 1.69vh; 
+  }
+  &-3{
+    height:7.03vh;
+    margin-right: 1.69vh;
+    margin-left: 1.69vh; 
+  }
+  img{
+    height:100%;
+    margin-right: 1.69vh;
+    margin-left: 1.69vh; 
+    }
+  span{
+    height:2.6vh;
+    width:2.6vh;   
+    border-radius: 8px;
+  }
+  p{
+   font-size:2.34vh;
+   color:#947DCE;
+  }
+} */
+.cs-2-9-img-div-18 {
+  height: 58.59vh;
+  position: absolute;
+  bottom: 0;
+  left: 10.83vw;
+}
+
+.cs-2-9-img-div-19 {
+  height: 39.19vh;
+  position: absolute;
+  bottom: 13.54vh;
+  right: 10.83vw;
+}
+
+.cs-2-9-img-div img {
+  height: 100%;
+}
+
+.cs-5-1-img-div-13 {
+  height: 39.71vh;
+}
+
+.cs-5-1-img-div-14 {
+  height: 52.47vh;
+  position: absolute;
+  bottom: 0;
+  right: 18vw;
+}
+
+.cs-5-1-img-div-15 {
+  height: 32.94vh;
+  position: absolute;
+  bottom: 10.54vh;
+  right: 16.17vw;
+}
+
+.cs-5-1-img-div img {
+  height: 100%;
+}
+
+.cs-5-1-img-div-16-crossword {
+  height: 65.49vh;
+}
+
+.cs-5-1-img-div-16-1 {
+  height: 6.58vh;
+}
+
+.cs-5-1-img-div-16-2 {
+  height: 8.2vh;
+}
+
+.cs-5-1-img-div-16 p {
+  color: #8A7CC7;
+  font-size: 3.64vh;
+  margin-right: 0.83vw;
+}
+
+.cs-5-1-img-div-16 img {
   height: 100%;
 }
 
