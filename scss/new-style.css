@@ -34649,6 +34649,66 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 5.46vh;
 }
 
+.cs-5-9-img-div-16 {
+  height: 54.94vh;
+}
+
+.cs-5-9-img-div-17 {
+  height: 62.63vh;
+  position: absolute;
+  bottom: 0;
+  left: 23.86vw;
+}
+
+.cs-5-9-img-div-18 {
+  height: 37.63vh;
+  position: absolute;
+  bottom: 12.23vh;
+  right: 15.81vw;
+}
+
+.cs-5-9-img-div img {
+  height: 100%;
+}
+
+.background-cs-5-9-19 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/conditional-operators-9/cs-5-9-19-img.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-5-9-20 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/conditional-operators-9/cs-5-9-20-img.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-5-9-21 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/conditional-operators-9/cs-5-9-21-img.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-5-9-22 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/conditional-operators-9/cs-5-9-22-img.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-title-purple {
+  color: #62548A;
+  font-family: 'DejaVu Sans Oblique';
+  font-size: 3.64vh;
+}
+
+.background-cs-title-purple-cont {
+  padding-top: 10vh;
+}
+
 body {
   color: #262626;
   font-size: 14px;
