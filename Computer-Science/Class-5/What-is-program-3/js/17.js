@@ -3,12 +3,19 @@ function game () {
     this.startGameIs = true;
     this.TIME_LIMIT = 30;
     this.timePassed = 0;
-    this.bubbleCreatedinterval = 12000;
+    this.bubbleCreatedinterval = 9000;
     this.timeLeft = this.TIME_LIMIT;
     this.timerInterval = null;
     this.imgHref = "../../../img/gakvetilebi/Computer-Science/Class-5/What-is-program-3/";
-    this.imgSide = ["cs-5-3-17-img-2.svg", "cs-5-3-17-img-3.svg", "cs-5-3-17-img-4.svg"];
     this.randomedImages = [];
+    
+    2,3
+
+    this.questions = [
+        ["cs-5-3-17-img-4.svg", "cs-5-3-17-img-3.svg"],
+        ["cs-5-3-17-img-3.svg", "cs-5-3-17-img-4.svg"],
+        ["cs-5-3-17-img-4.svg", "cs-5-3-17-img-4.svg"],
+    ]
 
 
     var resetBtn = document.getElementById('resetBtn');
@@ -19,7 +26,7 @@ function game () {
     resetBtn.addEventListener('click', () => this.init());
     document.addEventListener('DOMContentLoaded', () => {
         this.startTimer();
-        this.getRandomBubblesLink(this.imgSide, 2);
+        this.getRandomBubblesLink(this.questions, 1);
         this.generateNewBubbles();
     })
     
@@ -38,11 +45,11 @@ function game () {
         this.TIME_LIMIT = 30;
         this.timePassed = 0;
         this.timerInterval = null;
-        this.bubbleCreatedinterval = 12000;
+        this.bubbleCreatedinterval = 9000;
         this.startGameIs = true;
         this.removeAllBubble();
         this.startTimer();
-        this.getRandomBubblesLink(this.imgSide, 2);
+        this.getRandomBubblesLink(this.questions, 1);
         this.generateNewBubbles();
         document.getElementById('clock').setAttribute('src', '../../../img/gakvetilebi/Computer-Science/Class-5/objects-moving-4/C-5-4-Clock.svg');
         document.getElementById('time').setAttribute('style', 'color: #937dce');
@@ -62,7 +69,7 @@ function game () {
 
 
     var interval = setInterval(() => {
-        this.getRandomBubblesLink(this.imgSide, 2);
+        this.getRandomBubblesLink(this.questions, 1);
         this.generateNewBubbles();
 
     }, this.bubbleCreatedinterval)
@@ -72,7 +79,7 @@ function game () {
     this.generateNewBubbles = () => {
         if(this.startGameIs){
             for(var j = 0; j < 1; j++){
-                for(var i = 0; i < 3; i++){
+                for(var i = 0; i < 2; i++){
                     
                     let img = document.createElement('img');
                     
@@ -114,7 +121,7 @@ function game () {
             taken[x] = --len in taken ? taken[len] : len;
         }
 
-        this.randomedImages = result;
+        this.randomedImages = result[0];
 
         return result;
     }
@@ -135,13 +142,13 @@ function game () {
 
             clearInterval(interval);
 
-            this.getRandomBubblesLink(this.imgSide, 2);
+            this.getRandomBubblesLink(this.questions, 1);
             this.removeAllBubble();
             this.generateNewBubbles();
 
 
             interval = setInterval(() => {
-                this.getRandomBubblesLink(this.imgSide, 2);
+                this.getRandomBubblesLink(this.questions, 1);
                 this.generateNewBubbles();
         
             }, this.bubbleCreatedinterval)

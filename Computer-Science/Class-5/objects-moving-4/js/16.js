@@ -7,8 +7,64 @@ function game () {
     this.timeLeft = this.TIME_LIMIT;
     this.timerInterval = null;
     this.imgHref = "../../../img/gakvetilebi/Computer-Science/Class-5/objects-moving-4/";
-    this.imgSide = ["C-5-4-right.svg", "C-5-4-left.svg", "C-5-4-up.svg", "C-5-4-down.svg"];
     this.randomedImages = [];
+    this.questions = [
+        ["C-5-4-left.svg", "C-5-4-right.svg", "C-5-4-down.svg", "C-5-4-up.svg"],
+        ["C-5-4-up.svg", "C-5-4-right.svg", "C-5-4-left.svg", "C-5-4-down.svg"],
+        ["C-5-4-down.svg", "C-5-4-left.svg", "C-5-4-right.svg", "C-5-4-up.svg"],
+        ["C-5-4-right.svg", "C-5-4-left.svg", "C-5-4-up.svg", "C-5-4-down.svg"],
+        ["C-5-4-left.svg", "C-5-4-down.svg", "C-5-4-up.svg", "C-5-4-right.svg"],
+        ["C-5-4-right.svg", "C-5-4-right.svg", "C-5-4-left.svg", "C-5-4-up.svg"],
+        ["C-5-4-left.svg", "C-5-4-right.svg", "C-5-4-down.svg", "C-5-4-up.svg"],
+        ["C-5-4-up.svg", "C-5-4-right.svg", "C-5-4-left.svg", "C-5-4-down.svg"],
+        ["C-5-4-right.svg", "C-5-4-left.svg", "C-5-4-up.svg", "C-5-4-up.svg"],
+        ["C-5-4-down.svg", "C-5-4-down.svg", "C-5-4-right.svg", "C-5-4-up.svg"],
+        ["C-5-4-left.svg", "C-5-4-down.svg", "C-5-4-up.svg", "C-5-4-right.svg"],
+        ["C-5-4-down.svg", "C-5-4-right.svg", "C-5-4-left.svg", "C-5-4-up.svg"],
+        ["C-5-4-up.svg", "C-5-4-right.svg", "C-5-4-left.svg", "C-5-4-down.svg"],
+        ["C-5-4-right.svg", "C-5-4-up.svg", "C-5-4-right.svg", "C-5-4-left.svg"],
+        ["C-5-4-down.svg", "C-5-4-left.svg", "C-5-4-right.svg", "C-5-4-up.svg"],
+        ["C-5-4-left.svg", "C-5-4-right.svg", "C-5-4-down.svg", "C-5-4-up.svg"],
+        ["C-5-4-down.svg", "C-5-4-left.svg", "C-5-4-up.svg", "C-5-4-down.svg"],
+        ["C-5-4-up.svg", "C-5-4-right.svg", "C-5-4-left.svg", "C-5-4-down.svg"],
+        ["C-5-4-right.svg", "C-5-4-left.svg", "C-5-4-up.svg", "C-5-4-up.svg"],
+        ["C-5-4-down.svg", "C-5-4-down.svg", "C-5-4-right.svg", "C-5-4-up.svg"],
+        ["C-5-4-up.svg", "C-5-4-down.svg", "C-5-4-up.svg", "C-5-4-right.svg"],
+        ["C-5-4-right.svg", "C-5-4-right.svg", "C-5-4-up.svg", "C-5-4-left.svg"],
+        ["C-5-4-up.svg", "C-5-4-left.svg", "C-5-4-up.svg", "C-5-4-right.svg"],
+        ["C-5-4-down.svg", "C-5-4-up.svg", "C-5-4-left.svg", "C-5-4-right.svg"],
+        ["C-5-4-down.svg", "C-5-4-left.svg", "C-5-4-right.svg", "C-5-4-up.svg"],
+        ["C-5-4-down.svg", "C-5-4-left.svg", "C-5-4-right.svg", "C-5-4-up.svg"],
+        ["C-5-4-left.svg", "C-5-4-right.svg", "C-5-4-down.svg", "C-5-4-up.svg"],
+        ["C-5-4-up.svg", "C-5-4-down.svg", "C-5-4-right.svg", "C-5-4-left.svg"],
+        ["C-5-4-down.svg", "C-5-4-up.svg", "C-5-4-left.svg", "C-5-4-right.svg"],
+        ["C-5-4-right.svg", "C-5-4-left.svg", "C-5-4-up.svg", "C-5-4-down.svg"],
+        ["C-5-4-left.svg", "C-5-4-down.svg", "C-5-4-up.svg", "C-5-4-right.svg"],
+        ["C-5-4-right.svg", "C-5-4-up.svg", "C-5-4-down.svg", "C-5-4-left.svg"],
+        ["C-5-4-up.svg", "C-5-4-down.svg", "C-5-4-right.svg", "C-5-4-left.svg"],
+        ["C-5-4-down.svg", "C-5-4-up.svg", "C-5-4-left.svg", "C-5-4-right.svg"],
+        ["C-5-4-left.svg", "C-5-4-right.svg", "C-5-4-down.svg", "C-5-4-up.svg"],
+        ["C-5-4-left.svg", "C-5-4-down.svg", "C-5-4-up.svg", "C-5-4-right.svg"],
+        ["C-5-4-right.svg", "C-5-4-up.svg", "C-5-4-down.svg", "C-5-4-left.svg"],
+        ["C-5-4-down.svg", "C-5-4-left.svg", "C-5-4-right.svg", "C-5-4-up.svg"],
+        ["C-5-4-up.svg", "C-5-4-right.svg", "C-5-4-left.svg", "C-5-4-down.svg"],
+        ["C-5-4-right.svg", "C-5-4-up.svg", "C-5-4-down.svg", "C-5-4-left.svg"],
+        ["C-5-4-left.svg", "C-5-4-down.svg", "C-5-4-up.svg", "C-5-4-right.svg"],
+        ["C-5-4-left.svg", "C-5-4-right.svg", "C-5-4-down.svg", "C-5-4-up.svg"],
+        ["C-5-4-down.svg", "C-5-4-up.svg", "C-5-4-left.svg", "C-5-4-right.svg"],
+        ["C-5-4-right.svg", "C-5-4-left.svg", "C-5-4-up.svg", "C-5-4-down.svg"],
+        ["C-5-4-up.svg", "C-5-4-down.svg", "C-5-4-right.svg", "C-5-4-left.svg"],
+        ["C-5-4-left.svg", "C-5-4-right.svg", "C-5-4-down.svg", "C-5-4-up.svg"],
+        ["C-5-4-right.svg", "C-5-4-up.svg", "C-5-4-down.svg", "C-5-4-left.svg"],
+        ["C-5-4-down.svg", "C-5-4-up.svg", "C-5-4-left.svg", "C-5-4-right.svg"],
+        ["C-5-4-right.svg", "C-5-4-left.svg", "C-5-4-up.svg", "C-5-4-down.svg"],
+        ["C-5-4-left.svg", "C-5-4-right.svg", "C-5-4-down.svg", "C-5-4-up.svg"],
+        ["C-5-4-up.svg", "C-5-4-down.svg", "C-5-4-right.svg", "C-5-4-left.svg"],
+        ["C-5-4-left.svg", "C-5-4-down.svg", "C-5-4-up.svg", "C-5-4-right.svg"],
+        ["C-5-4-down.svg", "C-5-4-left.svg", "C-5-4-right.svg", "C-5-4-up.svg"]
+    ]
+
+
 
 
     var resetBtn = document.getElementById('resetBtn');
@@ -19,7 +75,7 @@ function game () {
     resetBtn.addEventListener('click', () => this.init());
     document.addEventListener('DOMContentLoaded', () => {
         this.startTimer();
-        this.getRandomBubblesLink(this.imgSide, 4);
+        this.getRandomBubblesLink(this.questions, 1);
         this.generateNewBubbles();
 
         // console.log(this.randomedImages);
@@ -43,7 +99,7 @@ function game () {
         this.bubbleCreatedinterval = 12000;
         this.startTimer();
         this.removeAllBubble();
-        this.getRandomBubblesLink(this.imgSide, 4);
+        this.getRandomBubblesLink(this.questions, 1);
         this.generateNewBubbles();
         document.getElementById('clock').setAttribute('src', '../../../img/gakvetilebi/Computer-Science/Class-5/objects-moving-4/C-5-4-Clock.svg');
         document.getElementById('time').setAttribute('style', 'color: #937dce');
@@ -63,7 +119,7 @@ function game () {
 
 
     var interval = setInterval(() => {
-        this.getRandomBubblesLink(this.imgSide, 4);
+        this.getRandomBubblesLink(this.questions, 1);
         this.generateNewBubbles();
 
     }, this.bubbleCreatedinterval)
@@ -118,7 +174,7 @@ function game () {
             taken[x] = --len in taken ? taken[len] : len;
         }
 
-        this.randomedImages = result;
+        this.randomedImages = result[0];
 
         return result;
     }
@@ -139,13 +195,13 @@ function game () {
 
             clearInterval(interval);
 
-            this.getRandomBubblesLink(this.imgSide, 4);
+            this.getRandomBubblesLink(this.questions, 1);
             this.removeAllBubble();
             this.generateNewBubbles();
 
 
             interval = setInterval(() => {
-                this.getRandomBubblesLink(this.imgSide, 4);
+                this.getRandomBubblesLink(this.questions, 1);
                 this.generateNewBubbles();
         
             }, this.bubbleCreatedinterval)
