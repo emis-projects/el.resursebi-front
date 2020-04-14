@@ -1,0 +1,31 @@
+.operators {
+  &_page-3 {
+    height: 40vh;
+    max-height: 310px;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &_page-4 {
+    height: 55vh;
+    max-height: 424px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &_page-5 {
+    height: 32vh;
+    max-height: 250px;
+
+    img {
+      height: 100%;
+    }
+  }
+}
