@@ -28339,6 +28339,14 @@ img.mfp-img[alt*=cs-3-6-6-img] {
   transform: translateY(10%);
 }
 
+.interface_page-3 {
+  height: 36vh;
+  max-height: 273px;
+}
+.interface_page-3 img {
+  height: 100%;
+}
+
 body {
   color: #262626;
   font-size: 14px;

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="519.976" height="297.682" viewBox="0 0 519.976 297.682">
+    <defs>
+        <style>
+            .a{fill:none;stroke:#2fc49e;stroke-miterlimit:10;stroke-width:1.419px;}.b,.e{fill:#2fc49e;}.c,.d{fill:#728ad6;}.d,.e{opacity:0.4;}
+        </style>
+    </defs>
+    <g transform="translate(-315 -444.405)">
+        <g transform="matrix(-0.105, 0.995, -0.995, -0.105, 843, 520.43)">
+            <path class="a" d="M0,37.01,80.72,0l79.627,43.739L63.849,88.6,60.533,57.2l134.581,71.776-60.561,78.506"
+                  transform="translate(12.912 9.796)"/>
+            <ellipse class="b" cx="12.911" cy="12.912" rx="12.911" ry="12.912" transform="translate(0 33.895)"/>
+            <ellipse class="b" cx="12.911" cy="12.912" rx="12.911" ry="12.912" transform="translate(192.4 124.113)"/>
+            <ellipse class="b" cx="12.911" cy="12.912" rx="12.911" ry="12.912" transform="translate(76.761 0)"/>
+            <ellipse class="c" cx="12.911" cy="12.912" rx="12.911" ry="12.912" transform="translate(156.014 37.882)"/>
+            <ellipse class="c" cx="5.68" cy="5.68" rx="5.68" ry="5.68" transform="translate(142.31 211.594)"/>
+            <ellipse class="c" cx="7.303" cy="7.303" rx="7.303" ry="7.303" transform="translate(65.422 62.431)"/>
+            <ellipse class="b" cx="7.303" cy="7.303" rx="7.303" ry="7.303" transform="translate(69.458 88.351)"/>
+            <ellipse class="d" cx="18.941" cy="18.941" rx="18.941" ry="18.941" transform="translate(149.984 31.852)"/>
+            <ellipse class="e" cx="9.564" cy="9.564" rx="9.564" ry="9.564" transform="translate(67.197 86.09)"/>
+        </g>
+        <g transform="translate(619.136 444.405) rotate(90)">
+            <path class="a" d="M0,232.539l110.112,50.485,108.62-59.665L87.1,162.166,82.574,205,266.158,107.09,183.545,0"
+                  transform="translate(17.613 7.749)"/>
+            <circle class="b" cx="17.613" cy="17.613" r="17.613" transform="translate(0 222.675)"/>
+            <circle class="b" cx="17.613" cy="17.613" r="17.613" transform="translate(262.457 99.606)"/>
+            <circle class="b" cx="17.613" cy="17.613" r="17.613" transform="translate(104.711 268.911)"/>
+            <circle class="c" cx="17.613" cy="17.613" r="17.613" transform="translate(212.821 217.236)"/>
+            <circle class="c" cx="7.749" cy="7.749" r="7.749" transform="translate(194.128 0)"/>
+            <circle class="c" cx="9.962" cy="9.962" r="9.962" transform="translate(89.243 199.049)"/>
+            <circle class="b" cx="9.962" cy="9.962" r="9.962" transform="translate(94.748 163.692)"/>
+            <circle class="d" cx="25.838" cy="25.838" r="25.838" transform="translate(204.596 209.011)"/>
+            <circle class="e" cx="13.046" cy="13.046" r="13.046" transform="translate(91.664 160.608)"/>
+        </g>
+    </g>
+</svg>
