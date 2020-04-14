@@ -1,126 +1,139 @@
 function game () {
-    this.score = 0;
     this.startGameIs = true;
+    this.score = 0;
     this.TIME_LIMIT = 30;
     this.timePassed = 0;
-    this.bubbleCreatedinterval = 10000;
     this.timeLeft = this.TIME_LIMIT;
     this.timerInterval = null;
-    this.imgHref = "../../../img/gakvetilebi/Computer-Science/Class-5/What-is-program-3/";
-    this.randomedImages = [];
-    this.questions = [
-        ["cs-5-3-16-img-4.svg", "cs-5-3-16-img-8.svg", "cs-5-3-16-img-5.svg"],
-        ["cs-5-3-16-img-5.svg", "cs-5-3-16-img-5.svg", "cs-5-3-16-img-8.svg"],
-        ["cs-5-3-16-img-8.svg", "cs-5-3-16-img-5.svg", "cs-5-3-16-img-4.svg"],
-        ["cs-5-3-16-img-4.svg", "cs-5-3-16-img-8.svg", "cs-5-3-16-img-5.svg"],
-        ["cs-5-3-16-img-5.svg", "cs-5-3-16-img-8.svg", "cs-5-3-16-img-8.svg"],
-        ["cs-5-3-16-img-8.svg", "cs-5-3-16-img-4.svg", "cs-5-3-16-img-8.svg"],
-        ["cs-5-3-16-img-8.svg", "cs-5-3-16-img-5.svg", "cs-5-3-16-img-4.svg"],
-        ["cs-5-3-16-img-5.svg", "cs-5-3-16-img-5.svg", "cs-5-3-16-img-4.svg"],
-        ["cs-5-3-16-img-5.svg", "cs-5-3-16-img-5.svg", "cs-5-3-16-img-4.svg"],
-        ["cs-5-3-16-img-4.svg", "cs-5-3-16-img-8.svg", "cs-5-3-16-img-5.svg"],
-        ["cs-5-3-16-img-8.svg", "cs-5-3-16-img-5.svg", "cs-5-3-16-img-4.svg"],
-        ["cs-5-3-16-img-5.svg", "cs-5-3-16-img-4.svg", "cs-5-3-16-img-8.svg"]
-    ]
+    this.randomedImages = null;
+    this.answer = null;
 
 
-    var resetBtn = document.getElementById('resetBtn');
-    let imgs = document.querySelectorAll('.tetris__element');
-    let items = document.querySelectorAll('.direcion-pointer_box-image');
-    document.getElementById('numberOfScore').innerHTML = this.score;
-    
+    let resetBtn = document.getElementById('resetBtn');
     resetBtn.addEventListener('click', () => this.init());
+
+    
+    $('.class-5--3-16-Drop').click((e) => {
+       if(this.startGameIs){
+        this.completGame(e)
+       }
+    })
+
     document.addEventListener('DOMContentLoaded', () => {
         this.startTimer();
-        this.getRandomBubblesLink(this.questions, 1);
-        this.generateNewBubbles();
+        document.getElementById('numberOfScore').innerHTML = this.score;
+        this.randomNewImage(images, 1);
+        this.correctAndIncorrect();
+        let img = document.createElement('img');
+        img.setAttribute('src', this.randomedImages)
+
+        document.querySelector('#gameimgSection').appendChild(img)
     })
     
 
-    $( document ).on( "click", "img.tetris__element", (e) => {
-        this.afterClickBubble(e.target)
-    });
+    let images = [
+        "../../../img/gakvetilebi/Computer-Science/Class-5/What-is-program-3/cs-5-3-16-img-4.svg",
+        "../../../img/gakvetilebi/Computer-Science/Class-5/What-is-program-3/cs-5-3-16-img-8.svg",
+        "../../../img/gakvetilebi/Computer-Science/Class-5/What-is-program-3/cs-5-3-16-img-5.svg",
+        "../../../img/gakvetilebi/Computer-Science/Class-5/What-is-program-3/cs-5-3-16-img-7.svg",
+        "../../../img/gakvetilebi/Computer-Science/Class-5/What-is-program-3/Group 46465.svg",
+        "../../../img/gakvetilebi/Computer-Science/Class-5/What-is-program-3/Group 46464.svg",
+        "../../../img/gakvetilebi/Computer-Science/Class-5/What-is-program-3/cs-5-3-17-img-2.svg",
+        "../../../img/gakvetilebi/Computer-Science/Class-5/What-is-program-3/cs-5-3-17-img-3.svg",
+        "../../../img/gakvetilebi/Computer-Science/Class-5/What-is-program-3/cs-5-3-17-img-4.svg",
+    ]
 
 
-
-    this.init = () => {
-        this.onTimesUp();
-        clearInterval(interval);
+    this.init = (e) =>{
+        this.startGameIs = true;
         this.score = 0;
-        document.getElementById('numberOfScore').innerHTML = this.score;
         this.TIME_LIMIT = 30;
         this.timePassed = 0;
+        this.timeLeft = this.TIME_LIMIT;
         this.timerInterval = null;
-        this.bubbleCreatedinterval = 10000;
-        this.startGameIs = true;
-        this.removeAllBubble();
+        this.randomedImages = null;
+        this.answer = null;
         this.startTimer();
-        this.getRandomBubblesLink(this.questions, 1);
-        this.generateNewBubbles();
-        document.getElementById('clock').setAttribute('src', '../../../img/gakvetilebi/Computer-Science/Class-5/objects-moving-4/C-5-4-Clock.svg');
-        document.getElementById('time').setAttribute('style', 'color: #937dce');
+        document.querySelector('#gameimgSection').innerHTML = "";
+        document.getElementById('numberOfScore').innerHTML = this.score;
+        this.randomNewImage(images, 1);
+        this.correctAndIncorrect();
+        let img = document.createElement('img');
+        img.setAttribute('src', this.randomedImages)
+
+        document.querySelector('#gameimgSection').appendChild(img)
     }
 
 
-    $(document).ready(() => {
-        $('.tetris__element').click(e => {
-            e.stopPropagation();
 
-            if(this.startGameIs){
-                this.afterClickBubble(e.target)
-            }
-        })
-    });
+    this.completGame = (e) => {
+        if(e.target.getAttribute('data-answer') == this.answer){
+            document.querySelector('#gameimgSection').innerHTML = "";
+            this.score++
+            document.getElementById('numberOfScore').innerHTML = this.score;
+            this.randomNewImage(images, 1)
+            this.correctAndIncorrect();
+            let img = document.createElement('img');
+            img.setAttribute('src', this.randomedImages)
+    
+            document.querySelector('#gameimgSection').appendChild(img)
 
-
-
-    var interval = setInterval(() => {
-        this.getRandomBubblesLink(this.questions, 1);
-        this.generateNewBubbles();
-
-    }, this.bubbleCreatedinterval)
-
-
-
-    this.generateNewBubbles = () => {
-        if(this.startGameIs){
-            for(var j = 0; j < 1; j++){
-                for(var i = 0; i < 3; i++){
-                    
-                    let img = document.createElement('img');
-                    
-                    img.classList.add('tetris__element');
-                    img.classList.add('fadeInUp');
-                    
-                    img.setAttribute('src', `${this.imgHref}${this.randomedImages[i]}`)
-
-                    if(this.randomedImages[i] == "cs-5-3-16-img-4.svg"){
-                        img.setAttribute('data-type', 'event')
-                        
-                    } else if(this.randomedImages[i] == "cs-5-3-16-img-5.svg"){
-                        img.setAttribute('data-type', 'motion')
-                        
-                    } else if(this.randomedImages[i] == "cs-5-3-16-img-8.svg"){
-                        img.setAttribute('data-type', 'sound') 
-                    }
-                    
-                    items[i].append(img)
-                }
-            }
         } else {
-            clearInterval(interval);
-            return false
+            document.querySelector('#gameimgSection').innerHTML = "";
+            this.randomNewImage(images, 1);
+            this.correctAndIncorrect();
+
+            this.correctAndIncorrect();
+            let img = document.createElement('img');
+            img.setAttribute('src', this.randomedImages)
+
+            document.querySelector('#gameimgSection').appendChild(img)
         }
     }
 
 
+    this.correctAndIncorrect = () => {
+        if(this.randomedImages == "../../../img/gakvetilebi/Computer-Science/Class-5/What-is-program-3/cs-5-3-16-img-4.svg"){
+            this.answer = "event"
 
-    this.getRandomBubblesLink = (arr, n) => {
+        } else if(this.randomedImages == "../../../img/gakvetilebi/Computer-Science/Class-5/What-is-program-3/cs-5-3-16-img-8.svg"){
+            this.answer = "sound"
+
+        } else if(this.randomedImages == "../../../img/gakvetilebi/Computer-Science/Class-5/What-is-program-3/cs-5-3-16-img-5.svg"){
+            this.answer = "motion"
+
+        } else if(this.randomedImages == "../../../img/gakvetilebi/Computer-Science/Class-5/What-is-program-3/cs-5-3-16-img-7.svg"){
+            this.answer = "motion"
+
+        } else if(this.randomedImages == "../../../img/gakvetilebi/Computer-Science/Class-5/What-is-program-3/cs-5-3-17-img-2.svg"){
+            this.answer = "event"
+
+        } else if(this.randomedImages == "../../../img/gakvetilebi/Computer-Science/Class-5/What-is-program-3/Group 46465.svg"){
+            this.answer = "event"
+
+        } else if(this.randomedImages == "../../../img/gakvetilebi/Computer-Science/Class-5/What-is-program-3/Group 46464.svg"){
+            this.answer = "event"
+
+        } else if(this.randomedImages == "../../../img/gakvetilebi/Computer-Science/Class-5/What-is-program-3/cs-5-3-17-img-3.svg"){
+            this.answer = "looks"
+
+        } else if(this.randomedImages == "../../../img/gakvetilebi/Computer-Science/Class-5/What-is-program-3/cs-5-3-17-img-4.svg"){
+            this.answer = "looks"
+
+        }
+
+        return this.answer
+    }
+
+
+    this.randomNewImage = (arr, n) => {
         var result = new Array(n),
             len = arr.length,
             taken = new Array(len);
+
         if (n > len)
             throw new RangeError("getRandom: more elements taken than available");
+
         while (n--) {
             var x = Math.floor(Math.random() * len);
             result[n] = arr[x in taken ? taken[x] : x];
@@ -130,35 +143,6 @@ function game () {
         this.randomedImages = result[0];
 
         return result;
-    }
-    
-
-    this.removeAllBubble = () => {
-        $('.tetris__element').remove();
-    }
-    
-    this.afterClickBubble = (bubble) => {
-        let bubbleAttr = bubble.getAttribute('data-type');
-        let bubbleParentAttr = bubble.parentElement.getAttribute('data-answer');
-
-
-        if(bubbleAttr == bubbleParentAttr){
-            this.score++
-            document.getElementById('numberOfScore').innerHTML = this.score;
-
-            clearInterval(interval);
-
-            this.getRandomBubblesLink(this.questions, 1);
-            this.removeAllBubble();
-            this.generateNewBubbles();
-
-
-            interval = setInterval(() => {
-                this.getRandomBubblesLink(this.questions, 1);
-                this.generateNewBubbles();
-        
-            }, this.bubbleCreatedinterval)
-        }
     }
 
 
