@@ -1,0 +1,86 @@
+.conditional{
+  &_page-7{
+    height: 56vh;
+    max-height: 430px;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &_page-8 {
+    &_text-box {
+      color: #947DCE;
+      font-size: 13px;
+      font-family: "DejaVu Sans";
+      box-shadow: 2px 2px 8px #947DCE66;
+      border-radius: 25px;
+      height: 50px;
+      width: 162px;
+      max-height: 6.5vh;
+      max-width: 13vw;
+      text-align: center;
+      padding: 0 15px;
+    }
+
+    .flex {
+      display: flex;
+      flex-wrap: wrap;
+
+      .box {
+        max-height: 51px;
+        flex: 1 0 21%;
+        height: 6.6vh;
+        max-width: 51px;
+        width: 6.6vh;
+
+        img {
+          height: 100%;
+        }
+      }
+    }
+  }
+
+  &_page-9 {
+    height: 55vh;
+    max-height: 420px;
+    position: fixed;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &_page-10 {
+    height: 40vh;
+    max-height: 307px;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &_page-12 {
+    height: 50vh;
+    max-height: 382px;
+
+    .small-box {
+      max-height: 156px;
+
+      img {
+        height: 100%;
+      }
+    }
+
+    img {
+      height: 100%;
+    }
+  }
+}

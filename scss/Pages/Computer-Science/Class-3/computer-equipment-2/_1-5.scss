@@ -1,0 +1,70 @@
+.conditional-marks {
+  &_page-3 {
+    height: 44vh;
+    max-height: 341px;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &_page-4 {
+    height: 47vh;
+    max-height: 361px;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &_page-5 {
+    height: 35vh;
+    max-height: 271px;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+
+    .drop-box {
+      border-radius: 54px;
+      height: 11vh;
+      max-height: 80px;
+      width: 14vw;
+      max-width: 186px;
+      position: absolute;
+
+      &-top {
+        border: 2px solid #49C980;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -105%);
+      }
+
+      &-bottom {
+        border: 2px solid #DDD75E;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, 105%);
+      }
+
+      &-left {
+        border: 2px solid #F4AD67;
+        bottom: 5%;
+        transform: translateY(10%);
+        left: 0;
+      }
+
+      &-right {
+        border: 2px solid #52B5CC;
+        right: 0;
+        bottom: 5%;
+        transform: translateY(10%);
+      }
+    }
+  }
+}
