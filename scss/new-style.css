@@ -786,7 +786,6 @@
   font-style: normal;
   font-display: block;
 }
-
 [class^=icon-], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: "icomoon" !important;
@@ -900,7 +899,6 @@
   font-weight: normal;
   font-style: normal;
 }
-
 [class^=arrow-]:before, [class*=" arrow-"]:before {
   font-family: "fontello";
   font-style: normal;
@@ -28320,7 +28318,6 @@ img.mfp-img[alt*=cs-3-6-6-img] {
   transform: translateY(10%);
   left: 0;
 }
-
 .conditional-marks_page-5 .drop-box-right {
   border: 2px solid #52B5CC;
   right: 0;
@@ -28334,6 +28331,28 @@ img.mfp-img[alt*=cs-3-6-6-img] {
 }
 
 .interface_page-3 img {
+  height: 100%;
+}
+
+.interface_page-4 {
+  height: 39vh;
+  max-height: 297px;
+}
+
+.interface_page-4 img {
+  height: 100%;
+}
+
+.interface_page-5 {
+  height: 46vh;
+  max-height: 356px;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.interface_page-5 img {
   height: 100%;
 }
 
