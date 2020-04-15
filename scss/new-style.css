@@ -28922,6 +28922,11 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   max-width: 102px;
 }
 
+.UI_img-box_6:last-child {
+  height: 15.7vh;
+  max-height: 142px;
+}
+
 .UI_img-box_6 img {
   width: 100%;
   height: auto;
@@ -37086,3 +37091,4 @@ body {
     font-size: 14px;
   }
 }
+/*# sourceMappingURL=new-style.css.map */

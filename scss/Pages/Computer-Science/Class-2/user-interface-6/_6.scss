@@ -3,6 +3,10 @@
   max-height: 105px;
   width: 7.6vw;
   max-width: 102px;
+  &:last-child{
+    height: 15.7vh;
+    max-height: 142px;
+  }
   img{
     width: 100%;
     height: auto;
