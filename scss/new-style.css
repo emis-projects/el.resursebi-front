@@ -34734,6 +34734,56 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
+.class_5_12-img_23 {
+  position: fixed;
+  bottom: 0;
+  height: 52vh;
+  max-height: 402px;
+}
+
+.class_5_12-img_23 img {
+  height: 100%;
+}
+
+.class_5_12-title_item {
+  font-style: italic;
+  color: #62548A;
+  font-family: 'DejaVu Sans Oblique';
+  font-size: 3.64vh;
+}
+
+.class_5_12-bg_25 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/interface-of-devices-12/C-5-12-25.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.class_5_12-bg_26 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/interface-of-devices-12/C-5-12-26.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.class_5_12-bg_27 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/interface-of-devices-12/C-5-12-27.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.class_5_12-bg_28 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/interface-of-devices-12/C-5-12-28.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
 .cs-5-12-8-img {
   height: 35.67vh;
   margin: auto;
