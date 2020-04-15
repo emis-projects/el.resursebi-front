@@ -7,26 +7,27 @@ function computerGames(){
 
 
     this.clickMe = (e) => {
-        checkmark.forEach(element => {
-            $(element).removeClass( "error")
-            $(element).removeClass( "selectedPurple")
-            element.style = '';
-        });
+        // checkmark.forEach(element => {
+        //     $(element).removeClass( "error")
+        //     $(element).removeClass( "selectedPurple")
+        //     element.style = '';
+        // });
         e.target.classList.add('selectedPurple');
     }
 
     this.completGame = () => {
         var count = 0;
+        var isError = false;
         checkmark.forEach(element => {
             if(element.classList.contains('selectedPurple')){
-                console.log('selectedPurple', element.classList.contains('correct'))
                 if(element.classList.contains('correct')){
+                    element.style = "background: #a1dd6f";
                     count++;
                 }
             }
             if((element.classList.contains('selectedPurple'))){
                 if((element.classList.contains('noCorrect'))){
-                    count = 0;
+                    isError = true;
                     $(element).removeClass( "selectedPurple")
                     element.classList.add('error');
                 }
@@ -34,7 +35,7 @@ function computerGames(){
         });
         
 
-        if (count == 1) {
+        if (count == 2 && !isError) {
             this.successPage();
         }
 
