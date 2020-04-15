@@ -2,8 +2,8 @@
 <html lang="ka" data-botid="2288">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
     <!-- ყველა გვერდზე -->
     <script src="../../../js/vue.js"></script>
     <!--  ვუე გაშვებისას
@@ -11,7 +11,7 @@
      -->
     <link rel="stylesheet" href="../../../scss/libraries/bootstrap.min.css">
     <link rel="stylesheet" href="../../../New-header-vue/animate.min.css">
-    <link rel="stylesheet" href="../../../scss/new-style.css" />
+    <link rel="stylesheet" href="../../../scss/new-style.css"/>
     <title>ელექტრონული საგანმანათლებლო რესურსი</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
@@ -21,6 +21,7 @@
         function gtag() {
             dataLayer.push(arguments);
         }
+
         gtag('js', new Date());
 
         gtag('config', 'UA-155006442-1');
@@ -28,120 +29,123 @@
 </head>
 
 <body>
-    <div class="container">
-        <section id="app" class="container position-absolute">
-            <header>
-                <app-menu v-logo="'../../../'" :is-active="isActive" :toggle="toggle"></app-menu>
-            </header>
+<div class="container">
+    <section id="app" class="container position-absolute">
+        <header>
+            <app-menu v-logo="'../../../'" :is-active="isActive" :toggle="toggle"></app-menu>
+        </header>
 
-            <app-section v-image="'../../../'" :is-active="isActive">
-                <app-bar :is-active="isActive" :trigger="trigger" :dots="dots" :current-tab="link"
-                    v-on:link-tab="link = $event">
+        <app-section v-image="'../../../'" :is-active="isActive">
+            <app-bar :is-active="isActive" :trigger="trigger" :dots="dots" :current-tab="link"
+                     v-on:link-tab="link = $event">
 
-                </app-bar>
-                <component :path="path" :is="currentTabComponent" :is-active="isActive" :trigger="trigger"
-                    :images="images" :active-class="activeClass" :tab-class="currentTabComponent">
-                </component>
-            </app-section>
-        </section>
-        <section id="mainPage">
-            <div class="row">
-                <div class="col-8 m-auto">
-                    <div class="newDesign_subject_question_item mt-5vh">
-                        <img src="../../../img/icons/newDesign_btn-yellow.svg" alt="img"
-                            class="newDesign_subject_question_item-img">
-                        <p class="newDesign_subject_question_item-title">
-                            მოიფიქრე, რისთვის შეგიძლია ქვემოთ ჩამოთვლილი პროგრამების კლასში გამოყენება. დაუკავშირე პროგრამა საქმიანობის შედეგს.</a> 
-                        </p>
-                    </div>
+            </app-bar>
+            <component :path="path" :is="currentTabComponent" :is-active="isActive" :trigger="trigger"
+                       :images="images" :active-class="activeClass" :tab-class="currentTabComponent">
+            </component>
+        </app-section>
+    </section>
+    <section id="mainPage">
+      <div class="row">
+            <div class="col-10 d-flex justify-content-center m-auto">
+                <div class="newDesign_subject_question_item">
+                    <img alt="img" class="newDesign_subject_question_item-img" src="../../../img/icons/newDesign_btn-yellow.svg">
+                    <p class="newDesign_subject_question_item-title">
+                        მოიფიქრე, რისთვის შეგიძლია ქვემოთ ჩამოთვლილი პროგრამების კლასში გამოყენება. დაუკავშირე პროგრამა საქმიანობის შედეგს.
+                    </p>
                 </div>
-                <div class="col-12 justify-content-center cs-2-9-img-div-16 cs-2-9-img-div-16-1 d-flex ">
-                    <img src="../../../img/gakvetilebi/Computer-Science/Class-2/Identify-with-computer-9/cs-2-9-16-1-img.png"
-                    alt="img" ">
-                </div>
-                <div class="col-9  offset-1 mt-5vh"> 
-                    <div class="row d-flex justify-content-between">               
-                    <div class="col cs-2-9-img-div-16 cs-2-9-img-game-div cs-2-9-img-game-div-1 d-flex  align-items-center">
-                         <label class="custom_radioButton_container DragGame--Parent">
-                          <span class="checkmark"></span>
-                          </label>
-                        <img src="../../../img/gakvetilebi/Computer-Science/Class-2/Identify-with-computer-9/cs-2-9-16-2-img.svg"> 
-                        <p>ვსწავლობთ თამაშით</p> 
-                    </div>
-                        <div class="col  cs-2-9-img-div-16 cs-2-9-img-game-div cs-2-9-img-game-div-1 d-flex  align-items-center">
-                         <label class="custom_radioButton_container DragGame--Parent">
-                          <span class="checkmark"></span>
-                          </label>
-                        <img src="../../../img/gakvetilebi/Computer-Science/Class-2/Identify-with-computer-9/cs-2-9-16-3-img.svg"> 
-                        <p>MS Word</p> 
-                    </div>
-                    <div class="col  cs-2-9-img-div-16 cs-2-9-img-game-div cs-2-9-img-game-div-1 d-flex  align-items-center">
-                        <label class="custom_radioButton_container DragGame--Parent">
-                         <span class="checkmark"></span>
-                         </label>
-                       <img src="../../../img/gakvetilebi/Computer-Science/Class-2/Identify-with-computer-9/cs-2-9-16-4-img.png"> 
-                       <p>Paint 3D</p> 
-                   </div>
-                </div>
-            </div>  
-                 <div class="col-6 offset-1 mt-3vh">
-                     <div class="row  d-flex align-items-center ">
-                    <div class="col cs-2-9-img-div-16 cs-2-9-img-game-div cs-2-9-img-game-div-2 d-flex  align-items-center">
-                        <label class="custom_radioButton_container DragGame--Parent">
-                         <span class="checkmark"></span>
-                         </label>
-                       <img src="../../../img/gakvetilebi/Computer-Science/Class-2/Identify-with-computer-9/cs-2-9-16-5-img.svg"> 
-                       <p>MS PowerPoint</p> 
-                   </div>
-                   <div class="col cs-2-9-img-div-16 cs-2-9-img-game-div cs-2-9-img-game-div-3 d-flex  align-items-center">
-                    <label class="custom_radioButton_container DragGame--Parent">
-                     <span class="checkmark"></span>
-                     </label>
-                   <img src="../../../img/gakvetilebi/Computer-Science/Class-2/Identify-with-computer-9/cs-2-9-16-6-img.svg"> 
-                   <p>MS PowerPoint</p> 
-               </div>
             </div>
-         </div>
-     </div>
-            <div class="flex flex-end column align-items-end z-index reload_game_wrapper">
+            <div class="col-10 cs-2-9-img-div-16  m-auto d-flex justify-content-center">
+                <img src="../../../img/gakvetilebi/Computer-Science/Class-2/Identify-with-computer-9/cs-2-9-16-1-img.png" alt="img">
+            </div>
+        
+
+        <div class="col-9 offset-1  mt-10vh ">
+            <div class="row d-flex justify-content-between">
+            <div class="col check_box d-flex">
+                  <div class="circle text-center checkmark noCorrect"></div>
+                  <a href="16.html" target="_blank"> 
+                        <img src="../../../img/gakvetilebi/Computer-Science/Class-2/Identify-with-computer-9/C-2-9-16-1-2.svg" class="Class_2_9-img_16_1_2 ml-2vh" alt="img">
+                  </a>
+                  <p class="ml-2 align-items-center mt-3vh">ვსწავლობთ </br>თამაშით</p>
+            </div>
+            <div class="col check_box d-flex">
+                  <div class="circle circle-fill align-items-center checkmark correct"></div>
+                  <a href="16-1.html" target="_blank">
+                  <img src="../../../img/gakvetilebi/Computer-Science/Class-2/Identify-with-computer-9/C-2-9-16-1-3.svg" class="Class_2_9-img_16_1_3 ml-2vh" alt="img">
+                  </a>
+                  <p class="ml-2 align-items-center mt-3vh">MS Word</p>
+            </div>
+            <div class="col check_box d-flex">
+                  <div class="circle align-items-center checkmark noCorrect"></div>
+                  <a href="16-4.html" target="_blank">
+                        <img src="../../../img/gakvetilebi/Computer-Science/Class-2/Identify-with-computer-9/C-2-9-16-1-4.png" class="Class_2_9-img_16_1_4 ml-2vh" alt="img">
+                  </a>
+                  <p class="ml-2 align-items-center mt-3vh">Paint 3D</p>
+            </div>
+        </div>
+    </div>
+        <div class="col-6 mt-5vh offset-1">
+            <div class="row d-flex justify-content-between ">
+            <div class="col check_box d-flex">
+                  <div class="circle text-center checkmark noCorrect"></div>
+                  <a href="16-2.html" target="_blank">
+                        <img src="../../../img/gakvetilebi/Computer-Science/Class-2/Identify-with-computer-9/C-2-9-16-1-5.svg" class="Class_2_9-img_16_1_5 ml-1vh" alt="img">
+                  </a>
+                  <p class="ml-2 align-items-center mt-3vh">MS PowerPoint</p>
+            </div>
+            <div class="col check_box d-flex ">
+                  <div class="circle align-items-center checkmark correct"></div>
+                  <a href="16-3.html" target="_blank">
+                        <img src="../../../img/gakvetilebi/Computer-Science/Class-2/Identify-with-computer-9/C-2-9-16-1-6.svg" class="Class_2_9-img_16_1_6 ml-2vh" alt="img">
+                  </a>
+                  <p class="ml-2 align-items-center mt-3vh">ვებ-კამერა</p>
+            </div>
+        </div>
+    </div>
+</div>
+        <div class="col-3 flex flex-end column align-items-end z-index reload_game_wrapper">
+            <div class="d-flex flex-column">
                 <button id="resetBtn" class="reset__btn">თავიდან სცადე</button>
                 <button id="completedGame" class="completed__btn">დასრულება</button>
             </div>
+        </div>
 
-            <div class="left_components_paging-cont" id="leftNav">
-                <left-nav-item></left-nav-item>
-            </div>
+        <!-- ეს არის svg თეგირომელიც ქმნის მარცხენა ვერტიკალურ "ნავ რუკას" -->
+        <div class="left_components_paging-cont" id="leftNav">
+            <left-nav-item></left-nav-item>
+        </div>
 
-            <div class="our__pagination flex">
-                <a href="#" class="pagination__prev__btn">
-                    <img style="transform: rotate(180deg)" src="../../../img/icons/chevron-left-icon.svg" alt="">
-                </a>
+      - <div class="our__pagination flex">
+            <a href="#" class="pagination__prev__btn">
+                <img style="transform: rotate(180deg)" src="../../../img/icons/chevron-left-icon.svg" alt="">
+            </a>
 
-                <div id="pagination" class="flex align-items-center"></div>
+            <div id="pagination" class="flex align-items-center"></div>
 
-                <a href="#" class="pagination__next__btn">
-                    <img src="../../../img/icons/chevron-left-icon.svg" alt="">
-                </a>
-            </div>
+            <a href="#" class="pagination__next__btn">
+                <img src="../../../img/icons/chevron-left-icon.svg" alt="">
+            </a>
+        </div> 
 
-        </section>
-    </div>
-
-
-    <!-- ჩეთბოტი -->
-    <div id="chatBot">
-        <app-bot></app-bot>
-    </div>
-
-    <script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
-    <script src="../../../js/libraries/jquery.magnific-popup.min.js"></script>
-    <script src="../../../js/Pagination.js"></script>
+    </section>
+</div>
 
 
-    <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
-    <script src="../../../New-header-vue/app.js"></script>
-    <script src="../../../Vue-chatBot/botApp.js"></script>
-    <script src="../../../js/bot.js"></script>
+<!-- ჩეთბოტი -->
+<div id="chatBot">
+    <app-bot></app-bot>
+</div>
+
+<script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
+<script src="../../../js/libraries/jquery.magnific-popup.min.js"></script>
+<script src="../../../js/Pagination.js"></script>
+
+
+<!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
+<script src="../../../New-header-vue/app.js"></script>
+<script src="../../../Vue-chatBot/botApp.js"></script>
+<script src="../../../js/bot.js"></script>
 
 
 </body>

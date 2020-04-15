@@ -943,8 +943,8 @@ let title = {
         },
         {
             id: 12,
-            name: 'სათაური',
-            link: '#'
+            name: 'სხვადასხვა კომპიუტერული მოწყობილობის ინტერფეისი',
+            link: 'Computer-Science/Class-5/interface-of devices-12/1.html'
         },
         {
             id: 13,

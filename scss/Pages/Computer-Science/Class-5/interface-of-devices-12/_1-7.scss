@@ -1,0 +1,32 @@
+.interface {
+  &_page-3 {
+    height: 36vh;
+    max-height: 273px;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &_page-4 {
+    height: 39vh;
+    max-height: 297px;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &_page-5 {
+    height: 46vh;
+    max-height: 356px;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+    img {
+      height: 100%;
+    }
+  }
+}

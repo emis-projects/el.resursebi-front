@@ -34001,103 +34001,86 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   margin-top: 16vh;
 }
 
-.cs-2-9-img-div-16-1 {
-  height: 31.25vh;
+.Class_2_9-img_box_16_1 {
+  display: inline;
+  vertical-align: middle;
+  height: 31.32vh;
+  max-height: 240.5px;
 }
 
-.cs-2-9-img-div-16 img {
+.Class_2_9-img_box_16_1 img {
   height: 100%;
 }
 
-.cs-2-9-img-game-div-1 {
-  height: 8.2vh;
-  margin-right: 1.69vh;
-  margin-left: 1.69vh;
+.Class_2_9-img_16_1_2 {
+  display: inline;
+  vertical-align: middle;
+  height: 8.46vh;
+  max-height: 65px;
 }
 
-.cs-2-9-img-game-div-2 {
-  height: 9.76vh;
-  margin-right: 1.69vh;
-  margin-left: 1.69vh;
-}
-
-.cs-2-9-img-game-div-3 {
-  height: 7.03vh;
-  margin-right: 1.69vh;
-  margin-left: 1.69vh;
-}
-
-.cs-2-9-img-game-div img {
-  height: 100%;
-  margin-right: 1.69vh;
-  margin-left: 1.69vh;
-}
-
-.cs-2-9-img-game-div span {
-  height: 2.6vh;
-  width: 2.6vh;
-  border-radius: 8px;
-}
-
-.cs-2-9-img-game-div p {
-  font-size: 2.34vh;
-  color: #947DCE;
-}
-
-.cs-2-9-img-div-18 {
-  height: 58.59vh;
-  position: absolute;
-  bottom: 0;
-  left: 10.83vw;
-}
-
-.cs-2-9-img-div-19 {
-  height: 39.19vh;
-  position: absolute;
-  bottom: 13.54vh;
-  right: 10.83vw;
-}
-
-.cs-2-9-img-div img {
+.Class_2_9-img_16_1_2 img {
   height: 100%;
 }
 
-.background-cs-2-9-20 {
-  background-image: url("../img/gakvetilebi/Computer-Science/Class-2/Identify-with-computer-9/cs-2-9-20-img.svg");
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat;
+.Class_2_9-img_16_1_3 {
+  display: inline;
+  vertical-align: middle;
+  height: 7.87vh;
+  max-height: 60.5px;
 }
 
-.background-cs-2-9-21 {
-  background-image: url("../img/gakvetilebi/Computer-Science/Class-2/Identify-with-computer-9/cs-2-9-21-img.svg");
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat;
+.Class_2_9-img_16_1_3 img {
+  height: 100%;
 }
 
-.background-cs-2-9-22 {
-  background-image: url("../img/gakvetilebi/Computer-Science/Class-2/Identify-with-computer-9/cs-2-9-22-img.svg");
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat;
+.Class_2_9-img_16_1_4 {
+  display: inline;
+  vertical-align: middle;
+  height: 8.41vh;
+  max-height: 64.6px;
 }
 
-.background-cs-2-9-23 {
-  background-image: url("../img/gakvetilebi/Computer-Science/Class-2/Identify-with-computer-9/cs-2-9-23-img.svg");
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat;
+.Class_2_9-img_16_1_4 img {
+  height: 100%;
 }
 
-.background-cs-title-purple {
-  color: #62548A;
-  font-family: 'DejaVu Sans Oblique';
-  font-size: 3.64vh;
+.Class_2_9-img_16_1_5 {
+  display: inline;
+  vertical-align: middle;
+  height: 9vh;
+  max-height: 70.69px;
 }
 
-.background-cs-title-purple-cont {
-  padding-top: 10vh;
+.Class_2_9-img_16_1_5 img {
+  height: 100%;
+}
+
+.Class_2_9-img_16_1_6 {
+  display: inline;
+  vertical-align: middle;
+  height: 7.14vh;
+  max-height: 54.84px;
+}
+
+.Class_2_9-img_16_1_6 img {
+  height: 100%;
+}
+
+.check_box .circle {
+  border: 1px solid #947DCE;
+  height: 2.5vh;
+  width: 2.5vh;
+  margin: 2.7vh 0.13vh;
+  background-color: #b6b5ba00;
+}
+
+.check_box .circle-fill {
+  background-color: #947DCE !important;
+}
+
+.check_box .error {
+  background-color: #DC6C85;
 }
 
 .conditional_page-7 {
@@ -34216,6 +34199,87 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   margin: 16vh auto 0;
 }
 
+.class_5_1-img_6_1 {
+  height: 44vh;
+  max-height: 339px;
+}
+
+.class_5_1-img_6_1 img {
+  height: 100%;
+}
+
+.class_5_1-img_7_1 {
+  height: 44.2vh;
+  max-height: 339.5px;
+}
+
+.class_5_1-img_7_1 img {
+  height: 100%;
+}
+
+.class_5_1-img_13_1 {
+  height: 28.77vh;
+  max-height: 221px;
+}
+
+.class_5_1-img_13_1 img {
+  height: 100%;
+}
+
+.class_5_1-img_20 {
+  position: fixed;
+  bottom: 0;
+  height: 58.85vh;
+  max-height: 452px;
+}
+
+.class_5_1-img_20 img {
+  height: 100%;
+}
+
+.class_5_1-title-20 {
+  margin-bottom: .9vh;
+}
+
+.class_5_1-title_item {
+  font-style: italic;
+  color: #62548A;
+  font-family: 'DejaVu Sans Oblique';
+  font-size: 3.64vh;
+}
+
+.class_5_1-bg_21 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/conditional-marks-1/c-5-1-21.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.class_5_1-bg_22 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/conditional-marks-1/c-5-1-22.png");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.class_5_1-bg_23 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/conditional-marks-1/c-5-1-23.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.class_5_1-bg_24 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/conditional-marks-1/c-5-1-24.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
 .cs-3-2-18-img {
   height: 34.89vh;
   margin: 1vh auto;
@@ -34317,6 +34381,281 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
           transform: translateY(10%);
 }
 
+.Class_3_2-img-6 {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  height: 56.25vh;
+  max-height: 432px;
+}
+
+.Class_3_2-img-6 img {
+  height: 100%;
+}
+
+.Class_3_2-img-10 {
+  height: 33.28vh;
+  max-height: 255.6px;
+}
+
+.Class_3_2-img-10 img {
+  height: 100%;
+}
+
+.Class_3_2-img-11 {
+  position: fixed;
+  bottom: 0;
+  height: 57.14vh;
+  max-height: 438.84px;
+}
+
+.Class_3_2-img-11 img {
+  height: 100%;
+}
+
+.Class_3_2-img-7-1 {
+  height: 9.98vh;
+  max-height: 76.7px;
+}
+
+.Class_3_2-img-7-1 img {
+  height: 100%;
+}
+
+.Class_3_2-img-7-2 {
+  height: 15.88vh;
+  max-height: 122px;
+}
+
+.Class_3_2-img-7-2 img {
+  height: 100%;
+}
+
+.Class_3_2-img-7-3 {
+  height: 10.13vh;
+  max-height: 77.8px;
+}
+
+.Class_3_2-img-7-3 img {
+  height: 100%;
+}
+
+.Class_3_2-img-7-4 {
+  height: 13.15vh;
+  max-height: 101px;
+}
+
+.Class_3_2-img-7-4 img {
+  height: 100%;
+}
+
+.Class_3_2-img-7-5 {
+  height: 14.32vh;
+  max-height: 110px;
+}
+
+.Class_3_2-img-7-5 img {
+  height: 100%;
+}
+
+.Class_3_2-img-7 img {
+  height: 8.46vh;
+  max-height: 65px;
+}
+
+.Class_3_2-img-8-1 {
+  height: 12vh;
+  max-height: 92.7px;
+}
+
+.Class_3_2-img-8-1 img {
+  height: 100%;
+}
+
+.Class_3_2-img-8-2 {
+  height: 13.15vh;
+  max-height: 101px;
+}
+
+.Class_3_2-img-8-2 img {
+  height: 100%;
+}
+
+.Class_3_2-img-8-3 {
+  height: 15.23vh;
+  max-height: 117px;
+}
+
+.Class_3_2-img-8-3 img {
+  height: 100%;
+}
+
+.Class_3_2-img-8-4 {
+  height: 16.6vh;
+  max-height: 128px;
+}
+
+.Class_3_2-img-8-4 img {
+  height: 100%;
+}
+
+.Class_3_2-img-8-5 {
+  height: 11.52vh;
+  max-height: 88.5px;
+}
+
+.Class_3_2-img-8-5 img {
+  height: 100%;
+}
+
+.Class_3_2-img-8-6 {
+  height: 12.6vh;
+  max-height: 97px;
+}
+
+.Class_3_2-img-8-6 img {
+  height: 100%;
+}
+
+.Class_3_2-img-9_1 {
+  height: 56.77vh;
+  max-height: 436px;
+}
+
+.Class_3_2-img-9_1 img {
+  height: 100%;
+}
+
+.Class_3_2-img-9-1 {
+  margin: 0 3.9vh 0 0;
+  height: 8.94vh;
+  max-height: 68.7px;
+}
+
+.Class_3_2-img-9-1 img {
+  height: 100%;
+}
+
+.Class_3_2-img-9-2 {
+  margin: 3vh 4.6vh 0 0;
+  height: 7.6vh;
+  max-height: 58.5px;
+}
+
+.Class_3_2-img-9-2 img {
+  height: 100%;
+}
+
+.Class_3_2-img-9-3 {
+  margin: 0 3vh 0 0;
+  height: 8.46vh;
+  max-height: 65px;
+}
+
+.Class_3_2-img-9-3 img {
+  height: 100%;
+}
+
+.Class_3_2-img-9-4 {
+  margin: 1.3vh 4.7vh 0 0;
+  height: 8.2vh;
+  max-height: 63px;
+}
+
+.Class_3_2-img-9-4 img {
+  height: 100%;
+}
+
+.Class_3_2-img-9-5 {
+  margin: 0 4.7vh 4.9vh 0;
+  height: 6vh;
+  max-height: 46.7px;
+}
+
+.Class_3_2-img-9-5 img {
+  height: 100%;
+}
+
+.Class_3_2-img-9-6 {
+  margin: 2vh 6.3vh 0 0;
+  height: 10.28vh;
+  max-height: 79px;
+}
+
+.Class_3_2-img-9-6 img {
+  height: 100%;
+}
+
+.Class_3_2-img-9-7 {
+  margin: 4vh 3.9vh 0 0;
+  height: 5.54vh;
+  max-height: 42.6px;
+}
+
+.Class_3_2-img-9-7 img {
+  height: 100%;
+}
+
+.Class_3_2-img-9-8 {
+  margin: 1vh 6.3vh 0 0;
+  height: 5.45vh;
+  max-height: 41.9px;
+}
+
+.Class_3_2-img-9-8 img {
+  height: 100%;
+}
+
+.Class_3_2-img-9-9 {
+  margin-right: 7vh;
+  height: 8.69vh;
+  max-height: 66.8px;
+}
+
+.Class_3_2-img-9-9 img {
+  height: 100%;
+}
+
+.Class_3_2-img-9-10 {
+  margin: 12vh 4vh 0 0;
+  height: 5.79vh;
+  max-height: 44.5px;
+}
+
+.Class_3_2-img-9-10 img {
+  height: 100%;
+}
+
+.Class_3_2-img-9-11 {
+  margin: 5vh 5.5vh 0 0;
+  height: 7.9vh;
+  max-height: 61px;
+}
+
+.Class_3_2-img-9-11 img {
+  height: 100%;
+}
+
+.Class_3_2-img-9-12 {
+  margin: 0 5.4vh 10vh 0;
+  height: 11vh;
+  max-height: 84.9px;
+}
+
+.Class_3_2-img-9-12 img {
+  height: 100%;
+}
+
+.Class_3_2-img-9-13 {
+  margin-top: 1.5vh;
+  height: 6.9vh;
+  max-height: 53px;
+}
+
+.Class_3_2-img-9-13 img {
+  height: 100%;
+}
+
 .cs-3-2-img-div-12 {
   height: 40.49vh;
 }
@@ -34361,6 +34700,447 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .cs-3-2-img-2 {
   height: 20.31vh;
+}
+
+.interface_page-3 {
+  height: 36vh;
+  max-height: 273px;
+}
+
+.interface_page-3 img {
+  height: 100%;
+}
+
+.interface_page-4 {
+  height: 39vh;
+  max-height: 297px;
+}
+
+.interface_page-4 img {
+  height: 100%;
+}
+
+.interface_page-5 {
+  height: 46vh;
+  max-height: 356px;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.interface_page-5 img {
+  height: 100%;
+}
+
+.cs-5-12-8-img {
+  height: 35.67vh;
+  margin: auto;
+}
+
+.cs-5-12-9-img {
+  height: 48.82vh;
+  margin: auto;
+}
+
+.cs-5-12-10-img {
+  height: 47.78vh;
+  margin: auto;
+}
+
+.cs-5-12-11-img {
+  height: 39.84vh;
+  margin: auto;
+}
+
+.cs-5-12-12-img {
+  height: 54.42vh;
+  margin: 12vh auto 0;
+}
+
+.cs-5-12-13-img {
+  height: 20.18vh;
+  margin: 8vh auto 0;
+}
+
+.cs-5-12-14-img {
+  height: 46.22vh;
+  margin: 5vh auto 0;
+}
+
+.operators_page-3 {
+  height: 40vh;
+  max-height: 310px;
+}
+
+.operators_page-3 img {
+  height: 100%;
+}
+
+.operators_page-4 {
+  height: 55vh;
+  max-height: 424px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.operators_page-4 img {
+  height: 100%;
+}
+
+.operators_page-5 {
+  height: 32vh;
+  max-height: 250px;
+}
+
+.operators_page-5 img {
+  height: 100%;
+}
+
+.class_5_9-img_5_1 {
+  height: 36.3vh;
+  max-height: 278.9px;
+}
+
+.class_5_9-img_5_1 img {
+  height: 100%;
+}
+
+.class_5_9-img_5_2 {
+  height: 24.47vh;
+  max-height: 188px;
+}
+
+.class_5_9-img_5_2 img {
+  height: 100%;
+}
+
+.class_5_9-title_color {
+  color: #DC6C85;
+}
+
+.class_5_9-img_5_3 {
+  position: fixed;
+  right: 20.96vh;
+  top: 13.54vh;
+}
+
+.class_5_9-img_5_3 img {
+  height: 69.4vh;
+  max-height: 533px;
+}
+
+.class_5_9-img_6_1 {
+  height: 19.7vh;
+  max-height: 151.5px;
+}
+
+.class_5_9-img_6_1 img {
+  height: 100%;
+}
+
+.class_5_9-img_6_1 {
+  height: 17.94vh;
+  max-height: 137.8px;
+}
+
+.class_5_9-img_6_1 img {
+  height: 100%;
+}
+
+.class_5_9-img_7_1 {
+  height: 28.97vh;
+  max-height: 222.5px;
+}
+
+.class_5_9-img_7_1 img {
+  height: 100%;
+}
+
+.class_5_9-img_12_1 {
+  height: 40.42vh;
+  max-height: 310.5px;
+}
+
+.class_5_9-img_12_1 img {
+  height: 100%;
+}
+
+.class_5_9-img_13_1 {
+  height: 57vh;
+  max-height: 438px;
+}
+
+.class_5_9-img_13_1 img {
+  height: 100%;
+}
+
+.cs-2-9-img-div-16 {
+  height: 31.25vh;
+}
+
+.cs-2-9-img-div-16 img {
+  height: 100%;
+}
+
+/* .cs-2-9-img-game-div
+{
+  &-1{
+    height:8.2vh;
+    margin-right: 1.69vh;
+    margin-left: 1.69vh; 
+  }
+  &-2{
+    height:9.76vh;
+    margin-right: 1.69vh;
+    margin-left: 1.69vh; 
+  }
+  &-3{
+    height:7.03vh;
+    margin-right: 1.69vh;
+    margin-left: 1.69vh; 
+  }
+  img{
+    height:100%;
+    margin-right: 1.69vh;
+    margin-left: 1.69vh; 
+    }
+  span{
+    height:2.6vh;
+    width:2.6vh;   
+    border-radius: 8px;
+  }
+  p{
+   font-size:2.34vh;
+   color:#947DCE;
+  }
+} */
+.cs-2-9-img-div-18 {
+  height: 58.59vh;
+  position: absolute;
+  bottom: 0;
+  left: 10.83vw;
+}
+
+.cs-2-9-img-div-19 {
+  height: 39.19vh;
+  position: absolute;
+  bottom: 13.54vh;
+  right: 10.83vw;
+}
+
+.cs-2-9-img-div img {
+  height: 100%;
+}
+
+.cs-5-9-8-img {
+  height: 59.51vh;
+  position: relative;
+  top: 10vh;
+  right: -14vh;
+}
+
+.cs-5-9-9-img {
+  height: 43.88vh;
+  margin-top: 5vh;
+}
+
+.cs-5-9-10-img {
+  height: 52.60vh;
+  margin-top: 5vh;
+}
+
+.cs-5-9-11-img {
+  height: 48.43vh;
+  margin-top: 3vh;
+}
+
+.cs-5-9-12-img {
+  height: 50.78vh;
+  margin-top: 3vh;
+}
+
+.cs-5-9-13-img {
+  height: 55.98vh;
+  margin-top: 1vh;
+}
+
+.cs-5-9-14-img {
+  height: 60.80vh;
+  margin-top: 1vh;
+}
+
+.cs-5-9-15-img {
+  height: 50.52vh;
+  margin-top: 3vh;
+}
+
+.text-pink {
+  color: #DC6C85;
+}
+
+.cs-5-1-img-div-13 {
+  height: 39.71vh;
+}
+
+.cs-5-1-img-div-14 {
+  height: 52.47vh;
+  position: absolute;
+  bottom: 0;
+  right: 18vw;
+}
+
+.cs-5-1-img-div-15 {
+  height: 32.94vh;
+  position: absolute;
+  bottom: 10.54vh;
+  right: 16.17vw;
+}
+
+.cs-5-1-img-div-18 {
+  height: 56.38vh;
+}
+
+.cs-5-1-img-div-19 {
+  height: 42.83vh;
+}
+
+.cs-5-1-img-div img {
+  height: 100%;
+}
+
+.cs-5-1-img-div-16-crossword {
+  height: 65.49vh;
+}
+
+.cs-5-1-img-div-16-1 {
+  height: 6.58vh;
+}
+
+.cs-5-1-img-div-16-2 {
+  height: 8.2vh;
+}
+
+.cs-5-1-img-div-16 p {
+  color: #8A7CC7;
+  font-size: 3.64vh;
+  margin-right: 0.83vw;
+}
+
+.cs-5-1-img-div-16 img {
+  height: 100%;
+}
+
+.cs-5-12-img-div-15 {
+  height: 47.52vh;
+}
+
+.cs-5-12-img-div-17 {
+  height: 45.05vh;
+}
+
+.cs-5-12-img-div-18 {
+  height: 20.83vh;
+}
+
+.cs-5-12-img-div-19 {
+  height: 40.75vh;
+  position: absolute;
+  bottom: 0;
+  left: 10.24vw;
+}
+
+.cs-5-12-img-div-21 {
+  height: 56.25vh;
+}
+
+.cs-5-12-img-div-22 {
+  height: 27.47vh;
+}
+
+.cs-5-12-img-div-20-1 {
+  height: 47.52vh;
+}
+
+.cs-5-12-img-div img {
+  height: 100%;
+}
+
+.cs-5-12-img-div-20-2-circle {
+  border: 1px solid #947DCE;
+  height: 5.46vh;
+  width: 5.46vh;
+  border-radius: 50%;
+}
+
+.cs-5-12-img-div-20-2-btn {
+  height: 8.51vh;
+}
+
+.cs-5-12-img-div-20-3 img {
+  height: 5.46vh;
+}
+
+.cs-5-9-img-div-16 {
+  height: 54.94vh;
+}
+
+.cs-5-9-img-div-17 {
+  height: 62.63vh;
+  position: absolute;
+  bottom: 0;
+  left: 23.86vw;
+}
+
+.cs-5-9-img-div-18 {
+  height: 37.63vh;
+  position: absolute;
+  bottom: 12.23vh;
+  right: 15.81vw;
+}
+
+.cs-5-9-img-div img {
+  height: 100%;
+}
+
+.background-cs-5-9-19 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/conditional-operators-9/cs-5-9-19-img.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-5-9-20 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/conditional-operators-9/cs-5-9-20-img.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-5-9-21 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/conditional-operators-9/cs-5-9-21-img.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-5-9-22 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/conditional-operators-9/cs-5-9-22-img.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-title-purple {
+  color: #62548A;
+  font-family: 'DejaVu Sans Oblique';
+  font-size: 3.64vh;
+}
+
+.background-cs-title-purple-cont {
+  padding-top: 10vh;
 }
 
 body {
