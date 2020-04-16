@@ -154,6 +154,9 @@ function game(){
 
             } else if(loc == "/Computer-Science/Class-2/user-interface-6/14.html" || loc == "/el.resursebi-front/Computer-Science/Class-2/user-interface-6/14.html"){
                 location.href = "game-success-14.html"
+
+            } else if(loc == "/Computer-Science/Class-2/Identify-with-computer-9/8.html" || loc == "/el.resursebi-front/Computer-Science/Class-2/Identify-with-computer-9/8.html"){
+                location.href = "game-success-8.html"
             }
 
         } else {
