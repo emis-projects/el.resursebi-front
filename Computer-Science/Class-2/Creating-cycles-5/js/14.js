@@ -65,6 +65,7 @@ function computerGames() {
 
         var clone = drag.cloneNode(true);
         $(clone).removeClass('draggedElement')
+        $(clone).removeClass('ml-4vh')
         e.target.appendChild(clone);
         clone1 = e.target.appendChild(clone);
         if (clone1.getAttribute('data-same') == 1) {
@@ -81,7 +82,7 @@ function computerGames() {
 
     this.successPage = () => {
         this.errorPage();
-        if(count == 11){
+        if(count == 9){
             location.href = 'game-success-14.html';
         }
 
@@ -156,7 +157,30 @@ function computerGames() {
                 document.getElementById('2').style = "background: #dc6c85";
             }
         }
-        ////td8
+        ////td4
+        if (document.getElementById('4').children[1]) {
+            document.getElementById('4').style = "background: #dc6c85";
+        }
+        else {
+            if (document.getElementById('4').children[0]) {
+                if (document.getElementById('4').children[0].getAttribute('data-same') == 2) {
+                    document.getElementById('4').style = "background: #dc6c85";
+                }
+                if (document.getElementById('4').children[0].getAttribute('data-same') == 1) {
+                    if (document.getElementById('4').children[0].getAttribute('data-place2') == 4) {
+                        document.getElementById('4').style = "background: #a1dd6f";
+                        count++;
+                    }
+                    else{
+                        document.getElementById('4').style = "background: #dc6c85";
+                    }
+                }
+            }
+            else {
+                document.getElementById('4').style = "background: #dc6c85";
+            }
+        }
+        //td8
         if (document.getElementById('8').children[1]) {
             document.getElementById('8').style = "background: #dc6c85";
         }
