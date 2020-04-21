@@ -62,23 +62,23 @@
                         <div class="conditional-marks_page-5 position-relative">
                             <img src="../../../img/gakvetilebi/Computer-Science/Class-3/computer-equipment-2/cs-3-2-5.svg"
                                  alt="marks">
-                            <div class="drop-box drop-box-left"></div>
-                            <div class="drop-box drop-box-right"></div>
-                            <div class="drop-box drop-box-top"></div>
-                            <div class="drop-box drop-box-bottom"></div>
+                            <div class="drop-box drop-box-left myDrag" data-place="1"></div>
+                            <div class="drop-box drop-box-right myDrag" data-place="2"></div>
+                            <div class="drop-box drop-box-top myDrag" data-place="3"></div>
+                            <div class="drop-box drop-box-bottom myDrag" data-place="4"></div>
                         </div>
                     </div>
                     <div class="col-3 offset-1">
                         <div class="box d-flex justify-content-between align-items-start">
-                            <img src="../../../img/gakvetilebi/Computer-Science/Class-3/computer-equipment-2/monitor.svg"
+                            <img class="DragGame--childs1" data-place="1" data-place1="2" data-name="monitor" src="../../../img/gakvetilebi/Computer-Science/Class-3/computer-equipment-2/monitor.svg"
                                  alt="marks">
-                            <img src="../../../img/gakvetilebi/Computer-Science/Class-3/computer-equipment-2/case.svg"
+                            <img class="DragGame--childs1" data-place="3" data-place1="4" data-name="case" src="../../../img/gakvetilebi/Computer-Science/Class-3/computer-equipment-2/case.svg"
                                  alt="marks">
                         </div>
                         <div class="box d-flex justify-content-between align-items-start mt-2vh">
-                            <img src="../../../img/gakvetilebi/Computer-Science/Class-3/computer-equipment-2/keyboard.svg"
+                            <img class="DragGame--childs1" data-place="1" data-name="keyboard" src="../../../img/gakvetilebi/Computer-Science/Class-3/computer-equipment-2/keyboard.svg"
                                  alt="marks">
-                            <img src="../../../img/gakvetilebi/Computer-Science/Class-3/computer-equipment-2/mouse.svg"
+                            <img class="DragGame--childs1" data-place="1" data-name="mouse" src="../../../img/gakvetilebi/Computer-Science/Class-3/computer-equipment-2/mouse.svg"
                                  alt="marks">
                         </div>
                     </div>
@@ -87,6 +87,10 @@
             </div>
         </div>
 
+        <div class="flex flex-end column align-items-end z-index reload_game_wrapper">
+            <button id="resetBtn" class="reset__btn">თავიდან სცადე</button>
+            <button id="completedGame" class="completed__btn">დასრულება</button>
+        </div>
         <!-- ეს არის svg თეგირომელიც ქმნის მარცხენა ვერტიკალურ "ნავ რუკას" -->
         <div class="left_components_paging-cont" id="leftNav">
             <left-nav-item></left-nav-item>
@@ -116,6 +120,7 @@
 <script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
 <script src="../../../js/libraries/jquery.magnific-popup.min.js"></script>
 <script src="../../../js/Pagination.js"></script>
+<script src="./js/5.js"></script>
 
 
 <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
