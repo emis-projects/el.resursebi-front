@@ -1003,8 +1003,8 @@ let title = {
         },
         {
             id: 24,
-            name: 'სათაური',
-            link: '#'
+            name: 'საკუთარი მონაცემების დაცვა',
+            link: 'Computer-Science/Class-5/Protect-your-data-24/1.html'
         }
     ],
     IT_6: [

@@ -786,7 +786,6 @@
   font-style: normal;
   font-display: block;
 }
-
 [class^=icon-], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: "icomoon" !important;
@@ -900,7 +899,6 @@
   font-weight: normal;
   font-style: normal;
 }
-
 [class^=arrow-]:before, [class*=" arrow-"]:before {
   font-family: "fontello";
   font-style: normal;
@@ -8583,7 +8581,7 @@ section .arrow_up_down_downArrow img {
 
 .m_exercise_text-container_16px {
   color: #0B2228;
-  font-size: 2.08 h;
+  font-size: 2.08h;
   font-family: "BPG Arial";
 }
 
@@ -29179,6 +29177,69 @@ img.mfp-img[alt*=cs-3-6-6-img] {
 }
 .background-cs-title-purple-cont {
   padding-top: 10vh;
+}
+
+.protect-data_page-17 {
+  height: 53vh;
+  max-height: 407px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+.protect-data_page-17 img {
+  height: 100%;
+}
+.protect-data_page-18 {
+  height: 52vh;
+  max-height: 405px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+.protect-data_page-18 img {
+  height: 100%;
+}
+.protect-data_page-19 {
+  height: 64vh;
+  max-height: 491px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+.protect-data_page-19 img {
+  height: 100%;
+}
+.protect-data_page-20 {
+  height: 60vh;
+  max-height: 461px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+.protect-data_page-20 img {
+  height: 100%;
+}
+.protect-data_page-21 {
+  height: 50vh;
+  max-height: 388px;
+}
+.protect-data_page-21 img {
+  height: 100%;
+}
+.protect-data_page-22 {
+  height: 38vh;
+  max-height: 293px;
+}
+.protect-data_page-22 img {
+  height: 100%;
+}
+.protect-data_23-background {
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: url("../img/gakvetilebi/Computer-Science/Class-5/Protect-your-data-24/cs-5-24-23.svg") no-repeat center;
 }
 
 body {
