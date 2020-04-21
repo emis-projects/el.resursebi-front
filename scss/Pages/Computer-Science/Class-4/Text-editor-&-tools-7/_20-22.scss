@@ -1,0 +1,25 @@
+.cs-4-7-div-img{
+    &-20{
+    height:57.94vh;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    bottom:0;
+    } 
+    &-21{
+        height:56.64vh;
+        position: absolute;
+        right: 0;    
+        bottom:0;
+        } 
+        &-22{
+            height:55.33vh;
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%, 0);
+            bottom:0;
+            } 
+    img{
+      height:100%;
+    }
+  }

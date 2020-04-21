@@ -1,0 +1,74 @@
+.editors {
+  &_page-8 {
+    height: 37vh;
+    max-height: 286px;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &_page-9 {
+    height: 40vh;
+    max-height: 312px;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &_page-10 {
+    height: 62vh;
+    max-height: 479px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &_page-11 {
+    height: 46vh;
+    max-height: 352px;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &_page-12 {
+    height: 51vh;
+    max-height: 395px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &_page-13 {
+    height: 42vh;
+    max-height: 323px;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &_page-14 {
+    height: 41vh;
+    max-height: 316px;
+
+    img {
+      height: 100%;
+    }
+  }
+}
