@@ -34499,9 +34499,8 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
-.Class_3_2-img-7 img {
-  height: 8.46vh;
-  max-height: 65px;
+.Class_3_2-img-7 .sign-description-btn {
+  max-width: 11vw;
 }
 
 .Class_3_2-img-8-1 {
@@ -34741,6 +34740,23 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .cs-3-2-img-2 {
   height: 20.31vh;
+}
+
+.cs-3-2-15-img-div .sign-description-btn {
+  width: 10vw;
+  height: 10vh;
+}
+
+.cs-3-2-15-img-div .sign-description-btn .cs-3-2-15--1, .cs-3-2-15-img-div .sign-description-btn.draggedElement {
+  height: 7.41vh;
+}
+
+.cs-3-2-15-img-div .sign-description-btn .cs-3-2-15--2, .cs-3-2-15-img-div .sign-description-btn.draggedElement {
+  height: 7.41vh;
+}
+
+.cs-3-2-15-img-div .sign-description-btn .cs-3-2-15--3, .cs-3-2-15-img-div .sign-description-btn.draggedElement {
+  height: 5.41vh;
 }
 
 .interface_page-3 {

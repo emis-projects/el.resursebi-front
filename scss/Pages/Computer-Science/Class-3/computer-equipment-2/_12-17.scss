@@ -35,3 +35,26 @@
 .cs-3-2-img-2{
   height:20.31vh;
 }
+
+.cs-3-2-15-img-div {
+  .sign-description-btn {
+    width: 10vw;
+    height: 10vh;
+
+    .cs-3-2-15--1,
+    &.draggedElement {
+      height: 7.41vh; 
+    }
+
+    .cs-3-2-15--2,
+    &.draggedElement {
+      height: 7.41vh; 
+    }
+    
+    .cs-3-2-15--3,
+    &.draggedElement {
+      height: 5.41vh; 
+    }
+
+  }
+}

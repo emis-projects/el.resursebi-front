@@ -157,6 +157,12 @@ function game(){
 
             } else if(loc == "/Computer-Science/Class-2/Identify-with-computer-9/8.html" || loc == "/el.resursebi-front/Computer-Science/Class-2/Identify-with-computer-9/8.html"){
                 location.href = "game-success-8.html"
+
+            } else if(loc == "/Computer-Science/Class-3/computer-equipment-2/7.html" || loc == "/el.resursebi-front/Computer-Science/Class-3/computer-equipment-2/7.html"){
+                location.href = "game-success-7.html"
+
+            } else if(loc == "/Computer-Science/Class-3/computer-equipment-2/8.html" || loc == "/el.resursebi-front/Computer-Science/Class-3/computer-equipment-2/8.html"){
+                location.href = "game-success-8.html"
             }
 
         } else {
