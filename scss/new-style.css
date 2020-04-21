@@ -34499,9 +34499,8 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
-.Class_3_2-img-7 img {
-  height: 8.46vh;
-  max-height: 65px;
+.Class_3_2-img-7 .sign-description-btn {
+  max-width: 11vw;
 }
 
 .Class_3_2-img-8-1 {
@@ -34741,6 +34740,23 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .cs-3-2-img-2 {
   height: 20.31vh;
+}
+
+.cs-3-2-15-img-div .sign-description-btn {
+  width: 10vw;
+  height: 10vh;
+}
+
+.cs-3-2-15-img-div .sign-description-btn .cs-3-2-15--1, .cs-3-2-15-img-div .sign-description-btn.draggedElement {
+  height: 7.41vh;
+}
+
+.cs-3-2-15-img-div .sign-description-btn .cs-3-2-15--2, .cs-3-2-15-img-div .sign-description-btn.draggedElement {
+  height: 7.41vh;
+}
+
+.cs-3-2-15-img-div .sign-description-btn .cs-3-2-15--3, .cs-3-2-15-img-div .sign-description-btn.draggedElement {
+  height: 5.41vh;
 }
 
 .interface_page-3 {
@@ -35249,6 +35265,35 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .class_5_24-img_box_9_2 img {
+.cs-5-24-div-img-1 {
+  height: 57.94vh;
+}
+
+.cs-5-24-div-img-3 {
+  height: 44.79vh;
+}
+
+.cs-5-24-div-img-4 {
+  height: 42.31vh;
+}
+
+.cs-5-24-div-img-5 {
+  height: 49.73vh;
+}
+
+.cs-5-24-div-img-6 {
+  height: 44.79vh;
+}
+
+.cs-5-24-div-img-7 {
+  height: 40.62vh;
+}
+
+.cs-5-24-div-img-8 {
+  height: 38.54vh;
+}
+
+.cs-5-24-div-img img {
   height: 100%;
 }
 
@@ -35430,6 +35475,38 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .cs-5-24-16-img {
   height: 61.19vh;
+}
+
+.cs-5-14-div-img-1 {
+  height: 50.26vh;
+}
+
+.cs-5-14-div-img-3 {
+  height: 48.04vh;
+}
+
+.cs-5-14-div-img-4 {
+  height: 58.46vh;
+}
+
+.cs-5-14-div-img-5 {
+  height: 43.09vh;
+}
+
+.cs-5-14-div-img-6 {
+  height: 33.85vh;
+}
+
+.cs-5-14-div-img-7 {
+  height: 69.92vh;
+}
+
+.cs-5-14-div-img-8 {
+  height: 69.66vh;
+}
+
+.cs-5-14-div-img img {
+  height: 100%;
 }
 
 .information-data_page-9 {
@@ -35690,6 +35767,38 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-5/Information-in-the-table-14/cs-5-14-28.svg");
 }
 
+.cs-5-15-div-img-1 {
+  height: 54.94vh;
+}
+
+.cs-5-15-div-img-3 {
+  height: 64.58vh;
+}
+
+.cs-5-15-div-img-4 {
+  height: 47.65vh;
+}
+
+.cs-5-15-div-img-5 {
+  height: 42.7vh;
+}
+
+.cs-5-15-div-img-6 {
+  height: 33.85vh;
+}
+
+.cs-5-15-div-img-7 {
+  height: 47.91vh;
+}
+
+.cs-5-15-div-img-8 {
+  height: 47.91vh;
+}
+
+.cs-5-15-div-img img {
+  height: 100%;
+}
+
 .class_5_15-img_box_3_1 {
   position: fixed;
   bottom: 0;
@@ -35853,35 +35962,45 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   margin: 3vh auto;
 }
 
-.cs-5-24-div-img-1 {
-  height: 57.94vh;
+.cs-6-2-div-img-1 {
+  height: 58.23vh;
 }
 
-.cs-5-24-div-img-3 {
-  height: 44.79vh;
+.cs-6-2-div-img-3 {
+  height: 41.79vh;
 }
 
-.cs-5-24-div-img-4 {
-  height: 42.31vh;
+.cs-6-2-div-img-4 {
+  height: 37.76vh;
 }
 
-.cs-5-24-div-img-5 {
-  height: 49.73vh;
+.cs-6-2-div-img-5 {
+  height: 46.35vh;
 }
 
-.cs-5-24-div-img-6 {
-  height: 44.79vh;
+.cs-6-2-div-img-6 {
+  height: 52.6vh;
 }
 
-.cs-5-24-div-img-7 {
-  height: 40.62vh;
+.cs-6-2-div-img-7 {
+  height: 34.76vh;
 }
 
-.cs-5-24-div-img-8 {
-  height: 38.54vh;
+.cs-6-2-div-img-8 {
+  height: 38.28vh;
 }
 
-.cs-5-24-div-img img {
+.cs-6-2-div-img img {
+  height: 100%;
+}
+
+.cs-6-2-div-img-8-video {
+  width: 38.72vw;
+  height: 38.28vh;
+}
+
+.cs-6-2-div-img-8-video video {
+  width: 100%;
   height: 100%;
 }
 
@@ -35950,36 +36069,202 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   background-size: cover;
 }
 
-.cs-5-14-div-img-1 {
-  height: 50.26vh;
+.cs-6-2-9-img {
+  height: 50.41vh;
+  margin: 5vh auto 0;
 }
 
-.cs-5-14-div-img-3 {
-  height: 48.04vh;
+.cs-6-2-10-img {
+  height: 77.47vh;
+  position: relative;
+  top: -4vh;
 }
 
-.cs-5-14-div-img-4 {
-  height: 58.46vh;
+.cs-6-2-11-img {
+  height: 54.68vh;
+  position: relative;
+  right: -14vh;
+  top: 7vh;
 }
 
-.cs-5-14-div-img-5 {
-  height: 43.09vh;
+.cs-6-2-12-img {
+  height: 48.43vh;
+  margin: 7vh auto 0;
 }
 
-.cs-5-14-div-img-6 {
-  height: 33.85vh;
+.cs-6-2-13-img {
+  height: 46.24vh;
+  margin: 7vh auto 0;
 }
 
-.cs-5-14-div-img-7 {
-  height: 69.92vh;
+.cs-6-2-14-img {
+  height: 55.2vh;
+  margin: 3vh auto 0;
 }
 
-.cs-5-14-div-img-8 {
-  height: 69.66vh;
+.cs-6-2-15-img {
+  height: 40.62vh;
+  margin: 7vh auto 0;
 }
 
-.cs-5-14-div-img img {
+.cs-6-2-16-img {
+  height: 67.96vh;
+  position: relative;
+  bottom: 2vh;
+}
+
+.cs-4-7-1-img {
+  height: 50.52vh;
+  margin: 8vh auto 5vh;
+}
+
+.cs-4-7-3-img {
+  height: 39.45vh;
+  margin-top: 2vh;
+}
+
+.cs-4-7-4-img {
+  height: 48.17vh;
+  margin-top: 9vh;
+}
+
+.cs-4-7-5-img {
+  height: 44.92vh;
+  margin-top: 2vh;
+}
+
+.cs-4-7-6-img {
+  height: 44.53vh;
+}
+
+.cs-4-7-7-img {
+  height: 28.64vh;
+  margin-top: 5vh;
+}
+
+.editors_page-8 {
+  height: 37vh;
+  max-height: 286px;
+}
+
+.editors_page-8 img {
   height: 100%;
+}
+
+.editors_page-9 {
+  height: 40vh;
+  max-height: 312px;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.editors_page-9 img {
+  height: 100%;
+}
+
+.editors_page-10 {
+  height: 62vh;
+  max-height: 479px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.editors_page-10 img {
+  height: 100%;
+}
+
+.editors_page-11 {
+  height: 46vh;
+  max-height: 352px;
+}
+
+.editors_page-11 img {
+  height: 100%;
+}
+
+.editors_page-12 {
+  height: 51vh;
+  max-height: 395px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.editors_page-12 img {
+  height: 100%;
+}
+
+.editors_page-13 {
+  height: 42vh;
+  max-height: 323px;
+}
+
+.editors_page-13 img {
+  height: 100%;
+}
+
+.editors_page-14 {
+  height: 41vh;
+  max-height: 316px;
+}
+
+.editors_page-14 img {
+  height: 100%;
+}
+
+.cs-4-7-div-img-20 {
+  height: 57.94vh;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  bottom: 0;
+}
+
+.cs-4-7-div-img-21 {
+  height: 56.64vh;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.cs-4-7-div-img-22 {
+  height: 55.33vh;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  bottom: 0;
+}
+
+.cs-4-7-div-img img {
+  height: 100%;
+}
+
+.background-cs-4-7 {
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-4-7-23 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/Text-editor-&-tools-7/cs-4-7-23-img.svg");
+}
+
+.background-cs-4-7-24 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/Text-editor-&-tools-7/cs-4-7-24-img.svg");
+}
+
+.background-cs-4-7-25 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/Text-editor-&-tools-7/cs-4-7-25-img.svg");
+}
+
+.background-cs-4-7-26 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/Text-editor-&-tools-7/cs-4-7-26-img.svg");
 }
 
 body {
