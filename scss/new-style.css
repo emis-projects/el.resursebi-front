@@ -35234,6 +35234,38 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   padding-top: 10vh;
 }
 
+.cs-5-24-div-img-1 {
+  height: 57.94vh;
+}
+
+.cs-5-24-div-img-3 {
+  height: 44.79vh;
+}
+
+.cs-5-24-div-img-4 {
+  height: 42.31vh;
+}
+
+.cs-5-24-div-img-5 {
+  height: 49.73vh;
+}
+
+.cs-5-24-div-img-6 {
+  height: 44.79vh;
+}
+
+.cs-5-24-div-img-7 {
+  height: 40.62vh;
+}
+
+.cs-5-24-div-img-8 {
+  height: 38.54vh;
+}
+
+.cs-5-24-div-img img {
+  height: 100%;
+}
+
 .class_5_24-img_box_10_1 {
   width: 115vh;
   height: 66.15vh;
@@ -35430,6 +35462,38 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .cs-5-24-16-img {
   height: 61.19vh;
+}
+
+.cs-5-14-div-img-1 {
+  height: 50.26vh;
+}
+
+.cs-5-14-div-img-3 {
+  height: 48.04vh;
+}
+
+.cs-5-14-div-img-4 {
+  height: 58.46vh;
+}
+
+.cs-5-14-div-img-5 {
+  height: 43.09vh;
+}
+
+.cs-5-14-div-img-6 {
+  height: 33.85vh;
+}
+
+.cs-5-14-div-img-7 {
+  height: 69.92vh;
+}
+
+.cs-5-14-div-img-8 {
+  height: 69.66vh;
+}
+
+.cs-5-14-div-img img {
+  height: 100%;
 }
 
 .information-data_page-9 {
@@ -35765,38 +35829,6 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   margin: 3vh auto;
 }
 
-.cs-5-24-div-img-1 {
-  height: 57.94vh;
-}
-
-.cs-5-24-div-img-3 {
-  height: 44.79vh;
-}
-
-.cs-5-24-div-img-4 {
-  height: 42.31vh;
-}
-
-.cs-5-24-div-img-5 {
-  height: 49.73vh;
-}
-
-.cs-5-24-div-img-6 {
-  height: 44.79vh;
-}
-
-.cs-5-24-div-img-7 {
-  height: 40.62vh;
-}
-
-.cs-5-24-div-img-8 {
-  height: 38.54vh;
-}
-
-.cs-5-24-div-img img {
-  height: 100%;
-}
-
 .conditional-operators_page-5 {
   height: 70vh;
   max-height: 539px;
@@ -35860,38 +35892,6 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   width: 100%;
   background: url("../img/gakvetilebi/Computer-Science/Class-6/Conditional-operators-2/cs-6-2-25.svg") no-repeat center;
   background-size: cover;
-}
-
-.cs-5-14-div-img-1 {
-  height: 50.26vh;
-}
-
-.cs-5-14-div-img-3 {
-  height: 48.04vh;
-}
-
-.cs-5-14-div-img-4 {
-  height: 58.46vh;
-}
-
-.cs-5-14-div-img-5 {
-  height: 43.09vh;
-}
-
-.cs-5-14-div-img-6 {
-  height: 33.85vh;
-}
-
-.cs-5-14-div-img-7 {
-  height: 69.92vh;
-}
-
-.cs-5-14-div-img-8 {
-  height: 69.66vh;
-}
-
-.cs-5-14-div-img img {
-  height: 100%;
 }
 
 body {
