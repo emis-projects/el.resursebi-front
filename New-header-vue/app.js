@@ -1015,8 +1015,8 @@ let title = {
         },
         {
             id: 2,
-            name: 'კომპიუტერი 6 კლასი 2 გაკვ',
-            link: '#'
+            name: 'პირობითი ოპერატორები (ჩადგმული პირობითი ოპერატორები)',
+            link: 'Computer-Science/Class-6/Conditional-operators-2/1.html'
         },
         {
             id: 3,
