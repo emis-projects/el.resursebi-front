@@ -953,13 +953,13 @@ let title = {
         },
         {
             id: 14,
-            name: 'კომპიუტერი 6 კლასი 14 გაკვ',
-            link: '#'
+            name: 'ინფორმაციის ცხრილში აღრიცხვა',
+            link: 'Computer-Science/Class-5/Information-in-the-table-14/1.html'
         },
         {
             id: 15,
-            name: 'სათაური',
-            link: '#'
+            name: 'ცხრილებთან მუშაობა',
+            link: 'Computer-Science/Class-5/Working-with-tables-15/1.html'
         },
         {
             id: 16,
@@ -1003,8 +1003,8 @@ let title = {
         },
         {
             id: 24,
-            name: 'სათაური',
-            link: '#'
+            name: 'საკუთარი მონაცემების დაცვა',
+            link: 'Computer-Science/Class-5/Protect-your-data-24/1.html'
         }
     ],
     IT_6: [

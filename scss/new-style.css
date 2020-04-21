@@ -35310,6 +35310,228 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100vh;
 }
 
+.protect-data_page-17 {
+  height: 53vh;
+  max-height: 407px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+
+.protect-data_page-17 img {
+  height: 100%;
+}
+
+.protect-data_page-18 {
+  height: 52vh;
+  max-height: 405px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+
+.protect-data_page-18 img {
+  height: 100%;
+}
+
+.protect-data_page-19 {
+  height: 64vh;
+  max-height: 491px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+
+.protect-data_page-19 img {
+  height: 100%;
+}
+
+.protect-data_page-20 {
+  height: 60vh;
+  max-height: 461px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+
+.protect-data_page-20 img {
+  height: 100%;
+}
+
+.protect-data_page-21 {
+  height: 50vh;
+  max-height: 388px;
+}
+
+.protect-data_page-21 img {
+  height: 100%;
+}
+
+.protect-data_page-22 {
+  height: 38vh;
+  max-height: 293px;
+}
+
+.protect-data_page-22 img {
+  height: 100%;
+}
+
+.protect-data_23-background {
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: url("../img/gakvetilebi/Computer-Science/Class-5/Protect-your-data-24/cs-5-24-23.svg") no-repeat center;
+}
+
+.cs-5-24-9-img-1 {
+  height: 33.20vh;
+  margin-right: 2vh;
+}
+
+.cs-5-24-9-img-2 {
+  height: 41.53vh;
+}
+
+.cs-5-24-10-img {
+  height: 38.93vh;
+  margin: auto;
+  position: relative;
+  top: -3vh;
+}
+
+.cs-5-24-11-img {
+  height: 59.11vh;
+  margin-top: 5vh;
+}
+
+.cs-5-24-12-img {
+  height: 50.52vh;
+  margin-top: 3vh;
+}
+
+.cs-5-24-13-img {
+  height: 43.88vh;
+}
+
+.cs-5-24-14-img {
+  height: 53.38vh;
+  position: relative;
+  top: -4vh;
+}
+
+.cs-5-24-15-img {
+  height: 44.27vh;
+  position: relative;
+  top: -5vh;
+}
+
+.cs-5-24-16-img {
+  height: 61.19vh;
+}
+
+.information-data_page-9 {
+  height: 44vh;
+  max-height: 336px;
+}
+
+.information-data_page-9 img {
+  height: 100%;
+}
+
+.information-data_btn-box button {
+  -webkit-box-shadow: 2px 2px 8px rgba(148, 125, 206, 0.4);
+          box-shadow: 2px 2px 8px rgba(148, 125, 206, 0.4);
+  background: transparent;
+  height: 6.5vh;
+  width: 12vw;
+  border-radius: 20px;
+  max-width: 166px;
+  max-height: 50px;
+  color: #947DCE;
+}
+
+.information-data_image-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.information-data_image-box .box {
+  height: 9vh;
+  max-height: 73px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.information-data_image-box .box img {
+  height: 100%;
+}
+
+.information-data_page-11 {
+  height: 44vh;
+  max-height: 340px;
+}
+
+.information-data_page-11 img {
+  height: 100%;
+}
+
+.information-data_page-12 {
+  height: 53vh;
+  max-height: 404px;
+  position: fixed;
+  left: 50%;
+  bottom: 0;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.information-data_page-12 img {
+  height: 100%;
+}
+
+.information-data_page-13 {
+  height: 56vh;
+  max-height: 431px;
+  position: fixed;
+  left: 50%;
+  bottom: 0;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.information-data_page-13 img {
+  height: 100%;
+}
+
+.information-data_page-14 {
+  height: 30vh;
+  max-height: 232px;
+}
+
+.information-data_page-14 img {
+  height: 100%;
+}
+
+.information-data_page-15 {
+  height: 32vh;
+  max-height: 246px;
+}
+
+.information-data_page-15 img {
+  height: 100%;
+}
+
 body {
   color: #262626;
   font-size: 14px;
