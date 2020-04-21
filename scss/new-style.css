@@ -786,7 +786,6 @@
   font-style: normal;
   font-display: block;
 }
-
 [class^=icon-], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: "icomoon" !important;
@@ -900,7 +899,6 @@
   font-weight: normal;
   font-style: normal;
 }
-
 [class^=arrow-]:before, [class*=" arrow-"]:before {
   font-family: "fontello";
   font-style: normal;
@@ -8583,7 +8581,7 @@ section .arrow_up_down_downArrow img {
 
 .m_exercise_text-container_16px {
   color: #0B2228;
-  font-size: 2.08 h;
+  font-size: 2.08h;
   font-family: "BPG Arial";
 }
 
@@ -29353,6 +29351,64 @@ img.mfp-img[alt*=cs-3-6-6-img] {
   max-height: 246px;
 }
 .information-data_page-15 img {
+  height: 100%;
+}
+
+.working-tables_page-14 {
+  height: 45vh;
+  max-height: 345px;
+}
+.working-tables_page-14 img {
+  height: 100%;
+}
+.working-tables_page-15 {
+  height: 48vh;
+  max-height: 370px;
+}
+.working-tables_page-15 img {
+  height: 100%;
+}
+.working-tables_box-image {
+  max-height: 34px;
+  height: 5vh;
+}
+.working-tables_page-16 {
+  height: 33vh;
+  max-height: 250px;
+}
+.working-tables_page-16 img {
+  height: 100%;
+}
+.working-tables_page-17 {
+  height: 73vh;
+  max-height: 556px;
+}
+.working-tables_page-17 img {
+  height: 100%;
+}
+.working-tables_page-18 {
+  height: 47vh;
+  max-height: 360px;
+}
+.working-tables_page-18 img {
+  height: 100%;
+}
+.working-tables_page-19 {
+  height: 47vh;
+  max-height: 364px;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.working-tables_page-19 img {
+  height: 100%;
+}
+.working-tables_page-20 {
+  height: 50vh;
+  max-height: 382px;
+}
+.working-tables_page-20 img {
   height: 100%;
 }
 
