@@ -1,0 +1,91 @@
+.class_5_14 {
+    &-img_box_16 {
+        position: fixed;
+        bottom: 0;
+        margin-left: 7vh;
+        img {
+           height: 50.65vh;
+           max-height: 389px; 
+        }
+    }
+    &-img_box_17 {
+        height: 38.15vh;
+        max-height: 293px; 
+        img {
+           height: 100%;
+        }
+    }
+    &-title {
+        margin-bottom: 1vh;
+    }
+    &-img_box_18 {
+        position: fixed;
+        bottom: 0;
+        height: 81.45vh; 
+        max-height: 625.6px;
+        img {
+            height: 100%;
+        }
+    }
+    &-img_box_19 {
+        position: fixed;
+        bottom: 0;
+        height: 30.72vh; 
+        max-height: 236px;
+        img {
+            height: 100%;
+        }
+    }
+    &-img_box_20 {
+        height: 7.5vh; 
+        max-height: 57.6px;
+        img {
+            height: 100%;
+        }
+    }
+    &-content_item {
+        text-align: center;
+        height: 7.5vh;
+    }
+    &-title_20 {
+        font-size: 2vh;
+        font-family:  'DejaVuSans';
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        color: #FFFFFF;
+        width: 80.7vh;
+    }
+    &-img_box_20_1 {
+        height: 7.5vh; 
+        max-height: 57.6px;
+        img {
+            height: 100%;
+        }
+    }
+    &-content_item_1 {
+        text-align: center;
+        height: 7.5vh;
+    }
+    &-title_20_1 {
+        font-size: 2vh;
+        font-family:  'DejaVuSans';
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        color: #FFFFFF;
+        width: 43.75vh;
+    }
+    &-game_bottom {
+        margin-bottom: -4vh;
+    }
+    &-img_box_21 {
+        position: fixed;
+        bottom: 0;
+        height: 53.12vh; 
+        max-height: 408px;
+        img {
+            height: 100%;
+        }
+    }
+}
