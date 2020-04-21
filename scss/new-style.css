@@ -35234,38 +35234,6 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   padding-top: 10vh;
 }
 
-.cs-5-24-div-img-1 {
-  height: 57.94vh;
-}
-
-.cs-5-24-div-img-3 {
-  height: 44.79vh;
-}
-
-.cs-5-24-div-img-4 {
-  height: 42.31vh;
-}
-
-.cs-5-24-div-img-5 {
-  height: 49.73vh;
-}
-
-.cs-5-24-div-img-6 {
-  height: 44.79vh;
-}
-
-.cs-5-24-div-img-7 {
-  height: 40.62vh;
-}
-
-.cs-5-24-div-img-8 {
-  height: 38.54vh;
-}
-
-.cs-5-24-div-img img {
-  height: 100%;
-}
-
 .protect-data_page-17 {
   height: 53vh;
   max-height: 407px;
@@ -35339,6 +35307,7 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   left: 0;
   width: 100%;
   background: url("../img/gakvetilebi/Computer-Science/Class-5/Protect-your-data-24/cs-5-24-23.svg") no-repeat center;
+  background-size: cover;
 }
 
 .cs-5-24-9-img-1 {
@@ -35385,38 +35354,6 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .cs-5-24-16-img {
   height: 61.19vh;
-}
-
-.cs-5-14-div-img-1 {
-  height: 50.26vh;
-}
-
-.cs-5-14-div-img-3 {
-  height: 48.04vh;
-}
-
-.cs-5-14-div-img-4 {
-  height: 58.46vh;
-}
-
-.cs-5-14-div-img-5 {
-  height: 43.09vh;
-}
-
-.cs-5-14-div-img-6 {
-  height: 33.85vh;
-}
-
-.cs-5-14-div-img-7 {
-  height: 69.92vh;
-}
-
-.cs-5-14-div-img-8 {
-  height: 69.66vh;
-}
-
-.cs-5-14-div-img img {
-  height: 100%;
 }
 
 .information-data_page-9 {
@@ -35659,6 +35596,160 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .working-tables_page-20 img {
+  height: 100%;
+}
+
+.cs-5-15-8-img {
+  height: 47.52vh;
+  margin: 5vh auto 0;
+}
+
+.cs-5-15-9-img {
+  height: 70.96vh;
+  margin-left: 2vh;
+}
+
+.cs-5-15-11-img {
+  height: 47.78vh;
+  margin: 5vh auto 0;
+}
+
+.cs-5-15-12-img {
+  height: 52.34vh;
+  margin: 5vh auto 0;
+}
+
+.cs-5-15-13-img {
+  height: 59.37vh;
+  margin: 3vh auto;
+}
+
+.cs-5-24-div-img-1 {
+  height: 57.94vh;
+}
+
+.cs-5-24-div-img-3 {
+  height: 44.79vh;
+}
+
+.cs-5-24-div-img-4 {
+  height: 42.31vh;
+}
+
+.cs-5-24-div-img-5 {
+  height: 49.73vh;
+}
+
+.cs-5-24-div-img-6 {
+  height: 44.79vh;
+}
+
+.cs-5-24-div-img-7 {
+  height: 40.62vh;
+}
+
+.cs-5-24-div-img-8 {
+  height: 38.54vh;
+}
+
+.cs-5-24-div-img img {
+  height: 100%;
+}
+
+.conditional-operators_page-5 {
+  height: 70vh;
+  max-height: 539px;
+}
+
+.conditional-operators_page-5 img {
+  height: 100%;
+}
+
+.conditional-operators_page-6 {
+  height: 56vh;
+  max-height: 430px;
+}
+
+.conditional-operators_page-6 img {
+  height: 100%;
+}
+
+.conditional-operators_page-12 {
+  height: 59vh;
+  max-height: 451px;
+}
+
+.conditional-operators_page-12 img {
+  height: 100%;
+}
+
+.conditional-operators_page-13 {
+  height: 77vh;
+  max-height: 588px;
+}
+
+.conditional-operators_page-13 img {
+  height: 100%;
+}
+
+.conditional-operators_page-14 {
+  height: 90vh;
+  max-height: 693px;
+}
+
+.conditional-operators_page-14 img {
+  height: 100%;
+}
+
+.conditional-operators_24-background {
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: url("../img/gakvetilebi/Computer-Science/Class-6/Conditional-operators-2/cs-6-2-24.svg") no-repeat center;
+  background-size: cover;
+}
+
+.conditional-operators_25-background {
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: url("../img/gakvetilebi/Computer-Science/Class-6/Conditional-operators-2/cs-6-2-25.svg") no-repeat center;
+  background-size: cover;
+}
+
+.cs-5-14-div-img-1 {
+  height: 50.26vh;
+}
+
+.cs-5-14-div-img-3 {
+  height: 48.04vh;
+}
+
+.cs-5-14-div-img-4 {
+  height: 58.46vh;
+}
+
+.cs-5-14-div-img-5 {
+  height: 43.09vh;
+}
+
+.cs-5-14-div-img-6 {
+  height: 33.85vh;
+}
+
+.cs-5-14-div-img-7 {
+  height: 69.92vh;
+}
+
+.cs-5-14-div-img-8 {
+  height: 69.66vh;
+}
+
+.cs-5-14-div-img img {
   height: 100%;
 }
 
