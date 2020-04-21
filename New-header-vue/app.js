@@ -856,8 +856,8 @@ let title = {
         },
         {
             id: 7,
-            name: 'სათაური',
-            link: '#'
+            name: 'ტექსტური რედაქტორი და  მისი ძირითადი ინსტრუმენტები',
+            link: 'Computer-Science/Class-4/Text-editor-&-tools-7/8.html'
         },
         {
             id: 8,
