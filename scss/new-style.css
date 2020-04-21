@@ -35861,6 +35861,16 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
+.cs-6-2-div-img-8-video {
+  width: 38.72vw;
+  height: 38.28vh;
+}
+
+.cs-6-2-div-img-8-video video {
+  width: 100%;
+  height: 100%;
+}
+
 .conditional-operators_page-5 {
   height: 70vh;
   max-height: 539px;
