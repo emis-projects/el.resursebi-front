@@ -35970,6 +35970,57 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   bottom: 2vh;
 }
 
+.cs-4-7-div-img-20 {
+  height: 57.94vh;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  bottom: 0;
+}
+
+.cs-4-7-div-img-21 {
+  height: 56.64vh;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.cs-4-7-div-img-22 {
+  height: 55.33vh;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  bottom: 0;
+}
+
+.cs-4-7-div-img img {
+  height: 100%;
+}
+
+.background-cs-4-7 {
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-4-7-23 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/Text-editor-&-tools-7/cs-4-7-23-img.svg");
+}
+
+.background-cs-4-7-24 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/Text-editor-&-tools-7/cs-4-7-24-img.svg");
+}
+
+.background-cs-4-7-25 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/Text-editor-&-tools-7/cs-4-7-25-img.svg");
+}
+
+.background-cs-4-7-26 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/Text-editor-&-tools-7/cs-4-7-26-img.svg");
+}
+
 body {
   color: #262626;
   font-size: 14px;
