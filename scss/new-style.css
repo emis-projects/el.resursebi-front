@@ -35234,6 +35234,24 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   padding-top: 10vh;
 }
 
+.class_5_24-img_box_9_1 {
+  height: 34.5vh;
+  max-height: 265px;
+}
+
+.class_5_24-img_box_9_1 img {
+  height: 100%;
+}
+
+.class_5_24-img_box_9_2 {
+  height: 45.96vh;
+  max-height: 353px;
+}
+
+.class_5_24-img_box_9_2 img {
+  height: 100%;
+}
+
 .class_5_24-img_box_10_1 {
   width: 115vh;
   height: 66.15vh;
@@ -35249,24 +35267,6 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .class_5_24-img_box_14_1 img {
-  height: 100%;
-}
-
-.class_5_24-img_box_14_1_1 {
-  height: 34.5vh;
-  max-height: 265px;
-}
-
-.class_5_24-img_box_14_1_1 img {
-  height: 100%;
-}
-
-.class_5_24-img_box_14_1_2 {
-  height: 45.96vh;
-  max-height: 353px;
-}
-
-.class_5_24-img_box_14_1_2 img {
   height: 100%;
 }
 
@@ -35530,6 +35530,126 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .information-data_page-15 img {
+  height: 100%;
+}
+
+.class_5_14-img_box_16 {
+  position: fixed;
+  bottom: 0;
+  margin-left: 7vh;
+}
+
+.class_5_14-img_box_16 img {
+  height: 50.65vh;
+  max-height: 389px;
+}
+
+.class_5_14-img_box_17 {
+  height: 38.15vh;
+  max-height: 293px;
+}
+
+.class_5_14-img_box_17 img {
+  height: 100%;
+}
+
+.class_5_14-title {
+  margin-bottom: 1vh;
+}
+
+.class_5_14-img_box_18 {
+  position: fixed;
+  bottom: 0;
+  height: 81.45vh;
+  max-height: 625.6px;
+}
+
+.class_5_14-img_box_18 img {
+  height: 100%;
+}
+
+.class_5_14-img_box_19 {
+  position: fixed;
+  bottom: 0;
+  height: 30.72vh;
+  max-height: 236px;
+}
+
+.class_5_14-img_box_19 img {
+  height: 100%;
+}
+
+.class_5_14-img_box_20 {
+  height: 7.5vh;
+  max-height: 57.6px;
+}
+
+.class_5_14-img_box_20 img {
+  height: 100%;
+}
+
+.class_5_14-content_item {
+  text-align: center;
+  height: 7.5vh;
+}
+
+.class_5_14-title_20 {
+  font-size: 2vh;
+  font-family: 'DejaVuSans';
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  color: #FFFFFF;
+  width: 80.7vh;
+}
+
+.class_5_14-img_box_20_1 {
+  height: 7.5vh;
+  max-height: 57.6px;
+}
+
+.class_5_14-img_box_20_1 img {
+  height: 100%;
+}
+
+.class_5_14-content_item_1 {
+  text-align: center;
+  height: 7.5vh;
+}
+
+.class_5_14-title_20_1 {
+  font-size: 2vh;
+  font-family: 'DejaVuSans';
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  color: #FFFFFF;
+  width: 43.75vh;
+}
+
+.class_5_14-game_bottom {
+  margin-bottom: -4vh;
+}
+
+.class_5_14-img_box_21 {
+  position: fixed;
+  bottom: 0;
+  height: 53.12vh;
+  max-height: 408px;
+}
+
+.class_5_14-img_box_21 img {
+  height: 100%;
+}
+
+.class_5_14-img_box_23_1 {
+  height: 54.4vh;
+  max-height: 418px;
+}
+
+.class_5_14-img_box_23_1 img {
   height: 100%;
 }
 
