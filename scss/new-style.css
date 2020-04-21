@@ -29242,6 +29242,80 @@ img.mfp-img[alt*=cs-3-6-6-img] {
   background: url("../img/gakvetilebi/Computer-Science/Class-5/Protect-your-data-24/cs-5-24-23.svg") no-repeat center;
 }
 
+.information-data_page-9 {
+  height: 44vh;
+  max-height: 336px;
+}
+.information-data_page-9 img {
+  height: 100%;
+}
+.information-data_btn-box button {
+  box-shadow: 2px 2px 8px rgba(148, 125, 206, 0.4);
+  background: transparent;
+  height: 6.5vh;
+  width: 12vw;
+  border-radius: 20px;
+  max-width: 166px;
+  max-height: 50px;
+  color: #947DCE;
+}
+.information-data_image-box {
+  display: flex;
+  flex-direction: column;
+}
+.information-data_image-box .box {
+  height: 9vh;
+  max-height: 73px;
+  display: flex;
+  justify-content: center;
+}
+.information-data_image-box .box img {
+  height: 100%;
+}
+.information-data_page-11 {
+  height: 44vh;
+  max-height: 340px;
+}
+.information-data_page-11 img {
+  height: 100%;
+}
+.information-data_page-12 {
+  height: 53vh;
+  max-height: 404px;
+  position: fixed;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+}
+.information-data_page-12 img {
+  height: 100%;
+}
+.information-data_page-13 {
+  height: 56vh;
+  max-height: 431px;
+  position: fixed;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+}
+.information-data_page-13 img {
+  height: 100%;
+}
+.information-data_page-14 {
+  height: 30vh;
+  max-height: 232px;
+}
+.information-data_page-14 img {
+  height: 100%;
+}
+.information-data_page-15 {
+  height: 32vh;
+  max-height: 246px;
+}
+.information-data_page-15 img {
+  height: 100%;
+}
+
 body {
   color: #262626;
   font-size: 14px;

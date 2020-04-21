@@ -1,4 +1,90 @@
 .information-data {
   &_page-9 {
+    height: 44vh;
+    max-height: 336px;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &_btn-box button {
+    box-shadow: 2px 2px 8px rgba(148, 125, 206, 0.4);
+    background: transparent;
+    height: 6.5vh;
+    width: 12vw;
+    border-radius: 20px;
+    max-width: 166px;
+    max-height: 50px;
+    color: #947DCE;
+  }
+
+  &_image-box {
+    display: flex;
+    flex-direction: column;
+
+    .box {
+      height: 9vh;
+      max-height: 73px;
+      display: flex;
+      justify-content: center;
+
+      img {
+        height: 100%;
+      }
+    }
+  }
+
+  &_page-11 {
+    height: 44vh;
+    max-height: 340px;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &_page-12 {
+    height: 53vh;
+    max-height: 404px;
+    position: fixed;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &_page-13 {
+    height: 56vh;
+    max-height: 431px;
+    position: fixed;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &_page-14 {
+    height: 30vh;
+    max-height: 232px;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &_page-15 {
+    height: 32vh;
+    max-height: 246px;
+
+    img {
+      height: 100%;
+    }
   }
 }

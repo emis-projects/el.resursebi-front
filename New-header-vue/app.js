@@ -953,13 +953,13 @@ let title = {
         },
         {
             id: 14,
-            name: 'კომპიუტერი 6 კლასი 14 გაკვ',
-            link: '#'
+            name: 'ინფორმაციის ცხრილში აღრიცხვა',
+            link: 'Computer-Science/Class-5/Information-in-the-table-14/1.html'
         },
         {
             id: 15,
-            name: 'ინფორმაციის ცხრილში აღრიცხვა',
-            link: '#'
+            name: '',
+            link: ''
         },
         {
             id: 16,
