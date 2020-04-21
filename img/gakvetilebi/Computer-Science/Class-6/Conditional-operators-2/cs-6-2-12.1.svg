@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="528" height="451.26" viewBox="0 0 528 451.26">
+    <defs>
+        <style>.a{fill:#f5ad43;}.b,.d,.f,.h{fill:#fff;}.b{font-size:21px;}.b,.d,.h,.i{font-family:BPGArial, BPG
+            Arial;}.c{fill:#6eb0d2;}.d{font-size:19px;}.e,.k{fill:none;}.e,.j{stroke:#fff;}.e,.j,.k{stroke-miterlimit:10;}.e{stroke-width:1.137px;}.g{fill:#8f6ef6;}.h,.i{font-size:20px;}.j{fill:#316dc8;}.k{stroke:#785bd3;stroke-width:1.106px;}.l{fill:#5998f7;}
+        </style>
+    </defs>
+    <g transform="translate(-527.836 -255.102)">
+        <path class="a"
+              d="M1041.785,515.15H623.733l-13.822,13.335H588.167l-14.811-12.841H533.948a8.883,8.883,0,0,1-1.467-.438,5.168,5.168,0,0,0-4.645,5.131v37.856a5.187,5.187,0,0,0,5.187,5.187h18.505l14.907,12.64h23.713l13.1-12.64h438.535a5.187,5.187,0,0,0,5.187-5.187V520.337A5.187,5.187,0,0,0,1041.785,515.15Z"
+              transform="translate(0 130.342)"/>
+        <path class="a"
+              d="M1041.785,435.986H626.735l-13.822,13.335H591.17L576.359,436.48H533.948a8.9,8.9,0,0,1-1.467-.44,5.169,5.169,0,0,0-4.645,5.131v37.858a5.186,5.186,0,0,0,5.187,5.185l39.146-1.124,14.907,12.642h22.212c4.367-4.214,7.61-7.3,11.977-11.517h420.52a5.186,5.186,0,0,0,5.187-5.185V441.171A5.186,5.186,0,0,0,1041.785,435.986Z"
+              transform="translate(0 90.663)"/>
+        <path class="a"
+              d="M527.836,299.623V516.307h49.231l-.708-8.782H555.714a4.255,4.255,0,0,1-4.254-4.254V313.721a4.254,4.254,0,0,1,4.254-4.253H576.59l-12.984-9.845Z"
+              transform="translate(0 22.315)"/>
+        <path class="a"
+              d="M527.836,461.368v90.581h34.219l-.709-8.782h-5.633a4.253,4.253,0,0,1-4.254-4.253V475.467a4.255,4.255,0,0,1,4.254-4.254H576.59l-12.984-9.845Z"
+              transform="translate(0 103.385)"/>
+        <path class="a"
+              d="M1050.649,255.1H603.643l-13.82,13.335H566.11L551.3,255.6h-17.35a8.763,8.763,0,0,1-1.467-.44,5.169,5.169,0,0,0-4.645,5.131V326.6a5.187,5.187,0,0,0,5.187,5.187H575.6c4.861,4.214,9.689,9.3,14.55,13.511h23.713c4.367-4.214,7.9-8.428,12.264-12.642l424.519-.869a5.187,5.187,0,0,0,5.187-5.187V260.287A5.186,5.186,0,0,0,1050.649,255.1Z"
+              transform="translate(0 0)"/>
+        <text class="b" transform="translate(546.215 300.932)">
+            <tspan x="-5.25" y="0">if</tspan>
+        </text>
+        <text class="b" transform="translate(558.714 555.067)">
+            <tspan x="-19.262" y="0">else</tspan>
+        </text>
+        <text class="b" transform="translate(1011.006 300.932)">
+            <tspan x="-20.436" y="0">then</tspan>
+        </text>
+        <path class="c" d="M933.376,264.561h-335l-25,23.923,25,23.923h335l25-23.923Z"
+              transform="translate(22.824 4.741)"/>
+        <text class="b" transform="translate(658.449 299.947)">
+            <tspan x="-39.78" y="0">touching</tspan>
+        </text>
+        <text class="d" transform="translate(948.557 297.947)">
+            <tspan x="-5.283" y="0">?</tspan>
+        </text>
+        <rect class="e" width="206.651" height="32.732" rx="10.902" transform="translate(728.011 277.939)"/>
+        <path class="f" d="M780.9,280.432h14.861l-7.07,7.07Z" transform="translate(126.843 12.696)"/>
+        <text class="b" transform="translate(812.182 299.947)">
+            <tspan x="-66.989" y="0">mouse-pointer</tspan>
+        </text>
+        <path class="g"
+              d="M949.6,357.21H629.2l-12.654,12.209H594.837l-13.561-11.756H565.392a8.185,8.185,0,0,1-1.344-.4,4.731,4.731,0,0,0-4.252,4.7v60.706a4.748,4.748,0,0,0,4.748,4.748h16.943l13.349,11.573h21.709l11.995-11.573H949.6a4.748,4.748,0,0,0,4.747-4.748V361.958A4.748,4.748,0,0,0,949.6,357.21Z"
+              transform="translate(16.02 51.179)"/>
+        <text class="h" transform="translate(617.889 449.177)">
+            <tspan x="-32.808" y="0">change</tspan>
+        </text>
+        <text class="h" transform="translate(707.356 447.675)">
+            <tspan x="-21.831" y="0">color</tspan>
+        </text>
+        <text class="h" transform="translate(838.41 448.644)">
+            <tspan x="-37.617" y="0">effect by</tspan>
+        </text>
+        <g transform="translate(893.44 418.338)">
+            <rect class="f" width="58.332" height="48.836" rx="16.266"/>
+            <text class="i" transform="translate(28.157 30.306)">
+                <tspan x="-11.123" y="0">25</tspan>
+            </text>
+        </g>
+        <path class="a"
+              d="M963.191,307.619H615.623q-6.483,6.256-12.968,12.513H580.408l-13.9-12.049H550.232a8.3,8.3,0,0,1-1.377-.413,4.85,4.85,0,0,0-4.358,4.814V374.7a4.866,4.866,0,0,0,4.867,4.867h39.952c4.561,3.953,9.09,8.724,13.651,12.676h22.248c4.1-3.953,7.409-7.907,11.507-11.861l326.47-.815a4.866,4.866,0,0,0,4.865-4.867V312.484A4.865,4.865,0,0,0,963.191,307.619Z"
+              transform="translate(8.351 26.323)"/>
+        <path class="a"
+              d="M966.659,404.917H637.289q-6.485,6.256-12.968,12.513h-20.4l-13.9-12.049H550.232a8.154,8.154,0,0,1-1.377-.413,4.85,4.85,0,0,0-4.358,4.816V445.3a4.866,4.866,0,0,0,4.867,4.865h17.363s11.908,7.907,16.468,11.861h22.25q6.145-5.931,12.292-11.861H966.659a4.865,4.865,0,0,0,4.865-4.865V409.784A4.866,4.866,0,0,0,966.659,404.917Z"
+              transform="translate(8.351 75.091)"/>
+        <text class="b" transform="translate(589.75 378.32)">
+            <tspan x="-5.25" y="0">if</tspan>
+        </text>
+        <path class="a"
+              d="M544.5,349.391v94.846h46.191L590.023,436h-19.37a3.991,3.991,0,0,1-3.99-3.992V362.618a3.99,3.99,0,0,1,3.99-3.99h19.586l-12.181-9.237Z"
+              transform="translate(8.351 47.26)"/>
+        <path class="c" d="M840.471,316.494H624.754L601.3,338.94l23.458,22.446H840.471l23.458-22.446Z"
+              transform="translate(36.82 30.771)"/>
+        <text class="h" transform="translate(722.456 376.394)">
+            <tspan x="-62.495" y="0">touching color</tspan>
+        </text>
+        <text class="d" transform="translate(865.732 373.737)">
+            <tspan x="-5.283" y="0">?</tspan>
+        </text>
+        <rect class="j" width="50.237" height="30.711" rx="10.229" transform="translate(805.46 355.369)"/>
+        <text class="b" transform="translate(935.887 374.236)">
+            <tspan x="-20.436" y="0">then</tspan>
+        </text>
+        <rect class="k" width="104.179" height="41.572" rx="4.082" transform="translate(668.848 422.112)"/>
+        <path class="f" d="M673.619,378.2H688.48l-7.07,6.407Z" transform="translate(73.07 61.699)"/>
+        <g transform="translate(552.452 576.038)">
+            <path class="l"
+                  d="M788.415,468.885H613.636l-12.654,12.209H579.273l-13.561-11.758H549.828a8.036,8.036,0,0,1-1.344-.4,4.733,4.733,0,0,0-4.251,4.7V534.34a4.748,4.748,0,0,0,4.748,4.747h16.943q6.674,5.787,13.349,11.573h21.709q6-5.785,11.995-11.573H788.415a4.748,4.748,0,0,0,4.748-4.747V473.633A4.748,4.748,0,0,0,788.415,468.885Z"
+                  transform="translate(-544.233 -468.885)"/>
+            <text class="d" transform="translate(32.072 41.289)">
+                <tspan x="-23.305" y="0">move</tspan>
+            </text>
+            <text class="h" transform="translate(187.043 40.255)">
+                <tspan x="-23.623" y="0">steps</tspan>
+            </text>
+            <rect class="f" width="58.332" height="48.836" rx="16.266" transform="translate(74.272 9.948)"/>
+            <text class="i" transform="translate(102.429 40.255)">
+                <tspan x="-11.123" y="0">10</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
