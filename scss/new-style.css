@@ -35265,6 +35265,9 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .class_5_24-img_box_9_2 img {
+  height: 100%;
+}
+
 .cs-5-24-div-img-1 {
   height: 57.94vh;
 }
@@ -36142,6 +36145,15 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   margin-top: 5vh;
 }
 
+.class_4_7-img_box_5_1 {
+  height: 37.6vh;
+  max-height: 289px;
+}
+
+.class_4_7-img_box_5_1 img {
+  height: 100%;
+}
+
 .editors_page-8 {
   height: 37vh;
   max-height: 286px;
@@ -36213,6 +36225,51 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .editors_page-14 img {
+  height: 100%;
+}
+
+.class_4_7-img_box_15 {
+  height: 52.4vh;
+  max-height: 402.6px;
+}
+
+.class_4_7-img_box_15 img {
+  height: 100%;
+}
+
+.class_4_7-img_box_16 {
+  height: 52.8vh;
+  max-height: 405.6px;
+}
+
+.class_4_7-img_box_16 img {
+  height: 100%;
+}
+
+.class_4_7-img_box_17 {
+  height: 38vh;
+  max-height: 293px;
+}
+
+.class_4_7-img_box_17 img {
+  height: 100%;
+}
+
+.class_4_7-img_box_18 {
+  height: 33.55vh;
+  max-height: 257.7px;
+}
+
+.class_4_7-img_box_18 img {
+  height: 100%;
+}
+
+.class_4_7-img_box_19 {
+  height: 50.78vh;
+  max-height: 390px;
+}
+
+.class_4_7-img_box_19 img {
   height: 100%;
 }
 
