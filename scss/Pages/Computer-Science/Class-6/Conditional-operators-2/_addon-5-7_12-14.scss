@@ -1,0 +1,66 @@
+.conditional-operators {
+  &_page-5 {
+    height: 70vh;
+    max-height: 539px;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &_page-6 {
+    height: 56vh;
+    max-height: 430px;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &_page-12 {
+    height: 59vh;
+    max-height: 451px;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &_page-13 {
+    height: 77vh;
+    max-height: 588px;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &_page-14 {
+    height: 90vh;
+    max-height: 693px;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &_24-background {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: url("../img/gakvetilebi/Computer-Science/Class-6/Conditional-operators-2/cs-6-2-24.svg") no-repeat center;
+    background-size: cover;
+  }
+
+  &_25-background {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: url("../img/gakvetilebi/Computer-Science/Class-6/Conditional-operators-2/cs-6-2-25.svg") no-repeat center;
+    background-size: cover;
+  }
+}
