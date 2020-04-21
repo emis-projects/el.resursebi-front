@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ka" data-botid="2288">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <!-- ყველა გვერდზე -->
+  <script src="../../../js/vue.js"></script>
+  <!--  ვუე გაშვებისას
+    <script src="./js/vue.min.js"></script>
+     -->
+  <link rel="stylesheet" href="../../../scss/libraries/bootstrap.min.css">
+  <link rel="stylesheet" href="../../../New-header-vue/animate.min.css">
+  <link rel="stylesheet" href="../../../scss/new-style.css" />
+  <title>ელექტრონული საგანმანათლებლო რესურსი</title>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-155006442-1');
+  </script>
+</head>
+
+<body>
+  <div class="container">
+    <section id="app" class="container position-absolute">
+      <header>
+        <app-menu v-logo="'../../../'" :is-active="isActive" :toggle="toggle"></app-menu>
+      </header>
+
+      <app-section v-image="'../../../'" :is-active="isActive">
+        <app-bar :is-active="isActive" :trigger="trigger" :dots="dots" :current-tab="link"
+          v-on:link-tab="link = $event">
+
+        </app-bar>
+        <component :path="path" :is="currentTabComponent" :is-active="isActive" :trigger="trigger" :images="images"
+          :active-class="activeClass" :tab-class="currentTabComponent">
+        </component>
+      </app-section>
+    </section>
+    <section id="mainPage">
+      <div class="row">
+        <div class="col-5 ">
+          <div class="newDesign_subject_question_item ">
+            <img src="../../../img/icons/newDesign_btn-yellow.svg" alt="img"
+              class="newDesign_subject_question_item-img">
+            <p class="newDesign_subject_question_item-title">
+              ობიექტის ან ფაილის სახელში ყოველთვის არ 
+              ჩანს მისი ტიპი.
+            </p>
+          </div>
+          <div class="newDesign_subject_question_item">
+            <img src="../../../img/icons/newDesign_btn-yellow.svg" alt="img"
+              class="newDesign_subject_question_item-img">
+            <p class="newDesign_subject_question_item-title">
+              ობიექტის ტიპის დასადგენად საჭიროა:
+            </p>
+          </div>
+          <div class="newDesign_subject_question_item">
+            <img src="../../../img/icons/newDesign_btn-yellow.svg" alt="img"
+              class="newDesign_subject_question_item-img">
+            <p class="newDesign_subject_question_item-title">
+              დავდგეთ ამ ობიექტზე;
+            </p>
+          </div>
+          <div class="newDesign_subject_question_item">
+            <img src="../../../img/icons/newDesign_btn-yellow.svg" alt="img"
+              class="newDesign_subject_question_item-img">
+            <p class="newDesign_subject_question_item-title">
+              თაგუნას მარცხენა ღილაკის საშუალებით  
+              გავხსნათ კონტექსტური მენიუს ფანჯარა;
+            </p>
+          </div>
+          <div class="newDesign_subject_question_item">
+            <img src="../../../img/icons/newDesign_btn-yellow.svg" alt="img"
+              class="newDesign_subject_question_item-img">
+            <p class="newDesign_subject_question_item-title">
+              ავირჩიოთ თვისებები;
+            </p>
+          </div>
+          <div class="newDesign_subject_question_item">
+            <img src="../../../img/icons/newDesign_btn-yellow.svg" alt="img"
+              class="newDesign_subject_question_item-img">
+            <p class="newDesign_subject_question_item-title">
+              ფაილის აიქონის ქვეშ არის ველი, რომელშიც </br>
+              წერია ფაილის ტიპი.
+            </p>
+          </div>
+          <div class="newDesign_subject_question_item">
+            <img src="../../../img/icons/newDesign_btn-yellow.svg" alt="img"
+              class="newDesign_subject_question_item-img">
+            <p class="newDesign_subject_question_item-title">
+              ამ ინსტრუქციის გამოყენებით დაადგინე შენი  
+              კომპიუტერის სამუშაო დაფაზე არსებული  რამდენიმე ობიექტის ტიპი.
+            </p>
+          </div>
+        </div>
+        <div class="col-6 cs-5-14-div-img-8 cs-5-14-div-img offset-1 d-flex justify-content-center mt-2vh">
+          <img src="../../../img/gakvetilebi/Computer-Science/Class-5/Information-in-the-table-14/cs-5-14-8-img.png" alt="img"
+            >
+        </div>
+      </div>
+
+      <div class="left_components_paging-cont" id="leftNav">
+        <left-nav-item></left-nav-item>
+      </div>
+
+      <div class="our__pagination flex">
+        <a href="#" class="pagination__prev__btn">
+          <img style="transform: rotate(180deg)" src="../../../img/icons/chevron-left-icon.svg" alt="">
+        </a>
+
+        <div id="pagination" class="flex align-items-center"></div>
+
+        <a href="#" class="pagination__next__btn">
+          <img src="../../../img/icons/chevron-left-icon.svg" alt="">
+        </a>
+      </div>
+
+    </section>
+  </div>
+
+
+  <!-- ჩეთბოტი -->
+  <div id="chatBot">
+    <app-bot></app-bot>
+  </div>
+
+  <script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
+  <script src="../../../js/libraries/jquery.magnific-popup.min.js"></script>
+  <script src="../../../js/Pagination.js"></script>
+
+
+  <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
+  <script src="../../../New-header-vue/app.js"></script>
+  <script src="../../../Vue-chatBot/botApp.js"></script>
+  <script src="../../../js/bot.js"></script>
+
+
+</body>
+
+</html>
