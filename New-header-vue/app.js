@@ -958,8 +958,8 @@ let title = {
         },
         {
             id: 15,
-            name: '',
-            link: ''
+            name: 'ცხრილებთან მუშაობა',
+            link: 'Computer-Science/Class-5/Working-with-tables-15/1.html'
         },
         {
             id: 16,
