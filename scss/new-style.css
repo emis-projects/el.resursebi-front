@@ -35658,56 +35658,6 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
-.class_5_14-img_box_20 {
-  height: 7.5vh;
-  max-height: 57.6px;
-}
-
-.class_5_14-img_box_20 img {
-  height: 100%;
-}
-
-.class_5_14-content_item {
-  text-align: center;
-  height: 7.5vh;
-}
-
-.class_5_14-title_20 {
-  font-size: 2vh;
-  font-family: 'DejaVuSans';
-  position: absolute;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-  color: #FFFFFF;
-  width: 80.7vh;
-}
-
-.class_5_14-img_box_20_1 {
-  height: 7.5vh;
-  max-height: 57.6px;
-}
-
-.class_5_14-img_box_20_1 img {
-  height: 100%;
-}
-
-.class_5_14-content_item_1 {
-  text-align: center;
-  height: 7.5vh;
-}
-
-.class_5_14-title_20_1 {
-  font-size: 2vh;
-  font-family: 'DejaVuSans';
-  position: absolute;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-  color: #FFFFFF;
-  width: 43.75vh;
-}
-
 .class_5_14-game_bottom {
   margin-bottom: -4vh;
 }
@@ -35721,6 +35671,53 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .class_5_14-img_box_21 img {
   height: 100%;
+}
+
+.offset_20 {
+  margin-left: 0 !important;
+}
+
+.class_5_14-bg-box {
+  height: 7.5vh;
+  max-height: 58px;
+  width: 39vw;
+  max-width: 560px;
+  color: #ffffff;
+}
+
+.class_5_14-bg-box p {
+  padding: 0 5vh;
+  line-height: 2.5vh;
+}
+
+.class_5_14-bg-box-blue {
+  height: inherit;
+  background: url("../../../../../img/gakvetilebi/Computer-Science/Class-5/Information-in-the-table-14/C-5-14-20-1.svg") no-repeat center;
+  background-size: contain;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.class_5_14-bg-box-pink {
+  height: inherit;
+  background: url("../../../../../img/gakvetilebi/Computer-Science/Class-5/Information-in-the-table-14/C-5-14-20-2.svg") no-repeat center;
+  background-size: contain;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .class_5_14-img_box_23_1 {
