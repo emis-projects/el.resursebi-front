@@ -39,7 +39,7 @@
                         :dots="dots"
                         :current-tab="link"
                         v-on:link-tab="link = $event">
-    
+
                 </app-bar>
                 <component
                         :path="path"
@@ -50,6 +50,7 @@
                         :active-class="activeClass"
                         :tab-class="currentTabComponent">
                 </component>
+                <app-info :path="path" v-if="isInfo"></app-info>
             </app-section>
         </section>
 

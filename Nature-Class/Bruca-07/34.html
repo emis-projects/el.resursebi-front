@@ -53,7 +53,8 @@
                     :active-class="activeClass"
                     :tab-class="currentTabComponent">
             </component>
-            </app-section>
+            <app-info :path="path" v-if="isInfo"></app-info>
+        </app-section>
         </section>
 
         <section id="mainPage">

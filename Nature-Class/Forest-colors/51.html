@@ -55,6 +55,7 @@
                     :tab-class="currentTabComponent"
                     :trigger="trigger">
             </component>
+            <app-info :path="path" v-if="isInfo"></app-info>
         </app-section>
     </section>
     <div class="left_components_paging-cont">
