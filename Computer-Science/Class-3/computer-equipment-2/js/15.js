@@ -5,7 +5,7 @@ function game(){
     
     // variables
     let dragElement1 = document.querySelectorAll('.DragGame—childs1');
-    let cloned = document.querySelectorAll('.sign-description-btn img');
+    let cloned = document.querySelectorAll('.sign-description-btn');
     let dragElement2 = document.querySelectorAll('.DragGame—childs2');
     let resetBtn = document.getElementById('resetBtn');
     let completedGame = document.getElementById('completedGame');
@@ -13,7 +13,6 @@ function game(){
 
     $(dragElement2).on('dragstart', (e) => this.dragStart(e));
     $(dragElement2).on('dragend', (e) => this.dragEnd(e));
-
 
 
     // Loop through empty boxes and add listeners
@@ -126,9 +125,15 @@ function game(){
     
 
     this.resetGame = () => {
-        dragElement1MyArray.forEach(w => {
-            document.querySelector('.DragGame—reset--parent').append(w)
-        });
+        // document.querySelector('.DragGame—reset--parent').innerHTML = ''
+
+        cloned[0].appendChild(document.querySelector('.cs-3-2-15--1'))
+        cloned[1].appendChild(document.querySelector('.cs-3-2-15--2'))
+        cloned[2].appendChild(document.querySelector('.cs-3-2-15--3'))
+        cloned[3].appendChild(document.querySelector('.cs-3-2-15--4'))
+        cloned[4].appendChild(document.querySelector('.cs-3-2-15--5'))
+        cloned[5].appendChild(document.querySelector('.cs-3-2-15--6'))
+
 
         $(dragElement1).removeClass('error');
         $(dragElement1).removeClass('success');
