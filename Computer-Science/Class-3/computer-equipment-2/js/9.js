@@ -59,10 +59,8 @@ function natureGames() {
     this.checkEveryElement = (element) => element.getAttribute('data-place') == element.parentElement.getAttribute('data-place');
 
     this.completGame = (e) => {
-        var count = 0;
         myArray.forEach(element => {
             if (element.getAttribute('data-place') == element.parentElement.getAttribute('data-place')) {
-                count++;
                 element.style.border = "3px solid #a1dd6f";
             }
             if (element.getAttribute('data-place') != element.parentElement.getAttribute('data-place')
