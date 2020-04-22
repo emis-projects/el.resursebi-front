@@ -34560,10 +34560,79 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 .Class_3_2-img-9_1 {
   height: 56.77vh;
   max-height: 436px;
+  border: 2px solid #36475A;
+  border-radius: 12.5px;
+  position: relative;
 }
 
-.Class_3_2-img-9_1 img {
-  height: 100%;
+.Class_3_2-img-9_1::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  background-color: #36475A;
+  width: 2px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.Class_3_2-img-9_1 .c-s-3-2-9Game-left {
+  width: 50%;
+  height: 83%;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.Class_3_2-img-9_1 .c-s-3-2-9Game-left img {
+  width: 30%;
+}
+
+.Class_3_2-img-9_1 .c-s-3-2-9Game-right {
+  width: 50%;
+  height: 83%;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.Class_3_2-img-9_1 .c-s-3-2-9Game-right img {
+  width: 30%;
+}
+
+.Class_3_2-img-9_1 .c-s-3-2-9Game-topSec {
+  padding: 3vh 0;
+  border-bottom: 2px solid #36475A;
+}
+
+.Class_3_2-img-9_1 .c-s-3-2-9Game-topSec div {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .Class_3_2-img-9-1 {
@@ -38291,4 +38360,3 @@ body {
     font-size: 14px;
   }
 }
-/*# sourceMappingURL=new-style.css.map */

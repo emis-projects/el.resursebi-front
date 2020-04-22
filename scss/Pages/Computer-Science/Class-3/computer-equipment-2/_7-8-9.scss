@@ -84,8 +84,60 @@
     &-img-9_1 {
         height: 56.77vh;
         max-height: 436px;
-        img {
-            height: 100%;
+        border: 2px solid #36475A;
+        border-radius: 12.5px;
+        position: relative;
+
+        &::after {
+            content: '';
+            position: absolute;
+            left: 50%;
+            top: 0;
+            bottom: 0;
+            background-color: #36475A;
+            width: 2px;
+            transform: translateX(-50%);
+        }
+
+        .c-s-3-2-9Game-left {
+            width: 50%;
+            height: 83%;
+            padding-left: 10px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            display: flex;
+            align-items: flex-start;
+            flex-wrap: wrap;
+
+            img {
+                width: 30%;
+            }
+        }
+
+        .c-s-3-2-9Game-right {
+            width: 50%;
+            height: 83%;
+            padding-left: 10px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            display: flex;
+            align-items: flex-start;
+            flex-wrap: wrap;
+
+            img {
+                width: 30%;
+            }
+        }
+        
+        .c-s-3-2-9Game-topSec {
+            padding: 3vh 0;
+            border-bottom: 2px solid #36475A;
+            div {
+                width: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
         }
     }
     &-img-9-1 {
