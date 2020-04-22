@@ -51,7 +51,7 @@ function natureGames() {
             e.target.appendChild(clone);
             $(clone).removeClass('draggedElement')
             clone.classList.add("clone");
-            clone.setAttribute('style', "height: 90%; width: initial")
+            clone.setAttribute('style', "height: 45%; width: initial")
             //clone.style += "height: 50%; height: 50%; top: initial; left: initial; right: initial; bottom: initial; width: 30%;";
         }
     }
