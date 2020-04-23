@@ -44,6 +44,7 @@
             <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive"
                        :path="path" :tab-class="currentTabComponent" :trigger="trigger">
             </component>
+            <app-info :path="path" v-if="isInfo"></app-info>
         </app-section>
     </section>
     <section id="mainPage">

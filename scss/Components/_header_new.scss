@@ -20,6 +20,13 @@ header {
         height: 100%;
       }
     }
+
+    .info {
+      color: #7FD1D8;
+      font-weight: bold;
+      font-size: 18px;
+    }
+
   }
 
   .sound_box {
@@ -181,4 +188,59 @@ body {
   left: 0;
   right: 0;
   top: 0;
+}
+
+.info-box {
+  margin-top: 5vh;
+
+  a {
+    color: #0B2228;
+  }
+
+  p {
+    color: #0B2228;
+  }
+
+  .element-box {
+    height: 7.8vh;
+    width: 7.8vh;
+    max-height: 54px;
+    max-width: 54px;
+  }
+
+  .section_pagination {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 5vh;
+
+    .side-margin {
+      margin: 0 2rem;
+    }
+  }
+
+  span.title {
+    &-pink {
+      color: #DC6C85;
+      font-weight: bolder;
+    }
+
+    &-blue {
+      color: #7FD1D8;
+      font-weight: bolder;
+    }
+  }
+
+  .current__pagination {
+    max-height: 36px;
+    max-width: 36px;
+  }
+
+  .pagination__prev__btn img {
+    transform: rotate(180deg);
+  }
+
+  .pagination__next__btn {
+    margin-left: 0;
+  }
 }

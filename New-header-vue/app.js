@@ -1,6 +1,6 @@
 // directive გადაემა html კომპონენტში
 Vue.directive('logo', {
-    bind(el, binding) {
+    bind: function (el, binding, vnode) {
         const header = el.querySelector('.header-logo');
         const logo = el.querySelector('.logo');
         const sound = el.querySelectorAll('.sound img');
@@ -13,6 +13,7 @@ Vue.directive('logo', {
             }
         });
         // ლოგოს path მიბმა
+        console.log(el, binding, vnode.context.$data)
         header.href = binding.value + 'index.html';
         logo.src = binding.value + 'New-header-vue/header-img/Header-logo.svg';
     }
@@ -52,6 +53,10 @@ Vue.component('appMenu', {
         toggle: {
             type: Function,
             required: true
+        },
+        info: {
+            type: Function,
+            required: true
         }
     },
     template: `
@@ -74,7 +79,8 @@ Vue.component('appMenu', {
                 <img v-show="!isShow" class="off animated.fast" :class="{flipInX: isShow, flipInX: !isShow}" alt="sound">
             </div>
           </li>
-          <li
+          <!--ენის -->
+          <!--<li
             @click="show = !show"
             class="nav-item"
             @mouseover="langHover = true"
@@ -87,6 +93,18 @@ Vue.component('appMenu', {
                 <div v-if="show" class="text" key="eng">Eng</div>
                 <div v-else class="text" key="geo">ქარ</div>
             </transition>
+            </div>
+          </li>-->
+          <li 
+             class="nav-item"
+             @mouseover="langHover = true"
+             @mouseleave="langHover = false"
+             @click="info"
+          >
+            <div class="lang-box d-flex justify-content-center align-items-center"
+                :class="[langHover ? 'lang-box_active' : 'lang-box_passive']"
+             >
+             <div class="info">?</div>
             </div>
           </li>
           <li
@@ -110,14 +128,19 @@ Vue.component('appMenu', {
              </div>
           </li>
         </ul>
-   </div>
-    `
+   </div> `
 });
+
+//Vue.component('appInfo')
 
 //section component სექციის კომპონენტი (გენერირდება დინამიურად)
 Vue.component('appSection', {
     props: {
         isActive: {
+            type: Boolean,
+            required: true
+        },
+        isInfo: {
             type: Boolean,
             required: true
         }
@@ -133,7 +156,7 @@ Vue.component('appSection', {
                     leave-active-class="animated fadeOut"
                     :duration="750"
                     mode="out-in">
-                    <div v-show="isActive" class="bg_menu"></div>
+                    <div v-show="isActive || isInfo" class="bg_menu"></div>
                 </transition>
             </div>
 
@@ -160,7 +183,7 @@ Vue.component('appBar', {
             leave-active-class="animated fadeOutUp"
             :duration="1000"
             mode="out-in">
-                  <div v-show="isActive" class="top-bar">
+                  <div v-if="isActive" class="top-bar">
                   <!--todo ბარის ნავიგაცია(4 სექციით ჯერ მხოლოდ 2 მუშაობს)
                       იკონკები გენერირდება დინამიურად კლასით (დასრულებულია)
                     -->
@@ -174,7 +197,146 @@ Vue.component('appBar', {
         </transition>
     `
 });
-
+// info seqciis გენერირება
+Vue.component('appInfo', {
+    props: {
+        path: {
+            type: String,
+            required: true
+        }
+    },
+    data() {
+        return {
+            currentPage: 1
+        }
+    },
+    template: `<div class="row info-box">
+                   <div class="col-12">
+                        <transition
+                            enter-active-class="animated flipInX"
+                            leave-active-class="animated fadeOut"
+                            :duration="750"
+                            mode="out-in"
+                            tag="div"
+                            appear
+                        >
+                            <div class="row" v-if="currentPage === 1" :key="1">
+                                <div class="col-9 m-auto">
+                                     <p class="dj-2_3vh">ვებგვერდზე განთავსებული დამხმარე ელექტრონული რესურსები შექმნილია I-VI კლასის სასკოლო პროგრამის შესაბამისად და ე
+                                     მსახურება სასწავლო პროცესში მოსწავლეთა ჩართულობის გაზრდას. ყოველი თემა მოიცავს რამდენიმე ნაბიჯსა და კომპლექსურ დავალებას. 
+                                     მოსწავლის მიზანია, ნაბიჯების გავლისას მოაგროვოს საკმარისი ცოდნა, რომელსაც გამოიყენებს საბოლოო, რამდენიმეკომპონენტიანი კომპლექსური დავალების შესასრულებლად. 
+                                     რესურსები მოიცავს სხვადასხვა თამაშსა და სახალისო აქტივობას. ვებგვერდზე ჩაშენებულია ჩეთბოტის ფანჯარა. 
+                                     მისი დახმარებით მოსწავლეებსა და მასწავლებლებს საშუალება აქვთ, გაესაუბრონ ხელოვნურ ინტელექტს, დასვან კითხვები რესურსების თემატიკაზე და მიიღონ პასუხები.</p>
+                                </div>
+                                <div class="col-10 m-auto">
+                                    <h1 class="alk-san_2-6vh mt-5vh text-center">ელექტრონული საგანმანათლებლო რესურსების ძირითადი კომპონენტები</h1>
+                                </div>
+                                <div class="col-11 m-auto">
+                                     <div class="row mt-5vh">
+                                         <div class="col-1">
+                                             <div class="element-box">
+                                                 <img :src="path+'New-header-vue/header-img/step.png'" alt="step" class="img-fluid">
+                                             </div>
+                                         </div>
+                                         <div class="col-10">
+                                             <p class="dj-2_3vh"><span class="title-pink dj-2_3vh">ნაბიჯი</span> — შეადგენს ელექტრონული რესურსის ძირითად ნაწილს. ნაბიჯი მოიცავს მასალას, რომელიც კლასში მუშავდება, 
+                                             ის შედგება კონკრეტულ საგნობრივ საკითხებთან დაკავშირებული შინაარსობრივი ბლოკებისგან. ერთი ნაბიჯი შეიძლება განხორციელდეს ერთი ან რამდენიმე გაკვეთილის განმავლობაში. 
+                                             ნაბიჯიდან, თავის მხრივ, შეეგვილია, გადავიდეთ სავარჯიშოზე, მინიშნებაზე ან შუალედურ დავალებაზე.</p>
+                                         </div>
+                                     </div>
+                                </div>
+                            </div>
+                            <div class="row" v-if="currentPage === 2" :key="2">
+                                <div class="col-11 m-auto">
+                                    <div class="row">
+                                         <div class="col-1">
+                                            <div class="element-box">
+                                                <img :src="path+'New-header-vue/header-img/task.png'" alt="task" class="img-fluid">
+                                            </div>
+                                         </div>
+                                         <div class="col-10">
+                                            <p class="dj-2_3vh"><span class="title-pink dj-2_3vh">სავარჯიშო</span> — პატარა კომპიუტერული თამაში, რომელიც ერთი კონკრეტული ამოცანის ამოხსნაზე ან საკითხის შესწავლაზე არის ორიენტირებული. 
+                                            მაგალითად, შედგენილი ფერების შექმნა ძირითადი ფერებისგან. სავარჯიშო არის ელექტრონულად შესასრულებელი სამუშაო.</p>
+                                         </div>
+                                    </div>
+                                </div>
+                                <div class="col-11 m-auto">
+                                    <div class="row mt-5vh">
+                                         <div class="col-1">
+                                            <div class="element-box">
+                                                <img :src="path+'New-header-vue/header-img/intermediate.png'" alt="task" class="img-fluid">
+                                            </div>
+                                         </div>
+                                         <div class="col-10">
+                                            <p class="dj-2_3vh"><span class="title-pink dj-2_3vh">შუალედური დავალება</span> — მოყვება ნაბიჯს ან სავარჯიშოს. შუალედური დავალება ელექტრონულად შესასრულებელი სავარჯიშოსგან განსხვავებულია, 
+                                            გულისხმობს ღია ტიპის შეკითხვებს ან ისეთ აქტივობებს, რომლებიც არაელექტრონულ ფორმატში სრულდება.</p>
+                                         </div>
+                                    </div>
+                                </div>
+                                <div class="col-11 m-auto">
+                                    <div class="row mt-5vh">
+                                         <div class="col-1">
+                                            <div class="element-box">
+                                                <img :src="path+'New-header-vue/header-img/hint.png'" alt="task" class="img-fluid">
+                                            </div>
+                                         </div>
+                                         <div class="col-10">
+                                            <p class="dj-2_3vh"><span class="title-blue dj-2_3vh">მინიშნება</span> — ასრულებს ერთგვარი ინტერაქტიული ლექსიკონის ფუნქციას, რომელშიც ესა თუ ის საკითხი იქნება განმარტებული, 
+                                            მინიშნებული, მაგალითად, რომელია ძირითადი ფერები. სავარჯიშოსგან განსხვავებით აქ ბავშვი მხოლოდ ინფორმაციას მიიღებს.</p>
+                                         </div>
+                                    </div>
+                                </div>
+                                <div class="col-11 m-auto">
+                                    <div class="row mt-5vh">
+                                         <div class="col-1">
+                                            <div class="element-box">
+                                                <img :src="path+'New-header-vue/header-img/compl-task.png'" alt="task" class="img-fluid">
+                                            </div>
+                                         </div>
+                                         <div class="col-10">
+                                            <p class="dj-2_3vh"><span class="title-blue dj-2_3vh">კომპლექსური დავალება</span> — მოსდევს სხვა აქტივობებს და განთავსებულია ბოლოში. კომპლექსური დავალება არის რესურსის ძირითადი კომპონენტი,
+                                             რომლის შესრულებისასაც მოსწავლეებმა აქტივობებისას მიღებული ცოდნა უნდა გააერთიანონ.</p>
+                                         </div>
+                                    </div>
+                                </div>
+                                <div class="col-11 m-auto">
+                                    <div class="row mt-5vh">
+                                         <div class="col-1">
+                                            <div class="element-box">
+                                                <img :src="path+'New-header-vue/header-img/video-inst.png'" alt="task" class="img-fluid">
+                                            </div>
+                                         </div>
+                                         <div class="col-10">
+                                            <p class="dj-2_3vh"><span class="title-blue dj-2_3vh">ვიდეო ინსტრუქცია</span><br/> <a class="dj-2_3vh" href="https://youtu.be/7P4U16oh07Y">https://youtu.be/7P4U16oh07Y</a></p>
+                                         </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </transition>
+                   </div>
+                   <div class="col-2 m-auto section_pagination">
+                       <div class="d-flex justify-content-between align-items-center side-margin">
+                           <div class="pagination__prev__btn" @click="currentPage--" v-if="currentPage !== 1">
+                               <img alt="next" :src="path + '/img/icons/chevron-left-icon.svg'">
+                           </div>
+                           <div class="pagination__item d-flex justify-content-center align-items-center" v-if="currentPage !==1">
+                               <div class="pagination__dot"></div>
+                           </div>
+                           <div class="flex align-items-center" id="pagination">
+                               <div class="pagination__item">
+                                   <div class="current__pagination" >{{ currentPage }}</div>
+                               </div>
+                           </div>
+                           <div class="pagination__item d-flex justify-content-center align-items-center" v-if="currentPage !==2">
+                               <div class="pagination__dot"></div>
+                           </div>
+                           <div class="pagination__next__btn" @click="currentPage++" v-if="currentPage !== 2">
+                               <img alt="next" :src="path + 'img/icons/chevron-left-icon.svg'">
+                           </div>
+                       </div>
+                   </div>
+               </div>`
+})
 //appStart საგნების ასარჩევი კომპონენტი
 Vue.component('appStart', {
     props: {
@@ -472,9 +634,10 @@ var app = new Vue({
                 classActive: false
             }
         ],
-        activeClass: ''
+        activeClass: '',
+        isInfo: false
     },
-    // trigger menu button & menu panels
+    //trigger menu button & menu panels
     methods: {
         toggle() {
             this.isActive = !this.isActive;
@@ -491,6 +654,9 @@ var app = new Vue({
             });
             this.link = 'start';
             this.activeClass = '';
+        },
+        info() {
+            this.isInfo = !this.isInfo
         },
 
         /*
@@ -515,11 +681,7 @@ var app = new Vue({
         // აგენერირებს პომპონენტებს დინამიურად
         currentTabComponent() {
             this.dots.forEach(dot => {
-                if (dot.name === this.link.toLowerCase()) {
-                    dot.classActive = true;
-                } else {
-                    dot.classActive = false;
-                }
+                dot.classActive = dot.name === this.link.toLowerCase();
             });
             return 'app-' + this.link.toLowerCase();
         }

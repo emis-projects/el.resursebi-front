@@ -39,13 +39,14 @@
       </header>
 
       <app-section v-image="'../../'" :is-active="isActive">
-        <app-bar :is-active="isActive" :trigger="trigger"  :dots="dots" :current-tab="link"
-          v-on:link-tab="link = $event">
+          <app-bar :is-active="isActive" :trigger="trigger" :dots="dots" :current-tab="link"
+                   v-on:link-tab="link = $event">
 
-        </app-bar>
-        <component :is="currentTabComponent" :is-active="isActive" :path="path" :trigger="trigger" :images="images"
-          :active-class="activeClass" :tab-class="currentTabComponent">
-        </component>
+          </app-bar>
+          <component :is="currentTabComponent" :is-active="isActive" :path="path" :trigger="trigger" :images="images"
+                     :active-class="activeClass" :tab-class="currentTabComponent">
+          </component>
+          <app-info :path="path" v-if="isInfo"></app-info>
       </app-section>
     </section>
     <section id="mainPage">
