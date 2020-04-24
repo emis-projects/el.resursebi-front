@@ -26,18 +26,18 @@
     <div class="container calm-stormy-46">
         <section class="container position-absolute" id="app">
             <header>
-                <app-menu :is-active="isActive" :toggle="toggle" v-logo="'../../'"></app-menu>
+                <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../'"></app-menu>
             </header>
 
-            <app-section :is-active="isActive" v-image="'../../'">
+            <app-section :is-active="isActive" :is-info="isInfo" v-image="'../../'">
                 <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger"
                          v-on:link-tab="link = $event">
 
                 </app-bar>
                 <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive"
-                           :path="path" :tab-class="currentTabComponent" :trigger="trigger">
+                           :is-info="isInfo" :path="path" :tab-class="currentTabComponent" :trigger="trigger">
                 </component>
-                <app-info :path="path" v-if="isInfo"></app-info>
+
             </app-section>
         </section>
         <section id="mainPage">

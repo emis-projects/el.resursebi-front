@@ -786,7 +786,6 @@
   font-style: normal;
   font-display: block;
 }
-
 [class^=icon-], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: "icomoon" !important;
@@ -900,7 +899,6 @@
   font-weight: normal;
   font-style: normal;
 }
-
 [class^=arrow-]:before, [class*=" arrow-"]:before {
   font-family: "fontello";
   font-style: normal;
@@ -1135,18 +1133,15 @@ header .navbar .header-logo {
   display: flex;
   align-items: center;
 }
-
 header .navbar .header-logo img {
   max-height: 42px;
   height: 100%;
 }
-
 header .navbar .info {
   color: #7FD1D8;
   font-weight: bold;
   font-size: 18px;
 }
-
 header .sound_box {
   background-size: contain;
   background-repeat: no-repeat;
@@ -1287,54 +1282,48 @@ body {
 }
 
 .info-box {
-  margin-top: 5vh;
+    height: 84vh;
+    margin-top: 3vh;
+    position: relative;
+    z-index: 9999999;
+    background: #fff;
 }
-
 .info-box a {
   color: #0B2228;
 }
-
 .info-box p {
   color: #0B2228;
 }
-
 .info-box .element-box {
   height: 7.8vh;
   width: 7.8vh;
   max-height: 54px;
   max-width: 54px;
 }
-
 .info-box .section_pagination {
   position: fixed;
   left: 0;
   right: 0;
   bottom: 5vh;
 }
-
 .info-box .section_pagination .side-margin {
   margin: 0 2rem;
 }
-
 .info-box span.title-pink {
   color: #DC6C85;
   font-weight: bolder;
 }
-
 .info-box span.title-blue {
   color: #7FD1D8;
   font-weight: bolder;
 }
-
 .info-box .current__pagination {
   max-height: 36px;
   max-width: 36px;
 }
-
 .info-box .pagination__prev__btn img {
   transform: rotate(180deg);
 }
-
 .info-box .pagination__next__btn {
   margin-left: 0;
 }
@@ -1636,13 +1625,13 @@ body {
 }
 
 #app .bg_menu {
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  background: #fff;
-  z-index: 5;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #fff;
+    z-index: 99999;
 }
 #app .class-pagination div {
   box-shadow: 0 3px 6px #7fd1d8;
@@ -8643,9 +8632,9 @@ section .arrow_up_down_downArrow img {
 }
 
 .m_exercise_text-container_16px {
-  color: #0B2228;
-  font-size: 2.08 h;
-  font-family: "BPG Arial";
+    color: #0B2228;
+    font-size: 2.08 h;
+    font-family: "BPG Arial";
 }
 
 .music-andantino-lyrics-div {

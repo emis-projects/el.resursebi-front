@@ -34,21 +34,21 @@
 <body>
   <div class="container">
     <section id="app" class="container position-absolute">
-      <header>
-        <app-menu v-logo="'../../'" :is-active="isActive" :toggle="toggle"></app-menu>
-      </header>
+        <header>
+            <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../'"></app-menu>
+        </header>
 
-      <app-section v-image="'../../'" :is-active="isActive">
-        <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger"
-                 v-on:link-tab="link = $event">
+        <app-section :is-active="isActive" :is-info="isInfo" v-image="'../../'">
+            <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger"
+                     v-on:link-tab="link = $event">
 
-        </app-bar>
-        <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive"
-                   :path="path"
-                   :tab-class="currentTabComponent" :trigger="trigger">
-        </component>
-        <app-info :path="path" v-if="isInfo"></app-info>
-      </app-section>
+            </app-bar>
+            <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive"
+                       :is-info="isInfo"
+                       :path="path" :tab-class="currentTabComponent"> :trigger="trigger">
+            </component>
+
+        </app-section>
     </section>
     <section id="mainPage">
       <div class="row">
