@@ -3,52 +3,50 @@
 <html lang="ka" data-botid="2318">
 
 <head>
-      <meta charset="UTF-8" />
-      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta charset="UTF-8"/>
+    <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
 
-      <!-- ყველა გვერდზე -->
-      <script src="./js/vue_dev.js"></script>
+    <!-- ყველა გვერდზე -->
+    <script src="./js/vue_dev.js"></script>
 
-      <link rel="stylesheet" href="./scss/libraries/bootstrap.min.css">
-      <link rel="stylesheet" type="text/css" href="./scss/libraries/owl.carousel.min.css" />
-      <link rel="stylesheet" type="text/css" href="./scss/libraries/owl.theme.default.css" />
-      <link rel="stylesheet" href="./New-header-vue/animate.min.css">
-      <link rel="stylesheet" href="./scss/new-style.css" />
-      <title>ელექტრონული საგანმანათლებლო რესურსი</title>
-      <!-- Global site tag (gtag.js) - Google Analytics -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
-      <script>
-            window.dataLayer = window.dataLayer || [];
+    <link href="./scss/libraries/bootstrap.min.css" rel="stylesheet">
+    <link href="./scss/libraries/owl.carousel.min.css" rel="stylesheet" type="text/css"/>
+    <link href="./scss/libraries/owl.theme.default.css" rel="stylesheet" type="text/css"/>
+    <link href="./New-header-vue/animate.min.css" rel="stylesheet">
+    <link href="./scss/new-style.css" rel="stylesheet"/>
+    <title>ელექტრონული საგანმანათლებლო რესურსი</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-            function gtag() {
-                  dataLayer.push(arguments);
-            }
+        function gtag() {
+            dataLayer.push(arguments);
+        }
 
-            gtag('js', new Date());
+        gtag('js', new Date());
 
-            gtag('config', 'UA-155006442-1');
-      </script>
+        gtag('config', 'UA-155006442-1');
+    </script>
 </head>
 
 <body>
-      <div class="container main-box_relative">
-            <section id="app" class="position-absolute">
-                  <header>
-                        <app-menu v-logo="'./'" :is-active="isActive" :toggle="toggle" :info="info"></app-menu>
-                  </header>
+<div class="container main-box_relative">
+    <section class="position-absolute" id="app">
+        <header>
+            <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'./'"></app-menu>
+        </header>
 
-                  <app-section v-image="'./'" :is-active="isActive" :is-info="isInfo">
-                        <app-bar :is-active="isActive" :trigger="trigger" :dots="dots" :current-tab="link"
-                                 v-on:link-tab="link = $event">
+        <app-section :is-active="isActive" :is-info="isInfo" v-image="'./'">
+            <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger"
+                     v-on:link-tab="link = $event">
 
-                        </app-bar>
-                        <component :path="path" :is="currentTabComponent" :is-active="isActive" :trigger="trigger"
-                                   :images="images" :active-class="activeClass" :tab-class="currentTabComponent">
-                        </component>
-                        <app-info v-if="isInfo" :path="path"></app-info>
-                  <app-info :path="path" v-if="isInfo"></app-info>
-                  </app-section>
-            </section>
+            </app-bar>
+            <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive"
+                       :is-info="isInfo" :path="path" :tab-class="currentTabComponent" :trigger="trigger">
+            </component>
+        </app-section>
+    </section>
 
             <section id="mainPage" class="mainPage_carousel-id">
                   <div class="new_slider_main owl-carousel owl-theme row no-gutters">
@@ -63,7 +61,7 @@
                                           </div>
                                     </div>
                               </div>
-                              <div class="col-7">
+                              <div class="col-7 d-flex justify-content-center">
                                     <img src="./img/slider/slide-illustration-c.svg" class="new_slider_main-illustration"
                       alt="computer science" />
                               </div>
@@ -79,7 +77,7 @@
                                           </div>
                                     </div>
                               </div>
-                              <div class="col-7">
+                              <div class="col-7 d-flex justify-content-center">
                                     <img src="./img/slider/slide-illustration-n.svg" class="new_slider_main-illustration"
                       alt="computer science" />
                               </div>
@@ -95,7 +93,7 @@
                                           </div>
                                     </div>
                               </div>
-                              <div class="col-7">
+                              <div class="col-7 d-flex justify-content-center">
                                     <img src="./img/slider/slide-illustration-a.svg" class="new_slider_main-illustration"
                                     alt="computer science" />
                               </div>
@@ -114,7 +112,7 @@
                                                style="cursor: pointer">დაწყება</div>
                                    </div>
                              </div>
-                             <div class="col-7">
+                             <div class="col-7 d-flex justify-content-center">
                                    <svg class="new_slider_main-illustration" xmlns="http://www.w3.org/2000/svg"
                                          xmlns:xlink="http://www.w3.org/1999/xlink" width="543.105" height="600.011"
                                          viewBox="0 0 543.105 600.011">

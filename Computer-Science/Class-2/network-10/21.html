@@ -29,18 +29,19 @@
     <div class="container">
         <section id="app" class="container position-absolute">
             <header>
-                <app-menu v-logo="'../../../'" :is-active="isActive" :toggle="toggle"></app-menu>
+                <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../../'"></app-menu>
             </header>
 
-            <app-section v-image="'../../../'" :is-active="isActive">
+            <app-section :is-active="isActive" :is-info="isInfo" v-image="'../../../'">
                 <app-bar :is-active="isActive" :trigger="trigger" :dots="dots" :current-tab="link"
                          v-on:link-tab="link = $event">
 
                 </app-bar>
                 <component :path="path" :is="currentTabComponent" :is-active="isActive" :trigger="trigger"
-                           :images="images" :active-class="activeClass" :tab-class="currentTabComponent">
+                           :active-class="activeClass" :images="images" :is-info="isInfo"
+                           :tab-class="currentTabComponent">
                 </component>
-                <app-info :path="path" v-if="isInfo"></app-info>
+
             </app-section>
         </section>
         <section id="mainPage">

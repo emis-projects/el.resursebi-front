@@ -13,7 +13,6 @@ Vue.directive('logo', {
             }
         });
         // ლოგოს path მიბმა
-        console.log(el, binding, vnode.context.$data)
         header.href = binding.value + 'index.html';
         logo.src = binding.value + 'New-header-vue/header-img/Header-logo.svg';
     }
@@ -154,9 +153,9 @@ Vue.component('appSection', {
                  <transition
                     enter-active-class="animated fadeIn"
                     leave-active-class="animated fadeOut"
-                    :duration="750"
+                    :duration="550"
                     mode="out-in">
-                    <div v-show="isActive || isInfo" class="bg_menu"></div>
+                    <div v-if="isActive || isInfo" class="bg_menu"></div>
                 </transition>
             </div>
 
@@ -203,6 +202,10 @@ Vue.component('appInfo', {
         path: {
             type: String,
             required: true
+        },
+        isInfo: {
+            type: Boolean,
+            required: true
         }
     },
     data() {
@@ -210,12 +213,12 @@ Vue.component('appInfo', {
             currentPage: 1
         }
     },
-    template: `<div class="row info-box">
+    template: `<div class="row info-box" v-if="isInfo">
                    <div class="col-12">
                         <transition
                             enter-active-class="animated flipInX"
                             leave-active-class="animated fadeOut"
-                            :duration="750"
+                            :duration="1000"
                             mode="out-in"
                             tag="div"
                             appear
@@ -654,9 +657,12 @@ var app = new Vue({
             });
             this.link = 'start';
             this.activeClass = '';
+            this.isInfo = false
         },
         info() {
             this.isInfo = !this.isInfo
+            this.link = 'info'
+            this.isActive = false
         },
 
         /*

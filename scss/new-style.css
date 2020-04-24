@@ -17069,6 +17069,8 @@ td img {
 .new_slider_main-illustration {
   height: 75.78vh;
   width: auto;
+  position: relative;
+  left: -5vh;
 }
 
 .new_slider_main-title {

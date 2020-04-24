@@ -191,7 +191,11 @@ body {
 }
 
 .info-box {
-  margin-top: 5vh;
+  height: 84vh;
+  margin-top: 3vh;
+  position: relative;
+  z-index: 9999999;
+  background: #fff;
 
   a {
     color: #0B2228;
