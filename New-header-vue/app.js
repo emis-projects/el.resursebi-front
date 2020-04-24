@@ -310,7 +310,7 @@ Vue.component('appInfo', {
                                             </div>
                                          </div>
                                          <div class="col-10">
-                                            <p class="dj-2_3vh"><span class="title-blue dj-2_3vh">ვიდეო ინსტრუქცია</span><br/> <a class="dj-2_3vh" href="https://youtu.be/7P4U16oh07Y">https://youtu.be/7P4U16oh07Y</a></p>
+                                            <p class="dj-2_3vh"><span class="title-blue dj-2_3vh">ვიდეო ინსტრუქცია</span><br/> <a class="dj-2_3vh" href="https://youtu.be/7P4U16oh07Y" target="_blank">https://youtu.be/7P4U16oh07Y</a></p>
                                          </div>
                                     </div>
                                 </div>
