@@ -163,6 +163,9 @@ function game(){
 
             } else if(loc == "/Computer-Science/Class-3/computer-equipment-2/8.html" || loc == "/el.resursebi-front/Computer-Science/Class-3/computer-equipment-2/8.html"){
                 location.href = "game-success-8.html"
+
+            } else if(loc == "/Computer-Science/Class-5/Information-in-the-table-14/10.html" || loc == "/el.resursebi-front/Computer-Science/Class-5/Information-in-the-table-14/10.html"){
+                location.href = "game-success-10.html"
             }
 
         } else {
