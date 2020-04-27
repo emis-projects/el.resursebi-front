@@ -36593,20 +36593,17 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
-.circle.checkmark_box {
-  border: 1px solid #947DCE;
-  height: 2.7vh;
-  width: 1.5vw;
-  margin: 1vh 1.2vh;
-  background-color: #b6b5ba00;
+.checkmark_box {
+  height: 3.25vh;
+  width: 3.25vh;
+  margin: .5vh 2.3vh 1vh;
+  border: 2px solid #696969;
+  border-radius: 1vh;
 }
 
-.checkmark_box.circle-fill {
-  background-color: #947DCE !important;
-}
-
-.checkmark_box.error {
-  background-color: #DC6C85;
+.circle-fill {
+  background-color: #947dce;
+  border-color: #947dce;
 }
 
 .protect-behavior_page-12 {
@@ -36800,6 +36797,55 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-4/Predicting-behavior-3/cs-4-3-22-img.svg");
 }
 
+.class_3_7-img_box_7 {
+  height: 41vh;
+  max-height: 315.6px;
+}
+
+.class_3_7-img_box_7 img {
+  height: 100%;
+}
+
+.class_3_7-img_box_8 {
+  height: 41.38vh;
+  max-height: 317.8px;
+}
+
+.class_3_7-img_box_8 img {
+  height: 100%;
+}
+
+.class_3_7-img_box_9 {
+  position: fixed;
+  bottom: 0;
+  height: 56.9vh;
+  max-height: 437.5px;
+}
+
+.class_3_7-img_box_9 img {
+  height: 100%;
+}
+
+.class_3_7-img_box_10 {
+  height: 35.87vh;
+  max-height: 275.5px;
+}
+
+.class_3_7-img_box_10 img {
+  height: 100%;
+}
+
+.class_3_7-img_box_11 {
+  position: fixed;
+  bottom: 0;
+  height: 50.5vh;
+  max-height: 388px;
+}
+
+.class_3_7-img_box_11 img {
+  height: 100%;
+}
+
 .cs-3-7-17-img {
   height: 41.27vh;
   margin: 5vh auto 0;
@@ -36857,6 +36903,41 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .cs-3-7-div img {
   height: 100%;
+}
+
+.cs-6-1-1-img {
+  height: 52.10vh;
+  margin: 8vh auto 5vh;
+}
+
+.cs-6-1-3-img {
+  height: 35.15vh;
+  margin: 5vh auto 0;
+}
+
+.cs-6-1-4-img {
+  height: 39.74vh;
+  margin-top: 3vh;
+}
+
+.cs-6-1-5-img {
+  height: 43.03vh;
+  margin-top: 1vh;
+}
+
+.cs-6-1-6-img {
+  height: 51.17vh;
+  margin: 5vh auto 0;
+}
+
+.cs-6-1-7-img {
+  height: 38.02vh;
+  margin: 12vh auto 0;
+}
+
+.cs-6-1-8-img {
+  height: 41.27vh;
+  margin: 10vh auto 0;
 }
 
 .cs-6-1-div-17-img {
