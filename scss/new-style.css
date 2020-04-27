@@ -36593,20 +36593,17 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
-.circle.checkmark_box {
-  border: 1px solid #947DCE;
-  height: 2.7vh;
-  width: 1.5vw;
-  margin: 1vh 1.2vh;
-  background-color: #b6b5ba00;
+.checkmark_box {
+  height: 3.25vh;
+  width: 3.25vh;
+  margin: .5vh 2.3vh 1vh;
+  border: 2px solid #696969;
+  border-radius: 1vh;
 }
 
-.checkmark_box.circle-fill {
-  background-color: #947DCE !important;
-}
-
-.checkmark_box.error {
-  background-color: #DC6C85;
+.circle-fill {
+  background-color: #947dce;
+  border-color: #947dce;
 }
 
 .protect-behavior_page-12 {
@@ -36760,6 +36757,55 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 .cs-4-3-checkbox-border.selected {
   background-color: #947dce;
   border-color: #947dce;
+}
+
+.class_3_7-img_box_7 {
+  height: 41vh;
+  max-height: 315.6px;
+}
+
+.class_3_7-img_box_7 img {
+  height: 100%;
+}
+
+.class_3_7-img_box_8 {
+  height: 41.38vh;
+  max-height: 317.8px;
+}
+
+.class_3_7-img_box_8 img {
+  height: 100%;
+}
+
+.class_3_7-img_box_9 {
+  position: fixed;
+  bottom: 0;
+  height: 56.9vh;
+  max-height: 437.5px;
+}
+
+.class_3_7-img_box_9 img {
+  height: 100%;
+}
+
+.class_3_7-img_box_10 {
+  height: 35.87vh;
+  max-height: 275.5px;
+}
+
+.class_3_7-img_box_10 img {
+  height: 100%;
+}
+
+.class_3_7-img_box_11 {
+  position: fixed;
+  bottom: 0;
+  height: 50.5vh;
+  max-height: 388px;
+}
+
+.class_3_7-img_box_11 img {
+  height: 100%;
 }
 
 body {
