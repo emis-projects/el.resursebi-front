@@ -36978,6 +36978,39 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-6/create-game-1/cs-6-1-23-img.svg");
 }
 
+.cs-6-3-div-1-img {
+  height: 58.33vh;
+  margin: 8vh auto 5vh;
+}
+
+.cs-6-3-div-3-img {
+  height: 36.19vh;
+}
+
+.cs-6-3-div-4-img {
+  height: 51.17vh;
+}
+
+.cs-6-3-div-5-img {
+  height: 57.68vh;
+}
+
+.cs-6-3-div-6-img {
+  height: 52.86vh;
+}
+
+.cs-6-3-div-7-img {
+  height: 50.52vh;
+}
+
+.cs-6-3-div-8-img {
+  height: 64.97vh;
+}
+
+.cs-6-3-div img {
+  height: 100%;
+}
+
 body {
   color: #262626;
   font-size: 14px;
