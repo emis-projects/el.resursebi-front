@@ -37136,6 +37136,43 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   margin-top: 7vh;
 }
 
+.cs-5-18-1-img {
+  height: 53.64vh;
+  margin: 8vh auto 5vh;
+}
+
+.cs-5-18-3-img {
+  height: 46.09vh;
+  margin: 3vh auto;
+}
+
+.cs-5-18-4-img {
+  height: 49.34vh;
+  margin-top: 7vh;
+}
+
+.cs-5-18-5-img {
+  height: 54.07vh;
+  position: relative;
+  top: -20vh;
+  right: -7vh;
+}
+
+.cs-5-18-6-img {
+  height: 58.33vh;
+  margin-top: 9vh;
+}
+
+.cs-5-18-7-img {
+  height: 54.55vh;
+  position: relative;
+  bottom: 8vh;
+}
+
+.cs-5-18-8-img {
+  height: 58.33vh;
+}
+
 body {
   color: #262626;
   font-size: 14px;
