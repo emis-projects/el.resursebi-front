@@ -1188,8 +1188,8 @@ let title = {
         },
         {
             id: 3,
-            name: 'კომპიუტერი 6 კლასი 3 გაკვ',
-            link: '#'
+            name: 'ჩადგმული ციკლები',
+            link: 'Computer-Science/Class-6/embedded-cycles-3/1.html'
         },
         {
             id: 4,
