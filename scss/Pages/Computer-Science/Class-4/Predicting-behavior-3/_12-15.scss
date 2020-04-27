@@ -1,0 +1,10 @@
+.protect-behavior {
+  &_page-12 {
+    height: 53vh;
+    max-height: 405px;
+
+    img {
+      height: 100%;
+    }
+  }
+}
