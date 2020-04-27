@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="252.275" height="405" viewBox="0 0 252.275 405">
+    <defs>
+        <style>.a{fill:#5998f7;}.b,.c,.g{fill:#fff;}.b,.d{font-size:11px;}.b,.d,.g{font-family:BPGArial, BPG
+            Arial;}.e{fill:#f5ad43;}.f{fill:#f7c042;}.g{font-size:12px;}.h{font-family:BPGArial;}.i{fill:none;stroke:#966a29;stroke-miterlimit:10;stroke-width:0.358px;}
+        </style>
+    </defs>
+    <g transform="translate(-406.728 -175.224)">
+        <g transform="translate(421.934 282.422)">
+            <path class="a"
+                  d="M582.713,292.607H468.666l-8.256,7.967H446.243q-4.423-3.837-8.848-7.672H427.029a5.241,5.241,0,0,1-.876-.262,3.087,3.087,0,0,0-2.774,3.066v39.612a3.1,3.1,0,0,0,3.1,3.1h11.056l8.71,7.551H460.41l7.826-7.551H582.713a3.1,3.1,0,0,0,3.1-3.1V295.706A3.1,3.1,0,0,0,582.713,292.607Z"
+                  transform="translate(-423.379 -292.607)"/>
+            <text class="b" transform="translate(19.134 25.798)">
+                <tspan x="-13.492" y="0">move</tspan>
+            </text>
+            <text class="b" transform="translate(119.603 24.47)">
+                <tspan x="-12.993" y="0">steps</tspan>
+            </text>
+            <rect class="c" width="38.063" height="31.867" rx="15.933" transform="translate(48.464 6.491)"/>
+            <text class="d" transform="translate(66.189 24.47)">
+                <tspan x="-6.118" y="0">10</tspan>
+            </text>
+        </g>
+        <g transform="translate(437.045 419.514)">
+            <path class="e"
+                  d="M618.978,442.725H485.912l-8.383,8.089H463.143l-8.985-7.79H443.633a5.385,5.385,0,0,1-.889-.267,3.135,3.135,0,0,0-2.817,3.113v40.223a3.146,3.146,0,0,0,3.146,3.146H454.3l8.846,7.668h14.385l7.947-7.668h133.5a3.146,3.146,0,0,0,3.146-3.146V445.871A3.146,3.146,0,0,0,618.978,442.725Z"
+                  transform="translate(-439.926 -442.725)"/>
+            <text class="b" transform="translate(20.135 26.24)">
+                <tspan x="-9.781" y="0">wait</tspan>
+            </text>
+            <text class="b" transform="translate(136.716 24.891)">
+                <tspan x="-20.528" y="0">seconds</tspan>
+            </text>
+            <rect class="c" width="38.651" height="32.359" rx="16.179" transform="translate(49.212 6.591)"/>
+            <text class="d" transform="translate(66.492 24.891)">
+                <tspan x="-7.646" y="0">0.1</tspan>
+            </text>
+        </g>
+        <g transform="translate(421.639 496.139)">
+            <path class="e"
+                  d="M602.109,526.631H469.042l-8.383,8.089H446.273l-8.985-7.79H426.763a5.382,5.382,0,0,1-.889-.267,3.135,3.135,0,0,0-2.817,3.113V570a3.146,3.146,0,0,0,3.146,3.146h11.226l8.845,7.668h14.385l7.947-7.668h133.5A3.145,3.145,0,0,0,605.254,570V529.777A3.145,3.145,0,0,0,602.109,526.631Z"
+                  transform="translate(-423.056 -526.631)"/>
+            <text class="b" transform="translate(20.136 26.24)">
+                <tspan x="-9.781" y="0">wait</tspan>
+            </text>
+            <text class="b" transform="translate(136.717 24.891)">
+                <tspan x="-20.528" y="0">seconds</tspan>
+            </text>
+            <rect class="c" width="38.651" height="32.359" rx="16.179" transform="translate(49.212 6.591)"/>
+            <text class="d" transform="translate(66.492 24.891)">
+                <tspan x="-7.646" y="0">0.3</tspan>
+            </text>
+        </g>
+        <g transform="translate(406.747 543.195)">
+            <path class="e"
+                  d="M576.932,578.158H467.825l-8.408,8.112h-14.14l-9.01-7.812h-25.8a5.335,5.335,0,0,1-.892-.268,3.145,3.145,0,0,0-2.826,3.122v23.029A3.155,3.155,0,0,0,409.9,607.5h11.257c2.957,2.563,12.5,5.127,15.461,7.689h14.425l7.97-7.689H576.932a3.155,3.155,0,0,0,3.155-3.155V581.313A3.155,3.155,0,0,0,576.932,578.158Z"
+                  transform="translate(-406.749 -578.158)"/>
+            <g transform="translate(146.161 6.689)">
+                <path class="c" d="M578.946,585.482l-5.732,6.864h11.464Z" transform="translate(-567.355 -585.482)"/>
+                <path class="c" d="M580.716,592.169A7.512,7.512,0,0,1,566.8,596.09a5.523,5.523,0,0,0,9.4-3.921Z"
+                      transform="translate(-566.798 -586.062)"/>
+            </g>
+        </g>
+        <path class="e"
+              d="M406.749,285.585V558.949H436.7l-.431-5.342H423.708a2.588,2.588,0,0,1-2.588-2.588V294.161a2.588,2.588,0,0,1,2.588-2.587h12.7l-7.9-5.989Z"
+              transform="translate(-0.002 -9.576)"/>
+        <g transform="translate(407.783 175.224)">
+            <path class="f"
+                  d="M656.087,189.248H494.734a77.923,77.923,0,0,0-44.858-14.022c-21.012.18-35.573,11.506-41.47,15.42-.027.021-.049.045-.09.074a2.966,2.966,0,0,0-.434,1.543v38.565a3.016,3.016,0,0,0,3.016,3.015h10.763l8.479,7.352h13.792l7.619-7.352H656.087a3.016,3.016,0,0,0,3.016-3.015V192.264A3.016,3.016,0,0,0,656.087,189.248Z"
+                  transform="translate(-407.883 -175.224)"/>
+            <text class="g" transform="translate(25.049 37.359)">
+                <tspan x="-14.344" y="0">when</tspan>
+                <tspan class="h">
+                    <tspan x="0" y="14"></tspan>
+                </tspan>
+            </text>
+            <text class="b" transform="translate(90.683 36.359)">
+                <tspan x="-14.523" y="0">space</tspan>
+            </text>
+            <text class="g" transform="translate(197.625 38.509)">
+                <tspan x="-32.183" y="0">key pressed</tspan>
+                <tspan class="h">
+                    <tspan x="0" y="14"></tspan>
+                </tspan>
+            </text>
+            <rect class="i" width="95.949" height="25.16" rx="4.76" transform="translate(54.069 22.485)"/>
+            <path class="c" d="M549.654,210.09h13.558l-6.45,6.45Z" transform="translate(-420.185 -178.249)"/>
+        </g>
+        <path class="e"
+              d="M423.379,385.293V514.367h29.948l-.432-5.342H440.337a2.587,2.587,0,0,1-2.587-2.588V393.869a2.587,2.587,0,0,1,2.587-2.587h12.7l-7.9-5.989Z"
+              transform="translate(-1.445 -18.228)"/>
+        <g transform="translate(436.829 373.221)">
+            <path class="a"
+                  d="M627.971,392.034H485.255l-8.308,8.015H462.694q-4.452-3.859-8.9-7.719H443.362a5.342,5.342,0,0,1-.882-.264,3.106,3.106,0,0,0-2.791,3.084v39.857a3.118,3.118,0,0,0,3.117,3.118H453.93l8.764,7.6h14.254l7.875-7.6H627.971a3.118,3.118,0,0,0,3.117-3.118V395.151A3.117,3.117,0,0,0,627.971,392.034Z"
+                  transform="translate(-439.689 -392.034)"/>
+            <text class="b" transform="translate(19.838 25.974)">
+                <tspan x="-9.477" y="0">turn</tspan>
+            </text>
+            <text class="b" transform="translate(147.109 24.639)">
+                <tspan x="-19.876" y="0">degrees</tspan>
+            </text>
+            <g transform="translate(71.135 6.531)">
+                <rect class="c" width="38.298" height="32.064" rx="16.032"/>
+                <text class="d" transform="translate(17.844 18.107)">
+                    <tspan x="-6.118" y="0">90</tspan>
+                </text>
+            </g>
+            <g transform="translate(45.511 14.214)">
+                <path class="c" d="M504.993,414.717l-8.023,4.354,2.308-11.472Z"
+                      transform="translate(-490.17 -407.599)"/>
+                <path class="c" d="M498.7,411.483a7.668,7.668,0,0,0-6.727,13.138,5.637,5.637,0,0,1,5.816-8.614Z"
+                      transform="translate(-489.524 -407.922)"/>
+            </g>
+        </g>
+        <g transform="translate(406.728 235.194)">
+            <path class="e"
+                  d="M551.306,241.238l-98.41-.327-8.418,8.1L430.053,249l-9-7.823L410.5,241.16a5.264,5.264,0,0,1-.892-.268,3.145,3.145,0,0,0-2.829,3.119l-.048,40.337a3.154,3.154,0,0,0,3.151,3.158l25.9.031c2.954,2.567,5.887,5.664,8.841,8.23l14.425.017c2.659-2.56,4.81-5.12,7.469-7.681l84.732-.218a3.155,3.155,0,0,0,3.158-3.152l.048-40.336A3.154,3.154,0,0,0,551.306,241.238Z"
+                  transform="translate(-406.728 -240.892)"/>
+            <text class="b" transform="translate(38.684 26.479)">
+                <tspan x="-15.442" y="0">repeat</tspan>
+            </text>
+            <g transform="translate(72.044 8.511)">
+                <rect class="c" width="37.52" height="31.412" rx="15.706"/>
+                <text class="d" transform="translate(17.455 18.596)">
+                    <tspan x="-6.118" y="0">10</tspan>
+                </text>
+            </g>
+        </g>
+        <g transform="translate(421.934 326.292)">
+            <path class="e"
+                  d="M567.957,340.991l-98.41-.327-8.417,8.1L446.7,348.75l-9-7.824-10.555-.012a5.485,5.485,0,0,1-.892-.268,3.143,3.143,0,0,0-2.828,3.118l-.048,40.337a3.155,3.155,0,0,0,3.151,3.159l25.9.031c2.953,2.567,5.887,5.663,8.841,8.23l14.424.017c2.66-2.561,4.81-5.121,7.469-7.681l84.732-.219a3.154,3.154,0,0,0,3.159-3.151l.048-40.337A3.156,3.156,0,0,0,567.957,340.991Z"
+                  transform="translate(-423.379 -340.646)"/>
+            <text class="b" transform="translate(38.683 26.478)">
+                <tspan x="-15.442" y="0">repeat</tspan>
+            </text>
+            <g transform="translate(72.043 8.51)">
+                <rect class="c" width="37.52" height="31.412" rx="15.706"/>
+                <text class="d" transform="translate(18.108 18.596)">
+                    <tspan x="-3.059" y="0">4</tspan>
+                </text>
+            </g>
+        </g>
+        <path class="e"
+              d="M600.265,494H485.5l-8.5,8.2H463.629l-9.109-7.9H443.21a5.434,5.434,0,0,1-.9-.27,3.178,3.178,0,0,0-2.856,3.156v23.281a3.188,3.188,0,0,0,3.189,3.189H438.5l9.168,7.774h14.583l8.056-7.774H600.265a3.189,3.189,0,0,0,3.19-3.189V497.186A3.19,3.19,0,0,0,600.265,494Z"
+              transform="translate(-2.757 -27.66)"/>
+        <g transform="translate(570.584 473.697)">
+            <path class="c" d="M598.3,502.057l-5.732,6.864h11.464Z" transform="translate(-586.71 -502.057)"/>
+            <path class="c" d="M600.071,508.743a7.512,7.512,0,0,1-13.918,3.922,5.523,5.523,0,0,0,9.4-3.922Z"
+                  transform="translate(-586.153 -502.637)"/>
+        </g>
+    </g>
+</svg>
