@@ -1,0 +1,150 @@
+.visual-programing {
+  &_page-12 {
+    div {
+      bottom: 0;
+    }
+
+    .small-box {
+      max-width: 70px;
+    }
+
+    .text-box {
+      background: #F0B44D;
+      font-size: 10px;
+      max-width: 130px;
+      text-align: left;
+      padding: 5px;
+      position: relative;
+      color: #fff;
+
+      &:after {
+        content: "";
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 40px 10px 0 0;
+        border-color: #F0B44D transparent transparent transparent;
+        transform: skew(50deg, 0deg);
+        position: absolute;
+        left: 30px;
+        top: 99%;
+      }
+    }
+
+    .game_btns_position {
+      position: fixed;
+      bottom: 10vh;
+      right: 30vh;
+    }
+  }
+
+  .text-box_arrow {
+    background: #4DC5F0;
+    padding: 11px 10px;
+    color: #fff;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:after {
+      content: "";
+      display: block;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 26px 0 26px 20px;;
+      border-color: transparent transparent transparent #4DC5F0;
+      position: absolute;
+      left: 100%;
+      top: 0;
+    }
+
+    &:before {
+      content: "";
+      display: block;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 26px 0 26px 20px;;
+      border-color: #4DC5F0 #4DC5F0 #4DC5F0 transparent;
+      position: absolute;
+      right: 100%;
+      top: 0;
+    }
+  }
+
+  .text-box_arrow.error {
+    background: #dc6c85;
+
+    &:after {
+      border-color: transparent transparent transparent #dc6c85;
+    }
+
+    &:before {
+      border-color: #dc6c85 #dc6c85 #dc6c85 transparent;
+    }
+  }
+
+  .text-box_arrow.correct {
+    background: #82D1A1;
+
+    &:after {
+      border-color: transparent transparent transparent #82D1A1;
+    }
+
+    &:before {
+      border-color: #82D1A1 #82D1A1 #82D1A1 transparent;
+    }
+  }
+
+  ._page-13 {
+    height: 42vh;
+    max-height: 322px;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &_page-14 {
+    height: 58vh;
+    max-height: 447px;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &_page-14 {
+    height: 40vh;
+    max-height: 310px;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &_page-16 {
+    height: 40vh;
+    max-height: 305px;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &_page-3_1 {
+    height: 40vh;
+    max-height: 310px;
+  }
+}

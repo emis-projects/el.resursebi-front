@@ -53,14 +53,16 @@
         }
     }
 }
-.checkmark_box{
-    height: 3.25vh;
-    width: 3.25vh;
-    margin: .5vh 2.3vh 1vh;
-    border: 2px solid #696969;
-    border-radius: 1vh; 
+.circle.checkmark_box{
+    border: 1px solid #947DCE;
+    height: 2.7vh;
+    width: 1.5vw;
+    margin: 1vh 1.2vh;
+    background-color: #b6b5ba00;
 }
-.circle-fill{
-    background-color: #947dce;
-    border-color: #947dce;
+.checkmark_box.circle-fill {
+    background-color: #947DCE!important;
+}
+.checkmark_box.error {
+    background-color: #DC6C85;
 }
