@@ -36593,17 +36593,20 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
-.checkmark_box {
-  height: 3.25vh;
-  width: 3.25vh;
-  margin: .5vh 2.3vh 1vh;
-  border: 2px solid #696969;
-  border-radius: 1vh;
+.circle.checkmark_box {
+  border: 1px solid #947DCE;
+  height: 2.7vh;
+  width: 1.5vw;
+  margin: 1vh 1.2vh;
+  background-color: #b6b5ba00;
 }
 
-.circle-fill {
-  background-color: #947dce;
-  border-color: #947dce;
+.checkmark_box.circle-fill {
+  background-color: #947DCE !important;
+}
+
+.checkmark_box.error {
+  background-color: #DC6C85;
 }
 
 .protect-behavior_page-12 {
@@ -36797,53 +36800,160 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-4/Predicting-behavior-3/cs-4-3-22-img.svg");
 }
 
-.class_3_7-img_box_7 {
-  height: 41vh;
-  max-height: 315.6px;
+.visual-programing_page-12 div {
+  bottom: 0;
 }
 
-.class_3_7-img_box_7 img {
+.visual-programing_page-12 .small-box {
+  max-width: 70px;
+}
+
+.visual-programing_page-12 .text-box {
+  background: #F0B44D;
+  font-size: 10px;
+  max-width: 130px;
+  text-align: left;
+  padding: 5px;
+  position: relative;
+  color: #fff;
+}
+
+.visual-programing_page-12 .text-box:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 40px 10px 0 0;
+  border-color: #F0B44D transparent transparent transparent;
+  -webkit-transform: skew(50deg, 0deg);
+          transform: skew(50deg, 0deg);
+  position: absolute;
+  left: 30px;
+  top: 99%;
+}
+
+.visual-programing_page-12 .game_btns_position {
+  position: fixed;
+  bottom: 10vh;
+  right: 30vh;
+}
+
+.visual-programing .text-box_arrow {
+  background: #4DC5F0;
+  padding: 11px 10px;
+  color: #fff;
+  font-size: 12px;
+  line-height: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.visual-programing .text-box_arrow:after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 26px 0 26px 20px;
+  border-color: transparent transparent transparent #4DC5F0;
+  position: absolute;
+  left: 100%;
+  top: 0;
+}
+
+.visual-programing .text-box_arrow:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 26px 0 26px 20px;
+  border-color: #4DC5F0 #4DC5F0 #4DC5F0 transparent;
+  position: absolute;
+  right: 100%;
+  top: 0;
+}
+
+.visual-programing .text-box_arrow.error {
+  background: #dc6c85;
+}
+
+.visual-programing .text-box_arrow.error:after {
+  border-color: transparent transparent transparent #dc6c85;
+}
+
+.visual-programing .text-box_arrow.error:before {
+  border-color: #dc6c85 #dc6c85 #dc6c85 transparent;
+}
+
+.visual-programing .text-box_arrow.correct {
+  background: #82D1A1;
+}
+
+.visual-programing .text-box_arrow.correct:after {
+  border-color: transparent transparent transparent #82D1A1;
+}
+
+.visual-programing .text-box_arrow.correct:before {
+  border-color: #82D1A1 #82D1A1 #82D1A1 transparent;
+}
+
+.visual-programing ._page-13 {
+  height: 42vh;
+  max-height: 322px;
+}
+
+.visual-programing ._page-13 img {
   height: 100%;
 }
 
-.class_3_7-img_box_8 {
-  height: 41.38vh;
-  max-height: 317.8px;
-}
-
-.class_3_7-img_box_8 img {
-  height: 100%;
-}
-
-.class_3_7-img_box_9 {
+.visual-programing_page-14 {
+  height: 58vh;
+  max-height: 447px;
   position: fixed;
   bottom: 0;
-  height: 56.9vh;
-  max-height: 437.5px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 
-.class_3_7-img_box_9 img {
+.visual-programing_page-14 img {
   height: 100%;
 }
 
-.class_3_7-img_box_10 {
-  height: 35.87vh;
-  max-height: 275.5px;
+.visual-programing_page-14 {
+  height: 40vh;
+  max-height: 310px;
 }
 
-.class_3_7-img_box_10 img {
+.visual-programing_page-14 img {
   height: 100%;
 }
 
-.class_3_7-img_box_11 {
+.visual-programing_page-16 {
+  height: 40vh;
+  max-height: 305px;
   position: fixed;
   bottom: 0;
-  height: 50.5vh;
-  max-height: 388px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 
-.class_3_7-img_box_11 img {
+.visual-programing_page-16 img {
   height: 100%;
+}
+
+.visual-programing_page-3_1 {
+  height: 40vh;
+  max-height: 310px;
 }
 
 .cs-3-7-17-img {
@@ -36940,42 +37050,90 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   margin: 10vh auto 0;
 }
 
-.cs-6-1-div-17-img {
-  height: 48.56vh;
+.create-game_page-6-1 {
+  height: 61vh;
+  max-height: 467px;
 }
 
-.cs-6-1-div-18-img {
-  height: 35.28vh;
+.create-game_page-6-1 img {
+  max-height: 100%;
 }
 
-.cs-6-1-div-19-img {
-  height: 22.26vh;
+.create-game_page-7-1 {
+  height: 51vh;
+  max-height: 395px;
 }
 
-.cs-6-1-div img {
+.create-game_page-7-1 img {
   height: 100%;
 }
 
-.background-cs-6-1 {
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat;
+.create-game_page-8-1 {
+  height: 61vh;
+  max-height: 467px;
 }
 
-.background-cs-6-1-20 {
-  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/create-game-1/cs-6-1-20-img.svg");
+.create-game_page-8-1 img {
+  height: 100%;
 }
 
-.background-cs-6-1-21 {
-  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/create-game-1/cs-6-1-21-img.svg");
+.create-game_page-13-1 {
+  height: 68vh;
+  max-height: 525px;
 }
 
-.background-cs-6-1-22 {
-  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/create-game-1/cs-6-1-22-img.svg");
+.create-game_page-13-1 img {
+  height: 100%;
 }
 
-.background-cs-6-1-23 {
-  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/create-game-1/cs-6-1-23-img.svg");
+.create-game_page-14-1 {
+  height: 48vh;
+  max-height: 367px;
+}
+
+.create-game_page-14-1 img {
+  height: 100%;
+}
+
+.create-game_page-15-1 {
+  height: 74vh;
+  max-height: 568px;
+}
+
+.create-game_page-15-1 img {
+  height: 100%;
+}
+
+.cs-6-3-9-img {
+  height: 37.76vh;
+  margin-top: 2vh;
+}
+
+.cs-6-3-10-img {
+  height: 66.71vh;
+  position: relative;
+  right: -17vh;
+  top: 2vh;
+}
+
+.cs-6-3-11-img {
+  height: 53.38vh;
+  margin-top: 2vh;
+}
+
+.cs-6-3-12-img {
+  height: 45.96vh;
+  margin-top: 1vh;
+}
+
+.cs-6-3-13-img {
+  height: 43.61vh;
+  margin-top: 5vh;
+}
+
+.cs-6-3-15-img {
+  height: 44.92vh;
+  margin-top: 7vh;
 }
 
 .cs-6-3-div-1-img {
