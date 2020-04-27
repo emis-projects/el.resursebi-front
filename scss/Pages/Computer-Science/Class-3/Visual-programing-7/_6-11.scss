@@ -1,6 +1,10 @@
 .class_3_7 {
-    &-img_box_blue {
-        
+    &-img-bg-blue {
+        background-image: url("../../../../../img/gakvetilebi/Computer-Science/Class-3/Visual-programing-7/C-3-7-6-blue.svg");
+        height: 6.1vh;
+        max-height: 46.9px;
+        width: 9.5vw;
+        max-width: 130px;
     }
     &-img_box_7 {
         height: 41vh;
@@ -42,3 +46,22 @@
         }
     }
 }
+// .class_3_7-bg-box {
+//     height: 6.1vh;
+//     max-height: 46.9px;
+//     width: 9.5vw;
+//     max-width: 130px;
+//     color: #ffffff;
+//     p{
+//         // padding: 0 5vh;
+//         line-height: 2.5vh;
+//     }
+//     &-bg-box-blue{
+//         height: inherit;
+//         background-image: url("../../../../../img/gakvetilebi/Computer-Science/Class-3/Visual-programing-7/C-3-7-6-blue.svg") no-repeat center;
+//         background-size: contain;
+//         display: flex;
+//         align-items: center;
+//         justify-content: center;
+//       }
+// }
