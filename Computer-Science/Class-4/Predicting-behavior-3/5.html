@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ka" data-botid="2288">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <!-- ყველა გვერდზე -->
+  <script src="../../../js/vue.js"></script>
+  <!--  ვუე გაშვებისას
+    <script src="./js/vue.min.js"></script>
+     -->
+  <link rel="stylesheet" href="../../../scss/libraries/bootstrap.min.css">
+  <link rel="stylesheet" href="../../../New-header-vue/animate.min.css">
+  <link rel="stylesheet" href="../../../scss/new-style.css" />
+  <title>ელექტრონული საგანმანათლებლო რესურსი</title>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-155006442-1');
+  </script>
+</head>
+
+<body>
+  <div class="container">
+    <section id="app" class="container position-absolute">
+      <header>
+        <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../../'"></app-menu>
+      </header>
+
+      <app-section :is-active="isActive" :is-info="isInfo" v-image="'../../../'">
+        <app-bar :is-active="isActive" :trigger="trigger" :dots="dots" :current-tab="link"
+          v-on:link-tab="link = $event">
+
+        </app-bar>
+        <component :path="path" :is="currentTabComponent" :is-active="isActive" :trigger="trigger"
+          :active-class="activeClass" :images="images" :is-info="isInfo" :tab-class="currentTabComponent">
+        </component>
+
+      </app-section>
+    </section>
+    <section id="mainPage">
+      <div class="row">
+        <div class="col-11 m-auto">
+          <div class="row">
+            <div class="col-6">
+              <div class="newDesign_subject_question_item mb-0">
+                <img src="../../../img/icons/newDesign_btn-yellow.svg" alt="img"
+                  class="newDesign_subject_question_item-img">
+                <p class="newDesign_subject_question_item-title">
+                  შენ წინაშე ვიზუალური კოდის 4 ვარიანტია. დაეხმარე ხრამუნას ნაყინის შეჭმაში. 
+                </p>
+              </div>
+              <div class="newDesign_subject_question_item">
+                <p class="newDesign_subject_question_item-title ml-8vh"> დაფიქრდი და გამოიცანი,
+                  რომელი კოდი მიიყვანს ნაყინამდე.
+                </p>
+              </div>
+                <div class="w-100 d-flex align-items-center mt-3vh ml-2vh">
+                  <div class="d-flex flex-column cs-4-3-5-answers-box">
+                    <div class="cs-4-3-checkbox-border"></div>
+                    <div class="cs-4-3-checkbox-border selected"></div>
+                    <div class="cs-4-3-checkbox-border"></div>
+                    <div class="cs-4-3-checkbox-border"></div>
+                  </div>
+                  <img class="cs-4-3-5-answers-img" alt="img"
+                    src="../../../img/gakvetilebi/Computer-Science/Class-4/Predicting-behavior-3/cs-4-3-5-answers.svg">
+                </div>
+                <img class="cs-4-3-5-xramuna-img" alt="img"
+                    src="../../../img/gakvetilebi/Computer-Science/Class-4/Predicting-behavior-3/cs-4-3-5-xramuna.svg">
+          </div>
+          <div class="col-6">
+            <img src="../../../img/gakvetilebi/Computer-Science/Class-4/Predicting-behavior-3/cs-4-3-5-table.svg" alt="img" class="cs-4-3-5-table-img">
+          </div>
+        </div>
+      </div>
+
+      <div class="flex flex-end column align-items-end z-index reload_game_wrapper">
+        <button class="reset__btn" id="resetBtn">თავიდან სცადე</button>
+        <button class="completed__btn" id="completedGame">დასრულება</button>
+    </div>
+
+  </div>
+
+  <div class="left_components_paging-cont" id="leftNav">
+    <left-nav-item></left-nav-item>
+  </div>
+
+  <div class="our__pagination flex">
+    <a href="#" class="pagination__prev__btn">
+      <img style="transform: rotate(180deg)" src="../../../img/icons/chevron-left-icon.svg" alt="">
+    </a>
+
+    <div id="pagination" class="flex align-items-center"></div>
+
+    <a href="#" class="pagination__next__btn">
+      <img src="../../../img/icons/chevron-left-icon.svg" alt="">
+    </a>
+  </div>
+
+  </section>
+  </div>
+
+
+  <!-- ჩეთბოტი -->
+  <div id="chatBot">
+    <app-bot></app-bot>
+  </div>
+
+  <script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
+  <script src="../../../js/libraries/jquery.magnific-popup.min.js"></script>
+  <script src="../../../js/Pagination.js"></script>
+
+
+  <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
+  <script src="../../../New-header-vue/app.js"></script>
+  <script src="../../../Vue-chatBot/botApp.js"></script>
+  <script src="../../../js/bot.js"></script>
+
+
+</body>
+
+</html>
