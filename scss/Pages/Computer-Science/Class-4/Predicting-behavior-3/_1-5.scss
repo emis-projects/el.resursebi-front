@@ -1,0 +1,45 @@
+.cs-4-3 {
+  &-1-img {
+    height: 57.29vh;
+    margin: 6vh auto 4vh;
+  }
+  &-3-img {
+    height: 35.02vh;
+    margin: 5vh auto 0;
+  }
+  &-4-img {
+    height: 41.66vh;
+  }
+  &-5 {
+    &-answers {
+      &-img {
+        height: 27.47vh;
+      }
+      &-box {
+        height: 25.47vh;
+        justify-content: space-between;
+      }
+    }
+    &-xramuna-img {
+      height: 20.44vh;
+      margin-left: 13vh;
+      margin-top: 3vh;
+    }
+    &-table-img{
+      height: 51.56vh;
+      margin-top: 2vh;
+      margin-left: 5vh;
+    }
+  }
+  &-checkbox-border {
+    border: 2px solid #696969;
+    border-radius: 1vh;
+    height: 3.25vh;
+    width: 3.25vh;
+    margin-right: 2.3vh;
+    &.selected{
+      background-color: #947dce;
+      border-color: #947dce;
+    }
+  }
+}

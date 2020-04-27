@@ -1,0 +1,68 @@
+.class_4_3 {
+    &-img_box_6 {
+        height: 42.78vh;
+        max-height: 328.6px;
+        img {
+            height: 100%;
+        }
+    }
+    &-img_box_7 {
+        height: 49.97vh;
+        max-height: 383.8px;
+        img {
+            height: 100%;
+        }
+    }
+    &-img_box_7_1 {
+        height: 14.25vh;
+        max-height: 109.5px;
+        img {
+            height: 100%;
+        }
+    }
+    &-img_box_8 {
+        position: fixed;
+        bottom: 0;
+        height: 64.84vh;
+        max-height: 498px;
+        img {
+            height: 100%;
+        }
+    }
+    &-img_box_9 {
+        position: fixed;
+        bottom: 0;
+        height: 57.79vh;
+        max-height: 443.9px;
+        img {
+            height: 100%;
+        }
+    }
+    &-img_box_10 {
+        height: 39.8vh;
+        max-height: 306px;
+        img {
+            height: 100%;
+        }
+    }
+    &-img_box_11 {
+        height: 50vh;
+        max-height: 385px;
+        img {
+            height: 100%;
+        }
+    }
+}
+.circle.checkmark_box{
+    border: 1px solid #947DCE;
+    height: 2.7vh;
+    width: 1.5vw;
+    margin: 1vh 1.2vh;
+    background-color: #b6b5ba00;
+}
+.checkmark_box.circle-fill {
+    background-color: #947DCE!important;
+}
+.checkmark_box.error {
+    background-color: #DC6C85;
+}
