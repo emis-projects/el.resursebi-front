@@ -8633,7 +8633,7 @@ section .arrow_up_down_downArrow img {
 
 .m_exercise_text-container_16px {
   color: #0B2228;
-  font-size: 2.08 h;
+  font-size: 2.08h;
   font-family: "BPG Arial";
 }
 
@@ -30660,6 +30660,45 @@ img.mfp-img[alt*=cs-3-6-6-img] {
   max-height: 568px;
 }
 .create-game_page-15-1 img {
+  height: 100%;
+}
+
+.background-cs-6-3 {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+.background-cs-6-3_24 {
+  background: url("../img/gakvetilebi/Computer-Science/Class-6/embedded-cycles-3/cs-6-3-24.svg") center no-repeat;
+  background-size: cover;
+}
+.background-cs-6-3_25 {
+  background: url("../img/gakvetilebi/Computer-Science/Class-6/embedded-cycles-3/cs-6-3-25.svg") center no-repeat;
+  background-size: cover;
+}
+.background-cs-6-3_26 {
+  background: url("../img/gakvetilebi/Computer-Science/Class-6/embedded-cycles-3/cs-6-3-26.svg") center no-repeat;
+  background-size: cover;
+}
+.background-cs-6-3_27 {
+  background: url("../img/gakvetilebi/Computer-Science/Class-6/embedded-cycles-3/cs-6-3-27.svg") center no-repeat;
+  background-size: cover;
+}
+
+.embedded-cycles_page-13-1 {
+  height: 43vh;
+  max-height: 334px;
+}
+.embedded-cycles_page-13-1 img {
+  height: 100%;
+}
+.embedded-cycles_page-14-1 {
+  height: 65vh;
+  max-height: 501px;
+}
+.embedded-cycles_page-14-1 video {
   height: 100%;
 }
 
