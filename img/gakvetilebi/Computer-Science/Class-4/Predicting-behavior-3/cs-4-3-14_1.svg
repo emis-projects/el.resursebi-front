@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="278.685" height="57.138" viewBox="0 0 278.685 57.138">
+    <defs>
+        <style>.a{fill:#947dce;}.b{fill:none;stroke:#947dce;stroke-miterlimit:10;stroke-width:1.685px;}</style>
+    </defs>
+    <g transform="translate(0.843 0.843)">
+        <g transform="translate(18.407 8.607)">
+            <path class="a"
+                  d="M338.908,334.738l-.281-22.061,5.947-.076-9.525-16.015-9.113,16.252,5.947-.076.281,22.062Z"
+                  transform="translate(-325.936 -296.586)"/>
+        </g>
+        <g transform="translate(129.179 8.607)">
+            <path class="a"
+                  d="M445.085,334.738l-.281-22.061,5.947-.076-9.525-16.015-9.113,16.252,5.947-.076.281,22.062Z"
+                  transform="translate(-432.113 -296.586)"/>
+        </g>
+        <g transform="translate(69.866 12.666)">
+            <path class="a"
+                  d="M382.006,334.656a22.817,22.817,0,0,1,4.623-13.315,38.25,38.25,0,0,1,4.99-5.636,53.737,53.737,0,0,1,4.947-4.07l3.509,4.8a60.764,60.764,0,0,1,8.507-15.466,69.76,69.76,0,0,0-19.5.415l3.509,4.8a60.653,60.653,0,0,0-5.578,4.591,45.124,45.124,0,0,0-5.871,6.644,29.585,29.585,0,0,0-5.877,17.233Z"
+                  transform="translate(-375.26 -300.477)"/>
+        </g>
+        <g transform="translate(177.227 12.666)">
+            <path class="a"
+                  d="M504.743,334.656a22.817,22.817,0,0,0-4.623-13.315,38.251,38.251,0,0,0-4.99-5.636,53.741,53.741,0,0,0-4.947-4.07l-3.509,4.8a60.765,60.765,0,0,0-8.507-15.466,69.759,69.759,0,0,1,19.5.415l-3.508,4.8a60.654,60.654,0,0,1,5.578,4.591,45.122,45.122,0,0,1,5.872,6.644,29.578,29.578,0,0,1,5.877,17.233Z"
+                  transform="translate(-478.168 -300.477)"/>
+        </g>
+        <g transform="translate(0 0)">
+            <rect class="b" width="55.452" height="55.452" transform="translate(55.452 55.452) rotate(-180)"/>
+            <rect class="b" width="55.452" height="55.452" transform="translate(110.839 55.452) rotate(-180)"/>
+            <rect class="b" width="55.452" height="55.452" transform="translate(166.226 55.452) rotate(-180)"/>
+            <rect class="b" width="55.452" height="55.452" transform="translate(221.613 55.452) rotate(-180)"/>
+            <rect class="b" width="55.452" height="55.452" transform="translate(277 55.452) rotate(-180)"/>
+        </g>
+        <g transform="translate(229.274 9.16)">
+            <g transform="translate(24.542 5.752)">
+                <path class="a" d="M566.968,319.2l.07-16.571-15.458,10.42Z" transform="translate(-551.581 -302.629)"/>
+            </g>
+            <path class="a"
+                  d="M546.647,334.25a18.563,18.563,0,1,1,17.432-24.889l-5.754,2.087a12.441,12.441,0,1,0-7.457,15.936l2.087,5.755A18.487,18.487,0,0,1,546.647,334.25Z"
+                  transform="translate(-528.057 -297.115)"/>
+        </g>
+    </g>
+</svg>
