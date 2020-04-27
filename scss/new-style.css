@@ -262,7 +262,7 @@
 
 .chat .chat_converse .chat_msg_item.chat_msg_item_admin .chat_msg_item-text {
   display: block;
-  color: #C5CBCD;
+  color: #0B2228;
   font-family: "DejaVuSans", sans-serif;
   font-size: 14px;
   padding: 10px 15px;
@@ -289,7 +289,7 @@
   font-size: 14px;
   padding: 10px 15px;
   margin-bottom: 5px;
-  color: #C5CBCD;
+  color: #0B2228;
 }
 
 .chat .chat_converse .chat_msg_item.chat_msg_item_admin:before {
@@ -1517,7 +1517,11 @@ body {
 }
 
 .info-box {
-  margin-top: 5vh;
+  height: 84vh;
+  margin-top: 3vh;
+  position: relative;
+  z-index: 9999999;
+  background: #fff;
 }
 
 .info-box a {
@@ -1981,7 +1985,7 @@ body {
   top: 0;
   bottom: 0;
   background: #fff;
-  z-index: 5;
+  z-index: 99999;
 }
 
 #app .class-pagination div {
@@ -8889,7 +8893,7 @@ section .arrow_up_down_downArrow img {
 
 .chat .chat_converse .chat_msg_item.chat_msg_item_admin .chat_msg_item-text {
   display: block;
-  color: #C5CBCD;
+  color: #0B2228;
   font-family: "DejaVuSans", sans-serif;
   font-size: 14px;
   padding: 10px 15px;
@@ -8916,7 +8920,7 @@ section .arrow_up_down_downArrow img {
   font-size: 14px;
   padding: 10px 15px;
   margin-bottom: 5px;
-  color: #C5CBCD;
+  color: #0B2228;
 }
 
 .chat .chat_converse .chat_msg_item.chat_msg_item_admin:before {
@@ -38425,4 +38429,3 @@ body {
     font-size: 14px;
   }
 }
-/*# sourceMappingURL=new-style.css.map */
