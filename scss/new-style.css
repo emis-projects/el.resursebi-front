@@ -36800,6 +36800,33 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-4/Predicting-behavior-3/cs-4-3-22-img.svg");
 }
 
+.cs-3-7-div-1 {
+  height: 62.36vh;
+}
+
+.cs-3-7-div-1-img {
+  margin: 6vh auto 4vh;
+}
+
+.cs-3-7-div-3-img {
+  height: 20vh;
+}
+
+.cs-3-7-div-4-img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 52.73vh;
+}
+
+.cs-3-7-div-5-img {
+  height: 39.84vh;
+}
+
+.cs-3-7-div img {
+  height: 100%;
+}
+
 body {
   color: #262626;
   font-size: 14px;
