@@ -75,18 +75,6 @@
     }
   }
 
-  .text-box_arrow.active {
-    background: #F8D24B;
-
-    &:after {
-      border-color: transparent transparent transparent #F8D24B;
-    }
-
-    &:before {
-      border-color: #F8D24B #F8D24B #F8D24B transparent;
-    }
-  }
-
   .text-box_arrow.error {
     background: #dc6c85;
 
@@ -109,5 +97,54 @@
     &:before {
       border-color: #82D1A1 #82D1A1 #82D1A1 transparent;
     }
+  }
+
+  ._page-13 {
+    height: 42vh;
+    max-height: 322px;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &_page-14 {
+    height: 58vh;
+    max-height: 447px;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &_page-14 {
+    height: 40vh;
+    max-height: 310px;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &_page-16 {
+    height: 40vh;
+    max-height: 305px;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &_page-3_1 {
+    height: 40vh;
+    max-height: 310px;
   }
 }
