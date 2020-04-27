@@ -35,20 +35,19 @@
     app-menu & app-section თეგებს vlogo & v-image არგუმენტად უნდა გადაეცეს
     ტექსტი დონეების მითითებით მაგ: ""'../../'"
 -->
-    <section class="container position-absolute" id="app">
+    <section class="position-absolute container" id="app">
         <header>
-            <app-menu :is-active="isActive" :toggle="toggle" v-logo="'../../../'"></app-menu>
+            <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../../'"></app-menu>
         </header>
 
-        <app-section :is-active="isActive" v-image="'../../../'">
+        <app-section :is-active="isActive" :is-info="isInfo" v-image="'../../../'">
             <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger"
                      v-on:link-tab="link = $event">
 
             </app-bar>
             <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive"
-                       :is-info="isInfo" :path="path" :tab-class="currentTabComponent"> :trigger="trigger">
+                       :is-info="isInfo" :path="path" :tab-class="currentTabComponent" :trigger="trigger">
             </component>
-
         </app-section>
     </section>
 
@@ -63,7 +62,7 @@
             </div>
             <div class="col-12">
                 <p class="text-center dj-3vh mt-8vh">
-                  მომხმარებლის გრაფიკული ინტერფეისი
+                    მომხმარებლის გრაფიკული ინტერფეისი
                 </p>
             </div>
 

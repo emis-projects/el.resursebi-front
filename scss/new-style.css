@@ -36800,6 +36800,63 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-4/Predicting-behavior-3/cs-4-3-22-img.svg");
 }
 
+.class_3_7-img-bg-blue {
+  background-image: url("../../../../../img/gakvetilebi/Computer-Science/Class-3/Visual-programing-7/C-3-7-6-blue.svg");
+  height: 6.1vh;
+  max-height: 46.9px;
+  width: 9.5vw;
+  max-width: 130px;
+}
+
+.class_3_7-img_box_7 {
+  height: 41vh;
+  max-height: 315.6px;
+}
+
+.class_3_7-img_box_7 img {
+  height: 100%;
+}
+
+.class_3_7-img_box_8 {
+  height: 41.38vh;
+  max-height: 317.8px;
+}
+
+.class_3_7-img_box_8 img {
+  height: 100%;
+}
+
+.class_3_7-img_box_9 {
+  position: fixed;
+  bottom: 0;
+  height: 56.9vh;
+  max-height: 437.5px;
+}
+
+.class_3_7-img_box_9 img {
+  height: 100%;
+}
+
+.class_3_7-img_box_10 {
+  height: 35.87vh;
+  max-height: 275.5px;
+}
+
+.class_3_7-img_box_10 img {
+  height: 100%;
+}
+
+.class_3_7-img_box_11 {
+  position: fixed;
+  bottom: 0;
+  height: 50.5vh;
+  max-height: 388px;
+}
+
+.class_3_7-img_box_11 img {
+  height: 100%;
+}
+
 .visual-programing_page-12 div {
   bottom: 0;
 }
@@ -37101,6 +37158,52 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .create-game_page-15-1 img {
+  height: 100%;
+}
+
+.background-cs-6-3 {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+.background-cs-6-3_24 {
+  background: url("../img/gakvetilebi/Computer-Science/Class-6/embedded-cycles-3/cs-6-3-24.svg") center no-repeat;
+  background-size: cover;
+}
+
+.background-cs-6-3_25 {
+  background: url("../img/gakvetilebi/Computer-Science/Class-6/embedded-cycles-3/cs-6-3-25.svg") center no-repeat;
+  background-size: cover;
+}
+
+.background-cs-6-3_26 {
+  background: url("../img/gakvetilebi/Computer-Science/Class-6/embedded-cycles-3/cs-6-3-26.svg") center no-repeat;
+  background-size: cover;
+}
+
+.background-cs-6-3_27 {
+  background: url("../img/gakvetilebi/Computer-Science/Class-6/embedded-cycles-3/cs-6-3-27.svg") center no-repeat;
+  background-size: cover;
+}
+
+.embedded-cycles_page-13-1 {
+  height: 43vh;
+  max-height: 334px;
+}
+
+.embedded-cycles_page-13-1 img {
+  height: 100%;
+}
+
+.embedded-cycles_page-14-1 {
+  height: 65vh;
+  max-height: 501px;
+}
+
+.embedded-cycles_page-14-1 video {
   height: 100%;
 }
 
