@@ -786,7 +786,6 @@
   font-style: normal;
   font-display: block;
 }
-
 [class^=icon-], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: "icomoon" !important;
@@ -900,7 +899,6 @@
   font-weight: normal;
   font-style: normal;
 }
-
 [class^=arrow-]:before, [class*=" arrow-"]:before {
   font-family: "fontello";
   font-style: normal;
@@ -8634,9 +8632,9 @@ section .arrow_up_down_downArrow img {
 }
 
 .m_exercise_text-container_16px {
-  color: #0B2228;
-  font-size: 2.08 h;
-  font-family: "BPG Arial";
+    color: #0B2228;
+    font-size: 2.08 h;
+    font-family: "BPG Arial";
 }
 
 .music-andantino-lyrics-div {
