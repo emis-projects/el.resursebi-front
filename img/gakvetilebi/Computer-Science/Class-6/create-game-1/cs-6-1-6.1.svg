@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="338.805" height="467.865" viewBox="0 0 338.805 467.865">
+    <defs>
+        <style>
+            .a{fill:#6eb0d2;stroke:#6199b8;stroke-width:0.886px;}.a,.c,.f,.h,.i,.k{stroke-miterlimit:10;}.b,.d,.e,.g,.j{fill:#fff;}.b{font-size:19px;}.b,.e,.g,.j{font-family:BPGArial,
+            BPG
+            Arial;}.c,.k{fill:#5ea7cd;stroke:#5496b8;}.c{stroke-width:1.209px;}.e{font-size:18px;}.f,.h{fill:#f8db53;}.f,.h,.i{stroke:#fff;}.g{font-size:16px;}.h,.i{stroke-width:0.934px;}.i{fill:#f85e53;}.j{font-size:20px;}.k{stroke-width:0.94px;}
+        </style>
+    </defs>
+    <g transform="translate(-232.381 -136.557)">
+        <g transform="translate(233 137)">
+            <path class="a" d="M239.094,318.4l25.154-26.441H551.515L576.669,318.4l-24.823,26.093h-286.6Z"
+                  transform="translate(-239.094 -291.954)"/>
+            <text class="b" transform="translate(63.425 29.544)">
+                <tspan x="-35.991" y="0">touching</tspan>
+            </text>
+            <rect class="c" width="171.939" height="34.317" rx="12.5" transform="translate(111.332 9.109)"/>
+            <text class="b" transform="translate(180.232 29.544)">
+                <tspan x="-60.609" y="0">mouse-pointer</tspan>
+            </text>
+            <text class="b" transform="translate(302.308 31.302)">
+                <tspan x="-5.283" y="0">?</tspan>
+            </text>
+            <path class="d"
+                  d="M428.835,307.664H443.7a.935.935,0,0,1,.66,1.6l-7.429,7.431a.936.936,0,0,1-1.323,0l-7.429-7.431A.935.935,0,0,1,428.835,307.664Z"
+                  transform="translate(-168.719 -286.099)"/>
+        </g>
+        <g transform="translate(233 275)">
+            <path class="a" d="M235.5,400.983l24.02-25.249H490.987l24.02,25.249L491.3,425.9H260.472Z"
+                  transform="translate(-235.504 -375.734)"/>
+            <text class="e" transform="translate(88.773 30.792)">
+                <tspan x="-56.246" y="0">touching color</tspan>
+            </text>
+            <path class="f"
+                  d="M12.5,0H33.593a12.5,12.5,0,0,1,12.5,12.5V20.27a12.5,12.5,0,0,1-12.5,12.5H12.5A12.5,12.5,0,0,1,0,20.27V12.5A12.5,12.5,0,0,1,12.5,0Z"
+                  transform="translate(174.197 8.698)"/>
+            <text class="g" transform="translate(239.614 30.471)">
+                <tspan x="-4.449" y="0">?</tspan>
+            </text>
+        </g>
+        <g transform="translate(233 412)">
+            <path class="a" d="M235.5,485.955l25.154-26.441h286.5l25.154,26.441L547.49,512.048H261.651Z"
+                  transform="translate(-235.504 -459.514)"/>
+            <text class="b" transform="translate(49.766 32.49)">
+                <tspan x="-20.74" y="0">color</tspan>
+            </text>
+            <text class="b" transform="translate(183.074 32.49)">
+                <tspan x="-45.491" y="0">is touching</tspan>
+            </text>
+            <path class="h"
+                  d="M12.5,0H29.64a12.5,12.5,0,0,1,12.5,12.5v9.318a12.5,12.5,0,0,1-12.5,12.5H12.5A12.5,12.5,0,0,1,0,21.818V12.5A12.5,12.5,0,0,1,12.5,0Z"
+                  transform="translate(84.352 9.109)"/>
+            <path class="i"
+                  d="M12.5,0H29.64a12.5,12.5,0,0,1,12.5,12.5v9.318a12.5,12.5,0,0,1-12.5,12.5H12.5A12.5,12.5,0,0,1,0,21.818V12.5A12.5,12.5,0,0,1,12.5,0Z"
+                  transform="translate(245.633 9.109)"/>
+            <text class="b" transform="translate(303.841 34.249)">
+                <tspan x="-5.283" y="0">?</tspan>
+            </text>
+        </g>
+        <g transform="translate(-699.692 176.066)">
+            <path class="a" d="M932.693,401.1l25.846-27.169h227.308l25.846,27.169-25.506,26.811H959.559Z"
+                  transform="translate(0 0)"/>
+            <text class="j" transform="translate(998.872 404.823)">
+                <tspan x="-37.886" y="0">touching</tspan>
+            </text>
+            <rect class="k" width="106.743" height="35.261" rx="12.5" transform="translate(1047.086 383.293)"/>
+            <text class="j" transform="translate(1081.337 404.823)">
+                <tspan x="-22.246" y="0">edge</tspan>
+            </text>
+            <text class="b" transform="translate(1169.569 405.629)">
+                <tspan x="-5.283" y="0">?</tspan>
+            </text>
+            <path class="d"
+                  d="M1066.925,389.643h15.269a.961.961,0,0,1,.68,1.64l-7.635,7.635a.96.96,0,0,1-1.358,0l-7.635-7.635A.961.961,0,0,1,1066.925,389.643Z"
+                  transform="translate(54.706 6.449)"/>
+        </g>
+    </g>
+</svg>

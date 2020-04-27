@@ -962,8 +962,8 @@ let title = {
         },
         {
             id: 7,
-            name: 'სათაური',
-            link: '#'
+            name: 'გავეცნოთ ვიზუალურ პროგრამირებას',
+            link: 'Computer-Science/Class-3/Visual-programing-7/1.html'
         },
         {
             id: 8,
@@ -1004,8 +1004,8 @@ let title = {
         },
         {
             id: 3,
-            name: 'კომპიუტერი 4 კლასი 3 გაკვ',
-            link: '#'
+            name: 'პროგრამის ქცევის პროგნოზირება',
+            link: 'Computer-Science/Class-4/Predicting-behavior-3/1.html'
         },
         {
             id: 4,
