@@ -36825,6 +36825,10 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   line-height: 1.4;
 }
 
+.class_3_7-bottom {
+  margin-bottom: -3.5vh !important;
+}
+
 .class_3_7-img-bg-black {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-3/Visual-programing-7/C-3-7-6-black.svg");
   background-repeat: no-repeat;
