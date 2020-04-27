@@ -36762,6 +36762,44 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   border-color: #947dce;
 }
 
+.cs-4-3-div-16-img {
+  height: 44.27vh;
+}
+
+.cs-4-3-div-17-img {
+  height: 48.17vh;
+}
+
+.cs-4-3-div-18-img {
+  height: 18.35vh;
+}
+
+.cs-4-3-div img {
+  height: 100%;
+}
+
+.background-cs-4-3 {
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-4-3-19 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/Predicting-behavior-3/cs-4-3-19-img.svg");
+}
+
+.background-cs-4-3-20 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/Predicting-behavior-3/cs-4-3-20-img.svg");
+}
+
+.background-cs-4-3-21 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/Predicting-behavior-3/cs-4-3-21-img.svg");
+}
+
+.background-cs-4-3-22 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/Predicting-behavior-3/cs-4-3-22-img.svg");
+}
+
 .cs-3-7-17-img {
   height: 41.27vh;
   margin: 5vh auto 0;
