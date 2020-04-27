@@ -36526,6 +36526,89 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-4/Text-editor-&-tools-7/cs-4-7-26-img.svg");
 }
 
+.class_4_3-img_box_6 {
+  height: 42.78vh;
+  max-height: 328.6px;
+}
+
+.class_4_3-img_box_6 img {
+  height: 100%;
+}
+
+.class_4_3-img_box_7 {
+  height: 49.97vh;
+  max-height: 383.8px;
+}
+
+.class_4_3-img_box_7 img {
+  height: 100%;
+}
+
+.class_4_3-img_box_7_1 {
+  height: 14.25vh;
+  max-height: 109.5px;
+}
+
+.class_4_3-img_box_7_1 img {
+  height: 100%;
+}
+
+.class_4_3-img_box_8 {
+  position: fixed;
+  bottom: 0;
+  height: 64.84vh;
+  max-height: 498px;
+}
+
+.class_4_3-img_box_8 img {
+  height: 100%;
+}
+
+.class_4_3-img_box_9 {
+  position: fixed;
+  bottom: 0;
+  height: 57.79vh;
+  max-height: 443.9px;
+}
+
+.class_4_3-img_box_9 img {
+  height: 100%;
+}
+
+.class_4_3-img_box_10 {
+  height: 39.8vh;
+  max-height: 306px;
+}
+
+.class_4_3-img_box_10 img {
+  height: 100%;
+}
+
+.class_4_3-img_box_11 {
+  height: 50vh;
+  max-height: 385px;
+}
+
+.class_4_3-img_box_11 img {
+  height: 100%;
+}
+
+.circle.checkmark_box {
+  border: 1px solid #947DCE;
+  height: 2.7vh;
+  width: 1.5vw;
+  margin: 1vh 1.2vh;
+  background-color: #b6b5ba00;
+}
+
+.checkmark_box.circle-fill {
+  background-color: #947DCE !important;
+}
+
+.checkmark_box.error {
+  background-color: #DC6C85;
+}
+
 .protect-behavior_page-12 {
   height: 53vh;
   max-height: 405px;
