@@ -36817,7 +36817,6 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-<<<<<<< HEAD
   height: 6.1vh;
   max-height: 46.9px;
   width: 9.5vw;
@@ -36828,8 +36827,6 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 .class_3_7-img-bg-blue p {
   padding: 0 1vh;
   line-height: 1.4;
-=======
->>>>>>> 56c4d4d4c604ee25b970a1b571bd8bb06b37a151
 }
 
 .class_3_7-bottom {
