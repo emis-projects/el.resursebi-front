@@ -1141,8 +1141,8 @@ let title = {
         },
         {
             id: 18,
-            name: 'სათაური',
-            link: '#'
+            name: 'დიაგრამა ელოქტრონულ ცხრილში',
+            link: 'Computer-Science/Class-5/diagram-in-electronic-table-18/1.html'
         },
         {
             id: 19,
