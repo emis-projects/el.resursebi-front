@@ -1178,8 +1178,8 @@ let title = {
     IT_6: [
         {
             id: 1,
-            name: 'კომპიუტერი 6 კლასი 1 გაკვ',
-            link: 'Computer-Science/Computer_parts/C-1366-01-01.html'
+            name: 'ვიწყებთ თამაშის კეთებას',
+            link: 'Computer-Science/Class-6/create-game-1/1.html'
         },
         {
             id: 2,
