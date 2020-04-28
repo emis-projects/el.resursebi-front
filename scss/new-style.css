@@ -30276,20 +30276,17 @@ img.mfp-img[alt*=cs-3-6-6-img] {
   height: 100%;
 }
 
-.circle.checkmark_box {
-  border: 1px solid #947DCE;
-  height: 2.7vh;
-  width: 1.5vw;
-  margin: 1vh 1.2vh;
-  background-color: #b6b5ba00;
+.checkmark_box {
+  border-radius: 1vh;
+  height: 3.25vh;
+  width: 3.25vh;
+  margin: 0.5vh 2vh 1vh 0;
+  border: 2px solid #696969;
 }
 
 .checkmark_box.circle-fill {
-  background-color: #947DCE !important;
-}
-
-.checkmark_box.error {
-  background-color: #DC6C85;
+  background-color: #947dce;
+  border-color: #947dce;
 }
 
 .protect-behavior_page-12 {
@@ -30447,19 +30444,50 @@ img.mfp-img[alt*=cs-3-6-6-img] {
 }
 
 .class_3_7-img-bg-blue {
-  background-image: url("../../../../../img/gakvetilebi/Computer-Science/Class-3/Visual-programing-7/C-3-7-6-blue.svg");
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/Visual-programing-7/C-3-7-6-blue.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 6.1vh;
   max-height: 46.9px;
   width: 9.5vw;
   max-width: 130px;
+  color: #ffffff;
 }
+
+.class_3_7-img-bg-blue p {
+  padding: 0 1vh;
+  line-height: 1.4;
+}
+
+.class_3_7-bottom {
+  margin-bottom: -3.5vh !important;
+}
+
+.class_3_7-img-bg-black {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/Visual-programing-7/C-3-7-6-black.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 7.7vh;
+  max-height: 50.6px;
+  width: 10.24vw;
+  max-width: 140px;
+}
+
 .class_3_7-img_box_7 {
   height: 41vh;
   max-height: 315.6px;
 }
+
 .class_3_7-img_box_7 img {
   height: 100%;
 }
+
 .class_3_7-img_box_8 {
   height: 41.38vh;
   max-height: 317.8px;
@@ -30687,22 +30715,110 @@ img.mfp-img[alt*=cs-3-6-6-img] {
   height: 51.17vh;
   margin: 5vh auto 0;
 }
+
 .cs-6-1-7-img {
   height: 38.02vh;
   margin: 12vh auto 0;
 }
+
 .cs-6-1-8-img {
   height: 41.27vh;
   margin: 10vh auto 0;
+}
+
+.class_6_1-img_box_9 {
+  position: fixed;
+  bottom: 0;
+  height: 61.97vh;
+  max-height: 476px;
+}
+
+.class_6_1-img_box_9 img {
+  height: 100%;
+}
+
+.class_6_1-img_box_10 {
+  height: 47.59vh;
+  max-height: 365.5px;
+}
+
+.class_6_1-img_box_10 img {
+  height: 100%;
+}
+
+.class_6_1-img_box_11 {
+  height: 45.92vh;
+  max-height: 352.7px;
+}
+
+.class_6_1-img_box_11 img {
+  height: 100%;
+}
+
+.class_6_1-img_box_12 {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  height: 52.7vh;
+  max-height: 405px;
+}
+
+.class_6_1-img_box_12 img {
+  height: 100%;
+}
+
+.class_6_1-img_box_13 {
+  position: fixed;
+  bottom: 0;
+  height: 49.7vh;
+  max-height: 381.89px;
+}
+
+.class_6_1-img_box_13 img {
+  height: 100%;
+}
+
+.class_6_1-img_box_14 {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  height: 69.79vh;
+  max-height: 536px;
+}
+
+.class_6_1-img_box_14 img {
+  height: 100%;
+}
+
+.class_6_1-img_box_15 {
+  height: 35.28vh;
+  max-height: 271px;
+}
+
+.class_6_1-img_box_15 img {
+  height: 100%;
+}
+
+.class_6_1-img_box_16 {
+  position: fixed;
+  bottom: 0;
+  height: 67.9vh;
+  max-height: 521.5px;
+}
+
+.class_6_1-img_box_16 img {
+  height: 100%;
 }
 
 .create-game_page-6-1 {
   height: 61vh;
   max-height: 467px;
 }
+
 .create-game_page-6-1 img {
   max-height: 100%;
 }
+
 .create-game_page-7-1 {
   height: 51vh;
   max-height: 395px;
@@ -30728,15 +30844,147 @@ img.mfp-img[alt*=cs-3-6-6-img] {
   height: 48vh;
   max-height: 367px;
 }
+
 .create-game_page-14-1 img {
   height: 100%;
 }
+
 .create-game_page-15-1 {
   height: 74vh;
   max-height: 568px;
 }
+
 .create-game_page-15-1 img {
   height: 100%;
+}
+
+.cs-6-3-div-1-img {
+  height: 58.33vh;
+  margin: 8vh auto 5vh;
+}
+
+.cs-6-3-div-3-img {
+  height: 36.19vh;
+}
+
+.cs-6-3-div-4-img {
+  height: 51.17vh;
+}
+
+.cs-6-3-div-5-img {
+  height: 57.68vh;
+}
+
+.cs-6-3-div-6-img {
+  height: 52.86vh;
+}
+
+.cs-6-3-div-7-img {
+  height: 50.52vh;
+}
+
+.cs-6-3-div-8-img {
+  height: 64.97vh;
+}
+
+.cs-6-3-div img {
+  height: 100%;
+}
+
+.cs-6-3-9-img {
+  height: 37.76vh;
+  margin-top: 2vh;
+}
+
+.cs-6-3-10-img {
+  height: 66.71vh;
+  position: relative;
+  right: -17vh;
+  top: 2vh;
+}
+
+.cs-6-3-11-img {
+  height: 53.38vh;
+  margin-top: 2vh;
+}
+
+.cs-6-3-12-img {
+  height: 45.96vh;
+  margin-top: 1vh;
+}
+
+.cs-6-3-13-img {
+  height: 43.61vh;
+  margin-top: 5vh;
+}
+
+.cs-6-3-15-img {
+  height: 44.92vh;
+  margin-top: 7vh;
+}
+
+.class_6_3-img_box_17 {
+  height: 27.95vh;
+  max-height: 214.7px;
+}
+
+.class_6_3-img_box_17 img {
+  height: 100%;
+}
+
+.class_6_3-img_box_18 {
+  position: fixed;
+  bottom: 0;
+  right: 24.69vh;
+  height: 58.3vh;
+  max-height: 447.89px;
+}
+
+.class_6_3-img_box_18 img {
+  height: 100%;
+}
+
+.class_6_3-img_box_19 {
+  position: fixed;
+  bottom: 0;
+  height: 60.2vh;
+  max-height: 462.6px;
+}
+
+.class_6_3-img_box_19 img {
+  height: 100%;
+}
+
+.class_6_3-img_box_20 {
+  height: 27.86vh;
+  max-height: 214px;
+}
+
+.class_6_3-img_box_20 img {
+  height: 100%;
+}
+
+.class_6_3-img_box_21 {
+  height: 47.6vh;
+  max-height: 365.6px;
+}
+
+.class_6_3-img_box_21 img {
+  height: 100%;
+}
+
+.class_6_3-img_box_22 {
+  height: 27.2vh;
+  max-height: 209px;
+}
+
+.class_6_3-img_box_22 img {
+  height: 100%;
+}
+
+.class_6_3-video_box_23 video {
+  width: 65.95vw;
+  height: 65.23vh;
 }
 
 .background-cs-6-3 {
@@ -30746,6 +30994,7 @@ img.mfp-img[alt*=cs-3-6-6-img] {
   left: 0;
   top: 0;
 }
+
 .background-cs-6-3_24 {
   background: url("../img/gakvetilebi/Computer-Science/Class-6/embedded-cycles-3/cs-6-3-24.svg") center no-repeat;
   background-size: cover;
@@ -30816,59 +31065,6 @@ img.mfp-img[alt*=cs-3-6-6-img] {
   height: 100%;
 }
 
-.cs-6-3-9-img {
-  height: 37.76vh;
-  margin-top: 2vh;
-}
-.cs-6-3-10-img {
-  height: 66.71vh;
-  position: relative;
-  right: -17vh;
-  top: 2vh;
-}
-.cs-6-3-11-img {
-  height: 53.38vh;
-  margin-top: 2vh;
-}
-.cs-6-3-12-img {
-  height: 45.96vh;
-  margin-top: 1vh;
-}
-.cs-6-3-13-img {
-  height: 43.61vh;
-  margin-top: 5vh;
-}
-.cs-6-3-15-img {
-  height: 44.92vh;
-  margin-top: 7vh;
-}
-
-.cs-6-3-div-1-img {
-  height: 58.33vh;
-  margin: 8vh auto 5vh;
-}
-.cs-6-3-div-3-img {
-  height: 36.19vh;
-}
-.cs-6-3-div-4-img {
-  height: 51.17vh;
-}
-.cs-6-3-div-5-img {
-  height: 57.68vh;
-}
-.cs-6-3-div-6-img {
-  height: 52.86vh;
-}
-.cs-6-3-div-7-img {
-  height: 50.52vh;
-}
-.cs-6-3-div-8-img {
-  height: 64.97vh;
-}
-.cs-6-3-div img {
-  height: 100%;
-}
-
 .cs-5-18-1-img {
   height: 53.64vh;
   margin: 8vh auto 5vh;
@@ -30891,13 +31087,112 @@ img.mfp-img[alt*=cs-3-6-6-img] {
   height: 58.33vh;
   margin-top: 9vh;
 }
+
 .cs-5-18-7-img {
   height: 54.55vh;
   position: relative;
   bottom: 8vh;
 }
+
 .cs-5-18-8-img {
   height: 58.33vh;
+}
+
+.class_5_18-img_box_9 {
+  position: fixed;
+  bottom: 0;
+  height: 53vh;
+  max-height: 408px;
+}
+
+.class_5_18-img_box_9 img {
+  height: 100%;
+}
+
+.class_5_18-img_exel {
+  display: inline;
+  vertical-align: middle;
+  height: 4.1vh;
+  max-height: 27px;
+}
+
+.class_5_18-img_exel img {
+  height: 100%;
+}
+
+.class_5_18-img_box_10 {
+  position: fixed;
+  bottom: 0;
+  height: 60.66vh;
+  max-height: 465.9px;
+}
+
+.class_5_18-img_box_10 img {
+  height: 100%;
+}
+
+.class_5_18-img_box_11 {
+  position: fixed;
+  bottom: 0;
+  height: 48.56vh;
+  max-height: 373px;
+}
+
+.class_5_18-img_box_11 img {
+  height: 100%;
+}
+
+.class_5_18-img_box_12 {
+  position: fixed;
+  bottom: 0;
+  height: 56.64vh;
+  max-height: 435px;
+}
+
+.class_5_18-img_box_12 img {
+  height: 100%;
+}
+
+.class_5_18-img_box_13 {
+  position: fixed;
+  bottom: 0;
+  height: 50vh;
+  max-height: 384px;
+}
+
+.class_5_18-img_box_13 img {
+  height: 100%;
+}
+
+.class_5_18-img_box_14 {
+  position: fixed;
+  bottom: 0;
+  height: 65.36vh;
+  max-height: 502px;
+}
+
+.class_5_18-img_box_14 img {
+  height: 100%;
+}
+
+.class_5_18-img_box_15 {
+  position: fixed;
+  bottom: 0;
+  height: 46.6vh;
+  max-height: 358px;
+}
+
+.class_5_18-img_box_15 img {
+  height: 100%;
+}
+
+.class_5_18-img_box_16 {
+  height: 34.6vh;
+  max-height: 265.8px;
+}
+
+.class_5_18-img_box_16 img {
+  height: 100%;
 }
 
 .cs-5-18-div-22-img {
@@ -30907,6 +31202,7 @@ img.mfp-img[alt*=cs-3-6-6-img] {
   transform: translate(-50%, 0);
   bottom: 0;
 }
+
 .cs-5-18-div-23-img {
   height: 65.36vh;
   position: absolute;
