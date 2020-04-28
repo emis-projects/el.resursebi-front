@@ -10,9 +10,8 @@ function game(){
     let completedGame = document.getElementById('completedGame');
 
 
-    $(dragElement2).on('dragstart', (e) => this.dragStart(e));
-    $(dragElement2).on('dragend', (e) => this.dragEnd(e));
-
+    $(dragElement2).on('dragstart', 'div', () => this.dragStart(e));
+    $(dragElement2).on('dragend', 'div', () => this.dragEnd(e));
 
 
 
@@ -38,21 +37,6 @@ function game(){
     document.addEventListener('DOMContentLoaded', () => {
         dragElement2MyArray.forEach(w => {
             w.setAttribute('data-class', w.getAttribute('class'))
-
-            let childIndex = w.getAttribute('data-index');
-
-            w.parentElement.setAttribute('data-childIndex', childIndex)
-            
-
-            if(w.querySelector('a')){
-                w.setAttribute('data-href', w.querySelector('a').getAttribute('href'))
-
-            } else {
-                w.parentElement.setAttribute('data-title', w.innerText)
-            }
-        })
-        dragElement1MyArray.forEach((w, i) => {
-            w.setAttribute('data-index', i)
         })
     })
     
@@ -65,7 +49,9 @@ function game(){
 
     // drag start 
     this.dragStart = (e) => {
+        
         setTimeout(() => {
+            $( e.target ).clone().appendTo( e.target.parentElement );
             e.target.className = "draggedElement"
         }, 0);
     }
@@ -84,7 +70,7 @@ function game(){
     }
 
 
-    this.checkEveryElement = (element) => document.querySelector('.DragGame—childs2-1').getAttribute('data-index') == element.parentElement.getAttribute('data-index');
+    this.checkEveryElement = (element) => element.getAttribute('data-index') == element.parentElement.getAttribute('data-index');
 
 
 
@@ -92,7 +78,7 @@ function game(){
         let el = dragElement2MyArray.every(this.checkEveryElement)
 
 		if(el == true){
-            location.href = "game-success-12.html" 
+            location.href = "game-success-6.html" 
 
         } else {
             this.errorPage()
@@ -103,10 +89,10 @@ function game(){
     this.errorPage = () => {
         dragElement2MyArray.forEach(w => {
             if(w.getAttribute('data-index') !== w.parentElement.getAttribute('data-index')){
-                w.parentElement.classList.add('error')
+                w.querySelector('p').setAttribute('style', 'color: #dc6c85')
 
             } else if(w.getAttribute('data-index') == w.parentElement.getAttribute('data-index')) {
-                w.parentElement.classList.add('success')
+                w.querySelector('p').setAttribute('style', 'color: #a1dd6f')
             }
         })
     }

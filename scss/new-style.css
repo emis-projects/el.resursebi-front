@@ -36817,16 +36817,6 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  height: 6.1vh;
-  max-height: 46.9px;
-  width: 9.5vw;
-  max-width: 130px;
-  color: #ffffff;
-}
-
-.class_3_7-img-bg-blue p {
-  padding: 0 1vh;
-  line-height: 1.4;
 }
 
 .class_3_7-bottom {
@@ -36850,6 +36840,11 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   max-height: 50.6px;
   width: 10.24vw;
   max-width: 140px;
+  z-index: 10000;
+}
+
+.class_3_7-img-bg-black .class_3_7-bg-blue {
+  width: 100%;
 }
 
 .class_3_7-img_box_7 {
@@ -36912,7 +36907,7 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 .visual-programing_page-12 .text-box {
   background: #F0B44D;
   font-size: 10px;
-  max-width: 130px;
+  max-width: 120px;
   text-align: left;
   padding: 5px;
   position: relative;
@@ -36987,10 +36982,20 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   top: -28px !important;
 }
 
+.visual-programing .text-box_arrow .text-box-third {
+  left: -50px !important;
+  top: -71px !important;
+}
+
+.visual-programing .text-box_arrow .text-box-fifth {
+  left: -44px !important;
+  top: -56px !important;
+}
+
 .visual-programing .text-box_arrow .text-box {
   background: #F0B44D;
   font-size: 10px;
-  max-width: 160px;
+  max-width: 120px;
   text-align: left;
   padding: 5px;
   color: #fff;

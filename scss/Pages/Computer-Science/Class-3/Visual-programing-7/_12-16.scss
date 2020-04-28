@@ -11,7 +11,7 @@
     .text-box {
       background: #F0B44D;
       font-size: 10px;
-      max-width: 130px;
+      max-width: 120px;
       text-align: left;
       padding: 5px;
       position: relative;
@@ -79,11 +79,20 @@
       top: -28px !important;
     }
 
+    .text-box-third {
+      left: -50px !important;
+      top: -71px !important;
+    }
+    .text-box-fifth {
+      left: -44px !important;
+      top: -56px !important;
+    }
+
 
     .text-box {
       background: #F0B44D;
       font-size: 10px;
-      max-width: 160px;
+      max-width: 120px;
       text-align: left;
       padding: 5px;
       color: #fff;
