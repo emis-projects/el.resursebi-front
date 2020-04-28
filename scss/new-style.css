@@ -786,7 +786,6 @@
   font-style: normal;
   font-display: block;
 }
-
 [class^=icon-], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: "icomoon" !important;
@@ -900,7 +899,6 @@
   font-weight: normal;
   font-style: normal;
 }
-
 [class^=arrow-]:before, [class*=" arrow-"]:before {
   font-family: "fontello";
   font-style: normal;
@@ -8634,9 +8632,9 @@ section .arrow_up_down_downArrow img {
 }
 
 .m_exercise_text-container_16px {
-  color: #0B2228;
-  font-size: 2.08 h;
-  font-family: "BPG Arial";
+    color: #0B2228;
+    font-size: 2.08 h;
+    font-family: "BPG Arial";
 }
 
 .music-andantino-lyrics-div {
@@ -30438,15 +30436,12 @@ img.mfp-img[alt*=cs-3-6-6-img] {
 .background-cs-4-3-19 {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-4/Predicting-behavior-3/cs-4-3-19-img.svg");
 }
-
 .background-cs-4-3-20 {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-4/Predicting-behavior-3/cs-4-3-20-img.svg");
 }
-
 .background-cs-4-3-21 {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-4/Predicting-behavior-3/cs-4-3-21-img.svg");
 }
-
 .background-cs-4-3-22 {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-4/Predicting-behavior-3/cs-4-3-22-img.svg");
 }
@@ -30458,52 +30453,42 @@ img.mfp-img[alt*=cs-3-6-6-img] {
   width: 9.5vw;
   max-width: 130px;
 }
-
 .class_3_7-img_box_7 {
   height: 41vh;
   max-height: 315.6px;
 }
-
 .class_3_7-img_box_7 img {
   height: 100%;
 }
-
 .class_3_7-img_box_8 {
   height: 41.38vh;
   max-height: 317.8px;
 }
-
 .class_3_7-img_box_8 img {
   height: 100%;
 }
-
 .class_3_7-img_box_9 {
   position: fixed;
   bottom: 0;
   height: 56.9vh;
   max-height: 437.5px;
 }
-
 .class_3_7-img_box_9 img {
   height: 100%;
 }
-
 .class_3_7-img_box_10 {
   height: 35.87vh;
   max-height: 275.5px;
 }
-
 .class_3_7-img_box_10 img {
   height: 100%;
 }
-
 .class_3_7-img_box_11 {
   position: fixed;
   bottom: 0;
   height: 50.5vh;
   max-height: 388px;
 }
-
 .class_3_7-img_box_11 img {
   height: 100%;
 }
@@ -30511,11 +30496,9 @@ img.mfp-img[alt*=cs-3-6-6-img] {
 .visual-programing_page-12 div {
   bottom: 0;
 }
-
 .visual-programing_page-12 .small-box {
   max-width: 70px;
 }
-
 .visual-programing_page-12 .text-box {
   background: #F0B44D;
   font-size: 10px;
@@ -30745,16 +30728,13 @@ img.mfp-img[alt*=cs-3-6-6-img] {
   height: 48vh;
   max-height: 367px;
 }
-
 .create-game_page-14-1 img {
   height: 100%;
 }
-
 .create-game_page-15-1 {
   height: 74vh;
   max-height: 568px;
 }
-
 .create-game_page-15-1 img {
   height: 100%;
 }
@@ -30766,22 +30746,18 @@ img.mfp-img[alt*=cs-3-6-6-img] {
   left: 0;
   top: 0;
 }
-
 .background-cs-6-3_24 {
   background: url("../img/gakvetilebi/Computer-Science/Class-6/embedded-cycles-3/cs-6-3-24.svg") center no-repeat;
   background-size: cover;
 }
-
 .background-cs-6-3_25 {
   background: url("../img/gakvetilebi/Computer-Science/Class-6/embedded-cycles-3/cs-6-3-25.svg") center no-repeat;
   background-size: cover;
 }
-
 .background-cs-6-3_26 {
   background: url("../img/gakvetilebi/Computer-Science/Class-6/embedded-cycles-3/cs-6-3-26.svg") center no-repeat;
   background-size: cover;
 }
-
 .background-cs-6-3_27 {
   background: url("../img/gakvetilebi/Computer-Science/Class-6/embedded-cycles-3/cs-6-3-27.svg") center no-repeat;
   background-size: cover;
@@ -30789,30 +30765,78 @@ img.mfp-img[alt*=cs-3-6-6-img] {
 
 .embedded-cycles_page-13-1 {
   height: 43vh;
-  max-height: 334px;
+    max-height: 334px;
 }
 
 .embedded-cycles_page-13-1 img {
-  height: 100%;
+    height: 100%;
 }
 
 .embedded-cycles_page-14-1 {
-  height: 65vh;
-  max-height: 501px;
+    height: 65vh;
+    max-height: 501px;
 }
 
 .embedded-cycles_page-14-1 video {
-  height: 100%;
+    background: #000000;
+    width: 100%;
+}
+
+.embedded-cycles_page-15-1 {
+    height: 65vh;
+    max-height: 501px;
+}
+
+.embedded-cycles_page-15-1 video {
+    background: #000000;
+    width: 100%;
+}
+
+.embedded-cycles_page-16-1 {
+    height: 65vh;
+    max-height: 501px;
+}
+
+.embedded-cycles_page-16-1 video {
+    background: #000000;
+    width: 100%;
+}
+
+.embedded-cycles_page-5-1 {
+    height: 57vh;
+    max-height: 443px;
+}
+
+.embedded-cycles_page-5-1 img {
+    height: 100%;
+}
+
+.embedded-cycles_page-6-1 {
+    height: 52vh;
+    max-height: 405px;
+}
+
+.embedded-cycles_page-6-1 img {
+    height: 100%;
+}
+
+.embedded-cycles_page-7-1 {
+    height: 50vh;
+    max-height: 388px;
+}
+
+.embedded-cycles_page-7-1 img {
+    height: 100%;
 }
 
 .cs-6-3-9-img {
-  height: 37.76vh;
-  margin-top: 2vh;
+    height: 37.76vh;
+    margin-top: 2vh;
 }
 
 .cs-6-3-10-img {
-  height: 66.71vh;
-  position: relative;
+    height: 66.71vh;
+    position: relative;
   right: -17vh;
   top: 2vh;
 }
@@ -30849,59 +30873,191 @@ img.mfp-img[alt*=cs-3-6-6-img] {
 .cs-6-3-div-6-img {
   height: 52.86vh;
 }
-
 .cs-6-3-div-7-img {
   height: 50.52vh;
 }
-
 .cs-6-3-div-8-img {
   height: 64.97vh;
 }
-
 .cs-6-3-div img {
   height: 100%;
 }
 
-.cs-6-3-9-img {
-  height: 37.76vh;
-  margin-top: 2vh;
+.cs-5-18-1-img {
+    height: 53.64vh;
+    margin: 8vh auto 5vh;
 }
 
-.cs-6-3-10-img {
-  height: 66.71vh;
-  position: relative;
-  right: -17vh;
-  top: 2vh;
+.cs-5-18-3-img {
+    height: 46.09vh;
+    margin: 3vh auto;
 }
 
-.cs-6-3-11-img {
-  height: 53.38vh;
-  margin-top: 2vh;
+.cs-5-18-4-img {
+    height: 49.34vh;
+    margin-top: 7vh;
 }
 
-.cs-6-3-12-img {
-  height: 45.96vh;
-  margin-top: 1vh;
+.cs-5-18-5-img {
+    height: 54.07vh;
+    position: relative;
+    top: -20vh;
+    right: -7vh;
 }
 
-.cs-6-3-13-img {
-  height: 43.61vh;
-  margin-top: 5vh;
+.cs-5-18-6-img {
+    height: 58.33vh;
+    margin-top: 9vh;
 }
 
-.cs-6-3-15-img {
-  height: 44.92vh;
-  margin-top: 7vh;
+.cs-5-18-7-img {
+    height: 54.55vh;
+    position: relative;
+    bottom: 8vh;
+}
+
+.cs-5-18-8-img {
+    height: 58.33vh;
+}
+
+.cs-5-18-div-22-img {
+    height: 49.34vh;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    bottom: 0;
+}
+
+.cs-5-18-div-23-img {
+    height: 65.36vh;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    bottom: 0;
+}
+
+.cs-5-18-div-24-img {
+    height: 47vh;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.cs-5-18-div-25-img {
+    height: 47.78vh;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.cs-5-18-div img {
+    height: 100%;
+}
+
+.background-cs-5-18 {
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.background-cs-5-18-26 {
+    background-image: url("../img/gakvetilebi/Computer-Science/Class-5/diagram-in-electronic-table-18/cs-5-18-26-img.svg");
+}
+
+.background-cs-5-18-27 {
+    background-image: url("../img/gakvetilebi/Computer-Science/Class-5/diagram-in-electronic-table-18/cs-5-18-27-img.svg");
+}
+
+.background-cs-5-18-28 {
+    background-image: url("../img/gakvetilebi/Computer-Science/Class-5/diagram-in-electronic-table-18/cs-5-18-28-img.svg");
+}
+
+.background-cs-5-18-29 {
+    background-image: url("../img/gakvetilebi/Computer-Science/Class-5/diagram-in-electronic-table-18/cs-5-18-29-img.svg");
+}
+
+.diagram_page-18 {
+    height: 33vh;
+    max-height: 255px;
+}
+
+.diagram_page-18 img {
+    height: 100%;
+}
+
+.diagram_page-18_text {
+    color: #217346;
+    border: solid 2px #217346;
+    font-size: 16px;
+    padding: 0 2px;
+    font-weight: bolder;
+}
+
+.diagram_page-19 {
+    height: 64vh;
+    max-height: 495px;
+}
+
+.diagram_page-19 img {
+    height: 100%;
+}
+
+.diagram_page-19-box {
+    max-height: 40px;
+    max-width: 40px;
+}
+
+.diagram_page-19-box img {
+    height: 100%;
+}
+
+.diagram_page-21 {
+    height: 36vh;
+    max-height: 276px;
+}
+
+.diagram_page-21-box {
+    max-height: 25px;
+    max-width: 25px;
+}
+
+.diagram_page-21-box img {
+    height: 100%;
+}
+
+.diagram_page-21 img {
+    height: 100%;
+}
+
+.diagram_page-7-1 {
+    height: 75vh;
+    max-height: 576px;
+    position: fixed;
+    bottom: 0;
+    right: 15%;
+}
+
+.diagram_page-7-1 img {
+    height: 100%;
+}
+
+.diagram_page-15-1 {
+    height: 37vh;
+    max-height: 284px;
+}
+
+.diagram_page-15-1 img {
+    height: 100%;
 }
 
 body {
-  color: #262626;
-  font-size: 14px;
-  line-height: 21px;
+    color: #262626;
+    font-size: 14px;
+    line-height: 21px;
 }
 
 .flex {
-  display: flex;
+    display: flex;
 }
 
 .justify-between {

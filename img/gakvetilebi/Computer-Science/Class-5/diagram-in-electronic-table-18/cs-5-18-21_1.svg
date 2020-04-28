@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="27.5" height="25.551" viewBox="0 0 27.5 25.551">
+    <defs>
+        <style>.a{fill:gray;}.b{fill:#fff;}</style>
+    </defs>
+    <g transform="translate(-199.4 -166.066)">
+        <g transform="translate(199.4 166.066)">
+            <path class="a" d="M226.9,191.617H199.4V166.066h27.5Zm-26.992-.508h26.484V166.574H199.908Z"
+                  transform="translate(-199.4 -166.066)"/>
+        </g>
+        <g transform="translate(205.75 172.051)">
+            <path class="a" d="M219.29,177.837h-7.4v1.916l5.833,5.441v6.224h3.134v-6.224l5.833-5.441v-1.916Z"
+                  transform="translate(-211.89 -177.837)"/>
+        </g>
+        <g transform="translate(206.215 173.267)">
+            <path class="b" d="M219.229,192.147h-.508v-6.022L212.8,180.6l.347-.372,6.078,5.674Z"
+                  transform="translate(-212.805 -180.23)"/>
+        </g>
+    </g>
+</svg>
