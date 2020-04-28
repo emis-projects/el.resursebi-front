@@ -73,6 +73,39 @@
       right: 100%;
       top: 0;
     }
+
+    .text-box-second {
+      left: -40px !important;
+      top: -28px !important;
+    }
+
+
+    .text-box {
+      background: #F0B44D;
+      font-size: 10px;
+      max-width: 160px;
+      text-align: left;
+      padding: 5px;
+      color: #fff;
+      position: absolute !important;
+      left: -44px;
+      top: -42px;
+
+      &:after {
+        content: "";
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 41px 10px 0 0;
+        border-color: #F0B44D #0000 #0000 #0000;
+        -webkit-transform: skew(50deg, 0deg);
+        transform: skew(45deg, 0deg);
+        position: absolute;
+        left: 20px;
+        top: 71%;
+        z-index: -1;
+      }
+    }
   }
 
   .text-box_arrow.error {
