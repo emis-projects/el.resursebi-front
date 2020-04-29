@@ -23844,7 +23844,7 @@ td img {
 }
 
 .DragGame--Parent .success {
-  background-color: #a1dd6f;
+  background-color: #a1dd6f !important;
 }
 
 .DragGame--Parent .success p,
@@ -23853,7 +23853,7 @@ td img {
 }
 
 .DragGame--Parent .error {
-  background-color: #dc6c85;
+  background-color: #dc6c85 !important;
 }
 
 .DragGame--Parent .error p,
@@ -23862,7 +23862,7 @@ td img {
 }
 
 .DragGame--Parent .selectedPurple {
-  background-color: #947DCE;
+  background-color: #947DCE !important;
 }
 
 .DragGame--Parent .textWhite {
@@ -36904,6 +36904,10 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   max-width: 70px;
 }
 
+.visual-programing_page-12 .draggedElement {
+  opacity: 0;
+}
+
 .visual-programing_page-12 .text-box {
   background: #F0B44D;
   font-size: 10px;
@@ -36949,6 +36953,14 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.visual-programing .text-box_arrow.success::after {
+  border-color: transparent transparent transparent #a1dd6f;
+}
+
+.visual-programing .text-box_arrow.success::before {
+  border-color: #a1dd6f #a1dd6f #a1dd6f transparent;
 }
 
 .visual-programing .text-box_arrow:after {

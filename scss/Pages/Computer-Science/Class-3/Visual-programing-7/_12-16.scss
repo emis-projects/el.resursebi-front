@@ -8,6 +8,10 @@
       max-width: 70px;
     }
 
+    .draggedElement {
+      opacity: 0;
+    }
+
     .text-box {
       background: #F0B44D;
       font-size: 10px;
@@ -47,6 +51,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    &.success {
+      &::after {
+        border-color: transparent transparent transparent #a1dd6f;
+      }
+      &::before {
+        border-color: #a1dd6f #a1dd6f #a1dd6f transparent;
+      }
+    }
 
     &:after {
       content: "";
