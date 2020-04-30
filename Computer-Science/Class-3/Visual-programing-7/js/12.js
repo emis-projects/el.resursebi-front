@@ -1,5 +1,6 @@
 function game(){
     this.error = true;
+    this.incriment = 0;
     this.hrefElement = null;
 
     
@@ -38,21 +39,6 @@ function game(){
     document.addEventListener('DOMContentLoaded', () => {
         dragElement2MyArray.forEach(w => {
             w.setAttribute('data-class', w.getAttribute('class'))
-
-            let childIndex = w.getAttribute('data-index');
-
-            w.parentElement.setAttribute('data-childIndex', childIndex)
-            
-
-            if(w.querySelector('a')){
-                w.setAttribute('data-href', w.querySelector('a').getAttribute('href'))
-
-            } else {
-                w.parentElement.setAttribute('data-title', w.innerText)
-            }
-        })
-        dragElement1MyArray.forEach((w, i) => {
-            w.setAttribute('data-index', i)
         })
     })
     
@@ -65,6 +51,8 @@ function game(){
 
     // drag start 
     this.dragStart = (e) => {
+        $( e.target ).clone(true, true).appendTo( e.target.parentElement );
+
         setTimeout(() => {
             e.target.className = "draggedElement"
         }, 0);
@@ -75,25 +63,33 @@ function game(){
     this.dragEnd = e => {
         let elClassName = e.target.getAttribute('data-class');
         e.target.className = elClassName;
+
+        if(e.target.parentElement.classList.contains('DragGame—childs1') == false){
+            e.target.remove()
+        }
+
     }
     
 
     this.dragDrop = e => {
-        console.log(e.target)
+        if(e.target.classList.contains('DragGame—childs1') && !e.target.querySelector('.DragGame—childs2')){
+            e.target.appendChild(document.querySelector('.draggedElement'));
+            this.incriment++;
+        }
 
-        e.target.appendChild(document.querySelector('.draggedElement'));
 
+        if( e.target.getAttribute('data-index') == e.target.firstElementChild.getAttribute('data-index') ) {
+            this.error = false
+
+        } else if( e.target.getAttribute('data-index') !== e.target.firstElementChild.getAttribute('data-index') ){
+            this.error = true
+        }
     }
-
-
-    this.checkEveryElement = (element) => element.getAttribute('data-index') == element.parentElement.getAttribute('data-index');
 
 
 
     this.successPage  = () => {
-        let el = dragElement2MyArray.every(this.checkEveryElement)
-
-		if(el == true){
+        if(this.incriment === 13 && this.error === false){
             location.href = "game-success-12.html" 
 
         } else {
@@ -103,14 +99,14 @@ function game(){
 
 
     this.errorPage = () => {
-        dragElement2MyArray.forEach(w => {
+        jQuery.each( $('.DragGame—childs1 .DragGame—childs2'), function( i, w ) {
             if(w.getAttribute('data-index') !== w.parentElement.getAttribute('data-index')){
                 w.parentElement.classList.add('error')
 
             } else if(w.getAttribute('data-index') == w.parentElement.getAttribute('data-index')) {
                 w.parentElement.classList.add('success')
             }
-        })
+          });
     }
     
  
@@ -122,25 +118,12 @@ function game(){
 
 
     this.resetGame = () => {
-        dragElement1MyArray.forEach(w => {
-            let title = w.getAttribute('data-title');
-            let index = w.getAttribute('data-childIndex');
+        this.incriment = 0;
+        this.error = true;
 
-            w.querySelector('a, p').classList.remove('a-blue');
-            w.querySelector('a, p').removeAttribute('href')
-            w.querySelector('a, p').removeAttribute('style')
-
-            w.querySelector('.DragGame—childs2').innerText = title;
-            w.querySelector('.DragGame—childs2').setAttribute('data-index', index);
-
-            $( "#differentGameDiv p" ).replaceWith( '<a class="sign-description-btn-title DragGame—childs2" draggable="true" data-index="2">ქვეითთა გადასასვლელი</a>');
-            $( "#differentGameDiv a").attr('href', "./6-1.html");
-            $( "#differentGameDiv a").attr('style', "color: #7fd1d8");
-            $( "#differentGameDiv a").attr('target', "_blank");
-        });
-
-        $(dragElement1).removeClass('error');
-        $(dragElement1).removeClass('success');
+        $('.DragGame—childs1 .DragGame—childs2').remove()
+        $('.DragGame—childs1').removeClass('error');
+        $('.DragGame—childs1').removeClass('success');
         completedGame.removeAttribute('disabled')
     }
 
