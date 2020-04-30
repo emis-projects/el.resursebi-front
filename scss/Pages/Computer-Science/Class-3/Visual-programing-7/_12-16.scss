@@ -1,5 +1,7 @@
 .visual-programing {
   &_page-12 {
+    height: 25vh;
+
     div {
       bottom: 0;
     }
@@ -10,6 +12,7 @@
 
     .draggedElement {
       opacity: 0;
+      position: absolute;
     }
 
     .text-box {
@@ -51,6 +54,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
 
     &.success {
       &::after {

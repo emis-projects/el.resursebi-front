@@ -64,6 +64,9 @@ function game(){
         let elClassName = e.target.getAttribute('data-class');
         e.target.className = elClassName;
 
+        if(e.target.parentElement.classList.contains('DragGame—childs1') == false){
+            e.target.remove()
+        }
 
     }
     
@@ -86,7 +89,7 @@ function game(){
 
 
     this.successPage  = () => {
-        if(this.incriment === 16 && this.error === false){
+        if(this.incriment === 13 && this.error === false){
             location.href = "game-success-12.html" 
 
         } else {
@@ -115,8 +118,12 @@ function game(){
 
 
     this.resetGame = () => {
-        $(dragElement1).removeClass('error');
-        $(dragElement1).removeClass('success');
+        this.incriment = 0;
+        this.error = true;
+
+        $('.DragGame—childs1 .DragGame—childs2').remove()
+        $('.DragGame—childs1').removeClass('error');
+        $('.DragGame—childs1').removeClass('success');
         completedGame.removeAttribute('disabled')
     }
 

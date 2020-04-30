@@ -36896,6 +36896,10 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
+.visual-programing_page-12 {
+  height: 25vh;
+}
+
 .visual-programing_page-12 div {
   bottom: 0;
 }
@@ -36906,6 +36910,7 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .visual-programing_page-12 .draggedElement {
   opacity: 0;
+  position: absolute;
 }
 
 .visual-programing_page-12 .text-box {
