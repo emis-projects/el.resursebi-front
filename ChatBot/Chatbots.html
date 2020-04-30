@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html data-botid="2288" lang="ka">
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+    <!-- ყველა გვერდზე -->
+    <script src="../js/vue.js"></script>
+    <!--  ვუე გაშვებისას
+      <script src="./js/vue.min.js"></script>
+       -->
+    <link href="../New-header-vue/animate.min.css" rel="stylesheet">
+    <link href="../scss/libraries/bootstrap.min.css" rel="stylesheet">
+    <link href="../scss/libraries/magnific-popup.css" rel="stylesheet">
+    <link href="../scss/new-style.css" rel="stylesheet"/>
+    <title>ელექტრონული საგანმანათლებლო რესურსი</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'UA-155006442-1');
+    </script>
+</head>
+
+<body>
+
+<div class="container-fluid" id="chatBots">
+    <div class="container">
+        <section class="container" id="app">
+            <header>
+                <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../'"></app-menu>
+            </header>
+
+            <app-section :is-active="isActive" :is-info="isInfo" v-image="'../'">
+                <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger"
+                         v-on:link-tab="link = $event">
+
+                </app-bar>
+                <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive"
+                           :is-info="isInfo" :path="path" :tab-class="currentTabComponent"
+                           :trigger="trigger">
+                </component>
+
+            </app-section>
+        </section>
+    </div>
+    <div class="container mt-5vh">
+        <div class="row">
+            <div class="col-11 offset-1">
+                <div class="main-window position-relative">
+                    <div class="bot_header position-absolute d-flex justify-content-center align-items-center">
+                        <div class="type-img">
+                            <img alt="text-icon" class="img-fluid" src="../img/chatbots/text-icon.svg">
+                        </div>
+                        <p class="title">დაუსვი შეკითხვა ჩეტბოტს</p>
+                    </div>
+                    <div class="chat-window position-absolute">
+                        <div class="chat-box d-flex flex-column justify-content-end">
+                            <div class="chat-messages chat-messages_user">
+                                <span class="d-inline-block">ჰეი!! ჰეი!! ჰეი!! ჰეი!! ჰოპ ჰოპ ჰეი!! ჰეი!! ჰეი!! ჰეი!! ჰოპ ჰოპ ჰეი!! ჰეი!! ჰეი!! ჰეი!! ჰოპ ჰოპ :)))</span>
+                            </div>
+                            <div class="chat-messages chat-messages_bot">
+                                <span class="d-inline-block">ჰეი!! ჰეი!! ჰეი!! ჰეი!! ჰოპ ჰოპ ჰეი!! ჰეი!! ჰეი!! ჰეი!! ჰოპ ჰოპ ჰეი!! ჰეი!! ჰეი!! ჰეი!! ჰოპ ჰოპ :)))</span>
+                            </div>
+                        </div>
+                        <div class="chat_input position-absolute">
+                            <form class="d-flex align-items-center">
+                                <input class="form-control" placeholder="კითხე არ მოგერიდოს" type="text">
+                                <button class="btn" type="submit"></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="../js/libraries/jquery-3.4.1.min.js"></script>
+<script src="../js/libraries/jquery.magnific-popup.min.js"></script>
+
+
+<!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
+<script src="../New-header-vue/app.js"></script>
+<script src="../Vue-chatBot/botApp.js"></script>
+</body>
+
+</html>
