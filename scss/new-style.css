@@ -834,25 +834,40 @@
   box-shadow: none;
   outline: none;
 }
+
 #chatBots .main-window .chat_input form .form-control {
-  border: none;
-  font-family: "DejaVuSans";
-  color: #C5CBCD;
+    border: none;
+    font-family: "DejaVuSans";
+    color: #C5CBCD;
 }
+
 #chatBots .main-window .chat_input form .form-control::placeholder {
-  font-family: "ALK Sanet";
-  color: #C5CBCD;
+    font-family: "ALK Sanet";
+    color: #C5CBCD;
+}
+
+#chatBots .bots-window {
+    position: fixed;
+    left: 5%;
+    top: 75%;
+    transform: translateY(-75%);
+    height: 80vh;
+}
+
+#chatBots .bots-window svg {
+    height: 100%;
 }
 
 @font-face {
-  font-family: "ALK Sanet";
-  src: url("../fonts/alk-sanet/alk-sanet-webfont.eot");
-  /* IE9 Compat Modes */
-  src: url("../fonts/alk-sanet/alk-sanet-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/alk-sanet/alk-sanet-webfont.woff2") format("woff2"), url("../fonts/alk-sanet/alk-sanet-webfont.woff") format("woff"), url("../fonts/alk-sanet/alk-sanet-webfont.ttf") format("truetype"), url("../fonts/alk-sanet/alk-sanet-webfont.svg#alk_sanetregular") format("svg");
-  /* Legacy iOS */
+    font-family: "ALK Sanet";
+    src: url("../fonts/alk-sanet/alk-sanet-webfont.eot");
+    /* IE9 Compat Modes */
+    src: url("../fonts/alk-sanet/alk-sanet-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/alk-sanet/alk-sanet-webfont.woff2") format("woff2"), url("../fonts/alk-sanet/alk-sanet-webfont.woff") format("woff"), url("../fonts/alk-sanet/alk-sanet-webfont.ttf") format("truetype"), url("../fonts/alk-sanet/alk-sanet-webfont.svg#alk_sanetregular") format("svg");
+    /* Legacy iOS */
 }
+
 @font-face {
-  font-family: "BPG Arial";
+    font-family: "BPG Arial";
   src: url("../../fonts/bpg-arial/bpg-arial-webfont.eot");
   /* IE9 Compat Modes */
   src: url("../fonts/bpg-arial/bpg-arial-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/bpg-arial/bpg-arial-webfont.woff2") format("woff2"), url("../fonts/bpg-arial/bpg-arial-webfont.woff") format("woff"), url("../fonts/bpg-arial/bpg-arial-webfont.ttf") format("truetype"), url("../fonts/bpg-arial/bpg-arial-webfont.svg#bpg_arialregular") format("svg");
@@ -30634,7 +30649,6 @@ img.mfp-img[alt*=cs-3-6-6-img] {
 .visual-programing_page-12 {
   height: 25vh;
 }
-
 .visual-programing_page-12 div {
   bottom: 0;
 }

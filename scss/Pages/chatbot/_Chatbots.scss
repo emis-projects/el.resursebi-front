@@ -133,4 +133,16 @@
       }
     }
   }
+
+  .bots-window {
+    position: fixed;
+    left: 5%;
+    top: 75%;
+    transform: translateY(-75%);
+    height: 80vh;
+
+    svg {
+      height: 100%;
+    }
+  }
 }
