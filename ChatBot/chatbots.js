@@ -193,6 +193,9 @@ var bots = new Vue({
             this.art = false
             this.music = false
             document.getElementById('botsData').setAttribute('data-botid', 2320)
+            document.querySelectorAll('.chat_msg_item').forEach(elm => {
+                elm.innerHTML = ''
+            })
         },
         toggleIT() {
             this.IT = !this.IT
@@ -200,6 +203,9 @@ var bots = new Vue({
             this.art = false
             this.music = false
             document.getElementById('botsData').setAttribute('data-botid', 2288)
+            document.querySelectorAll('.chat_msg_item').forEach(elm => {
+                elm.innerHTML = ''
+            })
         },
         toggleArt() {
             this.art = !this.art
@@ -207,6 +213,9 @@ var bots = new Vue({
             this.nature = false
             this.music = false
             document.getElementById('botsData').setAttribute('data-botid', 2318)
+            document.querySelectorAll('.chat_msg_item').forEach(elm => {
+                elm.innerHTML = ''
+            })
         },
         toggleMusic() {
             this.music = !this.music
@@ -214,6 +223,9 @@ var bots = new Vue({
             this.art = false
             this.nature = false
             document.getElementById('botsData').setAttribute('data-botid', 2292)
+            document.querySelectorAll('.chat_msg_item').forEach(elm => {
+                elm.innerHTML = ''
+            })
         }
     },
 })
