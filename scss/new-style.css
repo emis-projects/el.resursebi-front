@@ -1047,6 +1047,16 @@
   font-family: 'ALK Sanet';
   color: #C5CBCD;
 }
+#chatBots .bots-window {
+  position: fixed;
+  left: 5%;
+  top: 75%;
+  transform: translateY(-75%);
+  height: 80vh;
+}
+#chatBots .bots-window svg {
+  height: 100%;
+}
 
 @font-face {
   font-family: 'ALK Sanet';
@@ -37058,7 +37068,6 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 .visual-programing_page-12 {
   height: 25vh;
 }
-
 .visual-programing_page-12 div {
   bottom: 0;
 }
