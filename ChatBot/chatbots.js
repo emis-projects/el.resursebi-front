@@ -1,3 +1,4 @@
+
 Vue.component('botNature', {
     props: {
         nature: {
@@ -191,25 +192,28 @@ var bots = new Vue({
             this.IT = false
             this.art = false
             this.music = false
+            document.getElementById('botsData').setAttribute('data-botid', 2320)
         },
         toggleIT() {
             this.IT = !this.IT
             this.nature = false
             this.art = false
             this.music = false
+            document.getElementById('botsData').setAttribute('data-botid', 2288)
         },
         toggleArt() {
             this.art = !this.art
             this.IT = false
             this.nature = false
             this.music = false
+            document.getElementById('botsData').setAttribute('data-botid', 2318)
         },
         toggleMusic() {
             this.music = !this.music
             this.IT = false
             this.art = false
             this.nature = false
+            document.getElementById('botsData').setAttribute('data-botid', 2292)
         }
     },
 })
-
