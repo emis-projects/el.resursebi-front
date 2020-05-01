@@ -62,18 +62,12 @@
                         <p class="title">დაუსვი შეკითხვა ჩეტბოტს</p>
                     </div>
                     <div class="chat-window position-absolute">
-                        <div class="chat-box d-flex flex-column justify-content-end">
-                            <div class="chat-messages chat-messages_user">
-                                <span class="d-inline-block">ჰეი!! ჰეი!! ჰეი!! ჰეი!! ჰოპ ჰოპ ჰეი!! ჰეი!! ჰეი!! ჰეი!! ჰოპ ჰოპ ჰეი!! ჰეი!! ჰეი!! ჰეი!! ჰოპ ჰოპ :)))</span>
-                            </div>
-                            <div class="chat-messages chat-messages_bot">
-                                <span class="d-inline-block">ჰეი!! ჰეი!! ჰეი!! ჰეი!! ჰოპ ჰოპ ჰეი!! ჰეი!! ჰეი!! ჰეი!! ჰოპ ჰოპ ჰეი!! ჰეი!! ჰეი!! ჰეი!! ჰოპ ჰოპ :)))</span>
-                            </div>
-                        </div>
+                        <div id="chat_fullscreen" class="chat-box d-flex flex-column justify-content-end"></div>
+                        
                         <div class="chat_input position-absolute">
-                            <form class="d-flex align-items-center">
-                                <input class="form-control" placeholder="კითხე არ მოგერიდოს" type="text">
-                                <button class="btn" type="submit"></button>
+                            <form id="formData" class="d-flex align-items-center">
+                                <input id="chatSend" class="form-control" placeholder="კითხე არ მოგერიდოს" type="text">
+                                <button id="sendMessage" class="btn" type="submit"></button>
                             </form>
                         </div>
                     </div>
@@ -87,6 +81,7 @@
 <script src="../js/libraries/jquery-3.4.1.min.js"></script>
 <script src="../js/libraries/jquery.magnific-popup.min.js"></script>
 
+<script src="../js/bot.js"></script>
 
 <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
 <script src="../New-header-vue/app.js"></script>
