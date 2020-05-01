@@ -15,7 +15,7 @@ Vue.component('botNature', {
           <path id="Path_25248" class="Group_nature" :style= "[nature ? {'fill': '#FFD9E1'} : {'fill': 'transparent'}]" data-name="Path 25248" d="M-107,293.662h-25.155a28.388,28.388,0,0,0-21.1,9.686A34.87,34.87,0,0,0-162,326.736c0,18.266,13.362,33.074,29.844,33.074H-107c20.013,0,36.24,17.983,36.24,40.162V253.5C-70.762,275.679-86.988,293.662-107,293.662Z" transform="translate(342.762 -66.613)" fill="#ffd9e1"/>
           <g id="Group_nature" @click="toggle" data-name="Group 8391" style="cursor: pointer" transform="translate(-1089 -127)" clip-path="url(#clip-path-4)">
            <g id="Group_8388" data-botid="22222" class="logo_box" data-name="Group 8388" transform="translate(1276.544 357.842)">
-             <path id="Path_25273" data-name="Path 25273" d="M85.439,15.772s5.283-29.153,29.935-29.153,32.673,26.413,24.652,41.674S108.917,48.445,95.418,40.424,85.439,15.772,85.439,15.772Z" transform="translate(-85.025 13.381)" fill="#ffd9e1"/>
+             <path id="Path_25273" :style= "[nature ? {'fill': '#FFF'} : {'fill': '#FFD9E1'}]" data-name="Path 25273" d="M85.439,15.772s5.283-29.153,29.935-29.153,32.673,26.413,24.652,41.674S108.917,48.445,95.418,40.424,85.439,15.772,85.439,15.772Z" transform="translate(-85.025 13.381)" fill="#ffd9e1"/>
            </g>
            <g id="Group_8390" data-name="Group 8390" transform="translate(1256.442 353.986)">
              <path id="Path_25274" data-name="Path 25274" d="M477.057,244.065H401.793c3.009-5.718,6.466-11.7,10.286-17.589q1.888-2.908,3.892-5.77c2.408-3.43,4.933-6.781,7.562-9.978q1.882-2.3,3.843-4.478c.086-.1.177-.2.271-.3q.772-.862,1.567-1.7c2.021-2.153,4.091-4.192,6.206-6.1.214-.192.428-.383.642-.571.5-.443,1.007-.879,1.514-1.3q1-.845,2.01-1.638c.436,2.851.481,6.33.936,9.242.59,3.779,3.34,6.935,5.673,9.091,1.259.357,2.592.774,3.967,1.262.049.015.1.03.146.049.1.03.2.068.293.1,1.386.477,2.232.819,2.363.871,0,0,.011.019.03.056,8.1,3.329,16.992,9.129,21.08,19.111A71.335,71.335,0,0,1,477.057,244.065Z" transform="translate(-380.642 -172.309)" fill="#ffd9e1"/>
@@ -53,7 +53,7 @@ Vue.component('botArt', {
             <path id="Path_25260" class="Group_art" :style= "[art ? {'fill': '#F7EED2'} : {'fill': 'transparent'}]" data-name="Path 25260" d="M-107,293.662h-25.155a28.388,28.388,0,0,0-21.1,9.686A34.87,34.87,0,0,0-162,326.736c0,18.266,13.362,33.074,29.844,33.074H-107c20.013,0,36.24,17.983,36.24,40.162V253.5C-70.762,275.679-86.988,293.662-107,293.662Z" transform="translate(342.762 45.387)" fill="#f7eed2"/>
             <g id="Group_art" @click="toggle" class="bot" data-name="Group 8392" style="cursor: pointer" transform="translate(188.007 343)">
               <g id="Group_8306" data-name="Group 8306" transform="translate(0 0)" clip-path="url(#clip-path-2)">
-                <ellipse id="Ellipse_1023" data-name="Ellipse 1023" cx="29" cy="29.42" rx="29" ry="29.42" fill="#f7eed2"/>
+                <ellipse id="Ellipse_1023" :style= "[art ? {'fill': '#fff'} : {'fill': '#F7EED2'}]" data-name="Ellipse 1023" cx="29" cy="29.42" rx="29" ry="29.42" fill="#f7eed2"/>
                 <g id="Group_8305" data-name="Group 8305" transform="translate(-36.051 -3.37)">
                   <path id="Path_25211" data-name="Path 25211" d="M830.021,551.612s.5,5.594-2.949,8.688,7.952,0,7.952,0-2.122-5.358-1.646-8.688S830.021,551.612,830.021,551.612Z" transform="translate(-769.324 -512.492)" fill="#d6bf87"/>
                   <ellipse id="Ellipse_1024" data-name="Ellipse 1024" cx="6.033" cy="8.231" rx="6.033" ry="8.231" transform="translate(56.485 24.828)" fill="#f6da9b"/>
@@ -101,7 +101,7 @@ Vue.component('botIt', {
             <path id="Path_25284" class="Group_IT" :style= "[it ? {'fill': '#EADFF1'} : {'fill': 'transparent'}]" data-name="Path 25284" d="M-107,293.662h-25.155a28.388,28.388,0,0,0-21.1,9.686A34.87,34.87,0,0,0-162,326.736c0,18.266,13.362,33.074,29.844,33.074H-107c20.013,0,36.24,17.983,36.24,40.162V253.5C-70.762,275.679-86.988,293.662-107,293.662Z" transform="translate(342.762 258.387)" fill="#eadff1"/>
             <g id="Group_IT" @click="toggle" data-name="Group 8387" style="cursor: pointer" transform="translate(189.007 556)">
                     <g id="Group_8311" data-name="Group 8311" transform="translate(0 0)" clip-path="url(#clip-path-2)">
-                      <ellipse id="Ellipse_1026" data-name="Ellipse 1026" cx="29" cy="29.42" rx="29" ry="29.42" fill="#eadff1"/>
+                      <ellipse id="Ellipse_1026" :style= "[it ? {'fill': '#fff'} : {'fill': '#EADFF1'}]" data-name="Ellipse 1026" cx="29" cy="29.42" rx="29" ry="29.42" fill="#eadff1"/>
                       <g id="Group_8310" data-name="Group 8310" transform="translate(-27.404 10.715)">
                         <path id="Path_25226" data-name="Path 25226" d="M836.78,240.781s-.8,5.909,2.841,9.17-8.382,0-8.382,0,2.236-5.648,1.735-9.158S836.78,240.781,836.78,240.781Z" transform="translate(-779.429 -220.28)" fill="#d19442"/>
                         <ellipse id="Ellipse_1027" data-name="Ellipse 1027" cx="6.359" cy="8.676" rx="6.359" ry="8.676" transform="translate(48.805 5.448)" fill="#d8a35d"/>
@@ -143,7 +143,7 @@ Vue.component('botMusic', {
             <g id="Group_music" @click="toggle" data-name="Group 8386" style="cursor: pointer" transform="translate(188.007 448)">
                     <g id="Group_8323" data-name="Group 8323" transform="translate(0 0)" clip-path="url(#clip-path)">
                       <g id="Group_8313" data-name="Group 8313" transform="translate(0 0)">
-                        <ellipse id="Ellipse_1030" data-name="Ellipse 1030" cx="29" cy="29.42" rx="29" ry="29.42" fill="#fff"/>
+                        <ellipse id="Ellipse_1030" :style= "[music ? {'fill': '#FFF'} : {'fill': '#C2FEFF'}]"  data-name="Ellipse 1030" cx="29" cy="29.42" rx="29" ry="29.42" fill="#fff"/>
                       </g>
                       <g id="Group_8314" data-name="Group 8314" transform="translate(15.267 12.368)">
                         <path id="Path_25237" data-name="Path 25237" d="M438.9,445.6c-1.846,2.414-2.354,1.47.658,4.673,1.356,2.079-1.864,2.109-4.153,3.209a4.366,4.366,0,0,0-1.3.884c-1.135.98-3.4,1.189-5.551,1.505-4.577-.55-5.688,3.083-5.557-1.505.018-.06.042-.12.054-.179,1.123-3.878-5.312-.323-4-3.77,3.006-1.362-3.681.132-1.506-5.551,3.2-2.39-3.913-4.368,1.506-5.557.353-2.133,5.389-.711,3.943-3.944,1.446-1.739,4.177-.741,5.557-1.506,5.515-1.243,3.2,2.958,5.551,1.506,3.113-1.051,3.925,2.964,3.95,3.944C439.848,441.236,443.666,445.6,438.9,445.6Z" transform="translate(-416.951 -433.63)" fill="#243e41" fill-rule="evenodd"/>
