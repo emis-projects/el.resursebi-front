@@ -31407,11 +31407,37 @@ img.mfp-img[alt*=cs-3-6-6-img] {
 .diagram_page-7-1 img {
   height: 100%;
 }
+
 .diagram_page-15-1 {
   height: 37vh;
   max-height: 284px;
 }
+
 .diagram_page-15-1 img {
+  height: 100%;
+}
+
+.cs-5-19-div-3-img {
+  height: 57vh;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  bottom: 0;
+}
+
+.cs-5-19-div-4-img {
+  height: 42.44vh;
+}
+
+.cs-5-19-div-5-img {
+  height: 39.19vh;
+}
+
+.cs-5-19-div-6-img {
+  height: 45.57vh;
+}
+
+.cs-5-19-div img {
   height: 100%;
 }
 
@@ -31421,6 +31447,7 @@ img.mfp-img[alt*=cs-3-6-6-img] {
   height: 38.25vh;
   max-height: 293.8px;
 }
+
 .class_5_19-img_12 img {
   height: 100%;
 }
@@ -31684,14 +31711,57 @@ img.mfp-img[alt*=cs-3-6-6-img] {
   height: 60vh;
   max-height: 464px;
 }
+
 .remember-box_page-10 img {
   height: 100%;
 }
+
 .remember-box_page-11 {
   height: 39vh;
   max-height: 307px;
 }
+
 .remember-box_page-11 img {
+  height: 100%;
+}
+
+.class_5_11-img_1 {
+  height: 45.18vh;
+  max-height: 347px;
+}
+
+.class_5_11-img_1 img {
+  height: 100%;
+}
+
+.class_5_11-img_3 {
+  height: 39.77vh;
+  max-height: 305.5px;
+}
+
+.class_5_11-img_3 img {
+  height: 100%;
+}
+
+.class_5_11-img_4 {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  height: 62.89vh;
+  max-height: 483px;
+}
+
+.class_5_11-img_4 img {
+  height: 100%;
+}
+
+.class_5_11-img_5 {
+  position: fixed;
+  height: 74.48vh;
+  max-height: 572px;
+}
+
+.class_5_11-img_5 img {
   height: 100%;
 }
 
@@ -31703,6 +31773,7 @@ img.mfp-img[alt*=cs-3-6-6-img] {
   bottom: 0;
   transform: translateX(-50%);
 }
+
 .response-box_page-6 img {
   height: 100%;
 }
