@@ -38021,6 +38021,31 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
+.cs-5-19-div-3-img {
+  height: 57vh;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  bottom: 0;
+}
+
+.cs-5-19-div-4-img {
+  height: 42.44vh;
+}
+
+.cs-5-19-div-5-img {
+  height: 39.19vh;
+}
+
+.cs-5-19-div-6-img {
+  height: 45.57vh;
+}
+
+.cs-5-19-div img {
+  height: 100%;
+}
+
 .class_5_19-img_12 {
   position: fixed;
   bottom: 10vh;
@@ -38391,6 +38416,69 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .background-cs-5-11-25 {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-5/Remembering-information-11/cs-5-11-25.svg");
+}
+
+.class_5_11-img_1 {
+  height: 45.18vh;
+  max-height: 347px;
+}
+
+.class_5_11-img_1 img {
+  height: 100%;
+}
+
+.class_5_11-img_3 {
+  height: 39.77vh;
+  max-height: 305.5px;
+}
+
+.class_5_11-img_3 img {
+  height: 100%;
+}
+
+.class_5_11-img_4 {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  height: 62.89vh;
+  max-height: 483px;
+}
+
+.class_5_11-img_4 img {
+  height: 100%;
+}
+
+.class_5_11-img_5 {
+  position: fixed;
+  height: 74.48vh;
+  max-height: 572px;
+}
+
+.class_5_11-img_5 img {
+  height: 100%;
+}
+
+.response-box_page-6 {
+  height: 64vh;
+  max-height: 490px;
+  position: fixed;
+  left: 50%;
+  bottom: 0;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.response-box_page-6 img {
+  height: 100%;
+}
+
+.response-box_page-7 {
+  height: 48vh;
+  max-height: 366px;
+}
+
+.response-box_page-7 img {
+  height: 100%;
 }
 
 body {
