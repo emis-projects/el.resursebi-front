@@ -31669,21 +31669,17 @@ img.mfp-img[alt*=cs-3-6-6-img] {
   height: 64.71vh;
   position: absolute;
   left: 50%;
-  -webkit-transform: translate(-50%, 0);
-          transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
   bottom: 0;
 }
-
 .cs-6-4-div-20-img {
   height: 49.21vh;
 }
-
 .cs-6-4-div-21-img {
   height: 46.09vh;
   position: absolute;
   right: 0;
 }
-
 .cs-6-4-div img {
   height: 100%;
 }
@@ -31693,19 +31689,15 @@ img.mfp-img[alt*=cs-3-6-6-img] {
   background-size: cover;
   background-repeat: no-repeat;
 }
-
 .background-cs-6-4-22 {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Variables-4/cs-6-4-22-img.svg");
 }
-
 .background-cs-6-4-23 {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Variables-4/cs-6-4-23-img.svg");
 }
-
 .background-cs-6-4-24 {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Variables-4/cs-6-4-24-img.svg");
 }
-
 .background-cs-6-4-25 {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Variables-4/cs-6-4-25-img.svg");
 }
@@ -31878,7 +31870,7 @@ img.mfp-img[alt*=cs-3-6-6-img] {
 }
 
 .cs-6-7-3-img {
-  height: 55.20vh;
+  height: 55.2vh;
   margin-left: 2vh;
 }
 
@@ -31889,6 +31881,22 @@ img.mfp-img[alt*=cs-3-6-6-img] {
 .cs-6-7-5-img {
   height: 48.82vh;
   margin-top: 5vh;
+}
+
+.tables-data_img {
+  position: fixed;
+  bottom: 15vh;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.tables-data_page-1 {
+  height: 56vh;
+  max-height: 430px;
+}
+
+.tables-data_page-1 img {
+  height: 100%;
 }
 
 body {
