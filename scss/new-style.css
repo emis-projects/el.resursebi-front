@@ -31868,16 +31868,13 @@ img.mfp-img[alt*=cs-3-6-6-img] {
   height: 62.76vh;
   margin: 3vh auto;
 }
-
 .cs-6-7-3-img {
   height: 55.2vh;
   margin-left: 2vh;
 }
-
 .cs-6-7-4-img {
   height: 55.85vh;
 }
-
 .cs-6-7-5-img {
   height: 48.82vh;
   margin-top: 5vh;
@@ -31896,6 +31893,46 @@ img.mfp-img[alt*=cs-3-6-6-img] {
 }
 
 .tables-data_page-1 img {
+  height: 100%;
+}
+
+.tables-data_page-3 {
+  height: 45vh;
+  max-height: 342px;
+}
+
+.tables-data_page-3 img {
+  height: 100%;
+}
+
+.tables-data_page-4 {
+  height: 45vh;
+  max-height: 345px;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.tables-data_page-4 img {
+  height: 100%;
+}
+
+.tables-data_page-5 {
+  height: 58vh;
+  max-height: 451px;
+}
+
+.tables-data_page-5 img {
+  height: 100%;
+}
+
+.tables-data_page-6 {
+  height: 56vh;
+  max-height: 434px;
+}
+
+.tables-data_page-6 img {
   height: 100%;
 }
 

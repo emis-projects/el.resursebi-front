@@ -14,4 +14,44 @@
       height: 100%;
     }
   }
+
+  &_page-3 {
+    height: 45vh;
+    max-height: 342px;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &_page-4 {
+    height: 45vh;
+    max-height: 345px;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &_page-5 {
+    height: 58vh;
+    max-height: 451px;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &_page-6 {
+    height: 56vh;
+    max-height: 434px;
+
+    img {
+      height: 100%;
+    }
+  }
 }
