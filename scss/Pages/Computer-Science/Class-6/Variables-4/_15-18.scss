@@ -1,0 +1,57 @@
+.variables-box {
+  .reload_game_wrapper {
+    bottom: 12vh;
+  }
+
+  &_img {
+    width: 100%;
+  }
+
+  &_page-15 {
+    height: 53vh;
+    max-height: 405px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &_page-16 {
+    height: 30vh;
+    max-height: 233px;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &_page-17 {
+    height: 72vh;
+    max-height: 530px;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &_page-18 {
+    height: 12vh;
+    max-height: 90px;
+    width: 176px;
+    background: #FFC84F;
+    border-radius: 9px;
+
+    &-var {
+      background: #85B2CC;
+      height: 8.5vh;
+      max-height: 66px;
+      color: #fff;
+      text-align: center;
+      text-transform: capitalize;
+      font-weight: bolder;
+    }
+  }
+}

@@ -12,6 +12,7 @@
     <link href="../../../scss/libraries/bootstrap.min.css" rel="stylesheet">
     <link href="../../../New-header-vue/animate.min.css" rel="stylesheet">
     <link href="../../../scss/new-style.css" rel="stylesheet"/>
+<link href="../../../scss/components_style.css" rel="stylesheet"/>
     <title>ელექტრონული საგანმანათლებლო რესურსი</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
@@ -41,7 +42,7 @@
 
             </app-bar>
             <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive"
-                       :is-info="isInfo" :path="path" :tab-class="currentTabComponent"> :trigger="trigger">
+                       :is-info="isInfo" :path="path" :tab-class="currentTabComponent" :trigger="trigger">
             </component>
 
         </app-section>
@@ -61,11 +62,11 @@
                 </div>
             </div>
 
-            <div class="col-10 m-auto d-flex justify-content-center">
+            <div class="col-8 m-auto d-flex justify-content-start">
                 <div class="flex flex-column">
-                    <div class="circle align-items-center checkmark_box"></div>
-                    <div class="circle align-items-center checkmark_box circle-fill"></div>
-                    <div class="circle align-items-center checkmark_box error"></div>
+                    <div class="checkmark_box noCorrect checkmarkJs"></div>
+                    <div class="checkmark_box correct checkmarkJs"></div>
+                    <div class="checkmark_box noCorrect checkmarkJs"></div>
                 </div>
                 <div class="class_4_3-img_box_7_1">
                     <img src="../../../img/gakvetilebi/Computer-Science/Class-4/Predicting-behavior-3/C-4-3-7-1.svg" alt="image">
@@ -105,6 +106,7 @@
 <script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
 <script src="../../../js/libraries/jquery.magnific-popup.min.js"></script>
 <script src="../../../js/Pagination.js"></script>
+<script src="./js/5-7-14.js"></script>
 
 
 <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->

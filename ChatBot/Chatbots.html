@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html data-botid="2288" id="botsData" lang="ka">
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+    <!-- ყველა გვერდზე -->
+    <script src="../js/vue_dev.js"></script>
+    <!--  ვუე გაშვებისას
+      <script src="./js/vue.min.js"></script>
+       -->
+    <link href="../New-header-vue/animate.min.css" rel="stylesheet">
+    <link href="../scss/libraries/bootstrap.min.css" rel="stylesheet">
+    <link href="../scss/libraries/magnific-popup.css" rel="stylesheet">
+    <link href="../scss/new-style.css" rel="stylesheet"/>
+    <title>ელექტრონული საგანმანათლებლო რესურსი</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'UA-155006442-1');
+    </script>
+</head>
+
+<body>
+
+<div class="container-fluid" id="chatBots">
+    <div class="container">
+        <section class="container" id="app">
+            <header>
+                <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../'"></app-menu>
+            </header>
+
+            <app-section :is-active="isActive" :is-info="isInfo" v-image="'../'">
+                <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger"
+                         v-on:link-tab="link = $event">
+
+                </app-bar>
+                <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive"
+                           :is-info="isInfo" :path="path" :tab-class="currentTabComponent"
+                           :trigger="trigger">
+                </component>
+
+            </app-section>
+        </section>
+    </div>
+    <div class="container mt-5vh">
+        <div class="bots-window">
+
+            <svg height="604" id="botsBox" viewBox="0 0 134 604" width="134" xmlns="http://www.w3.org/2000/svg"
+                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                <defs>
+                    <filter id="Rectangle_1432" x="0" y="0" width="134" height="604" filterUnits="userSpaceOnUse">
+                        <feOffset dx="2" dy="2" input="SourceAlpha"/>
+                        <feGaussianBlur stdDeviation="4" result="blur"/>
+                        <feFlood flood-color="#badfed" flood-opacity="0.6"/>
+                        <feComposite operator="in" in2="blur"/>
+                        <feComposite in="SourceGraphic"/>
+                    </filter>
+                    <clipPath id="clip-path">
+                        <ellipse id="Ellipse_1031" data-name="Ellipse 1031" cx="29" cy="29.42" rx="29" ry="29.42"
+                                 transform="translate(0 0)" fill="none"/>
+                  </clipPath>
+                  <clipPath id="clip-path-2">
+                    <ellipse id="Ellipse_1028" data-name="Ellipse 1028" cx="29" cy="29.42" rx="29" ry="29.42" fill="none"/>
+                  </clipPath>
+                  <clipPath id="clip-path-4">
+                    <ellipse id="Ellipse_1037" data-name="Ellipse 1037" cx="29" cy="29.42" rx="29" ry="29.42" transform="translate(1277 358.167)" fill="none"/>
+                  </clipPath>
+                </defs>
+                <g id="Group_8401" data-name="Group 8401" transform="translate(-152 -123)">
+                    <g transform="matrix(1, 0, 0, 1, 152, 123)" filter="url(#Rectangle_1432)">
+                        <rect id="Rectangle_1432-2" data-name="Rectangle 1432" width="110" height="580" rx="55"
+                              transform="translate(10 10)" fill="#fff"/>
+                    </g>
+                    <text id="ბუნება" transform="translate(197 313)" fill="#c5cbcd" font-size="12"
+                          font-family="ALKSanet, ALK Sanet">
+                        <tspan x="0" y="0">ბუნება</tspan>
+                    </text>
+                    <text id="ხელოვნება" transform="translate(183 429)" fill="#c5cbcd" font-size="12"
+                          font-family="ALKSanet, ALK Sanet">
+                        <tspan x="0" y="0">ხელოვნება</tspan>
+                    </text>
+                    <text id="მუსიკა" transform="translate(197 535)" fill="#7fd1d8" font-size="12"
+                          font-family="ALKSanet, ALK Sanet">
+                        <tspan x="0" y="0">მუსიკა</tspan>
+                    </text>
+                    <text id="კომპიუტერული_ტექნოლოგიები" data-name="კომპიუტერული
+              ტექნოლოგიები" transform="translate(217 642)" fill="#c5cbcd" font-size="12"
+                          font-family="ALKSanet, ALK Sanet">
+                        <tspan x="-45.624" y="0">კომპიუტერული</tspan>
+                        <tspan x="-45.624" y="12">ტექნოლოგიები</tspan>
+                    </text>
+                    <bot-music :music="music" :toggle="toggleMusic"></bot-music>
+                    <bot-It :it="IT" :toggle="toggleIT"></bot-It>
+                    <bot-art :art="art" :toggle="toggleArt"></bot-art>
+                    <bot-nature :nature="nature" :toggle="toggleNature"></bot-nature>
+                </g>
+              </svg>
+              
+        </div>
+
+        <div class="row">
+            <div class="col-11 offset-1">
+                <div class="main-window position-relative">
+                    <div class="bot_header position-absolute d-flex justify-content-center align-items-center">
+                        <div class="type-img">
+                            <img alt="text-icon" class="img-fluid" src="../img/chatbots/text-icon.svg">
+                        </div>
+                        <p class="title">დაუსვი შეკითხვა ჩეტბოტს</p>
+                    </div>
+                    <div class="chat-window position-absolute">
+                        <div id="chat_fullscreen" class="chat-box d-flex flex-column justify-content-end"></div>
+
+                        <div class="chat_input position-absolute">
+                            <form id="formData" class="d-flex align-items-center">
+                                <input id="chatSend" class="form-control" placeholder="კითხე არ მოგერიდოს" type="text">
+                                <button id="sendMessage" class="btn" type="submit"></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="../js/libraries/jquery-3.4.1.min.js"></script>
+<script src="../js/libraries/jquery.magnific-popup.min.js"></script>
+<script src="chatbots.js"></script>
+
+<script src="../js/bot.js"></script>
+
+<!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
+<script src="../New-header-vue/app.js"></script>
+</body>
+
+</html>

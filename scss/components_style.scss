@@ -1,0 +1,17 @@
+@import "./Pages/chatbot/bot";
+@import "Pages/chatbot/Chatbots";
+@import "./Partials/fonts";
+
+@import "Modules/variable";
+
+@import "Partials/reset";
+
+// modules
+@import "Modules/mixins";
+
+// functions
+@import "Modules/functions";
+
+@import "Components/new-components-import";
+
+@import "Modules/base";

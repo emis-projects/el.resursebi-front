@@ -122,7 +122,7 @@
 @import "./Nature-page/snow-12/23";
 @import "./Nature-page/snow-12/11";
 .DragGame--Parent .success {
-    background-color: #a1dd6f;
+    background-color: #a1dd6f !important;
     p,
     a {
         color: #fff;
@@ -130,7 +130,7 @@
 }
 
 .DragGame--Parent .error {
-    background-color: #dc6c85;
+    background-color: #dc6c85 !important;
     p,
     a {
         color: #fff;
@@ -139,7 +139,7 @@
 
 
 .DragGame--Parent .selectedPurple {
-    background-color: #947DCE;
+    background-color: #947DCE !important;
 }
 
 .DragGame--Parent .textWhite {
@@ -683,24 +683,27 @@
 
 
 @import "Computer-Science/Class-6/create-game-1/1-8";
-
+@import "Computer-Science/Class-6/create-game-1/9-16";
 @import "Computer-Science/Class-6/create-game-1/info-pages";
 
-@import "Computer-Science/Class-6/embedded-cycles-3/24-27_info";
-
-@import "Computer-Science/Class-6/embedded-cycles-3/9-16";
 
 @import "Computer-Science/Class-6/embedded-cycles-3/1-8";
-
 @import "Computer-Science/Class-6/embedded-cycles-3/9-16";
+@import "Computer-Science/Class-6/embedded-cycles-3/17-23";
+@import "Computer-Science/Class-6/embedded-cycles-3/24-27_info";
 
 
 @import "Computer-Science/Class-5/diagram-in-electronic-table-18/1-8";
-
-
+@import "Computer-Science/Class-5/diagram-in-electronic-table-18/9-16";
 @import "Computer-Science/Class-5/diagram-in-electronic-table-18/22-25";
-
-
 @import "Computer-Science/Class-5/diagram-in-electronic-table-18/cs-bg-illustrations-5-18";
 
+@import "Computer-Science/Class-5/diagram-in-electronic-table-18/17-21-info";
+
+
+@import "Computer-Science/Class-5/Using-diagrams-19/12-16";
+@import "Computer-Science/Class-5/Using-diagrams-19/17-21";
+@import "Computer-Science/Class-5/Using-diagrams-19/7-11";
+
+@import "Computer-Science/Class-6/Variables-4/15-18";
 

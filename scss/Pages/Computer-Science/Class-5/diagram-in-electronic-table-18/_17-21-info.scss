@@ -1,0 +1,75 @@
+.diagram {
+  &_page-18 {
+    height: 33vh;
+    max-height: 255px;
+
+    img {
+      height: 100%;
+    }
+
+    &_text {
+      color: #217346;
+      border: solid 2px #217346;
+      font-size: 16px;
+      padding: 0 2px;
+      font-weight: bolder;
+    }
+  }
+
+  &_page-19 {
+    height: 64vh;
+    max-height: 495px;
+
+    img {
+      height: 100%;
+    }
+
+    &-box {
+      max-height: 40px;
+      max-width: 40px;
+
+      img {
+        height: 100%;
+      }
+    }
+  }
+
+  &_page-21 {
+    height: 36vh;
+    max-height: 276px;
+
+    &-box {
+      max-height: 25px;
+      max-width: 25px;
+
+      img {
+        height: 100%;
+      }
+    }
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &_page-7-1 {
+    height: 75vh;
+    max-height: 576px;
+    position: fixed;
+    bottom: 0;
+    right: 15%;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &_page-15-1 {
+    height: 37vh;
+    max-height: 284px;
+
+    img {
+      height: 100%;
+    }
+  }
+}
