@@ -37657,6 +37657,7 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .class_6_3-video_box_23 video {
+  background-color: #000;
   width: 65.95vw;
   height: 65.23vh;
 }
@@ -38478,6 +38479,68 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .response-box_page-7 img {
+  height: 100%;
+}
+
+.class_6_7-video_box_5_1 video {
+  background-color: #000;
+  width: 65.95vw;
+  height: 58.46vh;
+}
+
+.class_6_7-img_6_1 {
+  height: 42.12vh;
+  max-height: 323.5px;
+}
+
+.class_6_7-img_6_1 img {
+  height: 100%;
+}
+
+.class_6_7-img_7_1 {
+  height: 38.5vh;
+  max-height: 296px;
+}
+
+.class_6_7-img_7_1 img {
+  height: 100%;
+}
+
+.class_6_7-img_13_1 {
+  height: 18.75vh;
+  max-height: 144px;
+}
+
+.class_6_7-img_13_1 img {
+  height: 100%;
+}
+
+.class_6_7-img_12 {
+  height: 43.2vh;
+  max-height: 331.8px;
+}
+
+.class_6_7-img_12 img {
+  height: 100%;
+}
+
+.class_6_7-img_13 {
+  position: fixed;
+  bottom: 0;
+  height: 62.63vh;
+  max-height: 481px;
+}
+
+.class_6_7-img_13 img {
+  height: 100%;
+}
+
+.class_6_7-img_14 {
+  height: 43.2vh;
+  max-height: 331.8px;
+}
+
+.class_6_7-img_14 img {
   height: 100%;
 }
 
