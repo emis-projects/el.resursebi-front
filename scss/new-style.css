@@ -31407,12 +31407,10 @@ img.mfp-img[alt*=cs-3-6-6-img] {
 .diagram_page-7-1 img {
   height: 100%;
 }
-
 .diagram_page-15-1 {
   height: 37vh;
   max-height: 284px;
 }
-
 .diagram_page-15-1 img {
   height: 100%;
 }
@@ -31424,19 +31422,15 @@ img.mfp-img[alt*=cs-3-6-6-img] {
   transform: translate(-50%, 0);
   bottom: 0;
 }
-
 .cs-5-19-div-4-img {
   height: 42.44vh;
 }
-
 .cs-5-19-div-5-img {
   height: 39.19vh;
 }
-
 .cs-5-19-div-6-img {
   height: 45.57vh;
 }
-
 .cs-5-19-div img {
   height: 100%;
 }
@@ -31447,7 +31441,6 @@ img.mfp-img[alt*=cs-3-6-6-img] {
   height: 38.25vh;
   max-height: 293.8px;
 }
-
 .class_5_19-img_12 img {
   height: 100%;
 }
@@ -31711,16 +31704,13 @@ img.mfp-img[alt*=cs-3-6-6-img] {
   height: 60vh;
   max-height: 464px;
 }
-
 .remember-box_page-10 img {
   height: 100%;
 }
-
 .remember-box_page-11 {
   height: 39vh;
   max-height: 307px;
 }
-
 .remember-box_page-11 img {
   height: 100%;
 }
@@ -31729,20 +31719,16 @@ img.mfp-img[alt*=cs-3-6-6-img] {
   height: 45.18vh;
   max-height: 347px;
 }
-
 .class_5_11-img_1 img {
   height: 100%;
 }
-
 .class_5_11-img_3 {
   height: 39.77vh;
   max-height: 305.5px;
 }
-
 .class_5_11-img_3 img {
   height: 100%;
 }
-
 .class_5_11-img_4 {
   position: fixed;
   bottom: 0;
@@ -31750,17 +31736,14 @@ img.mfp-img[alt*=cs-3-6-6-img] {
   height: 62.89vh;
   max-height: 483px;
 }
-
 .class_5_11-img_4 img {
   height: 100%;
 }
-
 .class_5_11-img_5 {
   position: fixed;
   height: 74.48vh;
   max-height: 572px;
 }
-
 .class_5_11-img_5 img {
   height: 100%;
 }
@@ -31777,11 +31760,52 @@ img.mfp-img[alt*=cs-3-6-6-img] {
 .response-box_page-6 img {
   height: 100%;
 }
+
 .response-box_page-7 {
   height: 48vh;
   max-height: 366px;
 }
+
 .response-box_page-7 img {
+  height: 100%;
+}
+
+.response-box_page-8 {
+  height: 32vh;
+  max-height: 249px;
+}
+
+.response-box_page-8 img {
+  height: 100%;
+}
+
+.response-box_page-9 {
+  height: 59vh;
+  max-height: 456px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+
+.response-box_page-9 img {
+  height: 100%;
+}
+
+.response-box_page-10 {
+  height: 46vh;
+  max-height: 358px;
+}
+
+.response-box_page-10 img {
+  height: 100%;
+}
+
+.response-box_page-11 {
+  height: 41vh;
+  max-height: 319px;
+}
+
+.response-box_page-11 img {
   height: 100%;
 }
 
