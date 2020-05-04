@@ -8003,6 +8003,17 @@ section .arrow_up_down_downArrow img {
   }
 }
 
+
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -22947,6 +22958,34 @@ td img {
     width: 4px;
     opacity: 0;
     top: 137%;
+  }
+}
+
+.rain2:nth-of-type(7) {
+  -webkit-animation-name: rain-2-7;
+          animation-name: rain-2-7;
+  -webkit-animation-delay: 7s;
+          animation-delay: 7s;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  left: 50%;
+  opacity: 1;
+  top: 30%;
+}
+
+@-webkit-keyframes rain-2-7 {
+  0% {
+    width: 7px;
+    left: 50%;
+    opacity: 1;
+    top: 30%;
+  }
+  100% {
+    width: 4px;
+    opacity: 0;
+    top: 131%;
   }
 }
 
@@ -38504,6 +38543,50 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
+.cs-5-11-div-12-img {
+  height: 62.89vh;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.cs-5-11-div-13-img {
+  height: 48.95vh;
+}
+
+.cs-5-11-div-14-img {
+  height: 17.57vh;
+}
+
+.cs-5-11-div-15-img {
+  height: 42.31vh;
+}
+
+.cs-5-11-div-16-img {
+  height: 47.78vh;
+}
+
+.cs-5-11-div-17-img {
+  height: 50.52vh;
+}
+
+.cs-5-11-div-18-img {
+  height: 61.45vh;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  bottom: 0;
+}
+
+.cs-5-11-div-19-img {
+  height: 51.3vh;
+}
+
+.cs-5-11-div img {
+  height: 100%;
+}
+
 .response-box_page-6 {
   height: 64vh;
   max-height: 490px;
@@ -38658,6 +38741,42 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 .tables-data_page-1 {
   height: 56vh;
   max-height: 430px;
+          transform: translateX(-50%);
+}
+
+
+.tables-data_page-1 img {
+  height: 100%;
+}
+
+.cs-5-16-13-img {
+  height: 55.98vh;
+  margin-top: 10vh;
+}
+
+.cs-5-16-14-img {
+  height: 55.59vh;
+  margin-top: 19vh;
+}
+
+.cs-5-16-15-img {
+  height: 45.44vh;
+  margin-top: 13vh;
+}
+
+.cs-5-16-16-img {
+  height: 62.5vh;
+  margin-left: 2vh;
+}
+
+.cs-5-16-17-img {
+  height: 47.52vh;
+}
+
+.cs-5-16-18-img {
+  height: 58.85vh;
+  margin-left: 5vh;
+  margin-top: 3vh;
 }
 
 .tables-data_page-1 img {
