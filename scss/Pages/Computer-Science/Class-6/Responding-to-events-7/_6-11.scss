@@ -1,0 +1,62 @@
+.response-box {
+  &_page-6 {
+    height: 64vh;
+    max-height: 490px;
+    position: fixed;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &_page-7 {
+    height: 48vh;
+    max-height: 366px;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &_page-8 {
+    height: 32vh;
+    max-height: 249px;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &_page-9 {
+    height: 59vh;
+    max-height: 456px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &_page-10 {
+    height: 46vh;
+    max-height: 358px;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &_page-11 {
+    height: 41vh;
+    max-height: 319px;
+
+    img {
+      height: 100%;
+    }
+  }
+}
