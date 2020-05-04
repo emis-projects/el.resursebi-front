@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="448.765" height="341.987" viewBox="0 0 448.765 341.987">
+    <defs>
+        <style>
+            .a{opacity:0.7;}.b,.j{fill:#bec9f2;}.b{opacity:0.49;}.c{fill:#b35328;}.d{fill:#e9e9e9;}.e{fill:#8e94a0;}.f{fill:#4b3d64;}.g{fill:#cecfd4;}.h{fill:#fff;}.i{fill:#8c7cc9;}.k{fill:#8a7cc7;}.l,.m{font-size:8.099px;}.l,.m,.n{font-family:Microsoft-Yi-Baiti,
+            Microsoft Yi Baiti;font-style:italic;}.m,.n{letter-spacing:-0.07em;}.n{font-size:6.529px;}
+        </style>
+    </defs>
+    <g transform="translate(-457.641 -379.249)">
+        <g class="a">
+            <path class="b"
+                  d="M533.419,487.544c49.162-53.8,73.742-80.694,98.975-92.136C716.7,357.179,849.759,388,891.54,474.977c2.174,4.526,31.352,67.534,1.511,116.458-24.984,40.961-66.075,30.625-176.169,67.513-117.869,39.491-142.182,75.264-187.7,57.7-43.1-16.633-73.193-68.722-71.14-113.975C459.565,569.015,484.2,541.4,533.419,487.544Z"/>
+            <circle class="b" cx="22.362" cy="22.362" r="22.362" transform="translate(489.918 435.922)"/>
+            <circle class="b" cx="9.379" cy="9.379" r="9.379" transform="translate(457.641 452.347)"/>
+            <circle class="b" cx="16.156" cy="16.156" r="16.156" transform="translate(814.787 636.17)"/>
+            <circle class="b" cx="6.577" cy="6.577" r="6.577" transform="translate(861.406 654.455)"/>
+            <circle class="b" cx="4.826" cy="4.826" r="4.826" transform="translate(540.407 414.937)"/>
+            <circle class="b" cx="4.826" cy="4.826" r="4.826" transform="translate(776.197 668.01)"/>
+        </g>
+        <path class="c"
+              d="M536.331,547.949h0a.955.955,0,0,1-.564-1.222l.774-2.1,1.786.658-.775,2.1A.953.953,0,0,1,536.331,547.949Z"/>
+        <path class="c"
+              d="M546.28,551.612h0a.953.953,0,0,1-.564-1.221l.774-2.1c.052-.141,1.778.677,1.778.677l-.767,2.082A.954.954,0,0,1,546.28,551.612Z"/>
+        <path class="d"
+              d="M536.139,547.537h0a.954.954,0,0,1-.564-1.221l.848-2.3a.953.953,0,0,1,1.221-.564h0a.954.954,0,0,1,.564,1.221l-.848,2.3A.953.953,0,0,1,536.139,547.537Z"/>
+        <path class="d"
+              d="M546.068,551.193h0a.954.954,0,0,1-.564-1.221l.847-2.3a.954.954,0,0,1,1.221-.564h0a.954.954,0,0,1,.564,1.221l-.847,2.3A.954.954,0,0,1,546.068,551.193Z"/>
+        <rect class="e" width="6.237" height="4.044" transform="translate(533.745 569.494) rotate(20.217)"/>
+        <rect class="e" width="6.237" height="4.044" transform="translate(536.412 562.806) rotate(20.217)"/>
+        <path class="f"
+              d="M820.774,695.693H503.961c-3.518,0-7.233-1.774-7.609-6.941v-4.747l34.678-64.08a11.038,11.038,0,0,1,9.886-6.129H783.358c4.524,0,14.5,8.91,16.522,12.957l28.609,58.322v2.095C828.559,693.244,824.633,695.693,820.774,695.693Z"/>
+        <path class="g"
+              d="M820.8,688.985H503.99c-3.519,0-9.31-3.085-7.134-6.878l34.2-68.89a11.038,11.038,0,0,1,9.886-6.129H783.386a11.942,11.942,0,0,1,10.682,6.6l33.857,67.749C830.3,685.76,824.661,688.985,820.8,688.985Z"/>
+        <rect class="g" width="259.445" height="163.942" rx="9.485" transform="translate(531.007 443.026)"/>
+        <rect class="h" width="239.431" height="142.057" transform="translate(540.968 451.968)"/>
+        <path class="f"
+              d="M708.317,686h-93.35a1.683,1.683,0,0,1-1.662-1.949l3.936-24.589a2.735,2.735,0,0,1,2.7-2.3h84.2a2.4,2.4,0,0,1,2.378,2.056l3.608,24.727A1.823,1.823,0,0,1,708.317,686Z"/>
+        <path class="i"
+              d="M787.9,652.092H534.262c-2.814,0-4.961-1.082-4.516-2.276l10.7-28.7c.577-1.549,3.687-2.688,7.336-2.688H776.55c3.242,0,5.993,1.022,6.461,2.4l9.8,28.866C793.2,650.964,790.89,652.092,787.9,652.092Z"/>
+        <rect class="g" width="264.504" height="1.336" transform="translate(529.02 623.37)"/>
+        <rect class="g" width="264.504" height="1.336" transform="translate(529.02 630.049)"/>
+        <rect class="g" width="264.504" height="1.336" transform="translate(529.02 638.065)"/>
+        <rect class="g" width="264.504" height="1.336" transform="translate(529.02 645.412)"/>
+        <rect class="g" width="2.004" height="44.084" transform="translate(561.053 612.728) rotate(17.439)"/>
+        <rect class="g" width="2.004" height="44.084" transform="translate(580.423 612.728) rotate(17.439)"/>
+        <rect class="g" width="2.004" height="44.084" transform="translate(595.786 612.728) rotate(17.439)"/>
+        <rect class="g" width="2.004" height="44.084" transform="translate(611.149 612.728) rotate(17.439)"/>
+        <rect class="g" width="2.004" height="44.084" transform="translate(627.179 612.728) rotate(17.439)"/>
+        <rect class="g" width="2.004" height="44.084" transform="translate(643.446 612.228) rotate(10.978)"/>
+        <rect class="g" width="2.004" height="44.084" transform="translate(657.264 612.015)"/>
+        <rect class="g" width="2.004" height="44.084" transform="translate(760.915 613.329) rotate(-17.439)"/>
+        <rect class="g" width="2.004" height="44.084" transform="translate(742.212 613.329) rotate(-17.439)"/>
+        <rect class="g" width="2.004" height="44.084" transform="translate(723.51 613.329) rotate(-17.439)"/>
+        <rect class="g" width="2.004" height="44.084" transform="translate(704.808 613.329) rotate(-17.439)"/>
+        <rect class="g" width="2.004" height="44.084" transform="translate(686.105 613.329) rotate(-17.439)"/>
+        <rect class="g" width="2.004" height="44.084" transform="translate(667.403 613.329) rotate(-17.439)"/>
+        <rect class="h" width="160.097" height="94.168" transform="translate(584.515 481.711)"/>
+        <rect class="j" width="170.687" height="8.486" transform="translate(573.924 473.225)"/>
+        <rect class="j" width="10.591" height="102.654" transform="translate(573.924 473.225)"/>
+        <path class="k" d="M744.877,576.144H573.659V472.96H744.877Zm-170.688-.53H744.347V473.49H574.189Z"/>
+        <rect class="k" width="0.53" height="102.654" transform="translate(584.25 473.225)"/>
+        <rect class="k" width="0.53" height="102.654" transform="translate(624.274 473.225)"/>
+        <rect class="k" width="0.53" height="102.654" transform="translate(664.298 473.225)"/>
+        <rect class="k" width="0.53" height="102.654" transform="translate(704.323 473.225)"/>
+        <rect class="k" width="170.688" height="0.53" transform="translate(573.924 481.446)"/>
+        <rect class="k" width="170.688" height="0.53" transform="translate(573.924 490.863)"/>
+        <rect class="k" width="170.688" height="0.53" transform="translate(573.924 500.28)"/>
+        <rect class="k" width="170.688" height="0.53" transform="translate(573.924 509.696)"/>
+        <rect class="k" width="170.688" height="0.53" transform="translate(573.924 519.113)"/>
+        <rect class="k" width="170.688" height="0.53" transform="translate(573.924 528.53)"/>
+        <rect class="k" width="170.688" height="0.53" transform="translate(573.924 537.947)"/>
+        <rect class="k" width="170.688" height="0.53" transform="translate(573.924 547.364)"/>
+        <rect class="k" width="170.688" height="0.53" transform="translate(573.924 556.78)"/>
+        <rect class="k" width="170.688" height="0.53" transform="translate(573.924 566.197)"/>
+        <text class="l" transform="translate(576.723 488.606)">
+            <tspan x="0" y="0">1</tspan>
+        </text>
+        <text class="l" transform="translate(576.723 497.815)">
+            <tspan x="0" y="0">2</tspan>
+        </text>
+        <text class="l" transform="translate(576.723 507.024)">
+            <tspan x="0" y="0">3</tspan>
+        </text>
+        <text class="l" transform="translate(576.723 516.795)">
+            <tspan x="0" y="0">4</tspan>
+        </text>
+        <text class="l" transform="translate(576.723 526.005)">
+            <tspan x="0" y="0">5</tspan>
+        </text>
+        <text class="l" transform="translate(576.723 535.214)">
+            <tspan x="0" y="0">6</tspan>
+        </text>
+        <text class="l" transform="translate(576.723 544.423)">
+            <tspan x="0" y="0">7</tspan>
+        </text>
+        <text class="l" transform="translate(576.723 554.194)">
+            <tspan x="0" y="0">8</tspan>
+        </text>
+        <text class="l" transform="translate(576.723 563.403)">
+            <tspan x="0" y="0">9</tspan>
+        </text>
+        <text class="m" transform="translate(574.754 572.894)">
+            <tspan x="0" y="0">10</tspan>
+        </text>
+        <text class="n" transform="translate(600.705 478.887)">
+            <tspan x="0" y="0">A</tspan>
+        </text>
+        <text class="n" transform="translate(642.815 478.887)">
+            <tspan x="0" y="0">B</tspan>
+        </text>
+        <text class="n" transform="translate(682.181 478.887)">
+            <tspan x="0" y="0">C</tspan>
+        </text>
+        <text class="n" transform="translate(724.15 478.887)">
+            <tspan x="0" y="0">D</tspan>
+        </text>
+    </g>
+</svg>

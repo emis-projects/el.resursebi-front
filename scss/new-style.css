@@ -37657,6 +37657,7 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .class_6_3-video_box_23 video {
+  background-color: #000;
   width: 65.95vw;
   height: 65.23vh;
 }
@@ -38325,21 +38326,17 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 64.71vh;
   position: absolute;
   left: 50%;
-  -webkit-transform: translate(-50%, 0);
-          transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
   bottom: 0;
 }
-
 .cs-6-4-div-20-img {
   height: 49.21vh;
 }
-
 .cs-6-4-div-21-img {
   height: 46.09vh;
   position: absolute;
   right: 0;
 }
-
 .cs-6-4-div img {
   height: 100%;
 }
@@ -38349,19 +38346,15 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   background-size: cover;
   background-repeat: no-repeat;
 }
-
 .background-cs-6-4-22 {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Variables-4/cs-6-4-22-img.svg");
 }
-
 .background-cs-6-4-23 {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Variables-4/cs-6-4-23-img.svg");
 }
-
 .background-cs-6-4-24 {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Variables-4/cs-6-4-24-img.svg");
 }
-
 .background-cs-6-4-25 {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Variables-4/cs-6-4-25-img.svg");
 }
@@ -38606,6 +38599,168 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .response-box_page-11 img {
+  height: 100%;
+}
+
+.class_6_7-video_box_5_1 video {
+  background-color: #000;
+  width: 65.95vw;
+  height: 58.46vh;
+}
+
+.class_6_7-img_6_1 {
+  height: 42.12vh;
+  max-height: 323.5px;
+}
+.class_6_7-img_6_1 img {
+  height: 100%;
+}
+.class_6_7-img_7_1 {
+  height: 38.5vh;
+  max-height: 296px;
+}
+.class_6_7-img_7_1 img {
+  height: 100%;
+}
+.class_6_7-img_13_1 {
+  height: 18.75vh;
+  max-height: 144px;
+}
+.class_6_7-img_13_1 img {
+  height: 100%;
+}
+
+.class_6_7-img_12 {
+  height: 43.2vh;
+  max-height: 331.8px;
+}
+.class_6_7-img_12 img {
+  height: 100%;
+}
+.class_6_7-img_13 {
+  position: fixed;
+  bottom: 0;
+  height: 62.63vh;
+  max-height: 481px;
+}
+.class_6_7-img_13 img {
+  height: 100%;
+}
+.class_6_7-img_14 {
+  height: 43.2vh;
+  max-height: 331.8px;
+}
+.class_6_7-img_14 img {
+  height: 100%;
+}
+
+.cs-6-7-1-img {
+  height: 62.76vh;
+  margin: 3vh auto;
+}
+.cs-6-7-3-img {
+  height: 55.2vh;
+  margin-left: 2vh;
+}
+.cs-6-7-4-img {
+  height: 55.85vh;
+}
+.cs-6-7-5-img {
+  height: 48.82vh;
+  margin-top: 5vh;
+}
+
+.tables-data_img {
+  position: fixed;
+  bottom: 15vh;
+  left: 50%;
+          transform: translateX(-50%);
+}
+
+
+.tables-data_page-1 img {
+  height: 100%;
+}
+
+.cs-5-16-13-img {
+  height: 55.98vh;
+  margin-top: 10vh;
+}
+
+.cs-5-16-14-img {
+  height: 55.59vh;
+  margin-top: 19vh;
+}
+
+.cs-5-16-15-img {
+  height: 45.44vh;
+  margin-top: 13vh;
+}
+
+.cs-5-16-16-img {
+  height: 62.5vh;
+  margin-left: 2vh;
+}
+
+.cs-5-16-17-img {
+  height: 47.52vh;
+}
+
+.cs-5-16-18-img {
+  height: 58.85vh;
+  margin-left: 5vh;
+  margin-top: 3vh;
+}
+.tables-data_page-1 img {
+  height: 100%;
+}
+.tables-data_page-3 {
+  height: 45vh;
+  max-height: 342px;
+}
+.tables-data_page-3 img {
+  height: 100%;
+}
+.tables-data_page-4 {
+  height: 45vh;
+  max-height: 345px;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.tables-data_page-4 img {
+  height: 100%;
+}
+.tables-data_page-5 {
+  height: 58vh;
+  max-height: 451px;
+}
+.tables-data_page-5 img {
+  height: 100%;
+}
+.tables-data_page-6 {
+  height: 56vh;
+  max-height: 434px;
+}
+.tables-data_page-6 img {
+  height: 100%;
+}
+
+.tables-data_img {
+  position: fixed;
+  bottom: 15vh;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.tables-data_page-1 {
+  height: 56vh;
+  max-height: 430px;
+}
+
+.tables-data_page-1 img {
   height: 100%;
 }
 
