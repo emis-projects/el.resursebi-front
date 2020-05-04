@@ -1,0 +1,229 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="896.89" height="470.937" viewBox="0 0 896.89 470.937">
+    <defs>
+        <style>
+            .a{fill:#bec9f2;opacity:0.49;}.b{fill:#f5efef;}.c{fill:#b5a7d6;}.d{fill:#a4e3e8;}.e{fill:#f8df86;}.f,.i{font-size:14.787px;}.f,.i,.o,.p,.q{font-family:DejaVuSans,
+            DejaVu
+            Sans;}.g,.q{fill:#201600;}.h{fill:#c6c6c6;}.i{fill:#c00000;}.j{fill:#62548a;}.k{fill:#dc6c85;}.l{fill:#f7cf43;}.m{fill:#947dce;}.n{fill:#7fd1d8;}.o{font-size:9.379px;}.p{fill:#fff;}.p,.q{font-size:11.416px;}
+        </style>
+    </defs>
+    <g transform="translate(-246.712 -4213.099)">
+        <path class="a"
+              d="M488.62,4337.106c83.308-68.352,124.962-102.528,164.308-113.946,131.455-38.149,319.686,35.048,362.469,171.17,2.226,7.082,31.625,105.458-22.378,170.758-45.214,54.674-103.169,30.871-272.085,61.611-180.843,32.91-223.98,80.131-286.9,44.809-59.566-33.442-92.609-116.031-80.05-181.827C363.329,4440.748,405.22,4405.534,488.62,4337.106Z"/>
+        <circle class="a" cx="33.066" cy="33.066" r="33.066" transform="translate(430.794 4256.753)"/>
+        <circle class="a" cx="13.868" cy="13.868" r="13.868" transform="translate(383.025 4271.432)"/>
+        <circle class="a" cx="23.89" cy="23.89" r="23.89" transform="translate(865.375 4617.202)"/>
+        <circle class="a" cx="9.725" cy="9.725" r="9.725" transform="translate(931.91 4651.928)"/>
+        <circle class="a" cx="7.137" cy="7.137" r="7.137" transform="translate(513.085 4233.265)"/>
+        <circle class="a" cx="7.137" cy="7.137" r="7.137" transform="translate(804.738 4653.432)"/>
+        <rect class="b" width="448.975" height="269.858" transform="translate(694.097 4335.891)"/>
+        <rect class="c" width="229.963" height="236.126" transform="translate(464.135 4369.624)"/>
+        <rect class="d" width="190.737" height="236.126" transform="translate(273.398 4369.624)"/>
+        <rect class="e" width="420.7" height="33.732" transform="translate(273.398 4335.891)"/>
+        <rect class="b" width="26.156" height="301.616" transform="translate(247.242 4304.133)"/>
+        <rect class="b" width="895.83" height="31.758" transform="translate(247.242 4304.133)"/>
+        <text class="f" transform="translate(257.588 4362.218)">
+            <tspan x="0" y="0">1</tspan>
+        </text>
+        <text class="f" transform="translate(257.129 4395.729)">
+            <tspan x="0" y="0">2</tspan>
+        </text>
+        <text class="f" transform="translate(257.1 4429.241)">
+            <tspan x="0" y="0">3</tspan>
+        </text>
+        <text class="f" transform="translate(256.856 4462.752)">
+            <tspan x="0" y="0">4</tspan>
+        </text>
+        <text class="f" transform="translate(257.085 4496.264)">
+            <tspan x="0" y="0">5</tspan>
+        </text>
+        <text class="f" transform="translate(256.849 4529.776)">
+            <tspan x="0" y="0">6</tspan>
+        </text>
+        <text class="f" transform="translate(257.507 4561.168)">
+            <tspan x="0" y="0">7</tspan>
+        </text>
+        <text class="f" transform="translate(256.716 4593.62)">
+            <tspan x="0" y="0">8</tspan>
+        </text>
+        <path class="g" d="M1143.6,4606.279H246.712V4303.6H1143.6Zm-895.83-1.059h894.77V4304.663H247.772Z"/>
+        <rect class="g" width="895.83" height="1.06" transform="translate(247.242 4335.361)"/>
+        <rect class="g" width="446.855" height="1.06" transform="translate(247.242 4369.094)"/>
+        <rect class="g" width="446.855" height="1.06" transform="translate(247.242 4402.826)"/>
+        <rect class="g" width="446.855" height="1.06" transform="translate(247.242 4436.558)"/>
+        <rect class="g" width="446.855" height="1.06" transform="translate(247.242 4470.291)"/>
+        <rect class="g" width="446.855" height="1.06" transform="translate(247.242 4504.023)"/>
+        <rect class="g" width="446.855" height="1.06" transform="translate(247.242 4537.755)"/>
+        <rect class="g" width="446.855" height="1.06" transform="translate(247.242 4571.487)"/>
+        <rect class="g" width="1.06" height="290.345" transform="translate(693.568 4315.405)"/>
+        <path class="h"
+              d="M817.254,4388.685l.258,24.307.148,24.308.124,48.615-.122,48.615-.148,24.307-.259,24.308-.259-24.308-.148-24.307-.122-48.615.124-48.615.148-24.308Z"/>
+        <path class="h"
+              d="M875.8,4388.685l.258,24.307.148,24.308.124,48.615-.122,48.615-.148,24.307-.259,24.308-.259-24.308-.148-24.307-.122-48.615.124-48.615.148-24.308Z"/>
+        <path class="h"
+              d="M934.345,4388.685l.258,24.307.148,24.308.123,48.615-.122,48.615-.148,24.307-.259,24.308-.259-24.308-.148-24.307-.122-48.615.124-48.615.148-24.308Z"/>
+        <path class="h"
+              d="M992.891,4388.685l.258,24.307.148,24.308.124,48.615-.122,48.615-.148,24.307-.259,24.308-.259-24.308-.148-24.307-.122-48.615.124-48.615.148-24.308Z"/>
+        <path class="h"
+              d="M1051.437,4388.685l.258,24.307.148,24.308.124,48.615-.122,48.615-.148,24.307-.259,24.308-.259-24.308-.148-24.307-.122-48.615.124-48.615.148-24.308Z"/>
+        <path class="h"
+              d="M1109.983,4388.685l.258,24.307.148,24.308.124,48.615-.122,48.615-.148,24.307-.259,24.308-.259-24.308-.148-24.307-.122-48.615.124-48.615.148-24.308Z"/>
+        <rect class="g" width="1.06" height="20.486" transform="translate(753.773 4315.405)"/>
+        <rect class="g" width="1.06" height="20.486" transform="translate(813.978 4315.405)"/>
+        <rect class="g" width="1.06" height="20.486" transform="translate(874.184 4315.405)"/>
+        <rect class="g" width="1.06" height="20.486" transform="translate(934.39 4315.405)"/>
+        <rect class="g" width="1.06" height="20.486" transform="translate(994.595 4315.405)"/>
+        <rect class="g" width="1.06" height="20.486" transform="translate(1054.8 4315.405)"/>
+        <rect class="g" width="1.06" height="20.486" transform="translate(1115.006 4315.405)"/>
+        <rect class="g" width="1.06" height="290.345" transform="translate(463.605 4315.405)"/>
+        <rect class="g" width="1.06" height="290.345" transform="translate(272.868 4315.405)"/>
+        <text class="i" transform="translate(279.841 4358.218)">
+            <tspan x="0" y="0">კვირის დღე</tspan>
+        </text>
+        <text class="f" transform="translate(279.841 4395.729)">
+            <tspan x="0" y="0">ორშაბათი</tspan>
+        </text>
+        <text class="f" transform="translate(279.841 4429.241)">
+            <tspan x="0" y="0">სამშაბათი</tspan>
+        </text>
+        <text class="f" transform="translate(279.841 4462.752)">
+            <tspan x="0" y="0">ოთხშაბათი</tspan>
+        </text>
+        <text class="f" transform="translate(279.841 4496.264)">
+            <tspan x="0" y="0">ხუთშაბათი</tspan>
+        </text>
+        <text class="f" transform="translate(279.841 4529.776)">
+            <tspan x="0" y="0">პარასკევი</tspan>
+        </text>
+        <text class="f" transform="translate(279.841 4561.168)">
+            <tspan x="0" y="0">შაბათი</tspan>
+        </text>
+        <text class="f" transform="translate(279.841 4593.62)">
+            <tspan x="0" y="0">კვირა</tspan>
+        </text>
+        <text class="i" transform="translate(469.771 4358.218)">
+            <tspan x="0" y="0">რაოდენობა</tspan>
+        </text>
+        <text class="f" transform="translate(880.917 4369.624)">
+            <tspan x="0" y="0">რაოდენობა</tspan>
+        </text>
+        <text class="f" transform="translate(571.874 4395.729)">
+            <tspan x="0" y="0">7</tspan>
+        </text>
+        <text class="f" transform="translate(568.081 4429.241)">
+            <tspan x="0" y="0">12</tspan>
+        </text>
+        <text class="f" transform="translate(568.244 4462.752)">
+            <tspan x="0" y="0">21</tspan>
+        </text>
+        <text class="f" transform="translate(568.443 4496.264)">
+            <tspan x="0" y="0">17</tspan>
+        </text>
+        <text class="f" transform="translate(568.606 4529.776)">
+            <tspan x="0" y="0">11</tspan>
+        </text>
+        <text class="f" transform="translate(567.549 4561.168)">
+            <tspan x="0" y="0">25</tspan>
+        </text>
+        <text class="f" transform="translate(571.193 4593.62)">
+            <tspan x="0" y="0">9</tspan>
+        </text>
+        <text class="f" transform="translate(356.404 4325.648)">
+            <tspan x="0" y="0">A</tspan>
+        </text>
+        <text class="f" transform="translate(571.193 4325.648)">
+            <tspan x="0" y="0">B</tspan>
+        </text>
+        <text class="f" transform="translate(719.545 4325.648)">
+            <tspan x="0" y="0">C</tspan>
+        </text>
+        <text class="f" transform="translate(778.885 4325.648)">
+            <tspan x="0" y="0">D</tspan>
+        </text>
+        <text class="f" transform="translate(840.345 4325.648)">
+            <tspan x="0" y="0">E</tspan>
+        </text>
+        <text class="f" transform="translate(900.745 4325.648)">
+            <tspan x="0" y="0">F</tspan>
+        </text>
+        <text class="f" transform="translate(959.556 4325.648)">
+            <tspan x="0" y="0">G</tspan>
+        </text>
+        <text class="f" transform="translate(1018.896 4325.648)">
+            <tspan x="0" y="0">H</tspan>
+        </text>
+        <text class="f" transform="translate(1082.476 4325.648)">
+            <tspan x="0" y="0">I</tspan>
+        </text>
+        <rect class="j" width="103.846" height="14.835" transform="translate(759.856 4396.292)"/>
+        <rect class="k" width="291.581" height="14.835" transform="translate(759.856 4422.43)"/>
+        <rect class="l" width="123.626" height="14.835" transform="translate(759.856 4448.567)"/>
+        <rect class="m" width="194.976" height="14.835" transform="translate(759.856 4474.706)"/>
+        <rect class="k" width="240.188" height="14.835" transform="translate(759.856 4500.844)"/>
+        <rect class="n" width="136.695" height="14.835" transform="translate(759.856 4526.982)"/>
+        <rect class="l" width="80.18" height="14.835" transform="translate(759.856 4553.12)"/>
+        <rect class="g" width="2.119" height="193.21" transform="translate(758.796 4385.695)"/>
+        <text class="o" transform="translate(705.617 4563.747)">
+            <tspan x="0" y="0">ორშაბათი</tspan>
+        </text>
+        <text class="o" transform="translate(705.275 4537.579)">
+            <tspan x="0" y="0">სამშაბათი</tspan>
+        </text>
+        <text class="o" transform="translate(700.614 4511.41)">
+            <tspan x="0" y="0">ოთხშაბათი</tspan>
+        </text>
+        <text class="o" transform="translate(702.715 4485.242)">
+            <tspan x="0" y="0">ხუთშაბათი</tspan>
+        </text>
+        <text class="o" transform="translate(705.554 4459.073)">
+            <tspan x="0" y="0">პარასკევი</tspan>
+        </text>
+        <text class="o" transform="translate(719.097 4432.904)">
+            <tspan x="0" y="0">შაბათი</tspan>
+        </text>
+        <text class="o" transform="translate(724.418 4406.736)">
+            <tspan x="0" y="0">კვირა</tspan>
+        </text>
+        <text class="p" transform="translate(853.441 4407.986)">
+            <tspan x="0" y="0">9</tspan>
+        </text>
+        <text class="p" transform="translate(1032.966 4433.964)">
+            <tspan x="0" y="0">25</tspan>
+        </text>
+        <text class="p" transform="translate(865.131 4459.517)">
+            <tspan x="0" y="0">11</tspan>
+        </text>
+        <text class="p" transform="translate(936.597 4486.301)">
+            <tspan x="0" y="0">17</tspan>
+        </text>
+        <text class="p" transform="translate(981.765 4512.47)">
+            <tspan x="0" y="0">21</tspan>
+        </text>
+        <text class="p" transform="translate(878.39 4538.579)">
+            <tspan x="0" y="0">12</tspan>
+        </text>
+        <text class="p" transform="translate(829.466 4564.732)">
+            <tspan x="0" y="0">7</tspan>
+        </text>
+        <text class="q" transform="translate(756.174 4592.106)">
+            <tspan x="0" y="0">0</tspan>
+        </text>
+        <text class="q" transform="translate(814.808 4592.106)">
+            <tspan x="0" y="0">5</tspan>
+        </text>
+        <text class="q" transform="translate(870.263 4592.106)">
+            <tspan x="0" y="0">10</tspan>
+        </text>
+        <text class="q" transform="translate(928.897 4592.106)">
+            <tspan x="0" y="0">15</tspan>
+        </text>
+        <text class="q" transform="translate(987.531 4592.106)">
+            <tspan x="0" y="0">20</tspan>
+        </text>
+        <text class="q" transform="translate(1046.165 4592.106)">
+            <tspan x="0" y="0">25</tspan>
+        </text>
+        <text class="q" transform="translate(1103.74 4592.106)">
+            <tspan x="0" y="0">30</tspan>
+        </text>
+    </g>
+</svg>
