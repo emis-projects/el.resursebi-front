@@ -31458,12 +31458,10 @@ img.mfp-img[alt*=cs-3-6-6-img] {
   background: url("../img/gakvetilebi/Computer-Science/Class-5/Using-diagrams-19/cs-5-19-21.svg") no-repeat center;
   background-size: cover;
 }
-
 .diagram-box_page-5-1 {
   height: 61vh;
   max-height: 471px;
 }
-
 .diagram-box_page-5-1 img {
   height: 100%;
 }
@@ -31471,11 +31469,9 @@ img.mfp-img[alt*=cs-3-6-6-img] {
 .variables-box .reload_game_wrapper {
   bottom: 12vh;
 }
-
 .variables-box_img {
   width: 100%;
 }
-
 .variables-box_page-15 {
   height: 53vh;
   max-height: 405px;
@@ -31483,29 +31479,23 @@ img.mfp-img[alt*=cs-3-6-6-img] {
   right: 0;
   bottom: 0;
 }
-
 .variables-box_page-15 img {
   height: 100%;
 }
-
 .variables-box_page-16 {
   height: 30vh;
   max-height: 233px;
 }
-
 .variables-box_page-16 img {
   height: 100%;
 }
-
 .variables-box_page-17 {
   height: 72vh;
   max-height: 530px;
 }
-
 .variables-box_page-17 img {
   height: 100%;
 }
-
 .variables-box_page-18 {
   height: 12vh;
   max-height: 90px;
@@ -31513,7 +31503,6 @@ img.mfp-img[alt*=cs-3-6-6-img] {
   background: #FFC84F;
   border-radius: 9px;
 }
-
 .variables-box_page-18-var {
   background: #85B2CC;
   height: 8.5vh;
