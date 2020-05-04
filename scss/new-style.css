@@ -10414,8 +10414,8 @@ section .arrow_up_down_downArrow img {
 
 .m_exercise_text-container_16px {
   color: #0B2228;
-  font-size: 2.08h;
-  font-family: 'BPG Arial';
+  font-size: 2.08 h;
+  font-family: "BPG Arial";
 }
 
 .music-andantino-lyrics-div {
@@ -38072,6 +38072,54 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .class_5_19-img_16 img {
+.diagram-box_page-17 {
+  height: 70vh;
+  max-height: 570px;
+}
+.diagram-box_page-17 img {
+  height: 100%;
+}
+.diagram-box_page-18 {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: url("../img/gakvetilebi/Computer-Science/Class-5/Using-diagrams-19/cs-5-19-18.svg") no-repeat center;
+  background-size: cover;
+}
+.diagram-box_page-19 {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: url("../img/gakvetilebi/Computer-Science/Class-5/Using-diagrams-19/cs-5-19-19.svg") no-repeat center;
+  background-size: cover;
+}
+.diagram-box_page-20 {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: url("../img/gakvetilebi/Computer-Science/Class-5/Using-diagrams-19/cs-5-19-20.svg") no-repeat center;
+  background-size: cover;
+}
+.diagram-box_page-21 {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: url("../img/gakvetilebi/Computer-Science/Class-5/Using-diagrams-19/cs-5-19-21.svg") no-repeat center;
+  background-size: cover;
+}
+.diagram-box_page-5-1 {
+  height: 61vh;
+  max-height: 471px;
+}
+.diagram-box_page-5-1 img {
   height: 100%;
 }
 
