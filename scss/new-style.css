@@ -38064,14 +38064,14 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .class_5_19-img_16 {
-  position: fixed;
-  bottom: 0;
-  right: 16.9vh;
   height: 66.27vh;
   max-height: 509px;
 }
 
 .class_5_19-img_16 img {
+  height: 100%;
+}
+
 .diagram-box_page-17 {
   height: 70vh;
   max-height: 570px;
