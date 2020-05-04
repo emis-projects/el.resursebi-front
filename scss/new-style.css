@@ -919,7 +919,6 @@
   font-style: normal;
   font-display: block;
 }
-
 [class^=icon-], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: "icomoon" !important;
@@ -1033,7 +1032,6 @@
   font-weight: normal;
   font-style: normal;
 }
-
 [class^=arrow-]:before, [class*=" arrow-"]:before {
   font-family: "fontello";
   font-style: normal;
@@ -8767,9 +8765,9 @@ section .arrow_up_down_downArrow img {
 }
 
 .m_exercise_text-container_16px {
-  color: #0B2228;
-  font-size: 2.08 h;
-  font-family: "BPG Arial";
+    color: #0B2228;
+    font-size: 2.08 h;
+    font-family: "BPG Arial";
 }
 
 .music-andantino-lyrics-div {
@@ -31522,12 +31520,10 @@ img.mfp-img[alt*=cs-3-6-6-img] {
   height: 47.69vh;
   margin-top: 2vh;
 }
-
 .cs-5-19-10-img {
   height: 72.91vh;
   margin-left: 2vh;
 }
-
 .cs-5-19-11-img {
   height: 50vh;
 }
@@ -31535,11 +31531,9 @@ img.mfp-img[alt*=cs-3-6-6-img] {
 .variables-box .reload_game_wrapper {
   bottom: 12vh;
 }
-
 .variables-box_img {
   width: 100%;
 }
-
 .variables-box_page-15 {
   height: 53vh;
   max-height: 405px;
@@ -31547,29 +31541,23 @@ img.mfp-img[alt*=cs-3-6-6-img] {
   right: 0;
   bottom: 0;
 }
-
 .variables-box_page-15 img {
   height: 100%;
 }
-
 .variables-box_page-16 {
   height: 30vh;
   max-height: 233px;
 }
-
 .variables-box_page-16 img {
   height: 100%;
 }
-
 .variables-box_page-17 {
   height: 72vh;
   max-height: 530px;
 }
-
 .variables-box_page-17 img {
   height: 100%;
 }
-
 .variables-box_page-18 {
   height: 12vh;
   max-height: 90px;
@@ -31579,23 +31567,86 @@ img.mfp-img[alt*=cs-3-6-6-img] {
 }
 
 .variables-box_page-18-var {
-  background: #85B2CC;
-  height: 8.5vh;
-  max-height: 66px;
-  color: #fff;
-  text-align: center;
-  text-transform: capitalize;
-  font-weight: bolder;
+    background: #85B2CC;
+    height: 8.5vh;
+    max-height: 66px;
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+
+.remember-box_page-6 {
+    height: 50vh;
+    max-height: 384px;
+}
+
+.remember-box_page-6 img {
+    height: 100%;
+}
+
+.remember-box_page-7-1 {
+    height: 24vh;
+    max-height: 185px;
+}
+
+.remember-box_page-7-1 img {
+    height: 100%;
+}
+
+.remember-box_page-7-2 {
+    height: 21vh;
+    max-height: 162px;
+}
+
+.remember-box_page-7-2 img {
+    height: 100%;
+}
+
+.remember-box_page-8 {
+    height: 41vh;
+    max-height: 321px;
+}
+
+.remember-box_page-8 img {
+    height: 100%;
+}
+
+.remember-box_page-9 {
+    height: 38vh;
+    max-height: 295px;
+}
+
+.remember-box_page-9 img {
+    height: 100%;
+}
+
+.remember-box_page-10 {
+    height: 60vh;
+    max-height: 464px;
+}
+
+.remember-box_page-10 img {
+    height: 100%;
+}
+
+.remember-box_page-11 {
+    height: 39vh;
+    max-height: 307px;
+}
+
+.remember-box_page-11 img {
+    height: 100%;
 }
 
 body {
-  color: #262626;
-  font-size: 14px;
-  line-height: 21px;
+    color: #262626;
+    font-size: 14px;
+    line-height: 21px;
 }
 
 .flex {
-  display: flex;
+    display: flex;
 }
 
 .justify-between {
