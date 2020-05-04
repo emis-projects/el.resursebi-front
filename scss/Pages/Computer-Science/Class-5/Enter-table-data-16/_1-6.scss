@@ -1,0 +1,17 @@
+.tables-data {
+  &_img {
+    position: fixed;
+    bottom: 15vh;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  &_page-1 {
+    height: 56vh;
+    max-height: 430px;
+
+    img {
+      height: 100%;
+    }
+  }
+}

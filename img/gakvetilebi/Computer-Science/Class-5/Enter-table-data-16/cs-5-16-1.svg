@@ -1,0 +1,461 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="629.82" height="430"
+     viewBox="0 0 629.82 430">
+    <defs>
+        <style>
+            .a{fill:none;}.b{opacity:0.49;}.c{fill:#bec9f2;}.d{fill:#a1b4c9;}.e{fill:#e3f9ff;}.f{fill:#bbc9d0;}.g{fill:#717179;}.h{fill:#fff;}.i{fill:#bdd4ed;}.j{fill:#fafbe1;}.k{fill:#5781bf;}.l{fill:#8a7cc7;}.m{fill:#f0c659;}.n{clip-path:url(#a);}
+        </style>
+        <clipPath id="a">
+            <path class="a" d="M581.818,593.025,720.663,476.967l-16.5-92.081L564.422,493.544Z"
+                  transform="translate(-564.422 -384.886)"/>
+        </clipPath>
+    </defs>
+    <g transform="translate(-429.511 -371.858)">
+        <g transform="translate(429.511 371.858)">
+            <g class="b" transform="translate(0 105.121)">
+                <path class="c"
+                      d="M821.779,701.349c-55.76,7.562-77.358,79.7-209.418,78.03-26.356-.332-51.231-15.214-71.812-31.681-10.426-8.341-19.894-20.409-18.283-33.662,2.519-20.719,28.721-29.317,38.733-47.63,2.008-3.672,3.342-7.972,2.359-12.039-1.706-7.055-9.342-10.68-16.122-13.271q-31.219-11.932-63.142-21.9c-17.64-5.508-36.936-11.653-46.932-27.2-5.342-8.308-7.284-18.392-7.6-28.265-.7-21.845,6.146-43.64,17.942-62.041,9.855-15.372,23.332-28.664,39.679-36.8,34.672-17.25,75.933-9.388,113.955-2.041,62.978,12.168,126.682,21.889,190.819,22.722,74.406.968,152.6-9.369,220.22,21.682,17.719,8.135,37.331,19.1,42.961,37.771C1087.521,652.391,924.937,687.358,821.779,701.349Z"
+                      transform="translate(-429.511 -454.529)"/>
+            </g>
+            <g transform="translate(158.665)">
+                <g transform="translate(29.356 119.333)">
+                    <g transform="translate(0.011 9.028)">
+                        <path class="d"
+                              d="M839.525,513.887,731.987,473.112a6.7,6.7,0,0,0-5.914.987L585.391,590.654l-8.006-2.555,1.231,9.285A2.181,2.181,0,0,0,580.025,599l107.943,46.309a6.74,6.74,0,0,0,6.018-.825L846.44,519.853a2.052,2.052,0,0,0,1-1.951l-1.738-9.461-6.972,1.1Z"
+                              transform="translate(-577.385 -472.805)"/>
+                    </g>
+                    <path class="e"
+                          d="M730.507,465.99a6.888,6.888,0,0,0-5.9.994L578.344,588.251c-1.451,1.228-1.249,2.754.47,3.535L686.532,637.72a6.384,6.384,0,0,0,6.007-.834L844.715,512.372c1.581-1.212,1.288-2.8-.656-3.581Z"
+                          transform="translate(-577.377 -465.705)"/>
+                    <g transform="translate(153.391 12.41)">
+                        <path class="f" d="M698.008,481.241l8.471,3.215,6.984-5.769L705,475.464Z"
+                              transform="translate(-698.008 -475.464)"/>
+                    </g>
+                    <g transform="translate(140.287 23.297)">
+                        <path class="f" d="M687.7,489.76l8.42,3.271,7-5.8-8.46-3.209Z"
+                              transform="translate(-687.703 -484.026)"/>
+                    </g>
+                    <g transform="translate(165.584 17.114)">
+                        <path class="f" d="M707.6,484.927l8.526,3.235,7.012-5.784-8.514-3.214Z"
+                              transform="translate(-707.597 -479.164)"/>
+                    </g>
+                    <g transform="translate(165.442 21.007)">
+                        <path class="f" d="M707.485,496.851l8.528,3.253,17.7-14.58-8.611-3.3Z"
+                              transform="translate(-707.485 -482.225)"/>
+                    </g>
+                    <g transform="translate(175.958 25.041)">
+                        <path class="f" d="M715.755,500.05l8.544,3.26,17.761-14.584-8.611-3.329Z"
+                              transform="translate(-715.755 -485.398)"/>
+                    </g>
+                    <g transform="translate(186.698 29.16)">
+                        <path class="f" d="M724.2,503.252l8.6,3.351,17.84-14.655-8.673-3.31Z"
+                              transform="translate(-724.202 -488.637)"/>
+                    </g>
+                    <g transform="translate(131.562 30.509)">
+                        <path class="f" d="M680.841,495.453l8.4,3.237,6.98-5.738L687.8,489.7Z"
+                              transform="translate(-680.841 -489.698)"/>
+                    </g>
+                    <g transform="translate(122.847 37.754)">
+                        <path class="f" d="M673.987,501.116l8.388,3.292,6.944-5.77-8.373-3.243Z"
+                              transform="translate(-673.987 -495.396)"/>
+                    </g>
+                    <g transform="translate(114.146 44.929)">
+                        <path class="f" d="M667.145,506.74l8.357,3.325,6.941-5.782-8.355-3.245Z"
+                              transform="translate(-667.145 -501.038)"/>
+                    </g>
+                    <g transform="translate(155.04 25.828)">
+                        <path class="f" d="M699.3,491.778l8.48,3.283,6.986-5.8-8.476-3.243Z"
+                              transform="translate(-699.305 -486.017)"/>
+                    </g>
+                    <g transform="translate(146.304 33.067)">
+                        <path class="f" d="M692.435,497.489l8.434,3.286,6.979-5.78-8.456-3.285Z"
+                              transform="translate(-692.435 -491.71)"/>
+                    </g>
+                    <g transform="translate(137.5 40.331)">
+                        <path class="f" d="M685.511,503.158l8.441,3.324,7.011-5.808-8.471-3.252Z"
+                              transform="translate(-685.511 -497.422)"/>
+                    </g>
+                    <g transform="translate(128.775 47.547)">
+                        <path class="f" d="M678.649,508.837l8.4,3.336,7-5.795L685.6,503.1Z"
+                              transform="translate(-678.649 -503.097)"/>
+                    </g>
+                    <g transform="translate(120.038 54.75)">
+                        <path class="f" d="M671.778,514.527l8.391,3.293,6.983-5.732-8.409-3.326Z"
+                              transform="translate(-671.778 -508.762)"/>
+                    </g>
+                    <g transform="translate(111.362 61.998)">
+                        <path class="f" d="M664.955,520.209l8.326,3.288,6.967-5.7-8.374-3.337Z"
+                              transform="translate(-664.955 -514.462)"/>
+                    </g>
+                    <g transform="translate(102.626 69.152)">
+                        <path class="f" d="M658.085,525.815l8.329,3.356,6.949-5.748-8.347-3.336Z"
+                              transform="translate(-658.085 -520.088)"/>
+                    </g>
+                    <g transform="translate(93.96 76.354)">
+                        <path class="f" d="M651.27,531.461l8.264,3.356,6.961-5.723-8.339-3.342Z"
+                              transform="translate(-651.27 -525.752)"/>
+                    </g>
+                    <g transform="translate(85.514 83.354)">
+                        <path class="f" d="M644.628,536.95l8.3,3.335,6.937-5.689-8.294-3.339Z"
+                              transform="translate(-644.628 -531.257)"/>
+                    </g>
+                    <g transform="translate(76.858 90.513)">
+                        <path class="f" d="M637.821,542.563l8.247,3.343L653,540.234l-8.269-3.347Z"
+                              transform="translate(-637.821 -536.887)"/>
+                    </g>
+                    <g transform="translate(68.183 97.675)">
+                        <path class="f" d="M631,548.2l8.246,3.393,6.931-5.706-8.264-3.372Z"
+                              transform="translate(-630.998 -542.519)"/>
+                    </g>
+                    <g transform="translate(59.534 104.839)">
+                        <path class="f" d="M624.2,553.813l8.229,3.4,6.933-5.69-8.246-3.365Z"
+                              transform="translate(-624.196 -548.154)"/>
+                    </g>
+                    <g transform="translate(50.913 111.939)">
+                        <path class="f" d="M617.416,559.405l8.186,3.4,6.906-5.668-8.206-3.4Z"
+                              transform="translate(-617.416 -553.737)"/>
+                    </g>
+                    <g transform="translate(42.296 119.036)">
+                        <path class="f" d="M610.64,565l8.164,3.433,6.885-5.679-8.175-3.434Z"
+                              transform="translate(-610.64 -559.319)"/>
+                    </g>
+                    <g transform="translate(167.107 41.142)">
+                        <path class="f" d="M708.8,503.822l8.559,3.341,7.034-5.832-8.55-3.271Z"
+                              transform="translate(-708.795 -498.06)"/>
+                    </g>
+                    <g transform="translate(158.278 48.403)">
+                        <path class="f" d="M701.851,509.515l8.532,3.346,7.054-5.82-8.551-3.271Z"
+                              transform="translate(-701.851 -503.771)"/>
+                    </g>
+                    <g transform="translate(149.503 55.675)">
+                        <path class="f" d="M694.951,515.224l8.495,3.347,7.008-5.791-8.487-3.291Z"
+                              transform="translate(-694.951 -509.489)"/>
+                    </g>
+                    <g transform="translate(140.698 62.911)">
+                        <path class="f" d="M688.026,520.961l8.477,3.354,7.029-5.782-8.5-3.353Z"
+                              transform="translate(-688.026 -515.18)"/>
+                    </g>
+                    <g transform="translate(131.938 70.159)">
+                        <path class="f" d="M681.136,526.656l8.425,3.318,7.017-5.72-8.465-3.373Z"
+                              transform="translate(-681.136 -520.88)"/>
+                    </g>
+                    <g transform="translate(123.158 77.402)">
+                        <path class="f" d="M674.232,532.332l8.422,3.348,7-5.73-8.428-3.374Z"
+                              transform="translate(-674.232 -526.576)"/>
+                    </g>
+                    <g transform="translate(114.409 84.572)">
+                        <path class="f" d="M667.352,538l8.4,3.39,6.991-5.752-8.419-3.424Z"
+                              transform="translate(-667.352 -532.215)"/>
+                    </g>
+                    <g transform="translate(105.967 91.586)">
+                        <path class="f" d="M660.712,543.491l8.345,3.388,6.975-5.723-8.383-3.425Z"
+                              transform="translate(-660.712 -537.731)"/>
+                    </g>
+                    <g transform="translate(97.227 98.823)">
+                        <path class="f" d="M653.839,549.158l8.338,3.39,6.994-5.71-8.382-3.415Z"
+                              transform="translate(-653.839 -543.422)"/>
+                    </g>
+                    <g transform="translate(88.494 106.013)">
+                        <path class="f" d="M646.971,554.786l8.333,3.479,6.964-5.778-8.346-3.41Z"
+                              transform="translate(-646.971 -549.077)"/>
+                    </g>
+                    <g transform="translate(79.792 113.181)">
+                        <path class="f" d="M640.128,560.416l8.312,3.453,6.933-5.728-8.293-3.427Z"
+                              transform="translate(-640.128 -554.714)"/>
+                    </g>
+                    <g transform="translate(71.115 120.363)">
+                        <path class="f" d="M633.3,566.052l8.25,3.472,6.96-5.725-8.305-3.436Z"
+                              transform="translate(-633.304 -560.362)"/>
+                    </g>
+                    <g transform="translate(62.432 127.56)">
+                        <path class="f" d="M626.475,571.686l8.239,3.512,6.928-5.744-8.258-3.433Z"
+                              transform="translate(-626.475 -566.022)"/>
+                    </g>
+                    <g transform="translate(177.852 45.28)">
+                        <path class="f" d="M717.245,507.076l8.576,3.356,7.051-5.836-8.586-3.281Z"
+                              transform="translate(-717.245 -501.314)"/>
+                    </g>
+                    <g transform="translate(168.995 52.579)">
+                        <path class="f" d="M710.279,512.812l8.577,3.35,7.053-5.814-8.57-3.294Z"
+                              transform="translate(-710.279 -507.054)"/>
+                    </g>
+                    <g transform="translate(160.154 59.842)">
+                        <path class="f" d="M703.327,518.57l8.551,3.359,7.073-5.806-8.582-3.357Z"
+                              transform="translate(-703.327 -512.767)"/>
+                    </g>
+                    <g transform="translate(151.36 67.115)">
+                        <path class="f" d="M696.411,524.285l8.507,3.321,7.034-5.738-8.519-3.381Z"
+                              transform="translate(-696.411 -518.486)"/>
+                    </g>
+                    <g transform="translate(142.529 74.388)">
+                        <path class="f" d="M689.466,529.983l8.493,3.353,7.05-5.754-8.52-3.376Z"
+                              transform="translate(-689.466 -524.206)"/>
+                    </g>
+                    <g transform="translate(133.745 81.586)">
+                        <path class="f" d="M682.558,535.672l8.454,3.4,7.025-5.774-8.49-3.43Z"
+                              transform="translate(-682.558 -529.867)"/>
+                    </g>
+                    <g transform="translate(124.951 88.874)">
+                        <path class="f" d="M675.642,541.374l8.451,3.429,7-5.784-8.452-3.421Z"
+                              transform="translate(-675.642 -535.598)"/>
+                    </g>
+                    <g transform="translate(116.467 95.888)">
+                        <path class="f" d="M668.97,546.872l8.418,3.394,6.992-5.726-8.417-3.426Z"
+                              transform="translate(-668.97 -541.114)"/>
+                    </g>
+                    <g transform="translate(107.718 103.106)">
+                        <path class="f" d="M662.09,552.517l8.377,3.489,6.98-5.8-8.4-3.418Z"
+                              transform="translate(-662.09 -546.791)"/>
+                    </g>
+                    <g transform="translate(98.954 110.302)">
+                        <path class="f" d="M655.2,558.171l8.365,3.461,7-5.755-8.4-3.428Z"
+                              transform="translate(-655.197 -552.45)"/>
+                    </g>
+                    <g transform="translate(90.206 117.508)">
+                        <path class="f" d="M648.318,563.833l8.349,3.473,6.986-5.745-8.367-3.443Z"
+                              transform="translate(-648.318 -558.117)"/>
+                    </g>
+                    <g transform="translate(81.49 124.731)">
+                        <path class="f" d="M641.463,569.487,649.8,573l6.944-5.763-8.311-3.441Z"
+                              transform="translate(-641.463 -563.797)"/>
+                    </g>
+                    <g transform="translate(64.091 131.873)">
+                        <path class="f" d="M627.779,582.312l8.247,3.457,15.7-12.858-8.331-3.5Z"
+                              transform="translate(-627.779 -569.414)"/>
+                    </g>
+                    <g transform="translate(206.297 33.262)">
+                        <path class="f" d="M739.615,499.171l8.664,3.333,8.971-7.355-8.713-3.285Z"
+                              transform="translate(-739.615 -491.863)"/>
+                    </g>
+                    <g transform="translate(188.488 49.4)">
+                        <path class="f" d="M725.609,510.353l8.656,3.388,7.063-5.867-8.627-3.32Z"
+                              transform="translate(-725.609 -504.554)"/>
+                    </g>
+                    <g transform="translate(197.368 42.073)">
+                        <path class="f" d="M732.593,504.589l8.673,3.381,7.092-5.883-8.671-3.294Z"
+                              transform="translate(-732.593 -498.793)"/>
+                    </g>
+                    <g transform="translate(126.888 56.723)">
+                        <path class="f" d="M677.165,559.483l8.449,3.434L745.6,513.634l-8.629-3.32Z"
+                              transform="translate(-677.165 -510.314)"/>
+                    </g>
+                    <g transform="translate(118.06 107.303)">
+                        <path class="f" d="M670.222,555.881l8.5,3.477,6.989-5.788-8.432-3.479Z"
+                              transform="translate(-670.222 -550.091)"/>
+                    </g>
+                    <g transform="translate(109.314 114.567)">
+                        <path class="f" d="M663.345,561.55l8.417,3.519,7.014-5.806-8.44-3.459Z"
+                              transform="translate(-663.345 -555.804)"/>
+                    </g>
+                    <g transform="translate(100.526 121.801)">
+                        <path class="f" d="M656.433,567.222l8.407,3.5,7.018-5.77-8.421-3.46Z"
+                              transform="translate(-656.433 -561.493)"/>
+                    </g>
+                    <g transform="translate(91.78 129.034)">
+                        <path class="f" d="M649.555,572.9l8.368,3.491,7.021-5.739-8.406-3.472Z"
+                              transform="translate(-649.555 -567.181)"/>
+                    </g>
+                    <g transform="translate(74.307 136.179)">
+                        <path class="f" d="M635.814,585.741l8.308,3.514L659.88,576.3l-8.374-3.5Z"
+                              transform="translate(-635.814 -572.8)"/>
+                    </g>
+                    <g transform="translate(33.707 126.231)">
+                        <path class="f" d="M603.885,570.607l8.122,3.459,6.883-5.682-8.155-3.407Z"
+                              transform="translate(-603.885 -564.977)"/>
+                    </g>
+                    <g transform="translate(156.66 37.071)">
+                        <path class="f" d="M700.579,500.657l8.487,3.288,7.034-5.783-8.53-3.3Z"
+                              transform="translate(-700.579 -494.859)"/>
+                    </g>
+                    <g transform="translate(147.876 44.354)">
+                        <path class="f" d="M693.671,506.3l8.482,3.367,7.013-5.842-8.492-3.241Z"
+                              transform="translate(-693.671 -500.586)"/>
+                    </g>
+                    <g transform="translate(139.11 51.621)">
+                        <path class="f" d="M686.777,512.041l8.454,3.362,7-5.814-8.464-3.288Z"
+                              transform="translate(-686.777 -506.301)"/>
+                    </g>
+                    <g transform="translate(130.355 58.841)">
+                        <path class="f" d="M679.892,517.713l8.435,3.351,7-5.784-8.448-3.3Z"
+                              transform="translate(-679.892 -511.979)"/>
+                    </g>
+                    <g transform="translate(121.583 66.052)">
+                        <path class="f" d="M672.993,523.367l8.414,3.393,7.006-5.807-8.44-3.3Z"
+                              transform="translate(-672.993 -517.65)"/>
+                    </g>
+                    <g transform="translate(112.851 73.287)">
+                        <path class="f" d="M666.127,529.064l8.393,3.382,6.99-5.774L673.1,523.34Z"
+                              transform="translate(-666.127 -523.34)"/>
+                    </g>
+                    <g transform="translate(104.142 80.462)">
+                        <path class="f" d="M659.277,534.71l8.338,3.38,6.983-5.747-8.385-3.361Z"
+                              transform="translate(-659.277 -528.983)"/>
+                    </g>
+                    <g transform="translate(95.701 87.464)">
+                        <path class="f" d="M652.639,540.195l8.326,3.416,6.952-5.761-8.34-3.361Z"
+                              transform="translate(-652.639 -534.489)"/>
+                    </g>
+                    <g transform="translate(87.011 94.64)">
+                        <path class="f" d="M645.8,545.856l8.3,3.389,6.939-5.712-8.309-3.4Z"
+                              transform="translate(-645.805 -540.132)"/>
+                    </g>
+                    <g transform="translate(78.326 101.805)">
+                        <path class="f" d="M638.975,551.471l8.265,3.425,6.954-5.728-8.31-3.4Z"
+                              transform="translate(-638.975 -545.767)"/>
+                    </g>
+                    <g transform="translate(69.655 108.959)">
+                        <path class="f" d="M632.156,557.087l8.236,3.478,6.921-5.756-8.268-3.416Z"
+                              transform="translate(-632.156 -551.393)"/>
+                    </g>
+                    <g transform="translate(60.968 116.145)">
+                        <path class="f" d="M625.324,562.75l8.265,3.4,6.9-5.668-8.225-3.441Z"
+                              transform="translate(-625.324 -557.045)"/>
+                    </g>
+                    <g transform="translate(43.487 123.2)">
+                        <path class="f"
+                              d="M627.07,562.593,611.577,575.4l18.455,7.861,6.951-5.706-10.343-4.371,8.674-7.166Z"
+                              transform="translate(-611.577 -562.593)"/>
+                    </g>
+                    <g transform="translate(101.14 55.718)">
+                        <path class="f" d="M656.917,515.265l8.276,3.318,6.96-5.74-8.355-3.318Z"
+                              transform="translate(-656.917 -509.523)"/>
+                    </g>
+                    <g transform="translate(92.454 62.909)">
+                        <path class="f" d="M650.085,520.886l8.3,3.338,6.929-5.744-8.307-3.3Z"
+                              transform="translate(-650.085 -515.179)"/>
+                    </g>
+                    <g transform="translate(83.823 70.096)">
+                        <path class="f" d="M643.3,526.527l8.223,3.317,6.946-5.7-8.3-3.316Z"
+                              transform="translate(-643.297 -520.83)"/>
+                    </g>
+                    <g transform="translate(75.178 77.271)">
+                        <path class="f" d="M636.5,532.125l8.215,3.377,6.911-5.735-8.253-3.294Z"
+                              transform="translate(-636.499 -526.473)"/>
+                    </g>
+                    <g transform="translate(62.221 87.984)">
+                        <path class="f" d="M626.309,540.59l8.194,3.374,6.9-5.7L633.18,534.9Z"
+                              transform="translate(-626.309 -534.898)"/>
+                    </g>
+                    <g transform="translate(53.62 95.084)">
+                        <path class="f" d="M619.545,546.207l8.162,3.4,6.871-5.7-8.187-3.422Z"
+                              transform="translate(-619.545 -540.482)"/>
+                    </g>
+                    <g transform="translate(45.026 102.214)">
+                        <path class="f" d="M612.787,551.779l8.12,3.415,6.878-5.7-8.176-3.408Z"
+                              transform="translate(-612.787 -546.089)"/>
+                    </g>
+                    <g transform="translate(36.403 109.363)">
+                        <path class="f" d="M606,557.374l8.148,3.4,6.826-5.663-8.1-3.4Z"
+                              transform="translate(-606.005 -551.711)"/>
+                    </g>
+                    <g transform="translate(22.043 116.515)">
+                        <path class="f" d="M594.712,567.747l8.085,3.407,12.6-10.408-8.106-3.41Z"
+                              transform="translate(-594.712 -557.336)"/>
+                    </g>
+                    <g transform="translate(134.329 77.934)">
+                        <path class="f" d="M683.017,564.656l26.116,10.691,46.253-37.865-26.548-10.487Z"
+                              transform="translate(-683.017 -526.995)"/>
+                    </g>
+                </g>
+                <path class="d"
+                      d="M708.69,371.97a2.221,2.221,0,0,0-2.193.533L556.486,489.818a6.667,6.667,0,0,0-2.129,5.731l21.061,120.836a2.046,2.046,0,0,0,1.189,1.776h0c.01.057.057.05.057.05l5.394,1.962.188-5.486L727.933,492.915a6.651,6.651,0,0,0,2.1-5.712L710.674,378.694l1.085.613,2.457-5.3-5.525-2.037Z"
+                      transform="translate(-554.29 -371.858)"/>
+                <g transform="translate(5.482 1.966)">
+                    <path class="f"
+                          d="M710.786,374.083,560.775,491.4a6.732,6.732,0,0,0-2.106,5.742L579.733,618c.331,1.9,1.817,2.468,3.32,1.219L732.222,494.5a6.678,6.678,0,0,0,2.136-5.741L714.1,375.3C713.762,373.379,712.306,372.817,710.786,374.083Z"
+                          transform="translate(-558.601 -373.404)"/>
+                </g>
+                <g transform="translate(30.28 14.567)">
+                    <path class="g" d="M716.947,477.394,578.1,593.452l.51,2.926,141.276-118.09-17-94.975-2.438,2Z"
+                          transform="translate(-578.103 -383.314)"/>
+                </g>
+                <g transform="translate(12.884 16.566)">
+                    <path class="h" d="M581.818,593.025,720.663,476.967l-16.5-92.081L564.422,493.544Z"
+                          transform="translate(-564.422 -384.886)"/>
+                </g>
+            </g>
+            <g transform="translate(127.163 323.372)">
+                <path class="i"
+                      d="M529.516,657.78l56.049-31.612L679.5,656.659v11.434l-57.17,38.114-92.818-37.665,1.794-2.354-.224-6.614Z"
+                      transform="translate(-529.516 -626.168)"/>
+                <g transform="translate(1.569 33.406)">
+                    <path class="j" d="M530.75,652.439l90.128,36.544,56.5-36.544v6.614L622,696.157l-91.024-37.1Z"
+                          transform="translate(-530.75 -652.439)"/>
+                </g>
+                <g transform="translate(22.868 46.914)">
+                    <path class="k"
+                          d="M559.518,663.062s-11.681,5.549-12.018,18.664l22.085,8.408s1.9-14.909,13.14-17.661Z"
+                          transform="translate(-547.5 -663.062)"/>
+                </g>
+            </g>
+            <g transform="translate(275.569 128.316)">
+                <rect class="l" width="0.344" height="1.215" transform="matrix(0.981, -0.194, 0.194, 0.981, 0, 0.067)"/>
+            </g>
+        </g>
+        <g transform="translate(601.059 388.424)">
+            <path class="c" d="M564.422,493.544,704.165,384.886l1.338,7.47L566.25,504Z"
+                  transform="translate(-564.422 -384.886)"/>
+        </g>
+        <g transform="translate(648.118 480.672)">
+            <path class="m" d="M601.431,485.36l1.822,10.982,35.412-28.39-2.4-10.518Z"
+                  transform="translate(-601.431 -457.433)"/>
+        </g>
+        <g transform="translate(689.056 485.35)">
+            <path class="m" d="M633.625,489.038l1.822,10.982,35.412-28.39-2.4-10.518Z"
+                  transform="translate(-633.625 -461.112)"/>
+        </g>
+        <g transform="translate(716.588 417.654)">
+            <path class="m" d="M655.277,431.484l1.786,10.763,29.654-23.27-1.99-11.1Z"
+                  transform="translate(-655.277 -407.873)"/>
+        </g>
+        <g transform="translate(601.059 388.424)">
+            <g class="n">
+                <g transform="translate(0.093 5.919)">
+                    <g transform="translate(0 0)">
+                        <rect class="l" width="181.796" height="1.371"
+                              transform="translate(0 113.654) rotate(-38.695)"/>
+                    </g>
+                    <g transform="translate(1.945 10.884)">
+                        <rect class="l" width="181.796" height="1.371"
+                              transform="translate(0 113.653) rotate(-38.695)"/>
+                    </g>
+                    <g transform="translate(3.889 21.768)">
+                        <rect class="l" width="181.796" height="1.371"
+                              transform="translate(0 113.654) rotate(-38.695)"/>
+                    </g>
+                    <g transform="translate(5.833 32.651)">
+                        <rect class="l" width="181.796" height="1.371"
+                              transform="translate(0 113.654) rotate(-38.695)"/>
+                    </g>
+                    <g transform="translate(7.778 43.535)">
+                        <rect class="l" width="181.795" height="1.371"
+                              transform="translate(0 113.653) rotate(-38.695)"/>
+                    </g>
+                    <g transform="translate(9.722 54.418)">
+                        <rect class="l" width="181.796" height="1.371"
+                              transform="translate(0 113.654) rotate(-38.695)"/>
+                    </g>
+                    <g transform="translate(11.666 65.302)">
+                        <rect class="l" width="181.797" height="1.371"
+                              transform="translate(0 113.654) rotate(-38.695)"/>
+                    </g>
+                    <g transform="translate(13.611 76.186)">
+                        <rect class="l" width="181.796" height="1.371"
+                              transform="translate(0 113.654) rotate(-38.695)"/>
+                    </g>
+                    <g transform="translate(3.789 98.002)">
+                        <rect class="l" width="1.371" height="103.074" transform="translate(0 0.224) rotate(-9.423)"/>
+                    </g>
+                    <g transform="translate(38.892 69.563)">
+                        <rect class="l" width="1.371" height="103.074" transform="translate(0 0.224) rotate(-9.422)"/>
+                    </g>
+                    <g transform="translate(73.994 41.124)">
+                        <rect class="l" width="1.371" height="103.074" transform="translate(0 0.224) rotate(-9.422)"/>
+                    </g>
+                    <g transform="translate(109.097 12.684)">
+                        <rect class="l" width="1.371" height="103.074" transform="translate(0 0.224) rotate(-9.422)"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
