@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="224.24" viewBox="0 0 900 224.24">
+    <defs>
+        <style>.a{fill:#85b2cc;}.b,.c{fill:#fff;font-family:BPGArial, BPG
+            Arial;}.b{font-size:19px;}.c{font-size:18px;}
+        </style>
+    </defs>
+    <g transform="translate(-190.558 -401.134)">
+        <g transform="translate(190.558 401.134)">
+            <rect class="a" width="252.894" height="80.09"/>
+            <text class="b" transform="translate(126.865 37.544)">
+                <tspan x="-62.167" y="0">სიმბოლოები</tspan>
+                <tspan x="-45.927" y="23">(character)</tspan>
+            </text>
+        </g>
+        <g transform="translate(527.413 401.134)">
+            <rect class="a" width="252.894" height="80.09"/>
+            <text class="c" transform="translate(122.283 47.671)">
+                <tspan x="-83.518" y="0">სტრიქონები(string)</tspan>
+            </text>
+        </g>
+        <g transform="translate(190.558 545.284)">
+            <rect class="a" width="252.894" height="80.09"/>
+            <text class="b" transform="translate(126.533 40.129)">
+                <tspan x="-81.256" y="0">მთელი რიცხვები</tspan>
+                <tspan x="-35.375" y="23">(lnteger)</tspan>
+            </text>
+        </g>
+        <g transform="translate(527.413 545.284)">
+            <rect class="a" width="252.894" height="80.09"/>
+            <text class="b" transform="translate(126.2 40.129)">
+                <tspan x="-99.671" y="0">ათწილადი რიცხვები</tspan>
+                <tspan x="-34.929" y="23">(double)</tspan>
+            </text>
+        </g>
+        <g transform="translate(837.664 472.45)">
+            <rect class="a" width="252.894" height="80.09"/>
+            <text class="b" transform="translate(127.113 40.129)">
+                <tspan x="-25.708" y="0">ბული</tspan>
+                <tspan x="-24.437" y="23">(bool)</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
