@@ -1009,7 +1009,7 @@ let title = {
         },
         {
             id: 4,
-            name: 'სათაური',
+            name: 'პროგრამის შექმნის პროცესის გააზრება',
             link: '#'
         },
         {
@@ -1106,8 +1106,8 @@ let title = {
         },
         {
             id: 11,
-            name: 'სათაური',
-            link: '#'
+            name: 'ინფორმაციის დამახსოვრება',
+            link: 'Computer-Science/Class-5/Remember-information-11/1.html'
         },
         {
             id: 12,
@@ -1131,8 +1131,8 @@ let title = {
         },
         {
             id: 16,
-            name: 'სათაური',
-            link: '#'
+            name: 'ელექტრონულ ცხრილებში მონაცემების შეტანა',
+            link: 'Computer-Science/Class-5/Enter-table-data-16/1.html'
         },
         {
             id: 17,
@@ -1208,8 +1208,8 @@ let title = {
         },
         {
             id: 7,
-            name: 'სათაური',
-            link: '#'
+            name: 'მოვლენები, მოვლენებზე რეაგირება',
+            link: 'Computer-Science/Class-6/Responding-to-events-7/1.html'
         },
         {
             id: 8,
