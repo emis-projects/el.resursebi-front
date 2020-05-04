@@ -1,0 +1,20 @@
+.cs-6-4-div{
+  &-19-img{
+      height: 64.71vh;
+      position: absolute;
+        left: 50%;
+        transform: translate(-50%, 0);
+        bottom:0;
+  }
+  &-20-img{
+      height:49.21vh;
+  }
+  &-21-img{
+      height: 46.09vh; 
+      position: absolute;
+      right:0;
+  }
+  img{
+      height:100%;
+  }
+}
