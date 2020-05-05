@@ -1,0 +1,40 @@
+.cs-5-16-div{
+    &-19-img
+      {
+      height:50.52vh;
+      }
+  &-20-img
+      {
+      height:37.76vh;
+      }
+  &-21-img
+      {
+      height:34.89vh;
+      }
+  &-22-img
+      {
+      height:42.31vh;
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%, 0);
+      bottom:0;
+      }
+ &-23-img
+      {
+      height:60vh;
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%, 0);
+      bottom:0;
+      }
+&-24-img
+      {
+      height:27.6vh;
+      position: absolute;
+      bottom:5.33vh;
+      right:12.71vw;
+      }
+      img{
+        height:100%;
+      }
+}
