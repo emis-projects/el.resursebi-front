@@ -39016,6 +39016,82 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
+.cs-4-4-19-img {
+  height: 44.01vh;
+  margin-top: 5vh;
+}
+
+.cs-4-4-20-img {
+  height: 45.57vh;
+}
+
+.background-cs-4-4 {
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-4-4-21 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/Creating-prgram-4/cs-4-4-21.svg");
+}
+
+.background-cs-4-4-22 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/Creating-prgram-4/cs-4-4-22.svg");
+}
+
+.background-cs-4-4-23 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/Creating-prgram-4/cs-4-4-23.svg");
+}
+
+.background-cs-4-4-24 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/Creating-prgram-4/cs-4-4-24.svg");
+}
+
+.cs-4-4-div-11-img {
+  height: 52.6vh;
+}
+
+.cs-4-4-div-12-img {
+  height: 53.25vh;
+}
+
+.cs-4-4-div-13-img {
+  height: 47.91vh;
+}
+
+.cs-4-4-div-14-img {
+  height: 56.51vh;
+}
+
+.cs-4-4-div-15-img {
+  height: 40.75vh;
+}
+
+.cs-4-4-div-16-img {
+  height: 47.39vh;
+}
+
+.cs-4-4-div-17-img {
+  height: 50.65vh;
+  position: absolute;
+  right: 2.34vw;
+  bottom: 0;
+}
+
+.cs-4-4-div-18-img {
+  height: 50.26vh;
+}
+
+.cs-4-4-div img {
+  height: 100%;
+}
+
+.cs-4-4-btns-div {
+  width: 3.25vh;
+  height: 3.25vh;
+  margin-right: 2vh;
+}
+
 body {
   color: #262626;
   font-size: 14px;
