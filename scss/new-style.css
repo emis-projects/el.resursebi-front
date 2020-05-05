@@ -919,7 +919,6 @@
   font-style: normal;
   font-display: block;
 }
-
 [class^=icon-], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: "icomoon" !important;
@@ -1033,7 +1032,6 @@
   font-weight: normal;
   font-style: normal;
 }
-
 [class^=arrow-]:before, [class*=" arrow-"]:before {
   font-family: "fontello";
   font-style: normal;
@@ -31543,12 +31541,10 @@ img.mfp-img[alt*=cs-3-6-6-img] {
   height: 47.69vh;
   margin-top: 2vh;
 }
-
 .cs-5-19-10-img {
   height: 72.91vh;
   margin-left: 2vh;
 }
-
 .cs-5-19-11-img {
   height: 50vh;
 }
@@ -31557,7 +31553,6 @@ img.mfp-img[alt*=cs-3-6-6-img] {
   height: 63vh;
   max-height: 485px;
 }
-
 .diagram-box_page-6-1 img {
   height: 100%;
 }
@@ -31565,11 +31560,9 @@ img.mfp-img[alt*=cs-3-6-6-img] {
 .variables-box .reload_game_wrapper {
   bottom: 12vh;
 }
-
 .variables-box_img {
   width: 100%;
 }
-
 .variables-box_page-15 {
   height: 53vh;
   max-height: 405px;
