@@ -1,0 +1,891 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="602" height="485.212" viewBox="0 0 602 485.212">
+    <defs>
+        <style>
+            .a{fill:#bec9f2;opacity:0.49;}.b{fill:#8a7cc7;}.c{fill:#f5efef;}.d{fill:#b5a7d6;}.e{fill:#a4e3e8;}.f{fill:#f8df86;}.g,.j{font-size:10px;}.g,.j,.p,.q,.r{font-family:DejaVuSans,
+            DejaVu
+            Sans;}.h,.q{fill:#201600;}.i{fill:#c6c6c6;}.j{fill:#c00000;}.k{fill:#62548a;}.l{fill:#dc6c85;}.m{fill:#f7cf43;}.n{fill:#947dce;}.o{fill:#7fd1d8;}.p{fill:#fff;}.p,.q{font-size:9px;}.r,.z{fill:#267392;}.r{font-size:13px;}.s{fill:#000;}.t{fill:#326ac7;}.u{fill:#c0353e;}.v{fill:#8157b7;}.w{fill:#007c20;}.x{fill:#b03e84;}.y{fill:#b64900;}
+        </style>
+    </defs>
+    <g transform="translate(-74.551 -5979.535)">
+        <rect class="a" width="602" height="485.212" rx="12" transform="translate(74.551 5979.535)"/>
+        <g transform="translate(565.758 6209.935) rotate(90)">
+            <g transform="translate(0 5.827)">
+                <path class="b"
+                      d="M18.321,4.673H1.573C.7,4.673,0,3.627,0,2.337S.7,0,1.573,0H18.321c.868,0,1.573,1.046,1.573,2.337S19.189,4.673,18.321,4.673Z"
+                      transform="translate(0 0)"/>
+            </g>
+            <g transform="translate(14.83 0)">
+                <g transform="translate(0)">
+                    <path class="b"
+                          d="M2.375,16.113,13.766,9.535a1.583,1.583,0,0,0,0-2.742L2.375.214A1.584,1.584,0,0,0,0,1.586V14.741A1.584,1.584,0,0,0,2.375,16.113Z"
+                          transform="translate(0 0)"/>
+                </g>
+            </g>
+        </g>
+        <g transform="translate(98.597 5988.273)">
+            <rect class="c" width="278.29" height="188.287" transform="translate(277.305 18.571)"/>
+            <g transform="translate(134.766 41.25)">
+                <path class="d" d="M0,0H142.539V165.608H0Z"/>
+            </g>
+            <g transform="translate(16.541 41.25)">
+                <rect class="e" width="118.226" height="165.608"/>
+            </g>
+            <g transform="translate(16.541 20.013)">
+                <rect class="f" width="260.764" height="20.908"/>
+            </g>
+            <rect class="c" width="16.212" height="206.53" transform="translate(0.329 0.328)"/>
+            <g transform="translate(0.329 0.328)">
+                <rect class="c" width="555.266" height="19.685"/>
+            </g>
+            <text class="g" transform="translate(5.742 35.167)">
+                <tspan x="0" y="0">1</tspan>
+            </text>
+            <text class="g" transform="translate(5.457 55.937)">
+                <tspan x="0" y="0">2</tspan>
+            </text>
+            <text class="g" transform="translate(5.439 76.709)">
+                <tspan x="0" y="0">3</tspan>
+            </text>
+            <text class="g" transform="translate(5.289 97.481)">
+                <tspan x="0" y="0">4</tspan>
+            </text>
+            <text class="g" transform="translate(5.43 118.252)">
+                <tspan x="0" y="0">5</tspan>
+            </text>
+            <text class="g" transform="translate(5.283 139.025)">
+                <tspan x="0" y="0">6</tspan>
+            </text>
+            <text class="g" transform="translate(5.691 158.482)">
+                <tspan x="0" y="0">7</tspan>
+            </text>
+            <text class="g" transform="translate(5.201 178.597)">
+                <tspan x="0" y="0">8</tspan>
+            </text>
+            <path class="h" d="M653.208,6214.113H97.285V6007.254H653.208Zm-555.266-.725H652.551v-205.41H97.942Z"
+                  transform="translate(-97.285 -6007.254)"/>
+            <g transform="translate(0.329 19.684)">
+                <rect class="h" width="555.266" height="0.657"/>
+            </g>
+            <g transform="translate(0.329 40.593)">
+                <rect class="h" width="276.976" height="0.657"/>
+            </g>
+            <g transform="translate(0.329 61.501)">
+                <rect class="h" width="276.976" height="0.657"/>
+            </g>
+            <g transform="translate(0.329 82.409)">
+                <rect class="h" width="276.976" height="0.657"/>
+            </g>
+            <g transform="translate(0.329 103.318)">
+                <rect class="h" width="276.976" height="0.657"/>
+            </g>
+            <g transform="translate(0.329 124.226)">
+                <rect class="h" width="276.976" height="0.657"/>
+            </g>
+            <g transform="translate(0.329 145.135)">
+                <rect class="h" width="276.976" height="0.657"/>
+            </g>
+            <g transform="translate(0.329 166.043)">
+                <rect class="h" width="276.976" height="0.657"/>
+            </g>
+            <g transform="translate(276.977 7.315)">
+                <rect class="h" width="0.657" height="199.543"/>
+            </g>
+            <g transform="translate(387.313 52.736)">
+                <path class="i"
+                      d="M443.772,6058.922l.16,15.066.092,15.066.077,30.133-.075,30.133-.092,15.066-.161,15.066-.161-15.066-.092-15.066-.075-30.133.077-30.133.092-15.066Z"
+                      transform="translate(-443.444 -6058.922)"/>
+            </g>
+            <g transform="translate(423.602 52.736)">
+                <path class="i"
+                      d="M479.326,6058.922l.16,15.066.092,15.066.077,30.133-.075,30.133-.092,15.066-.161,15.066-.161-15.066-.092-15.066L479,6119.188l.077-30.133.092-15.066Z"
+                      transform="translate(-478.998 -6058.922)"/>
+            </g>
+            <g transform="translate(459.891 52.736)">
+                <path class="i"
+                      d="M514.88,6058.922l.16,15.066.092,15.066.077,30.133-.076,30.133-.092,15.066-.161,15.066-.161-15.066-.092-15.066-.076-30.133.077-30.133.092-15.066Z"
+                      transform="translate(-514.552 -6058.922)"/>
+            </g>
+            <g transform="translate(496.179 52.736)">
+                <path class="i"
+                      d="M550.433,6058.922l.16,15.066.092,15.066.076,30.133-.075,30.133-.092,15.066-.161,15.066-.161-15.066-.092-15.066-.075-30.133.076-30.133.092-15.066Z"
+                      transform="translate(-550.105 -6058.922)"/>
+            </g>
+            <g transform="translate(532.468 52.736)">
+                <path class="i"
+                      d="M585.987,6058.922l.16,15.066.092,15.066.077,30.133-.075,30.133-.092,15.066-.161,15.066-.161-15.066-.092-15.066-.075-30.133.077-30.133.092-15.066Z"
+                      transform="translate(-585.659 -6058.922)"/>
+            </g>
+            <g transform="translate(314.294 7.315)">
+                <rect class="h" width="0.657" height="12.698"/>
+            </g>
+            <g transform="translate(351.611 7.315)">
+                <rect class="h" width="0.657" height="12.698"/>
+            </g>
+            <g transform="translate(388.929 7.315)">
+                <rect class="h" width="0.657" height="12.698"/>
+            </g>
+            <g transform="translate(426.246 7.315)">
+                <rect class="h" width="0.657" height="12.698"/>
+            </g>
+            <g transform="translate(463.564 7.315)">
+                <rect class="h" width="0.657" height="12.698"/>
+            </g>
+            <g transform="translate(500.881 7.315)">
+                <rect class="h" width="0.657" height="12.698"/>
+            </g>
+            <g transform="translate(538.198 7.315)">
+                <rect class="h" width="0.657" height="12.698"/>
+            </g>
+            <g transform="translate(134.438 7.315)">
+                <rect class="h" width="0.657" height="199.543"/>
+            </g>
+            <g transform="translate(16.212 7.315)">
+                <rect class="h" width="0.657" height="199.543"/>
+            </g>
+            <text class="j" transform="translate(20.535 36.167)">
+                <tspan x="0" y="0">კვირის დღე</tspan>
+            </text>
+            <text class="g" transform="translate(20.535 56.937)">
+                <tspan x="0" y="0">ორშაბათი</tspan>
+            </text>
+            <text class="g" transform="translate(20.535 77.709)">
+                <tspan x="0" y="0">სამშაბათი</tspan>
+            </text>
+            <text class="g" transform="translate(20.535 98.481)">
+                <tspan x="0" y="0">ოთხშაბათი</tspan>
+            </text>
+            <text class="g" transform="translate(20.535 119.252)">
+                <tspan x="0" y="0">ხუთშაბათი</tspan>
+            </text>
+            <text class="g" transform="translate(20.535 140.025)">
+                <tspan x="0" y="0">პარასკევი</tspan>
+            </text>
+            <text class="g" transform="translate(20.535 159.482)">
+                <tspan x="0" y="0">შაბათი</tspan>
+            </text>
+            <text class="g" transform="translate(20.535 179.597)">
+                <tspan x="0" y="0">კვირა</tspan>
+            </text>
+            <text class="j" transform="translate(20.535 199.626)">
+                <tspan x="0" y="0">სულ</tspan>
+            </text>
+            <text class="j" transform="translate(138.26 36.167)">
+                <tspan x="0" y="0">რაოდენობა</tspan>
+            </text>
+            <text class="g" transform="translate(393.102 38.756)">
+                <tspan x="0" y="0">რაოდენობა</tspan>
+            </text>
+            <text class="g" transform="translate(201.547 56.937)">
+                <tspan x="0" y="0">7</tspan>
+            </text>
+            <text class="g" transform="translate(199.196 77.709)">
+                <tspan x="0" y="0">12</tspan>
+            </text>
+            <text class="g" transform="translate(199.297 98.481)">
+                <tspan x="0" y="0">21</tspan>
+            </text>
+            <text class="g" transform="translate(199.42 119.252)">
+                <tspan x="0" y="0">17</tspan>
+            </text>
+            <text class="g" transform="translate(199.521 140.025)">
+                <tspan x="0" y="0">11</tspan>
+            </text>
+            <text class="g" transform="translate(198.866 159.482)">
+                <tspan x="0" y="0">25</tspan>
+            </text>
+            <text class="g" transform="translate(201.125 179.597)">
+                <tspan x="0" y="0">9</tspan>
+            </text>
+            <text class="g" transform="translate(67.992 14.498)">
+                <tspan x="0" y="0">A</tspan>
+            </text>
+            <text class="g" transform="translate(201.125 14.498)">
+                <tspan x="0" y="0">B</tspan>
+            </text>
+            <text class="g" transform="translate(293.078 14.498)">
+                <tspan x="0" y="0">C</tspan>
+            </text>
+            <text class="g" transform="translate(329.86 13.498)">
+                <tspan x="0" y="0">D</tspan>
+            </text>
+            <text class="g" transform="translate(367.955 13.498)">
+                <tspan x="0" y="0">E</tspan>
+            </text>
+            <text class="g" transform="translate(405.392 14.498)">
+                <tspan x="0" y="0">F</tspan>
+            </text>
+            <text class="g" transform="translate(441.845 13.498)">
+                <tspan x="0" y="0">G</tspan>
+            </text>
+            <text class="g" transform="translate(478.627 13.498)">
+                <tspan x="0" y="0">H</tspan>
+            </text>
+            <text class="g" transform="translate(523.874 13.498)">
+                <tspan x="0" y="0">I</tspan>
+            </text>
+            <rect class="k" width="64.367" height="10" transform="translate(352.064 57.451)"/>
+            <rect class="l" width="180.732" height="10" transform="translate(352.064 73.652)"/>
+            <rect class="m" width="76.628" height="10" transform="translate(352.064 89.853)"/>
+            <rect class="n" width="120.853" height="10" transform="translate(352.064 106.055)"/>
+            <rect class="l" width="148.877" height="10" transform="translate(352.064 122.256)"/>
+            <rect class="o" width="84.728" height="10" transform="translate(352.064 138.457)"/>
+            <rect class="m" width="49.699" height="10" transform="translate(352.064 154.659)"/>
+            <g transform="translate(351.408 50.883)">
+                <rect class="h" width="1.314" height="119.758"/>
+            </g>
+            <text class="g" transform="translate(290.954 162.975)">
+                <tspan x="0" y="0">ორშაბათი</tspan>
+            </text>
+            <text class="g" transform="translate(291.953 146.755)">
+                <tspan x="0" y="0">სამშაბათი</tspan>
+            </text>
+            <text class="g" transform="translate(285.953 130.534)">
+                <tspan x="0" y="0">ოთხშაბათი</tspan>
+            </text>
+            <text class="g" transform="translate(288.953 114.314)">
+                <tspan x="0" y="0">ხუთშაბათი</tspan>
+            </text>
+            <text class="g" transform="translate(291.953 98.094)">
+                <tspan x="0" y="0">პარასკევი</tspan>
+            </text>
+            <text class="g" transform="translate(306.953 81.873)">
+                <tspan x="0" y="0">შაბათი</tspan>
+            </text>
+            <text class="g" transform="translate(312.953 65.655)">
+                <tspan x="0" y="0">კვირა</tspan>
+            </text>
+            <text class="p" transform="translate(406.736 65.408)">
+                <tspan x="0" y="0">9</tspan>
+            </text>
+            <text class="p" transform="translate(518.703 81.51)">
+                <tspan x="0" y="0">25</tspan>
+            </text>
+            <text class="p" transform="translate(413.746 97.517)">
+                <tspan x="0" y="0">11</tspan>
+            </text>
+            <text class="p" transform="translate(458.423 113.95)">
+                <tspan x="0" y="0">17</tspan>
+            </text>
+            <text class="p" transform="translate(486.42 130.17)">
+                <tspan x="0" y="0">21</tspan>
+            </text>
+            <text class="p" transform="translate(421.892 146.902)">
+                <tspan x="0" y="0">12</tspan>
+            </text>
+            <text class="p" transform="translate(391.875 162.732)">
+                <tspan x="0" y="0">7</tspan>
+            </text>
+            <text class="q" transform="translate(348.782 183.701)">
+                <tspan x="0" y="0">0</tspan>
+            </text>
+            <text class="q" transform="translate(385.125 183.701)">
+                <tspan x="0" y="0">5</tspan>
+            </text>
+            <text class="q" transform="translate(419.499 184.701)">
+                <tspan x="0" y="0">10</tspan>
+            </text>
+            <text class="q" transform="translate(455.842 184.701)">
+                <tspan x="0" y="0">15</tspan>
+            </text>
+            <text class="q" transform="translate(492.185 184.701)">
+                <tspan x="0" y="0">20</tspan>
+            </text>
+            <text class="q" transform="translate(528.529 184.701)">
+                <tspan x="0" y="0">25</tspan>
+            </text>
+            <g transform="translate(0.329 186.983)">
+                <rect class="h" width="276.976" height="0.657"/>
+            </g>
+            <text class="g" transform="translate(5.201 198.626)">
+                <tspan x="0" y="0">9</tspan>
+            </text>
+        </g>
+        <g transform="translate(267.692 6192.09)">
+            <g transform="translate(3.528)">
+                <path class="n"
+                      d="M294.859,6212.642V6202.5c0-.526.633-.952,1.414-.952s1.414.426,1.414.952v10.139c0,.525-.633.951-1.414.951S294.859,6213.167,294.859,6212.642Z"
+                      transform="translate(-294.859 -6201.551)"/>
+            </g>
+            <g transform="translate(0 8.977)">
+                <path class="n"
+                      d="M290.952,6213.26l3.982,6.9a.959.959,0,0,0,1.661,0l3.982-6.9a.958.958,0,0,0-.83-1.437h-7.964A.958.958,0,0,0,290.952,6213.26Z"
+                      transform="translate(-290.823 -6211.823)"/>
+            </g>
+        </g>
+        <text class="r" transform="translate(166.176 6222.187)">
+            <tspan class="s" x="0" y="0">=</tspan>
+            <tspan class="t" y="0">B2</tspan>
+            <tspan class="s" y="0" xml:space="preserve"> + </tspan>
+            <tspan class="u" y="0">B3</tspan>
+            <tspan class="s" y="0" xml:space="preserve"> + </tspan>
+            <tspan class="v" y="0">B4</tspan>
+            <tspan class="s" y="0" xml:space="preserve"> + </tspan>
+            <tspan class="w" y="0">B5</tspan>
+            <tspan class="s" y="0" xml:space="preserve"> + </tspan>
+            <tspan class="x" y="0">B6</tspan>
+            <tspan class="s" y="0" xml:space="preserve"> + </tspan>
+            <tspan class="y" y="0">B7</tspan>
+            <tspan class="s" y="0">+</tspan>
+            <tspan class="z" y="0">B8</tspan>
+        </text>
+        <g transform="translate(98.589 6248.273)">
+            <rect class="c" width="278.29" height="188.287" transform="translate(277.305 18.571)"/>
+            <g transform="translate(134.766 41.25)">
+                <path class="d" d="M0,0H142.539V165.608H0Z"/>
+            </g>
+            <g transform="translate(16.541 41.25)">
+                <rect class="e" width="118.226" height="165.608"/>
+            </g>
+            <g transform="translate(16.541 20.013)">
+                <rect class="f" width="260.764" height="20.908"/>
+            </g>
+            <rect class="c" width="16.212" height="206.53" transform="translate(0.329 0.328)"/>
+            <g transform="translate(0.329 0.328)">
+                <rect class="c" width="555.266" height="19.685"/>
+            </g>
+            <text class="g" transform="translate(5.742 35.167)">
+                <tspan x="0" y="0">1</tspan>
+            </text>
+            <text class="g" transform="translate(5.457 55.937)">
+                <tspan x="0" y="0">2</tspan>
+            </text>
+            <text class="g" transform="translate(5.439 76.709)">
+                <tspan x="0" y="0">3</tspan>
+            </text>
+            <text class="g" transform="translate(5.289 97.481)">
+                <tspan x="0" y="0">4</tspan>
+            </text>
+            <text class="g" transform="translate(5.43 118.252)">
+                <tspan x="0" y="0">5</tspan>
+            </text>
+            <text class="g" transform="translate(5.283 139.025)">
+                <tspan x="0" y="0">6</tspan>
+            </text>
+            <text class="g" transform="translate(5.691 158.482)">
+                <tspan x="0" y="0">7</tspan>
+            </text>
+            <text class="g" transform="translate(5.201 178.597)">
+                <tspan x="0" y="0">8</tspan>
+            </text>
+            <path class="h" d="M653.208,6214.113H97.285V6007.254H653.208Zm-555.266-.725H652.551v-205.41H97.942Z"
+                  transform="translate(-97.285 -6007.254)"/>
+            <g transform="translate(0.329 19.684)">
+                <rect class="h" width="555.266" height="0.657"/>
+            </g>
+            <g transform="translate(0.329 40.593)">
+                <rect class="h" width="276.976" height="0.657"/>
+            </g>
+            <g transform="translate(0.329 61.501)">
+                <rect class="h" width="276.976" height="0.657"/>
+            </g>
+            <g transform="translate(0.329 82.409)">
+                <rect class="h" width="276.976" height="0.657"/>
+            </g>
+            <g transform="translate(0.329 103.318)">
+                <rect class="h" width="276.976" height="0.657"/>
+            </g>
+            <g transform="translate(0.329 124.226)">
+                <rect class="h" width="276.976" height="0.657"/>
+            </g>
+            <g transform="translate(0.329 145.135)">
+                <rect class="h" width="276.976" height="0.657"/>
+            </g>
+            <g transform="translate(0.329 166.043)">
+                <rect class="h" width="276.976" height="0.657"/>
+            </g>
+            <g transform="translate(276.977 7.315)">
+                <rect class="h" width="0.657" height="199.543"/>
+            </g>
+            <g transform="translate(387.313 52.736)">
+                <path class="i"
+                      d="M443.772,6058.922l.16,15.066.092,15.066.077,30.133-.075,30.133-.092,15.066-.161,15.066-.161-15.066-.092-15.066-.075-30.133.077-30.133.092-15.066Z"
+                      transform="translate(-443.444 -6058.922)"/>
+            </g>
+            <g transform="translate(423.602 52.736)">
+                <path class="i"
+                      d="M479.326,6058.922l.16,15.066.092,15.066.077,30.133-.075,30.133-.092,15.066-.161,15.066-.161-15.066-.092-15.066L479,6119.188l.077-30.133.092-15.066Z"
+                      transform="translate(-478.998 -6058.922)"/>
+            </g>
+            <g transform="translate(459.891 52.736)">
+                <path class="i"
+                      d="M514.88,6058.922l.16,15.066.092,15.066.077,30.133-.076,30.133-.092,15.066-.161,15.066-.161-15.066-.092-15.066-.076-30.133.077-30.133.092-15.066Z"
+                      transform="translate(-514.552 -6058.922)"/>
+            </g>
+            <g transform="translate(496.179 52.736)">
+                <path class="i"
+                      d="M550.433,6058.922l.16,15.066.092,15.066.076,30.133-.075,30.133-.092,15.066-.161,15.066-.161-15.066-.092-15.066-.075-30.133.076-30.133.092-15.066Z"
+                      transform="translate(-550.105 -6058.922)"/>
+            </g>
+            <g transform="translate(532.468 52.736)">
+                <path class="i"
+                      d="M585.987,6058.922l.16,15.066.092,15.066.077,30.133-.075,30.133-.092,15.066-.161,15.066-.161-15.066-.092-15.066-.075-30.133.077-30.133.092-15.066Z"
+                      transform="translate(-585.659 -6058.922)"/>
+            </g>
+            <g transform="translate(314.294 7.315)">
+                <rect class="h" width="0.657" height="12.698"/>
+            </g>
+            <g transform="translate(351.611 7.315)">
+                <rect class="h" width="0.657" height="12.698"/>
+            </g>
+            <g transform="translate(388.929 7.315)">
+                <rect class="h" width="0.657" height="12.698"/>
+            </g>
+            <g transform="translate(426.246 7.315)">
+                <rect class="h" width="0.657" height="12.698"/>
+            </g>
+            <g transform="translate(463.564 7.315)">
+                <rect class="h" width="0.657" height="12.698"/>
+            </g>
+            <g transform="translate(500.881 7.315)">
+                <rect class="h" width="0.657" height="12.698"/>
+            </g>
+            <g transform="translate(538.198 7.315)">
+                <rect class="h" width="0.657" height="12.698"/>
+            </g>
+            <g transform="translate(134.438 7.315)">
+                <rect class="h" width="0.657" height="199.543"/>
+            </g>
+            <g transform="translate(16.212 7.315)">
+                <rect class="h" width="0.657" height="199.543"/>
+            </g>
+            <text class="j" transform="translate(20.535 36.167)">
+                <tspan x="0" y="0">კვირის დღე</tspan>
+            </text>
+            <text class="g" transform="translate(20.535 56.937)">
+                <tspan x="0" y="0">ორშაბათი</tspan>
+            </text>
+            <text class="g" transform="translate(20.535 77.709)">
+                <tspan x="0" y="0">სამშაბათი</tspan>
+            </text>
+            <text class="g" transform="translate(20.535 98.481)">
+                <tspan x="0" y="0">ოთხშაბათი</tspan>
+            </text>
+            <text class="g" transform="translate(20.535 119.252)">
+                <tspan x="0" y="0">ხუთშაბათი</tspan>
+            </text>
+            <text class="g" transform="translate(20.535 140.025)">
+                <tspan x="0" y="0">პარასკევი</tspan>
+            </text>
+            <text class="g" transform="translate(20.535 159.482)">
+                <tspan x="0" y="0">შაბათი</tspan>
+            </text>
+            <text class="g" transform="translate(20.535 179.597)">
+                <tspan x="0" y="0">კვირა</tspan>
+            </text>
+            <text class="j" transform="translate(20.535 199.626)">
+                <tspan x="0" y="0">სულ</tspan>
+            </text>
+            <text class="j" transform="translate(138.26 36.167)">
+                <tspan x="0" y="0">რაოდენობა</tspan>
+            </text>
+            <text class="g" transform="translate(393.102 38.756)">
+                <tspan x="0" y="0">რაოდენობა</tspan>
+            </text>
+            <text class="g" transform="translate(201.547 56.937)">
+                <tspan x="0" y="0">7</tspan>
+            </text>
+            <text class="g" transform="translate(199.196 77.709)">
+                <tspan x="0" y="0">12</tspan>
+            </text>
+            <text class="g" transform="translate(199.297 98.481)">
+                <tspan x="0" y="0">21</tspan>
+            </text>
+            <text class="g" transform="translate(199.42 119.252)">
+                <tspan x="0" y="0">17</tspan>
+            </text>
+            <text class="g" transform="translate(199.521 140.025)">
+                <tspan x="0" y="0">11</tspan>
+            </text>
+            <text class="g" transform="translate(198.866 159.482)">
+                <tspan x="0" y="0">25</tspan>
+            </text>
+            <text class="g" transform="translate(201.125 179.597)">
+                <tspan x="0" y="0">9</tspan>
+            </text>
+            <text class="g" transform="translate(67.992 14.498)">
+                <tspan x="0" y="0">A</tspan>
+            </text>
+            <text class="g" transform="translate(201.125 14.498)">
+                <tspan x="0" y="0">B</tspan>
+            </text>
+            <text class="g" transform="translate(293.078 14.498)">
+                <tspan x="0" y="0">C</tspan>
+            </text>
+            <text class="g" transform="translate(329.86 13.498)">
+                <tspan x="0" y="0">D</tspan>
+            </text>
+            <text class="g" transform="translate(367.955 13.498)">
+                <tspan x="0" y="0">E</tspan>
+            </text>
+            <text class="g" transform="translate(405.392 14.498)">
+                <tspan x="0" y="0">F</tspan>
+            </text>
+            <text class="g" transform="translate(441.845 13.498)">
+                <tspan x="0" y="0">G</tspan>
+            </text>
+            <text class="g" transform="translate(478.627 13.498)">
+                <tspan x="0" y="0">H</tspan>
+            </text>
+            <text class="g" transform="translate(523.874 13.498)">
+                <tspan x="0" y="0">I</tspan>
+            </text>
+            <rect class="k" width="64.367" height="10" transform="translate(352.064 57.451)"/>
+            <rect class="l" width="180.732" height="10" transform="translate(352.064 73.652)"/>
+            <rect class="m" width="76.628" height="10" transform="translate(352.064 89.853)"/>
+            <rect class="n" width="120.853" height="10" transform="translate(352.064 106.055)"/>
+            <rect class="l" width="148.877" height="10" transform="translate(352.064 122.256)"/>
+            <rect class="o" width="84.728" height="10" transform="translate(352.064 138.457)"/>
+            <rect class="m" width="49.699" height="10" transform="translate(352.064 154.659)"/>
+            <g transform="translate(351.408 50.883)">
+                <rect class="h" width="1.314" height="119.758"/>
+            </g>
+            <text class="g" transform="translate(290.954 162.975)">
+                <tspan x="0" y="0">ორშაბათი</tspan>
+            </text>
+            <text class="g" transform="translate(291.953 146.755)">
+                <tspan x="0" y="0">სამშაბათი</tspan>
+            </text>
+            <text class="g" transform="translate(285.953 130.534)">
+                <tspan x="0" y="0">ოთხშაბათი</tspan>
+            </text>
+            <text class="g" transform="translate(288.953 114.314)">
+                <tspan x="0" y="0">ხუთშაბათი</tspan>
+            </text>
+            <text class="g" transform="translate(291.953 98.094)">
+                <tspan x="0" y="0">პარასკევი</tspan>
+            </text>
+            <text class="g" transform="translate(306.953 81.873)">
+                <tspan x="0" y="0">შაბათი</tspan>
+            </text>
+            <text class="g" transform="translate(312.953 65.655)">
+                <tspan x="0" y="0">კვირა</tspan>
+            </text>
+            <text class="p" transform="translate(406.736 65.408)">
+                <tspan x="0" y="0">9</tspan>
+            </text>
+            <text class="p" transform="translate(518.703 81.51)">
+                <tspan x="0" y="0">25</tspan>
+            </text>
+            <text class="p" transform="translate(413.746 97.517)">
+                <tspan x="0" y="0">11</tspan>
+            </text>
+            <text class="p" transform="translate(458.423 113.95)">
+                <tspan x="0" y="0">17</tspan>
+            </text>
+            <text class="p" transform="translate(486.42 130.17)">
+                <tspan x="0" y="0">21</tspan>
+            </text>
+            <text class="p" transform="translate(421.892 146.902)">
+                <tspan x="0" y="0">12</tspan>
+            </text>
+            <text class="p" transform="translate(391.875 162.732)">
+                <tspan x="0" y="0">7</tspan>
+            </text>
+            <text class="q" transform="translate(348.782 183.701)">
+                <tspan x="0" y="0">0</tspan>
+            </text>
+            <text class="q" transform="translate(385.125 183.701)">
+                <tspan x="0" y="0">5</tspan>
+            </text>
+            <text class="q" transform="translate(419.499 184.701)">
+                <tspan x="0" y="0">10</tspan>
+            </text>
+            <text class="q" transform="translate(455.842 184.701)">
+                <tspan x="0" y="0">15</tspan>
+            </text>
+            <text class="q" transform="translate(492.185 184.701)">
+                <tspan x="0" y="0">20</tspan>
+            </text>
+            <text class="q" transform="translate(528.529 184.701)">
+                <tspan x="0" y="0">25</tspan>
+            </text>
+            <g transform="translate(0.329 186.983)">
+                <rect class="h" width="276.976" height="0.657"/>
+            </g>
+            <text class="g" transform="translate(5.201 198.626)">
+                <tspan x="0" y="0">9</tspan>
+            </text>
+        </g>
+        <g transform="translate(98.589 6248.273)">
+            <rect class="c" width="278.29" height="188.287" transform="translate(277.305 18.571)"/>
+            <g transform="translate(134.766 41.25)">
+                <path class="d" d="M0,0H142.539V165.608H0Z"/>
+            </g>
+            <g transform="translate(16.541 41.25)">
+                <rect class="e" width="118.226" height="165.608"/>
+            </g>
+            <g transform="translate(16.541 20.013)">
+                <rect class="f" width="260.764" height="20.908"/>
+            </g>
+            <rect class="c" width="16.212" height="206.53" transform="translate(0.329 0.328)"/>
+            <g transform="translate(0.329 0.328)">
+                <rect class="c" width="555.266" height="19.685"/>
+            </g>
+            <text class="g" transform="translate(5.742 35.167)">
+                <tspan x="0" y="0">1</tspan>
+            </text>
+            <text class="g" transform="translate(5.457 55.937)">
+                <tspan x="0" y="0">2</tspan>
+            </text>
+            <text class="g" transform="translate(5.439 76.709)">
+                <tspan x="0" y="0">3</tspan>
+            </text>
+            <text class="g" transform="translate(5.289 97.481)">
+                <tspan x="0" y="0">4</tspan>
+            </text>
+            <text class="g" transform="translate(5.43 118.252)">
+                <tspan x="0" y="0">5</tspan>
+            </text>
+            <text class="g" transform="translate(5.283 139.025)">
+                <tspan x="0" y="0">6</tspan>
+            </text>
+            <text class="g" transform="translate(5.691 158.482)">
+                <tspan x="0" y="0">7</tspan>
+            </text>
+            <text class="g" transform="translate(5.201 178.597)">
+                <tspan x="0" y="0">8</tspan>
+            </text>
+            <path class="h" d="M653.208,6214.113H97.285V6007.254H653.208Zm-555.266-.725H652.551v-205.41H97.942Z"
+                  transform="translate(-97.285 -6007.254)"/>
+            <g transform="translate(0.329 19.684)">
+                <rect class="h" width="555.266" height="0.657"/>
+            </g>
+            <g transform="translate(0.329 40.593)">
+                <rect class="h" width="276.976" height="0.657"/>
+            </g>
+            <g transform="translate(0.329 61.501)">
+                <rect class="h" width="276.976" height="0.657"/>
+            </g>
+            <g transform="translate(0.329 82.409)">
+                <rect class="h" width="276.976" height="0.657"/>
+            </g>
+            <g transform="translate(0.329 103.318)">
+                <rect class="h" width="276.976" height="0.657"/>
+            </g>
+            <g transform="translate(0.329 124.226)">
+                <rect class="h" width="276.976" height="0.657"/>
+            </g>
+            <g transform="translate(0.329 145.135)">
+                <rect class="h" width="276.976" height="0.657"/>
+            </g>
+            <g transform="translate(0.329 166.043)">
+                <rect class="h" width="276.976" height="0.657"/>
+            </g>
+            <g transform="translate(276.977 7.315)">
+                <rect class="h" width="0.657" height="199.543"/>
+            </g>
+            <g transform="translate(387.313 52.736)">
+                <path class="i"
+                      d="M443.772,6058.922l.16,15.066.092,15.066.077,30.133-.075,30.133-.092,15.066-.161,15.066-.161-15.066-.092-15.066-.075-30.133.077-30.133.092-15.066Z"
+                      transform="translate(-443.444 -6058.922)"/>
+            </g>
+            <g transform="translate(423.602 52.736)">
+                <path class="i"
+                      d="M479.326,6058.922l.16,15.066.092,15.066.077,30.133-.075,30.133-.092,15.066-.161,15.066-.161-15.066-.092-15.066L479,6119.188l.077-30.133.092-15.066Z"
+                      transform="translate(-478.998 -6058.922)"/>
+            </g>
+            <g transform="translate(459.891 52.736)">
+                <path class="i"
+                      d="M514.88,6058.922l.16,15.066.092,15.066.077,30.133-.076,30.133-.092,15.066-.161,15.066-.161-15.066-.092-15.066-.076-30.133.077-30.133.092-15.066Z"
+                      transform="translate(-514.552 -6058.922)"/>
+            </g>
+            <g transform="translate(496.179 52.736)">
+                <path class="i"
+                      d="M550.433,6058.922l.16,15.066.092,15.066.076,30.133-.075,30.133-.092,15.066-.161,15.066-.161-15.066-.092-15.066-.075-30.133.076-30.133.092-15.066Z"
+                      transform="translate(-550.105 -6058.922)"/>
+            </g>
+            <g transform="translate(532.468 52.736)">
+                <path class="i"
+                      d="M585.987,6058.922l.16,15.066.092,15.066.077,30.133-.075,30.133-.092,15.066-.161,15.066-.161-15.066-.092-15.066-.075-30.133.077-30.133.092-15.066Z"
+                      transform="translate(-585.659 -6058.922)"/>
+            </g>
+            <g transform="translate(314.294 7.315)">
+                <rect class="h" width="0.657" height="12.698"/>
+            </g>
+            <g transform="translate(351.611 7.315)">
+                <rect class="h" width="0.657" height="12.698"/>
+            </g>
+            <g transform="translate(388.929 7.315)">
+                <rect class="h" width="0.657" height="12.698"/>
+            </g>
+            <g transform="translate(426.246 7.315)">
+                <rect class="h" width="0.657" height="12.698"/>
+            </g>
+            <g transform="translate(463.564 7.315)">
+                <rect class="h" width="0.657" height="12.698"/>
+            </g>
+            <g transform="translate(500.881 7.315)">
+                <rect class="h" width="0.657" height="12.698"/>
+            </g>
+            <g transform="translate(538.198 7.315)">
+                <rect class="h" width="0.657" height="12.698"/>
+            </g>
+            <g transform="translate(134.438 7.315)">
+                <rect class="h" width="0.657" height="199.543"/>
+            </g>
+            <g transform="translate(16.212 7.315)">
+                <rect class="h" width="0.657" height="199.543"/>
+            </g>
+            <text class="j" transform="translate(20.535 36.167)">
+                <tspan x="0" y="0">კვირის დღე</tspan>
+            </text>
+            <text class="g" transform="translate(20.535 56.937)">
+                <tspan x="0" y="0">ორშაბათი</tspan>
+            </text>
+            <text class="g" transform="translate(20.535 77.709)">
+                <tspan x="0" y="0">სამშაბათი</tspan>
+            </text>
+            <text class="g" transform="translate(20.535 98.481)">
+                <tspan x="0" y="0">ოთხშაბათი</tspan>
+            </text>
+            <text class="g" transform="translate(20.535 119.252)">
+                <tspan x="0" y="0">ხუთშაბათი</tspan>
+            </text>
+            <text class="g" transform="translate(20.535 140.025)">
+                <tspan x="0" y="0">პარასკევი</tspan>
+            </text>
+            <text class="g" transform="translate(20.535 159.482)">
+                <tspan x="0" y="0">შაბათი</tspan>
+            </text>
+            <text class="g" transform="translate(20.535 179.597)">
+                <tspan x="0" y="0">კვირა</tspan>
+            </text>
+            <text class="j" transform="translate(20.535 199.626)">
+                <tspan x="0" y="0">სულ</tspan>
+            </text>
+            <text class="j" transform="translate(138.26 36.167)">
+                <tspan x="0" y="0">რაოდენობა</tspan>
+            </text>
+            <text class="g" transform="translate(393.102 38.756)">
+                <tspan x="0" y="0">რაოდენობა</tspan>
+            </text>
+            <text class="g" transform="translate(201.547 56.937)">
+                <tspan x="0" y="0">7</tspan>
+            </text>
+            <text class="g" transform="translate(199.196 77.709)">
+                <tspan x="0" y="0">12</tspan>
+            </text>
+            <text class="g" transform="translate(199.297 98.481)">
+                <tspan x="0" y="0">21</tspan>
+            </text>
+            <text class="g" transform="translate(199.42 119.252)">
+                <tspan x="0" y="0">17</tspan>
+            </text>
+            <text class="g" transform="translate(199.521 140.025)">
+                <tspan x="0" y="0">11</tspan>
+            </text>
+            <text class="g" transform="translate(198.866 159.482)">
+                <tspan x="0" y="0">25</tspan>
+            </text>
+            <text class="g" transform="translate(201.125 179.597)">
+                <tspan x="0" y="0">9</tspan>
+            </text>
+            <text class="g" transform="translate(67.992 14.498)">
+                <tspan x="0" y="0">A</tspan>
+            </text>
+            <text class="g" transform="translate(201.125 14.498)">
+                <tspan x="0" y="0">B</tspan>
+            </text>
+            <text class="g" transform="translate(293.078 14.498)">
+                <tspan x="0" y="0">C</tspan>
+            </text>
+            <text class="g" transform="translate(329.86 13.498)">
+                <tspan x="0" y="0">D</tspan>
+            </text>
+            <text class="g" transform="translate(367.955 13.498)">
+                <tspan x="0" y="0">E</tspan>
+            </text>
+            <text class="g" transform="translate(405.392 14.498)">
+                <tspan x="0" y="0">F</tspan>
+            </text>
+            <text class="g" transform="translate(441.845 13.498)">
+                <tspan x="0" y="0">G</tspan>
+            </text>
+            <text class="g" transform="translate(478.627 13.498)">
+                <tspan x="0" y="0">H</tspan>
+            </text>
+            <text class="g" transform="translate(523.874 13.498)">
+                <tspan x="0" y="0">I</tspan>
+            </text>
+            <rect class="k" width="64.367" height="10" transform="translate(352.064 57.451)"/>
+            <rect class="l" width="180.732" height="10" transform="translate(352.064 73.652)"/>
+            <rect class="m" width="76.628" height="10" transform="translate(352.064 89.853)"/>
+            <rect class="n" width="120.853" height="10" transform="translate(352.064 106.055)"/>
+            <rect class="l" width="148.877" height="10" transform="translate(352.064 122.256)"/>
+            <rect class="o" width="84.728" height="10" transform="translate(352.064 138.457)"/>
+            <rect class="m" width="49.699" height="10" transform="translate(352.064 154.659)"/>
+            <g transform="translate(351.408 50.883)">
+                <rect class="h" width="1.314" height="119.758"/>
+            </g>
+            <text class="g" transform="translate(290.954 162.975)">
+                <tspan x="0" y="0">ორშაბათი</tspan>
+            </text>
+            <text class="g" transform="translate(291.953 146.755)">
+                <tspan x="0" y="0">სამშაბათი</tspan>
+            </text>
+            <text class="g" transform="translate(285.953 130.534)">
+                <tspan x="0" y="0">ოთხშაბათი</tspan>
+            </text>
+            <text class="g" transform="translate(288.953 114.314)">
+                <tspan x="0" y="0">ხუთშაბათი</tspan>
+            </text>
+            <text class="g" transform="translate(291.953 98.094)">
+                <tspan x="0" y="0">პარასკევი</tspan>
+            </text>
+            <text class="g" transform="translate(306.953 81.873)">
+                <tspan x="0" y="0">შაბათი</tspan>
+            </text>
+            <text class="g" transform="translate(312.953 65.655)">
+                <tspan x="0" y="0">კვირა</tspan>
+            </text>
+            <text class="p" transform="translate(406.736 65.408)">
+                <tspan x="0" y="0">9</tspan>
+            </text>
+            <text class="p" transform="translate(518.703 81.51)">
+                <tspan x="0" y="0">25</tspan>
+            </text>
+            <text class="p" transform="translate(413.746 97.517)">
+                <tspan x="0" y="0">11</tspan>
+            </text>
+            <text class="p" transform="translate(458.423 113.95)">
+                <tspan x="0" y="0">17</tspan>
+            </text>
+            <text class="p" transform="translate(486.42 130.17)">
+                <tspan x="0" y="0">21</tspan>
+            </text>
+            <text class="p" transform="translate(421.892 146.902)">
+                <tspan x="0" y="0">12</tspan>
+            </text>
+            <text class="p" transform="translate(391.875 162.732)">
+                <tspan x="0" y="0">7</tspan>
+            </text>
+            <text class="q" transform="translate(348.782 183.701)">
+                <tspan x="0" y="0">0</tspan>
+            </text>
+            <text class="q" transform="translate(385.125 183.701)">
+                <tspan x="0" y="0">5</tspan>
+            </text>
+            <text class="q" transform="translate(419.499 184.701)">
+                <tspan x="0" y="0">10</tspan>
+            </text>
+            <text class="q" transform="translate(455.842 184.701)">
+                <tspan x="0" y="0">15</tspan>
+            </text>
+            <text class="q" transform="translate(492.185 184.701)">
+                <tspan x="0" y="0">20</tspan>
+            </text>
+            <text class="q" transform="translate(528.529 184.701)">
+                <tspan x="0" y="0">25</tspan>
+            </text>
+            <g transform="translate(0.329 186.983)">
+                <rect class="h" width="276.976" height="0.657"/>
+            </g>
+            <text class="g" transform="translate(5.201 198.626)">
+                <tspan x="0" y="0">9</tspan>
+            </text>
+            <text class="j" transform="translate(194.534 199.626)">
+                <tspan x="0" y="0">120</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
