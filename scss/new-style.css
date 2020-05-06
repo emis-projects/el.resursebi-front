@@ -38609,6 +38609,43 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
+.cs-5-11_5-1 {
+  height: 20vh;
+  max-height: 161px;
+}
+
+.cs-5-11_5-1 img {
+  height: 100%;
+  margin-top: 10vh;
+}
+
+.cs-5-11_6-1 {
+  height: 43vh;
+  max-height: 333px;
+}
+
+.cs-5-11_6-1 img {
+  height: 100%;
+}
+
+.cs-5-11_14-1 {
+  height: 45vh;
+  max-height: 351px;
+}
+
+.cs-5-11_14-1 img {
+  height: 100%;
+}
+
+.cs-5-11_16-1 {
+  height: 45vh;
+  max-height: 351px;
+}
+
+.cs-5-11_16-1 img {
+  height: 100%;
+}
+
 .cs-5-11-div-12-img {
   height: 62.89vh;
   position: absolute;
