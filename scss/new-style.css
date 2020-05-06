@@ -38413,6 +38413,43 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   margin-top: -7vh;
 }
 
+.cs-6-4_7-1 {
+  height: 63vh;
+  max-height: 485px;
+}
+
+.cs-6-4_7-1 img {
+  height: 100%;
+}
+
+.cs-6-4_8-1 {
+  height: 21vh;
+  max-height: 165px;
+}
+
+.cs-6-4_8-1 img {
+  height: 100%;
+  margin-top: 20vh;
+}
+
+.cs-6-4_9-1 {
+  height: 43vh;
+  max-height: 333px;
+}
+
+.cs-6-4_9-1 img {
+  height: 100%;
+}
+
+.cs-6-4_11-1 {
+  height: 49vh;
+  max-height: 378px;
+}
+
+.cs-6-4_11-1 img {
+  height: 100%;
+}
+
 .background-cs-6-4 {
   background-position: top center;
   background-size: cover;
