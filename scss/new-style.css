@@ -38400,6 +38400,17 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .cs-6-4_5-1 img {
   height: 100%;
+  margin-top: 15vh;
+}
+
+.cs-6-4_6-1 {
+  height: 63vh;
+  max-height: 485px;
+}
+
+.cs-6-4_6-1 img {
+  height: 100%;
+  margin-top: -7vh;
 }
 
 .background-cs-6-4 {
