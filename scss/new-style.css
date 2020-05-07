@@ -38646,6 +38646,23 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
+.cs-5-11_15_1 {
+  height: 30vh;
+  max-height: 231px;
+}
+
+.cs-5-11_15_1 img {
+  height: 100%;
+}
+
+.cs-5-11-video-box_15_1 video {
+  background-color: #000;
+  width: 52vw;
+  height: 51.56vh;
+  margin-top: -3vh;
+  margin-left: -13vh;
+}
+
 .cs-5-11-div-12-img {
   height: 62.89vh;
   position: absolute;
