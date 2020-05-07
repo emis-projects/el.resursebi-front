@@ -38413,6 +38413,43 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   margin-top: -7vh;
 }
 
+.cs-6-4_7-1 {
+  height: 63vh;
+  max-height: 485px;
+}
+
+.cs-6-4_7-1 img {
+  height: 100%;
+}
+
+.cs-6-4_8-1 {
+  height: 21vh;
+  max-height: 165px;
+}
+
+.cs-6-4_8-1 img {
+  height: 100%;
+  margin-top: 20vh;
+}
+
+.cs-6-4_9-1 {
+  height: 43vh;
+  max-height: 333px;
+}
+
+.cs-6-4_9-1 img {
+  height: 100%;
+}
+
+.cs-6-4_11-1 {
+  height: 49vh;
+  max-height: 378px;
+}
+
+.cs-6-4_11-1 img {
+  height: 100%;
+}
+
 .background-cs-6-4 {
   background-position: top center;
   background-size: cover;
@@ -38569,6 +38606,43 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .class_5_11-img_5 img {
+  height: 100%;
+}
+
+.cs-5-11_5-1 {
+  height: 20vh;
+  max-height: 161px;
+}
+
+.cs-5-11_5-1 img {
+  height: 100%;
+  margin-top: 10vh;
+}
+
+.cs-5-11_6-1 {
+  height: 43vh;
+  max-height: 333px;
+}
+
+.cs-5-11_6-1 img {
+  height: 100%;
+}
+
+.cs-5-11_14-1 {
+  height: 45vh;
+  max-height: 351px;
+}
+
+.cs-5-11_14-1 img {
+  height: 100%;
+}
+
+.cs-5-11_16-1 {
+  height: 45vh;
+  max-height: 351px;
+}
+
+.cs-5-11_16-1 img {
   height: 100%;
 }
 
@@ -39026,6 +39100,16 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .background-cs-5-16-28 {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-5/Enter-table-data-16/cs-5-16-28-img.svg");
+}
+
+.diagram-box_15-1 {
+  height: 57vh;
+  max-height: 440px;
+}
+
+.diagram-box_15-1 img {
+  height: 100%;
+  margin-top: 8vh;
 }
 
 .creating_page-4 {
