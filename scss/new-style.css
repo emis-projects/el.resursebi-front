@@ -39102,6 +39102,16 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-5/Enter-table-data-16/cs-5-16-28-img.svg");
 }
 
+.diagram-box_15-1 {
+  height: 57vh;
+  max-height: 440px;
+}
+
+.diagram-box_15-1 img {
+  height: 100%;
+  margin-top: 8vh;
+}
+
 .creating_page-4 {
   height: 52vh;
   max-height: 399px;
