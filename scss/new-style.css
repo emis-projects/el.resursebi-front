@@ -39292,6 +39292,16 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   margin-right: 2vh;
 }
 
+.diagram-box_9-1 {
+  height: 56vh;
+  max-height: 432px;
+}
+
+.diagram-box_9-1 img {
+  height: 100%;
+  margin-top: 5vh;
+}
+
 body {
   color: #262626;
   font-size: 14px;
