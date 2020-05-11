@@ -994,8 +994,8 @@ let title = {
     IT_4: [
         {
             id: 1,
-            name: 'კომპიუტერი 4 კლასი 1 გაკვ',
-            link: 'Computer-Science/Computer_parts/C-1366-01-01.html'
+            name: 'მარტივი ელოქტრონული მოწყობილობის გამართვა',
+            link: 'Computer-Science/Class-4/Maintain-electronic-device-1/1.html'
         },
         {
             id: 2,
@@ -1014,8 +1014,8 @@ let title = {
         },
         {
             id: 5,
-            name: 'მომხმარებლის გრაფიკული ინტერფეისი',
-            link: 'Computer-Science/Class-4/UI-5/1.html'
+            name: 'სათაური',
+            link: '#'
         },
         {
             id: 6,
