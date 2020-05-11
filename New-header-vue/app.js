@@ -1151,13 +1151,13 @@ let title = {
         },
         {
             id: 20,
-            name: 'სათაური',
-            link: '#'
+            name: 'სორტირება და ფილტრაცია ელექტრონულ ცხრილებში',
+            link: 'Computer-Science/Class-5/sort-and-filter-20/1.html'
         },
         {
             id: 21,
-            name: 'სათაური',
-            link: '#'
+            name: 'ხშირად გამოყენებული ფუნქციები MS Excel-ში',
+            link: 'Computer-Science/Class-5/function-in-Exel-21/1.html'
         },
         {
             id: 22,
