@@ -32627,25 +32627,20 @@ img.mfp-img[alt*=cs-3-6-6-img] {
   height: 38.15vh;
   max-height: 293px;
 }
-
 .cs-4-11_5-1 img {
   height: 100%;
 }
-
 .cs-4-11_6-1 {
   height: 19.4vh;
   max-height: 149px;
 }
-
 .cs-4-11_6-1 img {
   height: 100%;
 }
-
 .cs-4-11_7-1 {
   height: 38vh;
   max-height: 293px;
 }
-
 .cs-4-11_7-1 img {
   height: 100%;
 }
@@ -32654,7 +32649,6 @@ img.mfp-img[alt*=cs-3-6-6-img] {
   max-height: 30px;
   display: inline-block;
 }
-
 .sort-and-filter_page-15 {
   height: 62vh;
   max-height: 482px;
@@ -33239,14 +33233,35 @@ img.mfp-img[alt*=cs-3-6-6-img] {
   height: 28vh;
   max-height: 221px;
 }
+
 .electric-device_page-12 img {
   height: 100%;
 }
+
 .electric-device_page-13 {
   height: 25vh;
   max-height: 197px;
 }
+
 .electric-device_page-13 img {
+  height: 100%;
+}
+
+.electric-device_page-14 {
+  height: 52vh;
+  max-height: 396px;
+}
+
+.electric-device_page-14 img {
+  height: 100%;
+}
+
+.electric-device_page-15 {
+  height: 52vh;
+  max-height: 403px;
+}
+
+.electric-device_page-15 img {
   height: 100%;
 }
 
