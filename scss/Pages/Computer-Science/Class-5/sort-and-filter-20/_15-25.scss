@@ -38,4 +38,77 @@
       height: 100%;
     }
   }
+
+  &_page-18 {
+    height: 60vh;
+    max-height: 460px;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &_page-19 {
+    height: 38vh;
+    max-height: 298px;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &_page-21 {
+    height: 84vh;
+    max-height: 640px;
+    position: fixed;
+    right: 10%;
+    bottom: 0;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &_page-22 {
+    height: 38vh;
+    max-height: 292px;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &_page-23 {
+    height: 73vh;
+    max-height: 561px;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &_page-24 {
+    height: 32vh;
+    max-height: 246px;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &_page-25 {
+    height: 43vh;
+    max-height: 334px;
+
+    &_span {
+      background: #217346;
+      padding: 2px 10px;
+      color: #F3F3F3;
+      font-size: 14px;
+    }
+
+    img {
+      height: 100%;
+    }
+  }
 }
