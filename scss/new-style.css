@@ -39958,6 +39958,31 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
+.cs-5-21-1-img {
+  height: 63.93vh;
+  margin: 2vh auto;
+}
+
+.cs-5-21-3-img {
+  height: 48.30vh;
+  margin-top: 3vh;
+}
+
+.cs-5-21-4-img {
+  height: 47.52vh;
+  margin-top: 2vh;
+}
+
+.cs-5-21-5-img {
+  height: 26.95vh;
+  margin-top: 2vh;
+}
+
+.cs-5-21-6-img {
+  height: 32.94vh;
+  margin-top: 1vh;
+}
+
 body {
   color: #262626;
   font-size: 14px;
