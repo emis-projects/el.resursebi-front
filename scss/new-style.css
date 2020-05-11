@@ -40387,16 +40387,37 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 .class_4_1-img_1 {
   height: 64vh;
   max-height: 492px;
-  margin: 5vh auto;
+  margin: 2vh auto;
 }
 
 .class_4_1-img_1 img {
   height: 100%;
 }
 
-.class_4_1-img_1 {
-  height: 64vh;
-  max-height: 492px;
+.class_4_1-img_3 {
+  position: fixed;
+  bottom: 11vh;
+  height: 42.8vh;
+  max-height: 329px;
+}
+
+.class_4_1-img_3 img {
+  height: 100%;
+}
+
+.class_4_1-img_4 {
+  position: fixed;
+  bottom: 0;
+  height: 51.8vh;
+  max-height: 398px;
+}
+
+.class_4_1-img_4 img {
+  height: 100%;
+}
+
+.class_4_1-img_5 {
+  height: 32.68vh;
 }
 
 .electric-device_page-11 {
@@ -40466,6 +40487,21 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   background-repeat: no-repeat;
 }
 
+.background-cs-4-5-20 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/UI-5/cs-4-5-20.png");
+}
+
+.background-cs-4-5-21 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/UI-5/cs-4-5-21.png");
+}
+
+.background-cs-4-5-22 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/UI-5/cs-4-5-22.png");
+}
+
+.background-cs-4-5-23 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/UI-5/cs-4-5-23.svg");
+}
 .background-cs-4-1-17 {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-4/Maintain-electronic-device-1/cs-4-1-17.svg");
 }
