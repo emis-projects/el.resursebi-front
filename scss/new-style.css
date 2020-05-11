@@ -39504,12 +39504,39 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
+.cs-4-11_6-1 {
+  height: 44.9vh;
+  max-height: 345px;
+}
+
+.cs-4-11_6-1 img {
+  height: 100%;
+}
+
 .cs-4-11_7-1 {
   height: 38vh;
   max-height: 293px;
 }
 
 .cs-4-11_7-1 img {
+  height: 100%;
+}
+
+.cs-4-11_8-1 {
+  height: 36.9vh;
+  max-height: 284px;
+}
+
+.cs-4-11_8-1 img {
+  height: 100%;
+}
+
+.cs-4-11_17-1 {
+  height: 48vh;
+  max-height: 371px;
+}
+
+.cs-4-11_17-1 img {
   height: 100%;
 }
 
@@ -40147,6 +40174,10 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
+.cs-4-5-19-img {
+  height: 41.66vh;
+}
+
 .ui_page-6 {
   height: 15vh;
   max-height: 117px;
@@ -40243,6 +40274,116 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
+.cs-4-5-div-10-img {
+  height: 43.61vh;
+}
+
+.cs-4-5-div-14-img {
+  height: 43.88vh;
+  position: absolute;
+  right: 15.15vw;
+  bottom: 19.27vh;
+}
+
+.cs-4-5-div-15-img {
+  height: 45.83vh;
+}
+
+.cs-4-5-div-16-img {
+  height: 64.45vh;
+  position: absolute;
+  right: 13.76vw;
+  bottom: 0;
+}
+
+.cs-4-5-div-17-img {
+  height: 48.04vh;
+  position: absolute;
+  right: 6.66vw;
+  bottom: 11.71vh;
+}
+
+.cs-4-5-div-18-img {
+  height: 39.19vh;
+  position: absolute;
+  right: 12.95vw;
+  bottom: 11.45vh;
+}
+
+.cs-4-5-div img {
+  height: 100%;
+}
+
+.cs-4-5-div-12-game-purple-container {
+  border-radius: 21px;
+  height: 12.8vh;
+  width: 12.8vh;
+  background-color: #947DCE;
+}
+
+.cs-4-5-div-12-game-purple-container {
+  margin-left: 0.98vw;
+  margin-bottom: 7.55vh;
+}
+
+.cs-4-5-div-12-game-purple-div {
+  margin-right: 5.98vw;
+}
+
+.cs-4-5-div-12-game-purple-div img {
+  height: 4.39vh;
+}
+
+.cs-4-5-div-13-game-purple-div {
+  width: 30vw;
+  background-color: #947DCE;
+  text-align: center;
+}
+
+.cs-4-5-div-13-game-purple-div p {
+  padding: 1.82vh;
+}
+
+.cs-4-5-div-13-game-purple-container {
+  border: 1px solid #947DCE;
+  width: 30vw;
+}
+
+.cs-4-5-div-13-game-purple-container p {
+  padding: 1.82vh;
+}
+
+.cs-4-5-div-13-game-icons-div {
+  margin-bottom: 3.25vh;
+}
+
+.cs-4-5-div-13-game-icons-div img {
+  height: 4.68vh;
+  margin-right: 1.75vw;
+}
+
+.background-cs-4-5 {
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-4-5-20 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/UI-5/cs-4-5-20.png");
+}
+
+.background-cs-4-5-21 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/UI-5/cs-4-5-21.png");
+}
+
+.background-cs-4-5-22 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/UI-5/cs-4-5-22.png");
+}
+
+.background-cs-4-5-23 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/UI-5/cs-4-5-23.svg");
+}
+
 .class_4_1-img_1 {
   height: 64vh;
   max-height: 492px;
@@ -40327,11 +40468,20 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
-.cs-4-5-19-img {
-  height: 41.66vh;
+.cs-4-1_3-1 {
+  height: 34.8vh;
+  max-height: 268px;
 }
 
-.background-cs-4-5 {
+.cs-4-1_3-1 img {
+  height: 100%;
+}
+
+.cs-4-1-16-img {
+  height: 37.89vh;
+}
+
+.background-cs-4-1 {
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -40351,6 +40501,21 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .background-cs-4-5-23 {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-4/UI-5/cs-4-5-23.svg");
+}
+.background-cs-4-1-17 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/Maintain-electronic-device-1/cs-4-1-17.svg");
+}
+
+.background-cs-4-1-18 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/Maintain-electronic-device-1/cs-4-1-18.png");
+}
+
+.background-cs-4-1-19 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/Maintain-electronic-device-1/cs-4-1-19.png");
+}
+
+.background-cs-4-1-20 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/Maintain-electronic-device-1/cs-4-1-20.svg");
 }
 
 body {
