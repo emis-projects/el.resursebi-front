@@ -919,7 +919,6 @@
   font-style: normal;
   font-display: block;
 }
-
 [class^=icon-], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: "icomoon" !important;
@@ -1033,7 +1032,6 @@
   font-weight: normal;
   font-style: normal;
 }
-
 [class^=arrow-]:before, [class*=" arrow-"]:before {
   font-family: "fontello";
   font-style: normal;
@@ -31757,40 +31755,31 @@ img.mfp-img[alt*=cs-3-6-6-img] {
   height: 100%;
   margin-top: 20vh;
 }
-
 .cs-6-4_9-1 {
   height: 43vh;
   max-height: 333px;
 }
-
 .cs-6-4_9-1 img {
   height: 100%;
 }
-
 .cs-6-4_10-1 {
   height: 26vh;
   max-height: 203px;
-  margin-top: 15vh;
 }
-
 .cs-6-4_10-1 img {
   height: 100%;
 }
-
 .cs-6-4_11-1 {
   height: 49vh;
   max-height: 378px;
 }
-
 .cs-6-4_11-1 img {
   height: 100%;
 }
-
 .cs-6-4_16-1 {
   height: 66vh;
   max-height: 510px;
 }
-
 .cs-6-4_16-1 img {
   height: 100%;
 }
@@ -31800,11 +31789,9 @@ img.mfp-img[alt*=cs-3-6-6-img] {
   background-size: cover;
   background-repeat: no-repeat;
 }
-
 .background-cs-6-4-22 {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Variables-4/cs-6-4-22-img.svg");
 }
-
 .background-cs-6-4-23 {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Variables-4/cs-6-4-23-img.svg");
 }
@@ -32524,30 +32511,24 @@ img.mfp-img[alt*=cs-3-6-6-img] {
   height: 56vh;
   max-height: 432px;
 }
-
 .diagram-box_9-1 img {
   height: 100%;
   margin-top: 5vh;
 }
-
 .diagram-box_5-1 {
   height: 6vh;
   max-height: 53vh;
 }
-
 .diagram-box_5-1 img {
   height: 100%;
 }
-
 .diagram-box_5-1-2 {
   height: 51vh;
   max-height: 396px;
 }
-
 .diagram-box_5-1-2 img {
   height: 100%;
 }
-
 .diagram-box_5-1-2_button-start {
   background: #FFFFFF;
   border: 2px solid #947DCE66;
