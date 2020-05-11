@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="528" height="459.033" viewBox="0 0 528 459.033">
+    <defs>
+        <style>
+            .a{fill:#b6d7db;opacity:0.49;}.b,.g{fill:#0078d7;}.b{opacity:0.21;}.c,.h,.i{fill:#fff;}.d{fill:#e4f0f5;}.e{fill:#5697ca;}.e,.h,.j{font-size:11px;font-family:BPGArial,
+            BPG
+            Arial;}.f{fill:#dbdad9;opacity:0.74;}.i{stroke:#6b6b6a;stroke-miterlimit:10;stroke-width:0.288px;}.j{fill:#686867;}.k{fill:#3d3d3d;}.l{fill:#d6d6d6;}.m{fill:#a8a8a8;}.n{stroke:none;}.o{fill:none;}
+        </style>
+    </defs>
+    <g transform="translate(-522.589 -368.607)">
+        <g transform="translate(522.589 368.607)">
+            <path class="a"
+                  d="M552.653,565.538c-11.535,7.03-56.388,36.064-61.154,82.289-6.693,64.911,69.7,124.571,140.3,131.244,92.12,8.708,151.92-74.927,154.592-78.794C808.337,747.65,852.841,778,899.4,777.418c64.455-.81,127.576-60.841,116.943-117.448-4.8-25.557-16.735-50.06-37.672-66.158-21.571-16.588-47.785-11.08-71.041-21.084,6.77,2.912,20.381-82.282,20.282-90.206-.372-30.2-8.633-64.5-28.72-87.888-19.884-23.146-45.752-40.714-73.487-53.139-62.692-28.084-139.392-30.386-197.73,9.392C567.786,391.93,541.793,477.551,552.653,565.538Z"
+                  transform="translate(-491.089 -320.673)"/>
+            <path class="b"
+                  d="M551.126,529.8c-7.095-32.278-22.837-57.251-9.791-73.05,18.465-22.362,58.313-11.81,83.19-11.133,36.152.984,72.321.533,108.476-.026,25.683-.4,52.731,3.762,78.188.691,23.857-2.878,47.185-16.582,71.678-11.144,25.2,5.6,39.45,29.847,44.756,53.37,2.932,13,5.868,28.787,2.986,41.986-2.936,13.449-10.688,25.559-11.634,39.5-.628,9.247,1.952,18.363,3.611,27.481,8.978,49.38-9.169,123.568-69.655,125.31-29.16.839-58.141-5.851-87.293-7.32-34.069-1.677-67.978,3.4-102.013,3.79a258.045,258.045,0,0,1-67.179-8.12c-18.635-4.793-40.507-10.221-52.1-26.954C518.135,646.341,568.088,606.966,551.126,529.8Z"
+                  transform="translate(-510.949 -335.399)"/>
+            <rect class="c" width="349.74" height="247.408" transform="translate(50.09 120.191)"/>
+            <rect class="d" width="53.806" height="16.697" transform="translate(57.771 145.053)"/>
+            <text class="e" transform="translate(85 157.249)">
+                <tspan x="-22.661" y="0">მიმღები</tspan>
+            </text>
+            <rect class="f" width="349.74" height="21.446" transform="translate(50.09 346.154)"/>
+            <g transform="translate(57.771 175.139)">
+                <rect class="d" width="40.806" height="16.697"/>
+                <text class="e" transform="translate(20.229 12.111)">
+                    <tspan x="-14.94" y="0">ასლი</tspan>
+                </text>
+            </g>
+            <g transform="translate(60.831 349.105)">
+                <rect class="g" width="55.029" height="16.697" transform="translate(-7 -1)"/>
+                <text class="h" transform="translate(20.169 11.145)">
+                    <tspan x="-24.729" y="0">გაგზავნა</tspan>
+                </text>
+            </g>
+            <g transform="translate(87.688 349.293)">
+                <g class="i" transform="translate(27 -1)">
+                    <rect class="n" width="55.622" height="16.697"/>
+                    <rect class="o" x="0.144" y="0.144" width="55.334" height="16.409"/>
+                </g>
+                <text class="j" transform="translate(54.312 10.956)">
+                    <tspan x="-24.481" y="0">გაუქმება</tspan>
+                </text>
+            </g>
+            <rect class="f" width="349.74" height="19.976" transform="translate(50.09 120.191)"/>
+            <rect class="f" width="349.74" height="2.184" transform="translate(50.09 167.636)"/>
+            <rect class="k" width="72.862" height="1.883" transform="translate(57.771 204.368)"/>
+            <rect class="k" width="72.862" height="1.883" transform="translate(122.966 151.96)"/>
+            <rect class="k" width="52.105" height="1.883" transform="translate(57.207 228.115)"/>
+            <rect class="k" width="52.105" height="1.883" transform="translate(57.207 261.816)"/>
+            <rect class="k" width="60.789" height="1.883" transform="translate(57.207 279.137)"/>
+            <rect class="k" width="169.448" height="1.883" transform="translate(55.512 244.495)"/>
+        </g>
+        <g transform="translate(909.03 665.261)">
+            <path class="c" d="M848.793,662.614,803.918,659.2l141.559-78.453Z"
+                  transform="translate(-803.918 -580.748)"/>
+            <path class="l" d="M837.176,662.614l4.262,36.527,14.226-27.313,78.2-91.08Z"
+                  transform="translate(-792.301 -580.748)"/>
+            <path class="m" d="M840.335,675.562,867.6,657.437,854.56,648.25Z" transform="translate(-791.198 -557.17)"/>
+            <path class="c" d="M850.878,671.828l43.907,41.593,34.289-132.673Z"
+                  transform="translate(-787.515 -580.748)"/>
+        </g>
+    </g>
+</svg>
