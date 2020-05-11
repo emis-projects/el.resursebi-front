@@ -37,41 +37,44 @@
             </header>
 
             <app-section :is-active="isActive" :is-info="isInfo" v-image="'../../../'">
-                <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger" v-on:link-tab="link = $event">
+                <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger"
+                    v-on:link-tab="link = $event">
 
                 </app-bar>
-                <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive" :is-info="isInfo" :path="path" :tab-class="currentTabComponent" :trigger="trigger">
+                <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive"
+                    :is-info="isInfo" :path="path" :tab-class="currentTabComponent" :trigger="trigger">
                 </component>
 
             </app-section>
         </section>
         <section id="mainPage">
             <div class="row">
-                <div class="col-8 m-auto">
-                    <div class="newDesign_subject_question_item mt-5vh">
-                        <img alt="img" class="newDesign_subject_question_item-img" src="../../../img/icons/newDesign_btn-yellow.svg">
-                        <p class="newDesign_subject_question_item-title">
-                            რა იცი ამ თემაზე?
-                        </p>
+                <div class="col-10 m-auto">
+                    <div class="newDesign_container_main_title-cont newDesign_container_main_title-cont-margin">
+                        <h1 class="newDesign_container_main_title">ელექტრონული ფოსტის გადაგზავნა, მიღება</h1>
+                        <img alt="img" class="newDesign_container_main_title-img"
+                             src="../../../img/icons/comp_main_title_border.svg">
                     </div>
-                    <div class="newDesign_subject_question_item mt-3vh">
-                        <img alt="img" class="newDesign_subject_question_item-img" src="../../../img/icons/newDesign_btn-yellow.svg">
+                    <div class="newDesign_subject_question_item">
+                        <img alt="img" class="newDesign_subject_question_item-img"
+                            src="../../../img/icons/newDesign_btn-yellow.svg">
                         <p class="newDesign_subject_question_item-title">
-                            შენი აზრით, რისი ცოდნა გჭირდება დავალების შესასრულებლად?
-                        </p>
-                    </div>
-                    <div class="newDesign_subject_question_item mt-3vh">
-                        <img alt="img" class="newDesign_subject_question_item-img" src="../../../img/icons/newDesign_btn-yellow.svg">
-                        <p class="newDesign_subject_question_item-title">
-                            დააკვირდი სავარჯიშოებს და იფიქრე, როგორ გამოიყენო მიღებული ცოდნა.
+                            იმედი მაქვს, კარგად გაერკვიე ელექტრონული ფოსტის გამოყენებაში. მოდი,</br>
+                             ახლა გადაავლე თვალი შენს გავლილ ნაბიჯებს, გაიხსენე მიღებული </br>
+                             ინფორმაცია და მოამზადე პრეზენტაცია, რომელშიც აღწერ, თუ როგორ </br>
+                             შეცვალა ელექტრონულმა ფოსტამ ადამიანებს შორის მიმოწერა. როგორ </br>
+                             დააჩქარა ინფორმაციის გაგზავნა და მიღება; მოამზადე მარტივი გზამკვლევი, </br>
+                             რომლითაც დაეხმარები სხვებს ელექტრონული ფოსტის დადებითი მხარეების</br>
+                              შესწავლაში.
                         </p>
                     </div>
                 </div>
-                <div class="col-10 m-auto d-flex justify-content-end">
-                    <img alt="img" class="cs-6-7-4-img" src="../../../img/gakvetilebi/Computer-Science/Class-6/Responding-to-events-7/cs-6-7-4.svg">
-                </div>
+               
             </div>
-
+                <div class="cs-4-11-div cs-4-11-div-21-img">
+                    <img alt=""
+                        src="../../../img/gakvetilebi/Computer-Science/Class-4/Sending-email-11/cs-4-11-21-img.svg">
+                </div>
             <div class="left_components_paging-cont" id="leftNav">
                 <left-nav-item></left-nav-item>
             </div>

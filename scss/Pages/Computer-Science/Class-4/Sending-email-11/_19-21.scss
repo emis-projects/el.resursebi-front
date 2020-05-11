@@ -1,0 +1,24 @@
+.cs-4-11-div{
+    &-19-img
+      {
+      height:43.48vh;
+      }
+  &-20-img
+      {
+      height:54.81vh;
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%, 0);
+      bottom:0;
+      }
+  &-21-img
+      {
+        height:42.57vh;
+        position: absolute;
+        right: 0;
+        bottom:0;
+      }
+      img{
+        height:100%;
+      }
+}
