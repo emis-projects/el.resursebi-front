@@ -1156,8 +1156,8 @@ let title = {
         },
         {
             id: 21,
-            name: 'სათაური',
-            link: '#'
+            name: 'ხშირად გამოყენებული ფუნქციები MS Excel-ში',
+            link: 'Computer-Science/Class-5/function-in-Exel-21/1.html'
         },
         {
             id: 22,
