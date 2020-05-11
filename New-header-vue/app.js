@@ -1014,8 +1014,8 @@ let title = {
         },
         {
             id: 5,
-            name: 'სათაური',
-            link: '#'
+            name: 'მომხმარებლის გრაფიკული ინტერფეისი',
+            link: 'Computer-Science/Class-4/UI-5/1.html'
         },
         {
             id: 6,
