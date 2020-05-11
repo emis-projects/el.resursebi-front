@@ -40482,6 +40482,68 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-4/Maintain-electronic-device-1/cs-4-1-20.svg");
 }
 
+.cs-4-1-div-6-img {
+  height: 52.6vh;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.cs-4-1-div-8-img {
+  height: 50.78vh;
+}
+
+.cs-4-1-div-9-img {
+  height: 41.92vh;
+}
+
+.cs-4-1-div-10-img {
+  height: 42.57vh;
+}
+
+.cs-4-1-div img {
+  height: 100%;
+}
+
+.cs-4-1-game-div-container {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.cs-4-1-game-div-container-img-1 {
+  height: 3.12vh;
+}
+
+.cs-4-1-game-div-container-img-2 {
+  height: 4.29vh;
+}
+
+.cs-4-1-game-div-container-img-3 {
+  height: 10.67vh;
+}
+
+.cs-4-1-game-div-container-img-4 {
+  height: 7.42vh;
+}
+
+.cs-4-1-game-div-container-img-5 {
+  height: 9.11vh;
+}
+
+.cs-4-1-game-div-container-img-6 {
+  height: 10.67vh;
+}
+
+.cs-4-1-game-div-container img {
+  margin-bottom: 3.9vh;
+}
+
+.cs-4-1-game-div {
+  position: absolute;
+  bottom: 29.68vh;
+  right: 12.59vw;
+}
+
 body {
   color: #262626;
   font-size: 14px;

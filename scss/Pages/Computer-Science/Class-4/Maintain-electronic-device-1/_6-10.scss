@@ -1,0 +1,54 @@
+.cs-4-1-div{
+      &-6-img
+      {
+      height:52.6vh;
+      position: absolute;
+      right: 0;
+      bottom:0;
+      }
+    &-8-img
+      {
+      height:50.78vh;
+      }
+      &-9-img
+      {
+      height:41.92vh;
+      }
+      &-10-img
+      {
+        height:42.57vh;
+      }
+      img{
+        height:100%;
+      }
+}
+.cs-4-1-game-div-container {
+  flex-wrap:wrap;
+    &-img-1{
+      height:3.12vh;
+    }
+    &-img-2{
+      height:4.29vh;
+    }
+    &-img-3{
+      height:10.67vh;
+    }
+    &-img-4{
+      height:7.42vh;
+    }
+      &-img-5{
+      height:9.11vh;
+    }
+    &-img-6{
+      height:10.67vh;
+    }
+    img{
+      margin-bottom:3.9vh;
+    }
+}
+
+.cs-4-1-game-div{
+  position:absolute;
+  bottom:29.68vh;
+  right:12.59vw;
+}
