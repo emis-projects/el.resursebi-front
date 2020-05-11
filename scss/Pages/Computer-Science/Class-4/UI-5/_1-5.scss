@@ -1,0 +1,35 @@
+.class_4_5 {
+    &-img_1 {
+        height: 52.86vh;
+        max-height: 406px;
+        margin: 5vh auto;
+        img {
+            height: 100%;
+        }
+    }
+    &-img_3 {
+        height: 43.85vh;
+        max-height: 336.8px;
+        img {
+            height: 100%;
+        }
+    }
+    &-img_4 {
+        position: fixed;
+        bottom: 0;
+        height: 51.94vh;
+        max-height: 398.9px;
+        img {
+            height: 100%;
+        }
+    }
+    &-img_5 {
+        position: fixed;
+        bottom: 6vh;
+        height: 40.88vh;
+        max-height: 314px;
+        img {
+            height: 100%;
+        }
+    }
+}
