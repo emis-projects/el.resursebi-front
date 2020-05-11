@@ -39793,6 +39793,16 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
+
+.cs-5-20_3-1 {
+  height: 53vh;
+  max-height: 414px;
+}
+
+.cs-5-20_3-1 img {
+  height: 100%;
+}
+
 .cs-5-20-1-img {
   height: 59.11vh;
   margin: 3vh auto 5vh;
@@ -39981,6 +39991,39 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 .cs-5-21-6-img {
   height: 32.94vh;
   margin-top: 1vh;
+}
+
+.cs-5-21-div-19-img {
+  height: 30.85vh;
+  position: absolute;
+  right: 21.96vw;
+  bottom: 0;
+}
+
+.cs-5-21-div img {
+  height: 100%;
+}
+
+.background-cs-5-21 {
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-5-21-20 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/function-in-Exel-21/cs-5-21-20-img.svg");
+}
+
+.background-cs-5-21-21 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/function-in-Exel-21/cs-5-21-21-img.svg");
+}
+
+.background-cs-5-21-22 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/function-in-Exel-21/cs-5-21-22-img.svg");
+}
+
+.background-cs-5-21-23 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/function-in-Exel-21/cs-5-21-23-img.svg");
 }
 
 body {
