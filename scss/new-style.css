@@ -7992,7 +7992,6 @@ section .arrow_up_down_downArrow img {
 #A-1366-157 .fade-in {
   -webkit-animation: fadeIn ease 0.5s;
           animation: fadeIn ease 0.5s;
-<<<<<<< HEAD
 }
 
 @-webkit-keyframes fadeIn {
@@ -8004,8 +8003,7 @@ section .arrow_up_down_downArrow img {
   }
 }
 
-=======
-}
+
 
 @-webkit-keyframes fadeIn {
   0% {
@@ -8016,7 +8014,6 @@ section .arrow_up_down_downArrow img {
   }
 }
 
->>>>>>> 98d503260a992b15a3192c8ecc3cab5b211062fc
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -22988,8 +22985,6 @@ td img {
   100% {
     width: 4px;
     opacity: 0;
-<<<<<<< HEAD
-=======
     top: 137%;
   }
 }
@@ -23018,7 +23013,6 @@ td img {
   100% {
     width: 4px;
     opacity: 0;
->>>>>>> 98d503260a992b15a3192c8ecc3cab5b211062fc
     top: 131%;
   }
 }
@@ -39537,11 +39531,10 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
-<<<<<<< HEAD
 .cs-4-11_5-1 {
   height: 38.15vh;
   max-height: 293px;
-=======
+}
 .cs-4-11-div-19-img {
   height: 43.48vh;
 }
@@ -39719,39 +39712,29 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 .class_5_20-img_14 {
   height: 51vh;
   max-height: 393px;
->>>>>>> 98d503260a992b15a3192c8ecc3cab5b211062fc
 }
-
 .cs-4-11_5-1 img {
   height: 100%;
 }
-
 .cs-4-11_6-1 {
   height: 19.4vh;
   max-height: 149px;
 }
-
 .cs-4-11_6-1 img {
   height: 100%;
 }
-
-<<<<<<< HEAD
-=======
 .cs-4-11_7-1 {
   height: 38vh;
   max-height: 293px;
 }
-
 .cs-4-11_7-1 img {
   height: 100%;
 }
 
->>>>>>> 98d503260a992b15a3192c8ecc3cab5b211062fc
 .sort-and-filter span {
   max-height: 30px;
   display: inline-block;
 }
-
 .sort-and-filter_page-15 {
   height: 62vh;
   max-height: 482px;
@@ -39761,17 +39744,14 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
 }
-<<<<<<< HEAD
 
 .sort-and-filter_page-15 img {
   height: 100%;
 }
 
-=======
 .sort-and-filter_page-15 img {
   height: 100%;
 }
->>>>>>> 98d503260a992b15a3192c8ecc3cab5b211062fc
 .sort-and-filter_page-16 {
   height: 57vh;
   max-height: 443px;
@@ -39781,62 +39761,50 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
 }
-<<<<<<< HEAD
 
 .sort-and-filter_page-16 img {
   height: 100%;
 }
 
-=======
 .sort-and-filter_page-16 img {
   height: 100%;
 }
->>>>>>> 98d503260a992b15a3192c8ecc3cab5b211062fc
 .sort-and-filter_page-17 {
   height: 35vh;
   max-height: 266px;
 }
-<<<<<<< HEAD
 
 .sort-and-filter_page-17 img {
   height: 100%;
 }
 
-=======
 .sort-and-filter_page-17 img {
   height: 100%;
 }
->>>>>>> 98d503260a992b15a3192c8ecc3cab5b211062fc
 .sort-and-filter_page-18 {
   height: 60vh;
   max-height: 460px;
 }
-<<<<<<< HEAD
 
 .sort-and-filter_page-18 img {
   height: 100%;
 }
 
-=======
 .sort-and-filter_page-18 img {
   height: 100%;
 }
->>>>>>> 98d503260a992b15a3192c8ecc3cab5b211062fc
 .sort-and-filter_page-19 {
   height: 38vh;
   max-height: 298px;
 }
-<<<<<<< HEAD
 
 .sort-and-filter_page-19 img {
   height: 100%;
 }
 
-=======
 .sort-and-filter_page-19 img {
   height: 100%;
 }
->>>>>>> 98d503260a992b15a3192c8ecc3cab5b211062fc
 .sort-and-filter_page-21 {
   height: 84vh;
   max-height: 640px;
@@ -39844,96 +39812,72 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   right: 10%;
   bottom: 0;
 }
-<<<<<<< HEAD
 
 .sort-and-filter_page-21 img {
   height: 100%;
 }
 
-=======
 .sort-and-filter_page-21 img {
   height: 100%;
 }
->>>>>>> 98d503260a992b15a3192c8ecc3cab5b211062fc
 .sort-and-filter_page-22 {
   height: 38vh;
   max-height: 292px;
 }
-<<<<<<< HEAD
 
 .sort-and-filter_page-22 img {
   height: 100%;
 }
 
-=======
 .sort-and-filter_page-22 img {
   height: 100%;
 }
->>>>>>> 98d503260a992b15a3192c8ecc3cab5b211062fc
 .sort-and-filter_page-23 {
   height: 73vh;
   max-height: 561px;
 }
-<<<<<<< HEAD
 
 .sort-and-filter_page-23 img {
   height: 100%;
 }
 
-=======
 .sort-and-filter_page-23 img {
   height: 100%;
 }
->>>>>>> 98d503260a992b15a3192c8ecc3cab5b211062fc
 .sort-and-filter_page-24 {
   height: 32vh;
   max-height: 246px;
 }
-<<<<<<< HEAD
 
 .sort-and-filter_page-24 img {
   height: 100%;
 }
 
-=======
 .sort-and-filter_page-24 img {
   height: 100%;
 }
->>>>>>> 98d503260a992b15a3192c8ecc3cab5b211062fc
 .sort-and-filter_page-25 {
   height: 43vh;
   max-height: 334px;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> 98d503260a992b15a3192c8ecc3cab5b211062fc
 .sort-and-filter_page-25_span {
   background: #217346;
   padding: 2px 10px;
   color: #F3F3F3;
   font-size: 14px;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> 98d503260a992b15a3192c8ecc3cab5b211062fc
 .sort-and-filter_page-25 img {
   height: 100%;
 }
 
-<<<<<<< HEAD
-=======
 
->>>>>>> 98d503260a992b15a3192c8ecc3cab5b211062fc
 .cs-5-20_3-1 {
   height: 53vh;
   max-height: 414px;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> 98d503260a992b15a3192c8ecc3cab5b211062fc
 .cs-5-20_3-1 img {
   height: 100%;
 }
@@ -39941,35 +39885,21 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 .cs-4-11-div-19-img {
   height: 43.48vh;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> 98d503260a992b15a3192c8ecc3cab5b211062fc
 .cs-4-11-div-20-img {
   height: 54.81vh;
   position: absolute;
   left: 50%;
-<<<<<<< HEAD
-  -webkit-transform: translate(-50%, 0);
-          transform: translate(-50%, 0);
-  bottom: 0;
-}
-
-=======
   transform: translate(-50%, 0);
   bottom: 0;
 }
->>>>>>> 98d503260a992b15a3192c8ecc3cab5b211062fc
 .cs-4-11-div-21-img {
   height: 42.57vh;
   position: absolute;
   right: 0;
   bottom: 0;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> 98d503260a992b15a3192c8ecc3cab5b211062fc
 .cs-4-11-div img {
   height: 100%;
 }
@@ -39979,21 +39909,6 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   background-size: cover;
   background-repeat: no-repeat;
 }
-<<<<<<< HEAD
-
-.background-cs-4-11-22 {
-  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/Sending-email-11/cs-4-11-22-img.svg");
-}
-
-.background-cs-4-11-23 {
-  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/Sending-email-11/cs-4-11-23-img.svg");
-}
-
-.background-cs-4-11-24 {
-  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/Sending-email-11/cs-4-11-24-img.svg");
-}
-
-=======
 .background-cs-4-11-22 {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-4/Sending-email-11/cs-4-11-22-img.svg");
 }
@@ -40003,7 +39918,6 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 .background-cs-4-11-24 {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-4/Sending-email-11/cs-4-11-24-img.svg");
 }
->>>>>>> 98d503260a992b15a3192c8ecc3cab5b211062fc
 .background-cs-4-11-25 {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-4/Sending-email-11/cs-4-11-25-img.svg");
 }
@@ -40012,24 +39926,20 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 55.98vh;
   margin: 5vh auto;
 }
-<<<<<<< HEAD
 
 .cs-4-11-3-img {
   height: 45.70vh;
   margin-top: 5vh;
 }
 
-=======
 .cs-4-11-3-img {
   height: 45.7vh;
   margin-top: 5vh;
 }
->>>>>>> 98d503260a992b15a3192c8ecc3cab5b211062fc
 .cs-4-11-4-img {
   height: 48.17vh;
   margin-top: 14vh;
 }
-<<<<<<< HEAD
 
 .cs-4-11-5-img {
   height: 37.89vh;
@@ -40037,13 +39947,12 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .cs-4-11-6-img {
   height: 58.20vh;
-=======
+}
 .cs-4-11-5-img {
   height: 37.89vh;
 }
 .cs-4-11-6-img {
   height: 58.2vh;
->>>>>>> 98d503260a992b15a3192c8ecc3cab5b211062fc
   margin-top: 15vh;
 }
 
@@ -40053,100 +39962,82 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 41.79vh;
   max-height: 321px;
 }
-<<<<<<< HEAD
 
 .class_5_20-img_8 img {
   height: 100%;
 }
 
-=======
 .class_5_20-img_8 img {
   height: 100%;
 }
->>>>>>> 98d503260a992b15a3192c8ecc3cab5b211062fc
 .class_5_20-img_9 {
   height: 78.25vh;
   max-height: 601px;
 }
-<<<<<<< HEAD
 
 .class_5_20-img_9 img {
   height: 100%;
 }
 
-=======
 .class_5_20-img_9 img {
   height: 100%;
 }
->>>>>>> 98d503260a992b15a3192c8ecc3cab5b211062fc
 .class_5_20-img_excel {
   display: inline;
   vertical-align: middle;
   height: 3.55vh;
   max-height: 27.28px;
 }
-<<<<<<< HEAD
 
 .class_5_20-img_excel img {
   height: 100%;
 }
 
-=======
 .class_5_20-img_excel img {
   height: 100%;
 }
->>>>>>> 98d503260a992b15a3192c8ecc3cab5b211062fc
 .class_5_20-img_data {
   display: inline;
   vertical-align: middle;
   height: 2.76vh;
   max-height: 21.22px;
 }
-<<<<<<< HEAD
 
 .class_5_20-img_data img {
   height: 100%;
 }
 
-=======
 .class_5_20-img_data img {
   height: 100%;
 }
->>>>>>> 98d503260a992b15a3192c8ecc3cab5b211062fc
 .class_5_20-img_sort {
   display: inline;
   vertical-align: middle;
   height: 6.05vh;
   max-height: 46.5px;
 }
-<<<<<<< HEAD
 
 .class_5_20-img_sort img {
   height: 100%;
 }
 
-=======
 .class_5_20-img_sort img {
   height: 100%;
 }
->>>>>>> 98d503260a992b15a3192c8ecc3cab5b211062fc
 .class_5_20-img_home {
   display: inline;
   vertical-align: middle;
   height: 2.93vh;
   max-height: 22.54px;
 }
-<<<<<<< HEAD
 
 .class_5_20-img_home img {
   height: 100%;
 }
 
-=======
 .class_5_20-img_home img {
   height: 100%;
 }
->>>>>>> 98d503260a992b15a3192c8ecc3cab5b211062fc
 .class_5_20-img_10 {
   position: fixed;
   bottom: 0;
@@ -40757,14 +40648,35 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 28vh;
   max-height: 221px;
 }
+
 .electric-device_page-12 img {
   height: 100%;
 }
+
 .electric-device_page-13 {
   height: 25vh;
   max-height: 197px;
 }
+
 .electric-device_page-13 img {
+  height: 100%;
+}
+
+.electric-device_page-14 {
+  height: 52vh;
+  max-height: 396px;
+}
+
+.electric-device_page-14 img {
+  height: 100%;
+}
+
+.electric-device_page-15 {
+  height: 52vh;
+  max-height: 403px;
+}
+
+.electric-device_page-15 img {
   height: 100%;
 }
 
