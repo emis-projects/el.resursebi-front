@@ -919,7 +919,6 @@
   font-style: normal;
   font-display: block;
 }
-
 [class^=icon-], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: "icomoon" !important;
@@ -1033,7 +1032,6 @@
   font-weight: normal;
   font-style: normal;
 }
-
 [class^=arrow-]:before, [class*=" arrow-"]:before {
   font-family: "fontello";
   font-style: normal;
@@ -33051,7 +33049,6 @@ img.mfp-img[alt*=cs-3-6-6-img] {
   right: 21.96vw;
   bottom: 0;
 }
-
 .cs-5-21-div img {
   height: 100%;
 }
@@ -33060,61 +33057,48 @@ img.mfp-img[alt*=cs-3-6-6-img] {
   height: 80.5vh;
   max-height: 619px;
 }
-
 .class_5_21-6-1 img {
   height: 100%;
 }
-
 .class_5_21-8-1 {
   height: 75vh;
   max-height: 579px;
 }
-
 .class_5_21-8-1 img {
   height: 100%;
 }
-
 .class_5_21-13-1 {
   height: 70vh;
   max-height: 542px;
 }
-
 .class_5_21-13-1 img {
   height: 100%;
 }
-
 .class_5_21-13-1 {
   height: 70vh;
   max-height: 542px;
 }
-
 .class_5_21-13-1 img {
   height: 100%;
 }
-
 .class_5_21-14-1 {
   height: 40vh;
   max-height: 309px;
 }
-
 .class_5_21-14-1 img {
   height: 100%;
 }
-
 .class_5_21-15-1 {
   height: 70vh;
   max-height: 544px;
 }
-
 .class_5_21-15-1 img {
   height: 100%;
 }
-
 .class_5_21-18-1 {
   height: 61vh;
   max-height: 471px;
 }
-
 .class_5_21-18-1 img {
   height: 100%;
 }
@@ -33124,11 +33108,9 @@ img.mfp-img[alt*=cs-3-6-6-img] {
   background-size: cover;
   background-repeat: no-repeat;
 }
-
 .background-cs-5-21-20 {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-5/function-in-Exel-21/cs-5-21-20-img.svg");
 }
-
 .background-cs-5-21-21 {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-5/function-in-Exel-21/cs-5-21-21-img.svg");
 }
@@ -33235,12 +33217,10 @@ img.mfp-img[alt*=cs-3-6-6-img] {
 .ui_page-9 img {
   height: 100%;
 }
-
 .ui_page-10 {
   height: 48vh;
   max-height: 370px;
 }
-
 .ui_page-10 img {
   height: 100%;
 }
@@ -33250,7 +33230,6 @@ img.mfp-img[alt*=cs-3-6-6-img] {
   max-height: 492px;
   margin: 5vh auto;
 }
-
 .class_4_1-img_1 img {
   height: 100%;
 }
@@ -33267,7 +33246,6 @@ img.mfp-img[alt*=cs-3-6-6-img] {
   bottom: 0;
   right: 0;
 }
-
 .electric-device_page-11 img {
   height: 100%;
 }
@@ -33275,34 +33253,27 @@ img.mfp-img[alt*=cs-3-6-6-img] {
   height: 28vh;
   max-height: 221px;
 }
-
 .electric-device_page-12 img {
   height: 100%;
 }
-
 .electric-device_page-13 {
   height: 25vh;
   max-height: 197px;
 }
-
 .electric-device_page-13 img {
   height: 100%;
 }
-
 .electric-device_page-14 {
   height: 52vh;
   max-height: 396px;
 }
-
 .electric-device_page-14 img {
   height: 100%;
 }
-
 .electric-device_page-15 {
   height: 52vh;
   max-height: 403px;
 }
-
 .electric-device_page-15 img {
   height: 100%;
 }
