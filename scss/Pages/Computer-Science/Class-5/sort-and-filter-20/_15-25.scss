@@ -1,0 +1,41 @@
+.sort-and-filter {
+  span {
+    max-height: 30px;
+    display: inline-block;
+  }
+
+  &_page-15 {
+    height: 62vh;
+    max-height: 482px;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &_page-16 {
+    height: 57vh;
+    max-height: 443px;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &_page-17 {
+    height: 35vh;
+    max-height: 266px;
+
+    img {
+      height: 100%;
+    }
+  }
+}
