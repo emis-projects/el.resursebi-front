@@ -1,0 +1,49 @@
+.electric-device {
+    &_page-11 {
+        height: 53vh;
+        max-height: 404px;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+
+        img {
+            height: 100%;
+        }
+    }
+
+    &_page-12 {
+        height: 28vh;
+        max-height: 221px;
+
+        img {
+            height: 100%;
+        }
+    }
+
+    &_page-13 {
+        height: 25vh;
+        max-height: 197px;
+
+        img {
+            height: 100%;
+        }
+    }
+
+    &_page-14 {
+        height: 52vh;
+        max-height: 396px;
+
+        img {
+            height: 100%;
+        }
+    }
+
+    &_page-15 {
+        height: 52vh;
+        max-height: 403px;
+
+        img {
+            height: 100%;
+        }
+    }
+}
