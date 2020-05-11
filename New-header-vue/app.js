@@ -1044,8 +1044,8 @@ let title = {
         },
         {
             id: 11,
-            name: 'სათაური',
-            link: '#'
+            name: 'ელექტრონული ფოსტის გადაგზავნა, მიღება',
+            link: 'Computer-Science/Class-4/Sending-email-11/1.html'
         },
         {
             id: 12,
