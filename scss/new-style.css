@@ -32565,11 +32565,31 @@ img.mfp-img[alt*=cs-3-6-6-img] {
 .sending-email_page-16 img {
   height: 100%;
 }
+
 .sending-email_page-18 {
   height: 60vh;
   max-height: 460px;
 }
+
 .sending-email_page-18 img {
+  height: 100%;
+}
+
+.sort-and-filter span {
+  max-height: 30px;
+  display: inline-block;
+}
+
+.sort-and-filter_page-15 {
+  height: 62vh;
+  max-height: 482px;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.sort-and-filter_page-15 img {
   height: 100%;
 }
 
