@@ -1,4 +1,5 @@
-<html data-botid="" lang="ka">
+<!DOCTYPE html>
+<html data-botid="2288" lang="ka">
 
 <head>
     <meta charset="UTF-8"/>
@@ -11,6 +12,7 @@
     <link href="../../../scss/libraries/bootstrap.min.css" rel="stylesheet">
     <link href="../../../New-header-vue/animate.min.css" rel="stylesheet">
     <link href="../../../scss/new-style.css" rel="stylesheet"/>
+<link href="../../../scss/components_style.css" rel="stylesheet"/>
     <title>ელექტრონული საგანმანათლებლო რესურსი</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
@@ -31,59 +33,72 @@
 <div class="container">
     <section class="container position-absolute" id="app">
         <header>
-            <app-menu :info="info" :is-active="isActive" :toggle="toggle"
-                      v-logo="'../../../'"></app-menu>
+            <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../../'"></app-menu>
         </header>
 
-        <app-section :is-active="isActive" :is-info="isInfo" v-image="'../../../'">
+        <app-section :is-active="isActive" v-image="'../../../'">
             <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger"
                      v-on:link-tab="link = $event">
 
             </app-bar>
-            <component :active-class="activeClass" :images="images" :is="currentTabComponent"
-                       :is-active="isActive"
-                       :is-info="isInfo" :path="path" :tab-class="currentTabComponent"
-                       :trigger="trigger">
+            <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive"
+                       :is-info="isInfo" :path="path" :tab-class="currentTabComponent" :trigger="trigger">
             </component>
 
         </app-section>
     </section>
     <section id="mainPage">
-        <div class="row ui_page-6">
+        <div class="row mt-8vh">
             <div class="col-10 m-auto">
-                <div class="newDesign_subject_question_item">
+                <div class="newDesign_subject_question_item ">
                     <img alt="img" class="newDesign_subject_question_item-img"
                          src="../../../img/icons/newDesign_btn-yellow.svg">
-                    <p class="newDesign_subject_question_item-title">გაიხსენე, რა გამოსახულებებს ხედავ პირველად
-                        კომპიუტერის ჩართვისას სამუშაო დაფაზე (Desktop).. დაფიქრდი რატომ?</p>
+                    <p class="newDesign_subject_question_item-title">
+                        გაიხსენე, ცხოვრებაში რომელი მექანიზმები „გვესაუბრებიან“ გრაფიკული ინტერფეისის <br> დახმარებით.
+                    </p>
+                </div>
+                <div class="newDesign_subject_question_item ">
+                    <img alt="img" class="newDesign_subject_question_item-img"
+                         src="../../../img/icons/newDesign_btn-yellow.svg">
+                    <p class="newDesign_subject_question_item-title">
+                        გაიხსენე შენი საყვარელი თამაშები ან სასწავლო პროგრამები.
+                    </p>
                 </div>
                 <div class="newDesign_subject_question_item">
                     <img alt="img" class="newDesign_subject_question_item-img"
                          src="../../../img/icons/newDesign_btn-yellow.svg">
-                    <p class="newDesign_subject_question_item-title">შენ ხომ არ დაამტებდი ბრძანების მისაცემ აიქონებს
-                        სამუშაო დაფას (Desktop)?</p>
+                    <p class="newDesign_subject_question_item-title">
+                        როგორი არის მათი გრაფიკული ინტერფეისი?
+                    </p>
                 </div>
                 <div class="newDesign_subject_question_item">
                     <img alt="img" class="newDesign_subject_question_item-img"
                          src="../../../img/icons/newDesign_btn-yellow.svg">
-                    <p class="newDesign_subject_question_item-title">რატომ დაუმატებდი ამ აიქონებს?</p>
+                    <p class="newDesign_subject_question_item-title">
+                        მოიფიქრე საინტერესო საქმიანობები, რომლებისთვისაც შეიძლება მექანიზმების შექმნა.
+                    </p>
+                </div>
+                <div class="newDesign_subject_question_item mt-4vh">
+                    <p class="newDesign_subject_question_item-title">
+                        <a href="https://www.youtube.com/watch?v=hKo-ZaApFqo" class="a-blue" target="_blank">
+                            https://www.youtube.com/watch?v=hKo-ZaApFqo
+                        </a>
+                    </p>
                 </div>
             </div>
-            <div class="col-10 m-auto">
-                <div class="ui_page-7 d-flex justify-content-end">
-                    <img alt="ui" src="../../../img/gakvetilebi/Computer-Science/Class-4/UI-5/cs-4-5-7.png">
-                </div>
+            <div class="col-9 ml-8vh class_4_5-img_5 d-flex justify-content-end">
+                <img src="../../../img/gakvetilebi/Computer-Science/Class-4/UI-5/C-4-5-5.svg" alt="image">
             </div>
         </div>
 
+        <!-- ეს არის svg თეგირომელიც ქმნის მარცხენა ვერტიკალურ "ნავ რუკას" -->
         <div class="left_components_paging-cont" id="leftNav">
             <left-nav-item></left-nav-item>
         </div>
 
         <div class="our__pagination flex">
             <a class="pagination__prev__btn" href="#">
-                <img alt="" src="../../../img/icons/chevron-left-icon.svg"
-                     style="transform: rotate(180deg)">
+                <img alt="" src="../../../img/icons/chevron-left-icon.svg" style="transform: rotate(180deg)">
             </a>
 
             <div class="flex align-items-center" id="pagination"></div>
