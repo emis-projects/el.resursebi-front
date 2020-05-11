@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56.067" height="18.293" viewBox="0 0 56.067 18.293">
+    <defs>
+        <style>.a{fill:#e1e1e1;}.b{fill:#0078d7;}.c{font-size:12px;font-family:MyriadPro-Regular, Myriad Pro;}</style>
+    </defs>
+    <g transform="translate(-145.782 -314.95)">
+        <g transform="translate(146.378 315.548)">
+            <rect class="a" width="54.874" height="16.875"/>
+        </g>
+        <g transform="translate(145.782 314.95)">
+            <path class="b" d="M201.849,333.242H145.782V314.95h56.067Zm-54.874-1.193h53.681V316.143H146.974Z"
+                  transform="translate(-145.782 -314.95)"/>
+        </g>
+        <text class="c" transform="translate(165.782 328.673)">
+            <tspan x="0" y="0">OK</tspan>
+        </text>
+    </g>
+</svg>
