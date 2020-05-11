@@ -39793,17 +39793,6 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
-<<<<<<< HEAD
-.cs-5-20_3-1 {
-  height: 53vh;
-  max-height: 414px;
-}
-
-.cs-5-20_3-1 img {
-  height: 100%;
-}
-
-=======
 .cs-5-20-1-img {
   height: 59.11vh;
   margin: 3vh auto 5vh;
@@ -40002,7 +39991,6 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-5/function-in-Exel-21/cs-5-21-23-img.svg");
 }
 
->>>>>>> 4d93a76d65aebd24542bdb702999abb7f1de6b0c
 body {
   color: #262626;
   font-size: 14px;
