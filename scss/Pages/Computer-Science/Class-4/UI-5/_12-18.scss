@@ -45,9 +45,12 @@
   height:12.8vh;
   width:12.8vh;
   background-color:#947DCE;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   img {
-    width: 100%;
+    height: 60% !important;
   }
 }
 
@@ -59,9 +62,6 @@
 .cs-4-5-div-12-game-purple-div{
 
   margin-right:5.98vw; 
-  img{
-    height:4.39vh;
-  }
 }
 
 .cs-4-5-div-13-game-purple-div{

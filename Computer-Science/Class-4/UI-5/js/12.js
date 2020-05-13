@@ -6,7 +6,7 @@ function game(){
     // variables
     let dragElement1 = document.querySelectorAll('.DragGame—childs1');
     let dragElement2 = $('.DragGame—childs2');
-    let resetElParent = document.querySelectorAll('.ui_page-8_img')
+    let resetel = document.querySelectorAll('.cs-4-5-div-12-game-icons-div')
     let resetBtn = document.getElementById('resetBtn');
     let completedGame = document.getElementById('completedGame');
 
@@ -32,7 +32,6 @@ function game(){
     for(var i = 0; i < dragElement1.length; i++ ){
         dragElement1MyArray.push(dragElement1[i])
     }
-
 
 
 
@@ -65,7 +64,9 @@ function game(){
     
 
     this.dragDrop = e => {
-        e.target.parentElement.parentElement.appendChild(document.querySelector('.draggedElement'));
+        if(e.target.classList.contains('DragGame—childs1')){
+            e.target.appendChild(document.querySelector('.draggedElement'));
+        }
     }
 
     
@@ -76,7 +77,7 @@ function game(){
         let el = dragElement2MyArray.every(this.checkEveryElement)
 
 		if(el == true){
-            location.href = "game-success-8.html" 
+            location.href = "game-success-12.html" 
 
         } else {
             this.errorPage()
@@ -86,19 +87,19 @@ function game(){
 
     this.errorPage = () => {
         dragElement1MyArray.forEach(w => {
-            if(w.querySelector('.DragGame—childs2')){
-                if(w.getAttribute('data-index') !== w.querySelector('.DragGame—childs2').getAttribute('data-index')){
-                    w.querySelector('.sign-description-btn').classList.add('error')
-                    w.querySelector('.sign-description-btn').classList.remove('success')
+            if(w.firstElementChild){
+                if(w.getAttribute('data-index') !== w.firstElementChild.getAttribute('data-index')){
+                    w.classList.add('error')
+                    w.classList.remove('success')
                     
-                } else if(w.getAttribute('data-index') == w.querySelector('.DragGame—childs2').getAttribute('data-index')) {
-                    w.querySelector('.sign-description-btn').classList.remove('error')
-                    w.querySelector('.sign-description-btn').classList.add('success')
+                } else if(w.getAttribute('data-index') == w.firstElementChild.getAttribute('data-index')) {
+                    w.classList.remove('error')
+                    w.classList.add('success')
                     
                 }
             } else {
-                w.querySelector('.sign-description-btn').classList.add('error')
-                w.querySelector('.sign-description-btn').classList.remove('success')
+                w.classList.add('error')
+                w.classList.remove('success')
             }
         })
     }
@@ -112,20 +113,17 @@ function game(){
 
 
     this.resetGame = () => {
+        this.error = true;
+        this.incriment = 0;
 
-        let el1 = $('.ui_page-8_img-1-child');
-        let el2 = $('.ui_page-8_img-2-child');
-        let el3 = $('.ui_page-8_img-3-child');
+        dragElement2MyArray.forEach(w => {
+            $('.cs-4-5-div-12-game-icons-div').append(w)
+        })
 
 
-        $('.ui_page-8_img-1').append(el1)
-        $('.ui_page-8_img-2').append(el2)
-        $('.ui_page-8_img-3').append(el3)
-
-      
-
-        $('.sign-description-btn').removeClass('error');
-        $('.sign-description-btn').removeClass('success');
+        $(dragElement1).removeClass('error');
+        $(dragElement1).removeClass('success');
+        completedGame.removeAttribute('disabled')
     }
 
     resetBtn.addEventListener('click', this.resetGame);
