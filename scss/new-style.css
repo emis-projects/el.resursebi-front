@@ -40221,10 +40221,14 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 .ui_page-8_btns .drag__area img {
-  width: 5vw;
+  width: 3vw;
+  margin-left: 1vw;
 }
 
 .ui_page-8_img {
@@ -40302,6 +40306,10 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 12.8vh;
   width: 12.8vh;
   background-color: #947DCE;
+}
+
+.cs-4-5-div-12-game-purple-container img {
+  width: 100%;
 }
 
 .cs-4-5-div-12-game-purple-container {

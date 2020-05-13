@@ -66,11 +66,15 @@ function game(){
         e.target.parentElement.parentElement.appendChild(document.querySelector('.draggedElement'));
     }
 
+    
+    this.checkEveryElement = (element) => element.getAttribute('data-index') == element.parentElement.getAttribute('data-index');
 
 
     this.successPage  = () => {
-		if(this.incriment === 16 && this.error === false){
-            location.href = "game-success-6.html" 
+        let el = dragElement2MyArray.every(this.checkEveryElement)
+
+		if(el == true){
+            location.href = "game-success-8.html" 
 
         } else {
             this.errorPage()
@@ -79,15 +83,14 @@ function game(){
 
 
     this.errorPage = () => {
-        jQuery.each( $('.DragGame—childs1 .DragGame—childs2'), function( i, w ) {
+        document.querySelectorAll('.drag__area .DragGame—childs2').forEach(w => {
             if(w.getAttribute('data-index') !== w.parentElement.getAttribute('data-index')){
-                w.querySelector('p').setAttribute('style', 'color: #dc6c85')
+                w.previousElementSibling.classList.add('error')
 
             } else if(w.getAttribute('data-index') == w.parentElement.getAttribute('data-index')) {
-                w.querySelector('p').setAttribute('style', 'color: #a1dd6f')
+                w.previousElementSibling.classList.add('success')
             }
-          });
-
+        })
     }
     
  
