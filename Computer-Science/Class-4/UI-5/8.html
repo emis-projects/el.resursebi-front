@@ -48,7 +48,7 @@
 
         </app-section>
     </section>
-    <section id="mainPage">
+    <section id="mainPage" class="DragGame--Parent">
         <div class="row ui_page-6">
             <div class="col-10 m-auto">
                 <div class="newDesign_subject_question_item">
@@ -60,25 +60,55 @@
             </div>
             <div class="col-10 m-auto">
                 <div class="row mt-4vh">
-                    <div class="col-6 d-flex justify-content-between">
-                        <div class="ui_page-8_btns">
-                            <button>ხატვა</button>
-                            <button>მართვა</button>
-                            <button>დაცვა</button>
-                            <button>მუსიკა</button>
-                            <button>წაშლილი ფაილები</button>
-                            <button>კომპიუტერის სისტემა</button>
+                    <div class="col-2 d-flex justify-content-between" style="margin-right: 7vw;">
+                        <div class="ui_page-8_btns w-100">
+                            <div class="drag__area">
+                                <div class="sign-description-btn DragGame—childs1 w-100" style="margin-bottom: 3vh; min-width: 9vw;">
+                                    <p class="sign-description-btn-title" data-index="0" draggable="true">ხატვა</p>
+                                </div>
+                                <img class="DragGame—childs2" data-index="0" alt="ui" src="../../../img/gakvetilebi/Computer-Science/Class-4/UI-5/PC.png">
+                            </div>
+
+                            <div class="sign-description-btn DragGame—childs1 w-100" style="margin-bottom: 3vh; min-width: 9vw;">
+                                <p class="sign-description-btn-title" data-index="0" draggable="true">მართვა</p>
+                            </div>
+
+                            <div class="sign-description-btn DragGame—childs1 w-100" style="margin-bottom: 3vh; min-width: 9vw;">
+                                <p class="sign-description-btn-title" data-index="0" draggable="true">დაცვა</p>
+                            </div>
+
+                            <div class="sign-description-btn DragGame—childs1 w-100" style="margin-bottom: 3vh; min-width: 9vw;">
+                                <p class="sign-description-btn-title" data-index="0" draggable="true">მუსიკა</p>
+                            </div>
+
+                            <div class="sign-description-btn DragGame—childs1 w-100" style="margin-bottom: 3vh; min-width: 9vw;">
+                                <p class="sign-description-btn-title" data-index="0" draggable="true">წაშლილი ფაილები</p>
+                            </div>
+
+                            <div class="sign-description-btn DragGame—childs1 w-100" style="margin-bottom: 3vh; min-width: 9vw;">
+                                <p class="sign-description-btn-title" data-index="0" draggable="true">კომპიუტერის სისტემა</p>
+                            </div>
                         </div>
+                    </div>
+                    <div class="col-2 d-flex justify-content-between">
                         <div class="ui_page-8_btns">
-                            <button>დოკუმენტები</button>
-                            <button>გამოთვლა</button>
-                            <button>ინტერნეტი</button>
+                            <div class="ui_page-8_btns w-100">
+                                <div class="sign-description-btn DragGame—childs1 w-100" style="margin-bottom: 3vh; min-width: 9vw;">
+                                    <p class="sign-description-btn-title" data-index="0" draggable="true">დოკუმენტები</p>
+                                </div>
+                                <div class="sign-description-btn DragGame—childs1 w-100" style="margin-bottom: 3vh; min-width: 9vw;">
+                                    <p class="sign-description-btn-title" data-index="0" draggable="true">გამოთვლა</p>
+                                </div>
+                                <div class="sign-description-btn DragGame—childs1 w-100" style="margin-bottom: 3vh; min-width: 9vw;">
+                                    <p class="sign-description-btn-title" data-index="0" draggable="true">ინტერნეტი</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="col-5 offset-1">
                         <div class="d-flex justify-content-around ui_page-8_img">
-                            <img alt="ui" src="../../../img/gakvetilebi/Computer-Science/Class-4/UI-5/PC.png">
-                            <img alt="ui" src="../../../img/gakvetilebi/Computer-Science/Class-4/UI-5/RC.png">
+                            <img class="DragGame—childs2" data-index="0" alt="ui" src="../../../img/gakvetilebi/Computer-Science/Class-4/UI-5/PC.png">
+                            <img class="DragGame—childs2" data-index="0" alt="ui" src="../../../img/gakvetilebi/Computer-Science/Class-4/UI-5/RC.png">
                             <img alt="ui" src="../../../img/gakvetilebi/Computer-Science/Class-4/UI-5/panel.png">
                         </div>
                         <div class="d-flex justify-content-around ui_page-8_img mt-4vh">
@@ -130,6 +160,8 @@
 <script src="../../../js/libraries/jquery.magnific-popup.min.js"></script>
 <script src="../../../js/Pagination.js"></script>
 
+
+<script src="./js/8.js"></script>
 
 <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
 <script src="../../../New-header-vue/app.js"></script>

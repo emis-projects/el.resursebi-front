@@ -40055,6 +40055,7 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .class_5_21-6-1 img {
   height: 100%;
+  margin-top: -10vh;
 }
 
 .class_5_21-8-1 {
@@ -40064,15 +40065,7 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .class_5_21-8-1 img {
   height: 100%;
-}
-
-.class_5_21-13-1 {
-  height: 70vh;
-  max-height: 542px;
-}
-
-.class_5_21-13-1 img {
-  height: 100%;
+  margin-top: -5vh;
 }
 
 .class_5_21-13-1 {
@@ -40100,6 +40093,7 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .class_5_21-15-1 img {
   height: 100%;
+  margin-top: -2vh;
 }
 
 .class_5_21-18-1 {
@@ -40223,25 +40217,14 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
           flex-direction: column;
 }
 
-.ui_page-8_btns button {
-  background: transparent;
-  -webkit-box-shadow: 2px 2px 8px #947DCE66;
-          box-shadow: 2px 2px 8px #947DCE66;
-  border-radius: 25px;
-  width: 12vw;
-  max-width: 156px;
-  min-width: 130px;
+.ui_page-8_btns .drag__area {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 10px 15px;
-  margin-bottom: 2vh;
+}
+
+.ui_page-8_btns .drag__area img {
+  width: 5vw;
 }
 
 .ui_page-8_img {
@@ -40360,6 +40343,24 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 .cs-4-5-div-13-game-icons-div img {
   height: 4.68vh;
   margin-right: 1.75vw;
+}
+
+.class_4_5-3-1 {
+  height: 58vh;
+  max-height: 447px;
+}
+
+.class_4_5-3-1 img {
+  height: 100%;
+}
+
+.class_4_5-10-1 {
+  height: 43.35vh;
+  max-height: 332.95px;
+}
+
+.class_4_5-10-1 img {
+  height: 100%;
 }
 
 .background-cs-4-5 {
@@ -40487,21 +40488,6 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   background-repeat: no-repeat;
 }
 
-.background-cs-4-5-20 {
-  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/UI-5/cs-4-5-20.png");
-}
-
-.background-cs-4-5-21 {
-  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/UI-5/cs-4-5-21.png");
-}
-
-.background-cs-4-5-22 {
-  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/UI-5/cs-4-5-22.png");
-}
-
-.background-cs-4-5-23 {
-  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/UI-5/cs-4-5-23.svg");
-}
 .background-cs-4-1-17 {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-4/Maintain-electronic-device-1/cs-4-1-17.svg");
 }
@@ -42483,4 +42469,3 @@ body {
     font-size: 14px;
   }
 }
-/*# sourceMappingURL=new-style.css.map */
