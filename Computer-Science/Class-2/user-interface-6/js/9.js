@@ -21,7 +21,9 @@ function computerGames(){
         checkmark.forEach(element => {
             if(element.classList.contains('selectedPurple')){
                 if(element.classList.contains('correct')){
-                    element.style = "background: #a1dd6f";
+                    $(element).removeClass( "selectedPurple")
+                    element.classList.add('success');
+                    // element.style = "background: #a1dd6f";
                     count++;
                 }
             }
@@ -48,8 +50,9 @@ function computerGames(){
     this.init = (e) =>{
         checkmark.forEach(element => {
             $(element).removeClass( "error")
+            $(element).removeClass( "success")
             $(element).removeClass( "selectedPurple")
-            element.style = '';
+            // element.style = '';
         });
         completedBtn.removeAttribute('disabled');
     }
