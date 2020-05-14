@@ -105,7 +105,7 @@ function game(){
     
  
     this.completedGame = () => {
-        // completedGame.setAttribute('disabled', 'true')
+        completedGame.setAttribute('disabled', 'true')
         this.successPage()
     }
     
@@ -126,6 +126,7 @@ function game(){
 
         $('.sign-description-btn').removeClass('error');
         $('.sign-description-btn').removeClass('success');
+        completedGame.removeAttribute('disabled')
     }
 
     resetBtn.addEventListener('click', this.resetGame);

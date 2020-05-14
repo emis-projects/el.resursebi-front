@@ -77,7 +77,7 @@ function game(){
         let el = dragElement2MyArray.every(this.checkEveryElement)
 
 		if(el == true){
-            location.href = "game-success-12.html" 
+            location.href = "game-success-13.html" 
 
         } else {
             this.errorPage()
@@ -87,12 +87,12 @@ function game(){
 
     this.errorPage = () => {
         dragElement1MyArray.forEach(w => {
-            if(w.firstElementChild){
-                if(w.getAttribute('data-index') !== w.firstElementChild.getAttribute('data-index')){
+            if(w.querySelector('.DragGame—childs2')){
+                if(w.getAttribute('data-index') !== w.querySelector('.DragGame—childs2').getAttribute('data-index')){
                     w.classList.add('error')
                     w.classList.remove('success')
                     
-                } else if(w.getAttribute('data-index') == w.firstElementChild.getAttribute('data-index')) {
+                } else if(w.getAttribute('data-index') == w.querySelector('.DragGame—childs2').getAttribute('data-index')) {
                     w.classList.remove('error')
                     w.classList.add('success')
                     
@@ -116,9 +116,14 @@ function game(){
         this.error = true;
         this.incriment = 0;
 
-        dragElement2MyArray.forEach(w => {
-            $('.cs-4-5-div-12-game-icons-div').append(w)
-        })
+        let el1 = $('.cs-4-5-div-13-game-icons-div-1--child');
+        let el2 = $('.cs-4-5-div-13-game-icons-div-2--child');
+        let el3 = $('.cs-4-5-div-13-game-icons-div-3--child');
+
+
+        $('.cs-4-5-div-13-game-icons-div-1').append(el1)
+        $('.cs-4-5-div-13-game-icons-div-2').append(el2)
+        $('.cs-4-5-div-13-game-icons-div-3').append(el3)
 
 
         $(dragElement1).removeClass('error');
