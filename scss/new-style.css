@@ -33545,6 +33545,104 @@ img.mfp-img[alt*=cs-3-6-6-img] {
   height: 100%;
 }
 
+.class_6_18-img_7 {
+  height: 36vh;
+  max-height: 276.6px;
+}
+
+.class_6_18-img_8 {
+  position: fixed;
+  bottom: 0;
+  height: 54.8vh;
+  max-height: 421px;
+}
+
+.class_6_18-img_9 {
+  height: 56vh;
+  max-height: 431.8px;
+}
+
+.class_6_18-img_10 {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  height: 65.6vh;
+  max-height: 504px;
+}
+
+.class_6_18-img_11 {
+  position: fixed;
+  bottom: 0;
+  height: 58.59vh;
+  max-height: 450px;
+}
+
+.class_6_18-img_12 {
+  height: 30.7vh;
+  max-height: 235.9px;
+}
+
+.class_6_18-img_12 img {
+  height: 100%;
+}
+
+.cs-6-18-22-img {
+  height: 48.3vh;
+  margin-top: 2vh;
+}
+
+.background-cs-6-18 {
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-6-18-23 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Multimedia-online-platforms-18/cs-6-18-23.svg");
+}
+
+.background-cs-6-18-24 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Multimedia-online-platforms-18/cs-6-18-24.svg");
+}
+
+.background-cs-6-18-25 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Multimedia-online-platforms-18/cs-6-18-25.svg");
+}
+
+.background-cs-6-18-26 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Multimedia-online-platforms-18/cs-6-18-26.svg");
+}
+
+.class_6_6-img_1 {
+  height: 61.8vh;
+  max-height: 474.8px;
+  margin: 2vh auto;
+}
+
+.class_6_6-img_1 img {
+  height: 100%;
+}
+
+.class_6_6-img_3 {
+  height: 50.35vh;
+  max-height: 386.7px;
+}
+
+.class_6_6-img_4 {
+  height: 39.97vh;
+  max-height: 307px;
+}
+
+.class_6_6-img_5 {
+  height: 67vh;
+  max-height: 516px;
+}
+
+.class_6_6-img_6 {
+  height: 55vh;
+  max-height: 425px;
+}
+
 .arithmetic_page-13 {
   height: 56vh;
   max-height: 416px;
@@ -33554,6 +33652,185 @@ img.mfp-img[alt*=cs-3-6-6-img] {
 }
 
 .arithmetic_page-13 img {
+  height: 100%;
+}
+
+.arithmetic_page-14 {
+  max-height: 288px;
+  height: 38vh;
+}
+
+.arithmetic_page-14 img {
+  height: 100%;
+}
+
+.arithmetic_page-17 {
+  max-height: 377px;
+  height: 48vh;
+}
+
+.arithmetic_page-17 img {
+  height: 100%;
+}
+
+.using-variables_page-13 {
+  height: 54vh;
+  max-height: 418px;
+  position: fixed;
+  right: 10%;
+  bottom: 0;
+}
+
+.using-variables_page-13 img {
+  height: 100%;
+}
+
+.using-variables_page-14 {
+  height: 42vh;
+  max-height: 312px;
+}
+
+.using-variables_page-14 img {
+  height: 100%;
+}
+
+.using-variables_page-15 {
+  height: 29vh;
+  max-height: 230px;
+}
+
+.using-variables_page-15 img {
+  height: 100%;
+}
+
+.using-variables_page-16 {
+  height: 47vh;
+  max-height: 361px;
+}
+
+.using-variables_page-16 img {
+  height: 100%;
+}
+
+.using-variables_page-17 {
+  height: 54vh;
+  max-height: 413px;
+  position: fixed;
+  bottom: 0;
+  right: 15%;
+}
+
+.using-variables_page-17 img {
+  height: 100%;
+}
+
+.using-variables_page-18 {
+  height: 40vh;
+  max-height: 307px;
+}
+
+.using-variables_page-18 img {
+  height: 100%;
+}
+
+.background-cs-6-8 {
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-6-8-19 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Using-variables-8/cs-6-8-19.svg");
+}
+
+.background-cs-6-8-20 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Using-variables-8/cs-6-8-20.png");
+}
+
+.background-cs-6-8-21 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Using-variables-8/cs-6-8-21.png");
+}
+
+.background-cs-6-8-22 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Using-variables-8/cs-6-8-22.svg");
+}
+
+.list_page-3 {
+  height: 60vh;
+  max-height: 462px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.list_page-3 img {
+  height: 100%;
+}
+
+.list_page-4 {
+  height: 53vh;
+  max-height: 407px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.list_page-4 img {
+  height: 100%;
+}
+
+.list_page-5 {
+  height: 51vh;
+  max-height: 393px;
+}
+
+.list_page-5 img {
+  height: 100%;
+}
+
+.list_page-6 {
+  height: 54vh;
+  max-height: 416px;
+}
+
+.list_page-6 img {
+  height: 100%;
+}
+
+.cloud_page-3 {
+  height: 46vh;
+  max-height: 357px;
+}
+
+.cloud_page-3 img {
+  height: 100%;
+}
+
+.cloud_page-4 {
+  height: 40vh;
+  max-height: 313px;
+}
+
+.cloud_page-4 img {
+  height: 100%;
+}
+
+.cloud_page-5 {
+  height: 61vh;
+  max-height: 464px;
+}
+
+.cloud_page-5 img {
+  height: 100%;
+}
+
+.cloud_page-6 {
+  height: 61vh;
+  max-height: 464px;
+}
+
+.cloud_page-6 img {
   height: 100%;
 }
 
