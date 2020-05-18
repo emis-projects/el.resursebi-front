@@ -1263,8 +1263,8 @@ let title = {
         },
         {
             id: 18,
-            name: 'სათაური',
-            link: '#'
+            name: 'მულტიმედია ფაილების შესაქმნელი ონლაინ პლატფორმები\n',
+            link: 'Computer-Science/Class-6/Multimedia-online-platforms-18/1.html'
         },
         {
             id: 19,

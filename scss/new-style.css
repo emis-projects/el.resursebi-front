@@ -919,7 +919,6 @@
   font-style: normal;
   font-display: block;
 }
-
 [class^=icon-], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: "icomoon" !important;
@@ -1033,7 +1032,6 @@
   font-weight: normal;
   font-style: normal;
 }
-
 [class^=arrow-]:before, [class*=" arrow-"]:before {
   font-family: "fontello";
   font-style: normal;
@@ -33497,6 +33495,7 @@ img.mfp-img[alt*=cs-3-6-6-img] {
 .cs-4-1-game-div-container-img-6 {
   height: 10.67vh;
 }
+
 .cs-4-1-game-div-container img {
   margin-bottom: 3.9vh;
 }
@@ -33505,6 +33504,52 @@ img.mfp-img[alt*=cs-3-6-6-img] {
   position: absolute;
   bottom: 29.68vh;
   right: 12.59vw;
+}
+
+.multimedia_page-3 {
+  height: 61vh;
+  max-height: 470px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+
+.multimedia_page-3 img {
+  height: 100%;
+}
+
+.multimedia_page-4 {
+  max-height: 356px;
+  height: 47vh;
+}
+
+.multimedia_page-4 img {
+  height: 100%;
+}
+
+.multimedia_page-5 {
+  max-height: 389px;
+  height: 50vh;
+  position: fixed;
+  bottom: 0;
+  left: 20%;
+}
+
+.multimedia_page-5 img {
+  height: 100%;
+}
+
+.multimedia_page-6 {
+  max-height: 389px;
+  height: 50vh;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.multimedia_page-6 img {
+  height: 100%;
 }
 
 body {
