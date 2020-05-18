@@ -1019,8 +1019,8 @@ let title = {
         },
         {
             id: 6,
-            name: 'სათაური',
-            link: '#'
+            name: 'ღრუბლოვანი სერვისების სათანადოდ გამოყენება',
+            link: 'Computer-Science/Class-4/Cloud-services-6/1..html'
         },
         {
             id: 7,
@@ -1170,7 +1170,7 @@ let title = {
             link: '#'
         },
         {
-            id: 24,
+            id: 24, Title
             name: 'საკუთარი მონაცემების დაცვა',
             link: 'Computer-Science/Class-5/Protect-your-data-24/1.html'
         }
@@ -1203,8 +1203,8 @@ let title = {
         },
         {
             id: 6,
-            name: 'სათაური',
-            link: '#'
+            name: 'არითმეტიკული ოპერატორები',
+            link: 'Computer-Science/Class-6/Arithmetic-operators-6/13.html'
         },
         {
             id: 7,
@@ -1213,13 +1213,13 @@ let title = {
         },
         {
             id: 8,
-            name: 'სათაური',
-            link: '#'
+            name: 'ცვლადების გამოყენება ',
+            link: 'Computer-Science/Class-6/Using-variables-8/1.html'
         },
         {
             id: 9,
-            name: 'სათაური',
-            link: '#'
+            name: 'სია',
+            link: 'Computer-Science/Class-6/List-9/1.html'
         },
         {
             id: 10,
