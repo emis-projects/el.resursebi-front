@@ -4,6 +4,7 @@ var msgInput = $("#chatSend");
 let getTag = document.getElementById("chat_fullscreen");
 let botImgs = document.querySelectorAll('.logo_box');
 let botImg = null;
+var userId = getCookie("user_Id");
 
 
 // check if value is ""
@@ -28,6 +29,74 @@ botImgsArray.filter(w => {
         w.classList.add('logo_box_active')
     }
 })
+
+
+
+
+// ეს კოდი ქუქიში წერს user_Id -ს მომხმარებელი როგორცკი შემოდის საიტზე ქუქიში იწერება მომხმარებლის IP და აიპზე მიწერილი რენდომი
+// როცა მომხმარებელი ლოგინდება ქუქის ვასუფთავებ და ქუქიში იწერება მომხმარებლის ID
+// ეს ყველაფერი მაქვს ცალკე ფაილში და ისე მაქვს ლეიაუთში შეტანილი მნიშვნელობა არ არვს ეს კოდი სად იქნება მთავარია სანამ ვებჩატში შევა მანამ იყოს ჩაწერილი
+//ბ
+$(document).ready(function () {
+
+    var LogInUserId = $('#LogInUserId').val(); // ეს იჭერს იუზერ აიდს
+
+    //თუ ცარიელია ვწერ იპის და რენდომს
+    if (LogInUserId == "") {
+
+        var cookieValue = getCookie("user_Id");
+
+        function getIPFunction() {
+            // თუ ქუქი ცარიელია
+            if (cookieValue == "") {
+
+                //რენდომი
+                var rendomnamber = Math.floor(Math.random() * 10000 + 1);
+                // მომხმარებლის Ip
+                $.getJSON("http://jsonip.com/?callback=?", function (data) {
+                    userId = data.ip + rendomnamber;
+                    document.cookie = "user_Id=" + userId; //წერს ქუქიაში
+                });
+            }
+
+        }
+        getIPFunction();
+
+    }
+    // ვებჩატი სადაც იუზერი არ არის დალოგინებული იმ ვიუში ლეიაუთი არ ჩანს ამიტო ვერ დაინახავს იმ თეგს საიდანაც აიდს ვიღებ
+    // სწორედ ამიტომ ვამჯობინე ამ კოდის ცალკე ფაილში გატანა რადგან შემდეგ შემომეტანა ChatBot კონტროლერის Chat მეთოდის ვიუში
+    else if (LogInUserId === undefined) {
+
+        var cookie = getCookie("user_Id");
+
+        function getIPFunction() {
+            // თუ ქუქი ცარიელია
+            if (cookie == "") {
+
+                //რენდომი
+                var rend = Math.floor(Math.random() * 10000 + 1);
+                // მომხმარებლის Ip
+                $.getJSON("http://jsonip.com/?callback=?", function (d) {
+                    userId = d.ip + rend;
+                    document.cookie = "user_Id=" + userId; //წერს ქუქიაში
+                });
+            }
+
+        }
+        getIPFunction();
+    } else {
+
+        var cookie = getCookie("user_Id");
+
+        // აქ ვამოწმებ თუ ქუქიაში მნიშვნელბის რაოდენობა მეტი იქნება 10-ზე ანუ არ არის ID თუ უკვე აიდი წერია თავიდან აღარ მიანიჭებს
+        if (cookie.length > 10) {
+            console.log(cookie.length);
+            document.cookie = "user_Id=" + LogInUserId;
+        }
+
+    }
+});
+
 
 
 
@@ -221,6 +290,7 @@ $(document).on("click", ".chat_msg_item-buttons button", function (e) {
         url: 'https://animabot.ngrok.io/WCAPI',
         data: JSON.stringify({
             "message": btnText,
+            "userId": userId,
             "botid": $('html').attr('data-botid')
         }),
         success: function (result) {
@@ -272,6 +342,7 @@ function sendMessage(e) {
         type: "POST",
         url: 'https://animabot.ngrok.io/WCAPI',
         data: JSON.stringify({
+            "userId": userId,
             "message": msgText,
             "botid": $('html').attr('data-botid')
         }),
@@ -409,4 +480,32 @@ $('.logo_box').click(function(e){
     $('#chat_fullscreen').children('.chat_msg_item').remove()
 })
 
+
+
+//ეს აბრუნებს ცუქიაში მნიშვნელობას
+function getCookie(cname) {
+    var name = cname + "=";
+    var decodedCookie = decodeURIComponent(document.cookie);
+    var ca = decodedCookie.split(";");
+
+    for (var i = 0; i < ca.length; i++) {
+        var c = ca[i];
+
+        while (c.charAt(0) == " ") {
+            c = c.substring(1);
+        }
+
+        if (c.indexOf(name) == 0) {
+            return c.substring(name.length, c.length);
+        }
+    }
+    
+    return "";
+}
+
+
+//წმენდს ქუქის
+if(getCookie('user_Id') !== null) {
+    document.cookie = 'user_Id' + '=; expires=Thu, 01-Jan-70 00:00:01 GMT;';
+}
 
