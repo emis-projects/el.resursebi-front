@@ -40816,6 +40816,7 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 .background-cs-6-6-24 {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Arithmetic-operators-6/cs-6-6-24.svg");
 }
+
 .class_6_8-img_1 {
   height: 60.9vh;
   max-height: 468px;
@@ -40845,10 +40846,7 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 40vh;
   max-height: 310px;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> 0f9e34b662e54ae4dc7f53e4ad3d70388ddcd985
 .cs-6-6-div-5-1-img {
   height: 40.1vh;
 }
@@ -41199,6 +41197,62 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 .cs-4-6-18-img {
   height: 34.63vh;
   margin-top: 10vh;
+}
+
+.cloud_page-19 {
+  height: 34vh;
+  max-height: 265px;
+}
+
+.cloud_page-19 img {
+  height: 100%;
+}
+
+.cloud_page-20 {
+  height: 60vh;
+  max-height: 465px;
+  position: fixed;
+  bottom: 0;
+}
+
+.cloud_page-20 img {
+  height: 100%;
+}
+
+.cloud_page-21 {
+  height: 50vh;
+  max-height: 388px;
+}
+
+.cloud_page-21 img {
+  height: 100%;
+}
+
+.cloud_page-22 {
+  height: 44.4vh;
+  max-height: 341px;
+}
+
+.cloud_page-22 img {
+  height: 100%;
+}
+
+.cloud_page-23 {
+  height: 53vh;
+  max-height: 408px;
+}
+
+.cloud_page-23 img {
+  height: 100%;
+}
+
+.cloud_page-24 {
+  height: 44.4vh;
+  max-height: 341px;
+}
+
+.cloud_page-24 img {
+  height: 100%;
 }
 
 body {
