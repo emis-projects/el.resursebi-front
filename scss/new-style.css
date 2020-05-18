@@ -40666,6 +40666,28 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
+.background-cs-6-8 {
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-6-8-19 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Using-variables-8/cs-6-8-19.svg");
+}
+
+.background-cs-6-8-20 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Using-variables-8/cs-6-8-20.png");
+}
+
+.background-cs-6-8-21 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Using-variables-8/cs-6-8-21.png");
+}
+
+.background-cs-6-8-22 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Using-variables-8/cs-6-8-22.svg");
+}
+
 body {
   color: #262626;
   font-size: 14px;
