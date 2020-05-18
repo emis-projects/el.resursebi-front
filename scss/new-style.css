@@ -40785,6 +40785,37 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
+.cs-6-6-19-img {
+  height: 65.23vh;
+}
+
+.cs-6-6-20-img {
+  height: 60.15vh;
+  margin-top: 5vh;
+  margin-left: 2vh;
+}
+
+.background-cs-6-6 {
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-6-6-21 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Arithmetic-operators-6/cs-6-6-21.svg");
+}
+
+.background-cs-6-6-22 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Arithmetic-operators-6/cs-6-6-22.svg");
+}
+
+.background-cs-6-6-23 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Arithmetic-operators-6/cs-6-6-23.svg");
+}
+
+.background-cs-6-6-24 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Arithmetic-operators-6/cs-6-6-24.svg");
+}
 .class_6_8-img_1 {
   height: 60.9vh;
   max-height: 468px;
@@ -40814,7 +40845,10 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 40vh;
   max-height: 310px;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0f9e34b662e54ae4dc7f53e4ad3d70388ddcd985
 .cs-6-6-div-5-1-img {
   height: 40.1vh;
 }
