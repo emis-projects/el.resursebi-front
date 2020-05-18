@@ -7,12 +7,12 @@
     <!-- ყველა გვერდზე -->
     <script src="../../../js/vue.js"></script>
     <!--  ვუე გაშვებისას
-      <script src="./js/vue.min.js"></script>
-       -->
-    <link href="../../../New-header-vue/animate.min.css" rel="stylesheet">
+    <script src="./js/vue.min.js"></script>
+     -->
     <link href="../../../scss/libraries/bootstrap.min.css" rel="stylesheet">
-    <link href="../../../scss/libraries/magnific-popup.css" rel="stylesheet">
+    <link href="../../../New-header-vue/animate.min.css" rel="stylesheet">
     <link href="../../../scss/new-style.css" rel="stylesheet"/>
+    <link href="../../../scss/components_style.css" rel="stylesheet"/>
     <title>ელექტრონული საგანმანათლებლო რესურსი</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
@@ -48,31 +48,43 @@
 
         </app-section>
     </section>
-
-
     <section id="mainPage">
         <div class="row">
             <div class="col-10 m-auto">
-                <img alt="img"
-                     class="cs-6-1-1-img"
-                     src="../../../img/gakvetilebi/Computer-Science/Class-6/List-9/cs-6-9-1.svg">
-                <h1 class="algorithme-title-italic">სია</h1>
+                <div class="newDesign_subject_question_item mt-3vh">
+                    <img alt="img" class="newDesign_subject_question_item-img"
+                         src="../../../img/icons/newDesign_btn-yellow.svg">
+                    <p class="newDesign_subject_question_item-title">შენ უკვე გაქვს საკუთარი ანგარიში Office 365-ში და
+                        იყენებ ელექტრონულ ფოსტას, ქმნი პრეზენტაციებს PowerPoint-ში. გაეცანი მის შემადგენელ ინსტრუმენტებს
+                        და იცი, რომ ყველა მათგანი მოიხმარს ინტერნეტს და მათ ღრუბლოვან სერვისებს უწოდებენ. ახლა მათი
+                        სათანადოდ გამოყენება უნდა შეისწავლო. ალბათ, შეამჩნევდი სხვადასხვა პროგრამას Office 365-ის
+                        პორტალზე.</p>
+                </div>
             </div>
-            <div class="left_components_paging-cont" id="leftNav">
-                <left-nav-item></left-nav-item>
-            </div>
-            <div class="our__pagination flex">
-                <a class="pagination__prev__btn" href="#">
-                    <img alt="" src="../../../img/icons/chevron-left-icon.svg" style="transform: rotate(180deg)">
-                </a>
-
-                <div class="flex align-items-center" id="pagination"></div>
-
-                <a class="pagination__next__btn" href="#">
-                    <img alt="" src="../../../img/icons/chevron-left-icon.svg">
-                </a>
+            <div class="col-9 m-auto d-flex justify-content-center">
+                <div class="cloud_page-3 mt-5vh">
+                    <img alt="multimedia"
+                         src="../../../img/gakvetilebi/Computer-Science/Class-4/Cloud-services-6/cs-4-6-3.svg">
+                </div>
             </div>
         </div>
+
+        <div class="left_components_paging-cont" id="leftNav">
+            <left-nav-item></left-nav-item>
+        </div>
+
+        <div class="our__pagination flex">
+            <a class="pagination__prev__btn" href="#">
+                <img alt="" src="../../../img/icons/chevron-left-icon.svg" style="transform: rotate(180deg)">
+            </a>
+
+            <div class="flex align-items-center" id="pagination"></div>
+
+            <a class="pagination__next__btn" href="#">
+                <img alt="" src="../../../img/icons/chevron-left-icon.svg">
+            </a>
+        </div>
+
     </section>
 </div>
 
@@ -81,7 +93,6 @@
 <div id="chatBot">
     <app-bot></app-bot>
 </div>
-
 
 <script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
 <script src="../../../js/libraries/jquery.magnific-popup.min.js"></script>
@@ -92,6 +103,8 @@
 <script src="../../../New-header-vue/app.js"></script>
 <script src="../../../Vue-chatBot/botApp.js"></script>
 <script src="../../../js/bot.js"></script>
+
+
 </body>
 
 </html>
