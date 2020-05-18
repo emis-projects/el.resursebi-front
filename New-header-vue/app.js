@@ -1019,8 +1019,8 @@ let title = {
         },
         {
             id: 6,
-            name: 'სათაური',
-            link: '#'
+            name: 'ღრუბლოვანი სერვისების სათანადოდ გამოყენება',
+            link: 'Computer-Science/Class-4/Cloud-services-6/1..html'
         },
         {
             id: 7,
@@ -1203,8 +1203,8 @@ let title = {
         },
         {
             id: 6,
-            name: 'სათაური',
-            link: '#'
+            name: 'არითმეტიკული ოპერატორები',
+            link: 'Computer-Science/Class-6/Arithmetic-operators-6/13.html'
         },
         {
             id: 7,
@@ -1213,13 +1213,13 @@ let title = {
         },
         {
             id: 8,
-            name: 'სათაური',
-            link: '#'
+            name: 'ცვლადების გამოყენება ',
+            link: 'Computer-Science/Class-6/Using-variables-8/1.html'
         },
         {
             id: 9,
-            name: 'სათაური',
-            link: '#'
+            name: 'სია',
+            link: 'Computer-Science/Class-6/List-9/1.html'
         },
         {
             id: 10,
@@ -1263,8 +1263,8 @@ let title = {
         },
         {
             id: 18,
-            name: 'სათაური',
-            link: '#'
+            name: 'მულტიმედია ფაილების შესაქმნელი ონლაინ პლატფორმები',
+            link: 'Computer-Science/Class-6/Multimedia-online-platforms-18/1.html'
         },
         {
             id: 19,

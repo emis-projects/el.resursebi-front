@@ -1,0 +1,13 @@
+.arithmetic_page {
+  &-13 {
+    height: 56vh;
+    max-height: 416px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+
+    img {
+      height: 100%;
+    }
+  }
+}
