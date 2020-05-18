@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html data-botid="2288" lang="ka">
+<!-- ბოტის აიდიში ვუთითებთ: ხელოვნების - 2318, ბუნების - 2320, მუსიკის - 2292 -->
+<html data-botid="2320" lang="ka">
 
 <head>
     <meta charset="UTF-8"/>
@@ -7,12 +8,12 @@
     <!-- ყველა გვერდზე -->
     <script src="../../../js/vue.js"></script>
     <!--  ვუე გაშვებისას
-    <script src="./js/vue.min.js"></script>
-     -->
-    <link href="../../../scss/libraries/bootstrap.min.css" rel="stylesheet">
+        <script src="./js/vue.min.js"></script>
+         -->
     <link href="../../../New-header-vue/animate.min.css" rel="stylesheet">
+    <link href="../../../scss/libraries/bootstrap.min.css" rel="stylesheet">
     <link href="../../../scss/new-style.css" rel="stylesheet"/>
-<link href="../../../scss/components_style.css" rel="stylesheet"/>
+    <link href="../../../scss/components_style.css" rel="stylesheet"/>
     <title>ელექტრონული საგანმანათლებლო რესურსი</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
@@ -36,40 +37,49 @@
             <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../../'"></app-menu>
         </header>
 
-        <app-section :is-active="isActive" v-image="'../../../'">
+        <app-section :is-active="isActive" :is-info="isInfo" v-image="'../../../'">
             <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger"
                      v-on:link-tab="link = $event">
 
             </app-bar>
             <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive"
-                       :is-info="isInfo" :path="path" :tab-class="currentTabComponent" :trigger="trigger">
+                       :is-info="isInfo"
+                       :path="path" :tab-class="currentTabComponent" :trigger="trigger">
             </component>
 
         </app-section>
     </section>
-    <section id="mainPage">
-        <div class="row mt-4vh">
-            <div class="col-10 m-auto">
-                <div class="newDesign_subject_question_item ml-5vh">
-                    <img alt="img" class="newDesign_subject_question_item-img"
-                         src="../../../img/icons/newDesign_btn-yellow.svg">
-                    <p class="newDesign_subject_question_item-title mb-8vh">
-                        წარმოიდგინე, კომპიუტერის მეხსიერებაში გინდა, შეინახო 
-                        <a href="5-1.html" class="a-blue">
-                            მონაცემის ტური.
-                        </a>
-                        როგორ <br> შეინახავდი?
-                    </p>
-                </div>
-            </div>
-            <div class="col-8 m-auto class_6_8-img_5 d-flex justify-content-end">
-                <img src="../../../img/gakvetilebi/Computer-Science/Class-6/Using-variables-8/C-6-8-5.svg" alt="image">
-            </div>
-        </div>
 
-        <!-- ეს არის svg თეგირომელიც ქმნის მარცხენა ვერტიკალურ "ნავ რუკას" -->
+
+    <section id="mainPage">
         <div class="left_components_paging-cont" id="leftNav">
             <left-nav-item></left-nav-item>
+        </div>
+        <div class="row mt-5vh">
+            <div class="col-8 m-auto d-flex flex-column">
+                <div class="newDesign_subject_question_item mt-2vh">
+                    <img alt="img" class="newDesign_subject_question_item-img"
+                         src="../../../img/icons/newDesign_btn-yellow.svg">
+                    <p class="newDesign_subject_question_item-title big-font-size-20px-dejavu">
+                        რა იცი ამ თემაზე?</p>
+                </div>
+                <div class="newDesign_subject_question_item d-flex mt-2vh">
+                    <img alt="img" class="newDesign_subject_question_item-img"
+                         src="../../../img/icons/newDesign_btn-yellow.svg">
+                    <p class="newDesign_subject_question_item-title big-font-size-20px-dejavu">
+                        შენი აზრით, რისი ცოდნა გჭირდება დავალების შესასრულებლად?</p>
+                </div>
+                <div class="newDesign_subject_question_item d-flex mt-2vh">
+                    <img alt="img" class="newDesign_subject_question_item-img"
+                         src="../../../img/icons/newDesign_btn-yellow.svg">
+                    <p class="newDesign_subject_question_item-title big-font-size-20px-dejavu">
+                        დააკვირდი სავარჯიშოებს და იფიქრე, როგორ გამოიყენო<br> მიღებული ცოდნა.</p>
+                </div>
+            </div>
+            <div class="col-12 d-flex justify-content-end arithmetic_page-12">
+                <img alt="create"
+                     src="../../../img/gakvetilebi/Computer-Science/Class-6/Arithmetic-operators-6/cs-6-6-12.svg">
+            </div>
         </div>
 
         <div class="our__pagination flex">
@@ -102,8 +112,6 @@
 <script src="../../../New-header-vue/app.js"></script>
 <script src="../../../Vue-chatBot/botApp.js"></script>
 <script src="../../../js/bot.js"></script>
-
-
 </body>
 
 </html>
