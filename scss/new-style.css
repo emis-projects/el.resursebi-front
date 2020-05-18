@@ -40785,6 +40785,38 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
+.cs-6-6-19-img {
+  height: 65.23vh;
+}
+
+.cs-6-6-20-img {
+  height: 60.15vh;
+  margin-top: 5vh;
+  margin-left: 2vh;
+}
+
+.background-cs-6-6 {
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-6-6-21 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Arithmetic-operators-6/cs-6-6-21.svg");
+}
+
+.background-cs-6-6-22 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Arithmetic-operators-6/cs-6-6-22.svg");
+}
+
+.background-cs-6-6-23 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Arithmetic-operators-6/cs-6-6-23.svg");
+}
+
+.background-cs-6-6-24 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Arithmetic-operators-6/cs-6-6-24.svg");
+}
+
 .class_6_8-img_1 {
   height: 60.9vh;
   max-height: 468px;
@@ -41074,6 +41106,110 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .cloud_page-6 img {
+  height: 100%;
+}
+
+.multimedia_page-13 {
+  height: 48.8vh;
+  max-height: 375.44px;
+}
+
+.multimedia_page-13 img {
+  height: 100%;
+}
+
+.multimedia_page-14 {
+  height: 55vh;
+  max-height: 423px;
+}
+
+.multimedia_page-14 img {
+  height: 100%;
+}
+
+.multimedia_page-15 {
+  height: 50.26vh;
+  max-height: 386px;
+}
+
+.multimedia_page-15 img {
+  height: 100%;
+}
+
+.multimedia_page-16 {
+  height: 47.26vh;
+  max-height: 363px;
+}
+
+.multimedia_page-16 img {
+  height: 100%;
+}
+
+.multimedia_page-17 {
+  height: 60vh;
+  max-height: 468px;
+  position: fixed;
+  right: 0;
+}
+
+.multimedia_page-17 img {
+  height: 100%;
+}
+
+.multimedia_page-18 {
+  height: 60vh;
+  max-height: 468px;
+}
+
+.multimedia_page-18 img {
+  height: 100%;
+}
+
+.arithmetic_page-7 {
+  height: 57vh;
+  max-height: 438px;
+}
+
+.arithmetic_page-7 img {
+  height: 100%;
+}
+
+.arithmetic_page-8 {
+  height: 55vh;
+  max-height: 424px;
+}
+
+.arithmetic_page-8 img {
+  height: 100%;
+}
+
+.arithmetic_page-10 {
+  height: 47.6vh;
+  max-height: 366px;
+}
+
+.arithmetic_page-10 img {
+  height: 100%;
+}
+
+.arithmetic_page-11 {
+  height: 68vh;
+  max-height: 525px;
+}
+
+.arithmetic_page-11 img {
+  height: 100%;
+}
+
+.arithmetic_page-12 {
+  height: 57.9vh;
+  max-height: 445px;
+  position: fixed;
+  bottom: 10vh;
+  right: 30vh;
+}
+
+.arithmetic_page-12 img {
   height: 100%;
 }
 

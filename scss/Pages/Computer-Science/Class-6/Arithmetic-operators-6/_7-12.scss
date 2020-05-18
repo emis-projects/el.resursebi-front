@@ -1,0 +1,49 @@
+.arithmetic_page{
+    &-7{
+        height:57vh;
+        max-height:438px;
+    img{
+        height:100%;
+    }
+        
+    }
+
+    &-8{
+        height:55vh;
+        max-height:424px;
+    img{
+        height:100%;
+    }
+        
+    }
+
+    &-10{
+        height:47.6vh;
+        max-height:366px;
+    img{
+        height:100%;
+    }
+      
+   }
+
+   &-11{
+    height:68vh;
+    max-height:525px;
+   img{
+    height:100%;
+   }
+  
+  }
+  &-12{
+    height:57.9vh;
+    max-height:445px;
+    position: fixed;
+    bottom:10vh;
+    right:30vh;
+
+   img{
+    height:100%;
+   }
+  }
+
+}
