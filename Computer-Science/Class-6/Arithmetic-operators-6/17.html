@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<!-- ბოტის აიდიში ვუთითებთ: ხელოვნების - 2318, ბუნების - 2320, მუსიკის - 2292 -->
-<html data-botid="2320" lang="ka">
+<html data-botid="2288" lang="ka">
 
 <head>
     <meta charset="UTF-8"/>
@@ -8,10 +7,10 @@
     <!-- ყველა გვერდზე -->
     <script src="../../../js/vue.js"></script>
     <!--  ვუე გაშვებისას
-        <script src="./js/vue.min.js"></script>
-         -->
-    <link href="../../../New-header-vue/animate.min.css" rel="stylesheet">
+    <script src="./js/vue.min.js"></script>
+     -->
     <link href="../../../scss/libraries/bootstrap.min.css" rel="stylesheet">
+    <link href="../../../New-header-vue/animate.min.css" rel="stylesheet">
     <link href="../../../scss/new-style.css" rel="stylesheet"/>
     <link href="../../../scss/components_style.css" rel="stylesheet"/>
     <title>ელექტრონული საგანმანათლებლო რესურსი</title>
@@ -37,38 +36,39 @@
             <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../../'"></app-menu>
         </header>
 
-        <app-section :is-active="isActive" :is-info="isInfo" v-image="'../../../'">
+        <app-section :is-active="isActive" v-image="'../../../'">
             <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger"
                      v-on:link-tab="link = $event">
 
             </app-bar>
             <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive"
-                       :is-info="isInfo"
-                       :path="path" :tab-class="currentTabComponent" :trigger="trigger">
+                       :is-info="isInfo" :path="path" :tab-class="currentTabComponent" :trigger="trigger">
             </component>
 
         </app-section>
     </section>
-
-
     <section id="mainPage">
-        <div class="left_components_paging-cont" id="leftNav">
-            <left-nav-item></left-nav-item>
-        </div>
-        <div class="row ">
-            <div class="col-11 m-auto">
-                <div class="newDesign_subject_question_item d-flex justify-content-center mt-5vh">
+        <div class="row mt-7vh">
+            <div class="col-10 m-auto">
+                <div class="newDesign_subject_question_item">
                     <img alt="img" class="newDesign_subject_question_item-img"
                          src="../../../img/icons/newDesign_btn-yellow.svg">
-                    <p class="newDesign_subject_question_item-title big-font-size-20px-dejavu">
-                        შენ უკვე წარმატებით გაიარე ნაბიჯები, გაიგე ბევრი ახალი რამ, ახლა დროა, დაიწყო </br>
-                        მთავარი დავალების შესრულება.</p>
+                    <p class="newDesign_subject_question_item-title">Scratch-ში გადმოიტანე შემდეგი ბლოკები, დააკვირდი და
+                        იმსჯელე, რა შედეგს გვაძლევს
+                        <a class="a-blue" href="17-1.html">თითოეული მათგანი</a>.</p>
                 </div>
             </div>
-            <div class="col-12 d-flex justify-content-center cs-6-1-div cs-6-1-div-17-img mt-5vh">
-                <img alt="create"
-                     src="../../../img/gakvetilebi/Computer-Science/Class-6/create-game-1/cs-6-1-17-img.svg">
+            <div class="col-10 m-auto d-flex justify-content-center">
+                <div class="arithmetic_page-17 mt-5vh">
+                    <img alt="image"
+                         src="../../../img/gakvetilebi/Computer-Science/Class-6/Arithmetic-operators-6/cs-6-6-17.svg">
+                </div>
             </div>
+        </div>
+
+        <!-- ეს არის svg თეგირომელიც ქმნის მარცხენა ვერტიკალურ "ნავ რუკას" -->
+        <div class="left_components_paging-cont" id="leftNav">
+            <left-nav-item></left-nav-item>
         </div>
 
         <div class="our__pagination flex">
@@ -101,6 +101,8 @@
 <script src="../../../New-header-vue/app.js"></script>
 <script src="../../../Vue-chatBot/botApp.js"></script>
 <script src="../../../js/bot.js"></script>
+
+
 </body>
 
 </html>
