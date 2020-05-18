@@ -30,7 +30,7 @@ function game () {
         document.getElementById('numberOfScore').innerHTML = this.score;
 
         this.generate6DigitNum(6)
-        this.randomNumber(1, 6);
+        this.randomNumber();
         this.generateChar(1);
         this.generateString(6);
 
@@ -56,23 +56,27 @@ function game () {
 
 
     this.init = (e) =>{
+        this.onTimesUp()
         this.startGameIs = true;
         this.score = 0;
-        this.TIME_LIMIT = 30;
+        this.TIME_LIMIT = 60;
         this.timePassed = 0;
         this.timeLeft = this.TIME_LIMIT;
         this.timerInterval = null;
         this.randomedImages = null;
         this.answer = null;
         this.startTimer();
-        document.querySelector('#gameimgSection').innerHTML = "";
-        document.getElementById('numberOfScore').innerHTML = this.score;
-        this.randomNewValue(images, 1);
-        this.correctAndIncorrect();
-        let img = document.createElement('img');
-        img.setAttribute('src', this.randomedImages)
+        
+        this.generate6DigitNum(6)
+        this.randomNumber();
+        this.generateChar(1);
+        this.generateString(6);
 
-        document.querySelector('#gameimgSection').appendChild(img)
+        this.generatedQuestions.push(this.string, this.char, this.float, this.int)
+        
+        this.randomNewValue(this.generatedQuestions, 1);
+
+        document.getElementById('answer').innerText = this.answer;
     }
 
 
@@ -146,11 +150,27 @@ function game () {
         if(e.target.getAttribute('data-type') == this.answerType){
             this.score++
             document.getElementById('numberOfScore').innerHTML = this.score;
+
+            this.generatedQuestions = [];
+
+            this.generate6DigitNum(6)
+            this.randomNumber();
+            this.generateChar(1);
+            this.generateString(6);
+
+            this.generatedQuestions.push(this.string, this.char, this.float, this.int)
+
             this.randomNewValue(this.generatedQuestions, 1)
     
             document.getElementById('answer').innerText = this.answer
 
         } else {
+            this.generatedQuestions = [];
+            this.generate6DigitNum(6)
+            this.randomNumber();
+            this.generateChar(1);
+            this.generateString(6);
+            this.generatedQuestions.push(this.string, this.char, this.float, this.int)
             this.randomNewValue(this.generatedQuestions, 1);
             document.getElementById('answer').innerText = this.answer
         }
