@@ -40722,7 +40722,7 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .class_6_6-img_6 {
   height: 55vh;
-  max-height: px;
+  max-height: 425px;
 }
 
 .arithmetic_page-13 {
@@ -40757,6 +40757,33 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .background-cs-6-8-22 {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Using-variables-8/cs-6-8-22.svg");
+}
+
+.cs-6-9-7-img {
+  height: 67.44vh;
+  position: relative;
+  right: -17vh;
+}
+
+.cs-6-9-8-img {
+  height: 52.60vh;
+  margin-top: 3vh;
+}
+
+.cs-6-9-10-img {
+  height: 61.45vh;
+  position: relative;
+  bottom: 5vh;
+  left: 1vh;
+}
+
+.cs-6-9-11-img {
+  height: 42.96vh;
+}
+
+.cs-6-9-12-img {
+  height: 51.30vh;
+  margin-top: 7vh;
 }
 
 body {
