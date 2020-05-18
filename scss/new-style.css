@@ -41232,7 +41232,6 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   margin-top: 10vh;
 }
 
-<<<<<<< HEAD
 .cloud_page-19 {
   height: 34vh;
   max-height: 265px;
@@ -41286,7 +41285,9 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .cloud_page-24 img {
-=======
+  height: 100%;
+}
+
 .background-cs-4-6 {
   background-position: top center;
   background-size: cover;
@@ -41322,7 +41323,52 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .cs-4-6-div img {
->>>>>>> cd3de7e52ba2c27a54f6c8ce200ac75381b5bb70
+  height: 100%;
+}
+
+.using-variables_page-7 {
+  height: 63vh;
+  max-height: 489px;
+}
+
+.using-variables_page-7 img {
+  height: 100%;
+}
+
+.using-variables_page-8 {
+  height: 36vh;
+  max-height: 280px;
+}
+
+.using-variables_page-8 img {
+  height: 100%;
+}
+
+.using-variables_page-9 {
+  height: 63vh;
+  max-height: 488px;
+}
+
+.using-variables_page-9 img {
+  height: 100%;
+  margin-top: -3vh;
+}
+
+.using-variables_page-10 {
+  height: 52vh;
+  max-height: 407px;
+}
+
+.using-variables_page-10 img {
+  height: 100%;
+}
+
+.using-variables_page-11 {
+  height: 49.8vh;
+  max-height: 383px;
+}
+
+.using-variables_page-11 img {
   height: 100%;
 }
 
