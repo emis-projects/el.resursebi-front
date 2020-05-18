@@ -41014,6 +41014,25 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
+.cs-4-6-6-1-info-img {
+  height: 44.53vh;
+}
+
+.cs-4-6-16-img {
+  height: 38.93vh;
+  margin-top: 2vh;
+}
+
+.cs-4-6-17-img {
+  height: 40.88vh;
+  margin-top: 2vh;
+}
+
+.cs-4-6-18-img {
+  height: 34.63vh;
+  margin-top: 10vh;
+}
+
 body {
   color: #262626;
   font-size: 14px;
