@@ -1170,7 +1170,7 @@ let title = {
             link: '#'
         },
         {
-            id: 24, Title
+            id: 24,
             name: 'საკუთარი მონაცემების დაცვა',
             link: 'Computer-Science/Class-5/Protect-your-data-24/1.html'
         }
@@ -1263,7 +1263,7 @@ let title = {
         },
         {
             id: 18,
-            name: 'მულტიმედია ფაილების შესაქმნელი ონლაინ პლატფორმები\n',
+            name: 'მულტიმედია ფაილების შესაქმნელი ონლაინ პლატფორმები',
             link: 'Computer-Science/Class-6/Multimedia-online-platforms-18/1.html'
         },
         {

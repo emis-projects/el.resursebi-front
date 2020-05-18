@@ -33540,7 +33540,20 @@ img.mfp-img[alt*=cs-3-6-6-img] {
   left: 50%;
   transform: translateX(-50%);
 }
+
 .multimedia_page-6 img {
+  height: 100%;
+}
+
+.arithmetic_page-13 {
+  height: 56vh;
+  max-height: 416px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+
+.arithmetic_page-13 img {
   height: 100%;
 }
 
