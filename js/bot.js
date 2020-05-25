@@ -298,9 +298,9 @@ $(document).on("click", ".chat_msg_item-buttons button", function (e) {
 
             console.log(result);
 
-            let res = JSON.parse(result);
+            generateQuoteText(result)
 
-            sendMessageFromBot(res)
+            sendMessageFromBot(generateQuoteText(result))
         },
         dataType: 'json',
         contentType: 'application/json'
@@ -331,7 +331,7 @@ $(document).on("click", ".image-popup-no-margins", function (e) {
 });
 
 
-generateQuoteText = (result) => {
+function generateQuoteText = (result) => {
     let res = JSON.parse(result)
             
     let newArray = []
@@ -378,8 +378,6 @@ function sendMessage(e) {
             generateQuoteText(result)
 
             sendMessageFromBot(generateQuoteText(result))
-
-            console.log(generateQuoteText(result));
 
         },
         dataType: 'json',
