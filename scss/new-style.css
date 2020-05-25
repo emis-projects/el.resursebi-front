@@ -41631,6 +41631,51 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
+.examples-and-formulas-15-1-1 {
+  height: 40.7vh;
+  max-height: 313px;
+}
+
+.examples-and-formulas-15-1-1 img {
+  height: 100%;
+}
+
+.examples-and-formulas-15-1-2 {
+  height: 39.8vh;
+  max-height: 306px;
+}
+
+.examples-and-formulas-15-1-2 img {
+  height: 100%;
+}
+
+.examples-and-formulas-15-1-3 {
+  height: 49.8vh;
+  max-height: 383px;
+}
+
+.examples-and-formulas-15-1-3 img {
+  height: 100%;
+}
+
+.examples-and-formulas-15-1-4 {
+  height: 39.8vh;
+  max-height: 306px;
+}
+
+.examples-and-formulas-15-1-4 img {
+  height: 100%;
+}
+
+.examples-and-formulas-15-1-5 {
+  height: 54.9vh;
+  max-height: 422px;
+}
+
+.examples-and-formulas-15-1-5 img {
+  height: 100%;
+}
+
 .cs-5-17-22-img {
   height: 45.57vh;
   margin-top: 5vh;
@@ -41785,6 +41830,193 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .background-cs-6-11-27 {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-6/ios-graphical-interface-11/cs-6-11-27-img.png");
+}
+
+.our-podcast-1 {
+  height: 58.54vh;
+  max-height: 449.66px;
+}
+
+.our-podcast-1 img {
+  height: 100%;
+}
+
+.our-podcast-3 {
+  height: 52vh;
+  max-height: 400px;
+}
+
+.our-podcast-3 img {
+  height: 100%;
+}
+
+.our-podcast-4 {
+  height: 55.4vh;
+  max-height: 426px;
+}
+
+.our-podcast-4 img {
+  height: 100%;
+}
+
+.our-podcast-5 {
+  height: 41vh;
+  max-height: 315px;
+}
+
+.our-podcast-5 img {
+  height: 100%;
+}
+
+.our-podcast-6 {
+  height: 60vh;
+  max-height: 466px;
+}
+
+.our-podcast-6 img {
+  height: 100%;
+}
+
+.android-graphics-19 {
+  height: 65vh;
+  max-height: 502px;
+}
+
+.android-graphics-19 img {
+  height: 100%;
+}
+
+.android-graphics-20 {
+  height: 40vh;
+  max-height: 310px;
+}
+
+.android-graphics-20 img {
+  height: 100%;
+}
+
+.android-graphics-22 {
+  height: 47vh;
+  max-height: 366px;
+}
+
+.android-graphics-22 img {
+  height: 100%;
+}
+
+.android-graphics-23 {
+  height: 51vh;
+  max-height: 392px;
+}
+
+.android-graphics-23 img {
+  height: 100%;
+}
+
+.android-graphics .background-cs-6-10-24 {
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Android-graphics-interface-guide-10/cs-6-10-24.svg");
+}
+
+.secure-digital-world-12 {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  height: 53.9vh;
+  max-height: 414px;
+}
+
+.secure-digital-world-12 img {
+  height: 100%;
+}
+
+.secure-digital-world-13 {
+  height: 53.7vh;
+  max-height: 413px;
+}
+
+.secure-digital-world-13 img {
+  height: 100%;
+}
+
+.secure-digital-world-14 {
+  height: 54.8vh;
+  max-height: 421px;
+}
+
+.secure-digital-world-14 img {
+  height: 100%;
+}
+
+.secure-digital-world-16 {
+  height: 66.14vh;
+  max-height: 508px;
+}
+
+.secure-digital-world-16 img {
+  height: 100%;
+  margin-top: -8vh;
+}
+
+.secure-digital-world-17 {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  height: 56vh;
+  max-height: 431px;
+}
+
+.secure-digital-world-17 img {
+  height: 100%;
+}
+
+.ios-17 {
+  height: 54vh;
+  max-height: 416px;
+}
+
+.ios-17 img {
+  height: 100%;
+}
+
+.ios-18 {
+  height: 56.7vh;
+  max-height: 436px;
+}
+
+.ios-18 img {
+  height: 100%;
+  margin-left: 90vh;
+}
+
+.ios-19 {
+  height: 47.2vh;
+  max-height: 363px;
+}
+
+.ios-19 img {
+  height: 100%;
+}
+
+.ios-20 {
+  height: 53vh;
+  max-height: 410px;
+}
+
+.ios-20 img {
+  height: 100%;
+}
+
+.ios-21 {
+  height: 58.5vh;
+  max-height: 450px;
+}
+
+.ios-21 img {
+  height: 100%;
+  margin-left: 75vh;
 }
 
 .cs-6-15-24-img {
