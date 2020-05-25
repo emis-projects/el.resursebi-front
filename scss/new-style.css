@@ -41781,6 +41781,18 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
+.cs-6-11-div-22-img {
+  height: 48.3vh;
+}
+
+.cs-6-11-div-23-img {
+  height: 40.75vh;
+}
+
+.cs-6-11-div img {
+  height: 100%;
+}
+
 .cs-6-11-11-img {
   height: 63.02vh;
 }
@@ -41807,6 +41819,28 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 .cs-6-11-16-img {
   height: 53.38vh;
   margin-top: 4vh;
+}
+
+.background-cs-6-11 {
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-6-11-24 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/ios-graphical-interface-11/cs-6-11-24-img.png");
+}
+
+.background-cs-6-11-25 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/ios-graphical-interface-11/cs-6-11-25-img.png");
+}
+
+.background-cs-6-11-26 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/ios-graphical-interface-11/cs-6-11-26-img.png");
+}
+
+.background-cs-6-11-27 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/ios-graphical-interface-11/cs-6-11-27-img.png");
 }
 
 .our-podcast-1 {
