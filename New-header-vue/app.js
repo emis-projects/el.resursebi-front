@@ -1136,8 +1136,8 @@ let title = {
         },
         {
             id: 17,
-            name: 'სათაური',
-            link: '#'
+            name: 'მაგალითები და ფორმულები ელექტრონულ სივრცეში',
+            link: 'Computer-Science/Class-5/Examples-and-formulas-17/1.html'
         },
         {
             id: 18,
@@ -1223,13 +1223,13 @@ let title = {
         },
         {
             id: 10,
-            name: 'სათაური',
-            link: '#'
+            name: 'Android გრაფიკული ინტერფეისის გზამკვლევი',
+            link: 'Computer-Science/Class-6/Android-graphics-interface-guide-10/1.html'
         },
         {
             id: 11,
-            name: 'სათაური',
-            link: '#'
+            name: 'ios გრაფიკული ინტერფეისი',
+            link: 'Computer-Science/Class-6/ios-graphical-interface-11/1.html'
         },
         {
             id: 12,
@@ -1248,8 +1248,8 @@ let title = {
         },
         {
             id: 15,
-            name: 'სათაური',
-            link: '#'
+            name: 'ჩვენი პოდკასტი',
+            link: 'Computer-Science/Class-6/Our-podcast-15/1.html'
         },
         {
             id: 16,
@@ -1258,8 +1258,8 @@ let title = {
         },
         {
             id: 17,
-            name: 'სათაური',
-            link: '#'
+            name: 'უსაფრთხოება ციფრულ სამყაროში',
+            link: 'Computer-Science/Class-6/Secure-digital-world-17/1.html'
         },
         {
             id: 18,
