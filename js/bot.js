@@ -331,7 +331,7 @@ $(document).on("click", ".image-popup-no-margins", function (e) {
 });
 
 
-function generateQuoteText = (result) => {
+function generateQuoteText(result){
     let res = JSON.parse(result)
             
     let newArray = []
