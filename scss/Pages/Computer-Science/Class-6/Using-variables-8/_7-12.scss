@@ -36,11 +36,21 @@
     }
     
     &-11{
-        height:49.8vh;
+        height:50vh;
+        max-height:389px;
+
+    img{
+        height:100%;
+        margin-left:90vh;
+    }
+    }
+    &-12{
+        height:50vh;
         max-height:383px;
 
     img{
         height:100%;
+        margin-left:60vh;
     }
     }
 }
