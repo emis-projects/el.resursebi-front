@@ -41662,6 +41662,40 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   margin-top: 3vh;
 }
 
+.cs-6-10-div-7-img {
+  height: 59.37vh;
+  position: absolute;
+  bottom: 0;
+  right: 17.05vw;
+}
+
+.cs-6-10-div-8-img {
+  height: 46.74vh;
+}
+
+.cs-6-10-div-9-img {
+  height: 60vh;
+}
+
+.cs-6-10-div-10-img {
+  height: 44.27vh;
+}
+
+.cs-6-10-div-11-img {
+  height: 50vh;
+}
+
+.cs-6-10-div-12-img {
+  height: 81.25vh;
+  position: absolute;
+  bottom: 0;
+  right: 10.24vw;
+}
+
+.cs-6-10-div img {
+  height: 100%;
+}
+
 .cs-6-11-11-img {
   height: 63.02vh;
 }
