@@ -41602,6 +41602,42 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
+.cs-5-17-22-img {
+  height: 45.57vh;
+  margin-top: 5vh;
+}
+
+.cs-5-17-23-img {
+  height: 65.58vh;
+  margin-top: 6vh;
+}
+
+.cs-5-17-24-img {
+  height: 33.98vh;
+}
+
+.background-cs-5-17 {
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-5-17-25 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/Examples-and-formulas-17/cs-5-17-25.svg");
+}
+
+.background-cs-5-17-26 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/Examples-and-formulas-17/cs-5-17-26.svg");
+}
+
+.background-cs-5-17-27 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/Examples-and-formulas-17/cs-5-17-27.svg");
+}
+
+.background-cs-5-17-28 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/Examples-and-formulas-17/cs-5-17-28.svg");
+}
+
 .cs-6-10-1-img {
   height: 53.64vh;
   margin: 8vh auto;
