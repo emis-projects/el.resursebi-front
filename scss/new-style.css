@@ -22974,34 +22974,6 @@ td img {
   100% {
     width: 4px;
     opacity: 0;
-    top: 137%;
-  }
-}
-
-.rain2:nth-of-type(7) {
-  -webkit-animation-name: rain-2-7;
-          animation-name: rain-2-7;
-  -webkit-animation-delay: 7s;
-          animation-delay: 7s;
-  -webkit-animation-duration: 2s;
-          animation-duration: 2s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  left: 50%;
-  opacity: 1;
-  top: 30%;
-}
-
-@-webkit-keyframes rain-2-7 {
-  0% {
-    width: 7px;
-    left: 50%;
-    opacity: 1;
-    top: 30%;
-  }
-  100% {
-    width: 4px;
-    opacity: 0;
     top: 131%;
   }
 }
@@ -41641,126 +41613,6 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
-.class_6_10-img_13 {
-  position: fixed;
-  right: 18vh;
-  height: 85vh;
-  max-height: 608.5px;
-}
-
-.class_6_10-img_13 img {
-  height: 100%;
-}
-
-.class_6_10-img_14 {
-  height: 49vh;
-  max-height: 378px;
-}
-
-.class_6_10-img_15 {
-  position: fixed;
-  bottom: 0;
-  height: 54.4vh;
-  max-height: 418px;
-}
-
-.class_6_10-img_16 {
-  height: 55.59vh;
-  max-height: 427px;
-}
-
-.class_6_10-img_17 {
-  height: 47.65vh;
-  max-height: 366px;
-}
-
-.class_6_10-img_18 {
-  position: fixed;
-  bottom: 0;
-  right: 16vh;
-  height: 77.6vh;
-  max-height: 596px;
-}
-
-.class_6_11-img_1 {
-  height: 53.9vh;
-  max-height: 414px;
-  margin: 7vh auto;
-}
-
-.class_6_11-img_1 img {
-  height: 100%;
-}
-
-.class_6_11-img_3 {
-  position: fixed;
-  bottom: 14vh;
-  height: 39.4vh;
-  max-height: 302.7px;
-}
-
-.class_6_11-img_4 {
-  position: fixed;
-  bottom: 0;
-  height: 49vh;
-  max-height: 377px;
-}
-
-.class_6_11-img_5 {
-  position: fixed;
-  bottom: 12vh;
-  height: 49.96vh;
-  max-height: 383.75px;
-}
-
-.class_6_11-img_5 img {
-  height: 100%;
-}
-
-.class_6_11-img_6 {
-  height: 62.6vh;
-  max-height: 481px;
-}
-
-.newDesign_subject_question_item.bottom {
-  margin-bottom: .8vh;
-}
-
-.class_6_17-img_18 {
-  height: 33vh;
-  max-height: 255px;
-}
-
-.class_6_17-bg_19 {
-  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Secure-digital-world-17/C-6-17-19.svg");
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
-}
-
-.class_6_17-bg_20 {
-  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Secure-digital-world-17/C-6-17-20.svg");
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
-}
-
-.class_6_17-bg_21 {
-  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Secure-digital-world-17/C-6-17-21.svg");
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
-}
-
-.class_6_17-bg_22 {
-  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Secure-digital-world-17/C-6-17-22.svg");
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
 .cs-5-17-div-3-img {
   height: 46.61vh;
 }
@@ -41871,6 +41723,47 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-5/Examples-and-formulas-17/cs-5-17-28.svg");
 }
 
+.class_6_10-img_13 {
+  position: fixed;
+  right: 18vh;
+  height: 85vh;
+  max-height: 608.5px;
+}
+
+.class_6_10-img_13 img {
+  height: 100%;
+}
+
+.class_6_10-img_14 {
+  height: 49vh;
+  max-height: 378px;
+}
+
+.class_6_10-img_15 {
+  position: fixed;
+  bottom: 0;
+  height: 54.4vh;
+  max-height: 418px;
+}
+
+.class_6_10-img_16 {
+  height: 55.59vh;
+  max-height: 427px;
+}
+
+.class_6_10-img_17 {
+  height: 47.65vh;
+  max-height: 366px;
+}
+
+.class_6_10-img_18 {
+  position: fixed;
+  bottom: 0;
+  right: 16vh;
+  height: 77.6vh;
+  max-height: 596px;
+}
+
 .cs-6-10-1-img {
   height: 53.64vh;
   margin: 8vh auto;
@@ -41939,6 +41832,50 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .cs-6-11-div img {
   height: 100%;
+}
+
+.class_6_11-img_1 {
+  height: 53.9vh;
+  max-height: 414px;
+  margin: 7vh auto;
+}
+
+.class_6_11-img_1 img {
+  height: 100%;
+}
+
+.class_6_11-img_3 {
+  position: fixed;
+  bottom: 14vh;
+  height: 39.4vh;
+  max-height: 302.7px;
+}
+
+.class_6_11-img_4 {
+  position: fixed;
+  bottom: 0;
+  height: 49vh;
+  max-height: 377px;
+}
+
+.class_6_11-img_5 {
+  position: fixed;
+  bottom: 12vh;
+  height: 49.96vh;
+  max-height: 383.75px;
+}
+
+.class_6_11-img_5 img {
+  height: 100%;
+}
+
+.class_6_11-img_6 {
+  height: 62.6vh;
+  max-height: 481px;
+}
+
+.newDesign_subject_question_item.bottom {
+  margin-bottom: .8vh;
 }
 
 .cs-6-11-11-img {
@@ -42034,6 +41971,43 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .our-podcast-6 img {
   height: 100%;
+}
+
+.class_6_17-img_18 {
+  height: 33vh;
+  max-height: 255px;
+}
+
+.class_6_17-bg_19 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Secure-digital-world-17/C-6-17-19.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.class_6_17-bg_20 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Secure-digital-world-17/C-6-17-20.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.class_6_17-bg_21 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Secure-digital-world-17/C-6-17-21.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.class_6_17-bg_22 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Secure-digital-world-17/C-6-17-22.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
 .android-graphics-19 {
