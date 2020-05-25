@@ -296,6 +296,8 @@ $(document).on("click", ".chat_msg_item-buttons button", function (e) {
         success: function (result) {
             $('#typing__animation').remove()
 
+            console.log(result);
+
             let res = JSON.parse(result);
 
             sendMessageFromBot(res)
@@ -329,6 +331,28 @@ $(document).on("click", ".image-popup-no-margins", function (e) {
 });
 
 
+generateQuoteText = (result) => {
+    let res = JSON.parse(result)
+            
+    let newArray = []
+
+    res.map((w, i) => {
+        if(w.text){
+            let x = w.text.replace(/¶/g, '"');
+
+            let newObj = {
+                ...w,
+                text: x
+            }
+
+            newArray.push(newObj)
+        }
+    })
+
+    return newArray
+}
+
+
 function sendMessage(e) {
     e.preventDefault();
 
@@ -348,11 +372,15 @@ function sendMessage(e) {
         }),
 
         success: function (result) {
+            
             $('#typing__animation').remove()
 
-            let res = JSON.parse(result);
+            generateQuoteText(result)
 
-            sendMessageFromBot(res)
+            sendMessageFromBot(generateQuoteText(result))
+
+            console.log(generateQuoteText(result));
+
         },
         dataType: 'json',
         contentType: 'application/json; charset=UTF-8'
