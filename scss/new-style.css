@@ -41559,12 +41559,23 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .using-variables_page-11 {
-  height: 49.8vh;
-  max-height: 383px;
+  height: 50vh;
+  max-height: 389px;
 }
 
 .using-variables_page-11 img {
   height: 100%;
+  margin-left: 90vh;
+}
+
+.using-variables_page-12 {
+  height: 50vh;
+  max-height: 383px;
+}
+
+.using-variables_page-12 img {
+  height: 100%;
+  margin-left: 60vh;
 }
 
 .list_page_8-1 {
@@ -41602,7 +41613,35 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
-<<<<<<< HEAD
+.cs-5-17-div-3-img {
+  height: 46.61vh;
+}
+
+.cs-5-17-div-4-img {
+  height: 53.25vh;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.cs-5-17-div-5-img {
+  height: 80.72vh;
+  position: absolute;
+  bottom: 7.03vh;
+  right: 17.05vw;
+}
+
+.cs-5-17-div-6-img {
+  height: 70.44vh;
+  position: absolute;
+  bottom: 11.19vh;
+  right: 15.95vw;
+}
+
+.cs-5-17-div img {
+  height: 100%;
+}
+
 .examples-and-formulas-15-1-1 {
   height: 40.7vh;
   max-height: 313px;
@@ -41645,34 +41684,6 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .examples-and-formulas-15-1-5 img {
-=======
-.cs-5-17-div-3-img {
-  height: 46.61vh;
-}
-
-.cs-5-17-div-4-img {
-  height: 53.25vh;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-}
-
-.cs-5-17-div-5-img {
-  height: 80.72vh;
-  position: absolute;
-  bottom: 7.03vh;
-  right: 17.05vw;
-}
-
-.cs-5-17-div-6-img {
-  height: 70.44vh;
-  position: absolute;
-  bottom: 11.19vh;
-  right: 15.95vw;
-}
-
-.cs-5-17-div img {
->>>>>>> fbc466852c2c0437271caaa87bdf0dcb221b88ee
   height: 100%;
 }
 
