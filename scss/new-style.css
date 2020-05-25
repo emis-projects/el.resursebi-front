@@ -41724,6 +41724,36 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   margin-top: 4vh;
 }
 
+.cs-6-15-24-img {
+  height: 17.44vh;
+}
+
+.cs-6-15-25-img {
+  height: 52.21vh;
+}
+
+.background-cs-6-15 {
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-6-15-26 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Our-podcast-15/cs-6-15-26.svg");
+}
+
+.background-cs-6-15-27 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Our-podcast-15/cs-6-15-27.svg");
+}
+
+.background-cs-6-15-28 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Our-podcast-15/cs-6-15-28.png");
+}
+
+.background-cs-6-15-29 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Our-podcast-15/cs-6-15-29.svg");
+}
+
 .cs-6-17-1-img {
   height: 61.45vh;
   margin: 3vh auto 5vh;
