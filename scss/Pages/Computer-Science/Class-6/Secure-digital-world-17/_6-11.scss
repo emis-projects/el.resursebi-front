@@ -1,0 +1,121 @@
+.secure_page {
+  &-6 {
+    height: 42vh;
+    max-height: 284px;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &-7 {
+    height: 52vh;
+    max-height: 366px;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &-8 {
+    .title td {
+      padding-left: 5vh;
+    }
+
+    table {
+      box-shadow: 0 0 0 2px #62548A;
+
+      td {
+        max-height: 45px;
+        width: calc(100% / 3);
+        color: #947DCE;
+        font-size: 18px;
+        height: 4.5vh;
+        border-color: #62548A;
+        position: relative;
+
+        .box-wrapper {
+          height: 100%;
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          span {
+            border: 8px solid #947DCE;
+            border-radius: 4px;
+            height: 35px;
+            width: 35px;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            &.active {
+              background: green;
+              border: none;
+
+              &::after {
+                position: absolute;
+                content: ' \2705';
+                left: 50%;
+                transform: translate(-50%);
+              }
+            }
+
+            &.wrong {
+              background: red;
+              border: none;
+
+              &::after {
+                position: absolute;
+                content: ' \00D7';
+                left: 50%;
+                transform: translate(-50%);
+              }
+            }
+          }
+        }
+
+        span {
+          height: inherit;
+          width: inherit;
+          position: absolute;
+          bottom: 0;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+      }
+    }
+  }
+
+  &-9 {
+    height: 55vh;
+    max-height: 425px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &-10 {
+    height: 61vh;
+    max-height: 466px;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &-11 {
+    height: 31.25vh;
+    max-height: 240px;
+
+    img {
+      height: 100%;
+    }
+  }
+}

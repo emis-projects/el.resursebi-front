@@ -59,6 +59,7 @@ function game () {
         this.onTimesUp()
         this.startGameIs = true;
         this.score = 0;
+        document.getElementById('numberOfScore').innerHTML = this.score;
         this.TIME_LIMIT = 60;
         this.timePassed = 0;
         this.timeLeft = this.TIME_LIMIT;
