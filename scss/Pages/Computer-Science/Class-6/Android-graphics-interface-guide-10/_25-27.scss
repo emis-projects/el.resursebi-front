@@ -1,0 +1,27 @@
+.android_page {
+  &-5_1 {
+    height: 73vh;
+    max-height: 564px;
+
+    img {
+      height: 100%;
+    }
+  }
+}
+
+.background-cs-6-10 {
+  &-25 {
+    background: url("../img/gakvetilebi/Computer-Science/Class-6/Android-graphics-interface-guide-10/cs-6-10-25.svg") no-repeat center top;
+    background-size: cover;
+  }
+
+  &-26 {
+    background: url("../img/gakvetilebi/Computer-Science/Class-6/Android-graphics-interface-guide-10/cs-6-10-26.svg") no-repeat center top;
+    background-size: cover;
+  }
+
+  &-27 {
+    background: url("../img/gakvetilebi/Computer-Science/Class-6/Android-graphics-interface-guide-10/cs-6-10-27.svg") no-repeat center top;
+    background-size: cover;
+  }
+}

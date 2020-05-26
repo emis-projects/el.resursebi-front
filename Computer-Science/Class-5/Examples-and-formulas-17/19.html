@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<!-- ბოტის აიდიში ვუთითებთ: ხელოვნების - 2318, ბუნების - 2320, მუსიკის - 2292 -->
-<html data-botid="2320" lang="ka">
+<html data-botid="2288" lang="ka">
 
 <head>
     <meta charset="UTF-8"/>
@@ -8,10 +7,10 @@
     <!-- ყველა გვერდზე -->
     <script src="../../../js/vue.js"></script>
     <!--  ვუე გაშვებისას
-        <script src="./js/vue.min.js"></script>
-         -->
-    <link href="../../../New-header-vue/animate.min.css" rel="stylesheet">
+    <script src="./js/vue.min.js"></script>
+     -->
     <link href="../../../scss/libraries/bootstrap.min.css" rel="stylesheet">
+    <link href="../../../New-header-vue/animate.min.css" rel="stylesheet">
     <link href="../../../scss/new-style.css" rel="stylesheet"/>
     <link href="../../../scss/components_style.css" rel="stylesheet"/>
     <title>ელექტრონული საგანმანათლებლო რესურსი</title>
@@ -43,42 +42,43 @@
 
             </app-bar>
             <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive"
-                       :is-info="isInfo"
-                       :path="path" :tab-class="currentTabComponent" :trigger="trigger">
+                       :is-info="isInfo" :path="path" :tab-class="currentTabComponent" :trigger="trigger">
             </component>
 
         </app-section>
     </section>
-
-
     <section id="mainPage">
+        <div class="row">
+            <div class="col-10 m-auto">
+                <div class="newDesign_subject_question_item mt-5vh">
+                    <img alt="img" class="newDesign_subject_question_item-img"
+                         src="../../../img/icons/newDesign_btn-yellow.svg">
+                    <p class="newDesign_subject_question_item-title">განვიხილოთ რამდენიმე მოქმედების ერთდროულად
+                        შესრულება Ms Excel ელექტრონულ ცხრილში.</p>
+                </div>
+                <div class="newDesign_subject_question_item">
+                    <img alt="img" class="newDesign_subject_question_item-img"
+                         src="../../../img/icons/newDesign_btn-yellow.svg">
+                    <p class="newDesign_subject_question_item-title">უკვე შესწავლილი მოქმედებების შესრულების მსგავსად
+                        შეგვიძლია, გამოვთვალოთ მოქმედებათა შედეგები.</p>
+                </div>
+                <div class="newDesign_subject_question_item">
+                    <img alt="img" class="newDesign_subject_question_item-img"
+                         src="../../../img/icons/newDesign_btn-yellow.svg">
+                    <p class="newDesign_subject_question_item-title">გამოიყენე შესწავლილი მასალა და გაიმეორე იგივე
+                        მოქმედებები შენთვის სასურველ რიცხვებზე.</p>
+                </div>
+            </div>
+            <div class="col-10 m-auto d-flex justify-content-center">
+                <div class="examples-and-forms_page-19 mt-5vh">
+                    <img alt="example"
+                         src="../../../img/gakvetilebi/Computer-Science/Class-5/Examples-and-formulas-17/cs-5-17-19.png">
+                </div>
+            </div>
+        </div>
+
         <div class="left_components_paging-cont" id="leftNav">
             <left-nav-item></left-nav-item>
-        </div>
-        <div class="row ">
-            <div class="col-10 m-auto">
-                <div class="newDesign_subject_question_item d-flex  mt-5vh">
-                    <img alt="img" class="newDesign_subject_question_item-img"
-                         src="../../../img/icons/newDesign_btn-yellow.svg">
-                    <p class="newDesign_subject_question_item-title big-font-size-20px-dejavu">
-                        შესაძლებელია, უჯრების მონიშნული დიაპაზონი გავასუფთაოთ, ამოვჭრათ, ან ჩავსვათ </br>
-                        სასურველ ადგილას.</p>
-                </div>
-                <div class="newDesign_subject_question_item d-flex  mt-5vh">
-                    <img alt="img" class="newDesign_subject_question_item-img"
-                         src="../../../img/icons/newDesign_btn-yellow.svg">
-                    <p class="newDesign_subject_question_item-title big-font-size-20px-dejavu">
-                        გამოიყენე მიღებული ცოდნა პრაქტიკულად და განახორციელე მოქმედებები უჯრების  </br>
-                        დიაპაზონზე ელექტრონულ ცხრილში <img alt="ms.excel"
-                                                           class="cs-4-9-2-img"
-                                                           src="../../../img/gakvetilebi/Computer-Science/Class-5/diagram-in-electronic-table-18/ms-excel-icon.svg">Microsoft
-                        excel.</p>
-                </div>
-            </div>
-            <div class="col-12 d-flex justify-content-center cs-5-16-div cs-5-16-div-19-img mt-5vh">
-                <img alt=""
-                     src="../../../img/gakvetilebi/Computer-Science/Class-5/Enter-table-data-16/cs-5-16-19-img.png">
-            </div>
         </div>
 
         <div class="our__pagination flex">
@@ -111,6 +111,8 @@
 <script src="../../../New-header-vue/app.js"></script>
 <script src="../../../Vue-chatBot/botApp.js"></script>
 <script src="../../../js/bot.js"></script>
+
+
 </body>
 
 </html>

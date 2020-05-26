@@ -919,7 +919,6 @@
   font-style: normal;
   font-display: block;
 }
-
 [class^=icon-], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: "icomoon" !important;
@@ -1033,7 +1032,6 @@
   font-weight: normal;
   font-style: normal;
 }
-
 [class^=arrow-]:before, [class*=" arrow-"]:before {
   font-family: "fontello";
   font-style: normal;
@@ -8767,9 +8765,9 @@ section .arrow_up_down_downArrow img {
 }
 
 .m_exercise_text-container_16px {
-  color: #0B2228;
-  font-size: 2.08 h;
-  font-family: "BPG Arial";
+    color: #0B2228;
+    font-size: 2.08 h;
+    font-family: "BPG Arial";
 }
 
 .music-andantino-lyrics-div {
@@ -34336,24 +34334,319 @@ img.mfp-img[alt*=cs-3-6-6-img] {
 .list_page_13-1 video {
   background-color: #000;
   width: 65vw;
-  height: 65vh;
+    height: 65vh;
 }
+
 .list_page_15-1 {
-  height: 58.9vh;
-  max-height: 453px;
+    height: 58.9vh;
+    max-height: 453px;
 }
+
 .list_page_15-1 img {
-  height: 100%;
+    height: 100%;
+}
+
+.examples-and-forms_page-14 {
+    height: 47vh;
+    max-height: 362px;
+}
+
+.examples-and-forms_page-14 img {
+    height: 100%;
+}
+
+.examples-and-forms_page-15 {
+    height: 53vh;
+    max-height: 410px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+.examples-and-forms_page-15 img {
+    height: 100%;
+}
+
+.examples-and-forms_page-16 {
+    height: 67vh;
+    max-height: 520px;
+}
+
+.examples-and-forms_page-16 img {
+    height: 100%;
+}
+
+.examples-and-forms_page-18 {
+    height: 48vh;
+    max-height: 371px;
+}
+
+.examples-and-forms_page-18 img {
+    height: 100%;
+}
+
+.examples-and-forms_page-19 {
+    height: 27vh;
+    max-height: 204px;
+}
+
+.examples-and-forms_page-19 img {
+    height: 100%;
+}
+
+.examples-and-forms_page-19 {
+    height: 64vh;
+    max-height: 498px;
+}
+
+.examples-and-forms_page-19 img {
+    height: 100%;
+}
+
+.examples-and-forms_page-21 {
+    height: 23vh;
+    max-height: 177px;
+}
+
+.examples-and-forms_page-21 img {
+    height: 100%;
+}
+
+.android_page-5_1 {
+    height: 73vh;
+    max-height: 564px;
+}
+
+.android_page-5_1 img {
+    height: 100%;
+}
+
+.background-cs-6-10-25 {
+    background: url("../img/gakvetilebi/Computer-Science/Class-6/Android-graphics-interface-guide-10/cs-6-10-25.svg") no-repeat center top;
+    background-size: cover;
+}
+
+.background-cs-6-10-26 {
+    background: url("../img/gakvetilebi/Computer-Science/Class-6/Android-graphics-interface-guide-10/cs-6-10-26.svg") no-repeat center top;
+    background-size: cover;
+}
+
+.background-cs-6-10-27 {
+    background: url("../img/gakvetilebi/Computer-Science/Class-6/Android-graphics-interface-guide-10/cs-6-10-27.svg") no-repeat center top;
+    background-size: cover;
+}
+
+.ios_page-7 {
+    height: 59vh;
+    max-height: 455px;
+}
+
+.ios_page-7 img {
+    height: 100%;
+}
+
+.ios_page-8 {
+    height: 51vh;
+    max-height: 392px;
+}
+
+.ios_page-8 img {
+    height: 100%;
+}
+
+.ios_page-9 {
+    height: 49vh;
+    max-height: 376px;
+}
+
+.ios_page-9 img {
+    height: 100%;
+}
+
+.ios_page-10 {
+    height: 54vh;
+    max-height: 420px;
+}
+
+.ios_page-10 img {
+    height: 100%;
+}
+
+.ios_page-14 {
+    height: 42vh;
+    max-height: 325px;
+}
+
+.ios_page-14 img {
+    height: 100%;
+}
+
+.product_page-2 {
+    height: 54vh;
+    max-height: 420px;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.product_page-2 img {
+    height: 100%;
+}
+
+.product_page-7 {
+    height: 52vh;
+    max-height: 401px;
+}
+
+.product_page-7 img {
+    height: 100%;
+}
+
+.product_page-8 {
+    height: 28vh;
+    max-height: 221px;
+}
+
+.product_page-8 img {
+    height: 100%;
+}
+
+.product_page-9 {
+    height: 59vh;
+    max-height: 456px;
+}
+
+.product_page-9 img {
+    height: 100%;
+}
+
+.secure_page-6 {
+    height: 42vh;
+    max-height: 284px;
+}
+
+.secure_page-6 img {
+    height: 100%;
+}
+
+.secure_page-7 {
+    height: 52vh;
+    max-height: 366px;
+}
+
+.secure_page-7 img {
+    height: 100%;
+}
+
+.secure_page-8 .title td {
+    padding-left: 5vh;
+}
+
+.secure_page-8 table {
+    box-shadow: 0 0 0 2px #62548A;
+}
+
+.secure_page-8 table td {
+    max-height: 45px;
+    width: calc(100% / 3);
+    color: #947DCE;
+    font-size: 18px;
+    height: 4.5vh;
+    border-color: #62548A;
+    position: relative;
+}
+
+.secure_page-8 table td .box-wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secure_page-8 table td .box-wrapper span {
+    border: 8px solid #947DCE;
+    border-radius: 4px;
+    height: 35px;
+    width: 35px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secure_page-8 table td .box-wrapper span.active {
+    background: green;
+    border: none;
+}
+
+.secure_page-8 table td .box-wrapper span.active::after {
+    position: absolute;
+    content: " ✅";
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.secure_page-8 table td .box-wrapper span.wrong {
+    background: red;
+    border: none;
+}
+
+.secure_page-8 table td .box-wrapper span.wrong::after {
+    position: absolute;
+    content: " ×";
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.secure_page-8 table td span {
+    height: inherit;
+    width: inherit;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.secure_page-9 {
+    height: 55vh;
+    max-height: 425px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.secure_page-9 img {
+    height: 100%;
+}
+
+.secure_page-10 {
+    height: 61vh;
+    max-height: 466px;
+}
+
+.secure_page-10 img {
+    height: 100%;
+}
+
+.secure_page-11 {
+    height: 31.25vh;
+    max-height: 240px;
+}
+
+.secure_page-11 img {
+    height: 100%;
 }
 
 body {
-  color: #262626;
-  font-size: 14px;
-  line-height: 21px;
+    color: #262626;
+    font-size: 14px;
+    line-height: 21px;
 }
 
 .flex {
-  display: flex;
+    display: flex;
 }
 
 .justify-between {
