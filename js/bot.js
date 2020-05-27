@@ -135,7 +135,6 @@ function sendMessageFromBot(res) {
     res.forEach(function(w){
         var img = document.createElement('img');
 
-        // console.log(w);
 
         if (w.type == 0) {
             messageTextes(w, div)
@@ -201,8 +200,6 @@ function sendMessageFromBot(res) {
             })
 
 
-
-
         } else if(w.type == 3){
             // ლინკები
             let a = document.createElement('a');
@@ -226,8 +223,6 @@ function sendMessageFromBot(res) {
 
         } else if (w.type == 6) {
             // ღილაკები
-
-            // console.log(w);
 
             messageTextes(w, div)
 
@@ -296,7 +291,7 @@ $(document).on("click", ".chat_msg_item-buttons button", function (e) {
         success: function (result) {
             $('#typing__animation').remove()
 
-            console.log(result);
+            console.log(JSON.parse(result));
 
             generateQuoteText(result)
 
@@ -334,20 +329,27 @@ $(document).on("click", ".image-popup-no-margins", function (e) {
 function generateQuoteText(result){
     let res = JSON.parse(result)
             
-    let newArray = []
+    let newArray = [];
+    let newObj = {}
 
     res.map((w, i) => {
         if(w.text){
             let x = w.text.replace(/¶/g, '"');
 
-            let newObj = {
+            newObj = {
                 ...w,
                 text: x
             }
-
-            newArray.push(newObj)
+        } else {
+            newObj = {
+                ...w
+            }
         }
+
+        newArray.push(newObj)
     })
+
+    console.log(newArray)
 
     return newArray
 }
@@ -374,7 +376,7 @@ function sendMessage(e) {
         success: function (result) {
             
             $('#typing__animation').remove()
-
+            
             generateQuoteText(result)
 
             sendMessageFromBot(generateQuoteText(result))
@@ -498,9 +500,6 @@ function type5Functionaly(data, maindiv){
 
 
 $('.logo_box').click(function(e){
-    console.log(e.target.getAttribute('data-botid'))
-    console.log(e.target)
-
     $(this).addClass('opacity-1')
     $('html').attr("data-botid", $(e.target).attr('data-botId'));
     $('#chat_fullscreen').children('.chat_msg_item').remove()
