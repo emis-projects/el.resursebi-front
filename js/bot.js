@@ -90,7 +90,7 @@ $(document).ready(function () {
 
         // აქ ვამოწმებ თუ ქუქიაში მნიშვნელბის რაოდენობა მეტი იქნება 10-ზე ანუ არ არის ID თუ უკვე აიდი წერია თავიდან აღარ მიანიჭებს
         if (cookie.length > 10) {
-            console.log(cookie.length);
+            // console.log(cookie.length);
             document.cookie = "user_Id=" + LogInUserId;
         }
 
@@ -133,19 +133,20 @@ function sendMessageFromBot(res) {
     $(div).append(`<div class="chat_avatar"><img src='${botImg}' alt="My image"></div>`);
 
     res.forEach(function(w){
-        var img = document.createElement('img');
-
 
         if (w.type == 0) {
             messageTextes(w, div)
 
         } else if(w.type == 1){
             // ფოტოების გახსნა
+            let img = document.createElement('img');
+            let a = document.createElement('a');
 
             $(a).addClass('image-popup-no-margins')
+            $(a).attr('style', 'display: block; padding: 10px; box-shadow: 2px 2px 8px #7FD1D866; border-radius: 20px 20px 20px 0px; margin-bottom: 5px;')
             $(a).attr('href', w.url);
             $(img).attr('src', w.url);
-            $(img).attr('style', 'width: 100%');
+            $(img).attr('style', 'width: 100%; border-radius: 3px;');
             $(a).append(img);
             $(div).append(a);
 
@@ -291,7 +292,7 @@ $(document).on("click", ".chat_msg_item-buttons button", function (e) {
         success: function (result) {
             $('#typing__animation').remove()
 
-            console.log(JSON.parse(result));
+            // console.log(JSON.parse(result));
 
             generateQuoteText(result)
 
@@ -349,7 +350,7 @@ function generateQuoteText(result){
         newArray.push(newObj)
     })
 
-    console.log(newArray)
+    // console.log(newArray)
 
     return newArray
 }
@@ -374,6 +375,8 @@ function sendMessage(e) {
         }),
 
         success: function (result) {
+
+            // console.log(JSON.parse(result))
             
             $('#typing__animation').remove()
             
@@ -451,7 +454,7 @@ function type5Functionaly(data, maindiv){
     // type == 1 phone
     // type == 0 link
 
-    console.log(data);
+    // console.log(data);
 
     data.buttons.forEach(w => {
         if(w.type == 2){
