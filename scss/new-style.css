@@ -42414,14 +42414,9 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
-.android-graphics .background-cs-6-10 {
-  background-position: top center;
+.background-cs-6-10-24 {
+  background: url("../img/gakvetilebi/Computer-Science/Class-6/Android-graphics-interface-guide-10/cs-6-10-24.svg") no-repeat center top;
   background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.android-graphics .background-cs-6-10-24 {
-  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Android-graphics-interface-guide-10/cs-6-10-24.svg");
 }
 
 .secure-digital-world-12 {
@@ -44714,3 +44709,4 @@ body {
     font-size: 14px;
   }
 }
+/*# sourceMappingURL=new-style.css.map */
