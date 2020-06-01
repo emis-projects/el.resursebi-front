@@ -786,7 +786,6 @@
     font-style: normal;
     font-display: block;
 }
-
 [class^=icon-], [class*=" icon-"] {
     /* use !important to prevent issues with browser extensions that change fonts */
     font-family: "icomoon" !important;
@@ -900,7 +899,6 @@
     font-weight: normal;
     font-style: normal;
 }
-
 [class^=arrow-]:before, [class*=" arrow-"]:before {
     font-family: "fontello";
     font-style: normal;
@@ -3021,12 +3019,10 @@ header nav .header-sound .lang {
 .completed__btn:focus {
   outline: none;
 }
-
 .completed__btn:hover {
     background-color: #7FD1D8;
     color: #FFFFFF !important;
 }
-
 .completed__btn:disabled {
     background: rgba(127, 209, 216, 0.5);
     transition: all 0.3s;
@@ -3047,12 +3043,12 @@ header nav .header-sound .lang {
     color: #F8D24B;
     -webkit-box-shadow: 2px 2px 8px rgba(248, 210, 73, 0.4);
     box-shadow: 2px 2px 8px rgba(248, 210, 73, 0.4);
-  margin-bottom: 3vh;
-  font-family: "ALK Sanet";
-  font-size: 1.7vh;
-  letter-spacing: 1.1px;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
+    margin-bottom: 3vh;
+    font-family: "ALK Sanet";
+    font-size: 1.7vh;
+    letter-spacing: 1.1px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
 }
 .reset__btn:hover {
   background-color: #F8D24B;
@@ -4608,8 +4604,8 @@ section .arrow_up_down_downArrow img {
     -ms-flex-pack: center;
     justify-content: center;
     -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 /* 
@@ -6174,16 +6170,16 @@ section .arrow_up_down_downArrow img {
 .ask_question_game .draggedElement {
   height: 19vh;
   width: 19vh;
-  max-width: 150px;
-  max-height: 150px;
-  min-width: 150px;
-  min-height: 150px;
-  margin-top: 2.5vh;
-  border: 6px solid #44bbbd;
-  border-radius: 50%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+    max-width: 150px;
+    max-height: 150px;
+    min-width: 150px;
+    min-height: 150px;
+    margin-top: 2.5vh;
+    border: 6px solid #44bbbd;
+    border-radius: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
@@ -13465,16 +13461,16 @@ section .arrow_up_down_downArrow img {
 .n-5-game .circles_game-blue-container .draggedElement {
   height: 19vh;
   width: 19vh;
-  max-width: 150px;
-  max-height: 150px;
-  min-width: 150px;
-  min-height: 150px;
-  margin-top: 2.5vh;
-  border: 6px solid #44bbbd;
-  border-radius: 50%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+    max-width: 150px;
+    max-height: 150px;
+    min-width: 150px;
+    min-height: 150px;
+    margin-top: 2.5vh;
+    border: 6px solid #44bbbd;
+    border-radius: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
@@ -14428,7 +14424,7 @@ section .arrow_up_down_downArrow img {
     margin: auto;
 }
 .n_continent-game-btn {
-  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
+    -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
     padding: 1vh 2.5vh;
     border-radius: 25px;
