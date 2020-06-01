@@ -90,7 +90,7 @@ $(document).ready(function () {
 
         // აქ ვამოწმებ თუ ქუქიაში მნიშვნელბის რაოდენობა მეტი იქნება 10-ზე ანუ არ არის ID თუ უკვე აიდი წერია თავიდან აღარ მიანიჭებს
         if (cookie.length > 10) {
-            console.log(cookie.length);
+            // console.log(cookie.length);
             document.cookie = "user_Id=" + LogInUserId;
         }
 
@@ -133,20 +133,20 @@ function sendMessageFromBot(res) {
     $(div).append(`<div class="chat_avatar"><img src='${botImg}' alt="My image"></div>`);
 
     res.forEach(function(w){
-        var img = document.createElement('img');
-
-        // console.log(w);
 
         if (w.type == 0) {
             messageTextes(w, div)
 
         } else if(w.type == 1){
             // ფოტოების გახსნა
+            let img = document.createElement('img');
+            let a = document.createElement('a');
 
             $(a).addClass('image-popup-no-margins')
+            $(a).attr('style', 'display: block; padding: 10px; box-shadow: 2px 2px 8px #7FD1D866; border-radius: 20px 20px 20px 0px; margin-bottom: 5px;')
             $(a).attr('href', w.url);
             $(img).attr('src', w.url);
-            $(img).attr('style', 'width: 100%');
+            $(img).attr('style', 'width: 100%; border-radius: 3px;');
             $(a).append(img);
             $(div).append(a);
 
@@ -201,8 +201,6 @@ function sendMessageFromBot(res) {
             })
 
 
-
-
         } else if(w.type == 3){
             // ლინკები
             let a = document.createElement('a');
@@ -226,8 +224,6 @@ function sendMessageFromBot(res) {
 
         } else if (w.type == 6) {
             // ღილაკები
-
-            // console.log(w);
 
             messageTextes(w, div)
 
@@ -296,7 +292,7 @@ $(document).on("click", ".chat_msg_item-buttons button", function (e) {
         success: function (result) {
             $('#typing__animation').remove()
 
-            console.log(result);
+            // console.log(JSON.parse(result));
 
             generateQuoteText(result)
 
@@ -334,20 +330,27 @@ $(document).on("click", ".image-popup-no-margins", function (e) {
 function generateQuoteText(result){
     let res = JSON.parse(result)
             
-    let newArray = []
+    let newArray = [];
+    let newObj = {}
 
     res.map((w, i) => {
         if(w.text){
             let x = w.text.replace(/¶/g, '"');
 
-            let newObj = {
+            newObj = {
                 ...w,
                 text: x
             }
-
-            newArray.push(newObj)
+        } else {
+            newObj = {
+                ...w
+            }
         }
+
+        newArray.push(newObj)
     })
+
+    // console.log(newArray)
 
     return newArray
 }
@@ -372,9 +375,11 @@ function sendMessage(e) {
         }),
 
         success: function (result) {
+
+            // console.log(JSON.parse(result))
             
             $('#typing__animation').remove()
-
+            
             generateQuoteText(result)
 
             sendMessageFromBot(generateQuoteText(result))
@@ -449,7 +454,7 @@ function type5Functionaly(data, maindiv){
     // type == 1 phone
     // type == 0 link
 
-    console.log(data);
+    // console.log(data);
 
     data.buttons.forEach(w => {
         if(w.type == 2){
@@ -498,9 +503,6 @@ function type5Functionaly(data, maindiv){
 
 
 $('.logo_box').click(function(e){
-    console.log(e.target.getAttribute('data-botid'))
-    console.log(e.target)
-
     $(this).addClass('opacity-1')
     $('html').attr("data-botid", $(e.target).attr('data-botId'));
     $('#chat_fullscreen').children('.chat_msg_item').remove()
