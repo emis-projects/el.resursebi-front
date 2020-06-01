@@ -43962,6 +43962,34 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
+.our-sweet-memories-16-16 {
+  height: 73vh;
+  max-height: 564px;
+}
+
+.our-sweet-memories-16-16 img {
+  height: 100%;
+}
+
+.our-sweet-memories-16-17 {
+  height: 70vh;
+  max-height: 543px;
+}
+
+.our-sweet-memories-16-17 img {
+  height: 100%;
+  margin-left: -3vh;
+}
+
+.our-sweet-memories-16-17_box {
+  height: 14vh;
+  max-height: 110px;
+}
+
+.our-sweet-memories-16-17_box img {
+  height: 100%;
+}
+
 body {
   color: #262626;
   font-size: 14px;
