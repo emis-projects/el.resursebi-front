@@ -1,0 +1,46 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="100.458" height="100.493"
+     viewBox="0 0 100.458 100.493">
+    <defs>
+        <style>
+            .a{fill:#fff;}.b{fill:rgba(0,0,0,0.1);}.c{fill:url(#a);}.d{fill:url(#b);}.e{fill:url(#c);}.f{fill:url(#d);}.g{fill:url(#e);}.h{fill:url(#f);}.i{fill:url(#g);}
+        </style>
+        <linearGradient id="a" x1="-102.573" y1="-6.428" x2="-102.573" y2="-6.431" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#81b4e0"/>
+            <stop offset="1" stop-color="#0c5a94"/>
+        </linearGradient>
+        <linearGradient id="b" x1="-33.186" y1="-19.846" x2="-33.186" y2="-20.03" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#f06b59"/>
+            <stop offset="1" stop-color="#df2227"/>
+        </linearGradient>
+        <linearGradient id="c" x1="-42.729" y1="-15.071" x2="-42.65" y2="-14.959" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#388b41"/>
+            <stop offset="1" stop-color="#4cb749"/>
+        </linearGradient>
+        <linearGradient id="d" x1="-53.734" y1="-16.349" x2="-53.838" y2="-16.161" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#e4b022"/>
+            <stop offset="0.3" stop-color="#fcd209"/>
+        </linearGradient>
+        <linearGradient id="e" x1="-136.676" y1="-32.123" x2="-136.676" y2="-31.869" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-opacity="0.149"/>
+            <stop offset="0.3" stop-opacity="0.059"/>
+            <stop offset="1" stop-opacity="0.031"/>
+        </linearGradient>
+        <linearGradient id="f" x1="-132.181" y1="-33.821" x2="-132.47" y2="-34.001" xlink:href="#e"/>
+        <linearGradient id="g" x1="-62.986" y1="-138.357" x2="-62.966" y2="-137.287" xlink:href="#e"/>
+    </defs>
+    <g transform="translate(-3081.259 -8428.444)">
+        <circle class="a" cx="49.459" cy="49.459" r="49.459" transform="translate(3082.149 8429.424)"/>
+        <path class="b" d="M3163.082,8487.875a31.474,31.474,0,0,0-62.948,0h8.992a22.482,22.482,0,1,1,44.963,0"/>
+        <circle class="b" cx="17.086" cy="17.086" r="17.086" transform="translate(3116.77 8468.092)"/>
+        <circle class="c" cx="18.435" cy="18.435" r="18.435" transform="translate(3113.174 8460.447)"/>
+        <path class="d"
+              d="M3176.571,8456.4a50.358,50.358,0,0,0-86.778-5.846l20.233,35.071a22.48,22.48,0,0,1,21.133-29.226"/>
+        <path class="e"
+              d="M3089.793,8450.556a50.359,50.359,0,0,0,37.769,78.236l21.133-35.969a22.484,22.484,0,0,1-38.669-7.194"/>
+        <path class="f"
+              d="M3127.562,8528.792a50.357,50.357,0,0,0,49.009-72.391h-45.412a22.483,22.483,0,0,1,17.535,36.421"/>
+        <path class="g" d="M3089.793,8450.556l20.233,35.072a22.491,22.491,0,0,1,.9-15.288l-20.233-21.133"/>
+        <path class="h" d="M3127.562,8528.792l21.133-35.97a22.485,22.485,0,0,1-13.04,7.643l-8.993,28.327"/>
+        <path class="i" d="M3176.571,8456.4h-45.412a22.481,22.481,0,0,1,17.535,8.543l28.776-7.194"/>
+    </g>
+</svg>

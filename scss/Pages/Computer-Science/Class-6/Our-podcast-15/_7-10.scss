@@ -1,0 +1,41 @@
+.product_page {
+  &-2 {
+    height: 54vh;
+    max-height: 420px;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &-7 {
+    height: 52vh;
+    max-height: 401px;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &-8 {
+    height: 28vh;
+    max-height: 221px;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &-9 {
+    height: 59vh;
+    max-height: 456px;
+
+    img {
+      height: 100%;
+    }
+  }
+}

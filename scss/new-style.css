@@ -1143,7 +1143,8 @@
   font-display: block;
 }
 
-[class^="icon-"], [class*=" icon-"] {
+
+[class^=icon-], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
   speak: none;
@@ -1256,8 +1257,7 @@
   font-weight: normal;
   font-style: normal;
 }
-
-[class^="arrow-"]:before, [class*=" arrow-"]:before {
+[class^=arrow-]:before, [class*=" arrow-"]:before {
   font-family: "fontello";
   font-style: normal;
   font-weight: normal;
@@ -2294,6 +2294,12 @@ body {
   background: rgba(127, 209, 216, 0.5);
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+}
+
+.reload_game_wrapper {
+  position: fixed;
+  bottom: 9.453125vh;
+  right: 17.057101vw;
 }
 
 .reset__btn {
@@ -4708,12 +4714,6 @@ section .arrow_up_down_downArrow img {
 
 .draggable__answer__btns:focus {
   outline: none;
-}
-
-.reload_game_wrapper {
-  position: absolute;
-  bottom: 14.453125vh;
-  right: 17.057101vw;
 }
 
 .errorImg {
@@ -32125,7 +32125,9 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .cs-template .reload_game_wrapper {
-  bottom: 11vh;
+  position: fixed;
+  bottom: 14.453125vh;
+  right: 17.057101vw;
 }
 
 .Class_4_9-img_box_19 {
@@ -41559,12 +41561,23 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .using-variables_page-11 {
-  height: 49.8vh;
-  max-height: 383px;
+  height: 50vh;
+  max-height: 389px;
 }
 
 .using-variables_page-11 img {
   height: 100%;
+  margin-left: 90vh;
+}
+
+.using-variables_page-12 {
+  height: 50vh;
+  max-height: 383px;
+}
+
+.using-variables_page-12 img {
+  height: 100%;
+  margin-left: 60vh;
 }
 
 .list_page_8-1 {
@@ -41619,15 +41632,129 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   bottom: 7.03vh;
   right: 17.05vw;
 }
-
 .cs-5-17-div-6-img {
   height: 70.44vh;
   position: absolute;
   bottom: 11.19vh;
   right: 15.95vw;
 }
-
 .cs-5-17-div img {
+  height: 100%;
+}
+
+.class_5_17-img_7 {
+  position: fixed;
+  bottom: 15vh;
+  height: 38.4vh;
+  max-height: 295vh;
+}
+.class_5_17-img_excel {
+  width: 25px;
+  height: 25px;
+  display: inline;
+  vertical-align: middle;
+}
+
+.class_5_17-img_8 {
+  height: 41.9vh;
+  max-height: 322vh;
+}
+
+.class_5_17-img_9 {
+  position: fixed;
+  bottom: 0;
+  height: 60vh;
+  max-height: 461.5vh;
+}
+
+.class_5_17-img_9 img {
+  height: 100%;
+}
+
+.class_5_17-img_9 img {
+  height: 100%;
+}
+.class_5_17-img_10 {
+  height: 38.6vh;
+  max-height: 296.7vh;
+}
+
+.class_5_17-img_11 {
+  position: fixed;
+  bottom: 0vh;
+  right: 18vh;
+  height: 67vh;
+  max-height: 515px;
+}
+
+.class_5_17-img_11 img {
+  height: 100%;
+}
+
+.class_5_17-img_11 img {
+  height: 100%;
+}
+.class_5_17-img_12 {
+  position: fixed;
+  bottom: -7vh;
+  height: 69vh;
+  max-height: 530vh;
+}
+
+.class_5_17-img_12 img {
+  height: 100%;
+}
+
+.examples-and-forms_page-14 {
+  height: 47vh;
+  max-height: 362px;
+}
+.examples-and-forms_page-14 img {
+  height: 100%;
+}
+.examples-and-forms_page-15 {
+  height: 53vh;
+  max-height: 410px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+.examples-and-forms_page-15 img {
+  height: 100%;
+}
+.examples-and-forms_page-16 {
+  height: 67vh;
+  max-height: 520px;
+}
+.examples-and-forms_page-16 img {
+  height: 100%;
+}
+.examples-and-forms_page-18 {
+  height: 48vh;
+  max-height: 371px;
+}
+.examples-and-forms_page-18 img {
+  height: 100%;
+}
+.examples-and-forms_page-19 {
+  height: 27vh;
+  max-height: 204px;
+}
+.examples-and-forms_page-19 img {
+  height: 100%;
+}
+.examples-and-forms_page-19 {
+  height: 64vh;
+  max-height: 498px;
+}
+.examples-and-forms_page-19 img {
+  height: 100%;
+}
+.examples-and-forms_page-21 {
+  height: 23vh;
+  max-height: 177px;
+}
+.examples-and-forms_page-21 img {
   height: 100%;
 }
 
@@ -41635,11 +41762,9 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 40.7vh;
   max-height: 313px;
 }
-
 .examples-and-formulas-15-1-1 img {
   height: 100%;
 }
-
 .examples-and-formulas-15-1-2 {
   height: 39.8vh;
   max-height: 306px;
@@ -41712,16 +41837,75 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-5/Examples-and-formulas-17/cs-5-17-28.svg");
 }
 
+.class_6_10-img_13 {
+  position: fixed;
+  right: 18vh;
+  height: 85vh;
+  max-height: 608.5px;
+}
+
+.class_6_10-img_13 img {
+  height: 100%;
+}
+
+.class_6_10-img_14 {
+  height: 49vh;
+  max-height: 378px;
+}
+
+.class_6_10-img_15 {
+  position: fixed;
+  bottom: 0;
+  height: 54.4vh;
+  max-height: 418px;
+}
+
+.class_6_10-img_16 {
+  height: 55.59vh;
+  max-height: 427px;
+}
+
+.class_6_10-img_17 {
+  height: 47.65vh;
+  max-height: 366px;
+}
+.class_6_10-img_18 {
+  position: fixed;
+  bottom: 0;
+  right: 16vh;
+  height: 77.6vh;
+  max-height: 596px;
+}
+
+.android_page-5_1 {
+  height: 73vh;
+  max-height: 564px;
+}
+.android_page-5_1 img {
+  height: 100%;
+}
+
+.background-cs-6-10-25 {
+  background: url("../img/gakvetilebi/Computer-Science/Class-6/Android-graphics-interface-guide-10/cs-6-10-25.svg") no-repeat center top;
+  background-size: cover;
+}
+.background-cs-6-10-26 {
+  background: url("../img/gakvetilebi/Computer-Science/Class-6/Android-graphics-interface-guide-10/cs-6-10-26.svg") no-repeat center top;
+  background-size: cover;
+}
+.background-cs-6-10-27 {
+  background: url("../img/gakvetilebi/Computer-Science/Class-6/Android-graphics-interface-guide-10/cs-6-10-27.svg") no-repeat center top;
+  background-size: cover;
+}
+
 .cs-6-10-1-img {
   height: 53.64vh;
   margin: 8vh auto;
 }
-
 .cs-6-10-3-img {
   height: 73.95vh;
   margin-left: 2vh;
 }
-
 .cs-6-10-4-img {
   height: 40.49vh;
   margin-top: 4vh;
@@ -41782,15 +41966,91 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
+.class_6_11-img_1 {
+  height: 53.9vh;
+  max-height: 414px;
+  margin: 7vh auto;
+}
+
+.class_6_11-img_1 img {
+  height: 100%;
+}
+
+.class_6_11-img_3 {
+  position: fixed;
+  bottom: 14vh;
+  height: 39.4vh;
+  max-height: 302.7px;
+}
+
+.class_6_11-img_4 {
+  position: fixed;
+  bottom: 0;
+  height: 49vh;
+  max-height: 377px;
+}
+
+.class_6_11-img_5 {
+  position: fixed;
+  bottom: 12vh;
+  height: 49.96vh;
+  max-height: 383.75px;
+}
+.class_6_11-img_5 img {
+  height: 100%;
+}
+.class_6_11-img_6 {
+  height: 62.6vh;
+  max-height: 481px;
+}
+
+.newDesign_subject_question_item.bottom {
+  margin-bottom: .8vh;
+}
+
+.ios_page-7 {
+  height: 59vh;
+  max-height: 455px;
+}
+.ios_page-7 img {
+  height: 100%;
+}
+.ios_page-8 {
+  height: 51vh;
+  max-height: 392px;
+}
+.ios_page-8 img {
+  height: 100%;
+}
+.ios_page-9 {
+  height: 49vh;
+  max-height: 376px;
+}
+.ios_page-9 img {
+  height: 100%;
+}
+.ios_page-10 {
+  height: 54vh;
+  max-height: 420px;
+}
+.ios_page-10 img {
+  height: 100%;
+}
+.ios_page-14 {
+  height: 42vh;
+  max-height: 325px;
+}
+.ios_page-14 img {
+  height: 100%;
+}
+
 .cs-6-11-11-img {
   height: 63.02vh;
 }
-
 .cs-6-11-12-img {
   height: 63.36vh;
   margin-top: 8vh;
 }
-
 .cs-6-11-13-img {
   height: 51.04vh;
   margin-top: 7vh;
@@ -41819,28 +42079,57 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 .background-cs-6-11-24 {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-6/ios-graphical-interface-11/cs-6-11-24-img.png");
 }
-
 .background-cs-6-11-25 {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-6/ios-graphical-interface-11/cs-6-11-25-img.png");
 }
-
 .background-cs-6-11-26 {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-6/ios-graphical-interface-11/cs-6-11-26-img.png");
 }
-
 .background-cs-6-11-27 {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-6/ios-graphical-interface-11/cs-6-11-27-img.png");
+}
+
+.product_page-2 {
+  height: 54vh;
+  max-height: 420px;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+.product_page-2 img {
+  height: 100%;
+}
+.product_page-7 {
+  height: 52vh;
+  max-height: 401px;
+}
+.product_page-7 img {
+  height: 100%;
+}
+.product_page-8 {
+  height: 28vh;
+  max-height: 221px;
+}
+.product_page-8 img {
+  height: 100%;
+}
+.product_page-9 {
+  height: 59vh;
+  max-height: 456px;
+}
+.product_page-9 img {
+  height: 100%;
 }
 
 .our-podcast-1 {
   height: 58.54vh;
   max-height: 449.66px;
 }
-
 .our-podcast-1 img {
   height: 100%;
 }
-
 .our-podcast-3 {
   height: 52vh;
   max-height: 400px;
@@ -41863,18 +42152,178 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 41vh;
   max-height: 315px;
 }
-
 .our-podcast-5 img {
   height: 100%;
 }
-
 .our-podcast-6 {
   height: 60vh;
   max-height: 466px;
 }
-
 .our-podcast-6 img {
   height: 100%;
+}
+
+.secure_page-6 {
+  height: 42vh;
+  max-height: 284px;
+}
+.secure_page-6 img {
+  height: 100%;
+}
+.secure_page-7 {
+  height: 52vh;
+  max-height: 366px;
+}
+.secure_page-7 img {
+  height: 100%;
+}
+.secure_page-8 .title td {
+  padding-left: 5vh;
+}
+.secure_page-8 table {
+  -webkit-box-shadow: 0 0 0 2px #62548A;
+          box-shadow: 0 0 0 2px #62548A;
+}
+.secure_page-8 table td {
+  max-height: 45px;
+  width: calc(100% / 3);
+  color: #947DCE;
+  font-size: 18px;
+  height: 4.5vh;
+  border-color: #62548A;
+  position: relative;
+}
+.secure_page-8 table td .box-wrapper {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.secure_page-8 table td .box-wrapper span {
+  border: 8px solid #947DCE;
+  border-radius: 4px;
+  height: 35px;
+  width: 35px;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.secure_page-8 table td .box-wrapper span.active {
+  background: green;
+  border: none;
+}
+
+.secure_page-8 table td .box-wrapper span.active::after {
+  position: absolute;
+  content: ' \2705';
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+
+.secure_page-8 table td .box-wrapper span.wrong {
+  background: red;
+  border: none;
+}
+
+.secure_page-8 table td .box-wrapper span.wrong::after {
+  position: absolute;
+  content: ' \00D7';
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+
+.secure_page-8 table td span {
+  height: inherit;
+  width: inherit;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.secure_page-9 {
+  height: 55vh;
+  max-height: 425px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.secure_page-9 img {
+  height: 100%;
+}
+
+.secure_page-10 {
+  height: 61vh;
+  max-height: 466px;
+}
+
+.secure_page-10 img {
+  height: 100%;
+}
+
+.secure_page-11 {
+  height: 31.25vh;
+  max-height: 240px;
+}
+
+.secure_page-11 img {
+  height: 100%;
+}
+
+.class_6_17-img_18 {
+  height: 33vh;
+  max-height: 255px;
+}
+
+.class_6_17-bg_19 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Secure-digital-world-17/C-6-17-19.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.class_6_17-bg_20 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Secure-digital-world-17/C-6-17-20.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.class_6_17-bg_21 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Secure-digital-world-17/C-6-17-21.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.class_6_17-bg_22 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Secure-digital-world-17/C-6-17-22.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
 .android-graphics-19 {
@@ -41913,11 +42362,9 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
-.android-graphics .background-cs-6-10-24 {
-  background-position: top center;
+.background-cs-6-10-24 {
+  background: url("../img/gakvetilebi/Computer-Science/Class-6/Android-graphics-interface-guide-10/cs-6-10-24.svg") no-repeat center top;
   background-size: cover;
-  background-repeat: no-repeat;
-  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Android-graphics-interface-guide-10/cs-6-10-24.svg");
 }
 
 .secure-digital-world-12 {
@@ -42049,6 +42496,45 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Our-podcast-15/cs-6-15-29.svg");
 }
 
+.class_6_15-img_11 {
+  height: 61.97vh;
+  max-height: 476vh;
+}
+
+.class_6_15-img_12 {
+  height: 48vh;
+}
+
+.class_6_15-img_13 {
+  position: fixed;
+  bottom: 12vh;
+  height: 60.5vh;
+  max-height: 464.8px;
+}
+
+.class_6_15-img_14 {
+  position: fixed;
+  bottom: 0;
+  height: 60.78vh;
+  max-height: 466.8px;
+}
+
+.class_6_15-img_15 {
+  position: fixed;
+  bottom: 0;
+  height: 56.5vh;
+  max-height: 434px;
+}
+
+.class_6_15-img_16 {
+  height: 50.85vh;
+  max-height: 390.59px;
+}
+
+.class_6_15-img_16 img {
+  height: 100%;
+}
+
 .cs-6-15-div-17-img {
   height: 44vh;
 }
@@ -42084,15 +42570,870 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
+.product_page-2 {
+  height: 54vh;
+  max-height: 420px;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+
+.product_page-2 img {
+  height: 100%;
+}
+
+.product_page-7 {
+  height: 52vh;
+  max-height: 401px;
+}
+
+.product_page-7 img {
+  height: 100%;
+}
+
+.product_page-8 {
+  height: 28vh;
+  max-height: 221px;
+}
+
+.product_page-8 img {
+  height: 100%;
+}
+
+.product_page-9 {
+  height: 59vh;
+  max-height: 456px;
+}
+
+.product_page-9 img {
+  height: 100%;
+}
+
+.our-podcast-1 {
+  height: 58.54vh;
+  max-height: 449.66px;
+}
+
+.our-podcast-1 img {
+  height: 100%;
+}
+
+.our-podcast-3 {
+  height: 52vh;
+  max-height: 400px;
+}
+
+.our-podcast-3 img {
+  height: 100%;
+}
+
+.our-podcast-4 {
+  height: 55.4vh;
+  max-height: 426px;
+}
+
+.our-podcast-4 img {
+  height: 100%;
+}
+
+.our-podcast-5 {
+  height: 41vh;
+  max-height: 315px;
+}
+
+.our-podcast-5 img {
+  height: 100%;
+}
+
+.our-podcast-6 {
+  height: 60vh;
+  max-height: 466px;
+}
+
+.our-podcast-6 img {
+  height: 100%;
+}
+
+.secure-digital-world-12 {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  height: 53.9vh;
+  max-height: 414px;
+}
+
+.secure-digital-world-12 img {
+  height: 100%;
+}
+
+.secure-digital-world-13 {
+  height: 53.7vh;
+  max-height: 413px;
+}
+
+.secure-digital-world-13 img {
+  height: 100%;
+}
+
+.secure-digital-world-14 {
+  height: 54.8vh;
+  max-height: 421px;
+}
+
+.secure-digital-world-14 img {
+  height: 100%;
+}
+
+.secure-digital-world-16 {
+  height: 66.14vh;
+  max-height: 508px;
+}
+
+.secure-digital-world-16 img {
+  height: 100%;
+  margin-top: -8vh;
+}
+
+.secure-digital-world-17 {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  height: 56vh;
+  max-height: 431px;
+}
+
+.secure-digital-world-17 img {
+  height: 100%;
+}
+
+.secure_page-6 {
+  height: 42vh;
+  max-height: 284px;
+}
+
+.secure_page-6 img {
+  height: 100%;
+}
+
+.secure_page-7 {
+  height: 52vh;
+  max-height: 366px;
+}
+
+.secure_page-7 img {
+  height: 100%;
+}
+
+.secure_page-8 .title td {
+  padding-left: 5vh;
+}
+
+.secure_page-8 table {
+  -webkit-box-shadow: 0 0 0 2px #62548A;
+          box-shadow: 0 0 0 2px #62548A;
+}
+
+.secure_page-8 table td {
+  max-height: 45px;
+  width: calc(100% / 3);
+  color: #947DCE;
+  font-size: 18px;
+  height: 4.5vh;
+  border-color: #62548A;
+  position: relative;
+}
+
+.secure_page-8 table td .box-wrapper {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.secure_page-8 table td .box-wrapper span {
+  border: 8px solid #947DCE;
+  border-radius: 4px;
+  height: 35px;
+  width: 35px;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.secure_page-8 table td .box-wrapper span.active {
+  background: green;
+  border: none;
+}
+.secure_page-8 table td .box-wrapper span.active::after {
+  position: absolute;
+  content: ' \2705';
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+.secure_page-8 table td .box-wrapper span.wrong {
+  background: red;
+  border: none;
+}
+.secure_page-8 table td .box-wrapper span.wrong::after {
+  position: absolute;
+  content: ' \00D7';
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+.secure_page-8 table td span {
+  height: inherit;
+  width: inherit;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.secure_page-9 {
+  height: 55vh;
+  max-height: 425px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+.secure_page-9 img {
+  height: 100%;
+}
+.secure_page-10 {
+  height: 61vh;
+  max-height: 466px;
+}
+.secure_page-10 img {
+  height: 100%;
+}
+.secure_page-11 {
+  height: 31.25vh;
+  max-height: 240px;
+}
+.secure_page-11 img {
+  height: 100%;
+}
+
+.class_6_17-img_18 {
+  height: 33vh;
+  max-height: 255px;
+}
+.class_6_17-bg_19 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Secure-digital-world-17/C-6-17-19.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.class_6_17-bg_20 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Secure-digital-world-17/C-6-17-20.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.class_6_17-bg_21 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Secure-digital-world-17/C-6-17-21.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.class_6_17-bg_22 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Secure-digital-world-17/C-6-17-22.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.android-graphics-19 {
+  height: 65vh;
+  max-height: 502px;
+}
+.android-graphics-19 img {
+  height: 100%;
+}
+.android-graphics-20 {
+  height: 40vh;
+  max-height: 310px;
+}
+.android-graphics-20 img {
+  height: 100%;
+}
+.android-graphics-22 {
+  height: 47vh;
+  max-height: 366px;
+}
+.android-graphics-22 img {
+  height: 100%;
+}
+.android-graphics-23 {
+  height: 51vh;
+  max-height: 392px;
+}
+.android-graphics-23 img {
+  height: 100%;
+}
+
+.background-cs-6-10-24 {
+  background: url("../img/gakvetilebi/Computer-Science/Class-6/Android-graphics-interface-guide-10/cs-6-10-24.svg") no-repeat center top;
+  background-size: cover;
+}
+
+.secure-digital-world-12 {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  height: 53.9vh;
+  max-height: 414px;
+}
+.secure-digital-world-12 img {
+  height: 100%;
+}
+.secure-digital-world-13 {
+  height: 53.7vh;
+  max-height: 413px;
+}
+.secure-digital-world-13 img {
+  height: 100%;
+}
+.secure-digital-world-14 {
+  height: 54.8vh;
+  max-height: 421px;
+}
+.secure-digital-world-14 img {
+  height: 100%;
+}
+.secure-digital-world-16 {
+  height: 66.14vh;
+  max-height: 508px;
+}
+.secure-digital-world-16 img {
+  height: 100%;
+  margin-top: -8vh;
+}
+.secure-digital-world-17 {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  height: 56vh;
+  max-height: 431px;
+}
+.secure-digital-world-17 img {
+  height: 100%;
+}
+
+.ios-17 {
+  height: 54vh;
+  max-height: 416px;
+}
+.ios-17 img {
+  height: 100%;
+}
+.ios-18 {
+  height: 56.7vh;
+  max-height: 436px;
+}
+.ios-18 img {
+  height: 100%;
+  margin-left: 90vh;
+}
+.ios-19 {
+  height: 47.2vh;
+  max-height: 363px;
+}
+.ios-19 img {
+  height: 100%;
+}
+.ios-20 {
+  height: 53vh;
+  max-height: 410px;
+}
+.ios-20 img {
+  height: 100%;
+}
+.ios-21 {
+  height: 58.5vh;
+  max-height: 450px;
+}
+.ios-21 img {
+  height: 100%;
+  margin-left: 75vh;
+}
+
+.cs-6-15-24-img {
+  height: 17.44vh;
+}
+.cs-6-15-25-img {
+  height: 52.21vh;
+}
+
+.background-cs-6-15 {
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.background-cs-6-15-26 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Our-podcast-15/cs-6-15-26.svg");
+}
+.background-cs-6-15-27 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Our-podcast-15/cs-6-15-27.svg");
+}
+.background-cs-6-15-28 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Our-podcast-15/cs-6-15-28.png");
+}
+.background-cs-6-15-29 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Our-podcast-15/cs-6-15-29.svg");
+}
+
+.class_6_15-img_11 {
+  height: 61.97vh;
+  max-height: 476vh;
+}
+.class_6_15-img_12 {
+  height: 48vh;
+}
+.class_6_15-img_13 {
+  position: fixed;
+  bottom: 12vh;
+  height: 60.5vh;
+  max-height: 464.8px;
+}
+.class_6_15-img_14 {
+  position: fixed;
+  bottom: 0;
+  height: 60.78vh;
+  max-height: 466.8px;
+}
+.class_6_15-img_15 {
+  position: fixed;
+  bottom: 0;
+  height: 56.5vh;
+  max-height: 434px;
+}
+.class_6_15-img_16 {
+  height: 50.85vh;
+  max-height: 390.59px;
+}
+.class_6_15-img_16 img {
+  height: 100%;
+}
+
+.cs-6-15-div-17-img {
+  height: 44vh;
+}
+.cs-6-15-div-18-img {
+  height: 63vh;
+}
+.cs-6-15-div-19-img {
+  height: 60vh;
+}
+.cs-6-15-div-20-img {
+  height: 46.22vh;
+}
+.cs-6-15-div-21-img {
+  height: 39.71vh;
+}
+.cs-6-15-div-22-img {
+  height: 60.28vh;
+  position: absolute;
+  bottom: 0;
+  right: 25.84vw;
+}
+.cs-6-15-div-23-img {
+  height: 42.18vh;
+}
+.cs-6-15-div img {
+  height: 100%;
+}
+
+.product_page-2 {
+  height: 54vh;
+  max-height: 420px;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+}
+.product_page-2 img {
+  height: 100%;
+}
+.product_page-7 {
+  height: 52vh;
+  max-height: 401px;
+}
+.product_page-7 img {
+  height: 100%;
+}
+.product_page-8 {
+  height: 28vh;
+  max-height: 221px;
+}
+.product_page-8 img {
+  height: 100%;
+}
+.product_page-9 {
+  height: 59vh;
+  max-height: 456px;
+}
+.product_page-9 img {
+  height: 100%;
+}
+
+.our-podcast-1 {
+  height: 58.54vh;
+  max-height: 449.66px;
+}
+.our-podcast-1 img {
+  height: 100%;
+}
+.our-podcast-3 {
+  height: 52vh;
+  max-height: 400px;
+}
+.our-podcast-3 img {
+  height: 100%;
+}
+.our-podcast-4 {
+  height: 55.4vh;
+  max-height: 426px;
+}
+.our-podcast-4 img {
+  height: 100%;
+}
+.our-podcast-5 {
+  height: 41vh;
+  max-height: 315px;
+}
+.our-podcast-5 img {
+  height: 100%;
+}
+.our-podcast-6 {
+  height: 60vh;
+  max-height: 466px;
+}
+.our-podcast-6 img {
+  height: 100%;
+}
+
+.secure-digital-world-12 {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  height: 53.9vh;
+  max-height: 414px;
+}
+.secure-digital-world-12 img {
+  height: 100%;
+}
+.secure-digital-world-13 {
+  height: 53.7vh;
+  max-height: 413px;
+}
+.secure-digital-world-13 img {
+  height: 100%;
+}
+.secure-digital-world-14 {
+  height: 54.8vh;
+  max-height: 421px;
+}
+.secure-digital-world-14 img {
+  height: 100%;
+}
+.secure-digital-world-16 {
+  height: 66.14vh;
+  max-height: 508px;
+}
+.secure-digital-world-16 img {
+  height: 100%;
+  margin-top: -8vh;
+}
+.secure-digital-world-17 {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  height: 56vh;
+  max-height: 431px;
+}
+.secure-digital-world-17 img {
+  height: 100%;
+}
+
+.secure_page-6 {
+  height: 42vh;
+  max-height: 284px;
+}
+.secure_page-6 img {
+  height: 100%;
+}
+.secure_page-7 {
+  height: 52vh;
+  max-height: 366px;
+}
+.secure_page-7 img {
+  height: 100%;
+}
+.secure_page-8 .title td {
+  padding-left: 5vh;
+}
+.secure_page-8 table {
+  -webkit-box-shadow: 0 0 0 2px #62548A;
+          box-shadow: 0 0 0 2px #62548A;
+}
+.secure_page-8 table td {
+  max-height: 45px;
+  width: calc(100% / 3);
+  color: #947DCE;
+  font-size: 18px;
+  height: 4.5vh;
+  border-color: #62548A;
+  position: relative;
+}
+.secure_page-8 table td .box-wrapper {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.secure_page-8 table td .box-wrapper span {
+  border: 8px solid #947DCE;
+  border-radius: 4px;
+  height: 35px;
+  width: 35px;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.secure_page-8 table td .box-wrapper span.active {
+  background: green;
+  border: none;
+}
+.secure_page-8 table td .box-wrapper span.active::after {
+  position: absolute;
+  content: ' \2705';
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+.secure_page-8 table td .box-wrapper span.wrong {
+  background: red;
+  border: none;
+}
+.secure_page-8 table td .box-wrapper span.wrong::after {
+  position: absolute;
+  content: ' \00D7';
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+.secure_page-8 table td span {
+  height: inherit;
+  width: inherit;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.secure_page-9 {
+  height: 55vh;
+  max-height: 425px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+.secure_page-9 img {
+  height: 100%;
+}
+.secure_page-10 {
+  height: 61vh;
+  max-height: 466px;
+}
+.secure_page-10 img {
+  height: 100%;
+}
+.secure_page-11 {
+  height: 31.25vh;
+  max-height: 240px;
+}
+.secure_page-11 img {
+  height: 100%;
+}
+
+.class_6_17-img_18 {
+  height: 33vh;
+  max-height: 255px;
+}
+.class_6_17-bg_19 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Secure-digital-world-17/C-6-17-19.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.class_6_17-bg_20 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Secure-digital-world-17/C-6-17-20.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.class_6_17-bg_21 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Secure-digital-world-17/C-6-17-21.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.class_6_17-bg_22 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Secure-digital-world-17/C-6-17-22.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.secure_page-6 {
+  height: 42vh;
+  max-height: 284px;
+}
+.secure_page-6 img {
+  height: 100%;
+}
+.secure_page-7 {
+  height: 52vh;
+  max-height: 366px;
+}
+.secure_page-7 img {
+  height: 100%;
+}
+.secure_page-8 .title td {
+  padding-left: 5vh;
+}
+.secure_page-8 table {
+  box-shadow: 0 0 0 2px #62548A;
+}
+.secure_page-8 table td {
+  max-height: 45px;
+  width: calc(100% / 3);
+  color: #947DCE;
+  font-size: 18px;
+  height: 4.5vh;
+  border-color: #62548A;
+  position: relative;
+}
+.secure_page-8 table td .box-wrapper {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.secure_page-8 table td .box-wrapper span {
+  border: 8px solid #947DCE;
+  border-radius: 4px;
+  height: 35px;
+  width: 35px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.secure_page-8 table td .box-wrapper span.active {
+  background: green;
+  border: none;
+}
+.secure_page-8 table td .box-wrapper span.active::after {
+  position: absolute;
+  content: " ✅";
+  left: 50%;
+  transform: translate(-50%);
+}
+.secure_page-8 table td .box-wrapper span.wrong {
+  background: red;
+  border: none;
+}
+.secure_page-8 table td .box-wrapper span.wrong::after {
+  position: absolute;
+  content: " ×";
+  left: 50%;
+  transform: translate(-50%);
+}
+.secure_page-8 table td span {
+  height: inherit;
+  width: inherit;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.secure_page-9 {
+  height: 55vh;
+  max-height: 425px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+.secure_page-9 img {
+  height: 100%;
+}
+.secure_page-10 {
+  height: 61vh;
+  max-height: 466px;
+}
+.secure_page-10 img {
+  height: 100%;
+}
+.secure_page-11 {
+  height: 31.25vh;
+  max-height: 240px;
+}
+.secure_page-11 img {
+  height: 100%;
+}
+
 .cs-6-17-1-img {
   height: 61.45vh;
   margin: 3vh auto 5vh;
 }
-
 .cs-6-17-3-img {
   height: 55.72vh;
 }
-
 .cs-6-17-4-img {
   height: 54.73vh;
   position: relative;
@@ -42132,6 +43473,189 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .cs-6-17-div img {
   height: 100%;
+}
+
+.cs-6-13-1-img {
+  height: 62.5vh;
+  margin: 3vh auto;
+}
+
+.cs-6-13-3-img {
+  margin-top: 5vh;
+  height: 39.97vh;
+}
+
+.cs-6-13-4-img {
+  margin-top: 3vh;
+  height: 47.78vh;
+}
+
+.cs-6-13-5-img {
+  margin-top: 3vh;
+  height: 41.92vh;
+}
+
+.cs-6-13-6-img {
+  margin-top: 7vh;
+  height: 46.31vh;
+}
+.cloud-services_page-7 {
+  height: 52vh;
+  max-height: 400px;
+}
+.cloud-services_page-7 img {
+  height: 100%;
+}
+.cloud-services_page-8 {
+  height: 64vh;
+  max-height: 490px;
+}
+.cloud-services_page-8 img {
+  height: 100%;
+}
+.cloud-services_page-10 {
+  height: 72vh;
+  max-height: 552px;
+  position: fixed;
+  bottom: 0;
+  right: 4%;
+}
+.cloud-services_page-10 img {
+  height: 100%;
+}
+.cloud-services_page-11 {
+  height: 52vh;
+  max-height: 398px;
+  position: fixed;
+  bottom: 0;
+  right: 30%;
+}
+.cloud-services_page-11 img {
+  height: 100%;
+}
+.cloud-services_page-12 {
+  height: 54vh;
+  max-height: 413px;
+}
+.cloud-services_page-12 img {
+  height: 100%;
+}
+
+.windows_UI-page-23_image-box {
+  max-height: 396px;
+  height: 52vh;
+}
+.windows_UI-page-23_image-box img {
+  height: 100%;
+}
+.windows_UI-page-23_options div:before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  border: 2px solid #696969;
+  border-radius: 8px;
+  display: block;
+  cursor: pointer;
+}
+.windows_UI-page-23_options .active:before {
+  background: #8C7CC9;
+}
+.windows_UI-page-23_options .wrong:before {
+  background: #DC6C85;
+}
+.windows_UI-page-23_options .correct:before {
+  background: #0a4f38;
+}
+.windows_UI-page-23_options p {
+  margin-left: 18px;
+  color: #8C7CC9;
+}
+.windows_UI-page-27_options img {
+  height: 14vh;
+  max-height: 106px;
+}
+.windows_UI-page-27_options .box {
+  width: 25px;
+  height: 25px;
+  border: 2px solid #696969;
+  border-radius: 8px;
+}
+.windows_UI-page-28 {
+  height: 40vh;
+  max-height: 310px;
+}
+.windows_UI-page-28 img {
+  height: 100%;
+}
+.windows_UI-page-29 {
+  height: 48vh;
+  max-height: 371px;
+}
+.windows_UI-page-29 img {
+  height: 100%;
+}
+.windows_UI-page-30 {
+  height: 40vh;
+  max-height: 306px;
+}
+.windows_UI-page-30 img {
+  height: 100%;
+}
+
+.presentation_page-19 {
+  height: 73vh;
+  max-height: 558px;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.presentation_page-19 img {
+  height: 100%;
+}
+.presentation_page-20 {
+  height: 69vh;
+  max-height: 522px;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.presentation_page-20 img {
+  height: 100%;
+}
+.presentation_page-22 {
+  height: 61vh;
+  max-height: 465px;
+  position: fixed;
+  bottom: 0;
+  right: 16%;
+}
+.presentation_page-22 img {
+  height: 100%;
+}
+.presentation_page-23 {
+  height: 75vh;
+  max-height: 577px;
+}
+.presentation_page-23 img {
+  height: 100%;
+}
+.presentation_page-24 {
+  height: 64vh;
+  max-height: 490px;
+  position: fixed;
+  bottom: 0;
+  right: 20%;
+}
+.presentation_page-24 img {
+  height: 100%;
+}
+.presentation_page-24-text {
+  display: inline-block;
+  background: #B7472A;
+  color: #fff;
+  padding: 0 10px;
 }
 
 body {

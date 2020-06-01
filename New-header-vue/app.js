@@ -977,8 +977,8 @@ let title = {
         },
         {
             id: 10,
-            name: 'სათაური',
-            link: '#'
+            name: 'ღრუბლოვანი სერვისები',
+            link: 'Computer-Science/Class-3/Cloud-services-10/1.html'
         },
         {
             id: 11,
@@ -1233,13 +1233,13 @@ let title = {
         },
         {
             id: 12,
-            name: 'სათაური',
-            link: '#'
+            name: 'Windows-ის გრაფიკული ინტერფეისი',
+            link: 'Computer-Science/Class-6/Windows-UI-12/1.html'
         },
         {
             id: 13,
-            name: 'კომპიუტერი 6 კლასი 13 გაკვ',
-            link: '#'
+            name: 'შევქმნათ ჩვენი პრეზენტაცია',
+            link: 'Computer-Science/Class-6/Create-our-presentation-13/1.html'
         },
         {
             id: 14,
@@ -1253,8 +1253,8 @@ let title = {
         },
         {
             id: 16,
-            name: 'სათაური',
-            link: '#'
+            name: 'ჩვენი ტკბილი მოგონებები',
+            link: 'Computer-Science/Class-6/Our-sweet-memories-16/1.html'
         },
         {
             id: 17,
