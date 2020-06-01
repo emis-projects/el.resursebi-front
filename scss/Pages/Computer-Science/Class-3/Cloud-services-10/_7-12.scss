@@ -1,0 +1,52 @@
+.cloud-services_page {
+  &-7 {
+    height: 52vh;
+    max-height: 400px;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &-8 {
+    height: 64vh;
+    max-height: 490px;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &-10 {
+    height: 72vh;
+    max-height: 552px;
+    position: fixed;
+    bottom: 0;
+    right: 4%;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &-11 {
+    height: 52vh;
+    max-height: 398px;
+    position: fixed;
+    bottom: 0;
+    right: 30%;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &-12 {
+    height: 54vh;
+    max-height: 413px;
+
+    img {
+      height: 100%;
+    }
+  }
+}

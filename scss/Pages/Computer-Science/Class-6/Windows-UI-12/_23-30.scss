@@ -1,0 +1,84 @@
+.windows_UI-page {
+  &-23 {
+    &_image-box {
+      max-height: 396px;
+      height: 52vh;
+
+      img {
+        height: 100%;
+      }
+    }
+
+    &_options {
+      div:before {
+        content: '';
+        width: 25px;
+        height: 25px;
+        border: 2px solid #696969;
+        border-radius: 8px;
+        display: block;
+        cursor: pointer;
+      }
+
+      .active:before {
+        background: #8C7CC9;
+      }
+
+      .wrong:before {
+        background: #DC6C85;
+      }
+
+      .correct:before {
+        background: #0a4f38;
+      }
+
+      p {
+        margin-left: 18px;
+        color: #8C7CC9;
+      }
+    }
+  }
+
+  &-27 {
+    &_options {
+      img {
+        height: 14vh;
+        max-height: 106px;
+      }
+
+      .box {
+        width: 25px;
+        height: 25px;
+        border: 2px solid #696969;
+        border-radius: 8px;
+      }
+    }
+  }
+
+  &-28 {
+    height: 40vh;
+    max-height: 310px;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &-29 {
+    height: 48vh;
+    max-height: 371px;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &-30 {
+    height: 40vh;
+    max-height: 306px;
+
+    img {
+      height: 100%;
+    }
+  }
+}
