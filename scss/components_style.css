@@ -2296,6 +2296,12 @@ body {
   transition: all 0.3s;
 }
 
+.reload_game_wrapper {
+  position: fixed;
+  bottom: 9.453125vh;
+  right: 17.057101vw;
+}
+
 .reset__btn {
   background: #fff;
   border-radius: 4vh;
