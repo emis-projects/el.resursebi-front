@@ -1,55 +1,68 @@
-.windows-ui-12{
-    &-15{
-        height:38vh;
-        max-height:294px;
-    img{
-        height:100%;
+.windows-ui-12 {
+    &-15 {
+        height: 38vh;
+        max-height: 294px;
+
+        img {
+            height: 100%;
+        }
     }
+
+    &-16 {
+        height: 48vh;
+        max-height: 370px;
+
+        img {
+            height: 100%;
+        }
     }
-    &-16{
-        height:48vh;
-        max-height:370px;
-    img{
-        height:100%;
+
+    &-17 {
+        height: 46vh;
+        max-height: 356px;
+        left: 65vh;
+        top: 15vh;
+
+        img {
+            height: 100%;
+        }
     }
+
+    &-18 {
+        height: 37.5vh;
+        max-height: 288px;
+
+        img {
+            height: 100%;
+        }
     }
-    &-17{
-        height:46vh;
-        max-height:356px;
-        left:65vh;
-        top:15vh;
-    img{
-        height:100%;
+
+    &-19 {
+        height: 28.64vh;
+        max-height: 220px;
+
+        img {
+            height: 100%;
+        }
     }
+
+    &-20 {
+        height: 62.76vh;
+        max-height: 482px;
+
+        img {
+            height: 100%;
+            top: 24vh;
+            right: 12vh;
+        }
     }
-    &-18{
-        height:37.5vh;
-        max-height:288px;
-    img{
-        height:100%;
-    }
-    }
-    &-19{
-        height:28.64vh;
-        max-height:220px;
-    img{
-        height:100%;
-    }
-    }
-    &-20{
-        height:62.76vh;
-        max-height:482px;
-    img{
-        height:100%;
-        top:24vh;
-        right:12vh;
-    }
-    }
-    
-    &-21{
-        height:52.8vh;
-        max-height:406px;
-    img{
-        height:100%;
+
+    &-21 {
+        height: 52.8vh;
+        max-height: 406px;
+
+        img {
+            height: 100%;
+        }
     }
 }
