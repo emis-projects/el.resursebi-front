@@ -43249,6 +43249,240 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
+.windows-ui-12-15 {
+  height: 38vh;
+  max-height: 294px;
+}
+
+.windows-ui-12-15 img {
+  height: 100%;
+}
+
+.windows-ui-12-16 {
+  height: 48vh;
+  max-height: 370px;
+}
+
+.windows-ui-12-16 img {
+  height: 100%;
+}
+
+.windows-ui-12-17 {
+  height: 46vh;
+  max-height: 356px;
+  left: 65vh;
+  top: 15vh;
+}
+
+.windows-ui-12-17 img {
+  height: 100%;
+}
+
+.windows-ui-12-18 {
+  height: 37.5vh;
+  max-height: 288px;
+}
+
+.windows-ui-12-18 img {
+  height: 100%;
+}
+
+.windows-ui-12-19 {
+  height: 28.64vh;
+  max-height: 220px;
+}
+
+.windows-ui-12-19 img {
+  height: 100%;
+}
+
+.windows-ui-12-20 {
+  height: 62.76vh;
+  max-height: 482px;
+}
+
+.windows-ui-12-20 img {
+  height: 100%;
+  top: 24vh;
+  right: 12vh;
+}
+
+.windows-ui-12-21 {
+  height: 52.8vh;
+  max-height: 406px;
+}
+
+.windows-ui-12-21 img {
+  height: 100%;
+}
+
+.presentation_page-19 {
+  height: 73vh;
+  max-height: 558px;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.presentation_page-19 img {
+  height: 100%;
+}
+
+.presentation_page-20 {
+  height: 69vh;
+  max-height: 522px;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.presentation_page-20 img {
+  height: 100%;
+}
+
+.presentation_page-22 {
+  height: 61vh;
+  max-height: 465px;
+  position: fixed;
+  bottom: 0;
+  right: 16%;
+}
+
+.presentation_page-22 img {
+  height: 100%;
+}
+
+.presentation_page-23 {
+  height: 75vh;
+  max-height: 577px;
+}
+
+.presentation_page-23 img {
+  height: 100%;
+}
+
+.presentation_page-24 {
+  height: 64vh;
+  max-height: 490px;
+  position: fixed;
+  bottom: 0;
+  right: 20%;
+}
+
+.presentation_page-24 img {
+  height: 100%;
+}
+
+.presentation_page-24-text {
+  display: inline-block;
+  background: #B7472A;
+  color: #fff;
+  padding: 0 10px;
+}
+
+.background-cs-6-13 {
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-6-13-25 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Create-our-presentation-13/cs-6-13-25.png");
+}
+
+.background-cs-6-13-26 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Create-our-presentation-13/cs-6-13-26.svg");
+}
+
+.background-cs-6-13-27 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Create-our-presentation-13/cs-6-13-27.svg");
+}
+
+.background-cs-6-13-28 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Create-our-presentation-13/cs-6-13-28.svg");
+}
+
+.memories_page-11 {
+  height: 68vh;
+  max-height: 520px;
+  position: fixed;
+  bottom: 5%;
+  right: 20%;
+}
+
+.memories_page-11 img {
+  height: 100%;
+}
+
+.memories_page-12 {
+  height: 46vh;
+  max-height: 350px;
+}
+
+.memories_page-12 img {
+  height: 100%;
+}
+
+.memories_page-13 {
+  height: 42vh;
+  max-height: 324px;
+}
+
+.memories_page-13 img {
+  height: 100%;
+}
+
+.memories_page-14 {
+  height: 68vh;
+  max-height: 520px;
+}
+
+.memories_page-14_1 {
+  max-width: 314px;
+  position: absolute;
+  right: 0;
+}
+
+.memories_page-14_1-box {
+  max-height: 124px;
+  height: 16vh;
+}
+
+.memories_page-14_1-box img {
+  height: 100%;
+}
+
+.memories_page-14 img {
+  height: 100%;
+}
+
+.memories_page-15 {
+  max-height: 520px;
+}
+
+.memories_page-15_1 {
+  max-width: 204px;
+  position: absolute;
+  right: 0;
+}
+
+.memories_page-15_1-box {
+  max-height: 124px;
+  height: 16vh;
+}
+
+.memories_page-15_1-box img {
+  height: 100%;
+}
+
+.memories_page-15 img {
+  height: 100%;
+}
+
 .class_6_13-img_13 {
   position: fixed;
   bottom: 0;
