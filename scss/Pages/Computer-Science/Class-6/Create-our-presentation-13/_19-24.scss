@@ -1,0 +1,67 @@
+.presentation_page {
+  &-19 {
+    height: 73vh;
+    max-height: 558px;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &-20 {
+    height: 69vh;
+    max-height: 522px;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &-22 {
+    height: 61vh;
+    max-height: 465px;
+    position: fixed;
+    bottom: 0;
+    right: 16%;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &-23 {
+    height: 75vh;
+    max-height: 577px;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &-24 {
+    height: 64vh;
+    max-height: 490px;
+    position: fixed;
+    bottom: 0;
+    right: 20%;
+
+    img {
+      height: 100%;
+    }
+
+    &-text {
+      display: inline-block;
+      background: #B7472A;
+      color: #fff;
+      padding: 0 10px;
+    }
+  }
+}

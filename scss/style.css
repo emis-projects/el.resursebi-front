@@ -3300,6 +3300,12 @@ header nav .header-sound .lang {
   transition: all 0.3s;
 }
 
+.reload_game_wrapper {
+  position: fixed;
+  bottom: 9.453125vh;
+  right: 17.057101vw;
+}
+
 .reset__btn {
   background: #fff;
   border-radius: 4vh;
@@ -5644,12 +5650,6 @@ section .arrow_up_down_downArrow img {
 
 .draggable__answer__btns:focus {
   outline: none;
-}
-
-.reload_game_wrapper {
-  position: absolute;
-  bottom: 14.453125vh;
-  right: 17.057101vw;
 }
 
 .errorImg {
