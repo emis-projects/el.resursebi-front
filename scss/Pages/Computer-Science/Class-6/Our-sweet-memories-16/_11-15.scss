@@ -1,0 +1,78 @@
+.memories_page {
+  &-11 {
+    height: 68vh;
+    max-height: 520px;
+    position: fixed;
+    bottom: 5%;
+    right: 20%;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &-12 {
+    height: 46vh;
+    max-height: 350px;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &-13 {
+    height: 42vh;
+    max-height: 324px;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &-14 {
+    height: 68vh;
+    max-height: 520px;
+
+    &_1 {
+      max-width: 314px;
+      position: absolute;
+      right: 0;
+
+      &-box {
+        max-height: 124px;
+        height: 16vh;
+
+        img {
+          height: 100%;
+        }
+      }
+    }
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &-15 {
+    max-height: 520px;
+
+    &_1 {
+      max-width: 204px;
+      position: absolute;
+      right: 0;
+
+      &-box {
+        max-height: 124px;
+        height: 16vh;
+
+        img {
+          height: 100%;
+        }
+      }
+    }
+
+    img {
+      height: 100%;
+    }
+  }
+}
