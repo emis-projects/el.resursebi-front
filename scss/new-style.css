@@ -42983,6 +42983,27 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
+.cs-3-10-div-3-img {
+  height: 41.53vh;
+}
+
+.cs-3-10-div-4-img {
+  height: 41.66vh;
+}
+
+.cs-3-10-div-6-img {
+  height: 69.66vh;
+}
+
+.cs-3-10-div img {
+  height: 100%;
+}
+
+.cs-3-10-5-div img {
+  height: 18.22vh;
+  margin: auto;
+}
+
 .cloud-services_page-7 {
   height: 52vh;
   max-height: 400px;
@@ -43543,6 +43564,36 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .class_6_13-img_18 img {
+  height: 100%;
+}
+
+.cs-6-12-div-3-img {
+  height: 54vh;
+  position: absolute;
+  bottom: 0;
+  right: 10.24vw;
+}
+
+.cs-6-12-div-4-img {
+  height: 50vh;
+}
+
+.cs-6-12-div-5-img {
+  height: 44vh;
+}
+
+.cs-6-12-div-6-img {
+  height: 48.82vh;
+  position: absolute;
+  bottom: 9.76vh;
+  right: 14.86vw;
+}
+
+.cs-6-12-div-7-img {
+  height: 39.84vh;
+}
+
+.cs-6-12-div img {
   height: 100%;
 }
 
