@@ -8765,9 +8765,9 @@ section .arrow_up_down_downArrow img {
 }
 
 .m_exercise_text-container_16px {
-  color: #0B2228;
-  font-size: 2.08 h;
-  font-family: "BPG Arial";
+    color: #0B2228;
+    font-size: 2.08 h;
+    font-family: "BPG Arial";
 }
 
 .music-andantino-lyrics-div {
@@ -35713,24 +35713,103 @@ img.mfp-img[alt*=cs-3-6-6-img] {
   bottom: 0;
   right: 20%;
 }
+
 .presentation_page-24 img {
-  height: 100%;
+    height: 100%;
 }
+
 .presentation_page-24-text {
-  display: inline-block;
-  background: #B7472A;
-  color: #fff;
-  padding: 0 10px;
+    display: inline-block;
+    background: #B7472A;
+    color: #fff;
+    padding: 0 10px;
+}
+
+.memories_page-11 {
+    height: 68vh;
+    max-height: 520px;
+    position: fixed;
+    bottom: 5%;
+    right: 20%;
+}
+
+.memories_page-11 img {
+    height: 100%;
+}
+
+.memories_page-12 {
+    height: 46vh;
+    max-height: 350px;
+}
+
+.memories_page-12 img {
+    height: 100%;
+}
+
+.memories_page-13 {
+    height: 42vh;
+    max-height: 324px;
+}
+
+.memories_page-13 img {
+    height: 100%;
+}
+
+.memories_page-14 {
+    height: 68vh;
+    max-height: 520px;
+}
+
+.memories_page-14_1 {
+    max-width: 314px;
+    position: absolute;
+    right: 0;
+}
+
+.memories_page-14_1-box {
+    max-height: 124px;
+    height: 16vh;
+}
+
+.memories_page-14_1-box img {
+    height: 100%;
+}
+
+.memories_page-14 img {
+    height: 100%;
+}
+
+.memories_page-15 {
+    max-height: 520px;
+}
+
+.memories_page-15_1 {
+    max-width: 204px;
+    position: absolute;
+    right: 0;
+}
+
+.memories_page-15_1-box {
+    max-height: 124px;
+    height: 16vh;
+}
+
+.memories_page-15_1-box img {
+    height: 100%;
+}
+
+.memories_page-15 img {
+    height: 100%;
 }
 
 body {
-  color: #262626;
-  font-size: 14px;
-  line-height: 21px;
+    color: #262626;
+    font-size: 14px;
+    line-height: 21px;
 }
 
 .flex {
-  display: flex;
+    display: flex;
 }
 
 .justify-between {
