@@ -43168,6 +43168,38 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
+.cs-3-10-21-img {
+  height: 44.53vh;
+  margin-top: 3vh;
+}
+
+.cs-3-10-22-img {
+  height: 44.01vh;
+  margin-top: 3vh;
+}
+
+.background-cs-3-10 {
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-3-10-23 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/Cloud-services-10/cs-3-10-23.svg");
+}
+
+.background-cs-3-10-24 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/Cloud-services-10/cs-3-10-24.svg");
+}
+
+.background-cs-3-10-25 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/Cloud-services-10/cs-3-10-25.svg");
+}
+
+.background-cs-3-10-26 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/Cloud-services-10/cs-3-10-26.svg");
+}
+
 .windows_UI-page-23_image-box {
   max-height: 396px;
   height: 52vh;
