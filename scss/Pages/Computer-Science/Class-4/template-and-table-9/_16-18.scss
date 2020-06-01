@@ -2,31 +2,39 @@
   &-box-16 {
     height: 51vh;
     max-height: 393px;
-    img{
+
+    img {
       height: 100%;
     }
   }
+
   &-box-16-1 {
     height: 38vh;
     max-height: 292px;
-    img{
+
+    img {
       height: 100%;
     }
   }
+
   &-box-9-1 {
     height: 57vh;
     max-height: 443px;
-    img{
+
+    img {
       height: 100%;
     }
   }
+
   &-box-13-1 {
     height: 60vh;
     max-height: 460px;
-    img{
+
+    img {
       height: 100%;
     }
   }
+
   &-box-18 {
     position: fixed;
     bottom: 0;
@@ -34,7 +42,8 @@
     transform: translateX(-50%);
     height: 65vh;
     max-height: 498px;
-    img{
+
+    img {
       height: 100%;
     }
   }
@@ -52,6 +61,7 @@
       background: url("../img/gakvetilebi/Computer-Science/Class-4/template-and-table-9/blue-box.svg") no-repeat center;;
     }
   }
+
   .box-2 {
     width: 44vw;
     max-width: 336px;
@@ -62,7 +72,11 @@
       background: url("../img/gakvetilebi/Computer-Science/Class-4/template-and-table-9/pink-box.svg") no-repeat center;;
     }
   }
-  .reload_game_wrapper{
-    bottom: 11vh;
+
+  .reload_game_wrapper {
+    position: fixed;
+    bottom: 14.453125vh;
+    right: 17.057101vw;
   }
 }
+
