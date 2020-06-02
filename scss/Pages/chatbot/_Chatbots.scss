@@ -5,6 +5,7 @@
     height: 80vh;
     margin-right: 1vw;
 
+
     .bot_header {
       background: #7FD1D8;
       height: 90px;
@@ -141,6 +142,16 @@
           }
         }
       }
+    }
+
+    a.chat_msg_item-text {
+      max-width: 45%;
+      color: rgb(127, 209, 216);
+      padding: 20px 25px;
+      font-family: "DejaVuSans";
+      border-radius: 20px 20px 0px 20px;
+      box-shadow: 2px 2px 8px #7FD1D866;
+      margin-bottom: 20px;
     }
   }
 

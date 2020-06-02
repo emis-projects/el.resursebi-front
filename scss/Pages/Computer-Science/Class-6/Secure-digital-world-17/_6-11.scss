@@ -26,11 +26,10 @@
       box-shadow: 0 0 0 2px #62548A;
 
       td {
-        max-height: 45px;
         width: calc(100% / 3);
+        height: 8.8vh;
         color: #947DCE;
         font-size: 18px;
-        height: 4.5vh;
         border-color: #62548A;
         position: relative;
 
@@ -81,9 +80,6 @@
           height: inherit;
           width: inherit;
           position: absolute;
-          bottom: 0;
-          left: 50%;
-          transform: translate(-50%, -50%);
         }
       }
     }
