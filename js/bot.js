@@ -99,8 +99,6 @@ $(document).ready(function () {
 
 
 
-
-
 function messageTextes(w, div) {
     let text = document.createElement('span');
     $(text).addClass('chat_msg_item-text');
@@ -139,6 +137,8 @@ function sendMessageFromBot(res) {
 
         } else if(w.type == 1){
             // ფოტოების გახსნა
+            console.log(w);
+
             let img = document.createElement('img');
             let a = document.createElement('a');
 
@@ -153,6 +153,8 @@ function sendMessageFromBot(res) {
         } else if(w.type == 2){
             // აუდიოები
 
+            console.log(w);
+
             // sound js
             createjs.Sound.on("fileload", handleLoadComplete);
             createjs.Sound.alternateExtensions = ["wav"];
@@ -162,11 +164,15 @@ function sendMessageFromBot(res) {
             }
 
             function handleLoadstop(event) {
-            createjs.Sound.stop("sound");
+                createjs.Sound.stop("sound");
             }
 
+
             var div1 = document.createElement('div');
+            let parentSpan = document.createElement('span')
             div1.classList.add('voice__maile');
+
+            parentSpan.classList.add('chat_msg_item-text')
 
             var div2 = document.createElement('div')
             div2.className = "voice__mail__child flex align-items-center";
@@ -177,6 +183,7 @@ function sendMessageFromBot(res) {
             img.setAttribute('src', '/img/icons/play-solid.svg');
             img.classList.add('voice-mail-play')
 
+            parentSpan.appendChild(div1)
             div1.appendChild(div2);
             div2.appendChild(img);
 
@@ -203,8 +210,10 @@ function sendMessageFromBot(res) {
 
         } else if(w.type == 3){
             // ლინკები
+ 
             let a = document.createElement('a');
             $(a).attr('href', w.url)
+            $(a).attr('class', "chat_msg_item-text")
             $(a).text(w.text)
             $(a).attr('target', '_blank')
             $(div).append(a)
@@ -212,6 +221,7 @@ function sendMessageFromBot(res) {
         } else if(w.type == 4){
             let a = document.createElement('a');
             $(a).attr('href', w.url)
+            $(a).attr('class', "chat_msg_item-text")
             $(a).text('ვიდეო')
             $(a).attr('target', '_blank')
             $(div).append(a)

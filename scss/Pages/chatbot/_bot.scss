@@ -254,6 +254,17 @@
   margin-bottom: 5px;
 }
 
+.chat .chat_converse .chat_msg_item.chat_msg_item_admin a.chat_msg_item-text {
+  display: block;
+  color: rgb(127, 209, 216);
+  font-family: "DejaVuSans", sans-serif;
+  font-size: 14px;
+  padding: 10px 15px;
+  margin-bottom: 5px;
+  box-shadow: 2px 2px 8px #7FD1D866;
+  border-radius: 20px 20px 20px 0px;
+}
+
 .chat .chat_converse .chat_msg_item.chat_msg_item_user {
   margin-right: 20px;
   max-width: 100%;

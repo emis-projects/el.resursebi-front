@@ -1,38 +1,106 @@
-.android-graphics{
-    &-19{
-        height:65vh;
-        max-height:502px;
-    img{
-        height:100%;
+.android-graphics {
+  &-19 {
+    height: 65vh;
+    max-height: 502px;
+
+    img {
+      height: 100%;
     }
+  }
+
+  &-20 {
+    height: 40vh;
+    max-height: 310px;
+
+    img {
+      height: 100%;
     }
-    &-20{
-        height:40vh;
-        max-height:310px;
-    img{
-        height:100%;
-    }
-    }
-    &-22{
-        height:47vh;
-        max-height:366px;
-    img{
-        height:100%;
-    }
-    }
-    &-23{
-        height:51vh;
-        max-height:392px;
-    img{
-        height:100%;
-    }
-    }
+  }
+
+  &-21 {
+    display: flex;
+
+    &_image {
+      max-height: 80px;
+      max-width: 90px;
     }
 
-    
-.background-cs-6-10-24{
-    background: url("../img/gakvetilebi/Computer-Science/Class-6/Android-graphics-interface-guide-10/cs-6-10-24.svg") no-repeat center top;
-    background-size: cover;
+    &_box {
+      display: flex;
+      align-items: center;
+
+      &:before {
+        content: '';
+        display: inline-block;
+        height: 8vh;
+        width: 8vh;
+        min-width: 50px;
+        min-height: 50px;
+        max-width: 63px;
+        max-height: 63px;
+        border: 4px solid #947DCE;
+        border-radius: 8px;
+      }
+
+      &.active::before {
+        content: '';
+        background: #947dce;
+        border: 8px double #fff;;
+      }
+
+      &.wrong::before {
+        content: '\00D7';
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 700;
+        font-size: 30px;
+        color: #fff;
+        background: #C44545;
+        border: none;
+      }
+
+      &.correct::before {
+        content: '\2713';
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 700;
+        font-size: 30px;
+        color: #fff;
+        background: #1ECB40;
+        border: none;
+      }
+
+      p {
+        color: #947DCE;
+      }
+    }
+  }
+
+  &-22 {
+    height: 47vh;
+    max-height: 366px;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &-23 {
+    height: 51vh;
+    max-height: 392px;
+
+    img {
+      height: 100%;
+    }
+  }
+}
+
+
+.background-cs-6-10-24 {
+  background: url("../img/gakvetilebi/Computer-Science/Class-6/Android-graphics-interface-guide-10/cs-6-10-24.svg") no-repeat center top;
+  background-size: cover;
 }
 
 
