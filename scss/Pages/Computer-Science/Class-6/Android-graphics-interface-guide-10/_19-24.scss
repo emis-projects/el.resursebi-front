@@ -20,6 +20,11 @@
   &-21 {
     display: flex;
 
+    &_image {
+      max-height: 80px;
+      max-width: 90px;
+    }
+
     &_box {
       display: flex;
       align-items: center;

@@ -41997,6 +41997,11 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   display: flex;
 }
 
+.android-graphics-21_image {
+  max-height: 80px;
+  max-width: 90px;
+}
+
 .android-graphics-21_box {
   display: -webkit-box;
   display: -ms-flexbox;
