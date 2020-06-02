@@ -34638,9 +34638,16 @@ img.mfp-img[alt*=cs-3-6-6-img] {
 .android-graphics-20 img {
   height: 100%;
 }
+
 .android-graphics-21 {
   display: flex;
 }
+
+.android-graphics-21_image {
+  max-height: 80px;
+  max-width: 90px;
+}
+
 .android-graphics-21_box {
   display: flex;
   align-items: center;
@@ -36531,39 +36538,31 @@ img.mfp-img[alt*=cs-3-6-6-img] {
   height: 100%;
   margin-left: -3vh;
 }
-
 .our-sweet-memories-16-17_box {
   height: 14vh;
   max-height: 110px;
 }
-
 .our-sweet-memories-16-17_box img {
   height: 100%;
 }
-
 .our-sweet-memories-16-19 {
   height: 72vh;
   max-height: 555px;
 }
-
 .our-sweet-memories-16-19 img {
   height: 100%;
 }
-
 .our-sweet-memories-16-20 {
   height: 42.7vh;
   max-height: 328px;
 }
-
 .our-sweet-memories-16-20 img {
   height: 100%;
 }
-
 .our-sweet-memories-16-21 {
   height: 53.3vh;
   max-height: 410px;
 }
-
 .our-sweet-memories-16-21 img {
   height: 100%;
 }
