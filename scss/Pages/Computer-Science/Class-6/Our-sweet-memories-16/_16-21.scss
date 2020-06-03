@@ -27,6 +27,15 @@
     }
   }
 
+  &-18{
+    height: 65vh;
+    max-height: 505px;
+
+    img {
+      height: 100%;
+    }
+  }
+
   &-19 {
     height: 72vh;
     max-height: 555px;
@@ -53,4 +62,11 @@
       height: 100%;
     }
   }
+}
+
+.our-sweet-memories-16_box{
+  height:14vh;
+img{
+  height:100%;
+}
 }

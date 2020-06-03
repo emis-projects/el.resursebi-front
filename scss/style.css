@@ -269,6 +269,18 @@
   margin-bottom: 5px;
 }
 
+.chat .chat_converse .chat_msg_item.chat_msg_item_admin a.chat_msg_item-text {
+  display: block;
+  color: #7fd1d8;
+  font-family: "DejaVuSans", sans-serif;
+  font-size: 14px;
+  padding: 10px 15px;
+  margin-bottom: 5px;
+  -webkit-box-shadow: 2px 2px 8px #7FD1D866;
+          box-shadow: 2px 2px 8px #7FD1D866;
+  border-radius: 20px 20px 20px 0px;
+}
+
 .chat .chat_converse .chat_msg_item.chat_msg_item_user {
   margin-right: 20px;
   max-width: 100%;
@@ -3302,7 +3314,7 @@ header nav .header-sound .lang {
 
 .reload_game_wrapper {
   position: fixed;
-  bottom: 9.453125vh;
+  bottom: 10.453125vh;
   right: 17.057101vw;
 }
 
@@ -10014,6 +10026,18 @@ section .arrow_up_down_downArrow img {
   font-size: 14px;
   padding: 10px 15px;
   margin-bottom: 5px;
+}
+
+.chat .chat_converse .chat_msg_item.chat_msg_item_admin a.chat_msg_item-text {
+  display: block;
+  color: #7fd1d8;
+  font-family: "DejaVuSans", sans-serif;
+  font-size: 14px;
+  padding: 10px 15px;
+  margin-bottom: 5px;
+  -webkit-box-shadow: 2px 2px 8px #7FD1D866;
+          box-shadow: 2px 2px 8px #7FD1D866;
+  border-radius: 20px 20px 20px 0px;
 }
 
 .chat .chat_converse .chat_msg_item.chat_msg_item_user {

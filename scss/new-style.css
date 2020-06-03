@@ -43650,6 +43650,20 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
+.windows-ui-12-18-box {
+  height: 45px;
+  width: 36px;
+  display: inline;
+  vertical-align: middle;
+}
+
+.windows-ui-12-20-box {
+  height: 32px;
+  width: 34px;
+  display: inline;
+  vertical-align: middle;
+}
+
 .presentation_page-19 {
   height: 73vh;
   max-height: 558px;
@@ -43738,6 +43752,15 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .background-cs-6-13-28 {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Create-our-presentation-13/cs-6-13-28.svg");
+}
+
+.cs-6-13-3-1-div img {
+  height: 32.9vh;
+  margin: auto;
+}
+
+.presentation-box {
+  border: 1px solid black;
 }
 
 .memories_page-11 {
@@ -43988,6 +44011,20 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .windows-ui-12-21 img {
   height: 100%;
+}
+
+.windows-ui-12-18-box {
+  height: 45px;
+  width: 36px;
+  display: inline;
+  vertical-align: middle;
+}
+
+.windows-ui-12-20-box {
+  height: 32px;
+  width: 34px;
+  display: inline;
+  vertical-align: middle;
 }
 
 .cs-6-12-info-3-1-img {
@@ -44367,6 +44404,15 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
+.our-sweet-memories-16-18 {
+  height: 65vh;
+  max-height: 505px;
+}
+
+.our-sweet-memories-16-18 img {
+  height: 100%;
+}
+
 .our-sweet-memories-16-19 {
   height: 72vh;
   max-height: 555px;
@@ -44391,6 +44437,14 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .our-sweet-memories-16-21 img {
+  height: 100%;
+}
+
+.our-sweet-memories-16_box {
+  height: 14vh;
+}
+
+.our-sweet-memories-16_box img {
   height: 100%;
 }
 
@@ -46297,3 +46351,4 @@ body {
     font-size: 14px;
   }
 }
+/*# sourceMappingURL=new-style.css.map */
