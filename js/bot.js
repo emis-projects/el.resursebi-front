@@ -160,7 +160,10 @@ function sendMessageFromBot(res) {
             createjs.Sound.alternateExtensions = ["wav"];
 
             function handleLoadComplete(event) {
+                console.log(event)
+                // console.log(event.target)
                 createjs.Sound.play("sound");
+
             }
 
             function handleLoadstop(event) {
@@ -183,11 +186,11 @@ function sendMessageFromBot(res) {
             img.setAttribute('src', '/img/icons/play-solid.svg');
             img.classList.add('voice-mail-play')
 
-            parentSpan.appendChild(div1)
             div1.appendChild(div2);
             div2.appendChild(img);
+            parentSpan.appendChild(div1)
 
-            $(div).append(div1)
+            $(div).append(parentSpan)
 
             $(img).click((e) => {
                 if(e.target.getAttribute('class') == "voice-mail-play"){
@@ -464,9 +467,9 @@ function type5Functionaly(data, maindiv){
     // type == 1 phone
     // type == 0 link
 
-    // console.log(data);
+    console.log(data)
 
-    data.buttons.forEach(w => {
+    data.replies.forEach(w => {
         if(w.type == 2){
             let div = document.createElement('div');
             let btn = document.createElement('button');
