@@ -160,7 +160,10 @@ function sendMessageFromBot(res) {
             createjs.Sound.alternateExtensions = ["wav"];
 
             function handleLoadComplete(event) {
+                console.log(event)
+                // console.log(event.target)
                 createjs.Sound.play("sound");
+
             }
 
             function handleLoadstop(event) {
@@ -183,11 +186,11 @@ function sendMessageFromBot(res) {
             img.setAttribute('src', '/img/icons/play-solid.svg');
             img.classList.add('voice-mail-play')
 
-            parentSpan.appendChild(div1)
             div1.appendChild(div2);
             div2.appendChild(img);
+            parentSpan.appendChild(div1)
 
-            $(div).append(div1)
+            $(div).append(parentSpan)
 
             $(img).click((e) => {
                 if(e.target.getAttribute('class') == "voice-mail-play"){
@@ -386,7 +389,7 @@ function sendMessage(e) {
 
         success: function (result) {
 
-            // console.log(JSON.parse(result))
+            console.log(JSON.parse(result))
             
             $('#typing__animation').remove()
             
@@ -427,36 +430,36 @@ function messangerTyping(){
 }
 
 
-// $(document).on("click", ".phoneNumber", function (e) {
-//     e.preventDefault();
+$(document).on("click", ".phoneNumber", function (e) {
+    e.preventDefault();
 
-//      if(e.target.classList.contains('phoneNumber')){
-//         let div = e.target;
+     if(e.target.classList.contains('phoneNumber')){
+        let div = e.target;
 
-//         let clonedElement = $(div).clone().text();
+        let clonedElement = $(div).clone().text();
     
-//         let text = $(div).text();
+        let text = $(div).text();
     
-//         let textArea  = document.createElement('textarea');
-//         textArea.width  = "1px"; 
-//         textArea.height = "1px";
-//         textArea.background =  "transparents" ;
-//         textArea.value = text;
-//         document.body.append(textArea);
-//         textArea.select();
-//         document.execCommand('copy');   //No i18n
-//         document.body.removeChild(textArea);
+        let textArea  = document.createElement('textarea');
+        textArea.width  = "1px"; 
+        textArea.height = "1px";
+        textArea.background =  "transparents" ;
+        textArea.value = text;
+        document.body.append(textArea);
+        textArea.select();
+        document.execCommand('copy');   //No i18n
+        document.body.removeChild(textArea);
     
-//         e.target.innerText = "ტექსტი დაკოპირებულია"
-//         $(e.target).removeClass('phoneNumber');
+        e.target.innerText = "ტექსტი დაკოპირებულია"
+        $(e.target).removeClass('phoneNumber');
     
-//         setTimeout(()=> {
-//             $(e.target).text(clonedElement);
-//             $(e.target).addClass('phoneNumber');
-//         }, 1000)
+        setTimeout(()=> {
+            $(e.target).text(clonedElement);
+            $(e.target).addClass('phoneNumber');
+        }, 1000)
     
-//      }
-// });
+     }
+});
 
 
 function type5Functionaly(data, maindiv){
@@ -464,7 +467,7 @@ function type5Functionaly(data, maindiv){
     // type == 1 phone
     // type == 0 link
 
-    // console.log(data);
+    console.log(data)
 
     data.buttons.forEach(w => {
         if(w.type == 2){
