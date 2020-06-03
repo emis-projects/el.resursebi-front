@@ -389,7 +389,7 @@ function sendMessage(e) {
 
         success: function (result) {
 
-            // console.log(JSON.parse(result))
+            console.log(JSON.parse(result))
             
             $('#typing__animation').remove()
             
@@ -430,36 +430,36 @@ function messangerTyping(){
 }
 
 
-// $(document).on("click", ".phoneNumber", function (e) {
-//     e.preventDefault();
+$(document).on("click", ".phoneNumber", function (e) {
+    e.preventDefault();
 
-//      if(e.target.classList.contains('phoneNumber')){
-//         let div = e.target;
+     if(e.target.classList.contains('phoneNumber')){
+        let div = e.target;
 
-//         let clonedElement = $(div).clone().text();
+        let clonedElement = $(div).clone().text();
     
-//         let text = $(div).text();
+        let text = $(div).text();
     
-//         let textArea  = document.createElement('textarea');
-//         textArea.width  = "1px"; 
-//         textArea.height = "1px";
-//         textArea.background =  "transparents" ;
-//         textArea.value = text;
-//         document.body.append(textArea);
-//         textArea.select();
-//         document.execCommand('copy');   //No i18n
-//         document.body.removeChild(textArea);
+        let textArea  = document.createElement('textarea');
+        textArea.width  = "1px"; 
+        textArea.height = "1px";
+        textArea.background =  "transparents" ;
+        textArea.value = text;
+        document.body.append(textArea);
+        textArea.select();
+        document.execCommand('copy');   //No i18n
+        document.body.removeChild(textArea);
     
-//         e.target.innerText = "ტექსტი დაკოპირებულია"
-//         $(e.target).removeClass('phoneNumber');
+        e.target.innerText = "ტექსტი დაკოპირებულია"
+        $(e.target).removeClass('phoneNumber');
     
-//         setTimeout(()=> {
-//             $(e.target).text(clonedElement);
-//             $(e.target).addClass('phoneNumber');
-//         }, 1000)
+        setTimeout(()=> {
+            $(e.target).text(clonedElement);
+            $(e.target).addClass('phoneNumber');
+        }, 1000)
     
-//      }
-// });
+     }
+});
 
 
 function type5Functionaly(data, maindiv){
@@ -469,7 +469,7 @@ function type5Functionaly(data, maindiv){
 
     console.log(data)
 
-    data.replies.forEach(w => {
+    data.buttons.forEach(w => {
         if(w.type == 2){
             let div = document.createElement('div');
             let btn = document.createElement('button');
