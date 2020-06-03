@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <!-- <link rel="stylesheet" href="./scss/new-style.css"> -->
+    <link rel="stylesheet" href="./scss/new-style.css">
     <link rel="stylesheet" href="./scss/libraries/magnific-popup.css">
 </head>
     <style>
@@ -61,33 +61,33 @@
         </form>
     </div>
 
-<script src="./js/libraries/jquery-3.4.1.min.js"></script>
-<script src="./js/libraries/sound.js"></script>
-<script src="./js/libraries/jquery.magnific-popup.min.js"></script>
-<script src="./js/bot.js"></script>
 
+    <script src="./js/libraries/jquery-3.4.1.min.js"></script>
+    <script src="./js/libraries/sound.js"></script>
+    <script src="./js/libraries/jquery.magnific-popup.min.js"></script>
+    <script src="./js/bot.js"></script>
 
-<script>
-    document.getElementById('prime').addEventListener('click', (e) => {
-        let child = e.target.querySelector('div');
+    <script>
+        document.getElementById('prime').addEventListener('click', (e) => {
+            let child = e.target.querySelector('div');
 
-        if(child.className == "chat_img"){
-            child.className = "chat-close"
-            document.querySelector('.chat').setAttribute('style', 'display: block')
-            
-        } else {
-            child.className = "chat_img"
-            document.querySelector('.chat').setAttribute('style', 'display: none')
-        }
-    });
+            if(child.className == "chat_img"){
+                child.className = "chat-close"
+                document.querySelector('.chat').setAttribute('style', 'display: block')
+                
+            } else {
+                child.className = "chat_img"
+                document.querySelector('.chat').setAttribute('style', 'display: none')
+            }
+        });
 
-    var loc = window.location.toString();
-    let params = loc.split('?')[1];
+        var loc = window.location.toString();
+        let params = loc.split('?')[1];
 
-    var res = params.replace(/\D/g, "");
-    
-    $('html').attr('data-botid', res)
+        var res = params.replace(/\D/g, "");
+        
+        $('html').attr('data-botid', res)
 
-</script>
+    </script>
 </body>
 </html>
