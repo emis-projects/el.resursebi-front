@@ -34638,16 +34638,13 @@ img.mfp-img[alt*=cs-3-6-6-img] {
 .android-graphics-20 img {
   height: 100%;
 }
-
 .android-graphics-21 {
   display: flex;
 }
-
 .android-graphics-21_image {
   max-height: 80px;
   max-width: 90px;
 }
-
 .android-graphics-21_box {
   display: flex;
   align-items: center;
