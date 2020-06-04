@@ -99,8 +99,6 @@ $(document).ready(function () {
 
 
 
-
-
 function messageTextes(w, div) {
     let text = document.createElement('span');
     $(text).addClass('chat_msg_item-text');
@@ -139,6 +137,8 @@ function sendMessageFromBot(res) {
 
         } else if(w.type == 1){
             // ფოტოების გახსნა
+            console.log(w);
+
             let img = document.createElement('img');
             let a = document.createElement('a');
 
@@ -153,20 +153,29 @@ function sendMessageFromBot(res) {
         } else if(w.type == 2){
             // აუდიოები
 
+            console.log(w);
+
             // sound js
             createjs.Sound.on("fileload", handleLoadComplete);
             createjs.Sound.alternateExtensions = ["wav"];
 
             function handleLoadComplete(event) {
+                console.log(event)
+                // console.log(event.target)
                 createjs.Sound.play("sound");
+
             }
 
             function handleLoadstop(event) {
-            createjs.Sound.stop("sound");
+                createjs.Sound.stop("sound");
             }
 
+
             var div1 = document.createElement('div');
+            let parentSpan = document.createElement('span')
             div1.classList.add('voice__maile');
+
+            parentSpan.classList.add('chat_msg_item-text')
 
             var div2 = document.createElement('div')
             div2.className = "voice__mail__child flex align-items-center";
@@ -179,8 +188,9 @@ function sendMessageFromBot(res) {
 
             div1.appendChild(div2);
             div2.appendChild(img);
+            parentSpan.appendChild(div1)
 
-            $(div).append(div1)
+            $(div).append(parentSpan)
 
             $(img).click((e) => {
                 if(e.target.getAttribute('class') == "voice-mail-play"){
@@ -203,8 +213,10 @@ function sendMessageFromBot(res) {
 
         } else if(w.type == 3){
             // ლინკები
+ 
             let a = document.createElement('a');
             $(a).attr('href', w.url)
+            $(a).attr('class', "chat_msg_item-text")
             $(a).text(w.text)
             $(a).attr('target', '_blank')
             $(div).append(a)
@@ -212,6 +224,7 @@ function sendMessageFromBot(res) {
         } else if(w.type == 4){
             let a = document.createElement('a');
             $(a).attr('href', w.url)
+            $(a).attr('class', "chat_msg_item-text")
             $(a).text('ვიდეო')
             $(a).attr('target', '_blank')
             $(div).append(a)
@@ -376,7 +389,7 @@ function sendMessage(e) {
 
         success: function (result) {
 
-            // console.log(JSON.parse(result))
+            console.log(JSON.parse(result))
             
             $('#typing__animation').remove()
             
@@ -417,36 +430,36 @@ function messangerTyping(){
 }
 
 
-// $(document).on("click", ".phoneNumber", function (e) {
-//     e.preventDefault();
+$(document).on("click", ".phoneNumber", function (e) {
+    e.preventDefault();
 
-//      if(e.target.classList.contains('phoneNumber')){
-//         let div = e.target;
+     if(e.target.classList.contains('phoneNumber')){
+        let div = e.target;
 
-//         let clonedElement = $(div).clone().text();
+        let clonedElement = $(div).clone().text();
     
-//         let text = $(div).text();
+        let text = $(div).text();
     
-//         let textArea  = document.createElement('textarea');
-//         textArea.width  = "1px"; 
-//         textArea.height = "1px";
-//         textArea.background =  "transparents" ;
-//         textArea.value = text;
-//         document.body.append(textArea);
-//         textArea.select();
-//         document.execCommand('copy');   //No i18n
-//         document.body.removeChild(textArea);
+        let textArea  = document.createElement('textarea');
+        textArea.width  = "1px"; 
+        textArea.height = "1px";
+        textArea.background =  "transparents" ;
+        textArea.value = text;
+        document.body.append(textArea);
+        textArea.select();
+        document.execCommand('copy');   //No i18n
+        document.body.removeChild(textArea);
     
-//         e.target.innerText = "ტექსტი დაკოპირებულია"
-//         $(e.target).removeClass('phoneNumber');
+        e.target.innerText = "ტექსტი დაკოპირებულია"
+        $(e.target).removeClass('phoneNumber');
     
-//         setTimeout(()=> {
-//             $(e.target).text(clonedElement);
-//             $(e.target).addClass('phoneNumber');
-//         }, 1000)
+        setTimeout(()=> {
+            $(e.target).text(clonedElement);
+            $(e.target).addClass('phoneNumber');
+        }, 1000)
     
-//      }
-// });
+     }
+});
 
 
 function type5Functionaly(data, maindiv){
@@ -454,7 +467,7 @@ function type5Functionaly(data, maindiv){
     // type == 1 phone
     // type == 0 link
 
-    // console.log(data);
+    console.log(data)
 
     data.buttons.forEach(w => {
         if(w.type == 2){
