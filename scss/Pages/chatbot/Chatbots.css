@@ -119,7 +119,7 @@
 #chatBots .main-window .chat_input form .btn {
   width: 35px;
   height: 30px;
-  background: url("../img/chatbots/send.svg") center no-repeat;
+  background: url("../../../img/chatbots/send.svg") no-repeat center;
   background-size: contain;
   transform: rotate(45deg);
   box-shadow: none;
