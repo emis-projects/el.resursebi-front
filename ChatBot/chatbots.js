@@ -184,7 +184,7 @@ var bots = new Vue({
         art: false,
         IT: false,
         music: false,
-        nature: false
+        nature: true
     },
     methods: {
         toggleNature() {
