@@ -4,7 +4,6 @@
   height: 80vh;
   margin-right: 1vw;
 }
-
 #chatBots .main-window .bot_header {
   background: #7fd1d8;
   background: linear-gradient(90deg, #7fd1d8 0%, #7fd1d8 45%, white 70%);
@@ -14,7 +13,6 @@
   border-bottom-right-radius: 270px;
   border-top-right-radius: 270px;
 }
-
 #chatBots .main-window .bot_header .bg-box {
   background: #7fd1d8;
   left: 0;
@@ -24,7 +22,6 @@
   border-bottom-right-radius: 40px;
   z-index: 4;
 }
-
 #chatBots .main-window .bot_header:before {
   position: absolute;
   content: "";
@@ -153,7 +150,6 @@
   transform: translateY(-75%);
   height: 80vh;
 }
-
 #chatBots .bots-window svg {
   height: 100%;
 }
