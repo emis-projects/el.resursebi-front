@@ -7,12 +7,23 @@
 
 
     .bot_header {
-      background: #7FD1D8;
+      background: rgb(127, 209, 216);
+      background: linear-gradient(90deg, rgba(127, 209, 216, 1) 0%, rgba(127, 209, 216, 1) 45%, rgba(255, 255, 255, 1) 70%);
       height: 90px;
       top: 5%;
       width: 40%;
       border-bottom-right-radius: 270px;
       border-top-right-radius: 270px;
+
+      .bg-box {
+        background: #7fd1d8;
+        left: 0;
+        right: 0;
+        height: 70%;
+        border-top-right-radius: 40px;
+        border-bottom-right-radius: 40px;
+        z-index: 4;
+      }
 
       &:before {
         position: absolute;
@@ -40,11 +51,15 @@
 
       .title {
         font-family: 'ALK Sanet';
+        position: relative;
+        z-index: 5;
         font-size: 18px;
         color: #fff;
       }
 
       .type-img {
+        position: relative;
+        z-index: 5;
         height: 30px;
         width: 30px;
         margin-right: 20px;
@@ -123,7 +138,7 @@
           .btn {
             width: 35px;
             height: 30px;
-            background: url("../img/chatbots/send.svg") center no-repeat;
+            background: url("../../../img/chatbots/send.svg") no-repeat center;
             background-size: contain;
             transform: rotate(45deg);
             box-shadow: none;

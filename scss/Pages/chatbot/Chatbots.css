@@ -7,12 +7,24 @@
 }
 
 #chatBots .main-window .bot_header {
-  background: #7FD1D8;
+  background: #7fd1d8;
+  background: -webkit-gradient(linear, left top, right top, from(#7fd1d8), color-stop(45%, #7fd1d8), color-stop(70%, white));
+  background: linear-gradient(90deg, #7fd1d8 0%, #7fd1d8 45%, white 70%);
   height: 90px;
   top: 5%;
   width: 40%;
   border-bottom-right-radius: 270px;
   border-top-right-radius: 270px;
+}
+
+#chatBots .main-window .bot_header .bg-box {
+  background: #7fd1d8;
+  left: 0;
+  right: 0;
+  height: 70%;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  z-index: 4;
 }
 
 #chatBots .main-window .bot_header:before {
@@ -41,11 +53,15 @@
 
 #chatBots .main-window .bot_header .title {
   font-family: 'ALK Sanet';
+  position: relative;
+  z-index: 5;
   font-size: 18px;
   color: #fff;
 }
 
 #chatBots .main-window .bot_header .type-img {
+  position: relative;
+  z-index: 5;
   height: 30px;
   width: 30px;
   margin-right: 20px;
@@ -139,7 +155,7 @@
 #chatBots .main-window .chat_input form .btn {
   width: 35px;
   height: 30px;
-  background: url("../../../img/chatbots/send.svg") center no-repeat;
+  background: url("../../../img/chatbots/send.svg") no-repeat center;
   background-size: contain;
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);

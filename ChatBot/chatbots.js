@@ -182,7 +182,7 @@ var bots = new Vue({
     el: '#botsBox',
     data: {
         art: false,
-        IT: false,
+        IT: true,
         music: false,
         nature: false
     },
