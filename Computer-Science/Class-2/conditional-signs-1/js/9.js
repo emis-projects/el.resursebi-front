@@ -166,6 +166,9 @@ function game(){
 
             } else if(loc == "/Computer-Science/Class-5/Information-in-the-table-14/10.html" || loc == "/el.resursebi-front/Computer-Science/Class-5/Information-in-the-table-14/10.html"){
                 location.href = "game-success-10.html"
+
+            } else if(loc == "/Computer-Science/Class-3/Cloud-services-10/5.html" || loc == "/el.resursebi-front/Computer-Science/Class-3/Cloud-services-10/5.html"){
+                location.href = "game-success-5.html"
             }
 
         } else {
