@@ -1,0 +1,36 @@
+.interactive_page{
+  img{
+    height: 100%;
+  }
+  &-6{
+    height: 31vh;
+    max-height: 250px;
+  }
+  &-7{
+    height: 53vh;
+    max-height: 404px;
+    img:first-child{
+      height: 5vh;
+      max-height: 38px;
+      margin-right: 80px;
+    }
+  }
+  &-8{
+    height: 40vh;
+    max-height: 301px;
+  }
+  &-9{
+    position: fixed;
+    bottom: 0;
+    right: 15%;
+    height: 66vh;
+    max-height: 508px;
+  }
+  &-10{
+    position: fixed;
+    bottom: 0;
+    right: 15%;
+    height: 53vh;
+    max-height: 408px;
+  }
+}
