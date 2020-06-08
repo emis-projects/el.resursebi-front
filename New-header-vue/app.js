@@ -920,8 +920,8 @@ let title = {
         },
         {
             id: 11,
-            name: 'სათაური',
-            link: 'Computer-Science/Class-2/...'
+            name: 'ინფორმაციის შენახვა ფიზიკურ გარემოში',
+            link: 'Computer-Science/Class-2/Storing-information-11/1.html'
         },
         {
             id: 12,
@@ -942,8 +942,8 @@ let title = {
         },
         {
             id: 3,
-            name: 'კომპიუტერი 3 კლასი 3 გაკვ',
-            link: '#'
+            name: 'როგორ მუშაობს კომპიუტერი',
+            link: 'Computer-Science/Class-3/How-computer-works-3/1.html'
         },
         {
             id: 4,
@@ -1268,18 +1268,18 @@ let title = {
         },
         {
             id: 19,
-            name: 'სათაური',
-            link: '#'
+            name: 'ჩემი პროექტის პრეზენტაცია',
+            link: 'Computer-Science/Class-6/Presentation-of-my-project-19/1.html'
         },
         {
             id: 20,
-            name: 'სათაური',
-            link: '#'
+            name: 'ინტერაქტიული კონტენტის შექმნა',
+            link: 'Computer-Science/Class-6/Creating-interactive-content-20/1.html'
         },
         {
             id: 21,
-            name: 'სათაური',
-            link: '#'
+            name: 'ინფორმაციული ეთიკის ნორმები',
+            link: 'Computer-Science/Class-6/Information-ethics-norms-21/1.html'
         },
         {
             id: 22,
