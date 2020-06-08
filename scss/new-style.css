@@ -35753,6 +35753,41 @@ img.mfp-img[alt*=cs-3-6-6-img] {
   height: 100%;
 }
 
+.interactive_page img {
+  height: 100%;
+}
+.interactive_page-6 {
+  height: 31vh;
+  max-height: 250px;
+}
+.interactive_page-7 {
+  height: 53vh;
+  max-height: 404px;
+}
+.interactive_page-7 img:first-child {
+  height: 5vh;
+  max-height: 38px;
+  margin-right: 80px;
+}
+.interactive_page-8 {
+  height: 40vh;
+  max-height: 301px;
+}
+.interactive_page-9 {
+  position: fixed;
+  bottom: 0;
+  right: 15%;
+  height: 66vh;
+  max-height: 508px;
+}
+.interactive_page-10 {
+  position: fixed;
+  bottom: 0;
+  right: 15%;
+  height: 53vh;
+  max-height: 408px;
+}
+
 .ethic_page img {
   height: 100%;
 }
