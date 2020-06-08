@@ -35802,6 +35802,225 @@ img.mfp-img[alt*=cs-3-6-6-img] {
   height: 100%;
 }
 
+.pc_page img {
+  height: 100%;
+}
+.pc_page-8 {
+  position: fixed;
+  bottom: 0;
+  right: 15%;
+  max-height: 447px;
+  height: 58vh;
+}
+.pc_page-9 {
+  max-height: 310px;
+  height: 40vh;
+}
+.pc_page-11 {
+  position: relative;
+  max-height: 283px;
+  height: 37vh;
+}
+.pc_page-11 img {
+  position: absolute;
+  left: 0;
+  max-height: 80px;
+  height: 40vh;
+}
+.pc_page-11 img:last-child {
+  bottom: 0;
+}
+.pc_page-11_content {
+  max-height: 170px;
+  height: 22vh;
+}
+.pc_page-11_content .box {
+  position: relative;
+  max-height: 83px;
+  height: 10vh;
+  width: 75%;
+}
+.pc_page-11_content .box .circle-box {
+  border-radius: 100%;
+  height: 11vh;
+  width: 11vh;
+  max-height: 83px;
+  max-width: 83px;
+  background: #947dce;
+}
+.pc_page-11_content .box .triangle {
+  height: 12vh;
+  width: 12vh;
+  max-height: 90px;
+  max-width: 80px;
+  background: url("../img/gakvetilebi/Computer-Science/Class-3/How-computer-works-3/arrow.svg") no-repeat center;
+  background-size: contain;
+}
+.pc_page-11_content .box .triangle span {
+  color: #fff;
+}
+.pc_page-11_content .box .lamp {
+  position: absolute;
+  right: -6%;
+  top: -80%;
+  height: 12vh;
+  width: 12vh;
+  max-height: 90px;
+  max-width: 80px;
+  background: url("../img/gakvetilebi/Computer-Science/Class-3/How-computer-works-3/lamp.svg") no-repeat center;
+}
+.pc_page-11_content .box .line {
+  border-bottom: 5px solid #AAB4D6;
+  width: 170px;
+}
+.pc_page-11_content .box .line-middle {
+  width: 40px;
+  border-bottom: 5px solid #AAB4D6;
+}
+.pc_page-11_content .box .line-up {
+  border-bottom: 5px solid #AAB4D6;
+  border-right: 5px solid #AAB4D6;
+  height: 20px;
+  width: 175px;
+  margin-bottom: 14px;
+}
+.pc_page-12 {
+  position: relative;
+  max-height: 283px;
+  height: 37vh;
+}
+.pc_page-12 img {
+  position: absolute;
+  left: 0;
+  max-height: 80px;
+  height: 40vh;
+}
+.pc_page-12 img:last-child {
+  bottom: 0;
+}
+.pc_page-12_content {
+  max-height: 230px;
+  height: 30vh;
+}
+.pc_page-12_content .circle-box {
+  border-radius: 100%;
+  height: 11vh;
+  width: 11vh;
+  max-height: 83px;
+  max-width: 83px;
+  background: #947dce;
+}
+.pc_page-12_content .triangle {
+  height: 30vh;
+  width: 18vh;
+  max-height: 230px;
+  max-width: 135px;
+  background: url("../img/gakvetilebi/Computer-Science/Class-3/How-computer-works-3/circle.svg") no-repeat center;
+  background-size: contain;
+}
+.pc_page-12_content .triangle span {
+  color: #fff;
+}
+.pc_page-12_content .lamp .lamp {
+  position: absolute;
+  right: -8%;
+  top: 4%;
+  height: 12vh;
+  width: 12vh;
+  max-height: 90px;
+  max-width: 80px;
+}
+.pc_page-12_content .lamp .lamp img {
+  height: 100%;
+}
+.pc_page-12_content .line {
+  border-bottom: 5px solid #AAB4D6;
+  width: 170px;
+}
+.pc_page-12_content .line-middle {
+  width: 40px;
+  border-bottom: 5px solid #AAB4D6;
+}
+.pc_page-12_content .line-up {
+  border-bottom: 5px solid #AAB4D6;
+  border-right: 5px solid #AAB4D6;
+  height: 20px;
+  width: 140px;
+  margin-bottom: 14px;
+}
+.pc_page-13 {
+  position: relative;
+  max-height: 283px;
+  height: 37vh;
+}
+.pc_page-13 img {
+  position: absolute;
+  left: 0;
+  max-height: 80px;
+  height: 40vh;
+}
+.pc_page-13 img:last-child {
+  bottom: 0;
+}
+.pc_page-13_content {
+  max-height: 230px;
+  height: 30vh;
+}
+.pc_page-13_content .circle-box {
+  border-radius: 100%;
+  height: 11vh;
+  width: 11vh;
+  max-height: 83px;
+  max-width: 83px;
+  background: #947dce;
+}
+.pc_page-13_content .triangle {
+  height: 30vh;
+  width: 18vh;
+  max-height: 230px;
+  max-width: 135px;
+  background: url("../img/gakvetilebi/Computer-Science/Class-3/How-computer-works-3/cs-3-3-13.svg") no-repeat center;
+  background-size: contain;
+}
+.pc_page-13_content .triangle span {
+  color: #fff;
+}
+.pc_page-13_content .lamp {
+  position: absolute;
+  right: -8%;
+  top: 4%;
+  height: 12vh;
+  width: 12vh;
+  max-height: 90px;
+  max-width: 80px;
+}
+.pc_page-13_content .lamp img {
+  height: 100%;
+}
+.pc_page-13_content .line {
+  border-bottom: 5px solid #AAB4D6;
+  width: 170px;
+}
+.pc_page-13_content .line-middle {
+  width: 40px;
+  border-bottom: 5px solid #AAB4D6;
+}
+.pc_page-13_content .line-up {
+  border-bottom: 5px solid #AAB4D6;
+  border-right: 5px solid #AAB4D6;
+  height: 20px;
+  width: 140px;
+  margin-bottom: 14px;
+}
+.pc_page-14 {
+  height: 42vh;
+  max-height: 318;
+}
+.pc_page-10 {
+  height: 47vh;
+  max-height: 367px;
+}
+
 .cs-3-3-info-5-1-img {
   height: 41.66vh;
   margin-top: 3vh;
