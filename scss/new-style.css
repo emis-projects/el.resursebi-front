@@ -43947,6 +43947,28 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   max-height: 466px;
 }
 
+.cs-6-21-1-img {
+  height: 62.89vh;
+  margin: 3vh auto;
+}
+
+.cs-6-21-3-img {
+  height: 40.10vh;
+  margin-top: 3vh;
+}
+
+.cs-6-21-4-img {
+  height: 57.29vh;
+  margin-left: 2vh;
+  position: relative;
+  top: -10vh;
+}
+
+.cs-6-21-5-img {
+  height: 40.75vh;
+  margin-top: 3vh;
+}
+
 body {
   color: #262626;
   font-size: 14px;
