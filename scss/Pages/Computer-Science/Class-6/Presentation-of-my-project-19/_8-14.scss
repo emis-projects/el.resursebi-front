@@ -1,0 +1,61 @@
+.presentation_page{
+  img{
+    height: 100%;
+  }
+  &-8{
+    position: fixed;
+    bottom: 10%;
+    height: 47vh;
+    max-height: 364px;
+  }
+  &-9{
+    height: 9vh;
+    max-height: 66px;
+    &_1{
+      height: 15vh;
+      max-height: 118px;
+    }
+    &_2{
+      height: 17vh;
+      max-height: 132px;
+    }
+    &_3{
+      height: 18vh;
+      max-height: 135px;
+    }
+  }
+
+  &-10{
+    position: fixed;
+    bottom: 15%;
+    right: 10%;
+    height: 67vh;
+    max-height: 512px;
+  }
+  &-11{
+    height: 44vh;
+    max-height: 340px;
+  }
+  &-12{
+    position: fixed;
+    right: 20%;
+    top: 22%;
+    height: 37vh;
+    max-height: 286px;
+    &_images{
+      max-height: 37px;
+      height: 5vh;
+      img{
+        height: 100%;
+      }
+    }
+  }
+  &-13{
+    height: 34vh;
+    max-height: 259px;
+  }
+  &-14{
+    height: 48vh;
+    max-height: 372px;
+  }
+}
