@@ -35753,6 +35753,39 @@ img.mfp-img[alt*=cs-3-6-6-img] {
   height: 100%;
 }
 
+.ethic_page img {
+  height: 100%;
+}
+.ethic_page-11 {
+  height: 52vh;
+  max-height: 404px;
+}
+.ethic_page-12 {
+  position: fixed;
+  bottom: 0;
+  right: 10%;
+  height: 48vh;
+  max-height: 367px;
+}
+.ethic_page-13 {
+  position: fixed;
+  bottom: 0;
+  right: 15%;
+  height: 52vh;
+  max-height: 406px;
+}
+.ethic_page-14 {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  height: 56vh;
+  max-height: 431px;
+}
+.ethic_page-15 {
+  height: 61vh;
+  max-height: 466px;
+}
+
 body {
   color: #262626;
   font-size: 14px;
