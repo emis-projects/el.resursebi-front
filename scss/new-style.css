@@ -35753,6 +35753,65 @@ img.mfp-img[alt*=cs-3-6-6-img] {
   height: 100%;
 }
 
+.presentation_page img {
+  height: 100%;
+}
+.presentation_page-8 {
+  position: fixed;
+  bottom: 10%;
+  height: 47vh;
+  max-height: 364px;
+}
+.presentation_page-9 {
+  height: 9vh;
+  max-height: 66px;
+}
+.presentation_page-9_1 {
+  height: 15vh;
+  max-height: 118px;
+}
+.presentation_page-9_2 {
+  height: 17vh;
+  max-height: 132px;
+}
+.presentation_page-9_3 {
+  height: 18vh;
+  max-height: 135px;
+}
+.presentation_page-10 {
+  position: fixed;
+  bottom: 15%;
+  right: 10%;
+  height: 67vh;
+  max-height: 512px;
+}
+.presentation_page-11 {
+  height: 44vh;
+  max-height: 340px;
+}
+.presentation_page-12 {
+  position: fixed;
+  right: 20%;
+  top: 22%;
+  height: 37vh;
+  max-height: 286px;
+}
+.presentation_page-12_images {
+  max-height: 37px;
+  height: 5vh;
+}
+.presentation_page-12_images img {
+  height: 100%;
+}
+.presentation_page-13 {
+  height: 34vh;
+  max-height: 259px;
+}
+.presentation_page-14 {
+  height: 48vh;
+  max-height: 372px;
+}
+
 .interactive_page img {
   height: 100%;
 }
