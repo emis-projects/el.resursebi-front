@@ -5,15 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="./scss/new-style.css">
     <link rel="stylesheet" href="./scss/libraries/magnific-popup.css">
+    <link rel="stylesheet" href="./scss/Pages/chatbot/Newbot.css">
 </head>
     <style>
+
         #prime {
-            position: absolute;
-            right: 0;
-            bottom: 0;
-            z-index: 10;
+            height: 10vh;
+            width: 10vh;
+            max-height: 80px;
+            max-width: 80px;
+            min-height: 60px;
+            min-width: 60px;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            cursor: pointer;
+        }
+
+
+        #chatBot #prime .chat_img {
+            height: 30px;
+            width: 30px;
         }
 
         #prime::after {
@@ -28,37 +47,28 @@
             z-index: 10000;
         }
 
-        .chat {
-            width: 97%; 
-            height: max-content;
-            margin: 5px; 
-            top: 0; 
-            right: 0; 
-            left: 0; 
-            box-shadow: 1px 1px 7px 3px #7FD1D866;
-            border-radius: 30px; 
-            overflow: hidden;
-        }
- 
+
     </style>
 <body>
-
-    <div id="prime">
-        <div class="chat_img"></div>
-    </div>
-
-    <div class="chat" style="display: none;">
-        <div class="chat_header">
-            <div class="head_line"></div>
-            <div class="chat_head"></div>
+    
+    <div id="chatBot">
+        <div id="prime">
+            <div class="chat_img"></div>
         </div>
-
-        <div id="chat_fullscreen" class="chat_conversion chat_converse"></div>
-
-        <form id="formData" class="d-flex align-items-center">
-            <input autocomplete="off" id="chatSend" type="text" name="chat_message" placeholder="კითხე არ მოგერიდოს" class="chat_field chat_message">
-            <button id="sendMessage" type="submit" class="send__mail" disabled="disabled"></button>
-        </form>
+    
+        <div class="chat chat chat_position position-absolute" style="display: none;">
+            <div class="chat_header">
+                <div class="head_line"></div>
+                <div class="chat_head"></div>
+            </div>
+    
+            <div id="chat_fullscreen" class="chat_conversion chat_converse"></div>
+    
+            <form id="formData">
+                <input style="width: 75%" autocomplete="off" id="chatSend" type="text" name="chat_message" placeholder="კითხე არ მოგერიდოს" class="chat_field chat_message">
+                <button id="sendMessage" type="submit" disabled="disabled"></button>
+            </form>
+        </div>
     </div>
 
 
