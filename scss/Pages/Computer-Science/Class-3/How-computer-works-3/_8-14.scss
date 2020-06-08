@@ -1,0 +1,255 @@
+.pc_page {
+  img {
+    height: 100%;
+  }
+
+  &-8 {
+    position: fixed;
+    bottom: 0;
+    right: 15%;
+    max-height: 447px;
+    height: 58vh;
+  }
+
+  &-9 {
+    max-height: 310px;
+    height: 40vh;
+  }
+
+  &-11 {
+    position: relative;
+    max-height: 283px;
+    height: 37vh;
+
+    img {
+      position: absolute;
+      left: 0;
+      max-height: 80px;
+      height: 40vh;
+
+      &:last-child {
+        bottom: 0;
+      }
+    }
+
+    &_content {
+      max-height: 170px;
+      height: 22vh;
+
+      .box {
+        position: relative;
+        max-height: 83px;
+        height: 10vh;
+        width: 75%;
+
+        .circle-box {
+          border-radius: 100%;
+          height: 11vh;
+          width: 11vh;
+          max-height: 83px;
+          max-width: 83px;
+          background: #947dce;
+        }
+
+        .triangle {
+          height: 12vh;
+          width: 12vh;
+          max-height: 90px;
+          max-width: 80px;
+          background: url("../img/gakvetilebi/Computer-Science/Class-3/How-computer-works-3/arrow.svg") no-repeat center;
+          background-size: contain;
+        span{
+          color: #fff;
+        }
+        }
+        .lamp {
+          position: absolute;
+          right: -6%;
+          top: -80%;
+          height: 12vh;
+          width: 12vh;
+          max-height: 90px;
+          max-width: 80px;
+          background: url("../img/gakvetilebi/Computer-Science/Class-3/How-computer-works-3/lamp.svg") no-repeat center;
+        }
+
+        .line {
+          border-bottom: 5px solid #AAB4D6;
+          width: 170px;
+
+          &-middle {
+            width: 40px;
+            border-bottom: 5px solid #AAB4D6;
+          }
+
+          &-up {
+            border-bottom: 5px solid #AAB4D6;
+            border-right: 5px solid #AAB4D6;
+            height: 20px;
+            width: 175px;
+            margin-bottom: 14px;
+          }
+        }
+      }
+    }
+  }
+  &-12 {
+    position: relative;
+    max-height: 283px;
+    height: 37vh;
+
+    img {
+      position: absolute;
+      left: 0;
+      max-height: 80px;
+      height: 40vh;
+
+      &:last-child {
+        bottom: 0;
+      }
+    }
+
+    &_content {
+      max-height: 230px;
+      height: 30vh;
+
+
+        .circle-box {
+          border-radius: 100%;
+          height: 11vh;
+          width: 11vh;
+          max-height: 83px;
+          max-width: 83px;
+          background: #947dce;
+        }
+
+        .triangle {
+          height: 30vh;
+          width: 18vh;
+          max-height: 230px;
+          max-width: 135px;
+          background: url("../img/gakvetilebi/Computer-Science/Class-3/How-computer-works-3/circle.svg") no-repeat center;
+          background-size: contain;
+        span{
+          color: #fff;
+        }
+        }
+        .lamp {
+          .lamp {
+            position: absolute;
+            right: -8%;
+            top: 4%;
+            height: 12vh;
+            width: 12vh;
+            max-height: 90px;
+            max-width: 80px;
+
+            img {
+              height: 100%;
+            }
+          }
+        }
+
+        .line {
+          border-bottom: 5px solid #AAB4D6;
+          width: 170px;
+
+          &-middle {
+            width: 40px;
+            border-bottom: 5px solid #AAB4D6;
+          }
+
+          &-up {
+            border-bottom: 5px solid #AAB4D6;
+            border-right: 5px solid #AAB4D6;
+            height: 20px;
+            width: 140px;
+            margin-bottom: 14px;
+          }
+        }
+
+    }
+  }
+  &-13 {
+    position: relative;
+    max-height: 283px;
+    height: 37vh;
+
+    img {
+      position: absolute;
+      left: 0;
+      max-height: 80px;
+      height: 40vh;
+
+      &:last-child {
+        bottom: 0;
+      }
+    }
+
+    &_content {
+      max-height: 230px;
+      height: 30vh;
+
+
+        .circle-box {
+          border-radius: 100%;
+          height: 11vh;
+          width: 11vh;
+          max-height: 83px;
+          max-width: 83px;
+          background: #947dce;
+        }
+
+        .triangle {
+          height: 30vh;
+          width: 18vh;
+          max-height: 230px;
+          max-width: 135px;
+          background: url("../img/gakvetilebi/Computer-Science/Class-3/How-computer-works-3/cs-3-3-13.svg") no-repeat center;
+          background-size: contain;
+        span{
+          color: #fff;
+        }
+        }
+        .lamp {
+          position: absolute;
+          right: -8%;
+          top: 4%;
+          height: 12vh;
+          width: 12vh;
+          max-height: 90px;
+          max-width: 80px;
+          img{
+            height: 100%;
+          }
+        }
+
+        .line {
+          border-bottom: 5px solid #AAB4D6;
+          width: 170px;
+
+          &-middle {
+            width: 40px;
+            border-bottom: 5px solid #AAB4D6;
+          }
+
+          &-up {
+            border-bottom: 5px solid #AAB4D6;
+            border-right: 5px solid #AAB4D6;
+            height: 20px;
+            width: 140px;
+            margin-bottom: 14px;
+          }
+        }
+
+    }
+  }
+  &-14{
+    height: 42vh;
+    max-height: 318;
+  }
+  &-10{
+    height: 47vh;
+    max-height: 367px;
+  }
+}

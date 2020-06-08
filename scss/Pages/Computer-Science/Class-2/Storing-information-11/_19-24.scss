@@ -1,0 +1,39 @@
+.storing-page{
+  img{
+    height: 100%;
+  }
+  &_19{
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 63vh;
+    max-height: 480px;
+  }
+  &_20{
+    position: fixed;
+    bottom: 0;
+    height: 47vh;
+    max-height: 360px;
+  }
+  &_21{
+    background: url("../img/gakvetilebi/Computer-Science/Class-2/Storing-information-11/cs-2-11-21.svg") no-repeat center;
+    background-size: cover;
+    height: 100vh;
+  }
+  &_22{
+     background: url("../img/gakvetilebi/Computer-Science/Class-2/Storing-information-11/cs-2-11-22.png") no-repeat center;
+    background-size: cover;
+    height: 100vh;
+  }
+  &_23{
+    background: url("../img/gakvetilebi/Computer-Science/Class-2/Storing-information-11/cs-2-11-23.svg") no-repeat center;
+    background-size: cover;
+    height: 100vh;
+  }
+  &_24{
+    background: url("../img/gakvetilebi/Computer-Science/Class-2/Storing-information-11/cs-2-11-24.svg") no-repeat center;
+    background-size: cover;
+    height: 100vh;
+  }
+}
