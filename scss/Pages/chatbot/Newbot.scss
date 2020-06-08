@@ -49,6 +49,8 @@
   #formData {
     padding-bottom: 6px;
     background: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
   
     input {
       padding-left: 30px;
@@ -151,7 +153,7 @@
     box-shadow: none;
     border: 0;
     cursor: pointer;
-    
+
 
     &:disabled {
       cursor: initial;
@@ -202,7 +204,7 @@
   
   .chat_position {
     right: 15px;
-    bottom: 100px;
+    bottom: 130px;
     z-index: 520;
     border-radius: 30px;
     overflow: hidden;
