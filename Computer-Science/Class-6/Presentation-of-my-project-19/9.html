@@ -2,8 +2,8 @@
 <html data-botid="2288" lang="ka">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta content="ie=edge" http-equiv="X-UA-Compatible" />
+    <meta charset="UTF-8"/>
+    <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
     <!-- ყველა გვერდზე -->
     <script src="../../../js/vue.js"></script>
     <!--  ვუე გაშვებისას
@@ -11,8 +11,8 @@
      -->
     <link href="../../../scss/libraries/bootstrap.min.css" rel="stylesheet">
     <link href="../../../New-header-vue/animate.min.css" rel="stylesheet">
-    <link href="../../../scss/new-style.css" rel="stylesheet" />
-    <link href="../../../scss/components_style.css" rel="stylesheet" />
+    <link href="../../../scss/new-style.css" rel="stylesheet"/>
+    <link href="../../../scss/components_style.css" rel="stylesheet"/>
     <title>ელექტრონული საგანმანათლებლო რესურსი</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
@@ -31,85 +31,101 @@
 </head>
 
 <body>
-    <div class="container">
-        <section class="container position-absolute" id="app">
-            <header>
-                <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../../'"></app-menu>
-            </header>
+<div class="container">
+    <section class="container position-absolute" id="app">
+        <header>
+            <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../../'"></app-menu>
+        </header>
 
-            <app-section :is-active="isActive" v-image="'../../../'">
-                <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger" v-on:link-tab="link = $event">
+        <app-section :is-active="isActive" v-image="'../../../'">
+            <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger"
+                     v-on:link-tab="link = $event">
 
-                </app-bar>
-                <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive" :is-info="isInfo" :path="path" :tab-class="currentTabComponent" :trigger="trigger">
-                </component>
+            </app-bar>
+            <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive"
+                       :is-info="isInfo" :path="path" :tab-class="currentTabComponent" :trigger="trigger">
+            </component>
 
-            </app-section>
-        </section>
-        <section id="mainPage">
-            <div class="row">
-                <div class="col-11 m-auto flex_direction_left">
-                    <div class="newDesign_subject_question_item mt-5vh ">
-                        <img alt="img" class="newDesign_subject_question_item-img" src="../../../img/icons/newDesign_btn-yellow.svg">
-                        <p class="newDesign_subject_question_item-title Class_2-title_item_2 big-font-size-20px-dejavu">
-                            გამოიყენე რედაქტირების ინსტრუმენტები და განახორციელე სურათებზე მოცემული მოქმედები:
-                            
-                        </p>
-                    </div>
-                    <div class="newDesign_subject_question_item mt-5vh ">
-                        <img alt="img" class="newDesign_subject_question_item-img" src="../../../img/icons/newDesign_btn-yellow.svg" style="visibility: hidden;">
-                        <p class="newDesign_subject_question_item-title Class_2-title_item_2 big-font-size-20px-dejavu">
-                            1. ვიდეოს სათაურის გაკეთება; 
-                        </p>
-                    </div>
-                    <div class="newDesign_subject_question_item mt-5vh ">
-                        <img alt="img" class="newDesign_subject_question_item-img" src="../../../img/icons/newDesign_btn-yellow.svg" style="visibility: hidden;">
-                        <p class="newDesign_subject_question_item-title Class_2-title_item_2 big-font-size-20px-dejavu">
-                            2. სათაურის ფონის არჩევა.
-                        </p>
+        </app-section>
+    </section>
+    <section id="mainPage">
+        <div class="row">
+            <div class="col-10 m-auto mt-5vh">
+                <div class="newDesign_subject_question_item align-items-center mt-3vh">
+                    <img alt="img" class="newDesign_subject_question_item-img"
+                         src="../../../img/icons/newDesign_btn-yellow.svg">
+                    <p class="newDesign_subject_question_item-title big-font-size-20px-dejavu">მოძებნე office 365-ის
+                        პროგრამებში PowerPoint.</p>
+                    <div class="presentation_page-9 presentation_page">
+                        <img src="../../../img/gakvetilebi/Computer-Science/Class-6/Presentation-of-my-project-19/Pp.svg" alt="powerpoint">
                     </div>
                 </div>
-               
-                            
-                <div class="col-11 d-flex m-auto  cs-6-16-div-9-img  cs-6-16-div ">
-                    <img alt="img" src="../../../img/gakvetilebi/Computer-Science/Class-6/Our-sweet-memories-16/cs-6-16-9-img.png">
+
+
+                <div class="newDesign_subject_question_item align-items-center ">
+                    <img alt="img" class="newDesign_subject_question_item-img"
+                         src="../../../img/icons/newDesign_btn-yellow.svg">
+                    <p class="newDesign_subject_question_item-title big-font-size-20px-dejavu">ჩართე და მოძებნე “ცარიელი
+                        პრეზენტაცია” (Blank Presentation).</p>
+                    <div class="presentation_page-9_1 presentation_page">
+                        <img src="../../../img/gakvetilebi/Computer-Science/Class-6/Presentation-of-my-project-19/cs-6-19-9-1.png" alt="powerpoint">
+                    </div>
                 </div>
+
+                <div class="newDesign_subject_question_item align-items-center mb-5vh">
+                    <img alt="img" class="newDesign_subject_question_item-img"
+                         src="../../../img/icons/newDesign_btn-yellow.svg">
+                    <p class="newDesign_subject_question_item-title big-font-size-20px-dejavu">შექმენი ახალი ფაილი.</p>
+                    <div class="presentation_page-9_2 presentation_page">
+                        <img src="../../../img/gakvetilebi/Computer-Science/Class-6/Presentation-of-my-project-19/cs-6-19-9-2.png" alt="powerpoint">
+                    </div>
+                </div>
+                <div class="newDesign_subject_question_item align-items-center mb-5vh">
+                    <img alt="img" class="newDesign_subject_question_item-img"
+                         src="../../../img/icons/newDesign_btn-yellow.svg">
+                    <p class="newDesign_subject_question_item-title big-font-size-20px-dejavu">დაამატე მას 5 სლაიდი,
+                        ყველას გაუკეთე სათაურებისა და ძირითადი ტექსტის ჩასაწერი ველები (Title and Content).</p>
+                    <div class="presentation_page-9_3 presentation_page">
+                        <img src="../../../img/gakvetilebi/Computer-Science/Class-6/Presentation-of-my-project-19/cs-6-19-9-3.png" alt="powerpoint">
+                    </div>
+                </div>
+
             </div>
-                
-            <div class="left_components_paging-cont" id="leftNav">
-                <left-nav-item></left-nav-item>
-            </div>
+        </div>
+        <div class="left_components_paging-cont" id="leftNav">
+            <left-nav-item></left-nav-item>
+        </div>
 
-            <div class="our__pagination flex">
-                <a class="pagination__prev__btn" href="#">
-                    <img alt="" src="../../../img/icons/chevron-left-icon.svg" style="transform: rotate(180deg)">
-                </a>
+        <div class="our__pagination flex">
+            <a class="pagination__prev__btn" href="#">
+                <img alt="" src="../../../img/icons/chevron-left-icon.svg" style="transform: rotate(180deg)">
+            </a>
 
-                <div class="flex align-items-center" id="pagination"></div>
+            <div class="flex align-items-center" id="pagination"></div>
 
-                <a class="pagination__next__btn" href="#">
-                    <img alt="" src="../../../img/icons/chevron-left-icon.svg">
-                </a>
-            </div>
+            <a class="pagination__next__btn" href="#">
+                <img alt="" src="../../../img/icons/chevron-left-icon.svg">
+            </a>
+        </div>
 
-        </section>
-    </div>
-
-
-    <!-- ჩეთბოტი -->
-    <div id="chatBot">
-        <app-bot></app-bot>
-    </div>
-
-    <script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
-    <script src="../../../js/libraries/jquery.magnific-popup.min.js"></script>
-    <script src="../../../js/Pagination.js"></script>
+    </section>
+</div>
 
 
-    <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
-    <script src="../../../New-header-vue/app.js"></script>
-    <script src="../../../Vue-chatBot/botApp.js"></script>
-    <script src="../../../js/bot.js"></script>
+<!-- ჩეთბოტი -->
+<div id="chatBot">
+    <app-bot></app-bot>
+</div>
+
+<script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
+<script src="../../../js/libraries/jquery.magnific-popup.min.js"></script>
+<script src="../../../js/Pagination.js"></script>
+
+
+<!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
+<script src="../../../New-header-vue/app.js"></script>
+<script src="../../../Vue-chatBot/botApp.js"></script>
+<script src="../../../js/bot.js"></script>
 
 
 </body>
