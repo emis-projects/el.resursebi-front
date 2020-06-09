@@ -43477,6 +43477,60 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
+.storing-information-6-1 {
+  height: 58vh;
+  max-height: 450px;
+}
+
+.storing-information-6-1 img {
+  height: 100%;
+}
+
+.storing-information-7-1 {
+  height: 50.2vh;
+  max-height: 386px;
+}
+
+.storing-information-7-1 img {
+  height: 100%;
+}
+
+.storing-information-9-1 {
+  height: 59vh;
+  max-height: 460px;
+}
+
+.storing-information-9-1 img {
+  height: 100%;
+}
+
+.storing-information-12-1 {
+  height: 50.52vh;
+  max-height: 388px;
+}
+
+.storing-information-12-1 img {
+  height: 100%;
+}
+
+.storing-information-14-1 {
+  height: 65vh;
+  max-height: 503px;
+}
+
+.storing-information-14-1 img {
+  height: 100%;
+}
+
+.storing-information-14-1 {
+  height: 60vh;
+  max-height: 461px;
+}
+
+.storing-information-14-1 img {
+  height: 100%;
+}
+
 .class_3_3-img_1 {
   height: 55.33vh;
   max-height: 425px;
@@ -43669,6 +43723,54 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   max-height: 372px;
 }
 
+.presentation-of-my-project-19-15 {
+  height: 56.77vh;
+  max-height: 436px;
+}
+
+.presentation-of-my-project-19-15 img {
+  height: 100%;
+}
+
+.presentation-of-my-project-19-16 {
+  height: 27.6vh;
+  max-height: 212px;
+}
+
+.presentation-of-my-project-19-16 img {
+  height: 100%;
+}
+
+.presentation-of-my-project-19-17 {
+  height: 48.6vh;
+  max-height: 374px;
+}
+
+.presentation-of-my-project-19-17 img {
+  height: 100%;
+}
+
+.presentation-of-my-project-19-18-1 {
+  height: 15.8vh;
+  max-height: 122px;
+}
+
+.presentation-of-my-project-19-18-1 img {
+  height: 100%;
+}
+
+.presentation-of-my-project-19-18-2 {
+  height: 19.14vh;
+  max-height: 147px;
+  position: fixed;
+  margin-top: 5vh;
+  margin-left: 50vh;
+}
+
+.presentation-of-my-project-19-18-2 img {
+  height: 100%;
+}
+
 .interactive_page img {
   height: 100%;
 }
@@ -43746,6 +43848,73 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 .ethic_page-15 {
   height: 61vh;
   max-height: 466px;
+}
+
+.ethic_page-16 {
+  height: 66.9vh;
+  max-height: 514px;
+}
+
+.ethic_page-16 img {
+  height: 100%;
+}
+
+.ethic_page-17 {
+  height: 48.5vh;
+  max-height: 373px;
+}
+
+.ethic_page-17 img {
+  height: 100%;
+}
+
+.background-cs-6-21 {
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-6-21-18 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Information-ethics-norms-21/cs-6-21-18.svg");
+}
+
+.background-cs-6-21-19 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Information-ethics-norms-21/cs-6-21-19.svg");
+}
+
+.background-cs-6-21-20 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Information-ethics-norms-21/cs-6-21-20.svg");
+}
+
+.background-cs-6-21-21 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Information-ethics-norms-21/cs-6-21-21.svg");
+}
+
+.ethic_page-5-1 {
+  height: 58.07vh;
+  max-height: 446px;
+}
+
+.ethic_page-5-1 img {
+  height: 100%;
+}
+
+.ethic_page-6-1 {
+  height: 55.33vh;
+  max-height: 425px;
+}
+
+.ethic_page-6-1 img {
+  height: 100%;
+  position: fixed;
+  bottom: 0;
+  right: 2vh;
+}
+
+.ethic_page-5-1-div {
+  position: fixed;
+  bottom: 20vh;
+  right: 57vh;
 }
 
 body {
