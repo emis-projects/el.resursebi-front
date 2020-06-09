@@ -1,0 +1,25 @@
+.ethic_page{
+    &-5-1{
+      height:58.07vh;
+      max-height:446px;
+    img{
+        height:100%;
+    }
+    }
+    &-6-1{
+        height:55.33vh;
+        max-height:425px;
+      img{
+          height:100%;
+          position:fixed;
+          bottom:0;
+          right:2vh;
+      }
+    }
+}
+
+.ethic_page-5-1-div{
+    position:fixed;
+    bottom:20vh;
+    right:57vh;
+}
