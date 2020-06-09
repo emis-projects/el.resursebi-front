@@ -1,0 +1,25 @@
+.cs-3-3-div {
+    &-19-img {
+        height:63.15vh;
+        position: absolute;
+        bottom:10vh;
+        right:10vw;
+    }
+    &-20-img {
+        height:42.31vh;
+        position: absolute;
+        bottom:0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    &-21-img {
+        height:58.98vh;
+        position: absolute;
+        bottom:11.31vh;
+        right:11.05vw;
+    }
+    img {
+        height: 100%;
+    }
+}
