@@ -1,8 +1,8 @@
 @charset "UTF-8";
 #chatBot {
-  bottom: 3px;
-  right: 0;
+  bottom: 11vh;
   position: absolute;
+  right: 10%;
 }
 
 #chatBot .chatBot-box {
@@ -46297,4 +46297,3 @@ body {
     font-size: 14px;
   }
 }
-/*# sourceMappingURL=new-style.css.map */
