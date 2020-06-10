@@ -43613,6 +43613,40 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   margin-top: 2vh;
 }
 
+.cs-2-11-div-7-img {
+  height: 45.96vh;
+}
+
+.cs-2-11-div-8-img {
+  height: 50.39vh;
+}
+
+.cs-2-11-div-9-img {
+  height: 49.47vh;
+  position: absolute;
+  bottom: 5.59vh;
+  right: 17.05vw;
+}
+
+.cs-2-11-div-10-img {
+  height: 52.86vh;
+}
+
+.cs-2-11-div-11-img {
+  height: 61.97vh;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.cs-2-11-div-12-img {
+  height: 37.36vh;
+}
+
+.cs-2-11-div img {
+  height: 100%;
+}
+
 .class_3_3-img_1 {
   height: 55.33vh;
   max-height: 425px;
@@ -43951,12 +43985,23 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .computer-works-3-17 {
-  height: 65vh;
-  max-height: 504px;
+  height: 46.3vh;
+  max-height: 356px;
 }
 
 .computer-works-3-17 img {
   height: 100%;
+}
+
+.computer-works-3-18 {
+  height: 54.16vh;
+  max-height: 416px;
+  right: 20vh;
+}
+
+.computer-works-3-18 img {
+  height: 100%;
+  margin-top: -32vh;
 }
 
 .cs-3-3-info-5-1-img {
@@ -43991,6 +44036,101 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   margin-left: 2vh;
   position: relative;
   top: -30vh;
+}
+
+.cs-3-3-div-19-img {
+  height: 63.15vh;
+  position: absolute;
+  bottom: 10vh;
+  right: 10vw;
+}
+
+.cs-3-3-div-20-img {
+  height: 42.31vh;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.cs-3-3-div-21-img {
+  height: 58.98vh;
+  position: absolute;
+  bottom: 11.31vh;
+  right: 11.05vw;
+}
+
+.cs-3-3-div img {
+  height: 100%;
+}
+
+.background-cs-3-3 {
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-3-3-22 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/How-computer-works-3/cs-3-3-22.png");
+}
+
+.background-cs-3-3-23 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/How-computer-works-3/cs-3-3-23.svg");
+}
+
+.background-cs-3-3-24 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/How-computer-works-3/cs-3-3-24.svg");
+}
+
+.background-cs-3-3-25 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/How-computer-works-3/cs-3-3-25.svg");
+}
+
+.cs-6-19-div-3-img {
+  height: 42.44vh;
+}
+
+.cs-6-19-div-4-img {
+  height: 52.86vh;
+  position: absolute;
+  bottom: 0;
+  right: 5.49vw;
+}
+
+.cs-6-19-div-5-img {
+  height: 20.83vh;
+}
+
+.cs-6-19-div-6-img {
+  height: 15.75vh;
+}
+
+.cs-6-19-div-7-5-img {
+  height: 19.14vh;
+  position: absolute;
+  bottom: 35.56vh;
+  left: 35.47vw;
+}
+
+.cs-6-19-div img {
+  height: 100%;
+}
+
+.cs-6-19-div-7-1-img {
+  height: 11.1vh;
+}
+
+.cs-6-19-div-7-2-img {
+  height: 15.66vh;
+}
+
+.cs-6-19-div-7-3-img {
+  height: 16.31vh;
+}
+
+.cs-6-19-div-7-4-img {
+  height: 19.96vh;
 }
 
 .presentation_page img {
@@ -44212,6 +44352,39 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
+.cs-6-20-div-3-img {
+  height: 61.45vh;
+  position: absolute;
+  bottom: 0;
+  right: 9.49vw;
+}
+
+.cs-6-20-div-4-img {
+  height: 52.6vh;
+  position: absolute;
+  bottom: 0;
+  right: 5.49vw;
+}
+
+.cs-6-20-div-5-1-img {
+  height: 53.25vh;
+  position: absolute;
+  bottom: 0;
+  right: 2.49vw;
+}
+
+.cs-6-20-div-5-blocks-img {
+  height: 5.72vh;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 4vh auto auto auto;
+}
+
+.cs-6-20-div img {
+  height: 100%;
+}
+
 .interactive_page img {
   height: 100%;
 }
@@ -44276,6 +44449,59 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 .cs-6-20-17-img {
   height: 56.25vh;
   margin-top: 4vh;
+}
+
+.go {
+  height: 37px;
+  width: 105px;
+  display: inline;
+  vertical-align: middle;
+}
+
+.click {
+  height: 35px;
+  width: 137px;
+  display: inline;
+  vertical-align: middle;
+}
+
+.normal {
+  height: 34px;
+  width: 236px;
+  display: inline;
+  vertical-align: middle;
+}
+
+.cs-6-20-12-1 {
+  height: 38px;
+  width: 108px;
+  display: inline;
+  vertical-align: middle;
+}
+
+.content-20_12 {
+  height: 65vh;
+  max-height: 501px;
+}
+
+.content-20_12 img {
+  height: 100%;
+}
+
+.content-20_13 {
+  height: 40vh;
+  max-height: 314px;
+}
+
+.content-20_13 img {
+  height: 100%;
+}
+
+.cs-6-20-13-1 {
+  height: 38px;
+  width: 108px;
+  display: inline;
+  vertical-align: middle;
 }
 
 .class_6_20-img_14 {
@@ -44386,6 +44612,11 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   right: 57vh;
 }
 
+.ethic_page-6-1-div {
+  bottom: 0;
+  right: 0;
+}
+
 .cs-6-21-1-img {
   height: 62.89vh;
   margin: 3vh auto;
@@ -44406,6 +44637,79 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 .cs-6-21-5-img {
   height: 40.75vh;
   margin-top: 3vh;
+}
+
+.ethic_page-16 {
+  height: 66.9vh;
+  max-height: 514px;
+}
+
+.ethic_page-16 img {
+  height: 100%;
+}
+
+.ethic_page-17 {
+  height: 48.5vh;
+  max-height: 373px;
+}
+
+.ethic_page-17 img {
+  height: 100%;
+}
+
+.background-cs-6-21-18 {
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Information-ethics-norms-21/cs-6-21-18.svg");
+}
+
+.background-cs-6-21-19 {
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Information-ethics-norms-21/cs-6-21-19.svg");
+}
+
+.background-cs-6-21-20 {
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Information-ethics-norms-21/cs-6-21-20.svg");
+}
+
+.background-cs-6-21-21 {
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Information-ethics-norms-21/cs-6-21-21.svg");
+}
+
+.cs-6-21-div-6-img {
+  height: 37.76vh;
+}
+
+.cs-6-21-div-7-img {
+  height: 51.17vh;
+}
+
+.cs-6-21-div-8-img {
+  height: 44.66vh;
+}
+
+.cs-6-21-div-9-img {
+  height: 67.83vh;
+  position: absolute;
+  bottom: 0;
+  right: 5.04vw;
+}
+
+.cs-6-21-div-10 {
+  height: 51.04vh;
+}
+
+.cs-6-21-div img {
+  height: 100%;
 }
 
 body {
