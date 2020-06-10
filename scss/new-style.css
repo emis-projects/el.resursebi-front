@@ -43985,12 +43985,23 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .computer-works-3-17 {
-  height: 65vh;
-  max-height: 504px;
+  height: 46.3vh;
+  max-height: 356px;
 }
 
 .computer-works-3-17 img {
   height: 100%;
+}
+
+.computer-works-3-18 {
+  height: 54.16vh;
+  max-height: 416px;
+  right: 20vh;
+}
+
+.computer-works-3-18 img {
+  height: 100%;
+  margin-top: -32vh;
 }
 
 .cs-3-3-info-5-1-img {
@@ -44440,6 +44451,59 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   margin-top: 4vh;
 }
 
+.go {
+  height: 37px;
+  width: 105px;
+  display: inline;
+  vertical-align: middle;
+}
+
+.click {
+  height: 35px;
+  width: 137px;
+  display: inline;
+  vertical-align: middle;
+}
+
+.normal {
+  height: 34px;
+  width: 236px;
+  display: inline;
+  vertical-align: middle;
+}
+
+.cs-6-20-12-1 {
+  height: 38px;
+  width: 108px;
+  display: inline;
+  vertical-align: middle;
+}
+
+.content-20_12 {
+  height: 65vh;
+  max-height: 501px;
+}
+
+.content-20_12 img {
+  height: 100%;
+}
+
+.content-20_13 {
+  height: 40vh;
+  max-height: 314px;
+}
+
+.content-20_13 img {
+  height: 100%;
+}
+
+.cs-6-20-13-1 {
+  height: 38px;
+  width: 108px;
+  display: inline;
+  vertical-align: middle;
+}
+
 .class_6_20-img_14 {
   position: fixed;
   bottom: 0;
@@ -44548,6 +44612,11 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   right: 57vh;
 }
 
+.ethic_page-6-1-div {
+  bottom: 0;
+  right: 0;
+}
+
 .cs-6-21-1-img {
   height: 62.89vh;
   margin: 3vh auto;
@@ -44568,6 +44637,52 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 .cs-6-21-5-img {
   height: 40.75vh;
   margin-top: 3vh;
+}
+
+.ethic_page-16 {
+  height: 66.9vh;
+  max-height: 514px;
+}
+
+.ethic_page-16 img {
+  height: 100%;
+}
+
+.ethic_page-17 {
+  height: 48.5vh;
+  max-height: 373px;
+}
+
+.ethic_page-17 img {
+  height: 100%;
+}
+
+.background-cs-6-21-18 {
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Information-ethics-norms-21/cs-6-21-18.svg");
+}
+
+.background-cs-6-21-19 {
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Information-ethics-norms-21/cs-6-21-19.svg");
+}
+
+.background-cs-6-21-20 {
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Information-ethics-norms-21/cs-6-21-20.svg");
+}
+
+.background-cs-6-21-21 {
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Information-ethics-norms-21/cs-6-21-21.svg");
 }
 
 .cs-6-21-div-6-img {
