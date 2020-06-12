@@ -31,17 +31,6 @@ botImgsArray.filter(w => {
 })
 
 
-$(function() {
-    $.ajax({
-        type: "GET",
-        url: `https://www.animachatbotics.com/Home/EmbedChatbotImg/2288`,
-        success: function (result) {
-            console.log(result);
-        },
-        dataType: 'json',
-        contentType: 'application/json'
-    })
-});
 
 
 // ეს კოდი ქუქიში წერს user_Id -ს მომხმარებელი როგორცკი შემოდის საიტზე ქუქიში იწერება მომხმარებლის IP და აიპზე მიწერილი რენდომი
