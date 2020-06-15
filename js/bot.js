@@ -36,8 +36,21 @@ botImgsArray.filter(w => {
 // ეს კოდი ქუქიში წერს user_Id -ს მომხმარებელი როგორცკი შემოდის საიტზე ქუქიში იწერება მომხმარებლის IP და აიპზე მიწერილი რენდომი
 // როცა მომხმარებელი ლოგინდება ქუქის ვასუფთავებ და ქუქიში იწერება მომხმარებლის ID
 // ეს ყველაფერი მაქვს ცალკე ფაილში და ისე მაქვს ლეიაუთში შეტანილი მნიშვნელობა არ არვს ეს კოდი სად იქნება მთავარია სანამ ვებჩატში შევა მანამ იყოს ჩაწერილი
-//ბ
 $(document).ready(function () {
+        // bot image
+        if($('html').attr('data-botid') == '2318'){
+            $('html').attr('chatbot-img', "/img/icons/xelovnebabot.png")
+    
+        } else if($('html').attr('data-botid') == '2320'){
+            $('html').attr('chatbot-img', "/img/icons/bunebabot.png")
+    
+        } else if($('html').attr('data-botid') == '2292'){
+            $('html').attr('chatbot-img', "/img/icons/musikabot.png")
+    
+        } else if($('html').attr('data-botid') == '2288'){
+            $('html').attr('chatbot-img', "/img/icons/komp-mecnierebot.png")
+        }
+
 
     var LogInUserId = $('#LogInUserId').val(); // ეს იჭერს იუზერ აიდს
 
@@ -107,28 +120,16 @@ function messageTextes(w, div) {
     $(div).append(text)
 }
 
+
 // bot message UI
 function sendMessageFromBot(res) {
 
-    // bot image
-    if($('html').attr('data-botid') == '2318'){
-        botImg = '/img/icons/xelovnebabot.png'
-
-    } else if($('html').attr('data-botid') == '2320'){
-        botImg = '/img/icons/bunebabot.png'
-
-    } else if($('html').attr('data-botid') == '2292'){
-        botImg = '/img/icons/musikabot.png'
-
-    } else if($('html').attr('data-botid') == '2288'){
-        botImg = '/img/icons/komp-mecnierebot.png'
-    }
 
     var div = document.createElement('div');
     let a = document.createElement('a');
 
     $(div).addClass('chat_msg_item chat_msg_item_admin');
-    $(div).append(`<div class="chat_avatar"><img src='${botImg}' alt="My image"></div>`);
+    $(div).append(`<div class="chat_avatar"><img src='${$('html').attr('chatbot-img')}' alt="My image"></div>`);
 
     res.forEach(function(w){
 
@@ -518,6 +519,21 @@ function type5Functionaly(data, maindiv){
 $('.logo_box').click(function(e){
     $(this).addClass('opacity-1')
     $('html').attr("data-botid", $(e.target).attr('data-botId'));
+    
+    // bot image
+    if($('html').attr('data-botid') == '2318'){
+        $('html').attr('chatbot-img', "/img/icons/xelovnebabot.png")
+
+    } else if($('html').attr('data-botid') == '2320'){
+        $('html').attr('chatbot-img', "/img/icons/bunebabot.png")
+
+    } else if($('html').attr('data-botid') == '2292'){
+        $('html').attr('chatbot-img', "/img/icons/musikabot.png")
+
+    } else if($('html').attr('data-botid') == '2288'){
+        $('html').attr('chatbot-img', "/img/icons/komp-mecnierebot.png")
+    }
+    
     $('#chat_fullscreen').children('.chat_msg_item').remove()
 })
 

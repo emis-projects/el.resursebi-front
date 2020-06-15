@@ -54,6 +54,12 @@
 #chatBot #formData {
   padding-bottom: 6px;
   background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 #chatBot #formData input {
@@ -225,7 +231,7 @@
 
 #chatBot .chat_position {
   right: 15px;
-  bottom: 100px;
+  bottom: 80px;
   z-index: 520;
   border-radius: 30px;
   overflow: hidden;
@@ -901,4 +907,3 @@
     top: 2px;
   }
 }
-/*# sourceMappingURL=Newbot.css.map */

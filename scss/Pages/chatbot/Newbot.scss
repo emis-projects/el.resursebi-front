@@ -1,5 +1,9 @@
 
 #chatBot {
+  // bottom: 3px;
+  // right: 0;
+  // position: absolute;
+
   bottom: 11vh;
   position: absolute;
   right: 10%;
@@ -49,6 +53,8 @@
   #formData {
     padding-bottom: 6px;
     background: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
   
     input {
       padding-left: 30px;
@@ -151,7 +157,7 @@
     box-shadow: none;
     border: 0;
     cursor: pointer;
-    
+
 
     &:disabled {
       cursor: initial;
@@ -202,7 +208,7 @@
   
   .chat_position {
     right: 15px;
-    bottom: 100px;
+    bottom: 80px;
     z-index: 520;
     border-radius: 30px;
     overflow: hidden;
