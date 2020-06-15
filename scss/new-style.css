@@ -36860,6 +36860,9 @@ img.mfp-img[alt*=cs-3-6-6-img] {
   background-size: cover;
 }
 
+.sorting-page img {
+  height: 100%;
+}
 .sorting-page_9 {
   display: flex;
   justify-content: space-between;
@@ -36915,6 +36918,26 @@ img.mfp-img[alt*=cs-3-6-6-img] {
 }
 .sorting-page_9 button {
   max-width: 160px;
+}
+.sorting-page_10 {
+  height: 44vh;
+  max-height: 340px;
+}
+.sorting-page_11 {
+  height: 32vh;
+  max-height: 244px;
+}
+.sorting-page_13 {
+  height: 61vh;
+  max-height: 465px;
+  position: fixed;
+  bottom: 10%;
+}
+.sorting-page_14 {
+  height: 58vh;
+  max-height: 443px;
+  position: fixed;
+  bottom: 0%;
 }
 
 .Social-page img {
