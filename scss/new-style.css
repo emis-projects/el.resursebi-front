@@ -8,7 +8,7 @@
   float: right;
 }
 #chatBot #prime {
-  background: url("/Vue-chatBot/img/botBox.png") no-repeat center;
+  background: url("../Vue-chatBot/img/botBox.png") no-repeat center;
   background-size: cover;
   height: 10vh;
   width: 10vh;
@@ -22,13 +22,13 @@
   cursor: pointer;
 }
 #chatBot #prime .chat_img {
-  background: url("/Vue-chatBot/img/chat.png") no-repeat center;
+  background: url("../Vue-chatBot/img/chat.png") no-repeat center;
   background-size: contain;
   height: 30px;
   width: 30px;
 }
 #chatBot #prime .chat-close {
-  background: url("/Vue-chatBot/img/close.svg") no-repeat center;
+  background: url("../Vue-chatBot/img/close.svg") no-repeat center;
   background-size: contain;
   height: 18px;
   width: 18px;
@@ -100,7 +100,7 @@
   position: relative;
 }
 #chatBot .chat_header .chat_head {
-  background: url("/Vue-chatBot/img/chat.png") no-repeat center;
+  background: url("../Vue-chatBot/img/chat.png") no-repeat center;
   background-size: contain;
   height: 25px;
   width: 25px;
@@ -127,7 +127,7 @@
 }
 #chatBot #sendMessage {
   background: transparent;
-  background: url("/Vue-chatBot/img/send.svg") no-repeat center;
+  background: url("../Vue-chatBot/img/send.svg") no-repeat center;
   background-size: contain;
   height: 22px;
   width: 22px;
@@ -190,7 +190,7 @@
 }
 #chatBot .bots_logo_box .logo_box_active {
   background-size: cover;
-  background: url("/Vue-chatBot/img/activeBot.svg") no-repeat top;
+  background: url("../Vue-chatBot/img/activeBot.svg") no-repeat top;
 }
 #chatBot .bots_logo_box .logo_box {
   position: relative;
@@ -212,19 +212,19 @@
 }
 #chatBot .bots_logo_box .logo_box:nth-child(1):hover {
   background-size: cover;
-  background: url("/Vue-chatBot/img/hoverBot.svg") no-repeat top;
+  background: url("../Vue-chatBot/img/hoverBot.svg") no-repeat top;
 }
 #chatBot .bots_logo_box .logo_box:nth-child(2):hover {
   background-size: contain;
-  background: url("/Vue-chatBot/img/hoverBot.svg") no-repeat top;
+  background: url("../Vue-chatBot/img/hoverBot.svg") no-repeat top;
 }
 #chatBot .bots_logo_box .logo_box:nth-child(3):hover {
   background-size: contain;
-  background: url("/Vue-chatBot/img/hoverBot.svg") no-repeat top;
+  background: url("../Vue-chatBot/img/hoverBot.svg") no-repeat top;
 }
 #chatBot .bots_logo_box .logo_box:nth-child(4):hover {
   background-size: contain;
-  background: url("/Vue-chatBot/img/hoverBot.svg") no-repeat top;
+  background: url("../Vue-chatBot/img/hoverBot.svg") no-repeat top;
 }
 #chatBot .bots_logo_box .logo_box-nature {
   height: 35px;
@@ -36771,6 +36771,33 @@ img.mfp-img[alt*=cs-3-6-6-img] {
 }
 .cs-6-21-div img {
   height: 100%;
+}
+
+.Social-page img {
+  height: 100%;
+}
+.Social-page_11 {
+  height: 42vh;
+  max-height: 322px;
+}
+.Social-page_12 {
+  height: 49vh;
+  max-height: 379px;
+  position: fixed;
+  bottom: 0;
+  right: 10%;
+}
+.Social-page_13 {
+  height: 40vh;
+  max-height: 305px;
+}
+.Social-page_14 {
+  height: 42vh;
+  max-height: 318px;
+}
+.Social-page_15 {
+  height: 31vh;
+  max-height: 235px;
 }
 
 body {

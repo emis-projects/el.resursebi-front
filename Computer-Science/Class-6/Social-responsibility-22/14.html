@@ -2,8 +2,8 @@
 <html lang="ka" data-botid="2288">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
     <!-- ყველა გვერდზე -->
     <script src="../../../js/vue.js"></script>
     <!--  ვუე გაშვებისას
@@ -11,7 +11,7 @@
      -->
     <link rel="stylesheet" href="../../../scss/libraries/bootstrap.min.css">
     <link rel="stylesheet" href="../../../New-header-vue/animate.min.css">
-    <link rel="stylesheet" href="../../../scss/new-style.css" />
+    <link rel="stylesheet" href="../../../scss/new-style.css"/>
     <title>ელექტრონული საგანმანათლებლო რესურსი</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
@@ -21,6 +21,7 @@
         function gtag() {
             dataLayer.push(arguments);
         }
+
         gtag('js', new Date());
 
         gtag('config', 'UA-155006442-1');
@@ -28,82 +29,88 @@
 </head>
 
 <body>
-    <div class="container">
-        <section id="app" class="container position-absolute">
-            <header>
-                <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../../'"></app-menu>
-            </header>
+<div class="container">
+    <section id="app" class="container position-absolute">
+        <header>
+            <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../../'"></app-menu>
+        </header>
 
-            <app-section :is-active="isActive" :is-info="isInfo" v-image="'../../../'">
-                <app-bar :is-active="isActive" :trigger="trigger" :dots="dots" :current-tab="link"
-                         v-on:link-tab="link = $event">
+        <app-section :is-active="isActive" :is-info="isInfo" v-image="'../../../'">
+            <app-bar :is-active="isActive" :trigger="trigger" :dots="dots" :current-tab="link"
+                     v-on:link-tab="link = $event">
 
-                </app-bar>
-                <component :path="path" :is="currentTabComponent" :is-active="isActive" :trigger="trigger"
-                           :active-class="activeClass" :images="images" :is-info="isInfo"
-                           :tab-class="currentTabComponent">
-                </component>
+            </app-bar>
+            <component :path="path" :is="currentTabComponent" :is-active="isActive" :trigger="trigger"
+                       :active-class="activeClass" :images="images" :is-info="isInfo"
+                       :tab-class="currentTabComponent">
+            </component>
 
-            </app-section>
-        </section>
-        <section id="mainPage">
-            <div class="row">
-                <div class="col-9 m-auto">
-                    <div class="newDesign_subject_question_item mt-5vh">
-                        <img src="../../../img/icons/newDesign_btn-yellow.svg" alt="img"
-                            class="newDesign_subject_question_item-img">
-                        <p class="newDesign_subject_question_item-title">
-                            შენ, ალბათ, ფიქრობ, რომ უბრალოდ გამორთავ კომპიუტერს, გათიშავ ინტერნეტს და ასე დაიცავ თავს, მაგრამ ამით ვერ მოერევი ვირუსებს.
-                        </p>
-                    </div>
-                    <div class="newDesign_subject_question_item mt-5vh">
-                        <img src="../../../img/icons/newDesign_btn-yellow.svg" alt="img"
-                            class="newDesign_subject_question_item-img">
-                        <p class="newDesign_subject_question_item-title">
-                            გსმენია რაიმე <a href="14-1.html" class="a-blue">ანტივირუსების</a> შესახებ?
-                        </p>
-                    </div>
+        </app-section>
+    </section>
+    <section id="mainPage">
+        <div class="row">
+            <div class="col-9 m-auto">
+                <div class="newDesign_subject_question_item mt-5vh">
+                    <img src="../../../img/icons/newDesign_btn-yellow.svg" alt="img"
+                         class="newDesign_subject_question_item-img">
+                    <p class="newDesign_subject_question_item-title">რა საფრთხე არსებობს ინტერნეტში, როგორ და რისგან
+                        უნდა დაიცვა შენი პირადი სივრცე?</p>
                 </div>
-                <div class="col-10 m-auto d-flex justify-content-end">
-                    <img src="../../../img/gakvetilebi/Computer-Science/Class-5/Protect-your-data-24/cs-5-24-14.svg"
-                    alt="img" class="cs-5-24-14-img">
+                <div class="newDesign_subject_question_item ">
+                    <img src="../../../img/icons/newDesign_btn-yellow.svg" alt="img"
+                         class="newDesign_subject_question_item-img">
+                    <p class="newDesign_subject_question_item-title">რას გამოიყენებ, რომ თავი აარიდო ციფრულ
+                        საფრთხეებს?</p>
+                </div>
+                <div class="newDesign_subject_question_item ">
+                    <img src="../../../img/icons/newDesign_btn-yellow.svg" alt="img"
+                         class="newDesign_subject_question_item-img">
+                    <p class="newDesign_subject_question_item-title">შესაძლებელია, გამოვიყენოთ რაიმე პროგრამა ბრაუზერში,
+                        რომელიც დაბლოკავს საეჭვო <a href="14-1.html" class="a-blue">ვებ-გვერდებს?</a></p>
                 </div>
             </div>
-
-            <div class="left_components_paging-cont" id="leftNav">
-                <left-nav-item></left-nav-item>
+            <div class="col-10 m-auto d-flex justify-content-end">
+                <div class="Social-page_14 Social-page">
+                    <img src="../../../img/gakvetilebi/Computer-Science/Class-6/Social-responsibility-22/cs-6-22-14.svg"
+                         alt="img">
+                </div>
             </div>
+        </div>
 
-            <div class="our__pagination flex">
-                <a href="#" class="pagination__prev__btn">
-                    <img style="transform: rotate(180deg)" src="../../../img/icons/chevron-left-icon.svg" alt="">
-                </a>
+        <div class="left_components_paging-cont" id="leftNav">
+            <left-nav-item></left-nav-item>
+        </div>
 
-                <div id="pagination" class="flex align-items-center"></div>
+        <div class="our__pagination flex">
+            <a href="#" class="pagination__prev__btn">
+                <img style="transform: rotate(180deg)" src="../../../img/icons/chevron-left-icon.svg" alt="">
+            </a>
 
-                <a href="#" class="pagination__next__btn">
-                    <img src="../../../img/icons/chevron-left-icon.svg" alt="">
-                </a>
-            </div>
+            <div id="pagination" class="flex align-items-center"></div>
 
-        </section>
-    </div>
+            <a href="#" class="pagination__next__btn">
+                <img src="../../../img/icons/chevron-left-icon.svg" alt="">
+            </a>
+        </div>
 
-
-    <!-- ჩეთბოტი -->
-    <div id="chatBot">
-        <app-bot></app-bot>
-    </div>
-
-    <script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
-    <script src="../../../js/libraries/jquery.magnific-popup.min.js"></script>
-    <script src="../../../js/Pagination.js"></script>
+    </section>
+</div>
 
 
-    <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
-    <script src="../../../New-header-vue/app.js"></script>
-    <script src="../../../Vue-chatBot/botApp.js"></script>
-    <script src="../../../js/bot.js"></script>
+<!-- ჩეთბოტი -->
+<div id="chatBot">
+    <app-bot></app-bot>
+</div>
+
+<script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
+<script src="../../../js/libraries/jquery.magnific-popup.min.js"></script>
+<script src="../../../js/Pagination.js"></script>
+
+
+<!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
+<script src="../../../New-header-vue/app.js"></script>
+<script src="../../../Vue-chatBot/botApp.js"></script>
+<script src="../../../js/bot.js"></script>
 
 
 </body>
