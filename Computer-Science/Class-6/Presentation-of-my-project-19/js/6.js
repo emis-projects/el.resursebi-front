@@ -10,8 +10,8 @@ function game(){
     let completedGame = document.getElementById('completedGame');
 
 
-    $(dragElement2).on('dragstart', (e) => this.dragStart(e));
-    $(dragElement2).on('dragend', (e) => this.dragEnd(e));
+    $(dragElement1).on('dragstart', (e) => this.dragStart(e));
+    $(dragElement1).on('dragend', (e) => this.dragEnd(e));
 
 
 
@@ -36,23 +36,8 @@ function game(){
 
 
     document.addEventListener('DOMContentLoaded', () => {
-        dragElement2MyArray.forEach(w => {
-            w.setAttribute('data-class', w.getAttribute('class'))
-
-            let childIndex = w.getAttribute('data-index');
-
-            w.parentElement.setAttribute('data-childIndex', childIndex)
-            
-
-            if(w.querySelector('a')){
-                w.setAttribute('data-href', w.querySelector('a').getAttribute('href'))
-
-            } else {
-                w.parentElement.setAttribute('data-title', w.innerText)
-            }
-        })
         dragElement1MyArray.forEach((w, i) => {
-            w.setAttribute('data-index', i)
+            w.setAttribute('data-class', w.getAttribute('class'))
         })
     })
     
@@ -83,7 +68,7 @@ function game(){
     }
 
 
-    this.checkEveryElement = (element) => element.getAttribute('data-index') == element.parentElement.getAttribute('data-index');
+    this.checkEveryElement = (element) => element.getAttribute('data-index') == element.querySelector('img').getAttribute('data-index');
 
 
 
@@ -93,11 +78,8 @@ function game(){
 		if(el == true){
             let loc = location.pathname;
 
-            if(loc == "/Computer-Science/Class-2/conditional-signs-1/9.html" || loc == "/el.resursebi-front/Computer-Science/Class-2/conditional-signs-1/9.html"){
-                location.href = "game-success-9.html"
-                
-            } else if(loc == "/Computer-Science/Class-2/conditional-signs-1/10.html" || loc == "/el.resursebi-front/Computer-Science/Class-2/conditional-signs-1/10.html"){
-                location.href = "game-success-10.html"
+            if(loc == "/Computer-Science/Class-6/Presentation-of-my-project-19/6.html" || loc == "/el.resursebi-front/Computer-Science/Class-6/Presentation-of-my-project-19/6.html"){
+                location.href = "game-success-6.html"
             }
 
         } else {
@@ -109,18 +91,23 @@ function game(){
 
     this.errorPage = () => {
         dragElement2MyArray.forEach(w => {
-            if(w.getAttribute('data-index') !== w.parentElement.getAttribute('data-index')){
-                w.parentElement.classList.add('error')
-
-            } else if(w.getAttribute('data-index') == w.parentElement.getAttribute('data-index')) {
-                w.parentElement.classList.add('success')
+            if(w.querySelector('img')){
+                if(w.getAttribute('data-index') !== w.querySelector('img').getAttribute('data-index')){
+                    w.querySelector('.sign-description-btn').classList.add('error')
+    
+                } else if(w.getAttribute('data-index') == w.querySelector('img').getAttribute('data-index')) {
+                    w.querySelector('.sign-description-btn').classList.add('success')
+                }
+            } else {
+                w.querySelector('.sign-description-btn').classList.add('error')
             }
+
         })
     }
     
  
     this.completedGame = () => {
-        completedGame.setAttribute('disabled', 'true')
+        // completedGame.setAttribute('disabled', 'true')
         this.successPage()
     }
     
@@ -128,20 +115,7 @@ function game(){
 
     this.resetGame = () => {
         dragElement1MyArray.forEach(w => {
-            let title = w.getAttribute('data-title');
-            let index = w.getAttribute('data-childIndex');
-
-            w.querySelector('a, p').classList.remove('a-blue');
-            w.querySelector('a, p').removeAttribute('href')
-            w.querySelector('a, p').removeAttribute('style')
-
-            w.querySelector('.DragGame—childs2').innerText = title;
-            w.querySelector('.DragGame—childs2').setAttribute('data-index', index);
-
-            $( "#differentGameDiv p" ).replaceWith( '<a class="sign-description-btn-title DragGame—childs2" draggable="true" data-index="2">ქვეითთა გადასასვლელი</a>');
-            $( "#differentGameDiv a").attr('href', "./6-1.html");
-            $( "#differentGameDiv a").attr('style', "color: #7fd1d8");
-            $( "#differentGameDiv a").attr('target', "_blank");
+            $('.cs-6-19-div-6-img').append(w)
         });
 
         $(dragElement1).removeClass('error');
