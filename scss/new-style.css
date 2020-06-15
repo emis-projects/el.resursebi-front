@@ -44925,19 +44925,110 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
-.class_5_13-img_6 {
-  height: 73.56vh;
-  max-height: 565px;
+.class_5_13-img_5_1 {
+  height: 50vh;
+  max-height: 386.5px;
+  position: relative;
 }
 
-.class_5_13-img_7 {
-  height: 46.87vh;
-  max-height: 360px;
+.class_5_13-img_5_1 img {
+  height: 100%;
 }
 
-.class_5_13-img_8 {
-  height: 23.69vh;
-  max-height: 182px;
+.class_5_13-title {
+  position: absolute;
+  top: 2vh;
+  left: 6vh;
+}
+
+.class_5_13-title p {
+  font-family: DejaVu Sans;
+  font-size: 18px;
+  color: white;
+}
+
+.class_5_13-box_item_1 {
+  position: absolute;
+  top: 16vh;
+  left: 15vh;
+}
+
+.class_5_13-box_item_1_2 {
+  position: absolute;
+  top: 24.2vh;
+  left: 15vh;
+}
+
+.class_5_13-box_item_2 {
+  position: absolute;
+  top: 24.2vh;
+  left: 26vh;
+}
+
+.class_5_13-box_item_3 {
+  position: absolute;
+  top: 24.2vh;
+  left: 37vh;
+}
+
+.class_5_13-box_item_4 {
+  position: absolute;
+  top: 30.6vh;
+  left: 48vh;
+}
+
+.class_5_13-img_kolba {
+  height: 27vh;
+}
+
+.class_5_13-img_middle_kolba {
+  height: 18.7vh;
+}
+
+.class_5_13-img_small_kolba {
+  height: 12.3vh;
+}
+
+.class_5_13-img_ball {
+  position: absolute;
+  top: 2.6vh;
+  height: 6vh;
+}
+
+.class_5_13-img_ball_1_2 {
+  position: absolute;
+  top: 0.3vh;
+  height: 6vh;
+}
+
+.class_5_13-img_ball_2 {
+  position: absolute;
+  top: 0.3vh;
+  height: 6vh;
+}
+
+.class_5_13-img_ball_2_2 {
+  position: absolute;
+  top: 6.3vh;
+  height: 6vh;
+}
+
+.class_5_13-img_ball_3 {
+  position: absolute;
+  top: 0.3vh;
+  height: 6vh;
+}
+
+.class_5_13-img_ball_3_2 {
+  position: absolute;
+  top: 6.3vh;
+  height: 6vh;
+}
+
+.class_5_13-img_ball_4 {
+  position: absolute;
+  top: 0;
+  height: 6vh;
 }
 
 .sorting-page img {
