@@ -31801,8 +31801,8 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .programs_image p {
   color: #62548A;
-  font-size: 3.6vh;
-  font-family: "DejaVu Sans";
+  font-family: 'DejaVu Sans Oblique';
+  font-size: 3.64vh;
 }
 
 .programs_image-box-16 {
@@ -44876,6 +44876,26 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   background-size: cover;
 }
 
+.cs-5-2-1-img {
+  height: 58.33vh;
+  margin: 5vh auto;
+}
+
+.cs-5-2-3-img {
+  height: 34.37vh;
+  margin-top: 5vh;
+}
+
+.cs-5-2-4-img {
+  height: 37.76vh;
+  margin-top: 5vh;
+}
+
+.cs-5-2-5-img {
+  height: 41.01vh;
+  margin-top: 2vh;
+}
+
 .class_5_13-img_1 {
   height: 60.67vh;
   max-height: 466px;
@@ -44918,6 +44938,130 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 .class_5_13-img_8 {
   height: 23.69vh;
   max-height: 182px;
+}
+
+.sorting-page img {
+  height: 100%;
+}
+
+.sorting-page_9 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.sorting-page_9 .wraper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.sorting-page_9 .wraper div {
+  max-width: 142px;
+  max-height: 32px;
+  -webkit-box-shadow: 2px 2px 8px #947DCE66;
+          box-shadow: 2px 2px 8px #947DCE66;
+  border-radius: 20px;
+  padding: 5px;
+  text-align: center;
+  margin-bottom: 1.5vh;
+  color: #9985de;
+  font-family: "DejaVu Sans";
+  font-size: 1.8vh;
+}
+
+.sorting-page_9 .input-box {
+  height: 40px;
+  background: #8C7CC9;
+  width: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.sorting-page_9 .input-box .titles {
+  color: #fff;
+  width: calc(800px / 5);
+  font-family: "DejaVu Sans";
+  font-size: 2.5vh;
+}
+
+.sorting-page_9 .content-box {
+  width: 800px;
+  border-bottom: 1px solid #8C7CC9;
+  border-left: 1px solid #8C7CC9;
+  border-right: 1px solid #8C7CC9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sorting-page_9 .content-box .content {
+  border-right: 1px solid #8C7CC9;
+  height: 100%;
+  width: calc(800px / 5);
+  min-height: 240px;
+}
+
+.sorting-page_9 .content-box .content:last-child {
+  border-right: none;
+}
+
+.sorting-page_9 button {
+  max-width: 160px;
+}
+
+.sorting-page_10 {
+  height: 44vh;
+  max-height: 340px;
+}
+
+.sorting-page_11 {
+  height: 32vh;
+  max-height: 244px;
+}
+
+.sorting-page_13 {
+  height: 61vh;
+  max-height: 465px;
+  position: fixed;
+  bottom: 10%;
+}
+
+.sorting-page_14 {
+  height: 58vh;
+  max-height: 443px;
+  position: fixed;
+  bottom: 0%;
+}
+
+.sorting-methods-16 {
+  height: 40.8vh;
+  max-height: 314px;
+}
+
+.sorting-methods-16 img {
+  height: 100%;
+}
+
 .sorting-methods-17 {
   height: 50vh;
   max-height: 385px;
@@ -44961,6 +45105,130 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .sorting-methods-21 img {
   height: 100%;
+}
+
+.operators-page img {
+  height: 100%;
+}
+
+.operators-page_10 {
+  height: 45vh;
+  max-height: 342px;
+}
+
+.operators-page_11 {
+  height: 27vh;
+  max-height: 204px;
+}
+
+.operators-page_12 {
+  height: 58vh;
+  max-height: 400x;
+}
+
+.operators-page_13.time {
+  max-height: 84px;
+}
+
+.operators-page_13.text {
+  color: #fff;
+  font-family: "DejaVu Sans";
+  font-size: 3vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #5998F7;
+  min-width: 145px;
+  min-height: 60px;
+  max-width: 151px;
+  max-height: 64px;
+  border-radius: 4px;
+}
+
+.operators-page_13.select {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.operators-page_13.select .true {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.operators-page_13.select .true .select {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  border: 1px solid #6f42c1;
+}
+
+.operators-page_13.select .false {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.operators-page_13.select .false .select {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  border: 1px solid #6f42c1;
+  cursor: pointer;
+}
+
+.operators-page_13.select .false .select.active {
+  background: yellow;
+}
+
+.operators-page_13.select .false .select.error {
+  background: red;
+}
+
+.operators-page_13.select .boxes {
+  max-height: 60px;
+  max-width: 130px;
+  color: #62548A;
+  font-weight: bold;
+  padding: 10px 20px;
+  -webkit-box-shadow: 2px 2px 8px #E2DCF2;
+          box-shadow: 2px 2px 8px #E2DCF2;
+  border-radius: 20px;
+  margin-left: 20px;
+  font-family: "DejaVu Sans";
+  font-size: 3vh;
+  cursor: pointer;
+}
+
+.operators-page_14 {
+  max-height: 294px;
+  height: 39vh;
+}
+
+.operators-page_15 {
+  max-height: 480px;
+  height: 63h;
 }
 
 .operators-22 {
@@ -45132,6 +45400,130 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .background-cs-5-13-29 {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-5/Sorting-methods-13/cs-5-13-29.svg");
+}
+
+.operators-page img {
+  height: 100%;
+}
+
+.operators-page_10 {
+  height: 45vh;
+  max-height: 342px;
+}
+
+.operators-page_11 {
+  height: 27vh;
+  max-height: 204px;
+}
+
+.operators-page_12 {
+  height: 58vh;
+  max-height: 400x;
+}
+
+.operators-page_13.time {
+  max-height: 84px;
+}
+
+.operators-page_13.text {
+  color: #fff;
+  font-family: "DejaVu Sans";
+  font-size: 3vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #5998F7;
+  min-width: 145px;
+  min-height: 60px;
+  max-width: 151px;
+  max-height: 64px;
+  border-radius: 4px;
+}
+
+.operators-page_13.select {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.operators-page_13.select .true {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.operators-page_13.select .true .select {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  border: 1px solid #6f42c1;
+}
+
+.operators-page_13.select .false {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.operators-page_13.select .false .select {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  border: 1px solid #6f42c1;
+  cursor: pointer;
+}
+
+.operators-page_13.select .false .select.active {
+  background: yellow;
+}
+
+.operators-page_13.select .false .select.error {
+  background: red;
+}
+
+.operators-page_13.select .boxes {
+  max-height: 60px;
+  max-width: 130px;
+  color: #62548A;
+  font-weight: bold;
+  padding: 10px 20px;
+  -webkit-box-shadow: 2px 2px 8px #E2DCF2;
+          box-shadow: 2px 2px 8px #E2DCF2;
+  border-radius: 20px;
+  margin-left: 20px;
+  font-family: "DejaVu Sans";
+  font-size: 3vh;
+  cursor: pointer;
+}
+
+.operators-page_14 {
+  max-height: 294px;
+  height: 39vh;
+}
+
+.operators-page_15 {
+  max-height: 480px;
+  height: 63h;
 }
 
 .class_6_5-img_5_1 {
@@ -45334,6 +45726,7 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   background-repeat: no-repeat;
   height: 100vh;
 }
+
 .cs-6-22-1-img {
   height: 49.73vh;
   margin: 7vh auto;
