@@ -38,15 +38,16 @@ function natureGames() {
         if(e.target.classList.contains('active')){
             if(e.target.getAttribute('data-btn') == 1){
                 document.querySelector('#weatherParent').innerHTML = "";
-                document.querySelector('.cloud').classList.add('opacity-0')
+                document.querySelector('.cloud').classList.add('opacity-1')
                 imge.src = '../../img/gakvetilebi/buneba/snow-12/1-mdgomareoba.svg';
+                this.getWeather("rain");
 
             }
             if(e.target.getAttribute('data-btn') == 2){
                 document.querySelector('#weatherParent').innerHTML = "";
                 document.querySelector('.cloud').classList.add('opacity-1')
                 imge.src = '../../img/gakvetilebi/buneba/snow-12/2-mdgomareoba.svg';
-                this.getWeather("rain");
+                this.getWeather("rain2");
             }
             if(e.target.getAttribute('data-btn') == 3){
                 imge.src = '../../img/gakvetilebi/buneba/snow-12/3-mdgomareoba.svg';
