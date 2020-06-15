@@ -32,22 +32,13 @@
 
 <body>
     <div class="container">
-        <section class="container position-absolute" id="app">
-            <header>
-                <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../../'"></app-menu>
-            </header>
-
-            <app-section :is-active="isActive" v-image="'../../../'">
-                <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger" v-on:link-tab="link = $event">
-
-                </app-bar>
-                <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive" :is-info="isInfo" :path="path" :tab-class="currentTabComponent" :trigger="trigger">
-                </component>
-
-            </app-section>
-        </section>
-        <section id="mainPage">
-            <div class="row  d-flex">
+        <header>
+            <a class="close" href="5.html">
+                <img src="../../../img/icons/close.svg" alt="close"/>
+            </a>
+        </header>
+        <section>
+            <div class="row newDesign_hintPage">
                 <div class="col-7 flex_direction_left">
                     <div class="newDesign_subject_question_item mt-5vh">
                         <img alt="img" class="newDesign_subject_question_item-img" src="../../../img/icons/newDesign_btn-yellow.svg">

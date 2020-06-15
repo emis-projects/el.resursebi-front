@@ -44601,7 +44601,7 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .ethic_page-6-1 img {
   height: 100%;
-  position: fixed;
+  position: absolute;
   bottom: 0;
   right: 2vh;
 }
