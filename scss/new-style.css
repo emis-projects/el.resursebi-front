@@ -44606,7 +44606,7 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .ethic_page-6-1 img {
   height: 100%;
-  position: fixed;
+  position: absolute;
   bottom: 0;
   right: 2vh;
 }
@@ -44714,6 +44714,53 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .cs-6-21-div img {
+  height: 100%;
+}
+
+.class_5_2-img_6 {
+  height: 40.6vh;
+  max-height: 312px;
+}
+
+.class_5_2-img_6 img {
+  height: 100%;
+}
+
+.class_5_2-img_7 {
+  height: 42vh;
+  max-height: 322.6px;
+}
+
+.class_5_2-img_7 img {
+  height: 100%;
+}
+
+.class_5_2-img_8 {
+  height: 47vh;
+  max-height: 361px;
+}
+
+.class_5_2-img_8 img {
+  height: 100%;
+}
+
+.class_5_2-img_9 {
+  position: fixed;
+  bottom: 0;
+  height: 59vh;
+  max-height: 454px;
+}
+
+.class_5_2-img_9 img {
+  height: 100%;
+}
+
+.class_5_2-img_10 {
+  height: 49vh;
+  max-height: 378.8px;
+}
+
+.class_5_2-img_10 img {
   height: 100%;
 }
 
