@@ -47,8 +47,8 @@
             </app-section>
         </section>
         <section id="mainPage">
-            <div class="row  d-flex">
-                <div class="col-11 m-auto">
+            <div class="row  d-flex DragGame--Parent">
+                <div class="col-11 m-auto Presentation-of-my-project-19-game">
                     <div class="newDesign_subject_question_item mt-5vh">
                         <img alt="img" class="newDesign_subject_question_item-img" src="../../../img/icons/newDesign_btn-yellow.svg">
                         <p class="newDesign_subject_question_item-title Class_2-title_item_2 big-font-size-20px-dejavu">
@@ -58,22 +58,31 @@
                     </div>
                 </div>
                  <div class="col-12 d-flex justify-content-between  cs-6-19-div-6-img  cs-6-19-div">
-                    <img alt="img" src="../../../img/gakvetilebi/Computer-Science/Class-6/Presentation-of-my-project-19/cs-6-19-6-1.png">
-                    <img alt="img" src="../../../img/gakvetilebi/Computer-Science/Class-6/Presentation-of-my-project-19/cs-6-19-6-2.png">
-                    <img alt="img" src="../../../img/gakvetilebi/Computer-Science/Class-6/Presentation-of-my-project-19/cs-6-19-6-3.svg">
-                    <img alt="img" src="../../../img/gakvetilebi/Computer-Science/Class-6/Presentation-of-my-project-19/cs-6-19-6-4.png">
+                    <img alt="img" data-index="2" draggable="true" class="DragGame—childs2" src="../../../img/gakvetilebi/Computer-Science/Class-6/Presentation-of-my-project-19/cs-6-19-6-1.png">
+                    <img alt="img" data-index="0" draggable="true" class="DragGame—childs2" src="../../../img/gakvetilebi/Computer-Science/Class-6/Presentation-of-my-project-19/cs-6-19-6-2.png">
+                    <img alt="img" data-index="2" draggable="true" class="DragGame—childs2" src="../../../img/gakvetilebi/Computer-Science/Class-6/Presentation-of-my-project-19/cs-6-19-6-3.svg">
+                    <img alt="img" data-index="1" draggable="true" class="DragGame—childs2" src="../../../img/gakvetilebi/Computer-Science/Class-6/Presentation-of-my-project-19/cs-6-19-6-4.png">
                 </div>
-            <div class="col-4">  
-                   <div class="sign-description-btn mt-2vh DragGame—childs1 mt-5vh">
-                <p class="sign-description-btn-title DragGame—childs2">გეპარდი აფრიკის მშვენება</p>
-                </div> 
-                <div class="sign-description-btn mt-2vh DragGame—childs1 mt-10vh">
-                    <p class="sign-description-btn-title DragGame—childs2">გეპარდი ყველაზე სწრაფია მსოფლიოში</p>
-                    </div> 
-                    <div class="sign-description-btn mt-2vh DragGame—childs1 mt-10vh">
-                        <p class="sign-description-btn-title DragGame—childs2">მე ლამაზი ცხოველი ვარ</p>
+
+                <div class="col-8 Presentation-of-my-project-19-game-child" style="align-items: flex-start;display: flex;flex-direction: column;">  
+                    <div style="height: 15vh; width: 100%; display: flex; align-items: center" class="DragGame—childs2" data-index="1">
+                        <div class="sign-description-btn mt-2vh">
+                            <p class="sign-description-btn-title">გეპარდი აფრიკის მშვენება</p>
                         </div> 
-          </div> 
+                    </div>
+
+                    <div style="height: 15vh; width: 100%; display: flex; align-items: center" class="DragGame—childs2" data-index="2">
+                        <div class="sign-description-btn mt-2vh">
+                            <p class="sign-description-btn-title">გეპარდი ყველაზე სწრაფია მსოფლიოში</p>
+                        </div> 
+                    </div>
+
+                    <div style="height: 15vh; width: 100%; display: flex; align-items: center" class="DragGame—childs2" data-index="3">
+                        <div class="sign-description-btn mt-2vh">
+                            <p class="sign-description-btn-title">მე ლამაზი ცხოველი ვარ</p>
+                        </div> 
+                    </div>
+                </div> 
 
             </div>
             <div class="flex flex-end column align-items-end z-index reload_game_wrapper">
@@ -109,6 +118,7 @@
     <script src="../../../js/libraries/jquery.magnific-popup.min.js"></script>
     <script src="../../../js/Pagination.js"></script>
 
+    <script src="./js/6.js"></script>
 
     <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
     <script src="../../../New-header-vue/app.js"></script>
