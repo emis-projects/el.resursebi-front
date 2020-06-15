@@ -44764,6 +44764,42 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
+.cs-6-5-1-img {
+  height: 54.68vh;
+  margin: 5vh auto;
+}
+
+.cs-6-5-3-img {
+  height: 36.06vh;
+  margin-top: 8vh;
+}
+
+.cs-6-5-4-img {
+  height: 44.01vh;
+  margin-top: 5vh;
+}
+
+.cs-6-5-5-img {
+  height: 64.58vh;
+}
+
+.cs-6-5-6-img {
+  height: 61.97vh;
+  position: relative;
+  top: 14vh;
+  right: -17vh;
+}
+
+.cs-6-5-7-img {
+  height: 23.43vh;
+  margin-top: 12vh;
+}
+
+.cs-6-5-8-img {
+  height: 49.73vh;
+  margin-top: 7vh;
+}
+
 body {
   color: #262626;
   font-size: 14px;
@@ -46653,3 +46689,4 @@ body {
     font-size: 14px;
   }
 }
+/*# sourceMappingURL=new-style.css.map */
