@@ -1,0 +1,45 @@
+.robot-page{
+  img{
+    height: 100%;
+  }
+  &_20{
+    height: 52vh;
+    max-height: 400px;
+  }
+  &_21{
+    position: fixed;
+    height: 100vh;
+    left: 0;
+    right: 0;
+    top: 0;
+    background: url("../img/gakvetilebi/Computer-Science/Class-5/My-first-robot-2/C-5-2-21.svg") no-repeat center;
+    background-size: cover;
+  }
+  &_22{
+    position: fixed;
+    height: 100vh;
+    left: 0;
+    right: 0;
+    top: 0;
+    background: url("../img/gakvetilebi/Computer-Science/Class-5/My-first-robot-2/C-5-2-22.png") no-repeat center;
+    background-size: cover;
+  }
+  &_23{
+    position: fixed;
+    height: 100vh;
+    left: 0;
+    right: 0;
+    top: 0;
+    background: url("../img/gakvetilebi/Computer-Science/Class-5/My-first-robot-2/C-5-2-23.svg") no-repeat center;
+    background-size: cover;
+  }
+  &_24{
+    position: fixed;
+    height: 100vh;
+    left: 0;
+    right: 0;
+    top: 0;
+    background: url("../img/gakvetilebi/Computer-Science/Class-5/My-first-robot-2/C-5-2-24.svg") no-repeat center;
+    background-size: cover;
+  }
+}
