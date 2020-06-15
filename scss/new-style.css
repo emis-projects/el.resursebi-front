@@ -36234,6 +36234,11 @@ img.mfp-img[alt*=cs-3-6-6-img] {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-3/How-computer-works-3/cs-3-3-25.svg");
 }
 
+.Presentation-of-my-project-19-game-child img {
+  margin-left: 2vw;
+  height: 100%;
+}
+
 .cs-6-19-div-3-img {
   height: 42.44vh;
 }
@@ -36853,6 +36858,63 @@ img.mfp-img[alt*=cs-3-6-6-img] {
   top: 0;
   background: url("../img/gakvetilebi/Computer-Science/Class-5/My-first-robot-2/C-5-2-24.svg") no-repeat center;
   background-size: cover;
+}
+
+.sorting-page_9 {
+  display: flex;
+  justify-content: space-between;
+}
+.sorting-page_9 .wraper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.sorting-page_9 .wraper div {
+  max-width: 142px;
+  max-height: 32px;
+  box-shadow: 2px 2px 8px #947DCE66;
+  border-radius: 20px;
+  padding: 5px;
+  text-align: center;
+  margin-bottom: 1.5vh;
+  color: #9985de;
+  font-family: "DejaVu Sans";
+  font-size: 1.8vh;
+}
+.sorting-page_9 .input-box {
+  height: 40px;
+  background: #8C7CC9;
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.sorting-page_9 .input-box .titles {
+  color: #fff;
+  width: calc(800px / 5);
+  font-family: "DejaVu Sans";
+  font-size: 2.5vh;
+}
+.sorting-page_9 .content-box {
+  width: 800px;
+  border-bottom: 1px solid #8C7CC9;
+  border-left: 1px solid #8C7CC9;
+  border-right: 1px solid #8C7CC9;
+  display: flex;
+}
+.sorting-page_9 .content-box .content {
+  border-right: 1px solid #8C7CC9;
+  height: 100%;
+  width: calc(800px / 5);
+  min-height: 240px;
+}
+.sorting-page_9 .content-box .content:last-child {
+  border-right: none;
+}
+.sorting-page_9 button {
+  max-width: 160px;
 }
 
 .Social-page img {
