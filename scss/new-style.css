@@ -44813,6 +44813,26 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   background-size: cover;
 }
 
+.cs-5-2-1-img {
+  height: 58.33vh;
+  margin: 5vh auto;
+}
+
+.cs-5-2-3-img {
+  height: 34.37vh;
+  margin-top: 5vh;
+}
+
+.cs-5-2-4-img {
+  height: 37.76vh;
+  margin-top: 5vh;
+}
+
+.cs-5-2-5-img {
+  height: 41.01vh;
+  margin-top: 2vh;
+}
+
 .cs-5-13-22-img {
   height: 56.77vh;
   margin-top: 3vh;
