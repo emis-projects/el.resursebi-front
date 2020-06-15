@@ -1,0 +1,28 @@
+.Social-page{
+  img{
+    height: 100%;
+  }
+  &_11{
+    height: 42vh;
+    max-height: 322px;
+  }
+  &_12{
+    height: 49vh;
+    max-height: 379px;
+    position: fixed;
+    bottom: 0;
+    right: 10%;
+  }
+  &_13{
+    height: 40vh;
+    max-height: 305px;
+  }
+  &_14{
+    height: 42vh;
+    max-height: 318px;
+  }
+  &_15{
+    height: 31vh;
+    max-height: 235px;
+  }
+}

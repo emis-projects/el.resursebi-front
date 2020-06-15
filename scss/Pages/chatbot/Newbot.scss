@@ -13,7 +13,7 @@
   }
 
   #prime {
-    background: url("/Vue-chatBot/img/botBox.png") no-repeat center;
+    background: url("../Vue-chatBot/img/botBox.png") no-repeat center;
     background-size: cover;
     height: 10vh;
     width: 10vh;
@@ -27,14 +27,14 @@
     cursor: pointer;
   
     .chat_img {
-      background: url("/Vue-chatBot/img/chat.png") no-repeat center;
+      background: url("../Vue-chatBot/img/chat.png") no-repeat center;
       background-size: contain;
       height: 30px;
       width: 30px;
     }
   
     .chat-close {
-      background: url("/Vue-chatBot/img/close.svg") no-repeat center;
+      background: url("../Vue-chatBot/img/close.svg") no-repeat center;
       background-size: contain;
       height: 18px;
       width: 18px;
@@ -116,7 +116,7 @@
     position: relative;
   
     .chat_head {
-      background: url("/Vue-chatBot/img/chat.png") no-repeat center;
+      background: url("../Vue-chatBot/img/chat.png") no-repeat center;
       background-size: contain;
       height: 25px;
       width: 25px;
@@ -148,7 +148,7 @@
 
   #sendMessage {
     background: transparent;
-    background: url("/Vue-chatBot/img/send.svg") no-repeat center;
+    background: url("../Vue-chatBot/img/send.svg") no-repeat center;
     background-size: contain;
     height: 22px;
     width: 22px;
@@ -220,7 +220,7 @@
     width: 100%;
     .logo_box_active{
       background-size: cover;
-      background: url("/Vue-chatBot/img/activeBot.svg") no-repeat top;
+      background: url("../Vue-chatBot/img/activeBot.svg") no-repeat top;
     }
     .logo_box {
       position: relative;
@@ -243,19 +243,19 @@
   
       &:nth-child(1):hover {
         background-size: cover;
-        background: url("/Vue-chatBot/img/hoverBot.svg") no-repeat top;
+        background: url("../Vue-chatBot/img/hoverBot.svg") no-repeat top;
       }
       &:nth-child(2):hover {
         background-size: contain;
-        background: url("/Vue-chatBot/img/hoverBot.svg") no-repeat top;
+        background: url("../Vue-chatBot/img/hoverBot.svg") no-repeat top;
       }
       &:nth-child(3):hover {
         background-size: contain;
-        background: url("/Vue-chatBot/img/hoverBot.svg") no-repeat top;
+        background: url("../Vue-chatBot/img/hoverBot.svg") no-repeat top;
       }
       &:nth-child(4):hover {
         background-size: contain;
-        background: url("/Vue-chatBot/img/hoverBot.svg") no-repeat top;
+        background: url("../Vue-chatBot/img/hoverBot.svg") no-repeat top;
       }
   
       &-nature {
