@@ -1061,8 +1061,8 @@ let title = {
         },
         {
             id: 2,
-            name: 'კომპიუტერი 5 კლასი 2 გაკვ',
-            link: 'Computer-Science/algorithme/C-1366-02-03.html'
+            name: 'ჩემი პირველი რობოტი',
+            link: 'Computer-Science/Class-5/My-first-robot-2/1.html'
         },
         {
             id: 3,
@@ -1116,8 +1116,8 @@ let title = {
         },
         {
             id: 13,
-            name: 'კომპიუტერი 6 კლასი 13 გაკვ',
-            link: '#'
+            name: 'კონტენტი და მისი დახარისხების მეთოდები',
+            link: 'Computer-Science/Class-5/Sorting-methods-13/1.html'
         },
         {
             id: 14,
@@ -1161,7 +1161,7 @@ let title = {
         },
         {
             id: 22,
-            name: 'სათაური',
+            name: '22',
             link: '#'
         },
         {
@@ -1198,8 +1198,8 @@ let title = {
         },
         {
             id: 5,
-            name: 'სათაური',
-            link: '#'
+            name: 'ოპერატორები',
+            link: 'Computer-Science/Class-6/Operators-5/1.html'
         },
         {
             id: 6,
@@ -1283,8 +1283,8 @@ let title = {
         },
         {
             id: 22,
-            name: 'სათაური',
-            link: '#'
+            name: 'სოციალური პასუხისმგებლობა, პირადი სივრცე',
+            link: 'Computer-Science/Class-6/Social-responsibility-22/1.html'
         },
         {
             id: 23,
