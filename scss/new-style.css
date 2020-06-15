@@ -44764,6 +44764,69 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
+.my-first-robot-11 {
+  height: 53.12vh;
+  max-height: 408px;
+}
+
+.my-first-robot-11 img {
+  height: 100%;
+}
+
+.my-first-robot-12 {
+  height: 40vh;
+  max-height: 314px;
+}
+
+.my-first-robot-12 img {
+  height: 100%;
+}
+
+.my-first-robot-13 {
+  height: 61.8vh;
+  max-height: 475px;
+}
+
+.my-first-robot-13 img {
+  height: 100%;
+}
+
+.my-first-robot-14 {
+  height: 53.2vh;
+  max-height: 409px;
+}
+
+.my-first-robot-14 img {
+  height: 100%;
+}
+
+.my-first-robot-15 {
+  height: 52vh;
+  max-height: 400px;
+}
+
+.my-first-robot-15 img {
+  height: 100%;
+}
+
+.my-first-robot-15 {
+  height: 52vh;
+  max-height: 400px;
+}
+
+.my-first-robot-15 img {
+  height: 100%;
+}
+
+.my-first-robot-16 {
+  height: 62vh;
+  max-height: 483px;
+}
+
+.my-first-robot-16 img {
+  height: 100%;
+}
+
 .robot-page img {
   height: 100%;
 }
@@ -44855,6 +44918,220 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 .class_5_13-img_8 {
   height: 23.69vh;
   max-height: 182px;
+.sorting-methods-17 {
+  height: 50vh;
+  max-height: 385px;
+}
+
+.sorting-methods-17 img {
+  height: 100%;
+}
+
+.sorting-methods-18 {
+  height: 38.2vh;
+  max-height: 294px;
+}
+
+.sorting-methods-18 img {
+  height: 100%;
+}
+
+.sorting-methods-19 {
+  height: 47vh;
+  max-height: 361px;
+}
+
+.sorting-methods-19 img {
+  height: 100%;
+}
+
+.sorting-methods-20 {
+  height: 54.5vh;
+  max-height: 419px;
+}
+
+.sorting-methods-20 img {
+  height: 100%;
+}
+
+.sorting-methods-21 {
+  height: 40.69vh;
+  max-height: 312.5px;
+}
+
+.sorting-methods-21 img {
+  height: 100%;
+}
+
+.operators-22 {
+  height: 49.5vh;
+  max-height: 381px;
+}
+
+.operators-22 img {
+  height: 100%;
+}
+
+.operators-23 {
+  height: 42.9vh;
+  max-height: 330px;
+}
+
+.operators-23 img {
+  height: 100%;
+}
+
+.operators-24 {
+  height: 14.02vh;
+  max-height: 108px;
+}
+
+.operators-24 img {
+  height: 100%;
+  bottom: 50vh;
+  right: 0;
+  position: absolute;
+  width: 11.4vw;
+  max-width: 156px;
+}
+
+.background-cs-6-5 {
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-6-5-25 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Operators-5/cs-6-5-25.svg");
+}
+
+.background-cs-6-5-26 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Operators-5/cs-6-5-26.svg");
+}
+
+.background-cs-6-5-27 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Operators-5/cs-6-5-27.svg");
+}
+
+.background-cs-6-5-28 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Operators-5/cs-6-5-28.svg");
+}
+
+.Social-page img {
+  height: 100%;
+}
+
+.Social-page_11 {
+  height: 42vh;
+  max-height: 322px;
+}
+
+.Social-page_12 {
+  height: 49vh;
+  max-height: 379px;
+  position: fixed;
+  bottom: 0;
+  right: 10%;
+}
+
+.Social-page_13 {
+  height: 40vh;
+  max-height: 305px;
+}
+
+.Social-page_14 {
+  height: 42vh;
+  max-height: 318px;
+}
+
+.Social-page_15 {
+  height: 31vh;
+  max-height: 235px;
+}
+
+.social-responsibility-6 {
+  height: 35vh;
+  max-height: 271px;
+}
+
+.social-responsibility-6 img {
+  height: 100%;
+}
+
+.social-responsibility-7 {
+  height: 54.6vh;
+  max-height: 420px;
+}
+
+.social-responsibility-7 img {
+  height: 100%;
+}
+
+.social-responsibility-8 {
+  height: 54.6vh;
+  max-height: 420px;
+}
+
+.social-responsibility-8 img {
+  height: 100%;
+}
+
+.social-responsibility-9 {
+  height: 41.7vh;
+  max-height: 321px;
+}
+
+.social-responsibility-9 img {
+  height: 100%;
+}
+
+.social-responsibility-10 {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  height: 52.7vh;
+  max-height: 405px;
+}
+
+.cs-5-13-22-img {
+  height: 56.77vh;
+  margin-top: 3vh;
+}
+
+.cs-5-13-23-img {
+  height: 46.22vh;
+}
+
+.cs-5-13-24-img {
+  height: 33.46vh;
+  margin-top: 2vh;
+}
+
+.cs-5-13-25-img {
+  height: 22.13vh;
+  margin-top: 5vh;
+}
+
+.background-cs-5-13 {
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-5-13-26 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/Sorting-methods-13/cs-5-13-26.svg");
+}
+
+.background-cs-5-13-27 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/Sorting-methods-13/cs-5-13-27.svg");
+}
+
+.background-cs-5-13-28 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/Sorting-methods-13/cs-5-13-28.svg");
+}
+
+.background-cs-5-13-29 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/Sorting-methods-13/cs-5-13-29.svg");
 }
 
 .class_6_5-img_5_1 {
@@ -45056,6 +45333,25 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
+}
+.cs-6-22-1-img {
+  height: 49.73vh;
+  margin: 7vh auto;
+}
+
+.cs-6-22-3-img {
+  height: 41.92vh;
+  margin-top: 4vh;
+}
+
+.cs-6-22-4-img {
+  height: 44.14vh;
+  margin-top: 2vh;
+}
+
+.cs-6-22-5-img {
+  height: 58.46vh;
+  margin-top: 2vh;
 }
 
 body {
