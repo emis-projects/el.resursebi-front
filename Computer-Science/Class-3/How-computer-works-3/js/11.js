@@ -57,12 +57,14 @@ function natureGames() {
             if(clone.getAttribute('data-place') == 1){
                 document.getElementById("1").src = '../../../img/gakvetilebi/Computer-Science/Class-3/How-computer-works-3/sed.svg';
                 console.log(document.getElementById('2').className)
-                document.getElementById('2').className = "lamp-12";
+                document.getElementById('2').src = "../../../img/gakvetilebi/Computer-Science/Class-3/How-computer-works-3/lamp-12.svg";
+                document.getElementById('2').style = '';
                 isDataPlace = false;
             }
             if(clone.getAttribute('data-place') == 0){
                 document.getElementById("1").src = '../../../img/gakvetilebi/Computer-Science/Class-3/How-computer-works-3/smile.svg';
-                document.getElementById('2').className = "lamp"
+                document.getElementById('2').style = 'margin-left: -7px; margin-bottom: 2px;';
+                document.getElementById('2').src = "../../../img/gakvetilebi/Computer-Science/Class-3/How-computer-works-3/lamp.svg"
                 isDataPlace = true;
             }
         }
@@ -81,7 +83,8 @@ function natureGames() {
 
     this.init = (e) => {
         document.getElementById("1").src = '';
-        document.getElementById("2").className = 'lamp-12';
+        document.getElementById("2").style = "";
+        document.getElementById("2").src = '../../../img/gakvetilebi/Computer-Science/Class-3/How-computer-works-3/lamp-12.svg';
         document.getElementById("3").firstChild.remove();
         completedBtn.removeAttribute('disabled');
     }
