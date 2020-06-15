@@ -23,7 +23,6 @@
             dataLayer.push(arguments);
         }
 
-        2
         gtag('js', new Date());
 
         gtag('config', 'UA-155006442-1');
@@ -32,31 +31,41 @@
 
 <body>
     <div class="container">
-        <header>
-            <a class="close" href="5.html">
-                <img src="../../../img/icons/close.svg" alt="close"/>
-            </a>
-        </header>
-        <section>
-            <div class="row newDesign_hintPage">
-                <div class="col-7 flex_direction_left">
-                    <div class="newDesign_subject_question_item mt-5vh">
+        <section class="container position-absolute" id="app">
+            <header>
+                <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../../'"></app-menu>
+            </header>
+
+            <app-section :is-active="isActive" :is-info="isInfo" v-image="'../../../'">
+                <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger" v-on:link-tab="link = $event">
+
+                </app-bar>
+                <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive" :is-info="isInfo" :path="path" :tab-class="currentTabComponent" :trigger="trigger">
+                </component>
+
+            </app-section>
+        </section>
+        <section id="mainPage">
+            <div class="row mt-8vh">
+                <div class="col-5 m-auto">
+                    <div class="newDesign_subject_question_item mb-3vh">
                         <img alt="img" class="newDesign_subject_question_item-img" src="../../../img/icons/newDesign_btn-yellow.svg">
-                        <p class="newDesign_subject_question_item-title Class_2-title_item_2 big-font-size-20px-dejavu">
-                            სიტყვა „ეთიკა“ პირველად გამოიყენა ძველმა ბერძენმა ფილოსოფოსმა არისტოტელემ; ეთიკა სხვადასხვა პროფესიის ადამიანთა ყოფაქცევის წესებია, თითოეული ჩვენგანი იცავს ამ წესებს. ეთიკა გასწავლის, რა არის “კარგი” საქციელი და რა — “ცუდი”.
+                        <p class="newDesign_subject_question_item-title">
+                            რა იცოდი და რა იყო ახალი?
+                        </p>
+                    </div>
+                    <div class="newDesign_subject_question_item">
+                        <img alt="img" class="newDesign_subject_question_item-img" src="../../../img/icons/newDesign_btn-yellow.svg">
+                        <p class="newDesign_subject_question_item-title">
+                            რაში გამოგადგება მიღებული ცოდნა?
                         </p>
                     </div>
                 </div>
-                <div class="col-5 m-auto ethic_page-5-1">
-                    <img alt="img" src="../../../img/gakvetilebi/Computer-Science/Class-6/Information-ethics-norms-21/cs-6-21-5-1.png">
-                </div>
-                <div class="newDesign_subject_question_item ethic_page-5-1-div">
-                    <p class="newDesign_subject_question_item-title Class_2-title_item_2 big-font-size-20px-dejavu">
-                        არისტოტელე
-                    </p>
+                <div class="col-9 m-auto class_5_2-img_9 d-flex justify-content-end">
+                    <img src="../../../img/gakvetilebi/Computer-Science/Class-5/My-first-robot-2/C-5-2-9.svg" alt="image">
                 </div>
             </div>
-                 
+
             <div class="left_components_paging-cont" id="leftNav">
                 <left-nav-item></left-nav-item>
             </div>
