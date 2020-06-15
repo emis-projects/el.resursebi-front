@@ -44709,7 +44709,7 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   right: 5.04vw;
 }
 
-.cs-6-21-div-10 {
+.cs-6-21-div-10-img {
   height: 51.04vh;
 }
 
@@ -44925,19 +44925,13 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
-.class_5_13-img_6 {
-  height: 73.56vh;
-  max-height: 565px;
+.class_5_13-img_5_1 {
+  height: 50vh;
+  max-height: 386.5px;
 }
 
-.class_5_13-img_7 {
-  height: 46.87vh;
-  max-height: 360px;
-}
-
-.class_5_13-img_8 {
-  height: 23.69vh;
-  max-height: 182px;
+.class_5_13-img_5_1 img {
+  height: 100%;
 }
 
 .sorting-page img {
@@ -45283,82 +45277,6 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .background-cs-6-5-28 {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Operators-5/cs-6-5-28.svg");
-}
-
-.Social-page img {
-  height: 100%;
-}
-
-.Social-page_11 {
-  height: 42vh;
-  max-height: 322px;
-}
-
-.Social-page_12 {
-  height: 49vh;
-  max-height: 379px;
-  position: fixed;
-  bottom: 0;
-  right: 10%;
-}
-
-.Social-page_13 {
-  height: 40vh;
-  max-height: 305px;
-}
-
-.Social-page_14 {
-  height: 42vh;
-  max-height: 318px;
-}
-
-.Social-page_15 {
-  height: 31vh;
-  max-height: 235px;
-}
-
-.social-responsibility-6 {
-  height: 35vh;
-  max-height: 271px;
-}
-
-.social-responsibility-6 img {
-  height: 100%;
-}
-
-.social-responsibility-7 {
-  height: 54.6vh;
-  max-height: 420px;
-}
-
-.social-responsibility-7 img {
-  height: 100%;
-}
-
-.social-responsibility-8 {
-  height: 54.6vh;
-  max-height: 420px;
-}
-
-.social-responsibility-8 img {
-  height: 100%;
-}
-
-.social-responsibility-9 {
-  height: 41.7vh;
-  max-height: 321px;
-}
-
-.social-responsibility-9 img {
-  height: 100%;
-}
-
-.social-responsibility-10 {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  height: 52.7vh;
-  max-height: 405px;
 }
 
 .cs-5-13-22-img {
@@ -45745,6 +45663,85 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 .cs-6-22-5-img {
   height: 58.46vh;
   margin-top: 2vh;
+}
+
+.social-responsibility-6 {
+  height: 35vh;
+  max-height: 271px;
+}
+
+.social-responsibility-6 img {
+  height: 100%;
+}
+
+.social-responsibility-7 {
+  height: 54.6vh;
+  max-height: 420px;
+}
+
+.social-responsibility-7 img {
+  height: 100%;
+}
+
+.social-responsibility-8 {
+  height: 54.6vh;
+  max-height: 420px;
+}
+
+.social-responsibility-8 img {
+  height: 100%;
+}
+
+.social-responsibility-9 {
+  height: 41.7vh;
+  max-height: 321px;
+}
+
+.social-responsibility-9 img {
+  height: 100%;
+}
+
+.social-responsibility-10 {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  height: 52.7vh;
+  max-height: 405px;
+}
+
+.cs-6-22-16-img {
+  height: 39.84vh;
+}
+
+.cs-6-22-17-img {
+  height: 63.67vh;
+  position: absolute;
+  bottom: 0;
+  right: 14.86vw;
+}
+
+.cs-6-22-18-img {
+  height: 37.1vh;
+}
+
+.cs-6-22-6-1-img {
+  height: 51.43vh;
+}
+
+.cs-6-22-8-1-img {
+  height: 48.69vh;
+}
+
+.cs-6-22-11-1-img {
+  height: 44.4vh;
+}
+
+.cs-6-22-11-1-img {
+  height: 46.35vh;
+}
+
+.cs-6-22 img {
+  height: 100%;
 }
 
 body {
