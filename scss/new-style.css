@@ -45320,6 +45320,37 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-5/Sorting-methods-13/cs-5-13-29.svg");
 }
 
+.cs-5-13-div-6-img {
+  height: 73.56vh;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.cs-5-13-div-7-img {
+  height: 46.87vh;
+}
+
+.cs-5-13-div-8-img {
+  height: 23.69vh;
+}
+
+.cs-5-13-div-3-1-img {
+  height: 50.26vh;
+}
+
+.cs-5-13-div-10-1-img {
+  height: 49.21vh;
+}
+
+.cs-5-13-div-14-1-img {
+  height: 46.74vh;
+}
+
+.cs-5-13-div img {
+  height: 100%;
+}
+
 .operators-page img {
   height: 100%;
 }
