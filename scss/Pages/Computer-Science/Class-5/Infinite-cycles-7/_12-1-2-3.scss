@@ -14,3 +14,27 @@
         }
     }
 }
+
+.infinite-page-6{
+    &_1{
+        height: 46vh;
+        max-height: 351px;
+        img{
+            height: 100%;
+        }
+    }
+    &_2{
+        height: 44vh;
+        max-height: 339px;
+        img{
+            height: 100%;
+        }
+    }
+    &_3{
+        height: 42vh;
+        max-height: 324px;
+        img{
+            height: 100%;
+        }
+    }
+}
