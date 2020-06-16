@@ -39,7 +39,13 @@
         background-repeat: no-repeat;
     }
     &-img_ball {
-        height: 6vh!important;
+        display: flex;
+        flex-direction: column-reverse;
+        height: 100%;
+        img {
+            height: 40px!important;
+        }
+        
     }
     &-box_item_1 {
         position: absolute;
