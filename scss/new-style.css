@@ -32690,6 +32690,33 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
+.infinite-page-6_1 {
+  height: 46vh;
+  max-height: 351px;
+}
+
+.infinite-page-6_1 img {
+  height: 100%;
+}
+
+.infinite-page-6_2 {
+  height: 44vh;
+  max-height: 339px;
+}
+
+.infinite-page-6_2 img {
+  height: 100%;
+}
+
+.infinite-page-6_3 {
+  height: 42vh;
+  max-height: 324px;
+}
+
+.infinite-page-6_3 img {
+  height: 100%;
+}
+
 .cs-5-7-div-13-img {
   height: 45.31vh;
 }
@@ -32716,66 +32743,28 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
-.Cycles {
+.Class_5_8-image_19 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/Cycles-8/cs-5-8-19.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 100vh;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  left: 0;
 }
 
-.Cycles_main-box-19 {
-  height: 100%;
-  width: 100%;
-  background: url("../img/gakvetilebi/Computer-Science/Class-5/Cycles-8/cs-5-8-19.svg") no-repeat center;
+.Class_5_8-image_20 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/Cycles-8/cs-5-8-20.svg");
+  background-position: top center;
   background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
-.Cycles_main-box-20 {
-  height: 100%;
-  width: 100%;
-  background: url("../img/gakvetilebi/Computer-Science/Class-5/Cycles-8/cs-5-8-20.svg") no-repeat center;
+.Class_5_8-image_21 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/Cycles-8/cs-5-8-21.svg");
+  background-position: top center;
   background-size: cover;
-}
-
-.Cycles_main-box-21 {
-  height: 100%;
-  width: 100%;
-  background: url("../img/gakvetilebi/Computer-Science/Class-5/Cycles-8/cs-5-8-21.svg") no-repeat center;
-  background-size: cover;
-}
-
-.Cycles-11_image-box {
-  height: 50vh;
-  max-height: 384px;
-}
-
-.Cycles-11_image-box img {
-  height: 100%;
-}
-
-.Cycles-12_image-box {
-  height: 55vh;
-  max-height: 420px;
-}
-
-.Cycles-12_image-box img {
-  height: 100%;
-}
-
-.Cycles-13_image-box {
-  height: 55vh;
-  max-height: 420px;
-}
-
-.Cycles-13_image-box img {
-  height: 100%;
-}
-
-.Cycles_title {
-  color: #62548A;
-  font-family: "DejaVu Sans";
-  font-size: 3.6vh;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
 .cs-5-8-7-img {
@@ -44997,88 +44986,78 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   color: white;
 }
 
+.class_5_13-img_hight_kolba {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/Sorting-methods-13/C-5-13-hight-Kolba.svg");
+  height: 27vh;
+  background-size: 100% 100%;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.class_5_13-img_middle_kolba {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/Sorting-methods-13/C-5-13-middle-kolba.svg");
+  height: 18.7vh;
+  background-size: 100% 100%;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.class_5_13-img_small_kolba {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/Sorting-methods-13/C-5-13-small-kolba.svg");
+  height: 12.3vh;
+  background-size: 100% 100%;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.class_5_13-img_ball {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  height: 100%;
+}
+
+.class_5_13-img_ball img {
+  height: 6vh !important;
+}
+
 .class_5_13-box_item_1 {
   position: absolute;
   top: 16vh;
   left: 15vh;
+  width: 9%;
 }
 
 .class_5_13-box_item_1_2 {
   position: absolute;
   top: 24.2vh;
   left: 15vh;
+  width: 9%;
 }
 
 .class_5_13-box_item_2 {
   position: absolute;
   top: 24.2vh;
   left: 26vh;
+  width: 9%;
 }
 
 .class_5_13-box_item_3 {
   position: absolute;
   top: 24.2vh;
   left: 37vh;
+  width: 9%;
 }
 
 .class_5_13-box_item_4 {
   position: absolute;
   top: 30.6vh;
   left: 48vh;
-}
-
-.class_5_13-img_kolba {
-  height: 27vh;
-}
-
-.class_5_13-img_middle_kolba {
-  height: 18.7vh;
-}
-
-.class_5_13-img_small_kolba {
-  height: 12.3vh;
-}
-
-.class_5_13-img_ball {
-  position: absolute;
-  top: 2.6vh;
-  height: 6vh;
-}
-
-.class_5_13-img_ball_1_2 {
-  position: absolute;
-  top: 0.3vh;
-  height: 6vh;
-}
-
-.class_5_13-img_ball_2 {
-  position: absolute;
-  top: 0.3vh;
-  height: 6vh;
-}
-
-.class_5_13-img_ball_2_2 {
-  position: absolute;
-  top: 6.3vh;
-  height: 6vh;
-}
-
-.class_5_13-img_ball_3 {
-  position: absolute;
-  top: 0.3vh;
-  height: 6vh;
-}
-
-.class_5_13-img_ball_3_2 {
-  position: absolute;
-  top: 6.3vh;
-  height: 6vh;
-}
-
-.class_5_13-img_ball_4 {
-  position: absolute;
-  top: 0;
-  height: 6vh;
+  width: 9%;
 }
 
 .sorting-page img {
@@ -45192,60 +45171,6 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   max-height: 443px;
   position: fixed;
   bottom: 0%;
-}
-
-.sorting-methods-16 {
-  height: 40.8vh;
-  max-height: 314px;
-}
-
-.sorting-methods-16 img {
-  height: 100%;
-}
-
-.sorting-methods-17 {
-  height: 50vh;
-  max-height: 385px;
-}
-
-.sorting-methods-17 img {
-  height: 100%;
-}
-
-.sorting-methods-18 {
-  height: 38.2vh;
-  max-height: 294px;
-}
-
-.sorting-methods-18 img {
-  height: 100%;
-}
-
-.sorting-methods-19 {
-  height: 47vh;
-  max-height: 361px;
-}
-
-.sorting-methods-19 img {
-  height: 100%;
-}
-
-.sorting-methods-20 {
-  height: 54.5vh;
-  max-height: 419px;
-}
-
-.sorting-methods-20 img {
-  height: 100%;
-}
-
-.sorting-methods-21 {
-  height: 40.69vh;
-  max-height: 312.5px;
-}
-
-.sorting-methods-21 img {
-  height: 100%;
 }
 
 .operators-page img {
@@ -47842,3 +47767,4 @@ body {
     font-size: 14px;
   }
 }
+/*# sourceMappingURL=new-style.css.map */
