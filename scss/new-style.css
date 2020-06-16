@@ -44997,88 +44997,67 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   color: white;
 }
 
+.class_5_13-img_hight_kolba {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/Sorting-methods-13/C-5-13-hight-Kolba.svg");
+  height: 27vh;
+  background-size: 100% 100%;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.class_5_13-img_middle_kolba {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/Sorting-methods-13/C-5-13-middle-kolba.svg");
+  height: 18.7vh;
+  background-size: 100% 100%;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.class_5_13-img_small_kolba {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/Sorting-methods-13/C-5-13-small-kolba.svg");
+  height: 12.3vh;
+  background-size: 100% 100%;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.class_5_13-img_ball {
+  height: 6vh !important;
+}
+
 .class_5_13-box_item_1 {
   position: absolute;
   top: 16vh;
   left: 15vh;
+  width: 9%;
 }
 
 .class_5_13-box_item_1_2 {
   position: absolute;
   top: 24.2vh;
   left: 15vh;
+  width: 9%;
 }
 
 .class_5_13-box_item_2 {
   position: absolute;
   top: 24.2vh;
   left: 26vh;
+  width: 9%;
 }
 
 .class_5_13-box_item_3 {
   position: absolute;
   top: 24.2vh;
   left: 37vh;
+  width: 9%;
 }
 
 .class_5_13-box_item_4 {
   position: absolute;
   top: 30.6vh;
   left: 48vh;
-}
-
-.class_5_13-img_kolba {
-  height: 27vh;
-}
-
-.class_5_13-img_middle_kolba {
-  height: 18.7vh;
-}
-
-.class_5_13-img_small_kolba {
-  height: 12.3vh;
-}
-
-.class_5_13-img_ball {
-  position: absolute;
-  top: 2.6vh;
-  height: 6vh;
-}
-
-.class_5_13-img_ball_1_2 {
-  position: absolute;
-  top: 0.3vh;
-  height: 6vh;
-}
-
-.class_5_13-img_ball_2 {
-  position: absolute;
-  top: 0.3vh;
-  height: 6vh;
-}
-
-.class_5_13-img_ball_2_2 {
-  position: absolute;
-  top: 6.3vh;
-  height: 6vh;
-}
-
-.class_5_13-img_ball_3 {
-  position: absolute;
-  top: 0.3vh;
-  height: 6vh;
-}
-
-.class_5_13-img_ball_3_2 {
-  position: absolute;
-  top: 6.3vh;
-  height: 6vh;
-}
-
-.class_5_13-img_ball_4 {
-  position: absolute;
-  top: 0;
-  height: 6vh;
+  width: 9%;
 }
 
 .sorting-page img {
