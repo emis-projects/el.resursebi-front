@@ -1,51 +1,73 @@
-.Cycles{
-  height: 100vh;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  left: 0;
-  &_main-box-19{
-    height: 100%;
-    width: 100%;
-    background: url("../img/gakvetilebi/Computer-Science/Class-5/Cycles-8/cs-5-8-19.svg") no-repeat center;
+.Class_5_8 {
+  &-image_19 {
+    background-image: url("../img/gakvetilebi/Computer-Science/Class-5/Cycles-8/cs-5-8-19.svg");
+    background-position: top center;
     background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
   }
-  &_main-box-20{
-    height: 100%;
-    width: 100%;
-    background: url("../img/gakvetilebi/Computer-Science/Class-5/Cycles-8/cs-5-8-20.svg") no-repeat center;
+  &-image_20 {
+    background-image: url("../img/gakvetilebi/Computer-Science/Class-5/Cycles-8/cs-5-8-20.svg");
+    background-position: top center;
     background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
   }
-  &_main-box-21{
-    height: 100%;
-    width: 100%;
-    background: url("../img/gakvetilebi/Computer-Science/Class-5/Cycles-8/cs-5-8-21.svg") no-repeat center;
+  &-image_21 {
+    background-image: url("../img/gakvetilebi/Computer-Science/Class-5/Cycles-8/cs-5-8-21.svg");
+    background-position: top center;
     background-size: cover;
-  }
-  &-11_image-box{
-    height: 50vh;
-    max-height: 384px;
-    img{
-      height: 100%;
-    }
-  }
-  &-12_image-box{
-    height: 55vh;
-    max-height: 420px;
-    img{
-      height: 100%;
-    }
-  }
-  &-13_image-box{
-    height: 55vh;
-    max-height: 420px;
-    img{
-      height: 100%;
-    }
-  }
-  &_title{
-    color: #62548A;
-    font-family: "DejaVu Sans";
-    font-size: 3.6vh;
+    background-repeat: no-repeat;
+    height: 100vh;
   }
 }
+//   height: 100vh;
+//   position: fixed;
+//   width: 100%;
+//   top: 0;
+//   left: 0;
+//   &_main-box-19{
+//     height: 100%;
+//     width: 100%;
+//     background: url("../img/gakvetilebi/Computer-Science/Class-5/Cycles-8/cs-5-8-19.svg") no-repeat center;
+//     background-size: cover;
+//   }
+//   &_main-box-20{
+//     height: 100%;
+//     width: 100%;
+//     background: url("../img/gakvetilebi/Computer-Science/Class-5/Cycles-8/cs-5-8-20.svg") no-repeat center;
+//     background-size: cover;
+//   }
+//   &_main-box-21{
+//     height: 100%;
+//     width: 100%;
+//     background: url("../img/gakvetilebi/Computer-Science/Class-5/Cycles-8/cs-5-8-21.svg") no-repeat center;
+//     background-size: cover;
+//   }
+//   &-11_image-box{
+//     height: 50vh;
+//     max-height: 384px;
+//     img{
+//       height: 100%;
+//     }
+//   }
+//   &-12_image-box{
+//     height: 55vh;
+//     max-height: 420px;
+//     img{
+//       height: 100%;
+//     }
+//   }
+//   &-13_image-box{
+//     height: 55vh;
+//     max-height: 420px;
+//     img{
+//       height: 100%;
+//     }
+//   }
+//   &_title{
+//     color: #62548A;
+//     font-family: "DejaVu Sans";
+//     font-size: 3.6vh;
+//   }
+// }
