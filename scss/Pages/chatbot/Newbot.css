@@ -56,7 +56,7 @@
 }
 
 #chatBot #formData {
-  padding-bottom: 6px;
+  padding-bottom: 10px;
   background: white;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -68,7 +68,7 @@
 
 #chatBot #formData input {
   padding-left: 30px;
-  font-family: 'ALK Sanet', sans-serif;
+  font-family: 'DejaVuSans';
   font-size: 14px;
 }
 
