@@ -4,6 +4,10 @@
   right: 10%;
 }
 
+#chatBot a {
+  text-decoration: none;
+}
+
 #chatBot .chatBot-box {
   float: right;
 }
@@ -907,4 +911,3 @@
     top: 2px;
   }
 }
-/*# sourceMappingURL=Newbot.css.map */
