@@ -1,6 +1,7 @@
 function game(){
     this.error = true;
-    this.hrefElement = null;
+    this.error2 = true;
+    this.error3 = true;
 
     
     // variables
@@ -63,87 +64,81 @@ function game(){
     }
     
 
+    this.checkFirstLine = (e) => {
+
+        let parent = e.target.querySelector('.appendDiv');
+        
+
+        if(parent.classList.contains('appendDiv--1')){
+            if(parent.querySelectorAll('img')[0].getAttribute('data-index') == parent.getAttribute('data-index') && parent.querySelectorAll('img')[1].getAttribute('data-index') == parent.getAttribute('data-index')){
+                this.error = false
+
+            } else {
+                this.error = true
+            }
+
+        } else if(parent.classList.contains('appendDiv--2')){
+            if(parent.querySelectorAll('img')[0].getAttribute('data-index') == parent.getAttribute('data-index') && parent.querySelectorAll('img')[1].getAttribute('data-index') == parent.getAttribute('data-index')){
+                this.error2 = false
+
+            } else {
+                this.error2 = true
+            }
+
+        } else if(parent.classList.contains('appendDiv--3')){
+            if(parent.querySelectorAll('img')[0].getAttribute('data-index') == parent.getAttribute('data-index') && parent.querySelectorAll('img')[1].getAttribute('data-index') == parent.getAttribute('data-index')){
+                this.error3 = false
+
+            } else {
+                this.error3 = true
+            }
+
+        }
+    }
+
+
+
     this.dragDrop = e => {
         e.target.querySelector('.appendDiv').appendChild(document.querySelector('.draggedElement'));
+
+        this.checkFirstLine(e)
     }
 
 
-    this.checkEveryElement = (elements) => {
-        var array = [];
-        for(var i = 0; i < elements.length; i++ ){
-            array.push(elements[i])
-        }
-
-        // console.log(array);
-        array.forEach(w => {
-            let items = w.querySelector('.appendDiv').querySelectorAll('img');
-            let index = w.querySelector('.appendDiv').getAttribute('data-index')
-            let number = w.querySelector('.appendDiv').getAttribute('data-number')
-
-            console.log(items[0])
-
-            // for(var i = 0; i < items.length; i++){
-            //     if(items[i].getAttribute('data-index') == items[i].parentElement.getAttribute('data-index') && 
-            //         number == items[0].length)
-            //     {
-            //         items[i].previousElementSibling.classList.add('success')
-
-            //     } else {
-            //         items[i].previousElementSibling.classList.add('error')
-            //     }
-            // }
-        })
-    }
-
-
-
+ 
     this.successPage  = () => {
-        this.checkEveryElement(dragElement2MyArray)
 
-		// if(el == true ){
-        //     let loc = location.pathname;
+		if(!this.error && !this.error2 && !this.error3){
+            location.href = "game-success-7.html"
 
-        //     if(loc == "/Computer-Science/Class-6/Presentation-of-my-project-19/6.html" || loc == "/el.resursebi-front/Computer-Science/Class-6/Presentation-of-my-project-19/6.html"){
-        //         location.href = "game-success-6.html"
-        //     }
+        } else {
 
-        // } else {
-
-        //     this.errorPage()
-        // }
+            this.errorPage()
+        }
     }
 
 
     this.errorPage = () => {
-        // $( dragElement2MyArray ).find( "img" ).css( "background-color", "red" );
-        // if(dragElement2MyArray)
+        if(this.error){
+            document.querySelector('.DragGame—childs2--1').querySelector('.sign-description-btn').classList.add('error')
         
-        // $.each( dragElement2MyArray, function( key, value ) {
-        //     if($(value).children('img')){
-        //         if($(value).children('img').attr('data-index') == $(value).attr('data-index')){
-        //             $(value).children('.sign-description-btn').addClass('success')
-        //         } else {
-        //             $(value).children('.sign-description-btn').addClass('error')
-        //         }
-        //     }
+        } else {
+            document.querySelector('.DragGame—childs2--1').querySelector('.sign-description-btn').classList.add('success')
+        }
 
+        if(this.error2){
+            document.querySelector('.DragGame—childs2--2').querySelector('.sign-description-btn').classList.add('error')
+        
+        } else {
+            document.querySelector('.DragGame—childs2--2').querySelector('.sign-description-btn').classList.add('success')
+        }
 
-        //     // console.log($(value).children('img'));
-        // });
-
-        // dragElement2MyArray.forEach(w => {
-        //     if(w.querySelector('img')){
-        //         if(w.getAttribute('data-index') !== w.querySelector('img').getAttribute('data-index')){
-        //             w.querySelector('.sign-description-btn').classList.add('error')
-    
-        //         } else if(w.getAttribute('data-index') == w.querySelector('img').getAttribute('data-index')) {
-        //             w.querySelector('.sign-description-btn').classList.add('success')
-        //         }
-        //     } else {
-        //         w.querySelector('.sign-description-btn').classList.add('error')
-        //     }
-
-        // })
+        if(this.error3){
+            document.querySelector('.DragGame—childs2--3').querySelector('.sign-description-btn').classList.add('error')
+        
+        } else {
+            document.querySelector('.DragGame—childs2--3').querySelector('.sign-description-btn').classList.add('success')
+        }
     }
     
  
