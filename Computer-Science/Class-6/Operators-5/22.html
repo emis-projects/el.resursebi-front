@@ -1,4 +1,4 @@
-+<!DOCTYPE html>
+<!DOCTYPE html>
 <html data-botid="2288" lang="ka">
 
 <head>
@@ -23,6 +23,7 @@
             dataLayer.push(arguments);
         }
 
+        2
         gtag('js', new Date());
 
         gtag('config', 'UA-155006442-1');
@@ -36,47 +37,47 @@
                 <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../../'"></app-menu>
             </header>
 
-            <app-section :is-active="isActive" :is-info="isInfo" v-image="'../../../'">
-                <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger"
-                    v-on:link-tab="link = $event">
+            <app-section :is-active="isActive" v-image="'../../../'">
+                <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger" v-on:link-tab="link = $event">
 
                 </app-bar>
-                <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive"
-                    :is-info="isInfo" :path="path" :tab-class="currentTabComponent" :trigger="trigger">
+                <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive" :is-info="isInfo" :path="path" :tab-class="currentTabComponent" :trigger="trigger">
                 </component>
 
             </app-section>
         </section>
         <section id="mainPage">
-            <div class="row">
-                <div class="col-9 m-auto">
-                    <div class="newDesign_container_main_title-cont newDesign_container_main_title-cont-margin">
-                        <h1 class="newDesign_container_main_title">კონტენტი და მისი დახარისხების მეთოდები</h1>
-                        <img alt="img" class="newDesign_container_main_title-img"
-                            src="../../../img/icons/comp_main_title_border.svg">
+            <div class="row  d-flex">
+                <div class="col-6 m-auto">
+                    <div class="newDesign_subject_question_item mt-5vh">
+                        <img alt="img" class="newDesign_subject_question_item-img" src="../../../img/icons/newDesign_btn-yellow.svg">
+                        <p class="newDesign_subject_question_item-title Class_2-title_item_2 big-font-size-20px-dejavu">
+                            რა იცოდი და რა იყო ახალი?
+                        </p>
                     </div>
-                    <div class="newDesign_subject_question_item mt-10vh">
-                        <img alt="img" class="newDesign_subject_question_item-img"
-                            src="../../../img/icons/newDesign_btn-yellow.svg">
-                        <p class="newDesign_subject_question_item-title">
-                            შენ უკვე წარმატებით გაიარე ნაბიჯები, გაიგე ბევრი ახალი რამ, ახლა დროა, დაიწყო მთავარი დავალების შესრულება.
+                    <div class="newDesign_subject_question_item mt-5vh">
+                        <img alt="img" class="newDesign_subject_question_item-img" src="../../../img/icons/newDesign_btn-yellow.svg">
+                        <p class="newDesign_subject_question_item-title Class_2-title_item_2 big-font-size-20px-dejavu">
+                            რაში გამოგადგება მიღებული ცოდნა?
                         </p>
                     </div>
                 </div>
-                <div class="col-9 m-auto d-flex justify-content-end sorting-methods-20">
-                    <img alt="img"
-                        src="../../../img/gakvetilebi/Computer-Science/Class-5/Sorting-methods-13/cs-5-13-20.svg">
-                </div>
+                
             </div>
-
+                <div class="col-11 operators-22 d-flex justify-content-end">
+                    <img alt="img" src="../../../img/gakvetilebi/Computer-Science/Class-6/Operators-5/cs-6-5-22.svg">
+                </div> 
             <div class="left_components_paging-cont" id="leftNav">
                 <left-nav-item></left-nav-item>
             </div>
+
             <div class="our__pagination flex">
                 <a class="pagination__prev__btn" href="#">
                     <img alt="" src="../../../img/icons/chevron-left-icon.svg" style="transform: rotate(180deg)">
                 </a>
+
                 <div class="flex align-items-center" id="pagination"></div>
+
                 <a class="pagination__next__btn" href="#">
                     <img alt="" src="../../../img/icons/chevron-left-icon.svg">
                 </a>
