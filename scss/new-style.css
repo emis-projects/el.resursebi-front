@@ -46090,6 +46090,61 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
+.photo-editor-19 {
+  height: 49vh;
+  max-height: 377px;
+}
+
+.photo-editor-19 img {
+  height: 100%;
+}
+
+.photo-editor-20 {
+  height: 56.6vh;
+  max-height: 435px;
+}
+
+.photo-editor-20 img {
+  height: 100%;
+}
+
+.photo-editor-21 {
+  height: 38.67vh;
+  max-height: 297px;
+}
+
+.photo-editor-21 img {
+  height: 100%;
+}
+
+.photo-editor-22 {
+  height: 60.41vh;
+  max-height: 464px;
+}
+
+.photo-editor-22 img {
+  height: 100%;
+  margin-top: -10vh;
+}
+
+.photo-editor-23 {
+  height: 50.39vh;
+  max-height: 387px;
+}
+
+.photo-editor-23 img {
+  height: 100%;
+}
+
+.photo-editor-24 {
+  height: 64.3vh;
+  max-height: 494px;
+}
+
+.photo-editor-24 img {
+  height: 100%;
+}
+
 body {
   color: #262626;
   font-size: 14px;
