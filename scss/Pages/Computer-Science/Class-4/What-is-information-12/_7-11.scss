@@ -9,7 +9,7 @@
     &-img_8 {
         position: fixed;
         bottom: 9vh;
-        padding-right: 10vh;;
+        padding-right: 10vh;
         height: 48vh;
         max-height: 372px;
         img {
@@ -19,11 +19,14 @@
     &-img_9 {
         height: 54vh;
         max-height: 417px;
+        margin-left: 15vh!important;
         img {
             height: 100%;
         }
     }
     &-img_10 {
+        position: fixed;
+        bottom: 0;
         height: 39vh;
         max-height: 303px;
         img {
@@ -31,6 +34,9 @@
         }
     }
     &-img_11 {
+        position: fixed;
+        bottom: 0;
+        right: 0;
         height: 52.86vh;
         max-height: 406px;
         img {

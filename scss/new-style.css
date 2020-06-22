@@ -45059,13 +45059,6 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .class_5_13-box_item_4 {
   position: absolute;
-  top: 24.2vh;
-  left: 48vh;
-  width: 9%;
-}
-
-.class_5_13-box_item_4_1 {
-  position: absolute;
   top: 30.6vh;
   left: 48vh;
   width: 9%;
@@ -46770,6 +46763,7 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 .class_4_12-img_9 {
   height: 54vh;
   max-height: 417px;
+  margin-left: 15vh !important;
 }
 
 .class_4_12-img_9 img {
@@ -46777,6 +46771,8 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .class_4_12-img_10 {
+  position: fixed;
+  bottom: 0;
   height: 39vh;
   max-height: 303px;
 }
@@ -46786,6 +46782,9 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .class_4_12-img_11 {
+  position: fixed;
+  bottom: 0;
+  right: 0;
   height: 52.86vh;
   max-height: 406px;
 }
