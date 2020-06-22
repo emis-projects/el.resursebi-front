@@ -925,8 +925,8 @@ let title = {
         },
         {
             id: 12,
-            name: 'სათაური',
-            link: 'Computer-Science/Class-2/...'
+            name: 'საკუთარ ანგარიშში მუშაობა',
+            link: 'Computer-Science/Class-2/working-with-account-12/7.html'
         }
     ],
     IT_3: [
@@ -987,8 +987,8 @@ let title = {
         },
         {
             id: 12,
-            name: 'სათაური',
-            link: '#'
+            name: 'საკუთარი Office 365-ის ანგარიშის მართვა',
+            link: 'Computer-Science/Class-3/managing-office365-12/1.html'
         }
     ],
     IT_4: [
@@ -1049,8 +1049,8 @@ let title = {
         },
         {
             id: 12,
-            name: 'სათაური',
-            link: '#'
+            name: 'რა არის ინფორმაცია',
+            link: 'Computer-Science/Class-4/What-is-information-12/1.html'
         }
     ],
     IT_5: [
@@ -1166,8 +1166,8 @@ let title = {
         },
         {
             id: 23,
-            name: 'სათაური',
-            link: '#'
+            name: 'ინფორმაციულ რესურსებზე მუშაობა',
+            link: 'Computer-Science/Class-5/Informational-resources-23/1.html'
         },
         {
             id: 24,
@@ -1243,8 +1243,8 @@ let title = {
         },
         {
             id: 14,
-            name: 'კომპიუტერი 6 კლასი 14 გაკვ',
-            link: '#'
+            name: 'ფოტო რედაქტორი',
+            link: 'Computer-Science/Class-6/Photo-editor-14/1.html'
         },
         {
             id: 15,
