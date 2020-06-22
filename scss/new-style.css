@@ -46063,6 +46063,64 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   margin-bottom: 1vh;
 }
 
+.class_5_23-img_6 {
+  position: fixed;
+  bottom: 3vh;
+  right: 24vh;
+  height: 61.78vh;
+  max-height: 474.5px;
+}
+
+.class_5_23-img_6 img {
+  height: 100%;
+}
+
+.class_5_23-img_7 {
+  position: fixed;
+  bottom: 13vh;
+  height: 57vh;
+  max-height: 440px;
+}
+
+.class_5_23-img_7 img {
+  height: 100%;
+}
+
+.class_5_23-img_8 {
+  position: fixed;
+  bottom: 0;
+  height: 56.9vh;
+  max-height: 437px;
+}
+
+.class_5_23-img_8 img {
+  height: 100%;
+}
+
+.class_5_23-img_9 {
+  position: fixed;
+  bottom: 0;
+  height: 66vh;
+  max-height: 508px;
+}
+
+.class_5_23-img_9 img {
+  height: 100%;
+}
+
+.class_5_23-img_10 {
+  height: 54.68vh;
+  max-height: 430px;
+}
+
+.class_5_23-img_10 img {
+  height: 100%;
+}
+
+.class_5_23-img_bottom {
+  margin-bottom: 1vh !important;
+}
+
 .informational-resources-17 {
   height: 45vh;
   max-height: 351px;
@@ -46157,6 +46215,56 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
+.class_3_12-img_13_1 {
+  height: 43vh;
+  max-height: 337px;
+}
+
+.class_3_12-img_13_1 img {
+  height: 100%;
+}
+
+.class_3_12-img_14_1 {
+  height: 38vh;
+  max-height: 295px;
+}
+
+.class_3_12-img_14_1 img {
+  height: 100%;
+}
+
+.class_3_12-bg_19 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/managing-office365-12/C-3-12-19.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.class_3_12-bg_20 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/managing-office365-12/C-3-12-20.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.class_3_12-bg_21 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/managing-office365-12/C-3-12-21.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.class_3_12-bg_22 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/managing-office365-12/C-3-12-22.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
 .photo-editor-19 {
   height: 49vh;
   max-height: 377px;
@@ -46210,6 +46318,62 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .photo-editor-24 img {
   height: 100%;
+}
+
+.class_4_12-img_7 {
+  height: 36.8vh;
+  max-height: 283px;
+}
+
+.class_4_12-img_7 img {
+  height: 100%;
+}
+
+.class_4_12-img_8 {
+  position: fixed;
+  bottom: 9vh;
+  padding-right: 10vh;
+  height: 48vh;
+  max-height: 372px;
+}
+
+.class_4_12-img_8 img {
+  height: 100%;
+}
+
+.class_4_12-img_9 {
+  height: 54vh;
+  max-height: 417px;
+}
+
+.class_4_12-img_9 img {
+  height: 100%;
+}
+
+.class_4_12-img_10 {
+  height: 39vh;
+  max-height: 303px;
+}
+
+.class_4_12-img_10 img {
+  height: 100%;
+}
+
+.class_4_12-img_11 {
+  height: 52.86vh;
+  max-height: 406px;
+}
+
+.class_4_12-img_11 img {
+  height: 100%;
+}
+
+.class_4_12-img_center {
+  margin: 0 auto;
+}
+
+.class_4_12-title_item {
+  color: #947DCE;
 }
 
 .what-is-information-6-1 {
