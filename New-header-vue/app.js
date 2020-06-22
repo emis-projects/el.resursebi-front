@@ -1243,8 +1243,8 @@ let title = {
         },
         {
             id: 14,
-            name: 'კომპიუტერი 6 კლასი 14 გაკვ',
-            link: '#'
+            name: 'ფოტო რედაქტორი',
+            link: 'Computer-Science/Class-6/Photo-editor-14/1.html'
         },
         {
             id: 15,
