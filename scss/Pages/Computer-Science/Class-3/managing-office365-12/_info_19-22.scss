@@ -1,0 +1,79 @@
+.managing-office {
+  img{
+    height: 100%;
+  }
+  &_19 {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    width: 100%;
+    background: url("../img/gakvetilebi/Computer-Science/Class-3/managing-office365-12/cs-3-12-19.svg") no-repeat center;
+    background-size: cover;
+    z-index: -1;
+  }
+
+  &_20 {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    width: 100%;
+    background: url("../img/gakvetilebi/Computer-Science/Class-3/managing-office365-12/cs-3-12-20.svg") no-repeat center;
+    background-size: cover;
+    z-index: -1;
+  }
+
+  &_21 {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    width: 100%;
+    background: url("../img/gakvetilebi/Computer-Science/Class-3/managing-office365-12/cs-3-12-21.svg") no-repeat center;
+    background-size: cover;
+    z-index: -1;
+  }
+
+  &_22 {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    width: 100%;
+    background: url("../img/gakvetilebi/Computer-Science/Class-3/managing-office365-12/cs-3-12-22.svg") no-repeat center;
+    background-size: cover;
+    z-index: -1;
+  }
+
+  &_5-1 {
+    height: 36vh;
+    max-height: 297px;
+  }
+  &_6-1 {
+    height: 37vh;
+    max-height: 286px;
+  }
+  &_7-1 {
+    height: 51vh;
+    max-height: 390px;
+    position: fixed;
+    bottom: 0;
+  }
+  &_11-1 {
+    height: 51vh;
+    max-height: 390px;
+  }
+  &_12-1 {
+    height: 45vh;
+    max-height: 335px;
+  }
+}

@@ -987,8 +987,8 @@ let title = {
         },
         {
             id: 12,
-            name: 'სათაური',
-            link: '#'
+            name: 'საკუთარი Office 365-ის ანგარიშის მართვა',
+            link: 'Computer-Science/Class-3/managing-office365-12/1.html'
         }
     ],
     IT_4: [
