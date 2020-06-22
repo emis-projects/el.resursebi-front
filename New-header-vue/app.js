@@ -1166,8 +1166,8 @@ let title = {
         },
         {
             id: 23,
-            name: 'სათაური',
-            link: '#'
+            name: 'ინფორმაციულ რესურსებზე მუშაობა',
+            link: 'Computer-Science/Class-5/Informational-resources-23/1.html'
         },
         {
             id: 24,

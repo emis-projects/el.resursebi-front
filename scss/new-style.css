@@ -37877,6 +37877,32 @@ img.mfp-img[alt*=cs-3-6-6-img] {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-5/Informational-resources-23/cs-5-23-22.svg");
 }
 
+.information-data img {
+  height: 100%;
+}
+.information-data_5-1 {
+  height: 43vh;
+  max-height: 329px;
+}
+.information-data_6-1 {
+  height: 32vh;
+  max-height: 252px;
+}
+.information-data_10-1 {
+  height: 74vh;
+  max-height: 566px;
+  position: fixed;
+  right: 15%;
+  bottom: 5%;
+}
+.information-data_13-1 {
+  height: 54vh;
+  max-height: 416px;
+  position: fixed;
+  right: 15%;
+  bottom: 0%;
+}
+
 .managing-office365-13 {
   height: 39.8vh;
   max-height: 306px;
