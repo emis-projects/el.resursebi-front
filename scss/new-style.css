@@ -45996,6 +45996,57 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
+.class_2_12-img_5_1 {
+  height: 51.6vh;
+  max-height: 396.6px;
+}
+
+.class_2_12-img_5_1 img {
+  height: 100%;
+}
+
+.class_2_12-img_8_1 {
+  height: 41vh;
+  max-height: 315px;
+}
+
+.class_2_12-img_8_1 img {
+  height: 100%;
+}
+
+.class_2_12-img_12_1 {
+  height: 52vh;
+  max-height: 402px;
+}
+
+.class_2_12-img_12_1 img {
+  height: 100%;
+}
+
+.class_2_12-img_13_1 {
+  height: 46.48vh;
+  max-height: 357px;
+}
+
+.class_2_12-img_13_1 img {
+  height: 100%;
+}
+
+.class_2_12-img_14_1 {
+  position: fixed;
+  bottom: 0;
+  height: 57vh;
+  max-height: 437.9px;
+}
+
+.class_2_12-img_14_1 img {
+  height: 100%;
+}
+
+.class_2_12-img_bottom {
+  margin-bottom: 1vh;
+}
+
 .informational-resources-17 {
   height: 45vh;
   max-height: 351px;
@@ -46145,6 +46196,25 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
+.cs-6-14-1-img {
+  height: 49.08vh;
+  margin: 8vh auto;
+}
+
+.cs-6-14-3-img {
+  height: 52.86vh;
+}
+
+.cs-6-14-4-img {
+  height: 42.05vh;
+  margin-top: 2vh;
+}
+
+.cs-6-14-5-img {
+  height: 28.64vh;
+  margin-top: 12vh;
+}
+
 .what-is-information-6-1 {
   height: 40.7vh;
   max-height: 313px;
@@ -46188,6 +46258,33 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .what-is-information-14-1 img {
   height: 100%;
+}
+
+.cs-4-12-17-img {
+  height: 41.66vh;
+  margin-top: 2vh;
+}
+
+.background-cs-4-12 {
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-4-12-18 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/What-is-information-12/cs-4-12-18.svg");
+}
+
+.background-cs-4-12-19 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/What-is-information-12/cs-4-12-19.svg");
+}
+
+.background-cs-4-12-20 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/What-is-information-12/cs-4-12-20.svg");
+}
+
+.background-cs-4-12-21 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/What-is-information-12/cs-4-12-21.svg");
 }
 
 body {
@@ -48079,3 +48176,4 @@ body {
     font-size: 14px;
   }
 }
+/*# sourceMappingURL=new-style.css.map */
