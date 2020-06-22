@@ -46206,6 +46206,33 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
+.cs-4-12-17-img {
+  height: 41.66vh;
+  margin-top: 2vh;
+}
+
+.background-cs-4-12 {
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-4-12-18 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/What-is-information-12/cs-4-12-18.svg");
+}
+
+.background-cs-4-12-19 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/What-is-information-12/cs-4-12-19.svg");
+}
+
+.background-cs-4-12-20 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/What-is-information-12/cs-4-12-20.svg");
+}
+
+.background-cs-4-12-21 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/What-is-information-12/cs-4-12-21.svg");
+}
+
 body {
   color: #262626;
   font-size: 14px;
@@ -48095,3 +48122,4 @@ body {
     font-size: 14px;
   }
 }
+/*# sourceMappingURL=new-style.css.map */
