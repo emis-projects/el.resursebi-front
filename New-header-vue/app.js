@@ -1049,8 +1049,8 @@ let title = {
         },
         {
             id: 12,
-            name: 'სათაური',
-            link: '#'
+            name: 'რა არის ინფორმაცია',
+            link: 'Computer-Science/Class-4/What-is-information-12/1.html'
         }
     ],
     IT_5: [
