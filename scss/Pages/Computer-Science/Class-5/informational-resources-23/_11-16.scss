@@ -1,0 +1,34 @@
+.cs-5-23-div {
+    &-11-img {
+        height:52.86vh;
+        position: absolute;
+        bottom:0;
+        right:0;
+    }
+    &-12-img {
+        height:52.21vh;
+    }
+     &-13-img {
+        height:52.21vh;
+        height:52.86vh;
+        position: absolute;
+        bottom:0;
+        left:50%;
+        transform: translateX(-50%);
+    }
+    &-14-img {
+        height:57.03vh;
+    }
+    &-15-img {
+        height:41.4vh;
+    }
+    &-16-img {
+        height:56.11vh;
+        position: absolute;
+        bottom:0;
+        right:0;
+    }
+    img {
+        height: 100%;
+    }
+}
