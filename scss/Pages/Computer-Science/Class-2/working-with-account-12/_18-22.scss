@@ -1,0 +1,51 @@
+.working-with-account{
+  z-index: 5;
+  position: relative;
+  img{
+    height: 100%;
+  }
+  &_18{
+    height: 37vh;
+    max-height: 282px;
+  }
+  &_19{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background: url("../img/gakvetilebi/Computer-Science/Class-2/working-with-account-12/cs-2-12-19.svg") no-repeat center;
+    background-size: cover;
+  }
+  &_20{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background: url("../img/gakvetilebi/Computer-Science/Class-2/working-with-account-12/cs-2-12-20.svg") no-repeat center;
+    background-size: cover;
+  }
+  &_21{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background: url("../img/gakvetilebi/Computer-Science/Class-2/working-with-account-12/cs-2-12-21.png") no-repeat center;
+    background-size: cover;
+  }
+  &_22{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background: url("../img/gakvetilebi/Computer-Science/Class-2/working-with-account-12/cs-2-12-22.svg") no-repeat center;
+    background-size: cover;
+  }
+}

@@ -925,8 +925,8 @@ let title = {
         },
         {
             id: 12,
-            name: 'სათაური',
-            link: 'Computer-Science/Class-2/...'
+            name: 'საკუთარ ანგარიშში მუშაობა',
+            link: 'Computer-Science/Class-2/working-with-account-12/7.html'
         }
     ],
     IT_3: [
