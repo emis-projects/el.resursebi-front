@@ -1,3 +1,31 @@
+@font-face {
+  font-family: 'ALK Sanet';
+  src: url('../fonts/alk-sanet/alk-sanet-webfont.eot');
+  /* IE9 Compat Modes */
+  src: url('../fonts/alk-sanet/alk-sanet-webfont.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('../fonts/alk-sanet/alk-sanet-webfont.woff2') format('woff2'),
+    /* Super Modern Browsers */
+    url('../fonts/alk-sanet/alk-sanet-webfont.woff') format('woff'),
+    /* Pretty Modern Browsers */
+    url('../fonts/alk-sanet/alk-sanet-webfont.ttf') format('truetype'),
+    /* Safari, Android, iOS */
+    url('../fonts/alk-sanet/alk-sanet-webfont.svg#alk_sanetregular') format('svg');
+  /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'DejaVuSans';
+  src: url('../fonts/dejaVuSans/DejaVuSans.eot');
+  src: local('../fonts/dejaVuSans/DejaVu Sans'), local('DejaVuSans'),
+      url('../fonts/dejaVuSans/DejaVuSans.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/dejaVuSans/DejaVuSans.woff2') format('woff2'),
+      url('../fonts/dejaVuSans/DejaVuSans.woff') format('woff'),
+      url('../fonts/dejaVuSans/DejaVuSans.ttf') format('truetype'),
+      url('../fonts/dejaVuSans/DejaVuSans.svg#DejaVuSans') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 
 #chatBot {
   // bottom: 3px;
@@ -7,6 +35,10 @@
   bottom: 11vh;
   position: absolute;
   right: 10%;
+
+  a {
+    text-decoration: none;
+  }
 
   .chatBot-box {
     float: right;
@@ -51,14 +83,14 @@
   }
   
   #formData {
-    padding-bottom: 6px;
+    padding-bottom: 10px;
     background: rgb(255, 255, 255);
     display: flex;
     align-items: center;
   
     input {
       padding-left: 30px;
-      font-family: 'ALK Sanet', sans-serif;
+      font-family: 'DejaVuSans';
       font-size: 14px;
     }
   }
@@ -609,7 +641,6 @@
 }
 
 #chatSend:-ms-input-placeholder {
-
   color: #bbb;
 }
 

@@ -1,8 +1,28 @@
 @charset "UTF-8";
+@font-face {
+  font-family: 'ALK Sanet';
+  src: url("../fonts/alk-sanet/alk-sanet-webfont.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/alk-sanet/alk-sanet-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/alk-sanet/alk-sanet-webfont.woff2") format("woff2"), url("../fonts/alk-sanet/alk-sanet-webfont.woff") format("woff"), url("../fonts/alk-sanet/alk-sanet-webfont.ttf") format("truetype"), url("../fonts/alk-sanet/alk-sanet-webfont.svg#alk_sanetregular") format("svg");
+  /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'DejaVuSans';
+  src: url("../fonts/dejaVuSans/DejaVuSans.eot");
+  src: local("../fonts/dejaVuSans/DejaVu Sans"), local("DejaVuSans"), url("../fonts/dejaVuSans/DejaVuSans.eot?#iefix") format("embedded-opentype"), url("../fonts/dejaVuSans/DejaVuSans.woff2") format("woff2"), url("../fonts/dejaVuSans/DejaVuSans.woff") format("woff"), url("../fonts/dejaVuSans/DejaVuSans.ttf") format("truetype"), url("../fonts/dejaVuSans/DejaVuSans.svg#DejaVuSans") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
 #chatBot {
   bottom: 11vh;
   position: absolute;
   right: 10%;
+}
+
+#chatBot a {
+  text-decoration: none;
 }
 
 #chatBot .chatBot-box {
@@ -53,7 +73,7 @@
 }
 
 #chatBot #formData {
-  padding-bottom: 6px;
+  padding-bottom: 10px;
   background: white;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -65,7 +85,7 @@
 
 #chatBot #formData input {
   padding-left: 30px;
-  font-family: 'ALK Sanet', sans-serif;
+  font-family: 'DejaVuSans';
   font-size: 14px;
 }
 
@@ -45423,6 +45443,66 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
+.sorting-methods-16 {
+  height: 40.8vh;
+  max-height: 314px;
+}
+
+.sorting-methods-16 img {
+  height: 100%;
+}
+
+.sorting-methods-17 {
+  height: 50vh;
+  max-height: 385px;
+}
+
+.sorting-methods-17 img {
+  height: 100%;
+}
+
+.sorting-methods-18 {
+  height: 38.2vh;
+  max-height: 294px;
+}
+
+.sorting-methods-18 img {
+  height: 100%;
+}
+
+.sorting-methods-19 {
+  height: 47vh;
+  max-height: 361px;
+}
+
+.sorting-methods-19 img {
+  height: 100%;
+}
+
+.sorting-methods-20 {
+  height: 54.5vh;
+  max-height: 419px;
+}
+
+.sorting-methods-20 img {
+  height: 100%;
+}
+
+.sorting-methods-21 {
+  height: 40.69vh;
+  max-height: 312.5px;
+}
+
+.sorting-methods-21 img {
+  height: 100%;
+}
+
+.sorting-methods-grey-div-16 {
+  border: 8px solid #DDDDDD;
+  height: 8.2vh;
+  width: 8.2vh;
+}
+
 .operators-page img {
   height: 100%;
 }
@@ -45875,6 +45955,254 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .cs-6-22-div img {
+  height: 100%;
+}
+
+.working-with-account-7 {
+  height: 49.08vh;
+  max-height: 377px;
+}
+
+.working-with-account-7 img {
+  height: 100%;
+}
+
+.working-with-account-8 {
+  height: 45.18vh;
+  max-height: 347px;
+}
+
+.working-with-account-8 img {
+  height: 100%;
+}
+
+.working-with-account-9 {
+  height: 53vh;
+  max-height: 412px;
+}
+
+.working-with-account-9 img {
+  height: 100%;
+}
+
+.working-with-account-10 {
+  height: 54.29vh;
+  max-height: 417px;
+}
+
+.working-with-account-10 img {
+  height: 100%;
+}
+
+.working-with-account-11 {
+  height: 39.19vh;
+  max-height: 301px;
+}
+
+.working-with-account-11 img {
+  height: 100%;
+}
+
+.working-with-account-12 {
+  height: 40.23vh;
+  max-height: 309px;
+}
+
+.working-with-account-12 img {
+  height: 100%;
+}
+
+.informational-resources-17 {
+  height: 45vh;
+  max-height: 351px;
+}
+
+.informational-resources-17 img {
+  height: 100%;
+}
+
+.informational-resources-18 {
+  height: 48.04vh;
+  max-height: 369.22px;
+}
+
+.informational-resources-18 img {
+  height: 100%;
+}
+
+.background-cs-5-23 {
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-5-23-19 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/Informational-resources-23/cs-5-23-19.svg");
+}
+
+.background-cs-5-23-20 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/Informational-resources-23/cs-5-23-20.svg");
+}
+
+.background-cs-5-23-21 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/Informational-resources-23/cs-5-23-21.svg");
+}
+
+.background-cs-5-23-22 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/Informational-resources-23/cs-5-23-22.svg");
+}
+
+.managing-office365-13 {
+  height: 39.8vh;
+  max-height: 306px;
+}
+
+.managing-office365-13 img {
+  height: 100%;
+}
+
+.managing-office365-14 {
+  height: 53.25vh;
+  max-height: 409px;
+}
+
+.managing-office365-14 img {
+  height: 100%;
+}
+
+.managing-office365-15 {
+  height: 54.4vh;
+  max-height: 418px;
+}
+
+.managing-office365-15 img {
+  height: 100%;
+}
+
+.managing-office365-16 {
+  height: 39.71vh;
+  max-height: 305px;
+}
+
+.managing-office365-16 img {
+  height: 100%;
+}
+
+.managing-office365-17 {
+  height: 40vh;
+  max-height: 309px;
+}
+
+.managing-office365-17 img {
+  height: 100%;
+}
+
+.managing-office365-18 {
+  height: 33.8vh;
+  max-height: 260px;
+}
+
+.managing-office365-18 img {
+  height: 100%;
+}
+
+.photo-editor-19 {
+  height: 49vh;
+  max-height: 377px;
+}
+
+.photo-editor-19 img {
+  height: 100%;
+}
+
+.photo-editor-20 {
+  height: 56.6vh;
+  max-height: 435px;
+}
+
+.photo-editor-20 img {
+  height: 100%;
+}
+
+.photo-editor-21 {
+  height: 38.67vh;
+  max-height: 297px;
+}
+
+.photo-editor-21 img {
+  height: 100%;
+}
+
+.photo-editor-22 {
+  height: 60.41vh;
+  max-height: 464px;
+}
+
+.photo-editor-22 img {
+  height: 100%;
+  margin-top: -10vh;
+}
+
+.photo-editor-23 {
+  height: 50.39vh;
+  max-height: 387px;
+}
+
+.photo-editor-23 img {
+  height: 100%;
+}
+
+.photo-editor-24 {
+  height: 64.3vh;
+  max-height: 494px;
+}
+
+.photo-editor-24 img {
+  height: 100%;
+}
+
+.what-is-information-6-1 {
+  height: 40.7vh;
+  max-height: 313px;
+}
+
+.what-is-information-6-1 img {
+  height: 100%;
+}
+
+.what-is-information-7-1 {
+  height: 35.15vh;
+  max-height: 270px;
+}
+
+.what-is-information-7-1 img {
+  height: 100%;
+}
+
+.what-is-information-10-1 {
+  height: 42.5vh;
+  max-height: 327px;
+}
+
+.what-is-information-10-1 img {
+  height: 100%;
+}
+
+.what-is-information-12-1 {
+  height: 40.7vh;
+  max-height: 313px;
+}
+
+.what-is-information-12-1 img {
+  height: 100%;
+}
+
+.what-is-information-14-1 {
+  height: 35.6vh;
+  max-height: 274px;
+}
+
+.what-is-information-14-1 img {
   height: 100%;
 }
 
@@ -47767,4 +48095,3 @@ body {
     font-size: 14px;
   }
 }
-/*# sourceMappingURL=new-style.css.map */

@@ -171,22 +171,22 @@
 }
 
 #chatBots .main-window .chat_input form .form-control::-webkit-input-placeholder {
-  font-family: 'ALK Sanet';
+  font-family: "DejaVuSans";
   color: #C5CBCD;
 }
 
 #chatBots .main-window .chat_input form .form-control:-ms-input-placeholder {
-  font-family: 'ALK Sanet';
+  font-family: "DejaVuSans";
   color: #C5CBCD;
 }
 
 #chatBots .main-window .chat_input form .form-control::-ms-input-placeholder {
-  font-family: 'ALK Sanet';
+  font-family: "DejaVuSans";
   color: #C5CBCD;
 }
 
 #chatBots .main-window .chat_input form .form-control::placeholder {
-  font-family: 'ALK Sanet';
+  font-family: "DejaVuSans";
   color: #C5CBCD;
 }
 
@@ -213,4 +213,3 @@
 #chatBots .bots-window svg {
   height: 100%;
 }
-/*# sourceMappingURL=Chatbots.css.map */
