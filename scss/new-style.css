@@ -45060,6 +45060,13 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .class_5_13-box_item_4 {
   position: absolute;
+  top: 24.2vh;
+  left: 48vh;
+  width: 9%;
+}
+
+.class_5_13-box_item_5{
+  position: absolute;
   top: 30.6vh;
   left: 48vh;
   width: 9%;
