@@ -45,6 +45,8 @@ function game () {
         this.timeLeft = this.TIME_LIMIT;
         this.timerInterval = null;
         this.startTimer();
+        this.answer = [];
+        this.selectedAnswer = null;
         
         document.querySelectorAll('.number').forEach(w => {
             w.innerText = this.randomIntFromInterval(1, 100)
@@ -125,6 +127,8 @@ function game () {
             }
 
 
+
+
             if(!this.error1 || !this.error2){
                 if(this.selectedAnswer == 'true'){
                     this.success = true;
@@ -145,6 +149,19 @@ function game () {
     
                     this.error1 = true;
                     this.error2 = true;
+
+                    document.querySelectorAll('.radio').forEach(w => {
+                        if(w.getAttribute('data-answer') == this.selectedAnswer){
+                            w.classList.add('success')
+                        }
+                    })
+
+                    setTimeout(() => {
+                        $('.radio').removeClass('success')
+                        $('.radio').removeClass('error')
+                    }, 500)
+
+       
                 } else {
                     document.getElementById('numberOfScore').innerHTML = this.score;
     
@@ -160,6 +177,17 @@ function game () {
     
                     this.error1 = true;
                     this.error2 = true;
+
+                    document.querySelectorAll('.radio').forEach(w => {
+                        if(w.getAttribute('data-answer') == this.selectedAnswer){
+                            w.classList.add('error')
+                        }
+                    })
+
+                    setTimeout(() => {
+                        $('.radio').removeClass('success')
+                        $('.radio').removeClass('error')
+                    }, 500)
                 }
 
             } else if(this.error1 && this.error2) {
@@ -182,6 +210,19 @@ function game () {
     
                     this.error1 = true;
                     this.error2 = true;
+                    
+                    document.querySelectorAll('.radio').forEach(w => {
+                        if(w.getAttribute('data-answer') == this.selectedAnswer){
+                            w.classList.add('success')
+                        }
+                    })
+
+                    setTimeout(() => {
+                        $('.radio').removeClass('success')
+                        $('.radio').removeClass('error')
+                    }, 500)
+
+
 
                 } else if(this.selectedAnswer == 'true') {
                     document.getElementById('numberOfScore').innerHTML = this.score;
@@ -198,6 +239,17 @@ function game () {
     
                     this.error1 = true;
                     this.error2 = true;
+
+                    document.querySelectorAll('.radio').forEach(w => {
+                        if(w.getAttribute('data-answer') == this.selectedAnswer){
+                            w.classList.add('error')
+                        }
+                    })
+
+                    setTimeout(() => {
+                        $('.radio').removeClass('success')
+                        $('.radio').removeClass('error')
+                    }, 500)
                 }
             }
 
@@ -273,6 +325,17 @@ function game () {
                 this.error1 = true;
                 this.error2 = true;
 
+                document.querySelectorAll('.radio').forEach(w => {
+                    if(w.getAttribute('data-answer') == this.selectedAnswer){
+                        w.classList.add('success')
+                    }
+                })
+
+                setTimeout(() => {
+                    $('.radio').removeClass('success')
+                    $('.radio').removeClass('error')
+                }, 500)
+
             } else if((this.error1 || this.error2) && this.selectedAnswer == 'false') {
                 this.success = true;
                 this.score++;
@@ -291,6 +354,18 @@ function game () {
 
                 this.error1 = true;
                 this.error2 = true;
+
+                document.querySelectorAll('.radio').forEach(w => {
+                    if(w.getAttribute('data-answer') == this.selectedAnswer){
+                        w.classList.add('success')
+                    }
+                })
+
+                setTimeout(() => {
+                    $('.radio').removeClass('success')
+                    $('.radio').removeClass('error')
+                }, 500)
+
             } else {
                 document.getElementById('numberOfScore').innerHTML = this.score;
 
@@ -306,20 +381,32 @@ function game () {
 
                 this.error1 = true;
                 this.error2 = true;
+
+                document.querySelectorAll('.radio').forEach(w => {
+                    if(w.getAttribute('data-answer') == this.selectedAnswer){
+                        w.classList.add('error')
+                    }
+                })
+
+                setTimeout(() => {
+                    $('.radio').removeClass('success')
+                    $('.radio').removeClass('error')
+                }, 500)
             }
         }
     }
 
 
 
-
     document.querySelectorAll('.radio').forEach(w => {
         w.addEventListener('click', () => {
-            $('.select').removeClass('active');
+            $('.select').removeClass('success');
+            $('.select').removeClass('error');
             let answer = w.getAttribute('data-answer');
             this.selectedAnswer = answer;
-            w.classList.add('active')
-            this.completGame()
+            if(this.timePassed !== 60){
+                this.completGame()
+            }
         })
     })
 
