@@ -1,0 +1,29 @@
+.information-page {
+  img{
+    height: 100%;
+  }
+  &_12{
+    height: 51vh;
+    max-height: 394px;
+  }
+  &_14{
+    height: 53vh;
+    max-height: 409px;
+    position: fixed;
+    right: 15%;
+    top: 50%;
+    transform: translateY(-40%);
+  }
+  &_15{
+    height: 57vh;
+    max-height: 448px;
+    position: fixed;
+    right: 15%;
+    top: 50%;
+    transform: translateY(-30%);
+  }
+  &_16{
+    height: 43vh;
+    max-height: 336px;
+  }
+}
