@@ -593,6 +593,7 @@
   transition: .3s;
   margin-left: 10px;
   outline: none;
+  font-family: 'DejaVuSans';
 }
 
 #chatBot .chat_msg_item-buttons button:focus {
@@ -911,4 +912,3 @@
     top: 2px;
   }
 }
-/*# sourceMappingURL=Newbot.css.map */
