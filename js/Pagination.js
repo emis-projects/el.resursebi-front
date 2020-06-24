@@ -20,11 +20,9 @@ document.addEventListener('DOMContentLoaded', async () => {
         let index = $(this).attr('data-index')
         $(this).children('.pagination__dot').addClass('active')
         $(this).children('.pagination__dot').text(index)
-        // $(this).append(`<a href="${index}.html" class="hovered_item">${index}</a>`)
     })
 
     $('.pagination__item--el').mouseleave(function(){
-        // $(this).children()[1].remove()
         $(this).children('.pagination__dot').removeClass('active')
         $(this).children('.pagination__dot').text('')
     })
