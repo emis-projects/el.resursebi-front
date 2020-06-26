@@ -66,31 +66,31 @@ function natureGames() {
     this.completGame = (e) => {
         var count = 0;
         for(let i= 1; i < 5; i++){
-            if(lineone[i].children[0] && (lineone[0].children[0].getAttribute('data-line') != lineone[i].children[0].getAttribute('data-line'))){
+            if(lineone[i].children[0] && (lineone[0].children[0] && lineone[0].children[0].getAttribute('data-line') != lineone[i].children[0].getAttribute('data-line'))){
                 lineone[i].children[0].style.color = 'red'
             }
             else{
                 count++;
             }
-            if(linetwo[i].children[0] && (linetwo[0].children[0].getAttribute('data-line') != linetwo[i].children[0].getAttribute('data-line'))){
+            if(linetwo[i].children[0] && (linetwo[0].children[0] && linetwo[0].children[0].getAttribute('data-line') != linetwo[i].children[0].getAttribute('data-line'))){
                 linetwo[i].children[0].style.color = 'red'
             }
             else{
                 count++;
             }
-            if(linethree[i].children[0] && (linethree[0].children[0].getAttribute('data-line') != linethree[i].children[0].getAttribute('data-line'))){
+            if(linethree[i].children[0] && (linethree[0].children[0] && linethree[0].children[0].getAttribute('data-line') != linethree[i].children[0].getAttribute('data-line'))){
                 linethree[i].children[0].style.color = 'red'
             }
             else{
                 count++;
             }
-            if(linefour[i].children[0] && (linefour[0].children[0].getAttribute('data-line') != linefour[i].children[0].getAttribute('data-line'))){
+            if(linefour[i].children[0] && (linefour[0].children[0] && linefour[0].children[0].getAttribute('data-line') != linefour[i].children[0].getAttribute('data-line'))){
                 linefour[i].children[0].style.color = 'red'
             }
             else{
                 count++;
             }
-            if(linefIve[i].children[0] && (linefIve[0].children[0].getAttribute('data-line') != linefIve[i].children[0].getAttribute('data-line'))){
+            if(linefIve[i].children[0] && (linefIve[0].children[0] && linefIve[0].children[0].getAttribute('data-line') != linefIve[i].children[0].getAttribute('data-line'))){
                 linefIve[i].children[0].style.color = 'red'
             }
             else{
