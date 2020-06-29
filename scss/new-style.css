@@ -45060,13 +45060,6 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .class_5_13-box_item_4 {
   position: absolute;
-  top: 24.2vh;
-  left: 48vh;
-  width: 9%;
-}
-
-.class_5_13-box_item_5{
-  position: absolute;
   top: 30.6vh;
   left: 48vh;
   width: 9%;
@@ -46989,6 +46982,45 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
+.privacy-in-email-22 img {
+  height: 100%;
+}
+
+.privacy-in-email-22-3-1 {
+  height: 45.7vh;
+  max-height: 351px;
+}
+
+.privacy-in-email-22-5-1 {
+  height: 48.5vh;
+  max-height: 373px;
+}
+
+.privacy-in-email-22-6-1 {
+  height: 29vh;
+  max-height: 229px;
+}
+
+.privacy-in-email-22-7-1 {
+  height: 45vh;
+  max-height: 346px;
+}
+
+.privacy-in-email-22-11-1 {
+  height: 40.8vh;
+  max-height: 314px;
+}
+
+.privacy-in-email-22-12-1 {
+  height: 48.82vh;
+  max-height: 375px;
+}
+
+.privacy-in-email-22-13-1 {
+  height: 53.6vh;
+  max-height: 412px;
+}
+
 body {
   color: #262626;
   font-size: 14px;
@@ -48897,3 +48929,4 @@ body {
     font-size: 14px;
   }
 }
+/*# sourceMappingURL=new-style.css.map */
