@@ -1,0 +1,29 @@
+.privacy_page{
+  img{
+    height: 100%;
+  }
+  &-18{
+    height: 41vh;
+    max-height: 313px;
+  }
+  &-19{
+    background: url("../img/gakvetilebi/Computer-Science/Class-5/Privacy-in-email-22/cs-5-22-19.png") no-repeat center;
+    background-size: cover;
+    height: 100vh;
+  }
+  &-20{
+    background: url("../img/gakvetilebi/Computer-Science/Class-5/Privacy-in-email-22/cs-5-22-20.svg") no-repeat center;
+    background-size: cover;
+    height: 100vh;
+  }
+  &-21{
+    background: url("../img/gakvetilebi/Computer-Science/Class-5/Privacy-in-email-22/cs-5-22-21.svg") no-repeat center;
+    background-size: cover;
+    height: 100vh;
+  }
+  &-22{
+    background: url("../img/gakvetilebi/Computer-Science/Class-5/Privacy-in-email-22/cs-5-22-22.svg") no-repeat center;
+    background-size: cover;
+    height: 100vh;
+  }
+}
