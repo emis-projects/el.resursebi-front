@@ -45060,13 +45060,6 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .class_5_13-box_item_4 {
   position: absolute;
-  top: 24.2vh;
-  left: 48vh;
-  width: 9%;
-}
-
-.class_5_13-box_item_5{
-  position: absolute;
   top: 30.6vh;
   left: 48vh;
   width: 9%;
@@ -46989,6 +46982,31 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
+.cs-5-22-1-img {
+  height: 57.55vh;
+  margin: 5vh auto;
+}
+
+.cs-5-22-3-img {
+  height: 33.46vh;
+  margin-top: 1vh;
+}
+
+.cs-5-22-4-img {
+  height: 41.40vh;
+  margin-top: 4vh;
+}
+
+.cs-5-22-5-img {
+  height: 41.40vh;
+  margin-top: 4vh;
+}
+
+.cs-5-22-6-img {
+  height: 45.05vh;
+  margin-top: 2vh;
+}
+
 body {
   color: #262626;
   font-size: 14px;
@@ -48897,3 +48915,4 @@ body {
     font-size: 14px;
   }
 }
+/*# sourceMappingURL=new-style.css.map */
