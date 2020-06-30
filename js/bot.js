@@ -24,11 +24,6 @@ for(var i = 0; i < botImgs.length; i++ ){
 
 let htmlAttr = $('html').attr("data-botid");
 
-botImgsArray.filter(w => {
-    if(w.getAttribute('data-botid') == htmlAttr){
-        w.classList.add('logo_box_active')
-    }
-})
 
 
 
