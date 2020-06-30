@@ -511,26 +511,7 @@ function type5Functionaly(data, maindiv){
 }
 
 
-$('.logo_box').click(function(e){
-    $(this).addClass('opacity-1')
-    $('html').attr("data-botid", $(e.target).attr('data-botId'));
-    
-    // bot image
-    if($('html').attr('data-botid') == '2318'){
-        botImg = '/img/icons/xelovnebabot.png'
 
-    } else if($('html').attr('data-botid') == '2320'){
-        botImg = '/img/icons/bunebabot.png'
-
-    } else if($('html').attr('data-botid') == '2292'){
-        botImg = '/img/icons/musikabot.png'
-
-    } else if($('html').attr('data-botid') == '2288'){
-        botImg = '/img/icons/komp-mecnierebot.png'
-    }
-    
-    $('#chat_fullscreen').children('.chat_msg_item').remove()
-})
 
 
 
