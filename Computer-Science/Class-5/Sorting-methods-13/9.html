@@ -2,8 +2,8 @@
 <html data-botid="2288" lang="ka">
 
 <head>
-    <meta charset="UTF-8"/>
-    <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+    <meta charset="UTF-8" />
+    <meta content="ie=edge" http-equiv="X-UA-Compatible" />
     <!-- ყველა გვერდზე -->
     <script src="../../../js/vue.js"></script>
     <!--  ვუე გაშვებისას
@@ -11,8 +11,8 @@
      -->
     <link href="../../../scss/libraries/bootstrap.min.css" rel="stylesheet">
     <link href="../../../New-header-vue/animate.min.css" rel="stylesheet">
-    <link href="../../../scss/new-style.css" rel="stylesheet"/>
-    <link href="../../../scss/components_style.css" rel="stylesheet"/>
+    <link href="../../../scss/new-style.css" rel="stylesheet" />
+    <link href="../../../scss/components_style.css" rel="stylesheet" />
     <title>ელექტრონული საგანმანათლებლო რესურსი</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
@@ -30,130 +30,221 @@
 </head>
 
 <body>
-<div class="container">
-    <section class="container position-absolute" id="app">
-        <header>
-            <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../../'"></app-menu>
-        </header>
+    <div class="container">
+        <section class="container position-absolute" id="app">
+            <header>
+                <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../../'"></app-menu>
+            </header>
 
-        <app-section :is-active="isActive" v-image="'../../../'">
-            <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger"
-                     v-on:link-tab="link = $event">
+            <app-section :is-active="isActive" v-image="'../../../'">
+                <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger"
+                    v-on:link-tab="link = $event">
 
-            </app-bar>
-            <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive"
-                       :is-info="isInfo" :path="path" :tab-class="currentTabComponent" :trigger="trigger">
-            </component>
+                </app-bar>
+                <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive"
+                    :is-info="isInfo" :path="path" :tab-class="currentTabComponent" :trigger="trigger">
+                </component>
 
-        </app-section>
-    </section>
-    <section id="mainPage">
-        <div class="row">
-            <div class="col-0 ml-2vh">
-                <div class="newDesign_subject_question_item">
-                    <img alt="img" class="newDesign_subject_question_item-img"
-                         src="../../../img/icons/newDesign_btn-yellow.svg">
-                    <p class="newDesign_subject_question_item-title">შექმენი შენი მეგობრების მონაცემთა ბაზა. იპოვე
-                        გარკვეული წესი, რომლის მიხედვითაც დაალაგებ ცხრილში მეგობრების მონაცემებს. </p>
-                </div>
-            </div>
-            <div class="col-11 ml-2vh">
-                <div class="sorting-page_9 ">
-                    <div class="wraper mb-1_5vh">
-                        <div>დათო</div>
-                        <div>ცისფერთვალება</div>
-                        <div>ქერა</div>
-                        <div>10 წლის</div>
-                        <div>უყვარს წიგნები</div>
-                    </div>
-                    <div class="wraper mb-1_5vh">
-                        <div>ნინო</div>
-                        <div>ცისფერთვალება</div>
-                        <div>წაბლისფერი თმა</div>
-                        <div>11 წლის</div>
-                        <div>უყვარს ყვავილები</div>
-                    </div>
-                    <div class="wraper mb-1_5vh">
-                        <div>ელისაბედი</div>
-                        <div>ყავისფერ თვალება</div>
-                        <div>ქერა</div>
-                        <div>12 წლის</div>
-                        <div>უყვარს წიგნები</div>
-                    </div>
-                    <div class="wraper mb-1_5vh">
-                        <div>გიორგი</div>
-                        <div>ყავისფერ თვალება</div>
-                        <div>ქერა</div>
-                        <div>9 წლის</div>
-                        <div>უყვარს წიგნები</div>
-                    </div>
-                    <div class="wraper mb-1_5vh">
-                        <div>თამარი</div>
-                        <div>ცისფერთვალება</div>
-                        <div>წაბლისფერთმიანი</div>
-                        <div>13 წლის</div>
-                        <div>უყვარს ყვავილები</div>
+            </app-section>
+        </section>
+        <section id="mainPage">
+            <div class="row">
+                <div class="col-0 ml-2vh">
+                    <div class="newDesign_subject_question_item">
+                        <img alt="img" class="newDesign_subject_question_item-img"
+                            src="../../../img/icons/newDesign_btn-yellow.svg">
+                        <p class="newDesign_subject_question_item-title">შექმენი შენი მეგობრების მონაცემთა ბაზა. იპოვე
+                            გარკვეული წესი, რომლის მიხედვითაც დაალაგებ ცხრილში მეგობრების მონაცემებს. </p>
                     </div>
                 </div>
-                <div class="sorting-page_9 d-flex flex-column">
-                    <div class="input-box">
+                <div class="col-11 ml-2vh">
+                    <div class="sorting-page_9 ">
+                        <div class="wraper mb-1_5vh">
+                            <div style="height: 30.8px; cursor: pointer;" data-side="1" class="DragGame--Parent">
+                                <p id="1" class="DragGame--childs1" draggable="true" data-id="1" data-line="1">დათო</p>
+                            </div>
+                            <div style="height: 30.8px; cursor: pointer;" data-side="2" class="DragGame--Parent">
+                                <p id="2" class="DragGame--childs1" draggable="true" data-id="2" data-line="1">ცისფერთვალება</p>
+                            </div>
+                            <div style="height: 30.8px; cursor: pointer;" data-side="3" class="DragGame--Parent">
+                                <p id="3" class="DragGame--childs1" draggable="true" data-id="3" data-line="1">ქერა</p>
+                            </div>
+                            <div style="height: 30.8px; cursor: pointer;" data-side="4" class="DragGame--Parent">
+                                <p id="4" class="DragGame--childs1" draggable="true" data-id="4" data-line="1">10 წლის</p>
+                            </div>
+                            <div style="height: 30.8px; cursor: pointer;" data-side="5" class="DragGame--Parent">
+                                <p id="5" class="DragGame--childs1" draggable="true" data-id="5" data-line="1">უყვარს წიგნები</p>
+                            </div>
+                        </div>
+                        <div class="wraper mb-1_5vh">
+                            <div style="height: 30.8px; cursor: pointer;" data-side="6" class="DragGame--Parent">
+                                <p id="6" class="DragGame--childs1" draggable="true" data-id="1" data-line="2">ნინო</p>
+                            </div>
+                            <div style="height: 30.8px; cursor: pointer;" data-side="7" class="DragGame--Parent">
+                                <p id="7" class="DragGame--childs1" draggable="true" data-id="2" data-line="2">ცისფერთვალება</p>
+                            </div>
+                            <div style="height: 30.8px; cursor: pointer;" data-side="8" class="DragGame--Parent">
+                                <p id="8" class="DragGame--childs1" draggable="true" data-id="3" data-line="2">წაბლისფერი თმა</p>
+                            </div>
+                            <div style="height: 30.8px; cursor: pointer;" data-side="9" class="DragGame--Parent">
+                                <p id="9" class="DragGame--childs1" draggable="true" data-id="4" data-line="2">11 წლის</p>
+                            </div>
+                            <div style="height: 30.8px; cursor: pointer;" data-side="10" class="DragGame--Parent">
+                                <p id="10" class="DragGame--childs1" draggable="true" data-id="5" data-line="2">უყვარს ყვავილები</p>
+                            </div>
+                        </div>
+                        <div class="wraper mb-1_5vh">
+                            <div style="height: 30.8px; cursor: pointer;" data-side="11" class="DragGame--Parent">
+                                <p id="11" class="DragGame--childs1" draggable="true" data-id="1" data-line="3">ელისაბედი</p>
+                            </div>
+                            <div style="height: 30.8px; cursor: pointer;" data-side="12" class="DragGame--Parent">
+                                <p id="12" class="DragGame--childs1" draggable="true" data-id="2" data-line="3">ყავისფერ თვალება</p>
+                            </div>
+                            <div style="height: 30.8px; cursor: pointer;" data-side="13" class="DragGame--Parent">
+                                <p id="13" class="DragGame--childs1" draggable="true" data-id="3" data-line="3">ქერა</p>
+                            </div>
+                            <div style="height: 30.8px; cursor: pointer;" data-side="14" class="DragGame--Parent">
+                                <p id="14" class="DragGame--childs1" draggable="true" data-id="4" data-line="3">12 წლის</p>
+                            </div>
+                            <div style="height: 30.8px; cursor: pointer;" data-side="15" class="DragGame--Parent">
+                                <p id="15" class="DragGame--childs1" draggable="true" data-id="5" data-line="3">უყვარს წიგნები</p>
+                            </div>
+                        </div>
+                        <div class="wraper mb-1_5vh">
+                            <div style="height: 30.8px; cursor: pointer;" data-side="16" class="DragGame--Parent">
+                                <p id="16" class="DragGame--childs1" draggable="true" data-id="1" data-line="4">გიორგი</p>
+                            </div>
+                            <div style="height: 30.8px; cursor: pointer;" data-side="17" class="DragGame--Parent">
+                                <p id="17" class="DragGame--childs1" draggable="true" data-id="2" data-line="4">ყავისფერ თვალება</p>
+                            </div>
+                            <div style="height: 30.8px; cursor: pointer;" data-side="18" class="DragGame--Parent">
+                                <p id="18" class="DragGame--childs1" draggable="true" data-id="3" data-line="4">ქერა</p>
+                            </div>
+                            <div style="height: 30.8px; cursor: pointer;" data-side="19" class="DragGame--Parent">
+                                <p id="19" class="DragGame--childs1" draggable="true" data-id="4" data-line="4">9 წლის</p>
+                            </div>
+                            <div style="height: 30.8px; cursor: pointer;" data-side="20" class="DragGame--Parent">
+                                <p id="20" class="DragGame--childs1" draggable="true" data-id="5" data-line="4">უყვარს წიგნები</p>
+                            </div>
+                        </div>
+                        <div class="wraper mb-1_5vh">
+                            <div style="height: 30.8px; cursor: pointer;" data-side="21" class="DragGame--Parent">
+                                <p id="21" class="DragGame--childs1" draggable="true" data-id="1" data-line="5">თამარი</p>
+                            </div>
+                            <div style="height: 30.8px; cursor: pointer;" data-side="22" class="DragGame--Parent">
+                                <p id="22" class="DragGame--childs1" draggable="true" data-id="2" data-line="5">ცისფერთვალება</p>
+                            </div>
+                            <div style="height: 30.8px; cursor: pointer;" data-side="23" class="DragGame--Parent">
+                                <p id="23" class="DragGame--childs1" draggable="true" data-id="3" data-line="5">წაბლისფერთმიანი</p>
+                            </div>
+                            <div style="height: 30.8px; cursor: pointer;" data-side="24" class="DragGame--Parent">
+                                <p id="24" class="DragGame--childs1" draggable="true" data-id="4" data-line="5">13 წლის</p>
+                            </div>
+                            <div style="height: 30.8px; cursor: pointer;" data-side="25" class="DragGame--Parent">
+                                <p id="25" class="DragGame--childs1" draggable="true" data-id="5" data-line="5">უყვარს ყვავილები</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sorting-page_9 d-flex flex-column">
+                        <div class="input-box">
                             <div class="titles">სახელი</div>
                             <div class="titles">ასაკი</div>
                             <div class="titles">თმის ფერი</div>
                             <div class="titles">თვალის ფერი</div>
                             <div class="titles">უყვარს</div>
-                    </div>
-                    <div class="content-box">
-                        <div class="content"></div>
-                        <div class="content"></div>
-                        <div class="content"></div>
-                        <div class="content"></div>
-                        <div class="content"></div>
+                        </div>
+                        <div class="content-box">
+                            <div class="content">
+                                <div class="wraper mb-1_5vh mt-2vh ml-1vh">
+                                    <div class="myDrag lineOne" data-id="1" style="height: 30.8px;"></div>
+                                    <div class="myDrag lineTwo" data-id="1" style="height: 30.8px;"></div>
+                                    <div class="myDrag lineThree" data-id="1" style="height: 30.8px;"></div>
+                                    <div class="myDrag lineFour" data-id="1" style="height: 30.8px;"></div>
+                                    <div class="myDrag lineFIve" data-id="1" style="height: 30.8px;"></div>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <div class="wraper mb-1_5vh mt-2vh ml-1vh">
+                                    <div class="myDrag lineOne" data-id="4" style="height: 30.8px;"></div>
+                                    <div class="myDrag lineTwo" data-id="4" style="height: 30.8px;"></div>
+                                    <div class="myDrag lineThree" data-id="4" style="height: 30.8px;"></div>
+                                    <div class="myDrag lineFour" data-id="4" style="height: 30.8px;"></div>
+                                    <div class="myDrag lineFIve" data-id="4" style="height: 30.8px;"></div>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <div class="wraper mb-1_5vh mt-2vh ml-1vh">
+                                    <div class="myDrag lineOne" data-id="3" style="height: 30.8px;"></div>
+                                    <div class="myDrag lineTwo" data-id="3" style="height: 30.8px;"></div>
+                                    <div class="myDrag lineThree" data-id="3" style="height: 30.8px;"></div>
+                                    <div class="myDrag lineFour" data-id="3" style="height: 30.8px;"></div>
+                                    <div class="myDrag lineFIve" data-id="3" style="height: 30.8px;"></div>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <div class="wraper mb-1_5vh mt-2vh ml-1vh">
+                                    <div class="myDrag lineOne" data-id="2" style="height: 30.8px;"></div>
+                                    <div class="myDrag lineTwo" data-id="2" style="height: 30.8px;"></div>
+                                    <div class="myDrag lineThree" data-id="2" style="height: 30.8px;"></div>
+                                    <div class="myDrag lineFour" data-id="2" style="height: 30.8px;"></div>
+                                    <div class="myDrag lineFIve" data-id="2" style="height: 30.8px;"></div>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <div class="wraper mb-1_5vh mt-2vh ml-1vh">
+                                    <div class="myDrag lineOne" data-id="5" style="height: 30.8px;"></div>
+                                    <div class="myDrag lineTwo" data-id="5" style="height: 30.8px;"></div>
+                                    <div class="myDrag lineThree" data-id="5" style="height: 30.8px;"></div>
+                                    <div class="myDrag lineFour" data-id="5" style="height: 30.8px;"></div>
+                                    <div class="myDrag lineFIve" data-id="5" style="height: 30.8px;"></div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="flex flex-end column align-items-end z-index reload_game_wrapper sorting-page_9">
-            <button id="resetBtn" class="reset__btn">თავიდან სცადე</button>
-            <button id="completedGame" class="completed__btn">დასრულება</button>
-        </div>
+            <div class="flex flex-end column align-items-end z-index reload_game_wrapper sorting-page_9">
+                <button id="resetBtn" class="reset__btn">თავიდან სცადე</button>
+                <button id="completedGame" class="completed__btn">დასრულება</button>
+            </div>
 
-        <!-- ეს არის svg თეგირომელიც ქმნის მარცხენა ვერტიკალურ "ნავ რუკას" -->
-        <div class="left_components_paging-cont" id="leftNav">
-            <left-nav-item></left-nav-item>
-        </div>
+            <!-- ეს არის svg თეგირომელიც ქმნის მარცხენა ვერტიკალურ "ნავ რუკას" -->
+            <div class="left_components_paging-cont" id="leftNav">
+                <left-nav-item></left-nav-item>
+            </div>
 
-        <div class="our__pagination flex">
-            <a class="pagination__prev__btn" href="#">
-                <img alt="" src="../../../img/icons/chevron-left-icon.svg" style="transform: rotate(180deg)">
-            </a>
+            <div class="our__pagination flex">
+                <a class="pagination__prev__btn" href="#">
+                    <img alt="" src="../../../img/icons/chevron-left-icon.svg" style="transform: rotate(180deg)">
+                </a>
 
-            <div class="flex align-items-center" id="pagination"></div>
+                <div class="flex align-items-center" id="pagination"></div>
 
-            <a class="pagination__next__btn" href="#">
-                <img alt="" src="../../../img/icons/chevron-left-icon.svg">
-            </a>
-        </div>
+                <a class="pagination__next__btn" href="#">
+                    <img alt="" src="../../../img/icons/chevron-left-icon.svg">
+                </a>
+            </div>
 
-    </section>
-</div>
-
-
-<!-- ჩეთბოტი -->
-<div id="chatBot">
-    <app-bot></app-bot>
-</div>
-
-<script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
-<script src="../../../js/libraries/jquery.magnific-popup.min.js"></script>
-<script src="../../../js/Pagination.js"></script>
+        </section>
+    </div>
 
 
-<!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
-<script src="../../../New-header-vue/app.js"></script>
-<script src="../../../Vue-chatBot/botApp.js"></script>
-<script src="../../../js/bot.js"></script>
+    <!-- ჩეთბოტი -->
+    <div id="chatBot">
+        <app-bot></app-bot>
+    </div>
+
+    <script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
+    <script src="../../../js/libraries/jquery.magnific-popup.min.js"></script>
+    <script src="../../../js/Pagination.js"></script>
+    <script src="./js/9.js"></script>
+
+
+    <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
+    <script src="../../../New-header-vue/app.js"></script>
+    <script src="../../../Vue-chatBot/botApp.js"></script>
+    <script src="../../../js/bot.js"></script>
 
 
 </body>
