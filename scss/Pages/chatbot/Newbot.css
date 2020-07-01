@@ -12,6 +12,15 @@
   float: right;
 }
 
+#chatBot .phoneNumber__parent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 #chatBot #prime {
   background: url("../Vue-chatBot/img/botBox.png") no-repeat center;
   background-size: cover;
@@ -919,4 +928,3 @@
     top: 2px;
   }
 }
-/*# sourceMappingURL=Newbot.css.map */

@@ -7,6 +7,7 @@ let botImg = null;
 var userId = getCookie("user_Id");
 
 
+
 // check if value is ""
 $(msgInput).keyup(function () {
     if ($(this).val().length !== 0) {
@@ -316,6 +317,7 @@ $(document).on("click", ".chat_msg_item-buttons button", function (e) {
 });
 
 
+
 $(document).on("click", ".image-popup-no-margins", function (e) {
     e.preventDefault();
 
@@ -491,7 +493,8 @@ function type5Functionaly(data, maindiv){
             btn.innerText = w.title;
             btn.classList.add('phoneNumber')
             btn.classList.add('phoneNumber--style')
-            div.setAttribute('style', 'display: flex; justify-content: center');
+            div.classList.add('phoneNumber__parent')
+            // div.setAttribute('style', 'display: flex; justify-content: center');
             div.appendChild(btn);
             $(maindiv).append(div)
 

@@ -15,6 +15,11 @@
     float: right;
   }
 
+  .phoneNumber__parent {
+    display: flex;
+    justify-content: center;
+  }
+
   #prime {
     background: url("../Vue-chatBot/img/botBox.png") no-repeat center;
     background-size: cover;
