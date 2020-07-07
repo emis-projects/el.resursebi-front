@@ -7,6 +7,14 @@
   max-width: 45%;
 }
 
+#chatBots .voice__mail__child {
+  width: 1.464vw;
+}
+
+#chatBots .voice__mail__child img {
+  width: 100%;
+}
+
 #chatBots .phoneNumber {
   color: #fff;
   background: #D85471;

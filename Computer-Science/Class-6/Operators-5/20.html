@@ -29,6 +29,101 @@
     </script>
 </head>
 
+<style>
+    .left__side {
+        left: 0;
+        top: 0;
+    }
+
+    .right__side {
+        right: 0;
+        top: 0;
+    }
+
+    .left__side, .right__side {
+        width: 50%;
+        height: 100%;
+        position: absolute;
+    }
+
+    .white__circle {
+        background-color: #fff;
+        width: 40px;
+        height: 32px;
+        border-radius: 8.49px;
+        position: absolute;
+        left: 120px;
+        top: 50%;
+        transform: translateY(-50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .second__white__circle {
+        background-color: #fff;
+        width: 40px;
+        height: 32px;
+        border-radius: 8px;
+        position: absolute;
+        left: 199px;
+        top: 50%;
+        transform: translateY(-50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .circle {
+        width: 40px;
+        height: 32px;
+        border-radius: 8px;
+        position: absolute;
+        left: 160px;
+        top: 50%;
+        color: #fff;
+        transform: translateY(-50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .number {
+        font-size: 16px;
+    }
+
+    .right__side .white__circle {
+        left: 97px;
+    }
+    
+    .right__side .second__white__circle {
+        left: 183px;
+    }
+
+    .right__side .circle {
+        left: 137px;
+    }
+
+    .boxes {
+        font-size: 2vh !important;
+    }
+
+    .notNumber {
+        position: absolute;
+        top: 50%;
+        left: 46px;
+        font-size: 22px;
+        color: #fff;
+        transform: translateY(-50%);
+    }
+
+    .orAnd {
+        position: absolute;
+        left: 57%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+</style>
+
 <body>
 <div class="container">
     <section class="container position-absolute" id="app">
@@ -50,39 +145,66 @@
     <section id="mainPage">
         <div class="row">
             <div class="col-12 m-auto d-flex justify-content-between">
-                <div class="operators-page_13 mt-10vh">
-                    <img src="../../../img/gakvetilebi/Computer-Science/Class-6/Operators-5//cs-6-5-20-1.svg"
-                         alt="image">
-                </div>
+                <div class="operators-page_13 mt-10vh" style="margin: 0 auto; position: relative; width: 550px;">
+                    <img style="width: 100%;" src="../../../img/gakvetilebi/Computer-Science/Class-6/Operators-5/Group 4893223.svg" alt="">
 
-                <div class="operators-page_13 mt-10vh">
-                    <img src="../../../img/gakvetilebi/Computer-Science/Class-6/Operators-5/cs-6-5-20-2.svg"
-                         alt="image">
-                </div>
-                <div class="operators-page_13 mt-10vh">
-                    <img src="../../../img/gakvetilebi/Computer-Science/Class-6/Operators-5/cs-6-5-20-3.svg"
-                         alt="image">
+                    <span class="notNumber">not</span>
+
+                    <div class="left__side">
+                        <div class="white__circle">
+                            <span class="number"></span>
+                        </div>
+
+                        <div class="circle">
+                            <span class="metoba_nakleboba">></span>
+                        </div>
+
+                        <div class="second__white__circle">
+                            <span class="number"></span>
+                        </div>
+                    </div>
+
+                    <div class="orAnd" style="font-size: 22px; color: #fff;display: flex;align-items: center;"></div>
+
+                    <div class="right__side">
+                        <div class="white__circle">
+                            <span class="number"></span>
+                        </div>
+
+                        <div class="circle">
+                            <span class="metoba_nakleboba">></span>
+                        </div>
+
+                        <div class="second__white__circle">
+                            <span class="number"></span>
+                        </div>
+                    </div>
                 </div>
             </div>
+
             <div class="col-9 m-auto">
                 <div class="operators-page_13 select mt-15vh">
                     <div class="false">
-                        <div class="select active"></div>
-                        <div class="boxes">false</div>
+                        <div class="select radio" data-answer="false"></div>
+                        <div style="font-family: DejaVuSans" class="boxes">false</div>
                     </div>
-                    <div class="true">
-                        <div class="select error"></div>
-                        <div class="boxes">true</div>
+                    <div class="false">
+                        <div class="select radio" data-answer="true"></div>
+                        <div style="font-family: DejaVuSans" class="boxes">true</div>
                     </div>
                 </div>
             </div>
+
             <div class="col-11 m-auto d-flex align-items-center">
-                <div class="operators-page_13 time mt-15vh">
-                    <img src="../../../img/gakvetilebi/Computer-Science/Class-6/Operators-5/time.svg" alt="time">
-                </div>
-                <div class="operators-page_13 text mt-15vh ml-2vh">
-                    <p>ქულა</p>
-                    <p>0</p>
+                <div class="d-flex align-items-center" style="margin-left: 70px;">
+                    <div class="clock-box relative">
+                        <img alt="clock" id="clock" src="../../../img/gakvetilebi/Computer-Science/Class-5/objects-moving-4/C-5-4-Clock.svg" />
+                        <span id="time"></span>
+                    </div>
+                    <div class="counter-box ml-4 d-flex justify-content-around align-items-center">
+                        <p class="counter-box_text dj-2_6vh">ქულა</p>
+                        <div class="counter-box_number" id="numberOfScore"></div>
+                    </div>
                 </div>
             </div>
             <div class="flex flex-end column align-items-end z-index reload_game_wrapper">
@@ -121,6 +243,7 @@
 <script src="../../../js/libraries/jquery.magnific-popup.min.js"></script>
 <script src="../../../js/Pagination.js"></script>
 
+<script src="./js/20.js"></script>
 
 <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
 <script src="../../../New-header-vue/app.js"></script>
