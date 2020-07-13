@@ -1,3 +1,43 @@
+let group = null,
+    nodesData = null,
+    width = null;
+
+  getTypeAndWidth = (number) => {
+    if(number == 1){
+      group = "step"
+      width = 2
+  
+    } else if(number == 2) {
+      group = "exercise"
+      width = 12
+  
+    } else if(number == 3) {
+      group = "hint"
+      width = 7
+  
+    } else if(number == 4) {
+      group = "mid"
+      width = 10
+  
+    } else if(number == 5) {
+      group = "complexExercise"
+      width = 4
+    }
+  }
+  
+
+  document.addEventListener('DOMContentLoaded', async () => {
+    const json = await $.getJSON("data.json");
+
+    var removeNullObjectToTheArray = json.pages.filter(w => w.type !== null).map(w => {
+      getTypeAndWidth(w.type)
+
+      return {...w, id: w.number, width: width, group}
+    })
+
+    nodesData = removeNullObjectToTheArray
+  })
+
 
 
 Vue.component('appVis', {
@@ -32,13 +72,12 @@ var vm = new Vue({
     // რადგანაც ვის.ჯს ყოველ ჯერზე თავიდან უნდა გაეშვას ამიტომ მთლიანი ვის.ჯს თავისი კოდით გლობ. ფუნქციად უნდა გავიტანოთ
 
     function init(){
-    var nodes = new vis.DataSet([
-        { id: 1, group: 'complexExercise', url: 'https://www.google.com/', width: 4 },
-        { id: 2, group: 'exercise', width: 12 },
-        { id: 3, group: 'hint', width: 7 },
-        { id: 4, group: 'mid', width: 10 },
-        { id: 5, group: 'step', width: 2 }
-      ]);
+
+      console.log(nodesData);
+
+      if(nodesData !== null){
+        var nodes = new vis.DataSet(nodesData);
+      }
   
       // create an array with edges
       var edges = new vis.DataSet([
