@@ -1,6 +1,7 @@
 let group = null,
-    nodesData = null,
-    width = null;
+    width = null,
+    nodesData = null;
+
 
   getTypeAndWidth = (number) => {
     if(number == 1){
@@ -24,18 +25,18 @@ let group = null,
       width = 4
     }
   }
-  
+
 
   document.addEventListener('DOMContentLoaded', async () => {
     const json = await $.getJSON("data.json");
 
-    var removeNullObjectToTheArray = json.pages.filter(w => w.type !== null).map(w => {
+    var modifierObject = json.pages.filter(w => w.type !== null).map(w => {
       getTypeAndWidth(w.type)
 
       return {...w, id: w.number, width: width, group}
     })
 
-    nodesData = removeNullObjectToTheArray
+    nodesData = modifierObject
   })
 
 
