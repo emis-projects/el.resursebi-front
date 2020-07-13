@@ -58,7 +58,7 @@ Vue.component('appVis', {
 var vm = new Vue({
     el: '#app',
     data: {
-        isActive: true
+        isActive: false
     },
     methods: {
         initFun(){
