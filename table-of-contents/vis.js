@@ -6,23 +6,20 @@ let group = null,
   getTypeAndWidth = (number) => {
     if(number == 1){
       group = "step"
-      width = 2
   
     } else if(number == 2) {
       group = "exercise"
-      width = 12
   
     } else if(number == 3) {
       group = "hint"
-      width = 7
   
     } else if(number == 4) {
       group = "mid"
-      width = 10
   
     } else if(number == 5) {
       group = "complexExercise"
-      width = 4
+    } else if(number == 6) {
+      group = "complexExercise2"
     }
   }
 
@@ -83,7 +80,25 @@ var vm = new Vue({
   
       // create an array with edges
       var edges = new vis.DataSet([
-        { from: 1, to: 5 }
+        // { from: 1, to: 5 },
+        // { from: 5, to: 6 },
+        // {
+        //   from: 1, to: 3, width: 2
+        // },
+        // {
+        //   from: 1, to: 2, width: 2,
+        //   shadow: {
+        //     enabled: true,
+        //     color: 'rgba(220,108,133,0.4)'
+        //   }
+        // },
+        // {
+        //   from: 1, to: 4, width: 2,
+        //   shadow: {
+        //     enabled: true,
+        //     color: 'rgba(220,108,133,0.4)'
+        //   }
+        // }
       ]);
 
   
@@ -103,7 +118,7 @@ var vm = new Vue({
         nodes: { // ფროფერთიები აქ (groups-შიც იგივეებია): https://visjs.github.io/vis-network/docs/network/nodes.html
           shape: 'dot',
           fontStrokeWidth: 0.5,
-          fontStrokeColor: 'white',
+          fontStrokeColor: 'black',
           chosen: true,
           selectable: true
         },
@@ -120,7 +135,15 @@ var vm = new Vue({
             shape: 'image',
             image: {
               unselected: 'images/complexExercise.png',
-              selected: 'images/complexExercise.png'
+              selected: 'images/complexExerciseActive.png'
+            },
+            size: 50
+          },
+          complexExercise2: { // კომპლექსური დავალება
+            shape: 'image',
+            image: {
+              unselected: 'images/complexExercise2.png',
+              selected: 'images/complexExercise2Active.png'
             },
             size: 50
           },
@@ -128,7 +151,7 @@ var vm = new Vue({
             shape: 'image',
             image: {
               unselected: 'images/exercise.png',
-              selected: 'images/exercise.png'
+              selected: 'images/exerciseActive.png'
             },
             size: 25
           },
@@ -136,7 +159,7 @@ var vm = new Vue({
             shape: 'image',
             image: {
               unselected: 'images/hint.png',
-              selected: 'images/hint.png'
+              selected: 'images/hintActive.png'
             },
             size: 25
           },
@@ -144,7 +167,7 @@ var vm = new Vue({
             shape: 'image',
             image: {
               unselected: 'images/mid.png',
-              selected: 'images/mid.png'
+              selected: 'images/midActive.png'
             },
             size: 25
           },
@@ -152,7 +175,7 @@ var vm = new Vue({
             shape: 'image',
             image: {
               unselected: 'images/step.png',
-              selected: 'images/step.png'
+              selected: 'images/stepActive.png'
             },
             size: 50
           }
