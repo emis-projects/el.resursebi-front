@@ -34,6 +34,7 @@ let group = null,
       getTypeAndWidth(w.type)
 
       return {...w, id: w.number, width: width, group}
+
     })
 
     nodesData = modifierObject
@@ -82,35 +83,21 @@ var vm = new Vue({
   
       // create an array with edges
       var edges = new vis.DataSet([
-        { from: 1, to: 5 },
-        {
-          from: 1, to: 3, width: 2
-        },
-        {
-          from: 1, to: 2, width: 2,
-          shadow: {
-            enabled: true,
-            color: 'rgba(220,108,133,0.4)'
-          }
-        },
-        {
-          from: 1, to: 4, width: 2,
-          shadow: {
-            enabled: true,
-            color: 'rgba(220,108,133,0.4)'
-          }
-        }
+        { from: 1, to: 5 }
       ]);
+
   
       // create a network
       var container = document.getElementById('mynetwork');
   
+
       // provide the data in the vis format
       var data = {
         nodes: nodes,
         edges: edges
       };
   
+
       var options = {
   
         nodes: { // ფროფერთიები აქ (groups-შიც იგივეებია): https://visjs.github.io/vis-network/docs/network/nodes.html
@@ -173,6 +160,7 @@ var vm = new Vue({
   
       };
   
+
       // initialize your network!
       var network = new vis.Network(container, data, options);
   
