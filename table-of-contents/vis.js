@@ -43,14 +43,15 @@ let group = null,
         case 5:
           firstComplexExercise.push(w)
           break;
-      }
+        }
     })
 
-    
+
+
     console.log(modifierObject)
 
-
     // nodesData = modifierObject
+
   })
 
 
