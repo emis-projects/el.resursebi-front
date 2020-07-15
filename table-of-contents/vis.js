@@ -49,6 +49,41 @@ let group = null,
 
 
     console.log(modifierObject)
+    
+    var arr = [];   //ვიმახსოვრებთ იმ ინდექსების ნომრებს რომლებზეც დგას type: 1
+    var arrPush1 = []; // ვყრით პირველ შუალედს
+    var arrPush2 = [];
+    var arrPush3 = [];
+    var arrPush4 = [];
+
+    for(let i=0; i<modifierObject.length; i++){
+      if(modifierObject[i].type == 1){
+        arr.push(i);
+      }
+    }
+    console.log('index',arr)
+
+    for(let j = arr[0]+1; j<arr[1]; j++){
+      arrPush1.push(modifierObject[j])
+    }
+
+    for(let j = arr[1]+1; j<arr[2]; j++){
+      arrPush2.push(modifierObject[j])
+    }
+
+    for(let j = arr[2]+1; j<arr[3]; j++){
+      arrPush3.push(modifierObject[j])
+    }
+
+    for(let j = arr[3]+1; j<arr[4]; j++){
+      arrPush4.push(modifierObject[j])
+    }
+    
+
+    console.log('arrPush1', arrPush1)
+    console.log('arrPush2', arrPush2)
+    console.log('arrPush3', arrPush3)
+    console.log('arrPush4', arrPush4)
 
     // nodesData = modifierObject
 
