@@ -3,7 +3,7 @@ let group = null,
     nodesData = null;
 
 
-  getTypeAndWidth = (number) => {
+  function getTypeAndWidth(number) {
     if(number == 1){
       group = "step"
   
@@ -18,6 +18,7 @@ let group = null,
   
     } else if(number == 5) {
       group = "complexExercise"
+
     } else if(number == 6) {
       group = "complexExercise2"
     }
@@ -25,17 +26,38 @@ let group = null,
 
 
   document.addEventListener('DOMContentLoaded', async () => {
+    // variables 
+    const firstComplexExercise = [];
+    const firstStep = [];
+
     const json = await $.getJSON("data.json");
 
     var modifierObject = json.pages.filter(w => w.type !== null).map(w => {
       getTypeAndWidth(w.type)
 
       return {...w, id: w.number, width: width, group}
-
     })
 
-    nodesData = modifierObject
+    modifierObject.map((w, i) => {
+      switch (w.type) {
+        case 5:
+          firstComplexExercise.push(w)
+          break;
+      }
+    })
+
+    
+    console.log(modifierObject)
+
+
+    // nodesData = modifierObject
   })
+
+
+
+  // function filterData(data) {
+
+  // }
 
 
 
@@ -71,8 +93,6 @@ var vm = new Vue({
     // რადგანაც ვის.ჯს ყოველ ჯერზე თავიდან უნდა გაეშვას ამიტომ მთლიანი ვის.ჯს თავისი კოდით გლობ. ფუნქციად უნდა გავიტანოთ
 
     function init(){
-
-      console.log(nodesData);
 
       if(nodesData !== null){
         var nodes = new vis.DataSet(nodesData);
