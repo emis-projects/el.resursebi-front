@@ -1,36 +1,43 @@
-let group = null,
+let jsonObject = null,
+    group = null,
     width = null,
-    nodesData = null;
+    nodesData = null,
 
 
-  function getTypeAndWidth(number) {
+  getTypeAndWidth = (number) => {
     if(number == 1){
       group = "step"
+      width = 2
   
     } else if(number == 2) {
       group = "exercise"
+      width = 12
   
     } else if(number == 3) {
       group = "hint"
+      width = 7
   
     } else if(number == 4) {
       group = "mid"
+      width = 10
   
     } else if(number == 5) {
       group = "complexExercise"
+      width = 4
 
     } else if(number == 6) {
       group = "complexExercise2"
+      width = 4
     }
   }
 
 
   document.addEventListener('DOMContentLoaded', async () => {
-    // variables 
-    const firstComplexExercise = [];
-    const firstStep = [];
+    let data = [];
 
     const json = await $.getJSON("data.json");
+
+    jsonObject = json;
 
     var modifierObject = json.pages.filter(w => w.type !== null).map(w => {
       getTypeAndWidth(w.type)
@@ -38,62 +45,50 @@ let group = null,
       return {...w, id: w.number, width: width, group}
     })
 
-    modifierObject.map((w, i) => {
-      switch (w.type) {
-        case 5:
-          firstComplexExercise.push(w)
-          break;
+
+
+    // აქ ვფილტრავ იმ ნაბიჯის და კომპლექსურების რომლებიც უნდა ჩანდეს სარჩევში.
+    var Stepindex = 0;
+    var complexIndex = 0;
+
+
+    const baseObjs = modifierObject.map((w, i, e) => {
+      if(w.type === 1){
+        if(w.type == 1 && Stepindex == 0) {
+          data.push(w)
+          Stepindex++
+
+        } else {
+          Stepindex = 0;
         }
+
+      } else if(w.type === 5) {
+        if(w.type == 5 && complexIndex == 0) {
+          data.push(w)
+          complexIndex++
+
+        } else {
+          complexIndex = 0;
+        }
+
+      } else {
+        complexIndex = 0;
+        Stepindex = 0;
+        return false
+      }
     })
 
 
+    // პირველი კომპლექსურის group ის შეცვლა
+    data[0].group = "complexExercise2";
 
+
+    console.log(data)
     console.log(modifierObject)
-    
-    var arr = [];   //ვიმახსოვრებთ იმ ინდექსების ნომრებს რომლებზეც დგას type: 1
-    var arrPush1 = []; // ვყრით პირველ შუალედს
-    var arrPush2 = [];
-    var arrPush3 = [];
-    var arrPush4 = [];
 
-    for(let i=0; i<modifierObject.length; i++){
-      if(modifierObject[i].type == 1){
-        arr.push(i);
-      }
-    }
-    console.log('index',arr)
-
-    for(let j = arr[0]+1; j<arr[1]; j++){
-      arrPush1.push(modifierObject[j])
-    }
-
-    for(let j = arr[1]+1; j<arr[2]; j++){
-      arrPush2.push(modifierObject[j])
-    }
-
-    for(let j = arr[2]+1; j<arr[3]; j++){
-      arrPush3.push(modifierObject[j])
-    }
-
-    for(let j = arr[3]+1; j<arr[4]; j++){
-      arrPush4.push(modifierObject[j])
-    }
-    
-
-    console.log('arrPush1', arrPush1)
-    console.log('arrPush2', arrPush2)
-    console.log('arrPush3', arrPush3)
-    console.log('arrPush4', arrPush4)
-
-    // nodesData = modifierObject
-
+    nodesData = [...data]
   })
 
-
-
-  // function filterData(data) {
-
-  // }
 
 
 
@@ -109,6 +104,7 @@ Vue.component('appVis', {
             init()
         }
 });
+
 
  // ვუე.ჯს უნდა ინიცირდეს ვის.ჯს ინიცირებამდე და რადგანაც ვის.ჯს გვერდის ჩატვირთვისას არ გვჭირდება, გამოვიძახებთ მხოლოდ mounted() ციკლში.
 var vm = new Vue({
@@ -129,15 +125,12 @@ var vm = new Vue({
     // რადგანაც ვის.ჯს ყოველ ჯერზე თავიდან უნდა გაეშვას ამიტომ მთლიანი ვის.ჯს თავისი კოდით გლობ. ფუნქციად უნდა გავიტანოთ
 
     function init(){
-
-      if(nodesData !== null){
-        var nodes = new vis.DataSet(nodesData);
-      }
+      var nodes = new vis.DataSet(nodesData);
   
       // create an array with edges
       var edges = new vis.DataSet([
-        // { from: 1, to: 5 },
-        // { from: 5, to: 6 },
+        // { from: 1, to: 3 },
+        // { from: 3, to: 12 },
         // {
         //   from: 1, to: 3, width: 2
         // },
