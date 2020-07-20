@@ -47183,8 +47183,41 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .creating-games-8 {
-  height: 46.3vh;
+  height: 46vh;
   max-height: 356px;
+}
+
+.creating-games-9 {
+  height: 56.5vh;
+  max-height: 434px;
+}
+
+.creating-games-10 {
+  height: 39.4vh;
+  max-height: 303px;
+}
+
+.creating-games-11 {
+  height: 61.5vh;
+  max-height: 473px;
+}
+
+.creating-games-12 {
+  height: 36.4vh;
+  max-height: 280px;
+}
+
+.creating-games-13 {
+  height: 41vh;
+  max-height: 315px;
+}
+
+.creating-games-14 {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  height: 57vh;
+  max-height: 439px;
 }
 
 body {
