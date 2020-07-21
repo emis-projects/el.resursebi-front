@@ -1,3 +1,4 @@
+const url = window.location.pathname
 // directive გადაემა html კომპონენტში
 Vue.directive('logo', {
     bind: function (el, binding, vnode) {
@@ -12,8 +13,8 @@ Vue.directive('logo', {
                 elm.src = binding.value + 'New-header-vue/header-img/mute.png';
             }
         });
-        // ლოგოს path მიბმა
-        header.href = binding.value + 'index.html';
+        // ლოგოს path მიბმა for deploy
+        header.href = binding.value;
         logo.src = binding.value + 'New-header-vue/header-img/Header-logo.svg';
     }
 });
@@ -653,6 +654,10 @@ var app = new Vue({
                 if (dot.id === 1 && !this.isActive) {
                     dot.disable = true;
                     dot.classActive = false;
+                }
+                if(url.includes('html') && dot.id === 2 || dot.id === 3){
+                    dot.disable = false
+                    console.log('tada');
                 }
             });
             this.link = 'start';
