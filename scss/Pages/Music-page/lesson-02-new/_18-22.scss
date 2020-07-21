@@ -1,27 +1,21 @@
-.cs-6-25{
-    &-15-img{
-        height: 59.89vh;
-        position:absolute;
-        bottom:0;
-        right:10.6vw;
-    }
-    &-16-img{
-        height:50.13vh;
-    }
-    &-17-img{
-        height:46.87vh;
-        position:absolute;
-        bottom:9.89vh;
-        right:3vw;
-    }
-    &-18-img{
-        height: 32.29vh;
-        position:absolute;
-        bottom:14.86vw;
-        right:5.72vh;
- }
- 
-img{
-    height:100%;
-    }
+.background-lesson-02-new{
+        background-position: top center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        &-18{
+            background-image: url("../img/gakvetilebi/musika/lesson-02-new/cs-new-02-18.svg");
+        }
+        &-19{
+            background-image: url("../img/gakvetilebi/musika/lesson-02-new/cs-new-02-19.svg");
+        }
+        &-20{
+            background-image: url("../img/gakvetilebi/musika/lesson-02-new/cs-new-02-20.svg");
+        }
+        &-21{
+            background-image: url("../img/gakvetilebi/musika/lesson-02-new/cs-new-02-21.svg");
+        }
+        &-22{
+            background-image: url("../img/gakvetilebi/musika/lesson-02-new/cs-new-02-22.svg");
+        }
+      
 }
