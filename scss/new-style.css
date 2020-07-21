@@ -13,6 +13,15 @@
   float: right;
 }
 
+#chatBot .phoneNumber__parent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 #chatBot #prime {
   background: url("../Vue-chatBot/img/botBox.png") no-repeat center;
   background-size: cover;
@@ -533,6 +542,10 @@
   color: #666;
 }
 
+#chatBot .chat .chat_converse .chat_msg_item.chat_msg_item_admin .chat_msg_item-text {
+  border-radius: 20px 20px 20px 0;
+}
+
 #chatBot .chat .chat_msg_item .chat_msg_item-text {
   display: block;
   color: #0B2228;
@@ -558,6 +571,10 @@
       -ms-flex-pack: end;
           justify-content: flex-end;
   color: #fff;
+}
+
+#chatBot .chat .chat_converse .chat_msg_item.chat_msg_item_user .chat_msg_item-text {
+  border-radius: 20px 20px 0px 20px;
 }
 
 #chatBot .chat .chat_converse .chat_msg_item.chat_msg_item_user .chat_msg_item-text {
@@ -47160,6 +47177,48 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   background: url("../img/gakvetilebi/Computer-Science/Class-5/Privacy-in-email-22/cs-5-22-22.svg") no-repeat center;
   background-size: cover;
   height: 100vh;
+}
+
+.creating-games img {
+  height: 100%;
+}
+
+.creating-games-8 {
+  height: 46vh;
+  max-height: 356px;
+}
+
+.creating-games-9 {
+  height: 56.5vh;
+  max-height: 434px;
+}
+
+.creating-games-10 {
+  height: 39.4vh;
+  max-height: 303px;
+}
+
+.creating-games-11 {
+  height: 61.5vh;
+  max-height: 473px;
+}
+
+.creating-games-12 {
+  height: 36.4vh;
+  max-height: 280px;
+}
+
+.creating-games-13 {
+  height: 41vh;
+  max-height: 315px;
+}
+
+.creating-games-14 {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  height: 57vh;
+  max-height: 439px;
 }
 
 body {
