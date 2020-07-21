@@ -555,7 +555,6 @@
   margin-bottom: 5px;
   -webkit-box-shadow: 2px 2px 8px #7FD1D866;
           box-shadow: 2px 2px 8px #7FD1D866;
-  border-radius: 20px 20px 0 20px;
 }
 
 #chatBot .chat .chat_converse .chat_msg_item.chat_msg_item_admin a.chat_msg_item-text {
@@ -47177,6 +47176,67 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   background: url("../img/gakvetilebi/Computer-Science/Class-5/Privacy-in-email-22/cs-5-22-22.svg") no-repeat center;
   background-size: cover;
   height: 100vh;
+}
+
+.class_6_25-img_1 {
+  height: 59.5vh;
+  max-height: 457px;
+  margin: 4vh auto 3vh;
+}
+
+.class_6_25-img_1 img {
+  height: 100%;
+}
+
+.class_6_25-img_3 {
+  position: fixed;
+  bottom: 0;
+  right: 20vh;
+  height: 59.63vh;
+  max-height: 458px;
+}
+
+.class_6_25-img_3 img {
+  height: 100%;
+}
+
+.class_6_25-img_4 {
+  height: 41vh;
+  max-height: 316px;
+}
+
+.class_6_25-img_4 img {
+  height: 100%;
+}
+
+.class_6_25-img_5 {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  height: 56.5vh;
+  max-height: 434px;
+}
+
+.class_6_25-img_5 img {
+  height: 100%;
+}
+
+.class_6_25-img_6 {
+  height: 44vh;
+  max-height: 341px;
+}
+
+.class_6_25-img_6 img {
+  height: 100%;
+}
+
+.class_6_25-img_7 {
+  height: 45.96vh;
+  max-height: 353px;
+}
+
+.class_6_25-img_7 img {
+  height: 100%;
 }
 
 .creating-games img {
