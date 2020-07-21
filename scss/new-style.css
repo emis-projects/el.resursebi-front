@@ -47456,6 +47456,8 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .class_6_26-img_14 {
+  position: fixed;
+  bottom: 11vh;
   height: 60.8vh;
   max-height: 467px;
 }
