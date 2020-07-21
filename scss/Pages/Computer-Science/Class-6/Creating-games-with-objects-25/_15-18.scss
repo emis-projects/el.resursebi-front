@@ -1,18 +1,27 @@
 .cs-6-25{
     &-15-img{
-        height: 55.25vh;
-        margin: 4vh auto 0;
+        height: 59.89vh;
+        position:absolute;
+        bottom:0;
+        right:10.6vw;
     }
     &-16-img{
-        height: 39.97vh;
-        margin-top: 1vh;
+        height:50.13vh;
     }
     &-17-img{
-        height: 57.25vh;
-        margin: 3.5vh auto 0;
+        height:46.87vh;
+        position:absolute;
+        bottom:9.89vh;
+        right:3vw;
     }
     &-18-img{
-        height: 54.56vh;
-        margin-top: 4.5vh;
+        height: 32.29vh;
+        position:absolute;
+        bottom:14.86vw;
+        right:5.72vh;
+ }
+ 
+img{
+    height:100%;
     }
 }
