@@ -45076,13 +45076,6 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .class_5_13-box_item_4 {
   position: absolute;
-  top: 24.2vh;
-  left: 48vh;
-  width: 9%;
-}
-
-.class_5_13-box_item_4_1 {
-  position: absolute;
   top: 30.6vh;
   left: 48vh;
   width: 9%;
@@ -47395,6 +47388,17 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   max-height: 220px;
 }
 
+.creating-game-text-1 {
+  position: fixed;
+  bottom: 50vh;
+}
+
+.creating-game-text-2 {
+  position: fixed;
+  right: 58vh;
+  bottom: 15vh;
+}
+
 .background-cs-6-26 {
   background-position: top center;
   background-size: cover;
@@ -47415,6 +47419,15 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .background-cs-6-26-23 {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Creating-game-in-scratch-26/cs-6-26-23.svg");
+}
+
+.creating-game-5-1 {
+  height: 66.7vh;
+  max-height: 513px;
+}
+
+.creating-game-5-1 img {
+  height: 100%;
 }
 
 .class_6_26-img_9 {
