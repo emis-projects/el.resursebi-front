@@ -1,0 +1,42 @@
+.class_music_1 {
+    &-icon {
+        display: inline;
+        vertical-align: middle;
+        width: 2.5vh;
+        height: 3.3vh;
+    }
+    &-text-color {
+        color: #947DCE;
+    }
+    &-img_10_1 {
+        height: 47vh;
+        max-height: 360px;
+        img {
+            height: 100%;
+        }
+    }
+    &-img_11_1 {
+        height: 44vh;
+        max-height: 340px;
+        img {
+            height: 100%;
+        }
+    }
+    &-img_13_1 {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        height: 58vh;
+        max-height: 448px;
+        img {
+            height: 100%;
+        }
+    }
+    &-img_16_1 {
+        height: 53.9vh;
+        max-height: 415px;
+        img {
+            height: 100%;
+        }
+    }
+}

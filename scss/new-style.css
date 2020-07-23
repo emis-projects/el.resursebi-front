@@ -47507,6 +47507,135 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
+.cs-6-25-15-img {
+  height: 59.89vh;
+  position: absolute;
+  bottom: 0;
+  right: 10.6vw;
+}
+
+.cs-6-25-16-img {
+  height: 50.13vh;
+}
+
+.cs-6-25-17-img {
+  height: 46.87vh;
+  position: absolute;
+  bottom: 9.89vh;
+  right: 3vw;
+}
+
+.cs-6-25-18-img {
+  height: 32.29vh;
+  position: absolute;
+  bottom: 14.86vw;
+  right: 5.72vh;
+}
+
+.cs-6-25 img {
+  height: 100%;
+}
+
+.class_music_1-icon {
+  display: inline;
+  vertical-align: middle;
+  width: 2.5vh;
+  height: 3.3vh;
+}
+
+.class_music_1-text-color {
+  color: #947DCE;
+}
+
+.class_music_1-img_10_1 {
+  height: 47vh;
+  max-height: 360px;
+}
+
+.class_music_1-img_10_1 img {
+  height: 100%;
+}
+
+.class_music_1-img_11_1 {
+  height: 44vh;
+  max-height: 340px;
+}
+
+.class_music_1-img_11_1 img {
+  height: 100%;
+}
+
+.class_music_1-img_13_1 {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  height: 58vh;
+  max-height: 448px;
+}
+
+.class_music_1-img_13_1 img {
+  height: 100%;
+}
+
+.class_music_1-img_16_1 {
+  height: 53.9vh;
+  max-height: 415px;
+}
+
+.class_music_1-img_16_1 img {
+  height: 100%;
+}
+
+.class_music_1-bg_19 {
+  background-image: url("../../../../img/gakvetilebi/Music-class/voices-1/music-1-19.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.class_music_1-bg_20 {
+  background-image: url("../../../../img/gakvetilebi/Music-class/voices-1/music-1-20.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.class_music_1-bg_21 {
+  background-image: url("../../../../img/gakvetilebi/Music-class/voices-1/music-1-21.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.class_music_1-bg_22 {
+  background-image: url("../../../../img/gakvetilebi/Music-class/voices-1/music-1-22.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.class_music_1-bg_23 {
+  background-image: url("../../../../img/gakvetilebi/Music-class/voices-1/music-1-23.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.background-music-title-black-cont {
+  padding-top: 10vh;
+}
+
+.background-music-title-black {
+  color: #243E41;
+  font-family: 'DejaVu Sans Oblique';
+  font-size: 3.64vh;
+}
+
 .background-lesson-02-new {
   background-position: top center;
   background-size: cover;
@@ -47539,35 +47668,6 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .lesson-02-new-5-1 img {
-  height: 100%;
-}
-
-.cs-6-25-15-img {
-  height: 59.89vh;
-  position: absolute;
-  bottom: 0;
-  right: 10.6vw;
-}
-
-.cs-6-25-16-img {
-  height: 50.13vh;
-}
-
-.cs-6-25-17-img {
-  height: 46.87vh;
-  position: absolute;
-  bottom: 9.89vh;
-  right: 3vw;
-}
-
-.cs-6-25-18-img {
-  height: 32.29vh;
-  position: absolute;
-  bottom: 14.86vw;
-  right: 5.72vh;
-}
-
-.cs-6-25 img {
   height: 100%;
 }
 
