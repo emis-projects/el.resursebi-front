@@ -47507,30 +47507,34 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
-.background-lesson-02-new {
+.city-voices-2 {
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.background-lesson-02-new-18 {
+.city-voices-2-18 {
   background-image: url("../img/gakvetilebi/Music-Class/city-voices-2/cs-new-02-18.svg");
 }
 
-.background-lesson-02-new-19 {
+.city-voices-2-19 {
   background-image: url("../img/gakvetilebi/Music-Class/city-voices-2/cs-new-02-19.svg");
 }
 
-.background-lesson-02-new-20 {
+.city-voices-2-20 {
   background-image: url("../img/gakvetilebi/Music-Class/city-voices-2/cs-new-02-20.svg");
 }
 
-.background-lesson-02-new-21 {
+.city-voices-2-21 {
   background-image: url("../img/gakvetilebi/Music-Class/city-voices-2/cs-new-02-21.svg");
 }
 
-.background-lesson-02-new-22 {
+.city-voices-2-22 {
   background-image: url("../img/gakvetilebi/Music-Class/city-voices-2/cs-new-02-22.svg");
+}
+
+.background-cs-title {
+  color: #243E41;
 }
 
 .lesson-02-new-5-1 {
@@ -47538,65 +47542,61 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   max-height: 416px;
 }
 
+.lesson-02-new-5-1-10-1 {
+  height: 52.47vh;
+  max-height: 403px;
+}
+
 .lesson-02-new-5-1 img {
   height: 100%;
 }
 
-.cs-6-25-15-img {
-  height: 59.89vh;
-  position: absolute;
+.icon {
+  display: inline-block;
+  height: 3.2vh;
+  vertical-align: bottom;
+}
+
+.find-way {
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.find-way-24 {
+  background-image: url("../img/gakvetilebi/Music-Class/findWayBySound-3/cs-new-03-24.svg");
+}
+
+.find-way-25 {
+  background-image: url("../img/gakvetilebi/Music-Class/findWayBySound-3/cs-new-03-25.svg");
+}
+
+.find-way-26 {
+  background-image: url("../img/gakvetilebi/Music-Class/findWayBySound-3/cs-new-03-26.svg");
+}
+
+.find-way-27 {
+  background-image: url("../img/gakvetilebi/Music-Class/findWayBySound-3/cs-new-03-27.svg");
+}
+
+.background-cs-title {
+  color: #243E41;
+}
+
+.find-way-9-1 {
+  height: 55.98;
+  max-height: 430px;
+}
+
+.find-way-5-1-1 {
+  height: 68.35vh;
+  max-height: 525px;
+  position: fixed;
   bottom: 0;
-  right: 10.6vw;
+  left: 16vh;
 }
 
-.cs-6-25-16-img {
-  height: 50.13vh;
-}
-
-.cs-6-25-17-img {
-  height: 46.87vh;
-  position: absolute;
-  bottom: 9.89vh;
-  right: 3vw;
-}
-
-.cs-6-25-18-img {
-  height: 32.29vh;
-  position: absolute;
-  bottom: 14.86vw;
-  right: 5.72vh;
-}
-
-.cs-6-25 img {
-  height: 100%;
-}
-
-.cs-6-25-15-img {
-  height: 59.89vh;
-  position: absolute;
-  bottom: 0;
-  right: 10.6vw;
-}
-
-.cs-6-25-16-img {
-  height: 50.13vh;
-}
-
-.cs-6-25-17-img {
-  height: 46.87vh;
-  position: absolute;
-  bottom: 9.89vh;
-  right: 3vw;
-}
-
-.cs-6-25-18-img {
-  height: 32.29vh;
-  position: absolute;
-  bottom: 14.86vw;
-  right: 5.72vh;
-}
-
-.cs-6-25 img {
+.find-way img {
   height: 100%;
 }
 
