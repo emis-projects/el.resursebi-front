@@ -2,8 +2,10 @@ let jsonObject = null,
     group = null,
     width = null,
     nodesData = null,
+    obj = [];
+    stepIndexes = []
 
-
+    
   getTypeAndWidth = (number) => {
     if(number == 1){
       group = "step"
@@ -32,9 +34,9 @@ let jsonObject = null,
   }
 
 
-  document.addEventListener('DOMContentLoaded', async () => {
-    let data = [];
 
+  document.addEventListener('DOMContentLoaded', async () => {
+     
     const json = await $.getJSON("data.json");
 
     jsonObject = json;
@@ -46,16 +48,18 @@ let jsonObject = null,
     })
 
 
-
-    // აქ ვფილტრავ იმ ნაბიჯის და კომპლექსურების რომლებიც უნდა ჩანდეს სარჩევში.
+ 
     var Stepindex = 0;
     var complexIndex = 0;
-
-
-    const baseObjs = modifierObject.map((w, i, e) => {
+    
+    
+    // აქ ვფილტრავ იმ ნაბიჯებს და კომპლექსურებს რომლებიც უნდა ჩანდეს სარჩევში.
+    modifierObject.map((w, i, e) => {
       if(w.type === 1){
+        stepIndexes.push(w.id)
+
         if(w.type == 1 && Stepindex == 0) {
-          data.push(w)
+          obj.push(w)
           Stepindex++
 
         } else {
@@ -64,7 +68,7 @@ let jsonObject = null,
 
       } else if(w.type === 5) {
         if(w.type == 5 && complexIndex == 0) {
-          data.push(w)
+          obj.push(w)
           complexIndex++
 
         } else {
@@ -76,19 +80,21 @@ let jsonObject = null,
         Stepindex = 0;
         return false
       }
+
+
     })
 
 
     // პირველი კომპლექსურის group ის შეცვლა
-    data[0].group = "complexExercise2";
+    obj[0].group = "complexExercise2";
 
 
-    console.log(data)
+
+    console.log(stepIndexes);
     console.log(modifierObject)
 
-    nodesData = [...data]
+    nodesData = [...obj]
   })
-
 
 
 
@@ -119,130 +125,126 @@ var vm = new Vue({
     }
   })
     
-    // აქ იხატება ყველაფერი. დოკუმენტაცია: https://visjs.github.io/vis-network/docs/network/ -->
+  // აქ იხატება ყველაფერი. დოკუმენტაცია: https://visjs.github.io/vis-network/docs/network/ -->
 
-    // ვის.ჯს რომ ჩავტვირთოთ ვუში როცა კომპონენტს დავარენდერებთ(ხილულს გავხდით).
-    // რადგანაც ვის.ჯს ყოველ ჯერზე თავიდან უნდა გაეშვას ამიტომ მთლიანი ვის.ჯს თავისი კოდით გლობ. ფუნქციად უნდა გავიტანოთ
+  // ვის.ჯს რომ ჩავტვირთოთ ვუში როცა კომპონენტს დავარენდერებთ(ხილულს გავხდით).
+  // რადგანაც ვის.ჯს ყოველ ჯერზე თავიდან უნდა გაეშვას ამიტომ მთლიანი ვის.ჯს თავისი კოდით გლობ. ფუნქციად უნდა გავიტანოთ
 
-    function init(){
-      var nodes = new vis.DataSet(nodesData);
-  
-      // create an array with edges
-      var edges = new vis.DataSet([
-        // { from: 1, to: 3 },
-        // { from: 3, to: 12 },
-        // {
-        //   from: 1, to: 3, width: 2
-        // },
-        // {
-        //   from: 1, to: 2, width: 2,
-        //   shadow: {
-        //     enabled: true,
-        //     color: 'rgba(220,108,133,0.4)'
-        //   }
-        // },
-        // {
-        //   from: 1, to: 4, width: 2,
-        //   shadow: {
-        //     enabled: true,
-        //     color: 'rgba(220,108,133,0.4)'
-        //   }
-        // }
-      ]);
+  function init(){
+    let stickObj = []
 
-  
-      // create a network
-      var container = document.getElementById('mynetwork');
-  
+    // ძრითადი სტეპების გადაბმა
+    obj.map((w,i,e) => {
+      if((i + 1) < obj.length){
+        var next = e[i + 1];
 
-      // provide the data in the vis format
-      var data = {
-        nodes: nodes,
-        edges: edges
-      };
-  
-
-      var options = {
-  
-        nodes: { // ფროფერთიები აქ (groups-შიც იგივეებია): https://visjs.github.io/vis-network/docs/network/nodes.html
-          shape: 'dot',
-          fontStrokeWidth: 0.5,
-          fontStrokeColor: 'black',
-          chosen: true,
-          selectable: true
-        },
-        edges: { // ფროფერთიები აქ: https://visjs.github.io/vis-network/docs/network/edges.html
-          color: '#fff',
-          width: 16,
-          shadow: {
-            enabled: true,
-            color: 'rgba(127,209,216,0.4)'
-          }
-        },
-        groups: {
-          complexExercise: { // კომპლექსური დავალება
-            shape: 'image',
-            image: {
-              unselected: 'images/complexExercise.png',
-              selected: 'images/complexExerciseActive.png'
-            },
-            size: 50
-          },
-          complexExercise2: { // კომპლექსური დავალება
-            shape: 'image',
-            image: {
-              unselected: 'images/complexExercise2.png',
-              selected: 'images/complexExercise2Active.png'
-            },
-            size: 50
-          },
-          exercise: {  // სავარჯიშო
-            shape: 'image',
-            image: {
-              unselected: 'images/exercise.png',
-              selected: 'images/exerciseActive.png'
-            },
-            size: 25
-          },
-          hint: { // მინიშნება
-            shape: 'image',
-            image: {
-              unselected: 'images/hint.png',
-              selected: 'images/hintActive.png'
-            },
-            size: 25
-          },
-          mid: {  // შუალედური
-            shape: 'image',
-            image: {
-              unselected: 'images/mid.png',
-              selected: 'images/midActive.png'
-            },
-            size: 25
-          },
-          step: {  // ნაბიჯი
-            shape: 'image',
-            image: {
-              unselected: 'images/step.png',
-              selected: 'images/stepActive.png'
-            },
-            size: 50
-          }
+        let object = {
+          from: w.id,
+          to: next.id
         }
-  
-      };
-  
+        stickObj.push(object)
+      }
+    })
 
-      // initialize your network!
-      var network = new vis.Network(container, data, options);
-  
-  
-      network.on('select', function (properties) {
-  
-        var SelectedNodeID = network.getSelection().nodes[0];
-        var thisNodeUrl = nodes.get(SelectedNodeID).url;
-  
-        console.log(thisNodeUrl);
-  
-      });
-    }
+    var nodes = new vis.DataSet(nodesData);
+
+
+    // create an array with edges
+    var edges = new vis.DataSet(stickObj);
+
+
+    // create a network
+    var container = document.getElementById('mynetwork');
+
+
+    // provide the data in the vis format
+    var data = {
+      nodes: nodes,
+      edges: edges
+    };
+
+
+    var options = {
+
+      nodes: { // ფროფერთიები აქ (groups-შიც იგივეებია): https://visjs.github.io/vis-network/docs/network/nodes.html
+        shape: 'dot',
+        fontStrokeWidth: 0.5,
+        fontStrokeColor: 'black',
+        chosen: true,
+        selectable: true
+      },
+      edges: { // ფროფერთიები აქ: https://visjs.github.io/vis-network/docs/network/edges.html
+        color: '#fff',
+        width: 16,
+        shadow: {
+          enabled: true,
+          color: 'rgba(127,209,216,0.4)'
+        }
+      },
+      groups: {
+        complexExercise: { // კომპლექსური დავალება
+          shape: 'image',
+          image: {
+            unselected: 'images/complexExercise.png',
+            selected: 'images/complexExerciseActive.png'
+          },
+          size: 50
+        },
+        complexExercise2: { // კომპლექსური დავალება
+          shape: 'image',
+          image: {
+            unselected: 'images/complexExercise2.png',
+            selected: 'images/complexExercise2Active.png'
+          },
+          size: 50
+        },
+        exercise: {  // სავარჯიშო
+          shape: 'image',
+          image: {
+            unselected: 'images/exercise.png',
+            selected: 'images/exerciseActive.png'
+          },
+          size: 25
+        },
+        hint: { // მინიშნება
+          shape: 'image',
+          image: {
+            unselected: 'images/hint.png',
+            selected: 'images/hintActive.png'
+          },
+          size: 25
+        },
+        mid: {  // შუალედური
+          shape: 'image',
+          image: {
+            unselected: 'images/mid.png',
+            selected: 'images/midActive.png'
+          },
+          size: 25
+        },
+        step: {  // ნაბიჯი
+          shape: 'image',
+          image: {
+            unselected: 'images/step.png',
+            selected: 'images/stepActive.png'
+          },
+          size: 50
+        }
+      }
+
+    };
+
+
+    // initialize your network!
+    var network = new vis.Network(container, data, options);
+
+
+    network.on('select', function (properties) {
+
+      var SelectedNodeID = network.getSelection().nodes[0];
+      var thisNodeUrl = nodes.get(SelectedNodeID).url;
+
+      console.log(thisNodeUrl);
+
+    });
+  }

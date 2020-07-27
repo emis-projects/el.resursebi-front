@@ -23,7 +23,6 @@
             dataLayer.push(arguments);
         }
 
-        2
         gtag('js', new Date());
 
         gtag('config', 'UA-155006442-1');
@@ -37,7 +36,7 @@
                 <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../../'"></app-menu>
             </header>
 
-            <app-section :is-active="isActive" v-image="'../../../'">
+            <app-section :is-active="isActive" :is-info="isInfo" v-image="'../../../'">
                 <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger" v-on:link-tab="link = $event">
 
                 </app-bar>
@@ -47,28 +46,44 @@
             </app-section>
         </section>
         <section id="mainPage">
-            <div class="row">
-                <div class="col-11 m-auto">
-                    <div class="newDesign_subject_question_item mt-5vh">
+            <div class="row mt-4vh">
+                <div class="col-10 m-auto">
+                    <div class="newDesign_subject_question_item">
                         <img alt="img" class="newDesign_subject_question_item-img" src="../../../img/icons/newDesign_btn-yellow.svg">
-                        <p class="newDesign_subject_question_item-title Class_2-title_item_2 big-font-size-20px-dejavu">
-                            როგორი ურთიერთობა გაქვს ინტერნეტში შენს თანატოლებთან? 
+                        <p class="newDesign_subject_question_item-title">
+                            <img src="../../img/gakvetilebi/Music-class/voices-1/music-10-1-icon.png" class="class_music_1-icon" alt="image">
+                            <span class="class_music_1-text-color">მოუსმინე</span>
+                            მსუბუქი მანქანის სხვადასხვა სიმაღლის სიგნალის თანმიმდევრობას.                  
                         </p>
                     </div>
-                    <div class="newDesign_subject_question_item mt-5vh">
+                    <div class="newDesign_subject_question_item">
                         <img alt="img" class="newDesign_subject_question_item-img" src="../../../img/icons/newDesign_btn-yellow.svg">
-                        <p class="newDesign_subject_question_item-title Class_2-title_item_2 big-font-size-20px-dejavu">
-                            როგორ ფიქრობ, უნდა გავითვალისწინოთ <a  class="a-blue"href="7-1.html">ეთიკის ნორმები</a>  ინტერნეტში?
+                        <p class="newDesign_subject_question_item-title">
+                            ახლა კი იმავე თანმიმდევრობით დააწკპე სათანადო სურათს.                  
+                        </p>
+                    </div>
+                    <div class="newDesign_subject_question_item mb-8vh">
+                        <img alt="img" class="newDesign_subject_question_item-img" src="../../../img/icons/newDesign_btn-yellow.svg">
+                        <p class="newDesign_subject_question_item-title">
+                            შესაძლებელია, რომ რომელიმე სიგნალი გამეორდეს.            
                         </p>
                     </div>
                 </div>
-                
+                <div class="col-8 class_music_2-img_7 m-auto d-flex justify-content-start">
+                    <img src="../../img/gakvetilebi/Music-class/city-voices-2/music-2-6-1.svg" alt="image">
+                </div>
+                <div class="col-7 class_music_2-img_7 ml-9vh d-flex justify-content-end mt-3vh">
+                    <img src="../../img/gakvetilebi/Music-class/city-voices-2/music-2-6-2.svg" alt="image">
+                </div>
             </div>
-               <div class="col-11 d-flex justify-content-end cs-6-25-div-15-img  cs-6-25-div ">
-                    <img alt="img" src="../../../img/gakvetilebi/Computer-Science/Class-6/Creating-games-with-objects-25/cs-6-25-15.svg">
-                </div>  
+
+            <div  class="flex flex-column z-index reload_game_wrapper">
+                <button id="resetBtn" class="reset__btn">თავიდან სცადე</button>
+                <button id="completedGame" class="completed__btn">დასრულება</button>
+            </div>
+
             <div class="left_components_paging-cont" id="leftNav">
-                <left-nav-item></left-nav-item>
+                <left-nav-item></left   -nav-item>
             </div>
 
             <div class="our__pagination flex">

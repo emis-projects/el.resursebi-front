@@ -47508,6 +47508,313 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .city-voices-2 {
+.cs-6-25-15-img {
+  height: 59.89vh;
+  position: absolute;
+  bottom: 0;
+  right: 10.6vw;
+}
+
+.cs-6-25-16-img {
+  height: 50.13vh;
+}
+
+.cs-6-25-17-img {
+  height: 46.87vh;
+  position: absolute;
+  bottom: 9.89vh;
+  right: 3vw;
+}
+
+.cs-6-25-18-img {
+  height: 32.29vh;
+  position: absolute;
+  bottom: 14.86vw;
+  right: 5.72vh;
+}
+
+.cs-6-25 img {
+  height: 100%;
+}
+
+.class_music_1-icon {
+  display: inline;
+  vertical-align: middle;
+  width: 2.5vh;
+  height: 3.3vh;
+}
+
+.class_music_1-text-color {
+  color: #947DCE;
+}
+
+.class_music_1-img_10_1 {
+  height: 47vh;
+  max-height: 360px;
+}
+
+.class_music_1-img_10_1 img {
+  height: 100%;
+}
+
+.class_music_1-img_11_1 {
+  height: 44vh;
+  max-height: 340px;
+}
+
+.class_music_1-img_11_1 img {
+  height: 100%;
+}
+
+.class_music_1-img_13_1 {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  height: 58vh;
+  max-height: 448px;
+}
+
+.class_music_1-img_13_1 img {
+  height: 100%;
+}
+
+.class_music_1-img_16_1 {
+  height: 53.9vh;
+  max-height: 415px;
+}
+
+.class_music_1-img_16_1 img {
+  height: 100%;
+}
+
+.class_music_1-bg_19 {
+  background-image: url("../../../../img/gakvetilebi/Music-class/voices-1/music-1-19.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.class_music_1-bg_20 {
+  background-image: url("../../../../img/gakvetilebi/Music-class/voices-1/music-1-20.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.class_music_1-bg_21 {
+  background-image: url("../../../../img/gakvetilebi/Music-class/voices-1/music-1-21.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.class_music_1-bg_22 {
+  background-image: url("../../../../img/gakvetilebi/Music-class/voices-1/music-1-22.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.class_music_1-bg_23 {
+  background-image: url("../../../../img/gakvetilebi/Music-class/voices-1/music-1-23.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.background-music-title-black-cont {
+  padding-top: 10vh;
+}
+
+.background-music-title-black {
+  color: #243E41;
+  font-family: 'DejaVu Sans Oblique';
+  font-size: 3.64vh;
+}
+
+.music-new-1-div-3-img {
+  height: 48.82vh;
+}
+
+.music-new-1-div-4-img {
+  height: 49.6vh;
+}
+
+.music-new-1-div-7-img {
+  height: 35.15vh;
+}
+
+.music-new-1-div-8-img {
+  height: 60vh;
+}
+
+.music-new-1-div-9-img {
+  height: 40.7vh;
+}
+
+.music-new-1-div-10-img {
+  height: 52.08vh;
+}
+
+.music-new-1-div img {
+  height: 100%;
+}
+
+.music-new-1-div-5-col {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.music-new-1-div-5 {
+  height: 22.52vh;
+  position: relative;
+  width: 100%;
+}
+
+.music-new-1-div-5-img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 5%;
+}
+
+.music-new-1-div-5-img-circle {
+  height: 8.59vh;
+  width: 8.59vh;
+  border: 3px solid #7FD1D8;
+  border-radius: 100%;
+}
+
+.music-new-1-div-5-fullscreen-modal {
+  height: 100%;
+}
+
+.music-new-1-div-5-icons img {
+  height: 8.59vh;
+}
+
+.music-new-1-div-6-img-circle {
+  margin-left: 4.68vw;
+}
+
+.music-new-1-div-6-div-dot {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.music-new-1-div-6-div-dot p {
+  color: #7FD1D8;
+  /*       line-height: 1.5;      */
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.music-new-1-div-6-div-dot-text {
+  -webkit-box-shadow: 2px 2px 8px #7FD1D866;
+          box-shadow: 2px 2px 8px #7FD1D866;
+  width: 11.42vw;
+  height: 6.51vh;
+  border-radius: 60px;
+  padding: 5px 1vw;
+  background-color: #fff;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.music-new-1-div-6-div-dot span {
+  color: #7FD1D8;
+  width: 3.9vh;
+  height: 3.9vh;
+  border-radius: 25%;
+}
+
+.class_music_2-img_1 {
+  height: 63vh;
+  max-height: 487px;
+  margin: 4vh auto 3vh;
+}
+
+.class_music_2-img_1 img {
+  height: 100%;
+}
+
+.class_music_2-img_3 {
+  height: 49.8vh;
+  max-height: 383px;
+}
+
+.class_music_2-img_3 img {
+  height: 100%;
+}
+
+.class_music_2-img_4 {
+  position: fixed;
+  right: 3vh;
+  height: 80.59vh;
+  max-height: 619px;
+}
+
+.class_music_2-img_4 img {
+  height: 100%;
+}
+
+.class_music_2-img_5 {
+  height: 22.5vh;
+  max-height: 173px;
+}
+
+.class_music_2-img_5 img {
+  height: 100%;
+}
+
+.class_music_2-img_5_circle {
+  height: 8vh;
+}
+
+.class_music_2-img_5_circle_blue {
+  height: 66px;
+  width: 66px;
+  border: 3px solid #7FD1D8;
+  border-radius: 50%;
+}
+
+.class_music_2-img_6 {
+  height: 47vh;
+  max-height: 360px;
+}
+
+.class_music_2-img_6 img {
+  height: 100%;
+}
+
+.class_music_2-img_7 {
+  height: 11vh;
+  max-height: 85px;
+}
+
+.class_music_2-img_7 img {
+  height: 100%;
+}
+
+.class_music_2-img_8 {
+  height: 44vh;
+  max-height: 338px;
+}
+
+.class_music_2-img_8 img {
+  height: 100%;
+}
+
+.background-lesson-02-new {
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -47577,6 +47884,61 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .find-way-27 {
   background-image: url("../img/gakvetilebi/Music-Class/findWayBySound-3/cs-new-03-27.svg");
+.music-new-2-div-9-img {
+  height: 48.82vh;
+}
+
+.music-new-2-div-10-img {
+  height: 30.98vh;
+}
+
+.music-new-2-div-11-img {
+  height: 22.52vh;
+}
+
+.music-new-2-div-12-img {
+  height: 60vh;
+}
+
+.music-new-2-div-13-img {
+  height: 8.85vh;
+}
+
+.music-new-2-div-14-img img {
+  width: 50.1vw;
+}
+
+.music-new-2-div-14-img .music-new-1-div-5-img-circle {
+  height: 6.5vh;
+  width: 6.5vh;
+  margin-left: 2.44vw;
+}
+
+.music-new-2-div-15-img {
+  height: 52.08vh;
+}
+
+.music-new-2-div-16-img {
+  height: 52.08vh;
+}
+
+.music-new-2-div-19-img {
+  height: 52.08vh;
+}
+
+.music-new-2-div img {
+  height: 100%;
+}
+
+.listen-music-purple-tag {
+  color: #947DCE;
+}
+
+.cs-6-25-15-img {
+  height: 59.89vh;
+  position: absolute;
+  bottom: 0;
+  right: 10.6vw;
 }
 
 .background-cs-title {
