@@ -5,24 +5,24 @@ let jsonObject = null,
     obj = [];
     stepIndexes = []
 
-    
+
   getTypeAndWidth = (number) => {
     if(number == 1){
       group = "step"
       width = 2
-  
+
     } else if(number == 2) {
       group = "exercise"
       width = 12
-  
+
     } else if(number == 3) {
       group = "hint"
       width = 7
-  
+
     } else if(number == 4) {
       group = "mid"
       width = 10
-  
+
     } else if(number == 5) {
       group = "complexExercise"
       width = 4
@@ -36,7 +36,7 @@ let jsonObject = null,
 
 
   document.addEventListener('DOMContentLoaded', async () => {
-     
+
     const json = await $.getJSON("data.json");
 
     jsonObject = json;
@@ -48,11 +48,11 @@ let jsonObject = null,
     })
 
 
- 
+
     var Stepindex = 0;
     var complexIndex = 0;
-    
-    
+
+
     // აქ ვფილტრავ იმ ნაბიჯებს და კომპლექსურებს რომლებიც უნდა ჩანდეს სარჩევში.
     modifierObject.map((w, i, e) => {
       if(w.type === 1){
@@ -105,7 +105,7 @@ Vue.component('appVis', {
      </div>
         `,
         mounted() {
-            // mounted ეშვება ყოველ ჯერზე როდესაც ვუ.ჯს არენდერებს (ქმნის) ვირტუალურ DOM ამიტომ 
+            // mounted ეშვება ყოველ ჯერზე როდესაც ვუ.ჯს არენდერებს (ქმნის) ვირტუალურ DOM ამიტომ
             // როდესაც მომხმარებელი დააკლიკებს მენიუს გამოჩენა/დამალვაზე ვის.ჯს ხელახლა უნდა გამოვიძახოთ აქ
             init()
         }
@@ -124,7 +124,7 @@ var vm = new Vue({
         }
     }
   })
-    
+
   // აქ იხატება ყველაფერი. დოკუმენტაცია: https://visjs.github.io/vis-network/docs/network/ -->
 
   // ვის.ჯს რომ ჩავტვირთოთ ვუში როცა კომპონენტს დავარენდერებთ(ხილულს გავხდით).
@@ -244,7 +244,30 @@ var vm = new Vue({
       var SelectedNodeID = network.getSelection().nodes[0];
       var thisNodeUrl = nodes.get(SelectedNodeID).url;
 
-      console.log(thisNodeUrl);
+      console.log("url: " + thisNodeUrl);
 
     });
   }
+
+
+
+
+
+// edge-ების მასივის დაგენერირება:
+// edge-ების ობიექტად გვჭირდება 2 პარამეტრი: from და to.
+
+// var activeNodeID  = ინახება უკანასკნელი კომპლექსურის ან ნაბიჯის აიდი
+
+// თუ ნოუდების მასივში პირველი გვერდი არის არც კომპლექსური და არც ნაბიჯი, ასეთი გვერდი / გვერდები წავშალოთ.
+
+// var activeNodeID = ნოუდების მასივიდან ვიღებთ პირველი კომპლექსური ან ნაბიჯი ნოუდის აიდის.
+
+// var activeNodeID = 1; // პირველ ჯერზე ეს იქნება პირველი კომპლექსური დავალების აიდი
+
+// ციკლს ნოუდების მასივზე. - ვიწყებთ მეორე ნოუდიდან
+
+
+// edge-ების მასივში ვამატებთ ახალ ჩანაწერს - from: activeNodeID, to: 3 (ციკლის ამ ნაბიჯზე შემოსული ნოუდის აიდი)
+
+
+// if: ვამოწმებთ, ციკლში შემოსული ნოუდი თუ არის ან კომპლექსური და ან ნაბიჯი, მაშინ activeNodeID = შემოსული ნოუდის აიდი.
