@@ -47985,31 +47985,45 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .music-new-3-div-3-img {
-  height: 48.82vh;
+  height: 53.9vh;
 }
 
 .music-new-3-div-4-img {
-  height: 49.6vh;
+  height: 57.81vh;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 .music-new-3-div-7-img {
-  height: 35.15vh;
+  height: 42.83vh;
 }
 
 .music-new-3-div-8-img {
-  height: 60vh;
+  height: 65.1vh;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 .music-new-3-div-9-img {
-  height: 40.7vh;
-}
-
-.music-new-3-div-10-img {
-  height: 52.08vh;
+  height: 55.2vh;
 }
 
 .music-new-3-div img {
   height: 100%;
+}
+
+.music-new-3-1-background {
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../img/gakvetilebi/Music-class/findWayBySound-3/music-new-03-01.png");
+}
+
+.music-new-3-1-text-col {
+  position: absolute;
+  bottom: 12vh;
 }
 
 .music-new-3-div-5 {
