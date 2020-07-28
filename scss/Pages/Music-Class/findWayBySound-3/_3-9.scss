@@ -1,0 +1,48 @@
+.music-new-3-div {
+    &-3-img {
+        height:48.82vh;
+    }
+    &-4-img {
+        height:49.6vh;
+    }
+    &-7-img {
+        height:35.15vh;       
+    }
+    &-8-img {
+        height:60vh;
+    }
+    &-9-img {
+        height:40.7vh;
+    }
+    &-10-img {
+        height:52.08vh;
+    }
+    img {
+        height: 100%;
+    }
+}
+
+.music-new-3-div-5{
+    .music-new-3-div-5-img-container{   
+        height:38.05vh;
+        }
+    flex-direction:column;
+    &-img-1{
+        height:29.16vh;
+        align-self:flex-end;
+    }
+    &-img-2{
+        height:19.14vh;
+        align-self:flex-end;
+    }
+    &-img-3{
+        height:29.55vh;
+        align-self:flex-end;
+    } 
+     .music-new-1-div-5-img-circle{
+        width:4.68vh;
+        height:4.68vh;
+        margin-left: auto;
+        margin-right: auto;
+     }  
+}

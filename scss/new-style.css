@@ -4036,6 +4036,26 @@ section .arrow_up_down_downArrow img {
   background-position: top;
 }
 
+.portfolio-slider-music-new-1-5.owl-theme .owl-dots .owl-dot:nth-child(1) span {
+  background-image: url("../img/gakvetilebi/Music-class/voices-1/music-new-01-5-1.png");
+  background-position: top;
+}
+
+.portfolio-slider-music-new-1-5.owl-theme .owl-dots .owl-dot:nth-child(2) span {
+  background-image: url("../img/gakvetilebi/Music-class/voices-1/music-new-01-5-2.png");
+  background-position: top;
+}
+
+.portfolio-slider-music-new-1-5.owl-theme .owl-dots .owl-dot:nth-child(3) span {
+  background-image: url("../img/gakvetilebi/Music-class/voices-1/music-new-01-5-3.png");
+  background-position: top;
+}
+
+.portfolio-slider-music-new-1-5.owl-theme .owl-dots .owl-dot:nth-child(4) span {
+  background-image: url("../img/gakvetilebi/Music-class/voices-1/music-new-01-5-4.png");
+  background-position: top;
+}
+
 .big-font-size-22px {
   color: #0b2228;
   font-family: "BPG Arial";
@@ -47954,6 +47974,70 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .cs-6-25 img {
   height: 100%;
+}
+
+.music-new-3-div-3-img {
+  height: 48.82vh;
+}
+
+.music-new-3-div-4-img {
+  height: 49.6vh;
+}
+
+.music-new-3-div-7-img {
+  height: 35.15vh;
+}
+
+.music-new-3-div-8-img {
+  height: 60vh;
+}
+
+.music-new-3-div-9-img {
+  height: 40.7vh;
+}
+
+.music-new-3-div-10-img {
+  height: 52.08vh;
+}
+
+.music-new-3-div img {
+  height: 100%;
+}
+
+.music-new-3-div-5 {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.music-new-3-div-5 .music-new-3-div-5-img-container {
+  height: 38.05vh;
+}
+
+.music-new-3-div-5-img-1 {
+  height: 29.16vh;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.music-new-3-div-5-img-2 {
+  height: 19.14vh;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.music-new-3-div-5-img-3 {
+  height: 29.55vh;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.music-new-3-div-5 .music-new-1-div-5-img-circle {
+  width: 4.68vh;
+  height: 4.68vh;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 body {
