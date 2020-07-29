@@ -41,59 +41,54 @@ let jsonObject = null,
 
     jsonObject = json;
 
-    var modifierObject = json.pages.filter(w => w.type !== null).map(w => {
+
+    // ამ ფილტრით ხდება null ების და ignore ების ამოშლა
+    var modifierObject = json.pages.filter(w => w.type !== null  && !w.ignore).map(w => {
       getTypeAndWidth(w.type)
 
       return {...w, id: w.number, width: width, group}
     })
 
-
-
     var Stepindex = 0;
     var complexIndex = 0;
 
-
-    // აქ ვფილტრავ იმ ნაბიჯებს და კომპლექსურებს რომლებიც უნდა ჩანდეს სარჩევში.
-    modifierObject.map((w, i, e) => {
-      if(w.type === 1){
-        stepIndexes.push(w.id)
-
-        if(w.type == 1 && Stepindex == 0) {
-          obj.push(w)
-          Stepindex++
-
-        } else {
-          Stepindex = 0;
-        }
-
-      } else if(w.type === 5) {
+    // ამ ფილტრით ვშლი იმ ნაბიჯებს და კომპლექსურებს რომლებიც არაა საჭირო
+    // ანუ თუ კომპლექსურს მოსდევს ისევ კომპლექსური, მეორე კომპლექსური ამოიშლება.
+    // ასევე ნაბიჯზეც იგივე მოხდება.
+    let secondFilteredData = modifierObject.filter((w, i, e) => {
+      if(w.type === 5){
         if(w.type == 5 && complexIndex == 0) {
-          obj.push(w)
           complexIndex++
+          return true
 
         } else {
-          complexIndex = 0;
+          return false
+        }
+      } else if(w.type === 1){
+        if(w.type == 1 && Stepindex == 0) {
+          Stepindex++
+          return true
+
+        } else {
+          return false
         }
 
       } else {
-        complexIndex = 0;
         Stepindex = 0;
-        return false
+        complexIndex = 0;
+        return true
       }
-
-
     })
 
-
+    
     // პირველი კომპლექსურის group ის შეცვლა
-    obj[0].group = "complexExercise2";
+    secondFilteredData[0].group = "complexExercise2";
 
+    obj = secondFilteredData;
 
-
-    console.log(stepIndexes);
-    console.log(modifierObject)
-
-    nodesData = [...obj]
+    console.log(secondFilteredData)
+    
+    nodesData = [...secondFilteredData]
   })
 
 
@@ -131,18 +126,35 @@ var vm = new Vue({
   // რადგანაც ვის.ჯს ყოველ ჯერზე თავიდან უნდა გაეშვას ამიტომ მთლიანი ვის.ჯს თავისი კოდით გლობ. ფუნქციად უნდა გავიტანოთ
 
   function init(){
-    let stickObj = []
+    let activeNodeID;
+    let array = [];
+    let index = 0;
 
-    // ძრითადი სტეპების გადაბმა
-    obj.map((w,i,e) => {
-      if((i + 1) < obj.length){
-        var next = e[i + 1];
+
+    // გადაბმები
+    obj.map((w, i, e) => {
+      if(w.type == 5){
+        index++;
+
+        if(index > 1){
+          array.push({ from: activeNodeID, to: w.id })
+        }
+
+        activeNodeID = w.id;
+
+        
+      } else if(w.type == 1) {
+        array.push({ from: activeNodeID, to: w.id })
+        activeNodeID = w.id;
+
+      } else {
 
         let object = {
-          from: w.id,
-          to: next.id
+          from: activeNodeID,
+          to: w.id
         }
-        stickObj.push(object)
+
+        array.push(object)
       }
     })
 
@@ -150,7 +162,7 @@ var vm = new Vue({
 
 
     // create an array with edges
-    var edges = new vis.DataSet(stickObj);
+    var edges = new vis.DataSet(array);
 
 
     // create a network
