@@ -47507,7 +47507,6 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
-.city-voices-2 {
 .cs-6-25-15-img {
   height: 59.89vh;
   position: absolute;
@@ -47814,7 +47813,7 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
-.background-lesson-02-new {
+.city-voices-2 {
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -47864,26 +47863,6 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   vertical-align: bottom;
 }
 
-.find-way {
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.find-way-24 {
-  background-image: url("../img/gakvetilebi/Music-Class/findWayBySound-3/cs-new-03-24.svg");
-}
-
-.find-way-25 {
-  background-image: url("../img/gakvetilebi/Music-Class/findWayBySound-3/cs-new-03-25.svg");
-}
-
-.find-way-26 {
-  background-image: url("../img/gakvetilebi/Music-Class/findWayBySound-3/cs-new-03-26.svg");
-}
-
-.find-way-27 {
-  background-image: url("../img/gakvetilebi/Music-Class/findWayBySound-3/cs-new-03-27.svg");
 .music-new-2-div-9-img {
   height: 48.82vh;
 }
@@ -47934,11 +47913,26 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   color: #947DCE;
 }
 
-.cs-6-25-15-img {
-  height: 59.89vh;
-  position: absolute;
-  bottom: 0;
-  right: 10.6vw;
+.find-way {
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.find-way-24 {
+  background-image: url("../img/gakvetilebi/Music-Class/findWayBySound-3/cs-new-03-24.svg");
+}
+
+.find-way-25 {
+  background-image: url("../img/gakvetilebi/Music-Class/findWayBySound-3/cs-new-03-25.svg");
+}
+
+.find-way-26 {
+  background-image: url("../img/gakvetilebi/Music-Class/findWayBySound-3/cs-new-03-26.svg");
+}
+
+.find-way-27 {
+  background-image: url("../img/gakvetilebi/Music-Class/findWayBySound-3/cs-new-03-27.svg");
 }
 
 .background-cs-title {
@@ -47959,35 +47953,6 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .find-way img {
-  height: 100%;
-}
-
-.cs-6-25-15-img {
-  height: 59.89vh;
-  position: absolute;
-  bottom: 0;
-  right: 10.6vw;
-}
-
-.cs-6-25-16-img {
-  height: 50.13vh;
-}
-
-.cs-6-25-17-img {
-  height: 46.87vh;
-  position: absolute;
-  bottom: 9.89vh;
-  right: 3vw;
-}
-
-.cs-6-25-18-img {
-  height: 32.29vh;
-  position: absolute;
-  bottom: 14.86vw;
-  right: 5.72vh;
-}
-
-.cs-6-25 img {
   height: 100%;
 }
 
