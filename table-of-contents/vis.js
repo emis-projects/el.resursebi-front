@@ -5,24 +5,24 @@ let jsonObject = null,
     obj = [];
     stepIndexes = []
 
-    
+
   getTypeAndWidth = (number) => {
     if(number == 1){
       group = "step"
       width = 2
-  
+
     } else if(number == 2) {
       group = "exercise"
       width = 12
-  
+
     } else if(number == 3) {
       group = "hint"
       width = 7
-  
+
     } else if(number == 4) {
       group = "mid"
       width = 10
-  
+
     } else if(number == 5) {
       group = "complexExercise"
       width = 4
@@ -36,64 +36,59 @@ let jsonObject = null,
 
 
   document.addEventListener('DOMContentLoaded', async () => {
-     
+
     const json = await $.getJSON("data.json");
 
     jsonObject = json;
 
-    var modifierObject = json.pages.filter(w => w.type !== null).map(w => {
+
+    // ამ ფილტრით ხდება null ების და ignore ების ამოშლა
+    var modifierObject = json.pages.filter(w => w.type !== null  && !w.ignore).map(w => {
       getTypeAndWidth(w.type)
 
-      return {...w, id: w.number, width: width, group}
+      return {...w, id: w.number, url: w.number, width: width, group}
     })
 
-
- 
     var Stepindex = 0;
     var complexIndex = 0;
-    
-    
-    // აქ ვფილტრავ იმ ნაბიჯებს და კომპლექსურებს რომლებიც უნდა ჩანდეს სარჩევში.
-    modifierObject.map((w, i, e) => {
-      if(w.type === 1){
-        stepIndexes.push(w.id)
 
-        if(w.type == 1 && Stepindex == 0) {
-          obj.push(w)
-          Stepindex++
-
-        } else {
-          Stepindex = 0;
-        }
-
-      } else if(w.type === 5) {
+    // ამ ფილტრით ვშლი იმ ნაბიჯებს და კომპლექსურებს რომლებიც არაა საჭირო
+    // ანუ თუ კომპლექსურს მოსდევს ისევ კომპლექსური, მეორე კომპლექსური ამოიშლება.
+    // ასევე ნაბიჯზეც იგივე მოხდება.
+    let secondFilteredData = modifierObject.filter((w, i, e) => {
+      if(w.type === 5){
         if(w.type == 5 && complexIndex == 0) {
-          obj.push(w)
           complexIndex++
+          return true
 
         } else {
-          complexIndex = 0;
+          return false
+        }
+      } else if(w.type === 1){
+        if(w.type == 1 && Stepindex == 0) {
+          Stepindex++
+          return true
+
+        } else {
+          return false
         }
 
       } else {
-        complexIndex = 0;
         Stepindex = 0;
-        return false
+        complexIndex = 0;
+        return true
       }
-
-
     })
 
-
+    
     // პირველი კომპლექსურის group ის შეცვლა
-    obj[0].group = "complexExercise2";
+    secondFilteredData[0].group = "complexExercise2";
 
+    obj = secondFilteredData;
 
-
-    console.log(stepIndexes);
-    console.log(modifierObject)
-
-    nodesData = [...obj]
+    console.log(secondFilteredData)
+    
+    nodesData = [...secondFilteredData]
   })
 
 
@@ -105,7 +100,7 @@ Vue.component('appVis', {
      </div>
         `,
         mounted() {
-            // mounted ეშვება ყოველ ჯერზე როდესაც ვუ.ჯს არენდერებს (ქმნის) ვირტუალურ DOM ამიტომ 
+            // mounted ეშვება ყოველ ჯერზე როდესაც ვუ.ჯს არენდერებს (ქმნის) ვირტუალურ DOM ამიტომ
             // როდესაც მომხმარებელი დააკლიკებს მენიუს გამოჩენა/დამალვაზე ვის.ჯს ხელახლა უნდა გამოვიძახოთ აქ
             init()
         }
@@ -124,25 +119,42 @@ var vm = new Vue({
         }
     }
   })
-    
+
   // აქ იხატება ყველაფერი. დოკუმენტაცია: https://visjs.github.io/vis-network/docs/network/ -->
 
   // ვის.ჯს რომ ჩავტვირთოთ ვუში როცა კომპონენტს დავარენდერებთ(ხილულს გავხდით).
   // რადგანაც ვის.ჯს ყოველ ჯერზე თავიდან უნდა გაეშვას ამიტომ მთლიანი ვის.ჯს თავისი კოდით გლობ. ფუნქციად უნდა გავიტანოთ
 
   function init(){
-    let stickObj = []
+    let activeNodeID;
+    let array = [];
+    let index = 0;
 
-    // ძრითადი სტეპების გადაბმა
-    obj.map((w,i,e) => {
-      if((i + 1) < obj.length){
-        var next = e[i + 1];
+
+    // გადაბმები
+    obj.map((w, i, e) => {
+      if(w.type == 5){
+        index++;
+
+        if(index > 1){
+          array.push({ from: activeNodeID, to: w.id })
+        }
+
+        activeNodeID = w.id;
+
+        
+      } else if(w.type == 1) {
+        array.push({ from: activeNodeID, to: w.id })
+        activeNodeID = w.id;
+
+      } else {
 
         let object = {
-          from: w.id,
-          to: next.id
+          from: activeNodeID,
+          to: w.id
         }
-        stickObj.push(object)
+
+        array.push(object)
       }
     })
 
@@ -150,7 +162,7 @@ var vm = new Vue({
 
 
     // create an array with edges
-    var edges = new vis.DataSet(stickObj);
+    var edges = new vis.DataSet(array);
 
 
     // create a network
@@ -242,9 +254,32 @@ var vm = new Vue({
     network.on('select', function (properties) {
 
       var SelectedNodeID = network.getSelection().nodes[0];
+      
       var thisNodeUrl = nodes.get(SelectedNodeID).url;
-
-      console.log(thisNodeUrl);
-
+      
+      window.location.replace(`${thisNodeUrl}.html`)
     });
   }
+
+
+
+
+
+// edge-ების მასივის დაგენერირება:
+// edge-ების ობიექტად გვჭირდება 2 პარამეტრი: from და to.
+
+// var activeNodeID  = ინახება უკანასკნელი კომპლექსურის ან ნაბიჯის აიდი
+
+// თუ ნოუდების მასივში პირველი გვერდი არის არც კომპლექსური და არც ნაბიჯი, ასეთი გვერდი / გვერდები წავშალოთ.
+
+// var activeNodeID = ნოუდების მასივიდან ვიღებთ პირველი კომპლექსური ან ნაბიჯი ნოუდის აიდის.
+
+// var activeNodeID = 1; // პირველ ჯერზე ეს იქნება პირველი კომპლექსური დავალების აიდი
+
+// ციკლს ნოუდების მასივზე. - ვიწყებთ მეორე ნოუდიდან
+
+
+// edge-ების მასივში ვამატებთ ახალ ჩანაწერს - from: activeNodeID, to: 3 (ციკლის ამ ნაბიჯზე შემოსული ნოუდის აიდი)
+
+
+// if: ვამოწმებთ, ციკლში შემოსული ნოუდი თუ არის ან კომპლექსური და ან ნაბიჯი, მაშინ activeNodeID = შემოსული ნოუდის აიდი.

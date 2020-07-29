@@ -1,6 +1,6 @@
 .music-new-2-div {
     &-9-img {
-        height:48.82vh;
+        height:43.48vh;
     }
     &-10-img {
         height:30.98vh;
@@ -8,11 +8,15 @@
     &-11-img {
         height:22.52vh;   
     }
+    &-11-img-reverse{
+        transform: scaleX(-1);    
+    }
     &-12-img {
         height:60vh;
     }
     &-13-img {
         height:8.85vh;
+        justify-content: space-evenly;
     }
     &-14-img {
         img{
@@ -25,13 +29,13 @@
         }
     }
     &-15-img {
-        height:52.08vh;
+        height:38.41vh;
     }
     &-16-img {
-        height:52.08vh;
+        height:75.13vh;
     }
-    &-19-img {
-        height:52.08vh;
+    &-17-img {
+        height:39.97vh;
     }
     img {
         height: 100%;

@@ -1,0 +1,69 @@
+.music-new-3-div {
+    &-3-img {
+        height:53.9vh;
+    }
+    &-4-img {
+        height:57.81vh;
+        position: absolute;
+        bottom:0;
+        right:0;
+    }
+    &-7-img {
+        height:42.83vh;       
+    }
+    &-8-img {
+        height:65.1vh;
+        position: absolute;
+        bottom:0;
+        right:0;
+    }
+    &-9-img {
+        height:55.2vh;
+    }
+    img {
+        height: 100%;
+    }
+}
+
+.music-new-3-1-background{
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../img/gakvetilebi/Music-class/findWayBySound-3/music-new-03-01.png");
+}
+.music-new-3-1-text-col{
+    position:absolute;
+    bottom:12vh;
+} 
+.music-new-3-div-5{
+    .music-new-3-div-5-img-container{   
+        height:38.05vh;
+        }
+    flex-direction:column;
+    &-img-1{
+        height:29.16vh;
+        align-self:flex-end;
+    }
+    &-img-2{
+        height:19.14vh;
+        align-self:flex-end;
+    }
+    &-img-3{
+        height:29.55vh;
+        align-self:flex-end;
+    } 
+     .music-new-1-div-5-img-circle{
+        width:4.68vh;
+        height:4.68vh;
+        margin-left: auto;
+        margin-right: auto;
+     }  
+}
+
+.music-new-3-div-6-img-container{
+    height:28.05vh;
+       align-self:flex-end;  
+}
+.music-new-3-div-6{
+    flex-direction:column; 
+}
