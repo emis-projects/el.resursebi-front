@@ -46,7 +46,7 @@ let jsonObject = null,
     var modifierObject = json.pages.filter(w => w.type !== null  && !w.ignore).map(w => {
       getTypeAndWidth(w.type)
 
-      return {...w, id: w.number, width: width, group}
+      return {...w, id: w.number, url: w.number, width: width, group}
     })
 
     var Stepindex = 0;
@@ -254,10 +254,10 @@ var vm = new Vue({
     network.on('select', function (properties) {
 
       var SelectedNodeID = network.getSelection().nodes[0];
+      
       var thisNodeUrl = nodes.get(SelectedNodeID).url;
-
-      console.log("url: " + thisNodeUrl);
-
+      
+      window.location.replace(`${thisNodeUrl}.html`)
     });
   }
 
