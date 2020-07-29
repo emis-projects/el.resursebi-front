@@ -1,27 +1,18 @@
-.cs-6-25{
-    &-15-img{
-        height: 59.89vh;
-        position:absolute;
+.find-way{
+    &-9-1{
+        height: 55.98;
+        max-height:430px;
+    }
+    &-5-1-1{
+        height:68.35vh;
+        max-height:525px;
+        position:fixed;
         bottom:0;
-        right:10.6vw;
+        left:16vh;
     }
-    &-16-img{
-        height:50.13vh;
-    }
-    &-17-img{
-        height:46.87vh;
-        position:absolute;
-        bottom:9.89vh;
-        right:3vw;
-    }
-    &-18-img{
-        height: 32.29vh;
-        position:absolute;
-        bottom:14.86vw;
-        right:5.72vh;
- }
- 
+
 img{
     height:100%;
     }
 }
+

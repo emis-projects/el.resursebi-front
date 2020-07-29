@@ -2,8 +2,18 @@
     &-5-1{
         height:54.16vh;
         max-height:416px;
+    &-10-1{
+        height:52.47vh;
+        max-height:403px;
+    }
     img{
         height:100%;
     }
     }
+}
+
+.icon{
+    display: inline-block;
+    height: 3.2vh;
+    vertical-align: bottom;
 }

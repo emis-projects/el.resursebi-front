@@ -21,15 +21,19 @@
         },
         {
             "number": "3-1",
-            "hintNumber": 3,
             "url": "3-1",
             "type": 3
         },
         {
             "number": "3-2",
-            "hintNumber": 3,
             "url": "3-2",
             "type": 3
+        },
+        {
+            "number": "3-3",
+            "url": "3-3",
+            "type": 3,
+            "ignore": true
         },
         {
             "number": 4,
