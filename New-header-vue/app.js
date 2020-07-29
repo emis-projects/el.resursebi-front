@@ -707,33 +707,48 @@ let title = {
     music: [
         {
             id: 1,
-            name: 'ხმები',
-            link: 'Music-Lessons/Voices/M-1366-9.html'
+            name: 'ქალაქისა და სოფლის ხმები',
+            link: 'Music-Class/voices-1/1.html'
         },
         {
             id: 2,
-            name: 'მუსიკალური კომპოზიცია',
-            link: 'Music-Lessons/Voices/M-1366-17.html'
+            name: 'ქალაქის ხმები',
+            link: 'Music-Class/city-voices-2/1.html'
         },
         {
             id: 3,
-            name: 'გასეირნება ქალაქში',
-            link: 'Music-Lessons/Walk-in-the-city-1/M-1366-03-1.html'
+            name: 'გავიგნოთ გზა ხმებით',
+            link: 'Music-Class/findWayBySound-3/1.html'
         },
         {
             id: 4,
-            name: 'მუსიკალური ქალაქი',
-            link: 'Music-Lessons/musical_city/M-1366-04-1.html'
+            name: 'ვსეირნობთ მუსიკალურ ქალაქში',
+            link: 'Music-Class/Walk-in-the-city-4/1.html'
         },
         {
             id: 5,
-            name: 'ჩემი ცხოვრების ერთი დღე',
-            link: 'Music-Lessons/Day-of-my-life/M-1366-05-1.html'
+            name: 'სათაური',
+            link: ''
         },
         {
             id: 6,
-            name: 'საინტერესოდ გატარებული დღე',
-            link: 'Music-Lessons/interesting-day/M-1366-06-1.html'
+            name: 'შევქმნათ ხმაურისგან მუსიკა',
+            link: 'Music-Class/Create-music-from-noise-6/1.html'
+        },
+        {
+            id: 7,
+            name: 'შევქმნათ გადაცემის ქუდი',
+            link: 'Music-Class/Create-broadcast-hat-7/1.html'
+        },
+        {
+            id: 8,
+            name: 'შევქმნათ გადაცემის აუდიო ანონსი',
+            link: 'Music-Class/Create-broadcast-audio-8/1.html'
+        },
+        {
+            id: 9,
+            name: 'სათაური',
+            link: ''
         }
 
         // თუ დაემათება გაკვეთილები მუსიკას ყველა გავააქტიუროთ, link: '
