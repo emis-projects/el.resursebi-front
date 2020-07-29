@@ -179,7 +179,7 @@ var vm = new Vue({
       },
       edges: { // ფროფერთიები აქ: https://visjs.github.io/vis-network/docs/network/edges.html
         color: '#fff',
-        width: 10,
+        width: 7,
         shadow: {
           enabled: true,
           color: 'rgba(127,209,216,0.4)'
