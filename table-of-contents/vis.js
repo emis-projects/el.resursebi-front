@@ -9,27 +9,19 @@ let jsonObject = null,
   getTypeAndWidth = (number) => {
     if(number == 1){
       group = "step"
-      width = 2
 
     } else if(number == 2) {
       group = "exercise"
-      width = 12
 
     } else if(number == 3) {
       group = "hint"
-      width = 7
 
     } else if(number == 4) {
       group = "mid"
-      width = 10
 
     } else if(number == 5) {
       group = "complexExercise"
-      width = 4
 
-    } else if(number == 6) {
-      group = "complexExercise2"
-      width = 4
     }
   }
 
@@ -80,14 +72,14 @@ let jsonObject = null,
       }
     })
 
-    
+
     // პირველი კომპლექსურის group ის შეცვლა
     secondFilteredData[0].group = "complexExercise2";
 
     obj = secondFilteredData;
 
     console.log(secondFilteredData)
-    
+
     nodesData = [...secondFilteredData]
   })
 
@@ -142,7 +134,7 @@ var vm = new Vue({
 
         activeNodeID = w.id;
 
-        
+
       } else if(w.type == 1) {
         array.push({ from: activeNodeID, to: w.id })
         activeNodeID = w.id;
@@ -187,7 +179,7 @@ var vm = new Vue({
       },
       edges: { // ფროფერთიები აქ: https://visjs.github.io/vis-network/docs/network/edges.html
         color: '#fff',
-        width: 16,
+        width: 7,
         shadow: {
           enabled: true,
           color: 'rgba(127,209,216,0.4)'
@@ -216,7 +208,7 @@ var vm = new Vue({
             unselected: 'images/exercise.png',
             selected: 'images/exerciseActive.png'
           },
-          size: 25
+          size: 35
         },
         hint: { // მინიშნება
           shape: 'image',
@@ -224,7 +216,7 @@ var vm = new Vue({
             unselected: 'images/hint.png',
             selected: 'images/hintActive.png'
           },
-          size: 25
+          size: 35
         },
         mid: {  // შუალედური
           shape: 'image',
@@ -232,7 +224,7 @@ var vm = new Vue({
             unselected: 'images/mid.png',
             selected: 'images/midActive.png'
           },
-          size: 25
+          size: 35
         },
         step: {  // ნაბიჯი
           shape: 'image',
@@ -254,9 +246,9 @@ var vm = new Vue({
     network.on('select', function (properties) {
 
       var SelectedNodeID = network.getSelection().nodes[0];
-      
+
       var thisNodeUrl = nodes.get(SelectedNodeID).url;
-      
+
       window.location.replace(`${thisNodeUrl}.html`)
     });
   }
