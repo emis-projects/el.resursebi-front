@@ -43,6 +43,7 @@ let jsonObject = null,
 
     var Stepindex = 0;
     var complexIndex = 0;
+    var stepLabelValue = 0;
 
     // ამ ფილტრით ვშლი იმ ნაბიჯებს და კომპლექსურებს რომლებიც არაა საჭირო
     // ანუ თუ კომპლექსურს მოსდევს ისევ კომპლექსური, მეორე კომპლექსური ამოიშლება.
@@ -59,6 +60,8 @@ let jsonObject = null,
       } else if(w.type === 1){
         if(w.type == 1 && Stepindex == 0) {
           Stepindex++
+          stepLabelValue++
+          w.label = `${stepLabelValue}`;
           return true
 
         } else {
@@ -124,6 +127,7 @@ let jsonObject = null,
         array.push(object)
       }
     })
+
 
     var nodes = new vis.DataSet(nodesData);
 
@@ -208,7 +212,6 @@ let jsonObject = null,
             selected: 'images/stepActive.png'
           },
           size: 50, 
-          label: '1',
           font: '40px ALKSanet #dc6c85'
         }
       }
