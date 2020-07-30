@@ -230,9 +230,9 @@ let jsonObject = null,
 
       var SelectedNodeID = network.getSelection().nodes[0];
 
-      // var thisNodeUrl = nodes.get(SelectedNodeID).url;
+      var thisNodeUrl = nodes.get(SelectedNodeID).url;
 
-      // window.location.replace(`${thisNodeUrl}.html`)
+      window.location.replace(`${thisNodeUrl}.html`)
     });
   }
 
