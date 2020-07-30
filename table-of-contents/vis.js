@@ -212,12 +212,15 @@ let jsonObject = null,
             selected: 'images/stepActive.png'
           },
           size: 50, 
-          font: '40px ALKSanet #dc6c85'
+          font: {
+            color: '#dc6c85',
+            size: 50, // px
+            face: 'ALKSanet',
+          }
         }
       }
 
     };
-
 
     // initialize your network!
     var network = new vis.Network(container, data, options);
@@ -227,9 +230,9 @@ let jsonObject = null,
 
       var SelectedNodeID = network.getSelection().nodes[0];
 
-      var thisNodeUrl = nodes.get(SelectedNodeID).url;
+      // var thisNodeUrl = nodes.get(SelectedNodeID).url;
 
-      window.location.replace(`${thisNodeUrl}.html`)
+      // window.location.replace(`${thisNodeUrl}.html`)
     });
   }
 
