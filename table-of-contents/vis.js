@@ -232,7 +232,9 @@ var vm = new Vue({
             unselected: 'images/step.png',
             selected: 'images/stepActive.png'
           },
-          size: 50
+          size: 50, 
+          label: '1',
+          font: '40px ALKSanet #dc6c85'
         }
       }
 
