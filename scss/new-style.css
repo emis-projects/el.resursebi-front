@@ -48786,32 +48786,36 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   max-height: 303px;
 }
 
-.music-new-1-div-3-img {
-  height: 48.82vh;
+.music-new-8-div-3-img {
+  height: 63.67vh;
 }
 
-.music-new-1-div-4-img {
+.music-new-8-div-4-img {
   height: 49.6vh;
 }
 
-.music-new-1-div-7-img {
-  height: 35.15vh;
-}
-
-.music-new-1-div-8-img {
-  height: 60vh;
-}
-
-.music-new-1-div-9-img {
-  height: 40.7vh;
-}
-
-.music-new-1-div-10-img {
-  height: 52.08vh;
-}
-
-.music-new-1-div img {
+.music-new-8-div img {
   height: 100%;
+}
+
+.music-new-8-div-1 {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  bottom: 0;
+}
+
+.music-new-8-div-1-1-img {
+  height: 82.81vh;
+}
+
+.music-new-8-div-1 h1 {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  bottom: 15vh;
 }
 
 .music-new-8-div-5-img {
