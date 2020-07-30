@@ -214,7 +214,7 @@ let jsonObject = null,
           size: 50, 
           font: {
             color: '#dc6c85',
-            size: 50, // px
+            size: 40, // px
             face: 'ALKSanet',
           }
         }
