@@ -2011,8 +2011,9 @@ body {
   height: 100%;
 }
 
-.app-links {
-  background-color: green;
+.app-links #mynetwork {
+  height: 100%;
+  width: 100%;
 }
 
 .app-sections {

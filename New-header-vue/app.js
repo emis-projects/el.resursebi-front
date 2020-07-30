@@ -141,8 +141,7 @@ Vue.component('appSection', {
             required: true
         },
         isInfo: {
-            type: Boolean,
-            required: true
+            type: Boolean
         }
     },
     template: `
@@ -562,7 +561,9 @@ Vue.component('appLinks', {
             required: true
         }
     },
-
+    mounted() {
+        init()
+    },
     template: `
         <transition
             enter-active-class="animated slideInUp"
@@ -570,7 +571,9 @@ Vue.component('appLinks', {
             :duration="1000"
             mode="out-in"
             appear>
-            <div v-if="isActive" :class="'app-links'" class="page-section"></div>
+            <div v-if="isActive" :class="'app-links'" class="page-section">
+                <div id="mynetwork" ref="vis"></div>
+            </div>
         </transition>
         `
 });
@@ -614,7 +617,7 @@ var app = new Vue({
             id: 0,
             disable: false,
             classActive: true
-        },
+            },
             {
                 name: 'select',
                 id: 1,
@@ -1299,3 +1302,8 @@ let title = {
         }
     ]
 }
+
+
+
+
+

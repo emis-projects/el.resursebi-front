@@ -164,48 +164,48 @@ let jsonObject = null,
         complexExercise: { // კომპლექსური დავალება
           shape: 'image',
           image: {
-            unselected: 'images/complexExercise.png',
-            selected: 'images/complexExerciseActive.png'
+            unselected: 'http://127.0.0.1:5500/New-header-vue/images/complexExercise.png',
+            selected: 'http://127.0.0.1:5500/New-header-vue/images/complexExerciseActive.png'
           },
           size: 50
         },
         complexExercise2: { // კომპლექსური დავალება
           shape: 'image',
           image: {
-            unselected: 'images/complexExercise2.png',
-            selected: 'images/complexExercise2Active.png'
+            unselected: 'http://127.0.0.1:5500/New-header-vue/images/complexExercise2.png',
+            selected: 'http://127.0.0.1:5500/New-header-vue/images/complexExercise2Active.png'
           },
           size: 50
         },
         exercise: {  // სავარჯიშო
           shape: 'image',
           image: {
-            unselected: 'images/exercise.png',
-            selected: 'images/exerciseActive.png'
+            unselected: 'http://127.0.0.1:5500/New-header-vue/images/exercise.png',
+            selected: 'http://127.0.0.1:5500/New-header-vue/images/exerciseActive.png'
           },
           size: 35
         },
         hint: { // მინიშნება
           shape: 'image',
           image: {
-            unselected: 'images/hint.png',
-            selected: 'images/hintActive.png'
+            unselected: 'http://127.0.0.1:5500/New-header-vue/images/hint.png',
+            selected: 'http://127.0.0.1:5500/New-header-vue/images/hintActive.png'
           },
           size: 35
         },
         mid: {  // შუალედური
           shape: 'image',
           image: {
-            unselected: 'images/mid.png',
-            selected: 'images/midActive.png'
+            unselected: 'http://127.0.0.1:5500/New-header-vue/images/mid.png',
+            selected: 'http://127.0.0.1:5500/New-header-vue/images/midActive.png'
           },
           size: 35
         },
         step: {  // ნაბიჯი
           shape: 'image',
           image: {
-            unselected: 'images/step.png',
-            selected: 'images/stepActive.png'
+            unselected: 'http://127.0.0.1:5500/New-header-vue/images/step.png',
+            selected: 'http://127.0.0.1:5500/New-header-vue/images/stepActive.png'
           },
           size: 50
         }
