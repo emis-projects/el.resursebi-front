@@ -43,6 +43,7 @@ let jsonObject = null,
 
     var Stepindex = 0;
     var complexIndex = 0;
+    var stepLabelValue = 0;
 
     // ამ ფილტრით ვშლი იმ ნაბიჯებს და კომპლექსურებს რომლებიც არაა საჭირო
     // ანუ თუ კომპლექსურს მოსდევს ისევ კომპლექსური, მეორე კომპლექსური ამოიშლება.
@@ -59,6 +60,35 @@ let jsonObject = null,
       } else if(w.type === 1){
         if(w.type == 1 && Stepindex == 0) {
           Stepindex++
+          stepLabelValue++
+          if(stepLabelValue==1){
+            w.image = `${unselected='images/step1.svg', selected='images/stepActive1.svg'}`
+          }
+          else if(stepLabelValue==2){
+            w.image = `${unselected='images/step2.svg', selected='images/stepActive2.svg'}`
+          }
+          else if(stepLabelValue==3){
+            w.image = `${unselected='images/step3.svg', selected='images/stepActive3.svg'}`
+          }
+          else if(stepLabelValue==4){
+            w.image = `${unselected='images/step4.svg', selected='images/stepActive4.svg'}`
+          }
+          else if(stepLabelValue==5){
+            w.image = `${unselected='images/step5.svg', selected='images/stepActive5.svg'}`
+          }
+          else if(stepLabelValue==6){
+            w.image = `${unselected='images/step6.svg', selected='images/stepActive6.svg'}`
+          }
+          else if(stepLabelValue==7){
+            w.image = `${unselected='images/step7.svg', selected='images/stepActive7.svg'}`
+          }
+          else if(stepLabelValue==8){
+            w.image = `${unselected='images/step8.svg', selected='images/stepActive8.svg'}`
+          }
+          else if(stepLabelValue==9){
+            w.image = `${unselected='images/step9.svg', selected='images/stepActive9.svg'}`
+          }
+          // w.label = `${stepLabelValue}`;
           return true
 
         } else {
@@ -124,6 +154,7 @@ let jsonObject = null,
         array.push(object)
       }
     })
+
 
     var nodes = new vis.DataSet(nodesData);
 
@@ -208,13 +239,15 @@ let jsonObject = null,
             selected: 'images/stepActive.png'
           },
           size: 50, 
-          label: '1',
-          font: '40px ALKSanet #dc6c85'
+          font: {
+            color: '#dc6c85',
+            size: 40, // px
+            face: 'ALKSanet',
+          }
         }
       }
 
     };
-
 
     // initialize your network!
     var network = new vis.Network(container, data, options);

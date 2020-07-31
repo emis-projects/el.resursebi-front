@@ -1,21 +1,12 @@
-.music-new-1-div {
+.music-new-6-div {
     &-3-img {
-        height:48.82vh;
+        height:50vh;
     }
-    &-4-img {
-        height:49.6vh;
-    }
-    &-7-img {
-        height:35.15vh;       
-    }
-    &-8-img {
-        height:60vh;
-    }
-    &-9-img {
-        height:40.7vh;
-    }
-    &-10-img {
-        height:52.08vh;
+    &-4-img{
+        height:51.04vh;
+        position: absolute;
+        bottom:0;
+        right:0;
     }
     img {
         height: 100%;
