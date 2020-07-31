@@ -61,7 +61,34 @@ let jsonObject = null,
         if(w.type == 1 && Stepindex == 0) {
           Stepindex++
           stepLabelValue++
-          w.label = `${stepLabelValue}`;
+          if(stepLabelValue==1){
+            w.image = `${unselected='images/step1.svg', selected='images/stepActive1.svg'}`
+          }
+          else if(stepLabelValue==2){
+            w.image = `${unselected='images/step2.svg', selected='images/stepActive2.svg'}`
+          }
+          else if(stepLabelValue==3){
+            w.image = `${unselected='images/step3.svg', selected='images/stepActive3.svg'}`
+          }
+          else if(stepLabelValue==4){
+            w.image = `${unselected='images/step4.svg', selected='images/stepActive4.svg'}`
+          }
+          else if(stepLabelValue==5){
+            w.image = `${unselected='images/step5.svg', selected='images/stepActive5.svg'}`
+          }
+          else if(stepLabelValue==6){
+            w.image = `${unselected='images/step6.svg', selected='images/stepActive6.svg'}`
+          }
+          else if(stepLabelValue==7){
+            w.image = `${unselected='images/step7.svg', selected='images/stepActive7.svg'}`
+          }
+          else if(stepLabelValue==8){
+            w.image = `${unselected='images/step8.svg', selected='images/stepActive8.svg'}`
+          }
+          else if(stepLabelValue==9){
+            w.image = `${unselected='images/step9.svg', selected='images/stepActive9.svg'}`
+          }
+          // w.label = `${stepLabelValue}`;
           return true
 
         } else {
