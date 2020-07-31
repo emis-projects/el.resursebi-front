@@ -1,25 +1,31 @@
-.music-new-1-div {
+.music-new-8-div {
+    
     &-3-img {
-        height:48.82vh;
+        height:63.67vh;
     }
     &-4-img {
         height:49.6vh;
     }
-    &-7-img {
-        height:35.15vh;       
-    }
-    &-8-img {
-        height:60vh;
-    }
-    &-9-img {
-        height:40.7vh;
-    }
-    &-10-img {
-        height:52.08vh;
-    }
+
     img {
         height: 100%;
     }
+}
+
+.music-new-8-div-1{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    bottom:0;
+ &-1-img {
+        height:82.81vh;
+    }
+    h1{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 0);
+        bottom: 15vh;
+    }   
 }
 .music-new-8-div-5-img{
     flex-direction:column; 
