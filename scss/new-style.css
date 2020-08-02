@@ -49170,6 +49170,67 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   font-size: 3.64vh;
 }
 
+.game-music-9 img {
+  height: 100%;
+}
+
+.game-music-9-1 {
+  height: 57.03;
+  max-height: 438px;
+}
+
+.game-music-9-3 {
+  height: 56.64vh;
+  max-height: 435px;
+}
+
+.game-music-9-4 {
+  height: 44.79vh;
+  max-height: 344px;
+}
+
+.class_music_9-bg_11 {
+  background-image: url("../img/gakvetilebi/Music-class/Game-music-9/music-9-bg-illustrations-11.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.class_music_9-bg_12 {
+  background-image: url("../img/gakvetilebi/Music-class/Game-music-9/music-9-bg-illustrations-12.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.class_music_9-bg_13 {
+  background-image: url("../img/gakvetilebi/Music-class/Game-music-9/music-9-bg-illustrations-13.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.class_music_9-bg_14 {
+  background-image: url("../img/gakvetilebi/Music-class/Game-music-9/music-9-bg-illustrations-14.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.background-music-title-black-cont {
+  padding-top: 10vh;
+}
+
+.background-music-title-black {
+  color: #243E41;
+  font-family: 'DejaVu Sans Oblique';
+  font-size: 3.64vh;
+}
+
 body {
   color: #262626;
   font-size: 14px;
