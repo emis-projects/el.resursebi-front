@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html data-botid="2292" lang="ka">
+<html data-botid="2288" lang="ka">
 
 <head>
     <meta charset="UTF-8" />
     <meta content="ie=edge" http-equiv="X-UA-Compatible" />
     <!-- ყველა გვერდზე -->
     <script src="../../../js/vue.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
     <!--  ვუე გაშვებისას
     <script src="./js/vue.min.js"></script>
      -->
@@ -46,65 +47,52 @@
             </app-section>
         </section>
         <section id="mainPage">
-            <div class="row">
-                <div class="col-0 m-auto">
-                    <div class="newDesign_subject_question_item">
+            <div class="row mt-4vh">
+                <div class="col-10 m-auto">
+                    <div class="newDesign_subject_question_item mb-8vh">
                         <img alt="img" class="newDesign_subject_question_item-img" src="../../../img/icons/newDesign_btn-yellow.svg">
                         <p class="newDesign_subject_question_item-title">
-                            ავაწყოთ მუსიკალური ფრაზა.
-                        </p>
-                    </div>
-                    <div class="newDesign_subject_question_item">
-                        <img alt="img" class="newDesign_subject_question_item-img" src="../../../img/icons/newDesign_btn-yellow.svg">
-                        <p class="newDesign_subject_question_item-title">
-                            უჯრედში მოტივი ნოტებითაა ჩაწერილი.
-                        </p>
-                    </div>
-                    <div class="newDesign_subject_question_item mb-6vh">
-                        <img alt="img" class="newDesign_subject_question_item-img" src="../../../img/icons/newDesign_btn-yellow.svg">
-                        <p class="newDesign_subject_question_item-title">
-                            მოისმინე, შეადარე ნოტებით მოცემულ ჩანაწერს და ჩასვი სათანადო ღილაკი, <br> გაითვალისწინე, ერთი ღილაკი ზედმეტია.
+                            ახლა კი ფრაზებს კადრები შეუსაბამე. კადრების ქვემოთ მოთავსებულ ერთ-ერთ უჯრედში ჩასვი სათანადო ღილაკი.
                         </p>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-11 m-auto class_music_7-img_9 d-flex justify-content-between">
-                    <img src="../../img/gakvetilebi/Music-class/Create-broadcast-hat-7/music-7-10-1.svg" alt="image">
-                    <img src="../../img/gakvetilebi/Music-class/Create-broadcast-hat-7/music-7-10-2.svg" alt="image">
-                    <img src="../../img/gakvetilebi/Music-class/Create-broadcast-hat-7/music-7-10-3.svg" alt="image">
-                </div>
-                <div class="col-10 m-auto d-flex justify-content-between pt-2vh">
-                    <div class="class_music_7-img_10_circle_blue ml-4vh">
+                <div class="col-10 m-auto d-flex justify-content-between">
+                    <div class="class_music_8-img_12">
+                        <img src="../../img/gakvetilebi/Music-class/Create-broadcast-audio-8/music-8-12-1.png" alt="image">
+                        <div class="class_music_8-img_11_cont mt-3vh m-auto"></div>
                     </div>
-                    <div class="class_music_7-img_10_circle_blue">
+                    <div class="class_music_8-img_12">
+                        <img src="../../img/gakvetilebi/Music-class/Create-broadcast-audio-8/music-8-12-1.png" alt="image">
+                        <div class="class_music_8-img_11_cont mt-3vh m-auto"></div>
                     </div>
-                    <div class="class_music_7-img_10_circle_blue mr-4vh">
-                    </div>
-                </div>
-                <div class="col-6 mt-6vh d-flex justify-content-around ml-4vh">
-                    <div class="class_music_7-img_circle_9">
-                        <img src="../../img/gakvetilebi/Music-class/Create-broadcast-hat-7/music-7-9-green-circle.svg" alt="image">
-                    </div>
-                    <div class="class_music_7-img_circle_9">
-                        <img src="../../img/gakvetilebi/Music-class/Create-broadcast-hat-7/music-7-9-red-circle.svg" alt="image">
-                    </div>
-                    <div class="class_music_7-img_circle_9">
-                        <img src="../../img/gakvetilebi/Music-class/Create-broadcast-hat-7/music-7-9-blue-circle.svg" alt="image">
-                    </div>
-                    <div class="class_music_7-img_circle_9">
-                        <img src="../../img/gakvetilebi/Music-class/Create-broadcast-hat-7/music-7-9-blue-circle.svg" alt="image">
+                    <div class="class_music_8-img_12">
+                        <img src="../../img/gakvetilebi/Music-class/Create-broadcast-audio-8/music-8-12-1.png" alt="image">
+                        <div class="class_music_8-img_11_cont mt-3vh m-auto"></div>
                     </div>
                 </div>
             </div>
-            <div class="col-3 flex flex-end column align-items-end z-index reload_game_wrapper">
-                <div class="d-flex flex-column">
-                    <button class="reset__btn" id="resetBtn">თავიდან სცადე</button>
-                    <button class="completed__btn" id="completedGame">დასრულება</button>
+            <div class="row">
+                <div class="col-5 m-auto d-flex justify-content-around pt-7vh">
+                    <div class="class_music_8-img_13">
+                        <img src="../../img/gakvetilebi/Music-class/Create-broadcast-audio-8/music-8-11-circle.svg" alt="image">
+                    </div>
+                    <div class="class_music_8-img_13">
+                        <img src="../../img/gakvetilebi/Music-class/Create-broadcast-audio-8/music-8-11-circle.svg" alt="image">
+                    </div>
+                    <div class="class_music_8-img_13">
+                        <img src="../../img/gakvetilebi/Music-class/Create-broadcast-audio-8/music-8-11-circle.svg" alt="image">
+                    </div>
                 </div>
             </div>
+            <div  class="flex flex-column z-index reload_game_wrapper">
+                <button id="resetBtn" class="reset__btn">თავიდან სცადე</button>
+                <button id="completedGame" class="completed__btn">დასრულება</button>
+            </div>
+
             <div class="left_components_paging-cont" id="leftNav">
-                <left-nav-item></left-nav-item>
+                <left-nav-item></left   -nav-item>
             </div>
 
             <div class="our__pagination flex">
@@ -134,7 +122,9 @@
 
 
     <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
-    <script src="../../../New-header-vue/app.js"></script>
+    <script src="../../../New-header-vue/vis.js"></script>
+<!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
+<script src="../../../New-header-vue/app.js"></script>
     <script src="../../../Vue-chatBot/botApp.js"></script>
     <script src="../../../js/bot.js"></script>
 
