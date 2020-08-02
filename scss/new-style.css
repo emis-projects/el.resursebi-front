@@ -48187,20 +48187,34 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   color: #243E41;
 }
 
-.find-way-9-1 {
+.find-way-23 {
+  height: 58vh;
+  max-height: 447px;
+}
+
+.find-way-23 img {
+  height: 100%;
+}
+
+.find-way-music-9-1 {
   height: 55.98;
   max-height: 430px;
 }
 
-.find-way-5-1-1 {
+.find-way-music-5-1-1 {
   height: 68.35vh;
   max-height: 525px;
   position: fixed;
   bottom: 0;
-  left: 16vh;
+  left: 1vh;
 }
 
-.find-way img {
+.find-way-music-22-1 {
+  height: 48.3vh;
+  max-height: 371px;
+}
+
+.find-way-music img {
   height: 100%;
 }
 
@@ -48609,67 +48623,21 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   top: 60vh;
 }
 
-.music-new-1-div-3-img {
-  height: 48.82vh;
+.new-img img {
+  position: fixed;
+  height: 9.89vh;
+  max-height: 76px;
+  right: 60vh;
+  top: 66vh;
 }
 
-.class_music_4-bg_28 {
-  background-image: url("../img/gakvetilebi/Music-class/Walk-in-the-city-4/music-04-28.svg");
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
+.text-1 {
+  position: absolute;
+  bottom: 26vh;
 }
 
-.class_music_4-bg_29 {
-  background-image: url("../img/gakvetilebi/Music-class/Walk-in-the-city-4/music-04-29.svg");
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
-}
-
-.class_music_4-bg_30 {
-  background-image: url("../img/gakvetilebi/Music-class/Walk-in-the-city-4/music-04-30.svg");
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
-}
-
-.class_music_4-bg_31 {
-  background-image: url("../img/gakvetilebi/Music-class/Walk-in-the-city-4/music-04-31.svg");
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
-}
-
-.class_music_4-bg_32 {
-  background-image: url("../img/gakvetilebi/Music-class/Walk-in-the-city-4/music-04-32.svg");
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
-}
-
-.background-music-title-black-cont {
-  padding-top: 10vh;
-}
-
-.background-music-title-black {
-  color: #243E41;
-  font-family: 'DejaVu Sans Oblique';
-  font-size: 3.64vh;
-}
-
-.walk-26 {
-  height: 39.9vh;
-  max-height: 307px;
-}
-
-.walk-26 img {
-  height: 100%;
+.text-2 {
+  position: absolute;
 }
 
 .music-new-6-div-3-img {
@@ -48900,70 +48868,6 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 19.66vh;
 }
 
-.class_music_7-bg_13 {
-  background-image: url("../img/gakvetilebi/Music-class/Create-broadcast-hat-7/music-07-13.svg");
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
-}
-
-.class_music_7-bg_14 {
-  background-image: url("../img/gakvetilebi/Music-class/Create-broadcast-hat-7/music-07-14.svg");
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
-}
-
-.class_music_7-bg_15 {
-  background-image: url("../img/gakvetilebi/Music-class/Create-broadcast-hat-7/music-07-15.svg");
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
-}
-
-.class_music_7-bg_16 {
-  background-image: url("../img/gakvetilebi/Music-class/Create-broadcast-hat-7/music-07-16.svg");
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
-}
-
-.background-music-title-black-cont {
-  padding-top: 10vh;
-}
-
-.background-music-title-black {
-  color: #243E41;
-  font-family: 'DejaVu Sans Oblique';
-  font-size: 3.64vh;
-}
-
-.create-broadcast-7 img {
-  height: 100%;
-}
-
-.create-broadcast-7-6-1 {
-  height: 50.52vh;
-  max-height: 388px;
-}
-
-.create-broadcast-7-7-1 {
-  height: 58.5vh;
-  max-height: 450px;
-  margin-top: -5vh;
-}
-
-.create-broadcast-7-9-2 {
-  height: 39.45vh;
-  max-height: 303px;
-}
-
-.music-new-1-div-3-img {
-  height: 48.82vh;
 .class_music_7-img_8 {
   position: fixed;
   bottom: 0;
@@ -49052,6 +48956,7 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 .create-broadcast-7-7-1 {
   height: 58.5vh;
   max-height: 450px;
+  margin-top: -5vh;
 }
 
 .create-broadcast-7-9-2 {
