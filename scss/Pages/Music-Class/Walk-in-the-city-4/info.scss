@@ -1,0 +1,49 @@
+.walk-in-the-city-4{
+    img{
+        height:100%;
+    }
+    &-24-1{
+        position:fixed;
+        bottom:0;
+        right:0;
+
+    }
+    &-12-1-1{
+        .img-1{
+            position: fixed;
+            height:12.2vh;
+            max-height:94px;
+            right:60vh;
+            top:38vh;
+        }
+    }
+    &-12-1-2{
+        .img-2{
+            position: fixed;
+            height:9.89vh;
+            max-height:76px;
+            right:60vh;
+            top:60vh;   
+        }
+    }
+}
+
+
+.new-img{
+    img{
+        position: fixed;
+            height:9.89vh;
+            max-height:76px;
+            right:60vh;
+            top:66vh; 
+
+    }
+}
+.text-1{
+    position:absolute;
+    bottom:26vh;
+}
+.text-2{
+    position:absolute;
+
+}
