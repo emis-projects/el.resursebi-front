@@ -49120,6 +49120,148 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
           justify-content: space-evenly;
 }
 
+.class_music_8-img_9 {
+  height: 48.5vh;
+}
+
+.class_music_8-img_9 {
+  height: 21.6vh;
+}
+
+.class_music_8-img_10_title {
+  margin-bottom: 0 !important;
+}
+
+.class_music_8-img_10_cont {
+  background-image: url("../img/gakvetilebi/Music-class/Create-broadcast-audio-8/music-8-10-rect.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 24.2vh;
+  height: 4.8vh;
+}
+
+.class_music_8-check_box {
+  height: 2.6vh;
+  width: 2.6vh;
+  margin: 0.7vh 1.5vh 0 0;
+  border: 2px solid #696969;
+  border-radius: 8px;
+  margin: auto;
+  opacity: 1;
+}
+
+.class_music_8-img_11_cont {
+  background-image: url("../img/gakvetilebi/Music-class/Create-broadcast-audio-8/music-8-11-rect.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 20.9vh;
+  height: 8.9vh;
+}
+
+.class_music_8-img_12_cont {
+  background-image: url("../img/gakvetilebi/Music-class/Create-broadcast-audio-8/music-8-12-rect.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 29.4vh;
+  height: 12.24vh;
+}
+
+.class_music_8-img_13_circle {
+  width: 14.58vh;
+  height: 14.58vh;
+}
+
+.class_music_8-img_13 {
+  width: 8.39vh;
+  height: 8.39vh;
+}
+
+.class_music_8-img_13_cont {
+  background-image: url("../../../../img/gakvetilebi/Music-class/Create-broadcast-audio-8/music-8-13-rect.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 68.75vh;
+  height: 13.28vh;
+}
+
+.class_music_8-img_14 {
+  position: fixed;
+  bottom: 0;
+  height: 68.75vh;
+}
+
+.class_music_8-img_15_circle {
+  width: 12.1vh;
+  height: 12.1vh;
+}
+
+.class_music_8-img_15 {
+  width: 10.4vh;
+  height: 10.4vh;
+}
+
+.class_music_8-img_15_cont {
+  background-image: url("../../../../img/gakvetilebi/Music-class/Create-broadcast-audio-8/music-8-15-rect.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 32vh;
+  height: 13.4vh;
+}
+
+.class_music_8-img_16 {
+  position: fixed;
+  bottom: 0;
+}
+
+.class_music_8-img_16 img {
+  height: 54.6vh;
+}
+
 .class_music_8-bg_17 {
   background-image: url("../img/gakvetilebi/Music-class/Create-broadcast-audio-8/music-08-17.svg");
   background-position: top center;
