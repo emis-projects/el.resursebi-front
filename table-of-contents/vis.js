@@ -8,7 +8,7 @@ let jsonObject = null,
 
   getTypeAndWidth = (number) => {
     if(number == 1){
-      group = "step"
+      group = "step1"
 
     } else if(number == 2) {
       group = "exercise"
@@ -61,7 +61,35 @@ let jsonObject = null,
         if(w.type == 1 && Stepindex == 0) {
           Stepindex++
           stepLabelValue++
-          w.label = `${stepLabelValue}`;
+
+          if(stepLabelValue == 1){
+            w.group = `step${stepLabelValue}`
+
+          } else if(stepLabelValue == 2){
+            w.group = `step${stepLabelValue}`
+
+          } else if(stepLabelValue == 3){
+            w.group = `step${stepLabelValue}`
+          
+          } else if(stepLabelValue == 4){
+            w.group = `step${stepLabelValue}`
+
+          } else if(stepLabelValue == 5){
+            w.group = `step${stepLabelValue}`
+          
+          } else if(stepLabelValue == 6){
+            w.group = `step${stepLabelValue}`
+
+          } else if(stepLabelValue == 7){
+            w.group = `step${stepLabelValue}`
+          
+          } else if(stepLabelValue == 8){
+            w.group = `step${stepLabelValue}`
+
+          } else if(stepLabelValue == 9){
+            w.group = `step${stepLabelValue}`
+          }
+
           return true
 
         } else {
@@ -127,7 +155,6 @@ let jsonObject = null,
         array.push(object)
       }
     })
-
 
     var nodes = new vis.DataSet(nodesData);
 
@@ -205,19 +232,78 @@ let jsonObject = null,
           },
           size: 35
         },
-        step: {  // ნაბიჯი
+        step1: {  // ნაბიჯი
           shape: 'image',
           image: {
-            unselected: 'images/step.png',
-            selected: 'images/stepActive.png'
+            unselected: 'images/step1.svg',
+            selected: 'images/stepActive1.svg'
           },
-          size: 50, 
-          font: {
-            color: '#dc6c85',
-            size: 40, // px
-            face: 'ALKSanet',
-          }
-        }
+          size: 50,
+        },
+        step2: {  // ნაბიჯი
+          shape: 'image',
+          image: {
+            unselected: 'images/step2.svg',
+            selected: 'images/stepActive2.svg'
+          },
+          size: 50,
+        },
+        step3: {  // ნაბიჯი
+          shape: 'image',
+          image: {
+            unselected: 'images/step3.svg',
+            selected: 'images/stepActive3.svg'
+          },
+          size: 50,
+        },
+        step4: {  // ნაბიჯი
+          shape: 'image',
+          image: {
+            unselected: 'images/step4.svg',
+            selected: 'images/stepActive4.svg'
+          },
+          size: 50,
+        },
+        step5: {  // ნაბიჯი
+          shape: 'image',
+          image: {
+            unselected: 'images/step5.svg',
+            selected: 'images/stepActive5.svg'
+          },
+          size: 50,
+        },
+        step6: {  // ნაბიჯი
+          shape: 'image',
+          image: {
+            unselected: 'images/step6.svg',
+            selected: 'images/stepActive6.svg'
+          },
+          size: 50,
+        },
+        step7: {  // ნაბიჯი
+          shape: 'image',
+          image: {
+            unselected: 'images/step7.svg',
+            selected: 'images/stepActive7.svg'
+          },
+          size: 50,
+        },
+        step8: {  // ნაბიჯი
+          shape: 'image',
+          image: {
+            unselected: 'images/step8.svg',
+            selected: 'images/stepActive8.svg'
+          },
+          size: 50,
+        },
+        step9: {  // ნაბიჯი
+          shape: 'image',
+          image: {
+            unselected: 'images/step9.svg',
+            selected: 'images/stepActive9.svg'
+          },
+          size: 50,
+        },
       }
 
     };
