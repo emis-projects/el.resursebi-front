@@ -48309,6 +48309,25 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
           flex-direction: column;
 }
 
+.walk-4 img {
+  height: 100%;
+}
+
+.walk-4-1 {
+  height: 61.1vh;
+  max-height: 470px;
+}
+
+.walk-4-3 {
+  height: 61.97vh;
+  max-height: 476px;
+}
+
+.walk-4-4 {
+  height: 68.75vh;
+  max-height: 528px;
+}
+
 .music-new-4-div-6-img {
   height: 46.48vh;
 }
@@ -48620,7 +48639,7 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 9.89vh;
   max-height: 76px;
   right: 60vh;
-  top: 60vh;
+  top: 67vh;
 }
 
 .new-img img {
@@ -48823,8 +48842,6 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .create-music-6-2 {
-  height: 35.9vh;
-  max-height: 276px;
   margin-top: -20vh;
 }
 
