@@ -47,22 +47,50 @@
             </app-section>
         </section>
         <section id="mainPage">
-            <div class="row mt-5vh">
-                <div class="col-11 m-auto">
-                    <div class="newDesign_subject_question_item d-flex justify-content-center">
+            <div class="row mt-7vh">
+                <div class="col-11 ml-20vh">
+                    <div class="newDesign_subject_question_item">
                         <img alt="img" class="newDesign_subject_question_item-img" src="../../img/icons/newDesign_btn-yellow.svg">
                         <p class="newDesign_subject_question_item-title">
-                            ხომ არ გსმენია, რა არის<a href="11-1.html" class="a-blue"> მუსიკალური ომპოზიცია?</a> 
+                            აბა, გამოიცანი, მუსიკალური კომპოზიციის დასაწყისია თუ დასასრული?             
                         </p>
                     </div>
-
-
-                </div>
-                <div class="col-11 music-new-1-div music-new-1-div-11-img d-flex justify-content-center mt-5vh">
-                    <img src="../../img/gakvetilebi/Music-class/voices-1/music-1-11.svg" alt="image">
+                    <div class="newDesign_subject_question_item ">
+                        <img alt="img" class="newDesign_subject_question_item-img" src="../../img/icons/newDesign_btn-yellow.svg">
+                        <p class="newDesign_subject_question_item-title">
+                            შეუსაბამე სწორი პასუხი. მოსასმენად დააწკაპე ნოტს.             
+                        </p>
+                    </div>
                 </div>
             </div>
-
+            <div class="row mt-3vh">
+                <div class="col-3 d-flex  flex-column">
+                    <div class="d-flex  align-items-center" role="button">                   
+                            <div
+                                class="music-new-1-div-6-img-circle d-flex  align-items-center mb-3vh">
+                                <img src="../../img/gakvetilebi/Music-class/voices-1/music-new-01-5-icon-1.svg" alt="play" class="img">
+                        </div>
+                    </div>
+                    <div class=" music-new-1-div-6-div-dots dots dots1  ">
+                        <div class=" music-new-1-div-6-div-dot d-flex justify-content-start dot-select" data-index="1-1">
+                            <div class="music-new-1-div-5-img-circle"></div>
+                            <div class="music-new-1-div-6-div-dot-text "> <p>დასაწყისი</p></div>
+                        </div>
+                        <div class="music-new-1-div-6-div-dot d-flex justify-content-start dot-select" data-index="1-2">
+                            <div class="music-new-1-div-5-img-circle"></div>
+                            <div class="music-new-1-div-6-div-dot-text d-flex"><p>დასასრული</p></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 d-flex  flex-column">
+                    <div class="d-flex  align-items-center" role="button">                   
+                            <div
+                                class="music-new-1-div-6-img-circle d-flex  align-items-center">
+                                <img src="../../img/gakvetilebi/Music-class/voices-1/music-new-01-5-icon-2.svg" alt="play" class="img">
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="left_components_paging-cont" id="leftNav">
                 <left-nav-item></left-nav-item>
             </div>
@@ -78,7 +106,12 @@
                     <img alt="" src="../../img/icons/chevron-left-icon.svg">
                 </a>
             </div>
-
+            <div class="col-3 flex flex-end column align-items-end z-index reload_game_wrapper">
+                <div class="d-flex flex-column">
+                    <button class="reset__btn" id="resetBtn">თავიდან სცადე</button>
+                    <button class="completed__btn" id="completedGame">დასრულება</button>
+                </div>
+            </div>
         </section>
     </div>
 
