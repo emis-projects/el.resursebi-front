@@ -48667,16 +48667,47 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 54vh;
 }
 
-.class_music_6-img_12 {
-  height: 66vh;
+.class_music_6-img_12_cont {
+  background-image: url("../../../../img/gakvetilebi/Music-class/Create-music-from-noise-6/music-6-12.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 10.9vh;
+  height: 10.8vh;
 }
 
 .class_music_6-img_13 {
   height: 29.9vh;
+  padding-right: 5vh;
+}
+
+.class_music_6-img_13_circle img {
+  width: 6.9vh;
+  height: 6.9vh;
 }
 
 .class_music_6-img_14 {
   height: 6.8vh;
+}
+
+.class_music_6-img_14_clock {
+  height: 6.25vh !important;
+}
+
+.class_music_6-img_14_comp {
+  height: 5.5vh !important;
+}
+
+.class_music_6-img_14_school {
+  height: 5.2vh !important;
 }
 
 .class_music_6-img_15 {

@@ -24,14 +24,37 @@
     &-img_11 {
         height: 54vh;
     }
-    &-img_12 {
-        height: 66vh;
+    &-img_12_cont {
+        background-image: url("../../../../img/gakvetilebi/Music-class/Create-music-from-noise-6/music-6-12.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 10.9vh;
+        height: 10.8vh;
     }
     &-img_13 {
         height: 29.9vh;
+        padding-right: 5vh;
+    }
+    &-img_13_circle {
+        img {
+            width: 6.9vh;
+            height: 6.9vh;
+        }
     }
     &-img_14 {
         height: 6.8vh;
+    }
+    &-img_14_clock {
+        height: 6.25vh!important;
+    }
+    &-img_14_comp {
+        height: 5.5vh!important;
+    }
+    &-img_14_school {
+        height: 5.2vh!important;
     }
     &-img_15 {
         height: 47.78vh;
