@@ -48187,20 +48187,34 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   color: #243E41;
 }
 
-.find-way-9-1 {
+.find-way-23 {
+  height: 58vh;
+  max-height: 447px;
+}
+
+.find-way-23 img {
+  height: 100%;
+}
+
+.find-way-music-9-1 {
   height: 55.98;
   max-height: 430px;
 }
 
-.find-way-5-1-1 {
+.find-way-music-5-1-1 {
   height: 68.35vh;
   max-height: 525px;
   position: fixed;
   bottom: 0;
-  left: 16vh;
+  left: 1vh;
 }
 
-.find-way img {
+.find-way-music-22-1 {
+  height: 48.3vh;
+  max-height: 371px;
+}
+
+.find-way-music img {
   height: 100%;
 }
 
@@ -48293,6 +48307,25 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.walk-4 img {
+  height: 100%;
+}
+
+.walk-4-1 {
+  height: 61.1vh;
+  max-height: 470px;
+}
+
+.walk-4-3 {
+  height: 61.97vh;
+  max-height: 476px;
+}
+
+.walk-4-4 {
+  height: 68.75vh;
+  max-height: 528px;
 }
 
 .music-new-4-div-6-img {
@@ -48583,6 +48616,49 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
+.walk-in-the-city-4 img {
+  height: 100%;
+}
+
+.walk-in-the-city-4-24-1 {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.walk-in-the-city-4-12-1-1 .img-1 {
+  position: fixed;
+  height: 12.2vh;
+  max-height: 94px;
+  right: 60vh;
+  top: 38vh;
+}
+
+.walk-in-the-city-4-12-1-2 .img-2 {
+  position: fixed;
+  height: 9.89vh;
+  max-height: 76px;
+  right: 60vh;
+  top: 67vh;
+}
+
+.new-img img {
+  position: fixed;
+  height: 9.89vh;
+  max-height: 76px;
+  right: 60vh;
+  top: 66vh;
+}
+
+.text-1 {
+  position: absolute;
+  bottom: 26vh;
+}
+
+.text-2 {
+  position: absolute;
+}
+
 .music-new-6-div-3-img {
   height: 50vh;
 }
@@ -48765,6 +48841,10 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   max-height: 268px;
 }
 
+.create-music-6-2 {
+  margin-top: -20vh;
+}
+
 .music-new-7-div-3-img {
   height: 45.83vh;
 }
@@ -48893,6 +48973,7 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 .create-broadcast-7-7-1 {
   height: 58.5vh;
   max-height: 450px;
+  margin-top: -5vh;
 }
 
 .create-broadcast-7-9-2 {
