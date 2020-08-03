@@ -320,7 +320,9 @@ let jsonObject = null,
 
     // სარჩევში იმ გვერდის გააქტიურება, რომლიდანაც გამოვიძახეთ სარჩევის მენიუ
 
-    network.selectNodes(['1'])
+    var currentURL = window.location.href;
+    var activeNodeID = currentURL.substring(currentURL.lastIndexOf('/') + 1, currentURL.lastIndexOf(".html"));
+    network.selectNodes([activeNodeID])
 
 
   }
