@@ -16,7 +16,7 @@ function game() {
 
 
 
-    let listenBtn = document.querySelector('.listen--btn');
+    let listenBtn = document.querySelectorAll('.listen--btn');
     let items = document.querySelectorAll('.DragGame—childs1');
     let correctAnswer = document.getElementById('correctAnswer');
     const completeBtn = document.getElementById('completedGame');
@@ -28,18 +28,12 @@ function game() {
     resetBtn.addEventListener('click', () => this.init());
 
 
-    document.addEventListener('DOMContentLoaded', () => {
-        for(const item of items) { 
-            $(item).attr('data-img', $(item).attr('src'))   
-        }
-    })
-
-
-    listenBtn.addEventListener('click', e => {
+    $(listenBtn).click((e) => {
         handleLoadstop()
         createjs.Sound.registerSound({src:`${e.target.getAttribute('data-voice')}`, id:"sound"});
         handleLoadComplete()
     })
+
     
     
     var myArray = [];
@@ -73,18 +67,22 @@ function game() {
             this.checkWhichPageIs()
 
         } else {
-            $('.DragGame—childs1').attr('src', "../../../img/gakvetilebi/Music-class/city-voices-2/Group 47477.svg")
+            $('.DragGame—childs1').attr('style', 'border: 2px solid #dc6c85;')
         }
     }
+
 
     this.checkWhichPageIs = () => {
         let myLocation = location.pathname;
 
-        if(myLocation == "/Music-Class/city-voices-2/6.html" || myLocation == "/el.resursebi-front/Music-Class/city-voices-2/6.html"){
-            location.href = "game-success-6.html"
+        if(myLocation == "/Music-Class/city-voices-2/10.html" || myLocation == "/el.resursebi-front/Music-Class/city-voices-2/10.html"){
+            location.href = "game-success-10.html"
             
-        } else if (myLocation == "/Music-Class/city-voices-2/7.html" || myLocation == "/el.resursebi-front/Music-Class/city-voices-2/7.html"){
-            location.href = "game-success-7.html"
+        } else if (myLocation == "/Music-Class/city-voices-2/11.html" || myLocation == "/el.resursebi-front/Music-Class/city-voices-2/11.html"){
+            location.href = "game-success-11.html"
+
+        } else if (myLocation == "/Music-Class/city-voices-2/12.html" || myLocation == "/el.resursebi-front/Music-Class/city-voices-2/12.html"){
+            location.href = "game-success-12.html"
         } 
     }
 
@@ -92,9 +90,7 @@ function game() {
     this.init = () => {
         this.answersArray = '';
 
-        for(const item of items) { 
-            $(item).attr('src', $(item).attr('data-img'))   
-        }
+        $('.DragGame—childs1').removeAttr('style');
 
         // stop voice 
         createjs.Sound.stop("sound");

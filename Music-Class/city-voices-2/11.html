@@ -47,7 +47,7 @@
             </app-section>
         </section>
         <section id="mainPage">
-            <div class="row">
+            <div class="row" id="correctAnswer">
                 <div class="col-11 m-auto">
                     <div class="newDesign_subject_question_item">
                         <img alt="img" class="newDesign_subject_question_item-img" src="../../../img/icons/newDesign_btn-yellow.svg">
@@ -55,33 +55,33 @@
                            მგონი, შეგვიძლია კიდევ უფრო გავართულოთ სავარჯიშო.                 
                         </p>
                     </div>
-                    <div class="newDesign_subject_question_item">
+                    <div class="newDesign_subject_question_item newDesign_subject_question_item-child" id="index1">
                         <img alt="img" class="newDesign_subject_question_item-img" src="../../../img/icons/newDesign_btn-yellow.svg">
                         <p class="newDesign_subject_question_item-title">
                             <img src="../../../img/gakvetilebi/Music-class/city-voices-2/music-new-02-listen-icon.svg" alt="listen" class="cs-4-9-2-img"/> 
-                            <span class="listen-music-purple-tag">მოუსმინე</span>  სამი სხვადასხვა ძრავის ხმების თანმიმდევრობას. ახლა დააწკაპე</br>
+                            <span class="listen-music-purple-tag listen--btn cursor-pointer" data-voice="./game-voices/სლაიდი12/აუდიო 1.wav">მოუსმინე</span>  სამი სხვადასხვა ძრავის ხმების თანმიმდევრობას. ახლა დააწკაპე</br>
                              სურათებს იმავე თანმიმდევრობით.             
                         </p>
                     </div>
-                    <div class="newDesign_subject_question_item">
+                    <div class="newDesign_subject_question_item newDesign_subject_question_item-child" id="index2">
                         <img alt="img" class="newDesign_subject_question_item-img" src="../../../img/icons/newDesign_btn-yellow.svg">
                         <p class="newDesign_subject_question_item-title">
-                            <img src="../../../img/gakvetilebi/Music-class/city-voices-2/music-new-02-listen-icon.svg" alt="listen" class="cs-4-9-2-img"/> <span class="listen-music-purple-tag">მოუსმინე</span>  კიდევ ერთ თანმიმდევრობას: აბა, გაიმეორე! მგონი, რაღაც მუსიკა გამოდის,</br>
+                            <img src="../../../img/gakvetilebi/Music-class/city-voices-2/music-new-02-listen-icon.svg" alt="listen" class="cs-4-9-2-img"/> <span class="listen-music-purple-tag listen--btn cursor-pointer" data-voice="./game-voices/სლაიდი12/აუდიო 2.wav">მოუსმინე</span>  კიდევ ერთ თანმიმდევრობას: აბა, გაიმეორე! მგონი, რაღაც მუსიკა გამოდის,</br>
                              არა?    
                         </p>
                     </div>
-                    <div class="newDesign_subject_question_item">
+                    <div class="newDesign_subject_question_item newDesign_subject_question_item-child" id="index3">
                         <img alt="img" class="newDesign_subject_question_item-img" src="../../../img/icons/newDesign_btn-yellow.svg">
                         <p class="newDesign_subject_question_item-title">
-                            აბა, კიდევ ერთს <img src="../../../img/gakvetilebi/Music-class/city-voices-2/music-new-02-listen-icon.svg" alt="listen" class="cs-4-9-2-img"/> <span class="listen-music-purple-tag">მოუსმინე</span>  მოდი, ესეც გაიმეორე. დიახ, ნამდვილად ჰგავს რაღაც</br>
+                            აბა, კიდევ ერთს <img src="../../../img/gakvetilebi/Music-class/city-voices-2/music-new-02-listen-icon.svg" alt="listen" class="cs-4-9-2-img"/> <span class="listen-music-purple-tag listen--btn cursor-pointer" data-voice="./game-voices/სლაიდი12/აუდიო 3.wav">მოუსმინე</span>  მოდი, ესეც გაიმეორე. დიახ, ნამდვილად ჰგავს რაღაც</br>
                              უცნაურ მუსიკას.  
                         </p>
                     </div>
                 </div>
                 <div class="col-11 music-new-2-div music-new-2-div-11-img d-flex justify-content-between">
-                    <img src="../../../img/gakvetilebi/Music-class//city-voices-2/music-new-02-11-1.png" alt="image" class="music-new-2-div-1-img-1  mt-5vh">
-                    <img src="../../../img/gakvetilebi/Music-class//city-voices-2/music-new-02-11-2.png" alt="image" class="music-new-2-div-1-img-2 mt-10vh">
-                    <img src="../../../img/gakvetilebi/Music-class//city-voices-2/music-new-02-11-3.png" alt="image" class="music-new-2-div-1-img-3">
+                    <img class="music-new-2-div-1-img-1 mt-5vh cursor-pointer DragGame—childs1" data-index="1" data-voice="./game-voices/სლაიდი10/mecedesengine.wav" src="../../../img/gakvetilebi/Music-class//city-voices-2/music-new-02-11-1.png" alt="image">
+                    <img class="mt-10vh music-new-2-div-1-img-2 cursor-pointer DragGame—childs1" data-index="2" data-voice="./game-voices/სლაიდი10/vanengine.wav" src="../../../img/gakvetilebi/Music-class//city-voices-2/music-new-02-11-2.png" alt="image">
+                    <img class="music-new-2-div-1-img-3 cursor-pointer DragGame—childs1" data-index="3" data-voice="./game-voices/სლაიდი10/truckengine.wav" src="../../../img/gakvetilebi/Music-class//city-voices-2/music-new-02-11-3.png" alt="image">
                 </div>
             </div>
 
@@ -117,17 +117,18 @@
 
     <script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
     <script src="../../../js/libraries/jquery.magnific-popup.min.js"></script>
+    <script src="../../js/libraries/sound.js"></script>
     <script src="../../../js/Pagination.js"></script>
 
+    <script src="./js/11.js"></script>
 
     <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
     <script src="../../../New-header-vue/vis.js"></script>
-<!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
-<script src="../../../New-header-vue/app.js"></script>
+    <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
+    <script src="../../../New-header-vue/app.js"></script>
     <script src="../../../Vue-chatBot/botApp.js"></script>
     <script src="../../../js/bot.js"></script>
 
 
 </body>
-
 </html>
