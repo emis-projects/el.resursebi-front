@@ -1,0 +1,37 @@
+.music-new-2-div {
+    &-8-1-img {
+        height:43.48vh;
+    }
+    &-10-img {
+        height:30.98vh;
+    }
+    &-11-img {
+        height:22.52vh;   
+    }
+    img {
+        height: 100%;
+    }
+}
+
+.music-new-05-div-8-1{
+&-blue{
+    background-color:#7FD1D8;
+    p{
+        font-family: "DejaVuSans";
+        font-size:2.6vh;
+        color:white;
+    }
+        }
+   &-orange{
+    background-color:#F2DA8E;
+    p{
+        font-family: "DejaVuSans";
+        font-size:2.6vh;
+        color:black;
+    }
+   }     
+    height:8.2vh;
+    width:19.83vw; 
+    border-radius: 12px;
+    
+}
