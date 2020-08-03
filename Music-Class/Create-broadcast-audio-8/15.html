@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html data-botid="2288" lang="ka">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta content="ie=edge" http-equiv="X-UA-Compatible" />
+    <!-- ყველა გვერდზე -->
+    <script src="../../../js/vue.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+    <!--  ვუე გაშვებისას
+    <script src="./js/vue.min.js"></script>
+     -->
+    <link href="../../../scss/libraries/bootstrap.min.css" rel="stylesheet">
+    <link href="../../../New-header-vue/animate.min.css" rel="stylesheet">
+    <link href="../../../scss/new-style.css" rel="stylesheet" />
+    <link href="../../../scss/components_style.css" rel="stylesheet" />
+    <title>ელექტრონული საგანმანათლებლო რესურსი</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'UA-155006442-1');
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <section class="container position-absolute" id="app">
+            <header>
+                <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../../'"></app-menu>
+            </header>
+
+            <app-section :is-active="isActive" :is-info="isInfo" v-image="'../../../'">
+                <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger" v-on:link-tab="link = $event">
+
+                </app-bar>
+                <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive" :is-info="isInfo" :path="path" :tab-class="currentTabComponent" :trigger="trigger">
+                </component>
+
+            </app-section>
+        </section>
+        <section id="mainPage">
+            <div class="row">
+                <div class="col-10 m-auto">
+                    <div class="newDesign_subject_question_item">
+                        <img alt="img" class="newDesign_subject_question_item-img" src="../../../img/icons/newDesign_btn-yellow.svg">
+                        <p class="newDesign_subject_question_item-title">
+                            ტექსტის წაკითხვის დროს ინტონაციას ძალიან დიდი მნიშვნელობა აქვს, მაგრამ მუსიკალურ გაფორმებასაც უნდა მივაქციოთ ყურადღება.          
+                        </p>
+                    </div>
+                    <div class="newDesign_subject_question_item">
+                        <img alt="img" class="newDesign_subject_question_item-img" src="../../../img/icons/newDesign_btn-yellow.svg">
+                        <p class="newDesign_subject_question_item-title">
+                            მოდი, ვივარჯიშოთ. კიდევ ერთხელ მოუსმინე აუდიოჩანაწერს და მიაქციე ყურადღება მუსიკალური ფრაგმენტების თანმიმდევრობას.          
+                        </p>
+                    </div>
+                    <div class="newDesign_subject_question_item">
+                        <img alt="img" class="newDesign_subject_question_item-img" src="../../../img/icons/newDesign_btn-yellow.svg">
+                        <p class="newDesign_subject_question_item-title">
+                            ამ მუსიკალური ღილაკების დაწკაპებისას შენ მხოლოდ მუსიკალური გაფორმების ორ ვარიანტს მოუსმენ.          
+                        </p>
+                    </div>
+                    <div class="newDesign_subject_question_item mb-7vh">
+                        <img alt="img" class="newDesign_subject_question_item-img" src="../../../img/icons/newDesign_btn-yellow.svg">
+                        <p class="newDesign_subject_question_item-title">
+                            რომელ ვარიანტშია მუსიკალური ფრაგმენტები ისეთი თანმიმდევრობით დალაგებული, როგორც ტექსტიან ჩანაწერში? ჩასვი ეს მუსიკალური გაფორმება ცარიელ უჯრაში.    
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-5 m-auto d-flex justify-content-around pb-5vh">
+                    <div class="class_music_6-img_15_circle">
+                        <img src="../../img/gakvetilebi/Music-class/Create-broadcast-audio-8/music-8-15-1.svg" alt="image">
+                    </div>
+                    <div class="class_music_8-img_15_cont"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3 m-auto d-flex justify-content-around">
+                    <div class="class_music_6-img_15">
+                        <img src="../../img/gakvetilebi/Music-class/Create-broadcast-audio-8/music-8-15-2.svg" alt="image">
+                    </div>
+                    <div class="class_music_6-img_15">
+                        <img src="../../img/gakvetilebi/Music-class/Create-broadcast-audio-8/music-8-15-2.svg" alt="image">
+                    </div>
+                </div>
+            </div>
+            <div  class="flex flex-column z-index reload_game_wrapper">
+                <button id="resetBtn" class="reset__btn">თავიდან სცადე</button>
+                <button id="completedGame" class="completed__btn">დასრულება</button>
+            </div>
+
+            <div class="left_components_paging-cont" id="leftNav">
+                <left-nav-item></left   -nav-item>
+            </div>
+
+            <div class="our__pagination flex">
+                <a class="pagination__prev__btn" href="#">
+                    <img alt="" src="../../../img/icons/chevron-left-icon.svg" style="transform: rotate(180deg)">
+                </a>
+
+                <div class="flex align-items-center" id="pagination"></div>
+
+                <a class="pagination__next__btn" href="#">
+                    <img alt="" src="../../../img/icons/chevron-left-icon.svg">
+                </a>
+            </div>
+
+        </section>
+    </div>
+
+
+    <!-- ჩეთბოტი -->
+    <div id="chatBot">
+        <app-bot></app-bot>
+    </div>
+
+    <script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
+    <script src="../../../js/libraries/jquery.magnific-popup.min.js"></script>
+    <script src="../../../js/Pagination.js"></script>
+
+
+    <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
+    <script src="../../../New-header-vue/vis.js"></script>
+<!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
+<script src="../../../New-header-vue/app.js"></script>
+    <script src="../../../Vue-chatBot/botApp.js"></script>
+    <script src="../../../js/bot.js"></script>
+
+
+</body>
+
+</html>

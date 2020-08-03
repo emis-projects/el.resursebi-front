@@ -1,27 +1,81 @@
-.cs-6-25{
-    &-15-img{
-        height: 59.89vh;
-        position:absolute;
-        bottom:0;
-        right:10.6vw;
+.music-new-1-div{
+    img{
+        height:100%;
     }
-    &-16-img{
-        height:50.13vh;
+    &-11-img{
+        height:55.9vh;
+        max-height:430px;
     }
-    &-17-img{
-        height:46.87vh;
-        position:absolute;
-        bottom:9.89vh;
-        right:3vw;
+    &-13-img{
+        height:66.79vh;
+        max-height:513px;
     }
-    &-18-img{
-        height: 32.29vh;
-        position:absolute;
-        bottom:14.86vw;
-        right:5.72vh;
- }
- 
-img{
-    height:100%;
+}
+
+.music-new-15-div{
+    img{
+        height:100%;
+    }
+    &-img-1{
+        height:22.52vh;
+        max-height:173px;
+    }
+    &-img-2{
+        height:22.52vh;
+        max-height:173px;
+    }
+    &-img-3{
+        height:22.52vh;
+        max-height:173px;
+    }
+    &-img-4{
+        height:22.52vh;
+        max-height:173px;
+    }
+}
+
+.music-new-18-div{
+    img{
+        height:100%;
+    }
+    &-img{
+        height:53.38vh;
+        max-height:410px;
+    }
+}
+
+.music-16{
+    img{
+        height:100%;
+    }
+    &-img-1{
+        height:22.52vh;
+        max-height: 173px;
+    }
+    &-img-2{
+        height:22.52vh;
+        max-height: 173px;
+    }
+    &-img-3{
+        height:22.52vh;
+        max-height: 173px;
+    }
+}
+
+.music-14{
+    img{
+        height:100%;
+    }
+    &-img-1{
+        height:14.32vh;
+        max-height: 110px;
+    }
+    &-img-2{
+        height:14.32vh;
+        max-height: 110px;
+    }
+    &-img-3{
+        height:14.32vh;
+        max-height: 110px;
     }
 }
