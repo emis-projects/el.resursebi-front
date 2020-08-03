@@ -62,20 +62,25 @@
     }
 }
 
-.music-14{
+.music-14-img-col{
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:5vh;
+}
+
+.music-14-img{
     img{
-        height:100%;
-    }
-    &-img-1{
         height:14.32vh;
-        max-height: 110px;
     }
-    &-img-2{
-        height:14.32vh;
-        max-height: 110px;
+    span{
+        margin-bottom:1vh;
+        color:#947DCE;
+        font-family: "DejaVuSans";
+        font-size:2.6vh;
     }
-    &-img-3{
-        height:14.32vh;
-        max-height: 110px;
-    }
+}
+
+.music-new-1-div-12-img-circle{
+    margin-top:auto !important;
+    margin-right:15vh;
 }

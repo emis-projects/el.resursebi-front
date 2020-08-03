@@ -1,0 +1,26 @@
+ .music-new-10-div{
+    &-10-img {
+        height:38.41vh;
+        position:relative;
+    }
+    &-10-circle {
+        height:8.46vh;
+        width:8.46vh;
+        position:absolute;
+        border: 3px solid #F2DA8E;
+        right:-1vw;
+        bottom:-2vh;
+        border-radius: 100%;
+        background-color: white;
+    }
+    &-12-img {
+        height:54.81vh;
+        position:absolute;
+        bottom:0;
+        right:3vw;
+    }
+    img {
+        height: 100%;
+    }
+} 
+
