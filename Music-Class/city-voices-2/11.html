@@ -5,15 +5,15 @@
     <meta charset="UTF-8" />
     <meta content="ie=edge" http-equiv="X-UA-Compatible" />
     <!-- ყველა გვერდზე -->
-    <script src="../../../js/vue.js"></script>
+    <script src="../../js/vue.js"></script>
     <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
     <!--  ვუე გაშვებისას
     <script src="./js/vue.min.js"></script>
      -->
-    <link href="../../../scss/libraries/bootstrap.min.css" rel="stylesheet">
-    <link href="../../../New-header-vue/animate.min.css" rel="stylesheet">
-    <link href="../../../scss/new-style.css" rel="stylesheet" />
-    <link href="../../../scss/components_style.css" rel="stylesheet" />
+    <link href="../../scss/libraries/bootstrap.min.css" rel="stylesheet">
+    <link href="../../New-header-vue/animate.min.css" rel="stylesheet">
+    <link href="../../scss/new-style.css" rel="stylesheet" />
+    <link href="../../scss/components_style.css" rel="stylesheet" />
     <title>ელექტრონული საგანმანათლებლო რესურსი</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
@@ -34,10 +34,10 @@
     <div class="container">
         <section class="container position-absolute" id="app">
             <header>
-                <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../../'"></app-menu>
+                <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../'"></app-menu>
             </header>
 
-            <app-section :is-active="isActive" :is-info="isInfo" v-image="'../../../'">
+            <app-section :is-active="isActive" :is-info="isInfo" v-image="'../../'">
                 <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger" v-on:link-tab="link = $event">
 
                 </app-bar>
@@ -50,38 +50,38 @@
             <div class="row">
                 <div class="col-11 m-auto">
                     <div class="newDesign_subject_question_item">
-                        <img alt="img" class="newDesign_subject_question_item-img" src="../../../img/icons/newDesign_btn-yellow.svg">
+                        <img alt="img" class="newDesign_subject_question_item-img" src="../../img/icons/newDesign_btn-yellow.svg">
                         <p class="newDesign_subject_question_item-title">
                            მგონი, შეგვიძლია კიდევ უფრო გავართულოთ სავარჯიშო.                 
                         </p>
                     </div>
                     <div class="newDesign_subject_question_item">
-                        <img alt="img" class="newDesign_subject_question_item-img" src="../../../img/icons/newDesign_btn-yellow.svg">
+                        <img alt="img" class="newDesign_subject_question_item-img" src="../../img/icons/newDesign_btn-yellow.svg">
                         <p class="newDesign_subject_question_item-title">
-                            <img src="../../../img/gakvetilebi/Music-class/city-voices-2/music-new-02-listen-icon.svg" alt="listen" class="cs-4-9-2-img"/> 
+                            <img src="../../img/gakvetilebi/Music-class/city-voices-2/music-new-02-listen-icon.svg" alt="listen" class="cs-4-9-2-img"/>
                             <span class="listen-music-purple-tag">მოუსმინე</span>  სამი სხვადასხვა ძრავის ხმების თანმიმდევრობას. ახლა დააწკაპე</br>
                              სურათებს იმავე თანმიმდევრობით.             
                         </p>
                     </div>
                     <div class="newDesign_subject_question_item">
-                        <img alt="img" class="newDesign_subject_question_item-img" src="../../../img/icons/newDesign_btn-yellow.svg">
+                        <img alt="img" class="newDesign_subject_question_item-img" src="../../img/icons/newDesign_btn-yellow.svg">
                         <p class="newDesign_subject_question_item-title">
-                            <img src="../../../img/gakvetilebi/Music-class/city-voices-2/music-new-02-listen-icon.svg" alt="listen" class="cs-4-9-2-img"/> <span class="listen-music-purple-tag">მოუსმინე</span>  კიდევ ერთ თანმიმდევრობას: აბა, გაიმეორე! მგონი, რაღაც მუსიკა გამოდის,</br>
+                            <img src="../../img/gakvetilebi/Music-class/city-voices-2/music-new-02-listen-icon.svg" alt="listen" class="cs-4-9-2-img"/> <span class="listen-music-purple-tag">მოუსმინე</span>  კიდევ ერთ თანმიმდევრობას: აბა, გაიმეორე! მგონი, რაღაც მუსიკა გამოდის,</br>
                              არა?    
                         </p>
                     </div>
                     <div class="newDesign_subject_question_item">
-                        <img alt="img" class="newDesign_subject_question_item-img" src="../../../img/icons/newDesign_btn-yellow.svg">
+                        <img alt="img" class="newDesign_subject_question_item-img" src="../../img/icons/newDesign_btn-yellow.svg">
                         <p class="newDesign_subject_question_item-title">
-                            აბა, კიდევ ერთს <img src="../../../img/gakvetilebi/Music-class/city-voices-2/music-new-02-listen-icon.svg" alt="listen" class="cs-4-9-2-img"/> <span class="listen-music-purple-tag">მოუსმინე</span>  მოდი, ესეც გაიმეორე. დიახ, ნამდვილად ჰგავს რაღაც</br>
+                            აბა, კიდევ ერთს <img src="../../img/gakvetilebi/Music-class/city-voices-2/music-new-02-listen-icon.svg" alt="listen" class="cs-4-9-2-img"/> <span class="listen-music-purple-tag">მოუსმინე</span>  მოდი, ესეც გაიმეორე. დიახ, ნამდვილად ჰგავს რაღაც</br>
                              უცნაურ მუსიკას.  
                         </p>
                     </div>
                 </div>
                 <div class="col-11 music-new-2-div music-new-2-div-11-img d-flex justify-content-between">
-                    <img src="../../../img/gakvetilebi/Music-class//city-voices-2/music-new-02-11-1.png" alt="image" class="music-new-2-div-1-img-1  mt-5vh">
-                    <img src="../../../img/gakvetilebi/Music-class//city-voices-2/music-new-02-11-2.png" alt="image" class="music-new-2-div-1-img-2 mt-10vh">
-                    <img src="../../../img/gakvetilebi/Music-class//city-voices-2/music-new-02-11-3.png" alt="image" class="music-new-2-div-1-img-3">
+                    <img src="../../img/gakvetilebi/Music-class//city-voices-2/music-new-02-11-1.png" alt="image" class="music-new-2-div-1-img-1  mt-5vh">
+                    <img src="../../img/gakvetilebi/Music-class//city-voices-2/music-new-02-11-2.png" alt="image" class="music-new-2-div-1-img-2 mt-10vh">
+                    <img src="../../img/gakvetilebi/Music-class//city-voices-2/music-new-02-11-3.png" alt="image" class="music-new-2-div-1-img-3">
                 </div>
             </div>
 
@@ -91,13 +91,13 @@
 
             <div class="our__pagination flex">
                 <a class="pagination__prev__btn" href="#">
-                    <img alt="" src="../../../img/icons/chevron-left-icon.svg" style="transform: rotate(180deg)">
+                    <img alt="" src="../../img/icons/chevron-left-icon.svg" style="transform: rotate(180deg)">
                 </a>
 
                 <div class="flex align-items-center" id="pagination"></div>
 
                 <a class="pagination__next__btn" href="#">
-                    <img alt="" src="../../../img/icons/chevron-left-icon.svg">
+                    <img alt="" src="../../img/icons/chevron-left-icon.svg">
                 </a>
             </div>
             <div class="col-3 flex flex-end column align-items-end z-index reload_game_wrapper">
@@ -115,16 +115,16 @@
         <app-bot></app-bot>
     </div>
 
-    <script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
-    <script src="../../../js/libraries/jquery.magnific-popup.min.js"></script>
-    <script src="../../../js/Pagination.js"></script>
+    <script src="../../js/libraries/jquery-3.4.1.min.js"></script>
+    <script src="../../js/libraries/jquery.magnific-popup.min.js"></script>
+    <script src="../../js/Pagination.js"></script>
 
 
 <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
-    <script src="../../../New-header-vue/vis.js"></script>
-    <script src="../../../New-header-vue/app.js"></script>
-    <script src="../../../Vue-chatBot/botApp.js"></script>
-    <script src="../../../js/bot.js"></script>
+    <script src="../../New-header-vue/vis.js"></script>
+    <script src="../../New-header-vue/app.js"></script>
+    <script src="../../Vue-chatBot/botApp.js"></script>
+    <script src="../../js/bot.js"></script>
 
 
 </body>
