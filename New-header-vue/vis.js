@@ -321,8 +321,8 @@ let jsonObject = null,
     // სარჩევში იმ გვერდის გააქტიურება, რომლიდანაც გამოვიძახეთ სარჩევის მენიუ
 
     var currentURL = window.location.href;
-    var selectedNodeID = currentURL.substring(currentURL.lastIndexOf('/') + 1, currentURL.lastIndexOf(".html"));
-    network.selectNodes([selectedNodeID])
+    var activeID = currentURL.substring(currentURL.lastIndexOf('/') + 1, currentURL.lastIndexOf(".html"));
+    network.selectNodes([activeID])
 
 
   }
