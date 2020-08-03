@@ -46,15 +46,14 @@
                     <img alt="img" class="newDesign_subject_question_item-img" src="../../img/icons/newDesign_btn-yellow.svg">
                     <p class="newDesign_subject_question_item-title mb-4vh">
                         ზუსტი სიმაღლის ბგერები არის ის ბგერები, რომელთა <img src="../../img/gakvetilebi/Music-class/city-voices-2/icon.svg"
-                        alt="ms.excel" class="icon"> <a class="text-secondary">გამღერება</a> შეგვიძლია. ზუსტი სიმაღლის ბგერებიდან შეგვიძლია ავაგოთ <img src="../../img/gakvetilebi/Music-class/city-voices-2/icon.svg"
-                        alt="ms.excel" class="icon"> <a class="text-secondary">მელოდია</a> ეს არის ბგერები, რომლებიც გამოიყენება <img src="../../img/gakvetilebi/Music-class/city-voices-2/icon.svg"
-                        alt="ms.excel" class="icon"> <a class="text-secondary">ტრადიციული მუსიკის</a> ნიმუშების ასაგებად.
+                        alt="ms.excel" class="icon"> <a class="text-secondary listen--btn cursor-pointer" data-voice="./game-voices/სლაიდი11/1. გამღერება.wav">გამღერება</a> შეგვიძლია. ზუსტი სიმაღლის ბგერებიდან შეგვიძლია ავაგოთ <img src="../../img/gakvetilebi/Music-class/city-voices-2/icon.svg"
+                        alt="ms.excel" class="icon"> <a class="text-secondary listen--btn cursor-pointer" data-voice="./game-voices/სლაიდი11/2. მელოდია.wav">მელოდია</a> ეს არის ბგერები, რომლებიც გამოიყენება <img src="../../img/gakvetilebi/Music-class/city-voices-2/icon.svg"
+                        alt="ms.excel" class="icon"> <a class="text-secondary listen--btn cursor-pointer" data-voice="./game-voices/სლაიდი11/3. ტრადიციული მუსიკა.wav">ტრადიციული მუსიკის</a> ნიმუშების ასაგებად.
                     </p>
                 </div>
             </div>
             <div class="col-11 m-auto d-flex justify-content-center lesson-02-new-10-1 lesson-02-new">
-                    <img alt="img"
-                    src="../../img/gakvetilebi/Music-class/city-voices-2/cs-new-02-10-1.svg">
+                    <img alt="img" src="../../img/gakvetilebi/Music-class/city-voices-2/cs-new-02-10-1.svg">
             </div>
         </div>
 
@@ -81,7 +80,28 @@
 
 <script src="../../js/libraries/jquery-3.4.1.min.js"></script>
 <script src="../../js/libraries/jquery.magnific-popup.min.js"></script>
+<script src="../../js/libraries/sound.js"></script>
 
+
+<script>
+
+    createjs.Sound.on("fileload", handleLoadComplete);
+    createjs.Sound.alternateExtensions = ["wav"];
+
+    function handleLoadComplete(event) {
+        createjs.Sound.play("sound");
+    }
+
+    function handleLoadstop(event) {
+        createjs.Sound.stop("sound");
+    }
+
+    $('.listen--btn').click((e) => {
+        handleLoadstop()
+        createjs.Sound.registerSound({src:`${e.target.getAttribute('data-voice')}`, id:"sound"});
+        handleLoadComplete()
+    })
+</script>
 
 <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
 <script src="../../New-header-vue/app.js"></script>
