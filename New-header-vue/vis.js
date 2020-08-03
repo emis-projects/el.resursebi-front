@@ -316,7 +316,15 @@ let jsonObject = null,
 
       window.location.replace(`${thisNodeUrl}.html`)
     });
+
+
+    // სარჩევში იმ გვერდის გააქტიურება, რომლიდანაც გამოვიძახეთ სარჩევის მენიუ
+
+    network.selectNodes(['1'])
+
+
   }
+
 
 
 
