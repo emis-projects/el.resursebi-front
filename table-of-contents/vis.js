@@ -70,19 +70,19 @@ let jsonObject = null,
 
           } else if(stepLabelValue == 3){
             w.group = `step${stepLabelValue}`
-          
+
           } else if(stepLabelValue == 4){
             w.group = `step${stepLabelValue}`
 
           } else if(stepLabelValue == 5){
             w.group = `step${stepLabelValue}`
-          
+
           } else if(stepLabelValue == 6){
             w.group = `step${stepLabelValue}`
 
           } else if(stepLabelValue == 7){
             w.group = `step${stepLabelValue}`
-          
+
           } else if(stepLabelValue == 8){
             w.group = `step${stepLabelValue}`
 
@@ -303,7 +303,7 @@ let jsonObject = null,
             selected: 'images/stepActive9.svg'
           },
           size: 50,
-        },
+        }
       }
 
     };

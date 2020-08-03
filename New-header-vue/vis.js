@@ -8,7 +8,7 @@ let jsonObject = null,
 
   getTypeAndWidth = (number) => {
     if(number == 1){
-      group = "step"
+      group = "step1"
 
     } else if(number == 2) {
       group = "exercise"
@@ -57,13 +57,38 @@ let jsonObject = null,
           return false
         }
       } else if(w.type === 1){
-        if(w.type == 1 && Stepindex == 0) {
-          Stepindex++
-          return true
+        Stepindex++
+        stepLabelValue++
 
-        } else {
-          return false
+        if(stepLabelValue == 1){
+          w.group = `step${stepLabelValue}`
+
+        } else if(stepLabelValue == 2){
+          w.group = `step${stepLabelValue}`
+
+        } else if(stepLabelValue == 3){
+          w.group = `step${stepLabelValue}`
+
+        } else if(stepLabelValue == 4){
+          w.group = `step${stepLabelValue}`
+
+        } else if(stepLabelValue == 5){
+          w.group = `step${stepLabelValue}`
+
+        } else if(stepLabelValue == 6){
+          w.group = `step${stepLabelValue}`
+
+        } else if(stepLabelValue == 7){
+          w.group = `step${stepLabelValue}`
+
+        } else if(stepLabelValue == 8){
+          w.group = `step${stepLabelValue}`
+
+        } else if(stepLabelValue == 9){
+          w.group = `step${stepLabelValue}`
         }
+
+        return true
 
       } else {
         Stepindex = 0;
@@ -164,50 +189,114 @@ let jsonObject = null,
         complexExercise: { // კომპლექსური დავალება
           shape: 'image',
           image: {
-            unselected: 'http://127.0.0.1:5500/New-header-vue/images/complexExercise.png',
-            selected: 'http://127.0.0.1:5500/New-header-vue/images/complexExerciseActive.png'
+            unselected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/complexExercise.png',
+            selected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/complexExercise.png/New-header-vue/images/complexExerciseActive.png'
           },
           size: 50
         },
         complexExercise2: { // კომპლექსური დავალება
           shape: 'image',
           image: {
-            unselected: 'http://127.0.0.1:5500/New-header-vue/images/complexExercise2.png',
-            selected: 'http://127.0.0.1:5500/New-header-vue/images/complexExercise2Active.png'
+            unselected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/complexExercise.png/New-header-vue/images/complexExercise2.png',
+            selected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/complexExercise.png/New-header-vue/images/complexExercise2Active.png'
           },
           size: 50
         },
         exercise: {  // სავარჯიშო
           shape: 'image',
           image: {
-            unselected: 'http://127.0.0.1:5500/New-header-vue/images/exercise.png',
-            selected: 'http://127.0.0.1:5500/New-header-vue/images/exerciseActive.png'
+            unselected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/complexExercise.png/New-header-vue/images/exercise.png',
+            selected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/complexExercise.png/New-header-vue/images/exerciseActive.png'
           },
           size: 35
         },
         hint: { // მინიშნება
           shape: 'image',
           image: {
-            unselected: 'http://127.0.0.1:5500/New-header-vue/images/hint.png',
-            selected: 'http://127.0.0.1:5500/New-header-vue/images/hintActive.png'
+            unselected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/complexExercise.png/New-header-vue/images/hint.png',
+            selected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/complexExercise.png/New-header-vue/images/hintActive.png'
           },
           size: 35
         },
         mid: {  // შუალედური
           shape: 'image',
           image: {
-            unselected: 'http://127.0.0.1:5500/New-header-vue/images/mid.png',
-            selected: 'http://127.0.0.1:5500/New-header-vue/images/midActive.png'
+            unselected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/complexExercise.png/New-header-vue/images/mid.png',
+            selected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/complexExercise.png/New-header-vue/images/midActive.png'
           },
           size: 35
         },
-        step: {  // ნაბიჯი
+        step1: {  // ნაბიჯი
           shape: 'image',
           image: {
-            unselected: 'http://127.0.0.1:5500/New-header-vue/images/step.png',
-            selected: 'http://127.0.0.1:5500/New-header-vue/images/stepActive.png'
+            unselected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue//step1.svg',
+            selected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue//stepActive1.svg'
           },
-          size: 50
+          size: 50,
+        },
+        step2: {  // ნაბიჯი
+          shape: 'image',
+          image: {
+            unselected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue//step2.svg',
+            selected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue//stepActive2.svg'
+          },
+          size: 50,
+        },
+        step3: {  // ნაბიჯი
+          shape: 'image',
+          image: {
+            unselected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue//step3.svg',
+            selected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue//stepActive3.svg'
+          },
+          size: 50,
+        },
+        step4: {  // ნაბიჯი
+          shape: 'image',
+          image: {
+            unselected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue//step4.svg',
+            selected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue//stepActive4.svg'
+          },
+          size: 50,
+        },
+        step5: {  // ნაბიჯი
+          shape: 'image',
+          image: {
+            unselected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue//step5.svg',
+            selected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue//stepActive5.svg'
+          },
+          size: 50,
+        },
+        step6: {  // ნაბიჯი
+          shape: 'image',
+          image: {
+            unselected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue//step6.svg',
+            selected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue//stepActive6.svg'
+          },
+          size: 50,
+        },
+        step7: {  // ნაბიჯი
+          shape: 'image',
+          image: {
+            unselected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue//step7.svg',
+            selected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue//stepActive7.svg'
+          },
+          size: 50,
+        },
+        step8: {  // ნაბიჯი
+          shape: 'image',
+          image: {
+            unselected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue//step8.svg',
+            selected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue//stepActive8.svg'
+          },
+          size: 50,
+        },
+        step9: {  // ნაბიჯი
+          shape: 'image',
+          image: {
+            unselected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue//step9.svg',
+            selected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue//stepActive9.svg'
+          },
+          size: 50,
         }
       }
 
