@@ -1,4 +1,4 @@
-.music-new-11-div {
+ .music-new-11-div{
     &-3-img {
         height:46.87vh;
     }
@@ -8,9 +8,49 @@
         bottom:3.38vh;
         right:12.44vw;
     }
+    &-6-img{
+        height:54.29vh;
+        position: absolute;
+        bottom:3.38vh;
+        right:12.44vw;
+    }
+    &-17-img {
+        height:7.94vh;
+    }
     img {
         height: 100%;
     }
+} 
+.music-new-11-div-5-img{
+    justify-content:space-evenly;
+    img{
+        height:3.9vh;
+    }
+}
+.music-new-11-div-5-text{
+    p{
+        font-family: "DejaVuSans";
+        font-size:2.6vh;
+        color:#0B2228;
+    }
+}
+.music-new-11-div-5-col{
+    margin: 10vh auto; 
 }
 
- 
+.class_music_11-img_6{
+    &-1{
+    height:20.31vh;
+    }
+    &-2{
+        height:32.81vh;
+    }
+    &-3{
+        height:24.47vh;
+    } 
+    align-self: flex-end;
+
+    .class_music_3-img_10_circle_blue{
+    margin: 3vh auto;
+    }
+}
