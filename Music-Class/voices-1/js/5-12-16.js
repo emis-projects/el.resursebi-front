@@ -13,7 +13,7 @@ function handleLoadstop(event) {
 document.querySelectorAll('.listen--btn').forEach(w => {
     w.addEventListener('click', (e) => {
         handleLoadstop()
-        createjs.Sound.registerSound({ src: `${e.target.getAttribute('data-voice')}`, id: "sound" }, console.log("mesame"));
+        createjs.Sound.registerSound({ src: `${e.target.getAttribute('data-voice')}`, id: "sound" });
         handleLoadComplete()
     })
 })
@@ -24,6 +24,7 @@ function musicGames() {
     var DragGameChilds1 = document.querySelectorAll('.DragGame--childs1');
     var mydrag = document.querySelectorAll('.myDrag');
     var DragGameResetParent = document.querySelector('.DragGameResetParent');
+    var DragGameResetParent1 = document.querySelector('.DragGameResetParent1');
 
     var completedBtn = document.getElementById('completedGame');
     var resetBtn = document.getElementById('resetBtn');
@@ -96,6 +97,9 @@ function musicGames() {
             if (window.location.href.includes("16.html")) {
                 location.href = 'game-success-16.html';
             }
+            if (window.location.href.includes("12.html")) {
+                location.href = 'game-success-12.html';
+            }
         }
         else {
             this.errorPage();
@@ -132,6 +136,9 @@ function musicGames() {
             //     .insertBefore(element, document.getElementById(element.getAttribute("data-place")).firstChild);
             if (element.getAttribute("data-end") == "1") {
                 DragGameResetParent.appendChild(element)
+            }
+            if (element.getAttribute("data-end") == "11") {
+                DragGameResetParent1.appendChild(element)
             }
         });
         myDragArray.forEach(element => {

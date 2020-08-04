@@ -49703,11 +49703,6 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .choose_music_10-img_5 {
   height: 38vh;
-  max-width: 292.5px;
-}
-
-.choose_music_10-img_5 img {
-  height: 100%;
 }
 
 .choose_music_10-img_6 {
@@ -49732,8 +49727,16 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 58.26vh;
 }
 
+.choose_music_10-img_8 img {
+  height: 100%;
+}
+
 .choose_music_10-img_9 {
   height: 39.5vh;
+}
+
+.choose_music_10-title_item {
+  margin-bottom: 1.2vh !important;
 }
 
 .music-new-10-div-10-img {
