@@ -1,4 +1,4 @@
-const url = window.location.pathname
+const index = document.getElementById('index')
 // directive გადაემა html კომპონენტში
 Vue.directive('logo', {
     bind: function (el, binding, vnode) {
@@ -644,7 +644,7 @@ var app = new Vue({
     methods: {
         toggle() {
             this.isActive = !this.isActive;
-
+            console.log(index.id);
             this.dots.forEach(dot => {
                 if (dot.id === 0 && !this.isActive) {
                     dot.disable = false;
@@ -658,7 +658,7 @@ var app = new Vue({
                     dot.disable = true;
                     dot.classActive = false;
                 }
-                if(url.includes('html') && dot.id === 2 || dot.id === 3){
+                if(index.id !== 'index' && dot.id === 2 || dot.id === 3){
                      dot.disable = false
                      dot.classActive = false;
 
