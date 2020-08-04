@@ -99,7 +99,7 @@
     }
   }
   &.active:nth-child(1) span {
-    background-image: url("../img/slider/dots_purple.svg")!important;
+    background-image: url("../img/slider/dots_purple.svg");
   }
   &.active:nth-child(2) span {
     background-image: url("../img/slider/dots_pink.svg");
