@@ -71,9 +71,15 @@
         </div>
         <div class="row d-flex justify-content-start m-auto">
             <div class="col-12 d-flex mt-3vh justify-content-start music-new-1-div-5-icons">
-                <img src="../../img/gakvetilebi/Music-class/voices-1/music-new-01-5-icon-1.svg"/>
-                <img src="../../img/gakvetilebi/Music-class/voices-1/music-new-01-5-icon-2.svg"/>
-                <img src="../../img/gakvetilebi/Music-class/voices-1/music-new-01-5-icon-3.svg"/>
+                <div class="DragGameResetParent1">
+                  <img data-end="1" data-place="1" data-voice="./game-voices/სლაიდი 21/1. oliviemessiaen.wav" class="listen--btn DragGame--childs1" src="../../img/gakvetilebi/Music-class/voices-1/music-new-01-5-icon-1.svg" alt="image">
+              </div>
+              <div class="DragGameResetParent2">
+                  <img data-end="2" data-place="2" data-voice="./game-voices/სლაიდი 21/2. RODGERS.wav" class="listen--btn DragGame--childs1"  src="../../img/gakvetilebi/Music-class/voices-1/music-new-01-5-icon-2.svg" alt="image">
+              </div>
+              <div class="DragGameResetParent3">
+                  <img data-end="3" data-place="3" data-voice="./game-voices/სლაიდი 21/3. Sinfonia in C Major, RV 112 III. Presto.wav" class="listen--btn DragGame--childs1"  src="../../img/gakvetilebi/Music-class/voices-1/music-new-01-5-icon-3.svg" alt="image">
+              </div>
               </div>
             <div class="col-3 music-new-1-div-5-col  d-flex justify-content-center">
                 <div class=" portfolio-item-container portfolio-item-container_newDesign  music-new-1-div-5">
@@ -85,7 +91,7 @@
                         </a>
                     </div>
                 </div>  
-            <div class="music-new-1-div-5-img-circle"></div>    
+            <div data-place="1" class="music-new-1-div-5-img-circle myDrag"></div>    
         </div>       
         <div class="col-3 music-new-1-div-5-col  d-flex justify-content-center">
               <div class="portfolio-item-container portfolio-item-container_newDesign  music-new-1-div-5">
@@ -97,7 +103,7 @@
                     <img src="../../img/icons/arrows_blue.svg" class="paging_buttons_fullScreen-img" /></a>
                 </div>
               </div>   
-              <div class="music-new-1-div-5-img-circle"></div>            
+              <div data-place="2" class="music-new-1-div-5-img-circle myDrag"></div>            
             </div>
             <div class="col-3 music-new-1-div-5-col  d-flex justify-content-center">
               <div class="portfolio-item-container portfolio-item-container_newDesign  music-new-1-div-5">
@@ -109,7 +115,7 @@
                     <img src="../../img/icons/arrows_blue.svg" class="paging_buttons_fullScreen-img" /></a>
                 </div>
               </div> 
-              <div class="music-new-1-div-5-img-circle"></div>              
+              <div data-place="3" class="music-new-1-div-5-img-circle myDrag"></div>              
             </div>
           </div>
       <!-- Modal -->
@@ -198,6 +204,8 @@
   <script src="../../Vue-chatBot/botApp.js"></script>
   <script src="../../js/bot.js"></script>
 
+  <script src="../../js/libraries/sound.js"></script>
+  <script src="./js/20.js"></script>
 
   <script>
     var owl = $(".owl-carousel");

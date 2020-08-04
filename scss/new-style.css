@@ -48100,7 +48100,7 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .music-new-1-div-5-icons img {
-  height: 8.59vh;
+  height: 8.59vh !important;
   margin-right: 12vh;
 }
 
