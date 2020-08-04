@@ -39,51 +39,51 @@
   }
 }
 
-#index {
-  position: relative;
-  margin-top: 6vh;
-  padding-top: 0;
+// #index {
+//   position: relative;
+//   margin-top: 6vh;
+//   padding-top: 0;
 
-  .owl-theme .owl-nav.disabled+.owl-dots {
-    margin-top: -10vh;
-  }
+//   .owl-theme .owl-nav.disabled+.owl-dots {
+//     margin-top: -10vh;
+//   }
 
-  .owl-theme .owl-dots {
-    flex: 0 0 58.333333%;
-    max-width: 58.333333%;
-    margin-left: auto;
-    padding-right: 15px;
-    padding-left: 15px;
-    text-align: left;
-    z-index: 5;
+//   .owl-theme .owl-dots {
+//     flex: 0 0 58.333333%;
+//     max-width: 58.333333%;
+//     margin-left: auto;
+//     padding-right: 15px;
+//     padding-left: 15px;
+//     text-align: left;
+//     z-index: 5;
 
-    .owl-dot {
-      z-index: 5;
+//     .owl-dot {
+//       z-index: 5;
 
-      &:hover {
-        outline: none;
-      }
+//       &:hover {
+//         outline: none;
+//       }
 
-      span {
-        background: transparent;
-        border: 1px solid #707070;
-        height: 3vh;
-        width: 3vh;
-      }
-    }
+//       span {
+//         background: transparent;
+//         border: 1px solid #707070;
+//         height: 3vh;
+//         width: 3vh;
+//       }
+//     }
 
-    .owl-dot.active {
-      &:hover {
-        outline: none;
-      }
+//     .owl-dot.active {
+//       &:hover {
+//         outline: none;
+//       }
 
-      span {
-        background: #7fd1d8;
-        border: none;
-      }
-    }
-  }
-}
+//       span {
+//         background: #7fd1d8;
+//         border: none;
+//       }
+//     }
+//   }
+// }
 
 /* 
 ! slider content sectio
