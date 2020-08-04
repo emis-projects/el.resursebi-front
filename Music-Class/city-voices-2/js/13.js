@@ -14,7 +14,7 @@ function game() {
     this.answersArray = '';
     this.error = true;
     this.index = 1;
-    this.answer = "1331"
+    this.answer = "4"
 
 
 
@@ -76,18 +76,17 @@ function game() {
             this.checkWhichPageIs()
 
         } else {
-            $('.DragGame—childs1').attr('style', 'border: 2px solid #dc6c85;')
+            $('.DragGame—childs1').attr('style', 'outline: 3px solid #dc6c85; outline-offset: -2px;')
         }
     }
 
 
     this.checkWhichPageIs = () => {
-        let myLocation = location.pathname;
 
         if(this.index == 1){
             this.index = 2;
             this.answersArray = "";
-            this.answer = "3131"
+            this.answer = "3"
             this.error = true;
             document.getElementById('correctAnswer').setAttribute('data-correct', this.answer);
             $('.newDesign_subject_question_item-child').attr('style', 'display: none');
@@ -96,7 +95,7 @@ function game() {
         } else if(this.index == 2) {
             this.index = 3;
             this.answersArray = "";
-            this.answer = "3113"
+            this.answer = "1"
             this.error = true;
             document.getElementById('correctAnswer').setAttribute('data-correct', this.answer);
             $('.newDesign_subject_question_item-child').attr('style', 'display: none');
@@ -104,7 +103,7 @@ function game() {
         }
 
         else if(this.index == 3){
-            location.href = "game-success-11.html"
+            location.href = "game-success-13.html"
         }
     }
 
@@ -121,7 +120,7 @@ function game() {
 
     this.completGame = () => {
         this.checkGameAnswers()
-
+        
         // stop voice 
         createjs.Sound.stop("sound");
     }
