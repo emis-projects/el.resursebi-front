@@ -16415,7 +16415,7 @@ td img {
 }
 
 .mainPage_carousel-id .owl-theme .owl-dots .owl-dot.active:nth-child(1) span {
-  background-image: url("../img/slider/dots_purple.svg") !important;
+  background-image: url("../img/slider/dots_purple.svg");
 }
 
 .mainPage_carousel-id .owl-theme .owl-dots .owl-dot.active:nth-child(2) span {
