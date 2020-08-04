@@ -649,6 +649,10 @@ var app = new Vue({
                 if (dot.id === 0 && !this.isActive) {
                     dot.disable = false;
                     dot.classActive = true;
+
+                    this.link = 'start';
+                    this.activeClass = '';
+                    this.isInfo = false
                 }
                 if (dot.id === 1 && !this.isActive) {
                     dot.disable = true;
@@ -656,12 +660,13 @@ var app = new Vue({
                 }
                 if(url.includes('html') && dot.id === 2 || dot.id === 3){
                     dot.disable = false
-                    console.log('tada');
+                     dot.classActive = false;
+
+                     this.link = 'links';
+                     this.activeClass = '';
+                     this.isInfo = false
                 }
             });
-            this.link = 'start';
-            this.activeClass = '';
-            this.isInfo = false
         },
         info() {
             this.isInfo = !this.isInfo

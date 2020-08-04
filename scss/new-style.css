@@ -1853,6 +1853,16 @@ body {
           box-shadow: 0 0 1px 3px #F7CF4366;
 }
 
+.top-bar .links {
+  -webkit-box-shadow: 0 0 1px 3px #F7CF4366;
+          box-shadow: 0 0 1px 3px #F7CF4366;
+}
+
+.top-bar .sections {
+  -webkit-box-shadow: 0 0 1px 3px #F7CF4366;
+          box-shadow: 0 0 1px 3px #F7CF4366;
+}
+
 #app header {
   position: relative;
   z-index: 9999999;
