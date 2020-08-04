@@ -49474,6 +49474,31 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   max-height: 436px;
 }
 
+.one-day-5 img {
+  height: 100%;
+}
+
+.one-day-5-11 {
+  height: 63.02vh;
+  max-height: 484px;
+}
+
+.one-day-5-11 img {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+
+.one-day-5-12 {
+  height: 54.4vh;
+  max-height: 418px;
+}
+
+.one-day-5-13 {
+  height: 52vh;
+  max-height: 406px;
+}
+
 .music-bg-illustrations-5 {
   background-position: top center;
   background-size: cover;
