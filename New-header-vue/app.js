@@ -659,7 +659,7 @@ var app = new Vue({
                     dot.classActive = false;
                 }
                 if(url.includes('html') && dot.id === 2 || dot.id === 3){
-                    dot.disable = false
+                     dot.disable = false
                      dot.classActive = false;
 
                      this.link = 'links';
