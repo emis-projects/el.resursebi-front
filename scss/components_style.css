@@ -3136,6 +3136,21 @@ section .arrow_up_down_downArrow img {
   background-position: top;
 }
 
+.portfolio-slider-music-new-3-20.owl-theme .owl-dots .owl-dot:nth-child(1) span {
+  background-image: url("../img/gakvetilebi/Music-class/findWayBySound-3/music-3-20-1.png");
+  background-position: top;
+}
+
+.portfolio-slider-music-new-3-20.owl-theme .owl-dots .owl-dot:nth-child(2) span {
+  background-image: url("../img/gakvetilebi/Music-class/findWayBySound-3/music-3-20-2.png");
+  background-position: top;
+}
+
+.portfolio-slider-music-new-3-20.owl-theme .owl-dots .owl-dot:nth-child(3) span {
+  background-image: url("../img/gakvetilebi/Music-class/findWayBySound-3/music-3-20-3.png");
+  background-position: top;
+}
+
 .big-font-size-22px {
   color: #0b2228;
   font-family: "BPG Arial";
