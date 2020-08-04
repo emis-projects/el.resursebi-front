@@ -28,6 +28,12 @@
 
         gtag('config', 'UA-155006442-1');
     </script>
+
+    <style>
+        .newDesign_subject_question_item {
+            margin-bottom: 4.2vh;
+        }
+    </style>
 </head>
 
 <body>
@@ -47,7 +53,7 @@
             </app-section>
         </section>
         <section id="mainPage">
-            <div class="row mt-5vh">
+            <div class="row mt-5vh" id="correctAnswer">
                 <div class="col-6 ">
                     <div class="newDesign_subject_question_item">
                         <img alt="img" class="newDesign_subject_question_item-img" src="../../img/icons/newDesign_btn-yellow.svg">
@@ -63,50 +69,50 @@
                              და დაიმახსოვრე.          
                         </p>
                     </div>
-                    <div class="newDesign_subject_question_item">
+                    <div class="newDesign_subject_question_item newDesign_subject_question_item-child">
                         <img alt="img" class="newDesign_subject_question_item-img" src="../../img/icons/newDesign_btn-yellow.svg">
                         <p class="newDesign_subject_question_item-title">
-                            <img src="../../img/gakvetilebi/Music-class/city-voices-2/music-new-02-listen-icon.svg" alt="listen" class="cs-4-9-2-img"/> <span class="listen-music-purple-tag">მოუსმინე</span>
-                            ახლა კი<img src="../../img/gakvetilebi/Music-class/city-voices-2/music-new-02-listen-icon.svg" alt="listen" class="cs-4-9-2-img"/> <span class="listen-music-purple-tag">მოუსმინე</span>
+                            ახლა კი<img src="../../img/gakvetilebi/Music-class/city-voices-2/music-new-02-listen-icon.svg" alt="listen" class="cs-4-9-2-img"/> <span class="listen-music-purple-tag listen--btn cursor-pointer" data-voice="./game-voices/სლაიდი14/გამოსახულება 4.wav">მოუსმინე</span>
                             ხმას და  </br>
                             დააწკაპე  სათანადო ნიშანს;    
                         </p>
                     </div>
-                    <div class="newDesign_subject_question_item">
+                    <div class="newDesign_subject_question_item newDesign_subject_question_item-child">
                         <img alt="img" class="newDesign_subject_question_item-img" src="../../img/icons/newDesign_btn-yellow.svg">
                         <p class="newDesign_subject_question_item-title">
-                           <img src="../../img/gakvetilebi/Music-class/city-voices-2/music-new-02-listen-icon.svg" alt="listen" class="cs-4-9-2-img"/> <span class="listen-music-purple-tag">მოუსმინე</span>
-                             კიდევ ერთს და დააწკაპე </br>
+                            კიდევ ერთს <img src="../../img/gakvetilebi/Music-class/city-voices-2/music-new-02-listen-icon.svg" alt="listen" class="cs-4-9-2-img"/> <span class="listen-music-purple-tag listen--btn cursor-pointer" data-voice="./game-voices/სლაიდი14/გამოსახულება 6.wav">მოუსმინე</span>
+                            და დააწკაპე </br>
                               სათანადო ნიშანს;
                         </p>
                     </div>
-                       <div class="newDesign_subject_question_item">
+                       <div class="newDesign_subject_question_item newDesign_subject_question_item-child">
                         <img alt="img" class="newDesign_subject_question_item-img" src="../../img/icons/newDesign_btn-yellow.svg">
                         <p class="newDesign_subject_question_item-title">
-                            <img src="../../img/gakvetilebi/Music-class/city-voices-2/music-new-02-listen-icon.svg" alt="listen" class="cs-4-9-2-img"/> <span class="listen-music-purple-tag">მოუსმინე</span>
-                             კიდევ ერთს და დააწკაპე ნიშანს;
+                            კიდევ ერთს <img src="../../img/gakvetilebi/Music-class/city-voices-2/music-new-02-listen-icon.svg" alt="listen" class="cs-4-9-2-img"/> <span class="listen-music-purple-tag listen--btn cursor-pointer" data-voice="./game-voices/სლაიდი14/გამოსახულება 1.wav">მოუსმინე</span>
+                             და დააწკაპე ნიშანს;
                         </p>
-                    </div> <div class="newDesign_subject_question_item">
+                    </div> <div class="newDesign_subject_question_item newDesign_subject_question_item-child">
                         <img alt="img" class="newDesign_subject_question_item-img" src="../../img/icons/newDesign_btn-yellow.svg">
                         <p class="newDesign_subject_question_item-title">
-                            <img src="../../img/gakvetilebi/Music-class/city-voices-2/music-new-02-listen-icon.svg" alt="listen" class="cs-4-9-2-img"/> <span class="listen-music-purple-tag">მოუსმინე</span>
-                            კიდევ ერთსაც და დააწკაპე ნიშანს.
+                            კიდევ ერთსაც<img src="../../img/gakvetilebi/Music-class/city-voices-2/music-new-02-listen-icon.svg" alt="listen" class="cs-4-9-2-img"/> <span class="listen-music-purple-tag listen--btn cursor-pointer" data-voice="./game-voices/სლაიდი14/გამოსახულება 5.wav">მოუსმინე</span>
+                             და დააწკაპე ნიშანს.
                         </p>
                     </div>
                 </div>
+                
                 <div class="col-6 ">
                     <div class="music-new-2-div music-new-2-div-13-img d-flex ">
-                        <img src="../../img/gakvetilebi/Music-class//city-voices-2/music-new-02-13-1.svg" alt="image" />
-                        <img src="../../img/gakvetilebi/Music-class//city-voices-2/music-new-02-13-2.svg" alt="image" />
+                        <img class="cursor-pointer DragGame—childs1" data-index="1" data-voice="./game-voices/სლაიდი14/გამოსახულება 1.wav" src="../../img/gakvetilebi/Music-class//city-voices-2/music-new-02-13-1.svg" alt="image" />
+                        <img class="cursor-pointer DragGame—childs1" data-index="2" data-voice="./game-voices/სლაიდი14/გამოსახულება 2.wav" src="../../img/gakvetilebi/Music-class//city-voices-2/music-new-02-13-2.svg" alt="image" />
                     </div>
                    
                     <div class="music-new-2-div music-new-2-div-13-img d-flex mt-10vh">
-                        <img src="../../img/gakvetilebi/Music-class//city-voices-2/music-new-02-13-3.svg" alt="image" />
-                        <img src="../../img/gakvetilebi/Music-class//city-voices-2/music-new-02-13-4.svg" alt="image" />
+                        <img class="cursor-pointer DragGame—childs1" data-index="3" data-voice="./game-voices/სლაიდი14/გამოსახულება 3.wav" src="../../img/gakvetilebi/Music-class//city-voices-2/music-new-02-13-3.svg" alt="image" />
+                        <img class="cursor-pointer DragGame—childs1" data-index="4" data-voice="./game-voices/სლაიდი14/გამოსახულება 4.wav" src="../../img/gakvetilebi/Music-class//city-voices-2/music-new-02-13-4.svg" alt="image" />
                     </div>
                      <div class="music-new-2-div music-new-2-div-13-img d-flex mt-10vh">
-                        <img src="../../img/gakvetilebi/Music-class//city-voices-2/music-new-02-13-5.svg" alt="image" />
-                        <img src="../../img/gakvetilebi/Music-class//city-voices-2/music-new-02-13-6.svg" alt="image" />
+                        <img class="cursor-pointer DragGame—childs1" data-index="5" data-voice="./game-voices/სლაიდი14/გამოსახულება 5.wav" src="../../img/gakvetilebi/Music-class//city-voices-2/music-new-02-13-5.svg" alt="image" />
+                        <img class="cursor-pointer DragGame—childs1" data-index="6" data-voice="./game-voices/სლაიდი14/გამოსახულება 6.wav" src="../../img/gakvetilebi/Music-class//city-voices-2/music-new-02-13-6.svg" alt="image" />
                     </div>
                 </div>
             </div>
@@ -145,14 +151,14 @@
     <script src="../../js/libraries/jquery.magnific-popup.min.js"></script>
     <script src="../../js/Pagination.js"></script>
 
+    <script src="../../js/libraries/sound.js"></script>
+
+    <script src="./js/13.js"></script>
 
 <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
     <script src="../../New-header-vue/vis.js"></script>
     <script src="../../New-header-vue/app.js"></script>
     <script src="../../Vue-chatBot/botApp.js"></script>
     <script src="../../js/bot.js"></script>
-
-
 </body>
-
 </html>
