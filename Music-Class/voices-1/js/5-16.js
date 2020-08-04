@@ -13,7 +13,7 @@ function handleLoadstop(event) {
 document.querySelectorAll('.listen--btn').forEach(w => {
     w.addEventListener('click', (e) => {
         handleLoadstop()
-        createjs.Sound.registerSound({ src: `${e.target.getAttribute('data-voice')}`, id: "sound" });
+        createjs.Sound.registerSound({ src: `${e.target.getAttribute('data-voice')}`, id: "sound" }, console.log("mesame"));
         handleLoadComplete()
     })
 })
@@ -90,7 +90,12 @@ function musicGames() {
     this.successPage = () => {
         let el = myArray.every(this.checkEveryElement);
         if (el) {
-            location.href = 'game-success-5.html'
+            if (window.location.href.includes("5.html")) {
+                location.href = 'game-success-5.html';
+            }
+            if (window.location.href.includes("16.html")) {
+                location.href = 'game-success-16.html';
+            }
         }
         else {
             this.errorPage();

@@ -1,4 +1,4 @@
-const url = window.location.pathname
+const index = document.getElementById('index')
 // directive გადაემა html კომპონენტში
 Vue.directive('logo', {
     bind: function (el, binding, vnode) {
@@ -561,7 +561,10 @@ Vue.component('appLinks', {
             required: true
         }
     },
-    mounted() {
+    mounted(){
+        init()
+    },
+    updated() {
         init()
     },
     template: `
@@ -644,8 +647,8 @@ var app = new Vue({
     methods: {
         toggle() {
             this.isActive = !this.isActive;
-
             this.dots.forEach(dot => {
+                console.log(dot.id === 2);
                 if (dot.id === 0 && !this.isActive) {
                     dot.disable = false;
                     dot.classActive = true;
@@ -658,13 +661,17 @@ var app = new Vue({
                     dot.disable = true;
                     dot.classActive = false;
                 }
-                if(url.includes('html') && dot.id === 2 || dot.id === 3){
+                if(!index && dot.id == 2 ){
                      dot.disable = false
                      dot.classActive = false;
 
                      this.link = 'links';
                      this.activeClass = '';
                      this.isInfo = false
+                }
+                if(!index && dot.id == 3 ){
+                     dot.disable = false
+                     dot.classActive = false;
                 }
             });
         },
