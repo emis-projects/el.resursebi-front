@@ -28,6 +28,7 @@ function musicGames() {
     var DragGameResetParent3 = document.querySelector('.DragGameResetParent3');
     var DragGameResetParent4 = document.querySelector('.DragGameResetParent4');
     var DragGameResetParent5 = document.querySelector('.DragGameResetParent5');
+    var DragGameResetParent6 = document.querySelector('.DragGameResetParent6');
 
 
     var completedBtn = document.getElementById('completedGame');
@@ -142,6 +143,9 @@ function musicGames() {
             }
             if (element.getAttribute("data-end") == "5") {
                 DragGameResetParent5.appendChild(element)
+            }
+            if (element.getAttribute("data-end") == "6") {
+                DragGameResetParent6.appendChild(element)
             }
         });
         myDragArray.forEach(element => {
