@@ -95,7 +95,7 @@ function musicGames() {
     this.successPage = () => {
         let el = myArray.every(this.checkEveryElement);
         if (el) {
-            location.href = 'game-success-5.html'
+            location.href = 'game-success-7.html'
         }
         else {
             this.errorPage();
