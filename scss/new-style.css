@@ -48452,15 +48452,12 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .music-new-4-div-7-blue-icon {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  height: 5.98vh;
+  margin-bottom: 2.7vh;
 }
 
 .music-new-4-div-7-blue-icon img {
-  height: 5.98vh;
-  margin-bottom: 2.7vh;
+  height: 100%;
 }
 
 .music-new-4-div-7-lyrics {
