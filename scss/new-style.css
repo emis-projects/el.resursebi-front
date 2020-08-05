@@ -48634,8 +48634,6 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 .class_music_4-img_icon {
   display: inline;
   vertical-align: middle;
-  width: 3.25;
-  height: 3.25;
 }
 
 .class_music_4-title_purple {
@@ -48724,6 +48722,10 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   margin-right: 5vh;
 }
 
+.class_music_4-img_25_circle {
+  cursor: pointer;
+}
+
 .class_music_4-img_25_circle img {
   width: 12vh;
   height: 12vh;
@@ -48738,9 +48740,7 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .class_music_4-img_25_cont {
-  background-image: url("../img/gakvetilebi/Music-class/Walk-in-the-city-4/music-4-25-rect.svg");
-  background-repeat: no-repeat;
-  background-size: contain;
+  background: #947DCE;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -48752,7 +48752,21 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
           justify-content: center;
   width: 20.3vh;
   height: 10.4vh;
+  border-radius: 8px;
+  cursor: pointer;
   margin-bottom: 2.6vh;
+}
+
+.class_music_4-img_25_cont.active {
+  background: #d8c76a;
+}
+
+.class_music_4-img_25_cont.error {
+  background: #dc6c85;
+}
+
+.class_music_4-img_25_cont.success {
+  background: #A1DD6F;
 }
 
 .class_music_4-check_box {

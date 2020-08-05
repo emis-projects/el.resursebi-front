@@ -21,8 +21,8 @@
     &-img_icon {
         display: inline;
         vertical-align: middle;
-        width: 3.25;
-        height: 3.25;
+        //width: 3.25vh;
+        //height: 3.25vh;
     }
     &-title_purple {
         color: #947DCE;
@@ -95,6 +95,7 @@
         margin-right: 5vh;
     }
     &-img_25_circle {
+        cursor: pointer;
         img {
             width: 12vh;
             height: 12vh;
@@ -108,23 +109,34 @@
         opacity: 1;
     }
     &-img_25_cont {
-        background-image: url('../img/gakvetilebi/Music-class/Walk-in-the-city-4/music-4-25-rect.svg');
-        background-repeat: no-repeat;
-        background-size: contain;
+        background: #947DCE;
+        //background-repeat: no-repeat;
+        //background-size: contain;
         display: flex;
         align-items: center;
         justify-content: center;
         width: 20.3vh;
         height: 10.4vh;
-        margin-bottom: 2.6vh;
-    }
-    &-check_box {
-        height: 2.6vh;
-        width: 2.6vh;
-        margin: 0.7vh 1.5vh 0 0;
-        border: 2px solid #696969;
         border-radius: 8px;
-        margin: auto;
-        opacity: 1;
+        cursor: pointer;
+        margin-bottom: 2.6vh;
+        &.active {
+            background: #d8c76a;
+        }
+        &.error {
+            background: #dc6c85;
+        }
+         &.success {
+             background: #A1DD6F;
+        }
     }
+        &-check_box {
+            height: 2.6vh;
+            width: 2.6vh;
+            margin: 0.7vh 1.5vh 0 0;
+            border: 2px solid #696969;
+            border-radius: 8px;
+            margin: auto;
+            opacity: 1;
+        }
 }
