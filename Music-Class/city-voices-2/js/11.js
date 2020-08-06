@@ -121,6 +121,9 @@ function game() {
 
     this.completGame = () => {
         this.checkGameAnswers()
+
+        // stop voice 
+        createjs.Sound.stop("sound");
     }
 }
 
