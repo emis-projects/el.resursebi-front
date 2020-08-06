@@ -1,4 +1,4 @@
-.class_music_9 {
+.class_game_music_9 {
     &-img_5 {
         height: 38vh;
     }
@@ -17,7 +17,11 @@
     &-img_8 {
         position: fixed;
         bottom: 0;
-        height: 58.26vh;
+        right: 0;
+        height: 75.46vh;
+        img {
+            height: 100%;
+        }
     }
     &-img_9 {
         height: 39.5vh;

@@ -49595,6 +49595,41 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   max-height: 344px;
 }
 
+.class_game_music_9-img_5 {
+  height: 38vh;
+}
+
+.class_game_music_9-img_6 {
+  height: 32.9vh;
+}
+
+.class_game_music_9-img_6_circle {
+  height: 6.19vh;
+}
+
+.class_game_music_9-img_7 {
+  height: 35.4vh;
+}
+
+.class_game_music_9-img_7_circle {
+  height: 7.16vh;
+}
+
+.class_game_music_9-img_8 {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  height: 75.46vh;
+}
+
+.class_game_music_9-img_8 img {
+  height: 100%;
+}
+
+.class_game_music_9-img_9 {
+  height: 39.5vh;
+}
+
 .class_music_9-bg_11 {
   background-image: url("../img/gakvetilebi/Music-class/Game-music-9/music-9-bg-illustrations-11.svg");
   background-position: top center;
@@ -51677,3 +51712,4 @@ body {
     font-size: 14px;
   }
 }
+/*# sourceMappingURL=new-style.css.map */
