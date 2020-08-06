@@ -45076,13 +45076,6 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .class_5_13-box_item_4 {
   position: absolute;
-  top: 24.2vh;
-  left: 48vh;
-  width: 9%;
-}
-
-.class_5_13-box_item_4_1 {
-  position: absolute;
   top: 30.6vh;
   left: 48vh;
   width: 9%;
@@ -48528,12 +48521,21 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .music-new-4-div-16-park {
   position: absolute;
-  bottom: 21.47vh;
+  bottom: 26.47vh;
   right: 10.24vw;
 }
 
 .music-new-4-div-16-park img {
   height: 27.73vh;
+}
+
+.music-new-4-div-16-park-white-container {
+  width: 13.68vw;
+  height: 5.2vh;
+  background-color: white;
+  position: absolute;
+  top: 3.5vh;
+  right: 4.5vw;
 }
 
 .music-new-4-div-10-lyrics-container {

@@ -107,11 +107,19 @@
 }
 .music-new-4-div-16-park{
     position:absolute;
-    bottom:21.47vh;
+    bottom:26.47vh;
     right:10.24vw;
     img{
         height:27.73vh;
     }
+   &-white-container{
+       width:13.68vw;
+       height:5.2vh;
+       background-color:white;
+       position:absolute;
+       top: 3.5vh;
+       right: 4.5vw;
+   }
 }
 
 .music-new-4-div-10-lyrics-container{
