@@ -102,7 +102,6 @@ function musicGames() {
             }
         }
         else {
-            console.log("ratooooooo")
             this.errorPage();
         }
         this.errorPage();
@@ -148,7 +147,6 @@ function musicGames() {
             }
         });
         myDragArray.forEach(element => {
-            console.log(element)
             element.style = '';
         });
         myArray.forEach(element => {
