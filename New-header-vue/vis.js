@@ -111,8 +111,6 @@ let jsonObject = null,
 
 
 
-
-
   // აქ იხატება ყველაფერი. დოკუმენტაცია: https://visjs.github.io/vis-network/docs/network/ -->
 
   // ვის.ჯს რომ ჩავტვირთოთ ვუში როცა კომპონენტს დავარენდერებთ(ხილულს გავხდით).
@@ -314,7 +312,9 @@ let jsonObject = null,
 
       var thisNodeUrl = nodes.get(SelectedNodeID).url;
 
-      window.location.replace(`${thisNodeUrl}.html`)
+      if(thisNodeUrl !== undefined){
+        window.location.replace(`${thisNodeUrl}.html`)
+      }
     });
 
 
