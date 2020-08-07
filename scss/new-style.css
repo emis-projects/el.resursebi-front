@@ -49143,8 +49143,11 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 67.7vh;
 }
 
-.class_music_7-img_9 {
-  height: 15vh;
+.class_music_7-blue_circle {
+  width: 8.2vh;
+  height: 8.2vh;
+  border: 3px solid #7FD1D8;
+  border-radius: 50%;
 }
 
 .class_music_7-img_circle_9 {
@@ -49169,6 +49172,142 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .class_music_7-img_12 {
   height: 35.9vh;
+}
+
+.Create-broadcast-hat-1 {
+  background-image: url("../img/gakvetilebi/Music-class/Create-broadcast-hat-7/music-7-9-1.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 19.79vh;
+  height: 14.97vh;
+}
+
+.Create-broadcast-hat-2 {
+  background-image: url("../img/gakvetilebi/Music-class/Create-broadcast-hat-7/music-7-9-2.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 19.79vh;
+  height: 14.97vh;
+}
+
+.Create-broadcast-hat-3 {
+  background-image: url("../img/gakvetilebi/Music-class/Create-broadcast-hat-7/music-7-9-3.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 19.79vh;
+  height: 14.97vh;
+}
+
+.Create-broadcast-hat-4 {
+  background-image: url("../img/gakvetilebi/Music-class/Create-broadcast-hat-7/music-7-9-4.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 19.79vh;
+  height: 14.97vh;
+}
+
+.Create-broadcast-hat-5 {
+  background-image: url("../img/gakvetilebi/Music-class/Create-broadcast-hat-7/music-7-9-5.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 19.79vh;
+  height: 14.97vh;
+}
+
+.Create-broadcast-hat-11-1 {
+  background-image: url("../img/gakvetilebi/Music-class/Create-broadcast-hat-7/music-7-11-1.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 31.77vh;
+  height: 18.6vh;
+}
+
+.Create-broadcast-hat-11-2 {
+  background-image: url("../img/gakvetilebi/Music-class/Create-broadcast-hat-7/music-7-11-2.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 31.77vh;
+  height: 18.6vh;
+}
+
+.Create-broadcast-hat-11-3 {
+  background-image: url("../img/gakvetilebi/Music-class/Create-broadcast-hat-7/music-7-11-3.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 31.77vh;
+  height: 18.6vh;
 }
 
 .class_music_7-bg_13 {
