@@ -48492,15 +48492,12 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .music-new-4-div-16-lyrics {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  height: 5.2vh;
+  margin-bottom: 3.38vh;
 }
 
 .music-new-4-div-16-lyrics img {
-  height: 5.2vh;
-  margin-bottom: 3.38vh;
+  height: 100%;
 }
 
 .music-new-4-div-16-buildings {
@@ -49771,12 +49768,53 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 38vh;
 }
 
-.choose_music_10-img_6 {
-  height: 32.9vh;
+.choose_music_10-img_6_rect {
+  background-image: url("../img/gakvetilebi/Music-class/Choose-background-music-10/music-10-6-path.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 32.4vh;
+  height: 29.8vh;
+}
+
+.choose_music_10-title_item_6 {
+  display: inline-block;
+  margin-bottom: 2.5vh;
+  padding: 0 1.5vh;
+}
+
+.choose_music_10-text_title {
+  font-size: 2.6vh;
+  font-family: DejaVuSans;
+}
+
+.choose_music_10-text_item_6 {
+  font-size: 1.8vh;
+  font-family: DejaVuSans;
 }
 
 .choose_music_10-img_6_circle {
   height: 6.19vh;
+}
+
+.choose_music_10-img_6_circle_border {
+  position: relative;
+  bottom: 5.6vh;
+  left: 27.9vh;
+  background-color: white;
+  border: 3px solid #F2DA8E;
+  border-radius: 50%;
+  width: 8.46vh;
+  height: 8.46vh;
+  opacity: 1;
 }
 
 .choose_music_10-img_7 {
