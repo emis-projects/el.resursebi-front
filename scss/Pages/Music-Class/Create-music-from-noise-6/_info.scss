@@ -6,7 +6,10 @@
         height:34.89vh;
         max-height:268px;
     }
-    &-2{
-        margin-top: -20vh;
+    &-2-img{
+        height: 62.15vh;
+        position: relative;
+        top: -18vh;
+        z-index: -10;
     }
 }
