@@ -48492,15 +48492,12 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .music-new-4-div-16-lyrics {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  height: 5.2vh;
+  margin-bottom: 3.38vh;
 }
 
 .music-new-4-div-16-lyrics img {
-  height: 5.2vh;
-  margin-bottom: 3.38vh;
+  height: 100%;
 }
 
 .music-new-4-div-16-buildings {
@@ -48530,12 +48527,22 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .music-new-4-div-16-park-white-container {
+  top: 3.5vh;
+}
+
+.music-new-4-div-16-build {
+  position: relative;
+}
+
+.music-new-4-div-16-white-container {
   width: 13.68vw;
   height: 5.2vh;
   background-color: white;
   position: absolute;
-  top: 3.5vh;
-  right: 4.5vw;
+  border: 1px solid #7FD1D8;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
 }
 
 .music-new-4-div-10-lyrics-container {
