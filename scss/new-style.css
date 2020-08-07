@@ -49958,6 +49958,22 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .choose_music_10-img_7 {
   height: 35.4vh;
+  max-height: 247px;
+}
+
+.choose_music_10-img_7 img {
+  height: 100%;
+}
+
+.choose_music_10-circle_7 {
+  height: 7.8vh;
+  width: 7.8vh;
+  right: -2.3vh;
+  bottom: 8vh;
+  position: absolute;
+  border: 3px solid #F2DA8E;
+  border-radius: 100%;
+  background-color: white;
 }
 
 .choose_music_10-img_7_circle {
@@ -49976,6 +49992,22 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .choose_music_10-img_9 {
   height: 39.5vh;
+  max-height: 276px;
+}
+
+.choose_music_10-img_9 img {
+  height: 100%;
+}
+
+.choose_music_10-circle_9 {
+  height: 7.8vh;
+  width: 7.8vh;
+  left: 28.7vh;
+  bottom: 2vh;
+  position: absolute;
+  border: 3px solid #F2DA8E;
+  border-radius: 100%;
+  background-color: white;
 }
 
 .choose_music_10-title_item {
