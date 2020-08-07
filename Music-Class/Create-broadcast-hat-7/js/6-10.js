@@ -81,18 +81,14 @@ function musicGames() {
 
     this.dragDrop = (e) => {
         var drag = document.querySelector('.draggedElement')
-        console.log('e.target.firstElementChild', e.target)
         if(!(e.target.firstElementChild)){
-            console.log('kii')
             if (e.target.classList.contains('myDrag')) {
-                console.log('araa')
                 e.target.appendChild(drag)
                 drag.setAttribute('style', "height: 100%;")
             }
         }
         
         // drag.style += "height: 100%; height: 100%; top: initial; left: initial; right: initial; bottom: initial; width: 100%";
-        console.log('drag', e.target)
         
     }
 
