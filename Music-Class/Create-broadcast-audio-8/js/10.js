@@ -90,8 +90,7 @@ function musicGames() {
             verifyAll(element);
         });
 
-
-        console.log('count', count)
+        
         if (count == 3) {
             this.successPage();
         }
