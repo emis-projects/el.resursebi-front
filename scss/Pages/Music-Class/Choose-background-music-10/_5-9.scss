@@ -2,11 +2,42 @@
     &-img_5 {
         height: 38vh;
     }
-    &-img_6 {
-        height: 32.9vh;
+    &-img_6_rect {
+        background-image: url('../img/gakvetilebi/Music-class/Choose-background-music-10/music-10-6-path.svg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 32.4vh;
+        height: 29.8vh;
+    }
+    &-title_item_6 {
+        display: inline-block;
+        margin-bottom: 2.5vh;
+        padding: 0 1.5vh;
+    }
+    &-text_title {
+        font-size: 2.6vh;
+        font-family: DejaVuSans;  
+    }
+    &-text_item_6 {
+        font-size: 1.8vh;
+        font-family: DejaVuSans;
     }
     &-img_6_circle {
         height: 6.19vh;
+    }
+    &-img_6_circle_border{
+        position: relative;
+        bottom: 5.6vh;
+        left: 27.9vh;
+        background-color: white;
+        border: 3px solid #F2DA8E;
+        border-radius: 50%;
+        width: 8.46vh;
+        height: 8.46vh;
+        opacity: 1;
     }
     &-img_7 {
         height: 35.4vh;
