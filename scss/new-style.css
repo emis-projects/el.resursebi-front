@@ -49146,8 +49146,11 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 67.7vh;
 }
 
-.class_music_7-img_9 {
-  height: 15vh;
+.class_music_7-blue_circle {
+  width: 8.2vh;
+  height: 8.2vh;
+  border: 3px solid #7FD1D8;
+  border-radius: 50%;
 }
 
 .class_music_7-img_circle_9 {
@@ -49172,6 +49175,142 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .class_music_7-img_12 {
   height: 35.9vh;
+}
+
+.Create-broadcast-hat-1 {
+  background-image: url("../img/gakvetilebi/Music-class/Create-broadcast-hat-7/music-7-9-1.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 19.79vh;
+  height: 14.97vh;
+}
+
+.Create-broadcast-hat-2 {
+  background-image: url("../img/gakvetilebi/Music-class/Create-broadcast-hat-7/music-7-9-2.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 19.79vh;
+  height: 14.97vh;
+}
+
+.Create-broadcast-hat-3 {
+  background-image: url("../img/gakvetilebi/Music-class/Create-broadcast-hat-7/music-7-9-3.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 19.79vh;
+  height: 14.97vh;
+}
+
+.Create-broadcast-hat-4 {
+  background-image: url("../img/gakvetilebi/Music-class/Create-broadcast-hat-7/music-7-9-4.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 19.79vh;
+  height: 14.97vh;
+}
+
+.Create-broadcast-hat-5 {
+  background-image: url("../img/gakvetilebi/Music-class/Create-broadcast-hat-7/music-7-9-5.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 19.79vh;
+  height: 14.97vh;
+}
+
+.Create-broadcast-hat-11-1 {
+  background-image: url("../img/gakvetilebi/Music-class/Create-broadcast-hat-7/music-7-11-1.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 31.77vh;
+  height: 18.6vh;
+}
+
+.Create-broadcast-hat-11-2 {
+  background-image: url("../img/gakvetilebi/Music-class/Create-broadcast-hat-7/music-7-11-2.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 31.77vh;
+  height: 18.6vh;
+}
+
+.Create-broadcast-hat-11-3 {
+  background-image: url("../img/gakvetilebi/Music-class/Create-broadcast-hat-7/music-7-11-3.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 31.77vh;
+  height: 18.6vh;
 }
 
 .class_music_7-bg_13 {
@@ -49771,12 +49910,53 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 38vh;
 }
 
-.choose_music_10-img_6 {
-  height: 32.9vh;
+.choose_music_10-img_6_rect {
+  background-image: url("../img/gakvetilebi/Music-class/Choose-background-music-10/music-10-6-path.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 32.4vh;
+  height: 29.8vh;
+}
+
+.choose_music_10-title_item_6 {
+  display: inline-block;
+  margin-bottom: 2.5vh;
+  padding: 0 1.5vh;
+}
+
+.choose_music_10-text_title {
+  font-size: 2.6vh;
+  font-family: DejaVuSans;
+}
+
+.choose_music_10-text_item_6 {
+  font-size: 1.8vh;
+  font-family: DejaVuSans;
 }
 
 .choose_music_10-img_6_circle {
   height: 6.19vh;
+}
+
+.choose_music_10-img_6_circle_border {
+  position: relative;
+  bottom: 5.6vh;
+  left: 27.9vh;
+  background-color: white;
+  border: 3px solid #F2DA8E;
+  border-radius: 50%;
+  width: 8.46vh;
+  height: 8.46vh;
+  opacity: 1;
 }
 
 .choose_music_10-img_7 {
@@ -49830,6 +50010,90 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .music-new-10-div img {
   height: 100%;
+}
+
+.animation-music-12 img {
+  height: 100%;
+}
+
+.animation-music-12-1 {
+  height: 63vh;
+  max-height: 484px;
+}
+
+.animation-music-12-3 {
+  height: 64vh;
+  max-height: 498px;
+}
+
+.animation-music-12-4 {
+  height: 61.84vh;
+  max-height: 475px;
+}
+
+.animation-soundtrack-12-13 {
+  height: 19vh;
+  max-height: 150px;
+}
+
+.animation-soundtrack-12-13 img {
+  height: 100%;
+}
+
+.animation-soundtrack-12-bg_14 {
+  background-image: url("../img/gakvetilebi/Music-class/Create-animation-soundtrack-12/music-12-bg-illustrations-14.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.animation-soundtrack-12-bg_15 {
+  background-image: url("../img/gakvetilebi/Music-class/Create-animation-soundtrack-12/music-12-bg-illustrations-15.png");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.animation-soundtrack-12-bg_16 {
+  background-image: url("../img/gakvetilebi/Music-class/Create-animation-soundtrack-12/music-12-bg-illustrations-16.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.animation-soundtrack-12-bg_17 {
+  background-image: url("../img/gakvetilebi/Music-class/Create-animation-soundtrack-12/music-12-bg-illustrations-17.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.background-music-title-black-cont {
+  padding-top: 10vh;
+}
+
+.background-music-title-black {
+  color: #243E41;
+  font-family: 'DejaVu Sans Oblique';
+  font-size: 3.64vh;
+}
+
+.animation-music-info img {
+  height: 100%;
+}
+
+.animation-music-info-6-1 {
+  height: 52vh;
+  max-height: 400px;
+}
+
+.animation-music-info-6-2 {
+  height: 29.42vh;
+  max-height: 226px;
 }
 
 body {
@@ -51740,4 +52004,3 @@ body {
     font-size: 14px;
   }
 }
-/*# sourceMappingURL=new-style.css.map */
