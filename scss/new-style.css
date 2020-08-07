@@ -50009,6 +50009,90 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
+.animation-music-12 img {
+  height: 100%;
+}
+
+.animation-music-12-1 {
+  height: 63vh;
+  max-height: 484px;
+}
+
+.animation-music-12-3 {
+  height: 64vh;
+  max-height: 498px;
+}
+
+.animation-music-12-4 {
+  height: 61.84vh;
+  max-height: 475px;
+}
+
+.animation-soundtrack-12-13 {
+  height: 19vh;
+  max-height: 150px;
+}
+
+.animation-soundtrack-12-13 img {
+  height: 100%;
+}
+
+.animation-soundtrack-12-bg_14 {
+  background-image: url("../img/gakvetilebi/Music-class/Create-animation-soundtrack-12/music-12-bg-illustrations-14.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.animation-soundtrack-12-bg_15 {
+  background-image: url("../img/gakvetilebi/Music-class/Create-animation-soundtrack-12/music-12-bg-illustrations-15.png");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.animation-soundtrack-12-bg_16 {
+  background-image: url("../img/gakvetilebi/Music-class/Create-animation-soundtrack-12/music-12-bg-illustrations-16.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.animation-soundtrack-12-bg_17 {
+  background-image: url("../img/gakvetilebi/Music-class/Create-animation-soundtrack-12/music-12-bg-illustrations-17.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.background-music-title-black-cont {
+  padding-top: 10vh;
+}
+
+.background-music-title-black {
+  color: #243E41;
+  font-family: 'DejaVu Sans Oblique';
+  font-size: 3.64vh;
+}
+
+.animation-music-info img {
+  height: 100%;
+}
+
+.animation-music-info-6-1 {
+  height: 52vh;
+  max-height: 400px;
+}
+
+.animation-music-info-6-2 {
+  height: 29.42vh;
+  max-height: 226px;
+}
+
 body {
   color: #262626;
   font-size: 14px;
