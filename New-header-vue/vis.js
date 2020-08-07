@@ -104,7 +104,7 @@ let jsonObject = null,
 
     obj = secondFilteredData;
 
-    console.log(secondFilteredData)
+    // console.log(secondFilteredData)
 
     nodesData = [...secondFilteredData]
   })

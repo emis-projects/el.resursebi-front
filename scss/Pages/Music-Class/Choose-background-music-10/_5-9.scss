@@ -41,6 +41,20 @@
     }
     &-img_7 {
         height: 35.4vh;
+        max-height: 247px;
+        img {
+            height: 100%;
+        }
+    }
+    &-circle_7 {
+        height: 7.8vh;
+        width: 7.8vh;
+        right: -2.3vh;
+        bottom: 8vh;
+        position:absolute;
+        border: 3px solid #F2DA8E;
+        border-radius: 100%;
+        background-color: white;
     }
     &-img_7_circle {
         height: 7.16vh;
@@ -55,6 +69,20 @@
     }
     &-img_9 {
         height: 39.5vh;
+        max-height: 276px;
+        img {
+            height: 100%;
+        }
+    }
+    &-circle_9 {
+        height: 7.8vh;
+        width: 7.8vh;
+        left: 28.7vh;
+        bottom: 2vh;
+        position:absolute;
+        border: 3px solid #F2DA8E;
+        border-radius: 100%;
+        background-color: white;
     }
     &-title_item {
         margin-bottom: 1.2vh!important;
