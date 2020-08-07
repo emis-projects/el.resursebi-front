@@ -21,6 +21,8 @@ function game() {
     let correctAnswer = document.getElementById('correctAnswer');
     const completeBtn = document.getElementById('completedGame');
     const resetBtn = document.getElementById('resetBtn');
+    let numberImages = document.querySelectorAll('.images--parent .DragGame—childs2');
+
 
 
     // listeners
@@ -36,6 +38,13 @@ function game() {
         drag.addEventListener('dragover', (e) => this.dragOver(e));
         drag.addEventListener('drop', (e) => this.dragDrop(e));
     }
+
+
+    var dragElementMyArray = [];
+    for(var i = 0; i < numberImages.length; i++ ){
+        dragElementMyArray.push(numberImages[i])
+    }
+
 
 
 
@@ -55,6 +64,8 @@ function game() {
         dragElement2MyArray.forEach(w => {
             w.setAttribute('data-class', w.getAttribute('class'))
         })
+
+        el = document.querySelector('.images--parent').cloneNode(true)
     })
     
 
@@ -114,7 +125,13 @@ function game() {
     this.init = () => {
         this.answersArray = '';
 
-        $('.DragGame—childs1').removeAttr('style')
+        $('.DragGame—childs1').removeAttr('style');
+
+        document.querySelector('.images--parent').innerHTML = "";
+
+        dragElementMyArray.forEach(w => {
+            document.querySelector('.images--parent').append(w)
+        })
 
         // stop voice 
         createjs.Sound.stop("sound");
