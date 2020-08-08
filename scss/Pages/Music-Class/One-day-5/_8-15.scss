@@ -1,0 +1,95 @@
+.class_music_5 {
+    &-img_9_title {
+        font-size: 15px;
+        font-family: DejaVuSans;
+        margin-bottom: 0!important;
+    }
+    &-img_9_cont {
+        background-image: url('../img/gakvetilebi/Music-class/One-day-5/music-5-9-rect.svg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 24.2vh;
+        height: 4.8vh;
+    }
+    &-check_box {
+        height: 2.6vh;
+        width: 2.6vh;
+        margin: 0.7vh 1.5vh 0 0;
+        border: 2px solid #696969;
+        border-radius: 8px;
+        margin: auto;
+        opacity: 1;
+    }
+    &-img_10 {
+        img {
+            width: 11vh;
+            height: 11vh;
+            margin: 0 auto;
+        }
+    }
+    &-img_10_title {
+        font-family: DejaVuSans;
+        font-size: 16px;
+    }
+    &-img_10_cont_major {
+        background-image: url('../img/gakvetilebi/Music-class/One-day-5/music-5-10-rect-blue.svg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 5vh auto 0;
+        width: 20vh;
+        height: 5.7vh;
+    }
+    &-img_10_cont_minor {
+        background-image: url('../img/gakvetilebi/Music-class/One-day-5/music-5-10-ret-yellow.svg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 2vh auto;
+        width: 20vh;
+        height: 5.7vh;
+    }
+    &-img_14_1 {
+        img {
+            height: 18.2vh;
+            margin: 0 auto 3vh; 
+        }
+    }
+    &-img_14_2 {
+        img {
+            height: 19.2vh;
+            margin: 0 auto 1.5vh; 
+        }
+    }
+    &-img_14_3 {
+        img {
+            height: 14.58vh;
+            margin: 5vh auto 3vh; 
+        }
+    }
+    &-img_14_4 {
+        img {
+            height: 21vh;
+            margin: 0 auto 2vh; 
+        }
+    }
+    &-img_14_5 {
+        img {
+            height: 14.58vh;
+            margin: 5.5vh auto 3vh; 
+        }
+    }
+    &-img_14_6 {
+        img {
+            height: 13.67vh;
+            margin: 0 auto 3vh; 
+        }
+    }
+}
