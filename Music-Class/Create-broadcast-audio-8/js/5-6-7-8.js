@@ -11,7 +11,8 @@ function handleLoadstop(event) {
 
 
 document.querySelectorAll('.listen--btn').forEach(w => {
-    w.addEventListener('click', (e) => {(console.log('click'))
+    w.addEventListener('click', (e) => {
+        (console.log('click'))
         handleLoadstop()
         createjs.Sound.registerSound({ src: `${e.target.getAttribute('data-voice')}`, id: "sound" });
         handleLoadComplete()
@@ -65,7 +66,7 @@ function musicGames() {
         e.target.className = elClassName;
     }
 
-    
+
 
     var myArray = [];
     DragGameChilds1.forEach(element => {
@@ -81,18 +82,27 @@ function musicGames() {
 
     this.dragDrop = (e) => {
         var drag = document.querySelector('.draggedElement')
-        // if(!e.target.parentElement.children[1]){
-            console.log('e.target.parentElement.children', !e.target.children[1])
-            if(!e.target.children[1]){
+        if (window.location.href.includes("6.html") || window.location.href.includes("7.html")
+            || window.location.href.includes("8.html")) {
+            if (!e.target.children[1]) {
                 if (e.target.classList.contains('myDrag')) {
                     e.target.appendChild(drag)
                     drag.setAttribute('style', "height: 61px; width: 61px")
                 }
             }
-            
-        
+        }
+        if (window.location.href.includes("6.html")) {
+            if (!e.target.children[2]) {
+                if (e.target.classList.contains('myDrag')) {
+                    e.target.appendChild(drag)
+                    drag.setAttribute('style', "height: 61px; width: 61px")
+                }
+            }
+        }
+
+
         // drag.style += "height: 100%; height: 100%; top: initial; left: initial; right: initial; bottom: initial; width: 100%";
-        
+
     }
 
 
@@ -103,6 +113,9 @@ function musicGames() {
         if (el) {
             if (window.location.href.includes("5.html")) {
                 location.href = 'game-success-5.html';
+            }
+            if (window.location.href.includes("6.html")) {
+                location.href = 'game-success-6.html';
             }
             if (window.location.href.includes("7.html")) {
                 location.href = 'game-success-7.html';
@@ -120,30 +133,44 @@ function musicGames() {
 
 
     this.errorPage = () => {
-        myArray.forEach(element => {
-            console.log(element.parentElement.style.borderColor == "rgb(220, 108, 133)")
-            // if ((element.getAttribute('data-place') != element.parentElement.getAttribute('data-place'))
-            //     && (element.getAttribute('data-place') == 4)) {
-            //         console.log("111111")
-            //         // element.parentElement.style.borderColor = '';
-            //         element.parentElement.style.borderColor = "#a1dd6f";
-            // }
-            // else{
+        if (window.location.href.includes("5.html") || window.location.href.includes("7.html")
+            || window.location.href.includes("8.html")) {
+            myArray.forEach(element => {
+                console.log(element.parentElement.style.borderColor == "rgb(220, 108, 133)")
+                // if ((element.getAttribute('data-place') != element.parentElement.getAttribute('data-place'))
+                //     && (element.getAttribute('data-place') == 4)) {
+                //         console.log("111111")
+                //         // element.parentElement.style.borderColor = '';
+                //         element.parentElement.style.borderColor = "#a1dd6f";
+                // }
+                // else{
                 if ((element.getAttribute('data-place') == element.parentElement.getAttribute('data-place'))
-                    &&  (element.parentElement.style.borderColor !=  "rgb(220, 108, 133)")) {
-                        console.log("222222222")
-                        element.parentElement.style.borderColor = "#a1dd6f";
+                    && (element.parentElement.style.borderColor != "rgb(220, 108, 133)")) {
+                    console.log("222222222")
+                    element.parentElement.style.borderColor = "#a1dd6f";
                 }
                 else if (element.parentElement.classList.contains('myDrag')) {
                     console.log("3333333333")
                     // element.parentElement.style.borderColor = '';
                     element.parentElement.style.borderColor = "#dc6c85";
                 }
-            // }
-            
+                // }
 
+            });
+        }
+        if (window.location.href.includes("6.html")) {
+            console.log('aqaa')
+            myArray.forEach(element => {
+                console.log("element", element.getAttribute('data-place'), element.parentElement.getAttribute('data-place'))
+                if (element.getAttribute('data-place') == element.parentElement.getAttribute('data-place')) {
+                    element.parentElement.style.borderColor = "#a1dd6f";
 
-        });
+                }
+                else if (element.parentElement.classList.contains('myDrag')) {
+                    element.parentElement.style.borderColor = "#dc6c85";
+                }
+            });
+        }
     }
 
     this.completGame = () => {
