@@ -107,6 +107,9 @@ function musicGames() {
             if (window.location.href.includes("7.html")) {
                 location.href = 'game-success-7.html';
             }
+            if (window.location.href.includes("8.html")) {
+                location.href = 'game-success-8.html';
+            }
         }
         else {
             this.errorPage();
