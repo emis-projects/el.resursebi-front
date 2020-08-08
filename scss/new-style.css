@@ -49872,38 +49872,71 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   max-height: 344px;
 }
 
-.class_game_music_9-img_5 {
-  height: 38vh;
+.game_music_9-img_circle img {
+  width: 8.26vh;
+  height: 8.26vh;
 }
 
-.class_game_music_9-img_6 {
-  height: 32.9vh;
+.game_music_9-box_cont {
+  width: 10.9vh;
+  height: 10.9vh;
+  border: 0.9088796377182007px solid #4E8085;
+  opacity: 1;
 }
 
-.class_game_music_9-img_6_circle {
-  height: 6.19vh;
+.game_music_9-purple_title {
+  color: #947DCE;
 }
 
-.class_game_music_9-img_7 {
-  height: 35.4vh;
+.game_music_9-img_6 img {
+  height: 7vh;
 }
 
-.class_game_music_9-img_7_circle {
+.game_music_9-box_cont_6 {
+  width: 8.82vh;
+  height: 8.82vh;
+  border: 0.9088796377182007px solid #4E8085;
+  opacity: 1;
+}
+
+.game_music_9-img_circle_6 img {
+  width: 7.6vh;
+  height: 7.6vh;
+}
+
+.game_music_9-img_7 img {
+  height: 5.69vh;
+}
+
+.game_music_9-box_cont_7 {
+  width: 21.35vh;
+  height: 23.4vh;
+  border: 2px solid #00D5D5;
+  border-radius: 2vh;
+}
+
+.game_music_9-box_cont_7 img {
+  width: 20.9vh;
+  height: 7.8vh;
+  margin: 7.8vh auto;
+}
+
+.game_music_9-img_7_circle {
   height: 7.16vh;
 }
 
-.class_game_music_9-img_8 {
+.game_music_9-img_8 {
   position: fixed;
   bottom: 0;
   right: 0;
   height: 75.46vh;
 }
 
-.class_game_music_9-img_8 img {
+.game_music_9-img_8 img {
   height: 100%;
 }
 
-.class_game_music_9-img_9 {
+.game_music_9-img_9 {
   height: 39.5vh;
 }
 
