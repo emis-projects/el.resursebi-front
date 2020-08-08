@@ -80,9 +80,12 @@ function musicGames() {
 
     this.dragDrop = (e) => {
         var drag = document.querySelector('.draggedElement')
-        if (e.target.classList.contains('myDrag')) {
-            e.target.appendChild(drag)
+        if(!(e.target.firstElementChild)){
+            if (e.target.classList.contains('myDrag')) {
+                e.target.appendChild(drag)
+            }
         }
+        
         drag.setAttribute('style', "height: 100%;")
     }
 
