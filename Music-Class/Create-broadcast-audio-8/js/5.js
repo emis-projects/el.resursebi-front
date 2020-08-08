@@ -81,10 +81,15 @@ function musicGames() {
 
     this.dragDrop = (e) => {
         var drag = document.querySelector('.draggedElement')
-            if (e.target.classList.contains('myDrag')) {
-                e.target.appendChild(drag)
-                drag.setAttribute('style', "height: 61px; width: 61px")
+        // if(!e.target.parentElement.children[1]){
+            console.log('e.target.parentElement.children', !e.target.children[1])
+            if(!e.target.children[1]){
+                if (e.target.classList.contains('myDrag')) {
+                    e.target.appendChild(drag)
+                    drag.setAttribute('style', "height: 61px; width: 61px")
+                }
             }
+            
         
         // drag.style += "height: 100%; height: 100%; top: initial; left: initial; right: initial; bottom: initial; width: 100%";
         
