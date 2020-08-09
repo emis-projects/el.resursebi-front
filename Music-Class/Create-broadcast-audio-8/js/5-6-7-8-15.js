@@ -12,7 +12,6 @@ function handleLoadstop(event) {
 
 document.querySelectorAll('.listen--btn').forEach(w => {
     w.addEventListener('click', (e) => {
-        (console.log('click'))
         handleLoadstop()
         createjs.Sound.registerSound({ src: `${e.target.getAttribute('data-voice')}`, id: "sound" });
         handleLoadComplete()
@@ -82,8 +81,9 @@ function musicGames() {
 
     this.dragDrop = (e) => {
         var drag = document.querySelector('.draggedElement')
-        if (window.location.href.includes("6.html") || window.location.href.includes("7.html")
-            || window.location.href.includes("8.html")) {
+        if (window.location.href.includes("/5.html") || window.location.href.includes("/7.html")
+            || window.location.href.includes("/8.html")) {
+                console.log('trueeeeee 15', window.location.href.includes("/15.html"))
             if (!e.target.children[1]) {
                 if (e.target.classList.contains('myDrag')) {
                     e.target.appendChild(drag)
@@ -91,11 +91,19 @@ function musicGames() {
                 }
             }
         }
-        if (window.location.href.includes("6.html")) {
+        if (window.location.href.includes("/6.html")) {
             if (!e.target.children[2]) {
                 if (e.target.classList.contains('myDrag')) {
                     e.target.appendChild(drag)
                     drag.setAttribute('style', "height: 61px; width: 61px")
+                }
+            }
+        }
+        if (window.location.href.includes("/15.html")) {
+            if (!(e.target.firstElementChild)) {
+                if (e.target.classList.contains('myDrag')) {
+                    e.target.appendChild(drag)
+                    // drag.setAttribute('style', "height: 61px; width: 61px")
                 }
             }
         }
@@ -111,17 +119,20 @@ function musicGames() {
     this.successPage = () => {
         let el = myArray.every(this.checkEveryElement);
         if (el) {
-            if (window.location.href.includes("5.html")) {
+            if (window.location.href.includes("/5.html")) {
                 location.href = 'game-success-5.html';
             }
-            if (window.location.href.includes("6.html")) {
+            if (window.location.href.includes("/6.html")) {
                 location.href = 'game-success-6.html';
             }
-            if (window.location.href.includes("7.html")) {
+            if (window.location.href.includes("/7.html")) {
                 location.href = 'game-success-7.html';
             }
-            if (window.location.href.includes("8.html")) {
+            if (window.location.href.includes("/8.html")) {
                 location.href = 'game-success-8.html';
+            }
+            if (window.location.href.includes("/15.html")) {
+                location.href = 'game-success-15.html';
             }
         }
         else {
@@ -133,8 +144,8 @@ function musicGames() {
 
 
     this.errorPage = () => {
-        if (window.location.href.includes("5.html") || window.location.href.includes("7.html")
-            || window.location.href.includes("8.html")) {
+        if (window.location.href.includes("/5.html") || window.location.href.includes("/7.html")
+            || window.location.href.includes("/8.html")) {
             myArray.forEach(element => {
                 console.log(element.parentElement.style.borderColor == "rgb(220, 108, 133)")
                 // if ((element.getAttribute('data-place') != element.parentElement.getAttribute('data-place'))
@@ -158,10 +169,8 @@ function musicGames() {
 
             });
         }
-        if (window.location.href.includes("6.html")) {
-            console.log('aqaa')
+        if (window.location.href.includes("/6.html") || window.location.href.includes("/15.html")) {
             myArray.forEach(element => {
-                console.log("element", element.getAttribute('data-place'), element.parentElement.getAttribute('data-place'))
                 if (element.getAttribute('data-place') == element.parentElement.getAttribute('data-place')) {
                     element.parentElement.style.borderColor = "#a1dd6f";
 
