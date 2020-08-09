@@ -108,6 +108,14 @@ function musicGames() {
                 }
             }
         }
+        if (window.location.href.includes("/12.html")) {
+            if (!e.target.children[1]) {
+                if (e.target.classList.contains('myDrag')) {
+                    e.target.appendChild(drag)
+                    drag.setAttribute('style', "margin-left: 25%;");
+                }
+            }
+        }
 
 
         // drag.style += "height: 100%; height: 100%; top: initial; left: initial; right: initial; bottom: initial; width: 100%";
@@ -134,6 +142,9 @@ function musicGames() {
             }
             if (window.location.href.includes("/11.html")) {
                 location.href = 'game-success-11.html';
+            }
+            if (window.location.href.includes("/12.html")) {
+                location.href = 'game-success-12.html';
             }
             if (window.location.href.includes("/13.html")) {
                 location.href = 'game-success-13.html';
@@ -177,7 +188,8 @@ function musicGames() {
             });
         }
         if (window.location.href.includes("/6.html") || window.location.href.includes("/15.html")
-            || window.location.href.includes("/13.html") || window.location.href.includes("/11.html")) {
+            || window.location.href.includes("/13.html") || window.location.href.includes("/11.html")
+            || window.location.href.includes("/12.html")) {
             myArray.forEach(element => {
                 if (element.getAttribute('data-place') == element.parentElement.getAttribute('data-place')) {
                     element.parentElement.style.borderColor = "#a1dd6f";
