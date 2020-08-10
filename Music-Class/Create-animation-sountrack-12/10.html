@@ -6,6 +6,7 @@
     <meta content="ie=edge" http-equiv="X-UA-Compatible" />
     <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
     <script src="../../js/vue.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
     <!--  ვუე გაშვებისას
     <script src="./js/vue.min.js"></script>
      -->
@@ -46,43 +47,60 @@
             </app-section>
         </section>
         <section id="mainPage">
-            <div class="row mt-7vh">
-                <div class="col-9 m-auto">
-                    <div class="newDesign_subject_question_item">
+            <div class="row">
+                <div class="col-10 m-auto">
+                    <div class="newDesign_subject_question_item mb-4vh">
                         <img alt="img" class="newDesign_subject_question_item-img" src="../../img/icons/newDesign_btn-yellow.svg">
                         <p class="newDesign_subject_question_item-title">
-                            დააწკაპე ღილაკებს და მოუსმინე გაკვეთილებზე წარმოთქმულ ოთხ <br> სხვადასხვა ფრაზას.          
+                            როგორ ფიქრობ, რა ხერხით არის მუსიკალურად გაფორმებული ეს ფილმი? დააწკაპე სათანადო განმარტებას.
                         </p>
+                    </div> 
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 d-flex ml-3vh">
+                    <div class="class_music_12-img_10">
+                        <img src="../../img/gakvetilebi/Music-class/Create-animation-soundtrack-12/music-12-10.png" alt="image">
                     </div>
-                    <div class="newDesign_subject_question_item">
-                        <img alt="img" class="newDesign_subject_question_item-img" src="../../img/icons/newDesign_btn-yellow.svg">
-                        <p class="newDesign_subject_question_item-title">
-                            გახსენი პროგრამა „ვსწავლობთ მუსიკით“. დაამატე ფაილები სათანადო <br> საქაღალდიდან.          
-                        </p>
-                    </div>
-                    <div class="newDesign_subject_question_item">
-                        <img alt="img" class="newDesign_subject_question_item-img" src="../../img/icons/newDesign_btn-yellow.svg">
-                        <p class="newDesign_subject_question_item-title">
-                            შეადარე ამ გვერდზე მოცემული ფრაზები პროგრამაში მოცემულ მუსიკალურ <br> ინტონაციებს.         
-                        </p>
-                    </div>
-                    <div class="newDesign_subject_question_item mb-8vh">
-                        <img alt="img" class="newDesign_subject_question_item-img" src="../../img/icons/newDesign_btn-yellow.svg">
-                        <p class="newDesign_subject_question_item-title">
-                            დაალაგე სემპლები იმ თანმიმდევრობით, რა თანმიმდევრობითაც აქ არის <br> წარმოდგენილი.        
-                        </p>
+                    <div class="col-3 m-auto">
+                        <div class="d-flex">
+                            <div class="class_music_12-check_box_5"></div>
+                            <div class="class_music_12-title_cont_5 m-auto">
+                                <p class="class_music_12-title_5 mt-2vh">
+                                    მიკი მაუსინგი
+                                </p>
+                            </div>
+                        </div>
+                        <div class="d-flex mt-4vh">
+                            <div class="class_music_12-check_box_5"></div>
+                            <div class="class_music_12-title_cont_5 m-auto">
+                                <p class="class_music_12-title_5">
+                                    პერსონაჟის <br> დახასიათება
+                                </p>
+                            </div>
+                        </div>
+                        <div class="d-flex mt-4vh">
+                            <div class="class_music_12-check_box_5"></div>
+                            <div class="class_music_12-title_cont_5 m-auto">
+                                <p class="class_music_12-title_5 mt-2vh">
+                                    ეპიზოდის განწყობა
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-6 m-auto class_music_6-img_13_circle d-flex justify-content-between">
-                    <img data-voice="./game-voices/სლაიდი 10/1.sadman.wav" class="listen--btn" src="../../img/gakvetilebi/Music-class/Create-music-from-noise-6/music-6-10-1.svg" alt="image">
-                    <img data-voice="./game-voices/სლაიდი 10/2.sadwoman.wav" class="listen--btn" src="../../img/gakvetilebi/Music-class/Create-music-from-noise-6/music-6-10-2.svg" alt="image">
-                    <img data-voice="./game-voices/სლაიდი 10/3.wxditedman.wav" class="listen--btn" src="../../img/gakvetilebi/Music-class/Create-music-from-noise-6/music-6-10-3.svg" alt="image">
-                    <img data-voice="./game-voices/სლაიდი 10/4.excitedwoman.wav" class="listen--btn" src="../../img/gakvetilebi/Music-class/Create-music-from-noise-6/music-6-10-2.svg" alt="image">
+            </div>
+
+            <div class="flex flex-end column align-items-end z-index reload_game_wrapper">
+                <div class="d-flex flex-column">
+                    <button class="reset__btn" id="resetBtn">თავიდან სცადე</button>
+                    <button class="completed__btn" id="completedGame">დასრულება</button>
                 </div>
             </div>
 
             <div class="left_components_paging-cont" id="leftNav">
-                <left-nav-item></left   -nav-item>
+                <left-nav-item></left-nav-item>
             </div>
 
             <div class="our__pagination flex">
@@ -111,14 +129,13 @@
     <script src="../../js/Pagination.js"></script>
 
 
-    <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
+<!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
     <script src="../../New-header-vue/vis.js"></script>
     <script src="../../New-header-vue/app.js"></script>
     <script src="../../Vue-chatBot/botApp.js"></script>
     <script src="../../js/bot.js"></script>
 
-    <script src="../../js/libraries/sound.js"></script>
-    <script src="./js/10.js"></script>
+
 </body>
 
 </html>

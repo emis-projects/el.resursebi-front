@@ -37,58 +37,79 @@
             </header>
 
             <app-section :is-active="isActive" :is-info="isInfo" v-image="'../../'">
-                <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger" v-on:link-tab="link = $event">
+                <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger"
+                    v-on:link-tab="link = $event">
 
                 </app-bar>
-                <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive" :is-info="isInfo" :path="path" :tab-class="currentTabComponent" :trigger="trigger">
+                <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive"
+                    :is-info="isInfo" :path="path" :tab-class="currentTabComponent" :trigger="trigger">
                 </component>
 
             </app-section>
         </section>
         <section id="mainPage">
             <div class="row mt-3vh">
-                <div class="col-10 m-auto">
+                <div class="col-10 m-auto class_music_4">
                     <div class="newDesign_subject_question_item">
                         <p class="newDesign_subject_question_item-title">
-                            შენ მოისმინე მუსიკალური ქალაქის სხვადასხვა კუთხეში თავმოყრილი ბგერებით შექმნილი მელოდია, მაგრამ როგორი მუსიკა შეიძლება შეიქმნას, თუკი ბგერები ქალაქში სეირნობას გადაწყვეტენ?         
+                            შენ მოისმინე მუსიკალური ქალაქის სხვადასხვა კუთხეში თავმოყრილი ბგერებით შექმნილი მელოდია,
+                            მაგრამ როგორი მუსიკა შეიძლება შეიქმნას, თუკი ბგერები ქალაქში სეირნობას გადაწყვეტენ?  
                         </p>
                     </div>
                     <div class="newDesign_subject_question_item ml-2vh">
-                        <img alt="img" class="newDesign_subject_question_item-img" src="../../img/icons/newDesign_btn-yellow.svg">
+                        <img alt="img" class="newDesign_subject_question_item-img"
+                            src="../../img/icons/newDesign_btn-yellow.svg">
                         <p class="newDesign_subject_question_item-title">
-                            შენ წინაშეა მოსეირნე ბგერების ექვსი ჯგუფი. უეცრად ორმა ჯგუფმა სიმღერა ერთდროულად წამოიწყო. ყურადღებით
-                            <img src="../../img/gakvetilebi/Music-class/Walk-in-the-city-4/music-4-18-icon.svg" alt="image" class="class_music_4-img_icon">
-                            <span class="class_music_4-title_purple">მოუსმინე</span>
-                            , რა გამოვიდა! შეგიძლია გამოიცნო, რომელია ეს ორი ჯგუფი? დააწკაპე ორ-ორ სხვადასხვა ჯგუფს ისე, სანამ არ გამოვა ის ერთადერთი სიმღერა, რომელიც დასაწყისში მოისმინეთ.
+                            შენ წინაშეა მელოდიის სამი წყვილი. ნააჭირე ნოტებს, მოისმინე და უპოვე შესაბამისი მეწყვილე.
                         </p>
                     </div>
-                    <div class="newDesign_subject_question_item ml-2vh mb-8vh">
-                        <img alt="img" class="newDesign_subject_question_item-img" src="../../img/icons/newDesign_btn-yellow.svg">
+                    <div class="newDesign_subject_question_item ml-2vh mb-8vh" id="second-half">
+                        <img alt="img" class="newDesign_subject_question_item-img"
+                            src="../../img/icons/newDesign_btn-yellow.svg">
                         <p class="newDesign_subject_question_item-title">
-                            შენ მოისმინე მუსიკალური ქალაქის სხვადასხვა კუთხეში თავმოყრილი ბგერებით შექმნილი მელოდია, მაგრამ როგორი მუსიკა შეიძლება შეიქმნას, თუკი ბგერები ქალაქში სეირნობას გადაწყვეტენ?         
+
                         </p>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-9 d-flex justify-content-around">
-                    <div class="class_music_4-img_21_1">
-                        <img src="../../img/gakvetilebi/Music-class/Walk-in-the-city-4/music-4-21-1.svg" alt=" image">
+                <div class="class_music_4 col-9 d-flex justify-content-around">
+                    <div class="d-flex align-items-center">
+                        <div class="check-box" data-id="1"></div>
+                        <div class="class_music_4-img_21_1 d-flex" id="box-1">
+                            <img src="../../img/gakvetilebi/Music-class/Walk-in-the-city-4/21-1.png" alt=" image"
+                                data-voice-1="./game-voices/სლაიდი 23/melody1.wav" data-id="1">
+                            <img src="../../img/gakvetilebi/Music-class/Walk-in-the-city-4/21-1.png" alt=" image"
+                                data-voice-2="./game-voices/სლაიდი 23/melody5.wav" data-id="2">
+                        </div>
                     </div>
-                    <div class="class_music_4-img_21_2 mr-4v">
-                        <img src="../../img/gakvetilebi/Music-class/Walk-in-the-city-4/music-4-21-2.svg" alt=" image">
+                    <div class="d-flex align-items-center">
+                        <div class="check-box" data-id="2"></div>
+                        <div class="class_music_4-img_21_2 mr-4v d-flex" id="box-2">
+                            <img src="../../img/gakvetilebi/Music-class/Walk-in-the-city-4/21-2.png" alt=" image"
+                                data-voice-1="./game-voices/სლაიდი 23/melody2.wav" data-id="1">
+                            <img src="../../img/gakvetilebi/Music-class/Walk-in-the-city-4/21-2.png" alt=" image"
+                                data-voice-2="./game-voices/სლაიდი 23/melody6.wav" data-id="2">
+                        </div>
                     </div>
-                    <div class="class_music_4-img_21_3 mr-5vh">
-                        <img src="../../img/gakvetilebi/Music-class/Walk-in-the-city-4/music-4-21-3.svg" alt=" image">
+                    <div class="d-flex align-items-center">
+                        <div class="check-box" data-id="3"></div>
+                        <div class="class_music_4-img_21_3 mr-5vh d-flex" id="box-3">
+                            <img src="../../img/gakvetilebi/Music-class/Walk-in-the-city-4/21-3.png" alt=" image"
+                                data-voice-1="./game-voices/სლაიდი 23/melody3.wav" data-id="1">
+                            <img src="../../img/gakvetilebi/Music-class/Walk-in-the-city-4/21-3.png" alt=" image"
+                                data-voice-2="./game-voices/სლაიდი 23/melody4.wav" data-id="2">
+                        </div>
                     </div>
                 </div>
             </div>
-            <div  class="flex flex-column z-index reload_game_wrapper">
+            <div class="flex flex-column z-index reload_game_wrapper">
                 <button id="resetBtn" class="reset__btn">თავიდან სცადე</button>
                 <button id="completedGame" class="completed__btn">დასრულება</button>
             </div>
             <div class="left_components_paging-cont" id="leftNav">
-                <left-nav-item></left   -nav-item>
+                <left-nav-item>
+                    </left -nav-item>
             </div>
 
             <div class="our__pagination flex">
@@ -115,6 +136,8 @@
     <script src="../../js/libraries/jquery-3.4.1.min.js"></script>
     <script src="../../js/libraries/jquery.magnific-popup.min.js"></script>
     <script src="../../js/Pagination.js"></script>
+    <script src="../../js/libraries/sound.js"></script>
+    <script src="./js/21.js"></script>
 
 
     <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
