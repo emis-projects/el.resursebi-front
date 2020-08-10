@@ -456,23 +456,30 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-9 m-auto d-flex justify-content-between ">
+                <div class="col-8 m-auto d-flex justify-content-between" style="margin-right: 24% !important;">
                 <div class="d-flex justify-content-between flex-column">
-                   <div class="music-new-05-div-8-1 music-new-05-div-8-1-blue d-flex justify-content-center align-items-center mt-3vh"  ><p>მინორული კილო</p></div>
-                   <div class="music-new-05-div-8-1-orange-col mt-10vh">
-                    <div class="music-new-05-div-8-1 music-new-05-div-8-1-orange d-flex justify-content-center align-items-center"><p>მინორული კილო</p></div>
-                    <div class="music-new-05-div-8-1 music-new-05-div-8-1-orange d-flex justify-content-center align-items-center mt-3vh"><p>მინორული კილო</p></div>
+                   <div class="music-new-05-div-8-1 music-new-05-div-8-1-blue d-flex justify-content-center align-items-center mt-3vh listen--btn cursor-pointer" data-voice="./game-voices/სლაიდი 10/minor.wav"><p>მინორული კილო</p></div>
+                   <div class="music-new-05-div-8-1-orange-col mt-10vh DragGame—childs3">
+                    <div class="music-new-05-div-8-1 music-new-05-div-8-1-orange d-flex justify-content-center align-items-center DragGame—childs1 cursor-pointer" data-index="1-1"><p>მხიარული, ხალისიანი</p></div>
+                    <div class="music-new-05-div-8-1 music-new-05-div-8-1-orange d-flex justify-content-center align-items-center mt-3vh DragGame—childs1 cursor-pointer" data-index="1-2"><p>სევდიანი, მოწყენილი</p></div>
                    </div>
                </div>
                <div class="d-flex justify-content-between flex-column">
-                <div class="music-new-05-div-8-1 music-new-05-div-8-1-blue d-flex justify-content-center align-items-center mt-3vh"  ><p>მინორული კილო</p></div>
-                <div class="music-new-05-div-8-1-orange-col mt-10vh">
-                 <div class="music-new-05-div-8-1 music-new-05-div-8-1-orange d-flex justify-content-center align-items-center"><p>მინორული კილო</p></div>
-                 <div class="music-new-05-div-8-1 music-new-05-div-8-1-orange d-flex justify-content-center align-items-center mt-3vh"><p>მინორული კილო</p></div>
+                <div class="music-new-05-div-8-1 music-new-05-div-8-1-blue d-flex justify-content-center align-items-center mt-3vh listen--btn cursor-pointer" data-voice="./game-voices/სლაიდი 10/major.wav"><p>მაჟორული კილო</p></div>
+                <div class="music-new-05-div-8-1-orange-col mt-10vh DragGame—childs4">
+                 <div class="music-new-05-div-8-1 music-new-05-div-8-1-orange d-flex justify-content-center align-items-center DragGame—childs1 cursor-pointer" data-index="2-1"><p>მხიარული, ხალისიანი</p></div>
+                 <div class="music-new-05-div-8-1 music-new-05-div-8-1-orange d-flex justify-content-center align-items-center mt-3vh DragGame—childs1 cursor-pointer" data-index="2-2"><p>სევდიანი, მოწყენილი</p></div>
                 </div>
             </div>
                 </div>
             </div>
+
+            <div  class="flex flex-column z-index reload_game_wrapper">
+                <button id="resetBtn" class="reset__btn">თავიდან სცადე</button>
+                <button id="completedGame" class="completed__btn">დასრულება</button>
+            </div>
+
+
             <div class="our__pagination flex">
                 <div id="pagination" class="flex align-items-center">
                     <div class="pagination__item">
@@ -492,6 +499,9 @@
     <script src="../../js/libraries/jquery-3.4.1.min.js"></script>
     <script src="../../js/libraries/jquery.magnific-popup.min.js"></script>
 
+    <script src="../../js/libraries/sound.js"></script>
+
+    <script src="./js/8-1.js"></script>
 
 <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
     <script src="../../New-header-vue/vis.js"></script>
