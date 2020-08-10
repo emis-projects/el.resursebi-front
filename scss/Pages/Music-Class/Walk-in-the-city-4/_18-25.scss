@@ -1,4 +1,13 @@
 .class_music_4 {
+    .checkBox{
+        height: 18px;
+        width: 18px; 
+        border-radius: 100%;
+        border: 1px solid #000; 
+        &.active {
+            background: #d8c76a;
+        }
+    }
     &-img_18 {
         margin-top: -22vh;
     }
@@ -45,7 +54,15 @@
         opacity: 1;
         width: 30.59vh;
         height: 16.9vh;
+        &.true {
+            border: 1px solid #A1DD6F;
+        }
+        &.false{
+            border: 1px solid #dc6c85;
+        }
+        
         img {
+            cursor: pointer;
             margin: 3.5vh auto;
         }
     }
@@ -54,7 +71,14 @@
         opacity: 1;
         width: 30.59vh;
         height: 16.9vh;
+        &.true{
+            border: 1px solid #A1DD6F;
+        }
+        &.false{
+            border: 1px solid #dc6c85;
+        }
         img {
+            cursor: pointer;
             margin: 3.5vh auto;
         }
     }
@@ -63,7 +87,15 @@
         opacity: 1;
         width: 30.59vh;
         height: 16.9vh;
+        &.true{
+            border: 1px solid #A1DD6F;
+        }
+        &.false{
+            border: 1px solid #dc6c85;
+        }
+        
         img {
+            cursor: pointer;
             margin: 3.5vh auto;
         }
     }
@@ -139,4 +171,33 @@
             margin: auto;
             opacity: 1;
         }
+    .checkBox {
+        height: 18px;
+        width: 18px;
+        border-radius: 100%;
+        border: 1px solid #000;
+    }
+        #second-half {
+            display: none;
+        }
+        #listen-btn {
+            cursor: pointer;
+        }
+}
+
+
+
+.class_music_4 {
+    .check-box {
+
+        height: 18px;
+        width: 18px;
+        border-radius: 100%;
+        border: 1px solid #000;
+        margin: 0 1vw;
+        cursor: pointer;
+        &.active{
+            background: #d8c76a;
+        }
+    }
 }
