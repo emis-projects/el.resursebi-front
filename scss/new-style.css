@@ -50698,6 +50698,47 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-3/Do-you-have-robot-13/cs-3-13-23.svg");
 }
 
+.cs-3-14 img {
+  height: 100%;
+}
+
+.cs-3-14-15 {
+  height: 41vh;
+  max-height: 319px;
+}
+
+.cs-3-14-16 {
+  height: 55.2vh;
+  max-height: 424px;
+}
+
+.cs-3-14-17 {
+  height: 36.6vh;
+  max-height: 279px;
+}
+
+.background-cs-3-14-img {
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-3-14-img-18 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/Mystery-of-binary-bracelet-14/cs-3-14-18.svg");
+}
+
+.background-cs-3-14-img-19 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/Mystery-of-binary-bracelet-14/cs-3-14-19.svg");
+}
+
+.background-cs-3-14-img-20 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/Mystery-of-binary-bracelet-14/cs-3-14-20.svg");
+}
+
+.background-cs-3-14-img-21 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/Mystery-of-binary-bracelet-14/cs-3-14-21.svg");
+}
+
 body {
   color: #262626;
   font-size: 14px;
@@ -52606,3 +52647,4 @@ body {
     font-size: 14px;
   }
 }
+/*# sourceMappingURL=new-style.css.map */
