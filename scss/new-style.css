@@ -50659,6 +50659,52 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   max-height: 379px;
 }
 
+.cs-3-13 img {
+  height: 100%;
+}
+
+.cs-3-13-16 {
+  height: 57vh;
+  max-height: 438px;
+}
+
+.cs-3-13-17 {
+  height: 30vh;
+  max-height: 237px;
+}
+
+.cs-3-13-18 {
+  height: 51.6vh;
+  max-height: 397px;
+}
+
+.cs-3-13-18 {
+  height: 56vh;
+  max-height: 431px;
+}
+
+.background-cs-3-13-img {
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-3-13-img-20 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/Do-you-have-robot-13/cs-3-13-20.svg");
+}
+
+.background-cs-3-13-img-21 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/Do-you-have-robot-13/cs-3-13-21.png");
+}
+
+.background-cs-3-13-img-22 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/Do-you-have-robot-13/cs-3-13-22.svg");
+}
+
+.background-cs-3-13-img-23 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/Do-you-have-robot-13/cs-3-13-23.svg");
+}
+
 body {
   color: #262626;
   font-size: 14px;
