@@ -5,7 +5,6 @@ var boxtwo = document.querySelectorAll(".box-2");
 var boxthree = document.querySelectorAll(".box-3");
 
 window.onload = () => {
-    console.log('fire');
     boxes.forEach((e) => {
         e.classList.remove("active");
         e.classList.remove("error");
@@ -30,7 +29,6 @@ function handleLoadstop(event) {
 circle.forEach((elm) => {
   elm.addEventListener("click", (evt) => {
     handleLoadstop();
-    console.log(evt);
     createjs.Sound.registerSound({
       src: `${evt.target.getAttribute("data-voice")}`,
       id: "sound",
