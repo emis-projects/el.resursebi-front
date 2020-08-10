@@ -49656,6 +49656,25 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   max-height: 436px;
 }
 
+.one-day-5-box {
+  background-color: #FFEFE0;
+  height: 22.13vh;
+  max-height: 170px;
+  width: 206px;
+}
+
+.play-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .class_music_5-img_9_title {
   font-size: 15px;
   font-family: DejaVuSans;
