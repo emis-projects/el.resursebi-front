@@ -1,0 +1,99 @@
+.class_music_12 {
+    &-img_5 {
+        img {
+            height: 23.3vh;
+            margin : 3vh auto 2vh;
+        }
+    }
+    &-check_box_5 {
+        height: 2.6vh;
+        width: 2.6vh;
+        border: 2px solid #696969;
+        border-radius: 8px;
+        margin: auto;
+        opacity: 1;
+    }
+    &-title_cont_5 {
+        width: 20.3vh;
+        height: 6.5vh;
+        border-radius: 6vh;
+        box-shadow: 2px 2px 8px #7FD1D866;
+        opacity: 1;
+        margin: 1vh auto;
+    }
+    &-title_5 {
+        font-size: 1.69vh;
+        font-family: DejaVu Sans Book;
+        text-align: center;
+        margin: .6vh auto;
+    }
+    &-img_6 {
+        img {
+            width: 9.6vh;
+            height: 9.6vh;
+            margin: 4vh 14vh 4vh;
+        }
+    }
+    &-img_7 {
+        height: 37vh;
+    }
+    &-img_7_circle {
+        width: 8.2vh;
+        height: 8.2vh;
+        margin: 5vh 0 4vh 13vh;
+    }
+    &-img_8 {
+        position: fixed;
+        bottom: 0;
+        height: 66vh;
+        max-height: 507px;
+        img {
+            height: 100%;
+        }
+    }
+    &-title {
+        margin-bottom: 0!important;
+    }
+    &-img_9 {
+        img {
+            height: 27.95vh;
+        }
+    }
+    &-blue_circle {
+        width: 8.6vh;
+        height: 8.6vh;
+        border: 3px solid #7FD1D8;
+        border-radius: 50%;
+        opacity: 1;
+    }
+    &-img_10 {
+        img {
+            height: 54.7vh;
+        }
+    }
+    &-img_11 {
+        img {
+            height: 37.5vh;
+        }
+    }
+    &-box_11 {
+        width: 13vh;
+        height: 13vh;
+        margin-bottom: 1vh;
+        border: 3px solid #7FD1D8;
+        opacity: 1;
+    }
+    &-blue_circle_11 {
+        width: 8.2vh;
+        height: 8.2vh;
+        margin: 2vh auto;
+        border: 2px solid #7FD1D8;
+        border-radius: 50%;
+        opacity: 1;
+    }
+    &-img_12 {
+        img {
+            height: 50vh;
+        }
+    }
+}
