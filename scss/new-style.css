@@ -49658,21 +49658,14 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .one-day-5-box {
   background-color: #FFEFE0;
-  height: 22.13vh;
-  max-height: 170px;
-  width: 206px;
+  border-radius: 12px;
 }
 
 .play-icon {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding-top: 10px;
 }
 
 .class_music_5-img_9_title {
@@ -52302,4 +52295,3 @@ body {
     font-size: 14px;
   }
 }
-/*# sourceMappingURL=new-style.css.map */
