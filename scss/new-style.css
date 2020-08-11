@@ -49078,9 +49078,6 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .class_music_6-img_12_cont {
-  background-image: url("../../../../img/gakvetilebi/Music-class/Create-music-from-noise-6/music-6-12.svg");
-  background-repeat: no-repeat;
-  background-size: contain;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -49092,6 +49089,12 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
           justify-content: center;
   width: 10.9vh;
   height: 10.8vh;
+  border: 1px solid #707070;
+  overflow: hidden;
+}
+
+.class_music_6-img_12_cont img {
+  height: 5vh;
 }
 
 .class_music_6-img_13 {

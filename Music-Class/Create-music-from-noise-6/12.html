@@ -78,40 +78,45 @@
             <div class="row">
                 <div class="col-9 ml-12vh d-flex justify-content-around pb-5vh">
                     <div class="class_music_6-img_12_cont">
-                        <img src="../../img/gakvetilebi/Music-class/Create-music-from-noise-6/music-6-12-1.svg" alt="">
+                        <img data-voice="./game-voices/სლაიდი 12-13/ცხრილი/1 უჯრა.wav" class="listen--btn" src="../../img/gakvetilebi/Music-class/Create-music-from-noise-6/music-6-12-1.svg" alt="">
                     </div>
                     <div class="class_music_6-img_12_cont">
-                        <img src="../../img/gakvetilebi/Music-class/Create-music-from-noise-6/music-6-12-2.svg" alt="">
+                        <img data-voice="./game-voices/სლაიდი 12-13/ცხრილი/2 უჯრა.wav" class="listen--btn" src="../../img/gakvetilebi/Music-class/Create-music-from-noise-6/music-6-12-4.svg" alt="">
                     </div>
                     <div class="class_music_6-img_12_cont">
-                        <img src="../../img/gakvetilebi/Music-class/Create-music-from-noise-6/music-6-12-3.svg" alt="">
+                        <img data-voice="./game-voices/სლაიდი 12-13/ცხრილი/3 უჯრა.wav" class="listen--btn" src="../../img/gakvetilebi/Music-class/Create-music-from-noise-6/music-6-12-6.svg" alt="">
                     </div>
                     <div class="class_music_6-img_12_cont">
-                        <img src="../../img/gakvetilebi/Music-class/Create-music-from-noise-6/music-6-12-4.svg" alt="">
-                    </div>
-                    <div class="class_music_6-img_12_cont">
-                        <img src="../../img/gakvetilebi/Music-class/Create-music-from-noise-6/music-6-12-5.svg" alt="">
-                    </div>
-                    <div class="class_music_6-img_12_cont">
-                        <img src="../../img/gakvetilebi/Music-class/Create-music-from-noise-6/music-6-12-6.svg" alt="">
-                    </div>
-                    <div class="class_music_6-img_12_cont">
-                        <img src="../../img/gakvetilebi/Music-class/Create-music-from-noise-6/music-6-12-7.svg" alt="">
+                        <img data-voice="./game-voices/სლაიდი 12-13/ცხრილი/4 უჯრა.wav" class="listen--btn" src="../../img/gakvetilebi/Music-class/Create-music-from-noise-6/music-6-12-7.svg" alt="">
                     </div>
                 </div>
                 <div class="col-9 ml-12vh d-flex justify-content-around">
-                    <div class="class_music_6-img_12_cont"></div>
-                    <div class="class_music_6-img_12_cont"></div>
-                    <div class="class_music_6-img_12_cont"></div>
-                    <div class="class_music_6-img_12_cont"></div>
-                    <div class="class_music_6-img_12_cont"></div>
-                    <div class="class_music_6-img_12_cont"></div>
-                    <div class="class_music_6-img_12_cont"></div>
+                    <div data-place="1" class="class_music_6-img_12_cont myDrag"></div>
+                    <div data-place="2" class="class_music_6-img_12_cont myDrag"></div>
+                    <div data-place="3" class="class_music_6-img_12_cont myDrag"></div>
+                    <div data-place="4" class="class_music_6-img_12_cont myDrag"></div>
                 </div>
-                <div class="col-3 ml-14vh class_music_6-img_13_circle d-flex justify-content-between mt-4vh">
-                    <img src="../../img/gakvetilebi/Music-class/Create-music-from-noise-6/music-6-10-1.svg" alt="image">
-                    <img src="../../img/gakvetilebi/Music-class/Create-music-from-noise-6/music-6-10-2.svg" alt="image">
-                    <img src="../../img/gakvetilebi/Music-class/Create-music-from-noise-6/music-6-10-3.svg" alt="image">
+                <div class="col-7 ml-14vh class_music_6-img_13_circle d-flex justify-content-between mt-4vh">
+                    <div class="DragGameResetParent1">
+                        <img data-end="1" data-place="2" data-voice="./game-voices/სლაიდი 12-13/2.peninton.wav"
+                          class="listen--btn DragGame--childs1"
+                          src="../../img/gakvetilebi/Music-class/Create-music-from-noise-6/music-6-10-1.svg" alt="image">
+                      </div>
+                      <div class="DragGameResetParent2">
+                        <img data-end="2" data-place="1" data-voice="./game-voices/სლაიდი 12-13/1.alarmclockinton.wav"
+                          class="listen--btn DragGame--childs1"
+                          src="../../img/gakvetilebi/Music-class/Create-music-from-noise-6/music-6-10-2.svg" alt="image">
+                      </div>
+                      <div class="DragGameResetParent3">
+                        <img data-end="3" data-place="4" data-voice="./game-voices/სლაიდი 12-13/4.cricketinton.wav"
+                          class="listen--btn DragGame--childs1"
+                          src="../../img/gakvetilebi/Music-class/Create-music-from-noise-6/music-6-10-3.svg" alt="image">
+                      </div>
+                      <div class="DragGameResetParent4">
+                        <img data-end="4" data-place="3" data-voice="./game-voices/სლაიდი 12-13/3.keyboardinton.wav"
+                          class="listen--btn DragGame--childs1"
+                          src="../../img/gakvetilebi/Music-class/Create-music-from-noise-6/music-6-10-1.svg" alt="image">
+                      </div>
                 </div>
             </div>
             <div  class="flex flex-column z-index reload_game_wrapper">
@@ -157,7 +162,8 @@
     <script src="../../Vue-chatBot/botApp.js"></script>
     <script src="../../js/bot.js"></script>
 
-
+    <script src="../../js/libraries/sound.js"></script>
+    <script src="./js/12.js"></script>
 </body>
 
 </html>
