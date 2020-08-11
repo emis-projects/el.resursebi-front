@@ -10,16 +10,17 @@ function handleLoadstop(event) {
 }
 
 
-
 function game() {
     this.answersArray = '';
     this.index = 1;
-    this.error = true;
+    this.answer;
+    this.error = false;
 
 
     let listenBtn = document.querySelectorAll('.listen--btn');
     let dragElement1 = document.querySelector('.DragGame—childs1');
     let dragElement2 = document.querySelectorAll('.DragGame—childs2');
+    let correctAnswer = document.getElementById('correctAnswer');
     const completeBtn = document.getElementById('completedGame');
     const resetBtn = document.getElementById('resetBtn');
 
@@ -38,32 +39,73 @@ function game() {
 
 
     document.addEventListener('DOMContentLoaded', () => {
-        dragElement1.innerHTML = this.index;
+        document.querySelector('.number').innerHTML = this.index;
+        dragElement1.setAttribute('data-index', this.index)
     })
     
 
+    document.querySelector('.DragGame—childs1').addEventListener('click', (e) => {
+        if(this.error == false) {
+            e.target.setAttribute('style', "transition: all 0.5s; transform: rotate(360deg)")
+    
+            setTimeout(() => {
+                e.target.removeAttribute('style')
+            }, 500)
+        }
+    })
 
 
 
-    this.checkGameAnswers = () => {
-        console.log('error');
-    }
+    
+    $('.DragGame—childs2').click((e) => {
+        if(this.error == false) {
+            let index = e.target.getAttribute('data-index')
+
+            let value = this.answersArray.concat(index)
+
+            this.answersArray = value
+    
+            this.answer = index;
+
+            this.getNextStep();
+    
+            // stop voice 
+            createjs.Sound.stop("sound");
+        }
+    })
 
 
-    this.checkWhichPageIs = () => {
-        let myLocation = location.pathname;
+    this.getNextStep = () => {
+        // if(this.index < 4){
+        // }
+        this.index++
 
-        if(myLocation == "/Music-Class/Walk-in-the-city-4/18.html" || myLocation == "/el.resursebi-front/Music-Class/Walk-in-the-city-4/18.html"){
-            location.href = "game-success-18.html"
+        document.querySelector('.number').innerHTML = this.index;
+        dragElement1.setAttribute('data-index', this.index)
+
+        if(this.index == 2) {
+            dragElement1.setAttribute('data-voice', "./game-voices/სლაიდი 26/ბებია.wav")
             
-        } else if (myLocation == "/Music-Class/Walk-in-the-city-4/19.html" || myLocation == "/el.resursebi-front/Music-Class/Walk-in-the-city-4/19.html"){
-            location.href = "game-success-19.html"
-        } 
+        } else if(this.index == 3) {
+            dragElement1.setAttribute('data-voice', "./game-voices/სლაიდი 26/გოგონა.wav")
+
+        } else if(this.index == 4) {
+            dragElement1.setAttribute('data-voice', "./game-voices/სლაიდი 26/მამაკაცი.wav")
+        }
     }
+
 
 
     this.init = () => {
-       
+        this.error = false;
+        this.answersArray = '';
+        
+        dragElement1.setAttribute('src', "../../img/gakvetilebi/Music-class/Walk-in-the-city-4/music-new-04-14-yellow-ball.svg")
+
+        this.index = 1;
+
+        document.querySelector('.number').innerHTML = this.index;
+        dragElement1.setAttribute('data-index', this.index)
 
         // stop voice 
         createjs.Sound.stop("sound");
@@ -71,7 +113,14 @@ function game() {
     
 
     this.completGame = () => {
-        this.checkGameAnswers()
+        if(correctAnswer.getAttribute('data-correct') == this.answersArray){
+            this.error = false;
+            location.href = "game-success-24.html"
+
+        } else {
+            this.error = true;
+            dragElement1.setAttribute('src', "../../img/gakvetilebi/Music-class/Walk-in-the-city-4/Group 48675-red.svg")
+        }
     }
 }
 
