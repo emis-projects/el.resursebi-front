@@ -49728,6 +49728,68 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .play-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.class_music_5-box_1 {
+  width: 11vh;
+  height: 9vh;
+  border: 3px solid #7FD1D8;
+  opacity: 1;
+}
+
+.class_music_5-box_2 {
+  width: 11vh;
+  height: 9vh;
+  border: 3px solid #dae4e5;
+  opacity: 1;
+}
+
+.class_music_5-box-first {
+  border-radius: 2vh 2vh 0 0;
+}
+
+.class_music_5-box-last {
+  border-radius: 0 0 2vh 2vh;
+}
+
+.class_music_5-img_7 img {
+  height: 5.8vh;
+}
+
+.class_music_5-img_7_1 img {
+  height: 13vh;
+}
+
+.class_music_5-img_7_2 img {
+  height: 5.8vh;
+  margin-top: 3.2vh;
+}
+
+.class_music_5-img_8 img {
+  height: 6.4vh;
+}
+
+.class_music_5-img_8_1 img {
+  height: 9.9vh;
+}
+
+.class_music_5-img_8_2 img {
+  height: 5.8vh;
+}
+
+.class_music_5-blue_circle {
+  width: 4.6vh;
+  height: 4.6vh;
+  margin: 2vh auto;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -50650,6 +50712,107 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 .cs-6-27-8 {
   height: 49.3vh;
   max-height: 379px;
+}
+
+.cs-3-13 img {
+  height: 100%;
+}
+
+.cs-3-13-16 {
+  height: 57vh;
+  max-height: 438px;
+}
+
+.cs-3-13-17 {
+  height: 30vh;
+  max-height: 237px;
+}
+
+.cs-3-13-18 {
+  height: 51.6vh;
+  max-height: 397px;
+}
+
+.cs-3-13-18 {
+  height: 56vh;
+  max-height: 431px;
+}
+
+.background-cs-3-13-img {
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-3-13-img-20 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/Do-you-have-robot-13/cs-3-13-20.svg");
+}
+
+.background-cs-3-13-img-21 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/Do-you-have-robot-13/cs-3-13-21.png");
+}
+
+.background-cs-3-13-img-22 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/Do-you-have-robot-13/cs-3-13-22.svg");
+}
+
+.background-cs-3-13-img-23 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/Do-you-have-robot-13/cs-3-13-23.svg");
+}
+
+.cs-3-14 img {
+  height: 100%;
+}
+
+.cs-3-14-15 {
+  height: 41vh;
+  max-height: 319px;
+}
+
+.cs-3-14-16 {
+  height: 55.2vh;
+  max-height: 424px;
+}
+
+.cs-3-14-17 {
+  height: 36.6vh;
+  max-height: 279px;
+}
+
+.background-cs-3-14-img {
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-3-14-img-18 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/Mystery-of-binary-bracelet-14/cs-3-14-18.svg");
+}
+
+.background-cs-3-14-img-19 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/Mystery-of-binary-bracelet-14/cs-3-14-19.svg");
+}
+
+.background-cs-3-14-img-20 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/Mystery-of-binary-bracelet-14/cs-3-14-20.svg");
+}
+
+.background-cs-3-14-img-21 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/Mystery-of-binary-bracelet-14/cs-3-14-21.svg");
+}
+
+.cs-3-14-info img {
+  height: 100%;
+}
+
+.cs-3-14-info-3-1 {
+  height: 60vh;
+  max-height: 461px;
+}
+
+.cs-3-14-info-6-1 {
+  height: 36.3vh;
+  max-height: 279px;
 }
 
 body {
@@ -52560,3 +52723,4 @@ body {
     font-size: 14px;
   }
 }
+/*# sourceMappingURL=new-style.css.map */
