@@ -1051,7 +1051,7 @@ let title = {
         {
             id: 6,
             name: 'ღრუბლოვანი სერვისების სათანადოდ გამოყენება',
-            link: 'Computer-Science/Class-4/Cloud-services-6/1..html'
+            link: 'Computer-Science/Class-4/Cloud-services-6/1.html'
         },
         {
             id: 7,
