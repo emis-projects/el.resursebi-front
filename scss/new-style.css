@@ -49724,9 +49724,7 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .one-day-5-box {
   background-color: #FFEFE0;
-  height: 22.13vh;
-  max-height: 170px;
-  width: 206px;
+  border-radius: 12px;
 }
 
 .play-icon {
@@ -49792,6 +49790,10 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   width: 4.6vh;
   height: 4.6vh;
   margin: 2vh auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 10px;
 }
 
 .class_music_5-img_9_title {
@@ -50614,6 +50616,203 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 .animation-music-info-6-2 {
   height: 29.42vh;
   max-height: 226px;
+}
+
+.cs-6-28 img {
+  height: 100%;
+}
+
+.cs-6-28-1 {
+  height: 54.16vh;
+  max-height: 416px;
+}
+
+.cs-6-28-3 {
+  height: 50.65vh;
+  max-height: 389px;
+}
+
+.cs-6-28-4 {
+  height: 62.63vh;
+  max-height: 481px;
+}
+
+.cs-6-28-5 {
+  height: 55.20vh;
+  max-height: 424px;
+}
+
+.cs-6-28-6 {
+  height: 48.95vh;
+  max-height: 376px;
+}
+
+.cs-6-28-7 {
+  height: 41.7vh;
+  max-height: 321px;
+}
+
+.cs-6-28-8 {
+  height: 64.32vh;
+  max-height: 494px;
+}
+
+.cs-6-28-9 {
+  height: 50.7vh;
+  max-height: 387px;
+}
+
+.cs-6-28-10 {
+  height: 60vh;
+  max-height: 464px;
+}
+
+.cs-6-28-11 {
+  height: 46vh;
+  max-height: 357px;
+}
+
+.cs-6-27 img {
+  height: 100%;
+}
+
+.cs-6-27-1 {
+  height: 58.3vh;
+  max-height: 448px;
+}
+
+.cs-6-27-3 {
+  height: 43.8vh;
+  max-height: 337px;
+}
+
+.cs-6-27-4 {
+  height: 36.19vh;
+  max-height: 278px;
+}
+
+.cs-6-27-5 {
+  height: 59.3vh;
+  max-height: 456px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+
+.cs-6-27-6 {
+  height: 54vh;
+  max-height: 420px;
+}
+
+.cs-6-27-7 {
+  height: 34.3vh;
+  max-height: 264px;
+}
+
+.cs-6-27-8 {
+  height: 49.3vh;
+  max-height: 379px;
+}
+
+.cs-3-13 img {
+  height: 100%;
+}
+
+.cs-3-13-16 {
+  height: 57vh;
+  max-height: 438px;
+}
+
+.cs-3-13-17 {
+  height: 30vh;
+  max-height: 237px;
+}
+
+.cs-3-13-18 {
+  height: 51.6vh;
+  max-height: 397px;
+}
+
+.cs-3-13-18 {
+  height: 56vh;
+  max-height: 431px;
+}
+
+.background-cs-3-13-img {
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-3-13-img-20 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/Do-you-have-robot-13/cs-3-13-20.svg");
+}
+
+.background-cs-3-13-img-21 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/Do-you-have-robot-13/cs-3-13-21.png");
+}
+
+.background-cs-3-13-img-22 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/Do-you-have-robot-13/cs-3-13-22.svg");
+}
+
+.background-cs-3-13-img-23 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/Do-you-have-robot-13/cs-3-13-23.svg");
+}
+
+.cs-3-14 img {
+  height: 100%;
+}
+
+.cs-3-14-15 {
+  height: 41vh;
+  max-height: 319px;
+}
+
+.cs-3-14-16 {
+  height: 55.2vh;
+  max-height: 424px;
+}
+
+.cs-3-14-17 {
+  height: 36.6vh;
+  max-height: 279px;
+}
+
+.background-cs-3-14-img {
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-3-14-img-18 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/Mystery-of-binary-bracelet-14/cs-3-14-18.svg");
+}
+
+.background-cs-3-14-img-19 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/Mystery-of-binary-bracelet-14/cs-3-14-19.svg");
+}
+
+.background-cs-3-14-img-20 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/Mystery-of-binary-bracelet-14/cs-3-14-20.svg");
+}
+
+.background-cs-3-14-img-21 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/Mystery-of-binary-bracelet-14/cs-3-14-21.svg");
+}
+
+.cs-3-14-info img {
+  height: 100%;
+}
+
+.cs-3-14-info-3-1 {
+  height: 60vh;
+  max-height: 461px;
+}
+
+.cs-3-14-info-6-1 {
+  height: 36.3vh;
+  max-height: 279px;
 }
 
 body {
