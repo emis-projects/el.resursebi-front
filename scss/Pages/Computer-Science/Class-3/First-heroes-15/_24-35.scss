@@ -1,0 +1,64 @@
+.first-heroes{
+    img{
+        height:100%;
+    }
+    &-24-1{
+        height:5vh;
+        max-height:45px;
+    }
+
+    &-24-2{
+        height:23.9vh;
+        max-height:184px;
+    }
+    &-25{
+        height:20.5vh;
+        max-height:158px;
+    }
+    &-26{
+        height:36.9vh;
+        max-height:284px;
+    }
+    &-27{
+        height:58.3vh;
+        max-height:448px;
+        position:fixed;
+        bottom:13vh;
+        right:35vh;
+    }
+    &-28{
+        height:42.3vh;
+        max-height:325px;
+    }
+    &-29{
+        height:36.19vh;
+        max-height:278px;
+    }
+    &-30{
+        height:41.9vh;
+        max-height:322px;
+    }
+    &-31{
+        height:35.8vh;
+        max-height:275px;
+    }
+
+}
+
+.background-cs-3-15{
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    &-32{
+        background-image: url("../img/gakvetilebi/Computer-Science/Class-3/First-heroes-15/cs-3-15-32.svg");
+    }
+    &-33{
+        background-image: url("../img/gakvetilebi/Computer-Science/Class-3/First-heroes-15/cs-3-15-33.svg");
+    }
+    &-34{
+        background-image: url("../img/gakvetilebi/Computer-Science/Class-3/First-heroes-15/cs-3-15-34.svg");
+    }
+    &-35{
+        background-image: url("../img/gakvetilebi/Computer-Science/Class-3/First-heroes-15/cs-3-15-35.svg");
+    }
+}
