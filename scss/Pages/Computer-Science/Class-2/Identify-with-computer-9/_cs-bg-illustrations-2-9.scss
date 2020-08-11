@@ -1,29 +1,33 @@
-.background-cs-2-9-20 {
-    background-image: url("../img/gakvetilebi/Computer-Science/Class-2/Identify-with-computer-9/cs-2-9-20-img.svg");
-    background-position: top center;
-    background-size: cover;
-    background-repeat: no-repeat;
+.background_cs_2_9 {
+    &-bg_20 {
+        background-image: url("../img/gakvetilebi/Computer-Science/Class-2/Identify-with-computer-9/cs-2-9-20-img.svg");
+        background-position: top center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+    &-bg_21 {
+        background-image: url("../img/gakvetilebi/Computer-Science/Class-2/Identify-with-computer-9/cs-2-9-21-img.svg");
+        background-position: top center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+    &-bg_22 {
+        background-image: url("../img/gakvetilebi/Computer-Science/Class-2/Identify-with-computer-9/cs-2-9-22-img.svg");
+        background-position: top center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+    &-bg_23 {
+        background-image: url("../img/gakvetilebi/Computer-Science/Class-2/Identify-with-computer-9/cs-2-9-23-img.svg");
+        background-position: top center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
 }
-.background-cs-2-9-21 {
-    background-image: url("../img/gakvetilebi/Computer-Science/Class-2/Identify-with-computer-9/cs-2-9-21-img.svg");
-    background-position: top center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.background-cs-2-9-22 {
-    background-image: url("../img/gakvetilebi/Computer-Science/Class-2/Identify-with-computer-9/cs-2-9-22-img.svg");
-    background-position: top center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.background-cs-2-9-23 {
-    background-image: url("../img/gakvetilebi/Computer-Science/Class-2/Identify-with-computer-9/cs-2-9-23-img.svg");
-    background-position: top center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-
 .background-cs-title-purple{
     &-cont{
         padding-top: 10vh;
