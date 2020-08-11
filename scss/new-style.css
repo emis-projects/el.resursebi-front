@@ -51082,6 +51082,90 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-3/First-heroes-15/cs-3-15-35.svg");
 }
 
+.cs-3-15-div-3-img {
+  height: 50.65vh;
+}
+
+.cs-3-15-div-4-img {
+  height: 34.63vh;
+}
+
+.cs-3-15-div-5-1-img {
+  height: 9.11vh;
+}
+
+.cs-3-15-div-5-2-img {
+  height: 20.31vh;
+}
+
+.cs-3-15-div-6-img {
+  height: 52.21vh;
+}
+
+.cs-3-15-div-7-img {
+  height: 41.01vh;
+}
+
+.cs-3-15-div-8-img {
+  display: inline;
+  margin-left: 1.5vw;
+}
+
+.cs-3-15-div-8-1-img {
+  height: 5.98vh;
+}
+
+.cs-3-15-div-8-2-img {
+  height: 10.54vh;
+}
+
+.cs-3-15-div-8-3-img {
+  height: 5.2vh;
+}
+
+.cs-3-15-div-9-img {
+  height: 48.82vh;
+}
+
+.cs-3-15-div-10-img {
+  height: 39.45vh;
+  position: relative;
+}
+
+.cs-3-15-div-11-img {
+  height: 49.47vh;
+}
+
+.cs-3-15-div-12-img {
+  height: 28.51vh;
+}
+
+.cs-3-15-div img {
+  height: 100%;
+}
+
+.cs-3-15-div-10-img-text {
+  position: absolute;
+  font-family: "DejaVu Sans ";
+  font-size: 1.6vh;
+  color: #0b2228;
+}
+
+.cs-3-15-div-10-img-text-1 {
+  top: 15vh;
+  left: 17vw;
+}
+
+.cs-3-15-div-10-img-text-3 {
+  top: 11vh;
+  right: 12vw;
+}
+
+.cs-3-15-div-10-img-text-2 {
+  top: 18vh;
+  left: 34vw;
+}
+
 body {
   color: #262626;
   font-size: 14px;
