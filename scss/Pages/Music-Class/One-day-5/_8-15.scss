@@ -1,4 +1,58 @@
 .class_music_5 {
+    &-box_1 {
+        width: 11vh;
+        height: 9vh;
+        border: 3px solid #7FD1D8;
+        opacity: 1;
+    }
+    &-box_2 {
+        width: 11vh;
+        height: 9vh;
+        border: 3px solid #dae4e5;
+        opacity: 1;
+    }
+    &-box-first {
+        border-radius: 2vh 2vh 0 0; 
+    }
+    &-box-last {
+        border-radius: 0 0 2vh 2vh;
+    }
+    &-img_7 {
+        img {
+            height: 5.8vh;
+        }
+    }
+    &-img_7_1 {
+        img {
+            height: 13vh;
+        }
+    }
+    &-img_7_2 {
+        img {
+            height: 5.8vh;
+            margin-top: 3.2vh;
+        }
+    }
+    &-img_8 {
+        img {
+            height: 6.4vh;
+        }
+    }
+    &-img_8_1 {
+        img {
+            height: 9.9vh;
+        }
+    }
+    &-img_8_2 {
+        img {
+            height: 5.8vh;
+        }
+    }
+    &-blue_circle {
+        width: 4.6vh;
+        height: 4.6vh;
+        margin: 2vh auto;
+    }
     &-img_9_title {
         font-size: 15px;
         font-family: DejaVuSans;
@@ -56,6 +110,7 @@
         width: 20vh;
         height: 5.7vh;
     }
+    
     &-img_14_1 {
         img {
             height: 18.2vh;
