@@ -81,6 +81,7 @@ function musicGames() {
         if(!(e.target.firstElementChild)){
             if (e.target.classList.contains('myDrag')) {
                 e.target.appendChild(drag)
+                drag.setAttribute('style', "height: 100%")
             }
         }
         
@@ -95,8 +96,8 @@ function musicGames() {
             if (window.location.href.includes("/5.html")) {
                 location.href = 'game-success-5.html';
             }
-            if (window.location.href.includes("10.html")) {
-                location.href = 'game-success-10.html';
+            if (window.location.href.includes("6.html")) {
+                location.href = 'game-success-6.html';
             }
         }
         else {
@@ -139,6 +140,11 @@ function musicGames() {
             $(element).removeClass('error')
             $(element).removeClass('success')
         });
+
+        myArray.forEach(element => {
+            element.style = '';
+        });
+
 
         completedBtn.removeAttribute('disabled');
 
