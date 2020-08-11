@@ -47,12 +47,6 @@ dropBox.addEventListener("drop", drop);
 function dragOver(e) {
   e.preventDefault();
 }
-function dragEnter(e) {
-  e.preventDefault();
-}
-function dragLeave(e) {
-  e.preventDefault();
-}
 function drop(e) {
   e.preventDefault();
   this.append(dragged);
