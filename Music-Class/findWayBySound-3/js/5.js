@@ -65,7 +65,7 @@ function m13660304(){
                 this.error = false;
 
                 let img = document.createElement('img');
-                let imgSrc = '../../../img/gakvetilebi/musika/MV-1366-14-'
+                let imgSrc = '../../img/gakvetilebi/musika/MV-1366-14-'
                 img.setAttribute('src', `${imgSrc}${this.index}.svg`);
                 img.setAttribute('data-index', this.index);
                 img.classList.add('carImgNumber');
