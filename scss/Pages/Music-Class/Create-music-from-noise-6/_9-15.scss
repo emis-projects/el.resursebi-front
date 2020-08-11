@@ -25,14 +25,19 @@
         height: 54vh;
     }
     &-img_12_cont {
-        background-image: url("../../../../img/gakvetilebi/Music-class/Create-music-from-noise-6/music-6-12.svg");
-        background-repeat: no-repeat;
-        background-size: contain;
+        // background-image: url("../../../../img/gakvetilebi/Music-class/Create-music-from-noise-6/music-6-12.svg");
+        // background-repeat: no-repeat;
+        // background-size: contain;
         display: flex;
         align-items: center;
         justify-content: center;
         width: 10.9vh;
         height: 10.8vh;
+        border: 1px solid #707070;
+        overflow: hidden;
+        img{
+            height: 5vh;
+        }
     }
     &-img_13 {
         height: 29.9vh;

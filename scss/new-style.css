@@ -48840,10 +48840,10 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .class_music_4 .memory-card {
   position: relative;
-  height: 11.8vw;
-  width: 11.8vw;
-  max-height: 91px;
-  max-width: 91px;
+  height: 19.8vw;
+  width: 19.8vw;
+  max-height: 150px;
+  max-width: 150px;
   -webkit-transform: scale(1);
           transform: scale(1);
   -webkit-transform-style: preserve-3d;
@@ -49078,9 +49078,6 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .class_music_6-img_12_cont {
-  background-image: url("../../../../img/gakvetilebi/Music-class/Create-music-from-noise-6/music-6-12.svg");
-  background-repeat: no-repeat;
-  background-size: contain;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -49092,6 +49089,12 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
           justify-content: center;
   width: 10.9vh;
   height: 10.8vh;
+  border: 1px solid #707070;
+  overflow: hidden;
+}
+
+.class_music_6-img_12_cont img {
+  height: 5vh;
 }
 
 .class_music_6-img_13 {
@@ -50954,6 +50957,80 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .cs-4-13-div img {
   height: 100%;
+}
+
+.first-heroes img {
+  height: 100%;
+}
+
+.first-heroes-24-1 {
+  height: 5vh;
+  max-height: 45px;
+}
+
+.first-heroes-24-2 {
+  height: 23.9vh;
+  max-height: 184px;
+}
+
+.first-heroes-25 {
+  height: 20.5vh;
+  max-height: 158px;
+}
+
+.first-heroes-26 {
+  height: 36.9vh;
+  max-height: 284px;
+}
+
+.first-heroes-27 {
+  height: 58.3vh;
+  max-height: 448px;
+  position: fixed;
+  bottom: 13vh;
+  right: 35vh;
+}
+
+.first-heroes-28 {
+  height: 42.3vh;
+  max-height: 325px;
+}
+
+.first-heroes-29 {
+  height: 36.19vh;
+  max-height: 278px;
+}
+
+.first-heroes-30 {
+  height: 41.9vh;
+  max-height: 322px;
+}
+
+.first-heroes-31 {
+  height: 35.8vh;
+  max-height: 275px;
+}
+
+.background-cs-3-15 {
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-3-15-32 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/First-heroes-15/cs-3-15-32.svg");
+}
+
+.background-cs-3-15-33 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/First-heroes-15/cs-3-15-33.svg");
+}
+
+.background-cs-3-15-34 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/First-heroes-15/cs-3-15-34.svg");
+}
+
+.background-cs-3-15-35 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/First-heroes-15/cs-3-15-35.svg");
 }
 
 body {
