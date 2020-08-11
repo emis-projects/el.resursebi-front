@@ -48707,6 +48707,11 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   margin-right: 2.85vw;
 }
 
+.class_music_4 {
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+}
+
 .class_music_4 .checkBox {
   height: 18px;
   width: 18px;
@@ -48908,42 +48913,53 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   background: #A1DD6F;
 }
 
-.class_music_4-check_box {
-  height: 2.6vh;
-  width: 2.6vh;
-  margin: 0.7vh 1.5vh 0 0;
-  border: 2px solid #696969;
-  border-radius: 8px;
-  margin: auto;
-  opacity: 1;
+.class_music_4 .margin-right {
+  margin-right: 10vw;
 }
 
-.class_music_4 .checkBox {
-  height: 18px;
-  width: 18px;
-  border-radius: 100%;
-  border: 1px solid #000;
+.class_music_4 .memory-card {
+  position: relative;
+  height: 19.8vw;
+  width: 19.8vw;
+  max-height: 150px;
+  max-width: 150px;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transition: -webkit-transform .5s;
+  transition: -webkit-transform .5s;
+  transition: transform .5s;
+  transition: transform .5s, -webkit-transform .5s;
 }
 
-.class_music_4 #second-half {
-  display: none;
+.class_music_4 .memory-card:active {
+  -webkit-transform: scale(0.97);
+          transform: scale(0.97);
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
 }
 
-.class_music_4 #listen-btn {
-  cursor: pointer;
+.class_music_4 .memory-card.flip {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
 }
 
-.class_music_4 .check-box {
-  height: 18px;
-  width: 18px;
-  border-radius: 100%;
-  border: 1px solid #000;
-  margin: 0 1vw;
-  cursor: pointer;
+.class_music_4 .memory-card .front-face,
+.class_music_4 .memory-card .back-face {
+  height: 100%;
+  width: 100%;
+  padding: 5px;
+  position: absolute;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
 }
 
-.class_music_4 .check-box.active {
-  background: #d8c76a;
+.class_music_4 .memory-card .front-face {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
 }
 
 .class_music_4-bg_27 {
@@ -49141,9 +49157,6 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .class_music_6-img_12_cont {
-  background-image: url("../../../../img/gakvetilebi/Music-class/Create-music-from-noise-6/music-6-12.svg");
-  background-repeat: no-repeat;
-  background-size: contain;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -49155,6 +49168,12 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
           justify-content: center;
   width: 10.9vh;
   height: 10.8vh;
+  border: 1px solid #707070;
+  overflow: hidden;
+}
+
+.class_music_6-img_12_cont img {
+  height: 5vh;
 }
 
 .class_music_6-img_13 {
@@ -49911,9 +49930,6 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .class_music_5-img_10_cont_major {
-  background-image: url("../img/gakvetilebi/Music-class/One-day-5/music-5-10-rect-blue.svg");
-  background-repeat: no-repeat;
-  background-size: contain;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -49929,9 +49945,6 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .class_music_5-img_10_cont_minor {
-  background-image: url("../img/gakvetilebi/Music-class/One-day-5/music-5-10-ret-yellow.svg");
-  background-repeat: no-repeat;
-  background-size: contain;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -50742,6 +50755,37 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   max-height: 357px;
 }
 
+.cs-6-28-div-12-img {
+  height: 58.33vh;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.cs-6-28-div-13-img {
+  height: 65.62vh;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.cs-6-28-div-14-img {
+  height: 55.85vh;
+}
+
+.cs-6-28-div-15-img {
+  height: 75.52vh;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.cs-6-28-div img {
+  height: 100%;
+}
+
 .cs-6-27 img {
   height: 100%;
 }
@@ -50782,6 +50826,55 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 .cs-6-27-8 {
   height: 49.3vh;
   max-height: 379px;
+}
+
+.cs-6-27-div-9-img {
+  height: 45.96vh;
+}
+
+.cs-6-27-div-10-img {
+  height: 35.15vh;
+}
+
+.cs-6-27-div-11-img {
+  height: 63.93vh;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.cs-6-27-div-12-img {
+  height: 52.21vh;
+}
+
+.cs-6-27-div-13-img {
+  height: 41.66vh;
+}
+
+.cs-6-27-div-14-img {
+  height: 64.97vh;
+  position: absolute;
+  bottom: 5.85vh;
+  right: 17.57vw;
+}
+
+.cs-6-27-div-15-img {
+  height: 52.34vh;
+}
+
+.cs-6-27-div-16-img-1 {
+  height: 30.2vh;
+}
+
+.cs-6-27-div-16-img-2 {
+  height: 48.04vh;
+  position: absolute;
+  bottom: 0;
+  right: 17.05vw;
+}
+
+.cs-6-27-div img {
+  height: 100%;
 }
 
 .cs-3-13 img {
@@ -50828,6 +50921,57 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .background-cs-3-13-img-23 {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-3/Do-you-have-robot-13/cs-3-13-23.svg");
+}
+
+.cs-3-13-div-3-img {
+  height: 40.49vh;
+}
+
+.cs-3-13-div-4-img {
+  height: 38.28vh;
+}
+
+.cs-3-13-div-5-game-img {
+  height: 16.66vh;
+}
+
+.cs-3-13-div-5-img-click-btn {
+  border: 2px solid #696969;
+  border-radius: 8px;
+  width: 2.6vh;
+  height: 2.6vh;
+}
+
+.cs-3-13-div-6-game-img {
+  height: 18.75vh;
+}
+
+.cs-3-13-div-6-img-click {
+  -webkit-box-shadow: 2px 2px 8px #947DCE66;
+          box-shadow: 2px 2px 8px #947DCE66;
+  width: 10.24vw;
+  height: 5.2vh;
+  border-radius: 30px;
+}
+
+.cs-3-13-div-6-img-click p {
+  color: #62548A;
+}
+
+.cs-3-13-div-6-img-click-container {
+  border: 1px solid #707070;
+}
+
+.cs-3-13-div-7-img {
+  height: 44vh;
+}
+
+.cs-3-13-div-8-img {
+  height: 36.71vh;
+}
+
+.cs-3-13-div img {
+  height: 100%;
 }
 
 .cs-3-14 img {
@@ -50883,6 +51027,138 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 .cs-3-14-info-6-1 {
   height: 36.3vh;
   max-height: 279px;
+}
+
+.cs-4-13-div-1-img {
+  height: 40vh;
+}
+
+.cs-4-13-div-3-img {
+  height: 46.87vh;
+}
+
+.cs-4-13-div-4-img {
+  height: 54.94vh;
+  position: absolute;
+  bottom: 11.32vh;
+  right: 21.59vw;
+}
+
+.cs-4-13-div-5-img {
+  height: 66.53vh;
+  position: absolute;
+  bottom: 0;
+  right: 10.24vw;
+}
+
+.cs-4-13-div-6-img {
+  height: 54.29vh;
+  position: absolute;
+  bottom: 0;
+  right: 10.24vw;
+}
+
+.cs-4-13-div-7-img {
+  height: 38.41vh;
+}
+
+.cs-4-13-div-8-img {
+  height: 53.64vh;
+  position: absolute;
+  bottom: 0;
+  right: 17.27vw;
+}
+
+.cs-4-13-div-9-img {
+  height: 41.4vh;
+}
+
+.cs-4-13-div-10-img {
+  height: 27.21vh;
+}
+
+.cs-4-13-div-5-layout-icon {
+  display: inline;
+  height: 3.12vh;
+  vertical-align: middle;
+}
+
+.cs-4-13-div img {
+  height: 100%;
+}
+
+.first-heroes img {
+  height: 100%;
+}
+
+.first-heroes-24-1 {
+  height: 5vh;
+  max-height: 45px;
+}
+
+.first-heroes-24-2 {
+  height: 23.9vh;
+  max-height: 184px;
+}
+
+.first-heroes-25 {
+  height: 20.5vh;
+  max-height: 158px;
+}
+
+.first-heroes-26 {
+  height: 36.9vh;
+  max-height: 284px;
+}
+
+.first-heroes-27 {
+  height: 58.3vh;
+  max-height: 448px;
+  position: fixed;
+  bottom: 13vh;
+  right: 35vh;
+}
+
+.first-heroes-28 {
+  height: 42.3vh;
+  max-height: 325px;
+}
+
+.first-heroes-29 {
+  height: 36.19vh;
+  max-height: 278px;
+}
+
+.first-heroes-30 {
+  height: 41.9vh;
+  max-height: 322px;
+}
+
+.first-heroes-31 {
+  height: 35.8vh;
+  max-height: 275px;
+}
+
+.background-cs-3-15 {
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-3-15-32 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/First-heroes-15/cs-3-15-32.svg");
+}
+
+.background-cs-3-15-33 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/First-heroes-15/cs-3-15-33.svg");
+}
+
+.background-cs-3-15-34 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/First-heroes-15/cs-3-15-34.svg");
+}
+
+.background-cs-3-15-35 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/First-heroes-15/cs-3-15-35.svg");
 }
 
 body {
