@@ -1,4 +1,5 @@
 .class_music_4 {
+    perspective: 1000px;
     .checkBox{
         height: 18px;
         width: 18px; 
@@ -162,42 +163,40 @@
              background: #A1DD6F;
         }
     }
-        &-check_box {
-            height: 2.6vh;
-            width: 2.6vh;
-            margin: 0.7vh 1.5vh 0 0;
-            border: 2px solid #696969;
-            border-radius: 8px;
-            margin: auto;
-            opacity: 1;
-        }
-    .checkBox {
-        height: 18px;
-        width: 18px;
-        border-radius: 100%;
-        border: 1px solid #000;
+    .margin-right{
+        margin-right: 10vw;
+
     }
-        #second-half {
-            display: none;
+        .memory-card{
+            position: relative;
+            height: 11.8vw;
+            width: 11.8vw;
+            max-height: 91px;
+            max-width: 91px;
+            transform: scale(1);
+            transform-style: preserve-3d;
+            transition: transform .5s;
+            &:active {
+                transform: scale(0.97);
+                transition: transform .2s;
+            }
+            &.flip {
+                transform: rotateY(180deg);
+            }
+            .front-face,
+            .back-face {
+                height: 100%;
+                width: 100%;
+                padding: 5px;
+                position: absolute;
+                backface-visibility: hidden;
+            }
+            .front-face {
+                transform: rotateY(180deg);
+            }
         }
-        #listen-btn {
-            cursor: pointer;
-        }
+
 }
 
 
 
-.class_music_4 {
-    .check-box {
-
-        height: 18px;
-        width: 18px;
-        border-radius: 100%;
-        border: 1px solid #000;
-        margin: 0 1vw;
-        cursor: pointer;
-        &.active{
-            background: #d8c76a;
-        }
-    }
-}
