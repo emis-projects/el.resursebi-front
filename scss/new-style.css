@@ -50792,6 +50792,57 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-3/Do-you-have-robot-13/cs-3-13-23.svg");
 }
 
+.cs-3-13-div-3-img {
+  height: 40.49vh;
+}
+
+.cs-3-13-div-4-img {
+  height: 38.28vh;
+}
+
+.cs-3-13-div-5-game-img {
+  height: 16.66vh;
+}
+
+.cs-3-13-div-5-img-click-btn {
+  border: 2px solid #696969;
+  border-radius: 8px;
+  width: 2.6vh;
+  height: 2.6vh;
+}
+
+.cs-3-13-div-6-game-img {
+  height: 18.75vh;
+}
+
+.cs-3-13-div-6-img-click {
+  -webkit-box-shadow: 2px 2px 8px #947DCE66;
+          box-shadow: 2px 2px 8px #947DCE66;
+  width: 10.24vw;
+  height: 5.2vh;
+  border-radius: 30px;
+}
+
+.cs-3-13-div-6-img-click p {
+  color: #62548A;
+}
+
+.cs-3-13-div-6-img-click-container {
+  border: 1px solid #707070;
+}
+
+.cs-3-13-div-7-img {
+  height: 44vh;
+}
+
+.cs-3-13-div-8-img {
+  height: 36.71vh;
+}
+
+.cs-3-13-div img {
+  height: 100%;
+}
+
 .cs-3-14 img {
   height: 100%;
 }
