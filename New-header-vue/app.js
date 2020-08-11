@@ -1041,12 +1041,12 @@ let title = {
         {
             id: 4,
             name: 'პროგრამის შექმნის პროცესის გააზრება',
-            link: '#'
+            link: 'Computer-Science/Class-4/Creating-program-4/1.html'
         },
         {
             id: 5,
-            name: 'სათაური',
-            link: '#'
+            name: 'მომხმარებლის გრაფიკული ინტერფეისი',
+            link: 'Computer-Science/Class-4/UI-5/1.html'
         },
         {
             id: 6,
@@ -1177,8 +1177,8 @@ let title = {
         },
         {
             id: 19,
-            name: 'სათაური',
-            link: '#'
+            name: 'გამოვიყენოთ დიაგრამები მათემატიკური ამოცანების ამოსახსნელად',
+            link: 'Computer-Science/Class-5/Using-diagrams-19/1.html'
         },
         {
             id: 20,
@@ -1224,8 +1224,8 @@ let title = {
         },
         {
             id: 4,
-            name: 'სათაური',
-            link: '#'
+            name: 'ცვლადები',
+            link: 'Computer-Science/Class-6/Variables-4/1.html'
         },
         {
             id: 5,
@@ -1235,7 +1235,7 @@ let title = {
         {
             id: 6,
             name: 'არითმეტიკული ოპერატორები',
-            link: 'Computer-Science/Class-6/Arithmetic-operators-6/13.html'
+            link: 'Computer-Science/Class-6/Arithmetic-operators-6/1.html'
         },
         {
             id: 7,
@@ -1329,8 +1329,3 @@ let title = {
         }
     ]
 }
-
-
-
-
-
