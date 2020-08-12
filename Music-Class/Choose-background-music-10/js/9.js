@@ -40,8 +40,6 @@ function onDragEnd(event) {
 }
 
 dropBox.addEventListener("dragover", dragOver);
-dropBox.addEventListener("dragenter", dragEnter);
-dropBox.addEventListener("dragleave", dragLeave);
 dropBox.addEventListener("drop", drop);
 
 function dragOver(e) {
