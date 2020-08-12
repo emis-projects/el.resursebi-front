@@ -1,0 +1,67 @@
+.cs-3-15-div {
+    &-3-img {
+        height:50.65vh;
+    }
+    &-4-img {
+        height:34.63vh;
+    }
+    &-5-1-img{
+        height:9.11vh;
+    }
+    &-5-2-img{
+        height:20.31vh;
+    }
+    &-6-img {
+        height:52.21vh;
+    }
+    &-7-img {
+        height:41.01vh;
+    }
+    &-8-img {
+        display:inline;
+        margin-left: 1.5vw;
+    }
+    &-8-1-img {
+        height:5.98vh;
+    }
+      &-8-2-img {
+        height:10.54vh;
+    }
+      &-8-3-img {
+        height:5.2vh;
+    }
+    &-9-img {
+        height:48.82vh;
+    }
+    &-10-img{
+        height:39.45vh;
+        position: relative;
+    }
+    &-11-img{
+        height:49.47vh;
+    }
+    &-12-img{
+        height:28.51vh;
+    }
+    img {
+        height: 100%;
+    }
+}
+.cs-3-15-div-10-img-text{
+    position:absolute;
+    font-family: "DejaVu Sans ";
+        font-size:1.6vh;
+        color: #0b2228;
+    &-1 {
+       top:15vh;
+       left: 17vw;
+    }
+    &-3{
+        top: 11vh;
+        right: 17vw;
+     }
+    &-2{
+        top: 18vh;
+        left: 34vw;
+     }
+}

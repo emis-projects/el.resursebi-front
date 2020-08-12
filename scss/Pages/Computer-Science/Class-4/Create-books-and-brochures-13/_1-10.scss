@@ -1,0 +1,49 @@
+.cs-4-13-div {
+    &-1-img {
+        height: 40vh;
+    }
+    &-3-img {
+        height:46.87vh;
+    }
+    &-4-img {
+        height:54.94vh;
+        position:absolute;
+        bottom:11.32vh;
+        right:21.59vw;
+    }
+    &-5-img {
+        height:66.53vh;
+        position:absolute;
+        bottom:0;
+        right:10.24vw;
+    }
+    &-6-img {
+        height:54.29vh;
+        position:absolute;
+        bottom:0;
+        right:10.24vw;
+    }
+    &-7-img {
+        height:38.41vh;
+    }
+    &-8-img {
+        height:53.64vh;
+        position:absolute;
+        bottom:0;
+        right:17.27vw;
+    }
+    &-9-img {
+        height:41.4vh;
+    }
+    &-10-img {
+        height:27.21vh;
+    }
+    &-5-layout-icon{
+        display:inline;
+        height:3.12vh;
+        vertical-align: middle;
+    }
+    img {
+        height: 100%;
+    }
+}
