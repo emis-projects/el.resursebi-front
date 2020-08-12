@@ -8410,9 +8410,9 @@ section .arrow_up_down_downArrow img {
 .board {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (var(--block-size))[11];
+  -ms-grid-columns: (var(--block-size));
       grid-template-columns: repeat(11, var(--block-size));
-  -ms-grid-rows: (var(--block-size))[11];
+  -ms-grid-rows: (var(--block-size));
       grid-template-rows: repeat(11, var(--block-size));
 }
 
@@ -32104,14 +32104,16 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 .Class_5_3-img_box p {
   color: #fff;
   line-height: 1.2;
+  font-size: 14px;
 }
 
 .Class_5_3-img_box_1 {
+  width: 51vh;
   background-color: #7FD1D8;
 }
 
 .Class_5_3-img_box_2 {
-  background-color: #947DCE;
+  background-color: #62548a;
 }
 
 .Class_5_3-img_box_3 {
@@ -33096,35 +33098,35 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .objects_box-image-19 {
-  height: 100vh;
-  width: 100%;
-  position: fixed;
-  background: url("../img/gakvetilebi/Computer-Science/Class-5/objects-1/cs-5-1-19.svg") no-repeat center;
+  background: url("../img/gakvetilebi/Computer-Science/Class-5/objects-1/cs-5-1-19.svg");
+  background-position: top center;
   background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
 .objects_box-image-20 {
-  height: 100vh;
-  width: 100%;
-  position: fixed;
-  background: url("../img/gakvetilebi/Computer-Science/Class-5/objects-1/cs-5-1-20.svg") no-repeat center;
+  background: url("../img/gakvetilebi/Computer-Science/Class-5/objects-1/cs-5-1-20.svg");
+  background-position: top center;
   background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
 .objects_box-image-21 {
-  height: 100vh;
-  width: 100%;
-  position: fixed;
-  background: url("../img/gakvetilebi/Computer-Science/Class-5/objects-1/cs-5-1-21.svg") no-repeat center;
+  background: url("../img/gakvetilebi/Computer-Science/Class-5/objects-1/cs-5-1-21.svg");
+  background-position: top center;
   background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
 .objects_box-image-22 {
-  height: 100vh;
-  width: 100%;
-  position: fixed;
-  background: url("../img/gakvetilebi/Computer-Science/Class-5/objects-1/cs-5-1-22.svg") no-repeat center;
+  background: url("../img/gakvetilebi/Computer-Science/Class-5/objects-1/cs-5-1-22.svg");
+  background-position: top center;
   background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
 .cs-5-10-img-div-extras-5-1 {
@@ -33191,7 +33193,8 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .identify_page-5 .arrow-box {
-  width: 60px;
+  width: 7.9vh;
+  height: 4.4vh;
 }
 
 .identify_page-5 .arrow-box img {
@@ -34398,6 +34401,48 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .cs-2-9-img-div img {
   height: 100%;
+}
+
+.background_cs_2_9-bg_20 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-2/Identify-with-computer-9/cs-2-9-20-img.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.background_cs_2_9-bg_21 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-2/Identify-with-computer-9/cs-2-9-21-img.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.background_cs_2_9-bg_22 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-2/Identify-with-computer-9/cs-2-9-22-img.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.background_cs_2_9-bg_23 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-2/Identify-with-computer-9/cs-2-9-23-img.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.background-cs-title-purple {
+  color: #62548A;
+  font-family: 'DejaVu Sans Oblique';
+  font-size: 3.64vh;
+}
+
+.background-cs-title-purple-cont {
+  padding-top: 10vh;
 }
 
 .cs-5-9-8-img {
@@ -36566,6 +36611,28 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
+.background-cs-6-1 {
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-6-1-20 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/create-game-1/cs-6-1-20-img.svg");
+}
+
+.background-cs-6-1-21 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/create-game-1/cs-6-1-21-img.svg");
+}
+
+.background-cs-6-1-22 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/create-game-1/cs-6-1-22-img.svg");
+}
+
+.background-cs-6-1-23 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/create-game-1/cs-6-1-23-img.svg");
+}
+
 .cs-6-3-div-1-img {
   height: 58.33vh;
   margin: 8vh auto 5vh;
@@ -36907,6 +36974,7 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 .class_5_18-img_box_15 {
   position: fixed;
   bottom: 0;
+  right: 28vh;
   height: 46.6vh;
   max-height: 358px;
 }
@@ -37653,6 +37721,7 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .class_5_11-img_5 {
   position: fixed;
+  right: 35vh;
   height: 74.48vh;
   max-height: 572px;
 }
@@ -38167,12 +38236,16 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 .cs-5-16-div-24-img {
   height: 27.6vh;
   position: absolute;
-  bottom: 5.33vh;
-  right: 12.71vw;
+  bottom: 8.33vh;
+  right: 13.71vw;
 }
 
 .cs-5-16-div img {
   height: 100%;
+}
+
+.cs-5-16-div-24-title-item {
+  margin-bottom: 0.7vh !important;
 }
 
 .background-cs-5-16 {
@@ -38903,6 +38976,8 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .cs-5-20_3-1 {
+  position: fixed;
+  bottom: 0;
   height: 53vh;
   max-height: 414px;
 }
@@ -40679,8 +40754,13 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 .class_5_17-img_7 {
   position: fixed;
   bottom: 15vh;
+  right: 30vh;
   height: 38.4vh;
   max-height: 295vh;
+}
+
+.class_5_17-img_7 img {
+  height: 100%;
 }
 
 .class_5_17-img_excel {
@@ -40774,17 +40854,8 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .examples-and-forms_page-19 {
-  height: 27vh;
+  height: 26.4vh;
   max-height: 204px;
-}
-
-.examples-and-forms_page-19 img {
-  height: 100%;
-}
-
-.examples-and-forms_page-19 {
-  height: 64vh;
-  max-height: 498px;
 }
 
 .examples-and-forms_page-19 img {
@@ -42072,6 +42143,10 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   right: 21.44vw;
 }
 
+.cs-6-17-div-title_color {
+  color: #DC6C85 !important;
+}
+
 .cs-6-17-div-12-1-img {
   height: 43.48vh;
 }
@@ -42082,6 +42157,10 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .cs-6-17-div img {
   height: 100%;
+}
+
+.cs-6-17-div-14-1-title-item {
+  margin-bottom: 0.4vh !important;
 }
 
 .cs-3-10-div-3-img {
@@ -49078,9 +49157,6 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .class_music_6-img_12_cont {
-  background-image: url("../../../../img/gakvetilebi/Music-class/Create-music-from-noise-6/music-6-12.svg");
-  background-repeat: no-repeat;
-  background-size: contain;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -49092,6 +49168,12 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
           justify-content: center;
   width: 10.9vh;
   height: 10.8vh;
+  border: 1px solid #707070;
+  overflow: hidden;
+}
+
+.class_music_6-img_12_cont img {
+  height: 5vh;
 }
 
 .class_music_6-img_13 {
@@ -50699,6 +50781,105 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   max-height: 233.21px;
 }
 
+.cs-6-28-div-12-img {
+  height: 58.33vh;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.cs-6-28-div-13-img {
+  height: 65.62vh;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.cs-6-28-div-14-img {
+  height: 55.85vh;
+}
+
+.cs-6-28-div-15-img {
+  height: 75.52vh;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.cs-6-28-div img {
+  height: 100%;
+}
+
+.class_6_28-bg_20 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Creating-game-in-scratch-28/C-6-28-20.png");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.class_6_28-bg_21 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Creating-game-in-scratch-28/C-6-28-21.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.class_6_28-bg_22 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Creating-game-in-scratch-28/C-6-28-22.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.class_6_28-bg_23 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Creating-game-in-scratch-28/C-6-28-23.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.class_6_28-img_5_1 {
+  position: fixed;
+  bottom: 0;
+}
+
+.class_6_28-img_5_1 img {
+  height: 75vh;
+}
+
+.class_6_28-img_6_1 {
+  position: fixed;
+  bottom: 0;
+}
+
+.class_6_28-img_6_1 img {
+  height: 73vh;
+}
+
+.class_6_28-img_12_1 {
+  position: fixed;
+  bottom: 0;
+}
+
+.class_6_28-img_12_1 img {
+  height: 74.6vh;
+}
+
+.class_6_28-img_13_1 {
+  position: fixed;
+  bottom: 0;
+}
+
+.class_6_28-img_13_1 img {
+  height: 75.5vh;
+}
+
 .cs-6-27 img {
   height: 100%;
 }
@@ -50739,6 +50920,91 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 .cs-6-27-8 {
   height: 49.3vh;
   max-height: 379px;
+}
+
+.cs-6-27-div-9-img {
+  height: 45.96vh;
+}
+
+.cs-6-27-div-10-img {
+  height: 35.15vh;
+}
+
+.cs-6-27-div-11-img {
+  height: 63.93vh;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.cs-6-27-div-12-img {
+  height: 52.21vh;
+}
+
+.cs-6-27-div-13-img {
+  height: 41.66vh;
+}
+
+.cs-6-27-div-14-img {
+  height: 64.97vh;
+  position: absolute;
+  bottom: 5.85vh;
+  right: 17.57vw;
+}
+
+.cs-6-27-div-15-img {
+  height: 52.34vh;
+}
+
+.cs-6-27-div-16-img-1 {
+  height: 30.2vh;
+}
+
+.cs-6-27-div-16-img-2 {
+  height: 48.04vh;
+  position: absolute;
+  bottom: 0;
+  right: 17.05vw;
+}
+
+.cs-6-27-div img {
+  height: 100%;
+}
+
+.class_6_27-title_item {
+  margin-bottom: 0 !important;
+}
+
+.class_6_27-bg_18 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Creating-two-tours-game-27/C-6-27-18.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.class_6_27-bg_19 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Creating-two-tours-game-27/C-6-27-19.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.class_6_27-bg_20 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Creating-two-tours-game-27/C-6-27-20.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.class_6_27-bg_21 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Creating-two-tours-game-27/C-6-27-21.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
 .cs-3-13 img {
@@ -50785,6 +51051,57 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .background-cs-3-13-img-23 {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-3/Do-you-have-robot-13/cs-3-13-23.svg");
+}
+
+.cs-3-13-div-3-img {
+  height: 40.49vh;
+}
+
+.cs-3-13-div-4-img {
+  height: 38.28vh;
+}
+
+.cs-3-13-div-5-game-img {
+  height: 16.66vh;
+}
+
+.cs-3-13-div-5-img-click-btn {
+  border: 2px solid #696969;
+  border-radius: 8px;
+  width: 2.6vh;
+  height: 2.6vh;
+}
+
+.cs-3-13-div-6-game-img {
+  height: 18.75vh;
+}
+
+.cs-3-13-div-6-img-click {
+  -webkit-box-shadow: 2px 2px 8px #947DCE66;
+          box-shadow: 2px 2px 8px #947DCE66;
+  width: 10.24vw;
+  height: 5.2vh;
+  border-radius: 30px;
+}
+
+.cs-3-13-div-6-img-click p {
+  color: #62548A;
+}
+
+.cs-3-13-div-6-img-click-container {
+  border: 1px solid #707070;
+}
+
+.cs-3-13-div-7-img {
+  height: 44vh;
+}
+
+.cs-3-13-div-8-img {
+  height: 36.71vh;
+}
+
+.cs-3-13-div img {
+  height: 100%;
 }
 
 .cs-3-14 img {
@@ -50840,6 +51157,145 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 .cs-3-14-info-6-1 {
   height: 36.3vh;
   max-height: 279px;
+}
+
+.cs-3-14-div {
+  /*   &-6-char-img {
+        height:7.21vh;
+    } */
+}
+
+.cs-3-14-div-3-img {
+  height: 48.17vh;
+}
+
+.cs-3-14-div-4-img {
+  height: 51.95vh;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.cs-3-14-div-5-1-img {
+  height: 15.62vh;
+}
+
+.cs-3-14-div-5-2-img {
+  height: 12.89vh;
+}
+
+.cs-3-14-div-5-3-img {
+  height: 12.85vh;
+}
+
+.cs-3-14-div-5-4-img {
+  height: 12.14vh;
+}
+
+.cs-3-14-div-5-5-img {
+  height: 19.97vh;
+}
+
+.cs-3-14-div-5-6-img {
+  height: 9.89vh;
+}
+
+.cs-3-14-div-5-7-img {
+  height: 9.81vh;
+}
+
+.cs-3-14-div-5-8-img {
+  height: 17.35vh;
+}
+
+.cs-3-14-div-5-9-img {
+  height: 20.98vh;
+}
+
+.cs-3-14-div-6-img {
+  height: 7.21vh;
+}
+
+.cs-3-14-div-7-cube-img {
+  height: 3.97vh;
+}
+
+.cs-3-14-div-7-tbl-img {
+  height: 46.56vh;
+}
+
+.cs-3-14-div-7-example-img {
+  height: 46.22vh;
+}
+
+.cs-3-14-div-8-img {
+  height: 50.39vh;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.cs-3-14-div img {
+  height: 100%;
+}
+
+.cs-4-13-div-1-img {
+  height: 40vh;
+}
+
+.cs-4-13-div-3-img {
+  height: 46.87vh;
+}
+
+.cs-4-13-div-4-img {
+  height: 54.94vh;
+  position: absolute;
+  bottom: 11.32vh;
+  right: 21.59vw;
+}
+
+.cs-4-13-div-5-img {
+  height: 66.53vh;
+  position: absolute;
+  bottom: 0;
+  right: 10.24vw;
+}
+
+.cs-4-13-div-6-img {
+  height: 54.29vh;
+  position: absolute;
+  bottom: 0;
+  right: 10.24vw;
+}
+
+.cs-4-13-div-7-img {
+  height: 38.41vh;
+}
+
+.cs-4-13-div-8-img {
+  height: 53.64vh;
+  position: absolute;
+  bottom: 0;
+  right: 17.27vw;
+}
+
+.cs-4-13-div-9-img {
+  height: 41.4vh;
+}
+
+.cs-4-13-div-10-img {
+  height: 27.21vh;
+}
+
+.cs-4-13-div-5-layout-icon {
+  display: inline;
+  height: 3.12vh;
+  vertical-align: middle;
+}
+
+.cs-4-13-div img {
+  height: 100%;
 }
 
 .first-heroes img {
@@ -50914,6 +51370,90 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .background-cs-3-15-35 {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-3/First-heroes-15/cs-3-15-35.svg");
+}
+
+.cs-3-15-div-3-img {
+  height: 50.65vh;
+}
+
+.cs-3-15-div-4-img {
+  height: 34.63vh;
+}
+
+.cs-3-15-div-5-1-img {
+  height: 9.11vh;
+}
+
+.cs-3-15-div-5-2-img {
+  height: 20.31vh;
+}
+
+.cs-3-15-div-6-img {
+  height: 52.21vh;
+}
+
+.cs-3-15-div-7-img {
+  height: 41.01vh;
+}
+
+.cs-3-15-div-8-img {
+  display: inline;
+  margin-left: 1.5vw;
+}
+
+.cs-3-15-div-8-1-img {
+  height: 5.98vh;
+}
+
+.cs-3-15-div-8-2-img {
+  height: 10.54vh;
+}
+
+.cs-3-15-div-8-3-img {
+  height: 5.2vh;
+}
+
+.cs-3-15-div-9-img {
+  height: 48.82vh;
+}
+
+.cs-3-15-div-10-img {
+  height: 39.45vh;
+  position: relative;
+}
+
+.cs-3-15-div-11-img {
+  height: 49.47vh;
+}
+
+.cs-3-15-div-12-img {
+  height: 28.51vh;
+}
+
+.cs-3-15-div img {
+  height: 100%;
+}
+
+.cs-3-15-div-10-img-text {
+  position: absolute;
+  font-family: "DejaVu Sans ";
+  font-size: 1.6vh;
+  color: #0b2228;
+}
+
+.cs-3-15-div-10-img-text-1 {
+  top: 15vh;
+  left: 17vw;
+}
+
+.cs-3-15-div-10-img-text-3 {
+  top: 11vh;
+  right: 17vw;
+}
+
+.cs-3-15-div-10-img-text-2 {
+  top: 18vh;
+  left: 34vw;
 }
 
 body {

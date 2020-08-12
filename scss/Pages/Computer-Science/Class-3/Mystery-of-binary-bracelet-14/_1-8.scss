@@ -1,0 +1,62 @@
+.cs-3-14-div {
+    &-3-img {
+        height:48.17vh;
+    }
+    &-4-img {
+        height:51.95vh;
+        position:absolute;
+        left:50%;
+        transform:translateX(-50%)
+    }
+    &-5-1-img{
+        height:15.62vh;
+    }
+    &-5-2-img{
+        height:12.89vh;
+    }
+    &-5-3-img{
+        height:12.85vh;
+    }
+    &-5-4-img{
+        height:12.14vh;
+    }
+    &-5-5-img{
+        height:19.97vh;
+    }
+    &-5-6-img{
+        height:9.89vh;
+    }
+    &-5-7-img{
+        height:9.81vh;
+    }
+    &-5-8-img{
+        height:17.35vh;
+    }
+    &-5-9-img{
+        height:20.98vh;
+    }
+    &-6-img {
+        height:7.21vh;
+    }
+  /*   &-6-char-img {
+        height:7.21vh;
+    } */
+    &-7-cube-img {
+        height:3.97vh;
+    }
+      &-7-tbl-img {
+        height:46.56vh;
+    }
+    &-7-example-img {
+        height:46.22vh;
+    }
+    &-8-img {
+        height: 50.39vh;
+        position:absolute;
+        bottom:0; 
+        right:0;
+    }
+    img {
+        height: 100%;
+    }
+}
