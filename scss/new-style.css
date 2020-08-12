@@ -8410,9 +8410,9 @@ section .arrow_up_down_downArrow img {
 .board {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (var(--block-size));
+  -ms-grid-columns: (var(--block-size))[11];
       grid-template-columns: repeat(11, var(--block-size));
-  -ms-grid-rows: (var(--block-size));
+  -ms-grid-rows: (var(--block-size))[11];
       grid-template-rows: repeat(11, var(--block-size));
 }
 
@@ -50755,32 +50755,6 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   max-height: 357px;
 }
 
-.justify-content-right {
-  -ms-flex-pack: right !important;
-  -webkit-box-pack: right !important;
-          justify-content: right !important;
-}
-
-.cs-6-28-16 {
-  height: 60.28vh;
-  max-height: 463px;
-}
-
-.cs-6-28-17 {
-  height: 74.49hv;
-  max-height: 572.13;
-}
-
-.cs-6-28-18 {
-  height: 24.04hv;
-  max-height: 189.05px;
-}
-
-.cs-6-28-19 {
-  height: 30.36hv;
-  max-height: 233.21px;
-}
-
 .cs-6-28-div-12-img {
   height: 58.33vh;
   position: absolute;
@@ -50810,6 +50784,26 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .cs-6-28-div img {
   height: 100%;
+}
+
+.cs-6-28-16 {
+  height: 60.28vh;
+  max-height: 463px;
+}
+
+.cs-6-28-17 {
+  height: 74.49hv;
+  max-height: 572.13;
+}
+
+.cs-6-28-18 {
+  height: 24.04hv;
+  max-height: 189.05px;
+}
+
+.cs-6-28-19 {
+  height: 30.36hv;
+  max-height: 233.21px;
 }
 
 .class_6_28-bg_20 {
@@ -51313,6 +51307,80 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .class_4_13-img_16_1 img {
   height: 100vh;
+}
+
+.first-heroes img {
+  height: 100%;
+}
+
+.first-heroes-24-1 {
+  height: 5vh;
+  max-height: 45px;
+}
+
+.first-heroes-24-2 {
+  height: 23.9vh;
+  max-height: 184px;
+}
+
+.first-heroes-25 {
+  height: 20.5vh;
+  max-height: 158px;
+}
+
+.first-heroes-26 {
+  height: 36.9vh;
+  max-height: 284px;
+}
+
+.first-heroes-27 {
+  height: 58.3vh;
+  max-height: 448px;
+  position: fixed;
+  bottom: 13vh;
+  right: 35vh;
+}
+
+.first-heroes-28 {
+  height: 42.3vh;
+  max-height: 325px;
+}
+
+.first-heroes-29 {
+  height: 36.19vh;
+  max-height: 278px;
+}
+
+.first-heroes-30 {
+  height: 41.9vh;
+  max-height: 322px;
+}
+
+.first-heroes-31 {
+  height: 35.8vh;
+  max-height: 275px;
+}
+
+.background-cs-3-15 {
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-3-15-32 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/First-heroes-15/cs-3-15-32.svg");
+}
+
+.background-cs-3-15-33 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/First-heroes-15/cs-3-15-33.svg");
+}
+
+.background-cs-3-15-34 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/First-heroes-15/cs-3-15-34.svg");
+}
+
+.background-cs-3-15-35 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/First-heroes-15/cs-3-15-35.svg");
 }
 
 .first-heroes img {
