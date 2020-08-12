@@ -51133,6 +51133,87 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   max-height: 279px;
 }
 
+.cs-3-14-div {
+  /*   &-6-char-img {
+        height:7.21vh;
+    } */
+}
+
+.cs-3-14-div-3-img {
+  height: 48.17vh;
+}
+
+.cs-3-14-div-4-img {
+  height: 51.95vh;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.cs-3-14-div-5-1-img {
+  height: 15.62vh;
+}
+
+.cs-3-14-div-5-2-img {
+  height: 12.89vh;
+}
+
+.cs-3-14-div-5-3-img {
+  height: 12.85vh;
+}
+
+.cs-3-14-div-5-4-img {
+  height: 12.14vh;
+}
+
+.cs-3-14-div-5-5-img {
+  height: 19.97vh;
+}
+
+.cs-3-14-div-5-6-img {
+  height: 9.89vh;
+}
+
+.cs-3-14-div-5-7-img {
+  height: 9.81vh;
+}
+
+.cs-3-14-div-5-8-img {
+  height: 17.35vh;
+}
+
+.cs-3-14-div-5-9-img {
+  height: 20.98vh;
+}
+
+.cs-3-14-div-6-img {
+  height: 7.21vh;
+}
+
+.cs-3-14-div-7-cube-img {
+  height: 3.97vh;
+}
+
+.cs-3-14-div-7-tbl-img {
+  height: 46.56vh;
+}
+
+.cs-3-14-div-7-example-img {
+  height: 46.22vh;
+}
+
+.cs-3-14-div-8-img {
+  height: 50.39vh;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.cs-3-14-div img {
+  height: 100%;
+}
+
 .cs-4-13-div-1-img {
   height: 40vh;
 }
