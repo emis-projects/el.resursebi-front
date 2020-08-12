@@ -49150,6 +49150,10 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   opacity: 0;
 }
 
+#third-line {
+  opacity: 0;
+}
+
 .class_music_6-img_9 {
   height: 13.9vh;
 }
@@ -51023,6 +51027,16 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
+}
+
+.cs-5-1 {
+  height: 47.68vh;
+  max-height: 366.22px;
+}
+
+.cs-6-1 {
+  height: 79.16vh;
+  max-height: 608.02px;
 }
 
 .cs-3-13 img {
