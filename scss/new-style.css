@@ -49087,43 +49087,67 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
-.music-new-6-div-5-img {
-  position: relative;
-  height: 43.75vh;
-  margin-right: 1.8vw;
+.music-new-6 .image-box {
+  height: 36vh;
+  max-height: 274px;
 }
 
-.music-new-6-div-5-img-circle {
-  width: 4.94vh;
-  height: 4.94vh;
-  border: 1px solid #CECECE;
-  background-color: #17a2b8;
-  opacity: 0.4;
-  position: absolute;
-  left: 50%;
-  -webkit-transform: translate(-50%, 0);
-          transform: translate(-50%, 0);
+.music-new-6 .select {
+  border: 3px solid #CECECE;
   border-radius: 100%;
-  top: 1.5vh;
+  height: 32px;
+  width: 32px;
+  margin-right: 20px;
+  cursor: pointer;
 }
 
-.music-new-6-div-5-img-buttons img {
-  height: 4.94vh;
+.music-new-6 .select.active {
+  border: 3px solid #947DCE;
 }
 
-.music-new-6-div-5-img-buttons-column {
+.music-new-6 .select.active div {
+  height: 16px;
+  width: 16px;
+  border-radius: 100%;
+  background: #947DCE;
+}
+
+.music-new-7 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  height: 58.5vh;
 }
 
-.music-new-6-div-5-img-buttons-column img {
-  margin-top: 5vh;
+.music-new-7 div {
+  border: 2px solid #7FD1D8;
+  height: calc(100% / 5);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
 }
 
-.music-new-6-div-5-img img {
-  height: 100%;
+.music-new-7 div img {
+  height: 60%;
+}
+
+#first-line {
+  opacity: 0;
+}
+
+#second-line {
+  opacity: 0;
 }
 
 .class_music_6-img_9 {
@@ -51294,6 +51318,93 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .cs-4-13-div img {
   height: 100%;
+}
+
+.class_4_13-title_item {
+  margin-bottom: 0 !important;
+}
+
+.class_4_13-img_16_1 {
+  position: fixed;
+  top: 0;
+}
+
+.class_4_13-img_16_1 img {
+  height: 100vh;
+}
+
+.first-heroes img {
+  height: 100%;
+}
+
+.first-heroes-24-1 {
+  height: 5vh;
+  max-height: 45px;
+}
+
+.first-heroes-24-2 {
+  height: 23.9vh;
+  max-height: 184px;
+}
+
+.first-heroes-25 {
+  height: 20.5vh;
+  max-height: 158px;
+}
+
+.first-heroes-26 {
+  height: 36.9vh;
+  max-height: 284px;
+}
+
+.first-heroes-27 {
+  height: 58.3vh;
+  max-height: 448px;
+  position: fixed;
+  bottom: 13vh;
+  right: 35vh;
+}
+
+.first-heroes-28 {
+  height: 42.3vh;
+  max-height: 325px;
+}
+
+.first-heroes-29 {
+  height: 36.19vh;
+  max-height: 278px;
+}
+
+.first-heroes-30 {
+  height: 41.9vh;
+  max-height: 322px;
+}
+
+.first-heroes-31 {
+  height: 35.8vh;
+  max-height: 275px;
+}
+
+.background-cs-3-15 {
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-3-15-32 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/First-heroes-15/cs-3-15-32.svg");
+}
+
+.background-cs-3-15-33 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/First-heroes-15/cs-3-15-33.svg");
+}
+
+.background-cs-3-15-34 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/First-heroes-15/cs-3-15-34.svg");
+}
+
+.background-cs-3-15-35 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/First-heroes-15/cs-3-15-35.svg");
 }
 
 .first-heroes img {
