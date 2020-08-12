@@ -2,8 +2,12 @@
     &-img_7 {
         position: fixed;
         bottom: 15vh;
+        right: 30vh;
         height: 38.4vh;
         max-height: 295vh;
+        img {
+            height: 100%;
+        }
     }
     &-img_excel {
         width: 25px;
