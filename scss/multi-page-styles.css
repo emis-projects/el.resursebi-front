@@ -1,0 +1,6 @@
+.justify-content-right {
+  -webkit-box-pack: right !important;
+      -ms-flex-pack: right !important;
+          justify-content: right !important;
+}
+/*# sourceMappingURL=multi-page-styles.css.map */

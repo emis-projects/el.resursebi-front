@@ -49848,9 +49848,6 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .class_music_5-img_10_cont_major {
-  background-image: url("../img/gakvetilebi/Music-class/One-day-5/music-5-10-rect-blue.svg");
-  background-repeat: no-repeat;
-  background-size: contain;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -49866,9 +49863,6 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .class_music_5-img_10_cont_minor {
-  background-image: url("../img/gakvetilebi/Music-class/One-day-5/music-5-10-ret-yellow.svg");
-  background-repeat: no-repeat;
-  background-size: contain;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -50677,6 +50671,32 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 .cs-6-28-11 {
   height: 46vh;
   max-height: 357px;
+}
+
+.justify-content-right {
+  -ms-flex-pack: right !important;
+  -webkit-box-pack: right !important;
+          justify-content: right !important;
+}
+
+.cs-6-28-16 {
+  height: 60.28vh;
+  max-height: 463px;
+}
+
+.cs-6-28-17 {
+  height: 74.49hv;
+  max-height: 572.13;
+}
+
+.cs-6-28-18 {
+  height: 24.04hv;
+  max-height: 189.05px;
+}
+
+.cs-6-28-19 {
+  height: 30.36hv;
+  max-height: 233.21px;
 }
 
 .cs-6-27 img {
