@@ -50786,6 +50786,26 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
+.cs-6-28-16 {
+  height: 60.28vh;
+  max-height: 463px;
+}
+
+.cs-6-28-17 {
+  height: 74.49hv;
+  max-height: 572.13;
+}
+
+.cs-6-28-18 {
+  height: 24.04hv;
+  max-height: 189.05px;
+}
+
+.cs-6-28-19 {
+  height: 30.36hv;
+  max-height: 233.21px;
+}
+
 .class_6_28-bg_20 {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Creating-game-in-scratch-28/C-6-28-20.png");
   background-position: top center;
@@ -51119,18 +51139,103 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-3/Mystery-of-binary-bracelet-14/cs-3-14-21.svg");
 }
 
-.cs-3-14-info img {
+.cs-3-14-div-3-1-info-img {
+  height: 60vh;
+}
+
+.cs-3-14-div-6-1-info-img {
+  height: 36.45vh;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: 15vh;
+}
+
+.cs-3-14-div img {
   height: 100%;
 }
 
-.cs-3-14-info-3-1 {
-  height: 60vh;
-  max-height: 461px;
+.cs-3-14-div {
+  /*   &-6-char-img {
+        height:7.21vh;
+    } */
 }
 
-.cs-3-14-info-6-1 {
-  height: 36.3vh;
-  max-height: 279px;
+.cs-3-14-div-3-img {
+  height: 48.17vh;
+}
+
+.cs-3-14-div-4-img {
+  height: 51.95vh;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.cs-3-14-div-5-1-img {
+  height: 15.62vh;
+}
+
+.cs-3-14-div-5-2-img {
+  height: 12.89vh;
+}
+
+.cs-3-14-div-5-3-img {
+  height: 12.85vh;
+}
+
+.cs-3-14-div-5-4-img {
+  height: 12.14vh;
+}
+
+.cs-3-14-div-5-5-img {
+  height: 19.97vh;
+}
+
+.cs-3-14-div-5-6-img {
+  height: 9.89vh;
+}
+
+.cs-3-14-div-5-7-img {
+  height: 9.81vh;
+}
+
+.cs-3-14-div-5-8-img {
+  height: 17.35vh;
+}
+
+.cs-3-14-div-5-9-img {
+  height: 9.21vh;
+}
+
+.cs-3-14-div-6-img {
+  height: 7.21vh;
+  margin-bottom: 2.6vh;
+}
+
+.cs-3-14-div-7-cube-img {
+  height: 3.97vh;
+}
+
+.cs-3-14-div-7-tbl-img {
+  height: 46.56vh;
+}
+
+.cs-3-14-div-7-example-img {
+  height: 46.22vh;
+}
+
+.cs-3-14-div-8-img {
+  height: 50.39vh;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.cs-3-14-div img {
+  height: 100%;
 }
 
 .cs-4-13-div-1-img {
@@ -51189,6 +51294,93 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .cs-4-13-div img {
   height: 100%;
+}
+
+.class_4_13-title_item {
+  margin-bottom: 0 !important;
+}
+
+.class_4_13-img_16_1 {
+  position: fixed;
+  top: 0;
+}
+
+.class_4_13-img_16_1 img {
+  height: 100vh;
+}
+
+.first-heroes img {
+  height: 100%;
+}
+
+.first-heroes-24-1 {
+  height: 5vh;
+  max-height: 45px;
+}
+
+.first-heroes-24-2 {
+  height: 23.9vh;
+  max-height: 184px;
+}
+
+.first-heroes-25 {
+  height: 20.5vh;
+  max-height: 158px;
+}
+
+.first-heroes-26 {
+  height: 36.9vh;
+  max-height: 284px;
+}
+
+.first-heroes-27 {
+  height: 58.3vh;
+  max-height: 448px;
+  position: fixed;
+  bottom: 13vh;
+  right: 35vh;
+}
+
+.first-heroes-28 {
+  height: 42.3vh;
+  max-height: 325px;
+}
+
+.first-heroes-29 {
+  height: 36.19vh;
+  max-height: 278px;
+}
+
+.first-heroes-30 {
+  height: 41.9vh;
+  max-height: 322px;
+}
+
+.first-heroes-31 {
+  height: 35.8vh;
+  max-height: 275px;
+}
+
+.background-cs-3-15 {
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-3-15-32 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/First-heroes-15/cs-3-15-32.svg");
+}
+
+.background-cs-3-15-33 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/First-heroes-15/cs-3-15-33.svg");
+}
+
+.background-cs-3-15-34 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/First-heroes-15/cs-3-15-34.svg");
+}
+
+.background-cs-3-15-35 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/First-heroes-15/cs-3-15-35.svg");
 }
 
 .first-heroes img {
