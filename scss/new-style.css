@@ -1083,7 +1083,7 @@
   color: white;
 }
 
-.icon-2 .path4:before { 
+.icon-2 .path4:before {
   content: "\e90d";
   margin-left: -0.986328125em;
   color: white;
@@ -1106,7 +1106,7 @@
   src: url("../fonts/arrow-fonts/fontello.eot?12850997");
   src: url("../fonts/arrow-fonts/fontello.eot?12850997#iefix") format("embedded-opentype"), url("../fonts/arrow-fonts/fontello.woff2?12850997") format("woff2"), url("../fonts/arrow-fonts/fontello.woff?12850997") format("woff"), url("../fonts/arrow-fonts/fontello.ttf?12850997") format("truetype"), url("../fonts/arrow-fonts/fontello.svg?12850997#fontello") format("svg");
   font-weight: normal;
-  font-style: normal; 
+  font-style: normal;
 }
 
 [class^="arrow-"]:before, [class*=" arrow-"]:before {
@@ -51025,6 +51025,16 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100vh;
 }
 
+.cs-5-1 {
+  height: 47.68vh;
+  max-height: 366.22px;
+}
+
+.cs-6-1 {
+  height: 79.16vh;
+  max-height: 608.02px;
+}
+
 .cs-3-13 img {
   height: 100%;
 }
@@ -51262,151 +51272,6 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
-.cs-4-13-div-1-img {
-  height: 40vh;
-}
-
-.cs-4-13-div-3-img {
-  height: 46.87vh;
-}
-
-.cs-4-13-div-4-img {
-  height: 54.94vh;
-  position: absolute;
-  bottom: 11.32vh;
-  right: 21.59vw;
-}
-
-.cs-4-13-div-5-img {
-  height: 66.53vh;
-  position: absolute;
-  bottom: 0;
-  right: 10.24vw;
-}
-
-.cs-4-13-div-6-img {
-  height: 54.29vh;
-  position: absolute;
-  bottom: 0;
-  right: 10.24vw;
-}
-
-.cs-4-13-div-7-img {
-  height: 38.41vh;
-}
-
-.cs-4-13-div-8-img {
-  height: 53.64vh;
-  position: absolute;
-  bottom: 0;
-  right: 17.27vw;
-}
-
-.cs-4-13-div-9-img {
-  height: 41.4vh;
-}
-
-.cs-4-13-div-10-img {
-  height: 27.21vh;
-}
-
-.cs-4-13-div-5-layout-icon {
-  display: inline;
-  height: 3.12vh;
-  vertical-align: middle;
-}
-
-.cs-4-13-div img {
-  height: 100%;
-}
-
-.class_4_13-title_item {
-  margin-bottom: 0 !important;
-}
-
-.class_4_13-img_16_1 {
-  position: fixed;
-  top: 0;
-}
-
-.class_4_13-img_16_1 img {
-  height: 100vh;
-}
-
-.first-heroes img {
-  height: 100%;
-}
-
-.first-heroes-24-1 {
-  height: 5vh;
-  max-height: 45px;
-}
-
-.first-heroes-24-2 {
-  height: 23.9vh;
-  max-height: 184px;
-}
-
-.first-heroes-25 {
-  height: 20.5vh;
-  max-height: 158px;
-}
-
-.first-heroes-26 {
-  height: 36.9vh;
-  max-height: 284px;
-}
-
-.first-heroes-27 {
-  height: 58.3vh;
-  max-height: 448px;
-  position: fixed;
-  bottom: 13vh;
-  right: 35vh;
-}
-
-.first-heroes-28 {
-  height: 42.3vh;
-  max-height: 325px;
-}
-
-.first-heroes-29 {
-  height: 36.19vh;
-  max-height: 278px;
-}
-
-.first-heroes-30 {
-  height: 41.9vh;
-  max-height: 322px;
-}
-
-.first-heroes-31 {
-  height: 35.8vh;
-  max-height: 275px;
-}
-
-.background-cs-3-15 {
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.background-cs-3-15-32 {
-  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/First-heroes-15/cs-3-15-32.svg");
-}
-
-.background-cs-3-15-33 {
-  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/First-heroes-15/cs-3-15-33.svg");
-}
-
-.background-cs-3-15-34 {
-  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/First-heroes-15/cs-3-15-34.svg");
-}
-
-.background-cs-3-15-35 {
-  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/First-heroes-15/cs-3-15-35.svg");
-}
-
 .first-heroes img {
   height: 100%;
 }
@@ -51523,6 +51388,27 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .background-cs-4-13 {
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-4-13-26 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/Books-and-brochures-13/cs-4-13-26.svg");
+}
+
+.background-cs-4-13-27 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/Books-and-brochures-13/cs-4-13-27.svg");
+}
+
+.background-cs-4-13-28 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/Books-and-brochures-13/cs-4-13-28.svg");
+}
+
+.background-cs-4-13-29 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/Books-and-brochures-13/cs-4-13-29.svg");
+}
+
 .first-heroes img {
   height: 100%;
 }
@@ -51581,20 +51467,6 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   background-repeat: no-repeat;
 }
 
-.background-cs-4-13-26 {
-  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/Books-and-brochures-13/cs-4-13-26.svg");
-}
-
-.background-cs-4-13-27 {
-  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/Books-and-brochures-13/cs-4-13-27.svg");
-}
-
-.background-cs-4-13-28 {
-  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/Books-and-brochures-13/cs-4-13-28.svg");
-}
-
-.background-cs-4-13-29 {
-  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/Books-and-brochures-13/cs-4-13-29.svg");
 .background-cs-3-15-32 {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-3/First-heroes-15/cs-3-15-32.svg");
 }
