@@ -51191,6 +51191,19 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
+.class_4_13-title_item {
+  margin-bottom: 0 !important;
+}
+
+.class_4_13-img_16_1 {
+  position: fixed;
+  top: 0;
+}
+
+.class_4_13-img_16_1 img {
+  height: 100vh;
+}
+
 .first-heroes img {
   height: 100%;
 }
