@@ -957,7 +957,7 @@ let title = {
         {
             id: 12,
             name: 'საკუთარ ანგარიშში მუშაობა',
-            link: 'Computer-Science/Class-2/working-with-account-12/7.html'
+            link: 'Computer-Science/Class-2/working-with-account-12/1.html'
         }
     ],
     IT_3: [
@@ -1192,8 +1192,8 @@ let title = {
         },
         {
             id: 22,
-            name: '22',
-            link: '#'
+            name: 'კონფიდენციალობა ელ. ფოსტასა და ღრუბლოვან სერვისებში',
+            link: 'Computer-Science/Class-5/Privacy-in-email-22/1.html'
         },
         {
             id: 23,
