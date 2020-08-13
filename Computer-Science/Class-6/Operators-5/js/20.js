@@ -7,7 +7,7 @@ function game () {
     this.timerInterval = null;
     this.answer = [];
     this.selectedAnswer = null;
-    this.typesArray = ['or', 'end'];
+    this.typesArray = ['or', 'and'];
     this.greaterAndless = ['>', '<', '='];
     this.error1 = true;
     this.error2 = true;
@@ -25,14 +25,14 @@ function game () {
         document.querySelectorAll('.number').forEach(w => {
             w.innerText = this.randomIntFromInterval(1, 100)
         })
-        
+
         document.querySelector('.orAnd').innerText = this.randomNewNumbers(this.typesArray, 1)
 
         document.querySelectorAll('.metoba_nakleboba').forEach(w => {
             w.innerText = this.randomNewNumbers(this.greaterAndless, 1)
         })
     })
-    
+
 
 
     this.init = (e) =>{
@@ -47,11 +47,11 @@ function game () {
         this.startTimer();
         this.answer = [];
         this.selectedAnswer = null;
-        
+
         document.querySelectorAll('.number').forEach(w => {
             w.innerText = this.randomIntFromInterval(1, 100)
         })
-        
+
         document.querySelector('.orAnd').innerText = this.randomNewNumbers(this.typesArray, 1)
 
         document.querySelectorAll('.metoba_nakleboba').forEach(w => {
@@ -136,13 +136,13 @@ function game () {
                     document.querySelectorAll('.number').forEach(w => {
                         w.innerText = this.randomIntFromInterval(1, 100)
                     })
-                    
+
                     document.querySelector('.orAnd').innerText = this.randomNewNumbers(this.typesArray, 1)
-            
+
                     document.querySelectorAll('.metoba_nakleboba').forEach(w => {
                         w.innerText = this.randomNewNumbers(this.greaterAndless, 1)
                     })
-    
+
                     this.error1 = true;
                     this.error2 = true;
 
@@ -157,24 +157,24 @@ function game () {
                         $('.radio').removeClass('error')
                     }, 500)
 
-       
+
                 } else if(this.selectedAnswer == 'false'){
                     this.success = true;
                     this.score++;
                     document.getElementById('numberOfScore').innerHTML = this.score;
-    
+
                     document.getElementById('numberOfScore').innerHTML = this.score;
-    
+
                     document.querySelectorAll('.number').forEach(w => {
                         w.innerText = this.randomIntFromInterval(1, 100)
                     })
-                    
+
                     document.querySelector('.orAnd').innerText = this.randomNewNumbers(this.typesArray, 1)
-            
+
                     document.querySelectorAll('.metoba_nakleboba').forEach(w => {
                         w.innerText = this.randomNewNumbers(this.greaterAndless, 1)
                     })
-    
+
                     this.error1 = true;
                     this.error2 = true;
 
@@ -197,16 +197,16 @@ function game () {
                     document.querySelectorAll('.number').forEach(w => {
                         w.innerText = this.randomIntFromInterval(1, 100)
                     })
-                    
+
                     document.querySelector('.orAnd').innerText = this.randomNewNumbers(this.typesArray, 1)
-            
+
                     document.querySelectorAll('.metoba_nakleboba').forEach(w => {
                         w.innerText = this.randomNewNumbers(this.greaterAndless, 1)
                     })
-    
+
                     this.error1 = true;
                     this.error2 = true;
-                    
+
                     document.querySelectorAll('.radio').forEach(w => {
                         if(w.getAttribute('data-answer') == this.selectedAnswer){
                             w.classList.add('error')
@@ -224,22 +224,22 @@ function game () {
                     this.success = true;
                     this.score++;
                     document.getElementById('numberOfScore').innerHTML = this.score;
-    
+
                     document.getElementById('numberOfScore').innerHTML = this.score;
-    
+
                     document.querySelectorAll('.number').forEach(w => {
                         w.innerText = this.randomIntFromInterval(1, 100)
                     })
-                    
+
                     document.querySelector('.orAnd').innerText = this.randomNewNumbers(this.typesArray, 1)
-            
+
                     document.querySelectorAll('.metoba_nakleboba').forEach(w => {
                         w.innerText = this.randomNewNumbers(this.greaterAndless, 1)
                     })
-    
+
                     this.error1 = true;
                     this.error2 = true;
-                    
+
                     document.querySelectorAll('.radio').forEach(w => {
                         if(w.getAttribute('data-answer') == this.selectedAnswer){
                             w.classList.add('success')
@@ -253,8 +253,8 @@ function game () {
                 }
             }
 
-        
-        } else if(selectedValueOrAnd == 'end') {
+
+        } else if(selectedValueOrAnd == 'and') {
             if(circle[0].innerText == ">"){
                 if(parseInt(firstNumber[0].innerText) > parseInt(firstNumber[1].innerText)){
                     this.error1 = false
@@ -313,9 +313,9 @@ function game () {
                 document.querySelectorAll('.number').forEach(w => {
                     w.innerText = this.randomIntFromInterval(1, 100)
                 })
-                
+
                 document.querySelector('.orAnd').innerText = this.randomNewNumbers(this.typesArray, 1)
-        
+
                 document.querySelectorAll('.metoba_nakleboba').forEach(w => {
                     w.innerText = this.randomNewNumbers(this.greaterAndless, 1)
                 })
@@ -340,9 +340,9 @@ function game () {
                 document.querySelectorAll('.number').forEach(w => {
                     w.innerText = this.randomIntFromInterval(1, 100)
                 })
-                
+
                 document.querySelector('.orAnd').innerText = this.randomNewNumbers(this.typesArray, 1)
-        
+
                 document.querySelectorAll('.metoba_nakleboba').forEach(w => {
                     w.innerText = this.randomNewNumbers(this.greaterAndless, 1)
                 })
@@ -370,9 +370,9 @@ function game () {
                 document.querySelectorAll('.number').forEach(w => {
                     w.innerText = this.randomIntFromInterval(1, 100)
                 })
-                
+
                 document.querySelector('.orAnd').innerText = this.randomNewNumbers(this.typesArray, 1)
-        
+
                 document.querySelectorAll('.metoba_nakleboba').forEach(w => {
                     w.innerText = this.randomNewNumbers(this.greaterAndless, 1)
                 })
@@ -409,7 +409,7 @@ function game () {
     })
 
 
-    this.randomIntFromInterval = (min, max) => { // min and max included 
+    this.randomIntFromInterval = (min, max) => { // min and max included
         return Math.floor(Math.random() * (max - min + 1) + min);
     }
 
@@ -438,7 +438,7 @@ function game () {
         clearInterval(timerInterval);
     }
 
-      
+
     this.startTimer = () => {
         this.startGameIs = true;
 
@@ -449,7 +449,7 @@ function game () {
             let timePassed = this.timePassed += 1;
             let timeLeft = this.TIME_LIMIT - timePassed;
             document.getElementById("time").innerHTML = this.formatTime(timeLeft);
-        
+
             if (timeLeft === 0) {
                 this.onTimesUp();
                 document.getElementById('clock').setAttribute('src', '../../../img/gakvetilebi/Computer-Science/Class-5/objects-moving-4/C-5-4-Clock-red.svg')
@@ -459,10 +459,10 @@ function game () {
         }, 1000);
     }
 
-      
+
     this.formatTime = (time) => {
         let seconds = time % 60;
-    
+
         return `${seconds} წ`;
     }
 
@@ -473,6 +473,3 @@ function game () {
 }
 
 const Game = new game();
-
-
-
