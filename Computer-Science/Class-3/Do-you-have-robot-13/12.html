@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ka" data-botid="2288">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- ყველა გვერდზე -->
+    <script src="../../../js/vue.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+    <!--  ვუე გაშვებისას
+    <script src="./js/vue.min.js"></script>
+     -->
+    <link rel="stylesheet" href="../../../scss/libraries/bootstrap.min.css">
+    <link rel="stylesheet" href="../../../New-header-vue/animate.min.css">
+    <link rel="stylesheet" href="../../../scss/new-style.css" />
+    <title>ელექტრონული საგანმანათლებლო რესურსი</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-155006442-1');
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <section id="app" class="container position-absolute">
+            <header>
+                <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../../'"></app-menu>
+            </header>
+
+            <app-section :is-active="isActive" :is-info="isInfo" v-image="'../../../'">
+                <app-bar :is-active="isActive" :trigger="trigger" :dots="dots" :current-tab="link"
+                         v-on:link-tab="link = $event">
+
+                </app-bar>
+                <component :path="path" :is="currentTabComponent" :is-active="isActive" :trigger="trigger"
+                           :active-class="activeClass" :images="images" :is-info="isInfo"
+                           :tab-class="currentTabComponent">
+                </component>
+
+            </app-section>
+        </section>
+        <section id="mainPage">
+            <div class="row mt-5vh">
+                <div class="col-7 m-auto">
+                    <div class="newDesign_subject_question_item">
+                        <img src="../../../img/icons/newDesign_btn-yellow.svg" alt="img"
+                            class="newDesign_subject_question_item-img">
+                        <p class="newDesign_subject_question_item-title">
+                            შენ წინაშეა mBot-ის შემადგენელი ნაწილები.
+                        </p>
+                    </div>
+                    <div class="newDesign_subject_question_item">
+                        <img src="../../../img/icons/newDesign_btn-yellow.svg" alt="img"
+                            class="newDesign_subject_question_item-img">
+                        <p class="newDesign_subject_question_item-title">
+                            დაფიქრდი და ააწყე რობოტი.
+                        </p>
+                    </div>
+                    <div class="newDesign_subject_question_item">
+                        <img src="../../../img/icons/newDesign_btn-yellow.svg" alt="img"
+                            class="newDesign_subject_question_item-img">
+                        <p class="newDesign_subject_question_item-title">
+                            მოიფიქრე, რა თანმიმდევრობით უნდა შევაერთოთ ისინი.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-11 m-auto d-flex justify-content-between">
+                    <div class="col-6">
+                        <div class="d-flex justify-content-between">
+                            <img src="../../../img/gakvetilebi/Computer-Science/Class-3/Do-you-have-robot-13/C-3-13-12-1.svg" class="Class_3_13-img_12_1" alt="image">
+                            <img src="../../../img/gakvetilebi/Computer-Science/Class-3/Do-you-have-robot-13/C-3-13-12-2.svg" class="Class_3_13-img_12_2" alt="image">
+                            <img src="../../../img/gakvetilebi/Computer-Science/Class-3/Do-you-have-robot-13/C-3-13-12-3.svg" class="Class_3_13-img_12_3" alt="image">
+                        </div>
+                        <div class="d-flex justify-content-between mt-3vh">
+                            <img src="../../../img/gakvetilebi/Computer-Science/Class-3/Do-you-have-robot-13/C-3-13-12-4.svg" class="Class_3_13-img_12_4" alt="image">
+                            <img src="../../../img/gakvetilebi/Computer-Science/Class-3/Do-you-have-robot-13/C-3-13-12-5.svg" class="Class_3_13-img_12_5" alt="image">
+                            <img src="../../../img/gakvetilebi/Computer-Science/Class-3/Do-you-have-robot-13/C-3-13-12-6.svg" class="Class_3_13-img_12_6" alt="image">
+                        </div>
+                    </div>
+
+                    <div class="class_3_13-background_img"></div>
+                </div>
+            </div>
+
+            <div class="col-3 flex flex-end column align-items-end z-index reload_game_wrapper">
+                <div class="d-flex flex-column">
+                    <button class="reset__btn" id="resetBtn">თავიდან სცადე</button>
+                    <button class="completed__btn" id="completedGame">დასრულება</button>
+                </div>
+            </div>
+             <!-- ეს არის svg თეგირომელიც ქმნის მარცხენა ვერტიკალურ "ნავ რუკას" -->
+            <div class="left_components_paging-cont" id="leftNav">
+                <left-nav-item></left-nav-item>
+            </div>
+
+            <div class="our__pagination flex">
+                <a href="#" class="pagination__prev__btn">
+                    <img style="transform: rotate(180deg)" src="../../../img/icons/chevron-left-icon.svg" alt="">
+                </a>
+
+                <div id="pagination" class="flex align-items-center"></div>
+
+                <a href="#" class="pagination__next__btn">
+                    <img src="../../../img/icons/chevron-left-icon.svg" alt="">
+                </a>
+            </div>
+
+        </section>
+    </div>
+
+
+    <!-- ჩეთბოტი -->
+    <div id="chatBot">
+        <app-bot></app-bot>
+    </div>
+
+    <script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
+    <script src="../../../js/libraries/jquery.magnific-popup.min.js"></script>
+    <script src="../../../js/Pagination.js"></script>
+
+
+<!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
+    <script src="../../../New-header-vue/vis.js"></script>
+    <script src="../../../New-header-vue/app.js"></script>
+    <script src="../../../Vue-chatBot/botApp.js"></script>
+    <script src="../../../js/bot.js"></script>
+
+
+</body>
+
+</html>
