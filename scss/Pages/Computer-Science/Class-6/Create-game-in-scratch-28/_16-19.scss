@@ -3,22 +3,30 @@
 //    justify-content: right !important;
 //}
 
+p {
+    background-color: red !important;
+}
+
 .cs-6-28-16 {
     height: 60.28vh;
     max-height: 463px;
 }
 
 .cs-6-28-17 {
-    height: 74.49hv;
+    height: 74.49vh;
     max-height: 572.13;
 }
 
 .cs-6-28-18 {
-    height: 24.04hv;
+    height: 24.04vh;
     max-height: 189.05px;
 }
 
 .cs-6-28-19 {
-    height: 30.36hv;
+    height: 30.36vh;
     max-height: 233.21px;
+}
+
+.small-text {
+    font-size: 2vh !important;
 }
