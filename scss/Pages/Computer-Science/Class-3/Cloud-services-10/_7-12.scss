@@ -1,7 +1,7 @@
 .cloud-services_page {
   &-7 {
-    height: 52vh;
-    max-height: 400px;
+    height: 53vh;
+    max-height: 411px;
 
     img {
       height: 100%;
@@ -9,8 +9,16 @@
   }
 
   &-8 {
-    height: 64vh;
-    max-height: 490px;
+    height: 43vh;
+    max-height: 337px;
+
+    img {
+      height: 100%;
+    }
+  }
+  &-9 {
+    height: 46vh;
+    max-height: 355px;
 
     img {
       height: 100%;
@@ -18,11 +26,9 @@
   }
 
   &-10 {
-    height: 72vh;
-    max-height: 552px;
-    position: fixed;
-    bottom: 0;
-    right: 4%;
+    height: 48vh;
+    max-height: 371x;
+
 
     img {
       height: 100%;
@@ -30,21 +36,19 @@
   }
 
   &-11 {
-    height: 52vh;
-    max-height: 398px;
-    position: fixed;
-    bottom: 0;
-    right: 30%;
-
+    height: 41vh;
+    max-height: 316px;
     img {
       height: 100%;
     }
   }
 
   &-12 {
-    height: 54vh;
-    max-height: 413px;
-
+    height: 52vh;
+    max-height: 406px;
+    position:fixed;
+    right:0;
+    bottom:0;
     img {
       height: 100%;
     }

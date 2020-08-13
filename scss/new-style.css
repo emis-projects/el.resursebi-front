@@ -42185,8 +42185,8 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .cloud-services_page-7 {
-  height: 52vh;
-  max-height: 400px;
+  height: 53vh;
+  max-height: 411px;
 }
 
 .cloud-services_page-7 img {
@@ -42194,20 +42194,26 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .cloud-services_page-8 {
-  height: 64vh;
-  max-height: 490px;
+  height: 43vh;
+  max-height: 337px;
 }
 
 .cloud-services_page-8 img {
   height: 100%;
 }
 
+.cloud-services_page-9 {
+  height: 46vh;
+  max-height: 355px;
+}
+
+.cloud-services_page-9 img {
+  height: 100%;
+}
+
 .cloud-services_page-10 {
-  height: 72vh;
-  max-height: 552px;
-  position: fixed;
-  bottom: 0;
-  right: 4%;
+  height: 48vh;
+  max-height: 371x;
 }
 
 .cloud-services_page-10 img {
@@ -42215,11 +42221,8 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .cloud-services_page-11 {
-  height: 52vh;
-  max-height: 398px;
-  position: fixed;
-  bottom: 0;
-  right: 30%;
+  height: 41vh;
+  max-height: 316px;
 }
 
 .cloud-services_page-11 img {
@@ -42227,8 +42230,11 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .cloud-services_page-12 {
-  height: 54vh;
-  max-height: 413px;
+  height: 52vh;
+  max-height: 406px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
 }
 
 .cloud-services_page-12 img {
@@ -45273,6 +45279,11 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   bottom: 0%;
 }
 
+.sorting-page_15 {
+  height: 40vh;
+  max-height: 312px;
+}
+
 .operators-page img {
   height: 100%;
 }
@@ -46225,6 +46236,11 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   margin-top: 2vh;
 }
 
+.cs-2-12-div-1-img {
+  height: 54vh;
+  max-height: 418px;
+}
+
 .cs-2-12-div-3-img {
   height: 35vh;
 }
@@ -46670,6 +46686,11 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 .photo-editor_11 {
   height: 38vh;
   max-height: 297px;
+}
+
+.cs-3-12-div-1-img {
+  height: 65vh;
+  max-height: 502px;
 }
 
 .cs-3-12-div-3-img {
@@ -53953,3 +53974,4 @@ body {
     font-size: 14px;
   }
 }
+/*# sourceMappingURL=new-style.css.map */
