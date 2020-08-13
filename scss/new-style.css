@@ -52066,6 +52066,55 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-3/How-my-robot-acts-16/cs-3-16-27.svg");
 }
 
+.cs-4-14 img {
+  height: 100%;
+}
+
+.cs-4-14-10 {
+  height: 54vh;
+  max-height: 418px;
+}
+
+.cs-4-14-11 {
+  height: 44vh;
+  max-height: 339px;
+}
+
+.cs-4-14-12 {
+  height: 41vh;
+  max-height: 317px;
+}
+
+.cs-4-14-13 {
+  height: 36vh;
+  max-height: 282px;
+}
+
+.cs-4-14-14 {
+  height: 42vh;
+  max-height: 323px;
+}
+
+.cs-4-14-15 {
+  height: 45vh;
+  max-height: 346px;
+}
+
+.cs-4-14-16 {
+  height: 61vh;
+  max-height: 473px;
+}
+
+.cs-4-14-17 {
+  height: 40vh;
+  max-height: 311px;
+}
+
+.cs-4-14-18 {
+  height: 43vh;
+  max-height: 331px;
+}
+
 body {
   color: #262626;
   font-size: 14px;
