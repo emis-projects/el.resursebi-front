@@ -52,7 +52,7 @@
                     <div class="newDesign_subject_question_item class_music_12-title">
                         <img alt="img" class="newDesign_subject_question_item-img" src="../../img/icons/newDesign_btn-yellow.svg">
                         <p class="newDesign_subject_question_item-title">
-                            <a href="#" class="a-blue">ნახე ორწუთიანი ანიმაციური ფილმი</a>. ყურადღებით მოუსმინე მუსიკალურ გაფორმებას.
+                            <a href="./game-voices/სლაიდი 13/fridgeprincess.mp4" class="a-blue">ნახე ორწუთიანი ანიმაციური ფილმი</a>. ყურადღებით მოუსმინე მუსიკალურ გაფორმებას.
                         </p>
                     </div>
                     <div class="newDesign_subject_question_item class_music_12-title">
@@ -81,18 +81,28 @@
 
             <div class="row">
                <div class="col-9 m-auto d-flex justify-content-between pt-2vh">
-                   <div class="class_music_12-blue_circle"></div>
-                   <div class="class_music_12-blue_circle"></div>
-                   <div class="class_music_12-blue_circle"></div>
-                   <div class="class_music_12-blue_circle"></div>
-                   <div class="class_music_12-blue_circle"></div>
+                   <div data-place="1" class="class_music_12-blue_circle myDrag"></div>
+                   <div data-place="2" class="class_music_12-blue_circle myDrag"></div>
+                   <div data-place="3" class="class_music_12-blue_circle myDrag"></div>
+                   <div data-place="4" class="class_music_12-blue_circle myDrag"></div>
+                   <div data-place="5" class="class_music_12-blue_circle myDrag"></div>
                </div>
                <div class="col-5 m-auto d-flex justify-content-around pt-4vh">
-                   <img src="../../img/gakvetilebi/Music-class/Create-animation-soundtrack-12/music-12-7-blue.svg" alt="">
-                   <img src="../../img/gakvetilebi/Music-class/Create-animation-soundtrack-12/music-12-7-green.svg" alt="">
-                   <img src="../../img/gakvetilebi/Music-class/Create-animation-soundtrack-12/music-12-7-orange.svg" alt="">
-                   <img src="../../img/gakvetilebi/Music-class/Create-animation-soundtrack-12/music-12-purple.svg" alt="">
-                   <img src="../../img/gakvetilebi/Music-class/Create-animation-soundtrack-12/music-12-yellow.svg" alt="">
+                <div class="DragGameResetParent1">
+                    <img data-end="1" data-place="2" data-voice="./game-voices/სლაიდი 13/2 სურათი.wav" class="listen--btn DragGame--childs1" src="../../img/gakvetilebi/Music-class/Create-animation-soundtrack-12/music-12-7-blue.svg" alt="image">
+                </div>
+                <div class="DragGameResetParent2">
+                    <img data-end="2" data-place="4" data-voice="./game-voices/სლაიდი 13/4 სურათი.wav" class="listen--btn DragGame--childs1" src="../../img/gakvetilebi/Music-class/Create-animation-soundtrack-12/music-12-7-green.svg" alt="image">
+                </div>
+                <div class="DragGameResetParent3">
+                    <img data-end="3" data-place="5" data-voice="./game-voices/სლაიდი 13/5 სურათი.wav" class="listen--btn DragGame--childs1" src="../../img/gakvetilebi/Music-class/Create-animation-soundtrack-12/music-12-7-orange.svg" alt="image">
+                </div>
+                <div class="DragGameResetParent4">
+                    <img data-end="4" data-place="3" data-voice="./game-voices/სლაიდი 13/3 სურათი.wav" class="listen--btn DragGame--childs1"  src="../../img/gakvetilebi/Music-class/Create-animation-soundtrack-12/music-12-purple.svg" alt="image">
+                </div>
+                <div class="DragGameResetParent5">
+                    <img data-end="5" data-place="1" data-voice="./game-voices/სლაიდი 13/1 სურათი.wav" class="listen--btn DragGame--childs1" src="../../img/gakvetilebi/Music-class/Create-animation-soundtrack-12/music-12-yellow.svg" alt="image">
+                </div>
                </div>
             </div>
 
@@ -139,7 +149,8 @@
     <script src="../../Vue-chatBot/botApp.js"></script>
     <script src="../../js/bot.js"></script>
 
-
+    <script src="../../js/libraries/sound.js"></script>
+    <script src="./js/9.js"></script>
 </body>
 
 </html>
