@@ -83,7 +83,6 @@ function musicGames() {
         var drag = document.querySelector('.draggedElement')
         if (window.location.href.includes("/5.html") || window.location.href.includes("/7.html")
             || window.location.href.includes("/8.html")) {
-                console.log('trueeeeee 15', window.location.href.includes("/15.html"))
             if (!e.target.children[1]) {
                 if (e.target.classList.contains('myDrag')) {
                     e.target.appendChild(drag)
@@ -100,7 +99,7 @@ function musicGames() {
             }
         }
         if (window.location.href.includes("/15.html") || window.location.href.includes("/13.html")
-           || window.location.href.includes("/11.html")) {
+            || window.location.href.includes("/11.html")) {
             if (!(e.target.firstElementChild)) {
                 if (e.target.classList.contains('myDrag')) {
                     e.target.appendChild(drag)
@@ -124,21 +123,35 @@ function musicGames() {
 
 
     this.checkEveryElement = (element) => element.getAttribute('data-place') == element.parentElement.getAttribute('data-place');
+    this.checkEveryElement1 = (element) => element.parentElement.children[0] && element.parentElement.children[1] &&
+         (element.parentElement.children[0].getAttribute('data-place') == element.parentElement.children[1].getAttribute('data-place'));
 
     this.successPage = () => {
         let el = myArray.every(this.checkEveryElement);
+        var m1 = myArray.filter(x => x.parentElement.classList.contains('myDrag'))
+        let el1 = m1.every(this.checkEveryElement1);
+        myArray.forEach(element => {
+            console.log('element', element.parentElement.classList.contains('myDrag') && element.parentElement.children[0] && element.parentElement.children[1] &&
+            (element.parentElement.children[0].getAttribute('data-place') == element.parentElement.children[1].getAttribute('data-place')), element.parentElement.classList.contains('myDrag'))
+        });
+
+        if (el1) {
+            console.log('el1')
+            if (window.location.href.includes("/7.html")) {
+                console.log('shida if')
+                location.href = 'game-success-7.html';
+            }
+            if (window.location.href.includes("/8.html")) {
+                location.href = 'game-success-8.html';
+            }
+        }
+
         if (el) {
             if (window.location.href.includes("/5.html")) {
                 location.href = 'game-success-5.html';
             }
             if (window.location.href.includes("/6.html")) {
                 location.href = 'game-success-6.html';
-            }
-            if (window.location.href.includes("/7.html")) {
-                location.href = 'game-success-7.html';
-            }
-            if (window.location.href.includes("/8.html")) {
-                location.href = 'game-success-8.html';
             }
             if (window.location.href.includes("/11.html")) {
                 location.href = 'game-success-11.html';
@@ -162,28 +175,15 @@ function musicGames() {
 
 
     this.errorPage = () => {
-        if (window.location.href.includes("/5.html") || window.location.href.includes("/7.html")
-            || window.location.href.includes("/8.html")) {
+        if (window.location.href.includes("/5.html")) {
             myArray.forEach(element => {
-                console.log(element.parentElement.style.borderColor == "rgb(220, 108, 133)")
-                // if ((element.getAttribute('data-place') != element.parentElement.getAttribute('data-place'))
-                //     && (element.getAttribute('data-place') == 4)) {
-                //         console.log("111111")
-                //         // element.parentElement.style.borderColor = '';
-                //         element.parentElement.style.borderColor = "#a1dd6f";
-                // }
-                // else{
                 if ((element.getAttribute('data-place') == element.parentElement.getAttribute('data-place'))
                     && (element.parentElement.style.borderColor != "rgb(220, 108, 133)")) {
-                    console.log("222222222")
                     element.parentElement.style.borderColor = "#a1dd6f";
                 }
                 else if (element.parentElement.classList.contains('myDrag')) {
-                    console.log("3333333333")
-                    // element.parentElement.style.borderColor = '';
                     element.parentElement.style.borderColor = "#dc6c85";
                 }
-                // }
 
             });
         }
@@ -198,6 +198,25 @@ function musicGames() {
                 else if (element.parentElement.classList.contains('myDrag')) {
                     element.parentElement.style.borderColor = "#dc6c85";
                 }
+            });
+        }
+        if (window.location.href.includes("/7.html") || window.location.href.includes("/8.html")) {
+            myArray.forEach(element => {
+                if (element.parentElement.classList.contains('myDrag')) {
+                    if (element.parentElement.children[0] && !element.parentElement.children[1]) {
+                        element.parentElement.style.borderColor = "#dc6c85";
+                    }
+                    if (element.parentElement.children[0] && element.parentElement.children[1]) {
+                        if (element.parentElement.children[0].getAttribute('data-place') == element.parentElement.children[1].getAttribute('data-place')) {
+                            console.log('შემოდის')
+                            element.parentElement.style.borderColor = "#a1dd6f";
+                        }
+                        else {
+                            element.parentElement.style.borderColor = "#dc6c85";
+                        }
+                    }
+                }
+
             });
         }
     }
