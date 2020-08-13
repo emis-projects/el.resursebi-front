@@ -764,15 +764,19 @@ let title = {
             id: 9,
             name: 'სათაური',
             link: ''
-        }
+        },
 
         // თუ დაემათება გაკვეთილები მუსიკას ყველა გავააქტიუროთ, link: '
         /*{id: 7, name: '', link: '#'},
         {id: 8, name: '', link: '#'},
         {id: 9, name: '', link: '#'},
         {id: 10, name: '', link: '#'},
-        {id: 11, name: '', link: '#'},
-        {id: 12, name: '', link: '#'}*/
+        {id: 11, name: '', link: '#'},*/
+        {   
+            id: 12, 
+            name: ' შევქმნათ საუნდტრეკი ანიმაციური ფილმისთვის', 
+            link: 'Music-Class/Create-animation-sountrack-12/1.html'
+        }
     ],
     art: [
         {
@@ -1192,8 +1196,8 @@ let title = {
         },
         {
             id: 22,
-            name: '22',
-            link: '#'
+            name: 'კონფიდენციალობა ელ. ფოსტასა და ღრუბლოვან სერვისებში',
+            link: 'Computer-Science/Class-5/Privacy-in-email-22/1.html'
         },
         {
             id: 23,
