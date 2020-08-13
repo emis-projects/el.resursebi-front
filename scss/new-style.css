@@ -50820,18 +50820,30 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .cs-6-28-17 {
-  height: 74.49hv;
-  max-height: 572.13;
+  height: 74.49vh;
+  max-height: 572.13px !important;
 }
 
 .cs-6-28-18 {
-  height: 24.04hv;
+  height: 24.04vh;
   max-height: 189.05px;
 }
 
 .cs-6-28-19 {
-  height: 30.36hv;
+  height: 30.36vh;
   max-height: 233.21px;
+}
+
+.small-text {
+  margin: 0.5vh !important;
+}
+
+.small-text p {
+  font-size: 2vh !important;
+}
+
+.padding-up {
+  padding-top: 9vh !important;
 }
 
 .class_6_28-bg_20 {
