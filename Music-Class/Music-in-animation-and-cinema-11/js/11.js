@@ -15,8 +15,8 @@ function game() {
     this.error1 = true;
     this.error2 = true;
     this.error3 = true;
-    this.userAnswer1 = "1-2";
-    this.userAnswer2 = "2-1";
+    this.userAnswer1 = "1-1";
+    this.userAnswer2 = "2-2";
     this.userAnswer3 = "3-3";
 
 
@@ -35,64 +35,70 @@ function game() {
 
 
 
-    $(listenBtn).click((e) => {
+    $('.listen--btn').click((e) => {
         handleLoadstop()
         createjs.Sound.registerSound({src:`${e.target.getAttribute('data-voice')}`, id:"sound"});
         handleLoadComplete()
     })
 
 
-    document.querySelector('.DragGame—childs1').querySelectorAll('.DragGame—childs--checkbox').forEach(w => {
+    document.querySelector('.DragGame—childs1').querySelectorAll('.class_music_11-check_box_11').forEach(w => {
         w.addEventListener('click', (e) => {
-            $('.DragGame—childs1 .DragGame—childs--checkbox').removeClass('selected')
-            $('.DragGame—childs1 .DragGame—childs--checkbox').removeClass('error')
-
-            e.target.classList.add('selected')
-
-            if(e.target.getAttribute('data-index') == this.userAnswer1){
-                this.error1 = false;
-                e.target.classList.add('correct--game')
-
-            } else {
-                this.error1 = true;
-                e.target.classList.remove('correct--game')
+            if(this.error1 || this.error2 || this.error3) {
+                $('.DragGame—childs1 .class_music_11-check_box_11').removeClass('selected')
+                $('.DragGame—childs1 .class_music_11-check_box_11').removeClass('error')
+    
+                e.target.classList.add('selected')
+    
+                if(e.target.getAttribute('data-index') == this.userAnswer1){
+                    this.error1 = false;
+                    e.target.classList.add('correct--game')
+    
+                } else {
+                    this.error1 = true;
+                    e.target.classList.remove('correct--game')
+                }
             }
         })
     })
 
 
-    document.querySelector('.DragGame—childs2').querySelectorAll('.DragGame—childs--checkbox').forEach(w => {
+    document.querySelector('.DragGame—childs2').querySelectorAll('.class_music_11-check_box_11').forEach(w => {
         w.addEventListener('click', (e) => {
-            $('.DragGame—childs2 .DragGame—childs--checkbox').removeClass('selected')
-            $('.DragGame—childs2 .DragGame—childs--checkbox').removeClass('error')
-
-            e.target.classList.add('selected')
-
-            if(e.target.getAttribute('data-index') == this.userAnswer2){
-                this.error2 = false;
-                e.target.classList.add('correct--game')
-
-            } else {
-                this.error2 = true;
-                e.target.classList.remove('correct--game')
+            if(this.error1 || this.error2 || this.error3) {
+                $('.DragGame—childs2 .class_music_11-check_box_11').removeClass('selected')
+                $('.DragGame—childs2 .class_music_11-check_box_11').removeClass('error')
+    
+                e.target.classList.add('selected')
+    
+                if(e.target.getAttribute('data-index') == this.userAnswer2){
+                    this.error2 = false;
+                    e.target.classList.add('correct--game')
+    
+                } else {
+                    this.error2 = true;
+                    e.target.classList.remove('correct--game')
+                }
             }
         })
     })
 
-    document.querySelector('.DragGame—childs3').querySelectorAll('.DragGame—childs--checkbox').forEach(w => {
+    document.querySelector('.DragGame—childs3').querySelectorAll('.class_music_11-check_box_11').forEach(w => {
         w.addEventListener('click', (e) => {
-            $('.DragGame—childs3 .DragGame—childs--checkbox').removeClass('selected')
-            $('.DragGame—childs3 .DragGame—childs--checkbox').removeClass('error')
-
-            e.target.classList.add('selected')
-
-            if(e.target.getAttribute('data-index') == this.userAnswer3){
-                this.error3 = false;
-                e.target.classList.add('correct--game')
-
-            } else {
-                this.error3 = true;
-                e.target.classList.remove('correct--game')
+            if(this.error1 || this.error2 || this.error3) {
+                $('.DragGame—childs3 .class_music_11-check_box_11').removeClass('selected')
+                $('.DragGame—childs3 .class_music_11-check_box_11').removeClass('error')
+    
+                e.target.classList.add('selected')
+    
+                if(e.target.getAttribute('data-index') == this.userAnswer3){
+                    this.error3 = false;
+                    e.target.classList.add('correct--game')
+    
+                } else {
+                    this.error3 = true;
+                    e.target.classList.remove('correct--game')
+                }
             }
         })
     })
@@ -100,9 +106,9 @@ function game() {
 
     this.checkGameAnswers = () => {
         if(this.error1) {
-            $('.DragGame—childs1 .DragGame—childs--checkbox').removeClass('selected')
-            $('.DragGame—childs1 .DragGame—childs--checkbox').removeClass('success')
-            $('.DragGame—childs1 .DragGame—childs--checkbox').addClass('error')
+            $('.DragGame—childs1 .class_music_11-check_box_11').removeClass('selected')
+            $('.DragGame—childs1 .class_music_11-check_box_11').removeClass('success')
+            $('.DragGame—childs1 .class_music_11-check_box_11').addClass('error')
             
         } else {
             $('.DragGame—childs1 .correct--game').removeClass('selected')
@@ -111,9 +117,9 @@ function game() {
         }
 
         if(this.error2) {
-            $('.DragGame—childs2 .DragGame—childs--checkbox').removeClass('selected')
-            $('.DragGame—childs2 .DragGame—childs--checkbox').removeClass('success')
-            $('.DragGame—childs2 .DragGame—childs--checkbox').addClass('error')
+            $('.DragGame—childs2 .class_music_11-check_box_11').removeClass('selected')
+            $('.DragGame—childs2 .class_music_11-check_box_11').removeClass('success')
+            $('.DragGame—childs2 .class_music_11-check_box_11').addClass('error')
 
         } else {
             $('.DragGame—childs2 .correct--game').removeClass('selected')
@@ -122,9 +128,9 @@ function game() {
         }
 
         if(this.error3) {
-            $('.DragGame—childs3 .DragGame—childs--checkbox').removeClass('selected')
-            $('.DragGame—childs3 .DragGame—childs--checkbox').removeClass('success')
-            $('.DragGame—childs3 .DragGame—childs--checkbox').addClass('error')
+            $('.DragGame—childs3 .class_music_11-check_box_11').removeClass('selected')
+            $('.DragGame—childs3 .class_music_11-check_box_11').removeClass('success')
+            $('.DragGame—childs3 .class_music_11-check_box_11').addClass('error')
 
         } else {
             $('.DragGame—childs3 .correct--game').removeClass('selected')
@@ -133,16 +139,16 @@ function game() {
         }
 
         if(!this.error1 && !this.error2 && !this.error3){
-            location.href = "game-success-6.html"
+            location.href = "game-success-11.html"
         }
     }
 
 
     this.init = () => {
-        $('.DragGame—childs--checkbox').removeClass('selected');
-        $('.DragGame—childs--checkbox').removeClass('error');
-        $('.DragGame—childs--checkbox').removeClass('success');
-        $('.DragGame—childs--checkbox').removeClass('correct--game');
+        $('.class_music_11-check_box_11').removeClass('selected');
+        $('.class_music_11-check_box_11').removeClass('error');
+        $('.class_music_11-check_box_11').removeClass('success');
+        $('.class_music_11-check_box_11').removeClass('correct--game');
 
         this.error1 = true;
         this.error2 = true;

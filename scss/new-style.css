@@ -32104,7 +32104,7 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 .Class_5_3-img_box p {
   color: #fff;
   line-height: 1.2;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 .Class_5_3-img_box_1 {
@@ -49102,7 +49102,7 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .music-new-6 .select.active {
-  border: 3px solid #947DCE;
+  border: 3px solid #ce7d84;
 }
 
 .music-new-6 .select.active div {
@@ -51058,7 +51058,7 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   max-height: 397px;
 }
 
-.cs-3-13-18 {
+.cs-3-13-19 {
   height: 56vh;
   max-height: 431px;
 }
@@ -51350,6 +51350,147 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-3/First-heroes-15/cs-3-15-35.svg");
 }
 
+.cs-4-13-div-1-img {
+  height: 40vh;
+}
+
+.cs-4-13-div-3-img {
+  height: 46.87vh;
+}
+
+.cs-4-13-div-4-img {
+  height: 54.94vh;
+  position: absolute;
+  bottom: 11.32vh;
+  right: 21.59vw;
+}
+
+.cs-4-13-div-5-img {
+  height: 66.53vh;
+  position: absolute;
+  bottom: 0;
+  right: 10.24vw;
+}
+
+.cs-4-13-div-6-img {
+  height: 54.29vh;
+  position: absolute;
+  bottom: 0;
+  right: 10.24vw;
+}
+
+.cs-4-13-div-7-img {
+  height: 38.41vh;
+}
+
+.cs-4-13-div-8-img {
+  height: 53.64vh;
+  position: absolute;
+  bottom: 0;
+  right: 17.27vw;
+}
+
+.cs-4-13-div-9-img {
+  height: 41.4vh;
+}
+
+.cs-4-13-div-10-img {
+  height: 27.21vh;
+}
+
+.cs-4-13-div-5-layout-icon {
+  display: inline;
+  height: 3.12vh;
+  vertical-align: middle;
+}
+
+.cs-4-13-div img {
+  height: 100%;
+}
+
+.class_4_13-img_11 {
+  position: fixed;
+  right: 17vh;
+  top: 25vh;
+}
+
+.class_4_13-img_11 img {
+  height: 60.5vh;
+}
+
+.class_4_13-img_12 {
+  height: 39.8vh;
+  max-height: 306px;
+}
+
+.class_4_13-img_12 img {
+  height: 100%;
+}
+
+.class_4_13-img_word {
+  display: inline;
+  vertical-align: middle;
+}
+
+.class_4_13-img_13 {
+  position: fixed;
+  bottom: 0;
+  right: 23vh;
+}
+
+.class_4_13-img_13 img {
+  height: 61vh;
+}
+
+.class_4_13-img_14 {
+  position: fixed;
+  bottom: 0;
+}
+
+.class_4_13-img_14 img {
+  height: 56vh;
+}
+
+.class_4_13-img_15 {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  height: 79vh;
+  max-height: 605px;
+}
+
+.class_4_13-img_15 img {
+  height: 100%;
+}
+
+.class_4_13-img_16 {
+  position: fixed;
+  bottom: 0;
+}
+
+.class_4_13-img_16 img {
+  height: 46vh;
+}
+
+.class_4_13-img_17 {
+  height: 38vh;
+  max-height: 291px;
+}
+
+.class_4_13-img_17 img {
+  height: 100%;
+}
+
+.class_4_13-img_18 {
+  position: fixed;
+  bottom: 0;
+  height: 64vh;
+}
+
+.class_4_13-img_18 img {
+  height: 100%;
+}
+
 .cs-4-13 img {
   height: 100%;
 }
@@ -51411,6 +51552,15 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .background-cs-4-13-29 {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-4/Books-and-brochures-13/cs-4-13-29.svg");
+}
+
+.class_4_13-img_16_1 {
+  position: fixed;
+  top: 0;
+}
+
+.class_4_13-img_16_1 img {
+  height: 100vh;
 }
 
 .first-heroes img {
@@ -51571,6 +51721,77 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   left: 34vw;
 }
 
+.class_3_15-img_13 {
+  height: 45vh;
+}
+
+.class_3_15-img_14 {
+  height: 48vh;
+}
+
+.class_3_15-img_15 {
+  position: fixed;
+  bottom: 0;
+  height: 50.7vh;
+}
+
+.class_3_15-img_16 {
+  height: 34vh;
+}
+
+.class_3_15-img_17 {
+  height: 38.8vh;
+}
+
+.class_3_15-img_18 {
+  height: 39.5vh;
+}
+
+.class_3_15-img_19 {
+  height: 38vh;
+}
+
+.class_3_15-img_20 {
+  height: 14.5vh;
+}
+
+.class_3_15-img_21 {
+  height: 36vh;
+}
+
+.class_3_15-img_22 {
+  height: 42.5vh;
+}
+
+.class_3_15-img_23 {
+  height: 46.8vh;
+}
+
+.class_3_15_title {
+  position: absolute;
+  font-family: "DejaVu Sans";
+  font-size: 2vh;
+  color: #0B2228;
+}
+
+.class_3_15_title-1 {
+  top: -2vh;
+  left: 24vh;
+}
+
+.class_3_15_title-2 {
+  top: 1vh;
+}
+
+.class_3_15_title-3 {
+  top: -8vh;
+  right: 27vh;
+}
+
+.class_3_15-img_11_1 {
+  height: 27vh;
+}
+
 .cs-3-16-div-3-img {
   height: 41.27vh;
 }
@@ -51675,6 +51896,65 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 .cs-3-16-div-12-video video {
   width: 38.65vw;
   height: 43.61vh;
+}
+
+.my-robot img {
+  height: 100%;
+}
+
+.my-robot-18 {
+  height: 59.3;
+  max-height: 456px;
+}
+
+.my-robot-19 {
+  height: 51vh;
+  max-height: 392px;
+}
+
+.my-robot-20 {
+  height: 31vh;
+  max-height: 239px;
+}
+
+.my-robot-21 {
+  height: 16vh;
+  max-height: 127px;
+}
+
+.my-robot-22 {
+  height: 34vh;
+  max-height: 262px;
+  position: fixed;
+  bottom: 13vh;
+  right: 35vh;
+}
+
+.my-robot-23 {
+  height: 42.3vh;
+  max-height: 325px;
+}
+
+.background-cs-3-16 {
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-3-16-24 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/How-my-robot-acts-16/cs-3-16-24.svg");
+}
+
+.background-cs-3-16-25 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/How-my-robot-acts-16/cs-3-16-25.svg");
+}
+
+.background-cs-3-16-26 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/How-my-robot-acts-16/cs-3-16-26.svg");
+}
+
+.background-cs-3-16-27 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/How-my-robot-acts-16/cs-3-16-27.svg");
 }
 
 body {
