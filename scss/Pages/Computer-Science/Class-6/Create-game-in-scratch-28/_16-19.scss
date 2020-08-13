@@ -3,10 +3,6 @@
 //    justify-content: right !important;
 //}
 
-p {
-    background-color: red !important;
-}
-
 .cs-6-28-16 {
     height: 60.28vh;
     max-height: 463px;
@@ -14,7 +10,7 @@ p {
 
 .cs-6-28-17 {
     height: 74.49vh;
-    max-height: 572.13;
+    max-height: 572.13px !important;
 }
 
 .cs-6-28-18 {
@@ -28,5 +24,15 @@ p {
 }
 
 .small-text {
-    font-size: 2vh !important;
+    margin: 0.5vh !important;
+}
+
+.small-text {
+    p {
+        font-size: 2vh !important;
+    }
+}
+
+.padding-up {
+    padding-top: 9vh !important;
 }
