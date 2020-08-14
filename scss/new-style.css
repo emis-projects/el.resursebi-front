@@ -52198,6 +52198,42 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-4/How-to-form-text-16/cs-4-16-29.svg");
 }
 
+.cs-4-16-div-3-img {
+  height: 44.66vh;
+}
+
+.cs-4-16-div-4-img {
+  height: 39.19vh;
+}
+
+.cs-4-16-div-5-img {
+  height: 46.09vh;
+}
+
+.cs-4-16-div-6-img {
+  height: 34.11vh;
+}
+
+.cs-4-16-div-7-img {
+  height: 39.19vh;
+}
+
+.cs-4-16-div-8-img {
+  height: 52.34vh;
+}
+
+.cs-4-16-div-9-img {
+  height: 57.55vh;
+}
+
+.cs-4-16-div-10-img {
+  height: 28.25vh;
+}
+
+.cs-4-16-div img {
+  height: 100%;
+}
+
 body {
   color: #262626;
   font-size: 14px;
