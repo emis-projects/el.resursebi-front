@@ -51267,64 +51267,6 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 48vh;
 }
 
-.cs-3-14 img {
-  height: 100%;
-}
-
-.cs-3-14-15 {
-  height: 41vh;
-  max-height: 319px;
-}
-
-.cs-3-14-16 {
-  height: 55.2vh;
-  max-height: 424px;
-}
-
-.cs-3-14-17 {
-  height: 36.6vh;
-  max-height: 279px;
-}
-
-.background-cs-3-14-img {
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.background-cs-3-14-img-18 {
-  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/Mystery-of-binary-bracelet-14/cs-3-14-18.svg");
-}
-
-.background-cs-3-14-img-19 {
-  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/Mystery-of-binary-bracelet-14/cs-3-14-19.svg");
-}
-
-.background-cs-3-14-img-20 {
-  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/Mystery-of-binary-bracelet-14/cs-3-14-20.svg");
-}
-
-.background-cs-3-14-img-21 {
-  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/Mystery-of-binary-bracelet-14/cs-3-14-21.svg");
-}
-
-.cs-3-14-div-3-1-info-img {
-  height: 60vh;
-}
-
-.cs-3-14-div-6-1-info-img {
-  height: 36.45vh;
-  position: absolute;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-  bottom: 15vh;
-}
-
-.cs-3-14-div img {
-  height: 100%;
-}
-
 .cs-3-14-div {
   /*   &-6-char-img {
         height:7.21vh;
@@ -51401,6 +51343,81 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   position: absolute;
   bottom: 0;
   right: 0;
+}
+
+.cs-3-14-div img {
+  height: 100%;
+}
+
+.cs-3-14-9 {
+  height: 53.41vh;
+  max-height: 410.2px !important;
+}
+
+.cs-3-14-10 {
+  height: 46.15vh;
+  max-height: 354.46px !important;
+}
+
+.cs-3-14-11 {
+  height: 46.66vh;
+  max-height: 358.38px !important;
+  position: absolute;
+  bottom: 0;
+}
+
+.cs-3-14 img {
+  height: 100%;
+}
+
+.cs-3-14-15 {
+  height: 41vh;
+  max-height: 319px;
+}
+
+.cs-3-14-16 {
+  height: 55.2vh;
+  max-height: 424px;
+}
+
+.cs-3-14-17 {
+  height: 36.6vh;
+  max-height: 279px;
+}
+
+.background-cs-3-14-img {
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-3-14-img-18 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/Mystery-of-binary-bracelet-14/cs-3-14-18.svg");
+}
+
+.background-cs-3-14-img-19 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/Mystery-of-binary-bracelet-14/cs-3-14-19.svg");
+}
+
+.background-cs-3-14-img-20 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/Mystery-of-binary-bracelet-14/cs-3-14-20.svg");
+}
+
+.background-cs-3-14-img-21 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/Mystery-of-binary-bracelet-14/cs-3-14-21.svg");
+}
+
+.cs-3-14-div-3-1-info-img {
+  height: 60vh;
+}
+
+.cs-3-14-div-6-1-info-img {
+  height: 36.45vh;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: 15vh;
 }
 
 .cs-3-14-div img {
