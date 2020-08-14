@@ -50038,6 +50038,75 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   margin: 0 auto 3vh;
 }
 
+.class_music_5-icon {
+  width: 4vh;
+  height: 4vh;
+  vertical-align: middle;
+}
+
+.class_music_5-title-15 {
+  font-size: 2vh;
+  font-family: DejaVu Sans;
+  text-decoration: none;
+  font-weight: 100;
+}
+
+.class_music_5-img_15_man {
+  height: 36vh;
+  position: absolute;
+  bottom: 0;
+  right: 58vh;
+}
+
+.class_music_5-title {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+table {
+  border-collapse: separate !important;
+  border-spacing: 0 !important;
+}
+
+td, th {
+  border: solid 2px #7fd1d8 !important;
+  border-style: none solid solid none !important;
+  padding: 3.5vh !important;
+}
+
+tr:first-child th:first-child {
+  border-top-left-radius: 10px !important;
+}
+
+tr:first-child th:last-child {
+  border-top-right-radius: 10px !important;
+}
+
+tr:last-child td:first-child {
+  border-bottom-left-radius: 10px !important;
+}
+
+tr:last-child td:last-child {
+  border-bottom-right-radius: 10px !important;
+}
+
+tr:first-child th {
+  border-top-style: solid !important;
+}
+
+tr th:first-child {
+  border-left-style: solid !important;
+}
+
+tr:first-child td {
+  border-top-style: solid !important;
+}
+
+tr td:first-child {
+  border-left-style: solid !important;
+}
+
 .one-day-5 img {
   height: 100%;
 }
