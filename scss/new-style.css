@@ -42837,12 +42837,19 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .cs-6-13-3-1-div img {
-  height: 32.9vh;
   margin: auto;
+  height: 32.9vh;
+  width: 18.52vw;
+}
+
+.cs-6-13-3-1-div p {
+  color: #947DCE;
 }
 
 .presentation-box {
   border: 1px solid black;
+  height: 32.9vh;
+  width: 18.52vw;
 }
 
 .memories_page-11 {
@@ -45805,6 +45812,30 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .class_6_5-img_16_1 img {
+  height: 100%;
+}
+
+.cs-6-5-div-12-1-img {
+  height: 41.01vh;
+}
+
+.cs-6-5-div-17-1-img {
+  height: 18.09vh;
+}
+
+.cs-6-5-div-18-1-1-img {
+  height: 15.23vh;
+}
+
+.cs-6-5-div-18-1-2-img {
+  height: 14.19vh;
+}
+
+.cs-6-5-div-19-1-img {
+  height: 40.75vh;
+}
+
+.cs-6-5-div img {
   height: 100%;
 }
 
@@ -51336,64 +51367,6 @@ tr td:first-child {
   height: 48vh;
 }
 
-.cs-3-14 img {
-  height: 100%;
-}
-
-.cs-3-14-15 {
-  height: 41vh;
-  max-height: 319px;
-}
-
-.cs-3-14-16 {
-  height: 55.2vh;
-  max-height: 424px;
-}
-
-.cs-3-14-17 {
-  height: 36.6vh;
-  max-height: 279px;
-}
-
-.background-cs-3-14-img {
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.background-cs-3-14-img-18 {
-  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/Mystery-of-binary-bracelet-14/cs-3-14-18.svg");
-}
-
-.background-cs-3-14-img-19 {
-  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/Mystery-of-binary-bracelet-14/cs-3-14-19.svg");
-}
-
-.background-cs-3-14-img-20 {
-  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/Mystery-of-binary-bracelet-14/cs-3-14-20.svg");
-}
-
-.background-cs-3-14-img-21 {
-  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/Mystery-of-binary-bracelet-14/cs-3-14-21.svg");
-}
-
-.cs-3-14-div-3-1-info-img {
-  height: 60vh;
-}
-
-.cs-3-14-div-6-1-info-img {
-  height: 36.45vh;
-  position: absolute;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-  bottom: 15vh;
-}
-
-.cs-3-14-div img {
-  height: 100%;
-}
-
 .cs-3-14-div {
   /*   &-6-char-img {
         height:7.21vh;
@@ -51470,6 +51443,81 @@ tr td:first-child {
   position: absolute;
   bottom: 0;
   right: 0;
+}
+
+.cs-3-14-div img {
+  height: 100%;
+}
+
+.cs-3-14-9 {
+  height: 53.41vh;
+  max-height: 410.2px !important;
+}
+
+.cs-3-14-10 {
+  height: 46.15vh;
+  max-height: 354.46px !important;
+}
+
+.cs-3-14-11 {
+  height: 46.66vh;
+  max-height: 358.38px !important;
+  position: absolute;
+  bottom: 0;
+}
+
+.cs-3-14 img {
+  height: 100%;
+}
+
+.cs-3-14-15 {
+  height: 41vh;
+  max-height: 319px;
+}
+
+.cs-3-14-16 {
+  height: 55.2vh;
+  max-height: 424px;
+}
+
+.cs-3-14-17 {
+  height: 36.6vh;
+  max-height: 279px;
+}
+
+.background-cs-3-14-img {
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-3-14-img-18 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/Mystery-of-binary-bracelet-14/cs-3-14-18.svg");
+}
+
+.background-cs-3-14-img-19 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/Mystery-of-binary-bracelet-14/cs-3-14-19.svg");
+}
+
+.background-cs-3-14-img-20 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/Mystery-of-binary-bracelet-14/cs-3-14-20.svg");
+}
+
+.background-cs-3-14-img-21 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/Mystery-of-binary-bracelet-14/cs-3-14-21.svg");
+}
+
+.cs-3-14-div-3-1-info-img {
+  height: 60vh;
+}
+
+.cs-3-14-div-6-1-info-img {
+  height: 36.45vh;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: 15vh;
 }
 
 .cs-3-14-div img {
@@ -52206,6 +52254,52 @@ tr td:first-child {
   max-height: 331px;
 }
 
+.cs-4-14-div-5-1-img {
+  height: 38.8vh;
+}
+
+.cs-4-14-div-6-1-img {
+  height: 36.32vh;
+}
+
+.cs-4-14-div-7-1-img {
+  height: 43.09vh;
+}
+
+.cs-4-14-div-13-1-img {
+  height: 44.79vh;
+}
+
+.cs-4-14-div-14-1-img {
+  height: 38.54vh;
+}
+
+.cs-4-14-div img {
+  height: 100vh;
+}
+
+.background-cs-4-14 {
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-cs-4-14-19 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/Group-work-14/cs-4-14-19.png");
+}
+
+.background-cs-4-14-20 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/Group-work-14/cs-4-14-20.png");
+}
+
+.background-cs-4-14-21 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/Group-work-14/cs-4-14-21.png");
+}
+
+.background-cs-4-14-22 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/Group-work-14/cs-4-14-22.png");
+}
+
 .cs-4-16 img {
   height: 100%;
 }
@@ -52265,6 +52359,42 @@ tr td:first-child {
 
 .background-cs-4-16-29 {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-4/How-to-form-text-16/cs-4-16-29.svg");
+}
+
+.cs-4-16-div-3-img {
+  height: 44.66vh;
+}
+
+.cs-4-16-div-4-img {
+  height: 39.19vh;
+}
+
+.cs-4-16-div-5-img {
+  height: 46.09vh;
+}
+
+.cs-4-16-div-6-img {
+  height: 34.11vh;
+}
+
+.cs-4-16-div-7-img {
+  height: 39.19vh;
+}
+
+.cs-4-16-div-8-img {
+  height: 52.34vh;
+}
+
+.cs-4-16-div-9-img {
+  height: 57.55vh;
+}
+
+.cs-4-16-div-10-img {
+  height: 28.25vh;
+}
+
+.cs-4-16-div img {
+  height: 100%;
 }
 
 body {
