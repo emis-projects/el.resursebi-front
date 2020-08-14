@@ -42837,12 +42837,19 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .cs-6-13-3-1-div img {
-  height: 32.9vh;
   margin: auto;
+  height: 32.9vh;
+  width: 18.52vw;
+}
+
+.cs-6-13-3-1-div p {
+  color: #947DCE;
 }
 
 .presentation-box {
   border: 1px solid black;
+  height: 32.9vh;
+  width: 18.52vw;
 }
 
 .memories_page-11 {
@@ -45805,6 +45812,30 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .class_6_5-img_16_1 img {
+  height: 100%;
+}
+
+.cs-6-5-div-12-1-img {
+  height: 41.01vh;
+}
+
+.cs-6-5-div-17-1-img {
+  height: 18.09vh;
+}
+
+.cs-6-5-div-18-1-1-img {
+  height: 15.23vh;
+}
+
+.cs-6-5-div-18-1-2-img {
+  height: 14.19vh;
+}
+
+.cs-6-5-div-19-1-img {
+  height: 40.75vh;
+}
+
+.cs-6-5-div img {
   height: 100%;
 }
 
