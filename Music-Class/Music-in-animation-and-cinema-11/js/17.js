@@ -15,7 +15,7 @@ function game() {
     this.error1 = true;
     this.error2 = true;
     this.userAnswer1 = "1-3";
-    this.userAnswer2 = "2-2";
+    this.userAnswer2 = "2-1";
 
 
 
@@ -108,7 +108,7 @@ function game() {
 
 
         if(!this.error1 && !this.error2){
-            location.href = "game-success-16.html"
+            location.href = "game-success-17.html"
         }
     }
 

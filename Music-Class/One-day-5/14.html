@@ -27,6 +27,15 @@
 
         gtag('config', 'UA-155006442-1');
     </script>
+    <style>
+        td .DragGame—childs2 {
+            position: absolute;
+            top: 50%;
+            right: 0;
+            left: initial;
+        }
+
+    </style>
 </head>
 
 <body>
@@ -65,19 +74,19 @@
                                     ბედნიერად გატარებული დღე
                                 </th>
                             </tr>
-                            <tr>
+                            <tr class="relative DragGame—childs1">
                                 <td>
                                     <img src="../../img/gakvetilebi/Music-class/One-day-5/music-5-1-icon.svg" alt="img" class="class_music_5-icon">
                                 </td>
                                 <td colspan="4" class="class_music_5-title-15">ადგომა</td>
                             </tr>
-                            <tr>
+                            <tr class="relative DragGame—childs1">
                                 <td>
                                     <img src="../../img/gakvetilebi/Music-class/One-day-5/music-5-2-icon.svg" alt="img" class="class_music_5-icon">
                                 </td>
                                 <td colspan="4" class="class_music_5-title-15">პირის დაბანა</td>
                             </tr>
-                            <tr>
+                            <tr class="relative DragGame—childs1">
                                 <td>
                                     <img src="../../img/gakvetilebi/Music-class/One-day-5/music-5-3-icon.svg" alt="img" class="class_music_5-icon">
                                 </td>
@@ -99,17 +108,14 @@
                 </div>
                     <div class="col-12 m-auto">
                         <div class="col-4 d-flex justify-content-between mt-4vh">
-                            <img src="../../img/gakvetilebi/Music-class/One-day-5/music-5-15-1.svg" class="class_music_5-img_15_cont" alt="image">
-                            <img src="../../img/gakvetilebi/Music-class/One-day-5/music-5-15-2.svg" class="class_music_5-img_15_cont" alt="image">
-                            <img src="../../img/gakvetilebi/Music-class/One-day-5/music-5-15-3.svg" class="class_music_5-img_15_cont" alt="image">
+                            <img src="../../img/gakvetilebi/Music-class/One-day-5/music-5-15-1.svg" class="class_music_5-img_15_cont DragGame—childs2" alt="image">
+                            <img src="../../img/gakvetilebi/Music-class/One-day-5/music-5-15-2.svg" class="class_music_5-img_15_cont DragGame—childs2" alt="image">
+                            <img src="../../img/gakvetilebi/Music-class/One-day-5/music-5-15-3.svg" class="class_music_5-img_15_cont DragGame—childs2" alt="image">
                         </div>
                     </div>
                 </div>
             </div>
-            <div  class="flex flex-column z-index reload_game_wrapper">
-                <button id="resetBtn" class="reset__btn">თავიდან სცადე</button>
-                <button id="completedGame" class="completed__btn">დასრულება</button>
-            </div>
+
             <div class="left_components_paging-cont" id="leftNav">
                 <left-nav-item></left   -nav-item>
             </div>
@@ -139,6 +145,8 @@
     <script src="../../js/libraries/jquery.magnific-popup.min.js"></script>
     <script src="../../js/Pagination.js"></script>
 
+
+    <script src="./js/14.js"></script>
 
     <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
     <script src="../../New-header-vue/app.js"></script>
