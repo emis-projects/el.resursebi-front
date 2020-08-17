@@ -51452,6 +51452,8 @@ tr td:first-child {
 .cs-3-14-9 {
   height: 53.41vh;
   max-height: 410.2px !important;
+  position: absolute;
+  bottom: 0;
 }
 
 .cs-3-14-10 {
