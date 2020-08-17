@@ -71,7 +71,7 @@ function game() {
         }
 
         if(!this.error1){
-            location.href = "game-success-10.html"
+            location.href = "game-success-12.html"
         }
     }
 
