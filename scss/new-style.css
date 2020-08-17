@@ -43280,21 +43280,6 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
-.cs-3-16-13 {
-  height: 47.59vh;
-  max-height: 365.56px !important;
-}
-
-.cs-3-16-14 {
-  height: 64.96vh;
-  max-height: 498.94px !important;
-}
-
-.cs-3-16-17-22i {
-  height: 64.92vh;
-  max-height: 498.61px !important;
-}
-
 .class_6_16-img_22 {
   height: 49.58vh;
   max-height: 380.85px;
@@ -52099,8 +52084,37 @@ tr td:first-child {
   height: 43.61vh;
 }
 
+.cs-3-16-13 {
+  height: 47.59vh;
+  max-height: 365.56px !important;
+}
+
+.cs-3-16-14 {
+  height: 64.96vh;
+  max-height: 498.94px !important;
+}
+
 .class_3_16-img_15 {
-  height: 45vh;
+  height: 21.7vh;
+}
+
+.class_3_16-icon_arrow {
+  height: 4.7vh;
+}
+
+.class_3_16-icon_arrow_right {
+  height: 3.2vh;
+}
+
+.class_3_16-icon_arrow_around {
+  height: 3.8vh;
+}
+
+.class_3_16-border_box_15 {
+  width: 8.2vh;
+  height: 8.2vh;
+  border: 1px solid #262626;
+  opacity: 1;
 }
 
 .my-robot img {
@@ -52160,6 +52174,11 @@ tr td:first-child {
 
 .background-cs-3-16-27 {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-3/How-my-robot-acts-16/cs-3-16-27.svg");
+}
+
+.cs-3-16-17-22i {
+  height: 64.92vh;
+  max-height: 498.61px !important;
 }
 
 .cs-4-14 img {
