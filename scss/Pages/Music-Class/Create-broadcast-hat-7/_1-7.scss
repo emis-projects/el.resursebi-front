@@ -11,6 +11,9 @@
     img {
         height: 100%;
     }
+    .listen-music-purple-tag{
+        cursor: pointer;
+    }
 }
 .music-new-7-div-5{
     position:relative;
@@ -23,6 +26,10 @@
         bottom:-4.1vh;
         position:absolute;
         background-color: white;
+        img{
+          width: 100%;
+          height: auto;
+        }
     }
 }
 
@@ -34,5 +41,11 @@
 .music-new-7-div-7{
     img{
         height:19.66vh;
+    }
+}
+
+.music-new-7_5{
+.listen-music-purple-tag{
+        cursor: pointer;
     }
 }
