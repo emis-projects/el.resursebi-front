@@ -42852,83 +42852,6 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   width: 18.52vw;
 }
 
-.memories_page-11 {
-  height: 68vh;
-  max-height: 520px;
-  position: fixed;
-  bottom: 5%;
-  right: 20%;
-}
-
-.memories_page-11 img {
-  height: 100%;
-}
-
-.memories_page-12 {
-  height: 46vh;
-  max-height: 350px;
-}
-
-.memories_page-12 img {
-  height: 100%;
-}
-
-.memories_page-13 {
-  height: 42vh;
-  max-height: 324px;
-}
-
-.memories_page-13 img {
-  height: 100%;
-}
-
-.memories_page-14 {
-  height: 68vh;
-  max-height: 520px;
-}
-
-.memories_page-14_1 {
-  max-width: 314px;
-  position: absolute;
-  right: 0;
-}
-
-.memories_page-14_1-box {
-  max-height: 124px;
-  height: 16vh;
-}
-
-.memories_page-14_1-box img {
-  height: 100%;
-}
-
-.memories_page-14 img {
-  height: 100%;
-}
-
-.memories_page-15 {
-  max-height: 520px;
-}
-
-.memories_page-15_1 {
-  max-width: 204px;
-  position: absolute;
-  right: 0;
-}
-
-.memories_page-15_1-box {
-  max-height: 124px;
-  height: 16vh;
-}
-
-.memories_page-15_1-box img {
-  height: 100%;
-}
-
-.memories_page-15 img {
-  height: 100%;
-}
-
 .class_6_13-img_13 {
   position: fixed;
   bottom: 0;
@@ -43355,6 +43278,21 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .memories_page-15 img {
   height: 100%;
+}
+
+.cs-3-16-13 {
+  height: 47.59vh;
+  max-height: 365.56px !important;
+}
+
+.cs-3-16-14 {
+  height: 64.96vh;
+  max-height: 498.94px !important;
+}
+
+.cs-3-16-17-22i {
+  height: 64.92vh;
+  max-height: 498.61px !important;
 }
 
 .class_6_16-img_22 {
