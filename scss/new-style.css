@@ -52117,6 +52117,23 @@ tr td:first-child {
   opacity: 1;
 }
 
+.class_3_16-border_box_16 {
+  width: 11.5vh;
+  height: 9.9vh;
+  border: 1px solid #262626;
+  opacity: 1;
+}
+
+.class_3_16-img_16 {
+  height: 14vh;
+  margin: 6.5vh auto 0;
+}
+
+.class_3_16-img_16_1 {
+  height: 17vh;
+  margin-top: 12vh;
+}
+
 .my-robot img {
   height: 100%;
 }
