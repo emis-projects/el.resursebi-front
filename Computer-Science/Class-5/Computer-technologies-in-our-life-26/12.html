@@ -24,6 +24,7 @@
             dataLayer.push(arguments);
         }
 
+        2
         gtag('js', new Date());
 
         gtag('config', 'UA-155006442-1');
@@ -37,49 +38,42 @@
                 <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../../'"></app-menu>
             </header>
 
-            <app-section :is-active="isActive" :is-info="isInfo" v-image="'../../../'">
-                <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger"
-                    v-on:link-tab="link = $event">
+            <app-section :is-active="isActive" v-image="'../../../'">
+                <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger" v-on:link-tab="link = $event">
 
                 </app-bar>
-                <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive"
-                    :is-info="isInfo" :path="path" :tab-class="currentTabComponent" :trigger="trigger">
+                <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive" :is-info="isInfo" :path="path" :tab-class="currentTabComponent" :trigger="trigger">
                 </component>
 
             </app-section>
         </section>
         <section id="mainPage">
-            <div class="row mt-7vh">
-                <div class="col-6 m-auto">
-                    <div class="newDesign_subject_question_item">
-                        <img alt="img" class="newDesign_subject_question_item-img"
-                            src="../../../img/icons/newDesign_btn-yellow.svg">
-                        <p class="newDesign_subject_question_item-title">
-                            რა იცოდი და რა იყო ახალი?
-                        </p>
-                    </div>
-                    <div class="newDesign_subject_question_item">
-                        <img alt="img" class="newDesign_subject_question_item-img"
-                            src="../../../img/icons/newDesign_btn-yellow.svg">
-                        <p class="newDesign_subject_question_item-title">
-                            რაში გამოგადგება მიღებული ცოდნა?
+            <div class="row">
+                <div class="col-10 m-auto">
+                    <div class="newDesign_subject_question_item mt-7vh">
+                        <img alt="img" class="newDesign_subject_question_item-img" src="../../../img/icons/newDesign_btn-yellow.svg">
+                        <p class="newDesign_subject_question_item-title Class_2-title_item_2 big-font-size-20px-dejavu">
+                            როგორც ხედავ, კომპიუტერი ჩვენი ცხოვრების განუყრელი ნაწილია. მოდი, სხვა მხრიდანაც შევხედოთ ამ ყველაფერს და მიპასუხე კითხვაზე. ეცადე, დაასაბუთო შენი პასუხი. როგორ ფიქრობ, ადამიანები, რომლებიც დიდხანს მუშაობენ<br> კომპიუტერთან, ხომ არ გახდებიან <a href="7-1.html" class="a-blue">მასზე დამოკიდებულნი</a> ?
                         </p>
                     </div>
                 </div>
-                <div class="col-9 m-auto d-flex justify-content-end cs-5-27 cs-5-27-22">
-                    <img alt="img" class="cs-5-27 cs-5-27-22 mt-3vh"
-                        src="../../../img/gakvetilebi/Computer-Science/Class-5/Decorate-electronic-table-27/cs-5-27-22.svg">
-                </div>
+                <div class="col-12 d-flex justify-content-center cs-5-26 cs-5-26-12 mt-3vh">
+                    <img alt="img"
+                    src="../../../img/gakvetilebi/Computer-Science/Class-5/Computer-technologies-in-our-life-26/cs-5-26-12.svg">
+                </div> 
             </div>
-
+                
             <div class="left_components_paging-cont" id="leftNav">
                 <left-nav-item></left-nav-item>
             </div>
+
             <div class="our__pagination flex">
                 <a class="pagination__prev__btn" href="#">
                     <img alt="" src="../../../img/icons/chevron-left-icon.svg" style="transform: rotate(180deg)">
                 </a>
+
                 <div class="flex align-items-center" id="pagination"></div>
+
                 <a class="pagination__next__btn" href="#">
                     <img alt="" src="../../../img/icons/chevron-left-icon.svg">
                 </a>
