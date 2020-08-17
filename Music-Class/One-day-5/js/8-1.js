@@ -12,7 +12,7 @@ function handleLoadstop(event) {
 
 function game() {
     this.answersArray = '';
-    this.error = true;
+    this.error = false;
     this.answer1 = "";
     this.answer2 = "";
 
@@ -45,25 +45,30 @@ function game() {
     
     document.querySelectorAll('.DragGame—childs3 .DragGame—childs1').forEach(w => {   
         w.addEventListener('click', e => {
-            $('.DragGame—childs3 .DragGame—childs1').removeAttr('style')
-
-            let value = w.getAttribute('data-index');
-            
-            this.answer1 = value;
-
-            w.setAttribute('style', "background: #f8d24b")
+            if(!this.error){
+                $('.DragGame—childs3 .DragGame—childs1').removeAttr('style')
+    
+                let value = w.getAttribute('data-index');
+                
+                this.answer1 = value;
+    
+                w.setAttribute('style', "background: #f8d24b")
+            }
         })
     })
 
+
     document.querySelectorAll('.DragGame—childs4 .DragGame—childs1').forEach(w => {   
         w.addEventListener('click', e => {
-            $('.DragGame—childs4 .DragGame—childs1').removeAttr('style')
-
-            let value = w.getAttribute('data-index');
-
-            this.answer2 = value;
-
-            w.setAttribute('style', "background: #f8d24b")
+            if(!this.error){
+                $('.DragGame—childs4 .DragGame—childs1').removeAttr('style')
+    
+                let value = w.getAttribute('data-index');
+    
+                this.answer2 = value;
+    
+                w.setAttribute('style', "background: #f8d24b")
+            }
         })
     })
 
@@ -71,6 +76,8 @@ function game() {
     this.init = () => {
         this.answer1 = "";
         this.answer2 = "";
+
+        this.error = false;
 
         $('.DragGame—childs1').removeAttr('style')
 
@@ -84,6 +91,7 @@ function game() {
             location.href = "game-success-8-1.html"
 
         } else {
+            this.error = true;
             $('.DragGame—childs1').attr('style', "background: #dc6c85")
         }
     }
