@@ -742,8 +742,8 @@ let title = {
         },
         {
             id: 5,
-            name: 'სათაური',
-            link: ''
+            name: 'ჩემი ცხოვრების ერთი დღე',
+            link: 'Music-Class/One-day-5/1.html'
         },
         {
             id: 6,
@@ -762,16 +762,19 @@ let title = {
         },
         {
             id: 9,
-            name: 'სათაური',
-            link: ''
+            name: 'გამოვიყენოთ მუსიკა თამაშისთვის',
+            link: 'Music-Class/Game-music-9/1.html'
         },
-
-        // თუ დაემათება გაკვეთილები მუსიკას ყველა გავააქტიუროთ, link: '
-        /*{id: 7, name: '', link: '#'},
-        {id: 8, name: '', link: '#'},
-        {id: 9, name: '', link: '#'},
-        {id: 10, name: '', link: '#'},
-        {id: 11, name: '', link: '#'},*/
+        {
+            id: 10,
+            name: 'შევარჩიოთ ფონური მუსიკა',
+            link: 'Music-Class/Choose-background-music-10/1.html'
+        },
+        {
+            id: 11,
+            name: 'მუსიკა ანიმაციასა და საყმაწვილო კინოში',
+            link: 'Music-Class/Music-in-animation-and-cinema-11/1.html'
+        },
         {   
             id: 12, 
             name: ' შევქმნათ საუნდტრეკი ანიმაციური ფილმისთვის', 
