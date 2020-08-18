@@ -13,11 +13,7 @@ function handleLoadstop(event) {
 function game() {
     this.answersArray = '';
     this.error1 = true;
-    this.error2 = true;
-    this.error3 = true;
-    this.userAnswer1 = "1-3";
-    this.userAnswer2 = "2-1";
-    this.userAnswer3 = "3-2";
+    this.userAnswer1 = "1-2";
 
 
 
@@ -35,7 +31,7 @@ function game() {
 
 
 
-    $(listenBtn).click((e) => {
+    $('.listen--btn').click((e) => {
         handleLoadstop()
         createjs.Sound.registerSound({src:`${e.target.getAttribute('data-voice')}`, id:"sound"});
         handleLoadComplete()
@@ -61,42 +57,6 @@ function game() {
     })
 
 
-    document.querySelector('.DragGame—childs2').querySelectorAll('.DragGame—childs--checkbox').forEach(w => {
-        w.addEventListener('click', (e) => {
-            $('.DragGame—childs2 .DragGame—childs--checkbox').removeClass('selected')
-            $('.DragGame—childs2 .DragGame—childs--checkbox').removeClass('error')
-
-            e.target.classList.add('selected')
-
-            if(e.target.getAttribute('data-index') == this.userAnswer2){
-                this.error2 = false;
-                e.target.classList.add('correct--game')
-
-            } else {
-                this.error2 = true;
-                e.target.classList.remove('correct--game')
-            }
-        })
-    })
-
-    document.querySelector('.DragGame—childs3').querySelectorAll('.DragGame—childs--checkbox').forEach(w => {
-        w.addEventListener('click', (e) => {
-            $('.DragGame—childs3 .DragGame—childs--checkbox').removeClass('selected')
-            $('.DragGame—childs3 .DragGame—childs--checkbox').removeClass('error')
-
-            e.target.classList.add('selected')
-
-            if(e.target.getAttribute('data-index') == this.userAnswer3){
-                this.error3 = false;
-                e.target.classList.add('correct--game')
-
-            } else {
-                this.error3 = true;
-                e.target.classList.remove('correct--game')
-            }
-        })
-    })
-
 
     this.checkGameAnswers = () => {
         if(this.error1) {
@@ -110,30 +70,8 @@ function game() {
             $('.DragGame—childs1 .correct--game').addClass('success')
         }
 
-        if(this.error2) {
-            $('.DragGame—childs2 .DragGame—childs--checkbox').removeClass('selected')
-            $('.DragGame—childs2 .DragGame—childs--checkbox').removeClass('success')
-            $('.DragGame—childs2 .DragGame—childs--checkbox').addClass('error')
-
-        } else {
-            $('.DragGame—childs2 .correct--game').removeClass('selected')
-            $('.DragGame—childs2 .correct--game').removeClass('error')
-            $('.DragGame—childs2 .correct--game').addClass('success')
-        }
-
-        if(this.error3) {
-            $('.DragGame—childs3 .DragGame—childs--checkbox').removeClass('selected')
-            $('.DragGame—childs3 .DragGame—childs--checkbox').removeClass('success')
-            $('.DragGame—childs3 .DragGame—childs--checkbox').addClass('error')
-
-        } else {
-            $('.DragGame—childs3 .correct--game').removeClass('selected')
-            $('.DragGame—childs3 .correct--game').removeClass('error')
-            $('.DragGame—childs3 .correct--game').addClass('success')
-        }
-
-        if(!this.error1 && !this.error2 && !this.error3){
-            location.href = "game-success-5.html"
+        if(!this.error1){
+            location.href = "game-success-10.html"
         }
     }
 
@@ -145,8 +83,6 @@ function game() {
         $('.DragGame—childs--checkbox').removeClass('correct--game');
 
         this.error1 = true;
-        this.error2 = true;
-        this.error3 = true;
 
         // stop voice 
         createjs.Sound.stop("sound");

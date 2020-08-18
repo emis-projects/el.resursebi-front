@@ -1,5 +1,42 @@
 .class_3_16 {
     &-img_15 {
-        height: 45vh;
+        height: 21.7vh;
+    }
+    &-icon_arrow {
+        height: 4.7vh;
+    }
+    &-icon_arrow_right {
+        height: 3.2vh;
+    }
+    &-icon_arrow_around {
+        height: 3.8vh;
+    }
+    &-border_box_15 {
+        width: 8.2vh;
+        height: 8.2vh;
+        border: 1px solid #262626;
+        opacity: 1;
+        img {
+            margin: 1.8vh auto;
+        }
+    }
+    &-border_box_16 {
+        width: 11.5vh;
+        height: 9.9vh;
+        border: 1px solid #262626;
+        opacity: 1;
+        img {
+            margin: 2.5vh auto;
+        }
+    }
+    &-img_16 {
+        height: 14vh; 
+        margin: 6.5vh auto 0;
+    }
+    &-img_16_1 {
+        height: 17vh; 
+        position: absolute;
+        bottom: 0;
+        left: 0;
     }
 }
