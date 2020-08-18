@@ -51404,6 +51404,62 @@ tr td:first-child {
   bottom: 0;
 }
 
+.class_3_14-border_bottom {
+  width: 8.5vh;
+  height: 9vh;
+  margin: 0 auto;
+  border-bottom: 2px solid #000000;
+  opacity: 1;
+}
+
+.class_3_14-line_cont {
+  margin: 0 auto;
+}
+
+.class_3_14-line_cont_1 {
+  margin: 0 10.3vh;
+}
+
+.class_3_14-line_cont_2 {
+  margin: 0 5vh;
+}
+
+.class_3_14-img_13_letter_a {
+  position: absolute;
+  top: -1vh;
+}
+
+.class_3_14-img_13_letter_b {
+  position: absolute;
+  top: 7vh;
+}
+
+.class_3_14-img_13_letter_c {
+  position: absolute;
+  top: 15.4vh;
+}
+
+.class_3_14-img_13 {
+  height: 20vh;
+}
+
+.class_3_14-box {
+  width: 6vh;
+  height: 6vh;
+  margin: auto;
+  border: 1px solid #000000;
+  opacity: 1;
+}
+
+.class_3_14-img_14 {
+  height: 44.5vh;
+}
+
+.class_3_14-img_14_1 {
+  width: 5vh;
+  height: 5vh;
+}
+
 .cs-3-14 img {
   height: 100%;
 }
