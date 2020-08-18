@@ -52268,6 +52268,29 @@ tr td:first-child {
   max-height: 498.61px !important;
 }
 
+.class_4_14-img_1 {
+  height: 60.9vh;
+  margin: 3vh auto 4vh;
+}
+
+.class_4_14-img_1 img {
+  height: 100%;
+}
+
+.class_4_14-img_3 {
+  height: 39.9vh;
+}
+
+.class_4_14-img_4 {
+  position: fixed;
+  bottom: 0;
+  height: 51vh;
+}
+
+.class_4_14-img_5 {
+  height: 53.5vh;
+}
+
 .cs-4-14 img {
   height: 100%;
 }
@@ -52458,6 +52481,22 @@ tr td:first-child {
 
 .cs-4-16-div img {
   height: 100%;
+}
+
+.class_4_16-img_15 {
+  height: 43.5vh;
+}
+
+.class_4_16-img_16 {
+  height: 38.8vh;
+}
+
+.class_4_16-img_17 {
+  height: 38.3vh;
+}
+
+.class_4_16-img_18 {
+  height: 31.25vh;
 }
 
 .cs-5-28-div-3-img {
@@ -53030,6 +53069,62 @@ tr td:first-child {
 .cs-4-15-13 {
   height: 39.7vh;
   max-height: 305px;
+}
+
+.class_4_15-img_14 {
+  position: fixed;
+  bottom: 0;
+  height: 59.6vh;
+}
+
+.class_4_15-img_15 {
+  height: 47.5vh;
+}
+
+.class_4_15-img_16 {
+  position: fixed;
+  bottom: 0;
+  height: 56.6vh;
+}
+
+.class_4_15-img_17 {
+  height: 44.4vh;
+}
+
+.class_4_15-img_18 {
+  height: 45.8vh;
+}
+
+.class_4_15-bg_19 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/walking-in-internet-15/C-4-15-19.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.class_4_15-bg_20 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/walking-in-internet-15/C-4-15-20.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.class_4_15-bg_21 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/walking-in-internet-15/C-4-15-21.png");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.class_4_15-bg_22 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/walking-in-internet-15/C-4-15-22.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
 .cs-4-15-5i {
