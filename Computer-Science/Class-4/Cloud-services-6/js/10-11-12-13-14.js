@@ -10,10 +10,8 @@ function computerGames(){
         checkmarkJS.forEach(element => {
             $(element).removeClass( "error")
             $(element).removeClass( "active")
-            element.style = '';
         });
         e.target.classList.add('active');
-        e.target.style = 'background: #947DCE'
     }
 
     this.completGame = () => {
@@ -22,15 +20,13 @@ function computerGames(){
             if(element.classList.contains('active')){
                 if(element.classList.contains('correctJS')){
                     $(element).removeClass( "active")
-                    element.style = '';
-                    element.classList.add('success');
+                    element.classList.add('success')
                     count++;
                 }
             }
             if((element.classList.contains('active'))){
                 if((element.classList.contains('noCorrectJS'))){
                     $(element).removeClass( "active")
-                    element.style = '';
                     element.classList.add('error');
                 }
             }
@@ -51,13 +47,26 @@ function computerGames(){
         checkmarkJS.forEach(element => {
             $(element).removeClass( "error")
             $(element).removeClass( "active")
-            element.style = '';
         });
         completedBtn.removeAttribute('disabled');
     }
 
     this.successPage = () => {
-        location.href = 'game-success-27.html';
+        if(window.location.href.includes("10.html")){
+            location.href = 'game-success-10.html';
+        }
+        if(window.location.href.includes("11.html")){
+            location.href = 'game-success-11.html';
+        }
+        if(window.location.href.includes("12.html")){
+            location.href = 'game-success-12.html';
+        }
+        if(window.location.href.includes("13.html")){
+            location.href = 'game-success-13.html';
+        }
+        if(window.location.href.includes("14.html")){
+            location.href = 'game-success-14.html';
+        }
     }
 
 

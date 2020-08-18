@@ -52876,12 +52876,17 @@ tr td:first-child {
   max-height: 282.74px;
 }
 
-.link-color {
+.cs-4-15-13i {
+  height: 31.68vh;
+  max-height: 243.36px;
+}
+
+.blue-text {
   color: #7FD1D8;
 }
 
-.keep-line {
-  display: inline !important;
+.keep-line ul {
+  display: inline-block !important;
 }
 
 .cs-5-25 img {
@@ -52923,6 +52928,36 @@ tr td:first-child {
 
 .background-cs-5-25-23 {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-5/develop-informational-society-25/cs-5-25-23.svg");
+}
+
+.cs-5-26-6i {
+  height: 48.38vh;
+  max-height: 371.6px !important;
+}
+
+.cs-5-26-7i {
+  height: 41.76vh;
+  max-height: 320.74px !important;
+}
+
+.cs-5-26-10i {
+  height: 18.62vh;
+  max-height: 143.01px !important;
+}
+
+.cs-5-26-12i {
+  height: 44.99vh;
+  max-height: 345.56px !important;
+}
+
+.cs-5-26-13i {
+  height: 39.23vh;
+  max-height: 301.29px !important;
+}
+
+.cs-5-26-14i {
+  height: 34.37vh;
+  max-height: 264px !important;
 }
 
 body {
