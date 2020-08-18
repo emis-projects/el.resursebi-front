@@ -29,8 +29,8 @@ function game() {
 
 
     document.addEventListener('DOMContentLoaded', () => {
-        for(const item of items) { 
-            $(item).attr('data-img', $(item).attr('src'))   
+        for(const item of items) {
+            $(item).attr('data-img', $(item).attr('src'))
         }
     })
 
@@ -40,16 +40,16 @@ function game() {
         createjs.Sound.registerSound({src:`${e.target.getAttribute('data-voice')}`, id:"sound"});
         handleLoadComplete()
     })
-    
-    
+
+
     var myArray = [];
 
     for(var i = 0; i < items.length; i++ ){
       myArray.push(items[i])
     }
-    
-    
-    myArray.forEach(w => {   
+
+
+    myArray.forEach(w => {
         w.addEventListener('click', e => {
             handleLoadstop();
             createjs.Sound.registerSound({src:`${e.target.getAttribute('data-voice')}`, id:"sound"});
@@ -61,7 +61,7 @@ function game() {
 
             if(correctAnswer.getAttribute('data-correct') == this.answersArray){
                 this.error = false;
-    
+
             } else {
                 this.error = true;
             }
@@ -73,7 +73,7 @@ function game() {
             this.checkWhichPageIs()
 
         } else {
-            $('.DragGame—childs1').attr('src', "../../../img/gakvetilebi/Music-class/city-voices-2/Group 47477.svg")
+            $('.DragGame—childs1').attr('src', "../../img/gakvetilebi/Music-class/city-voices-2/Group 47477.svg")
         }
     }
 
@@ -82,24 +82,24 @@ function game() {
 
         if(myLocation == "/Music-Class/city-voices-2/6.html" || myLocation == "/el.resursebi-front/Music-Class/city-voices-2/6.html"){
             location.href = "game-success-6.html"
-            
+
         } else if (myLocation == "/Music-Class/city-voices-2/7.html" || myLocation == "/el.resursebi-front/Music-Class/city-voices-2/7.html"){
             location.href = "game-success-7.html"
-        } 
+        }
     }
 
 
     this.init = () => {
         this.answersArray = '';
 
-        for(const item of items) { 
-            $(item).attr('src', $(item).attr('data-img'))   
+        for(const item of items) {
+            $(item).attr('src', $(item).attr('data-img'))
         }
 
-        // stop voice 
+        // stop voice
         createjs.Sound.stop("sound");
     }
-    
+
 
     this.completGame = () => {
         this.checkGameAnswers()
