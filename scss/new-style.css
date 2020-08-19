@@ -52291,6 +52291,26 @@ tr td:first-child {
   height: 53.5vh;
 }
 
+.cs-4-14-6 {
+  height: 42.55vh !important;
+  max-height: 326.81px !important;
+}
+
+.cs-4-14-7 {
+  height: 41.05vh !important;
+  max-height: 315.28px !important;
+}
+
+.cs-4-14-8 {
+  height: 38.18vh !important;
+  max-height: 293.23px !important;
+}
+
+.cs-4-14-9 {
+  height: 48.18vh !important;
+  max-height: 370.09px !important;
+}
+
 .cs-4-14 img {
   height: 100%;
 }
