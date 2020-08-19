@@ -62,7 +62,7 @@ $(document).ready(function () {
                 //რენდომი
                 var rendomnamber = Math.floor(Math.random() * 10000 + 1);
                 // მომხმარებლის Ip
-                $.getJSON("http://jsonip.com/?callback=?", function (data) {
+                $.getJSON("https://jsonip.com/?callback=?", function (data) {
                     userId = data.ip + rendomnamber;
                     document.cookie = "user_Id=" + userId; //წერს ქუქიაში
                 });
@@ -85,7 +85,7 @@ $(document).ready(function () {
                 //რენდომი
                 var rend = Math.floor(Math.random() * 10000 + 1);
                 // მომხმარებლის Ip
-                $.getJSON("http://jsonip.com/?callback=?", function (d) {
+                $.getJSON("https://jsonip.com/?callback=?", function (d) {
                     userId = d.ip + rend;
                     document.cookie = "user_Id=" + userId; //წერს ქუქიაში
                 });

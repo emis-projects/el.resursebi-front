@@ -22,9 +22,8 @@ function computerGames(){
             if(element.classList.contains('active')){
                 if(element.classList.contains('correctJS')){
                     $(element).removeClass( "active")
-                    // element.classList.add('success');
-                    // element.style = '';
-                    element.style = 'background: #0a4f38'
+                    element.style = '';
+                    element.classList.add('success');
                     count++;
                 }
             }
@@ -58,7 +57,7 @@ function computerGames(){
     }
 
     this.successPage = () => {
-        // location.href = 'game-success-27.html';
+        location.href = 'game-success-27.html';
     }
 
 
