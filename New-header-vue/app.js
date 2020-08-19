@@ -412,7 +412,8 @@ Vue.component('appSelect', {
             classID: 2,
             activeItem: 1,
             pagination: true,
-            titlesPages: 1
+            currentPage: 1,
+            pageSize: 12 
         };
     },
     computed: {
@@ -424,13 +425,19 @@ Vue.component('appSelect', {
             } else if (this.activeClass === 'ბუნება') {
                 return this.class.nature;
             } else {
-                // თუ კლასი ტოლია 5 ან 6 და titlesPages არ უქდრის 1 მაშინ პირველი 12 სათაური დარენდერდეს
-                if ((this.classID === 5 && this.titlesPages !== 1) || (this.classID === 6 && this.titlesPages !== 1)) {
-                    return this.class['IT_' + this.classID].slice(0, 12);
-                }
-                // თუ კლასი ტოლია 5 ან 6 და titlesPages არ უქდრის 2 მაშინ პირველი 24 სათაური დარენდერდეს
-                else if ((this.classID === 5 && this.titlesPages !== 2) || (this.classID === 6 && this.titlesPages !== 2)) {
-                    return this.class['IT_' + this.classID].slice(12, 24);
+                if (this.classID === 5 || this.classID === 6) {
+                    if (this.currentPage < 1) {
+                        this.currentPage = 1;
+                    } else if (this.currentPage > this.totalPages) {
+                        this.currentPage = this.totalPages;
+                    }
+                    
+
+                    let startIndex = (this.currentPage - 1) * this.pageSize;
+                    let endIndex = Math.min(startIndex + this.pageSize, this.totalItems);
+
+                    return this.class['IT_' + this.classID].slice(startIndex, endIndex)
+                    
                 }
                 // 5-6 კლასების გარდა დაბრუნდეს ჩვეულებრივად სრული სიგრძის მასივი
                 else {
@@ -448,12 +455,11 @@ Vue.component('appSelect', {
             }
         },
         // 1-12 გაკვეთილი <---> 12-24 გაკვეთილის და გადასაცვლელი ლურჯი ღილაკის გვერდის რენტერინგი
-        switchPage() {
-            if (this.pagination) {
-                return this.titlesPages = 2;
-            } else {
-                return this.titlesPages = 1;
-            }
+        totalPages() {
+            return Math.ceil(this.class['IT_' + this.classID].length / this.pageSize)
+        },
+        totalItems() {
+            return this.class['IT_' + this.classID].length
         }
     },
     methods: {
@@ -461,7 +467,7 @@ Vue.component('appSelect', {
             this.classID = val;
             this.activeItem = val - 1;
             // პირველი 12 სათაური კლასების შეცვლა თუ კლასი შეიცვალა
-            this.titlesPages = 2;
+            //this.titlesPages = 2;
             this.pagination = true
         }
     },
@@ -531,11 +537,13 @@ Vue.component('appSelect', {
                                      :duration="550"
                                      mode="out-in">
                             <div v-if="classID === 5 || classID === 6" class="class-pagination d-flex justify-content-center align-items-center">
-                                <div v-if="!pagination" @click="pagination = !pagination" class="prev arrow-left-open"></div>
-                                <div v-if="pagination" class="current">1</div>
-                                <div @click="pagination = !pagination" class="dot"><p>{{ switchPage }}</p></div>
-                                <div v-if="!pagination" class="current">2</div>
-                                <div v-if="pagination" @click="pagination = !pagination" class="next arrow-right-open"></div>
+                                <div v-if="currentPage !== 1" @click="currentPage--" class="prev arrow-left-open"></div>
+
+                                <div @click="currentPage = item" v-for="item in totalPages" :key="item" :class="[item === currentPage ? 'current' : 'dot' ]">
+                                    <p>{{ item }}</p>
+                                </div>
+                                
+                                <div v-if="currentPage !== totalPages" @click="currentPage++" class="next arrow-right-open"></div>
                             </div>
                         </transition>
                     </div>
@@ -648,7 +656,6 @@ var app = new Vue({
         toggle() {
             this.isActive = !this.isActive;
             this.dots.forEach(dot => {
-                console.log(dot.id === 2);
                 if (dot.id === 0 && !this.isActive) {
                     dot.disable = false;
                     dot.classActive = true;
@@ -1211,6 +1218,11 @@ let title = {
             id: 24,
             name: 'საკუთარი მონაცემების დაცვა',
             link: 'Computer-Science/Class-5/Protect-your-data-24/1.html'
+        },
+        {
+            id: 25,
+            name: 'საკუთარი მონაცემების დაცვა',
+            link: 'Computer-Science/Class-5/Protect-your-data-24/1.html'
         }
     ],
     IT_6: [
@@ -1333,6 +1345,11 @@ let title = {
             id: 24,
             name: 'ბალანსი ვირტუალურსა და რეალურ ცხოვრებას შორის',
             link: 'Computer-Science/Class-6/Real-&-virtual-world-balance-24/1.html'
-        }
+        },
+        {
+            id: 25,
+            name: 'შევქმნათ თამაში დროის ობიექტების გამოყენებით',
+            link: 'Computer-Science/Class-6/Real-&-virtual-world-balance-24/1.html'
+        },
     ]
 }
