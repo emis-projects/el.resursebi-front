@@ -14,7 +14,7 @@ function game() {
     this.answersArray = '';
     this.error = true;
     this.index = 1;
-    this.answer = "4"
+    this.answer = "3"
 
 
 
@@ -32,7 +32,6 @@ function game() {
 
     document.addEventListener('DOMContentLoaded', () => {
         document.getElementById('correctAnswer').setAttribute('data-correct', this.answer);
-        $('.newDesign_subject_question_item-child').attr('style', 'display: none');
         $('.newDesign_subject_question_item-child')[0].setAttribute('style', 'display: flex');
     })
 
@@ -86,7 +85,7 @@ function game() {
         if(this.index == 1){
             this.index = 2;
             this.answersArray = "";
-            this.answer = "3"
+            this.answer = "6"
             this.error = true;
             document.getElementById('correctAnswer').setAttribute('data-correct', this.answer);
             $('.newDesign_subject_question_item-child').attr('style', 'display: none');
