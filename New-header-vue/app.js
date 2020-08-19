@@ -1221,9 +1221,24 @@ let title = {
         },
         {
             id: 25,
-            name: 'საკუთარი მონაცემების დაცვა',
-            link: 'Computer-Science/Class-5/Protect-your-data-24/1.html'
-        }
+            name: 'ინფორმაციული საზოგადოების განვითარება',
+            link: 'Computer-Science/Class-5/develop-informational-society-25/1.html'
+        },
+        {
+            id: 26,
+            name: 'კომპიუტერული ტექნოლოგიები ჩვენს ცხოვრებაში',
+            link: 'Computer-Science/Class-5/Computer-technologies-in-our-life-26/1.html'
+        },
+        {
+            id: 27,
+            name: 'Ms Excel ელექტრონული ცხრილის გაფორმება',
+            link: 'Computer-Science/Class-5/Decorate-electronic-table-27/1.html'
+        },
+        {
+            id: 28,
+            name: 'Ms Excel ფაილზე მუშაობა',
+            link: 'Computer-Science/Class-6/Creating-game-in-scratch-28/1.html'
+        },
     ],
     IT_6: [
         {
@@ -1349,7 +1364,22 @@ let title = {
         {
             id: 25,
             name: 'შევქმნათ თამაში დროის ობიექტების გამოყენებით',
-            link: 'Computer-Science/Class-6/Real-&-virtual-world-balance-24/1.html'
+            link: 'Computer-Science/Class-6/Creating-games-with-objects-25/1.html'
+        },
+        {
+            id: 26,
+            name: 'ვიზუალური პროგრამირების გარემოში, Scratch-ში, შევქმნათ თამაში დროის ობიექტისა და ცვლადების გამოყენებით',
+            link: 'Computer-Science/Class-6/Creating-game-in-scratch-26/1.html'
+        },
+        {
+            id: 27,
+            name: 'Scratch-ში შევქმნათ ორტურიანი თამაში',
+            link: 'Computer-Science/Class-6/Creating-two-tours-game-27/1.html'
+        },
+        {
+            id: 28,
+            name: 'Scratch-ში შევქმნათ თამაში ცვლადების გამოყენებით',
+            link: 'Computer-Science/Class-6/Creating-game-in-scratch-28/1.html'
         },
     ]
 }
