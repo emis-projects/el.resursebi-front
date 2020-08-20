@@ -2,159 +2,162 @@
 <html data-botid="2292" lang="ka">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta content="ie=edge" http-equiv="X-UA-Compatible" />
-    <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
-    <script src="../../js/vue.js"></script>
-    <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
-    <!--  ვუე გაშვებისას
+  <meta charset="UTF-8" />
+  <meta content="ie=edge" http-equiv="X-UA-Compatible" />
+  <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+  <script src="../../js/vue.js"></script>
+  <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+  <!--  ვუე გაშვებისას
     <script src="./js/vue.min.js"></script>
      -->
-    <link href="../../scss/libraries/bootstrap.min.css" rel="stylesheet">
-    <link href="../../New-header-vue/animate.min.css" rel="stylesheet">
-    <link href="../../scss/new-style.css" rel="stylesheet" />
-    <link href="../../scss/components_style.css" rel="stylesheet" />
-    <title>ელექტრონული საგანმანათლებლო რესურსი</title>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
+  <link href="../../scss/libraries/bootstrap.min.css" rel="stylesheet">
+  <link href="../../New-header-vue/animate.min.css" rel="stylesheet">
+  <link href="../../scss/new-style.css" rel="stylesheet" />
+  <link href="../../scss/components_style.css" rel="stylesheet" />
+  <title>ელექტრონული საგანმანათლებლო რესურსი</title>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
+    function gtag() {
+      dataLayer.push(arguments);
+    }
 
-        gtag('js', new Date());
+    gtag('js', new Date());
 
-        gtag('config', 'UA-155006442-1');
-    </script>
+    gtag('config', 'UA-155006442-1');
+  </script>
 </head>
 
 <body>
-    <div class="container">
-        <section class="container position-absolute" id="app">
-            <header>
-                <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../'"></app-menu>
-            </header>
+  <div class="container">
+    <section class="container position-absolute" id="app">
+      <header>
+        <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../'"></app-menu>
+      </header>
 
-            <app-section :is-active="isActive" :is-info="isInfo" v-image="'../../'">
-                <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger" v-on:link-tab="link = $event">
+      <app-section :is-active="isActive" :is-info="isInfo" v-image="'../../'">
+        <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger"
+          v-on:link-tab="link = $event">
 
-                </app-bar>
-                <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive" :is-info="isInfo" :path="path" :tab-class="currentTabComponent" :trigger="trigger">
-                </component>
+        </app-bar>
+        <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive"
+          :is-info="isInfo" :path="path" :tab-class="currentTabComponent" :trigger="trigger">
+        </component>
 
-            </app-section>
-        </section>
-        <section id="mainPage">
-            <div class="row ">
-                <div class="col-11 m-auto">
-                    <div class="newDesign_subject_question_item">
-                        <img alt="img" class="newDesign_subject_question_item-img" src="../../img/icons/newDesign_btn-yellow.svg">
-                        <p class="newDesign_subject_question_item-title">
-                            შენ წინაშეა სადაგი დღის განრიგის სამი ვარიანტი, რომელიც დღეს ხუთ მონაკვეთად ყოფს.            
-                        </p>
-                    </div>
-                    <div class="newDesign_subject_question_item">
-                        <img alt="img" class="newDesign_subject_question_item-img" src="../../img/icons/newDesign_btn-yellow.svg">
-                        <p class="newDesign_subject_question_item-title">
-                            ყოველი მონაკვეთი დასურათებულია და გვიჩვენებს, რით არის დაკავებული შენი თანატოლი 
-                            დღის მანძილზე. </br>          
-                        </p>
-                    </div>
-                </div>
-                <div class="col-4 m-auto">
-                    <div class="newDesign_subject_question_item">
-                        <img alt="img" class="newDesign_subject_question_item-img" src="../../img/icons/newDesign_btn-yellow.svg">
-                        <p class="newDesign_subject_question_item-title">
-                            დააწკაპე ხმის ღილაკებს.            
-                        </p>
-                    </div>
-                    <div class="newDesign_subject_question_item">
-                        <img alt="img" class="newDesign_subject_question_item-img" src="../../img/icons/newDesign_btn-yellow.svg">
-                        <p class="newDesign_subject_question_item-title">
-                            ყოველ ღილაკზე </br>
-                            დაწკაპებისას გაიჟღერებს </br>
-                            დღის მონაკვეთებიდან</br>
-                             ხმების თანმიმდევრობა.           
-                        </p>
-                    </div>
-                    <div class="newDesign_subject_question_item">
-                        <img alt="img" class="newDesign_subject_question_item-img" src="../../img/icons/newDesign_btn-yellow.svg">
-                        <p class="newDesign_subject_question_item-title">
-                            დააკვირდი განრიგებში</br>
-                             მოცემული მონაკვეთების</br>
-                              თანმიმდევრობას და ჩასვი</br>
-                               სათანადო ღილაკი ამ</br>
-                                ცხრილის ცარიელ უჯრაში.          
-                        </p>
-                    </div>
-                </div>
-                <div class="col-7  d-flex mb-5vh mt-3vh">
-                    <div class="music-new-6-div-5-img">
-                        <div class="music-new-6-div-5-img-circle myDrag" data-place="1"></div>
-                            <img src="../../img/gakvetilebi/Music-class/Create-music-from-noise-6/music-new-06-5-1.svg" alt="image">
-                    </div>
-                     <div class="music-new-6-div-5-img">
-                        <div class="music-new-6-div-5-img-circle myDrag" data-place="2"></div>
-                            <img src="../../img/gakvetilebi/Music-class/Create-music-from-noise-6/music-new-06-5-2.svg" alt="image">
-                    </div>
-                    <div class="music-new-6-div-5-img">
-                        <div class="music-new-6-div-5-img-circle myDrag" data-place="3"></div>
-                            <img src="../../img/gakvetilebi/Music-class/Create-music-from-noise-6/music-new-06-5-3.svg" alt="image">
-                    </div>
-                  </div>
-                  <div class="col-3 m-auto music-new-6-div-5-img-buttons d-flex justify-content-between DragGameResetParent">
-                    <img data-end="1" data-place="2" data-voice="./game-voices/სლაიდი 5/1განრიგი.wav" class="listen--btn DragGame--childs1" src="../../img/gakvetilebi/Music-class/Create-broadcast-hat-7/music-new-07-7-button-1.svg" alt="image">
-                    <img data-end="1" data-place="3" data-voice="./game-voices/სლაიდი 5/2განრიგი.wav" class="listen--btn DragGame--childs1" src="../../img/gakvetilebi/Music-class/Create-broadcast-hat-7/music-new-07-7-button-2.svg" alt="image">
-                    <img data-end="1" data-place="1" data-voice="./game-voices/სლაიდი 5/3განრიგი.wav" class="listen--btn DragGame--childs1" src="../../img/gakvetilebi/Music-class/Create-broadcast-hat-7/music-new-07-7-button-3.svg" alt="image">
-                </div>
-            </div>
+      </app-section>
+    </section>
+    <section id="mainPage">
+      <div class="row ">
+        <div class="col-11 m-auto">
+          <div class="newDesign_subject_question_item">
+            <img alt="img" class="newDesign_subject_question_item-img" src="../../img/icons/newDesign_btn-yellow.svg">
+            <p class="newDesign_subject_question_item-title">
+              შენ წინაშეა სადაგი დღის განრიგის სამი ვარიანტი, რომელიც დღეს ხუთ მონაკვეთად ყოფს.
+            </p>
+          </div>
+          <div class="newDesign_subject_question_item">
+            <img alt="img" class="newDesign_subject_question_item-img" src="../../img/icons/newDesign_btn-yellow.svg">
+            <p class="newDesign_subject_question_item-title">
+              ყოველი მონაკვეთი დასურათებულია და გვიჩვენებს, რით არის დაკავებული შენი თანატოლი
+              დღის მანძილზე. 
+            </p>
+          </div>
+        </div>
+        <div class="col-4 ml-auto mr-auto">
+          <div class="newDesign_subject_question_item">
+            <img alt="img" class="newDesign_subject_question_item-img" src="../../img/icons/newDesign_btn-yellow.svg">
+            <p class="newDesign_subject_question_item-title">
+              დააწკაპე ხმის ღილაკებს.
+            </p>
+          </div>
+          <div class="newDesign_subject_question_item">
+            <img alt="img" class="newDesign_subject_question_item-img" src="../../img/icons/newDesign_btn-yellow.svg">
+            <p class="newDesign_subject_question_item-title">
+              ყოველ ღილაკზე დაწკაპებისას გაიჟღერებს დღის მონაკვეთებიდან
+              ხმების თანმიმდევრობა.
+            </p>
+          </div>
+          <div class="newDesign_subject_question_item">
+            <img alt="img" class="newDesign_subject_question_item-img" src="../../img/icons/newDesign_btn-yellow.svg">
+            <p class="newDesign_subject_question_item-title">
+              დააკვირდი განრიგებში მოცემული მონაკვეთების თანმიმდევრობას და ჩასვი სათანადო ღილაკი ამ
+              ცხრილის ცარიელ უჯრაში.
+            </p>
+          </div>
+        </div>
+        <div class="col-7  d-flex">
+          <div class="music-new-6-div-5-img mb-5vh mt-1vh">
+            <div class="music-new-6-div-5-img-circle myDrag" data-place="1"></div>
+            <img src="../../img/gakvetilebi/Music-class/Create-music-from-noise-6/music-new-06-5-1.svg" alt="image">
+          </div>
+          <div class="music-new-6-div-5-img mb-5vh mt-1vh">
+            <div class="music-new-6-div-5-img-circle myDrag" data-place="2"></div>
+            <img src="../../img/gakvetilebi/Music-class/Create-music-from-noise-6/music-new-06-5-2.svg" alt="image">
+          </div>
+          <div class="music-new-6-div-5-img mb-5vh mt-1vh">
+            <div class="music-new-6-div-5-img-circle myDrag" data-place="3"></div>
+            <img src="../../img/gakvetilebi/Music-class/Create-music-from-noise-6/music-new-06-5-3.svg" alt="image">
+          </div>
+        </div>
+        <div class="col-3 m-auto music-new-6-div-5-img-buttons d-flex justify-content-between DragGameResetParent">
+          <img data-end="1" data-place="2" data-voice="./game-voices/სლაიდი 5/1განრიგი.wav"
+            class="listen--btn DragGame--childs1"
+            src="../../img/gakvetilebi/Music-class/Create-broadcast-hat-7/music-new-07-7-button-1.svg" alt="image">
+          <img data-end="1" data-place="3" data-voice="./game-voices/სლაიდი 5/2განრიგი.wav"
+            class="listen--btn DragGame--childs1"
+            src="../../img/gakvetilebi/Music-class/Create-broadcast-hat-7/music-new-07-7-button-2.svg" alt="image">
+          <img data-end="1" data-place="1" data-voice="./game-voices/სლაიდი 5/3განრიგი.wav"
+            class="listen--btn DragGame--childs1"
+            src="../../img/gakvetilebi/Music-class/Create-broadcast-hat-7/music-new-07-7-button-3.svg" alt="image">
+        </div>
+      </div>
 
-            <div class="left_components_paging-cont" id="leftNav">
-                <left-nav-item></left-nav-item>
-            </div>
+      <div class="left_components_paging-cont" id="leftNav">
+        <left-nav-item></left-nav-item>
+      </div>
 
-            <div class="our__pagination flex">
-                <a class="pagination__prev__btn" href="#">
-                    <img alt="" src="../../img/icons/chevron-left-icon.svg" style="transform: rotate(180deg)">
-                </a>
+      <div class="our__pagination flex">
+        <a class="pagination__prev__btn" href="#">
+          <img alt="" src="../../img/icons/chevron-left-icon.svg" style="transform: rotate(180deg)">
+        </a>
 
-                <div class="flex align-items-center" id="pagination"></div>
+        <div class="flex align-items-center" id="pagination"></div>
 
-                <a class="pagination__next__btn" href="#">
-                    <img alt="" src="../../img/icons/chevron-left-icon.svg">
-                </a>
-            </div>
-            <div class="col-3 flex flex-end column align-items-end z-index reload_game_wrapper">
-                <div class="d-flex flex-column">
-                    <button class="reset__btn" id="resetBtn">თავიდან სცადე</button>
-                    <button class="completed__btn" id="completedGame">დასრულება</button>
-                </div>
-            </div>
-        </section>
-    </div>
-
-
-    <!-- ჩეთბოტი -->
-    <div id="chatBot">
-        <app-bot></app-bot>
-    </div>
-
-    <script src="../../js/libraries/jquery-3.4.1.min.js"></script>
-    <script src="../../js/libraries/jquery.magnific-popup.min.js"></script>
-    <script src="../../js/Pagination.js"></script>
+        <a class="pagination__next__btn" href="#">
+          <img alt="" src="../../img/icons/chevron-left-icon.svg">
+        </a>
+      </div>
+      <div class="col-3 flex flex-end column align-items-end z-index reload_game_wrapper">
+        <div class="d-flex flex-column">
+          <button class="reset__btn" id="resetBtn">თავიდან სცადე</button>
+          <button class="completed__btn" id="completedGame">დასრულება</button>
+        </div>
+      </div>
+    </section>
+  </div>
 
 
-<!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
-    <script src="../../New-header-vue/vis.js"></script>
-    <script src="../../New-header-vue/app.js"></script>
-    <script src="../../Vue-chatBot/botApp.js"></script>
-    <script src="../../js/bot.js"></script>
-    <script src="../../js/libraries/jquery-3.4.1.min.js"></script>
-    <script src="../../js/libraries/jquery.magnific-popup.min.js"></script>
-    <script src="../../js/libraries/sound.js"></script>
-    <script src="./js/5.js"></script>
+  <!-- ჩეთბოტი -->
+  <div id="chatBot">
+    <app-bot></app-bot>
+  </div>
+
+  <script src="../../js/libraries/jquery-3.4.1.min.js"></script>
+  <script src="../../js/libraries/jquery.magnific-popup.min.js"></script>
+  <script src="../../js/Pagination.js"></script>
+
+
+  <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
+  <script src="../../New-header-vue/vis.js"></script>
+  <script src="../../New-header-vue/app.js"></script>
+  <script src="../../Vue-chatBot/botApp.js"></script>
+  <script src="../../js/bot.js"></script>
+  <script src="../../js/libraries/jquery-3.4.1.min.js"></script>
+  <script src="../../js/libraries/jquery.magnific-popup.min.js"></script>
+  <script src="../../js/libraries/sound.js"></script>
+  <script src="./js/5.js"></script>
 
 </body>
 
