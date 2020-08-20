@@ -36,21 +36,22 @@
             height: 5.69vh;
         }
     }
-    &-box_cont_7 {
-        width: 21.35vh;
-        height: 23.4vh;
+    &-cont {
+        width: 26.56vh;
+        height: 19.4vh;
         border: 2px solid #00D5D5;
-        border-radius: 2vh;
+        border-radius: 0 0 12px 12px;
     }
-    &-box_cont_7 {
+    &-border_box {
         img{
-            width: 20.9vh;
-            height: 7.8vh;
-            margin: 7.8vh auto;
+            height: 6.5vh;
+            margin: 1.2vh auto;
         }
+        border-bottom: 2px solid #00D5D5;
     }
-    &-img_7_circle {
-        height: 7.16vh;
+    &-img_7 {
+        height: 7vh;
+        margin: 4vh auto 0;
     }
     &-img_8 {
         position: fixed;
