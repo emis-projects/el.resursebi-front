@@ -1034,6 +1034,27 @@ let title = {
             id: 12,
             name: 'საკუთარი Office 365-ის ანგარიშის მართვა',
             link: 'Computer-Science/Class-3/managing-office365-12/1.html'
+        },
+        {
+            id: 13,
+            name: 'გაქვს სახლში რობოტი?',
+            link: 'Computer-Science/Class-3/Do-you-have-robot-13/1.html'
+        },
+        ,
+        {
+            id: 14,
+            name: 'ბინარული სამაჯურის საიდუმლო',
+            link: 'Computer-Science/Class-3/Mystery-of-binary-bracelet-14/1.html'
+        },
+        {
+            id: 15,
+            name: 'ჩემი პირველი გმირების ისტორია',
+            link: 'Computer-Science/Class-3/First-heroes-15/1.html'
+        },
+        {
+            id: 16,
+            name: 'როგორ იქცევა ჩემი მეგობარი რობოტი',
+            link: 'Computer-Science/Class-3/How-my-robot-acts-16/1.html'
         }
     ],
     IT_4: [
@@ -1101,6 +1122,21 @@ let title = {
             id: 13,
             name: 'როგორ შევქმნათ ელექტრონული წიგნები და ბროშურები Ms Word-ში',
             link: 'Computer-Science/Class-4/Books-and-brochures-13/1.html'
+        },
+        {
+            id: 14,
+            name: 'ჯგუფური მუშაობა ღრუბლოვან სერვისებში',
+            link: 'Computer-Science/Class-4/Group-work-14/1.html'
+        },
+        {
+            id: 15,
+            name: 'გასეირნება ინტერნეტში',
+            link: 'Computer-Science/Class-4/Walking-in-internet-15/1.html'
+        },
+        {
+            id: 16,
+            name: 'როგორ გავაფორმოთ ტექსტურ რედაქტორ Ms Word-ში დაწერილი ტექსტი',
+            link: 'Computer-Science/Class-4/How-to-form-text-16/1.html'
         }
     ],
     IT_5: [
@@ -1242,7 +1278,7 @@ let title = {
         {
             id: 28,
             name: 'Ms Excel ფაილზე მუშაობა',
-            link: 'Computer-Science/Class-6/Creating-game-in-scratch-28/1.html'
+            link: 'Computer-Science/Class-5/working-with-excel-file-28/1.html'
         },
     ],
     IT_6: [
