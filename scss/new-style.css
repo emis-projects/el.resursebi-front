@@ -47569,6 +47569,41 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
+.cs-6-26-div-3-img {
+  height: 64.45vh;
+}
+
+.cs-6-26-div-4-img {
+  height: 52.73vh;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.cs-6-26-div-5-img {
+  height: 46.61vh;
+}
+
+.cs-6-26-div-6-img {
+  height: 45.83vh;
+}
+
+.cs-6-26-div-6-1-img {
+  height: 72.91vh;
+}
+
+.cs-6-26-div-7-img {
+  height: 39.84vh;
+}
+
+.cs-6-26-div-8-img {
+  height: 40.62vh;
+}
+
+.cs-6-26-div img {
+  height: 100%;
+}
+
 .music-new-1-div img {
   height: 100%;
 }
