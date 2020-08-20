@@ -52,14 +52,17 @@
     }
 }
 
-#first-line{
-    opacity: 0;
+#line{
+   &_2{
+    display: none;
+   }
+   &_3{
+    display: none;
+   }
+   &_4{
+   display: none;
+   }
 }
-
-#second-line {
-    opacity: 0;
-}
-#third-line {
-    opacity: 0;
-}
- 
+ .listen-music-purple-tag{
+     cursor: pointer;
+ }

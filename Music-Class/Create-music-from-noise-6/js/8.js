@@ -1,79 +1,68 @@
 const selects = document.querySelectorAll(".select");
 const sounds = document.querySelectorAll(".listen-music-purple-tag");
-const firstLine = document.getElementById("first-line");
-const secondLine = document.getElementById("second-line");
-const thirdLine = document.getElementById("third-line");
 
 const finishBtn = document.getElementById("completedGame");
 const resetBtn = document.getElementById("resetBtn");
 
-let count = 0;
-let falseEl = null;
+let count = 1;
+var isTrue = false;
+let activeElm = null;
 
 selects.forEach((select) => select.addEventListener("click", mark));
 
 function mark() {
-  this.style.border = "4px solid #947DCE";
-  count++;
-  if (this.dataset.id === "3") {
-    falseEl = this;
+  if (isTrue) {
+    selects.forEach((el) => (el.style.border = "2px solid #7FD1D8"));
+    this.style.border = "4px solid #947DCE";
+    activeElm = this;
   }
+}
 
-  switch (count) {
-    case 1:
-      firstLine.style.opacity = 1;
+finishBtn.addEventListener("click", check);
+
+function check() {
+  switch (activeElm.dataset.id, count) {
+    case "4" &&  1:
+      stepCheck()
       break;
-    case 2:
-      secondLine.style.opacity = 1;
+    case "5" &&  2:
+      stepCheck()
       break;
-    case 4:
-      thirdLine.style.opacity = 1;
+    case "1" &&  3:
+      stepCheck()
       break;
+    case "2" &&  4:
+      location.href = 'game-success-8.html'
+      break;
+  
     default:
       break;
   }
 }
 
-resetBtn.addEventListener("click", () => {
-  count = 0;
-  firstLine.style.opacity = 0;
-  secondLine.style.opacity = 0;
-  thirdLine.style.opacity = 0;
-  selects.forEach((el) => {
-    el.style.border = "1px solid #7FD1D8";
-   el.addEventListener("click", mark);
-  });
-  finishBtn.removeAttribute("disabled");
-});
 
-finishBtn.addEventListener("click", () => {
-  if (count === 4 && falseEl === null) {
-    console.log("trie");
-  } else if (count < 4 || count > 4) {
-    removeEvent();
-  } else {
-    removeEvent();
-  }
-});
-
-function removeEvent() {
-  selects.forEach((el) => el.removeEventListener("click", mark));
-  finishBtn.setAttribute("disabled", true);
-  if (falseEl !== null) {
-    falseEl.style.border = "4px solid #a7202b";
-  }
+function stepCheck(){
+  activeElm.style.border = "2px solid #34a216";
+    setTimeout(() => {
+      handleLoadstop()
+      activeElm.style.border = "2px solid #7FD1D8";
+      document.getElementById(`line_${count}`).style.display = "none";
+      count++;
+      document.getElementById(`line_${count}`).style.display = "flex";
+      isTrue = false
+    }, 1000);
 }
 
+//play sounds
 sounds.forEach((sound) => {
   sound.addEventListener("click", (e) => {
-    {
-      handleLoadstop();
-      createjs.Sound.registerSound({
-        src: `${e.target.dataset.voice}`,
-        id: "sound",
-      });
-      handleLoadComplete();
-    }
+    handleLoadstop();
+    createjs.Sound.registerSound({
+      src: `${e.target.dataset.voice}`,
+      id: "sound",
+    });
+    handleLoadComplete();
+    isTrue = true;
   });
 });
 
