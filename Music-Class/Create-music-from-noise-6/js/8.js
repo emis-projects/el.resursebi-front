@@ -15,7 +15,7 @@ function mark() {
     selects.forEach((el) => (el.style.border = "2px solid #7FD1D8"));
     this.style.border = "4px solid #947DCE";
     activeElm = this;
-    finishBtn.removeAttribute('disabled')
+    finishBtn.removeAttribute("disabled");
   }
 }
 
@@ -31,9 +31,9 @@ function check() {
     stepCheck();
     finishBtn.innerHTML = "დასრულება";
   } else if (activeElm.dataset.id === "2" && count === 4) {
-    stepCheck();
-  }else{
-    wrong() 
+    location.href = 'game-success-8.html'
+  } else {
+    wrong();
   }
 }
 
@@ -46,8 +46,8 @@ function stepCheck() {
     count++;
     document.getElementById(`line_${count}`).style.display = "flex";
     isTrue = false;
-    activeElm = null
-    finishBtn.setAttribute('disabled', true)
+    activeElm = null;
+    finishBtn.setAttribute("disabled", true);
   }, 1000);
 }
 
@@ -90,4 +90,7 @@ resetBtn.addEventListener("click", () => {
       document.getElementById(`line_${i}`).style.display = "flex";
     }
   }
+  count = 1;
+  isTrue = false;
+  activeElm = null;
 });
