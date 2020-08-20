@@ -49120,6 +49120,7 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 .music-new-6 .image-box {
   height: 36vh;
   max-height: 274px;
+  color: #34a216;
 }
 
 .music-new-6 .select {
@@ -49186,6 +49187,10 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .listen-music-purple-tag {
   cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
 }
 
 .class_music_6-img_9 {

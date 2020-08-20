@@ -16,6 +16,7 @@
     .image-box {
         height: 36vh;
         max-height: 274px;
+        color: #34a216;
     }
     .select {
         border: 3px solid #CECECE;
@@ -65,4 +66,7 @@
 }
  .listen-music-purple-tag{
      cursor: pointer;
+ }
+ button:disabled {
+     cursor: not-allowed;
  }
