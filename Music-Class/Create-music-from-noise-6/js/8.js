@@ -21,23 +21,19 @@ function mark() {
 finishBtn.addEventListener("click", check);
 
 function check() {
-  switch (activeElm.dataset.id, count) {
-    case "4" &&  1:
-      stepCheck()
-      break;
-    case "5" &&  2:
-      stepCheck()
-      break;
-    case "1" &&  3:
-      stepCheck()
-      break;
-    case "2" &&  4:
-      location.href = 'game-success-8.html'
-      break;
-  
-    default:
-      break;
+  if(activeElm.dataset.id === '4' && count === 1){
+    stepCheck()
   }
+  if(activeElm.dataset.id === '5' && count === 2){
+    stepCheck()
+  }
+  if(activeElm.dataset.id === '1' && count === 3){
+    stepCheck()
+  }
+  if(activeElm.dataset.id === '2' && count === 4){
+    stepCheck()
+  }
+  
 }
 
 
