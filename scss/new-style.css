@@ -35594,6 +35594,14 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100vh;
 }
 
+.class_6_2-bg_25 {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Conditional-operators-2/C-6-2-24.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
 .cs-4-7-1-img {
   height: 50.52vh;
   margin: 8vh auto 5vh;
@@ -48733,8 +48741,47 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .music-new-15-div-icons-container img {
-  height: 6.77vh;
-  margin-right: 2.85vw;
+  height: 6.77vh !important;
+  margin: 3vh 0;
+}
+
+.m-new-4-15-button {
+  height: 7.81vh;
+  margin: auto;
+}
+
+.m-new-4-15-drop-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 2vh;
+}
+
+.m-new-4-15-drop-title {
+  font-family: 'DejaVuSans';
+  font-size: 2.5vh;
+  color: #947DCE;
+  margin-bottom: 2vh;
+}
+
+.m-new-4-15-drop-button {
+  width: 20.44vh;
+  height: 10.41vh;
+  border-radius: 1.11vh;
+  border: 2px solid #947DCE;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .class_music_4 {
@@ -50314,6 +50361,44 @@ tr td:first-child {
 
 .game_music_9-img_9 {
   height: 39.5vh;
+}
+
+.game_music_9-img_card {
+  height: 33.7vh;
+  margin: 0 auto;
+}
+
+.game_music_9-box_game {
+  width: 20.3vh;
+  height: 55.3vh;
+  border: 3.058px solid #7fd1d8;
+  opacity: 1;
+}
+
+.game_music_9-border_game {
+  width: 19.79vh;
+  height: 6.86vh;
+  border-bottom: 3.058px solid #7fd1d8;
+}
+
+.game_music_9-border_game img {
+  padding: 0.8vh;
+  margin: 0 auto;
+}
+
+.game_music_9-border_game p {
+  color: #7fd1d8;
+  font-size: 20px;
+  font-family: DejaVuSans, DejaVu Sans;
+  padding: 1.3vh;
+}
+
+.game_music_9-box_fill {
+  background-color: #9cc2e5;
+}
+
+.game_music_9-img_12 {
+  height: 75.4vh;
 }
 
 .class_music_9-bg_11 {
