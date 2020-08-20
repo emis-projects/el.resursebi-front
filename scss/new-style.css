@@ -48721,8 +48721,47 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .music-new-15-div-icons-container img {
-  height: 6.77vh;
-  margin-right: 2.85vw;
+  height: 6.77vh !important;
+  margin: 3vh 0;
+}
+
+.m-new-4-15-button {
+  height: 7.81vh;
+  margin: auto;
+}
+
+.m-new-4-15-drop-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 2vh;
+}
+
+.m-new-4-15-drop-title {
+  font-family: 'DejaVuSans';
+  font-size: 2.5vh;
+  color: #947DCE;
+  margin-bottom: 2vh;
+}
+
+.m-new-4-15-drop-button {
+  width: 20.44vh;
+  height: 10.41vh;
+  border-radius: 1.11vh;
+  border: 2px solid #947DCE;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .class_music_4 {
