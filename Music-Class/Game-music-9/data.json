@@ -2,7 +2,7 @@
     "lesson_id": 9,
     "lesson_name": "Game-music-9",
     "subject": "Music-Class",
-    "pages_number": 14,
+    "pages_number": 16,
     "pages": [
         {
             "number": 1,
@@ -47,22 +47,22 @@
         {
             "number": 9,
             "url": "",
-            "type": 5
+            "type": 2
         },
         {
             "number": 10,
             "url": "",
-            "type": 5
+            "type": 2
         },
         {
             "number": 11,
             "url": "",
-            "type": 2
+            "type": 5
         },
         {
             "number": 12,
             "url": "",
-            "type": null
+            "type": 5
         },
         {
             "number": 13,
@@ -76,6 +76,11 @@
         },
         {
             "number": 15,
+            "url": "",
+            "type": null
+        },
+        {
+            "number": 16,
             "url": "",
             "type": null
         }

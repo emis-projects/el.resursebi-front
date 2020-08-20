@@ -65,4 +65,35 @@
     &-img_9 {
         height: 39.5vh;
     }
+    &-img_card {
+        height: 33.7vh;
+        margin: 0 auto;
+    }
+    &-box_game {
+        width: 20.3vh;
+        height: 55.3vh;
+        border: 3.058px solid #7fd1d8;
+        opacity: 1;
+    }
+    &-border_game {
+        width: 19.79vh;
+        height: 6.86vh;
+        border-bottom: 3.058px solid #7fd1d8;
+        img {
+            padding: 0.8vh;
+            margin: 0 auto;
+        }
+        p {
+            color: #7fd1d8;
+            font-size: 20px;
+            font-family: DejaVuSans, DejaVu Sans;
+            padding: 1.3vh;
+        }
+    }
+    &-box_fill {
+        background-color: #9cc2e5;
+    }
+    &-img_12 {
+        height: 75.4vh;
+    }
 }
