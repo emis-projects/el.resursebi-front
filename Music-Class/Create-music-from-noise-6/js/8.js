@@ -15,38 +15,48 @@ function mark() {
     selects.forEach((el) => (el.style.border = "2px solid #7FD1D8"));
     this.style.border = "4px solid #947DCE";
     activeElm = this;
+    finishBtn.removeAttribute('disabled')
   }
 }
 
 finishBtn.addEventListener("click", check);
 
 function check() {
-  if(activeElm.dataset.id === '4' && count === 1){
-    stepCheck()
+  if (activeElm.dataset.id === "4" && count === 1) {
+    stepCheck();
+    console.log("true", activeElm.dataset.id, count);
+  } else if (activeElm.dataset.id === "5" && count === 2) {
+    stepCheck();
+  } else if (activeElm.dataset.id === "1" && count === 3) {
+    stepCheck();
+    finishBtn.innerHTML = "დასრულება";
+  } else if (activeElm.dataset.id === "2" && count === 4) {
+    stepCheck();
+  }else{
+    wrong() 
   }
-  if(activeElm.dataset.id === '5' && count === 2){
-    stepCheck()
-  }
-  if(activeElm.dataset.id === '1' && count === 3){
-    stepCheck()
-  }
-  if(activeElm.dataset.id === '2' && count === 4){
-    stepCheck()
-  }
-  
 }
 
-
-function stepCheck(){
+function stepCheck() {
   activeElm.style.border = "2px solid #34a216";
-    setTimeout(() => {
-      handleLoadstop()
-      activeElm.style.border = "2px solid #7FD1D8";
-      document.getElementById(`line_${count}`).style.display = "none";
-      count++;
-      document.getElementById(`line_${count}`).style.display = "flex";
-      isTrue = false
-    }, 1000);
+  setTimeout(() => {
+    handleLoadstop();
+    activeElm.style.border = "2px solid #7FD1D8";
+    document.getElementById(`line_${count}`).style.display = "none";
+    count++;
+    document.getElementById(`line_${count}`).style.display = "flex";
+    isTrue = false;
+    activeElm = null
+    finishBtn.setAttribute('disabled', true)
+  }, 1000);
+}
+
+function wrong() {
+  activeElm.style.border = "2px solid #fc0000";
+  setTimeout(() => {
+    handleLoadstop();
+    activeElm.style.border = "2px solid #7FD1D8";
+  }, 1000);
 }
 
 //play sounds
@@ -72,3 +82,12 @@ function handleLoadComplete(event) {
 function handleLoadstop(event) {
   createjs.Sound.stop("sound");
 }
+
+resetBtn.addEventListener("click", () => {
+  for (let i = 1; i < 5; i++) {
+    document.getElementById(`line_${i}`).style.display = "none";
+    if (i === 1) {
+      document.getElementById(`line_${i}`).style.display = "flex";
+    }
+  }
+});
