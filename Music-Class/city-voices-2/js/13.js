@@ -53,6 +53,8 @@ function game() {
     
     myArray.forEach(w => {   
         w.addEventListener('click', e => {
+            this.answersArray = '';
+            
             handleLoadstop();
             createjs.Sound.registerSound({src:`${e.target.getAttribute('data-voice')}`, id:"sound"});
             handleLoadComplete();

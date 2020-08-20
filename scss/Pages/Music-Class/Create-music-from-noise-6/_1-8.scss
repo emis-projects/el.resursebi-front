@@ -16,6 +16,7 @@
     .image-box {
         height: 36vh;
         max-height: 274px;
+        color: #34a216;
     }
     .select {
         border: 3px solid #CECECE;
@@ -52,14 +53,20 @@
     }
 }
 
-#first-line{
-    opacity: 0;
+#line{
+   &_2{
+    display: none;
+   }
+   &_3{
+    display: none;
+   }
+   &_4{
+   display: none;
+   }
 }
-
-#second-line {
-    opacity: 0;
-}
-#third-line {
-    opacity: 0;
-}
- 
+ .listen-music-purple-tag{
+     cursor: pointer;
+ }
+ button:disabled {
+     cursor: not-allowed;
+ }
