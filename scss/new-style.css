@@ -49240,6 +49240,59 @@ button:disabled {
   cursor: not-allowed;
 }
 
+.music-new-6-div-3-img {
+  height: 50vh;
+}
+
+.music-new-6-div-4-img {
+  height: 51.04vh;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.music-new-6-div img {
+  height: 100%;
+}
+
+.music-new-6-div-5-img {
+  position: relative;
+  height: 43.75vh;
+  margin-right: 1.8vw;
+}
+
+.music-new-6-div-5-img-circle {
+  width: 4.94vh;
+  height: 4.94vh;
+  background-color: #a6dfe4;
+  opacity: 1;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  border-radius: 100%;
+  top: 1.5vh;
+}
+
+.music-new-6-div-5-img-buttons img {
+  height: 4.94vh;
+}
+
+.music-new-6-div-5-img-buttons-column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.music-new-6-div-5-img-buttons-column img {
+  margin-top: 5vh;
+}
+
+.music-new-6-div-5-img img {
+  height: 100%;
+}
+
 .class_music_6-img_9 {
   height: 13.9vh;
 }
