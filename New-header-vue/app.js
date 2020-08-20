@@ -413,7 +413,7 @@ Vue.component('appSelect', {
             activeItem: 1,
             pagination: true,
             currentPage: 1,
-            pageSize: 12 
+            pageSize: 12
         };
     },
     computed: {
@@ -431,13 +431,13 @@ Vue.component('appSelect', {
                     } else if (this.currentPage > this.totalPages) {
                         this.currentPage = this.totalPages;
                     }
-                    
+
 
                     let startIndex = (this.currentPage - 1) * this.pageSize;
                     let endIndex = Math.min(startIndex + this.pageSize, this.totalItems);
 
                     return this.class['IT_' + this.classID].slice(startIndex, endIndex)
-                    
+
                 }
                 // 5-6 კლასების გარდა დაბრუნდეს ჩვეულებრივად სრული სიგრძის მასივი
                 else {
@@ -542,7 +542,7 @@ Vue.component('appSelect', {
                                 <div @click="currentPage = item" v-for="item in totalPages" :key="item" :class="[item === currentPage ? 'current' : 'dot' ]">
                                     <p>{{ item }}</p>
                                 </div>
-                                
+
                                 <div v-if="currentPage !== totalPages" @click="currentPage++" class="next arrow-right-open"></div>
                             </div>
                         </transition>
@@ -782,9 +782,9 @@ let title = {
             name: 'მუსიკა ანიმაციასა და საყმაწვილო კინოში',
             link: 'Music-Class/Music-in-animation-and-cinema-11/1.html'
         },
-        {   
-            id: 12, 
-            name: ' შევქმნათ საუნდტრეკი ანიმაციური ფილმისთვის', 
+        {
+            id: 12,
+            name: ' შევქმნათ საუნდტრეკი ანიმაციური ფილმისთვის',
             link: 'Music-Class/Create-animation-sountrack-12/1.html'
         }
     ],
@@ -1096,6 +1096,11 @@ let title = {
             id: 12,
             name: 'რა არის ინფორმაცია',
             link: 'Computer-Science/Class-4/What-is-information-12/1.html'
+        },
+        {
+            id: 13,
+            name: 'როგორ შევქმნათ ელექტრონული წიგნები და ბროშურები Ms Word-ში',
+            link: 'Computer-Science/Class-4/Books-and-brochures-13/1.html'
         }
     ],
     IT_5: [

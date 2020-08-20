@@ -1147,7 +1147,7 @@
 }
 
 /* '' */
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -4242,8 +4242,8 @@ section .arrow_up_down_downArrow img {
   color: #0b2228;
 }
 
-/* 
-*wow slider CSS section 
+/*
+*wow slider CSS section
 */
 .owl-carousel {
   position: relative;
@@ -4287,7 +4287,7 @@ section .arrow_up_down_downArrow img {
   padding-right: 5vw;
 }
 
-/* 
+/*
 ! slider content sectio
 */
 .main_box_links {
@@ -34358,26 +34358,26 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   &-1{
     height:8.2vh;
     margin-right: 1.69vh;
-    margin-left: 1.69vh; 
+    margin-left: 1.69vh;
   }
   &-2{
     height:9.76vh;
     margin-right: 1.69vh;
-    margin-left: 1.69vh; 
+    margin-left: 1.69vh;
   }
   &-3{
     height:7.03vh;
     margin-right: 1.69vh;
-    margin-left: 1.69vh; 
+    margin-left: 1.69vh;
   }
   img{
     height:100%;
     margin-right: 1.69vh;
-    margin-left: 1.69vh; 
+    margin-left: 1.69vh;
     }
   span{
     height:2.6vh;
-    width:2.6vh;   
+    width:2.6vh;
     border-radius: 8px;
   }
   p{
@@ -47436,7 +47436,7 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   background-repeat: no-repeat;
 }
 
-.background-cs-6-25-21 {
+.background-cs-6-25-22 {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Creating-games-with-objects-25/cs-6-25-22.svg");
   background-position: top center;
   background-size: cover;
