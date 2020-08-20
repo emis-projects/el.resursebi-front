@@ -42179,6 +42179,18 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 41.66vh;
 }
 
+.cs-3-10-div-3-1-img {
+  height: 55.46vh;
+}
+
+.cs-3-10-div-6-1-img {
+  height: 52.73vh;
+}
+
+.cs-3-10-div-11-1-img {
+  height: 41.75vh;
+}
+
 .cs-3-10-div-6-img {
   height: 69.66vh;
 }
@@ -47569,6 +47581,41 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
+.cs-6-26-div-3-img {
+  height: 64.45vh;
+}
+
+.cs-6-26-div-4-img {
+  height: 52.73vh;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.cs-6-26-div-5-img {
+  height: 46.61vh;
+}
+
+.cs-6-26-div-6-img {
+  height: 45.83vh;
+}
+
+.cs-6-26-div-6-1-img {
+  height: 72.91vh;
+}
+
+.cs-6-26-div-7-img {
+  height: 39.84vh;
+}
+
+.cs-6-26-div-8-img {
+  height: 40.62vh;
+}
+
+.cs-6-26-div img {
+  height: 100%;
+}
+
 .music-new-1-div img {
   height: 100%;
 }
@@ -47839,7 +47886,7 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 .music-new-1-div-6-div-dot-text {
   -webkit-box-shadow: 2px 2px 8px #7FD1D866;
           box-shadow: 2px 2px 8px #7FD1D866;
-  width: 11.42vw;
+  width: 13.42vw !important;
   height: 6.51vh;
   border-radius: 60px;
   padding: 5px 1vw;
@@ -49125,16 +49172,20 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 60%;
 }
 
-#first-line {
-  opacity: 0;
+#line_2 {
+  display: none;
 }
 
-#second-line {
-  opacity: 0;
+#line_3 {
+  display: none;
 }
 
-#third-line {
-  opacity: 0;
+#line_4 {
+  display: none;
+}
+
+.listen-music-purple-tag {
+  cursor: pointer;
 }
 
 .class_music_6-img_9 {
