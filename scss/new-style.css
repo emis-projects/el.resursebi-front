@@ -51431,7 +51431,7 @@ tr td:first-child {
 }
 
 .cs-3-13-div-5-img-click-btn.active {
-  background: #62548A;
+  background: #62548a;
 }
 
 .cs-3-13-div-5-img-click-btn.error {
@@ -51443,20 +51443,28 @@ tr td:first-child {
 }
 
 .cs-3-13-div-6-img-click {
-  -webkit-box-shadow: 2px 2px 8px #947DCE66;
-          box-shadow: 2px 2px 8px #947DCE66;
+  -webkit-box-shadow: 2px 2px 8px #947dce66;
+          box-shadow: 2px 2px 8px #947dce66;
   width: 10.24vw;
   height: 5.2vh;
   border-radius: 30px;
-  color: #62548A;
+  color: #62548a;
 }
 
 .cs-3-13-div-6-img-click-height {
-  height: 5.2vh;
+  height: 8.2vh;
 }
 
 .cs-3-13-div-6-img-click-container {
   border: 1px solid #707070;
+}
+
+.cs-3-13-div-6-img-click-container.cs-3-13-6-dragged img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: none;
+     object-fit: none;
+  border-radius: 30px;
 }
 
 .cs-3-13-div-7-img {
