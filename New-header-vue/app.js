@@ -413,7 +413,7 @@ Vue.component('appSelect', {
             activeItem: 1,
             pagination: true,
             currentPage: 1,
-            pageSize: 12 
+            pageSize: 12
         };
     },
     computed: {
@@ -432,13 +432,13 @@ Vue.component('appSelect', {
                     } else if (this.currentPage > this.totalPages) {
                         this.currentPage = this.totalPages;
                     }
-                    
+
 
                     let startIndex = (this.currentPage - 1) * this.pageSize;
                     let endIndex = Math.min(startIndex + this.pageSize, this.totalItems);
 
                     return this.class['IT_' + this.classID].slice(startIndex, endIndex)
-                    
+
                 }
                 // 5-6 კლასების გარდა დაბრუნდეს ჩვეულებრივად სრული სიგრძის მასივი
                 else {
@@ -543,7 +543,7 @@ Vue.component('appSelect', {
                                 <div @click="currentPage = item" v-for="item in totalPages" :key="item" :class="[item === currentPage ? 'current' : 'dot' ]">
                                     <p>{{ item }}</p>
                                 </div>
-                                
+
                                 <div v-if="currentPage !== totalPages" @click="currentPage++" class="next arrow-right-open"></div>
                             </div>
                         </transition>
@@ -783,9 +783,9 @@ let title = {
             name: 'მუსიკა ანიმაციასა და საყმაწვილო კინოში',
             link: 'Music-Class/Music-in-animation-and-cinema-11/1.html'
         },
-        {   
-            id: 12, 
-            name: ' შევქმნათ საუნდტრეკი ანიმაციური ფილმისთვის', 
+        {
+            id: 12,
+            name: ' შევქმნათ საუნდტრეკი ანიმაციური ფილმისთვის',
             link: 'Music-Class/Create-animation-sountrack-12/1.html'
         }
     ],
@@ -1035,6 +1035,27 @@ let title = {
             id: 12,
             name: 'საკუთარი Office 365-ის ანგარიშის მართვა',
             link: 'Computer-Science/Class-3/managing-office365-12/1.html'
+        },
+        {
+            id: 13,
+            name: 'გაქვს სახლში რობოტი?',
+            link: 'Computer-Science/Class-3/Do-you-have-robot-13/1.html'
+        },
+        ,
+        {
+            id: 14,
+            name: 'ბინარული სამაჯურის საიდუმლო',
+            link: 'Computer-Science/Class-3/Mystery-of-binary-bracelet-14/1.html'
+        },
+        {
+            id: 15,
+            name: 'ჩემი პირველი გმირების ისტორია',
+            link: 'Computer-Science/Class-3/First-heroes-15/1.html'
+        },
+        {
+            id: 16,
+            name: 'როგორ იქცევა ჩემი მეგობარი რობოტი',
+            link: 'Computer-Science/Class-3/How-my-robot-acts-16/1.html'
         }
     ],
     IT_4: [
@@ -1097,6 +1118,26 @@ let title = {
             id: 12,
             name: 'რა არის ინფორმაცია',
             link: 'Computer-Science/Class-4/What-is-information-12/1.html'
+        },
+        {
+            id: 13,
+            name: 'როგორ შევქმნათ ელექტრონული წიგნები და ბროშურები Ms Word-ში',
+            link: 'Computer-Science/Class-4/Books-and-brochures-13/1.html'
+        },
+        {
+            id: 14,
+            name: 'ჯგუფური მუშაობა ღრუბლოვან სერვისებში',
+            link: 'Computer-Science/Class-4/Group-work-14/1.html'
+        },
+        {
+            id: 15,
+            name: 'გასეირნება ინტერნეტში',
+            link: 'Computer-Science/Class-4/Walking-in-internet-15/1.html'
+        },
+        {
+            id: 16,
+            name: 'როგორ გავაფორმოთ ტექსტურ რედაქტორ Ms Word-ში დაწერილი ტექსტი',
+            link: 'Computer-Science/Class-4/How-to-form-text-16/1.html'
         }
     ],
     IT_5: [
@@ -1238,7 +1279,7 @@ let title = {
         {
             id: 28,
             name: 'Ms Excel ფაილზე მუშაობა',
-            link: 'Computer-Science/Class-6/Creating-game-in-scratch-28/1.html'
+            link: 'Computer-Science/Class-5/working-with-excel-file-28/1.html'
         },
     ],
     IT_6: [

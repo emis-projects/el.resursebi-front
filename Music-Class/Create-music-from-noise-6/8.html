@@ -38,90 +38,93 @@
             </header>
 
             <app-section :is-active="isActive" :is-info="isInfo" v-image="'../../'">
-                <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger"
-                    v-on:link-tab="link = $event">
+                <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger" v-on:link-tab="link = $event">
 
                 </app-bar>
-                <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive"
-                    :is-info="isInfo" :path="path" :tab-class="currentTabComponent" :trigger="trigger">
+                <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive" :is-info="isInfo" :path="path" :tab-class="currentTabComponent" :trigger="trigger">
                 </component>
 
             </app-section>
         </section>
         <section id="mainPage">
-            <div class="row">
-                <div class="col-6">
-                    <div class="newDesign_subject_question_item" id="line_1">
-                        <img alt="img" class="newDesign_subject_question_item-img"
-                            src="../../img/icons/newDesign_btn-yellow.svg">
+            <div class="row mt-4vh">
+                <div class="col-10 m-auto">
+                    <div class="newDesign_subject_question_item mb-10vh">
+                        <img alt="img" class="newDesign_subject_question_item-img" src="../../img/icons/newDesign_btn-yellow.svg">
                         <p class="newDesign_subject_question_item-title">
-                            <span class="listen-music-purple-tag cursor-pointer"
-                                data-voice="./game-voices//სლაიდი 6/1.peninton.wav">მოუსმინე</span>
-                                ინტონაციას და გამოიცანი, დღის განრიგის რომელ ხმას ბაძავს იგი. დააწკაპე შესაბამის სურათს.
-                        </p>
-                    </div>
-                    <div class="newDesign_subject_question_item" id="line_2">
-                        <img alt="img" class="newDesign_subject_question_item-img"
-                            src="../../img/icons/newDesign_btn-yellow.svg">
-                        <p class="newDesign_subject_question_item-title">
-                            <span class="listen-music-purple-tag"
-                                data-voice="./game-voices//სლაიდი 6/2.cricketinton.wav">მოუსმინე</span>
-                                მეორე ინტონაციას. რომელ ხმას გავს? დააწკაპე, რომელ სურათსაც შეესაბამება.
-                        </p>
-                    </div>
-                    <div class="newDesign_subject_question_item" id="line_3">
-                        <img alt="img" class="newDesign_subject_question_item-img"
-                            src="../../img/icons/newDesign_btn-yellow.svg">
-                        <p class="newDesign_subject_question_item-title">
-                            <span class="listen-music-purple-tag"
-                                data-voice="./game-voices//სლაიდი 6/3.alarmclockinton.wav">მოუსმინე</span>
-                                მესამე ინტონაციას. ეს ინტონაცია რომელ ხმას ბაძავს?
-                        </p>
-                    </div>
-                    <div class="newDesign_subject_question_item" id="line_4">
-                        <img alt="img" class="newDesign_subject_question_item-img"
-                            src="../../img/icons/newDesign_btn-yellow.svg">
-                        <p class="newDesign_subject_question_item-title">
-                            <span class="listen-music-purple-tag"
-                                data-voice="./game-voices//სლაიდი 6/4.keyboardinton.wav">მოუსმინე</span>
-                                მეოთხესაც. ეს რომელ ხმას ბაძავს?
+                            მოუსმინე მუსიკალურ ინტონაციას და დაადგინე, რით არის მიღწეული მსგავსება ამა თუ იმ ხმასთან: ბგერებით თუ რიტმით.            
                         </p>
                     </div>
                 </div>
-                <div class="col-4">
-                    <div class="music-new-7">
-                        <div class="select" data-id="1">
-                            <img src="../../img//gakvetilebi//Music-class/Create-broadcast-hat-7/music-7-1.svg"
-                                alt="img">
-                        </div>
-                        <div class="select" data-id="2">
-                            <img src="../../img//gakvetilebi//Music-class/Create-broadcast-hat-7/music-7-2.svg"
-                                alt="img">
-                        </div>
-                        <div class="select" data-id="3">
-                            <img src="../../img//gakvetilebi//Music-class/Create-broadcast-hat-7/music-7-3.svg"
-                                alt="img">
-                        </div>
-                        <div class="select" data-id="4">
-                            <img src="../../img//gakvetilebi//Music-class/Create-broadcast-hat-7/music-7-4.svg"
-                                alt="img">
-                        </div>
-                        <div class="select" data-id="5">
-                            <img src="../../img//gakvetilebi//Music-class/Create-broadcast-hat-7/music-7-5.svg"
-                                alt="img">
-                        </div>
-                    </div>
-                </div>
-
             </div>
-
+            <div class="row">
+                <div class="col-10 m-auto d-flex justify-content-around">
+                    <div class="col-3">
+                        <div class="d-flex">
+                            <div class="class_music_6-check_box m-auto checkmarkJS1 correctJS">
+                            </div>
+                            <div class="class_music_6-img_9 mr-3vh">
+                                <img src="../../img/gakvetilebi/Music-class/Create-music-from-noise-6/music-6-9-1.svg" alt="image">
+                            </div>
+                        </div>
+                        <div class="class_music_6-img_9_number">
+                            <img data-voice="./game-voices/სლაიდი 9/1. The Bird (melodic).wav" class="listen--btn" src="../../img/gakvetilebi/Music-class/Create-music-from-noise-6/music-6-9-one.svg" alt="image">
+                        </div>
+                        <div class="d-flex">
+                            <div class="class_music_6-check_box m-auto checkmarkJS1 noCorrectJS">
+                            </div>
+                            <div class="class_music_6-img_9 mr-3vh">
+                                <img src="../../img/gakvetilebi/Music-class/Create-music-from-noise-6/music-6-9-2.svg" alt="image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="d-flex">
+                            <div class="class_music_6-check_box m-auto checkmarkJS2 noCorrectJS">
+                            </div>
+                            <div class="class_music_6-img_9 mr-3vh">
+                                <img src="../../img/gakvetilebi/Music-class/Create-music-from-noise-6/music-6-9-1.svg" alt="image">
+                            </div>
+                        </div>
+                        <div class="class_music_6-img_9_number">
+                            <img data-voice="./game-voices/სლაიდი 9/2. Train (rhythmic).wav" class="listen--btn" src="../../img/gakvetilebi/Music-class/Create-music-from-noise-6/music-6-9-two.svg" alt="image">
+                        </div>
+                        <div class="d-flex">
+                            <div class="class_music_6-check_box m-auto checkmarkJS2 correctJS">
+                            </div>
+                            <div class="class_music_6-img_9 mr-3vh">
+                                <img src="../../img/gakvetilebi/Music-class/Create-music-from-noise-6/music-6-9-2.svg" alt="image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="d-flex">
+                            <div class="class_music_6-check_box m-auto checkmarkJS3 noCorrectJS">
+                            </div>
+                            <div class="class_music_6-img_9 mr-3vh">
+                                <img src="../../img/gakvetilebi/Music-class/Create-music-from-noise-6/music-6-9-1.svg" alt="image">
+                            </div>
+                        </div>
+                        <div class="class_music_6-img_9_number">
+                            <img data-voice="./game-voices/სლაიდი 9/3. Horses (rhythmic).wav" class="listen--btn" src="../../img/gakvetilebi/Music-class/Create-music-from-noise-6/music-6-9-three.svg" alt="image">
+                        </div>
+                        <div class="d-flex">
+                            <div class="class_music_6-check_box m-auto checkmarkJS3 correctJS">
+                            </div>
+                            <div class="class_music_6-img_9 mr-3vh">
+                                <img src="../../img/gakvetilebi/Music-class/Create-music-from-noise-6/music-6-9-2.svg" alt="image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div  class="flex flex-column z-index reload_game_wrapper">
                 <button id="resetBtn" class="reset__btn">თავიდან სცადე</button>
-                <button id="completedGame" class="completed__btn" disabled="true">შემოწმება</button>
+                <button id="completedGame" class="completed__btn">დასრულება</button>
             </div>
 
             <div class="left_components_paging-cont" id="leftNav">
-                <left-nav-item></left-nav-item>
+                <left-nav-item></left   -nav-item>
             </div>
 
             <div class="our__pagination flex">
@@ -135,6 +138,7 @@
                     <img alt="" src="../../img/icons/chevron-left-icon.svg">
                 </a>
             </div>
+
         </section>
     </div>
 
@@ -151,11 +155,16 @@
 
     <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
     <script src="../../New-header-vue/vis.js"></script>
+<!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
+    <script src="../../New-header-vue/vis.js"></script>
     <script src="../../New-header-vue/app.js"></script>
     <script src="../../Vue-chatBot/botApp.js"></script>
     <script src="../../js/bot.js"></script>
+    <script src="../../js/libraries/jquery-3.4.1.min.js"></script>
+    <script src="../../js/libraries/jquery.magnific-popup.min.js"></script>
     <script src="../../js/libraries/sound.js"></script>
-    <script src="./js/8.js"></script>
+    <script src="./js/9.js"></script>
+
 
 </body>
 

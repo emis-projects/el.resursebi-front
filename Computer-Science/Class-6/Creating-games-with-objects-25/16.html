@@ -39,42 +39,29 @@
             </header>
 
             <app-section :is-active="isActive" v-image="'../../../'">
-                <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger"
-                    v-on:link-tab="link = $event">
+                <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger" v-on:link-tab="link = $event">
 
                 </app-bar>
-                <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive"
-                    :is-info="isInfo" :path="path" :tab-class="currentTabComponent" :trigger="trigger">
+                <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive" :is-info="isInfo" :path="path" :tab-class="currentTabComponent" :trigger="trigger">
                 </component>
 
             </app-section>
         </section>
         <section id="mainPage">
-            <div class="row mt-5vh">
-                <div class="col-10 m-auto">
-                    <div class="newDesign_subject_question_item mt-3vh">
-                        <img alt="img" class="newDesign_subject_question_item-img"
-                            src="../../../img/icons/newDesign_btn-yellow.svg">
-                        <p class="newDesign_subject_question_item-title Class_2-title_item_2 big-font-size-20px-dejavu">
-                            შენ უკვე იფიქრე, როგორი ისტორია გაგეცოცხლებინა ნასწავლი ვიზუალური პროგრამიერების ბლოკების გამოყენებით. შექმენით კლასში სამუშაო 4 კაციანი გუნდები.
-                        </p>
-                    </div>
-                    <div class="newDesign_subject_question_item mt-3vh">
-                        <img alt="img" class="newDesign_subject_question_item-img"
-                            src="../../../img/icons/newDesign_btn-yellow.svg">
-                        <p class="newDesign_subject_question_item-title Class_2-title_item_2 big-font-size-20px-dejavu">
-                            შედით ბმულზე: <a target="_blank" href="https://studio.code.org/s/course2/stage/17/puzzle/11" class="a-blue">https://studio.code.org/s/course2/stage/17/puzzle/11</a> და კიდევ ერთხელ გაეცანით, რა შესაძლებლობებს გთავაზობთ პროგრამა code.org.
+            <div class="row mt-7vh">
+                <div class="col-9 m-auto">
+                    <div class="newDesign_subject_question_item mb-7vh">
+                        <img alt="img" class="newDesign_subject_question_item-img" 
+                        src="../../../img/icons/newDesign_btn-yellow.svg">
+                        <p class="newDesign_subject_question_item-title">
+                            შენ უკვე წარმატებით გაიარე ნაბიჯები, გაიგე ბევრი ახალი რამ, ახლა დროა, დაიწყო მთავარი დავალების შესრულება.
                         </p>
                     </div>
                 </div>
-                <div class="col-12 d-flex justify-content-center first-heroes first-heroes-30 ">
-                    <div class="first-heroes-30">
-                        <img alt="img" class="mt-3vh"
-                            src="../../../img/gakvetilebi/Computer-Science/Class-3/First-heroes-15/cs-3-15-30.svg">
-                    </div>
             </div>
-        </div>
-
+               <div class="col-11 d-flex justify-content-end">
+                    <img alt="img" src="../../../img/gakvetilebi/Computer-Science/Class-6/Creating-games-with-objects-25/cs-6-25-16.svg" class="class_6_25-img-16">
+                </div>  
             <div class="left_components_paging-cont" id="leftNav">
                 <left-nav-item></left-nav-item>
             </div>
@@ -104,7 +91,6 @@
     <script src="../../../js/libraries/jquery.magnific-popup.min.js"></script>
     <script src="../../../js/Pagination.js"></script>
 
-    <script src="../../Class-2/conditional-signs-1/js/9.js"></script>
 
 <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
     <script src="../../../New-header-vue/vis.js"></script>

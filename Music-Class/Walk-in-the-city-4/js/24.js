@@ -76,9 +76,9 @@ function game() {
 
 
     this.getNextStep = () => {
-        // if(this.index < 4){
-        // }
-        this.index++
+        if(this.index < 5){
+            this.index++
+        }
 
         document.querySelector('.number').innerHTML = this.index;
         dragElement1.setAttribute('data-index', this.index)
@@ -101,6 +101,7 @@ function game() {
         this.answersArray = '';
         
         dragElement1.setAttribute('src', "../../img/gakvetilebi/Music-class/Walk-in-the-city-4/music-new-04-14-yellow-ball.svg")
+        dragElement1.setAttribute('data-voice', "./game-voices/სლაიდი 26/ბავშვი.wav")
 
         this.index = 1;
 
