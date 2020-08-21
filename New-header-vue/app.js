@@ -413,7 +413,8 @@ Vue.component('appSelect', {
             activeItem: 1,
             pagination: true,
             currentPage: 1,
-            pageSize: 12
+            pageSize: 12,
+            isPagination: false
         };
     },
     computed: {
@@ -427,10 +428,12 @@ Vue.component('appSelect', {
             } else {
                 if (this.classID === 5 || this.classID === 6 || 
                     this.classID === 4 || this.classID === 3) {
-                    if (this.currentPage < 1) {
-                        this.currentPage = 1;
-                    } else if (this.currentPage > this.totalPages) {
-                        this.currentPage = this.totalPages;
+                        this.isPagination = true
+
+                        if (this.currentPage < 1) {
+                            this.currentPage = 1;
+                        } else if (this.currentPage > this.totalPages) {
+                            this.currentPage = this.totalPages;
                     }
 
 
@@ -466,9 +469,8 @@ Vue.component('appSelect', {
     methods: {
         classChoose(val) {
             this.classID = val;
+            this.currentPage = 1;
             this.activeItem = val - 1;
-            // პირველი 12 სათაური კლასების შეცვლა თუ კლასი შეიცვალა
-            //this.titlesPages = 2;
             this.pagination = true
         }
     },
@@ -537,7 +539,7 @@ Vue.component('appSelect', {
                                      leave-active-class="animated fadeOut"
                                      :duration="550"
                                      mode="out-in">
-                            <div v-if="classID === 5 || classID === 6" class="class-pagination d-flex justify-content-center align-items-center">
+                            <div v-if="isPagination" class="class-pagination d-flex justify-content-center align-items-center">
                                 <div v-if="currentPage !== 1" @click="currentPage--" class="prev arrow-left-open"></div>
 
                                 <div @click="currentPage = item" v-for="item in totalPages" :key="item" :class="[item === currentPage ? 'current' : 'dot' ]">
@@ -973,7 +975,7 @@ let title = {
             id: 12,
             name: 'საკუთარ ანგარიშში მუშაობა',
             link: 'Computer-Science/Class-2/working-with-account-12/1.html'
-        }
+        },
     ],
     IT_3: [
         {
@@ -1041,7 +1043,6 @@ let title = {
             name: 'გაქვს სახლში რობოტი?',
             link: 'Computer-Science/Class-3/Do-you-have-robot-13/1.html'
         },
-        ,
         {
             id: 14,
             name: 'ბინარული სამაჯურის საიდუმლო',
