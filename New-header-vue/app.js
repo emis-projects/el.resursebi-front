@@ -425,7 +425,8 @@ Vue.component('appSelect', {
             } else if (this.activeClass === 'ბუნება') {
                 return this.class.nature;
             } else {
-                if (this.classID === 5 || this.classID === 6) {
+                if (this.classID === 5 || this.classID === 6 || 
+                    this.classID === 4 || this.classID === 3) {
                     if (this.currentPage < 1) {
                         this.currentPage = 1;
                     } else if (this.currentPage > this.totalPages) {
