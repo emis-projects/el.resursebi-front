@@ -28,6 +28,41 @@
 
         gtag('config', 'UA-155006442-1');
     </script>
+    <style>
+        .class_music_11-img_14_1 img {
+            margin-left: 2vw;
+        }
+
+
+        .col-4 img {
+            width: 100%;
+            height: initial;
+        }
+
+        .col-4 .append-div {
+            width: 100%;
+            height: 9.375vh; 
+            border: 2px solid #7FD1D8;
+            border-radius: 20px;
+            margin-top: 2vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .append-div img {
+            height: 90%;
+        }
+
+        .append-div.disabled::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
 </head>
 
 <body>
@@ -60,38 +95,28 @@
             <div class="row">
                 <div class="col-11 m-auto">
                     <div class="class_music_11-img_14 m-auto d-flex justify-content-around">
-                        <div class="col-3">
+                        <div class="col-4">
                             <img src="../../img/gakvetilebi/Music-class/Music-in-animation-and-cinema-11/music-11-14-1.png" alt="image">
+                            <div class="append-div DragGame—childs1" data-index="1"></div>
                         </div>
                         
-                        <div class="col-3">
+                        <div class="col-4">
                             <img src="../../img/gakvetilebi/Music-class/Music-in-animation-and-cinema-11/music-11-14-2.png" alt="image">
+                            <div class="append-div DragGame—childs1" data-index="2"></div>
                         </div>
 
-                        <div class="col-3">
+                        <div class="col-4">
                             <img src="../../img/gakvetilebi/Music-class/Music-in-animation-and-cinema-11/music-11-14-3.png" alt="image">
+                            <div class="append-div DragGame—childs1" data-index="3"></div>
                         </div>
                     </div>
 
-                    <div class="col-3 d-flex justify-content-around m-auto pt-5vh DragGame—childs1">
-                        <div class="class_music_11-img_14_1" data-index="100">
-                            <img class="cursor-pointer listen--btn" data-voice="./game-voices/სლაიდი 12/sound1.wav" src="../../img/gakvetilebi/Music-class/Music-in-animation-and-cinema-11/music-11-11-one.svg" alt="image">
-                            <div class="class_music_11-check_box_11 DragGame—childs3 cursor-pointer incorrectAnswer" data-index="1"></div>
-                        </div>
-
-                        <div class="class_music_11-img_14_1" data-index="2">
-                            <img class="cursor-pointer listen--btn" data-voice="./game-voices/სლაიდი 12/sound2.wav" src="../../img/gakvetilebi/Music-class/Music-in-animation-and-cinema-11/music-11-11-two.svg" alt="image">
-                            <div class="class_music_11-check_box_11 DragGame—childs3 cursor-pointer correctAmswer" data-index="2"></div>
-                        </div>
-                        
-                        <div class="class_music_11-img_14_1" data-index="3">
-                            <img class="cursor-pointer listen--btn" data-voice="./game-voices/სლაიდი 12/sound3.wav" src="../../img/gakvetilebi/Music-class/Music-in-animation-and-cinema-11/music-11-11-three.svg" alt="image">
-                            <div class="class_music_11-check_box_11 DragGame—childs3 cursor-pointer correctAmswer" data-index="3"></div>
-                        </div>
-
-                        <div class="class_music_11-img_14_1" data-index="4">
-                            <img class="cursor-pointer listen--btn" data-voice="./game-voices/სლაიდი 12/sound4.wav" src="../../img/gakvetilebi/Music-class/Music-in-animation-and-cinema-11/music-11-11-four.svg" alt="image">
-                            <div class="class_music_11-check_box_11 DragGame—childs3 cursor-pointer correctAmswer" data-index="4"></div>
+                    <div class="col-3 d-flex justify-content-around m-auto pt-5vh">
+                        <div class="class_music_11-img_14_1 d-flex">
+                            <img class="cursor-pointer child-1 DragGame—childs2 listen--btn" data-index="4" data-voice="./game-voices/სლაიდი 12/sound1.wav" src="../../img/gakvetilebi/Music-class/Music-in-animation-and-cinema-11/music-11-11-one.svg" alt="image">
+                            <img class="cursor-pointer child-2 DragGame—childs2 listen--btn" data-index="1" data-voice="./game-voices/სლაიდი 12/sound2.wav" src="../../img/gakvetilebi/Music-class/Music-in-animation-and-cinema-11/music-11-11-two.svg" alt="image">
+                            <img class="cursor-pointer child-3 DragGame—childs2 listen--btn" data-index="3" data-voice="./game-voices/სლაიდი 12/sound3.wav" src="../../img/gakvetilebi/Music-class/Music-in-animation-and-cinema-11/music-11-11-three.svg" alt="image">
+                            <img class="cursor-pointer child-4 DragGame—childs2 listen--btn" data-index="2" data-voice="./game-voices/სლაიდი 12/sound4.wav" src="../../img/gakvetilebi/Music-class/Music-in-animation-and-cinema-11/music-11-11-four.svg" alt="image">
                         </div>
                     </div>
 

@@ -1147,7 +1147,7 @@
 }
 
 /* '' */
-/* http://meyerweb.com/eric/tools/css/reset/
+/* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -4242,8 +4242,8 @@ section .arrow_up_down_downArrow img {
   color: #0b2228;
 }
 
-/*
-*wow slider CSS section
+/* 
+*wow slider CSS section 
 */
 .owl-carousel {
   position: relative;
@@ -4287,7 +4287,7 @@ section .arrow_up_down_downArrow img {
   padding-right: 5vw;
 }
 
-/*
+/* 
 ! slider content sectio
 */
 .main_box_links {
@@ -34358,26 +34358,26 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   &-1{
     height:8.2vh;
     margin-right: 1.69vh;
-    margin-left: 1.69vh;
+    margin-left: 1.69vh; 
   }
   &-2{
     height:9.76vh;
     margin-right: 1.69vh;
-    margin-left: 1.69vh;
+    margin-left: 1.69vh; 
   }
   &-3{
     height:7.03vh;
     margin-right: 1.69vh;
-    margin-left: 1.69vh;
+    margin-left: 1.69vh; 
   }
   img{
     height:100%;
     margin-right: 1.69vh;
-    margin-left: 1.69vh;
+    margin-left: 1.69vh; 
     }
   span{
     height:2.6vh;
-    width:2.6vh;
+    width:2.6vh;   
     border-radius: 8px;
   }
   p{
@@ -42378,7 +42378,7 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .class_3_10-bg_blue {
   height: inherit;
-  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/Cloud-services-10/C-3-10-big-blue.svg");
+  background-image: url("../../../../../img/gakvetilebi/Computer-Science/Class-3/Cloud-services-10/C-3-10-big-blue.svg");
   background-repeat: no-repeat;
   background-size: contain;
   display: -webkit-box;
@@ -47436,7 +47436,7 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   background-repeat: no-repeat;
 }
 
-.background-cs-6-25-22 {
+.background-cs-6-25-21 {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Creating-games-with-objects-25/cs-6-25-22.svg");
   background-position: top center;
   background-size: cover;
@@ -52582,16 +52582,12 @@ tr td:first-child {
   height: 44.79vh;
 }
 
-.cs-4-14-div-13-1-img > img {
-  width: 100%;
-}
-
 .cs-4-14-div-14-1-img {
   height: 38.54vh;
 }
 
-.cs-4-14-div-14-1-img > img {
-  height: 100%;
+.cs-4-14-div img {
+  height: 100vh;
 }
 
 .background-cs-4-14 {
@@ -53087,7 +53083,7 @@ tr td:first-child {
 }
 
 .class_5_26-bg_19 {
-  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/Computer-technologies-in-our-life-26/C-5-26-19.svg");
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/computer-technologies-in-our-life-26/C-5-26-19.svg");
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -53095,7 +53091,7 @@ tr td:first-child {
 }
 
 .class_5_26-bg_20 {
-  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/Computer-technologies-in-our-life-26/C-5-26-20.svg");
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/computer-technologies-in-our-life-26/C-5-26-20.svg");
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -53103,7 +53099,7 @@ tr td:first-child {
 }
 
 .class_5_26-bg_21 {
-  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/Computer-technologies-in-our-life-26/C-5-26-21.svg");
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/computer-technologies-in-our-life-26/C-5-26-21.svg");
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -53111,7 +53107,7 @@ tr td:first-child {
 }
 
 .class_5_26-bg_22 {
-  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/Computer-technologies-in-our-life-26/C-5-26-22.svg");
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/computer-technologies-in-our-life-26/C-5-26-22.svg");
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -53373,7 +53369,7 @@ tr td:first-child {
 }
 
 .class_4_15-bg_19 {
-  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/Walking-in-internet-15/C-4-15-19.svg");
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/walking-in-internet-15/C-4-15-19.svg");
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -53381,7 +53377,7 @@ tr td:first-child {
 }
 
 .class_4_15-bg_20 {
-  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/Walking-in-internet-15/C-4-15-20.svg");
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/walking-in-internet-15/C-4-15-20.svg");
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -53389,7 +53385,7 @@ tr td:first-child {
 }
 
 .class_4_15-bg_21 {
-  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/Walking-in-internet-15/C-4-15-21.png");
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/walking-in-internet-15/C-4-15-21.png");
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -53397,7 +53393,7 @@ tr td:first-child {
 }
 
 .class_4_15-bg_22 {
-  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/Walking-in-internet-15/C-4-15-22.svg");
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/walking-in-internet-15/C-4-15-22.svg");
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -55340,4 +55336,3 @@ body {
     font-size: 14px;
   }
 }
-/*# sourceMappingURL=new-style.css.map */
