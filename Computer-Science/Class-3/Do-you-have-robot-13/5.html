@@ -39,10 +39,12 @@
             </header>
 
             <app-section :is-active="isActive" v-image="'../../../'">
-                <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger" v-on:link-tab="link = $event">
+                <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger"
+                    v-on:link-tab="link = $event">
 
                 </app-bar>
-                <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive" :is-info="isInfo" :path="path" :tab-class="currentTabComponent" :trigger="trigger">
+                <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive"
+                    :is-info="isInfo" :path="path" :tab-class="currentTabComponent" :trigger="trigger">
                 </component>
 
             </app-section>
@@ -51,57 +53,60 @@
             <div class="row">
                 <div class="col-10 m-auto flex_direction_left">
                     <div class="newDesign_subject_question_item mt-3vh">
-                        <img alt="img" class="newDesign_subject_question_item-img" src="../../../img/icons/newDesign_btn-yellow.svg">
+                        <img alt="img" class="newDesign_subject_question_item-img"
+                            src="../../../img/icons/newDesign_btn-yellow.svg">
                         <p class="newDesign_subject_question_item-title Class_2-title_item_2 big-font-size-20px-dejavu">
                             შენი აზრით, რა საქმიანობებისათვის სჭირდება ადამიანს რობოტი?
                         </p>
                     </div>
                     <div class="newDesign_subject_question_item mt-3vh">
-                        <img alt="img" class="newDesign_subject_question_item-img" src="../../../img/icons/newDesign_btn-yellow.svg">
+                        <img alt="img" class="newDesign_subject_question_item-img"
+                            src="../../../img/icons/newDesign_btn-yellow.svg">
                         <p class="newDesign_subject_question_item-title Class_2-title_item_2 big-font-size-20px-dejavu">
                             მოცემული საქმიანობებიდან რომელს დაავალებდი რობოტებს?
                         </p>
                     </div>
                     <div class="newDesign_subject_question_item mt-3vh">
-                        <img alt="img" class="newDesign_subject_question_item-img" src="../../../img/icons/newDesign_btn-yellow.svg">
+                        <img alt="img" class="newDesign_subject_question_item-img"
+                            src="../../../img/icons/newDesign_btn-yellow.svg">
                         <p class="newDesign_subject_question_item-title Class_2-title_item_2 big-font-size-20px-dejavu">
                             გამოიცანი 4 საქმიანობა, რომლებშიც რობოტები უკვე ეხმარებიან ადამიანებს.
                         </p>
                     </div>
                 </div>
-                <div class="col-9 d-flex justify-content-around mt-5vh">
+                <div class="col-9 d-flex justify-content-around mt-2vh">
                     <div class="cs-3-13-div-5-img-col d-flex align-items-center flex-column">
-                    <img alt="img" class="cs-3-13-div-5-game-img"
-                    src="../../../img/gakvetilebi/Computer-Science/Class-3/Do-you-have-robot-13/cs-3-13-5-1.png">
-                    <div class="cs-3-13-div-5-img-click-btn mt-2vh"></div>
+                        <img alt="img" class="cs-3-13-div-5-game-img"
+                            src="../../../img/gakvetilebi/Computer-Science/Class-3/Do-you-have-robot-13/cs-3-13-5-1.png">
+                        <div class="cs-3-13-div-5-img-click-btn mt-2vh"></div>
                     </div>
                     <div class="cs-3-13-div-5-img-col d-flex align-items-center flex-column">
                         <img alt="img" class="cs-3-13-div-5-game-img"
-                        src="../../../img/gakvetilebi/Computer-Science/Class-3/Do-you-have-robot-13/cs-3-13-5-2.png">
-                        <div class="cs-3-13-div-5-img-click-btn mt-2vh"></div>
-                        </div>
-                        <div class="cs-3-13-div-5-img-col d-flex align-items-center flex-column">
-                            <img alt="img" class="cs-3-13-div-5-game-img"
+                            src="../../../img/gakvetilebi/Computer-Science/Class-3/Do-you-have-robot-13/cs-3-13-5-2.png">
+                        <div class="cs-3-13-div-5-img-click-btn mt-2vh" data-taget="active"></div>
+                    </div>
+                    <div class="cs-3-13-div-5-img-col d-flex align-items-center flex-column">
+                        <img alt="img" class="cs-3-13-div-5-game-img"
                             src="../../../img/gakvetilebi/Computer-Science/Class-3/Do-you-have-robot-13/cs-3-13-5-3.png">
-                            <div class="cs-3-13-div-5-img-click-btn mt-2vh"></div>
-                            </div>
+                        <div class="cs-3-13-div-5-img-click-btn mt-2vh" data-taget="active"></div>
+                    </div>
                 </div>
                 <div class="col-9 d-flex justify-content-around mt-3vh">
                     <div class="cs-3-13-div-5-img-col d-flex align-items-center flex-column">
-                    <img alt="img" class="cs-3-13-div-5-game-img"
-                    src="../../../img/gakvetilebi/Computer-Science/Class-3/Do-you-have-robot-13/cs-3-13-5-4.png">
-                    <div class="cs-3-13-div-5-img-click-btn mt-2vh"></div>
+                        <img alt="img" class="cs-3-13-div-5-game-img"
+                            src="../../../img/gakvetilebi/Computer-Science/Class-3/Do-you-have-robot-13/cs-3-13-5-4.png">
+                        <div class="cs-3-13-div-5-img-click-btn mt-2vh" data-taget="active"></div>
                     </div>
                     <div class="cs-3-13-div-5-img-col d-flex align-items-center flex-column">
                         <img alt="img" class="cs-3-13-div-5-game-img"
-                        src="../../../img/gakvetilebi/Computer-Science/Class-3/Do-you-have-robot-13/cs-3-13-5-5.png">
+                            src="../../../img/gakvetilebi/Computer-Science/Class-3/Do-you-have-robot-13/cs-3-13-5-5.png">
                         <div class="cs-3-13-div-5-img-click-btn mt-2vh"></div>
-                        </div>
-                        <div class="cs-3-13-div-5-img-col d-flex align-items-center flex-column">
-                            <img alt="img" class="cs-3-13-div-5-game-img"
+                    </div>
+                    <div class="cs-3-13-div-5-img-col d-flex align-items-center flex-column">
+                        <img alt="img" class="cs-3-13-div-5-game-img"
                             src="../../../img/gakvetilebi/Computer-Science/Class-3/Do-you-have-robot-13/cs-3-13-5-6.png">
-                            <div class="cs-3-13-div-5-img-click-btn mt-2vh"></div>
-                            </div>
+                        <div class="cs-3-13-div-5-img-click-btn mt-2vh" data-taget="active"></div>
+                    </div>
                 </div>
 
             </div>
@@ -141,11 +146,12 @@
     <script src="../../../js/Pagination.js"></script>
 
 
-<!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
+    <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
     <script src="../../../New-header-vue/vis.js"></script>
     <script src="../../../New-header-vue/app.js"></script>
     <script src="../../../Vue-chatBot/botApp.js"></script>
     <script src="../../../js/bot.js"></script>
+    <script src="./js/5.js"></script>
 
 
 </body>

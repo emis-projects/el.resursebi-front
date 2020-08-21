@@ -13,6 +13,13 @@
         border-radius: 8px;
         width:2.6vh;
         height:2.6vh;
+        cursor: pointer;
+        &.active {
+            background: #62548A;
+        }
+        &.error{
+            background: #c50000;
+        }
     }
     &-6-game-img{
         height:18.75vh;
@@ -22,8 +29,9 @@
         width:10.24vw;
         height:5.2vh;
         border-radius:30px;  
-        p{
-            color:#62548A;
+        color:#62548A;
+        &-height{
+            height:5.2vh;
         }
     } 
      &-6-img-click-container{ 

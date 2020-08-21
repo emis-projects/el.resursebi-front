@@ -2197,6 +2197,40 @@ body {
   transition: all 0.3s;
 }
 
+.audio-download__btn {
+  background: #fff;
+  border-radius: 4vh;
+  height: 6vh;
+  width: 25vh;
+  text-align: center;
+  color: #947dce !important;
+  -webkit-box-shadow: 2px 2px 8px #947dce75;
+  box-shadow: 2px 2px 8px #947dce75;
+  margin-bottom: 3vh;
+  font-family: "ALK Sanet";
+  font-size: 1.9vh;
+  letter-spacing: 1.1px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  line-height: 6vh;
+}
+
+.audio-download__btn:hover {
+  background-color: #947dce;
+  color: #fff !important;
+  cursor: pointer;
+}
+
+.audio-download__btn:focus {
+  outline: none;
+}
+
+.audio-download_wrapper {
+  position: fixed;
+  bottom: 12vh;
+  right: 17vw;
+}
+
 .color-game-paint {
   width: 52px;
   -webkit-transition: all 0.3s;
@@ -42288,7 +42322,7 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .class_3_10-bg_yellow {
   height: inherit;
-  background-image: url("../../../../../img/gakvetilebi/Computer-Science/Class-3/Cloud-services-10/C-3-10-big-yellow-rect.svg");
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/Cloud-services-10/C-3-10-big-yellow-rect.svg");
   background-repeat: no-repeat;
   background-size: contain;
   display: -webkit-box;
@@ -42306,7 +42340,7 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .class_3_10-bg_small_gray {
   height: inherit;
-  background-image: url("../../../../../img/gakvetilebi/Computer-Science/Class-3/Cloud-services-10/C-3-10-small-gray.svg");
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/Cloud-services-10/C-3-10-small-gray.svg");
   background-repeat: no-repeat;
   background-size: contain;
   display: -webkit-box;
@@ -42324,7 +42358,7 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .class_3_10-bg_small_yellow {
   height: inherit;
-  background-image: url("../../../../../img/gakvetilebi/Computer-Science/Class-3/Cloud-services-10/C-3-10-yellow-ant.png");
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/Cloud-services-10/C-3-10-yellow-ant.png");
   background-repeat: no-repeat;
   background-size: contain;
   display: -webkit-box;
@@ -42342,7 +42376,7 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .class_3_10-bg_yellow_circle {
   height: inherit;
-  background-image: url("../../../../../img/gakvetilebi/Computer-Science/Class-3/Cloud-services-10/C-3-10-circle.svg");
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/Cloud-services-10/C-3-10-circle.svg");
   background-repeat: no-repeat;
   background-size: contain;
   display: -webkit-box;
@@ -42360,7 +42394,7 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .class_3_10-bg_gray {
   height: inherit;
-  background-image: url("../../../../../img/gakvetilebi/Computer-Science/Class-3/Cloud-services-10/C-3-10-big-gray.svg");
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/Cloud-services-10/C-3-10-big-gray.svg");
   background-repeat: no-repeat;
   background-size: contain;
   display: -webkit-box;
@@ -42378,7 +42412,7 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .class_3_10-bg_blue {
   height: inherit;
-  background-image: url("../../../../../img/gakvetilebi/Computer-Science/Class-3/Cloud-services-10/C-3-10-big-blue.svg");
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/Cloud-services-10/C-3-10-big-blue.svg");
   background-repeat: no-repeat;
   background-size: contain;
   display: -webkit-box;
@@ -42396,7 +42430,7 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .class_3_10-bg_blue_el {
   height: inherit;
-  background-image: url("../../../../../img/gakvetilebi/Computer-Science/Class-3/Cloud-services-10/C-3-10-blue-elephant.png");
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/Cloud-services-10/C-3-10-blue-elephant.png");
   background-repeat: no-repeat;
   background-size: contain;
   display: -webkit-box;
@@ -42414,7 +42448,7 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .class_3_10-bg_blue_bee {
   height: inherit;
-  background-image: url("../../../../../img/gakvetilebi/Computer-Science/Class-3/Cloud-services-10/C-3-10-blue-beetle.png");
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/Cloud-services-10/C-3-10-blue-beetle.png");
   background-repeat: no-repeat;
   background-size: contain;
   display: -webkit-box;
@@ -47433,7 +47467,7 @@ img {
   background-repeat: no-repeat;
 }
 
-.background-cs-6-25-21 {
+.background-cs-6-25-22 {
   background-image: url("../img/gakvetilebi/Computer-Science/Class-6/Creating-games-with-objects-25/cs-6-25-22.svg");
   background-position: top center;
   background-size: cover;
@@ -47997,23 +48031,23 @@ img {
 }
 
 .city-voices-2-18 {
-  background-image: url("../img/gakvetilebi/Music-Class/city-voices-2/cs-new-02-18.svg");
+  background-image: url("../img/gakvetilebi/Music-class/city-voices-2/cs-new-02-18.svg");
 }
 
 .city-voices-2-19 {
-  background-image: url("../img/gakvetilebi/Music-Class/city-voices-2/cs-new-02-19.svg");
+  background-image: url("../img/gakvetilebi/Music-class/city-voices-2/cs-new-02-19.svg");
 }
 
 .city-voices-2-20 {
-  background-image: url("../img/gakvetilebi/Music-Class/city-voices-2/cs-new-02-20.svg");
+  background-image: url("../img/gakvetilebi/Music-class/city-voices-2/cs-new-02-20.svg");
 }
 
 .city-voices-2-21 {
-  background-image: url("../img/gakvetilebi/Music-Class/city-voices-2/cs-new-02-21.svg");
+  background-image: url("../img/gakvetilebi/Music-class/city-voices-2/cs-new-02-21.svg");
 }
 
 .city-voices-2-22 {
-  background-image: url("../img/gakvetilebi/Music-Class/city-voices-2/cs-new-02-22.svg");
+  background-image: url("../img/gakvetilebi/Music-class/city-voices-2/cs-new-02-22.svg");
 }
 
 .background-cs-title {
@@ -48329,19 +48363,19 @@ img {
 }
 
 .find-way-24 {
-  background-image: url("../img/gakvetilebi/Music-Class/findWayBySound-3/music-3-24.svg");
+  background-image: url("../img/gakvetilebi/Music-class/findWayBySound-3/music-3-24.svg");
 }
 
 .find-way-25 {
-  background-image: url("../img/gakvetilebi/Music-Class/findWayBySound-3/cs-new-03-25.svg");
+  background-image: url("../img/gakvetilebi/Music-class/findWayBySound-3/cs-new-03-25.svg");
 }
 
 .find-way-26 {
-  background-image: url("../img/gakvetilebi/Music-Class/findWayBySound-3/cs-new-03-26.svg");
+  background-image: url("../img/gakvetilebi/Music-class/findWayBySound-3/cs-new-03-26.svg");
 }
 
 .find-way-27 {
-  background-image: url("../img/gakvetilebi/Music-Class/findWayBySound-3/music-3-27.svg");
+  background-image: url("../img/gakvetilebi/Music-class/findWayBySound-3/music-3-27.svg");
 }
 
 .background-cs-title {
@@ -51393,6 +51427,15 @@ tr td:first-child {
   border-radius: 8px;
   width: 2.6vh;
   height: 2.6vh;
+  cursor: pointer;
+}
+
+.cs-3-13-div-5-img-click-btn.active {
+  background: #62548A;
+}
+
+.cs-3-13-div-5-img-click-btn.error {
+  background: #c50000;
 }
 
 .cs-3-13-div-6-game-img {
@@ -51405,10 +51448,11 @@ tr td:first-child {
   width: 10.24vw;
   height: 5.2vh;
   border-radius: 30px;
+  color: #62548A;
 }
 
-.cs-3-13-div-6-img-click p {
-  color: #62548A;
+.cs-3-13-div-6-img-click-height {
+  height: 5.2vh;
 }
 
 .cs-3-13-div-6-img-click-container {
@@ -52267,7 +52311,7 @@ tr td:first-child {
   width: 11.2vw;
   height: 6.64vh;
   border-radius: 7px;
-  background-color: #F7CF43;
+  background-color: #f7cf43;
 }
 
 .cs-3-16-div-6-btn p {
@@ -52295,13 +52339,13 @@ tr td:first-child {
   width: 11.42vw;
   height: 6.51vh;
   border-radius: 30px;
-  -webkit-box-shadow: 2px 2px 8px #947DCE66;
-          box-shadow: 2px 2px 8px #947DCE66;
+  -webkit-box-shadow: 2px 2px 8px #947dce66;
+          box-shadow: 2px 2px 8px #947dce66;
   margin-top: 5vh;
 }
 
 .cs-3-16-div-7-btn p {
-  color: #947DCE;
+  color: #947dce;
   font-size: 1.9vh;
 }
 
@@ -52317,8 +52361,67 @@ tr td:first-child {
   height: 3.48vh;
 }
 
-.cs-3-16-div-10-cubes {
-  height: 24.08vh;
+.cs-3-16-div-10-cubes .lines {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cs-3-16-div-10-cubes .lines:nth-child(1) div {
+  border-style: solid solid solid none;
+}
+
+.cs-3-16-div-10-cubes .lines:nth-child(1) div:nth-child(1) {
+  border-left: 1px solid;
+}
+
+.cs-3-16-div-10-cubes .lines:nth-child(2) div {
+  border-style: none none solid solid;
+}
+
+.cs-3-16-div-10-cubes .lines:nth-child(2) div:nth-child(5) {
+  border-top-style: solid;
+}
+
+.cs-3-16-div-10-cubes .lines:nth-child(2) div:nth-child(6) {
+  border-top-style: solid;
+  border-right: 1px solid;
+}
+
+.cs-3-16-div-10-cubes .lines:nth-child(3) div {
+  border-style: none none solid solid;
+}
+
+.cs-3-16-div-10-cubes .lines:nth-child(3) div:last-child {
+  border-right: 1px solid;
+}
+
+.cs-3-16-div-10-cubes .lines div {
+  border: 1px #000;
+  max-width: 120px;
+  max-height: 80px;
+  width: 15.1vh;
+  height: 9.1vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cs-3-16-div-10-cubes .lines div img {
+  height: 50%;
+  width: 50%;
 }
 
 .cs-3-16-div-10-steps {
@@ -53084,7 +53187,7 @@ tr td:first-child {
 }
 
 .class_5_26-bg_19 {
-  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/computer-technologies-in-our-life-26/C-5-26-19.svg");
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/Computer-technologies-in-our-life-26/C-5-26-19.svg");
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -53092,7 +53195,7 @@ tr td:first-child {
 }
 
 .class_5_26-bg_20 {
-  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/computer-technologies-in-our-life-26/C-5-26-20.svg");
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/Computer-technologies-in-our-life-26/C-5-26-20.svg");
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -53100,7 +53203,7 @@ tr td:first-child {
 }
 
 .class_5_26-bg_21 {
-  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/computer-technologies-in-our-life-26/C-5-26-21.svg");
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/Computer-technologies-in-our-life-26/C-5-26-21.svg");
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -53108,7 +53211,7 @@ tr td:first-child {
 }
 
 .class_5_26-bg_22 {
-  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/computer-technologies-in-our-life-26/C-5-26-22.svg");
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-5/Computer-technologies-in-our-life-26/C-5-26-22.svg");
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -53370,7 +53473,7 @@ tr td:first-child {
 }
 
 .class_4_15-bg_19 {
-  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/walking-in-internet-15/C-4-15-19.svg");
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/Walking-in-internet-15/C-4-15-19.svg");
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -53378,7 +53481,7 @@ tr td:first-child {
 }
 
 .class_4_15-bg_20 {
-  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/walking-in-internet-15/C-4-15-20.svg");
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/Walking-in-internet-15/C-4-15-20.svg");
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -53386,7 +53489,7 @@ tr td:first-child {
 }
 
 .class_4_15-bg_21 {
-  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/walking-in-internet-15/C-4-15-21.png");
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/Walking-in-internet-15/C-4-15-21.png");
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -53394,7 +53497,7 @@ tr td:first-child {
 }
 
 .class_4_15-bg_22 {
-  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/walking-in-internet-15/C-4-15-22.svg");
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-4/Walking-in-internet-15/C-4-15-22.svg");
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;

@@ -169,6 +169,9 @@ function game(){
 
             } else if(loc == "/Computer-Science/Class-3/Cloud-services-10/5.html" || loc == "/el.resursebi-front/Computer-Science/Class-3/Cloud-services-10/5.html"){
                 location.href = "game-success-5.html"
+
+            } else if(loc == "/Computer-Science/Class-3/How-my-robot-acts-16/7.html" || loc == "/el.resursebi-front/Computer-Science/Class-3/How-my-robot-acts-16/7.html"){
+                location.href = "game-success-7.html"
             }
 
         } else {

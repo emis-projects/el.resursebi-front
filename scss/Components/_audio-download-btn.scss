@@ -1,0 +1,39 @@
+
+
+.audio-download__btn {
+  background: #fff;
+  border-radius: 4vh;
+  height: 6vh;
+  width: 25vh;
+  text-align: center;
+  color: #947dce !important;
+  -webkit-box-shadow: 2px 2px 8px #947dce75;
+  box-shadow: 2px 2px 8px #947dce75;
+  margin-bottom: 3vh;
+  font-family: "ALK Sanet";
+  font-size: 1.9vh;
+  letter-spacing: 1.1px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  line-height: 6vh;
+
+  &:hover {
+    background-color: #947dce;
+    color: #fff !important;
+    cursor: pointer;
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+}
+
+
+
+
+.audio-download_wrapper {
+  position: fixed;
+  bottom: 12vh;
+  right: 17vw;
+}
