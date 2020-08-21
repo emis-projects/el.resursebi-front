@@ -23,7 +23,16 @@ document.querySelectorAll('.listen--btn').forEach(w => {
 function musicGames() {
     var DragGameChilds1 = document.querySelectorAll('.DragGame--childs1');
     var mydrag = document.querySelectorAll('.myDrag');
-    var DragGameResetParent = document.querySelector('.DragGameResetParent');
+    var DragGameResetParent1 = document.querySelector('.DragGameResetParent1');
+    var DragGameResetParent2 = document.querySelector('.DragGameResetParent2');
+    var DragGameResetParent3 = document.querySelector('.DragGameResetParent3');
+    var DragGameResetParent4 = document.querySelector('.DragGameResetParent4');
+    var DragGameResetParent5 = document.querySelector('.DragGameResetParent5');
+    var DragGameResetParent6 = document.querySelector('.DragGameResetParent6');
+    var DragGameResetParent7 = document.querySelector('.DragGameResetParent7');
+    var DragGameResetParent8 = document.querySelector('.DragGameResetParent8');
+    var DragGameResetParent9 = document.querySelector('.DragGameResetParent9');
+
 
     var completedBtn = document.getElementById('completedGame');
     var resetBtn = document.getElementById('resetBtn');
@@ -62,7 +71,6 @@ function musicGames() {
         e.target.className = elClassName;
     }
 
-    
 
     var myArray = [];
     DragGameChilds1.forEach(element => {
@@ -78,13 +86,11 @@ function musicGames() {
 
     this.dragDrop = (e) => {
         var drag = document.querySelector('.draggedElement')
-        // if(!(e.target.firstElementChild)){
-            if (e.target.classList.contains('myDrag')) {
-                e.target.appendChild(drag)
-                drag.setAttribute('style', "height: 100%")
-            }
-        // }
-        
+        if (e.target.classList.contains('myDrag')) {
+            e.preventDefault();
+            e.target.appendChild(drag)
+        }
+        drag.setAttribute('style', "height: 100%;")
     }
 
 
@@ -93,18 +99,7 @@ function musicGames() {
     this.successPage = () => {
         let el = myArray.every(this.checkEveryElement);
         if (el) {
-            if (window.location.href.includes("/5.html")) {
-                location.href = 'game-success-5.html';
-            }
-            if (window.location.href.includes("/6.html")) {
-                location.href = 'game-success-6.html';
-            }
-            if (window.location.href.includes("/9.html")) {
-                location.href = 'game-success-9.html';
-            }
-            if (window.location.href.includes("/10.html")) {
-                location.href = 'game-success-10.html';
-            }
+            location.href = 'game-success-15.html'
         }
         else {
             this.errorPage();
@@ -117,13 +112,11 @@ function musicGames() {
     this.errorPage = () => {
         myArray.forEach(element => {
             if (element.getAttribute('data-place') == element.parentElement.getAttribute('data-place')) {
-                $(element.parentElement).removeClass('game_music_9-box_fill')
-                element.parentElement.classList.add('success')
+                element.parentElement.style.borderColor = "#a1dd6f";
 
             }
             else if (element.parentElement.classList.contains('myDrag')) {
-                $(element.parentElement).removeClass('game_music_9-box_fill')
-                element.parentElement.classList.add('error');
+                element.parentElement.style.borderColor = "#dc6c85";
             }
 
 
@@ -141,24 +134,36 @@ function musicGames() {
             //   document.getElementById(element.getAttribute("data-place"))
             //     .insertBefore(element, document.getElementById(element.getAttribute("data-place")).firstChild);
             if (element.getAttribute("data-end") == "1") {
-                DragGameResetParent.appendChild(element)
+                DragGameResetParent1.appendChild(element)
+            }
+            if (element.getAttribute("data-end") == "2") {
+                DragGameResetParent2.appendChild(element)
+            }
+            if (element.getAttribute("data-end") == "3") {
+                DragGameResetParent3.appendChild(element)
+            }
+            if (element.getAttribute("data-end") == "4") {
+                DragGameResetParent4.appendChild(element)
+            }
+            if (element.getAttribute("data-end") == "5") {
+                DragGameResetParent5.appendChild(element)
+            }
+            if (element.getAttribute("data-end") == "6") {
+                DragGameResetParent6.appendChild(element)
+            }
+            if (element.getAttribute("data-end") == "7") {
+                DragGameResetParent7.appendChild(element)
+            }
+            if (element.getAttribute("data-end") == "8") {
+                DragGameResetParent8.appendChild(element)
+            }
+            if (element.getAttribute("data-end") == "9") {
+                DragGameResetParent9.appendChild(element)
             }
         });
         myDragArray.forEach(element => {
-            $(element).removeClass('error')
-            $(element).removeClass('success')
-            if(window.location.href.includes("/9.html") || window.location.href.includes("/10.html")){
-                console.log(element.classList.contains('chekmarkJS56'))
-                if(element.classList.contains('chekmarkJS56')){
-                    element.classList.add('game_music_9-box_fill')
-                }
-            }
-        });
-
-        myArray.forEach(element => {
             element.style = '';
         });
-
 
         completedBtn.removeAttribute('disabled');
 
