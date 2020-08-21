@@ -51392,6 +51392,15 @@ tr td:first-child {
   border-radius: 8px;
   width: 2.6vh;
   height: 2.6vh;
+  cursor: pointer;
+}
+
+.cs-3-13-div-5-img-click-btn.active {
+  background: #62548A;
+}
+
+.cs-3-13-div-5-img-click-btn.error {
+  background: #c50000;
 }
 
 .cs-3-13-div-6-game-img {
