@@ -78,12 +78,12 @@ function musicGames() {
 
     this.dragDrop = (e) => {
         var drag = document.querySelector('.draggedElement')
-        if(!(e.target.firstElementChild)){
+        // if(!(e.target.firstElementChild)){
             if (e.target.classList.contains('myDrag')) {
                 e.target.appendChild(drag)
                 drag.setAttribute('style', "height: 100%")
             }
-        }
+        // }
         
     }
 
@@ -96,8 +96,14 @@ function musicGames() {
             if (window.location.href.includes("/5.html")) {
                 location.href = 'game-success-5.html';
             }
-            if (window.location.href.includes("6.html")) {
+            if (window.location.href.includes("/6.html")) {
                 location.href = 'game-success-6.html';
+            }
+            if (window.location.href.includes("/9.html")) {
+                location.href = 'game-success-9.html';
+            }
+            if (window.location.href.includes("/10.html")) {
+                location.href = 'game-success-10.html';
             }
         }
         else {
@@ -111,10 +117,12 @@ function musicGames() {
     this.errorPage = () => {
         myArray.forEach(element => {
             if (element.getAttribute('data-place') == element.parentElement.getAttribute('data-place')) {
+                $(element.parentElement).removeClass('game_music_9-box_fill')
                 element.parentElement.classList.add('success')
 
             }
             else if (element.parentElement.classList.contains('myDrag')) {
+                $(element.parentElement).removeClass('game_music_9-box_fill')
                 element.parentElement.classList.add('error');
             }
 
@@ -139,6 +147,12 @@ function musicGames() {
         myDragArray.forEach(element => {
             $(element).removeClass('error')
             $(element).removeClass('success')
+            if(window.location.href.includes("/9.html") || window.location.href.includes("/10.html")){
+                console.log(element.classList.contains('chekmarkJS56'))
+                if(element.classList.contains('chekmarkJS56')){
+                    element.classList.add('game_music_9-box_fill')
+                }
+            }
         });
 
         myArray.forEach(element => {
