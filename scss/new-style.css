@@ -51413,10 +51413,11 @@ tr td:first-child {
   width: 10.24vw;
   height: 5.2vh;
   border-radius: 30px;
+  color: #62548A;
 }
 
-.cs-3-13-div-6-img-click p {
-  color: #62548A;
+.cs-3-13-div-6-img-click-height {
+  height: 5.2vh;
 }
 
 .cs-3-13-div-6-img-click-container {
@@ -55345,3 +55346,4 @@ body {
     font-size: 14px;
   }
 }
+/*# sourceMappingURL=new-style.css.map */
