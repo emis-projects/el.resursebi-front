@@ -39,10 +39,12 @@
             </header>
 
             <app-section :is-active="isActive" v-image="'../../../'">
-                <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger" v-on:link-tab="link = $event">
+                <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger"
+                    v-on:link-tab="link = $event">
 
                 </app-bar>
-                <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive" :is-info="isInfo" :path="path" :tab-class="currentTabComponent" :trigger="trigger">
+                <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive"
+                    :is-info="isInfo" :path="path" :tab-class="currentTabComponent" :trigger="trigger">
                 </component>
 
             </app-section>
@@ -51,14 +53,16 @@
             <div class="row">
                 <div class="col-10 m-auto flex_direction_left">
                     <div class="newDesign_subject_question_item mt-3vh">
-                        <img alt="img" class="newDesign_subject_question_item-img" src="../../../img/icons/newDesign_btn-yellow.svg">
+                        <img alt="img" class="newDesign_subject_question_item-img"
+                            src="../../../img/icons/newDesign_btn-yellow.svg">
                         <p class="newDesign_subject_question_item-title Class_2-title_item_2 big-font-size-20px-dejavu">
                             შენ წინაშეა სივრცე, სადაც რობოტმა უნდა განახორციელოს პროგრამა. ამისთვის საჭიროა,</br>
-                             რომ ისრები სწორად განათავსო მოცემულ ცხრილში.
+                            რომ ისრები სწორად განათავსო მოცემულ ცხრილში.
                         </p>
                     </div>
                     <div class="newDesign_subject_question_item mt-3vh">
-                        <img alt="img" class="newDesign_subject_question_item-img" src="../../../img/icons/newDesign_btn-yellow.svg">
+                        <img alt="img" class="newDesign_subject_question_item-img"
+                            src="../../../img/icons/newDesign_btn-yellow.svg">
                         <p class="newDesign_subject_question_item-title Class_2-title_item_2 big-font-size-20px-dejavu">
                             თითო სტრიქონი განკუთვნილია თითო ჭიქის განთავსებისთვის.
                         </p>
@@ -66,24 +70,43 @@
                 </div>
                 <div class="col-7 d-flex justify-content-center  mt-5vh flex-column">
                     <div class="d-flex align-items-center cs-3-16-div-10-arrow-col offset-2">
-                        <img alt="img" class="cs-3-16-div-10-arrow-vert-img"
-                        src="../../../img/gakvetilebi/Computer-Science/Class-3/How-my-robot-acts-16/cs-3-16-10-arrow-1.svg">
-                        <img alt="img" class="cs-3-16-div-10-arrow-vert-img"
-                        src="../../../img/gakvetilebi/Computer-Science/Class-3/How-my-robot-acts-16/cs-3-16-10-arrow-2.svg">
-                        <img alt="img" class="cs-3-16-div-10-10-arrow-hor-img"
-                        src="../../../img/gakvetilebi/Computer-Science/Class-3/How-my-robot-acts-16/cs-3-16-10-arrow-3.svg">
-                        <img alt="img" class="cs-3-16-div-10-10-arrow-hor-img"
-                        src="../../../img/gakvetilebi/Computer-Science/Class-3/How-my-robot-acts-16/cs-3-16-10-arrow-4.svg">
+                        <img alt="img" class="cs-3-16-div-10-arrow-vert-img" data-direction="up" draggable="true"
+                            src="../../../img/gakvetilebi/Computer-Science/Class-3/How-my-robot-acts-16/cs-3-16-10-arrow-1.svg">
+                        <img alt="img" class="cs-3-16-div-10-arrow-vert-img" data-direction="down" draggable="true"
+                            src="../../../img/gakvetilebi/Computer-Science/Class-3/How-my-robot-acts-16/cs-3-16-10-arrow-2.svg">
+                        <img alt="img" class="cs-3-16-div-10-10-arrow-hor-img" data-direction="right" draggable="true"
+                            src="../../../img/gakvetilebi/Computer-Science/Class-3/How-my-robot-acts-16/cs-3-16-10-arrow-3.svg">
+                        <img alt="img" class="cs-3-16-div-10-10-arrow-hor-img" data-direction="left" draggable="true"
+                            src="../../../img/gakvetilebi/Computer-Science/Class-3/How-my-robot-acts-16/cs-3-16-10-arrow-4.svg">
                     </div>
                     <div class="cs-3-16-div-10-cubes cs-3-16-div mt-10vh">
-                        <img class="ml-8vh" alt="img"
-                        src="../../../img/gakvetilebi/Computer-Science/Class-3/How-my-robot-acts-16/cs-3-16-10-1.svg">
+                        <div id="line-1" class="lines is-flex">
+                            <div data-line="1"></div>
+                            <div data-line="1"></div>
+                            <div data-line="1"></div>
+                            <div data-line="1"></div>
+                        </div>
+                        <div id="line-2" class="lines is-flex">
+                            <div data-line="2"></div>
+                            <div data-line="2"></div>
+                            <div data-line="2"></div>
+                            <div data-line="2"></div>
+                            <div data-line="2"></div>
+                            <div data-line="2"></div>
+                        </div>
+                        <div id="line-3" class="lines is-flex">
+                            <div data-line="3"></div>
+                            <div data-line="3"></div>
+                            <div data-line="3"></div>
+                            <div data-line="3"></div>
+                            <div daa-line="3"></div>
+                        </div>
                     </div>
                 </div>
                 <div class="col-5 d-flex justify-content-end  cs-3-16-div-10-steps cs-3-16-div mt-5vh ">
                     <img alt="img"
-                    src="../../../img/gakvetilebi/Computer-Science/Class-3/How-my-robot-acts-16/cs-3-16-10-2.svg">
-                    </div>
+                        src="../../../img/gakvetilebi/Computer-Science/Class-3/How-my-robot-acts-16/cs-3-16-10-2.svg">
+                </div>
             </div>
 
             <div class="left_components_paging-cont" id="leftNav">
@@ -103,7 +126,7 @@
             </div>
             <div class="class_3_7-bottom flex flex-end column align-items-end z-index reload_game_wrapper">
                 <button class="reset__btn" id="resetBtn">თავიდან სცადე</button>
-                <button class="completed__btn" id="completedGame">დასრულება</button>
+                <button class="completed__btn" id="completedGame" disabled>დასრულება</button>
             </div>
         </section>
     </div>
@@ -119,11 +142,12 @@
     <script src="../../../js/Pagination.js"></script>
 
 
-<!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
+    <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
     <script src="../../../New-header-vue/vis.js"></script>
     <script src="../../../New-header-vue/app.js"></script>
     <script src="../../../Vue-chatBot/botApp.js"></script>
     <script src="../../../js/bot.js"></script>
+    <script src="./js/10.js"></script>
 
 
 </body>

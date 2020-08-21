@@ -29,7 +29,7 @@ sounds.forEach((el) => el.addEventListener("dragstart", onDragStart));
 sounds.forEach((el) => el.addEventListener("dragend", onDragEnd));
 
 function onDragStart(event) {
-  console.log("start");
+
   event.dataTransfer.setData("text/plain", event.target.id);
   setTimeout(() => (this.className = "invisible"), 0);
   dragged = this;

@@ -19,7 +19,10 @@ checkBox.forEach((el) =>
 );
 
 resetBtn.addEventListener("click", () => {
-  checkBox.forEach((el) => el.classList.remove("active"));
+  checkBox.forEach((el) => {
+      el.classList.remove("active")
+      el.classList.remove("error")
+  });
   list = []
 });
 
