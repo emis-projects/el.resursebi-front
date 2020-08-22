@@ -216,7 +216,7 @@
 }
 
 /* '' */
-/* http://meyerweb.com/eric/tools/css/reset/
+/* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -1266,19 +1266,6 @@ body {
   transition: all 0.3s;
 }
 
-
-
-
-
-
-
-.audio-download_wrapper {
-  position: fixed;
-  bottom: 12vh;
-  right: 17vw;
-}
-
-
 .audio-download__btn {
   background: #fff;
   border-radius: 4vh;
@@ -1307,18 +1294,11 @@ body {
   outline: none;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
+.audio-download_wrapper {
+  position: fixed;
+  bottom: 12vh;
+  right: 17vw;
+}
 
 .color-game-paint {
   width: 52px;

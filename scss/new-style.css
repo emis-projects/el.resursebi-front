@@ -32142,7 +32142,7 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .Class_5_3-img_box_1 {
-  width: 51vh;
+  width: 61vh;
   background-color: #7FD1D8;
 }
 
@@ -42283,6 +42283,9 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .cloud-services_page-11 {
+  position: fixed;
+  bottom: 13vh;
+  right: 33vh;
   height: 41vh;
   max-height: 316px;
 }
@@ -48598,9 +48601,19 @@ img {
   margin-right: auto;
 }
 
+.music-new-4-div-5-icons {
+  position: absolute;
+  top: 45vh;
+}
+
 .music-new-4-div-5-icons img {
   height: 8.2vh !important;
-  margin-right: 1.7vw;
+  margin-right: 1.4vw;
+}
+
+.music-4-cont-item {
+  position: absolute;
+  right: 6vh;
 }
 
 .music-new-4-div-7-blue-icon {
@@ -49165,6 +49178,14 @@ img {
   max-height: 76px;
   right: 60vh;
   top: 67vh;
+}
+
+.class_music_4-img_1 {
+  height: 12.36vh;
+}
+
+.class_music_4-img_2 {
+  height: 10vh;
 }
 
 .new-img img {
@@ -51801,6 +51822,10 @@ tr td:first-child {
   right: 35vh;
 }
 
+.first-heroes-27 img {
+  height: 100%;
+}
+
 .first-heroes-28 {
   height: 42.3vh;
   max-height: 325px;
@@ -52086,6 +52111,10 @@ tr td:first-child {
   position: fixed;
   bottom: 13vh;
   right: 35vh;
+}
+
+.first-heroes-27 img {
+  height: 100%;
 }
 
 .first-heroes-28 {
@@ -52691,7 +52720,7 @@ tr td:first-child {
 }
 
 .cs-4-14-div img {
-  height: 100vh;
+  height: 100%;
 }
 
 .background-cs-4-14 {
