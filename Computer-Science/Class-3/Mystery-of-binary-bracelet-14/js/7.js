@@ -71,6 +71,9 @@ function computerGames(){
                                     console.log('A', element.classList.contains('checkmarkJS1'))
                                     byIdchekmarkJS(element, 'A')
                                 }
+                                else{
+                                    byIdchekmarkJS(element, '')
+                                }
                             }
                             else{
                                 if(element.children[8].classList.contains('active')){
@@ -222,6 +225,9 @@ function computerGames(){
                         }
                     }
                 }
+            }
+            else{
+                byIdchekmarkJS(element, '')
             }
     }
 
