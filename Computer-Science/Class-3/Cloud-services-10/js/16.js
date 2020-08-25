@@ -57,9 +57,7 @@ function computerGames() {
     this.dragDrop = (e) => {
         
         var drag = document.querySelector('.draggedElement')
-        console.log(e.target.getAttribute('data-placeDiv'), drag.getAttribute('data-placeDiv'))
         if(e.target.children[0] || e.target.getAttribute('data-placeDiv') != drag.getAttribute('data-placeDiv')){
-            console.log('yes')
             return;
         }
         if(drag){
@@ -75,7 +73,7 @@ function computerGames() {
 
     this.successPage = () => {
         this.errorPage();
-        if(count == 7){
+        if(count == 12){
             location.href = 'game-success-16.html';
         }
 
@@ -84,6 +82,25 @@ function computerGames() {
     var count = 0;
     this.errorPage = () => {
         myDragArray.forEach(element => {
+            if(document.getElementById('1').firstElementChild && document.getElementById('2').firstElementChild){
+                if(document.getElementById('1').firstElementChild.getAttribute('data-place') == document.getElementById('2').firstElementChild.getAttribute('data-place')){
+                    document.getElementById('1').classList.add('success');
+                }
+                else{
+                    document.getElementById('1').classList.add('success');
+                    document.getElementById('2').classList.add('success');
+                    count++
+                }
+            }
+            else{
+                if(document.getElementById('1').firstElementChild){
+                    document.getElementById('1').classList.add('success');
+                }
+                if(document.getElementById('2').firstElementChild){
+                    document.getElementById('2').firstElementChild.classList.add('success')
+                }
+
+            }
             if(element.children[0]){
                 if((element.children[0].getAttribute('data-place') == element.getAttribute('data-place'))){
                     element.classList.add('success');
