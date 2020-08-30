@@ -51,9 +51,9 @@ function game() {
 
 
     document.addEventListener('DOMContentLoaded', () => {
-        // handleLoadstop()
-        // createjs.Sound.registerSound({src: questions[this.index].sound, id:"sound"});
-        // handleLoadComplete()
+        handleLoadstop()
+        createjs.Sound.registerSound({src: questions[this.index].sound, id:"sound"});
+        handleLoadComplete()
 
         this.answer = questions[this.index].answer;
     })
