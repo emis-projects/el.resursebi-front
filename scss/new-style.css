@@ -2214,19 +2214,13 @@ body {
   transition: all 0.3s;
   line-height: 6vh;
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> 0257d1ce7c9576aef0543dd85183fc3c29c1e291
 .audio-download__btn:hover {
   background-color: #947dce;
   color: #fff !important;
   cursor: pointer;
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> 0257d1ce7c9576aef0543dd85183fc3c29c1e291
 .audio-download__btn:focus {
   outline: none;
 }
@@ -55483,8 +55477,4 @@ body {
     font-size: 14px;
   }
 }
-<<<<<<< HEAD
-
 /*# sourceMappingURL=new-style.css.map */
-=======
->>>>>>> 0257d1ce7c9576aef0543dd85183fc3c29c1e291
