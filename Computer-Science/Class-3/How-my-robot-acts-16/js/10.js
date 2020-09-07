@@ -27,7 +27,6 @@ dropbox.forEach(elm => {
 function onDragStart(event) {
     event.dataTransfer.setData("text/plain", event.target.direction);
     dragged = event.target
-    console.log(firstLine, secondLine, thirdLine)
 }
 
 
@@ -75,7 +74,12 @@ document.getElementById('resetBtn').addEventListener('click', ()=>{
     for (let i = 1; i < 4; i++) {
         document.getElementById('line-'+i).classList.remove('error')
     }
-    document.getElementById('completedGame').removeAttribute('disabled')
+    firstLine= [], 
+    secondLine= [], 
+    thirdLine = []
+    dragged=null,
+     line = null
+    
 })
 
 document.getElementById('completedGame').addEventListener('click', check)
@@ -87,16 +91,15 @@ function check(){
     let third = arrayCheck(thirdLine, thirdCheck)
     if(one && two && third) {
         location.href = 'game-success-10.html'
-    }else if(!one){
-        console.log('fire')
+    }
+    if(!one){
         document.getElementById('line-1').classList.add('error')
         document.getElementById('completedGame').setAttribute('disabled', true)
-    }else if(!two){
-        console.log('fire')
+    }
+    if(!two){
         document.getElementById('line-2').classList.add('error')
         document.getElementById('completedGame').setAttribute('disabled', true)
-    }else if(!third){
-        console.log('fire')
+    }if(!third){
         document.getElementById('line-3').classList.add('error')
         document.getElementById('completedGame').setAttribute('disabled', true)
     }
