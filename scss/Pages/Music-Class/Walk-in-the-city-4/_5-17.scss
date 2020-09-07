@@ -47,11 +47,16 @@
     margin-right:auto;
 }
 .music-new-4-div-5-icons{
-    
+    position: absolute;
+    top: 45vh;
     img{
         height:8.2vh!important;
-        margin-right:1.7vw;
+        margin-right:1.4vw;
     }
+}
+.music-4-cont-item {
+    position: absolute;
+    right: 6vh;
 }
 .music-new-4-div-7-blue-icon{
     height:5.98vh;

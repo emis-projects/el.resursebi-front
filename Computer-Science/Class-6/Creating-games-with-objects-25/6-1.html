@@ -8,10 +8,10 @@
     <script src="../../../js/vue.js"></script>
     <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
     <!--  ვუე გაშვებისას
-    <script src="./js/vue.min.js"></script>
-     -->
-    <link href="../../../scss/libraries/bootstrap.min.css" rel="stylesheet">
+      <script src="./js/vue.min.js"></script>
+       -->
     <link href="../../../New-header-vue/animate.min.css" rel="stylesheet">
+    <link href="../../../scss/libraries/bootstrap.min.css" rel="stylesheet">
     <link href="../../../scss/new-style.css" rel="stylesheet"/>
 <link href="../../../scss/components_style.css" rel="stylesheet"/>
     <title>ელექტრონული საგანმანათლებლო რესურსი</title>
@@ -24,7 +24,6 @@
             dataLayer.push(arguments);
         }
 
-        2
         gtag('js', new Date());
 
         gtag('config', 'UA-155006442-1');
@@ -33,68 +32,17 @@
 
 <body>
 <div class="container">
-    <section class="container position-absolute" id="app">
-        <header>
-            <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../../'"></app-menu>
-        </header>
-
-        <app-section :is-active="isActive" v-image="'../../../'">
-            <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger"
-                     v-on:link-tab="link = $event">
-
-            </app-bar>
-            <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive"
-                       :is-info="isInfo" :path="path" :tab-class="currentTabComponent" :trigger="trigger">
-            </component>
-
-        </app-section>
-    </section>
-    <section id="mainPage">
-        <div class="row">
-            <div class="col-9 m-auto">
-                <div class="newDesign_subject_question_item mb-6vh">
-                    <img alt="img" class="newDesign_subject_question_item-img"
-                         src="../../../img/icons/newDesign_btn-yellow.svg">
-                    <p class="newDesign_subject_question_item-title">
-                        დაალაგეთ ფრაზები ისე, რომ მიიღოთ სწორი წინადადებები რომელიც უკარნახებს კომპიუტერს, თუ როგორ მოიქცეს და რა გააკეთოს..
-                    </p>
-                </div>
-            </div>
-
-        </div>
-        <div class="row m-auto pl-2vh">
-            <div class="col-12 d-flex justify-content-between ml-3vh" style="padding: 0;">
-                <div class="DragGame--Parent" data-place="1">
-                  <div draggable="true" id="1" class="Class_5_3-img_box Class_5_3-img_box_1 mt-2vh DragGame--childs1" data-place="2">
-                        <p>რომელსაც ასრულებს კომპიუტერი სხვადასხვა <br>
-                              დავალების შესასრულებლად.</p>
-                  </div>
-                </div>
-                <div class="DragGame--Parent" data-place="2">
-                  <div draggable="true" id="2" class="Class_5_3-img_box Class_5_3-img_box_2 mt-2vh DragGame--childs1" data-place="4">
-                        <p>ჰქვიათ პროგრამისტები.</p>
-                  </div>
-                </div>
-
-                <div class="DragGame--Parent" data-place="3">
-                  <div draggable="true" id="3" class="Class_5_3-img_box Class_5_3-img_box_3 mt-2vh DragGame--childs1" data-place="3">
-                        <p>მათ, ვინც პროგრამებს წერენ,</p>
-                  </div>
-                </div>
-
-            </div>
-            <div class="DragGame--Parent ml-3vh" data-place="4">
-                  <div draggable="true" id="4" class="Class_5_3-img_box Class_5_3-img_box_4 mt-2vh DragGame--childs1" data-place="1">
-                        <p>კომპიუტერული პროგრამა არის ბრძანებების ერთობლიობა,</p>
-                  </div>
-            </div>
-        </div>
-
-        <div class="col-3 flex flex-end column align-items-end z-index reload_game_wrapper">
-            <div class="d-flex flex-column">
-                  <button id="resetBtn" class="reset__btn">თავიდან სცადე</button>
-                  <button id="completedGame" class="completed__btn">დასრულება</button>
-            </div>
+    <header>
+        <a class="close" href="6.html">
+            <img alt="close" src="../../../img/icons/close.svg"/>
+        </a>
+    </header>
+    <section>
+        <div class="row newDesign_hintPage">
+            <div class="col-10 d-flex justify-content-center m-auto pt-7vh">
+                  <img alt="img" src="../../../img/gakvetilebi/Computer-Science/Class-6/Creating-games-with-objects-25/C-6-25-6-1.svg"
+                    class="class_6_25-img_6_1">
+            </div> 
         </div>
 
         <div class="left_components_paging-cont">
@@ -182,7 +130,7 @@
                           data-name="Path 143735" data-type="3"
                           fill="#7fd1d8"
                           id="Path_143735"
-                          style="opacity: 0" transform="translate(195.761 57.264)"/>
+                          style="opacity: 1" transform="translate(195.761 57.264)"/>
                     <g data-name="Group 8099" id="Group_8099" transform="translate(-1.874 20)">
                         <g data-name="Group 8096" id="Group_8096" transform="translate(44.874 563)">
                             <g filter="url(#Path_12243)" transform="matrix(1, 0, 0, 1, -38, -553)">
@@ -577,14 +525,14 @@
                         <tspan x="0" y="0">მინიშნება</tspan>
                     </text>
                     <text data-name="შუალედური
-                            დავალება" fill="#c5cbcd" font-family="ALKSanet, ALK Sanet" font-size="12"
+                        დავალება" fill="#c5cbcd" font-family="ALKSanet, ALK Sanet" font-size="12"
                           id="შუალედური_დავალება"
                           transform="translate(70 549)">
                         <tspan x="-35.344" y="0">შუალედური</tspan>
                         <tspan x="-30.636" y="12">დავალება</tspan>
                     </text>
                     <text data-name="კომპლექსური
-                            დავალება" fill="#c5cbcd" font-family="ALKSanet, ALK Sanet" font-size="12"
+                        დავალება" fill="#c5cbcd" font-family="ALKSanet, ALK Sanet" font-size="12"
                           id="კომპლექსური_დავალება"
                           transform="translate(70 668)">
                         <tspan x="-42.015" y="0">კომპლექსური</tspan>
@@ -595,17 +543,12 @@
         </div>
 
         <div class="our__pagination flex">
-            <a class="pagination__prev__btn" href="#">
-                <img alt="" src="../../../img/icons/chevron-left-icon.svg" style="transform: rotate(180deg)">
-            </a>
-
-            <div class="flex align-items-center" id="pagination"></div>
-
-            <a class="pagination__next__btn" href="#">
-                <img alt="" src="../../../img/icons/chevron-left-icon.svg">
-            </a>
+            <div class="flex align-items-center" id="pagination">
+                <div class="pagination__item">
+                    <a class="current__pagination" href="6-1.html">1</a>
+                </div>
+            </div>
         </div>
-
     </section>
 </div>
 
@@ -617,8 +560,7 @@
 
 <script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
 <script src="../../../js/libraries/jquery.magnific-popup.min.js"></script>
-<script src="../../../js/Pagination.js"></script>
-<script src="./js/7-8.js"></script>
+
 
 <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
 <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
@@ -626,7 +568,6 @@
     <script src="../../../New-header-vue/app.js"></script>
 <script src="../../../Vue-chatBot/botApp.js"></script>
 <script src="../../../js/bot.js"></script>
-
 
 </body>
 
