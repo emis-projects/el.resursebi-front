@@ -24,7 +24,7 @@ const questions = [
 
 function game() {
     this.index = 1;
-    this.index2 = 0;
+    this.index2 = 1;
     this.answer = 6;
     this.error = false;
 
@@ -44,6 +44,7 @@ function game() {
 
 
     $(listenBtn).click((e) => {
+        $(listenBtn).addClass('rotate_btn')
         handleLoadstop()
         createjs.Sound.registerSound({src: questions[this.index].sound, id:"sound"});
         handleLoadComplete()
@@ -71,6 +72,8 @@ function game() {
         dragElement2MyArray.forEach(w => {
             w.setAttribute('data-class', w.getAttribute('class'))
         })
+
+        document.querySelector('.DragGame—childs1').setAttribute('data-index', this.answer)
 
         document.querySelector('.num').innerHTML = this.index2;
 
@@ -111,30 +114,29 @@ function game() {
     
 
     this.dragDrop = e => {
-        e.target.appendChild(document.querySelector('.draggedElement'));
-
-        if(e.target.lastElementChild.getAttribute('data-index') == this.answer){
+        if(document.querySelector('.draggedElement').getAttribute('data-index') == this.answer){
             this.index++;
             this.index2++;
             document.querySelector('.num').innerHTML = this.index2
 
-            // handleLoadstop()
-            // createjs.Sound.registerSound({src: questions[this.index].sound, id:"sound"});
-            // handleLoadComplete()
+            $(listenBtn).removeClass('rotate_btn')
+            
+            e.target.appendChild(document.querySelector('.draggedElement'));
 
+            document.querySelector('.music-new-4-div-14-lyrics-img-arrow').setAttribute('src', "../../img/gakvetilebi/Music-class/Walk-in-the-city-4/music-new-04-14-arrow.svg")
             setTimeout(() => {
                 $('.DragGame—childs1 img').attr('style', 'display: none');
             }, 2000)
             
             this.answer = questions[this.index].answer;
 
+            if(this.index == 9) {
+                location.href = "game-success-14.html"
+            }
+
         } else {
+            $(listenBtn).removeClass('rotate_btn')
             document.querySelector('.music-new-4-div-14-lyrics-img-arrow').setAttribute('src', "../../img/gakvetilebi/Music-class/Walk-in-the-city-4/Group 48297.svg")
-            
-            setTimeout(() => {
-                $('.DragGame—childs1 img').attr('style', 'display: none')
-                document.querySelector('.music-new-4-div-14-lyrics-img-arrow').setAttribute('src', "../../img/gakvetilebi/Music-class/Walk-in-the-city-4/music-new-04-14-arrow.svg")
-            }, 2000)
         }
     }
 
@@ -142,10 +144,14 @@ function game() {
 
     this.init = () => {
         this.index = 1;
-        this.index2 = 0;
+        this.index2 = 1;
         this.answer = 6;
 
         document.querySelector('.num').innerHTML = this.index2
+
+        $(listenBtn).removeClass('rotate_btn')
+
+        document.querySelector('.music-new-4-div-14-lyrics-img-arrow').setAttribute('src', "../../img/gakvetilebi/Music-class/Walk-in-the-city-4/music-new-04-14-arrow.svg")
 
         for(let items of document.querySelectorAll('.DragGame—childs2')) {
             console.log(items);

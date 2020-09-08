@@ -42,6 +42,11 @@
         .draggedElement {
             width: 12vw;
         }
+
+        .rotate_btn {
+            transform: rotate(360deg);
+            transition: all 0.7s;
+        }
         
     </style>
 </head>
@@ -84,7 +89,7 @@
                     
                     <div class="col-6 m-auto d-flex align-items-center">
                         <div class="relative">
-                            <span class="num" style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); font-size: 23px;"></span>
+                            <span class="num" style="z-index: 100; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); font-size: 23px;"></span>
                             <img class="listen--btn cursor-pointer" src="../../img/gakvetilebi/Music-class/Walk-in-the-city-4/music-new-04-14-yellow-ball.svg" alt="image" class="">
                         </div>
                         
