@@ -1,17 +1,9 @@
-var val;
 function myfunc(e) {
     e = e || window.event;
-    // var id = e.target.getAttribute('id');
-    // var value = e.target.value;
     e.target.value = e.target.value.toUpperCase();
     if (e.target.value.length > 1) {
         e.target.value = e.target.value[1]
     }
-    // if(id == 1){
-    //     if(value == 'C'){
-    //         value.style = '';
-    //     }
-    // }
 }
 
 function computerGames() {
