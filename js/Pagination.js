@@ -1,6 +1,8 @@
 document.addEventListener('DOMContentLoaded', async () => {
     var json = await $.getJSON("data.json");
+    let modifierObject = json.pages.filter(w => typeof w.number == "number");
 
+    
     // find page id with regex
     let regex = location.pathname;
     let phormula = /([^\/+]*)$/;
@@ -13,7 +15,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     let pageId = parseInt(finalyResult);
     $('html').attr('pageid', pageId);
 
-    createDots(json);
+    createDots(modifierObject);
 
 
     $('.pagination__item--el').mouseenter(function(){
@@ -42,12 +44,9 @@ function createCurrentDots(num, a) {
 
 
 function createDots(json) {
-    var pages = json.pages;
     var htmlPageIdAttr = $('html').attr('pageid');
 
-    // console.log(json);
-
-    pages.map(i => {
+    json.map(i => {
         let div = document.createElement('div');
 
         $(div).addClass('pagination__item')
