@@ -1,9 +1,6 @@
-
-
 function musicGames() {
     this.index = 0;
     this.answers = [1, 2, 3, 4, 5, 6];
-
 
 
     var dragElement1 = document.querySelectorAll('.DragGame—childs1');
@@ -53,28 +50,33 @@ function musicGames() {
     this.dragDrop = (e) => {
         let dropElement = document.querySelector('.draggedElement').getAttribute('data-index');
         
-        if(dropElement == this.answers[this.index]) {
+        if(e.target.classList.contains('DragGame—childs1') && dropElement == this.answers[this.index]) {
+            e.target.parentElement.appendChild(document.querySelector('.draggedElement'));
+            this.index++;
+
+        } else if(dropElement == this.answers[this.index]) {
             e.target.appendChild(document.querySelector('.draggedElement'));
             this.index++;
         }
     }
 
 
-    // this.checkEveryElement = (element) => element.getAttribute('data-place') == element.parentElement.getAttribute('data-place');
-
-
     this.completGame = () => {
-       console.log('completed');
+        completedBtn.setAttribute('disabled', 'true');
 
-        // completedBtn.setAttribute('disabled', 'true');
+        if(this.index == 6) {
+            location.href = "game-success-12.html"
+        }
     }
 
 
     this.init = (e) => {
-        console.log('init');
+        this.index = 0;
+        completedBtn.removeAttribute('disabled');
 
-        // completedBtn.removeAttribute('disabled');
-
+        document.querySelectorAll('.DragGame—childs1').forEach((w,i) => {
+            document.querySelector('.parent1').appendChild(w)
+        })
     }
 
 
