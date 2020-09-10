@@ -25,8 +25,6 @@ let jsonObject = null,
     }
   }
 
-
-
   document.addEventListener('DOMContentLoaded', async () => {
 
     const json = await $.getJSON("data.json");

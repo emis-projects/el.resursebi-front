@@ -1,65 +1,65 @@
-const index = document.getElementById('index')
+const index = document.getElementById("index");
 // directive გადაემა html კომპონენტში
-Vue.directive('logo', {
-    bind: function (el, binding, vnode) {
-        const header = el.querySelector('.header-logo');
-        const logo = el.querySelector('.logo');
-        const sound = el.querySelectorAll('.sound img');
-        // ბურგერის სვგ სურათების path
-        sound.forEach(elm => {
-            if (elm.classList.contains('on')) {
-                elm.src = binding.value + 'New-header-vue/header-img/active.svg';
-            } else {
-                elm.src = binding.value + 'New-header-vue/header-img/mute.png';
-            }
-        });
-        // ლოგოს path მიბმა for deploy
-        header.href = binding.value;
-        logo.src = binding.value + 'New-header-vue/header-img/Header-logo.svg';
-    }
+Vue.directive("logo", {
+  bind: function (el, binding, vnode) {
+    const header = el.querySelector(".header-logo");
+    const logo = el.querySelector(".logo");
+    const sound = el.querySelectorAll(".sound img");
+    // ბურგერის სვგ სურათების path
+    sound.forEach((elm) => {
+      if (elm.classList.contains("on")) {
+        elm.src = binding.value + "New-header-vue/header-img/active.svg";
+      } else {
+        elm.src = binding.value + "New-header-vue/header-img/mute.png";
+      }
+    });
+    // ლოგოს path მიბმა for deploy
+    header.href = binding.value;
+    logo.src = binding.value + "New-header-vue/header-img/Header-logo.svg";
+  },
 });
 
 // directive გადაემა html კომპონენტში (ხელ, ბუნ, მუს, ქვედა მარჯვენა კუთხეში შესაბამისი სურათის src-ს path დაგენერირება)
-Vue.directive('image', {
-    bind(el, binding, vnode) {
-        vnode.context.$data.path = binding.value;
-        vnode.context.$data.images.IT =
-            binding.value + 'New-header-vue/header-img/arts/IT-artwork.svg';
-        vnode.context.$data.images.art =
-            binding.value + 'New-header-vue/header-img/arts/art-artwork.svg';
-        vnode.context.$data.images.nature =
-            binding.value + 'New-header-vue/header-img/arts/nature-artwork.svg';
-        vnode.context.$data.images.music =
-            binding.value + 'New-header-vue/header-img/arts/music-artwork.svg';
-    }
+Vue.directive("image", {
+  bind(el, binding, vnode) {
+    vnode.context.$data.path = binding.value;
+    vnode.context.$data.images.IT =
+      binding.value + "New-header-vue/header-img/arts/IT-artwork.svg";
+    vnode.context.$data.images.art =
+      binding.value + "New-header-vue/header-img/arts/art-artwork.svg";
+    vnode.context.$data.images.nature =
+      binding.value + "New-header-vue/header-img/arts/nature-artwork.svg";
+    vnode.context.$data.images.music =
+      binding.value + "New-header-vue/header-img/arts/music-artwork.svg";
+  },
 });
 
 //menu component ნავბარის კომპონენტი (ენის, ხმის და ბურგერის ცვლილებები)
-Vue.component('appMenu', {
-    data() {
-        return {
-            show: true,
-            isShow: true,
-            menuHover: false,
-            langHover: false,
-            soundHover: false
-        };
+Vue.component("appMenu", {
+  data() {
+    return {
+      show: true,
+      isShow: true,
+      menuHover: false,
+      langHover: false,
+      soundHover: false,
+    };
+  },
+  props: {
+    isActive: {
+      type: Boolean,
+      required: true,
     },
-    props: {
-        isActive: {
-            type: Boolean,
-            required: true
-        },
-        toggle: {
-            type: Function,
-            required: true
-        },
-        info: {
-            type: Function,
-            required: true
-        }
+    toggle: {
+      type: Function,
+      required: true,
     },
-    template: `
+    info: {
+      type: Function,
+      required: true,
+    },
+  },
+  template: `
     <div class="navbar navbar-expand-lg navbar-light bg-transparent">
         <a class="navbar-brand ml-auto header-logo">
             <img class="logo" src="" alt="logo">
@@ -128,23 +128,23 @@ Vue.component('appMenu', {
              </div>
           </li>
         </ul>
-   </div> `
+   </div> `,
 });
 
 //Vue.component('appInfo')
 
 //section component სექციის კომპონენტი (გენერირდება დინამიურად)
-Vue.component('appSection', {
-    props: {
-        isActive: {
-            type: Boolean,
-            required: true
-        },
-        isInfo: {
-            type: Boolean
-        }
+Vue.component("appSection", {
+  props: {
+    isActive: {
+      type: Boolean,
+      required: true,
     },
-    template: `
+    isInfo: {
+      type: Boolean,
+    },
+  },
+  template: `
             <div>
                 <section class="section_box">
                 <!--აგნენერირებს შესაბამის კომპონენტს-->
@@ -159,24 +159,24 @@ Vue.component('appSection', {
                 </transition>
             </div>
 
-    `
+    `,
 });
 
 //bar component - კომპონენტების ბარი ნავიგაცია
-Vue.component('appBar', {
-    props: {
-        isActive: {
-            type: Boolean,
-            required: true
-        },
-        dots: {
-            type: Array
-        },
-        currentTab: {
-            type: String
-        }
+Vue.component("appBar", {
+  props: {
+    isActive: {
+      type: Boolean,
+      required: true,
     },
-    template: `
+    dots: {
+      type: Array,
+    },
+    currentTab: {
+      type: String,
+    },
+  },
+  template: `
         <transition
             enter-active-class="animated fadeInDown"
             leave-active-class="animated fadeOutUp"
@@ -194,26 +194,26 @@ Vue.component('appBar', {
                                 ><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span></button>
                   </div>
         </transition>
-    `
+    `,
 });
 // info seqciis გენერირება
-Vue.component('appInfo', {
-    props: {
-        path: {
-            type: String,
-            required: true
-        },
-        isInfo: {
-            type: Boolean,
-            required: true
-        }
+Vue.component("appInfo", {
+  props: {
+    path: {
+      type: String,
+      required: true,
     },
-    data() {
-        return {
-            currentPage: 1
-        }
+    isInfo: {
+      type: Boolean,
+      required: true,
     },
-    template: `<div class="row info-box" v-if="isInfo">
+  },
+  data() {
+    return {
+      currentPage: 1,
+    };
+  },
+  template: `<div class="row info-box" v-if="isInfo">
                    <div class="col-12">
                         <transition
                             enter-active-class="animated flipInX"
@@ -338,23 +338,23 @@ Vue.component('appInfo', {
                            </div>
                        </div>
                    </div>
-               </div>`
-})
+               </div>`,
+});
 //appStart საგნების ასარჩევი კომპონენტი
-Vue.component('appStart', {
-    props: {
-        isActive: {
-            type: Boolean,
-            required: true
-        },
-        trigger: {
-            type: Function,
-            required: true
-        },
-        tabClass: String,
-        images: Object
+Vue.component("appStart", {
+  props: {
+    isActive: {
+      type: Boolean,
+      required: true,
     },
-    template: `
+    trigger: {
+      type: Function,
+      required: true,
+    },
+    tabClass: String,
+    images: Object,
+  },
+  template: `
         <transition
             enter-active-class="animated slideInUp"
             leave-active-class="animated slideOutDown"
@@ -390,91 +390,93 @@ Vue.component('appStart', {
                      </div>
                 </div>
         </transition>
-    `
+    `,
 });
 
 // appSelect component  გაკვეთილების ასარჩევი კომპონენტო
-Vue.component('appSelect', {
-    props: {
-        tabClass: String,
-        activeClass: String,
-        images: Object,
-        path: String,
-        isActive: {
-            type: Boolean,
-            required: true
-        }
+Vue.component("appSelect", {
+  props: {
+    tabClass: String,
+    activeClass: String,
+    images: Object,
+    path: String,
+    isActive: {
+      type: Boolean,
+      required: true,
     },
-    data() {
-        return {
-            // title is object
-            class: title,
-            classID: 2,
-            activeItem: 1,
-            pagination: true,
-            currentPage: 1,
-            pageSize: 12,
-            isPagination: false
-        };
-    },
-    computed: {
-        titleCheck() {
-            if (this.activeClass === 'მუსიკა') {
-                return this.class.music;
-            } else if (this.activeClass === 'ხელოვნება') {
-                return this.class.art;
-            } else if (this.activeClass === 'ბუნება') {
-                return this.class.nature;
-            } else {
-                if (this.classID === 5 || this.classID === 6 || 
-                    this.classID === 4 || this.classID === 3) {
-                        this.isPagination = true
+  },
+  data() {
+    return {
+      // title is object
+      class: title,
+      classID: 2,
+      activeItem: 1,
+      pagination: true,
+      currentPage: 1,
+      pageSize: 12,
+      isPagination: false,
+    };
+  },
+  computed: {
+    titleCheck() {
+      if (this.activeClass === "მუსიკა") {
+        return this.class.music;
+      } else if (this.activeClass === "ხელოვნება") {
+        return this.class.art;
+      } else if (this.activeClass === "ბუნება") {
+        return this.class.nature;
+      } else {
+        if (
+          this.classID === 5 ||
+          this.classID === 6 ||
+          this.classID === 4 ||
+          this.classID === 3
+        ) {
+          this.isPagination = true;
 
-                        if (this.currentPage < 1) {
-                            this.currentPage = 1;
-                        } else if (this.currentPage > this.totalPages) {
-                            this.currentPage = this.totalPages;
-                    }
-
-
-                    let startIndex = (this.currentPage - 1) * this.pageSize;
-                    let endIndex = Math.min(startIndex + this.pageSize, this.totalItems);
-
-                    return this.class['IT_' + this.classID].slice(startIndex, endIndex)
-
-                }
-                // 5-6 კლასების გარდა დაბრუნდეს ჩვეულებრივად სრული სიგრძის მასივი
-                else {
-                    return this.class['IT_' + this.classID];
-                }
-            }
-        },
-        artImage() {
-            if (this.activeClass === 'მუსიკა') {
-                return this.images.music;
-            } else if (this.activeClass === 'ხელოვნება') {
-                return this.images.art;
-            } else if (this.activeClass === 'ბუნება') {
-                return this.images.nature;
-            }
-        },
-        // 1-12 გაკვეთილი <---> 12-24 გაკვეთილის და გადასაცვლელი ლურჯი ღილაკის გვერდის რენტერინგი
-        totalPages() {
-            return Math.ceil(this.class['IT_' + this.classID].length / this.pageSize)
-        },
-        totalItems() {
-            return this.class['IT_' + this.classID].length
-        }
-    },
-    methods: {
-        classChoose(val) {
-            this.classID = val;
+          if (this.currentPage < 1) {
             this.currentPage = 1;
-            this.activeItem = val - 1;
-            this.pagination = true
+          } else if (this.currentPage > this.totalPages) {
+            this.currentPage = this.totalPages;
+          }
+
+          let startIndex = (this.currentPage - 1) * this.pageSize;
+          let endIndex = Math.min(startIndex + this.pageSize, this.totalItems);
+
+          return this.class["IT_" + this.classID].slice(startIndex, endIndex);
         }
+        // 5-6 კლასების გარდა დაბრუნდეს ჩვეულებრივად სრული სიგრძის მასივი
+        else {
+          return this.class["IT_" + this.classID];
+        }
+      }
     },
-    template: `
+    artImage() {
+      if (this.activeClass === "მუსიკა") {
+        return this.images.music;
+      } else if (this.activeClass === "ხელოვნება") {
+        return this.images.art;
+      } else if (this.activeClass === "ბუნება") {
+        return this.images.nature;
+      }
+    },
+    // 1-12 გაკვეთილი <---> 12-24 გაკვეთილის და გადასაცვლელი ლურჯი ღილაკის გვერდის რენტერინგი
+    totalPages() {
+      return Math.ceil(this.class["IT_" + this.classID].length / this.pageSize);
+    },
+    totalItems() {
+      return this.class["IT_" + this.classID].length;
+    },
+  },
+  methods: {
+    classChoose(val) {
+      this.classID = val;
+      this.currentPage = 1;
+      this.activeItem = val - 1;
+      this.pagination = true;
+    },
+  },
+  template: `
         <transition
             enter-active-class="animated slideInUp"
             leave-active-class="animated slideOutDown"
@@ -560,25 +562,25 @@ Vue.component('appSelect', {
                 </div>
             </div>
         </transition>
-        `
+        `,
 });
 
 // appLinks ნავიგაცია კომპონენტების 'რუკით'
-Vue.component('appLinks', {
-    props: {
-        tabClass: String,
-        isActive: {
-            type: Boolean,
-            required: true
-        }
+Vue.component("appLinks", {
+  props: {
+    tabClass: String,
+    isActive: {
+      type: Boolean,
+      required: true,
     },
-    mounted(){
-        init()
-    },
-    updated() {
-        init()
-    },
-    template: `
+  },
+  mounted() {
+    init();
+  },
+  updated() {
+    init();
+  },
+  template: `
         <transition
             enter-active-class="animated slideInUp"
             leave-active-class="animated slideOutDown"
@@ -589,840 +591,898 @@ Vue.component('appLinks', {
                 <div id="mynetwork" ref="vis"></div>
             </div>
         </transition>
-        `
+        `,
 });
 
 // appSections ნავიგაცია კომპონენტების ღილაკებით
-Vue.component('appSections', {
-    props: {
-        tabClass: String,
-        isActive: {
-            type: Boolean,
-            required: true
-        }
+Vue.component("appSections", {
+  props: {
+    tabClass: String,
+    isActive: {
+      type: Boolean,
+      required: true,
     },
-    template: `
+    images: Object,
+  },
+  data() {
+    return {
+      activeClass: {
+        title: "",
+        class: "",
+      },
+      itClass: "",
+      activeTitle: "",
+    };
+  },
+  async mounted() {
+    const data = await $.getJSON("data.json");
+    let classId = parseInt(data.lesson_id);
+    let Url = window.location.href.toLowerCase();
+    if (Url.includes("art-class")) {
+      this.activeClass.title = "ხელოვნება";
+      this.activeClass.class = "art";
+    } else if (Url.includes("nature-class")) {
+      this.activeClass.title = "ბუნება";
+      this.activeClass.class = "nature";
+    } else if (Url.includes("music-class")) {
+      this.activeClass.title = "მუსიკა";
+      this.activeClass.class = "music";
+    } else {
+      this.activeClass.title = "კომპიუტერული მეცნიერებები";
+      this.activeClass.class = "IT";
+      if (Url.includes("class-2")) this.itClass = "2";
+      if (Url.includes("class-3")) this.itClass = "3";
+      if (Url.includes("class-4")) this.itClass = "4";
+      if (Url.includes("class-5")) this.itClass = "5";
+      if (Url.includes("class-6")) this.itClass = "6";
+    }
+
+    let classList;
+    if (this.activeClass.class !== "IT") {
+      classList = title[this.activeClass.class];
+    } else {
+      classList = title[this.activeClass.class + "_" + this.itClass];
+    }
+
+    const activeClassData = classList.filter(
+      (classList) => classList.id === classId
+    );
+
+    this.activeTitle = activeClassData[0].name;
+  },
+  computed: {
+    itClassText() {
+      if (this.itClass !== "") return this.itClass + " კლასი > ";
+    },
+  },
+  template: `
         <transition
             enter-active-class="animated slideInUp"
             leave-active-class="animated slideOutDown"
             :duration="1000"
             mode="out-in"
             appear>
-            <div v-if="isActive" :class="'app-sections'" class="page-section"></div>
+            <div v-if="isActive" :class="'app-sections'" class="page-section">
+                <p class="app-select_title">{{ activeClass.title  }} > {{itClassText}}<span>{{activeTitle}}</span></p>
+            </div>
         </transition>
-        `
+        `,
 });
 
 //Vue declaration
 var app = new Vue({
-    el: '#app',
-    data: {
-        isActive: false,
-        link: 'start',
-        path: '',
-        images: {
-            IT: 'New-header-vue/header-img/arts/IT-artwork.svg',
-            art: 'New-header-vue/header-img/arts/art-artwork.svg',
-            nature: 'New-header-vue/header-img/arts/nature-artwork.svg',
-            music: 'New-header-vue/header-img/arts/music-artwork.svg'
-        },
-        dots: [{
-            name: 'start',
-            id: 0,
-            disable: false,
-            classActive: true
-            },
-            {
-                name: 'select',
-                id: 1,
-                disable: true,
-                classActive: false
-            },
-            {
-                name: 'links',
-                id: 2,
-                disable: true,
-                classActive: false
-            },
-            {
-                name: 'sections',
-                id: 3,
-                disable: true,
-                classActive: false
-            }
-        ],
-        activeClass: '',
-        isInfo: false
+  el: "#app",
+  data: {
+    isActive: false,
+    link: "start",
+    path: "",
+    images: {
+      IT: "New-header-vue/header-img/arts/IT-artwork.svg",
+      art: "New-header-vue/header-img/arts/art-artwork.svg",
+      nature: "New-header-vue/header-img/arts/nature-artwork.svg",
+      music: "New-header-vue/header-img/arts/music-artwork.svg",
     },
-    //trigger menu button & menu panels
-    methods: {
-        toggle() {
-            this.isActive = !this.isActive;
-            this.dots.forEach(dot => {
-                if (dot.id === 0 && !this.isActive) {
-                    dot.disable = false;
-                    dot.classActive = true;
+    dots: [
+      {
+        name: "start",
+        id: 0,
+        disable: false,
+        classActive: true,
+      },
+      {
+        name: "select",
+        id: 1,
+        disable: true,
+        classActive: false,
+      },
+      {
+        name: "links",
+        id: 2,
+        disable: true,
+        classActive: false,
+      },
+      {
+        name: "sections",
+        id: 3,
+        disable: true,
+        classActive: false,
+      },
+    ],
+    activeClass: "",
+    isInfo: false,
+  },
+  //trigger menu button & menu panels
+  methods: {
+    toggle() {
+      this.isActive = !this.isActive;
+      this.dots.forEach((dot) => {
+        if (dot.id === 0 && !this.isActive) {
+          dot.disable = false;
+          dot.classActive = true;
 
-                    this.link = 'start';
-                    this.activeClass = '';
-                    this.isInfo = false
-                }
-                if (dot.id === 1 && !this.isActive) {
-                    dot.disable = true;
-                    dot.classActive = false;
-                }
-                if(!index && dot.id == 2 ){
-                     dot.disable = false
-                     dot.classActive = false;
+          this.link = "start";
+          this.activeClass = "";
+          this.isInfo = false;
+        }
+        if (dot.id === 1 && !this.isActive) {
+          dot.disable = true;
+          dot.classActive = false;
+        }
+        if (!index && dot.id == 2) {
+          dot.disable = false;
+          dot.classActive = false;
 
-                     this.link = 'links';
-                     this.activeClass = '';
-                     this.isInfo = false
-                }
-                if(!index && dot.id == 3 ){
-                     dot.disable = false
-                     dot.classActive = false;
-                }
-            });
-        },
-        info() {
-            this.isInfo = !this.isInfo
-            this.link = 'info'
-            this.isActive = false
-        },
+          this.link = "links";
+          this.activeClass = "";
+          this.isInfo = false;
+        }
+        if (!index && dot.id == 3) {
+          dot.disable = false;
+          dot.classActive = false;
+        }
+      });
+    },
+    info() {
+      this.isInfo = !this.isInfo;
+      this.link = "info";
+      this.isActive = false;
+    },
 
-        /*
+    /*
           -- გაკვეთილების სექციის ჩატვირთვა data(დაგაეცემა, თემები: ხელ. მუს. ბუნ. კომპ.)
           -- this.link ააქტიურებს დინამიური კომპონენტების ჩამტვირთველ კომპონენტს
           -- გახდეს აქტიური შესაბამისი dot
         */
-        trigger(val, data) {
-            this.activeClass = data;
-            this.link = 'select';
-            this.dots.forEach(dot => {
-                if (dot.name === val) {
-                    dot.disable = false;
-                    dot.classActive = true;
-                } else {
-                    dot.classActive = false;
-                }
-            });
+    trigger(val, data) {
+      this.activeClass = data;
+      this.link = "select";
+      this.dots.forEach((dot) => {
+        if (dot.name === val) {
+          dot.disable = false;
+          dot.classActive = true;
+        } else {
+          dot.classActive = false;
         }
+      });
     },
-    computed: {
-        // აგენერირებს პომპონენტებს დინამიურად
-        currentTabComponent() {
-            this.dots.forEach(dot => {
-                dot.classActive = dot.name === this.link.toLowerCase();
-            });
-            return 'app-' + this.link.toLowerCase();
-        }
-    }
+  },
+  computed: {
+    // აგენერირებს პომპონენტებს დინამიურად
+    currentTabComponent() {
+      this.dots.forEach((dot) => {
+        dot.classActive = dot.name === this.link.toLowerCase();
+      });
+      return "app-" + this.link.toLowerCase();
+    },
+  },
 });
 
 //ვუს ცვლადების შეცვლა სლაიდერზე კლიკისას
 function startPage(val) {
-    app.$data.link = 'select'; // ააქტიურებს შესაბამის კომპონენტს
-    app.$data.isActive = true; // ააქტიურებს მენიუს
-    app.$data.activeClass = val; // გადაეცემა საგნების სახელები (ბუნება, ხელოვნება, მუსიკა, კომპ.)
+  app.$data.link = "select"; // ააქტიურებს შესაბამის კომპონენტს
+  app.$data.isActive = true; // ააქტიურებს მენიუს
+  app.$data.activeClass = val; // გადაეცემა საგნების სახელები (ბუნება, ხელოვნება, მუსიკა, კომპ.)
 }
 
 // გაკვეთილიების სათაურები
 let title = {
-    music: [
-        {
-            id: 1,
-            name: 'ქალაქისა და სოფლის ხმები',
-            link: 'Music-Class/voices-1/1.html'
-        },
-        {
-            id: 2,
-            name: 'ქალაქის ხმები',
-            link: 'Music-Class/city-voices-2/1.html'
-        },
-        {
-            id: 3,
-            name: 'გავიგნოთ გზა ხმებით',
-            link: 'Music-Class/findWayBySound-3/1.html'
-        },
-        {
-            id: 4,
-            name: 'ვსეირნობთ მუსიკალურ ქალაქში',
-            link: 'Music-Class/Walk-in-the-city-4/1.html'
-        },
-        {
-            id: 5,
-            name: 'ჩემი ცხოვრების ერთი დღე',
-            link: 'Music-Class/One-day-5/1.html'
-        },
-        {
-            id: 6,
-            name: 'შევქმნათ ხმაურისგან მუსიკა',
-            link: 'Music-Class/Create-music-from-noise-6/1.html'
-        },
-        {
-            id: 7,
-            name: 'შევქმნათ გადაცემის ქუდი',
-            link: 'Music-Class/Create-broadcast-hat-7/1.html'
-        },
-        {
-            id: 8,
-            name: 'შევქმნათ გადაცემის აუდიო ანონსი',
-            link: 'Music-Class/Create-broadcast-audio-8/1.html'
-        },
-        {
-            id: 9,
-            name: 'გამოვიყენოთ მუსიკა თამაშისთვის',
-            link: 'Music-Class/Game-music-9/1.html'
-        },
-        {
-            id: 10,
-            name: 'შევარჩიოთ ფონური მუსიკა',
-            link: 'Music-Class/Choose-background-music-10/1.html'
-        },
-        {
-            id: 11,
-            name: 'მუსიკა ანიმაციასა და საყმაწვილო კინოში',
-            link: 'Music-Class/Music-in-animation-and-cinema-11/1.html'
-        },
-        {
-            id: 12,
-            name: ' შევქმნათ საუნდტრეკი ანიმაციური ფილმისთვის',
-            link: 'Music-Class/Create-animation-sountrack-12/1.html'
-        }
-    ],
-    art: [
-        {
-            id: 1,
-            name: 'ფერებით მოთხრობილი ამბავი',
-            link: 'Art-Class/color_story/1.html'
-        },
-        {
-            id: 2,
-            name: 'მშვიდი და ბობოქარი',
-            link: 'Art-Class/Calm_&_stormy/1.html'
-        },
-        {
-            id: 3,
-            name: 'ტყე',
-            link: 'Art-Class/Forest/1.html'
-        },
-        {
-            id: 4,
-            name: 'ჯადოსნური ქვეყანა',
-            link: 'Art-Class/Magic-world/1.html'
-        },
-        {
-            id: 5,
-            name: 'თავგადასავალი',
-            link: 'Art-Class/Adventure/1.html'
-        },
-        {
-            id: 6,
-            name: 'პეიზაჟი',
-            link: 'Art-Class/Landscape-6/1.html'
-        },
-        {
-            id: 7,
-            name: 'ქალაქი',
-            link: 'Art-Class/City-07/1.html'
-        },
-        {
-            id: 8,
-            name: 'პლაკატი "გადავარჩინოთ ბუნება"',
-            link: 'Art-Class/rescue_nature_08/1.html'
-        },
-        {
-            id: 9,
-            name: 'მე და ჩემი მეგობრები',
-            link: 'Art-Class/friends_09/1.html'
-        },
-        {
-            id: 10,
-            name: 'ჩვეულებრივი და არაჩვეულებრივი ნივთები',
-            link: 'Art-Class/items-10/1.html'
-        },
-        {
-            id: 11,
-            name: 'ყოველდღიური ამბები',
-            link: 'Art-Class/daily-news-11/1.html'
-        },
-        {
-            id: 12,
-            name: 'ვირტუალური გამოფენა',
-            link: 'Art-Class/VR_exhibition/1.html'
-        }
-    ],
-    nature: [
-        {
-            id: 1,
-            name: 'საშიში სათამაშოები',
-            link: 'Nature-Class/dangerous-toys/1.html'
-        },
-        {
-            id: 2,
-            name: 'უხილავი ძალები',
-            link: 'Nature-Class/invisible_forces/1.html'
-        },
-        {
-            id: 3,
-            name: 'რატომ იცვალა ტყემ ფერი?',
-            link: 'Nature-Class/Forest-colors/1.html'
-        },
-        {
-            id: 4,
-            name: 'რატომ მოიწყინა ჩემმა ყვავილმა',
-            link: 'Nature-Class/The-living-world-4/1.html'
-        },
-        {
-            id: 5,
-            name: 'სად დაიმალა მზე?',
-            link: 'Nature-Class/Where-sun-goes/1.html'
-        },
-        {
-            id: 6,
-            name: 'შეიძლება ზაფხული ზამთარში იყოს?',
-            link: 'Nature-Class/Summer-in-winter/1.html'
-        },
-        {
-            id: 7,
-            name: 'რატომ არის ბრუცა ბრმა?',
-            link: 'Nature-Class/Bruca-07/1.html'
-        },
-        {
-            id: 8,
-            name: 'თეთრი - ვარდისფერი ფლამინგო',
-            link: 'Nature-Class/flamingo-08/1.html'
-        },
-        {
-            id: 9,
-            name: 'დედამიწის გარშემო 80 დღეზე სწრაფად',
-            link: 'Nature-Class/around-world-09/1.html'
-        },
-        {
-            id: 10,
-            name: 'რატომ არის ანას ქურთუკი ძალიან თბილი?',
-            link: 'Nature-Class/coat-10/1.html'
-        },
-        {
-            id: 11,
-            name: 'როგორ ვაჯობოთ ბიჭებს „შერკინებაში?”',
-            link: 'Nature-Class/sport/1.html'
-        },
-        {
-            id: 12,
-            name: 'გვინდა თოვლი დაბადების დღეზე!',
-            link: 'Nature-Class/snow-12/1.html'
-        }
-    ],
-    IT_2: [
-        {
-            id: 1,
-            name: 'პირობითი ნიშნების ენა',
-            link: 'Computer-Science/Class-2/conditional-signs-1/1.html'
-        },
-        {
-            id: 2,
-            name: 'პირობითი ნიშნები ჩვენ ირგვლივ',
-            link: 'Computer-Science/Class-2/marks-2/1.html'
-        },
-        {
-            id: 3,
-            name: 'ნაწილი და მთელი',
-            link: 'Computer-Science/Class-2/part&whole-3/1.html'
-        },
-        {
-            id: 4,
-            name: ',,ციკლები” ჩვენს ცხოვრებაში',
-            link: 'Computer-Science/Class-2/cycle-4/1.html'
-        },
-        {
-            id: 5,
-            name: 'ციკლების შექმნა ',
-            link: 'Computer-Science/Class-2/Creating-cycles-5/1.html'
-        },
-        {
-            id: 6,
-            name: 'მომხმარებლის გრაფიკული ინტერფეისი',
-            link: 'Computer-Science/Class-2/user-interface-6/1.html'
-        },
-        {
-            id: 7,
-            name: 'კომპიუტერისა და პროგრამების მართვა',
-            link: 'Computer-Science/Class-2/programs-management-7/1.html'
-        },
-        {
-            id: 8,
-            name: 'კომპიუტერული პროგრამებით დავალების შესრულება',
-            link: 'Computer-Science/Class-2/programing-8/1.html'
-        },
-        {
-            id: 9,
-            name: 'კომპიუტერული ტექნოლოგიების გამოყენების იდენტიფიცირება',
-            link: 'Computer-Science/Class-2/Identify-with-computer-9/1.html'
-        },
-        {
-            id: 10,
-            name: 'რა არის ქსელი და როგორ ვერთიანდებით ჩვენ მასში',
-            link: 'Computer-Science/Class-2/network-10/1.html'
-        },
-        {
-            id: 11,
-            name: 'ინფორმაციის შენახვა ფიზიკურ გარემოში',
-            link: 'Computer-Science/Class-2/Storing-information-11/1.html'
-        },
-        {
-            id: 12,
-            name: 'საკუთარ ანგარიშში მუშაობა',
-            link: 'Computer-Science/Class-2/working-with-account-12/1.html'
-        },
-    ],
-    IT_3: [
-        {
-            id: 1,
-            name: 'კომპიუტერის შექმნისა და განვითარების მოკლე ისტორია',
-            link: 'Computer-Science/Class-3/computer-development-1/1.html'
-        },
-        {
-            id: 2,
-            name: 'კომპიუტერის დამატებითი და ძირითადი მოწყობილობები',
-            link: 'Computer-Science/Class-3/computer-equipment-2/1.html'
-        },
-        {
-            id: 3,
-            name: 'როგორ მუშაობს კომპიუტერი',
-            link: 'Computer-Science/Class-3/How-computer-works-3/1.html'
-        },
-        {
-            id: 4,
-            name: 'ალგორითმი და ალგორითმის შემუშავება',
-            link: 'Computer-Science/Class-3/algorithmes-4/1.html'
-        },
-        {
-            id: 5,
-            name: 'რა არის პროგრამული ენა',
-            link: 'Computer-Science/Class-3/programming-language-5/1.html'
-        },
-        {
-            id: 6,
-            name: 'ვიზუალური კომუნიკაციის ენა',
-            link: 'Computer-Science/Class-3/Visual-Communication-6/1.html'
-        },
-        {
-            id: 7,
-            name: 'გავეცნოთ ვიზუალურ პროგრამირებას',
-            link: 'Computer-Science/Class-3/Visual-programing-7/1.html'
-        },
-        {
-            id: 8,
-            name: 'როგორ მუშაობს ინტერნეტი',
-            link: 'Computer-Science/Class-3/internet-8/1.html'
-        },
-        {
-            id: 9,
-            name: 'რა არის საძიებო სისტემა და  როგორ გამოვიყენოთ იგი',
-            link: 'Computer-Science/Class-3/search-engine-9/1.html'
-        },
-        {
-            id: 10,
-            name: 'ღრუბლოვანი სერვისები',
-            link: 'Computer-Science/Class-3/Cloud-services-10/1.html'
-        },
-        {
-            id: 11,
-            name: 'პრეზენტაციის შექმნა (Ms PowerPoint)',
-            link: 'Computer-Science/Class-3/Presentation-11/1.html'
-        },
-        {
-            id: 12,
-            name: 'საკუთარი Office 365-ის ანგარიშის მართვა',
-            link: 'Computer-Science/Class-3/managing-office365-12/1.html'
-        },
-        {
-            id: 13,
-            name: 'გაქვს სახლში რობოტი?',
-            link: 'Computer-Science/Class-3/Do-you-have-robot-13/1.html'
-        },
-        {
-            id: 14,
-            name: 'ბინარული სამაჯურის საიდუმლო',
-            link: 'Computer-Science/Class-3/Mystery-of-binary-bracelet-14/1.html'
-        },
-        {
-            id: 15,
-            name: 'ჩემი პირველი გმირების ისტორია',
-            link: 'Computer-Science/Class-3/First-heroes-15/1.html'
-        },
-        {
-            id: 16,
-            name: 'როგორ იქცევა ჩემი მეგობარი რობოტი',
-            link: 'Computer-Science/Class-3/How-my-robot-acts-16/1.html'
-        }
-    ],
-    IT_4: [
-        {
-            id: 1,
-            name: 'მარტივი ელოქტრონული მოწყობილობის გამართვა',
-            link: 'Computer-Science/Class-4/Maintain-electronic-device-1/1.html'
-        },
-        {
-            id: 2,
-            name: 'შეცდომები პროგრამირებაში',
-            link: 'Computer-Science/Class-4/programing-mistakes-2/1.html'
-        },
-        {
-            id: 3,
-            name: 'პროგრამის ქცევის პროგნოზირება',
-            link: 'Computer-Science/Class-4/Predicting-behavior-3/1.html'
-        },
-        {
-            id: 4,
-            name: 'პროგრამის შექმნის პროცესის გააზრება',
-            link: 'Computer-Science/Class-4/Creating-program-4/1.html'
-        },
-        {
-            id: 5,
-            name: 'მომხმარებლის გრაფიკული ინტერფეისი',
-            link: 'Computer-Science/Class-4/UI-5/1.html'
-        },
-        {
-            id: 6,
-            name: 'ღრუბლოვანი სერვისების სათანადოდ გამოყენება',
-            link: 'Computer-Science/Class-4/Cloud-services-6/1.html'
-        },
-        {
-            id: 7,
-            name: 'ტექსტური რედაქტორი და მისი ძირითადი ინსტრუმენტები',
-            link: 'Computer-Science/Class-4/Text-editor-&-tools-7/1.html'
-        },
-        {
-            id: 8,
-            name: 'ტექსტის სწორება (Ms Word)',
-            link: 'Computer-Science/Class-4/correcting-text-8/1.html'
-        },
-        {
-            id: 9,
-            name: 'შაბლონი და ცხრილი',
-            link: 'Computer-Science/Class-4/template-and-table-9/1.html'
-        },
-        {
-            id: 10,
-            name: 'ტექსტური რედაქტორის გამოყენება ყოველდღიურ ცხოვრებაში',
-            link: 'Computer-Science/Class-4/text-editor-10/1.html'
-        },
-        {
-            id: 11,
-            name: 'ელექტრონული ფოსტის გადაგზავნა, მიღება',
-            link: 'Computer-Science/Class-4/Sending-email-11/1.html'
-        },
-        {
-            id: 12,
-            name: 'რა არის ინფორმაცია',
-            link: 'Computer-Science/Class-4/What-is-information-12/1.html'
-        },
-        {
-            id: 13,
-            name: 'როგორ შევქმნათ ელექტრონული წიგნები და ბროშურები Ms Word-ში',
-            link: 'Computer-Science/Class-4/Books-and-brochures-13/1.html'
-        },
-        {
-            id: 14,
-            name: 'ჯგუფური მუშაობა ღრუბლოვან სერვისებში',
-            link: 'Computer-Science/Class-4/Group-work-14/1.html'
-        },
-        {
-            id: 15,
-            name: 'გასეირნება ინტერნეტში',
-            link: 'Computer-Science/Class-4/Walking-in-internet-15/1.html'
-        },
-        {
-            id: 16,
-            name: 'როგორ გავაფორმოთ ტექსტურ რედაქტორ Ms Word-ში დაწერილი ტექსტი',
-            link: 'Computer-Science/Class-4/How-to-form-text-16/1.html'
-        }
-    ],
-    IT_5: [
-        {
-            id: 1,
-            name: 'პირობითი ნიშნები კომპიუტერულ პროგრამებში',
-            link: 'Computer-Science/Class-5/conditional-marks-1/1.html'
-        },
-        {
-            id: 2,
-            name: 'ჩემი პირველი რობოტი',
-            link: 'Computer-Science/Class-5/My-first-robot-2/1.html'
-        },
-        {
-            id: 3,
-            name: 'რა არის კომპიუტერული პროგრამა',
-            link: 'Computer-Science/Class-5/What-is-program-3/1.html'
-        },
-        {
-            id: 4,
-            name: 'ობიექტის გადაადგილება ვიზუალური კოდის საშუალებით',
-            link: 'Computer-Science/Class-5/objects-moving-4/1.html'
-        },
-        {
-            id: 5,
-            name: 'ფუნქცია',
-            link: 'Computer-Science/Class-5/function-5/1.html'
-        },
-        {
-            id: 6,
-            name: 'პარალელური პროგრამირება',
-            link: 'Computer-Science/Class-5/parallel-programming-6/1.html'
-        },
-        {
-            id: 7,
-            name: 'უსასრულო ციკლები',
-            link: 'Computer-Science/Class-5/Infinite-cycles-7/1.html'
-        },
-        {
-            id: 8,
-            name: 'სასრულო ციკლები',
-            link: 'Computer-Science/Class-5/Cycles-8/1.html'
-        },
-        {
-            id: 9,
-            name: 'პირობითი ოპერატორები',
-            link: 'Computer-Science/Class-5/conditional-operators-9/1.html'
-        },
-        {
-            id: 10,
-            name: 'ობიექტები',
-            link: 'Computer-Science/Class-5/objects-10/1.html'
-        },
-        {
-            id: 11,
-            name: 'ინფორმაციის დამახსოვრება',
-            link: 'Computer-Science/Class-5/Remember-information-11/1.html'
-        },
-        {
-            id: 12,
-            name: 'სხვადასხვა კომპიუტერული მოწყობილობის ინტერფეისი',
-            link: 'Computer-Science/Class-5/interface-of-devices-12/1.html'
-        },
-        {
-            id: 13,
-            name: 'კონტენტი და მისი დახარისხების მეთოდები',
-            link: 'Computer-Science/Class-5/Sorting-methods-13/1.html'
-        },
-        {
-            id: 14,
-            name: 'ინფორმაციის ცხრილში აღრიცხვა',
-            link: 'Computer-Science/Class-5/Information-in-the-table-14/1.html'
-        },
-        {
-            id: 15,
-            name: 'ცხრილებთან მუშაობა',
-            link: 'Computer-Science/Class-5/Working-with-tables-15/1.html'
-        },
-        {
-            id: 16,
-            name: 'ელექტრონულ ცხრილებში მონაცემების შეტანა',
-            link: 'Computer-Science/Class-5/Enter-table-data-16/1.html'
-        },
-        {
-            id: 17,
-            name: 'მაგალითები და ფორმულები ელექტრონულ სივრცეში',
-            link: 'Computer-Science/Class-5/Examples-and-formulas-17/1.html'
-        },
-        {
-            id: 18,
-            name: 'დიაგრამა ელოქტრონულ ცხრილში',
-            link: 'Computer-Science/Class-5/diagram-in-electronic-table-18/1.html'
-        },
-        {
-            id: 19,
-            name: 'გამოვიყენოთ დიაგრამები მათემატიკური ამოცანების ამოსახსნელად',
-            link: 'Computer-Science/Class-5/Using-diagrams-19/1.html'
-        },
-        {
-            id: 20,
-            name: 'სორტირება და ფილტრაცია ელექტრონულ ცხრილებში',
-            link: 'Computer-Science/Class-5/sort-and-filter-20/1.html'
-        },
-        {
-            id: 21,
-            name: 'ხშირად გამოყენებული ფუნქციები MS Excel-ში',
-            link: 'Computer-Science/Class-5/function-in-Exel-21/1.html'
-        },
-        {
-            id: 22,
-            name: 'კონფიდენციალობა ელ. ფოსტასა და ღრუბლოვან სერვისებში',
-            link: 'Computer-Science/Class-5/Privacy-in-email-22/1.html'
-        },
-        {
-            id: 23,
-            name: 'ინფორმაციულ რესურსებზე მუშაობა',
-            link: 'Computer-Science/Class-5/Informational-resources-23/1.html'
-        },
-        {
-            id: 24,
-            name: 'საკუთარი მონაცემების დაცვა',
-            link: 'Computer-Science/Class-5/Protect-your-data-24/1.html'
-        },
-        {
-            id: 25,
-            name: 'ინფორმაციული საზოგადოების განვითარება',
-            link: 'Computer-Science/Class-5/develop-informational-society-25/1.html'
-        },
-        {
-            id: 26,
-            name: 'კომპიუტერული ტექნოლოგიები ჩვენს ცხოვრებაში',
-            link: 'Computer-Science/Class-5/Computer-technologies-in-our-life-26/1.html'
-        },
-        {
-            id: 27,
-            name: 'Ms Excel ელექტრონული ცხრილის გაფორმება',
-            link: 'Computer-Science/Class-5/Decorate-electronic-table-27/1.html'
-        },
-        {
-            id: 28,
-            name: 'Ms Excel ფაილზე მუშაობა',
-            link: 'Computer-Science/Class-5/working-with-excel-file-28/1.html'
-        },
-    ],
-    IT_6: [
-        {
-            id: 1,
-            name: 'ვიწყებთ თამაშის კეთებას',
-            link: 'Computer-Science/Class-6/create-game-1/1.html'
-        },
-        {
-            id: 2,
-            name: 'პირობითი ოპერატორები (ჩადგმული პირობითი ოპერატორები)',
-            link: 'Computer-Science/Class-6/Conditional-operators-2/1.html'
-        },
-        {
-            id: 3,
-            name: 'ჩადგმული ციკლები',
-            link: 'Computer-Science/Class-6/embedded-cycles-3/1.html'
-        },
-        {
-            id: 4,
-            name: 'ცვლადები',
-            link: 'Computer-Science/Class-6/Variables-4/1.html'
-        },
-        {
-            id: 5,
-            name: 'ოპერატორები',
-            link: 'Computer-Science/Class-6/Operators-5/1.html'
-        },
-        {
-            id: 6,
-            name: 'არითმეტიკული ოპერატორები',
-            link: 'Computer-Science/Class-6/Arithmetic-operators-6/1.html'
-        },
-        {
-            id: 7,
-            name: 'მოვლენები, მოვლენებზე რეაგირება',
-            link: 'Computer-Science/Class-6/Responding-to-events-7/1.html'
-        },
-        {
-            id: 8,
-            name: 'ცვლადების გამოყენება ',
-            link: 'Computer-Science/Class-6/Using-variables-8/1.html'
-        },
-        {
-            id: 9,
-            name: 'სია',
-            link: 'Computer-Science/Class-6/List-9/1.html'
-        },
-        {
-            id: 10,
-            name: 'Android გრაფიკული ინტერფეისის გზამკვლევი',
-            link: 'Computer-Science/Class-6/Android-graphics-interface-guide-10/1.html'
-        },
-        {
-            id: 11,
-            name: 'ios გრაფიკული ინტერფეისი',
-            link: 'Computer-Science/Class-6/ios-graphical-interface-11/1.html'
-        },
-        {
-            id: 12,
-            name: 'Windows-ის გრაფიკული ინტერფეისი',
-            link: 'Computer-Science/Class-6/Windows-UI-12/1.html'
-        },
-        {
-            id: 13,
-            name: 'შევქმნათ ჩვენი პრეზენტაცია',
-            link: 'Computer-Science/Class-6/Create-our-presentation-13/1.html'
-        },
-        {
-            id: 14,
-            name: 'ფოტო რედაქტორი',
-            link: 'Computer-Science/Class-6/Photo-editor-14/1.html'
-        },
-        {
-            id: 15,
-            name: 'ჩვენი პოდკასტი',
-            link: 'Computer-Science/Class-6/Our-podcast-15/1.html'
-        },
-        {
-            id: 16,
-            name: 'ჩვენი ტკბილი მოგონებები',
-            link: 'Computer-Science/Class-6/Our-sweet-memories-16/1.html'
-        },
-        {
-            id: 17,
-            name: 'უსაფრთხოება ციფრულ სამყაროში',
-            link: 'Computer-Science/Class-6/Secure-digital-world-17/1.html'
-        },
-        {
-            id: 18,
-            name: 'მულტიმედია ფაილების შესაქმნელი ონლაინ პლატფორმები',
-            link: 'Computer-Science/Class-6/Multimedia-online-platforms-18/1.html'
-        },
-        {
-            id: 19,
-            name: 'ჩემი პროექტის პრეზენტაცია',
-            link: 'Computer-Science/Class-6/Presentation-of-my-project-19/1.html'
-        },
-        {
-            id: 20,
-            name: 'ინტერაქტიული კონტენტის შექმნა',
-            link: 'Computer-Science/Class-6/Creating-interactive-content-20/1.html'
-        },
-        {
-            id: 21,
-            name: 'ინფორმაციული ეთიკის ნორმები',
-            link: 'Computer-Science/Class-6/Information-ethics-norms-21/1.html'
-        },
-        {
-            id: 22,
-            name: 'სოციალური პასუხისმგებლობა, პირადი სივრცე',
-            link: 'Computer-Science/Class-6/Social-responsibility-22/1.html'
-        },
-        {
-            id: 23,
-            name: 'საკუთარი და სხვისი უფლებები ციფრულ სამყაროში',
-            link: 'Computer-Science/Class-6/rights-in-digital-world-23/1.html'
-        },
-        {
-            id: 24,
-            name: 'ბალანსი ვირტუალურსა და რეალურ ცხოვრებას შორის',
-            link: 'Computer-Science/Class-6/Real-&-virtual-world-balance-24/1.html'
-        },
-        {
-            id: 25,
-            name: 'შევქმნათ თამაში დროის ობიექტების გამოყენებით',
-            link: 'Computer-Science/Class-6/Creating-games-with-objects-25/1.html'
-        },
-        {
-            id: 26,
-            name: 'ვიზუალური პროგრამირების გარემოში, Scratch-ში, შევქმნათ თამაში დროის ობიექტისა და ცვლადების გამოყენებით',
-            link: 'Computer-Science/Class-6/Creating-game-in-scratch-26/1.html'
-        },
-        {
-            id: 27,
-            name: 'Scratch-ში შევქმნათ ორტურიანი თამაში',
-            link: 'Computer-Science/Class-6/Creating-two-tours-game-27/1.html'
-        },
-        {
-            id: 28,
-            name: 'Scratch-ში შევქმნათ თამაში ცვლადების გამოყენებით',
-            link: 'Computer-Science/Class-6/Creating-game-in-scratch-28/1.html'
-        },
-    ]
-}
+  music: [
+    {
+      id: 1,
+      name: "ქალაქისა და სოფლის ხმები",
+      link: "Music-Class/voices-1/1.html",
+    },
+    {
+      id: 2,
+      name: "ქალაქის ხმები",
+      link: "Music-Class/city-voices-2/1.html",
+    },
+    {
+      id: 3,
+      name: "გავიგნოთ გზა ხმებით",
+      link: "Music-Class/findWayBySound-3/1.html",
+    },
+    {
+      id: 4,
+      name: "ვსეირნობთ მუსიკალურ ქალაქში",
+      link: "Music-Class/Walk-in-the-city-4/1.html",
+    },
+    {
+      id: 5,
+      name: "ჩემი ცხოვრების ერთი დღე",
+      link: "Music-Class/One-day-5/1.html",
+    },
+    {
+      id: 6,
+      name: "შევქმნათ ხმაურისგან მუსიკა",
+      link: "Music-Class/Create-music-from-noise-6/1.html",
+    },
+    {
+      id: 7,
+      name: "შევქმნათ გადაცემის ქუდი",
+      link: "Music-Class/Create-broadcast-hat-7/1.html",
+    },
+    {
+      id: 8,
+      name: "შევქმნათ გადაცემის აუდიო ანონსი",
+      link: "Music-Class/Create-broadcast-audio-8/1.html",
+    },
+    {
+      id: 9,
+      name: "გამოვიყენოთ მუსიკა თამაშისთვის",
+      link: "Music-Class/Game-music-9/1.html",
+    },
+    {
+      id: 10,
+      name: "შევარჩიოთ ფონური მუსიკა",
+      link: "Music-Class/Choose-background-music-10/1.html",
+    },
+    {
+      id: 11,
+      name: "მუსიკა ანიმაციასა და საყმაწვილო კინოში",
+      link: "Music-Class/Music-in-animation-and-cinema-11/1.html",
+    },
+    {
+      id: 12,
+      name: " შევქმნათ საუნდტრეკი ანიმაციური ფილმისთვის",
+      link: "Music-Class/Create-animation-sountrack-12/1.html",
+    },
+  ],
+  art: [
+    {
+      id: 1,
+      name: "ფერებით მოთხრობილი ამბავი",
+      link: "Art-Class/color_story/1.html",
+    },
+    {
+      id: 2,
+      name: "მშვიდი და ბობოქარი",
+      link: "Art-Class/Calm_&_stormy/1.html",
+    },
+    {
+      id: 3,
+      name: "ტყე",
+      link: "Art-Class/Forest/1.html",
+    },
+    {
+      id: 4,
+      name: "ჯადოსნური ქვეყანა",
+      link: "Art-Class/Magic-world/1.html",
+    },
+    {
+      id: 5,
+      name: "თავგადასავალი",
+      link: "Art-Class/Adventure/1.html",
+    },
+    {
+      id: 6,
+      name: "პეიზაჟი",
+      link: "Art-Class/Landscape-6/1.html",
+    },
+    {
+      id: 7,
+      name: "ქალაქი",
+      link: "Art-Class/City-07/1.html",
+    },
+    {
+      id: 8,
+      name: 'პლაკატი "გადავარჩინოთ ბუნება"',
+      link: "Art-Class/rescue_nature_08/1.html",
+    },
+    {
+      id: 9,
+      name: "მე და ჩემი მეგობრები",
+      link: "Art-Class/friends_09/1.html",
+    },
+    {
+      id: 10,
+      name: "ჩვეულებრივი და არაჩვეულებრივი ნივთები",
+      link: "Art-Class/items-10/1.html",
+    },
+    {
+      id: 11,
+      name: "ყოველდღიური ამბები",
+      link: "Art-Class/daily-news-11/1.html",
+    },
+    {
+      id: 12,
+      name: "ვირტუალური გამოფენა",
+      link: "Art-Class/VR_exhibition/1.html",
+    },
+  ],
+  nature: [
+    {
+      id: 1,
+      name: "საშიში სათამაშოები",
+      link: "Nature-Class/dangerous-toys/1.html",
+    },
+    {
+      id: 2,
+      name: "უხილავი ძალები",
+      link: "Nature-Class/invisible_forces/1.html",
+    },
+    {
+      id: 3,
+      name: "რატომ იცვალა ტყემ ფერი?",
+      link: "Nature-Class/Forest-colors/1.html",
+    },
+    {
+      id: 4,
+      name: "რატომ მოიწყინა ჩემმა ყვავილმა",
+      link: "Nature-Class/The-living-world-4/1.html",
+    },
+    {
+      id: 5,
+      name: "სად დაიმალა მზე?",
+      link: "Nature-Class/Where-sun-goes/1.html",
+    },
+    {
+      id: 6,
+      name: "შეიძლება ზაფხული ზამთარში იყოს?",
+      link: "Nature-Class/Summer-in-winter/1.html",
+    },
+    {
+      id: 7,
+      name: "რატომ არის ბრუცა ბრმა?",
+      link: "Nature-Class/Bruca-07/1.html",
+    },
+    {
+      id: 8,
+      name: "თეთრი - ვარდისფერი ფლამინგო",
+      link: "Nature-Class/flamingo-08/1.html",
+    },
+    {
+      id: 9,
+      name: "დედამიწის გარშემო 80 დღეზე სწრაფად",
+      link: "Nature-Class/around-world-09/1.html",
+    },
+    {
+      id: 10,
+      name: "რატომ არის ანას ქურთუკი ძალიან თბილი?",
+      link: "Nature-Class/coat-10/1.html",
+    },
+    {
+      id: 11,
+      name: "როგორ ვაჯობოთ ბიჭებს „შერკინებაში?”",
+      link: "Nature-Class/sport/1.html",
+    },
+    {
+      id: 12,
+      name: "გვინდა თოვლი დაბადების დღეზე!",
+      link: "Nature-Class/snow-12/1.html",
+    },
+  ],
+  IT_2: [
+    {
+      id: 1,
+      name: "პირობითი ნიშნების ენა",
+      link: "Computer-Science/Class-2/conditional-signs-1/1.html",
+    },
+    {
+      id: 2,
+      name: "პირობითი ნიშნები ჩვენ ირგვლივ",
+      link: "Computer-Science/Class-2/marks-2/1.html",
+    },
+    {
+      id: 3,
+      name: "ნაწილი და მთელი",
+      link: "Computer-Science/Class-2/part&whole-3/1.html",
+    },
+    {
+      id: 4,
+      name: ",,ციკლები” ჩვენს ცხოვრებაში",
+      link: "Computer-Science/Class-2/cycle-4/1.html",
+    },
+    {
+      id: 5,
+      name: "ციკლების შექმნა ",
+      link: "Computer-Science/Class-2/Creating-cycles-5/1.html",
+    },
+    {
+      id: 6,
+      name: "მომხმარებლის გრაფიკული ინტერფეისი",
+      link: "Computer-Science/Class-2/user-interface-6/1.html",
+    },
+    {
+      id: 7,
+      name: "კომპიუტერისა და პროგრამების მართვა",
+      link: "Computer-Science/Class-2/programs-management-7/1.html",
+    },
+    {
+      id: 8,
+      name: "კომპიუტერული პროგრამებით დავალების შესრულება",
+      link: "Computer-Science/Class-2/programing-8/1.html",
+    },
+    {
+      id: 9,
+      name: "კომპიუტერული ტექნოლოგიების გამოყენების იდენტიფიცირება",
+      link: "Computer-Science/Class-2/Identify-with-computer-9/1.html",
+    },
+    {
+      id: 10,
+      name: "რა არის ქსელი და როგორ ვერთიანდებით ჩვენ მასში",
+      link: "Computer-Science/Class-2/network-10/1.html",
+    },
+    {
+      id: 11,
+      name: "ინფორმაციის შენახვა ფიზიკურ გარემოში",
+      link: "Computer-Science/Class-2/Storing-information-11/1.html",
+    },
+    {
+      id: 12,
+      name: "საკუთარ ანგარიშში მუშაობა",
+      link: "Computer-Science/Class-2/working-with-account-12/1.html",
+    },
+  ],
+  IT_3: [
+    {
+      id: 1,
+      name: "კომპიუტერის შექმნისა და განვითარების მოკლე ისტორია",
+      link: "Computer-Science/Class-3/computer-development-1/1.html",
+    },
+    {
+      id: 2,
+      name: "კომპიუტერის დამატებითი და ძირითადი მოწყობილობები",
+      link: "Computer-Science/Class-3/computer-equipment-2/1.html",
+    },
+    {
+      id: 3,
+      name: "როგორ მუშაობს კომპიუტერი",
+      link: "Computer-Science/Class-3/How-computer-works-3/1.html",
+    },
+    {
+      id: 4,
+      name: "ალგორითმი და ალგორითმის შემუშავება",
+      link: "Computer-Science/Class-3/algorithmes-4/1.html",
+    },
+    {
+      id: 5,
+      name: "რა არის პროგრამული ენა",
+      link: "Computer-Science/Class-3/programming-language-5/1.html",
+    },
+    {
+      id: 6,
+      name: "ვიზუალური კომუნიკაციის ენა",
+      link: "Computer-Science/Class-3/Visual-Communication-6/1.html",
+    },
+    {
+      id: 7,
+      name: "გავეცნოთ ვიზუალურ პროგრამირებას",
+      link: "Computer-Science/Class-3/Visual-programing-7/1.html",
+    },
+    {
+      id: 8,
+      name: "როგორ მუშაობს ინტერნეტი",
+      link: "Computer-Science/Class-3/internet-8/1.html",
+    },
+    {
+      id: 9,
+      name: "რა არის საძიებო სისტემა და  როგორ გამოვიყენოთ იგი",
+      link: "Computer-Science/Class-3/search-engine-9/1.html",
+    },
+    {
+      id: 10,
+      name: "ღრუბლოვანი სერვისები",
+      link: "Computer-Science/Class-3/Cloud-services-10/1.html",
+    },
+    {
+      id: 11,
+      name: "პრეზენტაციის შექმნა (Ms PowerPoint)",
+      link: "Computer-Science/Class-3/Presentation-11/1.html",
+    },
+    {
+      id: 12,
+      name: "საკუთარი Office 365-ის ანგარიშის მართვა",
+      link: "Computer-Science/Class-3/managing-office365-12/1.html",
+    },
+    {
+      id: 13,
+      name: "გაქვს სახლში რობოტი?",
+      link: "Computer-Science/Class-3/Do-you-have-robot-13/1.html",
+    },
+    {
+      id: 14,
+      name: "ბინარული სამაჯურის საიდუმლო",
+      link: "Computer-Science/Class-3/Mystery-of-binary-bracelet-14/1.html",
+    },
+    {
+      id: 15,
+      name: "ჩემი პირველი გმირების ისტორია",
+      link: "Computer-Science/Class-3/First-heroes-15/1.html",
+    },
+    {
+      id: 16,
+      name: "როგორ იქცევა ჩემი მეგობარი რობოტი",
+      link: "Computer-Science/Class-3/How-my-robot-acts-16/1.html",
+    },
+  ],
+  IT_4: [
+    {
+      id: 1,
+      name: "მარტივი ელოქტრონული მოწყობილობის გამართვა",
+      link: "Computer-Science/Class-4/Maintain-electronic-device-1/1.html",
+    },
+    {
+      id: 2,
+      name: "შეცდომები პროგრამირებაში",
+      link: "Computer-Science/Class-4/programing-mistakes-2/1.html",
+    },
+    {
+      id: 3,
+      name: "პროგრამის ქცევის პროგნოზირება",
+      link: "Computer-Science/Class-4/Predicting-behavior-3/1.html",
+    },
+    {
+      id: 4,
+      name: "პროგრამის შექმნის პროცესის გააზრება",
+      link: "Computer-Science/Class-4/Creating-program-4/1.html",
+    },
+    {
+      id: 5,
+      name: "მომხმარებლის გრაფიკული ინტერფეისი",
+      link: "Computer-Science/Class-4/UI-5/1.html",
+    },
+    {
+      id: 6,
+      name: "ღრუბლოვანი სერვისების სათანადოდ გამოყენება",
+      link: "Computer-Science/Class-4/Cloud-services-6/1.html",
+    },
+    {
+      id: 7,
+      name: "ტექსტური რედაქტორი და მისი ძირითადი ინსტრუმენტები",
+      link: "Computer-Science/Class-4/Text-editor-&-tools-7/1.html",
+    },
+    {
+      id: 8,
+      name: "ტექსტის სწორება (Ms Word)",
+      link: "Computer-Science/Class-4/correcting-text-8/1.html",
+    },
+    {
+      id: 9,
+      name: "შაბლონი და ცხრილი",
+      link: "Computer-Science/Class-4/template-and-table-9/1.html",
+    },
+    {
+      id: 10,
+      name: "ტექსტური რედაქტორის გამოყენება ყოველდღიურ ცხოვრებაში",
+      link: "Computer-Science/Class-4/text-editor-10/1.html",
+    },
+    {
+      id: 11,
+      name: "ელექტრონული ფოსტის გადაგზავნა, მიღება",
+      link: "Computer-Science/Class-4/Sending-email-11/1.html",
+    },
+    {
+      id: 12,
+      name: "რა არის ინფორმაცია",
+      link: "Computer-Science/Class-4/What-is-information-12/1.html",
+    },
+    {
+      id: 13,
+      name: "როგორ შევქმნათ ელექტრონული წიგნები და ბროშურები Ms Word-ში",
+      link: "Computer-Science/Class-4/Books-and-brochures-13/1.html",
+    },
+    {
+      id: 14,
+      name: "ჯგუფური მუშაობა ღრუბლოვან სერვისებში",
+      link: "Computer-Science/Class-4/Group-work-14/1.html",
+    },
+    {
+      id: 15,
+      name: "გასეირნება ინტერნეტში",
+      link: "Computer-Science/Class-4/Walking-in-internet-15/1.html",
+    },
+    {
+      id: 16,
+      name: "როგორ გავაფორმოთ ტექსტურ რედაქტორ Ms Word-ში დაწერილი ტექსტი",
+      link: "Computer-Science/Class-4/How-to-form-text-16/1.html",
+    },
+  ],
+  IT_5: [
+    {
+      id: 1,
+      name: "პირობითი ნიშნები კომპიუტერულ პროგრამებში",
+      link: "Computer-Science/Class-5/conditional-marks-1/1.html",
+    },
+    {
+      id: 2,
+      name: "ჩემი პირველი რობოტი",
+      link: "Computer-Science/Class-5/My-first-robot-2/1.html",
+    },
+    {
+      id: 3,
+      name: "რა არის კომპიუტერული პროგრამა",
+      link: "Computer-Science/Class-5/What-is-program-3/1.html",
+    },
+    {
+      id: 4,
+      name: "ობიექტის გადაადგილება ვიზუალური კოდის საშუალებით",
+      link: "Computer-Science/Class-5/objects-moving-4/1.html",
+    },
+    {
+      id: 5,
+      name: "ფუნქცია",
+      link: "Computer-Science/Class-5/function-5/1.html",
+    },
+    {
+      id: 6,
+      name: "პარალელური პროგრამირება",
+      link: "Computer-Science/Class-5/parallel-programming-6/1.html",
+    },
+    {
+      id: 7,
+      name: "უსასრულო ციკლები",
+      link: "Computer-Science/Class-5/Infinite-cycles-7/1.html",
+    },
+    {
+      id: 8,
+      name: "სასრულო ციკლები",
+      link: "Computer-Science/Class-5/Cycles-8/1.html",
+    },
+    {
+      id: 9,
+      name: "პირობითი ოპერატორები",
+      link: "Computer-Science/Class-5/conditional-operators-9/1.html",
+    },
+    {
+      id: 10,
+      name: "ობიექტები",
+      link: "Computer-Science/Class-5/objects-10/1.html",
+    },
+    {
+      id: 11,
+      name: "ინფორმაციის დამახსოვრება",
+      link: "Computer-Science/Class-5/Remember-information-11/1.html",
+    },
+    {
+      id: 12,
+      name: "სხვადასხვა კომპიუტერული მოწყობილობის ინტერფეისი",
+      link: "Computer-Science/Class-5/interface-of-devices-12/1.html",
+    },
+    {
+      id: 13,
+      name: "კონტენტი და მისი დახარისხების მეთოდები",
+      link: "Computer-Science/Class-5/Sorting-methods-13/1.html",
+    },
+    {
+      id: 14,
+      name: "ინფორმაციის ცხრილში აღრიცხვა",
+      link: "Computer-Science/Class-5/Information-in-the-table-14/1.html",
+    },
+    {
+      id: 15,
+      name: "ცხრილებთან მუშაობა",
+      link: "Computer-Science/Class-5/Working-with-tables-15/1.html",
+    },
+    {
+      id: 16,
+      name: "ელექტრონულ ცხრილებში მონაცემების შეტანა",
+      link: "Computer-Science/Class-5/Enter-table-data-16/1.html",
+    },
+    {
+      id: 17,
+      name: "მაგალითები და ფორმულები ელექტრონულ სივრცეში",
+      link: "Computer-Science/Class-5/Examples-and-formulas-17/1.html",
+    },
+    {
+      id: 18,
+      name: "დიაგრამა ელოქტრონულ ცხრილში",
+      link: "Computer-Science/Class-5/diagram-in-electronic-table-18/1.html",
+    },
+    {
+      id: 19,
+      name: "გამოვიყენოთ დიაგრამები მათემატიკური ამოცანების ამოსახსნელად",
+      link: "Computer-Science/Class-5/Using-diagrams-19/1.html",
+    },
+    {
+      id: 20,
+      name: "სორტირება და ფილტრაცია ელექტრონულ ცხრილებში",
+      link: "Computer-Science/Class-5/sort-and-filter-20/1.html",
+    },
+    {
+      id: 21,
+      name: "ხშირად გამოყენებული ფუნქციები MS Excel-ში",
+      link: "Computer-Science/Class-5/function-in-Exel-21/1.html",
+    },
+    {
+      id: 22,
+      name: "კონფიდენციალობა ელ. ფოსტასა და ღრუბლოვან სერვისებში",
+      link: "Computer-Science/Class-5/Privacy-in-email-22/1.html",
+    },
+    {
+      id: 23,
+      name: "ინფორმაციულ რესურსებზე მუშაობა",
+      link: "Computer-Science/Class-5/Informational-resources-23/1.html",
+    },
+    {
+      id: 24,
+      name: "საკუთარი მონაცემების დაცვა",
+      link: "Computer-Science/Class-5/Protect-your-data-24/1.html",
+    },
+    {
+      id: 25,
+      name: "ინფორმაციული საზოგადოების განვითარება",
+      link: "Computer-Science/Class-5/develop-informational-society-25/1.html",
+    },
+    {
+      id: 26,
+      name: "კომპიუტერული ტექნოლოგიები ჩვენს ცხოვრებაში",
+      link:
+        "Computer-Science/Class-5/Computer-technologies-in-our-life-26/1.html",
+    },
+    {
+      id: 27,
+      name: "Ms Excel ელექტრონული ცხრილის გაფორმება",
+      link: "Computer-Science/Class-5/Decorate-electronic-table-27/1.html",
+    },
+    {
+      id: 28,
+      name: "Ms Excel ფაილზე მუშაობა",
+      link: "Computer-Science/Class-5/working-with-excel-file-28/1.html",
+    },
+  ],
+  IT_6: [
+    {
+      id: 1,
+      name: "ვიწყებთ თამაშის კეთებას",
+      link: "Computer-Science/Class-6/create-game-1/1.html",
+    },
+    {
+      id: 2,
+      name: "პირობითი ოპერატორები (ჩადგმული პირობითი ოპერატორები)",
+      link: "Computer-Science/Class-6/Conditional-operators-2/1.html",
+    },
+    {
+      id: 3,
+      name: "ჩადგმული ციკლები",
+      link: "Computer-Science/Class-6/embedded-cycles-3/1.html",
+    },
+    {
+      id: 4,
+      name: "ცვლადები",
+      link: "Computer-Science/Class-6/Variables-4/1.html",
+    },
+    {
+      id: 5,
+      name: "ოპერატორები",
+      link: "Computer-Science/Class-6/Operators-5/1.html",
+    },
+    {
+      id: 6,
+      name: "არითმეტიკული ოპერატორები",
+      link: "Computer-Science/Class-6/Arithmetic-operators-6/1.html",
+    },
+    {
+      id: 7,
+      name: "მოვლენები, მოვლენებზე რეაგირება",
+      link: "Computer-Science/Class-6/Responding-to-events-7/1.html",
+    },
+    {
+      id: 8,
+      name: "ცვლადების გამოყენება ",
+      link: "Computer-Science/Class-6/Using-variables-8/1.html",
+    },
+    {
+      id: 9,
+      name: "სია",
+      link: "Computer-Science/Class-6/List-9/1.html",
+    },
+    {
+      id: 10,
+      name: "Android გრაფიკული ინტერფეისის გზამკვლევი",
+      link:
+        "Computer-Science/Class-6/Android-graphics-interface-guide-10/1.html",
+    },
+    {
+      id: 11,
+      name: "ios გრაფიკული ინტერფეისი",
+      link: "Computer-Science/Class-6/ios-graphical-interface-11/1.html",
+    },
+    {
+      id: 12,
+      name: "Windows-ის გრაფიკული ინტერფეისი",
+      link: "Computer-Science/Class-6/Windows-UI-12/1.html",
+    },
+    {
+      id: 13,
+      name: "შევქმნათ ჩვენი პრეზენტაცია",
+      link: "Computer-Science/Class-6/Create-our-presentation-13/1.html",
+    },
+    {
+      id: 14,
+      name: "ფოტო რედაქტორი",
+      link: "Computer-Science/Class-6/Photo-editor-14/1.html",
+    },
+    {
+      id: 15,
+      name: "ჩვენი პოდკასტი",
+      link: "Computer-Science/Class-6/Our-podcast-15/1.html",
+    },
+    {
+      id: 16,
+      name: "ჩვენი ტკბილი მოგონებები",
+      link: "Computer-Science/Class-6/Our-sweet-memories-16/1.html",
+    },
+    {
+      id: 17,
+      name: "უსაფრთხოება ციფრულ სამყაროში",
+      link: "Computer-Science/Class-6/Secure-digital-world-17/1.html",
+    },
+    {
+      id: 18,
+      name: "მულტიმედია ფაილების შესაქმნელი ონლაინ პლატფორმები",
+      link: "Computer-Science/Class-6/Multimedia-online-platforms-18/1.html",
+    },
+    {
+      id: 19,
+      name: "ჩემი პროექტის პრეზენტაცია",
+      link: "Computer-Science/Class-6/Presentation-of-my-project-19/1.html",
+    },
+    {
+      id: 20,
+      name: "ინტერაქტიული კონტენტის შექმნა",
+      link: "Computer-Science/Class-6/Creating-interactive-content-20/1.html",
+    },
+    {
+      id: 21,
+      name: "ინფორმაციული ეთიკის ნორმები",
+      link: "Computer-Science/Class-6/Information-ethics-norms-21/1.html",
+    },
+    {
+      id: 22,
+      name: "სოციალური პასუხისმგებლობა, პირადი სივრცე",
+      link: "Computer-Science/Class-6/Social-responsibility-22/1.html",
+    },
+    {
+      id: 23,
+      name: "საკუთარი და სხვისი უფლებები ციფრულ სამყაროში",
+      link: "Computer-Science/Class-6/rights-in-digital-world-23/1.html",
+    },
+    {
+      id: 24,
+      name: "ბალანსი ვირტუალურსა და რეალურ ცხოვრებას შორის",
+      link: "Computer-Science/Class-6/Real-&-virtual-world-balance-24/1.html",
+    },
+    {
+      id: 25,
+      name: "შევქმნათ თამაში დროის ობიექტების გამოყენებით",
+      link: "Computer-Science/Class-6/Creating-games-with-objects-25/1.html",
+    },
+    {
+      id: 26,
+      name:
+        "ვიზუალური პროგრამირების გარემოში, Scratch-ში, შევქმნათ თამაში დროის ობიექტისა და ცვლადების გამოყენებით",
+      link: "Computer-Science/Class-6/Creating-game-in-scratch-26/1.html",
+    },
+    {
+      id: 27,
+      name: "Scratch-ში შევქმნათ ორტურიანი თამაში",
+      link: "Computer-Science/Class-6/Creating-two-tours-game-27/1.html",
+    },
+    {
+      id: 28,
+      name: "Scratch-ში შევქმნათ თამაში ცვლადების გამოყენებით",
+      link: "Computer-Science/Class-6/Creating-game-in-scratch-28/1.html",
+    },
+  ],
+};
