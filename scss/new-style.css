@@ -55478,4 +55478,34 @@ body {
     font-size: 14px;
   }
 }
-/*# sourceMappingURL=new-style.css.map */
+
+#tableOfContentTwo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#tableOfContentTwo .appendChild--div {
+  width: 25%;
+  height: 80px;
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#tableOfContentTwo .appendChild--div img {
+  height: 100%;
+}
+
+#tableOfContentTwo .appendChild--div span {
+  font-size: 18px;
+  font-family: "ALK Sanet";
+  margin-left: 12px;
+  color: #C5CBCD;
+}

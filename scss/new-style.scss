@@ -45,3 +45,28 @@
     font-size: 14px;
   }
 }
+
+
+#tableOfContentTwo {
+  display: flex;
+  flex-wrap: wrap;
+  
+  .appendChild--div {
+    width: 25%;
+    height: 80px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+
+    img {
+      height: 100%;
+    }
+    
+    span {
+      font-size: 18px;
+      font-family: "ALK Sanet";
+      margin-left: 12px;
+      color: #C5CBCD;
+    }
+  }
+}
