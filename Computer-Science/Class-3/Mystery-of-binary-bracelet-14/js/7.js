@@ -61,6 +61,7 @@ function computerGames(){
     }
 
     function lettering(element){
+        byIdchekmarkJS(element, '');
         if(element.children[1].classList.contains('active') && !element.children[2].classList.contains('active')
             && element.children[3].classList.contains('active')){
                 if(element.children[4].classList.contains('active')){
@@ -231,10 +232,15 @@ function computerGames(){
             }
     }
 
-
     this.clickMe = (e) => {
-        e.target.classList.add("active")
-        e.target.style = "background-color: #000000;"
+        if(e.target.classList.contains("active")){
+            $(e.target).removeClass("active");
+            e.target.style = '';
+        }
+        else{
+            e.target.classList.add("active")
+            e.target.style = "background-color: #000000;"
+        }
         checkmarkJS1.forEach(element => {
             lettering(element)
         });
