@@ -50862,6 +50862,125 @@ tr td:first-child {
   height: 100%;
 }
 
+.game-music-10 img {
+  height: 100%;
+}
+
+.game-music-10-1 {
+  height: 57.8vh;
+  max-height: 444px;
+}
+
+.game-music-10-3 {
+  height: 54.42vh;
+  max-height: 418px;
+}
+
+.game-music-10-4 {
+  height: 50vh;
+  max-height: 389px;
+}
+
+.class_music_10-bg_13 {
+  background-image: url("../../img/gakvetilebi/Music-class/Choose-background-music-10/music-10-13.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+
+.class_music_10-bg_13 {
+  background-image: url("../../img/gakvetilebi/Music-class/Choose-background-music-10/music-10-13.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+
+.class_music_10-bg_14 {
+  background-image: url("../../../img/gakvetilebi/Music-class/Choose-background-music-10/music-10-14.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.class_music_10-bg_15 {
+  background-image: url("../../../img/gakvetilebi/Music-class/Choose-background-music-10/music-10-15.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.background-music-title-black-cont {
+  padding-top: 10vh;
+}
+
+.background-music-title-black {
+  color: #243E41;
+  font-family: 'DejaVu Sans Oblique';
+  font-size: 3.64vh;
+}
+
+.class_music_11-bg_20 {
+  background-image: url("../img/gakvetilebi/Music-class/Music-in-animation-and-cinema-11/music-11-20.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.class_music_11-bg_21 {
+  background-image: url("../img/gakvetilebi/Music-class/Music-in-animation-and-cinema-11/music-11-21.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.class_music_11-bg_22 {
+  background-image: url("../img/gakvetilebi/Music-class/Music-in-animation-and-cinema-11/music-11-22.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.class_music_11-bg_23 {
+  background-image: url("../img/gakvetilebi/Music-class/Music-in-animation-and-cinema-11/music-11-23.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.class_music_10-bg_13 {
+  background-image: url("../img/gakvetilebi/Music-class/Choose-background-music-10/music-10-13.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.class_music_10-bg_14 {
+  background-image: url("../img/gakvetilebi/Music-class/Choose-background-music-10/music-10-14.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.class_music_10-bg_15 {
+  background-image: url("../img/gakvetilebi/Music-class/Choose-background-music-10/music-10-15.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
 .animation-music-12 img {
   height: 100%;
 }
@@ -55509,3 +55628,4 @@ body {
   margin-left: 12px;
   color: #C5CBCD;
 }
+/*# sourceMappingURL=new-style.css.map */
