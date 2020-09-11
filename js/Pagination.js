@@ -1,8 +1,6 @@
 document.addEventListener('DOMContentLoaded', async () => {
     var json = await $.getJSON("data.json");
-    let modifierObject = json.pages.filter(w => typeof w.number == "number");
 
-    
     // find page id with regex
     let regex = location.pathname;
     let phormula = /([^\/+]*)$/;
@@ -15,8 +13,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     let pageId = parseInt(finalyResult);
     $('html').attr('pageid', pageId);
 
-    createDots(modifierObject);
-
+    createDots(json);
 
     $('.pagination__item--el').mouseenter(function(){
         let index = $(this).attr('data-index')
@@ -31,22 +28,12 @@ document.addEventListener('DOMContentLoaded', async () => {
 })
 
 
-
-
-function createCurrentDots(num, a) {
-    $(a).removeClass('pagination__dot')
-    $(a).parent().removeClass('pagination__item--el')
-    $(a).addClass('current__pagination')
-    $(a).append(num)
-    
-    a.setAttribute('href', `${num}.html`);
-}
-
-
 function createDots(json) {
     var htmlPageIdAttr = $('html').attr('pageid');
 
-    json.map(i => {
+    let modifierObject = json.pages.filter(w => typeof w.number == "number");
+
+    modifierObject.map(i => {
         let div = document.createElement('div');
 
         $(div).addClass('pagination__item')
@@ -65,6 +52,7 @@ function createDots(json) {
         $(pagination).append(div)
 
         if(htmlPageIdAttr == i.number){
+            console.log('Sevida');
             $('html').attr('data-type', i.type);
             $('html').attr('pages-number', json.pages_number)
             var htmlAttrAllPage = parseInt($('html').attr('pages-number'));
@@ -77,6 +65,16 @@ function createDots(json) {
             getNextAndPrevBtn(htmlAttrAllPage, nextElement, prevElement)
         }  
     })
+}
+
+
+function createCurrentDots(num, a) {
+    $(a).removeClass('pagination__dot')
+    $(a).parent().removeClass('pagination__item--el')
+    $(a).addClass('current__pagination')
+    $(a).append(num)
+    
+    a.setAttribute('href', `${num}.html`);
 }
 
 function getTypes(){
@@ -93,7 +91,8 @@ function getTypes(){
 function getNextAndPrevBtn(pagesLength, next, prev) {
     let htmlAttr = parseInt($('html').attr('pageid'));
 
-    
+    console.log(pagesLength);
+
     if (htmlAttr == pagesLength){
         $('.pagination__next__btn').attr('style', 'display: none')
     
