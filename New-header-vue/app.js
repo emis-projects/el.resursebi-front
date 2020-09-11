@@ -612,18 +612,37 @@ Vue.component("appSections", {
       },
       itClass: "",
       activeTitle: "",
+      fullData: null,
+      isTypes: true,
+      dataTypes: [],
+      dataByType: [],
+      typeInfo: {
+        1: {
+          text: "ნაბიჯი",
+          img: "../../../img/icons/davalebebi/nabiji-white.svg",
+        },
+        2: {
+          text: "სავარჯიშო",
+          img: "../../../img/icons/davalebebi/savarjisho-white.svg",
+        },
+        3: {
+          text: "მინიშნება",
+          img: "../../../img/icons/davalebebi/minishneba-white.svg",
+        },
+        4: {
+          text: "შუალედური დავალება",
+          img: "../../../img/icons/davalebebi/shualeduri-white.svg",
+        },
+        5: {
+          text: "კომპლექსური დავალება",
+          img: "../../../img/icons/davalebebi/kompleqsuri-white.svg",
+        },
+      },
     };
   },
   async mounted() {
-    let types = [];
-    let mainData = [];
-    let index1 = 0;
-    let index2 = 0;
-    let index3 = 0;
-    let index4 = 0;
-    let index5 = 0;
-
     const data = await $.getJSON("data.json");
+    this.fullData = data;
     let classId = parseInt(data.lesson_id);
     let Url = window.location.href.toLowerCase();
     if (Url.includes("art-class")) {
@@ -658,72 +677,25 @@ Vue.component("appSections", {
 
     this.activeTitle = activeClassData[0].name;
 
-
-    getTypes = (data) => {
-      if(data.type == 1) {
-          if(index1 == 0) {
-              types.push({ ...data, text: "ნაბიჯი", img: "../../../img/icons/davalebebi/nabiji-white.svg" })
-              index1++
-          }
-      } else if(data.type == 2) {
-          if(index2 == 0) {
-              types.push({ ...data, text: "სავარჯიშო", img: "../../../img/icons/davalebebi/savarjisho-white.svg" })
-              index2++
-          }
-  
-      } else if(data.type == 3) {
-          if(index4 == 0) {
-              types.push({ ...data, text: "მინიშნება", img: "../../../img/icons/davalebebi/minishneba-white.svg"})
-              index3++
-          }
-  
-      } else if(data.type == 4) {
-          if(index4 == 0) {
-              types.push({ ...data, text: "შუალედური დავალება", img: "../../../img/icons/davalebebi/shualeduri-white.svg"})
-              index4++
-          }
-  
-      } else if(data.type == 5) {
-          if(index5 == 0) {
-              types.push({ ...data, text: "კომპლექსური დავალება", img: "../../../img/icons/davalebebi/kompleqsuri-white.svg" })
-              index5++
-          }
-      }
-  }
-  
-
-    // ამ ფილტრით ხდება null ების და ignore ების ამოშლა
-    var modifierObject = data.pages.filter(w => w.type !== null  && !w.ignore).map(w => {
-      getTypes(w)
-
-      return { ...w, url: w.number }
-    })
-
-    mainData = modifierObject;
-
-
-    types.map(w => {
-      let div = document.createElement('div')
-      let img = document.createElement('img')
-      let span = document.createElement('span')
-
-      div.classList.add('appendChild--div')
-      img.classList.add('appendChild--img')
-      img.setAttribute('src', `${w.img}`)
-
-      span.innerText = w.text;
-
-      div.appendChild(img)
-      div.appendChild(span)
-
-      document.getElementById('tableOfContentTwo').appendChild(div)
-        
-    })
-
+    // ჯეისონიდან განსხვავებული ტიპების ამოღება
+    this.dataTypes = [...new Set(data.pages.map((item) => item.type))].filter(
+      (x) => x !== null
+    );
   },
   computed: {
     itClassText() {
       if (this.itClass !== "") return this.itClass + " კლასი > ";
+    },
+  },
+  methods: {
+    getSimilarTypes(type) {
+      this.dataByType = this.fullData.pages.filter(
+        (item) => item.type === type
+      );
+      this.isTypes = false;
+    },
+    goToPage(page) {
+      window.location = page + ".html";
     },
   },
   template: `
@@ -735,7 +707,18 @@ Vue.component("appSections", {
             appear>
             <div v-if="isActive" :class="'app-sections'" class="page-section">
                 <p class="app-select_title">{{ activeClass.title  }} > {{itClassText}}<span>{{activeTitle}}</span></p>
-                <div id="tableOfContentTwo"></div>
+                <div id="tableOfContentTwo" v-if="isTypes">
+                  <div class="appendChild--div" v-for="item in dataTypes" :key="item" @click="getSimilarTypes(item)">
+                    <img class="appendChild--img" :src="typeInfo[item].img"/>
+                    <span>{{typeInfo[item].text}}</span>
+                  </div>
+                </div>
+                <div id="tableOfContentTwo" v-else>
+                  <div class="appendChild--div" v-for="(item, index) in dataByType" :key="index" @click="goToPage(item.number)">
+                    <img class="appendChild--img" :src="typeInfo[item.type].img"/>
+                    <span>{{typeInfo[item.type].text}} {{index + 1 }}</span>
+                  </div>
+                </div>
             </div>
         </transition>
         `,
