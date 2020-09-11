@@ -55474,7 +55474,7 @@ body {
             align-items: center;
     height: 100%;
     width: 90%;
-    font-family: 'ALK Sanet';
+    font-family: "ALK Sanet";
     font-size: 14px;
   }
 }
@@ -55497,6 +55497,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  cursor: pointer;
 }
 
 #tableOfContentTwo .appendChild--div img {
@@ -55507,5 +55508,6 @@ body {
   font-size: 18px;
   font-family: "ALK Sanet";
   margin-left: 12px;
-  color: #C5CBCD;
+  color: #c5cbcd;
 }
+/*# sourceMappingURL=new-style.css.map */

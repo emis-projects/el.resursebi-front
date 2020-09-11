@@ -686,6 +686,13 @@ Vue.component("appSections", {
     itClassText() {
       if (this.itClass !== "") return this.itClass + " კლასი > ";
     },
+    typeIteration() {
+      if (this.isTypes) {
+        return this.dataTypes;
+      } else {
+        return this.dataByType;
+      }
+    },
   },
   methods: {
     getSimilarTypes(type) {
@@ -706,19 +713,34 @@ Vue.component("appSections", {
             mode="out-in"
             appear>
             <div v-if="isActive" :class="'app-sections'" class="page-section">
-                <p class="app-select_title">{{ activeClass.title  }} > {{itClassText}}<span>{{activeTitle}}</span></p>
-                <div id="tableOfContentTwo" v-if="isTypes">
-                  <div class="appendChild--div" v-for="item in dataTypes" :key="item" @click="getSimilarTypes(item)">
-                    <img class="appendChild--img" :src="typeInfo[item].img"/>
-                    <span>{{typeInfo[item].text}}</span>
-                  </div>
-                </div>
-                <div id="tableOfContentTwo" v-else>
-                  <div class="appendChild--div" v-for="(item, index) in dataByType" :key="index" @click="goToPage(item.number)">
-                    <img class="appendChild--img" :src="typeInfo[item.type].img"/>
-                    <span>{{typeInfo[item.type].text}} {{index + 1 }}</span>
-                  </div>
-                </div>
+                <transition
+                  enter-active-class="animated fadeIn"
+                  leave-active-class="animated fadeOut"
+                  :duration="500"
+                  mode="out-in"
+                  appear>
+                  <p v-if="isTypes" key="title"  class="app-select_title">{{ activeClass.title  }} > {{itClassText}}<span>{{activeTitle}}</span></p>
+                  <p v-else key="back"  class="app-select_title" @click="isTypes = !isTypes">< უკან</p>
+                </transition>
+                <transition
+                  enter-active-class="animated fadeIn"
+                  leave-active-class="animated slideOutDown"
+                  :duration="500"
+                  mode="out-in"
+                  appear>
+                    <div id="tableOfContentTwo" v-if="isTypes" key="5">
+                      <div class="appendChild--div" v-for="item in typeIteration" :key="item" @click="getSimilarTypes(item)">
+                        <img class="appendChild--img" :src="typeInfo[item].img"/>
+                        <span>{{typeInfo[item].text}}</span>
+                      </div>
+                    </div>
+                    <div id="tableOfContentTwo" v-else key="4">
+                      <div class="appendChild--div" v-for="(item, index) in dataByType" :key="index" @click="goToPage(item.number)">
+                        <img class="appendChild--img" :src="typeInfo[item.type].img"/>
+                        <span>{{typeInfo[item.type].text}} {{index + 1 }}</span>
+                      </div>
+                    </div>
+                </transition>
             </div>
         </transition>
         `,
