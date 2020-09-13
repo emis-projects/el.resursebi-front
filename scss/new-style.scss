@@ -19,7 +19,6 @@
 
 @import "Modules/base";
 
-
 .canvas-container {
   width: 100% !important;
 }
@@ -29,7 +28,6 @@
   left: 0;
   top: 0;
   width: 100%;
-
 }
 
 @media screen and (min-width: 1000px) {
@@ -41,7 +39,32 @@
     align-items: center;
     height: 100%;
     width: 90%;
-    font-family: 'ALK Sanet';
+    font-family: "ALK Sanet";
     font-size: 14px;
+  }
+}
+
+#tableOfContentTwo {
+  display: flex;
+  flex-wrap: wrap;
+
+  .appendChild--div {
+    width: 25%;
+    height: 80px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    img {
+      height: 100%;
+    }
+
+    span {
+      font-size: 18px;
+      font-family: "ALK Sanet";
+      margin-left: 12px;
+      color: #c5cbcd;
+    }
   }
 }

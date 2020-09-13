@@ -1957,9 +1957,9 @@ body {
 }
 
 .app-select_title {
-  color: #C5CBCD;
+  color: #c5cbcd;
   font-size: 2vh;
-  font-family: 'ALK Sanet', sans-serif;
+  font-family: "ALK Sanet", sans-serif;
   padding-left: 5px;
 }
 
@@ -1972,12 +1972,12 @@ body {
 }
 
 .app-select_box-content {
-  -webkit-box-shadow: 2px 2px 8px #7FD1D866;
-          box-shadow: 2px 2px 8px #7FD1D866;
+  -webkit-box-shadow: 2px 2px 8px #7fd1d866;
+          box-shadow: 2px 2px 8px #7fd1d866;
   border-radius: 20px;
   height: 6vh;
   max-height: 45px;
-  color: #7FD1D8 !important;
+  color: #7fd1d8 !important;
 }
 
 .app-select_box-content:hover, .app-select_box-content:active {
@@ -1999,7 +1999,7 @@ body {
           align-items: center;
   height: 100%;
   width: 90%;
-  font-family: 'ALK Sanet';
+  font-family: "ALK Sanet";
   font-size: 2.08vh;
   line-height: 2.5vh;
 }
@@ -2027,7 +2027,7 @@ body {
 }
 
 .app-sections {
-  background-color: magenta;
+  background-color: #fff;
 }
 
 #app .bg_menu {
@@ -2055,7 +2055,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   border-radius: 100%;
-  color: #DC6C85;
+  color: #dc6c85;
   cursor: pointer;
 }
 
@@ -2063,15 +2063,15 @@ body {
   margin: 0 10px;
   height: 10px;
   width: 10px;
-  background: #00D5D5;
-  -webkit-transition: all .3s ease;
-  transition: all .3s ease;
+  background: #00d5d5;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
   position: relative;
   z-index: 444444;
 }
 
 #app .class-pagination .dot p {
-  color: #DC6C85;
+  color: #dc6c85;
   display: none;
 }
 
@@ -2090,20 +2090,21 @@ body {
       -ms-flex-align: center;
           align-items: center;
   border-radius: 100%;
-  color: #DC6C85;
+  color: #dc6c85;
   background: #fff;
   cursor: pointer;
   margin: 0 20px;
-  -webkit-transition: all .3s ease;
-  transition: all .3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 #app .class-pagination .dot:hover p {
   display: block;
 }
 
-#app .class-pagination .next, #app .class-pagination .prev {
-  color: #7FD1D8;
+#app .class-pagination .next,
+#app .class-pagination .prev {
+  color: #7fd1d8;
 }
 
 .color-game-paint-parent {
@@ -50861,6 +50862,125 @@ tr td:first-child {
   height: 100%;
 }
 
+.game-music-10 img {
+  height: 100%;
+}
+
+.game-music-10-1 {
+  height: 57.8vh;
+  max-height: 444px;
+}
+
+.game-music-10-3 {
+  height: 54.42vh;
+  max-height: 418px;
+}
+
+.game-music-10-4 {
+  height: 50vh;
+  max-height: 389px;
+}
+
+.class_music_10-bg_13 {
+  background-image: url("../../img/gakvetilebi/Music-class/Choose-background-music-10/music-10-13.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+
+.class_music_10-bg_13 {
+  background-image: url("../../img/gakvetilebi/Music-class/Choose-background-music-10/music-10-13.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+
+.class_music_10-bg_14 {
+  background-image: url("../../../img/gakvetilebi/Music-class/Choose-background-music-10/music-10-14.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.class_music_10-bg_15 {
+  background-image: url("../../../img/gakvetilebi/Music-class/Choose-background-music-10/music-10-15.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.background-music-title-black-cont {
+  padding-top: 10vh;
+}
+
+.background-music-title-black {
+  color: #243E41;
+  font-family: 'DejaVu Sans Oblique';
+  font-size: 3.64vh;
+}
+
+.class_music_11-bg_20 {
+  background-image: url("../img/gakvetilebi/Music-class/Music-in-animation-and-cinema-11/music-11-20.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.class_music_11-bg_21 {
+  background-image: url("../img/gakvetilebi/Music-class/Music-in-animation-and-cinema-11/music-11-21.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.class_music_11-bg_22 {
+  background-image: url("../img/gakvetilebi/Music-class/Music-in-animation-and-cinema-11/music-11-22.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.class_music_11-bg_23 {
+  background-image: url("../img/gakvetilebi/Music-class/Music-in-animation-and-cinema-11/music-11-23.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.class_music_10-bg_13 {
+  background-image: url("../img/gakvetilebi/Music-class/Choose-background-music-10/music-10-13.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.class_music_10-bg_14 {
+  background-image: url("../img/gakvetilebi/Music-class/Choose-background-music-10/music-10-14.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.class_music_10-bg_15 {
+  background-image: url("../img/gakvetilebi/Music-class/Choose-background-music-10/music-10-15.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
 .animation-music-12 img {
   height: 100%;
 }
@@ -51547,7 +51667,7 @@ tr td:first-child {
 }
 
 .class_3_13-background_img {
-  width: 51vh;
+  width: 400px;
   height: 31.25vh;
   background-color: #7FD1D8;
   opacity: 1;
@@ -55504,8 +55624,43 @@ body {
             align-items: center;
     height: 100%;
     width: 90%;
-    font-family: 'ALK Sanet';
+    font-family: "ALK Sanet";
     font-size: 14px;
   }
 }
+<<<<<<< HEAD
+=======
+
+#tableOfContentTwo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#tableOfContentTwo .appendChild--div {
+  width: 25%;
+  height: 80px;
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+#tableOfContentTwo .appendChild--div img {
+  height: 100%;
+}
+
+#tableOfContentTwo .appendChild--div span {
+  font-size: 18px;
+  font-family: "ALK Sanet";
+  margin-left: 12px;
+  color: #c5cbcd;
+}
+>>>>>>> 059e15d4ab2648a5c51c093fa36b1b2b1142f0c6
 /*# sourceMappingURL=new-style.css.map */

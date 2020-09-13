@@ -1026,9 +1026,9 @@ body {
 }
 
 .app-select_title {
-  color: #C5CBCD;
+  color: #c5cbcd;
   font-size: 2vh;
-  font-family: 'ALK Sanet', sans-serif;
+  font-family: "ALK Sanet", sans-serif;
   padding-left: 5px;
 }
 
@@ -1041,12 +1041,12 @@ body {
 }
 
 .app-select_box-content {
-  -webkit-box-shadow: 2px 2px 8px #7FD1D866;
-          box-shadow: 2px 2px 8px #7FD1D866;
+  -webkit-box-shadow: 2px 2px 8px #7fd1d866;
+          box-shadow: 2px 2px 8px #7fd1d866;
   border-radius: 20px;
   height: 6vh;
   max-height: 45px;
-  color: #7FD1D8 !important;
+  color: #7fd1d8 !important;
 }
 
 .app-select_box-content:hover, .app-select_box-content:active {
@@ -1068,7 +1068,7 @@ body {
           align-items: center;
   height: 100%;
   width: 90%;
-  font-family: 'ALK Sanet';
+  font-family: "ALK Sanet";
   font-size: 2.08vh;
   line-height: 2.5vh;
 }
@@ -1096,7 +1096,7 @@ body {
 }
 
 .app-sections {
-  background-color: magenta;
+  background-color: #fff;
 }
 
 #app .bg_menu {
@@ -1124,7 +1124,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   border-radius: 100%;
-  color: #DC6C85;
+  color: #dc6c85;
   cursor: pointer;
 }
 
@@ -1132,15 +1132,15 @@ body {
   margin: 0 10px;
   height: 10px;
   width: 10px;
-  background: #00D5D5;
-  -webkit-transition: all .3s ease;
-  transition: all .3s ease;
+  background: #00d5d5;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
   position: relative;
   z-index: 444444;
 }
 
 #app .class-pagination .dot p {
-  color: #DC6C85;
+  color: #dc6c85;
   display: none;
 }
 
@@ -1159,20 +1159,21 @@ body {
       -ms-flex-align: center;
           align-items: center;
   border-radius: 100%;
-  color: #DC6C85;
+  color: #dc6c85;
   background: #fff;
   cursor: pointer;
   margin: 0 20px;
-  -webkit-transition: all .3s ease;
-  transition: all .3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 #app .class-pagination .dot:hover p {
   display: block;
 }
 
-#app .class-pagination .next, #app .class-pagination .prev {
-  color: #7FD1D8;
+#app .class-pagination .next,
+#app .class-pagination .prev {
+  color: #7fd1d8;
 }
 
 .color-game-paint-parent {
