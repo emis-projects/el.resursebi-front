@@ -1,3 +1,30 @@
+.game-holder {
+    margin: 0 100px 0 0;
+    span {
+        display: flex;
+        margin-top: -1 !important;
+        .game-block {
+            height: 4.94vh;
+            width: 4.94vh;
+            margin: 0;
+            display: inline-block;
+            border: black 1px solid;
+        }
+    }
+}
+
+.marg-l {
+    margin-left: 50px;
+}
+
+.redBord {
+    border-color: red !important;
+}
+
+.black-bg {
+    background-color: black;
+}
+
 .class_3_14 {
     &-border_bottom {
         width: 8.5vh;

@@ -51804,6 +51804,37 @@ tr td:first-child {
   bottom: 0;
 }
 
+.game-holder {
+  margin: 0 100px 0 0;
+}
+
+.game-holder span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: -1 !important;
+}
+
+.game-holder span .game-block {
+  height: 4.94vh;
+  width: 4.94vh;
+  margin: 0;
+  display: inline-block;
+  border: black 1px solid;
+}
+
+.marg-l {
+  margin-left: 50px;
+}
+
+.redBord {
+  border-color: red !important;
+}
+
+.black-bg {
+  background-color: black;
+}
+
 .class_3_14-border_bottom {
   width: 8.5vh;
   height: 9vh;
@@ -55597,6 +55628,8 @@ body {
     font-size: 14px;
   }
 }
+<<<<<<< HEAD
+=======
 
 #tableOfContentTwo {
   display: -webkit-box;
@@ -55629,4 +55662,5 @@ body {
   margin-left: 12px;
   color: #c5cbcd;
 }
+>>>>>>> 059e15d4ab2648a5c51c093fa36b1b2b1142f0c6
 /*# sourceMappingURL=new-style.css.map */
