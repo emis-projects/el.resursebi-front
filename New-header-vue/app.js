@@ -728,7 +728,7 @@ Vue.component("appSections", {
                   :duration="500"
                   mode="out-in"
                   appear>
-                    <div id="tableOfContentTwo" v-if="isTypes" key="5">
+                    <div id="tableOfContentTwo" class="d-flex" v-if="isTypes" key="5">
                       <div class="appendChild--div" v-for="item in typeIteration" :key="item" @click="getSimilarTypes(item)">
                         <img class="appendChild--img" :src="typeInfo[item].img"/>
                         <span>{{typeInfo[item].text}}</span>
