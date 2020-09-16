@@ -574,23 +574,88 @@ Vue.component("appLinks", {
       required: true,
     },
   },
-  mounted() {
+  data() {
+    return {
+      activeClass: {
+        title: "",
+        class: "",
+      },
+      itClass: "",
+      activeTitle: "",
+    };
+  },
+  async mounted() {
+    const data = await $.getJSON("data.json");
+    let classId = parseInt(data.lesson_id);
+    let Url = window.location.href.toLowerCase();
+    if (Url.includes("art-class")) {
+      this.activeClass.title = "ხელოვნება";
+      this.activeClass.class = "art";
+    } else if (Url.includes("nature-class")) {
+      this.activeClass.title = "ბუნება";
+      this.activeClass.class = "nature";
+    } else if (Url.includes("music-class")) {
+      this.activeClass.title = "მუსიკა";
+      this.activeClass.class = "music";
+    } else {
+      this.activeClass.title = "კომპიუტერული მეცნიერებები";
+      this.activeClass.class = "IT";
+      if (Url.includes("class-2")) this.itClass = "2";
+      if (Url.includes("class-3")) this.itClass = "3";
+      if (Url.includes("class-4")) this.itClass = "4";
+      if (Url.includes("class-5")) this.itClass = "5";
+      if (Url.includes("class-6")) this.itClass = "6";
+    }
+
+    let classList;
+    if (this.activeClass.class !== "IT") {
+      classList = title[this.activeClass.class];
+    } else {
+      classList = title[this.activeClass.class + "_" + this.itClass];
+    }
+ 
+    const activeClassData = classList.filter(
+      (classList) => classList.id === classId
+    );
+
+    this.activeTitle = activeClassData[0].name;
+
+    // ჯეისონიდან განსხვავებული ტიპების ამოღება
+    this.dataTypes = [...new Set(data.pages.map((item) => item.type))].filter(
+      (x) => x !== null
+    );
+
     init();
+  },
+  computed: {
+    itClassText() {
+      if (this.itClass !== "") return this.itClass + " კლასი > ";
+    },
   },
   updated() {
     init();
   },
   template: `
+        <div>
         <transition
-            enter-active-class="animated slideInUp"
-            leave-active-class="animated slideOutDown"
-            :duration="1000"
-            mode="out-in"
-            appear>
-            <div v-if="isActive" :class="'app-links'" class="page-section">
-                <div id="mynetwork" ref="vis"></div>
-            </div>
-        </transition>
+              enter-active-class="animated fadeIn"
+              leave-active-class="animated fadeOut"
+              :duration="500"
+              mode="out-in"
+              appear>
+              <p v-if="isActive" key="title"  class="app-select_title mt-3vh">{{ activeClass.title  }} > {{itClassText}}<span>{{activeTitle}}</span></p>
+          </transition>
+          <transition
+              enter-active-class="animated slideInUp"
+              leave-active-class="animated slideOutDown"
+              :duration="1000"
+              mode="out-in"
+              appear>
+              <div v-if="isActive" :class="'app-links'" class="page-section">
+                  <div id="mynetwork" ref="vis"></div>
+              </div>
+          </transition>
+        </div>
         `,
 });
 
