@@ -613,7 +613,7 @@ Vue.component("appLinks", {
     } else {
       classList = title[this.activeClass.class + "_" + this.itClass];
     }
- 
+
     const activeClassData = classList.filter(
       (classList) => classList.id === classId
     );
@@ -735,7 +735,7 @@ Vue.component("appSections", {
     } else {
       classList = title[this.activeClass.class + "_" + this.itClass];
     }
-
+    console.log(classId);
     const activeClassData = classList.filter(
       (classList) => classList.id === classId
     );
@@ -744,8 +744,16 @@ Vue.component("appSections", {
 
     // ჯეისონიდან განსხვავებული ტიპების ამოღება
     this.dataTypes = [...new Set(data.pages.map((item) => item.type))].filter(
-      (x) => x !== null
+      (x) => x !== null && !x.ignore
     );
+  },
+  watch: {
+    isTypes(newValue, oldValue) {
+      if (this.isTypes) {
+        // თუ უკან დაბრუნებას დააჭირა გაჭმინდოს მსავასი ტიპების მასივი
+        this.dataByType = [];
+      }
+    },
   },
   computed: {
     itClassText() {
@@ -761,9 +769,22 @@ Vue.component("appSections", {
   },
   methods: {
     getSimilarTypes(type) {
-      this.dataByType = this.fullData.pages.filter(
-        (item) => item.type === type
-      );
+      // მსგავსი ტიპების ამოზება ჯეისონ ფაილიდან
+      let data = this.fullData.pages.filter((item) => item.type === type);
+
+      var firstEl = 0;
+      var secondEl = 1;
+
+      for (let i = 0; i < data.length; i++) {
+        //პირველი ელემენტის შენახვა
+        firstEl = data[i].number;
+        // თუ პირველი ელემენტის number არ ემთხვევა secondEl + 1 , secondEl გავუტოლოდ ელემენტის number
+        if (data[i].number !== secondEl + 1) {
+          secondEl = data[i].number;
+          this.dataByType.push(data[i]);
+        }
+      }
+
       this.isTypes = false;
     },
     goToPage(page) {
@@ -801,8 +822,8 @@ Vue.component("appSections", {
                     </div>
                     <div id="tableOfContentTwo" v-else key="4">
                       <div class="appendChild--div" v-for="(item, index) in dataByType" :key="index" @click="goToPage(item.number)">
-                        <img class="appendChild--img" :src="typeInfo[item.type].img"/>
-                        <span>{{typeInfo[item.type].text}} {{index + 1 }}</span>
+                      <img class="appendChild--img" :src="typeInfo[item.type].img"/>
+                      <span>{{typeInfo[item.type].text}} {{index + 1 }}</span>
                       </div>
                     </div>
                 </transition>
