@@ -1,0 +1,18 @@
+.tablet-1 {
+  height: 58vh;
+  max-height: 453px;
+}
+
+.tablet-1 img {
+  height: 100%;
+}
+
+.tablet-2 {
+  height: 68vh;
+  max-height: 524px;
+}
+
+.tablet-2 img {
+  height: 100%;
+}
+/*# sourceMappingURL=tablets.css.map */
