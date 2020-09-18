@@ -1,0 +1,68 @@
+/*
+    Flaticon icon font: Flaticon
+    Creation date: 18/09/2020 07:19
+    */
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("./fonts/Flaticon.eot");
+  src: url("./fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/Flaticon.woff2") format("woff2"),
+    url("./fonts/Flaticon.woff") format("woff"),
+    url("./fonts/Flaticon.ttf") format("truetype"),
+    url("./fonts/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./fonts/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+.fi:before {
+  display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.flaticon-user:before {
+  content: "\f100";
+}
+.flaticon-fb_round:before {
+  content: "\f101";
+}
+.flaticon-in_round:before {
+  content: "\f102";
+}
+.flaticon-in:before {
+  content: "\f103";
+}
+.flaticon-fb:before {
+  content: "\f104";
+}
+.flaticon-tw_round:before {
+  content: "\f105";
+}
+.flaticon-tw:before {
+  content: "\f106";
+}
+
+$font-Flaticon-user: "\f100";
+$font-Flaticon-fb_round: "\f101";
+$font-Flaticon-in_round: "\f102";
+$font-Flaticon-in: "\f103";
+$font-Flaticon-fb: "\f104";
+$font-Flaticon-tw_round: "\f105";
+$font-Flaticon-tw: "\f106";
