@@ -7,8 +7,9 @@
 .user-item {
     
     i {
-        
-        font-size: 48px;
+        cursor: pointer;
+        font-size: 35px;
+        padding: 2vh 0.9vh 0;
         background: white;
         box-shadow: 2px 2px 8px rgba(247, 207, 67, 0.6);
         border-radius: 50%;
@@ -18,4 +19,45 @@
         height: 48px;
         display: flex;
     }
+}
+.nav-item {
+    a {
+        color: #C5CBCD;
+        font-size: 2.2vh;
+        font-family: ALK Sanet;
+    }
+}
+.card.card-item {
+    width: 76vh;
+    height: 53vh;
+    border: 1px solid rgba(127, 209, 216, 0.2);
+    box-shadow: 2px 2px 8px rgba(127, 209, 216, 0.6);
+    border-radius: 3.1vh;
+}
+
+.card-title {
+    color: #7FD1D8;
+    font-size: 3.2vh;
+    font-family: ALK Sanet;
+}
+.card-text {
+    color: #C5CBCD;
+    font-size: 2.4vh;
+    font-family: Noto Sans;
+    a {
+        color: #C5CBCD;
+    }
+}
+.contact {
+    &-img_1 {
+        position: absolute;
+        right: -9vh;
+        bottom: -7vh;
+    }
+    &-img_2 {
+        position: absolute;
+        right: -9vh;
+        bottom: -7vh;
+    }
+    
 }
