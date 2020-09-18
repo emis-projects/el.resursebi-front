@@ -1,8 +1,6 @@
 
 window.addEventListener("DOMContentLoaded", function() {                   
     if (window.matchMedia("(orientation: portrait)").matches) {
-        console.log('portrait');
-
         if(location.pathname !== "/main-page/portrait.html" && location.pathname !== "/main-page/landscape.html") {
             if(!isMobile()) {
                 document.querySelector('body').setAttribute('style', 'display: none')
@@ -11,8 +9,6 @@ window.addEventListener("DOMContentLoaded", function() {
         }
     }
     if (window.matchMedia("(orientation: landscape)").matches) {
-        console.log('landscape');
-
         if(location.pathname !== "/main-page/portrait.html" && location.pathname !== "/main-page/landscape.html") {
             if(!isMobile()) {
                 document.querySelector('body').setAttribute('style', 'display: none')
@@ -26,8 +22,6 @@ window.addEventListener("DOMContentLoaded", function() {
 
 window.addEventListener("orientationchange", function() {                   
     if (window.matchMedia("(orientation: portrait)").matches) {
-        console.log('portrait');
-
         if(!isMobile()) {
             document.querySelector('body').setAttribute('style', 'display: none')
             location.href = `${location.origin}/main-page/portrait.html`
@@ -36,8 +30,6 @@ window.addEventListener("orientationchange", function() {
 
     }
     if (window.matchMedia("(orientation: landscape)").matches) {
-            console.log('landscape');
-
         if(!isMobile()) {
             document.querySelector('body').setAttribute('style', 'display: none')
             location.href = `${location.origin}/main-page/landscape.html`
