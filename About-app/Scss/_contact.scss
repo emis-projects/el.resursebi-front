@@ -1,0 +1,21 @@
+.header-logo {
+    img {
+        width: 7.16vh;
+        height: 6.9vh;
+    }
+}
+.user-item {
+    
+    i {
+        
+        font-size: 48px;
+        background: white;
+        box-shadow: 2px 2px 8px rgba(247, 207, 67, 0.6);
+        border-radius: 50%;
+        transition: 0.3s;
+        line-height: 2vh;
+        width: 48px;
+        height: 48px;
+        display: flex;
+    }
+}
