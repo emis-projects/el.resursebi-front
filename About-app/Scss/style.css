@@ -88,6 +88,127 @@
   font-size: 40px;
 }
 
+/* გვაქ ორი სახის იკონკები 
+პირველი ---- მრგვალი
+მეორე --- მხოლოდ ლოგო
+ასევე იკონკების ზომები შეგიძლიათ ცვალოთ font-size-ით; ფერი - color-ით
+*/
+#app {
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.main-box_relative {
+  position: relative;
+  height: 100vh;
+}
+
+.nav-item {
+  margin-left: 80px;
+  color: #C5CBCD;
+  font-size: 2.2vh;
+  font-family: 'ALK Sanet';
+}
+
+.header-logo {
+  height: 6.9vh;
+  max-height: 53px;
+}
+
+.header-logo img {
+  height: 100%;
+}
+
+.card {
+  border: 1px solid rgba(127, 209, 216, 0.2);
+  -webkit-box-shadow: 2px 2px 8px rgba(127, 209, 216, 0.6);
+          box-shadow: 2px 2px 8px rgba(127, 209, 216, 0.6);
+  border-radius: 3.1vh;
+}
+
+.card-title {
+  color: #7FD1D8;
+  font-size: 3.2vh;
+  font-family: 'ALK Sanet';
+  padding-top: 25px;
+}
+
+.card-text {
+  color: #C5CBCD;
+  font-size: 2.4vh;
+  font-family: 'Noto Sans';
+  padding-top: 10px;
+  padding-bottom: 100px;
+}
+
+.ladybird {
+  height: 3.2vh;
+  max-height: 25px;
+  left: 30vh;
+}
+
+.ladybird img {
+  height: 100%;
+}
+
+.fly {
+  position: absolute;
+  top: 80vh;
+  left: 125vh;
+  height: 23vh;
+  max-height: 179px;
+}
+
+.fly img {
+  height: 100%;
+}
+
+.footer {
+  margin-top: 5vh;
+}
+
+.soc .fb {
+  border-radius: 100%;
+  height: 40px;
+  width: 40px;
+  border: 1px solid #7fd1d8;
+}
+
+.soc i {
+  color: #7fd1d8;
+  font-size: 25px;
+  margin-left: 30px;
+}
+
+.user {
+  border-radius: 100%;
+  height: 40px;
+  width: 40px;
+  position: relative;
+  border: 1px solid white;
+  -webkit-box-shadow: 1px 1px 5px -1px #DC6C85;
+  box-shadow: 1px 1px 5px -1px #DC6C85;
+}
+
+.user i {
+  color: #f7cf43;
+  font-size: 30px;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
 .header-logo img {
   width: 7.16vh;
   height: 6.9vh;

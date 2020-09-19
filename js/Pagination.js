@@ -52,7 +52,6 @@ function createDots(json) {
         $(pagination).append(div)
 
         if(htmlPageIdAttr == i.number){
-            console.log('Sevida');
             $('html').attr('data-type', i.type);
             $('html').attr('pages-number', json.pages_number)
             var htmlAttrAllPage = parseInt($('html').attr('pages-number'));
@@ -90,8 +89,6 @@ function getTypes(){
 
 function getNextAndPrevBtn(pagesLength, next, prev) {
     let htmlAttr = parseInt($('html').attr('pageid'));
-
-    console.log(pagesLength);
 
     if (htmlAttr == pagesLength){
         $('.pagination__next__btn').attr('style', 'display: none')
