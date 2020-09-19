@@ -2,11 +2,12 @@
 let hostname;
 
 if(location.host == "ananoaspanidze.github.io") {
-    hostname = `${location.pathname}/el.resursebi-front/`
+    hostname = `${location.origin}/el.resursebi-front/`
 
 } else {
     hostname = location.origin;   
 }
+
 
 window.addEventListener("DOMContentLoaded", function() {                   
     if (window.matchMedia("(orientation: portrait)").matches) {
