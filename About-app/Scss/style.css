@@ -232,18 +232,45 @@
   display: flex;
 }
 
+.nav-item {
+  position: relative;
+}
+
 .nav-item a {
+  padding: 2.5vh;
   color: #C5CBCD;
-  font-size: 2.2vh;
+  font-size: 18px;
   font-family: ALK Sanet;
+}
+
+.nav-link {
+  padding-right: 2.5rem !important;
+  padding-left: 2.5rem !important;
+  padding-bottom: 0 !important;
+}
+
+.nav-link.active:after {
+  position: absolute;
+  content: '';
+  height: 2px;
+  bottom: -8px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  width: 42%;
+  background: #F7CF43;
+}
+
+.nav-link.active {
+  color: #7FD1D8;
 }
 
 .card.card-item {
   width: 76vh;
   height: 53vh;
-  border: 1px solid rgba(127, 209, 216, 0.2);
-  -webkit-box-shadow: 2px 2px 8px rgba(127, 209, 216, 0.6);
-          box-shadow: 2px 2px 8px rgba(127, 209, 216, 0.6);
+  border: 1px solid rgba(127, 209, 216, 0.1);
+  -webkit-box-shadow: 2px 2px 8px rgba(127, 209, 216, 0.4);
+          box-shadow: 2px 2px 8px rgba(127, 209, 216, 0.4);
   border-radius: 3.1vh;
 }
 
@@ -251,27 +278,57 @@
   color: #7FD1D8;
   font-size: 3.2vh;
   font-family: ALK Sanet;
+  padding-top: 1.6vh;
 }
 
 .card-text {
   color: #C5CBCD;
-  font-size: 2.4vh;
+  font-size: 2vh;
   font-family: Noto Sans;
 }
 
 .card-text a {
   color: #C5CBCD;
+  text-decoration: underline;
+}
+
+.card-text-top {
+  margin-top: 4vh;
 }
 
 .contact-img_1 {
-  position: absolute;
-  right: -9vh;
-  bottom: -7vh;
+  margin-top: -3.5vh;
+  margin-right: 1.5vh;
+}
+
+.contact-img_1 img {
+  width: 7.68vh;
+  height: 6.77vh;
 }
 
 .contact-img_2 {
-  position: absolute;
-  right: -9vh;
-  bottom: -7vh;
+  margin-top: 34vh;
+  margin-left: 1.5vh;
+}
+
+.contact-img_2 img {
+  width: 29.9vh;
+  height: 24.86vh;
+}
+
+.contact-box {
+  margin-top: 8vh;
+}
+
+.contact-content_item {
+  padding-left: 24vh;
+}
+
+.contact-header_box {
+  margin-top: 2vh;
+}
+
+.contact-soc-item {
+  padding-top: 3vh;
 }
 /*# sourceMappingURL=style.css.map */
