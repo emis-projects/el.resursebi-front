@@ -1,10 +1,19 @@
 
+let hostname;
+
+if(location.host == "ananoaspanidze.github.io") {
+    hostname = `${location.pathname}/el.resursebi-front/`
+
+} else {
+    hostname = location.origin;   
+}
+
 window.addEventListener("DOMContentLoaded", function() {                   
     if (window.matchMedia("(orientation: portrait)").matches) {
         if(location.pathname !== "/main-page/portrait.html" && location.pathname !== "/main-page/landscape.html") {
             if(!isMobile()) {
                 document.querySelector('body').setAttribute('style', 'display: none')
-                location.href = `${location.origin}/main-page/landscape.html`
+                location.href = `${hostname}/main-page/landscape.html`
             }
         }
     }
@@ -12,7 +21,7 @@ window.addEventListener("DOMContentLoaded", function() {
         if(location.pathname !== "/main-page/portrait.html" && location.pathname !== "/main-page/landscape.html") {
             if(!isMobile()) {
                 document.querySelector('body').setAttribute('style', 'display: none')
-                location.href = `${location.origin}/main-page/portrait.html`
+                location.href = `${hostname}/main-page/portrait.html`
             }
         } 
      }
@@ -24,7 +33,7 @@ window.addEventListener("orientationchange", function() {
     if (window.matchMedia("(orientation: portrait)").matches) {
         if(!isMobile()) {
             document.querySelector('body').setAttribute('style', 'display: none')
-            location.href = `${location.origin}/main-page/portrait.html`
+            location.href = `${hostname}/main-page/portrait.html`
 
         }
 
@@ -32,7 +41,7 @@ window.addEventListener("orientationchange", function() {
     if (window.matchMedia("(orientation: landscape)").matches) {
         if(!isMobile()) {
             document.querySelector('body').setAttribute('style', 'display: none')
-            location.href = `${location.origin}/main-page/landscape.html`
+            location.href = `${hostname}/main-page/landscape.html`
         }
      }
 }, true);
