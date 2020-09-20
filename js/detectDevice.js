@@ -2,7 +2,7 @@
 let hostname;
 
 if(location.host == "ananoaspanidze.github.io") {
-    hostname = `${location.origin}/el.resursebi-front/`
+    hostname = `${location.origin}/el.resursebi-front`
 
 } else {
     hostname = location.origin;   
@@ -18,6 +18,7 @@ window.addEventListener("DOMContentLoaded", function() {
             }
         }
     }
+    
     if (window.matchMedia("(orientation: landscape)").matches) {
         if(location.pathname !== "/el.resursebi-front/main-page/landscape.html" || location.pathname !== "main-page/landscape.html" && location.pathname !== "/el.resursebi-front/main-page/portrait.html" || location.pathname !== "main-page/portrait.html") {
             if(!isMobile()) {
