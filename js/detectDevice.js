@@ -11,7 +11,7 @@ if(location.host == "ananoaspanidze.github.io") {
 
 window.addEventListener("DOMContentLoaded", function() {                   
     if (window.matchMedia("(orientation: portrait)").matches) {
-        if(location.pathname !== "/main-page/portrait.html" && location.pathname !== "/main-page/landscape.html") {
+        if(location.pathname !== "/el.resursebi-front/main-page/landscape.html" || location.pathname !== "main-page/landscape.html" && location.pathname !== "/el.resursebi-front/main-page/portrait.html" || location.pathname !== "main-page/portrait.html") {
             if(!isMobile()) {
                 document.querySelector('body').setAttribute('style', 'display: none')
                 location.href = `${hostname}/main-page/landscape.html`
@@ -19,7 +19,7 @@ window.addEventListener("DOMContentLoaded", function() {
         }
     }
     if (window.matchMedia("(orientation: landscape)").matches) {
-        if(location.pathname !== "/main-page/portrait.html" && location.pathname !== "/main-page/landscape.html") {
+        if(location.pathname !== "/el.resursebi-front/main-page/landscape.html" || location.pathname !== "main-page/landscape.html" && location.pathname !== "/el.resursebi-front/main-page/portrait.html" || location.pathname !== "main-page/portrait.html") {
             if(!isMobile()) {
                 document.querySelector('body').setAttribute('style', 'display: none')
                 location.href = `${hostname}/main-page/portrait.html`
