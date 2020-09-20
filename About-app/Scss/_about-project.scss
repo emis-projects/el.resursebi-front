@@ -4,11 +4,7 @@
 ასევე იკონკების ზომები შეგიძლიათ ცვალოთ font-size-ით; ფერი - color-ით
 */
 .about {
-  #app {
-    top: 0;
-    right: 0;
-    left: 0;
-  }
+  overflow-x: hidden;
   .container {
     width: 100%;
     margin-right: auto;
@@ -16,11 +12,16 @@
     padding-right: 15px;
     padding-left: 15px;
   }
+  header {
+    margin-top: 2vh;
+  }
   .main-box_relative {
     position: relative;
     height: 100vh;
   }
-
+  .content {
+    margin-top: 2vh;
+  }
   .nav-item {
     margin-left: 80px;
     color: #c5cbcd;
@@ -52,7 +53,7 @@
     font-size: 2.4vh;
     font-family: "Noto Sans";
     padding-top: 10px;
-    padding-bottom: 100px;
+    padding-bottom: 60px;
   }
 
   .ladybird {
@@ -65,8 +66,8 @@
   }
   .fly {
     position: absolute;
-    top: 80vh;
-    left: 125vh;
+    bottom: 2vh;
+    right: 9vh;
     height: 23vh;
     max-height: 179px;
     img {
@@ -96,10 +97,7 @@
     height: 40px;
     width: 40px;
     position: relative;
-    border: 1px solid white;
-    -moz-box-shadow: 1px 1px 5px -1px #dc6c85;
-    -webkit-box-shadow: 1px 1px 5px -1px #dc6c85;
-    box-shadow: 1px 1px 5px -1px #dc6c85;
+    border: 1px solid #f7cf43;
 
     i {
       color: #f7cf43;
