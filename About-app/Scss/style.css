@@ -214,8 +214,8 @@
 }
 
 #contact-app .header-logo img {
-  width: 6.16vh;
-  height: 6.9vh;
+  width: 54.98px;
+  height: 53.44px;
 }
 
 #contact-app .user-item {
@@ -230,28 +230,13 @@
           align-items: end;
   border: 1px solid #f7cf43;
   border-radius: 100%;
+  width: 40px;
+  height: 40px;
 }
 
 #contact-app .user-item i {
-  cursor: pointer;
-  font-size: 35px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: end;
-  background: white;
-  border-radius: 50%;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-  line-height: 2vh;
-  width: 48px;
-  height: 48px;
-  display: flex;
+  color: #f7cf43;
+  font-size: 31px;
 }
 
 #contact-app .nav-item {
@@ -259,16 +244,20 @@
 }
 
 #contact-app .nav-item a {
-  padding: 2.5vh;
   color: #c5cbcd;
-  font-size: 18px;
+  font-size: 16px;
   font-family: ALK Sanet;
 }
 
 #contact-app .nav-link {
-  padding-right: 2.5rem !important;
-  padding-left: 2.5rem !important;
+  padding-right: 0rem !important;
+  padding-left: 0rem !important;
   padding-bottom: 0 !important;
+}
+
+#contact-app .nav-item {
+  margin-right: 2.5rem;
+  margin-left: 2.5rem;
 }
 
 #contact-app .nav-link.active:after {
@@ -279,12 +268,35 @@
   margin: 0 auto;
   left: 0;
   right: 0;
-  width: 42%;
+  width: 100%;
   background: #f7cf43;
+}
+
+#contact-app .nav-link:after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  bottom: -8px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  width: 0%;
+  background: #f7cf43;
+  -webkit-transition: .5s;
+  transition: .5s;
 }
 
 #contact-app .nav-link.active {
   color: #7fd1d8;
+}
+
+#contact-app .nav-link:hover {
+  color: #7fd1d8;
+}
+
+#contact-app .nav-link:hover:after {
+  width: 100%;
+  background: orange;
 }
 
 #contact-app .card.card-item {
@@ -294,19 +306,21 @@
   -webkit-box-shadow: 2px 2px 8px rgba(127, 209, 216, 0.4);
           box-shadow: 2px 2px 8px rgba(127, 209, 216, 0.4);
   border-radius: 3.1vh;
+  padding-left: 15px;
 }
 
 #contact-app .card-title {
   color: #7fd1d8;
-  font-size: 3.2vh;
+  font-size: 25px;
   font-family: ALK Sanet;
-  padding-top: 1.6vh;
+  padding-top: 1.8vh;
 }
 
 #contact-app .card-text {
   color: #c5cbcd;
-  font-size: 2vh;
+  font-size: 2.2vh;
   font-family: Noto Sans;
+  margin-bottom: 0.8rem !important;
 }
 
 #contact-app .card-text a {
@@ -324,18 +338,18 @@
 }
 
 #contact-app .contact-img_1 img {
-  width: 7.68vh;
-  height: 6.77vh;
+  width: 59px;
+  height: 52px;
 }
 
 #contact-app .contact-img_2 {
-  margin-top: 34vh;
+  margin-top: 32vh;
   margin-left: 1.5vh;
 }
 
 #contact-app .contact-img_2 img {
-  width: 29.9vh;
-  height: 24.86vh;
+  width: 230px;
+  height: 191px;
 }
 
 #contact-app .contact-box {
@@ -350,7 +364,14 @@
   margin-top: 2vh;
 }
 
-#contact-app .contact-soc-item {
-  padding-top: 3vh;
+#contact-app footer {
+  position: absolute;
+  bottom: 10%;
+  width: 80%;
+}
+
+#contact-app .soc i {
+  color: #7fd1d8;
+  font-size: 30px;
 }
 /*# sourceMappingURL=style.css.map */

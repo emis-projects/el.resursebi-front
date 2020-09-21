@@ -1,46 +1,39 @@
 #contact-app {
   .header-logo {
     img {
-      width: 6.16vh;
-      height: 6.9vh;
+      width: 54.98px;
+      height: 53.44px;
     }
   }
-
   .user-item {
     display: flex;
     justify-content: center;
     align-items: end;
     border: 1px solid #f7cf43;
     border-radius: 100%;
+    width: 40px;
+    height: 40px;
     i {
-      cursor: pointer;
-      font-size: 35px;
-      display: flex;
-      justify-content: center;
-      align-items: end;
-      background: white;
-      //box-shadow: 2px 2px 8px rgba(247, 207, 67, 0.6);
-      border-radius: 50%;
-      transition: 0.3s;
-      line-height: 2vh;
-      width: 48px;
-      height: 48px;
-      display: flex;
+      color: #f7cf43;
+      font-size: 31px; 
     }
   }
   .nav-item {
     position: relative;
     a {
-      padding: 2.5vh;
       color: #c5cbcd;
-      font-size: 18px;
+      font-size: 16px;
       font-family: ALK Sanet;
     }
   }
   .nav-link {
-    padding-right: 2.5rem !important;
-    padding-left: 2.5rem !important;
+    padding-right: 0rem !important;
+    padding-left: 0rem !important;
     padding-bottom: 0 !important;
+  }
+  .nav-item {
+    margin-right: 2.5rem;
+    margin-left: 2.5rem;
   }
   .nav-link.active:after {
     position: absolute;
@@ -50,11 +43,30 @@
     margin: 0 auto;
     left: 0;
     right: 0;
-    width: 42%;
+    width: 100%;
     background: #f7cf43;
+  }
+  .nav-link:after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    bottom: -8px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 0%;
+    background: #f7cf43;
+    transition:.5s;
   }
   .nav-link.active {
     color: #7fd1d8;
+  }
+  .nav-link:hover {
+    color: #7fd1d8;
+  }
+  .nav-link:hover:after {
+    width: 100%;
+    background: orange;
   }
   .card.card-item {
     width: 76vh;
@@ -62,41 +74,43 @@
     border: 1px solid rgba(127, 209, 216, 0.1);
     box-shadow: 2px 2px 8px rgba(127, 209, 216, 0.4);
     border-radius: 3.1vh;
+    padding-left: 15px;
   }
 
   .card-title {
     color: #7fd1d8;
-    font-size: 3.2vh;
+    font-size: 25px;
     font-family: ALK Sanet;
-    padding-top: 1.6vh;
+    padding-top: 1.8vh;
   }
   .card-text {
     color: #c5cbcd;
-    font-size: 2vh;
+    font-size: 2.2vh;
     font-family: Noto Sans;
+    margin-bottom: 0.8rem!important;
     a {
       color: #c5cbcd;
       text-decoration: underline;
     }
-  }
-  .card-text-top {
-    margin-top: 4vh;
+    &-top {
+      margin-top: 4vh;
+    }
   }
   .contact {
     &-img_1 {
       margin-top: -3.5vh;
       margin-right: 1.5vh;
       img {
-        width: 7.68vh;
-        height: 6.77vh;
+        width: 59px;
+        height: 52px;
       }
     }
     &-img_2 {
-      margin-top: 34vh;
+      margin-top: 32vh;
       margin-left: 1.5vh;
       img {
-        width: 29.9vh;
-        height: 24.86vh;
+        width: 230px;
+        height: 191px;
       }
     }
     &-box {
@@ -108,8 +122,14 @@
     &-header_box {
       margin-top: 2vh;
     }
-    &-soc-item {
-      padding-top: 3vh;
-    }
+  }
+  footer{
+    position: absolute;
+    bottom: 10%;
+    width: 80%;
+  }
+  .soc i {
+    color: #7fd1d8;
+    font-size: 30px;
   }
 }
