@@ -41,8 +41,8 @@
         </section>
     <section>
         <div class="row newDesign_hintPage">
-            <div class="col-8 m-auto ">
-            <div class="newDesign_subject_question_item ml-5vh">
+            <div class="col-12 m-auto ">
+            <div class="newDesign_subject_question_item ml-5vh" style="margin: 0">
                 <img alt="img" class="newDesign_subject_question_item-img"
                      src="../img/icons/newDesign_btn-yellow.svg">
                 <p class="newDesign_subject_question_item-title">
@@ -67,10 +67,75 @@
 </div>
 
 
+<script>
+
+
+window.addEventListener("orientationchange", function() { 
+    if (window.matchMedia("(orientation: portrait)").matches) {
+        console.log('portrait')                
+
+        if(!isMobile()) {
+            document.querySelector('body').setAttribute('style', 'display: none')
+
+            if(location.host == "school.emis.ge") {
+                location.href = '/main-page/portrait.html'
+
+            } else if(location.host == "ananoaspanidze.github.io") {
+                location.href = `${location.origin}/el.resursebi-front/main-page/portrait.html`
+
+            } else {
+                location.href = `${location.origin}/main-page/portrait.html`
+
+            }
+
+        } else {
+            location.href = "/"
+        } 
+    }
+
+    
+    if (window.matchMedia("(orientation: landscape)").matches) {
+        console.log('landscape') 
+
+        if(!isMobile()) {
+            document.querySelector('body').setAttribute('style', 'display: none')
+
+            if(location.host == "school.emis.ge") {
+                location.href = '/main-page/landscape.html'
+
+            } else if(location.host == "ananoaspanidze.github.io") {
+                location.href = `${location.origin}/el.resursebi-front/main-page/landscape.html`
+
+            } else {
+                location.href = `${location.origin}/main-page/landscape.html`
+
+            }
+            
+        } else {
+            location.href = "/"
+        }
+    }
+    }, true);
 
 
 
-<script src="../js/detectDevice.js"></script>
+function isMobile() {
+    let width = screen.width;
+    let height = screen.height;
+
+    if(width < 1000 || height < 768){
+        return false
+
+    } else {
+        return true
+    }
+};
+
+</script>
+
+
+
+<!-- <script src="../js/detectDevice.js"></script> -->
 </body>
 
 </html>
