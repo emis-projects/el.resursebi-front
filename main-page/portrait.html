@@ -29,6 +29,14 @@
 
         gtag('config', 'UA-155006442-1');
     </script>
+
+    <style>
+        @media (max-width: 1000px) {
+            .container {
+                width: 90%;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -73,70 +81,62 @@
 
 <script>
 
-    
-    
+    // document.addEventListener('DOMContentLoaded', () => {
+    //     if(isMobile() == false && window.matchMedia("(orientation: portrait)").matches == true) {
+    //         document.querySelector('body').setAttribute('style', 'display: none')
+    //         redirectUser(false, '/main-page/landscape.html', `${location.origin}${location.pathname}main-page/landscape.html`)
 
-    window.addEventListener("orientationchange", function() { 
-    if (window.matchMedia("(orientation: portrait)").matches) {
-        console.log('portrait')                
+    //     } else if(isMobile() == false && window.matchMedia("(orientation: landscape)").matches == true) {
+    //         document.querySelector('body').setAttribute('style', 'display: none')
+    //         redirectUser(false, '/main-page/portrait.html', `${location.origin}${location.pathname}main-page/portrait.html`)
+    //     } else {
+    //         location.href = "/"
+    //     }
+    // })
 
-        if(!isMobile()) {
-            document.querySelector('body').setAttribute('style', 'display: none')
 
-            if(location.host == "school.emis.ge") {
-                location.href = '/main-page/portrait.html'
+    window.addEventListener('resize', function(e) {
+        if(isMobile() == false && window.matchMedia("(orientation: portrait)").matches == true) {
+            redirectUser(false, '/main-page/landscape.html', `${location.origin}${location.pathname}main-page/landscape.html`)
 
-            } else if(location.host == "ananoaspanidze.github.io") {
-                location.href = `${location.origin}/el.resursebi-front/main-page/portrait.html`
-
-            } else {
-                location.href = `${location.origin}/main-page/portrait.html`
-
-            }
-
-        } else {
-            location.href = "/"
-        } 
-    }
-
-    
-    if (window.matchMedia("(orientation: landscape)").matches) {
-        console.log('landscape') 
-
-        if(!isMobile()) {
-            document.querySelector('body').setAttribute('style', 'display: none')
-
-            if(location.host == "school.emis.ge") {
-                location.href = '/main-page/landscape.html'
-
-            } else if(location.host == "ananoaspanidze.github.io") {
-                location.href = `${location.origin}/el.resursebi-front/main-page/landscape.html`
-
-            } else {
-                location.href = `${location.origin}/main-page/landscape.html`
-
-            }
-            
+        } else if(isMobile() == false && window.matchMedia("(orientation: landscape)").matches == true) {
+            redirectUser(false, '/main-page/portrait.html', `${location.origin}${location.pathname}main-page/portrait.html`)
         } else {
             location.href = "/"
         }
-    }
-    }, true);
-    
+    });
+
 
     
     function isMobile() {
-        let width = screen.width;
-        let height = screen.height;
-    
+        let width = window.outerWidth;
+        let height = window.outerHeight;
+
+
         if(width < 1000 || height < 768){
             return false
-    
+
         } else {
             return true
         }
     };
     
+    
+    
+    function redirectUser(ismobile, schoolLink, githubLink) {
+    if(ismobile == false) {
+        if(location.host == "school.emis.ge") {
+            location.href = schoolLink
+    
+        } else if(location.host == "ananoaspanidze.github.io") {
+            location.href = githubLink
+    
+        } else {
+            location.href = schoolLink
+            
+        }
+    }
+}
     
     
     </script>
