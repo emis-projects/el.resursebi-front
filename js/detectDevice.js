@@ -2,11 +2,11 @@
 document.addEventListener('DOMContentLoaded', () => {
     if(isMobile() == false && window.matchMedia("(orientation: portrait)").matches == true) {
         document.querySelector('body').setAttribute('style', 'display: none')
-        redirectUser(false, '/main-page/landscape.html', `${location.origin}${location.pathname}main-page/landscape.html`)
+        redirectUser(false, '/main-page/landscape.html', `${location.origin}/el.resursebi-front/main-page/landscape.html`)
 
     } else if(isMobile() == false && window.matchMedia("(orientation: landscape)").matches == true) {
         document.querySelector('body').setAttribute('style', 'display: none')
-        redirectUser(false, '/main-page/portrait.html', `${location.origin}${location.pathname}main-page/portrait.html`)
+        redirectUser(false, '/main-page/portrait.html', `${location.origin}/el.resursebi-front/main-page/portrait.html`)
     } 
 })
 
@@ -16,11 +16,11 @@ document.addEventListener('DOMContentLoaded', () => {
 window.addEventListener('resize', function(e) {
     if(isMobile() == false && window.matchMedia("(orientation: portrait)").matches == true) {
         document.querySelector('body').setAttribute('style', 'display: none')
-        redirectUser(false, '/main-page/landscape.html', `${location.origin}${location.pathname}main-page/landscape.html`)
+        redirectUser(false, '/main-page/landscape.html', `${location.origin}/el.resursebi-front/main-page/landscape.html`)
 
     } else if(isMobile() == false && window.matchMedia("(orientation: landscape)").matches == true) {
         document.querySelector('body').setAttribute('style', 'display: none')
-        redirectUser(false, '/main-page/portrait.html', `${location.origin}${location.pathname}main-page/portrait.html`)
+        redirectUser(false, '/main-page/portrait.html', `${location.origin}/el.resursebi-front/main-page/portrait.html`)
     } else {
         location.href = "/"
     }
