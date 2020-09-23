@@ -88,11 +88,14 @@
 
     window.addEventListener('resize', function(e) {
         if(isMobile() == false && window.matchMedia("(orientation: portrait)").matches == true) {
+            alert('11')
             redirectUser(false, '/main-page/landscape.html', `${location.origin}/el.resursebi-front/main-page/landscape.html`)
-
+            
         } else if(isMobile() == false && window.matchMedia("(orientation: landscape)").matches == true) {
+            alert('22')
             redirectUser(false, '/main-page/portrait.html', `${location.origin}/el.resursebi-front/main-page/portrait.html`)
         } else {
+            alert('33')
             redirectUser(false, '/', `${location.origin}/el.resursebi-front`)
         }
     });
