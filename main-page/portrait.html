@@ -51,6 +51,7 @@
       </section>
     <section>
 
+        
         <div class="row newDesign_hintPage">
               <div class="col-12 m-auto">
             <div class="newDesign_subject_question_item ml-5vh">
@@ -60,6 +61,8 @@
                     ელექტრონული საგანმანათლებლო რესურსებით სრულყოფილად სარგებლობისთვის<br> გთხოვთ, გამოიყენოთ კომპიუტერი ან ტაბლეტი.           
                 </p>
             </div>
+            <div class="width"></div>
+            <div class="height"></div>
       </div>
             </div>
             <div class="col-8 d-flex m-auto tablet-1 justify-content-center">
@@ -109,9 +112,11 @@
 
     
     function isMobile() {
-        let width = window.outerWidth;
-        let height = window.outerHeight;
+        let width = window.innerWidth;
+        let height = window.innerHeight;
 
+        document.querySelector('.width').innerText = width
+        document.querySelector('.height').innerText = height
 
         if(width < 1000 || height < 768){
             return false

@@ -39,7 +39,10 @@
                       <img src="../New-header-vue/header-img/Header-logo.svg" style="margin:auto;">
             </header>
         </section>
-    <section>
+
+        <section>
+            <div class="width"></div>
+            <div class="height"></div>
         <div class="row newDesign_hintPage">
             <div class="col-12 m-auto ">
             <div class="newDesign_subject_question_item ml-5vh" style="margin: 0">
@@ -96,9 +99,11 @@
 
     
     function isMobile() {
-        let width = window.outerWidth;
-        let height = window.outerHeight;
+        let width = window.innerWidth;
+        let height = window.innerHeight;
 
+        document.querySelector('.width').innerText = width
+    document.querySelector('.height').innerText = height
 
         if(width < 1000 || height < 768){
             return false
