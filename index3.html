@@ -8,64 +8,19 @@
     <link rel="stylesheet" href="./scss/libraries/magnific-popup.css">
     <link rel="stylesheet" href="./scss/Pages/chatbot/Newbot.css">
 </head>
-    <style>
-
-        #prime {
-            height: 10vh;
-            width: 10vh;
-            max-height: 80px;
-            max-width: 80px;
-            min-height: 60px;
-            min-width: 60px;
-            display: -webkit-box;
-            display: -ms-flexbox;
-            display: flex;
-            -webkit-box-align: center;
-            -ms-flex-align: center;
-            align-items: center;
-            -webkit-box-pack: center;
-            -ms-flex-pack: center;
-            justify-content: center;
-            cursor: pointer;
-        }
-
-
-        #chatBot #prime .chat_img {
-            height: 30px;
-            width: 30px;
-        }
-
-        #prime::after {
-            content: '';
-            position: absolute;
-            right: 0;
-            bottom: 0;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            z-index: 10000;
-        }
-
-
-    </style>
 <body>
     
     <div id="chatBot">
-        <div id="prime">
-            <div class="chat_img"></div>
-        </div>
-    
-        <div class="chat chat chat_position position-absolute" style="display: none;">
+        <div class="chat chat chat_position position-absolute" style="display: block; bottom: 30px;">
             <div class="chat_header">
                 <div class="head_line"></div>
                 <div class="chat_head"></div>
             </div>
-    
+
             <div id="chat_fullscreen" class="chat_conversion chat_converse"></div>
-    
+
             <form id="formData">
-                <input style="width: 75%" autocomplete="off" id="chatSend" type="text" name="chat_message" placeholder="კითხე არ მოგერიდოს" class="chat_field chat_message">
+                <input style="width: 75%" autocomplete="off" id="chatSend" type="text" name="chat_message" placeholder="მომწერე" class="chat_field chat_message">
                 <button id="sendMessage" type="submit" disabled="disabled"></button>
             </form>
         </div>
@@ -78,19 +33,6 @@
     <script src="./js/bot.js"></script>
 
     <script>
-        document.getElementById('prime').addEventListener('click', (e) => {
-            let child = e.target.querySelector('div');
-
-            if(child.className == "chat_img"){
-                child.className = "chat-close"
-                document.querySelector('.chat').setAttribute('style', 'display: block')
-                
-            } else {
-                child.className = "chat_img"
-                document.querySelector('.chat').setAttribute('style', 'display: none')
-            }
-        });
-
         var loc = window.location.toString();
         let params = loc.split('?')[1];
 

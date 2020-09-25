@@ -100,16 +100,11 @@
 
     window.addEventListener('resize', function(e) {
         if(isMobile() == false && window.matchMedia("(orientation: portrait)").matches == true) {
-            console.log('1');
-            alert('1')
             redirectUser(false, '/main-page/landscape.html', `${location.origin}/el.resursebi-front/main-page/landscape.html`)
             
         } else if(isMobile() == false && window.matchMedia("(orientation: landscape)").matches == true) {
-            console.log('2');
-            alert('2')
             redirectUser(false, '/main-page/portrait.html', `${location.origin}/el.resursebi-front/main-page/portrait.html`)
         } else {
-            alert('3')
             redirectUser(false, '/', `${location.origin}/el.resursebi-front`)
         }
     });

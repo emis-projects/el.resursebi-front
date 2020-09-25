@@ -30,6 +30,68 @@
 
         gtag('config', 'UA-155006442-1');
     </script>
+        <style>
+
+            .chatbot__container {
+                  bottom: 11vh;
+                  position: absolute;
+                  right: 15%;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: flex-end;
+            }
+
+            #chatbotIframe {
+                  display: none;
+            }
+  
+
+            .chatbot__btn { 
+              background: url('https://animachatbotics.com/Scripts/Vue-chatBot/img/botBox.png') no-repeat center;
+              background-size: cover;
+              position: relative;
+              height: 10vh;
+              width: 10vh;
+              max-height: 80px;
+              max-width: 80px;
+              min-height: 60px;
+              min-width: 60px;
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-box-align: center;
+              -ms-flex-align: center;
+              align-items: center;
+              -webkit-box-pack: center;
+              -ms-flex-pack: center;
+              justify-content: center;
+              cursor: pointer;
+            }
+  
+            .chatbot__btn::after {
+              position: absolute;
+              content: '';
+              left: 0;
+              top: 0;
+              right: 0;
+              bottom: 0;
+            }
+  
+            .chatbot__open__btn {
+              background: url('https://animachatbotics.com/Scripts/Vue-chatBot/img/chat.png') no-repeat center;
+              background-size: contain;
+              height: 30px;
+              width: 30px;
+            }
+  
+            .chatbot__close__btn {
+              background: url('https://animachatbotics.com/Scripts/Vue-chatBot/img/close.svg') no-repeat center;
+              background-size: contain;
+              height: 18px;
+              width: 18px;
+            }
+
+      </style>
 </head>
 
 <body>
@@ -548,6 +610,14 @@
                 </a>
             </div>
         </div>
+
+        <div class="chatbot__container">
+            <iframe id="chatbotIframe" src="/index3.html?botId=2334" style="width: 100%; height: 100%;" frameborder="0"></iframe>
+            
+            <div class="chatbot__btn">
+                  <div class="chatbot__open__btn"></div>
+            </div>
+      </div>
     </section>
 </div>
 
@@ -563,7 +633,6 @@
 <script src="../../../js/Pagination.js"></script>
 
 
-<!-- <script src="../../../New-header-vue/TableofContents.js"></script> -->
 
 
 <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
@@ -571,6 +640,21 @@
     <script src="../../../New-header-vue/app.js"></script>
 <script src="../../../Vue-chatBot/botApp.js"></script>
 <script src="../../../js/bot.js"></script>
+
+<script>
+      document.querySelector('.chatbot__btn').addEventListener('click', (e) => {
+            let child = e.target.querySelector('div');
+
+            if(child.className == "chatbot__open__btn"){
+                  child.className = "chatbot__close__btn"
+                  document.getElementById('chatbotIframe').setAttribute('style', 'display: block; width: 370px;height: 480px;')
+            
+            } else {
+                  child.className = "chatbot__open__btn"
+                  document.getElementById('chatbotIframe').setAttribute('style', 'display: none')
+            }
+      });
+</script>
 </body>
 
 </html>
