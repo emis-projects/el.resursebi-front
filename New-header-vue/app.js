@@ -43,9 +43,11 @@ Vue.component("appMenu", {
       menuHover: false,
       langHover: false,
       soundHover: false,
+      isDark: false,
     };
   },
   props: {
+    
     isActive: {
       type: Boolean,
       required: true,
@@ -59,12 +61,70 @@ Vue.component("appMenu", {
       required: true,
     },
   },
+  created(){
+    var theme = localStorage.getItem('theme')
+    if(theme == 'darck'){
+      var element = document.body;
+        element.style.background="black";
+        this.isDark = true
+        for (const [key, value] of Object.entries(document.getElementsByTagName('p'))) {
+          console.log(`${key}: ${value}`);
+          value.style.color = 'white';
+        }
+    }
+  },
+  methods: {
+    myFunction(){
+      var element = document.body;
+      if(!this.isDark){
+        localStorage.setItem("theme", "darck");
+        element.style.background="black";
+        this.isDark = true
+        for (const [key, value] of Object.entries(document.getElementsByTagName('p'))) {
+          value.style.color = 'white';
+        }
+        for (const [key, value] of Object.entries(document.getElementsByTagName('h1'))) {
+          value.style.color = 'white';
+        }
+        for (const [key, value] of Object.entries(document.getElementsByTagName('h3'))) {
+          value.style.color = 'white';
+        }
+      }
+      else{
+        localStorage.setItem("theme", "light");
+        element.style.background="";
+        this.isDark = false
+        for (const [key, value] of Object.entries(document.getElementsByTagName('p'))) {
+          value.style.color = 'black';
+        }
+        for (const [key, value] of Object.entries(document.getElementsByTagName('h1'))) {
+          value.style.color = 'black';
+        }
+        for (const [key, value] of Object.entries(document.getElementsByTagName('h3'))) {
+          value.style.color = 'black';
+        }
+      }
+     
+
+    }
+  },
   template: `
     <div class="navbar navbar-expand-lg navbar-light bg-transparent">
         <a class="navbar-brand ml-auto header-logo">
             <img class="logo" src="" alt="logo">
         </a>
         <ul class="navbar-nav ml-auto">
+         <li
+           
+          >
+            <div>
+            <label class="switchDark">
+              <input  @click="myFunction()" type="checkbox" checked>
+              <span class="slider round" style="height: 31px;margin-top:7px"></span>
+            </label>
+            </div>
+          </li>
+          
           <li
             @click="isShow = !isShow"
             class="nav-item"
