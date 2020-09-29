@@ -71,6 +71,14 @@ Vue.component("appMenu", {
           console.log(`${key}: ${value}`);
           value.style.color = 'white';
         }
+        for (const [key, value] of Object.entries(document.getElementsByTagName('h1'))) {
+          console.log(`${key}: ${value}`);
+          value.style.color = 'white';
+        }
+        for (const [key, value] of Object.entries(document.getElementsByTagName('h3'))) {
+          console.log(`${key}: ${value}`);
+          value.style.color = 'white';
+        }
     }
   },
   methods: {
@@ -131,13 +139,13 @@ Vue.component("appMenu", {
             @mouseover="soundHover = true"
             @mouseleave="soundHover = false"
           >
-            <div
+            <!--<div
                 class="sound_box sound"
                 :class="[soundHover ? 'sound_box_active' : 'sound_box_passive']"
             >
                 <img v-show="isShow" class="on animated.fast" :class="{flipInX: !isShow, flipInX: isShow}"  alt="sound">
                 <img v-show="!isShow" class="off animated.fast" :class="{flipInX: isShow, flipInX: !isShow}" alt="sound">
-            </div>
+            </div>-->
           </li>
           <!--ენის -->
           <!--<li
