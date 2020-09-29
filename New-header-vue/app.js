@@ -1342,7 +1342,7 @@ let title = {
   IT_4: [
     {
       id: 1,
-      name: "მარტივი ელოქტრონული მოწყობილობის გამართვა",
+      name: "მარტივი ელექტრო მოწყობილობის გამართვა",
       link: "Computer-Science/Class-4/Maintain-electronic-device-1/1.html",
     },
     {
