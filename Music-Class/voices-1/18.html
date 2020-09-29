@@ -1,19 +1,15 @@
 <!DOCTYPE html>
-<html data-botid="2292" lang="ka">
+<html lang="ka" data-botid="2292">
 
 <head>
     <meta charset="UTF-8" />
-    <meta content="ie=edge" http-equiv="X-UA-Compatible" />
-    <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="//cdn.web-fonts.ge/fonts/alk-sanet/css/alk-sanet.min.css" />
     <script src="../../js/vue.js"></script>
-    <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
-    <!--  ვუე გაშვებისას
-    <script src="./js/vue.min.js"></script>
-     -->
-    <link href="../../scss/libraries/bootstrap.min.css" rel="stylesheet">
-    <link href="../../New-header-vue/animate.min.css" rel="stylesheet">
-    <link href="../../scss/new-style.css" rel="stylesheet" />
-    <link href="../../scss/components_style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../../New-header-vue/animate.min.css">
+    <link rel="stylesheet" href="../../scss/libraries/magnific-popup.css">
+    <link rel="stylesheet" href="../../scss/libraries/bootstrap.min.css" />
+    <link rel="stylesheet" href="../../scss/new-style.css" />
     <title>ელექტრონული საგანმანათლებლო რესურსი</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
@@ -23,73 +19,58 @@
         function gtag() {
             dataLayer.push(arguments);
         }
-
         gtag('js', new Date());
 
         gtag('config', 'UA-155006442-1');
     </script>
 </head>
 
-<body>
+<body class="class_music_1-bg_19">
     <div class="container">
-        <section class="container position-absolute" id="app">
+        <section id="app" class="container position-absolute">
             <header>
                 <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../'"></app-menu>
             </header>
 
-            <app-section :is-active="isActive" :is-info="isInfo" v-image="'../../'">
-                <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger" v-on:link-tab="link = $event">
+            <app-section :is-active="isActive" v-image="'../../'">
+                <app-bar :is-active="isActive" :trigger="trigger" :dots="dots" :current-tab="link"
+                         v-on:link-tab="link = $event">
 
                 </app-bar>
-                <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive" :is-info="isInfo" :path="path" :tab-class="currentTabComponent" :trigger="trigger">
+                <component :path="path" :is="currentTabComponent" :is-active="isActive" :trigger="trigger"
+                           :active-class="activeClass" :images="images" :is-info="isInfo"
+                           :tab-class="currentTabComponent">
                 </component>
 
             </app-section>
         </section>
         <section id="mainPage">
-            <div class="row "></div>
-                <div class="col-11 m-auto">
-                    <div class="newDesign_container_main_title-cont newDesign_container_main_title-cont-margin">
-                        <h1 class="newDesign_container_main_title">ქალაქისა და სოფლის ხმები<h1>
-                        <img alt="img" class="newDesign_container_main_title-img" src="../../img/icons/comp_main_title_border.svg">
-                    </div>
-                    <div class="newDesign_subject_question_item">
-                        <img alt="img" class="newDesign_subject_question_item-img" src="../../img/icons/newDesign_btn-yellow.svg">
-                        <p class="newDesign_subject_question_item-title">
-                            შენ უკვე იცი, თუ როგორ შეიძლება ხმებითა და მუსიკალური ფრაგმენტებით აღწერო<br> ქალაქის სხვადასხვა კუთხე. ვფიქრობ, აღარ გაგიჭირდება ამ დავალების შესრულება.             
-                        </p>
-                    </div>
-                    <div class="newDesign_subject_question_item">
-                        <img alt="img" class="newDesign_subject_question_item-img" src="../../img/icons/newDesign_btn-yellow.svg">
-                        <p class="newDesign_subject_question_item-title">
-                            პროგრამის „ვსწავლობთ მუსიკით“ მეშვეობით მუსიკალური ნაწარმოების ფრაგმენტებითა<br> და ხმის ეფექტებით აღწერე გასართობი პარკი და შექმენი კოლაჟი.            
-                        </p>
+            <div class="row">
+                <div class="col-8 m-auto pt-2vh">
+                    <div class="background-music-title-black-cont">
+                        <h1 class="background-music-title-black">
+                            კმაყოფილი თუ ხარ იმით, თუ როგორ გადაანაწილე სემპლები მუსიკალურ კოლაჟში?
+                        </h1>
                     </div>
                 </div>
-                <div class="col-10 music-new-18-div music-new-1-18-div-img d-flex justify-content-center ">
-                    <img src="../../img/gakvetilebi/Music-class/voices-1/music-1-18.svg" alt="image">
-                </div>
             </div>
-
-            <div class="left_components_paging-cont" id="leftNav">
-                <left-nav-item></left-nav-item>
-            </div>
-
             <div class="our__pagination flex">
-                <a class="pagination__prev__btn" href="#">
-                    <img alt="" src="../../img/icons/chevron-left-icon.svg" style="transform: rotate(180deg)">
+                <a href="#" class="pagination__prev__btn">
+                    <img style="transform: rotate(180deg)" src="../../img/icons/chevron-left-icon.svg" alt="">
                 </a>
 
-                <div class="flex align-items-center" id="pagination"></div>
+                <div id="pagination" class="flex align-items-center"></div>
 
-                <a class="pagination__next__btn" href="#">
-                    <img alt="" src="../../img/icons/chevron-left-icon.svg">
+                <a href="#" class="pagination__next__btn">
+                    <img src="../../img/icons/chevron-left-icon.svg" alt="">
                 </a>
             </div>
+
+
+
+
         </section>
     </div>
-
-
     <!-- ჩეთბოტი -->
     <div id="chatBot">
         <app-bot></app-bot>
@@ -100,15 +81,11 @@
     <script src="../../js/Pagination.js"></script>
 
 
-    <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
-    <script src="../../New-header-vue/vis.js"></script>
 <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
     <script src="../../New-header-vue/vis.js"></script>
     <script src="../../New-header-vue/app.js"></script>
     <script src="../../Vue-chatBot/botApp.js"></script>
     <script src="../../js/bot.js"></script>
-
-
 </body>
 
 </html>

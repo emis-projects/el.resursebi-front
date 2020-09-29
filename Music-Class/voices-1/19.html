@@ -25,7 +25,7 @@
     </script>
 </head>
 
-<body class="class_music_1-bg_19">
+<body class="class_music_1-bg_20">
     <div class="container">
         <section id="app" class="container position-absolute">
             <header>
@@ -34,22 +34,21 @@
 
             <app-section :is-active="isActive" v-image="'../../'">
                 <app-bar :is-active="isActive" :trigger="trigger" :dots="dots" :current-tab="link"
-                         v-on:link-tab="link = $event">
+                    v-on:link-tab="link = $event">
 
                 </app-bar>
                 <component :path="path" :is="currentTabComponent" :is-active="isActive" :trigger="trigger"
-                           :active-class="activeClass" :images="images" :is-info="isInfo"
-                           :tab-class="currentTabComponent">
+                    :active-class="activeClass" :images="images" :is-info="isInfo" :tab-class="currentTabComponent">
                 </component>
 
             </app-section>
         </section>
         <section id="mainPage">
             <div class="row">
-                <div class="col-8 m-auto pt-2vh">
+                <div class="col-8 m-auto pt-3vh">
                     <div class="background-music-title-black-cont">
                         <h1 class="background-music-title-black">
-                            კმაყოფილი თუ ხარ იმით, თუ როგორ გადაანაწილე სემპლები მუსიკალურ კოლაჟში?
+                            შენი აზრით, მოახერხე თუ არა ცალკეული დეტალის მუსიკალური დახასიათება?
                         </h1>
                     </div>
                 </div>
@@ -65,10 +64,6 @@
                     <img src="../../img/icons/chevron-left-icon.svg" alt="">
                 </a>
             </div>
-
-
-
-
         </section>
     </div>
     <!-- ჩეთბოტი -->
@@ -81,7 +76,7 @@
     <script src="../../js/Pagination.js"></script>
 
 
-<!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
+    <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
     <script src="../../New-header-vue/vis.js"></script>
     <script src="../../New-header-vue/app.js"></script>
     <script src="../../Vue-chatBot/botApp.js"></script>
