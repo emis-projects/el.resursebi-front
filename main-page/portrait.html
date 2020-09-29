@@ -53,23 +53,24 @@
 
         
         <div class="row newDesign_hintPage">
-              <div class="col-12 m-auto">
-            <div class="newDesign_subject_question_item ml-5vh">
-                <img alt="img" class="newDesign_subject_question_item-img"
-                     src="../img/icons/btn-yellow.svg">
-                <p class="newDesign_subject_question_item-title">
-                    ელექტრონული საგანმანათლებლო რესურსებით სრულყოფილად სარგებლობისთვის<br> გთხოვთ, გამოიყენოთ კომპიუტერი ან ტაბლეტი.           
-                </p>
-            </div>
-      </div>
-            </div>
-            <div class="col-8 d-flex m-auto tablet-1 justify-content-center">
-                <div>
-                    <img alt="img"
-                         class="tablet-1 mt-5vh"
-                         src="../img/tablet-1.svg">
+            <div class="col-12 m-auto">
+                <div class="newDesign_subject_question_item ml-5vh">
+                    <img alt="img" class="newDesign_subject_question_item-img"
+                        src="../img/icons/btn-yellow.svg">
+                    <p class="newDesign_subject_question_item-title">
+                        ელექტრონული საგანმანათლებლო რესურსებით სრულყოფილად სარგებლობისთვის<br> გთხოვთ, გამოიყენოთ კომპიუტერი ან ტაბლეტი.           
+                    </p>
                 </div>
             </div>
+        </div>
+
+        <div class="col-8 d-flex m-auto tablet-1 justify-content-center">
+            <div>
+                <img alt="img"
+                        class="tablet-1 mt-5vh"
+                        src="../img/tablet-1.svg">
+            </div>
+        </div>
 
         </div>
 
@@ -83,60 +84,28 @@
 <script>
 
     // document.addEventListener('DOMContentLoaded', () => {
-    //     if(isMobile() == false && window.matchMedia("(orientation: portrait)").matches == true) {
+    //     if(JSON.parse(localStorage.getItem('renderNextPage')) == true) {
     //         document.querySelector('body').setAttribute('style', 'display: none')
-    //         redirectUser(false, '/main-page/landscape.html', `${location.origin}${location.pathname}main-page/landscape.html`)
+    //         redirectUser(false, '/', '/el.resursebi-front')
 
-    //     } else if(isMobile() == false && window.matchMedia("(orientation: landscape)").matches == true) {
-    //         document.querySelector('body').setAttribute('style', 'display: none')
-    //         redirectUser(false, '/main-page/portrait.html', `${location.origin}${location.pathname}main-page/portrait.html`)
-    //     } else {
-    //         location.href = "/"
-    //     }
+    //     } 
     // })
-
-
-    // window.addEventListener('resize', function(e) {
-    //     if(isMobile() == false && window.matchMedia("(orientation: portrait)").matches == true) {
-    //         redirectUser(false, '/main-page/landscape.html', `${location.origin}/el.resursebi-front/main-page/landscape.html`)
-            
-    //     } else if(isMobile() == false && window.matchMedia("(orientation: landscape)").matches == true) {
-    //         redirectUser(false, '/main-page/portrait.html', `${location.origin}/el.resursebi-front/main-page/portrait.html`)
-    //     } else {
-    //         redirectUser(false, '/', `${location.origin}/el.resursebi-front`)
-    //     }
-    // });
-
-
     
-    function isMobile() {
-        let width = window.innerWidth;
-        let height = window.innerHeight;
 
-        if(width < 1000 || height < 768){
-            return false
-
-        } else {
-            return true
-        }
-    };
-    
-    
-    
     function redirectUser(ismobile, schoolLink, githubLink) {
-    if(ismobile == false) {
-        if(location.host == "school.emis.ge") {
-            location.href = schoolLink
-    
-        } else if(location.host == "ananoaspanidze.github.io") {
-            location.href = githubLink
-    
-        } else {
-            location.href = schoolLink
-            
+        if(ismobile == false) {
+            if(location.host == "school.emis.ge") {
+                location.href = schoolLink
+        
+            } else if(location.host == "ananoaspanidze.github.io") {
+                location.href = githubLink
+        
+            } else {
+                location.href = schoolLink
+                
+            }
         }
     }
-}
     
     
     </script>
