@@ -61,8 +61,6 @@
                     ელექტრონული საგანმანათლებლო რესურსებით სრულყოფილად სარგებლობისთვის<br> გთხოვთ, გამოიყენოთ კომპიუტერი ან ტაბლეტი.           
                 </p>
             </div>
-            <div class="width"></div>
-            <div class="height"></div>
       </div>
             </div>
             <div class="col-8 d-flex m-auto tablet-1 justify-content-center">
@@ -98,25 +96,22 @@
     // })
 
 
-    window.addEventListener('resize', function(e) {
-        if(isMobile() == false && window.matchMedia("(orientation: portrait)").matches == true) {
-            redirectUser(false, '/main-page/landscape.html', `${location.origin}/el.resursebi-front/main-page/landscape.html`)
+    // window.addEventListener('resize', function(e) {
+    //     if(isMobile() == false && window.matchMedia("(orientation: portrait)").matches == true) {
+    //         redirectUser(false, '/main-page/landscape.html', `${location.origin}/el.resursebi-front/main-page/landscape.html`)
             
-        } else if(isMobile() == false && window.matchMedia("(orientation: landscape)").matches == true) {
-            redirectUser(false, '/main-page/portrait.html', `${location.origin}/el.resursebi-front/main-page/portrait.html`)
-        } else {
-            redirectUser(false, '/', `${location.origin}/el.resursebi-front`)
-        }
-    });
+    //     } else if(isMobile() == false && window.matchMedia("(orientation: landscape)").matches == true) {
+    //         redirectUser(false, '/main-page/portrait.html', `${location.origin}/el.resursebi-front/main-page/portrait.html`)
+    //     } else {
+    //         redirectUser(false, '/', `${location.origin}/el.resursebi-front`)
+    //     }
+    // });
 
 
     
     function isMobile() {
         let width = window.innerWidth;
         let height = window.innerHeight;
-
-        document.querySelector('.width').innerText = width
-        document.querySelector('.height').innerText = height
 
         if(width < 1000 || height < 768){
             return false

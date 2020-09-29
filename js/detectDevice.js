@@ -1,31 +1,15 @@
+ 
+
 
 document.addEventListener('DOMContentLoaded', () => {
-    console.log('load event');
-    if(isMobile() == false && window.matchMedia("(orientation: portrait)").matches == true) {
+    if(renderNextPage()) {
         document.querySelector('body').setAttribute('style', 'display: none')
         redirectUser(false, '/main-page/landscape.html', `${location.origin}/el.resursebi-front/main-page/landscape.html`)
-
-    } else if(isMobile() == false && window.matchMedia("(orientation: landscape)").matches == true) {
+    } else {
         document.querySelector('body').setAttribute('style', 'display: none')
         redirectUser(false, '/main-page/portrait.html', `${location.origin}/el.resursebi-front/main-page/portrait.html`)
-    } 
+    }
 })
-
-
-
-
-window.addEventListener('resize', function(e) {
-
-    if(isMobile() == false && window.matchMedia("(orientation: portrait)").matches == true) {
-        document.querySelector('body').setAttribute('style', 'display: none')
-        redirectUser(false, '/main-page/landscape.html', `${location.origin}/el.resursebi-front/main-page/landscape.html`)
-
-    } else if(isMobile() == false && window.matchMedia("(orientation: landscape)").matches == true) {
-        document.querySelector('body').setAttribute('style', 'display: none')
-        redirectUser(false, '/main-page/portrait.html', `${location.origin}/el.resursebi-front/main-page/portrait.html`)
-    } 
-});
-
 
 
 
@@ -34,11 +18,7 @@ function isMobile() {
     let width = window.innerWidth;
     let height = window.innerHeight;
 
-    document.querySelector('.width').innerText = width
-    document.querySelector('.height').innerText = height
-
-
-    if(width < 1000 || height < 768){
+    if(width < 1000 || height < 768 ){
         return false
 
     } else {
@@ -46,7 +26,19 @@ function isMobile() {
     }
 };
 
+ 
 
+function renderNextPage() {
+    let width = window.innerWidth;
+    let height = window.innerHeight;
+
+    if((width >= 768 && width <= 1000 && height >= 1000)){
+        return true
+
+    } else {
+        return false
+    }
+};
 
 
 function redirectUser(ismobile, schoolLink, githubLink) {
