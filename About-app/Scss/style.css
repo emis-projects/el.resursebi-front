@@ -374,4 +374,20 @@
   color: #7fd1d8;
   font-size: 30px;
 }
+
+@font-face {
+  font-family: "NotoSans-Regular";
+  src: url("../fonts/NotoSans-Regular/NotoSans-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/NotoSans-Regular/NotoSans-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/NotoSans-Regular/NotoSans-Regular.otf") format("opentype"), url("../fonts/NotoSans-Regular/NotoSans-Regular.svg") format("svg"), url("../fonts/NotoSans-Regular/NotoSans-Regular.ttf") format("truetype"), url("../fonts/NotoSans-Regular/NotoSans-Regular.woff") format("woff"), url("../fonts/NotoSans-Regular/NotoSans-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+}
+
+@font-face {
+  font-family: 'ALK Sanet';
+  src: url("../fonts/alk-sanet/alk-sanet-webfont.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/alk-sanet/alk-sanet-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/alk-sanet/alk-sanet-webfont.woff2") format("woff2"), url("../fonts/alk-sanet/alk-sanet-webfont.woff") format("woff"), url("../fonts/alk-sanet/alk-sanet-webfont.ttf") format("truetype"), url("../fonts/alk-sanet/alk-sanet-webfont.svg#alk_sanetregular") format("svg");
+  /* Legacy iOS */
+}
 /*# sourceMappingURL=style.css.map */
