@@ -41,8 +41,6 @@
         </section>
 
         <section>
-            <div class="width"></div>
-            <div class="height"></div>
         <div class="row newDesign_hintPage">
             <div class="col-12 m-auto ">
             <div class="newDesign_subject_question_item ml-5vh" style="margin: 0">
@@ -63,7 +61,6 @@
             </div>
 
         </div>
-
     </section>
 </div>
 </section>
@@ -73,50 +70,30 @@
 <script>
 
     // document.addEventListener('DOMContentLoaded', () => {
-    //     if(isMobile() == false && window.matchMedia("(orientation: portrait)").matches == true) {
+    //     if(window.matchMedia("(orientation: portrait)").matches == true) {
     //         document.querySelector('body').setAttribute('style', 'display: none')
     //         redirectUser(false, '/main-page/landscape.html', `${location.origin}${location.pathname}main-page/landscape.html`)
 
-    //     } else if(isMobile() == false && window.matchMedia("(orientation: landscape)").matches == true) {
+    //     } else if(window.matchMedia("(orientation: landscape)").matches == true) {
     //         document.querySelector('body').setAttribute('style', 'display: none')
-    //         redirectUser(false, '/main-page/portrait.html', `${location.origin}${location.pathname}main-page/portrait.html`)
-    //     } else {
-    //         location.href = "/"
+    //         redirectUser(false, '/', '/el.resursebi-front')
     //     }
+
     // })
 
 
-    window.addEventListener('resize', function(e) {
-        if(isMobile() == false && window.matchMedia("(orientation: portrait)").matches == true) {
-            alert('11')
-            redirectUser(false, '/main-page/landscape.html', `${location.origin}/el.resursebi-front/main-page/landscape.html`)
-            
-        } else if(isMobile() == false && window.matchMedia("(orientation: landscape)").matches == true) {
-            alert('22')
-            redirectUser(false, '/main-page/portrait.html', `${location.origin}/el.resursebi-front/main-page/portrait.html`)
-        } else {
-            alert('33')
-            redirectUser(false, '/', `${location.origin}/el.resursebi-front`)
+    window.addEventListener('orientationchange', function(e) {
+        let index = JSON.parse(localStorage.getItem('index'));
+        let NextPage = JSON.parse(localStorage.getItem('renderNextPage'));
+        let hasChanged = JSON.parse(localStorage.getItem('hasChanged'));
+
+        if(window.matchMedia("(orientation: portrait)").matches == true && NextPage == true && index == "2") {
+            document.querySelector('body').setAttribute('style', 'display: none')
+            redirectUser(false, '/', '/el.resursebi-front')
         }
     });
 
-    
-    function isMobile() {
-        let width = window.innerWidth;
-        let height = window.innerHeight;
 
-        document.querySelector('.width').innerText = width
-    document.querySelector('.height').innerText = height
-
-        if(width < 1000 || height < 768){
-            return false
-
-        } else {
-            return true
-        }
-    };
-    
-    
     
     function redirectUser(ismobile, schoolLink, githubLink) {
         if(ismobile == false) {
