@@ -49350,6 +49350,12 @@ td, th {
   padding: 3.5vh !important;
 }
 
+.noPadding {
+  border: solid 2px #7fd1d8 !important;
+  border-style: none solid solid none !important;
+  padding: 0vh !important;
+}
+
 tr:first-child th:first-child {
   border-top-left-radius: 10px !important;
 }
