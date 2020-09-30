@@ -45,7 +45,9 @@
       <section class="container position-absolute" id="app">
           <header>
               <div class="navbar navbar-expend-lg navbar-light bg-transparent">
-                    <img src="../New-header-vue/header-img/Header-logo.svg" style="margin:auto;">
+                    <a href="/" style="margin:auto;">
+                        <img src="../New-header-vue/header-img/Header-logo.svg">
+                    </a>
           </header>
   
       </section>
@@ -81,34 +83,6 @@
 
 
 
-<script>
-
-    // document.addEventListener('DOMContentLoaded', () => {
-    //     if(JSON.parse(localStorage.getItem('renderNextPage')) == true) {
-    //         document.querySelector('body').setAttribute('style', 'display: none')
-    //         redirectUser(false, '/', '/el.resursebi-front')
-
-    //     } 
-    // })
-    
-
-    function redirectUser(ismobile, schoolLink, githubLink) {
-        if(ismobile == false) {
-            if(location.host == "school.emis.ge") {
-                location.href = schoolLink
-        
-            } else if(location.host == "ananoaspanidze.github.io") {
-                location.href = githubLink
-        
-            } else {
-                location.href = schoolLink
-                
-            }
-        }
-    }
-    
-    
-    </script>
-    
+<!-- <script src="../js/detectDevice.js"></script>     -->
 </body>
 </html>

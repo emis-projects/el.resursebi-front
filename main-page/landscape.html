@@ -36,7 +36,9 @@
         <section class="container position-absolute" id="app">
             <header>
                 <div class="navbar navbar-expend-lg navbar-light bg-transparent">
-                      <img src="../New-header-vue/header-img/Header-logo.svg" style="margin:auto;">
+                      <a href="/" style="margin:auto;">
+                        <img src="../New-header-vue/header-img/Header-logo.svg">
+                    </a>
             </header>
         </section>
 
@@ -67,52 +69,6 @@
 </div>
 
 
-<script>
-
-    // document.addEventListener('DOMContentLoaded', () => {
-    //     if(window.matchMedia("(orientation: portrait)").matches == true) {
-    //         document.querySelector('body').setAttribute('style', 'display: none')
-    //         redirectUser(false, '/main-page/landscape.html', `${location.origin}${location.pathname}main-page/landscape.html`)
-
-    //     } else if(window.matchMedia("(orientation: landscape)").matches == true) {
-    //         document.querySelector('body').setAttribute('style', 'display: none')
-    //         redirectUser(false, '/', '/el.resursebi-front')
-    //     }
-
-    // })
-
-
-    window.addEventListener('orientationchange', function(e) {
-        let index = JSON.parse(localStorage.getItem('index'));
-        let NextPage = JSON.parse(localStorage.getItem('renderNextPage'));
-        let hasChanged = JSON.parse(localStorage.getItem('hasChanged'));
-
-        if(window.matchMedia("(orientation: portrait)").matches == true && NextPage == true && index == "2") {
-            document.querySelector('body').setAttribute('style', 'display: none')
-            redirectUser(false, '/', '/el.resursebi-front')
-        }
-    });
-
-
-    
-    function redirectUser(ismobile, schoolLink, githubLink) {
-        if(ismobile == false) {
-            if(location.host == "school.emis.ge") {
-                location.href = schoolLink
-        
-            } else if(location.host == "ananoaspanidze.github.io") {
-                location.href = githubLink
-        
-            } else {
-                location.href = schoolLink
-                
-            }
-        }
-    }
-    
-    
-
-</script>
 
 
 
