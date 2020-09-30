@@ -4,6 +4,9 @@ var isiPad = (navigator.userAgent.match(/iPad/i) != null);
 // is this an iPhone ?
 var isiPhone = (navigator.userAgent.match(/iPhone/i) != null);
 
+// is this an android ?
+var isAndroid = (navigator.userAgent.match(/Android/i) != null);
+
 // is this an windows ?
 var isWindows = (navigator.userAgent.match(/Windows/i) != null);
 
@@ -11,6 +14,11 @@ var isWindows = (navigator.userAgent.match(/Windows/i) != null);
 if (isiPhone) {
     document.querySelector('body').setAttribute('style', 'display: none')
     redirectUser('/main-page/portrait.html', `${location.origin}/el.resursebi-front/main-page/portrait.html`)
+    
+} else if(isAndroid) {
+    document.querySelector('body').setAttribute('style', 'display: none')
+    redirectUser('/main-page/portrait.html', `${location.origin}/el.resursebi-front/main-page/portrait.html`)
+
     
 } else if(isiPad) {
     if(window.innerWidth > 1000 && window.innerHeight > 768 && !JSON.parse(localStorage.getItem('refresh')) == true) {
