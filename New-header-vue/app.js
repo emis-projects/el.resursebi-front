@@ -63,7 +63,16 @@ Vue.component("appMenu", {
   },
   created(){
     var theme = localStorage.getItem('theme')
+    var current__pagination = document.getElementsByClassName("current__pagination");
+    var pagination__prev__btn = document.getElementsByClassName("pagination__prev__btn");
+    var pagination__next__btn = document.getElementsByClassName("pagination__next__btn");
+    
     if(theme == 'darck'){
+      console.log('current__pagination1111111', current__pagination[0])
+      console.log('pagination__prev__btn222', pagination__prev__btn[0])
+      // current__pagination[0].classList.add("pagination_black");
+      pagination__prev__btn[0].classList.add("pagination_black");
+      pagination__next__btn[0].classList.add("pagination_black");
       var element = document.body;
         element.style.background="black";
         this.isDark = true
@@ -83,11 +92,20 @@ Vue.component("appMenu", {
   },
   methods: {
     myFunction(){
+      var current__pagination = document.getElementsByClassName("current__pagination");
+      var pagination__prev__btn = document.getElementsByClassName("pagination__prev__btn");
+      var pagination__next__btn = document.getElementsByClassName("pagination__next__btn");
+
       var element = document.body;
       if(!this.isDark){
+        // ფეიჯინგი
+        current__pagination[0].classList.add("pagination_black");
+        pagination__prev__btn[0].classList.add("pagination_black");
+        pagination__next__btn[0].classList.add("pagination_black");
         localStorage.setItem("theme", "darck");
         element.style.background="black";
         this.isDark = true
+        //ტეგები
         for (const [key, value] of Object.entries(document.getElementsByTagName('p'))) {
           value.style.color = 'white';
         }
@@ -99,6 +117,9 @@ Vue.component("appMenu", {
         }
       }
       else{
+        current__pagination[0].classList.remove("pagination_black");
+        pagination__prev__btn[0].classList.remove("pagination_black");
+        pagination__next__btn[0].classList.remove("pagination_black");
         localStorage.setItem("theme", "light");
         element.style.background="";
         this.isDark = false
