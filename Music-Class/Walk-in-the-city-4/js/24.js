@@ -21,15 +21,6 @@ function game() {
     let dragElement1 = document.querySelector('.DragGame—childs1');
     let dragElement2 = document.querySelectorAll('.DragGame—childs2');
     let correctAnswer = document.getElementById('correctAnswer');
-    const completeBtn = document.getElementById('completedGame');
-    const resetBtn = document.getElementById('resetBtn');
-
-
-
-    // listeners
-    completeBtn.addEventListener('click', () => this.completGame());
-    resetBtn.addEventListener('click', () => this.init());
-
 
     $(listenBtn).click((e) => {
         handleLoadstop()
@@ -45,20 +36,19 @@ function game() {
     
 
     document.querySelector('.DragGame—childs1').addEventListener('click', (e) => {
-        if(this.error == false) {
-            e.target.setAttribute('style', "transition: all 0.5s; transform: rotate(360deg)")
-    
-            setTimeout(() => {
-                e.target.removeAttribute('style')
-            }, 500)
-        }
+        e.target.setAttribute('style', "transition: all 0.5s; transform: rotate(360deg)")
+        
+        setTimeout(() => {
+            e.target.removeAttribute('style')
+        }, 500)
     })
 
 
 
     
     $('.DragGame—childs2').click((e) => {
-        if(this.error == false) {
+
+        if(e.target.getAttribute('data-index') == this.index) {
             let index = e.target.getAttribute('data-index')
 
             let value = this.answersArray.concat(index)
@@ -91,38 +81,14 @@ function game() {
 
         } else if(this.index == 4) {
             dragElement1.setAttribute('data-voice', "./game-voices/სლაიდი 26/მამაკაცი.wav")
-        }
-    }
-
-
-
-    this.init = () => {
-        this.error = false;
-        this.answersArray = '';
-        
-        dragElement1.setAttribute('src', "../../img/gakvetilebi/Music-class/Walk-in-the-city-4/music-new-04-14-yellow-ball.svg")
-        dragElement1.setAttribute('data-voice', "./game-voices/სლაიდი 26/ბავშვი.wav")
-
-        this.index = 1;
-
-        document.querySelector('.number').innerHTML = this.index;
-        dragElement1.setAttribute('data-index', this.index)
-
-        // stop voice 
-        createjs.Sound.stop("sound");
-    }
-    
-
-    this.completGame = () => {
-        if(correctAnswer.getAttribute('data-correct') == this.answersArray){
-            this.error = false;
+            
+        } else if(this.index == 5) {
             location.href = "game-success-24.html"
-
-        } else {
-            this.error = true;
-            dragElement1.setAttribute('src', "../../img/gakvetilebi/Music-class/Walk-in-the-city-4/Group 48675-red.svg")
         }
     }
+
+
+
 }
 
 
