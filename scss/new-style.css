@@ -54848,6 +54848,12 @@ input:checked + .slider:before {
   background-color: rgb(0, 0, 0) !important;
 }
 
-.pagination__item_current__pagination_black {
+.reset__btn_black{
+  background: rgb(0, 0, 0);
+  color: #ffffff;
+}
+
+.completed__btn_black {
+  color: #ffffff !important;
   background-color: rgb(0, 0, 0);
 }

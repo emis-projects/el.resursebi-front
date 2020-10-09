@@ -15,13 +15,13 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     createDots(json);
 
-    $('.pagination__item--el').mouseenter(function(){
+    $('.pagination__item--el').mouseenter(function () {
         let index = $(this).attr('data-index')
         $(this).children('.pagination__dot').addClass('active')
         $(this).children('.pagination__dot').text(index)
     })
 
-    $('.pagination__item--el').mouseleave(function(){
+    $('.pagination__item--el').mouseleave(function () {
         $(this).children('.pagination__dot').removeClass('active')
         $(this).children('.pagination__dot').text('')
     })
@@ -43,7 +43,7 @@ function createDots(json) {
 
         $(a).removeClass('current__pagination')
         $(a).addClass('pagination__dot')
-        
+
 
         a.setAttribute('href', `${i.number}.html`);
 
@@ -51,7 +51,7 @@ function createDots(json) {
 
         $(pagination).append(div)
 
-        if(htmlPageIdAttr == i.number){
+        if (htmlPageIdAttr == i.number) {
             $('html').attr('data-type', i.type);
             $('html').attr('pages-number', json.pages_number)
             var htmlAttrAllPage = parseInt($('html').attr('pages-number'));
@@ -62,7 +62,7 @@ function createDots(json) {
             createCurrentDots(i.number, a);
             getTypes(i.type);
             getNextAndPrevBtn(htmlAttrAllPage, nextElement, prevElement)
-        }  
+        }
     })
 }
 
@@ -72,15 +72,26 @@ function createCurrentDots(num, a) {
     $(a).parent().removeClass('pagination__item--el')
     $(a).addClass('current__pagination')
     $(a).append(num)
-    
+
     a.setAttribute('href', `${num}.html`);
+
+
+    //ფეიჯინგი 
+    var theme = localStorage.getItem('theme')
+    var current__pagination = document.getElementsByClassName("current__pagination");
+    if (theme == 'darck') {
+        console.log("ready!", current__pagination, Object.keys(current__pagination));
+        if (current__pagination[0]) {
+            current__pagination[0].classList.add("pagination_black");
+        }
+    }
 }
 
-function getTypes(){
+function getTypes() {
     let types = document.querySelectorAll('.leftSidebar_type');
 
     types.forEach(w => {
-        if(w.getAttribute('data-type') == $('html').attr('data-type')){
+        if (w.getAttribute('data-type') == $('html').attr('data-type')) {
             w.setAttribute('style', 'opacity: 1')
         }
     })
@@ -90,15 +101,15 @@ function getTypes(){
 function getNextAndPrevBtn(pagesLength, next, prev) {
     let htmlAttr = parseInt($('html').attr('pageid'));
 
-    if (htmlAttr == pagesLength){
+    if (htmlAttr == pagesLength) {
         $('.pagination__next__btn').attr('style', 'display: none')
-    
+
     } else {
         next = next + 1;
         $('.pagination__next__btn').attr('href', `${next}.html`)
     }
 
-    if(prev == 1){
+    if (prev == 1) {
         $('.pagination__prev__btn').attr('style', 'display: none')
     } else {
         prev = prev - 1

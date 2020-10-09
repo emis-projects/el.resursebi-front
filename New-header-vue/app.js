@@ -63,14 +63,22 @@ Vue.component("appMenu", {
   },
   created(){
     var theme = localStorage.getItem('theme')
-    var current__pagination = document.getElementsByClassName("current__pagination");
+    var reset__btn = document.getElementsByClassName("reset__btn");
+    var completed__btn = document.getElementsByClassName("completed__btn");
+    // var current__pagination = document.getElementsByClassName("current__pagination");
     var pagination__prev__btn = document.getElementsByClassName("pagination__prev__btn");
     var pagination__next__btn = document.getElementsByClassName("pagination__next__btn");
     
     if(theme == 'darck'){
-      console.log('current__pagination1111111', current__pagination[0])
-      console.log('pagination__prev__btn222', pagination__prev__btn[0])
-      // current__pagination[0].classList.add("pagination_black");
+      //დაწყება დასსრულება
+      if(reset__btn[0]){
+        reset__btn[0].classList.add("reset__btn_black");
+      }
+      if(completed__btn[0]){
+        completed__btn[0].classList.add("completed__btn_black");
+      }
+      //ფეიჯინგი
+      // current__pagination[0].classList.add("pagination_black"); Pagination.js-ში არის გადატანილი,ჩატვირთვის მერე რო დაედოს
       pagination__prev__btn[0].classList.add("pagination_black");
       pagination__next__btn[0].classList.add("pagination_black");
       var element = document.body;
@@ -92,12 +100,20 @@ Vue.component("appMenu", {
   },
   methods: {
     myFunction(){
+      var reset__btn = document.getElementsByClassName("reset__btn");
+      var completed__btn = document.getElementsByClassName("completed__btn");
       var current__pagination = document.getElementsByClassName("current__pagination");
       var pagination__prev__btn = document.getElementsByClassName("pagination__prev__btn");
       var pagination__next__btn = document.getElementsByClassName("pagination__next__btn");
-
       var element = document.body;
       if(!this.isDark){
+        //დაწყება დასრულება
+        if(reset__btn[0]){
+          reset__btn[0].classList.add("reset__btn_black");
+        }
+        if(reset__btn[0]){
+          completed__btn[0].classList.add("completed__btn_black");
+        }
         // ფეიჯინგი
         current__pagination[0].classList.add("pagination_black");
         pagination__prev__btn[0].classList.add("pagination_black");
@@ -117,6 +133,12 @@ Vue.component("appMenu", {
         }
       }
       else{
+        if(reset__btn[0]){
+          reset__btn[0].classList.remove("reset__btn_black");
+        }
+        if(completed__btn[0]){
+          completed__btn[0].classList.remove("completed__btn_black");
+        }
         current__pagination[0].classList.remove("pagination_black");
         pagination__prev__btn[0].classList.remove("pagination_black");
         pagination__next__btn[0].classList.remove("pagination_black");
@@ -232,7 +254,7 @@ Vue.component("appSection", {
     isInfo: {
       type: Boolean,
     },
-  },
+  },  
   template: `
             <div>
                 <section class="section_box">
