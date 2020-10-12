@@ -1289,7 +1289,6 @@ table {
 
 p {
   line-height: 1.5;
-  color: white;
 }
 
 strong {
@@ -1550,7 +1549,6 @@ header .header-sound .lang {
 
 body {
   overflow: hidden;
-  
 }
 
 #app {
@@ -18434,6 +18432,10 @@ td img {
   right: 188px;
   height: 18vh;
   max-height: 338px;
+}
+
+.a-12-29-img {
+  height: 25vh;
 }
 
 .mr-20vw {
@@ -49350,12 +49352,6 @@ td, th {
   padding: 3.5vh !important;
 }
 
-.noPadding {
-  border: solid 2px #7fd1d8 !important;
-  border-style: none solid solid none !important;
-  padding: 0vh !important;
-}
-
 tr:first-child th:first-child {
   border-top-left-radius: 10px !important;
 }
@@ -52813,24 +52809,9 @@ tr td:first-child {
   display: inline-block !important;
 }
 
-.tablet-1 {
-  height: 58vh;
-  max-height: 453px;
-}
+/*@import "main-page/tablets.scss";
 
-.tablet-1 img {
-  height: 100%;
-}
-
-.tablet-2 {
-  height: 68vh;
-  max-height: 524px;
-}
-
-.tablet-2 img {
-  height: 100%;
-}
-
+@import "About-app/Scss/contact";*/
 body {
   color: #262626;
   font-size: 14px;
@@ -54739,7 +54720,6 @@ body {
     font-size: 14px;
   }
 }
-<<<<<<< Updated upstream
 
 #tableOfContentTwo {
   display: -webkit-box;
@@ -54772,88 +54752,4 @@ body {
   margin-left: 12px;
   color: #c5cbcd;
 }
-=======
->>>>>>> Stashed changes
 /*# sourceMappingURL=new-style.css.map */
-
-.dark-mode {
-  background-color: black;
-  color: white;
-}
-
-.switchDark {
-  position: relative;
-  display: inline-block;
-  width: 51px;
-  height: 31px;
-}
-
-.switchDark input { 
-  opacity: 0;
-  width: 0;
-  height: 0;
-}
-
-.slider {
-  position: absolute;
-  cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #000000;
-  -webkit-transition: .4s;
-  transition: .4s;
-}
-
-.slider:before {
-  position: absolute;
-  content: "";
-  height: 25px;
-  width: 25px;
-  left: -2px;
-  bottom: 2px;
-  background-color: #7fd1d8;
-  -webkit-transition: .4s;
-  transition: .4s;
-}
-
-input:checked + .slider {
-  background-color: #ffffff;
-  box-shadow: 1px 3px 6px #FADE7E;
-}
-
-input:focus + .slider {
-  box-shadow: 1px 3px 6px #7fd1d8;
-}
-
-input:checked + .slider:before {
-  -webkit-transform: translateX(26px);
-  -ms-transform: translateX(26px);
-  transform: translateX(26px);
-  background-color: #F7CF43;
-}
-
-/* Rounded sliders */
-.slider.round {
-  border-radius: 34px;
-}
-
-.slider.round:before {
-  border-radius: 50%;
-}
-
-.pagination_black{
-  color: #ffffff !important;
-  background-color: rgb(0, 0, 0) !important;
-}
-
-.reset__btn_black{
-  background: rgb(0, 0, 0);
-  color: #ffffff;
-}
-
-.completed__btn_black {
-  color: #ffffff !important;
-  background-color: rgb(0, 0, 0);
-}
