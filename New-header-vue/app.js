@@ -176,13 +176,13 @@ Vue.component("appMenu", {
             </div>
           </li>
           
-          <li
+          <!--ხმის ჩართვა/გამორთვა <li
             @click="isShow = !isShow"
             class="nav-item"
             @mouseover="soundHover = true"
             @mouseleave="soundHover = false"
           >
-            <!--<div
+            <div
                 class="sound_box sound"
                 :class="[soundHover ? 'sound_box_active' : 'sound_box_passive']"
             >
