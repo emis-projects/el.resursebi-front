@@ -9,10 +9,13 @@
     <!--  ვუე გაშვებისას
       <script src="./js/vue.min.js"></script>
        -->
-    <link rel="stylesheet" href="../../New-header-vue/animate.min.css">
+       <link rel="stylesheet" type="text/css" href="../../scss/libraries/owl.carousel.min.css" />
+    <link rel="stylesheet" type="text/css" href="../../scss/libraries/owl.theme.default.css" />
     <link rel="stylesheet" href="../../scss/libraries/bootstrap.min.css">
-    <link href="../../scss/new-style.css" rel="stylesheet"/>
-<link href="../../scss/new-style.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="../../New-header-vue/animate.min.css">
+    <link rel="stylesheet" href="../../scss/libraries/magnific-popup.css">
+    <link href="../../scss/new-style.css" rel="stylesheet" />
+    <link href="../../scss/new-style.css" rel="stylesheet" />
     <title>ელექტრონული საგანმანათლებლო რესურსი</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
@@ -451,18 +454,79 @@
                             აპლიკაცია ქაღალდის ან სხვა მასალის დაწებებით შექმნილი ნამუშევარია. შენ დაგჭირდება ფერადი ქაღალდები
                         </p>
                     </div>
-                    <div class="d-flex justify-content-between" id="A-1366-04-16">
-                        <div class="img-box">
-                          <img alt="art" src="../../img/gakvetilebi/xelovneba/magic-world/nika-16.png">
-                          <p class="mt-3">ნიკა ჩიკვაიძე</p>
+                    <div class="row align-items-end mt-10vh">
+                        <div class="col-6">
+                            <div
+                                class="portfolio-item-container portfolio-item-container-mg-world portfolio-item-container-mg-world-6-5-1">
+                                <img src="../../img/gakvetilebi/xelovneba/magic-world/nika-16.png" alt=""
+                                    class="portfolio-item-container_img">
+                                <div class="paging_buttons">
+                                    <a href="" id="slide1" class="paging_buttons_fullScreen-link" data-toggle="modal"
+                                        data-target="#exampleModal"><img src="../../img/icons/arrows_blue.svg" alt=""
+                                            class="paging_buttons_fullScreen-img" /></a>
+                                </div>
+                            </div>
+                            <p class="newDesign_subject_question_item-title mt-1vh">
+                                ქალაქის პეიზაჟი, ნიკა ჩიკვაიძე, 15 წლის
+                            </p>
                         </div>
-                        <div class="img-box">
-                          <img alt="art" src="../../img/gakvetilebi/xelovneba/magic-world/taso-16.png">
-                          <p class="mt-3">ტასო ჭელიძე</p>
+                        <div class="col-6">
+                            <div
+                                class="portfolio-item-container portfolio-item-container-mg-world portfolio-item-container-mg-world-6-5-2">
+                                <img src="../../img/gakvetilebi/xelovneba/magic-world/taso-16.png" alt=""
+                                    class="portfolio-item-container_img" style="object-fit: contain;">
+                                <div class="paging_buttons">
+                                    <a href="" id="slide2" class="paging_buttons_fullScreen-link" data-toggle="modal"
+                                        data-target="#exampleModal"><img src="../../img/icons/arrows_blue.svg" alt=""
+                                            class="paging_buttons_fullScreen-img" /></a>
+                                </div>
+                            </div>
+                            <p class="newDesign_subject_question_item-title mt-1vh" >
+                                აბსტრაქცია, ტასო ჭელიძე, 12 წლის
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
+
+                        <!-- Modal -->
+                        <div class="modal fade fullScreen_modal-fade" id="exampleModal" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog fullScreen_modal-dialog" role="document">
+                            <div class="modal-content fullScreen_modal-content">
+                                <div class="container modal-header fullScreen_modal-header">
+                                    <a href="./24.html" class="close" data-dismiss="modal" aria-label="Close">
+                                        <img src="../../img/icons/close.svg" alt="close" />
+                                    </a>
+                                </div>
+                                <div class="modal-body fullScreen_modal-body">
+                                    <div class="container-fluid">
+                                        <div
+                                            class="owl-carousel owl-theme row no-gutters portfolio-slider portfolio-slider-04-6-1">
+                                            <div class="item col-12 slide_content-box">
+                                                <div>
+                                                    <div class="fullScreen_modal-img-lg-vert ml-0vh">
+                                                        <img src="../../img/gakvetilebi/xelovneba/magic-world/nika-16.png"
+                                                            alt="">
+                                                    </div>
+                                                    <h2 class="fullScreen_modal-title">ქალაქის პეიზაჟი, ნიკა ჩიკვაიძე, 15 წლის</h2>
+                                                </div>
+                                            </div>
+                                            <div class="item col-12 slide_content-box">
+                                                <div>
+                                                    <div class="fullScreen_modal-img-lg-hor ml-0vh">
+                                                        <img src="../../img/gakvetilebi/xelovneba/magic-world/taso-16.png"
+                                                            alt="">
+                                                    </div>
+                                                    <h2 class="fullScreen_modal-title">აბსტრაქცია, ტასო ჭელიძე, 12 წლის</h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
             <div class="our__pagination flex">
                 <div id="pagination" class="flex align-items-center">
                     <div class="pagination__item">
@@ -479,8 +543,10 @@
         <app-bot></app-bot>
     </div>
 
-    <script src="../../js/libraries/jquery-3.4.1.min.js"></script>
-    <script src="../../js/libraries/jquery.magnific-popup.min.js"></script>
+     <script src="../../js/libraries/jquery-3.4.1.min.js"></script>
+    <script src="../../js/libraries/owl.carousel.min.js"></script>
+    <script src="../../js/libraries/bootstrap.min.js"></script>
+    <script src="../../js/Pagination.js"></script>
 
 
     <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->

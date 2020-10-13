@@ -5,29 +5,29 @@
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
-    <script src="../../js/vue.js"></script>
-    <!--  ვუე გაშვებისას
+  <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+  <script src="../../js/vue.js"></script>
+  <!--  ვუე გაშვებისას
         <script src="./js/vue.min.js"></script>
          -->
-    <link rel="stylesheet" type="text/css" href="../../scss/libraries/owl.carousel.min.css"/>
-    <link rel="stylesheet" type="text/css" href="../../scss/libraries/owl.theme.default.css"/>
-    <link rel="stylesheet" href="../../New-header-vue/animate.min.css">
-    <link rel="stylesheet" href="../../scss/libraries/bootstrap.min.css">
-    <link rel="stylesheet" href="../../scss/libraries/magnific-popup.css">
-    <link href="../../scss/new-style.css" rel="stylesheet"/>
-<link href="../../scss/new-style.css" rel="stylesheet"/>
-    <title>ელექტრონული საგანმანათლებლო რესურსი</title>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
+  <link rel="stylesheet" type="text/css" href="../../scss/libraries/owl.carousel.min.css" />
+  <link rel="stylesheet" type="text/css" href="../../scss/libraries/owl.theme.default.css" />
+  <link rel="stylesheet" href="../../New-header-vue/animate.min.css">
+  <link rel="stylesheet" href="../../scss/libraries/bootstrap.min.css">
+  <link rel="stylesheet" href="../../scss/libraries/magnific-popup.css">
+  <link href="../../scss/new-style.css" rel="stylesheet" />
+  <link href="../../scss/new-style.css" rel="stylesheet" />
+  <title>ელექტრონული საგანმანათლებლო რესურსი</title>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
+    function gtag() {
+      dataLayer.push(arguments);
+    }
 
-        gtag('js', new Date());
+    gtag('js', new Date());
 
     gtag('config', 'UA-155006442-1');
   </script>
@@ -36,21 +36,20 @@
 <body>
   <div class="container">
     <section id="app" class="container position-absolute">
-        <header>
-            <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../'"></app-menu>
-        </header>
+      <header>
+        <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../'"></app-menu>
+      </header>
 
-        <app-section :is-active="isActive" :is-info="isInfo" v-image="'../../'">
-            <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger"
-                     v-on:link-tab="link = $event">
+      <app-section :is-active="isActive" :is-info="isInfo" v-image="'../../'">
+        <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger"
+          v-on:link-tab="link = $event">
 
-            </app-bar>
-            <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive"
-                       :is-info="isInfo"
-                       :path="path" :tab-class="currentTabComponent" :trigger="trigger">
-            </component>
+        </app-bar>
+        <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive"
+          :is-info="isInfo" :path="path" :tab-class="currentTabComponent" :trigger="trigger">
+        </component>
 
-        </app-section>
+      </app-section>
     </section>
     <section id="mainPage">
       <div class="row">
@@ -62,24 +61,30 @@
             <div class="col-5">
               <div class="portfolio-item-container portfolio-item-container_newDesign ">
                 <img src="../../img/gakvetilebi/xelovneba/daily-news-11/A-11-24-1.jpg" alt="color story"
-                     class="portfolio-item-container_img" />
+                  class="portfolio-item-container_img" />
                 <div class="paging_buttons">
                   <a href="" id="slide1" class="paging_buttons_fullScreen-link" data-toggle="modal"
                     data-target="#exampleModal"><img src="../../img/icons/arrows_blue.svg" alt="color story"
-                                                     class="paging_buttons_fullScreen-img" /></a>
+                      class="paging_buttons_fullScreen-img" /></a>
                 </div>
               </div>
+              <p class="newDesign_subject_question_item-title mt-1vh">
+                ვაჟა-ფშაველა, გიორგი ოჩიაური
+              </p>
             </div>
             <div class="col-5 offset-2">
               <div class="portfolio-item-container portfolio-item-container_newDesign ">
                 <img src="../../img/gakvetilebi/xelovneba/daily-news-11/A-11-24-2.jpg" alt="color story"
-                     class="portfolio-item-container_img" />
+                  class="portfolio-item-container_img" />
                 <div class="paging_buttons">
                   <a href="" id="slide2" class="paging_buttons_fullScreen-link" data-toggle="modal"
                     data-target="#exampleModal"><img src="../../img/icons/arrows_blue.svg" alt="color story"
-                                                     class="paging_buttons_fullScreen-img" /></a>
+                      class="paging_buttons_fullScreen-img" /></a>
                 </div>
               </div>
+              <p class="newDesign_subject_question_item-title mt-1vh">
+                ჯან ლორენცო ბერნინი, დავითი
+              </p>
             </div>
           </div>
         </div>
@@ -103,6 +108,9 @@
                       <div class="fullScreen_modal-img-lg-hor">
                         <img src="../../img/gakvetilebi/xelovneba/daily-news-11/A-11-24-1.jpg" alt="color story" />
                       </div>
+                      <p class="newDesign_subject_question_item-title mt-1vh">
+                        ვაჟა-ფშაველა, გიორგი ოჩიაური
+                      </p>
                     </div>
                   </div>
                   <div class="item col-12 slide_content-box">
@@ -110,6 +118,9 @@
                       <div class="fullScreen_modal-img-lg-hor">
                         <img src="../../img/gakvetilebi/xelovneba/daily-news-11/A-11-24-2.jpg" alt="color story" />
                       </div>
+                      <p class="newDesign_subject_question_item-title mt-1vh">
+                        ჯან ლორენცო ბერნინი, დავითი
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -516,8 +527,8 @@
 
 
   <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
-    <script src="../../New-header-vue/vis.js"></script>
-    <script src="../../New-header-vue/app.js"></script>
+  <script src="../../New-header-vue/vis.js"></script>
+  <script src="../../New-header-vue/app.js"></script>
   <script src="../../Vue-chatBot/botApp.js"></script>
   <script src="../../js/bot.js"></script>
 
