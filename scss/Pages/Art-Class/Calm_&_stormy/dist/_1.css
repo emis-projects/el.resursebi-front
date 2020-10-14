@@ -1,0 +1,61 @@
+.calm_and_stormy-1_image-box {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+}
+.calm_and_stormy-1_image-box img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.calm_and_stormy-3_image-box {
+  height: 58.59vh;
+  max-height: 450px;
+}
+.calm_and_stormy-3_image-box div {
+  height: 100%;
+  width: 43.92vw;
+  max-width: 600px;
+  background: url("../img/gakvetilebi/xelovneba/red_brush.svg") no-repeat center;
+  background-size: contain;
+}
+.calm_and_stormy-3_image-box div:first-child {
+  height: 28.77vh;
+  max-height: 221px;
+  width: 17.34vw;
+  max-width: 2368px;
+  background: url("../img/gakvetilebi/xelovneba/paint-boxo.svg") no-repeat center;
+}
+.calm_and_stormy-10_image-box {
+  height: 24.6vh;
+  max-height: 189px;
+}
+.calm_and_stormy-10_image-box img {
+  height: 100%;
+}
+.calm_and_stormy-12_image-box {
+  height: 59.37vh;
+  max-height: 810px;
+  width: 61.42vw;
+  max-width: 838px;
+  background: url("../img/gakvetilebi/xelovneba/colors_brush.svg") no-repeat center;
+  background-size: contain;
+}
+.calm_and_stormy-3-4_1_image-box {
+  height: 26vh;
+  max-height: 206px;
+}
+.calm_and_stormy-16-1_image-box {
+  height: 46vh;
+  max-height: 305px;
+}
+.calm_and_stormy-16-1_image-box img {
+  height: 100%;
+}
+
+.calm_and_stormy-red {
+  background-color: red;
+  color: greenyellow;
+}
