@@ -17657,6 +17657,10 @@ td img {
   height: 100%;
 }
 
+.day-19 .is-up {
+  z-index: 9999;
+}
+
 .img-box_items-14 {
   height: 45vh;
   max-height: 352px;
@@ -22218,11 +22222,11 @@ td img {
 }
 
 .DragGame--Parent .selectedPurple {
-  background-color: #947DCE !important;
+  background-color: #947dce !important;
 }
 
 .DragGame--Parent .textWhite {
-  color: #FFF;
+  color: #fff;
 }
 
 .c-2-1-algorithme-img {
@@ -29394,6 +29398,11 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .calm_and_stormy-16-1_image-box img {
   height: 100%;
+}
+
+.calm_and_stormy-portfolio_2_6_1 {
+  width: 24vw !important;
+  height: auto;
 }
 
 #A-1366-220 .subject_question_item .newDesign_subject_question_item-img {
