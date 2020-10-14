@@ -11168,6 +11168,9 @@ img.mfp-img[alt*=cs-3-6-6-img] {
   height: 100vh;
 }
 
+.calm_and_stormy-red {
+  background-color: red;
+}
 .calm_and_stormy-1_image-box {
   position: fixed;
   top: 0;
