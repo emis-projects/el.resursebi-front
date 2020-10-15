@@ -54863,4 +54863,14 @@ input:checked + .slider:before {
   color: #ffffff !important;
   background-color: rgb(0, 0, 0);
 }
+
+.newDesign_subject_question_item-title_black_P {
+  color: #ffffff !important;
+}
+.algorithme-title-italic_black_H {
+  color: #ffffff !important;
+}
+.newDesign_container_main_title_black_H {
+  color: #ffffff !important;
+}
 /*# sourceMappingURL=new-style.css.map */
