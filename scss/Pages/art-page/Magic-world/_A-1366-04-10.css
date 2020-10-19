@@ -1,0 +1,26 @@
+#A-1366-04-10 p {
+  font-family: "BPG Arial", sans-serif;
+  font-size: 2.3vh;
+}
+#A-1366-04-10 p a {
+  color: #7FD1D8;
+}
+#A-1366-04-10 p a:hover, #A-1366-04-10 p a:focus, #A-1366-04-10 p a:visited {
+  color: #7FD1D8;
+}
+#A-1366-04-10 .img-box {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 29vh;
+  max-height: 226px;
+  margin-top: 10vh;
+}
+#A-1366-04-10 .img-box img {
+  height: 100%;
+}
+
+.img-item {
+  width: 23vw;
+  height: auto;
+}

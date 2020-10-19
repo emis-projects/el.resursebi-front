@@ -2303,15 +2303,31 @@ section .arrow_up_down_downArrow img {
 }
 
 .portfolio-slider-04-6-1.owl-theme .owl-dots .owl-dot:nth-child(1) span {
-  background-image: url("../img/gakvetilebi/xelovneba/magic-world/a-6-1-1.jpg");
+  background-image: url("../../img/gakvetilebi/xelovneba/magic-world/A-1366-03-15-1.png");
 }
 
 .portfolio-slider-04-6-1.owl-theme .owl-dots .owl-dot:nth-child(2) span {
-  background-image: url("../img/gakvetilebi/xelovneba/magic-world/a-6-1-2.png");
+  background-image: url("../../img/gakvetilebi/xelovneba/magic-world/A-1366-03-15-2.png");
 }
 
 .portfolio-slider-04-6-1.owl-theme .owl-dots .owl-dot:nth-child(3) span {
-  background-image: url("../img/gakvetilebi/xelovneba/magic-world/a-6-1-3.jpg");
+  background-image: url("../../img/gakvetilebi/xelovneba/magic-world/A-1366-03-15-3.png");
+}
+
+.portfolio-slider-04-6-2.owl-theme .owl-dots .owl-dot:nth-child(1) span {
+  background-image: url("../../img/gakvetilebi/xelovneba/magic-world/nika-16.png");
+}
+
+.portfolio-slider-04-6-2.owl-theme .owl-dots .owl-dot:nth-child(2) span {
+  background-image: url("../../img/gakvetilebi/xelovneba/magic-world/taso-16.png");
+}
+
+.portfolio-slider-04-6-3.owl-theme .owl-dots .owl-dot:nth-child(1) span {
+  background-image: url("../../img/gakvetilebi/xelovneba/magic-world/tata-17.png");
+}
+
+.portfolio-slider-04-6-3.owl-theme .owl-dots .owl-dot:nth-child(2) span {
+  background-image: url("../../img/gakvetilebi/xelovneba/magic-world/alex-17.png");
 }
 
 .portfolio-slider-04-6-5.owl-theme .owl-dots .owl-dot:nth-child(1) span {
@@ -5232,24 +5248,4 @@ body {
 .height-75 {
   height: 75%;
 }
-
-.pagination_black{
-  color: #ffffff !important;
-  background-color: rgb(0, 0, 0) !important;
-}
-
-.reset__btn_black{
-  background: rgb(0, 0, 0);
-  color: #ffffff;
-}
-
-.completed__btn_black {
-  color: #ffffff !important;
-  background-color: rgb(0, 0, 0);
-}
-
-.newDesign_subject_question_item-title_black_P {
-  color: #ffffff !important;
-}
-
 /*# sourceMappingURL=components_style.css.map */
