@@ -4945,6 +4945,21 @@ section .arrow_up_down_downArrow img {
   height: 50%;
 }
 
+.color_story-image-22-1 {
+  width: 23vw !important;
+  height: auto !important;
+}
+
+.color_story-image-22 {
+  width: 18vw !important;
+  height: auto !important;
+}
+
+.color_story-image-23-2 {
+  width: 15vw !important;
+  height: auto !important;
+}
+
 .padding-top-14vh {
   padding-top: 14vh;
 }
@@ -12301,6 +12316,10 @@ section .arrow_up_down_downArrow img {
   margin-right: 9vw;
 }
 
+.magic_word-img-4 {
+  height: 67vh;
+}
+
 #A-1366-04-9 .main-text {
   font-family: 'BPG Arial', sans-serif;
   font-size: 2.3vh;
@@ -13349,6 +13368,12 @@ section .arrow_up_down_downArrow img {
 
 #A-1366-05-6-7 .art_questions .rune_gif_box img {
   height: 100%;
+}
+
+.adventure-img-5 {
+  position: fixed;
+  bottom: 6vh;
+  height: 81vh;
 }
 
 #A-1366-05-9 .image_box {

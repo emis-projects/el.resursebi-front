@@ -1,0 +1,16 @@
+#A-1366-05-6-7 .art_questions {
+  margin-top: 9.3vh;
+}
+#A-1366-05-6-7 .art_questions .rune_gif_box {
+  height: 34vh;
+  max-height: 266px;
+}
+#A-1366-05-6-7 .art_questions .rune_gif_box img {
+  height: 100%;
+}
+
+.adventure-img-5 {
+  position: fixed;
+  bottom: 6vh;
+  height: 81vh;
+}

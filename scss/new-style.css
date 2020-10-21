@@ -4792,6 +4792,21 @@ section .arrow_up_down_downArrow img {
   height: 50%;
 }
 
+.color_story-image-22-1 {
+  width: 23vw !important;
+  height: auto !important;
+}
+
+.color_story-image-22 {
+  width: 18vw !important;
+  height: auto !important;
+}
+
+.color_story-image-23-2 {
+  width: 15vw !important;
+  height: auto !important;
+}
+
 .padding-top-14vh {
   padding-top: 14vh;
 }
@@ -12157,6 +12172,10 @@ section .arrow_up_down_downArrow img {
   margin-right: 9vw;
 }
 
+.magic_word-img-4 {
+  height: 67vh;
+}
+
 #A-1366-04-9 .main-text {
   font-family: 'BPG Arial', sans-serif;
   font-size: 2.3vh;
@@ -13205,6 +13224,12 @@ section .arrow_up_down_downArrow img {
 
 #A-1366-05-6-7 .art_questions .rune_gif_box img {
   height: 100%;
+}
+
+.adventure-img-5 {
+  position: fixed;
+  bottom: 6vh;
+  height: 81vh;
 }
 
 #A-1366-05-9 .image_box {
@@ -29419,6 +29444,15 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .calm_and_stormy-16-1_image-box img {
   height: 100%;
+}
+
+.calm_and_storm-image-9 {
+  width: 62.89vh;
+  height: 55vh;
+}
+
+.calm_and_storm-image-38-1 {
+  height: 52vh;
 }
 
 #A-1366-220 .subject_question_item .newDesign_subject_question_item-img {
@@ -54798,96 +54832,3 @@ body {
   color: #c5cbcd;
 }
 /*# sourceMappingURL=new-style.css.map */
-
-.dark-mode {
-  background-color: black;
-  color: white;
-}
-
-.switchDark {
-  position: relative;
-  display: inline-block;
-  width: 51px;
-  height: 31px;
-}
-
-.switchDark input { 
-  opacity: 0;
-  width: 0;
-  height: 0;
-}
-
-.slider {
-  position: absolute;
-  cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #000000;
-  -webkit-transition: .4s;
-  transition: .4s;
-}
-
-.slider:before {
-  position: absolute;
-  content: "";
-  height: 25px;
-  width: 25px;
-  left: -2px;
-  bottom: 2px;
-  background-color: #7fd1d8;
-  -webkit-transition: .4s;
-  transition: .4s;
-}
-
-input:checked + .slider {
-  background-color: #ffffff;
-  box-shadow: 1px 3px 6px #FADE7E;
-}
-
-input:focus + .slider {
-  box-shadow: 1px 3px 6px #7fd1d8;
-}
-
-input:checked + .slider:before {
-  -webkit-transform: translateX(26px);
-  -ms-transform: translateX(26px);
-  transform: translateX(26px);
-  background-color: #F7CF43;
-}
-
-/* Rounded sliders */
-.slider.round {
-  border-radius: 34px;
-}
-
-.slider.round:before {
-  border-radius: 50%;
-}
-
-.pagination_black{
-  color: #ffffff !important;
-  background-color: rgb(0, 0, 0) !important;
-}
-
-.reset__btn_black{
-  background: rgb(0, 0, 0);
-  color: #ffffff;
-}
-
-.completed__btn_black {
-  color: #ffffff !important;
-  background-color: rgb(0, 0, 0);
-}
-
-.newDesign_subject_question_item-title_black_P {
-  color: #ffffff !important;
-}
-
-.algorithme-title-italic_black_H {
-  color: #ffffff !important;
-}
-.newDesign_container_main_title_black_H {
-  color: #ffffff !important;
-}
