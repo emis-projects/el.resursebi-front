@@ -65,6 +65,8 @@ Vue.component("appMenu", {
     var theme = localStorage.getItem('theme')
     var reset__btn = document.getElementsByClassName("reset__btn");
     var completed__btn = document.getElementsByClassName("completed__btn");
+    //btn index.html
+    var new_btn_start = document.getElementsByClassName("new_btn-start");
     var newDesignSubjectQuestionItemTitle = document.getElementsByClassName("newDesign_subject_question_item-title");
     var algorithme_title_italic = document.getElementsByClassName("algorithme-title-italic");
     var newDesign_container_main_title = document.getElementsByClassName("newDesign_container_main_title");
@@ -76,6 +78,12 @@ Vue.component("appMenu", {
       }
       if(completed__btn[0]){
         completed__btn[0].classList.add("completed__btn_black");
+      }
+      //btn index.html
+      for(let i=0; i<8; i++){
+        if(new_btn_start[i]){
+          new_btn_start[i].classList.add("new_btn-start_black_btn");
+        }
       }
       //ფეიჯინგი
       var element = document.body;
@@ -104,6 +112,9 @@ Vue.component("appMenu", {
       var current__pagination = document.getElementsByClassName("current__pagination");
       var pagination__prev__btn = document.getElementsByClassName("pagination__prev__btn");
       var pagination__next__btn = document.getElementsByClassName("pagination__next__btn");
+      //btn index.html
+      var new_btn_start = document.getElementsByClassName("new_btn-start");
+
       //ტეგები
       //P
       var newDesignSubjectQuestionItemTitle = document.getElementsByClassName("newDesign_subject_question_item-title");
@@ -119,6 +130,12 @@ Vue.component("appMenu", {
         }
         if(reset__btn[0]){
           completed__btn[0].classList.add("completed__btn_black");
+        }
+        //btn index.html
+        for(let i=0; i<8; i++){
+          if(new_btn_start[i]){
+            new_btn_start[i].classList.add("new_btn-start_black_btn");
+          }
         }
         // ფეიჯინგი
         if(current__pagination[0]){
@@ -155,6 +172,12 @@ Vue.component("appMenu", {
         }
         if(completed__btn[0]){
           completed__btn[0].classList.remove("completed__btn_black");
+        }
+        //btn index.html
+        for(let i=0; i<8; i++){
+          if(new_btn_start[i]){
+            new_btn_start[i].classList.remove("new_btn-start_black_btn");
+          }
         }
         if(current__pagination[0]){
           current__pagination[0].classList.remove("pagination_black");

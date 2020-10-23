@@ -54918,4 +54918,8 @@ input:checked + .slider:before {
 .newDesign_subject_question_item-title_black_P {
   color: #ffffff !important;
 }
+.new_btn-start_black_btn {
+  background: rgb(0, 0, 0) !important;
+}
+
 /*# sourceMappingURL=new-style.css.map */
