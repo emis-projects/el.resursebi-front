@@ -4792,6 +4792,21 @@ section .arrow_up_down_downArrow img {
   height: 50%;
 }
 
+.color_story-image-22-1 {
+  width: 23vw !important;
+  height: auto !important;
+}
+
+.color_story-image-22 {
+  width: 18vw !important;
+  height: auto !important;
+}
+
+.color_story-image-23-2 {
+  width: 15vw !important;
+  height: auto !important;
+}
+
 .padding-top-14vh {
   padding-top: 14vh;
 }
@@ -12157,6 +12172,10 @@ section .arrow_up_down_downArrow img {
   margin-right: 9vw;
 }
 
+.magic_word-img-4 {
+  height: 67vh;
+}
+
 #A-1366-04-9 .main-text {
   font-family: 'BPG Arial', sans-serif;
   font-size: 2.3vh;
@@ -13205,6 +13224,12 @@ section .arrow_up_down_downArrow img {
 
 #A-1366-05-6-7 .art_questions .rune_gif_box img {
   height: 100%;
+}
+
+.adventure-img-5 {
+  position: fixed;
+  bottom: 6vh;
+  height: 81vh;
 }
 
 #A-1366-05-9 .image_box {
@@ -29419,6 +29444,15 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .calm_and_stormy-16-1_image-box img {
   height: 100%;
+}
+
+.calm_and_storm-image-9 {
+  width: 62.89vh;
+  height: 55vh;
+}
+
+.calm_and_storm-image-38-1 {
+  height: 52vh;
 }
 
 #A-1366-220 .subject_question_item .newDesign_subject_question_item-img {
@@ -54884,3 +54918,4 @@ input:checked + .slider:before {
 .newDesign_subject_question_item-title_black_P {
   color: #ffffff !important;
 }
+/*# sourceMappingURL=new-style.css.map */
