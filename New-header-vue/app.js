@@ -70,6 +70,11 @@ Vue.component("appMenu", {
     var newDesignSubjectQuestionItemTitle = document.getElementsByClassName("newDesign_subject_question_item-title");
     var algorithme_title_italic = document.getElementsByClassName("algorithme-title-italic");
     var newDesign_container_main_title = document.getElementsByClassName("newDesign_container_main_title");
+    //index html დასაწყისი
+    var bg_menu = document.getElementsByClassName("bg_menu");
+    var app_select = document.getElementsByClassName("app-select");
+    var circles_number_pink = document.getElementsByClassName("circles_number-pink");
+    var top_bar = document.getElementsByClassName("top-bar");
     
     if(theme == 'darck'){
       //დაწყება დასსრულება
@@ -103,6 +108,21 @@ Vue.component("appMenu", {
         if(newDesign_container_main_title[0]){
           newDesign_container_main_title[0].classList.add("newDesign_subject_question_item-title_black_P");
         }
+        //index.html დასაწყისი
+        if(bg_menu[0]){
+          bg_menu[0].classList.add("new_btn-start_black_btn");
+        }
+        if(app_select[0]){
+          app_select[0].classList.add("new_btn-start_black_btn");
+        }
+        for(let i=0; i<8; i++){
+          if(circles_number_pink[i]){
+            circles_number_pink[i].classList.add("new_btn-start_black_btn");
+          }
+        }
+        if(top_bar[0]){
+          top_bar[0].classList.add("new_btn-start_black_btn");
+        }
     }
   },
   methods: {
@@ -112,8 +132,14 @@ Vue.component("appMenu", {
       var current__pagination = document.getElementsByClassName("current__pagination");
       var pagination__prev__btn = document.getElementsByClassName("pagination__prev__btn");
       var pagination__next__btn = document.getElementsByClassName("pagination__next__btn");
+      var bg_menu = document.getElementsByClassName("bg_menu");
       //btn index.html
       var new_btn_start = document.getElementsByClassName("new_btn-start");
+      var app_select = document.getElementsByClassName("app-select");
+      var class_box = document.getElementsByClassName("class_box");
+      var circles_number_pink = document.getElementsByClassName("circles_number-pink");
+      var circles_number_white = document.getElementsByClassName("circles_number-white");
+      var top_bar = document.getElementsByClassName("top-bar");
 
       //ტეგები
       //P
@@ -164,6 +190,21 @@ Vue.component("appMenu", {
         if(newDesign_container_main_title[0]){
           newDesign_container_main_title[0].classList.add("newDesign_subject_question_item-title_black_P");
         }
+        //index.html დასაწყისი
+        if(bg_menu[0]){
+          bg_menu[0].classList.add("new_btn-start_black_btn");
+        }
+        if(app_select[0]){
+          app_select[0].classList.add("new_btn-start_black_btn");
+        }
+        for(let i=0; i<8; i++){
+          if(circles_number_pink[i]){
+            circles_number_pink[i].classList.add("new_btn-start_black_btn");
+          }
+        }
+        if(top_bar[0]){
+          top_bar[0].classList.add("new_btn-start_black_btn");
+        }
 
       }
       else{
@@ -205,11 +246,24 @@ Vue.component("appMenu", {
         if(newDesign_container_main_title[0]){
           newDesign_container_main_title[0].classList.remove("newDesign_subject_question_item-title_black_P");
         }
-
-        
+        //index.html დასაწყისი
+        if(bg_menu[0]){
+          bg_menu[0].classList.remove("new_btn-start_black_btn");
+        }
+        if(app_select[0]){
+          app_select[0].classList.remove("new_btn-start_black_btn");
+        }
+        for(let i=0; i<8; i++){
+          if(circles_number_pink[i]){
+            circles_number_pink[i].classList.remove("new_btn-start_black_btn");
+          }
+        }
+        if(top_bar[0]){
+          top_bar[0].classList.remove("new_btn-start_black_btn");
+        }
       }
-     
 
+     
     }
   },
   template: `
@@ -606,7 +660,7 @@ Vue.component("appSelect", {
 
           let startIndex = (this.currentPage - 1) * this.pageSize;
           let endIndex = Math.min(startIndex + this.pageSize, this.totalItems);
-
+          
           return this.class["IT_" + this.classID].slice(startIndex, endIndex);
         }
         // 5-6 კლასების გარდა დაბრუნდეს ჩვეულებრივად სრული სიგრძის მასივი
