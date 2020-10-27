@@ -76,13 +76,21 @@ function createCurrentDots(num, a) {
     a.setAttribute('href', `${num}.html`);
 
 
-    //ფეიჯინგი 
+    //ფეიჯინგი darck_mode
     var theme = localStorage.getItem('theme')
     var current__pagination = document.getElementsByClassName("current__pagination");
+    var pagination__prev__btn = document.getElementsByClassName("pagination__prev__btn");
+    var pagination__next__btn = document.getElementsByClassName("pagination__next__btn");
     if (theme == 'darck') {
         console.log("ready!", current__pagination, Object.keys(current__pagination));
         if (current__pagination[0]) {
             current__pagination[0].classList.add("pagination_black");
+        }
+        if(pagination__prev__btn[0]){
+            pagination__prev__btn[0].classList.add("pagination_black");
+        }
+        if(pagination__next__btn[0]){
+            pagination__next__btn[0].classList.add("pagination_black");
         }
     }
 }
