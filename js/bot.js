@@ -33,6 +33,13 @@ let htmlAttr = $('html').attr("data-botid");
 // როცა მომხმარებელი ლოგინდება ქუქის ვასუფთავებ და ქუქიში იწერება მომხმარებლის ID
 // ეს ყველაფერი მაქვს ცალკე ფაილში და ისე მაქვს ლეიაუთში შეტანილი მნიშვნელობა არ არვს ეს კოდი სად იქნება მთავარია სანამ ვებჩატში შევა მანამ იყოს ჩაწერილი
 $(document).ready(function () {
+    const urlParams = new URLSearchParams(window.location.search);
+    const botIdParam = urlParams.get('botId');
+
+    if(botIdParam) {
+        $('html').attr("data-botid", botIdParam);
+    }
+
     // bot image
     if($('html').attr('data-botid') == '2318'){
         botImg = '/img/icons/xelovnebabot.png'
