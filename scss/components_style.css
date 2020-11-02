@@ -5308,4 +5308,23 @@ body {
 .height-75 {
   height: 75%;
 }
+
+.pagination_black{
+  color: #ffffff !important;
+  background-color: rgb(0, 0, 0) !important;
+}
+
+.reset__btn_black{
+  background: rgb(0, 0, 0);
+  color: #ffffff;
+}
+
+.completed__btn_black {
+  color: #ffffff !important;
+  background-color: rgb(0, 0, 0);
+}
+
+.newDesign_subject_question_item-title_black_P {
+  color: #ffffff !important;
+}
 /*# sourceMappingURL=components_style.css.map */
