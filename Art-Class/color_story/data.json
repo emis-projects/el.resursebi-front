@@ -2,7 +2,7 @@
   "lesson_id": 1,
   "lesson_name": "color_story",
   "subject": "art",
-  "pages_number": 30,
+  "pages_number": 29,
   "pages": [
     {
       "number": 1,
@@ -80,7 +80,7 @@
     {
       "number": 13,
       "url": "",
-      "type": 4
+      "type": 2
     },
     {
       "number": "13-1",
@@ -89,41 +89,37 @@
     {
       "number": 14,
       "url": "",
-      "type": 2
-    },
-    {
-      "number": "14-1",
-      "type": 3
+      "type": 1
     },
     {
       "number": 15,
       "url": "",
-      "type": 1
+      "type": 2
     },
     {
       "number": 16,
       "url": "",
       "type": 2
     },
-    {
-      "number": 17,
-      "url": "",
-      "type": 2
-    },
 
     {
-      "number": 18,
+      "number": 17,
       "url": "",
       "type": 1
     },
     {
-      "number": 19,
+      "number": 18,
       "url": "",
       "type": 4
     },
     {
-      "number": "19-1",
+      "number": "18-1",
       "type": 3
+    },
+    {
+      "number": 19,
+      "url": "",
+      "type": 2
     },
     {
       "number": 20,
@@ -136,45 +132,49 @@
       "type": 2
     },
     {
+      "number": "21-1",
+      "type": 3
+    },
+    {
       "number": 22,
       "url": "",
       "type": 2
     },
-
     {
       "number": 23,
       "url": "",
       "type": 2
     },
     {
+      "number": "23-1",
+      "url": "",
+      "type": 3
+    },
+    {
       "number": 24,
       "url": "",
-      "type": 4
+      "type": 5
     },
     {
       "number": "24-1",
       "type": 3
     },
     {
+      "number": "24-2",
+      "type": 3
+    },
+    {
+      "number": "24-3",
+      "type": 3
+    },
+    {
+      "number": "24-3-1",
+      "type": 3
+    },
+    {
       "number": 25,
       "url": "",
-      "type": 5
-    },
-    {
-      "number": "25-1",
-      "type": 3
-    },
-    {
-      "number": "25-2",
-      "type": 3
-    },
-    {
-      "number": "25-3",
-      "type": 3
-    },
-    {
-      "number": "25-3-1",
-      "type": 3
+      "type": null
     },
     {
       "number": 26,
@@ -193,11 +193,6 @@
     },
     {
       "number": 29,
-      "url": "",
-      "type": null
-    },
-    {
-      "number": 30,
       "url": "",
       "type": null
     }
