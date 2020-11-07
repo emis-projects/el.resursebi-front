@@ -134,6 +134,13 @@ Vue.component("appMenu", {
         if(top_bar[0]){
           top_bar[0].classList.add("new_btn-start_black_btn");
         }
+        //botApp
+        // document.getElementById("Rectangle_1414-2").style.fill = "#000000";
+        // document.getElementById("Path_12243-7").style.fill = "#000000";
+        // document.getElementById("Path_12243-8").style.fill = "#000000";
+        // document.getElementById("Path_12243-6").style.fill = "#000000";
+        // document.getElementById("Path_12243-10").style.fill = "#000000";
+        // document.getElementById("Path_12243-9").style.fill = "#000000";
         //prime
         
         // console.log('win', img);
@@ -163,6 +170,8 @@ Vue.component("appMenu", {
       var top_bar = document.getElementsByClassName("top-bar");
       var img = $('.menu_box_passive').css('background-image');
       var dj_2_3vh = document.getElementsByClassName("dj-2_3vh");
+      var Rectangle_1414_2 = document.getElementById("Rectangle_1414-2");
+      
 
 
       //ტეგები
@@ -246,6 +255,19 @@ Vue.component("appMenu", {
         if(top_bar[0]){
           top_bar[0].classList.add("new_btn-start_black_btn");
         }
+        //botApp
+        document.getElementById("Rectangle_1414-2").style.fill = "#000000";
+        document.getElementById("Path_12243-7").style.fill = "#000000";
+        document.getElementById("Path_12243-8").style.fill = "#000000";
+        document.getElementById("Path_12243-6").style.fill = "#000000";
+        document.getElementById("Path_12243-10").style.fill = "#000000";
+        document.getElementById("Path_12243-9").style.fill = "#000000";
+
+
+
+
+
+
         //icons
         $('#prime').css('background-image','url(/Vue-chatBot/img/chat01.png)');
         $('.lang-box_passive').css('background-image','url(/New-header-vue/header-img/eng01.png)');
@@ -320,6 +342,13 @@ Vue.component("appMenu", {
         if(top_bar[0]){
           top_bar[0].classList.remove("new_btn-start_black_btn");
         }
+        //bottApp
+        document.getElementById("Rectangle_1414-2").style.fill = "";
+        document.getElementById("Path_12243-7").style.fill = "";
+        document.getElementById("Path_12243-8").style.fill = "";
+        document.getElementById("Path_12243-6").style.fill = "";
+        document.getElementById("Path_12243-10").style.fill = "";
+        document.getElementById("Path_12243-9").style.fill = "";
         //icons
         $("#prime").css("background-image", "");
         $('.lang-box_passive').css('background-image','');
