@@ -21,8 +21,9 @@ document.querySelectorAll('.selectBot').forEach(w => {
 
 
 document.addEventListener('DOMContentLoaded', function() {
-    const urlParams = new URLSearchParams(window.location.search);
-    const botIdParam = urlParams.get('botId');
+    const botIdParam = 2288; // botid 
+
+    addParamWithoutRefresh(botIdParam)
 
     document.querySelectorAll('.selectedBotPath').forEach(w => {
         if(w.getAttribute('data-botid') == botIdParam) {
