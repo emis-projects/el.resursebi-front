@@ -77,7 +77,6 @@ Vue.component("appMenu", {
     var circles_number_pink = document.getElementsByClassName("circles_number-pink");
     var top_bar = document.getElementsByClassName("top-bar");
     var img = $('.menu_box_passive').css('background-image');
-    // console.log('img111', img)
     
     if(theme == 'darck'){
       //დაწყება დასსრულება
@@ -148,6 +147,11 @@ Vue.component("appMenu", {
         // $('.lang-box_passive').css('background-image','url(/New-header-vue/header-img/eng01.png)');
         // $('.menu_box_passive').css('background-image','url(/New-header-vue/header-img/menu01.png)');
         // console.log('mere', img)
+        document.getElementById("1_kompTeq").src = './img/slider/(blake)slide-illustration-c.svg'
+        document.getElementById("2_buneba").src = './img/slider/(blake)slide-illustration-n.svg'
+        document.getElementById("3_xelovneba").src = './img/slider/(blake)slide-illustration-a.svg'
+        document.getElementById("4_musika").src = './img/slider/(blake)slide-illustration-m.svg'
+
     }
   },
   methods: {
@@ -186,7 +190,6 @@ Vue.component("appMenu", {
       var element = document.body;
      
       if(!this.isDark){
-        console.log('img', img)
         //დაწყება დასრულება
         if(reset__btn[0]){
           reset__btn[0].classList.add("reset__btn_black");
@@ -256,23 +259,37 @@ Vue.component("appMenu", {
           top_bar[0].classList.add("new_btn-start_black_btn");
         }
         //botApp
-        document.getElementById("Rectangle_1414-2").style.fill = "#000000";
-        document.getElementById("Path_12243-7").style.fill = "#000000";
-        document.getElementById("Path_12243-8").style.fill = "#000000";
-        document.getElementById("Path_12243-6").style.fill = "#000000";
-        document.getElementById("Path_12243-10").style.fill = "#000000";
-        document.getElementById("Path_12243-9").style.fill = "#000000";
-
-
-
-
-
+        if(document.getElementById("Rectangle_1414-2")){
+          document.getElementById("Rectangle_1414-2").style.fill = "#000000";
+        }
+        if(document.getElementById("Path_12243-7")){
+          document.getElementById("Path_12243-7").style.fill = "#000000";
+        }
+        if(document.getElementById("Path_12243-8")){
+          document.getElementById("Path_12243-8").style.fill = "#000000";
+        }
+        if(document.getElementById("Path_12243-6")){
+          document.getElementById("Path_12243-6").style.fill = "#000000";
+        }
+        if(document.getElementById("Path_12243-10")){
+          document.getElementById("Path_12243-10").style.fill = "#000000";
+        }
+        if(document.getElementById("Path_12243-9")){
+          document.getElementById("Path_12243-9").style.fill = "#000000";
+        }
 
         //icons
         $('#prime').css('background-image','url(/Vue-chatBot/img/chat01.png)');
         $('.lang-box_passive').css('background-image','url(/New-header-vue/header-img/eng01.png)');
         $('.menu_box_passive').css('background-image','url(/New-header-vue/header-img/menu01.png)');
         $('.menu_box_active').css('background-image','url(/New-header-vue/header-img/menu01.png)');
+        //
+        console.log(document.getElementById("3_xelovneba"))
+        document.getElementById("1_kompTeq").src = './img/slider/(blake)slide-illustration-c.svg'
+        document.getElementById("2_buneba").src = './img/slider/(blake)slide-illustration-n.svg'
+        document.getElementById("3_xelovneba").src = './img/slider/(blake)slide-illustration-a.svg'
+        document.getElementById("4_musika").src = './img/slider/(blake)slide-illustration-m.svg'
+        console.log(document.getElementById("3_xelovneba"))
 
 
       }
@@ -343,17 +360,34 @@ Vue.component("appMenu", {
           top_bar[0].classList.remove("new_btn-start_black_btn");
         }
         //bottApp
-        document.getElementById("Rectangle_1414-2").style.fill = "";
-        document.getElementById("Path_12243-7").style.fill = "";
-        document.getElementById("Path_12243-8").style.fill = "";
-        document.getElementById("Path_12243-6").style.fill = "";
-        document.getElementById("Path_12243-10").style.fill = "";
-        document.getElementById("Path_12243-9").style.fill = "";
+        if(document.getElementById("Rectangle_1414-2")){
+          document.getElementById("Rectangle_1414-2").style.fill = "";
+        }
+        if(document.getElementById("Path_12243-7")){
+          document.getElementById("Path_12243-7").style.fill = "";
+        }
+        if(document.getElementById("Path_12243-8")){
+          document.getElementById("Path_12243-8").style.fill = "";
+        }
+        if(document.getElementById("Path_12243-6")){
+          document.getElementById("Path_12243-6").style.fill = "";
+        }
+        if(document.getElementById("Path_12243-10")){
+          document.getElementById("Path_12243-10").style.fill = "";
+        }
+        if(document.getElementById("Path_12243-9")){
+          document.getElementById("Path_12243-9").style.fill = "";
+        }
         //icons
         $("#prime").css("background-image", "");
         $('.lang-box_passive').css('background-image','');
         $('.menu_box_passive').css('background-image','');
         $('.menu_box_active').css('background-image','');
+        //
+        document.getElementById("1_kompTeq").src = './img/slider/slide-illustration-c.svg'
+        document.getElementById("2_buneba").src = './img/slider/slide-illustration-n.svg'
+        document.getElementById("3_xelovneba").src = './img/slider/slide-illustration-a.svg'
+        document.getElementById("4_musika").src = './img/slider/slide-illustration-m.svg'
 
       }
 
@@ -669,7 +703,6 @@ Vue.component("appStart", {
   created(){
     var img = $('.menu_box_passive').css('background-image');
     var imgi = document.getElementsByClassName('menu_box_passive');
-    console.log('img111', img, $('.menu_box_passive'))
   },
   template: `
         <transition
