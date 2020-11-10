@@ -147,10 +147,19 @@ Vue.component("appMenu", {
         // $('.lang-box_passive').css('background-image','url(/New-header-vue/header-img/eng01.png)');
         // $('.menu_box_passive').css('background-image','url(/New-header-vue/header-img/menu01.png)');
         // console.log('mere', img)
-        document.getElementById("1_kompTeq").src = './img/slider/(blake)slide-illustration-c.svg'
-        document.getElementById("2_buneba").src = './img/slider/(blake)slide-illustration-n.svg'
-        document.getElementById("3_xelovneba").src = './img/slider/(blake)slide-illustration-a.svg'
-        document.getElementById("4_musika").src = './img/slider/(blake)slide-illustration-m.svg'
+        
+        if(document.getElementById("1_kompTeq")){
+          document.getElementById("1_kompTeq").src = './img/slider/(blake)slide-illustration-c.svg'
+        }
+        if(document.getElementById("2_buneba")){
+          document.getElementById("2_buneba").src = './img/slider/(blake)slide-illustration-n.svg'
+        }
+        if(document.getElementById("3_xelovneba")){
+          document.getElementById("3_xelovneba").src = './img/slider/(blake)slide-illustration-a.svg'
+        }
+        if(document.getElementById("4_musika")){
+          document.getElementById("4_musika").src = './img/slider/(blake)slide-illustration-m.svg'
+        }
 
     }
   },
@@ -284,13 +293,26 @@ Vue.component("appMenu", {
         $('.menu_box_passive').css('background-image','url(/New-header-vue/header-img/menu01.png)');
         $('.menu_box_active').css('background-image','url(/New-header-vue/header-img/menu01.png)');
         //
-        console.log(document.getElementById("3_xelovneba"))
-        document.getElementById("1_kompTeq").src = './img/slider/(blake)slide-illustration-c.svg'
-        document.getElementById("2_buneba").src = './img/slider/(blake)slide-illustration-n.svg'
-        document.getElementById("3_xelovneba").src = './img/slider/(blake)slide-illustration-a.svg'
-        document.getElementById("4_musika").src = './img/slider/(blake)slide-illustration-m.svg'
-        console.log(document.getElementById("3_xelovneba"))
-
+        
+        if(document.getElementById("3_xelovneba")){
+          console.log(document.getElementById("3_xelovneba").src)
+        }
+        if(document.getElementById("1_kompTeq")){
+          document.getElementById("1_kompTeq").src = './img/slider/(blake)slide-illustration-c.svg'
+        }
+        if(document.getElementById("2_buneba")){
+          document.getElementById("2_buneba").src = './img/slider/(blake)slide-illustration-n.svg'
+        }
+        if(document.getElementById("3_xelovneba")){
+          document.getElementById("3_xelovneba").src = './img/slider/(blake)slide-illustration-a.svg'
+        }
+        if(document.getElementById("4_musika")){
+          document.getElementById("4_musika").src = './img/slider/(blake)slide-illustration-m.svg'
+        }
+        if(document.getElementById("3_xelovneba")){
+          console.log(document.getElementById("3_xelovneba").src)
+        }
+        
 
       }
       else{
@@ -384,10 +406,18 @@ Vue.component("appMenu", {
         $('.menu_box_passive').css('background-image','');
         $('.menu_box_active').css('background-image','');
         //
-        document.getElementById("1_kompTeq").src = './img/slider/slide-illustration-c.svg'
-        document.getElementById("2_buneba").src = './img/slider/slide-illustration-n.svg'
-        document.getElementById("3_xelovneba").src = './img/slider/slide-illustration-a.svg'
-        document.getElementById("4_musika").src = './img/slider/slide-illustration-m.svg'
+        if(document.getElementById("1_kompTeq")){
+          document.getElementById("1_kompTeq").src = './img/slider/slide-illustration-c.svg'
+        }
+        if(document.getElementById("2_buneba")){
+          document.getElementById("2_buneba").src = './img/slider/slide-illustration-n.svg'
+        }
+        if(document.getElementById("3_xelovneba")){
+          document.getElementById("3_xelovneba").src = './img/slider/slide-illustration-a.svg'
+        }
+        if(document.getElementById("4_musika")){
+          document.getElementById("4_musika").src = './img/slider/slide-illustration-m.svg'
+        }
 
       }
 
