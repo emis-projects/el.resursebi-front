@@ -5015,6 +5015,10 @@ section .arrow_up_down_downArrow img {
   height: auto !important;
 }
 
+.color_story-img_22 {
+  height: 46.04vh;
+}
+
 .color_story-image-23-2 {
   width: 15vw !important;
   height: auto !important;
@@ -13434,6 +13438,23 @@ section .arrow_up_down_downArrow img {
   position: fixed;
   bottom: 6vh;
   height: 81vh;
+}
+
+.subject_question_item_img_box-wave {
+  width: 9vw;
+  height: 6vh;
+}
+
+.subject_question_item_img_box-size {
+  height: 8vh;
+}
+
+.subject_question_item_img_box-size-8-8-2 {
+  height: 10vh;
+}
+
+.subject_question_item_img_box-size-8-9-1 {
+  height: 7vh;
 }
 
 #A-1366-05-9 .image_box {
