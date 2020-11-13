@@ -133,20 +133,36 @@ Vue.component("appMenu", {
         if(top_bar[0]){
           top_bar[0].classList.add("new_btn-start_black_btn");
         }
-        //botApp
-        // document.getElementById("Rectangle_1414-2").style.fill = "#000000";
-        // document.getElementById("Path_12243-7").style.fill = "#000000";
-        // document.getElementById("Path_12243-8").style.fill = "#000000";
-        // document.getElementById("Path_12243-6").style.fill = "#000000";
-        // document.getElementById("Path_12243-10").style.fill = "#000000";
-        // document.getElementById("Path_12243-9").style.fill = "#000000";
-        //prime
         
-        // console.log('win', img);
-        // $('#prime').css('background-image','url(/Vue-chatBot/img/chat01.png)');
-        // $('.lang-box_passive').css('background-image','url(/New-header-vue/header-img/eng01.png)');
-        // $('.menu_box_passive').css('background-image','url(/New-header-vue/header-img/menu01.png)');
-        // console.log('mere', img)
+
+        window.addEventListener('DOMContentLoaded', () => {
+          $('#prime').css('background-image','url(/Vue-chatBot/img/chat01.png)');
+          $('.lang-box_passive').css('background-image','url(/New-header-vue/header-img/eng01.png)');
+          $('.menu_box_passive').css('background-image','url(/New-header-vue/header-img/menu01.png)');
+
+          //botApp
+          if(document.getElementById("Rectangle_1414-2")){
+            document.getElementById("Rectangle_1414-2").style.fill = "#000000";
+          }
+          if(document.getElementById("Path_12243-7")){
+            document.getElementById("Path_12243-7").style.fill = "#000000";
+          }
+          if(document.getElementById("Path_12243-8")){
+            document.getElementById("Path_12243-8").style.fill = "#000000";
+          }
+          if(document.getElementById("Path_12243-6")){
+            document.getElementById("Path_12243-6").style.fill = "#000000";
+          }
+          if(document.getElementById("Path_12243-10")){
+            document.getElementById("Path_12243-10").style.fill = "#000000";
+          }
+          if(document.getElementById("Path_12243-9")){
+            document.getElementById("Path_12243-9").style.fill = "#000000";
+          }
+          
+        //prime
+          
+      });
         
         if(document.getElementById("1_kompTeq")){
           document.getElementById("1_kompTeq").src = './img/slider/(blake)slide-illustration-c.svg'
@@ -250,6 +266,7 @@ Vue.component("appMenu", {
           info_box[0].classList.add("completed__btn_black");
         }
         //index.html დასაწყისი
+
         if(bg_menu[0]){
           bg_menu[0].classList.add("new_btn-start_black_btn");
         }
