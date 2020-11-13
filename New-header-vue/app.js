@@ -160,7 +160,9 @@ Vue.component("appMenu", {
             document.getElementById("Path_12243-9").style.fill = "#000000";
           }
           
-        //prime
+        //switchDark
+        document.getElementById('switchDarkId').checked = false;
+        document.getElementById('switchDarkIdShadow').style.boxShadow = '1px 3px 6px #7fd1d8';
           
       });
         
@@ -329,6 +331,8 @@ Vue.component("appMenu", {
         if(document.getElementById("3_xelovneba")){
           console.log(document.getElementById("3_xelovneba").src)
         }
+        //switchDarkIdShadow
+        document.getElementById('switchDarkIdShadow').style.boxShadow = '1px 3px 6px #7fd1d8';
         
 
       }
@@ -436,6 +440,8 @@ Vue.component("appMenu", {
           document.getElementById("4_musika").src = './img/slider/slide-illustration-m.svg'
         }
 
+        //switchDarkIdShadow
+        document.getElementById('switchDarkIdShadow').style.boxShadow = '1px 3px 6px #FADE7E';
       }
 
      
@@ -452,8 +458,8 @@ Vue.component("appMenu", {
           >
             <div>
             <label class="switchDark">
-              <input  @click="myFunction()" type="checkbox" checked>
-              <span class="slider round" style="height: 31px;margin-top:7px"></span>
+              <input id="switchDarkId" @click="myFunction()" type="checkbox" checked>
+              <span id="switchDarkIdShadow" class="slider round" style="height: 31px;margin-top:7px"></span>
             </label>
             </div>
           </li>
