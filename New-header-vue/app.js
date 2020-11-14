@@ -77,6 +77,8 @@ Vue.component("appMenu", {
     var circles_number_pink = document.getElementsByClassName("circles_number-pink");
     var top_bar = document.getElementsByClassName("top-bar");
     var img = $('.menu_box_passive').css('background-image');
+    var nabiji = document.getElementsByClassName('newDesign_steps_item-img');
+
     
     if(theme == 'darck'){
       //დაწყება დასსრულება
@@ -163,6 +165,7 @@ Vue.component("appMenu", {
         //switchDark
         document.getElementById('switchDarkId').checked = false;
         document.getElementById('switchDarkIdShadow').style.boxShadow = '1px 3px 6px #7fd1d8';
+        
           
       });
         
@@ -178,6 +181,13 @@ Vue.component("appMenu", {
         if(document.getElementById("4_musika")){
           document.getElementById("4_musika").src = './img/slider/(blake)slide-illustration-m.svg'
         }
+        //nabiji
+        for(let i=0; i<2; i++){
+          if(nabiji[i]){
+            nabiji[i].src = '../../../img/icons/step_item(black).svg';
+          }
+        }
+
 
     }
   },
@@ -202,6 +212,7 @@ Vue.component("appMenu", {
       var img = $('.menu_box_passive').css('background-image');
       var dj_2_3vh = document.getElementsByClassName("dj-2_3vh");
       var Rectangle_1414_2 = document.getElementById("Rectangle_1414-2");
+      var nabiji = document.getElementsByClassName('newDesign_steps_item-img');
       
 
 
@@ -333,7 +344,12 @@ Vue.component("appMenu", {
         }
         //switchDarkIdShadow
         document.getElementById('switchDarkIdShadow').style.boxShadow = '1px 3px 6px #7fd1d8';
-        
+        //nabiji
+        for(let i=0; i<2; i++){
+          if(nabiji[i]){
+            nabiji[i].src = '../../../img/icons/step_item(black).svg';
+          }
+        }
 
       }
       else{
@@ -442,6 +458,13 @@ Vue.component("appMenu", {
 
         //switchDarkIdShadow
         document.getElementById('switchDarkIdShadow').style.boxShadow = '1px 3px 6px #FADE7E';
+        //nabiji
+        for(let i=0; i<2; i++){
+          if(nabiji[i]){
+            nabiji[i].src = '../../../img/icons/step_item.svg';
+          }
+        }
+
       }
 
      
