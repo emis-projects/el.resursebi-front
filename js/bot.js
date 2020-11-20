@@ -7,7 +7,6 @@ let botImg = null;
 var userId = getCookie("user_Id");
 
 
-
 // check if value is ""
 $(msgInput).keyup(function () {
     if ($(this).val().length !== 0) {
@@ -134,7 +133,7 @@ function sendMessageFromBot(res) {
 
         } else if(w.type == 1){
             // ფოტოების გახსნა
-            console.log(w);
+            // console.log(w);
 
             let img = document.createElement('img');
             let a = document.createElement('a');
@@ -150,17 +149,12 @@ function sendMessageFromBot(res) {
         } else if(w.type == 2){
             // აუდიოები
 
-            console.log(w);
-
             // sound js
             createjs.Sound.on("fileload", handleLoadComplete);
             createjs.Sound.alternateExtensions = ["wav"];
 
             function handleLoadComplete(event) {
-                console.log(event)
-                // console.log(event.target)
                 createjs.Sound.play("sound");
-
             }
 
             function handleLoadstop(event) {
@@ -293,7 +287,7 @@ $(document).on("click", ".chat_msg_item-buttons button", function (e) {
 
     $.ajax({
         type: "POST",
-        url: 'https://animabot.ngrok.io/WCAPI',
+        url: 'https://apianimachatbotics.xyz/WCAPI',
         data: JSON.stringify({
             "message": btnText,
             "userId": userId,
@@ -378,7 +372,7 @@ function sendMessage(e) {
 
     $.ajax({
         type: "POST",
-        url: 'https://animabot.ngrok.io/WCAPI',
+        url: 'https://apianimachatbotics.xyz/WCAPI',
         data: JSON.stringify({
             "userId": userId,
             "message": msgText,

@@ -225,7 +225,8 @@
 
 #chatBot .voice-mail-play,
 #chatBot .voice-mail-pause {
-  width: 12px;
+  width: 15px;
+  height: 15px;
   cursor: pointer;
 }
 
@@ -55023,4 +55024,3 @@ input:checked + .slider:before {
   margin-left: 12px;
   color: #c5cbcd;
 }
-/*# sourceMappingURL=new-style.css.map */
