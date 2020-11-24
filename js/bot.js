@@ -22,16 +22,22 @@ for(var i = 0; i < botImgs.length; i++ ){
     botImgsArray.push(botImgs[i])
 }
 
+botImgsArray.forEach(w => {
+    w.addEventListener('click', (e) => {
+        let attr = e.target.getAttribute('data-botid');
+
+        document.querySelector('html').setAttribute('data-botid', attr)
+
+        $('#chat_fullscreen .chat_msg_item').remove()
+
+        getBotImage()
+    })
+})
+
 let htmlAttr = $('html').attr("data-botid");
 
 
-
-
-
-// ეს კოდი ქუქიში წერს user_Id -ს მომხმარებელი როგორცკი შემოდის საიტზე ქუქიში იწერება მომხმარებლის IP და აიპზე მიწერილი რენდომი
-// როცა მომხმარებელი ლოგინდება ქუქის ვასუფთავებ და ქუქიში იწერება მომხმარებლის ID
-// ეს ყველაფერი მაქვს ცალკე ფაილში და ისე მაქვს ლეიაუთში შეტანილი მნიშვნელობა არ არვს ეს კოდი სად იქნება მთავარია სანამ ვებჩატში შევა მანამ იყოს ჩაწერილი
-$(document).ready(function () {
+function getBotImage() {
     // bot image
     if($('html').attr('data-botid') == '2318'){
         botImg = '/img/icons/xelovnebabot.png'
@@ -45,6 +51,16 @@ $(document).ready(function () {
     } else if($('html').attr('data-botid') == '2288'){
         botImg = '/img/icons/komp-mecnierebot.png'
     }
+}
+
+
+
+// ეს კოდი ქუქიში წერს user_Id -ს მომხმარებელი როგორცკი შემოდის საიტზე ქუქიში იწერება მომხმარებლის IP და აიპზე მიწერილი რენდომი
+// როცა მომხმარებელი ლოგინდება ქუქის ვასუფთავებ და ქუქიში იწერება მომხმარებლის ID
+// ეს ყველაფერი მაქვს ცალკე ფაილში და ისე მაქვს ლეიაუთში შეტანილი მნიშვნელობა არ არვს ეს კოდი სად იქნება მთავარია სანამ ვებჩატში შევა მანამ იყოს ჩაწერილი
+$(document).ready(function () {
+    // bot image
+    getBotImage()
 
 
     var LogInUserId = $('#LogInUserId').val(); // ეს იჭერს იუზერ აიდს
