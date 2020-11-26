@@ -96,7 +96,7 @@ Vue.component("appMenu", {
       }
       //ფეიჯინგი
       var element = document.body;
-        element.style.background="black";
+        element.style.backgroundColor="black";
         this.isDark = true
         //ტეგები
         //P
@@ -252,7 +252,7 @@ Vue.component("appMenu", {
           pagination__next__btn[0].classList.add("pagination_black");
         }
         localStorage.setItem("theme", "darck");
-        element.style.background="black";
+        element.style.backgroundColor="black";
         this.isDark = true
         //ტეგები
         //p
