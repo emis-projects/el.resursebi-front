@@ -224,7 +224,8 @@
 
 #chatBot .voice-mail-play,
 #chatBot .voice-mail-pause {
-  width: 12px;
+  width: 15px;
+  height: 15px;
   cursor: pointer;
 }
 
@@ -928,4 +929,3 @@
     top: 2px;
   }
 }
-/*# sourceMappingURL=Newbot.css.map */

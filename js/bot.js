@@ -7,7 +7,6 @@ let botImg = null;
 var userId = getCookie("user_Id");
 
 
-
 // check if value is ""
 $(msgInput).keyup(function () {
     if ($(this).val().length !== 0) {
@@ -23,16 +22,22 @@ for(var i = 0; i < botImgs.length; i++ ){
     botImgsArray.push(botImgs[i])
 }
 
+botImgsArray.forEach(w => {
+    w.addEventListener('click', (e) => {
+        let attr = e.target.getAttribute('data-botid');
+
+        document.querySelector('html').setAttribute('data-botid', attr)
+
+        $('#chat_fullscreen .chat_msg_item').remove()
+
+        getBotImage()
+    })
+})
+
 let htmlAttr = $('html').attr("data-botid");
 
 
-
-
-
-// ეს კოდი ქუქიში წერს user_Id -ს მომხმარებელი როგორცკი შემოდის საიტზე ქუქიში იწერება მომხმარებლის IP და აიპზე მიწერილი რენდომი
-// როცა მომხმარებელი ლოგინდება ქუქის ვასუფთავებ და ქუქიში იწერება მომხმარებლის ID
-// ეს ყველაფერი მაქვს ცალკე ფაილში და ისე მაქვს ლეიაუთში შეტანილი მნიშვნელობა არ არვს ეს კოდი სად იქნება მთავარია სანამ ვებჩატში შევა მანამ იყოს ჩაწერილი
-$(document).ready(function () {
+function getBotImage() {
     // bot image
     if($('html').attr('data-botid') == '2318'){
         botImg = '/img/icons/xelovnebabot.png'
@@ -46,6 +51,16 @@ $(document).ready(function () {
     } else if($('html').attr('data-botid') == '2288'){
         botImg = '/img/icons/komp-mecnierebot.png'
     }
+}
+
+
+
+// ეს კოდი ქუქიში წერს user_Id -ს მომხმარებელი როგორცკი შემოდის საიტზე ქუქიში იწერება მომხმარებლის IP და აიპზე მიწერილი რენდომი
+// როცა მომხმარებელი ლოგინდება ქუქის ვასუფთავებ და ქუქიში იწერება მომხმარებლის ID
+// ეს ყველაფერი მაქვს ცალკე ფაილში და ისე მაქვს ლეიაუთში შეტანილი მნიშვნელობა არ არვს ეს კოდი სად იქნება მთავარია სანამ ვებჩატში შევა მანამ იყოს ჩაწერილი
+$(document).ready(function () {
+    // bot image
+    getBotImage()
 
 
     var LogInUserId = $('#LogInUserId').val(); // ეს იჭერს იუზერ აიდს
@@ -134,7 +149,7 @@ function sendMessageFromBot(res) {
 
         } else if(w.type == 1){
             // ფოტოების გახსნა
-            console.log(w);
+            // console.log(w);
 
             let img = document.createElement('img');
             let a = document.createElement('a');
@@ -150,17 +165,12 @@ function sendMessageFromBot(res) {
         } else if(w.type == 2){
             // აუდიოები
 
-            console.log(w);
-
             // sound js
             createjs.Sound.on("fileload", handleLoadComplete);
             createjs.Sound.alternateExtensions = ["wav"];
 
             function handleLoadComplete(event) {
-                console.log(event)
-                // console.log(event.target)
                 createjs.Sound.play("sound");
-
             }
 
             function handleLoadstop(event) {
@@ -293,7 +303,7 @@ $(document).on("click", ".chat_msg_item-buttons button", function (e) {
 
     $.ajax({
         type: "POST",
-        url: 'https://animabot.ngrok.io/WCAPI',
+        url: 'https://apianimachatbotics.xyz/WCAPI',
         data: JSON.stringify({
             "message": btnText,
             "userId": userId,
@@ -378,7 +388,7 @@ function sendMessage(e) {
 
     $.ajax({
         type: "POST",
-        url: 'https://animabot.ngrok.io/WCAPI',
+        url: 'https://apianimachatbotics.xyz/WCAPI',
         data: JSON.stringify({
             "userId": userId,
             "message": msgText,

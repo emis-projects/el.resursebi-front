@@ -27,6 +27,28 @@
 
         gtag('config', 'UA-155006442-1');
     </script>
+
+    <style>
+          .adventure-8-1-2_print_button {
+                z-index: 10000;
+                box-shadow: initial;
+                background-color: initial;
+                border-radius: initial;
+                max-height: 45px;
+                max-width: 45px;
+                right: 1.6vh;
+                cursor: pointer;
+          }
+
+          .forms {
+                z-index: initial;
+                cursor: auto;
+          }
+
+          .adventure-8-1-2_box-wrapper {
+                width: initial;
+          }
+    </style>
 </head>
 
 <body>
@@ -455,40 +477,35 @@
                 </div>
             </div>
             <div class="col-10 m-auto d-flex justify-content-between">
-                <div class="adventure-8-1-2_box-wrapper position-relative">
-                    <img alt="forms" class="forms" src="../../img/gakvetilebi/xelovneba/adventure/geometry_forms-1.png">
-                    <div class="adventure-8-1-2_print_button position-absolute">
-                        <img alt="print" src="../../img/gakvetilebi/xelovneba/adventure/print_icon.png">
-                    </div>
+                <div class="adventure-8-1-2_box-wrapper position-relative report_left_inner">
+                    <img class="adventure-8-1-2_print_button position-absolute" style="width: 100%;" id="printableArea1" alt="print" src="../../img/gakvetilebi/xelovneba/adventure/Group 1077633.svg">
+                    <img alt="forms" class="forms" src="../../img/gakvetilebi/xelovneba/adventure/Group 10776.svg">
                 </div>
+
                 <div class="adventure-8-1-2_box-wrapper position-relative">
-                    <img alt="forms" class="forms" src="../../img/gakvetilebi/xelovneba/adventure/geometry_forms-2.png">
-                    <div class="adventure-8-1-2_print_button position-absolute">
-                        <img alt="print" src="../../img/gakvetilebi/xelovneba/adventure/print_icon.png">
-                    </div>
+                    <img class="adventure-8-1-2_print_button position-absolute" style="width: 100%;" id="printableArea2" alt="print" src="../../img/gakvetilebi/xelovneba/adventure/Group 1077633.svg">
+                    <img alt="forms" class="forms" src="../../img/gakvetilebi/xelovneba/adventure/Group 10777.svg">
                 </div>
-                <div class="adventure-8-1-2_box-wrapper position-relative">
-                    <img alt="forms" class="forms" src="../../img/gakvetilebi/xelovneba/adventure/geometry_forms-3.png">
-                    <div class="adventure-8-1-2_print_button position-absolute">
-                        <img alt="print" src="../../img/gakvetilebi/xelovneba/adventure/print_icon.png">
-                    </div>
+
+                <div id="printableArea" class="adventure-8-1-2_box-wrapper position-relative">
+                    <img class="adventure-8-1-2_print_button position-absolute" style="width: 100%;" id="printableArea3" alt="print" src="../../img/gakvetilebi/xelovneba/adventure/Group 1077633.svg">
+                    <img alt="forms" class="forms" src="../../img/gakvetilebi/xelovneba/adventure/Group 10778.svg">
                 </div>
             </div>
         </div>
     </section>
     <div class="our__pagination flex">
+        <a class="pagination__prev__btn" href="8-2-1.html">
+            <img alt="" src="../../img/icons/chevron-left-icon.svg" style="transform: rotate(180deg)">
+        </a>
         <div class="flex align-items-center" id="pagination">
             <div class="pagination__item">
-                <a class="current__pagination" href="8-1-1.html">1</a>
+                <a class="pagination__dot" href="8-2-1.html"></a>
             </div>
             <div class="pagination__item">
-                <a class="pagination__dot" href="8-1-2.html"></a>
+                <a class="current__pagination" href="8-2-2.html">2</a>
             </div>
         </div>
-
-        <a class="pagination__next__btn" href="8-1-2.html">
-            <img alt="" src="../../img/icons/chevron-left-icon.svg">
-        </a>
     </div>
 </div>
 
@@ -507,6 +524,21 @@
     <script src="../../New-header-vue/app.js"></script>
 <script src="../../Vue-chatBot/botApp.js"></script>
 <script src="../../js/bot.js"></script>
+<script src="../../js/libraries/print.js"></script>
+
+<script>
+      $('#printableArea1').click(function() {
+            printJS({ printable: '../../img/gakvetilebi/xelovneba/adventure/Group 10776.svg', type: 'image', imageStyle: 'width:90%;'})
+      })
+      $('#printableArea2').click(function() {
+            printJS({ printable: '../../img/gakvetilebi/xelovneba/adventure/Group 10777.svg', type: 'image', imageStyle: 'width:90%;'})
+      })
+      $('#printableArea3').click(function() {
+            printJS({ printable: '../../img/gakvetilebi/xelovneba/adventure/Group 10778.svg', type: 'image', imageStyle: 'width:90%;'})
+      })
+
+</script>
+
 
 </body>
 
