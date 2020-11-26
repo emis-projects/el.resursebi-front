@@ -141,6 +141,7 @@ Vue.component("appMenu", {
           $('#prime').css('background-image','url(/el.resursebi-front/Vue-chatBot/img/chat01.png)');
           $('.lang-box_passive').css('background-image','url(/el.resursebi-front/New-header-vue/header-img/eng01.png)');
           $('.menu_box_passive').css('background-image','url(/el.resursebi-front/New-header-vue/header-img/menu01.png)');
+          $('.menu_box_active').css('background-image','url(/el.resursebi-front/New-header-vue/header-img/menu01.png)');
 
           //botApp
           if(document.getElementById("Rectangle_1414-2")){
