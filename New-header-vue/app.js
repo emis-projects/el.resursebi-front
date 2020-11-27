@@ -577,6 +577,9 @@ Vue.component("appSection", {
       if (theme == 'darck') {
         this.darkMode = true
       }
+      else{
+        this.darkMode = false
+      }
     }
   },
   template: `
@@ -627,7 +630,9 @@ Vue.component("appBar", {
       if (theme == 'darck') {
         this.darkMode = true
       }
-
+      else{
+        this.darkMode = false
+      }
     }
   },
   template: `
@@ -823,7 +828,9 @@ Vue.component("appStart", {
       if (theme == 'darck') {
         this.darkMode = true
       }
-
+      else{
+        this.darkMode = false
+      }
     }
   },
   template: `
