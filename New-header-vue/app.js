@@ -615,13 +615,31 @@ Vue.component("appBar", {
       type: String,
     },
   },
+  data() {
+    return {
+      // title is object
+      darkMode: false,
+    };
+  },
+  watch: {
+    isActive() {
+      var theme = localStorage.getItem('theme')
+      if (theme == 'darck') {
+        this.darkMode = true
+      }
+
+    }
+  },
   template: `
         <transition
             enter-active-class="animated fadeInDown"
             leave-active-class="animated fadeOutUp"
             :duration="1000"
             mode="out-in">
-                  <div v-if="isActive" class="top-bar">
+                  <div v-if="isActive" class="top-bar"
+                  :class="[
+                    isActive && darkMode? 'top-bar new_btn-start_black_btn' : 'top-bar',
+                  ]">
                   <!--todo ბარის ნავიგაცია(4 სექციით ჯერ მხოლოდ 2 მუშაობს)
                       იკონკები გენერირდება დინამიურად კლასით (დასრულებულია)
                     -->
