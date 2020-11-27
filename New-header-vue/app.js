@@ -590,11 +590,11 @@ Vue.component("appSection", {
                     leave-active-class="animated fadeOut"
                     :duration="550"
                     mode="out-in">
-                    <div v-if="isActive || isInfo" class="bg_menu"
+                    <div v-if="isActive || isInfo"
                     :class="[
                       isActive && darkMode? 'bg_menu new_btn-start_black_btn' : 'bg_menu',
                     ]"
-                     id="bg_menu89"></div>
+                    ></div>
                 </transition>
             </div>
 
@@ -636,7 +636,7 @@ Vue.component("appBar", {
             leave-active-class="animated fadeOutUp"
             :duration="1000"
             mode="out-in">
-                  <div v-if="isActive" class="top-bar"
+                  <div v-if="isActive"
                   :class="[
                     isActive && darkMode? 'top-bar new_btn-start_black_btn' : 'top-bar',
                   ]">
@@ -841,25 +841,41 @@ Vue.component("appStart", {
                         <div class="col-3 main-lesson-start-cont">
                           <img alt="music" :src="images.music" class="main-lesson-start-img" />
                           <div class="new_btn-start-cont ">
-                            <a @click="trigger('select', 'მუსიკა')" class="new_btn-start">მუსიკა</a>
+                            <a @click="trigger('select', 'მუსიკა')"
+                            :class="[
+                              isActive && darkMode? 'new_btn-start new_btn-start_black_btn' : 'new_btn-start',
+                            ]"
+                            >მუსიკა</a>
                           </div>
                         </div>
                         <div class="col-3 main-lesson-start-cont">
                           <img alt="art" :src="images.art" class="main-lesson-start-img" />
                           <div class="new_btn-start-cont">
-                            <a @click="trigger('select', 'ხელოვნება')" class="new_btn-start">ხელოვნება</a>
+                            <a @click="trigger('select', 'ხელოვნება')"
+                            :class="[
+                              isActive && darkMode? 'new_btn-start new_btn-start_black_btn' : 'new_btn-start',
+                            ]"
+                            >ხელოვნება</a>
                           </div>
                         </div>
                         <div class="col-3 main-lesson-start-cont">
                           <img alt="nature" :src="images.nature" class="main-lesson-start-img" />
                           <div class="new_btn-start-cont">
-                            <a @click="trigger('select', 'ბუნება')" class="new_btn-start">ბუნება</a>
+                            <a @click="trigger('select', 'ბუნება')"
+                            :class="[
+                              isActive && darkMode? 'new_btn-start new_btn-start_black_btn' : 'new_btn-start',
+                            ]"
+                            >ბუნება</a>
                           </div>
                         </div>
                         <div class="col-3 main-lesson-start-cont">
                           <img alt="computer" :src="images.IT" class="main-lesson-start-img" />
                           <div class="new_btn-start-cont">
-                            <a @click="trigger('select', 'კომპიუტერული ტექნოლოგიები')" class="new_btn-start">კომპიუტერული ტექნოლოგიები</a>
+                            <a @click="trigger('select', 'კომპიუტერული ტექნოლოგიები')"
+                            :class="[
+                              isActive && darkMode? 'new_btn-start new_btn-start_black_btn' : 'new_btn-start',
+                            ]"
+                            >კომპიუტერული ტექნოლოგიები</a>
                           </div>
                         </div>
                      </div>
