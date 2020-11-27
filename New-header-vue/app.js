@@ -47,7 +47,7 @@ Vue.component("appMenu", {
     };
   },
   props: {
-    
+
     isActive: {
       type: Boolean,
       required: true,
@@ -61,7 +61,7 @@ Vue.component("appMenu", {
       required: true,
     },
   },
-  created(){
+  created() {
     var theme = localStorage.getItem('theme')
     var reset__btn = document.getElementsByClassName("reset__btn");
     var completed__btn = document.getElementsByClassName("completed__btn");
@@ -79,120 +79,120 @@ Vue.component("appMenu", {
     var img = $('.menu_box_passive').css('background-image');
     var nabiji = document.getElementsByClassName('newDesign_steps_item-img');
 
-    
-    if(theme == 'darck'){
+
+    if (theme == 'darck') {
       //დაწყება დასსრულება
-      if(reset__btn[0]){
+      if (reset__btn[0]) {
         reset__btn[0].classList.add("reset__btn_black");
       }
-      if(completed__btn[0]){
+      if (completed__btn[0]) {
         completed__btn[0].classList.add("completed__btn_black");
       }
       //btn index.html
-      for(let i=0; i<16; i++){
-        if(new_btn_start[i]){
+      for (let i = 0; i < 16; i++) {
+        if (new_btn_start[i]) {
           new_btn_start[i].classList.add("new_btn-start_black_btn");
         }
       }
       //ფეიჯინგი
       var element = document.body;
-        element.style.backgroundColor="black";
-        this.isDark = true
-        //ტეგები
-        //P
-        for(let i=0; i<8; i++){
-          if(newDesignSubjectQuestionItemTitle[i]){
-            newDesignSubjectQuestionItemTitle[i].classList.add("newDesign_subject_question_item-title_black_P");
-          }
+      element.style.backgroundColor = "black";
+      this.isDark = true
+      //ტეგები
+      //P
+      for (let i = 0; i < 8; i++) {
+        if (newDesignSubjectQuestionItemTitle[i]) {
+          newDesignSubjectQuestionItemTitle[i].classList.add("newDesign_subject_question_item-title_black_P");
         }
-        //H
-        if(algorithme_title_italic[0]){
-          algorithme_title_italic[0].classList.add("newDesign_subject_question_item-title_black_P");
+      }
+      //H
+      if (algorithme_title_italic[0]) {
+        algorithme_title_italic[0].classList.add("newDesign_subject_question_item-title_black_P");
+      }
+      if (newDesign_container_main_title[0]) {
+        newDesign_container_main_title[0].classList.add("newDesign_subject_question_item-title_black_P");
+      }
+      // for(let i=0; i<11; i++){
+      //   if(dj_2_3vh[i]){
+      //     dj_2_3vh[i].classList.add("newDesign_subject_question_item-title_black_P");
+      //   }
+      // }
+      //index.html დასაწყისი
+      if (bg_menu[0]) {
+        bg_menu[0].classList.add("new_btn-start_black_btn");
+      }
+      if (app_start[0]) {
+        app_start[0].classList.add("new_btn-start_black_btn");
+      }
+      if (app_select[0]) {
+        app_select[0].classList.add("new_btn-start_black_btn");
+      }
+      for (let i = 0; i < 8; i++) {
+        if (circles_number_pink[i]) {
+          circles_number_pink[i].classList.add("new_btn-start_black_btn");
         }
-        if(newDesign_container_main_title[0]){
-          newDesign_container_main_title[0].classList.add("newDesign_subject_question_item-title_black_P");
-        }
-        // for(let i=0; i<11; i++){
-        //   if(dj_2_3vh[i]){
-        //     dj_2_3vh[i].classList.add("newDesign_subject_question_item-title_black_P");
-        //   }
-        // }
-        //index.html დასაწყისი
-        if(bg_menu[0]){
-          bg_menu[0].classList.add("new_btn-start_black_btn");
-        }
-        if(app_start[0]){
-          app_start[0].classList.add("new_btn-start_black_btn");
-        }
-        if(app_select[0]){
-          app_select[0].classList.add("new_btn-start_black_btn");
-        }
-        for(let i=0; i<8; i++){
-          if(circles_number_pink[i]){
-            circles_number_pink[i].classList.add("new_btn-start_black_btn");
-          }
-        }
-        if(top_bar[0]){
-          top_bar[0].classList.add("new_btn-start_black_btn");
-        }
-        
+      }
+      if (top_bar[0]) {
+        top_bar[0].classList.add("new_btn-start_black_btn");
+      }
 
-        window.addEventListener('DOMContentLoaded', () => {
-          $('#prime').css('background-image','url(/el.resursebi-front/Vue-chatBot/img/chat01.png)');
-          $('.lang-box_passive').css('background-image','url(/el.resursebi-front/New-header-vue/header-img/eng01.png)');
-          $('.menu_box_passive').css('background-image','url(/el.resursebi-front/New-header-vue/header-img/menu01.png)');
 
-          //botApp
-          if(document.getElementById("Rectangle_1414-2")){
-            document.getElementById("Rectangle_1414-2").style.fill = "#000000";
-          }
-          if(document.getElementById("Path_12243-7")){
-            document.getElementById("Path_12243-7").style.fill = "#000000";
-          }
-          if(document.getElementById("Path_12243-8")){
-            document.getElementById("Path_12243-8").style.fill = "#000000";
-          }
-          if(document.getElementById("Path_12243-6")){
-            document.getElementById("Path_12243-6").style.fill = "#000000";
-          }
-          if(document.getElementById("Path_12243-10")){
-            document.getElementById("Path_12243-10").style.fill = "#000000";
-          }
-          if(document.getElementById("Path_12243-9")){
-            document.getElementById("Path_12243-9").style.fill = "#000000";
-          }
-          
+      window.addEventListener('DOMContentLoaded', () => {
+        $('#prime').css('background-image', 'url(/el.resursebi-front/Vue-chatBot/img/chat01.png)');
+        $('.lang-box_passive').css('background-image', 'url(/el.resursebi-front/New-header-vue/header-img/eng01.png)');
+        $('.menu_box_passive').css('background-image', 'url(/el.resursebi-front/New-header-vue/header-img/menu01.png)');
+
+        //botApp
+        if (document.getElementById("Rectangle_1414-2")) {
+          document.getElementById("Rectangle_1414-2").style.fill = "#000000";
+        }
+        if (document.getElementById("Path_12243-7")) {
+          document.getElementById("Path_12243-7").style.fill = "#000000";
+        }
+        if (document.getElementById("Path_12243-8")) {
+          document.getElementById("Path_12243-8").style.fill = "#000000";
+        }
+        if (document.getElementById("Path_12243-6")) {
+          document.getElementById("Path_12243-6").style.fill = "#000000";
+        }
+        if (document.getElementById("Path_12243-10")) {
+          document.getElementById("Path_12243-10").style.fill = "#000000";
+        }
+        if (document.getElementById("Path_12243-9")) {
+          document.getElementById("Path_12243-9").style.fill = "#000000";
+        }
+
         //switchDark
         document.getElementById('switchDarkId').checked = false;
         document.getElementById('switchDarkIdShadow').style.boxShadow = '1px 3px 6px #7fd1d8';
-        
-          
+
+
       });
-        
-        if(document.getElementById("1_kompTeq")){
-          document.getElementById("1_kompTeq").src = './img/slider/(blake)slide-illustration-c.svg'
+
+      if (document.getElementById("1_kompTeq")) {
+        document.getElementById("1_kompTeq").src = './img/slider/(blake)slide-illustration-c.svg'
+      }
+      if (document.getElementById("2_buneba")) {
+        document.getElementById("2_buneba").src = './img/slider/(blake)slide-illustration-n.svg'
+      }
+      if (document.getElementById("3_xelovneba")) {
+        document.getElementById("3_xelovneba").src = './img/slider/(blake)slide-illustration-a.svg'
+      }
+      if (document.getElementById("4_musika")) {
+        document.getElementById("4_musika").src = './img/slider/(blake)slide-illustration-m.svg'
+      }
+      //nabiji
+      for (let i = 0; i < 2; i++) {
+        if (nabiji[i]) {
+          nabiji[i].src = '../../../img/icons/step_item(black).svg';
         }
-        if(document.getElementById("2_buneba")){
-          document.getElementById("2_buneba").src = './img/slider/(blake)slide-illustration-n.svg'
-        }
-        if(document.getElementById("3_xelovneba")){
-          document.getElementById("3_xelovneba").src = './img/slider/(blake)slide-illustration-a.svg'
-        }
-        if(document.getElementById("4_musika")){
-          document.getElementById("4_musika").src = './img/slider/(blake)slide-illustration-m.svg'
-        }
-        //nabiji
-        for(let i=0; i<2; i++){
-          if(nabiji[i]){
-            nabiji[i].src = '../../../img/icons/step_item(black).svg';
-          }
-        }
+      }
 
 
     }
   },
   methods: {
-    myFunction(){
+    myFunction() {
       var reset__btn = document.getElementsByClassName("reset__btn");
       var completed__btn = document.getElementsByClassName("completed__btn");
       var current__pagination = document.getElementsByClassName("current__pagination");
@@ -213,7 +213,7 @@ Vue.component("appMenu", {
       var dj_2_3vh = document.getElementsByClassName("dj-2_3vh");
       var Rectangle_1414_2 = document.getElementById("Rectangle_1414-2");
       var nabiji = document.getElementsByClassName('newDesign_steps_item-img');
-      
+
 
 
       //ტეგები
@@ -226,38 +226,38 @@ Vue.component("appMenu", {
       var info_box = document.getElementsByClassName("info-box");
 
       var element = document.body;
-     
-      if(!this.isDark){
+
+      if (!this.isDark) {
         //დაწყება დასრულება
-        if(reset__btn[0]){
+        if (reset__btn[0]) {
           reset__btn[0].classList.add("reset__btn_black");
         }
-        if(completed__btn[0]){
+        if (completed__btn[0]) {
           completed__btn[0].classList.add("completed__btn_black");
         }
         //btn index.html
-        for(let i=0; i<16; i++){
-          if(new_btn_start[i]){
+        for (let i = 0; i < 16; i++) {
+          if (new_btn_start[i]) {
             new_btn_start[i].classList.add("new_btn-start_black_btn");
           }
         }
         // ფეიჯინგი
-        if(current__pagination[0]){
+        if (current__pagination[0]) {
           current__pagination[0].classList.add("pagination_black");
         }
-        if(pagination__prev__btn[0]){
+        if (pagination__prev__btn[0]) {
           pagination__prev__btn[0].classList.add("pagination_black");
         }
-        if(pagination__next__btn[0]){
+        if (pagination__next__btn[0]) {
           pagination__next__btn[0].classList.add("pagination_black");
         }
         localStorage.setItem("theme", "darck");
-        element.style.backgroundColor="black";
+        element.style.backgroundColor = "black";
         this.isDark = true
         //ტეგები
         //p
-        for(let i=0; i<8; i++){
-          if(newDesignSubjectQuestionItemTitle[i]){
+        for (let i = 0; i < 8; i++) {
+          if (newDesignSubjectQuestionItemTitle[i]) {
             newDesignSubjectQuestionItemTitle[i].classList.add("newDesign_subject_question_item-title_black_P");
           }
         }
@@ -268,119 +268,119 @@ Vue.component("appMenu", {
         //   }
         // }
         //H
-        if(algorithme_title_italic[0]){
+        if (algorithme_title_italic[0]) {
           algorithme_title_italic[0].classList.add("newDesign_subject_question_item-title_black_P");
         }
-        if(newDesign_container_main_title[0]){
+        if (newDesign_container_main_title[0]) {
           newDesign_container_main_title[0].classList.add("newDesign_subject_question_item-title_black_P");
         }
         //???
-        if(info_box[0]){
+        if (info_box[0]) {
           info_box[0].classList.add("completed__btn_black");
         }
         //index.html დასაწყისი
 
-        if(bg_menu[0]){
+        if (bg_menu[0]) {
           bg_menu[0].classList.add("new_btn-start_black_btn");
         }
-        if(app_start[0]){
+        if (app_start[0]) {
           app_start[0].classList.add("new_btn-start_black_btn");
         }
-        if(app_select[0]){
+        if (app_select[0]) {
           app_select[0].classList.add("new_btn-start_black_btn");
         }
-        for(let i=0; i<8; i++){
-          if(circles_number_pink[i]){
+        for (let i = 0; i < 8; i++) {
+          if (circles_number_pink[i]) {
             circles_number_pink[i].classList.add("new_btn-start_black_btn");
           }
         }
-        if(top_bar[0]){
+        if (top_bar[0]) {
           top_bar[0].classList.add("new_btn-start_black_btn");
         }
         //botApp
-        if(document.getElementById("Rectangle_1414-2")){
+        if (document.getElementById("Rectangle_1414-2")) {
           document.getElementById("Rectangle_1414-2").style.fill = "#000000";
         }
-        if(document.getElementById("Path_12243-7")){
+        if (document.getElementById("Path_12243-7")) {
           document.getElementById("Path_12243-7").style.fill = "#000000";
         }
-        if(document.getElementById("Path_12243-8")){
+        if (document.getElementById("Path_12243-8")) {
           document.getElementById("Path_12243-8").style.fill = "#000000";
         }
-        if(document.getElementById("Path_12243-6")){
+        if (document.getElementById("Path_12243-6")) {
           document.getElementById("Path_12243-6").style.fill = "#000000";
         }
-        if(document.getElementById("Path_12243-10")){
+        if (document.getElementById("Path_12243-10")) {
           document.getElementById("Path_12243-10").style.fill = "#000000";
         }
-        if(document.getElementById("Path_12243-9")){
+        if (document.getElementById("Path_12243-9")) {
           document.getElementById("Path_12243-9").style.fill = "#000000";
         }
 
         //icons
-        $('#prime').css('background-image','url(/el.resursebi-front/Vue-chatBot/img/chat01.png)');
-        $('.lang-box_passive').css('background-image','url(/el.resursebi-front/New-header-vue/header-img/eng01.png)');
-        $('.menu_box_passive').css('background-image','url(/el.resursebi-front/New-header-vue/header-img/menu01.png)');
-        $('.menu_box_active').css('background-image','url(/el.resursebi-front/New-header-vue/header-img/menu01.png)');
+        $('#prime').css('background-image', 'url(/el.resursebi-front/Vue-chatBot/img/chat01.png)');
+        $('.lang-box_passive').css('background-image', 'url(/el.resursebi-front/New-header-vue/header-img/eng01.png)');
+        $('.menu_box_passive').css('background-image', 'url(/el.resursebi-front/New-header-vue/header-img/menu01.png)');
+        $('.menu_box_active').css('background-image', 'url(/el.resursebi-front/New-header-vue/header-img/menu01.png)');
         //
-        
-        if(document.getElementById("3_xelovneba")){
+
+        if (document.getElementById("3_xelovneba")) {
           console.log(document.getElementById("3_xelovneba").src)
         }
-        if(document.getElementById("1_kompTeq")){
+        if (document.getElementById("1_kompTeq")) {
           document.getElementById("1_kompTeq").src = './img/slider/(blake)slide-illustration-c.svg'
         }
-        if(document.getElementById("2_buneba")){
+        if (document.getElementById("2_buneba")) {
           document.getElementById("2_buneba").src = './img/slider/(blake)slide-illustration-n.svg'
         }
-        if(document.getElementById("3_xelovneba")){
+        if (document.getElementById("3_xelovneba")) {
           document.getElementById("3_xelovneba").src = './img/slider/(blake)slide-illustration-a.svg'
         }
-        if(document.getElementById("4_musika")){
+        if (document.getElementById("4_musika")) {
           document.getElementById("4_musika").src = './img/slider/(blake)slide-illustration-m.svg'
         }
-        if(document.getElementById("3_xelovneba")){
+        if (document.getElementById("3_xelovneba")) {
           console.log(document.getElementById("3_xelovneba").src)
         }
         //switchDarkIdShadow
         document.getElementById('switchDarkIdShadow').style.boxShadow = '1px 3px 6px #7fd1d8';
         //nabiji
-        for(let i=0; i<2; i++){
-          if(nabiji[i]){
+        for (let i = 0; i < 2; i++) {
+          if (nabiji[i]) {
             nabiji[i].src = '../../../img/icons/step_item(black).svg';
           }
         }
 
       }
-      else{
-        if(reset__btn[0]){
+      else {
+        if (reset__btn[0]) {
           reset__btn[0].classList.remove("reset__btn_black");
         }
-        if(completed__btn[0]){
+        if (completed__btn[0]) {
           completed__btn[0].classList.remove("completed__btn_black");
         }
         //btn index.html
-        for(let i=0; i<16; i++){
-          if(new_btn_start[i]){
+        for (let i = 0; i < 16; i++) {
+          if (new_btn_start[i]) {
             new_btn_start[i].classList.remove("new_btn-start_black_btn");
           }
         }
-        if(current__pagination[0]){
+        if (current__pagination[0]) {
           current__pagination[0].classList.remove("pagination_black");
         }
-        if(pagination__prev__btn[0]){
+        if (pagination__prev__btn[0]) {
           pagination__prev__btn[0].classList.remove("pagination_black");
         }
-        if(pagination__next__btn[0]){
+        if (pagination__next__btn[0]) {
           pagination__next__btn[0].classList.remove("pagination_black");
         }
         localStorage.setItem("theme", "light");
-        element.style.background="";
+        element.style.background = "";
         this.isDark = false
         //ტეგები
         //P
-        for(let i=0; i<8; i++){
-          if(newDesignSubjectQuestionItemTitle[i]){
+        for (let i = 0; i < 8; i++) {
+          if (newDesignSubjectQuestionItemTitle[i]) {
             newDesignSubjectQuestionItemTitle[i].classList.remove("newDesign_subject_question_item-title_black_P");
           }
         }
@@ -390,84 +390,84 @@ Vue.component("appMenu", {
         //   }
         // }
         //H
-        if(algorithme_title_italic[0]){
+        if (algorithme_title_italic[0]) {
           algorithme_title_italic[0].classList.remove("newDesign_subject_question_item-title_black_P");
         }
-        if(newDesign_container_main_title[0]){
+        if (newDesign_container_main_title[0]) {
           newDesign_container_main_title[0].classList.remove("newDesign_subject_question_item-title_black_P");
         }
         //???
-        if(info_box[0]){
+        if (info_box[0]) {
           info_box[0].classList.remove("completed__btn_black");
         }
         //index.html დასაწყისი
-        if(bg_menu[0]){
+        if (bg_menu[0]) {
           bg_menu[0].classList.remove("new_btn-start_black_btn");
         }
-        if(app_start[0]){
+        if (app_start[0]) {
           app_start[0].classList.remove("new_btn-start_black_btn");
         }
-        if(app_select[0]){
+        if (app_select[0]) {
           app_select[0].classList.remove("new_btn-start_black_btn");
         }
-        for(let i=0; i<8; i++){
-          if(circles_number_pink[i]){
+        for (let i = 0; i < 8; i++) {
+          if (circles_number_pink[i]) {
             circles_number_pink[i].classList.remove("new_btn-start_black_btn");
           }
         }
-        if(top_bar[0]){
+        if (top_bar[0]) {
           top_bar[0].classList.remove("new_btn-start_black_btn");
         }
         //bottApp
-        if(document.getElementById("Rectangle_1414-2")){
+        if (document.getElementById("Rectangle_1414-2")) {
           document.getElementById("Rectangle_1414-2").style.fill = "";
         }
-        if(document.getElementById("Path_12243-7")){
+        if (document.getElementById("Path_12243-7")) {
           document.getElementById("Path_12243-7").style.fill = "";
         }
-        if(document.getElementById("Path_12243-8")){
+        if (document.getElementById("Path_12243-8")) {
           document.getElementById("Path_12243-8").style.fill = "";
         }
-        if(document.getElementById("Path_12243-6")){
+        if (document.getElementById("Path_12243-6")) {
           document.getElementById("Path_12243-6").style.fill = "";
         }
-        if(document.getElementById("Path_12243-10")){
+        if (document.getElementById("Path_12243-10")) {
           document.getElementById("Path_12243-10").style.fill = "";
         }
-        if(document.getElementById("Path_12243-9")){
+        if (document.getElementById("Path_12243-9")) {
           document.getElementById("Path_12243-9").style.fill = "";
         }
         //icons
         $("#prime").css("background-image", "");
-        $('.lang-box_passive').css('background-image','');
-        $('.menu_box_passive').css('background-image','');
-        $('.menu_box_active').css('background-image','');
+        $('.lang-box_passive').css('background-image', '');
+        $('.menu_box_passive').css('background-image', '');
+        $('.menu_box_active').css('background-image', '');
         //
-        if(document.getElementById("1_kompTeq")){
+        if (document.getElementById("1_kompTeq")) {
           document.getElementById("1_kompTeq").src = './img/slider/slide-illustration-c.svg'
         }
-        if(document.getElementById("2_buneba")){
+        if (document.getElementById("2_buneba")) {
           document.getElementById("2_buneba").src = './img/slider/slide-illustration-n.svg'
         }
-        if(document.getElementById("3_xelovneba")){
+        if (document.getElementById("3_xelovneba")) {
           document.getElementById("3_xelovneba").src = './img/slider/slide-illustration-a.svg'
         }
-        if(document.getElementById("4_musika")){
+        if (document.getElementById("4_musika")) {
           document.getElementById("4_musika").src = './img/slider/slide-illustration-m.svg'
         }
 
         //switchDarkIdShadow
         document.getElementById('switchDarkIdShadow').style.boxShadow = '1px 3px 6px #FADE7E';
         //nabiji
-        for(let i=0; i<2; i++){
-          if(nabiji[i]){
+        for (let i = 0; i < 2; i++) {
+          if (nabiji[i]) {
             nabiji[i].src = '../../../img/icons/step_item.svg';
           }
         }
 
       }
 
-     
+
     }
   },
   template: `
@@ -565,7 +565,20 @@ Vue.component("appSection", {
     isInfo: {
       type: Boolean,
     },
-  },  
+  },
+  data() {
+    return {
+      darkMode: false,
+    };
+  },
+  watch: {
+    isActive() {
+      var theme = localStorage.getItem('theme')
+      if (theme == 'darck') {
+        this.darkMode = true
+      }
+    }
+  },
   template: `
             <div>
                 <section class="section_box">
@@ -577,7 +590,11 @@ Vue.component("appSection", {
                     leave-active-class="animated fadeOut"
                     :duration="550"
                     mode="out-in">
-                    <div v-if="isActive || isInfo" class="bg_menu"></div>
+                    <div v-if="isActive || isInfo" class="bg_menu"
+                    :class="[
+                      isActive && darkMode? 'bg_menu new_btn-start_black_btn' : 'bg_menu',
+                    ]"
+                     id="bg_menu89"></div>
                 </transition>
             </div>
 
@@ -776,9 +793,20 @@ Vue.component("appStart", {
     tabClass: String,
     images: Object,
   },
-  created(){
-    var img = $('.menu_box_passive').css('background-image');
-    var imgi = document.getElementsByClassName('menu_box_passive');
+  data() {
+    return {
+      // title is object
+      darkMode: false,
+    };
+  },
+  watch: {
+    isActive() {
+      var theme = localStorage.getItem('theme')
+      if (theme == 'darck') {
+        this.darkMode = true
+      }
+
+    }
   },
   template: `
         <transition
@@ -787,7 +815,10 @@ Vue.component("appStart", {
             :duration="1000"
             mode="out-in"
             appear>
-                <div v-if="isActive" class="page-section" :class="'app-start'">
+                <div v-if="isActive" class="page-section"  
+                :class="[
+                  isActive && darkMode? 'app-start new_btn-start_black_btn' : 'app-start',
+                ]">
                     <div class="row">
                         <div class="col-3 main-lesson-start-cont">
                           <img alt="music" :src="images.music" class="main-lesson-start-img" />
@@ -868,7 +899,7 @@ Vue.component("appSelect", {
 
           let startIndex = (this.currentPage - 1) * this.pageSize;
           let endIndex = Math.min(startIndex + this.pageSize, this.totalItems);
-          
+
           return this.class["IT_" + this.classID].slice(startIndex, endIndex);
         }
         // 5-6 კლასების გარდა დაბრუნდეს ჩვეულებრივად სრული სიგრძის მასივი
