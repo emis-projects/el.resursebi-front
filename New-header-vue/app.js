@@ -228,6 +228,10 @@ Vue.component("appMenu", {
       var element = document.body;
 
       if (!this.isDark) {
+        // if(this.isActive && document.getElementById('mynetwork')){ visJs-ის ამბები
+        //   initDark();
+        // }
+        
         //დაწყება დასრულება
         if (reset__btn[0]) {
           reset__btn[0].classList.add("reset__btn_black");
@@ -353,6 +357,9 @@ Vue.component("appMenu", {
 
       }
       else {
+        // if(this.isActive && document.getElementById('mynetwork')){
+        //   init(); visJs-ის ამბები
+        // }
         if (reset__btn[0]) {
           reset__btn[0].classList.remove("reset__btn_black");
         }
@@ -477,7 +484,7 @@ Vue.component("appMenu", {
         </a>
         <ul class="navbar-nav ml-auto">
          <li
-           
+
           >
             <div>
             <label class="switchDark">
@@ -486,7 +493,7 @@ Vue.component("appMenu", {
             </label>
             </div>
           </li>
-          
+
           <!--ხმის ჩართვა/გამორთვა <li
             @click="isShow = !isShow"
             class="nav-item"
@@ -840,7 +847,7 @@ Vue.component("appStart", {
             :duration="1000"
             mode="out-in"
             appear>
-                <div v-if="isActive" class="page-section"  
+                <div v-if="isActive" class="page-section"
                 :class="[
                   isActive && darkMode? 'app-start new_btn-start_black_btn' : 'app-start',
                 ]">
@@ -905,6 +912,7 @@ Vue.component("appSelect", {
   },
   data() {
     return {
+      darkMode: false,
       // title is object
       class: title,
       classID: 2,
@@ -974,6 +982,15 @@ Vue.component("appSelect", {
       this.pagination = true;
     },
   },
+  created(){
+    var theme = localStorage.getItem('theme')
+      if (theme == 'darck') {
+        this.darkMode = true
+      }
+      else{
+        this.darkMode = false
+      }
+  },
   template: `
         <transition
             enter-active-class="animated slideInUp"
@@ -982,7 +999,11 @@ Vue.component("appSelect", {
             mode="out-in"
             appear
         >
-            <div v-if="isActive" :class="'app-select'" class="page-section">
+
+            <div v-if="isActive" class="page-section"
+                :class="[
+                  isActive && darkMode? 'app-select new_btn-start_black_btn' : 'app-select',
+                ]">
                 <div class="row">
                     <div class="col-12">
                         <h5 class="app-select_title">{{ activeClass }}</h5>
@@ -1131,6 +1152,13 @@ Vue.component("appLinks", {
     },
   },
   updated() {
+    // var theme = localStorage.getItem('theme')
+    // if (theme == 'darck') { visJs-ის ამბები
+    //   initDark();
+    // }
+    // else{
+    //   init();
+    // }
     init();
   },
   template: `
