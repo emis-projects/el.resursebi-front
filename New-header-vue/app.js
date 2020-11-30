@@ -228,7 +228,7 @@ Vue.component("appMenu", {
       var element = document.body;
 
       if (!this.isDark) {
-        
+
         //დაწყება დასრულება
         if (reset__btn[0]) {
           reset__btn[0].classList.add("reset__btn_black");
@@ -353,7 +353,7 @@ Vue.component("appMenu", {
         }
 
         //სარჩევი
-        if(this.isActive && document.getElementById('mynetwork')){
+        if (this.isActive && document.getElementById('mynetwork')) {
           initDark();
         }
 
@@ -472,11 +472,11 @@ Vue.component("appMenu", {
           }
         }
 
-      }
+        //სარჩევი
+        if (this.isActive && document.getElementById('mynetwork')) {
+          init();
+        }
 
-      //სარჩევი
-      if(this.isActive && document.getElementById('mynetwork')){
-        init();
       }
 
     }
@@ -588,7 +588,7 @@ Vue.component("appSection", {
       if (theme == 'darck') {
         this.darkMode = true
       }
-      else{
+      else {
         this.darkMode = false
       }
     }
@@ -641,7 +641,7 @@ Vue.component("appBar", {
       if (theme == 'darck') {
         this.darkMode = true
       }
-      else{
+      else {
         this.darkMode = false
       }
     }
@@ -839,7 +839,7 @@ Vue.component("appStart", {
       if (theme == 'darck') {
         this.darkMode = true
       }
-      else{
+      else {
         this.darkMode = false
       }
     }
@@ -986,14 +986,14 @@ Vue.component("appSelect", {
       this.pagination = true;
     },
   },
-  created(){
+  created() {
     var theme = localStorage.getItem('theme')
-      if (theme == 'darck') {
-        this.darkMode = true
-      }
-      else{
-        this.darkMode = false
-      }
+    if (theme == 'darck') {
+      this.darkMode = true
+    }
+    else {
+      this.darkMode = false
+    }
   },
   template: `
         <transition
@@ -1152,7 +1152,7 @@ Vue.component("appLinks", {
     if (theme == 'darck') {
       initDark();
     }
-    else{
+    else {
       init();
     }
     // init();
@@ -1167,7 +1167,7 @@ Vue.component("appLinks", {
     if (theme == 'darck') {
       initDark();
     }
-    else{
+    else {
       init();
     }
     // init();
