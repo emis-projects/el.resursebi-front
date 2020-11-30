@@ -1221,23 +1221,23 @@ Vue.component("appSections", {
       typeInfo: {
         1: {
           text: "ნაბიჯი",
-          img: "../../../img/icons/davalebebi/nabiji-white.svg",
+          img: "../../img/icons/davalebebi/nabiji-white.svg",
         },
         2: {
           text: "სავარჯიშო",
-          img: "../../../img/icons/davalebebi/savarjisho-white.svg",
+          img: "../../img/icons/davalebebi/savarjisho-white.svg",
         },
         3: {
           text: "მინიშნება",
-          img: "../../../img/icons/davalebebi/minishneba-white.svg",
+          img: "../../img/icons/davalebebi/minishneba-white.svg",
         },
         4: {
           text: "შუალედური დავალება",
-          img: "../../../img/icons/davalebebi/shualeduri-white.svg",
+          img: "../../img/icons/davalebebi/shualeduri-white.svg",
         },
         5: {
           text: "კომპლექსური დავალება",
-          img: "../../../img/icons/davalebebi/kompleqsuri-white.svg",
+          img: "../../img/icons/davalebebi/kompleqsuri-white.svg",
         },
       },
     };
