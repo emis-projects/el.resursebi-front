@@ -348,7 +348,7 @@ Vue.component("appMenu", {
         //nabiji
         for (let i = 0; i < nabiji.length; i++) {
           if (nabiji[i]) {
-            nabiji[i].src = '../../../img/icons/step_item(black).svg';
+            nabiji[i].src = '../../img/icons/step_item(black).svg';
           }
         }
 
@@ -468,7 +468,7 @@ Vue.component("appMenu", {
         //nabiji
         for (let i = 0; i < nabiji.length; i++) {
           if (nabiji[i]) {
-            nabiji[i].src = '../../../img/icons/step_item.svg';
+            nabiji[i].src = '../../img/icons/step_item.svg';
           }
         }
 
