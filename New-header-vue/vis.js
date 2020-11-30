@@ -188,47 +188,47 @@ let jsonObject = null,
         complexExercise: { // კომპლექსური დავალება
           shape: 'image',
           image: {
-            unselected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/complexExercise.svg',
-            selected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/complexExerciseActive.svg'
+            unselected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/complexExerciseDark.png',
+            selected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/complexExerciseActive.png'
           },
           size: 50
         },
         complexExercise2: { // კომპლექსური დავალება
           shape: 'image',
           image: {
-            unselected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/complexExercise2.svg',
-            selected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/complexExercise2Active.svg'
+            unselected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/complexExercise2Dark.png',
+            selected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/complexExercise2Active.png'
           },
           size: 50
         },
         exercise: {  // სავარჯიშო
           shape: 'image',
           image: {
-            unselected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/exercise.svg',
-            selected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/exerciseActive.svg'
+            unselected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/exerciseDark.png',
+            selected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/exerciseActive.png'
           },
           size: 120
         },
         hint: { // მინიშნება
           shape: 'image',
           image: {
-            unselected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/hint.svg',
-            selected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/hintActive.svg'
+            unselected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/hintDark.png',
+            selected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/hintActive.png'
           },
           size: 120
         },
         mid: {  // შუალედური
           shape: 'image',
           image: {
-            unselected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/mid.svg',
-            selected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/midActive.svg'
+            unselected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/midDark.png',
+            selected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/midActive.png'
           },
           size: 120
         },
         step1: {  // ნაბიჯი
           shape: 'image',
           image: {
-            unselected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/step1.png',
+            unselected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/step1Dark.png',
             selected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/stepActive1.png'
           },
           size: 50,
@@ -236,7 +236,7 @@ let jsonObject = null,
         step2: {  // ნაბიჯი
           shape: 'image',
           image: {
-            unselected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/step2.png',
+            unselected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/step2Dark.png',
             selected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/stepActive2.png'
           },
           size: 50,
@@ -244,7 +244,7 @@ let jsonObject = null,
         step3: {  // ნაბიჯი
           shape: 'image',
           image: {
-            unselected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/step3.png',
+            unselected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/step3Dark.png',
             selected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/stepActive3.png'
           },
           size: 50,
@@ -252,7 +252,7 @@ let jsonObject = null,
         step4: {  // ნაბიჯი
           shape: 'image',
           image: {
-            unselected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/step4.png',
+            unselected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/step4Dark.png',
             selected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/stepActive4.png'
           },
           size: 50,
@@ -260,7 +260,7 @@ let jsonObject = null,
         step5: {  // ნაბიჯი
           shape: 'image',
           image: {
-            unselected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/step5.png',
+            unselected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/step5Dark.png',
             selected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/stepActive5.png'
           },
           size: 50,
@@ -268,7 +268,7 @@ let jsonObject = null,
         step6: {  // ნაბიჯი
           shape: 'image',
           image: {
-            unselected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/step6.png',
+            unselected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/step6Dark.png',
             selected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/stepActive6.png'
           },
           size: 50,
@@ -276,7 +276,7 @@ let jsonObject = null,
         step7: {  // ნაბიჯი
           shape: 'image',
           image: {
-            unselected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/step7.png',
+            unselected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/step7Dark.png',
             selected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/stepActive7.png'
           },
           size: 50,
@@ -284,7 +284,7 @@ let jsonObject = null,
         step8: {  // ნაბიჯი
           shape: 'image',
           image: {
-            unselected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/step8.png',
+            unselected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/step8Dark.png',
             selected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/stepActive8.png'
           },
           size: 50,
@@ -292,7 +292,7 @@ let jsonObject = null,
         step9: {  // ნაბიჯი
           shape: 'image',
           image: {
-            unselected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/step9.png',
+            unselected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/step9Dark.png',
             selected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/stepActive9.png'
           },
           size: 50,
