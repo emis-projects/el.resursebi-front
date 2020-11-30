@@ -114,6 +114,224 @@ let jsonObject = null,
   // ვის.ჯს რომ ჩავტვირთოთ ვუში როცა კომპონენტს დავარენდერებთ(ხილულს გავხდით).
   // რადგანაც ვის.ჯს ყოველ ჯერზე თავიდან უნდა გაეშვას ამიტომ მთლიანი ვის.ჯს თავისი კოდით გლობ. ფუნქციად უნდა გავიტანოთ
 
+  
+  // init ფუნქცია დაკოპირდა და initDark დაერქვა, initDark-ი იძახება dark_mode-ის დროს და init ჩვეულებრივ;
+  function initDark(){
+    let activeNodeID;
+    let array = [];
+    let index = 0;
+
+
+    // გადაბმები
+    obj.map((w, i, e) => {
+      if(w.type == 5){
+        index++;
+
+        if(index > 1){
+          array.push({ from: activeNodeID, to: w.id })
+        }
+
+        activeNodeID = w.id;
+
+
+      } else if(w.type == 1) {
+        array.push({ from: activeNodeID, to: w.id })
+        activeNodeID = w.id;
+
+      } else {
+
+        let object = {
+          from: activeNodeID,
+          to: w.id
+        }
+
+        array.push(object)
+      }
+    })
+
+    var nodes = new vis.DataSet(nodesData);
+
+
+    // create an array with edges
+    var edges = new vis.DataSet(array);
+
+
+    // create a network
+    var container = document.getElementById('mynetwork');
+
+
+    // provide the data in the vis format
+    var data = {
+      nodes: nodes,
+      edges: edges
+    };
+
+
+    var options = {
+
+      nodes: { // ფროფერთიები აქ (groups-შიც იგივეებია): https://visjs.github.io/vis-network/docs/network/nodes.html
+        shape: 'dot',
+        fontStrokeWidth: 0.5,
+        fontStrokeColor: 'black',
+        chosen: true,
+        selectable: true
+      },
+      edges: { // ფროფერთიები აქ: https://visjs.github.io/vis-network/docs/network/edges.html
+        color: '#fff',
+        width: 7,
+        shadow: {
+          enabled: true,
+          color: 'rgba(127,209,216,0.4)'
+        }
+      },
+      groups: {
+        complexExercise: { // კომპლექსური დავალება
+          shape: 'image',
+          image: {
+            unselected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/complexExercise.svg',
+            selected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/complexExerciseActive.svg'
+          },
+          size: 50
+        },
+        complexExercise2: { // კომპლექსური დავალება
+          shape: 'image',
+          image: {
+            unselected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/complexExercise2.svg',
+            selected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/complexExercise2Active.svg'
+          },
+          size: 50
+        },
+        exercise: {  // სავარჯიშო
+          shape: 'image',
+          image: {
+            unselected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/exercise.svg',
+            selected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/exerciseActive.svg'
+          },
+          size: 120
+        },
+        hint: { // მინიშნება
+          shape: 'image',
+          image: {
+            unselected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/hint.svg',
+            selected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/hintActive.svg'
+          },
+          size: 120
+        },
+        mid: {  // შუალედური
+          shape: 'image',
+          image: {
+            unselected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/mid.svg',
+            selected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/midActive.svg'
+          },
+          size: 120
+        },
+        step1: {  // ნაბიჯი
+          shape: 'image',
+          image: {
+            unselected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/step1.png',
+            selected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/stepActive1.png'
+          },
+          size: 50,
+        },
+        step2: {  // ნაბიჯი
+          shape: 'image',
+          image: {
+            unselected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/step2.png',
+            selected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/stepActive2.png'
+          },
+          size: 50,
+        },
+        step3: {  // ნაბიჯი
+          shape: 'image',
+          image: {
+            unselected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/step3.png',
+            selected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/stepActive3.png'
+          },
+          size: 50,
+        },
+        step4: {  // ნაბიჯი
+          shape: 'image',
+          image: {
+            unselected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/step4.png',
+            selected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/stepActive4.png'
+          },
+          size: 50,
+        },
+        step5: {  // ნაბიჯი
+          shape: 'image',
+          image: {
+            unselected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/step5.png',
+            selected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/stepActive5.png'
+          },
+          size: 50,
+        },
+        step6: {  // ნაბიჯი
+          shape: 'image',
+          image: {
+            unselected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/step6.png',
+            selected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/stepActive6.png'
+          },
+          size: 50,
+        },
+        step7: {  // ნაბიჯი
+          shape: 'image',
+          image: {
+            unselected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/step7.png',
+            selected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/stepActive7.png'
+          },
+          size: 50,
+        },
+        step8: {  // ნაბიჯი
+          shape: 'image',
+          image: {
+            unselected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/step8.png',
+            selected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/stepActive8.png'
+          },
+          size: 50,
+        },
+        step9: {  // ნაბიჯი
+          shape: 'image',
+          image: {
+            unselected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/step9.png',
+            selected: 'https://ananoaspanidze.github.io/el.resursebi-front/New-header-vue/images/stepActive9.png'
+          },
+          size: 50,
+        }
+      }
+
+    };
+
+
+    // initialize your network!
+    var network = new vis.Network(container, data, options);
+
+
+    network.on('select', function (properties) {
+
+      var SelectedNodeID = network.getSelection().nodes[0];
+
+      var thisNodeUrl = nodes.get(SelectedNodeID).url;
+
+      if(thisNodeUrl !== undefined){
+        window.location.replace(`${thisNodeUrl}.html`)
+      }
+    });
+
+
+    // სარჩევში იმ გვერდის გააქტიურება, რომლიდანაც გამოვიძახეთ სარჩევის მენიუ
+
+    var currentURL = window.location.href;
+    var activeID = currentURL.substring(currentURL.lastIndexOf('/') + 1, currentURL.lastIndexOf(".html"));
+    network.selectNodes([activeID])
+
+  }
+  //initDark მთავრდება
+
+
+
+
+
+
   function init(){
     let activeNodeID;
     let array = [];

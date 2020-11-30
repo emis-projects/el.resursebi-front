@@ -182,7 +182,7 @@ Vue.component("appMenu", {
         document.getElementById("4_musika").src = './img/slider/(blake)slide-illustration-m.svg'
       }
       //nabiji
-      for (let i = 0; i < 2; i++) {
+      for (let i = 0; i < nabiji.length; i++) {
         if (nabiji[i]) {
           nabiji[i].src = '../../../img/icons/step_item(black).svg';
         }
@@ -228,9 +228,6 @@ Vue.component("appMenu", {
       var element = document.body;
 
       if (!this.isDark) {
-        // if(this.isActive && document.getElementById('mynetwork')){ visJs-ის ამბები
-        //   initDark();
-        // }
         
         //დაწყება დასრულება
         if (reset__btn[0]) {
@@ -349,17 +346,20 @@ Vue.component("appMenu", {
         //switchDarkIdShadow
         document.getElementById('switchDarkIdShadow').style.boxShadow = '1px 3px 6px #7fd1d8';
         //nabiji
-        for (let i = 0; i < 2; i++) {
+        for (let i = 0; i < nabiji.length; i++) {
           if (nabiji[i]) {
             nabiji[i].src = '../../../img/icons/step_item(black).svg';
           }
         }
 
+        //სარჩევი
+        if(this.isActive && document.getElementById('mynetwork')){
+          initDark();
+        }
+
       }
       else {
-        // if(this.isActive && document.getElementById('mynetwork')){
-        //   init(); visJs-ის ამბები
-        // }
+
         if (reset__btn[0]) {
           reset__btn[0].classList.remove("reset__btn_black");
         }
@@ -466,7 +466,7 @@ Vue.component("appMenu", {
         //switchDarkIdShadow
         document.getElementById('switchDarkIdShadow').style.boxShadow = '1px 3px 6px #FADE7E';
         //nabiji
-        for (let i = 0; i < 2; i++) {
+        for (let i = 0; i < nabiji.length; i++) {
           if (nabiji[i]) {
             nabiji[i].src = '../../../img/icons/step_item.svg';
           }
@@ -474,6 +474,10 @@ Vue.component("appMenu", {
 
       }
 
+      //სარჩევი
+      if(this.isActive && document.getElementById('mynetwork')){
+        init();
+      }
 
     }
   },
@@ -1144,7 +1148,14 @@ Vue.component("appLinks", {
       (x) => x !== null
     );
 
-    init();
+    var theme = localStorage.getItem('theme')
+    if (theme == 'darck') {
+      initDark();
+    }
+    else{
+      init();
+    }
+    // init();
   },
   computed: {
     itClassText() {
@@ -1152,14 +1163,14 @@ Vue.component("appLinks", {
     },
   },
   updated() {
-    // var theme = localStorage.getItem('theme')
-    // if (theme == 'darck') { visJs-ის ამბები
-    //   initDark();
-    // }
-    // else{
-    //   init();
-    // }
-    init();
+    var theme = localStorage.getItem('theme')
+    if (theme == 'darck') {
+      initDark();
+    }
+    else{
+      init();
+    }
+    // init();
   },
   template: `
         <div>
