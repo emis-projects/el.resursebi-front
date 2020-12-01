@@ -233,27 +233,26 @@ Vue.component("appMenu", {
       var element = document.body;
 
       if (!this.isDark) {
-        // console.log('shemodis111', appendChild_img[0].src);
-        if(appendChild_img){
-          for(let i=0; i<appendChild_img.length; i++){
+        if (appendChild_img) {
+          for (let i = 0; i < appendChild_img.length; i++) {
             appendChild_img[i].src = appendChild_img[i].src.replace("white", "whiteDark");
           }
         }
-        
 
-        if(document.getElementById('nabijiType')){
+
+        if (document.getElementById('nabijiType')) {
           document.getElementById('nabijiType').src = "../../img/icons/davalebebi/nabiji-whiteDark.svg";
         }
-        if(document.getElementById('savarjishoType')){
+        if (document.getElementById('savarjishoType')) {
           document.getElementById('savarjishoType').src = "../../img/icons/davalebebi/savarjisho-whiteDark.svg";
         }
-        if(document.getElementById('minishnebaType')){
+        if (document.getElementById('minishnebaType')) {
           document.getElementById('minishnebaType').src = "../../img/icons/davalebebi/minishneba-whiteDark.svg";
         }
-        if(document.getElementById('shualeduriType')){
+        if (document.getElementById('shualeduriType')) {
           document.getElementById('shualeduriType').src = "../../img/icons/davalebebi/shualeduri-whiteDark.svg";
         }
-        if(document.getElementById('kompleqsuriType')){
+        if (document.getElementById('kompleqsuriType')) {
           document.getElementById('kompleqsuriType').src = "../../img/icons/davalebebi/kompleqsuri-whiteDark.svg";
         }
         //დაწყება დასრულება
@@ -389,24 +388,24 @@ Vue.component("appMenu", {
 
       }
       else {
-        if(appendChild_img){
-          for(let i=0; i<appendChild_img.length; i++){
+        if (appendChild_img) {
+          for (let i = 0; i < appendChild_img.length; i++) {
             appendChild_img[i].src = appendChild_img[i].src.replace("whiteDark", "white");
           }
         }
-        if(document.getElementById('nabijiType')){
+        if (document.getElementById('nabijiType')) {
           document.getElementById('nabijiType').src = "../../img/icons/davalebebi/nabiji-white.svg";
         }
-        if(document.getElementById('savarjishoType')){
+        if (document.getElementById('savarjishoType')) {
           document.getElementById('savarjishoType').src = "../../img/icons/davalebebi/savarjisho-white.svg";
         }
-        if(document.getElementById('minishnebaType')){
+        if (document.getElementById('minishnebaType')) {
           document.getElementById('minishnebaType').src = "../../img/icons/davalebebi/minishneba-white.svg";
         }
-        if(document.getElementById('shualeduriType')){
+        if (document.getElementById('shualeduriType')) {
           document.getElementById('shualeduriType').src = "../../img/icons/davalebebi/shualeduri-white.svg";
         }
-        if(document.getElementById('kompleqsuriType')){
+        if (document.getElementById('kompleqsuriType')) {
           document.getElementById('kompleqsuriType').src = "../../img/icons/davalebebi/kompleqsuri-white.svg";
         }
 
@@ -886,14 +885,14 @@ Vue.component("appStart", {
       darkMode: false,
     };
   },
-  created(){
+  created() {
     var theme = localStorage.getItem('theme')
-      if (theme == 'darck') {
-        this.darkMode = true
-      }
-      else {
-        this.darkMode = false
-      }
+    if (theme == 'darck') {
+      this.darkMode = true
+    }
+    else {
+      this.darkMode = false
+    }
   },
   watch: {
     isActive() {
@@ -1352,20 +1351,20 @@ Vue.component("appSections", {
       (x) => x !== null && !x.ignore
     );
   },
-  created(){
+  created() {
     var theme = localStorage.getItem('theme')
-      if (theme == 'darck') {
-        this.typeInfo[1].img = '../../img/icons/davalebebi/nabiji-whiteDark.svg';
-        this.typeInfo[2].img = '../../img/icons/davalebebi/savarjisho-whiteDark.svg';
-        this.typeInfo[3].img = '../../img/icons/davalebebi/minishneba-whiteDark.svg';
-        this.typeInfo[4].img = '../../img/icons/davalebebi/shualeduri-whiteDark.svg';
-        this.typeInfo[5].img = '../../img/icons/davalebebi/kompleqsuri-whiteDark.svg';
+    if (theme == 'darck') {
+      this.typeInfo[1].img = '../../img/icons/davalebebi/nabiji-whiteDark.svg';
+      this.typeInfo[2].img = '../../img/icons/davalebebi/savarjisho-whiteDark.svg';
+      this.typeInfo[3].img = '../../img/icons/davalebebi/minishneba-whiteDark.svg';
+      this.typeInfo[4].img = '../../img/icons/davalebebi/shualeduri-whiteDark.svg';
+      this.typeInfo[5].img = '../../img/icons/davalebebi/kompleqsuri-whiteDark.svg';
 
-        this.darkMode = true
-      }
-      else {
-        this.darkMode = false
-      }
+      this.darkMode = true
+    }
+    else {
+      this.darkMode = false
+    }
   },
   watch: {
     isTypes(newValue, oldValue) {
@@ -1375,7 +1374,6 @@ Vue.component("appSections", {
       }
     },
     isActive() {
-      console.log('watch', this.darkMode)
       var theme = localStorage.getItem('theme')
       if (theme == 'darck') {
         this.darkMode = true
@@ -1400,6 +1398,18 @@ Vue.component("appSections", {
   methods: {
     getSimilarTypes(type) {
       // მსგავსი ტიპების ამოზება ჯეისონ ფაილიდან
+      var theme = localStorage.getItem('theme')
+      if (theme == 'darck') {
+        this.typeInfo[1].img = '../../img/icons/davalebebi/nabiji-whiteDark.svg';
+        this.typeInfo[2].img = '../../img/icons/davalebebi/savarjisho-whiteDark.svg';
+        this.typeInfo[3].img = '../../img/icons/davalebebi/minishneba-whiteDark.svg';
+        this.typeInfo[4].img = '../../img/icons/davalebebi/shualeduri-whiteDark.svg';
+        this.typeInfo[5].img = '../../img/icons/davalebebi/kompleqsuri-whiteDark.svg';
+        this.darkMode = true
+      }
+      else {
+        this.darkMode = false
+      }
       let data = this.fullData.pages.filter((item) => item.type === type);
 
       var firstEl = 0;
