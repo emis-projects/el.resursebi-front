@@ -217,6 +217,7 @@ Vue.component("appMenu", {
       var dj_2_3vh = document.getElementsByClassName("dj-2_3vh");
       var Rectangle_1414_2 = document.getElementById("Rectangle_1414-2");
       var nabiji = document.getElementsByClassName('newDesign_steps_item-img');
+      var appendChild_img = document.getElementsByClassName('appendChild--img');
 
 
 
@@ -232,7 +233,29 @@ Vue.component("appMenu", {
       var element = document.body;
 
       if (!this.isDark) {
+        // console.log('shemodis111', appendChild_img[0].src);
+        if(appendChild_img){
+          for(let i=0; i<appendChild_img.length; i++){
+            appendChild_img[i].src = appendChild_img[i].src.replace("white", "whiteDark");
+          }
+        }
+        
 
+        if(document.getElementById('nabijiType')){
+          document.getElementById('nabijiType').src = "../../img/icons/davalebebi/nabiji-whiteDark.svg";
+        }
+        if(document.getElementById('savarjishoType')){
+          document.getElementById('savarjishoType').src = "../../img/icons/davalebebi/savarjisho-whiteDark.svg";
+        }
+        if(document.getElementById('minishnebaType')){
+          document.getElementById('minishnebaType').src = "../../img/icons/davalebebi/minishneba-whiteDark.svg";
+        }
+        if(document.getElementById('shualeduriType')){
+          document.getElementById('shualeduriType').src = "../../img/icons/davalebebi/shualeduri-whiteDark.svg";
+        }
+        if(document.getElementById('kompleqsuriType')){
+          document.getElementById('kompleqsuriType').src = "../../img/icons/davalebebi/kompleqsuri-whiteDark.svg";
+        }
         //დაწყება დასრულება
         if (reset__btn[0]) {
           reset__btn[0].classList.add("reset__btn_black");
@@ -366,6 +389,26 @@ Vue.component("appMenu", {
 
       }
       else {
+        if(appendChild_img){
+          for(let i=0; i<appendChild_img.length; i++){
+            appendChild_img[i].src = appendChild_img[i].src.replace("whiteDark", "white");
+          }
+        }
+        if(document.getElementById('nabijiType')){
+          document.getElementById('nabijiType').src = "../../img/icons/davalebebi/nabiji-white.svg";
+        }
+        if(document.getElementById('savarjishoType')){
+          document.getElementById('savarjishoType').src = "../../img/icons/davalebebi/savarjisho-white.svg";
+        }
+        if(document.getElementById('minishnebaType')){
+          document.getElementById('minishnebaType').src = "../../img/icons/davalebebi/minishneba-white.svg";
+        }
+        if(document.getElementById('shualeduriType')){
+          document.getElementById('shualeduriType').src = "../../img/icons/davalebebi/shualeduri-white.svg";
+        }
+        if(document.getElementById('kompleqsuriType')){
+          document.getElementById('kompleqsuriType').src = "../../img/icons/davalebebi/kompleqsuri-white.svg";
+        }
 
         if (reset__btn[0]) {
           reset__btn[0].classList.remove("reset__btn_black");
@@ -1240,22 +1283,27 @@ Vue.component("appSections", {
       dataByType: [],
       typeInfo: {
         1: {
+          id: 'nabijiType',
           text: "ნაბიჯი",
           img: "../../img/icons/davalebebi/nabiji-white.svg",
         },
         2: {
+          id: 'savarjishoType',
           text: "სავარჯიშო",
           img: "../../img/icons/davalebebi/savarjisho-white.svg",
         },
         3: {
+          id: 'minishnebaType',
           text: "მინიშნება",
           img: "../../img/icons/davalebebi/minishneba-white.svg",
         },
         4: {
+          id: 'shualeduriType',
           text: "შუალედური დავალება",
           img: "../../img/icons/davalebebi/shualeduri-white.svg",
         },
         5: {
+          id: 'kompleqsuriType',
           text: "კომპლექსური დავალება",
           img: "../../img/icons/davalebebi/kompleqsuri-white.svg",
         },
@@ -1307,6 +1355,12 @@ Vue.component("appSections", {
   created(){
     var theme = localStorage.getItem('theme')
       if (theme == 'darck') {
+        this.typeInfo[1].img = '../../img/icons/davalebebi/nabiji-whiteDark.svg';
+        this.typeInfo[2].img = '../../img/icons/davalebebi/savarjisho-whiteDark.svg';
+        this.typeInfo[3].img = '../../img/icons/davalebebi/minishneba-whiteDark.svg';
+        this.typeInfo[4].img = '../../img/icons/davalebebi/shualeduri-whiteDark.svg';
+        this.typeInfo[5].img = '../../img/icons/davalebebi/kompleqsuri-whiteDark.svg';
+
         this.darkMode = true
       }
       else {
@@ -1395,7 +1449,7 @@ Vue.component("appSections", {
                   appear>
                     <div id="tableOfContentTwo" class="d-flex" v-if="isTypes" key="5">
                       <div class="appendChild--div" v-for="item in typeIteration" :key="item" @click="getSimilarTypes(item)">
-                        <img class="appendChild--img" :src="typeInfo[item].img"/>
+                        <img :id='typeInfo[item].id' class="appendChild--img" :src="typeInfo[item].img"/>
                         <span>{{typeInfo[item].text}}</span>
                       </div>
                     </div>
