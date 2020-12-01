@@ -73,6 +73,7 @@ Vue.component("appMenu", {
     //index html დასაწყისი
     var bg_menu = document.getElementsByClassName("bg_menu");
     var app_start = document.getElementsByClassName("app-start");
+    var app_sections = document.getElementsByClassName("app-sections");
     var app_select = document.getElementsByClassName("app-select");
     var circles_number_pink = document.getElementsByClassName("circles_number-pink");
     var top_bar = document.getElementsByClassName("top-bar");
@@ -123,6 +124,9 @@ Vue.component("appMenu", {
       }
       if (app_start[0]) {
         app_start[0].classList.add("new_btn-start_black_btn");
+      }
+      if (app_sections[0]) {
+        app_sections[0].classList.add("new_btn-start_black_btn");
       }
       if (app_select[0]) {
         app_select[0].classList.add("new_btn-start_black_btn");
@@ -287,6 +291,9 @@ Vue.component("appMenu", {
         if (app_start[0]) {
           app_start[0].classList.add("new_btn-start_black_btn");
         }
+        if (app_sections[0]) {
+          app_sections[0].classList.add("new_btn-start_black_btn");
+        }
         if (app_select[0]) {
           app_select[0].classList.add("new_btn-start_black_btn");
         }
@@ -413,6 +420,9 @@ Vue.component("appMenu", {
         }
         if (app_start[0]) {
           app_start[0].classList.remove("new_btn-start_black_btn");
+        }
+        if (app_sections[0]) {
+          app_sections[0].classList.remove("new_btn-start_black_btn");
         }
         if (app_select[0]) {
           app_select[0].classList.remove("new_btn-start_black_btn");
@@ -833,6 +843,15 @@ Vue.component("appStart", {
       darkMode: false,
     };
   },
+  created(){
+    var theme = localStorage.getItem('theme')
+      if (theme == 'darck') {
+        this.darkMode = true
+      }
+      else {
+        this.darkMode = false
+      }
+  },
   watch: {
     isActive() {
       var theme = localStorage.getItem('theme')
@@ -1208,6 +1227,7 @@ Vue.component("appSections", {
   },
   data() {
     return {
+      darkMode: false,
       activeClass: {
         title: "",
         class: "",
@@ -1284,13 +1304,32 @@ Vue.component("appSections", {
       (x) => x !== null && !x.ignore
     );
   },
+  created(){
+    var theme = localStorage.getItem('theme')
+      if (theme == 'darck') {
+        this.darkMode = true
+      }
+      else {
+        this.darkMode = false
+      }
+  },
   watch: {
     isTypes(newValue, oldValue) {
       if (this.isTypes) {
-        // თუ უკან დაბრუნებას დააჭირა გაჭმინდოს მსავასი ტიპების მასივი
+        // თუ უკან დაბრუნებას დააჭირა გაწმინდოს მსავასი ტიპების მასივი
         this.dataByType = [];
       }
     },
+    isActive() {
+      console.log('watch', this.darkMode)
+      var theme = localStorage.getItem('theme')
+      if (theme == 'darck') {
+        this.darkMode = true
+      }
+      else {
+        this.darkMode = false
+      }
+    }
   },
   computed: {
     itClassText() {
@@ -1335,7 +1374,10 @@ Vue.component("appSections", {
             :duration="1000"
             mode="out-in"
             appear>
-            <div v-if="isActive" :class="'app-sections'" class="page-section">
+            <div v-if="isActive" class="page-section"
+                :class="[
+                  isActive && darkMode? 'app-sections new_btn-start_black_btn' : 'app-sections',
+                ]">
                 <transition
                   enter-active-class="animated fadeIn"
                   leave-active-class="animated fadeOut"
