@@ -67,6 +67,7 @@ Vue.component("appMenu", {
     var completed__btn = document.getElementsByClassName("completed__btn");
     var audioDownloadBbtnBlack = document.getElementsByClassName('audio-download__btn');
     var btnTextDark = document.getElementsByClassName('music-new-1-div-6-div-dot-text');
+    var btnDarkMode = document.getElementsByClassName('btnDarkMode');
     //btn index.html
     var new_btn_start = document.getElementsByClassName("new_btn-start");
     var newDesignSubjectQuestionItemTitle = document.getElementsByClassName("newDesign_subject_question_item-title");
@@ -100,6 +101,12 @@ Vue.component("appMenu", {
           btnTextDark[i].classList.add("completed__btn_black");
         }
       }
+      for(let i=0; i<btnDarkMode.length; i++){
+        if (btnDarkMode[i]) {
+          btnDarkMode[i].classList.add("completed__btn_black");
+        }
+      }
+      
       //btn index.html
       for (let i = 0; i < 16; i++) {
         if (new_btn_start[i]) {
@@ -217,6 +224,7 @@ Vue.component("appMenu", {
       var completed__btn = document.getElementsByClassName("completed__btn");
       var audioDownloadBbtnBlack = document.getElementsByClassName('audio-download__btn');
       var btnTextDark = document.getElementsByClassName('music-new-1-div-6-div-dot-text');
+      var btnDarkMode = document.getElementsByClassName('btnDarkMode');
       var current__pagination = document.getElementsByClassName("current__pagination");
       var pagination__prev__btn = document.getElementsByClassName("pagination__prev__btn");
       var pagination__next__btn = document.getElementsByClassName("pagination__next__btn");
@@ -287,6 +295,11 @@ Vue.component("appMenu", {
         for(let i=0; i<btnTextDark.length; i++){
           if (btnTextDark[i]) {
             btnTextDark[i].classList.add("completed__btn_black");
+          }
+        }
+        for(let i=0; i<btnDarkMode.length; i++){
+          if (btnDarkMode[i]) {
+            btnDarkMode[i].classList.add("completed__btn_black");
           }
         }
         //btn index.html
@@ -453,6 +466,11 @@ Vue.component("appMenu", {
         for(let i=0; i<btnTextDark.length; i++){
           if (btnTextDark[i]) {
             btnTextDark[i].classList.remove("completed__btn_black");
+          }
+        }
+        for(let i=0; i<btnDarkMode.length; i++){
+          if (btnDarkMode[i]) {
+            btnDarkMode[i].classList.remove("completed__btn_black");
           }
         }
         //btn index.html
