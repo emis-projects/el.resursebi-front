@@ -29,8 +29,8 @@ function game() {
 
 
     // listeners
-    completeBtn.addEventListener('click', () => this.completGame());
-    resetBtn.addEventListener('click', () => this.init());
+    // completeBtn.addEventListener('click', () => this.completGame());
+    // resetBtn.addEventListener('click', () => this.init());
 
 
 
