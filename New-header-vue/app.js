@@ -65,6 +65,7 @@ Vue.component("appMenu", {
     var theme = localStorage.getItem('theme')
     var reset__btn = document.getElementsByClassName("reset__btn");
     var completed__btn = document.getElementsByClassName("completed__btn");
+    var audioDownloadBbtnBlack = document.getElementsByClassName('audio-download__btnBlack');
     //btn index.html
     var new_btn_start = document.getElementsByClassName("new_btn-start");
     var newDesignSubjectQuestionItemTitle = document.getElementsByClassName("newDesign_subject_question_item-title");
@@ -89,6 +90,9 @@ Vue.component("appMenu", {
       }
       if (completed__btn[0]) {
         completed__btn[0].classList.add("completed__btn_black");
+      }
+      if(audioDownloadBbtnBlack[0]){
+        audioDownloadBbtnBlack[0].classList.add("completed__btn_black");
       }
       //btn index.html
       for (let i = 0; i < 16; i++) {
@@ -205,6 +209,7 @@ Vue.component("appMenu", {
     myFunction() {
       var reset__btn = document.getElementsByClassName("reset__btn");
       var completed__btn = document.getElementsByClassName("completed__btn");
+      var audioDownloadBbtnBlack = document.getElementsByClassName('audio-download__btnBlack');
       var current__pagination = document.getElementsByClassName("current__pagination");
       var pagination__prev__btn = document.getElementsByClassName("pagination__prev__btn");
       var pagination__next__btn = document.getElementsByClassName("pagination__next__btn");
@@ -268,6 +273,9 @@ Vue.component("appMenu", {
         }
         if (completed__btn[0]) {
           completed__btn[0].classList.add("completed__btn_black");
+        }
+        if(audioDownloadBbtnBlack[0]){
+          audioDownloadBbtnBlack[0].classList.add("completed__btn_black");
         }
         //btn index.html
         for (let i = 0; i < 16; i++) {
@@ -426,6 +434,9 @@ Vue.component("appMenu", {
         }
         if (completed__btn[0]) {
           completed__btn[0].classList.remove("completed__btn_black");
+        }
+        if(audioDownloadBbtnBlack[0]){
+          audioDownloadBbtnBlack[0].classList.remove("completed__btn_black");
         }
         //btn index.html
         for (let i = 0; i < 16; i++) {
