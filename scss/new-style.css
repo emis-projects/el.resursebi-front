@@ -6265,6 +6265,7 @@ section .arrow_up_down_downArrow img {
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
+  z-index: 1;
 }
 
 .ask_question_game .ask_question_game_box--sm:nth-child(4) .ask_question_game_box_number-img {
@@ -55024,3 +55025,4 @@ input:checked + .slider:before {
   margin-left: 12px;
   color: #c5cbcd;
 }
+/*# sourceMappingURL=new-style.css.map */

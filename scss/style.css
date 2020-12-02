@@ -6508,6 +6508,7 @@ section .arrow_up_down_downArrow img {
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
+  z-index: 1;
 }
 
 .ask_question_game .ask_question_game_box--sm:nth-child(4) .ask_question_game_box_number-img {
@@ -15800,3 +15801,4 @@ td img {
   display: -ms-flexbox;
   display: flex;
 }
+/*# sourceMappingURL=style.css.map */
