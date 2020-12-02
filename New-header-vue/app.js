@@ -65,7 +65,7 @@ Vue.component("appMenu", {
     var theme = localStorage.getItem('theme')
     var reset__btn = document.getElementsByClassName("reset__btn");
     var completed__btn = document.getElementsByClassName("completed__btn");
-    var audioDownloadBbtnBlack = document.getElementsByClassName('audio-download__btnBlack');
+    var audioDownloadBbtnBlack = document.getElementsByClassName('audio-download__btn');
     //btn index.html
     var new_btn_start = document.getElementsByClassName("new_btn-start");
     var newDesignSubjectQuestionItemTitle = document.getElementsByClassName("newDesign_subject_question_item-title");
@@ -209,7 +209,7 @@ Vue.component("appMenu", {
     myFunction() {
       var reset__btn = document.getElementsByClassName("reset__btn");
       var completed__btn = document.getElementsByClassName("completed__btn");
-      var audioDownloadBbtnBlack = document.getElementsByClassName('audio-download__btnBlack');
+      var audioDownloadBbtnBlack = document.getElementsByClassName('audio-download__btn');
       var current__pagination = document.getElementsByClassName("current__pagination");
       var pagination__prev__btn = document.getElementsByClassName("pagination__prev__btn");
       var pagination__next__btn = document.getElementsByClassName("pagination__next__btn");
