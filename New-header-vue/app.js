@@ -65,9 +65,11 @@ Vue.component("appMenu", {
     var theme = localStorage.getItem('theme')
     var reset__btn = document.getElementsByClassName("reset__btn");
     var completed__btn = document.getElementsByClassName("completed__btn");
+    var audioDownloadBbtnBlack = document.getElementsByClassName('audio-download__btnBlack');
     //btn index.html
     var new_btn_start = document.getElementsByClassName("new_btn-start");
     var newDesignSubjectQuestionItemTitle = document.getElementsByClassName("newDesign_subject_question_item-title");
+    var pDarkMode = document.getElementsByClassName("pDarkMode");
     var algorithme_title_italic = document.getElementsByClassName("algorithme-title-italic");
     var newDesign_container_main_title = document.getElementsByClassName("newDesign_container_main_title");
     //index html დასაწყისი
@@ -89,6 +91,9 @@ Vue.component("appMenu", {
       if (completed__btn[0]) {
         completed__btn[0].classList.add("completed__btn_black");
       }
+      if(audioDownloadBbtnBlack[0]){
+        audioDownloadBbtnBlack[0].classList.add("completed__btn_black");
+      }
       //btn index.html
       for (let i = 0; i < 16; i++) {
         if (new_btn_start[i]) {
@@ -101,9 +106,14 @@ Vue.component("appMenu", {
       this.isDark = true
       //ტეგები
       //P
-      for (let i = 0; i < 8; i++) {
+      for (let i = 0; i < newDesignSubjectQuestionItemTitle.length; i++) {
         if (newDesignSubjectQuestionItemTitle[i]) {
           newDesignSubjectQuestionItemTitle[i].classList.add("newDesign_subject_question_item-title_black_P");
+        }
+      }
+      for (let i = 0; i < pDarkMode.length; i++) {
+        if (pDarkMode[i]) {
+          pDarkMode[i].classList.add("newDesign_subject_question_item-title_black_P");
         }
       }
       //H
@@ -199,6 +209,7 @@ Vue.component("appMenu", {
     myFunction() {
       var reset__btn = document.getElementsByClassName("reset__btn");
       var completed__btn = document.getElementsByClassName("completed__btn");
+      var audioDownloadBbtnBlack = document.getElementsByClassName('audio-download__btnBlack');
       var current__pagination = document.getElementsByClassName("current__pagination");
       var pagination__prev__btn = document.getElementsByClassName("pagination__prev__btn");
       var pagination__next__btn = document.getElementsByClassName("pagination__next__btn");
@@ -224,6 +235,7 @@ Vue.component("appMenu", {
       //ტეგები
       //P
       var newDesignSubjectQuestionItemTitle = document.getElementsByClassName("newDesign_subject_question_item-title");
+      var pDarkMode = document.getElementsByClassName("pDarkMode");
       //H
       var algorithme_title_italic = document.getElementsByClassName("algorithme-title-italic");
       var newDesign_container_main_title = document.getElementsByClassName("newDesign_container_main_title");
@@ -262,6 +274,9 @@ Vue.component("appMenu", {
         if (completed__btn[0]) {
           completed__btn[0].classList.add("completed__btn_black");
         }
+        if(audioDownloadBbtnBlack[0]){
+          audioDownloadBbtnBlack[0].classList.add("completed__btn_black");
+        }
         //btn index.html
         for (let i = 0; i < 16; i++) {
           if (new_btn_start[i]) {
@@ -283,9 +298,14 @@ Vue.component("appMenu", {
         this.isDark = true
         //ტეგები
         //p
-        for (let i = 0; i < 8; i++) {
+        for (let i = 0; i < newDesignSubjectQuestionItemTitle.length; i++) {
           if (newDesignSubjectQuestionItemTitle[i]) {
             newDesignSubjectQuestionItemTitle[i].classList.add("newDesign_subject_question_item-title_black_P");
+          }
+        }
+        for (let i = 0; i < pDarkMode.length; i++) {
+          if (pDarkMode[i]) {
+            pDarkMode[i].classList.add("newDesign_subject_question_item-title_black_P");
           }
         }
         // for(let i=0; i<11; i++){
@@ -415,6 +435,9 @@ Vue.component("appMenu", {
         if (completed__btn[0]) {
           completed__btn[0].classList.remove("completed__btn_black");
         }
+        if(audioDownloadBbtnBlack[0]){
+          audioDownloadBbtnBlack[0].classList.remove("completed__btn_black");
+        }
         //btn index.html
         for (let i = 0; i < 16; i++) {
           if (new_btn_start[i]) {
@@ -435,9 +458,14 @@ Vue.component("appMenu", {
         this.isDark = false
         //ტეგები
         //P
-        for (let i = 0; i < 8; i++) {
+        for (let i = 0; i < newDesignSubjectQuestionItemTitle.length; i++) {
           if (newDesignSubjectQuestionItemTitle[i]) {
             newDesignSubjectQuestionItemTitle[i].classList.remove("newDesign_subject_question_item-title_black_P");
+          }
+        }
+        for (let i = 0; i < pDarkMode.length; i++) {
+          if (pDarkMode[i]) {
+            pDarkMode[i].classList.remove("newDesign_subject_question_item-title_black_P");
           }
         }
         // for(let i=0; i<11; i++){
