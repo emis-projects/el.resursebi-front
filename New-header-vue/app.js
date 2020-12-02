@@ -66,6 +66,7 @@ Vue.component("appMenu", {
     var reset__btn = document.getElementsByClassName("reset__btn");
     var completed__btn = document.getElementsByClassName("completed__btn");
     var audioDownloadBbtnBlack = document.getElementsByClassName('audio-download__btn');
+    var btnTextDark = document.getElementsByClassName('music-new-1-div-6-div-dot-text');
     //btn index.html
     var new_btn_start = document.getElementsByClassName("new_btn-start");
     var newDesignSubjectQuestionItemTitle = document.getElementsByClassName("newDesign_subject_question_item-title");
@@ -93,6 +94,11 @@ Vue.component("appMenu", {
       }
       if(audioDownloadBbtnBlack[0]){
         audioDownloadBbtnBlack[0].classList.add("completed__btn_black");
+      }
+      for(let i=0; i<btnTextDark.length; i++){
+        if (btnTextDark[i]) {
+          btnTextDark[i].classList.add("completed__btn_black");
+        }
       }
       //btn index.html
       for (let i = 0; i < 16; i++) {
@@ -210,6 +216,7 @@ Vue.component("appMenu", {
       var reset__btn = document.getElementsByClassName("reset__btn");
       var completed__btn = document.getElementsByClassName("completed__btn");
       var audioDownloadBbtnBlack = document.getElementsByClassName('audio-download__btn');
+      var btnTextDark = document.getElementsByClassName('music-new-1-div-6-div-dot-text');
       var current__pagination = document.getElementsByClassName("current__pagination");
       var pagination__prev__btn = document.getElementsByClassName("pagination__prev__btn");
       var pagination__next__btn = document.getElementsByClassName("pagination__next__btn");
@@ -276,6 +283,11 @@ Vue.component("appMenu", {
         }
         if(audioDownloadBbtnBlack[0]){
           audioDownloadBbtnBlack[0].classList.add("completed__btn_black");
+        }
+        for(let i=0; i<btnTextDark.length; i++){
+          if (btnTextDark[i]) {
+            btnTextDark[i].classList.add("completed__btn_black");
+          }
         }
         //btn index.html
         for (let i = 0; i < 16; i++) {
@@ -437,6 +449,11 @@ Vue.component("appMenu", {
         }
         if(audioDownloadBbtnBlack[0]){
           audioDownloadBbtnBlack[0].classList.remove("completed__btn_black");
+        }
+        for(let i=0; i<btnTextDark.length; i++){
+          if (btnTextDark[i]) {
+            btnTextDark[i].classList.remove("completed__btn_black");
+          }
         }
         //btn index.html
         for (let i = 0; i < 16; i++) {
