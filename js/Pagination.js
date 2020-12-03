@@ -13,6 +13,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     let pageId = parseInt(finalyResult);
     $('html').attr('pageid', pageId);
 
+    console.log('json')
     createDots(json);
 
     $('.pagination__item--el').mouseenter(function () {
