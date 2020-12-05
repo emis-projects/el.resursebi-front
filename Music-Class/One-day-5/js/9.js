@@ -104,7 +104,7 @@ function game() {
         let answer = array.every(this.checkEveryElement)
 
         if(answer){
-            location.href = "game-success-10.html"
+            location.href = "game-success-9.html"
 
         } else {
             this.errors()
