@@ -96,11 +96,11 @@ function musicGames() {
             if (window.location.href.includes("5.html")) {
                 location.href = 'game-success-5.html';
             }
-            if (window.location.href.includes("16.html")) {
-                location.href = 'game-success-16.html';
+            if (window.location.href.includes("15.html")) {
+                location.href = 'game-success-15.html';
             }
-            if (window.location.href.includes("12.html")) {
-                location.href = 'game-success-12.html';
+            if (window.location.href.includes("11.html")) {
+                location.href = 'game-success-11.html';
             }
         }
         else {
