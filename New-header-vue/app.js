@@ -172,9 +172,9 @@ Vue.component("appMenu", {
 
 
       window.addEventListener('DOMContentLoaded', () => {
-        $('#prime').css('background-image', 'url(/el.resursebi-front/Vue-chatBot/img/chat01.png)');
-        $('.lang-box_passive').css('background-image', 'url(/el.resursebi-front/New-header-vue/header-img/eng01.png)');
-        $('.menu_box_passive').css('background-image', 'url(/el.resursebi-front/New-header-vue/header-img/menu01.png)');
+        $('#prime').css('background-image', 'url(../../Vue-chatBot/img/chat01.png)');
+        $('.lang-box_passive').css('background-image', 'url(../../New-header-vue/header-img/eng01.png)');
+        $('.menu_box_passive').css('background-image', 'url(../../New-header-vue/header-img/menu01.png)');
 
         //botApp
         if (document.getElementById("Rectangle_1414-2")) {
@@ -405,10 +405,11 @@ Vue.component("appMenu", {
         }
 
         //icons
-        $('#prime').css('background-image', 'url(/el.resursebi-front/Vue-chatBot/img/chat01.png)');
-        $('.lang-box_passive').css('background-image', 'url(/el.resursebi-front/New-header-vue/header-img/eng01.png)');
-        $('.menu_box_passive').css('background-image', 'url(/el.resursebi-front/New-header-vue/header-img/menu01.png)');
-        $('.menu_box_active').css('background-image', 'url(/el.resursebi-front/New-header-vue/header-img/menu01.png)');
+        //$('#prime').css('background-image', 'url(/el.resursebi-front/Vue-chatBot/img/chat01.png)');
+        $('#prime').css('background-image', 'url(../../Vue-chatBot/img/chat01.png)');
+        $('.lang-box_passive').css('background-image', 'url(../../New-header-vue/header-img/eng01.png)');
+        $('.menu_box_passive').css('background-image', 'url(../../New-header-vue/header-img/menu01.png)');
+        $('.menu_box_active').css('background-image', 'url(../../New-header-vue/header-img/menu01.png)');
         //
 
         if (document.getElementById("3_xelovneba")) {
