@@ -1589,7 +1589,7 @@ Vue.component("appSections", {
                   mode="out-in"
                   appear>
                   <p v-if="isTypes" key="title"  class="app-select_title">{{ activeClass.title  }} > {{itClassText}}<span>{{activeTitle}}</span></p>
-                  <p v-else key="back"  class="app-select_title" @click="isTypes = !isTypes">< უკან</p>
+                  <p v-else key="back"  class="app-select_title app-select_title-pointer" @click="isTypes = !isTypes">< უკან</p>
                 </transition>
                 <transition
                   enter-active-class="animated fadeIn"
