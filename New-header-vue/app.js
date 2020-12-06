@@ -1,4 +1,64 @@
 const index = document.getElementById("index");
+
+
+//DARK_MODE მინიშნებისთვის
+var theme = localStorage.getItem('theme')
+var newDesign_container_main_title = document.getElementsByClassName("newDesign_container_main_title");
+var newDesignSubjectQuestionItemTitle = document.getElementsByClassName("newDesign_subject_question_item-title");
+var pDarkMode = document.getElementsByClassName("pDarkMode");
+var current__pagination = document.getElementsByClassName("current__pagination");
+var pagination__prev__btn = document.getElementsByClassName("pagination__prev__btn");
+var pagination__next__btn = document.getElementsByClassName("pagination__next__btn");
+console.log('aaaqqq')
+if (theme == 'darck') {
+  var element = document.body;
+  element.style.backgroundColor = "black";
+  if (document.getElementById("Rectangle_1414-2")) {
+    document.getElementById("Rectangle_1414-2").style.fill = "#000000";
+  }
+  if (document.getElementById("Path_12243-7")) {
+    document.getElementById("Path_12243-7").style.fill = "#000000";
+  }
+  if (document.getElementById("Path_12243-8")) {
+    document.getElementById("Path_12243-8").style.fill = "#000000";
+  }
+  if (document.getElementById("Path_12243-6")) {
+    document.getElementById("Path_12243-6").style.fill = "#000000";
+  }
+  if (document.getElementById("Path_12243-10")) {
+    document.getElementById("Path_12243-10").style.fill = "#000000";
+  }
+  if (document.getElementById("Path_12243-9")) {
+    document.getElementById("Path_12243-9").style.fill = "#000000";
+  }
+  window.addEventListener('DOMContentLoaded', () => {
+    $('#prime').css('background-image', 'url(../../Vue-chatBot/img/chat01.png)');
+  });
+  if (newDesign_container_main_title[0]) {
+    newDesign_container_main_title[0].classList.add("newDesign_subject_question_item-title_black_P");
+  }
+  for (let i = 0; i < newDesignSubjectQuestionItemTitle.length; i++) {
+    if (newDesignSubjectQuestionItemTitle[i]) {
+      newDesignSubjectQuestionItemTitle[i].classList.add("newDesign_subject_question_item-title_black_P");
+    }
+  }
+  for (let i = 0; i < pDarkMode.length; i++) {
+    if (pDarkMode[i]) {
+      pDarkMode[i].classList.add("newDesign_subject_question_item-title_black_P");
+    }
+  }
+  if (current__pagination[0]) {
+    current__pagination[0].classList.add("pagination_black");
+  }
+  if (pagination__prev__btn[0]) {
+    pagination__prev__btn[0].classList.add("pagination_black");
+  }
+  if (pagination__next__btn[0]) {
+    pagination__next__btn[0].classList.add("pagination_black");
+  }
+}
+
+
 // directive გადაემა html კომპონენტში
 Vue.directive("logo", {
   bind: function (el, binding, vnode) {
