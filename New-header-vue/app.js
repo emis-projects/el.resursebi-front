@@ -94,26 +94,26 @@ Vue.component("appMenu", {
       if (completed__btn[0]) {
         completed__btn[0].classList.add("completed__btn_black");
       }
-      if(audioDownloadBbtnBlack[0]){
+      if (audioDownloadBbtnBlack[0]) {
         audioDownloadBbtnBlack[0].classList.add("completed__btn_black");
       }
-      for(let i=0; i<btnTextDark.length; i++){
+      for (let i = 0; i < btnTextDark.length; i++) {
         if (btnTextDark[i]) {
           btnTextDark[i].classList.add("completed__btn_black");
         }
       }
-      for(let i=0; i<btnDarkMode.length; i++){
+      for (let i = 0; i < btnDarkMode.length; i++) {
         if (btnDarkMode[i]) {
           btnDarkMode[i].classList.add("completed__btn_black");
         }
       }
-      for(let i=0; i<sign_description_btn.length; i++){
+      for (let i = 0; i < sign_description_btn.length; i++) {
         if (sign_description_btn[i]) {
           sign_description_btn[i].classList.add("completed__btn_black");
         }
       }
       sign_description_btn
-      
+
       //btn index.html
       for (let i = 0; i < 16; i++) {
         if (new_btn_start[i]) {
@@ -296,20 +296,20 @@ Vue.component("appMenu", {
         if (completed__btn[0]) {
           completed__btn[0].classList.add("completed__btn_black");
         }
-        if(audioDownloadBbtnBlack[0]){
+        if (audioDownloadBbtnBlack[0]) {
           audioDownloadBbtnBlack[0].classList.add("completed__btn_black");
         }
-        for(let i=0; i<btnTextDark.length; i++){
+        for (let i = 0; i < btnTextDark.length; i++) {
           if (btnTextDark[i]) {
             btnTextDark[i].classList.add("completed__btn_black");
           }
         }
-        for(let i=0; i<btnDarkMode.length; i++){
+        for (let i = 0; i < btnDarkMode.length; i++) {
           if (btnDarkMode[i]) {
             btnDarkMode[i].classList.add("completed__btn_black");
           }
         }
-        for(let i=0; i<sign_description_btn.length; i++){
+        for (let i = 0; i < sign_description_btn.length; i++) {
           if (sign_description_btn[i]) {
             sign_description_btn[i].classList.add("completed__btn_black");
           }
@@ -405,7 +405,6 @@ Vue.component("appMenu", {
         }
 
         //icons
-        //$('#prime').css('background-image', 'url(/el.resursebi-front/Vue-chatBot/img/chat01.png)');
         $('#prime').css('background-image', 'url(../../Vue-chatBot/img/chat01.png)');
         $('.lang-box_passive').css('background-image', 'url(../../New-header-vue/header-img/eng01.png)');
         $('.menu_box_passive').css('background-image', 'url(../../New-header-vue/header-img/menu01.png)');
@@ -473,20 +472,20 @@ Vue.component("appMenu", {
         if (completed__btn[0]) {
           completed__btn[0].classList.remove("completed__btn_black");
         }
-        if(audioDownloadBbtnBlack[0]){
+        if (audioDownloadBbtnBlack[0]) {
           audioDownloadBbtnBlack[0].classList.remove("completed__btn_black");
         }
-        for(let i=0; i<btnTextDark.length; i++){
+        for (let i = 0; i < btnTextDark.length; i++) {
           if (btnTextDark[i]) {
             btnTextDark[i].classList.remove("completed__btn_black");
           }
         }
-        for(let i=0; i<btnDarkMode.length; i++){
+        for (let i = 0; i < btnDarkMode.length; i++) {
           if (btnDarkMode[i]) {
             btnDarkMode[i].classList.remove("completed__btn_black");
           }
         }
-        for(let i=0; i<sign_description_btn.length; i++){
+        for (let i = 0; i < sign_description_btn.length; i++) {
           if (sign_description_btn[i]) {
             sign_description_btn[i].classList.remove("completed__btn_black");
           }
