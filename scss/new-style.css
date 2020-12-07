@@ -55030,3 +55030,6 @@ input:checked + .slider:before {
   color: #c5cbcd;
 }
 /*# sourceMappingURL=new-style.css.map */
+.img_background_white{
+  background: white;
+}

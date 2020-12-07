@@ -145,6 +145,8 @@ Vue.component("appMenu", {
     var top_bar = document.getElementsByClassName("top-bar");
     var img = $('.menu_box_passive').css('background-image');
     var nabiji = document.getElementsByClassName('newDesign_steps_item-img');
+    //სურათის ფერები რომლებიც შავზე არ ჩანს
+    var imgBackgroundWhite = document.getElementsByClassName('imgBackgroundWhite');
 
 
     if (theme == 'darck') {
@@ -173,8 +175,12 @@ Vue.component("appMenu", {
           sign_description_btn[i].classList.add("completed__btn_black");
         }
       }
-      sign_description_btn
-
+      for (let i = 0; i < imgBackgroundWhite.length; i++) {
+        if (imgBackgroundWhite[i]) {
+          imgBackgroundWhite[i].classList.add("img_background_white");
+        }
+      }
+      
       //btn index.html
       for (let i = 0; i < 16; i++) {
         if (new_btn_start[i]) {
@@ -312,6 +318,8 @@ Vue.component("appMenu", {
       var Rectangle_1414_2 = document.getElementById("Rectangle_1414-2");
       var nabiji = document.getElementsByClassName('newDesign_steps_item-img');
       var appendChild_img = document.getElementsByClassName('appendChild--img');
+      //სურათის ფერები რომლებიც შავზე არ ჩანს
+      var imgBackgroundWhite = document.getElementsByClassName('imgBackgroundWhite');
 
 
 
@@ -379,6 +387,11 @@ Vue.component("appMenu", {
         for (let i = 0; i < 16; i++) {
           if (new_btn_start[i]) {
             new_btn_start[i].classList.add("new_btn-start_black_btn");
+          }
+        }
+        for (let i = 0; i < imgBackgroundWhite.length; i++) {
+          if (imgBackgroundWhite[i]) {
+            imgBackgroundWhite[i].classList.add("img_background_white");
           }
         }
         // ფეიჯინგი
@@ -555,6 +568,11 @@ Vue.component("appMenu", {
         for (let i = 0; i < 16; i++) {
           if (new_btn_start[i]) {
             new_btn_start[i].classList.remove("new_btn-start_black_btn");
+          }
+        }
+        for (let i = 0; i < imgBackgroundWhite.length; i++) {
+          if (imgBackgroundWhite[i]) {
+            imgBackgroundWhite[i].classList.add("img_background_white");
           }
         }
         if (current__pagination[0]) {
