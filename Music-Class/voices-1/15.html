@@ -1,19 +1,22 @@
 <!DOCTYPE html>
-<html data-botid="2292" lang="ka">
+<!-- ბოტის აიდიში ვუთითებთ: ხელოვნების - 2318, ბუნების - 2320, მუსიკის - 2292 -->
+<html lang="ka" data-botid="2292">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta content="ie=edge" http-equiv="X-UA-Compatible" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
     <script src="../../js/vue.js"></script>
-    <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
     <!--  ვუე გაშვებისას
-    <script src="./js/vue.min.js"></script>
-     -->
-    <link href="../../scss/libraries/bootstrap.min.css" rel="stylesheet">
-    <link href="../../New-header-vue/animate.min.css" rel="stylesheet">
-    <link href="../../scss/new-style.css" rel="stylesheet" />
-    <link href="../../scss/components_style.css" rel="stylesheet" />
+        <script src="./js/vue.min.js"></script>
+         -->
+    <link rel="stylesheet" type="text/css" href="../../scss/libraries/owl.carousel.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../../scss/libraries/owl.theme.default.css"/>
+    <link rel="stylesheet" href="../../New-header-vue/animate.min.css">
+    <link rel="stylesheet" href="../../scss/libraries/bootstrap.min.css">
+    <link rel="stylesheet" href="../../scss/libraries/magnific-popup.css">
+    <link href="../../scss/new-style.css" rel="stylesheet"/>
+    <link href="../../scss/new-style.css" rel="stylesheet"/>
     <title>ელექტრონული საგანმანათლებლო რესურსი</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
@@ -26,93 +29,207 @@
 
         gtag('js', new Date());
 
-        gtag('config', 'UA-155006442-1');
-    </script>
+    gtag('config', 'UA-155006442-1');
+  </script>
 </head>
 
 <body>
-    <div class="container">
-        <section class="container position-absolute" id="app">
-            <header>
-                <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../'"></app-menu>
-            </header>
+  <div class="container">
+    <section id="app" class="container position-absolute">
+        <header>
+            <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../'"></app-menu>
+        </header>
 
-            <app-section :is-active="isActive" :is-info="isInfo" v-image="'../../'">
-                <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger" v-on:link-tab="link = $event">
+        <app-section :is-active="isActive" :is-info="isInfo" v-image="'../../'">
+            <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger"
+                     v-on:link-tab="link = $event">
 
-                </app-bar>
-                <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive" :is-info="isInfo" :path="path" :tab-class="currentTabComponent" :trigger="trigger">
-                </component>
+            </app-bar>
+            <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive"
+                       :is-info="isInfo"
+                       :path="path" :tab-class="currentTabComponent" :trigger="trigger">
+            </component>
 
-            </app-section>
-        </section>
-        <section id="mainPage">
-            <div class="row mt-10vh">
-                <div class="col-10 m-auto">
-                    <div class="newDesign_subject_question_item">
-                        <img alt="img" class="newDesign_subject_question_item-img" src="../../img/icons/newDesign_btn-yellow.svg">
-                        <p class="newDesign_subject_question_item-title">
-                            პარკებით გამოწვეული განწყობის მუსიკალური ფრაგმენტები შეიტანე პროგრამაში „ვსწავლობთ მუსიკით“ და დაალაგე ისინი იმ თანმიმდევრობით, როგორითაც სურათებია მოცემული.
-                        </p>
+        </app-section>
+    </section>
+    <section id="mainPage">
+      <div class="row">
+        <div class="col-10 m-auto">
+          <div class="newDesign_subject_question_item">
+              <img alt="img" class="newDesign_subject_question_item-img" src="../../img/icons/newDesign_btn-yellow.svg">
+              <p class="newDesign_subject_question_item-title">
+                შენ შეურჩიე თითოეულ სურათს სათანადო განწყობის მუსიკალური ფრაგმენტი. ახლა კი შეურჩიე ცალკეულ ატრაქციონს <a href="15-1.html" class="a-blue">მუსიკალური დახასიათება.</a>მოსასმენად დააწკაპე ფერად ნოტებს, შემდეგ კი დაუკავშირე შესაბამის სურათს.         
+              </p>
+           </div>
+
+          </div>
+        </div>
+          <div class="row d-flex justify-content-between ">
+            <div class="col-3 music-new-1-div-5-col  d-flex justify-content-center ">
+              <div class=" portfolio-item-container portfolio-item-container_newDesign  music-new-1-div-5">
+                <img src="../../img/gakvetilebi/Music-class/voices-1/music-1-16-1.png"
+                     class="portfolio-item-container_img music-new-1-div-5-img "/>
+                <div class="paging_buttons">
+                  <a href="" id="slide1" class="paging_buttons_fullScreen-link" data-toggle="modal"
+                    data-target="#exampleModal"><img src="../../img/icons/arrows_blue.svg"
+                                                     class="paging_buttons_fullScreen-img" /></a>
+                </div>
+              </div>
+            <div class="music-new-1-div-5-img-circle mt-5vh myDrag" data-place="1"></div>
+          </div>
+            <div class="col-3 music-new-1-div-5-col  d-flex justify-content-center">
+              <div class="portfolio-item-container portfolio-item-container_newDesign  music-new-1-div-5">
+                <img src="../../img/gakvetilebi/Music-class/voices-1/music-1-16-2.png"
+                     class="portfolio-item-container_img music-new-1-div-5-img "/>
+                <div class="paging_buttons">
+                  <a href="" id="slide2" class="paging_buttons_fullScreen-link" data-toggle="modal"
+                    data-target="#exampleModal"><img src="../../img/icons/arrows_blue.svg"
+                                                     class="paging_buttons_fullScreen-img" /></a>
+                </div>
+              </div>
+              <div class="music-new-1-div-5-img-circle mt-5vh myDrag" data-place="2"></div>
+            </div>
+            <div class="col-3 music-new-1-div-5-col  d-flex justify-content-center">
+              <div class="portfolio-item-container portfolio-item-container_newDesign  music-new-1-div-5">
+                <img src="../../img/gakvetilebi/Music-class/voices-1/music-1-16-3.png"
+                     class="portfolio-item-container_img music-new-1-div-5-img "/>
+                <div class="paging_buttons">
+                  <a href="" id="slide3" class="paging_buttons_fullScreen-link" data-toggle="modal"
+                    data-target="#exampleModal"><img src="../../img/icons/arrows_blue.svg"
+                                                     class="paging_buttons_fullScreen-img" /></a>
+                </div>
+              </div>
+              <div class="music-new-1-div-5-img-circle mt-5vh myDrag" data-place="3"></div>
+            </div>
+
+            <div class="col-5 d-flex offset-3 mt-10vh justify-content-between music-new-1-div-5-icons DragGameResetParent">
+              <img data-end="1" data-place="2" data-voice="./game-voices/სლაიდი 20/სურათი 1.wav" class="listen--btn DragGame--childs1" src="../../img/gakvetilebi/Music-class/voices-1/music-new-01-5-icon-1.svg"/>
+              <img data-end="1" data-place="3" data-voice="./game-voices/სლაიდი 20/სურათი 2.wav" class="listen--btn DragGame--childs1" src="../../img/gakvetilebi/Music-class/voices-1/music-new-01-5-icon-2.svg"/>
+              <img data-end="1" data-place="1" data-voice="./game-voices/სლაიდი 20/სურათი 3.wav" class="listen--btn DragGame--childs1" src="../../img/gakvetilebi/Music-class/voices-1/music-new-01-5-icon-3.svg"/>
+            </div>
+          </div>
+      <!-- Modal -->
+      <div class="modal fade fullScreen_modal-fade" id="exampleModal" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog fullScreen_modal-dialog" role="document">
+          <div class="modal-content fullScreen_modal-content">
+            <div class="container modal-header fullScreen_modal-header">
+              <a aria-label="Close" class="close" data-dismiss="modal" href="5.html">
+                <img src="../../img/icons/close.svg" alt="close" />
+              </a>
+            </div>
+            <div class="modal-body fullScreen_modal-body">
+              <div class="container-fluid">
+                <div class="owl-carousel owl-theme row no-gutters portfolio-slider portfolio-slider-music-new-1-5">
+                  <div class="item col-12 slide_content-box">
+                    <div>
+                      <div class="fullScreen_modal-img-lg-hor  music-new-1-div-5-fullscreen-modal">
+                        <img src="../../img/gakvetilebi/Music-class/voices-1/music-new-01-5-1.png"/>
+                      </div>
                     </div>
+                  </div>
+                  <div class="item col-12 slide_content-box">
+                    <div>
+                      <div class="fullScreen_modal-img-lg-hor  music-new-1-div-5-fullscreen-modal">
+                        <img src="../../img/gakvetilebi/Music-class/voices-1/music-new-01-5-2.png"/>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item col-12 slide_content-box">
+                    <div>
+                      <div class="fullScreen_modal-img-lg-hor  music-new-1-div-5-fullscreen-modal">
+                        <img src="../../img/gakvetilebi/Music-class/voices-1/music-new-01-5-3.png"/>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item col-12 slide_content-box">
+                    <div>
+                      <div class="fullScreen_modal-img-lg-hor  music-new-1-div-5-fullscreen-modal ">
+                        <img src="../../img/gakvetilebi/Music-class/voices-1/music-new-01-5-4.png"/>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div class="col-12 music-new-15-div music-new-1-15-img d-flex justify-content-between mt-7vh">
-                    <img src="../../img/gakvetilebi/Music-class/voices-1/music-1-15-1.png" alt="image" class="music-new-1-15-div-img-1  ml-2vh">
-                    <img src="../../img/gakvetilebi/Music-class/voices-1/music-1-15-2.png" alt="image" class="music-new-1-15-div-img-2  ml-2vh">
-                    <img src="../../img/gakvetilebi/Music-class/voices-1/music-1-15-3.png" alt="image" class="music-new-1-15-div-img-3  ml-2vh">
-                    <img src="../../img/gakvetilebi/Music-class/voices-1/music-1-15-4.png" alt="image" class="music-new-1-15-div-img-4  ml-2vh">
-                </div>
+              </div>
             </div>
+          </div>
+        </div>
+      </div>
 
-            <div class="left_components_paging-cont" id="leftNav">
-                <left-nav-item></left-nav-item>
-            </div>
-
-            <div class="our__pagination flex">
-                <a class="pagination__prev__btn" href="#">
-                    <img alt="" src="../../img/icons/chevron-left-icon.svg" style="transform: rotate(180deg)">
-                </a>
-
-                <div class="flex align-items-center" id="pagination"></div>
-
-                <a class="pagination__next__btn" href="#">
-                    <img alt="" src="../../img/icons/chevron-left-icon.svg">
-                </a>
-            </div>
-
-
-                        <!-- აუდიოების გადმოწერის ღილაკი -->
-                        <div class="col-3 flex flex-end column align-items-end z-index audio-download_wrapper">
-                            <div class="d-flex flex-column">
-                                <a href="downloadable-audios/ქალაქისა და სოფლის ხმები (გვ. 15).zip" class="audio-download__btn">გადმოწერა</a>
-                            </div>
-                        </div>
-
-
-
-        </section>
+      <div class="left_components_paging-cont" id="leftNav">
+        <left-nav-item></left-nav-item>
     </div>
 
+    <div class="col-3 flex flex-end column align-items-end z-index reload_game_wrapper">
+      <div class="d-flex flex-column">
+          <button class="reset__btn" id="resetBtn">თავიდან სცადე</button>
+          <button class="completed__btn" id="completedGame">დასრულება</button>
+      </div>
+  </div>
 
-    <!-- ჩეთბოტი -->
-    <div id="chatBot">
-        <app-bot></app-bot>
+    <div class="left_components_paging-cont" id="leftNav">
+      <left-nav-item></left-nav-item>
     </div>
+    <div class="our__pagination flex">
+      <a class="pagination__prev__btn" href="#">
+        <img alt="" src="../../img/icons/chevron-left-icon.svg" style="transform: rotate(180deg)">
+      </a>
+      <div class="flex align-items-center" id="pagination"></div>
+      <a class="pagination__next__btn" href="#">
+        <img alt="" src="../../img/icons/chevron-left-icon.svg">
+      </a>
+    </div>
+    </section>
+  </div>
 
-    <script src="../../js/libraries/jquery-3.4.1.min.js"></script>
-    <script src="../../js/libraries/jquery.magnific-popup.min.js"></script>
-    <script src="../../js/Pagination.js"></script>
-    <script src="../../js/libraries/sound.js"></script>
 
-    <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
-    <script src="../../New-header-vue/vis.js"></script>
-<!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
+  <!-- ჩეთბოტი -->
+  <div id="chatBot">
+    <app-bot></app-bot>
+  </div>
+
+  <script src="../../js/libraries/jquery-3.4.1.min.js"></script>
+  <script src="../../js/libraries/jquery.magnific-popup.min.js"></script>
+  <script src="../../js/libraries/owl.carousel.min.js"></script>
+  <script src="../../js/libraries/bootstrap.min.js"></script>
+  <script src="../../js/Pagination.js"></script>
+  <script src="./game-voices/სლაიდი 20/სურათი 3.wav"></script>
+  <script src="../../js/libraries/sound.js"></script>
+
+  <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
     <script src="../../New-header-vue/vis.js"></script>
     <script src="../../New-header-vue/app.js"></script>
-    <script src="../../Vue-chatBot/botApp.js"></script>
-    <script src="../../js/bot.js"></script>
+  <script src="../../Vue-chatBot/botApp.js"></script>
+  <script src="../../js/bot.js"></script>
+  <script src="./js/5-12-16.js"></script>
 
 
+  <script>
+    var owl = $(".owl-carousel");
+    owl.owlCarousel({
+      loop: true,
+      nav: false,
+      dots: true,
+      margin: 10,
+      items: 1,
+      autoplay: false,
+      autoHeight: true,
+      autoplayTimeout: 4000,
+      autoplayHoverPause: true
+    });
+    $(document).on("click", "#slide1", function () {
+      owl.trigger("to.owl.carousel", 0);
+    });
+    $(document).on("click", "#slide2", function () {
+      owl.trigger("to.owl.carousel", 1);
+    });
+    $(document).on("click", "#slide3", function () {
+      owl.trigger("to.owl.carousel", 2);
+    });
+    $(document).on("click", "#slide4", function () {
+      owl.trigger("to.owl.carousel", 3);
+    });
+  </script>
 </body>
 
 </html>

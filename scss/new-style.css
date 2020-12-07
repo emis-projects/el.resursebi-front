@@ -1964,6 +1964,10 @@ body {
   padding-left: 5px;
 }
 
+.app-select_title-pointer {
+  cursor: pointer;
+}
+
 .app-select_title a {
   text-align: center;
 }

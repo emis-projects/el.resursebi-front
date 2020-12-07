@@ -1,4 +1,65 @@
 const index = document.getElementById("index");
+
+
+//DARK_MODE მინიშნების მინიშნების გვერდებისთვის
+var theme = localStorage.getItem('theme')
+// ტექსტური ფაილისთვის
+var newDesign_container_main_title = document.getElementsByClassName("newDesign_container_main_title");
+var newDesignSubjectQuestionItemTitle = document.getElementsByClassName("newDesign_subject_question_item-title");
+var pDarkMode = document.getElementsByClassName("pDarkMode");
+//ფეიჯინგისთვის
+var current__pagination = document.getElementsByClassName("current__pagination");
+var pagination__prev__btn = document.getElementsByClassName("pagination__prev__btn");
+var pagination__next__btn = document.getElementsByClassName("pagination__next__btn");
+if (theme == 'darck') {
+  var element = document.body;
+  element.style.backgroundColor = "black";
+  if (document.getElementById("Rectangle_1414-2")) {
+    document.getElementById("Rectangle_1414-2").style.fill = "#000000";
+  }
+  if (document.getElementById("Path_12243-7")) {
+    document.getElementById("Path_12243-7").style.fill = "#000000";
+  }
+  if (document.getElementById("Path_12243-8")) {
+    document.getElementById("Path_12243-8").style.fill = "#000000";
+  }
+  if (document.getElementById("Path_12243-6")) {
+    document.getElementById("Path_12243-6").style.fill = "#000000";
+  }
+  if (document.getElementById("Path_12243-10")) {
+    document.getElementById("Path_12243-10").style.fill = "#000000";
+  }
+  if (document.getElementById("Path_12243-9")) {
+    document.getElementById("Path_12243-9").style.fill = "#000000";
+  }
+  window.addEventListener('DOMContentLoaded', () => {
+    $('#prime').css('background-image', 'url(../../Vue-chatBot/img/chat01.png)');
+  });
+  if (newDesign_container_main_title[0]) {
+    newDesign_container_main_title[0].classList.add("newDesign_subject_question_item-title_black_P");
+  }
+  for (let i = 0; i < newDesignSubjectQuestionItemTitle.length; i++) {
+    if (newDesignSubjectQuestionItemTitle[i]) {
+      newDesignSubjectQuestionItemTitle[i].classList.add("newDesign_subject_question_item-title_black_P");
+    }
+  }
+  for (let i = 0; i < pDarkMode.length; i++) {
+    if (pDarkMode[i]) {
+      pDarkMode[i].classList.add("newDesign_subject_question_item-title_black_P");
+    }
+  }
+  if (current__pagination[0]) {
+    current__pagination[0].classList.add("pagination_black");
+  }
+  if (pagination__prev__btn[0]) {
+    pagination__prev__btn[0].classList.add("pagination_black");
+  }
+  if (pagination__next__btn[0]) {
+    pagination__next__btn[0].classList.add("pagination_black");
+  }
+}
+
+
 // directive გადაემა html კომპონენტში
 Vue.directive("logo", {
   bind: function (el, binding, vnode) {
@@ -94,26 +155,26 @@ Vue.component("appMenu", {
       if (completed__btn[0]) {
         completed__btn[0].classList.add("completed__btn_black");
       }
-      if(audioDownloadBbtnBlack[0]){
+      if (audioDownloadBbtnBlack[0]) {
         audioDownloadBbtnBlack[0].classList.add("completed__btn_black");
       }
-      for(let i=0; i<btnTextDark.length; i++){
+      for (let i = 0; i < btnTextDark.length; i++) {
         if (btnTextDark[i]) {
           btnTextDark[i].classList.add("completed__btn_black");
         }
       }
-      for(let i=0; i<btnDarkMode.length; i++){
+      for (let i = 0; i < btnDarkMode.length; i++) {
         if (btnDarkMode[i]) {
           btnDarkMode[i].classList.add("completed__btn_black");
         }
       }
-      for(let i=0; i<sign_description_btn.length; i++){
+      for (let i = 0; i < sign_description_btn.length; i++) {
         if (sign_description_btn[i]) {
           sign_description_btn[i].classList.add("completed__btn_black");
         }
       }
       sign_description_btn
-      
+
       //btn index.html
       for (let i = 0; i < 16; i++) {
         if (new_btn_start[i]) {
@@ -172,9 +233,9 @@ Vue.component("appMenu", {
 
 
       window.addEventListener('DOMContentLoaded', () => {
-        $('#prime').css('background-image', 'url(/el.resursebi-front/Vue-chatBot/img/chat01.png)');
-        $('.lang-box_passive').css('background-image', 'url(/el.resursebi-front/New-header-vue/header-img/eng01.png)');
-        $('.menu_box_passive').css('background-image', 'url(/el.resursebi-front/New-header-vue/header-img/menu01.png)');
+        $('#prime').css('background-image', 'url(../../Vue-chatBot/img/chat01.png)');
+        $('.lang-box_passive').css('background-image', 'url(../../New-header-vue/header-img/eng01.png)');
+        $('.menu_box_passive').css('background-image', 'url(../../New-header-vue/header-img/menu01.png)');
 
         //botApp
         if (document.getElementById("Rectangle_1414-2")) {
@@ -296,20 +357,20 @@ Vue.component("appMenu", {
         if (completed__btn[0]) {
           completed__btn[0].classList.add("completed__btn_black");
         }
-        if(audioDownloadBbtnBlack[0]){
+        if (audioDownloadBbtnBlack[0]) {
           audioDownloadBbtnBlack[0].classList.add("completed__btn_black");
         }
-        for(let i=0; i<btnTextDark.length; i++){
+        for (let i = 0; i < btnTextDark.length; i++) {
           if (btnTextDark[i]) {
             btnTextDark[i].classList.add("completed__btn_black");
           }
         }
-        for(let i=0; i<btnDarkMode.length; i++){
+        for (let i = 0; i < btnDarkMode.length; i++) {
           if (btnDarkMode[i]) {
             btnDarkMode[i].classList.add("completed__btn_black");
           }
         }
-        for(let i=0; i<sign_description_btn.length; i++){
+        for (let i = 0; i < sign_description_btn.length; i++) {
           if (sign_description_btn[i]) {
             sign_description_btn[i].classList.add("completed__btn_black");
           }
@@ -405,10 +466,10 @@ Vue.component("appMenu", {
         }
 
         //icons
-        $('#prime').css('background-image', 'url(/el.resursebi-front/Vue-chatBot/img/chat01.png)');
-        $('.lang-box_passive').css('background-image', 'url(/el.resursebi-front/New-header-vue/header-img/eng01.png)');
-        $('.menu_box_passive').css('background-image', 'url(/el.resursebi-front/New-header-vue/header-img/menu01.png)');
-        $('.menu_box_active').css('background-image', 'url(/el.resursebi-front/New-header-vue/header-img/menu01.png)');
+        $('#prime').css('background-image', 'url(../../Vue-chatBot/img/chat01.png)');
+        $('.lang-box_passive').css('background-image', 'url(../../New-header-vue/header-img/eng01.png)');
+        $('.menu_box_passive').css('background-image', 'url(../../New-header-vue/header-img/menu01.png)');
+        $('.menu_box_active').css('background-image', 'url(../../New-header-vue/header-img/menu01.png)');
         //
 
         if (document.getElementById("3_xelovneba")) {
@@ -472,20 +533,20 @@ Vue.component("appMenu", {
         if (completed__btn[0]) {
           completed__btn[0].classList.remove("completed__btn_black");
         }
-        if(audioDownloadBbtnBlack[0]){
+        if (audioDownloadBbtnBlack[0]) {
           audioDownloadBbtnBlack[0].classList.remove("completed__btn_black");
         }
-        for(let i=0; i<btnTextDark.length; i++){
+        for (let i = 0; i < btnTextDark.length; i++) {
           if (btnTextDark[i]) {
             btnTextDark[i].classList.remove("completed__btn_black");
           }
         }
-        for(let i=0; i<btnDarkMode.length; i++){
+        for (let i = 0; i < btnDarkMode.length; i++) {
           if (btnDarkMode[i]) {
             btnDarkMode[i].classList.remove("completed__btn_black");
           }
         }
-        for(let i=0; i<sign_description_btn.length; i++){
+        for (let i = 0; i < sign_description_btn.length; i++) {
           if (sign_description_btn[i]) {
             sign_description_btn[i].classList.remove("completed__btn_black");
           }
@@ -1529,7 +1590,7 @@ Vue.component("appSections", {
                   mode="out-in"
                   appear>
                   <p v-if="isTypes" key="title"  class="app-select_title">{{ activeClass.title  }} > {{itClassText}}<span>{{activeTitle}}</span></p>
-                  <p v-else key="back"  class="app-select_title" @click="isTypes = !isTypes">< უკან</p>
+                  <p v-else key="back"  class="app-select_title app-select_title-pointer" @click="isTypes = !isTypes">< უკან</p>
                 </transition>
                 <transition
                   enter-active-class="animated fadeIn"
