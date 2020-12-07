@@ -68,7 +68,6 @@ if (theme == 'darck') {
   }
   if(close[0]){
     close[0].children[0].src = '../../img/icons/black_close.svg';
-
   }
 }
 
@@ -249,7 +248,7 @@ Vue.component("appMenu", {
       if (top_bar[0]) {
         top_bar[0].classList.add("new_btn-start_black_btn");
       }
-
+      
 
       window.addEventListener('DOMContentLoaded', () => {
         $('#prime').css('background-image', 'url(../../Vue-chatBot/img/chat01.png)');
@@ -333,6 +332,8 @@ Vue.component("appMenu", {
       var appendChild_img = document.getElementsByClassName('appendChild--img');
       //სურათის ფერები რომლებიც შავზე არ ჩანს
       var imgBackgroundWhite = document.getElementsByClassName('imgBackgroundWhite');
+      //გათიშვის ღილაკი წარმატების და მინიშნების გვერდისთვის x
+      var close = document.getElementsByClassName('close');
 
 
 
@@ -470,6 +471,10 @@ Vue.component("appMenu", {
         }
         if (top_bar[0]) {
           top_bar[0].classList.add("new_btn-start_black_btn");
+        }
+        //გათიშვა x
+        if(close[0]){
+          close[0].children[0].src = '../../img/icons/black_close.svg';
         }
         //botApp
         if (document.getElementById("Rectangle_1414-2")) {
@@ -648,6 +653,10 @@ Vue.component("appMenu", {
         }
         if (top_bar[0]) {
           top_bar[0].classList.remove("new_btn-start_black_btn");
+        }
+        //გათიშვა x
+        if(close[0]){
+          close[0].children[0].src = '../../img/icons/close.svg';
         }
         //bottApp
         if (document.getElementById("Rectangle_1414-2")) {

@@ -55061,3 +55061,8 @@ input:checked + .slider:before {
   margin-left: 12px;
   color: #c5cbcd;
 }
+
+.x_game_succes{
+  margin-left: 2vh;
+  margin-top: 1.3vh;
+}
