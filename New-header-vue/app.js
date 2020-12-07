@@ -1,15 +1,16 @@
 const index = document.getElementById("index");
 
 
-//DARK_MODE მინიშნებისთვის
+//DARK_MODE მინიშნების მინიშნების გვერდებისთვის
 var theme = localStorage.getItem('theme')
+// ტექსტური ფაილისთვის
 var newDesign_container_main_title = document.getElementsByClassName("newDesign_container_main_title");
 var newDesignSubjectQuestionItemTitle = document.getElementsByClassName("newDesign_subject_question_item-title");
 var pDarkMode = document.getElementsByClassName("pDarkMode");
+//ფეიჯინგისთვის
 var current__pagination = document.getElementsByClassName("current__pagination");
 var pagination__prev__btn = document.getElementsByClassName("pagination__prev__btn");
 var pagination__next__btn = document.getElementsByClassName("pagination__next__btn");
-console.log('aaaqqq')
 if (theme == 'darck') {
   var element = document.body;
   element.style.backgroundColor = "black";
