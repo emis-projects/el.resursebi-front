@@ -54995,6 +54995,10 @@ input:checked + .slider:before {
   background: black !important;
 }
 
+.img_background_white {
+  background: white;
+}
+
 .canvas-container {
   width: 100% !important;
 }
@@ -55056,8 +55060,4 @@ input:checked + .slider:before {
   font-family: "ALK Sanet";
   margin-left: 12px;
   color: #c5cbcd;
-}
-/*# sourceMappingURL=new-style.css.map */
-.img_background_white{
-  background: white;
 }

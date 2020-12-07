@@ -89,7 +89,7 @@
     {
       "number": 14,
       "url": "",
-      "type": 1
+      "type": 2
     },
     {
       "number": 15,
@@ -116,10 +116,15 @@
       "number": "18-1",
       "type": 3
     },
+
     {
       "number": 19,
       "url": "",
       "type": 2
+    },
+    {
+      "number": "19-1",
+      "type": 3
     },
     {
       "number": 20,
@@ -127,13 +132,13 @@
       "type": 2
     },
     {
+      "number": "20-1",
+      "type": 3
+    },
+    {
       "number": 21,
       "url": "",
       "type": 2
-    },
-    {
-      "number": "21-1",
-      "type": 3
     },
     {
       "number": 22,
@@ -148,7 +153,7 @@
     {
       "number": 24,
       "url": "",
-      "type": 2
+      "type": 4
     },
     {
       "number": "24-1",
