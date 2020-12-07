@@ -11,6 +11,10 @@ var pDarkMode = document.getElementsByClassName("pDarkMode");
 var current__pagination = document.getElementsByClassName("current__pagination");
 var pagination__prev__btn = document.getElementsByClassName("pagination__prev__btn");
 var pagination__next__btn = document.getElementsByClassName("pagination__next__btn");
+//სურათის ფერები რომლებიც შავზე არ ჩანს
+var imgBackgroundWhite = document.getElementsByClassName('imgBackgroundWhite');
+//გათიშვის ღილაკი x
+var close = document.getElementsByClassName('close');
 if (theme == 'darck') {
   var element = document.body;
   element.style.backgroundColor = "black";
@@ -56,6 +60,15 @@ if (theme == 'darck') {
   }
   if (pagination__next__btn[0]) {
     pagination__next__btn[0].classList.add("pagination_black");
+  }
+  for (let i = 0; i < imgBackgroundWhite.length; i++) {
+    if (imgBackgroundWhite[i]) {
+      imgBackgroundWhite[i].classList.add("img_background_white");
+    }
+  }
+  if(close[0]){
+    close[0].children[0].src = '../../img/icons/black_close.svg';
+
   }
 }
 
