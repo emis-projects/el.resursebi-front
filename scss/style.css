@@ -2376,6 +2376,10 @@ input:checked + .slider:before {
   background: black !important;
 }
 
+.img_background_white {
+  background: white;
+}
+
 header {
   height: 6vh;
   width: 100%;
@@ -15801,4 +15805,3 @@ td img {
   display: -ms-flexbox;
   display: flex;
 }
-/*# sourceMappingURL=style.css.map */
