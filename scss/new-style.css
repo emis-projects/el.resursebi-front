@@ -26297,7 +26297,7 @@ img.mfp-img[alt*="cs-2-4-18-img"] {
 
 .objects_moving_img_box_20 {
   position: fixed;
-  bottom: 0;
+  bottom: -6vh;
   right: 0;
 }
 
@@ -33409,6 +33409,15 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .cs-3-2-15-img-div .sign-description-btn .cs-3-2-15--3, .cs-3-2-15-img-div .sign-description-btn.draggedElement {
   height: 5.41vh;
+}
+
+.span {
+  position: absolute;
+  top: 28vh;
+  left: 45vh;
+  font-size: 20px;
+  font-family: 'DejaVuSans';
+  line-height: 4vh;
 }
 
 .interface_page-3 {
