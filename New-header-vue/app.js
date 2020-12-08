@@ -1,21 +1,30 @@
 const index = document.getElementById("index");
 
-
 //DARK_MODE მინიშნების მინიშნების გვერდებისთვის
-var theme = localStorage.getItem('theme')
+var theme = localStorage.getItem("theme");
 // ტექსტური ფაილისთვის
-var newDesign_container_main_title = document.getElementsByClassName("newDesign_container_main_title");
-var newDesignSubjectQuestionItemTitle = document.getElementsByClassName("newDesign_subject_question_item-title");
+var newDesign_container_main_title = document.getElementsByClassName(
+  "newDesign_container_main_title"
+);
+var newDesignSubjectQuestionItemTitle = document.getElementsByClassName(
+  "newDesign_subject_question_item-title"
+);
 var pDarkMode = document.getElementsByClassName("pDarkMode");
 //ფეიჯინგისთვის
-var current__pagination = document.getElementsByClassName("current__pagination");
-var pagination__prev__btn = document.getElementsByClassName("pagination__prev__btn");
-var pagination__next__btn = document.getElementsByClassName("pagination__next__btn");
+var current__pagination = document.getElementsByClassName(
+  "current__pagination"
+);
+var pagination__prev__btn = document.getElementsByClassName(
+  "pagination__prev__btn"
+);
+var pagination__next__btn = document.getElementsByClassName(
+  "pagination__next__btn"
+);
 //სურათის ფერები რომლებიც შავზე არ ჩანს
-var imgBackgroundWhite = document.getElementsByClassName('imgBackgroundWhite');
+var imgBackgroundWhite = document.getElementsByClassName("imgBackgroundWhite");
 //გათიშვის ღილაკი x
-var close = document.getElementsByClassName('close');
-if (theme == 'darck') {
+var close = document.getElementsByClassName("close");
+if (theme == "darck") {
   var element = document.body;
   element.style.backgroundColor = "black";
   if (document.getElementById("Rectangle_1414-2")) {
@@ -36,20 +45,29 @@ if (theme == 'darck') {
   if (document.getElementById("Path_12243-9")) {
     document.getElementById("Path_12243-9").style.fill = "#000000";
   }
-  window.addEventListener('DOMContentLoaded', () => {
-    $('#prime').css('background-image', 'url(../../Vue-chatBot/img/chat01.png)');
+  window.addEventListener("DOMContentLoaded", () => {
+    $("#prime").css(
+      "background-image",
+      "url(../../Vue-chatBot/img/chat01.png)"
+    );
   });
   if (newDesign_container_main_title[0]) {
-    newDesign_container_main_title[0].classList.add("newDesign_subject_question_item-title_black_P");
+    newDesign_container_main_title[0].classList.add(
+      "newDesign_subject_question_item-title_black_P"
+    );
   }
   for (let i = 0; i < newDesignSubjectQuestionItemTitle.length; i++) {
     if (newDesignSubjectQuestionItemTitle[i]) {
-      newDesignSubjectQuestionItemTitle[i].classList.add("newDesign_subject_question_item-title_black_P");
+      newDesignSubjectQuestionItemTitle[i].classList.add(
+        "newDesign_subject_question_item-title_black_P"
+      );
     }
   }
   for (let i = 0; i < pDarkMode.length; i++) {
     if (pDarkMode[i]) {
-      pDarkMode[i].classList.add("newDesign_subject_question_item-title_black_P");
+      pDarkMode[i].classList.add(
+        "newDesign_subject_question_item-title_black_P"
+      );
     }
   }
   if (current__pagination[0]) {
@@ -66,11 +84,10 @@ if (theme == 'darck') {
       imgBackgroundWhite[i].classList.add("img_background_white");
     }
   }
-  if(close[0]){
-    close[0].children[0].src = '../../img/icons/black_close.svg';
+  if (close[0]) {
+    close[0].children[0].src = "../../img/icons/black_close.svg";
   }
 }
-
 
 // directive გადაემა html კომპონენტში
 Vue.directive("logo", {
@@ -137,10 +154,16 @@ Vue.component("appMenu", {
     var theme = localStorage.getItem("theme");
     var reset__btn = document.getElementsByClassName("reset__btn");
     var completed__btn = document.getElementsByClassName("completed__btn");
-    var audioDownloadBbtnBlack = document.getElementsByClassName('audio-download__btn');
-    var btnTextDark = document.getElementsByClassName('music-new-1-div-6-div-dot-text');
-    var btnDarkMode = document.getElementsByClassName('btnDarkMode');
-    sign_description_btn = document.getElementsByClassName('sign-description-btn');
+    var audioDownloadBbtnBlack = document.getElementsByClassName(
+      "audio-download__btn"
+    );
+    var btnTextDark = document.getElementsByClassName(
+      "music-new-1-div-6-div-dot-text"
+    );
+    var btnDarkMode = document.getElementsByClassName("btnDarkMode");
+    sign_description_btn = document.getElementsByClassName(
+      "sign-description-btn"
+    );
     //btn index.html
     var new_btn_start = document.getElementsByClassName("new_btn-start");
     var newDesignSubjectQuestionItemTitle = document.getElementsByClassName(
@@ -193,7 +216,7 @@ Vue.component("appMenu", {
           imgBackgroundWhite[i].classList.add("img_background_white");
         }
       }
-      
+
       //btn index.html
       for (let i = 0; i < 8; i++) {
         if (new_btn_start[i]) {
@@ -269,17 +292,17 @@ Vue.component("appMenu", {
         "circles_number-white"
       );
       var top_bar = document.getElementsByClassName("top-bar");
-      var img = $('.menu_box_passive').css('background-image');
+      var img = $(".menu_box_passive").css("background-image");
       var dj_2_3vh = document.getElementsByClassName("dj-2_3vh");
       var Rectangle_1414_2 = document.getElementById("Rectangle_1414-2");
-      var nabiji = document.getElementsByClassName('newDesign_steps_item-img');
-      var appendChild_img = document.getElementsByClassName('appendChild--img');
+      var nabiji = document.getElementsByClassName("newDesign_steps_item-img");
+      var appendChild_img = document.getElementsByClassName("appendChild--img");
       //სურათის ფერები რომლებიც შავზე არ ჩანს
-      var imgBackgroundWhite = document.getElementsByClassName('imgBackgroundWhite');
+      var imgBackgroundWhite = document.getElementsByClassName(
+        "imgBackgroundWhite"
+      );
       //გათიშვის ღილაკი წარმატების და მინიშნების გვერდისთვის x
-      var close = document.getElementsByClassName('close');
-
-
+      var close = document.getElementsByClassName("close");
 
       //ტეგები
       //P
@@ -356,7 +379,9 @@ Vue.component("appMenu", {
         }
         for (let i = 0; i < pDarkMode.length; i++) {
           if (pDarkMode[i]) {
-            pDarkMode[i].classList.add("newDesign_subject_question_item-title_black_P");
+            pDarkMode[i].classList.add(
+              "newDesign_subject_question_item-title_black_P"
+            );
           }
         }
         // for(let i=0; i<11; i++){
@@ -449,7 +474,9 @@ Vue.component("appMenu", {
         }
         for (let i = 0; i < pDarkMode.length; i++) {
           if (pDarkMode[i]) {
-            pDarkMode[i].classList.remove("newDesign_subject_question_item-title_black_P");
+            pDarkMode[i].classList.remove(
+              "newDesign_subject_question_item-title_black_P"
+            );
           }
         }
         // for(let i=0; i<11; i++){
@@ -488,8 +515,8 @@ Vue.component("appMenu", {
           top_bar[0].classList.remove("new_btn-start_black_btn");
         }
         //გათიშვა x
-        if(close[0]){
-          close[0].children[0].src = '../../img/icons/close.svg';
+        if (close[0]) {
+          close[0].children[0].src = "../../img/icons/close.svg";
         }
         //bottApp
         if (document.getElementById("Rectangle_1414-2")) {
@@ -512,37 +539,41 @@ Vue.component("appMenu", {
         }
         //icons
         $("#prime").css("background-image", "");
-        $('.lang-box_passive').css('background-image', '');
-        $('.menu_box_passive').css('background-image', '');
-        $('.menu_box_active').css('background-image', '');
+        $(".lang-box_passive").css("background-image", "");
+        $(".menu_box_passive").css("background-image", "");
+        $(".menu_box_active").css("background-image", "");
         //
         if (document.getElementById("1_kompTeq")) {
-          document.getElementById("1_kompTeq").src = './img/slider/slide-illustration-c.svg'
+          document.getElementById("1_kompTeq").src =
+            "./img/slider/slide-illustration-c.svg";
         }
         if (document.getElementById("2_buneba")) {
-          document.getElementById("2_buneba").src = './img/slider/slide-illustration-n.svg'
+          document.getElementById("2_buneba").src =
+            "./img/slider/slide-illustration-n.svg";
         }
         if (document.getElementById("3_xelovneba")) {
-          document.getElementById("3_xelovneba").src = './img/slider/slide-illustration-a.svg'
+          document.getElementById("3_xelovneba").src =
+            "./img/slider/slide-illustration-a.svg";
         }
         if (document.getElementById("4_musika")) {
-          document.getElementById("4_musika").src = './img/slider/slide-illustration-m.svg'
+          document.getElementById("4_musika").src =
+            "./img/slider/slide-illustration-m.svg";
         }
 
         //switchDarkIdShadow
-        document.getElementById('switchDarkIdShadow').style.boxShadow = '1px 3px 6px #FADE7E';
+        document.getElementById("switchDarkIdShadow").style.boxShadow =
+          "1px 3px 6px #FADE7E";
         //nabiji
         for (let i = 0; i < nabiji.length; i++) {
           if (nabiji[i]) {
-            nabiji[i].src = '../../img/icons/step_item.svg';
+            nabiji[i].src = "../../img/icons/step_item.svg";
           }
         }
 
         //სარჩევი
-        if (this.isActive && document.getElementById('mynetwork')) {
+        if (this.isActive && document.getElementById("mynetwork")) {
           init();
         }
-
       }
     },
   },
@@ -686,14 +717,13 @@ Vue.component("appBar", {
   },
   watch: {
     isActive() {
-      var theme = localStorage.getItem('theme')
-      if (theme == 'darck') {
-        this.darkMode = true
+      var theme = localStorage.getItem("theme");
+      if (theme == "darck") {
+        this.darkMode = true;
+      } else {
+        this.darkMode = false;
       }
-      else {
-        this.darkMode = false
-      }
-    }
+    },
   },
   template: `
         <transition
@@ -883,24 +913,22 @@ Vue.component("appStart", {
     };
   },
   created() {
-    var theme = localStorage.getItem('theme')
-    if (theme == 'darck') {
-      this.darkMode = true
-    }
-    else {
-      this.darkMode = false
+    var theme = localStorage.getItem("theme");
+    if (theme == "darck") {
+      this.darkMode = true;
+    } else {
+      this.darkMode = false;
     }
   },
   watch: {
     isActive() {
-      var theme = localStorage.getItem('theme')
-      if (theme == 'darck') {
-        this.darkMode = true
+      var theme = localStorage.getItem("theme");
+      if (theme == "darck") {
+        this.darkMode = true;
+      } else {
+        this.darkMode = false;
       }
-      else {
-        this.darkMode = false
-      }
-    }
+    },
   },
   template: `
         <transition
@@ -1045,12 +1073,11 @@ Vue.component("appSelect", {
     },
   },
   created() {
-    var theme = localStorage.getItem('theme')
-    if (theme == 'darck') {
-      this.darkMode = true
-    }
-    else {
-      this.darkMode = false
+    var theme = localStorage.getItem("theme");
+    if (theme == "darck") {
+      this.darkMode = true;
+    } else {
+      this.darkMode = false;
     }
   },
   template: `
@@ -1214,11 +1241,10 @@ Vue.component("appLinks", {
     },
   },
   updated() {
-    var theme = localStorage.getItem('theme')
-    if (theme == 'darck') {
+    var theme = localStorage.getItem("theme");
+    if (theme == "darck") {
       initDark();
-    }
-    else {
+    } else {
       init();
     }
     // init();
@@ -1272,27 +1298,27 @@ Vue.component("appSections", {
       dataByType: [],
       typeInfo: {
         1: {
-          id: 'nabijiType',
+          id: "nabijiType",
           text: "ნაბიჯი",
           img: "../../img/icons/davalebebi/nabiji-white.svg",
         },
         2: {
-          id: 'savarjishoType',
+          id: "savarjishoType",
           text: "სავარჯიშო",
           img: "../../img/icons/davalebebi/savarjisho-white.svg",
         },
         3: {
-          id: 'minishnebaType',
+          id: "minishnebaType",
           text: "მინიშნება",
           img: "../../img/icons/davalebebi/minishneba-white.svg",
         },
         4: {
-          id: 'shualeduriType',
+          id: "shualeduriType",
           text: "შუალედური დავალება",
           img: "../../img/icons/davalebebi/shualeduri-white.svg",
         },
         5: {
-          id: 'kompleqsuriType',
+          id: "kompleqsuriType",
           text: "კომპლექსური დავალება",
           img: "../../img/icons/davalebebi/kompleqsuri-white.svg",
         },
@@ -1342,18 +1368,21 @@ Vue.component("appSections", {
     );
   },
   created() {
-    var theme = localStorage.getItem('theme')
-    if (theme == 'darck') {
-      this.typeInfo[1].img = '../../img/icons/davalebebi/nabiji-whiteDark.svg';
-      this.typeInfo[2].img = '../../img/icons/davalebebi/savarjisho-whiteDark.svg';
-      this.typeInfo[3].img = '../../img/icons/davalebebi/minishneba-whiteDark.svg';
-      this.typeInfo[4].img = '../../img/icons/davalebebi/shualeduri-whiteDark.svg';
-      this.typeInfo[5].img = '../../img/icons/davalebebi/kompleqsuri-whiteDark.svg';
+    var theme = localStorage.getItem("theme");
+    if (theme == "darck") {
+      this.typeInfo[1].img = "../../img/icons/davalebebi/nabiji-whiteDark.svg";
+      this.typeInfo[2].img =
+        "../../img/icons/davalebebi/savarjisho-whiteDark.svg";
+      this.typeInfo[3].img =
+        "../../img/icons/davalebebi/minishneba-whiteDark.svg";
+      this.typeInfo[4].img =
+        "../../img/icons/davalebebi/shualeduri-whiteDark.svg";
+      this.typeInfo[5].img =
+        "../../img/icons/davalebebi/kompleqsuri-whiteDark.svg";
 
-      this.darkMode = true
-    }
-    else {
-      this.darkMode = false
+      this.darkMode = true;
+    } else {
+      this.darkMode = false;
     }
   },
   watch: {
@@ -1364,14 +1393,13 @@ Vue.component("appSections", {
       }
     },
     isActive() {
-      var theme = localStorage.getItem('theme')
-      if (theme == 'darck') {
-        this.darkMode = true
+      var theme = localStorage.getItem("theme");
+      if (theme == "darck") {
+        this.darkMode = true;
+      } else {
+        this.darkMode = false;
       }
-      else {
-        this.darkMode = false
-      }
-    }
+    },
   },
   computed: {
     itClassText() {
@@ -1387,32 +1415,38 @@ Vue.component("appSections", {
   },
   methods: {
     getSimilarTypes(type) {
-      // მსგავსი ტიპების ამოზება ჯეისონ ფაილიდან
-      var theme = localStorage.getItem('theme')
-      if (theme == 'darck') {
-        this.typeInfo[1].img = '../../img/icons/davalebebi/nabiji-whiteDark.svg';
-        this.typeInfo[2].img = '../../img/icons/davalebebi/savarjisho-whiteDark.svg';
-        this.typeInfo[3].img = '../../img/icons/davalebebi/minishneba-whiteDark.svg';
-        this.typeInfo[4].img = '../../img/icons/davalebebi/shualeduri-whiteDark.svg';
-        this.typeInfo[5].img = '../../img/icons/davalebebi/kompleqsuri-whiteDark.svg';
-        this.darkMode = true
-      }
-      else {
-        this.darkMode = false
+      // მსგავსი ტიპების აღოება ჯეისონ ფაილიდან
+      var theme = localStorage.getItem("theme");
+      if (theme == "darck") {
+        this.typeInfo[1].img =
+          "../../img/icons/davalebebi/nabiji-whiteDark.svg";
+        this.typeInfo[2].img =
+          "../../img/icons/davalebebi/savarjisho-whiteDark.svg";
+        this.typeInfo[3].img =
+          "../../img/icons/davalebebi/minishneba-whiteDark.svg";
+        this.typeInfo[4].img =
+          "../../img/icons/davalebebi/shualeduri-whiteDark.svg";
+        this.typeInfo[5].img =
+          "../../img/icons/davalebebi/kompleqsuri-whiteDark.svg";
+        this.darkMode = true;
+      } else {
+        this.darkMode = false;
       }
       let data = this.fullData.pages.filter((item) => item.type === type);
-      var firstEl;
 
-      data.some((a, i, aa) => {
-        if (i !== 0) {
-          if (aa[i - 1].number + 1 !== a.number) {
+      if (type === 5 || type === 3) {
+        data.some((a, i, aa) => {
+          if (i !== 0) {
+            if (aa[i - 1].number + 1 !== a.number) {
+              this.dataByType.push(a);
+            }
+          } else {
             this.dataByType.push(a);
           }
-        } else {
-          this.dataByType.push(a);
-        }
-        console.log(this.dataByType);
-      });
+        });
+      } else {
+        this.dataByType = data;
+      }
 
       this.isTypes = false;
     },
