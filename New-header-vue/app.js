@@ -1755,7 +1755,7 @@ Vue.component("appSections", {
                         <span>{{typeInfo[item].text}}</span>
                       </div>
                     </div>
-                    <div id="tableOfContentTwo" v-else key="4">
+                    <div id="tableOfContentTwo" class="tableOfContentTwo-scroll" v-else key="4">
                       <div class="appendChild--div" v-for="(item, index) in dataByType" :key="index" @click="goToPage(item.number)">
                       <img class="appendChild--img" :src="typeInfo[item.type].img"/>
                       <span>{{typeInfo[item.type].text}} {{index + 1 }}</span>
