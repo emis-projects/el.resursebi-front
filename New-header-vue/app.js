@@ -47,7 +47,6 @@ Vue.component("appMenu", {
     };
   },
   props: {
-    
     isActive: {
       type: Boolean,
       required: true,
@@ -61,210 +60,248 @@ Vue.component("appMenu", {
       required: true,
     },
   },
-  created(){
-    var theme = localStorage.getItem('theme')
+  created() {
+    var theme = localStorage.getItem("theme");
     var reset__btn = document.getElementsByClassName("reset__btn");
     var completed__btn = document.getElementsByClassName("completed__btn");
     //btn index.html
     var new_btn_start = document.getElementsByClassName("new_btn-start");
-    var newDesignSubjectQuestionItemTitle = document.getElementsByClassName("newDesign_subject_question_item-title");
-    var algorithme_title_italic = document.getElementsByClassName("algorithme-title-italic");
-    var newDesign_container_main_title = document.getElementsByClassName("newDesign_container_main_title");
+    var newDesignSubjectQuestionItemTitle = document.getElementsByClassName(
+      "newDesign_subject_question_item-title"
+    );
+    var algorithme_title_italic = document.getElementsByClassName(
+      "algorithme-title-italic"
+    );
+    var newDesign_container_main_title = document.getElementsByClassName(
+      "newDesign_container_main_title"
+    );
     //index html დასაწყისი
     var bg_menu = document.getElementsByClassName("bg_menu");
     var app_select = document.getElementsByClassName("app-select");
-    var circles_number_pink = document.getElementsByClassName("circles_number-pink");
+    var circles_number_pink = document.getElementsByClassName(
+      "circles_number-pink"
+    );
     var top_bar = document.getElementsByClassName("top-bar");
-    
-    if(theme == 'darck'){
+
+    if (theme == "darck") {
       //დაწყება დასსრულება
-      if(reset__btn[0]){
+      if (reset__btn[0]) {
         reset__btn[0].classList.add("reset__btn_black");
       }
-      if(completed__btn[0]){
+      if (completed__btn[0]) {
         completed__btn[0].classList.add("completed__btn_black");
       }
       //btn index.html
-      for(let i=0; i<8; i++){
-        if(new_btn_start[i]){
+      for (let i = 0; i < 8; i++) {
+        if (new_btn_start[i]) {
           new_btn_start[i].classList.add("new_btn-start_black_btn");
         }
       }
       //ფეიჯინგი
       var element = document.body;
-        element.style.background="black";
-        this.isDark = true
-        //ტეგები
-        //P
-        for(let i=0; i<8; i++){
-          if(newDesignSubjectQuestionItemTitle[i]){
-            newDesignSubjectQuestionItemTitle[i].classList.add("newDesign_subject_question_item-title_black_P");
-          }
+      element.style.background = "black";
+      this.isDark = true;
+      //ტეგები
+      //P
+      for (let i = 0; i < 8; i++) {
+        if (newDesignSubjectQuestionItemTitle[i]) {
+          newDesignSubjectQuestionItemTitle[i].classList.add(
+            "newDesign_subject_question_item-title_black_P"
+          );
         }
-        //H
-        if(algorithme_title_italic[0]){
-          algorithme_title_italic[0].classList.add("newDesign_subject_question_item-title_black_P");
+      }
+      //H
+      if (algorithme_title_italic[0]) {
+        algorithme_title_italic[0].classList.add(
+          "newDesign_subject_question_item-title_black_P"
+        );
+      }
+      if (newDesign_container_main_title[0]) {
+        newDesign_container_main_title[0].classList.add(
+          "newDesign_subject_question_item-title_black_P"
+        );
+      }
+      //index.html დასაწყისი
+      if (bg_menu[0]) {
+        bg_menu[0].classList.add("new_btn-start_black_btn");
+      }
+      if (app_select[0]) {
+        app_select[0].classList.add("new_btn-start_black_btn");
+      }
+      for (let i = 0; i < 8; i++) {
+        if (circles_number_pink[i]) {
+          circles_number_pink[i].classList.add("new_btn-start_black_btn");
         }
-        if(newDesign_container_main_title[0]){
-          newDesign_container_main_title[0].classList.add("newDesign_subject_question_item-title_black_P");
-        }
-        //index.html დასაწყისი
-        if(bg_menu[0]){
-          bg_menu[0].classList.add("new_btn-start_black_btn");
-        }
-        if(app_select[0]){
-          app_select[0].classList.add("new_btn-start_black_btn");
-        }
-        for(let i=0; i<8; i++){
-          if(circles_number_pink[i]){
-            circles_number_pink[i].classList.add("new_btn-start_black_btn");
-          }
-        }
-        if(top_bar[0]){
-          top_bar[0].classList.add("new_btn-start_black_btn");
-        }
+      }
+      if (top_bar[0]) {
+        top_bar[0].classList.add("new_btn-start_black_btn");
+      }
     }
   },
   methods: {
-    myFunction(){
+    myFunction() {
       var reset__btn = document.getElementsByClassName("reset__btn");
       var completed__btn = document.getElementsByClassName("completed__btn");
-      var current__pagination = document.getElementsByClassName("current__pagination");
-      var pagination__prev__btn = document.getElementsByClassName("pagination__prev__btn");
-      var pagination__next__btn = document.getElementsByClassName("pagination__next__btn");
+      var current__pagination = document.getElementsByClassName(
+        "current__pagination"
+      );
+      var pagination__prev__btn = document.getElementsByClassName(
+        "pagination__prev__btn"
+      );
+      var pagination__next__btn = document.getElementsByClassName(
+        "pagination__next__btn"
+      );
       var bg_menu = document.getElementsByClassName("bg_menu");
       //btn index.html
       var new_btn_start = document.getElementsByClassName("new_btn-start");
       var app_select = document.getElementsByClassName("app-select");
       var class_box = document.getElementsByClassName("class_box");
-      var circles_number_pink = document.getElementsByClassName("circles_number-pink");
-      var circles_number_white = document.getElementsByClassName("circles_number-white");
+      var circles_number_pink = document.getElementsByClassName(
+        "circles_number-pink"
+      );
+      var circles_number_white = document.getElementsByClassName(
+        "circles_number-white"
+      );
       var top_bar = document.getElementsByClassName("top-bar");
 
       //ტეგები
       //P
-      var newDesignSubjectQuestionItemTitle = document.getElementsByClassName("newDesign_subject_question_item-title");
+      var newDesignSubjectQuestionItemTitle = document.getElementsByClassName(
+        "newDesign_subject_question_item-title"
+      );
       //H
-      var algorithme_title_italic = document.getElementsByClassName("algorithme-title-italic");
-      var newDesign_container_main_title = document.getElementsByClassName("newDesign_container_main_title");
+      var algorithme_title_italic = document.getElementsByClassName(
+        "algorithme-title-italic"
+      );
+      var newDesign_container_main_title = document.getElementsByClassName(
+        "newDesign_container_main_title"
+      );
 
       var element = document.body;
-      if(!this.isDark){
+      if (!this.isDark) {
         //დაწყება დასრულება
-        if(reset__btn[0]){
+        if (reset__btn[0]) {
           reset__btn[0].classList.add("reset__btn_black");
         }
-        if(reset__btn[0]){
+        if (reset__btn[0]) {
           completed__btn[0].classList.add("completed__btn_black");
         }
         //btn index.html
-        for(let i=0; i<8; i++){
-          if(new_btn_start[i]){
+        for (let i = 0; i < 8; i++) {
+          if (new_btn_start[i]) {
             new_btn_start[i].classList.add("new_btn-start_black_btn");
           }
         }
         // ფეიჯინგი
-        if(current__pagination[0]){
+        if (current__pagination[0]) {
           current__pagination[0].classList.add("pagination_black");
         }
-        if(pagination__prev__btn[0]){
+        if (pagination__prev__btn[0]) {
           pagination__prev__btn[0].classList.add("pagination_black");
         }
-        if(pagination__next__btn[0]){
+        if (pagination__next__btn[0]) {
           pagination__next__btn[0].classList.add("pagination_black");
         }
         localStorage.setItem("theme", "darck");
-        element.style.background="black";
-        this.isDark = true
+        element.style.background = "black";
+        this.isDark = true;
         //ტეგები
         //p
-        for(let i=0; i<8; i++){
-          if(newDesignSubjectQuestionItemTitle[i]){
-            newDesignSubjectQuestionItemTitle[i].classList.add("newDesign_subject_question_item-title_black_P");
+        for (let i = 0; i < 8; i++) {
+          if (newDesignSubjectQuestionItemTitle[i]) {
+            newDesignSubjectQuestionItemTitle[i].classList.add(
+              "newDesign_subject_question_item-title_black_P"
+            );
           }
         }
         //H
-        if(algorithme_title_italic[0]){
-          algorithme_title_italic[0].classList.add("newDesign_subject_question_item-title_black_P");
+        if (algorithme_title_italic[0]) {
+          algorithme_title_italic[0].classList.add(
+            "newDesign_subject_question_item-title_black_P"
+          );
         }
-        if(newDesign_container_main_title[0]){
-          newDesign_container_main_title[0].classList.add("newDesign_subject_question_item-title_black_P");
+        if (newDesign_container_main_title[0]) {
+          newDesign_container_main_title[0].classList.add(
+            "newDesign_subject_question_item-title_black_P"
+          );
         }
         //index.html დასაწყისი
-        if(bg_menu[0]){
+        if (bg_menu[0]) {
           bg_menu[0].classList.add("new_btn-start_black_btn");
         }
-        if(app_select[0]){
+        if (app_select[0]) {
           app_select[0].classList.add("new_btn-start_black_btn");
         }
-        for(let i=0; i<8; i++){
-          if(circles_number_pink[i]){
+        for (let i = 0; i < 8; i++) {
+          if (circles_number_pink[i]) {
             circles_number_pink[i].classList.add("new_btn-start_black_btn");
           }
         }
-        if(top_bar[0]){
+        if (top_bar[0]) {
           top_bar[0].classList.add("new_btn-start_black_btn");
         }
-
-      }
-      else{
-        if(reset__btn[0]){
+      } else {
+        if (reset__btn[0]) {
           reset__btn[0].classList.remove("reset__btn_black");
         }
-        if(completed__btn[0]){
+        if (completed__btn[0]) {
           completed__btn[0].classList.remove("completed__btn_black");
         }
         //btn index.html
-        for(let i=0; i<8; i++){
-          if(new_btn_start[i]){
+        for (let i = 0; i < 8; i++) {
+          if (new_btn_start[i]) {
             new_btn_start[i].classList.remove("new_btn-start_black_btn");
           }
         }
-        if(current__pagination[0]){
+        if (current__pagination[0]) {
           current__pagination[0].classList.remove("pagination_black");
         }
-        if(pagination__prev__btn[0]){
+        if (pagination__prev__btn[0]) {
           pagination__prev__btn[0].classList.remove("pagination_black");
         }
-        if(pagination__next__btn[0]){
+        if (pagination__next__btn[0]) {
           pagination__next__btn[0].classList.remove("pagination_black");
         }
         localStorage.setItem("theme", "light");
-        element.style.background="";
-        this.isDark = false
+        element.style.background = "";
+        this.isDark = false;
         //ტეგები
         //P
-        for(let i=0; i<8; i++){
-          if(newDesignSubjectQuestionItemTitle[i]){
-            newDesignSubjectQuestionItemTitle[i].classList.remove("newDesign_subject_question_item-title_black_P");
+        for (let i = 0; i < 8; i++) {
+          if (newDesignSubjectQuestionItemTitle[i]) {
+            newDesignSubjectQuestionItemTitle[i].classList.remove(
+              "newDesign_subject_question_item-title_black_P"
+            );
           }
         }
         //H
-        if(algorithme_title_italic[0]){
-          algorithme_title_italic[0].classList.remove("newDesign_subject_question_item-title_black_P");
+        if (algorithme_title_italic[0]) {
+          algorithme_title_italic[0].classList.remove(
+            "newDesign_subject_question_item-title_black_P"
+          );
         }
-        if(newDesign_container_main_title[0]){
-          newDesign_container_main_title[0].classList.remove("newDesign_subject_question_item-title_black_P");
+        if (newDesign_container_main_title[0]) {
+          newDesign_container_main_title[0].classList.remove(
+            "newDesign_subject_question_item-title_black_P"
+          );
         }
         //index.html დასაწყისი
-        if(bg_menu[0]){
+        if (bg_menu[0]) {
           bg_menu[0].classList.remove("new_btn-start_black_btn");
         }
-        if(app_select[0]){
+        if (app_select[0]) {
           app_select[0].classList.remove("new_btn-start_black_btn");
         }
-        for(let i=0; i<8; i++){
-          if(circles_number_pink[i]){
+        for (let i = 0; i < 8; i++) {
+          if (circles_number_pink[i]) {
             circles_number_pink[i].classList.remove("new_btn-start_black_btn");
           }
         }
-        if(top_bar[0]){
+        if (top_bar[0]) {
           top_bar[0].classList.remove("new_btn-start_black_btn");
         }
       }
-
-     
-    }
+    },
   },
   template: `
     <div class="navbar navbar-expand-lg navbar-light bg-transparent">
@@ -361,7 +398,7 @@ Vue.component("appSection", {
     isInfo: {
       type: Boolean,
     },
-  },  
+  },
   template: `
             <div>
                 <section class="section_box">
@@ -660,7 +697,7 @@ Vue.component("appSelect", {
 
           let startIndex = (this.currentPage - 1) * this.pageSize;
           let endIndex = Math.min(startIndex + this.pageSize, this.totalItems);
-          
+
           return this.class["IT_" + this.classID].slice(startIndex, endIndex);
         }
         // 5-6 კლასების გარდა დაბრუნდეს ჩვეულებრივად სრული სიგრძის მასივი
@@ -843,7 +880,7 @@ Vue.component("appLinks", {
       (x) => x !== null
     );
 
-    init();
+    //init();
   },
   computed: {
     itClassText() {
@@ -989,19 +1026,18 @@ Vue.component("appSections", {
     getSimilarTypes(type) {
       // მსგავსი ტიპების ამოზება ჯეისონ ფაილიდან
       let data = this.fullData.pages.filter((item) => item.type === type);
+      var firstEl;
 
-      var firstEl = 0;
-      var secondEl = 1;
-
-      for (let i = 0; i < data.length; i++) {
-        //პირველი ელემენტის შენახვა
-        firstEl = data[i].number;
-        // თუ პირველი ელემენტის number არ ემთხვევა secondEl + 1 , secondEl გავუტოლოდ ელემენტის number
-        if (data[i].number !== secondEl + 1) {
-          secondEl = data[i].number;
-          this.dataByType.push(data[i]);
+      data.some((a, i, aa) => {
+        if (i !== 0) {
+          if (aa[i - 1].number + 1 !== a.number) {
+            this.dataByType.push(a);
+          }
+        } else {
+          this.dataByType.push(a);
         }
-      }
+        console.log(this.dataByType);
+      });
 
       this.isTypes = false;
     },
