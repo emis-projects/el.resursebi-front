@@ -225,7 +225,8 @@
 
 #chatBot .voice-mail-play,
 #chatBot .voice-mail-pause {
-  width: 12px;
+  width: 15px;
+  height: 15px;
   cursor: pointer;
 }
 
@@ -1963,6 +1964,10 @@ body {
   padding-left: 5px;
 }
 
+.app-select_title-pointer {
+  cursor: pointer;
+}
+
 .app-select_title a {
   text-align: center;
 }
@@ -3234,31 +3239,31 @@ section .arrow_up_down_downArrow img {
 }
 
 .portfolio-slider-04-6-1.owl-theme .owl-dots .owl-dot:nth-child(1) span {
-  background-image: url("../../img/gakvetilebi/xelovneba/magic-world/A-1366-03-15-1.png");
+  background-image: url("../img/gakvetilebi/xelovneba/magic-world/A-1366-03-15-1.png");
 }
 
 .portfolio-slider-04-6-1.owl-theme .owl-dots .owl-dot:nth-child(2) span {
-  background-image: url("../../img/gakvetilebi/xelovneba/magic-world/A-1366-03-15-2.png");
+  background-image: url("../img/gakvetilebi/xelovneba/magic-world/A-1366-03-15-2.png");
 }
 
 .portfolio-slider-04-6-1.owl-theme .owl-dots .owl-dot:nth-child(3) span {
-  background-image: url("../../img/gakvetilebi/xelovneba/magic-world/A-1366-03-15-3.png");
+  background-image: url("../img/gakvetilebi/xelovneba/magic-world/A-1366-03-15-3.png");
 }
 
 .portfolio-slider-04-6-2.owl-theme .owl-dots .owl-dot:nth-child(1) span {
-  background-image: url("../../img/gakvetilebi/xelovneba/magic-world/nika-16.png");
+  background-image: url("../img/gakvetilebi/xelovneba/magic-world/nika-16.png");
 }
 
 .portfolio-slider-04-6-2.owl-theme .owl-dots .owl-dot:nth-child(2) span {
-  background-image: url("../../img/gakvetilebi/xelovneba/magic-world/taso-16.png");
+  background-image: url("../img/gakvetilebi/xelovneba/magic-world/taso-16.png");
 }
 
 .portfolio-slider-04-6-3.owl-theme .owl-dots .owl-dot:nth-child(1) span {
-  background-image: url("../../img/gakvetilebi/xelovneba/magic-world/tata-17.png");
+  background-image: url("../img/gakvetilebi/xelovneba/magic-world/tata-17.png");
 }
 
 .portfolio-slider-04-6-3.owl-theme .owl-dots .owl-dot:nth-child(2) span {
-  background-image: url("../../img/gakvetilebi/xelovneba/magic-world/alex-17.png");
+  background-image: url("../img/gakvetilebi/xelovneba/magic-world/alex-17.png");
 }
 
 .portfolio-slider-04-6-5.owl-theme .owl-dots .owl-dot:nth-child(1) span {
@@ -4862,6 +4867,10 @@ section .arrow_up_down_downArrow img {
   height: auto !important;
 }
 
+.color_story-img_22 {
+  height: 46.04vh;
+}
+
 .color_story-image-23-2 {
   width: 15vw !important;
   height: auto !important;
@@ -6260,6 +6269,7 @@ section .arrow_up_down_downArrow img {
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
+  z-index: 1;
 }
 
 .ask_question_game .ask_question_game_box--sm:nth-child(4) .ask_question_game_box_number-img {
@@ -13292,6 +13302,23 @@ section .arrow_up_down_downArrow img {
   height: 81vh;
 }
 
+.subject_question_item_img_box-wave {
+  width: 9vw;
+  height: 6vh;
+}
+
+.subject_question_item_img_box-size {
+  height: 8vh;
+}
+
+.subject_question_item_img_box-size-8-8-2 {
+  height: 10vh;
+}
+
+.subject_question_item_img_box-size-8-9-1 {
+  height: 7vh;
+}
+
 #A-1366-05-9 .image_box {
   margin-top: 12vh;
   height: 29vh;
@@ -15824,6 +15851,34 @@ td img {
 
 .nature-text-wrapper-newDesign {
   height: 17vh;
+}
+
+.nature_full_image-box-13 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.nature_full_image-box-height {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.nature_full_image-box-height svg {
+  height: auto !important;
 }
 
 .comics {
@@ -29454,7 +29509,7 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .calm_and_stormy-portfolio_2_6_1 {
-  width: 23vw !important;
+  width: 20vw !important;
   height: auto !important;
 }
 
@@ -54849,6 +54904,106 @@ body {
   height: 75%;
 }
 
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.switchDark {
+  position: relative;
+  display: inline-block;
+  width: 51px;
+  height: 31px;
+}
+
+.switchDark input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #000000;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 25px;
+  width: 25px;
+  left: -2px;
+  bottom: 2px;
+  background-color: #7fd1d8;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #ffffff;
+  -webkit-box-shadow: 1px 3px 6px #FADE7E;
+          box-shadow: 1px 3px 6px #FADE7E;
+}
+
+input:focus + .slider {
+  -webkit-box-shadow: 1px 3px 6px #7fd1d8;
+          box-shadow: 1px 3px 6px #7fd1d8;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  transform: translateX(26px);
+  background-color: #F7CF43;
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.pagination_black {
+  color: #ffffff !important;
+  background-color: black !important;
+}
+
+.reset__btn_black {
+  background: black;
+  color: #ffffff;
+}
+
+.completed__btn_black {
+  color: #ffffff !important;
+  background-color: black;
+}
+
+.newDesign_subject_question_item-title_black_P {
+  color: #ffffff !important;
+}
+
+.new_btn-start_black_btn {
+  background: black !important;
+}
+
+.img_background_white {
+  background: white;
+}
+
+.x_game_succes {
+  margin-left: 2vh;
+  margin-top: 1.3vh;
+}
+
 .canvas-container {
   width: 100% !important;
 }
@@ -54911,4 +55066,3 @@ body {
   margin-left: 12px;
   color: #c5cbcd;
 }
-/*# sourceMappingURL=new-style.css.map */

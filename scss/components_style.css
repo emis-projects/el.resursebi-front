@@ -1032,6 +1032,10 @@ body {
   padding-left: 5px;
 }
 
+.app-select_title-pointer {
+  cursor: pointer;
+}
+
 .app-select_title a {
   text-align: center;
 }
@@ -2303,31 +2307,31 @@ section .arrow_up_down_downArrow img {
 }
 
 .portfolio-slider-04-6-1.owl-theme .owl-dots .owl-dot:nth-child(1) span {
-  background-image: url("../../img/gakvetilebi/xelovneba/magic-world/A-1366-03-15-1.png");
+  background-image: url("../img/gakvetilebi/xelovneba/magic-world/A-1366-03-15-1.png");
 }
 
 .portfolio-slider-04-6-1.owl-theme .owl-dots .owl-dot:nth-child(2) span {
-  background-image: url("../../img/gakvetilebi/xelovneba/magic-world/A-1366-03-15-2.png");
+  background-image: url("../img/gakvetilebi/xelovneba/magic-world/A-1366-03-15-2.png");
 }
 
 .portfolio-slider-04-6-1.owl-theme .owl-dots .owl-dot:nth-child(3) span {
-  background-image: url("../../img/gakvetilebi/xelovneba/magic-world/A-1366-03-15-3.png");
+  background-image: url("../img/gakvetilebi/xelovneba/magic-world/A-1366-03-15-3.png");
 }
 
 .portfolio-slider-04-6-2.owl-theme .owl-dots .owl-dot:nth-child(1) span {
-  background-image: url("../../img/gakvetilebi/xelovneba/magic-world/nika-16.png");
+  background-image: url("../img/gakvetilebi/xelovneba/magic-world/nika-16.png");
 }
 
 .portfolio-slider-04-6-2.owl-theme .owl-dots .owl-dot:nth-child(2) span {
-  background-image: url("../../img/gakvetilebi/xelovneba/magic-world/taso-16.png");
+  background-image: url("../img/gakvetilebi/xelovneba/magic-world/taso-16.png");
 }
 
 .portfolio-slider-04-6-3.owl-theme .owl-dots .owl-dot:nth-child(1) span {
-  background-image: url("../../img/gakvetilebi/xelovneba/magic-world/tata-17.png");
+  background-image: url("../img/gakvetilebi/xelovneba/magic-world/tata-17.png");
 }
 
 .portfolio-slider-04-6-3.owl-theme .owl-dots .owl-dot:nth-child(2) span {
-  background-image: url("../../img/gakvetilebi/xelovneba/magic-world/alex-17.png");
+  background-image: url("../img/gakvetilebi/xelovneba/magic-world/alex-17.png");
 }
 
 .portfolio-slider-04-6-5.owl-theme .owl-dots .owl-dot:nth-child(1) span {
@@ -5308,4 +5312,103 @@ body {
 .height-75 {
   height: 75%;
 }
-/*# sourceMappingURL=components_style.css.map */
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.switchDark {
+  position: relative;
+  display: inline-block;
+  width: 51px;
+  height: 31px;
+}
+
+.switchDark input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #000000;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 25px;
+  width: 25px;
+  left: -2px;
+  bottom: 2px;
+  background-color: #7fd1d8;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #ffffff;
+  -webkit-box-shadow: 1px 3px 6px #FADE7E;
+          box-shadow: 1px 3px 6px #FADE7E;
+}
+
+input:focus + .slider {
+  -webkit-box-shadow: 1px 3px 6px #7fd1d8;
+          box-shadow: 1px 3px 6px #7fd1d8;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  transform: translateX(26px);
+  background-color: #F7CF43;
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.pagination_black {
+  color: #ffffff !important;
+  background-color: black !important;
+}
+
+.reset__btn_black {
+  background: black;
+  color: #ffffff;
+}
+
+.completed__btn_black {
+  color: #ffffff !important;
+  background-color: black;
+}
+
+.newDesign_subject_question_item-title_black_P {
+  color: #ffffff !important;
+}
+
+.new_btn-start_black_btn {
+  background: black !important;
+}
+
+.img_background_white {
+  background: white;
+}
+
+.x_game_succes {
+  margin-left: 2vh;
+  margin-top: 1.3vh;
+}

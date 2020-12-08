@@ -51,7 +51,7 @@ Vue.component('appBot', {
                         </div>
                   </div>
                     <form id="formData" class="d-flex align-items-center">
-                        <input autocomplete="off" id="chatSend" type="text" name="chat_message" placeholder="კითხე არ მოგერიდოს"
+                        <input autocomplete="off" id="chatSend" type="text" name="chat_message" placeholder="დაწერე შენი შეკითხვები აქ"
                           class="chat_field chat_message">
                         <button id="sendMessage" type="submit" class="send__mail" disabled="disabled"></button>
                     </form>

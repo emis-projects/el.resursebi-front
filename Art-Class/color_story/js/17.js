@@ -101,7 +101,7 @@ function rainbow(){
 	// success page
 	this.successPage  = () => {
 		this.error = false;
-		location.href = 'game-success-17.html';
+		location.href = 'game-success-16.html';
 	}
 
 
