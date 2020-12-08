@@ -44,14 +44,15 @@ function game(){
     
 
 
-    // Drag Functions    
+   
     this.dragOver = (e) => {
         e.preventDefault();
     }
 
-    // drag start 
     this.dragStart = (e) => {
         $( e.target ).clone(true, true).appendTo( e.target.parentElement );
+
+        e.target.parentElement.lastElementChild.setAttribute('style', 'display: none !important')
 
         setTimeout(() => {
             e.target.className = "draggedElement"
@@ -59,10 +60,10 @@ function game(){
     }
 
 
-    // drag end
     this.dragEnd = e => {
         let elClassName = e.target.getAttribute('data-class');
         e.target.className = elClassName;
+        $('.DragGame—childs2').attr('style', 'display: block')
 
         if(e.target.parentElement.classList.contains('DragGame—childs1') == false){
             e.target.remove()
@@ -72,6 +73,8 @@ function game(){
     
 
     this.dragDrop = e => {
+        e.preventDefault();
+
         if(e.target.classList.contains('DragGame—childs1') && !e.target.querySelector('.DragGame—childs2')){
             e.target.appendChild(document.querySelector('.draggedElement'));
             this.incriment++;
