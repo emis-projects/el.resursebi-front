@@ -1703,25 +1703,18 @@ Vue.component("appSections", {
       }
       let data = this.fullData.pages.filter((item) => item.type === type);
 
-      var firstEl = 0;
-      var secondEl = 1;
-
-      for (let i = 0; i < data.length; i++) {
-        //პირველი ელემენტის შენახვა
-        
-          if (type === 5 || type === 3) {
-            data.some((a, i, aa) => {
-              if (i !== 0) {
-                if (aa[i - 1].number + 1 !== a.number) {
-                  this.dataByType.push(a);
-                }
-              } else {
-                this.dataByType.push(a);
-              }
-            });
+      if (type === 5 || type === 3) {
+        data.some((a, i, aa) => {
+          if (i !== 0) {
+            if (aa[i - 1].number + 1 !== a.number) {
+              this.dataByType.push(a);
+            }
           } else {
-            this.dataByType = data;
+            this.dataByType.push(a);
           }
+        });
+      } else {
+        this.dataByType = data;
       }
 
       this.isTypes = false;
