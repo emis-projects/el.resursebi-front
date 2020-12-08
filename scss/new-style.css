@@ -54999,6 +54999,11 @@ input:checked + .slider:before {
   background: white;
 }
 
+.x_game_succes {
+  margin-left: 2vh;
+  margin-top: 1.3vh;
+}
+
 .canvas-container {
   width: 100% !important;
 }
@@ -55060,9 +55065,4 @@ input:checked + .slider:before {
   font-family: "ALK Sanet";
   margin-left: 12px;
   color: #c5cbcd;
-}
-
-.x_game_succes{
-  margin-left: 2vh;
-  margin-top: 1.3vh;
 }
