@@ -169,6 +169,7 @@ Vue.component("appMenu", {
     var newDesignSubjectQuestionItemTitle = document.getElementsByClassName(
       "newDesign_subject_question_item-title"
     );
+    var pDarkMode = document.getElementsByClassName("pDarkMode");
     var algorithme_title_italic = document.getElementsByClassName(
       "algorithme-title-italic"
     );
@@ -184,6 +185,12 @@ Vue.component("appMenu", {
       "circles_number-pink"
     );
     var top_bar = document.getElementsByClassName("top-bar");
+    var img = $(".menu_box_passive").css("background-image");
+    var nabiji = document.getElementsByClassName("newDesign_steps_item-img");
+    //სურათის ფერები რომლებიც შავზე არ ჩანს
+    var imgBackgroundWhite = document.getElementsByClassName(
+      "imgBackgroundWhite"
+    );
 
     if (theme == "darck") {
       //დაწყება დასსრულება
@@ -218,20 +225,27 @@ Vue.component("appMenu", {
       }
 
       //btn index.html
-      for (let i = 0; i < 8; i++) {
+      for (let i = 0; i < 16; i++) {
         if (new_btn_start[i]) {
           new_btn_start[i].classList.add("new_btn-start_black_btn");
         }
       }
       //ფეიჯინგი
       var element = document.body;
-      element.style.background = "black";
+      element.style.backgroundColor = "black";
       this.isDark = true;
       //ტეგები
       //P
-      for (let i = 0; i < 8; i++) {
+      for (let i = 0; i < newDesignSubjectQuestionItemTitle.length; i++) {
         if (newDesignSubjectQuestionItemTitle[i]) {
           newDesignSubjectQuestionItemTitle[i].classList.add(
+            "newDesign_subject_question_item-title_black_P"
+          );
+        }
+      }
+      for (let i = 0; i < pDarkMode.length; i++) {
+        if (pDarkMode[i]) {
+          pDarkMode[i].classList.add(
             "newDesign_subject_question_item-title_black_P"
           );
         }
@@ -247,9 +261,20 @@ Vue.component("appMenu", {
           "newDesign_subject_question_item-title_black_P"
         );
       }
+      // for(let i=0; i<11; i++){
+      //   if(dj_2_3vh[i]){
+      //     dj_2_3vh[i].classList.add("newDesign_subject_question_item-title_black_P");
+      //   }
+      // }
       //index.html დასაწყისი
       if (bg_menu[0]) {
         bg_menu[0].classList.add("new_btn-start_black_btn");
+      }
+      if (app_start[0]) {
+        app_start[0].classList.add("new_btn-start_black_btn");
+      }
+      if (app_sections[0]) {
+        app_sections[0].classList.add("new_btn-start_black_btn");
       }
       if (app_select[0]) {
         app_select[0].classList.add("new_btn-start_black_btn");
@@ -262,12 +287,82 @@ Vue.component("appMenu", {
       if (top_bar[0]) {
         top_bar[0].classList.add("new_btn-start_black_btn");
       }
+
+      window.addEventListener("DOMContentLoaded", () => {
+        $("#prime").css(
+          "background-image",
+          "url(../../Vue-chatBot/img/chat01.png)"
+        );
+        $(".lang-box_passive").css(
+          "background-image",
+          "url(../../New-header-vue/header-img/eng01.png)"
+        );
+        $(".menu_box_passive").css(
+          "background-image",
+          "url(../../New-header-vue/header-img/menu01.png)"
+        );
+
+        //botApp
+        if (document.getElementById("Rectangle_1414-2")) {
+          document.getElementById("Rectangle_1414-2").style.fill = "#000000";
+        }
+        if (document.getElementById("Path_12243-7")) {
+          document.getElementById("Path_12243-7").style.fill = "#000000";
+        }
+        if (document.getElementById("Path_12243-8")) {
+          document.getElementById("Path_12243-8").style.fill = "#000000";
+        }
+        if (document.getElementById("Path_12243-6")) {
+          document.getElementById("Path_12243-6").style.fill = "#000000";
+        }
+        if (document.getElementById("Path_12243-10")) {
+          document.getElementById("Path_12243-10").style.fill = "#000000";
+        }
+        if (document.getElementById("Path_12243-9")) {
+          document.getElementById("Path_12243-9").style.fill = "#000000";
+        }
+
+        //switchDark
+        document.getElementById("switchDarkId").checked = false;
+        document.getElementById("switchDarkIdShadow").style.boxShadow =
+          "1px 3px 6px #7fd1d8";
+      });
+
+      if (document.getElementById("1_kompTeq")) {
+        document.getElementById("1_kompTeq").src =
+          "./img/slider/(blake)slide-illustration-c.svg";
+      }
+      if (document.getElementById("2_buneba")) {
+        document.getElementById("2_buneba").src =
+          "./img/slider/(blake)slide-illustration-n.svg";
+      }
+      if (document.getElementById("3_xelovneba")) {
+        document.getElementById("3_xelovneba").src =
+          "./img/slider/(blake)slide-illustration-a.svg";
+      }
+      if (document.getElementById("4_musika")) {
+        document.getElementById("4_musika").src =
+          "./img/slider/(blake)slide-illustration-m.svg";
+      }
+      //nabiji
+      for (let i = 0; i < nabiji.length; i++) {
+        if (nabiji[i]) {
+          nabiji[i].src = "../../img/icons/step_item(black).svg";
+        }
+      }
     }
   },
   methods: {
     myFunction() {
       var reset__btn = document.getElementsByClassName("reset__btn");
       var completed__btn = document.getElementsByClassName("completed__btn");
+      var audioDownloadBbtnBlack = document.getElementsByClassName(
+        "audio-download__btn"
+      );
+      var btnTextDark = document.getElementsByClassName(
+        "music-new-1-div-6-div-dot-text"
+      );
+      var btnDarkMode = document.getElementsByClassName("btnDarkMode");
       var current__pagination = document.getElementsByClassName(
         "current__pagination"
       );
@@ -309,6 +404,7 @@ Vue.component("appMenu", {
       var newDesignSubjectQuestionItemTitle = document.getElementsByClassName(
         "newDesign_subject_question_item-title"
       );
+      var pDarkMode = document.getElementsByClassName("pDarkMode");
       //H
       var algorithme_title_italic = document.getElementsByClassName(
         "algorithme-title-italic"
@@ -316,14 +412,46 @@ Vue.component("appMenu", {
       var newDesign_container_main_title = document.getElementsByClassName(
         "newDesign_container_main_title"
       );
+      //??info-box
+      var info_box = document.getElementsByClassName("info-box");
 
       var element = document.body;
+
       if (!this.isDark) {
+        if (appendChild_img) {
+          for (let i = 0; i < appendChild_img.length; i++) {
+            appendChild_img[i].src = appendChild_img[i].src.replace(
+              "white",
+              "whiteDark"
+            );
+          }
+        }
+
+        if (document.getElementById("nabijiType")) {
+          document.getElementById("nabijiType").src =
+            "../../img/icons/davalebebi/nabiji-whiteDark.svg";
+        }
+        if (document.getElementById("savarjishoType")) {
+          document.getElementById("savarjishoType").src =
+            "../../img/icons/davalebebi/savarjisho-whiteDark.svg";
+        }
+        if (document.getElementById("minishnebaType")) {
+          document.getElementById("minishnebaType").src =
+            "../../img/icons/davalebebi/minishneba-whiteDark.svg";
+        }
+        if (document.getElementById("shualeduriType")) {
+          document.getElementById("shualeduriType").src =
+            "../../img/icons/davalebebi/shualeduri-whiteDark.svg";
+        }
+        if (document.getElementById("kompleqsuriType")) {
+          document.getElementById("kompleqsuriType").src =
+            "../../img/icons/davalebebi/kompleqsuri-whiteDark.svg";
+        }
         //დაწყება დასრულება
         if (reset__btn[0]) {
           reset__btn[0].classList.add("reset__btn_black");
         }
-        if (reset__btn[0]) {
+        if (completed__btn[0]) {
           completed__btn[0].classList.add("completed__btn_black");
         }
         if (audioDownloadBbtnBlack[0]) {
@@ -345,7 +473,7 @@ Vue.component("appMenu", {
           }
         }
         //btn index.html
-        for (let i = 0; i < 8; i++) {
+        for (let i = 0; i < 16; i++) {
           if (new_btn_start[i]) {
             new_btn_start[i].classList.add("new_btn-start_black_btn");
           }
@@ -366,11 +494,11 @@ Vue.component("appMenu", {
           pagination__next__btn[0].classList.add("pagination_black");
         }
         localStorage.setItem("theme", "darck");
-        element.style.background = "black";
+        element.style.backgroundColor = "black";
         this.isDark = true;
         //ტეგები
         //p
-        for (let i = 0; i < 8; i++) {
+        for (let i = 0; i < newDesignSubjectQuestionItemTitle.length; i++) {
           if (newDesignSubjectQuestionItemTitle[i]) {
             newDesignSubjectQuestionItemTitle[i].classList.add(
               "newDesign_subject_question_item-title_black_P"
@@ -406,8 +534,15 @@ Vue.component("appMenu", {
           info_box[0].classList.add("completed__btn_black");
         }
         //index.html დასაწყისი
+
         if (bg_menu[0]) {
           bg_menu[0].classList.add("new_btn-start_black_btn");
+        }
+        if (app_start[0]) {
+          app_start[0].classList.add("new_btn-start_black_btn");
+        }
+        if (app_sections[0]) {
+          app_sections[0].classList.add("new_btn-start_black_btn");
         }
         if (app_select[0]) {
           app_select[0].classList.add("new_btn-start_black_btn");
@@ -420,7 +555,115 @@ Vue.component("appMenu", {
         if (top_bar[0]) {
           top_bar[0].classList.add("new_btn-start_black_btn");
         }
+        //გათიშვა x
+        if (close[0]) {
+          close[0].children[0].src = "../../img/icons/black_close.svg";
+        }
+        //botApp
+        if (document.getElementById("Rectangle_1414-2")) {
+          document.getElementById("Rectangle_1414-2").style.fill = "#000000";
+        }
+        if (document.getElementById("Path_12243-7")) {
+          document.getElementById("Path_12243-7").style.fill = "#000000";
+        }
+        if (document.getElementById("Path_12243-8")) {
+          document.getElementById("Path_12243-8").style.fill = "#000000";
+        }
+        if (document.getElementById("Path_12243-6")) {
+          document.getElementById("Path_12243-6").style.fill = "#000000";
+        }
+        if (document.getElementById("Path_12243-10")) {
+          document.getElementById("Path_12243-10").style.fill = "#000000";
+        }
+        if (document.getElementById("Path_12243-9")) {
+          document.getElementById("Path_12243-9").style.fill = "#000000";
+        }
+
+        //icons
+        $("#prime").css(
+          "background-image",
+          "url(../../Vue-chatBot/img/chat01.png)"
+        );
+        $(".lang-box_passive").css(
+          "background-image",
+          "url(../../New-header-vue/header-img/eng01.png)"
+        );
+        $(".menu_box_passive").css(
+          "background-image",
+          "url(../../New-header-vue/header-img/menu01.png)"
+        );
+        $(".menu_box_active").css(
+          "background-image",
+          "url(../../New-header-vue/header-img/menu01.png)"
+        );
+        //
+
+        if (document.getElementById("3_xelovneba")) {
+          console.log(document.getElementById("3_xelovneba").src);
+        }
+        if (document.getElementById("1_kompTeq")) {
+          document.getElementById("1_kompTeq").src =
+            "./img/slider/(blake)slide-illustration-c.svg";
+        }
+        if (document.getElementById("2_buneba")) {
+          document.getElementById("2_buneba").src =
+            "./img/slider/(blake)slide-illustration-n.svg";
+        }
+        if (document.getElementById("3_xelovneba")) {
+          document.getElementById("3_xelovneba").src =
+            "./img/slider/(blake)slide-illustration-a.svg";
+        }
+        if (document.getElementById("4_musika")) {
+          document.getElementById("4_musika").src =
+            "./img/slider/(blake)slide-illustration-m.svg";
+        }
+        if (document.getElementById("3_xelovneba")) {
+          console.log(document.getElementById("3_xelovneba").src);
+        }
+        //switchDarkIdShadow
+        document.getElementById("switchDarkIdShadow").style.boxShadow =
+          "1px 3px 6px #7fd1d8";
+        //nabiji
+        for (let i = 0; i < nabiji.length; i++) {
+          if (nabiji[i]) {
+            nabiji[i].src = "../../img/icons/step_item(black).svg";
+          }
+        }
+
+        //სარჩევი
+        if (this.isActive && document.getElementById("mynetwork")) {
+          initDark();
+        }
       } else {
+        if (appendChild_img) {
+          for (let i = 0; i < appendChild_img.length; i++) {
+            appendChild_img[i].src = appendChild_img[i].src.replace(
+              "whiteDark",
+              "white"
+            );
+          }
+        }
+        if (document.getElementById("nabijiType")) {
+          document.getElementById("nabijiType").src =
+            "../../img/icons/davalebebi/nabiji-white.svg";
+        }
+        if (document.getElementById("savarjishoType")) {
+          document.getElementById("savarjishoType").src =
+            "../../img/icons/davalebebi/savarjisho-white.svg";
+        }
+        if (document.getElementById("minishnebaType")) {
+          document.getElementById("minishnebaType").src =
+            "../../img/icons/davalebebi/minishneba-white.svg";
+        }
+        if (document.getElementById("shualeduriType")) {
+          document.getElementById("shualeduriType").src =
+            "../../img/icons/davalebebi/shualeduri-white.svg";
+        }
+        if (document.getElementById("kompleqsuriType")) {
+          document.getElementById("kompleqsuriType").src =
+            "../../img/icons/davalebebi/kompleqsuri-white.svg";
+        }
+
         if (reset__btn[0]) {
           reset__btn[0].classList.remove("reset__btn_black");
         }
@@ -446,9 +689,14 @@ Vue.component("appMenu", {
           }
         }
         //btn index.html
-        for (let i = 0; i < 8; i++) {
+        for (let i = 0; i < 16; i++) {
           if (new_btn_start[i]) {
             new_btn_start[i].classList.remove("new_btn-start_black_btn");
+          }
+        }
+        for (let i = 0; i < imgBackgroundWhite.length; i++) {
+          if (imgBackgroundWhite[i]) {
+            imgBackgroundWhite[i].classList.add("img_background_white");
           }
         }
         if (current__pagination[0]) {
@@ -465,7 +713,7 @@ Vue.component("appMenu", {
         this.isDark = false;
         //ტეგები
         //P
-        for (let i = 0; i < 8; i++) {
+        for (let i = 0; i < newDesignSubjectQuestionItemTitle.length; i++) {
           if (newDesignSubjectQuestionItemTitle[i]) {
             newDesignSubjectQuestionItemTitle[i].classList.remove(
               "newDesign_subject_question_item-title_black_P"
@@ -502,6 +750,12 @@ Vue.component("appMenu", {
         //index.html დასაწყისი
         if (bg_menu[0]) {
           bg_menu[0].classList.remove("new_btn-start_black_btn");
+        }
+        if (app_start[0]) {
+          app_start[0].classList.remove("new_btn-start_black_btn");
+        }
+        if (app_sections[0]) {
+          app_sections[0].classList.remove("new_btn-start_black_btn");
         }
         if (app_select[0]) {
           app_select[0].classList.remove("new_btn-start_black_btn");
@@ -584,7 +838,6 @@ Vue.component("appMenu", {
         </a>
         <ul class="navbar-nav ml-auto">
          <li
-
           >
             <div>
             <label class="switchDark">
@@ -593,7 +846,6 @@ Vue.component("appMenu", {
             </label>
             </div>
           </li>
-
           <!--ხმის ჩართვა/გამორთვა <li
             @click="isShow = !isShow"
             class="nav-item"
@@ -673,6 +925,21 @@ Vue.component("appSection", {
       type: Boolean,
     },
   },
+  data() {
+    return {
+      darkMode: false,
+    };
+  },
+  watch: {
+    isActive() {
+      var theme = localStorage.getItem("theme");
+      if (theme == "darck") {
+        this.darkMode = true;
+      } else {
+        this.darkMode = false;
+      }
+    },
+  },
   template: `
             <div>
                 <section class="section_box">
@@ -691,7 +958,6 @@ Vue.component("appSection", {
                     ></div>
                 </transition>
             </div>
-
     `,
 });
 
@@ -1088,7 +1354,6 @@ Vue.component("appSelect", {
             mode="out-in"
             appear
         >
-
             <div v-if="isActive" class="page-section"
                 :class="[
                   isActive && darkMode? 'app-select new_btn-start_black_btn' : 'app-select',
@@ -1151,11 +1416,9 @@ Vue.component("appSelect", {
                                      mode="out-in">
                             <div v-if="isPagination" class="class-pagination d-flex justify-content-center align-items-center">
                                 <div v-if="currentPage !== 1" @click="currentPage--" class="prev arrow-left-open"></div>
-
                                 <div @click="currentPage = item" v-for="item in totalPages" :key="item" :class="[item === currentPage ? 'current' : 'dot' ]">
                                     <p>{{ item }}</p>
                                 </div>
-
                                 <div v-if="currentPage !== totalPages" @click="currentPage++" class="next arrow-right-open"></div>
                             </div>
                         </transition>
@@ -1233,7 +1496,13 @@ Vue.component("appLinks", {
       (x) => x !== null
     );
 
-    //init();
+    var theme = localStorage.getItem("theme");
+    if (theme == "darck") {
+      initDark();
+    } else {
+      init();
+    }
+    // init();
   },
   computed: {
     itClassText() {
@@ -1415,7 +1684,7 @@ Vue.component("appSections", {
   },
   methods: {
     getSimilarTypes(type) {
-      // მსგავსი ტიპების აღოება ჯეისონ ფაილიდან
+      // მსგავსი ტიპების ამოზება ჯეისონ ფაილიდან
       var theme = localStorage.getItem("theme");
       if (theme == "darck") {
         this.typeInfo[1].img =
@@ -1434,18 +1703,25 @@ Vue.component("appSections", {
       }
       let data = this.fullData.pages.filter((item) => item.type === type);
 
-      if (type === 5 || type === 3) {
-        data.some((a, i, aa) => {
-          if (i !== 0) {
-            if (aa[i - 1].number + 1 !== a.number) {
-              this.dataByType.push(a);
-            }
+      var firstEl = 0;
+      var secondEl = 1;
+
+      for (let i = 0; i < data.length; i++) {
+        //პირველი ელემენტის შენახვა
+        
+          if (type === 5 || type === 3) {
+            data.some((a, i, aa) => {
+              if (i !== 0) {
+                if (aa[i - 1].number + 1 !== a.number) {
+                  this.dataByType.push(a);
+                }
+              } else {
+                this.dataByType.push(a);
+              }
+            });
           } else {
-            this.dataByType.push(a);
+            this.dataByType = data;
           }
-        });
-      } else {
-        this.dataByType = data;
       }
 
       this.isTypes = false;
