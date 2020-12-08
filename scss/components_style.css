@@ -1032,6 +1032,10 @@ body {
   padding-left: 5px;
 }
 
+.app-select_title-pointer {
+  cursor: pointer;
+}
+
 .app-select_title a {
   text-align: center;
 }
@@ -5399,4 +5403,12 @@ input:checked + .slider:before {
 .new_btn-start_black_btn {
   background: black !important;
 }
-/*# sourceMappingURL=components_style.css.map */
+
+.img_background_white {
+  background: white;
+}
+
+.x_game_succes {
+  margin-left: 2vh;
+  margin-top: 1.3vh;
+}

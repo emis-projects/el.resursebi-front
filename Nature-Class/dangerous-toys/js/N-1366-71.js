@@ -59,7 +59,9 @@ function natureGames(){
     
     
     // drop 
-    this.dragDrop = e => {    
+    this.dragDrop = e => {  
+        e.preventDefault();
+          
         let drag = document.querySelector('.draggedElement');
 
         if(e.target.classList.contains('nature-action-material-pic') || e.target.classList.contains('nature-material-row-pic')){

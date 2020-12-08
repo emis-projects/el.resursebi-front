@@ -44,7 +44,6 @@ function game() {
     })
 
     
-    
     var myArray = [];
 
     for(var i = 0; i < items.length; i++ ){
@@ -58,24 +57,24 @@ function game() {
             createjs.Sound.registerSound({src:`${e.target.getAttribute('data-voice')}`, id:"sound"});
             handleLoadComplete();
 
-            let value = this.answersArray.concat(w.getAttribute('data-index'))
+            if(this.index >= 3) {
+                let v = this.answersArray.concat(w.getAttribute('data-index'))
 
-            this.answersArray = value
-
-            if(correctAnswer.getAttribute('data-correct') == this.answersArray){
-                this.error = false;
-    
+                this.answersArray = v;
             } else {
-                this.error = true;
-            }
+                this.answersArray = w.getAttribute('data-index')
+            } 
         })
     })
 
-    this.checkGameAnswers = () => {
-        if(!this.error){
-            this.checkWhichPageIs()
 
+    this.checkGameAnswers = () => {
+        if(this.answersArray == this.answer){
+            this.error = false
+            this.checkWhichPageIs()
+            
         } else {
+            this.error = true
             $('.DragGame—childs1').attr('style', 'border: 2px solid #dc6c85;')
         }
     }
@@ -86,7 +85,7 @@ function game() {
         if(this.index == 1){
             this.index = 2;
             this.answersArray = "";
-            this.answer = "1"
+            this.answer = "2"
             this.error = true;
             document.getElementById('correctAnswer').setAttribute('data-correct', this.answer);
             $('.newDesign_subject_question_item-child').attr('style', 'display: none');
@@ -110,6 +109,9 @@ function game() {
 
     this.init = () => {
         this.answersArray = '';
+        this.error = true;
+        this.index = 1;
+        this.answer = "1"
 
         $('.DragGame—childs1').removeAttr('style');
 

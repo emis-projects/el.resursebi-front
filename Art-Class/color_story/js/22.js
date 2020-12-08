@@ -228,13 +228,13 @@ function dragQuizGame(){
 
   // success page
 	this.successPage  = () => {
-    if(location.pathname == "/Art-Lessons/color_story/games/1366-47.html" || location.pathname == "/Art-Class/color_story/22.html" || location.pathname == "/el.resursebi-front/Art-Class/color_story/22.html" ){
+    if(location.pathname == "/Art-Lessons/color_story/games/1366-47.html" || location.pathname == "/Art-Class/color_story/19.html" || location.pathname == "/el.resursebi-front/Art-Class/color_story/19.html" ){
       //location.href = '1366-47-success.html';
-        location.href = 'game-success-22.html';
+        location.href = 'game-success-19.html';
 
-    } else if(location.pathname == "/Art-Lessons/color_story/games/1366-48.html"  || location.pathname == "/Art-Class/color_story/23.html" || location.pathname == "/el.resursebi-front/Art-Class/color_story/23.html"){
+    } else if(location.pathname == "/Art-Lessons/color_story/games/1366-48.html"  || location.pathname == "/Art-Class/color_story/20.html" || location.pathname == "/el.resursebi-front/Art-Class/color_story/20.html"){
       //location.href = '1366-48-success.html';
-        location.href = 'game-success-23.html';
+        location.href = 'game-success-20.html';
 
     } else if(location.pathname == "/el.resursebi-front/Art-Lessons/color_story/games/1366-47.html") {
       location.href = '1366-47-success.html';
