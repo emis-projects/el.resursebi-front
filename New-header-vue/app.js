@@ -329,11 +329,15 @@ Vue.component("appMenu", {
       var dj_2_3vh = document.getElementsByClassName("dj-2_3vh");
       var Rectangle_1414_2 = document.getElementById("Rectangle_1414-2");
       var nabiji = document.getElementsByClassName('newDesign_steps_item-img');
+      //სურთები
       var appendChild_img = document.getElementsByClassName('appendChild--img');
+      var element_box = document.getElementsByClassName('element-box');
       //სურათის ფერები რომლებიც შავზე არ ჩანს
       var imgBackgroundWhite = document.getElementsByClassName('imgBackgroundWhite');
       //გათიშვის ღილაკი წარმატების და მინიშნების გვერდისთვის x
       var close = document.getElementsByClassName('close');
+
+      var dj_2_3vh = document.getElementsByClassName("dj-2_3vh");
 
 
 
@@ -353,6 +357,12 @@ Vue.component("appMenu", {
         if (appendChild_img) {
           for (let i = 0; i < appendChild_img.length; i++) {
             appendChild_img[i].src = appendChild_img[i].src.replace("white", "whiteDark");
+          }
+        }
+        
+        for(let i=0; i<element_box.length; i++){
+          if(element_box[i]){
+            element_box[i].children[0].src = element_box[i].children[0].src.replace(".png", "_dark.png");
           }
         }
 
@@ -448,7 +458,7 @@ Vue.component("appMenu", {
         }
         //???
         if (info_box[0]) {
-          info_box[0].classList.add("completed__btn_black");
+          info_box[0].classList.add("new_btn-start_black_btn");
         }
         //index.html დასაწყისი
 
@@ -542,6 +552,12 @@ Vue.component("appMenu", {
             appendChild_img[i].src = appendChild_img[i].src.replace("whiteDark", "white");
           }
         }
+        for(let i=0; i<element_box.length; i++){
+          if(element_box[i]){
+            element_box[i].children[0].src = element_box[i].children[0].src.replace("_dark.png", ".png");
+          }
+        }
+
         if (document.getElementById('nabijiType')) {
           document.getElementById('nabijiType').src = "../../img/icons/davalebebi/nabiji-white.svg";
         }
@@ -630,8 +646,9 @@ Vue.component("appMenu", {
           newDesign_container_main_title[0].classList.remove("newDesign_subject_question_item-title_black_P");
         }
         //???
+        
         if (info_box[0]) {
-          info_box[0].classList.remove("completed__btn_black");
+          info_box[0].classList.remove("new_btn-start_black_btn");
         }
         //index.html დასაწყისი
         if (bg_menu[0]) {
@@ -824,6 +841,15 @@ Vue.component("appSection", {
       else {
         this.darkMode = false
       }
+    },
+    isInfo() {
+      var theme = localStorage.getItem('theme')
+      if (theme == 'darck') {
+        this.darkMode = true
+      }
+      else {
+        this.darkMode = false
+      }
     }
   },
   template: `
@@ -839,9 +865,11 @@ Vue.component("appSection", {
                     mode="out-in">
                     <div v-if="isActive || isInfo"
                     :class="[
-                      isActive && darkMode? 'bg_menu new_btn-start_black_btn' : 'bg_menu',
+                      (isActive || isInfo) && darkMode? 'bg_menu new_btn-start_black_btn' : 'bg_menu',
                     ]"
                     ></div>
+
+                    
                 </transition>
             </div>
 
@@ -917,9 +945,44 @@ Vue.component("appInfo", {
   data() {
     return {
       currentPage: 1,
+      darkMode: false,
     };
   },
-  template: `<div class="row info-box" v-if="isInfo">
+  //dark_mode-თვის
+  updated(){
+    var theme = localStorage.getItem('theme');
+    if (theme == 'darck') {
+      this.darkMode = true
+    }
+    else {
+      this.darkMode = false
+    }
+  },
+  created() {
+    var theme = localStorage.getItem('theme');
+    if (theme == 'darck') {
+      this.darkMode = true
+    }
+    else {
+      this.darkMode = false
+    }
+  },
+  watch: {
+    isInfo() {
+      var theme = localStorage.getItem('theme')
+      if (theme == 'darck') {
+        this.darkMode = true
+      }
+      else {
+        this.darkMode = false
+      }
+    }
+  },
+  template: `<div v-if="isInfo"
+            :class="[
+              isInfo && darkMode? 'row info-box new_btn-start_black_btn' : 'info-box',
+            ]"
+            >
                    <div class="col-12">
                         <transition
                             enter-active-class="animated flipInX"
@@ -931,24 +994,36 @@ Vue.component("appInfo", {
                         >
                             <div class="row" v-if="currentPage === 1" :key="1">
                                 <div class="col-9 m-auto">
-                                     <p class="dj-2_3vh">ვებგვერდზე განთავსებული დამხმარე ელექტრონული რესურსები შექმნილია I-VI კლასის სასკოლო პროგრამის შესაბამისად და ე
+                                     <p
+                                      :class="[
+                                      darkMode? 'pDarkMode dj-2_3vh newDesign_subject_question_item-title_black_P' : 'dj-2_3vh pDarkMode',
+                                      ]">
+                                     ვებგვერდზე განთავსებული დამხმარე ელექტრონული რესურსები შექმნილია I-VI კლასის სასკოლო პროგრამის შესაბამისად და ე
                                      მსახურება სასწავლო პროცესში მოსწავლეთა ჩართულობის გაზრდას. ყოველი თემა მოიცავს რამდენიმე ნაბიჯსა და კომპლექსურ დავალებას.
                                      მოსწავლის მიზანია, ნაბიჯების გავლისას მოაგროვოს საკმარისი ცოდნა, რომელსაც გამოიყენებს საბოლოო, რამდენიმეკომპონენტიანი კომპლექსური დავალების შესასრულებლად.
                                      რესურსები მოიცავს სხვადასხვა თამაშსა და სახალისო აქტივობას. ვებგვერდზე ჩაშენებულია ჩეთბოტის ფანჯარა.
                                      მისი დახმარებით მოსწავლეებსა და მასწავლებლებს საშუალება აქვთ, გაესაუბრონ ხელოვნურ ინტელექტს, დასვან კითხვები რესურსების თემატიკაზე და მიიღონ პასუხები.</p>
                                 </div>
                                 <div class="col-10 m-auto">
-                                    <h1 class="alk-san_2-6vh mt-5vh text-center">ელექტრონული საგანმანათლებლო რესურსების ძირითადი კომპონენტები</h1>
+                                    <h1
+                                      :class="[
+                                      darkMode? 'pDarkMode alk-san_2-6vh mt-5vh text-center newDesign_subject_question_item-title_black_P' : 'pDarkMode alk-san_2-6vh mt-5vh text-center',
+                                      ]">
+                                    ელექტრონული საგანმანათლებლო რესურსების ძირითადი კომპონენტები</h1>
                                 </div>
                                 <div class="col-11 m-auto">
                                      <div class="row mt-5vh">
                                          <div class="col-1">
                                              <div class="element-box">
-                                                 <img :src="path+'New-header-vue/header-img/step.png'" alt="step" class="img-fluid">
+                                                 <img :src="darkMode? path+'New-header-vue/header-img/step_dark.png': path+'New-header-vue/header-img/step.png'" alt="step" class="img-fluid">
                                              </div>
                                          </div>
                                          <div class="col-10">
-                                             <p class="dj-2_3vh"><span class="title-pink dj-2_3vh">ნაბიჯი</span> — შეადგენს ელექტრონული რესურსის ძირითად ნაწილს. ნაბიჯი მოიცავს მასალას, რომელიც კლასში მუშავდება,
+                                             <p
+                                              :class="[
+                                              darkMode? 'pDarkMode dj-2_3vh newDesign_subject_question_item-title_black_P' : 'dj-2_3vh pDarkMode',
+                                              ]"><span class="title-pink dj-2_3vh">
+                                             ნაბიჯი</span> — შეადგენს ელექტრონული რესურსის ძირითად ნაწილს. ნაბიჯი მოიცავს მასალას, რომელიც კლასში მუშავდება,
                                              ის შედგება კონკრეტულ საგნობრივ საკითხებთან დაკავშირებული შინაარსობრივი ბლოკებისგან. ერთი ნაბიჯი შეიძლება განხორციელდეს ერთი ან რამდენიმე გაკვეთილის განმავლობაში.
                                              ნაბიჯიდან, თავის მხრივ, შეეგვილია, გადავიდეთ სავარჯიშოზე, მინიშნებაზე ან შუალედურ დავალებაზე.</p>
                                          </div>
@@ -960,11 +1035,15 @@ Vue.component("appInfo", {
                                     <div class="row">
                                          <div class="col-1">
                                             <div class="element-box">
-                                                <img :src="path+'New-header-vue/header-img/task.png'" alt="task" class="img-fluid">
+                                                <img :src="darkMode? path+'New-header-vue/header-img/task_dark.png': path+'New-header-vue/header-img/task.png'" alt="task" class="img-fluid">
                                             </div>
                                          </div>
                                          <div class="col-10">
-                                            <p class="dj-2_3vh"><span class="title-pink dj-2_3vh">სავარჯიშო</span> — პატარა კომპიუტერული თამაში, რომელიც ერთი კონკრეტული ამოცანის ამოხსნაზე ან საკითხის შესწავლაზე არის ორიენტირებული.
+                                            <p
+                                            :class="[
+                                            darkMode? 'pDarkMode dj-2_3vh newDesign_subject_question_item-title_black_P' : 'dj-2_3vh pDarkMode',
+                                            ]">
+                                            <span class="title-pink dj-2_3vh">სავარჯიშო</span> — პატარა კომპიუტერული თამაში, რომელიც ერთი კონკრეტული ამოცანის ამოხსნაზე ან საკითხის შესწავლაზე არის ორიენტირებული.
                                             მაგალითად, შედგენილი ფერების შექმნა ძირითადი ფერებისგან. სავარჯიშო არის ელექტრონულად შესასრულებელი სამუშაო.</p>
                                          </div>
                                     </div>
@@ -973,11 +1052,15 @@ Vue.component("appInfo", {
                                     <div class="row mt-5vh">
                                          <div class="col-1">
                                             <div class="element-box">
-                                                <img :src="path+'New-header-vue/header-img/intermediate.png'" alt="task" class="img-fluid">
+                                                <img :src="darkMode? path+'New-header-vue/header-img/intermediate_dark.png': path+'New-header-vue/header-img/intermediate.png'" alt="task" class="img-fluid">
                                             </div>
                                          </div>
                                          <div class="col-10">
-                                            <p class="dj-2_3vh"><span class="title-pink dj-2_3vh">შუალედური დავალება</span> — მოყვება ნაბიჯს ან სავარჯიშოს. შუალედური დავალება ელექტრონულად შესასრულებელი სავარჯიშოსგან განსხვავებულია,
+                                            <p
+                                            :class="[
+                                            darkMode? 'pDarkMode dj-2_3vh newDesign_subject_question_item-title_black_P' : 'dj-2_3vh pDarkMode',
+                                            ]">
+                                            <span class="title-pink dj-2_3vh">შუალედური დავალება</span> — მოყვება ნაბიჯს ან სავარჯიშოს. შუალედური დავალება ელექტრონულად შესასრულებელი სავარჯიშოსგან განსხვავებულია,
                                             გულისხმობს ღია ტიპის შეკითხვებს ან ისეთ აქტივობებს, რომლებიც არაელექტრონულ ფორმატში სრულდება.</p>
                                          </div>
                                     </div>
@@ -986,11 +1069,15 @@ Vue.component("appInfo", {
                                     <div class="row mt-5vh">
                                          <div class="col-1">
                                             <div class="element-box">
-                                                <img :src="path+'New-header-vue/header-img/hint.png'" alt="task" class="img-fluid">
+                                                <img :src="darkMode? path+'New-header-vue/header-img/hint_dark.png': path+'New-header-vue/header-img/hint.png'" alt="task" class="img-fluid">
                                             </div>
                                          </div>
                                          <div class="col-10">
-                                            <p class="dj-2_3vh"><span class="title-blue dj-2_3vh">მინიშნება</span> — ასრულებს ერთგვარი ინტერაქტიული ლექსიკონის ფუნქციას, რომელშიც ესა თუ ის საკითხი იქნება განმარტებული,
+                                            <p
+                                            :class="[
+                                            darkMode? 'pDarkMode dj-2_3vh newDesign_subject_question_item-title_black_P' : 'pDarkMode dj-2_3vh',
+                                            ]">
+                                            <span class="title-blue dj-2_3vh">მინიშნება</span> — ასრულებს ერთგვარი ინტერაქტიული ლექსიკონის ფუნქციას, რომელშიც ესა თუ ის საკითხი იქნება განმარტებული,
                                             მინიშნებული, მაგალითად, რომელია ძირითადი ფერები. სავარჯიშოსგან განსხვავებით აქ ბავშვი მხოლოდ ინფორმაციას მიიღებს.</p>
                                          </div>
                                     </div>
@@ -999,11 +1086,15 @@ Vue.component("appInfo", {
                                     <div class="row mt-5vh">
                                          <div class="col-1">
                                             <div class="element-box">
-                                                <img :src="path+'New-header-vue/header-img/compl-task.png'" alt="task" class="img-fluid">
+                                                <img :src="darkMode? path+'New-header-vue/header-img/compl-task_dark.png': path+'New-header-vue/header-img/compl-task.png'" alt="task" class="img-fluid">
                                             </div>
                                          </div>
                                          <div class="col-10">
-                                            <p class="dj-2_3vh"><span class="title-blue dj-2_3vh">კომპლექსური დავალება</span> — მოსდევს სხვა აქტივობებს და განთავსებულია ბოლოში. კომპლექსური დავალება არის რესურსის ძირითადი კომპონენტი,
+                                            <p
+                                            :class="[
+                                            darkMode? 'pDarkMode dj-2_3vh newDesign_subject_question_item-title_black_P' : 'dj-2_3vh pDarkMode',
+                                            ]">
+                                            <span class="title-blue dj-2_3vh">კომპლექსური დავალება</span> — მოსდევს სხვა აქტივობებს და განთავსებულია ბოლოში. კომპლექსური დავალება არის რესურსის ძირითადი კომპონენტი,
                                              რომლის შესრულებისასაც მოსწავლეებმა აქტივობებისას მიღებული ცოდნა უნდა გააერთიანონ.</p>
                                          </div>
                                     </div>
@@ -1016,7 +1107,12 @@ Vue.component("appInfo", {
                                             </div>
                                          </div>
                                          <div class="col-10">
-                                            <p class="dj-2_3vh"><span class="title-blue dj-2_3vh">ვიდეო ინსტრუქცია</span><br/> <a class="dj-2_3vh" href="https://youtu.be/7P4U16oh07Y" target="_blank">https://youtu.be/7P4U16oh07Y</a></p>
+                                            <p class="dj-2_3vh"><span class="title-blue dj-2_3vh">ვიდეო ინსტრუქცია</span><br/>
+                                            <a
+                                            :class="[
+                                            darkMode? 'pDarkMode dj-2_3vh newDesign_subject_question_item-title_black_P' : 'dj-2_3vh pDarkMode',
+                                            ]" href="https://youtu.be/7P4U16oh07Y" target="_blank">
+                                            https://youtu.be/7P4U16oh07Y</a></p>
                                          </div>
                                     </div>
                                 </div>
@@ -1025,21 +1121,33 @@ Vue.component("appInfo", {
                    </div>
                    <div class="col-2 m-auto section_pagination">
                        <div class="d-flex justify-content-between align-items-center side-margin">
-                           <div class="pagination__prev__btn" @click="currentPage--" v-if="currentPage !== 1">
+                           <div
+                           :class="[
+                            darkMode? 'pagination__prev__btn pagination_black' : 'pagination__prev__btn',
+                           ]"
+                           @click="currentPage--" v-if="currentPage !== 1">
                                <img alt="next" :src="path + '/img/icons/chevron-left-icon.svg'">
                            </div>
                            <div class="pagination__item d-flex justify-content-center align-items-center" v-if="currentPage !==1">
                                <div class="pagination__dot"></div>
                            </div>
                            <div class="flex align-items-center" id="pagination">
-                               <div class="pagination__item">
-                                   <div class="current__pagination" >{{ currentPage }}</div>
+                               <div class="pagination__item"> 
+                                   <div
+                                    :class="[
+                                      darkMode? 'current__pagination pagination_black' : 'current__pagination',
+                                    ]">
+                                   {{ currentPage }}</div>
                                </div>
                            </div>
                            <div class="pagination__item d-flex justify-content-center align-items-center" v-if="currentPage !==2">
                                <div class="pagination__dot"></div>
                            </div>
-                           <div class="pagination__next__btn" @click="currentPage++" v-if="currentPage !== 2">
+                           <div
+                           :class="[
+                            darkMode? 'pagination__next__btn pagination_black' : 'pagination__next__btn',
+                           ]"
+                           @click="currentPage++" v-if="currentPage !== 2">
                                <img alt="next" :src="path + 'img/icons/chevron-left-icon.svg'">
                            </div>
                        </div>
