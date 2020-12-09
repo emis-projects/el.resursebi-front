@@ -21,13 +21,13 @@ if (theme == "darck") {
   element.style.backgroundColor = "black";
 
   // ah და ar nature_lessons-ის ბუთნები
-  for(let i=1; i<document.getElementsByClassName('ah').length; i++){
-    if(document.getElementsByClassName('ah')){
+  for (let i = 1; i < document.getElementsByClassName('ah').length; i++) {
+    if (document.getElementsByClassName('ah')) {
       document.getElementsByClassName('ah')[i].style.fill = "#000000";
     }
   }
-  for(let i=0; i<document.getElementsByClassName('ar').length; i++){
-    if(document.getElementsByClassName('ar')){
+  for (let i = 0; i < document.getElementsByClassName('ar').length; i++) {
+    if (document.getElementsByClassName('ar')) {
       document.getElementsByClassName('ar')[i].style.fill = "#ffffff";
     }
   }
@@ -585,7 +585,7 @@ Vue.component("appMenu", {
         if (this.isActive && document.getElementById("mynetwork")) {
           initDark();
         }
-      } 
+      }
       else {
 
         //ფოტოების გადიდების დროს უკანა ფონი
