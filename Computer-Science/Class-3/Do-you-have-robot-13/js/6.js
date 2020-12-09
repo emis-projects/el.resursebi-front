@@ -89,10 +89,13 @@ function musicGames() {
         myArray.forEach(element => {
             if (element.getAttribute('data-place') == element.parentElement.getAttribute('data-place')) {
                 element.parentElement.style.borderColor = "#a1dd6f";
+                element.parentElement.style.borderWidth = "2px";
+
 
             }
             else if (element.parentElement.classList.contains('myDrag')) {
                 element.parentElement.style.borderColor = "#dc6c85";
+                element.parentElement.style.borderWidth = "2px";
             }
 
 
