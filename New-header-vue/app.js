@@ -17,6 +17,16 @@ var close = document.getElementsByClassName("close");
 if (theme == "darck") {
   var element = document.body;
   element.style.backgroundColor = "black";
+  for(let i=1; i<document.getElementsByClassName('ah').length; i++){
+    if(document.getElementsByClassName('ah')){
+      document.getElementsByClassName('ah')[i].style.fill = "#000000";
+    }
+  }
+  for(let i=0; i<document.getElementsByClassName('ar').length; i++){
+    if(document.getElementsByClassName('ar')){
+      document.getElementsByClassName('ar')[i].style.fill = "#ffffff";
+    }
+  }
   if (document.getElementById("Rectangle_1414-2")) {
     document.getElementById("Rectangle_1414-2").style.fill = "#000000";
   }
@@ -42,22 +52,16 @@ if (theme == "darck") {
     );
   });
   if (newDesign_container_main_title[0]) {
-    newDesign_container_main_title[0].classList.add(
-      "newDesign_subject_question_item-title_black_P"
-    );
+    newDesign_container_main_title[0].classList.add("newDesign_subject_question_item-title_black_P");
   }
   for (let i = 0; i < newDesignSubjectQuestionItemTitle.length; i++) {
     if (newDesignSubjectQuestionItemTitle[i]) {
-      newDesignSubjectQuestionItemTitle[i].classList.add(
-        "newDesign_subject_question_item-title_black_P"
-      );
+      newDesignSubjectQuestionItemTitle[i].classList.add("newDesign_subject_question_item-title_black_P");
     }
   }
   for (let i = 0; i < pDarkMode.length; i++) {
     if (pDarkMode[i]) {
-      pDarkMode[i].classList.add(
-        "newDesign_subject_question_item-title_black_P"
-      );
+      pDarkMode[i].classList.add("newDesign_subject_question_item-title_black_P");
     }
   }
   if (current__pagination[0]) {
@@ -212,28 +216,20 @@ Vue.component("appMenu", {
       //P
       for (let i = 0; i < newDesignSubjectQuestionItemTitle.length; i++) {
         if (newDesignSubjectQuestionItemTitle[i]) {
-          newDesignSubjectQuestionItemTitle[i].classList.add(
-            "newDesign_subject_question_item-title_black_P"
-          );
+          newDesignSubjectQuestionItemTitle[i].classList.add("newDesign_subject_question_item-title_black_P");
         }
       }
       for (let i = 0; i < pDarkMode.length; i++) {
         if (pDarkMode[i]) {
-          pDarkMode[i].classList.add(
-            "newDesign_subject_question_item-title_black_P"
-          );
+          pDarkMode[i].classList.add("newDesign_subject_question_item-title_black_P");
         }
       }
       //H
       if (algorithme_title_italic[0]) {
-        algorithme_title_italic[0].classList.add(
-          "newDesign_subject_question_item-title_black_P"
-        );
+        algorithme_title_italic[0].classList.add("newDesign_subject_question_item-title_black_P");
       }
       if (newDesign_container_main_title[0]) {
-        newDesign_container_main_title[0].classList.add(
-          "newDesign_subject_question_item-title_black_P"
-        );
+        newDesign_container_main_title[0].classList.add("newDesign_subject_question_item-title_black_P");
       }
       // for(let i=0; i<11; i++){
       //   if(dj_2_3vh[i]){
@@ -378,10 +374,7 @@ Vue.component("appMenu", {
       if (!this.isDark) {
         if (appendChild_img) {
           for (let i = 0; i < appendChild_img.length; i++) {
-            appendChild_img[i].src = appendChild_img[i].src.replace(
-              "white",
-              "whiteDark"
-            );
+            appendChild_img[i].src = appendChild_img[i].src.replace("white", "whiteDark");
           }
         }
 
@@ -392,24 +385,19 @@ Vue.component("appMenu", {
         }
 
         if (document.getElementById("nabijiType")) {
-          document.getElementById("nabijiType").src =
-            "../../img/icons/davalebebi/nabiji-whiteDark.svg";
+          document.getElementById("nabijiType").src = "../../img/icons/davalebebi/nabiji-whiteDark.svg";
         }
         if (document.getElementById("savarjishoType")) {
-          document.getElementById("savarjishoType").src =
-            "../../img/icons/davalebebi/savarjisho-whiteDark.svg";
+          document.getElementById("savarjishoType").src = "../../img/icons/davalebebi/savarjisho-whiteDark.svg";
         }
         if (document.getElementById("minishnebaType")) {
-          document.getElementById("minishnebaType").src =
-            "../../img/icons/davalebebi/minishneba-whiteDark.svg";
+          document.getElementById("minishnebaType").src = "../../img/icons/davalebebi/minishneba-whiteDark.svg";
         }
         if (document.getElementById("shualeduriType")) {
-          document.getElementById("shualeduriType").src =
-            "../../img/icons/davalebebi/shualeduri-whiteDark.svg";
+          document.getElementById("shualeduriType").src = "../../img/icons/davalebebi/shualeduri-whiteDark.svg";
         }
         if (document.getElementById("kompleqsuriType")) {
-          document.getElementById("kompleqsuriType").src =
-            "../../img/icons/davalebebi/kompleqsuri-whiteDark.svg";
+          document.getElementById("kompleqsuriType").src = "../../img/icons/davalebebi/kompleqsuri-whiteDark.svg";
         }
         //დაწყება დასრულება
         if (reset__btn[0]) {
@@ -464,16 +452,12 @@ Vue.component("appMenu", {
         //p
         for (let i = 0; i < newDesignSubjectQuestionItemTitle.length; i++) {
           if (newDesignSubjectQuestionItemTitle[i]) {
-            newDesignSubjectQuestionItemTitle[i].classList.add(
-              "newDesign_subject_question_item-title_black_P"
-            );
+            newDesignSubjectQuestionItemTitle[i].classList.add("newDesign_subject_question_item-title_black_P");
           }
         }
         for (let i = 0; i < pDarkMode.length; i++) {
           if (pDarkMode[i]) {
-            pDarkMode[i].classList.add(
-              "newDesign_subject_question_item-title_black_P"
-            );
+            pDarkMode[i].classList.add("newDesign_subject_question_item-title_black_P");
           }
         }
         // for(let i=0; i<11; i++){
@@ -484,14 +468,10 @@ Vue.component("appMenu", {
         // }
         //H
         if (algorithme_title_italic[0]) {
-          algorithme_title_italic[0].classList.add(
-            "newDesign_subject_question_item-title_black_P"
-          );
+          algorithme_title_italic[0].classList.add("newDesign_subject_question_item-title_black_P");
         }
         if (newDesign_container_main_title[0]) {
-          newDesign_container_main_title[0].classList.add(
-            "newDesign_subject_question_item-title_black_P"
-          );
+          newDesign_container_main_title[0].classList.add("newDesign_subject_question_item-title_black_P");
         }
         //???
         if (info_box[0]) {
@@ -544,49 +524,32 @@ Vue.component("appMenu", {
         }
 
         //icons
-        $("#prime").css(
-          "background-image",
-          "url(../../Vue-chatBot/img/chat01.png)"
-        );
-        $(".lang-box_passive").css(
-          "background-image",
-          "url(../../New-header-vue/header-img/eng01.png)"
-        );
-        $(".menu_box_passive").css(
-          "background-image",
-          "url(../../New-header-vue/header-img/menu01.png)"
-        );
-        $(".menu_box_active").css(
-          "background-image",
-          "url(../../New-header-vue/header-img/menu01.png)"
-        );
+        $("#prime").css("background-image", "url(../../Vue-chatBot/img/chat01.png)");
+        $(".lang-box_passive").css("background-image", "url(../../New-header-vue/header-img/eng01.png)");
+        $(".menu_box_passive").css("background-image", "url(../../New-header-vue/header-img/menu01.png)");
+        $(".menu_box_active").css("background-image", "url(../../New-header-vue/header-img/menu01.png)");
         //
 
         if (document.getElementById("3_xelovneba")) {
           console.log(document.getElementById("3_xelovneba").src);
         }
         if (document.getElementById("1_kompTeq")) {
-          document.getElementById("1_kompTeq").src =
-            "./img/slider/(blake)slide-illustration-c.svg";
+          document.getElementById("1_kompTeq").src = "./img/slider/(blake)slide-illustration-c.svg";
         }
         if (document.getElementById("2_buneba")) {
-          document.getElementById("2_buneba").src =
-            "./img/slider/(blake)slide-illustration-n.svg";
+          document.getElementById("2_buneba").src = "./img/slider/(blake)slide-illustration-n.svg";
         }
         if (document.getElementById("3_xelovneba")) {
-          document.getElementById("3_xelovneba").src =
-            "./img/slider/(blake)slide-illustration-a.svg";
+          document.getElementById("3_xelovneba").src = "./img/slider/(blake)slide-illustration-a.svg";
         }
         if (document.getElementById("4_musika")) {
-          document.getElementById("4_musika").src =
-            "./img/slider/(blake)slide-illustration-m.svg";
+          document.getElementById("4_musika").src = "./img/slider/(blake)slide-illustration-m.svg";
         }
         if (document.getElementById("3_xelovneba")) {
           console.log(document.getElementById("3_xelovneba").src);
         }
         //switchDarkIdShadow
-        document.getElementById("switchDarkIdShadow").style.boxShadow =
-          "1px 3px 6px #7fd1d8";
+        document.getElementById("switchDarkIdShadow").style.boxShadow = "1px 3px 6px #7fd1d8";
         //nabiji
         for (let i = 0; i < nabiji.length; i++) {
           if (nabiji[i]) {
@@ -601,10 +564,7 @@ Vue.component("appMenu", {
       } else {
         if (appendChild_img) {
           for (let i = 0; i < appendChild_img.length; i++) {
-            appendChild_img[i].src = appendChild_img[i].src.replace(
-              "whiteDark",
-              "white"
-            );
+            appendChild_img[i].src = appendChild_img[i].src.replace("whiteDark", "white");
           }
         }
         for (let i = 0; i < element_box.length; i++) {
@@ -617,20 +577,16 @@ Vue.component("appMenu", {
           document.getElementById('nabijiType').src = "../../img/icons/davalebebi/nabiji-white.svg";
         }
         if (document.getElementById("savarjishoType")) {
-          document.getElementById("savarjishoType").src =
-            "../../img/icons/davalebebi/savarjisho-white.svg";
+          document.getElementById("savarjishoType").src = "../../img/icons/davalebebi/savarjisho-white.svg";
         }
         if (document.getElementById("minishnebaType")) {
-          document.getElementById("minishnebaType").src =
-            "../../img/icons/davalebebi/minishneba-white.svg";
+          document.getElementById("minishnebaType").src = "../../img/icons/davalebebi/minishneba-white.svg";
         }
         if (document.getElementById("shualeduriType")) {
-          document.getElementById("shualeduriType").src =
-            "../../img/icons/davalebebi/shualeduri-white.svg";
+          document.getElementById("shualeduriType").src = "../../img/icons/davalebebi/shualeduri-white.svg";
         }
         if (document.getElementById("kompleqsuriType")) {
-          document.getElementById("kompleqsuriType").src =
-            "../../img/icons/davalebebi/kompleqsuri-white.svg";
+          document.getElementById("kompleqsuriType").src = "../../img/icons/davalebebi/kompleqsuri-white.svg";
         }
 
         if (reset__btn[0]) {
@@ -684,16 +640,12 @@ Vue.component("appMenu", {
         //P
         for (let i = 0; i < newDesignSubjectQuestionItemTitle.length; i++) {
           if (newDesignSubjectQuestionItemTitle[i]) {
-            newDesignSubjectQuestionItemTitle[i].classList.remove(
-              "newDesign_subject_question_item-title_black_P"
-            );
+            newDesignSubjectQuestionItemTitle[i].classList.remove("newDesign_subject_question_item-title_black_P");
           }
         }
         for (let i = 0; i < pDarkMode.length; i++) {
           if (pDarkMode[i]) {
-            pDarkMode[i].classList.remove(
-              "newDesign_subject_question_item-title_black_P"
-            );
+            pDarkMode[i].classList.remove("newDesign_subject_question_item-title_black_P");
           }
         }
         // for(let i=0; i<11; i++){
@@ -703,14 +655,10 @@ Vue.component("appMenu", {
         // }
         //H
         if (algorithme_title_italic[0]) {
-          algorithme_title_italic[0].classList.remove(
-            "newDesign_subject_question_item-title_black_P"
-          );
+          algorithme_title_italic[0].classList.remove("newDesign_subject_question_item-title_black_P");
         }
         if (newDesign_container_main_title[0]) {
-          newDesign_container_main_title[0].classList.remove(
-            "newDesign_subject_question_item-title_black_P"
-          );
+          newDesign_container_main_title[0].classList.remove("newDesign_subject_question_item-title_black_P");
         }
         //???
 
@@ -768,25 +716,20 @@ Vue.component("appMenu", {
         $(".menu_box_active").css("background-image", "");
         //
         if (document.getElementById("1_kompTeq")) {
-          document.getElementById("1_kompTeq").src =
-            "./img/slider/slide-illustration-c.svg";
+          document.getElementById("1_kompTeq").src = "./img/slider/slide-illustration-c.svg";
         }
         if (document.getElementById("2_buneba")) {
-          document.getElementById("2_buneba").src =
-            "./img/slider/slide-illustration-n.svg";
+          document.getElementById("2_buneba").src = "./img/slider/slide-illustration-n.svg";
         }
         if (document.getElementById("3_xelovneba")) {
-          document.getElementById("3_xelovneba").src =
-            "./img/slider/slide-illustration-a.svg";
+          document.getElementById("3_xelovneba").src = "./img/slider/slide-illustration-a.svg";
         }
         if (document.getElementById("4_musika")) {
-          document.getElementById("4_musika").src =
-            "./img/slider/slide-illustration-m.svg";
+          document.getElementById("4_musika").src = "./img/slider/slide-illustration-m.svg";
         }
 
         //switchDarkIdShadow
-        document.getElementById("switchDarkIdShadow").style.boxShadow =
-          "1px 3px 6px #FADE7E";
+        document.getElementById("switchDarkIdShadow").style.boxShadow = "1px 3px 6px #FADE7E";
         //nabiji
         for (let i = 0; i < nabiji.length; i++) {
           if (nabiji[i]) {
