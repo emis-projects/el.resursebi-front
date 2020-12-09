@@ -3,23 +3,13 @@ const index = document.getElementById("index");
 //DARK_MODE მინიშნების მინიშნების გვერდებისთვის
 var theme = localStorage.getItem("theme");
 // ტექსტური ფაილისთვის
-var newDesign_container_main_title = document.getElementsByClassName(
-  "newDesign_container_main_title"
-);
-var newDesignSubjectQuestionItemTitle = document.getElementsByClassName(
-  "newDesign_subject_question_item-title"
-);
+var newDesign_container_main_title = document.getElementsByClassName("newDesign_container_main_title");
+var newDesignSubjectQuestionItemTitle = document.getElementsByClassName("newDesign_subject_question_item-title");
 var pDarkMode = document.getElementsByClassName("pDarkMode");
 //ფეიჯინგისთვის
-var current__pagination = document.getElementsByClassName(
-  "current__pagination"
-);
-var pagination__prev__btn = document.getElementsByClassName(
-  "pagination__prev__btn"
-);
-var pagination__next__btn = document.getElementsByClassName(
-  "pagination__next__btn"
-);
+var current__pagination = document.getElementsByClassName("current__pagination");
+var pagination__prev__btn = document.getElementsByClassName("pagination__prev__btn");
+var pagination__next__btn = document.getElementsByClassName("pagination__next__btn");
 //სურათის ფერები რომლებიც შავზე არ ჩანს
 var imgBackgroundWhite = document.getElementsByClassName("imgBackgroundWhite");
 //გათიშვის ღილაკი x
@@ -154,43 +144,27 @@ Vue.component("appMenu", {
     var theme = localStorage.getItem("theme");
     var reset__btn = document.getElementsByClassName("reset__btn");
     var completed__btn = document.getElementsByClassName("completed__btn");
-    var audioDownloadBbtnBlack = document.getElementsByClassName(
-      "audio-download__btn"
-    );
-    var btnTextDark = document.getElementsByClassName(
-      "music-new-1-div-6-div-dot-text"
-    );
+    var audioDownloadBbtnBlack = document.getElementsByClassName("audio-download__btn");
+    var btnTextDark = document.getElementsByClassName("music-new-1-div-6-div-dot-text");
     var btnDarkMode = document.getElementsByClassName("btnDarkMode");
-    sign_description_btn = document.getElementsByClassName(
-      "sign-description-btn"
-    );
+    sign_description_btn = document.getElementsByClassName("sign-description-btn");
     //btn index.html
     var new_btn_start = document.getElementsByClassName("new_btn-start");
-    var newDesignSubjectQuestionItemTitle = document.getElementsByClassName(
-      "newDesign_subject_question_item-title"
-    );
+    var newDesignSubjectQuestionItemTitle = document.getElementsByClassName("newDesign_subject_question_item-title");
     var pDarkMode = document.getElementsByClassName("pDarkMode");
-    var algorithme_title_italic = document.getElementsByClassName(
-      "algorithme-title-italic"
-    );
-    var newDesign_container_main_title = document.getElementsByClassName(
-      "newDesign_container_main_title"
-    );
+    var algorithme_title_italic = document.getElementsByClassName("algorithme-title-italic");
+    var newDesign_container_main_title = document.getElementsByClassName("newDesign_container_main_title");
     //index html დასაწყისი
     var bg_menu = document.getElementsByClassName("bg_menu");
     var app_start = document.getElementsByClassName("app-start");
     var app_sections = document.getElementsByClassName("app-sections");
     var app_select = document.getElementsByClassName("app-select");
-    var circles_number_pink = document.getElementsByClassName(
-      "circles_number-pink"
-    );
+    var circles_number_pink = document.getElementsByClassName("circles_number-pink");
     var top_bar = document.getElementsByClassName("top-bar");
     var img = $(".menu_box_passive").css("background-image");
     var nabiji = document.getElementsByClassName("newDesign_steps_item-img");
     //სურათის ფერები რომლებიც შავზე არ ჩანს
-    var imgBackgroundWhite = document.getElementsByClassName(
-      "imgBackgroundWhite"
-    );
+    var imgBackgroundWhite = document.getElementsByClassName("imgBackgroundWhite");
 
     if (theme == "darck") {
       //დაწყება დასსრულება
@@ -356,22 +330,12 @@ Vue.component("appMenu", {
     myFunction() {
       var reset__btn = document.getElementsByClassName("reset__btn");
       var completed__btn = document.getElementsByClassName("completed__btn");
-      var audioDownloadBbtnBlack = document.getElementsByClassName(
-        "audio-download__btn"
-      );
-      var btnTextDark = document.getElementsByClassName(
-        "music-new-1-div-6-div-dot-text"
-      );
+      var audioDownloadBbtnBlack = document.getElementsByClassName("audio-download__btn");
+      var btnTextDark = document.getElementsByClassName("music-new-1-div-6-div-dot-text");
       var btnDarkMode = document.getElementsByClassName("btnDarkMode");
-      var current__pagination = document.getElementsByClassName(
-        "current__pagination"
-      );
-      var pagination__prev__btn = document.getElementsByClassName(
-        "pagination__prev__btn"
-      );
-      var pagination__next__btn = document.getElementsByClassName(
-        "pagination__next__btn"
-      );
+      var current__pagination = document.getElementsByClassName("current__pagination");
+      var pagination__prev__btn = document.getElementsByClassName("pagination__prev__btn");
+      var pagination__next__btn = document.getElementsByClassName("pagination__next__btn");
       var bg_menu = document.getElementsByClassName("bg_menu");
       var app_start = document.getElementsByClassName("app-start");
       //btn index.html
@@ -380,12 +344,8 @@ Vue.component("appMenu", {
       var app_select = document.getElementsByClassName("app-select");
       var app_sections = document.getElementsByClassName("app-sections");
       var class_box = document.getElementsByClassName("class_box");
-      var circles_number_pink = document.getElementsByClassName(
-        "circles_number-pink"
-      );
-      var circles_number_white = document.getElementsByClassName(
-        "circles_number-white"
-      );
+      var circles_number_pink = document.getElementsByClassName("circles_number-pink");
+      var circles_number_white = document.getElementsByClassName("circles_number-white");
       var top_bar = document.getElementsByClassName("top-bar");
       var img = $(".menu_box_passive").css("background-image");
       var dj_2_3vh = document.getElementsByClassName("dj-2_3vh");
@@ -395,9 +355,7 @@ Vue.component("appMenu", {
       var appendChild_img = document.getElementsByClassName('appendChild--img');
       var element_box = document.getElementsByClassName('element-box');
       //სურათის ფერები რომლებიც შავზე არ ჩანს
-      var imgBackgroundWhite = document.getElementsByClassName(
-        "imgBackgroundWhite"
-      );
+      var imgBackgroundWhite = document.getElementsByClassName("imgBackgroundWhite");
       //გათიშვის ღილაკი წარმატების და მინიშნების გვერდისთვის x
       var close = document.getElementsByClassName('close');
 
@@ -407,17 +365,11 @@ Vue.component("appMenu", {
 
       //ტეგები
       //P
-      var newDesignSubjectQuestionItemTitle = document.getElementsByClassName(
-        "newDesign_subject_question_item-title"
-      );
+      var newDesignSubjectQuestionItemTitle = document.getElementsByClassName("newDesign_subject_question_item-title");
       var pDarkMode = document.getElementsByClassName("pDarkMode");
       //H
-      var algorithme_title_italic = document.getElementsByClassName(
-        "algorithme-title-italic"
-      );
-      var newDesign_container_main_title = document.getElementsByClassName(
-        "newDesign_container_main_title"
-      );
+      var algorithme_title_italic = document.getElementsByClassName("algorithme-title-italic");
+      var newDesign_container_main_title = document.getElementsByClassName("newDesign_container_main_title");
       //??info-box
       var info_box = document.getElementsByClassName("info-box");
 
@@ -432,9 +384,9 @@ Vue.component("appMenu", {
             );
           }
         }
-        
-        for(let i=0; i<element_box.length; i++){
-          if(element_box[i]){
+
+        for (let i = 0; i < element_box.length; i++) {
+          if (element_box[i]) {
             element_box[i].children[0].src = element_box[i].children[0].src.replace(".png", "_dark.png");
           }
         }
@@ -655,8 +607,8 @@ Vue.component("appMenu", {
             );
           }
         }
-        for(let i=0; i<element_box.length; i++){
-          if(element_box[i]){
+        for (let i = 0; i < element_box.length; i++) {
+          if (element_box[i]) {
             element_box[i].children[0].src = element_box[i].children[0].src.replace("_dark.png", ".png");
           }
         }
@@ -761,7 +713,7 @@ Vue.component("appMenu", {
           );
         }
         //???
-        
+
         if (info_box[0]) {
           info_box[0].classList.remove("new_btn-start_black_btn");
         }
@@ -1062,7 +1014,7 @@ Vue.component("appInfo", {
     };
   },
   //dark_mode-თვის
-  updated(){
+  updated() {
     var theme = localStorage.getItem('theme');
     if (theme == 'darck') {
       this.darkMode = true
