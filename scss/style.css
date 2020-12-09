@@ -2380,6 +2380,11 @@ input:checked + .slider:before {
   background: white;
 }
 
+.x_game_succes {
+  margin-left: 2vh;
+  margin-top: 1.3vh;
+}
+
 header {
   height: 6vh;
   width: 100%;

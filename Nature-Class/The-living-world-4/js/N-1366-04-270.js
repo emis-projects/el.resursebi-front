@@ -107,7 +107,7 @@ function Game() {
     this.Drop = function(event) {
         var data = document.getElementById(event.dataTransfer.getData("text"));
         data.style.display = "none";
-        event.target.children[0].style = "block";
+        event.target.firstElementChild.setAttribute('style', 'display: block')
     };
 
     this.AllowDrop = function(event) {

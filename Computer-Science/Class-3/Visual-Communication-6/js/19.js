@@ -43,9 +43,9 @@ function initializeScreen(){
 			if(rowData[j] != 0){
 				var txtID = String('txt' + '_' + i + '_' + j);
 				cell.innerHTML = '<input type="text" class="inputBox" maxlength="1" style="text-transform: lowercase" ' + 'id="' + txtID + '" onfocus="textInputFocus(' + "'" + txtID + "'"+ ')">';
-			}else{
-				cell.style.backgroundColor  = "transparent";
-				cell.style.border  = "0";
+			
+			} else{
+				cell.setAttribute('style', "border: 0 !important; background: transparent");
 			}
 		}
 	}

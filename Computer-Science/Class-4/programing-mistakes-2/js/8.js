@@ -7,7 +7,12 @@ function computerGames(){
 
 
     this.clickMe = (e) => {
-        e.target.classList.add('selectedPurple');
+        if(e.target.classList.contains('selectedPurple') || e.target.classList.contains('error')) {
+            e.target.classList.remove('selectedPurple')
+            e.target.classList.remove('error')
+        }else {
+            e.target.classList.add('selectedPurple');
+        }
         
     }
 

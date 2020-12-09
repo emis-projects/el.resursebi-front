@@ -1,0 +1,60 @@
+.cs-3-2-img-div-12 {
+  height: 40.49vh;
+}
+.cs-3-2-img-div-13 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 54.81vh;
+}
+.cs-3-2-img-div-14 {
+  height: 43.22vh;
+  justify-content: space-evenly;
+}
+.cs-3-2-img-div-16 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 61.84vh;
+}
+.cs-3-2-img-div-17 {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  height: 54.42vh;
+}
+.cs-3-2-img-div img {
+  height: 100%;
+}
+
+.cs-3-2-img-1 {
+  height: 10.41vh;
+}
+
+.cs-3-2-img-2 {
+  height: 20.31vh;
+}
+
+.cs-3-2-15-img-div .sign-description-btn {
+  width: 10vw;
+  height: 10vh;
+}
+.cs-3-2-15-img-div .sign-description-btn .cs-3-2-15--1, .cs-3-2-15-img-div .sign-description-btn.draggedElement {
+  height: 7.41vh;
+}
+.cs-3-2-15-img-div .sign-description-btn .cs-3-2-15--2, .cs-3-2-15-img-div .sign-description-btn.draggedElement {
+  height: 7.41vh;
+}
+.cs-3-2-15-img-div .sign-description-btn .cs-3-2-15--3, .cs-3-2-15-img-div .sign-description-btn.draggedElement {
+  height: 5.41vh;
+}
+
+.span {
+  position: absolute;
+  top: 28vh;
+  left: 45vh;
+  font-size: 20px;
+  font-family: "DejaVuSans";
+  line-height: 4vh;
+}

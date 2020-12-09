@@ -1,43 +1,75 @@
+function computerGames(){
+
 const checkBox = document.querySelectorAll(".cs-3-13-div-5-img-click-btn");
-const resetBtn = document.getElementById("resetBtn");
-const completedGame = document.getElementById("completedGame");
+var completedBtn = document.getElementById('completedGame');
+var resetBtn = document.getElementById('resetBtn');
 
 let count = 0;
 let list = [];
 
-checkBox.forEach((el) =>
-  el.addEventListener("click", (e) => {
-    list.push(e.target);
-    list.forEach((e) => e.classList.add("active"));
-    count++;
-    if (count > 4) {
-      list.shift();
-      checkBox.forEach((e) => e.classList.remove("active"));
-      list.forEach((e) => e.classList.add("active"));
-    }
-  })
-);
+$(checkBox).on('click', (e) => this.clickMe(e));
 
-resetBtn.addEventListener("click", () => {
-  checkBox.forEach((el) => {
-      el.classList.remove("active")
-      el.classList.remove("error")
-  });
-  list = []
-});
 
-completedGame.addEventListener("click", check);
-
-function check() {
-  let final = 0;
-  list.forEach((elm) => {
-    console.log(elm.dataset);
-    if (elm.dataset.taget === "active" && list.length === 4) {
-      final++
-      if (final === 4) location.href = 'game-success-5.html'
-    } else {
-      elm.classList.remove("active");
-      elm.classList.add("error");
-    }
-  });
+this.clickMe = (e) => {
+  if(e.target.classList.contains('active') || e.target.classList.contains('error')) {
+      e.target.classList.remove('active')
+      e.target.classList.remove('error')
+      e.target.removeAttribute('style')
+  } else {
+      e.target.classList.add('active');
+  }
 }
+
+
+this.completGame = () => {
+  var count = 0;
+  var isError = false;
+
+  checkBox.forEach(element => {
+      if(element.classList.contains('active')){
+          if(element.classList.contains('correct')){
+              element.style = "background: #a1dd6f";
+              count++;
+          }
+          if((element.classList.contains('noCorrect'))){
+              isError = true;
+              $(element).removeClass( "active")
+              element.classList.add('error');
+          }
+      }
+  });
+  
+
+  if (count == 4 && !isError) {
+      this.successPage();
+  }
+
+  completedBtn.setAttribute('disabled', 'true');
+}
+
+this.successPage = () => {
+  location.href = 'game-success-5.html';
+}
+
+this.init = (e) =>{
+  checkBox.forEach(element => {
+      $(element).removeClass( "error")
+      $(element).removeClass( "active")
+      $(element).removeAttr('style')
+  });
+  completedBtn.removeAttribute('disabled');
+}
+
+this.successPage = () => {
+  location.href = 'game-success-5.html';
+}
+
+
+resetBtn.addEventListener('click', () => this.init());
+completedBtn.addEventListener('click', () => this.completGame());
+
+
+}
+
+
+const computergame = new computerGames();
