@@ -15,11 +15,21 @@ var imgBackgroundWhite = document.getElementsByClassName("imgBackgroundWhite");
 //გათიშვის ღილაკი x
 var close = document.getElementsByClassName("close");
 
+//დაწყება დასრულების ბუთონი
+var reset__btn = document.getElementsByClassName("reset__btn");
+var completed__btn = document.getElementsByClassName("completed__btn");
+
 
 if (theme == "darck") {
   var element = document.body;
   element.style.backgroundColor = "black";
 
+  if (reset__btn[0]) {
+    reset__btn[0].classList.add("reset__btn_black");
+  }
+  if (completed__btn[0]) {
+    completed__btn[0].classList.add("completed__btn_black");
+  }
   // ah და ar nature_lessons-ის ბუთნები
   for (let i = 1; i < document.getElementsByClassName('ah').length; i++) {
     if (document.getElementsByClassName('ah')) {
