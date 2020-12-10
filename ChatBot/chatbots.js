@@ -21,7 +21,14 @@ document.querySelectorAll('.selectBot').forEach(w => {
 
 
 document.addEventListener('DOMContentLoaded', function() {
-    const botIdParam = 2288; // botid 
+    const urlParams = new URLSearchParams(window.location.search);
+    let botIdParam = urlParams.get('botId');
+
+    if(!botIdParam) {
+        botIdParam = 2288
+    }
+
+    console.log(botIdParam)
 
     addParamWithoutRefresh(botIdParam)
 
