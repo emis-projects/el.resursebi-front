@@ -24855,7 +24855,7 @@ img.mfp-img[alt*="cs-2-4-18-img"] {
 
 .Class_5-img-item_8 {
   position: fixed;
-  bottom: 0;
+  bottom: -6vh;
 }
 
 .Class_5-img-item_8 img {
@@ -55107,3 +55107,4 @@ input:checked + .slider:before {
 #tableOfContentTwo.tableOfContentTwo-scroll::-webkit-scrollbar-thumb:hover {
   background: #69bac2;
 }
+/*# sourceMappingURL=new-style.css.map */
