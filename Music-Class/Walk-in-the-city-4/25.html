@@ -27,6 +27,59 @@
 
         gtag('config', 'UA-155006442-1');
     </script>
+
+    <style>
+        .class_music_4-img_25_cont {
+            background: #947DCE;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            width: 20.3vh;
+            height: 10.4vh;
+            border-radius: 8px;
+            cursor: pointer;
+            margin-bottom: 2.6vh;
+            position: relative;
+        }
+        
+        .class_music_4-img_25_cont::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            right: 0;
+        }
+
+        .class_music_4-img_25_title {
+            font-family: DejaVuSans;
+            font-size: 2.6vh;
+            color: #FFFFFF;
+            opacity: 1;
+        }
+
+        .class_music_4-img_25_circle img {
+            width: 12vh;
+            height: 12vh;
+            margin-bottom: 7vh;
+        }
+
+        .class_music_4-img_25_cont.active {
+            background: #d8c76a;
+        }
+        .class_music_4-img_25_cont.error {
+            background: #dc6c85;
+        }
+        .class_music_4-img_25_cont.success {
+            background: #A1DD6F;
+        }
+    </style>
 </head>
 
 <body>
@@ -60,37 +113,37 @@
                 <div class="class_music_4-img_25_circle mr-2vh">
                     <img data-voice="./game-voices/სლაიდი 28/1. მელოდიური ოსტინატო.wav"
                      src="../../img/gakvetilebi/Music-class/Walk-in-the-city-4/music-4-25-one.svg" 
-                     alt="image">
+                     alt="image" class="cursor-pointer listen--btn">
                 </div>
                 <div class="class_music_4-img_25_circle mr-2vh">
                     <img data-voice="./game-voices/სლაიდი 28/2. ჰარმონიული ოსტინატო.wav"
                     src="../../img/gakvetilebi/Music-class/Walk-in-the-city-4/music-4-25-two.svg" 
-                    alt="image">
+                    alt="image" class="cursor-pointer listen--btn">
                 </div>
                 <div class="class_music_4-img_25_circle">
                     <img data-voice="./game-voices/სლაიდი 28/3. რიტმული ოსტინატო.wav"
                     src="../../img/gakvetilebi/Music-class/Walk-in-the-city-4/music-4-25-three.svg" 
-                    alt="image">
+                    alt="image" class="cursor-pointer listen--btn">
                 </div>
             </div>
             <div class="row ml-4vh">
                 <div class="col-3">
                     <div class="class_music_4-img_25 d-flex mb-2vh">
-                        <div class="class_music_4-img_25_cont box-1 m-auto"  data-type="0">
+                        <div class="class_music_4-img_25_cont box-1 m-auto checkmarkJS1 noCorrectJS" data-index="1-1"  data-type="0">
                             <p class="class_music_4-img_25_title">
                                 რიტმული <br> ოსტინატო
                             </p>
                         </div>
                     </div>
                     <div class="class_music_4-img_25 d-flex mb-2vh">
-                        <div class="class_music_4-img_25_cont box-1 m-auto"  data-type="1">
+                        <div class="class_music_4-img_25_cont box-1 m-auto checkmarkJS1 correctJS" data-index="1-2"  data-type="1">
                             <p class="class_music_4-img_25_title">
                                 მელოდიური <br> ოსტინატო
                             </p>
                         </div>
                     </div>
                     <div class="class_music_4-img_25 d-flex mb-2vh">
-                        <div class="class_music_4-img_25_cont box-1 m-auto"  data-type="2">
+                        <div class="class_music_4-img_25_cont box-1 m-auto checkmarkJS1 noCorrectJS" data-index="1-3"  data-type="2">
                             <p class="class_music_4-img_25_title">
                                 ჰარმონიული <br> ოსტინატო
                             </p>
@@ -99,21 +152,21 @@
                 </div>
                 <div class="col-3">
                     <div class="class_music_4-img_25 d-flex mb-2vh">
-                        <div class="class_music_4-img_25_cont box-2 m-auto" data-type="0">
+                        <div class="class_music_4-img_25_cont box-2 m-auto checkmarkJS2 noCorrectJS" data-index="2-1" data-type="0">
                             <p class="class_music_4-img_25_title">
                                 რიტმული <br> ოსტინატო
                             </p>
                         </div>
                     </div>
                     <div class="class_music_4-img_25 d-flex mb-2vh">
-                        <div class="class_music_4-img_25_cont box-2 m-auto" data-type="1">
+                        <div class="class_music_4-img_25_cont box-2 m-auto checkmarkJS2 noCorrectJS" data-index="2-2" data-type="1">
                             <p class="class_music_4-img_25_title">
                                 მელოდიური <br> ოსტინატო
                             </p>
                         </div>
                     </div>
                     <div class="class_music_4-img_25 d-flex mb-2vh">
-                        <div class="class_music_4-img_25_cont box-2 m-auto" data-type="2">
+                        <div class="class_music_4-img_25_cont box-2 m-auto checkmarkJS2 correctJS" data-index="2-3" data-type="2">
                             <p class="class_music_4-img_25_title">
                                 ჰარმონიული <br> ოსტინატო
                             </p>
@@ -122,21 +175,21 @@
                 </div>
                 <div class="col-3">
                     <div class="class_music_4-img_25 d-flex mb-2vh">
-                        <div class="class_music_4-img_25_cont box-3 m-auto" data-type="0">
+                        <div class="class_music_4-img_25_cont box-3 m-auto checkmarkJS3 correctJS" data-index="3-1" data-type="0">
                             <p class="class_music_4-img_25_title">
                                 რიტმული <br> ოსტინატო
                             </p>
                         </div>
                     </div>
                     <div class="class_music_4-img_25 d-flex mb-2vh">
-                        <div class="class_music_4-img_25_cont box-3 m-auto" data-type="1">
+                        <div class="class_music_4-img_25_cont box-3 m-auto checkmarkJS3 noCorrectJS" data-index="3-2" data-type="1">
                             <p class="class_music_4-img_25_title">
                                 მელოდიური <br> ოსტინატო
                             </p>
                         </div>
                     </div>
                     <div class="class_music_4-img_25 d-flex mb-2vh">
-                        <div class="class_music_4-img_25_cont box-3 m-auto" data-type="2">
+                        <div class="class_music_4-img_25_cont box-3 m-auto checkmarkJS3 noCorrectJS" data-index="3-3" data-type="2">
                             <p class="class_music_4-img_25_title">
                                 ჰარმონიული <br> ოსტინატო
                             </p>
@@ -180,8 +233,6 @@
     <script src="../../js/Pagination.js"></script>
     <script src="../../js/libraries/sound.js"></script>
 
-    <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
-    <script src="../../New-header-vue/vis.js"></script>
 <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
     <script src="../../New-header-vue/vis.js"></script>
     <script src="../../New-header-vue/app.js"></script>
