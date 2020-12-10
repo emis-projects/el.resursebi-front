@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="156" height="123.664" viewBox="0 0 156 123.664">
+    <defs>
+        <style>.a{font-size:41px;font-family:MyriadPro-Regular, Myriad Pro;}.b{fill:#62548a;}.f{fill:#ffffff;}.a{fill:#ffffff;}</style>
+    </defs>
+    <g transform="translate(-1070 -292.336)">
+        <g transform="translate(939.341 -9.654)">
+            <g transform="translate(130.659 381.654)">
+                <g transform="translate(11.502 13.404)">
+                    <path class='f' d="M161.732,400.3h-24V389.894h24Zm-22.266-1.736H160v-6.941H139.466Z"
+                          transform="translate(-137.73 -389.894)"/>
+                </g>
+                <g class='f' transform="translate(40.568 14.271)">
+                    <rect width="1.735" height="8.676"/>
+                </g>
+                <g class='f' transform="translate(46.208 14.271)">
+                    <rect width="1.735" height="8.676"/>
+                </g>
+                <g class='f' transform="translate(0 14.271)">
+                    <rect width="1.735" height="8.676"/>
+                </g>
+                <g class='f' transform="translate(5.64 14.271)">
+                    <rect width="1.735" height="8.676"/>
+                </g>
+                <g class='f' transform="translate(11.375)">
+                    <circle cx="1.524" cy="1.524" r="1.524"/>
+                </g>
+                <g class='f' transform="translate(11.375 6.206)">
+                    <circle cx="1.524" cy="1.524" r="1.524"/>
+                </g>
+                <g class='f' transform="translate(11.375 27.968)">
+                    <circle cx="1.524" cy="1.524" r="1.524"/>
+                </g>
+                <g class='f' transform="translate(11.375 34.174)">
+                    <circle cx="1.524" cy="1.524" r="1.524"/>
+                </g>
+                <g class='f' transform="translate(33.113 27.968)">
+                    <circle cx="1.524" cy="1.524" r="1.524"/>
+                </g>
+                <g class='f' transform="translate(33.113 34.174)">
+                    <circle cx="1.524" cy="1.524" r="1.524"/>
+                </g>
+                <g class='f' transform="translate(33.113)">
+                    <circle cx="1.524" cy="1.524" r="1.524"/>
+                </g>
+                <g class='f' transform="translate(33.113 6.206)">
+                    <circle cx="1.524" cy="1.524" r="1.524"/>
+                </g>
+            </g>
+            <text class="a" transform="translate(210.659 415.654)">
+                <tspan x="0" y="0">Trim</tspan>
+            </text>
+        </g>
+        <g transform="translate(94.999 -22)">
+            <path class="b"
+                  d="M-2879.358-967.33l-20.339,11.74a1.011,1.011,0,0,1-1.51-.881v-6.809h-43.471v-9.85h43.471v-6.81a1.011,1.011,0,0,1,1.51-.88l20.339,11.74A1.012,1.012,0,0,1-2879.358-967.33Z"
+                  transform="translate(84.543 3259.014) rotate(90)"/>
+        </g>
+    </g>
+</svg>
