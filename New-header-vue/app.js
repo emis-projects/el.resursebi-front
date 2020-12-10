@@ -18,6 +18,8 @@ var close = document.getElementsByClassName("close");
 //დაწყება დასრულების ბუთონი
 var reset__btn = document.getElementsByClassName("reset__btn");
 var completed__btn = document.getElementsByClassName("completed__btn");
+//ფოტოების გადიდების დროს უკანა ფონი
+var fullScreen_modal_content = document.getElementsByClassName('fullScreen_modal-content');
 
 
 if (theme == "darck") {
@@ -39,6 +41,11 @@ if (theme == "darck") {
   for (let i = 0; i < document.getElementsByClassName('ar').length; i++) {
     if (document.getElementsByClassName('ar')) {
       document.getElementsByClassName('ar')[i].style.fill = "#ffffff";
+    }
+  }
+  for (let i = 0; i < fullScreen_modal_content.length; i++) {
+    if (fullScreen_modal_content[i]) {
+      fullScreen_modal_content[i].classList.add("new_btn-start_black_btn");
     }
   }
 
