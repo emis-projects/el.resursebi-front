@@ -21,6 +21,7 @@ var completed__btn = document.getElementsByClassName("completed__btn");
 //ფოტოების გადიდების დროს უკანა ფონი
 var fullScreen_modal_content = document.getElementsByClassName('fullScreen_modal-content');
 
+var changeImgDarkMode = document.getElementsByClassName('changeImgDarkMode');
 
 if (theme == "darck") {
   var element = document.body;
@@ -31,6 +32,12 @@ if (theme == "darck") {
   }
   if(document.getElementById('cs-6-4-101darkMode')){
     document.getElementById('cs-6-4-101darkMode').src = '../../../img/gakvetilebi/Computer-Science/Class-6/Variables-4/cs-6-4-10.1darkMode.svg';
+  }
+
+  if (changeImgDarkMode) {
+    for (let i = 0; i < changeImgDarkMode.length; i++) {
+      changeImgDarkMode[i].src = changeImgDarkMode[i].src.replace(".svg", "darkMode.svg");
+    }
   }
 
   if (reset__btn[0]) {
