@@ -96,6 +96,9 @@ function game(){
 
         $('.DragGame—childs1').removeAttr('style')
 
+
+        $('.class_music_5-img_7').html($('.DragGame—childs2'))
+
         // stop voice 
         createjs.Sound.stop("sound");
     }

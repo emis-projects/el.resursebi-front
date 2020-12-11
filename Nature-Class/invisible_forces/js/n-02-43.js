@@ -5,7 +5,7 @@ const check = document.getElementById('completedGame');
 // მონიშვნა
 for (let i = 0; i < dots.length; i++) {
 	dots[i].addEventListener('click', evt => {
-		init();
+		initfunc();
 		evt.target.classList.add('selected');
 	});
 }
@@ -27,11 +27,11 @@ check.addEventListener('click', evt => {
 
 reset.addEventListener('click', () => {
 	check.removeAttribute('disabled');
-	init();
+	initfunc();
 });
 
 // გასუფთავება
-function init() {
+function initfunc() {
 	dots.forEach(elm => {
 		elm.classList.remove('selected');
 		elm.classList.remove('error');
