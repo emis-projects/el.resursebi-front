@@ -6,7 +6,7 @@ const check = document.getElementById('completedGame');
 // გასუფთავების ფუნქციის, მონიშვნის კლასსის გააქტიურება დაკლიკვისას.
 textBox.forEach(elm => {
     elm.addEventListener('click', () => {
-        init();
+        initFunc();
         elm.classList.add('selected');
     });
 });
@@ -29,11 +29,11 @@ check.addEventListener('click', (evt) => {
 // გასუფთავების გამოძახება
 reset.addEventListener('click', () => {
     check.removeAttribute('disabled');
-    init();
+    initFunc();
 });
 
 // გასუფთავება
-function init() {
+function initFunc() {
     textBox.forEach(elm => {
         elm.classList.remove('selected');
         elm.classList.remove('error');

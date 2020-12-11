@@ -435,6 +435,8 @@ Vue.component("appMenu", {
       //??info-box
       var info_box = document.getElementsByClassName("info-box");
 
+      var changeImgDarkMode = document.getElementsByClassName('changeImgDarkMode');
+
       var element = document.body;
 
       if (!this.isDark) {
@@ -456,6 +458,11 @@ Vue.component("appMenu", {
         }
         if(document.getElementById('cs-5-4-23darkChange')){
           document.getElementById('cs-5-4-23darkChange').src = '../../../img/gakvetilebi/Computer-Science/Class-5/objects-moving-4/cs-5-4-23darkMode.svg';
+        }
+        if (changeImgDarkMode) {
+          for (let i = 0; i < changeImgDarkMode.length; i++) {
+            changeImgDarkMode[i].src = changeImgDarkMode[i].src.replace(".svg", "darkMode.svg");
+          }
         }
 
         if (appendChild_img) {
@@ -676,6 +683,11 @@ Vue.component("appMenu", {
         }
         if(document.getElementById('cs-5-4-23darkChange')){
           document.getElementById('cs-5-4-23darkChange').src = '../../../img/gakvetilebi/Computer-Science/Class-5/objects-moving-4/cs-5-4-23.svg';
+        }
+        if (changeImgDarkMode) {
+          for (let i = 0; i < changeImgDarkMode.length; i++) {
+            changeImgDarkMode[i].src = changeImgDarkMode[i].src.replace("darkMode.svg", ".svg");
+          }
         }
         //ფოტოების გადიდების დროს უკანა ფონი
         for (let i = 0; i < fullScreen_modal_content.length; i++) {
