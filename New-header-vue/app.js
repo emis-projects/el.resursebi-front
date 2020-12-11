@@ -26,6 +26,10 @@ if (theme == "darck") {
   var element = document.body;
   element.style.backgroundColor = "black";
 
+  if(document.getElementById('C-4-13-16-1darkChange')){
+    document.getElementById('C-4-13-16-1darkChange').src = '../../../img/gakvetilebi/Computer-Science/Class-4/Books-and-brochures-13/C-4-13-16-1darkMode.svg';
+  }
+
   if (reset__btn[0]) {
     reset__btn[0].classList.add("reset__btn_black");
   }
