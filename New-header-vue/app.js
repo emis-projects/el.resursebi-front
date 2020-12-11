@@ -29,6 +29,9 @@ if (theme == "darck") {
   if(document.getElementById('C-4-13-16-1darkChange')){
     document.getElementById('C-4-13-16-1darkChange').src = '../../../img/gakvetilebi/Computer-Science/Class-4/Books-and-brochures-13/C-4-13-16-1darkMode.svg';
   }
+  if(document.getElementById('cs-6-4-101darkMode')){
+    document.getElementById('cs-6-4-101darkMode').src = '../../../img/gakvetilebi/Computer-Science/Class-6/Variables-4/cs-6-4-10.1darkMode.svg';
+  }
 
   if (reset__btn[0]) {
     reset__btn[0].classList.add("reset__btn_black");
