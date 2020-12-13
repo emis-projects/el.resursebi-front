@@ -43,7 +43,7 @@ function natureGames() {
         myDragArray.push(element);
     });
 
-    this.dragDrop = (e) => {
+    this.dragdrop = (e) => { e.preventDefault();
         var drag = document.querySelector('.draggedElement')
         var clone = drag.cloneNode(true);
         if (e.target.classList.contains('myDrag') && !e.target.classList.contains(clone.getAttribute('data-name'))) {

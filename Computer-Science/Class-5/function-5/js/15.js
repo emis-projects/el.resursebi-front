@@ -49,7 +49,7 @@ function computerGames() {
         myDragArray.push(element);
     });
 
-    this.dragDrop = (e) => {
+    this.dragdrop = (e) => { e.preventDefault();
         var drag = document.querySelector('.draggedElement')
         if (e.target.classList.contains('myDrag')) {
             clone = drag.cloneNode(true);

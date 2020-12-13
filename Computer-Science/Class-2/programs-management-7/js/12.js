@@ -54,7 +54,7 @@ function computerGames() {
     });
 
 
-    this.dragDrop = (e) => {
+    this.dragdrop = (e) => { e.preventDefault();
         var drag = document.querySelector('.draggedElement')
         if (e.target.classList.contains('myDrag')) {
             e.target.appendChild(drag)

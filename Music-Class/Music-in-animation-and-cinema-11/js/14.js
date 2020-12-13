@@ -82,7 +82,7 @@ function game() {
     }
     
 
-    this.dragDrop = e => {
+    this.dragdrop = e => { e.preventDefault();
         if(!e.target.classList.contains('disabled')){
             e.target.appendChild(document.querySelector('.draggedElement'));
         }

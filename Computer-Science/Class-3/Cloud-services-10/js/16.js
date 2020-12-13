@@ -54,7 +54,7 @@ function computerGames() {
 
     var clone1;
 
-    this.dragDrop = (e) => {
+    this.dragdrop = (e) => { e.preventDefault();
         
         var drag = document.querySelector('.draggedElement')
         if(e.target.children[0] || e.target.getAttribute('data-placeDiv') != drag.getAttribute('data-placeDiv')){

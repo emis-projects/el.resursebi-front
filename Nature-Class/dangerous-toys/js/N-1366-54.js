@@ -111,7 +111,7 @@ function natureGames(){
 
 
     // drop
-    this.dragDrop = (e) => {
+    this.dragdrop = (e) => { e.preventDefault();
         let draggedEl = document.querySelector('.draggedElement').querySelector('h5');
         let draggedElIndex = parseInt(draggedEl.getAttribute('data-index'));
 

@@ -56,7 +56,7 @@ function natureGames() {
         myArray.push(dragableText[i])
     }
 
-    this.dragDrop = e => {
+    this.dragdrop = e => { e.preventDefault();
         let drag = document.querySelector('.draggedElement');
         if(e.target.classList.contains("myDrag")){
             e.target.appendChild(drag)

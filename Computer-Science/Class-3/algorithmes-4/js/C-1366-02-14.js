@@ -73,7 +73,7 @@ function natureGames() {
     for(let i=0; i<litleFruit.length; i++){
         littleFruitArray.push(litleFruit[i])
     }
-    this.dragDrop = e => {
+    this.dragdrop = e => { e.preventDefault();
         if(!isOpen){
             return;
         }

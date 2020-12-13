@@ -79,7 +79,7 @@ function musicGames() {
     });
 
 
-    this.dragDrop = (e) => {
+    this.dragdrop = (e) => { e.preventDefault();
         var drag = document.querySelector('.draggedElement')
         if (window.location.href.includes("/5.html") || window.location.href.includes("/7.html")
             || window.location.href.includes("/8.html")) {

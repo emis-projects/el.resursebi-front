@@ -50,7 +50,7 @@ function game(){
     }
     
 
-    this.dragDrop = e => {
+    this.dragdrop = e => { e.preventDefault();
         e.target.parentElement.classList.add('added')
         e.target.appendChild(document.querySelector('.draggedElement'));
     }
