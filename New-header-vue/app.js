@@ -21,10 +21,24 @@ var completed__btn = document.getElementsByClassName("completed__btn");
 //ფოტოების გადიდების დროს უკანა ფონი
 var fullScreen_modal_content = document.getElementsByClassName('fullScreen_modal-content');
 
+var changeImgDarkMode = document.getElementsByClassName('changeImgDarkMode');
 
 if (theme == "darck") {
   var element = document.body;
   element.style.backgroundColor = "black";
+
+  if(document.getElementById('C-4-13-16-1darkChange')){
+    document.getElementById('C-4-13-16-1darkChange').src = '../../../img/gakvetilebi/Computer-Science/Class-4/Books-and-brochures-13/C-4-13-16-1darkMode.svg';
+  }
+  if(document.getElementById('cs-6-4-101darkMode')){
+    document.getElementById('cs-6-4-101darkMode').src = '../../../img/gakvetilebi/Computer-Science/Class-6/Variables-4/cs-6-4-10.1darkMode.svg';
+  }
+
+  if (changeImgDarkMode) {
+    for (let i = 0; i < changeImgDarkMode.length; i++) {
+      changeImgDarkMode[i].src = changeImgDarkMode[i].src.replace(".svg", "darkMode.svg");
+    }
+  }
 
   if (reset__btn[0]) {
     reset__btn[0].classList.add("reset__btn_black");
@@ -211,6 +225,9 @@ Vue.component("appMenu", {
       }
       if(document.getElementById('cs-6-16-18-1darkChange')){
         document.getElementById('cs-6-16-18-1darkChange').src = '../../../img/gakvetilebi/Computer-Science/Class-6/Our-sweet-memories-16/cs-6-16-18-1darkMode.svg';
+      }
+      if(document.getElementById('cs-5-4-23darkChange')){
+        document.getElementById('cs-5-4-23darkChange').src = '../../../img/gakvetilebi/Computer-Science/Class-5/objects-moving-4/cs-5-4-23darkMode.svg';
       }
       
       //დაწყება დასსრულება
@@ -418,6 +435,8 @@ Vue.component("appMenu", {
       //??info-box
       var info_box = document.getElementsByClassName("info-box");
 
+      var changeImgDarkMode = document.getElementsByClassName('changeImgDarkMode');
+
       var element = document.body;
 
       if (!this.isDark) {
@@ -436,6 +455,14 @@ Vue.component("appMenu", {
         }
         if(document.getElementById('cs-6-16-18-1darkChange')){
           document.getElementById('cs-6-16-18-1darkChange').src = '../../../img/gakvetilebi/Computer-Science/Class-6/Our-sweet-memories-16/cs-6-16-18-1darkMode.svg';
+        }
+        if(document.getElementById('cs-5-4-23darkChange')){
+          document.getElementById('cs-5-4-23darkChange').src = '../../../img/gakvetilebi/Computer-Science/Class-5/objects-moving-4/cs-5-4-23darkMode.svg';
+        }
+        if (changeImgDarkMode) {
+          for (let i = 0; i < changeImgDarkMode.length; i++) {
+            changeImgDarkMode[i].src = changeImgDarkMode[i].src.replace(".svg", "darkMode.svg");
+          }
         }
 
         if (appendChild_img) {
@@ -653,6 +680,14 @@ Vue.component("appMenu", {
         }
         if(document.getElementById('cs-6-16-18-1darkChange')){
           document.getElementById('cs-6-16-18-1darkChange').src = '../../../img/gakvetilebi/Computer-Science/Class-6/Our-sweet-memories-16/cs-6-16-18-1.svg';
+        }
+        if(document.getElementById('cs-5-4-23darkChange')){
+          document.getElementById('cs-5-4-23darkChange').src = '../../../img/gakvetilebi/Computer-Science/Class-5/objects-moving-4/cs-5-4-23.svg';
+        }
+        if (changeImgDarkMode) {
+          for (let i = 0; i < changeImgDarkMode.length; i++) {
+            changeImgDarkMode[i].src = changeImgDarkMode[i].src.replace("darkMode.svg", ".svg");
+          }
         }
         //ფოტოების გადიდების დროს უკანა ფონი
         for (let i = 0; i < fullScreen_modal_content.length; i++) {
