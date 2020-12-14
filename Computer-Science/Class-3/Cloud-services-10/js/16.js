@@ -5,8 +5,8 @@ function computerGames() {
     var completedBtn = document.getElementById('completedGame');
     var resetBtn = document.getElementById('resetBtn');
 
-    $(DragGameChilds1).on('dragstart', (e) => this.dragStart(e));
-    $(DragGameChilds1).on('dragend', (e) => this.dragEnd(e));
+    $('.DragGame--childs1, .myDrag .DragGame--childs1').on('dragstart', (e) => this.dragStart(e));
+    $('.DragGame--childs1, .myDrag .DragGame--childs1').on('dragend', (e) => this.dragEnd(e));
 
 
     for (const drag of mydrag) {
@@ -28,6 +28,7 @@ function computerGames() {
 
         e.preventDefault();
     }
+
     this.dragStart = (e) => {
         setTimeout(() => {
             e.target.className += " draggedElement"
@@ -54,20 +55,22 @@ function computerGames() {
 
     var clone1;
 
-    this.dragdrop = (e) => { e.preventDefault();
+    this.dragDrop = (e) => { 
+        e.preventDefault();
+
+        console.log(e.target)
         
         var drag = document.querySelector('.draggedElement')
-        if(e.target.children[0] || e.target.getAttribute('data-placeDiv') != drag.getAttribute('data-placeDiv')){
-            return;
-        }
+
+        // if(e.target.children[0] || e.target.getAttribute('data-placeDiv') != drag.getAttribute('data-placeDiv')){
+        //     return;
+        // }
+
         if(drag){
             var clone =  drag.cloneNode(true);
-            $(clone).removeClass('draggedElement')
             e.target.appendChild(clone);
+            $(clone).removeClass('draggedElement')
             clone1 = e.target.appendChild(clone);
-            // clone1.style = "height: 100%;  width: 90%;";
-            // clone1.setAttribute('style', "height: 100%;  width: 90%;")
-            clone1.style="pointer-events: none;"
         }
     }
 
