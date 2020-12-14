@@ -69,7 +69,7 @@ function natureGames(){
     
     
     // drop 
-    this.dragDrop = e => {    
+    this.dragdrop = e => { e.preventDefault();    
         let drag = document.querySelector('.draggedElement');
 
         if(e.target.parentElement.classList.contains('after_parent')){

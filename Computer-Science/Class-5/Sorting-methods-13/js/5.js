@@ -43,7 +43,7 @@ function natureGames() {
         e.target.className = elClassName;
     }
 
-    this.dragDrop = (e) => {
+    this.dragdrop = (e) => { e.preventDefault();
         var drag = document.querySelector('.draggedElement')
         if (window.location.href.includes("5-1.html")) {
             if ((e.target.children[e.target.children.length - 1] && (drag.getAttribute('data-color')

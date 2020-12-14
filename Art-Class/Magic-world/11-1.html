@@ -2,17 +2,20 @@
 <html lang="ka" data-botid="2318">
 
 <head>
-    <meta charset="UTF-8"/>
-    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
     <script src="../../js/vue.js"></script>
     <!--  ვუე გაშვებისას
       <script src="./js/vue.min.js"></script>
        -->
-    <link rel="stylesheet" href="../../New-header-vue/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="../../scss/libraries/owl.carousel.min.css" />
+    <link rel="stylesheet" type="text/css" href="../../scss/libraries/owl.theme.default.css" />
     <link rel="stylesheet" href="../../scss/libraries/bootstrap.min.css">
-    <link href="../../scss/new-style.css" rel="stylesheet"/>
-<link href="../../scss/new-style.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="../../New-header-vue/animate.min.css">
+    <link rel="stylesheet" href="../../scss/libraries/magnific-popup.css">
+    <link href="../../scss/new-style.css" rel="stylesheet" />
+    <link href="../../scss/new-style.css" rel="stylesheet" />
     <title>ელექტრონული საგანმანათლებლო რესურსი</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
@@ -550,11 +553,10 @@
                     </div>
                 </div>
             </div>
-
             <div class="our__pagination flex">
                 <div id="pagination" class="flex align-items-center">
                     <div class="pagination__item">
-                        <a class="current__pagination" href="#">1</a>
+                        <a class="current__pagination" href="3-1.html">1</a>
                     </div>
                 </div>
             </div>
@@ -568,7 +570,7 @@
     </div>
 
     <script src="../../js/libraries/jquery-3.4.1.min.js"></script>
-<script src="../../js/detectdevice.js"></script>
+    <script src="../../js/detectdevice.js"></script>
     <script src="../../js/libraries/jquery.magnific-popup.min.js"></script>
 
 
@@ -577,6 +579,31 @@
     <script src="../../New-header-vue/app.js"></script>
     <script src="../../Vue-chatBot/botApp.js"></script>
     <script src="../../js/bot.js"></script>
+
+
+    <script>
+        var owl = $(".owl-carousel");
+        owl.owlCarousel({
+            loop: true,
+            nav: false,
+            dots: true,
+            margin: 10,
+            items: 1,
+            autoplay: false,
+            autoHeight: true,
+            autoplayTimeout: 4000,
+            autoplayHoverPause: true
+        });
+        $(document).on("click", "#slide1", function () {
+            owl.trigger("to.owl.carousel", 0);
+        });
+        $(document).on("click", "#slide2", function () {
+            owl.trigger("to.owl.carousel", 1);
+        });
+        $(document).on("click", "#slide3", function () {
+            owl.trigger("to.owl.carousel", 2);
+        });
+    </script>
 
 </body>
 

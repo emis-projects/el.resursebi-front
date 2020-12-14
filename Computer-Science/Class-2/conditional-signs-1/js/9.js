@@ -78,7 +78,7 @@ function game(){
     }
     
 
-    this.dragDrop = e => {
+    this.dragdrop = e => { e.preventDefault();
         e.target.parentElement.appendChild(document.querySelector('.draggedElement'));
 
         let previusElement = e.target;

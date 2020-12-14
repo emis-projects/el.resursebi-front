@@ -13064,28 +13064,28 @@ section .arrow_up_down_downArrow img {
 .n-1366-05-53-arrow-1 {
   position: absolute;
   top: 5vh;
-  left: 30vw;
+  left: 28vw;
   max-height: 3.89vh;
 }
 
 .n-1366-05-53-arrow-2 {
   position: absolute;
   top: 20vh;
-  left: 30vw;
+  left: 28vw;
   max-height: 3.89vh;
 }
 
 .n-1366-05-53-arrow-3 {
   position: absolute;
   top: 35vh;
-  left: 30vw;
+  left: 28vw;
   max-height: 3.89vh;
 }
 
 .n-1366-05-53-arrow-4 {
   position: absolute;
   top: 50vh;
-  left: 30vw;
+  left: 28vw;
   max-height: 3.89vh;
 }
 
@@ -13099,7 +13099,7 @@ section .arrow_up_down_downArrow img {
 .moon-div-1 {
   position: absolute;
   top: 9vh;
-  right: 43vh;
+  right: 37vh;
   border: 1px dashed #FFDC67;
   height: 12vh;
   width: 12vh;
@@ -13109,7 +13109,7 @@ section .arrow_up_down_downArrow img {
 .moon-div-2 {
   position: absolute;
   top: 24vh;
-  right: 50vh;
+  right: 43vh;
   border: 1px dashed;
   height: 12vh;
   width: 12vh;
@@ -13119,7 +13119,7 @@ section .arrow_up_down_downArrow img {
 .moon-div-3 {
   position: absolute;
   top: 39vh;
-  right: 43vh;
+  right: 37vh;
   border: 1px dashed;
   height: 12vh;
   width: 12vh;
@@ -13147,7 +13147,7 @@ section .arrow_up_down_downArrow img {
 
 .shadow_box .shadow_moon {
   display: none;
-  width: 50%;
+  width: 55%;
 }
 
 .n_hint_shadow {
@@ -42962,13 +42962,11 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
-.storing-information-14-1 {
-  height: 65vh;
-  max-height: 503px;
-}
-
 .storing-information-14-1 img {
-  height: 100%;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  height: 65vh !important;
 }
 
 .storing-information-14-1 {
