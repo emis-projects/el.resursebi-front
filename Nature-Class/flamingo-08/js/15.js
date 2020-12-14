@@ -54,7 +54,7 @@ function natureGames() {
         myArray2.push(mydrag[i])
     }
 
-    this.dragdrop = (e) => { e.preventDefault();
+    this.dragDrop = (e) => { e.preventDefault();
         
         var drag = document.querySelector(".draggedElement")
 

@@ -55,7 +55,7 @@ function natureGames() {
 
 
     // drop 
-    this.dragdrop = e => { e.preventDefault();
+    this.dragDrop = e => { e.preventDefault();
         let drag = document.querySelector('.draggedElement');
         if (e.target.parentElement.classList.contains('myDrag')) {
             e.target.appendChild(drag);

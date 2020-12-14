@@ -44,7 +44,7 @@ function natureGames() {
         e.target.className = elClassName;
     }
 
-    this.dragdrop = (e) => { e.preventDefault();
+    this.dragDrop = (e) => { e.preventDefault();
         var drag = document.querySelector('.draggedElement')
         if(e.target.getAttribute('data-id') != drag.getAttribute('data-id')){
             return;

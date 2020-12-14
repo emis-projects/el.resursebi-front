@@ -67,7 +67,7 @@ function computerGames() {
     idCount = 1;
 
 
-    this.dragdrop = (e) => { e.preventDefault();
+    this.dragDrop = (e) => { e.preventDefault();
 
         if (e.target.getAttribute('data-mydrag') == idCount) {
             if (e.target.firstElementChild || e.target.classList.contains('DragGame--childs1')) {
