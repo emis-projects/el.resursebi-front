@@ -39,9 +39,13 @@ let jsonObject = null,
       return {...w, id: w.number, url: w.number, width: width, group}
     })
 
+    console.log(modifierObject)
+
     var Stepindex = 0;
     var complexIndex = 0;
     var stepLabelValue = 0;
+    var currentComplex = null;
+
 
     // ამ ფილტრით ვშლი იმ ნაბიჯებს და კომპლექსურებს რომლებიც არაა საჭირო
     // ანუ თუ კომპლექსურს მოსდევს ისევ კომპლექსური, მეორე კომპლექსური ამოიშლება.
@@ -53,9 +57,24 @@ let jsonObject = null,
           return true
 
         } else {
+          currentComplex = w.id;
           return false
         }
+      } else if(w.type === 3) {
+        let regex = w.id;
+        let phormula = /[0-9]+/g;
+        var result = regex.match(phormula)[0];
+
+        if(currentComplex == result) {
+          console.log(result)
+          return false
+
+        } else {
+          return true
+        }
+
       } else if(w.type === 1){
+        currentComplex = null;
         Stepindex++
         stepLabelValue++
 
@@ -89,7 +108,9 @@ let jsonObject = null,
 
         return true
 
+      
       } else {
+        currentComplex = null;
         Stepindex = 0;
         complexIndex = 0;
         return true
