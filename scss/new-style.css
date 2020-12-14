@@ -42962,13 +42962,11 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
-.storing-information-14-1 {
-  height: 65vh;
-  max-height: 503px;
-}
-
 .storing-information-14-1 img {
-  height: 100%;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  height: 65vh !important;
 }
 
 .storing-information-14-1 {
@@ -55107,3 +55105,4 @@ input:checked + .slider:before {
 #tableOfContentTwo.tableOfContentTwo-scroll::-webkit-scrollbar-thumb:hover {
   background: #69bac2;
 }
+/*# sourceMappingURL=new-style.css.map */
