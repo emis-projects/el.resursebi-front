@@ -295,11 +295,7 @@ Vue.component("appMenu", {
       if (newDesign_container_main_title[0]) {
         newDesign_container_main_title[0].classList.add("newDesign_subject_question_item-title_black_P");
       }
-      // for(let i=0; i<11; i++){
-      //   if(dj_2_3vh[i]){
-      //     dj_2_3vh[i].classList.add("newDesign_subject_question_item-title_black_P");
-      //   }
-      // }
+
       //index.html დასაწყისი
       if (bg_menu[0]) {
         bg_menu[0].classList.add("new_btn-start_black_btn");
@@ -349,25 +345,20 @@ Vue.component("appMenu", {
 
         //switchDark
         document.getElementById("switchDarkId").checked = false;
-        document.getElementById("switchDarkIdShadow").style.boxShadow =
-          "1px 3px 6px #7fd1d8";
+        document.getElementById("switchDarkIdShadow").style.boxShadow = "1px 3px 6px #7fd1d8";
       });
 
       if (document.getElementById("1_kompTeq")) {
-        document.getElementById("1_kompTeq").src =
-          "./img/slider/(blake)slide-illustration-c.svg";
+        document.getElementById("1_kompTeq").src = "./img/slider/(blake)slide-illustration-c.svg";
       }
       if (document.getElementById("2_buneba")) {
-        document.getElementById("2_buneba").src =
-          "./img/slider/(blake)slide-illustration-n.svg";
+        document.getElementById("2_buneba").src = "./img/slider/(blake)slide-illustration-n.svg";
       }
       if (document.getElementById("3_xelovneba")) {
-        document.getElementById("3_xelovneba").src =
-          "./img/slider/(blake)slide-illustration-a.svg";
+        document.getElementById("3_xelovneba").src = "./img/slider/(blake)slide-illustration-a.svg";
       }
       if (document.getElementById("4_musika")) {
-        document.getElementById("4_musika").src =
-          "./img/slider/(blake)slide-illustration-m.svg";
+        document.getElementById("4_musika").src = "./img/slider/(blake)slide-illustration-m.svg";
       }
       //nabiji
       for (let i = 0; i < nabiji.length; i++) {
@@ -394,13 +385,9 @@ Vue.component("appMenu", {
       //
       var app_select = document.getElementsByClassName("app-select");
       var app_sections = document.getElementsByClassName("app-sections");
-      var class_box = document.getElementsByClassName("class_box");
       var circles_number_pink = document.getElementsByClassName("circles_number-pink");
-      var circles_number_white = document.getElementsByClassName("circles_number-white");
       var top_bar = document.getElementsByClassName("top-bar");
       var img = $(".menu_box_passive").css("background-image");
-      var dj_2_3vh = document.getElementsByClassName("dj-2_3vh");
-      var Rectangle_1414_2 = document.getElementById("Rectangle_1414-2");
       var nabiji = document.getElementsByClassName('newDesign_steps_item-img');
       //სურთები
       var appendChild_img = document.getElementsByClassName('appendChild--img');
@@ -409,8 +396,6 @@ Vue.component("appMenu", {
       var imgBackgroundWhite = document.getElementsByClassName("imgBackgroundWhite");
       //გათიშვის ღილაკი წარმატების და მინიშნების გვერდისთვის x
       var close = document.getElementsByClassName('close');
-
-      var dj_2_3vh = document.getElementsByClassName("dj-2_3vh");
 
       //ფოტოების გადიდების დროს უკანა ფონი
       var fullScreen_modal_content = document.getElementsByClassName('fullScreen_modal-content');
@@ -544,13 +529,7 @@ Vue.component("appMenu", {
             pDarkMode[i].classList.add("newDesign_subject_question_item-title_black_P");
           }
         }
-        // for(let i=0; i<11; i++){
-        //   console.log('not defined')
-        //   if(dj_2_3vh[i]){
-        //     dj_2_3vh[i].classList.add("newDesign_subject_question_item-title_black_P");
-        //   }
-        // }
-        //H
+
         if (algorithme_title_italic[0]) {
           algorithme_title_italic[0].classList.add("newDesign_subject_question_item-title_black_P");
         }
@@ -773,12 +752,7 @@ Vue.component("appMenu", {
             pDarkMode[i].classList.remove("newDesign_subject_question_item-title_black_P");
           }
         }
-        // for(let i=0; i<11; i++){
-        //   if(dj_2_3vh[i]){
-        //     dj_2_3vh[i].classList.remove("newDesign_subject_question_item-title_black_P");
-        //   }
-        // }
-        //H
+
         if (algorithme_title_italic[0]) {
           algorithme_title_italic[0].classList.remove("newDesign_subject_question_item-title_black_P");
         }
