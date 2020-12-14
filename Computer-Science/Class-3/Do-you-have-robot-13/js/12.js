@@ -47,7 +47,7 @@ function musicGames() {
     }
 
 
-    this.dragdrop = (e) => { e.preventDefault();
+    this.dragDrop = (e) => { e.preventDefault();
         let dropElement = document.querySelector('.draggedElement').getAttribute('data-index');
         
         if(e.target.classList.contains('DragGame—childs1') && dropElement == this.answers[this.index]) {

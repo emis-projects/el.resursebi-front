@@ -60,7 +60,7 @@ function computerGames() {
     var previousState = null;
     var count = 0;
 
-    this.dragdrop = (e) => { e.preventDefault();
+    this.dragDrop = (e) => { e.preventDefault();
         if (e.target.getAttribute('data-mydrag') == idCount) {
             var drag = document.querySelector('.draggedElement')
             clone = drag.cloneNode(true);

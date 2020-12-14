@@ -69,7 +69,7 @@ function natureGames(){
 
 
      // drop 
-     this.dragdrop = e => { e.preventDefault();
+     this.dragDrop = e => { e.preventDefault();
         let drag = document.querySelector('.draggedElement');
 
         if(e.target.classList.contains('n_57_game-container')){
