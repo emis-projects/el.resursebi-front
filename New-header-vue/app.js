@@ -208,6 +208,7 @@ Vue.component("appMenu", {
 
     //ფოტოების გადიდების დროს უკანა ფონი
     var fullScreen_modal_content = document.getElementsByClassName('fullScreen_modal-content');
+    var backEndDark = document.getElementsByClassName('backEndDark');
 
     if (theme == "darck") {
       //სურათის შეცვლა კონკრეტული გვერდებისთვის
@@ -266,6 +267,12 @@ Vue.component("appMenu", {
           fullScreen_modal_content[i].classList.add("new_btn-start_black_btn");
         }
       }
+      for (let i = 0; i < backEndDark.length; i++) {
+        if (backEndDark[i]) {
+          backEndDark[i].classList.add("new_btn-start_black_btn");
+        }
+      }
+      
       //btn index.html
       for (let i = 0; i < 16; i++) {
         if (new_btn_start[i]) {
@@ -399,6 +406,7 @@ Vue.component("appMenu", {
 
       //ფოტოების გადიდების დროს უკანა ფონი
       var fullScreen_modal_content = document.getElementsByClassName('fullScreen_modal-content');
+      var backEndDark = document.getElementsByClassName('backEndDark');
 
 
       //ტეგები
@@ -566,8 +574,12 @@ Vue.component("appMenu", {
             fullScreen_modal_content[i].classList.add("new_btn-start_black_btn");
           }
         }
-
-
+        for (let i = 0; i < backEndDark.length; i++) {
+          if (backEndDark[i]) {
+            backEndDark[i].classList.add("new_btn-start_black_btn");
+          }
+        }
+        
         if (top_bar[0]) {
           top_bar[0].classList.add("new_btn-start_black_btn");
         }
@@ -663,6 +675,11 @@ Vue.component("appMenu", {
         for (let i = 0; i < fullScreen_modal_content.length; i++) {
           if (fullScreen_modal_content[i]) {
             fullScreen_modal_content[i].classList.remove("new_btn-start_black_btn");
+          }
+        }
+        for (let i = 0; i < backEndDark.length; i++) {
+          if (backEndDark[i]) {
+            backEndDark[i].classList.remove("new_btn-start_black_btn");
           }
         }
 
