@@ -41,7 +41,7 @@ function natureGames() {
 
     var isDataPlace = false;
 
-    this.dragdrop = (e) => { e.preventDefault();
+    this.dragDrop = (e) => { e.preventDefault();
         var drag = document.querySelector('.draggedElement')
         ESrc = e.target.src;
         if(drag.getAttribute('data-place') == 1){

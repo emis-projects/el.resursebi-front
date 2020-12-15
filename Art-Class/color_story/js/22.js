@@ -130,7 +130,7 @@ function dragQuizGame(){
   }
 
 
-  this.dragdrop = e => { e.preventDefault();
+  this.dragDrop = e => { e.preventDefault();
     e.target.appendChild(document.querySelector('button.draggedElement'))
 
     if(e.target.childNodes[0].className == "draggedElement"){

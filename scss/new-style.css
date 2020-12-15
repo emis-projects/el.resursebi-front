@@ -51089,7 +51089,8 @@ tr td:first-child {
   height: 53.41vh;
   max-height: 410.2px !important;
   position: absolute;
-  bottom: 0;
+  bottom: 15vh;
+  right: 25vh;
 }
 
 .cs-3-14-10 {
@@ -55105,3 +55106,4 @@ input:checked + .slider:before {
 #tableOfContentTwo.tableOfContentTwo-scroll::-webkit-scrollbar-thumb:hover {
   background: #69bac2;
 }
+/*# sourceMappingURL=new-style.css.map */

@@ -90,7 +90,7 @@ function game() {
     }
     
 
-    this.dragdrop = e => { e.preventDefault();
+    this.dragDrop = e => { e.preventDefault();
 
         e.target.appendChild(document.querySelector('.draggedElement'));
 
