@@ -20,6 +20,7 @@ var reset__btn = document.getElementsByClassName("reset__btn");
 var completed__btn = document.getElementsByClassName("completed__btn");
 //ფოტოების გადიდების დროს უკანა ფონი
 var fullScreen_modal_content = document.getElementsByClassName('fullScreen_modal-content');
+var fullScreen_modal_title = document.getElementsByClassName('fullScreen_modal-title');
 
 var changeImgDarkMode = document.getElementsByClassName('changeImgDarkMode');
 
@@ -98,6 +99,11 @@ if (theme == "darck") {
   for (let i = 0; i < pDarkMode.length; i++) {
     if (pDarkMode[i]) {
       pDarkMode[i].classList.add("newDesign_subject_question_item-title_black_P");
+    }
+  }
+  for (let i = 0; i < fullScreen_modal_title.length; i++) {
+    if (fullScreen_modal_title[i]) {
+      fullScreen_modal_title[i].classList.add("newDesign_subject_question_item-title_black_P");
     }
   }
   if (current__pagination[0]) {
