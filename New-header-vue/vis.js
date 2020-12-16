@@ -3,7 +3,8 @@ let jsonObject = null,
     width = null,
     nodesData = null,
     obj = [];
-    stepIndexes = []
+    stepIndexes = [];
+    lastComplex = null;
 
 
   getTypeAndWidth = (number) => {
@@ -30,23 +31,21 @@ let jsonObject = null,
     const json = await $.getJSON("data.json");
 
     jsonObject = json;
-
-
+    
     // ამ ფილტრით ხდება null ების და ignore ების ამოშლა
-    var modifierObject = json.pages.filter(w => w.type !== null  && !w.ignore).map(w => {
+    var modifierObject = json.pages.filter(w => !w.ignore).map(w => {
       getTypeAndWidth(w.type)
 
       return {...w, id: w.number, url: w.number, width: width, group}
     })
 
-    console.log(modifierObject)
 
-    var Stepindex = 0;
     var complexIndex = 0;
     var stepLabelValue = 0;
     var currentComplex = null;
 
 
+    console.log(modifierObject)
     // ამ ფილტრით ვშლი იმ ნაბიჯებს და კომპლექსურებს რომლებიც არაა საჭირო
     // ანუ თუ კომპლექსურს მოსდევს ისევ კომპლექსური, მეორე კომპლექსური ამოიშლება.
     // ასევე ნაბიჯზეც იგივე მოხდება.
@@ -66,7 +65,6 @@ let jsonObject = null,
         var result = regex.match(phormula)[0];
 
         if(currentComplex == result) {
-          console.log(result)
           return false
 
         } else {
@@ -74,44 +72,23 @@ let jsonObject = null,
         }
 
       } else if(w.type === 1){
+        complexIndex = 0;
         currentComplex = null;
-        Stepindex++
-        stepLabelValue++
+        let prevObj = modifierObject[i - 1];
 
-        if(stepLabelValue == 1){
+        if(prevObj.type == 1) {
+          return false
+        } else {
+          stepLabelValue++;
           w.group = `step${stepLabelValue}`
-
-        } else if(stepLabelValue == 2){
-          w.group = `step${stepLabelValue}`
-
-        } else if(stepLabelValue == 3){
-          w.group = `step${stepLabelValue}`
-
-        } else if(stepLabelValue == 4){
-          w.group = `step${stepLabelValue}`
-
-        } else if(stepLabelValue == 5){
-          w.group = `step${stepLabelValue}`
-
-        } else if(stepLabelValue == 6){
-          w.group = `step${stepLabelValue}`
-
-        } else if(stepLabelValue == 7){
-          w.group = `step${stepLabelValue}`
-
-        } else if(stepLabelValue == 8){
-          w.group = `step${stepLabelValue}`
-
-        } else if(stepLabelValue == 9){
-          w.group = `step${stepLabelValue}`
+          return true
         }
 
-        return true
+      } else if(w.type == null) {
+        return false
 
-      
       } else {
         currentComplex = null;
-        Stepindex = 0;
         complexIndex = 0;
         return true
       }
@@ -123,11 +100,8 @@ let jsonObject = null,
 
     obj = secondFilteredData;
 
-    // console.log(secondFilteredData)
-
     nodesData = [...secondFilteredData]
   })
-
 
 
   // აქ იხატება ყველაფერი. დოკუმენტაცია: https://visjs.github.io/vis-network/docs/network/ -->
@@ -558,9 +532,14 @@ let jsonObject = null,
     // სარჩევში იმ გვერდის გააქტიურება, რომლიდანაც გამოვიძახეთ სარჩევის მენიუ
 
     var currentURL = window.location.href;
-    var activeID = currentURL.substring(currentURL.lastIndexOf('/') + 1, currentURL.lastIndexOf(".html"));
-    network.selectNodes([activeID])
 
-
+    try {
+      var activeID = currentURL.substring(currentURL.lastIndexOf('/') + 1, currentURL.lastIndexOf(".html"));
+      network.selectNodes([activeID])
+      
+    } catch(err) {
+      console.log(err)
+    }
+    
   }
 
