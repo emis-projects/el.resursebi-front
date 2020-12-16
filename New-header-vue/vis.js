@@ -5,10 +5,6 @@ let jsonObject = null,
     obj = [];
     stepIndexes = [];
     lastComplex = null;
-    testvariable = [];
-
-    let pagetype = document.querySelector('html').getAttribute('data-type')
-    let pageid = document.querySelector('html').getAttribute('pageid')
 
 
   getTypeAndWidth = (number) => {
@@ -57,7 +53,6 @@ let jsonObject = null,
       if(w.type === 5){
         if(w.type == 5 && complexIndex == 0) {
           complexIndex++
-          testvariable.push(w.id);
           return true
 
         } else {
@@ -337,7 +332,6 @@ let jsonObject = null,
     let array = [];
     let index = 0;
 
-    console.log(testvariable)
 
     // გადაბმები
     obj.map((w, i, e) => {
@@ -544,8 +538,6 @@ let jsonObject = null,
       network.selectNodes([activeID])
       
     } catch(err) {
-      network.selectNodes([testvariable])
-      
       console.log(err)
     }
     
