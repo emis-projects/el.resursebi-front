@@ -55107,3 +55107,6 @@ input:checked + .slider:before {
   background: #69bac2;
 }
 /*# sourceMappingURL=new-style.css.map */
+.border1PxSW{
+  border: 1px solid white;
+}
