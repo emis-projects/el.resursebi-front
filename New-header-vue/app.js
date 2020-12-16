@@ -1490,10 +1490,9 @@ Vue.component("appLinks", {
     );
 
     this.activeTitle = activeClassData[0].name;
-
     // ჯეისონიდან განსხვავებული ტიპების ამოღება
     this.dataTypes = [...new Set(data.pages.map((item) => item.type))].filter(
-      (x) => x !== null
+      (x) => x !== null 
     );
 
     var theme = localStorage.getItem("theme");
