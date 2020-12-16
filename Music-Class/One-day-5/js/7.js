@@ -81,7 +81,7 @@ function game(){
     }
     
 
-    this.dragDrop = e => {
+    this.dragDrop = e => { e.preventDefault();
         if(e.target.classList.contains('DragGame—childs1')){
             e.target.appendChild(document.querySelector('.draggedElement'));
         }
@@ -95,6 +95,9 @@ function game(){
         this.error = false;
 
         $('.DragGame—childs1').removeAttr('style')
+
+
+        $('.class_music_5-img_7').html($('.DragGame—childs2'))
 
         // stop voice 
         createjs.Sound.stop("sound");

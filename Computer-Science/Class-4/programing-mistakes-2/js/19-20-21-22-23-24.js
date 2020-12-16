@@ -60,10 +60,11 @@ function computerGames() {
     var previousState = null;
     var count = 0;
 
-    this.dragDrop = (e) => {
+    this.dragDrop = (e) => { e.preventDefault();
         if (e.target.getAttribute('data-mydrag') == idCount) {
             var drag = document.querySelector('.draggedElement')
             clone = drag.cloneNode(true);
+            console.log('clone', clone.className)
             e.target.appendChild(clone)
             //$(clone).removeClass('draggedElement')
             var dest = clone.getAttribute('data-way');

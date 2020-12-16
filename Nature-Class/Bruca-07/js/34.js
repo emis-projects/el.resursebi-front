@@ -58,7 +58,7 @@ function natureGames(){
     }
 
     // drop 
-    this.dragDrop = e => {
+    this.dragDrop = e => { e.preventDefault();
         let drag = document.querySelector('.draggedElement');
         let chasasmeli = e.target.parentElement.classList.contains("myDrag");
         if (chasasmeli) {

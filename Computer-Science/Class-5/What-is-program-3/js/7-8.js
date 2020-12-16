@@ -44,7 +44,7 @@ function computerGames() {
         myArray.push(element);
     });
     
-    this.dragDrop = (e) => {
+    this.dragDrop = (e) => { e.preventDefault();
         var drag = document.querySelector('.draggedElement');
         var dragParent = drag.parentElement;
         let firstElement = e.target.parentElement.firstElementChild;

@@ -3377,6 +3377,7 @@ section .arrow_up_down_downArrow img {
   font-family: "DejaVuSans";
   line-height: 3.9vh;
   margin-left: 2vh;
+  margin-top: 0.5vh;
 }
 
 .newDesign_steps_cont {
@@ -5412,3 +5413,4 @@ input:checked + .slider:before {
   margin-left: 2vh;
   margin-top: 1.3vh;
 }
+/*# sourceMappingURL=components_style.css.map */

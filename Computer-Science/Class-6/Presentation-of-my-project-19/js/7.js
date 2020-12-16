@@ -98,7 +98,7 @@ function game(){
 
 
 
-    this.dragDrop = e => {
+    this.dragDrop = e => { e.preventDefault();
         e.target.querySelector('.appendDiv').appendChild(document.querySelector('.draggedElement'));
 
         this.checkFirstLine(e)

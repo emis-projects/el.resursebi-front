@@ -80,7 +80,7 @@ function musicGames() {
     });
 
 
-    this.dragDrop = (e) => {
+    this.dragDrop = (e) => { e.preventDefault();
         var drag = document.querySelector('.draggedElement')
         if (e.target.classList.contains('myDrag')) {
             e.preventDefault();

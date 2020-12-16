@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
     <script src="../../js/vue.js"></script>
-    <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
     <!--  ვუე გაშვებისას
       <script src="./js/vue.min.js"></script>
        -->
@@ -27,6 +26,21 @@
 
         gtag('config', 'UA-155006442-1');
     </script>
+    <style>
+        .music-new-05-div-8-1-blue {
+            position: relative;
+        }
+
+        .music-new-05-div-8-1-blue::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            z-index: 12;
+        }
+    </style>
 </head>
 
 <body>
@@ -480,13 +494,13 @@
             </div>
 
 
-            <div class="our__pagination flex">
+            <!-- <div class="our__pagination flex">
                 <div id="pagination" class="flex align-items-center">
                     <div class="pagination__item">
                         <a class="current__pagination" href="#">1</a>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </section>
     </div>
 
@@ -497,6 +511,7 @@
     </div>
 
     <script src="../../js/libraries/jquery-3.4.1.min.js"></script>
+<script src="../../js/detectdevice.js"></script>
     <script src="../../js/libraries/jquery.magnific-popup.min.js"></script>
 
     <script src="../../js/libraries/sound.js"></script>

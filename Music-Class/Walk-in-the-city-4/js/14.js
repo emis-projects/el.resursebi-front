@@ -113,7 +113,7 @@ function game() {
     }
     
 
-    this.dragDrop = e => {
+    this.dragDrop = e => { e.preventDefault();
         if(document.querySelector('.draggedElement').getAttribute('data-index') == this.answer){
             this.index++;
             this.index2++;

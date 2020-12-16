@@ -72,7 +72,7 @@ function game(){
     }
     
 
-    this.dragDrop = e => {
+    this.dragDrop = e => { e.preventDefault();
         e.preventDefault();
 
         if(e.target.classList.contains('DragGame—childs1') && !e.target.querySelector('.DragGame—childs2')){

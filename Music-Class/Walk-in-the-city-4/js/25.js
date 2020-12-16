@@ -1,117 +1,125 @@
-var circle = document.querySelectorAll(".class_music_4-img_25_circle img");
-var boxes = document.querySelectorAll(".class_music_4-img_25_cont");
-var boxOne = document.querySelectorAll(".box-1");
-var boxtwo = document.querySelectorAll(".box-2");
-var boxthree = document.querySelectorAll(".box-3");
-
-window.onload = () => {
-    boxes.forEach((e) => {
-        e.classList.remove("active");
-        e.classList.remove("error");
-        e.classList.remove("success");
-        document.getElementById("completedGame").disabled = false;
-      });
-}
-
-var store = [];
-
 createjs.Sound.on("fileload", handleLoadComplete);
 createjs.Sound.alternateExtensions = ["wav"];
-
 function handleLoadComplete(event) {
-  createjs.Sound.play("sound");
+    createjs.Sound.play("sound");
 }
 
 function handleLoadstop(event) {
-  createjs.Sound.stop("sound");
+    createjs.Sound.stop("sound");
 }
 
-circle.forEach((elm) => {
-  elm.addEventListener("click", (evt) => {
-    handleLoadstop();
-    createjs.Sound.registerSound({
-      src: `${evt.target.getAttribute("data-voice")}`,
-      id: "sound",
-    });
-    handleLoadComplete();
-  });
-});
+document.querySelectorAll('.listen--btn').forEach(w => {
+    w.addEventListener('click', (e) => {
+        handleLoadstop()
+        createjs.Sound.registerSound({ src: `${e.target.getAttribute('data-voice')}`, id: "sound" });
+        handleLoadComplete()
+    })
+})
 
-boxOne.forEach((elm) => {
-  elm.addEventListener("click", () => {
-    boxOne.forEach((e) => {
-      e.classList.remove("active");
-    });
-    elm.classList.add("active");
 
-    if (elm.dataset.type == 1) {
-      store[0] = elm.dataset.type;
-    } else {
-      store[0] = "";
+function musicGames() {
+    var checkmarkJS1 = document.querySelectorAll('.checkmarkJS1');
+    var checkmarkJS2 = document.querySelectorAll('.checkmarkJS2');
+    var checkmarkJS3 = document.querySelectorAll('.checkmarkJS3');
+
+    var completedBtn = document.getElementById('completedGame');
+    var resetBtn = document.getElementById('resetBtn');
+    
+    $(checkmarkJS1).on('click', (e) => this.clickMe1(e));
+    $(checkmarkJS2).on('click', (e) => this.clickMe2(e));
+    $(checkmarkJS3).on('click', (e) => this.clickMe3(e));
+
+    function deleteClass(el) {
+        $(el).removeClass("error");
+        $(el).removeClass("active");
+        $(el).removeClass("success");
     }
-  });
-});
 
-boxtwo.forEach((elm) => {
-  elm.addEventListener("click", () => {
-    boxtwo.forEach((e) => {
-      e.classList.remove("active");
-    });
-    elm.classList.add("active");
 
-    if (elm.dataset.type == 2) {
-      store[1] = elm.dataset.type;
-    } else {
-      store[1] = "";
+    var count = 0;
+    function verifyAll(element) {
+        if (element.classList.contains('active')) {
+            if (element.classList.contains('correctJS')) {
+                $(element).removeClass("active")
+                element.classList.add('success');
+                count++;
+            }
+        }
+        if ((element.classList.contains('active'))) {
+            if ((element.classList.contains('noCorrectJS'))) {
+                $(element).removeClass("active")
+                element.classList.add('error');
+            }
+        }
     }
-  });
-});
 
-boxthree.forEach((elm) => {
-  elm.addEventListener("click", () => {
-    boxthree.forEach((e) => {
-      e.classList.remove("active");
-    });
-    elm.classList.add("active");
-
-    if (elm.dataset.type == 0) {
-      store[2] = elm.dataset.type;
-    } else {
-      store[2] = "";
+    this.clickMe1 = (e) => {
+        checkmarkJS1.forEach(element => {
+            deleteClass(element);
+        });
+        e.target.classList.add('active');
     }
-  });
-});
-
-document.getElementById("resetBtn").addEventListener("click", () => {
-  store = [];
-  boxes.forEach((e) => {
-    e.classList.remove("active");
-    e.classList.remove("error");
-    e.classList.remove("success");
-    document.getElementById("completedGame").disabled = false;
-  });
-});
-
-document.getElementById("completedGame").addEventListener("click", () => {
-  if (store.includes("") || store.length < 3) {
-    check(boxOne, 1);
-    check(boxtwo, 2);
-    check(boxthree, 0);
-  } else {
-    console.log("fire");
-    location.href = "game-success-25.html";
-  }
-  document.getElementById("completedGame").disabled = true;
-});
-
-function check(params, id) {
-  params.forEach((e) => {
-    if (e.classList.contains("active") && e.dataset.type != id) {
-      e.classList.remove("active");
-      e.classList.add("error");
-    } else if (e.classList.contains("active")) {
-      e.classList.remove("active");
-      e.classList.add("success");
+    this.clickMe2 = (e) => {
+        checkmarkJS2.forEach(element => {
+            deleteClass(element);
+        });
+        e.target.classList.add('active');
     }
-  });
+    this.clickMe3 = (e) => {
+        checkmarkJS3.forEach(element => {
+            deleteClass(element);
+        });
+        e.target.classList.add('active');
+    }
+
+    this.completGame = () => {
+        checkmarkJS1.forEach(element => {
+            verifyAll(element);
+        });
+        checkmarkJS2.forEach(element => {
+            verifyAll(element);
+        });
+        checkmarkJS3.forEach(element => {
+            verifyAll(element);
+        });
+
+
+        console.log('count', count)
+        if (count == 3) {
+            this.successPage();
+        }
+
+
+        completedBtn.setAttribute('disabled', 'true');
+    }
+
+
+
+    this.init = (e) => {
+        count = 0;
+        checkmarkJS1.forEach(element => {
+            deleteClass(element);
+        });
+        checkmarkJS2.forEach(element => {
+            deleteClass(element);
+        });
+        checkmarkJS3.forEach(element => {
+            deleteClass(element);
+        });
+        completedBtn.removeAttribute('disabled');
+    }
+
+    this.successPage = () => {
+        location.href = 'game-success-25.html';
+    }
+
+
+    resetBtn.addEventListener('click', () => this.init());
+    completedBtn.addEventListener('click', () => this.completGame());
 }
+
+
+
+
+
+const musicgame = new musicGames();

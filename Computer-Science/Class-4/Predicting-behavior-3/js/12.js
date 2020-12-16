@@ -55,7 +55,7 @@ function computerGames() {
 
     var clone1;
 
-    this.dragDrop = (e) => {
+    this.dragDrop = (e) => { e.preventDefault();
         var drag = document.querySelector('.draggedElement')
         if(e.target.children[0] && e.target.children[0].getAttribute('data-same') == drag.getAttribute('data-same')){
             return;

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="94" height="95.664" viewBox="0 0 94 95.664">
+    <defs>
+        <style>.a{fill:#62548a;}.b{font-size:29px;font-family:MyriadPro-Regular, Myriad Pro;}.f{fill:#ffffff;}</style>
+    </defs>
+    <g transform="translate(-1133 -394)">
+        <g transform="translate(127 69.664)">
+            <path class="a"
+                  d="M-2879.358-967.33l-20.339,11.74a1.011,1.011,0,0,1-1.51-.881v-6.809h-33.471v-9.85h33.471v-6.81a1.011,1.011,0,0,1,1.51-.88l20.339,11.74A1.012,1.012,0,0,1-2879.358-967.33Z"
+                  transform="translate(84.543 3259.014) rotate(90)"/>
+        </g>
+        <g class='f' transform="translate(1018.288 60.211)">
+            <g transform="translate(114.712 409.261)">
+                <path d="M125.324,414.675H114.712v-6.606h10.612Zm-9.455-1.158h8.3v-4.29h-8.3Z"
+                      transform="translate(-114.712 -408.069)"/>
+            </g>
+            <g transform="translate(129.906 409.261)">
+                <path d="M138.449,414.675H127.837v-6.606h10.612Zm-9.455-1.158h8.3v-4.29h-8.3Z"
+                      transform="translate(-127.837 -408.069)"/>
+            </g>
+            <g transform="translate(127.037 402.62)">
+                <rect width="1.158" height="19.887"/>
+            </g>
+            <text class="b" transform="translate(153.712 422.453)">
+                <tspan x="0" y="0">Split</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

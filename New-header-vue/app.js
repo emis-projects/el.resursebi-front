@@ -3,30 +3,66 @@ const index = document.getElementById("index");
 //DARK_MODE მინიშნების მინიშნების გვერდებისთვის
 var theme = localStorage.getItem("theme");
 // ტექსტური ფაილისთვის
-var newDesign_container_main_title = document.getElementsByClassName(
-  "newDesign_container_main_title"
-);
-var newDesignSubjectQuestionItemTitle = document.getElementsByClassName(
-  "newDesign_subject_question_item-title"
-);
+var newDesign_container_main_title = document.getElementsByClassName("newDesign_container_main_title");
+var newDesignSubjectQuestionItemTitle = document.getElementsByClassName("newDesign_subject_question_item-title");
 var pDarkMode = document.getElementsByClassName("pDarkMode");
 //ფეიჯინგისთვის
-var current__pagination = document.getElementsByClassName(
-  "current__pagination"
-);
-var pagination__prev__btn = document.getElementsByClassName(
-  "pagination__prev__btn"
-);
-var pagination__next__btn = document.getElementsByClassName(
-  "pagination__next__btn"
-);
+var current__pagination = document.getElementsByClassName("current__pagination");
+var pagination__prev__btn = document.getElementsByClassName("pagination__prev__btn");
+var pagination__next__btn = document.getElementsByClassName("pagination__next__btn");
 //სურათის ფერები რომლებიც შავზე არ ჩანს
 var imgBackgroundWhite = document.getElementsByClassName("imgBackgroundWhite");
 //გათიშვის ღილაკი x
 var close = document.getElementsByClassName("close");
+
+//დაწყება დასრულების ბუთონი
+var reset__btn = document.getElementsByClassName("reset__btn");
+var completed__btn = document.getElementsByClassName("completed__btn");
+//ფოტოების გადიდების დროს უკანა ფონი
+var fullScreen_modal_content = document.getElementsByClassName('fullScreen_modal-content');
+
+var changeImgDarkMode = document.getElementsByClassName('changeImgDarkMode');
+
 if (theme == "darck") {
   var element = document.body;
   element.style.backgroundColor = "black";
+
+  if (document.getElementById('C-4-13-16-1darkChange')) {
+    document.getElementById('C-4-13-16-1darkChange').src = '../../../img/gakvetilebi/Computer-Science/Class-4/Books-and-brochures-13/C-4-13-16-1darkMode.svg';
+  }
+  if (document.getElementById('cs-6-4-101darkMode')) {
+    document.getElementById('cs-6-4-101darkMode').src = '../../../img/gakvetilebi/Computer-Science/Class-6/Variables-4/cs-6-4-10.1darkMode.svg';
+  }
+
+  if (changeImgDarkMode) {
+    for (let i = 0; i < changeImgDarkMode.length; i++) {
+      changeImgDarkMode[i].src = changeImgDarkMode[i].src.replace(".svg", "darkMode.svg");
+    }
+  }
+
+  if (reset__btn[0]) {
+    reset__btn[0].classList.add("reset__btn_black");
+  }
+  if (completed__btn[0]) {
+    completed__btn[0].classList.add("completed__btn_black");
+  }
+  // ah და ar nature_lessons-ის ბუთნები
+  for (let i = 1; i < document.getElementsByClassName('ah').length; i++) {
+    if (document.getElementsByClassName('ah')) {
+      document.getElementsByClassName('ah')[i].style.fill = "#000000";
+    }
+  }
+  for (let i = 0; i < document.getElementsByClassName('ar').length; i++) {
+    if (document.getElementsByClassName('ar')) {
+      document.getElementsByClassName('ar')[i].style.fill = "#ffffff";
+    }
+  }
+  for (let i = 0; i < fullScreen_modal_content.length; i++) {
+    if (fullScreen_modal_content[i]) {
+      fullScreen_modal_content[i].classList.add("new_btn-start_black_btn");
+    }
+  }
+
   if (document.getElementById("Rectangle_1414-2")) {
     document.getElementById("Rectangle_1414-2").style.fill = "#000000";
   }
@@ -52,22 +88,16 @@ if (theme == "darck") {
     );
   });
   if (newDesign_container_main_title[0]) {
-    newDesign_container_main_title[0].classList.add(
-      "newDesign_subject_question_item-title_black_P"
-    );
+    newDesign_container_main_title[0].classList.add("newDesign_subject_question_item-title_black_P");
   }
   for (let i = 0; i < newDesignSubjectQuestionItemTitle.length; i++) {
     if (newDesignSubjectQuestionItemTitle[i]) {
-      newDesignSubjectQuestionItemTitle[i].classList.add(
-        "newDesign_subject_question_item-title_black_P"
-      );
+      newDesignSubjectQuestionItemTitle[i].classList.add("newDesign_subject_question_item-title_black_P");
     }
   }
   for (let i = 0; i < pDarkMode.length; i++) {
     if (pDarkMode[i]) {
-      pDarkMode[i].classList.add(
-        "newDesign_subject_question_item-title_black_P"
-      );
+      pDarkMode[i].classList.add("newDesign_subject_question_item-title_black_P");
     }
   }
   if (current__pagination[0]) {
@@ -154,45 +184,53 @@ Vue.component("appMenu", {
     var theme = localStorage.getItem("theme");
     var reset__btn = document.getElementsByClassName("reset__btn");
     var completed__btn = document.getElementsByClassName("completed__btn");
-    var audioDownloadBbtnBlack = document.getElementsByClassName(
-      "audio-download__btn"
-    );
-    var btnTextDark = document.getElementsByClassName(
-      "music-new-1-div-6-div-dot-text"
-    );
+    var audioDownloadBbtnBlack = document.getElementsByClassName("audio-download__btn");
+    var btnTextDark = document.getElementsByClassName("music-new-1-div-6-div-dot-text");
     var btnDarkMode = document.getElementsByClassName("btnDarkMode");
-    sign_description_btn = document.getElementsByClassName(
-      "sign-description-btn"
-    );
+    sign_description_btn = document.getElementsByClassName("sign-description-btn");
     //btn index.html
     var new_btn_start = document.getElementsByClassName("new_btn-start");
-    var newDesignSubjectQuestionItemTitle = document.getElementsByClassName(
-      "newDesign_subject_question_item-title"
-    );
+    var newDesignSubjectQuestionItemTitle = document.getElementsByClassName("newDesign_subject_question_item-title");
     var pDarkMode = document.getElementsByClassName("pDarkMode");
-    var algorithme_title_italic = document.getElementsByClassName(
-      "algorithme-title-italic"
-    );
-    var newDesign_container_main_title = document.getElementsByClassName(
-      "newDesign_container_main_title"
-    );
+    var algorithme_title_italic = document.getElementsByClassName("algorithme-title-italic");
+    var newDesign_container_main_title = document.getElementsByClassName("newDesign_container_main_title");
     //index html დასაწყისი
     var bg_menu = document.getElementsByClassName("bg_menu");
     var app_start = document.getElementsByClassName("app-start");
     var app_sections = document.getElementsByClassName("app-sections");
     var app_select = document.getElementsByClassName("app-select");
-    var circles_number_pink = document.getElementsByClassName(
-      "circles_number-pink"
-    );
+    var circles_number_pink = document.getElementsByClassName("circles_number-pink");
     var top_bar = document.getElementsByClassName("top-bar");
     var img = $(".menu_box_passive").css("background-image");
     var nabiji = document.getElementsByClassName("newDesign_steps_item-img");
     //სურათის ფერები რომლებიც შავზე არ ჩანს
-    var imgBackgroundWhite = document.getElementsByClassName(
-      "imgBackgroundWhite"
-    );
+    var imgBackgroundWhite = document.getElementsByClassName("imgBackgroundWhite");
+
+    //ფოტოების გადიდების დროს უკანა ფონი
+    var fullScreen_modal_content = document.getElementsByClassName('fullScreen_modal-content');
+    var backEndDark = document.getElementsByClassName('backEndDark');
 
     if (theme == "darck") {
+      //სურათის შეცვლა კონკრეტული გვერდებისთვის
+      if (document.getElementById('cs-6-16-3DarkChange')) {
+        document.getElementById('cs-6-16-3DarkChange').src = '../../../img/gakvetilebi/Computer-Science/Class-6/Our-sweet-memories-16/cs-6-16-3-darkMode.svg';
+      }
+      if (document.getElementById('cs-6-16-14-1DarkChange')) {
+        document.getElementById('cs-6-16-14-1DarkChange').src = '../../../img/gakvetilebi/Computer-Science/Class-6/Our-sweet-memories-16/cs-6-16-14-1darkMode.svg';
+      }
+      if (document.getElementById('cs-6-16-15-1darkChange')) {
+        document.getElementById('cs-6-16-15-1darkChange').src = '../../../img/gakvetilebi/Computer-Science/Class-6/Our-sweet-memories-16/cs-6-16-15-1darkMode.svg';
+      }
+      if (document.getElementById('cs-6-16-17-1darkChange')) {
+        document.getElementById('cs-6-16-17-1darkChange').src = '../../../img/gakvetilebi/Computer-Science/Class-6/Our-sweet-memories-16/cs-6-16-17-1darkMode.svg';
+      }
+      if (document.getElementById('cs-6-16-18-1darkChange')) {
+        document.getElementById('cs-6-16-18-1darkChange').src = '../../../img/gakvetilebi/Computer-Science/Class-6/Our-sweet-memories-16/cs-6-16-18-1darkMode.svg';
+      }
+      if (document.getElementById('cs-5-4-23darkChange')) {
+        document.getElementById('cs-5-4-23darkChange').src = '../../../img/gakvetilebi/Computer-Science/Class-5/objects-moving-4/cs-5-4-23darkMode.svg';
+      }
+
       //დაწყება დასსრულება
       if (reset__btn[0]) {
         reset__btn[0].classList.add("reset__btn_black");
@@ -223,7 +261,18 @@ Vue.component("appMenu", {
           imgBackgroundWhite[i].classList.add("img_background_white");
         }
       }
-
+      //ფოტოების გადიდების დროს უკანა ფონი
+      for (let i = 0; i < fullScreen_modal_content.length; i++) {
+        if (fullScreen_modal_content[i]) {
+          fullScreen_modal_content[i].classList.add("new_btn-start_black_btn");
+        }
+      }
+      for (let i = 0; i < backEndDark.length; i++) {
+        if (backEndDark[i]) {
+          backEndDark[i].classList.add("new_btn-start_black_btn");
+        }
+      }
+      
       //btn index.html
       for (let i = 0; i < 16; i++) {
         if (new_btn_start[i]) {
@@ -238,34 +287,22 @@ Vue.component("appMenu", {
       //P
       for (let i = 0; i < newDesignSubjectQuestionItemTitle.length; i++) {
         if (newDesignSubjectQuestionItemTitle[i]) {
-          newDesignSubjectQuestionItemTitle[i].classList.add(
-            "newDesign_subject_question_item-title_black_P"
-          );
+          newDesignSubjectQuestionItemTitle[i].classList.add("newDesign_subject_question_item-title_black_P");
         }
       }
       for (let i = 0; i < pDarkMode.length; i++) {
         if (pDarkMode[i]) {
-          pDarkMode[i].classList.add(
-            "newDesign_subject_question_item-title_black_P"
-          );
+          pDarkMode[i].classList.add("newDesign_subject_question_item-title_black_P");
         }
       }
       //H
       if (algorithme_title_italic[0]) {
-        algorithme_title_italic[0].classList.add(
-          "newDesign_subject_question_item-title_black_P"
-        );
+        algorithme_title_italic[0].classList.add("newDesign_subject_question_item-title_black_P");
       }
       if (newDesign_container_main_title[0]) {
-        newDesign_container_main_title[0].classList.add(
-          "newDesign_subject_question_item-title_black_P"
-        );
+        newDesign_container_main_title[0].classList.add("newDesign_subject_question_item-title_black_P");
       }
-      // for(let i=0; i<11; i++){
-      //   if(dj_2_3vh[i]){
-      //     dj_2_3vh[i].classList.add("newDesign_subject_question_item-title_black_P");
-      //   }
-      // }
+
       //index.html დასაწყისი
       if (bg_menu[0]) {
         bg_menu[0].classList.add("new_btn-start_black_btn");
@@ -289,18 +326,9 @@ Vue.component("appMenu", {
       }
 
       window.addEventListener("DOMContentLoaded", () => {
-        $("#prime").css(
-          "background-image",
-          "url(../../Vue-chatBot/img/chat01.png)"
-        );
-        $(".lang-box_passive").css(
-          "background-image",
-          "url(../../New-header-vue/header-img/eng01.png)"
-        );
-        $(".menu_box_passive").css(
-          "background-image",
-          "url(../../New-header-vue/header-img/menu01.png)"
-        );
+        $("#prime").css("background-image", "url(../../Vue-chatBot/img/chat01.png)");
+        $(".lang-box_passive").css("background-image", "url(../../New-header-vue/header-img/eng01.png)");
+        $(".menu_box_passive").css("background-image", "url(../../New-header-vue/header-img/menu01.png)");
 
         //botApp
         if (document.getElementById("Rectangle_1414-2")) {
@@ -324,25 +352,20 @@ Vue.component("appMenu", {
 
         //switchDark
         document.getElementById("switchDarkId").checked = false;
-        document.getElementById("switchDarkIdShadow").style.boxShadow =
-          "1px 3px 6px #7fd1d8";
+        document.getElementById("switchDarkIdShadow").style.boxShadow = "1px 3px 6px #7fd1d8";
       });
 
       if (document.getElementById("1_kompTeq")) {
-        document.getElementById("1_kompTeq").src =
-          "./img/slider/(blake)slide-illustration-c.svg";
+        document.getElementById("1_kompTeq").src = "./img/slider/(blake)slide-illustration-c.svg";
       }
       if (document.getElementById("2_buneba")) {
-        document.getElementById("2_buneba").src =
-          "./img/slider/(blake)slide-illustration-n.svg";
+        document.getElementById("2_buneba").src = "./img/slider/(blake)slide-illustration-n.svg";
       }
       if (document.getElementById("3_xelovneba")) {
-        document.getElementById("3_xelovneba").src =
-          "./img/slider/(blake)slide-illustration-a.svg";
+        document.getElementById("3_xelovneba").src = "./img/slider/(blake)slide-illustration-a.svg";
       }
       if (document.getElementById("4_musika")) {
-        document.getElementById("4_musika").src =
-          "./img/slider/(blake)slide-illustration-m.svg";
+        document.getElementById("4_musika").src = "./img/slider/(blake)slide-illustration-m.svg";
       }
       //nabiji
       for (let i = 0; i < nabiji.length; i++) {
@@ -356,22 +379,12 @@ Vue.component("appMenu", {
     myFunction() {
       var reset__btn = document.getElementsByClassName("reset__btn");
       var completed__btn = document.getElementsByClassName("completed__btn");
-      var audioDownloadBbtnBlack = document.getElementsByClassName(
-        "audio-download__btn"
-      );
-      var btnTextDark = document.getElementsByClassName(
-        "music-new-1-div-6-div-dot-text"
-      );
+      var audioDownloadBbtnBlack = document.getElementsByClassName("audio-download__btn");
+      var btnTextDark = document.getElementsByClassName("music-new-1-div-6-div-dot-text");
       var btnDarkMode = document.getElementsByClassName("btnDarkMode");
-      var current__pagination = document.getElementsByClassName(
-        "current__pagination"
-      );
-      var pagination__prev__btn = document.getElementsByClassName(
-        "pagination__prev__btn"
-      );
-      var pagination__next__btn = document.getElementsByClassName(
-        "pagination__next__btn"
-      );
+      var current__pagination = document.getElementsByClassName("current__pagination");
+      var pagination__prev__btn = document.getElementsByClassName("pagination__prev__btn");
+      var pagination__next__btn = document.getElementsByClassName("pagination__next__btn");
       var bg_menu = document.getElementsByClassName("bg_menu");
       var app_start = document.getElementsByClassName("app-start");
       //btn index.html
@@ -379,73 +392,89 @@ Vue.component("appMenu", {
       //
       var app_select = document.getElementsByClassName("app-select");
       var app_sections = document.getElementsByClassName("app-sections");
-      var class_box = document.getElementsByClassName("class_box");
-      var circles_number_pink = document.getElementsByClassName(
-        "circles_number-pink"
-      );
-      var circles_number_white = document.getElementsByClassName(
-        "circles_number-white"
-      );
+      var circles_number_pink = document.getElementsByClassName("circles_number-pink");
       var top_bar = document.getElementsByClassName("top-bar");
       var img = $(".menu_box_passive").css("background-image");
-      var dj_2_3vh = document.getElementsByClassName("dj-2_3vh");
-      var Rectangle_1414_2 = document.getElementById("Rectangle_1414-2");
-      var nabiji = document.getElementsByClassName("newDesign_steps_item-img");
-      var appendChild_img = document.getElementsByClassName("appendChild--img");
+      var nabiji = document.getElementsByClassName('newDesign_steps_item-img');
+      //სურთები
+      var appendChild_img = document.getElementsByClassName('appendChild--img');
+      var element_box = document.getElementsByClassName('element-box');
       //სურათის ფერები რომლებიც შავზე არ ჩანს
-      var imgBackgroundWhite = document.getElementsByClassName(
-        "imgBackgroundWhite"
-      );
+      var imgBackgroundWhite = document.getElementsByClassName("imgBackgroundWhite");
       //გათიშვის ღილაკი წარმატების და მინიშნების გვერდისთვის x
-      var close = document.getElementsByClassName("close");
+      var close = document.getElementsByClassName('close');
+
+      //ფოტოების გადიდების დროს უკანა ფონი
+      var fullScreen_modal_content = document.getElementsByClassName('fullScreen_modal-content');
+      var backEndDark = document.getElementsByClassName('backEndDark');
+
 
       //ტეგები
       //P
-      var newDesignSubjectQuestionItemTitle = document.getElementsByClassName(
-        "newDesign_subject_question_item-title"
-      );
+      var newDesignSubjectQuestionItemTitle = document.getElementsByClassName("newDesign_subject_question_item-title");
       var pDarkMode = document.getElementsByClassName("pDarkMode");
       //H
-      var algorithme_title_italic = document.getElementsByClassName(
-        "algorithme-title-italic"
-      );
-      var newDesign_container_main_title = document.getElementsByClassName(
-        "newDesign_container_main_title"
-      );
+      var algorithme_title_italic = document.getElementsByClassName("algorithme-title-italic");
+      var newDesign_container_main_title = document.getElementsByClassName("newDesign_container_main_title");
       //??info-box
       var info_box = document.getElementsByClassName("info-box");
+
+      var changeImgDarkMode = document.getElementsByClassName('changeImgDarkMode');
 
       var element = document.body;
 
       if (!this.isDark) {
+        //სურათის შეცვლა კონკრეტული გვერდებისთვის
+        if (document.getElementById('cs-6-16-3DarkChange')) {
+          document.getElementById('cs-6-16-3DarkChange').src = '../../../img/gakvetilebi/Computer-Science/Class-6/Our-sweet-memories-16/cs-6-16-3-darkMode.svg';
+        }
+        if (document.getElementById('cs-6-16-14-1DarkChange')) {
+          document.getElementById('cs-6-16-14-1DarkChange').src = '../../../img/gakvetilebi/Computer-Science/Class-6/Our-sweet-memories-16/cs-6-16-14-1darkMode.svg';
+        }
+        if (document.getElementById('cs-6-16-15-1darkChange')) {
+          document.getElementById('cs-6-16-15-1darkChange').src = '../../../img/gakvetilebi/Computer-Science/Class-6/Our-sweet-memories-16/cs-6-16-15-1darkMode.svg';
+        }
+        if (document.getElementById('cs-6-16-17-1darkChange')) {
+          document.getElementById('cs-6-16-17-1darkChange').src = '../../../img/gakvetilebi/Computer-Science/Class-6/Our-sweet-memories-16/cs-6-16-17-1darkMode.svg';
+        }
+        if (document.getElementById('cs-6-16-18-1darkChange')) {
+          document.getElementById('cs-6-16-18-1darkChange').src = '../../../img/gakvetilebi/Computer-Science/Class-6/Our-sweet-memories-16/cs-6-16-18-1darkMode.svg';
+        }
+        if (document.getElementById('cs-5-4-23darkChange')) {
+          document.getElementById('cs-5-4-23darkChange').src = '../../../img/gakvetilebi/Computer-Science/Class-5/objects-moving-4/cs-5-4-23darkMode.svg';
+        }
+        if (changeImgDarkMode) {
+          for (let i = 0; i < changeImgDarkMode.length; i++) {
+            changeImgDarkMode[i].src = changeImgDarkMode[i].src.replace(".svg", "darkMode.svg");
+          }
+        }
+
         if (appendChild_img) {
           for (let i = 0; i < appendChild_img.length; i++) {
-            appendChild_img[i].src = appendChild_img[i].src.replace(
-              "white",
-              "whiteDark"
-            );
+            appendChild_img[i].src = appendChild_img[i].src.replace("white", "whiteDark");
+          }
+        }
+
+        for (let i = 0; i < element_box.length; i++) {
+          if (element_box[i]) {
+            element_box[i].children[0].src = element_box[i].children[0].src.replace(".png", "_dark.png");
           }
         }
 
         if (document.getElementById("nabijiType")) {
-          document.getElementById("nabijiType").src =
-            "../../img/icons/davalebebi/nabiji-whiteDark.svg";
+          document.getElementById("nabijiType").src = "../../img/icons/davalebebi/nabiji-whiteDark.svg";
         }
         if (document.getElementById("savarjishoType")) {
-          document.getElementById("savarjishoType").src =
-            "../../img/icons/davalebebi/savarjisho-whiteDark.svg";
+          document.getElementById("savarjishoType").src = "../../img/icons/davalebebi/savarjisho-whiteDark.svg";
         }
         if (document.getElementById("minishnebaType")) {
-          document.getElementById("minishnebaType").src =
-            "../../img/icons/davalebebi/minishneba-whiteDark.svg";
+          document.getElementById("minishnebaType").src = "../../img/icons/davalebebi/minishneba-whiteDark.svg";
         }
         if (document.getElementById("shualeduriType")) {
-          document.getElementById("shualeduriType").src =
-            "../../img/icons/davalebebi/shualeduri-whiteDark.svg";
+          document.getElementById("shualeduriType").src = "../../img/icons/davalebebi/shualeduri-whiteDark.svg";
         }
         if (document.getElementById("kompleqsuriType")) {
-          document.getElementById("kompleqsuriType").src =
-            "../../img/icons/davalebebi/kompleqsuri-whiteDark.svg";
+          document.getElementById("kompleqsuriType").src = "../../img/icons/davalebebi/kompleqsuri-whiteDark.svg";
         }
         //დაწყება დასრულება
         if (reset__btn[0]) {
@@ -500,38 +529,24 @@ Vue.component("appMenu", {
         //p
         for (let i = 0; i < newDesignSubjectQuestionItemTitle.length; i++) {
           if (newDesignSubjectQuestionItemTitle[i]) {
-            newDesignSubjectQuestionItemTitle[i].classList.add(
-              "newDesign_subject_question_item-title_black_P"
-            );
+            newDesignSubjectQuestionItemTitle[i].classList.add("newDesign_subject_question_item-title_black_P");
           }
         }
         for (let i = 0; i < pDarkMode.length; i++) {
           if (pDarkMode[i]) {
-            pDarkMode[i].classList.add(
-              "newDesign_subject_question_item-title_black_P"
-            );
+            pDarkMode[i].classList.add("newDesign_subject_question_item-title_black_P");
           }
         }
-        // for(let i=0; i<11; i++){
-        //   console.log('not defined')
-        //   if(dj_2_3vh[i]){
-        //     dj_2_3vh[i].classList.add("newDesign_subject_question_item-title_black_P");
-        //   }
-        // }
-        //H
+
         if (algorithme_title_italic[0]) {
-          algorithme_title_italic[0].classList.add(
-            "newDesign_subject_question_item-title_black_P"
-          );
+          algorithme_title_italic[0].classList.add("newDesign_subject_question_item-title_black_P");
         }
         if (newDesign_container_main_title[0]) {
-          newDesign_container_main_title[0].classList.add(
-            "newDesign_subject_question_item-title_black_P"
-          );
+          newDesign_container_main_title[0].classList.add("newDesign_subject_question_item-title_black_P");
         }
         //???
         if (info_box[0]) {
-          info_box[0].classList.add("completed__btn_black");
+          info_box[0].classList.add("new_btn-start_black_btn");
         }
         //index.html დასაწყისი
 
@@ -552,6 +567,19 @@ Vue.component("appMenu", {
             circles_number_pink[i].classList.add("new_btn-start_black_btn");
           }
         }
+
+        //ფოტოების გადიდების დროს უკანა ფონი
+        for (let i = 0; i < fullScreen_modal_content.length; i++) {
+          if (fullScreen_modal_content[i]) {
+            fullScreen_modal_content[i].classList.add("new_btn-start_black_btn");
+          }
+        }
+        for (let i = 0; i < backEndDark.length; i++) {
+          if (backEndDark[i]) {
+            backEndDark[i].classList.add("new_btn-start_black_btn");
+          }
+        }
+        
         if (top_bar[0]) {
           top_bar[0].classList.add("new_btn-start_black_btn");
         }
@@ -580,49 +608,32 @@ Vue.component("appMenu", {
         }
 
         //icons
-        $("#prime").css(
-          "background-image",
-          "url(../../Vue-chatBot/img/chat01.png)"
-        );
-        $(".lang-box_passive").css(
-          "background-image",
-          "url(../../New-header-vue/header-img/eng01.png)"
-        );
-        $(".menu_box_passive").css(
-          "background-image",
-          "url(../../New-header-vue/header-img/menu01.png)"
-        );
-        $(".menu_box_active").css(
-          "background-image",
-          "url(../../New-header-vue/header-img/menu01.png)"
-        );
+        $("#prime").css("background-image", "url(../../Vue-chatBot/img/chat01.png)");
+        $(".lang-box_passive").css("background-image", "url(../../New-header-vue/header-img/eng01.png)");
+        $(".menu_box_passive").css("background-image", "url(../../New-header-vue/header-img/menu01.png)");
+        $(".menu_box_active").css("background-image", "url(../../New-header-vue/header-img/menu01.png)");
         //
 
         if (document.getElementById("3_xelovneba")) {
           console.log(document.getElementById("3_xelovneba").src);
         }
         if (document.getElementById("1_kompTeq")) {
-          document.getElementById("1_kompTeq").src =
-            "./img/slider/(blake)slide-illustration-c.svg";
+          document.getElementById("1_kompTeq").src = "./img/slider/(blake)slide-illustration-c.svg";
         }
         if (document.getElementById("2_buneba")) {
-          document.getElementById("2_buneba").src =
-            "./img/slider/(blake)slide-illustration-n.svg";
+          document.getElementById("2_buneba").src = "./img/slider/(blake)slide-illustration-n.svg";
         }
         if (document.getElementById("3_xelovneba")) {
-          document.getElementById("3_xelovneba").src =
-            "./img/slider/(blake)slide-illustration-a.svg";
+          document.getElementById("3_xelovneba").src = "./img/slider/(blake)slide-illustration-a.svg";
         }
         if (document.getElementById("4_musika")) {
-          document.getElementById("4_musika").src =
-            "./img/slider/(blake)slide-illustration-m.svg";
+          document.getElementById("4_musika").src = "./img/slider/(blake)slide-illustration-m.svg";
         }
         if (document.getElementById("3_xelovneba")) {
           console.log(document.getElementById("3_xelovneba").src);
         }
         //switchDarkIdShadow
-        document.getElementById("switchDarkIdShadow").style.boxShadow =
-          "1px 3px 6px #7fd1d8";
+        document.getElementById("switchDarkIdShadow").style.boxShadow = "1px 3px 6px #7fd1d8";
         //nabiji
         for (let i = 0; i < nabiji.length; i++) {
           if (nabiji[i]) {
@@ -634,34 +645,69 @@ Vue.component("appMenu", {
         if (this.isActive && document.getElementById("mynetwork")) {
           initDark();
         }
-      } else {
-        if (appendChild_img) {
-          for (let i = 0; i < appendChild_img.length; i++) {
-            appendChild_img[i].src = appendChild_img[i].src.replace(
-              "whiteDark",
-              "white"
-            );
+      }
+      else {
+
+        if (document.getElementById('cs-6-16-3DarkChange')) {
+          document.getElementById('cs-6-16-3DarkChange').src = '../../../img/gakvetilebi/Computer-Science/Class-6/Our-sweet-memories-16/cs-6-16-3.svg';
+        }
+        if (document.getElementById('cs-6-16-14-1DarkChange')) {
+          document.getElementById('cs-6-16-14-1DarkChange').src = '../../../img/gakvetilebi/Computer-Science/Class-6/Our-sweet-memories-16/cs-6-16-14-1.svg';
+        }
+        if (document.getElementById('cs-6-16-15-1darkChange')) {
+          document.getElementById('cs-6-16-15-1darkChange').src = '../../../img/gakvetilebi/Computer-Science/Class-6/Our-sweet-memories-16/cs-6-16-15-1.svg';
+        }
+        if (document.getElementById('cs-6-16-17-1darkChange')) {
+          document.getElementById('cs-6-16-17-1darkChange').src = '../../../img/gakvetilebi/Computer-Science/Class-6/Our-sweet-memories-16/cs-6-16-17-1.svg';
+        }
+        if (document.getElementById('cs-6-16-18-1darkChange')) {
+          document.getElementById('cs-6-16-18-1darkChange').src = '../../../img/gakvetilebi/Computer-Science/Class-6/Our-sweet-memories-16/cs-6-16-18-1.svg';
+        }
+        if (document.getElementById('cs-5-4-23darkChange')) {
+          document.getElementById('cs-5-4-23darkChange').src = '../../../img/gakvetilebi/Computer-Science/Class-5/objects-moving-4/cs-5-4-23.svg';
+        }
+        if (changeImgDarkMode) {
+          for (let i = 0; i < changeImgDarkMode.length; i++) {
+            changeImgDarkMode[i].src = changeImgDarkMode[i].src.replace("darkMode.svg", ".svg");
           }
         }
-        if (document.getElementById("nabijiType")) {
-          document.getElementById("nabijiType").src =
-            "../../img/icons/davalebebi/nabiji-white.svg";
+        //ფოტოების გადიდების დროს უკანა ფონი
+        for (let i = 0; i < fullScreen_modal_content.length; i++) {
+          if (fullScreen_modal_content[i]) {
+            fullScreen_modal_content[i].classList.remove("new_btn-start_black_btn");
+          }
+        }
+        for (let i = 0; i < backEndDark.length; i++) {
+          if (backEndDark[i]) {
+            backEndDark[i].classList.remove("new_btn-start_black_btn");
+          }
+        }
+
+        if (appendChild_img) {
+          for (let i = 0; i < appendChild_img.length; i++) {
+            appendChild_img[i].src = appendChild_img[i].src.replace("whiteDark", "white");
+          }
+        }
+        for (let i = 0; i < element_box.length; i++) {
+          if (element_box[i]) {
+            element_box[i].children[0].src = element_box[i].children[0].src.replace("_dark.png", ".png");
+          }
+        }
+
+        if (document.getElementById('nabijiType')) {
+          document.getElementById('nabijiType').src = "../../img/icons/davalebebi/nabiji-white.svg";
         }
         if (document.getElementById("savarjishoType")) {
-          document.getElementById("savarjishoType").src =
-            "../../img/icons/davalebebi/savarjisho-white.svg";
+          document.getElementById("savarjishoType").src = "../../img/icons/davalebebi/savarjisho-white.svg";
         }
         if (document.getElementById("minishnebaType")) {
-          document.getElementById("minishnebaType").src =
-            "../../img/icons/davalebebi/minishneba-white.svg";
+          document.getElementById("minishnebaType").src = "../../img/icons/davalebebi/minishneba-white.svg";
         }
         if (document.getElementById("shualeduriType")) {
-          document.getElementById("shualeduriType").src =
-            "../../img/icons/davalebebi/shualeduri-white.svg";
+          document.getElementById("shualeduriType").src = "../../img/icons/davalebebi/shualeduri-white.svg";
         }
         if (document.getElementById("kompleqsuriType")) {
-          document.getElementById("kompleqsuriType").src =
-            "../../img/icons/davalebebi/kompleqsuri-white.svg";
+          document.getElementById("kompleqsuriType").src = "../../img/icons/davalebebi/kompleqsuri-white.svg";
         }
 
         if (reset__btn[0]) {
@@ -715,37 +761,25 @@ Vue.component("appMenu", {
         //P
         for (let i = 0; i < newDesignSubjectQuestionItemTitle.length; i++) {
           if (newDesignSubjectQuestionItemTitle[i]) {
-            newDesignSubjectQuestionItemTitle[i].classList.remove(
-              "newDesign_subject_question_item-title_black_P"
-            );
+            newDesignSubjectQuestionItemTitle[i].classList.remove("newDesign_subject_question_item-title_black_P");
           }
         }
         for (let i = 0; i < pDarkMode.length; i++) {
           if (pDarkMode[i]) {
-            pDarkMode[i].classList.remove(
-              "newDesign_subject_question_item-title_black_P"
-            );
+            pDarkMode[i].classList.remove("newDesign_subject_question_item-title_black_P");
           }
         }
-        // for(let i=0; i<11; i++){
-        //   if(dj_2_3vh[i]){
-        //     dj_2_3vh[i].classList.remove("newDesign_subject_question_item-title_black_P");
-        //   }
-        // }
-        //H
+
         if (algorithme_title_italic[0]) {
-          algorithme_title_italic[0].classList.remove(
-            "newDesign_subject_question_item-title_black_P"
-          );
+          algorithme_title_italic[0].classList.remove("newDesign_subject_question_item-title_black_P");
         }
         if (newDesign_container_main_title[0]) {
-          newDesign_container_main_title[0].classList.remove(
-            "newDesign_subject_question_item-title_black_P"
-          );
+          newDesign_container_main_title[0].classList.remove("newDesign_subject_question_item-title_black_P");
         }
         //???
+
         if (info_box[0]) {
-          info_box[0].classList.remove("completed__btn_black");
+          info_box[0].classList.remove("new_btn-start_black_btn");
         }
         //index.html დასაწყისი
         if (bg_menu[0]) {
@@ -798,25 +832,20 @@ Vue.component("appMenu", {
         $(".menu_box_active").css("background-image", "");
         //
         if (document.getElementById("1_kompTeq")) {
-          document.getElementById("1_kompTeq").src =
-            "./img/slider/slide-illustration-c.svg";
+          document.getElementById("1_kompTeq").src = "./img/slider/slide-illustration-c.svg";
         }
         if (document.getElementById("2_buneba")) {
-          document.getElementById("2_buneba").src =
-            "./img/slider/slide-illustration-n.svg";
+          document.getElementById("2_buneba").src = "./img/slider/slide-illustration-n.svg";
         }
         if (document.getElementById("3_xelovneba")) {
-          document.getElementById("3_xelovneba").src =
-            "./img/slider/slide-illustration-a.svg";
+          document.getElementById("3_xelovneba").src = "./img/slider/slide-illustration-a.svg";
         }
         if (document.getElementById("4_musika")) {
-          document.getElementById("4_musika").src =
-            "./img/slider/slide-illustration-m.svg";
+          document.getElementById("4_musika").src = "./img/slider/slide-illustration-m.svg";
         }
 
         //switchDarkIdShadow
-        document.getElementById("switchDarkIdShadow").style.boxShadow =
-          "1px 3px 6px #FADE7E";
+        document.getElementById("switchDarkIdShadow").style.boxShadow = "1px 3px 6px #FADE7E";
         //nabiji
         for (let i = 0; i < nabiji.length; i++) {
           if (nabiji[i]) {
@@ -939,6 +968,15 @@ Vue.component("appSection", {
         this.darkMode = false;
       }
     },
+    isInfo() {
+      var theme = localStorage.getItem('theme')
+      if (theme == 'darck') {
+        this.darkMode = true
+      }
+      else {
+        this.darkMode = false
+      }
+    }
   },
   template: `
             <div>
@@ -953,9 +991,11 @@ Vue.component("appSection", {
                     mode="out-in">
                     <div v-if="isActive || isInfo"
                     :class="[
-                      isActive && darkMode? 'bg_menu new_btn-start_black_btn' : 'bg_menu',
+                      (isActive || isInfo) && darkMode? 'bg_menu new_btn-start_black_btn' : 'bg_menu',
                     ]"
                     ></div>
+
+                    
                 </transition>
             </div>
     `,
@@ -1029,9 +1069,44 @@ Vue.component("appInfo", {
   data() {
     return {
       currentPage: 1,
+      darkMode: false,
     };
   },
-  template: `<div class="row info-box" v-if="isInfo">
+  //dark_mode-თვის
+  updated() {
+    var theme = localStorage.getItem('theme');
+    if (theme == 'darck') {
+      this.darkMode = true
+    }
+    else {
+      this.darkMode = false
+    }
+  },
+  created() {
+    var theme = localStorage.getItem('theme');
+    if (theme == 'darck') {
+      this.darkMode = true
+    }
+    else {
+      this.darkMode = false
+    }
+  },
+  watch: {
+    isInfo() {
+      var theme = localStorage.getItem('theme')
+      if (theme == 'darck') {
+        this.darkMode = true
+      }
+      else {
+        this.darkMode = false
+      }
+    }
+  },
+  template: `<div v-if="isInfo"
+            :class="[
+              isInfo && darkMode? 'row info-box new_btn-start_black_btn' : 'info-box',
+            ]"
+            >
                    <div class="col-12">
                         <transition
                             enter-active-class="animated flipInX"
@@ -1043,24 +1118,36 @@ Vue.component("appInfo", {
                         >
                             <div class="row" v-if="currentPage === 1" :key="1">
                                 <div class="col-9 m-auto">
-                                     <p class="dj-2_3vh">ვებგვერდზე განთავსებული დამხმარე ელექტრონული რესურსები შექმნილია I-VI კლასის სასკოლო პროგრამის შესაბამისად და ე
+                                     <p
+                                      :class="[
+                                      darkMode? 'pDarkMode dj-2_3vh newDesign_subject_question_item-title_black_P' : 'dj-2_3vh pDarkMode',
+                                      ]">
+                                     ვებგვერდზე განთავსებული დამხმარე ელექტრონული რესურსები შექმნილია I-VI კლასის სასკოლო პროგრამის შესაბამისად და ე
                                      მსახურება სასწავლო პროცესში მოსწავლეთა ჩართულობის გაზრდას. ყოველი თემა მოიცავს რამდენიმე ნაბიჯსა და კომპლექსურ დავალებას.
                                      მოსწავლის მიზანია, ნაბიჯების გავლისას მოაგროვოს საკმარისი ცოდნა, რომელსაც გამოიყენებს საბოლოო, რამდენიმეკომპონენტიანი კომპლექსური დავალების შესასრულებლად.
                                      რესურსები მოიცავს სხვადასხვა თამაშსა და სახალისო აქტივობას. ვებგვერდზე ჩაშენებულია ჩეთბოტის ფანჯარა.
                                      მისი დახმარებით მოსწავლეებსა და მასწავლებლებს საშუალება აქვთ, გაესაუბრონ ხელოვნურ ინტელექტს, დასვან კითხვები რესურსების თემატიკაზე და მიიღონ პასუხები.</p>
                                 </div>
                                 <div class="col-10 m-auto">
-                                    <h1 class="alk-san_2-6vh mt-5vh text-center">ელექტრონული საგანმანათლებლო რესურსების ძირითადი კომპონენტები</h1>
+                                    <h1
+                                      :class="[
+                                      darkMode? 'pDarkMode alk-san_2-6vh mt-5vh text-center newDesign_subject_question_item-title_black_P' : 'pDarkMode alk-san_2-6vh mt-5vh text-center',
+                                      ]">
+                                    ელექტრონული საგანმანათლებლო რესურსების ძირითადი კომპონენტები</h1>
                                 </div>
                                 <div class="col-11 m-auto">
                                      <div class="row mt-5vh">
                                          <div class="col-1">
                                              <div class="element-box">
-                                                 <img :src="path+'New-header-vue/header-img/step.png'" alt="step" class="img-fluid">
+                                                 <img :src="darkMode? path+'New-header-vue/header-img/step_dark.png': path+'New-header-vue/header-img/step.png'" alt="step" class="img-fluid">
                                              </div>
                                          </div>
                                          <div class="col-10">
-                                             <p class="dj-2_3vh"><span class="title-pink dj-2_3vh">ნაბიჯი</span> — შეადგენს ელექტრონული რესურსის ძირითად ნაწილს. ნაბიჯი მოიცავს მასალას, რომელიც კლასში მუშავდება,
+                                             <p
+                                              :class="[
+                                              darkMode? 'pDarkMode dj-2_3vh newDesign_subject_question_item-title_black_P' : 'dj-2_3vh pDarkMode',
+                                              ]"><span class="title-pink dj-2_3vh">
+                                             ნაბიჯი</span> — შეადგენს ელექტრონული რესურსის ძირითად ნაწილს. ნაბიჯი მოიცავს მასალას, რომელიც კლასში მუშავდება,
                                              ის შედგება კონკრეტულ საგნობრივ საკითხებთან დაკავშირებული შინაარსობრივი ბლოკებისგან. ერთი ნაბიჯი შეიძლება განხორციელდეს ერთი ან რამდენიმე გაკვეთილის განმავლობაში.
                                              ნაბიჯიდან, თავის მხრივ, შეეგვილია, გადავიდეთ სავარჯიშოზე, მინიშნებაზე ან შუალედურ დავალებაზე.</p>
                                          </div>
@@ -1072,11 +1159,15 @@ Vue.component("appInfo", {
                                     <div class="row">
                                          <div class="col-1">
                                             <div class="element-box">
-                                                <img :src="path+'New-header-vue/header-img/task.png'" alt="task" class="img-fluid">
+                                                <img :src="darkMode? path+'New-header-vue/header-img/task_dark.png': path+'New-header-vue/header-img/task.png'" alt="task" class="img-fluid">
                                             </div>
                                          </div>
                                          <div class="col-10">
-                                            <p class="dj-2_3vh"><span class="title-pink dj-2_3vh">სავარჯიშო</span> — პატარა კომპიუტერული თამაში, რომელიც ერთი კონკრეტული ამოცანის ამოხსნაზე ან საკითხის შესწავლაზე არის ორიენტირებული.
+                                            <p
+                                            :class="[
+                                            darkMode? 'pDarkMode dj-2_3vh newDesign_subject_question_item-title_black_P' : 'dj-2_3vh pDarkMode',
+                                            ]">
+                                            <span class="title-pink dj-2_3vh">სავარჯიშო</span> — პატარა კომპიუტერული თამაში, რომელიც ერთი კონკრეტული ამოცანის ამოხსნაზე ან საკითხის შესწავლაზე არის ორიენტირებული.
                                             მაგალითად, შედგენილი ფერების შექმნა ძირითადი ფერებისგან. სავარჯიშო არის ელექტრონულად შესასრულებელი სამუშაო.</p>
                                          </div>
                                     </div>
@@ -1085,11 +1176,15 @@ Vue.component("appInfo", {
                                     <div class="row mt-5vh">
                                          <div class="col-1">
                                             <div class="element-box">
-                                                <img :src="path+'New-header-vue/header-img/intermediate.png'" alt="task" class="img-fluid">
+                                                <img :src="darkMode? path+'New-header-vue/header-img/intermediate_dark.png': path+'New-header-vue/header-img/intermediate.png'" alt="task" class="img-fluid">
                                             </div>
                                          </div>
                                          <div class="col-10">
-                                            <p class="dj-2_3vh"><span class="title-pink dj-2_3vh">შუალედური დავალება</span> — მოყვება ნაბიჯს ან სავარჯიშოს. შუალედური დავალება ელექტრონულად შესასრულებელი სავარჯიშოსგან განსხვავებულია,
+                                            <p
+                                            :class="[
+                                            darkMode? 'pDarkMode dj-2_3vh newDesign_subject_question_item-title_black_P' : 'dj-2_3vh pDarkMode',
+                                            ]">
+                                            <span class="title-pink dj-2_3vh">შუალედური დავალება</span> — მოყვება ნაბიჯს ან სავარჯიშოს. შუალედური დავალება ელექტრონულად შესასრულებელი სავარჯიშოსგან განსხვავებულია,
                                             გულისხმობს ღია ტიპის შეკითხვებს ან ისეთ აქტივობებს, რომლებიც არაელექტრონულ ფორმატში სრულდება.</p>
                                          </div>
                                     </div>
@@ -1098,11 +1193,15 @@ Vue.component("appInfo", {
                                     <div class="row mt-5vh">
                                          <div class="col-1">
                                             <div class="element-box">
-                                                <img :src="path+'New-header-vue/header-img/hint.png'" alt="task" class="img-fluid">
+                                                <img :src="darkMode? path+'New-header-vue/header-img/hint_dark.png': path+'New-header-vue/header-img/hint.png'" alt="task" class="img-fluid">
                                             </div>
                                          </div>
                                          <div class="col-10">
-                                            <p class="dj-2_3vh"><span class="title-blue dj-2_3vh">მინიშნება</span> — ასრულებს ერთგვარი ინტერაქტიული ლექსიკონის ფუნქციას, რომელშიც ესა თუ ის საკითხი იქნება განმარტებული,
+                                            <p
+                                            :class="[
+                                            darkMode? 'pDarkMode dj-2_3vh newDesign_subject_question_item-title_black_P' : 'pDarkMode dj-2_3vh',
+                                            ]">
+                                            <span class="title-blue dj-2_3vh">მინიშნება</span> — ასრულებს ერთგვარი ინტერაქტიული ლექსიკონის ფუნქციას, რომელშიც ესა თუ ის საკითხი იქნება განმარტებული,
                                             მინიშნებული, მაგალითად, რომელია ძირითადი ფერები. სავარჯიშოსგან განსხვავებით აქ ბავშვი მხოლოდ ინფორმაციას მიიღებს.</p>
                                          </div>
                                     </div>
@@ -1111,11 +1210,15 @@ Vue.component("appInfo", {
                                     <div class="row mt-5vh">
                                          <div class="col-1">
                                             <div class="element-box">
-                                                <img :src="path+'New-header-vue/header-img/compl-task.png'" alt="task" class="img-fluid">
+                                                <img :src="darkMode? path+'New-header-vue/header-img/compl-task_dark.png': path+'New-header-vue/header-img/compl-task.png'" alt="task" class="img-fluid">
                                             </div>
                                          </div>
                                          <div class="col-10">
-                                            <p class="dj-2_3vh"><span class="title-blue dj-2_3vh">კომპლექსური დავალება</span> — მოსდევს სხვა აქტივობებს და განთავსებულია ბოლოში. კომპლექსური დავალება არის რესურსის ძირითადი კომპონენტი,
+                                            <p
+                                            :class="[
+                                            darkMode? 'pDarkMode dj-2_3vh newDesign_subject_question_item-title_black_P' : 'dj-2_3vh pDarkMode',
+                                            ]">
+                                            <span class="title-blue dj-2_3vh">კომპლექსური დავალება</span> — მოსდევს სხვა აქტივობებს და განთავსებულია ბოლოში. კომპლექსური დავალება არის რესურსის ძირითადი კომპონენტი,
                                              რომლის შესრულებისასაც მოსწავლეებმა აქტივობებისას მიღებული ცოდნა უნდა გააერთიანონ.</p>
                                          </div>
                                     </div>
@@ -1128,7 +1231,12 @@ Vue.component("appInfo", {
                                             </div>
                                          </div>
                                          <div class="col-10">
-                                            <p class="dj-2_3vh"><span class="title-blue dj-2_3vh">ვიდეო ინსტრუქცია</span><br/> <a class="dj-2_3vh" href="https://youtu.be/7P4U16oh07Y" target="_blank">https://youtu.be/7P4U16oh07Y</a></p>
+                                            <p class="dj-2_3vh"><span class="title-blue dj-2_3vh">ვიდეო ინსტრუქცია</span><br/>
+                                            <a
+                                            :class="[
+                                            darkMode? 'pDarkMode dj-2_3vh newDesign_subject_question_item-title_black_P' : 'dj-2_3vh pDarkMode',
+                                            ]" href="https://youtu.be/7P4U16oh07Y" target="_blank">
+                                            https://youtu.be/7P4U16oh07Y</a></p>
                                          </div>
                                     </div>
                                 </div>
@@ -1137,21 +1245,33 @@ Vue.component("appInfo", {
                    </div>
                    <div class="col-2 m-auto section_pagination">
                        <div class="d-flex justify-content-between align-items-center side-margin">
-                           <div class="pagination__prev__btn" @click="currentPage--" v-if="currentPage !== 1">
+                           <div
+                           :class="[
+                            darkMode? 'pagination__prev__btn pagination_black' : 'pagination__prev__btn',
+                           ]"
+                           @click="currentPage--" v-if="currentPage !== 1">
                                <img alt="next" :src="path + '/img/icons/chevron-left-icon.svg'">
                            </div>
                            <div class="pagination__item d-flex justify-content-center align-items-center" v-if="currentPage !==1">
                                <div class="pagination__dot"></div>
                            </div>
                            <div class="flex align-items-center" id="pagination">
-                               <div class="pagination__item">
-                                   <div class="current__pagination" >{{ currentPage }}</div>
+                               <div class="pagination__item"> 
+                                   <div
+                                    :class="[
+                                      darkMode? 'current__pagination pagination_black' : 'current__pagination',
+                                    ]">
+                                   {{ currentPage }}</div>
                                </div>
                            </div>
                            <div class="pagination__item d-flex justify-content-center align-items-center" v-if="currentPage !==2">
                                <div class="pagination__dot"></div>
                            </div>
-                           <div class="pagination__next__btn" @click="currentPage++" v-if="currentPage !== 2">
+                           <div
+                           :class="[
+                            darkMode? 'pagination__next__btn pagination_black' : 'pagination__next__btn',
+                           ]"
+                           @click="currentPage++" v-if="currentPage !== 2">
                                <img alt="next" :src="path + 'img/icons/chevron-left-icon.svg'">
                            </div>
                        </div>
@@ -1754,7 +1874,7 @@ Vue.component("appSections", {
                         <span>{{typeInfo[item].text}}</span>
                       </div>
                     </div>
-                    <div id="tableOfContentTwo" v-else key="4">
+                    <div id="tableOfContentTwo" class="tableOfContentTwo-scroll" v-else key="4">
                       <div class="appendChild--div" v-for="(item, index) in dataByType" :key="index" @click="goToPage(item.number)">
                       <img class="appendChild--img" :src="typeInfo[item.type].img"/>
                       <span>{{typeInfo[item.type].text}} {{index + 1 }}</span>

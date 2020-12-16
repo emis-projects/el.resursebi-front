@@ -55,7 +55,7 @@ function computerGames() {
 
     var clone1;
 
-    this.dragDrop = (e) => {
+    this.dragDrop = (e) => { e.preventDefault();
 
         var drag = document.querySelector('.draggedElement');
         var clone = drag.cloneNode(true);

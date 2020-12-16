@@ -53,7 +53,7 @@ function game() {
     e.target.className = elClassName;
   };
 
-  this.dragDrop = (e) => {
+  this.dragDrop = (e) => { e.preventDefault();
     e.preventDefault();
     if (e.target.classList.contains("DragGame—childs1")) {
       e.target.appendChild(document.querySelector(".draggedElement"));

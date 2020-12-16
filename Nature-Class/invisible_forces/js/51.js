@@ -5,7 +5,7 @@ const check = document.getElementById('completedGame');
 // მონიშვნა
 for (let i = 0; i < dots.length; i++) {
 	dots[i].addEventListener('click', evt => {
-		init();
+		initFunc();
 		evt.target.classList.add('selected');
 	});
 }
@@ -16,7 +16,7 @@ check.addEventListener('click', evt => {
 		if (dots[i].classList.contains('selected') && dots[i].dataset.check === 'true') {
 			dots[i].classList.remove('selected');
 			dots[i].classList.add('success');
-			window.location.href = 'game-success-51.html';
+			window.location.href = 'game-success-52.html';
 		} else if (dots[i].classList.contains('selected')) {
 			dots[i].classList.remove('selected');
 			dots[i].classList.add('error');
@@ -27,11 +27,11 @@ check.addEventListener('click', evt => {
 
 reset.addEventListener('click', () => {
 	check.removeAttribute('disabled');
-	init();
+	initFunc();
 });
 
 // გასუფთავება
-function init() {
+function initFunc() {
 	dots.forEach(elm => {
 		elm.classList.remove('selected');
 		elm.classList.remove('error');

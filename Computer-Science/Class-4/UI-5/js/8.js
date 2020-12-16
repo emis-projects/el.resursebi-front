@@ -64,7 +64,7 @@ function game(){
     }
     
 
-    this.dragDrop = e => {
+    this.dragDrop = e => { e.preventDefault();
         e.target.parentElement.parentElement.appendChild(document.querySelector('.draggedElement'));
     }
 

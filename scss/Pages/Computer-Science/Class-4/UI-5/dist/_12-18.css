@@ -1,0 +1,81 @@
+.cs-4-5-div-10-img {
+  height: 43.61vh;
+}
+.cs-4-5-div-14-img {
+  height: 43.88vh;
+  position: absolute;
+  right: 15.15vw;
+  bottom: 19.27vh;
+}
+.cs-4-5-div-15-img {
+  height: 45.83vh;
+}
+.cs-4-5-div-16-img {
+  height: 64.45vh;
+  position: absolute;
+  right: 13.76vw;
+  bottom: 0;
+}
+.cs-4-5-div-17-img {
+  height: 48.04vh;
+  position: absolute;
+  right: 6.66vw;
+  bottom: 11.71vh;
+}
+.cs-4-5-div-18-img {
+  height: 39.19vh;
+  position: absolute;
+  right: 12.95vw;
+  bottom: 11.45vh;
+}
+.cs-4-5-div img {
+  height: 100%;
+}
+
+.cs-4-5-div-12-game-purple-container {
+  border-radius: 21px;
+  height: 12.8vh;
+  width: 12.8vh;
+  background-color: #947DCE;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cs-4-5-div-12-game-purple-container img {
+  height: 60% !important;
+}
+
+.cs-4-5-div-12-game-purple-container {
+  margin-left: 0.98vw;
+  margin-bottom: 7.55vh;
+}
+
+.cs-4-5-div-12-game-purple-div {
+  margin-right: 5.98vw;
+  margin-left: 3vw;
+}
+
+.cs-4-5-div-13-game-purple-div {
+  width: 30vw;
+  background-color: #947DCE;
+  text-align: center;
+}
+.cs-4-5-div-13-game-purple-div p {
+  padding: 1.82vh;
+}
+
+.cs-4-5-div-13-game-purple-container {
+  border: 1px solid #947DCE;
+  width: 30vw;
+}
+.cs-4-5-div-13-game-purple-container p {
+  padding: 1.82vh;
+}
+
+.cs-4-5-div-13-game-icons-div {
+  margin-bottom: 3.25vh;
+}
+.cs-4-5-div-13-game-icons-div img {
+  height: 4.68vh;
+  margin-right: 1.75vw;
+}

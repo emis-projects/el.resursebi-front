@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="358.607" viewBox="0 0 900 358.607">
+  <g id="Group_45477" data-name="Group 45477" transform="translate(-233 -247.393)">
+    <text id="ეკრანზე_შეხების_მოვლენები:" data-name="ეკრანზე შეხების მოვლენები:" transform="translate(728 274.808)" fill="#ffffff" font-size="20" font-family="DejaVuSans, DejaVu Sans"><tspan x="0" y="25">ეკრანზე შეხების მოვლენები:</tspan></text>
+    <text id="კლავიატურის_მოვლენები:" data-name="კლავიატურის მოვლენები:" transform="translate(287 442.808)" fill="#ffffff" font-size="20" font-family="DejaVuSans, DejaVu Sans"><tspan x="0" y="25">კლავიატურის მოვლენები:</tspan></text>
+    <text id="მოწყობილობის_მოვლენები:" data-name="მოწყობილობის მოვლენები:" transform="translate(287 274.808)" fill="#ffffff" font-size="20" font-family="DejaVuSans, DejaVu Sans"><tspan x="0" y="25">მოწყობილობის მოვლენები:</tspan></text>
+    <text id="მაუსის_მოვლენები:" data-name="მაუსის მოვლენები:" transform="translate(728 442.808)" fill="#ffffff" font-size="20" font-family="DejaVuSans, DejaVu Sans"><tspan x="0" y="25">მაუსის მოვლენები:</tspan></text>
+    <text id="ეკრანზე_შეხება" data-name="ეკრანზე შეხება" transform="translate(726 313.808)" fill="#ffffff" font-size="20" font-family="DejaVuSans, DejaVu Sans"><tspan x="0" y="25">ეკრანზე შეხება</tspan></text>
+    <text id="ღილაკზე_დაჭერა" data-name="ღილაკზე დაჭერა" transform="translate(287 480.808)" fill="#ffffff" font-size="20" font-family="DejaVuSans, DejaVu Sans"><tspan x="0" y="25">ღილაკზე დაჭერა</tspan></text>
+    <text id="ამოტრიალება" transform="translate(287 312.808)" fill="#ffffff" font-size="20" font-family="DejaVuSans, DejaVu Sans"><tspan x="0" y="25">ამოტრიალება</tspan></text>
+    <text id="მარჯვენა_მარცხენა_მაუსის_ღილაკზე_დაჭერა_აშვება_" data-name="მარჯვენა/მარცხენა მაუსის ღილაკზე დაჭერა/აშვება
+" transform="translate(728 480.808)" fill="#ffffff" font-size="20" font-family="DejaVuSans, DejaVu Sans"><tspan x="0" y="25">მარჯვენა/მარცხენა მაუსის </tspan></text>
+    <text id="თითის_მოძრაობა_ეკრანზე_" data-name="თითის მოძრაობა ეკრანზე
+" transform="translate(728 352.808)" fill="#ffffff" font-size="20" font-family="DejaVuSans, DejaVu Sans"><tspan x="0" y="25">თითის მოძრაობა ეკრანზე</tspan></text>
+    <text id="შერხევა_" data-name="შერხევა
+" transform="translate(287 351.808)" fill="#ffffff" font-size="20" font-family="DejaVuSans, DejaVu Sans"><tspan x="0" y="25">შერხევა</tspan></text>
+    <text id="დახრა" transform="translate(287 390.808)" fill="#ffffff" font-size="20" font-family="DejaVuSans, DejaVu Sans"><tspan x="0" y="25">დახრა</tspan></text>
+    <text id="მაუსის_მოძრაობა" data-name="მაუსის მოძრაობა" transform="translate(730 557.808)" fill="#ffffff" font-size="20" font-family="DejaVuSans, DejaVu Sans"><tspan x="0" y="25">მაუსის მოძრაობა</tspan></text>
+    <g id="Group_45464" data-name="Group 45464" transform="translate(84 71.393)">
+      <g id="Group_45460" data-name="Group 45460" transform="translate(149 176)">
+        <path id="Path_57116" data-name="Path 57116" d="M1049,534.607H149V176h900Zm-895.648-4.352h891.3v-349.9h-891.3Z" transform="translate(-149 -176)" fill="#947dce"/>
+      </g>
+      <g id="Group_45461" data-name="Group 45461" transform="translate(157.704 184.704)">
+        <path id="Path_57117" data-name="Path 57117" d="M1041.592,527.2H159V186h882.592Zm-878.24-4.352H1037.24v-332.5H163.352Z" transform="translate(-159 -186)" fill="#947dce"/>
+      </g>
+      <g id="Group_45462" data-name="Group 45462" transform="translate(159.88 353.128)">
+        <rect id="Rectangle_5478" data-name="Rectangle 5478" width="878.24" height="4.352" transform="translate(0 0)" fill="#947dce"/>
+      </g>
+      <g id="Group_45463" data-name="Group 45463" transform="translate(596.824 187.774)">
+        <rect id="Rectangle_5479" data-name="Rectangle 5479" width="4.352" height="335.953" fill="#947dce"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -70,7 +70,7 @@ function natureGames(){
 
 
     // drop 
-    this.dragDrop = e => {
+    this.dragDrop = e => { e.preventDefault();
         let draggedEl = document.querySelector('.draggedElement');
 
         // debugger
