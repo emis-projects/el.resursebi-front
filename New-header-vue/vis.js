@@ -88,6 +88,7 @@ let jsonObject = null,
         }
 
       } else if(w.type == null) {
+        complexIndex = 0
         return false
 
       } else {
