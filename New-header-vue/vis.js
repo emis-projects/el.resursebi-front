@@ -61,6 +61,8 @@ let jsonObject = null,
           return false
         }
       } else if(w.type === 3) {
+        complexIndex = 0;
+
         let regex = w.id;
         let phormula = /[0-9]+/g;
         var result = regex.match(phormula)[0];
