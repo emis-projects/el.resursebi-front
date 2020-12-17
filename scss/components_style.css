@@ -5413,3 +5413,7 @@ input:checked + .slider:before {
   margin-left: 2vh;
   margin-top: 1.3vh;
 }
+
+.border1PxSW {
+  border: 1px solid white;
+}

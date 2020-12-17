@@ -43,6 +43,7 @@ let jsonObject = null,
     var complexIndex = 0;
     var stepLabelValue = 0;
     var currentComplex = null;
+    var currentStep = null;
 
 
     console.log(modifierObject)
@@ -64,7 +65,7 @@ let jsonObject = null,
         let phormula = /[0-9]+/g;
         var result = regex.match(phormula)[0];
 
-        if(currentComplex == result) {
+        if(currentComplex == result || currentStep == result) {
           return false
 
         } else {
@@ -77,7 +78,9 @@ let jsonObject = null,
         let prevObj = modifierObject[i - 1];
 
         if(prevObj.type == 1) {
+          currentStep = w.id;
           return false
+
         } else {
           stepLabelValue++;
           w.group = `step${stepLabelValue}`
@@ -533,13 +536,7 @@ let jsonObject = null,
 
     var currentURL = window.location.href;
 
-    try {
-      var activeID = currentURL.substring(currentURL.lastIndexOf('/') + 1, currentURL.lastIndexOf(".html"));
-      network.selectNodes([activeID])
-      
-    } catch(err) {
-      console.log(err)
-    }
-    
+    var activeID = currentURL.substring(currentURL.lastIndexOf('/') + 1, currentURL.lastIndexOf(".html"));
+    network.selectNodes([activeID])    
   }
 
