@@ -185,6 +185,21 @@
             "type": 1
         },
         {
+            "number": "36-1",
+            "url": "",
+            "type": 3
+        },
+        {
+            "number": "36-2",
+            "url": "",
+            "type": 3
+        },
+        {
+            "number": "36-3",
+            "url": "",
+            "type": 3
+        },
+        {
             "number": 37,
             "url": "",
             "type": null
@@ -204,6 +219,6 @@
             "url": "",
             "type": 5
         }
-        
+
     ]
 }

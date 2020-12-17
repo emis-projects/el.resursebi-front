@@ -55017,6 +55017,10 @@ input:checked + .slider:before {
   margin-top: 1.3vh;
 }
 
+.border1PxSW {
+  border: 1px solid white;
+}
+
 .canvas-container {
   width: 100% !important;
 }
@@ -55105,8 +55109,4 @@ input:checked + .slider:before {
 
 #tableOfContentTwo.tableOfContentTwo-scroll::-webkit-scrollbar-thumb:hover {
   background: #69bac2;
-}
-/*# sourceMappingURL=new-style.css.map */
-.border1PxSW{
-  border: 1px solid white;
 }
