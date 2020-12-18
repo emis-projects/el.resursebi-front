@@ -15,8 +15,6 @@ function game(){
     $(dragElement1).on('dragend', (e) => this.dragEnd(e));
 
 
-
-
     // Loop through empty boxes and add listeners
     for (const drag of dragElement2) {
         drag.addEventListener('dragover', (e) => this.dragOver(e));
@@ -98,7 +96,11 @@ function game(){
 
 
 
-    this.dragDrop = e => { e.preventDefault();
+    this.dragDrop = e => { 
+        e.preventDefault();
+
+        console.log(e.target)
+        
         e.target.querySelector('.appendDiv').appendChild(document.querySelector('.draggedElement'));
 
         this.checkFirstLine(e)

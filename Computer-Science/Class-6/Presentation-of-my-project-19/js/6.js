@@ -1,6 +1,7 @@
 function game(){
     this.error = true;
     this.hrefElement = null;
+    this.index = 0;
 
     
     // variables
@@ -68,14 +69,16 @@ function game(){
     }
 
 
-    this.checkEveryElement = (element) => element.getAttribute('data-index') == element.querySelector('img').getAttribute('data-index');
-
-
-
     this.successPage  = () => {
-        let el = dragElement2MyArray.every(this.checkEveryElement)
 
-		if(el == true){
+        dragElement1MyArray.forEach(w => {
+            if(w.getAttribute('data-index') == w.parentElement.getAttribute('data-index')) {
+                this.index++
+            }
+        })
+
+
+		if(this.index == 3){
             let loc = location.pathname;
 
             if(loc == "/Computer-Science/Class-6/Presentation-of-my-project-19/6.html" || loc == "/el.resursebi-front/Computer-Science/Class-6/Presentation-of-my-project-19/6.html"){
@@ -83,6 +86,7 @@ function game(){
             }
 
         } else {
+            this.index = 0;
 
             this.errorPage()
         }
@@ -90,24 +94,17 @@ function game(){
 
 
     this.errorPage = () => {
-        dragElement2MyArray.forEach(w => {
-            if(w.querySelector('img')){
-                if(w.getAttribute('data-index') !== w.querySelector('img').getAttribute('data-index')){
-                    w.querySelector('.sign-description-btn').classList.add('error')
-    
-                } else if(w.getAttribute('data-index') == w.querySelector('img').getAttribute('data-index')) {
-                    w.querySelector('.sign-description-btn').classList.add('success')
-                }
-            } else {
-                w.querySelector('.sign-description-btn').classList.add('error')
-            }
-
-        })
+        if(this.index === 3) {
+            $('.sign-description-btn').addClass('success')
+        } else {
+            
+            $('.sign-description-btn').addClass('error')
+        }
     }
     
  
     this.completedGame = () => {
-        // completedGame.setAttribute('disabled', 'true')
+        completedGame.setAttribute('disabled', 'true')
         this.successPage()
     }
     
@@ -118,8 +115,10 @@ function game(){
             $('.cs-6-19-div-6-img').append(w)
         });
 
-        $(dragElement1).removeClass('error');
-        $(dragElement1).removeClass('success');
+        this.index = 0;
+
+        $('.sign-description-btn').removeClass('error');
+        $('.sign-description-btn').removeClass('success');
         completedGame.removeAttribute('disabled')
     }
 
