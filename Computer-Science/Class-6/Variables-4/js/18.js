@@ -171,6 +171,14 @@ function game () {
             this.randomNumber();
             this.generateChar(1);
             this.generateString(6);
+            if(this.score == 0) {
+                this.score = 0;
+                
+            } else {
+                this.score--
+            }
+            
+            document.getElementById('numberOfScore').innerHTML = this.score;
             this.generatedQuestions.push(this.string, this.char, this.float, this.int)
             this.randomNewValue(this.generatedQuestions, 1);
             document.getElementById('answer').innerText = this.answer
