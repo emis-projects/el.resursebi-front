@@ -83,7 +83,14 @@ function game () {
             this.randomNewImage(images, 1);
             this.correctAndIncorrect();
 
-            this.correctAndIncorrect();
+            if(this.score == 0) {
+                this.score = 0;
+                
+            } else {
+                this.score--
+            }
+            
+            document.getElementById('numberOfScore').innerHTML = this.score;
             let img = document.createElement('img');
             img.setAttribute('src', this.randomedImages)
 

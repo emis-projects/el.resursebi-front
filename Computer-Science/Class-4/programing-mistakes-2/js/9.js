@@ -86,8 +86,14 @@ function game () {
         } else {
             document.querySelector('#gameimgSection').innerHTML = "";
             this.randomNewImage(images, 1);
-            this.correctAndIncorrect();
-
+            if(this.score == 0) {
+                this.score = 0;
+                
+            } else {
+                this.score--
+            }
+            
+            document.getElementById('numberOfScore').innerHTML = this.score;
             this.correctAndIncorrect();
             let img = document.createElement('img');
             img.setAttribute('src', this.randomedImages)
