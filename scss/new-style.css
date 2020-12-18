@@ -3636,7 +3636,7 @@ section .arrow_up_down_downArrow img {
 }
 
 .portfolio-slider-10-23.owl-theme .owl-dots .owl-dot:nth-child(2) span {
-  background-image: url("../img/gakvetilebi/xelovneba/items-10/A-10-23-2.jpg");
+  background-image: url("../img/gakvetilebi/xelovneba/items-10/4.png");
   background-position: top;
 }
 
@@ -3649,11 +3649,11 @@ section .arrow_up_down_downArrow img {
 }
 
 .portfolio-slider-10-24.owl-theme .owl-dots .owl-dot:nth-child(1) span {
-  background-image: url("../img/gakvetilebi/xelovneba/items-10/A-10-24-1.jpg");
+  background-image: url("../img/gakvetilebi/xelovneba/items-10/3.png");
 }
 
 .portfolio-slider-10-24.owl-theme .owl-dots .owl-dot:nth-child(2) span {
-  background-image: url("../img/gakvetilebi/xelovneba/items-10/A-10-24-2.jpg");
+  background-image: url("../img/gakvetilebi/xelovneba/items-10/9.png");
   background-position: bottom;
 }
 
@@ -3663,7 +3663,7 @@ section .arrow_up_down_downArrow img {
 }
 
 .portfolio-slider-10-25.owl-theme .owl-dots .owl-dot:nth-child(2) span {
-  background-image: url("../img/gakvetilebi/xelovneba/items-10/A-10-25-2.jpg");
+  background-image: url("../img/gakvetilebi/xelovneba/items-10/5.png");
 }
 
 .portfolio-slider-10-10.owl-theme .owl-dots .owl-dot:nth-child(1) span {
@@ -17239,6 +17239,10 @@ td img {
 
 .items-10-games-16 .second-image-box_items img {
   width: 100%;
+}
+
+.imge {
+  height: 15vh;
 }
 
 .art-10-7-image-div-container {
