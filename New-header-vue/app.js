@@ -429,6 +429,10 @@ Vue.component("appMenu", {
 
       var changeImgDarkMode = document.getElementsByClassName('changeImgDarkMode');
 
+      //სურათის გადიდების დროს წარწერა
+      var fullScreen_modal_title = document.getElementsByClassName('fullScreen_modal-title');
+
+
       var element = document.body;
 
       if (!this.isDark) {
@@ -580,6 +584,12 @@ Vue.component("appMenu", {
         for (let i = 0; i < fullScreen_modal_content.length; i++) {
           if (fullScreen_modal_content[i]) {
             fullScreen_modal_content[i].classList.add("new_btn-start_black_btn");
+          }
+        }
+        //ფოტოს გადიდების დროს წარწერა
+        for (let i = 0; i < fullScreen_modal_title.length; i++) {
+          if (fullScreen_modal_title[i]) {
+            fullScreen_modal_title[i].classList.add("newDesign_subject_question_item-title_black_P");
           }
         }
         for (let i = 0; i < backEndDark.length; i++) {
