@@ -55,7 +55,9 @@ function computerGames() {
 
     var clone1;
 
-    this.dragDrop = (e) => { e.preventDefault();
+    this.dragDrop = (e) => { 
+        e.preventDefault();
+
         var drag = document.querySelector('.draggedElement')
         if(e.target.children[0]){
             return;
@@ -74,7 +76,7 @@ function computerGames() {
 
     this.successPage = () => {
         this.errorPage();
-        if(count == 8){
+        if(count == 4){
             location.href = 'game-success-5.html';
         }
 

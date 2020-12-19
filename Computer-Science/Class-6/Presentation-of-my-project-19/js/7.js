@@ -1,7 +1,29 @@
+createjs.Sound.on("fileload", handleLoadComplete);
+createjs.Sound.alternateExtensions = ["wav"];
+function handleLoadComplete(event) {
+    createjs.Sound.play("sound");
+}
+
+function handleLoadstop(event) {
+    createjs.Sound.stop("sound");
+}
+
+
+
+
+document.querySelectorAll('.listen--btn').forEach(w => {
+    w.addEventListener('click', (e) => {
+        handleLoadstop()
+        createjs.Sound.registerSound({ src: `${e.target.getAttribute('data-voice')}`, id: "sound" });
+        handleLoadComplete()
+    })
+})
+
+
 function game(){
-    this.error = true;
-    this.error2 = true;
-    this.error3 = true;
+    var error = true;
+    var error2 = true;
+    var error3 = true;
 
     
     // variables
@@ -50,46 +72,71 @@ function game(){
     // drag start 
     this.dragStart = (e) => {
         setTimeout(() => {
-            e.target.className = "draggedElement"
+            e.target.parentElement.className = "draggedElement"
         }, 0);
     }
 
 
     // drag end
     this.dragEnd = e => {
-        let elClassName = e.target.getAttribute('data-class');
-        e.target.className = elClassName;
+        let elClassName = e.target.parentElement.getAttribute('data-class');
+        e.target.parentElement.className = elClassName;
     }
     
 
     this.checkFirstLine = (e) => {
 
         let parent = e.target.querySelector('.appendDiv');
-        
 
         if(parent.classList.contains('appendDiv--1')){
-            if(parent.querySelectorAll('img')[0].getAttribute('data-index') == parent.getAttribute('data-index') && parent.querySelectorAll('img')[1].getAttribute('data-index') == parent.getAttribute('data-index')){
-                this.error = false
+            let childrens = $(parent).children('div')
 
-            } else {
-                this.error = true
-            }
+            $(childrens).each(function( index ) {
+
+                if($(this).attr('data-index') == parent.getAttribute('data-index')) {
+                    if(index == 1) {
+                        error = false
+
+                    }
+                } else {
+                    error = true
+                }
+            });
 
         } else if(parent.classList.contains('appendDiv--2')){
-            if(parent.querySelectorAll('img')[0].getAttribute('data-index') == parent.getAttribute('data-index') && parent.querySelectorAll('img')[1].getAttribute('data-index') == parent.getAttribute('data-index')){
-                this.error2 = false
+            let childrens = $(parent).children('div')
 
-            } else {
-                this.error2 = true
-            }
+            
+
+            $(childrens).each(function( index ) {
+
+                if($(this).attr('data-index') == parent.getAttribute('data-index')) {
+                    if(index == 2) {
+                        error2 = false
+
+                    }
+                } else {
+                    error2 = true
+                }
+            });
+
 
         } else if(parent.classList.contains('appendDiv--3')){
-            if(parent.querySelectorAll('img')[0].getAttribute('data-index') == parent.getAttribute('data-index') && parent.querySelectorAll('img')[1].getAttribute('data-index') == parent.getAttribute('data-index')){
-                this.error3 = false
+            let childrens = $(parent).children('div')
 
-            } else {
-                this.error3 = true
-            }
+            console.log(childrens)
+
+            $(childrens).each(function( index ) {
+                console.log($(this))
+                if($(this).attr('data-index') == parent.getAttribute('data-index')) {
+                    if(index == 1) {
+                        error3 = false
+
+                    }
+                } else {
+                    error3 = true
+                }
+            });
 
         }
     }
@@ -99,8 +146,6 @@ function game(){
     this.dragDrop = e => { 
         e.preventDefault();
 
-        console.log(e.target)
-        
         e.target.querySelector('.appendDiv').appendChild(document.querySelector('.draggedElement'));
 
         this.checkFirstLine(e)
@@ -109,33 +154,34 @@ function game(){
 
  
     this.successPage  = () => {
-
-		if(!this.error && !this.error2 && !this.error3){
-            location.href = "game-success-7.html"
-
+        console.log(error)
+        console.log(error2)
+        console.log(error3)
+		if(!error && !error2 && !error3){
+            // location.href = "game-success-7.html"
+            console.log('redirect')
         } else {
-
             this.errorPage()
         }
     }
 
 
     this.errorPage = () => {
-        if(this.error){
+        if(error){
             document.querySelector('.DragGame—childs2--1').querySelector('.sign-description-btn').classList.add('error')
         
         } else {
             document.querySelector('.DragGame—childs2--1').querySelector('.sign-description-btn').classList.add('success')
         }
 
-        if(this.error2){
+        if(error2){
             document.querySelector('.DragGame—childs2--2').querySelector('.sign-description-btn').classList.add('error')
         
         } else {
             document.querySelector('.DragGame—childs2--2').querySelector('.sign-description-btn').classList.add('success')
         }
 
-        if(this.error3){
+        if(error3){
             document.querySelector('.DragGame—childs2--3').querySelector('.sign-description-btn').classList.add('error')
         
         } else {
