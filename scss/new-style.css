@@ -17241,6 +17241,10 @@ td img {
   width: 100%;
 }
 
+.imge {
+  height: 15vh;
+}
+
 .art-10-7-image-div-container {
   height: 58.07vh;
   position: absolute;

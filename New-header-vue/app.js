@@ -121,7 +121,9 @@ if (theme == "darck") {
     }
   }
   if (close[0]) {
-    close[0].children[0].src = "../../img/icons/black_close.svg";
+    for(let i=0; i<close.length;i++){
+      close[i].children[0].src = "../../img/icons/black_close.svg";
+    }
   }
 }
 
@@ -591,7 +593,9 @@ Vue.component("appMenu", {
         }
         //გათიშვა x
         if (close[0]) {
-          close[0].children[0].src = "../../img/icons/black_close.svg";
+          for(let i=0; i<close.length;i++){
+            close[i].children[0].src = "../../img/icons/black_close.svg";
+          }
         }
         //botApp
         if (document.getElementById("Rectangle_1414-2")) {
@@ -810,7 +814,9 @@ Vue.component("appMenu", {
         }
         //გათიშვა x
         if (close[0]) {
-          close[0].children[0].src = "../../img/icons/close.svg";
+          for(let i=0; i<close.length;i++){
+            close[i].children[0].src = "../../img/icons/close.svg";
+          }
         }
         //bottApp
         if (document.getElementById("Rectangle_1414-2")) {
