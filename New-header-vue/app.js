@@ -762,7 +762,7 @@ Vue.component("appMenu", {
         }
         for (let i = 0; i < imgBackgroundWhite.length; i++) {
           if (imgBackgroundWhite[i]) {
-            imgBackgroundWhite[i].classList.add("img_background_white");
+            imgBackgroundWhite[i].classList.remove("img_background_white");
           }
         }
         if (current__pagination[0]) {
