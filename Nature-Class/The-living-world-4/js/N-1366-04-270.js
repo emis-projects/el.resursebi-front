@@ -60,6 +60,7 @@ function Game() {
     this.Submit = function() {
         for (let i = 0; i < 3; i++) {
             if(Answer[i]==undefined)continue;
+            Answer[i].classList.remove("img_background_white")
             Answer[i].classList.replace("bg_correct@", "bg_correct");
             Answer[i].classList.replace(
                 "bg_incorrect@",
@@ -75,6 +76,9 @@ function Game() {
     //Reset
     this.Reset = function() {
         for (let i = 0; i < 3; i++) {
+            if(Answer[i]){
+                Answer[i].classList.add("img_background_white")
+            }
             this.Clear(i);
             Flower[i].style.display = "block";
         }
