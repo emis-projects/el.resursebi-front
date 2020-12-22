@@ -90,14 +90,12 @@
         height: 100%;
       }
     }
+  }
+}
 
-    .main-img-box {
-      height: 50vh;
-      max-height: 387px;
-
-      img {
-        height: 100%;
-      }
-    }
+.protect-behavior_page-14, .main-img-box {
+  width: 100%;
+  img {
+    height: 50vh;
   }
 }

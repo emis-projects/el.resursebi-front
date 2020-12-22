@@ -8202,6 +8202,8 @@ section .arrow_up_down_downArrow img {
 .N-1366-94 {
   background-image: url("../img/gakvetilebi/buneba/invisible_forces/N2-366-94.png");
   background-position: center bottom;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 .N-1366-95 {
@@ -8314,6 +8316,8 @@ section .arrow_up_down_downArrow img {
 .N-1366-123 {
   background-image: url("../img/gakvetilebi/buneba/invisible_forces/N2-366-123.png");
   background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 .N-1366-124 {
@@ -8638,6 +8642,8 @@ section .arrow_up_down_downArrow img {
 .N-1366-130 {
   background-image: url("../img/gakvetilebi/buneba/invisible_forces/N2-366-130.png");
   background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 .N-1366-131 {
@@ -8668,21 +8674,29 @@ section .arrow_up_down_downArrow img {
 .N-1366-137 {
   background-image: url("../img/gakvetilebi/buneba/invisible_forces/N2-366-137.png");
   background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 .N-1366-138 {
   background-image: url("../img/gakvetilebi/buneba/invisible_forces/N2-366-138.png");
   background-position: center;
+  background-size: 100% 100%;
+  background-size: no-repeat;
 }
 
 .N-1366-139 {
   background-image: url("../img/gakvetilebi/buneba/invisible_forces/N2-366-139.png");
   background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 .N-1366-140 {
   background-image: url("../img/gakvetilebi/buneba/invisible_forces/N2-366-140.png");
   background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 .N-1366-141 {
@@ -8693,16 +8707,22 @@ section .arrow_up_down_downArrow img {
 .N-1366-142 {
   background-image: url("../img/gakvetilebi/buneba/invisible_forces/N2-366-142.png");
   background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 .N-1366-144 {
   background-image: url("../img/gakvetilebi/buneba/invisible_forces/N2-366-144.png");
   background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 .N-1366-145 {
   background-image: url("../img/gakvetilebi/buneba/invisible_forces/N2-366-145.png");
   background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 .N-1366-147 {
@@ -30177,13 +30197,22 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   bottom: 25vh;
 }
 
-.The_living_world-img_box_40 {
-  height: 31.77vh;
-  max-width: 208.7px;
+.The_living_world-img_box_40 img {
+  position: fixed;
+  top: 9vh;
+  left: 20vh;
+  height: 78vh;
 }
 
-.The_living_world-img_box_40 img {
-  height: 100%;
+.The_living_world-img_box_36 img {
+  position: relative;
+  top: -75px;
+  height: 85vh;
+}
+
+.The_living_world-img_box_36_item {
+  position: relative;
+  top: -21rem;
 }
 
 .nature-1-36-latop-couple {
@@ -33492,8 +33521,8 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 .class_5_12-img_23 {
   position: fixed;
   bottom: 0;
-  height: 52vh;
-  max-height: 402px;
+  height: 61vh;
+  max-height: 470px;
 }
 
 .class_5_12-img_23 img {
@@ -35321,13 +35350,12 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
-.protect-behavior_page-14 .main-img-box {
-  height: 50vh;
-  max-height: 387px;
+.protect-behavior_page-14, .main-img-box {
+  width: 100%;
 }
 
-.protect-behavior_page-14 .main-img-box img {
-  height: 100%;
+.protect-behavior_page-14 img, .main-img-box img {
+  height: 50vh;
 }
 
 .cs-4-3-1-img {
@@ -55114,3 +55142,4 @@ input:checked + .slider:before {
 #tableOfContentTwo.tableOfContentTwo-scroll::-webkit-scrollbar-thumb:hover {
   background: #69bac2;
 }
+/*# sourceMappingURL=new-style.css.map */

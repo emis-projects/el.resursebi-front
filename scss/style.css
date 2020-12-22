@@ -8444,6 +8444,8 @@ section .arrow_up_down_downArrow img {
 .N-1366-94 {
   background-image: url("../img/gakvetilebi/buneba/invisible_forces/N2-366-94.png");
   background-position: center bottom;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 .N-1366-95 {
@@ -8556,6 +8558,8 @@ section .arrow_up_down_downArrow img {
 .N-1366-123 {
   background-image: url("../img/gakvetilebi/buneba/invisible_forces/N2-366-123.png");
   background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 .N-1366-124 {
@@ -8880,6 +8884,8 @@ section .arrow_up_down_downArrow img {
 .N-1366-130 {
   background-image: url("../img/gakvetilebi/buneba/invisible_forces/N2-366-130.png");
   background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 .N-1366-131 {
@@ -8910,21 +8916,29 @@ section .arrow_up_down_downArrow img {
 .N-1366-137 {
   background-image: url("../img/gakvetilebi/buneba/invisible_forces/N2-366-137.png");
   background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 .N-1366-138 {
   background-image: url("../img/gakvetilebi/buneba/invisible_forces/N2-366-138.png");
   background-position: center;
+  background-size: 100% 100%;
+  background-size: no-repeat;
 }
 
 .N-1366-139 {
   background-image: url("../img/gakvetilebi/buneba/invisible_forces/N2-366-139.png");
   background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 .N-1366-140 {
   background-image: url("../img/gakvetilebi/buneba/invisible_forces/N2-366-140.png");
   background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 .N-1366-141 {
@@ -8935,16 +8949,22 @@ section .arrow_up_down_downArrow img {
 .N-1366-142 {
   background-image: url("../img/gakvetilebi/buneba/invisible_forces/N2-366-142.png");
   background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 .N-1366-144 {
   background-image: url("../img/gakvetilebi/buneba/invisible_forces/N2-366-144.png");
   background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 .N-1366-145 {
   background-image: url("../img/gakvetilebi/buneba/invisible_forces/N2-366-145.png");
   background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 .N-1366-147 {
@@ -15814,3 +15834,4 @@ td img {
   display: -ms-flexbox;
   display: flex;
 }
+/*# sourceMappingURL=style.css.map */
