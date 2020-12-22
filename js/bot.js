@@ -276,7 +276,7 @@ function sendMessageFromBot(res) {
     if (theme == "darck") {
         for (let i = 0; i < chat_msg_item_admin.length; i++) {
             if (chat_msg_item_admin[i]) {
-              for(let j=0; j<3; j++){
+              for(let j=0; j<chat_msg_item_admin[i].children.length; j++){
                 if(chat_msg_item_admin[i].children[j] && chat_msg_item_admin[i].children[j].classList.contains('chat_msg_item-text')){
                   chat_msg_item_admin[i].children[j].classList.add("newDesign_subject_question_item-title_black_P");
                 }
