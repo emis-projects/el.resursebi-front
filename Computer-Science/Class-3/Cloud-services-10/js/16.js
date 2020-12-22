@@ -2,11 +2,13 @@ function computerGames() {
     var DragGameChilds1 = document.querySelectorAll('.DragGame--childs1');
     var mydrag = document.querySelectorAll('.myDrag');
 
+    var notCloned = false;
+
     var completedBtn = document.getElementById('completedGame');
     var resetBtn = document.getElementById('resetBtn');
 
-    $('.DragGame--childs1, .myDrag .DragGame--childs1').on('dragstart', (e) => this.dragStart(e));
-    $('.DragGame--childs1, .myDrag .DragGame--childs1').on('dragend', (e) => this.dragEnd(e));
+    $(document).on('dragstart', ".DragGame--childs1", (e) => this.dragStart(e));
+    $(document).on('dragend', ".DragGame--childs1", (e) => this.dragEnd(e));
 
 
     for (const drag of mydrag) {
@@ -30,6 +32,9 @@ function computerGames() {
     }
 
     this.dragStart = (e) => {
+        if(e.target.parentElement.classList.contains('myDrag')) {
+            notCloned = true;
+        }
         setTimeout(() => {
             e.target.className += " draggedElement"
         }, 0);
@@ -55,22 +60,24 @@ function computerGames() {
 
     var clone1;
 
+    
     this.dragDrop = (e) => { 
         e.preventDefault();
 
-        console.log(e.target)
-        
         var drag = document.querySelector('.draggedElement')
 
-        // if(e.target.children[0] || e.target.getAttribute('data-placeDiv') != drag.getAttribute('data-placeDiv')){
-        //     return;
-        // }
+        
 
-        if(drag){
-            var clone =  drag.cloneNode(true);
-            e.target.appendChild(clone);
-            $(clone).removeClass('draggedElement')
-            clone1 = e.target.appendChild(clone);
+        if(drag && e.target.classList.contains('myDrag')){
+            if(!notCloned) {
+                var clone =  drag.cloneNode(true);
+                e.target.appendChild(clone);
+                $(clone).removeClass('draggedElement')
+                clone1 = e.target.appendChild(clone);
+            } else {
+                e.target.appendChild(drag);
+                notCloned = false;
+            }
         }
     }
 
