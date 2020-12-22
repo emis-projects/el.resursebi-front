@@ -270,6 +270,21 @@ function sendMessageFromBot(res) {
     // $(div).appendTo(getTag)
     $(getTag).scrollTop($(getTag)[0].scrollHeight)
 
+    //dark_mode
+    var theme = localStorage.getItem("theme");
+    var chat_msg_item_admin = document.getElementsByClassName('chat_msg_item_admin');
+    if (theme == "darck") {
+        for (let i = 0; i < chat_msg_item_admin.length; i++) {
+            if (chat_msg_item_admin[i]) {
+              for(let j=0; j<3; j++){
+                if(chat_msg_item_admin[i].children[j] && chat_msg_item_admin[i].children[j].classList.contains('chat_msg_item-text')){
+                  chat_msg_item_admin[i].children[j].classList.add("newDesign_subject_question_item-title_black_P");
+                }
+              }
+            }
+          }
+    }
+
 }
 
 function dynamicEvent(url, img) {
@@ -290,6 +305,18 @@ function sendMessageFromUser(text) {
     getTag.append(div);
 
     $(getTag).scrollTop($(getTag)[0].scrollHeight)
+
+
+    //dark_mode
+    var theme = localStorage.getItem("theme");
+    var chat_msg_item_user = document.getElementsByClassName('chat_msg_item_user');
+    if (theme == "darck") {
+        for (let i = 0; i < chat_msg_item_user.length; i++) {
+            if (chat_msg_item_user[i]) {
+              chat_msg_item_user[i].children[0].classList.add("newDesign_subject_question_item-title_black_P");
+            }
+          }
+    }
 }
 
 

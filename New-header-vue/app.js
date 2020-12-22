@@ -217,6 +217,8 @@ Vue.component("appMenu", {
     //ფოტოების გადიდების დროს უკანა ფონი
     var fullScreen_modal_content = document.getElementsByClassName('fullScreen_modal-content');
     var backEndDark = document.getElementsByClassName('backEndDark');
+    //chatbots.html
+    var bot_header = document.getElementsByClassName('bot_header');
 
     if (theme == "darck") {
       //სურათის შეცვლა კონკრეტული გვერდებისთვის
@@ -332,6 +334,13 @@ Vue.component("appMenu", {
       if (top_bar[0]) {
         top_bar[0].classList.add("new_btn-start_black_btn");
       }
+      //bot_header chatbots.html
+      for (let i = 0; i < bot_header.length; i++) {
+        if (bot_header[i]) {
+          bot_header[i].classList.add("new_btn-start_black_btn");
+          bot_header[i].classList.add("bot_header_black");
+        }
+      }
 
       window.addEventListener("DOMContentLoaded", () => {
         $("#prime").css("background-image", "url(../../Vue-chatBot/img/chat01.png)");
@@ -356,6 +365,10 @@ Vue.component("appMenu", {
         }
         if (document.getElementById("Path_12243-9")) {
           document.getElementById("Path_12243-9").style.fill = "#000000";
+        }
+        //chatvots.html
+        if (document.getElementById("Rectangle_1432-2")) {
+          document.getElementById("Rectangle_1432-2").style.fill = "#000000";
         }
 
         //switchDark
@@ -415,6 +428,10 @@ Vue.component("appMenu", {
       //ფოტოების გადიდების დროს უკანა ფონი
       var fullScreen_modal_content = document.getElementsByClassName('fullScreen_modal-content');
       var backEndDark = document.getElementsByClassName('backEndDark');
+      //chatbots.html
+      var bot_header = document.getElementsByClassName('bot_header');
+      var chat_msg_item_user = document.getElementsByClassName('chat_msg_item_user');
+      var chat_msg_item_admin = document.getElementsByClassName('chat_msg_item_admin');
 
 
       //ტეგები
@@ -601,6 +618,30 @@ Vue.component("appMenu", {
         if (top_bar[0]) {
           top_bar[0].classList.add("new_btn-start_black_btn");
         }
+
+        //bot_header chatbots.html
+        for (let i = 0; i < bot_header.length; i++) {
+          if (bot_header[i]) {
+            bot_header[i].classList.add("new_btn-start_black_btn");
+            bot_header[i].classList.add("bot_header_black");
+          }
+        }
+        for (let i = 0; i < chat_msg_item_user.length; i++) {
+          if (chat_msg_item_user[i]) {
+            chat_msg_item_user[i].children[0].classList.add("newDesign_subject_question_item-title_black_P");
+          }
+        }
+        for (let i = 0; i < chat_msg_item_admin.length; i++) {
+          if (chat_msg_item_admin[i]) {
+            for(let j=0; j<3; j++){
+              if(chat_msg_item_admin[i].children[j] && chat_msg_item_admin[i].children[j].classList.contains('chat_msg_item-text')){
+                chat_msg_item_admin[i].children[j].classList.add("newDesign_subject_question_item-title_black_P");
+              }
+            }
+          }
+        }
+
+        
         //გათიშვა x
         if (close[0]) {
           for(let i=0; i<close.length;i++){
@@ -625,6 +666,10 @@ Vue.component("appMenu", {
         }
         if (document.getElementById("Path_12243-9")) {
           document.getElementById("Path_12243-9").style.fill = "#000000";
+        }
+        //chatvots.html
+        if (document.getElementById("Rectangle_1432-2")) {
+          document.getElementById("Rectangle_1432-2").style.fill = "#000000";
         }
 
         //icons
@@ -822,6 +867,27 @@ Vue.component("appMenu", {
         if (top_bar[0]) {
           top_bar[0].classList.remove("new_btn-start_black_btn");
         }
+        //bot_header chatbots.html
+        for (let i = 0; i < bot_header.length; i++) {
+          if (bot_header[i]) {
+            bot_header[i].classList.remove("new_btn-start_black_btn");
+            bot_header[i].classList.remove("bot_header_black");
+          }
+        }
+        for (let i = 0; i < chat_msg_item_user.length; i++) {
+          if (chat_msg_item_user[i]) {
+            chat_msg_item_user[i].children[0].classList.remove("newDesign_subject_question_item-title_black_P");
+          }
+        }
+        for (let i = 0; i < chat_msg_item_admin.length; i++) {
+          if (chat_msg_item_admin[i]) {
+            for(let j=0; j<3; j++){
+              if(chat_msg_item_admin[i].children[j] && chat_msg_item_admin[i].children[j].classList.contains('chat_msg_item-text')){
+                chat_msg_item_admin[i].children[j].classList.remove("newDesign_subject_question_item-title_black_P");
+              }
+            }
+          }
+        }
         //გათიშვა x
         if (close[0]) {
           for(let i=0; i<close.length;i++){
@@ -846,6 +912,10 @@ Vue.component("appMenu", {
         }
         if (document.getElementById("Path_12243-9")) {
           document.getElementById("Path_12243-9").style.fill = "";
+        }
+        //chatvots.html
+        if (document.getElementById("Rectangle_1432-2")) {
+          document.getElementById("Rectangle_1432-2").style.fill = "";
         }
         //icons
         $("#prime").css("background-image", "");
