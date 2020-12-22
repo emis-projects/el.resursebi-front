@@ -1,6 +1,6 @@
 // შესამოწმებელი მასივები
-const green = ['nadzvi', 'fichvi'];
-const yellow = ['muxa', 'tela', 'kedari', 'txili', 'kuneli', 'shqeri', 'cxratyava'];
+const green = ['kedari', 'nadzvi', 'fichvi', 'kuneli', 'shqeri', 'cxratyava'];
+const yellow = ['tela', 'muxa', 'txili'];
 
 $(function () {
    //ელემ. გადაადგილება
@@ -34,8 +34,9 @@ let yellowTree = [];
 
 // მცენარეების შემოწმება და მასივში გადაწერა
 check.addEventListener('click', () => {
-   console.log(greenBox);
-   console.log(yellowBox);
+   console.log(greenBox)
+   console.log(yellowBox)
+
 
    greenBox.forEach(evt => {
       greenTrees.push($(evt).attr('alt'))
@@ -57,22 +58,23 @@ check.addEventListener('click', () => {
    for (let i = 0; i < green.length; i++) {
       for (let j = 0; j < yellow.length; j++) {
          // თუ ყველა პირობა სწორია ჩაიტვირთოს ახალი გვერდი
-         if (greenTrees[i] === green[i] && yellowTree[j] === yellow[j] && greenTrees.length === 2 && yellowTree.length ===7){
+         if (greenTrees[i] === green[i] && yellowTree[j] === yellow[j] && greenTrees.length === 6 && yellowTree.length ===3){
             window.location.href = './game-success-25.html';
+
          }else{
             // თუ მარადმწვანე ჯგუფი არაა სწორად შევსებული ან ცარიელია
-            if (greenTrees[i] !== green[i] && greenTrees.length !== 2){
+            if (greenTrees[i] !== green[i] && greenTrees.length !== 6){
                $('.green_box').addClass('animated bounce');
-               $('.green_box').css('background', '#ff3a24');
+               $('.green_box').css('background', 'rgb(220, 108, 133)');
                $('#check').addClass('disabled');
             }else if(greenTrees[i] === green[i]){ // თუ მარადმწვანე ჯგუფი სწორადაა შევსებული სტილების მოხსნა
                $('.green_box').removeClass('animated bounce danger');
                $('.green_box').css('background', '');
             }
             // თუ არამარადმწვანე ჯგუფი არაა სწორად შევსებული ან ცარიელია
-            if(yellowTree[j] !== yellow[j] && yellowTree.length !== 7){
+            if(yellowTree[j] !== yellow[j] && yellowTree.length !== 3){
                $('.yellow_box').addClass('animated bounce danger');
-               $('.yellow_box').css('background', '#ff3a24');
+               $('.yellow_box').css('background', 'rgb(220, 108, 133)');
                $('#check').addClass('disabled');
             }else if(yellowTree[j] !== yellow[j]){  // თუ არამარადმწვანე ჯგუფი სწორადაა შევსებული სტილების მოხსნა
                $('.yellow_box').removeClass('animated bounce danger');
