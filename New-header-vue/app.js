@@ -368,9 +368,13 @@ Vue.component("appMenu", {
         $(".background-cs-2-2-24").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-2/marks-2/cs-2-2-24-bgdarkMode.svg)");
         $(".background-cs-2-2-25").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-2/marks-2/cs-2-2-25-bgdarkMode.svg)");
         $(".background-cs-2-2-26").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-2/marks-2/cs-2-2-26-bgdarkMode.svg)");
+        $(".cs-network_bg-21").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-2/network-10/cs-2-10-21darkMode.svg)");
+        $(".cs-network_bg-22").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-2/network-10/cs-2-10-22darkMode.svg)");
+        $(".cs-network_bg-23").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-2/network-10/cs-2-10-23darkMode.svg)");
+        $(".cs-network_bg-24").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-2/network-10/cs-2-10-24darkMode.svg)");
         
         
-
+        
         //botApp
         if (document.getElementById("Rectangle_1414-2")) {
           document.getElementById("Rectangle_1414-2").style.fill = "#000000";
@@ -723,6 +727,10 @@ Vue.component("appMenu", {
         $(".background-cs-2-2-24").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-2/marks-2/cs-2-2-24-bgdarkMode.svg)");
         $(".background-cs-2-2-25").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-2/marks-2/cs-2-2-25-bgdarkMode.svg)");
         $(".background-cs-2-2-26").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-2/marks-2/cs-2-2-26-bgdarkMode.svg)");
+        $(".cs-network_bg-21").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-2/network-10/cs-2-10-21darkMode.svg)");
+        $(".cs-network_bg-22").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-2/network-10/cs-2-10-22darkMode.svg)");
+        $(".cs-network_bg-23").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-2/network-10/cs-2-10-23darkMode.svg)");
+        $(".cs-network_bg-24").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-2/network-10/cs-2-10-24darkMode.svg)");
         
         
         
@@ -970,7 +978,13 @@ Vue.component("appMenu", {
         $(".lang-box_passive").css("background-image", "");
         $(".menu_box_passive").css("background-image", "");
         $(".menu_box_active").css("background-image", "");
-        //
+        
+        //ბოლო გვერდები
+        $(".cs-network_bg-21").css("background-image", "");
+        $(".cs-network_bg-22").css("background-image", "");
+        $(".cs-network_bg-23").css("background-image", "");
+        $(".cs-network_bg-24").css("background-image", "");
+
         if (document.getElementById("1_kompTeq")) {
           document.getElementById("1_kompTeq").src = "./img/slider/slide-illustration-c.svg";
         }
