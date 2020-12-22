@@ -99,8 +99,6 @@ function game(){
 
         $(parent).each(function(i) {
             if($(this).children().hasClass('appendDiv--1')){
-                console.log('children 1')
-
                 let childrens = $(this).children('.appendDiv--1').children('div')
                 let parentIndex = $(this).children('.appendDiv--1');
 
@@ -116,8 +114,6 @@ function game(){
                 });
     
             } else if($(this).children().hasClass('appendDiv--2')){
-                console.log('children 2')
-
                 let childrens = $(this).children('.appendDiv--2').children('div')
                 let parentIndex = $(this).children('.appendDiv--2');
     
@@ -134,8 +130,6 @@ function game(){
     
     
             } else if($(this).children().hasClass('appendDiv--3')){
-                console.log('children 3')
-
                 let childrens = $(this).children('.appendDiv--3').children('div')
                 let parentIndex = $(this).children('.appendDiv--3');
 
@@ -157,17 +151,13 @@ function game(){
 
 
     this.completedGame = () => {
-        // completedGame.setAttribute('disabled', 'true')
+        completedGame.setAttribute('disabled', 'true')
         this.successPage()
     }
 
     
  
     this.successPage  = () => {
-        console.log(error)
-        console.log(error2)
-        console.log(error3)
-
 		if(!error && !error2 && !error3){
             location.href = "game-success-7.html"
         } else {
@@ -206,10 +196,10 @@ function game(){
 
 
     this.resetGame = () => {
-        $('.dropParent').html("")
         dragElement1MyArray.forEach(w => {
             $('.dropParent').append(w)
         });
+
 
         $('.sign-description-btn').removeClass('error')
         $('.sign-description-btn').removeClass('success')

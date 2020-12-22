@@ -1,6 +1,6 @@
 // შესამოწმებელი მასივები
-const green = ['nadzvi', 'fichvi', 'kedari', 'kuneli', 'shqeri', 'cxratyava'];
-const yellow = ['muxa', 'tela', 'txili'];
+const green = ['kedari', 'nadzvi', 'fichvi', 'kuneli', 'shqeri', 'cxratyava'];
+const yellow = ['tela', 'muxa', 'txili'];
 
 $(function () {
    //ელემ. გადაადგილება
