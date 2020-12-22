@@ -206,12 +206,14 @@ function game(){
 
 
     this.resetGame = () => {
+        $('.dropParent').html("")
         dragElement1MyArray.forEach(w => {
-            $('.cs-6-19-div-6-img').append(w)
+            $('.dropParent').append(w)
         });
 
-        $(dragElement1).removeClass('error');
-        $(dragElement1).removeClass('success');
+        $('.sign-description-btn').removeClass('error')
+        $('.sign-description-btn').removeClass('success')
+
         completedGame.removeAttribute('disabled')
     }
 
