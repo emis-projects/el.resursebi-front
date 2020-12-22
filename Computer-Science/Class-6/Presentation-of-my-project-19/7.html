@@ -32,12 +32,17 @@
 
      <style>
          .mydiv img {
-             height: 13vh;
+             height: 100%;
+         }
+         
+         .immagess .draggedElement {
+             height: 11vh;
+             margin-left: 30px;
          }
 
          .mydiv {
              margin-left: 30px;
-             height: 13vh;
+             height: 11vh;
          }
      </style>
 </head>
@@ -58,18 +63,20 @@
 
             </app-section>
         </section>
-        <section id="mainPage">
+        <section id="mainPage" style="padding-top: 10vh;">
             <div class="row  d-flex immagess">
-                 <div class="col-12 d-flex m-auto" style="display: flex; flex-wrap: wrap; justify-content: flex-start !important;">
+                 <div class="col-12 d-flex m-auto dropParent" style="flex-wrap: wrap; justify-content: center !important;">
 
-                    <div data-index="2" draggable="true" class="mydiv DragGame—childs1">
-                        <video width="200" height="100" controls>
-                            <source src="./assets/გეპარდის ვიდეო.mp4" type="video/mp4">
-                        </video>
-                    </div>
-                    
                     <div data-index="1" draggable="true" class="mydiv DragGame—childs1">
                         <img alt="img" class="cs-6-19-div-7-1-img" src="../../../img/gakvetilebi/Computer-Science/Class-6/Presentation-of-my-project-19/cs-6-19-7-1.svg">
+                    </div>
+
+                    <div data-index="1" draggable="true" class="mydiv DragGame—childs1 width-small" style="height: 8vh;">
+                        <img alt="img" data-voice="./assets/კრუტუნი.wav"  class="listen--btn" src="../../../img/gakvetilebi/Computer-Science/Class-6/Presentation-of-my-project-19/Group 48347.svg">
+                    </div>
+                    
+                    <div data-index="1" draggable="true" class="mydiv DragGame—childs1 width-small" style="height: 8vh;">
+                        <img alt="img" data-voice="./assets/ჭყივიი.wav"  class="listen--btn" src="../../../img/gakvetilebi/Computer-Science/Class-6/Presentation-of-my-project-19/Group 48347.svg">
                     </div>
 
                     <div data-index="2" draggable="true" class="mydiv DragGame—childs1">
@@ -83,17 +90,15 @@
                     <div data-index="0" draggable="true" class="mydiv DragGame—childs1">
                         <img alt="img" class="cs-6-19-div-7-4-img"  src="../../../img/gakvetilebi/Computer-Science/Class-6/Presentation-of-my-project-19/cs-6-19-7-4.png">
                     </div>
-                    
-                    <div data-index="1" draggable="true" class="mydiv DragGame—childs1 width-small" style="height: 10vh;">
-                        <img alt="img" data-voice="./assets/კრუტუნი.wav"  class="listen--btn" src="../../../img/gakvetilebi/Computer-Science/Class-6/Presentation-of-my-project-19/Group 48347.svg">
-                    </div>
 
-                    <div data-index="1" draggable="true" class="mydiv DragGame—childs1 width-small" style="height: 10vh;">
-                        <img alt="img" data-voice="./assets/ჭყივიი.wav"  class="listen--btn" src="../../../img/gakvetilebi/Computer-Science/Class-6/Presentation-of-my-project-19/Group 48347.svg">
+                    <div data-index="2"  style="margin-left: 30px; height: 11vh;" class="DragGame—childs1">
+                        <video draggable="true" width="200" height="100" controls>
+                            <source src="./assets/გეპარდის ვიდეო.mp4" type="video/mp4">
+                        </video>
                     </div>
-
                 </div>
-            <div class="col-11 Presentation-of-my-project-19-game-child m-auto" style="align-items: flex-start;display: flex;flex-direction: column;">  
+                
+            <div class="col-11 Presentation-of-my-project-19-game-child m-auto" style="align-items: flex-start;display: flex;flex-direction: column; margin-top: 40px !important;">  
                 <div style="height: 17vh; width: 100%; display: flex; align-items: center" class="DragGame—childs2 DragGame—childs2--1">
                     <div class="sign-description-btn mt-2vh">
                         <p class="sign-description-btn-title">ვცხოვრობ აფრიკაში</p>
@@ -102,7 +107,7 @@
                     <div class="appendDiv appendDiv--1" style="height: 100%; display: flex; align-items: center;" data-index="0"></div>
                 </div>
 
-                <div style="height: 20vh; width: 100%; display: flex; align-items: center" class="DragGame—childs2 DragGame—childs2--2">
+                <div style="height: 19vh; width: 100%; display: flex; align-items: center" class="DragGame—childs2 DragGame—childs2--2">
                     <div class="sign-description-btn">
                         <p class="sign-description-btn-title">გეპარდის ხმები</p>
                     </div> 
@@ -150,7 +155,7 @@
     </div>
 
     <script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
-<!-- <script src="../../../js/detectdevice.js"></script> -->
+<script src="../../../js/detectdevice.js"></script>
     <script src="../../../js/libraries/jquery.magnific-popup.min.js"></script>
     <script src="../../../js/Pagination.js"></script>
     <script src="../../../js/libraries/sound.js"></script>

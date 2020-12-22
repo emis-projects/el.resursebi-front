@@ -82,65 +82,6 @@ function game(){
         let elClassName = e.target.parentElement.getAttribute('data-class');
         e.target.parentElement.className = elClassName;
     }
-    
-
-    this.checkFirstLine = (e) => {
-
-        let parent = e.target.querySelector('.appendDiv');
-
-        if(parent.classList.contains('appendDiv--1')){
-            let childrens = $(parent).children('div')
-
-            $(childrens).each(function( index ) {
-
-                if($(this).attr('data-index') == parent.getAttribute('data-index')) {
-                    if(index == 1) {
-                        error = false
-
-                    }
-                } else {
-                    error = true
-                }
-            });
-
-        } else if(parent.classList.contains('appendDiv--2')){
-            let childrens = $(parent).children('div')
-
-            
-
-            $(childrens).each(function( index ) {
-
-                if($(this).attr('data-index') == parent.getAttribute('data-index')) {
-                    if(index == 2) {
-                        error2 = false
-
-                    }
-                } else {
-                    error2 = true
-                }
-            });
-
-
-        } else if(parent.classList.contains('appendDiv--3')){
-            let childrens = $(parent).children('div')
-
-            console.log(childrens)
-
-            $(childrens).each(function( index ) {
-                console.log($(this))
-                if($(this).attr('data-index') == parent.getAttribute('data-index')) {
-                    if(index == 1) {
-                        error3 = false
-
-                    }
-                } else {
-                    error3 = true
-                }
-            });
-
-        }
-    }
-
 
 
     this.dragDrop = e => { 
@@ -152,14 +93,73 @@ function game(){
     }
 
 
+    this.checkFirstLine = (e) => {
+
+        let parent = $('.DragGame—childs2');
+
+        $(parent).each(function(i) {
+            if($(this).children().hasClass('appendDiv--1')){
+                let childrens = $(this).children('.appendDiv--1').children('div')
+                let parentIndex = $(this).children('.appendDiv--1');
+
+                $(childrens).each(function( index ) {
+                    if($(this).attr('data-index') == $(parentIndex).attr('data-index')) {
+                        if(index == 1) {
+                            error = false
+                        }
+                    } else {
+                        error = true;
+                        return false
+                    }
+                });
+    
+            } else if($(this).children().hasClass('appendDiv--2')){
+                let childrens = $(this).children('.appendDiv--2').children('div')
+                let parentIndex = $(this).children('.appendDiv--2');
+    
+                $(childrens).each(function( index ) {
+                    if($(this).attr('data-index') == $(parentIndex).attr('data-index')) {
+                        if(index == 2) {
+                            error2 = false
+                        }
+                    } else {
+                        error2 = true
+                        return false
+                    }
+                });
+    
+    
+            } else if($(this).children().hasClass('appendDiv--3')){
+                let childrens = $(this).children('.appendDiv--3').children('div')
+                let parentIndex = $(this).children('.appendDiv--3');
+
+
+                $(childrens).each(function( index ) {
+                    if($(this).attr('data-index') == $(parentIndex).attr('data-index')) {
+                        if(index == 1) {
+                            error3 = false
+                        }
+                    } else {
+                        error3 = true
+                    }
+                });
+    
+            }
+        })
+    }
+
+
+
+    this.completedGame = () => {
+        completedGame.setAttribute('disabled', 'true')
+        this.successPage()
+    }
+
+    
  
     this.successPage  = () => {
-        console.log(error)
-        console.log(error2)
-        console.log(error3)
 		if(!error && !error2 && !error3){
-            // location.href = "game-success-7.html"
-            console.log('redirect')
+            location.href = "game-success-7.html"
         } else {
             this.errorPage()
         }
@@ -168,6 +168,7 @@ function game(){
 
     this.errorPage = () => {
         if(error){
+            document.querySelector('.DragGame—childs2--1').querySelector('.sign-description-btn').classList.remove('success')
             document.querySelector('.DragGame—childs2--1').querySelector('.sign-description-btn').classList.add('error')
         
         } else {
@@ -175,6 +176,7 @@ function game(){
         }
 
         if(error2){
+            document.querySelector('.DragGame—childs2--2').querySelector('.sign-description-btn').classList.remove('success')
             document.querySelector('.DragGame—childs2--2').querySelector('.sign-description-btn').classList.add('error')
         
         } else {
@@ -182,6 +184,7 @@ function game(){
         }
 
         if(error3){
+            document.querySelector('.DragGame—childs2--3').querySelector('.sign-description-btn').classList.remove('success')
             document.querySelector('.DragGame—childs2--3').querySelector('.sign-description-btn').classList.add('error')
         
         } else {
@@ -190,20 +193,17 @@ function game(){
     }
     
  
-    this.completedGame = () => {
-        // completedGame.setAttribute('disabled', 'true')
-        this.successPage()
-    }
-    
 
 
     this.resetGame = () => {
         dragElement1MyArray.forEach(w => {
-            $('.cs-6-19-div-6-img').append(w)
+            $('.dropParent').append(w)
         });
 
-        $(dragElement1).removeClass('error');
-        $(dragElement1).removeClass('success');
+
+        $('.sign-description-btn').removeClass('error')
+        $('.sign-description-btn').removeClass('success')
+
         completedGame.removeAttribute('disabled')
     }
 
