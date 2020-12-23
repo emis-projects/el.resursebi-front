@@ -455,6 +455,10 @@ input:checked + .slider:before {
 .bot_header_black:before{
   background: rgb(0, 0, 0) !important;
 }
-.bot_header_black:before{
+.bot_header_black:after{
   background: rgb(0, 0, 0) !important;
+}
+.pagination__dot_black.active {
+  background-color: #000;
+  color: #ffffff !important;
 }

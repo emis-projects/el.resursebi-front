@@ -5422,7 +5422,12 @@ input:checked + .slider:before {
   background: black !important;
 }
 
-.bot_header_black:before {
+.bot_header_black:after {
   background: black !important;
 }
 /*# sourceMappingURL=components_style.css.map */
+
+.pagination__dot_black.active {
+  background-color: #000;
+  color: #ffffff !important;
+}

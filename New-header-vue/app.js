@@ -545,6 +545,8 @@ Vue.component("appMenu", {
       var chat_msg_item_user = document.getElementsByClassName('chat_msg_item_user');
       var chat_msg_item_admin = document.getElementsByClassName('chat_msg_item_admin');
 
+      //pagination__dot
+      var pagination__dot = document.getElementsByClassName('pagination__dot');
 
       //ტეგები
       //P
@@ -731,6 +733,14 @@ Vue.component("appMenu", {
           top_bar[0].classList.add("new_btn-start_black_btn");
         }
 
+
+        //მიტანის დროს ფეიჯინგი, hover
+        for (let i = 0; i < pagination__dot.length; i++) {
+          if (pagination__dot[i]) {
+            pagination__dot[i].classList.add("pagination__dot_black");
+          }
+        }
+        
         //bot_header chatbots.html
         for (let i = 0; i < bot_header.length; i++) {
           if (bot_header[i]) {
@@ -1092,6 +1102,14 @@ Vue.component("appMenu", {
         }
         if (top_bar[0]) {
           top_bar[0].classList.remove("new_btn-start_black_btn");
+        }
+
+        //მიტანის დროს ფეიჯინგი, hover
+        for (let i = 0; i < pagination__dot.length; i++) {
+          if (pagination__dot[i]) {
+            console.log('shemodis')
+            pagination__dot[i].classList.remove("pagination__dot_black");
+          }
         }
         //bot_header chatbots.html
         for (let i = 0; i < bot_header.length; i++) {
