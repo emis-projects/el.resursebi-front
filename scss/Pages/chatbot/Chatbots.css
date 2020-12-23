@@ -345,10 +345,3 @@
   -webkit-animation-name: circle3;
           animation-name: circle3;
 }
-/*# sourceMappingURL=Chatbots.css.map */
-.bot_header_black:before{
-  background: rgb(0, 0, 0) !important;
-}
-.bot_header_black:after{
-  background: rgb(0, 0, 0) !important;
-}
