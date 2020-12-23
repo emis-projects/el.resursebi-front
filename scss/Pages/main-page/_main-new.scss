@@ -1,6 +1,11 @@
 .main-lesson-start{
     &-cont{
         text-align: center;
+        &-row{
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+        }
         .new_btn-start-cont{
             margin-top: 7vh;
             max-height: 40px;
@@ -14,7 +19,8 @@
                 align-items: center;
                 height: 100%;
                 /*todo  მუსიკის დაბრუნებისას 100% */
-                width: 70%;
+                // width: 70%;
+                width: 180px;
                 cursor: pointer;
             }
         }

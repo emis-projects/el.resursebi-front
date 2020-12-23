@@ -1658,8 +1658,8 @@ Vue.component("appStart", {
                 :class="[
                   isActive && darkMode? 'app-start new_btn-start_black_btn' : 'app-start',
                 ]">
-                    <div class="row">
-                        <div class="col-3 main-lesson-start-cont">
+                    <div class="main-lesson-start-cont-row">
+                        <div class="main-lesson-start-cont">
                           <img alt="music" :src="images.music" class="main-lesson-start-img" />
                           <div class="new_btn-start-cont ">
                             <a @click="trigger('select', 'მუსიკა')"
@@ -1669,7 +1669,7 @@ Vue.component("appStart", {
                             >მუსიკა</a>
                           </div>
                         </div>
-                        <div class="col-3 main-lesson-start-cont">
+                        <div class="main-lesson-start-cont">
                           <img alt="art" :src="images.art" class="main-lesson-start-img" />
                           <div class="new_btn-start-cont">
                             <a @click="trigger('select', 'ხელოვნება')"
@@ -1679,7 +1679,7 @@ Vue.component("appStart", {
                             >ხელოვნება</a>
                           </div>
                         </div>
-                        <div class="col-3 main-lesson-start-cont">
+                        <div class="main-lesson-start-cont">
                           <img alt="nature" :src="images.nature" class="main-lesson-start-img" />
                           <div class="new_btn-start-cont">
                             <a @click="trigger('select', 'ბუნება')"
@@ -1689,7 +1689,7 @@ Vue.component("appStart", {
                             >ბუნება</a>
                           </div>
                         </div>
-                        <div class="col-3 main-lesson-start-cont">
+                        <div class="main-lesson-start-cont">
                           <img alt="computer" :src="images.IT" class="main-lesson-start-img" />
                           <div class="new_btn-start-cont">
                             <a @click="trigger('select', 'კომპიუტერული ტექნოლოგიები')"
