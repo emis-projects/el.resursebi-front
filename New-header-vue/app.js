@@ -703,7 +703,7 @@ Vue.component("appMenu", {
         if (app_select[0]) {
           app_select[0].classList.add("new_btn-start_black_btn");
         }
-        for (let i = 0; i < 8; i++) {
+        for (let i = 0; i < circles_number_pink.length; i++) {
           if (circles_number_pink[i]) {
             circles_number_pink[i].classList.add("new_btn-start_black_btn");
           }
@@ -1085,7 +1085,7 @@ Vue.component("appMenu", {
         if (app_select[0]) {
           app_select[0].classList.remove("new_btn-start_black_btn");
         }
-        for (let i = 0; i < 8; i++) {
+        for (let i = 0; i < circles_number_pink.length; i++) {
           if (circles_number_pink[i]) {
             circles_number_pink[i].classList.remove("new_btn-start_black_btn");
           }
@@ -1831,7 +1831,10 @@ Vue.component("appSelect", {
                                              tag="div"
                                              appear
                                              class="circle_wrapper">
-                                             <div class="circles_number-pink" v-if="number !== activeItem" key="pink">
+                                             <div v-if="number !== activeItem" key="pink"
+                                             :class="[
+                                              isActive && darkMode? 'circles_number-pink new_btn-start_black_btn' : 'circles_number-pink',
+                                              ]">
                                                  <img :src="path + 'New-header-vue/header-img/pink_'+ (number + 1) +'.svg'" :alt="'pink_' + (number+1)" class="img-fluid">
                                              </div>
                                              <div class="circles_number-white" v-else key="white">
