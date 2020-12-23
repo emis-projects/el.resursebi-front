@@ -55057,6 +55057,14 @@ input:checked + .slider:before {
   border: 1px solid white;
 }
 
+.bot_header_black:before {
+  background: black !important;
+}
+
+.bot_header_black:before {
+  background: black !important;
+}
+
 .canvas-container {
   width: 100% !important;
 }

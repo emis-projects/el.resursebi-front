@@ -5417,3 +5417,11 @@ input:checked + .slider:before {
 .border1PxSW {
   border: 1px solid white;
 }
+
+.bot_header_black:before {
+  background: black !important;
+}
+
+.bot_header_black:before {
+  background: black !important;
+}
