@@ -547,6 +547,7 @@ Vue.component("appMenu", {
 
       //pagination__dot
       var pagination__dot = document.getElementsByClassName('pagination__dot');
+      var dot = document.getElementsByClassName('dot');
 
       //ტეგები
       //P
@@ -562,6 +563,7 @@ Vue.component("appMenu", {
 
       //სურათის გადიდების დროს წარწერა
       var fullScreen_modal_title = document.getElementsByClassName('fullScreen_modal-title');
+      
 
 
       var element = document.body;
@@ -738,6 +740,11 @@ Vue.component("appMenu", {
         for (let i = 0; i < pagination__dot.length; i++) {
           if (pagination__dot[i]) {
             pagination__dot[i].classList.add("pagination__dot_black");
+          }
+        }
+        for (let i = 0; i < dot.length; i++) {
+          if (dot[i]) {
+            dot[i].classList.add("dot_black");
           }
         }
         
@@ -1107,8 +1114,12 @@ Vue.component("appMenu", {
         //მიტანის დროს ფეიჯინგი, hover
         for (let i = 0; i < pagination__dot.length; i++) {
           if (pagination__dot[i]) {
-            console.log('shemodis')
             pagination__dot[i].classList.remove("pagination__dot_black");
+          }
+        }
+        for (let i = 0; i < dot.length; i++) {
+          if (dot[i]) {
+            dot[i].classList.remove("dot_black");
           }
         }
         //bot_header chatbots.html
@@ -1888,7 +1899,7 @@ Vue.component("appSelect", {
                                      mode="out-in">
                             <div v-if="isPagination" class="class-pagination d-flex justify-content-center align-items-center">
                                 <div v-if="currentPage !== 1" @click="currentPage--" class="prev arrow-left-open"></div>
-                                <div @click="currentPage = item" v-for="item in totalPages" :key="item" :class="[item === currentPage ? 'current' : 'dot' ]">
+                                <div @click="currentPage = item" v-for="item in totalPages" :key="item" :class="[item === currentPage ? 'current' : 'dot' || darkMode? 'dot dot_black' : 'dot']">
                                     <p>{{ item }}</p>
                                 </div>
                                 <div v-if="currentPage !== totalPages" @click="currentPage++" class="next arrow-right-open"></div>
