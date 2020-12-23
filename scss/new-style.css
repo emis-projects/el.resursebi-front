@@ -55061,7 +55061,7 @@ input:checked + .slider:before {
   background: black !important;
 }
 
-.bot_header_black:before {
+.bot_header_black:after {
   background: black !important;
 }
 
@@ -55153,4 +55153,9 @@ input:checked + .slider:before {
 
 #tableOfContentTwo.tableOfContentTwo-scroll::-webkit-scrollbar-thumb:hover {
   background: #69bac2;
+}
+
+.pagination__dot_black.active {
+  background-color: #000;
+  color: #ffffff !important;
 }
