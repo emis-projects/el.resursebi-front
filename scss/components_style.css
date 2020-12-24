@@ -2307,15 +2307,15 @@ section .arrow_up_down_downArrow img {
 }
 
 .portfolio-slider-04-6-1.owl-theme .owl-dots .owl-dot:nth-child(1) span {
-  background-image: url("../img/gakvetilebi/xelovneba/magic-world/a-6-1-1.jpg");
+  background-image: url("../img/gakvetilebi/xelovneba/magic-world/A-1366-03-15-1.png");
 }
 
 .portfolio-slider-04-6-1.owl-theme .owl-dots .owl-dot:nth-child(2) span {
-  background-image: url("../img/gakvetilebi/xelovneba/magic-world/a-6-1-2.png");
+  background-image: url("../img/gakvetilebi/xelovneba/magic-world/A-1366-03-15-2.png");
 }
 
 .portfolio-slider-04-6-1.owl-theme .owl-dots .owl-dot:nth-child(3) span {
-  background-image: url("../img/gakvetilebi/xelovneba/magic-world/a-6-1-3.jpg");
+  background-image: url("../img/gakvetilebi/xelovneba/magic-world/A-1366-03-15-3.png");
 }
 
 .portfolio-slider-04-6-2.owl-theme .owl-dots .owl-dot:nth-child(1) span {
@@ -5418,3 +5418,21 @@ input:checked + .slider:before {
   border: 1px solid white;
 }
 /*# sourceMappingURL=components_style.css.map */
+
+.bot_header_black:before {
+  background: black !important;
+}
+
+.bot_header_black:after {
+  background: black !important;
+}
+/*# sourceMappingURL=components_style.css.map */
+
+.pagination__dot_black.active {
+  background-color: #000;
+  color: #ffffff !important;
+}
+
+#app .class-pagination .dot_black:hover {
+  background: #000;
+}

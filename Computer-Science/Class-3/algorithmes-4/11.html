@@ -31,6 +31,42 @@
 
         gtag('config', 'UA-155006442-1');
     </script>
+
+    <style>
+          .C-1366-02-14-div-container {
+                margin-top: 0;
+                margin-right: 10vh;
+          }
+
+          .litle {
+                position: absolute;
+                width: 50px;
+                left: calc(50% - 25px);
+                height: max-content;
+                z-index: 1;
+          }
+
+          .milk {
+            width: 100%;
+            left: 0;
+            z-index: 0;
+            bottom: 6.2vh !important;
+          }
+
+
+          .mixer__head.isNotOpen {
+            left: 28px;
+            top: 6px;
+            transform: rotate(90deg);
+          }
+
+          .mixer__head {
+            transform: rotate(0deg);
+            left: -11px;
+            top: -29px;
+            transition: all 0.3s;
+          }
+    </style>
 </head>
 
 <body>
@@ -477,30 +513,25 @@
             <div class="col-11 offset-1 C-1366-02-14-container d-flex align-items-center">
 
                 <div class="C-1366-02-14-div-container C-1366-02-14-mixer-img-div-container flex justify-content-center mt-5vh">
-                    <div class="mixer-top d-inline-block relative mixerDrag" style="height: 37.10vh; width: 6.07vw;">
-                      <img class="mixer__head cursor-pointer onOff isNotOpen" src="../../../img/gakvetilebi/Computer-Science/algorithme/C-1366-02-14-head.svg" style="transform: rotate(90deg);max-width: 3vh;position: relative;left: 15.5vh;bottom: 15.8vh;">
-                      <img src="../../../img/gakvetilebi/Computer-Science/algorithme/mixer-top.svg" style="height: 100%;position: relative;
-                      bottom: 33vh;
-                      left: 12vh;">
+                    <div class="mixer-top d-inline-block relative mixerDrag" style="height: 100%; width: 6vw;">
+                      <img class="mixer__head cursor-pointer onOff isNotOpen" src="../../../img/gakvetilebi/Computer-Science/algorithme/C-1366-02-14-head.svg" style="max-width: 3vh;position: relative; z-index: 10;">
+                      <img src="../../../img/gakvetilebi/Computer-Science/algorithme/mixer-top.svg" style="height: 100%;position: relative;bottom: 6vh;">
 
                       <img class="litle veget-zindex vegetables pear fruit" style="display: none;" src="../../../img/gakvetilebi/Computer-Science/algorithme/C-1366-02-14-pear.svg">
                       <img class="litle veget-zindex vegetables banana fruit" style="display: none;" src="../../../img/gakvetilebi/Computer-Science/algorithme/C-1366-02-14-banana.svg">
                       <img class="litle veget-zindex vegetables apple fruit" style="display: none;" src="../../../img/gakvetilebi/Computer-Science/algorithme/C-1366-02-14-apple.svg">
                       <img class="litle vegetables milk" style="display: none;" src="../../../img/gakvetilebi/Computer-Science/algorithme/milk2.svg">
-
+                      
+                      <div class="mixer-bottom d-inline-block" style="margin-right: 10vh;left: -12px; bottom: -64px; position: absolute;">
+                        <img class="cursor-pointer" src="../../../img/gakvetilebi/Computer-Science/algorithme/mixer-bottom.svg" style="width: 7.78vw; height: 15.23vh; margin-top: 40vh;">
+                        <img class="C-1366-02-14-mixer-btn-div cursor-pointer finish" src="../../../img/gakvetilebi/Computer-Science/algorithme/C-1366-02-14-mixer-btn.svg" style="height: auto;position: absolute;bottom: 9vh;margin-left: 4vh;">
+                      </div>
                     </div>
 
-                    <div class="mixer-bottom d-inline-block" style="margin-right:10vh;">
-                      <img class="cursor-pointer" src="../../../img/gakvetilebi/Computer-Science/algorithme/mixer-bottom.svg" style="width: 7.78vw; height: 15.23vh; margin-top: 40vh;">
-                      <img class="C-1366-02-14-mixer-btn-div cursor-pointer finish" src="../../../img/gakvetilebi/Computer-Science/algorithme/C-1366-02-14-mixer-btn.svg" style="    height: auto;
-                      position: absolute;
-                      bottom: 9vh;
-                      margin-left: 4vh;">
-                    </div>
                 </div>
 
 
-
+                
                 <div class="C-1366-02-14-div-container C-1366-02-14-mixer-pear-div-container draggedimgelement" draggable="true">
                   <img src="../../../img/gakvetilebi/Computer-Science/algorithme/C-1366-02-14-pear.svg" class="imgElement" data-name="pear" style="margin-right:5vh;">
                 </div>
@@ -543,7 +574,7 @@
 </div>
 
 <script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
-<script src="../../../js/detectdevice.js"></script>
+<!-- <script src="../../../js/detectdevice.js"></script> -->
 <script src="../../../js/libraries/jquery.magnific-popup.min.js"></script>
 <script src="../../../js/Pagination.js"></script>
 

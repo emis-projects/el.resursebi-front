@@ -85,7 +85,7 @@ function natureGames() {
         let elClassName = drag.getAttribute('data-class');
         let currentFruit = littleFruitArray.filter(r => r.classList.contains(drag.getAttribute('data-name')))
         if(count == 0 && currentFruit.length){
-            pixel = 5;
+            pixel = 35;
             previous = $(currentFruit).height()
             
         }
@@ -95,7 +95,7 @@ function natureGames() {
 
         }
         if(count == 2 && currentFruit.length){
-            pixel = previous + 5;
+            pixel = previous + 35;
         }
         if(drag.getAttribute('data-name') == 'pear'){
             pear1 = true;

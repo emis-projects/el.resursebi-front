@@ -1,122 +1,78 @@
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="906" height="522.728"
-     viewBox="0 0 906 522.728">
-    <defs>
-        <style>.a,.e,.f,.g,.h,.i,.j,.k{fill:#fff;}.b{fill:#dc6c85;font-size:16px;font-family:ALKSanet, ALK
-            Sanet;}.c{fill:#ffc84f;}.d{fill:#ffdc8e;}.e{font-size:26px;}.e,.f,.g,.h,.i,.j,.k{font-family:BPGArial, BPG
-            Arial;}.f{font-size:15px;}.g{font-size:27px;}.h{font-size:20px;}.i{font-size:25px;}.j{font-size:38px;}.k{font-size:21px;}.l{filter:url(#a);}
-        </style>
-        <filter id="a" x="423" y="468.728" width="54" height="54" filterUnits="userSpaceOnUse">
-            <feOffset dy="3" input="SourceAlpha"/>
-            <feGaussianBlur stdDeviation="3" result="b"/>
-            <feFlood flood-color="#7fd1d8"/>
-            <feComposite operator="in" in2="b"/>
-            <feComposite in="SourceGraphic"/>
-        </filter>
-    </defs>
-    <g transform="translate(-233 -215.272)">
-        <g transform="translate(-159)">
-            <g class="l" transform="matrix(1, 0, 0, 1, 392, 215.27)">
-                <circle class="a" cx="18" cy="18" r="18" transform="translate(468 474.73) rotate(90)"/>
-            </g>
-            <text class="b" transform="translate(833 701)">
-                <tspan x="6.578" y="12">1</tspan>
-            </text>
-        </g>
-        <g transform="translate(737.451 216.272)">
-            <path class="c" d="M743.317,365.581v61.062L725.229,444.73H596.767v-79.15Z"
-                  transform="translate(-596.767 -365.581)"/>
-            <path class="d" d="M709.967,410.908,691.879,429V410.455Z" transform="translate(-563.418 -349.846)"/>
-        </g>
-        <text class="e" transform="translate(808.518 262.036)">
-            <tspan x="-14.46" y="0">27</tspan>
-        </text>
-        <g transform="translate(233 315.051)">
-            <path class="c" d="M396.772,438.716v61.062l-18.088,18.088H250.223v-79.15Z"
-                  transform="translate(-250.223 -438.716)"/>
-            <path class="d" d="M363.423,484.043l-18.088,18.088V483.59Z" transform="translate(-216.873 -422.981)"/>
-        </g>
-        <text class="f" transform="translate(301.899 359.471)">
-            <tspan x="-51.13" y="0">საქართველო</tspan>
-        </text>
-        <g transform="translate(482.001 216.272)">
-            <path class="c" d="M570.981,365.581v61.062L552.894,444.73H424.432v-79.15Z"
-                  transform="translate(-424.432 -365.581)"/>
-            <path class="d" d="M537.632,410.908,519.544,429V410.455Z" transform="translate(-391.082 -349.846)"/>
-        </g>
-        <text class="g" transform="translate(554.171 259.887)">
-            <tspan x="-7.403" y="0">ა</tspan>
-        </text>
-        <g transform="translate(482.001 312.387)">
-            <path class="c" d="M570.981,436.743v61.062l-18.088,18.088H424.432v-79.15Z"
-                  transform="translate(-424.432 -436.743)"/>
-            <path class="d" d="M537.632,482.071l-18.088,18.088V481.618Z" transform="translate(-391.082 -421.009)"/>
-        </g>
-        <text class="h" transform="translate(554.171 354.054)">
-            <tspan x="-7.222" y="0">C</tspan>
-        </text>
-        <g transform="translate(737.451 319.311)">
-            <path class="c" d="M743.317,441.87v61.062l-18.088,18.088H596.767V441.87Z"
-                  transform="translate(-596.767 -441.87)"/>
-            <path class="d" d="M709.967,487.2l-18.088,18.088V486.744Z" transform="translate(-563.418 -426.135)"/>
-        </g>
-        <text class="e" transform="translate(810.779 367.901)">
-            <tspan x="-14.46" y="0">50</tspan>
-        </text>
-        <g transform="translate(737.451 438.041)">
-            <path class="c" d="M743.317,529.777v61.062l-18.088,18.088H596.767v-79.15Z"
-                  transform="translate(-596.767 -529.777)"/>
-            <path class="d" d="M709.967,575.1l-18.088,18.088V574.651Z" transform="translate(-563.418 -514.042)"/>
-        </g>
-        <text class="e" transform="translate(809.765 483.866)">
-            <tspan x="-21.69" y="0">100</tspan>
-        </text>
-        <g transform="translate(992.45 215.272)">
-            <path class="c" d="M951.419,365.581v61.062L933.331,444.73H804.869v-79.15Z"
-                  transform="translate(-804.869 -365.581)"/>
-            <path class="d" d="M918.069,410.908,899.981,429V410.455Z" transform="translate(-771.519 -349.846)"/>
-        </g>
-        <text class="i" transform="translate(1063.816 262.863)">
-            <tspan x="-17.377" y="0">4.9</tspan>
-        </text>
-        <g transform="translate(482 526.052)">
-            <path class="c" d="M570.981,594.939V656l-18.088,18.088H424.431v-79.15Z"
-                  transform="translate(-424.431 -594.939)"/>
-            <path class="d" d="M537.631,640.266l-18.088,18.088V639.813Z" transform="translate(-391.082 -579.204)"/>
-        </g>
-        <text class="e" transform="translate(545.43 574.642)">
-            <tspan x="-13.197" y="0">@</tspan>
-        </text>
-        <g transform="translate(482 423.152)">
-            <path class="c" d="M570.981,518.753v61.062L552.893,597.9H424.431v-79.15Z"
-                  transform="translate(-424.431 -518.753)"/>
-            <path class="d" d="M537.631,564.08l-18.088,18.088V563.627Z" transform="translate(-391.082 -503.018)"/>
-        </g>
-        <text class="j" transform="translate(554.172 482.716)">
-            <tspan x="-7.394" y="0">*</tspan>
-        </text>
-        <g transform="translate(233 423.152)">
-            <path class="c" d="M396.772,518.753v61.062L378.685,597.9H250.223v-79.15Z"
-                  transform="translate(-250.223 -518.753)"/>
-            <path class="d" d="M363.422,564.08l-18.088,18.088V563.627Z" transform="translate(-216.873 -503.018)"/>
-        </g>
-        <text class="f" transform="translate(303.911 467.573)">
-            <tspan x="-26.444" y="0">სკოლა</tspan>
-        </text>
-        <g transform="translate(233 526.052)">
-            <path class="c" d="M396.772,594.939V656l-18.088,18.088H250.223v-79.15Z"
-                  transform="translate(-250.223 -594.939)"/>
-            <path class="d" d="M363.423,640.266l-18.088,18.088V639.813Z" transform="translate(-216.873 -579.204)"/>
-        </g>
-        <text class="f" transform="translate(303.405 570.472)">
-            <tspan x="-39.141" y="0">ორშაბათი</tspan>
-        </text>
-        <g transform="translate(233 216.272)">
-            <path class="c" d="M396.772,365.581v61.062L378.685,444.73H250.223v-79.15Z"
-                  transform="translate(-250.223 -365.581)"/>
-            <path class="d" d="M363.423,410.908,345.335,429V410.455Z" transform="translate(-216.873 -349.846)"/>
-        </g>
-        <text class="k" transform="translate(298.938 262.551)">
-            <tspan x="-17.309" y="0">მზე</tspan>
-        </text>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 906 522.7" style="enable-background:new 0 0 906 522.7;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFC84F;}
+	.st1{fill:#FFDC8E;}
+	.st2{fill:#FFFFFF;}
+	.st3{font-family:'BPGRioniVera';}
+	.st4{font-size:26px;}
+	.st5{font-size:15px;}
+	.st6{font-size:27px;}
+	.st7{font-size:20px;}
+	.st8{font-size:25px;}
+	.st9{font-size:38px;}
+	.st10{font-size:21px;}
+</style>
+<g transform="translate(737.451 216.272)">
+	<path class="st0" d="M-86.5-215.3v61.1l-18.1,18.1H-233v-79.1L-86.5-215.3z"/>
+	<path class="st1" d="M-86.5-154.2l-18.1,18.1v-18.5L-86.5-154.2z"/>
+</g>
+<text transform="matrix(1 0 0 1 561.058 46.764)" class="st2 st3 st4">27</text>
+<g transform="translate(233 315.051)">
+	<path class="st0" d="M-86.5-215.3v61.1l-18.1,18.1H-233v-79.1L-86.5-215.3z"/>
+	<path class="st1" d="M-86.4-154.2l-18.1,18.1v-18.5L-86.4-154.2z"/>
+</g>
+<text transform="matrix(1 0 0 1 17.769 144.199)" class="st2 st3 st5">საქართველო</text>
+<g transform="translate(482.001 216.272)">
+	<path class="st0" d="M-86.5-215.3v61.1l-18.1,18.1H-233v-79.1L-86.5-215.3z"/>
+	<path class="st1" d="M-86.4-154.2l-18.1,18.1v-18.5L-86.4-154.2z"/>
+</g>
+<text transform="matrix(1 0 0 1 313.768 44.615)" class="st2 st3 st6">ა</text>
+<g transform="translate(482.001 312.387)">
+	<path class="st0" d="M-86.5-215.3v61.1l-18.1,18.1H-233v-79.1H-86.5z"/>
+	<path class="st1" d="M-86.4-154.2l-18.1,18.1v-18.5L-86.4-154.2z"/>
+</g>
+<text transform="matrix(1 0 0 1 313.949 138.782)" class="st2 st3 st7">C</text>
+<g transform="translate(737.451 319.311)">
+	<path class="st0" d="M-86.5-215.3v61.1l-18.1,18.1H-233v-79.2H-86.5z"/>
+	<path class="st1" d="M-86.5-154.2l-18.1,18.1v-18.5L-86.5-154.2z"/>
+</g>
+<text transform="matrix(1 0 0 1 563.319 152.629)" class="st2 st3 st4">50</text>
+<g transform="translate(737.451 438.041)">
+	<path class="st0" d="M-86.5-215.3v61.1l-18.1,18.1H-233v-79.2H-86.5z"/>
+	<path class="st1" d="M-86.5-154.2l-18.1,18.1v-18.5L-86.5-154.2z"/>
+</g>
+<text transform="matrix(1 0 0 1 555.075 268.594)" class="st2 st3 st4">100</text>
+<g transform="translate(992.45 215.272)">
+	<path class="st0" d="M-86.5-215.3v61.1l-18.1,18.1H-233v-79.1L-86.5-215.3z"/>
+	<path class="st1" d="M-86.5-154.2l-18.1,18.1v-18.5L-86.5-154.2z"/>
+</g>
+<text transform="matrix(1 0 0 1 813.439 47.591)" class="st2 st3 st8">4.9</text>
+<g transform="translate(482 526.052)">
+	<path class="st0" d="M-86.4-215.3v61.1l-18.1,18.1H-233v-79.2L-86.4-215.3z"/>
+	<path class="st1" d="M-86.5-154.2l-18.1,18.1v-18.5L-86.5-154.2z"/>
+</g>
+<text transform="matrix(1 0 0 1 299.233 359.37)" class="st2 st3 st4">@</text>
+<g transform="translate(482 423.152)">
+	<path class="st0" d="M-86.4-215.3v61.1l-18.1,18.1H-233v-79.2L-86.4-215.3z"/>
+	<path class="st1" d="M-86.5-154.2l-18.1,18.1v-18.5L-86.5-154.2z"/>
+</g>
+<text transform="matrix(1 0 0 1 313.778 267.444)" class="st2 st3 st9">*</text>
+<g transform="translate(233 423.152)">
+	<path class="st0" d="M-86.5-215.3v61.1l-18.1,18.1H-233v-79.2L-86.5-215.3z"/>
+	<path class="st1" d="M-86.5-154.2l-18.1,18.1v-18.5L-86.5-154.2z"/>
+</g>
+<text transform="matrix(1 0 0 1 44.467 252.301)" class="st2 st3 st5">სკოლა</text>
+<g transform="translate(233 526.052)">
+	<path class="st0" d="M-86.5-215.3v61.1l-18.1,18.1H-233v-79.2L-86.5-215.3z"/>
+	<path class="st1" d="M-86.4-154.2l-18.1,18.1v-18.5L-86.4-154.2z"/>
+</g>
+<text transform="matrix(1 0 0 1 31.264 355.2)" class="st2 st3 st5">ორშაბათი</text>
+<g transform="translate(233 216.272)">
+	<path class="st0" d="M-86.5-215.3v61.1l-18.1,18.1H-233v-79.1L-86.5-215.3z"/>
+	<path class="st1" d="M-86.4-154.2l-18.1,18.1v-18.5L-86.4-154.2z"/>
+</g>
+<text transform="matrix(1 0 0 1 48.629 47.279)" class="st2 st3 st10">მზე</text>
 </svg>
