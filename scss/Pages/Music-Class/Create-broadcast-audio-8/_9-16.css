@@ -1,0 +1,98 @@
+.class_music_8-img-9 {
+  height: 48.5vh !important;
+}
+.class_music_8-img_10_title {
+  font-size: 14px;
+  margin-bottom: 0 !important;
+}
+.class_music_8-img_10_cont {
+  background-image: url("../img/gakvetilebi/Music-class/Create-broadcast-audio-8/music-8-10-rect.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30.2vh;
+  height: 5.5vh;
+}
+.class_music_8-check_box {
+  height: 2.6vh;
+  width: 2.6vh;
+  margin: 0.7vh 1.5vh 0 0;
+  border: 2px solid #696969;
+  border-radius: 8px;
+  margin: auto;
+  opacity: 1;
+}
+.class_music_8-img_11_cont {
+  background-image: url("../img/gakvetilebi/Music-class/Create-broadcast-audio-8/music-8-11-rect.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20.9vh;
+  height: 8.9vh;
+}
+.class_music_8-img_12_cont {
+  background-image: url("../img/gakvetilebi/Music-class/Create-broadcast-audio-8/music-8-12-rect.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 29.4vh;
+  height: 12.24vh;
+}
+.class_music_8-img_13_circle {
+  width: 14.58vh;
+  height: 14.58vh;
+}
+.class_music_8-img_13 {
+  width: 8.39vh;
+  height: 8.39vh;
+}
+.class_music_8-img_13_cont {
+  background-image: url("../../../../img/gakvetilebi/Music-class/Create-broadcast-audio-8/music-8-13-rect.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 68.75vh;
+  height: 13.28vh;
+}
+.class_music_8-img_14 {
+  position: fixed;
+  bottom: 0;
+  height: 68.75vh;
+}
+.class_music_8-img_15_circle {
+  width: 12.1vh;
+  height: 12.1vh;
+}
+.class_music_8-img_15 {
+  width: 10.4vh;
+  height: 10.4vh;
+}
+.class_music_8-img_15_cont {
+  background-image: url("../../../../img/gakvetilebi/Music-class/Create-broadcast-audio-8/music-8-15-rect.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32vh;
+  height: 13.4vh;
+}
+.class_music_8-img_16 {
+  position: fixed;
+  bottom: 0;
+}
+.class_music_8-img_16 img {
+  height: 54.6vh;
+}
+
+.roload_game-margin {
+  margin-right: -2vh;
+}
