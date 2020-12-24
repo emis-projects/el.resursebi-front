@@ -1,28 +1,31 @@
 <!DOCTYPE html>
 <!-- ბოტის აიდიში ვუთითებთ: ხელოვნების - 2318, ბუნების - 2320, მუსიკის - 2292 -->
-<html lang="ka" data-botid="2320">
+<html lang="ka" data-botid="2318">
 
 <head>
-    <meta charset="UTF-8"/>
-    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-    <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
-    <script src="../../js/vue.js"></script>
-    <!--  ვუე გაშვებისას
-        <script src="./js/vue.min.js"></script>
-         -->
-    <link rel="stylesheet" href="../../New-header-vue/animate.min.css">
-    <link rel="stylesheet" href="../../scss/libraries/bootstrap.min.css">
-    <link href="../../scss/new-style.css" rel="stylesheet"/>
-<link href="../../scss/new-style.css" rel="stylesheet"/>
-    <title>ელექტრონული საგანმანათლებლო რესურსი</title>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+  <script src="../../js/vue.js"></script>
+  <!--  ვუე გაშვებისას
+      <script src="./js/vue.min.js"></script>
+       -->
+  <link rel="stylesheet" type="text/css" href="../../scss/libraries/owl.carousel.min.css" />
+  <link rel="stylesheet" type="text/css" href="../../scss/libraries/owl.theme.default.css" />
+  <link rel="stylesheet" href="../../scss/libraries/bootstrap.min.css">
+  <link rel="stylesheet" href="../../scss/libraries/magnific-popup.css">
+  <link rel="stylesheet" href="../../New-header-vue/animate.min.css">
+  <link href="../../scss/new-style.css" rel="stylesheet" />
+  <link href="../../scss/new-style.css" rel="stylesheet" />
+  <title>ელექტრონული საგანმანათლებლო რესურსი</title>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
+    function gtag() {
+      dataLayer.push(arguments);
+    }
 
     gtag('js', new Date());
 
@@ -32,26 +35,89 @@
 
 <body>
   <div class="container">
-    <section id="app" class="container position-absolute">
-      <header>
-        <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../'"></app-menu>
-      </header>
+    <header>
+      <a class="close" href="40-1.html">
+        <img src="../../img/icons/close.svg" alt="close" />
+      </a>
+    </header>
+    <section>
+      <div class="row newDesign_hintPage pt-5vh">
+        <div class="col-11 m-auto">
+            <div class="newDesign_subject_question_item">
+              <p class="newDesign_subject_question_item-title pl-5">ცნობილი მხატვრების ნამუშევრები</p>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                <div class="portfolio-item-container portfolio-item-container_newDesign ">
+                  <img src="../../img/gakvetilebi/xelovneba/daily-news-11/A-11-10-1.jpg" alt="color story"
+                       class="portfolio-item-container_img" />
+                  <div class="paging_buttons">
+                    <a href="" id="slide1" class="paging_buttons_fullScreen-link" data-toggle="modal"
+                      data-target="#exampleModal"><img src="../../img/icons/arrows_blue.svg" alt="color story"
+                                                       class="paging_buttons_fullScreen-img" /></a>
+                  </div>
+                </div>
+                <p class="newDesign_subject_question_item-title mt-1vh">
+                  პიტერ ბრეიგელ უფროსი, "აღწერა ბეთლემში"
+                </p>
+              </div>
+              <div class="col-6">
+                <div class="portfolio-item-container portfolio-item-container_newDesign ">
+                  <img src="../../img/gakvetilebi/xelovneba/daily-news-11/A-11-10-2.jpg" alt="color story"
+                       class="portfolio-item-container_img" />
+                  <div class="paging_buttons">
+                    <a href="" id="slide2" class="paging_buttons_fullScreen-link" data-toggle="modal"
+                      data-target="#exampleModal"><img src="../../img/icons/arrows_blue.svg" alt="color story"
+                                                       class="paging_buttons_fullScreen-img" /></a>
+                  </div>
+                </div>
+                <p class="newDesign_subject_question_item-title mt-1vh">
+                  პიტერ ბრეიგელ უფროსი, "ქორწილი"
+                </p>
+              </div>
+            </div>
+        </div>
+      </div>
 
-      <app-section :is-active="isActive" :is-info="isInfo" v-image="'../../'">
-        <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger"
-                 v-on:link-tab="link = $event">
-
-        </app-bar>
-        <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive"
-                   :is-info="isInfo"
-                   :path="path" :tab-class="currentTabComponent" :trigger="trigger">
-        </component>
-
-      </app-section>
-    </section>
-
-
-    <section id="mainPage">
+      <!-- Modal -->
+      <div class="modal fade fullScreen_modal-fade" id="exampleModal" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog fullScreen_modal-dialog" role="document">
+          <div class="modal-content fullScreen_modal-content">
+            <div class="container modal-header fullScreen_modal-header">
+              <a aria-label="Close" class="close" data-dismiss="modal" href="13.html">
+                <img src="../../img/icons/close.svg" alt="close" />
+              </a>
+            </div>
+            <div class="modal-body fullScreen_modal-body">
+              <div class="container-fluid">
+                <div class="owl-carousel owl-theme row no-gutters portfolio-slider portfolio-slider-11-10">
+                  <div class="item col-12 slide_content-box">
+                    <div>
+                      <div class="fullScreen_modal-img-lg-hor">
+                        <img src="../../img/gakvetilebi/xelovneba/daily-news-11/A-11-10-1.jpg" alt="color story" />
+                      </div>
+                      <p class="newDesign_subject_question_item-title mt-1vh">
+                        პიტერ ბრეიგელ უფროსი, "აღწერა ბეთლემში"
+                      </p>
+                    </div>
+                  </div>
+                  <div class="item col-12 slide_content-box">
+                    <div>
+                      <div class="fullScreen_modal-img-lg-hor">
+                        <img src="../../img/gakvetilebi/xelovneba/daily-news-11/A-11-10-2.jpg" alt="color story" />
+                      </div>
+                      <p class="newDesign_subject_question_item-title mt-1vh">
+                        პიტერ ბრეიგელ უფროსი, "ქორწილი"
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="left_components_paging-cont">
         <svg class="left_components_paging" xmlns="http://www.w3.org/2000/svg"
           xmlns:xlink="http://www.w3.org/1999/xlink" width="134" height="722" viewBox="0 0 134 722">
@@ -116,7 +182,7 @@
             <path class="leftSidebar_type" style="opacity: 0" data-type="5" id="Path_24922" data-name="Path 24922"
               d="M-107,293.662h-25.155a28.388,28.388,0,0,0-21.1,9.686A34.87,34.87,0,0,0-162,326.736c0,18.266,13.362,33.074,29.844,33.074H-107c20.013,0,36.24,17.983,36.24,40.162V253.5C-70.762,275.679-86.988,293.662-107,293.662Z"
               transform="translate(195.761 283.264)" fill="#7fd1d8" />
-            <path class="leftSidebar_type" style="opacity: 0" data-type="3" id="Path_143735" data-name="Path 143735"
+            <path class="leftSidebar_type" style="opacity: 1" data-type="3" id="Path_143735" data-name="Path 143735"
               d="M-107,293.662h-25.155a28.388,28.388,0,0,0-21.1,9.686A34.87,34.87,0,0,0-162,326.736c0,18.266,13.362,33.074,29.844,33.074H-107c20.013,0,36.24,17.983,36.24,40.162V253.5C-70.762,275.679-86.988,293.662-107,293.662Z"
               transform="translate(195.761 57.264)" fill="#7fd1d8" />
             <g id="Group_8099" data-name="Group 8099" transform="translate(-1.874 20)">
@@ -407,13 +473,13 @@
               <tspan x="0" y="0">მინიშნება</tspan>
             </text>
             <text id="შუალედური_დავალება" data-name="შუალედური
-                  დავალება" transform="translate(70 549)" fill="#c5cbcd" font-size="12"
+                                        დავალება" transform="translate(70 549)" fill="#c5cbcd" font-size="12"
               font-family="ALKSanet, ALK Sanet">
               <tspan x="-35.344" y="0">შუალედური</tspan>
               <tspan x="-30.636" y="12">დავალება</tspan>
             </text>
             <text id="კომპლექსური_დავალება" data-name="კომპლექსური
-                  დავალება" transform="translate(70 668)" fill="#c5cbcd" font-size="12"
+                                        დავალება" transform="translate(70 668)" fill="#c5cbcd" font-size="12"
               font-family="ALKSanet, ALK Sanet">
               <tspan x="-42.015" y="0">კომპლექსური</tspan>
               <tspan x="-30.636" y="12">დავალება</tspan>
@@ -421,37 +487,41 @@
           </g>
         </svg>
       </div>
-      <div class="row">
-        <div class="col-10 m-auto">
-          <div class="row mt-15vh">
-            <div class="col-10 research_container material_page_text_container">
-              <p class="pDarkMode">ბავშვებო, თქვენ შეისწავლეთ სხვადასხვა ნივთიერება. ვფიქრობ, მზად ხართ სწორი
-                დასკვნებისათვის!</p>
-              <p class="pDarkMode">შეუსაბამეთ მასალებს მათი მთავარი თვისებები.</p>
-            </div>
-            <div class="col-2">
-              <img src="../../img/gakvetilebi/buneba/computer.svg" alt="" class="material_page_img-computer">
-            </div>
+
+      <div class="our__pagination flex">
+        <a href="40-1-1-4.html" class="pagination__prev__btn">
+          <img style="transform: rotate(180deg)" src="../../img/icons/chevron-left-icon.svg" alt="">
+        </a>
+        <div id="pagination" class="d-flex">
+          <div class="pagination__item relative ml-2vh mr-2">
+            <a class="pagination__dot" href="40-1-1-1.html"></a>
           </div>
-          
+          <div class="pagination__item relative ml-2vh mr-2">
+            <a class="pagination__dot" href="40-1-1-2.html"></a>
+          </div>
+          <div class="pagination__item relative ml-2vh mr-2">
+            <a class="pagination__dot" href="40-1-1-3.html"></a>
+          </div>
+          <div class="pagination__item relative ml-2vh mr-2">
+            <a class="pagination__dot" href="40-1-1-4.html"></a>
+          </div>
+          <div class="pagination__item relative ml-2vh mr-2">
+            <a class="current__pagination" href="40-1-1-5.html">5</a>
+          </div>
+          <div class="pagination__item relative ml-2vh mr-2">
+            <a class="pagination__dot" href="40-1-1-6.html"></a>
+          </div>
+          <div class="pagination__item relative ml-2vh mr-2">
+            <a class="pagination__dot" href="40-1-1-7.html"></a>
+          </div>
         </div>
-        <!-- <div class="col-2"></div> -->
+
+        <a href="40-1-1-6.html" class="pagination__next__btn">
+          <img src="../../img/icons/chevron-left-icon.svg" alt="">
+        </a>
       </div>
-        <div class="our__pagination flex">
-          <a href="#" class="pagination__prev__btn">
-            <img style="transform: rotate(180deg)" src="../../img/icons/chevron-left-icon.svg" alt="">
-          </a>
-
-          <div id="pagination" class="flex align-items-center"></div>
-
-          <a href="#" class="pagination__next__btn">
-            <img src="../../img/icons/chevron-left-icon.svg" alt="">
-          </a>
-        </div>
-
     </section>
   </div>
-
 
 
   <!-- ჩეთბოტი -->
@@ -459,18 +529,40 @@
     <app-bot></app-bot>
   </div>
 
-
   <script src="../../js/libraries/jquery-3.4.1.min.js"></script>
 <script src="../../js/detectdevice.js"></script>
   <script src="../../js/libraries/jquery.magnific-popup.min.js"></script>
-  <script src="../../js/Pagination.js"></script>
+  <script src="../../js/libraries/owl.carousel.min.js"></script>
+  <script src="../../js/libraries/bootstrap.min.js"></script>
 
 
   <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
-    <script src="../../New-header-vue/vis.js"></script>
-    <script src="../../New-header-vue/app.js"></script>
+  <script src="../../New-header-vue/vis.js"></script>
+  <script src="../../New-header-vue/app.js"></script>
   <script src="../../Vue-chatBot/botApp.js"></script>
   <script src="../../js/bot.js"></script>
+
+
+  <script>
+    var owl = $(".owl-carousel");
+    owl.owlCarousel({
+      loop: true,
+      nav: false,
+      dots: true,
+      margin: 10,
+      items: 1,
+      autoplay: false,
+      autoHeight: true,
+      autoplayTimeout: 4000,
+      autoplayHoverPause: true
+    });
+    $(document).on("click", "#slide1", function () {
+      owl.trigger("to.owl.carousel", 0);
+    });
+    $(document).on("click", "#slide2", function () {
+      owl.trigger("to.owl.carousel", 1);
+    });
+  </script>
 </body>
 
 </html>
