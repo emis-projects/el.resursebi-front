@@ -1,19 +1,18 @@
 <!DOCTYPE html>
-<html data-botid="2288" lang="ka">
+<html lang="ka" data-botid="2288">
 
 <head>
     <meta charset="UTF-8" />
-    <meta content="ie=edge" http-equiv="X-UA-Compatible" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <!-- ყველა გვერდზე -->
     <script src="../../../js/vue.js"></script>
     <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
     <!--  ვუე გაშვებისას
     <script src="./js/vue.min.js"></script>
      -->
-    <link href="../../../scss/libraries/bootstrap.min.css" rel="stylesheet">
-    <link href="../../../New-header-vue/animate.min.css" rel="stylesheet">
-    <link href="../../../scss/new-style.css" rel="stylesheet" />
-    <link href="../../../scss/components_style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../../../scss/libraries/bootstrap.min.css">
+    <link rel="stylesheet" href="../../../New-header-vue/animate.min.css">
+    <link rel="stylesheet" href="../../../scss/new-style.css" />
     <title>ელექტრონული საგანმანათლებლო რესურსი</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
@@ -23,8 +22,6 @@
         function gtag() {
             dataLayer.push(arguments);
         }
-
-        2
         gtag('js', new Date());
 
         gtag('config', 'UA-155006442-1');
@@ -33,61 +30,87 @@
 
 <body>
     <div class="container">
-        <section class="container position-absolute" id="app">
+        <section id="app" class="container position-absolute">
             <header>
                 <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../../'"></app-menu>
             </header>
 
-            <app-section :is-active="isActive" v-image="'../../../'">
-                <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger" v-on:link-tab="link = $event">
+            <app-section :is-active="isActive" :is-info="isInfo" v-image="'../../../'">
+                <app-bar :is-active="isActive" :trigger="trigger" :dots="dots" :current-tab="link"
+                         v-on:link-tab="link = $event">
 
                 </app-bar>
-                <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive" :is-info="isInfo" :path="path" :tab-class="currentTabComponent" :trigger="trigger">
+                <component :path="path" :is="currentTabComponent" :is-active="isActive" :trigger="trigger"
+                           :active-class="activeClass" :images="images" :is-info="isInfo"
+                           :tab-class="currentTabComponent">
                 </component>
 
             </app-section>
         </section>
         <section id="mainPage">
-            <div class="row">
-                <div class="col-8 m-auto flex_direction_left">
-                    <div class="newDesign_subject_question_item mt-3vh">
-                        <img alt="img" class="newDesign_subject_question_item-img" src="../../../img/icons/newDesign_btn-yellow.svg">
-                        <p class="newDesign_subject_question_item-title Class_2-title_item_2 big-font-size-20px-dejavu">
-                            რა იცი ამ თემაზე?
+            <div class="row mt-7vh">
+                <div class="col-7 m-auto">
+                    <div class="newDesign_subject_question_item">
+                        <img src="../../../img/icons/newDesign_btn-yellow.svg" alt="img"
+                            class="newDesign_subject_question_item-img">
+                        <p class="newDesign_subject_question_item-title Class_4-programing_2_title">
+                            გაშიფრე ბაიტებით დაწერილი საიდუმელო ტექსტი.
                         </p>
                     </div>
-                    <div class="newDesign_subject_question_item mt-3vh">
-                        <img alt="img" class="newDesign_subject_question_item-img" src="../../../img/icons/newDesign_btn-yellow.svg">
-                        <p class="newDesign_subject_question_item-title Class_2-title_item_2 big-font-size-20px-dejavu">
-                            შენი აზრით, რისი ცოდნა გჭირდება დავალების შესასრულებლად?
-                        </p>
-                    </div>
-                    <div class="newDesign_subject_question_item mt-3vh">
-                        <img alt="img" class="newDesign_subject_question_item-img" src="../../../img/icons/newDesign_btn-yellow.svg">
-                        <p class="newDesign_subject_question_item-title Class_2-title_item_2 big-font-size-20px-dejavu">
-                            დააკვირდი შემდეგ სავარჯიშოებს და იფიქრე, როგორ გამოიყენო მიღებული ცოდნა.
+                    <div class="newDesign_subject_question_item mb-4vh">
+                        <img src="../../../img/icons/newDesign_btn-yellow.svg" alt="img"
+                            class="newDesign_subject_question_item-img">
+                        <p class="newDesign_subject_question_item-title Class_4-programing_2_title">
+                            ჩაწერე ტექსტი ლათინური ასოებით.
                         </p>
                     </div>
                 </div>
-                <div class="col-11 d-flex justify-content-center cs-3-13-div-8-img cs-3-13-div cs-3-14-11 mt-5vh">
-                    <img alt="img"
-                    src="../../../img/gakvetilebi/Computer-Science/Class-3/Mystery-of-binary-bracelet-14/cs-3-14-11.svg">
-                </div> 
             </div>
-                
+            <div class="row">
+                <div class="col-9 m-auto d-flex justify-content-bewteen">
+                    <div class="d-flex justify-content-start" style="background: white;">
+                        <img alt="" class="class_3_14-img_12"
+                            src="../../../img/gakvetilebi/Computer-Science/Class-3/Mystery-of-binary-bracelet-14/C-3-14-12.svg">
+                    </div>
+                    <div class="col-5 class_3_14-line_cont">
+                        <div class="d-flex">
+                            <div class="class_3_14-border_bottom"><p><input id="1" class="mt-6vh checkmarkJS" style="padding-left: 3.7vh; width: 9vh" onkeyup="myfunc(event)" type="text"></p></div>
+                            <div class="class_3_14-border_bottom"><p><input id="2" class="mt-6vh checkmarkJS" style="padding-left: 3.7vh; width: 9vh" onkeyup="myfunc(event)" type="text"></p></div>
+                            <div class="class_3_14-border_bottom"><p><input id="3" class="mt-6vh checkmarkJS" style="padding-left: 3.7vh; width: 9vh" onkeyup="myfunc(event)" type="text"></p></div>
+                            <div class="class_3_14-border_bottom"><p><input id="4" class="mt-6vh checkmarkJS" style="padding-left: 3.7vh; width: 9vh" onkeyup="myfunc(event)" type="text"></p></div>
+                        </div>
+                        <div class="d-flex class_3_14-line_cont_1">
+                            <div class="class_3_14-border_bottom"><p><input id="5" class="mt-6vh checkmarkJS" style="padding-left: 3.7vh; width: 9vh" onkeyup="myfunc(event)" type="text"></p></div>
+                            <div class="class_3_14-border_bottom"><p><input id="6" class="mt-6vh checkmarkJS" style="padding-left: 3.7vh; width: 9vh" onkeyup="myfunc(event)" type="text"></p></div>
+                        </div>
+                        <div class="d-flex class_3_14-line_cont_2">
+                            <div class="class_3_14-border_bottom"><p><input id="7" class="mt-6vh checkmarkJS" style="padding-left: 3.7vh; width: 9vh" onkeyup="myfunc(event)" type="text"></p></div>
+                            <div class="class_3_14-border_bottom"><p><input id="8" class="mt-6vh checkmarkJS" style="padding-left: 3.7vh; width: 9vh" onkeyup="myfunc(event)" type="text"></p></div>
+                            <div class="class_3_14-border_bottom"><p><input id="9" class="mt-6vh checkmarkJS" style="padding-left: 3.7vh; width: 9vh" onkeyup="myfunc(event)" type="text"></p></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex flex-end column align-items-end z-index reload_game_wrapper">
+                <button id="resetBtn" class="reset__btn">თავიდან სცადე</button>
+                <button id="completedGame" class="completed__btn">დასრულება</button>
+            </div>
+
+             <!-- ეს არის svg თეგირომელიც ქმნის მარცხენა ვერტიკალურ "ნავ რუკას" -->
             <div class="left_components_paging-cont" id="leftNav">
                 <left-nav-item></left-nav-item>
             </div>
 
             <div class="our__pagination flex">
-                <a class="pagination__prev__btn" href="#">
-                    <img alt="" src="../../../img/icons/chevron-left-icon.svg" style="transform: rotate(180deg)">
+                <a href="#" class="pagination__prev__btn">
+                    <img style="transform: rotate(180deg)" src="../../../img/icons/chevron-left-icon.svg" alt="">
                 </a>
 
-                <div class="flex align-items-center" id="pagination"></div>
+                <div id="pagination" class="flex align-items-center"></div>
 
-                <a class="pagination__next__btn" href="#">
-                    <img alt="" src="../../../img/icons/chevron-left-icon.svg">
+                <a href="#" class="pagination__next__btn">
+                    <img src="../../../img/icons/chevron-left-icon.svg" alt="">
                 </a>
             </div>
 
@@ -111,6 +134,7 @@
     <script src="../../../New-header-vue/app.js"></script>
     <script src="../../../Vue-chatBot/botApp.js"></script>
     <script src="../../../js/bot.js"></script>
+    <script src="./js/12.js"></script>
 
 
 </body>
