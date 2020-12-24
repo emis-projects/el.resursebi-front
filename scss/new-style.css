@@ -28889,10 +28889,16 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 41.79vh;
 }
 
+.cs-6-23-contetn-box {
+  z-index: 99;
+}
+
 .cs-6-23-15-img {
   height: 51.04vh;
   position: relative;
-  top: -13vh;
+  top: -17vh;
+  right: -1.8vh;
+  z-index: 1;
 }
 
 .cs-6-23-15-1-img {
