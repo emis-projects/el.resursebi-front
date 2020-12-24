@@ -1,6 +1,7 @@
  .music-new-10-div{
     &-10-img {
         height:38.41vh;
+        border-radius: 2vh;
         position:relative;
     }
     &-10-circle {
@@ -23,4 +24,8 @@
         height: 100%;
     }
 } 
-
+.music_10-img-10 {
+    width: 18vw;
+    height:38.41vh;
+    border-radius: 2vh;
+}
