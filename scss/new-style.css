@@ -23912,8 +23912,8 @@ img.mfp-img[alt*="cs-2-4-18-img"] {
 }
 
 .cs-2-2-17-img {
-  height: 14.32vh;
-  margin: 8vh auto 0;
+  height: 14vh;
+  margin: 0 auto;
 }
 
 .cs-2-2-21-ill-img {
@@ -43766,12 +43766,10 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 .class_6_19-img_20 {
   position: fixed;
   bottom: 0;
-  height: 50.26vh;
-  max-height: 386px;
 }
 
 .class_6_19-img_20 img {
-  height: 100%;
+  height: 50.26vh;
 }
 
 .class_6_19-img_21 {
@@ -49226,13 +49224,14 @@ button:disabled {
 }
 
 .class_music_8-img_10_title {
+  font-size: 14px;
   margin-bottom: 0 !important;
 }
 
 .class_music_8-img_10_cont {
   background-image: url("../img/gakvetilebi/Music-class/Create-broadcast-audio-8/music-8-10-rect.svg");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 100% 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -49242,8 +49241,8 @@ button:disabled {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 24.2vh;
-  height: 4.8vh;
+  width: 30.2vh;
+  height: 5.5vh;
 }
 
 .class_music_8-check_box {
@@ -49357,6 +49356,10 @@ button:disabled {
 
 .class_music_8-img_16 img {
   height: 54.6vh;
+}
+
+.roload_game-margin {
+  margin-right: -2vh;
 }
 
 .class_music_8-bg_17 {
@@ -55106,6 +55109,15 @@ input:checked + .slider:before {
   background: black !important;
 }
 
+.pagination__dot_black.active {
+  background-color: #000;
+  color: #ffffff !important;
+}
+
+#app .class-pagination .dot_black:hover {
+  background: #000;
+}
+
 .canvas-container {
   width: 100% !important;
 }
@@ -55196,12 +55208,3 @@ input:checked + .slider:before {
   background: #69bac2;
 }
 /*# sourceMappingURL=new-style.css.map */
-/*# sourceMappingURL=new-style.css.map */
-
-.pagination__dot_black.active {
-  background-color: #000;
-  color: #ffffff !important;
-}
-#app .class-pagination .dot_black:hover {
-  background: #000;
-}

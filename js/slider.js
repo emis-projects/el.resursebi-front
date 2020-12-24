@@ -7,6 +7,11 @@ owl.owlCarousel({
   touchDrag: true,
   slideTransition: "linear",
   autoplay: true,
-  autoplayTimeout: 4000,
+  autoplayTimeout: 7000,
   autoplaySpeed: 750
+});
+
+owl.on('changed.owl.carousel', function(e) {
+  owl.trigger('stop.owl.autoplay');
+  owl.trigger('play.owl.autoplay');
 });

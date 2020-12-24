@@ -75,6 +75,7 @@ function unFlipCards() {
     resetBoard();
   }, 10000);
 }
+
 // დავაბრუნოთ დავდაპირველ მდგომარეობაზე 1 და მეორე მოვხსნათ დაბლოკვა
 function resetBoard() {
   [hasFlippedCard, lockBoard] = [false, false];
@@ -91,6 +92,8 @@ document.getElementById("resetBtn").addEventListener("click", () => {
     handleLoadstop();
   });
 });
+
+
 
 /// ხმის გაშვება
 createjs.Sound.on("fileload", handleLoadComplete);

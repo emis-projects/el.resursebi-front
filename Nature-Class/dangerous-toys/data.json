@@ -254,12 +254,12 @@
     {
       "number": 40,
       "url": "",
-      "type": null
+      "type": 2
     },
     {
       "number": 41,
       "url": "",
-      "type": 2
+      "type": null
     },
     {
       "number": 42,

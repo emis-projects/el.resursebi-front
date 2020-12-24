@@ -5417,7 +5417,6 @@ input:checked + .slider:before {
 .border1PxSW {
   border: 1px solid white;
 }
-/*# sourceMappingURL=components_style.css.map */
 
 .bot_header_black:before {
   background: black !important;
@@ -5426,7 +5425,6 @@ input:checked + .slider:before {
 .bot_header_black:after {
   background: black !important;
 }
-/*# sourceMappingURL=components_style.css.map */
 
 .pagination__dot_black.active {
   background-color: #000;
@@ -5436,3 +5434,4 @@ input:checked + .slider:before {
 #app .class-pagination .dot_black:hover {
   background: #000;
 }
+/*# sourceMappingURL=components_style.css.map */
