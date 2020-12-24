@@ -23899,7 +23899,9 @@ img.mfp-img[alt*="cs-2-4-18-img"] {
 
 .cs-2-2-17-img {
   height: 14.32vh;
-  margin: 8vh auto 0;
+  width: 1075px;
+  margin-top: 5vh;
+  margin: auto;
 }
 
 .cs-2-2-21-ill-img {
