@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <!-- ბოტის აიდიში ვუთითებთ: ხელოვნების - 2318, ბუნების - 2320, მუსიკის - 2292 -->
-<html data-botid="2320" lang="ka">
+<html data-botid="2288" lang="ka">
 
 <head>
     <meta charset="UTF-8"/>
     <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+    <!-- ყველა გვერდზე -->
+    <script src="../../../js/vue.js"></script>
     <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
-    <script src="../../js/vue.js"></script>
     <!--  ვუე გაშვებისას
       <script src="./js/vue.min.js"></script>
        -->
-    <link href="../../New-header-vue/animate.min.css" rel="stylesheet">
-    <link href="../../scss/libraries/bootstrap.min.css" rel="stylesheet">
-    <link href="../../scss/libraries/magnific-popup.css" rel="stylesheet">
-    <link href="../../scss/new-style.css" rel="stylesheet"/>
-<link href="../../scss/components_style.css" rel="stylesheet"/>
+    <link href="../../../New-header-vue/animate.min.css" rel="stylesheet">
+    <link href="../../../scss/libraries/bootstrap.min.css" rel="stylesheet">
+    <link href="../../../scss/libraries/magnific-popup.css" rel="stylesheet">
+    <link href="../../../scss/new-style.css" rel="stylesheet"/>
     <title>ელექტრონული საგანმანათლებლო რესურსი</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
@@ -29,91 +29,62 @@
 
         gtag('config', 'UA-155006442-1');
     </script>
-
-    <style>
-          .forest_colors_game-container-large {
-                display: flex;
-                flex-wrap: wrap;
-          }
-          .forest_colors_game-container-large img {
-                  width: 30%;
-                  height: max-content;
-          }
-    </style>
 </head>
 
 <body>
 <div class="container">
-    <section class="container position-absolute" id="app">
-        <header>
-            <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../'"></app-menu>
-        </header>
-
-        <app-section :is-active="isActive" v-image="'../../'">
-            <app-bar
-                    :current-tab="link"
-                    :dots="dots"
-                    :is-active="isActive"
-                    :trigger="trigger"
-                    v-on:link-tab="link = $event">
-
-            </app-bar>
-            <component
-                    :active-class="activeClass"
-                    :images="images"
-                    :is="currentTabComponent"
-                    :is-active="isActive"
-                    :path="path"
-                    :is-info="isInfo" :tab-class="currentTabComponent">
-                :trigger="trigger">
-            </component>
-
-        </app-section>
-    </section>
-
-
-    <section class="adventure-2" id="gameApp">
+    <header>
+        <a class="close" href="13.html">
+            <img alt="close" src="../../../img/icons/close.svg"/>
+        </a>
+    </header>
+    <section>
         <div class="left_components_paging-cont">
-            <svg class="left_components_paging" height="722"
-                 viewBox="0 0 134 722" width="134" xmlns="http://www.w3.org/2000/svg"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+            <svg class="left_components_paging" height="722" viewBox="0 0 134 722" width="134"
+                 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <defs>
-                    <filter filterUnits="userSpaceOnUse" height="722" id="Rectangle_1414" width="134" x="0" y="0">
+                    <filter filterUnits="userSpaceOnUse" height="722" id="Rectangle_1414" width="134" x="0"
+                            y="0">
                         <feOffset dx="2" dy="2" input="SourceAlpha"/>
                         <feGaussianBlur result="blur" stdDeviation="4"/>
                         <feFlood flood-color="#badfed" flood-opacity="0.6"/>
                         <feComposite in2="blur" operator="in"/>
                         <feComposite in="SourceGraphic"/>
                     </filter>
-                    <filter filterUnits="userSpaceOnUse" height="78" id="Path_12243" width="78.354" x="28" y="543">
+                    <filter filterUnits="userSpaceOnUse" height="78" id="Path_12243" width="78.354" x="28"
+                            y="543">
                         <feOffset dx="2" dy="2" input="SourceAlpha"/>
                         <feGaussianBlur result="blur-2" stdDeviation="4"/>
                         <feFlood flood-color="#7fd1d8" flood-opacity="0.4"/>
                         <feComposite in2="blur-2" operator="in"/>
                         <feComposite in="SourceGraphic"/>
                     </filter>
-                    <filter filterUnits="userSpaceOnUse" height="78" id="Path_12243-2" width="78.354" x="28" y="97">
+                    <filter filterUnits="userSpaceOnUse" height="78" id="Path_12243-2" width="78.354" x="28"
+                            y="97">
                         <feOffset dx="2" dy="2" input="SourceAlpha"/>
                         <feGaussianBlur result="blur-3" stdDeviation="4"/>
                         <feFlood flood-color="#dc6c85" flood-opacity="0.4"/>
                         <feComposite in2="blur-3" operator="in"/>
                         <feComposite in="SourceGraphic"/>
                     </filter>
-                    <filter filterUnits="userSpaceOnUse" height="78" id="Path_12243-3" width="78.354" x="28" y="424">
+                    <filter filterUnits="userSpaceOnUse" height="78" id="Path_12243-3" width="78.354" x="28"
+                            y="424">
                         <feOffset dx="2" dy="2" input="SourceAlpha"/>
                         <feGaussianBlur result="blur-4" stdDeviation="4"/>
                         <feFlood flood-color="#dc6c85" flood-opacity="0.4"/>
                         <feComposite in2="blur-4" operator="in"/>
                         <feComposite in="SourceGraphic"/>
                     </filter>
-                    <filter filterUnits="userSpaceOnUse" height="78" id="Path_12243-4" width="78.354" x="28" y="211">
+                    <filter filterUnits="userSpaceOnUse" height="78" id="Path_12243-4" width="78.354" x="28"
+                            y="211">
                         <feOffset dx="2" dy="2" input="SourceAlpha"/>
                         <feGaussianBlur result="blur-5" stdDeviation="4"/>
                         <feFlood flood-color="#dc6c85" flood-opacity="0.4"/>
                         <feComposite in2="blur-5" operator="in"/>
                         <feComposite in="SourceGraphic"/>
                     </filter>
-                    <filter filterUnits="userSpaceOnUse" height="78" id="Path_12243-5" width="78.354" x="28" y="317">
+                    <filter filterUnits="userSpaceOnUse" height="78" id="Path_12243-5" width="78.354" x="28"
+                            y="317">
                         <feOffset dx="2" dy="2" input="SourceAlpha"/>
                         <feGaussianBlur result="blur-6" stdDeviation="4"/>
                         <feFlood flood-color="#7fd1d8" flood-opacity="0.4"/>
@@ -123,8 +94,8 @@
                 </defs>
                 <g data-name="Group 51212" id="Group_51212" transform="translate(-5 -30)">
                     <g filter="url(#Rectangle_1414)" transform="matrix(1, 0, 0, 1, 5, 30)">
-                        <rect data-name="Rectangle 1414" fill="#fff" height="698" id="Rectangle_1414-2" rx="55"
-                              transform="translate(10 10)" width="110"/>
+                        <rect data-name="Rectangle 1414" fill="#fff" height="698"
+                              id="Rectangle_1414-2" rx="55" transform="translate(10 10)" width="110"/>
                     </g>
                     <path class="leftSidebar_type"
                           d="M-107,293.662h-25.155a28.388,28.388,0,0,0-21.1,9.686A34.87,34.87,0,0,0-162,326.736c0,18.266,13.362,33.074,29.844,33.074H-107c20.013,0,36.24,17.983,36.24,40.162V253.5C-70.762,275.679-86.988,293.662-107,293.662Z"
@@ -155,7 +126,7 @@
                           data-name="Path 143735" data-type="3"
                           fill="#7fd1d8"
                           id="Path_143735"
-                          style="opacity: 0" transform="translate(195.761 57.264)"/>
+                          style="opacity: 1" transform="translate(195.761 57.264)"/>
                     <g data-name="Group 8099" id="Group_8099" transform="translate(-1.874 20)">
                         <g data-name="Group 8096" id="Group_8096" transform="translate(44.874 563)">
                             <g filter="url(#Path_12243)" transform="matrix(1, 0, 0, 1, -38, -553)">
@@ -165,14 +136,17 @@
                                       id="Path_12243-6" transform="translate(-47.02 566.38)"/>
                             </g>
                         </g>
-                        <g data-name="Group 8097" id="Group_8097" transform="translate(63.48 574.473)">
-                            <path d="M409.158,18.572l6.145,6.485.264.275" data-name="Path 8478" fill="none"
+                        <g data-name="Group 8097" id="Group_8097"
+                           transform="translate(63.48 574.473)">
+                            <path d="M409.158,18.572l6.145,6.485.264.275" data-name="Path 8478"
+                                  fill="none"
                                   id="Path_8478" transform="translate(-401.554 -16.923)"/>
                             <path d="M409.582,26.873V16.651a.548.548,0,0,0-.548-.548h-2.869a.548.548,0,0,0-.548.548V26.873Z"
                                   data-name="Path 8479"
                                   fill="#badfed"
                                   id="Path_8479" transform="translate(-400.199 -16.103)"/>
-                            <g data-name="Group 6189" id="Group_6189" transform="translate(8.659 1.421)">
+                            <g data-name="Group 6189" id="Group_6189"
+                               transform="translate(8.659 1.421)">
                                 <path d="M417.231,18.711l-1.015.691c-.009.009-.022.025-.031.034l-.009.009-.029.039-5.048,10.3a1.044,1.044,0,0,0,.424,1.366l.226.125a.944.944,0,0,0,1.318-.408l4.922-10.05.117-.243,0-.007a.129.129,0,0,0,.011-.04l.008-.014c0-.013,0-.031,0-.044v-.23l-.027-1.1-.009-.67a.233.233,0,0,0-.061-.139.218.218,0,0,0-.058-.05c-.009-.009,0,0,0,0-.026-.01-.026,0-.049,0a.239.239,0,0,0-.122.038Zm-4.99,11.223a1.209,1.209,0,0,0,.469.171,1.059,1.059,0,0,0,.219.029l-.022.043-.232.472a.529.529,0,0,1-.314.267.517.517,0,0,1-.41-.043l-.227-.125a.568.568,0,0,1-.233-.752l.26-.518A1.6,1.6,0,0,0,412.241,29.934Z"
                                       data-name="Path 8480"
                                       fill="#6795b8"
@@ -218,114 +192,116 @@
                                   data-name="Path 8491"
                                   fill="#badfed"
                                   id="Path_8491" transform="translate(-396.889 -22.072)"/>
-                            <line data-name="Line 800" fill="none" id="Line_800" stroke="#fff"
-                                  stroke-linecap="round"
-                                  stroke-miterlimit="10" stroke-width="0.25" transform="translate(6.287 1.341)"
+                            <line data-name="Line 800" fill="none" id="Line_800"
+                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"
+                                  stroke-width="0.25" transform="translate(6.287 1.341)"
                                   x2="1.118"/>
-                            <line data-name="Line 801" fill="none" id="Line_801" stroke="#fff"
-                                  stroke-linecap="round"
-                                  stroke-miterlimit="10" stroke-width="0.25" transform="translate(6.287 3.416)"
+                            <line data-name="Line 801" fill="none" id="Line_801"
+                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"
+                                  stroke-width="0.25" transform="translate(6.287 3.416)"
                                   x2="1.118"/>
-                            <line data-name="Line 802" fill="none" id="Line_802" stroke="#fff"
-                                  stroke-linecap="round"
-                                  stroke-miterlimit="10" stroke-width="0.25" transform="translate(6.289 1.798)"
+                            <line data-name="Line 802" fill="none" id="Line_802"
+                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"
+                                  stroke-width="0.25" transform="translate(6.289 1.798)"
                                   x2="0.771"/>
-                            <line data-name="Line 803" fill="none" id="Line_803" stroke="#fff"
-                                  stroke-linecap="round"
-                                  stroke-miterlimit="10" stroke-width="0.25" transform="translate(6.289 2.202)"
+                            <line data-name="Line 803" fill="none" id="Line_803"
+                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"
+                                  stroke-width="0.25" transform="translate(6.289 2.202)"
                                   x2="0.771"/>
-                            <line data-name="Line 804" fill="none" id="Line_804" stroke="#fff"
-                                  stroke-linecap="round"
-                                  stroke-miterlimit="10" stroke-width="0.25" transform="translate(6.289 2.607)"
+                            <line data-name="Line 804" fill="none" id="Line_804"
+                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"
+                                  stroke-width="0.25" transform="translate(6.289 2.607)"
                                   x2="0.771"/>
-                            <line data-name="Line 805" fill="none" id="Line_805" stroke="#fff"
-                                  stroke-linecap="round"
-                                  stroke-miterlimit="10" stroke-width="0.25" transform="translate(6.289 3.012)"
+                            <line data-name="Line 805" fill="none" id="Line_805"
+                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"
+                                  stroke-width="0.25" transform="translate(6.289 3.012)"
                                   x2="0.771"/>
-                            <line data-name="Line 806" fill="none" id="Line_806" stroke="#fff"
-                                  stroke-linecap="round"
-                                  stroke-miterlimit="10" stroke-width="0.25" transform="translate(6.287 3.416)"
+                            <line data-name="Line 806" fill="none" id="Line_806"
+                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"
+                                  stroke-width="0.25" transform="translate(6.287 3.416)"
                                   x2="1.118"/>
-                            <line data-name="Line 807" fill="none" id="Line_807" stroke="#fff"
-                                  stroke-linecap="round"
-                                  stroke-miterlimit="10" stroke-width="0.25" transform="translate(6.287 5.344)"
+                            <line data-name="Line 807" fill="none" id="Line_807"
+                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"
+                                  stroke-width="0.25" transform="translate(6.287 5.344)"
                                   x2="1.118"/>
-                            <line data-name="Line 808" fill="none" id="Line_808" stroke="#fff"
-                                  stroke-linecap="round"
-                                  stroke-miterlimit="10" stroke-width="0.25" transform="translate(6.289 3.873)"
+                            <line data-name="Line 808" fill="none" id="Line_808"
+                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"
+                                  stroke-width="0.25" transform="translate(6.289 3.873)"
                                   x2="0.771"/>
-                            <line data-name="Line 809" fill="none" id="Line_809" stroke="#fff"
-                                  stroke-linecap="round"
-                                  stroke-miterlimit="10" stroke-width="0.25" transform="translate(6.289 4.278)"
+                            <line data-name="Line 809" fill="none" id="Line_809"
+                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"
+                                  stroke-width="0.25" transform="translate(6.289 4.278)"
                                   x2="0.771"/>
-                            <line data-name="Line 810" fill="none" id="Line_810" stroke="#fff"
-                                  stroke-linecap="round"
-                                  stroke-miterlimit="10" stroke-width="0.25" transform="translate(6.289 4.682)"
+                            <line data-name="Line 810" fill="none" id="Line_810"
+                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"
+                                  stroke-width="0.25" transform="translate(6.289 4.682)"
                                   x2="0.771"/>
-                            <line data-name="Line 811" fill="none" id="Line_811" stroke="#fff"
-                                  stroke-linecap="round"
-                                  stroke-miterlimit="10" stroke-width="0.25" transform="translate(6.289 5.087)"
+                            <line data-name="Line 811" fill="none" id="Line_811"
+                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"
+                                  stroke-width="0.25" transform="translate(6.289 5.087)"
                                   x2="0.771"/>
-                            <line data-name="Line 812" fill="none" id="Line_812" stroke="#fff"
-                                  stroke-linecap="round"
-                                  stroke-miterlimit="10" stroke-width="0.25" transform="translate(6.287 5.344)"
+                            <line data-name="Line 812" fill="none" id="Line_812"
+                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"
+                                  stroke-width="0.25" transform="translate(6.287 5.344)"
                                   x2="1.118"/>
-                            <line data-name="Line 813" fill="none" id="Line_813" stroke="#fff"
-                                  stroke-linecap="round"
-                                  stroke-miterlimit="10" stroke-width="0.25" transform="translate(6.287 7.363)"
+                            <line data-name="Line 813" fill="none" id="Line_813"
+                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"
+                                  stroke-width="0.25" transform="translate(6.287 7.363)"
                                   x2="1.118"/>
-                            <line data-name="Line 814" fill="none" id="Line_814" stroke="#fff"
-                                  stroke-linecap="round"
-                                  stroke-miterlimit="10" stroke-width="0.25" transform="translate(6.289 5.789)"
+                            <line data-name="Line 814" fill="none" id="Line_814"
+                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"
+                                  stroke-width="0.25" transform="translate(6.289 5.789)"
                                   x2="0.771"/>
-                            <line data-name="Line 815" fill="none" id="Line_815" stroke="#fff"
-                                  stroke-linecap="round"
-                                  stroke-miterlimit="10" stroke-width="0.25" transform="translate(6.289 6.182)"
+                            <line data-name="Line 815" fill="none" id="Line_815"
+                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"
+                                  stroke-width="0.25" transform="translate(6.289 6.182)"
                                   x2="0.771"/>
-                            <line data-name="Line 816" fill="none" id="Line_816" stroke="#fff"
-                                  stroke-linecap="round"
-                                  stroke-miterlimit="10" stroke-width="0.25" transform="translate(6.289 6.576)"
+                            <line data-name="Line 816" fill="none" id="Line_816"
+                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"
+                                  stroke-width="0.25" transform="translate(6.289 6.576)"
                                   x2="0.771"/>
-                            <line data-name="Line 817" fill="none" id="Line_817" stroke="#fff"
-                                  stroke-linecap="round"
-                                  stroke-miterlimit="10" stroke-width="0.25" transform="translate(6.289 6.97)"
+                            <line data-name="Line 817" fill="none" id="Line_817"
+                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"
+                                  stroke-width="0.25" transform="translate(6.289 6.97)"
                                   x2="0.771"/>
-                            <line data-name="Line 818" fill="none" id="Line_818" stroke="#fff"
-                                  stroke-linecap="round"
-                                  stroke-miterlimit="10" stroke-width="0.25" transform="translate(6.287 7.363)"
+                            <line data-name="Line 818" fill="none" id="Line_818"
+                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"
+                                  stroke-width="0.25" transform="translate(6.287 7.363)"
                                   x2="1.118"/>
-                            <line data-name="Line 819" fill="none" id="Line_819" stroke="#fff"
-                                  stroke-linecap="round"
-                                  stroke-miterlimit="10" stroke-width="0.25" transform="translate(6.287 9.383)"
+                            <line data-name="Line 819" fill="none" id="Line_819"
+                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"
+                                  stroke-width="0.25" transform="translate(6.287 9.383)"
                                   x2="1.118"/>
-                            <line data-name="Line 820" fill="none" id="Line_820" stroke="#fff"
-                                  stroke-linecap="round"
-                                  stroke-miterlimit="10" stroke-width="0.25" transform="translate(6.289 7.808)"
+                            <line data-name="Line 820" fill="none" id="Line_820"
+                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"
+                                  stroke-width="0.25" transform="translate(6.289 7.808)"
                                   x2="0.771"/>
-                            <line data-name="Line 821" fill="none" id="Line_821" stroke="#fff"
-                                  stroke-linecap="round"
-                                  stroke-miterlimit="10" stroke-width="0.25" transform="translate(6.289 8.202)"
+                            <line data-name="Line 821" fill="none" id="Line_821"
+                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"
+                                  stroke-width="0.25" transform="translate(6.289 8.202)"
                                   x2="0.771"/>
-                            <line data-name="Line 822" fill="none" id="Line_822" stroke="#fff"
-                                  stroke-linecap="round"
-                                  stroke-miterlimit="10" stroke-width="0.25" transform="translate(6.289 8.596)"
+                            <line data-name="Line 822" fill="none" id="Line_822"
+                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"
+                                  stroke-width="0.25" transform="translate(6.289 8.596)"
                                   x2="0.771"/>
-                            <line data-name="Line 823" fill="none" id="Line_823" stroke="#fff"
-                                  stroke-linecap="round"
-                                  stroke-miterlimit="10" stroke-width="0.25" transform="translate(6.289 8.989)"
+                            <line data-name="Line 823" fill="none" id="Line_823"
+                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"
+                                  stroke-width="0.25" transform="translate(6.289 8.989)"
                                   x2="0.771"/>
                         </g>
                     </g>
                     <g data-name="Group 8101" id="Group_8101" transform="translate(-1.874 -98)">
                         <g data-name="Group 8089" id="Group_8089" transform="translate(44.874 235)">
-                            <g filter="url(#Path_12243-2)" transform="matrix(1, 0, 0, 1, -38, -107)">
+                            <g filter="url(#Path_12243-2)"
+                               transform="matrix(1, 0, 0, 1, -38, -107)">
                                 <path d="M85.413,13.94s4.951-27.321,28.053-27.321,30.619,24.753,23.1,39.055-29.154,18.885-41.8,11.368S85.413,13.94,85.413,13.94Z"
                                       data-name="Path 12243"
                                       fill="#fff"
                                       id="Path_12243-7" transform="translate(-47.02 120.38)"/>
                             </g>
                         </g>
-                        <g data-name="Group 8074" id="Group_8074" transform="translate(61.234 251.614)">
+                        <g data-name="Group 8074" id="Group_8074"
+                           transform="translate(61.234 251.614)">
                             <g data-name="Group 8072" id="Group_8072" transform="translate(10.486)">
                                 <path d="M-20.032,18.181a.453.453,0,0,1,.163.109,1.66,1.66,0,0,1,.36,1.734,1.184,1.184,0,0,1-.381.461.535.535,0,0,1-.767-.144,1.775,1.775,0,0,1-.266-1.549C-20.826,18.451-20.385,18.047-20.032,18.181Z"
                                       data-name="Path 8870"
@@ -352,7 +328,8 @@
                                       fill="#dc6c85"
                                       id="Path_8875" transform="translate(26.517 -18.102)"/>
                             </g>
-                            <g data-name="Group 8073" id="Group_8073" transform="translate(0 6.112)">
+                            <g data-name="Group 8073" id="Group_8073"
+                               transform="translate(0 6.112)">
                                 <path d="M-27.887,29.724v.021a2.992,2.992,0,0,1-.115.844,1.54,1.54,0,0,1-1.344,1.219,3.023,3.023,0,0,0-1.427.615,1.971,1.971,0,0,0-.583,2.313c.292.656.667,1.282.99,1.927a5.724,5.724,0,0,1,.406,1.063,1.3,1.3,0,0,1-1.084,1.615,2.573,2.573,0,0,1-2.407-.646h-.01a2.132,2.132,0,0,1-.313-.365,8.728,8.728,0,0,1-1.281-2.751,15.7,15.7,0,0,1-.656-3.761,8.558,8.558,0,0,1,.3-2.521,3.631,3.631,0,0,1,1.865-2.292,4.364,4.364,0,0,1,3.667-.385,2.524,2.524,0,0,1,1.469,1.25A3.866,3.866,0,0,1-27.887,29.724Z"
                                       data-name="Path 8876"
                                       fill="#dc6c85"
@@ -381,23 +358,27 @@
                             <path d="M-28.645,30.621a2.249,2.249,0,0,0,.667-1.011,2.992,2.992,0,0,1-.115.844,1.54,1.54,0,0,1-1.344,1.219,3.023,3.023,0,0,0-1.427.615,1.971,1.971,0,0,0-.583,2.313c.292.656.667,1.282.99,1.927a5.724,5.724,0,0,1,.406,1.063,1.3,1.3,0,0,1-1.084,1.615,2.573,2.573,0,0,1-2.407-.646,2.4,2.4,0,0,0,2.657-.167c2.032-1.98-5.23-5.282-.271-6.866C-29.875,31.11-29.145,31.079-28.645,30.621Z"
                                   data-name="Path 24913"
                                   fill="#edbec9"
-                                  id="Path_24913" opacity="0.54" transform="translate(36.387 -17.675)"/>
+                                  id="Path_24913" opacity="0.54"
+                                  transform="translate(36.387 -17.675)"/>
                             <path d="M-20.872,28.813a1.955,1.955,0,0,0-.99-2.594A4,4,0,0,0-23,25.864a1.629,1.629,0,0,1-1.1-.573,1.228,1.228,0,0,0,1.6-.281c1.469-1.4,2.365-1.5,2.8-.886s.406,3.98-2.49,7.491a6.333,6.333,0,0,1,.427-1.031C-21.477,29.99-21.133,29.417-20.872,28.813Z"
                                   data-name="Path 24914"
                                   fill="#edbec9"
-                                  id="Path_24914" opacity="0.54" transform="translate(36.782 -17.92)"/>
+                                  id="Path_24914" opacity="0.54"
+                                  transform="translate(36.782 -17.92)"/>
                         </g>
                     </g>
                     <g data-name="Group 8110" id="Group_8110" transform="translate(-6 20)">
                         <g data-name="Group 8089" id="Group_8089-2" transform="translate(49 444)">
-                            <g filter="url(#Path_12243-3)" transform="matrix(1, 0, 0, 1, -38, -434)">
+                            <g filter="url(#Path_12243-3)"
+                               transform="matrix(1, 0, 0, 1, -38, -434)">
                                 <path d="M85.413,13.94s4.951-27.321,28.053-27.321,30.619,24.753,23.1,39.055-29.154,18.885-41.8,11.368S85.413,13.94,85.413,13.94Z"
                                       data-name="Path 12243"
                                       fill="#fff"
                                       id="Path_12243-8" transform="translate(-47.02 447.38)"/>
                             </g>
                         </g>
-                        <g data-name="Group 8106" id="Group_8106" transform="translate(69.683 462.087)">
+                        <g data-name="Group 8106" id="Group_8106"
+                           transform="translate(69.683 462.087)">
                             <g data-name="Group 6737" id="Group_6737">
                                 <path d="M90.352,32.213c0,.178-.025.327-.057.338a12.108,12.108,0,0,1-5.948,0c-.031-.007-.057-.149-.057-.327s.025-.327.057-.327a12.173,12.173,0,0,1,2.636-.363q-.08-2.672-.142-5.343-.117-4.567-.167-9.138a.632.632,0,0,1,.249-.523l.015-.008,1.052-.8-.107,9.661-.011.007c-.007,0-.017.008-.028.014l-.011.008q-.064,3.062-.16,6.111a12.244,12.244,0,0,1,2.622.36C90.327,31.889,90.352,32.039,90.352,32.213Z"
                                       data-name="Path 9425"
@@ -417,7 +398,8 @@
                                   fill="#fff"
                                   id="Path_12243-9" transform="translate(-47.02 234.38)"/>
                         </g>
-                        <g data-name="Group 8082" id="Group_8082" transform="translate(64.243 317.024)">
+                        <g data-name="Group 8082" id="Group_8082"
+                           transform="translate(64.243 317.024)">
                             <path d="M17.64,30.309c2.667-3.036,4.423-5.085,7.078-8.106a3.921,3.921,0,0,0-1.241.454c-2.592,1.64-4.539,1.873-5.333,4.1l-.957,2.666A.688.688,0,0,0,17.64,30.309Z"
                                   data-name="Path 9428"
                                   fill="#dc6c85"
@@ -477,7 +459,8 @@
                                 <path d="M15.724,33.409c.747-.1.9.413.9.413L28.943,19.353l-.521-.514-.35.408-12.3,14.094Z"
                                       data-name="Path 9442"
                                       fill="#edbec9"
-                                      id="Path_9442" opacity="0.54" transform="translate(-14.977 -17.195)"/>
+                                      id="Path_9442" opacity="0.54"
+                                      transform="translate(-14.977 -17.195)"/>
                                 <path d="M26.252,19.49A4.286,4.286,0,0,1,29.485,21.9l.528-.616.362-.425.244-.285a1.7,1.7,0,0,0-.239-2.455l-.366-.289a1.868,1.868,0,0,0-2.555.25l-.29.339-.377.439Z"
                                       data-name="Path 9443"
                                       fill="#b85a70"
@@ -491,14 +474,16 @@
                     </g>
                     <g data-name="Group 8109" id="Group_8109" transform="translate(-6 -15)">
                         <g data-name="Group 8089" id="Group_8089-3" transform="translate(49 372)">
-                            <g filter="url(#Path_12243-5)" transform="matrix(1, 0, 0, 1, -38, -327)">
+                            <g filter="url(#Path_12243-5)"
+                               transform="matrix(1, 0, 0, 1, -38, -327)">
                                 <path d="M85.413,13.94s4.951-27.321,28.053-27.321,30.619,24.753,23.1,39.055-29.154,18.885-41.8,11.368S85.413,13.94,85.413,13.94Z"
                                       data-name="Path 12243"
                                       fill="#fff"
                                       id="Path_12243-10" transform="translate(-47.02 340.38)"/>
                             </g>
                         </g>
-                        <g data-name="Group 8107" id="Group_8107" transform="translate(69.535 389.576)">
+                        <g data-name="Group 8107" id="Group_8107"
+                           transform="translate(69.535 389.576)">
                             <path d="M83.6,25.234l-.343-.436H78.869l-.338.5a.825.825,0,0,0,.59.764.1.1,0,0,1,.025.05c0,.013-.013.025-.025.038-.063.076-.176.139-.189.227-.025.139.126.2.189.3a1.13,1.13,0,0,0-.189.227c-.1.139-.063.252-.025.429a2.021,2.021,0,0,0,.29.681,2,2,0,0,0,1.2.845v.038c0,.013.013.025.013.038a.305.305,0,0,0,.277.24l.378.013.378-.013a.305.305,0,0,0,.277-.24c0-.013.013-.025.013-.038v-.038a2.025,2.025,0,0,0,1.488-1.525c.038-.176.076-.29-.025-.429A1.13,1.13,0,0,0,83,26.676c.063-.1.214-.164.189-.3-.013-.088-.126-.151-.189-.227-.013-.013-.025-.025-.025-.038a.1.1,0,0,1,.025-.05A.939.939,0,0,0,83.6,25.234Z"
                                   data-name="Path 9115"
                                   fill="#6795b8"
@@ -520,15 +505,18 @@
                                     <path d="M88.345,23.87A6.147,6.147,0,0,1,86.479,25.7a6.405,6.405,0,0,0-1.558,1.4,1.627,1.627,0,0,0-.377.846,1.266,1.266,0,0,1-.161.713.7.7,0,0,1-.576.277c-.567.025-3.139.025-3.681,0-.63-.038-.706-.29-.719-.832a1.646,1.646,0,0,0-.366-1.008,3.772,3.772,0,0,0-.794-.819c-3.038-2.572-3.971-5.471-2.849-8.849a7.029,7.029,0,0,1,6.568-4.942,8.462,8.462,0,0,1,1.135.038,6.9,6.9,0,0,1,5.471,3.757A8.1,8.1,0,0,1,88.345,23.87Z"
                                           data-name="Path 9119"
                                           fill="#7fd1d8"
-                                          id="Path_9119" transform="translate(-74.94 -12.482)"/>
+                                          id="Path_9119"
+                                          transform="translate(-74.94 -12.482)"/>
                                     <path d="M85.358,18.264a4.165,4.165,0,0,0-1.59-3.206,2.317,2.317,0,0,0-.415-.289l0,0a1.4,1.4,0,0,0-.243-.12,1.065,1.065,0,0,0-.349-.072.83.83,0,0,0-.56.2,1,1,0,0,0-.233,1.118,3.054,3.054,0,0,0,.708.91,2.028,2.028,0,0,1,.654.933,2.024,2.024,0,0,1-.1.724c-.136.542-.363,1.45.591,1.689a1.376,1.376,0,0,0,.334.044,1.1,1.1,0,0,0,.2-.018.973.973,0,0,0,.431-.2A2.417,2.417,0,0,0,85.358,18.264Z"
                                           data-name="Path 9120"
                                           fill="#badfed"
-                                          id="Path_9120" transform="translate(-73.129 -11.937)"/>
+                                          id="Path_9120"
+                                          transform="translate(-73.129 -11.937)"/>
                                     <path d="M84.754,20.336a.972.972,0,0,0-.639-.61h0a1.09,1.09,0,0,0-1.3.538A.812.812,0,0,0,83,21.359a1.07,1.07,0,0,0,.862.211,1.185,1.185,0,0,0,.577-.29l.01-.008c.013-.011.021-.024.034-.035a.968.968,0,0,0,.306-.724A.805.805,0,0,0,84.754,20.336Z"
                                           data-name="Path 9121"
                                           fill="#badfed"
-                                          id="Path_9121" transform="translate(-72.923 -10.611)"/>
+                                          id="Path_9121"
+                                          transform="translate(-72.923 -10.611)"/>
                                 </g>
                             </g>
                             <path d="M83.343,25.448a2.737,2.737,0,0,1-2.124.671c-1.537-.021-2.244-.221-2.618-.706S83.343,25.448,83.343,25.448Z"
@@ -550,13 +538,13 @@
                         <tspan x="0" y="0">მინიშნება</tspan>
                     </text>
                     <text data-name="შუალედური
-                  დავალება" fill="#c5cbcd" font-family="ALKSanet, ALK Sanet" font-size="12" id="შუალედური_დავალება"
+                დავალება" fill="#c5cbcd" font-family="ALKSanet, ALK Sanet" font-size="12" id="შუალედური_დავალება"
                           transform="translate(70 549)">
                         <tspan x="-35.344" y="0">შუალედური</tspan>
                         <tspan x="-30.636" y="12">დავალება</tspan>
                     </text>
                     <text data-name="კომპლექსური
-                  დავალება" fill="#c5cbcd" font-family="ALKSanet, ALK Sanet" font-size="12" id="კომპლექსური_დავალება"
+                დავალება" fill="#c5cbcd" font-family="ALKSanet, ALK Sanet" font-size="12" id="კომპლექსური_დავალება"
                           transform="translate(70 668)">
                         <tspan x="-42.015" y="0">კომპლექსური</tspan>
                         <tspan x="-30.636" y="12">დავალება</tspan>
@@ -564,119 +552,32 @@
                 </g>
             </svg>
         </div>
-        <div class="row mt-12vh">
-              <div class="newDesign_subject_question_item pb-3">
-                    <img alt="img" class="newDesign_subject_question_item-img"
-                         src="../../img/icons/newDesign_btn-yellow.svg">
-                    <p class="newDesign_subject_question_item-title">დააჭირე თითოეულ მცენარეს და დაათვალიერე. შემდეგ, გააკეთე მცენარეთა <a href="25-1-1.html" class="a-blue">კლასიფიკაცია</a>: გადაიტანე თითოეული მცენარე შესაბამის გრაფაში იმის მიხედვით, რომელია მარადმწვანე და რომელი - ფოთოლმცვენი.</p>
-              </div>
-            <div class="col-11 m-auto">
-                <div class="col-10">
-                    <div class="row">
-                        <div class="col-5">
-                            <div class="row">
-                                <div class="col-6 pr-0">
-                                    <div class="forest_colors_game-container forest_colors_game-container-yellow mb-2">
-                                        <h3 class="forest_colors_game-container-text">ფერს იცვლის შემოდგომაზე</h3>
-                                    </div>
-                                </div>
-                                <div class="col-6 pl-0">
-                                    <div class="forest_colors_game-container forest_colors_game-container-green mb-2">
-                                        <h3 class="forest_colors_game-container-text">მარადმწვანე</h3>
-                                    </div>
-                                </div>
-                                <div class="col-6 pr-0">
-                                    <div class="forest_colors_game-container-large border-line forest_colors_game-container-yellow image-box_game yellow_box">
-
-                                    </div>
-                                </div>
-                                <div class="col-6 pl-0">
-                                    <div class="forest_colors_game-container-large border-line forest_colors_game-container-green image-box_game green_box" >
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-7">
-                            <div class="row createForest_game-img-container">
-                                <div class="col-3 forest-colors_games-box mb-4">
-                                    <a class="d-flex justify-content-center"  href="./25-1.html" id="kedari">
-                                        <img alt="kedari" class="tree" src="../../img/gakvetilebi/buneba/forest_colours/Games/kedari.svg">
-                                    </a>
-                                    <p class="createForest_game-text pDarkMode">კედარი</p>
-                                </div>
-                                <div class="col-3 forest-colors_games-box mb-4">
-                                    <a class="d-flex justify-content-center" href="./25-2.html" id="tela">
-                                        <img alt="tela" class="tree" src="../../img/gakvetilebi/buneba/forest_colours/Games/tela.svg">
-                                    </a>
-                                    <p class="createForest_game-text pDarkMode">თელა</p>
-                                </div>
-                                <div class="col-3 forest-colors_games-box mb-4">
-                                    <a class="d-flex justify-content-center" href="./25-3.html" id="muxa">
-                                        <img alt="muxa" class="tree" src="../../img/gakvetilebi/buneba/forest_colours/Games/muxa.svg">
-                                    </a>
-                                    <p class="createForest_game-text pDarkMode">მუხა</p>
-                                </div>
-                                <div class="col-3 forest-colors_games-box mb-4">
-                                    <a class="d-flex justify-content-center" href="./25-4.html" id="nadzvi">
-                                        <img alt="nadzvi" class="tree" src="../../img/gakvetilebi/buneba/forest_colours/Games/nadzvi.svg">
-                                    </a>
-                                    <p class="createForest_game-text pDarkMode">ნაძვი</p>
-                                </div>
-                                <div class="col-3 forest-colors_games-box mb-4">
-                                    <a class="d-flex justify-content-center" href="./25-5.html" id="fichvi">
-                                        <img alt="fichvi" class="tree" src="../../img/gakvetilebi/buneba/forest_colours/Games/fiwvi.svg">
-                                    </a>
-                                    <p class="createForest_game-text pDarkMode">ფიჭვი</p>
-                                </div>
-                                <div class="col-3 forest-colors_games-box mb-4">
-                                    <a class="d-flex justify-content-center" href="./25-6.html" id="txili">
-                                        <img alt="txili" class="tree" src="../../img/gakvetilebi/buneba/forest_colours/Games/txili.svg">
-                                    </a>
-                                    <p class="createForest_game-text pDarkMode">თხილი</p>
-                                </div>
-                                <div class="col-3 forest-colors_games-box mb-4">
-                                    <a class="d-flex justify-content-center" href="./25-7.html" id="kuneli">
-                                        <img alt="kuneli" class="tree" src="../../img/gakvetilebi/buneba/forest_colours/Games/kuneli.svg">
-                                    </a>
-                                    <p class="createForest_game-text pDarkMode">კუნელი</p>
-                                </div>
-                                <div class="col-3 forest-colors_games-box mb-4">
-                                    <a class="d-flex justify-content-center" href="./25-8.html" id="shqeri">
-                                        <img alt="shqeri" class="tree" src="../../img/gakvetilebi/buneba/forest_colours/Games/shqeri.svg">
-                                    </a>
-                                    <p class="createForest_game-text pDarkMode">შქერი</p>
-                                </div>
-                                <div class="col-3 forest-colors_games-box mb-4">
-                                    <a class="d-flex justify-content-center" href="./25-9.html" id="cxratyava">
-                                        <img alt="cxratyava" class="tree" id src="../../img/gakvetilebi/buneba/forest_colours/Games/cxratyava.svg">
-                                    </a>
-                                    <p class="createForest_game-text pDarkMode">ცხრატყავა</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="flex flex-end column align-items-end z-index reload_game_wrapper">
-                <button class="reset__btn" id="reset">თავიდან სცადე</button>
-                <button class="completed__btn" id="check">დასრულება</button>
-            </div>
-
-            <div class="our__pagination flex">
-                <a class="pagination__prev__btn" href="#">
-                    <img alt="" src="../../img/icons/chevron-left-icon.svg" style="transform: rotate(180deg)">
-                </a>
-
-                <div class="flex align-items-center" id="pagination"></div>
-
-                <a class="pagination__next__btn" href="#">
-                    <img alt="" src="../../img/icons/chevron-left-icon.svg">
-                </a>
+        <div class="row newDesign_hintPage ml-10vh">
+            <div class=" col-10 newDesign_subject_question_item mb-5vh">
+                <img alt="img" class="newDesign_subject_question_item-img"
+                     src="../../../img/icons/newDesign_btn-yellow.svg">
+                <p class="newDesign_subject_question_item-title">
+                    ფანაჯარა — შემოსაზღვრული მართკუთხა სივრცეა კომპუტერის ეკრანზე, რომლითაც გრაფიკული ინტერფეისი წარმოადგენს პროგრამებს. ფანჯარას გააჩნია თავისი „მენიუს“ ზოლი  და  მოქმედებების ინსტრუმენტების პანელი. 
+                </p>
             </div>
         </div>
+            </div>
+            <div class="col-10 d-flex m-auto class_4_5-13-1 justify-content-center">
+                    <img alt="img" 
+                        src="../../../img/gakvetilebi/Computer-Science/Class-4/UI-5/cs-4-5-13-1.png">
+            </div>
+
+        </div>
+        <!-- <div class="our__pagination flex">
+            <div class="flex align-items-center" id="pagination">
+                <div class="pagination__item">
+                    <a class="current__pagination" href="#">1</a>
+                </div>
+            </div>
+        </div> -->
     </section>
+</div>
+</section>
 </div>
 
 
@@ -685,20 +586,17 @@
     <app-bot></app-bot>
 </div>
 
-
-<script src="../../js/libraries/jquery-3.4.1.min.js"></script>
-<script src="../../js/detectdevice.js"></script>
-<script src="../../js/libraries/jquery.magnific-popup.min.js"></script>
-<script src="../../js/libraries/jquery-ui.min.js"></script>
-<script src="../../js/Pagination.js"></script>
-<script src="./js/25.js"></script>
-
+<script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
+<script src="../../../js/detectdevice.js"></script>
+<script src="../../../js/libraries/jquery.magnific-popup.min.js"></script>
 
 
 <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
-    <script src="../../New-header-vue/vis.js"></script>
-    <script src="../../New-header-vue/app.js"></script>
-<script src="../../Vue-chatBot/botApp.js"></script>
-<script src="../../js/bot.js"></script>
+<script src="../../../Vue-chatBot/botApp.js"></script>
+<script src="../../../New-header-vue/app.js"></script>
+<script src="../../../js/bot.js"></script>
+
+
 </body>
+
 </html>

@@ -10927,6 +10927,10 @@ section .arrow_up_down_downArrow img {
   margin-top: 14.48vh;
 }
 
+.forest_colors-25-1-1 {
+  height: 53.7vh;
+}
+
 .n-1366-03-190-leptop {
   height: 36.06vh;
   margin-left: 1.46vh;
@@ -30057,7 +30061,7 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .The_living_world-img_box_4 {
-  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-238.svg");
+  background-image: url("../img/gakvetilebi/buneba/lesson4/1366-238.png");
   background-position: center bottom;
 }
 
@@ -30436,6 +30440,14 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   position: absolute;
   right: 42%;
   bottom: -5%;
+}
+
+.title-img-51 {
+  height: 68vh;
+}
+
+.invisible_forces-55 {
+  height: 18vh;
 }
 
 .cs-4-9-1-img {
@@ -38893,6 +38905,10 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .class_4_5-10-1 img {
   height: 100%;
+}
+
+.class_4_5-13-1 img {
+  height: 60vh;
 }
 
 .background-cs-4-5 {
@@ -50137,13 +50153,10 @@ tr td:first-child {
   opacity: 1;
 }
 
-.choose_music_10-img_7 {
-  height: 35.4vh;
-  max-height: 247px;
-}
-
 .choose_music_10-img_7 img {
-  height: 100%;
+  width: 18vw;
+  height: 35.4vh;
+  border-radius: 2vh;
 }
 
 .choose_music_10-circle_7 {
@@ -50171,13 +50184,10 @@ tr td:first-child {
   height: 100%;
 }
 
-.choose_music_10-img_9 {
-  height: 39.5vh;
-  max-height: 276px;
-}
-
 .choose_music_10-img_9 img {
-  height: 100%;
+  width: 18vw;
+  border-radius: 2vh;
+  height: 39.5vh;
 }
 
 .choose_music_10-circle_9 {
@@ -50197,6 +50207,7 @@ tr td:first-child {
 
 .music-new-10-div-10-img {
   height: 38.41vh;
+  border-radius: 2vh;
   position: relative;
 }
 
@@ -50220,6 +50231,12 @@ tr td:first-child {
 
 .music-new-10-div img {
   height: 100%;
+}
+
+.music_10-img-10 {
+  width: 18vw;
+  height: 38.41vh;
+  border-radius: 2vh;
 }
 
 .game-music-10 img {
@@ -55178,6 +55195,7 @@ input:checked + .slider:before {
 #tableOfContentTwo.tableOfContentTwo-scroll::-webkit-scrollbar-thumb:hover {
   background: #69bac2;
 }
+/*# sourceMappingURL=new-style.css.map */
 /*# sourceMappingURL=new-style.css.map */
 
 .pagination__dot_black.active {
