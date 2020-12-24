@@ -55204,11 +55204,3 @@ input:checked + .slider:before {
 #tableOfContentTwo.tableOfContentTwo-scroll::-webkit-scrollbar-thumb:hover {
   background: #69bac2;
 }
-
-.pagination__dot_black.active {
-  background-color: #000;
-  color: #ffffff !important;
-}
-#app .class-pagination .dot_black:hover {
-  background: #000;
-}
