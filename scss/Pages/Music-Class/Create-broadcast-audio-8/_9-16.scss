@@ -3,17 +3,18 @@
         height: 48.5vh!important;
     }
     &-img_10_title {
+        font-size: 14px;
         margin-bottom: 0!important;
     }
     &-img_10_cont {
         background-image: url('../img/gakvetilebi/Music-class/Create-broadcast-audio-8/music-8-10-rect.svg');
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: 100% 100%;
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 24.2vh;
-        height: 4.8vh;
+        width: 30.2vh;
+        height: 5.5vh;
     }
     &-check_box {
         height: 2.6vh;
@@ -92,4 +93,7 @@
            height: 54.6vh; 
         } 
     }
+}
+.roload_game-margin {
+    margin-right: -2vh;
 }
