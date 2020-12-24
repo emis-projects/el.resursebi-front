@@ -3,6 +3,7 @@ function computerGames() {
     var mydrag = document.querySelectorAll('.myDrag');
 
     var notCloned = false;
+    var isImage = false;
 
     var completedBtn = document.getElementById('completedGame');
     var resetBtn = document.getElementById('resetBtn');
@@ -35,6 +36,11 @@ function computerGames() {
         if(e.target.parentElement.classList.contains('myDrag')) {
             notCloned = true;
         }
+
+        if(e.target.getAttribute('data-image')) {
+            isImage = true
+        }
+
         setTimeout(() => {
             e.target.className += " draggedElement"
         }, 0);
@@ -42,9 +48,10 @@ function computerGames() {
 
 
     this.dragEnd = (e) => {
-        
         var elClassName = e.target.getAttribute('data-class')
         e.target.className = elClassName;
+        isImage = false
+        notCloned = false;
     }
 
     var myArray = [];
@@ -58,27 +65,39 @@ function computerGames() {
         myDragArray.push(element);
     });
 
-    var clone1;
-
     
     this.dragDrop = (e) => { 
         e.preventDefault();
 
         var drag = document.querySelector('.draggedElement')
 
-        
+        if(e.target.classList.contains('DragGame--childs1')) {
+            var clone =  drag.cloneNode(true);
+            e.target.parentElement.appendChild(clone);
+            $(clone).removeClass('draggedElement')
+            clone1 = e.target.parentElement.appendChild(clone);
 
-        if(drag && e.target.classList.contains('myDrag')){
-            if(!notCloned) {
-                var clone =  drag.cloneNode(true);
-                e.target.appendChild(clone);
-                $(clone).removeClass('draggedElement')
-                clone1 = e.target.appendChild(clone);
-            } else {
-                e.target.appendChild(drag);
-                notCloned = false;
-            }
+        } else if(e.target.classList.contains('myDrag') && notCloned) {
+            e.target.appendChild(document.querySelector('.draggedElement'));
+
+        } else {
+            var clone =  drag.cloneNode(true);
+            e.target.appendChild(clone);
+            $(clone).removeClass('draggedElement')
+            clone1 = e.target.appendChild(clone);
+
         }
+
+        if(e.target.classList.contains('DragGame--childs1') && !isImage) {
+            e.target.firstElementChild.parentElement.remove()
+            
+        } else if(e.target.classList.contains('DragGame--childs1') && isImage) {
+            e.target.remove()
+        }
+
+        isImage = false
+        notCloned = false;
+
     }
 
     this.successPage = () => {

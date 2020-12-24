@@ -5425,7 +5425,6 @@ input:checked + .slider:before {
 .bot_header_black:after {
   background: black !important;
 }
-/*# sourceMappingURL=components_style.css.map */
 
 .pagination__dot_black.active {
   background-color: #000;
