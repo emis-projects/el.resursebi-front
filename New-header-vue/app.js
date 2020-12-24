@@ -468,6 +468,36 @@ Vue.component("appMenu", {
         $(".background-cs-4-16-27").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-4/How-to-form-text-16/cs-4-16-27darkMode.svg)");
         $(".background-cs-4-16-28").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-4/How-to-form-text-16/cs-4-16-28darkMode.svg)");
         $(".background-cs-4-16-29").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-4/How-to-form-text-16/cs-4-16-29darkMode.svg)");
+        $(".background-cs-4-3-19").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-4/Predicting-behavior-3/cs-4-3-19-imgdarkMode.svg)");
+        $(".background-cs-4-3-20").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-4/Predicting-behavior-3/cs-4-3-20-imgdarkMode.svg)");
+        $(".background-cs-4-3-21").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-4/Predicting-behavior-3/cs-4-3-21-imgdarkMode.svg)");
+        $(".background-cs-4-3-22").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-4/Predicting-behavior-3/cs-4-3-22-imgdarkMode.svg)");
+        $(".Class_4-C_4_2_28").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-4/programing-mistakes-2/C-4-2-28darkMode.svg)");
+        $(".Class_4-C_4_2_30").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-4/programing-mistakes-2/C-4-2-30darkMode.svg)");
+        $(".Class_4-C_4_2_31").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-4/programing-mistakes-2/C-4-2-31darkMode.svg)");
+        $(".background-cs-4-11-22").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-4/Sending-email-11/cs-4-11-22-imgdarkMode.svg)");
+        $(".background-cs-4-11-23").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-4/Sending-email-11/cs-4-11-23-imgdarkMode.svg)");
+        $(".background-cs-4-11-24").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-4/Sending-email-11/cs-4-11-24-imgdarkMode.svg)");
+        $(".background-cs-4-11-25").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-4/Sending-email-11/cs-4-11-25-imgdarkMode.svg)");
+        $(".Class_4_9-img_21").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-4/template-and-table-9/C-4-9-21darkMode.svg)");
+        $(".Class_4_9-img_22").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-4/template-and-table-9/C-4-9-22darkMode.svg)");
+        $(".Class_4_9-img_23").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-4/template-and-table-9/C-4-9-23darkMode.svg)");
+        $(".Class_4_9-img_24").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-4/template-and-table-9/C-4-9-24darkMode.svg)");
+        $(".background-cs-4-7-23").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-4/Text-editor-&-tools-7/cs-4-7-23-imgdarkMode.svg)");
+        $(".background-cs-4-7-24").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-4/Text-editor-&-tools-7/cs-4-7-24-imgdarkMode.svg)");
+        $(".background-cs-4-7-25").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-4/Text-editor-&-tools-7/cs-4-7-25-imgdarkMode.svg)");
+        $(".background-cs-4-7-26").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-4/Text-editor-&-tools-7/cs-4-7-26-imgdarkMode.svg)");
+        $(".background-cs-4-10-22").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-4/text-editor-10/cs-4-10-22-imgdarkMode.svg)");
+        $(".background-cs-4-10-24").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-4/text-editor-10/cs-4-10-24-imgdarkMode.svg)");
+        $(".background-cs-4-10-25").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-4/text-editor-10/cs-4-10-25-imgdarkMode.svg)");
+        $(".background-cs-4-5-23").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-4/UI-5/cs-4-5-23darkMode.svg)");
+        $(".class_4_15-bg_19").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-4/Walking-in-internet-15/C-4-15-19darkMode.svg)");
+        $(".class_4_15-bg_20").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-4/Walking-in-internet-15/C-4-15-20darkMode.svg)");
+        $(".class_4_15-bg_22").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-4/Walking-in-internet-15/C-4-15-22darkMode.svg)");
+        $(".background-cs-4-12-18").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-4/What-is-information-12/cs-4-12-18darkMode.svg)");
+        $(".background-cs-4-12-19").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-4/What-is-information-12/cs-4-12-19darkMode.svg)");
+        $(".background-cs-4-12-20").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-4/What-is-information-12/cs-4-12-20darkMode.svg)");
+        $(".background-cs-4-12-21").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-4/What-is-information-12/cs-4-12-21darkMode.svg)");
         
         
         
@@ -943,10 +973,40 @@ Vue.component("appMenu", {
         $(".background-cs-4-16-27").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-4/How-to-form-text-16/cs-4-16-27darkMode.svg)");
         $(".background-cs-4-16-28").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-4/How-to-form-text-16/cs-4-16-28darkMode.svg)");
         $(".background-cs-4-16-29").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-4/How-to-form-text-16/cs-4-16-29darkMode.svg)");
+        $(".background-cs-4-3-19").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-4/Predicting-behavior-3/cs-4-3-19-imgdarkMode.svg)");
+        $(".background-cs-4-3-20").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-4/Predicting-behavior-3/cs-4-3-20-imgdarkMode.svg)");
+        $(".background-cs-4-3-21").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-4/Predicting-behavior-3/cs-4-3-21-imgdarkMode.svg)");
+        $(".background-cs-4-3-22").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-4/Predicting-behavior-3/cs-4-3-22-imgdarkMode.svg)");
+        $(".Class_4-C_4_2_28").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-4/programing-mistakes-2/C-4-2-28darkMode.svg)");
+        $(".Class_4-C_4_2_30").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-4/programing-mistakes-2/C-4-2-30darkMode.svg)");
+        $(".Class_4-C_4_2_31").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-4/programing-mistakes-2/C-4-2-31darkMode.svg)");
+        $(".background-cs-4-11-22").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-4/Sending-email-11/cs-4-11-22-imgdarkMode.svg)");
+        $(".background-cs-4-11-23").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-4/Sending-email-11/cs-4-11-23-imgdarkMode.svg)");
+        $(".background-cs-4-11-24").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-4/Sending-email-11/cs-4-11-24-imgdarkMode.svg)");
+        $(".background-cs-4-11-25").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-4/Sending-email-11/cs-4-11-25-imgdarkMode.svg)");
+        $(".Class_4_9-img_21").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-4/template-and-table-9/C-4-9-21darkMode.svg)");
+        $(".Class_4_9-img_22").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-4/template-and-table-9/C-4-9-22darkMode.svg)");
+        $(".Class_4_9-img_23").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-4/template-and-table-9/C-4-9-23darkMode.svg)");
+        $(".Class_4_9-img_24").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-4/template-and-table-9/C-4-9-24darkMode.svg)");
+        $(".background-cs-4-7-23").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-4/Text-editor-&-tools-7/cs-4-7-23-imgdarkMode.svg)");
+        $(".background-cs-4-7-24").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-4/Text-editor-&-tools-7/cs-4-7-24-imgdarkMode.svg)");
+        $(".background-cs-4-7-25").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-4/Text-editor-&-tools-7/cs-4-7-25-imgdarkMode.svg)");
+        $(".background-cs-4-7-26").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-4/Text-editor-&-tools-7/cs-4-7-26-imgdarkMode.svg)");
+        $(".background-cs-4-10-22").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-4/text-editor-10/cs-4-10-22-imgdarkMode.svg)");
+        $(".background-cs-4-10-24").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-4/text-editor-10/cs-4-10-24-imgdarkMode.svg)");
+        $(".background-cs-4-10-25").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-4/text-editor-10/cs-4-10-25-imgdarkMode.svg)");
+        $(".background-cs-4-5-23").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-4/UI-5/cs-4-5-23darkMode.svg)");
+        $(".class_4_15-bg_19").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-4/Walking-in-internet-15/C-4-15-19darkMode.svg)");
+        $(".class_4_15-bg_20").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-4/Walking-in-internet-15/C-4-15-20darkMode.svg)");
+        $(".class_4_15-bg_22").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-4/Walking-in-internet-15/C-4-15-22darkMode.svg)");
+        $(".background-cs-4-12-18").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-4/What-is-information-12/cs-4-12-18darkMode.svg)");
+        $(".background-cs-4-12-19").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-4/What-is-information-12/cs-4-12-19darkMode.svg)");
+        $(".background-cs-4-12-20").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-4/What-is-information-12/cs-4-12-20darkMode.svg)");
+        $(".background-cs-4-12-21").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-4/What-is-information-12/cs-4-12-21darkMode.svg)");
         
         
 
-
+        
         
         
         

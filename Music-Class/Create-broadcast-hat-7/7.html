@@ -28,6 +28,35 @@
 
         gtag('config', 'UA-155006442-1');
     </script>
+    <style>
+                .memory-card {
+            position: relative;
+            height: 19.8vw;
+            width: 19.8vw;
+            max-height: 150px;
+            max-width: 150px;
+            transform: scale(1);
+            transform-style: preserve-3d;
+            transition: transform 0.5s;
+        }
+        .memory-card:active {
+            transform: scale(0.97);
+            transition: transform 0.2s;
+        }
+        .memory-card.flip {
+            transform: rotateY(180deg);
+        }
+        .memory-card .front-face, .memory-card .back-face {
+            height: 100%;
+            width: 100%;
+            padding: 5px;
+            position: absolute;
+            backface-visibility: hidden;
+        }
+        .memory-card .front-face {
+            transform: rotateY(180deg);
+        }
+    </style>
 </head>
 
 <body>
