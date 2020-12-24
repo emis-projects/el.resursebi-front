@@ -1,8 +1,13 @@
 .cs-6-23{
+    &-contetn-box {
+        z-index: 99;
+    }
     &-15-img{
         height: 51.04vh;
         position: relative;
-        top: -13vh;
+        top: -17vh;
+        right: -1.8vh;
+        z-index: 1;
     }
     &-15-1-img{
         height: 45.70vh;
