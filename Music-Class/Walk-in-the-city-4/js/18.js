@@ -7,142 +7,148 @@ function handleLoadComplete(event) {
 
 function handleLoadstop(event) {
     createjs.Sound.stop("sound");
+
 }
 
-
-function game() {
-    this.answersArray = '';
-    this.error = true;
-
-
-    let listenBtn = document.querySelectorAll('.listen--btn');
-    let dragElement1 = document.querySelectorAll('.DragGame—childs1');
-    let dragElement2 = document.querySelectorAll('.DragGame—childs2');
-    let correctAnswer = document.getElementById('correctAnswer');
-    const completeBtn = document.getElementById('completedGame');
-    const resetBtn = document.getElementById('resetBtn');
-    let numberImages = document.querySelectorAll('.images--parent .DragGame—childs2');
+document.querySelectorAll('.listen--btn').forEach(w => {
+    w.addEventListener('click', (e) => {
+        handleLoadstop()
+        createjs.Sound.registerSound({ src: `${e.target.getAttribute('data-voice')}`, id: "sound" });
+        handleLoadComplete()
+    })
+})
 
 
 
-    // listeners
-    completeBtn.addEventListener('click', () => this.completGame());
-    resetBtn.addEventListener('click', () => this.init());
+function musicGames() {
+    var DragGameChilds1 = document.querySelectorAll('.DragGame--childs1');
+    var mydrag = document.querySelectorAll('.myDrag');
+    var DragGameResetParent = document.querySelector('.DragGameResetParent');
 
-    $(dragElement2).on('dragstart', (e) => this.dragStart(e));
-    $(dragElement2).on('dragend', (e) => this.dragEnd(e));
+    var completedBtn = document.getElementById('completedGame');
+    var resetBtn = document.getElementById('resetBtn');
 
 
-    // Loop through empty boxes and add listeners
-    for (const drag of dragElement1) {
+    $(DragGameChilds1).on('dragstart', (e) => this.dragStart(e));
+    $(DragGameChilds1).on('dragend', (e) => this.dragEnd(e));
+
+
+    for (const drag of mydrag) {
         drag.addEventListener('dragover', (e) => this.dragOver(e));
         drag.addEventListener('drop', (e) => this.dragDrop(e));
     }
 
-
-    var dragElementMyArray = [];
-    for(var i = 0; i < numberImages.length; i++ ){
-        dragElementMyArray.push(numberImages[i])
-    }
-
-
-
-
-    var dragElement2MyArray = [];
-    for(var i = 0; i < dragElement2.length; i++ ){
-        dragElement2MyArray.push(dragElement2[i])
-    }
-
-    $(listenBtn).click((e) => {
-        handleLoadstop()
-        createjs.Sound.registerSound({src:`${e.target.getAttribute('data-voice')}`, id:"sound"});
-        handleLoadComplete()
-    })
-
-
     document.addEventListener('DOMContentLoaded', () => {
-        dragElement2MyArray.forEach(w => {
+        mydrag.forEach(w => {
             w.setAttribute('data-class', w.getAttribute('class'))
         })
-
-        el = document.querySelector('.images--parent').cloneNode(true)
+        DragGameChilds1.forEach(w => {
+            w.setAttribute('data-class', w.getAttribute('class'))
+        });
     })
-    
 
-
-    // Drag Functions    
     this.dragOver = (e) => {
         e.preventDefault();
     }
 
-    // drag start 
     this.dragStart = (e) => {
         setTimeout(() => {
-            e.target.className = "draggedElement"
+            e.target.className += " draggedElement"
         }, 0);
     }
 
-
-    // drag end
-    this.dragEnd = e => {
-        let elClassName = e.target.getAttribute('data-class');
+    this.dragEnd = (e) => {
+        var elClassName = e.target.getAttribute('data-class')
         e.target.className = elClassName;
     }
-    
-
-    this.dragDrop = e => { e.preventDefault();
-
-        e.target.appendChild(document.querySelector('.draggedElement'));
-
-        let value = this.answersArray.concat(e.target.getAttribute('data-index'))
-
-        this.answersArray = value
-    }
 
 
+    var myArray = [];
+    DragGameChilds1.forEach(element => {
+        myArray.push(element);
+    });
 
-    this.checkGameAnswers = () => {
-        if(correctAnswer.getAttribute('data-correct') == this.answersArray){
-            this.checkWhichPageIs()
+    var myDragArray = [];
 
-        } else {
-            $('.DragGame—childs1').attr('style', "border: 3px solid #dc6c85")
+    mydrag.forEach(element => {
+        myDragArray.push(element);
+    });
+
+
+    this.dragDrop = (e) => { e.preventDefault();
+        var drag = document.querySelector('.draggedElement')
+        if(!(e.target.firstElementChild)){
+            if (e.target.classList.contains('myDrag')) {
+                e.target.appendChild(drag)
+            }
         }
-    }
-
-    this.checkWhichPageIs = () => {
-        let myLocation = location.pathname;
-
-        if(myLocation == "/Music-Class/Walk-in-the-city-4/18.html" || myLocation == "/el.resursebi-front/Music-Class/Walk-in-the-city-4/18.html"){
-            location.href = "game-success-18.html"
-            
-        } else if (myLocation == "/Music-Class/Walk-in-the-city-4/19.html" || myLocation == "/el.resursebi-front/Music-Class/Walk-in-the-city-4/19.html"){
-            location.href = "game-success-19.html"
-        } 
+        // drag.style += "height: 100%; height: 100%; top: initial; left: initial; right: initial; bottom: initial; width: 100%";
+        // drag.setAttribute('style', "height: 10%;")
     }
 
 
-    this.init = () => {
-        this.answersArray = '';
+    this.checkEveryElement = (element) => element.getAttribute('data-place') == element.parentElement.getAttribute('data-place');
 
-        $('.DragGame—childs1').removeAttr('style');
+    this.successPage = () => {
+        let el = myArray.every(this.checkEveryElement);
+        if (el) {
+            if (window.location.href.includes("18.html")) {
+                location.href = 'game-success-18.html';
+            }
+            if (window.location.href.includes("19.html")) {
+                location.href = 'game-success-19.html';
+            }
+        }
+        else {
+            this.errorPage();
+        }
+        this.errorPage();
 
-        document.querySelector('.images--parent').innerHTML = "";
-
-        dragElementMyArray.forEach(w => {
-            document.querySelector('.images--parent').append(w)
-        })
-
-        // stop voice 
-        createjs.Sound.stop("sound");
     }
-    
+
+
+    this.errorPage = () => {
+        myArray.forEach(element => {
+            console.log(element.parentElement)
+            if (element.getAttribute('data-place') == element.parentElement.getAttribute('data-place')) {
+                element.parentElement.style.borderColor = "#a1dd6f";
+
+            }
+            else if (element.parentElement.classList.contains('myDrag')) {
+                element.parentElement.style.borderColor = "#dc6c85";
+            }
+
+
+        });
+    }
 
     this.completGame = () => {
-        this.checkGameAnswers()
+        this.successPage();
+        completedBtn.setAttribute('disabled', 'true');
     }
+
+
+    this.init = (e) => {
+        myArray.forEach(element => {
+            //   document.getElementById(element.getAttribute("data-place"))
+            //     .insertBefore(element, document.getElementById(element.getAttribute("data-place")).firstChild);
+            if (element.getAttribute("data-end") == "1") {
+                DragGameResetParent.appendChild(element)
+            }
+        });
+        myDragArray.forEach(element => {
+            element.style = '';
+        });
+
+        completedBtn.removeAttribute('disabled');
+
+    }
+
+
+    resetBtn.addEventListener('click', () => this.init());
+    completedBtn.addEventListener('click', () => this.completGame());
+
+
 }
 
-
-
-const Game = new game();
+const musicgame = new musicGames();
