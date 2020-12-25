@@ -696,6 +696,8 @@ Vue.component("appMenu", {
       var bot_header = document.getElementsByClassName('bot_header');
       var chat_msg_item_user = document.getElementsByClassName('chat_msg_item_user');
       var chat_msg_item_admin = document.getElementsByClassName('chat_msg_item_admin');
+      var chat_header = document.getElementsByClassName('chat_header');
+      var chat_converse = document.getElementsByClassName('chat_converse');
 
       //pagination__dot
       var pagination__dot = document.getElementsByClassName('pagination__dot');
@@ -921,7 +923,17 @@ Vue.component("appMenu", {
             }
           }
         }
-
+        for (let i = 0; i < chat_header.length; i++) {
+          if (chat_header[i]) {
+            chat_header[i].classList.add("new_btn-start_black_btn");
+          }
+        }
+        for (let i = 0; i < chat_converse.length; i++) {
+          if (chat_converse[i]) {
+            chat_converse[i].classList.add("new_btn-start_black_btn");
+          }
+        }
+        
         
         //გათიშვა x
         if (close[0]) {
@@ -1443,6 +1455,16 @@ Vue.component("appMenu", {
                 chat_msg_item_admin[i].children[j].classList.remove("newDesign_subject_question_item-title_black_P");
               }
             }
+          }
+        }
+        for (let i = 0; i < chat_header.length; i++) {
+          if (chat_header[i]) {
+            chat_header[i].classList.remove("new_btn-start_black_btn");
+          }
+        }
+        for (let i = 0; i < chat_converse.length; i++) {
+          if (chat_converse[i]) {
+            chat_converse[i].classList.remove("new_btn-start_black_btn");
           }
         }
         //გათიშვა x
