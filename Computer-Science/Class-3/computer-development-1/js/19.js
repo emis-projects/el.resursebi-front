@@ -46,6 +46,11 @@ function computerGames(){
         if (theme == "darck") {
             e.target.className += ' completed__btn_black';
         }
+        else{
+            if(e.target.classList){
+                e.target.classList.remove('completed__btn_black')
+            }
+        }
     }
 
     var myArray = [];
