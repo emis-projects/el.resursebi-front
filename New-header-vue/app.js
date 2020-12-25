@@ -605,11 +605,30 @@ Vue.component("appMenu", {
         $(".class_5_15-bg_23").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-5/Working-with-tables-15/C-5-15-23darkMode.svg)");
         $(".class_5_15-bg_24").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-5/Working-with-tables-15/C-5-15-24darkMode.svg)");
         $(".class_5_15-bg_25").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-5/Working-with-tables-15/C-5-15-25darkMode.svg)");
-        
+        $(".background-cs-6-10-24").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-6/Android-graphics-interface-guide-10/cs-6-10-24darkMode.svg)");
+        $(".background-cs-6-10-25").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-6/Android-graphics-interface-guide-10/cs-6-10-25darkMode.svg)");
+        $(".background-cs-6-10-26").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-6/Android-graphics-interface-guide-10/cs-6-10-26darkMode.svg)");
+        $(".background-cs-6-10-27").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-6/Android-graphics-interface-guide-10/cs-6-10-27darkMode.svg)");
+        $(".background-cs-6-6-21").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-6/Arithmetic-operators-6/cs-6-6-21darkMode.svg)");
+        $(".background-cs-6-6-22").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-6/Arithmetic-operators-6/cs-6-6-22darkMode.svg)");
+        $(".background-cs-6-6-23").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-6/Arithmetic-operators-6/cs-6-6-23darkMode.svg)");
+        $(".background-cs-6-6-24").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-6/Arithmetic-operators-6/cs-6-6-24darkMode.svg)");
+        $(".class_6_2-bg_22").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-6/Conditional-operators-2/C-6-2-22darkMode.svg)");
+        $(".class_6_2-bg_23").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-6/Conditional-operators-2/C-6-2-23darkMode.svg)");
+        $(".class_6_2-bg_24").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-6/Conditional-operators-2/C-6-2-24darkMode.svg)");
+        $(".conditional-operators_25-background").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-6/Conditional-operators-2/cs-6-2-25.svg)");
+        $(".background-cs-6-1-20").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-6/create-game-1/cs-6-1-20-imgdarkMode.svg)");
+        $(".background-cs-6-1-21").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-6/create-game-1/cs-6-1-21-imgdarkMode.svg)");
+        $(".background-cs-6-1-22").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-6/create-game-1/cs-6-1-22-imgdarkMode.svg)");
+        $(".background-cs-6-1-23").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-6/create-game-1/cs-6-1-23-imgdarkMode.svg)");
+        $(".background-cs-6-13-26").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-6/Create-our-presentation-13/cs-6-13-26darkMode.svg)");
+        $(".background-cs-6-13-27").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-6/Create-our-presentation-13/cs-6-13-27darkMode.svg)");
+        $(".background-cs-6-13-28").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-6/Create-our-presentation-13/cs-6-13-28darkMode.svg)");
 
         
 
         
+
         
         //botApp
         if (document.getElementById("Rectangle_1414-2")) {
@@ -1228,12 +1247,31 @@ Vue.component("appMenu", {
         $(".class_5_15-bg_23").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-5/Working-with-tables-15/C-5-15-23darkMode.svg)");
         $(".class_5_15-bg_24").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-5/Working-with-tables-15/C-5-15-24darkMode.svg)");
         $(".class_5_15-bg_25").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-5/Working-with-tables-15/C-5-15-25darkMode.svg)");
+        $(".background-cs-6-10-24").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-6/Android-graphics-interface-guide-10/cs-6-10-24darkMode.svg)");
+        $(".background-cs-6-10-25").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-6/Android-graphics-interface-guide-10/cs-6-10-25darkMode.svg)");
+        $(".background-cs-6-10-26").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-6/Android-graphics-interface-guide-10/cs-6-10-26darkMode.svg)");
+        $(".background-cs-6-10-27").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-6/Android-graphics-interface-guide-10/cs-6-10-27darkMode.svg)");
+        $(".background-cs-6-6-21").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-6/Arithmetic-operators-6/cs-6-6-21darkMode.svg)");
+        $(".background-cs-6-6-22").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-6/Arithmetic-operators-6/cs-6-6-22darkMode.svg)");
+        $(".background-cs-6-6-23").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-6/Arithmetic-operators-6/cs-6-6-23darkMode.svg)");
+        $(".background-cs-6-6-24").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-6/Arithmetic-operators-6/cs-6-6-24darkMode.svg)");
+        $(".class_6_2-bg_22").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-6/Conditional-operators-2/C-6-2-22darkMode.svg)");
+        $(".class_6_2-bg_23").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-6/Conditional-operators-2/C-6-2-23darkMode.svg)");
+        $(".class_6_2-bg_24").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-6/Conditional-operators-2/C-6-2-24darkMode.svg)");
+        $(".conditional-operators_25-background").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-6/Conditional-operators-2/cs-6-2-25.svg)");
+        $(".background-cs-6-1-20").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-6/create-game-1/cs-6-1-20-imgdarkMode.svg)");
+        $(".background-cs-6-1-21").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-6/create-game-1/cs-6-1-21-imgdarkMode.svg)");
+        $(".background-cs-6-1-22").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-6/create-game-1/cs-6-1-22-imgdarkMode.svg)");
+        $(".background-cs-6-1-23").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-6/create-game-1/cs-6-1-23-imgdarkMode.svg)");
+        $(".background-cs-6-13-26").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-6/Create-our-presentation-13/cs-6-13-26darkMode.svg)");
+        $(".background-cs-6-13-27").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-6/Create-our-presentation-13/cs-6-13-27darkMode.svg)");
+        $(".background-cs-6-13-28").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-6/Create-our-presentation-13/cs-6-13-28darkMode.svg)");
 
         
 
         
+
         
-       
 
 
         if (document.getElementById("3_xelovneba")) {
