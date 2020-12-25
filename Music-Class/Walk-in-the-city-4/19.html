@@ -44,6 +44,7 @@
 
         .m-4-18-radio img {
             width: 100%;
+            height: 100%;
         }
 
         .test--child {
@@ -59,6 +60,17 @@
 
         .DragGame—childs2 {
             z-index: 10000;
+            width: 100%;
+            height: max-content;
+        }
+
+        .class_music_4-img_18 img {
+            width: 100%;
+        }
+
+        .draggedElement {
+            width: 100%;
+            height: max-content;
         }
     </style>
 </head>
@@ -80,7 +92,7 @@
             </app-section>
         </section>
         <section id="mainPage">
-            <div class="row mt-4vh" id="correctAnswer" data-correct="123">
+            <div class="row" id="correctAnswer" data-correct="123">
                 <div class="col-8">
                     <div class="newDesign_subject_question_item">
                         <img alt="img" class="newDesign_subject_question_item-img" src="../../img/icons/newDesign_btn-yellow.svg">
@@ -108,11 +120,6 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 class_music_4-img_19_1 d-flex justify-content-end">
-                    <img data-voice="./game-voices/სლაიდი 18/სანოტო მაგალითები/1. magaliti (square).wav" src="../../img/gakvetilebi/Music-class/Walk-in-the-city-4/music-new-04-16-park.svg" alt=" image" class="listen--btn cursor-pointer">
-                    <div class="test--child m-4-18-radio DragGame—childs1" data-index="4"></div>
-
-                </div>
                 <div class="col-8 ml-2vh class_music_4-img_18 d-flex justify-content-between">
                     <div class="relative">
                         <img data-voice="./game-voices/სლაიდი 18/სანოტო მაგალითები/5. magaliti (shop).wav" src="../../img/gakvetilebi/Music-class/Walk-in-the-city-4/music-new-04-16-building-1.svg" alt=" image" class="class_music_4-img_18_1 listen--btn cursor-pointer">
@@ -128,6 +135,12 @@
                         <img data-voice="./game-voices/სლაიდი 18/სანოტო მაგალითები/2. magaliti (cafe).wav" src="../../img/gakvetilebi/Music-class/Walk-in-the-city-4/music-new-04-16-building-6.svg" alt=" image" class="class_music_4-img_18_3 listen--btn cursor-pointer">
                         <div class="m-4-18-radio DragGame—childs1" data-index="1"></div>
                     </div>
+                </div>
+
+                <div class="col-3 class_music_4-img_19_1 d-flex justify-content-end ml-auto">
+                    <img data-voice="./game-voices/სლაიდი 18/სანოტო მაგალითები/1. magaliti (square).wav" src="../../img/gakvetilebi/Music-class/Walk-in-the-city-4/music-new-04-16-park.svg" alt=" image" class="listen--btn cursor-pointer" style="width: 100%; margin-top: -70px;">
+                    <div class="test--child m-4-18-radio DragGame—childs1" data-index="4"></div>
+
                 </div>
             </div>
 
@@ -161,7 +174,7 @@
     </div>
 
     <script src="../../js/libraries/jquery-3.4.1.min.js"></script>
-<script src="../../js/detectdevice.js"></script>
+<!-- <script src="../../js/detectdevice.js"></script> -->
     <script src="../../js/libraries/jquery.magnific-popup.min.js"></script>
     <script src="../../js/Pagination.js"></script>
 

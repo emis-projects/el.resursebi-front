@@ -27,6 +27,12 @@
 
         gtag('config', 'UA-155006442-1');
     </script>
+    <style>
+        .choose_music_10-img_9 img {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
 </head>
 
 <body>
@@ -91,24 +97,18 @@
             <div class="row">
                 <div class="col-7 d-flex justify-content-start ml-10vh">
                     <div class="choose_music_10-img_9 d-flex justify-content-center mb-4vh">
-                        <div class="choose_music_10-circle_9"></div>
+                        <div class="choose_music_10-circle_9 DragGame—childs2"></div>
                         <img src="../../img/gakvetilebi/Music-class/Choose-background-music-10/music-10-9.jpg"
                             alt="image">
                     </div>
                     <div class="col-4 m-auto choose_music_10-img_7_circle d-flex justify-content-between">
-                        <img id="draggable-1" src="../../img/gakvetilebi/Music-class/Choose-background-music-10/music-10-7-4.svg"
-                            data-voice="./game-voices/სლაიდები 9-10-11/Chet Baker  Gerry Mulligan - Speak Low.wav"
-                            alt="image" draggable="true">
-                        <img id="draggable-2" src="../../img/gakvetilebi/Music-class/Choose-background-music-10/music-10-7-5.svg"
-                            data-voice="./game-voices/სლაიდები 9-10-11/Henry Mancini Night Side.wav" alt="image" draggable="true">
-                        <img id="draggable-3" src="../../img/gakvetilebi/Music-class/Choose-background-music-10/music-10-7-6.svg"
-                            data-voice="./game-voices/სლაიდები 9-10-11/Bill Evans Trio - Emily.wav" alt="image" draggable="true">
+                        <img class="DragGame—childs1 listen--btn cursor-pointer" src="../../img/gakvetilebi/Music-class/Choose-background-music-10/music-10-7-4.svg" data-voice="./game-voices/სლაიდები 9-10-11/Chet Baker  Gerry Mulligan - Speak Low.wav" alt="image" draggable="true">
+                        <img class="DragGame—childs1 listen--btn cursor-pointer" src="../../img/gakvetilebi/Music-class/Choose-background-music-10/music-10-7-5.svg" data-voice="./game-voices/სლაიდები 9-10-11/Henry Mancini Night Side.wav" alt="image" draggable="true">
+                        <img class="DragGame—childs1 listen--btn cursor-pointer" src="../../img/gakvetilebi/Music-class/Choose-background-music-10/music-10-7-6.svg" data-voice="./game-voices/სლაიდები 9-10-11/Bill Evans Trio - Emily.wav" alt="image" draggable="true">
                     </div>
                 </div>
             </div>
-            <div class="flex flex-column z-index reload_game_wrapper">
-                <button id="resetBtn" class="reset__btn">თავიდან სცადე</button>
-            </div>
+
             <div class="left_components_paging-cont" id="leftNav">
                 <left-nav-item>
                     </left -nav-item>
@@ -136,19 +136,16 @@
     </div>
 
     <script src="../../js/libraries/jquery-3.4.1.min.js"></script>
-<script src="../../js/detectdevice.js"></script>
+    <script src="../../js/detectdevice.js"></script>
     <script src="../../js/libraries/jquery.magnific-popup.min.js"></script>
     <script src="../../js/Pagination.js"></script>
     <script src="../../js/libraries/sound.js"></script>
 
 
+    <script src="./js/9.js"></script>
     <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
     <script src="../../New-header-vue/app.js"></script>
     <script src="../../Vue-chatBot/botApp.js"></script>
     <script src="../../js/bot.js"></script>
-    <script src="./js/9.js"></script>
-
-
 </body>
-
 </html>
