@@ -704,12 +704,64 @@ Vue.component("appMenu", {
         $(".background-cs-6-12-32").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-6/Windows-UI-12/cs-6-12-32darkMode.svg");
         $(".background-cs-6-12-33").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-6/Windows-UI-12/cs-6-12-33darkMode.svg");
         $(".background-cs-6-12-34").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-6/Windows-UI-12/cs-6-12-34darkMode.svg");
+        $(".class_music_10-bg_13").css("background-image", "url(../../../img/gakvetilebi/Music-class/Choose-background-music-10/music-10-13darkMode.svg");
+        $(".class_music_10-bg_14").css("background-image", "url(../../../img/gakvetilebi/Music-class/Choose-background-music-10/music-10-14darkMode.svg");
+        $(".class_music_10-bg_15").css("background-image", "url(../../../img/gakvetilebi/Music-class/Choose-background-music-10/music-10-15darkMode.svg");
+        $(".city-voices-2-18").css("background-image", "url(../../../img/gakvetilebi/Music-class/city-voices-2/cs-new-02-18darkMode.svg");
+        $(".city-voices-2-19").css("background-image", "url(../../../img/gakvetilebi/Music-class/city-voices-2/cs-new-02-19darkMode.svg");
+        $(".city-voices-2-20").css("background-image", "url(../../../img/gakvetilebi/Music-class/city-voices-2/cs-new-02-20darkMode.svg");
+        $(".city-voices-2-21").css("background-image", "url(../../../img/gakvetilebi/Music-class/city-voices-2/cs-new-02-21darkMode.svg");
+        $(".city-voices-2-22").css("background-image", "url(../../../img/gakvetilebi/Music-class/city-voices-2/cs-new-02-22darkMode.svg");
+        $(".animation-soundtrack-12-bg_14").css("background-image", "url(../../../img/gakvetilebi/Music-class/Create-animation-soundtrack-12/music-12-bg-illustrations-14darkMode.svg");
+        $(".animation-soundtrack-12-bg_16").css("background-image", "url(../../../img/gakvetilebi/Music-class/Create-animation-soundtrack-12/music-12-bg-illustrations-16darkMode.svg");
+        $(".animation-soundtrack-12-bg_17").css("background-image", "url(../../../img/gakvetilebi/Music-class/Create-animation-soundtrack-12/music-12-bg-illustrations-17darkMode.svg");
+        $(".class_music_8-bg_17").css("background-image", "url(../../../img/gakvetilebi/Music-class/Create-broadcast-audio-8/music-08-17darkMode.svg");
+        $(".class_music_8-bg_18").css("background-image", "url(../../../img/gakvetilebi/Music-class/Create-broadcast-audio-8/music-08-18darkMode.svg");
+        $(".class_music_8-bg_19").css("background-image", "url(../../../img/gakvetilebi/Music-class/Create-broadcast-audio-8/music-08-19darkMode.svg");
+        $(".class_music_8-bg_20").css("background-image", "url(../../../img/gakvetilebi/Music-class/Create-broadcast-audio-8/music-08-20darkMode.svg");
+        $(".class_music_8-bg_21").css("background-image", "url(../../../img/gakvetilebi/Music-class/Create-broadcast-audio-8/music-08-21darkMode.svg");
+        $(".class_music_7-bg_13").css("background-image", "url(../../../img/gakvetilebi/Music-class/Create-broadcast-hat-7/music-07-13darkMode.svg");
+        $(".class_music_7-bg_14").css("background-image", "url(../../../img/gakvetilebi/Music-class/Create-broadcast-hat-7/music-07-14darkMode.svg");
+        $(".class_music_7-bg_15").css("background-image", "url(../../../img/gakvetilebi/Music-class/Create-broadcast-hat-7/music-07-15darkMode.svg");
+        $(".class_music_7-bg_16").css("background-image", "url(../../../img/gakvetilebi/Music-class/Create-broadcast-hat-7/music-07-16darkMode.svg");
+        $(".class_music_6-bg_16").css("background-image", "url(../../../img/gakvetilebi/Music-class/Create-music-from-noise-6/music-new-06-16darkMode.svg");
+        $(".class_music_6-bg_17").css("background-image", "url(../../../img/gakvetilebi/Music-class/Create-music-from-noise-6/music-new-06-17darkMode.svg");
+        $(".class_music_6-bg_18").css("background-image", "url(../../../img/gakvetilebi/Music-class/Create-music-from-noise-6/music-new-06-18darkMode.svg");
+        $(".class_music_6-bg_19").css("background-image", "url(../../../img/gakvetilebi/Music-class/Create-music-from-noise-6/music-new-06-19darkMode.svg");
+        $(".find-way-24").css("background-image", "url(../../../img/gakvetilebi/Music-class/findWayBySound-3/music-3-24darkMode.svg");
+        $(".find-way-25").css("background-image", "url(../../../img/gakvetilebi/Music-class/findWayBySound-3/cs-new-03-25darkMode.svg");
+        $(".find-way-26").css("background-image", "url(../../../img/gakvetilebi/Music-class/findWayBySound-3/cs-new-03-26darkMode.svg");
+        $(".find-way-27").css("background-image", "url(../../../img/gakvetilebi/Music-class/findWayBySound-3/music-3-27darkMode.svg");
+        $(".class_music_9-bg_11").css("background-image", "url(../../../img/gakvetilebi/Music-class/Game-music-9/music-9-bg-illustrations-11darkMode.svg");
+        $(".class_music_9-bg_12").css("background-image", "url(../../../img/gakvetilebi/Music-class/Game-music-9/music-9-bg-illustrations-12darkMode.svg");
+        $(".class_music_9-bg_13").css("background-image", "url(../../../img/gakvetilebi/Music-class/Game-music-9/music-9-bg-illustrations-13darkMode.svg");
+        $(".class_music_9-bg_14").css("background-image", "url(../../../img/gakvetilebi/Music-class/Game-music-9/music-9-bg-illustrations-14darkMode.svg");
+        $(".class_music_11-bg_20").css("background-image", "url(../../../img/gakvetilebi/Music-class/Music-in-animation-and-cinema-11/music-11-20darkMode.svg");
+        $(".class_music_11-bg_21").css("background-image", "url(../../../img/gakvetilebi/Music-class/Music-in-animation-and-cinema-11/music-11-21darkMode.svg");
+        $(".class_music_11-bg_22").css("background-image", "url(../../../img/gakvetilebi/Music-class/Music-in-animation-and-cinema-11/music-11-22darkMode.svg");
+        $(".class_music_11-bg_23").css("background-image", "url(../../../img/gakvetilebi/Music-class/Music-in-animation-and-cinema-11/music-11-23darkMode.svg");
+        $(".music-bg-illustrations-5-16").css("background-image", "url(../../../img/gakvetilebi/Music-class/One-day-5/music-new-05-16darkMode.svg");
+        $(".music-bg-illustrations-5-17").css("background-image", "url(../../../img/gakvetilebi/Music-class/One-day-5/music-new-05-17darkMode.svg");
+        $(".music-bg-illustrations-5-18").css("background-image", "url(../../../img/gakvetilebi/Music-class/One-day-5/music-new-05-18darkMode.svg");
+        $(".music-bg-illustrations-5-19").css("background-image", "url(../../../img/gakvetilebi/Music-class/One-day-5/music-new-05-19darkMode.svg");
+        $(".music-bg-illustrations-5-20").css("background-image", "url(../../../img/gakvetilebi/Music-class/One-day-5/music-new-05-20darkMode.svg");
+        $(".class_music_1-bg_19").css("background-image", "url(../../../img/gakvetilebi/Music-class/voices-1/music-1-19darkMode.svg");
+        $(".class_music_1-bg_20").css("background-image", "url(../../../img/gakvetilebi/Music-class/voices-1/music-1-20darkMode.svg");
+        $(".class_music_1-bg_21").css("background-image", "url(../../../img/gakvetilebi/Music-class/voices-1/music-1-21darkMode.svg");
+        $(".class_music_1-bg_22").css("background-image", "url(../../../img/gakvetilebi/Music-class/voices-1/music-1-22darkMode.svg");
+        $(".class_music_1-bg_23").css("background-image", "url(../../../img/gakvetilebi/Music-class/voices-1/music-1-23darkMode.svg");
+        $(".class_music_4-bg_27").css("background-image", "url(../../../img/gakvetilebi/Music-class/Walk-in-the-city-4/music-04-27darkMode.svg");
+        $(".class_music_4-bg_28").css("background-image", "url(../../../img/gakvetilebi/Music-class/Walk-in-the-city-4/music-04-28darkMode.svg");
+        $(".class_music_4-bg_29").css("background-image", "url(../../../img/gakvetilebi/Music-class/Walk-in-the-city-4/music-04-29darkMode.svg");
+        $(".class_music_4-bg_30").css("background-image", "url(../../../img/gakvetilebi/Music-class/Walk-in-the-city-4/music-04-30darkMode.svg");
+        $(".class_music_4-bg_31").css("background-image", "url(../../../img/gakvetilebi/Music-class/Walk-in-the-city-4/music-04-31darkMode.svg");
+        $(".class_music_4-bg_32").css("background-image", "url(../../../img/gakvetilebi/Music-class/Walk-in-the-city-4/music-04-32darkMode.svg");
+
+
+        
         
 
         
-
-        
-
         //botApp
         if (document.getElementById("Rectangle_1414-2")) {
           document.getElementById("Rectangle_1414-2").style.fill = "#000000";
@@ -1426,6 +1478,58 @@ Vue.component("appMenu", {
         $(".background-cs-6-12-32").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-6/Windows-UI-12/cs-6-12-32darkMode.svg");
         $(".background-cs-6-12-33").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-6/Windows-UI-12/cs-6-12-33darkMode.svg");
         $(".background-cs-6-12-34").css("background-image", "url(../../../img/gakvetilebi/Computer-Science/Class-6/Windows-UI-12/cs-6-12-34darkMode.svg");
+        $(".class_music_10-bg_13").css("background-image", "url(../../../img/gakvetilebi/Music-class/Choose-background-music-10/music-10-13darkMode.svg");
+        $(".class_music_10-bg_14").css("background-image", "url(../../../img/gakvetilebi/Music-class/Choose-background-music-10/music-10-14darkMode.svg");
+        $(".class_music_10-bg_15").css("background-image", "url(../../../img/gakvetilebi/Music-class/Choose-background-music-10/music-10-15darkMode.svg");
+        $(".city-voices-2-18").css("background-image", "url(../../../img/gakvetilebi/Music-class/city-voices-2/cs-new-02-18darkMode.svg");
+        $(".city-voices-2-19").css("background-image", "url(../../../img/gakvetilebi/Music-class/city-voices-2/cs-new-02-19darkMode.svg");
+        $(".city-voices-2-20").css("background-image", "url(../../../img/gakvetilebi/Music-class/city-voices-2/cs-new-02-20darkMode.svg");
+        $(".city-voices-2-21").css("background-image", "url(../../../img/gakvetilebi/Music-class/city-voices-2/cs-new-02-21darkMode.svg");
+        $(".city-voices-2-22").css("background-image", "url(../../../img/gakvetilebi/Music-class/city-voices-2/cs-new-02-22darkMode.svg");
+        $(".animation-soundtrack-12-bg_14").css("background-image", "url(../../../img/gakvetilebi/Music-class/Create-animation-soundtrack-12/music-12-bg-illustrations-14darkMode.svg");
+        $(".animation-soundtrack-12-bg_16").css("background-image", "url(../../../img/gakvetilebi/Music-class/Create-animation-soundtrack-12/music-12-bg-illustrations-16darkMode.svg");
+        $(".animation-soundtrack-12-bg_17").css("background-image", "url(../../../img/gakvetilebi/Music-class/Create-animation-soundtrack-12/music-12-bg-illustrations-17darkMode.svg");
+        $(".class_music_8-bg_17").css("background-image", "url(../../../img/gakvetilebi/Music-class/Create-broadcast-audio-8/music-08-17darkMode.svg");
+        $(".class_music_8-bg_18").css("background-image", "url(../../../img/gakvetilebi/Music-class/Create-broadcast-audio-8/music-08-18darkMode.svg");
+        $(".class_music_8-bg_19").css("background-image", "url(../../../img/gakvetilebi/Music-class/Create-broadcast-audio-8/music-08-19darkMode.svg");
+        $(".class_music_8-bg_20").css("background-image", "url(../../../img/gakvetilebi/Music-class/Create-broadcast-audio-8/music-08-20darkMode.svg");
+        $(".class_music_8-bg_21").css("background-image", "url(../../../img/gakvetilebi/Music-class/Create-broadcast-audio-8/music-08-21darkMode.svg");
+        $(".class_music_7-bg_13").css("background-image", "url(../../../img/gakvetilebi/Music-class/Create-broadcast-hat-7/music-07-13darkMode.svg");
+        $(".class_music_7-bg_14").css("background-image", "url(../../../img/gakvetilebi/Music-class/Create-broadcast-hat-7/music-07-14darkMode.svg");
+        $(".class_music_7-bg_15").css("background-image", "url(../../../img/gakvetilebi/Music-class/Create-broadcast-hat-7/music-07-15darkMode.svg");
+        $(".class_music_7-bg_16").css("background-image", "url(../../../img/gakvetilebi/Music-class/Create-broadcast-hat-7/music-07-16darkMode.svg");
+        $(".class_music_6-bg_16").css("background-image", "url(../../../img/gakvetilebi/Music-class/Create-music-from-noise-6/music-new-06-16darkMode.svg");
+        $(".class_music_6-bg_17").css("background-image", "url(../../../img/gakvetilebi/Music-class/Create-music-from-noise-6/music-new-06-17darkMode.svg");
+        $(".class_music_6-bg_18").css("background-image", "url(../../../img/gakvetilebi/Music-class/Create-music-from-noise-6/music-new-06-18darkMode.svg");
+        $(".class_music_6-bg_19").css("background-image", "url(../../../img/gakvetilebi/Music-class/Create-music-from-noise-6/music-new-06-19darkMode.svg");
+        $(".find-way-24").css("background-image", "url(../../../img/gakvetilebi/Music-class/findWayBySound-3/music-3-24darkMode.svg");
+        $(".find-way-25").css("background-image", "url(../../../img/gakvetilebi/Music-class/findWayBySound-3/cs-new-03-25darkMode.svg");
+        $(".find-way-26").css("background-image", "url(../../../img/gakvetilebi/Music-class/findWayBySound-3/cs-new-03-26darkMode.svg");
+        $(".find-way-27").css("background-image", "url(../../../img/gakvetilebi/Music-class/findWayBySound-3/music-3-27darkMode.svg");
+        $(".class_music_9-bg_11").css("background-image", "url(../../../img/gakvetilebi/Music-class/Game-music-9/music-9-bg-illustrations-11darkMode.svg");
+        $(".class_music_9-bg_12").css("background-image", "url(../../../img/gakvetilebi/Music-class/Game-music-9/music-9-bg-illustrations-12darkMode.svg");
+        $(".class_music_9-bg_13").css("background-image", "url(../../../img/gakvetilebi/Music-class/Game-music-9/music-9-bg-illustrations-13darkMode.svg");
+        $(".class_music_9-bg_14").css("background-image", "url(../../../img/gakvetilebi/Music-class/Game-music-9/music-9-bg-illustrations-14darkMode.svg");
+        $(".class_music_11-bg_20").css("background-image", "url(../../../img/gakvetilebi/Music-class/Music-in-animation-and-cinema-11/music-11-20darkMode.svg");
+        $(".class_music_11-bg_21").css("background-image", "url(../../../img/gakvetilebi/Music-class/Music-in-animation-and-cinema-11/music-11-21darkMode.svg");
+        $(".class_music_11-bg_22").css("background-image", "url(../../../img/gakvetilebi/Music-class/Music-in-animation-and-cinema-11/music-11-22darkMode.svg");
+        $(".class_music_11-bg_23").css("background-image", "url(../../../img/gakvetilebi/Music-class/Music-in-animation-and-cinema-11/music-11-23darkMode.svg");
+        $(".music-bg-illustrations-5-16").css("background-image", "url(../../../img/gakvetilebi/Music-class/One-day-5/music-new-05-16darkMode.svg");
+        $(".music-bg-illustrations-5-17").css("background-image", "url(../../../img/gakvetilebi/Music-class/One-day-5/music-new-05-17darkMode.svg");
+        $(".music-bg-illustrations-5-18").css("background-image", "url(../../../img/gakvetilebi/Music-class/One-day-5/music-new-05-18darkMode.svg");
+        $(".music-bg-illustrations-5-19").css("background-image", "url(../../../img/gakvetilebi/Music-class/One-day-5/music-new-05-19darkMode.svg");
+        $(".music-bg-illustrations-5-20").css("background-image", "url(../../../img/gakvetilebi/Music-class/One-day-5/music-new-05-20darkMode.svg");
+        $(".class_music_1-bg_19").css("background-image", "url(../../../img/gakvetilebi/Music-class/voices-1/music-1-19darkMode.svg");
+        $(".class_music_1-bg_20").css("background-image", "url(../../../img/gakvetilebi/Music-class/voices-1/music-1-20darkMode.svg");
+        $(".class_music_1-bg_21").css("background-image", "url(../../../img/gakvetilebi/Music-class/voices-1/music-1-21darkMode.svg");
+        $(".class_music_1-bg_22").css("background-image", "url(../../../img/gakvetilebi/Music-class/voices-1/music-1-22darkMode.svg");
+        $(".class_music_1-bg_23").css("background-image", "url(../../../img/gakvetilebi/Music-class/voices-1/music-1-23darkMode.svg");
+        $(".class_music_4-bg_27").css("background-image", "url(../../../img/gakvetilebi/Music-class/Walk-in-the-city-4/music-04-27darkMode.svg");
+        $(".class_music_4-bg_28").css("background-image", "url(../../../img/gakvetilebi/Music-class/Walk-in-the-city-4/music-04-28darkMode.svg");
+        $(".class_music_4-bg_29").css("background-image", "url(../../../img/gakvetilebi/Music-class/Walk-in-the-city-4/music-04-29darkMode.svg");
+        $(".class_music_4-bg_30").css("background-image", "url(../../../img/gakvetilebi/Music-class/Walk-in-the-city-4/music-04-30darkMode.svg");
+        $(".class_music_4-bg_31").css("background-image", "url(../../../img/gakvetilebi/Music-class/Walk-in-the-city-4/music-04-31darkMode.svg");
+        $(".class_music_4-bg_32").css("background-image", "url(../../../img/gakvetilebi/Music-class/Walk-in-the-city-4/music-04-32darkMode.svg");
 
         
 
