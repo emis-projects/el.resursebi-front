@@ -59,8 +59,17 @@ function game(){
 
     // drag end
     this.dragEnd = e => {
+        var theme = localStorage.getItem("theme");
         let elClassName = e.target.getAttribute('data-class');
         e.target.className = elClassName;
+        if (theme == "darck") {
+            e.target.classList.add('completed__btn_black')
+        }
+        else{
+            if(e.target.classList.contains('completed__btn_black')){
+                e.target.classList.remove('completed__btn_black')
+            }
+        }
     }
     
 
