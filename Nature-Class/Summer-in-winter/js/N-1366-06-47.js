@@ -45,6 +45,7 @@ function natureGames() {
     this.dragEnd = e => {
         let elClassName = e.target.getAttribute('data-class');
         e.target.className = elClassName;
+        console.log('pClass', e.target.className)
     }
 
     var myArray = [];
