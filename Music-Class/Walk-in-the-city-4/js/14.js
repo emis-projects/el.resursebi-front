@@ -128,11 +128,11 @@ function game() {
                 $('.DragGame—childs1 img').attr('style', 'display: none');
             }, 2000)
             
-            this.answer = questions[this.index].answer;
-
             if(this.index == 9) {
                 location.href = "game-success-14.html"
             }
+
+            this.answer = questions[this.index].answer;
 
         } else {
             $(listenBtn).removeClass('rotate_btn')

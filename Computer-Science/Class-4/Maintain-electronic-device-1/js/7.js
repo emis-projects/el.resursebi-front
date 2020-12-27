@@ -78,7 +78,7 @@ function natureGames() {
         completedBtn.setAttribute('disabled', 'true');
     }
     this.successPage = () => {
-        location.href = 'game-success-7.html';
+        location.href = 'game-success-8.html';
     }
 
     this.init = (e) => {

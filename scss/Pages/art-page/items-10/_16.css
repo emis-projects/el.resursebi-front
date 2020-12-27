@@ -1,0 +1,33 @@
+.items-10-games-16 h3 {
+  font-family: "DejaVuSans";
+  font-size: 2.6vh;
+  margin-bottom: 10px;
+}
+.items-10-games-16 .image-box_items {
+  height: 18.75vh;
+  max-height: 144px;
+  width: 18.2vw;
+  max-width: 249px;
+}
+.items-10-games-16 .image-box_items:nth-child(2) {
+  border: 1px solid #707070;
+}
+.items-10-games-16 .image-box_items:nth-child(2) img {
+  height: 100%;
+}
+.items-10-games-16 .image-box_items img {
+  width: 100%;
+}
+.items-10-games-16 .second-image-box_items {
+  height: 38.5vh;
+  max-height: 297px;
+  width: 18.2vw;
+  max-width: 249px;
+}
+.items-10-games-16 .second-image-box_items img {
+  width: 100%;
+}
+
+.imge {
+  height: 15vh;
+}

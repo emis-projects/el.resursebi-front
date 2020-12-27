@@ -2,7 +2,8 @@ Vue.component('appBot', {
     data() {
         return {
             botShow: false,
-            active_el: null
+            active_el: null,
+            darkMode: false,
         }
     },
     methods: {
@@ -22,6 +23,14 @@ Vue.component('appBot', {
             this.active_el = 1
           }
     },
+    created(){
+      var theme = localStorage.getItem("theme");
+      if (theme == "darck") {
+        this.darkMode = true;
+      } else {
+        this.darkMode = false;
+      }
+    },
     template: `
       <div class="chatBot-box" :class="{'is-visible': botShow}">
           <transition 
@@ -30,11 +39,17 @@ Vue.component('appBot', {
                 :duration="850"
                 >
                 <div class="chat chat_position position-absolute" v-show="botShow">
-                  <div class="chat_header">
+                  <div
+                  :class="[
+                        darkMode? 'chat_header new_btn-start_black_btn' : 'chat_header',
+                      ]">
                     <div class="head_line"></div>
                     <div class="chat_head"></div>
                   </div>
-                  <div id="chat_fullscreen" class="chat_conversion chat_converse">
+                  <div id="chat_fullscreen"
+                  :class="[
+                        darkMode? 'chat_conversion chat_converse new_btn-start_black_btn' : 'chat_conversion chat_converse',
+                      ]">
                         <div class="bots_logo_box d-flex justify-content-around align-items-center">
                             <div data-botId="2320" class="logo_box" @click="activeBg(1)" :class="{'logo_box_active ': active_el === 1}">
                                 <div class="logo_box-nature"></div>

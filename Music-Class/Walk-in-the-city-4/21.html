@@ -27,6 +27,35 @@
 
         gtag('config', 'UA-155006442-1');
     </script>
+    <style>
+        .memory-card {
+            position: relative;
+            height: 19.8vw;
+            width: 19.8vw;
+            max-height: 150px;
+            max-width: 150px;
+            transform: scale(1);
+            transform-style: preserve-3d;
+            transition: transform 0.5s;
+        }
+        .memory-card:active {
+            transform: scale(0.97);
+            transition: transform 0.2s;
+        }
+        .memory-card.flip {
+            transform: rotateY(180deg);
+        }
+        .memory-card .front-face, .memory-card .back-face {
+            height: 100%;
+            width: 100%;
+            padding: 5px;
+            position: absolute;
+            backface-visibility: hidden;
+        }
+        .memory-card .front-face {
+            transform: rotateY(180deg);
+        }
+    </style>
 </head>
 
 <body>
@@ -68,59 +97,41 @@
             <div class="row mt-5vh">
                 <div class="class_music_4 col-8 d-flex justify-content-around mb-4vh">
                     <div class="d-flex">
-                        <div class="memory-card" data-slide="one" data-final="./game-voices/სლაიდი 23/1pair(full).wav"
-                            data-voice="./game-voices/სლაიდი 23/1 წყვილი/melody1.wav">
-                            <img class="front-face" data-id="box-2"
-                                src="../../img/gakvetilebi/Music-class/Walk-in-the-city-4/21-1.svg" alt="">
-                            <img class="back-face" data-id="box-1"
-                                src="../../img/gakvetilebi/Music-class/Walk-in-the-city-4/acord.svg" alt="">
+                        <div class="memory-card" data-slide="one" data-final="./game-voices/სლაიდი 23/1pair(full).wav" data-voice="./game-voices/სლაიდი 23/1 წყვილი/melody1.wav">
+                            <img class="front-face" data-id="box-2" src="../../img/gakvetilebi/Music-class/Walk-in-the-city-4/21-1.svg" alt="">
+                            <img class="back-face" data-id="box-1" src="../../img/gakvetilebi/Music-class/Walk-in-the-city-4/acord.svg" alt="">
                         </div>
                     </div>
                     <div class="d-flex">
-                        <div class="memory-card" data-slide="two" data-final="./game-voices/სლაიდი 23/2pair(full).wav"
-                            data-voice="./game-voices/სლაიდი 23/2 წყვილი/melody1.wav">
-                            <img class="front-face" data-id="box-2"
-                                src="../../img/gakvetilebi/Music-class/Walk-in-the-city-4/21-2.svg" alt="">
-                            <img class="back-face" data-id="box-1"
-                                src="../../img/gakvetilebi/Music-class/Walk-in-the-city-4/acord.svg" alt="">
+                        <div class="memory-card" data-slide="two" data-final="./game-voices/სლაიდი 23/2pair(full).wav" data-voice="./game-voices/სლაიდი 23/2 წყვილი/melody1.wav">
+                            <img class="front-face" data-id="box-2" src="../../img/gakvetilebi/Music-class/Walk-in-the-city-4/21-2.svg" alt="">
+                            <img class="back-face" data-id="box-1" src="../../img/gakvetilebi/Music-class/Walk-in-the-city-4/acord.svg" alt="">
                         </div>
                     </div>
                     <div class="d-flex">
-                        <div class="memory-card" data-slide="one" data-final="./game-voices/სლაიდი 23/1pair(full).wav"
-                            data-voice="./game-voices/სლაიდი 23/1 წყვილი/melody2.wav">
-                            <img class="front-face" data-id="box-2"
-                                src="../../img/gakvetilebi/Music-class/Walk-in-the-city-4/21-1.svg" alt="">
-                            <img class="back-face" data-id="box-1"
-                                src="../../img/gakvetilebi/Music-class/Walk-in-the-city-4/acord.svg" alt="">
+                        <div class="memory-card" data-slide="one" data-final="./game-voices/სლაიდი 23/1pair(full).wav" data-voice="./game-voices/სლაიდი 23/1 წყვილი/melody2.wav">
+                            <img class="front-face" data-id="box-2" src="../../img/gakvetilebi/Music-class/Walk-in-the-city-4/21-1.svg" alt="">
+                            <img class="back-face" data-id="box-1" src="../../img/gakvetilebi/Music-class/Walk-in-the-city-4/acord.svg" alt="">
                         </div>
                     </div>
                 </div>
                 <div class="class_music_4 col-8 d-flex justify-content-around">
                     <div class="d-flex">
-                        <div class="memory-card" data-side="three" data-final="./game-voices/სლაიდი 23/3pair(full).wav"
-                            data-voice="./game-voices/სლაიდი 23/3 წყვილი/melody1.wav">
-                            <img class="front-face" data-id="box-2"
-                                src="../../img/gakvetilebi/Music-class/Walk-in-the-city-4/21-3.svg" alt="">
-                            <img class="back-face" data-id="box-1"
-                                src="../../img/gakvetilebi/Music-class/Walk-in-the-city-4/acord.svg" alt="">
+                        <div class="memory-card" data-side="three" data-final="./game-voices/სლაიდი 23/3pair(full).wav" data-voice="./game-voices/სლაიდი 23/3 წყვილი/melody1.wav">
+                            <img class="front-face" data-id="box-2" src="../../img/gakvetilebi/Music-class/Walk-in-the-city-4/21-3.svg" alt="">
+                            <img class="back-face" data-id="box-1" src="../../img/gakvetilebi/Music-class/Walk-in-the-city-4/acord.svg" alt="">
                         </div>
                     </div>
                     <div class="d-flex">
-                        <div class="memory-card" data-slide="two" data-final="./game-voices/სლაიდი 23/2pair(full).wav"
-                            data-voice="./game-voices/სლაიდი 23/2 წყვილი/melody2.wav">
-                            <img class="front-face" data-id="box-2"
-                                src="../../img/gakvetilebi/Music-class/Walk-in-the-city-4/21-2.svg" alt="">
-                            <img class="back-face" data-id="box-1"
-                                src="../../img/gakvetilebi/Music-class/Walk-in-the-city-4/acord.svg" alt="">
+                        <div class="memory-card" data-slide="two" data-final="./game-voices/სლაიდი 23/2pair(full).wav" data-voice="./game-voices/სლაიდი 23/2 წყვილი/melody2.wav">
+                            <img class="front-face" data-id="box-2" src="../../img/gakvetilebi/Music-class/Walk-in-the-city-4/21-2.svg" alt="">
+                            <img class="back-face" data-id="box-1" src="../../img/gakvetilebi/Music-class/Walk-in-the-city-4/acord.svg" alt="">
                         </div>
                     </div>
                     <div class="d-flex">
-                        <div class="memory-card" data-side="three" data-final="./game-voices/სლაიდი 23/3pair(full).wav"
-                            data-voice="./game-voices/სლაიდი 23/3 წყვილი/melody1.wav">
-                            <img class="front-face" data-id="box-2"
-                                src="../../img/gakvetilebi/Music-class/Walk-in-the-city-4/21-3.svg" alt="">
-                            <img class="back-face" data-id="box-1"
-                                src="../../img/gakvetilebi/Music-class/Walk-in-the-city-4/acord.svg" alt="">
+                        <div class="memory-card" data-side="three" data-final="./game-voices/სლაიდი 23/3pair(full).wav" data-voice="./game-voices/სლაიდი 23/3 წყვილი/melody1.wav">
+                            <img class="front-face" data-id="box-2" src="../../img/gakvetilebi/Music-class/Walk-in-the-city-4/21-3.svg" alt="">
+                            <img class="back-face" data-id="box-1" src="../../img/gakvetilebi/Music-class/Walk-in-the-city-4/acord.svg" alt="">
                         </div>
                     </div>
                 </div>

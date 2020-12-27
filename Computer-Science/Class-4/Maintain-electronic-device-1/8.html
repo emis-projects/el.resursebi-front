@@ -50,29 +50,75 @@
         </section>
         <section id="mainPage">
             <div class="row mt-5vh">
-                <div class="col-11 m-auto">
+                <div class="col-10 m-auto">
                     <div class="newDesign_subject_question_item">
                         <img alt="img" class="newDesign_subject_question_item-img"
                             src="../../../img/icons/newDesign_btn-yellow.svg">
                         <p class="newDesign_subject_question_item-title">
-                            გაიხსენე, რამდენი სადენი და ნაწილია ჩადებული კომპიუტერის სისტემურ ბლოკში. უამრავ</br>
-                             სადენში დენი მოძრაობს და ამუშავებს პატარა ნაწილებს.
+                            ყველა ნივთიერება შეიცავს ორივე მუხტის მქონე ნაწილაკებს, მაგრამ ზოგი დენის</br> კარგი გამტარია და
+                             ზოგი — არა.
                         </p>
                     </div>
                     <div class="newDesign_subject_question_item">
                         <img alt="img" class="newDesign_subject_question_item-img"
                             src="../../../img/icons/newDesign_btn-yellow.svg">
                         <p class="newDesign_subject_question_item-title">
-                            შენი აზრით, როგორ არის დაცული უსაფრთხოება?
+                            ელექტრო მოწყობილობებისთვის ჩვენ ორივე ტიპის მასალა გვჭირდება.
                         </p>
                     </div>
-                  
+                    <div class="newDesign_subject_question_item">
+                        <img alt="img" class="newDesign_subject_question_item-img"
+                            src="../../../img/icons/newDesign_btn-yellow.svg">
+                        <p class="newDesign_subject_question_item-title">
+                            გავარკიოთ, რომელია ელექტროობის კარგი გამტარი.
+                        </p>
+                    </div>
+                    <div class="newDesign_subject_question_item">
+                        <img alt="img" class="newDesign_subject_question_item-img"
+                            src="../../../img/icons/newDesign_btn-yellow.svg">
+                        <p class="newDesign_subject_question_item-title">
+                            შეკარი წრედი მოცემული საგნებით.
+                        </p>
+                    </div>
                 </div> 
-            </div>
-                <div class="col-11 d-flex justify-content-end cs-4-1-div cs-4-1-div-8-img">
-                    <img alt=""
-                        src="../../../img/gakvetilebi/Computer-Science/Class-4/Maintain-electronic-device-1/cs-4-1-8-img.svg">
+             </div>   
+     <div class="row mt-5vh">  
+            <div class="col-1 offset-1 ">
+                 <div class="cs-4-1-game-div-container d-flex justify-content-center"> 
+                    <img alt="cs-4-1-game-div-container-img-1" class="DragGame--childs1" data-place="1"
+                    src="../../../img/gakvetilebi/Computer-Science/Class-4/Maintain-electronic-device-1/cs-4-1-7-game-img-1.svg"> 
+                    <img alt="cs-4-1-game-div-container-img-1" class="DragGame--childs1" data-place="2"
+                    src="../../../img/gakvetilebi/Computer-Science/Class-4/Maintain-electronic-device-1/cs-4-1-7-game-img-2.svg"> 
+                    <img alt="cs-4-1-game-div-container-img-1" class="DragGame--childs1" data-place="3"
+                    src="../../../img/gakvetilebi/Computer-Science/Class-4/Maintain-electronic-device-1/cs-4-1-7-game-img-3.svg"> 
+                    <img alt="cs-4-1-game-div-container-img-1" class="DragGame--childs1" data-place="4"
+                    src="../../../img/gakvetilebi/Computer-Science/Class-4/Maintain-electronic-device-1/cs-4-1-7-game-img-4.svg">            
                 </div>
+            </div>
+                <div class="col-1 offset-1">
+                <div class="cs-4-1-game-div-container d-flex justify-content-center"> 
+                    <img alt="cs-4-1-game-div-container-img-1" class="DragGame--childs1" data-place="5"
+                    src="../../../img/gakvetilebi/Computer-Science/Class-4/Maintain-electronic-device-1/cs-4-1-7-game-img-5.svg"> 
+                    <img alt="cs-4-1-game-div-container-img-1" class="DragGame--childs1" data-place="6"
+                    src="../../../img/gakvetilebi/Computer-Science/Class-4/Maintain-electronic-device-1/cs-4-1-7-game-img-6.png">           
+                </div>
+            </div>   
+    </div>
+        <div class="cs-4-1-game-div"> 
+            <img alt="cs-4-1-game-div-container-img-1" class="myDrag" id="defaultImage"
+            src="../../../img/gakvetilebi/Computer-Science/Class-4/Maintain-electronic-device-1/cs-4-1-7-game-img-containerEmpty.svg"> 
+            <!-- <img alt="cs-4-1-game-div-container-img-1" class="myDrag"
+            src="../../../img/gakvetilebi/Computer-Science/Class-4/Maintain-electronic-device-1/cs-4-1-7-game-img-containerGamtari2.svg">  -->
+
+
+
+
+        </div>          
+
+        <div class="flex flex-end column align-items-end z-index reload_game_wrapper">
+            <button class="reset__btn" id="resetBtn">თავიდან სცადე</button>
+            <button class="completed__btn" id="completedGame">დასრულება</button>
+        </div>
             <div class="left_components_paging-cont" id="leftNav">
                 <left-nav-item></left-nav-item>
             </div>
@@ -102,6 +148,7 @@
 <script src="../../../js/detectdevice.js"></script>
     <script src="../../../js/libraries/jquery.magnific-popup.min.js"></script>
     <script src="../../../js/Pagination.js"></script>
+    <script src="./js/7.js"></script>
 
 
 <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->

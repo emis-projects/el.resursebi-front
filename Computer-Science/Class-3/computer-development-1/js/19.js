@@ -40,8 +40,17 @@ function computerGames(){
     }
 
     this.dragEnd = (e) => {
+        var theme = localStorage.getItem("theme");
         var elClassName = e.target.getAttribute('data-class')
         e.target.className = elClassName;
+        if (theme == "darck") {
+            e.target.className += ' completed__btn_black';
+        }
+        else{
+            if(e.target.classList){
+                e.target.classList.remove('completed__btn_black')
+            }
+        }
     }
 
     var myArray = [];

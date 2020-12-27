@@ -13,7 +13,7 @@ function handleLoadstop(event) {
 function game() {
     this.answersArray = '';
     this.error1 = true;
-    this.userAnswer1 = "1-2";
+    this.userAnswer1 = "1-3";
 
 
 

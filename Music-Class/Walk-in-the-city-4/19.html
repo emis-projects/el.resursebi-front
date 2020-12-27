@@ -44,6 +44,7 @@
 
         .m-4-18-radio img {
             width: 100%;
+            height: 100%;
         }
 
         .test--child {
@@ -59,6 +60,17 @@
 
         .DragGame—childs2 {
             z-index: 10000;
+            width: 100%;
+            height: max-content;
+        }
+
+        .class_music_4-img_18 img {
+            width: 100%;
+        }
+
+        .draggedElement {
+            width: 100%;
+            height: max-content;
         }
     </style>
 </head>
@@ -80,7 +92,7 @@
             </app-section>
         </section>
         <section id="mainPage">
-            <div class="row mt-4vh" id="correctAnswer" data-correct="123">
+            <div class="row">
                 <div class="col-8">
                     <div class="newDesign_subject_question_item">
                         <img alt="img" class="newDesign_subject_question_item-img" src="../../img/icons/newDesign_btn-yellow.svg">
@@ -95,39 +107,40 @@
                             <img src="../../img/gakvetilebi/Music-class/Walk-in-the-city-4/music-4-18-icon.svg" alt="image" class="class_music_4-img_icon" style="    display: inline;
                             width: 5vh;
                             height: auto;">
-                            <span class="class_music_4-title_purple listen--btn cursor-pointer" data-voice="./game-voices/სლაიდი 21/cafe-grocery-shop.wav">მოუსმინე</span>
+                            <span class="class_music_4-title_purple listen-music-purple-tag listen--btn cursor-pointer" data-voice="./game-voices/სლაიდი 21/cafe-grocery-shop.wav">მოუსმინე</span>
                             მუსიკალურ მარშრუტს. დააწკაპე იმავე თანმიმდევრობით ქალაქის კუთხეებს.    
                         </p>
                     </div>
                 </div>
-                <div class="col-4 mt-5vh class_music_4-img_circle d-flex justify-content-between images--parent">
-                    <img class="DragGame—childs2 cursor-pointer" data-number="1" src="../../img/gakvetilebi/Music-class/Walk-in-the-city-4/music-4-one.svg" alt="image">
-                    <img class="DragGame—childs2 cursor-pointer" data-number="2" src="../../img/gakvetilebi/Music-class/Walk-in-the-city-4/music-4-two.svg" alt="image">
-                    <img class="DragGame—childs2 cursor-pointer" data-number="3" src="../../img/gakvetilebi/Music-class/Walk-in-the-city-4/music-4-three.svg" alt="image">
-                    <img class="DragGame—childs2 cursor-pointer" data-number="4" src="../../img/gakvetilebi/Music-class/Walk-in-the-city-4/music-4-four.svg" alt="image">
+                <div class="col-4 mt-5vh class_music_4-img_circle d-flex justify-content-between DragGameResetParent images--parent">
+                    <img data-end="1" class="DragGame—childs2 DragGame--childs1 cursor-pointer" data-place="1" src="../../img/gakvetilebi/Music-class/Walk-in-the-city-4/music-4-one.svg" alt="image">
+                    <img data-end="1" class="DragGame—childs2 DragGame--childs1 cursor-pointer" data-place="2" src="../../img/gakvetilebi/Music-class/Walk-in-the-city-4/music-4-two.svg" alt="image">
+                    <img data-end="1" class="DragGame—childs2 DragGame--childs1 cursor-pointer" data-place="3" src="../../img/gakvetilebi/Music-class/Walk-in-the-city-4/music-4-three.svg" alt="image">
+                    <!-- <img class="DragGame—childs2 cursor-pointer" data-number="4" src="../../img/gakvetilebi/Music-class/Walk-in-the-city-4/music-4-four.svg" alt="image"> -->
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 class_music_4-img_19_1 d-flex justify-content-end">
-                    <img data-voice="./game-voices/სლაიდი 18/სანოტო მაგალითები/1. magaliti (square).wav" src="../../img/gakvetilebi/Music-class/Walk-in-the-city-4/music-new-04-16-park.svg" alt=" image" class="listen--btn cursor-pointer">
-                    <div class="test--child m-4-18-radio DragGame—childs1" data-index="4"></div>
-
-                </div>
                 <div class="col-8 ml-2vh class_music_4-img_18 d-flex justify-content-between">
                     <div class="relative">
                         <img data-voice="./game-voices/სლაიდი 18/სანოტო მაგალითები/5. magaliti (shop).wav" src="../../img/gakvetilebi/Music-class/Walk-in-the-city-4/music-new-04-16-building-1.svg" alt=" image" class="class_music_4-img_18_1 listen--btn cursor-pointer">
-                        <div class="m-4-18-radio DragGame—childs1" data-index="3"></div>
+                        <div class="m-4-18-radio myDrag" data-place="3"></div>
                     </div>
 
                     <div class="relative">
                         <img data-voice="./game-voices/სლაიდი 18/სანოტო მაგალითები/4. magaliti (grocery).wav" src="../../img/gakvetilebi/Music-class/Walk-in-the-city-4/music-new-04-16-building-2.svg" alt=" image" class="class_music_4-img_18_2 listen--btn cursor-pointer">
-                        <div class="m-4-18-radio DragGame—childs1" data-index="2"></div>
+                        <div class="m-4-18-radio myDrag" data-place="2"></div>
                     </div>
 
                     <div class="relative">
                         <img data-voice="./game-voices/სლაიდი 18/სანოტო მაგალითები/2. magaliti (cafe).wav" src="../../img/gakvetilebi/Music-class/Walk-in-the-city-4/music-new-04-16-building-6.svg" alt=" image" class="class_music_4-img_18_3 listen--btn cursor-pointer">
-                        <div class="m-4-18-radio DragGame—childs1" data-index="1"></div>
+                        <div class="m-4-18-radio myDrag" data-place="1"></div>
                     </div>
+                </div>
+
+                <div class="col-3 class_music_4-img_19_1 d-flex justify-content-end ml-auto">
+                    <img data-voice="./game-voices/სლაიდი 18/სანოტო მაგალითები/1. magaliti (square).wav" src="../../img/gakvetilebi/Music-class/Walk-in-the-city-4/music-new-04-16-park.svg" alt=" image" class="listen--btn cursor-pointer" style="width: 100%; margin-top: -70px;">
+                    <div class="test--child m-4-18-radio myDrag"></div>
+
                 </div>
             </div>
 

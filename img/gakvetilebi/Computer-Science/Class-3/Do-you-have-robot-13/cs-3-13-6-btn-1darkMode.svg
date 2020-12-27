@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="164" height="64" viewBox="0 0 164 64">
+  <defs>
+    <filter id="Path_60470" x="0" y="0" width="164" height="64" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feFlood flood-color="#947dce" flood-opacity="0.4"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_48515" data-name="Group 48515" transform="translate(-942 -192)">
+    <g transform="matrix(1, 0, 0, 1, 942, 192)" filter="url(#Path_60470)">
+      <path id="Path_60470-2" data-name="Path 60470" d="M21.538,0h96.923C130.357,0,140,8.954,140,20s-9.643,20-21.538,20H21.538C9.643,40,0,31.046,0,20S9.643,0,21.538,0Z" transform="translate(10 10)" fill="#000"/>
+    </g>
+    <text id="თამაში_" data-name="თამაში
+" transform="translate(995 212)" fill="#62548a" font-size="15" font-family="DejaVuSans, DejaVu Sans"><tspan x="0" y="18">თამაში</tspan></text>
+  </g>
+</svg>

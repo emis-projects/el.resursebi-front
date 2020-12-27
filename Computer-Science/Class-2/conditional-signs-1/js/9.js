@@ -75,6 +75,15 @@ function game(){
     this.dragEnd = e => {
         let elClassName = e.target.getAttribute('data-class');
         e.target.className = elClassName;
+        var theme = localStorage.getItem("theme");
+        if (theme == "darck") {
+            e.target.classList.add('new_btn-start_black_btn');
+        }
+        else{
+            if(e.target.classList.contains('new_btn-start_black_btn')){
+                e.target.classList.remove('new_btn-start_black_btn');
+            }
+        }
     }
     
 
@@ -184,9 +193,15 @@ function game(){
     this.errorPage = () => {
         dragElement2MyArray.forEach(w => {
             if(w.getAttribute('data-index') !== w.parentElement.getAttribute('data-index')){
+                if(w.classList.contains('new_btn-start_black_btn')){
+                    w.classList.remove('new_btn-start_black_btn')
+                }
                 w.parentElement.classList.add('error')
 
             } else if(w.getAttribute('data-index') == w.parentElement.getAttribute('data-index')) {
+                if(w.classList.contains('new_btn-start_black_btn')){
+                    w.classList.remove('new_btn-start_black_btn')
+                }
                 w.parentElement.classList.add('success')
             }
         })
@@ -202,6 +217,12 @@ function game(){
 
     this.resetGame = () => {
         dragElement1MyArray.forEach(w => {
+            var theme = localStorage.getItem("theme");
+            if (theme == "darck") {
+                if(w.children[0]){
+                    w.children[0].classList.add('new_btn-start_black_btn');
+                }
+            }
             let title = w.getAttribute('data-title');
             let index = w.getAttribute('data-childIndex');
 

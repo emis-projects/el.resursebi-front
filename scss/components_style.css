@@ -2170,11 +2170,11 @@ section .arrow_up_down_downArrow img {
 }
 
 .portfolio-slider-87.owl-theme .owl-dots .owl-dot:nth-child(1) span {
-  background-image: url("../img/gakvetilebi/xelovneba/calm-and-stormy/A-87-slider-1.png");
+  background-image: url("../img/gakvetilebi/xelovneba/calm-and-stormy/ნიჟარაძე.jpg");
 }
 
 .portfolio-slider-87.owl-theme .owl-dots .owl-dot:nth-child(2) span {
-  background-image: url("../img/gakvetilebi/xelovneba/calm-and-stormy/A-87-slider-2.jpg");
+  background-image: url("../img/gakvetilebi/xelovneba/calm-and-stormy/ახვლედიანი.jpeg");
 }
 
 .portfolio-slider-101.owl-theme .owl-dots .owl-dot:nth-child(1) span {
@@ -2218,15 +2218,15 @@ section .arrow_up_down_downArrow img {
 }
 
 .portfolio-slider-151.owl-theme .owl-dots .owl-dot:nth-child(1) span {
-  background-image: url("../img/gakvetilebi/xelovneba/calm-and-stormy/A-151-slider-1.png");
+  background-image: url("../img/gakvetilebi/xelovneba/calm-and-stormy/A-151-1.png");
 }
 
 .portfolio-slider-151.owl-theme .owl-dots .owl-dot:nth-child(2) span {
-  background-image: url("../img/gakvetilebi/xelovneba/calm-and-stormy/A-151-slider-2.png");
+  background-image: url("../img/gakvetilebi/xelovneba/calm-and-stormy/A-147-3.png");
 }
 
 .portfolio-slider-151.owl-theme .owl-dots .owl-dot:nth-child(3) span {
-  background-image: url("../img/gakvetilebi/xelovneba/calm-and-stormy/A-151-slider-3.png");
+  background-image: url("../img/gakvetilebi/xelovneba/calm-and-stormy/ერისთავი.png");
 }
 
 .portfolio-slider-159.owl-theme .owl-dots .owl-dot:nth-child(1) span {
@@ -2704,7 +2704,7 @@ section .arrow_up_down_downArrow img {
 }
 
 .portfolio-slider-10-23.owl-theme .owl-dots .owl-dot:nth-child(2) span {
-  background-image: url("../img/gakvetilebi/xelovneba/items-10/A-10-23-2.jpg");
+  background-image: url("../img/gakvetilebi/xelovneba/items-10/4.png");
   background-position: top;
 }
 
@@ -2717,11 +2717,11 @@ section .arrow_up_down_downArrow img {
 }
 
 .portfolio-slider-10-24.owl-theme .owl-dots .owl-dot:nth-child(1) span {
-  background-image: url("../img/gakvetilebi/xelovneba/items-10/A-10-24-1.jpg");
+  background-image: url("../img/gakvetilebi/xelovneba/items-10/3.png");
 }
 
 .portfolio-slider-10-24.owl-theme .owl-dots .owl-dot:nth-child(2) span {
-  background-image: url("../img/gakvetilebi/xelovneba/items-10/A-10-24-2.jpg");
+  background-image: url("../img/gakvetilebi/xelovneba/items-10/9.png");
   background-position: bottom;
 }
 
@@ -2731,7 +2731,7 @@ section .arrow_up_down_downArrow img {
 }
 
 .portfolio-slider-10-25.owl-theme .owl-dots .owl-dot:nth-child(2) span {
-  background-image: url("../img/gakvetilebi/xelovneba/items-10/A-10-25-2.jpg");
+  background-image: url("../img/gakvetilebi/xelovneba/items-10/5.png");
 }
 
 .portfolio-slider-10-10.owl-theme .owl-dots .owl-dot:nth-child(1) span {
@@ -3232,17 +3232,17 @@ section .arrow_up_down_downArrow img {
 }
 
 .portfolio-slider-music-new-1-5.owl-theme .owl-dots .owl-dot:nth-child(1) span {
-  background-image: url("../img/gakvetilebi/Music-class/voices-1/music-new-01-5-1.png");
+  background-image: url("../img/gakvetilebi/Music-class/voices-1/music-new-1-16-1.png");
   background-position: top;
 }
 
 .portfolio-slider-music-new-1-5.owl-theme .owl-dots .owl-dot:nth-child(2) span {
-  background-image: url("../img/gakvetilebi/Music-class/voices-1/music-new-01-5-2.png");
+  background-image: url("../img/gakvetilebi/Music-class/voices-1/music-new-1-16-2.png");
   background-position: top;
 }
 
 .portfolio-slider-music-new-1-5.owl-theme .owl-dots .owl-dot:nth-child(3) span {
-  background-image: url("../img/gakvetilebi/Music-class/voices-1/music-new-01-5-3.png");
+  background-image: url("../img/gakvetilebi/Music-class/voices-1/music-new-1-16-3.png");
   background-position: top;
 }
 
@@ -5412,5 +5412,26 @@ input:checked + .slider:before {
 .x_game_succes {
   margin-left: 2vh;
   margin-top: 1.3vh;
+}
+
+.border1PxSW {
+  border: 1px solid white;
+}
+
+.bot_header_black:before {
+  background: black !important;
+}
+
+.bot_header_black:after {
+  background: black !important;
+}
+
+.pagination__dot_black.active {
+  background-color: #000;
+  color: #ffffff !important;
+}
+
+#app .class-pagination .dot_black:hover {
+  background: #000;
 }
 /*# sourceMappingURL=components_style.css.map */

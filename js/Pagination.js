@@ -17,6 +17,13 @@ document.addEventListener('DOMContentLoaded', async () => {
     createDots(json);
 
     $('.pagination__item--el').mouseenter(function () {
+        //dark_mode
+        var theme = localStorage.getItem("theme");
+        if (theme == "darck") {
+            $(this).children('.pagination__dot').addClass('pagination__dot_black')
+        }
+
+
         let index = $(this).attr('data-index')
         $(this).children('.pagination__dot').addClass('active')
         $(this).children('.pagination__dot').text(index)

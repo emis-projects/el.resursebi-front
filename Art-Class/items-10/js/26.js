@@ -6,9 +6,19 @@ function artGame(){
     $(checkmark).on('click', (e) => this.clickMe(e));
     
 
+    // this.clickMe = (e) => {
+    //     e.target.parentElement.classList.add('active');
+    // }
+
+    // ჯეკო, if-else დავამატე //
     this.clickMe = (e) => {
-        e.target.parentElement.classList.add('active');
+        if(e.target.parentElement.classList.contains('active')){
+            e.target.parentElement.classList.remove('active');
+        }else{
+            e.target.parentElement.classList.add('active');
+        }
     }
+    // ********//
 
     this.completGame = () => {
         var count = 0;

@@ -37,67 +37,229 @@
 
             <app-section :is-active="isActive" :is-info="isInfo" v-image="'../../../'">
                 <app-bar :is-active="isActive" :trigger="trigger" :dots="dots" :current-tab="link"
-                         v-on:link-tab="link = $event">
+                    v-on:link-tab="link = $event">
 
                 </app-bar>
                 <component :path="path" :is="currentTabComponent" :is-active="isActive" :trigger="trigger"
-                           :active-class="activeClass" :images="images" :is-info="isInfo"
-                           :tab-class="currentTabComponent">
+                    :active-class="activeClass" :images="images" :is-info="isInfo" :tab-class="currentTabComponent">
                 </component>
 
             </app-section>
         </section>
         <section id="mainPage">
             <div class="row mt-4vh">
-                <div class="col-10 m-auto">
-                    <div class="newDesign_subject_question_item">
+                <div class="col-12 m-auto">
+                    <div class="newDesign_subject_question_item mb-5vh">
                         <img src="../../../img/icons/newDesign_btn-yellow.svg" alt="img"
                             class="newDesign_subject_question_item-img">
                         <p class="newDesign_subject_question_item-title Class_4-programing_2_title">
-                            ორობითი კოდით შესაძლებელია სურათების გამოსახვა და ჩაწერა კომპიუტერში.
-                        </p>
-                    </div>
-                    <div class="newDesign_subject_question_item mb-7vh">
-                        <img src="../../../img/icons/newDesign_btn-yellow.svg" alt="img"
-                            class="newDesign_subject_question_item-img">
-                        <p class="newDesign_subject_question_item-title Class_4-programing_2_title">
-                            შენ წინაშეა სამი სურათი. მოიფიქრე, რომელი პირობითი კოდი შეესაბამება ამ გამოსახულებებს.
+                            შენ გაეცანი ორობითი კოდით გამოსახულ ნახატებს. გამოიყენე 1 და 0 ციფრების ნაცვლად თეთრი და
+                            შავი ფერები. გაითვალისწინე, უჯრა ფერს შეიცვლის მასზე კურსორის დაწკაპებით.
                         </p>
                     </div>
                 </div>
             </div>
-            <div class="row m-auto">
-                <div class="col-9 d-flex justify-content-bewteen  mb-5vh">
-                    <div class="col d-flex justify-content-bewteen m-auto">
-                        <div class="class_3_14-box"><p><input id="1" class="mt-1vh ml-2vh checkmarkJS" onkeyup="myfunc(event)" type="text"></p></div>
-                        <img alt="" class="class_3_14-img_13_1"
-                            src="../../../img/gakvetilebi/Computer-Science/Class-3/Mystery-of-binary-bracelet-14/C-3-14-13-1.svg">
-                    </div>
-                    <div class="col d-flex justify-content-bewteen m-auto">
-                        <div class="class_3_14-box"><p><input id="2" class="mt-1vh ml-2vh checkmarkJS" type="text" onkeyup="myfunc(event)"></p></div>
-                        <img alt="" class="class_3_14-img_13_1"
-                            src="../../../img/gakvetilebi/Computer-Science/Class-3/Mystery-of-binary-bracelet-14/C-3-14-13-2.svg">
-                    </div>
-                    <div class="col d-flex justify-content-bewteen m-auto">
-                        <div class="class_3_14-box"><p><input id="3" class="mt-1vh ml-2vh checkmarkJS" type="text" onkeyup="myfunc(event)"></p></div>
-                        <img alt="" class="class_3_14-img_13_1"
-                            src="../../../img/gakvetilebi/Computer-Science/Class-3/Mystery-of-binary-bracelet-14/C-3-14-13-3.svg">
+            <div class="row">
+                <div class="col-8 d-flex ml-5vh">
+                    <img src="../../../img/gakvetilebi/Computer-Science/Class-3/Mystery-of-binary-bracelet-14/C-3-14-14-1.svg"
+                        class="class_3_14-img_14 mr-6vh" alt="img">
+                    <div class="game-holder imgBackgroundWhite">
+                        <span>
+                            <div class="game-block">
+                            </div>
+                            <div class="game-block">
+                            </div>
+                            <div class="game-block">
+                            </div>
+                            <div class="game-block">
+                            </div>
+                            <div class="game-block">
+                            </div>
+                            <div class="game-block">
+                            </div>
+                            <div class="game-block">
+                            </div>
+                            <div class="game-block">
+                            </div>
+                            <div class="game-block">
+                            </div>
+                        </span>
+                        <span>
+                            <div class="game-block">
+                            </div>
+                            <div class="game-block">
+                            </div>
+                            <div class="game-block">
+                            </div>
+                            <div class="game-block">
+                            </div>
+                            <div class="game-block">
+                            </div>
+                            <div class="game-block">
+                            </div>
+                            <div class="game-block">
+                            </div>
+                            <div class="game-block">
+                            </div>
+                            <div class="game-block">
+                            </div>
+                        </span>
+                        <span>
+                            <div class="game-block">
+                            </div>
+                            <div class="game-block">
+                            </div>
+                            <div class="game-block">
+                            </div>
+                            <div class="game-block">
+                            </div>
+                            <div class="game-block">
+                            </div>
+                            <div class="game-block">
+                            </div>
+                            <div class="game-block">
+                            </div>
+                            <div class="game-block">
+                            </div>
+                            <div class="game-block">
+                            </div>
+                        </span>
+                        <span>
+                            <div class="game-block">
+                            </div>
+                            <div class="game-block">
+                            </div>
+                            <div class="game-block">
+                            </div>
+                            <div class="game-block">
+                            </div>
+                            <div class="game-block">
+                            </div>
+                            <div class="game-block">
+                            </div>
+                            <div class="game-block">
+                            </div>
+                            <div class="game-block">
+                            </div>
+                            <div class="game-block">
+                            </div>
+                        </span>
+                        <span>
+                            <div class="game-block">
+                            </div>
+                            <div class="game-block">
+                            </div>
+                            <div class="game-block">
+                            </div>
+                            <div class="game-block">
+                            </div>
+                            <div class="game-block">
+                            </div>
+                            <div class="game-block">
+                            </div>
+                            <div class="game-block">
+                            </div>
+                            <div class="game-block">
+                            </div>
+                            <div class="game-block">
+                            </div>
+                        </span>
+                        <span>
+                            <div class="game-block">
+                            </div>
+                            <div class="game-block">
+                            </div>
+                            <div class="game-block">
+                            </div>
+                            <div class="game-block">
+                            </div>
+                            <div class="game-block">
+                            </div>
+                            <div class="game-block">
+                            </div>
+                            <div class="game-block">
+                            </div>
+                            <div class="game-block">
+                            </div>
+                            <div class="game-block">
+                            </div>
+                        </span>
+                        <span>
+                            <div class="game-block">
+                            </div>
+                            <div class="game-block">
+                            </div>
+                            <div class="game-block">
+                            </div>
+                            <div class="game-block">
+                            </div>
+                            <div class="game-block">
+                            </div>
+                            <div class="game-block">
+                            </div>
+                            <div class="game-block">
+                            </div>
+                            <div class="game-block">
+                            </div>
+                            <div class="game-block">
+                            </div>
+                        </span>
+                        <span>
+                            <div class="game-block">
+                            </div>
+                            <div class="game-block">
+                            </div>
+                            <div class="game-block">
+                            </div>
+                            <div class="game-block">
+                            </div>
+                            <div class="game-block">
+                            </div>
+                            <div class="game-block">
+                            </div>
+                            <div class="game-block">
+                            </div>
+                            <div class="game-block">
+                            </div>
+                            <div class="game-block">
+                            </div>
+                        </span>
+                        <span>
+                            <div class="game-block">
+                            </div>
+                            <div class="game-block">
+                            </div>
+                            <div class="game-block">
+                            </div>
+                            <div class="game-block">
+                            </div>
+                            <div class="game-block">
+                            </div>
+                            <div class="game-block">
+                            </div>
+                            <div class="game-block">
+                            </div>
+                            <div class="game-block">
+                            </div>
+                            <div class="game-block">
+                            </div>
+                        </span>
                     </div>
                 </div>
-                <div class="col-9 d-flex justify-content-bewteen ml-4vh">
-                    <div class="col">
-                        <img alt="" class="class_3_14-img_13_letter_a"
-                        src="../../../img/gakvetilebi/Computer-Science/Class-3/Mystery-of-binary-bracelet-14/C-3-14-13-4.svg">
-                        <img alt="" class="class_3_14-img_13_letter_b"
-                        src="../../../img/gakvetilebi/Computer-Science/Class-3/Mystery-of-binary-bracelet-14/C-3-14-13-5.svg">
-                        <img alt="" class="class_3_14-img_13_letter_c"
-                        src="../../../img/gakvetilebi/Computer-Science/Class-3/Mystery-of-binary-bracelet-14/C-3-14-13-6.svg">
+                <div class="marg-l col-3">
+                    <div class="d-flex mt-3vh">
+                        <img style="border: 1px solid grey;" src="../../../img/gakvetilebi/Computer-Science/Class-3/Mystery-of-binary-bracelet-14/C-3-14-14-3.svg"
+                            class="class_3_14-img_14_1 ml-4vh" alt="img">
+                        <img src="../../../img/gakvetilebi/Computer-Science/Class-3/Mystery-of-binary-bracelet-14/C-3-14-14-zero.svg"
+                            class="ml-3vh changeImgDarkMode" alt="img">
                     </div>
-                    <div class="d-flex">
-                        <img alt="" class="class_3_14-img_13"
-                            src="../../../img/gakvetilebi/Computer-Science/Class-3/Mystery-of-binary-bracelet-14/C-3-14-13-7.svg">
-                    </div
-                ></div>
+                    <div class="d-flex mt-6vh">
+                        <img src="../../../img/gakvetilebi/Computer-Science/Class-3/Mystery-of-binary-bracelet-14/C-3-14-14-4.svg"
+                            class="class_3_14-img_14_1 ml-4vh" alt="img">
+                        <img src="../../../img/gakvetilebi/Computer-Science/Class-3/Mystery-of-binary-bracelet-14/C-3-14-14-one.svg"
+                            class="ml-3vh changeImgDarkMode" alt="img">
+                    </div>
+                </div>
             </div>
 
             <div class="flex flex-end column align-items-end z-index reload_game_wrapper">
@@ -105,7 +267,7 @@
                 <button id="completedGame" class="completed__btn">დასრულება</button>
             </div>
 
-             <!-- ეს არის svg თეგირომელიც ქმნის მარცხენა ვერტიკალურ "ნავ რუკას" -->
+            <!-- ეს არის svg თეგირომელიც ქმნის მარცხენა ვერტიკალურ "ნავ რუკას" -->
             <div class="left_components_paging-cont" id="leftNav">
                 <left-nav-item></left-nav-item>
             </div>
@@ -137,14 +299,13 @@
     <script src="../../../js/Pagination.js"></script>
 
 
-<!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
+    <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
     <script src="../../../New-header-vue/vis.js"></script>
     <script src="../../../New-header-vue/app.js"></script>
     <script src="../../../Vue-chatBot/botApp.js"></script>
     <script src="../../../js/bot.js"></script>
-    <script src="./js/13.js"></script>
 
-
+    <script src="js/14.js"></script>
 </body>
 
 </html>

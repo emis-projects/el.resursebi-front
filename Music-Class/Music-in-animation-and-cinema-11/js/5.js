@@ -99,8 +99,11 @@ function game() {
                     childs[i].querySelector('.class_music_3-check_box_item').classList.remove('success')
                 }
             } else {
-                document.querySelector('.correct--element').classList.remove('selected')
-                document.querySelector('.correct--element').classList.add('success')
+                let childs = document.querySelectorAll('.correct--element');
+                childs.forEach(element => {
+                    element.classList.remove('selected')
+                    element.classList.add('success')
+                });
             }
         })
     }

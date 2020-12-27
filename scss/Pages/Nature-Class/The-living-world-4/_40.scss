@@ -1,9 +1,24 @@
 .The_living_world {
     &-img_box_40 {
-        height: 31.77vh;
-        max-width: 208.7px;
+        
         img {
-            height: 100%;
+            position: fixed;
+            top: 9vh;
+            left: 20vh;
+            height: 78vh;
         }
+    }
+}
+.The_living_world {
+    &-img_box_36 {
+        img {
+            position: relative;
+            top: -75px;
+            height: 85vh;
+        }
+    }
+    &-img_box_36_item {
+        position: relative;
+        top: -21rem;
     }
 }
