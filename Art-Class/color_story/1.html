@@ -3,29 +3,29 @@
 <html lang="ka" data-botid="2318">
 
 <head>
-  <meta charset="UTF-8"/>
-  <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-    <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
-    <script src="../../js/vue.js"></script>
-    <!--  ვუე გაშვებისას
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+  <script src="../../js/vue.js"></script>
+  <!--  ვუე გაშვებისას
       <script src="./js/vue.min.js"></script>
        -->
-    <link rel="stylesheet" href="../../scss/libraries/bootstrap.min.css">
-    <link rel="stylesheet" href="../../New-header-vue/animate.min.css">
-    <link rel="stylesheet" href="../../scss/libraries/magnific-popup.css">
-    <link rel="stylesheet" type="text/css" href="../../scss/libraries/owl.carousel.min.css"/>
-    <link rel="stylesheet" type="text/css" href="../../scss/libraries/owl.theme.default.css"/>
-    <link href="../../scss/new-style.css" rel="stylesheet"/>
-<link href="../../scss/new-style.css" rel="stylesheet"/>
-    <title>ელექტრონული საგანმანათლებლო რესურსი</title>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
+  <link rel="stylesheet" href="../../scss/libraries/bootstrap.min.css">
+  <link rel="stylesheet" href="../../New-header-vue/animate.min.css">
+  <link rel="stylesheet" href="../../scss/libraries/magnific-popup.css">
+  <link rel="stylesheet" type="text/css" href="../../scss/libraries/owl.carousel.min.css" />
+  <link rel="stylesheet" type="text/css" href="../../scss/libraries/owl.theme.default.css" />
+  <link href="../../scss/new-style.css" rel="stylesheet" />
+  <link href="../../scss/new-style.css" rel="stylesheet" />
+  <title>ელექტრონული საგანმანათლებლო რესურსი</title>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
+    function gtag() {
+      dataLayer.push(arguments);
+    }
 
     gtag('js', new Date());
 
@@ -34,84 +34,74 @@
 </head>
 
 <body>
-<div class="container">
-  <section id="app" class="container position-absolute">
+  <div class="container">
+    <section id="app" class="container position-absolute">
       <header>
-          <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../'"></app-menu>
+        <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../'"></app-menu>
       </header>
 
       <app-section :is-active="isActive" :is-info="isInfo" v-image="'../../'">
-          <app-bar
-                  :current-tab="link"
-                  :dots="dots"
-                  :is-active="isActive"
-                  :trigger="trigger"
-                  v-on:link-tab="link = $event">
+        <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger"
+          v-on:link-tab="link = $event">
 
-          </app-bar>
-          <component
-                  :active-class="activeClass"
-                  :images="images"
-                  :is="currentTabComponent"
-                  :is-active="isActive"
-                  :is-info="isInfo"
-                  :path="path" :tab-class="currentTabComponent">
-              :trigger="trigger">
-          </component>
+        </app-bar>
+        <component :is="currentTabComponent" :is-active="isActive" :path="path" :trigger="trigger" :images="images"
+          :active-class="activeClass" :is-info="isInfo" :tab-class="currentTabComponent">
+        </component>
 
       </app-section>
-  </section>
-  <section id="mainPage">
-    <div class="row">
-      <div class="main-box_absolute">
-        <div class="main-box_relative">
-          <div class="owl-carousel owl-theme">
-            <div class="item">
-              <p class="carousel_text text-center">ფერებით მოთხრობილი ამბავი</p>
-              <img src="../../img/gakvetilebi/xelovneba/slider/slide-1.jpg" alt="art" />
-            </div>
-            <div class="item">
-              <p class="carousel_text text-center">ფერებით მოთხრობილი ამბავი</p>
-              <img src="../../img/gakvetilebi/xelovneba/slider/slide-2.jpg" alt="art" />
-            </div>
-            <div class="item">
+    </section>
+    <section id="mainPage">
+      <div class="row">
+        <div class="main-box_absolute">
+          <div class="main-box_relative">
+            <div class="owl-carousel owl-theme">
+              <div class="item">
+                <p class="carousel_text text-center">ფერებით მოთხრობილი ამბავი</p>
+                <img src="../../img/gakvetilebi/xelovneba/slider/slide-1.jpg" alt="art" />
+              </div>
+              <div class="item">
+                <p class="carousel_text text-center">ფერებით მოთხრობილი ამბავი</p>
+                <img src="../../img/gakvetilebi/xelovneba/slider/slide-2.jpg" alt="art" />
+              </div>
+              <div class="item">
                 <p class="carousel_text text-center">ფერებით მოთხრობილი ამბავი</p>
                 <img src="../../img/gakvetilebi/xelovneba/slider/slide-3.jpg" alt="art" />
               </div>
+            </div>
           </div>
         </div>
+        <div class="our__pagination flex">
+          <a href="#" class="pagination__prev__btn">
+            <img style="transform: rotate(180deg)" src="../../img/icons/chevron-left-icon.svg" alt="">
+          </a>
+          <div id="pagination" class="flex align-items-center"></div>
+          <a href="#" class="pagination__next__btn">
+            <img src="../../img/icons/chevron-left-icon.svg" alt="">
+          </a>
+        </div>
       </div>
-      <div class="our__pagination flex">
-        <a href="#" class="pagination__prev__btn">
-          <img style="transform: rotate(180deg)" src="../../img/icons/chevron-left-icon.svg" alt="">
-        </a>
-        <div id="pagination" class="flex align-items-center"></div>
-        <a href="#" class="pagination__next__btn">
-          <img src="../../img/icons/chevron-left-icon.svg" alt="">
-        </a>
-      </div>
-    </div>
-  </section>
-</div>
+    </section>
+  </div>
 
 
-<!-- ჩეთბოტი -->
-<div id="chatBot">
-  <app-bot></app-bot>
-</div>
+  <!-- ჩეთბოტი -->
+  <div id="chatBot">
+    <app-bot></app-bot>
+  </div>
 
-<script src="../../js/libraries/jquery-3.4.1.min.js"></script>
-<script src="../../js/detectdevice.js"></script>
-<script src="../../js/libraries/owl.carousel.min.js"></script>
-<script src="../../js/Pagination.js"></script>
-<script src="../../js/slider.js"></script>
+  <script src="../../js/libraries/jquery-3.4.1.min.js"></script>
+  <script src="../../js/detectdevice.js"></script>
+  <script src="../../js/libraries/owl.carousel.min.js"></script>
+  <script src="../../js/Pagination.js"></script>
+  <script src="../../js/slider.js"></script>
 
 
-<!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
-    <script src="../../New-header-vue/vis.js"></script>
-    <script src="../../New-header-vue/app.js"></script>
-<script src="../../Vue-chatBot/botApp.js"></script>
-<script src="../../js/bot.js"></script>
+  <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
+  <script src="../../New-header-vue/vis.js"></script>
+  <script src="../../New-header-vue/app.js"></script>
+  <script src="../../Vue-chatBot/botApp.js"></script>
+  <script src="../../js/bot.js"></script>
 
 
 </body>
