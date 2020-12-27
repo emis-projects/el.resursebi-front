@@ -1,0 +1,55 @@
+.flamingo-33-image_box {
+  max-height: 133px;
+  height: 17.3vh;
+}
+.flamingo-33-image_box img {
+  height: 100%;
+}
+
+.flamingo-33-bg-box {
+  max-height: 188px;
+  height: 24.4vh;
+  margin-top: 7.6vh;
+}
+.flamingo-33-bg-box .img-box {
+  max-width: 239px;
+  width: 18vw;
+  position: relative;
+  border-radius: 6px;
+}
+.flamingo-33-bg-box .img-box img {
+  border-radius: 6px;
+  width: 100%;
+}
+.flamingo-33-bg-box .img-box .inner-box {
+  position: absolute;
+  background: #fff;
+  top: 0;
+  right: 0;
+  height: 8vh;
+  width: 6.8vw;
+  max-width: 93px;
+  border-radius: 6px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.16);
+}
+.flamingo-33-bg-box .img-box .inner-box img {
+  border-radius: 6px;
+  height: 100%;
+}
+
+.animal-image-box {
+  height: 24.4vh;
+  margin-top: 7.6vh;
+  max-width: 123px;
+  border-radius: 6px;
+}
+.animal-image-box img {
+  border-radius: 6px;
+  height: 10.5vh;
+}
+
+.chameleon-34-bg-box {
+  max-height: 105px;
+  height: 13.5vh;
+  margin-top: 5.2vh;
+}

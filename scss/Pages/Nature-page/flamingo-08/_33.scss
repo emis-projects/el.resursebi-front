@@ -16,8 +16,9 @@
     max-width: 239px;
     width: 18vw;
     position: relative;
-    border-radius: 0 6px;
+    border-radius: 6px;
     img{
+      border-radius: 6px;
       width: 100%;
     }
     .inner-box{
@@ -28,9 +29,10 @@
       height: 8vh;
       width: 6.8vw;
       max-width: 93px;
-      border-radius: 0 6px;
+      border-radius: 6px;
       box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.16);
       img{
+        border-radius: 6px;
         height: 100%;
       }
     }
@@ -40,7 +42,9 @@
   height: 24.4vh;
   margin-top: 7.6vh;
   max-width: 123px;
+  border-radius: 6px;
   img{
+    border-radius: 6px;
     height: 10.5vh;
   }
 }

@@ -4159,7 +4159,7 @@ section .arrow_up_down_downArrow img {
 }
 
 .portfolio-slider-12-29.owl-theme .owl-dots .owl-dot:nth-child(3) span {
-  background-image: url("../img/gakvetilebi/xelovneba/VR_exhibition/A-12-29-2.jpg");
+  background-image: url("../img/gakvetilebi/xelovneba/VR_exhibition/A-12-29-firosmani.jpg");
   background-position: top;
 }
 
@@ -16901,10 +16901,11 @@ td img {
   max-width: 239px;
   width: 18vw;
   position: relative;
-  border-radius: 0 6px;
+  border-radius: 6px;
 }
 
 .flamingo-33-bg-box .img-box img {
+  border-radius: 6px;
   width: 100%;
 }
 
@@ -16916,12 +16917,13 @@ td img {
   height: 8vh;
   width: 6.8vw;
   max-width: 93px;
-  border-radius: 0 6px;
+  border-radius: 6px;
   -webkit-box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.16);
           box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.16);
 }
 
 .flamingo-33-bg-box .img-box .inner-box img {
+  border-radius: 6px;
   height: 100%;
 }
 
@@ -16929,9 +16931,11 @@ td img {
   height: 24.4vh;
   margin-top: 7.6vh;
   max-width: 123px;
+  border-radius: 6px;
 }
 
 .animal-image-box img {
+  border-radius: 6px;
   height: 10.5vh;
 }
 
@@ -42291,6 +42295,16 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .cs-6-13-3-1-div p {
+  color: #947DCE;
+}
+
+.cs-6-13-3-1-div-2 img {
+  margin: 2px auto 0;
+  height: 32vh;
+  width: 18.52vw;
+}
+
+.cs-6-13-3-1-div-2 p {
   color: #947DCE;
 }
 

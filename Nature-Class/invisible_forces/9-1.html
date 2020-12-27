@@ -1,17 +1,16 @@
+
 <!DOCTYPE html>
 <!-- ბოტის აიდიში ვუთითებთ: ხელოვნების - 2318, ბუნების - 2320, მუსიკის - 2292 -->
-<html lang="ka" data-botid="2318">
+<html lang="ka" data-botid="2320">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
     <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
     <script src="../../js/vue.js"></script>
     <!--  ვუე გაშვებისას
         <script src="./js/vue.min.js"></script>
          -->
-    <link rel="stylesheet" type="text/css" href="../../scss/libraries/owl.carousel.min.css"/>
-    <link rel="stylesheet" type="text/css" href="../../scss/libraries/owl.theme.default.css"/>
     <link rel="stylesheet" href="../../New-header-vue/animate.min.css">
     <link rel="stylesheet" href="../../scss/libraries/bootstrap.min.css">
     <link rel="stylesheet" href="../../scss/libraries/magnific-popup.css">
@@ -27,7 +26,7 @@
             dataLayer.push(arguments);
         }
 
-        gtag('js', new Date());
+    gtag('js', new Date());
 
     gtag('config', 'UA-155006442-1');
   </script>
@@ -35,125 +34,12 @@
 
 <body>
   <div class="container">
-    <section id="app" class="container position-absolute">
-        <header>
-            <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../'"></app-menu>
-        </header>
-
-        <app-section :is-active="isActive" :is-info="isInfo" v-image="'../../'">
-            <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger"
-                     v-on:link-tab="link = $event">
-
-            </app-bar>
-            <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive"
-                       :is-info="isInfo"
-                       :path="path" :tab-class="currentTabComponent" :trigger="trigger">
-            </component>
-
-        </app-section>
-    </section>
-    <section id="mainPage">
-      <div class="row">
-        <div class="col-10 m-auto">
-          <div class="newDesign_subject_question_item">
-            <p class="newDesign_subject_question_item-title pl-5">ცნობილი მხატვრების ნამუშევრები</p>
-          </div>
-          <div class="row">
-            <div class="col-5">
-                <div class="d-flex flex-column justify-content-between">
-                    <div class="portfolio-item-container portfolio-item-container_newDesign a-12-29-img">
-                        <img src="../../img/gakvetilebi/xelovneba/VR_exhibition/A-12-29-1.jpg" alt="color story"
-                             class="portfolio-item-container_img" />
-                        <div class="paging_buttons">
-                          <a href="" id="slide1" class="paging_buttons_fullScreen-link" data-toggle="modal"
-                            data-target="#exampleModal"><img src="../../img/icons/arrows_blue.svg" alt="color story"
-                                                             class="paging_buttons_fullScreen-img" /></a>
-                        </div>
-                      </div>
-                      <p class="newDesign_subject_question_item-title mt-1vh ">
-                        კაცუშიკა ჰოკუსაი, "კანაგავას დიდი ტალღა"
-                      </p>
-                      <div class="portfolio-item-container portfolio-item-container_newDesign a-12-29-img">
-                        <img src="../../img/gakvetilebi/xelovneba/VR_exhibition/A-12-28-2.jpg" alt="color story"
-                             class="portfolio-item-container_img" />
-                        <div class="paging_buttons">
-                          <a href="" id="slide2" class="paging_buttons_fullScreen-link" data-toggle="modal"
-                            data-target="#exampleModal"><img src="../../img/icons/arrows_blue.svg" alt="color story"
-                                                             class="paging_buttons_fullScreen-img" /></a>
-                        </div>
-                      </div>
-                      <p class="newDesign_subject_question_item-title mt-1vh ">
-                        პიტერ ბრეიგელი, იკაროსის ჩამოვარდნა
-                      </p>
-                </div>
-            </div>
-            <div class="col-7  d-flex align-items-center">
-              <div class="portfolio-item-container portfolio-item-container_newDesign portfolio-item-container_newDesign-smd">
-                <img src="../../img/gakvetilebi/xelovneba/VR_exhibition/A-12-29-firosmani.jpg" alt="color story"
-                     class="portfolio-item-container_img" />
-                <div class="paging_buttons">
-                  <a href="" id="slide3" class="paging_buttons_fullScreen-link" data-toggle="modal"
-                    data-target="#exampleModal"><img src="../../img/icons/arrows_blue.svg" alt="color story"
-                                                     class="paging_buttons_fullScreen-img" /></a>
-                </div>
-              </div>
-              <p class="newDesign_subject_question_item-title mt-1vh ">
-                ნიკო ფიროსმანი, "ბათუმი"
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Modal -->
-      <div class="modal fade fullScreen_modal-fade" id="exampleModal" tabindex="-1" role="dialog"
-        aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog fullScreen_modal-dialog" role="document">
-          <div class="modal-content fullScreen_modal-content">
-            <div class="container modal-header fullScreen_modal-header">
-              <a aria-label="Close" class="close" data-dismiss="modal" href="13.html">
-                <img src="../../img/icons/close.svg" alt="close" />
-              </a>
-            </div>
-            <div class="modal-body fullScreen_modal-body">
-              <div class="container-fluid">
-                <div class="owl-carousel owl-theme row no-gutters portfolio-slider portfolio-slider-12-29">
-                  <div class="item col-12 slide_content-box">
-                    <div>
-                      <div class="fullScreen_modal-img-lg-hor">
-                        <img src="../../img/gakvetilebi/xelovneba/VR_exhibition/A-12-29-1.jpg" alt="color story" />
-                      </div>
-                      <h2 class="fullScreen_modal-title">
-                        კაცუშიკა ჰოკუსაი, "კანაგავას დიდი ტალღა"
-                    </h2>
-                    </div>
-                  </div>
-                  <div class="item col-12 slide_content-box">
-                    <div>
-                      <div class="fullScreen_modal-img-lg-hor">
-                        <img src="../../img/gakvetilebi/xelovneba/VR_exhibition/A-12-28-2.jpg" alt="color story" />
-                      </div>
-                      <h2 class="fullScreen_modal-title">
-                        პიტერ ბრეიგელი, იკაროსის ჩამოვარდნა
-                    </h2>
-                    </div>
-                  </div>
-                  <div class="item col-12 slide_content-box">
-                    <div>
-                      <div class="fullScreen_modal-img-lg-hor">
-                        <img src="../../img/gakvetilebi/xelovneba/VR_exhibition/A-12-29-firosmani.jpg" alt="color story" />
-                      </div>
-                      <h2 class="fullScreen_modal-title">
-                        ნიკო ფიროსმანი, "ბათუმი"
-                    </h2>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+    <header>
+      <a class="close" href="9.html">
+        <img src="../../img/icons/close.svg" alt="close" />
+      </a>
+    </header>
+    <section>
       <div class="left_components_paging-cont">
         <svg class="left_components_paging" xmlns="http://www.w3.org/2000/svg"
           xmlns:xlink="http://www.w3.org/1999/xlink" width="134" height="722" viewBox="0 0 134 722">
@@ -218,7 +104,7 @@
             <path class="leftSidebar_type" style="opacity: 0" data-type="5" id="Path_24922" data-name="Path 24922"
               d="M-107,293.662h-25.155a28.388,28.388,0,0,0-21.1,9.686A34.87,34.87,0,0,0-162,326.736c0,18.266,13.362,33.074,29.844,33.074H-107c20.013,0,36.24,17.983,36.24,40.162V253.5C-70.762,275.679-86.988,293.662-107,293.662Z"
               transform="translate(195.761 283.264)" fill="#7fd1d8" />
-            <path class="leftSidebar_type" style="opacity: 0" data-type="3" id="Path_143735" data-name="Path 143735"
+            <path class="leftSidebar_type" style="opacity: 1" data-type="3" id="Path_143735" data-name="Path 143735"
               d="M-107,293.662h-25.155a28.388,28.388,0,0,0-21.1,9.686A34.87,34.87,0,0,0-162,326.736c0,18.266,13.362,33.074,29.844,33.074H-107c20.013,0,36.24,17.983,36.24,40.162V253.5C-70.762,275.679-86.988,293.662-107,293.662Z"
               transform="translate(195.761 57.264)" fill="#7fd1d8" />
             <g id="Group_8099" data-name="Group 8099" transform="translate(-1.874 20)">
@@ -509,13 +395,13 @@
               <tspan x="0" y="0">მინიშნება</tspan>
             </text>
             <text id="შუალედური_დავალება" data-name="შუალედური
-                            დავალება" transform="translate(70 549)" fill="#c5cbcd" font-size="12"
+                        დავალება" transform="translate(70 549)" fill="#c5cbcd" font-size="12"
               font-family="ALKSanet, ALK Sanet">
               <tspan x="-35.344" y="0">შუალედური</tspan>
               <tspan x="-30.636" y="12">დავალება</tspan>
             </text>
             <text id="კომპლექსური_დავალება" data-name="კომპლექსური
-                            დავალება" transform="translate(70 668)" fill="#c5cbcd" font-size="12"
+                        დავალება" transform="translate(70 668)" fill="#c5cbcd" font-size="12"
               font-family="ALKSanet, ALK Sanet">
               <tspan x="-42.015" y="0">კომპლექსური</tspan>
               <tspan x="-30.636" y="12">დავალება</tspan>
@@ -523,17 +409,36 @@
           </g>
         </svg>
       </div>
-
-      <div class="our__pagination flex">
-        <a href="#" class="pagination__prev__btn">
-          <img style="transform: rotate(180deg)" src="../../img/icons/chevron-left-icon.svg" alt="">
-        </a>
-
-        <div id="pagination" class="flex align-items-center"></div>
-
-        <a href="#" class="pagination__next__btn">
-          <img src="../../img/icons/chevron-left-icon.svg" alt="">
-        </a>
+      <div class="row newDesign_hintPage">
+        <div class="col-10 m-auto">
+          <div class="newDesign_container_main_title-cont newDesign_container_main_title-cont-margin">
+            <h1 class="newDesign_container_main_title">კომპასი</h1>
+            <img src="../../img/icons/main_title-border.svg" alt="img" class="newDesign_container_main_title-img">
+          </div>
+          <div class="row">
+            <div class="col-4">
+                <div>
+                    <img src="../../img/gakvetilebi/buneba/invisible_forces/N2-1366-121.png" alt="sound" class="n_hint-magnet-img">
+                </div>
+                <div>
+                    <img src="../../img/gakvetilebi/buneba/invisible_forces/N-02-13.png" alt="sound" class="n_hint-magnet-img mt-2">
+                </div>
+            </div>
+            <div class="col-6 offset-1 nature_content_text">
+                <p class="nature_content_box_text pDarkMode">
+                    ხელსაწყო, რომელიც გვიჩვენებს ჰორიზონტის მხარეებს
+                </p>
+                <p class="nature_content_box_text mt-5vh pDarkMode">
+                    მეზღვაურებმა ძველი ჩინეთიდან 900 წლის წინ ისწავლეს ამ საოცარი ხელსაწყოს გაკეთება. მათ
+                    შეამჩნიეს , რომ ბუნებაში არსებობს უცნაური ქვა (მაგნიტი), რომლის ნატეხსაც თუ წყალზე
+                    მოტივტივე ხის ნაფოტზე დადებ, ის სულ ერთ მხარეს (ჩრდილოეთისკენ) ტრიალდება. შემდეგ
+                    აღმოჩნდა, რომ თუ რკინის ნაჭერს დიდი ხანი დაადებ ამ ქვას (მაგნიტს), ისიც შეიძენს მის
+                    უცნაურ თვისებებს. ასე დაიწყეს პირველი კომპასების შექმნა, რომელთაც მეზღვაურები და
+                    მოგზაურები ჰორიზონტის მხარეების მოსაძებნად იყენებდნენ.
+                </p>
+            </div>
+        </div>
+        </div>
       </div>
     </section>
   </div>
@@ -547,9 +452,6 @@
   <script src="../../js/libraries/jquery-3.4.1.min.js"></script>
 <script src="../../js/detectdevice.js"></script>
   <script src="../../js/libraries/jquery.magnific-popup.min.js"></script>
-  <script src="../../js/libraries/owl.carousel.min.js"></script>
-  <script src="../../js/libraries/bootstrap.min.js"></script>
-  <script src="../../js/Pagination.js"></script>
 
 
   <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
@@ -558,30 +460,6 @@
   <script src="../../Vue-chatBot/botApp.js"></script>
   <script src="../../js/bot.js"></script>
 
-
-  <script>
-    var owl = $(".owl-carousel");
-    owl.owlCarousel({
-      loop: true,
-      nav: false,
-      dots: true,
-      margin: 10,
-      items: 1,
-      autoplay: false,
-      autoHeight: true,
-      autoplayTimeout: 4000,
-      autoplayHoverPause: true
-    });
-    $(document).on("click", "#slide1", function () {
-      owl.trigger("to.owl.carousel", 0);
-    });
-    $(document).on("click", "#slide2", function () {
-      owl.trigger("to.owl.carousel", 1);
-    });
-    $(document).on("click", "#slide3", function () {
-      owl.trigger("to.owl.carousel", 2);
-    });
-  </script>
 </body>
 
 </html>
