@@ -1,6 +1,6 @@
 // variables for data store
-const countryDrop = [];
-const countryDrag = [];
+var countryDrop = [];
+var countryDrag = [];
 
 let dropItemParent = [];
 let dropItem = [];
@@ -98,21 +98,26 @@ function initFn() {
         if (theme == "darck") {
             $(dropItem[i]).addClass('completed__btn_black')
         }
-        dropItem[i].css({
-            background: ''
-        });
+        if(dropItem[i]){
+            dropItem[i].css({
+                background: ''
+            });
+        }
         dropItemParent[i].append(dropItem[i])
     }
     document.getElementById('completedGame').removeAttribute('disabled');
     //enable drag
     $('.draggable').draggable('enable')
+    countryDrop = [];
+    countryDrag = [];
 }
 
 // check for array equality
 function arraysEqual(arr1, arr2) {
     for (let i = arr1.length; i--;) {
-        if (arr1[i] !== arr2[i])
+        if (arr1[i] !== arr2[i]){
             return false
+        }    
     }
     return true;
 }
