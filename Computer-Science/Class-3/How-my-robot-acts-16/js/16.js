@@ -83,7 +83,6 @@ function computerGames() {
 
     this.successPage = () => {
         this.errorPage();
-        console.log('count', count)
         if(count == 21){
             location.href = 'game-success-16.html';
         }
