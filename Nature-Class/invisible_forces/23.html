@@ -54,43 +54,83 @@
 
         <section id="mainPage">
             <div class="row">
-                <div class="col-11 m-auto">
-                    <div class="newDesign_container_main_title-cont newDesign_container_main_title-cont-margin">
-                        <h1 class="newDesign_container_main_title">კვლევა</h1>
-                        <img src="../../img/icons/main_title-border.svg" alt="img"
-                            class="newDesign_container_main_title-img">
-                    </div>
-                    <div class="row">
-                        <div class="col-6">
-                            <div class="newDesign_subject_question_item">
-                                <p class="newDesign_subject_question_item-title">
-                                    კვლევის დროს ჩვენ ვსვამთ კითხვებს და ვეძებთ პასუხებს;
-                                </p>
-                            </div>
-                            <div class="newDesign_subject_question_item mt-5vh">
-                                <p class="newDesign_subject_question_item-title">
-                                    ჯერ გამოვთქვამთ ვარაუდებს, რა შეიძლება იყოს ჩვენთვის საინტერესო პრობლემის გამომწვევი მიზეზი;
-                                </p>
-                            </div>
-                            <div class="newDesign_subject_question_item mt-5vh">
-                                <p class="newDesign_subject_question_item-title">
-                                    შემდეგ გამოვიძიებთ ჩვენთვის საინტერესო საკითხს;
-                                </p>
-                            </div>
-                            <div class="newDesign_subject_question_item mt-5vh">
-                                <p class="newDesign_subject_question_item-title">
-                                    გამოძიების შედეგებზე დავფიქრდებით და გამოვიტანთ დასკვნას.
-                                </p>
-                            </div>
+               <div class="col-11 m-auto">
+                <section class="ask_question_game">
+                    <div class="subject_component row" style="margin-bottom: 0;">
+
+                      <div class="col-3 d-flex flex-column">
+
+                        <div class="ask_question_game_box ask_question_game_box--first"
+                          data-title="კომპასის ისარი მაგნიტია!" draggable="true">
+                          <h5 class="draggeble_h5" data-index="5">კომპასის ისარი მაგნიტია!</h5>
                         </div>
-                        <div class="col-6">
-                            <div class="research_circle-container">
-                                <img src="../../img/gakvetilebi/buneba/ask-question.svg" alt="" class="research_circle-img position-static mt-10vh">
-                            </div>
+
+                        <div class="ask_question_game_box ask_question_game_box--second"
+                          data-title="ჩვენი დედამიწაც დიდი მაგნიტია" draggable="true">
+                          <h5 class="draggeble_h5" data-index="3">გავიგოთ, რისგან არის შექმნილი კომპასის ისარი და გავარკვიოთ მისი თვისებები</h5>
                         </div>
+
+                        <div class="ask_question_game_box ask_question_game_box--third"
+                          data-title="გავიგოთ რისგან არის შექმნილი კომპასის ისარი და გავარკვიოთ მისი თვისებები" draggable="true">
+                          <h5 class="draggeble_h5" data-index="4">ჩვენი დედამიწაც დიდი მაგნიტია</h5>
+                        </div>
+
+                      </div>
+
+                      <div class="col-7 flex">
+                        <div class="circle__container relative w-100">
+
+                          <div class="ask_question_game_box--sm" data-index="1">
+                            <h5>რა აიძულებს კომპასის ისარს, უჩვენოს მიმართულება?</h5>
+                            <div class="ask_question_game_box_number-img">
+                              <img src="../../img/gakvetilebi/buneba/n-1-i-1.svg" alt="">
+                            </div>
+                          </div>
+                          <div class="ask_question_game_box--sm" data-index="2">
+                                  <h5>შესაძლოა, სათამაშოების მსგავსად, კომპასის ისრის აგებულებაშია საქმე</h5>
+                            <div class="ask_question_game_box_number-img">
+                              <img src="../../img/gakvetilebi/buneba/n-1-i-2.svg" alt="">
+                            </div>
+                          </div>
+
+                          <div class="ask_question_game_box--sm dropDiv" data-index="3">
+                            <div class="ask_question_game_box_number-img">
+                              <img src="../../img/gakvetilebi/buneba/n-1-i-3.svg" alt="">
+                            </div>
+                          </div>
+
+                          <div class="ask_question_game_box--sm dropDiv" data-index="4">
+                            <div class="ask_question_game_box_number-img">
+                              <img src="../../img/gakvetilebi/buneba/n-1-i-4.svg" alt="">
+                            </div>
+                          </div>
+
+                          <div class="ask_question_game_box--sm dropDiv" data-index="5">
+                            <div class="ask_question_game_box_number-img">
+                              <img src="../../img/gakvetilebi/buneba/n-1-i-5.svg" alt="">
+                            </div>
+                          </div>
+
+                          <div class="ask_question_game_box--sm" data-index="6">
+                                  <h5>კომპასით ჩვენ არასდროს დავიკარგებით</h5>
+                            <div class="ask_question_game_box_number-img">
+                              <img src="../../img/gakvetilebi/buneba/n-1-i-6.svg" alt="">
+                            </div>
+                          </div>
+
+
+                          <img src="../../img/gakvetilebi/buneba/invisible_forces/couple.svg" alt="" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 17.83vh;">
+                        </div>
+                      </div>
                     </div>
-                </div>
+                  </section>
+               </div>
             </div>
+
+            <div class="flex flex-end column align-items-end z-index reload_game_wrapper">
+                <button id="resetBtn" class="reset__btn">თავიდან სცადე</button>
+                <button id="completedGame" class="completed__btn">დასრულება</button>
+              </div>
 
             <div class="left_components_paging-cont">
                 <svg class="left_components_paging" xmlns="http://www.w3.org/2000/svg"
@@ -521,6 +561,8 @@
 <script src="../../js/detectdevice.js"></script>
     <script src="../../js/libraries/jquery.magnific-popup.min.js"></script>
     <script src="../../js/Pagination.js"></script>
+    <!-- <script src="../../Nature-Lessons/My_world/js/N-1366-54.js"></script> -->
+    <script src="js/24.js"></script>
 
 
     <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
