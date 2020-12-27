@@ -74,6 +74,7 @@ function finFn(evt) {
             let dataItem = dropItem[i].data('country');
             let parentItem = dropItem[i].parent().data('country');
             if (dataItem === parentItem) {
+                dropItem[i].removeClass('completed__btn_black')
                 dropItem[i].css({
                     background: '#fff',
                     color: '#262626'
@@ -93,6 +94,10 @@ function initFn() {
         color: ''
     });
     for (let i = 0; i < dropItemParent.length; i++) {
+        var theme = localStorage.getItem("theme");
+        if (theme == "darck") {
+            $(dropItem[i]).addClass('completed__btn_black')
+        }
         dropItem[i].css({
             background: ''
         });
