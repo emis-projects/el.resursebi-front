@@ -1,0 +1,60 @@
+.class_music_6-img_9 {
+  height: 13.9vh;
+}
+.class_music_6-img_9_number {
+  height: 6.9vh;
+}
+.class_music_6-check_box {
+  height: 2.6vh;
+  width: 2.6vh;
+  margin: 0.7vh 1.5vh 0 0;
+  border: 2px solid #696969;
+  border-radius: 8px;
+  margin: auto;
+  opacity: 1;
+}
+.class_music_6-img_10 {
+  height: 10.8vh;
+  width: 10.8vh;
+  border: 1px solid #707070;
+  margin: auto;
+  opacity: 1;
+}
+.class_music_6-img_11 {
+  height: 54vh;
+}
+.class_music_6-img_12_cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10.9vh;
+  height: 10.8vh;
+  border: 1px solid #707070;
+  overflow: hidden;
+}
+.class_music_6-img_12_cont img {
+  height: 5vh;
+}
+.class_music_6-img_13 {
+  height: 29.9vh;
+  padding-right: 5vh;
+}
+.class_music_6-img_13_circle img {
+  width: 6.9vh;
+  height: 6.9vh;
+}
+.class_music_6-img_14 {
+  height: 6.8vh;
+}
+.class_music_6-img_14_clock {
+  height: 7.25vh !important;
+}
+.class_music_6-img_14_comp {
+  height: 8.25vh !important;
+}
+.class_music_6-img_14_school {
+  height: 7.25vh !important;
+}
+.class_music_6-img_15 {
+  height: 47.78vh;
+}
