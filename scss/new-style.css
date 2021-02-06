@@ -53208,6 +53208,7 @@ tr td:first-child {
 
 #authors .author_section ul li {
   padding-bottom: 8px;
+  padding-left: 20px;
 }
 
 #authors .author_section ul li::marker {
