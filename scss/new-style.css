@@ -53139,6 +53139,83 @@ tr td:first-child {
   height: 100%;
 }
 
+.info-box {
+  overflow-y: auto;
+  scrollbar-width: none;
+  /* width */
+  /* Track */
+  /* Handle */
+}
+
+.info-box::-webkit-scrollbar {
+  width: 2px;
+  display: none;
+}
+
+.info-box::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.info-box::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+#authors {
+  padding: 0 10px;
+}
+
+#authors h1 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #7fd1d8;
+}
+
+#authors .author_section {
+  height: 100%;
+  background-color: #fff;
+  border-radius: 0.25rem;
+  -webkit-box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.02);
+          box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.02);
+  color: #4a4a4a;
+  max-width: 100%;
+  position: relative;
+}
+
+#authors .author_section h2 {
+  font-size: 20px;
+  font-weight: 300;
+  color: #000;
+}
+
+#authors .author_section h2 strong {
+  color: #dc6c85;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+#authors .author_section h3 {
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: underline;
+  font-style: oblique;
+  padding-bottom: 10px;
+}
+
+#authors .author_section ul {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+#authors .author_section ul li {
+  padding-bottom: 8px;
+}
+
+#authors .author_section ul li::marker {
+  color: #7fd1d8;
+  display: inline-block;
+  font-size: 20px;
+}
+
 body {
   color: #262626;
   font-size: 14px;

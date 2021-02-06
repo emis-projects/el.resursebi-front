@@ -2073,33 +2073,30 @@ Vue.component("appInfo", {
   },
   //dark_mode-თვის
   updated() {
-    var theme = localStorage.getItem('theme');
-    if (theme == 'darck') {
-      this.darkMode = true
-    }
-    else {
-      this.darkMode = false
+    var theme = localStorage.getItem("theme");
+    if (theme == "darck") {
+      this.darkMode = true;
+    } else {
+      this.darkMode = false;
     }
   },
   created() {
-    var theme = localStorage.getItem('theme');
-    if (theme == 'darck') {
-      this.darkMode = true
-    }
-    else {
-      this.darkMode = false
+    var theme = localStorage.getItem("theme");
+    if (theme == "darck") {
+      this.darkMode = true;
+    } else {
+      this.darkMode = false;
     }
   },
   watch: {
     isInfo() {
-      var theme = localStorage.getItem('theme')
-      if (theme == 'darck') {
-        this.darkMode = true
+      var theme = localStorage.getItem("theme");
+      if (theme == "darck") {
+        this.darkMode = true;
+      } else {
+        this.darkMode = false;
       }
-      else {
-        this.darkMode = false
-      }
-    }
+    },
   },
   template: `<div v-if="isInfo"
             :class="[
@@ -2108,7 +2105,7 @@ Vue.component("appInfo", {
             >
                    <div class="col-12">
                         <transition
-                            enter-active-class="animated flipInX"
+                            enter-active-class="animated fadeIn"
                             leave-active-class="animated fadeOut"
                             :duration="1000"
                             mode="out-in"
@@ -2245,6 +2242,98 @@ Vue.component("appInfo", {
                                     </div>
                                 </div>
                             </div>
+                            <div class="row" id="authors" v-if="currentPage === 3">
+                                <div class="col-12">
+                                    <h1 class="author_title my-5">პროექტის შემქმნელები:</h1>
+                                    <div class="row">
+                                        <div class="col-6 mb-5">
+                                            <div class="card author_section">
+                                                <h2 class="card-header"><strong>პროექტის კოორდინატორი </strong>— სალომე დაბრუნდაშვილი</h2>
+                                                <div class="card-body">
+                                                    <h3 class="card-title">რესურსის ავტორები:</h3>
+                                                    <ul>
+                                                        <li>კახა ჟღენტი (ბუნება; კომპიუტერული ტექნოლოგიები)</li>
+                                                        <li>ბუბა ოჩიაური (ხელოვნება)</li>
+                                                        <li>ეკა ცირგვავა (ხელოვნება)</li>
+                                                        <li>დავით ზათიაშვილი (მუსიკა)</li>
+                                                        <li>ნადია დაბრუნდაშვილი (კომპიუტერული ტექნოლოგიები)</li>
+                                                        <li>მანანა ჯაყელი (კომპიუტერული ტექნოლოგიები)</li>
+                                                        <li>მარი მელიქიშვილი (კომპიუტერული ტექნოლოგიები)</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6 mb-5">
+                                            <div class="card author_section">
+                                                <h2 class="card-header"><strong>დიზაინერთა ჯგუფის ხელმძღვანელი </strong>— ნინო თევდორაშვილი
+                                                </h2>
+                                                <div class="card-body">
+                                                    <h3 class="card-title">დიზაინერები:</h3>
+                                                    <ul>
+                                                        <li>ლევან ლორთქიფანიძე</li>
+                                                        <li>ანა ბაღდავაძე</li>
+                                                        <li>ლუკა კახელი</li>
+                                                        <li>ქრისტინა გვიჩიანი</li>
+                                                        <li>გიორგი თავშავაძე</li>
+                                                        <li>ნინი გელაშვილი</li>
+                                                    </ul>
+                                                    <h3>ილუსტრატორები:</h3>
+                                                    <ul>
+                                                        <li>მარიშა არაბული</li>
+                                                        <li>მარიამ ამბოკაძე</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6 mb-5">
+                                            <div class="card author_section">
+                                                <h2 class="card-header"><strong>პროგრამისტების ჯგუფის ხელმძღვანელი </strong>— ანანო ასპანიძე
+                                                </h2>
+                                                <div class="card-body">
+                                                    <h3>პროგრამისტები:</h3>
+                                                    <ul>
+                                                        <li>ჯემალ თედიაშვილი</li>
+                                                        <li>რომეო ხაზალია</li>
+                                                        <li>ქეთი მოდებაძე</li>
+                                                        <li>მეგი ახალკაცი</li>
+                                                        <li>შოთა ზენაიშვილი</li>
+                                                        <li>ირაკლი ლეკიშვილი</li>
+                                                        <li>თინათინ აბესაძე</li>
+                                                        <li>ნიკოლოზ ჭავჭანიძე</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6 mb-5">
+                                            <div class="card author_section">
+                                                <h2 class="card-header"><strong>ნარატივ დიზაინის ჯგუფის ხელმძღვანელი </strong>— მარიამ
+                                                    გოჩიაშვილი</h2>
+                                                <div class="card-body">
+                                                    <h3>ჩეთბოტების შემქმნელები:</h3>
+                                                    <ul>
+                                                        <li>თემურ ჩიჩუა</li>
+                                                        <li>ზურა ჯიშკარიანი</li>
+                                                        <li>დავით სამნიაშვილი</li>
+                                                        <li>თამთა პაპუკაშვილი</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6 mb-5">
+                                            <div class="card author_section">
+                                                <h2 class="card-header"><strong>პროექტის რედაქტორი </strong>— გიორგი ლომსაძე</h2>
+                                                <div class="card-body">
+                                                    <h3>საგნობრივი ექსპერტები:</h3>
+                                                    <ul>
+                                                        <li>ნინო ბუჩუკური (მუსიკა)</li>
+                                                        <li>თამარ ხოსროშვილი (ხელოვნება)</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </transition>
                    </div>
                    <div class="col-2 m-auto section_pagination">
@@ -2256,7 +2345,7 @@ Vue.component("appInfo", {
                            @click="currentPage--" v-if="currentPage !== 1">
                                <img alt="next" :src="path + '/img/icons/chevron-left-icon.svg'">
                            </div>
-                           <div class="pagination__item d-flex justify-content-center align-items-center" v-if="currentPage !==1">
+                           <div class="pagination__item d-flex justify-content-center align-items-center" v-if="currentPage !==2">
                                <div class="pagination__dot"></div>
                            </div>
                            <div class="flex align-items-center" id="pagination">
@@ -2268,14 +2357,11 @@ Vue.component("appInfo", {
                                    {{ currentPage }}</div>
                                </div>
                            </div>
-                           <div class="pagination__item d-flex justify-content-center align-items-center" v-if="currentPage !==2">
-                               <div class="pagination__dot"></div>
-                           </div>
                            <div
                            :class="[
                             darkMode? 'pagination__next__btn pagination_black' : 'pagination__next__btn',
                            ]"
-                           @click="currentPage++" v-if="currentPage !== 2">
+                           @click="currentPage++" v-if="currentPage !== 3">
                                <img alt="next" :src="path + 'img/icons/chevron-left-icon.svg'">
                            </div>
                        </div>

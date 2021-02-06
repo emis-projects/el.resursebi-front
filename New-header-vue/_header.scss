@@ -23,7 +23,7 @@ header {
   }
 
   .sound_box {
-    background-image: url('../New-header-vue/header-img/menu_box.png');
+    background-image: url("../New-header-vue/header-img/menu_box.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -41,7 +41,7 @@ header {
   }
 
   .menu_box {
-    background-image: url('../New-header-vue/header-img/menu_box.png');
+    background-image: url("../New-header-vue/header-img/menu_box.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -65,7 +65,7 @@ header {
     transform: translate(-50%, -55%);
 
     span {
-      background: #7FD1D8;
+      background: #7fd1d8;
       display: block;
       height: 2px;
       width: 16px;
@@ -73,9 +73,8 @@ header {
     }
   }
 
-
   .lang_box {
-    background-image: url('../New-header-vue/header-img/lang_box.png');
+    background-image: url("../New-header-vue/header-img/lang_box.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -88,10 +87,10 @@ header {
     align-items: center;
 
     .text {
-      font-family: 'DejaVu Sans Oblique', sans-serif;
+      font-family: "DejaVu Sans Oblique", sans-serif;
       font-size: 12px;
       padding-bottom: 4px;
-      color: #7FD1D8;
+      color: #7fd1d8;
     }
   }
 
@@ -119,7 +118,7 @@ header {
       border-radius: 50%;
       outline: none;
       background: rgb(255, 255, 255);
-      font-family: 'ALK Sanet', sans-serif;
+      font-family: "ALK Sanet", sans-serif;
 
       .on {
         height: 65%;
@@ -143,5 +142,4 @@ header {
       color: rgb(255, 255, 255);
     }
   }
-
 }
