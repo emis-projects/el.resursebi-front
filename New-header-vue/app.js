@@ -2246,6 +2246,11 @@ Vue.component("appInfo", {
                                 <div class="col-12">
                                     <h1 class="author_title my-5">პროექტის შემქმნელები:</h1>
                                     <div class="row">
+                                        <div class="col-12 mb-5">
+                                            <div class="card author_section">
+                                                <h2 class="card-header"><strong>იდეის ავტორი</strong> — სანდრო ასათიანი</h2>
+                                            </div>
+                                        </div>
                                         <div class="col-6 mb-5">
                                             <div class="card author_section">
                                                 <h2 class="card-header"><strong>პროექტის კოორდინატორი </strong>— სალომე დაბრუნდაშვილი</h2>
