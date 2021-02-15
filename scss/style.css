@@ -700,6 +700,10 @@ body {
   height: 2vh;
 }
 
+.pagination__item {
+  position: relative;
+}
+
 .pagination__dot {
   width: 15px;
   height: 15px;

@@ -2341,7 +2341,7 @@ Vue.component("appInfo", {
                             </div>
                         </transition>
                    </div>
-                   <div class="col-2 m-auto section_pagination">
+                   <div class="col-3 m-auto section_pagination">
                        <div class="d-flex justify-content-between align-items-center side-margin">
                            <div
                            :class="[
@@ -2350,7 +2350,11 @@ Vue.component("appInfo", {
                            @click="currentPage--" v-if="currentPage !== 1">
                                <img alt="next" :src="path + '/img/icons/chevron-left-icon.svg'">
                            </div>
-                           <div class="pagination__item d-flex justify-content-center align-items-center" v-if="currentPage !==2">
+                           
+                           <div @click="currentPage = 3" class="pagination__item d-flex justify-content-center align-items-center" v-if="currentPage === 3">
+                              <div class="pagination__dot"></div>
+                            </div>
+                            <div @click="currentPage--" class="pagination__item d-flex justify-content-center align-items-center" v-if="currentPage > 1">
                                <div class="pagination__dot"></div>
                            </div>
                            <div class="flex align-items-center" id="pagination">
@@ -2362,6 +2366,13 @@ Vue.component("appInfo", {
                                    {{ currentPage }}</div>
                                </div>
                            </div>
+                           <div @click="currentPage++" class="pagination__item d-flex justify-content-center align-items-center" v-if="currentPage < 3">
+                               <div class="pagination__dot"></div>
+                           </div>
+                           <div @click="currentPage = 1" class="pagination__item d-flex justify-content-center align-items-center" v-if="currentPage === 1">
+                               <div class="pagination__dot"></div>
+                           </div>
+                           
                            <div
                            :class="[
                             darkMode? 'pagination__next__btn pagination_black' : 'pagination__next__btn',
