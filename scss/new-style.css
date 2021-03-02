@@ -42747,7 +42747,8 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .memories_page-14_1-box img {
-  height: 100%;
+  max-height: 124px;
+  height: 15vh;
 }
 
 .memories_page-14 img {
@@ -42766,7 +42767,7 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .memories_page-15_1-box {
   max-height: 124px;
-  height: 16vh;
+  height: 15vh;
 }
 
 .memories_page-15_1-box img {
