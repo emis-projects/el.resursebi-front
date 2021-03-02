@@ -53252,6 +53252,15 @@ tr td:first-child {
   font-size: 20px;
 }
 
+body.isDarkMode #authors .author_section {
+  background-color: #000;
+  color: #fff;
+}
+
+body.isDarkMode #authors .author_section h2 {
+  color: #fff;
+}
+
 body {
   color: #262626;
   font-size: 14px;
@@ -55344,4 +55353,3 @@ input:checked + .slider:before {
 #tableOfContentTwo.tableOfContentTwo-scroll::-webkit-scrollbar-thumb:hover {
   background: #69bac2;
 }
-/*# sourceMappingURL=new-style.css.map */
