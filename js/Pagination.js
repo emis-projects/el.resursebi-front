@@ -13,7 +13,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     let pageId = parseInt(finalyResult);
     $('html').attr('pageid', pageId);
 
-    console.log('json')
     createDots(json);
 
     $('.pagination__item--el').mouseenter(function () {
@@ -90,7 +89,7 @@ function createCurrentDots(num, a) {
     var pagination__prev__btn = document.getElementsByClassName("pagination__prev__btn");
     var pagination__next__btn = document.getElementsByClassName("pagination__next__btn");
     if (theme == 'darck') {
-        console.log("ready!", current__pagination, Object.keys(current__pagination));
+
         if (current__pagination[0]) {
             current__pagination[0].classList.add("pagination_black");
         }

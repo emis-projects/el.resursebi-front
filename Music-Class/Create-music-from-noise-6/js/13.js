@@ -22,6 +22,7 @@ document.querySelectorAll('.listen--btn').forEach(w => {
 
 function musicGames() {
     var DragGameChilds1 = document.querySelectorAll('.DragGame--childs1');
+    var DragGameChilds2 = document.querySelectorAll('.DragGame--childs2');
     var mydrag = document.querySelectorAll('.myDrag');
 
     var completedBtn = document.getElementById('completedGame');
@@ -67,42 +68,57 @@ function musicGames() {
         myArray.push(element);
     });
 
-    var myDragArray = [];
+    var myArray2 = [];
 
-    mydrag.forEach(element => {
-        myDragArray.push(element);
+    DragGameChilds2.forEach(element => {
+        myArray2.push(element);
     });
 
 
-    this.dragDrop = (e) => { e.preventDefault();
+    this.dragDrop = (e) => { 
+        e.preventDefault();
         var drag = document.querySelector('.draggedElement')
+        e.target.parentElement.appendChild(drag)
 
-        if(e.target.classList.contains('listen--btn')){
-            e.target.parentElement.appendChild(drag);
-        }
-
-
-        let firstElement = e.target.parentElement;
-
-        myArray.filter(w => {
-            if(w.firstElementChild == null || w.firstElementChild == undefined){
-                w.appendChild(firstElement)
+        myArray2.forEach(w => {
+            if(!w.querySelector('.DragGame--childs1')) {
+                w.appendChild(e.target.parentElement.firstElementChild)
             }
-        })
+        })   
+    }
+
+    this.checkEveryElement = (element) => element.getAttribute('data-index') == element.querySelector('.DragGame--childs1').getAttribute('data-index2');
+
+
+    this.successPage = () => {
+        let answer = myArray2.every(this.checkEveryElement)
+
+        if(answer){
+            location.href = 'game-success-13.html'
+
+        } else {
+            myArray2.forEach(w => {
+                if(w.getAttribute('data-index') == w.querySelector('.DragGame--childs1').getAttribute('data-index2')) {
+                    w.querySelector('.DragGame--childs1').setAttribute('style', 'border: 2px solid #a1dd6f')
+                    this.index++
+                } else {
+                    w.querySelector('.DragGame--childs1').setAttribute('style', 'border: 2px solid #dc6c85')
+                }
+            })
+        }
     }
 
 
-
-
-
     this.completGame = () => {
-        // this.successPage();
+        this.successPage();
         completedBtn.setAttribute('disabled', 'true');
     }
 
 
     this.init = (e) => {
-
+        myArray.forEach(w => {
+            w.removeAttribute('style')
+        })
         completedBtn.removeAttribute('disabled');
 
     }
