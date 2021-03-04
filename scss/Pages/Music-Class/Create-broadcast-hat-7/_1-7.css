@@ -1,0 +1,45 @@
+.music-new-7-div-3-img {
+  height: 45.83vh;
+}
+.music-new-7-div-4-img {
+  height: 61.84vh;
+  position: absolute;
+  bottom: 9.89vh;
+  right: 14.86vw;
+}
+.music-new-7-div img {
+  height: 100%;
+}
+.music-new-7-div .listen-music-purple-tag {
+  cursor: pointer;
+}
+
+.music-new-7-div-5 {
+  position: relative;
+}
+.music-new-7-div-5 img {
+  height: 23.95vh;
+}
+.music-new-7-div-5 .music-new-7-div-5-circle {
+  left: 50%;
+  transform: translate(-50%, 0);
+  bottom: -4.1vh;
+  position: absolute;
+  background-color: white;
+}
+.music-new-7-div-5 .music-new-7-div-5-circle img {
+  width: 100%;
+  height: auto;
+}
+
+.music-new-7-div-5-numbers img {
+  height: 8.2vh;
+}
+
+.music-new-7-div-7 img {
+  height: 19.66vh;
+}
+
+.music-new-7_5 .listen-music-purple-tag {
+  cursor: pointer;
+}

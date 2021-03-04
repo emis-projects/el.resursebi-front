@@ -49246,6 +49246,7 @@ button:disabled {
 }
 
 .music-new-8-div-5-img img {
+  border-radius: 2vh;
   height: 21.48vh;
 }
 
@@ -49685,6 +49686,11 @@ button:disabled {
   position: absolute;
   top: 0;
   right: 0;
+}
+
+.class_music_5-img_15_cont {
+  width: 8vw;
+  height: 12vh;
 }
 
 table {
