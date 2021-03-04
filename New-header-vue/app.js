@@ -26,6 +26,7 @@ var changeImgDarkMode = document.getElementsByClassName('changeImgDarkMode');
 
 if (theme == "darck") {
   var element = document.body;
+  document.querySelector('body').classList.add('isDarkMode');
   element.style.backgroundColor = "black";
 
   if (document.getElementById('C-4-13-16-1darkChange')) {
@@ -292,6 +293,8 @@ Vue.component("appMenu", {
       //ფეიჯინგი
       var element = document.body;
       element.style.backgroundColor = "black";
+      document.querySelector('body').classList.remove('isLightMode');
+      document.querySelector('body').classList.add('isDarkMode');
       this.isDark = true;
       //ტეგები
       //P
@@ -809,6 +812,12 @@ Vue.component("appMenu", {
           nabiji[i].src = "../../img/icons/step_item(black).svg";
         }
       }
+    } else {
+        localStorage.setItem("theme", "light");
+        document.querySelector('body').classList.remove('isDarkMode');
+        document.querySelector('body').classList.add('isLightMode');
+        element.style.background = "";
+        this.isDark = false;
     }
   },
   methods: {
@@ -974,6 +983,8 @@ Vue.component("appMenu", {
         }
         localStorage.setItem("theme", "darck");
         element.style.backgroundColor = "black";
+        document.querySelector('body').classList.remove('isLightMode');
+        document.querySelector('body').classList.add('isDarkMode');
         this.isDark = true;
         //ტეგები
         //p
@@ -1679,6 +1690,8 @@ Vue.component("appMenu", {
           pagination__next__btn[0].classList.remove("pagination_black");
         }
         localStorage.setItem("theme", "light");
+        document.querySelector('body').classList.remove('isDarkMode');
+        document.querySelector('body').classList.add('isLightMode');
         element.style.background = "";
         this.isDark = false;
         //ტეგები
@@ -2079,6 +2092,7 @@ Vue.component("appInfo", {
     } else {
       this.darkMode = false;
     }
+    
   },
   created() {
     var theme = localStorage.getItem("theme");
@@ -2228,7 +2242,8 @@ Vue.component("appInfo", {
                                     <div class="row mt-5vh">
                                          <div class="col-1">
                                             <div class="element-box">
-                                                <img :src="path+'New-header-vue/header-img/video-inst.png'" alt="task" class="img-fluid">
+
+                                                <img :src="darkMode? path+'New-header-vue/header-img/video-inst_dark.png' : path+'New-header-vue/header-img/video-inst.png'" alt="task" class="img-fluid">
                                             </div>
                                          </div>
                                          <div class="col-10">
