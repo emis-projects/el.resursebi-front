@@ -29811,6 +29811,10 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 70%;
 }
 
+.A-1366-03-5-img img {
+  height: 59vh;
+}
+
 .background-art-3 {
   background-position: top center;
   background-size: cover;
@@ -30303,6 +30307,17 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .nature-1-58-text-container .nature_content_box_text img {
   height: auto;
+}
+
+.nature-action-material-row-full p {
+  color: #0B2228;
+  font-family: 'BPG Arial', sans-serif;
+  font-size: 14px;
+  float: right;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  text-align: left;
 }
 
 .summer-in-winter .N-1366-06-24-cols-container {

@@ -1,0 +1,61 @@
+.Forest-5 img {
+  float: right;
+  height: 100%;
+}
+
+.subject_question_item p {
+  font-family: "BPG Arial", sans-serif;
+}
+
+.bg_image {
+  max-height: 280px;
+  height: 44vh;
+}
+.bg_image .img-box_wrappers {
+  width: 100%;
+  height: 30%;
+}
+.bg_image .img-box_wrappers:nth-child(2) {
+  height: 40%;
+}
+.bg_image .img-box_wrappers:nth-child(2) img {
+  padding-right: 30px;
+}
+.bg_image .img-box_wrappers img {
+  height: 70%;
+  padding-right: 20px;
+}
+
+.bg_image_art {
+  max-height: 315px;
+  height: 44vh;
+}
+.bg_image_art .mid-image-wrapper {
+  top: 34%;
+  transform: translateY(-34%);
+  left: 48%;
+  transform: translateX(-48%);
+  height: 10vh;
+}
+.bg_image_art .mid-image-wrapper img {
+  height: 100%;
+}
+.bg_image_art .mid-image-wrapper img:first-child {
+  margin-right: 8vw;
+}
+.bg_image_art .img-box_wrappers {
+  width: 100%;
+  height: 46%;
+  max-height: 200px;
+}
+.bg_image_art .img-box_wrappers img {
+  height: 100%;
+  max-width: 200px;
+}
+.bg_image_art .img-box_wrappers img:nth-child(2) {
+  height: 70%;
+}
+
+.A-1366-03-5-img img {
+  height: 59vh;
+}
