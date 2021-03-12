@@ -1,0 +1,137 @@
+.class_3_10-img_15 {
+  position: fixed;
+  bottom: 0;
+  height: 49vh;
+  max-height: 378.7px;
+}
+.class_3_10-img_15 img {
+  height: 100%;
+}
+.class_3_10-bg_title {
+  color: #FFFFFF;
+  font-family: DejaVu Sans, Book;
+  font-size: 2.2vh;
+}
+.class_3_10-bg_yellow {
+  height: inherit;
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/Cloud-services-10/C-3-10-big-yellow-rect.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44.5vh;
+  height: 11.33vh;
+}
+.class_3_10-bg_small_gray {
+  height: inherit;
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/Cloud-services-10/C-3-10-small-gray.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 12.1vh;
+  height: 8.2vh;
+}
+.class_3_10-bg_small_yellow {
+  height: inherit;
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/Cloud-services-10/C-3-10-yellow-ant.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 12.1vh;
+  height: 8.2vh;
+}
+.class_3_10-bg_yellow_circle {
+  height: inherit;
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/Cloud-services-10/C-3-10-circle.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 12.1vh;
+  height: 11.33vh;
+}
+.class_3_10-bg_gray {
+  height: inherit;
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/Cloud-services-10/C-3-10-big-gray.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44.5vh;
+  height: 11.33vh;
+}
+.class_3_10-bg_blue {
+  height: inherit;
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/Cloud-services-10/C-3-10-big-blue.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44.5vh;
+  height: 11.33vh;
+}
+.class_3_10-bg_blue_el {
+  height: inherit;
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/Cloud-services-10/C-3-10-blue-elephant.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 12.1vh;
+  height: 8.2vh;
+}
+.class_3_10-bg_blue_bee {
+  height: inherit;
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/Cloud-services-10/C-3-10-blue-beetle.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 12.1vh;
+  height: 8.2vh;
+}
+.class_3_10-img_17 {
+  position: fixed;
+  bottom: 0;
+  height: 58.85vh;
+  max-height: 452px;
+}
+.class_3_10-img_17 img {
+  height: 100%;
+}
+.class_3_10-img_18 {
+  position: fixed;
+  bottom: 0;
+  height: 59.6vh;
+  max-height: 457.9px;
+}
+.class_3_10-img_18 img {
+  height: 100%;
+}
+.class_3_10-img_19 {
+  position: fixed;
+  bottom: 16vh;
+}
+.class_3_10-img_20 {
+  position: fixed;
+  bottom: 14vh;
+  height: 35.66vh;
+}
+.class_3_10-img_20 img {
+  border-radius: 2vh;
+  height: 100%;
+}
+
+.class_3_10-bottom {
+  margin-bottom: 1.5vh;
+}

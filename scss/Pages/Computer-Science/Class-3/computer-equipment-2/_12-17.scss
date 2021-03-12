@@ -33,7 +33,7 @@
   height:10.41vh;
 }
 .cs-3-2-img-2{
-  height:20.31vh;
+  height:17.31vh;
 }
 
 .cs-3-2-15-img-div {
@@ -55,7 +55,24 @@
     &.draggedElement {
       height: 5.41vh; 
     }
+    .cs-3-2-15--4,
+    &.draggedElement {
+      height: 5.41vh; 
+    }
+    .cs-3-2-15--5,
+    &.draggedElement {
+      height: 5.41vh; 
+    }
+    .cs-3-2-15--6,
+    &.draggedElement {
+      height: 5.41vh; 
+    }
+  }
+}
 
+.class_3_2-img_12_1 {
+  img{
+    height: 23vh;
   }
 }
 
@@ -67,3 +84,4 @@
     font-family: 'DejaVuSans';
     line-height:4vh;
 }
+

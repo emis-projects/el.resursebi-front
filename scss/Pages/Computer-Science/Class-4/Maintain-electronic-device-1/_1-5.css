@@ -1,0 +1,30 @@
+.class_4_1-img_1 {
+  height: 64vh;
+  max-height: 492px;
+  margin: 2vh auto;
+}
+.class_4_1-img_1 img {
+  height: 100%;
+}
+.class_4_1-img_3 {
+  position: fixed;
+  bottom: 14vh;
+  height: 35.8vh;
+  max-height: 329px;
+}
+.class_4_1-img_3 img {
+  border-radius: 2vh;
+  height: 100%;
+}
+.class_4_1-img_4 {
+  position: fixed;
+  bottom: 0;
+  height: 51.8vh;
+  max-height: 398px;
+}
+.class_4_1-img_4 img {
+  height: 100%;
+}
+.class_4_1-img_5 {
+  height: 32.68vh;
+}

@@ -9,10 +9,12 @@
     }
     &-img_3 {
         position: fixed;
-        bottom: 11vh;
-        height: 42.8vh;
+        bottom: 14vh;
+        height: 35.8vh;
         max-height: 329px;
+        
         img {
+            border-radius: 2vh;
             height: 100%;
         }
     }

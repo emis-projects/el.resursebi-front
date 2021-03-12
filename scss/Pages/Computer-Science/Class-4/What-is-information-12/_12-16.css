@@ -1,0 +1,30 @@
+.information-page img {
+  height: 100%;
+}
+.information-page_12 {
+  height: 41vh;
+}
+.information-page_12-1 {
+  height: 31vh;
+  border-radius: 2vh;
+}
+.information-page_14 {
+  height: 53vh;
+  max-height: 409px;
+  position: fixed;
+  right: 15%;
+  top: 50%;
+  transform: translateY(-40%);
+}
+.information-page_15 {
+  height: 57vh;
+  max-height: 448px;
+  position: fixed;
+  right: 15%;
+  top: 50%;
+  transform: translateY(-30%);
+}
+.information-page_16 {
+  height: 43vh;
+  max-height: 336px;
+}

@@ -1,0 +1,55 @@
+.cs-3-13-div-3-img {
+  height: 40.49vh;
+}
+.cs-3-13-div-4-img {
+  height: 38.28vh;
+}
+.cs-3-13-div-5-game-img {
+  height: 16.66vh;
+  border-radius: 2vh;
+}
+.cs-3-13-div-5-img-click-btn {
+  border: 2px solid #696969;
+  border-radius: 8px;
+  width: 2.6vh;
+  height: 2.6vh;
+  cursor: pointer;
+}
+.cs-3-13-div-5-img-click-btn.active {
+  background: #62548a;
+}
+.cs-3-13-div-5-img-click-btn.error {
+  background: #c50000;
+}
+.cs-3-13-div-6-game-img {
+  height: 18.75vh;
+  border-radius: 2vh;
+}
+.cs-3-13-div-6-img-click {
+  box-shadow: 2px 2px 8px #947dce66;
+  width: 10.24vw;
+  height: 5.2vh;
+  border-radius: 30px;
+  color: #62548a;
+}
+.cs-3-13-div-6-img-click-height {
+  height: 8.2vh;
+}
+.cs-3-13-div-6-img-click-container {
+  border: 1px solid #707070;
+}
+.cs-3-13-div-6-img-click-container.cs-3-13-6-dragged img {
+  height: 100%;
+  width: 100%;
+  object-fit: none;
+  border-radius: 30px;
+}
+.cs-3-13-div-7-img {
+  height: 44vh;
+}
+.cs-3-13-div-8-img {
+  height: 36.71vh;
+}
+.cs-3-13-div img {
+  height: 100%;
+}
