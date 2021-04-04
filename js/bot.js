@@ -165,17 +165,19 @@ function sendMessageFromBot(res) {
         } else if(w.type == 2){
             // აუდიოები
 
+            var song = document.getElementById('audioplay');
+            $("#audioplay").trigger('load');
+
             // sound js
-            createjs.Sound.on("fileload", handleLoadComplete);
-            createjs.Sound.alternateExtensions = ["wav"];
-
-            function handleLoadComplete(event) {
-                createjs.Sound.play("sound");
-            }
-
-            function handleLoadstop(event) {
-                createjs.Sound.stop("sound");
-            }
+            function play_audio(task) {
+                if(task == 'play'){
+                     $("#audioplay").trigger('play');
+                }
+                if(task == 'stop'){
+                     $("audioplay").trigger('pause');
+                    //  $("audioplay").prop("currentTime",0);
+                }
+           }
 
 
             var div1 = document.createElement('div');
@@ -188,32 +190,35 @@ function sendMessageFromBot(res) {
             div2.className = "voice__mail__child flex align-items-center";
 
             var img = document.createElement('img');
-            img.setAttribute('data-voice', '');
+            var audio = document.createElement('audio');
+
+            audio.setAttribute('src', w.url);
+            audio.setAttribute('id', 'audioplay');
             img.setAttribute('id', 'play-pause-btn');
             img.setAttribute('src', '/img/icons/play-solid.svg');
             img.classList.add('voice-mail-play')
 
             div1.appendChild(div2);
             div2.appendChild(img);
+            div2.appendChild(audio);
             parentSpan.appendChild(div1)
 
             $(div).append(parentSpan)
 
             $(img).click((e) => {
                 if(e.target.getAttribute('class') == "voice-mail-play"){
+                    play_audio()
                     $(img).attr('src', '/img/icons/pause-solid.svg')
                     $(img).removeClass('voice-mail-play')
                     $(img).addClass('voice-mail-pause')
-                    $(img).attr('data-voice', w.url)
-                    dynamicEvent(`https://cors-anywhere.herokuapp.com/${w.url}`, img);
-                    handleLoadComplete()
+                    dynamicEvent(w.url, img);
 
                 } else if(e.target.getAttribute('class') == "voice-mail-pause"){
-                    handleLoadstop()
+                    // handleLoadstop()
                     $(img).removeClass('voice-mail-pause')
                     $(img).addClass('voice-mail-play')
                     $(img).attr('src', '/img/icons/play-solid.svg')
-                    $(img).removeAttr('data-voice')
+                    // $(img).removeAttr('data-voice')
                 }
             })
 
