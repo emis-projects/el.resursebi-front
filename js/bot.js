@@ -5,7 +5,7 @@ let getTag = document.getElementById("chat_fullscreen");
 let botImgs = document.querySelectorAll('.logo_box');
 let botImg = null;
 var userId = getCookie("user_Id");
-
+var song = new Audio();
 
 // check if value is ""
 $(msgInput).keyup(function () {
@@ -29,7 +29,7 @@ botImgsArray.forEach(w => {
         document.querySelector('html').setAttribute('data-botid', attr)
 
         $('#chat_fullscreen .chat_msg_item').remove()
-
+        song.src = "";
         getBotImage()
     })
 })
@@ -165,20 +165,8 @@ function sendMessageFromBot(res) {
         } else if(w.type == 2){
             // აუდიოები
 
-            var song = document.getElementById('audioplay');
-            $("#audioplay").trigger('load');
 
-            // sound js
-            function play_audio(task) {
-                if(task == 'play'){
-                     $("#audioplay").trigger('play');
-                }
-                if(task == 'stop'){
-                     $("audioplay").trigger('pause');
-                    //  $("audioplay").prop("currentTime",0);
-                }
-           }
-
+            song.src = w.url;
 
             var div1 = document.createElement('div');
             let parentSpan = document.createElement('span')
@@ -190,35 +178,32 @@ function sendMessageFromBot(res) {
             div2.className = "voice__mail__child flex align-items-center";
 
             var img = document.createElement('img');
-            var audio = document.createElement('audio');
 
-            audio.setAttribute('src', w.url);
-            audio.setAttribute('id', 'audioplay');
             img.setAttribute('id', 'play-pause-btn');
             img.setAttribute('src', '/img/icons/play-solid.svg');
             img.classList.add('voice-mail-play')
 
             div1.appendChild(div2);
             div2.appendChild(img);
-            div2.appendChild(audio);
             parentSpan.appendChild(div1)
 
             $(div).append(parentSpan)
 
+
             $(img).click((e) => {
                 if(e.target.getAttribute('class') == "voice-mail-play"){
-                    play_audio()
+                    song.src = w.url;
+                    song.play();
+                    
                     $(img).attr('src', '/img/icons/pause-solid.svg')
                     $(img).removeClass('voice-mail-play')
                     $(img).addClass('voice-mail-pause')
-                    dynamicEvent(w.url, img);
 
                 } else if(e.target.getAttribute('class') == "voice-mail-pause"){
-                    // handleLoadstop()
+                    song.src = "";
                     $(img).removeClass('voice-mail-pause')
                     $(img).addClass('voice-mail-play')
                     $(img).attr('src', '/img/icons/play-solid.svg')
-                    // $(img).removeAttr('data-voice')
                 }
             })
 
@@ -290,11 +275,6 @@ function sendMessageFromBot(res) {
           }
     }
 
-}
-
-function dynamicEvent(url, img) {
-    img.setAttribute('data-voice', url)
-    createjs.Sound.registerSound({src:`${img.getAttribute('data-voice')}`, id:"sound"});
 }
 
 
