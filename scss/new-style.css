@@ -33082,6 +33082,19 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   margin: 1vh auto;
 }
 
+.cs-3-4-28-text-row {
+  position: absolute;
+  bottom: 24vh;
+  right: 23vw;
+}
+
+.cs-3-4-28-text-row p {
+  color: #262626;
+  font-size: 1.8vh;
+  font-family: "DejaVuSans";
+  line-height: 2.9vh;
+}
+
 .background-cs-3-2 {
   background-position: top center;
   background-size: cover;
