@@ -24331,6 +24331,12 @@ img.mfp-img[alt*="cs-2-4-18-img"] {
   height: 29.68vh;
 }
 
+.cs-3-8-6-img {
+  height: 36.83vh;
+  position: relative;
+  margin: auto;
+}
+
 .cs-3-8-67-server-img {
   height: 34.29vh;
   margin: 3vh auto 0;
@@ -33083,16 +33089,23 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .cs-3-4-28-text-row {
-  position: absolute;
-  bottom: 24vh;
-  right: 23vw;
+  margin: auto;
 }
 
 .cs-3-4-28-text-row p {
   color: #262626;
-  font-size: 1.8vh;
+  font-size: 2.4vh;
   font-family: "DejaVuSans";
   line-height: 2.9vh;
+}
+
+.cs-3-9-10-row-text {
+  margin-left: auto;
+}
+
+.cs-3-8-3-row-text p {
+  font-size: 2.4vh;
+  font-family: "DejaVuSans";
 }
 
 .background-cs-3-2 {

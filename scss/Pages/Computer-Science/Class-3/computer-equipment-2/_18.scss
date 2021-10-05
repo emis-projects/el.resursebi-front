@@ -7,11 +7,20 @@
     p
     {
     color: #262626;
-    font-size: 1.8vh;
+    font-size: 2.4vh;
     font-family: "DejaVuSans";
     line-height: 2.9vh;
     } 
-    position: absolute;
-    bottom: 24vh;
-    right: 23vw;
+    margin: auto;
+}
+
+.cs-3-9-10-row-text{
+    margin-left:auto ;
+}
+.cs-3-8-3-row-text{
+    p{
+    font-size: 2.4vh;
+    font-family: "DejaVuSans";
+    }
+   
 }

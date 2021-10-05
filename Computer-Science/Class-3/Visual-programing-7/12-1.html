@@ -8,10 +8,10 @@
     <script src="../../../js/vue.js"></script>
     <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
     <!--  ვუე გაშვებისას
-    <script src="./js/vue.min.js"></script>
-     -->
-    <link href="../../../scss/libraries/bootstrap.min.css" rel="stylesheet">
+      <script src="./js/vue.min.js"></script>
+       -->
     <link href="../../../New-header-vue/animate.min.css" rel="stylesheet">
+    <link href="../../../scss/libraries/bootstrap.min.css" rel="stylesheet">
     <link href="../../../scss/new-style.css" rel="stylesheet"/>
 <link href="../../../scss/components_style.css" rel="stylesheet"/>
     <title>ელექტრონული საგანმანათლებლო რესურსი</title>
@@ -24,7 +24,6 @@
             dataLayer.push(arguments);
         }
 
-        2
         gtag('js', new Date());
 
         gtag('config', 'UA-155006442-1');
@@ -33,43 +32,12 @@
 
 <body>
 <div class="container">
-    <section class="container position-absolute" id="app">
-        <header>
-            <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../../'"></app-menu>
-        </header>
-
-        <app-section :is-active="isActive" v-image="'../../../'">
-            <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger"
-                     v-on:link-tab="link = $event">
-
-            </app-bar>
-            <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive"
-                       :is-info="isInfo" :path="path" :tab-class="currentTabComponent" :trigger="trigger">
-            </component>
-
-        </app-section>
-    </section>
-    <section id="mainPage">
-        <div class="row">
-            <div class="col-10 m-auto flex_direction_left">
-                <p class="newDesign_subject_question_item-title Class_2-title_item_2">
-                    რომელ საძიებო სისტემებს იცნობ? რა არის <a class="a-blue" href="./7-1.html"> ბრაუზერი</a> და რომელ ბრაუზერს  იყენებ?
-                </p>
-            </div>
-            <div class="col-8 m-auto flex_direction_left pt-3vh">
-                <div class="newDesign_subject_question_item mt-5vh">
-                    <img alt="img" class="newDesign_subject_question_item-img"
-                         src="../../../img/icons/newDesign_btn-yellow.svg">
-                    <p class="newDesign_subject_question_item-title Class_2-title_item_2">
-                        როდესაც ზუსტად იცი, თუ რომელი ვებ-გვერდიდან უნდა გადმოწერო სურათი, მოუსმინო სიმღერას, გადმოწერო ფაილი... იყენებ ხელსაწყოს, რომელსაც ბრაუზერს უწოდებენ.
-                    </p>
-                </div>
-            </div>
-            <div class="col-8 Class_2-search_engine_9_7 pt-5vh d-flex justify-content-center m-auto">
-                <img src="../../../img/gakvetilebi/Computer-Science/Class-3/search-engine-9/C-3-9-7.png" alt="img">
-            </div>
-        </div>
-
+    <header>
+        <a class="close" href="12.html">
+            <img alt="close" src="../../../img/icons/close.svg"/>
+        </a>
+    </header>
+    <section>
         <div class="left_components_paging-cont">
             <svg class="left_components_paging" height="722"
                  viewBox="0 0 134 722" width="134" xmlns="http://www.w3.org/2000/svg"
@@ -155,7 +123,7 @@
                           data-name="Path 143735" data-type="3"
                           fill="#7fd1d8"
                           id="Path_143735"
-                          style="opacity: 0" transform="translate(195.761 57.264)"/>
+                          style="opacity: 1" transform="translate(195.761 57.264)"/>
                     <g data-name="Group 8099" id="Group_8099" transform="translate(-1.874 20)">
                         <g data-name="Group 8096" id="Group_8096" transform="translate(44.874 563)">
                             <g filter="url(#Path_12243)" transform="matrix(1, 0, 0, 1, -38, -553)">
@@ -550,14 +518,14 @@
                         <tspan x="0" y="0">მინიშნება</tspan>
                     </text>
                     <text data-name="შუალედური
-                            დავალება" fill="#c5cbcd" font-family="ALKSanet, ALK Sanet" font-size="12"
+                        დავალება" fill="#c5cbcd" font-family="ALKSanet, ALK Sanet" font-size="12"
                           id="შუალედური_დავალება"
                           transform="translate(70 549)">
                         <tspan x="-35.344" y="0">შუალედური</tspan>
                         <tspan x="-30.636" y="12">დავალება</tspan>
                     </text>
                     <text data-name="კომპლექსური
-                            დავალება" fill="#c5cbcd" font-family="ALKSanet, ALK Sanet" font-size="12"
+                        დავალება" fill="#c5cbcd" font-family="ALKSanet, ALK Sanet" font-size="12"
                           id="კომპლექსური_დავალება"
                           transform="translate(70 668)">
                         <tspan x="-42.015" y="0">კომპლექსური</tspan>
@@ -567,18 +535,11 @@
             </svg>
         </div>
 
-        <div class="our__pagination flex">
-            <a class="pagination__prev__btn" href="#">
-                <img alt="" src="../../../img/icons/chevron-left-icon.svg" style="transform: rotate(180deg)">
-            </a>
-
-            <div class="flex align-items-center" id="pagination"></div>
-
-            <a class="pagination__next__btn" href="#">
-                <img alt="" src="../../../img/icons/chevron-left-icon.svg">
-            </a>
-        </div>
-
+        <div class="row newDesign_hintPage">
+            <div class="col-10 m-auto">
+                  <img src="../../../img/gakvetilebi/Computer-Science/Class-3/Visual-programing-7/C-3-7-6.svg"  alt="image">
+                </div>
+            </div>
     </section>
 </div>
 
@@ -591,7 +552,6 @@
 <script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
 <script src="../../../js/detectdevice.js"></script>
 <script src="../../../js/libraries/jquery.magnific-popup.min.js"></script>
-<script src="../../../js/Pagination.js"></script>
 
 
 <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
@@ -600,7 +560,6 @@
     <script src="../../../New-header-vue/app.js"></script>
 <script src="../../../Vue-chatBot/botApp.js"></script>
 <script src="../../../js/bot.js"></script>
-
 
 </body>
 
