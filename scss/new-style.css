@@ -30605,8 +30605,8 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  height: 65vh;
-  max-height: 498px;
+  height: 45vh;
+  max-height: 398px;
 }
 
 .cs-template-box-18 img {
@@ -51592,7 +51592,7 @@ tr td:first-child {
 }
 
 .cs-4-13-div-8-img {
-  height: 53.64vh;
+  height: 48.64vh;
   position: absolute;
   bottom: 0;
   right: 17.27vw;
