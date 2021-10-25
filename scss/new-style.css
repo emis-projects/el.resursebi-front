@@ -39070,10 +39070,11 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .class_4_1-img_3 {
-  position: fixed;
+  position: absolute;
   bottom: 14vh;
   height: 35.8vh;
   max-height: 329px;
+  right: 40vh;
 }
 
 .class_4_1-img_3 img {
@@ -39084,7 +39085,7 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 .class_4_1-img_4 {
   position: fixed;
   bottom: 0;
-  height: 51.8vh;
+  height: 45.8vh;
   max-height: 398px;
 }
 
