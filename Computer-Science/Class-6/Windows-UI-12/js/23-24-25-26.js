@@ -52,6 +52,9 @@ function computerGames(){
     }
 
     this.successPage = () => {
+        if(window.location.href.includes("22.html")){
+            location.href = 'game-success-22.html';
+        }
         if(window.location.href.includes("23.html")){
             location.href = 'game-success-23.html';
         }
@@ -60,9 +63,6 @@ function computerGames(){
         }
         if(window.location.href.includes("25.html")){
             location.href = 'game-success-25.html';
-        }
-        if(window.location.href.includes("26.html")){
-            location.href = 'game-success-26.html';
         }
         
     }

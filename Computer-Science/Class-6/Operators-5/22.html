@@ -24,7 +24,6 @@
             dataLayer.push(arguments);
         }
 
-        2
         gtag('js', new Date());
 
         gtag('config', 'UA-155006442-1');
@@ -38,47 +37,78 @@
                 <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../../'"></app-menu>
             </header>
 
-            <app-section :is-active="isActive" v-image="'../../../'">
-                <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger" v-on:link-tab="link = $event">
+            <app-section :is-active="isActive" :is-info="isInfo" v-image="'../../../'">
+                <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger"
+                    v-on:link-tab="link = $event">
 
                 </app-bar>
-                <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive" :is-info="isInfo" :path="path" :tab-class="currentTabComponent" :trigger="trigger">
+                <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive"
+                    :is-info="isInfo" :path="path" :tab-class="currentTabComponent" :trigger="trigger">
                 </component>
 
             </app-section>
         </section>
         <section id="mainPage">
-            <div class="row  d-flex">
-                <div class="col-6 m-auto">
-                    <div class="newDesign_subject_question_item mt-5vh">
-                        <img alt="img" class="newDesign_subject_question_item-img" src="../../../img/icons/newDesign_btn-yellow.svg">
-                        <p class="newDesign_subject_question_item-title Class_2-title_item_2 big-font-size-20px-dejavu">
-                            რა იცოდი და რა იყო ახალი?
+            <div class="row">
+                <div class="col-11 ml-14vh">
+                    <div class="newDesign_container_main_title-cont newDesign_container_main_title-cont-margin">
+                        <h1 class="newDesign_container_main_title">ოპერატორები (ლოგიკური ოპერატორები)</h1>
+                        <img alt="img" class="newDesign_container_main_title-img"
+                            src="../../../img/icons/comp_main_title_border.svg">
+                    </div>
+                    <div class="newDesign_subject_question_item">
+                        <img alt="img" class="newDesign_subject_question_item-img"
+                            src="../../../img/icons/newDesign_btn-yellow.svg">
+                        <p class="newDesign_subject_question_item-title">
+                            Scratch-ში დაამატე მთავარი გმირი და 3 ბურთი (2 ჩოგბურთისა და 1 ფეხბურთის).<br> დაამატე მოგებისა და წაგების ფონი. <br>დაამატე ერთი მთავარი ფონი (შენი სურვილით). <br>დავალების შესასრულებლად გამოიყენე or ოპერატორი. <br><br>Space ღილაკს რომ დავაწვებით:
                         </p>
                     </div>
-                    <div class="newDesign_subject_question_item mt-5vh">
-                        <img alt="img" class="newDesign_subject_question_item-img" src="../../../img/icons/newDesign_btn-yellow.svg">
-                        <p class="newDesign_subject_question_item-title Class_2-title_item_2 big-font-size-20px-dejavu">
-                            რაში გამოგადგება მიღებული ცოდნა?
+                    <div class="newDesign_subject_question_item">
+                        <img alt="img" class="newDesign_subject_question_item-img"
+                            src="../../../img/icons/newDesign_btn-yellow.svg">
+                        <p class="newDesign_subject_question_item-title">
+                            დაყენდეს მთავარი ფონი;
                         </p>
                     </div>
+                    <div class="newDesign_subject_question_item">
+                        <img alt="img" class="newDesign_subject_question_item-img"
+                            src="../../../img/icons/newDesign_btn-yellow.svg">
+                        <p class="newDesign_subject_question_item-title">
+                            მთავარმა გმირმა დაიწყოს გადაადგილება იქ, სადაც თაგუნას კურსორს გადავაადგილებთ;
+                        </p>
+                    </div>
+                    <div class="newDesign_subject_question_item">
+                        <img alt="img" class="newDesign_subject_question_item-img"
+                            src="../../../img/icons/newDesign_btn-yellow.svg">
+                        <p class="newDesign_subject_question_item-title">
+                            ბურთებმა დაიწყოს მოძრაობა შემთხვევით ადგილას (glide-ით);                        </p>
+                    </div>
+                    <div class="newDesign_subject_question_item">
+                        <img alt="img" class="newDesign_subject_question_item-img"
+                            src="../../../img/icons/newDesign_btn-yellow.svg">
+                        <p class="newDesign_subject_question_item-title">
+                            თუ მთავარი გმირი შეეხება ფეხბურთის ბურთს, გადავიდეს მოგების ფონზე;                    </div>
                 </div>
-                
+                <div class="newDesign_subject_question_item ml-16vh">
+                    <img alt="img" class="newDesign_subject_question_item-img"
+                        src="../../../img/icons/newDesign_btn-yellow.svg">
+                    <p class="newDesign_subject_question_item-title">
+                        თუ მთავარი გმირი შეეხება ჩოგბურთის ბურთს, გადავიდეს წაგების ფონზე.
+                </div>
+                <div class="col-10  operators-24">
+                    <img alt="img" 
+                        src="../../../img/gakvetilebi/Computer-Science/Class-6/Operators-5/cs-6-5-24.svg">
+                </div>
             </div>
-                <div class="col-11 operators-22 d-flex justify-content-end">
-                    <img alt="img" src="../../../img/gakvetilebi/Computer-Science/Class-6/Operators-5/cs-6-5-22.svg">
-                </div> 
+
             <div class="left_components_paging-cont" id="leftNav">
                 <left-nav-item></left-nav-item>
             </div>
-
             <div class="our__pagination flex">
                 <a class="pagination__prev__btn" href="#">
                     <img alt="" src="../../../img/icons/chevron-left-icon.svg" style="transform: rotate(180deg)">
                 </a>
-
                 <div class="flex align-items-center" id="pagination"></div>
-
                 <a class="pagination__next__btn" href="#">
                     <img alt="" src="../../../img/icons/chevron-left-icon.svg">
                 </a>

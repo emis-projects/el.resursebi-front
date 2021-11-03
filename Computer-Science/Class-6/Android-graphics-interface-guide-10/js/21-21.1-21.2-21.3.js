@@ -53,17 +53,17 @@ function computerGames(){
     }
 
     this.successPage = () => {
-        if(window.location.href.includes("21.html")){
-            location.href = 'game-success-21.html';
+        if(window.location.href.includes("20.html")){
+            location.href = 'game-success-20.html';
         }
-        if(window.location.href.includes("21-1.html")){
-            location.href = 'game-success-21-1.html';
+        if(window.location.href.includes("20-1.html")){
+            location.href = 'game-success-20-1.html';
         }
-        if(window.location.href.includes("21-2.html")){
-            location.href = 'game-success-21-2.html';
+        if(window.location.href.includes("20-2.html")){
+            location.href = 'game-success-20-2.html';
         }
-        if(window.location.href.includes("21-3.html")){
-            location.href = 'game-success-21-3.html';
+        if(window.location.href.includes("20-3.html")){
+            location.href = 'game-success-20-3.html';
         }
     }
 

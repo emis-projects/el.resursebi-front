@@ -32997,7 +32997,7 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .cs-new-5-1-5-img {
-  height: 36.19vh;
+  height: 26.19vh;
   margin: 4vh auto 0;
 }
 
@@ -34031,6 +34031,15 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .cs-5-1-img-div-18 {
   height: 56.38vh;
+}
+
+.cs-5-1-img-div-17 {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+  height: 44.42vh;
 }
 
 .cs-5-1-img-div-19 {
@@ -44533,9 +44542,9 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .cs-5-2-div-3-1-img {
-  height: 63.15vh;
+  height: 53.15vh;
   position: absolute;
-  top: 10vh;
+  top: 15vh;
   right: 13vw;
 }
 

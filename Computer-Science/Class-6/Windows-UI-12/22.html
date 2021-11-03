@@ -24,7 +24,6 @@
             dataLayer.push(arguments);
         }
 
-        2
         gtag('js', new Date());
 
         gtag('config', 'UA-155006442-1');
@@ -50,55 +49,52 @@
         </app-section>
     </section>
     <section id="mainPage">
-        <div class="row">
-            <div class="col-12">
-                <div class="row">
-                    <div class="col-7">
-                        <div class="col-12 mt-8vh">
-                            <div class="newDesign_subject_question_item ml-5vh">
-                                <p class="newDesign_subject_question_item-title">
-                                    Taskbar-ში აპლიკაციის აიქონის დამატება<br><br>
-                                </p>
+        <div class="row ">
+            <div class="col-10 m-auto">
+                <div class="newDesign_subject_question_item d-flex justify-content-center">
+                    <img alt="img" class="newDesign_subject_question_item-img"
+                         src="../../../img/icons/newDesign_btn-yellow.svg">
+                    <p class="newDesign_subject_question_item-title">
+                        მონიშნე სწორი პასუხები.
+                    </p>
+                </div>
+            </div>
+            <div class="col-10 m-auto d-flex justify-content-start">
+                <p class="dj-2_6vh pDarkMode">რა არის სურათზე?</p>
+            </div>
+            <div class="col-10 m-auto">
+                <div class="row windows_UI-page-23 mt-3vh">
+                    <div class="col-8">
+                        <div class="windows_UI-page-23_image-box">
+                            <img alt="windows UI"
+                                 src="../../../img/gakvetilebi/Computer-Science/Class-6/Windows-UI-12/cs-6-12-23.png">
+                        </div>
+                    </div>
+                    <div class="col-4 d-flex justify-content-center align-items-center">
+                        <div class="row windows_UI-page-23_options d-flex flex-column justify-content-around h-75">
+                            <div class="d-flex checkmarkJS correctJS">
+                                <p class="dj-2_6vh">Windows</p>
                             </div>
-                            <div class="newDesign_subject_question_item">
-                                <img alt="img" class="newDesign_subject_question_item-img"
-                                    src="../../../img/icons/newDesign_btn-yellow.svg">
-                                <p class="newDesign_subject_question_item-title">
-                                    Taskbar-ში აპლიკაციის აიქონის დასამატებლად საჭიროა დააწკაპო Start ღილაკს.
-                                </p>
+                            <div class="d-flex checkmarkJS noCorrectJS">
+                                <p class="dj-2_6vh">Linux</p>
                             </div>
-                            <div class="newDesign_subject_question_item">
-                                <img alt="img" class="newDesign_subject_question_item-img"
-                                    src="../../../img/icons/newDesign_btn-yellow.svg">
-                                <p class="newDesign_subject_question_item-title">
-                                    ჩამონათვალში მოძებნო სასურველი აპლიკაცია.
-                                </p>
+                            <div class="d-flex checkmarkJS noCorrectJS">
+                                <p class="dj-2_6vh">Mac OS</p>
                             </div>
-                            <div class="newDesign_subject_question_item">
-                                <img alt="img" class="newDesign_subject_question_item-img"
-                                    src="../../../img/icons/newDesign_btn-yellow.svg">
-                                <p class="newDesign_subject_question_item-title">
-                                    გამოსულ აპლიკაციაზე თაგუნას მარჯვენა ღილაკზე<br> ორჯერ დაწკაპებით გახსენი მენიუ;
-                                </p>
-                            </div>
-                            <div class="newDesign_subject_question_item">
-                                <img alt="img" class="newDesign_subject_question_item-img"
-                                    src="../../../img/icons/newDesign_btn-yellow.svg">
-                                <p class="newDesign_subject_question_item-title">
-                                    აირჩიე More ღილაკი და შემდეგ დააწკაპე<br> Pin to taskbar.
-                                </p>
+                            <div class="d-flex checkmarkJS noCorrectJS">
+                                <p class="dj-2_6vh">Android</p>
                             </div>
                         </div>
-
                     </div>
-                    <div class="col-4 d-flex justify-content-center">
-                            <img alt="product" class=" mt-7vh "
-                                 src="../../../img/gakvetilebi/Computer-Science/Class-6/Windows-UI-12/cs-6-12-22.png">
-                    </div>
+                </div>
+                <div class="position-fixed flex flex-end column align-items-end z-index reload_game_wrapper">
+                    <button class="reset__btn" id="resetBtn">თავიდან სცადე</button>
+                    <button class="completed__btn" id="completedGame">დასრულება</button>
                 </div>
             </div>
         </div>
 
+        <!-- ეს არის svg თეგირომელიც ქმნის მარცხენა ვერტიკალურ "ნავ რუკას" -->
         <div class="left_components_paging-cont" id="leftNav">
             <left-nav-item></left-nav-item>
         </div>
@@ -128,6 +124,7 @@
 <script src="../../../js/detectdevice.js"></script>
 <script src="../../../js/libraries/jquery.magnific-popup.min.js"></script>
 <script src="../../../js/Pagination.js"></script>
+<script src="./js/23-24-25-26.js"></script>
 
 
 <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->

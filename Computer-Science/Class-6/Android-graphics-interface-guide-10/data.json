@@ -112,14 +112,14 @@
         {
             "number": 20,
             "url": "",
-            "type": 4
-        },
-        {
-            "number": 21,
-            "url": "",
             "type": 2
         },
     
+        {
+            "number": 21,
+            "url": "",
+            "type": 5
+        },
         {
             "number": 22,
             "url": "",
@@ -128,7 +128,7 @@
         {
             "number": 23,
             "url": "",
-            "type": 5
+            "type": null
         },
         {
             "number": 24,
@@ -142,11 +142,6 @@
         },
         {
             "number": 26,
-            "url": "",
-            "type": null
-        },
-        {
-            "number": 27,
             "url": "",
             "type": null
         }

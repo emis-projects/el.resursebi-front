@@ -2,122 +2,117 @@
 <html data-botid="2288" lang="ka">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta content="ie=edge" http-equiv="X-UA-Compatible" />
-    <!-- ყველა გვერდზე -->
+  <meta charset="UTF-8" />
+  <meta content="ie=edge" http-equiv="X-UA-Compatible" />
+  <!-- ყველა გვერდზე -->
     <script src="../../../js/vue.js"></script>
     <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
-    <!--  ვუე გაშვებისას
+  <!--  ვუე გაშვებისას
     <script src="./js/vue.min.js"></script>
      -->
-    <link href="../../../scss/libraries/bootstrap.min.css" rel="stylesheet">
-    <link href="../../../New-header-vue/animate.min.css" rel="stylesheet">
-    <link href="../../../scss/new-style.css" rel="stylesheet" />
-    <link href="../../../scss/components_style.css" rel="stylesheet" />
-    <title>ელექტრონული საგანმანათლებლო რესურსი</title>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
+  <link href="../../../scss/libraries/bootstrap.min.css" rel="stylesheet">
+  <link href="../../../New-header-vue/animate.min.css" rel="stylesheet">
+  <link href="../../../scss/new-style.css" rel="stylesheet" />
+  <link href="../../../scss/components_style.css" rel="stylesheet" />
+  <title>ელექტრონული საგანმანათლებლო რესურსი</title>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
+    function gtag() {
+      dataLayer.push(arguments);
+    }
 
-        gtag('js', new Date());
+    gtag('js', new Date());
 
-        gtag('config', 'UA-155006442-1');
-    </script>
+    gtag('config', 'UA-155006442-1');
+  </script>
 </head>
 
 <body>
-    <div class="container">
-        <section class="container position-absolute" id="app">
-            <header>
-                <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../../'"></app-menu>
-            </header>
+  <div class="container">
+    <section class="container position-absolute" id="app">
+      <header>
+        <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../../'"></app-menu>
+      </header>
 
-            <app-section :is-active="isActive" :is-info="isInfo" v-image="'../../../'">
-                <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger"
-                    v-on:link-tab="link = $event">
+      <app-section :is-active="isActive" :is-info="isInfo" v-image="'../../../'">
+        <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger"
+          v-on:link-tab="link = $event">
 
-                </app-bar>
-                <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive"
-                    :is-info="isInfo" :path="path" :tab-class="currentTabComponent" :trigger="trigger">
-                </component>
+        </app-bar>
+        <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive"
+          :is-info="isInfo" :path="path" :tab-class="currentTabComponent" :trigger="trigger">
+        </component>
 
-            </app-section>
-        </section>
-        <section id="mainPage">
-            <div class="row">
-                <div class="col-12 m-auto">
-                    <div class="row">
-                        <div class="col-7">
-                            <div class="newDesign_subject_question_item mt-8vh">
-                                <img alt="img" class="newDesign_subject_question_item-img"
-                                    src="../../../img/icons/newDesign_btn-yellow.svg">
-                                <p class="newDesign_subject_question_item-title">
-                                    შეარჩიე დიზაინი, სტილი და სლაიდიდან სლაიდზე<br> გადასვლის მიმართულება — ვერტკალური ან ჰორიზონტალური.
-                                </p>
-                            </div>
-                            <div class="newDesign_subject_question_item">
-                                <img alt="img" class="newDesign_subject_question_item-img"
-                                    src="../../../img/icons/newDesign_btn-yellow.svg">
-                                <p class="newDesign_subject_question_item-title">
-                                    ტაბლეტი სმარტფონის გადიდებული ვერსიაა.
-                                </p>
-                            </div>
-                            <div class="newDesign_subject_question_item">
-                                <img alt="img" class="newDesign_subject_question_item-img"
-                                    src="../../../img/icons/newDesign_btn-yellow.svg">
-                                <p class="newDesign_subject_question_item-title">
-                                    მოიკითხე მეგობრებში ვის აქვს ტაბლეტი, დაათვალიერეთ<br>და გაუზიარეთ ერთმანეთს მოსაზრებები სმარტფონისა და ტაბლეტის უპირატესობებზე.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-5 android-graphics-19 mt-5vh">
-                            <img alt="img" class="mt-5vh"
-                                src="../../../img/gakvetilebi/Computer-Science/Class-6/Android-graphics-interface-guide-10/cs-6-10-19.svg">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="left_components_paging-cont" id="leftNav">
-                <left-nav-item></left-nav-item>
-            </div>
+      </app-section>
+    </section>
+    <section id="mainPage">
+      <div class="row">
+        <div class="col-8 m-auto">
+          <div class="newDesign_subject_question_item mt-7vh">
+            <img alt="img" class="newDesign_subject_question_item-img"
+              src="../../../img/icons/newDesign_btn-yellow.svg">
+            <p class="newDesign_subject_question_item-title">
+              შენი აზრით, როდის უფრო მოსახერხებელია პლანშეტის ან სმარტფონის გამოყენება კომპიუტერთან შედარებით?
+            </p>
+          </div>
+          <div class="newDesign_subject_question_item mt-2vh">
+            <img alt="img" class="newDesign_subject_question_item-img"
+              src="../../../img/icons/newDesign_btn-yellow.svg">
+            <p class="newDesign_subject_question_item-title">
+              ჩამოთვალე პროგრამები, ან თამაშები ,რომელსაც სმარტფონზე ან პლანშეტზე უფრო ხშირად იყენებ ვიდრე კომპიუტერზე?
+            </p>
+          </div>
+          <div class="newDesign_subject_question_item mt-2vh">
+            <img alt="img" class="newDesign_subject_question_item-img"
+              src="../../../img/icons/newDesign_btn-yellow.svg">
+            <p class="newDesign_subject_question_item-title">
+              დაფიქრდი, რა შემთხვევაში სჯობს პერსონალური კომპიუტერის ან ლეპტოპის გამოყენება, სმარფონის ან პლანშეტის გამოყენებას?
+            </p>
+          </div>
+        </div>
+        <div class="col-8 m-auto d-flex justify-content-center android-graphics-20">
+          <img alt="img" class="mt-5vh"
+            src="../../../img/gakvetilebi/Computer-Science/Class-6/Android-graphics-interface-guide-10/cs-6-10-20.svg">
+        </div>
+      </div>
 
-            <div class="our__pagination flex">
-                <a class="pagination__prev__btn" href="#">
-                    <img alt="" src="../../../img/icons/chevron-left-icon.svg" style="transform: rotate(180deg)">
-                </a>
+      <div class="left_components_paging-cont" id="leftNav">
+        <left-nav-item></left-nav-item>
+      </div>
+      <div class="our__pagination flex">
+        <a class="pagination__prev__btn" href="#">
+          <img alt="" src="../../../img/icons/chevron-left-icon.svg" style="transform: rotate(180deg)">
+        </a>
+        <div class="flex align-items-center" id="pagination"></div>
+        <a class="pagination__next__btn" href="#">
+          <img alt="" src="../../../img/icons/chevron-left-icon.svg">
+        </a>
+      </div>
 
-                <div class="flex align-items-center" id="pagination"></div>
-
-                <a class="pagination__next__btn" href="#">
-                    <img alt="" src="../../../img/icons/chevron-left-icon.svg">
-                </a>
-            </div>
-
-        </section>
-    </div>
+    </section>
+  </div>
 
 
-    <!-- ჩეთბოტი -->
-    <div id="chatBot">
-        <app-bot></app-bot>
-    </div>
+  <!-- ჩეთბოტი -->
+  <div id="chatBot">
+    <app-bot></app-bot>
+  </div>
 
-    <script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
+  <script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
 <script src="../../../js/detectdevice.js"></script>
-    <script src="../../../js/libraries/jquery.magnific-popup.min.js"></script>
-    <script src="../../../js/Pagination.js"></script>
+  <script src="../../../js/libraries/jquery.magnific-popup.min.js"></script>
+  <script src="../../../js/Pagination.js"></script>
 
 
-<!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
+  <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
+  <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
     <script src="../../../New-header-vue/vis.js"></script>
     <script src="../../../New-header-vue/app.js"></script>
-    <script src="../../../Vue-chatBot/botApp.js"></script>
-    <script src="../../../js/bot.js"></script>
+  <script src="../../../Vue-chatBot/botApp.js"></script>
+  <script src="../../../js/bot.js"></script>
 
 
 </body>

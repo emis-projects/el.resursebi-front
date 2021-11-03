@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html data-botid="2288" lang="ka">
 
@@ -9,8 +8,8 @@
     <script src="../../../js/vue.js"></script>
     <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
     <!--  ვუე გაშვებისას
-    <script src="./js/vue.min.js"></script>
-     -->
+      <script src="./js/vue.min.js"></script>
+       -->
     <link href="../../../scss/libraries/bootstrap.min.css" rel="stylesheet">
     <link href="../../../New-header-vue/animate.min.css" rel="stylesheet">
     <link href="../../../scss/new-style.css" rel="stylesheet"/>
@@ -38,7 +37,7 @@
             <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../../'"></app-menu>
         </header>
 
-        <app-section :is-active="isActive" v-image="'../../../'">
+        <app-section :is-active="isActive" :is-info="isInfo" v-image="'../../../'">
             <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger"
                      v-on:link-tab="link = $event">
 
@@ -50,61 +49,39 @@
         </app-section>
     </section>
     <section id="mainPage">
-        <div class="row ">
-            <div class="col-10 m-auto">
-                <div class="newDesign_subject_question_item d-flex justify-content-center">
+        <div class="row">
+            <div class="col-5 m-auto">
+                <div class="newDesign_subject_question_item mt-7vh">
                     <img alt="img" class="newDesign_subject_question_item-img"
                          src="../../../img/icons/newDesign_btn-yellow.svg">
                     <p class="newDesign_subject_question_item-title">
-                        მონიშნე სწორი პასუხები.
+                        შენი აზრით, Windows-ში გამოყენებული პროგრამული უზრუნველყოფა (Software) შეიძლება თუა რა იყოს თავსებადი სხვა ოპერაციული სისტემებთან?
+                    </p>
+                </div>
+                <div class="newDesign_subject_question_item mt-2vh">
+                    <img alt="img" class="newDesign_subject_question_item-img"
+                         src="../../../img/icons/newDesign_btn-yellow.svg">
+                    <p class="newDesign_subject_question_item-title">
+                        რომელია შენი საყვარელი პროგრამული უზრუნველყოფა (Software) Windows ოპერაციულ სისტემაში?
                     </p>
                 </div>
             </div>
-            <div class="col-10 m-auto d-flex justify-content-start">
-                <p class="dj-2_6vh mt-5vh pDarkMode">რომელია Windows-ის ლოგო?</p>
-            </div>
-            <div class="col-11 m-auto">
-                <div class="windows_UI-page-27_options mt-9vh d-flex justify-content-around ">
-                    <div class="d-flex align-items-center">
-                        <div class="box mr-2vh checkmarkJS noCorrectJS cursor-pointer"></div>
-                        <img alt="software"
-                             src="../../../img/gakvetilebi/Computer-Science/Class-6/Windows-UI-12/exel.svg">
-                    </div>
-                    <div class="d-flex align-items-center">
-                        <div class="box mr-2vh checkmarkJS correctJS cursor-pointer"></div>
-                        <img alt="software"
-                             src="../../../img/gakvetilebi/Computer-Science/Class-6/Windows-UI-12/windows.svg">
-                    </div>
-                    <div class="d-flex align-items-center">
-                        <div class="box mr-2vh checkmarkJS noCorrectJS cursor-pointer"></div>
-                        <img alt="software"
-                             src="../../../img/gakvetilebi/Computer-Science/Class-6/Windows-UI-12/skype.svg">
-                    </div>
-                    <div class="d-flex align-items-center">
-                        <div class="box mr-2vh checkmarkJS noCorrectJS cursor-pointer"></div>
-                        <img alt="software"
-                             src="../../../img/gakvetilebi/Computer-Science/Class-6/Windows-UI-12/chrome.svg">
-                    </div>
-                </div>
-                <div class="position-fixed flex flex-end column align-items-end z-index reload_game_wrapper">
-                    <button class="reset__btn" id="resetBtn">თავიდან სცადე</button>
-                    <button class="completed__btn" id="completedGame">დასრულება</button>
+            <div class="col-11 m-auto d-flex justify-content-center">
+                <div class="windows_UI-page-28 mt-5vh">
+                    <img alt="Windows UI"
+                         src="../../../img/gakvetilebi/Computer-Science/Class-6/Windows-UI-12/cs-6-12-28.svg">
                 </div>
             </div>
         </div>
 
-        <!-- ეს არის svg თეგირომელიც ქმნის მარცხენა ვერტიკალურ "ნავ რუკას" -->
         <div class="left_components_paging-cont" id="leftNav">
             <left-nav-item></left-nav-item>
         </div>
-
         <div class="our__pagination flex">
             <a class="pagination__prev__btn" href="#">
                 <img alt="" src="../../../img/icons/chevron-left-icon.svg" style="transform: rotate(180deg)">
             </a>
-
             <div class="flex align-items-center" id="pagination"></div>
-
             <a class="pagination__next__btn" href="#">
                 <img alt="" src="../../../img/icons/chevron-left-icon.svg">
             </a>
@@ -123,7 +100,6 @@
 <script src="../../../js/detectdevice.js"></script>
 <script src="../../../js/libraries/jquery.magnific-popup.min.js"></script>
 <script src="../../../js/Pagination.js"></script>
-<script src="./js/27.js"></script>
 
 
 <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->

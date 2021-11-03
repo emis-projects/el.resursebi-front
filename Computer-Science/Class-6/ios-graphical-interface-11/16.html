@@ -1,106 +1,129 @@
 <!DOCTYPE html>
-<html data-botid="2288" lang="ka">
+<!-- ბოტის აიდიში ვუთითებთ: ხელოვნების - 2318, ბუნების - 2320, მუსიკის - 2292 -->
+<html data-botid="2320" lang="ka">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta content="ie=edge" http-equiv="X-UA-Compatible" />
-  <!-- ყველა გვერდზე -->
+    <meta charset="UTF-8"/>
+    <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+    <!-- ყველა გვერდზე -->
     <script src="../../../js/vue.js"></script>
     <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
-  <!--  ვუე გაშვებისას
-    <script src="./js/vue.min.js"></script>
-     -->
-  <link href="../../../scss/libraries/bootstrap.min.css" rel="stylesheet">
-  <link href="../../../New-header-vue/animate.min.css" rel="stylesheet">
-  <link href="../../../scss/new-style.css" rel="stylesheet" />
-  <link href="../../../scss/components_style.css" rel="stylesheet" />
-  <title>ელექტრონული საგანმანათლებლო რესურსი</title>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
+    <!--  ვუე გაშვებისას
+        <script src="./js/vue.min.js"></script>
+         -->
+    <link href="../../../New-header-vue/animate.min.css" rel="stylesheet">
+    <link href="../../../scss/libraries/bootstrap.min.css" rel="stylesheet">
+    <link href="../../../scss/new-style.css" rel="stylesheet"/>
+    <link href="../../../scss/components_style.css" rel="stylesheet"/>
+    <title>ელექტრონული საგანმანათლებლო რესურსი</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-    function gtag() {
-      dataLayer.push(arguments);
-    }
+        function gtag() {
+            dataLayer.push(arguments);
+        }
 
-    gtag('js', new Date());
+        gtag('js', new Date());
 
-    gtag('config', 'UA-155006442-1');
-  </script>
+        gtag('config', 'UA-155006442-1');
+    </script>
 </head>
 
 <body>
-  <div class="container">
+<div class="container">
     <section class="container position-absolute" id="app">
-      <header>
-        <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../../'"></app-menu>
-      </header>
+        <header>
+            <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../../'"></app-menu>
+        </header>
 
-      <app-section :is-active="isActive" :is-info="isInfo" v-image="'../../../'">
-        <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger"
-          v-on:link-tab="link = $event">
+        <app-section :is-active="isActive" :is-info="isInfo" v-image="'../../../'">
+            <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger"
+                     v-on:link-tab="link = $event">
 
-        </app-bar>
-        <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive"
-          :is-info="isInfo" :path="path" :tab-class="currentTabComponent" :trigger="trigger">
-        </component>
+            </app-bar>
+            <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive"
+                       :is-info="isInfo"
+                       :path="path" :tab-class="currentTabComponent" :trigger="trigger">
+            </component>
 
-      </app-section>
+        </app-section>
     </section>
+
+
     <section id="mainPage">
-      <div class="row">
-        <div class="col-9 m-auto">
-          <div class="newDesign_subject_question_item mt-5vh">
-            <img alt="img" class="newDesign_subject_question_item-img"
-              src="../../../img/icons/newDesign_btn-yellow.svg">
-            <p class="newDesign_subject_question_item-title">
-                App Store-ის საძიებო სისტემით შეგიძლია მოძებნო შენთვის სასურველი აპლიკაცია.
-            </p>
-          </div>
+        <div class="left_components_paging-cont" id="leftNav">
+            <left-nav-item></left-nav-item>
         </div>
-        <div class="col-11 m-auto d-flex justify-content-center">
-          <img alt="img" class="cs-6-11-16-img"
-            src="../../../img/gakvetilebi/Computer-Science/Class-6/ios-graphical-interface-11/cs-6-11-16.png">
+        <div class="row">
+            <div class="col-9 d-flex flex-column ml-10vh">
+                <div class="d-flex mb-1vh">
+                    <img alt="img" class="newDesign_subject_question_item-img"
+                         src="../../../img/icons/newDesign_btn-yellow.svg">
+                    <p class="newDesign_subject_question_item-title big-font-size-20px-dejavu">
+                        Android-სგან განსხვავებით iPhone-ზე აპლკაციების დასამატებლად<br> საჭიროა 2 ნაბიჯი:</p>
+                </div>
+                <div class=" d-flex mb-1vh">
+                    <img alt="img" class="newDesign_subject_question_item-img"
+                         src="../../../img/icons/newDesign_btn-yellow.svg">
+                    <p class="newDesign_subject_question_item-title big-font-size-20px-dejavu">
+                        1) მოძებნის შემდეგ უნდა დააჭირო თითი ამ აპლიკაციის მიღებას — Get;</p>
+                </div>
+                <div class=" d-flex mb-1vh">
+                    <img alt="img" class="newDesign_subject_question_item-img"
+                         src="../../../img/icons/newDesign_btn-yellow.svg">
+                    <p class="newDesign_subject_question_item-title big-font-size-20px-dejavu">
+                        2) უნდა აირჩიო Install.</p>
+                </div>
+            <div class=" d-flex mb-1vh">
+                <img alt="img" class="newDesign_subject_question_item-img"
+                     src="../../../img/icons/newDesign_btn-yellow.svg">
+                <p class="newDesign_subject_question_item-title big-font-size-20px-dejavu">
+                    გადმოწერე და დააინსტალირე Teams ან Outlook აპლიკაცია.</p>
+            </div>
+           </div>
+           </div>
+              </div>
+            <div class="col-12 d-flex justify-content-center ios-17 mt-2vh ml-2vh">
+                <img alt="using-variables"
+                     src="../../../img/gakvetilebi/Computer-Science/Class-6/ios-graphical-interface-11/cs-6-11-17.png">
+            </div>
         </div>
-      </div>
 
-      <div class="left_components_paging-cont" id="leftNav">
-        <left-nav-item></left-nav-item>
-      </div>
-      <div class="our__pagination flex">
-        <a class="pagination__prev__btn" href="#">
-          <img alt="" src="../../../img/icons/chevron-left-icon.svg" style="transform: rotate(180deg)">
-        </a>
-        <div class="flex align-items-center" id="pagination"></div>
-        <a class="pagination__next__btn" href="#">
-          <img alt="" src="../../../img/icons/chevron-left-icon.svg">
-        </a>
-      </div>
+        <div class="our__pagination flex">
+            <a class="pagination__prev__btn" href="#">
+                <img alt="" src="../../../img/icons/chevron-left-icon.svg" style="transform: rotate(180deg)">
+            </a>
+
+            <div class="flex align-items-center" id="pagination"></div>
+
+            <a class="pagination__next__btn" href="#">
+                <img alt="" src="../../../img/icons/chevron-left-icon.svg">
+            </a>
+        </div>
 
     </section>
-  </div>
+</div>
 
 
-  <!-- ჩეთბოტი -->
-  <div id="chatBot">
+<!-- ჩეთბოტი -->
+<div id="chatBot">
     <app-bot></app-bot>
-  </div>
+</div>
 
-  <script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
+<script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
 <script src="../../../js/detectdevice.js"></script>
-  <script src="../../../js/libraries/jquery.magnific-popup.min.js"></script>
-  <script src="../../../js/Pagination.js"></script>
+<script src="../../../js/libraries/jquery.magnific-popup.min.js"></script>
+<script src="../../../js/Pagination.js"></script>
 
 
-  <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
-  <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
+<!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
+<!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
     <script src="../../../New-header-vue/vis.js"></script>
     <script src="../../../New-header-vue/app.js"></script>
-  <script src="../../../Vue-chatBot/botApp.js"></script>
-  <script src="../../../js/bot.js"></script>
-
-
+<script src="../../../Vue-chatBot/botApp.js"></script>
+<script src="../../../js/bot.js"></script>
 </body>
 
 </html>

@@ -2,124 +2,113 @@
 <html data-botid="2288" lang="ka">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta content="ie=edge" http-equiv="X-UA-Compatible" />
-  <!-- ყველა გვერდზე -->
+    <meta charset="UTF-8"/>
+    <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+    <!-- ყველა გვერდზე -->
     <script src="../../../js/vue.js"></script>
     <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
-  <!--  ვუე გაშვებისას
+    <!--  ვუე გაშვებისას
     <script src="./js/vue.min.js"></script>
      -->
-  <link href="../../../scss/libraries/bootstrap.min.css" rel="stylesheet">
-  <link href="../../../New-header-vue/animate.min.css" rel="stylesheet">
-  <link href="../../../scss/new-style.css" rel="stylesheet" />
-  <link href="../../../scss/components_style.css" rel="stylesheet" />
-  <title>ელექტრონული საგანმანათლებლო რესურსი</title>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
+    <link href="../../../scss/libraries/bootstrap.min.css" rel="stylesheet">
+    <link href="../../../New-header-vue/animate.min.css" rel="stylesheet">
+    <link href="../../../scss/new-style.css" rel="stylesheet"/>
+    <link href="../../../scss/components_style.css" rel="stylesheet"/>
+    <title>ელექტრონული საგანმანათლებლო რესურსი</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-    function gtag() {
-      dataLayer.push(arguments);
-    }
+        function gtag() {
+            dataLayer.push(arguments);
+        }
 
-    gtag('js', new Date());
+        gtag('js', new Date());
 
-    gtag('config', 'UA-155006442-1');
-  </script>
+        gtag('config', 'UA-155006442-1');
+    </script>
 </head>
 
 <body>
-  <div class="container">
+<div class="container">
     <section class="container position-absolute" id="app">
-      <header>
-        <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../../'"></app-menu>
-      </header>
+        <header>
+            <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../../'"></app-menu>
+        </header>
 
-      <app-section :is-active="isActive" :is-info="isInfo" v-image="'../../../'">
-        <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger"
-          v-on:link-tab="link = $event">
+        <app-section :is-active="isActive" :is-info="isInfo" v-image="'../../../'">
+            <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger"
+                     v-on:link-tab="link = $event">
 
-        </app-bar>
-        <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive"
-          :is-info="isInfo" :path="path" :tab-class="currentTabComponent" :trigger="trigger">
-        </component>
+            </app-bar>
+            <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive"
+                       :is-info="isInfo" :path="path" :tab-class="currentTabComponent"
+                       :trigger="trigger">
+            </component>
 
-      </app-section>
+        </app-section>
     </section>
     <section id="mainPage">
-      <div class="row">
-        <div class="col-9 m-auto d-flex align-items-center">
-          <!--     როცა სურათი დაგწირდებათ      -->
-          <!-- <div class="android-graphics-21_image">
-            <img alt="header image" class="img-fluid"
-                 src="../../../img/gakvetilebi/Computer-Science/Class-6/Android-graphics-interface-guide-10/cs-6-10-header-1.svg">
-          </div> -->
-          <div class="newDesign_subject_question_item mb-10vh mt-10vh">
-            <p class="newDesign_subject_question_item-title">
-              ჩამონათვალიდან რომელი არის უფრო ახალი ანდროიდის ვერსია?</p>
-          </div>
-        </div>
-        <div class="col-11 m-auto  d-flex justify-content-between android-graphics-21">
-          <div class="android-graphics-21_box checkmarkJS noCorrectJS dj-2_6vh">
-            <p class="dj-2_6vh pl-3vh">Marshmallow</p>
-          </div>
-          <div class="android-graphics-21_box checkmarkJS noCorrectJS dj-2_6vh">
-            <p class="dj-2_6vh pl-3vh">Donut</p>
-          </div>
-          <div class="android-graphics-21_box checkmarkJS noCorrectJS dj-2_6vh">
-            <p class="dj-2_6vh pl-3vh">Oreo</p>
-          </div>
-          <div class="android-graphics-21_box checkmarkJS correctJS dj-2_6vh">
-            <p class="dj-2_6vh pl-3vh">Pie</p>
-          </div>
+        <div class="row">
+            <div class="col-10 m-auto">
+                <div class="newDesign_container_main_title-cont newDesign_container_main_title-cont-margin">
+                    <h1 class="newDesign_container_main_title">Android გრაფიკული ინტერფეისის გზამკვლევი</h1>
+                    <img alt="img" class="newDesign_container_main_title-img"
+                         src="../../../img/icons/comp_main_title_border.svg">
+                </div>
+                <div class="col-12 m-auto">
+                <div class="newDesign_subject_question_item mt-3vh">
+                    <img alt="img" class="newDesign_subject_question_item-img"
+                         src="../../../img/icons/newDesign_btn-yellow.svg">
+                    <p class="newDesign_subject_question_item-title">
+                        შენ უკვე წარმატებით გაიარე ნაბიჯები, გაიგე ბევრი ახალი რამ, ახლა დროა, დაიწყო მთავარი დავალების შესრულება.
+                        </p>
+                </div>
+            </div>
+            <div class="col-9 m-auto d-flex justify-content-center android-graphics-22">
+                    <img alt="multimedia" class="mt-5vh"
+                         src="../../../img/gakvetilebi/Computer-Science/Class-6/Android-graphics-interface-guide-10/cs-6-10-22.svg">
+            </div>
         </div>
 
-      </div>
-
-      <div class="col-3 flex flex-end column align-items-end z-index reload_game_wrapper">
-        <div class="d-flex flex-column">
-            <button class="reset__btn" id="resetBtn">თავიდან სცადე</button>
-            <button class="completed__btn" id="completedGame">დასრულება</button>
+        <div class="left_components_paging-cont" id="leftNav">
+            <left-nav-item></left-nav-item>
         </div>
-    </div>
 
-      <div class="left_components_paging-cont" id="leftNav">
-        <left-nav-item></left-nav-item>
-      </div>
-      <div class="our__pagination flex">
-        <a class="pagination__prev__btn" href="#">
-          <img alt="" src="../../../img/icons/chevron-left-icon.svg" style="transform: rotate(180deg)">
-        </a>
-        <div class="flex align-items-center" id="pagination"></div>
-        <a class="pagination__next__btn" href="#">
-          <img alt="" src="../../../img/icons/chevron-left-icon.svg">
-        </a>
-      </div>
+        <div class="our__pagination flex">
+            <a class="pagination__prev__btn" href="#">
+                <img alt="" src="../../../img/icons/chevron-left-icon.svg" style="transform: rotate(180deg)">
+            </a>
+
+            <div class="flex align-items-center" id="pagination"></div>
+
+            <a class="pagination__next__btn" href="#">
+                <img alt="" src="../../../img/icons/chevron-left-icon.svg">
+            </a>
+        </div>
 
     </section>
-  </div>
+</div>
 
 
-  <!-- ჩეთბოტი -->
-  <div id="chatBot">
+<!-- ჩეთბოტი -->
+<div id="chatBot">
     <app-bot></app-bot>
-  </div>
+</div>
 
-  <script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
+<script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
 <script src="../../../js/detectdevice.js"></script>
-  <script src="../../../js/libraries/jquery.magnific-popup.min.js"></script>
-  <script src="../../../js/Pagination.js"></script>
-  <script src="./js/21-21.1-21.2-21.3.js"></script>
+<script src="../../../js/libraries/jquery.magnific-popup.min.js"></script>
+<script src="../../../js/Pagination.js"></script>
 
 
-  <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
-  <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
+<!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
+<!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
     <script src="../../../New-header-vue/vis.js"></script>
     <script src="../../../New-header-vue/app.js"></script>
-  <script src="../../../Vue-chatBot/botApp.js"></script>
-  <script src="../../../js/bot.js"></script>
+<script src="../../../Vue-chatBot/botApp.js"></script>
+<script src="../../../js/bot.js"></script>
 
 
 </body>

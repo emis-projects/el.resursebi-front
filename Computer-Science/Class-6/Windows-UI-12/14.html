@@ -13,7 +13,7 @@
     <link href="../../../scss/libraries/bootstrap.min.css" rel="stylesheet">
     <link href="../../../New-header-vue/animate.min.css" rel="stylesheet">
     <link href="../../../scss/new-style.css" rel="stylesheet"/>
-<link href="../../../scss/components_style.css" rel="stylesheet"/>
+    <link href="../../../scss/components_style.css" rel="stylesheet"/>
     <title>ელექტრონული საგანმანათლებლო რესურსი</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
@@ -37,48 +37,42 @@
             <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../../'"></app-menu>
         </header>
 
-        <app-section :is-active="isActive" v-image="'../../../'">
+        <app-section :is-active="isActive" :is-info="isInfo" v-image="'../../../'">
             <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger"
                      v-on:link-tab="link = $event">
 
             </app-bar>
             <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive"
-                       :is-info="isInfo" :path="path" :tab-class="currentTabComponent" :trigger="trigger">
+                       :is-info="isInfo" :path="path" :tab-class="currentTabComponent"
+                       :trigger="trigger">
             </component>
 
         </app-section>
     </section>
     <section id="mainPage">
-        <div class="row mt-4vh">
-            <div class="col-8 m-auto">
-                <div class="newDesign_subject_question_item mb-5vh">
+        <div class="row">
+            <div class="col-11 ml-10vh">
+                <div class="newDesign_subject_question_item mt-8vh">
                     <img alt="img" class="newDesign_subject_question_item-img"
                          src="../../../img/icons/newDesign_btn-yellow.svg">
                     <p class="newDesign_subject_question_item-title">
-                        რა იცი ამ თემაზე?
+                        ოპერაციული სისტემა Microsoft Windows-ის ერთ-ერთი ბოლო გამოშვებაა Windows 10, მისი ინტერფეისი წარმოადგენს ფანჯრების ერთობლიობას.
                     </p>
                 </div>
-                <div class="newDesign_subject_question_item mb-5vh">
+                <div class="newDesign_subject_question_item mt-2vh">
                     <img alt="img" class="newDesign_subject_question_item-img"
                          src="../../../img/icons/newDesign_btn-yellow.svg">
                     <p class="newDesign_subject_question_item-title">
-                        შენი აზრით, რისი ცოდნა გჭირდება დავალების<br> შესასრულებლად?
-                    </p>
-                </div>
-                <div class="newDesign_subject_question_item mb-5vh">
-                    <img alt="img" class="newDesign_subject_question_item-img"
-                         src="../../../img/icons/newDesign_btn-yellow.svg">
-                    <p class="newDesign_subject_question_item-title">
-                        დააკვირდი შემდეგ სავარჯიშოებს და იფიქრე, როგორ<br> გამოიყენო მიღებული ცოდნა.
+                        დაათვალიერე შენი კომპიუტერის ოპერაციული სისტემის ინტერფეისი და პრაქტიკულად</br>შეასრულე ის სამუშაოები, რომლებსაც შემდეგ გვერდებზე გაეცნობი.               
                     </p>
                 </div>
             </div>
-            <div class="col-10 m-auto class_6_12-img_14 d-flex justify-content-end">
-                <img src="../../../img/gakvetilebi/Computer-Science/Class-6/Windows-UI-12/C-6-12-14.svg" alt="image">
+            <div class="windows-ui-12-15 col-9 m-auto d-flex justify-content-center">
+                    <img alt="multimedia" class="mt-5vh" 
+                         src="../../../img/gakvetilebi/Computer-Science/Class-6/Windows-UI-12/cs-6-12-15.svg">
             </div>
         </div>
 
-        <!-- ეს არის svg თეგირომელიც ქმნის მარცხენა ვერტიკალურ "ნავ რუკას" -->
         <div class="left_components_paging-cont" id="leftNav">
             <left-nav-item></left-nav-item>
         </div>

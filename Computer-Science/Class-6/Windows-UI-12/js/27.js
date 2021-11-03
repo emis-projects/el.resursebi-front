@@ -57,7 +57,7 @@ function computerGames(){
     }
 
     this.successPage = () => {
-        location.href = 'game-success-27.html';
+        location.href = 'game-success-26.html';
     }
 
 

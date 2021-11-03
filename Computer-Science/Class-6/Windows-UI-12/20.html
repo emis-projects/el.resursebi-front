@@ -24,6 +24,7 @@
             dataLayer.push(arguments);
         }
 
+        2
         gtag('js', new Date());
 
         gtag('config', 'UA-155006442-1');
@@ -37,38 +38,59 @@
             <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../../'"></app-menu>
         </header>
 
-        <app-section :is-active="isActive" :is-info="isInfo" v-image="'../../../'">
+        <app-section :is-active="isActive" v-image="'../../../'">
             <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger"
                      v-on:link-tab="link = $event">
 
             </app-bar>
             <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive"
-                       :is-info="isInfo" :path="path" :tab-class="currentTabComponent"
-                       :trigger="trigger">
+                       :is-info="isInfo" :path="path" :tab-class="currentTabComponent" :trigger="trigger">
             </component>
 
         </app-section>
     </section>
     <section id="mainPage">
-        <div class="row position-relative">
-            <div class="col-10 ml-10vh">
-                <div class="newDesign_subject_question_item mt-7vh">
-                    <img alt="img" class="newDesign_subject_question_item-img"
-                         src="../../../img/icons/newDesign_btn-yellow.svg">
-                    <p class="newDesign_subject_question_item-title">
-                        Taskbar მარცხენა ქვედა კუთხეში მდებარეობს მთავარი მენიუს გამოსაძახებელი<br> ღილაკი —Start <img src="../../../img/gakvetilebi/Computer-Science/Class-6/Windows-UI-12/cs-6-12-20-1.svg" class="windows-ui-12-20-box"alt="Start">                   
-                     </p>
+        <div class="row">
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-8">
+                        <div class="col-12 mt-8vh">
+                            <div class="newDesign_subject_question_item">
+                                <img alt="img" class="newDesign_subject_question_item-img"
+                                    src="../../../img/icons/newDesign_btn-yellow.svg">
+                                <p class="newDesign_subject_question_item-title">
+                                    Start ღილაკის დაწკაპების შემდეგ:<img src="../../../img/gakvetilebi/Computer-Science/Class-6/Windows-UI-12/cs-6-12-20-1.svg" alt="Start" class="windows-ui-12-20-box">
+                                </p>
+                            </div>
+                            <div class="newDesign_subject_question_item">
+                                <img alt="img" class="newDesign_subject_question_item-img"
+                                    src="../../../img/icons/newDesign_btn-yellow.svg">
+                                <p class="newDesign_subject_question_item-title">
+                                    Settings ღილაკზე დაწკაპებით შეგიძლია, ნახო , ან<br> შეცვალო Windows-ის პარამეტრები.
+                                </p>
+                            </div>
+                            <div class="newDesign_subject_question_item">
+                                <img alt="img" class="newDesign_subject_question_item-img"
+                                    src="../../../img/icons/newDesign_btn-yellow.svg">
+                                <p class="newDesign_subject_question_item-title">
+                                    Power ღილაკზე დაწკაპებით გამოდის 3 ღილაკი:<br> Sleep-კომპიუტერის დაძინება<br> Shut down-კომპიუტერის გამორთვა<br>Restart-კომპიუტერის ხელახლა ჩართვა.
+                                </p>
+                            </div>
+                            <div class="newDesign_subject_question_item">
+                                <img alt="img" class="newDesign_subject_question_item-img"
+                                    src="../../../img/icons/newDesign_btn-yellow.svg">
+                                <p class="newDesign_subject_question_item-title">
+                                    ჩამოთვლილთაგან რომელი ღილაკი<br> გამოგიყენებია?
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-4 d-flex justify-content-center">
+                            <img alt="product" class=" mt-10vh mr-22vh"
+                                 src="../../../img/gakvetilebi/Computer-Science/Class-6/Windows-UI-12/cs-6-12-21.png">
+                    </div>
                 </div>
-                <div class="newDesign_subject_question_item mt-2vh">
-                    <img alt="img" class="newDesign_subject_question_item-img "
-                         src="../../../img/icons/newDesign_btn-yellow.svg">
-                    <p class="newDesign_subject_question_item-title">
-                        შენს კომპიუტერზე დააწკაპე Start ღილაკს, დაათვალიერე გამოსული ფანჯრები და ღილაკები.</p>
-                </div>
-            </div>
-            <div class="windows-ui-12-20 ">
-                    <img alt="multimedia" class="position-absolute"
-                         src="../../../img/gakvetilebi/Computer-Science/Class-6/Windows-UI-12/cs-6-12-20.png">
             </div>
         </div>
 
