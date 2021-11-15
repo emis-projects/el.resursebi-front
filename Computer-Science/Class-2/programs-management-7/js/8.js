@@ -77,7 +77,7 @@ function game(){
         let el = dragElement2MyArray.every(this.checkEveryElement)
 
 		if(el == true){
-            location.href = "game-success-8.html"
+            location.href = "game-success-7.html"
 
         } else {
 

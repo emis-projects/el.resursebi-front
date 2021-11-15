@@ -67,7 +67,7 @@ function computerGames() {
     this.successPage = () => {
         let el = myArray.every(this.checkEveryElement);
         if (el) {
-            location.href = 'game-success-12.html'
+            location.href = 'game-success-11.html'
         }
         else {
             this.errorPage();

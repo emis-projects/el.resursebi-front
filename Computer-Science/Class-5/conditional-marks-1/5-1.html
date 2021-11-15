@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<!-- ბოტის აიდიში ვუთითებთ: ხელოვნების - 2318, ბუნების - 2320, მუსიკის - 2292 -->
+ <!DOCTYPE html>
 <html lang="ka" data-botid="2288">
 
 <head>
@@ -9,13 +8,10 @@
     <script src="../../../js/vue.js"></script>
     <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
     <!--  ვუე გაშვებისას
-    <script src="./js/vue.min.js"></script>
-     -->
-    <link rel="stylesheet" href="../../../scss/libraries/bootstrap.min.css">
+      <script src="./js/vue.min.js"></script>
+       -->
     <link rel="stylesheet" href="../../../New-header-vue/animate.min.css">
-    <link rel="stylesheet" type="text/css" href="../../../scss/libraries/owl.carousel.min.css"/>
-    <link rel="stylesheet" type="text/css" href="../../../scss/libraries/owl.theme.default.css"/>
-    <link rel="stylesheet" href="../../../scss/libraries/magnific-popup.css">
+    <link rel="stylesheet" href="../../../scss/libraries/bootstrap.min.css">
     <link rel="stylesheet" href="../../../scss/new-style.css"/>
     <title>ელექტრონული საგანმანათლებლო რესურსი</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -35,57 +31,34 @@
 
 <body>
 <div class="container">
-    <section id="app" class="container position-absolute">
-        <header>
-            <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../../'"></app-menu>
-        </header>
-
-        <app-section :is-active="isActive" :is-info="isInfo" v-image="'../../../'">
-            <app-bar
-                    :is-active="isActive"
-                    :trigger="trigger"
-                    :dots="dots"
-                    :current-tab="link"
-                    v-on:link-tab="link = $event">
-
-            </app-bar>
-            <component
-                    :is="currentTabComponent"
-                    :is-active="isActive"
-                    :path="path"
-                    :trigger="trigger"
-                    :images="images"
-                    :active-class="activeClass"
-                    :is-info="isInfo" :tab-class="currentTabComponent">
-            </component>
-
-        </app-section>
-    </section>
-    <section id="mainPage">
-        <div class="row">
-            <div class="col-8 m-auto ">
-                  <div class="newDesign_subject_question_item  mt-3vh">
-                        <img src="../../../img/icons/newDesign_btn-yellow.svg" alt="img"
-                             class="newDesign_subject_question_item-img">
-                        <p class="newDesign_subject_question_item-title big-font-size-20px-dejavu" >
-                              ყველაფერს, რასაც კომპიუტერი აკეთებს, ის ასრულებს პროგრამისტის მიერ
-                              პროგრამირების ენაზე ანუ მანქანის ენაზე დაწერილი <a class="a-blue" href="8-1.html">კოდის</a> ანუ კომპიუტერული
-                              პროგრამის შესრულების შედეგად.</p>
-                    </div>
-                  <div class="newDesign_subject_question_item  mb-3vh">
+    <header>
+        <a class="close" href="5.html">
+            <img src="../../../img/icons/close.svg" alt="close"/>
+        </a>
+    </header>
+    <section>
+        <div class="row newDesign_hintPage">
+            <div class="col-8 m-auto">
+                  <div class="newDesign_subject_question_item mt-5vh">
                       <img src="../../../img/icons/newDesign_btn-yellow.svg" alt="img"
-                           class="newDesign_subject_question_item-img">
-                      <p class="newDesign_subject_question_item-title big-font-size-20px-dejavu" >
-                        შენ რომელი მოქმედებების შესასრულებლად გამოგიყენებია კომპიუტერი?
+                          class="newDesign_subject_question_item-img">
+                      <p class="newDesign_subject_question_item-title">
+                          აიქონები წარმოადგენენ ეგრდწოდებულ ხატულა სიმბოლოებს, ილუსტრაციებს რასაც კომპიუტერში ხშირად ვხვდებით.
+                      </p>
                   </div>
+                  <div class="newDesign_subject_question_item mt-3vh">
+                      <img src="../../../img/icons/newDesign_btn-yellow.svg" alt="img"
+                          class="newDesign_subject_question_item-img">
+                      <p class="newDesign_subject_question_item-title">
+                          სურათზე მოცემულია აიქონების თქვენთვის ნაცნობი მაგალითები
+                      </p>
                   </div>
-                  <div class="col-12  justify-content-center d-flex cs-3-5-8-div-img mt-3vh">
-                        <img src="../../../img/gakvetilebi/Computer-Science/Class-3/programming-language-5/cs-3-5-8.svg" alt="">
-                  </div>
+                  <img src="../../../img/gakvetilebi/Computer-Science/Class-5/conditional-marks-1/cs-new-5-1-5-a.png"
+                  alt="img" class="cs-new-5-1-5-img mt-10vh">
+              </div>
+        </div>
 
-
-
-
+        <!-- ეს არის svg თეგირომელიც ქმნის მარცხენა ვერტიკალურ "ნავ რუკას" -->
         <div class="left_components_paging-cont">
             <svg class="left_components_paging" xmlns="http://www.w3.org/2000/svg"
                  xmlns:xlink="http://www.w3.org/1999/xlink" width="134" height="722" viewBox="0 0 134 722">
@@ -157,7 +130,7 @@
                           data-name="Path 24922"
                           d="M-107,293.662h-25.155a28.388,28.388,0,0,0-21.1,9.686A34.87,34.87,0,0,0-162,326.736c0,18.266,13.362,33.074,29.844,33.074H-107c20.013,0,36.24,17.983,36.24,40.162V253.5C-70.762,275.679-86.988,293.662-107,293.662Z"
                           transform="translate(195.761 283.264)" fill="#7fd1d8"/>
-                    <path class="leftSidebar_type" style="opacity: 0" data-type="3" id="Path_143735"
+                    <path class="leftSidebar_type" style="opacity: 1" data-type="3" id="Path_143735"
                           data-name="Path 143735"
                           d="M-107,293.662h-25.155a28.388,28.388,0,0,0-21.1,9.686A34.87,34.87,0,0,0-162,326.736c0,18.266,13.362,33.074,29.844,33.074H-107c20.013,0,36.24,17.983,36.24,40.162V253.5C-70.762,275.679-86.988,293.662-107,293.662Z"
                           transform="translate(195.761 57.264)" fill="#7fd1d8"/>
@@ -211,77 +184,77 @@
                                   d="M398.326,34.105h15.128a.9.9,0,0,0,.149-1.8l-.06-.007c-1.965-.2-15.26,0-15.26,0s-.024,0-.068,0A.9.9,0,0,0,398.326,34.105Z"
                                   transform="translate(-396.889 -22.072)" fill="#badfed"/>
                             <line id="Line_800" data-name="Line 800" x2="1.118" transform="translate(6.287 1.341)"
-                                  fill="none"
-                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+                                  fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"
+                                  stroke-width="0.25"/>
                             <line id="Line_801" data-name="Line 801" x2="1.118" transform="translate(6.287 3.416)"
-                                  fill="none"
-                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+                                  fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"
+                                  stroke-width="0.25"/>
                             <line id="Line_802" data-name="Line 802" x2="0.771" transform="translate(6.289 1.798)"
-                                  fill="none"
-                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+                                  fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"
+                                  stroke-width="0.25"/>
                             <line id="Line_803" data-name="Line 803" x2="0.771" transform="translate(6.289 2.202)"
-                                  fill="none"
-                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+                                  fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"
+                                  stroke-width="0.25"/>
                             <line id="Line_804" data-name="Line 804" x2="0.771" transform="translate(6.289 2.607)"
-                                  fill="none"
-                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+                                  fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"
+                                  stroke-width="0.25"/>
                             <line id="Line_805" data-name="Line 805" x2="0.771" transform="translate(6.289 3.012)"
-                                  fill="none"
-                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+                                  fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"
+                                  stroke-width="0.25"/>
                             <line id="Line_806" data-name="Line 806" x2="1.118" transform="translate(6.287 3.416)"
-                                  fill="none"
-                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+                                  fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"
+                                  stroke-width="0.25"/>
                             <line id="Line_807" data-name="Line 807" x2="1.118" transform="translate(6.287 5.344)"
-                                  fill="none"
-                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+                                  fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"
+                                  stroke-width="0.25"/>
                             <line id="Line_808" data-name="Line 808" x2="0.771" transform="translate(6.289 3.873)"
-                                  fill="none"
-                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+                                  fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"
+                                  stroke-width="0.25"/>
                             <line id="Line_809" data-name="Line 809" x2="0.771" transform="translate(6.289 4.278)"
-                                  fill="none"
-                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+                                  fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"
+                                  stroke-width="0.25"/>
                             <line id="Line_810" data-name="Line 810" x2="0.771" transform="translate(6.289 4.682)"
-                                  fill="none"
-                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+                                  fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"
+                                  stroke-width="0.25"/>
                             <line id="Line_811" data-name="Line 811" x2="0.771" transform="translate(6.289 5.087)"
-                                  fill="none"
-                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+                                  fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"
+                                  stroke-width="0.25"/>
                             <line id="Line_812" data-name="Line 812" x2="1.118" transform="translate(6.287 5.344)"
-                                  fill="none"
-                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+                                  fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"
+                                  stroke-width="0.25"/>
                             <line id="Line_813" data-name="Line 813" x2="1.118" transform="translate(6.287 7.363)"
-                                  fill="none"
-                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+                                  fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"
+                                  stroke-width="0.25"/>
                             <line id="Line_814" data-name="Line 814" x2="0.771" transform="translate(6.289 5.789)"
-                                  fill="none"
-                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+                                  fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"
+                                  stroke-width="0.25"/>
                             <line id="Line_815" data-name="Line 815" x2="0.771" transform="translate(6.289 6.182)"
-                                  fill="none"
-                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+                                  fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"
+                                  stroke-width="0.25"/>
                             <line id="Line_816" data-name="Line 816" x2="0.771" transform="translate(6.289 6.576)"
-                                  fill="none"
-                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+                                  fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"
+                                  stroke-width="0.25"/>
                             <line id="Line_817" data-name="Line 817" x2="0.771" transform="translate(6.289 6.97)"
-                                  fill="none"
-                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+                                  fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"
+                                  stroke-width="0.25"/>
                             <line id="Line_818" data-name="Line 818" x2="1.118" transform="translate(6.287 7.363)"
-                                  fill="none"
-                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+                                  fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"
+                                  stroke-width="0.25"/>
                             <line id="Line_819" data-name="Line 819" x2="1.118" transform="translate(6.287 9.383)"
-                                  fill="none"
-                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+                                  fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"
+                                  stroke-width="0.25"/>
                             <line id="Line_820" data-name="Line 820" x2="0.771" transform="translate(6.289 7.808)"
-                                  fill="none"
-                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+                                  fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"
+                                  stroke-width="0.25"/>
                             <line id="Line_821" data-name="Line 821" x2="0.771" transform="translate(6.289 8.202)"
-                                  fill="none"
-                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+                                  fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"
+                                  stroke-width="0.25"/>
                             <line id="Line_822" data-name="Line 822" x2="0.771" transform="translate(6.289 8.596)"
-                                  fill="none"
-                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+                                  fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"
+                                  stroke-width="0.25"/>
                             <line id="Line_823" data-name="Line 823" x2="0.771" transform="translate(6.289 8.989)"
-                                  fill="none"
-                                  stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+                                  fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"
+                                  stroke-width="0.25"/>
                         </g>
                     </g>
                     <g id="Group_8101" data-name="Group 8101" transform="translate(-1.874 -98)">
@@ -488,17 +461,14 @@
                 </g>
             </svg>
         </div>
-        <div class="our__pagination flex">
-            <a href="#" class="pagination__prev__btn">
-                <img style="transform: rotate(180deg)" src="../../../img/icons/chevron-left-icon.svg" alt="">
-            </a>
 
-            <div id="pagination" class="flex align-items-center"></div>
-
-            <a href="#" class="pagination__next__btn">
-                <img src="../../../img/icons/chevron-left-icon.svg" alt="">
-            </a>
-        </div>
+        <!-- <div class="our__pagination flex">
+            <div class="flex align-items-center" id="pagination">
+                <div class="pagination__item">
+                    <a class="current__pagination" href="6-1.html">1</a>
+                </div>
+            </div>
+        </div> -->
     </section>
 </div>
 
@@ -511,7 +481,6 @@
 <script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
 <script src="../../../js/detectdevice.js"></script>
 <script src="../../../js/libraries/jquery.magnific-popup.min.js"></script>
-<script src="../../../js/Pagination.js"></script>
 
 
 <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
@@ -520,7 +489,6 @@
     <script src="../../../New-header-vue/app.js"></script>
 <script src="../../../Vue-chatBot/botApp.js"></script>
 <script src="../../../js/bot.js"></script>
-
 
 </body>
 

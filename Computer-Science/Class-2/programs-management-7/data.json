@@ -67,32 +67,32 @@
         {
             "number": 8,
             "url": "",
-            "type": 2
+            "type": 4
         },
         {
             "number": 9,
             "url": "",
-            "type": 4
+            "type": 1
         },
         {
             "number": 10,
             "url": "",
-            "type": 1
+            "type": 4
         },
         {
             "number": 11,
             "url": "",
-            "type": 4
+            "type": 2
         },
         {
             "number": 12,
             "url": "",
-            "type": 2
+            "type": 4
         },
         {
             "number": 13,
             "url": "",
-            "type": 4
+            "type": 5
         },
         {
             "number": 14,
@@ -102,7 +102,7 @@
         {
             "number": 15,
             "url": "",
-            "type": 5
+            "type": null
         },
         {
             "number": 16,
@@ -116,11 +116,6 @@
         },
         {
             "number": 18,
-            "url": "",
-            "type": null
-        },
-        {
-            "number": 19,
             "url": "",
             "type": null
         }
