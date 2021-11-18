@@ -49,11 +49,19 @@ function game(){
 
     // drag start 
     this.dragStart = (e) => {
-        $( e.target ).clone(true, true).appendTo( e.target.parentElement );
+        if(e.target.parentElement.classList.contains('class_3_7-img-box-6')) {
+            $( e.target ).clone(true, true).appendTo( e.target.parentElement );
+
+            setTimeout(() => {
+                e.target.className = "draggedElement"
+            }, 0);
+        } else {
+            setTimeout(() => {
+                e.target.className = "draggedElement"
+            }, 0);
+
+        }
         
-        setTimeout(() => {
-            e.target.className = "draggedElement"
-        }, 0);
     }
 
 
@@ -69,7 +77,7 @@ function game(){
     
 
     this.dragDrop = e => { e.preventDefault();
-
+        console.log(e.target)
         if(e.target.classList.contains('DragGame—childs1')){
             e.target.appendChild(document.querySelector('.draggedElement'));
             this.incriment++;
