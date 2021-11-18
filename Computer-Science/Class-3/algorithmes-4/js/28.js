@@ -1,3 +1,8 @@
+function insertAfter(referenceNode, newNode) {
+    referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
+  }
+
+
 function computerGames() {
     var draggedImgElement = document.querySelectorAll('.imge');
     var mydrag = document.querySelectorAll('.myDrag');
@@ -22,11 +27,16 @@ function computerGames() {
     this.randomize = () => {
         var random = Math.floor(Math.random() * 20)+1;
         draggedImgElement.forEach(w => {
+            var el = document.createElement("div");
+            el.classList.add('numberEl')
+            el.innerHTML = w.getAttribute('id');
+
+            insertAfter(w, el);
+
             w.setAttribute('data-class', w.getAttribute('class'))
             if(random == w.getAttribute('id')){
                 w.classList.add('light')
             }
-            console.log('random', random)
         });
     }
  
@@ -53,7 +63,6 @@ function computerGames() {
         if(e.target.classList.contains('light')){
             elClassName += ' light';
         }
-        console.log('elclassname', elClassName)
         e.target.className = elClassName;
     }
 
@@ -64,7 +73,7 @@ function computerGames() {
 
 
     this.dragDrop = (e) =>{
-        var drag = document.querySelector('.draggedElement')
+        var drag = document.querySelector('.draggedElement').parentElement
         if(!(e.target.firstElementChild)){
             if(e.target.classList.contains('myDrag')){
                 e.target.appendChild(drag);
@@ -79,7 +88,6 @@ function computerGames() {
                     count++;
             }
         myArray.forEach(element => {
-                console.log('count', count)
                 count1.textContent = count;
                 
                 if((element.classList.contains('light') && element.parentElement.classList.contains('myDrag')
@@ -118,7 +126,6 @@ function computerGames() {
     }
 
     this.init = () =>{
-
         if(isFinded || count == 10){
             myArray.forEach(element => {
                 $(element).removeClass( "light" )
@@ -134,14 +141,20 @@ function computerGames() {
         myArray.forEach(element => {
             element.style.display = 'block'
         });
+        
         parents.forEach(element => {
-            element.appendChild(document.getElementById(element.getAttribute('data-side')));
+            if(element.parentElement.classList.contains('myDrag')) {
+                if(+element.querySelector('.numberEl').innerText < 10) {
+                    document.querySelector('.firstElements').appendChild(element);
+                }
+                if(+element.querySelector('.numberEl').innerText > 10) {
+                    document.querySelector('.secondElements').appendChild(element);
+                }
+            }
         });
         
         
     }
-
-
 
     resetBtn.addEventListener('click', () => this.init());
     completedBtn.addEventListener('click', () => this.completGame());
