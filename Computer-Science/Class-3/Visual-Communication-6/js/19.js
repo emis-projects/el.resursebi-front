@@ -26,6 +26,15 @@ document.getElementById('completedGame').addEventListener('click', () => {
 	}
 })
 
+$(".inputBox").on({
+	keydown: function(e) {
+	  if (e.which === 32)
+		return false;
+	},
+	
+  });
+
+
 document.getElementById('resetBtn').addEventListener('click', () => clearAllClicked())
 
 
@@ -42,7 +51,7 @@ function initializeScreen(){
 			var cell = row.insertCell(-1);
 			if(rowData[j] != 0){
 				var txtID = String('txt' + '_' + i + '_' + j);
-				cell.innerHTML = '<input type="text" class="inputBox" maxlength="1" style="text-transform: lowercase" ' + 'id="' + txtID + '" onfocus="textInputFocus(' + "'" + txtID + "'"+ ')">';
+				cell.innerHTML = '<input type="text" minlength=0 maxlength=1 class="inputBox" maxlength="1" style="text-transform: lowercase" ' + 'id="' + txtID + '" onfocus="textInputFocus(' + "'" + txtID + "'"+ ')">';
 			
 			} else{
 				cell.setAttribute('style', "border: 0 !important; background: transparent");
