@@ -34,3 +34,56 @@
         max-height: 596px;
     }
 }
+
+.cs-3-10-16-instruct-div{
+position:absolute;
+}
+
+.cs-3-10-16-instruct-button{
+    display: inline-block;
+    cursor:pointer;
+    vertical-align:middle;
+    padding: 5px;
+    text-align: center;
+    width: 9.07vh;
+    height:2.67vh;
+    background-color: #DD6B84;
+    border-radius: 10px;
+    opacity:10%;
+    span{
+        font-family: DejaVu Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 14px;
+        color:#CC3657;
+        z-index: 100;
+    }
+}  
+.cs-3-10-16-instruct-Text{
+        max-width: 34.69vh;
+        max-height: 20.18vh;
+        background-color: #FFFFFF
+            p{
+                font-color: #CC3657;
+                font-family: DejaVu Sans;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 32px;
+            }
+        position: absolute;
+    }
+
+.cs-3-10-16-instruct-btn{
+        border: none;
+        background-color: #DD6B84;
+        padding: 12px 16px;
+        font-size: 16px;
+        cursor: pointer;
+        opacity:10%;
+        width: 9.07vh;
+        height:2.67vh;
+    }
+
+  
