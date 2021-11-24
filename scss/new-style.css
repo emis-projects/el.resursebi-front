@@ -53353,6 +53353,35 @@ tr td:first-child {
   display: inline-block !important;
 }
 
+.cs-3-12-new-div-9-img {
+  height: 41.53vh;
+}
+
+.cs-3-12-new-div-10-img {
+  height: 25vh;
+}
+
+.cs-3-12-new-div-3-1-img {
+  height: 55.46vh;
+}
+
+.cs-3-12-new-div-6-1-img {
+  height: 52.73vh;
+}
+
+.cs-3-12-new-div-11-1-img {
+  height: 41.75vh;
+}
+
+.cs-3-12-new-div-6-img img {
+  width: 44vh;
+  height: 31.66vh;
+}
+
+.cs-3-12-new-div img {
+  height: 100%;
+}
+
 .tablet-1 {
   height: 58vh;
   max-height: 453px;
