@@ -24,6 +24,7 @@
             dataLayer.push(arguments);
         }
 
+        2
         gtag('js', new Date());
 
         gtag('config', 'UA-155006442-1');
@@ -37,7 +38,7 @@
                 <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../../'"></app-menu>
             </header>
 
-            <app-section :is-active="isActive" :is-info="isInfo" v-image="'../../../'">
+            <app-section :is-active="isActive" v-image="'../../../'">
                 <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger" v-on:link-tab="link = $event">
 
                 </app-bar>
@@ -47,48 +48,57 @@
             </app-section>
         </section>
         <section id="mainPage">
-            <div class="row mt-5vh">
-                <div class="col-8 ml-5vh">
-                    <div class="newDesign_subject_question_item">
+            <div class="row  d-flex">
+                <div class="col-11 flex_direction_left">
+                    <div class="newDesign_subject_question_item mt-5vh">
                         <img alt="img" class="newDesign_subject_question_item-img" src="../../../img/icons/newDesign_btn-yellow.svg">
-                        <p class="newDesign_subject_question_item-title">
-                            გუნდები თამაშობენ თანმიმდევრობით — „ვინ უფრო სწრაფად“</p>
+                        <p class="newDesign_subject_question_item-title Class_2-title_item_2 big-font-size-20px-dejavu">
+                            ბიტების წინ წაწევის წესის მაგალითი:
+                        </p>
                     </div>
-                    <div class="newDesign_subject_question_item">
+                    <div class="newDesign_subject_question_item ">
                         <img alt="img" class="newDesign_subject_question_item-img" src="../../../img/icons/newDesign_btn-yellow.svg">
-                        <p class="newDesign_subject_question_item-title">
-                            კლასი იყოფა ორ ან მეტ გუნდად. გუნდი, სასურველია,<br> შედგებოდეს სულ მცირე 4 ან 6 წევრისგან.                   
-                         </div>
-                    <div class="newDesign_subject_question_item">
-                        <img alt="img" class="newDesign_subject_question_item-img" src="../../../img/icons/newDesign_btn-yellow.svg">
-                        <p class="newDesign_subject_question_item-title">
-                            გუნდის წევრები გაიყოფიან ორად: 1-იან ბიტებად და 0-იან ბიტებად.<br> მნიშვენლოვანია, თუ გუნდები ფერით აღნიშვნას გამოიყენებენ.                       
-                          </p>
-                    </div>
-                    <div class="newDesign_subject_question_item">
-                        <img alt="img" class="newDesign_subject_question_item-img" src="../../../img/icons/newDesign_btn-yellow.svg">
-                        <p class="newDesign_subject_question_item-title">
-                            ბიტები“ იმოძრავებენ სქემის მიხედვით. ლოგიკური<br> ჭიშკრების წესით ან წინ წაიწევენ, ან გაიჭედებიან.
+                        <p class="newDesign_subject_question_item-title Class_2-title_item_2 big-font-size-20px-dejavu">
+                            And ჭიშკარს აქვს ორი შესასვლელი. ბიტები </br>
+                            მრავლედება და „შედეგი“ მიდის წინ.
                         </p>
                     </div>
                     <div class="newDesign_subject_question_item">
                         <img alt="img" class="newDesign_subject_question_item-img" src="../../../img/icons/newDesign_btn-yellow.svg">
-                        <p class="newDesign_subject_question_item-title">
-                            თამაშს ერთდროულად 4 წევრი იწყებს. გუნდი თავად<br> წყვეტს, რომელი ბიტები დაიწყებენ თამაშს.
+                        <p class="newDesign_subject_question_item-title Class_2-title_item_2 big-font-size-20px-dejavu">
+                            თუ ჭიშკართან დადგება 1 და 0, მაშინ წინ წავა 0;
+                        </p>
+                    </div>
+                    <div class="newDesign_subject_question_item ">
+                        <img alt="img" class="newDesign_subject_question_item-img" src="../../../img/icons/newDesign_btn-yellow.svg">
+                        <p class="newDesign_subject_question_item-title Class_2-title_item_2 big-font-size-20px-dejavu">
+                            თუ ჭიშკართან აღმოჩნდება ორი ერთანირი ბიტი (1 და 1 ან </br>
+                            0 და 0 ) მაშინ წინსვლის უპირატესობას გადაწყვეტენ </br>
+                            თამაშით - „ქვა, მაკრატელი, ფურცელი“.
                         </p>
                     </div>
                     <div class="newDesign_subject_question_item">
                         <img alt="img" class="newDesign_subject_question_item-img" src="../../../img/icons/newDesign_btn-yellow.svg">
-                        <p class="newDesign_subject_question_item-title">
-                            თამაშის მიზანია, მთელმა გუნდმა ისე დაგეგემოს მოძრაობა სქემაში,<br> რომ რაც შეიძლება სწრაფად აღმოჩდნენ OUTPUT-ის მხარეს.
+                        <p class="newDesign_subject_question_item-title Class_2-title_item_2 big-font-size-20px-dejavu">
+                            წაგებული „ბიტი“ რჩება ადგილზე სქემაში. ის </br>
+                            ელოდება, როდის მოვა ჭიშკართან ახალი ბიტი </br>
+                             და ამის მიხედვით გააგრძელებს მოძრაობას</br>
+                              უპირატესობის უფლებით.
+                        </p>
+                    </div>
+                    <div class="newDesign_subject_question_item">
+                        <img alt="img" class="newDesign_subject_question_item-img" src="../../../img/icons/newDesign_btn-yellow.svg">
+                        <p class="newDesign_subject_question_item-title Class_2-title_item_2 big-font-size-20px-dejavu">
+                            თუ დარჩა 1 და მოვა კიდევ 1, თამაშის გარეშე წინ წავა</br>
+                             „დარჩენილი 1“, იგივე არის 0 vs 0-ის შემთხვევაში.
                         </p>
                     </div>
                 </div>
-                <div class="col-12 mt-3vh computer-works-3-18 d-flex justify-content-end">
-                    <img src="../../../img/gakvetilebi/Computer-Science/Class-3/How-computer-works-3/cs-3-3-18.svg" alt="image" class="position-absolute">
-                </div>
+                
             </div>
-
+               <div class="cs-3-3-div-19-img  cs-3-3-div">
+                    <img alt="img" src="../../../img/gakvetilebi/Computer-Science/Class-3/How-computer-works-3/cs-3-3-19.svg">
+                </div>  
             <div class="left_components_paging-cont" id="leftNav">
                 <left-nav-item></left-nav-item>
             </div>

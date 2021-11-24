@@ -1,19 +1,18 @@
 <!DOCTYPE html>
-<html data-botid="2288" lang="ka">
+<html lang="ka" data-botid="2288">
 
 <head>
     <meta charset="UTF-8"/>
-    <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
     <!-- ყველა გვერდზე -->
     <script src="../../../js/vue.js"></script>
     <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
     <!--  ვუე გაშვებისას
     <script src="./js/vue.min.js"></script>
      -->
-    <link href="../../../scss/libraries/bootstrap.min.css" rel="stylesheet">
-    <link href="../../../New-header-vue/animate.min.css" rel="stylesheet">
-    <link href="../../../scss/new-style.css" rel="stylesheet"/>
-    <link href="../../../scss/components_style.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="../../../scss/libraries/bootstrap.min.css">
+    <link rel="stylesheet" href="../../../New-header-vue/animate.min.css">
+    <link rel="stylesheet" href="../../../scss/new-style.css"/>
     <title>ელექტრონული საგანმანათლებლო რესურსი</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
@@ -24,7 +23,6 @@
             dataLayer.push(arguments);
         }
 
-        2
         gtag('js', new Date());
 
         gtag('config', 'UA-155006442-1');
@@ -33,58 +31,57 @@
 
 <body>
 <div class="container">
-    <section class="container position-absolute" id="app">
+    <section id="app" class="container position-absolute">
         <header>
             <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../../'"></app-menu>
         </header>
 
-        <app-section :is-active="isActive" v-image="'../../../'">
-            <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger"
+        <app-section :is-active="isActive" :is-info="isInfo" v-image="'../../../'">
+            <app-bar :is-active="isActive" :trigger="trigger" :dots="dots" :current-tab="link"
                      v-on:link-tab="link = $event">
 
             </app-bar>
-            <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive"
-                       :is-info="isInfo" :path="path" :tab-class="currentTabComponent" :trigger="trigger">
+            <component :path="path" :is="currentTabComponent" :is-active="isActive" :trigger="trigger"
+                       :active-class="activeClass" :images="images" :is-info="isInfo"
+                       :tab-class="currentTabComponent">
             </component>
 
         </app-section>
     </section>
     <section id="mainPage">
-        <div class="row ml-5vh mt-5vh">
-            <div class="col-8 m-auto mt-5vh">
-                <div class="newDesign_subject_question_item mt-3vh">
-                    <img alt="img" class="newDesign_subject_question_item-img"
-                         src="../../../img/icons/newDesign_btn-yellow.svg">
-                    <p class="newDesign_subject_question_item-title big-font-size-20px-dejavu">შენი აზრით, რამდენად სახიფათოა ცრუ ინფორმაციის გავრცელება ინტერნეტში?</p>
+        <div class="row">
+            <div class="col-9 m-auto">
+                <div class="newDesign_subject_question_item mt-5vh">
+                    <img src="../../../img/icons/newDesign_btn-yellow.svg" alt="img"
+                         class="newDesign_subject_question_item-img">
+                    <p class="newDesign_subject_question_item-title">
+                        შენ კარგად იცნობ საერთაშორისო ქსელს, მის შესაძლებლობებს; იცი პირადი ინფორმაციის მართვა და ეს
+                        ყველაფერი შენი საქმიანობის განუყრელი ნაწილია. ალბათ, ხვდები, რომ შენ აქ უკვე გარკვეული ადგილი
+                        ანუ გარემო გაქვს, მას <a href="11-1.html" class="a-blue">პირად სივრცეს</a> ვუწოდებთ.
+                    </p>
                 </div>
-
-
-                <div class="newDesign_subject_question_item ">
-                    <img alt="img" class="newDesign_subject_question_item-img"
-                         src="../../../img/icons/newDesign_btn-yellow.svg">
-                    <p class="newDesign_subject_question_item-title big-font-size-20px-dejavu">დაფიქრდი, რა ხერხებითაა შეაძლებელი ნამდვილი ინფორმაციის გარჩევა ცრუ ინფორმაციისაგან?</p>
-                </div>
-
             </div>
-
-            <div class="col-11 d-flex justify-content-end mt-3vh social-responsibility-10">
-                    <img alt="img"
-                         src="../../../img/gakvetilebi/Computer-Science/Class-6/Social-responsibility-22/cs-6-22-10.svg">
+            <div class="col-12 m-auto d-flex justify-content-center">
+                <div class="Social-page_11 Social-page mt-10vh">
+                    <img src="../../../img/gakvetilebi/Computer-Science/Class-6/Social-responsibility-22/cs-6-22-11.svg"
+                         alt="img">
+                </div>
             </div>
         </div>
+
         <div class="left_components_paging-cont" id="leftNav">
             <left-nav-item></left-nav-item>
         </div>
 
         <div class="our__pagination flex">
-            <a class="pagination__prev__btn" href="#">
-                <img alt="" src="../../../img/icons/chevron-left-icon.svg" style="transform: rotate(180deg)">
+            <a href="#" class="pagination__prev__btn">
+                <img style="transform: rotate(180deg)" src="../../../img/icons/chevron-left-icon.svg" alt="">
             </a>
 
-            <div class="flex align-items-center" id="pagination"></div>
+            <div id="pagination" class="flex align-items-center"></div>
 
-            <a class="pagination__next__btn" href="#">
-                <img alt="" src="../../../img/icons/chevron-left-icon.svg">
+            <a href="#" class="pagination__next__btn">
+                <img src="../../../img/icons/chevron-left-icon.svg" alt="">
             </a>
         </div>
 
