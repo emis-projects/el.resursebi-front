@@ -70,7 +70,11 @@
         {
             "number": 12,
             "url": "",
-            "type": 4
+            "type": 2
+        },
+        {
+            "number": "12-1",
+            "type": 3
         },
         {
             "number": 13,
@@ -111,16 +115,12 @@
         {
             "number": 17,
             "url": "",
-            "type": 2
-        },
-        {
-            "number": "17-1",
-            "type": 3
+            "type": 4
         },
         {
             "number": 18,
             "url": "",
-            "type": 4
+            "type": 5
         },
         {
             "number": 19,
@@ -135,7 +135,7 @@
         {
             "number": 21,
             "url": "",
-            "type": 5
+            "type": null
         },
         {
             "number": 22,
@@ -149,11 +149,6 @@
         },
         {
             "number": 24,
-            "url": "",
-            "type": null
-        },
-        {
-            "number": 25,
             "url": "",
             "type": null
         }

@@ -2,8 +2,8 @@
 <html lang="ka" data-botid="2288">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
     <!-- ყველა გვერდზე -->
     <script src="../../../js/vue.js"></script>
     <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
@@ -12,7 +12,7 @@
      -->
     <link rel="stylesheet" href="../../../scss/libraries/bootstrap.min.css">
     <link rel="stylesheet" href="../../../New-header-vue/animate.min.css">
-    <link rel="stylesheet" href="../../../scss/new-style.css" />
+    <link rel="stylesheet" href="../../../scss/new-style.css"/>
     <title>ელექტრონული საგანმანათლებლო რესურსი</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
@@ -30,149 +30,84 @@
 </head>
 
 <body>
-    <div class="container">
-        <section id="app" class="container position-absolute">
-            <header>
-                <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../../'"></app-menu>
-            </header>
+<div class="container">
+    <section id="app" class="container position-absolute">
+        <header>
+            <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../../'"></app-menu>
+        </header>
 
-            <app-section :is-active="isActive" :is-info="isInfo" v-image="'../../../'">
-                <app-bar :is-active="isActive" :trigger="trigger" :dots="dots" :current-tab="link"
-                    v-on:link-tab="link = $event">
+        <app-section :is-active="isActive" :is-info="isInfo" v-image="'../../../'">
+            <app-bar :is-active="isActive" :trigger="trigger" :dots="dots" :current-tab="link"
+                     v-on:link-tab="link = $event">
 
-                </app-bar>
-                <component :path="path" :is="currentTabComponent" :is-active="isActive" :trigger="trigger"
-                    :active-class="activeClass" :images="images" :is-info="isInfo" :tab-class="currentTabComponent">
-                </component>
+            </app-bar>
+            <component :path="path" :is="currentTabComponent" :is-active="isActive" :trigger="trigger"
+                       :active-class="activeClass" :images="images" :is-info="isInfo" :tab-class="currentTabComponent">
+            </component>
 
-            </app-section>
-        </section>
-        <section id="mainPage">
-            <div class="row">
-                <div class="col-9 m-auto flex_direction_start">
-                    <div class="newDesign_subject_question_item ">
-                        <img src="../../../img/icons/newDesign_btn-yellow.svg" alt="img"
-                            class="newDesign_subject_question_item-img">
-                        <p class="newDesign_subject_question_item-title">
-                            სწორად შეუსაბამე ნომრები OneNote პროგრამის ინტერფეისის შესაბამისი ღილაკის</br> დანიშნულებას.
-                        </p>
-                    </div>
+        </app-section>
+    </section>
+    <section id="mainPage">
+        <div class="row">
+            <div class="col-8 m-auto flex_direction_start ">
+                <div class="newDesign_subject_question_item ">
+                    <img src="../../../img/icons/newDesign_btn-yellow.svg" alt="img"
+                         class="newDesign_subject_question_item-img">
+                    <p class="newDesign_subject_question_item-title">
+                        შენი აზრით, რა არის გრაფიკული ინტერფეისის მთავარი უპირატესობა სხვა სახის ინტერფეისებთან შედარებით?
+                    </p>
+                </div>
+                <div class="newDesign_subject_question_item ">
+                <img src="../../../img/icons/newDesign_btn-yellow.svg" alt="img"
+                     class="newDesign_subject_question_item-img">
+                <p class="newDesign_subject_question_item-title">
+                    დაფიქრდი, როგორ შეიძლება განვითარდეს მომავალში, კომპიუტერული მოწყობილობის ინტერფეისი?
+                 </div>
+                <div class="col-12 d-flex cs-5-12-img-div cs-5-12-img-div-21 justify-content-center mt-10vh">
+                    <img src="../../../img/gakvetilebi/Computer-Science/Class-5/interface-of-devices-12/cs-5-12-21-img.svg"
+                         alt="identify">
                 </div>
             </div>
-            <div class="row ml-3vh mt-3vh">
-                <div class="col d-flex cs-5-12-img-div  justify-content-center  cs-5-12-img-div-20-1">
-                    <img src="../../../img/gakvetilebi/Computer-Science/Class-5/interface-of-devices-12/cs-5-12-20-img.png"
-                        alt="">
-                </div>
-                <div class="col m-auto">
-                    <div class=" d-flex  cs-5-12-img-div-20-2 align-items-center  justify-content-between">
-                        <div data-place="3" class="cs-5-12-img-div-20-2-circle myDrag"></div>
-                        <img src="../../../img/gakvetilebi/Computer-Science/Class-5/interface-of-devices-12/cs-5-12-20-btn-4.svg"
-                            alt="" class="cs-5-12-img-div-20-2-btn changeImgDarkMode">
-                        <div data-place="2" class="cs-5-12-img-div-20-2-circle myDrag"></div>
-                        <img src="../../../img/gakvetilebi/Computer-Science/Class-5/interface-of-devices-12/cs-5-12-20-btn-2.svg"
-                            alt="" class="cs-5-12-img-div-20-2-btn changeImgDarkMode">
-                    </div>
-                    <div class=" d-flex  cs-5-12-img-div-20-2   align-items-center justify-content-between mt-3vh">
-                        <div data-place="5" class="cs-5-12-img-div-20-2-circle myDrag"></div>
-                        <img src="../../../img/gakvetilebi/Computer-Science/Class-5/interface-of-devices-12/cs-5-12-20-btn-1.svg"
-                            alt="" class="cs-5-12-img-div-20-2-btn changeImgDarkMode">
-                        <div data-place="4" class="cs-5-12-img-div-20-2-circle myDrag"></div>
-                        <img src="../../../img/gakvetilebi/Computer-Science/Class-5/interface-of-devices-12/cs-5-12-20-btn-8.svg"
-                            alt="" class="cs-5-12-img-div-20-2-btn changeImgDarkMode">
-                    </div>
-                    <div class=" d-flex  cs-5-12-img-div-20-2   align-items-center justify-content-between mt-3vh">
-                        <div data-place="8" class="cs-5-12-img-div-20-2-circle myDrag"></div>
-                        <img src="../../../img/gakvetilebi/Computer-Science/Class-5/interface-of-devices-12/cs-5-12-20-btn-7.svg"
-                            alt="" class="cs-5-12-img-div-20-2-btn changeImgDarkMode">
-                        <div data-place="7" class="cs-5-12-img-div-20-2-circle myDrag"></div>
-                        <img src="../../../img/gakvetilebi/Computer-Science/Class-5/interface-of-devices-12/cs-5-12-20-btn-6.svg"
-                            alt="" class="cs-5-12-img-div-20-2-btn changeImgDarkMode">
-                    </div>
-                    <div class=" d-flex  cs-5-12-img-div-20-2   align-items-center justify-content-between mt-3vh">
-                        <div data-place="1" class="cs-5-12-img-div-20-2-circle myDrag"></div>
-                        <img src="../../../img/gakvetilebi/Computer-Science/Class-5/interface-of-devices-12/cs-5-12-20-btn-5.svg"
-                            alt="" class="cs-5-12-img-div-20-2-btn changeImgDarkMode">
-                        <div data-place="6" class="cs-5-12-img-div-20-2-circle myDrag"></div>
-                        <img src="../../../img/gakvetilebi/Computer-Science/Class-5/interface-of-devices-12/cs-5-12-20-btn-3.svg"
-                            alt="" class="cs-5-12-img-div-20-2-btn changeImgDarkMode">
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div
-                    class="col-6 ml-6vh d-flex cs-5-12-img-div offset-1 cs-5-12-img-div-20-3 justify-content-between mt-5vh parent1">
-                    <img data-place="1" data-end="1" class="DragGame--childs1 changeImgDarkMode cursor-pointer"
-                        src="../../../img/gakvetilebi/Computer-Science/Class-5/interface-of-devices-12/cs-5-12-20-icon-1.svg"
-                        alt="">
-                    <img data-place="2" data-end="1" class="DragGame--childs1 changeImgDarkMode cursor-pointer"
-                        src="../../../img/gakvetilebi/Computer-Science/Class-5/interface-of-devices-12/cs-5-12-20-icon-2.svg"
-                        alt="">
-                    <img data-place="3" data-end="1" class="DragGame--childs1 changeImgDarkMode cursor-pointer"
-                        src="../../../img/gakvetilebi/Computer-Science/Class-5/interface-of-devices-12/cs-5-12-20-icon-3.svg"
-                        alt="">
-                    <img data-place="4" data-end="1" class="DragGame--childs1 changeImgDarkMode cursor-pointer"
-                        src="../../../img/gakvetilebi/Computer-Science/Class-5/interface-of-devices-12/cs-5-12-20-icon-4.svg"
-                        alt="">
-                    <img data-place="5" data-end="1" class="DragGame--childs1 changeImgDarkMode cursor-pointer"
-                        src="../../../img/gakvetilebi/Computer-Science/Class-5/interface-of-devices-12/cs-5-12-20-icon-5.svg"
-                        alt="">
-                    <img data-place="6" data-end="1" class="DragGame--childs1 changeImgDarkMode cursor-pointer"
-                        src="../../../img/gakvetilebi/Computer-Science/Class-5/interface-of-devices-12/cs-5-12-20-icon-6.svg"
-                        alt="">
-                    <img data-place="7" data-end="1" class="DragGame--childs1 changeImgDarkMode cursor-pointer"
-                        src="../../../img/gakvetilebi/Computer-Science/Class-5/interface-of-devices-12/cs-5-12-20-icon-7.svg"
-                        alt="">
-                    <img data-place="8" data-end="1" class="DragGame--childs1 changeImgDarkMode cursor-pointer"
-                        src="../../../img/gakvetilebi/Computer-Science/Class-5/interface-of-devices-12/cs-5-12-20-icon-8.svg"
-                        alt="">
-                </div>
-            </div>
-            <div class="col-3 flex flex-end column align-items-end z-index reload_game_wrapper">
-                <div class="d-flex flex-column">
-                    <button id="resetBtn" class="reset__btn">თავიდან სცადე</button>
-                    <button id="completedGame" class="completed__btn">დასრულება</button>
-                </div>
-            </div>
-            <!-- ეს არის svg თეგირომელიც ქმნის მარცხენა ვერტიკალურ "ნავ რუკას" -->
-            <div class="left_components_paging-cont" id="leftNav">
-                <left-nav-item></left-nav-item>
-            </div>
+        </div>
 
-            <div class="our__pagination flex">
-                <a href="#" class="pagination__prev__btn">
-                    <img style="transform: rotate(180deg)" src="../../../img/icons/chevron-left-icon.svg" alt="">
-                </a>
+        <!-- ეს არის svg თეგირომელიც ქმნის მარცხენა ვერტიკალურ "ნავ რუკას" -->
+        <div class="left_components_paging-cont" id="leftNav">
+            <left-nav-item></left-nav-item>
+        </div>
 
-                <div id="pagination" class="flex align-items-center"></div>
+        <div class="our__pagination flex">
+            <a href="#" class="pagination__prev__btn">
+                <img style="transform: rotate(180deg)" src="../../../img/icons/chevron-left-icon.svg" alt="">
+            </a>
 
-                <a href="#" class="pagination__next__btn">
-                    <img src="../../../img/icons/chevron-left-icon.svg" alt="">
-                </a>
-            </div>
+            <div id="pagination" class="flex align-items-center"></div>
 
-        </section>
-    </div>
+            <a href="#" class="pagination__next__btn">
+                <img src="../../../img/icons/chevron-left-icon.svg" alt="">
+            </a>
+        </div>
+
+    </section>
+</div>
 
 
-    <!-- ჩეთბოტი -->
-    <div id="chatBot">
-        <app-bot></app-bot>
-    </div>
+<!-- ჩეთბოტი -->
+<div id="chatBot">
+    <app-bot></app-bot>
+</div>
 
-    <script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
+<script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
 <script src="../../../js/detectdevice.js"></script>
-    <script src="../../../js/libraries/jquery.magnific-popup.min.js"></script>
-    <script src="../../../js/Pagination.js"></script>
-    <script src="./js/20.js"></script>
+<script src="../../../js/libraries/jquery.magnific-popup.min.js"></script>
+<script src="../../../js/Pagination.js"></script>
 
 
-    <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
-    <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
+<!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
+<!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
     <script src="../../../New-header-vue/vis.js"></script>
     <script src="../../../New-header-vue/app.js"></script>
-    <script src="../../../Vue-chatBot/botApp.js"></script>
-    <script src="../../../js/bot.js"></script>
+<script src="../../../Vue-chatBot/botApp.js"></script>
+<script src="../../../js/bot.js"></script>
 
 
 </body>
