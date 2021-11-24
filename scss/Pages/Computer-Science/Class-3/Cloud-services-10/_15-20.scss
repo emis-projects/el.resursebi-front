@@ -141,3 +141,79 @@
 .class_3_10-bottom {
     margin-bottom: 1.5vh;
 }
+
+.cs-3-10-16-instruct-icon{
+    background-image: url("../img/gakvetilebi/Computer-Science/Class-3/Cloud-services-10/cs-3-10-16-mark.png");
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    background-position: center;
+    
+}
+
+.cs-3-10-16-instruct-btn{
+    cursor:pointer;
+    width: 16vh;
+    height:6vh;
+    background-color: #ffe4e1;
+    border-radius: 50px;
+     display: flex;
+    align-items : center;
+    justify-content: center;
+    position:absolute;
+    right:25vh;
+
+}
+
+.cs-3-10-16-instruct-btn-text{
+    font-family: DejaVu Sans;
+        font-style: normal;
+         font-weight: normal;
+         font-size: 14px;
+         line-height: 14px;
+         color:#CC3657;
+         padding: 1vh;
+             
+}
+.cs-3-10-16-instruct-text-div{
+    width:52vh;
+    height: 23vh;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items : center;
+    justify-content: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 50px;
+    display: none;
+    position:absolute;
+    right:25vh;
+    top:20vh;
+    z-index: 99;
+}
+.cs-3-10-16-instruct-text{
+    font-family: DejaVu Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 32px;
+    color:#CC3657;
+    padding-left:2vh;
+}
+
+.cs-3-10-16-instruct-text-icon{
+    background-image: url("../img/gakvetilebi/Computer-Science/Class-3/Cloud-services-10/cs-3-10-16-mark.png");
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+}
+
+.cs-3-10-16-instruct-btn:hover + .cs-3-10-16-instruct-text-div {
+    display:flex;
+  }
+
+.cs-3-10-16-instruct {
+    position:absolute; 
+    right:25vh;
+    display: flex;
+    flex-wrap: nowrap;
+}
