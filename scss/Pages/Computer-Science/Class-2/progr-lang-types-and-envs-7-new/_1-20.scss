@@ -1,18 +1,17 @@
-.cs-3-12-new-div {
-    &-9-img {
-        height:41.53vh;
-    }
-    &-10-img {
+.cs-2-7-new-div {
+    &-3-img {
         height:30vh;
-        width: auto;
     }
-
-    &-13-img {
+    &-6-img {
         height:25vh;
     }
 
-    &-15-img {
-        height:15vh;
+    &-8-img {
+        height:25vh;
+    }
+
+    &-9-img {
+        height:35vh;
     }
     
     &-16-img {
@@ -27,4 +26,5 @@
     img {
         height: 100%;
     }
+    flex-wrap:wrap;
 }
