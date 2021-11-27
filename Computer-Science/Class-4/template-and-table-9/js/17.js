@@ -28,7 +28,6 @@ function computerGames() {
     }
 
     this.dragStart = (e) => {
-        e.target.style.width = null;
         setTimeout(() => {
             e.target.className += " draggedElement"
         }, 0);
@@ -49,24 +48,22 @@ function computerGames() {
         var dragParent = drag.parentElement;
         let firstElement = e.target.parentElement.firstElementChild;
         if (e.target.parentElement.classList.contains('DragGame--Parent')) {
-            //firstElement.remove();
             e.target.parentElement.appendChild(drag);
             dragParent.appendChild(firstElement)
         }
-        myArray.forEach(element => {
-            if (element.getAttribute('data-place') == element.parentElement.getAttribute('data-place')) {
-                element.style.width = "50.6vw";
-            }
-            else{
-                element.style.width = null;
-            }
-        });
-
-
     }
     this.checkEveryElement = (element) => element.getAttribute('data-place') == element.parentElement.getAttribute('data-place');
 
     this.successPage = () => {
+
+        $( ".DragGame--childs1" ).each(function( index ) {
+            if($( this ).attr('data-place') !== $(this).parent().attr('data-place')) {
+                $( this ).attr('style', 'background: #dc6c85; width: 50.6vw;')
+            } else {
+                $( this ).attr('style', 'background: #A1DD6F; width: 50.6vw;')
+            }
+        });
+
         let el = myArray.every(this.checkEveryElement);
         if (el == true) {
             console.log('true')
@@ -79,9 +76,8 @@ function computerGames() {
     }
 
     this.init = () => {
-        myArray.forEach(element => {
-            element.style.width = null;
-        });
+        $('.DragGame--childs1').attr('style', 'width: 50.6vw;')
+
         DragGameParent.forEach(element => {
             element.appendChild(document.getElementById(element.getAttribute('data-place')));
 
