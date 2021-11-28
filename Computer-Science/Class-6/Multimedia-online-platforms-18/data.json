@@ -67,7 +67,7 @@
         {
             "number": 11,
             "url": "",
-            "type": 4
+            "type": 2
         },
         {
             "number": 12,
@@ -107,12 +107,12 @@
         {
             "number": 19,
             "url": "",
-            "type": 2
+            "type": 4
         },
         {
             "number": 20,
             "url": "",
-            "type": 4
+            "type": 5
         },
         {
             "number": 21,
@@ -122,7 +122,7 @@
         {
             "number": 22,
             "url": "",
-            "type": 5
+            "type": null
         },
         {
             "number": 23,
@@ -136,11 +136,6 @@
         },
         {
             "number": 25,
-            "url": "",
-            "type": null
-        },
-        {
-            "number": 26,
             "url": "",
             "type": null
         }

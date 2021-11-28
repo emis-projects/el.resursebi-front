@@ -4,14 +4,12 @@
 <head>
     <meta charset="UTF-8"/>
     <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
-    <!-- ყველა გვერდზე -->
-    <script src="../../../js/vue.js"></script>
+    <link href="//cdn.web-fonts.ge/fonts/alk-sanet/css/alk-sanet.min.css" rel="stylesheet"/>
     <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
-    <!--  ვუე გაშვებისას
-    <script src="./js/vue.min.js"></script>
-     -->
-    <link href="../../../scss/libraries/bootstrap.min.css" rel="stylesheet">
+    <script src="../../../js/vue.js"></script>
     <link href="../../../New-header-vue/animate.min.css" rel="stylesheet">
+    <link href="../../../scss/libraries/magnific-popup.css" rel="stylesheet">
+    <link href="../../../scss/libraries/bootstrap.min.css" rel="stylesheet"/>
     <link href="../../../scss/new-style.css" rel="stylesheet"/>
 <link href="../../../scss/components_style.css" rel="stylesheet"/>
     <title>ელექტრონული საგანმანათლებლო რესურსი</title>
@@ -30,14 +28,14 @@
     </script>
 </head>
 
-<body>
+<body class="class_6_28-bg_20">
 <div class="container">
     <section class="container position-absolute" id="app">
         <header>
             <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../../'"></app-menu>
         </header>
 
-        <app-section :is-active="isActive" :is-info="isInfo" v-image="'../../../'">
+        <app-section :is-active="isActive" v-image="'../../../'">
             <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger"
                      v-on:link-tab="link = $event">
 
@@ -51,46 +49,12 @@
     </section>
     <section id="mainPage">
         <div class="row">
-            <div class="col-10 mt-3vh ml-12vh">
-                <div class="newDesign_container_main_title-cont newDesign_container_main_title-cont-margin">
-                    <h1 class="newDesign_container_main_title">Scratch-ში შევქმნათ თამაში ცვლადების გამოყენებით</h1>
-                    <img alt="img" class="newDesign_container_main_title-img"
-                         src="../../../img/icons/comp_main_title_border.svg">
-                </div>
-                <div class="newDesign_subject_question_item">
-                    <img alt="img" class="newDesign_subject_question_item-img"
-                         src="../../../img/icons/newDesign_btn-yellow.svg">
-                    <p class="newDesign_subject_question_item-title">
-                        მარწყვები გაჩნდნენ შემთხვევით x კოორდინატზე, ხოლო y კოორდინატი ჰქონდეთ ფიქსირებული, მაგალითად 145;
-                    </p>
-                </div>
-                <div class="newDesign_subject_question_item">
-                    <img alt="img" class="newDesign_subject_question_item-img"
-                         src="../../../img/icons/newDesign_btn-yellow.svg">
-                    <p class="newDesign_subject_question_item-title">
-                        თუ ჯამი შეეხება წითელ მარწყვს, 1 ქულა მოგვემატოს, თუ ჯამი შეეხება მწვანე მარწყვს, 5 ქულა დაგვაკლდეს;
-                        როდესაც მოთამაშე მიაღწევს 10 ქულას, მარწყვებმა ორჯერ უფრო სწრაფად დაიწყონ მოძრაობა;
-                    </p>
-                </div>
-                <div class="newDesign_subject_question_item">
-                    <img alt="img" class="newDesign_subject_question_item-img"
-                         src="../../../img/icons/newDesign_btn-yellow.svg">
-                    <p class="newDesign_subject_question_item-title">
-                        თუ 50 წამში მოთამაშე 20 ქულას გასცდება, გამოჩნდეს მოგების ფონი,
-                        წინააღმდეგ შემთხვევაში - წაგების ფონი.
-                    </p>
-                </div>
-                <div class="col-12 d-flex justify-content-end">
-                    <img alt="" class="cs-6-28 cs-6-28-19"
-                         src="../../../img/gakvetilebi/Computer-Science/Class-6/Creating-game-in-scratch-28/cs-6-28-19.svg">
+            <div class="col-10 m-auto">
+                <div class="background-cs-title-purple-cont ml-8vh">
+                    <h1 class="background-cs-title-purple">რა გაიგე ახალი დროის ობიექტისა და ცვლადის გამოყენების შესახებ?</h1>
                 </div>
             </div>
         </div>
-
-        <div class="left_components_paging-cont" id="leftNav">
-            <left-nav-item></left-nav-item>
-        </div>
-
         <div class="our__pagination flex">
             <a class="pagination__prev__btn" href="#">
                 <img alt="" src="../../../img/icons/chevron-left-icon.svg" style="transform: rotate(180deg)">
@@ -102,11 +66,8 @@
                 <img alt="" src="../../../img/icons/chevron-left-icon.svg">
             </a>
         </div>
-
     </section>
 </div>
-
-
 <!-- ჩეთბოტი -->
 <div id="chatBot">
     <app-bot></app-bot>
@@ -124,8 +85,6 @@
     <script src="../../../New-header-vue/app.js"></script>
 <script src="../../../Vue-chatBot/botApp.js"></script>
 <script src="../../../js/bot.js"></script>
-
-
 </body>
 
 </html>

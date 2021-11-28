@@ -24,7 +24,6 @@
             dataLayer.push(arguments);
         }
 
-        2
         gtag('js', new Date());
 
         gtag('config', 'UA-155006442-1');
@@ -38,42 +37,43 @@
                 <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../../'"></app-menu>
             </header>
 
-            <app-section :is-active="isActive" v-image="'../../../'">
-                <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger" v-on:link-tab="link = $event">
+            <app-section :is-active="isActive" :is-info="isInfo" v-image="'../../../'">
+                <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger"
+                    v-on:link-tab="link = $event">
 
                 </app-bar>
-                <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive" :is-info="isInfo" :path="path" :tab-class="currentTabComponent" :trigger="trigger">
+                <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive"
+                    :is-info="isInfo" :path="path" :tab-class="currentTabComponent" :trigger="trigger">
                 </component>
 
             </app-section>
         </section>
         <section id="mainPage">
-            <div class="row mt-5vh">
-                <div class="col-11 m-auto flex_direction_left">
-                    <div class="newDesign_subject_question_item mt-3vh">
-                        <img alt="img" class="newDesign_subject_question_item-img" src="../../../img/icons/newDesign_btn-yellow.svg">
-                        <p class="newDesign_subject_question_item-title Class_2-title_item_2 big-font-size-20px-dejavu">
-                            შეცვალე სურათის გამოსახულების მიმართულება ბრძანებით „flip“. შემოატრიალე </br>
-                            სურათი 90 გრადუსით.
-                        </p>
+            <div class="row mt-9vh">
+                <div class="col-9 m-auto">
+                    <div class="newDesign_subject_question_item ">
+                        <img alt="img" class="newDesign_subject_question_item-img"
+                            src="../../../img/icons/newDesign_btn-yellow.svg">
+                        <p class="newDesign_subject_question_item-title">
+                            შეცვალე სურათის გამოსახულების სიმკვეთრე და განათება. დააყენე შენთვის მისაღებ დონეზე.
+                         </p>
                     </div>
+
                 </div>
-                <div class="col-12 d-flex justify-content-center mt-5vh cs-6-14-div-18-img  cs-6-14-div">
-                    <img alt="img" src="../../../img/gakvetilebi/Computer-Science/Class-6/Photo-editor-14/cs-6-14-18.png">
+                <div class="col-12 d-flex justify-content-center photo-editor-19">
+                    <img alt="img" class="mt-2vh"
+                        src="../../../img/gakvetilebi/Computer-Science/Class-6/Photo-editor-14/cs-6-14-19.png">
                 </div>
             </div>
-                 
+
             <div class="left_components_paging-cont" id="leftNav">
                 <left-nav-item></left-nav-item>
             </div>
-
             <div class="our__pagination flex">
                 <a class="pagination__prev__btn" href="#">
                     <img alt="" src="../../../img/icons/chevron-left-icon.svg" style="transform: rotate(180deg)">
                 </a>
-
                 <div class="flex align-items-center" id="pagination"></div>
-
                 <a class="pagination__next__btn" href="#">
                     <img alt="" src="../../../img/icons/chevron-left-icon.svg">
                 </a>

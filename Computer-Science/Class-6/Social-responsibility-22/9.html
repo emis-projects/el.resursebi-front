@@ -2,8 +2,8 @@
 <html data-botid="2288" lang="ka">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta content="ie=edge" http-equiv="X-UA-Compatible" />
+    <meta charset="UTF-8"/>
+    <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
     <!-- ყველა გვერდზე -->
     <script src="../../../js/vue.js"></script>
     <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
@@ -12,8 +12,8 @@
      -->
     <link href="../../../scss/libraries/bootstrap.min.css" rel="stylesheet">
     <link href="../../../New-header-vue/animate.min.css" rel="stylesheet">
-    <link href="../../../scss/new-style.css" rel="stylesheet" />
-    <link href="../../../scss/components_style.css" rel="stylesheet" />
+    <link href="../../../scss/new-style.css" rel="stylesheet"/>
+    <link href="../../../scss/components_style.css" rel="stylesheet"/>
     <title>ელექტრონული საგანმანათლებლო რესურსი</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
@@ -32,77 +32,83 @@
 </head>
 
 <body>
-    <div class="container">
-        <section class="container position-absolute" id="app">
-            <header>
-                <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../../'"></app-menu>
-            </header>
+<div class="container">
+    <section class="container position-absolute" id="app">
+        <header>
+            <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../../'"></app-menu>
+        </header>
 
-            <app-section :is-active="isActive" v-image="'../../../'">
-                <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger" v-on:link-tab="link = $event">
+        <app-section :is-active="isActive" v-image="'../../../'">
+            <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger"
+                     v-on:link-tab="link = $event">
 
-                </app-bar>
-                <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive" :is-info="isInfo" :path="path" :tab-class="currentTabComponent" :trigger="trigger">
-                </component>
+            </app-bar>
+            <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive"
+                       :is-info="isInfo" :path="path" :tab-class="currentTabComponent" :trigger="trigger">
+            </component>
 
-            </app-section>
-        </section>
-        <section id="mainPage">
-            <div class="row  d-flex">
-                <div class="col-9 ml-20vh mt-4vh">
-                    <div class="newDesign_subject_question_item mt-5vh">
-                        <img alt="img" class="newDesign_subject_question_item-img" src="../../../img/icons/newDesign_btn-yellow.svg">
-                        <p class="newDesign_subject_question_item-title Class_2-title_item_2 big-font-size-20px-dejavu">
-                            მოდი, ახლა ყურადღებით უყურე ვიდეოს, შემდეგ კი გვესაუბრე სოციალური პასუხისმგებლობის მნიშვნელობაზე რეალურ გარემოში. დაფიქრდი და წარმოიდგინე, შესაძლოა, მსგავსი რამ მოხდეს ვირტუალურ სამყაროში?
-                        </p>
-                    </div>
-                    <div class="newDesign_subject_question_item mt-5vh ml-5vh">
-                        <p class="newDesign_subject_question_item-title Class_2-title_item_2 big-font-size-20px-dejavu">
-                            <a href="https://www.youtube.com/watch?v=jGpPL-PPawo" class="a-blue" target="_blank">https://www.youtube.com/watch?v=jGpPL-PPawo</a>
-                        </p>
-                    </div>
+        </app-section>
+    </section>
+    <section id="mainPage">
+        <div class="row ml-5vh mt-5vh">
+            <div class="col-8 m-auto mt-5vh">
+                <div class="newDesign_subject_question_item mt-3vh">
+                    <img alt="img" class="newDesign_subject_question_item-img"
+                         src="../../../img/icons/newDesign_btn-yellow.svg">
+                    <p class="newDesign_subject_question_item-title big-font-size-20px-dejavu">შენი აზრით, რამდენად სახიფათოა ცრუ ინფორმაციის გავრცელება ინტერნეტში?</p>
                 </div>
-                 <div class="col-11 d-flex justify-content-end social-responsibility-9">
-                    <img alt="img" src="../../../img/gakvetilebi/Computer-Science/Class-6/Social-responsibility-22/cs-6-22-9.svg">
+
+
+                <div class="newDesign_subject_question_item ">
+                    <img alt="img" class="newDesign_subject_question_item-img"
+                         src="../../../img/icons/newDesign_btn-yellow.svg">
+                    <p class="newDesign_subject_question_item-title big-font-size-20px-dejavu">დაფიქრდი, რა ხერხებითაა შეაძლებელი ნამდვილი ინფორმაციის გარჩევა ცრუ ინფორმაციისაგან?</p>
                 </div>
+
             </div>
 
-            <div class="left_components_paging-cont" id="leftNav">
-                <left-nav-item></left-nav-item>
+            <div class="col-11 d-flex justify-content-end mt-3vh social-responsibility-10">
+                    <img alt="img"
+                         src="../../../img/gakvetilebi/Computer-Science/Class-6/Social-responsibility-22/cs-6-22-10.svg">
             </div>
+        </div>
+        <div class="left_components_paging-cont" id="leftNav">
+            <left-nav-item></left-nav-item>
+        </div>
 
-            <div class="our__pagination flex">
-                <a class="pagination__prev__btn" href="#">
-                    <img alt="" src="../../../img/icons/chevron-left-icon.svg" style="transform: rotate(180deg)">
-                </a>
+        <div class="our__pagination flex">
+            <a class="pagination__prev__btn" href="#">
+                <img alt="" src="../../../img/icons/chevron-left-icon.svg" style="transform: rotate(180deg)">
+            </a>
 
-                <div class="flex align-items-center" id="pagination"></div>
+            <div class="flex align-items-center" id="pagination"></div>
 
-                <a class="pagination__next__btn" href="#">
-                    <img alt="" src="../../../img/icons/chevron-left-icon.svg">
-                </a>
-            </div>
+            <a class="pagination__next__btn" href="#">
+                <img alt="" src="../../../img/icons/chevron-left-icon.svg">
+            </a>
+        </div>
 
-        </section>
-    </div>
+    </section>
+</div>
 
 
-    <!-- ჩეთბოტი -->
-    <div id="chatBot">
-        <app-bot></app-bot>
-    </div>
+<!-- ჩეთბოტი -->
+<div id="chatBot">
+    <app-bot></app-bot>
+</div>
 
-    <script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
+<script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
 <script src="../../../js/detectdevice.js"></script>
-    <script src="../../../js/libraries/jquery.magnific-popup.min.js"></script>
-    <script src="../../../js/Pagination.js"></script>
+<script src="../../../js/libraries/jquery.magnific-popup.min.js"></script>
+<script src="../../../js/Pagination.js"></script>
 
 
 <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
+<!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
     <script src="../../../New-header-vue/vis.js"></script>
     <script src="../../../New-header-vue/app.js"></script>
-    <script src="../../../Vue-chatBot/botApp.js"></script>
-    <script src="../../../js/bot.js"></script>
+<script src="../../../Vue-chatBot/botApp.js"></script>
+<script src="../../../js/bot.js"></script>
 
 
 </body>

@@ -2,166 +2,110 @@
 <html data-botid="2288" lang="ka">
 
 <head>
-    <meta charset="UTF-8"/>
-    <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
-    <!-- ყველა გვერდზე -->
+  <meta charset="UTF-8" />
+  <meta content="ie=edge" http-equiv="X-UA-Compatible" />
+  <!-- ყველა გვერდზე -->
     <script src="../../../js/vue.js"></script>
     <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
-    <!--  ვუე გაშვებისას
+  <!--  ვუე გაშვებისას
     <script src="./js/vue.min.js"></script>
      -->
-    <link href="../../../scss/libraries/bootstrap.min.css" rel="stylesheet">
-    <link href="../../../New-header-vue/animate.min.css" rel="stylesheet">
-    <link href="../../../scss/new-style.css" rel="stylesheet"/>
-    <link href="../../../scss/components_style.css" rel="stylesheet"/>
-    <title>ელექტრონული საგანმანათლებლო რესურსი</title>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
+  <link href="../../../scss/libraries/bootstrap.min.css" rel="stylesheet">
+  <link href="../../../New-header-vue/animate.min.css" rel="stylesheet">
+  <link href="../../../scss/new-style.css" rel="stylesheet" />
+  <link href="../../../scss/components_style.css" rel="stylesheet" />
+  <title>ელექტრონული საგანმანათლებლო რესურსი</title>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
+    function gtag() {
+      dataLayer.push(arguments);
+    }
 
-        gtag('js', new Date());
+    gtag('js', new Date());
 
-        gtag('config', 'UA-155006442-1');
-    </script>
+    gtag('config', 'UA-155006442-1');
+  </script>
 </head>
 
 <body>
-<div class="container">
+  <div class="container">
     <section class="container position-absolute" id="app">
-        <header>
-            <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../../'"></app-menu>
-        </header>
+      <header>
+        <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../../'"></app-menu>
+      </header>
 
-        <app-section :is-active="isActive" v-image="'../../../'">
-            <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger"
-                     v-on:link-tab="link = $event">
+      <app-section :is-active="isActive" :is-info="isInfo" v-image="'../../../'">
+        <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger"
+          v-on:link-tab="link = $event">
 
-            </app-bar>
-            <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive"
-                       :is-info="isInfo" :path="path" :tab-class="currentTabComponent" :trigger="trigger">
-            </component>
+        </app-bar>
+        <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive"
+          :is-info="isInfo" :path="path" :tab-class="currentTabComponent" :trigger="trigger">
+        </component>
 
-        </app-section>
+      </app-section>
     </section>
     <section id="mainPage">
-        <div class="row">
-                <div class="col-10 m-auto">
-                    <div class="newDesign_subject_question_item">
-                        <img alt="img" class="newDesign_subject_question_item-img"
-                             src="../../../img/icons/newDesign_btn-yellow.svg">
-                        <p class="newDesign_subject_question_item-title">
-                            მოიფიქრე პაროლი და დაწერე ფურცელზე (ან ელექტრონულად ჰქონდეს ჩასაწერი)<br> ახლა ერთად ვითამაშოთ.  <br>    
-                        </p>
-                    </div>
-                    <div class="newDesign_subject_question_item ml-6vh">
-                        <p class="newDesign_subject_question_item-title">
-                            თამაშის წესები:<br> <br>  
-                             ყველა მოსწავლე დადგეს ერთ ხაზზე და პირობების მიხედვით შეასრულონ<br>მოქმედებები:    
-
-                        </p>
-                    </div>
-                    <div class="d-flex">
-                        <img alt="img" class="newDesign_subject_question_item-img"
-                             src="../../../img/icons/newDesign_btn-yellow.svg">
-                        <p class="newDesign_subject_question_item-title">
-                            თუ პაროლად გამოიყენეთ მეტსახელი ან სახელი, გადადგით ორი ნაბიჯი უკან;                      
-                        </p>
-                    </div>
-                    <div class="d-flex">
-                        <img alt="img" class="newDesign_subject_question_item-img"
-                             src="../../../img/icons/newDesign_btn-yellow.svg">
-                        <p class="newDesign_subject_question_item-title">
-                            თუ თქვენი პაროლი შეიცავს ასოს, სიმბოლოსა და რიცხვს, გადადგით 3 ნაბიჯი წინ;                    
-                        </p>
-                    </div>
-                    <div class="d-flex">
-                        <img alt="img" class="newDesign_subject_question_item-img"
-                             src="../../../img/icons/newDesign_btn-yellow.svg">
-                        <p class="newDesign_subject_question_item-title">
-                            თუ თქვენი პაროლი შედგება 8-ზე ნაკლები სიმბოლოსგან, გადადგით 1 ნაბიჯი უკან;                 
-                        </p>
-                    </div>
-                    <div class="d-flex">
-                        <img alt="img" class="newDesign_subject_question_item-img"
-                             src="../../../img/icons/newDesign_btn-yellow.svg">
-                        <p class="newDesign_subject_question_item-title">
-                            თუ თქვენი პაროლი შედგება მინიმუმ 8 სიმბოლოსგან, გადადგით 2 ნაბიჯი წინ;
-                        </p>
-                    </div>
-                    <div class="d-flex">
-                        <img alt="img" class="newDesign_subject_question_item-img"
-                             src="../../../img/icons/newDesign_btn-yellow.svg">
-                        <p class="newDesign_subject_question_item-title">
-                            თუ თქვენმა რომელიმე მეგობარმა იცის თქვენი პაროლი, გადადგით ორი ნაბიჯი უკან;
-                        </p>
-                    </div>
-                    <div class="d-flex">
-                        <img alt="img" class="newDesign_subject_question_item-img"
-                             src="../../../img/icons/newDesign_btn-yellow.svg">
-                        <p class="newDesign_subject_question_item-title">
-                            თუ პაროლი არ შედგება თქვენი პირადი ინფორმაციისგან, გადადგით 2 ნაბიჯი წინ;                  
-                        </p>
-                    </div>
-                    <div class="d-flex">
-                        <img alt="img" class="newDesign_subject_question_item-img"
-                             src="../../../img/icons/newDesign_btn-yellow.svg">
-                        <p class="newDesign_subject_question_item-title">
-                            თუ თქვენი პაროლი არის რეალური სიტყვა (სიტყვა ლექსიკონიდან) გადადგით ორი ნაბიჯი უკან;                      
-                        </p>
-                    </div>
-                    <div class="d-flex">
-                        <img alt="img" class="newDesign_subject_question_item-img"
-                             src="../../../img/icons/newDesign_btn-yellow.svg">
-                        <p class="newDesign_subject_question_item-title">
-                            თუ თქვენი პაროლი შეიცავს ტელეფონის ნომერს გადადგით 2 ნაბიჯი უკან.                     
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-        <!-- ეს არის svg თეგირომელიც ქმნის მარცხენა ვერტიკალურ "ნავ რუკას" -->
-        <div class="left_components_paging-cont" id="leftNav">
-            <left-nav-item></left-nav-item>
+      <div class="row">
+        <div class="col-5 m-auto">
+          <div class="newDesign_subject_question_item mt-7vh">
+            <img alt="img" class="newDesign_subject_question_item-img"
+              src="../../../img/icons/newDesign_btn-yellow.svg">
+            <p class="newDesign_subject_question_item-title">
+              შენი აზრით, როგორი უნდა იყოს რთულად გამოსაცნობი პაროლი?
+            </p>
+          </div>
+          <div class="newDesign_subject_question_item mt-2vh">
+            <img alt="img" class="newDesign_subject_question_item-img"
+              src="../../../img/icons/newDesign_btn-yellow.svg">
+            <p class="newDesign_subject_question_item-title">
+              დაფიქრდი, რა გზებით შეგვიძლია უკეთ დავიმახსოვროთ რთული პაროლები?
+            </p>
+          </div>
         </div>
-
-        <div class="our__pagination flex">
-            <a class="pagination__prev__btn" href="#">
-                <img alt="" src="../../../img/icons/chevron-left-icon.svg" style="transform: rotate(180deg)">
-            </a>
-
-            <div class="flex align-items-center" id="pagination"></div>
-
-            <a class="pagination__next__btn" href="#">
-                <img alt="" src="../../../img/icons/chevron-left-icon.svg">
-            </a>
+        <div class="col-11 m-auto d-flex justify-content-end secure-digital-world-16">
+          <img alt="img" 
+            src="../../../img/gakvetilebi/Computer-Science/Class-6/Secure-digital-world-17/cs-6-17-16.svg">
         </div>
+      </div>
+
+      <div class="left_components_paging-cont" id="leftNav">
+        <left-nav-item></left-nav-item>
+      </div>
+      <div class="our__pagination flex">
+        <a class="pagination__prev__btn" href="#">
+          <img alt="" src="../../../img/icons/chevron-left-icon.svg" style="transform: rotate(180deg)">
+        </a>
+        <div class="flex align-items-center" id="pagination"></div>
+        <a class="pagination__next__btn" href="#">
+          <img alt="" src="../../../img/icons/chevron-left-icon.svg">
+        </a>
+      </div>
 
     </section>
-</div>
+  </div>
 
 
-<!-- ჩეთბოტი -->
-<div id="chatBot">
+  <!-- ჩეთბოტი -->
+  <div id="chatBot">
     <app-bot></app-bot>
-</div>
+  </div>
 
-<script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
+  <script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
 <script src="../../../js/detectdevice.js"></script>
-<script src="../../../js/libraries/jquery.magnific-popup.min.js"></script>
-<script src="../../../js/Pagination.js"></script>
+  <script src="../../../js/libraries/jquery.magnific-popup.min.js"></script>
+  <script src="../../../js/Pagination.js"></script>
 
 
-<!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
-<!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
+  <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
+  <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
     <script src="../../../New-header-vue/vis.js"></script>
     <script src="../../../New-header-vue/app.js"></script>
-<script src="../../../Vue-chatBot/botApp.js"></script>
-<script src="../../../js/bot.js"></script>
+  <script src="../../../Vue-chatBot/botApp.js"></script>
+  <script src="../../../js/bot.js"></script>
 
 
 </body>

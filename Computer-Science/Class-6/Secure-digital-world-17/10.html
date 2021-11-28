@@ -13,6 +13,7 @@
     <link href="../../../scss/libraries/bootstrap.min.css" rel="stylesheet">
     <link href="../../../New-header-vue/animate.min.css" rel="stylesheet">
     <link href="../../../scss/new-style.css" rel="stylesheet"/>
+    <link href="../../../scss/components_style.css" rel="stylesheet"/>
     <title>ელექტრონული საგანმანათლებლო რესურსი</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
@@ -23,6 +24,7 @@
             dataLayer.push(arguments);
         }
 
+        2
         gtag('js', new Date());
 
         gtag('config', 'UA-155006442-1');
@@ -36,37 +38,50 @@
             <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../../'"></app-menu>
         </header>
 
-        <app-section :is-active="isActive" :is-info="isInfo" v-image="'../../../'">
+        <app-section :is-active="isActive" v-image="'../../../'">
             <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger"
                      v-on:link-tab="link = $event">
 
             </app-bar>
             <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive"
-                       :is-info="isInfo" :path="path" :tab-class="currentTabComponent"
-                       :trigger="trigger">
+                       :is-info="isInfo" :path="path" :tab-class="currentTabComponent" :trigger="trigger">
             </component>
 
         </app-section>
     </section>
     <section id="mainPage">
         <div class="row">
-            <div class="col-8 m-auto">
-                <div class="newDesign_subject_question_item mt-5vh">
+            <div class="col-9 m-auto mt-5vh">
+                <div class="newDesign_subject_question_item mt-3vh">
                     <img alt="img" class="newDesign_subject_question_item-img"
                          src="../../../img/icons/newDesign_btn-yellow.svg">
-                    <p class="newDesign_subject_question_item-title big-font-size-20px-dejavu">
-                        პირადი და პერსონალური ინფორმაცია
-                    </p>
+                    <p class="newDesign_subject_question_item-title big-font-size-20px-dejavu">რა იცი ამ თემაზე?</p>
+                </div>
+
+
+                <div class="newDesign_subject_question_item mt-3vh">
+                    <img alt="img" class="newDesign_subject_question_item-img"
+                         src="../../../img/icons/newDesign_btn-yellow.svg">
+                    <p class="newDesign_subject_question_item-title big-font-size-20px-dejavu">შენი აზრით, რისი ცოდნა
+                        გჭირდება დავალების შესასრულებლად?</p>
+                </div>
+
+
+                <div class="newDesign_subject_question_item mt-3vh">
+                    <img alt="img" class="newDesign_subject_question_item-img"
+                         src="../../../img/icons/newDesign_btn-yellow.svg">
+                    <p class="newDesign_subject_question_item-title big-font-size-20px-dejavu">დააკვირდი შემდეგ
+                        სავარჯიშოებს და იფიქრე, როგორ გამოიყენო მიღებული ცოდნა.</p>
                 </div>
             </div>
+
             <div class="col-12 d-flex justify-content-center mt-3vh">
-                <div class="secure_page-10">
+                <div class="secure_page-11">
                     <img alt="img"
-                         src="../../../img/gakvetilebi/Computer-Science/Class-6/Secure-digital-world-17/cs-6-17-10.svg">
+                         src="../../../img/gakvetilebi/Computer-Science/Class-6/Secure-digital-world-17/cs-6-17-11.svg">
                 </div>
             </div>
         </div>
-
         <div class="left_components_paging-cont" id="leftNav">
             <left-nav-item></left-nav-item>
         </div>

@@ -42027,6 +42027,99 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   margin-bottom: 1.5vh;
 }
 
+.cs-3-10-16-instruct-icon {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/Cloud-services-10/cs-3-10-16-mark.png");
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  background-position: center;
+}
+
+.cs-3-10-16-instruct-btn {
+  cursor: pointer;
+  width: 16vh;
+  height: 6vh;
+  background-color: #ffe4e1;
+  border-radius: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  right: 25vh;
+}
+
+.cs-3-10-16-instruct-btn-text {
+  font-family: DejaVu Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 14px;
+  color: #CC3657;
+  padding: 1vh;
+}
+
+.cs-3-10-16-instruct-text-div {
+  width: 52vh;
+  height: 23vh;
+  background-color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 50px;
+  display: none;
+  position: absolute;
+  right: 25vh;
+  top: 20vh;
+  z-index: 99;
+}
+
+.cs-3-10-16-instruct-text {
+  font-family: DejaVu Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 32px;
+  color: #CC3657;
+  padding-left: 2vh;
+}
+
+.cs-3-10-16-instruct-text-icon {
+  background-image: url("../img/gakvetilebi/Computer-Science/Class-3/Cloud-services-10/cs-3-10-16-mark.png");
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 25px;
+}
+
+.cs-3-10-16-instruct-btn:hover + .cs-3-10-16-instruct-text-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cs-3-10-16-instruct {
+  position: absolute;
+  right: 25vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
 .cs-3-10-21-img {
   height: 44.53vh;
   margin-top: 3vh;
@@ -42454,7 +42547,7 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 .class_6_13-img_14 {
   position: fixed;
   bottom: 0;
-  height: 78.38vh;
+  height: 56.38vh;
   max-height: 602px;
 }
 
@@ -53258,6 +53351,76 @@ tr td:first-child {
 
 .keep-line ul {
   display: inline-block !important;
+}
+
+.cs-3-12-new-div-9-img {
+  height: 41.53vh;
+}
+
+.cs-3-12-new-div-10-img {
+  height: 30vh;
+  width: auto;
+}
+
+.cs-3-12-new-div-13-img {
+  height: 25vh;
+}
+
+.cs-3-12-new-div-15-img {
+  height: 15vh;
+}
+
+.cs-3-12-new-div-16-img {
+  height: 15vh;
+}
+
+.cs-3-12-new-div-17-img {
+  height: 45vh;
+}
+
+.cs-3-12-new-div-18-img {
+  height: 35vh;
+}
+
+.cs-3-12-new-div img {
+  height: 100%;
+}
+
+.cs-2-7-new-div {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.cs-2-7-new-div-3-img {
+  height: 30vh;
+}
+
+.cs-2-7-new-div-6-img {
+  height: 25vh;
+}
+
+.cs-2-7-new-div-8-img {
+  height: 25vh;
+}
+
+.cs-2-7-new-div-9-img {
+  height: 35vh;
+}
+
+.cs-2-7-new-div-16-img {
+  height: 15vh;
+}
+
+.cs-2-7-new-div-17-img {
+  height: 45vh;
+}
+
+.cs-2-7-new-div-18-img {
+  height: 35vh;
+}
+
+.cs-2-7-new-div img {
+  height: 100%;
 }
 
 .tablet-1 {

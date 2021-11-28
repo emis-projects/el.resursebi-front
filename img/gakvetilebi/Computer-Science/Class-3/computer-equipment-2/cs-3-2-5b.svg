@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="714" height="271.125" viewBox="0 0 714 271.125">
+    <defs>
+        <style>
+            .a{fill:#f4ad67;}.b{fill:#ddd75e;}.c{fill:#49c980;}.d{fill:#52b5cc;}.e{fill:#f2ee66;}.f{fill:#fff;font-size:16px;font-family:BPGArial,
+            BPG Arial;}
+        </style>
+    </defs>
+    <g transform="translate(-495.281 -392.722)">
+        <rect class="a" width="180.402" height="107.214" rx="21.349" transform="translate(495.281 467.654)"/>
+        <rect class="b" width="180.402" height="107.214" rx="21.349" transform="translate(765.563 556.634)"/>
+        <rect class="c" width="180.402" height="107.214" rx="21.349" transform="translate(765.563 392.722)"/>
+        <rect class="d" width="180.402" height="107.214" rx="21.349" transform="translate(1028.88 467.654)"/>
+        <g transform="translate(701.042 512.31)">
+            <g transform="translate(0 13.071)">
+                <rect class="e" width="21.213" height="4.601"/>
+            </g>
+            <g transform="translate(16.715)">
+                <path class="e" d="M703.157,535.2l26.62-15.371-26.62-15.371Z" transform="translate(-703.157 -504.462)"/>
+            </g>
+        </g>
+        <g transform="translate(831.547 506.618)">
+            <g transform="translate(6.535)">
+                <rect class="e" width="2.3" height="32.274"/>
+            </g>
+            <g transform="translate(0 30.025)">
+                <path class="e" d="M809.48,527.2l7.686,13.31,7.685-13.31Z" transform="translate(-809.48 -527.198)"/>
+            </g>
+        </g>
+        <g transform="translate(854.82 506.618)">
+            <g transform="translate(6.535 11.061)">
+                <rect class="e" width="2.3" height="32.274"/>
+            </g>
+            <path class="e" d="M846.6,512.453l-7.686-13.31-7.685,13.31Z" transform="translate(-831.225 -499.143)"/>
+        </g>
+        <g transform="translate(961.409 512.31)">
+            <g transform="translate(0 13.071)">
+                <rect class="e" width="21.213" height="4.601"/>
+            </g>
+            <g transform="translate(16.716)">
+                <path class="e" d="M946.438,535.2l26.619-15.371-26.619-15.371Z"
+                      transform="translate(-946.438 -504.462)"/>
+            </g>
+        </g>
+        <text class="f" transform="translate(581.673 520.559)">
+            <tspan x="-56.148" y="0">ინფორმაციის</tspan>
+            <tspan x="-27.402" y="18">შეტანა</tspan>
+        </text>
+        <text class="f" transform="translate(1115.271 520.559)">
+            <tspan x="-56.148" y="0">ინფორმაციის</tspan>
+            <tspan x="-41.746" y="18">მოწოდება</tspan>
+        </text>
+        <text class="f" transform="translate(855.723 440.951)">
+            <tspan x="-56.148" y="0">ინფორმაციის</tspan>
+            <tspan x="-30.918" y="18">შენახვა</tspan>
+        </text>
+        <text class="f" transform="translate(855.723 609.539)">
+            <tspan x="-56.148" y="0">ინფორმაციის</tspan>
+            <tspan x="-46.199" y="18">დამუშავება</tspan>
+        </text>
+    </g>
+</svg>
