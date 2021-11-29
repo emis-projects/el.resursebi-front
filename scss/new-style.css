@@ -53386,6 +53386,10 @@ tr td:first-child {
   height: 100%;
 }
 
+.cs-3-12-8-video-div video {
+  width: 90vh;
+}
+
 .cs-2-7-new-div {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
