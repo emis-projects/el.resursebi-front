@@ -2,127 +2,137 @@
 <html data-botid="2288" lang="ka">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta content="ie=edge" http-equiv="X-UA-Compatible" />
-  <!-- ყველა გვერდზე -->
+    <meta charset="UTF-8"/>
+    <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+    <!-- ყველა გვერდზე -->
     <script src="../../../js/vue.js"></script>
     <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
-  <!--  ვუე გაშვებისას
+    <!--  ვუე გაშვებისას
     <script src="./js/vue.min.js"></script>
      -->
-  <link href="../../../scss/libraries/bootstrap.min.css" rel="stylesheet">
-  <link href="../../../New-header-vue/animate.min.css" rel="stylesheet">
-  <link href="../../../scss/new-style.css" rel="stylesheet" />
-  <link href="../../../scss/components_style.css" rel="stylesheet" />
-  <title>ელექტრონული საგანმანათლებლო რესურსი</title>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
+    <link href="../../../scss/libraries/bootstrap.min.css" rel="stylesheet">
+    <link href="../../../New-header-vue/animate.min.css" rel="stylesheet">
+    <link href="../../../scss/new-style.css" rel="stylesheet"/>
+<link href="../../../scss/components_style.css" rel="stylesheet"/>
+    <title>ელექტრონული საგანმანათლებლო რესურსი</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-    function gtag() {
-      dataLayer.push(arguments);
-    }
+        function gtag() {
+            dataLayer.push(arguments);
+        }
 
-    gtag('js', new Date());
+        gtag('js', new Date());
 
-    gtag('config', 'UA-155006442-1');
-  </script>
+        gtag('config', 'UA-155006442-1');
+    </script>
 </head>
 
 <body>
-  <div class="container">
+<div class="container">
     <section class="container position-absolute" id="app">
-      <header>
-        <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../../'"></app-menu>
-      </header>
+        <header>
+            <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../../'"></app-menu>
+        </header>
 
-      <app-section :is-active="isActive" :is-info="isInfo" v-image="'../../../'">
-        <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger"
-          v-on:link-tab="link = $event">
+        <app-section :is-active="isActive" v-image="'../../../'">
+            <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger"
+                     v-on:link-tab="link = $event">
 
-        </app-bar>
-        <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive"
-          :is-info="isInfo" :path="path" :tab-class="currentTabComponent" :trigger="trigger">
-        </component>
+            </app-bar>
+            <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive"
+                       :is-info="isInfo" :path="path" :tab-class="currentTabComponent" :trigger="trigger">
+            </component>
 
-      </app-section>
+        </app-section>
     </section>
     <section id="mainPage">
-      <div class="row">
-        <div class="col-9 m-auto">
-          <div class="newDesign_subject_question_item">
-            <img alt="img" class="newDesign_subject_question_item-img"
-              src="../../../img/icons/newDesign_btn-yellow.svg">
-            <p class="newDesign_subject_question_item-title">
-              ბოლო სვეტში ჩაწერე ფორმულა, რომელიც გამოითვლის, სულ რამდენი ქულა მიიღო თითოეულმა მოსწავლემ.
-            </p>
-          </div>
-          <div class="newDesign_subject_question_item">
-            <img alt="img" class="newDesign_subject_question_item-img"
-              src="../../../img/icons/newDesign_btn-yellow.svg">
-            <p class="newDesign_subject_question_item-title">
-              C14 უჯრაში ჩაწერე მოსწავლეთა მიერ მიღებული ჯამური ქულებიდან ყველაზე მაღალი, C15 უჯრაში ჩაწერე მოსწავლეთა მიერ მიღებული ჯამური ქულებიდან ყველაზე დაბალი.
-            </p>
-          </div>
-          <div class="newDesign_subject_question_item">
-            <img alt="img" class="newDesign_subject_question_item-img"
-              src="../../../img/icons/newDesign_btn-yellow.svg">
-            <p class="newDesign_subject_question_item-title">
-              შედგენილი მონაცემების საფუძველზე ააგე დიაგრამა.
-            </p>
-          </div>
-          <div class="newDesign_subject_question_item">
-            <img alt="img" class="newDesign_subject_question_item-img"
-              src="../../../img/icons/newDesign_btn-yellow.svg">
-            <p class="newDesign_subject_question_item-title">
-              საჭიროების შემთხვევაში ნახე <a href="11-1.html" class="a-blue">ნიმუში.</a>
-            </p>
-          </div>
+        <div class="row mt-3vh">
+            <div class="col-10 m-auto">
+                <div class="newDesign_subject_question_item">
+                    <img alt="img" class="newDesign_subject_question_item-img"
+                         src="../../../img/icons/newDesign_btn-yellow.svg">
+                    <p class="newDesign_subject_question_item-title">
+                        მოსწავლეებს მათემატიკის ოლიმპიადაზე ჰქონდათ 5 საკითხი, თითოეული <br> ფასდებოდა 5-5 ქულით.
+                    </p>
+                </div>
+                <div class="newDesign_subject_question_item">
+                    <img alt="img" class="newDesign_subject_question_item-img"
+                         src="../../../img/icons/newDesign_btn-yellow.svg">
+                    <p class="newDesign_subject_question_item-title">
+                        ისარგებლე ფოტოზე გამოსახული მონაცემებით.
+                    </p>
+                </div>
+                <div class="newDesign_subject_question_item">
+                    <img alt="img" class="newDesign_subject_question_item-img"
+                         src="../../../img/icons/newDesign_btn-yellow.svg">
+                    <p class="newDesign_subject_question_item-title">
+                        ააგე ცხრილი ელექტრონულ ცხრილში და შეავსე ინფორმაციით;
+                    </p>
+                </div>
+                <div class="newDesign_subject_question_item">
+                    <img alt="img" class="newDesign_subject_question_item-img"
+                         src="../../../img/icons/newDesign_btn-yellow.svg">
+                    <p class="newDesign_subject_question_item-title">
+                        ააგეთ დიაგრამა;
+                    </p>
+                </div>
+                <div class="newDesign_subject_question_item">
+                    <img alt="img" class="newDesign_subject_question_item-img"
+                         src="../../../img/icons/newDesign_btn-yellow.svg">
+                    <p class="newDesign_subject_question_item-title">
+                        თუ გაგიჭირდა, ნახე დიაგრამის
+                        <a href="12-1.html" class="a-blue">
+                            ნიმუში.
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div class="col-9 m-auto class_5_19-img_12 d-flex justify-content-end">
+                <img src="../../../img/gakvetilebi/Computer-Science/Class-5/Using-diagrams-19/C-5-19-12.png" alt="image">
+            </div>
         </div>
-        <div class="col-8 m-auto d-flex justify-content-end">
-          <img alt="" class="cs-5-19-11-img"
-            src="../../../img/gakvetilebi/Computer-Science/Class-5/Using-diagrams-19/cs-5-19-11.svg">
+
+        <!-- ეს არის svg თეგირომელიც ქმნის მარცხენა ვერტიკალურ "ნავ რუკას" -->
+        <div class="left_components_paging-cont" id="leftNav">
+            <left-nav-item></left-nav-item>
         </div>
-      </div>
 
-      <div class="left_components_paging-cont" id="leftNav">
-        <left-nav-item></left-nav-item>
-      </div>
+        <div class="our__pagination flex">
+            <a class="pagination__prev__btn" href="#">
+                <img alt="" src="../../../img/icons/chevron-left-icon.svg" style="transform: rotate(180deg)">
+            </a>
 
-      <div class="our__pagination flex">
-        <a class="pagination__prev__btn" href="#">
-          <img alt="" src="../../../img/icons/chevron-left-icon.svg" style="transform: rotate(180deg)">
-        </a>
+            <div class="flex align-items-center" id="pagination"></div>
 
-        <div class="flex align-items-center" id="pagination"></div>
-
-        <a class="pagination__next__btn" href="#">
-          <img alt="" src="../../../img/icons/chevron-left-icon.svg">
-        </a>
-      </div>
+            <a class="pagination__next__btn" href="#">
+                <img alt="" src="../../../img/icons/chevron-left-icon.svg">
+            </a>
+        </div>
 
     </section>
-  </div>
+</div>
 
 
-  <!-- ჩეთბოტი -->
-  <div id="chatBot">
+<!-- ჩეთბოტი -->
+<div id="chatBot">
     <app-bot></app-bot>
-  </div>
+</div>
 
-  <script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
+<script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
 <script src="../../../js/detectdevice.js"></script>
-  <script src="../../../js/libraries/jquery.magnific-popup.min.js"></script>
-  <script src="../../../js/Pagination.js"></script>
+<script src="../../../js/libraries/jquery.magnific-popup.min.js"></script>
+<script src="../../../js/Pagination.js"></script>
 
 
-  <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
-  <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
+<!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
+<!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
     <script src="../../../New-header-vue/vis.js"></script>
     <script src="../../../New-header-vue/app.js"></script>
-  <script src="../../../Vue-chatBot/botApp.js"></script>
-  <script src="../../../js/bot.js"></script>
+<script src="../../../Vue-chatBot/botApp.js"></script>
+<script src="../../../js/bot.js"></script>
 
 
 </body>

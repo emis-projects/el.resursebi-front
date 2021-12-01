@@ -1,19 +1,18 @@
 <!DOCTYPE html>
-<html data-botid="2288" lang="ka">
+<html lang="ka" data-botid="2288">
 
 <head>
     <meta charset="UTF-8"/>
-    <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
     <!-- ყველა გვერდზე -->
     <script src="../../../js/vue.js"></script>
     <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
     <!--  ვუე გაშვებისას
     <script src="./js/vue.min.js"></script>
      -->
-    <link href="../../../scss/libraries/bootstrap.min.css" rel="stylesheet">
-    <link href="../../../New-header-vue/animate.min.css" rel="stylesheet">
-    <link href="../../../scss/new-style.css" rel="stylesheet"/>
-<link href="../../../scss/components_style.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="../../../scss/libraries/bootstrap.min.css">
+    <link rel="stylesheet" href="../../../New-header-vue/animate.min.css">
+    <link rel="stylesheet" href="../../../scss/new-style.css"/>
     <title>ელექტრონული საგანმანათლებლო რესურსი</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
@@ -32,42 +31,66 @@
 
 <body>
 <div class="container">
-    <section class="container position-absolute" id="app">
+    <section id="app" class="container position-absolute">
         <header>
             <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../../'"></app-menu>
         </header>
 
-        <app-section :is-active="isActive" v-image="'../../../'">
-            <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger"
+        <app-section :is-active="isActive" :is-info="isInfo" v-image="'../../../'">
+            <app-bar :is-active="isActive" :trigger="trigger" :dots="dots" :current-tab="link"
                      v-on:link-tab="link = $event">
 
             </app-bar>
-            <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive"
-                       :is-info="isInfo" :path="path" :tab-class="currentTabComponent" :trigger="trigger">
+            <component :path="path" :is="currentTabComponent" :is-active="isActive" :trigger="trigger"
+                       :active-class="activeClass" :images="images" :is-info="isInfo" :tab-class="currentTabComponent">
             </component>
 
         </app-section>
     </section>
     <section id="mainPage">
-        <div class="row mt-3vh">
+        <div class="row">
             <div class="col-9 m-auto">
                 <div class="newDesign_container_main_title-cont newDesign_container_main_title-cont-margin">
                     <h1 class="newDesign_container_main_title">ცხრილებთან მუშაობა</h1>
-                    <img alt="img" class="newDesign_container_main_title-img"
-                         src="../../../img/icons/comp_main_title_border.svg">
-                </div>
-                <div class="newDesign_subject_question_item mt-5vh">
-                    <img alt="img" class="newDesign_subject_question_item-img"
-                         src="../../../img/icons/newDesign_btn-yellow.svg">
-                    <p class="newDesign_subject_question_item-title big-font-size-20px-dejavu">შენ უკვე წარმატებით
-                        გაიარე ნაბიჯები, გაიგე ბევრი ახალი რამ, ახლა დროა, დაიწყო მთავარი დავალების შესრულება.</p>
+                    <img src="../../../img/icons/comp_main_title_border.svg" alt="img"
+                         class="newDesign_container_main_title-img">
                 </div>
             </div>
-            <div class="col-12">
-                <div class="working-tables_page-20 d-flex justify-content-center">
-                    <img src="../../../img/gakvetilebi/Computer-Science/Class-5/Working-with-tables-15/cs-5-15-20.svg"
-                         alt="img" class="programing">
+            <div class="col-6 ml-3vh mt-7vh">
+                <div class="newDesign_subject_question_item ">
+                    <img src="../../../img/icons/newDesign_btn-yellow.svg" alt="img"
+                         class="newDesign_subject_question_item-img">
+                    <p class="newDesign_subject_question_item-title">შექმენი ელექტრონული ცხრილი;</p>
                 </div>
+                <div class="newDesign_subject_question_item ">
+                    <img src="../../../img/icons/newDesign_btn-yellow.svg" alt="img"
+                         class="newDesign_subject_question_item-img">
+                    <p class="newDesign_subject_question_item-title">მონიშნე რომელიმე უჯრა და ჩაწერე შენი სახელი;</p>
+                </div>
+                <div class="newDesign_subject_question_item ">
+                    <img src="../../../img/icons/newDesign_btn-yellow.svg" alt="img"
+                         class="newDesign_subject_question_item-img">
+                    <p class="newDesign_subject_question_item-title">მის გვერდით უჯრაში ჩაწერე შენი გვარი;</p>
+                </div>
+                <div class="newDesign_subject_question_item ">
+                    <img src="../../../img/icons/newDesign_btn-yellow.svg" alt="img"
+                         class="newDesign_subject_question_item-img">
+                    <p class="newDesign_subject_question_item-title">შემდეგ უჯრებში ჩაწერე მონაცემები, რომელ სკოლაში სწავლობ, რომელ კლასში ხარ;</p>
+                </div>
+                <div class="newDesign_subject_question_item ">
+                    <img src="../../../img/icons/newDesign_btn-yellow.svg" alt="img"
+                         class="newDesign_subject_question_item-img">
+                    <p class="newDesign_subject_question_item-title">თითოეული უჯრა სხვადასხვა ფერით შეავსე;</p>
+                </div>
+                <div class="newDesign_subject_question_item ">
+                    <img src="../../../img/icons/newDesign_btn-yellow.svg" alt="img"
+                         class="newDesign_subject_question_item-img">
+                    <p class="newDesign_subject_question_item-title">შეინახე ფაილი.</p>
+                </div>
+                
+            </div>
+            <div class="col-10 class_5_15-img_21 d-flex justify-content-end">
+                <img src="../../../img/gakvetilebi/Computer-Science/Class-5/Working-with-tables-15/C-5-15-21.svg" alt="image">
             </div>
         </div>
 
@@ -77,14 +100,14 @@
         </div>
 
         <div class="our__pagination flex">
-            <a class="pagination__prev__btn" href="#">
-                <img alt="" src="../../../img/icons/chevron-left-icon.svg" style="transform: rotate(180deg)">
+            <a href="#" class="pagination__prev__btn">
+                <img style="transform: rotate(180deg)" src="../../../img/icons/chevron-left-icon.svg" alt="">
             </a>
 
-            <div class="flex align-items-center" id="pagination"></div>
+            <div id="pagination" class="flex align-items-center"></div>
 
-            <a class="pagination__next__btn" href="#">
-                <img alt="" src="../../../img/icons/chevron-left-icon.svg">
+            <a href="#" class="pagination__next__btn">
+                <img src="../../../img/icons/chevron-left-icon.svg" alt="">
             </a>
         </div>
 

@@ -132,7 +132,7 @@
         {
             "number": 22,
             "url": "",
-            "type": 4
+            "type": 5
         },
         {
             "number": 23,
@@ -142,7 +142,7 @@
         {
             "number": 24,
             "url": "",
-            "type": 5
+            "type": null
         },
         {
             "number": 25,
@@ -156,11 +156,6 @@
         },
         {
             "number": 27,
-            "url": "",
-            "type": null
-        },
-        {
-            "number": 28,
             "url": "",
             "type": null
         }

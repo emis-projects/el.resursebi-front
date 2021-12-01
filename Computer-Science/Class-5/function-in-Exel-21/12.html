@@ -13,6 +13,7 @@
     <link href="../../../scss/libraries/bootstrap.min.css" rel="stylesheet">
     <link href="../../../New-header-vue/animate.min.css" rel="stylesheet">
     <link href="../../../scss/new-style.css" rel="stylesheet"/>
+<link href="../../../scss/components_style.css" rel="stylesheet"/>
     <title>ელექტრონული საგანმანათლებლო რესურსი</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
@@ -36,53 +37,58 @@
             <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../../'"></app-menu>
         </header>
 
-        <app-section :is-active="isActive" :is-info="isInfo" v-image="'../../../'">
+        <app-section :is-active="isActive" v-image="'../../../'">
             <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger"
                      v-on:link-tab="link = $event">
 
             </app-bar>
             <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive"
-                       :is-info="isInfo" :path="path" :tab-class="currentTabComponent"
-                       :trigger="trigger">
+                       :is-info="isInfo" :path="path" :tab-class="currentTabComponent" :trigger="trigger">
             </component>
 
         </app-section>
     </section>
     <section id="mainPage">
-        <div class="row">
+        <div class="row mt-3vh">
             <div class="col-10 m-auto">
                 <div class="newDesign_subject_question_item">
                     <img alt="img" class="newDesign_subject_question_item-img"
                          src="../../../img/icons/newDesign_btn-yellow.svg">
-                    <p class="newDesign_subject_question_item-title">განვიხილოთ Sum ფუქცია, რომელიც რიცხვითი მონაცემების
-                        ჯამს ითვლის.</p>
+                    <p class="newDesign_subject_question_item-title">
+                        განვიხილოთ Sum ფუნქციის გამოყენების მეორე გზა:
+                    </p>
                 </div>
-                <div class="newDesign_subject_question_item ">
+                <div class="newDesign_subject_question_item">
                     <img alt="img" class="newDesign_subject_question_item-img"
                          src="../../../img/icons/newDesign_btn-yellow.svg">
-                    <p class="newDesign_subject_question_item-title">მაგალითი: იპოვე მოსწავლეების მიერ შეჯიბრებებში
-                        მიღებული ქულების ჯამი.</p>
+                    <p class="newDesign_subject_question_item-title">
+                        დადექი პასუხის უჯრაზე; დაწერე =Sum(; მონიშნე ის მონაცემები, რომელთა ჯამის პოვნა გვსურს; დააჭირე Enter ღილაკს და შედეგი ჩაიწერება პასუხის უჯრაში.
+                    </p>
                 </div>
-                <div class="newDesign_subject_question_item ">
+                <div class="newDesign_subject_question_item">
                     <img alt="img" class="newDesign_subject_question_item-img"
                          src="../../../img/icons/newDesign_btn-yellow.svg">
-                    <p class="newDesign_subject_question_item-title">მონიშნე პასუხის უჯრა; ფუნქციათა მენიუდან აირჩიე
-                        Sum; Enter ღილაკზე დაჭერისას შედეგი აისახება პასუხის უჯრაში;</p>
+                    <p class="newDesign_subject_question_item-title">
+                        დაასრულე მოცემული ცხრილის შევსება.
+                    </p>
                 </div>
-                <div class="newDesign_subject_question_item ">
+                <div class="newDesign_subject_question_item mb-4vh">
                     <img alt="img" class="newDesign_subject_question_item-img"
                          src="../../../img/icons/newDesign_btn-yellow.svg">
-                    <p class="newDesign_subject_question_item-title">დაასრულე ცხრილში მონაცემთა ჯამის გამოთვლა.</p>
+                    <p class="newDesign_subject_question_item-title">
+                        საჭიროების შემთხვევაში შეამოწმე
+                        <a href="12-1.html" class="a-blue">
+                            პასუხი.
+                        </a>
+                    </p>
                 </div>
             </div>
-            <div class="col-10 m-auto d-flex justify-content-center">
-                <div class="functions-exel_page-12 mt-5vh w-100 d-flex justify-content-center">
-                    <img alt="img" class="img-fluid"
-                         src="../../../img/gakvetilebi/Computer-Science/Class-5/function-in-Exel-21/cs-5-21-12.png">
-                </div>
+            <div class="col-10 m-auto class_5_21-img_13 d-flex justify-content-start pl-4vh">
+                <img src="../../../img/gakvetilebi/Computer-Science/Class-5/function-in-Exel-21/C-5-21-13.png" alt="image">
             </div>
         </div>
 
+        <!-- ეს არის svg თეგირომელიც ქმნის მარცხენა ვერტიკალურ "ნავ რუკას" -->
         <div class="left_components_paging-cont" id="leftNav">
             <left-nav-item></left-nav-item>
         </div>

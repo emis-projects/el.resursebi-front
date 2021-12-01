@@ -7,6 +7,7 @@
     <!-- ყველა გვერდზე -->
     <script src="../../../js/vue.js"></script>
     <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!--  ვუე გაშვებისას
     <script src="./js/vue.min.js"></script>
      -->
@@ -28,6 +29,21 @@
 
         gtag('config', 'UA-155006442-1');
     </script>
+    <style>
+        .class_3_10-bg_blue {
+            position: relative;
+        }
+
+        .class_3_10-bg_blue::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            z-index: 1;
+        }
+    </style>
 </head>
 
 <body>
@@ -49,28 +65,153 @@
         </app-section>
     </section>
     <section id="mainPage">
-        <div class="row mt-7vh">
-            <div class="col-10 m-auto">
-                <div class="newDesign_subject_question_item mb-4vh">
-                    <img alt="img" class="newDesign_subject_question_item-img"
-                         src="../../../img/icons/newDesign_btn-yellow.svg">
-                    <p class="newDesign_subject_question_item-title">
-                        როგორ მიგაჩნია რაში გვეხმარება ღრუბლოვანი სერვისები?
-                    </p>
-                </div>
-                <div class="newDesign_subject_question_item">
-                    <img alt="img" class="newDesign_subject_question_item-img"
-                         src="../../../img/icons/newDesign_btn-yellow.svg">
-                    <p class="newDesign_subject_question_item-title">
-                        შენი აზრით მათ გარეშე შესაძლებელი იქნებოდა ინფორმაციის შენახვა თუ გაზიარება და როგორ?
-                    </p>
-                </div>
+        <div class="row ">
+
+
+
+            <div class="cs-3-10-16-instruct-btn">
+                <span class="cs-3-10-16-instruct-icon"></span>
+                <span class="cs-3-10-16-instruct-btn-text">ინსტრუქცია</span>
             </div>
-            <div class="col-9 class_3_10-img_17 d-flex justify-content-end">
-                <img src="../../../img/gakvetilebi/Computer-Science/Class-3/Cloud-services-10/C-3-10-17.svg" alt="image">
+            <div class="cs-3-10-16-instruct-text-div cs-3-10-16-instruct-text-div-padding">
+                <span class="cs-3-10-16-instruct-text-icon"></span>
+                <span class="cs-3-10-16-instruct-text">
+                    რიგრიგობით შეავსე ცარიელი ადგილები შესაბამისი </br>
+                    ტექსტითა და სურათებით ისე, რომ საინტერესო და</br>
+                     ნამდვილი ამბავი გამოვიდეს.
+                    </span>
             </div>
+
+        
+            <div class="col-9 ml-6vh d-flex justify-content-between align-items-center">
+                <div class="class_3_10-img_box">
+                    <div class="class_3_10-bg_yellow">
+                        <p class="class_3_10-bg_title">
+                            როდესაც ჩვენ ვსაუბრობთ ძლიერ <br> ცხოველებზე, ყოველთვის თვალწინ <br> წარმოგვიდგება
+                        </p>
+                    </div>
+                </div>
+                <div class="class_3_10-img_box">
+                    <div id="1" class="class_3_10-bg_small_gray myDrag" data-placeDiv="1">
+                    </div>
+                </div>
+                <div class="class_3_10-img_box">
+                    <div class="class_3_10-bg_small_yellow">
+                    </div>
+                </div>
+                <div class="class_3_10-img_box">
+                <div class="class_3_10-bg_yellow_circle">
+                        <p class="class_3_10-bg_title">
+                            ან
+                        </p>
+                    </div>
+                </div>
+                <div class="class_3_10-img_box">
+                    <div id="2" class="class_3_10-bg_small_gray myDrag" data-placeDiv="1">
+                    </div>
+                </div>
+            </div> 
+        </div>
+        <div class="row mt-1vh">
+            <div class="col-8 ml-6vh d-flex justify-content-between align-items-center">
+                <div class="class_3_10-img_box">
+                    <div class="class_3_10-bg_yellow">
+                        <p class="class_3_10-bg_title">
+                            მაგრამ თურმე ზომის მიხედვით <br> ცხოველის სიძლიერის შეფასება
+                        </p>
+                    </div>
+                </div> 
+                <div class="class_3_10-img_box">
+                    <div class="class_3_10-bg_gray myDrag" data-place="3" data-placeDiv="2">
+                    </div>
+                </div> 
+            </div>   
         </div>
 
+        <div class="row mt-1vh">
+            <div class="col-10 ml-6vh d-flex justify-content-between align-items-center">
+                <div class="class_3_10-img_box">
+                    <div class="class_3_10-bg_small_gray myDrag" data-place="1" data-placeDiv="1">
+                    </div>
+                </div>
+                <div class="class_3_10-img_box">
+                    <div class="class_3_10-bg_yellow">
+                        <p class="class_3_10-bg_title">
+                            მას 9 ტონამდე ტვირთის აწევა <br> შეუძლია, რაც ადამიანის ძალებს <br> აღემატება.
+                        </p>
+                    </div>
+                </div>
+                <div class="class_3_10-img_box">
+                    <div class="class_3_10-bg_small_yellow">
+                    </div>
+                </div>
+                <div class="class_3_10-img_box">
+                    <div class="class_3_10-bg_gray myDrag" data-place="5" data-placeDiv="2">
+                    </div>
+                </div> 
+            </div> 
+        </div>
+
+        <div class="row mt-1vh">
+            <div class="col-9 ml-6vh d-flex justify-content-between align-items-center">
+                <div class="class_3_10-img_box">
+                    <div class="class_3_10-bg_small_gray myDrag" data-place="2" data-placeDiv="1">
+                    </div>
+                </div>
+                <div class="class_3_10-img_box">
+                    <div class="class_3_10-bg_yellow">
+                        <p class="class_3_10-bg_title">
+                            შეუძლია თავის წონასთან <br> შედარებით 850-ჯერ მძიმე <br> ტვირთის გადაადგილება
+                        </p>
+                    </div>
+                </div>
+                <div class="class_3_10-img_box">
+                    <div class="class_3_10-bg_gray myDrag" data-place="4" data-placeDiv="2">
+                    </div>
+                </div> 
+            </div> 
+        </div>
+
+        <div class="row mt-1vh">
+            <div class="col-11 ml-3vh d-flex justify-content-between align-items-center">
+                <div class="col-sm class_3_10-img_box">
+                    <div draggable="true" class="class_3_10-bg_blue DragGame--childs1" data-place="3" data-placeDiv="2">
+                        <p class="class_3_10-bg_title">
+                            მცდარი აზრია და ამაში ახლა <br> თავადვე დარწმუნდები.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm class_3_10-img_box">
+                    <div draggable="true" class="class_3_10-bg_blue DragGame--childs1" data-place="4" data-placeDiv="2">
+                        <p class="class_3_10-bg_title">
+                            ახლა კი თავად გადაწყვიტე, <br> ვინ არის ყველაზე ძლიერი ცხოველი.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm class_3_10-img_box">
+                    <div draggable="true" class="class_3_10-bg_blue DragGame--childs1" data-place="5" data-placeDiv="2">
+                        <p class="class_3_10-bg_title">
+                            მას შეუძლია საკუთარ წონასთან <br> შედარებით 10-20-ჯერ მეტი სიმძიმის <br> ტვირთის აწევა
+                        </p>
+                    </div>
+                </div>
+            </div> 
+        </div>
+
+        <div class="row mt-1vh">
+            <div class="col-3 ml-3vh d-flex justify-content-between align-items-center">
+                <div class="col-sm class_3_10-img_box">
+                    <div draggable="true" class="class_3_10-bg_blue_el DragGame--childs1" data-image="true" data-place="1" data-placeDiv="1"></div>
+                </div> 
+                <div class="col-sm class_3_10-img_box">
+                    <div draggable="true" class="class_3_10-bg_blue_bee DragGame--childs1" data-image="true" data-place="2" data-placeDiv="1"></div>
+                </div> 
+            </div>
+        </div>
+        <div class="class_3_10-bottom flex flex-end column align-items-end z-index reload_game_wrapper">
+            <button class="reset__btn" id="resetBtn">თავიდან სცადე</button>
+            <button class="completed__btn" id="completedGame">დასრულება</button>
+        </div>
         <!-- ეს არის svg თეგირომელიც ქმნის მარცხენა ვერტიკალურ "ნავ რუკას" -->
         <div class="left_components_paging-cont" id="leftNav">
             <left-nav-item></left-nav-item>
@@ -101,9 +242,9 @@
 <script src="../../../js/detectdevice.js"></script>
 <script src="../../../js/libraries/jquery.magnific-popup.min.js"></script>
 <script src="../../../js/Pagination.js"></script>
+<script src="./js/16.js"></script>
 
 
-<!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
 <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
     <script src="../../../New-header-vue/vis.js"></script>
     <script src="../../../New-header-vue/app.js"></script>

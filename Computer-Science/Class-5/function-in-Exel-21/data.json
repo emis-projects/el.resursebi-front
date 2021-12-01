@@ -65,12 +65,16 @@
         {
             "number": 11,
             "url": "",
-            "type": 4
+            "type": 2
         },
         {
             "number": 12,
             "url": "",
             "type": 2
+        },
+        {
+            "number": "12-1",
+            "type": 3
         },
         {
             "number": 13,
@@ -93,16 +97,12 @@
         {
             "number": 15,
             "url": "",
-            "type": 2
-        },
-        {
-            "number": "15-1",
-            "type": 3
+            "type": 4
         },
         {
             "number": 16,
             "url": "",
-            "type": 4
+            "type": 5
         },
         {
             "number": 17,
@@ -110,18 +110,18 @@
             "type": 5
         },
         {
+            "number": "17-1",
+            "type": 3
+        },
+        {
             "number": 18,
             "url": "",
             "type": 5
         },
         {
-            "number": "18-1",
-            "type": 3
-        },
-        {
             "number": 19,
             "url": "",
-            "type": 5
+            "type": null
         },
         {
             "number": 20,
@@ -135,11 +135,6 @@
         },
         {
             "number": 22,
-            "url": "",
-            "type": null
-        },
-        {
-            "number": 23,
             "url": "",
             "type": null
         }

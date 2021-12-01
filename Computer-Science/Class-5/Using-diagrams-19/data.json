@@ -55,7 +55,11 @@
       {
         "number": 9,
         "url": "",
-        "type": 4
+        "type": 2
+      },
+      {
+        "number": "9-1",
+        "type": 3
       },
       {
         "number": 10,
@@ -87,16 +91,12 @@
       {
         "number": 13,
         "url": "",
-        "type": 2
-      },
-      {
-        "number": "13-1",
-        "type": 3
+        "type": 4
       },
       {
         "number": 14,
         "url": "",
-        "type": 4
+        "type": 5
       },
       {
         "number": 15,
@@ -111,7 +111,7 @@
       {
         "number": 17,
         "url": "",
-        "type": 5
+        "type": null
       },
       {
         "number": 18,
@@ -125,11 +125,6 @@
       },
       {
         "number": 20,
-        "url": "",
-        "type": null
-      },
-      {
-        "number": 21,
         "url": "",
         "type": null
       }

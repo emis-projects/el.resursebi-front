@@ -2,8 +2,8 @@
 <html data-botid="2288" lang="ka">
 
 <head>
-    <meta charset="UTF-8"/>
-    <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+    <meta charset="UTF-8" />
+    <meta content="ie=edge" http-equiv="X-UA-Compatible" />
     <!-- ყველა გვერდზე -->
     <script src="../../../js/vue.js"></script>
     <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
@@ -12,8 +12,8 @@
      -->
     <link href="../../../scss/libraries/bootstrap.min.css" rel="stylesheet">
     <link href="../../../New-header-vue/animate.min.css" rel="stylesheet">
-    <link href="../../../scss/new-style.css" rel="stylesheet"/>
-<link href="../../../scss/components_style.css" rel="stylesheet"/>
+    <link href="../../../scss/new-style.css" rel="stylesheet" />
+    <link href="../../../scss/components_style.css" rel="stylesheet" />
     <title>ელექტრონული საგანმანათლებლო რესურსი</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
@@ -31,107 +31,108 @@
 </head>
 
 <body>
-<div class="container">
-    <section class="container position-absolute" id="app">
-        <header>
-            <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../../'"></app-menu>
-        </header>
+    <div class="container">
+        <section class="container position-absolute" id="app">
+            <header>
+                <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../../'"></app-menu>
+            </header>
 
-        <app-section :is-active="isActive" v-image="'../../../'">
-            <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger"
-                     v-on:link-tab="link = $event">
+            <app-section :is-active="isActive" :is-info="isInfo" v-image="'../../../'">
+                <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger"
+                    v-on:link-tab="link = $event">
 
-            </app-bar>
-            <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive"
-                       :is-info="isInfo" :path="path" :tab-class="currentTabComponent" :trigger="trigger">
-            </component>
+                </app-bar>
+                <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive"
+                    :is-info="isInfo" :path="path" :tab-class="currentTabComponent" :trigger="trigger">
+                </component>
 
-        </app-section>
-    </section>
-    <section id="mainPage">
-        <div class="row">
-            <div class="col-10 m-auto">
-                <div class="newDesign_container_main_title-cont newDesign_container_main_title-cont-margin">
-                    <h1 class="newDesign_container_main_title">ხშირად გამოყენებული ფუნქციები MS Excel-ში</h1>
-                    <img alt="img" class="newDesign_container_main_title-img"
-                         src="../../../img/icons/comp_main_title_border.svg">
+            </app-section>
+        </section>
+        <section id="mainPage">
+            <div class="row">
+                <div class="col-11 m-auto">
+                    <div class="newDesign_container_main_title-cont newDesign_container_main_title-cont-margin">
+                        <h1 class="newDesign_container_main_title">ხშირად გამოყენებული ფუნქციები MS Excel-ში</h1>
+                        <img alt="img" class="newDesign_container_main_title-img" src="../../../img/icons/comp_main_title_border.svg">
+                    </div>
+                    <div class="newDesign_subject_question_item">
+                        <img alt="img" class="newDesign_subject_question_item-img"
+                            src="../../../img/icons/newDesign_btn-yellow.svg">
+                        <p class="newDesign_subject_question_item-title">
+                            ფორმულის გამოყენებით გამოთვალე ყველა მბეჭდავის მიერ დაბეჭდილი</br> გვერდების რაოდენობა;
+                        </p>
+                    </div>
+                    <div class="newDesign_subject_question_item">
+                        <img alt="img" class="newDesign_subject_question_item-img"
+                            src="../../../img/icons/newDesign_btn-yellow.svg">
+                        <p class="newDesign_subject_question_item-title">
+                            Max ფორმულის გამოყენებით იპოვე დაბეჭდილი გვერდების მაქსიმალური რაოდენობა;
+                        </p>
+                    </div>
+                    <div class="newDesign_subject_question_item">
+                        <img alt="img" class="newDesign_subject_question_item-img"
+                            src="../../../img/icons/newDesign_btn-yellow.svg">
+                        <p class="newDesign_subject_question_item-title">
+                            Min ფორმულის გამოყენებით იპოვე დაბეჭდილი გვერდების მინიმალური რაოდენობა;
+                        </p>
+                    </div>
+                    <div class="newDesign_subject_question_item">
+                        <img alt="img" class="newDesign_subject_question_item-img"
+                            src="../../../img/icons/newDesign_btn-yellow.svg">
+                        <p class="newDesign_subject_question_item-title">
+                            Average ფორმულის გამოყენებით იპოვე დაბეჭდილი გვერდების საშუალო რაოდენობა.
+                        </p>
+                    </div>
+                    <div class="newDesign_subject_question_item">
+                        <img alt="img" class="newDesign_subject_question_item-img"
+                            src="../../../img/icons/newDesign_btn-yellow.svg">
+                        <p class="newDesign_subject_question_item-title">
+                            ცხრილის უჯრები გააფერადე შენი სურვილის მიხედვით.
+                        </p>
+                    </div>
                 </div>
-                <div class="newDesign_subject_question_item">
-                    <img alt="img" class="newDesign_subject_question_item-img"
-                         src="../../../img/icons/newDesign_btn-yellow.svg">
-                    <p class="newDesign_subject_question_item-title">
-                        მბეჭდავებს დასაბეჭდი ჰქონდათ ტექსტები.
-                        <a href="18-1.html" class="a-blue">
-                            ცხრილში
-                        </a>
-                        მოცემულია, რამდენი დღე მუშაობდა თითოეული მათგანი და დღეში რამდენ გვერდს ბეჭდავდა.
-                    </p>
-                </div>
-                <div class="newDesign_subject_question_item">
-                    <img alt="img" class="newDesign_subject_question_item-img"
-                         src="../../../img/icons/newDesign_btn-yellow.svg">
-                    <p class="newDesign_subject_question_item-title">
-                        ააგე ცხრილი მოცემული ნიმუშის მსგავსად და შეავსე ინფორმაციით.
-                    </p>
-                </div>
-                <div class="newDesign_subject_question_item">
-                    <img alt="img" class="newDesign_subject_question_item-img"
-                         src="../../../img/icons/newDesign_btn-yellow.svg">
-                    <p class="newDesign_subject_question_item-title">
-                        სვეტში, სახელად “სულ”, ჩაწერე ფორმულა, რომელიც გამოითვლის, ჯამში რა რაოდენობის გვერდი დაბეჭდა თითოეულმა.
-                    </p>
-                </div>
-                <div class="newDesign_subject_question_item">
-                    <img alt="img" class="newDesign_subject_question_item-img"
-                         src="../../../img/icons/newDesign_btn-yellow.svg">
-                    <p class="newDesign_subject_question_item-title">
-                        ფორმულის გამოყენებით გამოთვალე ყველა მბეჭდავის მიერ დაბეჭდილი გვერდების რაოდენობა.
-                    </p>
+                <div class="cs-5-21-div cs-5-21-div-19-img">
+                    <img alt=""
+                        src="../../../img/gakvetilebi/Computer-Science/Class-5/function-in-Exel-21/cs-5-21-19-img.svg">
                 </div>
             </div>
-            <div class="col-9 m-auto class_5_21-img_18 d-flex justify-content-center">
-                <img src="../../../img/gakvetilebi/Computer-Science/Class-5/function-in-Exel-21/C-5-21-18.svg" alt="image">
+
+            <div class="left_components_paging-cont" id="leftNav">
+                <left-nav-item></left-nav-item>
             </div>
-        </div>
 
-        <!-- ეს არის svg თეგირომელიც ქმნის მარცხენა ვერტიკალურ "ნავ რუკას" -->
-        <div class="left_components_paging-cont" id="leftNav">
-            <left-nav-item></left-nav-item>
-        </div>
+            <div class="our__pagination flex">
+                <a class="pagination__prev__btn" href="#">
+                    <img alt="" src="../../../img/icons/chevron-left-icon.svg" style="transform: rotate(180deg)">
+                </a>
 
-        <div class="our__pagination flex">
-            <a class="pagination__prev__btn" href="#">
-                <img alt="" src="../../../img/icons/chevron-left-icon.svg" style="transform: rotate(180deg)">
-            </a>
+                <div class="flex align-items-center" id="pagination"></div>
 
-            <div class="flex align-items-center" id="pagination"></div>
+                <a class="pagination__next__btn" href="#">
+                    <img alt="" src="../../../img/icons/chevron-left-icon.svg">
+                </a>
+            </div>
 
-            <a class="pagination__next__btn" href="#">
-                <img alt="" src="../../../img/icons/chevron-left-icon.svg">
-            </a>
-        </div>
-
-    </section>
-</div>
+        </section>
+    </div>
 
 
-<!-- ჩეთბოტი -->
-<div id="chatBot">
-    <app-bot></app-bot>
-</div>
+    <!-- ჩეთბოტი -->
+    <div id="chatBot">
+        <app-bot></app-bot>
+    </div>
 
-<script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
+    <script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
 <script src="../../../js/detectdevice.js"></script>
-<script src="../../../js/libraries/jquery.magnific-popup.min.js"></script>
-<script src="../../../js/Pagination.js"></script>
+    <script src="../../../js/libraries/jquery.magnific-popup.min.js"></script>
+    <script src="../../../js/Pagination.js"></script>
 
 
-<!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
 <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
     <script src="../../../New-header-vue/vis.js"></script>
     <script src="../../../New-header-vue/app.js"></script>
-<script src="../../../Vue-chatBot/botApp.js"></script>
-<script src="../../../js/bot.js"></script>
+    <script src="../../../Vue-chatBot/botApp.js"></script>
+    <script src="../../../js/bot.js"></script>
 
 
 </body>

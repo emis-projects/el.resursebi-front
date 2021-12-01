@@ -153,15 +153,14 @@
 
 .cs-3-10-16-instruct-btn{
     cursor:pointer;
-    width: 16vh;
-    height:6vh;
+    padding: 12px 15px;
     background-color: #ffe4e1;
     border-radius: 50px;
      display: flex;
     align-items : center;
     justify-content: center;
     position:absolute;
-    right:25vh;
+    right:20vh;
 
 }
 
@@ -172,24 +171,29 @@
          font-size: 14px;
          line-height: 14px;
          color:#CC3657;
-         padding: 1vh;
+         padding-left:10px;
              
 }
-.cs-3-10-16-instruct-text-div{
-    width:52vh;
-    height: 23vh;
+.cs-3-10-16-instruct-text-div{  
     background-color: #FFFFFF;
     display: flex;
     align-items : center;
     justify-content: center;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    border-radius: 50px;
+    box-shadow: #E4B3CC, 0px 7px 29px 0px;
+    border-radius: 30px;
     display: none;
     position:absolute;
     right:25vh;
     top:20vh;
     z-index: 99;
+    
 }
+
+.cs-3-10-16-instruct-text-div-padding{
+   padding: 20px 25px; 
+}
+
+
 .cs-3-10-16-instruct-text{
     font-family: DejaVu Sans;
     font-style: normal;

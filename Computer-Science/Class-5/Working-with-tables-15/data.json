@@ -76,7 +76,7 @@
         {
             "number": 14,
             "url": "",
-            "type": 4
+            "type": 2
         },
         {
             "number": 15,
@@ -86,22 +86,22 @@
         {
             "number": 16,
             "url": "",
-            "type": 2
+            "type": 4
         },
         {
             "number": 17,
             "url": "",
-            "type": 4
+            "type": 2
         },
         {
             "number": 18,
             "url": "",
-            "type": 2
+            "type": 4
         },
         {
             "number": 19,
             "url": "",
-            "type": 4
+            "type": 5
         },
         {
             "number": 20,
@@ -111,7 +111,7 @@
         {
             "number": 21,
             "url": "",
-            "type": 5
+            "type": null
         },
         {
             "number": 22,
@@ -125,11 +125,6 @@
         },
         {
             "number": 24,
-            "url": "",
-            "type": null
-        },
-        {
-            "number": 25,
             "url": "",
             "type": null
         }

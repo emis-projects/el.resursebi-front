@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html data-botid="2288" lang="ka">
+<!-- ბოტის აიდიში ვუთითებთ: ხელოვნების - 2318, ბუნების - 2320, მუსიკის - 2292 -->
+<html data-botid="2320" lang="ka">
 
 <head>
     <meta charset="UTF-8"/>
@@ -8,10 +9,10 @@
     <script src="../../../js/vue.js"></script>
     <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
     <!--  ვუე გაშვებისას
-    <script src="./js/vue.min.js"></script>
-     -->
-    <link href="../../../scss/libraries/bootstrap.min.css" rel="stylesheet">
+        <script src="./js/vue.min.js"></script>
+         -->
     <link href="../../../New-header-vue/animate.min.css" rel="stylesheet">
+    <link href="../../../scss/libraries/bootstrap.min.css" rel="stylesheet">
     <link href="../../../scss/new-style.css" rel="stylesheet"/>
 <link href="../../../scss/components_style.css" rel="stylesheet"/>
     <title>ელექტრონული საგანმანათლებლო რესურსი</title>
@@ -43,45 +44,38 @@
 
             </app-bar>
             <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive"
-                       :is-info="isInfo" :path="path" :tab-class="currentTabComponent"
-                       :trigger="trigger">
+                       :is-info="isInfo"
+                       :path="path" :tab-class="currentTabComponent" :trigger="trigger">
             </component>
 
         </app-section>
     </section>
+
+
     <section id="mainPage">
-        <div class="row">
-            <div class="col-10 m-auto">
-                <div class="newDesign_subject_question_item">
-                    <img alt="img" class="newDesign_subject_question_item-img"
-                         src="../../../img/icons/newDesign_btn-yellow.svg">
-                    <p class="newDesign_subject_question_item-title"> ფილტრის ღილაკით შესაძლებელია დიაგრამაში ჩვენთვის
-                        სასურველი მონაცემები სხვებთან შედარებით გააქტიურებული ფერით გამოვაჩინოთ.</p>
-                </div>
-                <div class="newDesign_subject_question_item mt-5vh">
-                    <img alt="img" class="newDesign_subject_question_item-img"
-                         src="../../../img/icons/newDesign_btn-yellow.svg">
-                    <p class="newDesign_subject_question_item-title">
-                        <span class="d-inline-block mr-2 diagram_page-21-box">
-                            <img alt="diagram"
-                                 src="../../../img/gakvetilebi/Computer-Science/Class-5/diagram-in-electronic-table-18/cs-5-18-21_1.svg">
-                        </span> Apply ღილაკზე დაწკაპების შემდეგ ცხრილში დარჩება ჩვენ მიერ მონიშნული მონაცემები,
-                        დანარჩენები კი აღარ გამოჩნდება.</p>
-                </div>
-            </div>
-            <div class="col-11 m-auto d-flex justify-content-center">
-                <div class="diagram_page-20 mt-4vh">
-                    <img alt=""
-                         src="../../../img/gakvetilebi/Computer-Science/Class-5/diagram-in-electronic-table-18/cs-5-18-21.png">
-
-                </div>
-            </div>
-        </div>
-
         <div class="left_components_paging-cont" id="leftNav">
             <left-nav-item></left-nav-item>
         </div>
-
+        <div class="row ">
+            <div class="col-9 m-auto">
+                <div class="newDesign_subject_question_item d-flex  mt-5vh">
+                    <img alt="img" class="newDesign_subject_question_item-img"
+                         src="../../../img/icons/newDesign_btn-yellow.svg">
+                    <p class="newDesign_subject_question_item-title big-font-size-20px-dejavu">
+                        ყველაზე მეტი რამდენი მონაცემი დაამატე დიაგრამაზე?</p>
+                </div>
+                <div class="newDesign_subject_question_item d-flex  mt-5vh">
+                    <img alt="img" class="newDesign_subject_question_item-img"
+                         src="../../../img/icons/newDesign_btn-yellow.svg">
+                    <p class="newDesign_subject_question_item-title big-font-size-20px-dejavu">
+                        შენი აზრით რა უპირატესობები და რა ნაკლი აქვს დიაგრამას დიდ ცხრილებთან შედარებით?</p>
+                </div>
+            </div>   
+        </div>
+            <div class=" cs-5-18-div cs-5-18-div-22-img mt-5vh">
+                <img alt="diagram"
+                     src="../../../img/gakvetilebi/Computer-Science/Class-5/diagram-in-electronic-table-18/cs-5-18-22-img.svg">
+            </div>
         <div class="our__pagination flex">
             <a class="pagination__prev__btn" href="#">
                 <img alt="" src="../../../img/icons/chevron-left-icon.svg" style="transform: rotate(180deg)">
@@ -115,8 +109,6 @@
     <script src="../../../New-header-vue/app.js"></script>
 <script src="../../../Vue-chatBot/botApp.js"></script>
 <script src="../../../js/bot.js"></script>
-
-
 </body>
 
 </html>
