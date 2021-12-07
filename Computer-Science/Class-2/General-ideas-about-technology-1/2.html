@@ -24,7 +24,6 @@
             dataLayer.push(arguments);
         }
 
-        2
         gtag('js', new Date());
 
         gtag('config', 'UA-155006442-1');
@@ -38,37 +37,54 @@
                 <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../../'"></app-menu>
             </header>
 
-            <app-section :is-active="isActive" v-image="'../../../'">
-                <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger" v-on:link-tab="link = $event">
+            <app-section :is-active="isActive" :is-info="isInfo" v-image="'../../../'">
+                <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger"
+                    v-on:link-tab="link = $event">
 
                 </app-bar>
-                <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive" :is-info="isInfo" :path="path" :tab-class="currentTabComponent" :trigger="trigger">
+                <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive"
+                    :is-info="isInfo" :path="path" :tab-class="currentTabComponent" :trigger="trigger">
                 </component>
 
             </app-section>
         </section>
         <section id="mainPage">
-            <div class="row mt-5vh">
-                <div class="col-9 m-auto flex_direction_left">
-                    <div class="newDesign_subject_question_item">
-                        <img alt="img" class="newDesign_subject_question_item-img" src="../../../img/icons/newDesign_btn-yellow.svg">
-                        <p class="newDesign_subject_question_item-title Class_2-title_item_2 big-font-size-20px-dejavu">
-                            როგორ ფიქრობ რაში შეგიძლია გამოიყენო მიღებული ცოდნა?
+            <div class="row">
+                <div class="col-9 m-auto">
+                    <div class="newDesign_container_main_title-cont newDesign_container_main_title-cont-margin">
+                        <h1 class="newDesign_container_main_title">ზოგადი წარმოდგენები ტექნოლოგიებზე</h1>
+                        <img alt="img" class="newDesign_container_main_title-img"
+                            src="../../../img/icons/comp_main_title_border.svg">
+                    </div>
+                    <div class="newDesign_subject_question_item mt-5vh">
+                        <img alt="img" class="newDesign_subject_question_item-img"
+                            src="../../../img/icons/newDesign_btn-yellow.svg">
+                        <p class="newDesign_subject_question_item-title">
+                            ამ გაკვეთილზე შენი დავალება იქნება დახატო შენ გარშემო არსებული კომუნიკაციისათვის გამოყენებული მოწყიბილობები და დაასახელო მათ ფუნქციები
                         </p>
+                    </div>
+                    <div class="newDesign_subject_question_item mt-5vh">
+                        <img alt="img" class="newDesign_subject_question_item-img"
+                            src="../../../img/icons/newDesign_btn-yellow.svg">
+                        <p class="newDesign_subject_question_item-title">
+                            მანამდე მოგიწევს ორი ნაბიჯის გავლა რათა უკეთ შეძლო დავალების შესრულება
+                        </p>
+                    </div>
                 </div>
-                <div class="newDesign_subject_question_item ">
-                    <img alt="img" class="newDesign_subject_question_item-img" src="../../../img/icons/newDesign_btn-yellow.svg">
-                    <p class="newDesign_subject_question_item-title Class_2-title_item_2 big-font-size-20px-dejavu">
-                        ოფიციალური დოკუმენტების მომზადებისას შენი აზრით ცხრილში ტექსტის WordArt ფუნქციის გამოყენებისას რაიმე წესები ხომ არ უნდა დაიცვა?
-                    </p>
             </div>
-    </div>
-                <div class="col-11 d-flex justify-content-end cs-5-27-div cs-5-27-div-13-img ">
-                    <img alt="img" 
-                    src="../../../img/gakvetilebi/Computer-Science/Class-5/Decorate-electronic-table-27/cs-5-27-13.svg">
-                </div> 
+            <div class="row">
+                <div class="col-3 m-auto">
+                    <div class="newDesign_steps_cont mt-15vh">
+                        <a class="newDesign_steps_item" href="3.html">
+                            <img alt="img" class="newDesign_steps_item-img" src="../../../img/icons/step_item.svg">
+                        </a>
+                        <a class="newDesign_steps_item" href="11.html">
+                            <img alt="img" class="newDesign_steps_item-img" src="../../../img/icons/step_item.svg">
+                        </a>
+                    </div>
+                </div>
             </div>
-                
+
             <div class="left_components_paging-cont" id="leftNav">
                 <left-nav-item></left-nav-item>
             </div>

@@ -4,14 +4,12 @@
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <!-- ყველა გვერდზე -->
-    <script src="../../../js/vue.js"></script>
+    <link rel="stylesheet" href="//cdn.web-fonts.ge/fonts/alk-sanet/css/alk-sanet.min.css" />
     <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
-    <!--  ვუე გაშვებისას
-    <script src="./js/vue.min.js"></script>
-     -->
-    <link rel="stylesheet" href="../../../scss/libraries/bootstrap.min.css">
+    <script src="../../../js/vue.js"></script>
     <link rel="stylesheet" href="../../../New-header-vue/animate.min.css">
+    <link rel="stylesheet" href="../../../scss/libraries/magnific-popup.css">
+    <link rel="stylesheet" href="../../../scss/libraries/bootstrap.min.css" />
     <link rel="stylesheet" href="../../../scss/new-style.css" />
     <title>ელექტრონული საგანმანათლებლო რესურსი</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -28,14 +26,14 @@
     </script>
 </head>
 
-<body>
+<body class="background-cs-5-25-20 background-cs-5-25">
     <div class="container">
         <section id="app" class="container position-absolute">
             <header>
                 <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../../'"></app-menu>
             </header>
 
-            <app-section :is-active="isActive" :is-info="isInfo" v-image="'../../../'">
+            <app-section :is-active="isActive" v-image="'../../../'">
                 <app-bar :is-active="isActive" :trigger="trigger" :dots="dots" :current-tab="link"
                          v-on:link-tab="link = $event">
 
@@ -49,32 +47,14 @@
         </section>
         <section id="mainPage">
             <div class="row">
-                <div class="col-10 m-auto">
-                    <div class="newDesign_subject_question_item mt-5vh">
-                        <img src="../../../img/icons/newDesign_btn-yellow.svg" alt="img"
-                            class="newDesign_subject_question_item-img">
-                        <p class="newDesign_subject_question_item-title">
-                            რადგან ვირუსები პროგრამებს წარმოადგენენ, შენი აზრით იკავებენ თუ არა ისინი ადგილს ჩვენი კომპიუტერის მეხიერებაზე?
-                        </p>
-                    </div>
-                    <div class="newDesign_subject_question_item mt-5vh">
-                        <img src="../../../img/icons/newDesign_btn-yellow.svg" alt="img"
-                            class="newDesign_subject_question_item-img">
-                        <p class="newDesign_subject_question_item-title">
-                            როგორ ფიქრობ ინტერნეტის გარდა სხვა რა გზით არის შესაძლებელი ვირუსების ერთიდან მეორე კომპიუტერზე გადატანა?
-                        </p>
+                <div class="col-8 m-auto">
+                    <div class="background-cs-title-purple-cont">
+                        <h1 class="background-cs-title-purple">
+                            რა გაიგე ახალი ი.ს.ტ. საგნის შესახებ?
+                        </h1>
                     </div>
                 </div>
-                <div class="col-12 m-auto d-flex justify-content-end">
-                    <img src="../../../img/gakvetilebi/Computer-Science/Class-5/Protect-your-data-24/cs-5-24-11.svg"
-                    alt="img" class="cs-5-24-11-img">
-                </div>
             </div>
-
-            <div class="left_components_paging-cont" id="leftNav">
-                <left-nav-item></left-nav-item>
-            </div>
-
             <div class="our__pagination flex">
                 <a href="#" class="pagination__prev__btn">
                     <img style="transform: rotate(180deg)" src="../../../img/icons/chevron-left-icon.svg" alt="">
@@ -86,11 +66,8 @@
                     <img src="../../../img/icons/chevron-left-icon.svg" alt="">
                 </a>
             </div>
-
         </section>
     </div>
-
-
     <!-- ჩეთბოტი -->
     <div id="chatBot">
         <app-bot></app-bot>
@@ -107,8 +84,6 @@
     <script src="../../../New-header-vue/app.js"></script>
     <script src="../../../Vue-chatBot/botApp.js"></script>
     <script src="../../../js/bot.js"></script>
-
-
 </body>
 
 </html>

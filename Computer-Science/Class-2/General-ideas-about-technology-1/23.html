@@ -4,16 +4,13 @@
 <head>
     <meta charset="UTF-8"/>
     <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
-    <!-- ყველა გვერდზე -->
-    <script src="../../../js/vue.js"></script>
+    <link href="//cdn.web-fonts.ge/fonts/alk-sanet/css/alk-sanet.min.css" rel="stylesheet"/>
     <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
-    <!--  ვუე გაშვებისას
-    <script src="./js/vue.min.js"></script>
-     -->
-    <link href="../../../scss/libraries/bootstrap.min.css" rel="stylesheet">
+    <script src="../../../js/vue.js"></script>
     <link href="../../../New-header-vue/animate.min.css" rel="stylesheet">
+    <link href="../../../scss/libraries/magnific-popup.css" rel="stylesheet">
+    <link href="../../../scss/libraries/bootstrap.min.css" rel="stylesheet"/>
     <link href="../../../scss/new-style.css" rel="stylesheet"/>
-<link href="../../../scss/components_style.css" rel="stylesheet"/>
     <title>ელექტრონული საგანმანათლებლო რესურსი</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
@@ -30,53 +27,34 @@
     </script>
 </head>
 
-<body>
+<body class="background-cs-5-25-21 background-cs-5-25">
 <div class="container">
     <section class="container position-absolute" id="app">
         <header>
             <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../../'"></app-menu>
         </header>
 
-        <app-section :is-active="isActive" v-image="'../../../'">
+        <app-section :is-active="isActive" :is-info="isInfo" v-image="'../../../'">
             <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger"
                      v-on:link-tab="link = $event">
 
             </app-bar>
             <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive"
-                       :is-info="isInfo" :path="path" :tab-class="currentTabComponent" :trigger="trigger">
+                       :is-info="isInfo" :path="path" :tab-class="currentTabComponent"
+                       :trigger="trigger">
             </component>
 
         </app-section>
     </section>
     <section id="mainPage">
-        <div class="row mt-3vh">
+        <div class="row">
             <div class="col-8 m-auto">
-                <div class="newDesign_subject_question_item mb-5vh">
-                    <img alt="img" class="newDesign_subject_question_item-img"
-                         src="../../../img/icons/newDesign_btn-yellow.svg">
-                    <p class="newDesign_subject_question_item-title big-font-size-20px-dejavu">
-                        როგორ ფიქრობ რის მიხედვით არჩევს ანტივირუსი ჩვეულებრივ პროგრამას ვირუსისაგან?</p>
-                </div>
-                <div class="newDesign_subject_question_item mb-5vh">
-                    <img alt="img" class="newDesign_subject_question_item-img"
-                         src="../../../img/icons/newDesign_btn-yellow.svg">
-                    <p class="newDesign_subject_question_item-title big-font-size-20px-dejavu">
-                        შენი აზრით რა ძირითადი განსხვავებაბია ვირესებსა და ჩვეულებრივ პროგრამებს შორის?</p>
-                </div>
-            </div>
-            <div class="col-12">
-                <div class="protect-data_page-20 d-flex justify-content-center">
-                    <img src="../../../img/gakvetilebi/Computer-Science/Class-5/Protect-your-data-24/cs-5-24-20.svg"
-                         alt="img" class="programing">
+                <div class="background-cs-title-purple-cont">
+                    <h1 class="background-cs-title-purple">დაგეხმარა მინიშნებები ინფორმაციისა და კომუნიკაციის აზრის გაგებაში?
+                    </h1>
                 </div>
             </div>
         </div>
-
-        <!-- ეს არის svg თეგირომელიც ქმნის მარცხენა ვერტიკალურ "ნავ რუკას" -->
-        <div class="left_components_paging-cont" id="leftNav">
-            <left-nav-item></left-nav-item>
-        </div>
-
         <div class="our__pagination flex">
             <a class="pagination__prev__btn" href="#">
                 <img alt="" src="../../../img/icons/chevron-left-icon.svg" style="transform: rotate(180deg)">
@@ -88,7 +66,6 @@
                 <img alt="" src="../../../img/icons/chevron-left-icon.svg">
             </a>
         </div>
-
     </section>
 </div>
 
@@ -110,8 +87,6 @@
     <script src="../../../New-header-vue/app.js"></script>
 <script src="../../../Vue-chatBot/botApp.js"></script>
 <script src="../../../js/bot.js"></script>
-
-
 </body>
 
 </html>
