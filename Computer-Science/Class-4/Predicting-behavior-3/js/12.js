@@ -81,50 +81,31 @@ function computerGames() {
 
     }
 
+    var count = 0;
 
 
     this.successPage = () => {
         this.errorPage();
-        if(count == 20){
+        if(count == 21){
             location.href = 'game-success-12.html';
         }
 
     }
 
-    var count = 0;
+    
     this.errorPage = () => {
         myDragArray.forEach(element => {
             if(element.children[0]){
-                if((element.children[0].getAttribute('data-same') == 1 && element.children[0].getAttribute('data-place') == element.getAttribute('data-place'))
-                    && !element.children[1]){
-                    element.parentElement.classList.add('success');
+                if(element.children[0].getAttribute('data-place') === element.getAttribute('data-place')){
                     count++;
-                }
-                else{
-                    element.parentElement.classList.add('error')
-                }
-            }
-            if(element.children[1]){
-                if(element.getAttribute('data-place1') == element.children[0].getAttribute('data-place1')
-                    && element.getAttribute('data-place1') == element.children[1].getAttribute('data-place1')
-                    && element.getAttribute('data-place1') == 2){
-                        element.parentElement.classList.add('success');
-                        count++;
-                }
-                if(element.getAttribute('data-place2') == element.children[0].getAttribute('data-place2')
-                    && element.getAttribute('data-place2') == element.children[1].getAttribute('data-place2')
-                    && element.getAttribute('data-place2') == 2){
-                        element.parentElement.classList.add('success')
-                        count++;
-                }
-                if(element.getAttribute('data-place3') == element.children[0].getAttribute('data-place3')
-                    && element.getAttribute('data-place3') == element.children[1].getAttribute('data-place3')
-                    && element.getAttribute('data-place3') == 2){
-                        element.parentElement.classList.add('success')
-                        count++;
+                    element.classList.add('success');
+                } else {
+                    element.classList.add('error')
                 }
             }
+            
         });
+        console.log(count)
     }
 
     this.completGame = () => {
