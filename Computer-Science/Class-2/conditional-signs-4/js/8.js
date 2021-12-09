@@ -131,11 +131,8 @@ function game(){
             } else if(loc == "/Computer-Science/Class-2/conditional-signs-4/17.html" || loc == "/el.resursebi-front/Computer-Science/Class-2/marks-2/conditional-signs-4/17.html"){
                 location.href = "game-success-17.html"
 
-            }  else if(loc == "/Computer-Science/Class-2/marks-2/conditional-signs-4/22.html" || loc == "/el.resursebi-front/Computer-Science/Class-2/marks-2/conditional-signs-4/22.html"){
-                location.href = "game-success-22.html"
-
-
-        } else {
+            } 
+            else {
 
             this.errorPage()
         }
