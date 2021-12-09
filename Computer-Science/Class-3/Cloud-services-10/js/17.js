@@ -103,7 +103,7 @@ function computerGames() {
     this.successPage = () => {
         this.errorPage();
         if(count == 12){
-            location.href = 'game-success-16.html';
+            location.href = 'game-success-17.html';
         }
 
     }

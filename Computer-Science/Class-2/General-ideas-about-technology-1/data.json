@@ -2,7 +2,7 @@
     "lesson_id": 112,
     "lesson_name": "General-ideas-about-technology-1",
     "subject": "computer-science",
-    "pages_number": 27,
+    "pages_number": 25,
     "pages": [
         {
             "number": 1,
@@ -117,7 +117,7 @@
         {
             "number": 19,
             "url": "",
-            "type": 4
+            "type": 5
         },
         {
             "number": 20,
