@@ -2,7 +2,7 @@
     "lesson_id": 7,
     "lesson_name": "Visual-programing-7",
     "subject": "computer-science",
-    "pages_number": 22,
+    "pages_number": 21,
     "pages": [
         {
             "number": 1,
@@ -97,7 +97,7 @@
         {
             "number": 18,
             "url": "",
-            "type": 5
+            "type": null
         },
         {
             "number": 19,
@@ -111,11 +111,6 @@
         },
         {
             "number": 21,
-            "url": "",
-            "type": null
-        },
-        {
-            "number": 22,
             "url": "",
             "type": null
         }
