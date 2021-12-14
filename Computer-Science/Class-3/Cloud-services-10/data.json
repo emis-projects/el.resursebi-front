@@ -2,7 +2,7 @@
     "lesson_id": 10,
     "lesson_name": "Cloud-services-10",
     "subject": "computer-science",
-    "pages_number": 27,
+    "pages_number": 24,
     "pages": [
         {
             "number": 1,
@@ -122,36 +122,21 @@
         {
             "number": 21,
             "url": "",
-            "type": 5
-        },
-        {
-            "number": 22,
-            "url": "",
-            "type": 5
-        },
-        {
-            "number": 23,
-            "url": "",
-            "type": 5
-        },
-        {
-            "number": 24,
-            "url": "",
             "type": null
         },
         {
-            "number": 25,
+            "number": 22,
             "url": "",
             "type": null
         }
         ,
         {
-            "number": 26,
+            "number": 23,
             "url": "",
             "type": null
         },
         {
-            "number": 27,
+            "number": 24,
             "url": "",
             "type": null
         }

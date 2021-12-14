@@ -4,12 +4,14 @@
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="//cdn.web-fonts.ge/fonts/alk-sanet/css/alk-sanet.min.css" />
-    <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+    <!-- ყველა გვერდზე -->
     <script src="../../../js/vue.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+    <!--  ვუე გაშვებისას
+    <script src="./js/vue.min.js"></script>
+     -->
+    <link rel="stylesheet" href="../../../scss/libraries/bootstrap.min.css">
     <link rel="stylesheet" href="../../../New-header-vue/animate.min.css">
-    <link rel="stylesheet" href="../../../scss/libraries/magnific-popup.css">
-    <link rel="stylesheet" href="../../../scss/libraries/bootstrap.min.css" />
     <link rel="stylesheet" href="../../../scss/new-style.css" />
     <title>ელექტრონული საგანმანათლებლო რესურსი</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -26,14 +28,14 @@
     </script>
 </head>
 
-<body class="background-cs-3-2-19 background-cs-3-2">
+<body>
     <div class="container">
         <section id="app" class="container position-absolute">
             <header>
                 <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../../'"></app-menu>
             </header>
 
-            <app-section :is-active="isActive" v-image="'../../../'">
+            <app-section :is-active="isActive" :is-info="isInfo" v-image="'../../../'">
                 <app-bar :is-active="isActive" :trigger="trigger" :dots="dots" :current-tab="link"
                          v-on:link-tab="link = $event">
 
@@ -47,12 +49,61 @@
         </section>
         <section id="mainPage">
             <div class="row">
-                <div class="col-8 m-auto">
-                    <div class="background-cs-title-purple-cont">
-                        <h1 class="background-cs-title-purple">რა გაიგე ახალი კომპუტერის მოწყობილობების შესახებ?</h1>
+                <div class="col-12 m-auto">
+                    <div class="newDesign_container_main_title-cont newDesign_container_main_title-cont-margin">
+                        <h1 class="newDesign_container_main_title">კომპიუტერის დამატებითი და ძირითადი მოწყობილობები</h1>
+                        <img src="../../../img/icons/comp_main_title_border.svg" alt="img"
+                            class="newDesign_container_main_title-img">
                     </div>
+                    <div class="newDesign_subject_question_item">
+                        <p class="newDesign_subject_question_item-title">
+                            შესრულებულ დავალებაში ნათლად უნდა ჩანდეს :
+                        </p>
+                    </div>
+                    <div class="newDesign_subject_question_item">
+                        <img src="../../../img/icons/newDesign_btn-yellow.svg" alt="img"
+                            class="newDesign_subject_question_item-img">
+                        <p class="newDesign_subject_question_item-title">
+                            რამდენად შეძელი დამატებითი მოწყობილობის გამოყენება ინფორმაციის გადასატანად;
+                        </p>
+                    </div>
+                    <div class="newDesign_subject_question_item">
+                        <img src="../../../img/icons/newDesign_btn-yellow.svg" alt="img"
+                            class="newDesign_subject_question_item-img">
+                        <p class="newDesign_subject_question_item-title">
+                            როგორ შექმენი სხვადასხვა ტიპის ფაილი;
+                        </p>
+                    </div>
+                    <div class="newDesign_subject_question_item">
+                        <img src="../../../img/icons/newDesign_btn-yellow.svg" alt="img"
+                            class="newDesign_subject_question_item-img">
+                        <p class="newDesign_subject_question_item-title">
+                            როგორ შეძელი ინფორმაციის ერთ საქაღლდეში თავმოყრა/შეკუმშვა.
+                        </p>
+                    </div>
+                    <div class="newDesign_subject_question_item">
+                        <img src="../../../img/icons/newDesign_btn-yellow.svg" alt="img"
+                            class="newDesign_subject_question_item-img">
+                        <p class="newDesign_subject_question_item-title">
+                            რომელი ხერხის გამოყენებით გადაიტანე ინფორმაცია დამატებით მოყობილობაზე.
+                        </p>
+                    </div>
+                    <div class="newDesign_subject_question_item">
+                        <img src="../../../img/icons/newDesign_btn-yellow.svg" alt="img"
+                            class="newDesign_subject_question_item-img">
+                        <p class="newDesign_subject_question_item-title">
+                            რამდენად გაითვალისწინე უსაფრთხოების წესები,
+                            ფლეშ მეხსიერების გამოყენებისას.                            
+                        </p>
+                    </div>
+                    <img src="../../../img/gakvetilebi/Computer-Science/Class-3/computer-equipment-2/cs-3-2-18.svg" alt="img" class="cs-3-2-18-img">
                 </div>
             </div>
+
+            <div class="left_components_paging-cont" id="leftNav">
+                <left-nav-item></left-nav-item>
+            </div>
+
             <div class="our__pagination flex">
                 <a href="#" class="pagination__prev__btn">
                     <img style="transform: rotate(180deg)" src="../../../img/icons/chevron-left-icon.svg" alt="">
@@ -64,8 +115,11 @@
                     <img src="../../../img/icons/chevron-left-icon.svg" alt="">
                 </a>
             </div>
+
         </section>
     </div>
+
+
     <!-- ჩეთბოტი -->
     <div id="chatBot">
         <app-bot></app-bot>
@@ -82,6 +136,8 @@
     <script src="../../../New-header-vue/app.js"></script>
     <script src="../../../Vue-chatBot/botApp.js"></script>
     <script src="../../../js/bot.js"></script>
+
+
 </body>
 
 </html>
