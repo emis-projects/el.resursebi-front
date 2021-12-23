@@ -1,9 +1,8 @@
-<!DOCTYPE html>
-<html data-botid="2288" lang="ka">
+<html data-botid="" lang="ka">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta content="ie=edge" http-equiv="X-UA-Compatible" />
+    <meta charset="UTF-8"/>
+    <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
     <!-- ყველა გვერდზე -->
     <script src="../../../js/vue.js"></script>
     <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
@@ -12,8 +11,7 @@
      -->
     <link href="../../../scss/libraries/bootstrap.min.css" rel="stylesheet">
     <link href="../../../New-header-vue/animate.min.css" rel="stylesheet">
-    <link href="../../../scss/new-style.css" rel="stylesheet" />
-    <link href="../../../scss/components_style.css" rel="stylesheet" />
+    <link href="../../../scss/new-style.css" rel="stylesheet"/>
     <title>ელექტრონული საგანმანათლებლო რესურსი</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
@@ -31,77 +29,90 @@
 </head>
 
 <body>
-    <div class="container">
-        <section class="container position-absolute" id="app">
-            <header>
-                <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../../'"></app-menu>
-            </header>
+<div class="container">
+    <section class="container position-absolute" id="app">
+        <header>
+            <app-menu :info="info" :is-active="isActive" :toggle="toggle"
+                      v-logo="'../../../'"></app-menu>
+        </header>
 
-            <app-section :is-active="isActive" :is-info="isInfo" v-image="'../../../'">
-                <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger"
-                    v-on:link-tab="link = $event">
+        <app-section :is-active="isActive" :is-info="isInfo" v-image="'../../../'">
+            <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger"
+                     v-on:link-tab="link = $event">
 
-                </app-bar>
-                <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive"
-                    :is-info="isInfo" :path="path" :tab-class="currentTabComponent" :trigger="trigger">
-                </component>
+            </app-bar>
+            <component :active-class="activeClass" :images="images" :is="currentTabComponent"
+                       :is-active="isActive"
+                       :is-info="isInfo" :path="path" :tab-class="currentTabComponent"
+                       :trigger="trigger">
+            </component>
 
-            </app-section>
-        </section>
-        <section id="mainPage">
-            <div class="row mt-5vh">
-                <div class="col-11 m-auto">
-                    <div class="newDesign_subject_question_item">
-                        <img alt="img" class="newDesign_subject_question_item-img"
-                            src="../../../img/icons/newDesign_btn-yellow.svg">
-                        <p class="newDesign_subject_question_item-title">
-                            შენ გაეცანი მომხმარებლის გრაფიკულ ინტერფეისს. ამ ნაბიჯზე დაიწყებ მზადებას საკუთარი
-                             ინტერფეისის შესაქმენლად. გაიგებ, როგორ მოვარგოთ კომპიუტერის ან პროგრამის
-                              ინტერფეისი <a class="a-blue" href="10-1.html">მომხმარებელს.</a>
-                        </p>
-                    </div>
-                </div> 
-            </div>
-                <div class="col-11 d-flex justify-content-end cs-4-5-div cs-4-5-div-10-img ">
-                    <img alt=""
-                        src="../../../img/gakvetilebi/Computer-Science/Class-4/UI-5/cs-4-5-10-img.svg">
+        </app-section>
+    </section>
+    <section id="mainPage">
+        <div class="row ui_page-6">
+            <div class="col-10 m-auto">
+                <div class="newDesign_subject_question_item">
+                    <img alt="img" class="newDesign_subject_question_item-img"
+                         src="../../../img/icons/newDesign_btn-yellow.svg">
+                    <p class="newDesign_subject_question_item-title">
+                        წარმოიდგინე კომპიუტერი გრაფიკული იტერფეისის გარეშე.
+                        როგორ ფიქრობ, ამ შემთხვევაში შეუძლია მომხმარებელს კომპიუტერის გამოყენება?</p>
                 </div>
-            <div class="left_components_paging-cont" id="leftNav">
-                <left-nav-item></left-nav-item>
+                <div class="newDesign_subject_question_item mt-5vh">
+                    <img alt="img" class="newDesign_subject_question_item-img"
+                         src="../../../img/icons/newDesign_btn-yellow.svg">
+                    <p class="newDesign_subject_question_item-title">
+                        შენი აზრით, რა სირთულეები წარმოიშვება, 
+                        როცა კომპიუტერულ პროგრამას არ გააჩნია გრაფიკული იტერფეისი.
+                         თუ გსმენია მსგავსი პროგრამული უზრუნველყოფის შესახებ?</p>
+                </div>
             </div>
-
-            <div class="our__pagination flex">
-                <a class="pagination__prev__btn" href="#">
-                    <img alt="" src="../../../img/icons/chevron-left-icon.svg" style="transform: rotate(180deg)">
-                </a>
-
-                <div class="flex align-items-center" id="pagination"></div>
-
-                <a class="pagination__next__btn" href="#">
-                    <img alt="" src="../../../img/icons/chevron-left-icon.svg">
-                </a>
+            <div class="col-10 m-auto">
+                <div class="ui_page-10 d-flex justify-content-end">
+                    <img alt="ui" src="../../../img/gakvetilebi/Computer-Science/Class-4/UI-5/cs-4-5-10.svg">
+                </div>
             </div>
+        </div>
 
-        </section>
-    </div>
+        <div class="left_components_paging-cont" id="leftNav">
+            <left-nav-item></left-nav-item>
+        </div>
+
+        <div class="our__pagination flex">
+            <a class="pagination__prev__btn" href="#">
+                <img alt="" src="../../../img/icons/chevron-left-icon.svg"
+                     style="transform: rotate(180deg)">
+            </a>
+
+            <div class="flex align-items-center" id="pagination"></div>
+
+            <a class="pagination__next__btn" href="#">
+                <img alt="" src="../../../img/icons/chevron-left-icon.svg">
+            </a>
+        </div>
+
+    </section>
+</div>
 
 
-    <!-- ჩეთბოტი -->
-    <div id="chatBot">
-        <app-bot></app-bot>
-    </div>
+<!-- ჩეთბოტი -->
+<div id="chatBot">
+    <app-bot></app-bot>
+</div>
 
-    <script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
+<script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
 <script src="../../../js/detectdevice.js"></script>
-    <script src="../../../js/libraries/jquery.magnific-popup.min.js"></script>
-    <script src="../../../js/Pagination.js"></script>
+<script src="../../../js/libraries/jquery.magnific-popup.min.js"></script>
+<script src="../../../js/Pagination.js"></script>
 
 
 <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
+<!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
     <script src="../../../New-header-vue/vis.js"></script>
     <script src="../../../New-header-vue/app.js"></script>
-    <script src="../../../Vue-chatBot/botApp.js"></script>
-    <script src="../../../js/bot.js"></script>
+<script src="../../../Vue-chatBot/botApp.js"></script>
+<script src="../../../js/bot.js"></script>
 
 
 </body>

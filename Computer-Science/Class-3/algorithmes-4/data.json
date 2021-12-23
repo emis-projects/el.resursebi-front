@@ -2,7 +2,7 @@
     "lesson_id": 4,
     "lesson_name": "algorithmes-4",
     "subject": "computer-science",
-    "pages_number": 32,
+    "pages_number": 30,
     "pages": [
         {
             "number": 1,
@@ -87,42 +87,42 @@
         {
             "number": 15,
             "url": "",
-            "type": 2
+            "type": 4
         },
         {
             "number": 16,
             "url": "",
-            "type": 4
+            "type": 1
         },
         {
             "number": 17,
             "url": "",
-            "type": 1
+            "type": 4
         },
         {
             "number": 18,
             "url": "",
-            "type": 4
+            "type": 2
         },
         {
             "number": 19,
             "url": "",
-            "type": 2
+            "type": 4
         },
         {
             "number": 20,
             "url": "",
-            "type": 4
+            "type": 2
         },
         {
             "number": 21,
             "url": "",
-            "type": 2
+            "type": 4
         },
         {
             "number": 22,
             "url": "",
-            "type": 4
+            "type": 5
         },
         {
             "number": 23,
@@ -135,29 +135,24 @@
             "type": 5
         },
         {
-            "number": "24-1",
-            "url": "",
-            "type": 3
-        },
-        {
             "number": 25,
             "url": "",
-            "type": 5
+            "type": 2
         },
         {
             "number": 26,
             "url": "",
-            "type": 5
+            "type": 2
         },
         {
             "number": 27,
             "url": "",
-            "type": 2
+            "type": null
         },
         {
             "number": 28,
             "url": "",
-            "type": 2
+            "type": null
         },
         {
             "number": 29,
@@ -166,16 +161,6 @@
         },
         {
             "number": 30,
-            "url": "",
-            "type": null
-        },
-        {
-            "number": 31,
-            "url": "",
-            "type": null
-        },
-        {
-            "number": 32,
             "url": "",
             "type": null
         }

@@ -92,7 +92,7 @@ function computerGames() {
 
 
     this.successPage = () => {
-        location.href = 'game-success-21.html';
+        location.href = 'game-success-20.html';
     }
 
     this.init = (e) => {

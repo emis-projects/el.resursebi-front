@@ -1,19 +1,16 @@
 <!DOCTYPE html>
-<html data-botid="2288" lang="ka">
+<html lang="ka" data-botid="2288">
 
 <head>
     <meta charset="UTF-8" />
-    <meta content="ie=edge" http-equiv="X-UA-Compatible" />
-    <!-- ყველა გვერდზე -->
-    <script src="../../../js/vue.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="//cdn.web-fonts.ge/fonts/alk-sanet/css/alk-sanet.min.css" />
     <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
-    <!--  ვუე გაშვებისას
-    <script src="./js/vue.min.js"></script>
-     -->
-    <link href="../../../scss/libraries/bootstrap.min.css" rel="stylesheet">
-    <link href="../../../New-header-vue/animate.min.css" rel="stylesheet">
-    <link href="../../../scss/new-style.css" rel="stylesheet" />
-    <link href="../../../scss/components_style.css" rel="stylesheet" />
+    <script src="../../../js/vue.js"></script>
+    <link rel="stylesheet" href="../../../New-header-vue/animate.min.css">
+    <link rel="stylesheet" href="../../../scss/libraries/magnific-popup.css">
+    <link rel="stylesheet" href="../../../scss/libraries/bootstrap.min.css" />
+    <link rel="stylesheet" href="../../../scss/new-style.css" />
     <title>ელექტრონული საგანმანათლებლო რესურსი</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
@@ -23,89 +20,54 @@
         function gtag() {
             dataLayer.push(arguments);
         }
-
         gtag('js', new Date());
 
         gtag('config', 'UA-155006442-1');
     </script>
 </head>
 
-<body>
+<body class="background-cs-4-5-21 background-cs-4-5">
     <div class="container">
-        <section class="container position-absolute" id="app">
+        <section id="app" class="container position-absolute">
             <header>
                 <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../../'"></app-menu>
             </header>
 
-            <app-section :is-active="isActive" :is-info="isInfo" v-image="'../../../'">
-                <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger"
-                    v-on:link-tab="link = $event">
+            <app-section :is-active="isActive" v-image="'../../../'">
+                <app-bar :is-active="isActive" :trigger="trigger" :dots="dots" :current-tab="link"
+                         v-on:link-tab="link = $event">
 
                 </app-bar>
-                <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive"
-                    :is-info="isInfo" :path="path" :tab-class="currentTabComponent" :trigger="trigger">
+                <component :path="path" :is="currentTabComponent" :is-active="isActive" :trigger="trigger"
+                           :active-class="activeClass" :images="images" :is-info="isInfo"
+                           :tab-class="currentTabComponent">
                 </component>
 
             </app-section>
         </section>
         <section id="mainPage">
-            <div class="row mt-5vh">
-                <div class="col-10 m-auto">
-                    <div class="newDesign_subject_question_item">
-                        <img alt="img" class="newDesign_subject_question_item-img"
-                            src="../../../img/icons/newDesign_btn-yellow.svg">
-                        <p class="newDesign_subject_question_item-title">
-                            გამოიგონე შენი ახალი გრაფიკული ინტერფეისი კომპიუტერთან მოხერხებული
-                             ურთიერთობისათვის.
-                        </p>
-                    </div>    
-                    <div class="newDesign_subject_question_item">
-                        <img alt="img" class="newDesign_subject_question_item-img"
-                            src="../../../img/icons/newDesign_btn-yellow.svg">
-                        <p class="newDesign_subject_question_item-title">
-                            მოიფიქრე მოქმედებების ჩამონათვალი, რომლებიც უნდა შეასრულოს მომხმარებელმა.
-                        </p>
-                    </div>      
-                    <div class="newDesign_subject_question_item">
-                        <img alt="img" class="newDesign_subject_question_item-img"
-                            src="../../../img/icons/newDesign_btn-yellow.svg">
-                        <p class="newDesign_subject_question_item-title">
-                            მოიფიქრე აიქონები თითეული ქმედებისათვის.
-                        </p>
-                    </div> 
-                    <div class="newDesign_subject_question_item">
-                        <img alt="img" class="newDesign_subject_question_item-img"
-                            src="../../../img/icons/newDesign_btn-yellow.svg">
-                        <p class="newDesign_subject_question_item-title">
-                            მოხერხებულად განალაგე აიქონები შენს ფანჯარაში.
-                        </p>
-                    </div>        
-                </div> 
-            </div>
-                <div class="cs-4-5-div cs-4-5-div-18-img ">
-                    <img alt=""
-                        src="../../../img/gakvetilebi/Computer-Science/Class-4/UI-5/cs-4-5-18-img.png">
+            <div class="row">
+                <div class="col-8 m-auto">
+                    <div class="background-cs-title-purple-cont">
+                        <h1 class="background-cs-title-purple">
+                            შეძელი თუ არა შენი ინტერფეისის მოფიქრება და დახატვა?
+                        </h1>
+                    </div>
                 </div>
-            <div class="left_components_paging-cont" id="leftNav">
-                <left-nav-item></left-nav-item>
             </div>
-
             <div class="our__pagination flex">
-                <a class="pagination__prev__btn" href="#">
-                    <img alt="" src="../../../img/icons/chevron-left-icon.svg" style="transform: rotate(180deg)">
+                <a href="#" class="pagination__prev__btn">
+                    <img style="transform: rotate(180deg)" src="../../../img/icons/chevron-left-icon.svg" alt="">
                 </a>
 
-                <div class="flex align-items-center" id="pagination"></div>
+                <div id="pagination" class="flex align-items-center"></div>
 
-                <a class="pagination__next__btn" href="#">
-                    <img alt="" src="../../../img/icons/chevron-left-icon.svg">
+                <a href="#" class="pagination__next__btn">
+                    <img src="../../../img/icons/chevron-left-icon.svg" alt="">
                 </a>
             </div>
-
         </section>
     </div>
-
-
     <!-- ჩეთბოტი -->
     <div id="chatBot">
         <app-bot></app-bot>
@@ -122,8 +84,6 @@
     <script src="../../../New-header-vue/app.js"></script>
     <script src="../../../Vue-chatBot/botApp.js"></script>
     <script src="../../../js/bot.js"></script>
-
-
 </body>
 
 </html>

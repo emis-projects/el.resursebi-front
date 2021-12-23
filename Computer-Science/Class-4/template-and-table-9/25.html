@@ -16,24 +16,21 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
+        function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
 
         gtag('config', 'UA-155006442-1');
     </script>
 </head>
 
-<body class="background-cs-4-5-22 background-cs-4-5">
+<body class="Class_4_9-img_24">
     <div class="container">
         <section id="app" class="container position-absolute">
             <header>
                 <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../../'"></app-menu>
             </header>
 
-            <app-section :is-active="isActive" v-image="'../../../'">
+            <app-section :is-active="isActive" :is-info="isInfo" v-image="'../../../'">
                 <app-bar :is-active="isActive" :trigger="trigger" :dots="dots" :current-tab="link"
                          v-on:link-tab="link = $event">
 
@@ -47,12 +44,10 @@
         </section>
         <section id="mainPage">
             <div class="row">
-                <div class="col-8 m-auto">
-                    <div class="background-cs-title-purple-cont">
-                        <h1 class="background-cs-title-purple">
-                            რა გაგიადვილდა და რა გაგიჭირდა?
-                        </h1>
-                    </div>
+                <div class="col-8 m-auto d-flex justify-content-center">
+                    <h1 class="Class_4_9-title_item_21 mt-10vh">
+                        დაგეხმარა სავარჯიშოები და მინიშნებები?
+                    </h1>
                 </div>
             </div>
             <div class="our__pagination flex">
@@ -68,6 +63,8 @@
             </div>
         </section>
     </div>
+   
+       
     <!-- ჩეთბოტი -->
     <div id="chatBot">
         <app-bot></app-bot>
