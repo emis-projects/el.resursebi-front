@@ -2,7 +2,7 @@
     "lesson_id": 28,
     "lesson_name": "working-with-excel-file-28",
     "subject": "computer-science",
-    "pages_number": 27,
+    "pages_number": 26,
     "pages": [
         {
             "number": 1,
@@ -122,7 +122,7 @@
         {
             "number": 23,
             "url": "",
-            "type": 5
+            "type": null
         },
         {
             "number": 24,
@@ -136,11 +136,6 @@
         },
         {
             "number": 26,
-            "url": "",
-            "type": null
-        },
-        {
-            "number": 27,
             "url": "",
             "type": null
         }

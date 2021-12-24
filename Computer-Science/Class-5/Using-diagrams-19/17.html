@@ -4,13 +4,16 @@
 <head>
     <meta charset="UTF-8"/>
     <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
-    <link href="//cdn.web-fonts.ge/fonts/alk-sanet/css/alk-sanet.min.css" rel="stylesheet"/>
-    <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+    <!-- ყველა გვერდზე -->
     <script src="../../../js/vue.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+    <!--  ვუე გაშვებისას
+    <script src="./js/vue.min.js"></script>
+     -->
+    <link href="../../../scss/libraries/bootstrap.min.css" rel="stylesheet">
     <link href="../../../New-header-vue/animate.min.css" rel="stylesheet">
-    <link href="../../../scss/libraries/magnific-popup.css" rel="stylesheet">
-    <link href="../../../scss/libraries/bootstrap.min.css" rel="stylesheet"/>
     <link href="../../../scss/new-style.css" rel="stylesheet"/>
+    <link href="../../../scss/components_style.css" rel="stylesheet"/>
     <title>ელექტრონული საგანმანათლებლო რესურსი</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
@@ -34,25 +37,74 @@
             <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../../'"></app-menu>
         </header>
 
-        <app-section :is-active="isActive" v-image="'../../../'">
+        <app-section :is-active="isActive" :is-info="isInfo" v-image="'../../../'">
             <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger"
                      v-on:link-tab="link = $event">
 
             </app-bar>
             <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive"
-                       :is-info="isInfo" :path="path" :tab-class="currentTabComponent" :trigger="trigger">
+                       :is-info="isInfo" :path="path" :tab-class="currentTabComponent"
+                       :trigger="trigger">
             </component>
 
         </app-section>
     </section>
     <section id="mainPage">
         <div class="row">
-            <div class="diagram-box_page-18"></div>
-            <div class="col-9 m-auto d-flex justify-content-start">
-                <h1 class="class_5_24-title_item mt-10vh ml-3">რა გაიგე ახალი ელექტრონულ ცხრილში დიაგრამების გამოყენების
-                    შესახებ</h1>
-            </div>
+            <div class="col-11 m-auto">
+                <div class="newDesign_container_main_title-cont newDesign_container_main_title-cont-margin">
+                    <h1 class="newDesign_container_main_title">გამოვიყენოთ დიაგრამები<br> მათემატიკური
+                        ამოცანების
+                        ამოსახსნელად</h1>
+                    <img alt="img" class="newDesign_container_main_title-img"
+                         src="../../../img/icons/comp_main_title_border.svg">
+                </div>
+                        <div class="newDesign_subject_question_item">
+                            <p class="newDesign_subject_question_item-title">შესრულებულ დავალებაში ნათლად უნდა ჩანდეს: </p>
+                        </div>
+                        <div class="newDesign_subject_question_item">
+                            <img alt="img" class="newDesign_subject_question_item-img"
+                                 src="../../../img/icons/newDesign_btn-yellow.svg">
+                            <p class="newDesign_subject_question_item-title">შენ მიერ მოპოვებული ინფორმაციის რა ნაწილი მოიძიე;</p>
+                        </div>
+                        <div class="newDesign_subject_question_item">
+                            <img alt="img" class="newDesign_subject_question_item-img"
+                                 src="../../../img/icons/newDesign_btn-yellow.svg">
+                            <p class="newDesign_subject_question_item-title">შენ მიერ მოპოვებული ინფორმაციის რა ნაწილი შექმენი;</p>
+                        </div>
+                        <div class="newDesign_subject_question_item">
+                            <img alt="img" class="newDesign_subject_question_item-img"
+                                 src="../../../img/icons/newDesign_btn-yellow.svg">
+                            <p class="newDesign_subject_question_item-title">როგორ მოიპოვე ინფორმაცია;</p>
+                        </div>
+                        <div class="newDesign_subject_question_item">
+                            <img alt="img" class="newDesign_subject_question_item-img"
+                                 src="../../../img/icons/newDesign_btn-yellow.svg">
+                            <p class="newDesign_subject_question_item-title">ელექტრონული ცხრილის რომელ ინსტრუმენტებს იცნობ;</p>
+                        </div>
+                        <div class="newDesign_subject_question_item">
+                            <img alt="img" class="newDesign_subject_question_item-img"
+                                 src="../../../img/icons/newDesign_btn-yellow.svg">
+                            <p class="newDesign_subject_question_item-title">რა ტიპის ცვლილებები განიცადა შენ მიერ შექმნილმა დოკუმენტმა;</p>
+                        </div>
+                        <div class="newDesign_subject_question_item">
+                            <img alt="img" class="newDesign_subject_question_item-img"
+                                 src="../../../img/icons/newDesign_btn-yellow.svg">
+                            <p class="newDesign_subject_question_item-title">რა უპირატესობა აქვს მონაცემების დიაგრამის სახით გამოსახვას;</p>
+                        </div>
+                        <div class="newDesign_subject_question_item">
+                            <img alt="img" class="newDesign_subject_question_item-img"
+                                 src="../../../img/icons/newDesign_btn-yellow.svg">
+                            <p class="newDesign_subject_question_item-title">როგორ შეგიძლია ელექტრონულ ცხრილში ამოცანის პირობის გადატანა;</p>
+                        </div>
+
+                    </div>
+                </div>
+
+        <div class="left_components_paging-cont" id="leftNav">
+            <left-nav-item></left-nav-item>
         </div>
+
         <div class="our__pagination flex">
             <a class="pagination__prev__btn" href="#">
                 <img alt="" src="../../../img/icons/chevron-left-icon.svg" style="transform: rotate(180deg)">
@@ -64,6 +116,12 @@
                 <img alt="" src="../../../img/icons/chevron-left-icon.svg">
             </a>
         </div>
+<!-- პდფ-ს გადმოწერის ღილაკი -->
+<div class="col-3 flex flex-end column align-items-end z-index audio-download_wrapper">
+    <div class="d-flex flex-column">
+        <a href="../../../img/gakvetilebi/Computer-Science/pdf/cs-5/cs-5-19.pdf" class="audio-download__btn">გადმოწერა</a>
+    </div>
+  </div>
     </section>
 </div>
 
@@ -85,6 +143,8 @@
     <script src="../../../New-header-vue/app.js"></script>
 <script src="../../../Vue-chatBot/botApp.js"></script>
 <script src="../../../js/bot.js"></script>
+
+
 </body>
 
 </html>
