@@ -30926,10 +30926,10 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .cs-network-box-19 {
-  height: 55vh;
+  height: 52vh;
   max-height: 423px;
   position: fixed;
-  left: 50%;
+  left: 76%;
   bottom: 0;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
