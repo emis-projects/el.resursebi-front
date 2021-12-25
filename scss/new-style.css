@@ -39062,7 +39062,11 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .cs-4-5-div-13-game-icons-div img {
   height: 4.68vh;
-  margin-right: 1.75vw;
+  margin-right: 2.75vw;
+}
+
+.cs-4-5-div-13-game-pics {
+  margin: 0 auto;
 }
 
 .class_4_5-3-1 {

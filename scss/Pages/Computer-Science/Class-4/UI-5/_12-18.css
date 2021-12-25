@@ -3,9 +3,9 @@
 }
 .cs-4-5-div-14-img {
   height: 43.88vh;
-  position: fixed;
-  right: 16vh;
-  bottom: 20.27vh;
+  position: absolute;
+  right: 15.15vw;
+  bottom: 19.27vh;
 }
 .cs-4-5-div-15-img {
   height: 45.83vh;
@@ -77,5 +77,9 @@
 }
 .cs-4-5-div-13-game-icons-div img {
   height: 4.68vh;
-  margin-right: 1.75vw;
+  margin-right: 2.75vw;
+}
+
+.cs-4-5-div-13-game-pics {
+  margin: 0 auto;
 }
