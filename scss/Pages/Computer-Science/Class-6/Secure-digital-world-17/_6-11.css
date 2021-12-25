@@ -14,7 +14,7 @@
   height: 100%;
 }
 .secure_page-8 .title td {
-  padding-left: 5vh;
+  padding: 2.5vh !important;
 }
 .secure_page-8 table {
   box-shadow: 0 0 0 2px #62548A;
@@ -28,8 +28,11 @@
   position: relative;
   padding: 0 !important;
 }
-.secure_page-8 table td .text-span {
-  padding: 1.2vh !important;
+.secure_page-8 table td .title-span {
+  padding: 2.2vh !important;
+}
+.secure_page-8 table td .title-last-span {
+  padding: 1vh 1vh 1vh 2.2vh !important;
 }
 .secure_page-8 table td .box-wrapper {
   height: 100%;

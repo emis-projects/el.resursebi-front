@@ -18,8 +18,10 @@
   }
 
   &-8 {
-    .title td {
-      padding-left: 5vh;
+    .title {
+      td {
+        padding: 2.5vh!important;
+      }
     }
 
     table {
@@ -35,8 +37,12 @@
         padding: 0!important;
 
 
-        .text-span {
-          padding: 1.2vh !important;
+        .title-span {
+          padding: 2.2vh!important;
+        }
+
+        .title-last-span {
+          padding: 1vh 1vh 1vh 2.2vh!important;
         }
 
         .box-wrapper {

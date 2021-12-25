@@ -41027,7 +41027,7 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .secure_page-8 .title td {
-  padding-left: 5vh;
+  padding: 2.5vh !important;
 }
 
 .secure_page-8 table {
@@ -41045,8 +41045,12 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   padding: 0 !important;
 }
 
-.secure_page-8 table td .text-span {
-  padding: 1.2vh !important;
+.secure_page-8 table td .title-span {
+  padding: 2.2vh !important;
+}
+
+.secure_page-8 table td .title-last-span {
+  padding: 1vh 1vh 1vh 2.2vh !important;
 }
 
 .secure_page-8 table td .box-wrapper {
@@ -41546,7 +41550,7 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .secure_page-8 .title td {
-  padding-left: 5vh;
+  padding: 2.5vh !important;
 }
 
 .secure_page-8 table {
@@ -41564,8 +41568,12 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   padding: 0 !important;
 }
 
-.secure_page-8 table td .text-span {
-  padding: 1.2vh !important;
+.secure_page-8 table td .title-span {
+  padding: 2.2vh !important;
+}
+
+.secure_page-8 table td .title-last-span {
+  padding: 1vh 1vh 1vh 2.2vh !important;
 }
 
 .secure_page-8 table td .box-wrapper {
