@@ -41042,6 +41042,11 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   font-size: 18px;
   border-color: #62548A;
   position: relative;
+  padding: 0 !important;
+}
+
+.secure_page-8 table td .text-span {
+  padding: 1.2vh !important;
 }
 
 .secure_page-8 table td .box-wrapper {
@@ -41556,6 +41561,11 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   font-size: 18px;
   border-color: #62548A;
   position: relative;
+  padding: 0 !important;
+}
+
+.secure_page-8 table td .text-span {
+  padding: 1.2vh !important;
 }
 
 .secure_page-8 table td .box-wrapper {

@@ -32,6 +32,12 @@
         font-size: 18px;
         border-color: #62548A;
         position: relative;
+        padding: 0!important;
+
+
+        .text-span {
+          padding: 1.2vh !important;
+        }
 
         .box-wrapper {
           height: 100%;
