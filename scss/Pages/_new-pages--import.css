@@ -12465,7 +12465,7 @@ img.mfp-img[alt*=cs-3-6-6-img] {
 .Class_2_7-img_box_14 {
   position: fixed;
   bottom: 0;
-  left: 26vh;
+  right: 26vh;
 }
 .Class_2_7-img_box_14 img {
   height: 62.24vh;
@@ -12574,11 +12574,11 @@ img.mfp-img[alt*=cs-3-6-6-img] {
   left: 0;
 }
 .programs_image-box-15 {
-  height: 68vh;
-  max-height: 624px;
+  height: 62vh;
+  max-height: 407.34px;
   position: fixed;
   bottom: 0;
-  left: 50%;
+  left: 62%;
   transform: translateX(-50%);
 }
 .programs_image-box-15 img {
