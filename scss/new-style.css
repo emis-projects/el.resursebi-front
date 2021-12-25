@@ -24775,11 +24775,10 @@ img.mfp-img[alt*="cs-2-4-18-img"] {
   font-size: 2.6vh;
 }
 
-.compiuter_development-img_22 {
-  margin-top: 13vh;
-}
-
 .compiuter_development-img_22 img {
+  position: absolute;
+  top: 25vh;
+  right: 26vh;
   height: 24.46vh;
   max-height: 187.9px;
 }
@@ -31139,7 +31138,7 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 .Class_2_7-img_box_14 {
   position: fixed;
   bottom: 0;
-  right: 26vh;
+  left: 26vh;
 }
 
 .Class_2_7-img_box_14 img {
@@ -31282,11 +31281,11 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 }
 
 .programs_image-box-15 {
-  height: 62vh;
-  max-height: 407.34px;
+  height: 68vh;
+  max-height: 624px;
   position: fixed;
   bottom: 0;
-  left: 62%;
+  left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
 }
