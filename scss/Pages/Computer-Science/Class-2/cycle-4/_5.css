@@ -1,0 +1,20 @@
+.cycle-5_img-box {
+  height: 40vh;
+  max-height: 341px;
+  position: fixed;
+  bottom: 24vh;
+  right: 1vh;
+}
+.cycle-5_img-box img {
+  height: 100%;
+}
+
+.cycle_5-1_img-box {
+  height: 55vh;
+  max-height: 429px;
+}
+.cycle_5-1_img-box img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
