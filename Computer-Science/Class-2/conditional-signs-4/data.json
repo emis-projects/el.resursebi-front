@@ -2,7 +2,7 @@
     "lesson_id": 441,
     "lesson_name": "conditional-signs-4",
     "subject": "computer-science",
-    "pages_number": 24,
+    "pages_number": 26,
     "pages": [
         {
             "number": 1,
@@ -133,6 +133,16 @@
             "number": 24,
             "url": "",
             "type": 4
+        },
+        {
+            "number": 25,
+            "url": "",
+            "type": 5
+        },
+        {
+            "number": 26,
+            "url": "",
+            "type": 5
         }
     ]
 }
