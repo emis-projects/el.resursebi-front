@@ -4,14 +4,12 @@
 <head>
     <meta charset="UTF-8"/>
     <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
-    <!-- ყველა გვერდზე -->
-    <script src="../../../js/vue.js"></script>
+    <link href="//cdn.web-fonts.ge/fonts/alk-sanet/css/alk-sanet.min.css" rel="stylesheet"/>
     <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
-    <!--  ვუე გაშვებისას
-    <script src="./js/vue.min.js"></script>
-     -->
-    <link href="../../../scss/libraries/bootstrap.min.css" rel="stylesheet">
+    <script src="../../../js/vue.js"></script>
     <link href="../../../New-header-vue/animate.min.css" rel="stylesheet">
+    <link href="../../../scss/libraries/magnific-popup.css" rel="stylesheet">
+    <link href="../../../scss/libraries/bootstrap.min.css" rel="stylesheet"/>
     <link href="../../../scss/new-style.css" rel="stylesheet"/>
 <link href="../../../scss/components_style.css" rel="stylesheet"/>
     <title>ელექტრონული საგანმანათლებლო რესურსი</title>
@@ -27,23 +25,24 @@
         gtag('js', new Date());
 
         gtag('config', 'UA-155006442-1');
-    </script>
+    </script>   
 </head>
 
-<body>
+<body class="class_5_28-bg_24">
 <div class="container">
     <section class="container position-absolute" id="app">
         <header>
             <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../../'"></app-menu>
         </header>
 
-        <app-section :is-active="isActive" :is-info="isInfo" v-image="'../../../'">
+        <app-section :is-active="isActive" v-image="'../../../'">
             <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger"
                      v-on:link-tab="link = $event">
 
             </app-bar>
             <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive"
-                       :is-info="isInfo" :path="path" :tab-class="currentTabComponent" :trigger="trigger">
+                       :is-info="isInfo" :path="path" :tab-class="currentTabComponent"
+                       :trigger="trigger">
             </component>
 
         </app-section>
@@ -51,44 +50,13 @@
     <section id="mainPage">
         <div class="row">
             <div class="col-9 m-auto">
-                <div class="newDesign_container_main_title-cont newDesign_container_main_title-cont-margin">
-                    <h1 class="newDesign_container_main_title">Ms Excel ფაილზე მუშაობა</h1>
-                    <img alt="img" class="newDesign_container_main_title-img"
-                         src="../../../img/icons/comp_main_title_border.svg">
-                </div>
-                <div class="d-flex">
-                    <img alt="img" class="newDesign_subject_question_item-img"
-                         src="../../../img/icons/newDesign_btn-yellow.svg">
-                    <p class="newDesign_subject_question_item-title">
-                        თითოეულ გვერდზე შენ მიერ მოძიებული მონაცემები განათავსე ცხრილებში;
-                    </p>
-                </div>
-                <div class="d-flex">
-                    <img alt="img" class="newDesign_subject_question_item-img"
-                         src="../../../img/icons/newDesign_btn-yellow.svg">
-                    <p class="newDesign_subject_question_item-title">
-                        შეინახე <img src="../../../img/gakvetilebi/Computer-Science/Class-5/Decorate-electronic-table-27/cs-5-27-icon.svg" class="icon">  Ms Excel-ის ფაილი pdf ფორმატში; 
-                    </p>
-                </div>
-                <div class="d-flex">
-                    <img alt="img" class="newDesign_subject_question_item-img"
-                         src="../../../img/icons/newDesign_btn-yellow.svg">
-                    <p class="newDesign_subject_question_item-title">
-                        შენ მიერ შექმნილი ფაილი გადაუგზავნე მეგობრებსა და მასწავლებელს.
-                    </p>
+                <div class="background-cs-title-purple-cont">
+                    <h1 class="background-cs-title-purple ml-4vh">
+                        რა გაიგე ახალი Ms Excel ფაილში მუშაობის შესახებ?
+                    </h1>
                 </div>
             </div>
-            <div class="col-12 d-flex justify-content-center cs-5-28 cs-5-28-23 mt-5vh">
-                <img alt="img" class= "cs-5-28 cs-5-28-23"
-                    src="../../../img/gakvetilebi/Computer-Science/Class-5/working-with-excel-file-28/cs-5-28-23.svg">
-            </div>
         </div>
-
-
-        <div class="left_components_paging-cont" id="leftNav">
-            <left-nav-item></left-nav-item>
-        </div>
-
         <div class="our__pagination flex">
             <a class="pagination__prev__btn" href="#">
                 <img alt="" src="../../../img/icons/chevron-left-icon.svg" style="transform: rotate(180deg)">
@@ -100,11 +68,8 @@
                 <img alt="" src="../../../img/icons/chevron-left-icon.svg">
             </a>
         </div>
-
     </section>
 </div>
-
-
 <!-- ჩეთბოტი -->
 <div id="chatBot">
     <app-bot></app-bot>
@@ -122,8 +87,6 @@
     <script src="../../../New-header-vue/app.js"></script>
 <script src="../../../Vue-chatBot/botApp.js"></script>
 <script src="../../../js/bot.js"></script>
-
-
 </body>
 
 </html>

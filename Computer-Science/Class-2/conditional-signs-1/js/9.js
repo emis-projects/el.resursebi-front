@@ -181,6 +181,27 @@ function game(){
 
             } else if(loc == "/Computer-Science/Class-3/How-my-robot-acts-16/7.html" || loc == "/el.resursebi-front/Computer-Science/Class-3/How-my-robot-acts-16/7.html"){
                 location.href = "game-success-7.html"
+
+            } else if(loc == "/Computer-Science/Class-2/conditional-signs-4/6.html" || loc == "/el.resursebi-front/Computer-Science/Class-2/conditional-signs-4/6.html"){
+                location.href = "game-success-6.html"
+            
+            } else if(loc == "/Computer-Science/Class-2/conditional-signs-4/7.html" || loc == "/el.resursebi-front/Computer-Science/Class-2/conditional-signs-4/7.html"){
+                location.href = "game-success-7.html"
+
+            } else if(loc == "/Computer-Science/Class-2/conditional-signs-4/8.html" || loc == "/el.resursebi-front/Computer-Science/Class-2/conditional-signs-4/8.html"){
+                location.href = "game-success-8.html"
+
+            } else if(loc == "/Computer-Science/Class-2/conditional-signs-4/10.html" || loc == "/el.resursebi-front/Computer-Science/Class-2/conditional-signs-4/10.html"){
+                location.href = "game-success-10.html"
+
+            } else if(loc == "/Computer-Science/Class-2/conditional-signs-4/11.html" || loc == "/el.resursebi-front/Computer-Science/Class-2/conditional-signs-4/11.html"){
+                location.href = "game-success-11.html"
+
+            } else if(loc == "/Computer-Science/Class-2/conditional-signs-4/16.html" || loc == "/el.resursebi-front/Computer-Science/Class-2/conditional-signs-4/16.html"){
+                location.href = "game-success-16.html"
+
+            } else if(loc == "/Computer-Science/Class-2/conditional-signs-4/17.html" || loc == "/el.resursebi-front/Computer-Science/Class-2/conditional-signs-4/17.html"){
+                location.href = "game-success-17.html"
             }
 
         } else {

@@ -2,7 +2,7 @@
     "lesson_id": 4,
     "lesson_name": "objects-moving-4",
     "subject": "computer-science",
-    "pages_number": 35,
+    "pages_number": 36,
     "pages": [
         {
             "number": 1,
@@ -174,7 +174,7 @@
         {
             "number": 32,
             "url": "",
-            "type": null
+            "type": 5
         },
         {
             "number": 33,
@@ -188,6 +188,11 @@
         },
         {
             "number": 35,
+            "url": "",
+            "type": null
+        },
+        {
+            "number": 36,
             "url": "",
             "type": null
         }

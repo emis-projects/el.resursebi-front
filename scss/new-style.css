@@ -40999,6 +40999,13 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
   height: 100%;
 }
 
+.cs-6-15-6-img-icon {
+  max-height: 50px;
+  display: inline-block;
+  height: 4vh;
+  vertical-align: bottom;
+}
+
 .secure_page-6 {
   height: 42vh;
   max-height: 284px;
@@ -41452,6 +41459,13 @@ img.mfp-img[alt*="cs-3-6-6-img"] {
 
 .our-podcast-6 img {
   height: 100%;
+}
+
+.cs-6-15-6-img-icon {
+  max-height: 50px;
+  display: inline-block;
+  height: 4vh;
+  vertical-align: bottom;
 }
 
 .secure-digital-world-12 {

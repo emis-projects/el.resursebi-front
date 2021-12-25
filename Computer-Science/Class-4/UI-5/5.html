@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html data-botid="2288" lang="ka">
+<html data-botid="" lang="ka">
 
 <head>
     <meta charset="UTF-8"/>
@@ -13,7 +12,6 @@
     <link href="../../../scss/libraries/bootstrap.min.css" rel="stylesheet">
     <link href="../../../New-header-vue/animate.min.css" rel="stylesheet">
     <link href="../../../scss/new-style.css" rel="stylesheet"/>
-<link href="../../../scss/components_style.css" rel="stylesheet"/>
     <title>ელექტრონული საგანმანათლებლო რესურსი</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
@@ -34,69 +32,119 @@
 <div class="container">
     <section class="container position-absolute" id="app">
         <header>
-            <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../../'"></app-menu>
+            <app-menu :info="info" :is-active="isActive" :toggle="toggle"
+                      v-logo="'../../../'"></app-menu>
         </header>
 
-        <app-section :is-active="isActive" v-image="'../../../'">
+        <app-section :is-active="isActive" :is-info="isInfo" v-image="'../../../'">
             <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger"
                      v-on:link-tab="link = $event">
 
             </app-bar>
-            <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive"
-                       :is-info="isInfo" :path="path" :tab-class="currentTabComponent" :trigger="trigger">
+            <component :active-class="activeClass" :images="images" :is="currentTabComponent"
+                       :is-active="isActive"
+                       :is-info="isInfo" :path="path" :tab-class="currentTabComponent"
+                       :trigger="trigger">
             </component>
 
         </app-section>
     </section>
     <section id="mainPage">
-        <div class="row mt-8vh">
+        <div class="row ui_page-6">
             <div class="col-10 m-auto">
-                <div class="newDesign_subject_question_item ">
+                <div class="newDesign_subject_question_item">
                     <img alt="img" class="newDesign_subject_question_item-img"
                          src="../../../img/icons/newDesign_btn-yellow.svg">
-                    <p class="newDesign_subject_question_item-title">
-                        გაიხსენე, ცხოვრებაში რომელი მექანიზმები „გვესაუბრებიან“ გრაფიკული ინტერფეისის <br> დახმარებით.
-                    </p>
-                </div>
-                <div class="newDesign_subject_question_item ">
-                    <img alt="img" class="newDesign_subject_question_item-img"
-                         src="../../../img/icons/newDesign_btn-yellow.svg">
-                    <p class="newDesign_subject_question_item-title">
-                        გაიხსენე შენი საყვარელი თამაშები ან სასწავლო პროგრამები.
-                    </p>
+                    <p class="newDesign_subject_question_item-title">დაუკვირდი მოწყობილობებს. დაფიქრდი,
+                        რომელ მათგანთან გვაქვს ურთიერთობა გრაფიკული ინტერფეისით?</p>
                 </div>
                 <div class="newDesign_subject_question_item">
                     <img alt="img" class="newDesign_subject_question_item-img"
                          src="../../../img/icons/newDesign_btn-yellow.svg">
-                    <p class="newDesign_subject_question_item-title">
-                        როგორი არის მათი გრაფიკული ინტერფეისი?
-                    </p>
-                </div>
-                <div class="newDesign_subject_question_item">
-                    <img alt="img" class="newDesign_subject_question_item-img"
-                         src="../../../img/icons/newDesign_btn-yellow.svg">
-                    <p class="newDesign_subject_question_item-title">
-                        მოიფიქრე საინტერესო საქმიანობები, რომლებისთვისაც შეიძლება მექანიზმების შექმნა.
-                    </p>
-                </div>
-                <div class="newDesign_subject_question_item mt-4vh newDesign_subject_question_item-title">
-                        <a href="https://www.youtube.com/watch?v=hKo-ZaApFqo" class="a-blue" target="_blank">
-                            https://www.youtube.com/watch?v=hKo-ZaApFqo
+                    <p class="newDesign_subject_question_item-title">მონიშნე ის მექანიზმები, რომლებიც
+                        მომხმარებლის გრაფიკული ინტერფეისით გვესაუბრება.</p>
                 </div>
             </div>
-            <div class="col-9 ml-8vh class_4_5-img_5 d-flex justify-content-end">
-                <img src="../../../img/gakvetilebi/Computer-Science/Class-4/UI-5/C-4-5-5.svg" alt="image">
+            <div class="col-10 m-auto">
+                <div class="row">
+                    <div class="col-10">
+                        <div class="row">
+                            <div class="col-3 d-flex justify-content-around align-items-center">
+                                <div class="ui_page-6_select checkmark correct"></div>
+                                <div class="ui_page-6">
+                                    <img alt="ui"
+                                         src="../../../img/gakvetilebi/Computer-Science/Class-4/UI-5/cs-4-5-id.jpg">
+                                </div>
+                            </div>
+                            <div class="col-3 d-flex justify-content-around align-items-center">
+                                <div class="ui_page-6_select checkmark correct"></div>
+                                <div class="ui_page-6">
+                                    <img alt="ui"
+                                         src="../../../img/gakvetilebi/Computer-Science/Class-4/UI-5/cs-4-5-ATM.jpg">
+                                </div>
+                            </div>
+                            <div class="col-3 d-flex justify-content-around align-items-center">
+                                <div class="ui_page-6_select checkmark correct"></div>
+                                <div class="ui_page-6">
+                                    <img alt="ui"
+                                         src="../../../img/gakvetilebi/Computer-Science/Class-4/UI-5/cs-4-5-cash.jpg">
+                                </div>
+                            </div>
+                            <div class="col-3 d-flex justify-content-around align-items-center">
+                                <div class="ui_page-6_select checkmark noCorrect"></div>
+                                <div class="ui_page-6">
+                                    <img alt="ui"
+                                         src="../../../img/gakvetilebi/Computer-Science/Class-4/UI-5/cs-4-5-wash.jpg">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-10vh">
+                            <div class="col-3 d-flex justify-content-around align-items-center">
+                                <div class="ui_page-6_select checkmark noCorrect"></div>
+                                <div class="ui_page-6">
+                                    <img alt="ui"
+                                         src="../../../img/gakvetilebi/Computer-Science/Class-4/UI-5/cs-4-5-tablet.png">
+                                </div>
+                            </div>
+                            <div class="col-3 d-flex justify-content-around align-items-center">
+                                <div class="ui_page-6_select checkmark correct"></div>
+                                <div class="ui_page-6">
+                                    <img alt="ui"
+                                         src="../../../img/gakvetilebi/Computer-Science/Class-4/UI-5/cs-4-5-pgone.jpg">
+                                </div>
+                            </div>
+                            <div class="col-3 d-flex justify-content-around align-items-center">
+                                <div class="ui_page-6_select checkmark noCorrect"></div>
+                                <div class="ui_page-6">
+                                    <img alt="ui"
+                                         src="../../../img/gakvetilebi/Computer-Science/Class-4/UI-5/cs-4-5-IR.jpg">
+                                </div>
+                            </div>
+                            <div class="col-3 d-flex justify-content-around align-items-center">
+                                <div class="ui_page-6_select checkmark noCorrect"></div>
+                                <div class="ui_page-6">
+                                    <img alt="ui"
+                                         src="../../../img/gakvetilebi/Computer-Science/Class-4/UI-5/cs-4-5-speed.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-end column align-items-end z-index reload_game_wrapper">
+                <button class="reset__btn" id="resetBtn">თავიდან სცადე</button>
+                <button class="completed__btn" id="completedGame">დასრულება</button>
             </div>
         </div>
 
-        <!-- ეს არის svg თეგირომელიც ქმნის მარცხენა ვერტიკალურ "ნავ რუკას" -->
         <div class="left_components_paging-cont" id="leftNav">
             <left-nav-item></left-nav-item>
         </div>
 
         <div class="our__pagination flex">
             <a class="pagination__prev__btn" href="#">
-                <img alt="" src="../../../img/icons/chevron-left-icon.svg" style="transform: rotate(180deg)">
+                <img alt="" src="../../../img/icons/chevron-left-icon.svg"
+                     style="transform: rotate(180deg)">
             </a>
 
             <div class="flex align-items-center" id="pagination"></div>
@@ -119,6 +167,7 @@
 <script src="../../../js/detectdevice.js"></script>
 <script src="../../../js/libraries/jquery.magnific-popup.min.js"></script>
 <script src="../../../js/Pagination.js"></script>
+<script src="./js/5.js"></script>
 
 
 <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->

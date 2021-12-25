@@ -2,7 +2,7 @@
     "lesson_id": 19,
     "lesson_name": "Using-diagrams-19",
     "subject": "computer-science",
-    "pages_number": 21,
+    "pages_number": 22,
     "pages": [
       {
         "number": 1,
@@ -111,12 +111,12 @@
       {
         "number": 17,
         "url": "",
-        "type": null
+        "type": 5
       },
       {
         "number": 18,
         "url": "",
-        "type": null
+        "type": 5
       },
       {
         "number": 19,
@@ -125,6 +125,16 @@
       },
       {
         "number": 20,
+        "url": "",
+        "type": null
+      },
+      {
+        "number": 21,
+        "url": "",
+        "type": null
+      },
+      {
+        "number": 22,
         "url": "",
         "type": null
       }
