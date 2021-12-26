@@ -2,7 +2,7 @@
     "lesson_id": 4,
     "lesson_name": "cycles-part-and-whole-5",
     "subject": "computer-science",
-    "pages_number": 26,
+    "pages_number": 22,
     "pages": [
         {
             "number": 1,
@@ -108,6 +108,21 @@
             "number": 19,
             "url": "",
             "type": 2
+        },
+        {
+            "number": 20,
+            "url": "",
+            "type": 5
+        },
+        {
+            "number": 21,
+            "url": "",
+            "type": 5
+        },
+        {
+            "number": 22,
+            "url": "",
+            "type": 5
         }
     ]
 }
