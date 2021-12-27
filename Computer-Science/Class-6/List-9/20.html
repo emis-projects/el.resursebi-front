@@ -39,33 +39,40 @@
             </header>
 
             <app-section :is-active="isActive" v-image="'../../../'">
-                <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger" v-on:link-tab="link = $event">
+                <app-bar :current-tab="link" :dots="dots" :is-active="isActive" :trigger="trigger"
+                    v-on:link-tab="link = $event">
 
                 </app-bar>
-                <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive" :is-info="isInfo" :path="path" :tab-class="currentTabComponent" :trigger="trigger">
+                <component :active-class="activeClass" :images="images" :is="currentTabComponent" :is-active="isActive"
+                    :is-info="isInfo" :path="path" :tab-class="currentTabComponent" :trigger="trigger">
                 </component>
 
             </app-section>
         </section>
         <section id="mainPage">
             <div class="row">
-                <div class="col-10 m-auto flex_direction_left">
-                    <div class="newDesign_subject_question_item mt-3vh">
-                        <img alt="img" class="newDesign_subject_question_item-img" src="../../../img/icons/newDesign_btn-yellow.svg">
+                <div class="col-11 m-auto flex_direction_left">
+                    <div class="newDesign_subject_question_item">
+                        <img alt="img" class="newDesign_subject_question_item-img"
+                            src="../../../img/icons/newDesign_btn-yellow.svg">
                         <p class="newDesign_subject_question_item-title Class_2-title_item_2 big-font-size-20px-dejavu">
-                            Space ღილაკს რომ დავაწვებით, გამოჩნდეს კითხვის ჩასაწერი ველი. მას შემდეგ რაც </br>
-                            ჩავწერთ კითხვას, მთავარმა გმირმა შემთხვევითად აირჩიოს ერთ-ერთი პასუხი სიიდან </br>
-                            და გვითხრას Say ბლოკის გამოყენებით.
+                            ღილაკ Space-ს რომ დავაწვებით, გამოჩნდეს კითხვის ჩასაწერი ველი. მას შემდეგ, რაც ჩავწერთ
+                            კითხვას, მთავარმა გმირმა შემთხვევითად აირჩიოს ერთ-ერთი პასუხი სიიდან და გვითხრას Say ბლოკის
+                            გამოყენებით.
+                            იმისათვის, რომ წარმოიდგინო დავალების საბოლოო სახე,კიდევ ერთხელ გადახედე
+                            ვიდეოანიმაციას,რომელიც შენს სახელმძღვანელოშია მოცემული:
+                            <a href="https://school.emis.ge/Computer-Science/Class-6/List-9/20.html" class="link-a"> https://school.emis.ge/Computer-Science/Class-6/List-9/20.html</a>
                         </p>
                     </div>
                 </div>
                 <div class="col-12 d-flex justify-content-center  cs-6-9-div-20-img  cs-6-9-div">
                     <video controls>
-                        <source src="../../../img/gakvetilebi/Computer-Science/Class-6/List-9/სიები - კომპლექსური.mov" type="video/mp4">
-                     </video>
+                        <source src="../../../img/gakvetilebi/Computer-Science/Class-6/List-9/სიები - კომპლექსური.mov"
+                            type="video/mp4">
+                    </video>
                 </div>
             </div>
-                
+
             <div class="left_components_paging-cont" id="leftNav">
                 <left-nav-item></left-nav-item>
             </div>
@@ -92,12 +99,12 @@
     </div>
 
     <script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
-<script src="../../../js/detectdevice.js"></script>
+    <script src="../../../js/detectdevice.js"></script>
     <script src="../../../js/libraries/jquery.magnific-popup.min.js"></script>
     <script src="../../../js/Pagination.js"></script>
 
 
-<!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
+    <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
     <script src="../../../New-header-vue/vis.js"></script>
     <script src="../../../New-header-vue/app.js"></script>
     <script src="../../../Vue-chatBot/botApp.js"></script>

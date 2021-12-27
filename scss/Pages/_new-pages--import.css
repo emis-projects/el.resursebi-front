@@ -10760,7 +10760,10 @@ img.mfp-img[alt*=cs-3-6-6-img] {
 }
 
 .cs-6-24-div-img-21 {
-  height: 57.81vh;
+  height: 51.81vh;
+    position: fixed;
+    right: 0vh;
+    bottom: 0;
 }
 .cs-6-24-div-img-22 {
   height: 63.15vh;
@@ -23702,8 +23705,8 @@ img.mfp-img[alt*=cs-3-6-6-img] {
 }
 .operators-24 img {
   height: 100%;
-  bottom: 50vh;
-  right: 0;
+  bottom: 34vh;
+  right: 17px;
   position: absolute;
   width: 11.4vw;
   max-width: 156px;
@@ -25399,10 +25402,10 @@ img {
 }
 .creating-game-26-17 {
   position: fixed;
-  left: 85vh;
-  bottom: 17vh;
-  height: 55vh;
-  max-height: 424px;
+    left: 93vh;
+    bottom: 36vh;
+    height: 45vh;
+    max-height: 416px;
 }
 .creating-game-26-18 {
   height: 28.6vh;
