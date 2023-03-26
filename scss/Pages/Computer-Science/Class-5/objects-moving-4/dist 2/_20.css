@@ -1,0 +1,9 @@
+.objects_moving_img_box_20 {
+  position: fixed;
+  bottom: -6vh;
+  right: 0;
+}
+.objects_moving_img_box_20 img {
+  height: 64.2vh;
+  max-height: 492.6px;
+}

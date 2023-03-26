@@ -1,0 +1,34 @@
+.class_6_11-img_1 {
+  height: 53.9vh;
+  max-height: 414px;
+  margin: 7vh auto;
+}
+.class_6_11-img_1 img {
+  height: 100%;
+}
+.class_6_11-img_3 {
+  position: fixed;
+  bottom: 14vh;
+  height: 39.4vh;
+  max-height: 302.7px;
+}
+.class_6_11-img_4 {
+  position: fixed;
+  bottom: 0;
+  height: 49vh;
+  max-height: 377px;
+}
+.class_6_11-img_5 {
+  position: fixed;
+  right: 30vh;
+  bottom: 11vh;
+  height: 49.02vh;
+}
+.class_6_11-img_6 {
+  height: 62.6vh;
+  max-height: 481px;
+}
+
+.newDesign_subject_question_item.bottom {
+  margin-bottom: 0.8vh;
+}

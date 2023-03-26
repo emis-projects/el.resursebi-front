@@ -1,0 +1,90 @@
+.C-1366-02-14-mixer-img-div-container{
+    background-position:center;
+    background-size:contain;
+    background-repeat:no-repeat;
+    height:52.08vh;
+    width:8.78vw;
+    position: relative;
+
+    .mixer__head {
+        top: -11.5vh;
+        height: 11.5vh;
+        left: -8px;
+        position: absolute;
+        transition: all 0.3s;
+      }
+      
+      
+      .mixer__head.isNotOpen {
+        top: -5.5vh;
+        left: 49%;
+        position: absolute;
+        transform: translateX(-50%) rotate(90deg);
+      }
+      
+      .vegetables {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+      
+      .pear {
+        width: 3.22vw;
+        z-index: 100
+      }
+      
+      .banana {
+        width: 5.19vw;
+        z-index: 100
+      }
+      
+      .apple {
+        width: 3.58vw;
+        z-index: 100
+      }
+      
+      
+      .milk {
+        width: 4.71vw;
+        bottom: 29.3%;
+        z-index: 10
+      }
+      
+      .mixer-bottom {
+        bottom: 6px;
+        z-index: 1000;
+        position: absolute;
+      }
+      
+      .veget-zindex {
+        z-index: 1000
+      }
+      
+      .C-1366-02-14-mixer-btn-div {
+        height: 5.07vh;
+        width: 2.85vw;
+        top: 6px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+      
+}
+
+.C-1366-02-14-container{
+margin-top:2.86vh;
+}
+
+.C-1366-02-14-div-container{
+    margin-right:4vw;
+    margin-top: 7vh;
+}
+.C-1366-02-14-head-img-div-container{
+    position: absolute;
+    top:48.43vh;
+    left:30.38vw;
+    height:3.74vh;
+    img{
+        height:100%;
+    }
+}

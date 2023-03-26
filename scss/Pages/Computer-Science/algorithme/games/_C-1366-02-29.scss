@@ -1,0 +1,30 @@
+#C-1366-02-29{
+  .title {
+    font-family: 'BPG Arial', sans-serif;
+    font-size: 2.8vh;
+    margin-bottom: 2vh;
+    &:last-child {
+      margin-bottom: 5vh;
+    }
+  }
+  .button_box{
+    max-width: 352px;
+    max-height: 57px;
+    border-radius: 20px;
+    background: #C3B8DB;
+    margin-bottom: 3vh;
+
+    p {
+      font-family: 'BPG Nino Mtavruli Bold', sans-serif;
+      font-size: 2.2vh;
+      text-align: center;
+      padding: 2.3vh;
+      color: #FFFFFF;
+    }
+
+    &.error {
+      // border: 1px solid #dc6c85;
+      background: #dc6c85;
+    }
+  }
+}

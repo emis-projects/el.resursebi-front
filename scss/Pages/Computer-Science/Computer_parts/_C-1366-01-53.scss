@@ -1,0 +1,22 @@
+.background-cs{
+    &-53{
+        background-image: url("../../../../img/gakvetilebi/Computer-Science/Computer_parts/CP-53.svg");
+    }
+    &-54{
+        background-image: url("../../../../img/gakvetilebi/Computer-Science/Computer_parts/CP-54.svg");
+    }
+    &-55{
+        background-image: url("../../../../img/gakvetilebi/Computer-Science/Computer_parts/CP-55.svg");
+    }
+    &-56{
+        background-image: url("../../../../img/gakvetilebi/Computer-Science/Computer_parts/CP-56.svg");
+    }
+    &-full-title{
+        color: #5F73B3;
+        font-size: 3.64vh;
+        font-family: 'DejaVu Sans Oblique';
+        &--mt{
+           margin-top: 15vh; 
+        }
+    }
+}
