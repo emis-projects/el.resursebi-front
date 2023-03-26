@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ka" data-botid="2288">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="//cdn.web-fonts.ge/fonts/alk-sanet/css/alk-sanet.min.css" />
+    <script src="../../../js/vue.js"></script>
+    <link rel="stylesheet" href="../../../New-header-vue/animate.min.css">
+    <link rel="stylesheet" href="../../../scss/libraries/magnific-popup.css">
+    <link rel="stylesheet" href="../../../scss/libraries/bootstrap.min.css" />
+    <link rel="stylesheet" href="../../../scss/new-style.css" />
+    <title>ელექტრონული საგანმანათლებლო რესურსი</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-155006442-1');
+    </script>
+</head>
+
+<body class="background-cs-6-5-27">
+    <div class="container">
+        <section id="app" class="container position-absolute">
+            <header>
+                <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../../'"></app-menu>
+            </header>
+
+            <app-section :is-active="isActive" v-image="'../../../'">
+                <app-bar :is-active="isActive" :trigger="trigger" :dots="dots" :current-tab="link"
+                         v-on:link-tab="link = $event">
+
+                </app-bar>
+                <component :path="path" :is="currentTabComponent" :is-active="isActive" :trigger="trigger"
+                           :active-class="activeClass" :images="images" :is-info="isInfo"
+                           :tab-class="currentTabComponent">
+                </component>
+
+            </app-section>
+        </section>
+        <section id="mainPage">
+            <div class="row">
+                <div class="col-7 m-auto">
+                    <div class="background-cs-title-purple-cont">
+                        <h1 class="background-cs-title-purple">
+                            რა გაგიადვილდა და რა გაგიჭირდა?
+                        </h1>
+                    </div>
+                </div>
+            </div>
+            <div class="our__pagination flex">
+                <a href="#" class="pagination__prev__btn">
+                    <img style="transform: rotate(180deg)" src="../../../img/icons/chevron-left-icon.svg" alt="">
+                </a>
+
+                <div id="pagination" class="flex align-items-center"></div>
+
+                <a href="#" class="pagination__next__btn">
+                    <img src="../../../img/icons/chevron-left-icon.svg" alt="">
+                </a>
+            </div>
+        </section>
+    </div>
+    <!-- ჩეთბოტი -->
+    <div id="chatBot">
+        <app-bot></app-bot>
+    </div>
+
+    <script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
+    <script src="../../../js/libraries/jquery.magnific-popup.min.js"></script>
+    <script src="../../../js/Pagination.js"></script>
+
+
+<!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
+    <script src="../../../New-header-vue/vis.js"></script>
+    <script src="../../../New-header-vue/app.js"></script>
+    <script src="../../../Vue-chatBot/botApp.js"></script>
+    <script src="../../../js/bot.js"></script>
+</body>
+
+</html>

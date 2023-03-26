@@ -1,0 +1,32 @@
+.C-1366-01-14-purple-man-container{
+    position:absolute;
+    bottom:0;
+    left:0;
+    height:50vh;
+    &.bg{
+        height:62.89vh;
+    }
+    img{
+        height:100%;
+    }
+    
+}
+.C-1366-01-14-txt-container{
+    margin-top: 5.47vh;
+    padding-left: 0px;
+    p{
+        line-height: 30px;
+    }
+} 
+.C-1366-01-14-computer-parts-container{
+    height: 38.41vh;
+    img{
+        height:100%;
+    }
+}
+
+.C-1366-01-14-computer-text-container{
+    p{
+        line-height: 50px;
+    }
+}

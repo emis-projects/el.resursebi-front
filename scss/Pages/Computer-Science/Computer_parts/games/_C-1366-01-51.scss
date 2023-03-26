@@ -1,0 +1,168 @@
+#C-1366-51{
+  .margin-bottom-3vh{
+    margin-bottom: 3vh;
+  }
+  .mt-8vh{
+    margin-top: 5vh;
+  }
+  .part_box p{
+    margin: 1.3vh 0 2.8vh 0;
+  }
+
+  .p{
+    font-size: 2.864vh;
+    font-family: 'BPG Arial', sans-serif;
+  }
+  .motherboard img{
+    height: 11.9vh;
+    max-height: 93px;
+  }
+  .HDD img{
+    height: 8.2vh;
+    max-height: 63px;
+  }
+  .UPS img{
+    height: 5.8vh;
+    max-height: 45px;
+  }
+  .procesor img{
+    height: 5.4vh;
+    max-height: 42px;
+  }
+  .table_box{
+    position: absolute;
+    bottom: 5vh;
+    height: 70vh;
+    width: 100%;
+    max-height: 530px;
+    .dropdown_dest{
+      width: 628px;
+      background: rgba(255, 0, 0, 0.3);
+      height: 237px;
+      /* margin: 0 auto; */
+      position: absolute;
+      z-index: 444;
+      top: -23px;
+      left: 4px;
+      /* -webkit-transform: translateX(-50%); */
+      /* transform: translateX(-50%); */
+      -webkit-clip-path: polygon(14% 50%, 86% 50%, 100% 100%, 0% 100%);
+      clip-path: polygon(14% 50%, 86% 50%, 100% 100%, 0% 100%);
+    }
+    .image-box{
+      position: absolute;
+      z-index: 5;
+      bottom: 3vh;
+      height: 53vh;
+      max-height: 410px;
+      img{
+        height: 100%;
+      }
+      .table{
+        width: 100%;
+      }
+    }
+    .components_box{
+      position: absolute;
+      bottom: 0;
+      z-index: 10;
+      width: 19.5vw;
+      height: 31.9vh;
+      max-width: 326px;
+      max-height: 245px;
+      left: 50%;
+      transform: translate(-50%);
+      .first-img-line{
+        img:first-child{
+          height: 14vh;
+          max-height: 109px;
+        }
+        img:last-child{
+          height: 13.6vh;
+          max-height: 105px;
+        }
+        p{
+          width: 5.2vw;
+          max-width: 55px;
+          margin-left: -2.9vw;
+          margin-top: 1.3vh;
+          margin-bottom: 1.6vh;
+        }
+      }
+      .second-img-line{
+        img:first-child{
+          height: 7.5vh;
+          max-height: 58px;
+        }
+        img:last-child{
+          height: 5.7vh;
+          max-height: 44px;
+        }
+        p{
+          width: 5.2vw;
+          max-width: 55px;
+          margin-left: 2.9vw;
+          margin-top: 1vh;
+          &:last-child{
+            margin-left: 4.5vw;
+          }
+        }
+      }
+    }
+  }
+  .monitore img{
+    height: 17vh;
+    max-height: 136px;
+  }
+
+
+  .sys-block {
+    .ceise {
+      position: relative;
+      width: 210px;
+      height: 180px;
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+
+      .ups {
+        height: 42px;
+        position: absolute;
+        bottom: 19px;
+        right: 37px;
+      }
+
+      .hdd {
+        width: 49px;
+        position: absolute;
+        bottom: 73px;
+        right: 47px;
+      }
+
+      .ram {
+        height: 106px;
+        position: absolute;
+        bottom: 19px;
+        right: 111px;
+      }
+
+      .motherboard {
+        height: 88px;
+        position: absolute;
+        bottom: 19px;
+        left: 4px;
+      }
+
+      .cpu {
+        width: 49px;
+        position: absolute;
+        top: 24px;
+        left: 4px;
+      }
+    }
+  }
+
+  .mb-3vh{
+    margin-bottom: 3vh;
+  }
+}

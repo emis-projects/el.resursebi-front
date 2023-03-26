@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<!-- ბოტის აიდიში ვუთითებთ: ხელოვნების - 2318, ბუნების - 2320, მუსიკის - 2292 -->
+<html data-botid="2288" lang="ka">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta content="ie=edge" http-equiv="X-UA-Compatible" />
+  <!-- ყველა გვერდზე -->
+    <script src="../../../js/vue.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+  <!--  ვუე გაშვებისას
+    <script src="./js/vue.min.js"></script>
+     -->
+  <link href="../../../scss/libraries/bootstrap.min.css" rel="stylesheet">
+  <link href="../../../scss/style.css" rel="stylesheet" />
+  <title>ელექტრონული საგანმანათლებლო რესურსი</title>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-155006442-1');
+</script>
+</head>
+
+<body>
+  <div class="container ">
+    <header id="app">
+      <nav class="row">
+        <app-logo v-logo="'../../../'"></app-logo>
+        <app-menu v-menu:dark="'../../../'"></app-menu>
+        <sound-lang></sound-lang>
+      </nav>
+    </header>
+    <section id="C-1366-28">
+      <div class="subject_component row">
+        <div class="col-12 item_flex">
+          <div class="subject_component_itle_icon bg_bouble_pink d-flex justify-content-center align-items-center">
+            <img alt="hand" src="../../../img/backgrounds/bg-ilustrations/hand.svg" />
+          </div>
+          <h3 class="subject_component_title">სავარჯიშო</h3>
+        </div>
+      </div>
+
+
+
+      
+      <div class="row">
+        <div class="col-11 offset-1">
+          <p class="gess_title">გამოიცანით, რომელი მოწყობილობაა გამოსახული ფოტოზე.</p>
+        </div>
+        <div class="col-5 offset-1">
+          <div class="img_box">
+            <img alt="motherboard" src="../../../img/gakvetilebi/Computer-Science/Computer_parts/UPS-37.png">
+          </div>
+        </div>
+        <div class="col-6">
+            <div class="input_box d-flex flex-column justify-content-around">
+  
+              <label class="container">დედაპლატა
+                <span class="checkmark"></span>
+              </label>
+  
+              <label class="container">კვების ბლოკი
+                <span class="checkmark correct1"></span>
+              </label>
+  
+              <label class="container">მყარი დისკი
+                <span class="checkmark"></span>
+              </label>
+  
+              <label class="container">ოპერატიული მეხსიერება
+                <span class="checkmark"></span>
+              </label>
+            </div>
+          </div>
+      </div>
+
+
+      <div class="paging_buttons paging_buttons_position">
+        <a href="./C-1366-01-35.html">
+          <img alt="down arrow" class="paging_buttons_left" src="../../../img/icons/chevron-down-logo.svg" />
+        </a>
+        <a class="paging_buttons_margin-left" href="../C-1366-01-39.html">
+          <img alt="down arrow" class="paging_buttons_right" src="../../../img/icons/chevron-down-logo.svg" />
+        </a>
+      </div>
+      <div class="flex flex-end column align-items-end z-index reload_game_wrapper">
+        <button class="reset__btn" id="resetBtn">თავიდან სცადე</button>
+        <button class="completed__btn" id="completedGame">დასრულება</button>
+      </div>
+    </section>
+    <div class="subject_component_botton_illustration">
+      <div class="illustration_bg bg_pink_Down"></div>
+      <div class="subject_component_botton_bg_icon">
+        <img alt="hand" src="../../../img/backgrounds/bg-ilustrations/hand.svg" />
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- ჩეთბოტი -->
+  <div id="chatBot">
+    <app-bot></app-bot>
+  </div>
+
+  <script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
+  <script src="../js/C-1366-01-28--37.js"></script>
+
+  <!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
+  <script src="../../../Vue-Header/app.js"></script>
+  <script src="../../../Vue-chatBot/botApp.js"></script>
+  <script src="../../../js/bot.js"></script>
+
+   
+</body>
+
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!-- ბოტის აიდიში ვუთითებთ: ხელოვნების - 2318, ბუნების - 2320, მუსიკის - 2292 -->
+<html lang="ka" data-botid="2288">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- ყველა გვერდზე -->
+    <script src="../../../js/vue.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+    <!--  ვუე გაშვებისას
+    <script src="./js/vue.min.js"></script>
+     -->
+     <link rel="stylesheet" href="../../../New-header-vue/animate.min.css">
+    <link rel="stylesheet" href="../../../scss/libraries/bootstrap.min.css">
+    <link rel="stylesheet" href="../../../scss/new-style.css" />
+    <title>ელექტრონული საგანმანათლებლო რესურსი</title>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155006442-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-155006442-1');
+</script>
+</head>
+<body>
+    <div class="container">
+        
+        <section id="app" class="container position-absolute">
+            <header>
+                <app-menu :info="info" :is-active="isActive" :toggle="toggle" v-logo="'../../../'"></app-menu>
+            </header>
+
+            <app-section :is-active="isActive" :is-info="isInfo" v-image="'../../../'">
+                <app-bar
+                        :is-active="isActive"
+                        :trigger="trigger"
+                        :dots="dots"
+                        :current-tab="link"
+                        v-on:link-tab="link = $event">
+
+                </app-bar>
+                <component
+                        :path="path"
+                        :is="currentTabComponent"
+                        :is-active="isActive"
+                        :trigger="trigger"
+                        :images="images"
+                        :active-class="activeClass"
+                        :is-info="isInfo" :tab-class="currentTabComponent">
+                </component>
+
+            </app-section>
+        </section>
+
+
+        <div class="game__section flex justify-between" style="height: 70vh; margin-top: 10%">
+            <img style="width:100%" src="../../../img/gakvetilebi/Computer-Science/game-success-page.svg" alt="">
+        </div>
+
+
+        <div class="subject_component_botton_illustration">
+            <div class="illustration_bg bg_pink_Down"></div>
+
+            <div class="subject_component_botton_icon">
+                <img src="../../../../img/backgrounds/savarjisho-bg.svg" alt="">
+            </div>
+        </div>
+
+        <div class="paging_buttons paging_buttons_position">
+            <a href="./21-3.html">
+                <img src="../../../img/icons/chevron-down-logo.svg" alt="down arrow" class="paging_buttons_left" />
+            </a>
+            <a href="./22.html" class="paging_buttons_margin-left">
+                <img src="../../../img/icons/chevron-down-logo.svg" alt="down arrow" class="paging_buttons_right" />
+            </a>
+        </div>
+    </div>
+
+
+    <!-- header and bot vue -->
+    <script src="../../../js/libraries/jquery-3.4.1.min.js"></script>
+
+    
+<!-- header and bot vue. ეს სამიც გვინდა ყველა გვედზე -->
+    <script src="../../../New-header-vue/vis.js"></script>
+    <script src="../../../New-header-vue/app.js"></script>
+   
+</body>
+</html>

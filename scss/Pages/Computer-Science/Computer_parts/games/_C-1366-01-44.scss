@@ -1,0 +1,16 @@
+.white_circle_mid{
+    width: 4.55vh;
+    height: 4.55vh;
+    position: static;
+    margin-right: 2vw;
+}
+
+.car_game_white_circle {
+    &.error {
+        background: #DC6C85;
+    }
+
+    &.success {
+        background: #A1DD6F;
+    }
+}
