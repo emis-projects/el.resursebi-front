@@ -315,7 +315,7 @@ $(document).on("click", ".chat_msg_item-buttons button", function (e) {
 
     $.ajax({
         type: "POST",
-        url: 'https://apianimachatbotics.xyz/WCAPI',
+        url: 'https://apianima.online/WCAPI',
         data: JSON.stringify({
             "message": btnText,
             "userId": userId,
@@ -400,7 +400,7 @@ function sendMessage(e) {
 
     $.ajax({
         type: "POST",
-        url: 'https://apianimachatbotics.xyz/WCAPI',
+        url: 'https://apianima.online/WCAPI',
         data: JSON.stringify({
             "userId": userId,
             "message": msgText,
